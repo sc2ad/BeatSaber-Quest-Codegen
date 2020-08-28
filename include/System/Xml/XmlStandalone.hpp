@@ -16,6 +16,12 @@ namespace System::Xml {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: XmlStandalone
+    constexpr XmlStandalone(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Xml.XmlStandalone Omit
     static constexpr const int Omit = 0;
     // Get static field: static public System.Xml.XmlStandalone Omit
@@ -34,8 +40,6 @@ namespace System::Xml {
     static System::Xml::XmlStandalone _get_No();
     // Set static field: static public System.Xml.XmlStandalone No
     static void _set_No(System::Xml::XmlStandalone value);
-    // Creating value type constructor for type: XmlStandalone
-    XmlStandalone(int value_ = {}) : value{value_} {}
   }; // System.Xml.XmlStandalone
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

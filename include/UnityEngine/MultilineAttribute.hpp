@@ -16,6 +16,10 @@ namespace UnityEngine {
     // public readonly System.Int32 lines
     // Offset: 0x10
     int lines;
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return lines;
+    }
     // public System.Void .ctor()
     // Offset: 0x14168D8
     // Implemented from: UnityEngine.PropertyAttribute

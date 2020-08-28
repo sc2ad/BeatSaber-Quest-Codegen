@@ -23,6 +23,10 @@ namespace UnityEngine::Networking::PlayerConnection {
     // public System.Boolean msgReceived
     // Offset: 0x10
     bool msgReceived;
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return msgReceived;
+    }
     // System.Void <BlockUntilRecvMsg>b__0(UnityEngine.Networking.PlayerConnection.MessageEventArgs args)
     // Offset: 0x14184B8
     void $BlockUntilRecvMsg$b__0(UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);

@@ -28,6 +28,10 @@ namespace Zenject {
     // public System.Text.RegularExpressions.Regex regex
     // Offset: 0x10
     System::Text::RegularExpressions::Regex* regex;
+    // Creating conversion operator: operator System::Text::RegularExpressions::Regex*
+    constexpr operator System::Text::RegularExpressions::Regex*() const {
+      return regex;
+    }
     // System.Boolean <MatchingRegex>b__0(System.Type t)
     // Offset: 0xD70228
     bool $MatchingRegex$b__0(System::Type* t);

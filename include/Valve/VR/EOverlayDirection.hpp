@@ -16,6 +16,12 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EOverlayDirection
+    constexpr EOverlayDirection(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.EOverlayDirection Up
     static constexpr const int Up = 0;
     // Get static field: static public Valve.VR.EOverlayDirection Up
@@ -46,8 +52,6 @@ namespace Valve::VR {
     static Valve::VR::EOverlayDirection _get_Count();
     // Set static field: static public Valve.VR.EOverlayDirection Count
     static void _set_Count(Valve::VR::EOverlayDirection value);
-    // Creating value type constructor for type: EOverlayDirection
-    EOverlayDirection(int value_ = {}) : value{value_} {}
   }; // Valve.VR.EOverlayDirection
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

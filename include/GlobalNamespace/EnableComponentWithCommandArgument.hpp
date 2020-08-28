@@ -25,6 +25,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Behaviour _component
     // Offset: 0x20
     UnityEngine::Behaviour* component;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private System.Void Awake()
     // Offset: 0xCAFEB8
     void Awake();

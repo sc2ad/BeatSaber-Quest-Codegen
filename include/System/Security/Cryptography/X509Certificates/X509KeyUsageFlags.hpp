@@ -16,6 +16,12 @@ namespace System::Security::Cryptography::X509Certificates {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: X509KeyUsageFlags
+    constexpr X509KeyUsageFlags(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Security.Cryptography.X509Certificates.X509KeyUsageFlags None
     static constexpr const int None = 0;
     // Get static field: static public System.Security.Cryptography.X509Certificates.X509KeyUsageFlags None
@@ -76,8 +82,6 @@ namespace System::Security::Cryptography::X509Certificates {
     static System::Security::Cryptography::X509Certificates::X509KeyUsageFlags _get_DecipherOnly();
     // Set static field: static public System.Security.Cryptography.X509Certificates.X509KeyUsageFlags DecipherOnly
     static void _set_DecipherOnly(System::Security::Cryptography::X509Certificates::X509KeyUsageFlags value);
-    // Creating value type constructor for type: X509KeyUsageFlags
-    X509KeyUsageFlags(int value_ = {}) : value{value_} {}
   }; // System.Security.Cryptography.X509Certificates.X509KeyUsageFlags
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

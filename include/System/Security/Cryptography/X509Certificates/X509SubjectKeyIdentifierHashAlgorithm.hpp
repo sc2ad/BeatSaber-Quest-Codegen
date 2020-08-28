@@ -16,6 +16,12 @@ namespace System::Security::Cryptography::X509Certificates {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: X509SubjectKeyIdentifierHashAlgorithm
+    constexpr X509SubjectKeyIdentifierHashAlgorithm(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm Sha1
     static constexpr const int Sha1 = 0;
     // Get static field: static public System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm Sha1
@@ -34,8 +40,6 @@ namespace System::Security::Cryptography::X509Certificates {
     static System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm _get_CapiSha1();
     // Set static field: static public System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm CapiSha1
     static void _set_CapiSha1(System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm value);
-    // Creating value type constructor for type: X509SubjectKeyIdentifierHashAlgorithm
-    X509SubjectKeyIdentifierHashAlgorithm(int value_ = {}) : value{value_} {}
   }; // System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

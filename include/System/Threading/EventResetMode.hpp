@@ -16,6 +16,12 @@ namespace System::Threading {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EventResetMode
+    constexpr EventResetMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Threading.EventResetMode AutoReset
     static constexpr const int AutoReset = 0;
     // Get static field: static public System.Threading.EventResetMode AutoReset
@@ -28,8 +34,6 @@ namespace System::Threading {
     static System::Threading::EventResetMode _get_ManualReset();
     // Set static field: static public System.Threading.EventResetMode ManualReset
     static void _set_ManualReset(System::Threading::EventResetMode value);
-    // Creating value type constructor for type: EventResetMode
-    EventResetMode(int value_ = {}) : value{value_} {}
   }; // System.Threading.EventResetMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

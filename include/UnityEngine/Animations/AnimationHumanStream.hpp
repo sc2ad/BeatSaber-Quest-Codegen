@@ -18,7 +18,11 @@ namespace UnityEngine::Animations {
     // Offset: 0x0
     System::IntPtr stream;
     // Creating value type constructor for type: AnimationHumanStream
-    AnimationHumanStream(System::IntPtr stream_ = {}) : stream{stream_} {}
+    constexpr AnimationHumanStream(System::IntPtr stream_ = {}) : stream{stream_} {}
+    // Creating conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const {
+      return stream;
+    }
   }; // UnityEngine.Animations.AnimationHumanStream
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

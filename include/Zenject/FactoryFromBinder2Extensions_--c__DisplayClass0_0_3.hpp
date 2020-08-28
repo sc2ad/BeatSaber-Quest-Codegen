@@ -30,6 +30,10 @@ namespace Zenject {
     // public System.Guid factoryId
     // Offset: 0x0
     System::Guid factoryId;
+    // Creating conversion operator: operator System::Guid
+    constexpr operator System::Guid() const {
+      return factoryId;
+    }
     // Zenject.IProvider <FromIFactory>b__0(Zenject.DiContainer container)
     // Offset: 0xFFFFFFFF
     Zenject::IProvider* $FromIFactory$b__0(Zenject::DiContainer* container) {

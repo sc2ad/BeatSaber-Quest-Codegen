@@ -16,6 +16,12 @@ namespace UnityEngine::Bindings {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TargetType
+    constexpr TargetType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Bindings.TargetType Function
     static constexpr const int Function = 0;
     // Get static field: static public UnityEngine.Bindings.TargetType Function
@@ -28,8 +34,6 @@ namespace UnityEngine::Bindings {
     static UnityEngine::Bindings::TargetType _get_Field();
     // Set static field: static public UnityEngine.Bindings.TargetType Field
     static void _set_Field(UnityEngine::Bindings::TargetType value);
-    // Creating value type constructor for type: TargetType
-    TargetType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Bindings.TargetType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

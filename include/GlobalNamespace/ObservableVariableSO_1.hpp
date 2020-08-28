@@ -33,6 +33,8 @@ namespace GlobalNamespace {
     // private T _value
     // Offset: 0x0
     T value;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void add_didChangeEvent(System.Action value)
     // Offset: 0xFFFFFFFF
     // Implemented from: IObservableChange

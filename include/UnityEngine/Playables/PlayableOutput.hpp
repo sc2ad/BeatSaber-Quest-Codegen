@@ -23,12 +23,16 @@ namespace UnityEngine::Playables {
     // private UnityEngine.Playables.PlayableOutputHandle m_Handle
     // Offset: 0x0
     UnityEngine::Playables::PlayableOutputHandle m_Handle;
+    // Creating value type constructor for type: PlayableOutput
+    constexpr PlayableOutput(UnityEngine::Playables::PlayableOutputHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
+    // Creating conversion operator: operator UnityEngine::Playables::PlayableOutputHandle
+    constexpr operator UnityEngine::Playables::PlayableOutputHandle() const {
+      return m_Handle;
+    }
     // Get static field: static private readonly UnityEngine.Playables.PlayableOutput m_NullPlayableOutput
     static UnityEngine::Playables::PlayableOutput _get_m_NullPlayableOutput();
     // Set static field: static private readonly UnityEngine.Playables.PlayableOutput m_NullPlayableOutput
     static void _set_m_NullPlayableOutput(UnityEngine::Playables::PlayableOutput value);
-    // Creating value type constructor for type: PlayableOutput
-    PlayableOutput(UnityEngine::Playables::PlayableOutputHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // static public UnityEngine.Playables.PlayableOutput get_Null()
     // Offset: 0x141AD98
     static UnityEngine::Playables::PlayableOutput get_Null();

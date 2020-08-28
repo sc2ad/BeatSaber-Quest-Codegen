@@ -76,7 +76,7 @@ namespace GlobalNamespace {
       // Offset: 0x0
       System::Threading::CancellationToken cancellationToken;
       // Creating value type constructor for type: ScheduledTask
-      ScheduledTask(TKey keyId_ = {}, System::Threading::Tasks::TaskCompletionSource_1<TValue>* taskCompletionSource_ = {}, System::Threading::CancellationToken cancellationToken_ = {}) : keyId{keyId_}, taskCompletionSource{taskCompletionSource_}, cancellationToken{cancellationToken_} {}
+      constexpr ScheduledTask(TKey keyId_ = {}, System::Threading::Tasks::TaskCompletionSource_1<TValue>* taskCompletionSource_ = {}, System::Threading::CancellationToken cancellationToken_ = {}) : keyId{keyId_}, taskCompletionSource{taskCompletionSource_}, cancellationToken{cancellationToken_} {}
       // public System.Void .ctor(TKey keyId, System.Threading.Tasks.TaskCompletionSource`1<TValue> taskCompletionSource, System.Threading.CancellationToken cancellationToken)
       // Offset: 0xFFFFFFFF
       static typename AsyncCachedLoader_2<TKey, TValue>::ScheduledTask* New_ctor(TKey keyId, System::Threading::Tasks::TaskCompletionSource_1<TValue>* taskCompletionSource, System::Threading::CancellationToken cancellationToken) {
@@ -106,7 +106,7 @@ namespace GlobalNamespace {
       // Offset: 0x0
       System::Runtime::CompilerServices::TaskAwaiter_1<TValue> $$u__1;
       // Creating value type constructor for type: $LoadAsync$d__7
-      $LoadAsync$d__7(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TValue> $$t__builder_ = {}, TKey keyId_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>* $$4__this_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<TValue> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, keyId{keyId_}, cancellationToken{cancellationToken_}, $$4__this{$$4__this_}, $$u__1{$$u__1_} {}
+      constexpr $LoadAsync$d__7(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TValue> $$t__builder_ = {}, TKey keyId_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>* $$4__this_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<TValue> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, keyId{keyId_}, cancellationToken{cancellationToken_}, $$4__this{$$4__this_}, $$u__1{$$u__1_} {}
       // private System.Void MoveNext()
       // Offset: 0xFFFFFFFF
       // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
@@ -142,7 +142,7 @@ namespace GlobalNamespace {
       // Offset: 0x0
       System::Runtime::CompilerServices::TaskAwaiter_1<TValue> $$u__1;
       // Creating value type constructor for type: $LoadAllAsync$d__8
-      $LoadAllAsync$d__8(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>* $$4__this_ = {}, typename GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>::ScheduledTask $scheduledTask$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<TValue> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $scheduledTask$5__2{$scheduledTask$5__2_}, $$u__1{$$u__1_} {}
+      constexpr $LoadAllAsync$d__8(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>* $$4__this_ = {}, typename GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>::ScheduledTask $scheduledTask$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<TValue> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $scheduledTask$5__2{$scheduledTask$5__2_}, $$u__1{$$u__1_} {}
       // private System.Void MoveNext()
       // Offset: 0xFFFFFFFF
       // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine

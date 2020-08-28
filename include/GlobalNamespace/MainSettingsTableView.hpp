@@ -53,6 +53,8 @@ namespace GlobalNamespace {
     // private SettingsSubMenuInfo[] _settingsSubMenuInfos
     // Offset: 0x38
     ::Array<GlobalNamespace::SettingsSubMenuInfo*>* settingsSubMenuInfos;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static field const value: static private System.String kCellIdentifier
     static constexpr const char* kCellIdentifier = "Cell";
     // Get static field: static private System.String kCellIdentifier

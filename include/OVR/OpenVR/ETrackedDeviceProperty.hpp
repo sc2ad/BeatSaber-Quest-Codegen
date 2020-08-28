@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ETrackedDeviceProperty
+    constexpr ETrackedDeviceProperty(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.ETrackedDeviceProperty Prop_Invalid
     static constexpr const int Prop_Invalid = 0;
     // Get static field: static public OVR.OpenVR.ETrackedDeviceProperty Prop_Invalid
@@ -964,8 +970,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::ETrackedDeviceProperty _get_Prop_TrackedDeviceProperty_Max();
     // Set static field: static public OVR.OpenVR.ETrackedDeviceProperty Prop_TrackedDeviceProperty_Max
     static void _set_Prop_TrackedDeviceProperty_Max(OVR::OpenVR::ETrackedDeviceProperty value);
-    // Creating value type constructor for type: ETrackedDeviceProperty
-    ETrackedDeviceProperty(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.ETrackedDeviceProperty
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,10 @@ namespace HMUI {
     // public System.Single threshold
     // Offset: 0x10
     float threshold;
+    // Creating conversion operator: operator float
+    constexpr operator float() const {
+      return threshold;
+    }
     // System.Boolean <PageUpButtonPressed>b__0(System.Single posy)
     // Offset: 0x10E2488
     bool $PageUpButtonPressed$b__0(float posy);

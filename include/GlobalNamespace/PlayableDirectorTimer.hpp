@@ -31,6 +31,8 @@ namespace GlobalNamespace {
     // private AudioTimeSyncController _audioTimeSyncController
     // Offset: 0x20
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Update()
     // Offset: 0xBD976C
     void Update();

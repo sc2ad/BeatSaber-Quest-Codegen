@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: RenderingPath
+    constexpr RenderingPath(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.RenderingPath UsePlayerSettings
     static constexpr const int UsePlayerSettings = -1;
     // Get static field: static public UnityEngine.RenderingPath UsePlayerSettings
@@ -46,8 +52,6 @@ namespace UnityEngine {
     static UnityEngine::RenderingPath _get_DeferredShading();
     // Set static field: static public UnityEngine.RenderingPath DeferredShading
     static void _set_DeferredShading(UnityEngine::RenderingPath value);
-    // Creating value type constructor for type: RenderingPath
-    RenderingPath(int value_ = {}) : value{value_} {}
   }; // UnityEngine.RenderingPath
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

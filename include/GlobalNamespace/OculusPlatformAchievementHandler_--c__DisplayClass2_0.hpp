@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OculusPlatformAchievementHandler
 #include "GlobalNamespace/OculusPlatformAchievementHandler.hpp"
+// Including type: PlatformAchievementsModelSO
+#include "GlobalNamespace/PlatformAchievementsModelSO.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Oculus::Platform
@@ -29,6 +31,10 @@ namespace GlobalNamespace {
     // public PlatformAchievementsModelSO/UnlockAchievementCompletionHandler completionHandler
     // Offset: 0x10
     GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler* completionHandler;
+    // Creating conversion operator: operator GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler*
+    constexpr operator GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler*() const {
+      return completionHandler;
+    }
     // System.Void <UnlockAchievement>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AchievementUpdate> message)
     // Offset: 0xC39A14
     void $UnlockAchievement$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::AchievementUpdate*>* message);

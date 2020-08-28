@@ -43,6 +43,8 @@ namespace HMUI {
     // private HMUI.FlowCoordinator _rootFlowCoordinator
     // Offset: 0x28
     HMUI::FlowCoordinator* rootFlowCoordinator;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xEE22A8
     void Start();

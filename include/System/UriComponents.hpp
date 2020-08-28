@@ -16,6 +16,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: UriComponents
+    constexpr UriComponents(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.UriComponents Scheme
     static constexpr const int Scheme = 1;
     // Get static field: static public System.UriComponents Scheme
@@ -118,8 +124,6 @@ namespace System {
     static System::UriComponents _get_PathAndQuery();
     // Set static field: static public System.UriComponents PathAndQuery
     static void _set_PathAndQuery(System::UriComponents value);
-    // Creating value type constructor for type: UriComponents
-    UriComponents(int value_ = {}) : value{value_} {}
   }; // System.UriComponents
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

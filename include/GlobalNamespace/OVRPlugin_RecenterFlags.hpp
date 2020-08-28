@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: RecenterFlags
+    constexpr RecenterFlags(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRPlugin/RecenterFlags Default
     static constexpr const int Default = 0;
     // Get static field: static public OVRPlugin/RecenterFlags Default
@@ -42,8 +48,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::RecenterFlags _get_Count();
     // Set static field: static public OVRPlugin/RecenterFlags Count
     static void _set_Count(GlobalNamespace::OVRPlugin::RecenterFlags value);
-    // Creating value type constructor for type: RecenterFlags
-    RecenterFlags(int value_ = {}) : value{value_} {}
   }; // OVRPlugin/RecenterFlags
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

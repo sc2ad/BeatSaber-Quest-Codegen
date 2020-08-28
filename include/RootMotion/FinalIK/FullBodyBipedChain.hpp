@@ -16,6 +16,12 @@ namespace RootMotion::FinalIK {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: FullBodyBipedChain
+    constexpr FullBodyBipedChain(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public RootMotion.FinalIK.FullBodyBipedChain LeftArm
     static constexpr const int LeftArm = 0;
     // Get static field: static public RootMotion.FinalIK.FullBodyBipedChain LeftArm
@@ -40,8 +46,6 @@ namespace RootMotion::FinalIK {
     static RootMotion::FinalIK::FullBodyBipedChain _get_RightLeg();
     // Set static field: static public RootMotion.FinalIK.FullBodyBipedChain RightLeg
     static void _set_RightLeg(RootMotion::FinalIK::FullBodyBipedChain value);
-    // Creating value type constructor for type: FullBodyBipedChain
-    FullBodyBipedChain(int value_ = {}) : value{value_} {}
   }; // RootMotion.FinalIK.FullBodyBipedChain
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

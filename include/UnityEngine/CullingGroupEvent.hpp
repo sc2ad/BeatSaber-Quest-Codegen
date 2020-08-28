@@ -23,7 +23,7 @@ namespace UnityEngine {
     // Offset: 0x5
     uint8_t m_ThisState;
     // Creating value type constructor for type: CullingGroupEvent
-    CullingGroupEvent(int m_Index_ = {}, uint8_t m_PrevState_ = {}, uint8_t m_ThisState_ = {}) : m_Index{m_Index_}, m_PrevState{m_PrevState_}, m_ThisState{m_ThisState_} {}
+    constexpr CullingGroupEvent(int m_Index_ = {}, uint8_t m_PrevState_ = {}, uint8_t m_ThisState_ = {}) : m_Index{m_Index_}, m_PrevState{m_PrevState_}, m_ThisState{m_ThisState_} {}
   }; // UnityEngine.CullingGroupEvent
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

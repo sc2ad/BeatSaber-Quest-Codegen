@@ -18,6 +18,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Check
+    constexpr Check(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Uri/Check None
     static constexpr const int None = 0;
     // Get static field: static public System.Uri/Check None
@@ -72,8 +78,6 @@ namespace System {
     static System::Uri::Check _get_FoundNonAscii();
     // Set static field: static public System.Uri/Check FoundNonAscii
     static void _set_FoundNonAscii(System::Uri::Check value);
-    // Creating value type constructor for type: Check
-    Check(int value_ = {}) : value{value_} {}
   }; // System.Uri/Check
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -18,6 +18,10 @@ namespace System::Xml {
     // private System.Xml.XmlWellFormedWriter wfWriter
     // Offset: 0x10
     System::Xml::XmlWellFormedWriter* wfWriter;
+    // Creating conversion operator: operator System::Xml::XmlWellFormedWriter*
+    constexpr operator System::Xml::XmlWellFormedWriter*() const {
+      return wfWriter;
+    }
     // System.Void .ctor(System.Xml.XmlWellFormedWriter wfWriter)
     // Offset: 0x1945CEC
     static XmlWellFormedWriter::NamespaceResolverProxy* New_ctor(System::Xml::XmlWellFormedWriter* wfWriter);

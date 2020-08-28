@@ -41,7 +41,7 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // Offset: 0x34
     float penumbraWidthRadian;
     // Creating value type constructor for type: DirectionalLight
-    DirectionalLight(int instanceID_ = {}, bool shadow_ = {}, UnityEngine::Experimental::GlobalIllumination::LightMode mode_ = {}, UnityEngine::Vector3 direction_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor color_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor_ = {}, float penumbraWidthRadian_ = {}) : instanceID{instanceID_}, shadow{shadow_}, mode{mode_}, direction{direction_}, color{color_}, indirectColor{indirectColor_}, penumbraWidthRadian{penumbraWidthRadian_} {}
+    constexpr DirectionalLight(int instanceID_ = {}, bool shadow_ = {}, UnityEngine::Experimental::GlobalIllumination::LightMode mode_ = {}, UnityEngine::Vector3 direction_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor color_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor_ = {}, float penumbraWidthRadian_ = {}) : instanceID{instanceID_}, shadow{shadow_}, mode{mode_}, direction{direction_}, color{color_}, indirectColor{indirectColor_}, penumbraWidthRadian{penumbraWidthRadian_} {}
   }; // UnityEngine.Experimental.GlobalIllumination.DirectionalLight
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

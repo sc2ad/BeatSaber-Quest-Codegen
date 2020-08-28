@@ -48,6 +48,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Vector3 _lastTrackedPosition
     // Offset: 0x38
     UnityEngine::Vector3 lastTrackedPosition;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public UnityEngine.XR.XRNode get_node()
     // Offset: 0xCBECE0
     UnityEngine::XR::XRNode get_node();

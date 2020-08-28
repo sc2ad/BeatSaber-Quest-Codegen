@@ -29,7 +29,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x14
     int right;
     // Creating value type constructor for type: IntervalTreeNode
-    IntervalTreeNode(int64_t center_ = {}, int first_ = {}, int last_ = {}, int left_ = {}, int right_ = {}) : center{center_}, first{first_}, last{last_}, left{left_}, right{right_} {}
+    constexpr IntervalTreeNode(int64_t center_ = {}, int first_ = {}, int last_ = {}, int left_ = {}, int right_ = {}) : center{center_}, first{first_}, last{last_}, left{left_}, right{right_} {}
   }; // UnityEngine.Timeline.IntervalTreeNode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -23,6 +23,8 @@ namespace GlobalNamespace {
     // public UnityEngine.GameObject _prefab
     // Offset: 0x18
     UnityEngine::GameObject* prefab;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Awake()
     // Offset: 0xCB7A48
     void Awake();

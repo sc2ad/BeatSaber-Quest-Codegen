@@ -16,6 +16,12 @@ namespace UnityEngine::Experimental::Rendering {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: DefaultFormat
+    constexpr DefaultFormat(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Experimental.Rendering.DefaultFormat LDR
     static constexpr const int LDR = 0;
     // Get static field: static public UnityEngine.Experimental.Rendering.DefaultFormat LDR
@@ -28,8 +34,6 @@ namespace UnityEngine::Experimental::Rendering {
     static UnityEngine::Experimental::Rendering::DefaultFormat _get_HDR();
     // Set static field: static public UnityEngine.Experimental.Rendering.DefaultFormat HDR
     static void _set_HDR(UnityEngine::Experimental::Rendering::DefaultFormat value);
-    // Creating value type constructor for type: DefaultFormat
-    DefaultFormat(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Experimental.Rendering.DefaultFormat
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

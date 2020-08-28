@@ -69,6 +69,8 @@ namespace GlobalNamespace {
     // private HMAsyncRequest _getUserInfoAsyncRequest
     // Offset: 0x40
     GlobalNamespace::HMAsyncRequest* getUserInfoAsyncRequest;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void add_allScoresDidUploadEvent(System.Action value)
     // Offset: 0xBD653C
     void add_allScoresDidUploadEvent(System::Action* value);

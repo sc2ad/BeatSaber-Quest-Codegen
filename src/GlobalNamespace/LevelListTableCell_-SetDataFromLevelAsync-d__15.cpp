@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: LevelListTableCell/<SetDataFromLevelAsync>d__15
 #include "GlobalNamespace/LevelListTableCell_-SetDataFromLevelAsync-d__15.hpp"
 // Including type: IPreviewBeatmapLevel

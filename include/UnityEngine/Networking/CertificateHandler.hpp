@@ -16,6 +16,10 @@ namespace UnityEngine::Networking {
     // System.IntPtr m_Ptr
     // Offset: 0x10
     System::IntPtr m_Ptr;
+    // Creating conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const {
+      return m_Ptr;
+    }
     // private System.Void Release()
     // Offset: 0x1947E28
     void Release();

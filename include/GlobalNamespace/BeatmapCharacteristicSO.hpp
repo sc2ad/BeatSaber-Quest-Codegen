@@ -44,6 +44,8 @@ namespace GlobalNamespace {
     // private System.Boolean _requires360Movement
     // Offset: 0x45
     bool requires360Movement;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public UnityEngine.Sprite get_icon()
     // Offset: 0xB9174C
     UnityEngine::Sprite* get_icon();

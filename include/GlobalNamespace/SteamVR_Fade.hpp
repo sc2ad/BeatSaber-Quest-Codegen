@@ -34,6 +34,8 @@ namespace GlobalNamespace {
     // private System.Boolean fadeOverlay
     // Offset: 0x48
     bool fadeOverlay;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // Get static field: static private UnityEngine.Material fadeMaterial
     static UnityEngine::Material* _get_fadeMaterial();
     // Set static field: static private UnityEngine.Material fadeMaterial

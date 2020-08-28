@@ -16,6 +16,12 @@ namespace UnityEngine::Rendering {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ShadowMapPass
+    constexpr ShadowMapPass(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Rendering.ShadowMapPass PointlightPositiveX
     static constexpr const int PointlightPositiveX = 1;
     // Get static field: static public UnityEngine.Rendering.ShadowMapPass PointlightPositiveX
@@ -100,8 +106,6 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::ShadowMapPass _get_All();
     // Set static field: static public UnityEngine.Rendering.ShadowMapPass All
     static void _set_All(UnityEngine::Rendering::ShadowMapPass value);
-    // Creating value type constructor for type: ShadowMapPass
-    ShadowMapPass(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Rendering.ShadowMapPass
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

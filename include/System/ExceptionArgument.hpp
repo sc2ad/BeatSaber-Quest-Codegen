@@ -16,6 +16,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ExceptionArgument
+    constexpr ExceptionArgument(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.ExceptionArgument obj
     static constexpr const int obj = 0;
     // Get static field: static public System.ExceptionArgument obj
@@ -184,8 +190,6 @@ namespace System {
     static System::ExceptionArgument _get_text();
     // Set static field: static public System.ExceptionArgument text
     static void _set_text(System::ExceptionArgument value);
-    // Creating value type constructor for type: ExceptionArgument
-    ExceptionArgument(int value_ = {}) : value{value_} {}
   }; // System.ExceptionArgument
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -31,6 +31,10 @@ namespace UnityEngine {
     // System.IntPtr m_Ptr
     // Offset: 0x10
     System::IntPtr m_Ptr;
+    // Creating conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const {
+      return m_Ptr;
+    }
     // private UnityEngine.Color GetColorImpl(System.Int32 name)
     // Offset: 0x13188E4
     UnityEngine::Color GetColorImpl(int name);

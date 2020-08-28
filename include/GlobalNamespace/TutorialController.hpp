@@ -70,6 +70,8 @@ namespace GlobalNamespace {
     // private System.Boolean _doingOutroTransition
     // Offset: 0x51
     bool doingOutroTransition;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xC481AC
     void Start();

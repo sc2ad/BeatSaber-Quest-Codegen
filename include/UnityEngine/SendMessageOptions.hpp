@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SendMessageOptions
+    constexpr SendMessageOptions(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.SendMessageOptions RequireReceiver
     static constexpr const int RequireReceiver = 0;
     // Get static field: static public UnityEngine.SendMessageOptions RequireReceiver
@@ -28,8 +34,6 @@ namespace UnityEngine {
     static UnityEngine::SendMessageOptions _get_DontRequireReceiver();
     // Set static field: static public UnityEngine.SendMessageOptions DontRequireReceiver
     static void _set_DontRequireReceiver(UnityEngine::SendMessageOptions value);
-    // Creating value type constructor for type: SendMessageOptions
-    SendMessageOptions(int value_ = {}) : value{value_} {}
   }; // UnityEngine.SendMessageOptions
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

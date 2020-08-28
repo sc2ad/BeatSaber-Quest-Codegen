@@ -74,6 +74,8 @@ namespace GlobalNamespace {
     // private System.Single _lifeTime
     // Offset: 0x5C
     float lifeTime;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // Get static field: static private readonly System.Int32 _cutoutPropertyID
     static int _get__cutoutPropertyID();
     // Set static field: static private readonly System.Int32 _cutoutPropertyID

@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.FBBIKHeadEffector
 #include "RootMotion/FinalIK/FBBIKHeadEffector.hpp"
+// Including type: UnityEngine.Quaternion
+#include "UnityEngine/Quaternion.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

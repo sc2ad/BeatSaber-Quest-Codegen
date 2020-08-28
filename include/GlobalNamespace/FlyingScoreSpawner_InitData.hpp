@@ -18,6 +18,10 @@ namespace GlobalNamespace {
     // public readonly FlyingScoreSpawner/SpawnPosition spawnPosition
     // Offset: 0x10
     GlobalNamespace::FlyingScoreSpawner::SpawnPosition spawnPosition;
+    // Creating conversion operator: operator GlobalNamespace::FlyingScoreSpawner::SpawnPosition
+    constexpr operator GlobalNamespace::FlyingScoreSpawner::SpawnPosition() const {
+      return spawnPosition;
+    }
     // public System.Void .ctor(FlyingScoreSpawner/SpawnPosition spawnPosition)
     // Offset: 0xBF0D4C
     static FlyingScoreSpawner::InitData* New_ctor(GlobalNamespace::FlyingScoreSpawner::SpawnPosition spawnPosition);

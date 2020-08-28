@@ -35,6 +35,8 @@ namespace GlobalNamespace {
     // private IAnalyticsModel _analyticsModel
     // Offset: 0x28
     GlobalNamespace::IAnalyticsModel* analyticsModel;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xB9D8A4
     void Start();

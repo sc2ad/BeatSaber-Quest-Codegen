@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ETrackedControllerRole
+    constexpr ETrackedControllerRole(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.ETrackedControllerRole Invalid
     static constexpr const int Invalid = 0;
     // Get static field: static public OVR.OpenVR.ETrackedControllerRole Invalid
@@ -46,8 +52,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::ETrackedControllerRole _get_Max();
     // Set static field: static public OVR.OpenVR.ETrackedControllerRole Max
     static void _set_Max(OVR::OpenVR::ETrackedControllerRole value);
-    // Creating value type constructor for type: ETrackedControllerRole
-    ETrackedControllerRole(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.ETrackedControllerRole
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

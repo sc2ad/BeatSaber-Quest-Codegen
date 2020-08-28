@@ -30,6 +30,10 @@ namespace OVR::OpenVR {
     // private OVR.OpenVR.IVRIOBuffer FnTable
     // Offset: 0x10
     OVR::OpenVR::IVRIOBuffer FnTable;
+    // Creating conversion operator: operator OVR::OpenVR::IVRIOBuffer
+    constexpr operator OVR::OpenVR::IVRIOBuffer() const {
+      return FnTable;
+    }
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0xECF024
     static CVRIOBuffer* New_ctor(System::IntPtr pInterface);

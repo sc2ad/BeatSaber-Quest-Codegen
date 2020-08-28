@@ -33,7 +33,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0x10
     ::Il2CppString* m_name;
     // Creating value type constructor for type: SerializationEntry
-    SerializationEntry(System::Type* m_type_ = {}, ::Il2CppObject* m_value_ = {}, ::Il2CppString* m_name_ = {}) : m_type{m_type_}, m_value{m_value_}, m_name{m_name_} {}
+    constexpr SerializationEntry(System::Type* m_type_ = {}, ::Il2CppObject* m_value_ = {}, ::Il2CppString* m_name_ = {}) : m_type{m_type_}, m_value{m_value_}, m_name{m_name_} {}
     // public System.Object get_Value()
     // Offset: 0xA3F0E0
     ::Il2CppObject* get_Value();

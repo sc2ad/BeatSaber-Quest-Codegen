@@ -19,7 +19,7 @@ namespace Valve::VR {
     // Offset: 0x4
     uint unArgsHandle;
     // Creating value type constructor for type: VREvent_ApplicationLaunch_t
-    VREvent_ApplicationLaunch_t(uint pid_ = {}, uint unArgsHandle_ = {}) : pid{pid_}, unArgsHandle{unArgsHandle_} {}
+    constexpr VREvent_ApplicationLaunch_t(uint pid_ = {}, uint unArgsHandle_ = {}) : pid{pid_}, unArgsHandle{unArgsHandle_} {}
   }; // Valve.VR.VREvent_ApplicationLaunch_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

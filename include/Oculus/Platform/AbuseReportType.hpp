@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: AbuseReportType
+    constexpr AbuseReportType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.AbuseReportType Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.AbuseReportType Unknown
@@ -34,8 +40,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::AbuseReportType _get_User();
     // Set static field: static public Oculus.Platform.AbuseReportType User
     static void _set_User(Oculus::Platform::AbuseReportType value);
-    // Creating value type constructor for type: AbuseReportType
-    AbuseReportType(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.AbuseReportType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

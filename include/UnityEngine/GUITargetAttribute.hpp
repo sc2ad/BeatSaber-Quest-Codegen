@@ -23,6 +23,10 @@ namespace UnityEngine {
     // System.Int32 displayMask
     // Offset: 0x10
     int displayMask;
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return displayMask;
+    }
     // static private System.Int32 GetGUITargetAttrValue(System.Type klass, System.String methodName)
     // Offset: 0x1277998
     static int GetGUITargetAttrValue(System::Type* klass, ::Il2CppString* methodName);

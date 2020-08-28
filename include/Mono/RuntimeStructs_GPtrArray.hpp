@@ -29,7 +29,7 @@ namespace Mono {
     // Offset: 0x8
     int len;
     // Creating value type constructor for type: GPtrArray
-    GPtrArray(System::IntPtr* data_ = {}, int len_ = {}) : data{data_}, len{len_} {}
+    constexpr GPtrArray(System::IntPtr* data_ = {}, int len_ = {}) : data{data_}, len{len_} {}
   }; // Mono.RuntimeStructs/GPtrArray
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

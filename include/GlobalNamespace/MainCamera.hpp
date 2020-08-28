@@ -30,6 +30,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Transform _transform
     // Offset: 0x20
     UnityEngine::Transform* transform;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public UnityEngine.Camera get_camera()
     // Offset: 0xBFD07C
     UnityEngine::Camera* get_camera();

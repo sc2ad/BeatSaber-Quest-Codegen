@@ -23,6 +23,8 @@ namespace GlobalNamespace {
     // private ColorScheme _colorScheme
     // Offset: 0x18
     GlobalNamespace::ColorScheme* colorScheme;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public ColorScheme get_colorScheme()
     // Offset: 0x1980DB0
     GlobalNamespace::ColorScheme* get_colorScheme();

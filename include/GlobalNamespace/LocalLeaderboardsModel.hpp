@@ -55,6 +55,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: LeaderboardType
+      constexpr LeaderboardType(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public LocalLeaderboardsModel/LeaderboardType AllTime
       static constexpr const int AllTime = 0;
       // Get static field: static public LocalLeaderboardsModel/LeaderboardType AllTime
@@ -67,8 +73,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::LocalLeaderboardsModel::LeaderboardType _get_Daily();
       // Set static field: static public LocalLeaderboardsModel/LeaderboardType Daily
       static void _set_Daily(GlobalNamespace::LocalLeaderboardsModel::LeaderboardType value);
-      // Creating value type constructor for type: LeaderboardType
-      LeaderboardType(int value_ = {}) : value{value_} {}
     }; // LocalLeaderboardsModel/LeaderboardType
     // private System.Int32 _maxNumberOfScoresInLeaderboard
     // Offset: 0x18
@@ -88,6 +92,8 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.List`1<LocalLeaderboardsModel/LeaderboardData> _dailyLeaderboardsData
     // Offset: 0x40
     System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>* dailyLeaderboardsData;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static field const value: static private System.String kLocalLeaderboardsFileName
     static constexpr const char* kLocalLeaderboardsFileName = "LocalLeaderboards.dat";
     // Get static field: static private System.String kLocalLeaderboardsFileName

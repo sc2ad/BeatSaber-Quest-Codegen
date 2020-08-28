@@ -16,6 +16,12 @@ namespace UnityEngine::Bindings {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: StaticAccessorType
+    constexpr StaticAccessorType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Bindings.StaticAccessorType Dot
     static constexpr const int Dot = 0;
     // Get static field: static public UnityEngine.Bindings.StaticAccessorType Dot
@@ -40,8 +46,6 @@ namespace UnityEngine::Bindings {
     static UnityEngine::Bindings::StaticAccessorType _get_ArrowWithDefaultReturnIfNull();
     // Set static field: static public UnityEngine.Bindings.StaticAccessorType ArrowWithDefaultReturnIfNull
     static void _set_ArrowWithDefaultReturnIfNull(UnityEngine::Bindings::StaticAccessorType value);
-    // Creating value type constructor for type: StaticAccessorType
-    StaticAccessorType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Bindings.StaticAccessorType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

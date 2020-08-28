@@ -69,6 +69,8 @@ namespace GlobalNamespace {
     // private NoteDebris _noteDebrisLWPrefab
     // Offset: 0x60
     GlobalNamespace::NoteDebris* noteDebrisLWPrefab;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void ManualInstallBindings(Zenject.DiContainer container, System.Boolean shortBeatEffect)
     // Offset: 0xBE93BC
     void ManualInstallBindings(Zenject::DiContainer* container, bool shortBeatEffect);

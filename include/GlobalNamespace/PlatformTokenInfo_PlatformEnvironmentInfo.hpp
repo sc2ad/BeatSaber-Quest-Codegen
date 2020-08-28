@@ -29,6 +29,12 @@ namespace GlobalNamespace {
       // public System.Byte value__
       // Offset: 0x0
       uint8_t value;
+      // Creating value type constructor for type: PlatformEnvironment
+      constexpr PlatformEnvironment(uint8_t value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator uint8_t
+      constexpr operator uint8_t() const {
+        return value;
+      }
       // static field const value: static public PlatformTokenInfo/PlatformEnvironmentInfo/PlatformEnvironment Test
       static constexpr const uint8_t Test = 0u;
       // Get static field: static public PlatformTokenInfo/PlatformEnvironmentInfo/PlatformEnvironment Test
@@ -53,8 +59,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::PlatformTokenInfo::PlatformEnvironmentInfo::PlatformEnvironment _get_Live();
       // Set static field: static public PlatformTokenInfo/PlatformEnvironmentInfo/PlatformEnvironment Live
       static void _set_Live(GlobalNamespace::PlatformTokenInfo::PlatformEnvironmentInfo::PlatformEnvironment value);
-      // Creating value type constructor for type: PlatformEnvironment
-      PlatformEnvironment(uint8_t value_ = {}) : value{value_} {}
     }; // PlatformTokenInfo/PlatformEnvironmentInfo/PlatformEnvironment
     // public readonly PlatformTokenInfo/PlatformEnvironmentInfo/PlatformEnvironment platformEnvironment
     // Offset: 0x10

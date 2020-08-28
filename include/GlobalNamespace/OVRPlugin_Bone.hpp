@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     // Offset: 0x8
     GlobalNamespace::OVRPlugin::Posef Pose;
     // Creating value type constructor for type: Bone
-    Bone(GlobalNamespace::OVRPlugin::BoneId Id_ = {}, int16_t ParentBoneIndex_ = {}, GlobalNamespace::OVRPlugin::Posef Pose_ = {}) : Id{Id_}, ParentBoneIndex{ParentBoneIndex_}, Pose{Pose_} {}
+    constexpr Bone(GlobalNamespace::OVRPlugin::BoneId Id_ = {}, int16_t ParentBoneIndex_ = {}, GlobalNamespace::OVRPlugin::Posef Pose_ = {}) : Id{Id_}, ParentBoneIndex{ParentBoneIndex_}, Pose{Pose_} {}
   }; // OVRPlugin/Bone
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

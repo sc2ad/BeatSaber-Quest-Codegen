@@ -16,6 +16,12 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVREye
+    constexpr EVREye(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.EVREye Eye_Left
     static constexpr const int Eye_Left = 0;
     // Get static field: static public Valve.VR.EVREye Eye_Left
@@ -28,8 +34,6 @@ namespace Valve::VR {
     static Valve::VR::EVREye _get_Eye_Right();
     // Set static field: static public Valve.VR.EVREye Eye_Right
     static void _set_Eye_Right(Valve::VR::EVREye value);
-    // Creating value type constructor for type: EVREye
-    EVREye(int value_ = {}) : value{value_} {}
   }; // Valve.VR.EVREye
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: DrivenTransformProperties
+    constexpr DrivenTransformProperties(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.DrivenTransformProperties None
     static constexpr const int None = 0;
     // Get static field: static public UnityEngine.DrivenTransformProperties None
@@ -166,8 +172,6 @@ namespace UnityEngine {
     static UnityEngine::DrivenTransformProperties _get_Pivot();
     // Set static field: static public UnityEngine.DrivenTransformProperties Pivot
     static void _set_Pivot(UnityEngine::DrivenTransformProperties value);
-    // Creating value type constructor for type: DrivenTransformProperties
-    DrivenTransformProperties(int value_ = {}) : value{value_} {}
   }; // UnityEngine.DrivenTransformProperties
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

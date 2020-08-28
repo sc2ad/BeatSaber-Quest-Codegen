@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRScreenshotType
+    constexpr EVRScreenshotType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.EVRScreenshotType None
     static constexpr const int None = 0;
     // Get static field: static public OVR.OpenVR.EVRScreenshotType None
@@ -52,8 +58,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRScreenshotType _get_StereoPanorama();
     // Set static field: static public OVR.OpenVR.EVRScreenshotType StereoPanorama
     static void _set_StereoPanorama(OVR::OpenVR::EVRScreenshotType value);
-    // Creating value type constructor for type: EVRScreenshotType
-    EVRScreenshotType(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EVRScreenshotType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

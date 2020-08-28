@@ -88,6 +88,8 @@ namespace Zenject {
     // private System.Collections.Generic.List`1<System.Type> _normalInstallerTypes
     // Offset: 0x38
     System::Collections::Generic::List_1<System::Type*>* normalInstallerTypes;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Collections.Generic.IEnumerable`1<Zenject.MonoInstaller> get_Installers()
     // Offset: 0xD6D080
     System::Collections::Generic::IEnumerable_1<Zenject::MonoInstaller*>* get_Installers();

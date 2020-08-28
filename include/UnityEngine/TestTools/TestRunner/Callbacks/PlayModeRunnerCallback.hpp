@@ -35,6 +35,8 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // private UnityEngine.TestTools.TestRunner.Callbacks.TestResultRenderer m_ResultRenderer
     // Offset: 0x18
     UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer* m_ResultRenderer;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void RunFinished(NUnit.Framework.Interfaces.ITestResult testResults)
     // Offset: 0xE45404
     void RunFinished(NUnit::Framework::Interfaces::ITestResult* testResults);

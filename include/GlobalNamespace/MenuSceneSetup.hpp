@@ -43,6 +43,8 @@ namespace GlobalNamespace {
     // private HMUI.HierarchyManager _hierarchyManager
     // Offset: 0x28
     HMUI::HierarchyManager* hierarchyManager;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Collections.IEnumerator Start()
     // Offset: 0xC01E30
     System::Collections::IEnumerator* Start();

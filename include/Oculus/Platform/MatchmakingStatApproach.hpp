@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: MatchmakingStatApproach
+    constexpr MatchmakingStatApproach(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.MatchmakingStatApproach Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.MatchmakingStatApproach Unknown
@@ -34,8 +40,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::MatchmakingStatApproach _get_Swingy();
     // Set static field: static public Oculus.Platform.MatchmakingStatApproach Swingy
     static void _set_Swingy(Oculus::Platform::MatchmakingStatApproach value);
-    // Creating value type constructor for type: MatchmakingStatApproach
-    MatchmakingStatApproach(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.MatchmakingStatApproach
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

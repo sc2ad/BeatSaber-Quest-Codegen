@@ -16,14 +16,18 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EChaperoneImportFlags
+    constexpr EChaperoneImportFlags(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.EChaperoneImportFlags EChaperoneImport_BoundsOnly
     static constexpr const int EChaperoneImport_BoundsOnly = 1;
     // Get static field: static public Valve.VR.EChaperoneImportFlags EChaperoneImport_BoundsOnly
     static Valve::VR::EChaperoneImportFlags _get_EChaperoneImport_BoundsOnly();
     // Set static field: static public Valve.VR.EChaperoneImportFlags EChaperoneImport_BoundsOnly
     static void _set_EChaperoneImport_BoundsOnly(Valve::VR::EChaperoneImportFlags value);
-    // Creating value type constructor for type: EChaperoneImportFlags
-    EChaperoneImportFlags(int value_ = {}) : value{value_} {}
   }; // Valve.VR.EChaperoneImportFlags
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

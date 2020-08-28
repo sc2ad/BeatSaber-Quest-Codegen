@@ -25,6 +25,8 @@ namespace GlobalNamespace {
     // public MainEffectSO mainEffect
     // Offset: 0x18
     GlobalNamespace::MainEffectSO* mainEffect;
+    // Deleting conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const = delete;
     // public System.Void .ctor()
     // Offset: 0xBFD198
     // Implemented from: NamedPreset

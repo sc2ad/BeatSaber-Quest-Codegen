@@ -16,6 +16,12 @@ namespace System::Threading {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SynchronizationContextProperties
+    constexpr SynchronizationContextProperties(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Threading.SynchronizationContextProperties None
     static constexpr const int None = 0;
     // Get static field: static public System.Threading.SynchronizationContextProperties None
@@ -28,8 +34,6 @@ namespace System::Threading {
     static System::Threading::SynchronizationContextProperties _get_RequireWaitNotification();
     // Set static field: static public System.Threading.SynchronizationContextProperties RequireWaitNotification
     static void _set_RequireWaitNotification(System::Threading::SynchronizationContextProperties value);
-    // Creating value type constructor for type: SynchronizationContextProperties
-    SynchronizationContextProperties(int value_ = {}) : value{value_} {}
   }; // System.Threading.SynchronizationContextProperties
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

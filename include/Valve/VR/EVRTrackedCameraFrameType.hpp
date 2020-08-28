@@ -16,6 +16,12 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRTrackedCameraFrameType
+    constexpr EVRTrackedCameraFrameType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.EVRTrackedCameraFrameType Distorted
     static constexpr const int Distorted = 0;
     // Get static field: static public Valve.VR.EVRTrackedCameraFrameType Distorted
@@ -40,8 +46,6 @@ namespace Valve::VR {
     static Valve::VR::EVRTrackedCameraFrameType _get_MAX_CAMERA_FRAME_TYPES();
     // Set static field: static public Valve.VR.EVRTrackedCameraFrameType MAX_CAMERA_FRAME_TYPES
     static void _set_MAX_CAMERA_FRAME_TYPES(Valve::VR::EVRTrackedCameraFrameType value);
-    // Creating value type constructor for type: EVRTrackedCameraFrameType
-    EVRTrackedCameraFrameType(int value_ = {}) : value{value_} {}
   }; // Valve.VR.EVRTrackedCameraFrameType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

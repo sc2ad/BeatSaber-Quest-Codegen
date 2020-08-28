@@ -7,6 +7,10 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.MeshOperations.UVEditing
 #include "UnityEngine/ProBuilder/MeshOperations/UVEditing.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
+// Including type: UnityEngine.Vector2
+#include "UnityEngine/Vector2.hpp"
 // Completed includes
 // Type namespace: UnityEngine.ProBuilder.MeshOperations
 namespace UnityEngine::ProBuilder::MeshOperations {
@@ -23,7 +27,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0xC
     UnityEngine::Vector2 scale;
     // Creating value type constructor for type: UVTransform
-    UVTransform(UnityEngine::Vector2 translation_ = {}, float rotation_ = {}, UnityEngine::Vector2 scale_ = {}) : translation{translation_}, rotation{rotation_}, scale{scale_} {}
+    constexpr UVTransform(UnityEngine::Vector2 translation_ = {}, float rotation_ = {}, UnityEngine::Vector2 scale_ = {}) : translation{translation_}, rotation{rotation_}, scale{scale_} {}
     // public override System.String ToString()
     // Offset: 0xA3FF68
     // Implemented from: System.ValueType

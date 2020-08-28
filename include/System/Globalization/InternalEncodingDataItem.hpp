@@ -23,7 +23,7 @@ namespace System::Globalization {
     // Offset: 0x8
     uint16_t codePage;
     // Creating value type constructor for type: InternalEncodingDataItem
-    InternalEncodingDataItem(::Il2CppString* webName_ = {}, uint16_t codePage_ = {}) : webName{webName_}, codePage{codePage_} {}
+    constexpr InternalEncodingDataItem(::Il2CppString* webName_ = {}, uint16_t codePage_ = {}) : webName{webName_}, codePage{codePage_} {}
   }; // System.Globalization.InternalEncodingDataItem
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,10 @@ namespace JetBrains::Annotations {
     // private System.String <ParameterName>k__BackingField
     // Offset: 0x10
     ::Il2CppString* ParameterName;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return ParameterName;
+    }
     // public System.Void .ctor(System.String parameterName)
     // Offset: 0x196152C
     static NotifyPropertyChangedInvocatorAttribute* New_ctor(::Il2CppString* parameterName);

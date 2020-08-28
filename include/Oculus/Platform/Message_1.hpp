@@ -63,6 +63,10 @@ namespace Oculus::Platform {
     // private T data
     // Offset: 0x0
     T data;
+    // Creating conversion operator: operator T
+    constexpr operator T() const {
+      return data;
+    }
     // public T get_Data()
     // Offset: 0xFFFFFFFF
     T get_Data() {

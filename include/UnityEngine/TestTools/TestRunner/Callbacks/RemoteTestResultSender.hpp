@@ -64,6 +64,8 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // private readonly UnityEngine.TestRunner.TestLaunchers.IRemoteTestResultDataFactory m_TestResultDataFactory
     // Offset: 0x30
     UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory* m_TestResultDataFactory;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static field const value: static private System.Int32 k_aliveMessageFrequency
     static constexpr const int k_aliveMessageFrequency = 120;
     // Get static field: static private System.Int32 k_aliveMessageFrequency

@@ -4,13 +4,16 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NetEaseManager
 #include "GlobalNamespace/NetEaseManager.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: System.Runtime.CompilerServices.IAsyncStateMachine
 #include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
 // Including type: System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1
 #include "System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.hpp"
+// Including type: NetEase.Docker.InitializeData
+#include "NetEase/Docker/InitializeData.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter`1
 #include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
 // Completed includes
@@ -32,7 +35,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::InitializeData> $$u__1;
     // Creating value type constructor for type: $InitAsync$d__11
-    $InitAsync$d__11(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<NetEase::Docker::InitializeData> $$t__builder_ = {}, GlobalNamespace::NetEaseManager* $$4__this_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::InitializeData> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $$u__1{$$u__1_} {}
+    constexpr $InitAsync$d__11(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<NetEase::Docker::InitializeData> $$t__builder_ = {}, GlobalNamespace::NetEaseManager* $$4__this_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::InitializeData> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
     // Offset: 0xA2C644
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine

@@ -40,6 +40,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: MenuType
+      constexpr MenuType(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public SoloModeSelectionViewController/MenuType FreePlayMode
       static constexpr const int FreePlayMode = 0;
       // Get static field: static public SoloModeSelectionViewController/MenuType FreePlayMode
@@ -64,8 +70,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::SoloModeSelectionViewController::MenuType _get_Back();
       // Set static field: static public SoloModeSelectionViewController/MenuType Back
       static void _set_Back(GlobalNamespace::SoloModeSelectionViewController::MenuType value);
-      // Creating value type constructor for type: MenuType
-      MenuType(int value_ = {}) : value{value_} {}
     }; // SoloModeSelectionViewController/MenuType
     // private UnityEngine.UI.Button _freePlayModeButton
     // Offset: 0x68

@@ -123,6 +123,8 @@ namespace TMPro {
     // private TMPro.TMP_Settings/LineBreakingTable m_linebreakingRules
     // Offset: 0xA0
     TMPro::TMP_Settings::LineBreakingTable* m_linebreakingRules;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // Get static field: static private TMPro.TMP_Settings s_Instance
     static TMPro::TMP_Settings* _get_s_Instance();
     // Set static field: static private TMPro.TMP_Settings s_Instance

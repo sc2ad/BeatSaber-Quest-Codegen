@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ETextureType
+    constexpr ETextureType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.ETextureType Invalid
     static constexpr const int Invalid = -1;
     // Get static field: static public OVR.OpenVR.ETextureType Invalid
@@ -64,8 +70,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::ETextureType _get_Metal();
     // Set static field: static public OVR.OpenVR.ETextureType Metal
     static void _set_Metal(OVR::OpenVR::ETextureType value);
-    // Creating value type constructor for type: ETextureType
-    ETextureType(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.ETextureType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

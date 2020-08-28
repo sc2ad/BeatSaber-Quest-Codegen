@@ -28,7 +28,7 @@ namespace TMPro {
     // Offset: 0x10
     float descender;
     // Creating value type constructor for type: TMP_PageInfo
-    TMP_PageInfo(int firstCharacterIndex_ = {}, int lastCharacterIndex_ = {}, float ascender_ = {}, float baseLine_ = {}, float descender_ = {}) : firstCharacterIndex{firstCharacterIndex_}, lastCharacterIndex{lastCharacterIndex_}, ascender{ascender_}, baseLine{baseLine_}, descender{descender_} {}
+    constexpr TMP_PageInfo(int firstCharacterIndex_ = {}, int lastCharacterIndex_ = {}, float ascender_ = {}, float baseLine_ = {}, float descender_ = {}) : firstCharacterIndex{firstCharacterIndex_}, lastCharacterIndex{lastCharacterIndex_}, ascender{ascender_}, baseLine{baseLine_}, descender{descender_} {}
   }; // TMPro.TMP_PageInfo
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

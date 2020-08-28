@@ -26,7 +26,11 @@ namespace Mono {
     // Offset: 0x0
     Mono::RuntimeStructs::RemoteClass* value;
     // Creating value type constructor for type: RuntimeRemoteClassHandle
-    RuntimeRemoteClassHandle(Mono::RuntimeStructs::RemoteClass* value_ = {}) : value{value_} {}
+    constexpr RuntimeRemoteClassHandle(Mono::RuntimeStructs::RemoteClass* value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator Mono::RuntimeStructs::RemoteClass*
+    constexpr operator Mono::RuntimeStructs::RemoteClass*() const {
+      return value;
+    }
     // Mono.RuntimeClassHandle get_ProxyClass()
     // Offset: 0xA4092C
     Mono::RuntimeClassHandle get_ProxyClass();

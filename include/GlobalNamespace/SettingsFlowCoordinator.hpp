@@ -40,6 +40,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: FinishAction
+      constexpr FinishAction(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public SettingsFlowCoordinator/FinishAction Cancel
       static constexpr const int Cancel = 0;
       // Get static field: static public SettingsFlowCoordinator/FinishAction Cancel
@@ -58,8 +64,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::SettingsFlowCoordinator::FinishAction _get_Apply();
       // Set static field: static public SettingsFlowCoordinator/FinishAction Apply
       static void _set_Apply(GlobalNamespace::SettingsFlowCoordinator::FinishAction value);
-      // Creating value type constructor for type: FinishAction
-      FinishAction(int value_ = {}) : value{value_} {}
     }; // SettingsFlowCoordinator/FinishAction
     // private MainSettingsModelSO _mainSettingsModel
     // Offset: 0xA8

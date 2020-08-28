@@ -46,6 +46,8 @@ namespace GlobalNamespace {
     // public UnityEngine.Transform pointer
     // Offset: 0x38
     UnityEngine::Transform* pointer;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private System.Void OnDeviceConnected(System.Int32 index, System.Boolean connected)
     // Offset: 0xD941E0
     void OnDeviceConnected(int index, bool connected);

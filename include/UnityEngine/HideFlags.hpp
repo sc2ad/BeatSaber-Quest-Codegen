@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: HideFlags
+    constexpr HideFlags(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.HideFlags None
     static constexpr const int None = 0;
     // Get static field: static public UnityEngine.HideFlags None
@@ -70,8 +76,6 @@ namespace UnityEngine {
     static UnityEngine::HideFlags _get_HideAndDontSave();
     // Set static field: static public UnityEngine.HideFlags HideAndDontSave
     static void _set_HideAndDontSave(UnityEngine::HideFlags value);
-    // Creating value type constructor for type: HideFlags
-    HideFlags(int value_ = {}) : value{value_} {}
   }; // UnityEngine.HideFlags
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

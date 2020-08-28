@@ -68,6 +68,8 @@ namespace GlobalNamespace {
     // private System.Action colorsDidChangeEvent
     // Offset: 0x60
     System::Action* colorsDidChangeEvent;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void add_colorsDidChangeEvent(System.Action value)
     // Offset: 0xB80280
     void add_colorsDidChangeEvent(System::Action* value);

@@ -24,6 +24,10 @@ namespace TMPro {
     // private System.Collections.Generic.List`1<TMPro.TMP_Dropdown/OptionData> m_Options
     // Offset: 0x10
     System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>* m_Options;
+    // Creating conversion operator: operator System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>*
+    constexpr operator System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>*() const {
+      return m_Options;
+    }
     // public System.Collections.Generic.List`1<TMPro.TMP_Dropdown/OptionData> get_options()
     // Offset: 0xB5A4F4
     System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>* get_options();

@@ -37,6 +37,10 @@ namespace System::Threading::Tasks {
     // private System.Int32 m_taskSchedulerId
     // Offset: 0x10
     int m_taskSchedulerId;
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return m_taskSchedulerId;
+    }
     // Get static field: static private System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Threading.Tasks.TaskScheduler,System.Object> s_activeTaskSchedulers
     static System::Runtime::CompilerServices::ConditionalWeakTable_2<System::Threading::Tasks::TaskScheduler*, ::Il2CppObject*>* _get_s_activeTaskSchedulers();
     // Set static field: static private System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Threading.Tasks.TaskScheduler,System.Object> s_activeTaskSchedulers

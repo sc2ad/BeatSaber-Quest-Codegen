@@ -33,6 +33,8 @@ namespace GlobalNamespace {
     // private ILevelEndActions _gameplayManager
     // Offset: 0x28
     GlobalNamespace::ILevelEndActions* gameplayManager;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xBA3EF4
     void Start();

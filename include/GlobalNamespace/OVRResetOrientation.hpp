@@ -18,6 +18,8 @@ namespace GlobalNamespace {
     // public OVRInput/RawButton resetButton
     // Offset: 0x18
     GlobalNamespace::OVRInput::RawButton resetButton;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private System.Void Update()
     // Offset: 0xF4DE5C
     void Update();

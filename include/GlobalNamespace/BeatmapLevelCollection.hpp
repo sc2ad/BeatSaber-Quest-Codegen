@@ -25,6 +25,10 @@ namespace GlobalNamespace {
     // private IPreviewBeatmapLevel[] _levels
     // Offset: 0x10
     ::Array<GlobalNamespace::IPreviewBeatmapLevel*>* levels;
+    // Creating conversion operator: operator ::Array<GlobalNamespace::IPreviewBeatmapLevel*>*
+    constexpr operator ::Array<GlobalNamespace::IPreviewBeatmapLevel*>*() const {
+      return levels;
+    }
     // public System.Void .ctor(IPreviewBeatmapLevel[] levels)
     // Offset: 0xB95D3C
     static BeatmapLevelCollection* New_ctor(::Array<GlobalNamespace::IPreviewBeatmapLevel*>* levels);

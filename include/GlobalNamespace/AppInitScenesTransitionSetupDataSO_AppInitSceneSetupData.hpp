@@ -20,6 +20,10 @@ namespace GlobalNamespace {
     // private AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType <appInitOverrideStartType>k__BackingField
     // Offset: 0x10
     GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType appInitOverrideStartType;
+    // Creating conversion operator: operator GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType
+    constexpr operator GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType() const {
+      return appInitOverrideStartType;
+    }
     // public AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType get_appInitOverrideStartType()
     // Offset: 0xB88904
     GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType get_appInitOverrideStartType();

@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SystemHeadset
+    constexpr SystemHeadset(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRPlugin/SystemHeadset None
     static constexpr const int None = 0;
     // Get static field: static public OVRPlugin/SystemHeadset None
@@ -102,8 +108,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::SystemHeadset _get_Rift_S();
     // Set static field: static public OVRPlugin/SystemHeadset Rift_S
     static void _set_Rift_S(GlobalNamespace::OVRPlugin::SystemHeadset value);
-    // Creating value type constructor for type: SystemHeadset
-    SystemHeadset(int value_ = {}) : value{value_} {}
   }; // OVRPlugin/SystemHeadset
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

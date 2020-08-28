@@ -18,6 +18,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SampleType
+    constexpr SampleType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.UISystemProfilerApi/SampleType Layout
     static constexpr const int Layout = 0;
     // Get static field: static public UnityEngine.UISystemProfilerApi/SampleType Layout
@@ -30,8 +36,6 @@ namespace UnityEngine {
     static UnityEngine::UISystemProfilerApi::SampleType _get_Render();
     // Set static field: static public UnityEngine.UISystemProfilerApi/SampleType Render
     static void _set_Render(UnityEngine::UISystemProfilerApi::SampleType value);
-    // Creating value type constructor for type: SampleType
-    SampleType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.UISystemProfilerApi/SampleType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

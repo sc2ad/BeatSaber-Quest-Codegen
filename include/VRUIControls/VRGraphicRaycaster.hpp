@@ -68,7 +68,7 @@ namespace VRUIControls {
       // Offset: 0x18
       UnityEngine::Vector2 pointerPosition;
       // Creating value type constructor for type: TGraphicRaycastResult
-      TGraphicRaycastResult(UnityEngine::UI::Graphic* graphic_ = {}, float distance_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Vector2 pointerPosition_ = {}) : graphic{graphic_}, distance{distance_}, position{position_}, pointerPosition{pointerPosition_} {}
+      constexpr TGraphicRaycastResult(UnityEngine::UI::Graphic* graphic_ = {}, float distance_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Vector2 pointerPosition_ = {}) : graphic{graphic_}, distance{distance_}, position{position_}, pointerPosition{pointerPosition_} {}
       // public override System.String ToString()
       // Offset: 0xA5D99C
       // Implemented from: System.ValueType

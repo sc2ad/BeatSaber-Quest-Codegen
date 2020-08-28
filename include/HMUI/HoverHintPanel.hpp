@@ -47,6 +47,8 @@ namespace HMUI {
     // private System.Boolean <isShown>k__BackingField
     // Offset: 0x38
     bool isShown;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Boolean get_isShown()
     // Offset: 0xEE34D0
     bool get_isShown();

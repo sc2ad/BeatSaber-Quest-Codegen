@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: CameraStatus
+    constexpr CameraStatus(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRPlugin/CameraStatus CameraStatus_None
     static constexpr const int CameraStatus_None = 0;
     // Get static field: static public OVRPlugin/CameraStatus CameraStatus_None
@@ -54,8 +60,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::CameraStatus _get_CameraStatus_EnumSize();
     // Set static field: static public OVRPlugin/CameraStatus CameraStatus_EnumSize
     static void _set_CameraStatus_EnumSize(GlobalNamespace::OVRPlugin::CameraStatus value);
-    // Creating value type constructor for type: CameraStatus
-    CameraStatus(int value_ = {}) : value{value_} {}
   }; // OVRPlugin/CameraStatus
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

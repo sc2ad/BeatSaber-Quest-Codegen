@@ -16,7 +16,11 @@ namespace Valve::VR {
     // Offset: 0x0
     bool bScrollWheelVisible;
     // Creating value type constructor for type: RenderModel_ControllerMode_State_t
-    RenderModel_ControllerMode_State_t(bool bScrollWheelVisible_ = {}) : bScrollWheelVisible{bScrollWheelVisible_} {}
+    constexpr RenderModel_ControllerMode_State_t(bool bScrollWheelVisible_ = {}) : bScrollWheelVisible{bScrollWheelVisible_} {}
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return bScrollWheelVisible;
+    }
   }; // Valve.VR.RenderModel_ControllerMode_State_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

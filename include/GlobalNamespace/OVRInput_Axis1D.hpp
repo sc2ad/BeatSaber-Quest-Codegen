@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Axis1D
+    constexpr Axis1D(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRInput/Axis1D None
     static constexpr const int None = 0;
     // Get static field: static public OVRInput/Axis1D None
@@ -54,8 +60,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRInput::Axis1D _get_Any();
     // Set static field: static public OVRInput/Axis1D Any
     static void _set_Any(GlobalNamespace::OVRInput::Axis1D value);
-    // Creating value type constructor for type: Axis1D
-    Axis1D(int value_ = {}) : value{value_} {}
   }; // OVRInput/Axis1D
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

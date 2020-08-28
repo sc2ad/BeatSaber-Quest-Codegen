@@ -16,6 +16,12 @@ namespace System::Threading::Tasks {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: CausalityRelation
+    constexpr CausalityRelation(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Threading.Tasks.CausalityRelation AssignDelegate
     static constexpr const int AssignDelegate = 0;
     // Get static field: static public System.Threading.Tasks.CausalityRelation AssignDelegate
@@ -46,8 +52,6 @@ namespace System::Threading::Tasks {
     static System::Threading::Tasks::CausalityRelation _get_Error();
     // Set static field: static public System.Threading.Tasks.CausalityRelation Error
     static void _set_Error(System::Threading::Tasks::CausalityRelation value);
-    // Creating value type constructor for type: CausalityRelation
-    CausalityRelation(int value_ = {}) : value{value_} {}
   }; // System.Threading.Tasks.CausalityRelation
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,12 @@ namespace System::Globalization {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: UnicodeCategory
+    constexpr UnicodeCategory(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Globalization.UnicodeCategory UppercaseLetter
     static constexpr const int UppercaseLetter = 0;
     // Get static field: static public System.Globalization.UnicodeCategory UppercaseLetter
@@ -196,8 +202,6 @@ namespace System::Globalization {
     static System::Globalization::UnicodeCategory _get_OtherNotAssigned();
     // Set static field: static public System.Globalization.UnicodeCategory OtherNotAssigned
     static void _set_OtherNotAssigned(System::Globalization::UnicodeCategory value);
-    // Creating value type constructor for type: UnicodeCategory
-    UnicodeCategory(int value_ = {}) : value{value_} {}
   }; // System.Globalization.UnicodeCategory
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

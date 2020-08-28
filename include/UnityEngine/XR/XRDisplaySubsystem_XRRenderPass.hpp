@@ -9,6 +9,10 @@
 #include "UnityEngine/RenderTextureDescriptor.hpp"
 // Including type: UnityEngine.XR.XRDisplaySubsystem
 #include "UnityEngine/XR/XRDisplaySubsystem.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
+// Including type: System.IntPtr
+#include "System/IntPtr.hpp"
 // Including type: UnityEngine.Rendering.RenderTargetIdentifier
 #include "UnityEngine/Rendering/RenderTargetIdentifier.hpp"
 // Completed includes
@@ -36,7 +40,7 @@ namespace UnityEngine::XR {
     // Offset: 0x70
     int cullingPassIndex;
     // Creating value type constructor for type: XRRenderPass
-    XRRenderPass(System::IntPtr displaySubsystemInstance_ = {}, int renderPassIndex_ = {}, UnityEngine::Rendering::RenderTargetIdentifier renderTarget_ = {}, UnityEngine::RenderTextureDescriptor renderTargetDesc_ = {}, bool shouldFillOutDepth_ = {}, int cullingPassIndex_ = {}) : displaySubsystemInstance{displaySubsystemInstance_}, renderPassIndex{renderPassIndex_}, renderTarget{renderTarget_}, renderTargetDesc{renderTargetDesc_}, shouldFillOutDepth{shouldFillOutDepth_}, cullingPassIndex{cullingPassIndex_} {}
+    constexpr XRRenderPass(System::IntPtr displaySubsystemInstance_ = {}, int renderPassIndex_ = {}, UnityEngine::Rendering::RenderTargetIdentifier renderTarget_ = {}, UnityEngine::RenderTextureDescriptor renderTargetDesc_ = {}, bool shouldFillOutDepth_ = {}, int cullingPassIndex_ = {}) : displaySubsystemInstance{displaySubsystemInstance_}, renderPassIndex{renderPassIndex_}, renderTarget{renderTarget_}, renderTargetDesc{renderTargetDesc_}, shouldFillOutDepth{shouldFillOutDepth_}, cullingPassIndex{cullingPassIndex_} {}
   }; // UnityEngine.XR.XRDisplaySubsystem/XRRenderPass
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

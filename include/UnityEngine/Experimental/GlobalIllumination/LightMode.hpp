@@ -16,6 +16,12 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // public System.Byte value__
     // Offset: 0x0
     uint8_t value;
+    // Creating value type constructor for type: LightMode
+    constexpr LightMode(uint8_t value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator uint8_t
+    constexpr operator uint8_t() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Experimental.GlobalIllumination.LightMode Realtime
     static constexpr const uint8_t Realtime = 0u;
     // Get static field: static public UnityEngine.Experimental.GlobalIllumination.LightMode Realtime
@@ -40,8 +46,6 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     static UnityEngine::Experimental::GlobalIllumination::LightMode _get_Unknown();
     // Set static field: static public UnityEngine.Experimental.GlobalIllumination.LightMode Unknown
     static void _set_Unknown(UnityEngine::Experimental::GlobalIllumination::LightMode value);
-    // Creating value type constructor for type: LightMode
-    LightMode(uint8_t value_ = {}) : value{value_} {}
   }; // UnityEngine.Experimental.GlobalIllumination.LightMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

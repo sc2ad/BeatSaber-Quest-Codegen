@@ -18,6 +18,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: DisplayNameFormat
+    constexpr DisplayNameFormat(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.TypeSpec/DisplayNameFormat Default
     static constexpr const int Default = 0;
     // Get static field: static public System.TypeSpec/DisplayNameFormat Default
@@ -36,8 +42,6 @@ namespace System {
     static System::TypeSpec::DisplayNameFormat _get_NO_MODIFIERS();
     // Set static field: static public System.TypeSpec/DisplayNameFormat NO_MODIFIERS
     static void _set_NO_MODIFIERS(System::TypeSpec::DisplayNameFormat value);
-    // Creating value type constructor for type: DisplayNameFormat
-    DisplayNameFormat(int value_ = {}) : value{value_} {}
   }; // System.TypeSpec/DisplayNameFormat
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

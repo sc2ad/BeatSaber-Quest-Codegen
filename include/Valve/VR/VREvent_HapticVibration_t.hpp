@@ -29,7 +29,7 @@ namespace Valve::VR {
     // Offset: 0x18
     float fAmplitude;
     // Creating value type constructor for type: VREvent_HapticVibration_t
-    VREvent_HapticVibration_t(uint64_t containerHandle_ = {}, uint64_t componentHandle_ = {}, float fDurationSeconds_ = {}, float fFrequency_ = {}, float fAmplitude_ = {}) : containerHandle{containerHandle_}, componentHandle{componentHandle_}, fDurationSeconds{fDurationSeconds_}, fFrequency{fFrequency_}, fAmplitude{fAmplitude_} {}
+    constexpr VREvent_HapticVibration_t(uint64_t containerHandle_ = {}, uint64_t componentHandle_ = {}, float fDurationSeconds_ = {}, float fFrequency_ = {}, float fAmplitude_ = {}) : containerHandle{containerHandle_}, componentHandle{componentHandle_}, fDurationSeconds{fDurationSeconds_}, fFrequency{fFrequency_}, fAmplitude{fAmplitude_} {}
   }; // Valve.VR.VREvent_HapticVibration_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

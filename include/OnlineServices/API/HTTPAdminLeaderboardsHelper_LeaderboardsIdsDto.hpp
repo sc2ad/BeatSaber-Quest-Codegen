@@ -16,6 +16,10 @@ namespace OnlineServices::API {
     // public System.String[] leaderboardsIds
     // Offset: 0x10
     ::Array<::Il2CppString*>* leaderboardsIds;
+    // Creating conversion operator: operator ::Array<::Il2CppString*>*
+    constexpr operator ::Array<::Il2CppString*>*() const {
+      return leaderboardsIds;
+    }
     // public System.Void .ctor()
     // Offset: 0xC3EE38
     // Implemented from: System.Object

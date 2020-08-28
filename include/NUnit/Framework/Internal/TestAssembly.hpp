@@ -23,6 +23,10 @@ namespace NUnit::Framework::Internal {
     // private System.Reflection.Assembly <Assembly>k__BackingField
     // Offset: 0x90
     System::Reflection::Assembly* Assembly;
+    // Creating conversion operator: operator System::Reflection::Assembly*
+    constexpr operator System::Reflection::Assembly*() const {
+      return Assembly;
+    }
     // public System.Void .ctor(System.Reflection.Assembly assembly, System.String path)
     // Offset: 0x18F38B0
     static TestAssembly* New_ctor(System::Reflection::Assembly* assembly, ::Il2CppString* path);

@@ -5,6 +5,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: HMUI.ContainerViewController/<AddViewControllerCoroutine>d__15
 #include "HMUI/ContainerViewController_-AddViewControllerCoroutine-d__15.hpp"
+// Including type: HMUI.ViewController
+#include "HMUI/ViewController.hpp"
 // Including type: System.Action`2
 #include "System/Action_2.hpp"
 // Including type: System.Action

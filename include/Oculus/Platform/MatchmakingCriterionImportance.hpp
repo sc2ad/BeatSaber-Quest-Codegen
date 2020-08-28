@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: MatchmakingCriterionImportance
+    constexpr MatchmakingCriterionImportance(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.MatchmakingCriterionImportance Required
     static constexpr const int Required = 0;
     // Get static field: static public Oculus.Platform.MatchmakingCriterionImportance Required
@@ -46,8 +52,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::MatchmakingCriterionImportance _get_Unknown();
     // Set static field: static public Oculus.Platform.MatchmakingCriterionImportance Unknown
     static void _set_Unknown(Oculus::Platform::MatchmakingCriterionImportance value);
-    // Creating value type constructor for type: MatchmakingCriterionImportance
-    MatchmakingCriterionImportance(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.MatchmakingCriterionImportance
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,12 @@ namespace Zenject {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: LoadSceneRelationship
+    constexpr LoadSceneRelationship(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Zenject.LoadSceneRelationship None
     static constexpr const int None = 0;
     // Get static field: static public Zenject.LoadSceneRelationship None
@@ -34,8 +40,6 @@ namespace Zenject {
     static Zenject::LoadSceneRelationship _get_Sibling();
     // Set static field: static public Zenject.LoadSceneRelationship Sibling
     static void _set_Sibling(Zenject::LoadSceneRelationship value);
-    // Creating value type constructor for type: LoadSceneRelationship
-    LoadSceneRelationship(int value_ = {}) : value{value_} {}
   }; // Zenject.LoadSceneRelationship
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

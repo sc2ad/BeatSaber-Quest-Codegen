@@ -4,9 +4,10 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: BeatmapLevelsModel
 #include "GlobalNamespace/BeatmapLevelsModel.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: System.Runtime.CompilerServices.IAsyncStateMachine
 #include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
 // Including type: System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1
@@ -36,7 +37,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IBeatmapLevelPackCollection*> $$u__1;
     // Creating value type constructor for type: $GetCustomLevelPackCollectionAsync$d__28
-    $GetCustomLevelPackCollectionAsync$d__28(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::IBeatmapLevelPackCollection*> $$t__builder_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IBeatmapLevelPackCollection*> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$u__1{$$u__1_} {}
+    constexpr $GetCustomLevelPackCollectionAsync$d__28(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::IBeatmapLevelPackCollection*> $$t__builder_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IBeatmapLevelPackCollection*> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
     // Offset: 0xA2BC68
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine

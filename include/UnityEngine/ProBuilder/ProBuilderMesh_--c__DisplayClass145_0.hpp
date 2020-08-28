@@ -23,6 +23,10 @@ namespace UnityEngine::ProBuilder {
     // public System.Int32 i
     // Offset: 0x10
     int i;
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return i;
+    }
     // System.Boolean <UnusedElementGroup>b__0(UnityEngine.ProBuilder.Face element)
     // Offset: 0x103BE0C
     bool $UnusedElementGroup$b__0(UnityEngine::ProBuilder::Face* element);

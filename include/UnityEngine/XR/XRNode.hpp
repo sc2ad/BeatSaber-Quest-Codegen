@@ -16,6 +16,12 @@ namespace UnityEngine::XR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: XRNode
+    constexpr XRNode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.XR.XRNode LeftEye
     static constexpr const int LeftEye = 0;
     // Get static field: static public UnityEngine.XR.XRNode LeftEye
@@ -70,8 +76,6 @@ namespace UnityEngine::XR {
     static UnityEngine::XR::XRNode _get_HardwareTracker();
     // Set static field: static public UnityEngine.XR.XRNode HardwareTracker
     static void _set_HardwareTracker(UnityEngine::XR::XRNode value);
-    // Creating value type constructor for type: XRNode
-    XRNode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.XR.XRNode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,12 @@ namespace System::Xml {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: NamespaceHandling
+    constexpr NamespaceHandling(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Xml.NamespaceHandling Default
     static constexpr const int Default = 0;
     // Get static field: static public System.Xml.NamespaceHandling Default
@@ -28,8 +34,6 @@ namespace System::Xml {
     static System::Xml::NamespaceHandling _get_OmitDuplicates();
     // Set static field: static public System.Xml.NamespaceHandling OmitDuplicates
     static void _set_OmitDuplicates(System::Xml::NamespaceHandling value);
-    // Creating value type constructor for type: NamespaceHandling
-    NamespaceHandling(int value_ = {}) : value{value_} {}
   }; // System.Xml.NamespaceHandling
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

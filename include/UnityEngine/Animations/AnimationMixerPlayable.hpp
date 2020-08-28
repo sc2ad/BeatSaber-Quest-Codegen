@@ -30,12 +30,16 @@ namespace UnityEngine::Animations {
     // private UnityEngine.Playables.PlayableHandle m_Handle
     // Offset: 0x0
     UnityEngine::Playables::PlayableHandle m_Handle;
+    // Creating value type constructor for type: AnimationMixerPlayable
+    constexpr AnimationMixerPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
+    // Creating conversion operator: operator UnityEngine::Playables::PlayableHandle
+    constexpr operator UnityEngine::Playables::PlayableHandle() const {
+      return m_Handle;
+    }
     // Get static field: static private readonly UnityEngine.Animations.AnimationMixerPlayable m_NullPlayable
     static UnityEngine::Animations::AnimationMixerPlayable _get_m_NullPlayable();
     // Set static field: static private readonly UnityEngine.Animations.AnimationMixerPlayable m_NullPlayable
     static void _set_m_NullPlayable(UnityEngine::Animations::AnimationMixerPlayable value);
-    // Creating value type constructor for type: AnimationMixerPlayable
-    AnimationMixerPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // static public UnityEngine.Animations.AnimationMixerPlayable Create(UnityEngine.Playables.PlayableGraph graph, System.Int32 inputCount, System.Boolean normalizeWeights)
     // Offset: 0x193EA20
     static UnityEngine::Animations::AnimationMixerPlayable Create(UnityEngine::Playables::PlayableGraph graph, int inputCount, bool normalizeWeights);

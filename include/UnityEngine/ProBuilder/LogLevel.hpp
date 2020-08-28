@@ -16,6 +16,12 @@ namespace UnityEngine::ProBuilder {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: LogLevel
+    constexpr LogLevel(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ProBuilder.LogLevel None
     static constexpr const int None = 0;
     // Get static field: static public UnityEngine.ProBuilder.LogLevel None
@@ -52,8 +58,6 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::LogLevel _get_All();
     // Set static field: static public UnityEngine.ProBuilder.LogLevel All
     static void _set_All(UnityEngine::ProBuilder::LogLevel value);
-    // Creating value type constructor for type: LogLevel
-    LogLevel(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.LogLevel
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

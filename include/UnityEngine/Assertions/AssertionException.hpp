@@ -16,6 +16,10 @@ namespace UnityEngine::Assertions {
     // private System.String m_UserMessage
     // Offset: 0x88
     ::Il2CppString* m_UserMessage;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return m_UserMessage;
+    }
     // public System.Void .ctor(System.String message, System.String userMessage)
     // Offset: 0x1305408
     static AssertionException* New_ctor(::Il2CppString* message, ::Il2CppString* userMessage);

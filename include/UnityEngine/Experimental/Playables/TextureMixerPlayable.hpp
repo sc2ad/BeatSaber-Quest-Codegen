@@ -22,7 +22,11 @@ namespace UnityEngine::Experimental::Playables {
     // Offset: 0x0
     UnityEngine::Playables::PlayableHandle m_Handle;
     // Creating value type constructor for type: TextureMixerPlayable
-    TextureMixerPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
+    constexpr TextureMixerPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
+    // Creating conversion operator: operator UnityEngine::Playables::PlayableHandle
+    constexpr operator UnityEngine::Playables::PlayableHandle() const {
+      return m_Handle;
+    }
     // public UnityEngine.Playables.PlayableHandle GetHandle()
     // Offset: 0xA45E74
     // Implemented from: UnityEngine.Playables.IPlayable

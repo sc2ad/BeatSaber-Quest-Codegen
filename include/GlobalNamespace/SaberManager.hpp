@@ -34,6 +34,8 @@ namespace GlobalNamespace {
     // private SaberType _oneSaberType
     // Offset: 0x2C
     GlobalNamespace::SaberType oneSaberType;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Update()
     // Offset: 0xC28A00
     void Update();

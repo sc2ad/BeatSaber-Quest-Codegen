@@ -18,6 +18,12 @@ namespace UnityEngine::UI {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Origin90
+    constexpr Origin90(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.UI.Image/Origin90 BottomLeft
     static constexpr const int BottomLeft = 0;
     // Get static field: static public UnityEngine.UI.Image/Origin90 BottomLeft
@@ -42,8 +48,6 @@ namespace UnityEngine::UI {
     static UnityEngine::UI::Image::Origin90 _get_BottomRight();
     // Set static field: static public UnityEngine.UI.Image/Origin90 BottomRight
     static void _set_BottomRight(UnityEngine::UI::Image::Origin90 value);
-    // Creating value type constructor for type: Origin90
-    Origin90(int value_ = {}) : value{value_} {}
   }; // UnityEngine.UI.Image/Origin90
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

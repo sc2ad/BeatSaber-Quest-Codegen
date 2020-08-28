@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SystemRegion
+    constexpr SystemRegion(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRPlugin/SystemRegion Unspecified
     static constexpr const int Unspecified = 0;
     // Get static field: static public OVRPlugin/SystemRegion Unspecified
@@ -36,8 +42,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::SystemRegion _get_China();
     // Set static field: static public OVRPlugin/SystemRegion China
     static void _set_China(GlobalNamespace::OVRPlugin::SystemRegion value);
-    // Creating value type constructor for type: SystemRegion
-    SystemRegion(int value_ = {}) : value{value_} {}
   }; // OVRPlugin/SystemRegion
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

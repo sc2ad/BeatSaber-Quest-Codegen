@@ -23,6 +23,8 @@ namespace GlobalNamespace {
     // private GameScenesManager _gameScenesManager
     // Offset: 0x18
     GlobalNamespace::GameScenesManager* gameScenesManager;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Awake()
     // Offset: 0xCB88D0
     void Awake();

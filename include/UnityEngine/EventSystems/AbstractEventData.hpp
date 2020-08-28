@@ -14,6 +14,10 @@ namespace UnityEngine::EventSystems {
     // protected System.Boolean m_Used
     // Offset: 0x10
     bool m_Used;
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return m_Used;
+    }
     // public System.Void Reset()
     // Offset: 0xDFA628
     void Reset();

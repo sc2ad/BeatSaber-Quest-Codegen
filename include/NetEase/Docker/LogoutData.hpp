@@ -16,7 +16,11 @@ namespace NetEase::Docker {
     // Offset: 0x0
     int LogoutCode;
     // Creating value type constructor for type: LogoutData
-    LogoutData(int LogoutCode_ = {}) : LogoutCode{LogoutCode_} {}
+    constexpr LogoutData(int LogoutCode_ = {}) : LogoutCode{LogoutCode_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return LogoutCode;
+    }
     // public System.Void set_LogoutCode(System.Int32 value)
     // Offset: 0xA6069C
     void set_LogoutCode(int value);

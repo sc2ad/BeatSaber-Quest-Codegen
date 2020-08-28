@@ -16,6 +16,12 @@ namespace System::Xml {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ConformanceLevel
+    constexpr ConformanceLevel(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Xml.ConformanceLevel Auto
     static constexpr const int Auto = 0;
     // Get static field: static public System.Xml.ConformanceLevel Auto
@@ -34,8 +40,6 @@ namespace System::Xml {
     static System::Xml::ConformanceLevel _get_Document();
     // Set static field: static public System.Xml.ConformanceLevel Document
     static void _set_Document(System::Xml::ConformanceLevel value);
-    // Creating value type constructor for type: ConformanceLevel
-    ConformanceLevel(int value_ = {}) : value{value_} {}
   }; // System.Xml.ConformanceLevel
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

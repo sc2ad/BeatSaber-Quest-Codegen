@@ -36,6 +36,8 @@ namespace UnityEngine {
     // private System.Int32 m_BakedIndex
     // Offset: 0x18
     int m_BakedIndex;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public UnityEngine.LightType get_type()
     // Offset: 0x1312738
     UnityEngine::LightType get_type();

@@ -16,6 +16,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TokenType
+    constexpr TokenType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.TokenType NumberToken
     static constexpr const int NumberToken = 1;
     // Get static field: static public System.TokenType NumberToken
@@ -208,8 +214,6 @@ namespace System {
     static System::TokenType _get_SeparatorTokenMask();
     // Set static field: static public System.TokenType SeparatorTokenMask
     static void _set_SeparatorTokenMask(System::TokenType value);
-    // Creating value type constructor for type: TokenType
-    TokenType(int value_ = {}) : value{value_} {}
   }; // System.TokenType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

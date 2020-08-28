@@ -21,6 +21,10 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // protected UnityEngine.ProBuilder.Poly2Tri.TriangulationContext _tcx
     // Offset: 0x10
     UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx;
+    // Creating conversion operator: operator UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*
+    constexpr operator UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*() const {
+      return tcx;
+    }
     // public System.Void Clear()
     // Offset: 0xFFFFFFFF
     void Clear();

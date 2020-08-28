@@ -38,6 +38,8 @@ namespace GlobalNamespace {
     // public System.Boolean enableBloomPrePassFog
     // Offset: 0x30
     bool enableBloomPrePassFog;
+    // Deleting conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const = delete;
     // public System.Void .ctor()
     // Offset: 0xC02E00
     // Implemented from: NamedPreset

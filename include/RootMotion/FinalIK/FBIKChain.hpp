@@ -40,6 +40,12 @@ namespace RootMotion::FinalIK {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: Smoothing
+      constexpr Smoothing(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public RootMotion.FinalIK.FBIKChain/Smoothing None
       static constexpr const int None = 0;
       // Get static field: static public RootMotion.FinalIK.FBIKChain/Smoothing None
@@ -58,8 +64,6 @@ namespace RootMotion::FinalIK {
       static RootMotion::FinalIK::FBIKChain::Smoothing _get_Cubic();
       // Set static field: static public RootMotion.FinalIK.FBIKChain/Smoothing Cubic
       static void _set_Cubic(RootMotion::FinalIK::FBIKChain::Smoothing value);
-      // Creating value type constructor for type: Smoothing
-      Smoothing(int value_ = {}) : value{value_} {}
     }; // RootMotion.FinalIK.FBIKChain/Smoothing
     // public System.Single pin
     // Offset: 0x10

@@ -16,6 +16,12 @@ namespace UnityEngine::XR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: MeshVertexAttributes
+    constexpr MeshVertexAttributes(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.XR.MeshVertexAttributes None
     static constexpr const int None = 0;
     // Get static field: static public UnityEngine.XR.MeshVertexAttributes None
@@ -46,8 +52,6 @@ namespace UnityEngine::XR {
     static UnityEngine::XR::MeshVertexAttributes _get_Colors();
     // Set static field: static public UnityEngine.XR.MeshVertexAttributes Colors
     static void _set_Colors(UnityEngine::XR::MeshVertexAttributes value);
-    // Creating value type constructor for type: MeshVertexAttributes
-    MeshVertexAttributes(int value_ = {}) : value{value_} {}
   }; // UnityEngine.XR.MeshVertexAttributes
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

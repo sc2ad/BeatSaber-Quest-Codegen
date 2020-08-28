@@ -28,6 +28,10 @@ namespace Oculus::Platform {
     // private System.IntPtr Handle
     // Offset: 0x10
     System::IntPtr Handle;
+    // Creating conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const {
+      return Handle;
+    }
     // public System.Void SetApiName(System.String value)
     // Offset: 0xEADC54
     void SetApiName(::Il2CppString* value);

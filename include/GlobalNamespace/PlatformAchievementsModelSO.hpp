@@ -43,6 +43,8 @@ namespace GlobalNamespace {
     // private PlatformAchievementsHandler _platformAchievementsHandler
     // Offset: 0x28
     GlobalNamespace::PlatformAchievementsHandler* platformAchievementsHandler;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private PlatformAchievementsHandler get_platformAchievementsHandler()
     // Offset: 0xBD5424
     GlobalNamespace::PlatformAchievementsHandler* get_platformAchievementsHandler();

@@ -16,6 +16,12 @@ namespace System::Diagnostics::Tracing {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ControllerCommand
+    constexpr ControllerCommand(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Diagnostics.Tracing.ControllerCommand Update
     static constexpr const int Update = 0;
     // Get static field: static public System.Diagnostics.Tracing.ControllerCommand Update
@@ -40,8 +46,6 @@ namespace System::Diagnostics::Tracing {
     static System::Diagnostics::Tracing::ControllerCommand _get_Disable();
     // Set static field: static public System.Diagnostics.Tracing.ControllerCommand Disable
     static void _set_Disable(System::Diagnostics::Tracing::ControllerCommand value);
-    // Creating value type constructor for type: ControllerCommand
-    ControllerCommand(int value_ = {}) : value{value_} {}
   }; // System.Diagnostics.Tracing.ControllerCommand
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

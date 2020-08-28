@@ -18,6 +18,12 @@ namespace UnityEngine::Networking {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: UnityWebRequestError
+    constexpr UnityWebRequestError(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Networking.UnityWebRequest/UnityWebRequestError OK
     static constexpr const int OK = 0;
     // Get static field: static public UnityEngine.Networking.UnityWebRequest/UnityWebRequestError OK
@@ -192,8 +198,6 @@ namespace UnityEngine::Networking {
     static UnityEngine::Networking::UnityWebRequest::UnityWebRequestError _get_NoInternetConnection();
     // Set static field: static public UnityEngine.Networking.UnityWebRequest/UnityWebRequestError NoInternetConnection
     static void _set_NoInternetConnection(UnityEngine::Networking::UnityWebRequest::UnityWebRequestError value);
-    // Creating value type constructor for type: UnityWebRequestError
-    UnityWebRequestError(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Networking.UnityWebRequest/UnityWebRequestError
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -31,6 +31,10 @@ namespace UnityEngine::Events {
     // private System.Object[] m_InvokeArray
     // Offset: 0x0
     ::Array<::Il2CppObject*>* m_InvokeArray;
+    // Creating conversion operator: operator ::Array<::Il2CppObject*>*
+    constexpr operator ::Array<::Il2CppObject*>*() const {
+      return m_InvokeArray;
+    }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.Events.UnityEventBase

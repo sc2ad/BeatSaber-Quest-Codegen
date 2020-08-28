@@ -16,6 +16,12 @@ namespace UnityEngine::Rendering {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: BuiltinRenderTextureType
+    constexpr BuiltinRenderTextureType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Rendering.BuiltinRenderTextureType PropertyName
     static constexpr const int PropertyName = -4;
     // Get static field: static public UnityEngine.Rendering.BuiltinRenderTextureType PropertyName
@@ -154,8 +160,6 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::BuiltinRenderTextureType _get_GBuffer7();
     // Set static field: static public UnityEngine.Rendering.BuiltinRenderTextureType GBuffer7
     static void _set_GBuffer7(UnityEngine::Rendering::BuiltinRenderTextureType value);
-    // Creating value type constructor for type: BuiltinRenderTextureType
-    BuiltinRenderTextureType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Rendering.BuiltinRenderTextureType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

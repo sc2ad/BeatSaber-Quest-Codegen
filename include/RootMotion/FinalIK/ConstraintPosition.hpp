@@ -25,6 +25,10 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.Vector3 position
     // Offset: 0x1C
     UnityEngine::Vector3 position;
+    // Creating conversion operator: operator UnityEngine::Vector3
+    constexpr operator UnityEngine::Vector3() const {
+      return position;
+    }
     // public System.Void .ctor(UnityEngine.Transform transform)
     // Offset: 0x13AED78
     static ConstraintPosition* New_ctor(UnityEngine::Transform* transform);

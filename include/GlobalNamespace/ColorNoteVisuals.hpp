@@ -68,6 +68,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Color _noteColor
     // Offset: 0x58
     UnityEngine::Color noteColor;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // Get static field: static private readonly System.Int32 _colorID
     static int _get__colorID();
     // Set static field: static private readonly System.Int32 _colorID

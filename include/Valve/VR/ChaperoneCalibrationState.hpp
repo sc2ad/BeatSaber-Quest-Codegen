@@ -16,6 +16,12 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ChaperoneCalibrationState
+    constexpr ChaperoneCalibrationState(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.ChaperoneCalibrationState OK
     static constexpr const int OK = 1;
     // Get static field: static public Valve.VR.ChaperoneCalibrationState OK
@@ -76,8 +82,6 @@ namespace Valve::VR {
     static Valve::VR::ChaperoneCalibrationState _get_Error_CollisionBoundsInvalid();
     // Set static field: static public Valve.VR.ChaperoneCalibrationState Error_CollisionBoundsInvalid
     static void _set_Error_CollisionBoundsInvalid(Valve::VR::ChaperoneCalibrationState value);
-    // Creating value type constructor for type: ChaperoneCalibrationState
-    ChaperoneCalibrationState(int value_ = {}) : value{value_} {}
   }; // Valve.VR.ChaperoneCalibrationState
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

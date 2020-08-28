@@ -16,6 +16,12 @@ namespace Zenject {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ScopeTypes
+    constexpr ScopeTypes(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Zenject.ScopeTypes Unset
     static constexpr const int Unset = 0;
     // Get static field: static public Zenject.ScopeTypes Unset
@@ -34,8 +40,6 @@ namespace Zenject {
     static Zenject::ScopeTypes _get_Singleton();
     // Set static field: static public Zenject.ScopeTypes Singleton
     static void _set_Singleton(Zenject::ScopeTypes value);
-    // Creating value type constructor for type: ScopeTypes
-    ScopeTypes(int value_ = {}) : value{value_} {}
   }; // Zenject.ScopeTypes
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -29,6 +29,10 @@ namespace UnityEngine {
     // System.IntPtr m_Ptr
     // Offset: 0x10
     System::IntPtr m_Ptr;
+    // Creating conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const {
+      return m_Ptr;
+    }
     // static private System.Void Internal_Destroy(System.IntPtr ptr)
     // Offset: 0x1397358
     static void Internal_Destroy(System::IntPtr ptr);

@@ -16,7 +16,11 @@ namespace OVR::OpenVR {
     // Offset: 0x0
     uint unHandle;
     // Creating value type constructor for type: VREvent_SpatialAnchor_t
-    VREvent_SpatialAnchor_t(uint unHandle_ = {}) : unHandle{unHandle_} {}
+    constexpr VREvent_SpatialAnchor_t(uint unHandle_ = {}) : unHandle{unHandle_} {}
+    // Creating conversion operator: operator uint
+    constexpr operator uint() const {
+      return unHandle;
+    }
   }; // OVR.OpenVR.VREvent_SpatialAnchor_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

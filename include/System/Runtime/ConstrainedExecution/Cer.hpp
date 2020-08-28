@@ -16,6 +16,12 @@ namespace System::Runtime::ConstrainedExecution {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Cer
+    constexpr Cer(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Runtime.ConstrainedExecution.Cer None
     static constexpr const int None = 0;
     // Get static field: static public System.Runtime.ConstrainedExecution.Cer None
@@ -34,8 +40,6 @@ namespace System::Runtime::ConstrainedExecution {
     static System::Runtime::ConstrainedExecution::Cer _get_Success();
     // Set static field: static public System.Runtime.ConstrainedExecution.Cer Success
     static void _set_Success(System::Runtime::ConstrainedExecution::Cer value);
-    // Creating value type constructor for type: Cer
-    Cer(int value_ = {}) : value{value_} {}
   }; // System.Runtime.ConstrainedExecution.Cer
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

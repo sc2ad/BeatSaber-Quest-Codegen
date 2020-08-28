@@ -38,6 +38,10 @@ namespace UnityEngine {
     // private System.IntPtr m_CachedPtr
     // Offset: 0x10
     System::IntPtr m_CachedPtr;
+    // Creating conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const {
+      return m_CachedPtr;
+    }
     // Get static field: static System.Int32 OffsetOfInstanceIDInCPlusPlusObject
     static int _get_OffsetOfInstanceIDInCPlusPlusObject();
     // Set static field: static System.Int32 OffsetOfInstanceIDInCPlusPlusObject

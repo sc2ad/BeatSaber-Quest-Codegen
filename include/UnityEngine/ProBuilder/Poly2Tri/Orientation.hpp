@@ -16,6 +16,12 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Orientation
+    constexpr Orientation(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ProBuilder.Poly2Tri.Orientation CW
     static constexpr const int CW = 0;
     // Get static field: static public UnityEngine.ProBuilder.Poly2Tri.Orientation CW
@@ -34,8 +40,6 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     static UnityEngine::ProBuilder::Poly2Tri::Orientation _get_Collinear();
     // Set static field: static public UnityEngine.ProBuilder.Poly2Tri.Orientation Collinear
     static void _set_Collinear(UnityEngine::ProBuilder::Poly2Tri::Orientation value);
-    // Creating value type constructor for type: Orientation
-    Orientation(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.Poly2Tri.Orientation
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

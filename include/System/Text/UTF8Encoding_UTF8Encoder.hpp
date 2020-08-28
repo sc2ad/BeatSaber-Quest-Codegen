@@ -27,6 +27,10 @@ namespace System::Text {
     // System.Int32 surrogateChar
     // Offset: 0x38
     int surrogateChar;
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return surrogateChar;
+    }
     // public System.Void .ctor(System.Text.UTF8Encoding encoding)
     // Offset: 0x13D5554
     static UTF8Encoding::UTF8Encoder* New_ctor(System::Text::UTF8Encoding* encoding);

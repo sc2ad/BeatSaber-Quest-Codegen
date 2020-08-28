@@ -115,7 +115,7 @@ namespace System {
     // Offset: 0x0
     int count;
     // Creating value type constructor for type: ArraySegment_1
-    ArraySegment_1(::Array<T>* array_ = {}, int offset_ = {}, int count_ = {}) : array{array_}, offset{offset_}, count{count_} {}
+    constexpr ArraySegment_1(::Array<T>* array_ = {}, int offset_ = {}, int count_ = {}) : array{array_}, offset{offset_}, count{count_} {}
     // public System.Void .ctor(T[] array)
     // Offset: 0xFFFFFFFF
     static ArraySegment_1<T>* New_ctor(::Array<T>* array) {

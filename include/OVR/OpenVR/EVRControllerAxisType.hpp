@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRControllerAxisType
+    constexpr EVRControllerAxisType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.EVRControllerAxisType k_eControllerAxis_None
     static constexpr const int k_eControllerAxis_None = 0;
     // Get static field: static public OVR.OpenVR.EVRControllerAxisType k_eControllerAxis_None
@@ -40,8 +46,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRControllerAxisType _get_k_eControllerAxis_Trigger();
     // Set static field: static public OVR.OpenVR.EVRControllerAxisType k_eControllerAxis_Trigger
     static void _set_k_eControllerAxis_Trigger(OVR::OpenVR::EVRControllerAxisType value);
-    // Creating value type constructor for type: EVRControllerAxisType
-    EVRControllerAxisType(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EVRControllerAxisType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

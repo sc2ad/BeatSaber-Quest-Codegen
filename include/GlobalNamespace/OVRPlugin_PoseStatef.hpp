@@ -35,12 +35,12 @@ namespace GlobalNamespace {
     // public System.Double Time
     // Offset: 0x50
     double Time;
+    // Creating value type constructor for type: PoseStatef
+    constexpr PoseStatef(GlobalNamespace::OVRPlugin::Posef Pose_ = {}, GlobalNamespace::OVRPlugin::Vector3f Velocity_ = {}, GlobalNamespace::OVRPlugin::Vector3f Acceleration_ = {}, GlobalNamespace::OVRPlugin::Vector3f AngularVelocity_ = {}, GlobalNamespace::OVRPlugin::Vector3f AngularAcceleration_ = {}, double Time_ = {}) : Pose{Pose_}, Velocity{Velocity_}, Acceleration{Acceleration_}, AngularVelocity{AngularVelocity_}, AngularAcceleration{AngularAcceleration_}, Time{Time_} {}
     // Get static field: static public readonly OVRPlugin/PoseStatef identity
     static GlobalNamespace::OVRPlugin::PoseStatef _get_identity();
     // Set static field: static public readonly OVRPlugin/PoseStatef identity
     static void _set_identity(GlobalNamespace::OVRPlugin::PoseStatef value);
-    // Creating value type constructor for type: PoseStatef
-    PoseStatef(GlobalNamespace::OVRPlugin::Posef Pose_ = {}, GlobalNamespace::OVRPlugin::Vector3f Velocity_ = {}, GlobalNamespace::OVRPlugin::Vector3f Acceleration_ = {}, GlobalNamespace::OVRPlugin::Vector3f AngularVelocity_ = {}, GlobalNamespace::OVRPlugin::Vector3f AngularAcceleration_ = {}, double Time_ = {}) : Pose{Pose_}, Velocity{Velocity_}, Acceleration{Acceleration_}, AngularVelocity{AngularVelocity_}, AngularAcceleration{AngularAcceleration_}, Time{Time_} {}
     // static private System.Void .cctor()
     // Offset: 0xF4AD30
     static void _cctor();

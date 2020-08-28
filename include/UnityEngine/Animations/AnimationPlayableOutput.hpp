@@ -37,7 +37,11 @@ namespace UnityEngine::Animations {
     // Offset: 0x0
     UnityEngine::Playables::PlayableOutputHandle m_Handle;
     // Creating value type constructor for type: AnimationPlayableOutput
-    AnimationPlayableOutput(UnityEngine::Playables::PlayableOutputHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
+    constexpr AnimationPlayableOutput(UnityEngine::Playables::PlayableOutputHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
+    // Creating conversion operator: operator UnityEngine::Playables::PlayableOutputHandle
+    constexpr operator UnityEngine::Playables::PlayableOutputHandle() const {
+      return m_Handle;
+    }
     // static public UnityEngine.Animations.AnimationPlayableOutput Create(UnityEngine.Playables.PlayableGraph graph, System.String name, UnityEngine.Animator target)
     // Offset: 0x193FBB0
     static UnityEngine::Animations::AnimationPlayableOutput Create(UnityEngine::Playables::PlayableGraph graph, ::Il2CppString* name, UnityEngine::Animator* target);

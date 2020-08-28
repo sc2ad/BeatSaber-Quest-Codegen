@@ -11,7 +11,8 @@
 // Begin forward declares
 // Forward declaring namespace: HMUI
 namespace HMUI {
-  // Skipping declaration: ViewController because it is already included!
+  // Forward declaring type: ViewController
+  class ViewController;
 }
 // Completed forward declares
 // Type namespace: 

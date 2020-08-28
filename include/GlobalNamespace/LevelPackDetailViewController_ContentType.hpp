@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ContentType
+    constexpr ContentType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public LevelPackDetailViewController/ContentType Loading
     static constexpr const int Loading = 0;
     // Get static field: static public LevelPackDetailViewController/ContentType Loading
@@ -42,8 +48,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::LevelPackDetailViewController::ContentType _get_Error();
     // Set static field: static public LevelPackDetailViewController/ContentType Error
     static void _set_Error(GlobalNamespace::LevelPackDetailViewController::ContentType value);
-    // Creating value type constructor for type: ContentType
-    ContentType(int value_ = {}) : value{value_} {}
   }; // LevelPackDetailViewController/ContentType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

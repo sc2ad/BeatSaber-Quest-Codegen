@@ -27,12 +27,12 @@ namespace GlobalNamespace {
     // public System.Single w
     // Offset: 0xC
     float w;
+    // Creating value type constructor for type: Vector4f
+    constexpr Vector4f(float x_ = {}, float y_ = {}, float z_ = {}, float w_ = {}) : x{x_}, y{y_}, z{z_}, w{w_} {}
     // Get static field: static public readonly OVRPlugin/Vector4f zero
     static GlobalNamespace::OVRPlugin::Vector4f _get_zero();
     // Set static field: static public readonly OVRPlugin/Vector4f zero
     static void _set_zero(GlobalNamespace::OVRPlugin::Vector4f value);
-    // Creating value type constructor for type: Vector4f
-    Vector4f(float x_ = {}, float y_ = {}, float z_ = {}, float w_ = {}) : x{x_}, y{y_}, z{z_}, w{w_} {}
     // static private System.Void .cctor()
     // Offset: 0xF4B84C
     static void _cctor();

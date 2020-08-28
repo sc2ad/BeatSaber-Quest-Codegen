@@ -20,7 +20,7 @@ namespace OVR::OpenVR {
     // Offset: 0x8
     uint64_t devicePath;
     // Creating value type constructor for type: VREvent_Overlay_t
-    VREvent_Overlay_t(uint64_t overlayHandle_ = {}, uint64_t devicePath_ = {}) : overlayHandle{overlayHandle_}, devicePath{devicePath_} {}
+    constexpr VREvent_Overlay_t(uint64_t overlayHandle_ = {}, uint64_t devicePath_ = {}) : overlayHandle{overlayHandle_}, devicePath{devicePath_} {}
   }; // OVR.OpenVR.VREvent_Overlay_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

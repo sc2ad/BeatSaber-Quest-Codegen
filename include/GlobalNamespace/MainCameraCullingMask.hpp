@@ -31,6 +31,8 @@ namespace GlobalNamespace {
     // private MainCameraCullingMask/InitData _initData
     // Offset: 0x20
     GlobalNamespace::MainCameraCullingMask::InitData* initData;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0x191191C
     void Start();

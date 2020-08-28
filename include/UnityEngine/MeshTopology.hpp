@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: MeshTopology
+    constexpr MeshTopology(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.MeshTopology Triangles
     static constexpr const int Triangles = 0;
     // Get static field: static public UnityEngine.MeshTopology Triangles
@@ -46,8 +52,6 @@ namespace UnityEngine {
     static UnityEngine::MeshTopology _get_Points();
     // Set static field: static public UnityEngine.MeshTopology Points
     static void _set_Points(UnityEngine::MeshTopology value);
-    // Creating value type constructor for type: MeshTopology
-    MeshTopology(int value_ = {}) : value{value_} {}
   }; // UnityEngine.MeshTopology
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

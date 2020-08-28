@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVREventType
+    constexpr EVREventType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.EVREventType VREvent_None
     static constexpr const int VREvent_None = 0;
     // Get static field: static public OVR.OpenVR.EVREventType VREvent_None
@@ -904,8 +910,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVREventType _get_VREvent_VendorSpecific_Reserved_End();
     // Set static field: static public OVR.OpenVR.EVREventType VREvent_VendorSpecific_Reserved_End
     static void _set_VREvent_VendorSpecific_Reserved_End(OVR::OpenVR::EVREventType value);
-    // Creating value type constructor for type: EVREventType
-    EVREventType(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EVREventType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

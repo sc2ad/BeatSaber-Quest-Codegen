@@ -28,6 +28,10 @@ namespace Zenject {
     // public Zenject.InjectContext context
     // Offset: 0x10
     Zenject::InjectContext* context;
+    // Creating conversion operator: operator Zenject::InjectContext*
+    constexpr operator Zenject::InjectContext*() const {
+      return context;
+    }
     // System.Type <ResolveTypeAll>b__0(Zenject.DiContainer/ProviderInfo x)
     // Offset: 0xF2F034
     System::Type* $ResolveTypeAll$b__0(Zenject::DiContainer::ProviderInfo* x);

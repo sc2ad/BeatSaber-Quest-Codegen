@@ -16,6 +16,12 @@ namespace System::Reflection {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ResourceLocation
+    constexpr ResourceLocation(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Reflection.ResourceLocation Embedded
     static constexpr const int Embedded = 1;
     // Get static field: static public System.Reflection.ResourceLocation Embedded
@@ -34,8 +40,6 @@ namespace System::Reflection {
     static System::Reflection::ResourceLocation _get_ContainedInManifestFile();
     // Set static field: static public System.Reflection.ResourceLocation ContainedInManifestFile
     static void _set_ContainedInManifestFile(System::Reflection::ResourceLocation value);
-    // Creating value type constructor for type: ResourceLocation
-    ResourceLocation(int value_ = {}) : value{value_} {}
   }; // System.Reflection.ResourceLocation
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

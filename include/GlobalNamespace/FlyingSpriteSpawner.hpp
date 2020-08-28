@@ -59,6 +59,8 @@ namespace GlobalNamespace {
     // private FlyingSpriteEffect/Pool _flyingSpriteEffectPool
     // Offset: 0x50
     GlobalNamespace::FlyingSpriteEffect::Pool* flyingSpriteEffectPool;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void SpawnFlyingSprite(UnityEngine.Vector3 pos, UnityEngine.Quaternion rotation, UnityEngine.Quaternion inverseRotation)
     // Offset: 0xBF0F48
     void SpawnFlyingSprite(UnityEngine::Vector3 pos, UnityEngine::Quaternion rotation, UnityEngine::Quaternion inverseRotation);

@@ -7,6 +7,10 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.ProBuilderMesh
 #include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
+// Including type: UnityEngine.Vector4
+#include "UnityEngine/Vector4.hpp"
+// Including type: UnityEngine.Vector2
+#include "UnityEngine/Vector2.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

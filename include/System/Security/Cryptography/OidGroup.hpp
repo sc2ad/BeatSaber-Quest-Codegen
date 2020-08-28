@@ -16,6 +16,12 @@ namespace System::Security::Cryptography {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: OidGroup
+    constexpr OidGroup(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Security.Cryptography.OidGroup All
     static constexpr const int All = 0;
     // Get static field: static public System.Security.Cryptography.OidGroup All
@@ -82,8 +88,6 @@ namespace System::Security::Cryptography {
     static System::Security::Cryptography::OidGroup _get_KeyDerivationFunction();
     // Set static field: static public System.Security.Cryptography.OidGroup KeyDerivationFunction
     static void _set_KeyDerivationFunction(System::Security::Cryptography::OidGroup value);
-    // Creating value type constructor for type: OidGroup
-    OidGroup(int value_ = {}) : value{value_} {}
   }; // System.Security.Cryptography.OidGroup
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

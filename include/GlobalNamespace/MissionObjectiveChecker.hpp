@@ -39,6 +39,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: Status
+      constexpr Status(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public MissionObjectiveChecker/Status None
       static constexpr const int None = 0;
       // Get static field: static public MissionObjectiveChecker/Status None
@@ -69,8 +75,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::MissionObjectiveChecker::Status _get_Failed();
       // Set static field: static public MissionObjectiveChecker/Status Failed
       static void _set_Failed(GlobalNamespace::MissionObjectiveChecker::Status value);
-      // Creating value type constructor for type: Status
-      Status(int value_ = {}) : value{value_} {}
     }; // MissionObjectiveChecker/Status
     // private MissionObjectiveTypeSO _missionObjectiveType
     // Offset: 0x18
@@ -93,6 +97,8 @@ namespace GlobalNamespace {
     // private System.Boolean _disableChecking
     // Offset: 0x40
     bool disableChecking;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void add_statusDidChangeEvent(System.Action`1<MissionObjectiveChecker> value)
     // Offset: 0xC0BA78
     void add_statusDidChangeEvent(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>* value);

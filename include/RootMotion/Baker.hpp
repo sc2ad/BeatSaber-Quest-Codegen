@@ -39,6 +39,12 @@ namespace RootMotion {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: Mode
+      constexpr Mode(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public RootMotion.Baker/Mode AnimationClips
       static constexpr const int AnimationClips = 0;
       // Get static field: static public RootMotion.Baker/Mode AnimationClips
@@ -63,8 +69,6 @@ namespace RootMotion {
       static RootMotion::Baker::Mode _get_Realtime();
       // Set static field: static public RootMotion.Baker/Mode Realtime
       static void _set_Realtime(RootMotion::Baker::Mode value);
-      // Creating value type constructor for type: Mode
-      Mode(int value_ = {}) : value{value_} {}
     }; // RootMotion.Baker/Mode
     // public System.Int32 frameRate
     // Offset: 0x18
@@ -108,6 +112,8 @@ namespace RootMotion {
     // private System.Single <clipLength>k__BackingField
     // Offset: 0x70
     float clipLength;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private System.Void OpenUserManual()
     // Offset: 0x13A07A0
     void OpenUserManual();

@@ -16,7 +16,11 @@ namespace OVR::OpenVR {
     // Offset: 0x0
     uint m_nFidelityLevel;
     // Creating value type constructor for type: VREvent_PerformanceTest_t
-    VREvent_PerformanceTest_t(uint m_nFidelityLevel_ = {}) : m_nFidelityLevel{m_nFidelityLevel_} {}
+    constexpr VREvent_PerformanceTest_t(uint m_nFidelityLevel_ = {}) : m_nFidelityLevel{m_nFidelityLevel_} {}
+    // Creating conversion operator: operator uint
+    constexpr operator uint() const {
+      return m_nFidelityLevel;
+    }
   }; // OVR.OpenVR.VREvent_PerformanceTest_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

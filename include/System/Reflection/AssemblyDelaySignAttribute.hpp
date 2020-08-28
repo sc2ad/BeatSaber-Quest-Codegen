@@ -16,6 +16,10 @@ namespace System::Reflection {
     // private System.Boolean m_delaySign
     // Offset: 0x10
     bool m_delaySign;
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return m_delaySign;
+    }
     // public System.Void .ctor(System.Boolean delaySign)
     // Offset: 0x13689D8
     static AssemblyDelaySignAttribute* New_ctor(bool delaySign);

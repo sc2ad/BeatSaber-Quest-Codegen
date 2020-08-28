@@ -29,6 +29,10 @@ namespace Zenject {
     // public System.Reflection.Assembly assembly
     // Offset: 0x10
     System::Reflection::Assembly* assembly;
+    // Creating conversion operator: operator System::Reflection::Assembly*
+    constexpr operator System::Reflection::Assembly*() const {
+      return assembly;
+    }
     // System.Boolean <ShouldIncludeAssembly>b__0(System.Func`2<System.Reflection.Assembly,System.Boolean> predicate)
     // Offset: 0xD6F644
     bool $ShouldIncludeAssembly$b__0(System::Func_2<System::Reflection::Assembly*, bool>* predicate);

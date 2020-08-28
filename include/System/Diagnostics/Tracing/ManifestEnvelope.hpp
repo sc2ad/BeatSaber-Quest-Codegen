@@ -23,14 +23,18 @@ namespace System::Diagnostics::Tracing {
       // public System.Byte value__
       // Offset: 0x0
       uint8_t value;
+      // Creating value type constructor for type: ManifestFormats
+      constexpr ManifestFormats(uint8_t value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator uint8_t
+      constexpr operator uint8_t() const {
+        return value;
+      }
       // static field const value: static public System.Diagnostics.Tracing.ManifestEnvelope/ManifestFormats SimpleXmlFormat
       static constexpr const uint8_t SimpleXmlFormat = 1u;
       // Get static field: static public System.Diagnostics.Tracing.ManifestEnvelope/ManifestFormats SimpleXmlFormat
       static System::Diagnostics::Tracing::ManifestEnvelope::ManifestFormats _get_SimpleXmlFormat();
       // Set static field: static public System.Diagnostics.Tracing.ManifestEnvelope/ManifestFormats SimpleXmlFormat
       static void _set_SimpleXmlFormat(System::Diagnostics::Tracing::ManifestEnvelope::ManifestFormats value);
-      // Creating value type constructor for type: ManifestFormats
-      ManifestFormats(uint8_t value_ = {}) : value{value_} {}
     }; // System.Diagnostics.Tracing.ManifestEnvelope/ManifestFormats
     // public System.Diagnostics.Tracing.ManifestEnvelope/ManifestFormats Format
     // Offset: 0x0
@@ -51,7 +55,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x6
     uint16_t ChunkNumber;
     // Creating value type constructor for type: ManifestEnvelope
-    ManifestEnvelope(System::Diagnostics::Tracing::ManifestEnvelope::ManifestFormats Format_ = {}, uint8_t MajorVersion_ = {}, uint8_t MinorVersion_ = {}, uint8_t Magic_ = {}, uint16_t TotalChunks_ = {}, uint16_t ChunkNumber_ = {}) : Format{Format_}, MajorVersion{MajorVersion_}, MinorVersion{MinorVersion_}, Magic{Magic_}, TotalChunks{TotalChunks_}, ChunkNumber{ChunkNumber_} {}
+    constexpr ManifestEnvelope(System::Diagnostics::Tracing::ManifestEnvelope::ManifestFormats Format_ = {}, uint8_t MajorVersion_ = {}, uint8_t MinorVersion_ = {}, uint8_t Magic_ = {}, uint16_t TotalChunks_ = {}, uint16_t ChunkNumber_ = {}) : Format{Format_}, MajorVersion{MajorVersion_}, MinorVersion{MinorVersion_}, Magic{Magic_}, TotalChunks{TotalChunks_}, ChunkNumber{ChunkNumber_} {}
   }; // System.Diagnostics.Tracing.ManifestEnvelope
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

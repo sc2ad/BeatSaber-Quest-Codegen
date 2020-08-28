@@ -28,6 +28,10 @@ namespace UnityEngine::TestRunner::Utils {
     // public NUnit.Framework.Interfaces.ITest testsToRun
     // Offset: 0x10
     NUnit::Framework::Interfaces::ITest* testsToRun;
+    // Creating conversion operator: operator NUnit::Framework::Interfaces::ITest*
+    constexpr operator NUnit::Framework::Interfaces::ITest*() const {
+      return testsToRun;
+    }
     // System.Void <RunStarted>b__0(UnityEngine.TestRunner.ITestRunCallback callback)
     // Offset: 0xE3F0F8
     void $RunStarted$b__0(UnityEngine::TestRunner::ITestRunCallback* callback);

@@ -16,6 +16,10 @@ namespace System::Reflection {
     // private System.String m_product
     // Offset: 0x10
     ::Il2CppString* m_product;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return m_product;
+    }
     // public System.Void .ctor(System.String product)
     // Offset: 0x1369C70
     static AssemblyProductAttribute* New_ctor(::Il2CppString* product);

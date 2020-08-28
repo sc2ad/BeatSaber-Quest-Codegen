@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: PermissionType
+    constexpr PermissionType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.PermissionType Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.PermissionType Unknown
@@ -34,8 +40,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::PermissionType _get_WriteExternalStorage();
     // Set static field: static public Oculus.Platform.PermissionType WriteExternalStorage
     static void _set_WriteExternalStorage(Oculus::Platform::PermissionType value);
-    // Creating value type constructor for type: PermissionType
-    PermissionType(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.PermissionType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

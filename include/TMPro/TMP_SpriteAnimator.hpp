@@ -41,6 +41,8 @@ namespace TMPro {
     // private TMPro.TMP_Text m_TextComponent
     // Offset: 0x20
     TMPro::TMP_Text* m_TextComponent;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private System.Void Awake()
     // Offset: 0xBB3544
     void Awake();

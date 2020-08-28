@@ -18,6 +18,12 @@ namespace UnityEngine::EventSystems {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: FramePressState
+    constexpr FramePressState(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.EventSystems.PointerEventData/FramePressState Pressed
     static constexpr const int Pressed = 0;
     // Get static field: static public UnityEngine.EventSystems.PointerEventData/FramePressState Pressed
@@ -42,8 +48,6 @@ namespace UnityEngine::EventSystems {
     static UnityEngine::EventSystems::PointerEventData::FramePressState _get_NotChanged();
     // Set static field: static public UnityEngine.EventSystems.PointerEventData/FramePressState NotChanged
     static void _set_NotChanged(UnityEngine::EventSystems::PointerEventData::FramePressState value);
-    // Creating value type constructor for type: FramePressState
-    FramePressState(int value_ = {}) : value{value_} {}
   }; // UnityEngine.EventSystems.PointerEventData/FramePressState
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

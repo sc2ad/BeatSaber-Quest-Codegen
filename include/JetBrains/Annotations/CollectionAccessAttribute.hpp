@@ -18,6 +18,10 @@ namespace JetBrains::Annotations {
     // private JetBrains.Annotations.CollectionAccessType <CollectionAccessType>k__BackingField
     // Offset: 0x10
     JetBrains::Annotations::CollectionAccessType CollectionAccessType;
+    // Creating conversion operator: operator JetBrains::Annotations::CollectionAccessType
+    constexpr operator JetBrains::Annotations::CollectionAccessType() const {
+      return CollectionAccessType;
+    }
     // public System.Void .ctor(JetBrains.Annotations.CollectionAccessType collectionAccessType)
     // Offset: 0x1961190
     static CollectionAccessAttribute* New_ctor(JetBrains::Annotations::CollectionAccessType collectionAccessType);

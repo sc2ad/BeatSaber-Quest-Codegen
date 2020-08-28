@@ -16,6 +16,12 @@ namespace System::Resources {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ResourceTypeCode
+    constexpr ResourceTypeCode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Resources.ResourceTypeCode Null
     static constexpr const int Null = 0;
     // Get static field: static public System.Resources.ResourceTypeCode Null
@@ -142,8 +148,6 @@ namespace System::Resources {
     static System::Resources::ResourceTypeCode _get_StartOfUserTypes();
     // Set static field: static public System.Resources.ResourceTypeCode StartOfUserTypes
     static void _set_StartOfUserTypes(System::Resources::ResourceTypeCode value);
-    // Creating value type constructor for type: ResourceTypeCode
-    ResourceTypeCode(int value_ = {}) : value{value_} {}
   }; // System.Resources.ResourceTypeCode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

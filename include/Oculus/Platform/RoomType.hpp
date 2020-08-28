@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: RoomType
+    constexpr RoomType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.RoomType Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.RoomType Unknown
@@ -46,8 +52,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::RoomType _get_Solo();
     // Set static field: static public Oculus.Platform.RoomType Solo
     static void _set_Solo(Oculus::Platform::RoomType value);
-    // Creating value type constructor for type: RoomType
-    RoomType(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.RoomType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

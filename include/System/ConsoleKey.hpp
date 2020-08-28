@@ -16,6 +16,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ConsoleKey
+    constexpr ConsoleKey(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.ConsoleKey Backspace
     static constexpr const int Backspace = 8;
     // Get static field: static public System.ConsoleKey Backspace
@@ -880,8 +886,6 @@ namespace System {
     static System::ConsoleKey _get_OemClear();
     // Set static field: static public System.ConsoleKey OemClear
     static void _set_OemClear(System::ConsoleKey value);
-    // Creating value type constructor for type: ConsoleKey
-    ConsoleKey(int value_ = {}) : value{value_} {}
   }; // System.ConsoleKey
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

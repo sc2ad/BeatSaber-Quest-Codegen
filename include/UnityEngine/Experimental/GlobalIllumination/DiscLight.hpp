@@ -54,7 +54,7 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // Offset: 0x4C
     UnityEngine::Experimental::GlobalIllumination::FalloffType falloff;
     // Creating value type constructor for type: DiscLight
-    DiscLight(int instanceID_ = {}, bool shadow_ = {}, UnityEngine::Experimental::GlobalIllumination::LightMode mode_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion orientation_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor color_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor_ = {}, float range_ = {}, float radius_ = {}, UnityEngine::Experimental::GlobalIllumination::FalloffType falloff_ = {}) : instanceID{instanceID_}, shadow{shadow_}, mode{mode_}, position{position_}, orientation{orientation_}, color{color_}, indirectColor{indirectColor_}, range{range_}, radius{radius_}, falloff{falloff_} {}
+    constexpr DiscLight(int instanceID_ = {}, bool shadow_ = {}, UnityEngine::Experimental::GlobalIllumination::LightMode mode_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion orientation_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor color_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor_ = {}, float range_ = {}, float radius_ = {}, UnityEngine::Experimental::GlobalIllumination::FalloffType falloff_ = {}) : instanceID{instanceID_}, shadow{shadow_}, mode{mode_}, position{position_}, orientation{orientation_}, color{color_}, indirectColor{indirectColor_}, range{range_}, radius{radius_}, falloff{falloff_} {}
   }; // UnityEngine.Experimental.GlobalIllumination.DiscLight
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

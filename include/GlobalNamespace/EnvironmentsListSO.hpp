@@ -31,6 +31,8 @@ namespace GlobalNamespace {
     // private EnvironmentInfoSO[] _environmentInfos
     // Offset: 0x18
     ::Array<GlobalNamespace::EnvironmentInfoSO*>* environmentInfos;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public EnvironmentInfoSO[] get_environmentInfos()
     // Offset: 0xBEB9E0
     ::Array<GlobalNamespace::EnvironmentInfoSO*>* get_environmentInfos();

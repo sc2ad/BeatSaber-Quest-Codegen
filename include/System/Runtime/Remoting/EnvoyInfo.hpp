@@ -23,6 +23,10 @@ namespace System::Runtime::Remoting {
     // private System.Runtime.Remoting.Messaging.IMessageSink envoySinks
     // Offset: 0x10
     System::Runtime::Remoting::Messaging::IMessageSink* envoySinks;
+    // Creating conversion operator: operator System::Runtime::Remoting::Messaging::IMessageSink*
+    constexpr operator System::Runtime::Remoting::Messaging::IMessageSink*() const {
+      return envoySinks;
+    }
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMessageSink sinks)
     // Offset: 0x1061204
     static EnvoyInfo* New_ctor(System::Runtime::Remoting::Messaging::IMessageSink* sinks);

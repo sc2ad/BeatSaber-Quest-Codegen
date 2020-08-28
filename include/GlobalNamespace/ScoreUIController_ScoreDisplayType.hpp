@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ScoreDisplayType
+    constexpr ScoreDisplayType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public ScoreUIController/ScoreDisplayType RawScore
     static constexpr const int RawScore = 0;
     // Get static field: static public ScoreUIController/ScoreDisplayType RawScore
@@ -30,8 +36,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::ScoreUIController::ScoreDisplayType _get_ModifiedScore();
     // Set static field: static public ScoreUIController/ScoreDisplayType ModifiedScore
     static void _set_ModifiedScore(GlobalNamespace::ScoreUIController::ScoreDisplayType value);
-    // Creating value type constructor for type: ScoreDisplayType
-    ScoreDisplayType(int value_ = {}) : value{value_} {}
   }; // ScoreUIController/ScoreDisplayType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -30,6 +30,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: ControllerType
+      constexpr ControllerType(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public OVRControllerHelper/ControllerType GearVR
       static constexpr const int GearVR = 0;
       // Get static field: static public OVRControllerHelper/ControllerType GearVR
@@ -54,8 +60,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRControllerHelper::ControllerType _get_Rift();
       // Set static field: static public OVRControllerHelper/ControllerType Rift
       static void _set_Rift(GlobalNamespace::OVRControllerHelper::ControllerType value);
-      // Creating value type constructor for type: ControllerType
-      ControllerType(int value_ = {}) : value{value_} {}
     }; // OVRControllerHelper/ControllerType
     // public UnityEngine.GameObject m_modelGearVrController
     // Offset: 0x18
@@ -87,6 +91,8 @@ namespace GlobalNamespace {
     // private System.Boolean m_prevControllerConnectedCached
     // Offset: 0x51
     bool m_prevControllerConnectedCached;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private System.Void Start()
     // Offset: 0xCCC9F0
     void Start();

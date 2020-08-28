@@ -43,6 +43,10 @@ namespace Valve::VR {
     // private Valve.VR.IVRRenderModels FnTable
     // Offset: 0x10
     Valve::VR::IVRRenderModels FnTable;
+    // Creating conversion operator: operator Valve::VR::IVRRenderModels
+    constexpr operator Valve::VR::IVRRenderModels() const {
+      return FnTable;
+    }
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0xFE6D90
     static CVRRenderModels* New_ctor(System::IntPtr pInterface);

@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ShareMediaStatus
+    constexpr ShareMediaStatus(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.ShareMediaStatus Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.ShareMediaStatus Unknown
@@ -34,8 +40,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::ShareMediaStatus _get_Canceled();
     // Set static field: static public Oculus.Platform.ShareMediaStatus Canceled
     static void _set_Canceled(Oculus::Platform::ShareMediaStatus value);
-    // Creating value type constructor for type: ShareMediaStatus
-    ShareMediaStatus(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.ShareMediaStatus
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,12 @@ namespace TMPro {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: _HorizontalAlignmentOptions
+    constexpr _HorizontalAlignmentOptions(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public TMPro._HorizontalAlignmentOptions Left
     static constexpr const int Left = 1;
     // Get static field: static public TMPro._HorizontalAlignmentOptions Left
@@ -52,8 +58,6 @@ namespace TMPro {
     static TMPro::_HorizontalAlignmentOptions _get_Geometry();
     // Set static field: static public TMPro._HorizontalAlignmentOptions Geometry
     static void _set_Geometry(TMPro::_HorizontalAlignmentOptions value);
-    // Creating value type constructor for type: _HorizontalAlignmentOptions
-    _HorizontalAlignmentOptions(int value_ = {}) : value{value_} {}
   }; // TMPro._HorizontalAlignmentOptions
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

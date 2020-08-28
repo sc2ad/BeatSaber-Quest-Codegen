@@ -18,6 +18,12 @@ namespace System::Diagnostics {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: State
+    constexpr State(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Diagnostics.Process/State HaveId
     static constexpr const int HaveId = 1;
     // Get static field: static public System.Diagnostics.Process/State HaveId
@@ -66,8 +72,6 @@ namespace System::Diagnostics {
     static System::Diagnostics::Process::State _get_HaveNtProcessInfo();
     // Set static field: static public System.Diagnostics.Process/State HaveNtProcessInfo
     static void _set_HaveNtProcessInfo(System::Diagnostics::Process::State value);
-    // Creating value type constructor for type: State
-    State(int value_ = {}) : value{value_} {}
   }; // System.Diagnostics.Process/State
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

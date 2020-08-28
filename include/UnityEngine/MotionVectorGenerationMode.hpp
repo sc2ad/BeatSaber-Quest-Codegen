@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: MotionVectorGenerationMode
+    constexpr MotionVectorGenerationMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.MotionVectorGenerationMode Camera
     static constexpr const int Camera = 0;
     // Get static field: static public UnityEngine.MotionVectorGenerationMode Camera
@@ -34,8 +40,6 @@ namespace UnityEngine {
     static UnityEngine::MotionVectorGenerationMode _get_ForceNoMotion();
     // Set static field: static public UnityEngine.MotionVectorGenerationMode ForceNoMotion
     static void _set_ForceNoMotion(UnityEngine::MotionVectorGenerationMode value);
-    // Creating value type constructor for type: MotionVectorGenerationMode
-    MotionVectorGenerationMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.MotionVectorGenerationMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

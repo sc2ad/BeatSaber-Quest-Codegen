@@ -34,6 +34,10 @@ namespace Valve::VR {
     // private Valve.VR.IVRNotifications FnTable
     // Offset: 0x10
     Valve::VR::IVRNotifications FnTable;
+    // Creating conversion operator: operator Valve::VR::IVRNotifications
+    constexpr operator Valve::VR::IVRNotifications() const {
+      return FnTable;
+    }
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0xFE5BF4
     static CVRNotifications* New_ctor(System::IntPtr pInterface);

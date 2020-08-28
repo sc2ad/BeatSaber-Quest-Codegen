@@ -25,6 +25,10 @@ namespace Zenject {
     // public UnityEngine.MonoBehaviour monoBehaviour
     // Offset: 0x10
     UnityEngine::MonoBehaviour* monoBehaviour;
+    // Creating conversion operator: operator UnityEngine::MonoBehaviour*
+    constexpr operator UnityEngine::MonoBehaviour*() const {
+      return monoBehaviour;
+    }
     // System.Boolean <FromComponentsSibling>b__2(UnityEngine.Component x)
     // Offset: 0xF38ABC
     bool $FromComponentsSibling$b__2(UnityEngine::Component* x);

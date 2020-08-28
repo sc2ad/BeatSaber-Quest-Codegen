@@ -18,6 +18,12 @@ namespace HMUI {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ScrollPositionType
+    constexpr ScrollPositionType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public HMUI.TableViewScroller/ScrollPositionType Beginning
     static constexpr const int Beginning = 0;
     // Get static field: static public HMUI.TableViewScroller/ScrollPositionType Beginning
@@ -36,8 +42,6 @@ namespace HMUI {
     static HMUI::TableViewScroller::ScrollPositionType _get_End();
     // Set static field: static public HMUI.TableViewScroller/ScrollPositionType End
     static void _set_End(HMUI::TableViewScroller::ScrollPositionType value);
-    // Creating value type constructor for type: ScrollPositionType
-    ScrollPositionType(int value_ = {}) : value{value_} {}
   }; // HMUI.TableViewScroller/ScrollPositionType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

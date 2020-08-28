@@ -16,6 +16,12 @@ namespace UnityEngine::TextCore::LowLevel {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: FontEngineError
+    constexpr FontEngineError(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.TextCore.LowLevel.FontEngineError Success
     static constexpr const int Success = 0;
     // Get static field: static public UnityEngine.TextCore.LowLevel.FontEngineError Success
@@ -100,8 +106,6 @@ namespace UnityEngine::TextCore::LowLevel {
     static UnityEngine::TextCore::LowLevel::FontEngineError _get_Invalid_SharedTextureData();
     // Set static field: static public UnityEngine.TextCore.LowLevel.FontEngineError Invalid_SharedTextureData
     static void _set_Invalid_SharedTextureData(UnityEngine::TextCore::LowLevel::FontEngineError value);
-    // Creating value type constructor for type: FontEngineError
-    FontEngineError(int value_ = {}) : value{value_} {}
   }; // UnityEngine.TextCore.LowLevel.FontEngineError
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

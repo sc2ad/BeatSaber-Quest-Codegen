@@ -47,6 +47,8 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.List`1<MissionNode> _missionNodes
     // Offset: 0x30
     System::Collections::Generic::List_1<GlobalNamespace::MissionNode*>* missionNodes;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private MissionNode get__rootMissionNode()
     // Offset: 0xC03C34
     GlobalNamespace::MissionNode* get__rootMissionNode();

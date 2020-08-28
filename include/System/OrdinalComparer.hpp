@@ -16,6 +16,10 @@ namespace System {
     // private System.Boolean _ignoreCase
     // Offset: 0x10
     bool ignoreCase;
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return ignoreCase;
+    }
     // System.Void .ctor(System.Boolean ignoreCase)
     // Offset: 0x1363A00
     static OrdinalComparer* New_ctor(bool ignoreCase);

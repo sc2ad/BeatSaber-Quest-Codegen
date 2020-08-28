@@ -31,6 +31,8 @@ namespace GlobalNamespace {
     // private System.Single _targetFrequency
     // Offset: 0x24
     float targetFrequency;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static field const value: static private System.Int32 kDefaultCutoffFrequency
     static constexpr const int kDefaultCutoffFrequency = 22000;
     // Get static field: static private System.Int32 kDefaultCutoffFrequency

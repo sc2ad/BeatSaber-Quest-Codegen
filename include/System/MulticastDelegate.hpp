@@ -30,6 +30,10 @@ namespace System {
     // private System.Delegate[] delegates
     // Offset: 0x68
     ::Array<System::Delegate*>* delegates;
+    // Creating conversion operator: operator ::Array<System::Delegate*>*
+    constexpr operator ::Array<System::Delegate*>*() const {
+      return delegates;
+    }
     // private System.Int32 LastIndexOf(System.Delegate[] haystack, System.Delegate[] needle)
     // Offset: 0x101B4AC
     int LastIndexOf(::Array<System::Delegate*>* haystack, ::Array<System::Delegate*>* needle);

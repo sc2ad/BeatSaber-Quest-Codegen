@@ -16,6 +16,12 @@ namespace UnityEngine::Rendering {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: StencilOp
+    constexpr StencilOp(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Rendering.StencilOp Keep
     static constexpr const int Keep = 0;
     // Get static field: static public UnityEngine.Rendering.StencilOp Keep
@@ -64,8 +70,6 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::StencilOp _get_DecrementWrap();
     // Set static field: static public UnityEngine.Rendering.StencilOp DecrementWrap
     static void _set_DecrementWrap(UnityEngine::Rendering::StencilOp value);
-    // Creating value type constructor for type: StencilOp
-    StencilOp(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Rendering.StencilOp
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

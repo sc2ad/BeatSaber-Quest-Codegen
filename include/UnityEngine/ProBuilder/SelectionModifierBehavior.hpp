@@ -16,6 +16,12 @@ namespace UnityEngine::ProBuilder {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SelectionModifierBehavior
+    constexpr SelectionModifierBehavior(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ProBuilder.SelectionModifierBehavior Add
     static constexpr const int Add = 0;
     // Get static field: static public UnityEngine.ProBuilder.SelectionModifierBehavior Add
@@ -34,8 +40,6 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::SelectionModifierBehavior _get_Difference();
     // Set static field: static public UnityEngine.ProBuilder.SelectionModifierBehavior Difference
     static void _set_Difference(UnityEngine::ProBuilder::SelectionModifierBehavior value);
-    // Creating value type constructor for type: SelectionModifierBehavior
-    SelectionModifierBehavior(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.SelectionModifierBehavior
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

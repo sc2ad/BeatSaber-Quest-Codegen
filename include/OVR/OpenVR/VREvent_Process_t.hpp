@@ -22,7 +22,7 @@ namespace OVR::OpenVR {
     // Offset: 0x8
     bool bForced;
     // Creating value type constructor for type: VREvent_Process_t
-    VREvent_Process_t(uint pid_ = {}, uint oldPid_ = {}, bool bForced_ = {}) : pid{pid_}, oldPid{oldPid_}, bForced{bForced_} {}
+    constexpr VREvent_Process_t(uint pid_ = {}, uint oldPid_ = {}, bool bForced_ = {}) : pid{pid_}, oldPid{oldPid_}, bForced{bForced_} {}
   }; // OVR.OpenVR.VREvent_Process_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

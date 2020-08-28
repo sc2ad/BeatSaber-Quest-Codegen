@@ -23,6 +23,10 @@ namespace System::Xml {
     // private System.Int32 hashCodeRandomizer
     // Offset: 0x10
     int hashCodeRandomizer;
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return hashCodeRandomizer;
+    }
     // Get static field: static private System.Xml.SecureStringHasher/HashCodeOfStringDelegate hashCodeDelegate
     static System::Xml::SecureStringHasher::HashCodeOfStringDelegate* _get_hashCodeDelegate();
     // Set static field: static private System.Xml.SecureStringHasher/HashCodeOfStringDelegate hashCodeDelegate

@@ -25,6 +25,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Int32 nullCount
     // Offset: 0x10
     int nullCount;
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return nullCount;
+    }
     // System.Void SetNullCount(System.Int32 nullCount)
     // Offset: 0xE2BBC4
     void SetNullCount(int nullCount);

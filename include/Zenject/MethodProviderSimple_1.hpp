@@ -45,6 +45,10 @@ namespace Zenject {
     // private readonly System.Func`1<TReturn> _method
     // Offset: 0x0
     System::Func_1<TReturn>* method;
+    // Creating conversion operator: operator System::Func_1<TReturn>*
+    constexpr operator System::Func_1<TReturn>*() const {
+      return method;
+    }
     // public System.Void .ctor(System.Func`1<TReturn> method)
     // Offset: 0xFFFFFFFF
     static MethodProviderSimple_1<TReturn>* New_ctor(System::Func_1<TReturn>* method) {

@@ -65,6 +65,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Vector3 _localPosition
     // Offset: 0x78
     UnityEngine::Vector3 localPosition;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void add_floorMovementDidFinishEvent(System.Action value)
     // Offset: 0xC2F988
     void add_floorMovementDidFinishEvent(System::Action* value);

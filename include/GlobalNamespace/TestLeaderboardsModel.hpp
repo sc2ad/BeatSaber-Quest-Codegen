@@ -54,6 +54,10 @@ namespace GlobalNamespace {
     // private System.Action`1<System.String> scoreForLeaderboardDidUploadEvent
     // Offset: 0x10
     System::Action_1<::Il2CppString*>* scoreForLeaderboardDidUploadEvent;
+    // Creating conversion operator: operator System::Action_1<::Il2CppString*>*
+    constexpr operator System::Action_1<::Il2CppString*>*() const {
+      return scoreForLeaderboardDidUploadEvent;
+    }
     // public System.Void add_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
     // Offset: 0xBAA948
     void add_scoreForLeaderboardDidUploadEvent(System::Action_1<::Il2CppString*>* value);

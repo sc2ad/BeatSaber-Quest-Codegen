@@ -41,6 +41,8 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // private UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint _activeConstraint
     // Offset: 0x38
     UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* activeConstraint;
+    // Deleting conversion operator: operator UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*
+    constexpr operator UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*() const = delete;
     // public System.Void set_PrimaryTriangle(UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle value)
     // Offset: 0x192F694
     void set_PrimaryTriangle(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* value);

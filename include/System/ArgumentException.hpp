@@ -29,6 +29,10 @@ namespace System {
     // private System.String m_paramName
     // Offset: 0x88
     ::Il2CppString* m_paramName;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return m_paramName;
+    }
     // public System.Void .ctor(System.String message, System.String paramName)
     // Offset: 0x10BCECC
     static ArgumentException* New_ctor(::Il2CppString* message, ::Il2CppString* paramName);

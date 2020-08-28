@@ -22,7 +22,7 @@ namespace TMPro {
     // Offset: 0x8
     int hashCode;
     // Creating value type constructor for type: TagAttribute
-    TagAttribute(int startIndex_ = {}, int length_ = {}, int hashCode_ = {}) : startIndex{startIndex_}, length{length_}, hashCode{hashCode_} {}
+    constexpr TagAttribute(int startIndex_ = {}, int length_ = {}, int hashCode_ = {}) : startIndex{startIndex_}, length{length_}, hashCode{hashCode_} {}
   }; // TMPro.TagAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

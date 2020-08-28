@@ -16,6 +16,12 @@ namespace System::ComponentModel {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: DesignerSerializationVisibility
+    constexpr DesignerSerializationVisibility(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.ComponentModel.DesignerSerializationVisibility Hidden
     static constexpr const int Hidden = 0;
     // Get static field: static public System.ComponentModel.DesignerSerializationVisibility Hidden
@@ -34,8 +40,6 @@ namespace System::ComponentModel {
     static System::ComponentModel::DesignerSerializationVisibility _get_Content();
     // Set static field: static public System.ComponentModel.DesignerSerializationVisibility Content
     static void _set_Content(System::ComponentModel::DesignerSerializationVisibility value);
-    // Creating value type constructor for type: DesignerSerializationVisibility
-    DesignerSerializationVisibility(int value_ = {}) : value{value_} {}
   }; // System.ComponentModel.DesignerSerializationVisibility
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

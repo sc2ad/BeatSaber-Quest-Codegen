@@ -26,6 +26,8 @@ namespace GlobalNamespace {
     // private System.Boolean _activateOnFalse
     // Offset: 0x20
     bool activateOnFalse;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Awake()
     // Offset: 0xBE1F44
     void Awake();

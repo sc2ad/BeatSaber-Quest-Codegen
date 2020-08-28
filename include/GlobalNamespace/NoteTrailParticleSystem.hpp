@@ -28,6 +28,8 @@ namespace GlobalNamespace {
     // private UnityEngine.ParticleSystem/EmitParams _emitParams
     // Offset: 0x20
     UnityEngine::ParticleSystem::EmitParams emitParams;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Awake()
     // Offset: 0xC32BB0
     void Awake();

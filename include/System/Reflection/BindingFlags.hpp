@@ -16,6 +16,12 @@ namespace System::Reflection {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: BindingFlags
+    constexpr BindingFlags(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Reflection.BindingFlags Default
     static constexpr const int Default = 0;
     // Get static field: static public System.Reflection.BindingFlags Default
@@ -136,8 +142,6 @@ namespace System::Reflection {
     static System::Reflection::BindingFlags _get_IgnoreReturn();
     // Set static field: static public System.Reflection.BindingFlags IgnoreReturn
     static void _set_IgnoreReturn(System::Reflection::BindingFlags value);
-    // Creating value type constructor for type: BindingFlags
-    BindingFlags(int value_ = {}) : value{value_} {}
   }; // System.Reflection.BindingFlags
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

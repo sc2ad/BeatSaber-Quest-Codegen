@@ -37,6 +37,8 @@ namespace Polyglot {
     // private System.String key
     // Offset: 0x20
     ::Il2CppString* key;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void Reset()
     // Offset: 0x191A888
     void Reset();

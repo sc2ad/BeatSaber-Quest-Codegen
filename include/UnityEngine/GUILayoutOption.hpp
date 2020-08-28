@@ -27,6 +27,12 @@ namespace UnityEngine {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: Type
+      constexpr Type(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public UnityEngine.GUILayoutOption/Type fixedWidth
       static constexpr const int fixedWidth = 0;
       // Get static field: static public UnityEngine.GUILayoutOption/Type fixedWidth
@@ -111,8 +117,6 @@ namespace UnityEngine {
       static UnityEngine::GUILayoutOption::Type _get_spacing();
       // Set static field: static public UnityEngine.GUILayoutOption/Type spacing
       static void _set_spacing(UnityEngine::GUILayoutOption::Type value);
-      // Creating value type constructor for type: Type
-      Type(int value_ = {}) : value{value_} {}
     }; // UnityEngine.GUILayoutOption/Type
     // UnityEngine.GUILayoutOption/Type type
     // Offset: 0x10

@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: FFTWindow
+    constexpr FFTWindow(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.FFTWindow Rectangular
     static constexpr const int Rectangular = 0;
     // Get static field: static public UnityEngine.FFTWindow Rectangular
@@ -52,8 +58,6 @@ namespace UnityEngine {
     static UnityEngine::FFTWindow _get_BlackmanHarris();
     // Set static field: static public UnityEngine.FFTWindow BlackmanHarris
     static void _set_BlackmanHarris(UnityEngine::FFTWindow value);
-    // Creating value type constructor for type: FFTWindow
-    FFTWindow(int value_ = {}) : value{value_} {}
   }; // UnityEngine.FFTWindow
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

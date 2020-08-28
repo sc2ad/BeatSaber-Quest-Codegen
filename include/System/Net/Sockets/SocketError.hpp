@@ -16,6 +16,12 @@ namespace System::Net::Sockets {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SocketError
+    constexpr SocketError(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Net.Sockets.SocketError Success
     static constexpr const int Success = 0;
     // Get static field: static public System.Net.Sockets.SocketError Success
@@ -298,8 +304,6 @@ namespace System::Net::Sockets {
     static System::Net::Sockets::SocketError _get_OperationAborted();
     // Set static field: static public System.Net.Sockets.SocketError OperationAborted
     static void _set_OperationAborted(System::Net::Sockets::SocketError value);
-    // Creating value type constructor for type: SocketError
-    SocketError(int value_ = {}) : value{value_} {}
   }; // System.Net.Sockets.SocketError
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

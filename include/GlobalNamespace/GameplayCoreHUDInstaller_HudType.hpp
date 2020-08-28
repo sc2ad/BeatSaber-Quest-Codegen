@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: HudType
+    constexpr HudType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public GameplayCoreHUDInstaller/HudType Basic
     static constexpr const int Basic = 0;
     // Get static field: static public GameplayCoreHUDInstaller/HudType Basic
@@ -36,8 +42,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::GameplayCoreHUDInstaller::HudType _get_Flying();
     // Set static field: static public GameplayCoreHUDInstaller/HudType Flying
     static void _set_Flying(GlobalNamespace::GameplayCoreHUDInstaller::HudType value);
-    // Creating value type constructor for type: HudType
-    HudType(int value_ = {}) : value{value_} {}
   }; // GameplayCoreHUDInstaller/HudType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

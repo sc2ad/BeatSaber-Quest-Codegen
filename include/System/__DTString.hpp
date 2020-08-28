@@ -47,12 +47,12 @@ namespace System {
     // private System.Boolean m_checkDigitToken
     // Offset: 0x20
     bool m_checkDigitToken;
+    // Creating value type constructor for type: __DTString
+    constexpr __DTString(::Il2CppString* Value_ = {}, int Index_ = {}, int len_ = {}, ::Il2CppChar m_current_ = {}, System::Globalization::CompareInfo* m_info_ = {}, bool m_checkDigitToken_ = {}) : Value{Value_}, Index{Index_}, len{len_}, m_current{m_current_}, m_info{m_info_}, m_checkDigitToken{m_checkDigitToken_} {}
     // Get static field: static private System.Char[] WhiteSpaceChecks
     static ::Array<::Il2CppChar>* _get_WhiteSpaceChecks();
     // Set static field: static private System.Char[] WhiteSpaceChecks
     static void _set_WhiteSpaceChecks(::Array<::Il2CppChar>* value);
-    // Creating value type constructor for type: __DTString
-    __DTString(::Il2CppString* Value_ = {}, int Index_ = {}, int len_ = {}, ::Il2CppChar m_current_ = {}, System::Globalization::CompareInfo* m_info_ = {}, bool m_checkDigitToken_ = {}) : Value{Value_}, Index{Index_}, len{len_}, m_current{m_current_}, m_info{m_info_}, m_checkDigitToken{m_checkDigitToken_} {}
     // System.Void .ctor(System.String str, System.Globalization.DateTimeFormatInfo dtfi)
     // Offset: 0xA57744
     static __DTString* New_ctor(::Il2CppString* str, System::Globalization::DateTimeFormatInfo* dtfi);

@@ -23,6 +23,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Mesh _mesh
     // Offset: 0x18
     UnityEngine::Mesh* mesh;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void OnEnable()
     // Offset: 0x190F828
     void OnEnable();

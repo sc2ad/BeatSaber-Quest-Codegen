@@ -51,7 +51,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x8
     System::Action* m_defaultContextAction;
     // Creating value type constructor for type: AsyncMethodBuilderCore
-    AsyncMethodBuilderCore(System::Runtime::CompilerServices::IAsyncStateMachine* m_stateMachine_ = {}, System::Action* m_defaultContextAction_ = {}) : m_stateMachine{m_stateMachine_}, m_defaultContextAction{m_defaultContextAction_} {}
+    constexpr AsyncMethodBuilderCore(System::Runtime::CompilerServices::IAsyncStateMachine* m_stateMachine_ = {}, System::Action* m_defaultContextAction_ = {}) : m_stateMachine{m_stateMachine_}, m_defaultContextAction{m_defaultContextAction_} {}
     // public System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     // Offset: 0xA421B4
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

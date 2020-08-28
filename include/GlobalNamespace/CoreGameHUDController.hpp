@@ -40,6 +40,8 @@ namespace GlobalNamespace {
     // private CoreGameHUDController/InitData _initData
     // Offset: 0x38
     GlobalNamespace::CoreGameHUDController::InitData* initData;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xBE2C18
     void Start();

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: StandardLevelBuyView/<LoadDataAsync>d__15
 #include "GlobalNamespace/StandardLevelBuyView_-LoadDataAsync-d__15.hpp"
 // Including type: IPreviewBeatmapLevel

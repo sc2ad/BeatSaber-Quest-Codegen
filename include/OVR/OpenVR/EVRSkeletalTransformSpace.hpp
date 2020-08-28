@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRSkeletalTransformSpace
+    constexpr EVRSkeletalTransformSpace(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.EVRSkeletalTransformSpace Model
     static constexpr const int Model = 0;
     // Get static field: static public OVR.OpenVR.EVRSkeletalTransformSpace Model
@@ -34,8 +40,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRSkeletalTransformSpace _get_Additive();
     // Set static field: static public OVR.OpenVR.EVRSkeletalTransformSpace Additive
     static void _set_Additive(OVR::OpenVR::EVRSkeletalTransformSpace value);
-    // Creating value type constructor for type: EVRSkeletalTransformSpace
-    EVRSkeletalTransformSpace(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EVRSkeletalTransformSpace
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

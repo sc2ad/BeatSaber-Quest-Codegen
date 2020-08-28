@@ -47,6 +47,10 @@ namespace Zenject {
     // private readonly System.Func`7<Zenject.DiContainer,TParam1,TParam2,TParam3,TParam4,TParam5,TValue> _method
     // Offset: 0x0
     System::Func_7<Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TValue>* method;
+    // Creating conversion operator: operator System::Func_7<Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TValue>*
+    constexpr operator System::Func_7<Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TValue>*() const {
+      return method;
+    }
     // public System.Void .ctor(System.Func`7<Zenject.DiContainer,TParam1,TParam2,TParam3,TParam4,TParam5,TValue> method)
     // Offset: 0xFFFFFFFF
     static MethodProviderWithContainer_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>* New_ctor(System::Func_7<Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TValue>* method) {

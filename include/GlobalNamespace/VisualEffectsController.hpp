@@ -28,6 +28,8 @@ namespace GlobalNamespace {
     // private BoolSO _depthTextureEnabled
     // Offset: 0x18
     GlobalNamespace::BoolSO* depthTextureEnabled;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static field const value: static private System.String kDepthTextureEnabledKeyword
     static constexpr const char* kDepthTextureEnabledKeyword = "DEPTH_TEXTURE_ENABLED";
     // Get static field: static private System.String kDepthTextureEnabledKeyword

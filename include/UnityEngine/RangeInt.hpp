@@ -19,7 +19,7 @@ namespace UnityEngine {
     // Offset: 0x4
     int length;
     // Creating value type constructor for type: RangeInt
-    RangeInt(int start_ = {}, int length_ = {}) : start{start_}, length{length_} {}
+    constexpr RangeInt(int start_ = {}, int length_ = {}) : start{start_}, length{length_} {}
     // public System.Int32 get_end()
     // Offset: 0xA490DC
     int get_end();

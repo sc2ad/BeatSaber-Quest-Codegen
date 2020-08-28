@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRButtonId
+    constexpr EVRButtonId(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.EVRButtonId k_EButton_System
     static constexpr const int k_EButton_System = 0;
     // Get static field: static public OVR.OpenVR.EVRButtonId k_EButton_System
@@ -142,8 +148,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRButtonId _get_k_EButton_Max();
     // Set static field: static public OVR.OpenVR.EVRButtonId k_EButton_Max
     static void _set_k_EButton_Max(OVR::OpenVR::EVRButtonId value);
-    // Creating value type constructor for type: EVRButtonId
-    EVRButtonId(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EVRButtonId
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

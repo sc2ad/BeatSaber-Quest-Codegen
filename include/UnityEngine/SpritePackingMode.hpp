@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SpritePackingMode
+    constexpr SpritePackingMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.SpritePackingMode Tight
     static constexpr const int Tight = 0;
     // Get static field: static public UnityEngine.SpritePackingMode Tight
@@ -28,8 +34,6 @@ namespace UnityEngine {
     static UnityEngine::SpritePackingMode _get_Rectangle();
     // Set static field: static public UnityEngine.SpritePackingMode Rectangle
     static void _set_Rectangle(UnityEngine::SpritePackingMode value);
-    // Creating value type constructor for type: SpritePackingMode
-    SpritePackingMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.SpritePackingMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TiledMultiResLevel
+    constexpr TiledMultiResLevel(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRManager/TiledMultiResLevel Off
     static constexpr const int Off = 0;
     // Get static field: static public OVRManager/TiledMultiResLevel Off
@@ -48,8 +54,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRManager::TiledMultiResLevel _get_LMSHighTop();
     // Set static field: static public OVRManager/TiledMultiResLevel LMSHighTop
     static void _set_LMSHighTop(GlobalNamespace::OVRManager::TiledMultiResLevel value);
-    // Creating value type constructor for type: TiledMultiResLevel
-    TiledMultiResLevel(int value_ = {}) : value{value_} {}
   }; // OVRManager/TiledMultiResLevel
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

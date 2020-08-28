@@ -25,7 +25,7 @@ namespace Microsoft::Win32 {
     // Offset: 0xC
     int Type;
     // Creating value type constructor for type: EVENT_FILTER_DESCRIPTOR
-    EVENT_FILTER_DESCRIPTOR(int64_t Ptr_ = {}, int Size_ = {}, int Type_ = {}) : Ptr{Ptr_}, Size{Size_}, Type{Type_} {}
+    constexpr EVENT_FILTER_DESCRIPTOR(int64_t Ptr_ = {}, int Size_ = {}, int Type_ = {}) : Ptr{Ptr_}, Size{Size_}, Type{Type_} {}
   }; // Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/EVENT_FILTER_DESCRIPTOR
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

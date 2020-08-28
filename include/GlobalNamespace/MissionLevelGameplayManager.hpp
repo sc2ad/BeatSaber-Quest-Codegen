@@ -55,6 +55,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: GameState
+      constexpr GameState(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public MissionLevelGameplayManager/GameState Intro
       static constexpr const int Intro = 0;
       // Get static field: static public MissionLevelGameplayManager/GameState Intro
@@ -85,8 +91,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::MissionLevelGameplayManager::GameState _get_Failed();
       // Set static field: static public MissionLevelGameplayManager/GameState Failed
       static void _set_Failed(GlobalNamespace::MissionLevelGameplayManager::GameState value);
-      // Creating value type constructor for type: GameState
-      GameState(int value_ = {}) : value{value_} {}
     }; // MissionLevelGameplayManager/GameState
     // private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
     // Offset: 0x18
@@ -112,6 +116,8 @@ namespace GlobalNamespace {
     // private MissionLevelGameplayManager/GameState _gameState
     // Offset: 0x50
     GlobalNamespace::MissionLevelGameplayManager::GameState gameState;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Awake()
     // Offset: 0xC05D80
     void Awake();

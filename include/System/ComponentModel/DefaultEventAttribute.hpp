@@ -16,6 +16,10 @@ namespace System::ComponentModel {
     // private readonly System.String name
     // Offset: 0x10
     ::Il2CppString* name;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return name;
+    }
     // Get static field: static public readonly System.ComponentModel.DefaultEventAttribute Default
     static System::ComponentModel::DefaultEventAttribute* _get_Default();
     // Set static field: static public readonly System.ComponentModel.DefaultEventAttribute Default

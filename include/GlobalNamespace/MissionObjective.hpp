@@ -29,6 +29,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: ReferenceValueComparisonType
+      constexpr ReferenceValueComparisonType(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public MissionObjective/ReferenceValueComparisonType None
       static constexpr const int None = 0;
       // Get static field: static public MissionObjective/ReferenceValueComparisonType None
@@ -53,8 +59,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::MissionObjective::ReferenceValueComparisonType _get_Min();
       // Set static field: static public MissionObjective/ReferenceValueComparisonType Min
       static void _set_Min(GlobalNamespace::MissionObjective::ReferenceValueComparisonType value);
-      // Creating value type constructor for type: ReferenceValueComparisonType
-      ReferenceValueComparisonType(int value_ = {}) : value{value_} {}
     }; // MissionObjective/ReferenceValueComparisonType
     // private MissionObjectiveTypeSO _type
     // Offset: 0x10

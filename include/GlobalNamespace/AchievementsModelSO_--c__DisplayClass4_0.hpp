@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: AchievementsModelSO
 #include "GlobalNamespace/AchievementsModelSO.hpp"
+// Including type: PlatformAchievementsModelSO
+#include "GlobalNamespace/PlatformAchievementsModelSO.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

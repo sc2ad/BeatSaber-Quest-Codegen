@@ -16,6 +16,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: UriFormat
+    constexpr UriFormat(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.UriFormat UriEscaped
     static constexpr const int UriEscaped = 1;
     // Get static field: static public System.UriFormat UriEscaped
@@ -34,8 +40,6 @@ namespace System {
     static System::UriFormat _get_SafeUnescaped();
     // Set static field: static public System.UriFormat SafeUnescaped
     static void _set_SafeUnescaped(System::UriFormat value);
-    // Creating value type constructor for type: UriFormat
-    UriFormat(int value_ = {}) : value{value_} {}
   }; // System.UriFormat
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

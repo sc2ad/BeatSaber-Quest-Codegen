@@ -16,6 +16,12 @@ namespace System::Diagnostics::Tracing {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EventActivityOptions
+    constexpr EventActivityOptions(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Diagnostics.Tracing.EventActivityOptions None
     static constexpr const int None = 0;
     // Get static field: static public System.Diagnostics.Tracing.EventActivityOptions None
@@ -40,8 +46,6 @@ namespace System::Diagnostics::Tracing {
     static System::Diagnostics::Tracing::EventActivityOptions _get_Detachable();
     // Set static field: static public System.Diagnostics.Tracing.EventActivityOptions Detachable
     static void _set_Detachable(System::Diagnostics::Tracing::EventActivityOptions value);
-    // Creating value type constructor for type: EventActivityOptions
-    EventActivityOptions(int value_ = {}) : value{value_} {}
   }; // System.Diagnostics.Tracing.EventActivityOptions
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

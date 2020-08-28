@@ -52,6 +52,8 @@ namespace UnityEngine::ProBuilder {
     // private UnityEngine.ProBuilder.ProBuilderMesh m_Mesh
     // Offset: 0x38
     UnityEngine::ProBuilder::ProBuilderMesh* m_Mesh;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Boolean get_isEditing()
     // Offset: 0x15305B8
     bool get_isEditing();

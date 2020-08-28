@@ -23,6 +23,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Int32 idRef
     // Offset: 0x10
     int idRef;
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return idRef;
+    }
     // System.Void Set(System.Int32 idRef)
     // Offset: 0xE2AE54
     void Set(int idRef);

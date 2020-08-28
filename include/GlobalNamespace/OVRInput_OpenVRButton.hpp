@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.UInt64 value__
     // Offset: 0x0
     uint64_t value;
+    // Creating value type constructor for type: OpenVRButton
+    constexpr OpenVRButton(uint64_t value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator uint64_t
+    constexpr operator uint64_t() const {
+      return value;
+    }
     // static field const value: static public OVRInput/OpenVRButton None
     static constexpr const uint64_t None = 0u;
     // Get static field: static public OVRInput/OpenVRButton None
@@ -42,8 +48,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRInput::OpenVRButton _get_Grip();
     // Set static field: static public OVRInput/OpenVRButton Grip
     static void _set_Grip(GlobalNamespace::OVRInput::OpenVRButton value);
-    // Creating value type constructor for type: OpenVRButton
-    OpenVRButton(uint64_t value_ = {}) : value{value_} {}
   }; // OVRInput/OpenVRButton
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

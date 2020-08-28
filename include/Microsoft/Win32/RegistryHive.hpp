@@ -16,6 +16,12 @@ namespace Microsoft::Win32 {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: RegistryHive
+    constexpr RegistryHive(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Microsoft.Win32.RegistryHive ClassesRoot
     static constexpr const int ClassesRoot = -2147483648;
     // Get static field: static public Microsoft.Win32.RegistryHive ClassesRoot
@@ -58,8 +64,6 @@ namespace Microsoft::Win32 {
     static Microsoft::Win32::RegistryHive _get_Users();
     // Set static field: static public Microsoft.Win32.RegistryHive Users
     static void _set_Users(Microsoft::Win32::RegistryHive value);
-    // Creating value type constructor for type: RegistryHive
-    RegistryHive(int value_ = {}) : value{value_} {}
   }; // Microsoft.Win32.RegistryHive
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

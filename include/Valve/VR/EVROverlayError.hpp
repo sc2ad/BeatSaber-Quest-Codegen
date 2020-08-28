@@ -16,6 +16,12 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVROverlayError
+    constexpr EVROverlayError(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.EVROverlayError None
     static constexpr const int None = 0;
     // Get static field: static public Valve.VR.EVROverlayError None
@@ -160,8 +166,6 @@ namespace Valve::VR {
     static Valve::VR::EVROverlayError _get_TextureNotLocked();
     // Set static field: static public Valve.VR.EVROverlayError TextureNotLocked
     static void _set_TextureNotLocked(Valve::VR::EVROverlayError value);
-    // Creating value type constructor for type: EVROverlayError
-    EVROverlayError(int value_ = {}) : value{value_} {}
   }; // Valve.VR.EVROverlayError
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

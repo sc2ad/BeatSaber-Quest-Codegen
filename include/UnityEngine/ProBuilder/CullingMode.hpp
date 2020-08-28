@@ -16,6 +16,12 @@ namespace UnityEngine::ProBuilder {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: CullingMode
+    constexpr CullingMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ProBuilder.CullingMode None
     static constexpr const int None = 0;
     // Get static field: static public UnityEngine.ProBuilder.CullingMode None
@@ -40,8 +46,6 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::CullingMode _get_FrontBack();
     // Set static field: static public UnityEngine.ProBuilder.CullingMode FrontBack
     static void _set_FrontBack(UnityEngine::ProBuilder::CullingMode value);
-    // Creating value type constructor for type: CullingMode
-    CullingMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.CullingMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

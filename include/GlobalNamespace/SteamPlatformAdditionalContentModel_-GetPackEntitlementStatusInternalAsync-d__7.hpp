@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Offset: 0x38
     System::Runtime::CompilerServices::TaskAwaiter_1<bool> $$u__1;
     // Creating value type constructor for type: $GetPackEntitlementStatusInternalAsync$d__7
-    $GetPackEntitlementStatusInternalAsync$d__7(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$t__builder_ = {}, GlobalNamespace::SteamPlatformAdditionalContentModel* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, ::Il2CppString* packId_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<bool> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, packId{packId_}, $$u__1{$$u__1_} {}
+    constexpr $GetPackEntitlementStatusInternalAsync$d__7(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$t__builder_ = {}, GlobalNamespace::SteamPlatformAdditionalContentModel* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, ::Il2CppString* packId_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<bool> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, packId{packId_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
     // Offset: 0xA2BF14
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine

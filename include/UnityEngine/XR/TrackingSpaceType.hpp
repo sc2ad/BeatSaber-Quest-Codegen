@@ -16,6 +16,12 @@ namespace UnityEngine::XR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TrackingSpaceType
+    constexpr TrackingSpaceType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.XR.TrackingSpaceType Stationary
     static constexpr const int Stationary = 0;
     // Get static field: static public UnityEngine.XR.TrackingSpaceType Stationary
@@ -28,8 +34,6 @@ namespace UnityEngine::XR {
     static UnityEngine::XR::TrackingSpaceType _get_RoomScale();
     // Set static field: static public UnityEngine.XR.TrackingSpaceType RoomScale
     static void _set_RoomScale(UnityEngine::XR::TrackingSpaceType value);
-    // Creating value type constructor for type: TrackingSpaceType
-    TrackingSpaceType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.XR.TrackingSpaceType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

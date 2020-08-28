@@ -62,6 +62,10 @@ namespace Zenject {
       // public System.Func`5<Zenject.DiContainer,TParam1,TParam2,TParam3,TContract> method
       // Offset: 0x0
       System::Func_5<Zenject::DiContainer*, TParam1, TParam2, TParam3, TContract>* method;
+      // Creating conversion operator: operator System::Func_5<Zenject::DiContainer*, TParam1, TParam2, TParam3, TContract>*
+      constexpr operator System::Func_5<Zenject::DiContainer*, TParam1, TParam2, TParam3, TContract>*() const {
+        return method;
+      }
       // Zenject.IProvider <FromMethod>b__0(Zenject.DiContainer container)
       // Offset: 0xFFFFFFFF
       Zenject::IProvider* $FromMethod$b__0(Zenject::DiContainer* container) {

@@ -23,6 +23,8 @@ namespace GlobalNamespace {
     // private FadeInOutController _fadeInOut
     // Offset: 0x18
     GlobalNamespace::FadeInOutController* fadeInOut;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0x1911140
     void Start();

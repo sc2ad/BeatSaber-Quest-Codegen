@@ -16,6 +16,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Handles
+    constexpr Handles(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Handles STD_INPUT
     static constexpr const int STD_INPUT = -10;
     // Get static field: static public System.Handles STD_INPUT
@@ -34,8 +40,6 @@ namespace System {
     static System::Handles _get_STD_ERROR();
     // Set static field: static public System.Handles STD_ERROR
     static void _set_STD_ERROR(System::Handles value);
-    // Creating value type constructor for type: Handles
-    Handles(int value_ = {}) : value{value_} {}
   }; // System.Handles
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,10 @@ namespace UnityEngine::TestTools {
     // private readonly System.Boolean <MustExpect>k__BackingField
     // Offset: 0x10
     bool MustExpect;
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return MustExpect;
+    }
     // public System.Boolean get_MustExpect()
     // Offset: 0xE453FC
     bool get_MustExpect();

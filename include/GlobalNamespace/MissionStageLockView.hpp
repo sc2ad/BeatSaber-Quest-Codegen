@@ -40,6 +40,8 @@ namespace GlobalNamespace {
     // private System.Single _startAnimationTime
     // Offset: 0x30
     float startAnimationTime;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void UpdateLocalPositionY(System.Single dstPosY, System.Boolean animated, System.Single animationDuration)
     // Offset: 0xC0F064
     void UpdateLocalPositionY(float dstPosY, bool animated, float animationDuration);

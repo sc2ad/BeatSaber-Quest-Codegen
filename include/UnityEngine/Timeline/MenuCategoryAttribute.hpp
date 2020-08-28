@@ -16,6 +16,10 @@ namespace UnityEngine::Timeline {
     // public readonly System.String category
     // Offset: 0x10
     ::Il2CppString* category;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return category;
+    }
     // public System.Void .ctor(System.String category)
     // Offset: 0x109CAE8
     static MenuCategoryAttribute* New_ctor(::Il2CppString* category);

@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRApplicationTransitionState
+    constexpr EVRApplicationTransitionState(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.EVRApplicationTransitionState VRApplicationTransition_None
     static constexpr const int VRApplicationTransition_None = 0;
     // Get static field: static public OVR.OpenVR.EVRApplicationTransitionState VRApplicationTransition_None
@@ -40,8 +46,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRApplicationTransitionState _get_VRApplicationTransition_NewAppLaunched();
     // Set static field: static public OVR.OpenVR.EVRApplicationTransitionState VRApplicationTransition_NewAppLaunched
     static void _set_VRApplicationTransition_NewAppLaunched(OVR::OpenVR::EVRApplicationTransitionState value);
-    // Creating value type constructor for type: EVRApplicationTransitionState
-    EVRApplicationTransitionState(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EVRApplicationTransitionState
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

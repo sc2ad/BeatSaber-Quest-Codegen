@@ -16,6 +16,12 @@ namespace JetBrains::Annotations {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: AssertionConditionType
+    constexpr AssertionConditionType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public JetBrains.Annotations.AssertionConditionType IS_TRUE
     static constexpr const int IS_TRUE = 0;
     // Get static field: static public JetBrains.Annotations.AssertionConditionType IS_TRUE
@@ -40,8 +46,6 @@ namespace JetBrains::Annotations {
     static JetBrains::Annotations::AssertionConditionType _get_IS_NOT_NULL();
     // Set static field: static public JetBrains.Annotations.AssertionConditionType IS_NOT_NULL
     static void _set_IS_NOT_NULL(JetBrains::Annotations::AssertionConditionType value);
-    // Creating value type constructor for type: AssertionConditionType
-    AssertionConditionType(int value_ = {}) : value{value_} {}
   }; // JetBrains.Annotations.AssertionConditionType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

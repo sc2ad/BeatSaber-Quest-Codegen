@@ -16,6 +16,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: BeatmapEventType
+    constexpr BeatmapEventType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public BeatmapEventType Event0
     static constexpr const int Event0 = 0;
     // Get static field: static public BeatmapEventType Event0
@@ -118,8 +124,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::BeatmapEventType _get_VoidEvent();
     // Set static field: static public BeatmapEventType VoidEvent
     static void _set_VoidEvent(GlobalNamespace::BeatmapEventType value);
-    // Creating value type constructor for type: BeatmapEventType
-    BeatmapEventType(int value_ = {}) : value{value_} {}
   }; // BeatmapEventType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

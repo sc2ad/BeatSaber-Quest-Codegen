@@ -31,7 +31,7 @@ namespace UnityEngine {
     // Offset: 0x8
     UnityEngine::Camera* camera;
     // Creating value type constructor for type: HitInfo
-    HitInfo(UnityEngine::GameObject* target_ = {}, UnityEngine::Camera* camera_ = {}) : target{target_}, camera{camera_} {}
+    constexpr HitInfo(UnityEngine::GameObject* target_ = {}, UnityEngine::Camera* camera_ = {}) : target{target_}, camera{camera_} {}
     // public System.Void SendMessage(System.String name)
     // Offset: 0xA60A2C
     void SendMessage(::Il2CppString* name);

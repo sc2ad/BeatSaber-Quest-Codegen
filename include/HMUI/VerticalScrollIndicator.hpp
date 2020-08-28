@@ -29,6 +29,8 @@ namespace HMUI {
     // private System.Single _normalizedPageHeight
     // Offset: 0x24
     float normalizedPageHeight;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void set_progress(System.Single value)
     // Offset: 0x10E20B8
     void set_progress(float value);

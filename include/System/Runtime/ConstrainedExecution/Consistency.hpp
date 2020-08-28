@@ -16,6 +16,12 @@ namespace System::Runtime::ConstrainedExecution {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Consistency
+    constexpr Consistency(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Runtime.ConstrainedExecution.Consistency MayCorruptProcess
     static constexpr const int MayCorruptProcess = 0;
     // Get static field: static public System.Runtime.ConstrainedExecution.Consistency MayCorruptProcess
@@ -40,8 +46,6 @@ namespace System::Runtime::ConstrainedExecution {
     static System::Runtime::ConstrainedExecution::Consistency _get_WillNotCorruptState();
     // Set static field: static public System.Runtime.ConstrainedExecution.Consistency WillNotCorruptState
     static void _set_WillNotCorruptState(System::Runtime::ConstrainedExecution::Consistency value);
-    // Creating value type constructor for type: Consistency
-    Consistency(int value_ = {}) : value{value_} {}
   }; // System.Runtime.ConstrainedExecution.Consistency
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

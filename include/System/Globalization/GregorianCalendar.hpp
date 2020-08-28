@@ -32,6 +32,10 @@ namespace System::Globalization {
     // System.Globalization.GregorianCalendarTypes m_type
     // Offset: 0x1C
     System::Globalization::GregorianCalendarTypes m_type;
+    // Creating conversion operator: operator System::Globalization::GregorianCalendarTypes
+    constexpr operator System::Globalization::GregorianCalendarTypes() const {
+      return m_type;
+    }
     // Get static field: static readonly System.Int32[] DaysToMonth365
     static ::Array<int>* _get_DaysToMonth365();
     // Set static field: static readonly System.Int32[] DaysToMonth365

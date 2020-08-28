@@ -21,6 +21,8 @@ namespace GlobalNamespace {
     // private System.Boolean chromatic
     // Offset: 0x1C
     bool chromatic;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private System.Void Start()
     // Offset: 0xCCB634
     void Start();

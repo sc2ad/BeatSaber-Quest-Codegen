@@ -118,7 +118,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Offset: 0x0
     T _2;
     // Creating value type constructor for type: FixedArray3_1
-    FixedArray3_1(T _0_ = {}, T _1_ = {}, T _2_ = {}) : _0{_0_}, _1{_1_}, _2{_2_} {}
+    constexpr FixedArray3_1(T _0_ = {}, T _1_ = {}, T _2_ = {}) : _0{_0_}, _1{_1_}, _2{_2_} {}
     // public T get_Item(System.Int32 index)
     // Offset: 0xFFFFFFFF
     T get_Item(int index) {

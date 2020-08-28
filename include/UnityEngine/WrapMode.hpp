@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: WrapMode
+    constexpr WrapMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.WrapMode Once
     static constexpr const int Once = 1;
     // Get static field: static public UnityEngine.WrapMode Once
@@ -52,8 +58,6 @@ namespace UnityEngine {
     static UnityEngine::WrapMode _get_Clamp();
     // Set static field: static public UnityEngine.WrapMode Clamp
     static void _set_Clamp(UnityEngine::WrapMode value);
-    // Creating value type constructor for type: WrapMode
-    WrapMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.WrapMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,12 @@ namespace UnityEngine::Timeline {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TrackBindingFlags
+    constexpr TrackBindingFlags(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Timeline.TrackBindingFlags None
     static constexpr const int None = 0;
     // Get static field: static public UnityEngine.Timeline.TrackBindingFlags None
@@ -34,8 +40,6 @@ namespace UnityEngine::Timeline {
     static UnityEngine::Timeline::TrackBindingFlags _get_All();
     // Set static field: static public UnityEngine.Timeline.TrackBindingFlags All
     static void _set_All(UnityEngine::Timeline::TrackBindingFlags value);
-    // Creating value type constructor for type: TrackBindingFlags
-    TrackBindingFlags(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Timeline.TrackBindingFlags
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

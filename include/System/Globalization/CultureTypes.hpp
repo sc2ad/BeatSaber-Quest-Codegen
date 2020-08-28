@@ -16,6 +16,12 @@ namespace System::Globalization {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: CultureTypes
+    constexpr CultureTypes(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Globalization.CultureTypes NeutralCultures
     static constexpr const int NeutralCultures = 1;
     // Get static field: static public System.Globalization.CultureTypes NeutralCultures
@@ -64,8 +70,6 @@ namespace System::Globalization {
     static System::Globalization::CultureTypes _get_FrameworkCultures();
     // Set static field: static public System.Globalization.CultureTypes FrameworkCultures
     static void _set_FrameworkCultures(System::Globalization::CultureTypes value);
-    // Creating value type constructor for type: CultureTypes
-    CultureTypes(int value_ = {}) : value{value_} {}
   }; // System.Globalization.CultureTypes
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

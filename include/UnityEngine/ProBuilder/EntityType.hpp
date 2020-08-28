@@ -16,6 +16,12 @@ namespace UnityEngine::ProBuilder {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EntityType
+    constexpr EntityType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ProBuilder.EntityType Detail
     static constexpr const int Detail = 0;
     // Get static field: static public UnityEngine.ProBuilder.EntityType Detail
@@ -46,8 +52,6 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::EntityType _get_Mover();
     // Set static field: static public UnityEngine.ProBuilder.EntityType Mover
     static void _set_Mover(UnityEngine::ProBuilder::EntityType value);
-    // Creating value type constructor for type: EntityType
-    EntityType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.EntityType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

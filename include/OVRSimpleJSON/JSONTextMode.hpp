@@ -16,6 +16,12 @@ namespace OVRSimpleJSON {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: JSONTextMode
+    constexpr JSONTextMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRSimpleJSON.JSONTextMode Compact
     static constexpr const int Compact = 0;
     // Get static field: static public OVRSimpleJSON.JSONTextMode Compact
@@ -28,8 +34,6 @@ namespace OVRSimpleJSON {
     static OVRSimpleJSON::JSONTextMode _get_Indent();
     // Set static field: static public OVRSimpleJSON.JSONTextMode Indent
     static void _set_Indent(OVRSimpleJSON::JSONTextMode value);
-    // Creating value type constructor for type: JSONTextMode
-    JSONTextMode(int value_ = {}) : value{value_} {}
   }; // OVRSimpleJSON.JSONTextMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

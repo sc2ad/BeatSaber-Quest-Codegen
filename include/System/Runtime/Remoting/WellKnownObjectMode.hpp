@@ -16,6 +16,12 @@ namespace System::Runtime::Remoting {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: WellKnownObjectMode
+    constexpr WellKnownObjectMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Runtime.Remoting.WellKnownObjectMode Singleton
     static constexpr const int Singleton = 1;
     // Get static field: static public System.Runtime.Remoting.WellKnownObjectMode Singleton
@@ -28,8 +34,6 @@ namespace System::Runtime::Remoting {
     static System::Runtime::Remoting::WellKnownObjectMode _get_SingleCall();
     // Set static field: static public System.Runtime.Remoting.WellKnownObjectMode SingleCall
     static void _set_SingleCall(System::Runtime::Remoting::WellKnownObjectMode value);
-    // Creating value type constructor for type: WellKnownObjectMode
-    WellKnownObjectMode(int value_ = {}) : value{value_} {}
   }; // System.Runtime.Remoting.WellKnownObjectMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

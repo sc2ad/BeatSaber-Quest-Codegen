@@ -49,6 +49,10 @@ namespace Zenject {
     // private Zenject.ConventionBindInfo <BindInfo>k__BackingField
     // Offset: 0x10
     Zenject::ConventionBindInfo* BindInfo;
+    // Creating conversion operator: operator Zenject::ConventionBindInfo*
+    constexpr operator Zenject::ConventionBindInfo*() const {
+      return BindInfo;
+    }
     // public System.Void .ctor(Zenject.ConventionBindInfo bindInfo)
     // Offset: 0xD6ED60
     static ConventionAssemblySelectionBinder* New_ctor(Zenject::ConventionBindInfo* bindInfo);

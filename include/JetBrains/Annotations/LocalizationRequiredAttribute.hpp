@@ -16,6 +16,10 @@ namespace JetBrains::Annotations {
     // private System.Boolean <Required>k__BackingField
     // Offset: 0x10
     bool Required;
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return Required;
+    }
     // public System.Void .ctor(System.Boolean required)
     // Offset: 0x196135C
     static LocalizationRequiredAttribute* New_ctor(bool required);

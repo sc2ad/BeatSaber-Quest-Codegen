@@ -16,6 +16,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ParseFailureKind
+    constexpr ParseFailureKind(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Enum/ParseFailureKind None
     static constexpr const int None = 0;
     // Get static field: static public System.Enum/ParseFailureKind None
@@ -46,8 +52,6 @@ namespace System {
     static System::Enum::ParseFailureKind _get_UnhandledException();
     // Set static field: static public System.Enum/ParseFailureKind UnhandledException
     static void _set_UnhandledException(System::Enum::ParseFailureKind value);
-    // Creating value type constructor for type: ParseFailureKind
-    ParseFailureKind(int value_ = {}) : value{value_} {}
   }; // System.Enum/ParseFailureKind
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

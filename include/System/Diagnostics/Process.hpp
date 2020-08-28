@@ -69,6 +69,12 @@ namespace System::Diagnostics {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: StreamReadMode
+      constexpr StreamReadMode(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public System.Diagnostics.Process/StreamReadMode undefined
       static constexpr const int undefined = 0;
       // Get static field: static public System.Diagnostics.Process/StreamReadMode undefined
@@ -87,8 +93,6 @@ namespace System::Diagnostics {
       static System::Diagnostics::Process::StreamReadMode _get_asyncMode();
       // Set static field: static public System.Diagnostics.Process/StreamReadMode asyncMode
       static void _set_asyncMode(System::Diagnostics::Process::StreamReadMode value);
-      // Creating value type constructor for type: StreamReadMode
-      StreamReadMode(int value_ = {}) : value{value_} {}
     }; // System.Diagnostics.Process/StreamReadMode
     // private System.Boolean haveProcessId
     // Offset: 0x28

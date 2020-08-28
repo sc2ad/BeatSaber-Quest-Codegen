@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: AnimatorCullingMode
+    constexpr AnimatorCullingMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.AnimatorCullingMode AlwaysAnimate
     static constexpr const int AlwaysAnimate = 0;
     // Get static field: static public UnityEngine.AnimatorCullingMode AlwaysAnimate
@@ -34,8 +40,6 @@ namespace UnityEngine {
     static UnityEngine::AnimatorCullingMode _get_CullCompletely();
     // Set static field: static public UnityEngine.AnimatorCullingMode CullCompletely
     static void _set_CullCompletely(UnityEngine::AnimatorCullingMode value);
-    // Creating value type constructor for type: AnimatorCullingMode
-    AnimatorCullingMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.AnimatorCullingMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

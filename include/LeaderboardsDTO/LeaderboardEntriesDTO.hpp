@@ -27,7 +27,11 @@ namespace LeaderboardsDTO {
     // Offset: 0x0
     ::Array<LeaderboardsDTO::LeaderboardEntryDTO*>* entries;
     // Creating value type constructor for type: LeaderboardEntriesDTO
-    LeaderboardEntriesDTO(::Array<LeaderboardsDTO::LeaderboardEntryDTO*>* entries_ = {}) : entries{entries_} {}
+    constexpr LeaderboardEntriesDTO(::Array<LeaderboardsDTO::LeaderboardEntryDTO*>* entries_ = {}) : entries{entries_} {}
+    // Creating conversion operator: operator ::Array<LeaderboardsDTO::LeaderboardEntryDTO*>*
+    constexpr operator ::Array<LeaderboardsDTO::LeaderboardEntryDTO*>*() const {
+      return entries;
+    }
   }; // LeaderboardsDTO.LeaderboardEntriesDTO
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

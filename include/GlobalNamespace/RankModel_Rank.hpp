@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Rank
+    constexpr Rank(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public RankModel/Rank E
     static constexpr const int E = 0;
     // Get static field: static public RankModel/Rank E
@@ -66,8 +72,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::RankModel::Rank _get_SSS();
     // Set static field: static public RankModel/Rank SSS
     static void _set_SSS(GlobalNamespace::RankModel::Rank value);
-    // Creating value type constructor for type: Rank
-    Rank(int value_ = {}) : value{value_} {}
   }; // RankModel/Rank
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

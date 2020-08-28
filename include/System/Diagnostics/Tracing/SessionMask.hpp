@@ -17,7 +17,11 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x0
     uint m_mask;
     // Creating value type constructor for type: SessionMask
-    SessionMask(uint m_mask_ = {}) : m_mask{m_mask_} {}
+    constexpr SessionMask(uint m_mask_ = {}) : m_mask{m_mask_} {}
+    // Creating conversion operator: operator uint
+    constexpr operator uint() const {
+      return m_mask;
+    }
     // public System.Void .ctor(System.UInt32 mask)
     // Offset: 0xA300C4
     static SessionMask* New_ctor(uint mask);

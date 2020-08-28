@@ -150,6 +150,8 @@ namespace GlobalNamespace {
     // private System.Boolean playerControllerEnabled
     // Offset: 0xCD
     bool playerControllerEnabled;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void add_TransformUpdated(System.Action`1<UnityEngine.Transform> value)
     // Offset: 0xEF7DC0
     void add_TransformUpdated(System::Action_1<UnityEngine::Transform*>* value);

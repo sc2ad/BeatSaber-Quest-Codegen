@@ -52,6 +52,8 @@ namespace GlobalNamespace {
     // private MaterialPropertyBlockController _materialPropertyBlockController
     // Offset: 0x48
     GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // Get static field: static private readonly System.Int32 _colorID
     static int _get__colorID();
     // Set static field: static private readonly System.Int32 _colorID

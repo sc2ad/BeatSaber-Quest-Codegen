@@ -16,6 +16,12 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EColorSpace
+    constexpr EColorSpace(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.EColorSpace Auto
     static constexpr const int Auto = 0;
     // Get static field: static public Valve.VR.EColorSpace Auto
@@ -34,8 +40,6 @@ namespace Valve::VR {
     static Valve::VR::EColorSpace _get_Linear();
     // Set static field: static public Valve.VR.EColorSpace Linear
     static void _set_Linear(Valve::VR::EColorSpace value);
-    // Creating value type constructor for type: EColorSpace
-    EColorSpace(int value_ = {}) : value{value_} {}
   }; // Valve.VR.EColorSpace
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

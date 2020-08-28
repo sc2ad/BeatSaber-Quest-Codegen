@@ -18,6 +18,12 @@ namespace UnityEngine::UI {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EditState
+    constexpr EditState(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.UI.InputField/EditState Continue
     static constexpr const int Continue = 0;
     // Get static field: static public UnityEngine.UI.InputField/EditState Continue
@@ -30,8 +36,6 @@ namespace UnityEngine::UI {
     static UnityEngine::UI::InputField::EditState _get_Finish();
     // Set static field: static public UnityEngine.UI.InputField/EditState Finish
     static void _set_Finish(UnityEngine::UI::InputField::EditState value);
-    // Creating value type constructor for type: EditState
-    EditState(int value_ = {}) : value{value_} {}
   }; // UnityEngine.UI.InputField/EditState
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

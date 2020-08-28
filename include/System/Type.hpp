@@ -80,6 +80,10 @@ namespace System {
     // System.RuntimeTypeHandle _impl
     // Offset: 0x10
     System::RuntimeTypeHandle impl;
+    // Creating conversion operator: operator System::RuntimeTypeHandle
+    constexpr operator System::RuntimeTypeHandle() const {
+      return impl;
+    }
     // Get static field: static public readonly System.Reflection.MemberFilter FilterAttribute
     static System::Reflection::MemberFilter* _get_FilterAttribute();
     // Set static field: static public readonly System.Reflection.MemberFilter FilterAttribute

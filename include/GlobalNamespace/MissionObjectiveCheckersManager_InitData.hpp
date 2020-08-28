@@ -23,6 +23,10 @@ namespace GlobalNamespace {
     // public readonly MissionObjective[] missionObjectives
     // Offset: 0x10
     ::Array<GlobalNamespace::MissionObjective*>* missionObjectives;
+    // Creating conversion operator: operator ::Array<GlobalNamespace::MissionObjective*>*
+    constexpr operator ::Array<GlobalNamespace::MissionObjective*>*() const {
+      return missionObjectives;
+    }
     // public System.Void .ctor(MissionObjective[] missionObjectives)
     // Offset: 0xC0CD88
     static MissionObjectiveCheckersManager::InitData* New_ctor(::Array<GlobalNamespace::MissionObjective*>* missionObjectives);

@@ -43,12 +43,16 @@ namespace System::Runtime::CompilerServices {
     // private System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult> m_builder
     // Offset: 0x0
     System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Threading::Tasks::VoidTaskResult> m_builder;
+    // Creating value type constructor for type: AsyncTaskMethodBuilder
+    constexpr AsyncTaskMethodBuilder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Threading::Tasks::VoidTaskResult> m_builder_ = {}) : m_builder{m_builder_} {}
+    // Creating conversion operator: operator System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Threading::Tasks::VoidTaskResult>
+    constexpr operator System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Threading::Tasks::VoidTaskResult>() const {
+      return m_builder;
+    }
     // Get static field: static private readonly System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult> s_cachedCompleted
     static System::Threading::Tasks::Task_1<System::Threading::Tasks::VoidTaskResult>* _get_s_cachedCompleted();
     // Set static field: static private readonly System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult> s_cachedCompleted
     static void _set_s_cachedCompleted(System::Threading::Tasks::Task_1<System::Threading::Tasks::VoidTaskResult>* value);
-    // Creating value type constructor for type: AsyncTaskMethodBuilder
-    AsyncTaskMethodBuilder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Threading::Tasks::VoidTaskResult> m_builder_ = {}) : m_builder{m_builder_} {}
     // static public System.Runtime.CompilerServices.AsyncTaskMethodBuilder Create()
     // Offset: 0x1166354
     static System::Runtime::CompilerServices::AsyncTaskMethodBuilder Create();

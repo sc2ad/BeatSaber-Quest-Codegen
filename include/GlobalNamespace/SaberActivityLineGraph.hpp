@@ -69,6 +69,8 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.Queue`1<System.Single> _pointsValues2
     // Offset: 0x50
     System::Collections::Generic::Queue_1<float>* pointsValues2;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Awake()
     // Offset: 0xC25468
     void Awake();

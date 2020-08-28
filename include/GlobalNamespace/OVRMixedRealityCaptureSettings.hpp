@@ -103,6 +103,8 @@ namespace GlobalNamespace {
     // public System.Single virtualGreenScreenDepthTolerance
     // Offset: 0x94
     float virtualGreenScreenDepthTolerance;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void ReadFrom(OVRManager manager)
     // Offset: 0xEED100
     void ReadFrom(GlobalNamespace::OVRManager* manager);

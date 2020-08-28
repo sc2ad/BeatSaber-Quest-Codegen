@@ -29,6 +29,10 @@ namespace Zenject {
     // public System.Collections.Generic.IEnumerable`1<Zenject.DiContainer> parents
     // Offset: 0x10
     System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>* parents;
+    // Creating conversion operator: operator System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>*
+    constexpr operator System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>*() const {
+      return parents;
+    }
     // System.Boolean <Install>b__0(Zenject.DiContainer x)
     // Offset: 0xFCD6FC
     bool $Install$b__0(Zenject::DiContainer* x);

@@ -16,6 +16,12 @@ namespace TMPro {
     // public System.UInt32 value__
     // Offset: 0x0
     uint value;
+    // Creating value type constructor for type: UnicodeCharacter
+    constexpr UnicodeCharacter(uint value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator uint
+    constexpr operator uint() const {
+      return value;
+    }
     // static field const value: static public TMPro.UnicodeCharacter HYPHEN_MINUS
     static constexpr const uint HYPHEN_MINUS = 45u;
     // Get static field: static public TMPro.UnicodeCharacter HYPHEN_MINUS
@@ -64,8 +70,6 @@ namespace TMPro {
     static TMPro::UnicodeCharacter _get_WORD_JOINER();
     // Set static field: static public TMPro.UnicodeCharacter WORD_JOINER
     static void _set_WORD_JOINER(TMPro::UnicodeCharacter value);
-    // Creating value type constructor for type: UnicodeCharacter
-    UnicodeCharacter(uint value_ = {}) : value{value_} {}
   }; // TMPro.UnicodeCharacter
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

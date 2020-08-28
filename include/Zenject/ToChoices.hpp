@@ -16,6 +16,12 @@ namespace Zenject {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ToChoices
+    constexpr ToChoices(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Zenject.ToChoices Self
     static constexpr const int Self = 0;
     // Get static field: static public Zenject.ToChoices Self
@@ -28,8 +34,6 @@ namespace Zenject {
     static Zenject::ToChoices _get_Concrete();
     // Set static field: static public Zenject.ToChoices Concrete
     static void _set_Concrete(Zenject::ToChoices value);
-    // Creating value type constructor for type: ToChoices
-    ToChoices(int value_ = {}) : value{value_} {}
   }; // Zenject.ToChoices
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

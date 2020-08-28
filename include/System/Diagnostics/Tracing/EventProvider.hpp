@@ -78,7 +78,7 @@ namespace System::Diagnostics::Tracing {
       // Offset: 0x4
       int etwSessionId;
       // Creating value type constructor for type: SessionInfo
-      SessionInfo(int sessionIdBit_ = {}, int etwSessionId_ = {}) : sessionIdBit{sessionIdBit_}, etwSessionId{etwSessionId_} {}
+      constexpr SessionInfo(int sessionIdBit_ = {}, int etwSessionId_ = {}) : sessionIdBit{sessionIdBit_}, etwSessionId{etwSessionId_} {}
       // System.Void .ctor(System.Int32 sessionIdBit_, System.Int32 etwSessionId_)
       // Offset: 0xA2D5B8
       static EventProvider::SessionInfo* New_ctor(int sessionIdBit_, int etwSessionId_);
@@ -89,6 +89,12 @@ namespace System::Diagnostics::Tracing {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: WriteEventErrorCode
+      constexpr WriteEventErrorCode(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public System.Diagnostics.Tracing.EventProvider/WriteEventErrorCode NoError
       static constexpr const int NoError = 0;
       // Get static field: static public System.Diagnostics.Tracing.EventProvider/WriteEventErrorCode NoError
@@ -125,8 +131,6 @@ namespace System::Diagnostics::Tracing {
       static System::Diagnostics::Tracing::EventProvider::WriteEventErrorCode _get_Other();
       // Set static field: static public System.Diagnostics.Tracing.EventProvider/WriteEventErrorCode Other
       static void _set_Other(System::Diagnostics::Tracing::EventProvider::WriteEventErrorCode value);
-      // Creating value type constructor for type: WriteEventErrorCode
-      WriteEventErrorCode(int value_ = {}) : value{value_} {}
     }; // System.Diagnostics.Tracing.EventProvider/WriteEventErrorCode
     // private Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/EtwEnableCallback m_etwCallback
     // Offset: 0x10

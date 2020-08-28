@@ -16,6 +16,12 @@ namespace System::Diagnostics::Tracing {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EventManifestOptions
+    constexpr EventManifestOptions(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Diagnostics.Tracing.EventManifestOptions None
     static constexpr const int None = 0;
     // Get static field: static public System.Diagnostics.Tracing.EventManifestOptions None
@@ -46,8 +52,6 @@ namespace System::Diagnostics::Tracing {
     static System::Diagnostics::Tracing::EventManifestOptions _get_AllowEventSourceOverride();
     // Set static field: static public System.Diagnostics.Tracing.EventManifestOptions AllowEventSourceOverride
     static void _set_AllowEventSourceOverride(System::Diagnostics::Tracing::EventManifestOptions value);
-    // Creating value type constructor for type: EventManifestOptions
-    EventManifestOptions(int value_ = {}) : value{value_} {}
   }; // System.Diagnostics.Tracing.EventManifestOptions
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

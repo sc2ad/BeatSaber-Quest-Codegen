@@ -16,6 +16,12 @@ namespace System::IO {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: FileOptions
+    constexpr FileOptions(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.IO.FileOptions None
     static constexpr const int None = 0;
     // Get static field: static public System.IO.FileOptions None
@@ -58,8 +64,6 @@ namespace System::IO {
     static System::IO::FileOptions _get_WriteThrough();
     // Set static field: static public System.IO.FileOptions WriteThrough
     static void _set_WriteThrough(System::IO::FileOptions value);
-    // Creating value type constructor for type: FileOptions
-    FileOptions(int value_ = {}) : value{value_} {}
   }; // System.IO.FileOptions
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

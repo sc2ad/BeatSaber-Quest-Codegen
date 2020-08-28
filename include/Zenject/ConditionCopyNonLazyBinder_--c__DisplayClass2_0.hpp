@@ -23,6 +23,10 @@ namespace Zenject {
     // public System.Object instance
     // Offset: 0x10
     ::Il2CppObject* instance;
+    // Creating conversion operator: operator ::Il2CppObject*
+    constexpr operator ::Il2CppObject*() const {
+      return instance;
+    }
     // System.Boolean <WhenInjectedIntoInstance>b__0(Zenject.InjectContext r)
     // Offset: 0xD6CEA0
     bool $WhenInjectedIntoInstance$b__0(Zenject::InjectContext* r);

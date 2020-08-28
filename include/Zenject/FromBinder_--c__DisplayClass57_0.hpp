@@ -30,6 +30,10 @@ namespace Zenject {
     // public System.String resourcePath
     // Offset: 0x10
     ::Il2CppString* resourcePath;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return resourcePath;
+    }
     // Zenject.IProvider <FromResource>b__0(Zenject.DiContainer _, System.Type type)
     // Offset: 0xF37500
     Zenject::IProvider* $FromResource$b__0(Zenject::DiContainer* _, System::Type* type);

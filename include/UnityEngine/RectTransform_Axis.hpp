@@ -18,6 +18,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Axis
+    constexpr Axis(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.RectTransform/Axis Horizontal
     static constexpr const int Horizontal = 0;
     // Get static field: static public UnityEngine.RectTransform/Axis Horizontal
@@ -30,8 +36,6 @@ namespace UnityEngine {
     static UnityEngine::RectTransform::Axis _get_Vertical();
     // Set static field: static public UnityEngine.RectTransform/Axis Vertical
     static void _set_Vertical(UnityEngine::RectTransform::Axis value);
-    // Creating value type constructor for type: Axis
-    Axis(int value_ = {}) : value{value_} {}
   }; // UnityEngine.RectTransform/Axis
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

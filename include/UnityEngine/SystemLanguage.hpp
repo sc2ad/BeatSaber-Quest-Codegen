@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SystemLanguage
+    constexpr SystemLanguage(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.SystemLanguage Afrikaans
     static constexpr const int Afrikaans = 0;
     // Get static field: static public UnityEngine.SystemLanguage Afrikaans
@@ -274,8 +280,6 @@ namespace UnityEngine {
     static UnityEngine::SystemLanguage _get_Hungarian();
     // Set static field: static public UnityEngine.SystemLanguage Hungarian
     static void _set_Hungarian(UnityEngine::SystemLanguage value);
-    // Creating value type constructor for type: SystemLanguage
-    SystemLanguage(int value_ = {}) : value{value_} {}
   }; // UnityEngine.SystemLanguage
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

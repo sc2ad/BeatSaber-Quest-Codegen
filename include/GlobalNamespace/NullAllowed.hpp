@@ -29,6 +29,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: Context
+      constexpr Context(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public NullAllowed/Context Everywhere
       static constexpr const int Everywhere = 0;
       // Get static field: static public NullAllowed/Context Everywhere
@@ -41,12 +47,14 @@ namespace GlobalNamespace {
       static GlobalNamespace::NullAllowed::Context _get_Prefab();
       // Set static field: static public NullAllowed/Context Prefab
       static void _set_Prefab(GlobalNamespace::NullAllowed::Context value);
-      // Creating value type constructor for type: Context
-      Context(int value_ = {}) : value{value_} {}
     }; // NullAllowed/Context
     // private NullAllowed/Context _context
     // Offset: 0x10
     GlobalNamespace::NullAllowed::Context context;
+    // Creating conversion operator: operator GlobalNamespace::NullAllowed::Context
+    constexpr operator GlobalNamespace::NullAllowed::Context() const {
+      return context;
+    }
     // public NullAllowed/Context get_context()
     // Offset: 0xCB8DA8
     GlobalNamespace::NullAllowed::Context get_context();

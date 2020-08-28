@@ -7,6 +7,12 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.Dropdown
 #include "UnityEngine/UI/Dropdown.hpp"
+// Including type: UnityEngine.MonoBehaviour
+#include "UnityEngine/MonoBehaviour.hpp"
+// Including type: UnityEngine.EventSystems.IPointerEnterHandler
+#include "UnityEngine/EventSystems/IPointerEnterHandler.hpp"
+// Including type: UnityEngine.EventSystems.ICancelHandler
+#include "UnityEngine/EventSystems/ICancelHandler.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI
@@ -48,6 +54,8 @@ namespace UnityEngine::UI {
     // private UnityEngine.UI.Toggle m_Toggle
     // Offset: 0x30
     UnityEngine::UI::Toggle* m_Toggle;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public UnityEngine.UI.Text get_text()
     // Offset: 0x11697BC
     UnityEngine::UI::Text* get_text();

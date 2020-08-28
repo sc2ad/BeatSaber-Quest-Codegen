@@ -9,6 +9,8 @@
 #include "UnityEngine/Timeline/AudioPlayableAsset.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
 #include "System/Collections/Generic/IEnumerable_1.hpp"
+// Including type: UnityEngine.Playables.PlayableBinding
+#include "UnityEngine/Playables/PlayableBinding.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
 // Completed includes

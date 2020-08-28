@@ -24,7 +24,7 @@ namespace Valve::VR {
     // Offset: 0x0
     Valve::VR::CVRSystem::_PollNextEventPacked* pPollNextEventPacked;
     // Creating value type constructor for type: PollNextEventUnion
-    PollNextEventUnion(Valve::VR::IVRSystem::_PollNextEvent* pPollNextEvent_ = {}, Valve::VR::CVRSystem::_PollNextEventPacked* pPollNextEventPacked_ = {}) : pPollNextEvent{pPollNextEvent_}, pPollNextEventPacked{pPollNextEventPacked_} {}
+    constexpr PollNextEventUnion(Valve::VR::IVRSystem::_PollNextEvent* pPollNextEvent_ = {}, Valve::VR::CVRSystem::_PollNextEventPacked* pPollNextEventPacked_ = {}) : pPollNextEvent{pPollNextEvent_}, pPollNextEventPacked{pPollNextEventPacked_} {}
   }; // Valve.VR.CVRSystem/PollNextEventUnion
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

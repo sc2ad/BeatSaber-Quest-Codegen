@@ -24,7 +24,7 @@ namespace OVR::OpenVR {
     // Offset: 0x60
     uint uProperties;
     // Creating value type constructor for type: RenderModel_ComponentState_t
-    RenderModel_ComponentState_t(OVR::OpenVR::HmdMatrix34_t mTrackingToComponentRenderModel_ = {}, OVR::OpenVR::HmdMatrix34_t mTrackingToComponentLocal_ = {}, uint uProperties_ = {}) : mTrackingToComponentRenderModel{mTrackingToComponentRenderModel_}, mTrackingToComponentLocal{mTrackingToComponentLocal_}, uProperties{uProperties_} {}
+    constexpr RenderModel_ComponentState_t(OVR::OpenVR::HmdMatrix34_t mTrackingToComponentRenderModel_ = {}, OVR::OpenVR::HmdMatrix34_t mTrackingToComponentLocal_ = {}, uint uProperties_ = {}) : mTrackingToComponentRenderModel{mTrackingToComponentRenderModel_}, mTrackingToComponentLocal{mTrackingToComponentLocal_}, uProperties{uProperties_} {}
   }; // OVR.OpenVR.RenderModel_ComponentState_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: HumanBodyBones
+    constexpr HumanBodyBones(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.HumanBodyBones Hips
     static constexpr const int Hips = 0;
     // Get static field: static public UnityEngine.HumanBodyBones Hips
@@ -352,8 +358,6 @@ namespace UnityEngine {
     static UnityEngine::HumanBodyBones _get_LastBone();
     // Set static field: static public UnityEngine.HumanBodyBones LastBone
     static void _set_LastBone(UnityEngine::HumanBodyBones value);
-    // Creating value type constructor for type: HumanBodyBones
-    HumanBodyBones(int value_ = {}) : value{value_} {}
   }; // UnityEngine.HumanBodyBones
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

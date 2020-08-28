@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Tracker
+    constexpr Tracker(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRPlugin/Tracker None
     static constexpr const int None = -1;
     // Get static field: static public OVRPlugin/Tracker None
@@ -54,8 +60,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::Tracker _get_Count();
     // Set static field: static public OVRPlugin/Tracker Count
     static void _set_Count(GlobalNamespace::OVRPlugin::Tracker value);
-    // Creating value type constructor for type: Tracker
-    Tracker(int value_ = {}) : value{value_} {}
   }; // OVRPlugin/Tracker
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

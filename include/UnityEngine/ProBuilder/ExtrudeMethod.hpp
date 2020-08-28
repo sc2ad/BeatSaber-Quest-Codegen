@@ -16,6 +16,12 @@ namespace UnityEngine::ProBuilder {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ExtrudeMethod
+    constexpr ExtrudeMethod(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ProBuilder.ExtrudeMethod IndividualFaces
     static constexpr const int IndividualFaces = 0;
     // Get static field: static public UnityEngine.ProBuilder.ExtrudeMethod IndividualFaces
@@ -34,8 +40,6 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::ExtrudeMethod _get_FaceNormal();
     // Set static field: static public UnityEngine.ProBuilder.ExtrudeMethod FaceNormal
     static void _set_FaceNormal(UnityEngine::ProBuilder::ExtrudeMethod value);
-    // Creating value type constructor for type: ExtrudeMethod
-    ExtrudeMethod(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.ExtrudeMethod
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

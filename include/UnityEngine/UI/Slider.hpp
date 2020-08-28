@@ -61,6 +61,12 @@ namespace UnityEngine::UI {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: Direction
+      constexpr Direction(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public UnityEngine.UI.Slider/Direction LeftToRight
       static constexpr const int LeftToRight = 0;
       // Get static field: static public UnityEngine.UI.Slider/Direction LeftToRight
@@ -85,8 +91,6 @@ namespace UnityEngine::UI {
       static UnityEngine::UI::Slider::Direction _get_TopToBottom();
       // Set static field: static public UnityEngine.UI.Slider/Direction TopToBottom
       static void _set_TopToBottom(UnityEngine::UI::Slider::Direction value);
-      // Creating value type constructor for type: Direction
-      Direction(int value_ = {}) : value{value_} {}
     }; // UnityEngine.UI.Slider/Direction
     // private UnityEngine.RectTransform m_FillRect
     // Offset: 0xF0

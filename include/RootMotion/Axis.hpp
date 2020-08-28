@@ -16,6 +16,12 @@ namespace RootMotion {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Axis
+    constexpr Axis(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public RootMotion.Axis X
     static constexpr const int X = 0;
     // Get static field: static public RootMotion.Axis X
@@ -34,8 +40,6 @@ namespace RootMotion {
     static RootMotion::Axis _get_Z();
     // Set static field: static public RootMotion.Axis Z
     static void _set_Z(RootMotion::Axis value);
-    // Creating value type constructor for type: Axis
-    Axis(int value_ = {}) : value{value_} {}
   }; // RootMotion.Axis
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

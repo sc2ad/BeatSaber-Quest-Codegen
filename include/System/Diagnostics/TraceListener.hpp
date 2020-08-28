@@ -27,6 +27,8 @@ namespace System::Diagnostics {
     // private System.String listenerName
     // Offset: 0x28
     ::Il2CppString* listenerName;
+    // Deleting conversion operator: operator ::Il2CppObject*
+    constexpr operator ::Il2CppObject*() const = delete;
     // protected System.Void .ctor(System.String name)
     // Offset: 0xF6012C
     static TraceListener* New_ctor(::Il2CppString* name);

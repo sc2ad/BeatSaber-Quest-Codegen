@@ -28,7 +28,7 @@ namespace System::Xml {
     // Offset: 0x18
     int prev;
     // Creating value type constructor for type: AttrName
-    AttrName(::Il2CppString* prefix_ = {}, ::Il2CppString* namespaceUri_ = {}, ::Il2CppString* localName_ = {}, int prev_ = {}) : prefix{prefix_}, namespaceUri{namespaceUri_}, localName{localName_}, prev{prev_} {}
+    constexpr AttrName(::Il2CppString* prefix_ = {}, ::Il2CppString* namespaceUri_ = {}, ::Il2CppString* localName_ = {}, int prev_ = {}) : prefix{prefix_}, namespaceUri{namespaceUri_}, localName{localName_}, prev{prev_} {}
     // System.Void Set(System.String prefix, System.String localName, System.String namespaceUri)
     // Offset: 0xA5E1E4
     void Set(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* namespaceUri);

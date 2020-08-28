@@ -16,7 +16,8 @@ namespace UnityEngine {
 }
 // Forward declaring namespace: UnityEngine::ProBuilder
 namespace UnityEngine::ProBuilder {
-  // Skipping declaration: CSG_Vertex because it is already included!
+  // Forward declaring type: CSG_Vertex
+  struct CSG_Vertex;
 }
 // Completed forward declares
 // Type namespace: UnityEngine.ProBuilder.Experimental.CSG
@@ -27,6 +28,10 @@ namespace UnityEngine::ProBuilder::Experimental::CSG {
     // public UnityEngine.Transform transform
     // Offset: 0x10
     UnityEngine::Transform* transform;
+    // Creating conversion operator: operator UnityEngine::Transform*
+    constexpr operator UnityEngine::Transform*() const {
+      return transform;
+    }
     // UnityEngine.ProBuilder.CSG_Vertex <.ctor>b__0(UnityEngine.ProBuilder.CSG_Vertex x)
     // Offset: 0xF94BE4
     UnityEngine::ProBuilder::CSG_Vertex $_ctor$b__0(UnityEngine::ProBuilder::CSG_Vertex x);

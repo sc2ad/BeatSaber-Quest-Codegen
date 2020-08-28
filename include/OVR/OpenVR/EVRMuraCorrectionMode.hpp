@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRMuraCorrectionMode
+    constexpr EVRMuraCorrectionMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.EVRMuraCorrectionMode Default
     static constexpr const int Default = 0;
     // Get static field: static public OVR.OpenVR.EVRMuraCorrectionMode Default
@@ -28,8 +34,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRMuraCorrectionMode _get_NoCorrection();
     // Set static field: static public OVR.OpenVR.EVRMuraCorrectionMode NoCorrection
     static void _set_NoCorrection(OVR::OpenVR::EVRMuraCorrectionMode value);
-    // Creating value type constructor for type: EVRMuraCorrectionMode
-    EVRMuraCorrectionMode(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EVRMuraCorrectionMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

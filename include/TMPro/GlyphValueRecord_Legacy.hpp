@@ -32,7 +32,7 @@ namespace TMPro {
     // Offset: 0xC
     float yAdvance;
     // Creating value type constructor for type: GlyphValueRecord_Legacy
-    GlyphValueRecord_Legacy(float xPlacement_ = {}, float yPlacement_ = {}, float xAdvance_ = {}, float yAdvance_ = {}) : xPlacement{xPlacement_}, yPlacement{yPlacement_}, xAdvance{xAdvance_}, yAdvance{yAdvance_} {}
+    constexpr GlyphValueRecord_Legacy(float xPlacement_ = {}, float yPlacement_ = {}, float xAdvance_ = {}, float yAdvance_ = {}) : xPlacement{xPlacement_}, yPlacement{yPlacement_}, xAdvance{xAdvance_}, yAdvance{yAdvance_} {}
     // System.Void .ctor(UnityEngine.TextCore.LowLevel.GlyphValueRecord valueRecord)
     // Offset: 0xA2B7D0
     static GlyphValueRecord_Legacy* New_ctor(UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord);

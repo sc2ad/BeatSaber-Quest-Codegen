@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.MeshOperations.MeshValidation
 #include "UnityEngine/ProBuilder/MeshOperations/MeshValidation.hpp"
+// Including type: UnityEngine.ProBuilder.Triangle
+#include "UnityEngine/ProBuilder/Triangle.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

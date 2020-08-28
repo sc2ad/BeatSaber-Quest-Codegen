@@ -16,6 +16,10 @@ namespace System::Runtime::InteropServices {
     // System.Boolean _val
     // Offset: 0x10
     bool val;
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return val;
+    }
     // public System.Void .ctor(System.Boolean visibility)
     // Offset: 0x1167CCC
     static ComVisibleAttribute* New_ctor(bool visibility);

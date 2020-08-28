@@ -60,6 +60,8 @@ namespace GlobalNamespace {
     // private SafeAreaRectChecker/InitData _initData
     // Offset: 0x50
     GlobalNamespace::SafeAreaRectChecker::InitData* initData;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void Start()
     // Offset: 0xC2A8C8
     void Start();

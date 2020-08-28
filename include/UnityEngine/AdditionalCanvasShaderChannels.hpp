@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: AdditionalCanvasShaderChannels
+    constexpr AdditionalCanvasShaderChannels(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.AdditionalCanvasShaderChannels None
     static constexpr const int None = 0;
     // Get static field: static public UnityEngine.AdditionalCanvasShaderChannels None
@@ -52,8 +58,6 @@ namespace UnityEngine {
     static UnityEngine::AdditionalCanvasShaderChannels _get_Tangent();
     // Set static field: static public UnityEngine.AdditionalCanvasShaderChannels Tangent
     static void _set_Tangent(UnityEngine::AdditionalCanvasShaderChannels value);
-    // Creating value type constructor for type: AdditionalCanvasShaderChannels
-    AdditionalCanvasShaderChannels(int value_ = {}) : value{value_} {}
   }; // UnityEngine.AdditionalCanvasShaderChannels
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

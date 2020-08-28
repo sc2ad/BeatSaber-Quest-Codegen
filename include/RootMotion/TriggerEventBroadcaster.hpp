@@ -25,6 +25,8 @@ namespace RootMotion {
     // public UnityEngine.GameObject target
     // Offset: 0x18
     UnityEngine::GameObject* target;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private System.Void OnTriggerEnter(UnityEngine.Collider collider)
     // Offset: 0x1246778
     void OnTriggerEnter(UnityEngine::Collider* collider);

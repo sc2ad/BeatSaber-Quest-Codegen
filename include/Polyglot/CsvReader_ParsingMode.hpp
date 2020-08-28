@@ -18,6 +18,12 @@ namespace Polyglot {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ParsingMode
+    constexpr ParsingMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Polyglot.CsvReader/ParsingMode None
     static constexpr const int None = 0;
     // Get static field: static public Polyglot.CsvReader/ParsingMode None
@@ -36,8 +42,6 @@ namespace Polyglot {
     static Polyglot::CsvReader::ParsingMode _get_InQuote();
     // Set static field: static public Polyglot.CsvReader/ParsingMode InQuote
     static void _set_InQuote(Polyglot::CsvReader::ParsingMode value);
-    // Creating value type constructor for type: ParsingMode
-    ParsingMode(int value_ = {}) : value{value_} {}
   }; // Polyglot.CsvReader/ParsingMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

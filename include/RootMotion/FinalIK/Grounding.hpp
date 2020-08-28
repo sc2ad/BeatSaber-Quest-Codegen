@@ -40,6 +40,12 @@ namespace RootMotion::FinalIK {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: Quality
+      constexpr Quality(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public RootMotion.FinalIK.Grounding/Quality Fastest
       static constexpr const int Fastest = 0;
       // Get static field: static public RootMotion.FinalIK.Grounding/Quality Fastest
@@ -58,8 +64,6 @@ namespace RootMotion::FinalIK {
       static RootMotion::FinalIK::Grounding::Quality _get_Best();
       // Set static field: static public RootMotion.FinalIK.Grounding/Quality Best
       static void _set_Best(RootMotion::FinalIK::Grounding::Quality value);
-      // Creating value type constructor for type: Quality
-      Quality(int value_ = {}) : value{value_} {}
     }; // RootMotion.FinalIK.Grounding/Quality
     // public UnityEngine.LayerMask layers
     // Offset: 0x10

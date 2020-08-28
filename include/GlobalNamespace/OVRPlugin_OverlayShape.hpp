@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: OverlayShape
+    constexpr OverlayShape(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRPlugin/OverlayShape Quad
     static constexpr const int Quad = 0;
     // Get static field: static public OVRPlugin/OverlayShape Quad
@@ -48,8 +54,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::OverlayShape _get_Equirect();
     // Set static field: static public OVRPlugin/OverlayShape Equirect
     static void _set_Equirect(GlobalNamespace::OVRPlugin::OverlayShape value);
-    // Creating value type constructor for type: OverlayShape
-    OverlayShape(int value_ = {}) : value{value_} {}
   }; // OVRPlugin/OverlayShape
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -42,6 +42,8 @@ namespace GlobalNamespace {
     // private MissionNodeVisualController _selectedNode
     // Offset: 0x30
     GlobalNamespace::MissionNodeVisualController* selectedNode;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void add_didSelectMissionNodeEvent(System.Action`1<MissionNodeVisualController> value)
     // Offset: 0xC09C28
     void add_didSelectMissionNodeEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);

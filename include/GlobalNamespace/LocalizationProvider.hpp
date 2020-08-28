@@ -23,6 +23,8 @@ namespace GlobalNamespace {
     // private Polyglot.Localization _localization
     // Offset: 0x18
     Polyglot::Localization* localization;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // Get static field: static private LocalizationProvider _instance
     static GlobalNamespace::LocalizationProvider* _get__instance();
     // Set static field: static private LocalizationProvider _instance

@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.MeshOperations.ConnectElements
 #include "UnityEngine/ProBuilder/MeshOperations/ConnectElements.hpp"
+// Including type: UnityEngine.ProBuilder.Edge
+#include "UnityEngine/ProBuilder/Edge.hpp"
 // Including type: UnityEngine.ProBuilder.EdgeLookup
 #include "UnityEngine/ProBuilder/EdgeLookup.hpp"
 // Completed includes

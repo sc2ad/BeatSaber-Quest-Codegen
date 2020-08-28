@@ -16,6 +16,12 @@ namespace System::Xml {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ExceptionType
+    constexpr ExceptionType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Xml.ExceptionType ArgumentException
     static constexpr const int ArgumentException = 0;
     // Get static field: static public System.Xml.ExceptionType ArgumentException
@@ -28,8 +34,6 @@ namespace System::Xml {
     static System::Xml::ExceptionType _get_XmlException();
     // Set static field: static public System.Xml.ExceptionType XmlException
     static void _set_XmlException(System::Xml::ExceptionType value);
-    // Creating value type constructor for type: ExceptionType
-    ExceptionType(int value_ = {}) : value{value_} {}
   }; // System.Xml.ExceptionType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

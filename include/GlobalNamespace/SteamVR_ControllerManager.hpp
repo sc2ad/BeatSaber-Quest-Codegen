@@ -61,6 +61,8 @@ namespace GlobalNamespace {
     // private SteamVR_Events/Action trackedDeviceRoleChangedAction
     // Offset: 0x60
     GlobalNamespace::SteamVR_Events::Action* trackedDeviceRoleChangedAction;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // Get static field: static private System.String hiddenPrefix
     static ::Il2CppString* _get_hiddenPrefix();
     // Set static field: static private System.String hiddenPrefix

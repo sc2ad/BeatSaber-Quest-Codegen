@@ -18,6 +18,12 @@ namespace Microsoft::Win32 {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TRACE_QUERY_INFO_CLASS
+    constexpr TRACE_QUERY_INFO_CLASS(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/TRACE_QUERY_INFO_CLASS TraceGuidQueryList
     static constexpr const int TraceGuidQueryList = 0;
     // Get static field: static public Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/TRACE_QUERY_INFO_CLASS TraceGuidQueryList
@@ -48,8 +54,6 @@ namespace Microsoft::Win32 {
     static Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::TRACE_QUERY_INFO_CLASS _get_MaxTraceSetInfoClass();
     // Set static field: static public Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/TRACE_QUERY_INFO_CLASS MaxTraceSetInfoClass
     static void _set_MaxTraceSetInfoClass(Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::TRACE_QUERY_INFO_CLASS value);
-    // Creating value type constructor for type: TRACE_QUERY_INFO_CLASS
-    TRACE_QUERY_INFO_CLASS(int value_ = {}) : value{value_} {}
   }; // Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/TRACE_QUERY_INFO_CLASS
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

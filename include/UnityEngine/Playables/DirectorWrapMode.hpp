@@ -16,6 +16,12 @@ namespace UnityEngine::Playables {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: DirectorWrapMode
+    constexpr DirectorWrapMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Playables.DirectorWrapMode Hold
     static constexpr const int Hold = 0;
     // Get static field: static public UnityEngine.Playables.DirectorWrapMode Hold
@@ -34,8 +40,6 @@ namespace UnityEngine::Playables {
     static UnityEngine::Playables::DirectorWrapMode _get_None();
     // Set static field: static public UnityEngine.Playables.DirectorWrapMode None
     static void _set_None(UnityEngine::Playables::DirectorWrapMode value);
-    // Creating value type constructor for type: DirectorWrapMode
-    DirectorWrapMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Playables.DirectorWrapMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

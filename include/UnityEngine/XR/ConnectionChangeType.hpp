@@ -16,6 +16,12 @@ namespace UnityEngine::XR {
     // public System.UInt32 value__
     // Offset: 0x0
     uint value;
+    // Creating value type constructor for type: ConnectionChangeType
+    constexpr ConnectionChangeType(uint value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator uint
+    constexpr operator uint() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.XR.ConnectionChangeType Connected
     static constexpr const uint Connected = 0u;
     // Get static field: static public UnityEngine.XR.ConnectionChangeType Connected
@@ -34,8 +40,6 @@ namespace UnityEngine::XR {
     static UnityEngine::XR::ConnectionChangeType _get_ConfigChange();
     // Set static field: static public UnityEngine.XR.ConnectionChangeType ConfigChange
     static void _set_ConfigChange(UnityEngine::XR::ConnectionChangeType value);
-    // Creating value type constructor for type: ConnectionChangeType
-    ConnectionChangeType(uint value_ = {}) : value{value_} {}
   }; // UnityEngine.XR.ConnectionChangeType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

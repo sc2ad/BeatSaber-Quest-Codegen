@@ -74,6 +74,8 @@ namespace System {
     // private System.Byte _k
     // Offset: 0xF
     uint8_t k;
+    // Creating value type constructor for type: Guid
+    constexpr Guid(int a_ = {}, int16_t b_ = {}, int16_t c_ = {}, uint8_t d_ = {}, uint8_t e_ = {}, uint8_t f_ = {}, uint8_t g_ = {}, uint8_t h_ = {}, uint8_t i_ = {}, uint8_t j_ = {}, uint8_t k_ = {}) : a{a_}, b{b_}, c{c_}, d{d_}, e{e_}, f{f_}, g{g_}, h{h_}, i{i_}, j{j_}, k{k_} {}
     // Get static field: static public readonly System.Guid Empty
     static System::Guid _get_Empty();
     // Set static field: static public readonly System.Guid Empty
@@ -90,8 +92,6 @@ namespace System {
     static System::Security::Cryptography::RandomNumberGenerator* _get__fastRng();
     // Set static field: static private System.Security.Cryptography.RandomNumberGenerator _fastRng
     static void _set__fastRng(System::Security::Cryptography::RandomNumberGenerator* value);
-    // Creating value type constructor for type: Guid
-    Guid(int a_ = {}, int16_t b_ = {}, int16_t c_ = {}, uint8_t d_ = {}, uint8_t e_ = {}, uint8_t f_ = {}, uint8_t g_ = {}, uint8_t h_ = {}, uint8_t i_ = {}, uint8_t j_ = {}, uint8_t k_ = {}) : a{a_}, b{b_}, c{c_}, d{d_}, e{e_}, f{f_}, g{g_}, h{h_}, i{i_}, j{j_}, k{k_} {}
     // public System.Void .ctor(System.Byte[] b)
     // Offset: 0xA417D8
     static Guid* New_ctor(::Array<uint8_t>* b);

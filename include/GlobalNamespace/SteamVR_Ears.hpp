@@ -29,6 +29,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Quaternion offset
     // Offset: 0x24
     UnityEngine::Quaternion offset;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private System.Void OnNewPosesApplied()
     // Offset: 0xD832C8
     void OnNewPosesApplied();

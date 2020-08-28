@@ -24,7 +24,11 @@ namespace Mono {
       // Offset: 0x0
       uint8_t FixedElementField;
       // Creating value type constructor for type: $public_key_token$e__FixedBuffer
-      $public_key_token$e__FixedBuffer(uint8_t FixedElementField_ = {}) : FixedElementField{FixedElementField_} {}
+      constexpr $public_key_token$e__FixedBuffer(uint8_t FixedElementField_ = {}) : FixedElementField{FixedElementField_} {}
+      // Creating conversion operator: operator uint8_t
+      constexpr operator uint8_t() const {
+        return FixedElementField;
+      }
     }; // Mono.MonoAssemblyName/<public_key_token>e__FixedBuffer
     // System.IntPtr name
     // Offset: 0x0
@@ -66,7 +70,7 @@ namespace Mono {
     // Offset: 0x48
     uint16_t arch;
     // Creating value type constructor for type: MonoAssemblyName
-    MonoAssemblyName(System::IntPtr name_ = {}, System::IntPtr culture_ = {}, System::IntPtr hash_value_ = {}, System::IntPtr public_key_ = {}, Mono::MonoAssemblyName::$public_key_token$e__FixedBuffer public_key_token_ = {}, uint hash_alg_ = {}, uint hash_len_ = {}, uint flags_ = {}, uint16_t major_ = {}, uint16_t minor_ = {}, uint16_t build_ = {}, uint16_t revision_ = {}, uint16_t arch_ = {}) : name{name_}, culture{culture_}, hash_value{hash_value_}, public_key{public_key_}, public_key_token{public_key_token_}, hash_alg{hash_alg_}, hash_len{hash_len_}, flags{flags_}, major{major_}, minor{minor_}, build{build_}, revision{revision_}, arch{arch_} {}
+    constexpr MonoAssemblyName(System::IntPtr name_ = {}, System::IntPtr culture_ = {}, System::IntPtr hash_value_ = {}, System::IntPtr public_key_ = {}, Mono::MonoAssemblyName::$public_key_token$e__FixedBuffer public_key_token_ = {}, uint hash_alg_ = {}, uint hash_len_ = {}, uint flags_ = {}, uint16_t major_ = {}, uint16_t minor_ = {}, uint16_t build_ = {}, uint16_t revision_ = {}, uint16_t arch_ = {}) : name{name_}, culture{culture_}, hash_value{hash_value_}, public_key{public_key_}, public_key_token{public_key_token_}, hash_alg{hash_alg_}, hash_len{hash_len_}, flags{flags_}, major{major_}, minor{minor_}, build{build_}, revision{revision_}, arch{arch_} {}
   }; // Mono.MonoAssemblyName
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

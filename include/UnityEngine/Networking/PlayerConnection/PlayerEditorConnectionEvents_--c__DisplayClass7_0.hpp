@@ -18,6 +18,10 @@ namespace UnityEngine::Networking::PlayerConnection {
     // public System.Guid messageId
     // Offset: 0x10
     System::Guid messageId;
+    // Creating conversion operator: operator System::Guid
+    constexpr operator System::Guid() const {
+      return messageId;
+    }
     // System.Boolean <AddAndCreate>b__0(UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageTypeSubscribers x)
     // Offset: 0x14186E8
     bool $AddAndCreate$b__0(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageTypeSubscribers* x);

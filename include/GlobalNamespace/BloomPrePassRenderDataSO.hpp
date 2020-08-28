@@ -23,6 +23,8 @@ namespace GlobalNamespace {
     // public readonly BloomPrePassRenderDataSO/Data data
     // Offset: 0x18
     GlobalNamespace::BloomPrePassRenderDataSO::Data* data;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void .ctor()
     // Offset: 0x1826C44
     // Implemented from: PersistentScriptableObject

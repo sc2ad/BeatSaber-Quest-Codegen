@@ -27,6 +27,12 @@ namespace OnlineServices {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: OnlineServicesAvailability
+      constexpr OnlineServicesAvailability(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public OnlineServices.PlatformServicesAvailabilityInfo/OnlineServicesAvailability Available
       static constexpr const int Available = 0;
       // Get static field: static public OnlineServices.PlatformServicesAvailabilityInfo/OnlineServicesAvailability Available
@@ -39,8 +45,6 @@ namespace OnlineServices {
       static OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability _get_Unavailable();
       // Set static field: static public OnlineServices.PlatformServicesAvailabilityInfo/OnlineServicesAvailability Unavailable
       static void _set_Unavailable(OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability value);
-      // Creating value type constructor for type: OnlineServicesAvailability
-      OnlineServicesAvailability(int value_ = {}) : value{value_} {}
     }; // OnlineServices.PlatformServicesAvailabilityInfo/OnlineServicesAvailability
     // public readonly OnlineServices.PlatformServicesAvailabilityInfo/OnlineServicesAvailability availability
     // Offset: 0x10

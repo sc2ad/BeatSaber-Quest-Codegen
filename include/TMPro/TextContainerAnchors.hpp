@@ -16,6 +16,12 @@ namespace TMPro {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TextContainerAnchors
+    constexpr TextContainerAnchors(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public TMPro.TextContainerAnchors TopLeft
     static constexpr const int TopLeft = 0;
     // Get static field: static public TMPro.TextContainerAnchors TopLeft
@@ -76,8 +82,6 @@ namespace TMPro {
     static TMPro::TextContainerAnchors _get_Custom();
     // Set static field: static public TMPro.TextContainerAnchors Custom
     static void _set_Custom(TMPro::TextContainerAnchors value);
-    // Creating value type constructor for type: TextContainerAnchors
-    TextContainerAnchors(int value_ = {}) : value{value_} {}
   }; // TMPro.TextContainerAnchors
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

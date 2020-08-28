@@ -26,7 +26,7 @@ namespace GlobalNamespace {
     // Offset: 0x8
     GlobalNamespace::OVRPlugin::Sizef Size;
     // Creating value type constructor for type: Rectf
-    Rectf(GlobalNamespace::OVRPlugin::Vector2f Pos_ = {}, GlobalNamespace::OVRPlugin::Sizef Size_ = {}) : Pos{Pos_}, Size{Size_} {}
+    constexpr Rectf(GlobalNamespace::OVRPlugin::Vector2f Pos_ = {}, GlobalNamespace::OVRPlugin::Sizef Size_ = {}) : Pos{Pos_}, Size{Size_} {}
   }; // OVRPlugin/Rectf
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

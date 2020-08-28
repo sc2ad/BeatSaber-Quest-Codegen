@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: NetworkReachability
+    constexpr NetworkReachability(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.NetworkReachability NotReachable
     static constexpr const int NotReachable = 0;
     // Get static field: static public UnityEngine.NetworkReachability NotReachable
@@ -34,8 +40,6 @@ namespace UnityEngine {
     static UnityEngine::NetworkReachability _get_ReachableViaLocalAreaNetwork();
     // Set static field: static public UnityEngine.NetworkReachability ReachableViaLocalAreaNetwork
     static void _set_ReachableViaLocalAreaNetwork(UnityEngine::NetworkReachability value);
-    // Creating value type constructor for type: NetworkReachability
-    NetworkReachability(int value_ = {}) : value{value_} {}
   }; // UnityEngine.NetworkReachability
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

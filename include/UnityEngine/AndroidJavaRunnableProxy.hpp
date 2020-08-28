@@ -23,6 +23,10 @@ namespace UnityEngine {
     // private UnityEngine.AndroidJavaRunnable mRunnable
     // Offset: 0x20
     UnityEngine::AndroidJavaRunnable* mRunnable;
+    // Creating conversion operator: operator UnityEngine::AndroidJavaRunnable*
+    constexpr operator UnityEngine::AndroidJavaRunnable*() const {
+      return mRunnable;
+    }
     // public System.Void .ctor(UnityEngine.AndroidJavaRunnable runnable)
     // Offset: 0x1928494
     static AndroidJavaRunnableProxy* New_ctor(UnityEngine::AndroidJavaRunnable* runnable);

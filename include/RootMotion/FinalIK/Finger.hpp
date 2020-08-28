@@ -37,6 +37,12 @@ namespace RootMotion::FinalIK {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: DOF
+      constexpr DOF(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public RootMotion.FinalIK.Finger/DOF One
       static constexpr const int One = 0;
       // Get static field: static public RootMotion.FinalIK.Finger/DOF One
@@ -49,8 +55,6 @@ namespace RootMotion::FinalIK {
       static RootMotion::FinalIK::Finger::DOF _get_Three();
       // Set static field: static public RootMotion.FinalIK.Finger/DOF Three
       static void _set_Three(RootMotion::FinalIK::Finger::DOF value);
-      // Creating value type constructor for type: DOF
-      DOF(int value_ = {}) : value{value_} {}
     }; // RootMotion.FinalIK.Finger/DOF
     // public System.Single weight
     // Offset: 0x10

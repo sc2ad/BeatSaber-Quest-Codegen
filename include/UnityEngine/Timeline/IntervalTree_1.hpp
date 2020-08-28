@@ -58,7 +58,7 @@ namespace UnityEngine::Timeline {
       // Offset: 0x0
       T item;
       // Creating value type constructor for type: Entry
-      Entry(int64_t intervalStart_ = {}, int64_t intervalEnd_ = {}, T item_ = {}) : intervalStart{intervalStart_}, intervalEnd{intervalEnd_}, item{item_} {}
+      constexpr Entry(int64_t intervalStart_ = {}, int64_t intervalEnd_ = {}, T item_ = {}) : intervalStart{intervalStart_}, intervalEnd{intervalEnd_}, item{item_} {}
     }; // UnityEngine.Timeline.IntervalTree`1/Entry
     // private readonly System.Collections.Generic.List`1<UnityEngine.Timeline.IntervalTree`1/Entry<T>> m_Entries
     // Offset: 0x0

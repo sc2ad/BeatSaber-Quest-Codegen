@@ -31,6 +31,8 @@ namespace GlobalNamespace {
     // private NoteDebris/Pool _noteDebrisPool
     // Offset: 0x18
     GlobalNamespace::NoteDebris::Pool* noteDebrisPool;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static field const value: static private System.Single kMinLifeTime
     static constexpr const float kMinLifeTime = 0.8;
     // Get static field: static private System.Single kMinLifeTime

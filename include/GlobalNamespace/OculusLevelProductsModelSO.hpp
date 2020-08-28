@@ -46,6 +46,8 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.Dictionary`2<System.String,System.String> _assetFileToSku
     // Offset: 0x30
     System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* assetFileToSku;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public OculusLevelProductsModelSO/LevelPackProductData[] get_levelPackProductsData()
     // Offset: 0xC393C0
     ::Array<GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*>* get_levelPackProductsData();

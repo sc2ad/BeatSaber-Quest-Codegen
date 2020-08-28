@@ -44,6 +44,8 @@ namespace GlobalNamespace {
     // private System.Int32 _frameCountInInterval
     // Offset: 0x38
     int frameCountInInterval;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xCAFA38
     void Start();

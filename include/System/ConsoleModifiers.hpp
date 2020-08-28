@@ -16,6 +16,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ConsoleModifiers
+    constexpr ConsoleModifiers(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.ConsoleModifiers Alt
     static constexpr const int Alt = 1;
     // Get static field: static public System.ConsoleModifiers Alt
@@ -34,8 +40,6 @@ namespace System {
     static System::ConsoleModifiers _get_Control();
     // Set static field: static public System.ConsoleModifiers Control
     static void _set_Control(System::ConsoleModifiers value);
-    // Creating value type constructor for type: ConsoleModifiers
-    ConsoleModifiers(int value_ = {}) : value{value_} {}
   }; // System.ConsoleModifiers
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -28,6 +28,10 @@ namespace Valve::VR {
     // private Valve.VR.IVRDriverManager FnTable
     // Offset: 0x10
     Valve::VR::IVRDriverManager FnTable;
+    // Creating conversion operator: operator Valve::VR::IVRDriverManager
+    constexpr operator Valve::VR::IVRDriverManager() const {
+      return FnTable;
+    }
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0xFE5928
     static CVRDriverManager* New_ctor(System::IntPtr pInterface);

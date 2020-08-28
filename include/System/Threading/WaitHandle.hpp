@@ -45,6 +45,8 @@ namespace System::Threading {
     // System.Boolean hasThreadAffinity
     // Offset: 0x28
     bool hasThreadAffinity;
+    // Deleting conversion operator: operator ::Il2CppObject*
+    constexpr operator ::Il2CppObject*() const = delete;
     // static field const value: static public System.Int32 WaitTimeout
     static constexpr const int WaitTimeout = 258;
     // Get static field: static public System.Int32 WaitTimeout

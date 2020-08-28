@@ -16,6 +16,12 @@ namespace TMPro {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TextRenderFlags
+    constexpr TextRenderFlags(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public TMPro.TextRenderFlags DontRender
     static constexpr const int DontRender = 0;
     // Get static field: static public TMPro.TextRenderFlags DontRender
@@ -28,8 +34,6 @@ namespace TMPro {
     static TMPro::TextRenderFlags _get_Render();
     // Set static field: static public TMPro.TextRenderFlags Render
     static void _set_Render(TMPro::TextRenderFlags value);
-    // Creating value type constructor for type: TextRenderFlags
-    TextRenderFlags(int value_ = {}) : value{value_} {}
   }; // TMPro.TextRenderFlags
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

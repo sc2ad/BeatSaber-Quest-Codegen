@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: BeatmapLevelsModel/<GetCustomLevelPackCollectionAsync>d__28
 #include "GlobalNamespace/BeatmapLevelsModel_-GetCustomLevelPackCollectionAsync-d__28.hpp"
 // Including type: IBeatmapLevelPackCollection

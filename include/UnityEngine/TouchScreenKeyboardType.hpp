@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TouchScreenKeyboardType
+    constexpr TouchScreenKeyboardType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.TouchScreenKeyboardType Default
     static constexpr const int Default = 0;
     // Get static field: static public UnityEngine.TouchScreenKeyboardType Default
@@ -88,8 +94,6 @@ namespace UnityEngine {
     static UnityEngine::TouchScreenKeyboardType _get_DecimalPad();
     // Set static field: static public UnityEngine.TouchScreenKeyboardType DecimalPad
     static void _set_DecimalPad(UnityEngine::TouchScreenKeyboardType value);
-    // Creating value type constructor for type: TouchScreenKeyboardType
-    TouchScreenKeyboardType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.TouchScreenKeyboardType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

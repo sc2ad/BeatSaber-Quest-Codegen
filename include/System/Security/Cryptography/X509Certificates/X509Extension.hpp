@@ -16,6 +16,10 @@ namespace System::Security::Cryptography::X509Certificates {
     // private System.Boolean _critical
     // Offset: 0x20
     bool critical;
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return critical;
+    }
     // public System.Boolean get_Critical()
     // Offset: 0x121DCD0
     bool get_Critical();

@@ -16,6 +16,12 @@ namespace UnityEngine::ProBuilder {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: MeshSyncState
+    constexpr MeshSyncState(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ProBuilder.MeshSyncState Null
     static constexpr const int Null = 0;
     // Get static field: static public UnityEngine.ProBuilder.MeshSyncState Null
@@ -40,8 +46,6 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::MeshSyncState _get_InSync();
     // Set static field: static public UnityEngine.ProBuilder.MeshSyncState InSync
     static void _set_InSync(UnityEngine::ProBuilder::MeshSyncState value);
-    // Creating value type constructor for type: MeshSyncState
-    MeshSyncState(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.MeshSyncState
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: UnescapeMode
+    constexpr UnescapeMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.UnescapeMode CopyOnly
     static constexpr const int CopyOnly = 0;
     // Get static field: static public System.UnescapeMode CopyOnly
@@ -58,8 +64,6 @@ namespace System {
     static System::UnescapeMode _get_UnescapeAllOrThrow();
     // Set static field: static public System.UnescapeMode UnescapeAllOrThrow
     static void _set_UnescapeAllOrThrow(System::UnescapeMode value);
-    // Creating value type constructor for type: UnescapeMode
-    UnescapeMode(int value_ = {}) : value{value_} {}
   }; // System.UnescapeMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -18,6 +18,12 @@ namespace UnityEngine::Experimental::XR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Type
+    constexpr Type(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Experimental.XR.Boundary/Type PlayArea
     static constexpr const int PlayArea = 0;
     // Get static field: static public UnityEngine.Experimental.XR.Boundary/Type PlayArea
@@ -30,8 +36,6 @@ namespace UnityEngine::Experimental::XR {
     static UnityEngine::Experimental::XR::Boundary::Type _get_TrackedArea();
     // Set static field: static public UnityEngine.Experimental.XR.Boundary/Type TrackedArea
     static void _set_TrackedArea(UnityEngine::Experimental::XR::Boundary::Type value);
-    // Creating value type constructor for type: Type
-    Type(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Experimental.XR.Boundary/Type
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,12 @@ namespace UnityEngine::Rendering {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: PassType
+    constexpr PassType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Rendering.PassType Normal
     static constexpr const int Normal = 0;
     // Get static field: static public UnityEngine.Rendering.PassType Normal
@@ -100,8 +106,6 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::PassType _get_ScriptableRenderPipelineDefaultUnlit();
     // Set static field: static public UnityEngine.Rendering.PassType ScriptableRenderPipelineDefaultUnlit
     static void _set_ScriptableRenderPipelineDefaultUnlit(UnityEngine::Rendering::PassType value);
-    // Creating value type constructor for type: PassType
-    PassType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Rendering.PassType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

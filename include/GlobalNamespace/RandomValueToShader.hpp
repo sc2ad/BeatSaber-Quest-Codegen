@@ -16,6 +16,8 @@ namespace GlobalNamespace {
     // private System.Int32 _lastFrameNum
     // Offset: 0x18
     int lastFrameNum;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // Get static field: static private readonly System.Int32 _randomValueID
     static int _get__randomValueID();
     // Set static field: static private readonly System.Int32 _randomValueID

@@ -23,6 +23,10 @@ namespace GlobalNamespace {
     // public BeatmapLevelFilterModel/LevelFilterParams levelFilterParams
     // Offset: 0x10
     GlobalNamespace::BeatmapLevelFilterModel::LevelFilterParams* levelFilterParams;
+    // Creating conversion operator: operator GlobalNamespace::BeatmapLevelFilterModel::LevelFilterParams*
+    constexpr operator GlobalNamespace::BeatmapLevelFilterModel::LevelFilterParams*() const {
+      return levelFilterParams;
+    }
     // System.Boolean <FilerBeatmapLevelPackCollection>b__0(IPreviewBeatmapLevel beatmapLevel)
     // Offset: 0xB70AFC
     bool $FilerBeatmapLevelPackCollection$b__0(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);

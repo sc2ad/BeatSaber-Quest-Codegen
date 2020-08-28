@@ -35,6 +35,12 @@ namespace UnityEngine::Playables {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: Flags
+      constexpr Flags(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public UnityEngine.Playables.FrameData/Flags Evaluate
       static constexpr const int Evaluate = 1;
       // Get static field: static public UnityEngine.Playables.FrameData/Flags Evaluate
@@ -71,8 +77,6 @@ namespace UnityEngine::Playables {
       static UnityEngine::Playables::FrameData::Flags _get_EffectivePlayStatePlaying();
       // Set static field: static public UnityEngine.Playables.FrameData/Flags EffectivePlayStatePlaying
       static void _set_EffectivePlayStatePlaying(UnityEngine::Playables::FrameData::Flags value);
-      // Creating value type constructor for type: Flags
-      Flags(int value_ = {}) : value{value_} {}
     }; // UnityEngine.Playables.FrameData/Flags
     // System.UInt64 m_FrameID
     // Offset: 0x0
@@ -102,7 +106,7 @@ namespace UnityEngine::Playables {
     // Offset: 0x30
     UnityEngine::Playables::PlayableOutput m_Output;
     // Creating value type constructor for type: FrameData
-    FrameData(uint64_t m_FrameID_ = {}, double m_DeltaTime_ = {}, float m_Weight_ = {}, float m_EffectiveWeight_ = {}, double m_EffectiveParentDelay_ = {}, float m_EffectiveParentSpeed_ = {}, float m_EffectiveSpeed_ = {}, UnityEngine::Playables::FrameData::Flags m_Flags_ = {}, UnityEngine::Playables::PlayableOutput m_Output_ = {}) : m_FrameID{m_FrameID_}, m_DeltaTime{m_DeltaTime_}, m_Weight{m_Weight_}, m_EffectiveWeight{m_EffectiveWeight_}, m_EffectiveParentDelay{m_EffectiveParentDelay_}, m_EffectiveParentSpeed{m_EffectiveParentSpeed_}, m_EffectiveSpeed{m_EffectiveSpeed_}, m_Flags{m_Flags_}, m_Output{m_Output_} {}
+    constexpr FrameData(uint64_t m_FrameID_ = {}, double m_DeltaTime_ = {}, float m_Weight_ = {}, float m_EffectiveWeight_ = {}, double m_EffectiveParentDelay_ = {}, float m_EffectiveParentSpeed_ = {}, float m_EffectiveSpeed_ = {}, UnityEngine::Playables::FrameData::Flags m_Flags_ = {}, UnityEngine::Playables::PlayableOutput m_Output_ = {}) : m_FrameID{m_FrameID_}, m_DeltaTime{m_DeltaTime_}, m_Weight{m_Weight_}, m_EffectiveWeight{m_EffectiveWeight_}, m_EffectiveParentDelay{m_EffectiveParentDelay_}, m_EffectiveParentSpeed{m_EffectiveParentSpeed_}, m_EffectiveSpeed{m_EffectiveSpeed_}, m_Flags{m_Flags_}, m_Output{m_Output_} {}
     // private System.Boolean HasFlags(UnityEngine.Playables.FrameData/Flags flag)
     // Offset: 0xA489C8
     bool HasFlags(UnityEngine::Playables::FrameData::Flags flag);

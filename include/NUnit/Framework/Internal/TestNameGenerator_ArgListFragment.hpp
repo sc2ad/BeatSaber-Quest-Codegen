@@ -25,6 +25,10 @@ namespace NUnit::Framework::Internal {
     // private System.Int32 _maxStringLength
     // Offset: 0x10
     int maxStringLength;
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return maxStringLength;
+    }
     // public System.Void .ctor(System.Int32 maxStringLength)
     // Offset: 0x18F5E38
     static TestNameGenerator::ArgListFragment* New_ctor(int maxStringLength);

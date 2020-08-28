@@ -9,6 +9,8 @@
 #include "ModestTree/Util/UnityUtil.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
 #include "System/Collections/Generic/IEnumerable_1.hpp"
+// Including type: UnityEngine.SceneManagement.Scene
+#include "UnityEngine/SceneManagement/Scene.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
 // Completed includes

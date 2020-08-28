@@ -64,6 +64,8 @@ namespace GlobalNamespace {
     // private System.Single _rotationRange
     // Offset: 0x50
     float rotationRange;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Boolean get_isMidRotationValid()
     // Offset: 0xB8ED38
     bool get_isMidRotationValid();

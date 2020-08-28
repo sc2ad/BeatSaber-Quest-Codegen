@@ -26,6 +26,8 @@ namespace GlobalNamespace {
     // public OVRExternalComposition composition
     // Offset: 0x20
     GlobalNamespace::OVRExternalComposition* composition;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private System.Void Start()
     // Offset: 0xE7A6D8
     void Start();

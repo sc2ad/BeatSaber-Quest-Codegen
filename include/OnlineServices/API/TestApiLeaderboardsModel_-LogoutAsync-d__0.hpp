@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OnlineServices.API.TestApiLeaderboardsModel
 #include "OnlineServices/API/TestApiLeaderboardsModel.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: System.Runtime.CompilerServices.IAsyncStateMachine
 #include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
 // Including type: System.Runtime.CompilerServices.AsyncVoidMethodBuilder
@@ -29,7 +31,7 @@ namespace OnlineServices::API {
     // Offset: 0x28
     System::Runtime::CompilerServices::TaskAwaiter $$u__1;
     // Creating value type constructor for type: $LogoutAsync$d__0
-    $LogoutAsync$d__0(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$u__1{$$u__1_} {}
+    constexpr $LogoutAsync$d__0(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
     // Offset: 0xA2CA14
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine

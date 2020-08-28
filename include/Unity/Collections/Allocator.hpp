@@ -16,6 +16,12 @@ namespace Unity::Collections {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Allocator
+    constexpr Allocator(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Unity.Collections.Allocator Invalid
     static constexpr const int Invalid = 0;
     // Get static field: static public Unity.Collections.Allocator Invalid
@@ -52,8 +58,6 @@ namespace Unity::Collections {
     static Unity::Collections::Allocator _get_AudioKernel();
     // Set static field: static public Unity.Collections.Allocator AudioKernel
     static void _set_AudioKernel(Unity::Collections::Allocator value);
-    // Creating value type constructor for type: Allocator
-    Allocator(int value_ = {}) : value{value_} {}
   }; // Unity.Collections.Allocator
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

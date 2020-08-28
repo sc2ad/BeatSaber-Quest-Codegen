@@ -23,6 +23,10 @@ namespace UnityEngine::Timeline {
     // private System.Int32 <intervalBit>k__BackingField
     // Offset: 0x10
     int intervalBit;
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return intervalBit;
+    }
     // public System.Int32 get_intervalBit()
     // Offset: 0x109EDC8
     int get_intervalBit();

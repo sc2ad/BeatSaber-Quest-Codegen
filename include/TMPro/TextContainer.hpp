@@ -70,6 +70,8 @@ namespace TMPro {
     // private TMPro.TextMeshPro m_textMeshPro
     // Offset: 0x68
     TMPro::TextMeshPro* m_textMeshPro;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // Get static field: static private UnityEngine.Vector2 k_defaultSize
     static UnityEngine::Vector2 _get_k_defaultSize();
     // Set static field: static private UnityEngine.Vector2 k_defaultSize

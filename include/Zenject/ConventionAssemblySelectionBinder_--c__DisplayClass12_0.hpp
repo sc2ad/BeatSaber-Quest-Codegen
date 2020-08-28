@@ -29,6 +29,10 @@ namespace Zenject {
     // public System.Collections.Generic.IEnumerable`1<System.Reflection.Assembly> assemblies
     // Offset: 0x10
     System::Collections::Generic::IEnumerable_1<System::Reflection::Assembly*>* assemblies;
+    // Creating conversion operator: operator System::Collections::Generic::IEnumerable_1<System::Reflection::Assembly*>*
+    constexpr operator System::Collections::Generic::IEnumerable_1<System::Reflection::Assembly*>*() const {
+      return assemblies;
+    }
     // System.Boolean <FromAssemblies>b__0(System.Reflection.Assembly assembly)
     // Offset: 0xD6F234
     bool $FromAssemblies$b__0(System::Reflection::Assembly* assembly);

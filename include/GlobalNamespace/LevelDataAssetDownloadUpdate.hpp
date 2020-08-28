@@ -29,6 +29,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: AssetDownloadingState
+      constexpr AssetDownloadingState(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public LevelDataAssetDownloadUpdate/AssetDownloadingState PreparingToDownload
       static constexpr const int PreparingToDownload = 0;
       // Get static field: static public LevelDataAssetDownloadUpdate/AssetDownloadingState PreparingToDownload
@@ -47,8 +53,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState _get_Completed();
       // Set static field: static public LevelDataAssetDownloadUpdate/AssetDownloadingState Completed
       static void _set_Completed(GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState value);
-      // Creating value type constructor for type: AssetDownloadingState
-      AssetDownloadingState(int value_ = {}) : value{value_} {}
     }; // LevelDataAssetDownloadUpdate/AssetDownloadingState
     // public readonly System.String levelID
     // Offset: 0x0
@@ -63,7 +67,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState assetDownloadingState;
     // Creating value type constructor for type: LevelDataAssetDownloadUpdate
-    LevelDataAssetDownloadUpdate(::Il2CppString* levelID_ = {}, uint bytesTotal_ = {}, uint bytesTransferred_ = {}, GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState assetDownloadingState_ = {}) : levelID{levelID_}, bytesTotal{bytesTotal_}, bytesTransferred{bytesTransferred_}, assetDownloadingState{assetDownloadingState_} {}
+    constexpr LevelDataAssetDownloadUpdate(::Il2CppString* levelID_ = {}, uint bytesTotal_ = {}, uint bytesTransferred_ = {}, GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState assetDownloadingState_ = {}) : levelID{levelID_}, bytesTotal{bytesTotal_}, bytesTransferred{bytesTransferred_}, assetDownloadingState{assetDownloadingState_} {}
     // public System.Void .ctor(System.String levelID, System.UInt32 bytesTotal, System.UInt32 bytesTransferred, LevelDataAssetDownloadUpdate/AssetDownloadingState assetDownloadingState)
     // Offset: 0xA2B350
     static LevelDataAssetDownloadUpdate* New_ctor(::Il2CppString* levelID, uint bytesTotal, uint bytesTransferred, GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState assetDownloadingState);

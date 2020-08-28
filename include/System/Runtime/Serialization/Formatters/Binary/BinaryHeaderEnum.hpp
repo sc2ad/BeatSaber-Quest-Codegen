@@ -16,6 +16,12 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: BinaryHeaderEnum
+    constexpr BinaryHeaderEnum(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum SerializedStreamHeader
     static constexpr const int SerializedStreamHeader = 0;
     // Get static field: static public System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum SerializedStreamHeader
@@ -154,8 +160,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum _get_MethodReturn();
     // Set static field: static public System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum MethodReturn
     static void _set_MethodReturn(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum value);
-    // Creating value type constructor for type: BinaryHeaderEnum
-    BinaryHeaderEnum(int value_ = {}) : value{value_} {}
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

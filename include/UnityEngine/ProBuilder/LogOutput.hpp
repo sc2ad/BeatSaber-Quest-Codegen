@@ -16,6 +16,12 @@ namespace UnityEngine::ProBuilder {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: LogOutput
+    constexpr LogOutput(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ProBuilder.LogOutput None
     static constexpr const int None = 0;
     // Get static field: static public UnityEngine.ProBuilder.LogOutput None
@@ -34,8 +40,6 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::LogOutput _get_File();
     // Set static field: static public UnityEngine.ProBuilder.LogOutput File
     static void _set_File(UnityEngine::ProBuilder::LogOutput value);
-    // Creating value type constructor for type: LogOutput
-    LogOutput(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.LogOutput
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -28,6 +28,8 @@ namespace GlobalNamespace {
     // private UnityEngine.UI.Button _button
     // Offset: 0x20
     UnityEngine::UI::Button* button;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public UnityEngine.UI.Text get_text()
     // Offset: 0xC46244
     UnityEngine::UI::Text* get_text();

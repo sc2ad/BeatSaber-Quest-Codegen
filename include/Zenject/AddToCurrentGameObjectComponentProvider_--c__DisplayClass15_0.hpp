@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.AddToCurrentGameObjectComponentProvider
 #include "Zenject/AddToCurrentGameObjectComponentProvider.hpp"
+// Including type: Zenject.TypeValuePair
+#include "Zenject/TypeValuePair.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic

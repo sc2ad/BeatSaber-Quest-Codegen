@@ -33,6 +33,12 @@ namespace UnityEngine::Scripting {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: Mode
+      constexpr Mode(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public UnityEngine.Scripting.GarbageCollector/Mode Disabled
       static constexpr const int Disabled = 0;
       // Get static field: static public UnityEngine.Scripting.GarbageCollector/Mode Disabled
@@ -45,8 +51,6 @@ namespace UnityEngine::Scripting {
       static UnityEngine::Scripting::GarbageCollector::Mode _get_Enabled();
       // Set static field: static public UnityEngine.Scripting.GarbageCollector/Mode Enabled
       static void _set_Enabled(UnityEngine::Scripting::GarbageCollector::Mode value);
-      // Creating value type constructor for type: Mode
-      Mode(int value_ = {}) : value{value_} {}
     }; // UnityEngine.Scripting.GarbageCollector/Mode
     // Get static field: static private System.Action`1<UnityEngine.Scripting.GarbageCollector/Mode> GCModeChanged
     static System::Action_1<UnityEngine::Scripting::GarbageCollector::Mode>* _get_GCModeChanged();

@@ -16,6 +16,12 @@ namespace System::Runtime::Serialization {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: StreamingContextStates
+    constexpr StreamingContextStates(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Runtime.Serialization.StreamingContextStates CrossProcess
     static constexpr const int CrossProcess = 1;
     // Get static field: static public System.Runtime.Serialization.StreamingContextStates CrossProcess
@@ -70,8 +76,6 @@ namespace System::Runtime::Serialization {
     static System::Runtime::Serialization::StreamingContextStates _get_All();
     // Set static field: static public System.Runtime.Serialization.StreamingContextStates All
     static void _set_All(System::Runtime::Serialization::StreamingContextStates value);
-    // Creating value type constructor for type: StreamingContextStates
-    StreamingContextStates(int value_ = {}) : value{value_} {}
   }; // System.Runtime.Serialization.StreamingContextStates
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

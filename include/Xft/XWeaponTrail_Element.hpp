@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Xft.XWeaponTrail
 #include "Xft/XWeaponTrail.hpp"
+// Including type: UnityEngine.Vector3
+#include "UnityEngine/Vector3.hpp"
 // Completed includes
 // Type namespace: Xft
 namespace Xft {

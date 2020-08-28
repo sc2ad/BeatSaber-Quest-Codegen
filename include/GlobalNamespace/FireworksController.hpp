@@ -39,6 +39,8 @@ namespace GlobalNamespace {
     // private FireworkItemController/Pool _fireworkItemPool
     // Offset: 0x30
     GlobalNamespace::FireworkItemController::Pool* fireworkItemPool;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void OnEnable()
     // Offset: 0xBEE814
     void OnEnable();

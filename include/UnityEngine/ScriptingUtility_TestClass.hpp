@@ -19,7 +19,11 @@ namespace UnityEngine {
     // Offset: 0x0
     int value;
     // Creating value type constructor for type: TestClass
-    TestClass(int value_ = {}) : value{value_} {}
+    constexpr TestClass(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
   }; // UnityEngine.ScriptingUtility/TestClass
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

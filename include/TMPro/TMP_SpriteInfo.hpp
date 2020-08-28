@@ -22,7 +22,7 @@ namespace TMPro {
     // Offset: 0x8
     int vertexIndex;
     // Creating value type constructor for type: TMP_SpriteInfo
-    TMP_SpriteInfo(int spriteIndex_ = {}, int characterIndex_ = {}, int vertexIndex_ = {}) : spriteIndex{spriteIndex_}, characterIndex{characterIndex_}, vertexIndex{vertexIndex_} {}
+    constexpr TMP_SpriteInfo(int spriteIndex_ = {}, int characterIndex_ = {}, int vertexIndex_ = {}) : spriteIndex{spriteIndex_}, characterIndex{characterIndex_}, vertexIndex{vertexIndex_} {}
   }; // TMPro.TMP_SpriteInfo
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

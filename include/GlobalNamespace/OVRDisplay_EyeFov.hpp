@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRDisplay
 #include "GlobalNamespace/OVRDisplay.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -26,7 +28,7 @@ namespace GlobalNamespace {
     // Offset: 0xC
     float RightFov;
     // Creating value type constructor for type: EyeFov
-    EyeFov(float UpFov_ = {}, float DownFov_ = {}, float LeftFov_ = {}, float RightFov_ = {}) : UpFov{UpFov_}, DownFov{DownFov_}, LeftFov{LeftFov_}, RightFov{RightFov_} {}
+    constexpr EyeFov(float UpFov_ = {}, float DownFov_ = {}, float LeftFov_ = {}, float RightFov_ = {}) : UpFov{UpFov_}, DownFov{DownFov_}, LeftFov{LeftFov_}, RightFov{RightFov_} {}
   }; // OVRDisplay/EyeFov
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

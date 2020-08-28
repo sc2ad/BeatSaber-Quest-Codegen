@@ -35,6 +35,12 @@ namespace RootMotion::FinalIK {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: BendModifier
+      constexpr BendModifier(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public RootMotion.FinalIK.IKSolverLimb/BendModifier Animation
       static constexpr const int Animation = 0;
       // Get static field: static public RootMotion.FinalIK.IKSolverLimb/BendModifier Animation
@@ -65,8 +71,6 @@ namespace RootMotion::FinalIK {
       static RootMotion::FinalIK::IKSolverLimb::BendModifier _get_Goal();
       // Set static field: static public RootMotion.FinalIK.IKSolverLimb/BendModifier Goal
       static void _set_Goal(RootMotion::FinalIK::IKSolverLimb::BendModifier value);
-      // Creating value type constructor for type: BendModifier
-      BendModifier(int value_ = {}) : value{value_} {}
     }; // RootMotion.FinalIK.IKSolverLimb/BendModifier
     // public UnityEngine.AvatarIKGoal goal
     // Offset: 0xA8

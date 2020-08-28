@@ -52,6 +52,8 @@ namespace GlobalNamespace {
     // private System.Int32 _activeBatteryLifeSegmentsCount
     // Offset: 0x40
     int activeBatteryLifeSegmentsCount;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xB3C12C
     void Start();

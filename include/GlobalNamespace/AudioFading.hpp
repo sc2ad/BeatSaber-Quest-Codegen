@@ -32,6 +32,8 @@ namespace GlobalNamespace {
     // private System.Single _targetVolume
     // Offset: 0x28
     float targetVolume;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xB89C68
     void Start();

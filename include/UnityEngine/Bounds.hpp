@@ -31,7 +31,7 @@ namespace UnityEngine {
     // Offset: 0xC
     UnityEngine::Vector3 m_Extents;
     // Creating value type constructor for type: Bounds
-    Bounds(UnityEngine::Vector3 m_Center_ = {}, UnityEngine::Vector3 m_Extents_ = {}) : m_Center{m_Center_}, m_Extents{m_Extents_} {}
+    constexpr Bounds(UnityEngine::Vector3 m_Center_ = {}, UnityEngine::Vector3 m_Extents_ = {}) : m_Center{m_Center_}, m_Extents{m_Extents_} {}
     // public System.Void .ctor(UnityEngine.Vector3 center, UnityEngine.Vector3 size)
     // Offset: 0xA4571C
     static Bounds* New_ctor(UnityEngine::Vector3 center, UnityEngine::Vector3 size);

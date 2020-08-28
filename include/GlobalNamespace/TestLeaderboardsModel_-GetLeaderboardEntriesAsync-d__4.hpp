@@ -7,10 +7,14 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TestLeaderboardsModel
 #include "GlobalNamespace/TestLeaderboardsModel.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: System.Runtime.CompilerServices.IAsyncStateMachine
 #include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
 // Including type: System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1
 #include "System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.hpp"
+// Including type: OnlineServices.GetLeaderboardEntriesResult
+#include "OnlineServices/GetLeaderboardEntriesResult.hpp"
 // Including type: OnlineServices.GetLeaderboardFilterData
 #include "OnlineServices/GetLeaderboardFilterData.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter
@@ -34,7 +38,7 @@ namespace GlobalNamespace {
     // Offset: 0x38
     System::Runtime::CompilerServices::TaskAwaiter $$u__1;
     // Creating value type constructor for type: $GetLeaderboardEntriesAsync$d__4
-    $GetLeaderboardEntriesAsync$d__4(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<OnlineServices::GetLeaderboardEntriesResult> $$t__builder_ = {}, OnlineServices::GetLeaderboardFilterData leaderboardFilterData_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, leaderboardFilterData{leaderboardFilterData_}, $$u__1{$$u__1_} {}
+    constexpr $GetLeaderboardEntriesAsync$d__4(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<OnlineServices::GetLeaderboardEntriesResult> $$t__builder_ = {}, OnlineServices::GetLeaderboardFilterData leaderboardFilterData_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, leaderboardFilterData{leaderboardFilterData_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
     // Offset: 0xA2BF64
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine

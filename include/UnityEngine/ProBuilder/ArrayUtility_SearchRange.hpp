@@ -22,7 +22,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x4
     int end;
     // Creating value type constructor for type: SearchRange
-    SearchRange(int begin_ = {}, int end_ = {}) : begin{begin_}, end{end_} {}
+    constexpr SearchRange(int begin_ = {}, int end_ = {}) : begin{begin_}, end{end_} {}
     // public System.Void .ctor(System.Int32 begin, System.Int32 end)
     // Offset: 0xA4D274
     static ArrayUtility::SearchRange* New_ctor(int begin, int end);

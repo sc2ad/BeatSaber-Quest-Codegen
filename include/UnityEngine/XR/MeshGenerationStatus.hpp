@@ -16,6 +16,12 @@ namespace UnityEngine::XR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: MeshGenerationStatus
+    constexpr MeshGenerationStatus(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.XR.MeshGenerationStatus Success
     static constexpr const int Success = 0;
     // Get static field: static public UnityEngine.XR.MeshGenerationStatus Success
@@ -46,8 +52,6 @@ namespace UnityEngine::XR {
     static UnityEngine::XR::MeshGenerationStatus _get_UnknownError();
     // Set static field: static public UnityEngine.XR.MeshGenerationStatus UnknownError
     static void _set_UnknownError(UnityEngine::XR::MeshGenerationStatus value);
-    // Creating value type constructor for type: MeshGenerationStatus
-    MeshGenerationStatus(int value_ = {}) : value{value_} {}
   }; // UnityEngine.XR.MeshGenerationStatus
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

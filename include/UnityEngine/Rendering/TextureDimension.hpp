@@ -16,6 +16,12 @@ namespace UnityEngine::Rendering {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TextureDimension
+    constexpr TextureDimension(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Rendering.TextureDimension Unknown
     static constexpr const int Unknown = -1;
     // Get static field: static public UnityEngine.Rendering.TextureDimension Unknown
@@ -64,8 +70,6 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::TextureDimension _get_CubeArray();
     // Set static field: static public UnityEngine.Rendering.TextureDimension CubeArray
     static void _set_CubeArray(UnityEngine::Rendering::TextureDimension value);
-    // Creating value type constructor for type: TextureDimension
-    TextureDimension(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Rendering.TextureDimension
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

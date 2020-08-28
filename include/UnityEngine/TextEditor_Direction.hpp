@@ -18,6 +18,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Direction
+    constexpr Direction(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.TextEditor/Direction Forward
     static constexpr const int Forward = 0;
     // Get static field: static public UnityEngine.TextEditor/Direction Forward
@@ -30,8 +36,6 @@ namespace UnityEngine {
     static UnityEngine::TextEditor::Direction _get_Backward();
     // Set static field: static public UnityEngine.TextEditor/Direction Backward
     static void _set_Backward(UnityEngine::TextEditor::Direction value);
-    // Creating value type constructor for type: Direction
-    Direction(int value_ = {}) : value{value_} {}
   }; // UnityEngine.TextEditor/Direction
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -27,6 +27,10 @@ namespace UnityEngine::UI {
     // private readonly UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.IClipper> m_Clippers
     // Offset: 0x10
     UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::IClipper*>* m_Clippers;
+    // Creating conversion operator: operator UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::IClipper*>*
+    constexpr operator UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::IClipper*>*() const {
+      return m_Clippers;
+    }
     // Get static field: static private UnityEngine.UI.ClipperRegistry s_Instance
     static UnityEngine::UI::ClipperRegistry* _get_s_Instance();
     // Set static field: static private UnityEngine.UI.ClipperRegistry s_Instance

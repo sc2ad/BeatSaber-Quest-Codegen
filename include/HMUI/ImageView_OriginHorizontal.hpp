@@ -18,6 +18,12 @@ namespace HMUI {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: OriginHorizontal
+    constexpr OriginHorizontal(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public HMUI.ImageView/OriginHorizontal Left
     static constexpr const int Left = 0;
     // Get static field: static public HMUI.ImageView/OriginHorizontal Left
@@ -30,8 +36,6 @@ namespace HMUI {
     static HMUI::ImageView::OriginHorizontal _get_Right();
     // Set static field: static public HMUI.ImageView/OriginHorizontal Right
     static void _set_Right(HMUI::ImageView::OriginHorizontal value);
-    // Creating value type constructor for type: OriginHorizontal
-    OriginHorizontal(int value_ = {}) : value{value_} {}
   }; // HMUI.ImageView/OriginHorizontal
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

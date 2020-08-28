@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: PlatformInitializeResult
+    constexpr PlatformInitializeResult(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.PlatformInitializeResult Success
     static constexpr const int Success = 0;
     // Get static field: static public Oculus.Platform.PlatformInitializeResult Success
@@ -76,8 +82,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::PlatformInitializeResult _get_NotEntitled();
     // Set static field: static public Oculus.Platform.PlatformInitializeResult NotEntitled
     static void _set_NotEntitled(Oculus::Platform::PlatformInitializeResult value);
-    // Creating value type constructor for type: PlatformInitializeResult
-    PlatformInitializeResult(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.PlatformInitializeResult
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

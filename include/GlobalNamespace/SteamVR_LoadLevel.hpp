@@ -137,6 +137,8 @@ namespace GlobalNamespace {
     // public System.Boolean autoTriggerOnEnable
     // Offset: 0xF0
     bool autoTriggerOnEnable;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // Get static field: static private SteamVR_LoadLevel _active
     static GlobalNamespace::SteamVR_LoadLevel* _get__active();
     // Set static field: static private SteamVR_LoadLevel _active

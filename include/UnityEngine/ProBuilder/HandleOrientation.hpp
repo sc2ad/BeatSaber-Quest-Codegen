@@ -16,6 +16,12 @@ namespace UnityEngine::ProBuilder {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: HandleOrientation
+    constexpr HandleOrientation(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ProBuilder.HandleOrientation World
     static constexpr const int World = 0;
     // Get static field: static public UnityEngine.ProBuilder.HandleOrientation World
@@ -34,8 +40,6 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::HandleOrientation _get_ActiveElement();
     // Set static field: static public UnityEngine.ProBuilder.HandleOrientation ActiveElement
     static void _set_ActiveElement(UnityEngine::ProBuilder::HandleOrientation value);
-    // Creating value type constructor for type: HandleOrientation
-    HandleOrientation(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.HandleOrientation
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

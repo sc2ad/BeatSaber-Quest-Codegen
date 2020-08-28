@@ -48,6 +48,12 @@ namespace UnityEngine::Timeline {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: PostPlaybackState
+      constexpr PostPlaybackState(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public UnityEngine.Timeline.ActivationTrack/PostPlaybackState Active
       static constexpr const int Active = 0;
       // Get static field: static public UnityEngine.Timeline.ActivationTrack/PostPlaybackState Active
@@ -72,8 +78,6 @@ namespace UnityEngine::Timeline {
       static UnityEngine::Timeline::ActivationTrack::PostPlaybackState _get_LeaveAsIs();
       // Set static field: static public UnityEngine.Timeline.ActivationTrack/PostPlaybackState LeaveAsIs
       static void _set_LeaveAsIs(UnityEngine::Timeline::ActivationTrack::PostPlaybackState value);
-      // Creating value type constructor for type: PostPlaybackState
-      PostPlaybackState(int value_ = {}) : value{value_} {}
     }; // UnityEngine.Timeline.ActivationTrack/PostPlaybackState
     // private UnityEngine.Timeline.ActivationTrack/PostPlaybackState m_PostPlaybackState
     // Offset: 0xA0

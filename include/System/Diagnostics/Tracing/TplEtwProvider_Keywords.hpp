@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Diagnostics.Tracing.TplEtwProvider
 #include "System/Diagnostics/Tracing/TplEtwProvider.hpp"
+// Including type: System.Diagnostics.Tracing.EventKeywords
+#include "System/Diagnostics/Tracing/EventKeywords.hpp"
 // Completed includes
 // Type namespace: System.Diagnostics.Tracing
 namespace System::Diagnostics::Tracing {

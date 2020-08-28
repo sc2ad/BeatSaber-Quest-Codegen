@@ -28,6 +28,8 @@ namespace GlobalNamespace {
     // private System.Int32 _frameCounter
     // Offset: 0x28
     int frameCounter;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Int32 get_currentFPS()
     // Offset: 0xBEC710
     int get_currentFPS();

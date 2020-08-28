@@ -18,7 +18,11 @@ namespace Valve::VR {
     // Offset: 0x0
     Valve::VR::VRTextureDepthInfo_t depth;
     // Creating value type constructor for type: VRTextureWithDepth_t
-    VRTextureWithDepth_t(Valve::VR::VRTextureDepthInfo_t depth_ = {}) : depth{depth_} {}
+    constexpr VRTextureWithDepth_t(Valve::VR::VRTextureDepthInfo_t depth_ = {}) : depth{depth_} {}
+    // Creating conversion operator: operator Valve::VR::VRTextureDepthInfo_t
+    constexpr operator Valve::VR::VRTextureDepthInfo_t() const {
+      return depth;
+    }
   }; // Valve.VR.VRTextureWithDepth_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

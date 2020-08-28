@@ -16,6 +16,10 @@ namespace System::Reflection {
     // private System.String m_company
     // Offset: 0x10
     ::Il2CppString* m_company;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return m_company;
+    }
     // public System.Void .ctor(System.String company)
     // Offset: 0x1368908
     static AssemblyCompanyAttribute* New_ctor(::Il2CppString* company);

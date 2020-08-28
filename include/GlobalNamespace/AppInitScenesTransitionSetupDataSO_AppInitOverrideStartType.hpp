@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: AppInitOverrideStartType
+    constexpr AppInitOverrideStartType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType DoNotOverride
     static constexpr const int DoNotOverride = 0;
     // Get static field: static public AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType DoNotOverride
@@ -42,8 +48,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType _get_MultiSceneEditor();
     // Set static field: static public AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType MultiSceneEditor
     static void _set_MultiSceneEditor(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType value);
-    // Creating value type constructor for type: AppInitOverrideStartType
-    AppInitOverrideStartType(int value_ = {}) : value{value_} {}
   }; // AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

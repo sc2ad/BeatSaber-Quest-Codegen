@@ -52,6 +52,12 @@ namespace UnityEngine::UI {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: ToggleTransition
+      constexpr ToggleTransition(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public UnityEngine.UI.Toggle/ToggleTransition None
       static constexpr const int None = 0;
       // Get static field: static public UnityEngine.UI.Toggle/ToggleTransition None
@@ -64,8 +70,6 @@ namespace UnityEngine::UI {
       static UnityEngine::UI::Toggle::ToggleTransition _get_Fade();
       // Set static field: static public UnityEngine.UI.Toggle/ToggleTransition Fade
       static void _set_Fade(UnityEngine::UI::Toggle::ToggleTransition value);
-      // Creating value type constructor for type: ToggleTransition
-      ToggleTransition(int value_ = {}) : value{value_} {}
     }; // UnityEngine.UI.Toggle/ToggleTransition
     // public UnityEngine.UI.Toggle/ToggleTransition toggleTransition
     // Offset: 0xF0

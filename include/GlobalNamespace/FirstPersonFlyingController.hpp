@@ -68,6 +68,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Transform _cameraTransform
     // Offset: 0x60
     UnityEngine::Transform* cameraTransform;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xBEECF8
     void Start();

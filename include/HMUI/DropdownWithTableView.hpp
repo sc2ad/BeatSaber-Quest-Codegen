@@ -51,6 +51,8 @@ namespace HMUI {
     // private System.Boolean _shouldScrollToSelectedCell
     // Offset: 0x3C
     bool shouldScrollToSelectedCell;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`2<HMUI.DropdownWithTableView,System.Int32> value)
     // Offset: 0xEDA000
     void add_didSelectCellWithIdxEvent(System::Action_2<HMUI::DropdownWithTableView*, int>* value);

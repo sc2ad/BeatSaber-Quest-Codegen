@@ -16,6 +16,12 @@ namespace System::Reflection {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: AssemblyContentType
+    constexpr AssemblyContentType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Reflection.AssemblyContentType Default
     static constexpr const int Default = 0;
     // Get static field: static public System.Reflection.AssemblyContentType Default
@@ -28,8 +34,6 @@ namespace System::Reflection {
     static System::Reflection::AssemblyContentType _get_WindowsRuntime();
     // Set static field: static public System.Reflection.AssemblyContentType WindowsRuntime
     static void _set_WindowsRuntime(System::Reflection::AssemblyContentType value);
-    // Creating value type constructor for type: AssemblyContentType
-    AssemblyContentType(int value_ = {}) : value{value_} {}
   }; // System.Reflection.AssemblyContentType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -104,6 +104,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Material _fadeOutMaterial
     // Offset: 0x130
     UnityEngine::Material* fadeOutMaterial;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xC25C04
     void Start();

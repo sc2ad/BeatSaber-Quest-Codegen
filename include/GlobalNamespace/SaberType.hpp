@@ -16,6 +16,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SaberType
+    constexpr SaberType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public SaberType SaberA
     static constexpr const int SaberA = 0;
     // Get static field: static public SaberType SaberA
@@ -28,8 +34,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::SaberType _get_SaberB();
     // Set static field: static public SaberType SaberB
     static void _set_SaberB(GlobalNamespace::SaberType value);
-    // Creating value type constructor for type: SaberType
-    SaberType(int value_ = {}) : value{value_} {}
   }; // SaberType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

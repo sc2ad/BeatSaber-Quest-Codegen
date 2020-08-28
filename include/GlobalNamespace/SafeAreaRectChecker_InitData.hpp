@@ -16,6 +16,10 @@ namespace GlobalNamespace {
     // public readonly System.Boolean checkingEnabled
     // Offset: 0x10
     bool checkingEnabled;
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return checkingEnabled;
+    }
     // public System.Void .ctor(System.Boolean checkingEnabled)
     // Offset: 0xC2ABE4
     static SafeAreaRectChecker::InitData* New_ctor(bool checkingEnabled);

@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: LivestreamingAudience
+    constexpr LivestreamingAudience(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.LivestreamingAudience Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.LivestreamingAudience Unknown
@@ -40,8 +46,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::LivestreamingAudience _get_OnlyMe();
     // Set static field: static public Oculus.Platform.LivestreamingAudience OnlyMe
     static void _set_OnlyMe(Oculus::Platform::LivestreamingAudience value);
-    // Creating value type constructor for type: LivestreamingAudience
-    LivestreamingAudience(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.LivestreamingAudience
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

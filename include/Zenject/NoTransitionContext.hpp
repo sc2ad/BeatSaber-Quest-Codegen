@@ -31,6 +31,8 @@ namespace Zenject {
     // private Zenject.NoTransitionInstaller _noScenesTransitionInstaller
     // Offset: 0x18
     Zenject::NoTransitionInstaller* noScenesTransitionInstaller;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Action`1<Zenject.DiContainer> get_installMethod()
     // Offset: 0xFC4800
     System::Action_1<Zenject::DiContainer*>* get_installMethod();

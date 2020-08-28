@@ -42,6 +42,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: eHandler
+      constexpr eHandler(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public OVRPlatformMenu/eHandler ShowConfirmQuit
       static constexpr const int ShowConfirmQuit = 0;
       // Get static field: static public OVRPlatformMenu/eHandler ShowConfirmQuit
@@ -54,8 +60,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRPlatformMenu::eHandler _get_RetreatOneLevel();
       // Set static field: static public OVRPlatformMenu/eHandler RetreatOneLevel
       static void _set_RetreatOneLevel(GlobalNamespace::OVRPlatformMenu::eHandler value);
-      // Creating value type constructor for type: eHandler
-      eHandler(int value_ = {}) : value{value_} {}
     }; // OVRPlatformMenu/eHandler
     // private OVRInput/RawButton inputCode
     // Offset: 0x18
@@ -66,6 +70,8 @@ namespace GlobalNamespace {
     // public System.Func`1<System.Boolean> OnShortPress
     // Offset: 0x20
     System::Func_1<bool>* OnShortPress;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // Get static field: static private System.Collections.Generic.Stack`1<System.String> sceneStack
     static System::Collections::Generic::Stack_1<::Il2CppString*>* _get_sceneStack();
     // Set static field: static private System.Collections.Generic.Stack`1<System.String> sceneStack

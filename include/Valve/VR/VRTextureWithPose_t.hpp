@@ -18,7 +18,11 @@ namespace Valve::VR {
     // Offset: 0x0
     Valve::VR::HmdMatrix34_t mDeviceToAbsoluteTracking;
     // Creating value type constructor for type: VRTextureWithPose_t
-    VRTextureWithPose_t(Valve::VR::HmdMatrix34_t mDeviceToAbsoluteTracking_ = {}) : mDeviceToAbsoluteTracking{mDeviceToAbsoluteTracking_} {}
+    constexpr VRTextureWithPose_t(Valve::VR::HmdMatrix34_t mDeviceToAbsoluteTracking_ = {}) : mDeviceToAbsoluteTracking{mDeviceToAbsoluteTracking_} {}
+    // Creating conversion operator: operator Valve::VR::HmdMatrix34_t
+    constexpr operator Valve::VR::HmdMatrix34_t() const {
+      return mDeviceToAbsoluteTracking;
+    }
   }; // Valve.VR.VRTextureWithPose_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

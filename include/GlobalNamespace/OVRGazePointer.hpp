@@ -74,6 +74,8 @@ namespace GlobalNamespace {
     // private OVRProgressIndicator progressIndicator
     // Offset: 0x60
     GlobalNamespace::OVRProgressIndicator* progressIndicator;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // Get static field: static private OVRGazePointer _instance
     static GlobalNamespace::OVRGazePointer* _get__instance();
     // Set static field: static private OVRGazePointer _instance

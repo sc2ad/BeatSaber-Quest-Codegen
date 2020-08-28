@@ -58,7 +58,7 @@ namespace OnlineServices::API {
     // Offset: 0x50
     System::Runtime::CompilerServices::TaskAwaiter $$u__1;
     // Creating value type constructor for type: $SendWebRequestAsync$d__10
-    $SendWebRequestAsync$d__10(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppString*> $$t__builder_ = {}, ::Il2CppString* uri_ = {}, ::Il2CppString* method_ = {}, ::Il2CppString* bodyData_ = {}, OnlineServices::API::HTTPAdminLeaderboardsHelper* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, UnityEngine::Networking::UnityWebRequest* $webRequest$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, uri{uri_}, method{method_}, bodyData{bodyData_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, $webRequest$5__2{$webRequest$5__2_}, $$u__1{$$u__1_} {}
+    constexpr $SendWebRequestAsync$d__10(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppString*> $$t__builder_ = {}, ::Il2CppString* uri_ = {}, ::Il2CppString* method_ = {}, ::Il2CppString* bodyData_ = {}, OnlineServices::API::HTTPAdminLeaderboardsHelper* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, UnityEngine::Networking::UnityWebRequest* $webRequest$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, uri{uri_}, method{method_}, bodyData{bodyData_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, $webRequest$5__2{$webRequest$5__2_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
     // Offset: 0xA2C944
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine

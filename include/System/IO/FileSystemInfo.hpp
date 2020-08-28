@@ -50,6 +50,8 @@ namespace System::IO {
     // private System.String _displayPath
     // Offset: 0x58
     ::Il2CppString* displayPath;
+    // Deleting conversion operator: operator ::Il2CppObject*
+    constexpr operator ::Il2CppObject*() const = delete;
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1132450
     static FileSystemInfo* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);

@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: RenderTextureFormat
+    constexpr RenderTextureFormat(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.RenderTextureFormat ARGB32
     static constexpr const int ARGB32 = 0;
     // Get static field: static public UnityEngine.RenderTextureFormat ARGB32
@@ -184,8 +190,6 @@ namespace UnityEngine {
     static UnityEngine::RenderTextureFormat _get_R16();
     // Set static field: static public UnityEngine.RenderTextureFormat R16
     static void _set_R16(UnityEngine::RenderTextureFormat value);
-    // Creating value type constructor for type: RenderTextureFormat
-    RenderTextureFormat(int value_ = {}) : value{value_} {}
   }; // UnityEngine.RenderTextureFormat
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -45,6 +45,8 @@ namespace HMUI {
     // private System.Boolean _isHiding
     // Offset: 0x28
     bool isHiding;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static field const value: static private System.Single kShowHintDelay
     static constexpr const float kShowHintDelay = 0.6;
     // Get static field: static private System.Single kShowHintDelay

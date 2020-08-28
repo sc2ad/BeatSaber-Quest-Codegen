@@ -39,6 +39,10 @@ namespace NUnit::Framework::Internal {
     // public NUnit.Framework.Internal.TestCaseParameters parms
     // Offset: 0x78
     NUnit::Framework::Internal::TestCaseParameters* parms;
+    // Creating conversion operator: operator NUnit::Framework::Internal::TestCaseParameters*
+    constexpr operator NUnit::Framework::Internal::TestCaseParameters*() const {
+      return parms;
+    }
     // public System.Void .ctor(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test parentSuite)
     // Offset: 0x18F50AC
     static TestMethod* New_ctor(NUnit::Framework::Interfaces::IMethodInfo* method, NUnit::Framework::Internal::Test* parentSuite);

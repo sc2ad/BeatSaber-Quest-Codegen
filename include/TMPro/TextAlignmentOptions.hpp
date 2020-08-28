@@ -16,6 +16,12 @@ namespace TMPro {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TextAlignmentOptions
+    constexpr TextAlignmentOptions(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public TMPro.TextAlignmentOptions TopLeft
     static constexpr const int TopLeft = 257;
     // Get static field: static public TMPro.TextAlignmentOptions TopLeft
@@ -232,8 +238,6 @@ namespace TMPro {
     static TMPro::TextAlignmentOptions _get_CaplineGeoAligned();
     // Set static field: static public TMPro.TextAlignmentOptions CaplineGeoAligned
     static void _set_CaplineGeoAligned(TMPro::TextAlignmentOptions value);
-    // Creating value type constructor for type: TextAlignmentOptions
-    TextAlignmentOptions(int value_ = {}) : value{value_} {}
   }; // TMPro.TextAlignmentOptions
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

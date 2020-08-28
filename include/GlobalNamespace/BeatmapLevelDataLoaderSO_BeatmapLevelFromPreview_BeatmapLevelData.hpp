@@ -17,7 +17,8 @@ namespace GlobalNamespace {
   class BeatmapLevelDataSO;
   // Forward declaring type: BeatmapCharacteristicCollectionSO
   class BeatmapCharacteristicCollectionSO;
-  // Skipping declaration: IBeatmapLevel because it is already included!
+  // Forward declaring type: IBeatmapLevel
+  class IBeatmapLevel;
   // Forward declaring type: IDifficultyBeatmapSet
   class IDifficultyBeatmapSet;
 }

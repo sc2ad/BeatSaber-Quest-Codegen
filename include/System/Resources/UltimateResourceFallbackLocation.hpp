@@ -16,6 +16,12 @@ namespace System::Resources {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: UltimateResourceFallbackLocation
+    constexpr UltimateResourceFallbackLocation(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Resources.UltimateResourceFallbackLocation MainAssembly
     static constexpr const int MainAssembly = 0;
     // Get static field: static public System.Resources.UltimateResourceFallbackLocation MainAssembly
@@ -28,8 +34,6 @@ namespace System::Resources {
     static System::Resources::UltimateResourceFallbackLocation _get_Satellite();
     // Set static field: static public System.Resources.UltimateResourceFallbackLocation Satellite
     static void _set_Satellite(System::Resources::UltimateResourceFallbackLocation value);
-    // Creating value type constructor for type: UltimateResourceFallbackLocation
-    UltimateResourceFallbackLocation(int value_ = {}) : value{value_} {}
   }; // System.Resources.UltimateResourceFallbackLocation
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

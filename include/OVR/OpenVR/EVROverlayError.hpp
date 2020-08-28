@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVROverlayError
+    constexpr EVROverlayError(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.EVROverlayError None
     static constexpr const int None = 0;
     // Get static field: static public OVR.OpenVR.EVROverlayError None
@@ -160,8 +166,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVROverlayError _get_TextureNotLocked();
     // Set static field: static public OVR.OpenVR.EVROverlayError TextureNotLocked
     static void _set_TextureNotLocked(OVR::OpenVR::EVROverlayError value);
-    // Creating value type constructor for type: EVROverlayError
-    EVROverlayError(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EVROverlayError
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

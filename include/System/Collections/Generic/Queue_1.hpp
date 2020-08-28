@@ -56,7 +56,7 @@ namespace System::Collections::Generic {
       // Offset: 0x0
       T currentElement;
       // Creating value type constructor for type: Enumerator
-      Enumerator(System::Collections::Generic::Queue_1<T>* q_ = {}, int version_ = {}, int index_ = {}, T currentElement_ = {}) : q{q_}, version{version_}, index{index_}, currentElement{currentElement_} {}
+      constexpr Enumerator(System::Collections::Generic::Queue_1<T>* q_ = {}, int version_ = {}, int index_ = {}, T currentElement_ = {}) : q{q_}, version{version_}, index{index_}, currentElement{currentElement_} {}
       // System.Void .ctor(System.Collections.Generic.Queue`1<T> q)
       // Offset: 0xFFFFFFFF
       static typename Queue_1<T>::Enumerator* New_ctor(System::Collections::Generic::Queue_1<T>* q) {

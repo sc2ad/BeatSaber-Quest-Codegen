@@ -32,6 +32,10 @@ namespace System::Globalization {
     // System.Globalization.GregorianCalendarHelper helper
     // Offset: 0x20
     System::Globalization::GregorianCalendarHelper* helper;
+    // Creating conversion operator: operator System::Globalization::GregorianCalendarHelper*
+    constexpr operator System::Globalization::GregorianCalendarHelper*() const {
+      return helper;
+    }
     // Get static field: static System.Globalization.EraInfo[] taiwanEraInfo
     static ::Array<System::Globalization::EraInfo*>* _get_taiwanEraInfo();
     // Set static field: static System.Globalization.EraInfo[] taiwanEraInfo

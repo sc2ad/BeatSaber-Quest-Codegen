@@ -16,6 +16,10 @@ namespace UnityEngine {
     // private System.IntPtr m_Ptr
     // Offset: 0x10
     System::IntPtr m_Ptr;
+    // Creating conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const {
+      return m_Ptr;
+    }
     // static private UnityEngine.BootConfigData WrapBootConfigData(System.IntPtr nativeHandle)
     // Offset: 0x1306EAC
     static UnityEngine::BootConfigData* WrapBootConfigData(System::IntPtr nativeHandle);

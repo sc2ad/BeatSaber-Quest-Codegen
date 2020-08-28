@@ -26,6 +26,8 @@ namespace GlobalNamespace {
     // private System.String _stateName
     // Offset: 0x20
     ::Il2CppString* stateName;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xCBB628
     void Start();

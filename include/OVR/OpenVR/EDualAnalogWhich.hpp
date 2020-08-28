@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EDualAnalogWhich
+    constexpr EDualAnalogWhich(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.EDualAnalogWhich k_EDualAnalog_Left
     static constexpr const int k_EDualAnalog_Left = 0;
     // Get static field: static public OVR.OpenVR.EDualAnalogWhich k_EDualAnalog_Left
@@ -28,8 +34,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EDualAnalogWhich _get_k_EDualAnalog_Right();
     // Set static field: static public OVR.OpenVR.EDualAnalogWhich k_EDualAnalog_Right
     static void _set_k_EDualAnalog_Right(OVR::OpenVR::EDualAnalogWhich value);
-    // Creating value type constructor for type: EDualAnalogWhich
-    EDualAnalogWhich(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EDualAnalogWhich
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

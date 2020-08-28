@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // Offset: 0x14
     GlobalNamespace::OVRPlugin::Vector3f ClosestPointNormal;
     // Creating value type constructor for type: BoundaryTestResult
-    BoundaryTestResult(GlobalNamespace::OVRPlugin::Bool IsTriggering_ = {}, float ClosestDistance_ = {}, GlobalNamespace::OVRPlugin::Vector3f ClosestPoint_ = {}, GlobalNamespace::OVRPlugin::Vector3f ClosestPointNormal_ = {}) : IsTriggering{IsTriggering_}, ClosestDistance{ClosestDistance_}, ClosestPoint{ClosestPoint_}, ClosestPointNormal{ClosestPointNormal_} {}
+    constexpr BoundaryTestResult(GlobalNamespace::OVRPlugin::Bool IsTriggering_ = {}, float ClosestDistance_ = {}, GlobalNamespace::OVRPlugin::Vector3f ClosestPoint_ = {}, GlobalNamespace::OVRPlugin::Vector3f ClosestPointNormal_ = {}) : IsTriggering{IsTriggering_}, ClosestDistance{ClosestDistance_}, ClosestPoint{ClosestPoint_}, ClosestPointNormal{ClosestPointNormal_} {}
   }; // OVRPlugin/BoundaryTestResult
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

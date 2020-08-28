@@ -36,6 +36,8 @@ namespace GlobalNamespace {
     // private OculusDeeplinkManager _oculusDeeplinkManager
     // Offset: 0x18
     GlobalNamespace::OculusDeeplinkManager* oculusDeeplinkManager;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void Init()
     // Offset: 0xC38F14
     void Init();

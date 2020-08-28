@@ -16,6 +16,12 @@ namespace System::Globalization {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: GregorianCalendarTypes
+    constexpr GregorianCalendarTypes(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Globalization.GregorianCalendarTypes Localized
     static constexpr const int Localized = 1;
     // Get static field: static public System.Globalization.GregorianCalendarTypes Localized
@@ -52,8 +58,6 @@ namespace System::Globalization {
     static System::Globalization::GregorianCalendarTypes _get_TransliteratedFrench();
     // Set static field: static public System.Globalization.GregorianCalendarTypes TransliteratedFrench
     static void _set_TransliteratedFrench(System::Globalization::GregorianCalendarTypes value);
-    // Creating value type constructor for type: GregorianCalendarTypes
-    GregorianCalendarTypes(int value_ = {}) : value{value_} {}
   }; // System.Globalization.GregorianCalendarTypes
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

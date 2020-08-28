@@ -16,6 +16,12 @@ namespace UnityEngine::XR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: AvailableTrackingData
+    constexpr AvailableTrackingData(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.XR.AvailableTrackingData None
     static constexpr const int None = 0;
     // Get static field: static public UnityEngine.XR.AvailableTrackingData None
@@ -58,8 +64,6 @@ namespace UnityEngine::XR {
     static UnityEngine::XR::AvailableTrackingData _get_AngularAccelerationAvailable();
     // Set static field: static public UnityEngine.XR.AvailableTrackingData AngularAccelerationAvailable
     static void _set_AngularAccelerationAvailable(UnityEngine::XR::AvailableTrackingData value);
-    // Creating value type constructor for type: AvailableTrackingData
-    AvailableTrackingData(int value_ = {}) : value{value_} {}
   }; // UnityEngine.XR.AvailableTrackingData
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

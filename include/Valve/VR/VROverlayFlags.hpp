@@ -16,6 +16,12 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: VROverlayFlags
+    constexpr VROverlayFlags(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.VROverlayFlags None
     static constexpr const int None = 0;
     // Get static field: static public Valve.VR.VROverlayFlags None
@@ -112,8 +118,6 @@ namespace Valve::VR {
     static Valve::VR::VROverlayFlags _get_VisibleInDashboard();
     // Set static field: static public Valve.VR.VROverlayFlags VisibleInDashboard
     static void _set_VisibleInDashboard(Valve::VR::VROverlayFlags value);
-    // Creating value type constructor for type: VROverlayFlags
-    VROverlayFlags(int value_ = {}) : value{value_} {}
   }; // Valve.VR.VROverlayFlags
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -68,6 +68,12 @@ namespace UnityEngine::UI {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: Direction
+      constexpr Direction(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public UnityEngine.UI.Scrollbar/Direction LeftToRight
       static constexpr const int LeftToRight = 0;
       // Get static field: static public UnityEngine.UI.Scrollbar/Direction LeftToRight
@@ -92,8 +98,6 @@ namespace UnityEngine::UI {
       static UnityEngine::UI::Scrollbar::Direction _get_TopToBottom();
       // Set static field: static public UnityEngine.UI.Scrollbar/Direction TopToBottom
       static void _set_TopToBottom(UnityEngine::UI::Scrollbar::Direction value);
-      // Creating value type constructor for type: Direction
-      Direction(int value_ = {}) : value{value_} {}
     }; // UnityEngine.UI.Scrollbar/Direction
     // private UnityEngine.RectTransform m_HandleRect
     // Offset: 0xF0

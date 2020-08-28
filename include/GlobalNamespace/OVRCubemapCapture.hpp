@@ -43,6 +43,8 @@ namespace GlobalNamespace {
     // public System.Int32 cubemapSize
     // Offset: 0x30
     int cubemapSize;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private System.Void Update()
     // Offset: 0xCCCE98
     void Update();

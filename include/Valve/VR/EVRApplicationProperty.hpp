@@ -16,6 +16,12 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRApplicationProperty
+    constexpr EVRApplicationProperty(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.EVRApplicationProperty Name_String
     static constexpr const int Name_String = 0;
     // Get static field: static public Valve.VR.EVRApplicationProperty Name_String
@@ -118,8 +124,6 @@ namespace Valve::VR {
     static Valve::VR::EVRApplicationProperty _get_LastLaunchTime_Uint64();
     // Set static field: static public Valve.VR.EVRApplicationProperty LastLaunchTime_Uint64
     static void _set_LastLaunchTime_Uint64(Valve::VR::EVRApplicationProperty value);
-    // Creating value type constructor for type: EVRApplicationProperty
-    EVRApplicationProperty(int value_ = {}) : value{value_} {}
   }; // Valve.VR.EVRApplicationProperty
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

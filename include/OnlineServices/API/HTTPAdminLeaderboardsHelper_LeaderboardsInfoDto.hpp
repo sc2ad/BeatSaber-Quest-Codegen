@@ -16,6 +16,10 @@ namespace OnlineServices::API {
     // public System.Boolean exist
     // Offset: 0x10
     bool exist;
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return exist;
+    }
     // public System.Void .ctor()
     // Offset: 0xC3FCF8
     // Implemented from: System.Object

@@ -55,6 +55,8 @@ namespace GlobalNamespace {
     // private System.Single _startAnimationTime
     // Offset: 0x3C
     float startAnimationTime;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void add_didFinishEvent(System.Action`1<MissedNoteEffect> value)
     // Offset: 0xC03114
     void add_didFinishEvent(System::Action_1<GlobalNamespace::MissedNoteEffect*>* value);

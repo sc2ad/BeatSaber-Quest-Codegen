@@ -24,7 +24,7 @@ namespace UnityEngine::XR {
     // Offset: 0x8
     UnityEngine::XR::InputFeatureType m_InternalType;
     // Creating value type constructor for type: InputFeatureUsage
-    InputFeatureUsage(::Il2CppString* m_Name_ = {}, UnityEngine::XR::InputFeatureType m_InternalType_ = {}) : m_Name{m_Name_}, m_InternalType{m_InternalType_} {}
+    constexpr InputFeatureUsage(::Il2CppString* m_Name_ = {}, UnityEngine::XR::InputFeatureType m_InternalType_ = {}) : m_Name{m_Name_}, m_InternalType{m_InternalType_} {}
     // public System.String get_name()
     // Offset: 0xA5EF74
     ::Il2CppString* get_name();

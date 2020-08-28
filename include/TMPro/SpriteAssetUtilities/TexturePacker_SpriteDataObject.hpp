@@ -26,6 +26,10 @@ namespace TMPro::SpriteAssetUtilities {
     // public System.Collections.Generic.List`1<TMPro.SpriteAssetUtilities.TexturePacker/SpriteData> frames
     // Offset: 0x10
     System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>* frames;
+    // Creating conversion operator: operator System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>*
+    constexpr operator System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>*() const {
+      return frames;
+    }
     // public System.Void .ctor()
     // Offset: 0xB54F00
     // Implemented from: System.Object

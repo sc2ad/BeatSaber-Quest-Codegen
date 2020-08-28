@@ -48,6 +48,12 @@ namespace UnityEngine::EventSystems {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: InputButton
+      constexpr InputButton(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public UnityEngine.EventSystems.PointerEventData/InputButton Left
       static constexpr const int Left = 0;
       // Get static field: static public UnityEngine.EventSystems.PointerEventData/InputButton Left
@@ -66,8 +72,6 @@ namespace UnityEngine::EventSystems {
       static UnityEngine::EventSystems::PointerEventData::InputButton _get_Middle();
       // Set static field: static public UnityEngine.EventSystems.PointerEventData/InputButton Middle
       static void _set_Middle(UnityEngine::EventSystems::PointerEventData::InputButton value);
-      // Creating value type constructor for type: InputButton
-      InputButton(int value_ = {}) : value{value_} {}
     }; // UnityEngine.EventSystems.PointerEventData/InputButton
     // private UnityEngine.GameObject <pointerEnter>k__BackingField
     // Offset: 0x20

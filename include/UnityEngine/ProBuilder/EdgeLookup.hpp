@@ -49,7 +49,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x8
     UnityEngine::ProBuilder::Edge m_Common;
     // Creating value type constructor for type: EdgeLookup
-    EdgeLookup(UnityEngine::ProBuilder::Edge m_Local_ = {}, UnityEngine::ProBuilder::Edge m_Common_ = {}) : m_Local{m_Local_}, m_Common{m_Common_} {}
+    constexpr EdgeLookup(UnityEngine::ProBuilder::Edge m_Local_ = {}, UnityEngine::ProBuilder::Edge m_Common_ = {}) : m_Local{m_Local_}, m_Common{m_Common_} {}
     // public UnityEngine.ProBuilder.Edge get_local()
     // Offset: 0xA3CBE8
     UnityEngine::ProBuilder::Edge get_local();

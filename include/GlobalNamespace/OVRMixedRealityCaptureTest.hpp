@@ -32,6 +32,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: CameraMode
+      constexpr CameraMode(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public OVRMixedRealityCaptureTest/CameraMode Normal
       static constexpr const int Normal = 0;
       // Get static field: static public OVRMixedRealityCaptureTest/CameraMode Normal
@@ -50,8 +56,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRMixedRealityCaptureTest::CameraMode _get_ThirdPerson();
       // Set static field: static public OVRMixedRealityCaptureTest/CameraMode ThirdPerson
       static void _set_ThirdPerson(GlobalNamespace::OVRMixedRealityCaptureTest::CameraMode value);
-      // Creating value type constructor for type: CameraMode
-      CameraMode(int value_ = {}) : value{value_} {}
     }; // OVRMixedRealityCaptureTest/CameraMode
     // private System.Boolean inited
     // Offset: 0x18
@@ -65,6 +69,8 @@ namespace GlobalNamespace {
     // private OVRPlugin/Fovf defaultFov
     // Offset: 0x28
     GlobalNamespace::OVRPlugin::Fovf defaultFov;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private System.Void Start()
     // Offset: 0xEED33C
     void Start();

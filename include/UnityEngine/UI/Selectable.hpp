@@ -88,6 +88,12 @@ namespace UnityEngine::UI {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: Transition
+      constexpr Transition(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public UnityEngine.UI.Selectable/Transition None
       static constexpr const int None = 0;
       // Get static field: static public UnityEngine.UI.Selectable/Transition None
@@ -112,8 +118,6 @@ namespace UnityEngine::UI {
       static UnityEngine::UI::Selectable::Transition _get_Animation();
       // Set static field: static public UnityEngine.UI.Selectable/Transition Animation
       static void _set_Animation(UnityEngine::UI::Selectable::Transition value);
-      // Creating value type constructor for type: Transition
-      Transition(int value_ = {}) : value{value_} {}
     }; // UnityEngine.UI.Selectable/Transition
     // private UnityEngine.UI.Navigation m_Navigation
     // Offset: 0x18
@@ -154,6 +158,8 @@ namespace UnityEngine::UI {
     // private readonly System.Collections.Generic.List`1<UnityEngine.CanvasGroup> m_CanvasGroupCache
     // Offset: 0xE8
     System::Collections::Generic::List_1<UnityEngine::CanvasGroup*>* m_CanvasGroupCache;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // Get static field: static protected UnityEngine.UI.Selectable[] s_Selectables
     static ::Array<UnityEngine::UI::Selectable*>* _get_s_Selectables();
     // Set static field: static protected UnityEngine.UI.Selectable[] s_Selectables

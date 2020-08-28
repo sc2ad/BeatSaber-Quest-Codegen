@@ -65,6 +65,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Material _mainEffectMaterial
     // Offset: 0x58
     UnityEngine::Material* mainEffectMaterial;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // Get static field: static private readonly System.Int32 _bloomTexID
     static int _get__bloomTexID();
     // Set static field: static private readonly System.Int32 _bloomTexID

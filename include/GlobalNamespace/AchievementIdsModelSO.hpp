@@ -29,6 +29,8 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.List`1<AchievementSO> _achievementsIds
     // Offset: 0x18
     System::Collections::Generic::List_1<GlobalNamespace::AchievementSO*>* achievementsIds;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Collections.Generic.List`1<AchievementSO> get_achievementsIds()
     // Offset: 0xB82D30
     System::Collections::Generic::List_1<GlobalNamespace::AchievementSO*>* get_achievementsIds();

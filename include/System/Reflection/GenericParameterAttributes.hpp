@@ -16,6 +16,12 @@ namespace System::Reflection {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: GenericParameterAttributes
+    constexpr GenericParameterAttributes(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Reflection.GenericParameterAttributes None
     static constexpr const int None = 0;
     // Get static field: static public System.Reflection.GenericParameterAttributes None
@@ -64,8 +70,6 @@ namespace System::Reflection {
     static System::Reflection::GenericParameterAttributes _get_DefaultConstructorConstraint();
     // Set static field: static public System.Reflection.GenericParameterAttributes DefaultConstructorConstraint
     static void _set_DefaultConstructorConstraint(System::Reflection::GenericParameterAttributes value);
-    // Creating value type constructor for type: GenericParameterAttributes
-    GenericParameterAttributes(int value_ = {}) : value{value_} {}
   }; // System.Reflection.GenericParameterAttributes
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

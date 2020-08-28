@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ImagePosition
+    constexpr ImagePosition(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ImagePosition ImageLeft
     static constexpr const int ImageLeft = 0;
     // Get static field: static public UnityEngine.ImagePosition ImageLeft
@@ -40,8 +46,6 @@ namespace UnityEngine {
     static UnityEngine::ImagePosition _get_TextOnly();
     // Set static field: static public UnityEngine.ImagePosition TextOnly
     static void _set_TextOnly(UnityEngine::ImagePosition value);
-    // Creating value type constructor for type: ImagePosition
-    ImagePosition(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ImagePosition
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

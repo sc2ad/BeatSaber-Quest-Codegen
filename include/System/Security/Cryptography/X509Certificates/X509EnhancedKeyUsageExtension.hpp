@@ -29,6 +29,8 @@ namespace System::Security::Cryptography::X509Certificates {
     // private System.Security.Cryptography.AsnDecodeStatus _status
     // Offset: 0x30
     System::Security::Cryptography::AsnDecodeStatus status;
+    // Deleting conversion operator: operator bool
+    constexpr operator bool() const = delete;
     // public System.Void .ctor(System.Security.Cryptography.AsnEncodedData encodedEnhancedKeyUsages, System.Boolean critical)
     // Offset: 0x121B1DC
     static X509EnhancedKeyUsageExtension* New_ctor(System::Security::Cryptography::AsnEncodedData* encodedEnhancedKeyUsages, bool critical);

@@ -28,6 +28,8 @@ namespace GlobalNamespace {
     // private ShowTextOnGameEventController/EventTextBinding[] _eventTextBindings
     // Offset: 0x20
     ::Array<GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*>* eventTextBindings;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Awake()
     // Offset: 0xC2F690
     void Awake();

@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRTrackedCameraFrameLayout
+    constexpr EVRTrackedCameraFrameLayout(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.EVRTrackedCameraFrameLayout Mono
     static constexpr const int Mono = 1;
     // Get static field: static public OVR.OpenVR.EVRTrackedCameraFrameLayout Mono
@@ -40,8 +46,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRTrackedCameraFrameLayout _get_HorizontalLayout();
     // Set static field: static public OVR.OpenVR.EVRTrackedCameraFrameLayout HorizontalLayout
     static void _set_HorizontalLayout(OVR::OpenVR::EVRTrackedCameraFrameLayout value);
-    // Creating value type constructor for type: EVRTrackedCameraFrameLayout
-    EVRTrackedCameraFrameLayout(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EVRTrackedCameraFrameLayout
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

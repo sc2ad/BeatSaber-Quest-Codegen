@@ -48,6 +48,8 @@ namespace GlobalNamespace {
     // private System.Boolean _rotatingLasers
     // Offset: 0x38
     bool rotatingLasers;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Awake()
     // Offset: 0xBEC05C
     void Awake();

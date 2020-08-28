@@ -27,6 +27,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: Rating
+      constexpr Rating(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public BombExecutionRating/Rating OK
       static constexpr const int OK = 0;
       // Get static field: static public BombExecutionRating/Rating OK
@@ -39,12 +45,14 @@ namespace GlobalNamespace {
       static GlobalNamespace::BombExecutionRating::Rating _get_NotGood();
       // Set static field: static public BombExecutionRating/Rating NotGood
       static void _set_NotGood(GlobalNamespace::BombExecutionRating::Rating value);
-      // Creating value type constructor for type: Rating
-      Rating(int value_ = {}) : value{value_} {}
     }; // BombExecutionRating/Rating
     // private BombExecutionRating/Rating <rating>k__BackingField
     // Offset: 0x18
     GlobalNamespace::BombExecutionRating::Rating rating;
+    // Creating conversion operator: operator GlobalNamespace::BombExecutionRating::Rating
+    constexpr operator GlobalNamespace::BombExecutionRating::Rating() const {
+      return rating;
+    }
     // public BombExecutionRating/Rating get_rating()
     // Offset: 0xB7C5D4
     GlobalNamespace::BombExecutionRating::Rating get_rating();

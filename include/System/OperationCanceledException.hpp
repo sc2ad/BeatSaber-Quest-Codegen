@@ -27,6 +27,10 @@ namespace System {
     // private System.Threading.CancellationToken _cancellationToken
     // Offset: 0x88
     System::Threading::CancellationToken cancellationToken;
+    // Creating conversion operator: operator System::Threading::CancellationToken
+    constexpr operator System::Threading::CancellationToken() const {
+      return cancellationToken;
+    }
     // public System.Threading.CancellationToken get_CancellationToken()
     // Offset: 0x13638C4
     System::Threading::CancellationToken get_CancellationToken();

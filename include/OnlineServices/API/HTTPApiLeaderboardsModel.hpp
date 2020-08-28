@@ -59,6 +59,10 @@ namespace OnlineServices::API {
     // private OnlineServices.API.HTTPLeaderboardsOathHelper _httpLeaderboardsOathHelper
     // Offset: 0x10
     OnlineServices::API::HTTPLeaderboardsOathHelper* httpLeaderboardsOathHelper;
+    // Creating conversion operator: operator OnlineServices::API::HTTPLeaderboardsOathHelper*
+    constexpr operator OnlineServices::API::HTTPLeaderboardsOathHelper*() const {
+      return httpLeaderboardsOathHelper;
+    }
     // static field const value: static private System.String kSendLevelScoreResultPath
     static constexpr const char* kSendLevelScoreResultPath = "/api/v1/Leaderboard/Add";
     // Get static field: static private System.String kSendLevelScoreResultPath

@@ -31,6 +31,8 @@ namespace Zenject {
     // private UnityEngine.Animator _animator
     // Offset: 0x20
     UnityEngine::Animator* animator;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void Construct(Zenject.DiContainer container)
     // Offset: 0x1944740
     void Construct(Zenject::DiContainer* container);

@@ -16,6 +16,10 @@ namespace Il2CppDummyDll {
     // public System.String Offset
     // Offset: 0xFFFFFFFF
     ::Il2CppString* Offset;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return Offset;
+    }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Attribute

@@ -16,6 +16,12 @@ namespace System::Security::Principal {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: PrincipalPolicy
+    constexpr PrincipalPolicy(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Security.Principal.PrincipalPolicy UnauthenticatedPrincipal
     static constexpr const int UnauthenticatedPrincipal = 0;
     // Get static field: static public System.Security.Principal.PrincipalPolicy UnauthenticatedPrincipal
@@ -34,8 +40,6 @@ namespace System::Security::Principal {
     static System::Security::Principal::PrincipalPolicy _get_WindowsPrincipal();
     // Set static field: static public System.Security.Principal.PrincipalPolicy WindowsPrincipal
     static void _set_WindowsPrincipal(System::Security::Principal::PrincipalPolicy value);
-    // Creating value type constructor for type: PrincipalPolicy
-    PrincipalPolicy(int value_ = {}) : value{value_} {}
   }; // System.Security.Principal.PrincipalPolicy
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

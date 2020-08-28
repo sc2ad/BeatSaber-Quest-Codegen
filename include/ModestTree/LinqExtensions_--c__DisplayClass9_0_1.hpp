@@ -19,6 +19,10 @@ namespace ModestTree {
     // public T value
     // Offset: 0x0
     T value;
+    // Creating conversion operator: operator T
+    constexpr operator T() const {
+      return value;
+    }
     // System.Boolean <ContainsItem>b__0(T x)
     // Offset: 0xFFFFFFFF
     bool $ContainsItem$b__0(T x) {

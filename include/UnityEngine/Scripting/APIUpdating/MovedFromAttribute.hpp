@@ -18,6 +18,10 @@ namespace UnityEngine::Scripting::APIUpdating {
     // UnityEngine.Scripting.APIUpdating.MovedFromAttributeData data
     // Offset: 0x10
     UnityEngine::Scripting::APIUpdating::MovedFromAttributeData data;
+    // Creating conversion operator: operator UnityEngine::Scripting::APIUpdating::MovedFromAttributeData
+    constexpr operator UnityEngine::Scripting::APIUpdating::MovedFromAttributeData() const {
+      return data;
+    }
     // public System.Void .ctor(System.Boolean autoUpdateAPI, System.String sourceNamespace, System.String sourceAssembly, System.String sourceClassName)
     // Offset: 0x13917EC
     static MovedFromAttribute* New_ctor(bool autoUpdateAPI, ::Il2CppString* sourceNamespace, ::Il2CppString* sourceAssembly, ::Il2CppString* sourceClassName);

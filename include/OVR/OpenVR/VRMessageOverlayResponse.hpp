@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: VRMessageOverlayResponse
+    constexpr VRMessageOverlayResponse(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.VRMessageOverlayResponse ButtonPress_0
     static constexpr const int ButtonPress_0 = 0;
     // Get static field: static public OVR.OpenVR.VRMessageOverlayResponse ButtonPress_0
@@ -58,8 +64,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::VRMessageOverlayResponse _get_ApplicationQuit();
     // Set static field: static public OVR.OpenVR.VRMessageOverlayResponse ApplicationQuit
     static void _set_ApplicationQuit(OVR::OpenVR::VRMessageOverlayResponse value);
-    // Creating value type constructor for type: VRMessageOverlayResponse
-    VRMessageOverlayResponse(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.VRMessageOverlayResponse
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

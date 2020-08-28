@@ -23,6 +23,8 @@ namespace GlobalNamespace {
     // private TMPro.TextMeshProUGUI _text
     // Offset: 0x18
     TMPro::TextMeshProUGUI* text;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xB7B3F8
     void Start();

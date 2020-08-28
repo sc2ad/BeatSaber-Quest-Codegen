@@ -16,6 +16,10 @@ namespace System::Reflection {
     // private System.String m_keyFile
     // Offset: 0x10
     ::Il2CppString* m_keyFile;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return m_keyFile;
+    }
     // public System.Void .ctor(System.String keyFile)
     // Offset: 0x1368B14
     static AssemblyKeyFileAttribute* New_ctor(::Il2CppString* keyFile);

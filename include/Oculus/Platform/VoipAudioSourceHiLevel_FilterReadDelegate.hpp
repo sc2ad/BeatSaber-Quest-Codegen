@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.VoipAudioSourceHiLevel
 #include "Oculus/Platform/VoipAudioSourceHiLevel.hpp"
+// Including type: UnityEngine.MonoBehaviour
+#include "UnityEngine/MonoBehaviour.hpp"
 // Completed includes
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
@@ -19,6 +21,8 @@ namespace Oculus::Platform {
     // private System.Single[] scratchBuffer
     // Offset: 0x20
     ::Array<float>* scratchBuffer;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private System.Void Awake()
     // Offset: 0x196CB80
     void Awake();

@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: StereoTargetEyeMask
+    constexpr StereoTargetEyeMask(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.StereoTargetEyeMask None
     static constexpr const int None = 0;
     // Get static field: static public UnityEngine.StereoTargetEyeMask None
@@ -40,8 +46,6 @@ namespace UnityEngine {
     static UnityEngine::StereoTargetEyeMask _get_Both();
     // Set static field: static public UnityEngine.StereoTargetEyeMask Both
     static void _set_Both(UnityEngine::StereoTargetEyeMask value);
-    // Creating value type constructor for type: StereoTargetEyeMask
-    StereoTargetEyeMask(int value_ = {}) : value{value_} {}
   }; // UnityEngine.StereoTargetEyeMask
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

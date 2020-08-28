@@ -36,6 +36,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: MeshType
+      constexpr MeshType(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public OVRMesh/MeshType None
       static constexpr const int None = -1;
       // Get static field: static public OVRMesh/MeshType None
@@ -54,8 +60,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRMesh::MeshType _get_HandRight();
       // Set static field: static public OVRMesh/MeshType HandRight
       static void _set_HandRight(GlobalNamespace::OVRMesh::MeshType value);
-      // Creating value type constructor for type: MeshType
-      MeshType(int value_ = {}) : value{value_} {}
     }; // OVRMesh/MeshType
     // private OVRMesh/IOVRMeshDataProvider _dataProvider
     // Offset: 0x18
@@ -69,6 +73,8 @@ namespace GlobalNamespace {
     // private System.Boolean <IsInitialized>k__BackingField
     // Offset: 0x30
     bool IsInitialized;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Boolean get_IsInitialized()
     // Offset: 0xEEB15C
     bool get_IsInitialized();

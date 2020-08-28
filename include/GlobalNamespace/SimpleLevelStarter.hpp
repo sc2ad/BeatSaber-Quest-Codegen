@@ -90,6 +90,8 @@ namespace GlobalNamespace {
     // private HMUI.ButtonBinder _buttonBinder
     // Offset: 0x60
     HMUI::ButtonBinder* buttonBinder;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Awake()
     // Offset: 0xB988E0
     void Awake();

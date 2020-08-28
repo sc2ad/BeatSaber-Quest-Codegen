@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TestPlatformAdditionalContentModel
 #include "GlobalNamespace/TestPlatformAdditionalContentModel.hpp"
+// Including type: AdditionalContentModel/EntitlementStatus
+#include "GlobalNamespace/AdditionalContentModel.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

@@ -16,6 +16,10 @@ namespace System::Reflection {
     // private System.String _version
     // Offset: 0x10
     ::Il2CppString* version;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return version;
+    }
     // public System.Void .ctor(System.String version)
     // Offset: 0x1368A3C
     static AssemblyFileVersionAttribute* New_ctor(::Il2CppString* version);

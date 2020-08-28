@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: RoomJoinability
+    constexpr RoomJoinability(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.RoomJoinability Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.RoomJoinability Unknown
@@ -58,8 +64,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::RoomJoinability _get_PolicyPrevents();
     // Set static field: static public Oculus.Platform.RoomJoinability PolicyPrevents
     static void _set_PolicyPrevents(Oculus::Platform::RoomJoinability value);
-    // Creating value type constructor for type: RoomJoinability
-    RoomJoinability(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.RoomJoinability
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

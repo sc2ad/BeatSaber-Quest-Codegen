@@ -28,6 +28,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Material _stereoCopyMaterial
     // Offset: 0x20
     UnityEngine::Material* stereoCopyMaterial;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private System.Void Start()
     // Offset: 0xC3E150
     void Start();

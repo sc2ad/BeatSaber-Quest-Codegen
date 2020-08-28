@@ -34,6 +34,10 @@ namespace Zenject {
     // public Zenject.IPoolable poolable
     // Offset: 0x10
     Zenject::IPoolable* poolable;
+    // Creating conversion operator: operator Zenject::IPoolable*
+    constexpr operator Zenject::IPoolable*() const {
+      return poolable;
+    }
     // System.Boolean <CreatePoolableInfo>b__0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
     // Offset: 0xFC575C
     bool $CreatePoolableInfo$b__0(ModestTree::Util::ValuePair_2<System::Type*, int>* x);

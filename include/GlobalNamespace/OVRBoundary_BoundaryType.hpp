@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: BoundaryType
+    constexpr BoundaryType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRBoundary/BoundaryType OuterBoundary
     static constexpr const int OuterBoundary = 1;
     // Get static field: static public OVRBoundary/BoundaryType OuterBoundary
@@ -30,8 +36,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRBoundary::BoundaryType _get_PlayArea();
     // Set static field: static public OVRBoundary/BoundaryType PlayArea
     static void _set_PlayArea(GlobalNamespace::OVRBoundary::BoundaryType value);
-    // Creating value type constructor for type: BoundaryType
-    BoundaryType(int value_ = {}) : value{value_} {}
   }; // OVRBoundary/BoundaryType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ScoresScope
+    constexpr ScoresScope(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public PlatformLeaderboardsModel/ScoresScope Global
     static constexpr const int Global = 0;
     // Get static field: static public PlatformLeaderboardsModel/ScoresScope Global
@@ -36,8 +42,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::PlatformLeaderboardsModel::ScoresScope _get_Friends();
     // Set static field: static public PlatformLeaderboardsModel/ScoresScope Friends
     static void _set_Friends(GlobalNamespace::PlatformLeaderboardsModel::ScoresScope value);
-    // Creating value type constructor for type: ScoresScope
-    ScoresScope(int value_ = {}) : value{value_} {}
   }; // PlatformLeaderboardsModel/ScoresScope
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

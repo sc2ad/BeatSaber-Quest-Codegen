@@ -35,6 +35,10 @@ namespace System::Security::Cryptography {
     // private System.Collections.ArrayList m_list
     // Offset: 0x10
     System::Collections::ArrayList* m_list;
+    // Creating conversion operator: operator System::Collections::ArrayList*
+    constexpr operator System::Collections::ArrayList*() const {
+      return m_list;
+    }
     // public System.Int32 Add(System.Security.Cryptography.Oid oid)
     // Offset: 0x121C61C
     int Add(System::Security::Cryptography::Oid* oid);

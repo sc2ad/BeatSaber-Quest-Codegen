@@ -16,6 +16,12 @@ namespace System::Xml {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: XmlOutputMethod
+    constexpr XmlOutputMethod(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Xml.XmlOutputMethod Xml
     static constexpr const int Xml = 0;
     // Get static field: static public System.Xml.XmlOutputMethod Xml
@@ -40,8 +46,6 @@ namespace System::Xml {
     static System::Xml::XmlOutputMethod _get_AutoDetect();
     // Set static field: static public System.Xml.XmlOutputMethod AutoDetect
     static void _set_AutoDetect(System::Xml::XmlOutputMethod value);
-    // Creating value type constructor for type: XmlOutputMethod
-    XmlOutputMethod(int value_ = {}) : value{value_} {}
   }; // System.Xml.XmlOutputMethod
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

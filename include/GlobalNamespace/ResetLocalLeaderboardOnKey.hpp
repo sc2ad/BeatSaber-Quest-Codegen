@@ -28,6 +28,8 @@ namespace GlobalNamespace {
     // private UnityEngine.KeyCode _keyCode
     // Offset: 0x20
     UnityEngine::KeyCode keyCode;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private System.Void Update()
     // Offset: 0xC20EA8
     void Update();

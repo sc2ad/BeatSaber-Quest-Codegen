@@ -24,6 +24,10 @@ namespace UnityEngine {
     // private System.Func`1<System.Boolean> m_Predicate
     // Offset: 0x10
     System::Func_1<bool>* m_Predicate;
+    // Creating conversion operator: operator System::Func_1<bool>*
+    constexpr operator System::Func_1<bool>*() const {
+      return m_Predicate;
+    }
     // public System.Void .ctor(System.Func`1<System.Boolean> predicate)
     // Offset: 0x139F12C
     static WaitUntil* New_ctor(System::Func_1<bool>* predicate);

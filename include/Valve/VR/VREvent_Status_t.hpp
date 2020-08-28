@@ -16,7 +16,11 @@ namespace Valve::VR {
     // Offset: 0x0
     uint statusState;
     // Creating value type constructor for type: VREvent_Status_t
-    VREvent_Status_t(uint statusState_ = {}) : statusState{statusState_} {}
+    constexpr VREvent_Status_t(uint statusState_ = {}) : statusState{statusState_} {}
+    // Creating conversion operator: operator uint
+    constexpr operator uint() const {
+      return statusState;
+    }
   }; // Valve.VR.VREvent_Status_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

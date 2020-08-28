@@ -16,6 +16,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: NoteLineLayer
+    constexpr NoteLineLayer(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public NoteLineLayer Base
     static constexpr const int Base = 0;
     // Get static field: static public NoteLineLayer Base
@@ -34,8 +40,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::NoteLineLayer _get_Top();
     // Set static field: static public NoteLineLayer Top
     static void _set_Top(GlobalNamespace::NoteLineLayer value);
-    // Creating value type constructor for type: NoteLineLayer
-    NoteLineLayer(int value_ = {}) : value{value_} {}
   }; // NoteLineLayer
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

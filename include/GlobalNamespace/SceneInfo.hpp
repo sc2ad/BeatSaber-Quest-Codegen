@@ -19,6 +19,8 @@ namespace GlobalNamespace {
     // private System.Boolean _disabledRootObjects
     // Offset: 0x20
     bool disabledRootObjects;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.String get_sceneName()
     // Offset: 0xCBBBD4
     ::Il2CppString* get_sceneName();

@@ -30,6 +30,10 @@ namespace UnityEngine::Events {
     // private System.Object[] m_InvokeArray
     // Offset: 0x28
     ::Array<::Il2CppObject*>* m_InvokeArray;
+    // Creating conversion operator: operator ::Array<::Il2CppObject*>*
+    constexpr operator ::Array<::Il2CppObject*>*() const {
+      return m_InvokeArray;
+    }
     // public System.Void AddListener(UnityEngine.Events.UnityAction call)
     // Offset: 0x1310404
     void AddListener(UnityEngine::Events::UnityAction* call);

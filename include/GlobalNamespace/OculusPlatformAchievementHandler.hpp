@@ -31,6 +31,10 @@ namespace GlobalNamespace {
     // private readonly AchievementIdsModelSO _achievementIdsModel
     // Offset: 0x10
     GlobalNamespace::AchievementIdsModelSO* achievementIdsModel;
+    // Creating conversion operator: operator GlobalNamespace::AchievementIdsModelSO*
+    constexpr operator GlobalNamespace::AchievementIdsModelSO*() const {
+      return achievementIdsModel;
+    }
     // public System.Void .ctor(AchievementIdsModelSO achievementIdsModel)
     // Offset: 0xC397F4
     static OculusPlatformAchievementHandler* New_ctor(GlobalNamespace::AchievementIdsModelSO* achievementIdsModel);

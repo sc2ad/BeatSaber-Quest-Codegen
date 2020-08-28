@@ -18,6 +18,12 @@ namespace System::Threading {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: CaptureOptions
+    constexpr CaptureOptions(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Threading.ExecutionContext/CaptureOptions None
     static constexpr const int None = 0;
     // Get static field: static public System.Threading.ExecutionContext/CaptureOptions None
@@ -36,8 +42,6 @@ namespace System::Threading {
     static System::Threading::ExecutionContext::CaptureOptions _get_OptimizeDefaultCase();
     // Set static field: static public System.Threading.ExecutionContext/CaptureOptions OptimizeDefaultCase
     static void _set_OptimizeDefaultCase(System::Threading::ExecutionContext::CaptureOptions value);
-    // Creating value type constructor for type: CaptureOptions
-    CaptureOptions(int value_ = {}) : value{value_} {}
   }; // System.Threading.ExecutionContext/CaptureOptions
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

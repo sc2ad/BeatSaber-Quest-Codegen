@@ -31,6 +31,10 @@ namespace System::Diagnostics::Tracing {
     // private System.Diagnostics.Tracing.EventSource m_eventSource
     // Offset: 0x60
     System::Diagnostics::Tracing::EventSource* m_eventSource;
+    // Creating conversion operator: operator System::Diagnostics::Tracing::EventSource*
+    constexpr operator System::Diagnostics::Tracing::EventSource*() const {
+      return m_eventSource;
+    }
     // public System.Void .ctor(System.Diagnostics.Tracing.EventSource eventSource)
     // Offset: 0xD964A8
     static EventSource::OverideEventProvider* New_ctor(System::Diagnostics::Tracing::EventSource* eventSource);

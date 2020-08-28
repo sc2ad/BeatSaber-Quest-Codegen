@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Net.Sockets.Socket
 #include "System/Net/Sockets/Socket.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
@@ -22,7 +24,7 @@ namespace System::Net::Sockets {
     // Offset: 0x8
     System::IntPtr buf;
     // Creating value type constructor for type: WSABUF
-    WSABUF(int len_ = {}, System::IntPtr buf_ = {}) : len{len_}, buf{buf_} {}
+    constexpr WSABUF(int len_ = {}, System::IntPtr buf_ = {}) : len{len_}, buf{buf_} {}
   }; // System.Net.Sockets.Socket/WSABUF
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

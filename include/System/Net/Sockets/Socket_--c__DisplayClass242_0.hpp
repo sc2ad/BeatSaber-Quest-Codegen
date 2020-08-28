@@ -23,6 +23,10 @@ namespace System::Net::Sockets {
     // public System.Int32 sent_so_far
     // Offset: 0x10
     int sent_so_far;
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return sent_so_far;
+    }
     // System.Void <BeginSendCallback>b__0(System.IOAsyncResult s)
     // Offset: 0x1218B34
     void $BeginSendCallback$b__0(System::IOAsyncResult* s);

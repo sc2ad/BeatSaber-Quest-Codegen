@@ -31,6 +31,8 @@ namespace UnityEngine::Events {
     // private readonly T m_Arg1
     // Offset: 0x0
     T m_Arg1;
+    // Deleting conversion operator: operator UnityEngine::Events::UnityAction_1<T1>*
+    constexpr operator UnityEngine::Events::UnityAction_1<T1>*() const = delete;
     // public System.Void .ctor(UnityEngine.Object target, System.Reflection.MethodInfo theFunction, T argument)
     // Offset: 0xFFFFFFFF
     static CachedInvokableCall_1<T>* New_ctor(UnityEngine::Object* target, System::Reflection::MethodInfo* theFunction, T argument) {

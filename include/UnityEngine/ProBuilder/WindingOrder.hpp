@@ -16,6 +16,12 @@ namespace UnityEngine::ProBuilder {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: WindingOrder
+    constexpr WindingOrder(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ProBuilder.WindingOrder Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public UnityEngine.ProBuilder.WindingOrder Unknown
@@ -34,8 +40,6 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::WindingOrder _get_CounterClockwise();
     // Set static field: static public UnityEngine.ProBuilder.WindingOrder CounterClockwise
     static void _set_CounterClockwise(UnityEngine::ProBuilder::WindingOrder value);
-    // Creating value type constructor for type: WindingOrder
-    WindingOrder(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.WindingOrder
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

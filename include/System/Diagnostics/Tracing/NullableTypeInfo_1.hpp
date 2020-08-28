@@ -38,6 +38,10 @@ namespace System::Diagnostics::Tracing {
     // private readonly System.Diagnostics.Tracing.TraceLoggingTypeInfo`1<T> valueInfo
     // Offset: 0x0
     System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<T>* valueInfo;
+    // Creating conversion operator: operator System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<T>*
+    constexpr operator System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<T>*() const {
+      return valueInfo;
+    }
     // public System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, System.Nullable`1<T> value)
     // Offset: 0xFFFFFFFF
     void WriteData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, System::Nullable_1<T>& value) {

@@ -25,6 +25,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // public System.Int32 delCount
     // Offset: 0x10
     int delCount;
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return delCount;
+    }
     // UnityEngine.ProBuilder.Edge <AppendVerticesToEdge>b__0(UnityEngine.ProBuilder.EdgeLookup x)
     // Offset: 0xF054C0
     UnityEngine::ProBuilder::Edge $AppendVerticesToEdge$b__0(UnityEngine::ProBuilder::EdgeLookup x);

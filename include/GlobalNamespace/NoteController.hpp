@@ -90,6 +90,8 @@ namespace GlobalNamespace {
     // private System.Boolean _dissolving
     // Offset: 0x70
     bool dissolving;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void add_didInitEvent(System.Action`1<NoteController> value)
     // Offset: 0xC1461C
     void add_didInitEvent(System::Action_1<GlobalNamespace::NoteController*>* value);

@@ -27,6 +27,10 @@ namespace Zenject {
     // public System.Type type
     // Offset: 0x10
     System::Type* type;
+    // Creating conversion operator: operator System::Type*
+    constexpr operator System::Type*() const {
+      return type;
+    }
     // Zenject.InjectTypeInfo/InjectMemberInfo <CreateTypeInfoFromReflection>b__0(Zenject.Internal.ReflectionTypeInfo/InjectFieldInfo x)
     // Offset: 0x19432FC
     Zenject::InjectTypeInfo::InjectMemberInfo* $CreateTypeInfoFromReflection$b__0(Zenject::Internal::ReflectionTypeInfo::InjectFieldInfo* x);

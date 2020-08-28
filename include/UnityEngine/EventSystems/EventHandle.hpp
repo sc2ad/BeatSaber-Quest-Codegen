@@ -16,6 +16,12 @@ namespace UnityEngine::EventSystems {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EventHandle
+    constexpr EventHandle(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.EventSystems.EventHandle Unused
     static constexpr const int Unused = 0;
     // Get static field: static public UnityEngine.EventSystems.EventHandle Unused
@@ -28,8 +34,6 @@ namespace UnityEngine::EventSystems {
     static UnityEngine::EventSystems::EventHandle _get_Used();
     // Set static field: static public UnityEngine.EventSystems.EventHandle Used
     static void _set_Used(UnityEngine::EventSystems::EventHandle value);
-    // Creating value type constructor for type: EventHandle
-    EventHandle(int value_ = {}) : value{value_} {}
   }; // UnityEngine.EventSystems.EventHandle
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

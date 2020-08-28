@@ -16,6 +16,12 @@ namespace TMPro {
     // public System.Byte value__
     // Offset: 0x0
     uint8_t value;
+    // Creating value type constructor for type: TextElementType
+    constexpr TextElementType(uint8_t value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator uint8_t
+    constexpr operator uint8_t() const {
+      return value;
+    }
     // static field const value: static public TMPro.TextElementType Character
     static constexpr const uint8_t Character = 1u;
     // Get static field: static public TMPro.TextElementType Character
@@ -28,8 +34,6 @@ namespace TMPro {
     static TMPro::TextElementType _get_Sprite();
     // Set static field: static public TMPro.TextElementType Sprite
     static void _set_Sprite(TMPro::TextElementType value);
-    // Creating value type constructor for type: TextElementType
-    TextElementType(uint8_t value_ = {}) : value{value_} {}
   }; // TMPro.TextElementType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

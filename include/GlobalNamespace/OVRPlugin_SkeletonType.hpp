@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SkeletonType
+    constexpr SkeletonType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRPlugin/SkeletonType None
     static constexpr const int None = -1;
     // Get static field: static public OVRPlugin/SkeletonType None
@@ -36,8 +42,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::SkeletonType _get_HandRight();
     // Set static field: static public OVRPlugin/SkeletonType HandRight
     static void _set_HandRight(GlobalNamespace::OVRPlugin::SkeletonType value);
-    // Creating value type constructor for type: SkeletonType
-    SkeletonType(int value_ = {}) : value{value_} {}
   }; // OVRPlugin/SkeletonType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

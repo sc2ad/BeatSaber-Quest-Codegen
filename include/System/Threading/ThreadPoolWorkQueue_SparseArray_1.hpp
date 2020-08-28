@@ -19,6 +19,10 @@ namespace System::Threading {
     // private T[] m_array
     // Offset: 0x0
     ::Array<T>* m_array;
+    // Creating conversion operator: operator ::Array<T>*
+    constexpr operator ::Array<T>*() const {
+      return m_array;
+    }
     // System.Void .ctor(System.Int32 initialSize)
     // Offset: 0xFFFFFFFF
     static ThreadPoolWorkQueue::SparseArray_1<T>* New_ctor(int initialSize) {

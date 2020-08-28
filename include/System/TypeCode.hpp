@@ -16,6 +16,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TypeCode
+    constexpr TypeCode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.TypeCode Empty
     static constexpr const int Empty = 0;
     // Get static field: static public System.TypeCode Empty
@@ -124,8 +130,6 @@ namespace System {
     static System::TypeCode _get_String();
     // Set static field: static public System.TypeCode String
     static void _set_String(System::TypeCode value);
-    // Creating value type constructor for type: TypeCode
-    TypeCode(int value_ = {}) : value{value_} {}
   }; // System.TypeCode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

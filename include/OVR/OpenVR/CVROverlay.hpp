@@ -75,6 +75,10 @@ namespace OVR::OpenVR {
     // private OVR.OpenVR.IVROverlay FnTable
     // Offset: 0x10
     OVR::OpenVR::IVROverlay FnTable;
+    // Creating conversion operator: operator OVR::OpenVR::IVROverlay
+    constexpr operator OVR::OpenVR::IVROverlay() const {
+      return FnTable;
+    }
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0xECF674
     static CVROverlay* New_ctor(System::IntPtr pInterface);

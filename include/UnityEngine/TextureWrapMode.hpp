@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TextureWrapMode
+    constexpr TextureWrapMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.TextureWrapMode Repeat
     static constexpr const int Repeat = 0;
     // Get static field: static public UnityEngine.TextureWrapMode Repeat
@@ -40,8 +46,6 @@ namespace UnityEngine {
     static UnityEngine::TextureWrapMode _get_MirrorOnce();
     // Set static field: static public UnityEngine.TextureWrapMode MirrorOnce
     static void _set_MirrorOnce(UnityEngine::TextureWrapMode value);
-    // Creating value type constructor for type: TextureWrapMode
-    TextureWrapMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.TextureWrapMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

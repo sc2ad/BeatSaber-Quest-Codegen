@@ -29,6 +29,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // public System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> remove
     // Offset: 0x10
     System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* remove;
+    // Creating conversion operator: operator System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>*
+    constexpr operator System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>*() const {
+      return remove;
+    }
     // System.Boolean <MergePairs>b__0(UnityEngine.ProBuilder.Face x)
     // Offset: 0x101E960
     bool $MergePairs$b__0(UnityEngine::ProBuilder::Face* x);

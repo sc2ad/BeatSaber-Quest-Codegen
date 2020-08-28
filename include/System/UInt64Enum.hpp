@@ -17,7 +17,11 @@ namespace System {
     // Offset: 0x0
     uint64_t value;
     // Creating value type constructor for type: UInt64Enum
-    UInt64Enum(uint64_t value_ = {}) : value{value_} {}
+    constexpr UInt64Enum(uint64_t value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator uint64_t
+    constexpr operator uint64_t() const {
+      return value;
+    }
   }; // System.UInt64Enum
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

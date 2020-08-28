@@ -16,6 +16,12 @@ namespace System::IO {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: FileMode
+    constexpr FileMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.IO.FileMode CreateNew
     static constexpr const int CreateNew = 1;
     // Get static field: static public System.IO.FileMode CreateNew
@@ -52,8 +58,6 @@ namespace System::IO {
     static System::IO::FileMode _get_Append();
     // Set static field: static public System.IO.FileMode Append
     static void _set_Append(System::IO::FileMode value);
-    // Creating value type constructor for type: FileMode
-    FileMode(int value_ = {}) : value{value_} {}
   }; // System.IO.FileMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

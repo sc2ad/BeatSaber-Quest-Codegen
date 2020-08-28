@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.XR.InputTracking
 #include "UnityEngine/XR/InputTracking.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
@@ -16,6 +18,12 @@ namespace UnityEngine::XR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TrackingStateEventType
+    constexpr TrackingStateEventType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.XR.InputTracking/TrackingStateEventType NodeAdded
     static constexpr const int NodeAdded = 0;
     // Get static field: static public UnityEngine.XR.InputTracking/TrackingStateEventType NodeAdded
@@ -40,8 +48,6 @@ namespace UnityEngine::XR {
     static UnityEngine::XR::InputTracking::TrackingStateEventType _get_TrackingLost();
     // Set static field: static public UnityEngine.XR.InputTracking/TrackingStateEventType TrackingLost
     static void _set_TrackingLost(UnityEngine::XR::InputTracking::TrackingStateEventType value);
-    // Creating value type constructor for type: TrackingStateEventType
-    TrackingStateEventType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.XR.InputTracking/TrackingStateEventType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TypeNameKind
+    constexpr TypeNameKind(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.TypeNameKind Name
     static constexpr const int Name = 0;
     // Get static field: static public System.TypeNameKind Name
@@ -40,8 +46,6 @@ namespace System {
     static System::TypeNameKind _get_FullName();
     // Set static field: static public System.TypeNameKind FullName
     static void _set_FullName(System::TypeNameKind value);
-    // Creating value type constructor for type: TypeNameKind
-    TypeNameKind(int value_ = {}) : value{value_} {}
   }; // System.TypeNameKind
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

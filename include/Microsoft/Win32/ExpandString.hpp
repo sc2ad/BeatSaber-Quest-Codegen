@@ -14,6 +14,10 @@ namespace Microsoft::Win32 {
     // private System.String value
     // Offset: 0x10
     ::Il2CppString* value;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return value;
+    }
     // public System.Void .ctor(System.String s)
     // Offset: 0x10A88BC
     static ExpandString* New_ctor(::Il2CppString* s);

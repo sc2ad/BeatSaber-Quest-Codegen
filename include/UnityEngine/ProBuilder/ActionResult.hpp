@@ -27,6 +27,12 @@ namespace UnityEngine::ProBuilder {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: Status
+      constexpr Status(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public UnityEngine.ProBuilder.ActionResult/Status Success
       static constexpr const int Success = 0;
       // Get static field: static public UnityEngine.ProBuilder.ActionResult/Status Success
@@ -51,8 +57,6 @@ namespace UnityEngine::ProBuilder {
       static UnityEngine::ProBuilder::ActionResult::Status _get_NoChange();
       // Set static field: static public UnityEngine.ProBuilder.ActionResult/Status NoChange
       static void _set_NoChange(UnityEngine::ProBuilder::ActionResult::Status value);
-      // Creating value type constructor for type: Status
-      Status(int value_ = {}) : value{value_} {}
     }; // UnityEngine.ProBuilder.ActionResult/Status
     // private UnityEngine.ProBuilder.ActionResult/Status <status>k__BackingField
     // Offset: 0x10

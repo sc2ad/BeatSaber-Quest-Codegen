@@ -16,6 +16,12 @@ namespace UnityEngine::UI {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: CanvasUpdate
+    constexpr CanvasUpdate(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.UI.CanvasUpdate Prelayout
     static constexpr const int Prelayout = 0;
     // Get static field: static public UnityEngine.UI.CanvasUpdate Prelayout
@@ -52,8 +58,6 @@ namespace UnityEngine::UI {
     static UnityEngine::UI::CanvasUpdate _get_MaxUpdateValue();
     // Set static field: static public UnityEngine.UI.CanvasUpdate MaxUpdateValue
     static void _set_MaxUpdateValue(UnityEngine::UI::CanvasUpdate value);
-    // Creating value type constructor for type: CanvasUpdate
-    CanvasUpdate(int value_ = {}) : value{value_} {}
   }; // UnityEngine.UI.CanvasUpdate
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -37,6 +37,8 @@ namespace UnityEngine::UI {
     // protected System.Collections.Generic.List`1<UnityEngine.UI.Toggle> m_Toggles
     // Offset: 0x20
     System::Collections::Generic::List_1<UnityEngine::UI::Toggle*>* m_Toggles;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Boolean get_allowSwitchOff()
     // Offset: 0x19374F0
     bool get_allowSwitchOff();

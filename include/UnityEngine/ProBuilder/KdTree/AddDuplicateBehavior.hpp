@@ -16,6 +16,12 @@ namespace UnityEngine::ProBuilder::KdTree {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: AddDuplicateBehavior
+    constexpr AddDuplicateBehavior(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ProBuilder.KdTree.AddDuplicateBehavior Skip
     static constexpr const int Skip = 0;
     // Get static field: static public UnityEngine.ProBuilder.KdTree.AddDuplicateBehavior Skip
@@ -40,8 +46,6 @@ namespace UnityEngine::ProBuilder::KdTree {
     static UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior _get_Collect();
     // Set static field: static public UnityEngine.ProBuilder.KdTree.AddDuplicateBehavior Collect
     static void _set_Collect(UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior value);
-    // Creating value type constructor for type: AddDuplicateBehavior
-    AddDuplicateBehavior(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.KdTree.AddDuplicateBehavior
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

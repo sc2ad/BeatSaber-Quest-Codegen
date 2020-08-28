@@ -118,6 +118,10 @@ namespace System::Collections::Concurrent {
       // private System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<TKey,TValue>> _enumerator
       // Offset: 0x0
       System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* enumerator;
+      // Creating conversion operator: operator System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
+      constexpr operator System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() const {
+        return enumerator;
+      }
       // System.Void .ctor(System.Collections.Concurrent.ConcurrentDictionary`2<TKey,TValue> dictionary)
       // Offset: 0xFFFFFFFF
       static typename ConcurrentDictionary_2<TKey, TValue>::DictionaryEnumerator* New_ctor(System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>* dictionary) {

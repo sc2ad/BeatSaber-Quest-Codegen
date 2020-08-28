@@ -18,6 +18,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ParseFailureKind
+    constexpr ParseFailureKind(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Version/ParseFailureKind ArgumentNullException
     static constexpr const int ArgumentNullException = 0;
     // Get static field: static public System.Version/ParseFailureKind ArgumentNullException
@@ -42,8 +48,6 @@ namespace System {
     static System::Version::ParseFailureKind _get_FormatException();
     // Set static field: static public System.Version/ParseFailureKind FormatException
     static void _set_FormatException(System::Version::ParseFailureKind value);
-    // Creating value type constructor for type: ParseFailureKind
-    ParseFailureKind(int value_ = {}) : value{value_} {}
   }; // System.Version/ParseFailureKind
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

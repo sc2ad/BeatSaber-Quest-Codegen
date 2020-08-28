@@ -28,6 +28,10 @@ namespace UnityEngine::TestTools::TestRunner {
     // public UnityEngine.TestTools.Logging.LogMatch LogEvent
     // Offset: 0x88
     UnityEngine::TestTools::Logging::LogMatch* LogEvent;
+    // Creating conversion operator: operator UnityEngine::TestTools::Logging::LogMatch*
+    constexpr operator UnityEngine::TestTools::Logging::LogMatch*() const {
+      return LogEvent;
+    }
     // public System.Void .ctor(UnityEngine.TestTools.Logging.LogMatch log)
     // Offset: 0xE38818
     static UnexpectedLogMessageException* New_ctor(UnityEngine::TestTools::Logging::LogMatch* log);

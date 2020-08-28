@@ -16,6 +16,12 @@ namespace System::Runtime::Remoting::Messaging {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: CallType
+    constexpr CallType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Runtime.Remoting.Messaging.CallType Sync
     static constexpr const int Sync = 0;
     // Get static field: static public System.Runtime.Remoting.Messaging.CallType Sync
@@ -40,8 +46,6 @@ namespace System::Runtime::Remoting::Messaging {
     static System::Runtime::Remoting::Messaging::CallType _get_OneWay();
     // Set static field: static public System.Runtime.Remoting.Messaging.CallType OneWay
     static void _set_OneWay(System::Runtime::Remoting::Messaging::CallType value);
-    // Creating value type constructor for type: CallType
-    CallType(int value_ = {}) : value{value_} {}
   }; // System.Runtime.Remoting.Messaging.CallType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

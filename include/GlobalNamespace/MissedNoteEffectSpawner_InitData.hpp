@@ -16,6 +16,10 @@ namespace GlobalNamespace {
     // public readonly System.Boolean spawnMisses
     // Offset: 0x10
     bool spawnMisses;
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return spawnMisses;
+    }
     // public System.Void .ctor(System.Boolean spawnMisses)
     // Offset: 0xC03998
     static MissedNoteEffectSpawner::InitData* New_ctor(bool spawnMisses);

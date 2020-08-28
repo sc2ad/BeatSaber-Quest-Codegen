@@ -41,7 +41,7 @@ namespace OVR::OpenVR {
     // Offset: 0x28
     float fUpdateTime;
     // Creating value type constructor for type: InputAnalogActionData_t
-    InputAnalogActionData_t(bool bActive_ = {}, uint64_t activeOrigin_ = {}, float x_ = {}, float y_ = {}, float z_ = {}, float deltaX_ = {}, float deltaY_ = {}, float deltaZ_ = {}, float fUpdateTime_ = {}) : bActive{bActive_}, activeOrigin{activeOrigin_}, x{x_}, y{y_}, z{z_}, deltaX{deltaX_}, deltaY{deltaY_}, deltaZ{deltaZ_}, fUpdateTime{fUpdateTime_} {}
+    constexpr InputAnalogActionData_t(bool bActive_ = {}, uint64_t activeOrigin_ = {}, float x_ = {}, float y_ = {}, float z_ = {}, float deltaX_ = {}, float deltaY_ = {}, float deltaZ_ = {}, float fUpdateTime_ = {}) : bActive{bActive_}, activeOrigin{activeOrigin_}, x{x_}, y{y_}, z{z_}, deltaX{deltaX_}, deltaY{deltaY_}, deltaZ{deltaZ_}, fUpdateTime{fUpdateTime_} {}
   }; // OVR.OpenVR.InputAnalogActionData_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

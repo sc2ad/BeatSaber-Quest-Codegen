@@ -16,6 +16,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: UriKind
+    constexpr UriKind(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.UriKind RelativeOrAbsolute
     static constexpr const int RelativeOrAbsolute = 0;
     // Get static field: static public System.UriKind RelativeOrAbsolute
@@ -34,8 +40,6 @@ namespace System {
     static System::UriKind _get_Relative();
     // Set static field: static public System.UriKind Relative
     static void _set_Relative(System::UriKind value);
-    // Creating value type constructor for type: UriKind
-    UriKind(int value_ = {}) : value{value_} {}
   }; // System.UriKind
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,10 @@ namespace System::ComponentModel {
     // private System.String description
     // Offset: 0x10
     ::Il2CppString* description;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return description;
+    }
     // Get static field: static public readonly System.ComponentModel.DescriptionAttribute Default
     static System::ComponentModel::DescriptionAttribute* _get_Default();
     // Set static field: static public readonly System.ComponentModel.DescriptionAttribute Default

@@ -74,6 +74,8 @@ namespace UnityEngine::UI {
     // private System.Collections.Generic.List`1<UnityEngine.RectTransform> m_RectChildren
     // Offset: 0x50
     System::Collections::Generic::List_1<UnityEngine::RectTransform*>* m_RectChildren;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public UnityEngine.RectOffset get_padding()
     // Offset: 0x12002F0
     UnityEngine::RectOffset* get_padding();

@@ -41,6 +41,12 @@ namespace TMPro {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: ColorTweenMode
+      constexpr ColorTweenMode(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public TMPro.ColorTween/ColorTweenMode All
       static constexpr const int All = 0;
       // Get static field: static public TMPro.ColorTween/ColorTweenMode All
@@ -59,8 +65,6 @@ namespace TMPro {
       static TMPro::ColorTween::ColorTweenMode _get_Alpha();
       // Set static field: static public TMPro.ColorTween/ColorTweenMode Alpha
       static void _set_Alpha(TMPro::ColorTween::ColorTweenMode value);
-      // Creating value type constructor for type: ColorTweenMode
-      ColorTweenMode(int value_ = {}) : value{value_} {}
     }; // TMPro.ColorTween/ColorTweenMode
     // private TMPro.ColorTween/ColorTweenCallback m_Target
     // Offset: 0x0
@@ -81,7 +85,7 @@ namespace TMPro {
     // Offset: 0x30
     bool m_IgnoreTimeScale;
     // Creating value type constructor for type: ColorTween
-    ColorTween(TMPro::ColorTween::ColorTweenCallback* m_Target_ = {}, UnityEngine::Color m_StartColor_ = {}, UnityEngine::Color m_TargetColor_ = {}, TMPro::ColorTween::ColorTweenMode m_TweenMode_ = {}, float m_Duration_ = {}, bool m_IgnoreTimeScale_ = {}) : m_Target{m_Target_}, m_StartColor{m_StartColor_}, m_TargetColor{m_TargetColor_}, m_TweenMode{m_TweenMode_}, m_Duration{m_Duration_}, m_IgnoreTimeScale{m_IgnoreTimeScale_} {}
+    constexpr ColorTween(TMPro::ColorTween::ColorTweenCallback* m_Target_ = {}, UnityEngine::Color m_StartColor_ = {}, UnityEngine::Color m_TargetColor_ = {}, TMPro::ColorTween::ColorTweenMode m_TweenMode_ = {}, float m_Duration_ = {}, bool m_IgnoreTimeScale_ = {}) : m_Target{m_Target_}, m_StartColor{m_StartColor_}, m_TargetColor{m_TargetColor_}, m_TweenMode{m_TweenMode_}, m_Duration{m_Duration_}, m_IgnoreTimeScale{m_IgnoreTimeScale_} {}
     // public UnityEngine.Color get_startColor()
     // Offset: 0xA2B414
     UnityEngine::Color get_startColor();

@@ -92,6 +92,8 @@ namespace GlobalNamespace {
     // private MovementHistoryRecorder _handMovementHistoryRecorder
     // Offset: 0xA0
     GlobalNamespace::MovementHistoryRecorder* handMovementHistoryRecorder;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void add_totalDistanceDidChangeEvent(System.Action`1<System.Single> value)
     // Offset: 0xC24DB8
     void add_totalDistanceDidChangeEvent(System::Action_1<float>* value);

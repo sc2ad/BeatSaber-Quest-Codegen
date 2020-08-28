@@ -16,6 +16,12 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ECollisionBoundsStyle
+    constexpr ECollisionBoundsStyle(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.ECollisionBoundsStyle COLLISION_BOUNDS_STYLE_BEGINNER
     static constexpr const int COLLISION_BOUNDS_STYLE_BEGINNER = 0;
     // Get static field: static public Valve.VR.ECollisionBoundsStyle COLLISION_BOUNDS_STYLE_BEGINNER
@@ -52,8 +58,6 @@ namespace Valve::VR {
     static Valve::VR::ECollisionBoundsStyle _get_COLLISION_BOUNDS_STYLE_COUNT();
     // Set static field: static public Valve.VR.ECollisionBoundsStyle COLLISION_BOUNDS_STYLE_COUNT
     static void _set_COLLISION_BOUNDS_STYLE_COUNT(Valve::VR::ECollisionBoundsStyle value);
-    // Creating value type constructor for type: ECollisionBoundsStyle
-    ECollisionBoundsStyle(int value_ = {}) : value{value_} {}
   }; // Valve.VR.ECollisionBoundsStyle
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

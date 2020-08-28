@@ -171,6 +171,12 @@ namespace Oculus::Platform {
       // public System.UInt32 value__
       // Offset: 0x0
       uint value;
+      // Creating value type constructor for type: MessageType
+      constexpr MessageType(uint value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator uint
+      constexpr operator uint() const {
+        return value;
+      }
       // static field const value: static public Oculus.Platform.Message/MessageType Unknown
       static constexpr const uint Unknown = 0u;
       // Get static field: static public Oculus.Platform.Message/MessageType Unknown
@@ -1011,8 +1017,6 @@ namespace Oculus::Platform {
       static Oculus::Platform::Message::MessageType _get_Platform_InitializeWindowsAsynchronous();
       // Set static field: static public Oculus.Platform.Message/MessageType Platform_InitializeWindowsAsynchronous
       static void _set_Platform_InitializeWindowsAsynchronous(Oculus::Platform::Message::MessageType value);
-      // Creating value type constructor for type: MessageType
-      MessageType(uint value_ = {}) : value{value_} {}
     }; // Oculus.Platform.Message/MessageType
     // private Oculus.Platform.Message/MessageType type
     // Offset: 0x10

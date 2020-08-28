@@ -16,6 +16,12 @@ namespace System::Runtime::Remoting::Lifetime {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: LeaseState
+    constexpr LeaseState(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Runtime.Remoting.Lifetime.LeaseState Null
     static constexpr const int Null = 0;
     // Get static field: static public System.Runtime.Remoting.Lifetime.LeaseState Null
@@ -46,8 +52,6 @@ namespace System::Runtime::Remoting::Lifetime {
     static System::Runtime::Remoting::Lifetime::LeaseState _get_Expired();
     // Set static field: static public System.Runtime.Remoting.Lifetime.LeaseState Expired
     static void _set_Expired(System::Runtime::Remoting::Lifetime::LeaseState value);
-    // Creating value type constructor for type: LeaseState
-    LeaseState(int value_ = {}) : value{value_} {}
   }; // System.Runtime.Remoting.Lifetime.LeaseState
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

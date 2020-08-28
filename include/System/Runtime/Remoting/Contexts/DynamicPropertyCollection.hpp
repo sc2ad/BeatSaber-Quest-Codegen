@@ -33,6 +33,10 @@ namespace System::Runtime::Remoting::Contexts {
     // private System.Collections.ArrayList _properties
     // Offset: 0x10
     System::Collections::ArrayList* properties;
+    // Creating conversion operator: operator System::Collections::ArrayList*
+    constexpr operator System::Collections::ArrayList*() const {
+      return properties;
+    }
     // public System.Boolean get_HasProperties()
     // Offset: 0x105E718
     bool get_HasProperties();

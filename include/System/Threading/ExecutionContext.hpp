@@ -69,6 +69,12 @@ namespace System::Threading {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: Flags
+      constexpr Flags(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public System.Threading.ExecutionContext/Flags None
       static constexpr const int None = 0;
       // Get static field: static public System.Threading.ExecutionContext/Flags None
@@ -93,8 +99,6 @@ namespace System::Threading {
       static System::Threading::ExecutionContext::Flags _get_IsPreAllocatedDefault();
       // Set static field: static public System.Threading.ExecutionContext/Flags IsPreAllocatedDefault
       static void _set_IsPreAllocatedDefault(System::Threading::ExecutionContext::Flags value);
-      // Creating value type constructor for type: Flags
-      Flags(int value_ = {}) : value{value_} {}
     }; // System.Threading.ExecutionContext/Flags
     // private System.Threading.SynchronizationContext _syncContext
     // Offset: 0x10

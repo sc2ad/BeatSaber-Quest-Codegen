@@ -33,6 +33,12 @@ namespace HMUI {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: SelectionState
+      constexpr SelectionState(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public HMUI.NoTransitionsButton/SelectionState Normal
       static constexpr const int Normal = 0;
       // Get static field: static public HMUI.NoTransitionsButton/SelectionState Normal
@@ -57,8 +63,6 @@ namespace HMUI {
       static HMUI::NoTransitionsButton::SelectionState _get_Disabled();
       // Set static field: static public HMUI.NoTransitionsButton/SelectionState Disabled
       static void _set_Disabled(HMUI::NoTransitionsButton::SelectionState value);
-      // Creating value type constructor for type: SelectionState
-      SelectionState(int value_ = {}) : value{value_} {}
     }; // HMUI.NoTransitionsButton/SelectionState
     // private System.Action`1<HMUI.NoTransitionsButton/SelectionState> selectionStateDidChangeEvent
     // Offset: 0xF8

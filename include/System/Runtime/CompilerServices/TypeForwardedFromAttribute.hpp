@@ -16,6 +16,10 @@ namespace System::Runtime::CompilerServices {
     // private System.String assemblyFullName
     // Offset: 0x10
     ::Il2CppString* assemblyFullName;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return assemblyFullName;
+    }
     // public System.Void .ctor(System.String assemblyFullName)
     // Offset: 0x11672B8
     static TypeForwardedFromAttribute* New_ctor(::Il2CppString* assemblyFullName);

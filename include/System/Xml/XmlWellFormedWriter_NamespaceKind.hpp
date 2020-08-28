@@ -18,6 +18,12 @@ namespace System::Xml {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: NamespaceKind
+    constexpr NamespaceKind(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Xml.XmlWellFormedWriter/NamespaceKind Written
     static constexpr const int Written = 0;
     // Get static field: static public System.Xml.XmlWellFormedWriter/NamespaceKind Written
@@ -42,8 +48,6 @@ namespace System::Xml {
     static System::Xml::XmlWellFormedWriter::NamespaceKind _get_Special();
     // Set static field: static public System.Xml.XmlWellFormedWriter/NamespaceKind Special
     static void _set_Special(System::Xml::XmlWellFormedWriter::NamespaceKind value);
-    // Creating value type constructor for type: NamespaceKind
-    NamespaceKind(int value_ = {}) : value{value_} {}
   }; // System.Xml.XmlWellFormedWriter/NamespaceKind
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

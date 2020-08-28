@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: GameEnergyCounter
 #include "GlobalNamespace/GameEnergyCounter.hpp"
+// Including type: GameplayModifiers/EnergyType
+#include "GlobalNamespace/GameplayModifiers.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

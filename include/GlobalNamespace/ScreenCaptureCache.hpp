@@ -38,6 +38,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: ScreenshotType
+      constexpr ScreenshotType(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public ScreenCaptureCache/ScreenshotType Game
       static constexpr const int Game = 0;
       // Get static field: static public ScreenCaptureCache/ScreenshotType Game
@@ -56,12 +62,14 @@ namespace GlobalNamespace {
       static GlobalNamespace::ScreenCaptureCache::ScreenshotType _get_Other();
       // Set static field: static public ScreenCaptureCache/ScreenshotType Other
       static void _set_Other(GlobalNamespace::ScreenCaptureCache::ScreenshotType value);
-      // Creating value type constructor for type: ScreenshotType
-      ScreenshotType(int value_ = {}) : value{value_} {}
     }; // ScreenCaptureCache/ScreenshotType
     // private System.Collections.Generic.Dictionary`2<ScreenCaptureCache/ScreenshotType,UnityEngine.Texture2D> _cache
     // Offset: 0x10
     System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenCaptureCache::ScreenshotType, UnityEngine::Texture2D*>* cache;
+    // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenCaptureCache::ScreenshotType, UnityEngine::Texture2D*>*
+    constexpr operator System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenCaptureCache::ScreenshotType, UnityEngine::Texture2D*>*() const {
+      return cache;
+    }
     // public UnityEngine.Texture2D GetLastScreenshot(ScreenCaptureCache/ScreenshotType screenshotType)
     // Offset: 0x19155FC
     UnityEngine::Texture2D* GetLastScreenshot(GlobalNamespace::ScreenCaptureCache::ScreenshotType screenshotType);

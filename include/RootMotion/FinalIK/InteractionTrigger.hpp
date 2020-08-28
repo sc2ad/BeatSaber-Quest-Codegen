@@ -34,6 +34,8 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.InteractionTrigger/Range[] ranges
     // Offset: 0x18
     ::Array<RootMotion::FinalIK::InteractionTrigger::Range*>* ranges;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private System.Void OpenUserManual()
     // Offset: 0x1230948
     void OpenUserManual();

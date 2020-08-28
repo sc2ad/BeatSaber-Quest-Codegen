@@ -25,7 +25,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x10
     int pos;
     // Creating value type constructor for type: Sha1ForNonSecretPurposes
-    Sha1ForNonSecretPurposes(int64_t length_ = {}, ::Array<uint>* w_ = {}, int pos_ = {}) : length{length_}, w{w_}, pos{pos_} {}
+    constexpr Sha1ForNonSecretPurposes(int64_t length_ = {}, ::Array<uint>* w_ = {}, int pos_ = {}) : length{length_}, w{w_}, pos{pos_} {}
     // public System.Void Start()
     // Offset: 0xA30078
     void Start();

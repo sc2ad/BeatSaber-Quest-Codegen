@@ -16,6 +16,8 @@ namespace GlobalNamespace {
     // public System.Single _horizontalFOV
     // Offset: 0x18
     float horizontalFOV;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Awake()
     // Offset: 0xCB7954
     void Awake();

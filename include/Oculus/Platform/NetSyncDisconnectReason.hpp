@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: NetSyncDisconnectReason
+    constexpr NetSyncDisconnectReason(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.NetSyncDisconnectReason Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.NetSyncDisconnectReason Unknown
@@ -46,8 +52,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::NetSyncDisconnectReason _get_Lost();
     // Set static field: static public Oculus.Platform.NetSyncDisconnectReason Lost
     static void _set_Lost(Oculus::Platform::NetSyncDisconnectReason value);
-    // Creating value type constructor for type: NetSyncDisconnectReason
-    NetSyncDisconnectReason(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.NetSyncDisconnectReason
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

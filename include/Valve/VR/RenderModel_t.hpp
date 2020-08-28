@@ -30,7 +30,7 @@ namespace Valve::VR {
     // Offset: 0x1C
     int diffuseTextureId;
     // Creating value type constructor for type: RenderModel_t
-    RenderModel_t(System::IntPtr rVertexData_ = {}, uint unVertexCount_ = {}, System::IntPtr rIndexData_ = {}, uint unTriangleCount_ = {}, int diffuseTextureId_ = {}) : rVertexData{rVertexData_}, unVertexCount{unVertexCount_}, rIndexData{rIndexData_}, unTriangleCount{unTriangleCount_}, diffuseTextureId{diffuseTextureId_} {}
+    constexpr RenderModel_t(System::IntPtr rVertexData_ = {}, uint unVertexCount_ = {}, System::IntPtr rIndexData_ = {}, uint unTriangleCount_ = {}, int diffuseTextureId_ = {}) : rVertexData{rVertexData_}, unVertexCount{unVertexCount_}, rIndexData{rIndexData_}, unTriangleCount{unTriangleCount_}, diffuseTextureId{diffuseTextureId_} {}
   }; // Valve.VR.RenderModel_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

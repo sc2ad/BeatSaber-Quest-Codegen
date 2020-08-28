@@ -69,6 +69,12 @@ namespace UnityEngine::Timeline {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: LoopMode
+      constexpr LoopMode(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public UnityEngine.Timeline.AnimationPlayableAsset/LoopMode UseSourceAsset
       static constexpr const int UseSourceAsset = 0;
       // Get static field: static public UnityEngine.Timeline.AnimationPlayableAsset/LoopMode UseSourceAsset
@@ -87,8 +93,6 @@ namespace UnityEngine::Timeline {
       static UnityEngine::Timeline::AnimationPlayableAsset::LoopMode _get_Off();
       // Set static field: static public UnityEngine.Timeline.AnimationPlayableAsset/LoopMode Off
       static void _set_Off(UnityEngine::Timeline::AnimationPlayableAsset::LoopMode value);
-      // Creating value type constructor for type: LoopMode
-      LoopMode(int value_ = {}) : value{value_} {}
     }; // UnityEngine.Timeline.AnimationPlayableAsset/LoopMode
     // private UnityEngine.AnimationClip m_Clip
     // Offset: 0x18
@@ -123,6 +127,8 @@ namespace UnityEngine::Timeline {
     // private UnityEngine.Quaternion m_Rotation
     // Offset: 0x50
     UnityEngine::Quaternion m_Rotation;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // Get static field: static private readonly System.Int32 k_LatestVersion
     static int _get_k_LatestVersion();
     // Set static field: static private readonly System.Int32 k_LatestVersion

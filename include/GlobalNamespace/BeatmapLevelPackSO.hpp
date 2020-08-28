@@ -44,6 +44,8 @@ namespace GlobalNamespace {
     // private BeatmapLevelCollectionSO _beatmapLevelCollection
     // Offset: 0x38
     GlobalNamespace::BeatmapLevelCollectionSO* beatmapLevelCollection;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.String get_packID()
     // Offset: 0xB71D4C
     // Implemented from: IBeatmapLevelPack

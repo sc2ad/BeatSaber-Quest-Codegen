@@ -27,7 +27,7 @@ namespace TMPro {
     // Offset: 0x30
     UnityEngine::Color bottomRight;
     // Creating value type constructor for type: VertexGradient
-    VertexGradient(UnityEngine::Color topLeft_ = {}, UnityEngine::Color topRight_ = {}, UnityEngine::Color bottomLeft_ = {}, UnityEngine::Color bottomRight_ = {}) : topLeft{topLeft_}, topRight{topRight_}, bottomLeft{bottomLeft_}, bottomRight{bottomRight_} {}
+    constexpr VertexGradient(UnityEngine::Color topLeft_ = {}, UnityEngine::Color topRight_ = {}, UnityEngine::Color bottomLeft_ = {}, UnityEngine::Color bottomRight_ = {}) : topLeft{topLeft_}, topRight{topRight_}, bottomLeft{bottomLeft_}, bottomRight{bottomRight_} {}
     // public System.Void .ctor(UnityEngine.Color color)
     // Offset: 0xA4600C
     static VertexGradient* New_ctor(UnityEngine::Color color);

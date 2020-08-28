@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ThreadPriority
+    constexpr ThreadPriority(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ThreadPriority Low
     static constexpr const int Low = 0;
     // Get static field: static public UnityEngine.ThreadPriority Low
@@ -40,8 +46,6 @@ namespace UnityEngine {
     static UnityEngine::ThreadPriority _get_High();
     // Set static field: static public UnityEngine.ThreadPriority High
     static void _set_High(UnityEngine::ThreadPriority value);
-    // Creating value type constructor for type: ThreadPriority
-    ThreadPriority(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ThreadPriority
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

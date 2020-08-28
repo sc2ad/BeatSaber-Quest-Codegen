@@ -19,7 +19,11 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x0
     System::Runtime::Remoting::Messaging::LogicalCallContext* m_ctx;
     // Creating value type constructor for type: Reader
-    Reader(System::Runtime::Remoting::Messaging::LogicalCallContext* m_ctx_ = {}) : m_ctx{m_ctx_} {}
+    constexpr Reader(System::Runtime::Remoting::Messaging::LogicalCallContext* m_ctx_ = {}) : m_ctx{m_ctx_} {}
+    // Creating conversion operator: operator System::Runtime::Remoting::Messaging::LogicalCallContext*
+    constexpr operator System::Runtime::Remoting::Messaging::LogicalCallContext*() const {
+      return m_ctx;
+    }
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.LogicalCallContext ctx)
     // Offset: 0xA40348
     static LogicalCallContext::Reader* New_ctor(System::Runtime::Remoting::Messaging::LogicalCallContext* ctx);

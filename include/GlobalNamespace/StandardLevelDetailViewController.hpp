@@ -101,6 +101,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: ContentType
+      constexpr ContentType(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public StandardLevelDetailViewController/ContentType Loading
       static constexpr const int Loading = 0;
       // Get static field: static public StandardLevelDetailViewController/ContentType Loading
@@ -137,8 +143,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::StandardLevelDetailViewController::ContentType _get_Error();
       // Set static field: static public StandardLevelDetailViewController/ContentType Error
       static void _set_Error(GlobalNamespace::StandardLevelDetailViewController::ContentType value);
-      // Creating value type constructor for type: ContentType
-      ContentType(int value_ = {}) : value{value_} {}
     }; // StandardLevelDetailViewController/ContentType
     // private StandardLevelDetailView _standardLevelDetailView
     // Offset: 0x68

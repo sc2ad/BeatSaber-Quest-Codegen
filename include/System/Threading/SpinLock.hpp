@@ -22,12 +22,16 @@ namespace System::Threading {
     // private System.Int32 m_owner
     // Offset: 0x0
     int m_owner;
+    // Creating value type constructor for type: SpinLock
+    constexpr SpinLock(int m_owner_ = {}) : m_owner{m_owner_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return m_owner;
+    }
     // Get static field: static private System.Int32 MAXIMUM_WAITERS
     static int _get_MAXIMUM_WAITERS();
     // Set static field: static private System.Int32 MAXIMUM_WAITERS
     static void _set_MAXIMUM_WAITERS(int value);
-    // Creating value type constructor for type: SpinLock
-    SpinLock(int m_owner_ = {}) : m_owner{m_owner_} {}
     // public System.Void .ctor(System.Boolean enableThreadOwnerTracking)
     // Offset: 0xA2DCE4
     static SpinLock* New_ctor(bool enableThreadOwnerTracking);

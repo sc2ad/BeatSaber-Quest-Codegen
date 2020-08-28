@@ -33,6 +33,10 @@ namespace Zenject {
     // private readonly Zenject.IMemoryPool`2<TParam1,TValue> _pool
     // Offset: 0x0
     Zenject::IMemoryPool_2<TParam1, TValue>* pool;
+    // Creating conversion operator: operator Zenject::IMemoryPool_2<TParam1, TValue>*
+    constexpr operator Zenject::IMemoryPool_2<TParam1, TValue>*() const {
+      return pool;
+    }
     // public System.Void .ctor(Zenject.IMemoryPool`2<TParam1,TValue> pool)
     // Offset: 0xFFFFFFFF
     static PoolWrapperFactory_2<TParam1, TValue>* New_ctor(Zenject::IMemoryPool_2<TParam1, TValue>* pool) {

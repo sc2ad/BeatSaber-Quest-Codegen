@@ -16,6 +16,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Base64FormattingOptions
+    constexpr Base64FormattingOptions(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Base64FormattingOptions None
     static constexpr const int None = 0;
     // Get static field: static public System.Base64FormattingOptions None
@@ -28,8 +34,6 @@ namespace System {
     static System::Base64FormattingOptions _get_InsertLineBreaks();
     // Set static field: static public System.Base64FormattingOptions InsertLineBreaks
     static void _set_InsertLineBreaks(System::Base64FormattingOptions value);
-    // Creating value type constructor for type: Base64FormattingOptions
-    Base64FormattingOptions(int value_ = {}) : value{value_} {}
   }; // System.Base64FormattingOptions
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

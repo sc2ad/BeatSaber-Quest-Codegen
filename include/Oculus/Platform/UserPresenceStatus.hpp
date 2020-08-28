@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: UserPresenceStatus
+    constexpr UserPresenceStatus(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.UserPresenceStatus Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.UserPresenceStatus Unknown
@@ -34,8 +40,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::UserPresenceStatus _get_Offline();
     // Set static field: static public Oculus.Platform.UserPresenceStatus Offline
     static void _set_Offline(Oculus::Platform::UserPresenceStatus value);
-    // Creating value type constructor for type: UserPresenceStatus
-    UserPresenceStatus(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.UserPresenceStatus
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

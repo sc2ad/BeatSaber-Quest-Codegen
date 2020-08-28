@@ -53,6 +53,10 @@ namespace Valve::VR {
     // private Valve.VR.IVRCompositor FnTable
     // Offset: 0x10
     Valve::VR::IVRCompositor FnTable;
+    // Creating conversion operator: operator Valve::VR::IVRCompositor
+    constexpr operator Valve::VR::IVRCompositor() const {
+      return FnTable;
+    }
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0xFE530C
     static CVRCompositor* New_ctor(System::IntPtr pInterface);

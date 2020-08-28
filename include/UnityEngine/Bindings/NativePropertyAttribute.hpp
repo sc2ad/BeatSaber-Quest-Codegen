@@ -18,6 +18,10 @@ namespace UnityEngine::Bindings {
     // private UnityEngine.Bindings.TargetType <TargetType>k__BackingField
     // Offset: 0x1C
     UnityEngine::Bindings::TargetType TargetType;
+    // Creating conversion operator: operator UnityEngine::Bindings::TargetType
+    constexpr operator UnityEngine::Bindings::TargetType() const {
+      return TargetType;
+    }
     // public System.Void set_TargetType(UnityEngine.Bindings.TargetType value)
     // Offset: 0x1975080
     void set_TargetType(UnityEngine::Bindings::TargetType value);

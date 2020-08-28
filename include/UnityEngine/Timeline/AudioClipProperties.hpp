@@ -16,6 +16,10 @@ namespace UnityEngine::Timeline {
     // public System.Single volume
     // Offset: 0x10
     float volume;
+    // Creating conversion operator: operator float
+    constexpr operator float() const {
+      return volume;
+    }
     // public System.Void .ctor()
     // Offset: 0x10948E4
     // Implemented from: UnityEngine.Playables.PlayableBehaviour

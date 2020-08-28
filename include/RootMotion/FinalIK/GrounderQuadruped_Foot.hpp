@@ -7,6 +7,12 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.GrounderQuadruped
 #include "RootMotion/FinalIK/GrounderQuadruped.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
+// Including type: UnityEngine.Quaternion
+#include "UnityEngine/Quaternion.hpp"
+// Including type: RootMotion.FinalIK.Grounding
+#include "RootMotion/FinalIK/Grounding.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -38,7 +44,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x20
     RootMotion::FinalIK::Grounding::Leg* leg;
     // Creating value type constructor for type: Foot
-    Foot(RootMotion::FinalIK::IKSolver* solver_ = {}, UnityEngine::Transform* transform_ = {}, UnityEngine::Quaternion rotation_ = {}, RootMotion::FinalIK::Grounding::Leg* leg_ = {}) : solver{solver_}, transform{transform_}, rotation{rotation_}, leg{leg_} {}
+    constexpr Foot(RootMotion::FinalIK::IKSolver* solver_ = {}, UnityEngine::Transform* transform_ = {}, UnityEngine::Quaternion rotation_ = {}, RootMotion::FinalIK::Grounding::Leg* leg_ = {}) : solver{solver_}, transform{transform_}, rotation{rotation_}, leg{leg_} {}
     // public System.Void .ctor(RootMotion.FinalIK.IKSolver solver, UnityEngine.Transform transform)
     // Offset: 0xA46F40
     static GrounderQuadruped::Foot* New_ctor(RootMotion::FinalIK::IKSolver* solver, UnityEngine::Transform* transform);

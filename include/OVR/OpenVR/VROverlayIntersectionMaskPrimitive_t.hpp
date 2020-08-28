@@ -24,7 +24,7 @@ namespace OVR::OpenVR {
     // Offset: 0x4
     OVR::OpenVR::VROverlayIntersectionMaskPrimitive_Data_t m_Primitive;
     // Creating value type constructor for type: VROverlayIntersectionMaskPrimitive_t
-    VROverlayIntersectionMaskPrimitive_t(OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType m_nPrimitiveType_ = {}, OVR::OpenVR::VROverlayIntersectionMaskPrimitive_Data_t m_Primitive_ = {}) : m_nPrimitiveType{m_nPrimitiveType_}, m_Primitive{m_Primitive_} {}
+    constexpr VROverlayIntersectionMaskPrimitive_t(OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType m_nPrimitiveType_ = {}, OVR::OpenVR::VROverlayIntersectionMaskPrimitive_Data_t m_Primitive_ = {}) : m_nPrimitiveType{m_nPrimitiveType_}, m_Primitive{m_Primitive_} {}
   }; // OVR.OpenVR.VROverlayIntersectionMaskPrimitive_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

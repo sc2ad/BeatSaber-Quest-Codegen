@@ -40,6 +40,10 @@ namespace Zenject {
     // public System.Func`2<Zenject.InjectContext,UnityEngine.GameObject> gameObjectGetter
     // Offset: 0x10
     System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>* gameObjectGetter;
+    // Creating conversion operator: operator System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>*
+    constexpr operator System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>*() const {
+      return gameObjectGetter;
+    }
     // Zenject.IProvider <FromComponentsOn>b__0(Zenject.DiContainer container, System.Type type)
     // Offset: 0xF37110
     Zenject::IProvider* $FromComponentsOn$b__0(Zenject::DiContainer* container, System::Type* type);

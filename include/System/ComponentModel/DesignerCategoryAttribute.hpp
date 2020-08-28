@@ -16,6 +16,10 @@ namespace System::ComponentModel {
     // private System.String category
     // Offset: 0x10
     ::Il2CppString* category;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return category;
+    }
     // Get static field: static public readonly System.ComponentModel.DesignerCategoryAttribute Component
     static System::ComponentModel::DesignerCategoryAttribute* _get_Component();
     // Set static field: static public readonly System.ComponentModel.DesignerCategoryAttribute Component

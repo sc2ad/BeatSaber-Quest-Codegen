@@ -66,6 +66,8 @@ namespace GlobalNamespace {
     // private System.Boolean _isInitialized
     // Offset: 0x58
     bool isInitialized;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public MissionNode get_rootMissionNode()
     // Offset: 0xC0AF44
     GlobalNamespace::MissionNode* get_rootMissionNode();

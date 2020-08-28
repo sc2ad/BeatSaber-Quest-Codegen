@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SkeletonConstants
+    constexpr SkeletonConstants(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRPlugin/SkeletonConstants MaxBones
     static constexpr const int MaxBones = 24;
     // Get static field: static public OVRPlugin/SkeletonConstants MaxBones
@@ -30,8 +36,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::SkeletonConstants _get_MaxBoneCapsules();
     // Set static field: static public OVRPlugin/SkeletonConstants MaxBoneCapsules
     static void _set_MaxBoneCapsules(GlobalNamespace::OVRPlugin::SkeletonConstants value);
-    // Creating value type constructor for type: SkeletonConstants
-    SkeletonConstants(int value_ = {}) : value{value_} {}
   }; // OVRPlugin/SkeletonConstants
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,12 @@ namespace System::Globalization {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: NumberStyles
+    constexpr NumberStyles(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Globalization.NumberStyles None
     static constexpr const int None = 0;
     // Get static field: static public System.Globalization.NumberStyles None
@@ -118,8 +124,6 @@ namespace System::Globalization {
     static System::Globalization::NumberStyles _get_Any();
     // Set static field: static public System.Globalization.NumberStyles Any
     static void _set_Any(System::Globalization::NumberStyles value);
-    // Creating value type constructor for type: NumberStyles
-    NumberStyles(int value_ = {}) : value{value_} {}
   }; // System.Globalization.NumberStyles
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

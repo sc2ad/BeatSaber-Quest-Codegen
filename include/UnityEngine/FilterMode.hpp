@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: FilterMode
+    constexpr FilterMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.FilterMode Point
     static constexpr const int Point = 0;
     // Get static field: static public UnityEngine.FilterMode Point
@@ -34,8 +40,6 @@ namespace UnityEngine {
     static UnityEngine::FilterMode _get_Trilinear();
     // Set static field: static public UnityEngine.FilterMode Trilinear
     static void _set_Trilinear(UnityEngine::FilterMode value);
-    // Creating value type constructor for type: FilterMode
-    FilterMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.FilterMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

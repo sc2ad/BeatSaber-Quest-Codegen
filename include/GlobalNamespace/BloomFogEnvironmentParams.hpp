@@ -19,6 +19,8 @@ namespace GlobalNamespace {
     // public System.Single offset
     // Offset: 0x1C
     float offset;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void .ctor()
     // Offset: 0x1824C60
     // Implemented from: PersistentScriptableObject

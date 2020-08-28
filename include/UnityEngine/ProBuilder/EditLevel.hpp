@@ -16,6 +16,12 @@ namespace UnityEngine::ProBuilder {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EditLevel
+    constexpr EditLevel(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ProBuilder.EditLevel Top
     static constexpr const int Top = 0;
     // Get static field: static public UnityEngine.ProBuilder.EditLevel Top
@@ -40,8 +46,6 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::EditLevel _get_Plugin();
     // Set static field: static public UnityEngine.ProBuilder.EditLevel Plugin
     static void _set_Plugin(UnityEngine::ProBuilder::EditLevel value);
-    // Creating value type constructor for type: EditLevel
-    EditLevel(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.EditLevel
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

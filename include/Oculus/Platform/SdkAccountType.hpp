@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SdkAccountType
+    constexpr SdkAccountType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.SdkAccountType Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.SdkAccountType Unknown
@@ -34,8 +40,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::SdkAccountType _get_FacebookGameroom();
     // Set static field: static public Oculus.Platform.SdkAccountType FacebookGameroom
     static void _set_FacebookGameroom(Oculus::Platform::SdkAccountType value);
-    // Creating value type constructor for type: SdkAccountType
-    SdkAccountType(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.SdkAccountType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: AudioSpeakerMode
+    constexpr AudioSpeakerMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.AudioSpeakerMode Raw
     static constexpr const int Raw = 0;
     // Get static field: static public UnityEngine.AudioSpeakerMode Raw
@@ -64,8 +70,6 @@ namespace UnityEngine {
     static UnityEngine::AudioSpeakerMode _get_Prologic();
     // Set static field: static public UnityEngine.AudioSpeakerMode Prologic
     static void _set_Prologic(UnityEngine::AudioSpeakerMode value);
-    // Creating value type constructor for type: AudioSpeakerMode
-    AudioSpeakerMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.AudioSpeakerMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

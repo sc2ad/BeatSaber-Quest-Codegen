@@ -47,6 +47,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: Size
+      constexpr Size(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public SteamVR_PlayArea/Size Calibrated
       static constexpr const int Calibrated = 0;
       // Get static field: static public SteamVR_PlayArea/Size Calibrated
@@ -71,8 +77,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::SteamVR_PlayArea::Size _get__200x150();
       // Set static field: static public SteamVR_PlayArea/Size _200x150
       static void _set__200x150(GlobalNamespace::SteamVR_PlayArea::Size value);
-      // Creating value type constructor for type: Size
-      Size(int value_ = {}) : value{value_} {}
     }; // SteamVR_PlayArea/Size
     // public System.Single borderThickness
     // Offset: 0x18
@@ -95,6 +99,8 @@ namespace GlobalNamespace {
     // public UnityEngine.Vector3[] vertices
     // Offset: 0x38
     ::Array<UnityEngine::Vector3>* vertices;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static public System.Boolean GetBounds(SteamVR_PlayArea/Size size, Valve.VR.HmdQuad_t pRect)
     // Offset: 0xD8D79C
     static bool GetBounds(GlobalNamespace::SteamVR_PlayArea::Size size, Valve::VR::HmdQuad_t& pRect);

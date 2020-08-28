@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Offset: 0x38
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::GetAssetBundleFileResult> $$u__1;
     // Creating value type constructor for type: $GetDownloadAssetBundleFileAsync$d__16
-    $GetDownloadAssetBundleFileAsync$d__16(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::GetAssetBundleFileResult> $$t__builder_ = {}, GlobalNamespace::OculusBeatmapDataAssetFileModel* $$4__this_ = {}, Oculus::Platform::Models::AssetDetails* assetDetails_ = {}, ::Il2CppString* levelId_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::GetAssetBundleFileResult> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, assetDetails{assetDetails_}, levelId{levelId_}, $$u__1{$$u__1_} {}
+    constexpr $GetDownloadAssetBundleFileAsync$d__16(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::GetAssetBundleFileResult> $$t__builder_ = {}, GlobalNamespace::OculusBeatmapDataAssetFileModel* $$4__this_ = {}, Oculus::Platform::Models::AssetDetails* assetDetails_ = {}, ::Il2CppString* levelId_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::GetAssetBundleFileResult> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, assetDetails{assetDetails_}, levelId{levelId_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
     // Offset: 0xA2C860
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine

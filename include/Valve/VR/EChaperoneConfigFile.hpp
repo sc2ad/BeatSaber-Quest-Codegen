@@ -16,6 +16,12 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EChaperoneConfigFile
+    constexpr EChaperoneConfigFile(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.EChaperoneConfigFile Live
     static constexpr const int Live = 1;
     // Get static field: static public Valve.VR.EChaperoneConfigFile Live
@@ -28,8 +34,6 @@ namespace Valve::VR {
     static Valve::VR::EChaperoneConfigFile _get_Temp();
     // Set static field: static public Valve.VR.EChaperoneConfigFile Temp
     static void _set_Temp(Valve::VR::EChaperoneConfigFile value);
-    // Creating value type constructor for type: EChaperoneConfigFile
-    EChaperoneConfigFile(int value_ = {}) : value{value_} {}
   }; // Valve.VR.EChaperoneConfigFile
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

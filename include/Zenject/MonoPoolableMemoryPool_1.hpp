@@ -34,6 +34,10 @@ namespace Zenject {
     // private UnityEngine.Transform _originalParent
     // Offset: 0x0
     UnityEngine::Transform* originalParent;
+    // Creating conversion operator: operator UnityEngine::Transform*
+    constexpr operator UnityEngine::Transform*() const {
+      return originalParent;
+    }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPool`1

@@ -28,6 +28,10 @@ namespace Valve::VR {
     // private Valve.VR.IVRResources FnTable
     // Offset: 0x10
     Valve::VR::IVRResources FnTable;
+    // Creating conversion operator: operator Valve::VR::IVRResources
+    constexpr operator Valve::VR::IVRResources() const {
+      return FnTable;
+    }
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0xFE77EC
     static CVRResources* New_ctor(System::IntPtr pInterface);

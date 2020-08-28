@@ -16,6 +16,12 @@ namespace System::Runtime::InteropServices {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: VarEnum
+    constexpr VarEnum(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Runtime.InteropServices.VarEnum VT_EMPTY
     static constexpr const int VT_EMPTY = 0;
     // Get static field: static public System.Runtime.InteropServices.VarEnum VT_EMPTY
@@ -280,8 +286,6 @@ namespace System::Runtime::InteropServices {
     static System::Runtime::InteropServices::VarEnum _get_VT_BYREF();
     // Set static field: static public System.Runtime.InteropServices.VarEnum VT_BYREF
     static void _set_VT_BYREF(System::Runtime::InteropServices::VarEnum value);
-    // Creating value type constructor for type: VarEnum
-    VarEnum(int value_ = {}) : value{value_} {}
   }; // System.Runtime.InteropServices.VarEnum
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

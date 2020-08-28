@@ -16,6 +16,12 @@ namespace UnityEngine::ProBuilder {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: MeshArrays
+    constexpr MeshArrays(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ProBuilder.MeshArrays Position
     static constexpr const int Position = 1;
     // Get static field: static public UnityEngine.ProBuilder.MeshArrays Position
@@ -76,8 +82,6 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::MeshArrays _get_All();
     // Set static field: static public UnityEngine.ProBuilder.MeshArrays All
     static void _set_All(UnityEngine::ProBuilder::MeshArrays value);
-    // Creating value type constructor for type: MeshArrays
-    MeshArrays(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.MeshArrays
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

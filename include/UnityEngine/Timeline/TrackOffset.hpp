@@ -16,6 +16,12 @@ namespace UnityEngine::Timeline {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TrackOffset
+    constexpr TrackOffset(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Timeline.TrackOffset ApplyTransformOffsets
     static constexpr const int ApplyTransformOffsets = 0;
     // Get static field: static public UnityEngine.Timeline.TrackOffset ApplyTransformOffsets
@@ -34,8 +40,6 @@ namespace UnityEngine::Timeline {
     static UnityEngine::Timeline::TrackOffset _get_Auto();
     // Set static field: static public UnityEngine.Timeline.TrackOffset Auto
     static void _set_Auto(UnityEngine::Timeline::TrackOffset value);
-    // Creating value type constructor for type: TrackOffset
-    TrackOffset(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Timeline.TrackOffset
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

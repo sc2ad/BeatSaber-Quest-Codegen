@@ -32,6 +32,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Vector3 _startRotationAngles
     // Offset: 0x30
     UnityEngine::Vector3 startRotationAngles;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Awake()
     // Offset: 0xCBB96C
     void Awake();

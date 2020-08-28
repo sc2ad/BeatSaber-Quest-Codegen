@@ -16,6 +16,12 @@ namespace System::Threading {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: LazyThreadSafetyMode
+    constexpr LazyThreadSafetyMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Threading.LazyThreadSafetyMode None
     static constexpr const int None = 0;
     // Get static field: static public System.Threading.LazyThreadSafetyMode None
@@ -34,8 +40,6 @@ namespace System::Threading {
     static System::Threading::LazyThreadSafetyMode _get_ExecutionAndPublication();
     // Set static field: static public System.Threading.LazyThreadSafetyMode ExecutionAndPublication
     static void _set_ExecutionAndPublication(System::Threading::LazyThreadSafetyMode value);
-    // Creating value type constructor for type: LazyThreadSafetyMode
-    LazyThreadSafetyMode(int value_ = {}) : value{value_} {}
   }; // System.Threading.LazyThreadSafetyMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

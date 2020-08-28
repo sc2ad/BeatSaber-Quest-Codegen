@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.TextEditor
 #include "UnityEngine/TextEditor.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -16,6 +18,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: CharacterType
+    constexpr CharacterType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.TextEditor/CharacterType LetterLike
     static constexpr const int LetterLike = 0;
     // Get static field: static public UnityEngine.TextEditor/CharacterType LetterLike
@@ -40,8 +48,6 @@ namespace UnityEngine {
     static UnityEngine::TextEditor::CharacterType _get_WhiteSpace();
     // Set static field: static public UnityEngine.TextEditor/CharacterType WhiteSpace
     static void _set_WhiteSpace(UnityEngine::TextEditor::CharacterType value);
-    // Creating value type constructor for type: CharacterType
-    CharacterType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.TextEditor/CharacterType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

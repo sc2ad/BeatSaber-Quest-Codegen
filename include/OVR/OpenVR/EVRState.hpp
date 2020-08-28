@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRState
+    constexpr EVRState(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.EVRState Undefined
     static constexpr const int Undefined = -1;
     // Get static field: static public OVR.OpenVR.EVRState Undefined
@@ -70,8 +76,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRState _get_Ready_Alert_Low();
     // Set static field: static public OVR.OpenVR.EVRState Ready_Alert_Low
     static void _set_Ready_Alert_Low(OVR::OpenVR::EVRState value);
-    // Creating value type constructor for type: EVRState
-    EVRState(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EVRState
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

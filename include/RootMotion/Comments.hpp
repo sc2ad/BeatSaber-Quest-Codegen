@@ -16,6 +16,8 @@ namespace RootMotion {
     // public System.String text
     // Offset: 0x18
     ::Il2CppString* text;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void .ctor()
     // Offset: 0x13AA7AC
     // Implemented from: UnityEngine.MonoBehaviour

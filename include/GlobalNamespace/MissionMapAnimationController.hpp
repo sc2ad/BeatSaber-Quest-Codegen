@@ -73,6 +73,8 @@ namespace GlobalNamespace {
     // private MenuShockwave _shockwaveEffect
     // Offset: 0x40
     GlobalNamespace::MenuShockwave* shockwaveEffect;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Boolean get_animatedUpdateIsRequired()
     // Offset: 0xC0812C
     bool get_animatedUpdateIsRequired();

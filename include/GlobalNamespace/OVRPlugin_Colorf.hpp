@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     // Offset: 0xC
     float a;
     // Creating value type constructor for type: Colorf
-    Colorf(float r_ = {}, float g_ = {}, float b_ = {}, float a_ = {}) : r{r_}, g{g_}, b{b_}, a{a_} {}
+    constexpr Colorf(float r_ = {}, float g_ = {}, float b_ = {}, float a_ = {}) : r{r_}, g{g_}, b{b_}, a{a_} {}
   }; // OVRPlugin/Colorf
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

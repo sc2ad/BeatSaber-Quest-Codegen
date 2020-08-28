@@ -24,7 +24,7 @@ namespace TMPro {
     // Offset: 0xC
     UnityEngine::Vector3 Point2;
     // Creating value type constructor for type: LineSegment
-    LineSegment(UnityEngine::Vector3 Point1_ = {}, UnityEngine::Vector3 Point2_ = {}) : Point1{Point1_}, Point2{Point2_} {}
+    constexpr LineSegment(UnityEngine::Vector3 Point1_ = {}, UnityEngine::Vector3 Point2_ = {}) : Point1{Point1_}, Point2{Point2_} {}
     // public System.Void .ctor(UnityEngine.Vector3 p1, UnityEngine.Vector3 p2)
     // Offset: 0xA32680
     static TMP_TextUtilities::LineSegment* New_ctor(UnityEngine::Vector3 p1, UnityEngine::Vector3 p2);

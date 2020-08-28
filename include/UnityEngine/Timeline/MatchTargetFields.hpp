@@ -16,6 +16,12 @@ namespace UnityEngine::Timeline {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: MatchTargetFields
+    constexpr MatchTargetFields(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Timeline.MatchTargetFields PositionX
     static constexpr const int PositionX = 1;
     // Get static field: static public UnityEngine.Timeline.MatchTargetFields PositionX
@@ -52,8 +58,6 @@ namespace UnityEngine::Timeline {
     static UnityEngine::Timeline::MatchTargetFields _get_RotationZ();
     // Set static field: static public UnityEngine.Timeline.MatchTargetFields RotationZ
     static void _set_RotationZ(UnityEngine::Timeline::MatchTargetFields value);
-    // Creating value type constructor for type: MatchTargetFields
-    MatchTargetFields(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Timeline.MatchTargetFields
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

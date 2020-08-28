@@ -80,6 +80,8 @@ namespace GlobalNamespace {
     // private System.Single timeScale
     // Offset: 0x5C
     float timeScale;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // Get static field: static private Valve.VR.EVREye <eye>k__BackingField
     static Valve::VR::EVREye _get_$eye$k__BackingField();
     // Set static field: static private Valve.VR.EVREye <eye>k__BackingField

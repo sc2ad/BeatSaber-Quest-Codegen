@@ -57,6 +57,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: Mode
+      constexpr Mode(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public VRControllersRecorder/Mode Record
       static constexpr const int Record = 0;
       // Get static field: static public VRControllersRecorder/Mode Record
@@ -75,8 +81,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::VRControllersRecorder::Mode _get_Off();
       // Set static field: static public VRControllersRecorder/Mode Off
       static void _set_Off(GlobalNamespace::VRControllersRecorder::Mode value);
-      // Creating value type constructor for type: Mode
-      Mode(int value_ = {}) : value{value_} {}
     }; // VRControllersRecorder/Mode
     // private UnityEngine.TextAsset _recordingTextAsset
     // Offset: 0x18
@@ -141,6 +145,8 @@ namespace GlobalNamespace {
     // private System.Int32 _keyframeIndex
     // Offset: 0x98
     int keyframeIndex;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void set_mode(VRControllersRecorder/Mode value)
     // Offset: 0xC4F994
     void set_mode(GlobalNamespace::VRControllersRecorder::Mode value);

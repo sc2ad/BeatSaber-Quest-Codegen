@@ -16,6 +16,12 @@ namespace System::Runtime::InteropServices {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: CharSet
+    constexpr CharSet(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Runtime.InteropServices.CharSet None
     static constexpr const int None = 1;
     // Get static field: static public System.Runtime.InteropServices.CharSet None
@@ -40,8 +46,6 @@ namespace System::Runtime::InteropServices {
     static System::Runtime::InteropServices::CharSet _get_Auto();
     // Set static field: static public System.Runtime.InteropServices.CharSet Auto
     static void _set_Auto(System::Runtime::InteropServices::CharSet value);
-    // Creating value type constructor for type: CharSet
-    CharSet(int value_ = {}) : value{value_} {}
   }; // System.Runtime.InteropServices.CharSet
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

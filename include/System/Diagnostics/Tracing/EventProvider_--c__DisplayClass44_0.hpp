@@ -24,6 +24,10 @@ namespace System::Diagnostics::Tracing {
     // public System.Collections.Generic.List`1<System.Diagnostics.Tracing.EventProvider/SessionInfo> liveSessionList
     // Offset: 0x10
     System::Collections::Generic::List_1<System::Diagnostics::Tracing::EventProvider::SessionInfo>* liveSessionList;
+    // Creating conversion operator: operator System::Collections::Generic::List_1<System::Diagnostics::Tracing::EventProvider::SessionInfo>*
+    constexpr operator System::Collections::Generic::List_1<System::Diagnostics::Tracing::EventProvider::SessionInfo>*() const {
+      return liveSessionList;
+    }
     // System.Void <GetSessions>b__0(System.Int32 etwSessionId, System.Int64 matchAllKeywords)
     // Offset: 0xC9FDB8
     void $GetSessions$b__0(int etwSessionId, int64_t matchAllKeywords);

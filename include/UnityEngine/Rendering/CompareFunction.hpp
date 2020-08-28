@@ -16,6 +16,12 @@ namespace UnityEngine::Rendering {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: CompareFunction
+    constexpr CompareFunction(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Rendering.CompareFunction Disabled
     static constexpr const int Disabled = 0;
     // Get static field: static public UnityEngine.Rendering.CompareFunction Disabled
@@ -70,8 +76,6 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::CompareFunction _get_Always();
     // Set static field: static public UnityEngine.Rendering.CompareFunction Always
     static void _set_Always(UnityEngine::Rendering::CompareFunction value);
-    // Creating value type constructor for type: CompareFunction
-    CompareFunction(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Rendering.CompareFunction
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

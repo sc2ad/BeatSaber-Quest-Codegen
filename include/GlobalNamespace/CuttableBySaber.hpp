@@ -30,6 +30,8 @@ namespace GlobalNamespace {
     // private CuttableBySaber/WasCutBySaberDelegate wasCutBySaberEvent
     // Offset: 0x18
     GlobalNamespace::CuttableBySaber::WasCutBySaberDelegate* wasCutBySaberEvent;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void add_wasCutBySaberEvent(CuttableBySaber/WasCutBySaberDelegate value)
     // Offset: 0xBE4D88
     void add_wasCutBySaberEvent(GlobalNamespace::CuttableBySaber::WasCutBySaberDelegate* value);

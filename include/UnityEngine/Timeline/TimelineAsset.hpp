@@ -94,6 +94,12 @@ namespace UnityEngine::Timeline {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: DurationMode
+      constexpr DurationMode(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public UnityEngine.Timeline.TimelineAsset/DurationMode BasedOnClips
       static constexpr const int BasedOnClips = 0;
       // Get static field: static public UnityEngine.Timeline.TimelineAsset/DurationMode BasedOnClips
@@ -106,8 +112,6 @@ namespace UnityEngine::Timeline {
       static UnityEngine::Timeline::TimelineAsset::DurationMode _get_FixedLength();
       // Set static field: static public UnityEngine.Timeline.TimelineAsset/DurationMode FixedLength
       static void _set_FixedLength(UnityEngine::Timeline::TimelineAsset::DurationMode value);
-      // Creating value type constructor for type: DurationMode
-      DurationMode(int value_ = {}) : value{value_} {}
     }; // UnityEngine.Timeline.TimelineAsset/DurationMode
     // private System.Int32 m_Version
     // Offset: 0x18
@@ -136,6 +140,8 @@ namespace UnityEngine::Timeline {
     // private UnityEngine.Timeline.MarkerTrack m_MarkerTrack
     // Offset: 0x58
     UnityEngine::Timeline::MarkerTrack* m_MarkerTrack;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static field const value: static private System.Int32 k_LatestVersion
     static constexpr const int k_LatestVersion = 0;
     // Get static field: static private System.Int32 k_LatestVersion

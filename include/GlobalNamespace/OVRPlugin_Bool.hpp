@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Bool
+    constexpr Bool(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRPlugin/Bool False
     static constexpr const int False = 0;
     // Get static field: static public OVRPlugin/Bool False
@@ -30,8 +36,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::Bool _get_True();
     // Set static field: static public OVRPlugin/Bool True
     static void _set_True(GlobalNamespace::OVRPlugin::Bool value);
-    // Creating value type constructor for type: Bool
-    Bool(int value_ = {}) : value{value_} {}
   }; // OVRPlugin/Bool
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

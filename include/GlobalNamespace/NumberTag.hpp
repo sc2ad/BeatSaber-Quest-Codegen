@@ -16,6 +16,8 @@ namespace GlobalNamespace {
     // public System.Int32 number
     // Offset: 0x18
     int number;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void .ctor()
     // Offset: 0xCB8E04
     // Implemented from: UnityEngine.MonoBehaviour

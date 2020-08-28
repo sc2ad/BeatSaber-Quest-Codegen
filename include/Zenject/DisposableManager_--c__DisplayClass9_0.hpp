@@ -23,6 +23,10 @@ namespace Zenject {
     // public System.IDisposable disposable
     // Offset: 0x10
     System::IDisposable* disposable;
+    // Creating conversion operator: operator System::IDisposable*
+    constexpr operator System::IDisposable*() const {
+      return disposable;
+    }
     // System.Boolean <Remove>b__0(Zenject.DisposableManager/DisposableInfo x)
     // Offset: 0xF309F8
     bool $Remove$b__0(Zenject::DisposableManager::DisposableInfo x);

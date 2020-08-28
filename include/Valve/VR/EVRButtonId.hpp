@@ -16,6 +16,12 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRButtonId
+    constexpr EVRButtonId(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.EVRButtonId k_EButton_System
     static constexpr const int k_EButton_System = 0;
     // Get static field: static public Valve.VR.EVRButtonId k_EButton_System
@@ -124,8 +130,6 @@ namespace Valve::VR {
     static Valve::VR::EVRButtonId _get_k_EButton_Max();
     // Set static field: static public Valve.VR.EVRButtonId k_EButton_Max
     static void _set_k_EButton_Max(Valve::VR::EVRButtonId value);
-    // Creating value type constructor for type: EVRButtonId
-    EVRButtonId(int value_ = {}) : value{value_} {}
   }; // Valve.VR.EVRButtonId
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

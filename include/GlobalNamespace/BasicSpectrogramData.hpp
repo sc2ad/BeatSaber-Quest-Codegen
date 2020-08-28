@@ -46,6 +46,8 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.List`1<System.Single> _processedSamples
     // Offset: 0x30
     System::Collections::Generic::List_1<float>* processedSamples;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static field const value: static public System.Int32 kNumberOfSamples
     static constexpr const int kNumberOfSamples = 64;
     // Get static field: static public System.Int32 kNumberOfSamples

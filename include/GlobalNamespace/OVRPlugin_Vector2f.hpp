@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Offset: 0x4
     float y;
     // Creating value type constructor for type: Vector2f
-    Vector2f(float x_ = {}, float y_ = {}) : x{x_}, y{y_} {}
+    constexpr Vector2f(float x_ = {}, float y_ = {}) : x{x_}, y{y_} {}
   }; // OVRPlugin/Vector2f
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

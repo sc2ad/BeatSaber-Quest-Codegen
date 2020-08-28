@@ -28,6 +28,10 @@ namespace UnityEngine::TestTools::TestRunner {
     // private readonly NUnit.Framework.Internal.TestMethod m_TestMethod
     // Offset: 0x10
     NUnit::Framework::Internal::TestMethod* m_TestMethod;
+    // Creating conversion operator: operator NUnit::Framework::Internal::TestMethod*
+    constexpr operator NUnit::Framework::Internal::TestMethod*() const {
+      return m_TestMethod;
+    }
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod testMethod)
     // Offset: 0xE41904
     static TestEnumeratorWrapper* New_ctor(NUnit::Framework::Internal::TestMethod* testMethod);

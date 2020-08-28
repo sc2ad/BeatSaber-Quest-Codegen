@@ -16,6 +16,10 @@ namespace UnityEngine {
     // private System.String <id>k__BackingField
     // Offset: 0x10
     ::Il2CppString* id;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return id;
+    }
     // public System.String get_id()
     // Offset: 0x197DC98
     ::Il2CppString* get_id();

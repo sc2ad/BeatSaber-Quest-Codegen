@@ -104,6 +104,8 @@ namespace GlobalNamespace {
     // private System.Boolean showVRVars
     // Offset: 0xCC
     bool showVRVars;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private System.Void Awake()
     // Offset: 0xCCE864
     void Awake();

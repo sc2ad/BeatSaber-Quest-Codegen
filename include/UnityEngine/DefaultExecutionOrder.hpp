@@ -16,6 +16,10 @@ namespace UnityEngine {
     // private System.Int32 m_Order
     // Offset: 0x10
     int m_Order;
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return m_Order;
+    }
     // public System.Void .ctor(System.Int32 order)
     // Offset: 0x130E164
     static DefaultExecutionOrder* New_ctor(int order);

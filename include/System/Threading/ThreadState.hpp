@@ -16,6 +16,12 @@ namespace System::Threading {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ThreadState
+    constexpr ThreadState(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Threading.ThreadState Running
     static constexpr const int Running = 0;
     // Get static field: static public System.Threading.ThreadState Running
@@ -76,8 +82,6 @@ namespace System::Threading {
     static System::Threading::ThreadState _get_Aborted();
     // Set static field: static public System.Threading.ThreadState Aborted
     static void _set_Aborted(System::Threading::ThreadState value);
-    // Creating value type constructor for type: ThreadState
-    ThreadState(int value_ = {}) : value{value_} {}
   }; // System.Threading.ThreadState
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

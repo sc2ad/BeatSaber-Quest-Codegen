@@ -23,6 +23,10 @@ namespace System::Runtime::Remoting {
     // private System.Type obj_type
     // Offset: 0x20
     System::Type* obj_type;
+    // Creating conversion operator: operator System::Type*
+    constexpr operator System::Type*() const {
+      return obj_type;
+    }
     // public System.Void .ctor(System.String typeName, System.String assemblyName)
     // Offset: 0x1052448
     static ActivatedServiceTypeEntry* New_ctor(::Il2CppString* typeName, ::Il2CppString* assemblyName);

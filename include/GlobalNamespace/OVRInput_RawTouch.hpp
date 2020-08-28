@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: RawTouch
+    constexpr RawTouch(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRInput/RawTouch None
     static constexpr const int None = 0;
     // Get static field: static public OVRInput/RawTouch None
@@ -102,8 +108,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRInput::RawTouch _get_Any();
     // Set static field: static public OVRInput/RawTouch Any
     static void _set_Any(GlobalNamespace::OVRInput::RawTouch value);
-    // Creating value type constructor for type: RawTouch
-    RawTouch(int value_ = {}) : value{value_} {}
   }; // OVRInput/RawTouch
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

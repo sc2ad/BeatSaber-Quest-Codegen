@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.RuntimeType
 #include "System/RuntimeType.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {
@@ -16,6 +18,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: MemberListType
+    constexpr MemberListType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.RuntimeType/MemberListType All
     static constexpr const int All = 0;
     // Get static field: static public System.RuntimeType/MemberListType All
@@ -40,8 +48,6 @@ namespace System {
     static System::RuntimeType::MemberListType _get_HandleToInfo();
     // Set static field: static public System.RuntimeType/MemberListType HandleToInfo
     static void _set_HandleToInfo(System::RuntimeType::MemberListType value);
-    // Creating value type constructor for type: MemberListType
-    MemberListType(int value_ = {}) : value{value_} {}
   }; // System.RuntimeType/MemberListType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

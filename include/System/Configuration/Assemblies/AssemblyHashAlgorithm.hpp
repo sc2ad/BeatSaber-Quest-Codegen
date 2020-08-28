@@ -16,6 +16,12 @@ namespace System::Configuration::Assemblies {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: AssemblyHashAlgorithm
+    constexpr AssemblyHashAlgorithm(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Configuration.Assemblies.AssemblyHashAlgorithm None
     static constexpr const int None = 0;
     // Get static field: static public System.Configuration.Assemblies.AssemblyHashAlgorithm None
@@ -52,8 +58,6 @@ namespace System::Configuration::Assemblies {
     static System::Configuration::Assemblies::AssemblyHashAlgorithm _get_SHA512();
     // Set static field: static public System.Configuration.Assemblies.AssemblyHashAlgorithm SHA512
     static void _set_SHA512(System::Configuration::Assemblies::AssemblyHashAlgorithm value);
-    // Creating value type constructor for type: AssemblyHashAlgorithm
-    AssemblyHashAlgorithm(int value_ = {}) : value{value_} {}
   }; // System.Configuration.Assemblies.AssemblyHashAlgorithm
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

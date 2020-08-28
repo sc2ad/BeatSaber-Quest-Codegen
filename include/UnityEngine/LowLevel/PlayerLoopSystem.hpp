@@ -46,7 +46,7 @@ namespace UnityEngine::LowLevel {
     // Offset: 0x20
     System::IntPtr loopConditionFunction;
     // Creating value type constructor for type: PlayerLoopSystem
-    PlayerLoopSystem(System::Type* type_ = {}, ::Array<UnityEngine::LowLevel::PlayerLoopSystem>* subSystemList_ = {}, UnityEngine::LowLevel::PlayerLoopSystem::UpdateFunction* updateDelegate_ = {}, System::IntPtr updateFunction_ = {}, System::IntPtr loopConditionFunction_ = {}) : type{type_}, subSystemList{subSystemList_}, updateDelegate{updateDelegate_}, updateFunction{updateFunction_}, loopConditionFunction{loopConditionFunction_} {}
+    constexpr PlayerLoopSystem(System::Type* type_ = {}, ::Array<UnityEngine::LowLevel::PlayerLoopSystem>* subSystemList_ = {}, UnityEngine::LowLevel::PlayerLoopSystem::UpdateFunction* updateDelegate_ = {}, System::IntPtr updateFunction_ = {}, System::IntPtr loopConditionFunction_ = {}) : type{type_}, subSystemList{subSystemList_}, updateDelegate{updateDelegate_}, updateFunction{updateFunction_}, loopConditionFunction{loopConditionFunction_} {}
   }; // UnityEngine.LowLevel.PlayerLoopSystem
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

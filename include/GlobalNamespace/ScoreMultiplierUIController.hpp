@@ -56,6 +56,8 @@ namespace GlobalNamespace {
     // private System.Single _progressTarget
     // Offset: 0x40
     float progressTarget;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xC2D38C
     void Start();

@@ -39,6 +39,10 @@ namespace OnlineServices {
     // private PlatformUserModelSO _platformUserModel
     // Offset: 0x10
     GlobalNamespace::PlatformUserModelSO* platformUserModel;
+    // Creating conversion operator: operator GlobalNamespace::PlatformUserModelSO*
+    constexpr operator GlobalNamespace::PlatformUserModelSO*() const {
+      return platformUserModel;
+    }
     // public System.Void .ctor(PlatformUserModelSO platformUserModel)
     // Offset: 0xBCEC10
     static PlatformUserNamesLoader* New_ctor(GlobalNamespace::PlatformUserModelSO* platformUserModel);

@@ -16,6 +16,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: NoteType
+    constexpr NoteType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public NoteType NoteA
     static constexpr const int NoteA = 0;
     // Get static field: static public NoteType NoteA
@@ -40,8 +46,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::NoteType _get_Bomb();
     // Set static field: static public NoteType Bomb
     static void _set_Bomb(GlobalNamespace::NoteType value);
-    // Creating value type constructor for type: NoteType
-    NoteType(int value_ = {}) : value{value_} {}
   }; // NoteType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

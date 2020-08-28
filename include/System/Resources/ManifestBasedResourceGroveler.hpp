@@ -54,6 +54,10 @@ namespace System::Resources {
     // private System.Resources.ResourceManager/ResourceManagerMediator _mediator
     // Offset: 0x10
     System::Resources::ResourceManager::ResourceManagerMediator* mediator;
+    // Creating conversion operator: operator System::Resources::ResourceManager::ResourceManagerMediator*
+    constexpr operator System::Resources::ResourceManager::ResourceManagerMediator*() const {
+      return mediator;
+    }
     // public System.Void .ctor(System.Resources.ResourceManager/ResourceManagerMediator mediator)
     // Offset: 0x115A77C
     static ManifestBasedResourceGroveler* New_ctor(System::Resources::ResourceManager::ResourceManagerMediator* mediator);

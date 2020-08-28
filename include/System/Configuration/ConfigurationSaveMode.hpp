@@ -16,6 +16,12 @@ namespace System::Configuration {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ConfigurationSaveMode
+    constexpr ConfigurationSaveMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Configuration.ConfigurationSaveMode Full
     static constexpr const int Full = 2;
     // Get static field: static public System.Configuration.ConfigurationSaveMode Full
@@ -34,8 +40,6 @@ namespace System::Configuration {
     static System::Configuration::ConfigurationSaveMode _get_Modified();
     // Set static field: static public System.Configuration.ConfigurationSaveMode Modified
     static void _set_Modified(System::Configuration::ConfigurationSaveMode value);
-    // Creating value type constructor for type: ConfigurationSaveMode
-    ConfigurationSaveMode(int value_ = {}) : value{value_} {}
   }; // System.Configuration.ConfigurationSaveMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

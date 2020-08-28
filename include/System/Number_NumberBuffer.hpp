@@ -30,12 +30,12 @@ namespace System {
     // public System.Boolean sign
     // Offset: 0x18
     bool sign;
+    // Creating value type constructor for type: NumberBuffer
+    constexpr NumberBuffer(uint8_t* baseAddress_ = {}, ::Il2CppChar* digits_ = {}, int precision_ = {}, int scale_ = {}, bool sign_ = {}) : baseAddress{baseAddress_}, digits{digits_}, precision{precision_}, scale{scale_}, sign{sign_} {}
     // Get static field: static public readonly System.Int32 NumberBufferBytes
     static int _get_NumberBufferBytes();
     // Set static field: static public readonly System.Int32 NumberBufferBytes
     static void _set_NumberBufferBytes(int value);
-    // Creating value type constructor for type: NumberBuffer
-    NumberBuffer(uint8_t* baseAddress_ = {}, ::Il2CppChar* digits_ = {}, int precision_ = {}, int scale_ = {}, bool sign_ = {}) : baseAddress{baseAddress_}, digits{digits_}, precision{precision_}, scale{scale_}, sign{sign_} {}
     // public System.Void .ctor(System.Byte* stackBuffer)
     // Offset: 0xA46AD4
     static Number::NumberBuffer* New_ctor(uint8_t* stackBuffer);

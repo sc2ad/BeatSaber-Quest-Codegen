@@ -33,6 +33,8 @@ namespace GlobalNamespace {
     // private System.Boolean _mirror
     // Offset: 0x28
     bool mirror;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public override UnityEngine.Vector3 get_positionOffset()
     // Offset: 0xC53018
     // Implemented from: VRControllerTransformOffset

@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: VRTextureUsage
+    constexpr VRTextureUsage(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.VRTextureUsage None
     static constexpr const int None = 0;
     // Get static field: static public UnityEngine.VRTextureUsage None
@@ -40,8 +46,6 @@ namespace UnityEngine {
     static UnityEngine::VRTextureUsage _get_DeviceSpecific();
     // Set static field: static public UnityEngine.VRTextureUsage DeviceSpecific
     static void _set_DeviceSpecific(UnityEngine::VRTextureUsage value);
-    // Creating value type constructor for type: VRTextureUsage
-    VRTextureUsage(int value_ = {}) : value{value_} {}
   }; // UnityEngine.VRTextureUsage
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

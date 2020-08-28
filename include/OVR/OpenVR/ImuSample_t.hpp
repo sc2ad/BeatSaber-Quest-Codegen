@@ -27,7 +27,7 @@ namespace OVR::OpenVR {
     // Offset: 0x38
     uint unOffScaleFlags;
     // Creating value type constructor for type: ImuSample_t
-    ImuSample_t(double fSampleTime_ = {}, OVR::OpenVR::HmdVector3d_t vAccel_ = {}, OVR::OpenVR::HmdVector3d_t vGyro_ = {}, uint unOffScaleFlags_ = {}) : fSampleTime{fSampleTime_}, vAccel{vAccel_}, vGyro{vGyro_}, unOffScaleFlags{unOffScaleFlags_} {}
+    constexpr ImuSample_t(double fSampleTime_ = {}, OVR::OpenVR::HmdVector3d_t vAccel_ = {}, OVR::OpenVR::HmdVector3d_t vGyro_ = {}, uint unOffScaleFlags_ = {}) : fSampleTime{fSampleTime_}, vAccel{vAccel_}, vGyro{vGyro_}, unOffScaleFlags{unOffScaleFlags_} {}
   }; // OVR.OpenVR.ImuSample_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

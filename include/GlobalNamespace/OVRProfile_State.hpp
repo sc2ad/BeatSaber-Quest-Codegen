@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: State
+    constexpr State(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRProfile/State NOT_TRIGGERED
     static constexpr const int NOT_TRIGGERED = 0;
     // Get static field: static public OVRProfile/State NOT_TRIGGERED
@@ -42,8 +48,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRProfile::State _get_ERROR();
     // Set static field: static public OVRProfile/State ERROR
     static void _set_ERROR(GlobalNamespace::OVRProfile::State value);
-    // Creating value type constructor for type: State
-    State(int value_ = {}) : value{value_} {}
   }; // OVRProfile/State
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -21,6 +21,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Int32 crossAppDomainArrayIndex
     // Offset: 0x10
     int crossAppDomainArrayIndex;
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return crossAppDomainArrayIndex;
+    }
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
     // Offset: 0xE26F1C
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);

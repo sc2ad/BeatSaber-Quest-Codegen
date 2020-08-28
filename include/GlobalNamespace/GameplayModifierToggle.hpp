@@ -52,6 +52,8 @@ namespace GlobalNamespace {
     // private UnityEngine.UI.Toggle _toggle
     // Offset: 0x38
     UnityEngine::UI::Toggle* toggle;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public UnityEngine.UI.Toggle get_toggle()
     // Offset: 0xB3F140
     UnityEngine::UI::Toggle* get_toggle();

@@ -16,6 +16,12 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRSettingsError
+    constexpr EVRSettingsError(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.EVRSettingsError None
     static constexpr const int None = 0;
     // Get static field: static public Valve.VR.EVRSettingsError None
@@ -52,8 +58,6 @@ namespace Valve::VR {
     static Valve::VR::EVRSettingsError _get_UnsetSettingHasNoDefault();
     // Set static field: static public Valve.VR.EVRSettingsError UnsetSettingHasNoDefault
     static void _set_UnsetSettingHasNoDefault(Valve::VR::EVRSettingsError value);
-    // Creating value type constructor for type: EVRSettingsError
-    EVRSettingsError(int value_ = {}) : value{value_} {}
   }; // Valve.VR.EVRSettingsError
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

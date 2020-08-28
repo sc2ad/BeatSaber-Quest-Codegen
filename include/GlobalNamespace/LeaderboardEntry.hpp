@@ -34,6 +34,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Color _color
     // Offset: 0x30
     UnityEngine::Color color;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void SetScore(System.Int32 score, System.String playerName, System.Int32 rank, System.Boolean highlighted, System.Boolean showSeparator)
     // Offset: 0xB467C8
     void SetScore(int score, ::Il2CppString* playerName, int rank, bool highlighted, bool showSeparator);

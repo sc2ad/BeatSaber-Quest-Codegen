@@ -34,6 +34,10 @@ namespace GlobalNamespace {
     // private BeatmapLevelData _beatmapLevelData
     // Offset: 0xA8
     GlobalNamespace::BeatmapLevelData* beatmapLevelData;
+    // Creating conversion operator: operator GlobalNamespace::BeatmapLevelData*
+    constexpr operator GlobalNamespace::BeatmapLevelData*() const {
+      return beatmapLevelData;
+    }
     // public System.Void .ctor(CustomPreviewBeatmapLevel customPreviewBeatmapLevel, UnityEngine.AudioClip previewAudioClip, UnityEngine.Texture2D coverImageTexture2D)
     // Offset: 0xBE34C4
     static CustomBeatmapLevel* New_ctor(GlobalNamespace::CustomPreviewBeatmapLevel* customPreviewBeatmapLevel, UnityEngine::AudioClip* previewAudioClip, UnityEngine::Texture2D* coverImageTexture2D);

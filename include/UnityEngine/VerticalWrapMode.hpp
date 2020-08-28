@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: VerticalWrapMode
+    constexpr VerticalWrapMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.VerticalWrapMode Truncate
     static constexpr const int Truncate = 0;
     // Get static field: static public UnityEngine.VerticalWrapMode Truncate
@@ -28,8 +34,6 @@ namespace UnityEngine {
     static UnityEngine::VerticalWrapMode _get_Overflow();
     // Set static field: static public UnityEngine.VerticalWrapMode Overflow
     static void _set_Overflow(UnityEngine::VerticalWrapMode value);
-    // Creating value type constructor for type: VerticalWrapMode
-    VerticalWrapMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.VerticalWrapMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

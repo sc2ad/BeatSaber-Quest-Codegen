@@ -89,7 +89,7 @@ namespace GlobalNamespace {
       // Offset: 0x8
       GlobalNamespace::IBeatmapLevel* beatmapLevel;
       // Creating value type constructor for type: GetBeatmapLevelResult
-      GetBeatmapLevelResult(bool isError_ = {}, GlobalNamespace::IBeatmapLevel* beatmapLevel_ = {}) : isError{isError_}, beatmapLevel{beatmapLevel_} {}
+      constexpr GetBeatmapLevelResult(bool isError_ = {}, GlobalNamespace::IBeatmapLevel* beatmapLevel_ = {}) : isError{isError_}, beatmapLevel{beatmapLevel_} {}
       // public System.Void .ctor(System.Boolean isError, IBeatmapLevel beatmapLevel)
       // Offset: 0xA2BCB4
       static BeatmapLevelsModel::GetBeatmapLevelResult* New_ctor(bool isError, GlobalNamespace::IBeatmapLevel* beatmapLevel);
@@ -105,6 +105,12 @@ namespace GlobalNamespace {
         // public System.Int32 value__
         // Offset: 0x0
         int value;
+        // Creating value type constructor for type: DownloadingState
+        constexpr DownloadingState(int value_ = {}) : value{value_} {}
+        // Creating conversion operator: operator int
+        constexpr operator int() const {
+          return value;
+        }
         // static field const value: static public BeatmapLevelsModel/LevelDownloadingUpdate/DownloadingState PreparingToDownload
         static constexpr const int PreparingToDownload = 0;
         // Get static field: static public BeatmapLevelsModel/LevelDownloadingUpdate/DownloadingState PreparingToDownload
@@ -123,8 +129,6 @@ namespace GlobalNamespace {
         static GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState _get_Completed();
         // Set static field: static public BeatmapLevelsModel/LevelDownloadingUpdate/DownloadingState Completed
         static void _set_Completed(GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState value);
-        // Creating value type constructor for type: DownloadingState
-        DownloadingState(int value_ = {}) : value{value_} {}
       }; // BeatmapLevelsModel/LevelDownloadingUpdate/DownloadingState
       // public readonly System.String levelID
       // Offset: 0x0
@@ -139,7 +143,7 @@ namespace GlobalNamespace {
       // Offset: 0x10
       GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState downloadingState;
       // Creating value type constructor for type: LevelDownloadingUpdate
-      LevelDownloadingUpdate(::Il2CppString* levelID_ = {}, uint bytesTotal_ = {}, uint bytesTransferred_ = {}, GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState downloadingState_ = {}) : levelID{levelID_}, bytesTotal{bytesTotal_}, bytesTransferred{bytesTransferred_}, downloadingState{downloadingState_} {}
+      constexpr LevelDownloadingUpdate(::Il2CppString* levelID_ = {}, uint bytesTotal_ = {}, uint bytesTransferred_ = {}, GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState downloadingState_ = {}) : levelID{levelID_}, bytesTotal{bytesTotal_}, bytesTransferred{bytesTransferred_}, downloadingState{downloadingState_} {}
       // public System.Void .ctor(System.String levelID, System.UInt32 bytesTotal, System.UInt32 bytesTransferred, BeatmapLevelsModel/LevelDownloadingUpdate/DownloadingState downloadingState)
       // Offset: 0xA2BD84
       static BeatmapLevelsModel::LevelDownloadingUpdate* New_ctor(::Il2CppString* levelID, uint bytesTotal, uint bytesTransferred, GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState downloadingState);
@@ -180,6 +184,8 @@ namespace GlobalNamespace {
     // private BeatmapLevelLoader _beatmapLevelLoader
     // Offset: 0x70
     GlobalNamespace::BeatmapLevelLoader* beatmapLevelLoader;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void add_levelDownloadingUpdateEvent(System.Action`1<BeatmapLevelsModel/LevelDownloadingUpdate> value)
     // Offset: 0xB7333C
     void add_levelDownloadingUpdateEvent(System::Action_1<GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate>* value);

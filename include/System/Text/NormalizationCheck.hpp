@@ -16,6 +16,12 @@ namespace System::Text {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: NormalizationCheck
+    constexpr NormalizationCheck(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Text.NormalizationCheck Yes
     static constexpr const int Yes = 0;
     // Get static field: static public System.Text.NormalizationCheck Yes
@@ -34,8 +40,6 @@ namespace System::Text {
     static System::Text::NormalizationCheck _get_Maybe();
     // Set static field: static public System.Text.NormalizationCheck Maybe
     static void _set_Maybe(System::Text::NormalizationCheck value);
-    // Creating value type constructor for type: NormalizationCheck
-    NormalizationCheck(int value_ = {}) : value{value_} {}
   }; // System.Text.NormalizationCheck
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

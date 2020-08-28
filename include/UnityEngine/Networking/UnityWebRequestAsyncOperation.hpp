@@ -23,6 +23,10 @@ namespace UnityEngine::Networking {
     // private UnityEngine.Networking.UnityWebRequest <webRequest>k__BackingField
     // Offset: 0x20
     UnityEngine::Networking::UnityWebRequest* webRequest;
+    // Creating conversion operator: operator UnityEngine::Networking::UnityWebRequest*
+    constexpr operator UnityEngine::Networking::UnityWebRequest*() const {
+      return webRequest;
+    }
     // System.Void set_webRequest(UnityEngine.Networking.UnityWebRequest value)
     // Offset: 0x194A3E0
     void set_webRequest(UnityEngine::Networking::UnityWebRequest* value);

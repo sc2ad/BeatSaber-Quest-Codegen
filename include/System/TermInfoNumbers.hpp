@@ -16,6 +16,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TermInfoNumbers
+    constexpr TermInfoNumbers(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.TermInfoNumbers Columns
     static constexpr const int Columns = 0;
     // Get static field: static public System.TermInfoNumbers Columns
@@ -220,8 +226,6 @@ namespace System {
     static System::TermInfoNumbers _get_Last();
     // Set static field: static public System.TermInfoNumbers Last
     static void _set_Last(System::TermInfoNumbers value);
-    // Creating value type constructor for type: TermInfoNumbers
-    TermInfoNumbers(int value_ = {}) : value{value_} {}
   }; // System.TermInfoNumbers
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

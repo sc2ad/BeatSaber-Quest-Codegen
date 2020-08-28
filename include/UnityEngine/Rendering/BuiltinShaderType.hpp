@@ -16,6 +16,12 @@ namespace UnityEngine::Rendering {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: BuiltinShaderType
+    constexpr BuiltinShaderType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Rendering.BuiltinShaderType DeferredShading
     static constexpr const int DeferredShading = 0;
     // Get static field: static public UnityEngine.Rendering.BuiltinShaderType DeferredShading
@@ -64,8 +70,6 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::BuiltinShaderType _get_LensFlare();
     // Set static field: static public UnityEngine.Rendering.BuiltinShaderType LensFlare
     static void _set_LensFlare(UnityEngine::Rendering::BuiltinShaderType value);
-    // Creating value type constructor for type: BuiltinShaderType
-    BuiltinShaderType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Rendering.BuiltinShaderType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

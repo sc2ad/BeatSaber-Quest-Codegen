@@ -16,6 +16,12 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ETextureType
+    constexpr ETextureType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.ETextureType DirectX
     static constexpr const int DirectX = 0;
     // Get static field: static public Valve.VR.ETextureType DirectX
@@ -46,8 +52,6 @@ namespace Valve::VR {
     static Valve::VR::ETextureType _get_DirectX12();
     // Set static field: static public Valve.VR.ETextureType DirectX12
     static void _set_DirectX12(Valve::VR::ETextureType value);
-    // Creating value type constructor for type: ETextureType
-    ETextureType(int value_ = {}) : value{value_} {}
   }; // Valve.VR.ETextureType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

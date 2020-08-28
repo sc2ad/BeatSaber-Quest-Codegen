@@ -29,6 +29,10 @@ namespace System {
     // private System.String _typeName
     // Offset: 0x88
     ::Il2CppString* typeName;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return typeName;
+    }
     // public System.String get_TypeName()
     // Offset: 0x179A1BC
     ::Il2CppString* get_TypeName();

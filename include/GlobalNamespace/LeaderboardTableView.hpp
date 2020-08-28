@@ -56,6 +56,8 @@ namespace GlobalNamespace {
     // private System.Int32 _specialScorePos
     // Offset: 0x38
     int specialScorePos;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static field const value: static private System.String kCellIdentifier
     static constexpr const char* kCellIdentifier = "Cell";
     // Get static field: static private System.String kCellIdentifier

@@ -30,6 +30,10 @@ namespace System::Collections {
     // private System.Collections.Hashtable _hashtable
     // Offset: 0x10
     System::Collections::Hashtable* hashtable;
+    // Creating conversion operator: operator System::Collections::Hashtable*
+    constexpr operator System::Collections::Hashtable*() const {
+      return hashtable;
+    }
     // System.Void .ctor(System.Collections.Hashtable hashtable)
     // Offset: 0x133E33C
     static Hashtable::ValueCollection* New_ctor(System::Collections::Hashtable* hashtable);

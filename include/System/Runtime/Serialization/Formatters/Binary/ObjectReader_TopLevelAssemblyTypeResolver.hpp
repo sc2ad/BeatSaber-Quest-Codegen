@@ -28,6 +28,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // private System.Reflection.Assembly m_topLevelAssembly
     // Offset: 0x10
     System::Reflection::Assembly* m_topLevelAssembly;
+    // Creating conversion operator: operator System::Reflection::Assembly*
+    constexpr operator System::Reflection::Assembly*() const {
+      return m_topLevelAssembly;
+    }
     // public System.Void .ctor(System.Reflection.Assembly topLevelAssembly)
     // Offset: 0xFEC5A0
     static ObjectReader::TopLevelAssemblyTypeResolver* New_ctor(System::Reflection::Assembly* topLevelAssembly);

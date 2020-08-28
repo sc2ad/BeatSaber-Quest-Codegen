@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: LayerFlags
+    constexpr LayerFlags(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRPlugin/LayerFlags Static
     static constexpr const int Static = 1;
     // Get static field: static public OVRPlugin/LayerFlags Static
@@ -66,8 +72,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::LayerFlags _get_AndroidSurfaceSwapChain();
     // Set static field: static public OVRPlugin/LayerFlags AndroidSurfaceSwapChain
     static void _set_AndroidSurfaceSwapChain(GlobalNamespace::OVRPlugin::LayerFlags value);
-    // Creating value type constructor for type: LayerFlags
-    LayerFlags(int value_ = {}) : value{value_} {}
   }; // OVRPlugin/LayerFlags
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

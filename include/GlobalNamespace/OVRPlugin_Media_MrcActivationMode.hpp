@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: MrcActivationMode
+    constexpr MrcActivationMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRPlugin/Media/MrcActivationMode Automatic
     static constexpr const int Automatic = 0;
     // Get static field: static public OVRPlugin/Media/MrcActivationMode Automatic
@@ -36,8 +42,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::Media::MrcActivationMode _get_EnumSize();
     // Set static field: static public OVRPlugin/Media/MrcActivationMode EnumSize
     static void _set_EnumSize(GlobalNamespace::OVRPlugin::Media::MrcActivationMode value);
-    // Creating value type constructor for type: MrcActivationMode
-    MrcActivationMode(int value_ = {}) : value{value_} {}
   }; // OVRPlugin/Media/MrcActivationMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

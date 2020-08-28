@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Handedness
+    constexpr Handedness(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRInput/Handedness Unsupported
     static constexpr const int Unsupported = 0;
     // Get static field: static public OVRInput/Handedness Unsupported
@@ -36,8 +42,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRInput::Handedness _get_RightHanded();
     // Set static field: static public OVRInput/Handedness RightHanded
     static void _set_RightHanded(GlobalNamespace::OVRInput::Handedness value);
-    // Creating value type constructor for type: Handedness
-    Handedness(int value_ = {}) : value{value_} {}
   }; // OVRInput/Handedness
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

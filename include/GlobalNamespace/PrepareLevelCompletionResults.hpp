@@ -70,6 +70,8 @@ namespace GlobalNamespace {
     // private GameplayModifiers _gameplayModifiers
     // Offset: 0x60
     GlobalNamespace::GameplayModifiers* gameplayModifiers;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public LevelCompletionResults FillLevelCompletionResults(LevelCompletionResults/LevelEndStateType levelEndStateType, LevelCompletionResults/LevelEndAction levelEndAction)
     // Offset: 0xC1E04C
     GlobalNamespace::LevelCompletionResults* FillLevelCompletionResults(GlobalNamespace::LevelCompletionResults::LevelEndStateType levelEndStateType, GlobalNamespace::LevelCompletionResults::LevelEndAction levelEndAction);

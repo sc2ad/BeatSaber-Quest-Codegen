@@ -18,6 +18,10 @@ namespace System::Diagnostics {
     // private System.Diagnostics.DebuggerBrowsableState state
     // Offset: 0x10
     System::Diagnostics::DebuggerBrowsableState state;
+    // Creating conversion operator: operator System::Diagnostics::DebuggerBrowsableState
+    constexpr operator System::Diagnostics::DebuggerBrowsableState() const {
+      return state;
+    }
     // public System.Void .ctor(System.Diagnostics.DebuggerBrowsableState state)
     // Offset: 0xC95270
     static DebuggerBrowsableAttribute* New_ctor(System::Diagnostics::DebuggerBrowsableState state);

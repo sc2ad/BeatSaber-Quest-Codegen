@@ -23,6 +23,10 @@ namespace UnityEngine::TestTools::Utils {
     // private readonly System.Reflection.Assembly <Assembly>k__BackingField
     // Offset: 0x10
     System::Reflection::Assembly* Assembly;
+    // Creating conversion operator: operator System::Reflection::Assembly*
+    constexpr operator System::Reflection::Assembly*() const {
+      return Assembly;
+    }
     // public System.Void .ctor(System.Reflection.Assembly assembly)
     // Offset: 0xE4A214
     static AssemblyWrapper* New_ctor(System::Reflection::Assembly* assembly);

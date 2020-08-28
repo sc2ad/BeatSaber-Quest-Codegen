@@ -27,7 +27,7 @@ namespace Valve::VR {
     // Offset: 0x18
     Valve::VR::ETrackingUniverseOrigin eOrigin;
     // Creating value type constructor for type: VROverlayIntersectionParams_t
-    VROverlayIntersectionParams_t(Valve::VR::HmdVector3_t vSource_ = {}, Valve::VR::HmdVector3_t vDirection_ = {}, Valve::VR::ETrackingUniverseOrigin eOrigin_ = {}) : vSource{vSource_}, vDirection{vDirection_}, eOrigin{eOrigin_} {}
+    constexpr VROverlayIntersectionParams_t(Valve::VR::HmdVector3_t vSource_ = {}, Valve::VR::HmdVector3_t vDirection_ = {}, Valve::VR::ETrackingUniverseOrigin eOrigin_ = {}) : vSource{vSource_}, vDirection{vDirection_}, eOrigin{eOrigin_} {}
   }; // Valve.VR.VROverlayIntersectionParams_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

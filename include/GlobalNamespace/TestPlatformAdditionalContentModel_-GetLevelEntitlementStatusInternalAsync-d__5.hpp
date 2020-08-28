@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Offset: 0x38
     System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter $$u__1;
     // Creating value type constructor for type: $GetLevelEntitlementStatusInternalAsync$d__5
-    $GetLevelEntitlementStatusInternalAsync$d__5(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$t__builder_ = {}, System::Threading::CancellationToken token_ = {}, GlobalNamespace::TestPlatformAdditionalContentModel* $$4__this_ = {}, ::Il2CppString* levelId_ = {}, System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, token{token_}, $$4__this{$$4__this_}, levelId{levelId_}, $$u__1{$$u__1_} {}
+    constexpr $GetLevelEntitlementStatusInternalAsync$d__5(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$t__builder_ = {}, System::Threading::CancellationToken token_ = {}, GlobalNamespace::TestPlatformAdditionalContentModel* $$4__this_ = {}, ::Il2CppString* levelId_ = {}, System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, token{token_}, $$4__this{$$4__this_}, levelId{levelId_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
     // Offset: 0xA2CB54
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine

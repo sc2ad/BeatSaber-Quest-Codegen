@@ -22,7 +22,7 @@ namespace Valve::VR {
     // Offset: 0x8
     uint button;
     // Creating value type constructor for type: VREvent_Mouse_t
-    VREvent_Mouse_t(float x_ = {}, float y_ = {}, uint button_ = {}) : x{x_}, y{y_}, button{button_} {}
+    constexpr VREvent_Mouse_t(float x_ = {}, float y_ = {}, uint button_ = {}) : x{x_}, y{y_}, button{button_} {}
   }; // Valve.VR.VREvent_Mouse_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

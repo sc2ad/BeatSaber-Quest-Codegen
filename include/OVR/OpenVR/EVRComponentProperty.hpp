@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRComponentProperty
+    constexpr EVRComponentProperty(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.EVRComponentProperty IsStatic
     static constexpr const int IsStatic = 1;
     // Get static field: static public OVR.OpenVR.EVRComponentProperty IsStatic
@@ -46,8 +52,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRComponentProperty _get_IsScrolled();
     // Set static field: static public OVR.OpenVR.EVRComponentProperty IsScrolled
     static void _set_IsScrolled(OVR::OpenVR::EVRComponentProperty value);
-    // Creating value type constructor for type: EVRComponentProperty
-    EVRComponentProperty(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EVRComponentProperty
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

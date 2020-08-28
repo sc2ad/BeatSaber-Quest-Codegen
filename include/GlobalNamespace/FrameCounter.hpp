@@ -16,6 +16,8 @@ namespace GlobalNamespace {
     // private System.Int32 _numberOfFrames
     // Offset: 0x18
     int numberOfFrames;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private System.Void Update()
     // Offset: 0xCB2734
     void Update();

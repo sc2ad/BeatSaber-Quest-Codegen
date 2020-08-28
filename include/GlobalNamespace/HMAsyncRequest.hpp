@@ -26,6 +26,8 @@ namespace GlobalNamespace {
     // private HMAsyncRequest/CancelHander _cancelHander
     // Offset: 0x20
     GlobalNamespace::HMAsyncRequest::CancelHander* cancelHander;
+    // Deleting conversion operator: operator uint64_t
+    constexpr operator uint64_t() const = delete;
     // public HMAsyncRequest/CancelHander get_CancelHandler()
     // Offset: 0xCB6178
     GlobalNamespace::HMAsyncRequest::CancelHander* get_CancelHandler();

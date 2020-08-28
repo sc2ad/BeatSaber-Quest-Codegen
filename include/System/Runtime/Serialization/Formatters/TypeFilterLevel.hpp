@@ -16,6 +16,12 @@ namespace System::Runtime::Serialization::Formatters {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TypeFilterLevel
+    constexpr TypeFilterLevel(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Runtime.Serialization.Formatters.TypeFilterLevel Low
     static constexpr const int Low = 2;
     // Get static field: static public System.Runtime.Serialization.Formatters.TypeFilterLevel Low
@@ -28,8 +34,6 @@ namespace System::Runtime::Serialization::Formatters {
     static System::Runtime::Serialization::Formatters::TypeFilterLevel _get_Full();
     // Set static field: static public System.Runtime.Serialization.Formatters.TypeFilterLevel Full
     static void _set_Full(System::Runtime::Serialization::Formatters::TypeFilterLevel value);
-    // Creating value type constructor for type: TypeFilterLevel
-    TypeFilterLevel(int value_ = {}) : value{value_} {}
   }; // System.Runtime.Serialization.Formatters.TypeFilterLevel
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

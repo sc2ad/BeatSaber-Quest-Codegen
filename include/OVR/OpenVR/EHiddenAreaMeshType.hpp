@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EHiddenAreaMeshType
+    constexpr EHiddenAreaMeshType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.EHiddenAreaMeshType k_eHiddenAreaMesh_Standard
     static constexpr const int k_eHiddenAreaMesh_Standard = 0;
     // Get static field: static public OVR.OpenVR.EHiddenAreaMeshType k_eHiddenAreaMesh_Standard
@@ -40,8 +46,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EHiddenAreaMeshType _get_k_eHiddenAreaMesh_Max();
     // Set static field: static public OVR.OpenVR.EHiddenAreaMeshType k_eHiddenAreaMesh_Max
     static void _set_k_eHiddenAreaMesh_Max(OVR::OpenVR::EHiddenAreaMeshType value);
-    // Creating value type constructor for type: EHiddenAreaMeshType
-    EHiddenAreaMeshType(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EHiddenAreaMeshType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

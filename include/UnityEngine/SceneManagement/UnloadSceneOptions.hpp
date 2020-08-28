@@ -16,6 +16,12 @@ namespace UnityEngine::SceneManagement {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: UnloadSceneOptions
+    constexpr UnloadSceneOptions(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.SceneManagement.UnloadSceneOptions None
     static constexpr const int None = 0;
     // Get static field: static public UnityEngine.SceneManagement.UnloadSceneOptions None
@@ -28,8 +34,6 @@ namespace UnityEngine::SceneManagement {
     static UnityEngine::SceneManagement::UnloadSceneOptions _get_UnloadAllEmbeddedSceneObjects();
     // Set static field: static public UnityEngine.SceneManagement.UnloadSceneOptions UnloadAllEmbeddedSceneObjects
     static void _set_UnloadAllEmbeddedSceneObjects(UnityEngine::SceneManagement::UnloadSceneOptions value);
-    // Creating value type constructor for type: UnloadSceneOptions
-    UnloadSceneOptions(int value_ = {}) : value{value_} {}
   }; // UnityEngine.SceneManagement.UnloadSceneOptions
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

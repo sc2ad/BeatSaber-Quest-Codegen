@@ -16,6 +16,12 @@ namespace UnityEngine::Rendering {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: CommandBufferExecutionFlags
+    constexpr CommandBufferExecutionFlags(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Rendering.CommandBufferExecutionFlags None
     static constexpr const int None = 0;
     // Get static field: static public UnityEngine.Rendering.CommandBufferExecutionFlags None
@@ -28,8 +34,6 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::CommandBufferExecutionFlags _get_AsyncCompute();
     // Set static field: static public UnityEngine.Rendering.CommandBufferExecutionFlags AsyncCompute
     static void _set_AsyncCompute(UnityEngine::Rendering::CommandBufferExecutionFlags value);
-    // Creating value type constructor for type: CommandBufferExecutionFlags
-    CommandBufferExecutionFlags(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Rendering.CommandBufferExecutionFlags
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: RenderTextureCreationFlags
+    constexpr RenderTextureCreationFlags(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.RenderTextureCreationFlags MipMap
     static constexpr const int MipMap = 1;
     // Get static field: static public UnityEngine.RenderTextureCreationFlags MipMap
@@ -76,8 +82,6 @@ namespace UnityEngine {
     static UnityEngine::RenderTextureCreationFlags _get_BindMS();
     // Set static field: static public UnityEngine.RenderTextureCreationFlags BindMS
     static void _set_BindMS(UnityEngine::RenderTextureCreationFlags value);
-    // Creating value type constructor for type: RenderTextureCreationFlags
-    RenderTextureCreationFlags(int value_ = {}) : value{value_} {}
   }; // UnityEngine.RenderTextureCreationFlags
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -23,6 +23,10 @@ namespace TMPro {
     // public UnityEngine.Material stencilMaterial
     // Offset: 0x10
     UnityEngine::Material* stencilMaterial;
+    // Creating conversion operator: operator UnityEngine::Material*
+    constexpr operator UnityEngine::Material*() const {
+      return stencilMaterial;
+    }
     // System.Boolean <AddMaskingMaterial>b__0(TMPro.TMP_MaterialManager/MaskingMaterial item)
     // Offset: 0xBAFBBC
     bool $AddMaskingMaterial$b__0(TMPro::TMP_MaterialManager::MaskingMaterial* item);

@@ -39,6 +39,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Material _esmBlitMaterial
     // Offset: 0x30
     UnityEngine::Material* esmBlitMaterial;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void OnEnable()
     // Offset: 0xBE7D40
     void OnEnable();

@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.MeshOperations.AppendElements
 #include "UnityEngine/ProBuilder/MeshOperations/AppendElements.hpp"
+// Including type: UnityEngine.Vector3
+#include "UnityEngine/Vector3.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

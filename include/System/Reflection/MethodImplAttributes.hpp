@@ -16,6 +16,12 @@ namespace System::Reflection {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: MethodImplAttributes
+    constexpr MethodImplAttributes(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Reflection.MethodImplAttributes CodeTypeMask
     static constexpr const int CodeTypeMask = 3;
     // Get static field: static public System.Reflection.MethodImplAttributes CodeTypeMask
@@ -112,8 +118,6 @@ namespace System::Reflection {
     static System::Reflection::MethodImplAttributes _get_MaxMethodImplVal();
     // Set static field: static public System.Reflection.MethodImplAttributes MaxMethodImplVal
     static void _set_MaxMethodImplVal(System::Reflection::MethodImplAttributes value);
-    // Creating value type constructor for type: MethodImplAttributes
-    MethodImplAttributes(int value_ = {}) : value{value_} {}
   }; // System.Reflection.MethodImplAttributes
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

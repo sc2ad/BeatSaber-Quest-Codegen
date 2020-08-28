@@ -16,6 +16,10 @@ namespace GlobalNamespace {
     // public System.String enumName
     // Offset: 0x10
     ::Il2CppString* enumName;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return enumName;
+    }
     // public System.Void .ctor(System.String name)
     // Offset: 0xCB04CC
     static EnumFlagAttribute* New_ctor(::Il2CppString* name);

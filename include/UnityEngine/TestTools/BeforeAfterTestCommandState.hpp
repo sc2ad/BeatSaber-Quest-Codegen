@@ -57,6 +57,8 @@ namespace UnityEngine::TestTools {
     // public System.Boolean TestAfterStarted
     // Offset: 0x50
     bool TestAfterStarted;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void Reset()
     // Offset: 0xE3F404
     void Reset();

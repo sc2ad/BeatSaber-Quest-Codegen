@@ -84,6 +84,12 @@ namespace HMUI {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: TableType
+      constexpr TableType(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public HMUI.TableView/TableType Vertical
       static constexpr const int Vertical = 0;
       // Get static field: static public HMUI.TableView/TableType Vertical
@@ -96,8 +102,6 @@ namespace HMUI {
       static HMUI::TableView::TableType _get_Horizontal();
       // Set static field: static public HMUI.TableView/TableType Horizontal
       static void _set_Horizontal(HMUI::TableView::TableType value);
-      // Creating value type constructor for type: TableType
-      TableType(int value_ = {}) : value{value_} {}
     }; // HMUI.TableView/TableType
     // private System.Boolean _hideScrollButtonsIfNotNeeded
     // Offset: 0x18
@@ -168,6 +172,8 @@ namespace HMUI {
     // private System.Boolean _refreshScrollButtonsIsScheduled
     // Offset: 0xB0
     bool refreshScrollButtonsIsScheduled;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void set_selectionType(HMUI.TableViewSelectionType value)
     // Offset: 0x10E6E28
     void set_selectionType(HMUI::TableViewSelectionType value);

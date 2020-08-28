@@ -28,6 +28,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Mesh _mesh
     // Offset: 0x20
     UnityEngine::Mesh* mesh;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static field const value: static private System.Single kLength
     static constexpr const float kLength = 1;
     // Get static field: static private System.Single kLength

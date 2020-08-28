@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TrackingOrigin
+    constexpr TrackingOrigin(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRPlugin/TrackingOrigin EyeLevel
     static constexpr const int EyeLevel = 0;
     // Get static field: static public OVRPlugin/TrackingOrigin EyeLevel
@@ -42,8 +48,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::TrackingOrigin _get_Count();
     // Set static field: static public OVRPlugin/TrackingOrigin Count
     static void _set_Count(GlobalNamespace::OVRPlugin::TrackingOrigin value);
-    // Creating value type constructor for type: TrackingOrigin
-    TrackingOrigin(int value_ = {}) : value{value_} {}
   }; // OVRPlugin/TrackingOrigin
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

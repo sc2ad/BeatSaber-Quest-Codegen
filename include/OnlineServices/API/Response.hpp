@@ -16,6 +16,12 @@ namespace OnlineServices::API {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Response
+    constexpr Response(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OnlineServices.API.Response Success
     static constexpr const int Success = 0;
     // Get static field: static public OnlineServices.API.Response Success
@@ -28,8 +34,6 @@ namespace OnlineServices::API {
     static OnlineServices::API::Response _get_UnknownError();
     // Set static field: static public OnlineServices.API.Response UnknownError
     static void _set_UnknownError(OnlineServices::API::Response value);
-    // Creating value type constructor for type: Response
-    Response(int value_ = {}) : value{value_} {}
   }; // OnlineServices.API.Response
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

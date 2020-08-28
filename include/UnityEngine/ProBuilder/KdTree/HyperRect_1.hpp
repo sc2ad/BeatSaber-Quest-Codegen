@@ -34,7 +34,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     // Offset: 0x0
     ::Array<T>* maxPoint;
     // Creating value type constructor for type: HyperRect_1
-    HyperRect_1(::Array<T>* minPoint_ = {}, ::Array<T>* maxPoint_ = {}) : minPoint{minPoint_}, maxPoint{maxPoint_} {}
+    constexpr HyperRect_1(::Array<T>* minPoint_ = {}, ::Array<T>* maxPoint_ = {}) : minPoint{minPoint_}, maxPoint{maxPoint_} {}
     // public T[] get_MinPoint()
     // Offset: 0xFFFFFFFF
     ::Array<T>* get_MinPoint() {

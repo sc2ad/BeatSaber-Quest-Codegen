@@ -30,6 +30,8 @@ namespace UnityEngine::EventSystems {
     // private readonly UnityEngine.EventSystems.EventSystem m_EventSystem
     // Offset: 0x18
     UnityEngine::EventSystems::EventSystem* m_EventSystem;
+    // Deleting conversion operator: operator bool
+    constexpr operator bool() const = delete;
     // public System.Void .ctor(UnityEngine.EventSystems.EventSystem eventSystem)
     // Offset: 0xDFA708
     static BaseEventData* New_ctor(UnityEngine::EventSystems::EventSystem* eventSystem);

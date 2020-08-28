@@ -16,6 +16,12 @@ namespace NUnit::Framework::Internal {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TestExecutionStatus
+    constexpr TestExecutionStatus(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public NUnit.Framework.Internal.TestExecutionStatus Running
     static constexpr const int Running = 0;
     // Get static field: static public NUnit.Framework.Internal.TestExecutionStatus Running
@@ -34,8 +40,6 @@ namespace NUnit::Framework::Internal {
     static NUnit::Framework::Internal::TestExecutionStatus _get_AbortRequested();
     // Set static field: static public NUnit.Framework.Internal.TestExecutionStatus AbortRequested
     static void _set_AbortRequested(NUnit::Framework::Internal::TestExecutionStatus value);
-    // Creating value type constructor for type: TestExecutionStatus
-    TestExecutionStatus(int value_ = {}) : value{value_} {}
   }; // NUnit.Framework.Internal.TestExecutionStatus
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

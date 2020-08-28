@@ -40,7 +40,7 @@ namespace UnityEngine {
     // Offset: 0xC
     float m_Height;
     // Creating value type constructor for type: Rect
-    Rect(float m_XMin_ = {}, float m_YMin_ = {}, float m_Width_ = {}, float m_Height_ = {}) : m_XMin{m_XMin_}, m_YMin{m_YMin_}, m_Width{m_Width_}, m_Height{m_Height_} {}
+    constexpr Rect(float m_XMin_ = {}, float m_YMin_ = {}, float m_Width_ = {}, float m_Height_ = {}) : m_XMin{m_XMin_}, m_YMin{m_YMin_}, m_Width{m_Width_}, m_Height{m_Height_} {}
     // public System.Void .ctor(System.Single x, System.Single y, System.Single width, System.Single height)
     // Offset: 0xA4916C
     static Rect* New_ctor(float x, float y, float width, float height);

@@ -16,6 +16,10 @@ namespace System::Reflection {
     // private System.String m_copyright
     // Offset: 0x10
     ::Il2CppString* m_copyright;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return m_copyright;
+    }
     // public System.Void .ctor(System.String copyright)
     // Offset: 0x1368970
     static AssemblyCopyrightAttribute* New_ctor(::Il2CppString* copyright);

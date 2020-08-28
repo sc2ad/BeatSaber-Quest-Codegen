@@ -18,6 +18,10 @@ namespace UnityEngine {
     // System.IntPtr m_Ptr
     // Offset: 0x10
     System::IntPtr m_Ptr;
+    // Creating conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const {
+      return m_Ptr;
+    }
     // private System.Void UnityEngine.ISubsystemDescriptorImpl.set_ptr(System.IntPtr value)
     // Offset: 0x197D08C
     // Implemented from: UnityEngine.ISubsystemDescriptorImpl

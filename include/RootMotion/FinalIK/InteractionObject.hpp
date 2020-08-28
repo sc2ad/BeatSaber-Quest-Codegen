@@ -56,6 +56,12 @@ namespace RootMotion::FinalIK {
         // public System.Int32 value__
         // Offset: 0x0
         int value;
+        // Creating value type constructor for type: Type
+        constexpr Type(int value_ = {}) : value{value_} {}
+        // Creating conversion operator: operator int
+        constexpr operator int() const {
+          return value;
+        }
         // static field const value: static public RootMotion.FinalIK.InteractionObject/WeightCurve/Type PositionWeight
         static constexpr const int PositionWeight = 0;
         // Get static field: static public RootMotion.FinalIK.InteractionObject/WeightCurve/Type PositionWeight
@@ -128,8 +134,6 @@ namespace RootMotion::FinalIK {
         static RootMotion::FinalIK::InteractionObject::WeightCurve::Type _get_BendGoalWeight();
         // Set static field: static public RootMotion.FinalIK.InteractionObject/WeightCurve/Type BendGoalWeight
         static void _set_BendGoalWeight(RootMotion::FinalIK::InteractionObject::WeightCurve::Type value);
-        // Creating value type constructor for type: Type
-        Type(int value_ = {}) : value{value_} {}
       }; // RootMotion.FinalIK.InteractionObject/WeightCurve/Type
       // public RootMotion.FinalIK.InteractionObject/WeightCurve/Type type
       // Offset: 0x10
@@ -173,6 +177,8 @@ namespace RootMotion::FinalIK {
     // private RootMotion.FinalIK.InteractionTarget[] targets
     // Offset: 0x58
     ::Array<RootMotion::FinalIK::InteractionTarget*>* targets;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private System.Void OpenUserManual()
     // Offset: 0x144E974
     void OpenUserManual();

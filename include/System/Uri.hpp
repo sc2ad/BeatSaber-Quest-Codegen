@@ -56,6 +56,12 @@ namespace System {
       // public System.UInt64 value__
       // Offset: 0x0
       uint64_t value;
+      // Creating value type constructor for type: Flags
+      constexpr Flags(uint64_t value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator uint64_t
+      constexpr operator uint64_t() const {
+        return value;
+      }
       // static field const value: static public System.Uri/Flags Zero
       static constexpr const uint64_t Zero = 0u;
       // Get static field: static public System.Uri/Flags Zero
@@ -386,8 +392,6 @@ namespace System {
       static System::Uri::Flags _get_CompressedSlashes();
       // Set static field: static public System.Uri/Flags CompressedSlashes
       static void _set_CompressedSlashes(System::Uri::Flags value);
-      // Creating value type constructor for type: Flags
-      Flags(uint64_t value_ = {}) : value{value_} {}
     }; // System.Uri/Flags
     // private System.String m_String
     // Offset: 0x10

@@ -41,6 +41,10 @@ namespace System::Collections::ObjectModel {
     // private System.Collections.Generic.IList`1<T> items
     // Offset: 0x0
     System::Collections::Generic::IList_1<T>* items;
+    // Creating conversion operator: operator System::Collections::Generic::IList_1<T>*
+    constexpr operator System::Collections::Generic::IList_1<T>*() const {
+      return items;
+    }
     // protected System.Void ClearItems()
     // Offset: 0xFFFFFFFF
     void ClearItems() {

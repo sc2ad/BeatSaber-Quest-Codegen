@@ -28,6 +28,10 @@ namespace NUnit::Framework::Internal {
     // public System.Type[] argTypes
     // Offset: 0x10
     ::Array<System::Type*>* argTypes;
+    // Creating conversion operator: operator ::Array<System::Type*>*
+    constexpr operator ::Array<System::Type*>*() const {
+      return argTypes;
+    }
     // public System.Boolean <GetConstructor>b__0(System.Reflection.ConstructorInfo c)
     // Offset: 0x18FCB44
     bool $GetConstructor$b__0(System::Reflection::ConstructorInfo* c);

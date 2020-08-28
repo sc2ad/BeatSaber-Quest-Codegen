@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ParticleSystemGradientMode
+    constexpr ParticleSystemGradientMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ParticleSystemGradientMode Color
     static constexpr const int Color = 0;
     // Get static field: static public UnityEngine.ParticleSystemGradientMode Color
@@ -46,8 +52,6 @@ namespace UnityEngine {
     static UnityEngine::ParticleSystemGradientMode _get_RandomColor();
     // Set static field: static public UnityEngine.ParticleSystemGradientMode RandomColor
     static void _set_RandomColor(UnityEngine::ParticleSystemGradientMode value);
-    // Creating value type constructor for type: ParticleSystemGradientMode
-    ParticleSystemGradientMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ParticleSystemGradientMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

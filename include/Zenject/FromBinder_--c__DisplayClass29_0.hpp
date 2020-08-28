@@ -35,6 +35,10 @@ namespace Zenject {
     // public UnityEngine.GameObject gameObject
     // Offset: 0x10
     UnityEngine::GameObject* gameObject;
+    // Creating conversion operator: operator UnityEngine::GameObject*
+    constexpr operator UnityEngine::GameObject*() const {
+      return gameObject;
+    }
     // Zenject.IProvider <FromComponentsOn>b__0(Zenject.DiContainer container, System.Type type)
     // Offset: 0xF37020
     Zenject::IProvider* $FromComponentsOn$b__0(Zenject::DiContainer* container, System::Type* type);

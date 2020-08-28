@@ -16,6 +16,12 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVREventType
+    constexpr EVREventType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.EVREventType VREvent_None
     static constexpr const int VREvent_None = 0;
     // Get static field: static public Valve.VR.EVREventType VREvent_None
@@ -832,8 +838,6 @@ namespace Valve::VR {
     static Valve::VR::EVREventType _get_VREvent_VendorSpecific_Reserved_End();
     // Set static field: static public Valve.VR.EVREventType VREvent_VendorSpecific_Reserved_End
     static void _set_VREvent_VendorSpecific_Reserved_End(Valve::VR::EVREventType value);
-    // Creating value type constructor for type: EVREventType
-    EVREventType(int value_ = {}) : value{value_} {}
   }; // Valve.VR.EVREventType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

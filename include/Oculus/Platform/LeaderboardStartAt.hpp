@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: LeaderboardStartAt
+    constexpr LeaderboardStartAt(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.LeaderboardStartAt Top
     static constexpr const int Top = 0;
     // Get static field: static public Oculus.Platform.LeaderboardStartAt Top
@@ -40,8 +46,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::LeaderboardStartAt _get_Unknown();
     // Set static field: static public Oculus.Platform.LeaderboardStartAt Unknown
     static void _set_Unknown(Oculus::Platform::LeaderboardStartAt value);
-    // Creating value type constructor for type: LeaderboardStartAt
-    LeaderboardStartAt(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.LeaderboardStartAt
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

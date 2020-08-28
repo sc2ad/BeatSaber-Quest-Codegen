@@ -25,6 +25,10 @@ namespace System::Collections {
     // private System.Globalization.TextInfo m_text
     // Offset: 0x10
     System::Globalization::TextInfo* m_text;
+    // Creating conversion operator: operator System::Globalization::TextInfo*
+    constexpr operator System::Globalization::TextInfo*() const {
+      return m_text;
+    }
     // public System.Void .ctor(System.Globalization.CultureInfo culture)
     // Offset: 0x133A858
     static CaseInsensitiveHashCodeProvider* New_ctor(System::Globalization::CultureInfo* culture);

@@ -16,6 +16,12 @@ namespace System::Diagnostics::Tracing {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EventLevel
+    constexpr EventLevel(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Diagnostics.Tracing.EventLevel LogAlways
     static constexpr const int LogAlways = 0;
     // Get static field: static public System.Diagnostics.Tracing.EventLevel LogAlways
@@ -52,8 +58,6 @@ namespace System::Diagnostics::Tracing {
     static System::Diagnostics::Tracing::EventLevel _get_Verbose();
     // Set static field: static public System.Diagnostics.Tracing.EventLevel Verbose
     static void _set_Verbose(System::Diagnostics::Tracing::EventLevel value);
-    // Creating value type constructor for type: EventLevel
-    EventLevel(int value_ = {}) : value{value_} {}
   }; // System.Diagnostics.Tracing.EventLevel
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

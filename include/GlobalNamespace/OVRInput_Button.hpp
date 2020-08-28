@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRInput
 #include "GlobalNamespace/OVRInput.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -16,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Button
+    constexpr Button(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRInput/Button None
     static constexpr const int None = 0;
     // Get static field: static public OVRInput/Button None
@@ -220,8 +228,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRInput::Button _get_Any();
     // Set static field: static public OVRInput/Button Any
     static void _set_Any(GlobalNamespace::OVRInput::Button value);
-    // Creating value type constructor for type: Button
-    Button(int value_ = {}) : value{value_} {}
   }; // OVRInput/Button
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TouchType
+    constexpr TouchType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.TouchType Direct
     static constexpr const int Direct = 0;
     // Get static field: static public UnityEngine.TouchType Direct
@@ -34,8 +40,6 @@ namespace UnityEngine {
     static UnityEngine::TouchType _get_Stylus();
     // Set static field: static public UnityEngine.TouchType Stylus
     static void _set_Stylus(UnityEngine::TouchType value);
-    // Creating value type constructor for type: TouchType
-    TouchType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.TouchType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

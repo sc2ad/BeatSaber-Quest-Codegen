@@ -21,7 +21,11 @@ namespace Mono {
     // Offset: 0x0
     System::IntPtr value;
     // Creating value type constructor for type: RuntimeEventHandle
-    RuntimeEventHandle(System::IntPtr value_ = {}) : value{value_} {}
+    constexpr RuntimeEventHandle(System::IntPtr value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const {
+      return value;
+    }
     // System.Void .ctor(System.IntPtr v)
     // Offset: 0xA4082C
     static RuntimeEventHandle* New_ctor(System::IntPtr v);

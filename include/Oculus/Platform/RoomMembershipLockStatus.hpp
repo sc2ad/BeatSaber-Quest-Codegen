@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: RoomMembershipLockStatus
+    constexpr RoomMembershipLockStatus(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.RoomMembershipLockStatus Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.RoomMembershipLockStatus Unknown
@@ -34,8 +40,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::RoomMembershipLockStatus _get_Unlock();
     // Set static field: static public Oculus.Platform.RoomMembershipLockStatus Unlock
     static void _set_Unlock(Oculus::Platform::RoomMembershipLockStatus value);
-    // Creating value type constructor for type: RoomMembershipLockStatus
-    RoomMembershipLockStatus(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.RoomMembershipLockStatus
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

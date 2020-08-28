@@ -46,6 +46,12 @@ namespace UnityEngine::ProBuilder {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: PolyEditMode
+      constexpr PolyEditMode(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public UnityEngine.ProBuilder.PolyShape/PolyEditMode None
       static constexpr const int None = 0;
       // Get static field: static public UnityEngine.ProBuilder.PolyShape/PolyEditMode None
@@ -70,8 +76,6 @@ namespace UnityEngine::ProBuilder {
       static UnityEngine::ProBuilder::PolyShape::PolyEditMode _get_Edit();
       // Set static field: static public UnityEngine.ProBuilder.PolyShape/PolyEditMode Edit
       static void _set_Edit(UnityEngine::ProBuilder::PolyShape::PolyEditMode value);
-      // Creating value type constructor for type: PolyEditMode
-      PolyEditMode(int value_ = {}) : value{value_} {}
     }; // UnityEngine.ProBuilder.PolyShape/PolyEditMode
     // private UnityEngine.ProBuilder.ProBuilderMesh m_Mesh
     // Offset: 0x18
@@ -91,6 +95,8 @@ namespace UnityEngine::ProBuilder {
     // System.Boolean isOnGrid
     // Offset: 0x31
     bool isOnGrid;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3> get_controlPoints()
     // Offset: 0x1032524
     System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::Vector3>* get_controlPoints();

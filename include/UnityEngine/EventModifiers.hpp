@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EventModifiers
+    constexpr EventModifiers(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.EventModifiers None
     static constexpr const int None = 0;
     // Get static field: static public UnityEngine.EventModifiers None
@@ -64,8 +70,6 @@ namespace UnityEngine {
     static UnityEngine::EventModifiers _get_FunctionKey();
     // Set static field: static public UnityEngine.EventModifiers FunctionKey
     static void _set_FunctionKey(UnityEngine::EventModifiers value);
-    // Creating value type constructor for type: EventModifiers
-    EventModifiers(int value_ = {}) : value{value_} {}
   }; // UnityEngine.EventModifiers
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

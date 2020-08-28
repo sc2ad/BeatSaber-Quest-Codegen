@@ -20,7 +20,11 @@ namespace System::Reflection {
     // Offset: 0x0
     ::Array<bool>* byRef;
     // Creating value type constructor for type: ParameterModifier
-    ParameterModifier(::Array<bool>* byRef_ = {}) : byRef{byRef_} {}
+    constexpr ParameterModifier(::Array<bool>* byRef_ = {}) : byRef{byRef_} {}
+    // Creating conversion operator: operator ::Array<bool>*
+    constexpr operator ::Array<bool>*() const {
+      return byRef;
+    }
   }; // System.Reflection.ParameterModifier
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

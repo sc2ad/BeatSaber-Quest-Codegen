@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: CollisionDetectionMode
+    constexpr CollisionDetectionMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.CollisionDetectionMode Discrete
     static constexpr const int Discrete = 0;
     // Get static field: static public UnityEngine.CollisionDetectionMode Discrete
@@ -40,8 +46,6 @@ namespace UnityEngine {
     static UnityEngine::CollisionDetectionMode _get_ContinuousSpeculative();
     // Set static field: static public UnityEngine.CollisionDetectionMode ContinuousSpeculative
     static void _set_ContinuousSpeculative(UnityEngine::CollisionDetectionMode value);
-    // Creating value type constructor for type: CollisionDetectionMode
-    CollisionDetectionMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.CollisionDetectionMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

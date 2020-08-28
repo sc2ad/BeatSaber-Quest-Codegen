@@ -16,6 +16,10 @@ namespace System::Reflection {
     // private System.String m_configuration
     // Offset: 0x10
     ::Il2CppString* m_configuration;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return m_configuration;
+    }
     // public System.Void .ctor(System.String configuration)
     // Offset: 0x136893C
     static AssemblyConfigurationAttribute* New_ctor(::Il2CppString* configuration);

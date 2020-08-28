@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Step
+    constexpr Step(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRPlugin/Step Render
     static constexpr const int Render = -1;
     // Get static field: static public OVRPlugin/Step Render
@@ -30,8 +36,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::Step _get_Physics();
     // Set static field: static public OVRPlugin/Step Physics
     static void _set_Physics(GlobalNamespace::OVRPlugin::Step value);
-    // Creating value type constructor for type: Step
-    Step(int value_ = {}) : value{value_} {}
   }; // OVRPlugin/Step
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

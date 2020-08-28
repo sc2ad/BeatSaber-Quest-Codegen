@@ -60,12 +60,12 @@ namespace System::Diagnostics::Tracing {
     // private System.Boolean writingScalars
     // Offset: 0x48
     bool writingScalars;
+    // Creating value type constructor for type: DataCollector
+    constexpr DataCollector(uint8_t* scratchEnd_ = {}, System::Diagnostics::Tracing::EventSource::EventData* datasEnd_ = {}, System::Runtime::InteropServices::GCHandle* pinsEnd_ = {}, System::Diagnostics::Tracing::EventSource::EventData* datasStart_ = {}, uint8_t* scratch_ = {}, System::Diagnostics::Tracing::EventSource::EventData* datas_ = {}, System::Runtime::InteropServices::GCHandle* pins_ = {}, ::Array<uint8_t>* buffer_ = {}, int bufferPos_ = {}, int bufferNesting_ = {}, bool writingScalars_ = {}) : scratchEnd{scratchEnd_}, datasEnd{datasEnd_}, pinsEnd{pinsEnd_}, datasStart{datasStart_}, scratch{scratch_}, datas{datas_}, pins{pins_}, buffer{buffer_}, bufferPos{bufferPos_}, bufferNesting{bufferNesting_}, writingScalars{writingScalars_} {}
     // Get static field: static System.Diagnostics.Tracing.DataCollector ThreadInstance
     static System::Diagnostics::Tracing::DataCollector _get_ThreadInstance();
     // Set static field: static System.Diagnostics.Tracing.DataCollector ThreadInstance
     static void _set_ThreadInstance(System::Diagnostics::Tracing::DataCollector value);
-    // Creating value type constructor for type: DataCollector
-    DataCollector(uint8_t* scratchEnd_ = {}, System::Diagnostics::Tracing::EventSource::EventData* datasEnd_ = {}, System::Runtime::InteropServices::GCHandle* pinsEnd_ = {}, System::Diagnostics::Tracing::EventSource::EventData* datasStart_ = {}, uint8_t* scratch_ = {}, System::Diagnostics::Tracing::EventSource::EventData* datas_ = {}, System::Runtime::InteropServices::GCHandle* pins_ = {}, ::Array<uint8_t>* buffer_ = {}, int bufferPos_ = {}, int bufferNesting_ = {}, bool writingScalars_ = {}) : scratchEnd{scratchEnd_}, datasEnd{datasEnd_}, pinsEnd{pinsEnd_}, datasStart{datasStart_}, scratch{scratch_}, datas{datas_}, pins{pins_}, buffer{buffer_}, bufferPos{bufferPos_}, bufferNesting{bufferNesting_}, writingScalars{writingScalars_} {}
     // System.Void Enable(System.Byte* scratch, System.Int32 scratchSize, System.Diagnostics.Tracing.EventSource/EventData* datas, System.Int32 dataCount, System.Runtime.InteropServices.GCHandle* pins, System.Int32 pinCount)
     // Offset: 0xA2D328
     void Enable(uint8_t* scratch, int scratchSize, System::Diagnostics::Tracing::EventSource::EventData* datas, int dataCount, System::Runtime::InteropServices::GCHandle* pins, int pinCount);

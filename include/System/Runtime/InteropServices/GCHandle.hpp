@@ -31,7 +31,11 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x0
     int handle;
     // Creating value type constructor for type: GCHandle
-    GCHandle(int handle_ = {}) : handle{handle_} {}
+    constexpr GCHandle(int handle_ = {}) : handle{handle_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return handle;
+    }
     // private System.Void .ctor(System.IntPtr h)
     // Offset: 0xA42544
     static GCHandle* New_ctor(System::IntPtr h);

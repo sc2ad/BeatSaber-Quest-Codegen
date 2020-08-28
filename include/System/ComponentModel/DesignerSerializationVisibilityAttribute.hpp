@@ -18,6 +18,10 @@ namespace System::ComponentModel {
     // private System.ComponentModel.DesignerSerializationVisibility visibility
     // Offset: 0x10
     System::ComponentModel::DesignerSerializationVisibility visibility;
+    // Creating conversion operator: operator System::ComponentModel::DesignerSerializationVisibility
+    constexpr operator System::ComponentModel::DesignerSerializationVisibility() const {
+      return visibility;
+    }
     // Get static field: static public readonly System.ComponentModel.DesignerSerializationVisibilityAttribute Content
     static System::ComponentModel::DesignerSerializationVisibilityAttribute* _get_Content();
     // Set static field: static public readonly System.ComponentModel.DesignerSerializationVisibilityAttribute Content

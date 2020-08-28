@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: IMECompositionMode
+    constexpr IMECompositionMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.IMECompositionMode Auto
     static constexpr const int Auto = 0;
     // Get static field: static public UnityEngine.IMECompositionMode Auto
@@ -34,8 +40,6 @@ namespace UnityEngine {
     static UnityEngine::IMECompositionMode _get_Off();
     // Set static field: static public UnityEngine.IMECompositionMode Off
     static void _set_Off(UnityEngine::IMECompositionMode value);
-    // Creating value type constructor for type: IMECompositionMode
-    IMECompositionMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.IMECompositionMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

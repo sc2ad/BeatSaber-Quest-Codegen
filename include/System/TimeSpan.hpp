@@ -35,6 +35,12 @@ namespace System {
     // System.Int64 _ticks
     // Offset: 0x0
     int64_t ticks;
+    // Creating value type constructor for type: TimeSpan
+    constexpr TimeSpan(int64_t ticks_ = {}) : ticks{ticks_} {}
+    // Creating conversion operator: operator int64_t
+    constexpr operator int64_t() const {
+      return ticks;
+    }
     // Get static field: static public readonly System.TimeSpan Zero
     static System::TimeSpan _get_Zero();
     // Set static field: static public readonly System.TimeSpan Zero
@@ -55,8 +61,6 @@ namespace System {
     static bool _get__legacyMode();
     // Set static field: static private System.Boolean _legacyMode
     static void _set__legacyMode(bool value);
-    // Creating value type constructor for type: TimeSpan
-    TimeSpan(int64_t ticks_ = {}) : ticks{ticks_} {}
     // public System.Void .ctor(System.Int64 ticks)
     // Offset: 0xA2DEEC
     static TimeSpan* New_ctor(int64_t ticks);

@@ -23,6 +23,10 @@ namespace NUnit::Framework::Internal {
     // private System.Boolean _genericFixture
     // Offset: 0x89
     bool genericFixture;
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return genericFixture;
+    }
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
     // Offset: 0x18F05D8
     // Implemented from: NUnit.Framework.Internal.TestSuite

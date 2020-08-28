@@ -38,6 +38,8 @@ namespace GlobalNamespace {
     // private System.Single _spawnPosZ
     // Offset: 0x30
     float spawnPosZ;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xC03420
     void Start();

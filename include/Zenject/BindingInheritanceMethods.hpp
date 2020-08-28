@@ -16,6 +16,12 @@ namespace Zenject {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: BindingInheritanceMethods
+    constexpr BindingInheritanceMethods(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Zenject.BindingInheritanceMethods None
     static constexpr const int None = 0;
     // Get static field: static public Zenject.BindingInheritanceMethods None
@@ -46,8 +52,6 @@ namespace Zenject {
     static Zenject::BindingInheritanceMethods _get_MoveDirectOnly();
     // Set static field: static public Zenject.BindingInheritanceMethods MoveDirectOnly
     static void _set_MoveDirectOnly(Zenject::BindingInheritanceMethods value);
-    // Creating value type constructor for type: BindingInheritanceMethods
-    BindingInheritanceMethods(int value_ = {}) : value{value_} {}
   }; // Zenject.BindingInheritanceMethods
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

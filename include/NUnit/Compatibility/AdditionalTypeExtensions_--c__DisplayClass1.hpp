@@ -28,6 +28,10 @@ namespace NUnit::Compatibility {
     // public System.Type to
     // Offset: 0x10
     System::Type* to;
+    // Creating conversion operator: operator System::Type*
+    constexpr operator System::Type*() const {
+      return to;
+    }
     // public System.Boolean <IsCastableFrom>b__0(System.Reflection.MethodInfo m)
     // Offset: 0x1071DF8
     bool $IsCastableFrom$b__0(System::Reflection::MethodInfo* m);

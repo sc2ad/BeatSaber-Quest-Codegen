@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: PlatformUI
+    constexpr PlatformUI(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRPlugin/PlatformUI None
     static constexpr const int None = -1;
     // Get static field: static public OVRPlugin/PlatformUI None
@@ -36,8 +42,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::PlatformUI _get_GlobalMenuTutorial();
     // Set static field: static public OVRPlugin/PlatformUI GlobalMenuTutorial
     static void _set_GlobalMenuTutorial(GlobalNamespace::OVRPlugin::PlatformUI value);
-    // Creating value type constructor for type: PlatformUI
-    PlatformUI(int value_ = {}) : value{value_} {}
   }; // OVRPlugin/PlatformUI
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -18,6 +18,12 @@ namespace HMUI {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SlideAnimationType
+    constexpr SlideAnimationType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public HMUI.ViewController/SlideAnimationType In
     static constexpr const int In = 0;
     // Get static field: static public HMUI.ViewController/SlideAnimationType In
@@ -30,8 +36,6 @@ namespace HMUI {
     static HMUI::ViewController::SlideAnimationType _get_Out();
     // Set static field: static public HMUI.ViewController/SlideAnimationType Out
     static void _set_Out(HMUI::ViewController::SlideAnimationType value);
-    // Creating value type constructor for type: SlideAnimationType
-    SlideAnimationType(int value_ = {}) : value{value_} {}
   }; // HMUI.ViewController/SlideAnimationType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

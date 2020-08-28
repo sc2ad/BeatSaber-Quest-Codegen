@@ -29,6 +29,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: Destination
+      constexpr Destination(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public SelectSubMenuDestination/Destination MainMenu
       static constexpr const int MainMenu = 0;
       // Get static field: static public SelectSubMenuDestination/Destination MainMenu
@@ -65,12 +71,14 @@ namespace GlobalNamespace {
       static GlobalNamespace::SelectSubMenuDestination::Destination _get_Tutorial();
       // Set static field: static public SelectSubMenuDestination/Destination Tutorial
       static void _set_Tutorial(GlobalNamespace::SelectSubMenuDestination::Destination value);
-      // Creating value type constructor for type: Destination
-      Destination(int value_ = {}) : value{value_} {}
     }; // SelectSubMenuDestination/Destination
     // public readonly SelectSubMenuDestination/Destination menuDestination
     // Offset: 0x10
     GlobalNamespace::SelectSubMenuDestination::Destination menuDestination;
+    // Creating conversion operator: operator GlobalNamespace::SelectSubMenuDestination::Destination
+    constexpr operator GlobalNamespace::SelectSubMenuDestination::Destination() const {
+      return menuDestination;
+    }
     // public System.Void .ctor(SelectSubMenuDestination/Destination menuDestination)
     // Offset: 0xC2DF44
     static SelectSubMenuDestination* New_ctor(GlobalNamespace::SelectSubMenuDestination::Destination menuDestination);

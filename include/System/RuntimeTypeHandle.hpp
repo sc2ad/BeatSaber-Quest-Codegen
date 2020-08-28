@@ -48,7 +48,11 @@ namespace System {
     // Offset: 0x0
     System::IntPtr value;
     // Creating value type constructor for type: RuntimeTypeHandle
-    RuntimeTypeHandle(System::IntPtr value_ = {}) : value{value_} {}
+    constexpr RuntimeTypeHandle(System::IntPtr value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const {
+      return value;
+    }
     // System.Void .ctor(System.IntPtr val)
     // Offset: 0xA32710
     static RuntimeTypeHandle* New_ctor(System::IntPtr val);

@@ -24,7 +24,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x8
     System::IntPtr m_handle;
     // Creating value type constructor for type: HandleRef
-    HandleRef(::Il2CppObject* m_wrapper_ = {}, System::IntPtr m_handle_ = {}) : m_wrapper{m_wrapper_}, m_handle{m_handle_} {}
+    constexpr HandleRef(::Il2CppObject* m_wrapper_ = {}, System::IntPtr m_handle_ = {}) : m_wrapper{m_wrapper_}, m_handle{m_handle_} {}
     // public System.Void .ctor(System.Object wrapper, System.IntPtr handle)
     // Offset: 0xA400D8
     static HandleRef* New_ctor(::Il2CppObject* wrapper, System::IntPtr handle);

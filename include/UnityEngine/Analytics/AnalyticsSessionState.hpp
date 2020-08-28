@@ -16,6 +16,12 @@ namespace UnityEngine::Analytics {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: AnalyticsSessionState
+    constexpr AnalyticsSessionState(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Analytics.AnalyticsSessionState kSessionStopped
     static constexpr const int kSessionStopped = 0;
     // Get static field: static public UnityEngine.Analytics.AnalyticsSessionState kSessionStopped
@@ -40,8 +46,6 @@ namespace UnityEngine::Analytics {
     static UnityEngine::Analytics::AnalyticsSessionState _get_kSessionResumed();
     // Set static field: static public UnityEngine.Analytics.AnalyticsSessionState kSessionResumed
     static void _set_kSessionResumed(UnityEngine::Analytics::AnalyticsSessionState value);
-    // Creating value type constructor for type: AnalyticsSessionState
-    AnalyticsSessionState(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Analytics.AnalyticsSessionState
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

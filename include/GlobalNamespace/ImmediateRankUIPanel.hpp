@@ -50,6 +50,8 @@ namespace GlobalNamespace {
     // private RankModel/Rank _prevImmediateRank
     // Offset: 0x3C
     GlobalNamespace::RankModel::Rank prevImmediateRank;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xB45190
     void Start();

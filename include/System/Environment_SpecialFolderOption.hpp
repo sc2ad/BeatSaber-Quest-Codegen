@@ -18,6 +18,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SpecialFolderOption
+    constexpr SpecialFolderOption(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Environment/SpecialFolderOption None
     static constexpr const int None = 0;
     // Get static field: static public System.Environment/SpecialFolderOption None
@@ -36,8 +42,6 @@ namespace System {
     static System::Environment::SpecialFolderOption _get_Create();
     // Set static field: static public System.Environment/SpecialFolderOption Create
     static void _set_Create(System::Environment::SpecialFolderOption value);
-    // Creating value type constructor for type: SpecialFolderOption
-    SpecialFolderOption(int value_ = {}) : value{value_} {}
   }; // System.Environment/SpecialFolderOption
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

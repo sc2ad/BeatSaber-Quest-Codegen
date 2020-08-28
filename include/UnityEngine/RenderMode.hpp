@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: RenderMode
+    constexpr RenderMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.RenderMode ScreenSpaceOverlay
     static constexpr const int ScreenSpaceOverlay = 0;
     // Get static field: static public UnityEngine.RenderMode ScreenSpaceOverlay
@@ -34,8 +40,6 @@ namespace UnityEngine {
     static UnityEngine::RenderMode _get_WorldSpace();
     // Set static field: static public UnityEngine.RenderMode WorldSpace
     static void _set_WorldSpace(UnityEngine::RenderMode value);
-    // Creating value type constructor for type: RenderMode
-    RenderMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.RenderMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

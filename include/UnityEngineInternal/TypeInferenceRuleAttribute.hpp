@@ -23,6 +23,10 @@ namespace UnityEngineInternal {
     // private readonly System.String _rule
     // Offset: 0x10
     ::Il2CppString* rule;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return rule;
+    }
     // public System.Void .ctor(UnityEngineInternal.TypeInferenceRules rule)
     // Offset: 0x139F680
     static TypeInferenceRuleAttribute* New_ctor(UnityEngineInternal::TypeInferenceRules rule);

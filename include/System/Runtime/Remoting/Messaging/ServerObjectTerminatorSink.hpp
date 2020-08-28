@@ -25,6 +25,10 @@ namespace System::Runtime::Remoting::Messaging {
     // private System.Runtime.Remoting.Messaging.IMessageSink _nextSink
     // Offset: 0x10
     System::Runtime::Remoting::Messaging::IMessageSink* nextSink;
+    // Creating conversion operator: operator System::Runtime::Remoting::Messaging::IMessageSink*
+    constexpr operator System::Runtime::Remoting::Messaging::IMessageSink*() const {
+      return nextSink;
+    }
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMessageSink nextSink)
     // Offset: 0xE138F8
     static ServerObjectTerminatorSink* New_ctor(System::Runtime::Remoting::Messaging::IMessageSink* nextSink);

@@ -16,6 +16,12 @@ namespace UnityEngine::Timeline {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ClipCaps
+    constexpr ClipCaps(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Timeline.ClipCaps None
     static constexpr const int None = 0;
     // Get static field: static public UnityEngine.Timeline.ClipCaps None
@@ -58,8 +64,6 @@ namespace UnityEngine::Timeline {
     static UnityEngine::Timeline::ClipCaps _get_All();
     // Set static field: static public UnityEngine.Timeline.ClipCaps All
     static void _set_All(UnityEngine::Timeline::ClipCaps value);
-    // Creating value type constructor for type: ClipCaps
-    ClipCaps(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Timeline.ClipCaps
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

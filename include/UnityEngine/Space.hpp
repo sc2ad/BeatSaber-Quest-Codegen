@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Space
+    constexpr Space(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Space World
     static constexpr const int World = 0;
     // Get static field: static public UnityEngine.Space World
@@ -28,8 +34,6 @@ namespace UnityEngine {
     static UnityEngine::Space _get_Self();
     // Set static field: static public UnityEngine.Space Self
     static void _set_Self(UnityEngine::Space value);
-    // Creating value type constructor for type: Space
-    Space(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Space
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

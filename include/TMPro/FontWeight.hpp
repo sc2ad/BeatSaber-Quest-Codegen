@@ -16,6 +16,12 @@ namespace TMPro {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: FontWeight
+    constexpr FontWeight(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public TMPro.FontWeight Thin
     static constexpr const int Thin = 100;
     // Get static field: static public TMPro.FontWeight Thin
@@ -70,8 +76,6 @@ namespace TMPro {
     static TMPro::FontWeight _get_Black();
     // Set static field: static public TMPro.FontWeight Black
     static void _set_Black(TMPro::FontWeight value);
-    // Creating value type constructor for type: FontWeight
-    FontWeight(int value_ = {}) : value{value_} {}
   }; // TMPro.FontWeight
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

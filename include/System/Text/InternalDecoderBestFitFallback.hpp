@@ -31,6 +31,8 @@ namespace System::Text {
     // System.Char cReplacement
     // Offset: 0x28
     ::Il2CppChar cReplacement;
+    // Deleting conversion operator: operator bool
+    constexpr operator bool() const = delete;
     // System.Void .ctor(System.Text.Encoding encoding)
     // Offset: 0x12F53F4
     static InternalDecoderBestFitFallback* New_ctor(System::Text::Encoding* encoding);

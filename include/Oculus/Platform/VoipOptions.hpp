@@ -25,6 +25,10 @@ namespace Oculus::Platform {
     // private System.IntPtr Handle
     // Offset: 0x10
     System::IntPtr Handle;
+    // Creating conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const {
+      return Handle;
+    }
     // public System.Void SetBitrateForNewConnections(Oculus.Platform.VoipBitrate value)
     // Offset: 0x196D1B8
     void SetBitrateForNewConnections(Oculus::Platform::VoipBitrate value);

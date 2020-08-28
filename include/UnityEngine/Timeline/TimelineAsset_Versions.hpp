@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Timeline.TimelineAsset
 #include "UnityEngine/Timeline/TimelineAsset.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
@@ -16,14 +18,18 @@ namespace UnityEngine::Timeline {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Versions
+    constexpr Versions(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Timeline.TimelineAsset/Versions Initial
     static constexpr const int Initial = 0;
     // Get static field: static public UnityEngine.Timeline.TimelineAsset/Versions Initial
     static UnityEngine::Timeline::TimelineAsset::Versions _get_Initial();
     // Set static field: static public UnityEngine.Timeline.TimelineAsset/Versions Initial
     static void _set_Initial(UnityEngine::Timeline::TimelineAsset::Versions value);
-    // Creating value type constructor for type: Versions
-    Versions(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Timeline.TimelineAsset/Versions
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

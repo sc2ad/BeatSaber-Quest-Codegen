@@ -18,6 +18,10 @@ namespace UnityEngine::Timeline {
     // private UnityEngine.Color m_Color
     // Offset: 0x10
     UnityEngine::Color m_Color;
+    // Creating conversion operator: operator UnityEngine::Color
+    constexpr operator UnityEngine::Color() const {
+      return m_Color;
+    }
     // public UnityEngine.Color get_color()
     // Offset: 0x190F5D0
     UnityEngine::Color get_color();

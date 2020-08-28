@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     // Offset: 0x40
     System::Runtime::CompilerServices::TaskAwaiter $$u__1;
     // Creating value type constructor for type: $LoadImageAsync$d__2
-    $LoadImageAsync$d__2(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<UnityEngine::Texture2D*> $$t__builder_ = {}, ::Il2CppString* path_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, UnityEngine::Networking::UnityWebRequest* $www$5__2_ = {}, UnityEngine::AsyncOperation* $request$5__3_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, path{path_}, cancellationToken{cancellationToken_}, $www$5__2{$www$5__2_}, $request$5__3{$request$5__3_}, $$u__1{$$u__1_} {}
+    constexpr $LoadImageAsync$d__2(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<UnityEngine::Texture2D*> $$t__builder_ = {}, ::Il2CppString* path_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, UnityEngine::Networking::UnityWebRequest* $www$5__2_ = {}, UnityEngine::AsyncOperation* $request$5__3_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, path{path_}, cancellationToken{cancellationToken_}, $www$5__2{$www$5__2_}, $request$5__3{$request$5__3_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
     // Offset: 0xA5E61C
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine

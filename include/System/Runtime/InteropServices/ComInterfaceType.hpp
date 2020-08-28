@@ -16,6 +16,12 @@ namespace System::Runtime::InteropServices {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ComInterfaceType
+    constexpr ComInterfaceType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Runtime.InteropServices.ComInterfaceType InterfaceIsDual
     static constexpr const int InterfaceIsDual = 0;
     // Get static field: static public System.Runtime.InteropServices.ComInterfaceType InterfaceIsDual
@@ -40,8 +46,6 @@ namespace System::Runtime::InteropServices {
     static System::Runtime::InteropServices::ComInterfaceType _get_InterfaceIsIInspectable();
     // Set static field: static public System.Runtime.InteropServices.ComInterfaceType InterfaceIsIInspectable
     static void _set_InterfaceIsIInspectable(System::Runtime::InteropServices::ComInterfaceType value);
-    // Creating value type constructor for type: ComInterfaceType
-    ComInterfaceType(int value_ = {}) : value{value_} {}
   }; // System.Runtime.InteropServices.ComInterfaceType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

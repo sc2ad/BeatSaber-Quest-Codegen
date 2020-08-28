@@ -38,6 +38,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: FinishAction
+      constexpr FinishAction(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public SettingsNavigationController/FinishAction Ok
       static constexpr const int Ok = 0;
       // Get static field: static public SettingsNavigationController/FinishAction Ok
@@ -56,8 +62,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::SettingsNavigationController::FinishAction _get_Apply();
       // Set static field: static public SettingsNavigationController/FinishAction Apply
       static void _set_Apply(GlobalNamespace::SettingsNavigationController::FinishAction value);
-      // Creating value type constructor for type: FinishAction
-      FinishAction(int value_ = {}) : value{value_} {}
     }; // SettingsNavigationController/FinishAction
     // private UnityEngine.UI.Button _okButton
     // Offset: 0x90

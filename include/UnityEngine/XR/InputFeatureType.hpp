@@ -16,6 +16,12 @@ namespace UnityEngine::XR {
     // public System.UInt32 value__
     // Offset: 0x0
     uint value;
+    // Creating value type constructor for type: InputFeatureType
+    constexpr InputFeatureType(uint value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator uint
+    constexpr operator uint() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.XR.InputFeatureType Custom
     static constexpr const uint Custom = 0u;
     // Get static field: static public UnityEngine.XR.InputFeatureType Custom
@@ -82,8 +88,6 @@ namespace UnityEngine::XR {
     static UnityEngine::XR::InputFeatureType _get_kUnityXRInputFeatureTypeInvalid();
     // Set static field: static public UnityEngine.XR.InputFeatureType kUnityXRInputFeatureTypeInvalid
     static void _set_kUnityXRInputFeatureTypeInvalid(UnityEngine::XR::InputFeatureType value);
-    // Creating value type constructor for type: InputFeatureType
-    InputFeatureType(uint value_ = {}) : value{value_} {}
   }; // UnityEngine.XR.InputFeatureType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

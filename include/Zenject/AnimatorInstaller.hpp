@@ -23,6 +23,8 @@ namespace Zenject {
     // private readonly UnityEngine.Animator _animator
     // Offset: 0x18
     UnityEngine::Animator* animator;
+    // Deleting conversion operator: operator Zenject::DiContainer*
+    constexpr operator Zenject::DiContainer*() const = delete;
     // public System.Void .ctor(UnityEngine.Animator animator)
     // Offset: 0xD682BC
     static AnimatorInstaller* New_ctor(UnityEngine::Animator* animator);

@@ -16,6 +16,12 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ETrackedPropertyError
+    constexpr ETrackedPropertyError(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.ETrackedPropertyError TrackedProp_Success
     static constexpr const int TrackedProp_Success = 0;
     // Get static field: static public Valve.VR.ETrackedPropertyError TrackedProp_Success
@@ -94,8 +100,6 @@ namespace Valve::VR {
     static Valve::VR::ETrackedPropertyError _get_TrackedProp_CannotWriteToWildcards();
     // Set static field: static public Valve.VR.ETrackedPropertyError TrackedProp_CannotWriteToWildcards
     static void _set_TrackedProp_CannotWriteToWildcards(Valve::VR::ETrackedPropertyError value);
-    // Creating value type constructor for type: ETrackedPropertyError
-    ETrackedPropertyError(int value_ = {}) : value{value_} {}
   }; // Valve.VR.ETrackedPropertyError
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

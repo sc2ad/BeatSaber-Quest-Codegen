@@ -18,6 +18,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: GuidParseThrowStyle
+    constexpr GuidParseThrowStyle(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Guid/GuidParseThrowStyle None
     static constexpr const int None = 0;
     // Get static field: static public System.Guid/GuidParseThrowStyle None
@@ -36,8 +42,6 @@ namespace System {
     static System::Guid::GuidParseThrowStyle _get_AllButOverflow();
     // Set static field: static public System.Guid/GuidParseThrowStyle AllButOverflow
     static void _set_AllButOverflow(System::Guid::GuidParseThrowStyle value);
-    // Creating value type constructor for type: GuidParseThrowStyle
-    GuidParseThrowStyle(int value_ = {}) : value{value_} {}
   }; // System.Guid/GuidParseThrowStyle
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

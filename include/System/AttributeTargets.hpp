@@ -16,6 +16,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: AttributeTargets
+    constexpr AttributeTargets(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.AttributeTargets Assembly
     static constexpr const int Assembly = 1;
     // Get static field: static public System.AttributeTargets Assembly
@@ -112,8 +118,6 @@ namespace System {
     static System::AttributeTargets _get_All();
     // Set static field: static public System.AttributeTargets All
     static void _set_All(System::AttributeTargets value);
-    // Creating value type constructor for type: AttributeTargets
-    AttributeTargets(int value_ = {}) : value{value_} {}
   }; // System.AttributeTargets
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

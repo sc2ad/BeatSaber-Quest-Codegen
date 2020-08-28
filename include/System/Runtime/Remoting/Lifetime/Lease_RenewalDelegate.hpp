@@ -14,7 +14,8 @@
 // Forward declaring namespace: System
 namespace System {
   // Skipping declaration: IntPtr because it is already included!
-  // Skipping declaration: TimeSpan because it is already included!
+  // Forward declaring type: TimeSpan
+  struct TimeSpan;
   // Forward declaring type: IAsyncResult
   class IAsyncResult;
   // Forward declaring type: AsyncCallback
@@ -22,7 +23,8 @@ namespace System {
 }
 // Forward declaring namespace: System::Runtime::Remoting::Lifetime
 namespace System::Runtime::Remoting::Lifetime {
-  // Skipping declaration: ILease because it is already included!
+  // Forward declaring type: ILease
+  class ILease;
 }
 // Completed forward declares
 // Type namespace: System.Runtime.Remoting.Lifetime

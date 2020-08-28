@@ -26,6 +26,10 @@ namespace UnityEngine::EventSystems {
     // private System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/ButtonState> m_TrackedButtons
     // Offset: 0x10
     System::Collections::Generic::List_1<UnityEngine::EventSystems::PointerInputModule::ButtonState*>* m_TrackedButtons;
+    // Creating conversion operator: operator System::Collections::Generic::List_1<UnityEngine::EventSystems::PointerInputModule::ButtonState*>*
+    constexpr operator System::Collections::Generic::List_1<UnityEngine::EventSystems::PointerInputModule::ButtonState*>*() const {
+      return m_TrackedButtons;
+    }
     // public System.Boolean AnyPressesThisFrame()
     // Offset: 0xE02780
     bool AnyPressesThisFrame();

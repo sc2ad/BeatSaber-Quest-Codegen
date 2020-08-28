@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: KeyboardShortcutsManager
 #include "GlobalNamespace/KeyboardShortcutsManager.hpp"
+// Including type: UnityEngine.KeyCode
+#include "UnityEngine/KeyCode.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

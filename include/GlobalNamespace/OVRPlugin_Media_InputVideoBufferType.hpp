@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: InputVideoBufferType
+    constexpr InputVideoBufferType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRPlugin/Media/InputVideoBufferType Memory
     static constexpr const int Memory = 0;
     // Get static field: static public OVRPlugin/Media/InputVideoBufferType Memory
@@ -36,8 +42,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::Media::InputVideoBufferType _get_EnumSize();
     // Set static field: static public OVRPlugin/Media/InputVideoBufferType EnumSize
     static void _set_EnumSize(GlobalNamespace::OVRPlugin::Media::InputVideoBufferType value);
-    // Creating value type constructor for type: InputVideoBufferType
-    InputVideoBufferType(int value_ = {}) : value{value_} {}
   }; // OVRPlugin/Media/InputVideoBufferType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -37,6 +37,10 @@ namespace Valve::VR {
     // private Valve.VR.IVRScreenshots FnTable
     // Offset: 0x10
     Valve::VR::IVRScreenshots FnTable;
+    // Creating conversion operator: operator Valve::VR::IVRScreenshots
+    constexpr operator Valve::VR::IVRScreenshots() const {
+      return FnTable;
+    }
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0xFE792C
     static CVRScreenshots* New_ctor(System::IntPtr pInterface);

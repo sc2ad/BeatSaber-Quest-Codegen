@@ -16,6 +16,12 @@ namespace TMPro {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: MaskingTypes
+    constexpr MaskingTypes(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public TMPro.MaskingTypes MaskOff
     static constexpr const int MaskOff = 0;
     // Get static field: static public TMPro.MaskingTypes MaskOff
@@ -34,8 +40,6 @@ namespace TMPro {
     static TMPro::MaskingTypes _get_MaskSoft();
     // Set static field: static public TMPro.MaskingTypes MaskSoft
     static void _set_MaskSoft(TMPro::MaskingTypes value);
-    // Creating value type constructor for type: MaskingTypes
-    MaskingTypes(int value_ = {}) : value{value_} {}
   }; // TMPro.MaskingTypes
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

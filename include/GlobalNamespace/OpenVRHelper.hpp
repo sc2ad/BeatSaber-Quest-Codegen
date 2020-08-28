@@ -46,6 +46,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: VRControllerManufacturerName
+      constexpr VRControllerManufacturerName(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public OpenVRHelper/VRControllerManufacturerName HTC
       static constexpr const int HTC = 0;
       // Get static field: static public OpenVRHelper/VRControllerManufacturerName HTC
@@ -76,8 +82,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::OpenVRHelper::VRControllerManufacturerName _get_Undefined();
       // Set static field: static public OpenVRHelper/VRControllerManufacturerName Undefined
       static void _set_Undefined(GlobalNamespace::OpenVRHelper::VRControllerManufacturerName value);
-      // Creating value type constructor for type: VRControllerManufacturerName
-      VRControllerManufacturerName(int value_ = {}) : value{value_} {}
     }; // OpenVRHelper/VRControllerManufacturerName
     // private System.Action inputFocusWasCapturedEvent
     // Offset: 0x10

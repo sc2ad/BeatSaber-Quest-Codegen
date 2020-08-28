@@ -24,6 +24,8 @@ namespace UnityEngine {
     // private System.Int32 m_Y
     // Offset: 0x4
     int m_Y;
+    // Creating value type constructor for type: Vector2Int
+    constexpr Vector2Int(int m_X_ = {}, int m_Y_ = {}) : m_X{m_X_}, m_Y{m_Y_} {}
     // Get static field: static private readonly UnityEngine.Vector2Int s_Zero
     static UnityEngine::Vector2Int _get_s_Zero();
     // Set static field: static private readonly UnityEngine.Vector2Int s_Zero
@@ -48,8 +50,6 @@ namespace UnityEngine {
     static UnityEngine::Vector2Int _get_s_Right();
     // Set static field: static private readonly UnityEngine.Vector2Int s_Right
     static void _set_s_Right(UnityEngine::Vector2Int value);
-    // Creating value type constructor for type: Vector2Int
-    Vector2Int(int m_X_ = {}, int m_Y_ = {}) : m_X{m_X_}, m_Y{m_Y_} {}
     // public System.Int32 get_x()
     // Offset: 0xA47854
     int get_x();

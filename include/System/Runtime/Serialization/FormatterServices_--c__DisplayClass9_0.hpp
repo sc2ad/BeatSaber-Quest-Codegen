@@ -33,6 +33,10 @@ namespace System::Runtime::Serialization {
     // public System.Type type
     // Offset: 0x10
     System::Type* type;
+    // Creating conversion operator: operator System::Type*
+    constexpr operator System::Type*() const {
+      return type;
+    }
     // System.Reflection.MemberInfo[] <GetSerializableMembers>b__0(System.Runtime.Serialization.MemberHolder _)
     // Offset: 0xE24DF0
     ::Array<System::Reflection::MemberInfo*>* $GetSerializableMembers$b__0(System::Runtime::Serialization::MemberHolder* _);

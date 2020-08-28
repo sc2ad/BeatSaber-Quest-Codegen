@@ -30,6 +30,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: RotationMode
+      constexpr RotationMode(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public Billboard/RotationMode AllAxis
       static constexpr const int AllAxis = 0;
       // Get static field: static public Billboard/RotationMode AllAxis
@@ -54,8 +60,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::Billboard::RotationMode _get_ZAxis();
       // Set static field: static public Billboard/RotationMode ZAxis
       static void _set_ZAxis(GlobalNamespace::Billboard::RotationMode value);
-      // Creating value type constructor for type: RotationMode
-      RotationMode(int value_ = {}) : value{value_} {}
     }; // Billboard/RotationMode
     // private Billboard/RotationMode _rotationMode
     // Offset: 0x18
@@ -66,6 +70,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Transform _transform
     // Offset: 0x20
     UnityEngine::Transform* transform;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Awake()
     // Offset: 0xCADD3C
     void Awake();

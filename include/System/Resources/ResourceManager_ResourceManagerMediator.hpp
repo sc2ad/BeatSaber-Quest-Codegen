@@ -42,6 +42,10 @@ namespace System::Resources {
     // private System.Resources.ResourceManager _rm
     // Offset: 0x10
     System::Resources::ResourceManager* rm;
+    // Creating conversion operator: operator System::Resources::ResourceManager*
+    constexpr operator System::Resources::ResourceManager*() const {
+      return rm;
+    }
     // System.Void .ctor(System.Resources.ResourceManager rm)
     // Offset: 0x115D3AC
     static ResourceManager::ResourceManagerMediator* New_ctor(System::Resources::ResourceManager* rm);

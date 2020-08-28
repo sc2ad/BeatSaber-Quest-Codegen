@@ -16,6 +16,12 @@ namespace System::Globalization {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: CompareOptions
+    constexpr CompareOptions(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Globalization.CompareOptions None
     static constexpr const int None = 0;
     // Get static field: static public System.Globalization.CompareOptions None
@@ -70,8 +76,6 @@ namespace System::Globalization {
     static System::Globalization::CompareOptions _get_Ordinal();
     // Set static field: static public System.Globalization.CompareOptions Ordinal
     static void _set_Ordinal(System::Globalization::CompareOptions value);
-    // Creating value type constructor for type: CompareOptions
-    CompareOptions(int value_ = {}) : value{value_} {}
   }; // System.Globalization.CompareOptions
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

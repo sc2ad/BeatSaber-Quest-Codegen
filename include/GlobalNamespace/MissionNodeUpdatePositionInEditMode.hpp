@@ -23,6 +23,8 @@ namespace GlobalNamespace {
     // private MissionNodeConnection _missionNodeConnection
     // Offset: 0x18
     GlobalNamespace::MissionNodeConnection* missionNodeConnection;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void .ctor()
     // Offset: 0xC0A4E8
     // Implemented from: UnityEngine.MonoBehaviour

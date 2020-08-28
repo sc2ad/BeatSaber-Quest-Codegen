@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: AppStartType
+    constexpr AppStartType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public AppInit/AppStartType AppStart
     static constexpr const int AppStart = 0;
     // Get static field: static public AppInit/AppStartType AppStart
@@ -36,8 +42,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::AppInit::AppStartType _get_MultiSceneEditor();
     // Set static field: static public AppInit/AppStartType MultiSceneEditor
     static void _set_MultiSceneEditor(GlobalNamespace::AppInit::AppStartType value);
-    // Creating value type constructor for type: AppStartType
-    AppStartType(int value_ = {}) : value{value_} {}
   }; // AppInit/AppStartType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

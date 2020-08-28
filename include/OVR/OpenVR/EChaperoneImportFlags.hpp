@@ -16,14 +16,18 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EChaperoneImportFlags
+    constexpr EChaperoneImportFlags(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.EChaperoneImportFlags EChaperoneImport_BoundsOnly
     static constexpr const int EChaperoneImport_BoundsOnly = 1;
     // Get static field: static public OVR.OpenVR.EChaperoneImportFlags EChaperoneImport_BoundsOnly
     static OVR::OpenVR::EChaperoneImportFlags _get_EChaperoneImport_BoundsOnly();
     // Set static field: static public OVR.OpenVR.EChaperoneImportFlags EChaperoneImport_BoundsOnly
     static void _set_EChaperoneImport_BoundsOnly(OVR::OpenVR::EChaperoneImportFlags value);
-    // Creating value type constructor for type: EChaperoneImportFlags
-    EChaperoneImportFlags(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EChaperoneImportFlags
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -27,6 +27,12 @@ namespace GlobalNamespace {
       // public System.Byte value__
       // Offset: 0x0
       uint8_t value;
+      // Creating value type constructor for type: Platform
+      constexpr Platform(uint8_t value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator uint8_t
+      constexpr operator uint8_t() const {
+        return value;
+      }
       // static field const value: static public PlatformInfo/Platform Test
       static constexpr const uint8_t Test = 0u;
       // Get static field: static public PlatformInfo/Platform Test
@@ -51,8 +57,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::PlatformInfo::Platform _get_PS4();
       // Set static field: static public PlatformInfo/Platform PS4
       static void _set_PS4(GlobalNamespace::PlatformInfo::Platform value);
-      // Creating value type constructor for type: Platform
-      Platform(uint8_t value_ = {}) : value{value_} {}
     }; // PlatformInfo/Platform
     // public readonly PlatformInfo/Platform platform
     // Offset: 0x10

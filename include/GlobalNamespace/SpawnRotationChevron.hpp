@@ -34,6 +34,8 @@ namespace GlobalNamespace {
     // private SpawnRotationChevron/InitData _initData
     // Offset: 0x28
     GlobalNamespace::SpawnRotationChevron::InitData* initData;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xB9D0C8
     void Start();

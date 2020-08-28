@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: VROverlayFlags
+    constexpr VROverlayFlags(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.VROverlayFlags None
     static constexpr const int None = 0;
     // Get static field: static public OVR.OpenVR.VROverlayFlags None
@@ -112,8 +118,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::VROverlayFlags _get_VisibleInDashboard();
     // Set static field: static public OVR.OpenVR.VROverlayFlags VisibleInDashboard
     static void _set_VisibleInDashboard(OVR::OpenVR::VROverlayFlags value);
-    // Creating value type constructor for type: VROverlayFlags
-    VROverlayFlags(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.VROverlayFlags
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

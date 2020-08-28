@@ -23,6 +23,10 @@ namespace System {
     // private readonly System.TimeZoneInfo LocalTimeZone
     // Offset: 0x10
     System::TimeZoneInfo* LocalTimeZone;
+    // Creating conversion operator: operator System::TimeZoneInfo*
+    constexpr operator System::TimeZoneInfo*() const {
+      return LocalTimeZone;
+    }
     // static public System.Boolean GetTimeZoneData(System.Int32 year, System.Int64[] data, System.String[] names, System.Boolean daylight_inverted)
     // Offset: 0x10CF4AC
     static bool GetTimeZoneData(int year, ::Array<int64_t>*& data, ::Array<::Il2CppString*>*& names, bool& daylight_inverted);

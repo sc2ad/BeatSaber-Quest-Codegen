@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Imu_OffScaleFlags
+    constexpr Imu_OffScaleFlags(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.Imu_OffScaleFlags OffScale_AccelX
     static constexpr const int OffScale_AccelX = 1;
     // Get static field: static public OVR.OpenVR.Imu_OffScaleFlags OffScale_AccelX
@@ -52,8 +58,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::Imu_OffScaleFlags _get_OffScale_GyroZ();
     // Set static field: static public OVR.OpenVR.Imu_OffScaleFlags OffScale_GyroZ
     static void _set_OffScale_GyroZ(OVR::OpenVR::Imu_OffScaleFlags value);
-    // Creating value type constructor for type: Imu_OffScaleFlags
-    Imu_OffScaleFlags(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.Imu_OffScaleFlags
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

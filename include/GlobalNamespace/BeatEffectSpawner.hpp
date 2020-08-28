@@ -43,6 +43,8 @@ namespace GlobalNamespace {
     // private SongController _songController
     // Offset: 0x38
     GlobalNamespace::SongController* songController;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xB8E420
     void Start();

@@ -52,6 +52,8 @@ namespace GlobalNamespace {
     // private System.Boolean _interactable
     // Offset: 0x3B
     bool interactable;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void add_nodeWasSelectEvent(System.Action`1<MissionNodeVisualController> value)
     // Offset: 0xC09F88
     void add_nodeWasSelectEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);

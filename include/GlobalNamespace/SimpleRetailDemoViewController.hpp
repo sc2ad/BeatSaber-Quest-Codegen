@@ -40,6 +40,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: MenuButton
+      constexpr MenuButton(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public SimpleRetailDemoViewController/MenuButton PlayTutorial
       static constexpr const int PlayTutorial = 0;
       // Get static field: static public SimpleRetailDemoViewController/MenuButton PlayTutorial
@@ -64,8 +70,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::SimpleRetailDemoViewController::MenuButton _get_Exit();
       // Set static field: static public SimpleRetailDemoViewController/MenuButton Exit
       static void _set_Exit(GlobalNamespace::SimpleRetailDemoViewController::MenuButton value);
-      // Creating value type constructor for type: MenuButton
-      MenuButton(int value_ = {}) : value{value_} {}
     }; // SimpleRetailDemoViewController/MenuButton
     // private UnityEngine.UI.Button _tutorialButton
     // Offset: 0x68

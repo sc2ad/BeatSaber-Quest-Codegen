@@ -27,6 +27,8 @@ namespace GlobalNamespace {
     // private PreviewBeatmapLevelSO[] _beatmapLevels
     // Offset: 0x18
     ::Array<GlobalNamespace::PreviewBeatmapLevelSO*>* beatmapLevels;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public IPreviewBeatmapLevel[] get_beatmapLevels()
     // Offset: 0xC1E480
     // Implemented from: IBeatmapLevelCollection

@@ -20,7 +20,7 @@ namespace System::Runtime::CompilerServices {
     // Nested type: System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter
     struct YieldAwaiter;
     // Creating value type constructor for type: YieldAwaitable
-    YieldAwaitable() {}
+    constexpr YieldAwaitable() {}
     // public System.Runtime.CompilerServices.YieldAwaitable/YieldAwaiter GetAwaiter()
     // Offset: 0xA4252C
     System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter GetAwaiter();

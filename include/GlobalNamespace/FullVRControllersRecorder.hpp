@@ -40,6 +40,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: Mode
+      constexpr Mode(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public FullVRControllersRecorder/Mode Record
       static constexpr const int Record = 0;
       // Get static field: static public FullVRControllersRecorder/Mode Record
@@ -58,8 +64,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::FullVRControllersRecorder::Mode _get_Off();
       // Set static field: static public FullVRControllersRecorder/Mode Off
       static void _set_Off(GlobalNamespace::FullVRControllersRecorder::Mode value);
-      // Creating value type constructor for type: Mode
-      Mode(int value_ = {}) : value{value_} {}
     }; // FullVRControllersRecorder/Mode
     // private System.String _recordingFilePath
     // Offset: 0x18
@@ -94,6 +98,8 @@ namespace GlobalNamespace {
     // private VRControllersRecorderData _data
     // Offset: 0x58
     GlobalNamespace::VRControllersRecorderData* data;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void add_didSetControllerTransformEvent(System.Action`1<VRController> value)
     // Offset: 0xBF25B0
     void add_didSetControllerTransformEvent(System::Action_1<GlobalNamespace::VRController*>* value);

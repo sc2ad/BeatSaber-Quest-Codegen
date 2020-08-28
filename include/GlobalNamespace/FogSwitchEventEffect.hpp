@@ -42,6 +42,8 @@ namespace GlobalNamespace {
     // private BeatmapObjectCallbackController _beatmapObjectCallbackController
     // Offset: 0x28
     GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static field const value: static private System.Single kTransitionDuration
     static constexpr const float kTransitionDuration = 2;
     // Get static field: static private System.Single kTransitionDuration

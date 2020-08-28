@@ -16,6 +16,12 @@ namespace System::Net::Sockets {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SocketFlags
+    constexpr SocketFlags(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Net.Sockets.SocketFlags None
     static constexpr const int None = 0;
     // Get static field: static public System.Net.Sockets.SocketFlags None
@@ -76,8 +82,6 @@ namespace System::Net::Sockets {
     static System::Net::Sockets::SocketFlags _get_Partial();
     // Set static field: static public System.Net.Sockets.SocketFlags Partial
     static void _set_Partial(System::Net::Sockets::SocketFlags value);
-    // Creating value type constructor for type: SocketFlags
-    SocketFlags(int value_ = {}) : value{value_} {}
   }; // System.Net.Sockets.SocketFlags
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

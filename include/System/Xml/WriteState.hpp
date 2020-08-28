@@ -16,6 +16,12 @@ namespace System::Xml {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: WriteState
+    constexpr WriteState(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Xml.WriteState Start
     static constexpr const int Start = 0;
     // Get static field: static public System.Xml.WriteState Start
@@ -58,8 +64,6 @@ namespace System::Xml {
     static System::Xml::WriteState _get_Error();
     // Set static field: static public System.Xml.WriteState Error
     static void _set_Error(System::Xml::WriteState value);
-    // Creating value type constructor for type: WriteState
-    WriteState(int value_ = {}) : value{value_} {}
   }; // System.Xml.WriteState
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -82,6 +82,8 @@ namespace System::IO {
     // private System.Threading.Tasks.Task _asyncReadTask
     // Offset: 0x60
     System::Threading::Tasks::Task* asyncReadTask;
+    // Deleting conversion operator: operator ::Il2CppObject*
+    constexpr operator ::Il2CppObject*() const = delete;
     // Get static field: static public readonly System.IO.StreamReader Null
     static System::IO::StreamReader* _get_Null();
     // Set static field: static public readonly System.IO.StreamReader Null

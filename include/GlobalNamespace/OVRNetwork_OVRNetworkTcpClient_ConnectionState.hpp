@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ConnectionState
+    constexpr ConnectionState(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRNetwork/OVRNetworkTcpClient/ConnectionState Disconnected
     static constexpr const int Disconnected = 0;
     // Get static field: static public OVRNetwork/OVRNetworkTcpClient/ConnectionState Disconnected
@@ -36,8 +42,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::ConnectionState _get_Connecting();
     // Set static field: static public OVRNetwork/OVRNetworkTcpClient/ConnectionState Connecting
     static void _set_Connecting(GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::ConnectionState value);
-    // Creating value type constructor for type: ConnectionState
-    ConnectionState(int value_ = {}) : value{value_} {}
   }; // OVRNetwork/OVRNetworkTcpClient/ConnectionState
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

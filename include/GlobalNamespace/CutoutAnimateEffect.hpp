@@ -41,6 +41,8 @@ namespace GlobalNamespace {
     // private System.Boolean <animating>k__BackingField
     // Offset: 0x28
     bool animating;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Boolean get_animating()
     // Offset: 0xBE4614
     bool get_animating();

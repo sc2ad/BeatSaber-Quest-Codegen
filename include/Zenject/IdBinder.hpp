@@ -21,6 +21,10 @@ namespace Zenject {
     // private Zenject.BindInfo _bindInfo
     // Offset: 0x10
     Zenject::BindInfo* bindInfo;
+    // Creating conversion operator: operator Zenject::BindInfo*
+    constexpr operator Zenject::BindInfo*() const {
+      return bindInfo;
+    }
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
     // Offset: 0xF3BD04
     static IdBinder* New_ctor(Zenject::BindInfo* bindInfo);

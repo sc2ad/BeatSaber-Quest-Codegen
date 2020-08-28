@@ -34,6 +34,10 @@ namespace Zenject {
     // public Zenject.IGuiRenderable renderable
     // Offset: 0x10
     Zenject::IGuiRenderable* renderable;
+    // Creating conversion operator: operator Zenject::IGuiRenderable*
+    constexpr operator Zenject::IGuiRenderable*() const {
+      return renderable;
+    }
     // System.Boolean <.ctor>b__1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
     // Offset: 0xF3B4BC
     bool $_ctor$b__1(ModestTree::Util::ValuePair_2<System::Type*, int>* x);

@@ -16,6 +16,10 @@ namespace JetBrains::Annotations {
     // private System.String <Format>k__BackingField
     // Offset: 0x10
     ::Il2CppString* Format;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return Format;
+    }
     // public System.Void .ctor(System.String format)
     // Offset: 0x1960E80
     static AspMvcAreaPartialViewLocationFormatAttribute* New_ctor(::Il2CppString* format);

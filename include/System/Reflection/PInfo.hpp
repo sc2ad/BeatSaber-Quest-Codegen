@@ -16,6 +16,12 @@ namespace System::Reflection {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: PInfo
+    constexpr PInfo(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Reflection.PInfo Attributes
     static constexpr const int Attributes = 1;
     // Get static field: static public System.Reflection.PInfo Attributes
@@ -52,8 +58,6 @@ namespace System::Reflection {
     static System::Reflection::PInfo _get_Name();
     // Set static field: static public System.Reflection.PInfo Name
     static void _set_Name(System::Reflection::PInfo value);
-    // Creating value type constructor for type: PInfo
-    PInfo(int value_ = {}) : value{value_} {}
   }; // System.Reflection.PInfo
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

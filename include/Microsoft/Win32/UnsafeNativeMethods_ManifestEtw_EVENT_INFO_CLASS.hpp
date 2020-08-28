@@ -18,6 +18,12 @@ namespace Microsoft::Win32 {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVENT_INFO_CLASS
+    constexpr EVENT_INFO_CLASS(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/EVENT_INFO_CLASS BinaryTrackInfo
     static constexpr const int BinaryTrackInfo = 0;
     // Get static field: static public Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/EVENT_INFO_CLASS BinaryTrackInfo
@@ -36,8 +42,6 @@ namespace Microsoft::Win32 {
     static Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::EVENT_INFO_CLASS _get_SetTraits();
     // Set static field: static public Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/EVENT_INFO_CLASS SetTraits
     static void _set_SetTraits(Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::EVENT_INFO_CLASS value);
-    // Creating value type constructor for type: EVENT_INFO_CLASS
-    EVENT_INFO_CLASS(int value_ = {}) : value{value_} {}
   }; // Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/EVENT_INFO_CLASS
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

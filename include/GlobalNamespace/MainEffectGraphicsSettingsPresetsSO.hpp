@@ -25,6 +25,8 @@ namespace GlobalNamespace {
     // private MainEffectGraphicsSettingsPresetsSO/Preset[] _presets
     // Offset: 0x18
     ::Array<GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*>* presets;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public MainEffectGraphicsSettingsPresetsSO/Preset[] get_presets()
     // Offset: 0xBFD180
     ::Array<GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*>* get_presets();

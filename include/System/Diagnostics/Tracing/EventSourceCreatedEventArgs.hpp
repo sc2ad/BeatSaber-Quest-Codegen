@@ -23,6 +23,10 @@ namespace System::Diagnostics::Tracing {
     // private System.Diagnostics.Tracing.EventSource <EventSource>k__BackingField
     // Offset: 0x10
     System::Diagnostics::Tracing::EventSource* EventSource;
+    // Creating conversion operator: operator System::Diagnostics::Tracing::EventSource*
+    constexpr operator System::Diagnostics::Tracing::EventSource*() const {
+      return EventSource;
+    }
     // System.Void set_EventSource(System.Diagnostics.Tracing.EventSource value)
     // Offset: 0xD96C5C
     void set_EventSource(System::Diagnostics::Tracing::EventSource* value);

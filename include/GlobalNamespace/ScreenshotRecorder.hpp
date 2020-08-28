@@ -34,6 +34,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: RecordingType
+      constexpr RecordingType(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public ScreenshotRecorder/RecordingType Sequence
       static constexpr const int Sequence = 0;
       // Get static field: static public ScreenshotRecorder/RecordingType Sequence
@@ -70,8 +76,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::ScreenshotRecorder::RecordingType _get_ScreenshotOnPause();
       // Set static field: static public ScreenshotRecorder/RecordingType ScreenshotOnPause
       static void _set_ScreenshotOnPause(GlobalNamespace::ScreenshotRecorder::RecordingType value);
-      // Creating value type constructor for type: RecordingType
-      RecordingType(int value_ = {}) : value{value_} {}
     }; // ScreenshotRecorder/RecordingType
     // private System.String _folder
     // Offset: 0x18
@@ -127,6 +131,8 @@ namespace GlobalNamespace {
     // private UnityEngine.RenderTexture _cameraRenderTexture
     // Offset: 0x70
     UnityEngine::RenderTexture* cameraRenderTexture;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void OnEnable()
     // Offset: 0xCBBF1C
     void OnEnable();

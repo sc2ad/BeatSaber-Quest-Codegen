@@ -16,6 +16,10 @@ namespace GlobalNamespace {
     // public readonly System.Single volumeOffset
     // Offset: 0x10
     float volumeOffset;
+    // Creating conversion operator: operator float
+    constexpr operator float() const {
+      return volumeOffset;
+    }
     // public System.Void .ctor(System.Single volumeOffset)
     // Offset: 0xB8B5E4
     static AutomaticSFXVolume::InitData* New_ctor(float volumeOffset);

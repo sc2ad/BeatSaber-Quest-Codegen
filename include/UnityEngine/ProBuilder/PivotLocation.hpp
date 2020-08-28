@@ -16,6 +16,12 @@ namespace UnityEngine::ProBuilder {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: PivotLocation
+    constexpr PivotLocation(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ProBuilder.PivotLocation Center
     static constexpr const int Center = 0;
     // Get static field: static public UnityEngine.ProBuilder.PivotLocation Center
@@ -28,8 +34,6 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::PivotLocation _get_FirstVertex();
     // Set static field: static public UnityEngine.ProBuilder.PivotLocation FirstVertex
     static void _set_FirstVertex(UnityEngine::ProBuilder::PivotLocation value);
-    // Creating value type constructor for type: PivotLocation
-    PivotLocation(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.PivotLocation
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

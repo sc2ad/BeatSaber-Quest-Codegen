@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TextAlignment
+    constexpr TextAlignment(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.TextAlignment Left
     static constexpr const int Left = 0;
     // Get static field: static public UnityEngine.TextAlignment Left
@@ -34,8 +40,6 @@ namespace UnityEngine {
     static UnityEngine::TextAlignment _get_Right();
     // Set static field: static public UnityEngine.TextAlignment Right
     static void _set_Right(UnityEngine::TextAlignment value);
-    // Creating value type constructor for type: TextAlignment
-    TextAlignment(int value_ = {}) : value{value_} {}
   }; // UnityEngine.TextAlignment
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

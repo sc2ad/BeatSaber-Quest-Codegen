@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EIOBufferMode
+    constexpr EIOBufferMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.EIOBufferMode Read
     static constexpr const int Read = 1;
     // Get static field: static public OVR.OpenVR.EIOBufferMode Read
@@ -34,8 +40,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EIOBufferMode _get_Create();
     // Set static field: static public OVR.OpenVR.EIOBufferMode Create
     static void _set_Create(OVR::OpenVR::EIOBufferMode value);
-    // Creating value type constructor for type: EIOBufferMode
-    EIOBufferMode(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EIOBufferMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

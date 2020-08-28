@@ -16,6 +16,12 @@ namespace System::Globalization {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: MonthNameStyles
+    constexpr MonthNameStyles(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Globalization.MonthNameStyles Regular
     static constexpr const int Regular = 0;
     // Get static field: static public System.Globalization.MonthNameStyles Regular
@@ -34,8 +40,6 @@ namespace System::Globalization {
     static System::Globalization::MonthNameStyles _get_LeapYear();
     // Set static field: static public System.Globalization.MonthNameStyles LeapYear
     static void _set_LeapYear(System::Globalization::MonthNameStyles value);
-    // Creating value type constructor for type: MonthNameStyles
-    MonthNameStyles(int value_ = {}) : value{value_} {}
   }; // System.Globalization.MonthNameStyles
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

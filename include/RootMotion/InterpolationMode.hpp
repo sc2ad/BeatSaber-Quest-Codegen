@@ -16,6 +16,12 @@ namespace RootMotion {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: InterpolationMode
+    constexpr InterpolationMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public RootMotion.InterpolationMode None
     static constexpr const int None = 0;
     // Get static field: static public RootMotion.InterpolationMode None
@@ -178,8 +184,6 @@ namespace RootMotion {
     static RootMotion::InterpolationMode _get_BackInQuartic();
     // Set static field: static public RootMotion.InterpolationMode BackInQuartic
     static void _set_BackInQuartic(RootMotion::InterpolationMode value);
-    // Creating value type constructor for type: InterpolationMode
-    InterpolationMode(int value_ = {}) : value{value_} {}
   }; // RootMotion.InterpolationMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

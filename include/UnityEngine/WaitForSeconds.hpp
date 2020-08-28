@@ -16,6 +16,10 @@ namespace UnityEngine {
     // System.Single m_Seconds
     // Offset: 0x10
     float m_Seconds;
+    // Creating conversion operator: operator float
+    constexpr operator float() const {
+      return m_Seconds;
+    }
     // public System.Void .ctor(System.Single seconds)
     // Offset: 0x139EFB8
     static WaitForSeconds* New_ctor(float seconds);

@@ -16,6 +16,12 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRState
+    constexpr EVRState(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.EVRState Undefined
     static constexpr const int Undefined = -1;
     // Get static field: static public Valve.VR.EVRState Undefined
@@ -70,8 +76,6 @@ namespace Valve::VR {
     static Valve::VR::EVRState _get_Ready_Alert_Low();
     // Set static field: static public Valve.VR.EVRState Ready_Alert_Low
     static void _set_Ready_Alert_Low(Valve::VR::EVRState value);
-    // Creating value type constructor for type: EVRState
-    EVRState(int value_ = {}) : value{value_} {}
   }; // Valve.VR.EVRState
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRCompositorError
+    constexpr EVRCompositorError(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.EVRCompositorError None
     static constexpr const int None = 0;
     // Get static field: static public OVR.OpenVR.EVRCompositorError None
@@ -88,8 +94,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRCompositorError _get_InvalidBounds();
     // Set static field: static public OVR.OpenVR.EVRCompositorError InvalidBounds
     static void _set_InvalidBounds(OVR::OpenVR::EVRCompositorError value);
-    // Creating value type constructor for type: EVRCompositorError
-    EVRCompositorError(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EVRCompositorError
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

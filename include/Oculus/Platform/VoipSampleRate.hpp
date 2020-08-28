@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: VoipSampleRate
+    constexpr VoipSampleRate(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.VoipSampleRate Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.VoipSampleRate Unknown
@@ -40,8 +46,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::VoipSampleRate _get_HZ48000();
     // Set static field: static public Oculus.Platform.VoipSampleRate HZ48000
     static void _set_HZ48000(Oculus::Platform::VoipSampleRate value);
-    // Creating value type constructor for type: VoipSampleRate
-    VoipSampleRate(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.VoipSampleRate
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

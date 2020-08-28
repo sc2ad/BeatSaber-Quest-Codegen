@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     float timeWarpError;
     // Creating value type constructor for type: LatencyData
-    LatencyData(float render_ = {}, float timeWarp_ = {}, float postPresent_ = {}, float renderError_ = {}, float timeWarpError_ = {}) : render{render_}, timeWarp{timeWarp_}, postPresent{postPresent_}, renderError{renderError_}, timeWarpError{timeWarpError_} {}
+    constexpr LatencyData(float render_ = {}, float timeWarp_ = {}, float postPresent_ = {}, float renderError_ = {}, float timeWarpError_ = {}) : render{render_}, timeWarp{timeWarp_}, postPresent{postPresent_}, renderError{renderError_}, timeWarpError{timeWarpError_} {}
   }; // OVRDisplay/LatencyData
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

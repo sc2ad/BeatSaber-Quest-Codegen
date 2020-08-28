@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: AnimationEventSource
+    constexpr AnimationEventSource(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.AnimationEventSource NoSource
     static constexpr const int NoSource = 0;
     // Get static field: static public UnityEngine.AnimationEventSource NoSource
@@ -34,8 +40,6 @@ namespace UnityEngine {
     static UnityEngine::AnimationEventSource _get_Animator();
     // Set static field: static public UnityEngine.AnimationEventSource Animator
     static void _set_Animator(UnityEngine::AnimationEventSource value);
-    // Creating value type constructor for type: AnimationEventSource
-    AnimationEventSource(int value_ = {}) : value{value_} {}
   }; // UnityEngine.AnimationEventSource
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

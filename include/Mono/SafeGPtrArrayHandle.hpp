@@ -28,7 +28,11 @@ namespace Mono {
     // Offset: 0x0
     Mono::RuntimeGPtrArrayHandle handle;
     // Creating value type constructor for type: SafeGPtrArrayHandle
-    SafeGPtrArrayHandle(Mono::RuntimeGPtrArrayHandle handle_ = {}) : handle{handle_} {}
+    constexpr SafeGPtrArrayHandle(Mono::RuntimeGPtrArrayHandle handle_ = {}) : handle{handle_} {}
+    // Creating conversion operator: operator Mono::RuntimeGPtrArrayHandle
+    constexpr operator Mono::RuntimeGPtrArrayHandle() const {
+      return handle;
+    }
     // System.Void .ctor(System.IntPtr ptr)
     // Offset: 0xA40948
     static SafeGPtrArrayHandle* New_ctor(System::IntPtr ptr);

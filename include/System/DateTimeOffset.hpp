@@ -49,6 +49,8 @@ namespace System {
     // private System.Int16 m_offsetMinutes
     // Offset: 0x8
     int16_t m_offsetMinutes;
+    // Creating value type constructor for type: DateTimeOffset
+    constexpr DateTimeOffset(System::DateTime m_dateTime_ = {}, int16_t m_offsetMinutes_ = {}) : m_dateTime{m_dateTime_}, m_offsetMinutes{m_offsetMinutes_} {}
     // Get static field: static public readonly System.DateTimeOffset MinValue
     static System::DateTimeOffset _get_MinValue();
     // Set static field: static public readonly System.DateTimeOffset MinValue
@@ -57,8 +59,6 @@ namespace System {
     static System::DateTimeOffset _get_MaxValue();
     // Set static field: static public readonly System.DateTimeOffset MaxValue
     static void _set_MaxValue(System::DateTimeOffset value);
-    // Creating value type constructor for type: DateTimeOffset
-    DateTimeOffset(System::DateTime m_dateTime_ = {}, int16_t m_offsetMinutes_ = {}) : m_dateTime{m_dateTime_}, m_offsetMinutes{m_offsetMinutes_} {}
     // public System.Void .ctor(System.Int64 ticks, System.TimeSpan offset)
     // Offset: 0xA410C4
     static DateTimeOffset* New_ctor(int64_t ticks, System::TimeSpan offset);

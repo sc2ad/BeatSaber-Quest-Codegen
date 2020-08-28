@@ -16,6 +16,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ParseFlags
+    constexpr ParseFlags(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.ParseFlags HaveYear
     static constexpr const int HaveYear = 1;
     // Get static field: static public System.ParseFlags HaveYear
@@ -106,8 +112,6 @@ namespace System {
     static System::ParseFlags _get_UtcSortPattern();
     // Set static field: static public System.ParseFlags UtcSortPattern
     static void _set_UtcSortPattern(System::ParseFlags value);
-    // Creating value type constructor for type: ParseFlags
-    ParseFlags(int value_ = {}) : value{value_} {}
   }; // System.ParseFlags
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

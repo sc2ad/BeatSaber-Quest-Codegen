@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     // Offset: 0x14
     UnityEngine::Vector3 ClosestPointNormal;
     // Creating value type constructor for type: BoundaryTestResult
-    BoundaryTestResult(bool IsTriggering_ = {}, float ClosestDistance_ = {}, UnityEngine::Vector3 ClosestPoint_ = {}, UnityEngine::Vector3 ClosestPointNormal_ = {}) : IsTriggering{IsTriggering_}, ClosestDistance{ClosestDistance_}, ClosestPoint{ClosestPoint_}, ClosestPointNormal{ClosestPointNormal_} {}
+    constexpr BoundaryTestResult(bool IsTriggering_ = {}, float ClosestDistance_ = {}, UnityEngine::Vector3 ClosestPoint_ = {}, UnityEngine::Vector3 ClosestPointNormal_ = {}) : IsTriggering{IsTriggering_}, ClosestDistance{ClosestDistance_}, ClosestPoint{ClosestPoint_}, ClosestPointNormal{ClosestPointNormal_} {}
   }; // OVRBoundary/BoundaryTestResult
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

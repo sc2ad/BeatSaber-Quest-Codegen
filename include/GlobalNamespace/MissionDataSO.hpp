@@ -48,6 +48,8 @@ namespace GlobalNamespace {
     // private MissionHelpSO _missionHelp
     // Offset: 0x40
     GlobalNamespace::MissionHelpSO* missionHelp;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public MissionObjective[] get_missionObjectives()
     // Offset: 0xC04364
     ::Array<GlobalNamespace::MissionObjective*>* get_missionObjectives();

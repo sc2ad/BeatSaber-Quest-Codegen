@@ -28,6 +28,8 @@ namespace System::Text {
     // private System.Int32 index
     // Offset: 0x98
     int index;
+    // Deleting conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const = delete;
     // public System.Void .ctor(System.String message, System.Byte[] bytesUnknown, System.Int32 index)
     // Offset: 0x12F0CE8
     static DecoderFallbackException* New_ctor(::Il2CppString* message, ::Array<uint8_t>* bytesUnknown, int index);

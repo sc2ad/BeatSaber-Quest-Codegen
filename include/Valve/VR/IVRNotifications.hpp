@@ -28,7 +28,7 @@ namespace Valve::VR {
     // Offset: 0x8
     Valve::VR::IVRNotifications::_RemoveNotification* RemoveNotification;
     // Creating value type constructor for type: IVRNotifications
-    IVRNotifications(Valve::VR::IVRNotifications::_CreateNotification* CreateNotification_ = {}, Valve::VR::IVRNotifications::_RemoveNotification* RemoveNotification_ = {}) : CreateNotification{CreateNotification_}, RemoveNotification{RemoveNotification_} {}
+    constexpr IVRNotifications(Valve::VR::IVRNotifications::_CreateNotification* CreateNotification_ = {}, Valve::VR::IVRNotifications::_RemoveNotification* RemoveNotification_ = {}) : CreateNotification{CreateNotification_}, RemoveNotification{RemoveNotification_} {}
   }; // Valve.VR.IVRNotifications
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

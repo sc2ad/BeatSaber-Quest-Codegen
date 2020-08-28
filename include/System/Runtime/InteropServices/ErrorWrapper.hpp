@@ -14,6 +14,10 @@ namespace System::Runtime::InteropServices {
     // private System.Int32 m_ErrorCode
     // Offset: 0x10
     int m_ErrorCode;
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return m_ErrorCode;
+    }
   }; // System.Runtime.InteropServices.ErrorWrapper
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

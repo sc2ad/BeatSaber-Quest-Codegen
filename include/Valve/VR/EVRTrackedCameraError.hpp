@@ -16,6 +16,12 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRTrackedCameraError
+    constexpr EVRTrackedCameraError(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.EVRTrackedCameraError None
     static constexpr const int None = 0;
     // Get static field: static public Valve.VR.EVRTrackedCameraError None
@@ -118,8 +124,6 @@ namespace Valve::VR {
     static Valve::VR::EVRTrackedCameraError _get_InvalidFrameBufferSize();
     // Set static field: static public Valve.VR.EVRTrackedCameraError InvalidFrameBufferSize
     static void _set_InvalidFrameBufferSize(Valve::VR::EVRTrackedCameraError value);
-    // Creating value type constructor for type: EVRTrackedCameraError
-    EVRTrackedCameraError(int value_ = {}) : value{value_} {}
   }; // Valve.VR.EVRTrackedCameraError
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

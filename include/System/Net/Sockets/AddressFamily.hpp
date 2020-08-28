@@ -16,6 +16,12 @@ namespace System::Net::Sockets {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: AddressFamily
+    constexpr AddressFamily(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Net.Sockets.AddressFamily Unknown
     static constexpr const int Unknown = -1;
     // Get static field: static public System.Net.Sockets.AddressFamily Unknown
@@ -202,8 +208,6 @@ namespace System::Net::Sockets {
     static System::Net::Sockets::AddressFamily _get_Max();
     // Set static field: static public System.Net.Sockets.AddressFamily Max
     static void _set_Max(System::Net::Sockets::AddressFamily value);
-    // Creating value type constructor for type: AddressFamily
-    AddressFamily(int value_ = {}) : value{value_} {}
   }; // System.Net.Sockets.AddressFamily
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

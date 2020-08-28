@@ -25,7 +25,7 @@ namespace GlobalNamespace {
     // Offset: 0x8
     float bpm;
     // Creating value type constructor for type: BPMChangeData
-    BPMChangeData(float bpmChangeStartTime_ = {}, float bpmChangeStartBPMTime_ = {}, float bpm_ = {}) : bpmChangeStartTime{bpmChangeStartTime_}, bpmChangeStartBPMTime{bpmChangeStartBPMTime_}, bpm{bpm_} {}
+    constexpr BPMChangeData(float bpmChangeStartTime_ = {}, float bpmChangeStartBPMTime_ = {}, float bpm_ = {}) : bpmChangeStartTime{bpmChangeStartTime_}, bpmChangeStartBPMTime{bpmChangeStartBPMTime_}, bpm{bpm_} {}
     // public System.Void .ctor(System.Single bpmChangeStartTime, System.Single bpmChangeStartBPMTime, System.Single bpm)
     // Offset: 0xA2BE4C
     static BeatmapDataLoader::BPMChangeData* New_ctor(float bpmChangeStartTime, float bpmChangeStartBPMTime, float bpm);

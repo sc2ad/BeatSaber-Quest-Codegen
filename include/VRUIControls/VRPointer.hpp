@@ -66,6 +66,8 @@ namespace VRUIControls {
     // private UnityEngine.EventSystems.PointerEventData _pointerData
     // Offset: 0x60
     UnityEngine::EventSystems::PointerEventData* pointerData;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static field const value: static public System.Single kScrollMultiplier
     static constexpr const float kScrollMultiplier = 1;
     // Get static field: static public System.Single kScrollMultiplier

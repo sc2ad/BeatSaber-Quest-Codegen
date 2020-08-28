@@ -16,6 +16,12 @@ namespace System::Net::Sockets {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SocketOptionName
+    constexpr SocketOptionName(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Net.Sockets.SocketOptionName Debug
     static constexpr const int Debug = 1;
     // Get static field: static public System.Net.Sockets.SocketOptionName Debug
@@ -292,8 +298,6 @@ namespace System::Net::Sockets {
     static System::Net::Sockets::SocketOptionName _get_UpdateConnectContext();
     // Set static field: static public System.Net.Sockets.SocketOptionName UpdateConnectContext
     static void _set_UpdateConnectContext(System::Net::Sockets::SocketOptionName value);
-    // Creating value type constructor for type: SocketOptionName
-    SocketOptionName(int value_ = {}) : value{value_} {}
   }; // System.Net.Sockets.SocketOptionName
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

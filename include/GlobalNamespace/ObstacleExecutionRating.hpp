@@ -27,6 +27,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: Rating
+      constexpr Rating(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public ObstacleExecutionRating/Rating OK
       static constexpr const int OK = 0;
       // Get static field: static public ObstacleExecutionRating/Rating OK
@@ -39,12 +45,14 @@ namespace GlobalNamespace {
       static GlobalNamespace::ObstacleExecutionRating::Rating _get_NotGood();
       // Set static field: static public ObstacleExecutionRating/Rating NotGood
       static void _set_NotGood(GlobalNamespace::ObstacleExecutionRating::Rating value);
-      // Creating value type constructor for type: Rating
-      Rating(int value_ = {}) : value{value_} {}
     }; // ObstacleExecutionRating/Rating
     // private ObstacleExecutionRating/Rating <rating>k__BackingField
     // Offset: 0x18
     GlobalNamespace::ObstacleExecutionRating::Rating rating;
+    // Creating conversion operator: operator GlobalNamespace::ObstacleExecutionRating::Rating
+    constexpr operator GlobalNamespace::ObstacleExecutionRating::Rating() const {
+      return rating;
+    }
     // public ObstacleExecutionRating/Rating get_rating()
     // Offset: 0xC344B4
     GlobalNamespace::ObstacleExecutionRating::Rating get_rating();

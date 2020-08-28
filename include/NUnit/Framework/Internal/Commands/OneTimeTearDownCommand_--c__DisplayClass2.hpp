@@ -23,6 +23,10 @@ namespace NUnit::Framework::Internal::Commands {
     // public System.IDisposable disposable
     // Offset: 0x10
     System::IDisposable* disposable;
+    // Creating conversion operator: operator System::IDisposable*
+    constexpr operator System::IDisposable*() const {
+      return disposable;
+    }
     // public System.Object <Execute>b__0()
     // Offset: 0x10890E0
     ::Il2CppObject* $Execute$b__0();

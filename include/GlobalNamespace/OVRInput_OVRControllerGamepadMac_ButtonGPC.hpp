@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ButtonGPC
+    constexpr ButtonGPC(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRInput/OVRControllerGamepadMac/ButtonGPC None
     static constexpr const int None = -1;
     // Get static field: static public OVRInput/OVRControllerGamepadMac/ButtonGPC None
@@ -114,8 +120,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRInput::OVRControllerGamepadMac::ButtonGPC _get_Max();
     // Set static field: static public OVRInput/OVRControllerGamepadMac/ButtonGPC Max
     static void _set_Max(GlobalNamespace::OVRInput::OVRControllerGamepadMac::ButtonGPC value);
-    // Creating value type constructor for type: ButtonGPC
-    ButtonGPC(int value_ = {}) : value{value_} {}
   }; // OVRInput/OVRControllerGamepadMac/ButtonGPC
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

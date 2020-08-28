@@ -16,6 +16,12 @@ namespace System::IO {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: WatcherChangeTypes
+    constexpr WatcherChangeTypes(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.IO.WatcherChangeTypes All
     static constexpr const int All = 15;
     // Get static field: static public System.IO.WatcherChangeTypes All
@@ -46,8 +52,6 @@ namespace System::IO {
     static System::IO::WatcherChangeTypes _get_Renamed();
     // Set static field: static public System.IO.WatcherChangeTypes Renamed
     static void _set_Renamed(System::IO::WatcherChangeTypes value);
-    // Creating value type constructor for type: WatcherChangeTypes
-    WatcherChangeTypes(int value_ = {}) : value{value_} {}
   }; // System.IO.WatcherChangeTypes
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

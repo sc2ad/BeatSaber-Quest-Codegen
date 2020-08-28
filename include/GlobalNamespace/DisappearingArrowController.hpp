@@ -80,6 +80,8 @@ namespace GlobalNamespace {
     // private System.Single _maxDistance
     // Offset: 0x64
     float maxDistance;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Awake()
     // Offset: 0xBE8398
     void Awake();

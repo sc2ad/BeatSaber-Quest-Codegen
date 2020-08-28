@@ -21,6 +21,10 @@ namespace Oculus::Platform::Models {
     // public readonly System.String RecordingUuid
     // Offset: 0x10
     ::Il2CppString* RecordingUuid;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return RecordingUuid;
+    }
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0xEA0E9C
     static AbuseReportRecording* New_ctor(System::IntPtr o);

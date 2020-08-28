@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Pass
+    constexpr Pass(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public KawaseBlurRendererSO/Pass AlphaWeights
     static constexpr const int AlphaWeights = 0;
     // Get static field: static public KawaseBlurRendererSO/Pass AlphaWeights
@@ -60,8 +66,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::KawaseBlurRendererSO::Pass _get_BlurGammaAndAdd();
     // Set static field: static public KawaseBlurRendererSO/Pass BlurGammaAndAdd
     static void _set_BlurGammaAndAdd(GlobalNamespace::KawaseBlurRendererSO::Pass value);
-    // Creating value type constructor for type: Pass
-    Pass(int value_ = {}) : value{value_} {}
   }; // KawaseBlurRendererSO/Pass
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

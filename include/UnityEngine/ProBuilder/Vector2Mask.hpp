@@ -27,6 +27,12 @@ namespace UnityEngine::ProBuilder {
     // private System.Byte m_Mask
     // Offset: 0x0
     uint8_t m_Mask;
+    // Creating value type constructor for type: Vector2Mask
+    constexpr Vector2Mask(uint8_t m_Mask_ = {}) : m_Mask{m_Mask_} {}
+    // Creating conversion operator: operator uint8_t
+    constexpr operator uint8_t() const {
+      return m_Mask;
+    }
     // static field const value: static private System.Byte X
     static constexpr const uint8_t X = 1u;
     // Get static field: static private System.Byte X
@@ -43,8 +49,6 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::Vector2Mask _get_XY();
     // Set static field: static public readonly UnityEngine.ProBuilder.Vector2Mask XY
     static void _set_XY(UnityEngine::ProBuilder::Vector2Mask value);
-    // Creating value type constructor for type: Vector2Mask
-    Vector2Mask(uint8_t m_Mask_ = {}) : m_Mask{m_Mask_} {}
     // public System.Single get_x()
     // Offset: 0xA578CC
     float get_x();

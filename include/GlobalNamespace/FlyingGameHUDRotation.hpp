@@ -34,6 +34,8 @@ namespace GlobalNamespace {
     // private System.Single _yAngle
     // Offset: 0x30
     float yAngle;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xBEFD54
     void Start();

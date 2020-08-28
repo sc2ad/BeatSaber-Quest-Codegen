@@ -20,7 +20,11 @@ namespace UnityEngine::Experimental::Playables {
     // Offset: 0x0
     UnityEngine::Playables::PlayableOutputHandle m_Handle;
     // Creating value type constructor for type: TexturePlayableOutput
-    TexturePlayableOutput(UnityEngine::Playables::PlayableOutputHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
+    constexpr TexturePlayableOutput(UnityEngine::Playables::PlayableOutputHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
+    // Creating conversion operator: operator UnityEngine::Playables::PlayableOutputHandle
+    constexpr operator UnityEngine::Playables::PlayableOutputHandle() const {
+      return m_Handle;
+    }
     // public UnityEngine.Playables.PlayableOutputHandle GetHandle()
     // Offset: 0xA45E88
     // Implemented from: UnityEngine.Playables.IPlayableOutput

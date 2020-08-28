@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Offset: 0x4
     int SamplesQueued;
     // Creating value type constructor for type: HapticsState
-    HapticsState(int SamplesAvailable_ = {}, int SamplesQueued_ = {}) : SamplesAvailable{SamplesAvailable_}, SamplesQueued{SamplesQueued_} {}
+    constexpr HapticsState(int SamplesAvailable_ = {}, int SamplesQueued_ = {}) : SamplesAvailable{SamplesAvailable_}, SamplesQueued{SamplesQueued_} {}
   }; // OVRPlugin/HapticsState
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

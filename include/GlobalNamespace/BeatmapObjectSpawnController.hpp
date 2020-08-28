@@ -90,6 +90,8 @@ namespace GlobalNamespace {
     // private VariableBPMProcessor _variableBPMProcessor
     // Offset: 0x70
     GlobalNamespace::VariableBPMProcessor* variableBPMProcessor;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Single get_jumpOffsetY()
     // Offset: 0xB79544
     float get_jumpOffsetY();

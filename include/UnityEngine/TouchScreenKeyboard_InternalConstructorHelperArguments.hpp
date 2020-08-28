@@ -31,7 +31,7 @@ namespace UnityEngine {
     // Offset: 0x14
     int characterLimit;
     // Creating value type constructor for type: TouchScreenKeyboard_InternalConstructorHelperArguments
-    TouchScreenKeyboard_InternalConstructorHelperArguments(uint keyboardType_ = {}, uint autocorrection_ = {}, uint multiline_ = {}, uint secure_ = {}, uint alert_ = {}, int characterLimit_ = {}) : keyboardType{keyboardType_}, autocorrection{autocorrection_}, multiline{multiline_}, secure{secure_}, alert{alert_}, characterLimit{characterLimit_} {}
+    constexpr TouchScreenKeyboard_InternalConstructorHelperArguments(uint keyboardType_ = {}, uint autocorrection_ = {}, uint multiline_ = {}, uint secure_ = {}, uint alert_ = {}, int characterLimit_ = {}) : keyboardType{keyboardType_}, autocorrection{autocorrection_}, multiline{multiline_}, secure{secure_}, alert{alert_}, characterLimit{characterLimit_} {}
   }; // UnityEngine.TouchScreenKeyboard_InternalConstructorHelperArguments
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

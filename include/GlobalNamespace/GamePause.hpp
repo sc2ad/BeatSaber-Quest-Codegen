@@ -64,6 +64,8 @@ namespace GlobalNamespace {
     // private System.Boolean _pause
     // Offset: 0x58
     bool pause;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void add_didPauseEvent(System.Action value)
     // Offset: 0xB3D340
     // Implemented from: IGamePause

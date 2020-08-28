@@ -16,6 +16,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ConsoleColor
+    constexpr ConsoleColor(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.ConsoleColor Black
     static constexpr const int Black = 0;
     // Get static field: static public System.ConsoleColor Black
@@ -112,8 +118,6 @@ namespace System {
     static System::ConsoleColor _get_White();
     // Set static field: static public System.ConsoleColor White
     static void _set_White(System::ConsoleColor value);
-    // Creating value type constructor for type: ConsoleColor
-    ConsoleColor(int value_ = {}) : value{value_} {}
   }; // System.ConsoleColor
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,12 @@ namespace System::Diagnostics::Tracing {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EventFieldFormat
+    constexpr EventFieldFormat(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Diagnostics.Tracing.EventFieldFormat Default
     static constexpr const int Default = 0;
     // Get static field: static public System.Diagnostics.Tracing.EventFieldFormat Default
@@ -58,8 +64,6 @@ namespace System::Diagnostics::Tracing {
     static System::Diagnostics::Tracing::EventFieldFormat _get_HResult();
     // Set static field: static public System.Diagnostics.Tracing.EventFieldFormat HResult
     static void _set_HResult(System::Diagnostics::Tracing::EventFieldFormat value);
-    // Creating value type constructor for type: EventFieldFormat
-    EventFieldFormat(int value_ = {}) : value{value_} {}
   }; // System.Diagnostics.Tracing.EventFieldFormat
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

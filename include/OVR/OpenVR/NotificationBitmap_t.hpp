@@ -27,7 +27,7 @@ namespace OVR::OpenVR {
     // Offset: 0x10
     int m_nBytesPerPixel;
     // Creating value type constructor for type: NotificationBitmap_t
-    NotificationBitmap_t(System::IntPtr m_pImageData_ = {}, int m_nWidth_ = {}, int m_nHeight_ = {}, int m_nBytesPerPixel_ = {}) : m_pImageData{m_pImageData_}, m_nWidth{m_nWidth_}, m_nHeight{m_nHeight_}, m_nBytesPerPixel{m_nBytesPerPixel_} {}
+    constexpr NotificationBitmap_t(System::IntPtr m_pImageData_ = {}, int m_nWidth_ = {}, int m_nHeight_ = {}, int m_nBytesPerPixel_ = {}) : m_pImageData{m_pImageData_}, m_nWidth{m_nWidth_}, m_nHeight{m_nHeight_}, m_nBytesPerPixel{m_nBytesPerPixel_} {}
   }; // OVR.OpenVR.NotificationBitmap_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

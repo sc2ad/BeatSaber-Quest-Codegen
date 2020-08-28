@@ -16,6 +16,12 @@ namespace System::Net::Sockets {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SocketShutdown
+    constexpr SocketShutdown(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Net.Sockets.SocketShutdown Receive
     static constexpr const int Receive = 0;
     // Get static field: static public System.Net.Sockets.SocketShutdown Receive
@@ -34,8 +40,6 @@ namespace System::Net::Sockets {
     static System::Net::Sockets::SocketShutdown _get_Both();
     // Set static field: static public System.Net.Sockets.SocketShutdown Both
     static void _set_Both(System::Net::Sockets::SocketShutdown value);
-    // Creating value type constructor for type: SocketShutdown
-    SocketShutdown(int value_ = {}) : value{value_} {}
   }; // System.Net.Sockets.SocketShutdown
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

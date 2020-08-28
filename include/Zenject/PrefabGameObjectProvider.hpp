@@ -41,6 +41,10 @@ namespace Zenject {
     // private readonly Zenject.IPrefabInstantiator _prefabCreator
     // Offset: 0x10
     Zenject::IPrefabInstantiator* prefabCreator;
+    // Creating conversion operator: operator Zenject::IPrefabInstantiator*
+    constexpr operator Zenject::IPrefabInstantiator*() const {
+      return prefabCreator;
+    }
     // public System.Void .ctor(Zenject.IPrefabInstantiator prefabCreator)
     // Offset: 0xFC6D8C
     static PrefabGameObjectProvider* New_ctor(Zenject::IPrefabInstantiator* prefabCreator);

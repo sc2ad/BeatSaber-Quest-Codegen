@@ -16,6 +16,12 @@ namespace System::Runtime::InteropServices {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: DllImportSearchPath
+    constexpr DllImportSearchPath(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Runtime.InteropServices.DllImportSearchPath UseDllDirectoryForDependencies
     static constexpr const int UseDllDirectoryForDependencies = 256;
     // Get static field: static public System.Runtime.InteropServices.DllImportSearchPath UseDllDirectoryForDependencies
@@ -58,8 +64,6 @@ namespace System::Runtime::InteropServices {
     static System::Runtime::InteropServices::DllImportSearchPath _get_LegacyBehavior();
     // Set static field: static public System.Runtime.InteropServices.DllImportSearchPath LegacyBehavior
     static void _set_LegacyBehavior(System::Runtime::InteropServices::DllImportSearchPath value);
-    // Creating value type constructor for type: DllImportSearchPath
-    DllImportSearchPath(int value_ = {}) : value{value_} {}
   }; // System.Runtime.InteropServices.DllImportSearchPath
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

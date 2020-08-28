@@ -54,6 +54,8 @@ namespace GlobalNamespace {
     // protected OVRGrabber m_grabbedBy
     // Offset: 0x40
     GlobalNamespace::OVRGrabber* m_grabbedBy;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Boolean get_allowOffhandGrab()
     // Offset: 0xE68800
     bool get_allowOffhandGrab();

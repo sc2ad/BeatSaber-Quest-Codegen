@@ -18,6 +18,12 @@ namespace UnityEngine::Timeline {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Versions
+    constexpr Versions(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Timeline.AnimationPlayableAsset/Versions Initial
     static constexpr const int Initial = 0;
     // Get static field: static public UnityEngine.Timeline.AnimationPlayableAsset/Versions Initial
@@ -30,8 +36,6 @@ namespace UnityEngine::Timeline {
     static UnityEngine::Timeline::AnimationPlayableAsset::Versions _get_RotationAsEuler();
     // Set static field: static public UnityEngine.Timeline.AnimationPlayableAsset/Versions RotationAsEuler
     static void _set_RotationAsEuler(UnityEngine::Timeline::AnimationPlayableAsset::Versions value);
-    // Creating value type constructor for type: Versions
-    Versions(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Timeline.AnimationPlayableAsset/Versions
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

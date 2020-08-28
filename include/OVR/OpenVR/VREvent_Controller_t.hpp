@@ -16,7 +16,11 @@ namespace OVR::OpenVR {
     // Offset: 0x0
     uint button;
     // Creating value type constructor for type: VREvent_Controller_t
-    VREvent_Controller_t(uint button_ = {}) : button{button_} {}
+    constexpr VREvent_Controller_t(uint button_ = {}) : button{button_} {}
+    // Creating conversion operator: operator uint
+    constexpr operator uint() const {
+      return button;
+    }
   }; // OVR.OpenVR.VREvent_Controller_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

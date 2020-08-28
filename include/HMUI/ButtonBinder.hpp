@@ -46,6 +46,10 @@ namespace HMUI {
     // private System.Collections.Generic.List`1<System.Tuple`2<UnityEngine.UI.Button,UnityEngine.Events.UnityAction>> _bindings
     // Offset: 0x10
     System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button*, UnityEngine::Events::UnityAction*>*>* bindings;
+    // Creating conversion operator: operator System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button*, UnityEngine::Events::UnityAction*>*>*
+    constexpr operator System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button*, UnityEngine::Events::UnityAction*>*>*() const {
+      return bindings;
+    }
     // public System.Void .ctor(UnityEngine.UI.Button button, System.Action action)
     // Offset: 0xED6BF4
     static ButtonBinder* New_ctor(UnityEngine::UI::Button* button, System::Action* action);

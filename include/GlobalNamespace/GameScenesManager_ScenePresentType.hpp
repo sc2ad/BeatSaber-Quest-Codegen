@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ScenePresentType
+    constexpr ScenePresentType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public GameScenesManager/ScenePresentType Load
     static constexpr const int Load = 0;
     // Get static field: static public GameScenesManager/ScenePresentType Load
@@ -30,8 +36,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::GameScenesManager::ScenePresentType _get_Activate();
     // Set static field: static public GameScenesManager/ScenePresentType Activate
     static void _set_Activate(GlobalNamespace::GameScenesManager::ScenePresentType value);
-    // Creating value type constructor for type: ScenePresentType
-    ScenePresentType(int value_ = {}) : value{value_} {}
   }; // GameScenesManager/ScenePresentType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

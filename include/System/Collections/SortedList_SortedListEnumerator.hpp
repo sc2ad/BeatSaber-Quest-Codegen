@@ -9,6 +9,8 @@
 #include "System/Collections/SortedList.hpp"
 // Including type: System.Collections.IDictionaryEnumerator
 #include "System/Collections/IDictionaryEnumerator.hpp"
+// Including type: System.ICloneable
+#include "System/ICloneable.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections

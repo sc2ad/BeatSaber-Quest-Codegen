@@ -50,6 +50,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: RecordMode
+      constexpr RecordMode(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public VRTrackersRecorder/RecordMode Record
       static constexpr const int Record = 0;
       // Get static field: static public VRTrackersRecorder/RecordMode Record
@@ -68,8 +74,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::VRTrackersRecorder::RecordMode _get_Off();
       // Set static field: static public VRTrackersRecorder/RecordMode Off
       static void _set_Off(GlobalNamespace::VRTrackersRecorder::RecordMode value);
-      // Creating value type constructor for type: RecordMode
-      RecordMode(int value_ = {}) : value{value_} {}
     }; // VRTrackersRecorder/RecordMode
     // private FloatSO _songTime
     // Offset: 0x18
@@ -101,6 +105,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Quaternion _loadedOriginRot
     // Offset: 0x64
     UnityEngine::Quaternion loadedOriginRot;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Awake()
     // Offset: 0xC53BC8
     void Awake();

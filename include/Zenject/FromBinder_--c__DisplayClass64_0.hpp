@@ -34,6 +34,10 @@ namespace Zenject {
     // public System.Type concreteType
     // Offset: 0x10
     System::Type* concreteType;
+    // Creating conversion operator: operator System::Type*
+    constexpr operator System::Type*() const {
+      return concreteType;
+    }
     // System.Collections.Generic.IEnumerable`1<System.Object> <FromComponentsSibling>b__1(Zenject.InjectContext ctx)
     // Offset: 0xF38918
     System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* $FromComponentsSibling$b__1(Zenject::InjectContext* ctx);

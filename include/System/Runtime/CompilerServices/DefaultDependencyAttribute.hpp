@@ -18,6 +18,10 @@ namespace System::Runtime::CompilerServices {
     // private System.Runtime.CompilerServices.LoadHint loadHint
     // Offset: 0x10
     System::Runtime::CompilerServices::LoadHint loadHint;
+    // Creating conversion operator: operator System::Runtime::CompilerServices::LoadHint
+    constexpr operator System::Runtime::CompilerServices::LoadHint() const {
+      return loadHint;
+    }
     // public System.Void .ctor(System.Runtime.CompilerServices.LoadHint loadHintArgument)
     // Offset: 0x1166A18
     static DefaultDependencyAttribute* New_ctor(System::Runtime::CompilerServices::LoadHint loadHintArgument);

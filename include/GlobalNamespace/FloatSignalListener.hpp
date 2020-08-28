@@ -28,6 +28,8 @@ namespace GlobalNamespace {
     // private FloatUnityEvent _unityEvent
     // Offset: 0x20
     GlobalNamespace::FloatUnityEvent* unityEvent;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void OnEnable()
     // Offset: 0xCB24C4
     void OnEnable();

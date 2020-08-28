@@ -16,6 +16,12 @@ namespace System::IO {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: FileAction
+    constexpr FileAction(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.IO.FileAction Added
     static constexpr const int Added = 1;
     // Get static field: static public System.IO.FileAction Added
@@ -46,8 +52,6 @@ namespace System::IO {
     static System::IO::FileAction _get_RenamedNewName();
     // Set static field: static public System.IO.FileAction RenamedNewName
     static void _set_RenamedNewName(System::IO::FileAction value);
-    // Creating value type constructor for type: FileAction
-    FileAction(int value_ = {}) : value{value_} {}
   }; // System.IO.FileAction
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,12 @@ namespace System::ComponentModel {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EditorBrowsableState
+    constexpr EditorBrowsableState(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.ComponentModel.EditorBrowsableState Always
     static constexpr const int Always = 0;
     // Get static field: static public System.ComponentModel.EditorBrowsableState Always
@@ -34,8 +40,6 @@ namespace System::ComponentModel {
     static System::ComponentModel::EditorBrowsableState _get_Advanced();
     // Set static field: static public System.ComponentModel.EditorBrowsableState Advanced
     static void _set_Advanced(System::ComponentModel::EditorBrowsableState value);
-    // Creating value type constructor for type: EditorBrowsableState
-    EditorBrowsableState(int value_ = {}) : value{value_} {}
   }; // System.ComponentModel.EditorBrowsableState
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

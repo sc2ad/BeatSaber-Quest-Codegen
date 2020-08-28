@@ -26,7 +26,7 @@ namespace OVR::OpenVR {
     // Offset: 0x18
     uint64_t pathControllerType;
     // Creating value type constructor for type: VREvent_InputBindingLoad_t
-    VREvent_InputBindingLoad_t(uint64_t ulAppContainer_ = {}, uint64_t pathMessage_ = {}, uint64_t pathUrl_ = {}, uint64_t pathControllerType_ = {}) : ulAppContainer{ulAppContainer_}, pathMessage{pathMessage_}, pathUrl{pathUrl_}, pathControllerType{pathControllerType_} {}
+    constexpr VREvent_InputBindingLoad_t(uint64_t ulAppContainer_ = {}, uint64_t pathMessage_ = {}, uint64_t pathUrl_ = {}, uint64_t pathControllerType_ = {}) : ulAppContainer{ulAppContainer_}, pathMessage{pathMessage_}, pathUrl{pathUrl_}, pathControllerType{pathControllerType_} {}
   }; // OVR.OpenVR.VREvent_InputBindingLoad_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -35,6 +35,10 @@ namespace System::Threading::Tasks {
     // private System.Threading.Tasks.Task m_antecedent
     // Offset: 0x50
     System::Threading::Tasks::Task* m_antecedent;
+    // Creating conversion operator: operator System::Threading::Tasks::Task*
+    constexpr operator System::Threading::Tasks::Task*() const {
+      return m_antecedent;
+    }
     // public System.Void .ctor(System.Threading.Tasks.Task antecedent, System.Delegate action, System.Object state, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.InternalTaskOptions internalOptions, System.Threading.StackCrawlMark stackMark)
     // Offset: 0xCDFAA8
     static ContinuationTaskFromTask* New_ctor(System::Threading::Tasks::Task* antecedent, System::Delegate* action, ::Il2CppObject* state, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::InternalTaskOptions internalOptions, System::Threading::StackCrawlMark& stackMark);

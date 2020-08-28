@@ -18,6 +18,12 @@ namespace UnityEngine::Timeline {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: MediaType
+    constexpr MediaType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Timeline.TimelineAsset/MediaType Animation
     static constexpr const int Animation = 0;
     // Get static field: static public UnityEngine.Timeline.TimelineAsset/MediaType Animation
@@ -60,8 +66,6 @@ namespace UnityEngine::Timeline {
     static UnityEngine::Timeline::TimelineAsset::MediaType _get_Group();
     // Set static field: static public UnityEngine.Timeline.TimelineAsset/MediaType Group
     static void _set_Group(UnityEngine::Timeline::TimelineAsset::MediaType value);
-    // Creating value type constructor for type: MediaType
-    MediaType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Timeline.TimelineAsset/MediaType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

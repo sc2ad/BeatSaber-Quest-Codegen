@@ -16,6 +16,12 @@ namespace System::Xml {
     // System.Byte[] charProperties
     // Offset: 0x0
     ::Array<uint8_t>* charProperties;
+    // Creating value type constructor for type: XmlCharType
+    constexpr XmlCharType(::Array<uint8_t>* charProperties_ = {}) : charProperties{charProperties_} {}
+    // Creating conversion operator: operator ::Array<uint8_t>*
+    constexpr operator ::Array<uint8_t>*() const {
+      return charProperties;
+    }
     // Get static field: static private System.Object s_Lock
     static ::Il2CppObject* _get_s_Lock();
     // Set static field: static private System.Object s_Lock
@@ -24,8 +30,6 @@ namespace System::Xml {
     static ::Array<uint8_t>* _get_s_CharProperties();
     // Set static field: static private System.Byte[] s_CharProperties
     static void _set_s_CharProperties(::Array<uint8_t>* value);
-    // Creating value type constructor for type: XmlCharType
-    XmlCharType(::Array<uint8_t>* charProperties_ = {}) : charProperties{charProperties_} {}
     // static private System.Object get_StaticLock()
     // Offset: 0x11A36AC
     static ::Il2CppObject* get_StaticLock();

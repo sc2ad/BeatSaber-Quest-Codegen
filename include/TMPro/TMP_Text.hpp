@@ -110,6 +110,12 @@ namespace TMPro {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: TextInputSources
+      constexpr TextInputSources(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public TMPro.TMP_Text/TextInputSources Text
       static constexpr const int Text = 0;
       // Get static field: static public TMPro.TMP_Text/TextInputSources Text
@@ -134,8 +140,6 @@ namespace TMPro {
       static TMPro::TMP_Text::TextInputSources _get_String();
       // Set static field: static public TMPro.TMP_Text/TextInputSources String
       static void _set_String(TMPro::TMP_Text::TextInputSources value);
-      // Creating value type constructor for type: TextInputSources
-      TextInputSources(int value_ = {}) : value{value_} {}
     }; // TMPro.TMP_Text/TextInputSources
     // protected System.String m_text
     // Offset: 0xC0

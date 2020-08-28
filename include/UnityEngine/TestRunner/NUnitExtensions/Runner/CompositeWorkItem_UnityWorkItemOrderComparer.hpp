@@ -13,7 +13,8 @@
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestRunner::NUnitExtensions::Runner
 namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
-  // Skipping declaration: UnityWorkItem because it is already included!
+  // Forward declaring type: UnityWorkItem
+  class UnityWorkItem;
 }
 // Completed forward declares
 // Type namespace: UnityEngine.TestRunner.NUnitExtensions.Runner

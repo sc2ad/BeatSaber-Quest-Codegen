@@ -108,6 +108,8 @@ namespace GlobalNamespace {
     // protected UnityEngine.Camera _rightEyeCamera
     // Offset: 0xC8
     UnityEngine::Camera* rightEyeCamera;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public UnityEngine.Camera get_leftEyeCamera()
     // Offset: 0xCC9308
     UnityEngine::Camera* get_leftEyeCamera();

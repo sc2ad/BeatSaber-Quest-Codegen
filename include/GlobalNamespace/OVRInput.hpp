@@ -115,6 +115,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: Controller
+      constexpr Controller(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public OVRInput/Controller None
       static constexpr const int None = 0;
       // Get static field: static public OVRInput/Controller None
@@ -199,8 +205,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRInput::Controller _get_All();
       // Set static field: static public OVRInput/Controller All
       static void _set_All(GlobalNamespace::OVRInput::Controller value);
-      // Creating value type constructor for type: Controller
-      Controller(int value_ = {}) : value{value_} {}
     }; // OVRInput/Controller
     // Get static field: static private readonly System.Single AXIS_AS_BUTTON_THRESHOLD
     static float _get_AXIS_AS_BUTTON_THRESHOLD();

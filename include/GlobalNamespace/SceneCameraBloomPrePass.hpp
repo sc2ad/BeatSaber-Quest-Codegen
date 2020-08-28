@@ -40,6 +40,8 @@ namespace GlobalNamespace {
     // private UnityEngine.RenderTexture _bloomPrePassRenderTexture
     // Offset: 0x28
     UnityEngine::RenderTexture* bloomPrePassRenderTexture;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void OnCameraPreRender(UnityEngine.Camera camera)
     // Offset: 0x182FF04
     // Implemented from: CameraRenderCallbacksManager/ICameraRenderCallbacks

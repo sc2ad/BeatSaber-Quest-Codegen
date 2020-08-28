@@ -18,6 +18,8 @@ namespace Polyglot {
     // private System.String preferenceKey
     // Offset: 0x18
     ::Il2CppString* preferenceKey;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void Start()
     // Offset: 0x191AE44
     void Start();

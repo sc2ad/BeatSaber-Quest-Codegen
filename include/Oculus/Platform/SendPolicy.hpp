@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SendPolicy
+    constexpr SendPolicy(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.SendPolicy Unreliable
     static constexpr const int Unreliable = 0;
     // Get static field: static public Oculus.Platform.SendPolicy Unreliable
@@ -34,8 +40,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::SendPolicy _get_Unknown();
     // Set static field: static public Oculus.Platform.SendPolicy Unknown
     static void _set_Unknown(Oculus::Platform::SendPolicy value);
-    // Creating value type constructor for type: SendPolicy
-    SendPolicy(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.SendPolicy
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

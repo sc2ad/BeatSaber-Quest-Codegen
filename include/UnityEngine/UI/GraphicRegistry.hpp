@@ -44,6 +44,10 @@ namespace UnityEngine::UI {
     // private readonly System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>> m_Graphics
     // Offset: 0x10
     System::Collections::Generic::Dictionary_2<UnityEngine::Canvas*, UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::Graphic*>*>* m_Graphics;
+    // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<UnityEngine::Canvas*, UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::Graphic*>*>*
+    constexpr operator System::Collections::Generic::Dictionary_2<UnityEngine::Canvas*, UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::Graphic*>*>*() const {
+      return m_Graphics;
+    }
     // Get static field: static private UnityEngine.UI.GraphicRegistry s_Instance
     static UnityEngine::UI::GraphicRegistry* _get_s_Instance();
     // Set static field: static private UnityEngine.UI.GraphicRegistry s_Instance

@@ -39,6 +39,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Renderer _renderer
     // Offset: 0x30
     UnityEngine::Renderer* renderer;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void Awake()
     // Offset: 0xBE2068
     void Awake();

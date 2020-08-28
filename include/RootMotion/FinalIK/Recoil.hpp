@@ -41,6 +41,12 @@ namespace RootMotion::FinalIK {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: Handedness
+      constexpr Handedness(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public RootMotion.FinalIK.Recoil/Handedness Right
       static constexpr const int Right = 0;
       // Get static field: static public RootMotion.FinalIK.Recoil/Handedness Right
@@ -53,8 +59,6 @@ namespace RootMotion::FinalIK {
       static RootMotion::FinalIK::Recoil::Handedness _get_Left();
       // Set static field: static public RootMotion.FinalIK.Recoil/Handedness Left
       static void _set_Left(RootMotion::FinalIK::Recoil::Handedness value);
-      // Creating value type constructor for type: Handedness
-      Handedness(int value_ = {}) : value{value_} {}
     }; // RootMotion.FinalIK.Recoil/Handedness
     // public RootMotion.FinalIK.AimIK aimIK
     // Offset: 0x30

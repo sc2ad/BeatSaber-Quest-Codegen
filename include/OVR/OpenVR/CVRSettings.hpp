@@ -33,6 +33,10 @@ namespace OVR::OpenVR {
     // private OVR.OpenVR.IVRSettings FnTable
     // Offset: 0x10
     OVR::OpenVR::IVRSettings FnTable;
+    // Creating conversion operator: operator OVR::OpenVR::IVRSettings
+    constexpr operator OVR::OpenVR::IVRSettings() const {
+      return FnTable;
+    }
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0xED1474
     static CVRSettings* New_ctor(System::IntPtr pInterface);

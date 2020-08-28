@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.EventSystems.StandaloneInputModule
 #include "UnityEngine/EventSystems/StandaloneInputModule.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: UnityEngine.EventSystems
 namespace UnityEngine::EventSystems {
@@ -16,6 +18,12 @@ namespace UnityEngine::EventSystems {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: InputMode
+    constexpr InputMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.EventSystems.StandaloneInputModule/InputMode Mouse
     static constexpr const int Mouse = 0;
     // Get static field: static public UnityEngine.EventSystems.StandaloneInputModule/InputMode Mouse
@@ -28,8 +36,6 @@ namespace UnityEngine::EventSystems {
     static UnityEngine::EventSystems::StandaloneInputModule::InputMode _get_Buttons();
     // Set static field: static public UnityEngine.EventSystems.StandaloneInputModule/InputMode Buttons
     static void _set_Buttons(UnityEngine::EventSystems::StandaloneInputModule::InputMode value);
-    // Creating value type constructor for type: InputMode
-    InputMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.EventSystems.StandaloneInputModule/InputMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

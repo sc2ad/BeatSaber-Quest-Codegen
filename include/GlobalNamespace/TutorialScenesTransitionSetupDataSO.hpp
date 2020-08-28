@@ -39,6 +39,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: TutorialEndStateType
+      constexpr TutorialEndStateType(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public TutorialScenesTransitionSetupDataSO/TutorialEndStateType Completed
       static constexpr const int Completed = 0;
       // Get static field: static public TutorialScenesTransitionSetupDataSO/TutorialEndStateType Completed
@@ -57,8 +63,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType _get_Restart();
       // Set static field: static public TutorialScenesTransitionSetupDataSO/TutorialEndStateType Restart
       static void _set_Restart(GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType value);
-      // Creating value type constructor for type: TutorialEndStateType
-      TutorialEndStateType(int value_ = {}) : value{value_} {}
     }; // TutorialScenesTransitionSetupDataSO/TutorialEndStateType
     // private EnvironmentInfoSO _environmentInfo
     // Offset: 0x28

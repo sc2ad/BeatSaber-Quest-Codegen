@@ -25,6 +25,10 @@ namespace ModestTree {
     // public System.Type[] attributeTypes
     // Offset: 0x10
     ::Array<System::Type*>* attributeTypes;
+    // Creating conversion operator: operator ::Array<System::Type*>*
+    constexpr operator ::Array<System::Type*>*() const {
+      return attributeTypes;
+    }
     // System.Boolean <AllAttributes>b__0(System.Attribute a)
     // Offset: 0xD63AFC
     bool $AllAttributes$b__0(System::Attribute* a);

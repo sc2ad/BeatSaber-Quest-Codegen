@@ -53,7 +53,7 @@ namespace System {
     // Offset: 0x10
     bool m_isFixedDateRule;
     // Creating value type constructor for type: TransitionTime
-    TransitionTime(System::DateTime m_timeOfDay_ = {}, uint8_t m_month_ = {}, uint8_t m_week_ = {}, uint8_t m_day_ = {}, System::DayOfWeek m_dayOfWeek_ = {}, bool m_isFixedDateRule_ = {}) : m_timeOfDay{m_timeOfDay_}, m_month{m_month_}, m_week{m_week_}, m_day{m_day_}, m_dayOfWeek{m_dayOfWeek_}, m_isFixedDateRule{m_isFixedDateRule_} {}
+    constexpr TransitionTime(System::DateTime m_timeOfDay_ = {}, uint8_t m_month_ = {}, uint8_t m_week_ = {}, uint8_t m_day_ = {}, System::DayOfWeek m_dayOfWeek_ = {}, bool m_isFixedDateRule_ = {}) : m_timeOfDay{m_timeOfDay_}, m_month{m_month_}, m_week{m_week_}, m_day{m_day_}, m_dayOfWeek{m_dayOfWeek_}, m_isFixedDateRule{m_isFixedDateRule_} {}
     // public System.DateTime get_TimeOfDay()
     // Offset: 0xA5702C
     System::DateTime get_TimeOfDay();

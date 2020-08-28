@@ -16,6 +16,12 @@ namespace NUnit::Framework::Interfaces {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: RunState
+    constexpr RunState(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public NUnit.Framework.Interfaces.RunState NotRunnable
     static constexpr const int NotRunnable = 0;
     // Get static field: static public NUnit.Framework.Interfaces.RunState NotRunnable
@@ -46,8 +52,6 @@ namespace NUnit::Framework::Interfaces {
     static NUnit::Framework::Interfaces::RunState _get_Ignored();
     // Set static field: static public NUnit.Framework.Interfaces.RunState Ignored
     static void _set_Ignored(NUnit::Framework::Interfaces::RunState value);
-    // Creating value type constructor for type: RunState
-    RunState(int value_ = {}) : value{value_} {}
   }; // NUnit.Framework.Interfaces.RunState
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

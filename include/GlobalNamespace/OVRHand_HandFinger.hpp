@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: HandFinger
+    constexpr HandFinger(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRHand/HandFinger Thumb
     static constexpr const int Thumb = 0;
     // Get static field: static public OVRHand/HandFinger Thumb
@@ -54,8 +60,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRHand::HandFinger _get_Max();
     // Set static field: static public OVRHand/HandFinger Max
     static void _set_Max(GlobalNamespace::OVRHand::HandFinger value);
-    // Creating value type constructor for type: HandFinger
-    HandFinger(int value_ = {}) : value{value_} {}
   }; // OVRHand/HandFinger
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

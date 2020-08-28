@@ -14,6 +14,10 @@ namespace System::Xml {
     // private System.Byte[] nodeBuffer
     // Offset: 0x10
     ::Array<uint8_t>* nodeBuffer;
+    // Creating conversion operator: operator ::Array<uint8_t>*
+    constexpr operator ::Array<uint8_t>*() const {
+      return nodeBuffer;
+    }
     // public System.Void .ctor(System.Byte[] nodeBuffer)
     // Offset: 0x119BD18
     static TernaryTreeReadOnly* New_ctor(::Array<uint8_t>* nodeBuffer);

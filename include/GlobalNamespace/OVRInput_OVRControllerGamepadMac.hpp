@@ -32,6 +32,10 @@ namespace GlobalNamespace {
     // private System.Boolean initialized
     // Offset: 0x101
     bool initialized;
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return initialized;
+    }
     // static field const value: static private System.String DllName
     static constexpr const char* DllName = "OVRGamepad";
     // Get static field: static private System.String DllName

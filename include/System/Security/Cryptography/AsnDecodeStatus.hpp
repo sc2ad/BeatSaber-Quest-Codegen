@@ -16,6 +16,12 @@ namespace System::Security::Cryptography {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: AsnDecodeStatus
+    constexpr AsnDecodeStatus(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Security.Cryptography.AsnDecodeStatus NotDecoded
     static constexpr const int NotDecoded = -1;
     // Get static field: static public System.Security.Cryptography.AsnDecodeStatus NotDecoded
@@ -52,8 +58,6 @@ namespace System::Security::Cryptography {
     static System::Security::Cryptography::AsnDecodeStatus _get_InformationNotAvailable();
     // Set static field: static public System.Security.Cryptography.AsnDecodeStatus InformationNotAvailable
     static void _set_InformationNotAvailable(System::Security::Cryptography::AsnDecodeStatus value);
-    // Creating value type constructor for type: AsnDecodeStatus
-    AsnDecodeStatus(int value_ = {}) : value{value_} {}
   }; // System.Security.Cryptography.AsnDecodeStatus
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

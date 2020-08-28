@@ -45,6 +45,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Material _material
     // Offset: 0x38
     UnityEngine::Material* material;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xC0FF78
     void Start();

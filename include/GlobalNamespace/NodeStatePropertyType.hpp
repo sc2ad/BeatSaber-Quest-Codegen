@@ -16,6 +16,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: NodeStatePropertyType
+    constexpr NodeStatePropertyType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public NodeStatePropertyType Acceleration
     static constexpr const int Acceleration = 0;
     // Get static field: static public NodeStatePropertyType Acceleration
@@ -52,8 +58,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::NodeStatePropertyType _get_Orientation();
     // Set static field: static public NodeStatePropertyType Orientation
     static void _set_Orientation(GlobalNamespace::NodeStatePropertyType value);
-    // Creating value type constructor for type: NodeStatePropertyType
-    NodeStatePropertyType(int value_ = {}) : value{value_} {}
   }; // NodeStatePropertyType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

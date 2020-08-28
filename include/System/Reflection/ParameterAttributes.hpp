@@ -16,6 +16,12 @@ namespace System::Reflection {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ParameterAttributes
+    constexpr ParameterAttributes(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Reflection.ParameterAttributes None
     static constexpr const int None = 0;
     // Get static field: static public System.Reflection.ParameterAttributes None
@@ -82,8 +88,6 @@ namespace System::Reflection {
     static System::Reflection::ParameterAttributes _get_Reserved4();
     // Set static field: static public System.Reflection.ParameterAttributes Reserved4
     static void _set_Reserved4(System::Reflection::ParameterAttributes value);
-    // Creating value type constructor for type: ParameterAttributes
-    ParameterAttributes(int value_ = {}) : value{value_} {}
   }; // System.Reflection.ParameterAttributes
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

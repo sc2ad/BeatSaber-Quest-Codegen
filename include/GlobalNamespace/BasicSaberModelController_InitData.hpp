@@ -18,6 +18,10 @@ namespace GlobalNamespace {
     // public readonly UnityEngine.Color trailTintColor
     // Offset: 0x10
     UnityEngine::Color trailTintColor;
+    // Creating conversion operator: operator UnityEngine::Color
+    constexpr operator UnityEngine::Color() const {
+      return trailTintColor;
+    }
     // public System.Void .ctor(UnityEngine.Color trailTintColor)
     // Offset: 0xB8C2D8
     static BasicSaberModelController::InitData* New_ctor(UnityEngine::Color trailTintColor);

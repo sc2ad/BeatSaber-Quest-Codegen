@@ -102,6 +102,8 @@ namespace NUnit::Framework::Internal {
     // private System.Boolean <IsSingleThreaded>k__BackingField
     // Offset: 0x80
     bool IsSingleThreaded;
+    // Deleting conversion operator: operator ::Il2CppObject*
+    constexpr operator ::Il2CppObject*() const = delete;
     // Get static field: static private readonly System.String CONTEXT_KEY
     static ::Il2CppString* _get_CONTEXT_KEY();
     // Set static field: static private readonly System.String CONTEXT_KEY

@@ -23,6 +23,10 @@ namespace NUnit::Framework::Constraints {
     // public NUnit.Framework.Constraints.ValueFormatter next
     // Offset: 0x10
     NUnit::Framework::Constraints::ValueFormatter* next;
+    // Creating conversion operator: operator NUnit::Framework::Constraints::ValueFormatter*
+    constexpr operator NUnit::Framework::Constraints::ValueFormatter*() const {
+      return next;
+    }
     // public System.String <.cctor>b__a(System.Object val)
     // Offset: 0x107BF8C
     ::Il2CppString* $_cctor$b__a(::Il2CppObject* val);

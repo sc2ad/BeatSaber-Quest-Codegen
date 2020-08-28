@@ -26,6 +26,8 @@ namespace GlobalNamespace {
     // private System.Single _smooth
     // Offset: 0x20
     float smooth;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Update()
     // Offset: 0xCB2238
     void Update();

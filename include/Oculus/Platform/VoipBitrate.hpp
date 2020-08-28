@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: VoipBitrate
+    constexpr VoipBitrate(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.VoipBitrate Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.VoipBitrate Unknown
@@ -58,8 +64,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::VoipBitrate _get_B128000();
     // Set static field: static public Oculus.Platform.VoipBitrate B128000
     static void _set_B128000(Oculus::Platform::VoipBitrate value);
-    // Creating value type constructor for type: VoipBitrate
-    VoipBitrate(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.VoipBitrate
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,12 @@ namespace UnityEngine::Rendering {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: VertexAttributeFormat
+    constexpr VertexAttributeFormat(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Rendering.VertexAttributeFormat Float32
     static constexpr const int Float32 = 0;
     // Get static field: static public UnityEngine.Rendering.VertexAttributeFormat Float32
@@ -88,8 +94,6 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::VertexAttributeFormat _get_SInt32();
     // Set static field: static public UnityEngine.Rendering.VertexAttributeFormat SInt32
     static void _set_SInt32(UnityEngine::Rendering::VertexAttributeFormat value);
-    // Creating value type constructor for type: VertexAttributeFormat
-    VertexAttributeFormat(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Rendering.VertexAttributeFormat
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

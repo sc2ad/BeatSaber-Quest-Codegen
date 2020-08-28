@@ -18,6 +18,12 @@ namespace HMUI {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ActivationType
+    constexpr ActivationType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public HMUI.ViewController/ActivationType AddedToHierarchy
     static constexpr const int AddedToHierarchy = 0;
     // Get static field: static public HMUI.ViewController/ActivationType AddedToHierarchy
@@ -30,8 +36,6 @@ namespace HMUI {
     static HMUI::ViewController::ActivationType _get_NotAddedToHierarchy();
     // Set static field: static public HMUI.ViewController/ActivationType NotAddedToHierarchy
     static void _set_NotAddedToHierarchy(HMUI::ViewController::ActivationType value);
-    // Creating value type constructor for type: ActivationType
-    ActivationType(int value_ = {}) : value{value_} {}
   }; // HMUI.ViewController/ActivationType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

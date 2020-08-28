@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: CursorLockMode
+    constexpr CursorLockMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.CursorLockMode None
     static constexpr const int None = 0;
     // Get static field: static public UnityEngine.CursorLockMode None
@@ -34,8 +40,6 @@ namespace UnityEngine {
     static UnityEngine::CursorLockMode _get_Confined();
     // Set static field: static public UnityEngine.CursorLockMode Confined
     static void _set_Confined(UnityEngine::CursorLockMode value);
-    // Creating value type constructor for type: CursorLockMode
-    CursorLockMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.CursorLockMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,10 @@ namespace GlobalNamespace {
     // public System.Boolean value
     // Offset: 0x10
     bool value;
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return value;
+    }
     // System.Void <get_canPause>b__0(System.Boolean newValue)
     // Offset: 0xBD4EBC
     void $get_canPause$b__0(bool newValue);

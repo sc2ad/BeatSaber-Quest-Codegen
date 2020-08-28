@@ -16,6 +16,12 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: VROverlayInputMethod
+    constexpr VROverlayInputMethod(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.VROverlayInputMethod None
     static constexpr const int None = 0;
     // Get static field: static public Valve.VR.VROverlayInputMethod None
@@ -34,8 +40,6 @@ namespace Valve::VR {
     static Valve::VR::VROverlayInputMethod _get_DualAnalog();
     // Set static field: static public Valve.VR.VROverlayInputMethod DualAnalog
     static void _set_DualAnalog(Valve::VR::VROverlayInputMethod value);
-    // Creating value type constructor for type: VROverlayInputMethod
-    VROverlayInputMethod(int value_ = {}) : value{value_} {}
   }; // Valve.VR.VROverlayInputMethod
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

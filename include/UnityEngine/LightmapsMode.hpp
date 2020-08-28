@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: LightmapsMode
+    constexpr LightmapsMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.LightmapsMode NonDirectional
     static constexpr const int NonDirectional = 0;
     // Get static field: static public UnityEngine.LightmapsMode NonDirectional
@@ -28,8 +34,6 @@ namespace UnityEngine {
     static UnityEngine::LightmapsMode _get_CombinedDirectional();
     // Set static field: static public UnityEngine.LightmapsMode CombinedDirectional
     static void _set_CombinedDirectional(UnityEngine::LightmapsMode value);
-    // Creating value type constructor for type: LightmapsMode
-    LightmapsMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.LightmapsMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

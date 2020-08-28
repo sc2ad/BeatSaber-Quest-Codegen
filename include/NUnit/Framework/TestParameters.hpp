@@ -27,6 +27,10 @@ namespace NUnit::Framework {
     // private readonly System.Collections.Generic.Dictionary`2<System.String,System.String> _parameters
     // Offset: 0x10
     System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* parameters;
+    // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*
+    constexpr operator System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*() const {
+      return parameters;
+    }
     // Get static field: static private readonly System.IFormatProvider MODIFIED_INVARIANT_CULTURE
     static System::IFormatProvider* _get_MODIFIED_INVARIANT_CULTURE();
     // Set static field: static private readonly System.IFormatProvider MODIFIED_INVARIANT_CULTURE

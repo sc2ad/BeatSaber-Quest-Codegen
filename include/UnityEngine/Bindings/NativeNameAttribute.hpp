@@ -16,6 +16,10 @@ namespace UnityEngine::Bindings {
     // private System.String <Name>k__BackingField
     // Offset: 0x10
     ::Il2CppString* Name;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return Name;
+    }
     // public System.Void set_Name(System.String value)
     // Offset: 0x1974F80
     void set_Name(::Il2CppString* value);

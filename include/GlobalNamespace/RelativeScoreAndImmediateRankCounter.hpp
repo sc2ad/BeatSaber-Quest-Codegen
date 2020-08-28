@@ -52,6 +52,8 @@ namespace GlobalNamespace {
     // private System.Single _gameplayModifiersScoreMultiplier
     // Offset: 0x40
     float gameplayModifiersScoreMultiplier;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void add_relativeScoreOrImmediateRankDidChangeEvent(System.Action value)
     // Offset: 0xC208E0
     void add_relativeScoreOrImmediateRankDidChangeEvent(System::Action* value);

@@ -152,6 +152,12 @@ namespace UnityEngine::ProBuilder {
       // public System.Byte value__
       // Offset: 0x0
       uint8_t value;
+      // Creating value type constructor for type: CacheValidState
+      constexpr CacheValidState(uint8_t value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator uint8_t
+      constexpr operator uint8_t() const {
+        return value;
+      }
       // static field const value: static public UnityEngine.ProBuilder.ProBuilderMesh/CacheValidState SharedVertex
       static constexpr const uint8_t SharedVertex = 1u;
       // Get static field: static public UnityEngine.ProBuilder.ProBuilderMesh/CacheValidState SharedVertex
@@ -164,8 +170,6 @@ namespace UnityEngine::ProBuilder {
       static UnityEngine::ProBuilder::ProBuilderMesh::CacheValidState _get_SharedTexture();
       // Set static field: static public UnityEngine.ProBuilder.ProBuilderMesh/CacheValidState SharedTexture
       static void _set_SharedTexture(UnityEngine::ProBuilder::ProBuilderMesh::CacheValidState value);
-      // Creating value type constructor for type: CacheValidState
-      CacheValidState(uint8_t value_ = {}) : value{value_} {}
     }; // UnityEngine.ProBuilder.ProBuilderMesh/CacheValidState
     // private System.Int32 m_MeshFormatVersion
     // Offset: 0x18
@@ -254,6 +258,8 @@ namespace UnityEngine::ProBuilder {
     // private System.Collections.Generic.List`1<System.Int32> m_SelectedCoincidentVertices
     // Offset: 0xF0
     System::Collections::Generic::List_1<int>* m_SelectedCoincidentVertices;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static field const value: static private System.Int32 k_UVChannelCount
     static constexpr const int k_UVChannelCount = 4;
     // Get static field: static private System.Int32 k_UVChannelCount

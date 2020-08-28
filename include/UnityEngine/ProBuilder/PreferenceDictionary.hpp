@@ -121,6 +121,8 @@ namespace UnityEngine::ProBuilder {
     // private System.Collections.Generic.List`1<UnityEngine.Material> m_Material_values
     // Offset: 0xA0
     System::Collections::Generic::List_1<UnityEngine::Material*>* m_Material_values;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Boolean HasKey(System.String key)
     // Offset: 0x1032EE4
     bool HasKey(::Il2CppString* key);

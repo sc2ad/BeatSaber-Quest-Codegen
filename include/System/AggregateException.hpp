@@ -51,6 +51,10 @@ namespace System {
     // private System.Collections.ObjectModel.ReadOnlyCollection`1<System.Exception> m_innerExceptions
     // Offset: 0x88
     System::Collections::ObjectModel::ReadOnlyCollection_1<System::Exception*>* m_innerExceptions;
+    // Creating conversion operator: operator System::Collections::ObjectModel::ReadOnlyCollection_1<System::Exception*>*
+    constexpr operator System::Collections::ObjectModel::ReadOnlyCollection_1<System::Exception*>*() const {
+      return m_innerExceptions;
+    }
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<System.Exception> innerExceptions)
     // Offset: 0x10BD1B4
     static AggregateException* New_ctor(System::Collections::Generic::IEnumerable_1<System::Exception*>* innerExceptions);

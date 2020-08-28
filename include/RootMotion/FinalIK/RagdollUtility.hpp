@@ -86,6 +86,8 @@ namespace RootMotion::FinalIK {
     // private System.Boolean[] disabledIKComponents
     // Offset: 0x70
     ::Array<bool>* disabledIKComponents;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void EnableRagdoll()
     // Offset: 0x1234A10
     void EnableRagdoll();

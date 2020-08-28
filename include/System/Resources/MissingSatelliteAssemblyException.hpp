@@ -25,6 +25,10 @@ namespace System::Resources {
     // private System.String _cultureName
     // Offset: 0x88
     ::Il2CppString* cultureName;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return cultureName;
+    }
     // public System.Void .ctor(System.String message, System.String cultureName)
     // Offset: 0x115CBD0
     static MissingSatelliteAssemblyException* New_ctor(::Il2CppString* message, ::Il2CppString* cultureName);

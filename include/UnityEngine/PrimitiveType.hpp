@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: PrimitiveType
+    constexpr PrimitiveType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.PrimitiveType Sphere
     static constexpr const int Sphere = 0;
     // Get static field: static public UnityEngine.PrimitiveType Sphere
@@ -52,8 +58,6 @@ namespace UnityEngine {
     static UnityEngine::PrimitiveType _get_Quad();
     // Set static field: static public UnityEngine.PrimitiveType Quad
     static void _set_Quad(UnityEngine::PrimitiveType value);
-    // Creating value type constructor for type: PrimitiveType
-    PrimitiveType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.PrimitiveType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

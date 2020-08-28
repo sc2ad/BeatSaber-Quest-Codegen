@@ -52,6 +52,8 @@ namespace GlobalNamespace {
     // private FlyingTextEffect/Pool _flyingTextEffectPool
     // Offset: 0x40
     GlobalNamespace::FlyingTextEffect::Pool* flyingTextEffectPool;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void SpawnText(UnityEngine.Vector3 pos, UnityEngine.Quaternion rotation, UnityEngine.Quaternion inverseRotation, System.String text)
     // Offset: 0xBF144C
     void SpawnText(UnityEngine::Vector3 pos, UnityEngine::Quaternion rotation, UnityEngine::Quaternion inverseRotation, ::Il2CppString* text);

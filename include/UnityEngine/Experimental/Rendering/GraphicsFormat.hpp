@@ -16,6 +16,12 @@ namespace UnityEngine::Experimental::Rendering {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: GraphicsFormat
+    constexpr GraphicsFormat(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Experimental.Rendering.GraphicsFormat None
     static constexpr const int None = 0;
     // Get static field: static public UnityEngine.Experimental.Rendering.GraphicsFormat None
@@ -802,8 +808,6 @@ namespace UnityEngine::Experimental::Rendering {
     static UnityEngine::Experimental::Rendering::GraphicsFormat _get_RGBA_ASTC12X12_UNorm();
     // Set static field: static public UnityEngine.Experimental.Rendering.GraphicsFormat RGBA_ASTC12X12_UNorm
     static void _set_RGBA_ASTC12X12_UNorm(UnityEngine::Experimental::Rendering::GraphicsFormat value);
-    // Creating value type constructor for type: GraphicsFormat
-    GraphicsFormat(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Experimental.Rendering.GraphicsFormat
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
