@@ -16,6 +16,12 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRCompositorTimingMode
+    constexpr EVRCompositorTimingMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.EVRCompositorTimingMode Implicit
     static constexpr const int Implicit = 0;
     // Get static field: static public Valve.VR.EVRCompositorTimingMode Implicit
@@ -34,8 +40,6 @@ namespace Valve::VR {
     static Valve::VR::EVRCompositorTimingMode _get_Explicit_ApplicationPerformsPostPresentHandoff();
     // Set static field: static public Valve.VR.EVRCompositorTimingMode Explicit_ApplicationPerformsPostPresentHandoff
     static void _set_Explicit_ApplicationPerformsPostPresentHandoff(Valve::VR::EVRCompositorTimingMode value);
-    // Creating value type constructor for type: EVRCompositorTimingMode
-    EVRCompositorTimingMode(int value_ = {}) : value{value_} {}
   }; // Valve.VR.EVRCompositorTimingMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: WindowMode
+    constexpr WindowMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public MainSettingsModelSO/WindowMode Windowed
     static constexpr const int Windowed = 0;
     // Get static field: static public MainSettingsModelSO/WindowMode Windowed
@@ -30,8 +36,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::MainSettingsModelSO::WindowMode _get_Fullscreen();
     // Set static field: static public MainSettingsModelSO/WindowMode Fullscreen
     static void _set_Fullscreen(GlobalNamespace::MainSettingsModelSO::WindowMode value);
-    // Creating value type constructor for type: WindowMode
-    WindowMode(int value_ = {}) : value{value_} {}
   }; // MainSettingsModelSO/WindowMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

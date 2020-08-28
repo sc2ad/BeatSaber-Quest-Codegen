@@ -16,6 +16,12 @@ namespace UnityEngineInternal {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TypeInferenceRules
+    constexpr TypeInferenceRules(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngineInternal.TypeInferenceRules TypeReferencedByFirstArgument
     static constexpr const int TypeReferencedByFirstArgument = 0;
     // Get static field: static public UnityEngineInternal.TypeInferenceRules TypeReferencedByFirstArgument
@@ -40,8 +46,6 @@ namespace UnityEngineInternal {
     static UnityEngineInternal::TypeInferenceRules _get_TypeOfFirstArgument();
     // Set static field: static public UnityEngineInternal.TypeInferenceRules TypeOfFirstArgument
     static void _set_TypeOfFirstArgument(UnityEngineInternal::TypeInferenceRules value);
-    // Creating value type constructor for type: TypeInferenceRules
-    TypeInferenceRules(int value_ = {}) : value{value_} {}
   }; // UnityEngineInternal.TypeInferenceRules
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

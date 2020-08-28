@@ -75,6 +75,8 @@ namespace UnityEngine {
     // public System.Single m33
     // Offset: 0x3C
     float m33;
+    // Creating value type constructor for type: Matrix4x4
+    constexpr Matrix4x4(float m00_ = {}, float m10_ = {}, float m20_ = {}, float m30_ = {}, float m01_ = {}, float m11_ = {}, float m21_ = {}, float m31_ = {}, float m02_ = {}, float m12_ = {}, float m22_ = {}, float m32_ = {}, float m03_ = {}, float m13_ = {}, float m23_ = {}, float m33_ = {}) : m00{m00_}, m10{m10_}, m20{m20_}, m30{m30_}, m01{m01_}, m11{m11_}, m21{m21_}, m31{m31_}, m02{m02_}, m12{m12_}, m22{m22_}, m32{m32_}, m03{m03_}, m13{m13_}, m23{m23_}, m33{m33_} {}
     // Get static field: static private readonly UnityEngine.Matrix4x4 zeroMatrix
     static UnityEngine::Matrix4x4 _get_zeroMatrix();
     // Set static field: static private readonly UnityEngine.Matrix4x4 zeroMatrix
@@ -83,8 +85,6 @@ namespace UnityEngine {
     static UnityEngine::Matrix4x4 _get_identityMatrix();
     // Set static field: static private readonly UnityEngine.Matrix4x4 identityMatrix
     static void _set_identityMatrix(UnityEngine::Matrix4x4 value);
-    // Creating value type constructor for type: Matrix4x4
-    Matrix4x4(float m00_ = {}, float m10_ = {}, float m20_ = {}, float m30_ = {}, float m01_ = {}, float m11_ = {}, float m21_ = {}, float m31_ = {}, float m02_ = {}, float m12_ = {}, float m22_ = {}, float m32_ = {}, float m03_ = {}, float m13_ = {}, float m23_ = {}, float m33_ = {}) : m00{m00_}, m10{m10_}, m20{m20_}, m30{m30_}, m01{m01_}, m11{m11_}, m21{m21_}, m31{m31_}, m02{m02_}, m12{m12_}, m22{m22_}, m32{m32_}, m03{m03_}, m13{m13_}, m23{m23_}, m33{m33_} {}
     // private UnityEngine.Vector3 GetLossyScale()
     // Offset: 0xA48860
     UnityEngine::Vector3 GetLossyScale();

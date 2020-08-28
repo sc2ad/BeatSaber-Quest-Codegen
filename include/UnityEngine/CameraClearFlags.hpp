@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: CameraClearFlags
+    constexpr CameraClearFlags(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.CameraClearFlags Skybox
     static constexpr const int Skybox = 1;
     // Get static field: static public UnityEngine.CameraClearFlags Skybox
@@ -46,8 +52,6 @@ namespace UnityEngine {
     static UnityEngine::CameraClearFlags _get_Nothing();
     // Set static field: static public UnityEngine.CameraClearFlags Nothing
     static void _set_Nothing(UnityEngine::CameraClearFlags value);
-    // Creating value type constructor for type: CameraClearFlags
-    CameraClearFlags(int value_ = {}) : value{value_} {}
   }; // UnityEngine.CameraClearFlags
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

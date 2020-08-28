@@ -25,6 +25,10 @@ namespace System::Collections {
     // private System.Globalization.CompareInfo m_compareInfo
     // Offset: 0x10
     System::Globalization::CompareInfo* m_compareInfo;
+    // Creating conversion operator: operator System::Globalization::CompareInfo*
+    constexpr operator System::Globalization::CompareInfo*() const {
+      return m_compareInfo;
+    }
     // public System.Void .ctor(System.Globalization.CultureInfo culture)
     // Offset: 0x133A378
     static CaseInsensitiveComparer* New_ctor(System::Globalization::CultureInfo* culture);

@@ -48,6 +48,8 @@ namespace GlobalNamespace {
     // private UnityEngine.ParticleSystem/Particle[] _particles
     // Offset: 0x40
     ::Array<UnityEngine::ParticleSystem::Particle>* particles;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static field const value: static private System.Single kSpeedMultiplier
     static constexpr const float kSpeedMultiplier = 5;
     // Get static field: static private System.Single kSpeedMultiplier

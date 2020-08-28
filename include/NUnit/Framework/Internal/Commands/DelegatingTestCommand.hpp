@@ -16,6 +16,8 @@ namespace NUnit::Framework::Internal::Commands {
     // protected NUnit.Framework.Internal.Commands.TestCommand innerCommand
     // Offset: 0x18
     NUnit::Framework::Internal::Commands::TestCommand* innerCommand;
+    // Deleting conversion operator: operator NUnit::Framework::Internal::Test*
+    constexpr operator NUnit::Framework::Internal::Test*() const = delete;
     // public NUnit.Framework.Internal.Commands.TestCommand GetInnerCommand()
     // Offset: 0x1088074
     NUnit::Framework::Internal::Commands::TestCommand* GetInnerCommand();

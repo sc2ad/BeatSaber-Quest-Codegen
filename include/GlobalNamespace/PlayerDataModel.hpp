@@ -28,6 +28,8 @@ namespace GlobalNamespace {
     // private PlayerData _playerData
     // Offset: 0x20
     GlobalNamespace::PlayerData* playerData;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public PlayerData get_playerData()
     // Offset: 0xBDE09C
     GlobalNamespace::PlayerData* get_playerData();

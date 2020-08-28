@@ -102,6 +102,8 @@ namespace GlobalNamespace {
     // private System.Int32 _prevLightSwitchBeatmapEventDataValue
     // Offset: 0xC0
     int prevLightSwitchBeatmapEventDataValue;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Int32 get_LightsID()
     // Offset: 0xBFA6DC
     int get_LightsID();

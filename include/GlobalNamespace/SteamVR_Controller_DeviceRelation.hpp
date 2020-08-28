@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: DeviceRelation
+    constexpr DeviceRelation(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public SteamVR_Controller/DeviceRelation First
     static constexpr const int First = 0;
     // Get static field: static public SteamVR_Controller/DeviceRelation First
@@ -48,8 +54,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::SteamVR_Controller::DeviceRelation _get_FarthestRight();
     // Set static field: static public SteamVR_Controller/DeviceRelation FarthestRight
     static void _set_FarthestRight(GlobalNamespace::SteamVR_Controller::DeviceRelation value);
-    // Creating value type constructor for type: DeviceRelation
-    DeviceRelation(int value_ = {}) : value{value_} {}
   }; // SteamVR_Controller/DeviceRelation
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

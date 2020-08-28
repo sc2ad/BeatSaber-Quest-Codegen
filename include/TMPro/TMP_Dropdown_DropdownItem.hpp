@@ -7,6 +7,12 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TMPro.TMP_Dropdown
 #include "TMPro/TMP_Dropdown.hpp"
+// Including type: UnityEngine.MonoBehaviour
+#include "UnityEngine/MonoBehaviour.hpp"
+// Including type: UnityEngine.EventSystems.IPointerEnterHandler
+#include "UnityEngine/EventSystems/IPointerEnterHandler.hpp"
+// Including type: UnityEngine.EventSystems.ICancelHandler
+#include "UnityEngine/EventSystems/ICancelHandler.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -51,6 +57,8 @@ namespace TMPro {
     // private UnityEngine.UI.Toggle m_Toggle
     // Offset: 0x30
     UnityEngine::UI::Toggle* m_Toggle;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public TMPro.TMP_Text get_text()
     // Offset: 0xB5A30C
     TMPro::TMP_Text* get_text();

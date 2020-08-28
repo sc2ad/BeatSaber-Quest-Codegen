@@ -42,6 +42,10 @@ namespace Zenject {
     // private readonly System.Action`4<Zenject.DiContainer,TParam1,TParam2,TParam3> _installMethod
     // Offset: 0x0
     System::Action_4<Zenject::DiContainer*, TParam1, TParam2, TParam3>* installMethod;
+    // Creating conversion operator: operator System::Action_4<Zenject::DiContainer*, TParam1, TParam2, TParam3>*
+    constexpr operator System::Action_4<Zenject::DiContainer*, TParam1, TParam2, TParam3>*() const {
+      return installMethod;
+    }
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.SubContainerCreatorBindInfo containerBindInfo, System.Action`4<Zenject.DiContainer,TParam1,TParam2,TParam3> installMethod)
     // Offset: 0xFFFFFFFF
     static SubContainerCreatorByMethod_3<TParam1, TParam2, TParam3>* New_ctor(Zenject::DiContainer* container, Zenject::SubContainerCreatorBindInfo* containerBindInfo, System::Action_4<Zenject::DiContainer*, TParam1, TParam2, TParam3>* installMethod) {

@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.UInt64 value__
     // Offset: 0x0
     uint64_t value;
+    // Creating value type constructor for type: OpenVRController
+    constexpr OpenVRController(uint64_t value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator uint64_t
+    constexpr operator uint64_t() const {
+      return value;
+    }
     // static field const value: static public OVRInput/OpenVRController Unknown
     static constexpr const uint64_t Unknown = 0u;
     // Get static field: static public OVRInput/OpenVRController Unknown
@@ -42,8 +48,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRInput::OpenVRController _get_WindowsMRController();
     // Set static field: static public OVRInput/OpenVRController WindowsMRController
     static void _set_WindowsMRController(GlobalNamespace::OVRInput::OpenVRController value);
-    // Creating value type constructor for type: OpenVRController
-    OpenVRController(uint64_t value_ = {}) : value{value_} {}
   }; // OVRInput/OpenVRController
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

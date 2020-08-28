@@ -16,6 +16,12 @@ namespace System::Xml {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: XmlSpace
+    constexpr XmlSpace(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Xml.XmlSpace None
     static constexpr const int None = 0;
     // Get static field: static public System.Xml.XmlSpace None
@@ -34,8 +40,6 @@ namespace System::Xml {
     static System::Xml::XmlSpace _get_Preserve();
     // Set static field: static public System.Xml.XmlSpace Preserve
     static void _set_Preserve(System::Xml::XmlSpace value);
-    // Creating value type constructor for type: XmlSpace
-    XmlSpace(int value_ = {}) : value{value_} {}
   }; // System.Xml.XmlSpace
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

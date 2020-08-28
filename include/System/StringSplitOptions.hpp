@@ -16,6 +16,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: StringSplitOptions
+    constexpr StringSplitOptions(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.StringSplitOptions None
     static constexpr const int None = 0;
     // Get static field: static public System.StringSplitOptions None
@@ -28,8 +34,6 @@ namespace System {
     static System::StringSplitOptions _get_RemoveEmptyEntries();
     // Set static field: static public System.StringSplitOptions RemoveEmptyEntries
     static void _set_RemoveEmptyEntries(System::StringSplitOptions value);
-    // Creating value type constructor for type: StringSplitOptions
-    StringSplitOptions(int value_ = {}) : value{value_} {}
   }; // System.StringSplitOptions
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

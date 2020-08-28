@@ -16,6 +16,10 @@ namespace System::Reflection {
     // private System.String m_title
     // Offset: 0x10
     ::Il2CppString* m_title;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return m_title;
+    }
     // public System.Void .ctor(System.String title)
     // Offset: 0x1369CA4
     static AssemblyTitleAttribute* New_ctor(::Il2CppString* title);

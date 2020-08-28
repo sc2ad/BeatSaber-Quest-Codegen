@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: RuntimePlatform
+    constexpr RuntimePlatform(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.RuntimePlatform OSXEditor
     static constexpr const int OSXEditor = 0;
     // Get static field: static public UnityEngine.RuntimePlatform OSXEditor
@@ -226,8 +232,6 @@ namespace UnityEngine {
     static UnityEngine::RuntimePlatform _get_Stadia();
     // Set static field: static public UnityEngine.RuntimePlatform Stadia
     static void _set_Stadia(UnityEngine::RuntimePlatform value);
-    // Creating value type constructor for type: RuntimePlatform
-    RuntimePlatform(int value_ = {}) : value{value_} {}
   }; // UnityEngine.RuntimePlatform
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

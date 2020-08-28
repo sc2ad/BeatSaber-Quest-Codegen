@@ -31,7 +31,7 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0x14
     int Optional;
     // Creating value type constructor for type: Escape
-    Escape(::Il2CppString* Source_ = {}, int Index_ = {}, int Start_ = {}, int End_ = {}, int Optional_ = {}) : Source{Source_}, Index{Index_}, Start{Start_}, End{End_}, Optional{Optional_} {}
+    constexpr Escape(::Il2CppString* Source_ = {}, int Index_ = {}, int Start_ = {}, int End_ = {}, int Optional_ = {}) : Source{Source_}, Index{Index_}, Start{Start_}, End{End_}, Optional{Optional_} {}
   }; // Mono.Globalization.Unicode.SimpleCollator/Escape
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

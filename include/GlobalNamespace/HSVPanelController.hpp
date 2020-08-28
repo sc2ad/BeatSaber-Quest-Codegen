@@ -48,6 +48,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Vector3 _hsvColor
     // Offset: 0x30
     UnityEngine::Vector3 hsvColor;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void add_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
     // Offset: 0xB41A38
     void add_colorDidChangeEvent(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);

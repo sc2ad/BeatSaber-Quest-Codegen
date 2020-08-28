@@ -37,6 +37,10 @@ namespace System::Threading::Tasks {
     // private readonly System.Threading.Tasks.TaskScheduler m_scheduler
     // Offset: 0x20
     System::Threading::Tasks::TaskScheduler* m_scheduler;
+    // Creating conversion operator: operator System::Threading::Tasks::TaskScheduler*
+    constexpr operator System::Threading::Tasks::TaskScheduler*() const {
+      return m_scheduler;
+    }
     // System.Void .ctor(System.Threading.Tasks.TaskScheduler scheduler, System.Action action, System.Boolean flowExecutionContext, System.Threading.StackCrawlMark stackMark)
     // Offset: 0xCE4F98
     static TaskSchedulerAwaitTaskContinuation* New_ctor(System::Threading::Tasks::TaskScheduler* scheduler, System::Action* action, bool flowExecutionContext, System::Threading::StackCrawlMark& stackMark);

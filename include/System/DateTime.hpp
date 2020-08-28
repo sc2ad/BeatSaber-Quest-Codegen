@@ -66,6 +66,12 @@ namespace System {
     // private System.UInt64 dateData
     // Offset: 0x0
     uint64_t dateData;
+    // Creating value type constructor for type: DateTime
+    constexpr DateTime(uint64_t dateData_ = {}) : dateData{dateData_} {}
+    // Creating conversion operator: operator uint64_t
+    constexpr operator uint64_t() const {
+      return dateData;
+    }
     // static field const value: static private System.Int64 TicksPerMillisecond
     static constexpr const int64_t TicksPerMillisecond = 10000;
     // Get static field: static private System.Int64 TicksPerMillisecond
@@ -322,8 +328,6 @@ namespace System {
     static ::Il2CppString* _get_DateDataField();
     // Set static field: static private System.String DateDataField
     static void _set_DateDataField(::Il2CppString* value);
-    // Creating value type constructor for type: DateTime
-    DateTime(uint64_t dateData_ = {}) : dateData{dateData_} {}
     // public System.Void .ctor(System.Int64 ticks)
     // Offset: 0xA40CC4
     static DateTime* New_ctor(int64_t ticks);

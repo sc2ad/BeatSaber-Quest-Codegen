@@ -21,6 +21,10 @@ namespace Oculus::Platform::Models {
     // public readonly System.String Value
     // Offset: 0x10
     ::Il2CppString* Value;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return Value;
+    }
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0xEA9D10
     static UserProof* New_ctor(System::IntPtr o);

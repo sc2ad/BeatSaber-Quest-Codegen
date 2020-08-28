@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Pass
+    constexpr Pass(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public PyramidBloomRendererSO/Pass Prefilter13
     static constexpr const int Prefilter13 = 0;
     // Get static field: static public PyramidBloomRendererSO/Pass Prefilter13
@@ -78,8 +84,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::PyramidBloomRendererSO::Pass _get_BilinearGamma();
     // Set static field: static public PyramidBloomRendererSO/Pass BilinearGamma
     static void _set_BilinearGamma(GlobalNamespace::PyramidBloomRendererSO::Pass value);
-    // Creating value type constructor for type: Pass
-    Pass(int value_ = {}) : value{value_} {}
   }; // PyramidBloomRendererSO/Pass
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

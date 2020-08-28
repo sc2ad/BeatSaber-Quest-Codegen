@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: LayerLayout
+    constexpr LayerLayout(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRPlugin/LayerLayout Stereo
     static constexpr const int Stereo = 0;
     // Get static field: static public OVRPlugin/LayerLayout Stereo
@@ -48,8 +54,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::LayerLayout _get_EnumSize();
     // Set static field: static public OVRPlugin/LayerLayout EnumSize
     static void _set_EnumSize(GlobalNamespace::OVRPlugin::LayerLayout value);
-    // Creating value type constructor for type: LayerLayout
-    LayerLayout(int value_ = {}) : value{value_} {}
   }; // OVRPlugin/LayerLayout
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

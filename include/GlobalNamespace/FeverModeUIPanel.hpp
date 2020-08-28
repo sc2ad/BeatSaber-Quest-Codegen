@@ -34,6 +34,8 @@ namespace GlobalNamespace {
     // private System.Single _feverTextRectWidth
     // Offset: 0x28
     float feverTextRectWidth;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xBECD24
     void Start();

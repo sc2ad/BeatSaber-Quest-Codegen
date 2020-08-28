@@ -16,6 +16,12 @@ namespace TMPro {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: CaretPosition
+    constexpr CaretPosition(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public TMPro.CaretPosition None
     static constexpr const int None = 0;
     // Get static field: static public TMPro.CaretPosition None
@@ -34,8 +40,6 @@ namespace TMPro {
     static TMPro::CaretPosition _get_Right();
     // Set static field: static public TMPro.CaretPosition Right
     static void _set_Right(TMPro::CaretPosition value);
-    // Creating value type constructor for type: CaretPosition
-    CaretPosition(int value_ = {}) : value{value_} {}
   }; // TMPro.CaretPosition
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

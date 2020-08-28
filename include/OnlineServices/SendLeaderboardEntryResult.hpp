@@ -16,6 +16,12 @@ namespace OnlineServices {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SendLeaderboardEntryResult
+    constexpr SendLeaderboardEntryResult(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OnlineServices.SendLeaderboardEntryResult OK
     static constexpr const int OK = 0;
     // Get static field: static public OnlineServices.SendLeaderboardEntryResult OK
@@ -28,8 +34,6 @@ namespace OnlineServices {
     static OnlineServices::SendLeaderboardEntryResult _get_Failed();
     // Set static field: static public OnlineServices.SendLeaderboardEntryResult Failed
     static void _set_Failed(OnlineServices::SendLeaderboardEntryResult value);
-    // Creating value type constructor for type: SendLeaderboardEntryResult
-    SendLeaderboardEntryResult(int value_ = {}) : value{value_} {}
   }; // OnlineServices.SendLeaderboardEntryResult
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

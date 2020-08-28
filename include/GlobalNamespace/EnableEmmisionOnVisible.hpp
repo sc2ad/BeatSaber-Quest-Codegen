@@ -21,6 +21,8 @@ namespace GlobalNamespace {
     // private UnityEngine.ParticleSystem/EmissionModule[] _emmisionModules
     // Offset: 0x20
     ::Array<UnityEngine::ParticleSystem::EmissionModule>* emmisionModules;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Awake()
     // Offset: 0xCAFF5C
     void Awake();

@@ -39,6 +39,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Material _noMirrorMaterial
     // Offset: 0x30
     UnityEngine::Material* noMirrorMaterial;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // Get static field: static private readonly System.Int32 _texturePropertyID
     static int _get__texturePropertyID();
     // Set static field: static private readonly System.Int32 _texturePropertyID

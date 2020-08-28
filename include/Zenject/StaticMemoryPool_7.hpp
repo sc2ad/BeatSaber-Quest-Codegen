@@ -32,6 +32,10 @@ namespace Zenject {
     // private System.Action`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TValue> _onSpawnMethod
     // Offset: 0x0
     System::Action_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>* onSpawnMethod;
+    // Creating conversion operator: operator System::Action_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*
+    constexpr operator System::Action_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*() const {
+      return onSpawnMethod;
+    }
     // public System.Void .ctor(System.Action`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TValue> onSpawnMethod, System.Action`1<TValue> onDespawnedMethod)
     // Offset: 0xFFFFFFFF
     static StaticMemoryPool_7<TValue, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>* New_ctor(System::Action_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>* onSpawnMethod, System::Action_1<TValue>* onDespawnedMethod) {

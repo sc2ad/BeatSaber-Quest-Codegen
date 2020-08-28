@@ -23,6 +23,10 @@ namespace System::Runtime::CompilerServices {
     // private System.Int32 m_relaxations
     // Offset: 0x10
     int m_relaxations;
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return m_relaxations;
+    }
     // public System.Void .ctor(System.Int32 relaxations)
     // Offset: 0x11668B8
     static CompilationRelaxationsAttribute* New_ctor(int relaxations);

@@ -46,6 +46,8 @@ namespace GlobalNamespace {
     // private NoteCutInfo _noteCutInfo
     // Offset: 0x30
     GlobalNamespace::NoteCutInfo* noteCutInfo;
+    // Deleting conversion operator: operator uint64_t
+    constexpr operator uint64_t() const = delete;
     // public System.Int32 get_scoreWithMultiplier()
     // Offset: 0xBE4370
     int get_scoreWithMultiplier();

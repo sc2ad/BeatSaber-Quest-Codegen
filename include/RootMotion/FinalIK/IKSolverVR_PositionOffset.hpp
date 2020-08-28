@@ -18,6 +18,12 @@ namespace RootMotion::FinalIK {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: PositionOffset
+    constexpr PositionOffset(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public RootMotion.FinalIK.IKSolverVR/PositionOffset Pelvis
     static constexpr const int Pelvis = 0;
     // Get static field: static public RootMotion.FinalIK.IKSolverVR/PositionOffset Pelvis
@@ -72,8 +78,6 @@ namespace RootMotion::FinalIK {
     static RootMotion::FinalIK::IKSolverVR::PositionOffset _get_RightHeel();
     // Set static field: static public RootMotion.FinalIK.IKSolverVR/PositionOffset RightHeel
     static void _set_RightHeel(RootMotion::FinalIK::IKSolverVR::PositionOffset value);
-    // Creating value type constructor for type: PositionOffset
-    PositionOffset(int value_ = {}) : value{value_} {}
   }; // RootMotion.FinalIK.IKSolverVR/PositionOffset
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

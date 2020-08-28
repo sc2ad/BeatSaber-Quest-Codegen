@@ -16,6 +16,12 @@ namespace UnityEngine::ProBuilder {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ShapeType
+    constexpr ShapeType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ProBuilder.ShapeType Cube
     static constexpr const int Cube = 0;
     // Get static field: static public UnityEngine.ProBuilder.ShapeType Cube
@@ -94,8 +100,6 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::ShapeType _get_Torus();
     // Set static field: static public UnityEngine.ProBuilder.ShapeType Torus
     static void _set_Torus(UnityEngine::ProBuilder::ShapeType value);
-    // Creating value type constructor for type: ShapeType
-    ShapeType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.ShapeType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

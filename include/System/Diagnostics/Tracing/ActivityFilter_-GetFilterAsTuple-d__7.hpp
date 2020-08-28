@@ -11,6 +11,8 @@
 #include "System/Collections/Generic/IEnumerable_1.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
+// Including type: System.Guid
+#include "System/Guid.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

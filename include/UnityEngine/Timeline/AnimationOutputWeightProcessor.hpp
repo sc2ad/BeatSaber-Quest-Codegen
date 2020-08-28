@@ -40,7 +40,7 @@ namespace UnityEngine::Timeline {
       // Offset: 0x20
       int port;
       // Creating value type constructor for type: WeightInfo
-      WeightInfo(UnityEngine::Playables::Playable mixer_ = {}, UnityEngine::Playables::Playable parentMixer_ = {}, int port_ = {}) : mixer{mixer_}, parentMixer{parentMixer_}, port{port_} {}
+      constexpr WeightInfo(UnityEngine::Playables::Playable mixer_ = {}, UnityEngine::Playables::Playable parentMixer_ = {}, int port_ = {}) : mixer{mixer_}, parentMixer{parentMixer_}, port{port_} {}
     }; // UnityEngine.Timeline.AnimationOutputWeightProcessor/WeightInfo
     // private UnityEngine.Animations.AnimationPlayableOutput m_Output
     // Offset: 0x10

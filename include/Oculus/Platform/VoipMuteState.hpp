@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: VoipMuteState
+    constexpr VoipMuteState(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.VoipMuteState Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.VoipMuteState Unknown
@@ -34,8 +40,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::VoipMuteState _get_Unmuted();
     // Set static field: static public Oculus.Platform.VoipMuteState Unmuted
     static void _set_Unmuted(Oculus::Platform::VoipMuteState value);
-    // Creating value type constructor for type: VoipMuteState
-    VoipMuteState(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.VoipMuteState
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

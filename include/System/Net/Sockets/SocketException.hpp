@@ -35,6 +35,8 @@ namespace System::Net::Sockets {
     // private System.Net.EndPoint m_EndPoint
     // Offset: 0x90
     System::Net::EndPoint* m_EndPoint;
+    // Deleting conversion operator: operator int
+    constexpr operator int() const = delete;
     // static private System.Int32 WSAGetLastError_internal()
     // Offset: 0x1218FD8
     static int WSAGetLastError_internal();

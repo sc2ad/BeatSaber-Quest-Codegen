@@ -37,6 +37,8 @@ namespace HMUI {
     // private System.Single _targetPosition
     // Offset: 0x28
     float targetPosition;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void add_positionDidChangeEvent(System.Action`2<HMUI.TableViewScroller,System.Single> value)
     // Offset: 0x10E9544
     void add_positionDidChangeEvent(System::Action_2<HMUI::TableViewScroller*, float>* value);

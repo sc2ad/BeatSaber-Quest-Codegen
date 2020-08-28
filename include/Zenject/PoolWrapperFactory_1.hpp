@@ -33,6 +33,10 @@ namespace Zenject {
     // private readonly Zenject.IMemoryPool`1<T> _pool
     // Offset: 0x0
     Zenject::IMemoryPool_1<T>* pool;
+    // Creating conversion operator: operator Zenject::IMemoryPool_1<T>*
+    constexpr operator Zenject::IMemoryPool_1<T>*() const {
+      return pool;
+    }
     // public System.Void .ctor(Zenject.IMemoryPool`1<T> pool)
     // Offset: 0xFFFFFFFF
     static PoolWrapperFactory_1<T>* New_ctor(Zenject::IMemoryPool_1<T>* pool) {

@@ -16,6 +16,12 @@ namespace System::Diagnostics::Tracing {
     // public System.Int64 value__
     // Offset: 0x0
     int64_t value;
+    // Creating value type constructor for type: EventKeywords
+    constexpr EventKeywords(int64_t value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int64_t
+    constexpr operator int64_t() const {
+      return value;
+    }
     // static field const value: static public System.Diagnostics.Tracing.EventKeywords None
     static constexpr const int64_t None = 0;
     // Get static field: static public System.Diagnostics.Tracing.EventKeywords None
@@ -76,8 +82,6 @@ namespace System::Diagnostics::Tracing {
     static System::Diagnostics::Tracing::EventKeywords _get_EventLogClassic();
     // Set static field: static public System.Diagnostics.Tracing.EventKeywords EventLogClassic
     static void _set_EventLogClassic(System::Diagnostics::Tracing::EventKeywords value);
-    // Creating value type constructor for type: EventKeywords
-    EventKeywords(int64_t value_ = {}) : value{value_} {}
   }; // System.Diagnostics.Tracing.EventKeywords
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

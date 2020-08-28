@@ -48,6 +48,12 @@ namespace System {
     // System.Char m_value
     // Offset: 0x0
     ::Il2CppChar m_value;
+    // Creating value type constructor for type: Char
+    constexpr Char(::Il2CppChar m_value_ = {}) : m_value{m_value_} {}
+    // Creating conversion operator: operator ::Il2CppChar
+    constexpr operator ::Il2CppChar() const {
+      return m_value;
+    }
     // static field const value: static public System.Char MaxValue
     static constexpr const ::Il2CppChar MaxValue = u'\uffff';
     // Get static field: static public System.Char MaxValue
@@ -94,8 +100,6 @@ namespace System {
     static int _get_LOW_SURROGATE_END();
     // Set static field: static System.Int32 LOW_SURROGATE_END
     static void _set_LOW_SURROGATE_END(int value);
-    // Creating value type constructor for type: Char
-    Char(::Il2CppChar m_value_ = {}) : m_value{m_value_} {}
     // static private System.Boolean IsLatin1(System.Char ch)
     // Offset: 0x13364A0
     static bool IsLatin1(::Il2CppChar ch);

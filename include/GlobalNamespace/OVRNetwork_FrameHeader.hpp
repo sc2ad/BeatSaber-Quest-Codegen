@@ -7,6 +7,10 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRNetwork
 #include "GlobalNamespace/OVRNetwork.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
+// Including type: System.Int32
+#include "System/Int32.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -22,14 +26,14 @@ namespace GlobalNamespace {
     // public System.Int32 payloadLength
     // Offset: 0x8
     int payloadLength;
+    // Creating value type constructor for type: FrameHeader
+    constexpr FrameHeader(uint protocolIdentifier_ = {}, int payloadType_ = {}, int payloadLength_ = {}) : protocolIdentifier{protocolIdentifier_}, payloadType{payloadType_}, payloadLength{payloadLength_} {}
     // static field const value: static public System.Int32 StructSize
     static constexpr const int StructSize = 12;
     // Get static field: static public System.Int32 StructSize
     static int _get_StructSize();
     // Set static field: static public System.Int32 StructSize
     static void _set_StructSize(int value);
-    // Creating value type constructor for type: FrameHeader
-    FrameHeader(uint protocolIdentifier_ = {}, int payloadType_ = {}, int payloadLength_ = {}) : protocolIdentifier{protocolIdentifier_}, payloadType{payloadType_}, payloadLength{payloadLength_} {}
     // public System.Byte[] ToBytes()
     // Offset: 0xA39A0C
     ::Array<uint8_t>* ToBytes();

@@ -22,7 +22,7 @@ namespace RootMotion {
     // Offset: 0x1
     bool includeEyes;
     // Creating value type constructor for type: AutoDetectParams
-    AutoDetectParams(bool legsParentInSpine_ = {}, bool includeEyes_ = {}) : legsParentInSpine{legsParentInSpine_}, includeEyes{includeEyes_} {}
+    constexpr AutoDetectParams(bool legsParentInSpine_ = {}, bool includeEyes_ = {}) : legsParentInSpine{legsParentInSpine_}, includeEyes{includeEyes_} {}
     // public System.Void .ctor(System.Boolean legsParentInSpine, System.Boolean includeEyes)
     // Offset: 0xA47A58
     static BipedReferences::AutoDetectParams* New_ctor(bool legsParentInSpine, bool includeEyes);

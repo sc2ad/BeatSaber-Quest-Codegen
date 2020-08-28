@@ -16,6 +16,10 @@ namespace UnityEngine {
     // private System.Int32 <order>k__BackingField
     // Offset: 0x10
     int order;
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return order;
+    }
     // public System.Int32 get_order()
     // Offset: 0x1306A48
     int get_order();

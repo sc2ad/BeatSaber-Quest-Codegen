@@ -23,6 +23,10 @@ namespace Polyglot {
     // public Polyglot.Localization settings
     // Offset: 0x10
     Polyglot::Localization* settings;
+    // Creating conversion operator: operator Polyglot::Localization*
+    constexpr operator Polyglot::Localization*() const {
+      return settings;
+    }
     // System.Void <ImportFromGoogle>b__0(System.String s)
     // Offset: 0x191A470
     void $ImportFromGoogle$b__0(::Il2CppString* s);

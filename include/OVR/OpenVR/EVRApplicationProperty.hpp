@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRApplicationProperty
+    constexpr EVRApplicationProperty(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.EVRApplicationProperty Name_String
     static constexpr const int Name_String = 0;
     // Get static field: static public OVR.OpenVR.EVRApplicationProperty Name_String
@@ -118,8 +124,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRApplicationProperty _get_LastLaunchTime_Uint64();
     // Set static field: static public OVR.OpenVR.EVRApplicationProperty LastLaunchTime_Uint64
     static void _set_LastLaunchTime_Uint64(OVR::OpenVR::EVRApplicationProperty value);
-    // Creating value type constructor for type: EVRApplicationProperty
-    EVRApplicationProperty(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EVRApplicationProperty
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

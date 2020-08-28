@@ -11,7 +11,8 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Skipping declaration: UriSyntaxFlags because it is already included!
+  // Forward declaring type: UriSyntaxFlags
+  struct UriSyntaxFlags;
 }
 // Completed forward declares
 // Type namespace: System

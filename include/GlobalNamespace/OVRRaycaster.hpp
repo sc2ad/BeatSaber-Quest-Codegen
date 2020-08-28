@@ -70,7 +70,7 @@ namespace GlobalNamespace {
       // Offset: 0x14
       bool fromMouse;
       // Creating value type constructor for type: RaycastHit
-      RaycastHit(UnityEngine::UI::Graphic* graphic_ = {}, UnityEngine::Vector3 worldPos_ = {}, bool fromMouse_ = {}) : graphic{graphic_}, worldPos{worldPos_}, fromMouse{fromMouse_} {}
+      constexpr RaycastHit(UnityEngine::UI::Graphic* graphic_ = {}, UnityEngine::Vector3 worldPos_ = {}, bool fromMouse_ = {}) : graphic{graphic_}, worldPos{worldPos_}, fromMouse{fromMouse_} {}
     }; // OVRRaycaster/RaycastHit
     // public UnityEngine.GameObject pointer
     // Offset: 0x40

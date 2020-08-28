@@ -23,6 +23,8 @@ namespace RootMotion::FinalIK {
     // private RootMotion.FinalIK.IK ik
     // Offset: 0x18
     RootMotion::FinalIK::IK* ik;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private System.Void Start()
     // Offset: 0x13AF4C0
     void Start();

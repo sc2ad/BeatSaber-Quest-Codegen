@@ -76,6 +76,8 @@ namespace UnityEngine::EventSystems {
     // private UnityEngine.EventSystems.BaseEventData m_DummyData
     // Offset: 0x48
     UnityEngine::EventSystems::BaseEventData* m_DummyData;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // Get static field: static private System.Collections.Generic.List`1<UnityEngine.EventSystems.EventSystem> m_EventSystems
     static System::Collections::Generic::List_1<UnityEngine::EventSystems::EventSystem*>* _get_m_EventSystems();
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.EventSystems.EventSystem> m_EventSystems

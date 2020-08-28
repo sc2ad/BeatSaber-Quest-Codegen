@@ -81,6 +81,8 @@ namespace GlobalNamespace {
     // private System.Boolean _blueRingWrapperActive
     // Offset: 0x62
     bool blueRingWrapperActive;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void add_introTutorialDidFinishEvent(System.Action value)
     // Offset: 0xB457C8
     void add_introTutorialDidFinishEvent(System::Action* value);

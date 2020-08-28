@@ -59,6 +59,8 @@ namespace GlobalNamespace {
     // private BeatmapCharacteristicSO _defaultLastSelectedBeatmapCharacteristic
     // Offset: 0x40
     GlobalNamespace::BeatmapCharacteristicSO* defaultLastSelectedBeatmapCharacteristic;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static field const value: static private System.String kPlayerDataFileName
     static constexpr const char* kPlayerDataFileName = "PlayerData.dat";
     // Get static field: static private System.String kPlayerDataFileName

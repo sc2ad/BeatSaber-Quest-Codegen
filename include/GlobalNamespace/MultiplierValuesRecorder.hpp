@@ -40,7 +40,7 @@ namespace GlobalNamespace {
       // Offset: 0x4
       float time;
       // Creating value type constructor for type: MultiplierValue
-      MultiplierValue(int multiplier_ = {}, float time_ = {}) : multiplier{multiplier_}, time{time_} {}
+      constexpr MultiplierValue(int multiplier_ = {}, float time_ = {}) : multiplier{multiplier_}, time{time_} {}
       // public System.Int32 get_multiplier()
       // Offset: 0xA2C5DC
       int get_multiplier();
@@ -66,6 +66,8 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.List`1<MultiplierValuesRecorder/MultiplierValue> _multiplierValues
     // Offset: 0x28
     System::Collections::Generic::List_1<GlobalNamespace::MultiplierValuesRecorder::MultiplierValue>* multiplierValues;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Collections.Generic.List`1<MultiplierValuesRecorder/MultiplierValue> get_multiplierValues()
     // Offset: 0xC102A8
     System::Collections::Generic::List_1<GlobalNamespace::MultiplierValuesRecorder::MultiplierValue>* get_multiplierValues();

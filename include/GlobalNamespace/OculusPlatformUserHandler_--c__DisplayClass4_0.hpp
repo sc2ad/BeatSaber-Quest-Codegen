@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OculusPlatformUserHandler
 #include "GlobalNamespace/OculusPlatformUserHandler.hpp"
+// Including type: PlatformUserModelSO
+#include "GlobalNamespace/PlatformUserModelSO.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

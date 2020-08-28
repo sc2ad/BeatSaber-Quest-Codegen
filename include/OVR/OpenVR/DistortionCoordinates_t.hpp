@@ -31,7 +31,7 @@ namespace OVR::OpenVR {
     // Offset: 0x14
     float rfBlue1;
     // Creating value type constructor for type: DistortionCoordinates_t
-    DistortionCoordinates_t(float rfRed0_ = {}, float rfRed1_ = {}, float rfGreen0_ = {}, float rfGreen1_ = {}, float rfBlue0_ = {}, float rfBlue1_ = {}) : rfRed0{rfRed0_}, rfRed1{rfRed1_}, rfGreen0{rfGreen0_}, rfGreen1{rfGreen1_}, rfBlue0{rfBlue0_}, rfBlue1{rfBlue1_} {}
+    constexpr DistortionCoordinates_t(float rfRed0_ = {}, float rfRed1_ = {}, float rfGreen0_ = {}, float rfGreen1_ = {}, float rfBlue0_ = {}, float rfBlue1_ = {}) : rfRed0{rfRed0_}, rfRed1{rfRed1_}, rfGreen0{rfGreen0_}, rfGreen1{rfGreen1_}, rfBlue0{rfBlue0_}, rfBlue1{rfBlue1_} {}
   }; // OVR.OpenVR.DistortionCoordinates_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

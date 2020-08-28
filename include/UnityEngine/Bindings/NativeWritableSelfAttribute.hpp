@@ -16,6 +16,10 @@ namespace UnityEngine::Bindings {
     // private System.Boolean <WritableSelf>k__BackingField
     // Offset: 0x10
     bool WritableSelf;
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return WritableSelf;
+    }
     // public System.Void set_WritableSelf(System.Boolean value)
     // Offset: 0x19752B4
     void set_WritableSelf(bool value);

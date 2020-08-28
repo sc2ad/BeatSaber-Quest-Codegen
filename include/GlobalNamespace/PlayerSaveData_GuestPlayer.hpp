@@ -16,6 +16,10 @@ namespace GlobalNamespace {
     // public System.String playerName
     // Offset: 0x10
     ::Il2CppString* playerName;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return playerName;
+    }
     // public System.Void .ctor()
     // Offset: 0xBDC5BC
     // Implemented from: System.Object

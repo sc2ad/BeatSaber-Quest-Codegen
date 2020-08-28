@@ -28,6 +28,8 @@ namespace GlobalNamespace {
     // private CutoutAnimateEffect _cutoutAnimateEffect
     // Offset: 0x20
     GlobalNamespace::CutoutAnimateEffect* cutoutAnimateEffect;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Awake()
     // Offset: 0xB8BCE8
     void Awake();

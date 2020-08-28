@@ -48,6 +48,12 @@ namespace System {
     // private System.Byte m_value
     // Offset: 0x0
     uint8_t m_value;
+    // Creating value type constructor for type: Byte
+    constexpr Byte(uint8_t m_value_ = {}) : m_value{m_value_} {}
+    // Creating conversion operator: operator uint8_t
+    constexpr operator uint8_t() const {
+      return m_value;
+    }
     // static field const value: static public System.Byte MaxValue
     static constexpr const uint8_t MaxValue = 255u;
     // Get static field: static public System.Byte MaxValue
@@ -60,8 +66,6 @@ namespace System {
     static uint8_t _get_MinValue();
     // Set static field: static public System.Byte MinValue
     static void _set_MinValue(uint8_t value);
-    // Creating value type constructor for type: Byte
-    Byte(uint8_t m_value_ = {}) : m_value{m_value_} {}
     // static public System.Byte Parse(System.String s, System.IFormatProvider provider)
     // Offset: 0x13352F0
     static uint8_t Parse(::Il2CppString* s, System::IFormatProvider* provider);

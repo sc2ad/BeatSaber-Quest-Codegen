@@ -16,6 +16,10 @@ namespace System::Threading::Tasks {
     // private System.Int32 m_inliningDepth
     // Offset: 0x10
     int m_inliningDepth;
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return m_inliningDepth;
+    }
     // static field const value: static private System.Int32 MAX_UNCHECKED_INLINING_DEPTH
     static constexpr const int MAX_UNCHECKED_INLINING_DEPTH = 20;
     // Get static field: static private System.Int32 MAX_UNCHECKED_INLINING_DEPTH

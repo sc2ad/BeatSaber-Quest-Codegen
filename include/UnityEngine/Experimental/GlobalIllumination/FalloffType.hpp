@@ -16,6 +16,12 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // public System.Byte value__
     // Offset: 0x0
     uint8_t value;
+    // Creating value type constructor for type: FalloffType
+    constexpr FalloffType(uint8_t value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator uint8_t
+    constexpr operator uint8_t() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Experimental.GlobalIllumination.FalloffType InverseSquared
     static constexpr const uint8_t InverseSquared = 0u;
     // Get static field: static public UnityEngine.Experimental.GlobalIllumination.FalloffType InverseSquared
@@ -46,8 +52,6 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     static UnityEngine::Experimental::GlobalIllumination::FalloffType _get_Undefined();
     // Set static field: static public UnityEngine.Experimental.GlobalIllumination.FalloffType Undefined
     static void _set_Undefined(UnityEngine::Experimental::GlobalIllumination::FalloffType value);
-    // Creating value type constructor for type: FalloffType
-    FalloffType(uint8_t value_ = {}) : value{value_} {}
   }; // UnityEngine.Experimental.GlobalIllumination.FalloffType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

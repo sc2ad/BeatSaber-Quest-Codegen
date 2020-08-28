@@ -16,6 +16,8 @@ namespace UnityEngine {
     // private readonly System.Boolean <isAnimatorMotion>k__BackingField
     // Offset: 0x18
     bool isAnimatorMotion;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Boolean get_isLooping()
     // Offset: 0x194227C
     bool get_isLooping();

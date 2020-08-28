@@ -18,6 +18,12 @@ namespace RootMotion::FinalIK {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: BoneMapType
+    constexpr BoneMapType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public RootMotion.FinalIK.IKMappingLimb/BoneMapType Parent
     static constexpr const int Parent = 0;
     // Get static field: static public RootMotion.FinalIK.IKMappingLimb/BoneMapType Parent
@@ -42,8 +48,6 @@ namespace RootMotion::FinalIK {
     static RootMotion::FinalIK::IKMappingLimb::BoneMapType _get_Bone3();
     // Set static field: static public RootMotion.FinalIK.IKMappingLimb/BoneMapType Bone3
     static void _set_Bone3(RootMotion::FinalIK::IKMappingLimb::BoneMapType value);
-    // Creating value type constructor for type: BoneMapType
-    BoneMapType(int value_ = {}) : value{value_} {}
   }; // RootMotion.FinalIK.IKMappingLimb/BoneMapType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

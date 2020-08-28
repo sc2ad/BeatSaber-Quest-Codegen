@@ -16,6 +16,12 @@ namespace TMPro {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: AtlasPopulationMode
+    constexpr AtlasPopulationMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public TMPro.AtlasPopulationMode Static
     static constexpr const int Static = 0;
     // Get static field: static public TMPro.AtlasPopulationMode Static
@@ -28,8 +34,6 @@ namespace TMPro {
     static TMPro::AtlasPopulationMode _get_Dynamic();
     // Set static field: static public TMPro.AtlasPopulationMode Dynamic
     static void _set_Dynamic(TMPro::AtlasPopulationMode value);
-    // Creating value type constructor for type: AtlasPopulationMode
-    AtlasPopulationMode(int value_ = {}) : value{value_} {}
   }; // TMPro.AtlasPopulationMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

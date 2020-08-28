@@ -30,6 +30,10 @@ namespace Zenject {
     // public System.Boolean includeInactive
     // Offset: 0x10
     bool includeInactive;
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return includeInactive;
+    }
     // Zenject.IProvider <FromComponentInHierarchy>b__0(Zenject.DiContainer container, System.Type concreteType)
     // Offset: 0xF38ACC
     Zenject::IProvider* $FromComponentInHierarchy$b__0(Zenject::DiContainer* container, System::Type* concreteType);

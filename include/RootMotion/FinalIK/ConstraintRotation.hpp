@@ -25,6 +25,10 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.Quaternion rotation
     // Offset: 0x1C
     UnityEngine::Quaternion rotation;
+    // Creating conversion operator: operator UnityEngine::Quaternion
+    constexpr operator UnityEngine::Quaternion() const {
+      return rotation;
+    }
     // public System.Void .ctor(UnityEngine.Transform transform)
     // Offset: 0x13AF170
     static ConstraintRotation* New_ctor(UnityEngine::Transform* transform);

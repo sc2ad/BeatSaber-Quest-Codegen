@@ -26,6 +26,10 @@ namespace UnityEngine::Rendering {
     // private System.Boolean <disposed>k__BackingField
     // Offset: 0x10
     bool disposed;
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return disposed;
+    }
     // protected System.Void Render(UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras)
     // Offset: 0xFFFFFFFF
     void Render(UnityEngine::Rendering::ScriptableRenderContext context, ::Array<UnityEngine::Camera*>* cameras);

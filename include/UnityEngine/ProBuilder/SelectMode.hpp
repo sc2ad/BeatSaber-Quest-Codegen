@@ -16,6 +16,12 @@ namespace UnityEngine::ProBuilder {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SelectMode
+    constexpr SelectMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ProBuilder.SelectMode None
     static constexpr const int None = 0;
     // Get static field: static public UnityEngine.ProBuilder.SelectMode None
@@ -76,8 +82,6 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::SelectMode _get_Any();
     // Set static field: static public UnityEngine.ProBuilder.SelectMode Any
     static void _set_Any(UnityEngine::ProBuilder::SelectMode value);
-    // Creating value type constructor for type: SelectMode
-    SelectMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.SelectMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

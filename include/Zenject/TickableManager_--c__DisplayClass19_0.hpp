@@ -34,6 +34,10 @@ namespace Zenject {
     // public Zenject.ILateTickable tickable
     // Offset: 0x10
     Zenject::ILateTickable* tickable;
+    // Creating conversion operator: operator Zenject::ILateTickable*
+    constexpr operator Zenject::ILateTickable*() const {
+      return tickable;
+    }
     // System.Boolean <InitLateTickables>b__1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
     // Offset: 0xFD5978
     bool $InitLateTickables$b__1(ModestTree::Util::ValuePair_2<System::Type*, int>* x);

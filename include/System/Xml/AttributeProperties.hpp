@@ -16,6 +16,12 @@ namespace System::Xml {
     // public System.UInt32 value__
     // Offset: 0x0
     uint value;
+    // Creating value type constructor for type: AttributeProperties
+    constexpr AttributeProperties(uint value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator uint
+    constexpr operator uint() const {
+      return value;
+    }
     // static field const value: static public System.Xml.AttributeProperties DEFAULT
     static constexpr const uint DEFAULT = 0u;
     // Get static field: static public System.Xml.AttributeProperties DEFAULT
@@ -40,8 +46,6 @@ namespace System::Xml {
     static System::Xml::AttributeProperties _get_NAME();
     // Set static field: static public System.Xml.AttributeProperties NAME
     static void _set_NAME(System::Xml::AttributeProperties value);
-    // Creating value type constructor for type: AttributeProperties
-    AttributeProperties(uint value_ = {}) : value{value_} {}
   }; // System.Xml.AttributeProperties
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

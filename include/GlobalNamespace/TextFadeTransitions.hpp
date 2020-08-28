@@ -35,6 +35,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: State
+      constexpr State(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public TextFadeTransitions/State NotInTransition
       static constexpr const int NotInTransition = 0;
       // Get static field: static public TextFadeTransitions/State NotInTransition
@@ -53,8 +59,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::TextFadeTransitions::State _get_FadingIn();
       // Set static field: static public TextFadeTransitions/State FadingIn
       static void _set_FadingIn(GlobalNamespace::TextFadeTransitions::State value);
-      // Creating value type constructor for type: State
-      State(int value_ = {}) : value{value_} {}
     }; // TextFadeTransitions/State
     // private TMPro.TextMeshProUGUI _textLabel
     // Offset: 0x18
@@ -74,6 +78,8 @@ namespace GlobalNamespace {
     // private System.Single _fade
     // Offset: 0x38
     float fade;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Awake()
     // Offset: 0xC4625C
     void Awake();

@@ -16,6 +16,12 @@ namespace TMPro {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: _VerticalAlignmentOptions
+    constexpr _VerticalAlignmentOptions(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public TMPro._VerticalAlignmentOptions Top
     static constexpr const int Top = 256;
     // Get static field: static public TMPro._VerticalAlignmentOptions Top
@@ -52,8 +58,6 @@ namespace TMPro {
     static TMPro::_VerticalAlignmentOptions _get_Capline();
     // Set static field: static public TMPro._VerticalAlignmentOptions Capline
     static void _set_Capline(TMPro::_VerticalAlignmentOptions value);
-    // Creating value type constructor for type: _VerticalAlignmentOptions
-    _VerticalAlignmentOptions(int value_ = {}) : value{value_} {}
   }; // TMPro._VerticalAlignmentOptions
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

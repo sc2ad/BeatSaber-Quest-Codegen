@@ -16,6 +16,10 @@ namespace System::Reflection {
     // private System.String m_defaultAlias
     // Offset: 0x10
     ::Il2CppString* m_defaultAlias;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return m_defaultAlias;
+    }
     // public System.Void .ctor(System.String defaultAlias)
     // Offset: 0x13689A4
     static AssemblyDefaultAliasAttribute* New_ctor(::Il2CppString* defaultAlias);

@@ -33,12 +33,16 @@ namespace System {
     // private System.Void* _pointer
     // Offset: 0x0
     void* pointer;
+    // Creating value type constructor for type: UIntPtr
+    constexpr UIntPtr(void* pointer_ = {}) : pointer{pointer_} {}
+    // Creating conversion operator: operator void*
+    constexpr operator void*() const {
+      return pointer;
+    }
     // Get static field: static public readonly System.UIntPtr Zero
     static System::UIntPtr _get_Zero();
     // Set static field: static public readonly System.UIntPtr Zero
     static void _set_Zero(System::UIntPtr value);
-    // Creating value type constructor for type: UIntPtr
-    UIntPtr(void* pointer_ = {}) : pointer{pointer_} {}
     // public System.Void .ctor(System.UInt64 value)
     // Offset: 0xA57604
     static UIntPtr* New_ctor(uint64_t value);

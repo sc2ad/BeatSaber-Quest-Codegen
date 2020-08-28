@@ -18,6 +18,10 @@ namespace UnityEngine::Timeline {
     // public readonly UnityEngine.Timeline.TimelineAsset/MediaType m_MediaType
     // Offset: 0x10
     UnityEngine::Timeline::TimelineAsset::MediaType m_MediaType;
+    // Creating conversion operator: operator UnityEngine::Timeline::TimelineAsset::MediaType
+    constexpr operator UnityEngine::Timeline::TimelineAsset::MediaType() const {
+      return m_MediaType;
+    }
     // public System.Void .ctor(UnityEngine.Timeline.TimelineAsset/MediaType mt)
     // Offset: 0x190F648
     static TrackMediaType* New_ctor(UnityEngine::Timeline::TimelineAsset::MediaType mt);

@@ -16,6 +16,10 @@ namespace UnityEngine::Bindings {
     // private System.Boolean <DoesNotContributeToSize>k__BackingField
     // Offset: 0x10
     bool DoesNotContributeToSize;
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return DoesNotContributeToSize;
+    }
     // public System.Void set_DoesNotContributeToSize(System.Boolean value)
     // Offset: 0x1974CE8
     void set_DoesNotContributeToSize(bool value);

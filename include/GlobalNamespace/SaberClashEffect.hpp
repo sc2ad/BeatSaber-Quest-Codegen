@@ -54,6 +54,8 @@ namespace GlobalNamespace {
     // private System.Boolean _sabersAreClashing
     // Offset: 0x50
     bool sabersAreClashing;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xC28710
     void Start();

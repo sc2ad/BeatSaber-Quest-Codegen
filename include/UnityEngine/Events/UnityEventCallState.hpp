@@ -16,6 +16,12 @@ namespace UnityEngine::Events {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: UnityEventCallState
+    constexpr UnityEventCallState(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Events.UnityEventCallState Off
     static constexpr const int Off = 0;
     // Get static field: static public UnityEngine.Events.UnityEventCallState Off
@@ -34,8 +40,6 @@ namespace UnityEngine::Events {
     static UnityEngine::Events::UnityEventCallState _get_RuntimeOnly();
     // Set static field: static public UnityEngine.Events.UnityEventCallState RuntimeOnly
     static void _set_RuntimeOnly(UnityEngine::Events::UnityEventCallState value);
-    // Creating value type constructor for type: UnityEventCallState
-    UnityEventCallState(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Events.UnityEventCallState
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

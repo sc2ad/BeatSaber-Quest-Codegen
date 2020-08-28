@@ -24,6 +24,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // public System.Int32 b
     // Offset: 0x10
     int b;
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return b;
+    }
     // System.Boolean <SewUVs>b__0(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> x)
     // Offset: 0x102B4E4
     bool $SewUVs$b__0(System::Collections::Generic::KeyValuePair_2<int, int> x);

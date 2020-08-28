@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: AnimatorUpdateMode
+    constexpr AnimatorUpdateMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.AnimatorUpdateMode Normal
     static constexpr const int Normal = 0;
     // Get static field: static public UnityEngine.AnimatorUpdateMode Normal
@@ -34,8 +40,6 @@ namespace UnityEngine {
     static UnityEngine::AnimatorUpdateMode _get_UnscaledTime();
     // Set static field: static public UnityEngine.AnimatorUpdateMode UnscaledTime
     static void _set_UnscaledTime(UnityEngine::AnimatorUpdateMode value);
-    // Creating value type constructor for type: AnimatorUpdateMode
-    AnimatorUpdateMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.AnimatorUpdateMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

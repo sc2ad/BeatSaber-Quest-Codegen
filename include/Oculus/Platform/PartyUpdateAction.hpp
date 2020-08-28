@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: PartyUpdateAction
+    constexpr PartyUpdateAction(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.PartyUpdateAction Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.PartyUpdateAction Unknown
@@ -46,8 +52,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::PartyUpdateAction _get_Uninvite();
     // Set static field: static public Oculus.Platform.PartyUpdateAction Uninvite
     static void _set_Uninvite(Oculus::Platform::PartyUpdateAction value);
-    // Creating value type constructor for type: PartyUpdateAction
-    PartyUpdateAction(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.PartyUpdateAction
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -18,6 +18,12 @@ namespace UnityEngine::UI {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SelectionState
+    constexpr SelectionState(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.UI.Selectable/SelectionState Normal
     static constexpr const int Normal = 0;
     // Get static field: static public UnityEngine.UI.Selectable/SelectionState Normal
@@ -48,8 +54,6 @@ namespace UnityEngine::UI {
     static UnityEngine::UI::Selectable::SelectionState _get_Disabled();
     // Set static field: static public UnityEngine.UI.Selectable/SelectionState Disabled
     static void _set_Disabled(UnityEngine::UI::Selectable::SelectionState value);
-    // Creating value type constructor for type: SelectionState
-    SelectionState(int value_ = {}) : value{value_} {}
   }; // UnityEngine.UI.Selectable/SelectionState
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

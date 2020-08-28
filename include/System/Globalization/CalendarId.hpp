@@ -16,6 +16,12 @@ namespace System::Globalization {
     // public System.UInt16 value__
     // Offset: 0x0
     uint16_t value;
+    // Creating value type constructor for type: CalendarId
+    constexpr CalendarId(uint16_t value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator uint16_t
+    constexpr operator uint16_t() const {
+      return value;
+    }
     // static field const value: static public System.Globalization.CalendarId GREGORIAN
     static constexpr const uint16_t GREGORIAN = 1u;
     // Get static field: static public System.Globalization.CalendarId GREGORIAN
@@ -160,8 +166,6 @@ namespace System::Globalization {
     static System::Globalization::CalendarId _get_LAST_CALENDAR();
     // Set static field: static public System.Globalization.CalendarId LAST_CALENDAR
     static void _set_LAST_CALENDAR(System::Globalization::CalendarId value);
-    // Creating value type constructor for type: CalendarId
-    CalendarId(uint16_t value_ = {}) : value{value_} {}
   }; // System.Globalization.CalendarId
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

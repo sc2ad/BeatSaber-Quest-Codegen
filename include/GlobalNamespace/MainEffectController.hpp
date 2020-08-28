@@ -49,6 +49,8 @@ namespace GlobalNamespace {
     // private ImageEffectController _imageEffectController
     // Offset: 0x30
     GlobalNamespace::ImageEffectController* imageEffectController;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static field const value: static private System.String kMainEffectEnabledKeyword
     static constexpr const char* kMainEffectEnabledKeyword = "MAIN_EFFECT_ENABLED";
     // Get static field: static private System.String kMainEffectEnabledKeyword

@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.TransientProvider
 #include "Zenject/TransientProvider.hpp"
+// Including type: Zenject.TypeValuePair
+#include "Zenject/TypeValuePair.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

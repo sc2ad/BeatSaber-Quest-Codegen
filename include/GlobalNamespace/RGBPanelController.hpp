@@ -45,6 +45,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Color _color
     // Offset: 0x38
     UnityEngine::Color color;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void add_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
     // Offset: 0xC1FB04
     void add_colorDidChangeEvent(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);

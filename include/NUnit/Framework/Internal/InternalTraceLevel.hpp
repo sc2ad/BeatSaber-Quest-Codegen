@@ -16,6 +16,12 @@ namespace NUnit::Framework::Internal {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: InternalTraceLevel
+    constexpr InternalTraceLevel(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public NUnit.Framework.Internal.InternalTraceLevel Default
     static constexpr const int Default = 0;
     // Get static field: static public NUnit.Framework.Internal.InternalTraceLevel Default
@@ -58,8 +64,6 @@ namespace NUnit::Framework::Internal {
     static NUnit::Framework::Internal::InternalTraceLevel _get_Verbose();
     // Set static field: static public NUnit.Framework.Internal.InternalTraceLevel Verbose
     static void _set_Verbose(NUnit::Framework::Internal::InternalTraceLevel value);
-    // Creating value type constructor for type: InternalTraceLevel
-    InternalTraceLevel(int value_ = {}) : value{value_} {}
   }; // NUnit.Framework.Internal.InternalTraceLevel
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

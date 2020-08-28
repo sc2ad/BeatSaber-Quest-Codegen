@@ -27,6 +27,10 @@ namespace System::Threading::Tasks {
     // private readonly System.Threading.Tasks.Task`1<TResult> m_task
     // Offset: 0x0
     System::Threading::Tasks::Task_1<TResult>* m_task;
+    // Creating conversion operator: operator System::Threading::Tasks::Task_1<TResult>*
+    constexpr operator System::Threading::Tasks::Task_1<TResult>*() const {
+      return m_task;
+    }
     // public System.Threading.Tasks.Task`1<TResult> get_Task()
     // Offset: 0xFFFFFFFF
     System::Threading::Tasks::Task_1<TResult>* get_Task() {

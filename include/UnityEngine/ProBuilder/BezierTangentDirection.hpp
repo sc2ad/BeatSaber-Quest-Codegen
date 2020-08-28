@@ -16,6 +16,12 @@ namespace UnityEngine::ProBuilder {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: BezierTangentDirection
+    constexpr BezierTangentDirection(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ProBuilder.BezierTangentDirection In
     static constexpr const int In = 0;
     // Get static field: static public UnityEngine.ProBuilder.BezierTangentDirection In
@@ -28,8 +34,6 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::BezierTangentDirection _get_Out();
     // Set static field: static public UnityEngine.ProBuilder.BezierTangentDirection Out
     static void _set_Out(UnityEngine::ProBuilder::BezierTangentDirection value);
-    // Creating value type constructor for type: BezierTangentDirection
-    BezierTangentDirection(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.BezierTangentDirection
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

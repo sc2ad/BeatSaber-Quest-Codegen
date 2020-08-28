@@ -22,7 +22,7 @@ namespace TMPro {
     // Offset: 0x8
     UnityEngine::Vector2 max;
     // Creating value type constructor for type: Extents
-    Extents(UnityEngine::Vector2 min_ = {}, UnityEngine::Vector2 max_ = {}) : min{min_}, max{max_} {}
+    constexpr Extents(UnityEngine::Vector2 min_ = {}, UnityEngine::Vector2 max_ = {}) : min{min_}, max{max_} {}
     // public System.Void .ctor(UnityEngine.Vector2 min, UnityEngine.Vector2 max)
     // Offset: 0xA2B4A8
     static Extents* New_ctor(UnityEngine::Vector2 min, UnityEngine::Vector2 max);

@@ -16,6 +16,12 @@ namespace System::Security::Principal {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: WindowsAccountType
+    constexpr WindowsAccountType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Security.Principal.WindowsAccountType Normal
     static constexpr const int Normal = 0;
     // Get static field: static public System.Security.Principal.WindowsAccountType Normal
@@ -40,8 +46,6 @@ namespace System::Security::Principal {
     static System::Security::Principal::WindowsAccountType _get_Anonymous();
     // Set static field: static public System.Security.Principal.WindowsAccountType Anonymous
     static void _set_Anonymous(System::Security::Principal::WindowsAccountType value);
-    // Creating value type constructor for type: WindowsAccountType
-    WindowsAccountType(int value_ = {}) : value{value_} {}
   }; // System.Security.Principal.WindowsAccountType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

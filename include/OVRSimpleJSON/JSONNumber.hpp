@@ -30,6 +30,10 @@ namespace OVRSimpleJSON {
     // private System.Double m_Data
     // Offset: 0x10
     double m_Data;
+    // Creating conversion operator: operator double
+    constexpr operator double() const {
+      return m_Data;
+    }
     // public System.Void .ctor(System.Double aData)
     // Offset: 0xF52C00
     static JSONNumber* New_ctor(double aData);

@@ -16,6 +16,12 @@ namespace UnityEngine::TextCore::LowLevel {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: GlyphRenderMode
+    constexpr GlyphRenderMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.TextCore.LowLevel.GlyphRenderMode SMOOTH_HINTED
     static constexpr const int SMOOTH_HINTED = 4121;
     // Get static field: static public UnityEngine.TextCore.LowLevel.GlyphRenderMode SMOOTH_HINTED
@@ -76,8 +82,6 @@ namespace UnityEngine::TextCore::LowLevel {
     static UnityEngine::TextCore::LowLevel::GlyphRenderMode _get_SDFAA();
     // Set static field: static public UnityEngine.TextCore.LowLevel.GlyphRenderMode SDFAA
     static void _set_SDFAA(UnityEngine::TextCore::LowLevel::GlyphRenderMode value);
-    // Creating value type constructor for type: GlyphRenderMode
-    GlyphRenderMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.TextCore.LowLevel.GlyphRenderMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

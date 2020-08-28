@@ -48,6 +48,12 @@ namespace System {
     // private System.SByte m_value
     // Offset: 0x0
     int8_t m_value;
+    // Creating value type constructor for type: SByte
+    constexpr SByte(int8_t m_value_ = {}) : m_value{m_value_} {}
+    // Creating conversion operator: operator int8_t
+    constexpr operator int8_t() const {
+      return m_value;
+    }
     // static field const value: static public System.SByte MaxValue
     static constexpr const int8_t MaxValue = 127;
     // Get static field: static public System.SByte MaxValue
@@ -60,8 +66,6 @@ namespace System {
     static int8_t _get_MinValue();
     // Set static field: static public System.SByte MinValue
     static void _set_MinValue(int8_t value);
-    // Creating value type constructor for type: SByte
-    SByte(int8_t m_value_ = {}) : m_value{m_value_} {}
     // private System.String ToString(System.String format, System.Globalization.NumberFormatInfo info)
     // Offset: 0xA3283C
     ::Il2CppString* ToString(::Il2CppString* format, System::Globalization::NumberFormatInfo* info);

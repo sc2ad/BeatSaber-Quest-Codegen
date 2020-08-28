@@ -33,7 +33,7 @@ namespace UnityEngine {
     // Offset: 0x2C
     UnityEngine::Vector3 scale;
     // Creating value type constructor for type: SkeletonBone
-    SkeletonBone(::Il2CppString* name_ = {}, ::Il2CppString* parentName_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion rotation_ = {}, UnityEngine::Vector3 scale_ = {}) : name{name_}, parentName{parentName_}, position{position_}, rotation{rotation_}, scale{scale_} {}
+    constexpr SkeletonBone(::Il2CppString* name_ = {}, ::Il2CppString* parentName_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion rotation_ = {}, UnityEngine::Vector3 scale_ = {}) : name{name_}, parentName{parentName_}, position{position_}, rotation{rotation_}, scale{scale_} {}
   }; // UnityEngine.SkeletonBone
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

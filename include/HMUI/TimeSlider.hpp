@@ -21,6 +21,12 @@ namespace HMUI {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: TimeType
+      constexpr TimeType(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public HMUI.TimeSlider/TimeType Default
       static constexpr const int Default = 0;
       // Get static field: static public HMUI.TimeSlider/TimeType Default
@@ -33,8 +39,6 @@ namespace HMUI {
       static HMUI::TimeSlider::TimeType _get_Miliseconds();
       // Set static field: static public HMUI.TimeSlider/TimeType Miliseconds
       static void _set_Miliseconds(HMUI::TimeSlider::TimeType value);
-      // Creating value type constructor for type: TimeType
-      TimeType(int value_ = {}) : value{value_} {}
     }; // HMUI.TimeSlider/TimeType
     // private HMUI.TimeSlider/TimeType _timeType
     // Offset: 0x160

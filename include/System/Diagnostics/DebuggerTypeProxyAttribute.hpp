@@ -23,6 +23,10 @@ namespace System::Diagnostics {
     // private System.String typeName
     // Offset: 0x10
     ::Il2CppString* typeName;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return typeName;
+    }
     // public System.Void .ctor(System.Type type)
     // Offset: 0xC953D0
     static DebuggerTypeProxyAttribute* New_ctor(System::Type* type);

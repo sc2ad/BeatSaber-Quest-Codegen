@@ -41,6 +41,8 @@ namespace RootMotion::FinalIK {
     // private RootMotion.FinalIK.VRIK ik
     // Offset: 0x40
     RootMotion::FinalIK::VRIK* ik;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public UnityEngine.Vector3 get_pelvisTargetRight()
     // Offset: 0x1241320
     UnityEngine::Vector3 get_pelvisTargetRight();

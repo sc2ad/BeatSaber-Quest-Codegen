@@ -24,7 +24,7 @@ namespace System {
     // Offset: 0x8
     ::Il2CppString* string;
     // Creating value type constructor for type: FormatParam
-    FormatParam(int int32_ = {}, ::Il2CppString* string_ = {}) : int32{int32_}, string{string_} {}
+    constexpr FormatParam(int int32_ = {}, ::Il2CppString* string_ = {}) : int32{int32_}, string{string_} {}
     // public System.Void .ctor(System.Int32 value)
     // Offset: 0xA46B9C
     static ParameterizedStrings::FormatParam* New_ctor(int value);

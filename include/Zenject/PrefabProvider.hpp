@@ -23,6 +23,10 @@ namespace Zenject {
     // private readonly UnityEngine.Object _prefab
     // Offset: 0x10
     UnityEngine::Object* prefab;
+    // Creating conversion operator: operator UnityEngine::Object*
+    constexpr operator UnityEngine::Object*() const {
+      return prefab;
+    }
     // public System.Void .ctor(UnityEngine.Object prefab)
     // Offset: 0xFC66E4
     static PrefabProvider* New_ctor(UnityEngine::Object* prefab);

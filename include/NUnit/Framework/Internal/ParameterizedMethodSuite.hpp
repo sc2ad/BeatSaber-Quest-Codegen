@@ -23,6 +23,10 @@ namespace NUnit::Framework::Internal {
     // private System.Boolean _isTheory
     // Offset: 0x89
     bool isTheory;
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return isTheory;
+    }
     // public System.Void .ctor(NUnit.Framework.Interfaces.IMethodInfo method)
     // Offset: 0x18F08B0
     // Implemented from: NUnit.Framework.Internal.Test

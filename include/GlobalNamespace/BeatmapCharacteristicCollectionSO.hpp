@@ -23,6 +23,8 @@ namespace GlobalNamespace {
     // private BeatmapCharacteristicSO[] _beatmapCharacteristics
     // Offset: 0x18
     ::Array<GlobalNamespace::BeatmapCharacteristicSO*>* beatmapCharacteristics;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public BeatmapCharacteristicSO[] get_beatmapCharacteristics()
     // Offset: 0xB915C8
     ::Array<GlobalNamespace::BeatmapCharacteristicSO*>* get_beatmapCharacteristics();

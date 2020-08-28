@@ -16,6 +16,8 @@ namespace GlobalNamespace {
     // private System.String[] _strings
     // Offset: 0x18
     ::Array<::Il2CppString*>* strings;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.String[] get_strings()
     // Offset: 0xCBDE38
     ::Array<::Il2CppString*>* get_strings();

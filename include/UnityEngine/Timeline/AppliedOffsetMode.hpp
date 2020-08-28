@@ -16,6 +16,12 @@ namespace UnityEngine::Timeline {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: AppliedOffsetMode
+    constexpr AppliedOffsetMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Timeline.AppliedOffsetMode NoRootTransform
     static constexpr const int NoRootTransform = 0;
     // Get static field: static public UnityEngine.Timeline.AppliedOffsetMode NoRootTransform
@@ -58,8 +64,6 @@ namespace UnityEngine::Timeline {
     static UnityEngine::Timeline::AppliedOffsetMode _get_SceneOffsetLegacyEditor();
     // Set static field: static public UnityEngine.Timeline.AppliedOffsetMode SceneOffsetLegacyEditor
     static void _set_SceneOffsetLegacyEditor(UnityEngine::Timeline::AppliedOffsetMode value);
-    // Creating value type constructor for type: AppliedOffsetMode
-    AppliedOffsetMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Timeline.AppliedOffsetMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -27,6 +27,8 @@ namespace UnityEngine {
     // public System.Single y
     // Offset: 0x4
     float y;
+    // Creating value type constructor for type: Vector2
+    constexpr Vector2(float x_ = {}, float y_ = {}) : x{x_}, y{y_} {}
     // Get static field: static private readonly UnityEngine.Vector2 zeroVector
     static UnityEngine::Vector2 _get_zeroVector();
     // Set static field: static private readonly UnityEngine.Vector2 zeroVector
@@ -71,8 +73,6 @@ namespace UnityEngine {
     static float _get_kEpsilonNormalSqrt();
     // Set static field: static public System.Single kEpsilonNormalSqrt
     static void _set_kEpsilonNormalSqrt(float value);
-    // Creating value type constructor for type: Vector2
-    Vector2(float x_ = {}, float y_ = {}) : x{x_}, y{y_} {}
     // public System.Single get_Item(System.Int32 index)
     // Offset: 0xA47760
     float get_Item(int index);

@@ -22,7 +22,7 @@ namespace UnityEngine {
     // Offset: 0xC
     UnityEngine::Vector3 m_Direction;
     // Creating value type constructor for type: Ray
-    Ray(UnityEngine::Vector3 m_Origin_ = {}, UnityEngine::Vector3 m_Direction_ = {}) : m_Origin{m_Origin_}, m_Direction{m_Direction_} {}
+    constexpr Ray(UnityEngine::Vector3 m_Origin_ = {}, UnityEngine::Vector3 m_Direction_ = {}) : m_Origin{m_Origin_}, m_Direction{m_Direction_} {}
     // public System.Void .ctor(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction)
     // Offset: 0xA490F0
     static Ray* New_ctor(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction);

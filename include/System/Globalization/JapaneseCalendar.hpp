@@ -32,6 +32,10 @@ namespace System::Globalization {
     // System.Globalization.GregorianCalendarHelper helper
     // Offset: 0x20
     System::Globalization::GregorianCalendarHelper* helper;
+    // Creating conversion operator: operator System::Globalization::GregorianCalendarHelper*
+    constexpr operator System::Globalization::GregorianCalendarHelper*() const {
+      return helper;
+    }
     // Get static field: static readonly System.DateTime calendarMinValue
     static System::DateTime _get_calendarMinValue();
     // Set static field: static readonly System.DateTime calendarMinValue

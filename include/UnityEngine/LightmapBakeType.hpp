@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: LightmapBakeType
+    constexpr LightmapBakeType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.LightmapBakeType Realtime
     static constexpr const int Realtime = 4;
     // Get static field: static public UnityEngine.LightmapBakeType Realtime
@@ -34,8 +40,6 @@ namespace UnityEngine {
     static UnityEngine::LightmapBakeType _get_Mixed();
     // Set static field: static public UnityEngine.LightmapBakeType Mixed
     static void _set_Mixed(UnityEngine::LightmapBakeType value);
-    // Creating value type constructor for type: LightmapBakeType
-    LightmapBakeType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.LightmapBakeType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

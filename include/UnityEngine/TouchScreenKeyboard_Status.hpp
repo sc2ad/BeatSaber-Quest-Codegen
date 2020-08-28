@@ -18,6 +18,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Status
+    constexpr Status(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.TouchScreenKeyboard/Status Visible
     static constexpr const int Visible = 0;
     // Get static field: static public UnityEngine.TouchScreenKeyboard/Status Visible
@@ -42,8 +48,6 @@ namespace UnityEngine {
     static UnityEngine::TouchScreenKeyboard::Status _get_LostFocus();
     // Set static field: static public UnityEngine.TouchScreenKeyboard/Status LostFocus
     static void _set_LostFocus(UnityEngine::TouchScreenKeyboard::Status value);
-    // Creating value type constructor for type: Status
-    Status(int value_ = {}) : value{value_} {}
   }; // UnityEngine.TouchScreenKeyboard/Status
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

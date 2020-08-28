@@ -16,6 +16,12 @@ namespace System::Runtime::InteropServices {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: GCHandleType
+    constexpr GCHandleType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Runtime.InteropServices.GCHandleType Weak
     static constexpr const int Weak = 0;
     // Get static field: static public System.Runtime.InteropServices.GCHandleType Weak
@@ -40,8 +46,6 @@ namespace System::Runtime::InteropServices {
     static System::Runtime::InteropServices::GCHandleType _get_Pinned();
     // Set static field: static public System.Runtime.InteropServices.GCHandleType Pinned
     static void _set_Pinned(System::Runtime::InteropServices::GCHandleType value);
-    // Creating value type constructor for type: GCHandleType
-    GCHandleType(int value_ = {}) : value{value_} {}
   }; // System.Runtime.InteropServices.GCHandleType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

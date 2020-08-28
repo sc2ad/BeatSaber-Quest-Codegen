@@ -23,6 +23,10 @@ namespace Zenject {
     // public System.Type t
     // Offset: 0x10
     System::Type* t;
+    // Creating conversion operator: operator System::Type*
+    constexpr operator System::Type*() const {
+      return t;
+    }
     // System.Boolean <InNamespaces>b__1(System.String n)
     // Offset: 0xD70198
     bool $InNamespaces$b__1(::Il2CppString* n);

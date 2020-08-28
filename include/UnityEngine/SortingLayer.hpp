@@ -16,7 +16,11 @@ namespace UnityEngine {
     // Offset: 0x0
     int m_Id;
     // Creating value type constructor for type: SortingLayer
-    SortingLayer(int m_Id_ = {}) : m_Id{m_Id_} {}
+    constexpr SortingLayer(int m_Id_ = {}) : m_Id{m_Id_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return m_Id;
+    }
     // static public System.Int32 GetLayerValueFromID(System.Int32 id)
     // Offset: 0x13924A4
     static int GetLayerValueFromID(int id);

@@ -37,6 +37,10 @@ namespace System::Runtime::Remoting::Messaging {
     // private System.Runtime.Serialization.ISurrogateSelector _next
     // Offset: 0x10
     System::Runtime::Serialization::ISurrogateSelector* next;
+    // Creating conversion operator: operator System::Runtime::Serialization::ISurrogateSelector*
+    constexpr operator System::Runtime::Serialization::ISurrogateSelector*() const {
+      return next;
+    }
     // Get static field: static private System.Type s_cachedTypeObjRef
     static System::Type* _get_s_cachedTypeObjRef();
     // Set static field: static private System.Type s_cachedTypeObjRef

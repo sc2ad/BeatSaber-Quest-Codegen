@@ -16,6 +16,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: UriSyntaxFlags
+    constexpr UriSyntaxFlags(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.UriSyntaxFlags None
     static constexpr const int None = 0;
     // Get static field: static public System.UriSyntaxFlags None
@@ -190,8 +196,6 @@ namespace System {
     static System::UriSyntaxFlags _get_AllowIriParsing();
     // Set static field: static public System.UriSyntaxFlags AllowIriParsing
     static void _set_AllowIriParsing(System::UriSyntaxFlags value);
-    // Creating value type constructor for type: UriSyntaxFlags
-    UriSyntaxFlags(int value_ = {}) : value{value_} {}
   }; // System.UriSyntaxFlags
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

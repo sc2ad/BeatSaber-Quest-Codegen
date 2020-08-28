@@ -55,6 +55,8 @@ namespace GlobalNamespace {
     // private OVRGridCube gridCube
     // Offset: 0x50
     GlobalNamespace::OVRGridCube* gridCube;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private System.Void Awake()
     // Offset: 0xF4FBBC
     void Awake();

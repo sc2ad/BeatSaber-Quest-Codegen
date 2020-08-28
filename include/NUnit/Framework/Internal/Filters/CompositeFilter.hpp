@@ -32,6 +32,10 @@ namespace NUnit::Framework::Internal::Filters {
     // private System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITestFilter> <Filters>k__BackingField
     // Offset: 0x10
     System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>* Filters;
+    // Creating conversion operator: operator System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>*
+    constexpr operator System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>*() const {
+      return Filters;
+    }
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITestFilter[] filters)
     // Offset: 0x108B8E8
     static CompositeFilter* New_ctor(::Array<NUnit::Framework::Interfaces::ITestFilter*>* filters);

@@ -16,6 +16,12 @@ namespace TMPro {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ColorMode
+    constexpr ColorMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public TMPro.ColorMode Single
     static constexpr const int Single = 0;
     // Get static field: static public TMPro.ColorMode Single
@@ -40,8 +46,6 @@ namespace TMPro {
     static TMPro::ColorMode _get_FourCornersGradient();
     // Set static field: static public TMPro.ColorMode FourCornersGradient
     static void _set_FourCornersGradient(TMPro::ColorMode value);
-    // Creating value type constructor for type: ColorMode
-    ColorMode(int value_ = {}) : value{value_} {}
   }; // TMPro.ColorMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

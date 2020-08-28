@@ -39,6 +39,12 @@ namespace System::Globalization {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: FoundDatePattern
+      constexpr FoundDatePattern(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public System.Globalization.DateTimeFormatInfoScanner/FoundDatePattern None
       static constexpr const int None = 0;
       // Get static field: static public System.Globalization.DateTimeFormatInfoScanner/FoundDatePattern None
@@ -69,8 +75,6 @@ namespace System::Globalization {
       static System::Globalization::DateTimeFormatInfoScanner::FoundDatePattern _get_FoundYMDPatternFlag();
       // Set static field: static public System.Globalization.DateTimeFormatInfoScanner/FoundDatePattern FoundYMDPatternFlag
       static void _set_FoundYMDPatternFlag(System::Globalization::DateTimeFormatInfoScanner::FoundDatePattern value);
-      // Creating value type constructor for type: FoundDatePattern
-      FoundDatePattern(int value_ = {}) : value{value_} {}
     }; // System.Globalization.DateTimeFormatInfoScanner/FoundDatePattern
     // System.Collections.Generic.List`1<System.String> m_dateWords
     // Offset: 0x10

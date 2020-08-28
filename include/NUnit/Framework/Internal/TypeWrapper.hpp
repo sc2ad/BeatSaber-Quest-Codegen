@@ -44,6 +44,10 @@ namespace NUnit::Framework::Internal {
     // private System.Type <Type>k__BackingField
     // Offset: 0x10
     System::Type* Type;
+    // Creating conversion operator: operator System::Type*
+    constexpr operator System::Type*() const {
+      return Type;
+    }
     // public System.Void .ctor(System.Type type)
     // Offset: 0x18EFC64
     static TypeWrapper* New_ctor(System::Type* type);

@@ -33,6 +33,8 @@ namespace GlobalNamespace {
     // private BasicSpectrogramData _spectrogramData
     // Offset: 0x20
     GlobalNamespace::BasicSpectrogramData* spectrogramData;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // Get static field: static private readonly System.Int32 _spectrogramDataID
     static int _get__spectrogramDataID();
     // Set static field: static private readonly System.Int32 _spectrogramDataID

@@ -16,6 +16,12 @@ namespace System::Runtime::Serialization::Formatters {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: FormatterAssemblyStyle
+    constexpr FormatterAssemblyStyle(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Runtime.Serialization.Formatters.FormatterAssemblyStyle Simple
     static constexpr const int Simple = 0;
     // Get static field: static public System.Runtime.Serialization.Formatters.FormatterAssemblyStyle Simple
@@ -28,8 +34,6 @@ namespace System::Runtime::Serialization::Formatters {
     static System::Runtime::Serialization::Formatters::FormatterAssemblyStyle _get_Full();
     // Set static field: static public System.Runtime.Serialization.Formatters.FormatterAssemblyStyle Full
     static void _set_Full(System::Runtime::Serialization::Formatters::FormatterAssemblyStyle value);
-    // Creating value type constructor for type: FormatterAssemblyStyle
-    FormatterAssemblyStyle(int value_ = {}) : value{value_} {}
   }; // System.Runtime.Serialization.Formatters.FormatterAssemblyStyle
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -40,6 +40,8 @@ namespace GlobalNamespace {
     // private UnityEngine.ParticleSystem/EmitParams _explosionPSEmitParams
     // Offset: 0xC0
     UnityEngine::ParticleSystem::EmitParams explosionPSEmitParams;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Awake()
     // Offset: 0xB7C5E4
     void Awake();

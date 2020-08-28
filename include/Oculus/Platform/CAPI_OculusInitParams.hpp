@@ -31,7 +31,7 @@ namespace Oculus::Platform {
     // Offset: 0x20
     ::Il2CppString* uriPrefixOverride;
     // Creating value type constructor for type: OculusInitParams
-    OculusInitParams(int sType_ = {}, ::Il2CppString* email_ = {}, ::Il2CppString* password_ = {}, uint64_t appId_ = {}, ::Il2CppString* uriPrefixOverride_ = {}) : sType{sType_}, email{email_}, password{password_}, appId{appId_}, uriPrefixOverride{uriPrefixOverride_} {}
+    constexpr OculusInitParams(int sType_ = {}, ::Il2CppString* email_ = {}, ::Il2CppString* password_ = {}, uint64_t appId_ = {}, ::Il2CppString* uriPrefixOverride_ = {}) : sType{sType_}, email{email_}, password{password_}, appId{appId_}, uriPrefixOverride{uriPrefixOverride_} {}
   }; // Oculus.Platform.CAPI/OculusInitParams
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

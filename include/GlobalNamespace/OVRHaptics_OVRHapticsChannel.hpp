@@ -23,6 +23,10 @@ namespace GlobalNamespace {
     // private OVRHaptics/OVRHapticsOutput m_output
     // Offset: 0x10
     GlobalNamespace::OVRHaptics::OVRHapticsOutput* m_output;
+    // Creating conversion operator: operator GlobalNamespace::OVRHaptics::OVRHapticsOutput*
+    constexpr operator GlobalNamespace::OVRHaptics::OVRHapticsOutput*() const {
+      return m_output;
+    }
     // public System.Void .ctor(System.UInt32 outputIndex)
     // Offset: 0xE6E1B0
     static OVRHaptics::OVRHapticsChannel* New_ctor(uint outputIndex);

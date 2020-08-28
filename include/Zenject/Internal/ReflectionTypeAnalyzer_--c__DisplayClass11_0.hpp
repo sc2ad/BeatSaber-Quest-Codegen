@@ -28,6 +28,10 @@ namespace Zenject::Internal {
     // public System.Reflection.ConstructorInfo c
     // Offset: 0x10
     System::Reflection::ConstructorInfo* c;
+    // Creating conversion operator: operator System::Reflection::ConstructorInfo*
+    constexpr operator System::Reflection::ConstructorInfo*() const {
+      return c;
+    }
     // System.Boolean <TryGetInjectConstructor>b__3(System.Type a)
     // Offset: 0xF412E8
     bool $TryGetInjectConstructor$b__3(System::Type* a);

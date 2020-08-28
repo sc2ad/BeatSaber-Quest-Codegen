@@ -16,6 +16,12 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: VROverlayTransformType
+    constexpr VROverlayTransformType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.VROverlayTransformType VROverlayTransform_Absolute
     static constexpr const int VROverlayTransform_Absolute = 0;
     // Get static field: static public Valve.VR.VROverlayTransformType VROverlayTransform_Absolute
@@ -40,8 +46,6 @@ namespace Valve::VR {
     static Valve::VR::VROverlayTransformType _get_VROverlayTransform_TrackedComponent();
     // Set static field: static public Valve.VR.VROverlayTransformType VROverlayTransform_TrackedComponent
     static void _set_VROverlayTransform_TrackedComponent(Valve::VR::VROverlayTransformType value);
-    // Creating value type constructor for type: VROverlayTransformType
-    VROverlayTransformType(int value_ = {}) : value{value_} {}
   }; // Valve.VR.VROverlayTransformType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

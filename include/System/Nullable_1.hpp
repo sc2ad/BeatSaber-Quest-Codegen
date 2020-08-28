@@ -27,7 +27,7 @@ namespace System {
     // Offset: 0x0
     bool has_value;
     // Creating value type constructor for type: Nullable_1
-    Nullable_1(T value_ = {}, bool has_value_ = {}) : value{value_}, has_value{has_value_} {}
+    constexpr Nullable_1(T value_ = {}, bool has_value_ = {}) : value{value_}, has_value{has_value_} {}
     // public System.Void .ctor(T value)
     // Offset: 0xFFFFFFFF
     static Nullable_1<T>* New_ctor(T value) {

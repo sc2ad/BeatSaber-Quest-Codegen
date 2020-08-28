@@ -31,6 +31,10 @@ namespace Zenject {
     // public System.IDisposable disposable
     // Offset: 0x10
     System::IDisposable* disposable;
+    // Creating conversion operator: operator System::IDisposable*
+    constexpr operator System::IDisposable*() const {
+      return disposable;
+    }
     // System.Boolean <.ctor>b__0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
     // Offset: 0xF308C8
     bool $_ctor$b__0(ModestTree::Util::ValuePair_2<System::Type*, int>* x);

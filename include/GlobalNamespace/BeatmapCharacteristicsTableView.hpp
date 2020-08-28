@@ -62,6 +62,8 @@ namespace GlobalNamespace {
     // private System.Int32 _selectedColumn
     // Offset: 0x4C
     int selectedColumn;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void add_didSelectCharacteristic(System.Action`1<BeatmapCharacteristicSO> value)
     // Offset: 0xB926E8
     void add_didSelectCharacteristic(System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>* value);

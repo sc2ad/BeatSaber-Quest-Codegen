@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Collections.Hashtable
 #include "System/Collections/Hashtable.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: System.Collections
 namespace System::Collections {
@@ -23,7 +25,7 @@ namespace System::Collections {
     // Offset: 0x10
     int hash_coll;
     // Creating value type constructor for type: bucket
-    bucket(::Il2CppObject* key_ = {}, ::Il2CppObject* val_ = {}, int hash_coll_ = {}) : key{key_}, val{val_}, hash_coll{hash_coll_} {}
+    constexpr bucket(::Il2CppObject* key_ = {}, ::Il2CppObject* val_ = {}, int hash_coll_ = {}) : key{key_}, val{val_}, hash_coll{hash_coll_} {}
   }; // System.Collections.Hashtable/bucket
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

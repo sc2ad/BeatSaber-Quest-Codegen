@@ -28,6 +28,8 @@ namespace System::IO {
     // private System.String _fusionLog
     // Offset: 0x98
     ::Il2CppString* fusionLog;
+    // Deleting conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const = delete;
     // public System.Void .ctor(System.String message, System.String fileName)
     // Offset: 0x1133984
     static FileNotFoundException* New_ctor(::Il2CppString* message, ::Il2CppString* fileName);

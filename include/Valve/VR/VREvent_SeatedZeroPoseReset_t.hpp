@@ -16,7 +16,11 @@ namespace Valve::VR {
     // Offset: 0x0
     bool bResetBySystemMenu;
     // Creating value type constructor for type: VREvent_SeatedZeroPoseReset_t
-    VREvent_SeatedZeroPoseReset_t(bool bResetBySystemMenu_ = {}) : bResetBySystemMenu{bResetBySystemMenu_} {}
+    constexpr VREvent_SeatedZeroPoseReset_t(bool bResetBySystemMenu_ = {}) : bResetBySystemMenu{bResetBySystemMenu_} {}
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return bResetBySystemMenu;
+    }
   }; // Valve.VR.VREvent_SeatedZeroPoseReset_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

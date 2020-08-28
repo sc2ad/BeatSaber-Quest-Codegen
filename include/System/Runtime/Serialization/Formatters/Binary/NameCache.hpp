@@ -22,6 +22,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // private System.String name
     // Offset: 0x10
     ::Il2CppString* name;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return name;
+    }
     // Get static field: static private System.Collections.Concurrent.ConcurrentDictionary`2<System.String,System.Object> ht
     static System::Collections::Concurrent::ConcurrentDictionary_2<::Il2CppString*, ::Il2CppObject*>* _get_ht();
     // Set static field: static private System.Collections.Concurrent.ConcurrentDictionary`2<System.String,System.Object> ht

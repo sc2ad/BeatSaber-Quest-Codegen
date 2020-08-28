@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: MediaContentType
+    constexpr MediaContentType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.MediaContentType Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.MediaContentType Unknown
@@ -28,8 +34,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::MediaContentType _get_Photo();
     // Set static field: static public Oculus.Platform.MediaContentType Photo
     static void _set_Photo(Oculus::Platform::MediaContentType value);
-    // Creating value type constructor for type: MediaContentType
-    MediaContentType(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.MediaContentType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

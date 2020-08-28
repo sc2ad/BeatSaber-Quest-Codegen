@@ -16,6 +16,12 @@ namespace System::Threading {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: StackCrawlMark
+    constexpr StackCrawlMark(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Threading.StackCrawlMark LookForMe
     static constexpr const int LookForMe = 0;
     // Get static field: static public System.Threading.StackCrawlMark LookForMe
@@ -40,8 +46,6 @@ namespace System::Threading {
     static System::Threading::StackCrawlMark _get_LookForThread();
     // Set static field: static public System.Threading.StackCrawlMark LookForThread
     static void _set_LookForThread(System::Threading::StackCrawlMark value);
-    // Creating value type constructor for type: StackCrawlMark
-    StackCrawlMark(int value_ = {}) : value{value_} {}
   }; // System.Threading.StackCrawlMark
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

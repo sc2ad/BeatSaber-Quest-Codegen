@@ -17,7 +17,8 @@ namespace System::Collections::Generic {
 }
 // Forward declaring namespace: UnityEngine::ProBuilder
 namespace UnityEngine::ProBuilder {
-  // Skipping declaration: Edge because it is already included!
+  // Forward declaring type: Edge
+  struct Edge;
 }
 // Completed forward declares
 // Type namespace: UnityEngine.ProBuilder
@@ -28,6 +29,10 @@ namespace UnityEngine::ProBuilder {
     // public System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup
     // Offset: 0x10
     System::Collections::Generic::Dictionary_2<int, int>* lookup;
+    // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<int, int>*
+    constexpr operator System::Collections::Generic::Dictionary_2<int, int>*() const {
+      return lookup;
+    }
     // UnityEngine.ProBuilder.EdgeLookup <GetEdgeLookup>b__0(UnityEngine.ProBuilder.Edge x)
     // Offset: 0xF926D0
     UnityEngine::ProBuilder::EdgeLookup $GetEdgeLookup$b__0(UnityEngine::ProBuilder::Edge x);

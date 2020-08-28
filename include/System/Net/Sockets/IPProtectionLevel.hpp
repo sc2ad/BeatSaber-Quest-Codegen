@@ -16,6 +16,12 @@ namespace System::Net::Sockets {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: IPProtectionLevel
+    constexpr IPProtectionLevel(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Net.Sockets.IPProtectionLevel Unspecified
     static constexpr const int Unspecified = -1;
     // Get static field: static public System.Net.Sockets.IPProtectionLevel Unspecified
@@ -40,8 +46,6 @@ namespace System::Net::Sockets {
     static System::Net::Sockets::IPProtectionLevel _get_Restricted();
     // Set static field: static public System.Net.Sockets.IPProtectionLevel Restricted
     static void _set_Restricted(System::Net::Sockets::IPProtectionLevel value);
-    // Creating value type constructor for type: IPProtectionLevel
-    IPProtectionLevel(int value_ = {}) : value{value_} {}
   }; // System.Net.Sockets.IPProtectionLevel
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

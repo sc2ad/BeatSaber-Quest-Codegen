@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRTrackedCameraError
+    constexpr EVRTrackedCameraError(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.EVRTrackedCameraError None
     static constexpr const int None = 0;
     // Get static field: static public OVR.OpenVR.EVRTrackedCameraError None
@@ -118,8 +124,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRTrackedCameraError _get_InvalidFrameBufferSize();
     // Set static field: static public OVR.OpenVR.EVRTrackedCameraError InvalidFrameBufferSize
     static void _set_InvalidFrameBufferSize(OVR::OpenVR::EVRTrackedCameraError value);
-    // Creating value type constructor for type: EVRTrackedCameraError
-    EVRTrackedCameraError(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EVRTrackedCameraError
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

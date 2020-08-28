@@ -16,6 +16,12 @@ namespace UnityEngine::EventSystems {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EventTriggerType
+    constexpr EventTriggerType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.EventSystems.EventTriggerType PointerEnter
     static constexpr const int PointerEnter = 0;
     // Get static field: static public UnityEngine.EventSystems.EventTriggerType PointerEnter
@@ -118,8 +124,6 @@ namespace UnityEngine::EventSystems {
     static UnityEngine::EventSystems::EventTriggerType _get_Cancel();
     // Set static field: static public UnityEngine.EventSystems.EventTriggerType Cancel
     static void _set_Cancel(UnityEngine::EventSystems::EventTriggerType value);
-    // Creating value type constructor for type: EventTriggerType
-    EventTriggerType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.EventSystems.EventTriggerType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

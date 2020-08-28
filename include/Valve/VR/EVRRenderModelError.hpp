@@ -16,6 +16,12 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRRenderModelError
+    constexpr EVRRenderModelError(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.EVRRenderModelError None
     static constexpr const int None = 0;
     // Get static field: static public Valve.VR.EVRRenderModelError None
@@ -94,8 +100,6 @@ namespace Valve::VR {
     static Valve::VR::EVRRenderModelError _get_InvalidTexture();
     // Set static field: static public Valve.VR.EVRRenderModelError InvalidTexture
     static void _set_InvalidTexture(Valve::VR::EVRRenderModelError value);
-    // Creating value type constructor for type: EVRRenderModelError
-    EVRRenderModelError(int value_ = {}) : value{value_} {}
   }; // Valve.VR.EVRRenderModelError
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

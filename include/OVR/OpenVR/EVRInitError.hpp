@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRInitError
+    constexpr EVRInitError(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.EVRInitError None
     static constexpr const int None = 0;
     // Get static field: static public OVR.OpenVR.EVRInitError None
@@ -544,8 +550,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRInitError _get_Steam_SteamInstallationNotFound();
     // Set static field: static public OVR.OpenVR.EVRInitError Steam_SteamInstallationNotFound
     static void _set_Steam_SteamInstallationNotFound(OVR::OpenVR::EVRInitError value);
-    // Creating value type constructor for type: EVRInitError
-    EVRInitError(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EVRInitError
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

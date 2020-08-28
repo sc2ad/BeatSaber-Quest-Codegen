@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: OperatingSystemFamily
+    constexpr OperatingSystemFamily(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.OperatingSystemFamily Other
     static constexpr const int Other = 0;
     // Get static field: static public UnityEngine.OperatingSystemFamily Other
@@ -40,8 +46,6 @@ namespace UnityEngine {
     static UnityEngine::OperatingSystemFamily _get_Linux();
     // Set static field: static public UnityEngine.OperatingSystemFamily Linux
     static void _set_Linux(UnityEngine::OperatingSystemFamily value);
-    // Creating value type constructor for type: OperatingSystemFamily
-    OperatingSystemFamily(int value_ = {}) : value{value_} {}
   }; // UnityEngine.OperatingSystemFamily
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

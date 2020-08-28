@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Playables.FrameData
 #include "UnityEngine/Playables/FrameData.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
@@ -16,6 +18,12 @@ namespace UnityEngine::Playables {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EvaluationType
+    constexpr EvaluationType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Playables.FrameData/EvaluationType Evaluate
     static constexpr const int Evaluate = 0;
     // Get static field: static public UnityEngine.Playables.FrameData/EvaluationType Evaluate
@@ -28,8 +36,6 @@ namespace UnityEngine::Playables {
     static UnityEngine::Playables::FrameData::EvaluationType _get_Playback();
     // Set static field: static public UnityEngine.Playables.FrameData/EvaluationType Playback
     static void _set_Playback(UnityEngine::Playables::FrameData::EvaluationType value);
-    // Creating value type constructor for type: EvaluationType
-    EvaluationType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Playables.FrameData/EvaluationType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

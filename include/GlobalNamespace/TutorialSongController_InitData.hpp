@@ -16,6 +16,10 @@ namespace GlobalNamespace {
     // public readonly System.Single songBPM
     // Offset: 0x10
     float songBPM;
+    // Creating conversion operator: operator float
+    constexpr operator float() const {
+      return songBPM;
+    }
     // public System.Void .ctor(System.Single songBPM)
     // Offset: 0xC4A704
     static TutorialSongController::InitData* New_ctor(float songBPM);

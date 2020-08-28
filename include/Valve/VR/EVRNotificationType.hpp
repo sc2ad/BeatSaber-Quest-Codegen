@@ -16,6 +16,12 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRNotificationType
+    constexpr EVRNotificationType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.EVRNotificationType Transient
     static constexpr const int Transient = 0;
     // Get static field: static public Valve.VR.EVRNotificationType Transient
@@ -34,8 +40,6 @@ namespace Valve::VR {
     static Valve::VR::EVRNotificationType _get_Transient_SystemWithUserValue();
     // Set static field: static public Valve.VR.EVRNotificationType Transient_SystemWithUserValue
     static void _set_Transient_SystemWithUserValue(Valve::VR::EVRNotificationType value);
-    // Creating value type constructor for type: EVRNotificationType
-    EVRNotificationType(int value_ = {}) : value{value_} {}
   }; // Valve.VR.EVRNotificationType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

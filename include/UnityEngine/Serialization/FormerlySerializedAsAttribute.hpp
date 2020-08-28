@@ -16,6 +16,10 @@ namespace UnityEngine::Serialization {
     // private System.String m_oldName
     // Offset: 0x10
     ::Il2CppString* m_oldName;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return m_oldName;
+    }
     // public System.Void .ctor(System.String oldName)
     // Offset: 0x1391A6C
     static FormerlySerializedAsAttribute* New_ctor(::Il2CppString* oldName);

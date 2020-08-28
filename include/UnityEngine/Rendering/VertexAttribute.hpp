@@ -16,6 +16,12 @@ namespace UnityEngine::Rendering {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: VertexAttribute
+    constexpr VertexAttribute(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Rendering.VertexAttribute Position
     static constexpr const int Position = 0;
     // Get static field: static public UnityEngine.Rendering.VertexAttribute Position
@@ -100,8 +106,6 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::VertexAttribute _get_BlendIndices();
     // Set static field: static public UnityEngine.Rendering.VertexAttribute BlendIndices
     static void _set_BlendIndices(UnityEngine::Rendering::VertexAttribute value);
-    // Creating value type constructor for type: VertexAttribute
-    VertexAttribute(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Rendering.VertexAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

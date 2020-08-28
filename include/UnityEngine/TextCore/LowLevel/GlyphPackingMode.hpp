@@ -16,6 +16,12 @@ namespace UnityEngine::TextCore::LowLevel {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: GlyphPackingMode
+    constexpr GlyphPackingMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.TextCore.LowLevel.GlyphPackingMode BestShortSideFit
     static constexpr const int BestShortSideFit = 0;
     // Get static field: static public UnityEngine.TextCore.LowLevel.GlyphPackingMode BestShortSideFit
@@ -46,8 +52,6 @@ namespace UnityEngine::TextCore::LowLevel {
     static UnityEngine::TextCore::LowLevel::GlyphPackingMode _get_ContactPointRule();
     // Set static field: static public UnityEngine.TextCore.LowLevel.GlyphPackingMode ContactPointRule
     static void _set_ContactPointRule(UnityEngine::TextCore::LowLevel::GlyphPackingMode value);
-    // Creating value type constructor for type: GlyphPackingMode
-    GlyphPackingMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.TextCore.LowLevel.GlyphPackingMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

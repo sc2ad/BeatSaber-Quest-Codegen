@@ -16,6 +16,12 @@ namespace UnityEngine::ProBuilder {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ComponentMode
+    constexpr ComponentMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ProBuilder.ComponentMode Vertex
     static constexpr const int Vertex = 0;
     // Get static field: static public UnityEngine.ProBuilder.ComponentMode Vertex
@@ -34,8 +40,6 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::ComponentMode _get_Face();
     // Set static field: static public UnityEngine.ProBuilder.ComponentMode Face
     static void _set_Face(UnityEngine::ProBuilder::ComponentMode value);
-    // Creating value type constructor for type: ComponentMode
-    ComponentMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.ComponentMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

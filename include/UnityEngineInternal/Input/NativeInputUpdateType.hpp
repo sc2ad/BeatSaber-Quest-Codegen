@@ -16,6 +16,12 @@ namespace UnityEngineInternal::Input {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: NativeInputUpdateType
+    constexpr NativeInputUpdateType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngineInternal.Input.NativeInputUpdateType Dynamic
     static constexpr const int Dynamic = 1;
     // Get static field: static public UnityEngineInternal.Input.NativeInputUpdateType Dynamic
@@ -46,8 +52,6 @@ namespace UnityEngineInternal::Input {
     static UnityEngineInternal::Input::NativeInputUpdateType _get_IgnoreFocus();
     // Set static field: static public UnityEngineInternal.Input.NativeInputUpdateType IgnoreFocus
     static void _set_IgnoreFocus(UnityEngineInternal::Input::NativeInputUpdateType value);
-    // Creating value type constructor for type: NativeInputUpdateType
-    NativeInputUpdateType(int value_ = {}) : value{value_} {}
   }; // UnityEngineInternal.Input.NativeInputUpdateType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

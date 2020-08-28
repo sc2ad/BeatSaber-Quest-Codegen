@@ -23,6 +23,10 @@ namespace Oculus::Platform::Models {
     // public readonly Oculus.Platform.ShareMediaStatus Status
     // Offset: 0x10
     Oculus::Platform::ShareMediaStatus Status;
+    // Creating conversion operator: operator Oculus::Platform::ShareMediaStatus
+    constexpr operator Oculus::Platform::ShareMediaStatus() const {
+      return Status;
+    }
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0xEA8F70
     static ShareMediaResult* New_ctor(System::IntPtr o);

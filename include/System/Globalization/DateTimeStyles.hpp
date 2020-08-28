@@ -16,6 +16,12 @@ namespace System::Globalization {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: DateTimeStyles
+    constexpr DateTimeStyles(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Globalization.DateTimeStyles None
     static constexpr const int None = 0;
     // Get static field: static public System.Globalization.DateTimeStyles None
@@ -76,8 +82,6 @@ namespace System::Globalization {
     static System::Globalization::DateTimeStyles _get_RoundtripKind();
     // Set static field: static public System.Globalization.DateTimeStyles RoundtripKind
     static void _set_RoundtripKind(System::Globalization::DateTimeStyles value);
-    // Creating value type constructor for type: DateTimeStyles
-    DateTimeStyles(int value_ = {}) : value{value_} {}
   }; // System.Globalization.DateTimeStyles
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

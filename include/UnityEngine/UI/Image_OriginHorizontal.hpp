@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.Image
 #include "UnityEngine/UI/Image.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
@@ -16,6 +18,12 @@ namespace UnityEngine::UI {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: OriginHorizontal
+    constexpr OriginHorizontal(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.UI.Image/OriginHorizontal Left
     static constexpr const int Left = 0;
     // Get static field: static public UnityEngine.UI.Image/OriginHorizontal Left
@@ -28,8 +36,6 @@ namespace UnityEngine::UI {
     static UnityEngine::UI::Image::OriginHorizontal _get_Right();
     // Set static field: static public UnityEngine.UI.Image/OriginHorizontal Right
     static void _set_Right(UnityEngine::UI::Image::OriginHorizontal value);
-    // Creating value type constructor for type: OriginHorizontal
-    OriginHorizontal(int value_ = {}) : value{value_} {}
   }; // UnityEngine.UI.Image/OriginHorizontal
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

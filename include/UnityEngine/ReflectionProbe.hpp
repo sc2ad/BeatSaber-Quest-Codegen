@@ -40,6 +40,12 @@ namespace UnityEngine {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: ReflectionProbeEvent
+      constexpr ReflectionProbeEvent(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public UnityEngine.ReflectionProbe/ReflectionProbeEvent ReflectionProbeAdded
       static constexpr const int ReflectionProbeAdded = 0;
       // Get static field: static public UnityEngine.ReflectionProbe/ReflectionProbeEvent ReflectionProbeAdded
@@ -52,8 +58,6 @@ namespace UnityEngine {
       static UnityEngine::ReflectionProbe::ReflectionProbeEvent _get_ReflectionProbeRemoved();
       // Set static field: static public UnityEngine.ReflectionProbe/ReflectionProbeEvent ReflectionProbeRemoved
       static void _set_ReflectionProbeRemoved(UnityEngine::ReflectionProbe::ReflectionProbeEvent value);
-      // Creating value type constructor for type: ReflectionProbeEvent
-      ReflectionProbeEvent(int value_ = {}) : value{value_} {}
     }; // UnityEngine.ReflectionProbe/ReflectionProbeEvent
     // Get static field: static private System.Action`2<UnityEngine.ReflectionProbe,UnityEngine.ReflectionProbe/ReflectionProbeEvent> reflectionProbeChanged
     static System::Action_2<UnityEngine::ReflectionProbe*, UnityEngine::ReflectionProbe::ReflectionProbeEvent>* _get_reflectionProbeChanged();

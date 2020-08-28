@@ -49,6 +49,10 @@ namespace System {
       // T m_value
       // Offset: 0x0
       T m_value;
+      // Creating conversion operator: operator T
+      constexpr operator T() const {
+        return m_value;
+      }
       // System.Void .ctor(T value)
       // Offset: 0xFFFFFFFF
       static typename Lazy_1<T>::Boxed* New_ctor(T value) {
@@ -62,6 +66,10 @@ namespace System {
       // System.Runtime.ExceptionServices.ExceptionDispatchInfo m_edi
       // Offset: 0x0
       System::Runtime::ExceptionServices::ExceptionDispatchInfo* m_edi;
+      // Creating conversion operator: operator System::Runtime::ExceptionServices::ExceptionDispatchInfo*
+      constexpr operator System::Runtime::ExceptionServices::ExceptionDispatchInfo*() const {
+        return m_edi;
+      }
       // System.Void .ctor(System.Exception ex)
       // Offset: 0xFFFFFFFF
       static typename Lazy_1<T>::LazyInternalExceptionHolder* New_ctor(System::Exception* ex) {

@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EGamepadTextInputLineMode
+    constexpr EGamepadTextInputLineMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.EGamepadTextInputLineMode k_EGamepadTextInputLineModeSingleLine
     static constexpr const int k_EGamepadTextInputLineModeSingleLine = 0;
     // Get static field: static public OVR.OpenVR.EGamepadTextInputLineMode k_EGamepadTextInputLineModeSingleLine
@@ -28,8 +34,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EGamepadTextInputLineMode _get_k_EGamepadTextInputLineModeMultipleLines();
     // Set static field: static public OVR.OpenVR.EGamepadTextInputLineMode k_EGamepadTextInputLineModeMultipleLines
     static void _set_k_EGamepadTextInputLineModeMultipleLines(OVR::OpenVR::EGamepadTextInputLineMode value);
-    // Creating value type constructor for type: EGamepadTextInputLineMode
-    EGamepadTextInputLineMode(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EGamepadTextInputLineMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

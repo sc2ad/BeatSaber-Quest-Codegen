@@ -49,6 +49,8 @@ namespace UnityEngine::Playables {
     // private System.Action`1<UnityEngine.Playables.PlayableDirector> stopped
     // Offset: 0x28
     System::Action_1<UnityEngine::Playables::PlayableDirector*>* stopped;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public UnityEngine.Playables.DirectorWrapMode get_extrapolationMode()
     // Offset: 0x1982E2C
     UnityEngine::Playables::DirectorWrapMode get_extrapolationMode();

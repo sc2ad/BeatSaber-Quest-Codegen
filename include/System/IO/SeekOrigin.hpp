@@ -16,6 +16,12 @@ namespace System::IO {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SeekOrigin
+    constexpr SeekOrigin(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.IO.SeekOrigin Begin
     static constexpr const int Begin = 0;
     // Get static field: static public System.IO.SeekOrigin Begin
@@ -34,8 +40,6 @@ namespace System::IO {
     static System::IO::SeekOrigin _get_End();
     // Set static field: static public System.IO.SeekOrigin End
     static void _set_End(System::IO::SeekOrigin value);
-    // Creating value type constructor for type: SeekOrigin
-    SeekOrigin(int value_ = {}) : value{value_} {}
   }; // System.IO.SeekOrigin
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,10 @@ namespace OnlineServices::API {
     // public System.Boolean everythingOK
     // Offset: 0x10
     bool everythingOK;
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return everythingOK;
+    }
     // public System.Void .ctor()
     // Offset: 0xC3FD08
     // Implemented from: System.Object

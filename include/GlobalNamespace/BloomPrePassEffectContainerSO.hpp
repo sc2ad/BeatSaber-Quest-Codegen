@@ -23,6 +23,8 @@ namespace GlobalNamespace {
     // private BloomPrePassEffectSO _bloomPrePassEffect
     // Offset: 0x18
     GlobalNamespace::BloomPrePassEffectSO* bloomPrePassEffect;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public BloomPrePassEffectSO get_bloomPrePassEffect()
     // Offset: 0x18265CC
     GlobalNamespace::BloomPrePassEffectSO* get_bloomPrePassEffect();

@@ -23,6 +23,10 @@ namespace System::Xml {
     // private System.Xml.XmlRawWriter rawWriter
     // Offset: 0x28
     System::Xml::XmlRawWriter* rawWriter;
+    // Creating conversion operator: operator System::Xml::XmlRawWriter*
+    constexpr operator System::Xml::XmlRawWriter*() const {
+      return rawWriter;
+    }
     // System.Void .ctor(System.Xml.XmlRawWriter rawWriter)
     // Offset: 0x11A9B34
     static XmlRawWriterBase64Encoder* New_ctor(System::Xml::XmlRawWriter* rawWriter);

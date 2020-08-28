@@ -31,6 +31,8 @@ namespace GlobalNamespace {
     // public UnityEngine.Behaviour[] _components
     // Offset: 0x20
     ::Array<UnityEngine::Behaviour*>* components;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void add_VisibilityChangedEvent(System.Action`1<System.Boolean> value)
     // Offset: 0xCB0194
     void add_VisibilityChangedEvent(System::Action_1<bool>* value);

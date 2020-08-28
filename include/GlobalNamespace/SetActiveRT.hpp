@@ -23,6 +23,8 @@ namespace GlobalNamespace {
     // private GetActiveRT _getActiveRT
     // Offset: 0x18
     GlobalNamespace::GetActiveRT* getActiveRT;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private System.Void OnPreRender()
     // Offset: 0xC2DF70
     void OnPreRender();

@@ -35,6 +35,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: Mode
+      constexpr Mode(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public BloomPrePass/Mode RenderAndSetData
       static constexpr const int RenderAndSetData = 0;
       // Get static field: static public BloomPrePass/Mode RenderAndSetData
@@ -47,8 +53,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::BloomPrePass::Mode _get_SetDataOnly();
       // Set static field: static public BloomPrePass/Mode SetDataOnly
       static void _set_SetDataOnly(GlobalNamespace::BloomPrePass::Mode value);
-      // Creating value type constructor for type: Mode
-      Mode(int value_ = {}) : value{value_} {}
     }; // BloomPrePass/Mode
     // private BloomPrePassRendererSO _bloomPrepassRenderer
     // Offset: 0x18
@@ -65,6 +69,8 @@ namespace GlobalNamespace {
     // private BloomPrePassRenderDataSO/Data _renderData
     // Offset: 0x38
     GlobalNamespace::BloomPrePassRenderDataSO::Data* renderData;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Awake()
     // Offset: 0x18250C8
     void Awake();

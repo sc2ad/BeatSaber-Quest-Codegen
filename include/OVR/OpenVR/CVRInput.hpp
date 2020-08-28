@@ -53,6 +53,10 @@ namespace OVR::OpenVR {
     // private OVR.OpenVR.IVRInput FnTable
     // Offset: 0x10
     OVR::OpenVR::IVRInput FnTable;
+    // Creating conversion operator: operator OVR::OpenVR::IVRInput
+    constexpr operator OVR::OpenVR::IVRInput() const {
+      return FnTable;
+    }
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0xECF1C8
     static CVRInput* New_ctor(System::IntPtr pInterface);

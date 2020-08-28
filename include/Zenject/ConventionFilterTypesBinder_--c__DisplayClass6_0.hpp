@@ -23,6 +23,10 @@ namespace Zenject {
     // public System.Type attribute
     // Offset: 0x10
     System::Type* attribute;
+    // Creating conversion operator: operator System::Type*
+    constexpr operator System::Type*() const {
+      return attribute;
+    }
     // System.Boolean <WithAttribute>b__0(System.Type t)
     // Offset: 0xD70360
     bool $WithAttribute$b__0(System::Type* t);

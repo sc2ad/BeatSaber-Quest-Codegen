@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: LaunchType
+    constexpr LaunchType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.LaunchType Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.LaunchType Unknown
@@ -46,8 +52,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::LaunchType _get_Deeplink();
     // Set static field: static public Oculus.Platform.LaunchType Deeplink
     static void _set_Deeplink(Oculus::Platform::LaunchType value);
-    // Creating value type constructor for type: LaunchType
-    LaunchType(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.LaunchType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

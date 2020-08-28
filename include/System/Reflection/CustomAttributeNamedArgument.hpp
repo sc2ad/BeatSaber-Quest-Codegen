@@ -32,7 +32,7 @@ namespace System::Reflection {
     // Offset: 0x10
     System::Reflection::MemberInfo* memberInfo;
     // Creating value type constructor for type: CustomAttributeNamedArgument
-    CustomAttributeNamedArgument(System::Reflection::CustomAttributeTypedArgument typedArgument_ = {}, System::Reflection::MemberInfo* memberInfo_ = {}) : typedArgument{typedArgument_}, memberInfo{memberInfo_} {}
+    constexpr CustomAttributeNamedArgument(System::Reflection::CustomAttributeTypedArgument typedArgument_ = {}, System::Reflection::MemberInfo* memberInfo_ = {}) : typedArgument{typedArgument_}, memberInfo{memberInfo_} {}
     // public System.Void .ctor(System.Reflection.MemberInfo memberInfo, System.Object value)
     // Offset: 0xA46D70
     static CustomAttributeNamedArgument* New_ctor(System::Reflection::MemberInfo* memberInfo, ::Il2CppObject* value);

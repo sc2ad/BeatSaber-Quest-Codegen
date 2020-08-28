@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ParticleSystemCurveMode
+    constexpr ParticleSystemCurveMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ParticleSystemCurveMode Constant
     static constexpr const int Constant = 0;
     // Get static field: static public UnityEngine.ParticleSystemCurveMode Constant
@@ -40,8 +46,6 @@ namespace UnityEngine {
     static UnityEngine::ParticleSystemCurveMode _get_TwoConstants();
     // Set static field: static public UnityEngine.ParticleSystemCurveMode TwoConstants
     static void _set_TwoConstants(UnityEngine::ParticleSystemCurveMode value);
-    // Creating value type constructor for type: ParticleSystemCurveMode
-    ParticleSystemCurveMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ParticleSystemCurveMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

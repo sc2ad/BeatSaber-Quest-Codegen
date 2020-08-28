@@ -16,6 +16,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: StringComparison
+    constexpr StringComparison(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.StringComparison CurrentCulture
     static constexpr const int CurrentCulture = 0;
     // Get static field: static public System.StringComparison CurrentCulture
@@ -52,8 +58,6 @@ namespace System {
     static System::StringComparison _get_OrdinalIgnoreCase();
     // Set static field: static public System.StringComparison OrdinalIgnoreCase
     static void _set_OrdinalIgnoreCase(System::StringComparison value);
-    // Creating value type constructor for type: StringComparison
-    StringComparison(int value_ = {}) : value{value_} {}
   }; // System.StringComparison
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

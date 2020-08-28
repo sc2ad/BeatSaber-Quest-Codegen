@@ -16,6 +16,12 @@ namespace UnityEngine::TestTools {
     // public System.Byte value__
     // Offset: 0x0
     uint8_t value;
+    // Creating value type constructor for type: TestPlatform
+    constexpr TestPlatform(uint8_t value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator uint8_t
+    constexpr operator uint8_t() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.TestTools.TestPlatform All
     static constexpr const uint8_t All = 255u;
     // Get static field: static public UnityEngine.TestTools.TestPlatform All
@@ -34,8 +40,6 @@ namespace UnityEngine::TestTools {
     static UnityEngine::TestTools::TestPlatform _get_PlayMode();
     // Set static field: static public UnityEngine.TestTools.TestPlatform PlayMode
     static void _set_PlayMode(UnityEngine::TestTools::TestPlatform value);
-    // Creating value type constructor for type: TestPlatform
-    TestPlatform(uint8_t value_ = {}) : value{value_} {}
   }; // UnityEngine.TestTools.TestPlatform
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

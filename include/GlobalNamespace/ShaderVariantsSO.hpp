@@ -23,6 +23,8 @@ namespace GlobalNamespace {
     // private ShaderVariantsSO/ShaderVariant[] _shaderVariants
     // Offset: 0x18
     ::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant*>* shaderVariants;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public ShaderVariantsSO/ShaderVariant[] get_shaderVariants()
     // Offset: 0x19156F8
     ::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant*>* get_shaderVariants();

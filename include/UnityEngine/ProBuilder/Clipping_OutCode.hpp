@@ -18,6 +18,12 @@ namespace UnityEngine::ProBuilder {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: OutCode
+    constexpr OutCode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ProBuilder.Clipping/OutCode Inside
     static constexpr const int Inside = 0;
     // Get static field: static public UnityEngine.ProBuilder.Clipping/OutCode Inside
@@ -48,8 +54,6 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::Clipping::OutCode _get_Top();
     // Set static field: static public UnityEngine.ProBuilder.Clipping/OutCode Top
     static void _set_Top(UnityEngine::ProBuilder::Clipping::OutCode value);
-    // Creating value type constructor for type: OutCode
-    OutCode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.Clipping/OutCode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

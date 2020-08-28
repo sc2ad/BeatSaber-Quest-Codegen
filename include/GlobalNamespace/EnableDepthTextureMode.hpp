@@ -18,6 +18,8 @@ namespace GlobalNamespace {
     // private UnityEngine.DepthTextureMode _depthTextureMode
     // Offset: 0x18
     UnityEngine::DepthTextureMode depthTextureMode;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Awake()
     // Offset: 0xBE9620
     void Awake();

@@ -9,6 +9,14 @@
 #include "System/TimeZoneInfo.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
+// Including type: System.Runtime.Serialization.ISerializable
+#include "System/Runtime/Serialization/ISerializable.hpp"
+// Including type: System.Runtime.Serialization.IDeserializationCallback
+#include "System/Runtime/Serialization/IDeserializationCallback.hpp"
+// Including type: System.DateTime
+#include "System/DateTime.hpp"
+// Including type: System.TimeSpan
+#include "System/TimeSpan.hpp"
 // Including type: System.TimeZoneInfo/TransitionTime
 #include "System/TimeZoneInfo_TransitionTime.hpp"
 // Completed includes

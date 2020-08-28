@@ -16,6 +16,10 @@ namespace UnityEngine {
     // public readonly System.String tooltip
     // Offset: 0x10
     ::Il2CppString* tooltip;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return tooltip;
+    }
     // public System.Void .ctor(System.String tooltip)
     // Offset: 0x1397324
     static TooltipAttribute* New_ctor(::Il2CppString* tooltip);

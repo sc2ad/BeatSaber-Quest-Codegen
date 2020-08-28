@@ -31,6 +31,10 @@ namespace Zenject {
     // private readonly Zenject.DiContainer _subcontainer
     // Offset: 0x10
     Zenject::DiContainer* subcontainer;
+    // Creating conversion operator: operator Zenject::DiContainer*
+    constexpr operator Zenject::DiContainer*() const {
+      return subcontainer;
+    }
     // public System.Void .ctor(Zenject.DiContainer subcontainer)
     // Offset: 0xFD112C
     static SubContainerCreatorByInstance* New_ctor(Zenject::DiContainer* subcontainer);

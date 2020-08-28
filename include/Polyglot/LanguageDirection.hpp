@@ -16,6 +16,12 @@ namespace Polyglot {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: LanguageDirection
+    constexpr LanguageDirection(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Polyglot.LanguageDirection LeftToRight
     static constexpr const int LeftToRight = 0;
     // Get static field: static public Polyglot.LanguageDirection LeftToRight
@@ -28,8 +34,6 @@ namespace Polyglot {
     static Polyglot::LanguageDirection _get_RightToLeft();
     // Set static field: static public Polyglot.LanguageDirection RightToLeft
     static void _set_RightToLeft(Polyglot::LanguageDirection value);
-    // Creating value type constructor for type: LanguageDirection
-    LanguageDirection(int value_ = {}) : value{value_} {}
   }; // Polyglot.LanguageDirection
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

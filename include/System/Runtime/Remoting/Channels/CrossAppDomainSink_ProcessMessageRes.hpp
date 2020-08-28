@@ -29,7 +29,7 @@ namespace System::Runtime::Remoting::Channels {
     // Offset: 0x8
     System::Runtime::Remoting::Messaging::CADMethodReturnMessage* cadMrm;
     // Creating value type constructor for type: ProcessMessageRes
-    ProcessMessageRes(::Array<uint8_t>* arrResponse_ = {}, System::Runtime::Remoting::Messaging::CADMethodReturnMessage* cadMrm_ = {}) : arrResponse{arrResponse_}, cadMrm{cadMrm_} {}
+    constexpr ProcessMessageRes(::Array<uint8_t>* arrResponse_ = {}, System::Runtime::Remoting::Messaging::CADMethodReturnMessage* cadMrm_ = {}) : arrResponse{arrResponse_}, cadMrm{cadMrm_} {}
   }; // System.Runtime.Remoting.Channels.CrossAppDomainSink/ProcessMessageRes
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

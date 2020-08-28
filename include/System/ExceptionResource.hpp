@@ -16,6 +16,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ExceptionResource
+    constexpr ExceptionResource(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.ExceptionResource Argument_ImplementIComparable
     static constexpr const int Argument_ImplementIComparable = 0;
     // Get static field: static public System.ExceptionResource Argument_ImplementIComparable
@@ -292,8 +298,6 @@ namespace System {
     static System::ExceptionResource _get_Argument_InvalidRegistryViewCheck();
     // Set static field: static public System.ExceptionResource Argument_InvalidRegistryViewCheck
     static void _set_Argument_InvalidRegistryViewCheck(System::ExceptionResource value);
-    // Creating value type constructor for type: ExceptionResource
-    ExceptionResource(int value_ = {}) : value{value_} {}
   }; // System.ExceptionResource
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

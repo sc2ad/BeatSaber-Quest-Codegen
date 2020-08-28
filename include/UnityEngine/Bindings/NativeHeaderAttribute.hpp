@@ -16,6 +16,10 @@ namespace UnityEngine::Bindings {
     // private System.String <Header>k__BackingField
     // Offset: 0x10
     ::Il2CppString* Header;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return Header;
+    }
     // public System.Void set_Header(System.String value)
     // Offset: 0x1974D50
     void set_Header(::Il2CppString* value);

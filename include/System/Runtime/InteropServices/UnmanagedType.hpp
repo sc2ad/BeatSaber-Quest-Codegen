@@ -16,6 +16,12 @@ namespace System::Runtime::InteropServices {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: UnmanagedType
+    constexpr UnmanagedType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Runtime.InteropServices.UnmanagedType Bool
     static constexpr const int Bool = 2;
     // Get static field: static public System.Runtime.InteropServices.UnmanagedType Bool
@@ -244,8 +250,6 @@ namespace System::Runtime::InteropServices {
     static System::Runtime::InteropServices::UnmanagedType _get_LPUTF8Str();
     // Set static field: static public System.Runtime.InteropServices.UnmanagedType LPUTF8Str
     static void _set_LPUTF8Str(System::Runtime::InteropServices::UnmanagedType value);
-    // Creating value type constructor for type: UnmanagedType
-    UnmanagedType(int value_ = {}) : value{value_} {}
   }; // System.Runtime.InteropServices.UnmanagedType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

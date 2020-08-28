@@ -16,6 +16,12 @@ namespace UnityEngine::EventSystems {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: MoveDirection
+    constexpr MoveDirection(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.EventSystems.MoveDirection Left
     static constexpr const int Left = 0;
     // Get static field: static public UnityEngine.EventSystems.MoveDirection Left
@@ -46,8 +52,6 @@ namespace UnityEngine::EventSystems {
     static UnityEngine::EventSystems::MoveDirection _get_None();
     // Set static field: static public UnityEngine.EventSystems.MoveDirection None
     static void _set_None(UnityEngine::EventSystems::MoveDirection value);
-    // Creating value type constructor for type: MoveDirection
-    MoveDirection(int value_ = {}) : value{value_} {}
   }; // UnityEngine.EventSystems.MoveDirection
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

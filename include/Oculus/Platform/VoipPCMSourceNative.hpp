@@ -16,6 +16,10 @@ namespace Oculus::Platform {
     // private System.UInt64 senderID
     // Offset: 0x10
     uint64_t senderID;
+    // Creating conversion operator: operator uint64_t
+    constexpr operator uint64_t() const {
+      return senderID;
+    }
     // public System.Int32 GetPCM(System.Single[] dest, System.Int32 length)
     // Offset: 0x196D368
     // Implemented from: Oculus.Platform.IVoipPCMSource

@@ -30,6 +30,10 @@ namespace Zenject {
     // public System.Object instance
     // Offset: 0x10
     ::Il2CppObject* instance;
+    // Creating conversion operator: operator ::Il2CppObject*
+    constexpr operator ::Il2CppObject*() const {
+      return instance;
+    }
     // Zenject.IProvider <FromInstanceBase>b__0(Zenject.DiContainer container, System.Type type)
     // Offset: 0xF39388
     Zenject::IProvider* $FromInstanceBase$b__0(Zenject::DiContainer* container, System::Type* type);

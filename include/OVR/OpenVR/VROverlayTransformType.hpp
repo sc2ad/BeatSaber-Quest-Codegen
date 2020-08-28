@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: VROverlayTransformType
+    constexpr VROverlayTransformType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.VROverlayTransformType VROverlayTransform_Absolute
     static constexpr const int VROverlayTransform_Absolute = 0;
     // Get static field: static public OVR.OpenVR.VROverlayTransformType VROverlayTransform_Absolute
@@ -40,8 +46,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::VROverlayTransformType _get_VROverlayTransform_TrackedComponent();
     // Set static field: static public OVR.OpenVR.VROverlayTransformType VROverlayTransform_TrackedComponent
     static void _set_VROverlayTransform_TrackedComponent(OVR::OpenVR::VROverlayTransformType value);
-    // Creating value type constructor for type: VROverlayTransformType
-    VROverlayTransformType(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.VROverlayTransformType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

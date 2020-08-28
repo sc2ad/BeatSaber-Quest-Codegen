@@ -23,6 +23,10 @@ namespace Zenject {
     // private readonly System.String _resourcePath
     // Offset: 0x10
     ::Il2CppString* resourcePath;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return resourcePath;
+    }
     // public System.Void .ctor(System.String resourcePath)
     // Offset: 0xFC7ADC
     static PrefabProviderResource* New_ctor(::Il2CppString* resourcePath);

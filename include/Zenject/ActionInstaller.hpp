@@ -29,6 +29,8 @@ namespace Zenject {
     // private readonly System.Action`1<Zenject.DiContainer> _installMethod
     // Offset: 0x18
     System::Action_1<Zenject::DiContainer*>* installMethod;
+    // Deleting conversion operator: operator Zenject::DiContainer*
+    constexpr operator Zenject::DiContainer*() const = delete;
     // public System.Void .ctor(System.Action`1<Zenject.DiContainer> installMethod)
     // Offset: 0xD67078
     static ActionInstaller* New_ctor(System::Action_1<Zenject::DiContainer*>* installMethod);

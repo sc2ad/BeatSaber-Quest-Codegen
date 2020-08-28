@@ -27,6 +27,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: BeatmapObjectExecutionRatingType
+      constexpr BeatmapObjectExecutionRatingType(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType Note
       static constexpr const int Note = 0;
       // Get static field: static public BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType Note
@@ -45,8 +51,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType _get_Obstacle();
       // Set static field: static public BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType Obstacle
       static void _set_Obstacle(GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType value);
-      // Creating value type constructor for type: BeatmapObjectExecutionRatingType
-      BeatmapObjectExecutionRatingType(int value_ = {}) : value{value_} {}
     }; // BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType
     // private BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType <beatmapObjectRatingType>k__BackingField
     // Offset: 0x10

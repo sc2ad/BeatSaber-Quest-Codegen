@@ -16,6 +16,12 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRComponentProperty
+    constexpr EVRComponentProperty(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.EVRComponentProperty IsStatic
     static constexpr const int IsStatic = 1;
     // Get static field: static public Valve.VR.EVRComponentProperty IsStatic
@@ -46,8 +52,6 @@ namespace Valve::VR {
     static Valve::VR::EVRComponentProperty _get_IsScrolled();
     // Set static field: static public Valve.VR.EVRComponentProperty IsScrolled
     static void _set_IsScrolled(Valve::VR::EVRComponentProperty value);
-    // Creating value type constructor for type: EVRComponentProperty
-    EVRComponentProperty(int value_ = {}) : value{value_} {}
   }; // Valve.VR.EVRComponentProperty
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

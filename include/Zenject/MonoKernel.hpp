@@ -39,6 +39,8 @@ namespace Zenject {
     // private System.Boolean _isDestroyed
     // Offset: 0x31
     bool isDestroyed;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Boolean get_IsDestroyed()
     // Offset: 0xFC4680
     bool get_IsDestroyed();

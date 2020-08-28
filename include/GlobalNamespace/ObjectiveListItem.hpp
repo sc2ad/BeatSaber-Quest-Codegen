@@ -26,6 +26,8 @@ namespace GlobalNamespace {
     // private TMPro.TextMeshProUGUI _conditionText
     // Offset: 0x20
     TMPro::TextMeshProUGUI* conditionText;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void set_title(System.String value)
     // Offset: 0xC32ED0
     void set_title(::Il2CppString* value);

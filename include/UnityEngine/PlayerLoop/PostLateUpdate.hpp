@@ -102,7 +102,7 @@ namespace UnityEngine::PlayerLoop {
     // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::TriggerEndOfFrameCallbacks
     struct TriggerEndOfFrameCallbacks;
     // Creating value type constructor for type: PostLateUpdate
-    PostLateUpdate() {}
+    constexpr PostLateUpdate() {}
   }; // UnityEngine.PlayerLoop.PostLateUpdate
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

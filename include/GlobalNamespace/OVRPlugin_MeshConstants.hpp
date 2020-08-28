@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: MeshConstants
+    constexpr MeshConstants(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRPlugin/MeshConstants MaxVertices
     static constexpr const int MaxVertices = 3000;
     // Get static field: static public OVRPlugin/MeshConstants MaxVertices
@@ -30,8 +36,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::MeshConstants _get_MaxIndices();
     // Set static field: static public OVRPlugin/MeshConstants MaxIndices
     static void _set_MaxIndices(GlobalNamespace::OVRPlugin::MeshConstants value);
-    // Creating value type constructor for type: MeshConstants
-    MeshConstants(int value_ = {}) : value{value_} {}
   }; // OVRPlugin/MeshConstants
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

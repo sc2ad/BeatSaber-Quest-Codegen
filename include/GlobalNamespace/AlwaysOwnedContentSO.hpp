@@ -28,6 +28,8 @@ namespace GlobalNamespace {
     // private BeatmapLevelSO[] _alwaysOwnedBeatmapLevels
     // Offset: 0x20
     ::Array<GlobalNamespace::BeatmapLevelSO*>* alwaysOwnedBeatmapLevels;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public BeatmapLevelPackSO[] get_alwaysOwnedPacks()
     // Offset: 0xB855E4
     ::Array<GlobalNamespace::BeatmapLevelPackSO*>* get_alwaysOwnedPacks();

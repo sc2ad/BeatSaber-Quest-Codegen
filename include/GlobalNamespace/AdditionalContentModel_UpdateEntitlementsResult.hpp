@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: UpdateEntitlementsResult
+    constexpr UpdateEntitlementsResult(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public AdditionalContentModel/UpdateEntitlementsResult OK
     static constexpr const int OK = 0;
     // Get static field: static public AdditionalContentModel/UpdateEntitlementsResult OK
@@ -30,8 +36,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult _get_Failed();
     // Set static field: static public AdditionalContentModel/UpdateEntitlementsResult Failed
     static void _set_Failed(GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult value);
-    // Creating value type constructor for type: UpdateEntitlementsResult
-    UpdateEntitlementsResult(int value_ = {}) : value{value_} {}
   }; // AdditionalContentModel/UpdateEntitlementsResult
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

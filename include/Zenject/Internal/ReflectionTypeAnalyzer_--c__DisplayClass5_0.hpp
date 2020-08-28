@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.Internal.ReflectionTypeAnalyzer
 #include "Zenject/Internal/ReflectionTypeAnalyzer.hpp"
+// Including type: Zenject.Internal.ReflectionTypeInfo
+#include "Zenject/Internal/ReflectionTypeInfo.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -28,6 +30,10 @@ namespace Zenject::Internal {
     // public System.Type type
     // Offset: 0x10
     System::Type* type;
+    // Creating conversion operator: operator System::Type*
+    constexpr operator System::Type*() const {
+      return type;
+    }
     // Zenject.Internal.ReflectionTypeInfo/InjectPropertyInfo <GetPropertyInfos>b__1(System.Reflection.PropertyInfo x)
     // Offset: 0xF413CC
     Zenject::Internal::ReflectionTypeInfo::InjectPropertyInfo* $GetPropertyInfos$b__1(System::Reflection::PropertyInfo* x);

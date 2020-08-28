@@ -16,6 +16,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ColorChangeUIEventType
+    constexpr ColorChangeUIEventType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public ColorChangeUIEventType Drag
     static constexpr const int Drag = 0;
     // Get static field: static public ColorChangeUIEventType Drag
@@ -28,8 +34,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::ColorChangeUIEventType _get_PointerUp();
     // Set static field: static public ColorChangeUIEventType PointerUp
     static void _set_PointerUp(GlobalNamespace::ColorChangeUIEventType value);
-    // Creating value type constructor for type: ColorChangeUIEventType
-    ColorChangeUIEventType(int value_ = {}) : value{value_} {}
   }; // ColorChangeUIEventType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -47,6 +47,10 @@ namespace GlobalNamespace {
     // private System.Action`1<LevelDataAssetDownloadUpdate> levelDataAssetDownloadUpdateEvent
     // Offset: 0x10
     System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>* levelDataAssetDownloadUpdateEvent;
+    // Creating conversion operator: operator System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>*
+    constexpr operator System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>*() const {
+      return levelDataAssetDownloadUpdateEvent;
+    }
     // public System.Void add_levelDataAssetDownloadUpdateEvent(System.Action`1<LevelDataAssetDownloadUpdate> value)
     // Offset: 0xBD0EE0
     // Implemented from: IBeatmapDataAssetFileModel

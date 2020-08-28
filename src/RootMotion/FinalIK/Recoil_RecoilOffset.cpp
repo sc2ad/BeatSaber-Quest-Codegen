@@ -9,6 +9,8 @@
 #include "RootMotion/FinalIK/Recoil_RecoilOffset_EffectorLink.hpp"
 // Including type: RootMotion.FinalIK.IKSolverFullBodyBiped
 #include "RootMotion/FinalIK/IKSolverFullBodyBiped.hpp"
+// Including type: UnityEngine.Quaternion
+#include "UnityEngine/Quaternion.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

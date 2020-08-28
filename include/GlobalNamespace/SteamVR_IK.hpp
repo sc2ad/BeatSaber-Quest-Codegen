@@ -51,6 +51,8 @@ namespace GlobalNamespace {
     // public UnityEngine.Transform endXform
     // Offset: 0x60
     UnityEngine::Transform* endXform;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private System.Void LateUpdate()
     // Offset: 0xD87654
     void LateUpdate();

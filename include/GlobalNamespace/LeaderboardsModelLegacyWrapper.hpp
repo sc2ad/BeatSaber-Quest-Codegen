@@ -40,6 +40,10 @@ namespace GlobalNamespace {
     // private OnlineServices.ILeaderboardsModel _leaderboardsModel
     // Offset: 0x10
     OnlineServices::ILeaderboardsModel* leaderboardsModel;
+    // Creating conversion operator: operator OnlineServices::ILeaderboardsModel*
+    constexpr operator OnlineServices::ILeaderboardsModel*() const {
+      return leaderboardsModel;
+    }
     // public System.Void .ctor(OnlineServices.ILeaderboardsModel leaderboardsModel)
     // Offset: 0xB482CC
     static LeaderboardsModelLegacyWrapper* New_ctor(OnlineServices::ILeaderboardsModel* leaderboardsModel);

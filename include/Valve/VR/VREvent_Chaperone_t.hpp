@@ -20,7 +20,7 @@ namespace Valve::VR {
     // Offset: 0x8
     uint64_t m_nCurrentUniverse;
     // Creating value type constructor for type: VREvent_Chaperone_t
-    VREvent_Chaperone_t(uint64_t m_nPreviousUniverse_ = {}, uint64_t m_nCurrentUniverse_ = {}) : m_nPreviousUniverse{m_nPreviousUniverse_}, m_nCurrentUniverse{m_nCurrentUniverse_} {}
+    constexpr VREvent_Chaperone_t(uint64_t m_nPreviousUniverse_ = {}, uint64_t m_nCurrentUniverse_ = {}) : m_nPreviousUniverse{m_nPreviousUniverse_}, m_nCurrentUniverse{m_nCurrentUniverse_} {}
   }; // Valve.VR.VREvent_Chaperone_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

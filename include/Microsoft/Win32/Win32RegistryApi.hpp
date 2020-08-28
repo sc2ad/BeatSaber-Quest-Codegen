@@ -37,6 +37,10 @@ namespace Microsoft::Win32 {
     // private readonly System.Int32 NativeBytesPerCharacter
     // Offset: 0x10
     int NativeBytesPerCharacter;
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return NativeBytesPerCharacter;
+    }
     // static private System.Int32 RegCloseKey(System.IntPtr keyHandle)
     // Offset: 0x10AF580
     static int RegCloseKey(System::IntPtr keyHandle);

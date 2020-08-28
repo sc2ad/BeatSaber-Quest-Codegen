@@ -32,6 +32,10 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> _numberOfNotesInLines
     // Offset: 0x10
     System::Collections::Generic::Dictionary_2<int, int>* numberOfNotesInLines;
+    // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<int, int>*
+    constexpr operator System::Collections::Generic::Dictionary_2<int, int>*() const {
+      return numberOfNotesInLines;
+    }
     // public System.Void ProcessBasicNotesInTimeRow(System.Collections.Generic.List`1<NoteData> basicNotes, System.Single nextBasicNoteTimeSlice)
     // Offset: 0xB946A4
     void ProcessBasicNotesInTimeRow(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* basicNotes, float nextBasicNoteTimeSlice);

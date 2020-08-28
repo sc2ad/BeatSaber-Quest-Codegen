@@ -37,6 +37,10 @@ namespace Zenject {
     // private readonly System.Func`2<Zenject.InjectContext,Zenject.DiContainer> _subcontainerGetter
     // Offset: 0x10
     System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>* subcontainerGetter;
+    // Creating conversion operator: operator System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>*
+    constexpr operator System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>*() const {
+      return subcontainerGetter;
+    }
     // public System.Void .ctor(System.Func`2<Zenject.InjectContext,Zenject.DiContainer> subcontainerGetter)
     // Offset: 0xFD11D4
     static SubContainerCreatorByInstanceGetter* New_ctor(System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>* subcontainerGetter);

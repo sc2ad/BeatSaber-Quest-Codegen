@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: RenderTextureReadWrite
+    constexpr RenderTextureReadWrite(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.RenderTextureReadWrite Default
     static constexpr const int Default = 0;
     // Get static field: static public UnityEngine.RenderTextureReadWrite Default
@@ -34,8 +40,6 @@ namespace UnityEngine {
     static UnityEngine::RenderTextureReadWrite _get_sRGB();
     // Set static field: static public UnityEngine.RenderTextureReadWrite sRGB
     static void _set_sRGB(UnityEngine::RenderTextureReadWrite value);
-    // Creating value type constructor for type: RenderTextureReadWrite
-    RenderTextureReadWrite(int value_ = {}) : value{value_} {}
   }; // UnityEngine.RenderTextureReadWrite
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

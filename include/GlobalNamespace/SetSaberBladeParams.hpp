@@ -41,6 +41,8 @@ namespace GlobalNamespace {
     // private ColorManager _colorManager
     // Offset: 0x30
     GlobalNamespace::ColorManager* colorManager;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xC2E12C
     void Start();

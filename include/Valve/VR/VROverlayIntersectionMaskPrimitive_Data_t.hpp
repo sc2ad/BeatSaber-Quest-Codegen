@@ -23,7 +23,7 @@ namespace Valve::VR {
     // Offset: 0x0
     Valve::VR::IntersectionMaskCircle_t m_Circle;
     // Creating value type constructor for type: VROverlayIntersectionMaskPrimitive_Data_t
-    VROverlayIntersectionMaskPrimitive_Data_t(Valve::VR::IntersectionMaskRectangle_t m_Rectangle_ = {}, Valve::VR::IntersectionMaskCircle_t m_Circle_ = {}) : m_Rectangle{m_Rectangle_}, m_Circle{m_Circle_} {}
+    constexpr VROverlayIntersectionMaskPrimitive_Data_t(Valve::VR::IntersectionMaskRectangle_t m_Rectangle_ = {}, Valve::VR::IntersectionMaskCircle_t m_Circle_ = {}) : m_Rectangle{m_Rectangle_}, m_Circle{m_Circle_} {}
   }; // Valve.VR.VROverlayIntersectionMaskPrimitive_Data_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

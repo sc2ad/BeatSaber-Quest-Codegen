@@ -38,6 +38,10 @@ namespace Zenject {
     // public System.Func`2<Zenject.InjectContext,TConcrete> method
     // Offset: 0x0
     System::Func_2<Zenject::InjectContext*, TConcrete>* method;
+    // Creating conversion operator: operator System::Func_2<Zenject::InjectContext*, TConcrete>*
+    constexpr operator System::Func_2<Zenject::InjectContext*, TConcrete>*() const {
+      return method;
+    }
     // Zenject.IProvider <FromMethodBase>b__0(Zenject.DiContainer container, System.Type type)
     // Offset: 0xFFFFFFFF
     Zenject::IProvider* $FromMethodBase$b__0(Zenject::DiContainer* container, System::Type* type) {

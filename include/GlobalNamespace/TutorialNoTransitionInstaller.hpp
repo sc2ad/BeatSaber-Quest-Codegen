@@ -28,6 +28,8 @@ namespace GlobalNamespace {
     // private TutorialScenesTransitionSetupDataSO _scenesTransitionSetupData
     // Offset: 0x18
     GlobalNamespace::TutorialScenesTransitionSetupDataSO* scenesTransitionSetupData;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public override System.Void InstallBindings(Zenject.DiContainer container)
     // Offset: 0xC48960
     // Implemented from: Zenject.NoTransitionInstaller

@@ -16,6 +16,12 @@ namespace UnityEngine::Playables {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: PlayState
+    constexpr PlayState(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Playables.PlayState Paused
     static constexpr const int Paused = 0;
     // Get static field: static public UnityEngine.Playables.PlayState Paused
@@ -34,8 +40,6 @@ namespace UnityEngine::Playables {
     static UnityEngine::Playables::PlayState _get_Delayed();
     // Set static field: static public UnityEngine.Playables.PlayState Delayed
     static void _set_Delayed(UnityEngine::Playables::PlayState value);
-    // Creating value type constructor for type: PlayState
-    PlayState(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Playables.PlayState
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -22,7 +22,7 @@ namespace Valve::VR {
     // Offset: 0x8
     Valve::VR::ETrackedDeviceProperty prop;
     // Creating value type constructor for type: VREvent_Property_t
-    VREvent_Property_t(uint64_t container_ = {}, Valve::VR::ETrackedDeviceProperty prop_ = {}) : container{container_}, prop{prop_} {}
+    constexpr VREvent_Property_t(uint64_t container_ = {}, Valve::VR::ETrackedDeviceProperty prop_ = {}) : container{container_}, prop{prop_} {}
   }; // Valve.VR.VREvent_Property_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,12 @@ namespace TMPro {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TextureMappingOptions
+    constexpr TextureMappingOptions(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public TMPro.TextureMappingOptions Character
     static constexpr const int Character = 0;
     // Get static field: static public TMPro.TextureMappingOptions Character
@@ -40,8 +46,6 @@ namespace TMPro {
     static TMPro::TextureMappingOptions _get_MatchAspect();
     // Set static field: static public TMPro.TextureMappingOptions MatchAspect
     static void _set_MatchAspect(TMPro::TextureMappingOptions value);
-    // Creating value type constructor for type: TextureMappingOptions
-    TextureMappingOptions(int value_ = {}) : value{value_} {}
   }; // TMPro.TextureMappingOptions
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

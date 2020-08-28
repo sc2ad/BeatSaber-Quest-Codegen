@@ -19,7 +19,7 @@ namespace NetEase::Docker {
     // Offset: 0x4
     int InitializeCode;
     // Creating value type constructor for type: InitializeData
-    InitializeData(bool InitializeSuccessful_ = {}, int InitializeCode_ = {}) : InitializeSuccessful{InitializeSuccessful_}, InitializeCode{InitializeCode_} {}
+    constexpr InitializeData(bool InitializeSuccessful_ = {}, int InitializeCode_ = {}) : InitializeSuccessful{InitializeSuccessful_}, InitializeCode{InitializeCode_} {}
     // public System.Boolean get_InitializeSuccessful()
     // Offset: 0xA605AC
     bool get_InitializeSuccessful();

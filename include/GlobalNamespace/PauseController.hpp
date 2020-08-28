@@ -78,6 +78,8 @@ namespace GlobalNamespace {
     // private System.Boolean _paused
     // Offset: 0x68
     bool paused;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void add_didPauseEvent(System.Action value)
     // Offset: 0xBD3B64
     void add_didPauseEvent(System::Action* value);

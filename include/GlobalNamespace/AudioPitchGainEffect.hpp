@@ -49,6 +49,8 @@ namespace GlobalNamespace {
     // private UnityEngine.AnimationCurve _gainCurve
     // Offset: 0x30
     UnityEngine::AnimationCurve* gainCurve;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private System.Collections.IEnumerator StartEffectCoroutine(System.Single volumeScale, System.Action finishCallback)
     // Offset: 0xB8A660
     System::Collections::IEnumerator* StartEffectCoroutine(float volumeScale, System::Action* finishCallback);

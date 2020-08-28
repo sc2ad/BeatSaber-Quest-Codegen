@@ -18,6 +18,12 @@ namespace HMUI {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: DeactivationType
+    constexpr DeactivationType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public HMUI.FlowCoordinator/DeactivationType RemovedFromHierarchy
     static constexpr const int RemovedFromHierarchy = 0;
     // Get static field: static public HMUI.FlowCoordinator/DeactivationType RemovedFromHierarchy
@@ -30,8 +36,6 @@ namespace HMUI {
     static HMUI::FlowCoordinator::DeactivationType _get_NotRemovedFromHierarchy();
     // Set static field: static public HMUI.FlowCoordinator/DeactivationType NotRemovedFromHierarchy
     static void _set_NotRemovedFromHierarchy(HMUI::FlowCoordinator::DeactivationType value);
-    // Creating value type constructor for type: DeactivationType
-    DeactivationType(int value_ = {}) : value{value_} {}
   }; // HMUI.FlowCoordinator/DeactivationType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

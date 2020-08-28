@@ -16,6 +16,10 @@ namespace GlobalNamespace {
     // public readonly System.Boolean showDebris
     // Offset: 0x10
     bool showDebris;
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return showDebris;
+    }
     // public System.Void .ctor(System.Boolean showDebris)
     // Offset: 0x1911A80
     static MainCameraCullingMask::InitData* New_ctor(bool showDebris);

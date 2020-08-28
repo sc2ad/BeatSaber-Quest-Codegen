@@ -40,12 +40,12 @@ namespace UnityEngine::ProBuilder {
     // public System.Int32 b
     // Offset: 0x4
     int b;
+    // Creating value type constructor for type: Edge
+    constexpr Edge(int a_ = {}, int b_ = {}) : a{a_}, b{b_} {}
     // Get static field: static public readonly UnityEngine.ProBuilder.Edge Empty
     static UnityEngine::ProBuilder::Edge _get_Empty();
     // Set static field: static public readonly UnityEngine.ProBuilder.Edge Empty
     static void _set_Empty(UnityEngine::ProBuilder::Edge value);
-    // Creating value type constructor for type: Edge
-    Edge(int a_ = {}, int b_ = {}) : a{a_}, b{b_} {}
     // public System.Void .ctor(System.Int32 a, System.Int32 b)
     // Offset: 0xA3CAD4
     static Edge* New_ctor(int a, int b);

@@ -16,6 +16,12 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRInitError
+    constexpr EVRInitError(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.EVRInitError None
     static constexpr const int None = 0;
     // Get static field: static public Valve.VR.EVRInitError None
@@ -532,8 +538,6 @@ namespace Valve::VR {
     static Valve::VR::EVRInitError _get_Steam_SteamInstallationNotFound();
     // Set static field: static public Valve.VR.EVRInitError Steam_SteamInstallationNotFound
     static void _set_Steam_SteamInstallationNotFound(Valve::VR::EVRInitError value);
-    // Creating value type constructor for type: EVRInitError
-    EVRInitError(int value_ = {}) : value{value_} {}
   }; // Valve.VR.EVRInitError
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

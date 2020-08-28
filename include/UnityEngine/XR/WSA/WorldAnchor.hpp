@@ -23,6 +23,8 @@ namespace UnityEngine::XR::WSA {
     // private UnityEngine.XR.WSA.WorldAnchor/OnTrackingChangedDelegate OnTrackingChanged
     // Offset: 0x18
     UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate* OnTrackingChanged;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static private System.Void Internal_TriggerEventOnTrackingLost(UnityEngine.XR.WSA.WorldAnchor worldAnchor, System.Boolean located)
     // Offset: 0x197E0C0
     static void Internal_TriggerEventOnTrackingLost(UnityEngine::XR::WSA::WorldAnchor* worldAnchor, bool located);

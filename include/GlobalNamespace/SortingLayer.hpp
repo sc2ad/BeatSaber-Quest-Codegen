@@ -23,6 +23,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Renderer _renderer
     // Offset: 0x18
     UnityEngine::Renderer* renderer;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public UnityEngine.Renderer get_renderer()
     // Offset: 0xCBDA1C
     UnityEngine::Renderer* get_renderer();

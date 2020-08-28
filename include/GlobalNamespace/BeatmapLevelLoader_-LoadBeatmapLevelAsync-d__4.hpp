@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: BeatmapLevelLoader
 #include "GlobalNamespace/BeatmapLevelLoader.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: System.Runtime.CompilerServices.IAsyncStateMachine
 #include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
 // Including type: System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1
@@ -60,7 +62,7 @@ namespace GlobalNamespace {
     // Offset: 0x50
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IBeatmapLevel*> $$u__3;
     // Creating value type constructor for type: $LoadBeatmapLevelAsync$d__4
-    $LoadBeatmapLevelAsync$d__4(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult> $$t__builder_ = {}, GlobalNamespace::BeatmapLevelLoader* $$4__this_ = {}, GlobalNamespace::IPreviewBeatmapLevel* previewLevel_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, GlobalNamespace::IBeatmapLevel* $level$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::GetAssetBundleFileResult> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<bool> $$u__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IBeatmapLevel*> $$u__3_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, previewLevel{previewLevel_}, cancellationToken{cancellationToken_}, $level$5__2{$level$5__2_}, $$u__1{$$u__1_}, $$u__2{$$u__2_}, $$u__3{$$u__3_} {}
+    constexpr $LoadBeatmapLevelAsync$d__4(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult> $$t__builder_ = {}, GlobalNamespace::BeatmapLevelLoader* $$4__this_ = {}, GlobalNamespace::IPreviewBeatmapLevel* previewLevel_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, GlobalNamespace::IBeatmapLevel* $level$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::GetAssetBundleFileResult> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<bool> $$u__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IBeatmapLevel*> $$u__3_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, previewLevel{previewLevel_}, cancellationToken{cancellationToken_}, $level$5__2{$level$5__2_}, $$u__1{$$u__1_}, $$u__2{$$u__2_}, $$u__3{$$u__3_} {}
     // private System.Void MoveNext()
     // Offset: 0xA2BB7C
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine

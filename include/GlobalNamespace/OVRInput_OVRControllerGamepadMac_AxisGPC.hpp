@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: AxisGPC
+    constexpr AxisGPC(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRInput/OVRControllerGamepadMac/AxisGPC None
     static constexpr const int None = -1;
     // Get static field: static public OVRInput/OVRControllerGamepadMac/AxisGPC None
@@ -78,8 +84,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRInput::OVRControllerGamepadMac::AxisGPC _get_Max();
     // Set static field: static public OVRInput/OVRControllerGamepadMac/AxisGPC Max
     static void _set_Max(GlobalNamespace::OVRInput::OVRControllerGamepadMac::AxisGPC value);
-    // Creating value type constructor for type: AxisGPC
-    AxisGPC(int value_ = {}) : value{value_} {}
   }; // OVRInput/OVRControllerGamepadMac/AxisGPC
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

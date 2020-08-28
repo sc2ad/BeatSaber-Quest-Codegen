@@ -25,6 +25,10 @@ namespace GlobalNamespace {
     // private CustomPreviewBeatmapLevel[] _customPreviewBeatmapLevels
     // Offset: 0x10
     ::Array<GlobalNamespace::CustomPreviewBeatmapLevel*>* customPreviewBeatmapLevels;
+    // Creating conversion operator: operator ::Array<GlobalNamespace::CustomPreviewBeatmapLevel*>*
+    constexpr operator ::Array<GlobalNamespace::CustomPreviewBeatmapLevel*>*() const {
+      return customPreviewBeatmapLevels;
+    }
     // public System.Void .ctor(CustomPreviewBeatmapLevel[] customPreviewBeatmapLevels)
     // Offset: 0xBE36C8
     static CustomBeatmapLevelCollection* New_ctor(::Array<GlobalNamespace::CustomPreviewBeatmapLevel*>* customPreviewBeatmapLevels);

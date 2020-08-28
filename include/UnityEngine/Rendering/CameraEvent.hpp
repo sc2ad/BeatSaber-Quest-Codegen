@@ -16,6 +16,12 @@ namespace UnityEngine::Rendering {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: CameraEvent
+    constexpr CameraEvent(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Rendering.CameraEvent BeforeDepthTexture
     static constexpr const int BeforeDepthTexture = 0;
     // Get static field: static public UnityEngine.Rendering.CameraEvent BeforeDepthTexture
@@ -166,8 +172,6 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::CameraEvent _get_AfterHaloAndLensFlares();
     // Set static field: static public UnityEngine.Rendering.CameraEvent AfterHaloAndLensFlares
     static void _set_AfterHaloAndLensFlares(UnityEngine::Rendering::CameraEvent value);
-    // Creating value type constructor for type: CameraEvent
-    CameraEvent(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Rendering.CameraEvent
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -23,6 +23,10 @@ namespace UnityEngine::Timeline {
     // public System.String name
     // Offset: 0x10
     ::Il2CppString* name;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return name;
+    }
     // System.Boolean <GenerateUniqueActorName>b__0(UnityEngine.ScriptableObject x)
     // Offset: 0x1906878
     bool $GenerateUniqueActorName$b__0(UnityEngine::ScriptableObject* x);

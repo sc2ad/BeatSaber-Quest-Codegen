@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Node
+    constexpr Node(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRBoundary/Node HandLeft
     static constexpr const int HandLeft = 3;
     // Get static field: static public OVRBoundary/Node HandLeft
@@ -36,8 +42,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRBoundary::Node _get_Head();
     // Set static field: static public OVRBoundary/Node Head
     static void _set_Head(GlobalNamespace::OVRBoundary::Node value);
-    // Creating value type constructor for type: Node
-    Node(int value_ = {}) : value{value_} {}
   }; // OVRBoundary/Node
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

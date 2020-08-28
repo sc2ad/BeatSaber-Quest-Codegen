@@ -16,6 +16,12 @@ namespace System::Reflection {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: AssemblyNameFlags
+    constexpr AssemblyNameFlags(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Reflection.AssemblyNameFlags None
     static constexpr const int None = 0;
     // Get static field: static public System.Reflection.AssemblyNameFlags None
@@ -46,8 +52,6 @@ namespace System::Reflection {
     static System::Reflection::AssemblyNameFlags _get_Retargetable();
     // Set static field: static public System.Reflection.AssemblyNameFlags Retargetable
     static void _set_Retargetable(System::Reflection::AssemblyNameFlags value);
-    // Creating value type constructor for type: AssemblyNameFlags
-    AssemblyNameFlags(int value_ = {}) : value{value_} {}
   }; // System.Reflection.AssemblyNameFlags
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,12 @@ namespace NUnit::Framework::Constraints {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ConstraintStatus
+    constexpr ConstraintStatus(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public NUnit.Framework.Constraints.ConstraintStatus Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public NUnit.Framework.Constraints.ConstraintStatus Unknown
@@ -40,8 +46,6 @@ namespace NUnit::Framework::Constraints {
     static NUnit::Framework::Constraints::ConstraintStatus _get_Error();
     // Set static field: static public NUnit.Framework.Constraints.ConstraintStatus Error
     static void _set_Error(NUnit::Framework::Constraints::ConstraintStatus value);
-    // Creating value type constructor for type: ConstraintStatus
-    ConstraintStatus(int value_ = {}) : value{value_} {}
   }; // NUnit.Framework.Constraints.ConstraintStatus
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

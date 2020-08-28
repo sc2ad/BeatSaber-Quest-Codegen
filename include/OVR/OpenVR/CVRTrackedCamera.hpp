@@ -38,6 +38,10 @@ namespace OVR::OpenVR {
     // private OVR.OpenVR.IVRTrackedCamera FnTable
     // Offset: 0x10
     OVR::OpenVR::IVRTrackedCamera FnTable;
+    // Creating conversion operator: operator OVR::OpenVR::IVRTrackedCamera
+    constexpr operator OVR::OpenVR::IVRTrackedCamera() const {
+      return FnTable;
+    }
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0xED3180
     static CVRTrackedCamera* New_ctor(System::IntPtr pInterface);

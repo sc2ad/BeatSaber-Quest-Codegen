@@ -21,7 +21,7 @@ namespace System {
     // Offset: 0x8
     System::IntPtr pRecInfo;
     // Creating value type constructor for type: BRECORD
-    BRECORD(System::IntPtr pvRecord_ = {}, System::IntPtr pRecInfo_ = {}) : pvRecord{pvRecord_}, pRecInfo{pRecInfo_} {}
+    constexpr BRECORD(System::IntPtr pvRecord_ = {}, System::IntPtr pRecInfo_ = {}) : pvRecord{pvRecord_}, pRecInfo{pRecInfo_} {}
   }; // System.BRECORD
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,12 @@ namespace TMPro {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: FontFeatureLookupFlags
+    constexpr FontFeatureLookupFlags(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public TMPro.FontFeatureLookupFlags IgnoreLigatures
     static constexpr const int IgnoreLigatures = 4;
     // Get static field: static public TMPro.FontFeatureLookupFlags IgnoreLigatures
@@ -28,8 +34,6 @@ namespace TMPro {
     static TMPro::FontFeatureLookupFlags _get_IgnoreSpacingAdjustments();
     // Set static field: static public TMPro.FontFeatureLookupFlags IgnoreSpacingAdjustments
     static void _set_IgnoreSpacingAdjustments(TMPro::FontFeatureLookupFlags value);
-    // Creating value type constructor for type: FontFeatureLookupFlags
-    FontFeatureLookupFlags(int value_ = {}) : value{value_} {}
   }; // TMPro.FontFeatureLookupFlags
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

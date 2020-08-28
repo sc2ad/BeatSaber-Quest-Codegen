@@ -16,6 +16,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: BeatmapDifficulty
+    constexpr BeatmapDifficulty(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public BeatmapDifficulty Easy
     static constexpr const int Easy = 0;
     // Get static field: static public BeatmapDifficulty Easy
@@ -46,8 +52,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::BeatmapDifficulty _get_ExpertPlus();
     // Set static field: static public BeatmapDifficulty ExpertPlus
     static void _set_ExpertPlus(GlobalNamespace::BeatmapDifficulty value);
-    // Creating value type constructor for type: BeatmapDifficulty
-    BeatmapDifficulty(int value_ = {}) : value{value_} {}
   }; // BeatmapDifficulty
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

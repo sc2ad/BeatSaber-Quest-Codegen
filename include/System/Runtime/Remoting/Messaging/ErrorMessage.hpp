@@ -33,6 +33,10 @@ namespace System::Runtime::Remoting::Messaging {
     // private System.String _uri
     // Offset: 0x10
     ::Il2CppString* uri;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return uri;
+    }
     // public System.Void .ctor()
     // Offset: 0x1059AAC
     // Implemented from: System.Object

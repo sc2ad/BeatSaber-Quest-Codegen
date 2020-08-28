@@ -83,6 +83,10 @@ namespace Valve::VR {
     // private Valve.VR.IVRSystem FnTable
     // Offset: 0x10
     Valve::VR::IVRSystem FnTable;
+    // Creating conversion operator: operator Valve::VR::IVRSystem
+    constexpr operator Valve::VR::IVRSystem() const {
+      return FnTable;
+    }
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0xFE7DE8
     static CVRSystem* New_ctor(System::IntPtr pInterface);

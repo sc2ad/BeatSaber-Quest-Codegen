@@ -16,6 +16,12 @@ namespace TMPro {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Compute_DistanceTransform_EventTypes
+    constexpr Compute_DistanceTransform_EventTypes(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public TMPro.Compute_DistanceTransform_EventTypes Processing
     static constexpr const int Processing = 0;
     // Get static field: static public TMPro.Compute_DistanceTransform_EventTypes Processing
@@ -28,8 +34,6 @@ namespace TMPro {
     static TMPro::Compute_DistanceTransform_EventTypes _get_Completed();
     // Set static field: static public TMPro.Compute_DistanceTransform_EventTypes Completed
     static void _set_Completed(TMPro::Compute_DistanceTransform_EventTypes value);
-    // Creating value type constructor for type: Compute_DistanceTransform_EventTypes
-    Compute_DistanceTransform_EventTypes(int value_ = {}) : value{value_} {}
   }; // TMPro.Compute_DistanceTransform_EventTypes
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -53,6 +53,10 @@ namespace OVR::OpenVR {
     // private OVR.OpenVR.IVRCompositor FnTable
     // Offset: 0x10
     OVR::OpenVR::IVRCompositor FnTable;
+    // Creating conversion operator: operator OVR::OpenVR::IVRCompositor
+    constexpr operator OVR::OpenVR::IVRCompositor() const {
+      return FnTable;
+    }
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0xECE718
     static CVRCompositor* New_ctor(System::IntPtr pInterface);

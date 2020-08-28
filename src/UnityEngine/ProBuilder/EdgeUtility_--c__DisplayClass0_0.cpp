@@ -7,6 +7,8 @@
 #include "UnityEngine/ProBuilder/EdgeUtility_--c__DisplayClass0_0.hpp"
 // Including type: UnityEngine.ProBuilder.ProBuilderMesh
 #include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
+// Including type: UnityEngine.ProBuilder.Edge
+#include "UnityEngine/ProBuilder/Edge.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

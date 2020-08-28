@@ -32,12 +32,16 @@ namespace UnityEngine::Animations {
     // private UnityEngine.Playables.PlayableHandle m_Handle
     // Offset: 0x0
     UnityEngine::Playables::PlayableHandle m_Handle;
+    // Creating value type constructor for type: AnimationRemoveScalePlayable
+    constexpr AnimationRemoveScalePlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
+    // Creating conversion operator: operator UnityEngine::Playables::PlayableHandle
+    constexpr operator UnityEngine::Playables::PlayableHandle() const {
+      return m_Handle;
+    }
     // Get static field: static private readonly UnityEngine.Animations.AnimationRemoveScalePlayable m_NullPlayable
     static UnityEngine::Animations::AnimationRemoveScalePlayable _get_m_NullPlayable();
     // Set static field: static private readonly UnityEngine.Animations.AnimationRemoveScalePlayable m_NullPlayable
     static void _set_m_NullPlayable(UnityEngine::Animations::AnimationRemoveScalePlayable value);
-    // Creating value type constructor for type: AnimationRemoveScalePlayable
-    AnimationRemoveScalePlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // static public UnityEngine.Animations.AnimationRemoveScalePlayable Create(UnityEngine.Playables.PlayableGraph graph, System.Int32 inputCount)
     // Offset: 0x194021C
     static UnityEngine::Animations::AnimationRemoveScalePlayable Create(UnityEngine::Playables::PlayableGraph graph, int inputCount);

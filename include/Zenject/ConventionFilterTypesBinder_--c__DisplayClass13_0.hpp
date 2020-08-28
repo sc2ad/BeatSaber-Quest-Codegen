@@ -29,6 +29,10 @@ namespace Zenject {
     // public System.Collections.Generic.IEnumerable`1<System.String> namespaces
     // Offset: 0x10
     System::Collections::Generic::IEnumerable_1<::Il2CppString*>* namespaces;
+    // Creating conversion operator: operator System::Collections::Generic::IEnumerable_1<::Il2CppString*>*
+    constexpr operator System::Collections::Generic::IEnumerable_1<::Il2CppString*>*() const {
+      return namespaces;
+    }
     // System.Boolean <InNamespaces>b__0(System.Type t)
     // Offset: 0xD700C4
     bool $InNamespaces$b__0(System::Type* t);

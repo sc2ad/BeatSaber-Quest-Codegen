@@ -16,6 +16,12 @@ namespace System::Runtime::InteropServices {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ClassInterfaceType
+    constexpr ClassInterfaceType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Runtime.InteropServices.ClassInterfaceType None
     static constexpr const int None = 0;
     // Get static field: static public System.Runtime.InteropServices.ClassInterfaceType None
@@ -34,8 +40,6 @@ namespace System::Runtime::InteropServices {
     static System::Runtime::InteropServices::ClassInterfaceType _get_AutoDual();
     // Set static field: static public System.Runtime.InteropServices.ClassInterfaceType AutoDual
     static void _set_AutoDual(System::Runtime::InteropServices::ClassInterfaceType value);
-    // Creating value type constructor for type: ClassInterfaceType
-    ClassInterfaceType(int value_ = {}) : value{value_} {}
   }; // System.Runtime.InteropServices.ClassInterfaceType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

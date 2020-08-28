@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.IO.FileSystemWatcher
 #include "System/IO/FileSystemWatcher.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: System.IO
 namespace System::IO {
@@ -16,6 +18,12 @@ namespace System::IO {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EventType
+    constexpr EventType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.IO.FileSystemWatcher/EventType FileSystemEvent
     static constexpr const int FileSystemEvent = 0;
     // Get static field: static public System.IO.FileSystemWatcher/EventType FileSystemEvent
@@ -34,8 +42,6 @@ namespace System::IO {
     static System::IO::FileSystemWatcher::EventType _get_RenameEvent();
     // Set static field: static public System.IO.FileSystemWatcher/EventType RenameEvent
     static void _set_RenameEvent(System::IO::FileSystemWatcher::EventType value);
-    // Creating value type constructor for type: EventType
-    EventType(int value_ = {}) : value{value_} {}
   }; // System.IO.FileSystemWatcher/EventType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

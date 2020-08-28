@@ -16,6 +16,10 @@ namespace UnityEngine::ProBuilder {
     // public System.String valid
     // Offset: 0x10
     ::Il2CppString* valid;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return valid;
+    }
     // System.Boolean <TryParseColor>b__0(System.Char c)
     // Offset: 0xF9ECE4
     bool $TryParseColor$b__0(::Il2CppChar c);

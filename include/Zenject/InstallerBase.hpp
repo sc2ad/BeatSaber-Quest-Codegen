@@ -23,6 +23,10 @@ namespace Zenject {
     // private Zenject.DiContainer _container
     // Offset: 0x10
     Zenject::DiContainer* container;
+    // Creating conversion operator: operator Zenject::DiContainer*
+    constexpr operator Zenject::DiContainer*() const {
+      return container;
+    }
     // protected Zenject.DiContainer get_Container()
     // Offset: 0xF3E450
     Zenject::DiContainer* get_Container();

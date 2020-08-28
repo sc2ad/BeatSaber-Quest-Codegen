@@ -31,7 +31,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x1C
     UnityEngine::Vector3 bitangent;
     // Creating value type constructor for type: Normal
-    Normal(UnityEngine::Vector3 normal_ = {}, UnityEngine::Vector4 tangent_ = {}, UnityEngine::Vector3 bitangent_ = {}) : normal{normal_}, tangent{tangent_}, bitangent{bitangent_} {}
+    constexpr Normal(UnityEngine::Vector3 normal_ = {}, UnityEngine::Vector4 tangent_ = {}, UnityEngine::Vector3 bitangent_ = {}) : normal{normal_}, tangent{tangent_}, bitangent{bitangent_} {}
     // public UnityEngine.Vector3 get_normal()
     // Offset: 0xA3FF70
     UnityEngine::Vector3 get_normal();

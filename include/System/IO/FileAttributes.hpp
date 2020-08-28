@@ -16,6 +16,12 @@ namespace System::IO {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: FileAttributes
+    constexpr FileAttributes(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.IO.FileAttributes Archive
     static constexpr const int Archive = 32;
     // Get static field: static public System.IO.FileAttributes Archive
@@ -112,8 +118,6 @@ namespace System::IO {
     static System::IO::FileAttributes _get_NoScrubData();
     // Set static field: static public System.IO.FileAttributes NoScrubData
     static void _set_NoScrubData(System::IO::FileAttributes value);
-    // Creating value type constructor for type: FileAttributes
-    FileAttributes(int value_ = {}) : value{value_} {}
   }; // System.IO.FileAttributes
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.Callback
 #include "Oculus/Platform/Callback.hpp"
+// Including type: Oculus.Platform.Message
+#include "Oculus/Platform/Message.hpp"
 // Completed includes
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
@@ -16,6 +18,10 @@ namespace Oculus::Platform {
     // private Oculus.Platform.Message/Callback messageCallback
     // Offset: 0x10
     Oculus::Platform::Message::Callback* messageCallback;
+    // Creating conversion operator: operator Oculus::Platform::Message::Callback*
+    constexpr operator Oculus::Platform::Message::Callback*() const {
+      return messageCallback;
+    }
     // public System.Void .ctor(Oculus.Platform.Message/Callback callback)
     // Offset: 0xE97514
     static Callback::RequestCallback* New_ctor(Oculus::Platform::Message::Callback* callback);

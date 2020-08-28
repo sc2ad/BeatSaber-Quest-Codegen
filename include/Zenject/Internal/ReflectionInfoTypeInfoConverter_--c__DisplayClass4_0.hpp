@@ -23,6 +23,10 @@ namespace Zenject::Internal {
     // public System.Type type
     // Offset: 0x10
     System::Type* type;
+    // Creating conversion operator: operator System::Type*
+    constexpr operator System::Type*() const {
+      return type;
+    }
     // System.Object <TryCreateFactoryMethod>b__0(System.Object[] args)
     // Offset: 0xF3F5F0
     ::Il2CppObject* $TryCreateFactoryMethod$b__0(::Array<::Il2CppObject*>* args);

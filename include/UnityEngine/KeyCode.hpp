@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: KeyCode
+    constexpr KeyCode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.KeyCode None
     static constexpr const int None = 0;
     // Get static field: static public UnityEngine.KeyCode None
@@ -1972,8 +1978,6 @@ namespace UnityEngine {
     static UnityEngine::KeyCode _get_Joystick8Button19();
     // Set static field: static public UnityEngine.KeyCode Joystick8Button19
     static void _set_Joystick8Button19(UnityEngine::KeyCode value);
-    // Creating value type constructor for type: KeyCode
-    KeyCode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.KeyCode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

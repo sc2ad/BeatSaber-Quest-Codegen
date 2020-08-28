@@ -18,7 +18,8 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Skipping declaration: Vector2 because it is already included!
+  // Forward declaring type: Vector2
+  struct Vector2;
 }
 // Completed forward declares
 // Type namespace: UnityEngine.ProBuilder.MeshOperations
@@ -29,6 +30,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // public System.Int32 index
     // Offset: 0x10
     int index;
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return index;
+    }
     // UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint <Triangulate>b__0(UnityEngine.Vector2 x)
     // Offset: 0x1026E24
     UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* $Triangulate$b__0(UnityEngine::Vector2 x);

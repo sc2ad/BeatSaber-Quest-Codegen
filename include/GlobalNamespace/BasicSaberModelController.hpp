@@ -60,6 +60,8 @@ namespace GlobalNamespace {
     // private ColorManager _colorManager
     // Offset: 0x40
     GlobalNamespace::ColorManager* colorManager;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void Init(UnityEngine.Transform parent, SaberType saberType)
     // Offset: 0xB8BFDC
     // Implemented from: ISaberModelController

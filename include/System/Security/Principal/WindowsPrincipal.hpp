@@ -23,6 +23,10 @@ namespace System::Security::Principal {
     // private System.Security.Principal.WindowsIdentity _identity
     // Offset: 0x28
     System::Security::Principal::WindowsIdentity* identity;
+    // Creating conversion operator: operator System::Security::Principal::WindowsIdentity*
+    constexpr operator System::Security::Principal::WindowsIdentity*() const {
+      return identity;
+    }
     // public System.Void .ctor(System.Security.Principal.WindowsIdentity ntIdentity)
     // Offset: 0xDEF3EC
     static WindowsPrincipal* New_ctor(System::Security::Principal::WindowsIdentity* ntIdentity);

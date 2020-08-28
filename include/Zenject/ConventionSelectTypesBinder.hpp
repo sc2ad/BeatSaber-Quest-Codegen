@@ -25,6 +25,10 @@ namespace Zenject {
     // private readonly Zenject.ConventionBindInfo _bindInfo
     // Offset: 0x10
     Zenject::ConventionBindInfo* bindInfo;
+    // Creating conversion operator: operator Zenject::ConventionBindInfo*
+    constexpr operator Zenject::ConventionBindInfo*() const {
+      return bindInfo;
+    }
     // public System.Void .ctor(Zenject.ConventionBindInfo bindInfo)
     // Offset: 0xD6C9DC
     static ConventionSelectTypesBinder* New_ctor(Zenject::ConventionBindInfo* bindInfo);

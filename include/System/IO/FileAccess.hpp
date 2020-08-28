@@ -16,6 +16,12 @@ namespace System::IO {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: FileAccess
+    constexpr FileAccess(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.IO.FileAccess Read
     static constexpr const int Read = 1;
     // Get static field: static public System.IO.FileAccess Read
@@ -34,8 +40,6 @@ namespace System::IO {
     static System::IO::FileAccess _get_ReadWrite();
     // Set static field: static public System.IO.FileAccess ReadWrite
     static void _set_ReadWrite(System::IO::FileAccess value);
-    // Creating value type constructor for type: FileAccess
-    FileAccess(int value_ = {}) : value{value_} {}
   }; // System.IO.FileAccess
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

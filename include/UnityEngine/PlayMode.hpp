@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: PlayMode
+    constexpr PlayMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.PlayMode StopSameLayer
     static constexpr const int StopSameLayer = 0;
     // Get static field: static public UnityEngine.PlayMode StopSameLayer
@@ -28,8 +34,6 @@ namespace UnityEngine {
     static UnityEngine::PlayMode _get_StopAll();
     // Set static field: static public UnityEngine.PlayMode StopAll
     static void _set_StopAll(UnityEngine::PlayMode value);
-    // Creating value type constructor for type: PlayMode
-    PlayMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.PlayMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -31,6 +31,10 @@ namespace UnityEngine {
     // System.IntPtr m_Ptr
     // Offset: 0x10
     System::IntPtr m_Ptr;
+    // Creating conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const {
+      return m_Ptr;
+    }
     // Get static field: static private UnityEngine.Event s_Current
     static UnityEngine::Event* _get_s_Current();
     // Set static field: static private UnityEngine.Event s_Current

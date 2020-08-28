@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EColorSpace
+    constexpr EColorSpace(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.EColorSpace Auto
     static constexpr const int Auto = 0;
     // Get static field: static public OVR.OpenVR.EColorSpace Auto
@@ -34,8 +40,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EColorSpace _get_Linear();
     // Set static field: static public OVR.OpenVR.EColorSpace Linear
     static void _set_Linear(OVR::OpenVR::EColorSpace value);
-    // Creating value type constructor for type: EColorSpace
-    EColorSpace(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EColorSpace
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

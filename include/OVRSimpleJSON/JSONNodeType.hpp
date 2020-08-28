@@ -16,6 +16,12 @@ namespace OVRSimpleJSON {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: JSONNodeType
+    constexpr JSONNodeType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRSimpleJSON.JSONNodeType Array
     static constexpr const int Array = 1;
     // Get static field: static public OVRSimpleJSON.JSONNodeType Array
@@ -64,8 +70,6 @@ namespace OVRSimpleJSON {
     static OVRSimpleJSON::JSONNodeType _get_Custom();
     // Set static field: static public OVRSimpleJSON.JSONNodeType Custom
     static void _set_Custom(OVRSimpleJSON::JSONNodeType value);
-    // Creating value type constructor for type: JSONNodeType
-    JSONNodeType(int value_ = {}) : value{value_} {}
   }; // OVRSimpleJSON.JSONNodeType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

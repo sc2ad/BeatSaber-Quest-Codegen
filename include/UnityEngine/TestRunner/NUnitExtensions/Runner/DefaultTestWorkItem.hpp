@@ -43,6 +43,10 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // private NUnit.Framework.Internal.Commands.TestCommand _command
     // Offset: 0x58
     NUnit::Framework::Internal::Commands::TestCommand* command;
+    // Creating conversion operator: operator NUnit::Framework::Internal::Commands::TestCommand*
+    constexpr operator NUnit::Framework::Internal::Commands::TestCommand*() const {
+      return command;
+    }
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod test, NUnit.Framework.Interfaces.ITestFilter filter)
     // Offset: 0xE357DC
     static DefaultTestWorkItem* New_ctor(NUnit::Framework::Internal::TestMethod* test, NUnit::Framework::Interfaces::ITestFilter* filter);

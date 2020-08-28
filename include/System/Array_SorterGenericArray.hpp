@@ -32,7 +32,7 @@ namespace System {
     // Offset: 0x10
     System::Collections::IComparer* comparer;
     // Creating value type constructor for type: SorterGenericArray
-    SorterGenericArray(System::Array* keys_ = {}, System::Array* items_ = {}, System::Collections::IComparer* comparer_ = {}) : keys{keys_}, items{items_}, comparer{comparer_} {}
+    constexpr SorterGenericArray(System::Array* keys_ = {}, System::Array* items_ = {}, System::Collections::IComparer* comparer_ = {}) : keys{keys_}, items{items_}, comparer{comparer_} {}
     // System.Void .ctor(System.Array keys, System.Array items, System.Collections.IComparer comparer)
     // Offset: 0xA460B8
     static Array::SorterGenericArray* New_ctor(System::Array* keys, System::Array* items, System::Collections::IComparer* comparer);

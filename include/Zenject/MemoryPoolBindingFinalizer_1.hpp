@@ -35,6 +35,8 @@ namespace Zenject {
     // private readonly Zenject.FactoryBindInfo _factoryBindInfo
     // Offset: 0x0
     Zenject::FactoryBindInfo* factoryBindInfo;
+    // Deleting conversion operator: operator Zenject::BindInfo*
+    constexpr operator Zenject::BindInfo*() const = delete;
     // public System.Void .ctor(Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, Zenject.MemoryPoolBindInfo poolBindInfo)
     // Offset: 0xFFFFFFFF
     static MemoryPoolBindingFinalizer_1<TContract>* New_ctor(Zenject::BindInfo* bindInfo, Zenject::FactoryBindInfo* factoryBindInfo, Zenject::MemoryPoolBindInfo* poolBindInfo) {

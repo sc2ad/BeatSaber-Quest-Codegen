@@ -23,6 +23,10 @@ namespace System {
     // private System.Reflection.Assembly m_loadedAssembly
     // Offset: 0x10
     System::Reflection::Assembly* m_loadedAssembly;
+    // Creating conversion operator: operator System::Reflection::Assembly*
+    constexpr operator System::Reflection::Assembly*() const {
+      return m_loadedAssembly;
+    }
     // public System.Void .ctor(System.Reflection.Assembly loadedAssembly)
     // Offset: 0x1330620
     static AssemblyLoadEventArgs* New_ctor(System::Reflection::Assembly* loadedAssembly);

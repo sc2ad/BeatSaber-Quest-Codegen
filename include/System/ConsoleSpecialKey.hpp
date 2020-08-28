@@ -16,6 +16,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ConsoleSpecialKey
+    constexpr ConsoleSpecialKey(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.ConsoleSpecialKey ControlC
     static constexpr const int ControlC = 0;
     // Get static field: static public System.ConsoleSpecialKey ControlC
@@ -28,8 +34,6 @@ namespace System {
     static System::ConsoleSpecialKey _get_ControlBreak();
     // Set static field: static public System.ConsoleSpecialKey ControlBreak
     static void _set_ControlBreak(System::ConsoleSpecialKey value);
-    // Creating value type constructor for type: ConsoleSpecialKey
-    ConsoleSpecialKey(int value_ = {}) : value{value_} {}
   }; // System.ConsoleSpecialKey
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

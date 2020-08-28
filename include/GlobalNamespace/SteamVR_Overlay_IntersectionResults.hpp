@@ -7,6 +7,12 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: SteamVR_Overlay
 #include "GlobalNamespace/SteamVR_Overlay.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
+// Including type: UnityEngine.Vector3
+#include "UnityEngine/Vector3.hpp"
+// Including type: UnityEngine.Vector2
+#include "UnityEngine/Vector2.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -26,7 +32,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     float distance;
     // Creating value type constructor for type: IntersectionResults
-    IntersectionResults(UnityEngine::Vector3 point_ = {}, UnityEngine::Vector3 normal_ = {}, UnityEngine::Vector2 UVs_ = {}, float distance_ = {}) : point{point_}, normal{normal_}, UVs{UVs_}, distance{distance_} {}
+    constexpr IntersectionResults(UnityEngine::Vector3 point_ = {}, UnityEngine::Vector3 normal_ = {}, UnityEngine::Vector2 UVs_ = {}, float distance_ = {}) : point{point_}, normal{normal_}, UVs{UVs_}, distance{distance_} {}
   }; // SteamVR_Overlay/IntersectionResults
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

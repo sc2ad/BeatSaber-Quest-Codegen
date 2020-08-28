@@ -32,7 +32,7 @@ namespace UnityEngine {
     // Offset: 0xC
     float a;
     // Creating value type constructor for type: Color
-    Color(float r_ = {}, float g_ = {}, float b_ = {}, float a_ = {}) : r{r_}, g{g_}, b{b_}, a{a_} {}
+    constexpr Color(float r_ = {}, float g_ = {}, float b_ = {}, float a_ = {}) : r{r_}, g{g_}, b{b_}, a{a_} {}
     // public System.Void .ctor(System.Single r, System.Single g, System.Single b, System.Single a)
     // Offset: 0xA45854
     static Color* New_ctor(float r, float g, float b, float a);

@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ColorSpace
+    constexpr ColorSpace(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ColorSpace Uninitialized
     static constexpr const int Uninitialized = -1;
     // Get static field: static public UnityEngine.ColorSpace Uninitialized
@@ -34,8 +40,6 @@ namespace UnityEngine {
     static UnityEngine::ColorSpace _get_Linear();
     // Set static field: static public UnityEngine.ColorSpace Linear
     static void _set_Linear(UnityEngine::ColorSpace value);
-    // Creating value type constructor for type: ColorSpace
-    ColorSpace(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ColorSpace
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

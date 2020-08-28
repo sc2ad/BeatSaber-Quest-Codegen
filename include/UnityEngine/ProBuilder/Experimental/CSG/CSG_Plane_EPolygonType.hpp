@@ -18,6 +18,12 @@ namespace UnityEngine::ProBuilder::Experimental::CSG {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EPolygonType
+    constexpr EPolygonType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ProBuilder.Experimental.CSG.CSG_Plane/EPolygonType Coplanar
     static constexpr const int Coplanar = 0;
     // Get static field: static public UnityEngine.ProBuilder.Experimental.CSG.CSG_Plane/EPolygonType Coplanar
@@ -42,8 +48,6 @@ namespace UnityEngine::ProBuilder::Experimental::CSG {
     static UnityEngine::ProBuilder::Experimental::CSG::CSG_Plane::EPolygonType _get_Spanning();
     // Set static field: static public UnityEngine.ProBuilder.Experimental.CSG.CSG_Plane/EPolygonType Spanning
     static void _set_Spanning(UnityEngine::ProBuilder::Experimental::CSG::CSG_Plane::EPolygonType value);
-    // Creating value type constructor for type: EPolygonType
-    EPolygonType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.Experimental.CSG.CSG_Plane/EPolygonType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

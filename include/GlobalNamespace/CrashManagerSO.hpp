@@ -26,6 +26,8 @@ namespace GlobalNamespace {
     // private System.String _stackTrace
     // Offset: 0x20
     ::Il2CppString* stackTrace;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.String get_logString()
     // Offset: 0xBE2D70
     ::Il2CppString* get_logString();

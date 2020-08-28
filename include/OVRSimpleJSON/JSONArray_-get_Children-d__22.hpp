@@ -17,7 +17,8 @@
 // Begin forward declares
 // Forward declaring namespace: OVRSimpleJSON
 namespace OVRSimpleJSON {
-  // Skipping declaration: JSONNode because it is already included!
+  // Forward declaring type: JSONNode
+  class JSONNode;
 }
 // Forward declaring namespace: System::Collections
 namespace System::Collections {

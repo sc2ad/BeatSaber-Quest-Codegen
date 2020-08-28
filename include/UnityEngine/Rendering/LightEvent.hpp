@@ -16,6 +16,12 @@ namespace UnityEngine::Rendering {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: LightEvent
+    constexpr LightEvent(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Rendering.LightEvent BeforeShadowMap
     static constexpr const int BeforeShadowMap = 0;
     // Get static field: static public UnityEngine.Rendering.LightEvent BeforeShadowMap
@@ -52,8 +58,6 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::LightEvent _get_AfterShadowMapPass();
     // Set static field: static public UnityEngine.Rendering.LightEvent AfterShadowMapPass
     static void _set_AfterShadowMapPass(UnityEngine::Rendering::LightEvent value);
-    // Creating value type constructor for type: LightEvent
-    LightEvent(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Rendering.LightEvent
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

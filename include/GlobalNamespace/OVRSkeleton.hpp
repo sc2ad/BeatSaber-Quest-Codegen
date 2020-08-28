@@ -59,6 +59,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: SkeletonType
+      constexpr SkeletonType(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public OVRSkeleton/SkeletonType None
       static constexpr const int None = -1;
       // Get static field: static public OVRSkeleton/SkeletonType None
@@ -77,8 +83,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRSkeleton::SkeletonType _get_HandRight();
       // Set static field: static public OVRSkeleton/SkeletonType HandRight
       static void _set_HandRight(GlobalNamespace::OVRSkeleton::SkeletonType value);
-      // Creating value type constructor for type: SkeletonType
-      SkeletonType(int value_ = {}) : value{value_} {}
     }; // OVRSkeleton/SkeletonType
     // private OVRSkeleton/SkeletonType _skeletonType
     // Offset: 0x18
@@ -134,6 +138,8 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.IList`1<OVRBoneCapsule> <Capsules>k__BackingField
     // Offset: 0x88
     System::Collections::Generic::IList_1<GlobalNamespace::OVRBoneCapsule*>* Capsules;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Boolean get_IsInitialized()
     // Offset: 0xF597A4
     bool get_IsInitialized();

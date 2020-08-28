@@ -67,6 +67,8 @@ namespace GlobalNamespace {
     // private System.Boolean _stopBlinkingCursor
     // Offset: 0x50
     bool stopBlinkingCursor;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void add_textDidChangeEvent(System.Action`1<System.String> value)
     // Offset: 0xC530E8
     void add_textDidChangeEvent(System::Action_1<::Il2CppString*>* value);

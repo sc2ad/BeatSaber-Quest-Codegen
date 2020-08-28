@@ -16,6 +16,10 @@ namespace UnityEngine {
     // private System.String mJavaStackTrace
     // Offset: 0x88
     ::Il2CppString* mJavaStackTrace;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return mJavaStackTrace;
+    }
     // System.Void .ctor(System.String message, System.String javaStackTrace)
     // Offset: 0x1921928
     static AndroidJavaException* New_ctor(::Il2CppString* message, ::Il2CppString* javaStackTrace);

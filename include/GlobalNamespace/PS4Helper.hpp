@@ -29,6 +29,8 @@ namespace GlobalNamespace {
     // private System.Boolean _backgroundExecution
     // Offset: 0x28
     bool backgroundExecution;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void add_didGoToBackgroundExecutionEvent(System.Action value)
     // Offset: 0xBD16FC
     void add_didGoToBackgroundExecutionEvent(System::Action* value);

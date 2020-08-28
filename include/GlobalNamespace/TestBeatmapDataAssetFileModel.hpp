@@ -49,6 +49,10 @@ namespace GlobalNamespace {
     // private System.Action`1<LevelDataAssetDownloadUpdate> levelDataAssetDownloadUpdateEvent
     // Offset: 0x10
     System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>* levelDataAssetDownloadUpdateEvent;
+    // Creating conversion operator: operator System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>*
+    constexpr operator System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>*() const {
+      return levelDataAssetDownloadUpdateEvent;
+    }
     // static field const value: static private System.String kAssetsDir
     static constexpr const char* kAssetsDir = "BeatmapDataAssets";
     // Get static field: static private System.String kAssetsDir

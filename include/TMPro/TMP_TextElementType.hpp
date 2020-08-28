@@ -16,6 +16,12 @@ namespace TMPro {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TMP_TextElementType
+    constexpr TMP_TextElementType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public TMPro.TMP_TextElementType Character
     static constexpr const int Character = 0;
     // Get static field: static public TMPro.TMP_TextElementType Character
@@ -28,8 +34,6 @@ namespace TMPro {
     static TMPro::TMP_TextElementType _get_Sprite();
     // Set static field: static public TMPro.TMP_TextElementType Sprite
     static void _set_Sprite(TMPro::TMP_TextElementType value);
-    // Creating value type constructor for type: TMP_TextElementType
-    TMP_TextElementType(int value_ = {}) : value{value_} {}
   }; // TMPro.TMP_TextElementType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

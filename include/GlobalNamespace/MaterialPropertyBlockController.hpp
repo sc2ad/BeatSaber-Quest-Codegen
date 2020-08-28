@@ -28,6 +28,8 @@ namespace GlobalNamespace {
     // private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     // Offset: 0x20
     UnityEngine::MaterialPropertyBlock* materialPropertyBlock;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public UnityEngine.Renderer[] get_renderers()
     // Offset: 0x182D3A0
     ::Array<UnityEngine::Renderer*>* get_renderers();

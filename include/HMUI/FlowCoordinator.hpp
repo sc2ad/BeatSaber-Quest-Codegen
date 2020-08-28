@@ -125,6 +125,8 @@ namespace HMUI {
     // private UnityEngine.EventSystems.EventSystem _prevEventSystem
     // Offset: 0xA0
     UnityEngine::EventSystems::EventSystem* prevEventSystem;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public HMUI.ViewController get_topViewController()
     // Offset: 0xEDAD58
     HMUI::ViewController* get_topViewController();

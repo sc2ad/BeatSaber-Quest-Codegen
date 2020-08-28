@@ -26,6 +26,8 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.List`1<System.String> _lines
     // Offset: 0x18
     System::Collections::Generic::List_1<::Il2CppString*>* lines;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void OnDestroy()
     // Offset: 0xCBD5AC
     void OnDestroy();

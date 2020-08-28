@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRSubmitFlags
+    constexpr EVRSubmitFlags(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.EVRSubmitFlags Submit_Default
     static constexpr const int Submit_Default = 0;
     // Get static field: static public OVR.OpenVR.EVRSubmitFlags Submit_Default
@@ -52,8 +58,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRSubmitFlags _get_Submit_TextureWithDepth();
     // Set static field: static public OVR.OpenVR.EVRSubmitFlags Submit_TextureWithDepth
     static void _set_Submit_TextureWithDepth(OVR::OpenVR::EVRSubmitFlags value);
-    // Creating value type constructor for type: EVRSubmitFlags
-    EVRSubmitFlags(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EVRSubmitFlags
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,12 @@ namespace System::Globalization {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: FORMATFLAGS
+    constexpr FORMATFLAGS(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Globalization.FORMATFLAGS None
     static constexpr const int None = 0;
     // Get static field: static public System.Globalization.FORMATFLAGS None
@@ -58,8 +64,6 @@ namespace System::Globalization {
     static System::Globalization::FORMATFLAGS _get_UseDigitPrefixInTokens();
     // Set static field: static public System.Globalization.FORMATFLAGS UseDigitPrefixInTokens
     static void _set_UseDigitPrefixInTokens(System::Globalization::FORMATFLAGS value);
-    // Creating value type constructor for type: FORMATFLAGS
-    FORMATFLAGS(int value_ = {}) : value{value_} {}
   }; // System.Globalization.FORMATFLAGS
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

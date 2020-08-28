@@ -41,6 +41,8 @@ namespace System::Reflection {
     // private System.IntPtr handle
     // Offset: 0x20
     System::IntPtr handle;
+    // Deleting conversion operator: operator System::Reflection::EventInfo::AddEventAdapter*
+    constexpr operator System::Reflection::EventInfo::AddEventAdapter*() const = delete;
     // public override System.Reflection.MethodInfo GetAddMethod(System.Boolean nonPublic)
     // Offset: 0x11529E0
     // Implemented from: System.Reflection.EventInfo

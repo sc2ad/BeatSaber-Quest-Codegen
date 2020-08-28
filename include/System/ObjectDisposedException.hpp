@@ -25,6 +25,10 @@ namespace System {
     // private System.String objectName
     // Offset: 0x88
     ::Il2CppString* objectName;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return objectName;
+    }
     // public System.Void .ctor(System.String objectName, System.String message)
     // Offset: 0x1362E8C
     static ObjectDisposedException* New_ctor(::Il2CppString* objectName, ::Il2CppString* message);

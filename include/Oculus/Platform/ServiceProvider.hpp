@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ServiceProvider
+    constexpr ServiceProvider(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.ServiceProvider Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.ServiceProvider Unknown
@@ -52,8 +58,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::ServiceProvider _get_RemoteMedia();
     // Set static field: static public Oculus.Platform.ServiceProvider RemoteMedia
     static void _set_RemoteMedia(Oculus::Platform::ServiceProvider value);
-    // Creating value type constructor for type: ServiceProvider
-    ServiceProvider(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.ServiceProvider
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

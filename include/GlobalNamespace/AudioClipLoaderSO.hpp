@@ -39,6 +39,8 @@ namespace GlobalNamespace {
     // private System.Boolean _isLoading
     // Offset: 0x18
     bool isLoading;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void LoadAudioFile(System.String filePath, System.Action`1<UnityEngine.AudioClip> finishCallback)
     // Offset: 0xB8949C
     void LoadAudioFile(::Il2CppString* filePath, System::Action_1<UnityEngine::AudioClip*>* finishCallback);

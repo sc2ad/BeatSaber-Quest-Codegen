@@ -40,7 +40,7 @@ namespace Microsoft::Win32 {
     // Offset: 0x18
     int64_t MatchAllKeyword;
     // Creating value type constructor for type: TRACE_ENABLE_INFO
-    TRACE_ENABLE_INFO(int IsEnabled_ = {}, uint8_t Level_ = {}, uint8_t Reserved1_ = {}, uint16_t LoggerId_ = {}, int EnableProperty_ = {}, int Reserved2_ = {}, int64_t MatchAnyKeyword_ = {}, int64_t MatchAllKeyword_ = {}) : IsEnabled{IsEnabled_}, Level{Level_}, Reserved1{Reserved1_}, LoggerId{LoggerId_}, EnableProperty{EnableProperty_}, Reserved2{Reserved2_}, MatchAnyKeyword{MatchAnyKeyword_}, MatchAllKeyword{MatchAllKeyword_} {}
+    constexpr TRACE_ENABLE_INFO(int IsEnabled_ = {}, uint8_t Level_ = {}, uint8_t Reserved1_ = {}, uint16_t LoggerId_ = {}, int EnableProperty_ = {}, int Reserved2_ = {}, int64_t MatchAnyKeyword_ = {}, int64_t MatchAllKeyword_ = {}) : IsEnabled{IsEnabled_}, Level{Level_}, Reserved1{Reserved1_}, LoggerId{LoggerId_}, EnableProperty{EnableProperty_}, Reserved2{Reserved2_}, MatchAnyKeyword{MatchAnyKeyword_}, MatchAllKeyword{MatchAllKeyword_} {}
   }; // Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/TRACE_ENABLE_INFO
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

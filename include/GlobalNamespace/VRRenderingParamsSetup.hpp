@@ -34,6 +34,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: SceneType
+      constexpr SceneType(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public VRRenderingParamsSetup/SceneType Undefined
       static constexpr const int Undefined = 0;
       // Get static field: static public VRRenderingParamsSetup/SceneType Undefined
@@ -52,8 +58,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::VRRenderingParamsSetup::SceneType _get_Game();
       // Set static field: static public VRRenderingParamsSetup/SceneType Game
       static void _set_Game(GlobalNamespace::VRRenderingParamsSetup::SceneType value);
-      // Creating value type constructor for type: SceneType
-      SceneType(int value_ = {}) : value{value_} {}
     }; // VRRenderingParamsSetup/SceneType
     // private FloatSO _vrResolutionScale
     // Offset: 0x18
@@ -70,6 +74,8 @@ namespace GlobalNamespace {
     // private VRPlatformHelper _vrPlatformHelper
     // Offset: 0x38
     GlobalNamespace::VRPlatformHelper* vrPlatformHelper;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void OnEnable()
     // Offset: 0x1915CCC
     void OnEnable();

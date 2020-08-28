@@ -35,6 +35,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: OpMode
+      constexpr OpMode(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public OVRHeadsetEmulator/OpMode Off
       static constexpr const int Off = 0;
       // Get static field: static public OVRHeadsetEmulator/OpMode Off
@@ -53,8 +59,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRHeadsetEmulator::OpMode _get_AlwaysOn();
       // Set static field: static public OVRHeadsetEmulator/OpMode AlwaysOn
       static void _set_AlwaysOn(GlobalNamespace::OVRHeadsetEmulator::OpMode value);
-      // Creating value type constructor for type: OpMode
-      OpMode(int value_ = {}) : value{value_} {}
     }; // OVRHeadsetEmulator/OpMode
     // public OVRHeadsetEmulator/OpMode opMode
     // Offset: 0x18
@@ -89,6 +93,8 @@ namespace GlobalNamespace {
     // private System.Boolean emulatorHasInitialized
     // Offset: 0x55
     bool emulatorHasInitialized;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static field const value: static private System.Single MOUSE_SCALE_X
     static constexpr const float MOUSE_SCALE_X = -2;
     // Get static field: static private System.Single MOUSE_SCALE_X

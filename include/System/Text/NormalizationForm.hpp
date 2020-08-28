@@ -16,6 +16,12 @@ namespace System::Text {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: NormalizationForm
+    constexpr NormalizationForm(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Text.NormalizationForm FormC
     static constexpr const int FormC = 1;
     // Get static field: static public System.Text.NormalizationForm FormC
@@ -40,8 +46,6 @@ namespace System::Text {
     static System::Text::NormalizationForm _get_FormKD();
     // Set static field: static public System.Text.NormalizationForm FormKD
     static void _set_FormKD(System::Text::NormalizationForm value);
-    // Creating value type constructor for type: NormalizationForm
-    NormalizationForm(int value_ = {}) : value{value_} {}
   }; // System.Text.NormalizationForm
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

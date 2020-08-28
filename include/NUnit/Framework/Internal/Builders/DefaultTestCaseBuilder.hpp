@@ -41,6 +41,10 @@ namespace NUnit::Framework::Internal::Builders {
     // private NUnit.Framework.Internal.Builders.NUnitTestCaseBuilder _nunitTestCaseBuilder
     // Offset: 0x10
     NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder* nunitTestCaseBuilder;
+    // Creating conversion operator: operator NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*
+    constexpr operator NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*() const {
+      return nunitTestCaseBuilder;
+    }
     // public System.Boolean CanBuildFrom(NUnit.Framework.Interfaces.IMethodInfo method)
     // Offset: 0x1083DA0
     bool CanBuildFrom(NUnit::Framework::Interfaces::IMethodInfo* method);

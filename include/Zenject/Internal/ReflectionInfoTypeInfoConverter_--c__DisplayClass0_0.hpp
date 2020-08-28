@@ -23,6 +23,10 @@ namespace Zenject::Internal {
     // public System.Reflection.MethodInfo methodInfo
     // Offset: 0x10
     System::Reflection::MethodInfo* methodInfo;
+    // Creating conversion operator: operator System::Reflection::MethodInfo*
+    constexpr operator System::Reflection::MethodInfo*() const {
+      return methodInfo;
+    }
     // System.Void <ConvertMethod>b__0(System.Object obj, System.Object[] args)
     // Offset: 0xF3F5D4
     void $ConvertMethod$b__0(::Il2CppObject* obj, ::Array<::Il2CppObject*>* args);

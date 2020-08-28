@@ -7,6 +7,8 @@
 #include "UnityEngine/ProBuilder/Experimental/CSG/CSG_Model_--c__DisplayClass3_0.hpp"
 // Including type: UnityEngine.Transform
 #include "UnityEngine/Transform.hpp"
+// Including type: UnityEngine.ProBuilder.CSG_Vertex
+#include "UnityEngine/ProBuilder/CSG_Vertex.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

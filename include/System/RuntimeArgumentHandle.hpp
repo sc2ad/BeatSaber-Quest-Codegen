@@ -18,7 +18,11 @@ namespace System {
     // Offset: 0x0
     System::IntPtr args;
     // Creating value type constructor for type: RuntimeArgumentHandle
-    RuntimeArgumentHandle(System::IntPtr args_ = {}) : args{args_} {}
+    constexpr RuntimeArgumentHandle(System::IntPtr args_ = {}) : args{args_} {}
+    // Creating conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const {
+      return args;
+    }
   }; // System.RuntimeArgumentHandle
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

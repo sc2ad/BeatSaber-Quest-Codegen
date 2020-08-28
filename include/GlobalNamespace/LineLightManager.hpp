@@ -31,6 +31,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Vector4[] _colors
     // Offset: 0x28
     ::Array<UnityEngine::Vector4>* colors;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static field const value: static private System.Int32 kMaxNumberOfLights
     static constexpr const int kMaxNumberOfLights = 8;
     // Get static field: static private System.Int32 kMaxNumberOfLights

@@ -16,6 +16,12 @@ namespace Zenject {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: PoolExpandMethods
+    constexpr PoolExpandMethods(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Zenject.PoolExpandMethods OneAtATime
     static constexpr const int OneAtATime = 0;
     // Get static field: static public Zenject.PoolExpandMethods OneAtATime
@@ -34,8 +40,6 @@ namespace Zenject {
     static Zenject::PoolExpandMethods _get_Disabled();
     // Set static field: static public Zenject.PoolExpandMethods Disabled
     static void _set_Disabled(Zenject::PoolExpandMethods value);
-    // Creating value type constructor for type: PoolExpandMethods
-    PoolExpandMethods(int value_ = {}) : value{value_} {}
   }; // Zenject.PoolExpandMethods
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

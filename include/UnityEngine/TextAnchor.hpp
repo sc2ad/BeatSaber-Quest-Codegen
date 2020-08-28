@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TextAnchor
+    constexpr TextAnchor(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.TextAnchor UpperLeft
     static constexpr const int UpperLeft = 0;
     // Get static field: static public UnityEngine.TextAnchor UpperLeft
@@ -70,8 +76,6 @@ namespace UnityEngine {
     static UnityEngine::TextAnchor _get_LowerRight();
     // Set static field: static public UnityEngine.TextAnchor LowerRight
     static void _set_LowerRight(UnityEngine::TextAnchor value);
-    // Creating value type constructor for type: TextAnchor
-    TextAnchor(int value_ = {}) : value{value_} {}
   }; // UnityEngine.TextAnchor
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

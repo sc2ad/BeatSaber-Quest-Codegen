@@ -16,6 +16,12 @@ namespace TMPro {
     // public System.UInt32 value__
     // Offset: 0x0
     uint value;
+    // Creating value type constructor for type: RichTextTag
+    constexpr RichTextTag(uint value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator uint
+    constexpr operator uint() const {
+      return value;
+    }
     // static field const value: static public TMPro.RichTextTag BOLD
     static constexpr const uint BOLD = 66u;
     // Get static field: static public TMPro.RichTextTag BOLD
@@ -334,8 +340,6 @@ namespace TMPro {
     static TMPro::RichTextTag _get_DEFAULT();
     // Set static field: static public TMPro.RichTextTag DEFAULT
     static void _set_DEFAULT(TMPro::RichTextTag value);
-    // Creating value type constructor for type: RichTextTag
-    RichTextTag(uint value_ = {}) : value{value_} {}
   }; // TMPro.RichTextTag
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

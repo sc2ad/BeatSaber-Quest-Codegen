@@ -18,6 +18,10 @@ namespace System::Runtime::CompilerServices {
     // private System.Decimal dec
     // Offset: 0x10
     System::Decimal dec;
+    // Creating conversion operator: operator System::Decimal
+    constexpr operator System::Decimal() const {
+      return dec;
+    }
     // public System.Void .ctor(System.Byte scale, System.Byte sign, System.UInt32 hi, System.UInt32 mid, System.UInt32 low)
     // Offset: 0x116698C
     static DecimalConstantAttribute* New_ctor(uint8_t scale, uint8_t sign, uint hi, uint mid, uint low);

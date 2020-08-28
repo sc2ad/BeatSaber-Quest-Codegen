@@ -16,6 +16,12 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TriangulationMode
+    constexpr TriangulationMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ProBuilder.Poly2Tri.TriangulationMode Unconstrained
     static constexpr const int Unconstrained = 0;
     // Get static field: static public UnityEngine.ProBuilder.Poly2Tri.TriangulationMode Unconstrained
@@ -34,8 +40,6 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     static UnityEngine::ProBuilder::Poly2Tri::TriangulationMode _get_Polygon();
     // Set static field: static public UnityEngine.ProBuilder.Poly2Tri.TriangulationMode Polygon
     static void _set_Polygon(UnityEngine::ProBuilder::Poly2Tri::TriangulationMode value);
-    // Creating value type constructor for type: TriangulationMode
-    TriangulationMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.Poly2Tri.TriangulationMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

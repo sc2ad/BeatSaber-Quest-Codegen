@@ -16,6 +16,10 @@ namespace System::Runtime::InteropServices {
     // private System.Boolean inited
     // Offset: 0x1E
     bool inited;
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return inited;
+    }
     // public System.Void AcquirePointer(System.Byte* pointer)
     // Offset: 0x1051C28
     void AcquirePointer(uint8_t*& pointer);

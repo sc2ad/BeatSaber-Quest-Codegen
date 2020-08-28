@@ -45,6 +45,8 @@ namespace GlobalNamespace {
     // private System.Boolean _comboLost
     // Offset: 0x34
     bool comboLost;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xBE1B88
     void Start();

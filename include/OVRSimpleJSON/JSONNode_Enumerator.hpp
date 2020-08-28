@@ -7,10 +7,14 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRSimpleJSON.JSONNode
 #include "OVRSimpleJSON/JSONNode.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: System.Collections.Generic.Dictionary`2/Enumerator
 #include "System/Collections/Generic/Dictionary_2.hpp"
 // Including type: System.Collections.Generic.List`1/Enumerator
 #include "System/Collections/Generic/List_1.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -31,6 +35,12 @@ namespace OVRSimpleJSON {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: Type
+      constexpr Type(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public OVRSimpleJSON.JSONNode/Enumerator/Type None
       static constexpr const int None = 0;
       // Get static field: static public OVRSimpleJSON.JSONNode/Enumerator/Type None
@@ -49,8 +59,6 @@ namespace OVRSimpleJSON {
       static OVRSimpleJSON::JSONNode::Enumerator::Type _get_Object();
       // Set static field: static public OVRSimpleJSON.JSONNode/Enumerator/Type Object
       static void _set_Object(OVRSimpleJSON::JSONNode::Enumerator::Type value);
-      // Creating value type constructor for type: Type
-      Type(int value_ = {}) : value{value_} {}
     }; // OVRSimpleJSON.JSONNode/Enumerator/Type
     // private OVRSimpleJSON.JSONNode/Enumerator/Type type
     // Offset: 0x0
@@ -62,7 +70,7 @@ namespace OVRSimpleJSON {
     // Offset: 0x30
     typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator m_Array;
     // Creating value type constructor for type: Enumerator
-    Enumerator(OVRSimpleJSON::JSONNode::Enumerator::Type type_ = {}, typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator m_Object_ = {}, typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator m_Array_ = {}) : type{type_}, m_Object{m_Object_}, m_Array{m_Array_} {}
+    constexpr Enumerator(OVRSimpleJSON::JSONNode::Enumerator::Type type_ = {}, typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator m_Object_ = {}, typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator m_Array_ = {}) : type{type_}, m_Object{m_Object_}, m_Array{m_Array_} {}
     // public System.Boolean get_IsValid()
     // Offset: 0xA3B99C
     bool get_IsValid();

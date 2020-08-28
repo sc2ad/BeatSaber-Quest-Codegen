@@ -25,7 +25,7 @@ namespace UnityEngine {
     // Offset: 0x8
     int m_RefreshRate;
     // Creating value type constructor for type: Resolution
-    Resolution(int m_Width_ = {}, int m_Height_ = {}, int m_RefreshRate_ = {}) : m_Width{m_Width_}, m_Height{m_Height_}, m_RefreshRate{m_RefreshRate_} {}
+    constexpr Resolution(int m_Width_ = {}, int m_Height_ = {}, int m_RefreshRate_ = {}) : m_Width{m_Width_}, m_Height{m_Height_}, m_RefreshRate{m_RefreshRate_} {}
     // public System.Int32 get_width()
     // Offset: 0xA47324
     int get_width();

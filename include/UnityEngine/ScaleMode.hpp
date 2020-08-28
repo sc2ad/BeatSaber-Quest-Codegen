@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ScaleMode
+    constexpr ScaleMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ScaleMode StretchToFill
     static constexpr const int StretchToFill = 0;
     // Get static field: static public UnityEngine.ScaleMode StretchToFill
@@ -34,8 +40,6 @@ namespace UnityEngine {
     static UnityEngine::ScaleMode _get_ScaleToFit();
     // Set static field: static public UnityEngine.ScaleMode ScaleToFit
     static void _set_ScaleToFit(UnityEngine::ScaleMode value);
-    // Creating value type constructor for type: ScaleMode
-    ScaleMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ScaleMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

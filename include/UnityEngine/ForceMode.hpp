@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ForceMode
+    constexpr ForceMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ForceMode Force
     static constexpr const int Force = 0;
     // Get static field: static public UnityEngine.ForceMode Force
@@ -40,8 +46,6 @@ namespace UnityEngine {
     static UnityEngine::ForceMode _get_VelocityChange();
     // Set static field: static public UnityEngine.ForceMode VelocityChange
     static void _set_VelocityChange(UnityEngine::ForceMode value);
-    // Creating value type constructor for type: ForceMode
-    ForceMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ForceMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

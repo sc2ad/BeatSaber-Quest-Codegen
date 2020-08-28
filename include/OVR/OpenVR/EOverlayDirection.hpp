@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EOverlayDirection
+    constexpr EOverlayDirection(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.EOverlayDirection Up
     static constexpr const int Up = 0;
     // Get static field: static public OVR.OpenVR.EOverlayDirection Up
@@ -46,8 +52,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EOverlayDirection _get_Count();
     // Set static field: static public OVR.OpenVR.EOverlayDirection Count
     static void _set_Count(OVR::OpenVR::EOverlayDirection value);
-    // Creating value type constructor for type: EOverlayDirection
-    EOverlayDirection(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EOverlayDirection
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

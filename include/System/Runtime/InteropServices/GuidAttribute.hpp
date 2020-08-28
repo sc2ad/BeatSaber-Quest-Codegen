@@ -16,6 +16,10 @@ namespace System::Runtime::InteropServices {
     // System.String _val
     // Offset: 0x10
     ::Il2CppString* val;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return val;
+    }
     // public System.Void .ctor(System.String guid)
     // Offset: 0x10514F4
     static GuidAttribute* New_ctor(::Il2CppString* guid);

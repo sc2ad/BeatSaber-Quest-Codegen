@@ -11,10 +11,6 @@
 #include "System/ValueType.hpp"
 // Including type: OVRSimpleJSON.JSONNode/Enumerator
 #include "OVRSimpleJSON/JSONNode_Enumerator.hpp"
-// Including type: System.Collections.Generic.List`1
-#include "System/Collections/Generic/List_1.hpp"
-// Including type: System.Collections.Generic.Dictionary`2
-#include "System/Collections/Generic/Dictionary_2.hpp"
 // Completed includes
 // Type namespace: OVRSimpleJSON
 namespace OVRSimpleJSON {
@@ -25,7 +21,11 @@ namespace OVRSimpleJSON {
     // Offset: 0x0
     OVRSimpleJSON::JSONNode::Enumerator m_Enumerator;
     // Creating value type constructor for type: ValueEnumerator
-    ValueEnumerator(OVRSimpleJSON::JSONNode::Enumerator m_Enumerator_ = {}) : m_Enumerator{m_Enumerator_} {}
+    constexpr ValueEnumerator(OVRSimpleJSON::JSONNode::Enumerator m_Enumerator_ = {}) : m_Enumerator{m_Enumerator_} {}
+    // Creating conversion operator: operator OVRSimpleJSON::JSONNode::Enumerator
+    constexpr operator OVRSimpleJSON::JSONNode::Enumerator() const {
+      return m_Enumerator;
+    }
     // public System.Void .ctor(System.Collections.Generic.List`1/Enumerator<OVRSimpleJSON.JSONNode> aArrayEnum)
     // Offset: 0xA3BC30
     static JSONNode::ValueEnumerator* New_ctor(typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator aArrayEnum);

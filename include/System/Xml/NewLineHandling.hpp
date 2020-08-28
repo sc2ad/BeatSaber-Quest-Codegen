@@ -16,6 +16,12 @@ namespace System::Xml {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: NewLineHandling
+    constexpr NewLineHandling(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Xml.NewLineHandling Replace
     static constexpr const int Replace = 0;
     // Get static field: static public System.Xml.NewLineHandling Replace
@@ -34,8 +40,6 @@ namespace System::Xml {
     static System::Xml::NewLineHandling _get_None();
     // Set static field: static public System.Xml.NewLineHandling None
     static void _set_None(System::Xml::NewLineHandling value);
-    // Creating value type constructor for type: NewLineHandling
-    NewLineHandling(int value_ = {}) : value{value_} {}
   }; // System.Xml.NewLineHandling
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

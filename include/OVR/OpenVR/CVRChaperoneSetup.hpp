@@ -37,6 +37,10 @@ namespace OVR::OpenVR {
     // private OVR.OpenVR.IVRChaperoneSetup FnTable
     // Offset: 0x10
     OVR::OpenVR::IVRChaperoneSetup FnTable;
+    // Creating conversion operator: operator OVR::OpenVR::IVRChaperoneSetup
+    constexpr operator OVR::OpenVR::IVRChaperoneSetup() const {
+      return FnTable;
+    }
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0xECAE50
     static CVRChaperoneSetup* New_ctor(System::IntPtr pInterface);

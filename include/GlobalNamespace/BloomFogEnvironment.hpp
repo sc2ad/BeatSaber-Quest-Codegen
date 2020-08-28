@@ -31,6 +31,8 @@ namespace GlobalNamespace {
     // private BloomFogEnvironmentParams _fog1Params
     // Offset: 0x28
     GlobalNamespace::BloomFogEnvironmentParams* fog1Params;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Awake()
     // Offset: 0x1824BE0
     void Awake();

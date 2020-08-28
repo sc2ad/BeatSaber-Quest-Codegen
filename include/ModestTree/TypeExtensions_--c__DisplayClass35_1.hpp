@@ -25,6 +25,10 @@ namespace ModestTree {
     // public System.Attribute a
     // Offset: 0x10
     System::Attribute* a;
+    // Creating conversion operator: operator System::Attribute*
+    constexpr operator System::Attribute*() const {
+      return a;
+    }
     // System.Boolean <AllAttributes>b__1(System.Type x)
     // Offset: 0xD63BD0
     bool $AllAttributes$b__1(System::Type* x);

@@ -34,6 +34,10 @@ namespace OVR::OpenVR {
     // private OVR.OpenVR.IVRNotifications FnTable
     // Offset: 0x10
     OVR::OpenVR::IVRNotifications FnTable;
+    // Creating conversion operator: operator OVR::OpenVR::IVRNotifications
+    constexpr operator OVR::OpenVR::IVRNotifications() const {
+      return FnTable;
+    }
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0xECF52C
     static CVRNotifications* New_ctor(System::IntPtr pInterface);

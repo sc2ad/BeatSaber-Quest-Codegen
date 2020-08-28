@@ -16,6 +16,12 @@ namespace System::Text::RegularExpressions {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: RegexOptions
+    constexpr RegexOptions(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Text.RegularExpressions.RegexOptions None
     static constexpr const int None = 0;
     // Get static field: static public System.Text.RegularExpressions.RegexOptions None
@@ -76,8 +82,6 @@ namespace System::Text::RegularExpressions {
     static System::Text::RegularExpressions::RegexOptions _get_CultureInvariant();
     // Set static field: static public System.Text.RegularExpressions.RegexOptions CultureInvariant
     static void _set_CultureInvariant(System::Text::RegularExpressions::RegexOptions value);
-    // Creating value type constructor for type: RegexOptions
-    RegexOptions(int value_ = {}) : value{value_} {}
   }; // System.Text.RegularExpressions.RegexOptions
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

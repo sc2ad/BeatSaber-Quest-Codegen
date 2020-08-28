@@ -16,6 +16,12 @@ namespace UnityEngine::ProBuilder {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SortMethod
+    constexpr SortMethod(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ProBuilder.SortMethod Clockwise
     static constexpr const int Clockwise = 0;
     // Get static field: static public UnityEngine.ProBuilder.SortMethod Clockwise
@@ -28,8 +34,6 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::SortMethod _get_CounterClockwise();
     // Set static field: static public UnityEngine.ProBuilder.SortMethod CounterClockwise
     static void _set_CounterClockwise(UnityEngine::ProBuilder::SortMethod value);
-    // Creating value type constructor for type: SortMethod
-    SortMethod(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.SortMethod
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

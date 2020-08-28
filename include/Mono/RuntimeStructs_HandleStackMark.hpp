@@ -27,7 +27,7 @@ namespace Mono {
     // Offset: 0x8
     System::IntPtr chunk;
     // Creating value type constructor for type: HandleStackMark
-    HandleStackMark(int size_ = {}, int interior_size_ = {}, System::IntPtr chunk_ = {}) : size{size_}, interior_size{interior_size_}, chunk{chunk_} {}
+    constexpr HandleStackMark(int size_ = {}, int interior_size_ = {}, System::IntPtr chunk_ = {}) : size{size_}, interior_size{interior_size_}, chunk{chunk_} {}
   }; // Mono.RuntimeStructs/HandleStackMark
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

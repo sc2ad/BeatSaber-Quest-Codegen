@@ -23,6 +23,8 @@ namespace UnityEngine {
     // UnityEngine.AnimatorOverrideController/OnOverrideControllerDirtyCallback OnOverrideControllerDirty
     // Offset: 0x18
     UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback* OnOverrideControllerDirty;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static System.Void OnInvalidateOverrideController(UnityEngine.AnimatorOverrideController controller)
     // Offset: 0x1941700
     static void OnInvalidateOverrideController(UnityEngine::AnimatorOverrideController* controller);

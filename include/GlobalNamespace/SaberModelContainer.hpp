@@ -28,6 +28,8 @@ namespace GlobalNamespace {
     // private ISaberModelController _saberModelController
     // Offset: 0x20
     GlobalNamespace::ISaberModelController* saberModelController;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Awake()
     // Offset: 0xC28BB0
     void Awake();

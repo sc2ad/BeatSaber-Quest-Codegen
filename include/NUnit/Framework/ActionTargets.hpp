@@ -16,6 +16,12 @@ namespace NUnit::Framework {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ActionTargets
+    constexpr ActionTargets(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public NUnit.Framework.ActionTargets Default
     static constexpr const int Default = 0;
     // Get static field: static public NUnit.Framework.ActionTargets Default
@@ -34,8 +40,6 @@ namespace NUnit::Framework {
     static NUnit::Framework::ActionTargets _get_Suite();
     // Set static field: static public NUnit.Framework.ActionTargets Suite
     static void _set_Suite(NUnit::Framework::ActionTargets value);
-    // Creating value type constructor for type: ActionTargets
-    ActionTargets(int value_ = {}) : value{value_} {}
   }; // NUnit.Framework.ActionTargets
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

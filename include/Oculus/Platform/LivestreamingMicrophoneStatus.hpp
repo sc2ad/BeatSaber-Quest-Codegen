@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: LivestreamingMicrophoneStatus
+    constexpr LivestreamingMicrophoneStatus(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.LivestreamingMicrophoneStatus Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.LivestreamingMicrophoneStatus Unknown
@@ -34,8 +40,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::LivestreamingMicrophoneStatus _get_MicrophoneOff();
     // Set static field: static public Oculus.Platform.LivestreamingMicrophoneStatus MicrophoneOff
     static void _set_MicrophoneOff(Oculus::Platform::LivestreamingMicrophoneStatus value);
-    // Creating value type constructor for type: LivestreamingMicrophoneStatus
-    LivestreamingMicrophoneStatus(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.LivestreamingMicrophoneStatus
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

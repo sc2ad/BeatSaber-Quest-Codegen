@@ -37,6 +37,8 @@ namespace System::Threading::Tasks {
     // System.Threading.Timer Timer
     // Offset: 0x78
     System::Threading::Timer* Timer;
+    // Deleting conversion operator: operator TResult
+    constexpr operator TResult() const = delete;
     // System.Void .ctor(System.Threading.CancellationToken token)
     // Offset: 0xCE68AC
     static Task::DelayPromise* New_ctor(System::Threading::CancellationToken token);

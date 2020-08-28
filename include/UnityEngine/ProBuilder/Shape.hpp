@@ -16,6 +16,12 @@ namespace UnityEngine::ProBuilder {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Shape
+    constexpr Shape(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ProBuilder.Shape Cube
     static constexpr const int Cube = 0;
     // Get static field: static public UnityEngine.ProBuilder.Shape Cube
@@ -94,8 +100,6 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::Shape _get_Custom();
     // Set static field: static public UnityEngine.ProBuilder.Shape Custom
     static void _set_Custom(UnityEngine::ProBuilder::Shape value);
-    // Creating value type constructor for type: Shape
-    Shape(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.Shape
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

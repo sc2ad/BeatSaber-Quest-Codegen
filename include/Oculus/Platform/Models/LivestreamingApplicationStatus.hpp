@@ -21,6 +21,10 @@ namespace Oculus::Platform::Models {
     // public readonly System.Boolean StreamingEnabled
     // Offset: 0x10
     bool StreamingEnabled;
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return StreamingEnabled;
+    }
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0xEA4C18
     static LivestreamingApplicationStatus* New_ctor(System::IntPtr o);

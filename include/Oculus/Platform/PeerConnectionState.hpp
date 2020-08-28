@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: PeerConnectionState
+    constexpr PeerConnectionState(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.PeerConnectionState Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.PeerConnectionState Unknown
@@ -40,8 +46,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::PeerConnectionState _get_Closed();
     // Set static field: static public Oculus.Platform.PeerConnectionState Closed
     static void _set_Closed(Oculus::Platform::PeerConnectionState value);
-    // Creating value type constructor for type: PeerConnectionState
-    PeerConnectionState(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.PeerConnectionState
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

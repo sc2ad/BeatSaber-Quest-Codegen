@@ -46,6 +46,12 @@ namespace System {
     // System.Int64 m_value
     // Offset: 0x0
     int64_t m_value;
+    // Creating value type constructor for type: Int64
+    constexpr Int64(int64_t m_value_ = {}) : m_value{m_value_} {}
+    // Creating conversion operator: operator int64_t
+    constexpr operator int64_t() const {
+      return m_value;
+    }
     // static field const value: static public System.Int64 MaxValue
     static constexpr const int64_t MaxValue = 9223372036854775807;
     // Get static field: static public System.Int64 MaxValue
@@ -58,8 +64,6 @@ namespace System {
     static int64_t _get_MinValue();
     // Set static field: static public System.Int64 MinValue
     static void _set_MinValue(int64_t value);
-    // Creating value type constructor for type: Int64
-    Int64(int64_t m_value_ = {}) : m_value{m_value_} {}
     // public System.String ToString(System.String format)
     // Offset: 0xA3F75C
     ::Il2CppString* ToString(::Il2CppString* format);

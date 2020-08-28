@@ -34,6 +34,8 @@ namespace System::Text {
     // private System.Int32 index
     // Offset: 0x98
     int index;
+    // Deleting conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const = delete;
     // System.Void .ctor(System.String message, System.Char charUnknown, System.Int32 index)
     // Offset: 0x12F2FE0
     static EncoderFallbackException* New_ctor(::Il2CppString* message, ::Il2CppChar charUnknown, int index);

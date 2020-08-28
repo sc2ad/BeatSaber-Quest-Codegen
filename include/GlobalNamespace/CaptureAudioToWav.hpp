@@ -35,6 +35,8 @@ namespace GlobalNamespace {
     // private System.IO.FileStream _fileStream
     // Offset: 0x30
     System::IO::FileStream* fileStream;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Awake()
     // Offset: 0xCAE074
     void Awake();

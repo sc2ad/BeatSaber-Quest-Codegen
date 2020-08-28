@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EyeTextureFormat
+    constexpr EyeTextureFormat(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRPlugin/EyeTextureFormat Default
     static constexpr const int Default = 0;
     // Get static field: static public OVRPlugin/EyeTextureFormat Default
@@ -72,8 +78,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::EyeTextureFormat _get_EnumSize();
     // Set static field: static public OVRPlugin/EyeTextureFormat EnumSize
     static void _set_EnumSize(GlobalNamespace::OVRPlugin::EyeTextureFormat value);
-    // Creating value type constructor for type: EyeTextureFormat
-    EyeTextureFormat(int value_ = {}) : value{value_} {}
   }; // OVRPlugin/EyeTextureFormat
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

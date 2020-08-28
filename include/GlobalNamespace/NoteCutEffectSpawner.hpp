@@ -84,6 +84,8 @@ namespace GlobalNamespace {
     // private ScoreController _scoreController
     // Offset: 0x70
     GlobalNamespace::ScoreController* scoreController;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xC15E0C
     void Start();

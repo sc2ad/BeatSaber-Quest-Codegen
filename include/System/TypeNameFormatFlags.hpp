@@ -16,6 +16,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TypeNameFormatFlags
+    constexpr TypeNameFormatFlags(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.TypeNameFormatFlags FormatBasic
     static constexpr const int FormatBasic = 0;
     // Get static field: static public System.TypeNameFormatFlags FormatBasic
@@ -76,8 +82,6 @@ namespace System {
     static System::TypeNameFormatFlags _get_FormatSerialization();
     // Set static field: static public System.TypeNameFormatFlags FormatSerialization
     static void _set_FormatSerialization(System::TypeNameFormatFlags value);
-    // Creating value type constructor for type: TypeNameFormatFlags
-    TypeNameFormatFlags(int value_ = {}) : value{value_} {}
   }; // System.TypeNameFormatFlags
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

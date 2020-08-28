@@ -16,6 +16,12 @@ namespace System::Configuration::Assemblies {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: AssemblyVersionCompatibility
+    constexpr AssemblyVersionCompatibility(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Configuration.Assemblies.AssemblyVersionCompatibility SameMachine
     static constexpr const int SameMachine = 1;
     // Get static field: static public System.Configuration.Assemblies.AssemblyVersionCompatibility SameMachine
@@ -34,8 +40,6 @@ namespace System::Configuration::Assemblies {
     static System::Configuration::Assemblies::AssemblyVersionCompatibility _get_SameDomain();
     // Set static field: static public System.Configuration.Assemblies.AssemblyVersionCompatibility SameDomain
     static void _set_SameDomain(System::Configuration::Assemblies::AssemblyVersionCompatibility value);
-    // Creating value type constructor for type: AssemblyVersionCompatibility
-    AssemblyVersionCompatibility(int value_ = {}) : value{value_} {}
   }; // System.Configuration.Assemblies.AssemblyVersionCompatibility
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -39,6 +39,10 @@ namespace System::Collections {
     // protected System.Collections.Hashtable _table
     // Offset: 0x50
     System::Collections::Hashtable* table;
+    // Creating conversion operator: operator System::Collections::Hashtable*
+    constexpr operator System::Collections::Hashtable*() const {
+      return table;
+    }
     // System.Void .ctor(System.Collections.Hashtable table)
     // Offset: 0x133E71C
     static Hashtable::SyncHashtable* New_ctor(System::Collections::Hashtable* table);

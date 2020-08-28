@@ -18,6 +18,12 @@ namespace HMUI {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TransitionType
+    constexpr TransitionType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public HMUI.SegmentedControlCell/TransitionType Instant
     static constexpr const int Instant = 0;
     // Get static field: static public HMUI.SegmentedControlCell/TransitionType Instant
@@ -30,8 +36,6 @@ namespace HMUI {
     static HMUI::SegmentedControlCell::TransitionType _get_Animated();
     // Set static field: static public HMUI.SegmentedControlCell/TransitionType Animated
     static void _set_Animated(HMUI::SegmentedControlCell::TransitionType value);
-    // Creating value type constructor for type: TransitionType
-    TransitionType(int value_ = {}) : value{value_} {}
   }; // HMUI.SegmentedControlCell/TransitionType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

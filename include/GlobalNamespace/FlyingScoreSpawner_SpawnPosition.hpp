@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SpawnPosition
+    constexpr SpawnPosition(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public FlyingScoreSpawner/SpawnPosition Underground
     static constexpr const int Underground = 0;
     // Get static field: static public FlyingScoreSpawner/SpawnPosition Underground
@@ -30,8 +36,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::FlyingScoreSpawner::SpawnPosition _get_AboveGround();
     // Set static field: static public FlyingScoreSpawner/SpawnPosition AboveGround
     static void _set_AboveGround(GlobalNamespace::FlyingScoreSpawner::SpawnPosition value);
-    // Creating value type constructor for type: SpawnPosition
-    SpawnPosition(int value_ = {}) : value{value_} {}
   }; // FlyingScoreSpawner/SpawnPosition
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

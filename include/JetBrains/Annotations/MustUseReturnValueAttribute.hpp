@@ -16,6 +16,10 @@ namespace JetBrains::Annotations {
     // private System.String <Justification>k__BackingField
     // Offset: 0x10
     ::Il2CppString* Justification;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return Justification;
+    }
     // public System.Void .ctor(System.String justification)
     // Offset: 0x19614C8
     static MustUseReturnValueAttribute* New_ctor(::Il2CppString* justification);

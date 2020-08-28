@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: CollisionFlags
+    constexpr CollisionFlags(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.CollisionFlags None
     static constexpr const int None = 0;
     // Get static field: static public UnityEngine.CollisionFlags None
@@ -58,8 +64,6 @@ namespace UnityEngine {
     static UnityEngine::CollisionFlags _get_CollidedBelow();
     // Set static field: static public UnityEngine.CollisionFlags CollidedBelow
     static void _set_CollidedBelow(UnityEngine::CollisionFlags value);
-    // Creating value type constructor for type: CollisionFlags
-    CollisionFlags(int value_ = {}) : value{value_} {}
   }; // UnityEngine.CollisionFlags
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

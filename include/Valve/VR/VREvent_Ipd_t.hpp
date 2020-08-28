@@ -16,7 +16,11 @@ namespace Valve::VR {
     // Offset: 0x0
     float ipdMeters;
     // Creating value type constructor for type: VREvent_Ipd_t
-    VREvent_Ipd_t(float ipdMeters_ = {}) : ipdMeters{ipdMeters_} {}
+    constexpr VREvent_Ipd_t(float ipdMeters_ = {}) : ipdMeters{ipdMeters_} {}
+    // Creating conversion operator: operator float
+    constexpr operator float() const {
+      return ipdMeters;
+    }
   }; // Valve.VR.VREvent_Ipd_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -29,7 +29,7 @@ namespace OVR::OpenVR {
     // Offset: 0x20
     float fDistance;
     // Creating value type constructor for type: VROverlayIntersectionResults_t
-    VROverlayIntersectionResults_t(OVR::OpenVR::HmdVector3_t vPoint_ = {}, OVR::OpenVR::HmdVector3_t vNormal_ = {}, OVR::OpenVR::HmdVector2_t vUVs_ = {}, float fDistance_ = {}) : vPoint{vPoint_}, vNormal{vNormal_}, vUVs{vUVs_}, fDistance{fDistance_} {}
+    constexpr VROverlayIntersectionResults_t(OVR::OpenVR::HmdVector3_t vPoint_ = {}, OVR::OpenVR::HmdVector3_t vNormal_ = {}, OVR::OpenVR::HmdVector2_t vUVs_ = {}, float fDistance_ = {}) : vPoint{vPoint_}, vNormal{vNormal_}, vUVs{vUVs_}, fDistance{fDistance_} {}
   }; // OVR.OpenVR.VROverlayIntersectionResults_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

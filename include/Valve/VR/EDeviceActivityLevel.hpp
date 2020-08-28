@@ -16,6 +16,12 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EDeviceActivityLevel
+    constexpr EDeviceActivityLevel(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.EDeviceActivityLevel k_EDeviceActivityLevel_Unknown
     static constexpr const int k_EDeviceActivityLevel_Unknown = -1;
     // Get static field: static public Valve.VR.EDeviceActivityLevel k_EDeviceActivityLevel_Unknown
@@ -46,8 +52,6 @@ namespace Valve::VR {
     static Valve::VR::EDeviceActivityLevel _get_k_EDeviceActivityLevel_Standby();
     // Set static field: static public Valve.VR.EDeviceActivityLevel k_EDeviceActivityLevel_Standby
     static void _set_k_EDeviceActivityLevel_Standby(Valve::VR::EDeviceActivityLevel value);
-    // Creating value type constructor for type: EDeviceActivityLevel
-    EDeviceActivityLevel(int value_ = {}) : value{value_} {}
   }; // Valve.VR.EDeviceActivityLevel
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

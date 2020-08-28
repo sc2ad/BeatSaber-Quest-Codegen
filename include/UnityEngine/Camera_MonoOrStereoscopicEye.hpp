@@ -18,6 +18,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: MonoOrStereoscopicEye
+    constexpr MonoOrStereoscopicEye(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Camera/MonoOrStereoscopicEye Left
     static constexpr const int Left = 0;
     // Get static field: static public UnityEngine.Camera/MonoOrStereoscopicEye Left
@@ -36,8 +42,6 @@ namespace UnityEngine {
     static UnityEngine::Camera::MonoOrStereoscopicEye _get_Mono();
     // Set static field: static public UnityEngine.Camera/MonoOrStereoscopicEye Mono
     static void _set_Mono(UnityEngine::Camera::MonoOrStereoscopicEye value);
-    // Creating value type constructor for type: MonoOrStereoscopicEye
-    MonoOrStereoscopicEye(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Camera/MonoOrStereoscopicEye
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

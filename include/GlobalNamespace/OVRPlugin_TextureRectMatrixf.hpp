@@ -31,12 +31,12 @@ namespace GlobalNamespace {
     // public UnityEngine.Vector4 rightScaleBias
     // Offset: 0x30
     UnityEngine::Vector4 rightScaleBias;
+    // Creating value type constructor for type: TextureRectMatrixf
+    constexpr TextureRectMatrixf(UnityEngine::Rect leftRect_ = {}, UnityEngine::Rect rightRect_ = {}, UnityEngine::Vector4 leftScaleBias_ = {}, UnityEngine::Vector4 rightScaleBias_ = {}) : leftRect{leftRect_}, rightRect{rightRect_}, leftScaleBias{leftScaleBias_}, rightScaleBias{rightScaleBias_} {}
     // Get static field: static public readonly OVRPlugin/TextureRectMatrixf zero
     static GlobalNamespace::OVRPlugin::TextureRectMatrixf _get_zero();
     // Set static field: static public readonly OVRPlugin/TextureRectMatrixf zero
     static void _set_zero(GlobalNamespace::OVRPlugin::TextureRectMatrixf value);
-    // Creating value type constructor for type: TextureRectMatrixf
-    TextureRectMatrixf(UnityEngine::Rect leftRect_ = {}, UnityEngine::Rect rightRect_ = {}, UnityEngine::Vector4 leftScaleBias_ = {}, UnityEngine::Vector4 rightScaleBias_ = {}) : leftRect{leftRect_}, rightRect{rightRect_}, leftScaleBias{leftScaleBias_}, rightScaleBias{rightScaleBias_} {}
     // static private System.Void .cctor()
     // Offset: 0xF4B454
     static void _cctor();

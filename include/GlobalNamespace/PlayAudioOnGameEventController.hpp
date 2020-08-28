@@ -28,6 +28,8 @@ namespace GlobalNamespace {
     // private PlayAudioOnGameEventController/EventAudioBinding[] _eventAudioBindings
     // Offset: 0x20
     ::Array<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*>* eventAudioBindings;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Awake()
     // Offset: 0xBD9458
     void Awake();

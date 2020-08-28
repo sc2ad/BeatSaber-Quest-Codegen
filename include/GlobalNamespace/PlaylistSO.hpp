@@ -38,6 +38,8 @@ namespace GlobalNamespace {
     // private BeatmapLevelCollectionSO _beatmapLevelCollection
     // Offset: 0x28
     GlobalNamespace::BeatmapLevelCollectionSO* beatmapLevelCollection;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.String get_collectionName()
     // Offset: 0xC1D530
     // Implemented from: IAnnotatedBeatmapLevelCollection

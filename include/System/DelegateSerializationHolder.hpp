@@ -34,6 +34,10 @@ namespace System {
     // private System.Delegate _delegate
     // Offset: 0x10
     System::Delegate* delegate;
+    // Creating conversion operator: operator System::Delegate*
+    constexpr operator System::Delegate*() const {
+      return delegate;
+    }
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext ctx)
     // Offset: 0xC94ACC
     static DelegateSerializationHolder* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext ctx);

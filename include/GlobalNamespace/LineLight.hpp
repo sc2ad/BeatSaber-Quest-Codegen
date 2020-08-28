@@ -32,6 +32,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Color _color
     // Offset: 0x30
     UnityEngine::Color color;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // Get static field: static private System.Collections.Generic.List`1<LineLight> _lineLights
     static System::Collections::Generic::List_1<GlobalNamespace::LineLight*>* _get__lineLights();
     // Set static field: static private System.Collections.Generic.List`1<LineLight> _lineLights

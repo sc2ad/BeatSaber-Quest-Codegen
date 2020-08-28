@@ -59,6 +59,8 @@ namespace System::Runtime::Remoting::Lifetime {
     // private System.Runtime.Remoting.Lifetime.Lease/RenewalDelegate _renewalDelegate
     // Offset: 0x50
     System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate* renewalDelegate;
+    // Deleting conversion operator: operator ::Il2CppObject*
+    constexpr operator ::Il2CppObject*() const = delete;
     // public System.Void Activate()
     // Offset: 0x1061B54
     void Activate();

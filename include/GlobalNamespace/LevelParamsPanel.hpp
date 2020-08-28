@@ -38,6 +38,8 @@ namespace GlobalNamespace {
     // private TMPro.TextMeshProUGUI _bombsCountText
     // Offset: 0x40
     TMPro::TextMeshProUGUI* bombsCountText;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void set_duration(System.Single value)
     // Offset: 0xBF6348
     void set_duration(float value);

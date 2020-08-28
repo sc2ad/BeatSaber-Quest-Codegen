@@ -28,7 +28,7 @@ namespace Microsoft::Win32 {
     // Offset: 0xC
     int Flags;
     // Creating value type constructor for type: TRACE_PROVIDER_INSTANCE_INFO
-    TRACE_PROVIDER_INSTANCE_INFO(int NextOffset_ = {}, int EnableCount_ = {}, int Pid_ = {}, int Flags_ = {}) : NextOffset{NextOffset_}, EnableCount{EnableCount_}, Pid{Pid_}, Flags{Flags_} {}
+    constexpr TRACE_PROVIDER_INSTANCE_INFO(int NextOffset_ = {}, int EnableCount_ = {}, int Pid_ = {}, int Flags_ = {}) : NextOffset{NextOffset_}, EnableCount{EnableCount_}, Pid{Pid_}, Flags{Flags_} {}
   }; // Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/TRACE_PROVIDER_INSTANCE_INFO
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

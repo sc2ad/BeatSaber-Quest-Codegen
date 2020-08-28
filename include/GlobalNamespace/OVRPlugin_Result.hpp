@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Result
+    constexpr Result(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRPlugin/Result Success
     static constexpr const int Success = 0;
     // Get static field: static public OVRPlugin/Result Success
@@ -72,8 +78,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::Result _get_Failure_InsufficientSize();
     // Set static field: static public OVRPlugin/Result Failure_InsufficientSize
     static void _set_Failure_InsufficientSize(GlobalNamespace::OVRPlugin::Result value);
-    // Creating value type constructor for type: Result
-    Result(int value_ = {}) : value{value_} {}
   }; // OVRPlugin/Result
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

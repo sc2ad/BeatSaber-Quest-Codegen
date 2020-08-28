@@ -34,7 +34,7 @@ namespace System::Linq {
     // Offset: 0x0
     int count;
     // Creating value type constructor for type: Buffer_1
-    Buffer_1(::Array<TElement>* items_ = {}, int count_ = {}) : items{items_}, count{count_} {}
+    constexpr Buffer_1(::Array<TElement>* items_ = {}, int count_ = {}) : items{items_}, count{count_} {}
     // System.Void .ctor(System.Collections.Generic.IEnumerable`1<TElement> source)
     // Offset: 0xFFFFFFFF
     static Buffer_1<TElement>* New_ctor(System::Collections::Generic::IEnumerable_1<TElement>* source) {

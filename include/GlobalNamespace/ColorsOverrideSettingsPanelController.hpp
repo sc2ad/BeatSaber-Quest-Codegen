@@ -89,6 +89,8 @@ namespace GlobalNamespace {
     // private HMUI.ButtonBinder _buttonBinder
     // Offset: 0x70
     HMUI::ButtonBinder* buttonBinder;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public ColorSchemesSettings get_colorSchemesSettings()
     // Offset: 0xBE0E18
     GlobalNamespace::ColorSchemesSettings* get_colorSchemesSettings();

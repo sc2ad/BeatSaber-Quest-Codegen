@@ -16,6 +16,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: DTSubStringType
+    constexpr DTSubStringType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.DTSubStringType Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public System.DTSubStringType Unknown
@@ -46,8 +52,6 @@ namespace System {
     static System::DTSubStringType _get_Other();
     // Set static field: static public System.DTSubStringType Other
     static void _set_Other(System::DTSubStringType value);
-    // Creating value type constructor for type: DTSubStringType
-    DTSubStringType(int value_ = {}) : value{value_} {}
   }; // System.DTSubStringType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

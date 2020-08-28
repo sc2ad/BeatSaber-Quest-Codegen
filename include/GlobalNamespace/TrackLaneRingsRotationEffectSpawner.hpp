@@ -34,6 +34,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: RotationStepType
+      constexpr RotationStepType(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public TrackLaneRingsRotationEffectSpawner/RotationStepType Range0ToMax
       static constexpr const int Range0ToMax = 0;
       // Get static field: static public TrackLaneRingsRotationEffectSpawner/RotationStepType Range0ToMax
@@ -52,8 +58,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::TrackLaneRingsRotationEffectSpawner::RotationStepType _get_MaxOr0();
       // Set static field: static public TrackLaneRingsRotationEffectSpawner/RotationStepType MaxOr0
       static void _set_MaxOr0(GlobalNamespace::TrackLaneRingsRotationEffectSpawner::RotationStepType value);
-      // Creating value type constructor for type: RotationStepType
-      RotationStepType(int value_ = {}) : value{value_} {}
     }; // TrackLaneRingsRotationEffectSpawner/RotationStepType
     // private TrackLaneRingsRotationEffect _trackLaneRingsRotationEffect
     // Offset: 0x18
@@ -79,6 +83,8 @@ namespace GlobalNamespace {
     // private BeatmapObjectCallbackController _beatmapObjectCallbackController
     // Offset: 0x38
     GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xC47750
     void Start();

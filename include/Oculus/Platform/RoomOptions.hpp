@@ -27,6 +27,10 @@ namespace Oculus::Platform {
     // private System.IntPtr Handle
     // Offset: 0x10
     System::IntPtr Handle;
+    // Creating conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const {
+      return Handle;
+    }
     // public System.Void SetDataStore(System.String key, System.String value)
     // Offset: 0xEAE34C
     void SetDataStore(::Il2CppString* key, ::Il2CppString* value);

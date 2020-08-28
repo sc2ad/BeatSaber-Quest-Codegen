@@ -7,6 +7,10 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.IKSolverLimb
 #include "RootMotion/FinalIK/IKSolverLimb.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
+// Including type: UnityEngine.Vector3
+#include "UnityEngine/Vector3.hpp"
 // Completed includes
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
@@ -23,7 +27,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x18
     float dot;
     // Creating value type constructor for type: AxisDirection
-    AxisDirection(UnityEngine::Vector3 direction_ = {}, UnityEngine::Vector3 axis_ = {}, float dot_ = {}) : direction{direction_}, axis{axis_}, dot{dot_} {}
+    constexpr AxisDirection(UnityEngine::Vector3 direction_ = {}, UnityEngine::Vector3 axis_ = {}, float dot_ = {}) : direction{direction_}, axis{axis_}, dot{dot_} {}
     // public System.Void .ctor(UnityEngine.Vector3 direction, UnityEngine.Vector3 axis)
     // Offset: 0xA46A68
     static IKSolverLimb::AxisDirection* New_ctor(UnityEngine::Vector3 direction, UnityEngine::Vector3 axis);

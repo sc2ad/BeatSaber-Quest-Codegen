@@ -16,6 +16,12 @@ namespace System::Diagnostics {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: DebuggerBrowsableState
+    constexpr DebuggerBrowsableState(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Diagnostics.DebuggerBrowsableState Never
     static constexpr const int Never = 0;
     // Get static field: static public System.Diagnostics.DebuggerBrowsableState Never
@@ -34,8 +40,6 @@ namespace System::Diagnostics {
     static System::Diagnostics::DebuggerBrowsableState _get_RootHidden();
     // Set static field: static public System.Diagnostics.DebuggerBrowsableState RootHidden
     static void _set_RootHidden(System::Diagnostics::DebuggerBrowsableState value);
-    // Creating value type constructor for type: DebuggerBrowsableState
-    DebuggerBrowsableState(int value_ = {}) : value{value_} {}
   }; // System.Diagnostics.DebuggerBrowsableState
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

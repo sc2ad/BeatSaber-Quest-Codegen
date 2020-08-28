@@ -16,6 +16,12 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // public System.Byte value__
     // Offset: 0x0
     uint8_t value;
+    // Creating value type constructor for type: AngularFalloffType
+    constexpr AngularFalloffType(uint8_t value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator uint8_t
+    constexpr operator uint8_t() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Experimental.GlobalIllumination.AngularFalloffType LUT
     static constexpr const uint8_t LUT = 0u;
     // Get static field: static public UnityEngine.Experimental.GlobalIllumination.AngularFalloffType LUT
@@ -28,8 +34,6 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     static UnityEngine::Experimental::GlobalIllumination::AngularFalloffType _get_AnalyticAndInnerAngle();
     // Set static field: static public UnityEngine.Experimental.GlobalIllumination.AngularFalloffType AnalyticAndInnerAngle
     static void _set_AnalyticAndInnerAngle(UnityEngine::Experimental::GlobalIllumination::AngularFalloffType value);
-    // Creating value type constructor for type: AngularFalloffType
-    AngularFalloffType(uint8_t value_ = {}) : value{value_} {}
   }; // UnityEngine.Experimental.GlobalIllumination.AngularFalloffType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

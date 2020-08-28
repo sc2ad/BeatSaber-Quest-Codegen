@@ -32,6 +32,10 @@ namespace Zenject {
     // public System.Func`2<T,System.Boolean> predicate
     // Offset: 0x0
     System::Func_2<T, bool>* predicate;
+    // Creating conversion operator: operator System::Func_2<T, bool>*
+    constexpr operator System::Func_2<T, bool>*() const {
+      return predicate;
+    }
     // System.Boolean <WithAttributeWhere>b__0(System.Type t)
     // Offset: 0xFFFFFFFF
     bool $WithAttributeWhere$b__0(System::Type* t) {

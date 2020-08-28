@@ -16,6 +16,12 @@ namespace System::Reflection {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ProcessorArchitecture
+    constexpr ProcessorArchitecture(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Reflection.ProcessorArchitecture None
     static constexpr const int None = 0;
     // Get static field: static public System.Reflection.ProcessorArchitecture None
@@ -52,8 +58,6 @@ namespace System::Reflection {
     static System::Reflection::ProcessorArchitecture _get_Arm();
     // Set static field: static public System.Reflection.ProcessorArchitecture Arm
     static void _set_Arm(System::Reflection::ProcessorArchitecture value);
-    // Creating value type constructor for type: ProcessorArchitecture
-    ProcessorArchitecture(int value_ = {}) : value{value_} {}
   }; // System.Reflection.ProcessorArchitecture
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

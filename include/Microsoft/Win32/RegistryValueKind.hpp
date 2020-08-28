@@ -16,6 +16,12 @@ namespace Microsoft::Win32 {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: RegistryValueKind
+    constexpr RegistryValueKind(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Microsoft.Win32.RegistryValueKind Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Microsoft.Win32.RegistryValueKind Unknown
@@ -64,8 +70,6 @@ namespace Microsoft::Win32 {
     static Microsoft::Win32::RegistryValueKind _get_None();
     // Set static field: static public Microsoft.Win32.RegistryValueKind None
     static void _set_None(Microsoft::Win32::RegistryValueKind value);
-    // Creating value type constructor for type: RegistryValueKind
-    RegistryValueKind(int value_ = {}) : value{value_} {}
   }; // Microsoft.Win32.RegistryValueKind
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

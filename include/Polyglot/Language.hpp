@@ -16,6 +16,12 @@ namespace Polyglot {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Language
+    constexpr Language(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Polyglot.Language English
     static constexpr const int English = 0;
     // Get static field: static public Polyglot.Language English
@@ -184,8 +190,6 @@ namespace Polyglot {
     static Polyglot::Language _get_Bosnian();
     // Set static field: static public Polyglot.Language Bosnian
     static void _set_Bosnian(Polyglot::Language value);
-    // Creating value type constructor for type: Language
-    Language(int value_ = {}) : value{value_} {}
   }; // Polyglot.Language
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

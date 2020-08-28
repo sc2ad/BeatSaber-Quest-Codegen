@@ -35,12 +35,16 @@ namespace System::Threading {
     // private System.Threading.CancellationTokenSource m_source
     // Offset: 0x0
     System::Threading::CancellationTokenSource* m_source;
+    // Creating value type constructor for type: CancellationToken
+    constexpr CancellationToken(System::Threading::CancellationTokenSource* m_source_ = {}) : m_source{m_source_} {}
+    // Creating conversion operator: operator System::Threading::CancellationTokenSource*
+    constexpr operator System::Threading::CancellationTokenSource*() const {
+      return m_source;
+    }
     // Get static field: static private readonly System.Action`1<System.Object> s_ActionToActionObjShunt
     static System::Action_1<::Il2CppObject*>* _get_s_ActionToActionObjShunt();
     // Set static field: static private readonly System.Action`1<System.Object> s_ActionToActionObjShunt
     static void _set_s_ActionToActionObjShunt(System::Action_1<::Il2CppObject*>* value);
-    // Creating value type constructor for type: CancellationToken
-    CancellationToken(System::Threading::CancellationTokenSource* m_source_ = {}) : m_source{m_source_} {}
     // static public System.Threading.CancellationToken get_None()
     // Offset: 0x13DA644
     static System::Threading::CancellationToken get_None();

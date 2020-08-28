@@ -29,6 +29,8 @@ namespace Oculus::Platform {
     // private Oculus.Platform.Message`1/Callback<T> callback
     // Offset: 0x0
     typename Oculus::Platform::Message_1<T>::Callback* callback;
+    // Deleting conversion operator: operator Oculus::Platform::Message::Callback*
+    constexpr operator Oculus::Platform::Message::Callback*() const = delete;
     // public System.Void .ctor(Oculus.Platform.Message`1/Callback<T> callback)
     // Offset: 0xFFFFFFFF
     static Callback::RequestCallback_1<T>* New_ctor(typename Oculus::Platform::Message_1<T>::Callback* callback) {

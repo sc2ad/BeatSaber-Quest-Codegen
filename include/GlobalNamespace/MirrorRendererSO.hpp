@@ -67,7 +67,7 @@ namespace GlobalNamespace {
       // Offset: 0x20
       bool stereoEnabled;
       // Creating value type constructor for type: CameraTransformData
-      CameraTransformData(UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion rotation_ = {}, float fov_ = {}, bool stereoEnabled_ = {}) : position{position_}, rotation{rotation_}, fov{fov_}, stereoEnabled{stereoEnabled_} {}
+      constexpr CameraTransformData(UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion rotation_ = {}, float fov_ = {}, bool stereoEnabled_ = {}) : position{position_}, rotation{rotation_}, fov{fov_}, stereoEnabled{stereoEnabled_} {}
       // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, System.Single fov, System.Boolean stereoEnabled)
       // Offset: 0xA5D4A4
       static MirrorRendererSO::CameraTransformData* New_ctor(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, float fov, bool stereoEnabled);
@@ -136,6 +136,8 @@ namespace GlobalNamespace {
     // private readonly UnityEngine.Rect kFullRect
     // Offset: 0x90
     UnityEngine::Rect kFullRect;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static field const value: static private System.Int32 kWaterLayer
     static constexpr const int kWaterLayer = 4;
     // Get static field: static private System.Int32 kWaterLayer

@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: FixedFoveatedRenderingLevel
+    constexpr FixedFoveatedRenderingLevel(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRManager/FixedFoveatedRenderingLevel Off
     static constexpr const int Off = 0;
     // Get static field: static public OVRManager/FixedFoveatedRenderingLevel Off
@@ -48,8 +54,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRManager::FixedFoveatedRenderingLevel _get_HighTop();
     // Set static field: static public OVRManager/FixedFoveatedRenderingLevel HighTop
     static void _set_HighTop(GlobalNamespace::OVRManager::FixedFoveatedRenderingLevel value);
-    // Creating value type constructor for type: FixedFoveatedRenderingLevel
-    FixedFoveatedRenderingLevel(int value_ = {}) : value{value_} {}
   }; // OVRManager/FixedFoveatedRenderingLevel
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

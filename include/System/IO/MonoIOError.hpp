@@ -16,6 +16,12 @@ namespace System::IO {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: MonoIOError
+    constexpr MonoIOError(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.IO.MonoIOError ERROR_SUCCESS
     static constexpr const int ERROR_SUCCESS = 0;
     // Get static field: static public System.IO.MonoIOError ERROR_SUCCESS
@@ -172,8 +178,6 @@ namespace System::IO {
     static System::IO::MonoIOError _get_ERROR_ENCRYPTION_FAILED();
     // Set static field: static public System.IO.MonoIOError ERROR_ENCRYPTION_FAILED
     static void _set_ERROR_ENCRYPTION_FAILED(System::IO::MonoIOError value);
-    // Creating value type constructor for type: MonoIOError
-    MonoIOError(int value_ = {}) : value{value_} {}
   }; // System.IO.MonoIOError
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

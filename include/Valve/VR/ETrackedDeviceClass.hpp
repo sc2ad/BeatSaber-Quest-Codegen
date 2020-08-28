@@ -16,6 +16,12 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ETrackedDeviceClass
+    constexpr ETrackedDeviceClass(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.ETrackedDeviceClass Invalid
     static constexpr const int Invalid = 0;
     // Get static field: static public Valve.VR.ETrackedDeviceClass Invalid
@@ -52,8 +58,6 @@ namespace Valve::VR {
     static Valve::VR::ETrackedDeviceClass _get_DisplayRedirect();
     // Set static field: static public Valve.VR.ETrackedDeviceClass DisplayRedirect
     static void _set_DisplayRedirect(Valve::VR::ETrackedDeviceClass value);
-    // Creating value type constructor for type: ETrackedDeviceClass
-    ETrackedDeviceClass(int value_ = {}) : value{value_} {}
   }; // Valve.VR.ETrackedDeviceClass
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

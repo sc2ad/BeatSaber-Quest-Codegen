@@ -16,7 +16,11 @@ namespace OVR::OpenVR {
     // Offset: 0x0
     uint unVRMessageOverlayResponse;
     // Creating value type constructor for type: VREvent_MessageOverlay_t
-    VREvent_MessageOverlay_t(uint unVRMessageOverlayResponse_ = {}) : unVRMessageOverlayResponse{unVRMessageOverlayResponse_} {}
+    constexpr VREvent_MessageOverlay_t(uint unVRMessageOverlayResponse_ = {}) : unVRMessageOverlayResponse{unVRMessageOverlayResponse_} {}
+    // Creating conversion operator: operator uint
+    constexpr operator uint() const {
+      return unVRMessageOverlayResponse;
+    }
   }; // OVR.OpenVR.VREvent_MessageOverlay_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

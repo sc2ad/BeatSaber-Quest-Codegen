@@ -23,7 +23,11 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x0
     UnityEngine::Vector3 value;
     // Creating value type constructor for type: IntVec3
-    IntVec3(UnityEngine::Vector3 value_ = {}) : value{value_} {}
+    constexpr IntVec3(UnityEngine::Vector3 value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator UnityEngine::Vector3
+    constexpr operator UnityEngine::Vector3() const {
+      return value;
+    }
     // public System.Single get_x()
     // Offset: 0xA3CCD8
     float get_x();

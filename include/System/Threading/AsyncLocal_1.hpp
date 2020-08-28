@@ -29,6 +29,10 @@ namespace System::Threading {
     // private readonly System.Action`1<System.Threading.AsyncLocalValueChangedArgs`1<T>> m_valueChangedHandler
     // Offset: 0x0
     System::Action_1<System::Threading::AsyncLocalValueChangedArgs_1<T>>* m_valueChangedHandler;
+    // Creating conversion operator: operator System::Action_1<System::Threading::AsyncLocalValueChangedArgs_1<T>>*
+    constexpr operator System::Action_1<System::Threading::AsyncLocalValueChangedArgs_1<T>>*() const {
+      return m_valueChangedHandler;
+    }
     // public System.Void .ctor(System.Action`1<System.Threading.AsyncLocalValueChangedArgs`1<T>> valueChangedHandler)
     // Offset: 0xFFFFFFFF
     static AsyncLocal_1<T>* New_ctor(System::Action_1<System::Threading::AsyncLocalValueChangedArgs_1<T>>* valueChangedHandler) {

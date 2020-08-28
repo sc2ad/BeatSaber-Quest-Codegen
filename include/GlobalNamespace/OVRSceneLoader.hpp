@@ -68,7 +68,7 @@ namespace GlobalNamespace {
       // Offset: 0x8
       int64_t version;
       // Creating value type constructor for type: SceneInfo
-      SceneInfo(System::Collections::Generic::List_1<::Il2CppString*>* scenes_ = {}, int64_t version_ = {}) : scenes{scenes_}, version{version_} {}
+      constexpr SceneInfo(System::Collections::Generic::List_1<::Il2CppString*>* scenes_ = {}, int64_t version_ = {}) : scenes{scenes_}, version{version_} {}
       // public System.Void .ctor(System.Collections.Generic.List`1<System.String> sceneList, System.Int64 currentSceneEpochVersion)
       // Offset: 0xA3B930
       static OVRSceneLoader::SceneInfo* New_ctor(System::Collections::Generic::List_1<::Il2CppString*>* sceneList, int64_t currentSceneEpochVersion);
@@ -112,6 +112,8 @@ namespace GlobalNamespace {
     // private OVRSceneLoader/SceneInfo currentSceneInfo
     // Offset: 0x60
     GlobalNamespace::OVRSceneLoader::SceneInfo currentSceneInfo;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static field const value: static public System.String externalStoragePath
     static constexpr const char* externalStoragePath = "/sdcard/Android/data";
     // Get static field: static public System.String externalStoragePath

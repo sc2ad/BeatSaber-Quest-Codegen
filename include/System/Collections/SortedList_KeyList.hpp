@@ -30,6 +30,10 @@ namespace System::Collections {
     // private System.Collections.SortedList sortedList
     // Offset: 0x10
     System::Collections::SortedList* sortedList;
+    // Creating conversion operator: operator System::Collections::SortedList*
+    constexpr operator System::Collections::SortedList*() const {
+      return sortedList;
+    }
     // System.Void .ctor(System.Collections.SortedList sortedList)
     // Offset: 0x10C17E8
     static SortedList::KeyList* New_ctor(System::Collections::SortedList* sortedList);

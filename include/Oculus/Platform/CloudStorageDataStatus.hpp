@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: CloudStorageDataStatus
+    constexpr CloudStorageDataStatus(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.CloudStorageDataStatus Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.CloudStorageDataStatus Unknown
@@ -58,8 +64,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::CloudStorageDataStatus _get_InConflict();
     // Set static field: static public Oculus.Platform.CloudStorageDataStatus InConflict
     static void _set_InConflict(Oculus::Platform::CloudStorageDataStatus value);
-    // Creating value type constructor for type: CloudStorageDataStatus
-    CloudStorageDataStatus(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.CloudStorageDataStatus
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -23,6 +23,10 @@ namespace GlobalNamespace {
     // private System.String <localizedDescription>k__BackingField
     // Offset: 0x10
     ::Il2CppString* localizedDescription;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return localizedDescription;
+    }
     // static field const value: static private System.String kPlayingCampaignRichPresenceLocalizationKey
     static constexpr const char* kPlayingCampaignRichPresenceLocalizationKey = "PLAYING_CAMPAIGN_PRESENCE";
     // Get static field: static private System.String kPlayingCampaignRichPresenceLocalizationKey

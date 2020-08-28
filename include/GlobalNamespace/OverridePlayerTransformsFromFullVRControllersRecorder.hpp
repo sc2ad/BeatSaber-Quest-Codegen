@@ -30,6 +30,8 @@ namespace GlobalNamespace {
     // private PlayerController _playerController
     // Offset: 0x20
     GlobalNamespace::PlayerController* playerController;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xBD0318
     void Start();

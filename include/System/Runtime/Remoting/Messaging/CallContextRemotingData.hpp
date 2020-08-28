@@ -16,6 +16,10 @@ namespace System::Runtime::Remoting::Messaging {
     // private System.String _logicalCallID
     // Offset: 0x10
     ::Il2CppString* logicalCallID;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return logicalCallID;
+    }
     // System.String get_LogicalCallID()
     // Offset: 0x1067128
     ::Il2CppString* get_LogicalCallID();

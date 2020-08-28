@@ -9,6 +9,8 @@
 #include "System/Collections/Stack.hpp"
 // Including type: System.Collections.IEnumerator
 #include "System/Collections/IEnumerator.hpp"
+// Including type: System.ICloneable
+#include "System/ICloneable.hpp"
 // Completed includes
 // Type namespace: System.Collections
 namespace System::Collections {

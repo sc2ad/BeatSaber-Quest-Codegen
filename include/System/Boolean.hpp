@@ -43,6 +43,12 @@ namespace System {
     // private System.Boolean m_value
     // Offset: 0x0
     bool m_value;
+    // Creating value type constructor for type: Boolean
+    constexpr Boolean(bool m_value_ = {}) : m_value{m_value_} {}
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return m_value;
+    }
     // static field const value: static System.Int32 True
     static constexpr const int True = 1;
     // Get static field: static System.Int32 True
@@ -75,8 +81,6 @@ namespace System {
     static ::Il2CppString* _get_FalseString();
     // Set static field: static public readonly System.String FalseString
     static void _set_FalseString(::Il2CppString* value);
-    // Creating value type constructor for type: Boolean
-    Boolean(bool m_value_ = {}) : m_value{m_value_} {}
     // static public System.Boolean Parse(System.String value)
     // Offset: 0x1333E78
     static bool Parse(::Il2CppString* value);

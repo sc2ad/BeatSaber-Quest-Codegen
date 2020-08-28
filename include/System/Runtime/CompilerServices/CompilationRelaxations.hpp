@@ -16,14 +16,18 @@ namespace System::Runtime::CompilerServices {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: CompilationRelaxations
+    constexpr CompilationRelaxations(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Runtime.CompilerServices.CompilationRelaxations NoStringInterning
     static constexpr const int NoStringInterning = 8;
     // Get static field: static public System.Runtime.CompilerServices.CompilationRelaxations NoStringInterning
     static System::Runtime::CompilerServices::CompilationRelaxations _get_NoStringInterning();
     // Set static field: static public System.Runtime.CompilerServices.CompilationRelaxations NoStringInterning
     static void _set_NoStringInterning(System::Runtime::CompilerServices::CompilationRelaxations value);
-    // Creating value type constructor for type: CompilationRelaxations
-    CompilationRelaxations(int value_ = {}) : value{value_} {}
   }; // System.Runtime.CompilerServices.CompilationRelaxations
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

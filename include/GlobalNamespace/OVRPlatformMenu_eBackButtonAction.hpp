@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: eBackButtonAction
+    constexpr eBackButtonAction(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRPlatformMenu/eBackButtonAction NONE
     static constexpr const int NONE = 0;
     // Get static field: static public OVRPlatformMenu/eBackButtonAction NONE
@@ -30,8 +36,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlatformMenu::eBackButtonAction _get_SHORT_PRESS();
     // Set static field: static public OVRPlatformMenu/eBackButtonAction SHORT_PRESS
     static void _set_SHORT_PRESS(GlobalNamespace::OVRPlatformMenu::eBackButtonAction value);
-    // Creating value type constructor for type: eBackButtonAction
-    eBackButtonAction(int value_ = {}) : value{value_} {}
   }; // OVRPlatformMenu/eBackButtonAction
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

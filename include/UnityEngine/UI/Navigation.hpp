@@ -33,6 +33,12 @@ namespace UnityEngine::UI {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: Mode
+      constexpr Mode(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public UnityEngine.UI.Navigation/Mode None
       static constexpr const int None = 0;
       // Get static field: static public UnityEngine.UI.Navigation/Mode None
@@ -63,8 +69,6 @@ namespace UnityEngine::UI {
       static UnityEngine::UI::Navigation::Mode _get_Explicit();
       // Set static field: static public UnityEngine.UI.Navigation/Mode Explicit
       static void _set_Explicit(UnityEngine::UI::Navigation::Mode value);
-      // Creating value type constructor for type: Mode
-      Mode(int value_ = {}) : value{value_} {}
     }; // UnityEngine.UI.Navigation/Mode
     // private UnityEngine.UI.Navigation/Mode m_Mode
     // Offset: 0x0
@@ -82,7 +86,7 @@ namespace UnityEngine::UI {
     // Offset: 0x20
     UnityEngine::UI::Selectable* m_SelectOnRight;
     // Creating value type constructor for type: Navigation
-    Navigation(UnityEngine::UI::Navigation::Mode m_Mode_ = {}, UnityEngine::UI::Selectable* m_SelectOnUp_ = {}, UnityEngine::UI::Selectable* m_SelectOnDown_ = {}, UnityEngine::UI::Selectable* m_SelectOnLeft_ = {}, UnityEngine::UI::Selectable* m_SelectOnRight_ = {}) : m_Mode{m_Mode_}, m_SelectOnUp{m_SelectOnUp_}, m_SelectOnDown{m_SelectOnDown_}, m_SelectOnLeft{m_SelectOnLeft_}, m_SelectOnRight{m_SelectOnRight_} {}
+    constexpr Navigation(UnityEngine::UI::Navigation::Mode m_Mode_ = {}, UnityEngine::UI::Selectable* m_SelectOnUp_ = {}, UnityEngine::UI::Selectable* m_SelectOnDown_ = {}, UnityEngine::UI::Selectable* m_SelectOnLeft_ = {}, UnityEngine::UI::Selectable* m_SelectOnRight_ = {}) : m_Mode{m_Mode_}, m_SelectOnUp{m_SelectOnUp_}, m_SelectOnDown{m_SelectOnDown_}, m_SelectOnLeft{m_SelectOnLeft_}, m_SelectOnRight{m_SelectOnRight_} {}
     // public UnityEngine.UI.Navigation/Mode get_mode()
     // Offset: 0xA43228
     UnityEngine::UI::Navigation::Mode get_mode();

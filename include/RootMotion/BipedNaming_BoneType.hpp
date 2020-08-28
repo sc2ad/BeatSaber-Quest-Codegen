@@ -18,6 +18,12 @@ namespace RootMotion {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: BoneType
+    constexpr BoneType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public RootMotion.BipedNaming/BoneType Unassigned
     static constexpr const int Unassigned = 0;
     // Get static field: static public RootMotion.BipedNaming/BoneType Unassigned
@@ -60,8 +66,6 @@ namespace RootMotion {
     static RootMotion::BipedNaming::BoneType _get_Eye();
     // Set static field: static public RootMotion.BipedNaming/BoneType Eye
     static void _set_Eye(RootMotion::BipedNaming::BoneType value);
-    // Creating value type constructor for type: BoneType
-    BoneType(int value_ = {}) : value{value_} {}
   }; // RootMotion.BipedNaming/BoneType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

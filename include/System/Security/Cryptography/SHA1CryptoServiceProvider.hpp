@@ -23,6 +23,10 @@ namespace System::Security::Cryptography {
     // private System.Security.Cryptography.SHA1Internal sha
     // Offset: 0x28
     System::Security::Cryptography::SHA1Internal* sha;
+    // Creating conversion operator: operator System::Security::Cryptography::SHA1Internal*
+    constexpr operator System::Security::Cryptography::SHA1Internal*() const {
+      return sha;
+    }
     // public System.Void .ctor()
     // Offset: 0xDEC9DC
     // Implemented from: System.Security.Cryptography.SHA1

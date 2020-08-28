@@ -16,6 +16,12 @@ namespace TMPro {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: FontStyles
+    constexpr FontStyles(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public TMPro.FontStyles Normal
     static constexpr const int Normal = 0;
     // Get static field: static public TMPro.FontStyles Normal
@@ -82,8 +88,6 @@ namespace TMPro {
     static TMPro::FontStyles _get_Highlight();
     // Set static field: static public TMPro.FontStyles Highlight
     static void _set_Highlight(TMPro::FontStyles value);
-    // Creating value type constructor for type: FontStyles
-    FontStyles(int value_ = {}) : value{value_} {}
   }; // TMPro.FontStyles
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

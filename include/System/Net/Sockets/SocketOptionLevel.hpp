@@ -16,6 +16,12 @@ namespace System::Net::Sockets {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SocketOptionLevel
+    constexpr SocketOptionLevel(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Net.Sockets.SocketOptionLevel Socket
     static constexpr const int Socket = 65535;
     // Get static field: static public System.Net.Sockets.SocketOptionLevel Socket
@@ -46,8 +52,6 @@ namespace System::Net::Sockets {
     static System::Net::Sockets::SocketOptionLevel _get_Udp();
     // Set static field: static public System.Net.Sockets.SocketOptionLevel Udp
     static void _set_Udp(System::Net::Sockets::SocketOptionLevel value);
-    // Creating value type constructor for type: SocketOptionLevel
-    SocketOptionLevel(int value_ = {}) : value{value_} {}
   }; // System.Net.Sockets.SocketOptionLevel
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

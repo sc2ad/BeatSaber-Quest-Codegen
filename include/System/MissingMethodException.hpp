@@ -25,6 +25,10 @@ namespace System {
     // private System.String signature
     // Offset: 0xA0
     ::Il2CppString* signature;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return signature;
+    }
     // public System.Void .ctor(System.String className, System.String methodName)
     // Offset: 0x1018C48
     static MissingMethodException* New_ctor(::Il2CppString* className, ::Il2CppString* methodName);

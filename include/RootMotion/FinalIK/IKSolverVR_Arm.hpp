@@ -36,6 +36,12 @@ namespace RootMotion::FinalIK {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: ShoulderRotationMode
+      constexpr ShoulderRotationMode(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public RootMotion.FinalIK.IKSolverVR/Arm/ShoulderRotationMode YawPitch
       static constexpr const int YawPitch = 0;
       // Get static field: static public RootMotion.FinalIK.IKSolverVR/Arm/ShoulderRotationMode YawPitch
@@ -48,8 +54,6 @@ namespace RootMotion::FinalIK {
       static RootMotion::FinalIK::IKSolverVR::Arm::ShoulderRotationMode _get_FromTo();
       // Set static field: static public RootMotion.FinalIK.IKSolverVR/Arm/ShoulderRotationMode FromTo
       static void _set_FromTo(RootMotion::FinalIK::IKSolverVR::Arm::ShoulderRotationMode value);
-      // Creating value type constructor for type: ShoulderRotationMode
-      ShoulderRotationMode(int value_ = {}) : value{value_} {}
     }; // RootMotion.FinalIK.IKSolverVR/Arm/ShoulderRotationMode
     // public UnityEngine.Transform target
     // Offset: 0x48

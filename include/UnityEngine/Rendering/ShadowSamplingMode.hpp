@@ -16,6 +16,12 @@ namespace UnityEngine::Rendering {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ShadowSamplingMode
+    constexpr ShadowSamplingMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Rendering.ShadowSamplingMode CompareDepths
     static constexpr const int CompareDepths = 0;
     // Get static field: static public UnityEngine.Rendering.ShadowSamplingMode CompareDepths
@@ -34,8 +40,6 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::ShadowSamplingMode _get_None();
     // Set static field: static public UnityEngine.Rendering.ShadowSamplingMode None
     static void _set_None(UnityEngine::Rendering::ShadowSamplingMode value);
-    // Creating value type constructor for type: ShadowSamplingMode
-    ShadowSamplingMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Rendering.ShadowSamplingMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

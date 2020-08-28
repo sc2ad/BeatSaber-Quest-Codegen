@@ -114,6 +114,10 @@ namespace Zenject {
       // public TTask task
       // Offset: 0x0
       TTask task;
+      // Creating conversion operator: operator TTask
+      constexpr operator TTask() const {
+        return task;
+      }
       // System.Boolean <RemoveTask>b__0(Zenject.TaskUpdater`1/TaskInfo<TTask> x)
       // Offset: 0xFFFFFFFF
       bool $RemoveTask$b__0(typename Zenject::TaskUpdater_1<TTask>::TaskInfo* x) {

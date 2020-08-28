@@ -22,7 +22,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x8
     ::Il2CppObject* value;
     // Creating value type constructor for type: Ephemeron
-    Ephemeron(::Il2CppObject* key_ = {}, ::Il2CppObject* value_ = {}) : key{key_}, value{value_} {}
+    constexpr Ephemeron(::Il2CppObject* key_ = {}, ::Il2CppObject* value_ = {}) : key{key_}, value{value_} {}
   }; // System.Runtime.CompilerServices.Ephemeron
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

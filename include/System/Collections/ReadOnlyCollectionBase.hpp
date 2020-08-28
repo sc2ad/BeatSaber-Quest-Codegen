@@ -30,6 +30,10 @@ namespace System::Collections {
     // private System.Collections.ArrayList list
     // Offset: 0x10
     System::Collections::ArrayList* list;
+    // Creating conversion operator: operator System::Collections::ArrayList*
+    constexpr operator System::Collections::ArrayList*() const {
+      return list;
+    }
     // protected System.Collections.ArrayList get_InnerList()
     // Offset: 0x10C0740
     System::Collections::ArrayList* get_InnerList();

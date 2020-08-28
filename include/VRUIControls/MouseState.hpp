@@ -29,6 +29,10 @@ namespace VRUIControls {
     // private System.Collections.Generic.List`1<VRUIControls.ButtonState> _trackedButtons
     // Offset: 0x10
     System::Collections::Generic::List_1<VRUIControls::ButtonState*>* trackedButtons;
+    // Creating conversion operator: operator System::Collections::Generic::List_1<VRUIControls::ButtonState*>*
+    constexpr operator System::Collections::Generic::List_1<VRUIControls::ButtonState*>*() const {
+      return trackedButtons;
+    }
     // public System.Boolean AnyPressesThisFrame()
     // Offset: 0x1938D1C
     bool AnyPressesThisFrame();

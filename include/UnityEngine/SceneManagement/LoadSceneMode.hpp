@@ -16,6 +16,12 @@ namespace UnityEngine::SceneManagement {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: LoadSceneMode
+    constexpr LoadSceneMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.SceneManagement.LoadSceneMode Single
     static constexpr const int Single = 0;
     // Get static field: static public UnityEngine.SceneManagement.LoadSceneMode Single
@@ -28,8 +34,6 @@ namespace UnityEngine::SceneManagement {
     static UnityEngine::SceneManagement::LoadSceneMode _get_Additive();
     // Set static field: static public UnityEngine.SceneManagement.LoadSceneMode Additive
     static void _set_Additive(UnityEngine::SceneManagement::LoadSceneMode value);
-    // Creating value type constructor for type: LoadSceneMode
-    LoadSceneMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.SceneManagement.LoadSceneMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

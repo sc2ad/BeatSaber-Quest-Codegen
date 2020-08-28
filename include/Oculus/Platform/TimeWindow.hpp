@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TimeWindow
+    constexpr TimeWindow(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.TimeWindow Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.TimeWindow Unknown
@@ -52,8 +58,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::TimeWindow _get_NinetyDays();
     // Set static field: static public Oculus.Platform.TimeWindow NinetyDays
     static void _set_NinetyDays(Oculus::Platform::TimeWindow value);
-    // Creating value type constructor for type: TimeWindow
-    TimeWindow(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.TimeWindow
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

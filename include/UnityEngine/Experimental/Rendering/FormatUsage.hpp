@@ -16,6 +16,12 @@ namespace UnityEngine::Experimental::Rendering {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: FormatUsage
+    constexpr FormatUsage(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Experimental.Rendering.FormatUsage Sample
     static constexpr const int Sample = 0;
     // Get static field: static public UnityEngine.Experimental.Rendering.FormatUsage Sample
@@ -100,8 +106,6 @@ namespace UnityEngine::Experimental::Rendering {
     static UnityEngine::Experimental::Rendering::FormatUsage _get_StencilSampling();
     // Set static field: static public UnityEngine.Experimental.Rendering.FormatUsage StencilSampling
     static void _set_StencilSampling(UnityEngine::Experimental::Rendering::FormatUsage value);
-    // Creating value type constructor for type: FormatUsage
-    FormatUsage(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Experimental.Rendering.FormatUsage
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

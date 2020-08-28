@@ -16,6 +16,10 @@ namespace JetBrains::Annotations {
     // private System.Boolean <CreateConstructorReferences>k__BackingField
     // Offset: 0x10
     bool CreateConstructorReferences;
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return CreateConstructorReferences;
+    }
     // public System.Boolean get_CreateConstructorReferences()
     // Offset: 0x19610B4
     bool get_CreateConstructorReferences();

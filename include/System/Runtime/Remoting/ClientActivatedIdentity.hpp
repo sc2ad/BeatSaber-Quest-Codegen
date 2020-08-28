@@ -34,6 +34,10 @@ namespace System::Runtime::Remoting {
     // private System.MarshalByRefObject _targetThis
     // Offset: 0x70
     System::MarshalByRefObject* targetThis;
+    // Creating conversion operator: operator System::MarshalByRefObject*
+    constexpr operator System::MarshalByRefObject*() const {
+      return targetThis;
+    }
     // public System.Void .ctor(System.String objectUri, System.Type objectType)
     // Offset: 0x105A6C8
     static ClientActivatedIdentity* New_ctor(::Il2CppString* objectUri, System::Type* objectType);

@@ -16,6 +16,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: DayOfWeek
+    constexpr DayOfWeek(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.DayOfWeek Sunday
     static constexpr const int Sunday = 0;
     // Get static field: static public System.DayOfWeek Sunday
@@ -58,8 +64,6 @@ namespace System {
     static System::DayOfWeek _get_Saturday();
     // Set static field: static public System.DayOfWeek Saturday
     static void _set_Saturday(System::DayOfWeek value);
-    // Creating value type constructor for type: DayOfWeek
-    DayOfWeek(int value_ = {}) : value{value_} {}
   }; // System.DayOfWeek
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

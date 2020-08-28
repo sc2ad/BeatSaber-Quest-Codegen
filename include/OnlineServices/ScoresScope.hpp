@@ -16,6 +16,12 @@ namespace OnlineServices {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ScoresScope
+    constexpr ScoresScope(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OnlineServices.ScoresScope Global
     static constexpr const int Global = 0;
     // Get static field: static public OnlineServices.ScoresScope Global
@@ -28,8 +34,6 @@ namespace OnlineServices {
     static OnlineServices::ScoresScope _get_Friends();
     // Set static field: static public OnlineServices.ScoresScope Friends
     static void _set_Friends(OnlineServices::ScoresScope value);
-    // Creating value type constructor for type: ScoresScope
-    ScoresScope(int value_ = {}) : value{value_} {}
   }; // OnlineServices.ScoresScope
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

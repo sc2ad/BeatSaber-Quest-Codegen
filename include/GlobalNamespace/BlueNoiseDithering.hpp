@@ -23,6 +23,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Texture2D _noiseTexture
     // Offset: 0x18
     UnityEngine::Texture2D* noiseTexture;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // Get static field: static private readonly System.Int32 _noiseParamsID
     static int _get__noiseParamsID();
     // Set static field: static private readonly System.Int32 _noiseParamsID

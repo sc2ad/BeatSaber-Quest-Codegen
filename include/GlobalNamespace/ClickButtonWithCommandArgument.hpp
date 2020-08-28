@@ -36,6 +36,8 @@ namespace GlobalNamespace {
     // private UnityEngine.UI.Button _button
     // Offset: 0x20
     UnityEngine::UI::Button* button;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Collections.IEnumerator Start()
     // Offset: 0xCAE818
     System::Collections::IEnumerator* Start();

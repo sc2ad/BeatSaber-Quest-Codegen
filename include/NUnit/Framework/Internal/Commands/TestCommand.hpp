@@ -25,6 +25,10 @@ namespace NUnit::Framework::Internal::Commands {
     // private NUnit.Framework.Internal.Test <Test>k__BackingField
     // Offset: 0x10
     NUnit::Framework::Internal::Test* Test;
+    // Creating conversion operator: operator NUnit::Framework::Internal::Test*
+    constexpr operator NUnit::Framework::Internal::Test*() const {
+      return Test;
+    }
     // public System.Void .ctor(NUnit.Framework.Internal.Test test)
     // Offset: 0x1088084
     static TestCommand* New_ctor(NUnit::Framework::Internal::Test* test);

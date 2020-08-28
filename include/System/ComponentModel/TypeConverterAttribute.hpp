@@ -23,6 +23,10 @@ namespace System::ComponentModel {
     // private System.String typeName
     // Offset: 0x10
     ::Il2CppString* typeName;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return typeName;
+    }
     // Get static field: static public readonly System.ComponentModel.TypeConverterAttribute Default
     static System::ComponentModel::TypeConverterAttribute* _get_Default();
     // Set static field: static public readonly System.ComponentModel.TypeConverterAttribute Default

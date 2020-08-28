@@ -23,6 +23,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Animator _animator
     // Offset: 0x18
     UnityEngine::Animator* animator;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void ShowEffect()
     // Offset: 0xB4BFDC
     void ShowEffect();

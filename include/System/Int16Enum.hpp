@@ -17,7 +17,11 @@ namespace System {
     // Offset: 0x0
     int16_t value;
     // Creating value type constructor for type: Int16Enum
-    Int16Enum(int16_t value_ = {}) : value{value_} {}
+    constexpr Int16Enum(int16_t value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int16_t
+    constexpr operator int16_t() const {
+      return value;
+    }
   }; // System.Int16Enum
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

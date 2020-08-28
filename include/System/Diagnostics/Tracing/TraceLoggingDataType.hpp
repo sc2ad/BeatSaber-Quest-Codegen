@@ -16,6 +16,12 @@ namespace System::Diagnostics::Tracing {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TraceLoggingDataType
+    constexpr TraceLoggingDataType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Diagnostics.Tracing.TraceLoggingDataType Nil
     static constexpr const int Nil = 0;
     // Get static field: static public System.Diagnostics.Tracing.TraceLoggingDataType Nil
@@ -238,8 +244,6 @@ namespace System::Diagnostics::Tracing {
     static System::Diagnostics::Tracing::TraceLoggingDataType _get_HResult();
     // Set static field: static public System.Diagnostics.Tracing.TraceLoggingDataType HResult
     static void _set_HResult(System::Diagnostics::Tracing::TraceLoggingDataType value);
-    // Creating value type constructor for type: TraceLoggingDataType
-    TraceLoggingDataType(int value_ = {}) : value{value_} {}
   }; // System.Diagnostics.Tracing.TraceLoggingDataType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

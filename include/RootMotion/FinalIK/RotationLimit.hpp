@@ -31,6 +31,8 @@ namespace RootMotion::FinalIK {
     // private System.Boolean defaultLocalRotationSet
     // Offset: 0x37
     bool defaultLocalRotationSet;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void SetDefaultLocalRotation()
     // Offset: 0x1237BA4
     void SetDefaultLocalRotation();

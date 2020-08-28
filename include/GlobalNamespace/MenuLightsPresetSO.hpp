@@ -31,6 +31,8 @@ namespace GlobalNamespace {
     // private MenuLightsPresetSO/LightIdColorPair[] _lightIdColorPairs
     // Offset: 0x28
     ::Array<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*>* lightIdColorPairs;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public ColorSO get_playersPlaceNeonsColor()
     // Offset: 0xC01DB0
     GlobalNamespace::ColorSO* get_playersPlaceNeonsColor();

@@ -32,12 +32,16 @@ namespace UnityEngine::Animations {
     // private UnityEngine.Playables.PlayableHandle m_Handle
     // Offset: 0x0
     UnityEngine::Playables::PlayableHandle m_Handle;
+    // Creating value type constructor for type: AnimationMotionXToDeltaPlayable
+    constexpr AnimationMotionXToDeltaPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
+    // Creating conversion operator: operator UnityEngine::Playables::PlayableHandle
+    constexpr operator UnityEngine::Playables::PlayableHandle() const {
+      return m_Handle;
+    }
     // Get static field: static private readonly UnityEngine.Animations.AnimationMotionXToDeltaPlayable m_NullPlayable
     static UnityEngine::Animations::AnimationMotionXToDeltaPlayable _get_m_NullPlayable();
     // Set static field: static private readonly UnityEngine.Animations.AnimationMotionXToDeltaPlayable m_NullPlayable
     static void _set_m_NullPlayable(UnityEngine::Animations::AnimationMotionXToDeltaPlayable value);
-    // Creating value type constructor for type: AnimationMotionXToDeltaPlayable
-    AnimationMotionXToDeltaPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // static public UnityEngine.Animations.AnimationMotionXToDeltaPlayable Create(UnityEngine.Playables.PlayableGraph graph)
     // Offset: 0x193EF04
     static UnityEngine::Animations::AnimationMotionXToDeltaPlayable Create(UnityEngine::Playables::PlayableGraph graph);

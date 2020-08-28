@@ -44,6 +44,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Vector3 _initColliderSize
     // Offset: 0x40
     UnityEngine::Vector3 initColliderSize;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Awake()
     // Offset: 0xB3C7B8
     void Awake();

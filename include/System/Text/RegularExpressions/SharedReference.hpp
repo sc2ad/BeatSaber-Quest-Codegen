@@ -21,6 +21,10 @@ namespace System::Text::RegularExpressions {
     // private System.WeakReference _ref
     // Offset: 0x10
     System::WeakReference* ref;
+    // Creating conversion operator: operator System::WeakReference*
+    constexpr operator System::WeakReference*() const {
+      return ref;
+    }
     // public System.Void .ctor()
     // Offset: 0x1504468
     // Implemented from: System.Object

@@ -34,6 +34,10 @@ namespace Zenject {
     // public Zenject.IFixedTickable tickable
     // Offset: 0x10
     Zenject::IFixedTickable* tickable;
+    // Creating conversion operator: operator Zenject::IFixedTickable*
+    constexpr operator Zenject::IFixedTickable*() const {
+      return tickable;
+    }
     // System.Boolean <InitFixedTickables>b__1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
     // Offset: 0xFD5848
     bool $InitFixedTickables$b__1(ModestTree::Util::ValuePair_2<System::Type*, int>* x);

@@ -25,12 +25,12 @@ namespace UnityEngine::XR {
     // private System.UInt64 m_SubId2
     // Offset: 0x8
     uint64_t m_SubId2;
+    // Creating value type constructor for type: MeshId
+    constexpr MeshId(uint64_t m_SubId1_ = {}, uint64_t m_SubId2_ = {}) : m_SubId1{m_SubId1_}, m_SubId2{m_SubId2_} {}
     // Get static field: static private UnityEngine.XR.MeshId s_InvalidId
     static UnityEngine::XR::MeshId _get_s_InvalidId();
     // Set static field: static private UnityEngine.XR.MeshId s_InvalidId
     static void _set_s_InvalidId(UnityEngine::XR::MeshId value);
-    // Creating value type constructor for type: MeshId
-    MeshId(uint64_t m_SubId1_ = {}, uint64_t m_SubId2_ = {}) : m_SubId1{m_SubId1_}, m_SubId2{m_SubId2_} {}
     // static private System.Void .cctor()
     // Offset: 0x1967F68
     static void _cctor();

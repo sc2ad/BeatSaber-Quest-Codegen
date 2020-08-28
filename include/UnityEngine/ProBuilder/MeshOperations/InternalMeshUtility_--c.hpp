@@ -28,7 +28,8 @@ namespace System {
 namespace UnityEngine {
   // Forward declaring type: Mesh
   class Mesh;
-  // Skipping declaration: Vector3 because it is already included!
+  // Forward declaring type: Vector3
+  struct Vector3;
   // Forward declaring type: Color
   struct Color;
   // Forward declaring type: Vector2

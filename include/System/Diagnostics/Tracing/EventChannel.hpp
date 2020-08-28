@@ -16,6 +16,12 @@ namespace System::Diagnostics::Tracing {
     // public System.Byte value__
     // Offset: 0x0
     uint8_t value;
+    // Creating value type constructor for type: EventChannel
+    constexpr EventChannel(uint8_t value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator uint8_t
+    constexpr operator uint8_t() const {
+      return value;
+    }
     // static field const value: static public System.Diagnostics.Tracing.EventChannel None
     static constexpr const uint8_t None = 0u;
     // Get static field: static public System.Diagnostics.Tracing.EventChannel None
@@ -46,8 +52,6 @@ namespace System::Diagnostics::Tracing {
     static System::Diagnostics::Tracing::EventChannel _get_Debug();
     // Set static field: static public System.Diagnostics.Tracing.EventChannel Debug
     static void _set_Debug(System::Diagnostics::Tracing::EventChannel value);
-    // Creating value type constructor for type: EventChannel
-    EventChannel(uint8_t value_ = {}) : value{value_} {}
   }; // System.Diagnostics.Tracing.EventChannel
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

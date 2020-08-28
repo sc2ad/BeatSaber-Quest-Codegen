@@ -16,6 +16,12 @@ namespace TMPro {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TextOverflowModes
+    constexpr TextOverflowModes(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public TMPro.TextOverflowModes Overflow
     static constexpr const int Overflow = 0;
     // Get static field: static public TMPro.TextOverflowModes Overflow
@@ -58,8 +64,6 @@ namespace TMPro {
     static TMPro::TextOverflowModes _get_Linked();
     // Set static field: static public TMPro.TextOverflowModes Linked
     static void _set_Linked(TMPro::TextOverflowModes value);
-    // Creating value type constructor for type: TextOverflowModes
-    TextOverflowModes(int value_ = {}) : value{value_} {}
   }; // TMPro.TextOverflowModes
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

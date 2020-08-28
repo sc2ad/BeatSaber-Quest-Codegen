@@ -35,12 +35,16 @@ namespace UnityEngine::Playables {
     // private UnityEngine.Playables.PlayableHandle m_Handle
     // Offset: 0x0
     UnityEngine::Playables::PlayableHandle m_Handle;
+    // Creating value type constructor for type: Playable
+    constexpr Playable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
+    // Creating conversion operator: operator UnityEngine::Playables::PlayableHandle
+    constexpr operator UnityEngine::Playables::PlayableHandle() const {
+      return m_Handle;
+    }
     // Get static field: static private readonly UnityEngine.Playables.Playable m_NullPlayable
     static UnityEngine::Playables::Playable _get_m_NullPlayable();
     // Set static field: static private readonly UnityEngine.Playables.Playable m_NullPlayable
     static void _set_m_NullPlayable(UnityEngine::Playables::Playable value);
-    // Creating value type constructor for type: Playable
-    Playable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // static public UnityEngine.Playables.Playable get_Null()
     // Offset: 0x141A448
     static UnityEngine::Playables::Playable get_Null();

@@ -30,6 +30,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: CellSize
+      constexpr CellSize(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public SteamVR_Skybox/CellSize x1024
       static constexpr const int x1024 = 0;
       // Get static field: static public SteamVR_Skybox/CellSize x1024
@@ -60,8 +66,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::SteamVR_Skybox::CellSize _get_x8();
       // Set static field: static public SteamVR_Skybox/CellSize x8
       static void _set_x8(GlobalNamespace::SteamVR_Skybox::CellSize value);
-      // Creating value type constructor for type: CellSize
-      CellSize(int value_ = {}) : value{value_} {}
     }; // SteamVR_Skybox/CellSize
     // public UnityEngine.Texture front
     // Offset: 0x18
@@ -87,6 +91,8 @@ namespace GlobalNamespace {
     // public System.Single StereoIpdMm
     // Offset: 0x4C
     float StereoIpdMm;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void SetTextureByIndex(System.Int32 i, UnityEngine.Texture t)
     // Offset: 0xD93C08
     void SetTextureByIndex(int i, UnityEngine::Texture* t);

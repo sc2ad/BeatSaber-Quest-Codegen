@@ -30,6 +30,8 @@ namespace System::Threading::Tasks {
     // private System.Threading.Tasks.Task m_canceledTask
     // Offset: 0x90
     System::Threading::Tasks::Task* m_canceledTask;
+    // Deleting conversion operator: operator System::Threading::CancellationToken
+    constexpr operator System::Threading::CancellationToken() const = delete;
     // public System.Void .ctor(System.Threading.Tasks.Task task)
     // Offset: 0xCE3050
     static TaskCanceledException* New_ctor(System::Threading::Tasks::Task* task);

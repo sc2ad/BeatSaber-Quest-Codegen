@@ -83,6 +83,12 @@ namespace GlobalNamespace {
         // public System.Int32 value__
         // Offset: 0x0
         int value;
+        // Creating value type constructor for type: Result
+        constexpr Result(int value_ = {}) : value{value_} {}
+        // Creating conversion operator: operator int
+        constexpr operator int() const {
+          return value;
+        }
         // static field const value: static public BeatmapLevelSO/GetBeatmapLevelDataResult/Result OK
         static constexpr const int OK = 0;
         // Get static field: static public BeatmapLevelSO/GetBeatmapLevelDataResult/Result OK
@@ -101,8 +107,6 @@ namespace GlobalNamespace {
         static GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult::Result _get_Fail();
         // Set static field: static public BeatmapLevelSO/GetBeatmapLevelDataResult/Result Fail
         static void _set_Fail(GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult::Result value);
-        // Creating value type constructor for type: Result
-        Result(int value_ = {}) : value{value_} {}
       }; // BeatmapLevelSO/GetBeatmapLevelDataResult/Result
       // public readonly BeatmapLevelSO/GetBeatmapLevelDataResult/Result result
       // Offset: 0x0
@@ -111,7 +115,7 @@ namespace GlobalNamespace {
       // Offset: 0x8
       GlobalNamespace::IBeatmapLevelData* beatmapLevelData;
       // Creating value type constructor for type: GetBeatmapLevelDataResult
-      GetBeatmapLevelDataResult(GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult::Result result_ = {}, GlobalNamespace::IBeatmapLevelData* beatmapLevelData_ = {}) : result{result_}, beatmapLevelData{beatmapLevelData_} {}
+      constexpr GetBeatmapLevelDataResult(GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult::Result result_ = {}, GlobalNamespace::IBeatmapLevelData* beatmapLevelData_ = {}) : result{result_}, beatmapLevelData{beatmapLevelData_} {}
       // public System.Void .ctor(BeatmapLevelSO/GetBeatmapLevelDataResult/Result result, IBeatmapLevelData beatmapLevelData)
       // Offset: 0xA2BC48
       static BeatmapLevelSO::GetBeatmapLevelDataResult* New_ctor(GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult::Result result, GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
@@ -182,6 +186,8 @@ namespace GlobalNamespace {
     // private BeatmapLevelSO/GetBeatmapLevelDataResult _getBeatmapLevelDataResult
     // Offset: 0xA8
     GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult getBeatmapLevelDataResult;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public UnityEngine.AudioClip get_previewAudioClip()
     // Offset: 0xB71DCC
     UnityEngine::AudioClip* get_previewAudioClip();

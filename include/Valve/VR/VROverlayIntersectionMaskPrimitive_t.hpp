@@ -24,7 +24,7 @@ namespace Valve::VR {
     // Offset: 0x4
     Valve::VR::VROverlayIntersectionMaskPrimitive_Data_t m_Primitive;
     // Creating value type constructor for type: VROverlayIntersectionMaskPrimitive_t
-    VROverlayIntersectionMaskPrimitive_t(Valve::VR::EVROverlayIntersectionMaskPrimitiveType m_nPrimitiveType_ = {}, Valve::VR::VROverlayIntersectionMaskPrimitive_Data_t m_Primitive_ = {}) : m_nPrimitiveType{m_nPrimitiveType_}, m_Primitive{m_Primitive_} {}
+    constexpr VROverlayIntersectionMaskPrimitive_t(Valve::VR::EVROverlayIntersectionMaskPrimitiveType m_nPrimitiveType_ = {}, Valve::VR::VROverlayIntersectionMaskPrimitive_Data_t m_Primitive_ = {}) : m_nPrimitiveType{m_nPrimitiveType_}, m_Primitive{m_Primitive_} {}
   }; // Valve.VR.VROverlayIntersectionMaskPrimitive_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

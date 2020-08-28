@@ -22,7 +22,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0x8
     System::Runtime::Serialization::StreamingContextStates m_state;
     // Creating value type constructor for type: StreamingContext
-    StreamingContext(::Il2CppObject* m_additionalContext_ = {}, System::Runtime::Serialization::StreamingContextStates m_state_ = {}) : m_additionalContext{m_additionalContext_}, m_state{m_state_} {}
+    constexpr StreamingContext(::Il2CppObject* m_additionalContext_ = {}, System::Runtime::Serialization::StreamingContextStates m_state_ = {}) : m_additionalContext{m_additionalContext_}, m_state{m_state_} {}
     // public System.Void .ctor(System.Runtime.Serialization.StreamingContextStates state)
     // Offset: 0xA3F2B0
     static StreamingContext* New_ctor(System::Runtime::Serialization::StreamingContextStates state);

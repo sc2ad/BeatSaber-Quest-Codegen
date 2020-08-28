@@ -16,6 +16,12 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRScreenshotPropertyFilenames
+    constexpr EVRScreenshotPropertyFilenames(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.EVRScreenshotPropertyFilenames Preview
     static constexpr const int Preview = 0;
     // Get static field: static public Valve.VR.EVRScreenshotPropertyFilenames Preview
@@ -28,8 +34,6 @@ namespace Valve::VR {
     static Valve::VR::EVRScreenshotPropertyFilenames _get_VR();
     // Set static field: static public Valve.VR.EVRScreenshotPropertyFilenames VR
     static void _set_VR(Valve::VR::EVRScreenshotPropertyFilenames value);
-    // Creating value type constructor for type: EVRScreenshotPropertyFilenames
-    EVRScreenshotPropertyFilenames(int value_ = {}) : value{value_} {}
   }; // Valve.VR.EVRScreenshotPropertyFilenames
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

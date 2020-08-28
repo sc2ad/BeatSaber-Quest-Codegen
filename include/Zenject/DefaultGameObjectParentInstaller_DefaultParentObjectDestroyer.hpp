@@ -25,6 +25,10 @@ namespace Zenject {
     // private readonly UnityEngine.GameObject _gameObject
     // Offset: 0x10
     UnityEngine::GameObject* gameObject;
+    // Creating conversion operator: operator UnityEngine::GameObject*
+    constexpr operator UnityEngine::GameObject*() const {
+      return gameObject;
+    }
     // public System.Void .ctor(UnityEngine.GameObject gameObject)
     // Offset: 0xD70F18
     static DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer* New_ctor(UnityEngine::GameObject* gameObject);

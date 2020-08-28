@@ -16,6 +16,12 @@ namespace TMPro {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: MaskingOffsetMode
+    constexpr MaskingOffsetMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public TMPro.MaskingOffsetMode Percentage
     static constexpr const int Percentage = 0;
     // Get static field: static public TMPro.MaskingOffsetMode Percentage
@@ -28,8 +34,6 @@ namespace TMPro {
     static TMPro::MaskingOffsetMode _get_Pixel();
     // Set static field: static public TMPro.MaskingOffsetMode Pixel
     static void _set_Pixel(TMPro::MaskingOffsetMode value);
-    // Creating value type constructor for type: MaskingOffsetMode
-    MaskingOffsetMode(int value_ = {}) : value{value_} {}
   }; // TMPro.MaskingOffsetMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

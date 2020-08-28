@@ -22,7 +22,7 @@ namespace System::Collections {
     // Offset: 0x8
     ::Il2CppObject* value;
     // Creating value type constructor for type: DictionaryEntry
-    DictionaryEntry(::Il2CppObject* key_ = {}, ::Il2CppObject* value_ = {}) : key{key_}, value{value_} {}
+    constexpr DictionaryEntry(::Il2CppObject* key_ = {}, ::Il2CppObject* value_ = {}) : key{key_}, value{value_} {}
     // public System.Void .ctor(System.Object key, System.Object value)
     // Offset: 0xA467CC
     static DictionaryEntry* New_ctor(::Il2CppObject* key, ::Il2CppObject* value);

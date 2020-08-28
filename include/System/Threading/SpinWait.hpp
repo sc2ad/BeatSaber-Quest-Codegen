@@ -16,7 +16,11 @@ namespace System::Threading {
     // Offset: 0x0
     int m_count;
     // Creating value type constructor for type: SpinWait
-    SpinWait(int m_count_ = {}) : m_count{m_count_} {}
+    constexpr SpinWait(int m_count_ = {}) : m_count{m_count_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return m_count;
+    }
     // public System.Boolean get_NextSpinWillYield()
     // Offset: 0xA2DD60
     bool get_NextSpinWillYield();

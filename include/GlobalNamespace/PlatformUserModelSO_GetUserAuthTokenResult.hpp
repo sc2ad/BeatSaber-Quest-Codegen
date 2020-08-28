@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: GetUserAuthTokenResult
+    constexpr GetUserAuthTokenResult(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public PlatformUserModelSO/GetUserAuthTokenResult OK
     static constexpr const int OK = 0;
     // Get static field: static public PlatformUserModelSO/GetUserAuthTokenResult OK
@@ -30,8 +36,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::PlatformUserModelSO::GetUserAuthTokenResult _get_Failed();
     // Set static field: static public PlatformUserModelSO/GetUserAuthTokenResult Failed
     static void _set_Failed(GlobalNamespace::PlatformUserModelSO::GetUserAuthTokenResult value);
-    // Creating value type constructor for type: GetUserAuthTokenResult
-    GetUserAuthTokenResult(int value_ = {}) : value{value_} {}
   }; // PlatformUserModelSO/GetUserAuthTokenResult
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

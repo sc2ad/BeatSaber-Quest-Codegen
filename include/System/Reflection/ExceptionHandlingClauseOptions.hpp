@@ -16,6 +16,12 @@ namespace System::Reflection {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ExceptionHandlingClauseOptions
+    constexpr ExceptionHandlingClauseOptions(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Reflection.ExceptionHandlingClauseOptions Clause
     static constexpr const int Clause = 0;
     // Get static field: static public System.Reflection.ExceptionHandlingClauseOptions Clause
@@ -40,8 +46,6 @@ namespace System::Reflection {
     static System::Reflection::ExceptionHandlingClauseOptions _get_Fault();
     // Set static field: static public System.Reflection.ExceptionHandlingClauseOptions Fault
     static void _set_Fault(System::Reflection::ExceptionHandlingClauseOptions value);
-    // Creating value type constructor for type: ExceptionHandlingClauseOptions
-    ExceptionHandlingClauseOptions(int value_ = {}) : value{value_} {}
   }; // System.Reflection.ExceptionHandlingClauseOptions
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

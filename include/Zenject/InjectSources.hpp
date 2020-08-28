@@ -16,6 +16,12 @@ namespace Zenject {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: InjectSources
+    constexpr InjectSources(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Zenject.InjectSources Any
     static constexpr const int Any = 0;
     // Get static field: static public Zenject.InjectSources Any
@@ -40,8 +46,6 @@ namespace Zenject {
     static Zenject::InjectSources _get_AnyParent();
     // Set static field: static public Zenject.InjectSources AnyParent
     static void _set_AnyParent(Zenject::InjectSources value);
-    // Creating value type constructor for type: InjectSources
-    InjectSources(int value_ = {}) : value{value_} {}
   }; // Zenject.InjectSources
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

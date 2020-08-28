@@ -16,6 +16,12 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ValueFixupEnum
+    constexpr ValueFixupEnum(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Runtime.Serialization.Formatters.Binary.ValueFixupEnum Empty
     static constexpr const int Empty = 0;
     // Get static field: static public System.Runtime.Serialization.Formatters.Binary.ValueFixupEnum Empty
@@ -40,8 +46,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum _get_Member();
     // Set static field: static public System.Runtime.Serialization.Formatters.Binary.ValueFixupEnum Member
     static void _set_Member(System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum value);
-    // Creating value type constructor for type: ValueFixupEnum
-    ValueFixupEnum(int value_ = {}) : value{value_} {}
   }; // System.Runtime.Serialization.Formatters.Binary.ValueFixupEnum
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

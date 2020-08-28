@@ -13,7 +13,8 @@
 namespace UnityEngine::ProBuilder {
   // Forward declaring type: ProBuilderMesh
   class ProBuilderMesh;
-  // Skipping declaration: Edge because it is already included!
+  // Forward declaring type: Edge
+  struct Edge;
 }
 // Completed forward declares
 // Type namespace: UnityEngine.ProBuilder
@@ -24,6 +25,10 @@ namespace UnityEngine::ProBuilder {
     // public UnityEngine.ProBuilder.ProBuilderMesh mesh
     // Offset: 0x10
     UnityEngine::ProBuilder::ProBuilderMesh* mesh;
+    // Creating conversion operator: operator UnityEngine::ProBuilder::ProBuilderMesh*
+    constexpr operator UnityEngine::ProBuilder::ProBuilderMesh*() const {
+      return mesh;
+    }
     // UnityEngine.ProBuilder.Edge <GetSharedVertexHandleEdges>b__0(UnityEngine.ProBuilder.Edge x)
     // Offset: 0xF930C4
     UnityEngine::ProBuilder::Edge $GetSharedVertexHandleEdges$b__0(UnityEngine::ProBuilder::Edge x);

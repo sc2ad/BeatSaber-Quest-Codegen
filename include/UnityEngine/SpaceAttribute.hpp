@@ -16,6 +16,10 @@ namespace UnityEngine {
     // public readonly System.Single height
     // Offset: 0x10
     float height;
+    // Creating conversion operator: operator float
+    constexpr operator float() const {
+      return height;
+    }
     // public System.Void .ctor(System.Single height)
     // Offset: 0x1392510
     static SpaceAttribute* New_ctor(float height);

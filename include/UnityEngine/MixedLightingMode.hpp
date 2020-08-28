@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: MixedLightingMode
+    constexpr MixedLightingMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.MixedLightingMode IndirectOnly
     static constexpr const int IndirectOnly = 0;
     // Get static field: static public UnityEngine.MixedLightingMode IndirectOnly
@@ -34,8 +40,6 @@ namespace UnityEngine {
     static UnityEngine::MixedLightingMode _get_Subtractive();
     // Set static field: static public UnityEngine.MixedLightingMode Subtractive
     static void _set_Subtractive(UnityEngine::MixedLightingMode value);
-    // Creating value type constructor for type: MixedLightingMode
-    MixedLightingMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.MixedLightingMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

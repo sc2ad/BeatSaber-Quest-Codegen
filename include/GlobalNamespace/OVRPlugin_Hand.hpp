@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Hand
+    constexpr Hand(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRPlugin/Hand None
     static constexpr const int None = -1;
     // Get static field: static public OVRPlugin/Hand None
@@ -36,8 +42,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::Hand _get_HandRight();
     // Set static field: static public OVRPlugin/Hand HandRight
     static void _set_HandRight(GlobalNamespace::OVRPlugin::Hand value);
-    // Creating value type constructor for type: Hand
-    Hand(int value_ = {}) : value{value_} {}
   }; // OVRPlugin/Hand
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

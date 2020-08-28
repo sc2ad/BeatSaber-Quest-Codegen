@@ -21,12 +21,12 @@ namespace GlobalNamespace {
     // public System.Int32 h
     // Offset: 0x4
     int h;
+    // Creating value type constructor for type: Sizei
+    constexpr Sizei(int w_ = {}, int h_ = {}) : w{w_}, h{h_} {}
     // Get static field: static public readonly OVRPlugin/Sizei zero
     static GlobalNamespace::OVRPlugin::Sizei _get_zero();
     // Set static field: static public readonly OVRPlugin/Sizei zero
     static void _set_zero(GlobalNamespace::OVRPlugin::Sizei value);
-    // Creating value type constructor for type: Sizei
-    Sizei(int w_ = {}, int h_ = {}) : w{w_}, h{h_} {}
     // static private System.Void .cctor()
     // Offset: 0xF4B228
     static void _cctor();

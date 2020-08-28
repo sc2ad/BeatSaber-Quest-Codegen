@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: AchievementType
+    constexpr AchievementType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.AchievementType Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.AchievementType Unknown
@@ -40,8 +46,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::AchievementType _get_Count();
     // Set static field: static public Oculus.Platform.AchievementType Count
     static void _set_Count(Oculus::Platform::AchievementType value);
-    // Creating value type constructor for type: AchievementType
-    AchievementType(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.AchievementType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

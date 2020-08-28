@@ -37,6 +37,8 @@ namespace GlobalNamespace {
     // private System.Single _cutout
     // Offset: 0x40
     float cutout;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // Get static field: static private readonly System.Int32 _cutoutPropertyID
     static int _get__cutoutPropertyID();
     // Set static field: static private readonly System.Int32 _cutoutPropertyID

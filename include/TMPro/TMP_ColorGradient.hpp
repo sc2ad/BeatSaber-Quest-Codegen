@@ -32,6 +32,8 @@ namespace TMPro {
     // public UnityEngine.Color bottomRight
     // Offset: 0x4C
     UnityEngine::Color bottomRight;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static field const value: static private TMPro.ColorMode k_DefaultColorMode
     static constexpr const int k_DefaultColorMode = 3;
     // Get static field: static private TMPro.ColorMode k_DefaultColorMode

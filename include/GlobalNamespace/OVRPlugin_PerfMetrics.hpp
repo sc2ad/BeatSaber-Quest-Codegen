@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: PerfMetrics
+    constexpr PerfMetrics(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRPlugin/PerfMetrics App_CpuTime_Float
     static constexpr const int App_CpuTime_Float = 0;
     // Get static field: static public OVRPlugin/PerfMetrics App_CpuTime_Float
@@ -102,8 +108,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::PerfMetrics _get_EnumSize();
     // Set static field: static public OVRPlugin/PerfMetrics EnumSize
     static void _set_EnumSize(GlobalNamespace::OVRPlugin::PerfMetrics value);
-    // Creating value type constructor for type: PerfMetrics
-    PerfMetrics(int value_ = {}) : value{value_} {}
   }; // OVRPlugin/PerfMetrics
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

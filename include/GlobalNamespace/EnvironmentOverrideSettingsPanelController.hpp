@@ -72,6 +72,8 @@ namespace GlobalNamespace {
     // private System.Boolean _initialized
     // Offset: 0x58
     bool initialized;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public OverrideEnvironmentSettings get_overrideEnvironmentSettings()
     // Offset: 0xBEA748
     GlobalNamespace::OverrideEnvironmentSettings* get_overrideEnvironmentSettings();

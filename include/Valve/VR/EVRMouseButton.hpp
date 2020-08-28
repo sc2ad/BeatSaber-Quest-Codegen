@@ -16,6 +16,12 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRMouseButton
+    constexpr EVRMouseButton(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.EVRMouseButton Left
     static constexpr const int Left = 1;
     // Get static field: static public Valve.VR.EVRMouseButton Left
@@ -34,8 +40,6 @@ namespace Valve::VR {
     static Valve::VR::EVRMouseButton _get_Middle();
     // Set static field: static public Valve.VR.EVRMouseButton Middle
     static void _set_Middle(Valve::VR::EVRMouseButton value);
-    // Creating value type constructor for type: EVRMouseButton
-    EVRMouseButton(int value_ = {}) : value{value_} {}
   }; // Valve.VR.EVRMouseButton
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

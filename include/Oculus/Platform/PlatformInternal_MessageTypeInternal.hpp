@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.PlatformInternal
 #include "Oculus/Platform/PlatformInternal.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
@@ -16,6 +18,12 @@ namespace Oculus::Platform {
     // public System.UInt32 value__
     // Offset: 0x0
     uint value;
+    // Creating value type constructor for type: MessageTypeInternal
+    constexpr MessageTypeInternal(uint value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator uint
+    constexpr operator uint() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.PlatformInternal/MessageTypeInternal Application_ExecuteCoordinatedLaunch
     static constexpr const uint Application_ExecuteCoordinatedLaunch = 645772532u;
     // Get static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal Application_ExecuteCoordinatedLaunch
@@ -340,8 +348,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::PlatformInternal::MessageTypeInternal _get_User_TestUserCreateDeviceManifest();
     // Set static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal User_TestUserCreateDeviceManifest
     static void _set_User_TestUserCreateDeviceManifest(Oculus::Platform::PlatformInternal::MessageTypeInternal value);
-    // Creating value type constructor for type: MessageTypeInternal
-    MessageTypeInternal(uint value_ = {}) : value{value_} {}
   }; // Oculus.Platform.PlatformInternal/MessageTypeInternal
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -26,7 +26,7 @@ namespace TMPro {
     // Offset: 0x8
     TMPro::TMP_FontAsset* italicTypeface;
     // Creating value type constructor for type: TMP_FontWeightPair
-    TMP_FontWeightPair(TMPro::TMP_FontAsset* regularTypeface_ = {}, TMPro::TMP_FontAsset* italicTypeface_ = {}) : regularTypeface{regularTypeface_}, italicTypeface{italicTypeface_} {}
+    constexpr TMP_FontWeightPair(TMPro::TMP_FontAsset* regularTypeface_ = {}, TMPro::TMP_FontAsset* italicTypeface_ = {}) : regularTypeface{regularTypeface_}, italicTypeface{italicTypeface_} {}
   }; // TMPro.TMP_FontWeightPair
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

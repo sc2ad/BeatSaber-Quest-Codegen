@@ -35,6 +35,8 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.HashSet`1<System.String> _alwaysOwnedPacksIds
     // Offset: 0x28
     System::Collections::Generic::HashSet_1<::Il2CppString*>* alwaysOwnedPacksIds;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Collections.Generic.HashSet`1<System.String> get_alwaysOwnedBeatmapLevelIds()
     // Offset: 0xB849E8
     System::Collections::Generic::HashSet_1<::Il2CppString*>* get_alwaysOwnedBeatmapLevelIds();

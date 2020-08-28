@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: RuntimeInitializeLoadType
+    constexpr RuntimeInitializeLoadType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.RuntimeInitializeLoadType AfterSceneLoad
     static constexpr const int AfterSceneLoad = 0;
     // Get static field: static public UnityEngine.RuntimeInitializeLoadType AfterSceneLoad
@@ -46,8 +52,6 @@ namespace UnityEngine {
     static UnityEngine::RuntimeInitializeLoadType _get_SubsystemRegistration();
     // Set static field: static public UnityEngine.RuntimeInitializeLoadType SubsystemRegistration
     static void _set_SubsystemRegistration(UnityEngine::RuntimeInitializeLoadType value);
-    // Creating value type constructor for type: RuntimeInitializeLoadType
-    RuntimeInitializeLoadType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.RuntimeInitializeLoadType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

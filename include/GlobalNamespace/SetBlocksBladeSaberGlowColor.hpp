@@ -33,6 +33,8 @@ namespace GlobalNamespace {
     // private BlocksBlade _blocksBlade
     // Offset: 0x28
     GlobalNamespace::BlocksBlade* blocksBlade;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xC2E008
     void Start();

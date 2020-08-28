@@ -28,6 +28,8 @@ namespace UnityEngine {
     // public System.Single z
     // Offset: 0x8
     float z;
+    // Creating value type constructor for type: Vector3
+    constexpr Vector3(float x_ = {}, float y_ = {}, float z_ = {}) : x{x_}, y{y_}, z{z_} {}
     // static field const value: static public System.Single kEpsilon
     static constexpr const float kEpsilon = 1e-05;
     // Get static field: static public System.Single kEpsilon
@@ -80,8 +82,6 @@ namespace UnityEngine {
     static UnityEngine::Vector3 _get_negativeInfinityVector();
     // Set static field: static private readonly UnityEngine.Vector3 negativeInfinityVector
     static void _set_negativeInfinityVector(UnityEngine::Vector3 value);
-    // Creating value type constructor for type: Vector3
-    Vector3(float x_ = {}, float y_ = {}, float z_ = {}) : x{x_}, y{y_}, z{z_} {}
     // static public UnityEngine.Vector3 Slerp(UnityEngine.Vector3 a, UnityEngine.Vector3 b, System.Single t)
     // Offset: 0x139C674
     static UnityEngine::Vector3 Slerp(UnityEngine::Vector3 a, UnityEngine::Vector3 b, float t);

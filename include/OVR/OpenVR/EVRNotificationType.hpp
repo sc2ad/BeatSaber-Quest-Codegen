@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRNotificationType
+    constexpr EVRNotificationType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.EVRNotificationType Transient
     static constexpr const int Transient = 0;
     // Get static field: static public OVR.OpenVR.EVRNotificationType Transient
@@ -34,8 +40,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRNotificationType _get_Transient_SystemWithUserValue();
     // Set static field: static public OVR.OpenVR.EVRNotificationType Transient_SystemWithUserValue
     static void _set_Transient_SystemWithUserValue(OVR::OpenVR::EVRNotificationType value);
-    // Creating value type constructor for type: EVRNotificationType
-    EVRNotificationType(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EVRNotificationType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

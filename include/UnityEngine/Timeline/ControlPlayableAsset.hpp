@@ -137,6 +137,8 @@ namespace UnityEngine::Timeline {
     // private System.Boolean <controllingParticles>k__BackingField
     // Offset: 0x52
     bool controllingParticles;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static field const value: static private System.Int32 k_MaxRandInt
     static constexpr const int k_MaxRandInt = 10000;
     // Get static field: static private System.Int32 k_MaxRandInt

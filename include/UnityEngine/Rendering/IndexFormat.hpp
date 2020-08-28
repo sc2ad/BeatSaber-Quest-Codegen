@@ -16,6 +16,12 @@ namespace UnityEngine::Rendering {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: IndexFormat
+    constexpr IndexFormat(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Rendering.IndexFormat UInt16
     static constexpr const int UInt16 = 0;
     // Get static field: static public UnityEngine.Rendering.IndexFormat UInt16
@@ -28,8 +34,6 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::IndexFormat _get_UInt32();
     // Set static field: static public UnityEngine.Rendering.IndexFormat UInt32
     static void _set_UInt32(UnityEngine::Rendering::IndexFormat value);
-    // Creating value type constructor for type: IndexFormat
-    IndexFormat(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Rendering.IndexFormat
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

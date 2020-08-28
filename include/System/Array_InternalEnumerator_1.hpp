@@ -27,7 +27,7 @@ namespace System {
     // Offset: 0x0
     int idx;
     // Creating value type constructor for type: InternalEnumerator_1
-    InternalEnumerator_1(System::Array* array_ = {}, int idx_ = {}) : array{array_}, idx{idx_} {}
+    constexpr InternalEnumerator_1(System::Array* array_ = {}, int idx_ = {}) : array{array_}, idx{idx_} {}
     // System.Void .ctor(System.Array array)
     // Offset: 0xFFFFFFFF
     static Array::InternalEnumerator_1<T>* New_ctor(System::Array* array) {

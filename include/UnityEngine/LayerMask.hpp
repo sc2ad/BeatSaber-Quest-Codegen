@@ -21,7 +21,11 @@ namespace UnityEngine {
     // Offset: 0x0
     int m_Mask;
     // Creating value type constructor for type: LayerMask
-    LayerMask(int m_Mask_ = {}) : m_Mask{m_Mask_} {}
+    constexpr LayerMask(int m_Mask_ = {}) : m_Mask{m_Mask_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return m_Mask;
+    }
     // public System.Int32 get_value()
     // Offset: 0xA45F78
     int get_value();

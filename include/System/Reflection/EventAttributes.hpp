@@ -16,6 +16,12 @@ namespace System::Reflection {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EventAttributes
+    constexpr EventAttributes(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Reflection.EventAttributes None
     static constexpr const int None = 0;
     // Get static field: static public System.Reflection.EventAttributes None
@@ -40,8 +46,6 @@ namespace System::Reflection {
     static System::Reflection::EventAttributes _get_RTSpecialName();
     // Set static field: static public System.Reflection.EventAttributes RTSpecialName
     static void _set_RTSpecialName(System::Reflection::EventAttributes value);
-    // Creating value type constructor for type: EventAttributes
-    EventAttributes(int value_ = {}) : value{value_} {}
   }; // System.Reflection.EventAttributes
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TextGenerationError
+    constexpr TextGenerationError(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.TextGenerationError None
     static constexpr const int None = 0;
     // Get static field: static public UnityEngine.TextGenerationError None
@@ -40,8 +46,6 @@ namespace UnityEngine {
     static UnityEngine::TextGenerationError _get_NoFont();
     // Set static field: static public UnityEngine.TextGenerationError NoFont
     static void _set_NoFont(UnityEngine::TextGenerationError value);
-    // Creating value type constructor for type: TextGenerationError
-    TextGenerationError(int value_ = {}) : value{value_} {}
   }; // UnityEngine.TextGenerationError
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

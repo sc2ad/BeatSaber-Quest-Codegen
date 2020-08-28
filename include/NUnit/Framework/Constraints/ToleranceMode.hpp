@@ -16,6 +16,12 @@ namespace NUnit::Framework::Constraints {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ToleranceMode
+    constexpr ToleranceMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public NUnit.Framework.Constraints.ToleranceMode Unset
     static constexpr const int Unset = 0;
     // Get static field: static public NUnit.Framework.Constraints.ToleranceMode Unset
@@ -40,8 +46,6 @@ namespace NUnit::Framework::Constraints {
     static NUnit::Framework::Constraints::ToleranceMode _get_Ulps();
     // Set static field: static public NUnit.Framework.Constraints.ToleranceMode Ulps
     static void _set_Ulps(NUnit::Framework::Constraints::ToleranceMode value);
-    // Creating value type constructor for type: ToleranceMode
-    ToleranceMode(int value_ = {}) : value{value_} {}
   }; // NUnit.Framework.Constraints.ToleranceMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

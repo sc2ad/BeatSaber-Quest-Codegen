@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: NetSyncVoipMicSource
+    constexpr NetSyncVoipMicSource(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.NetSyncVoipMicSource Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.NetSyncVoipMicSource Unknown
@@ -34,8 +40,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::NetSyncVoipMicSource _get_Internal();
     // Set static field: static public Oculus.Platform.NetSyncVoipMicSource Internal
     static void _set_Internal(Oculus::Platform::NetSyncVoipMicSource value);
-    // Creating value type constructor for type: NetSyncVoipMicSource
-    NetSyncVoipMicSource(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.NetSyncVoipMicSource
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

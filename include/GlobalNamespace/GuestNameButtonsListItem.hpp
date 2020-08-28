@@ -39,6 +39,8 @@ namespace GlobalNamespace {
     // private System.Action _buttonPressed
     // Offset: 0x28
     System::Action* buttonPressed;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void set_nameText(System.String value)
     // Offset: 0xB41914
     void set_nameText(::Il2CppString* value);

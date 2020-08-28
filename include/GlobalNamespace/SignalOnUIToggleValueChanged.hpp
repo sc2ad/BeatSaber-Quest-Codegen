@@ -31,6 +31,8 @@ namespace GlobalNamespace {
     // private UnityEngine.UI.Toggle _toggle
     // Offset: 0x20
     UnityEngine::UI::Toggle* toggle;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private System.Void OnReset()
     // Offset: 0xCBCF70
     void OnReset();

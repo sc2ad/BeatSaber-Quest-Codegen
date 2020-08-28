@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRSkeletalMotionRange
+    constexpr EVRSkeletalMotionRange(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.EVRSkeletalMotionRange WithController
     static constexpr const int WithController = 0;
     // Get static field: static public OVR.OpenVR.EVRSkeletalMotionRange WithController
@@ -28,8 +34,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRSkeletalMotionRange _get_WithoutController();
     // Set static field: static public OVR.OpenVR.EVRSkeletalMotionRange WithoutController
     static void _set_WithoutController(OVR::OpenVR::EVRSkeletalMotionRange value);
-    // Creating value type constructor for type: EVRSkeletalMotionRange
-    EVRSkeletalMotionRange(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EVRSkeletalMotionRange
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

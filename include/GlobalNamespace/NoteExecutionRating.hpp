@@ -27,6 +27,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: Rating
+      constexpr Rating(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public NoteExecutionRating/Rating GoodCut
       static constexpr const int GoodCut = 0;
       // Get static field: static public NoteExecutionRating/Rating GoodCut
@@ -45,8 +51,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::NoteExecutionRating::Rating _get_BadCut();
       // Set static field: static public NoteExecutionRating/Rating BadCut
       static void _set_BadCut(GlobalNamespace::NoteExecutionRating::Rating value);
-      // Creating value type constructor for type: Rating
-      Rating(int value_ = {}) : value{value_} {}
     }; // NoteExecutionRating/Rating
     // private NoteExecutionRating/Rating <rating>k__BackingField
     // Offset: 0x18

@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SpriteMeshType
+    constexpr SpriteMeshType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.SpriteMeshType FullRect
     static constexpr const int FullRect = 0;
     // Get static field: static public UnityEngine.SpriteMeshType FullRect
@@ -28,8 +34,6 @@ namespace UnityEngine {
     static UnityEngine::SpriteMeshType _get_Tight();
     // Set static field: static public UnityEngine.SpriteMeshType Tight
     static void _set_Tight(UnityEngine::SpriteMeshType value);
-    // Creating value type constructor for type: SpriteMeshType
-    SpriteMeshType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.SpriteMeshType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -28,6 +28,8 @@ namespace GlobalNamespace {
     // private UnityEngine.MonoBehaviour _component
     // Offset: 0x18
     UnityEngine::MonoBehaviour* component;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private System.Collections.IEnumerator Start()
     // Offset: 0xCAFCD8
     System::Collections::IEnumerator* Start();

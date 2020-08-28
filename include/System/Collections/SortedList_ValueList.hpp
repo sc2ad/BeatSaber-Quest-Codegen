@@ -16,6 +16,10 @@ namespace System::Collections {
     // private System.Collections.SortedList sortedList
     // Offset: 0x10
     System::Collections::SortedList* sortedList;
+    // Creating conversion operator: operator System::Collections::SortedList*
+    constexpr operator System::Collections::SortedList*() const {
+      return sortedList;
+    }
   }; // System.Collections.SortedList/ValueList
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

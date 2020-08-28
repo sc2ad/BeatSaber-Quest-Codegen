@@ -16,6 +16,12 @@ namespace Polyglot {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: GoogleDriveDownloadFormat
+    constexpr GoogleDriveDownloadFormat(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Polyglot.GoogleDriveDownloadFormat CSV
     static constexpr const int CSV = 0;
     // Get static field: static public Polyglot.GoogleDriveDownloadFormat CSV
@@ -28,8 +34,6 @@ namespace Polyglot {
     static Polyglot::GoogleDriveDownloadFormat _get_TSV();
     // Set static field: static public Polyglot.GoogleDriveDownloadFormat TSV
     static void _set_TSV(Polyglot::GoogleDriveDownloadFormat value);
-    // Creating value type constructor for type: GoogleDriveDownloadFormat
-    GoogleDriveDownloadFormat(int value_ = {}) : value{value_} {}
   }; // Polyglot.GoogleDriveDownloadFormat
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

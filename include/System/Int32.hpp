@@ -46,6 +46,12 @@ namespace System {
     // System.Int32 m_value
     // Offset: 0x0
     int m_value;
+    // Creating value type constructor for type: Int32
+    constexpr Int32(int m_value_ = {}) : m_value{m_value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return m_value;
+    }
     // static field const value: static public System.Int32 MaxValue
     static constexpr const int MaxValue = 2147483647;
     // Get static field: static public System.Int32 MaxValue
@@ -58,8 +64,6 @@ namespace System {
     static int _get_MinValue();
     // Set static field: static public System.Int32 MinValue
     static void _set_MinValue(int value);
-    // Creating value type constructor for type: Int32
-    Int32(int m_value_ = {}) : m_value{m_value_} {}
     // public System.String ToString(System.String format)
     // Offset: 0xA3F594
     ::Il2CppString* ToString(::Il2CppString* format);

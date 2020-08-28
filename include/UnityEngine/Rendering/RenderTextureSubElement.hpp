@@ -16,6 +16,12 @@ namespace UnityEngine::Rendering {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: RenderTextureSubElement
+    constexpr RenderTextureSubElement(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Rendering.RenderTextureSubElement Color
     static constexpr const int Color = 0;
     // Get static field: static public UnityEngine.Rendering.RenderTextureSubElement Color
@@ -40,8 +46,6 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::RenderTextureSubElement _get_Default();
     // Set static field: static public UnityEngine.Rendering.RenderTextureSubElement Default
     static void _set_Default(UnityEngine::Rendering::RenderTextureSubElement value);
-    // Creating value type constructor for type: RenderTextureSubElement
-    RenderTextureSubElement(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Rendering.RenderTextureSubElement
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

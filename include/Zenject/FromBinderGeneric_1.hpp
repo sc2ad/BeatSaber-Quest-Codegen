@@ -132,6 +132,10 @@ namespace Zenject {
       // public System.Func`1<TContract> method
       // Offset: 0x0
       System::Func_1<TContract>* method;
+      // Creating conversion operator: operator System::Func_1<TContract>*
+      constexpr operator System::Func_1<TContract>*() const {
+        return method;
+      }
       // TContract <FromMethod>b__0(Zenject.InjectContext ctx)
       // Offset: 0xFFFFFFFF
       TContract $FromMethod$b__0(Zenject::InjectContext* ctx) {
@@ -152,6 +156,10 @@ namespace Zenject {
       // public System.Func`2<TContract,System.Boolean> predicate
       // Offset: 0x0
       System::Func_2<TContract, bool>* predicate;
+      // Creating conversion operator: operator System::Func_2<TContract, bool>*
+      constexpr operator System::Func_2<TContract, bool>*() const {
+        return predicate;
+      }
       // System.Boolean <FromComponentsInChildren>b__0(UnityEngine.Component component)
       // Offset: 0xFFFFFFFF
       bool $FromComponentsInChildren$b__0(UnityEngine::Component* component) {
@@ -172,6 +180,10 @@ namespace Zenject {
       // public System.Func`2<TContract,System.Boolean> predicate
       // Offset: 0x0
       System::Func_2<TContract, bool>* predicate;
+      // Creating conversion operator: operator System::Func_2<TContract, bool>*
+      constexpr operator System::Func_2<TContract, bool>*() const {
+        return predicate;
+      }
       // System.Boolean <FromComponentsInHierarchy>b__0(UnityEngine.Component component)
       // Offset: 0xFFFFFFFF
       bool $FromComponentsInHierarchy$b__0(UnityEngine::Component* component) {

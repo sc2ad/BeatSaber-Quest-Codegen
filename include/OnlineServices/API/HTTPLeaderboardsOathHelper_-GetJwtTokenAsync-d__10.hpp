@@ -54,7 +54,7 @@ namespace OnlineServices::API {
     // Offset: 0x40
     System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__2;
     // Creating value type constructor for type: $GetJwtTokenAsync$d__10
-    $GetJwtTokenAsync$d__10(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<LeaderboardsDTO::TokenDTO*> $$t__builder_ = {}, OnlineServices::API::HTTPLeaderboardsOathHelper* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, ::Il2CppString* $uri$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<LeaderboardsDTO::LoginRequestDTO*> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__2_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, $uri$5__2{$uri$5__2_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
+    constexpr $GetJwtTokenAsync$d__10(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<LeaderboardsDTO::TokenDTO*> $$t__builder_ = {}, OnlineServices::API::HTTPLeaderboardsOathHelper* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, ::Il2CppString* $uri$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<LeaderboardsDTO::LoginRequestDTO*> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__2_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, $uri$5__2{$uri$5__2_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
     // private System.Void MoveNext()
     // Offset: 0xA2C998
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine

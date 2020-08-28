@@ -16,6 +16,12 @@ namespace Zenject {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SignalMissingHandlerResponses
+    constexpr SignalMissingHandlerResponses(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Zenject.SignalMissingHandlerResponses Ignore
     static constexpr const int Ignore = 0;
     // Get static field: static public Zenject.SignalMissingHandlerResponses Ignore
@@ -34,8 +40,6 @@ namespace Zenject {
     static Zenject::SignalMissingHandlerResponses _get_Warn();
     // Set static field: static public Zenject.SignalMissingHandlerResponses Warn
     static void _set_Warn(Zenject::SignalMissingHandlerResponses value);
-    // Creating value type constructor for type: SignalMissingHandlerResponses
-    SignalMissingHandlerResponses(int value_ = {}) : value{value_} {}
   }; // Zenject.SignalMissingHandlerResponses
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

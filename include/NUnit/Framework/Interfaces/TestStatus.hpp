@@ -16,6 +16,12 @@ namespace NUnit::Framework::Interfaces {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TestStatus
+    constexpr TestStatus(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public NUnit.Framework.Interfaces.TestStatus Inconclusive
     static constexpr const int Inconclusive = 0;
     // Get static field: static public NUnit.Framework.Interfaces.TestStatus Inconclusive
@@ -40,8 +46,6 @@ namespace NUnit::Framework::Interfaces {
     static NUnit::Framework::Interfaces::TestStatus _get_Failed();
     // Set static field: static public NUnit.Framework.Interfaces.TestStatus Failed
     static void _set_Failed(NUnit::Framework::Interfaces::TestStatus value);
-    // Creating value type constructor for type: TestStatus
-    TestStatus(int value_ = {}) : value{value_} {}
   }; // NUnit.Framework.Interfaces.TestStatus
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

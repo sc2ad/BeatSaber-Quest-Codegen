@@ -16,6 +16,12 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: MessageEnum
+    constexpr MessageEnum(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Runtime.Serialization.Formatters.Binary.MessageEnum NoArgs
     static constexpr const int NoArgs = 1;
     // Get static field: static public System.Runtime.Serialization.Formatters.Binary.MessageEnum NoArgs
@@ -106,8 +112,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static System::Runtime::Serialization::Formatters::Binary::MessageEnum _get_GenericMethod();
     // Set static field: static public System.Runtime.Serialization.Formatters.Binary.MessageEnum GenericMethod
     static void _set_GenericMethod(System::Runtime::Serialization::Formatters::Binary::MessageEnum value);
-    // Creating value type constructor for type: MessageEnum
-    MessageEnum(int value_ = {}) : value{value_} {}
   }; // System.Runtime.Serialization.Formatters.Binary.MessageEnum
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

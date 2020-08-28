@@ -16,6 +16,10 @@ namespace UnityEngine {
     // readonly System.String m_Url
     // Offset: 0x10
     ::Il2CppString* m_Url;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return m_Url;
+    }
     // public System.Void .ctor(System.String url)
     // Offset: 0x1316268
     static HelpURLAttribute* New_ctor(::Il2CppString* url);

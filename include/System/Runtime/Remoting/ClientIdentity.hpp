@@ -32,6 +32,10 @@ namespace System::Runtime::Remoting {
     // private System.WeakReference _proxyReference
     // Offset: 0x48
     System::WeakReference* proxyReference;
+    // Creating conversion operator: operator System::WeakReference*
+    constexpr operator System::WeakReference*() const {
+      return proxyReference;
+    }
     // public System.Void .ctor(System.String objectUri, System.Runtime.Remoting.ObjRef objRef)
     // Offset: 0x105AB0C
     static ClientIdentity* New_ctor(::Il2CppString* objectUri, System::Runtime::Remoting::ObjRef* objRef);

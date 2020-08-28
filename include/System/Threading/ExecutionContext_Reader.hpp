@@ -30,7 +30,11 @@ namespace System::Threading {
     // Offset: 0x0
     System::Threading::ExecutionContext* m_ec;
     // Creating value type constructor for type: Reader
-    Reader(System::Threading::ExecutionContext* m_ec_ = {}) : m_ec{m_ec_} {}
+    constexpr Reader(System::Threading::ExecutionContext* m_ec_ = {}) : m_ec{m_ec_} {}
+    // Creating conversion operator: operator System::Threading::ExecutionContext*
+    constexpr operator System::Threading::ExecutionContext*() const {
+      return m_ec;
+    }
     // public System.Void .ctor(System.Threading.ExecutionContext ec)
     // Offset: 0xA47CF8
     static ExecutionContext::Reader* New_ctor(System::Threading::ExecutionContext* ec);

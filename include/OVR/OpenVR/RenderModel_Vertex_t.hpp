@@ -27,7 +27,7 @@ namespace OVR::OpenVR {
     // Offset: 0x1C
     float rfTextureCoord1;
     // Creating value type constructor for type: RenderModel_Vertex_t
-    RenderModel_Vertex_t(OVR::OpenVR::HmdVector3_t vPosition_ = {}, OVR::OpenVR::HmdVector3_t vNormal_ = {}, float rfTextureCoord0_ = {}, float rfTextureCoord1_ = {}) : vPosition{vPosition_}, vNormal{vNormal_}, rfTextureCoord0{rfTextureCoord0_}, rfTextureCoord1{rfTextureCoord1_} {}
+    constexpr RenderModel_Vertex_t(OVR::OpenVR::HmdVector3_t vPosition_ = {}, OVR::OpenVR::HmdVector3_t vNormal_ = {}, float rfTextureCoord0_ = {}, float rfTextureCoord1_ = {}) : vPosition{vPosition_}, vNormal{vNormal_}, rfTextureCoord0{rfTextureCoord0_}, rfTextureCoord1{rfTextureCoord1_} {}
   }; // OVR.OpenVR.RenderModel_Vertex_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

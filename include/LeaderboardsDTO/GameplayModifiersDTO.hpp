@@ -16,6 +16,12 @@ namespace LeaderboardsDTO {
     // public System.UInt32 value__
     // Offset: 0x0
     uint value;
+    // Creating value type constructor for type: GameplayModifiersDTO
+    constexpr GameplayModifiersDTO(uint value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator uint
+    constexpr operator uint() const {
+      return value;
+    }
     // static field const value: static public LeaderboardsDTO.GameplayModifiersDTO None
     static constexpr const uint None = 0u;
     // Get static field: static public LeaderboardsDTO.GameplayModifiersDTO None
@@ -106,8 +112,6 @@ namespace LeaderboardsDTO {
     static LeaderboardsDTO::GameplayModifiersDTO _get_GhostNotes();
     // Set static field: static public LeaderboardsDTO.GameplayModifiersDTO GhostNotes
     static void _set_GhostNotes(LeaderboardsDTO::GameplayModifiersDTO value);
-    // Creating value type constructor for type: GameplayModifiersDTO
-    GameplayModifiersDTO(uint value_ = {}) : value{value_} {}
   }; // LeaderboardsDTO.GameplayModifiersDTO
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

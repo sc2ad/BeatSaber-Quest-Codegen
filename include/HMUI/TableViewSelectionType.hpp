@@ -16,6 +16,12 @@ namespace HMUI {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TableViewSelectionType
+    constexpr TableViewSelectionType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public HMUI.TableViewSelectionType None
     static constexpr const int None = 0;
     // Get static field: static public HMUI.TableViewSelectionType None
@@ -34,8 +40,6 @@ namespace HMUI {
     static HMUI::TableViewSelectionType _get_Multiple();
     // Set static field: static public HMUI.TableViewSelectionType Multiple
     static void _set_Multiple(HMUI::TableViewSelectionType value);
-    // Creating value type constructor for type: TableViewSelectionType
-    TableViewSelectionType(int value_ = {}) : value{value_} {}
   }; // HMUI.TableViewSelectionType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

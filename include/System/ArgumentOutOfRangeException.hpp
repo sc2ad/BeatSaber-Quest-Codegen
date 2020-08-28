@@ -25,6 +25,8 @@ namespace System {
     // private System.Object m_actualValue
     // Offset: 0x90
     ::Il2CppObject* m_actualValue;
+    // Deleting conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const = delete;
     // Get static field: static private System.String _rangeMessage
     static ::Il2CppString* _get__rangeMessage();
     // Set static field: static private System.String _rangeMessage

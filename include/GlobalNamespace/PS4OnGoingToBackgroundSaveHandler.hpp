@@ -33,6 +33,8 @@ namespace GlobalNamespace {
     // private PlayerDataModel _playerDataModel
     // Offset: 0x28
     GlobalNamespace::PlayerDataModel* playerDataModel;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void OnEnable()
     // Offset: 0xBD20CC
     void OnEnable();

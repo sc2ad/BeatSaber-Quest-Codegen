@@ -33,6 +33,8 @@ namespace GlobalNamespace {
     // private AchievementSO _finishTutorialAchievement
     // Offset: 0x28
     GlobalNamespace::AchievementSO* finishTutorialAchievement;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xBEDF70
     void Start();

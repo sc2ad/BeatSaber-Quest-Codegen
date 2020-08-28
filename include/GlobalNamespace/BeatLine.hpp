@@ -51,7 +51,7 @@ namespace GlobalNamespace {
       // Offset: 0x8
       float halfJumpDuration;
       // Creating value type constructor for type: HighlightData
-      HighlightData(float startTime_ = {}, float arriveDuration_ = {}, float halfJumpDuration_ = {}) : startTime{startTime_}, arriveDuration{arriveDuration_}, halfJumpDuration{halfJumpDuration_} {}
+      constexpr HighlightData(float startTime_ = {}, float arriveDuration_ = {}, float halfJumpDuration_ = {}) : startTime{startTime_}, arriveDuration{arriveDuration_}, halfJumpDuration{halfJumpDuration_} {}
     }; // BeatLine/HighlightData
     // private TubeBloomPrePassLight _tubeBloomPrePassLight
     // Offset: 0x30

@@ -16,6 +16,12 @@ namespace UnityEngine::ProBuilder {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ColliderType
+    constexpr ColliderType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ProBuilder.ColliderType None
     static constexpr const int None = 0;
     // Get static field: static public UnityEngine.ProBuilder.ColliderType None
@@ -34,8 +40,6 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::ColliderType _get_MeshCollider();
     // Set static field: static public UnityEngine.ProBuilder.ColliderType MeshCollider
     static void _set_MeshCollider(UnityEngine::ProBuilder::ColliderType value);
-    // Creating value type constructor for type: ColliderType
-    ColliderType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.ColliderType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

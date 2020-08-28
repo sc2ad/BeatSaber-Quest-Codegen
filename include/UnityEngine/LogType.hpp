@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: LogType
+    constexpr LogType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.LogType Error
     static constexpr const int Error = 0;
     // Get static field: static public UnityEngine.LogType Error
@@ -46,8 +52,6 @@ namespace UnityEngine {
     static UnityEngine::LogType _get_Exception();
     // Set static field: static public UnityEngine.LogType Exception
     static void _set_Exception(UnityEngine::LogType value);
-    // Creating value type constructor for type: LogType
-    LogType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.LogType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

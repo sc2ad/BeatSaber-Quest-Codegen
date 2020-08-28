@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRInputFilterCancelType
+    constexpr EVRInputFilterCancelType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.EVRInputFilterCancelType VRInputFilterCancel_Timers
     static constexpr const int VRInputFilterCancel_Timers = 0;
     // Get static field: static public OVR.OpenVR.EVRInputFilterCancelType VRInputFilterCancel_Timers
@@ -28,8 +34,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRInputFilterCancelType _get_VRInputFilterCancel_Momentum();
     // Set static field: static public OVR.OpenVR.EVRInputFilterCancelType VRInputFilterCancel_Momentum
     static void _set_VRInputFilterCancel_Momentum(OVR::OpenVR::EVRInputFilterCancelType value);
-    // Creating value type constructor for type: EVRInputFilterCancelType
-    EVRInputFilterCancelType(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EVRInputFilterCancelType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

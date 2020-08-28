@@ -16,6 +16,10 @@ namespace JetBrains::Annotations {
     // private System.String <AnonymousProperty>k__BackingField
     // Offset: 0x10
     ::Il2CppString* AnonymousProperty;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return AnonymousProperty;
+    }
     // public System.Void .ctor(System.String anonymousProperty)
     // Offset: 0x1960DA4
     static AspMvcActionAttribute* New_ctor(::Il2CppString* anonymousProperty);

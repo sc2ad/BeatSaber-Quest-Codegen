@@ -44,6 +44,10 @@ namespace Zenject {
     // private readonly UnityEngine.GameObject _gameObject
     // Offset: 0x38
     UnityEngine::GameObject* gameObject;
+    // Creating conversion operator: operator UnityEngine::GameObject*
+    constexpr operator UnityEngine::GameObject*() const {
+      return gameObject;
+    }
     // public System.Void .ctor(UnityEngine.GameObject gameObject, Zenject.DiContainer container, System.Type componentType, System.Collections.Generic.IEnumerable`1<Zenject.TypeValuePair> extraArguments, System.Object concreteIdentifier, System.Action`2<Zenject.InjectContext,System.Object> instantiateCallback)
     // Offset: 0xD67854
     static AddToExistingGameObjectComponentProvider* New_ctor(UnityEngine::GameObject* gameObject, Zenject::DiContainer* container, System::Type* componentType, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>* extraArguments, ::Il2CppObject* concreteIdentifier, System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* instantiateCallback);

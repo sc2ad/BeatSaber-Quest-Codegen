@@ -16,6 +16,12 @@ namespace UnityEngine::TextCore::LowLevel {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: GlyphLoadFlags
+    constexpr GlyphLoadFlags(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.TextCore.LowLevel.GlyphLoadFlags LOAD_DEFAULT
     static constexpr const int LOAD_DEFAULT = 0;
     // Get static field: static public UnityEngine.TextCore.LowLevel.GlyphLoadFlags LOAD_DEFAULT
@@ -76,8 +82,6 @@ namespace UnityEngine::TextCore::LowLevel {
     static UnityEngine::TextCore::LowLevel::GlyphLoadFlags _get_LOAD_BITMAP_METRICS_ONLY();
     // Set static field: static public UnityEngine.TextCore.LowLevel.GlyphLoadFlags LOAD_BITMAP_METRICS_ONLY
     static void _set_LOAD_BITMAP_METRICS_ONLY(UnityEngine::TextCore::LowLevel::GlyphLoadFlags value);
-    // Creating value type constructor for type: GlyphLoadFlags
-    GlyphLoadFlags(int value_ = {}) : value{value_} {}
   }; // UnityEngine.TextCore.LowLevel.GlyphLoadFlags
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: AudioDataLoadState
+    constexpr AudioDataLoadState(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.AudioDataLoadState Unloaded
     static constexpr const int Unloaded = 0;
     // Get static field: static public UnityEngine.AudioDataLoadState Unloaded
@@ -40,8 +46,6 @@ namespace UnityEngine {
     static UnityEngine::AudioDataLoadState _get_Failed();
     // Set static field: static public UnityEngine.AudioDataLoadState Failed
     static void _set_Failed(UnityEngine::AudioDataLoadState value);
-    // Creating value type constructor for type: AudioDataLoadState
-    AudioDataLoadState(int value_ = {}) : value{value_} {}
   }; // UnityEngine.AudioDataLoadState
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

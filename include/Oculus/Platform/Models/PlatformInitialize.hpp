@@ -23,6 +23,10 @@ namespace Oculus::Platform::Models {
     // public readonly Oculus.Platform.PlatformInitializeResult Result
     // Offset: 0x10
     Oculus::Platform::PlatformInitializeResult Result;
+    // Creating conversion operator: operator Oculus::Platform::PlatformInitializeResult
+    constexpr operator Oculus::Platform::PlatformInitializeResult() const {
+      return Result;
+    }
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0xEA7978
     static PlatformInitialize* New_ctor(System::IntPtr o);

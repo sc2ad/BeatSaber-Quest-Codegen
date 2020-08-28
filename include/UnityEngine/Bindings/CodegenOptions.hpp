@@ -16,6 +16,12 @@ namespace UnityEngine::Bindings {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: CodegenOptions
+    constexpr CodegenOptions(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Bindings.CodegenOptions Auto
     static constexpr const int Auto = 0;
     // Get static field: static public UnityEngine.Bindings.CodegenOptions Auto
@@ -34,8 +40,6 @@ namespace UnityEngine::Bindings {
     static UnityEngine::Bindings::CodegenOptions _get_Force();
     // Set static field: static public UnityEngine.Bindings.CodegenOptions Force
     static void _set_Force(UnityEngine::Bindings::CodegenOptions value);
-    // Creating value type constructor for type: CodegenOptions
-    CodegenOptions(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Bindings.CodegenOptions
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

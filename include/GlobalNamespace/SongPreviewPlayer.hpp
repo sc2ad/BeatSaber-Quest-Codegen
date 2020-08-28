@@ -61,6 +61,8 @@ namespace GlobalNamespace {
     // private System.Single _fadeSpeed
     // Offset: 0x58
     float fadeSpeed;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Single get_volume()
     // Offset: 0xB9C4BC
     float get_volume();

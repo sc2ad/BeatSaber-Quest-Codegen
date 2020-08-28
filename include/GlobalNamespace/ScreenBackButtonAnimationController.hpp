@@ -40,6 +40,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: AnimationType
+      constexpr AnimationType(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public ScreenBackButtonAnimationController/AnimationType FadeIn
       static constexpr const int FadeIn = 0;
       // Get static field: static public ScreenBackButtonAnimationController/AnimationType FadeIn
@@ -76,8 +82,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::ScreenBackButtonAnimationController::AnimationType _get_MoveOut2();
       // Set static field: static public ScreenBackButtonAnimationController/AnimationType MoveOut2
       static void _set_MoveOut2(GlobalNamespace::ScreenBackButtonAnimationController::AnimationType value);
-      // Creating value type constructor for type: AnimationType
-      AnimationType(int value_ = {}) : value{value_} {}
     }; // ScreenBackButtonAnimationController/AnimationType
     // private UnityEngine.Animator _animator
     // Offset: 0x18
@@ -85,6 +89,8 @@ namespace GlobalNamespace {
     // private readonly System.Collections.Generic.Dictionary`2<ScreenBackButtonAnimationController/AnimationType,System.Int32> _animationHashes
     // Offset: 0x20
     System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenBackButtonAnimationController::AnimationType, int>* animationHashes;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Awake()
     // Offset: 0x10EE570
     void Awake();

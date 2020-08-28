@@ -16,7 +16,11 @@ namespace OVR::OpenVR {
     // Offset: 0x0
     float progress;
     // Creating value type constructor for type: VREvent_ScreenshotProgress_t
-    VREvent_ScreenshotProgress_t(float progress_ = {}) : progress{progress_} {}
+    constexpr VREvent_ScreenshotProgress_t(float progress_ = {}) : progress{progress_} {}
+    // Creating conversion operator: operator float
+    constexpr operator float() const {
+      return progress;
+    }
   }; // OVR.OpenVR.VREvent_ScreenshotProgress_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

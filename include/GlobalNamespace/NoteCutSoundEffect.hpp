@@ -121,6 +121,8 @@ namespace GlobalNamespace {
     // private System.Boolean _ignoreBadCuts
     // Offset: 0xA3
     bool ignoreBadCuts;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static field const value: static private System.Single kEndOverlap
     static constexpr const float kEndOverlap = 100.01;
     // Get static field: static private System.Single kEndOverlap

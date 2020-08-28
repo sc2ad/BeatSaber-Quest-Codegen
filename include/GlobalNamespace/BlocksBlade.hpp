@@ -95,6 +95,8 @@ namespace GlobalNamespace {
     // private System.Int32 _layer
     // Offset: 0x88
     int layer;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // Get static field: static private readonly System.Int32 _positionPropertyID
     static int _get__positionPropertyID();
     // Set static field: static private readonly System.Int32 _positionPropertyID

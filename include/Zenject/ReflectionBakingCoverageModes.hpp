@@ -16,6 +16,12 @@ namespace Zenject {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ReflectionBakingCoverageModes
+    constexpr ReflectionBakingCoverageModes(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Zenject.ReflectionBakingCoverageModes FallbackToDirectReflection
     static constexpr const int FallbackToDirectReflection = 0;
     // Get static field: static public Zenject.ReflectionBakingCoverageModes FallbackToDirectReflection
@@ -34,8 +40,6 @@ namespace Zenject {
     static Zenject::ReflectionBakingCoverageModes _get_FallbackToDirectReflectionWithWarning();
     // Set static field: static public Zenject.ReflectionBakingCoverageModes FallbackToDirectReflectionWithWarning
     static void _set_FallbackToDirectReflectionWithWarning(Zenject::ReflectionBakingCoverageModes value);
-    // Creating value type constructor for type: ReflectionBakingCoverageModes
-    ReflectionBakingCoverageModes(int value_ = {}) : value{value_} {}
   }; // Zenject.ReflectionBakingCoverageModes
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

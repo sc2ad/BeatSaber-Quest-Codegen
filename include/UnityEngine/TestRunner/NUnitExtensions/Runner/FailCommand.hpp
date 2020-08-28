@@ -47,6 +47,8 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // private System.String m_Message
     // Offset: 0x20
     ::Il2CppString* m_Message;
+    // Deleting conversion operator: operator NUnit::Framework::Internal::Test*
+    constexpr operator NUnit::Framework::Internal::Test*() const = delete;
     // public System.Void .ctor(NUnit.Framework.Internal.Test test, NUnit.Framework.Interfaces.ResultState resultState, System.String message)
     // Offset: 0xE3639C
     static FailCommand* New_ctor(NUnit::Framework::Internal::Test* test, NUnit::Framework::Interfaces::ResultState* resultState, ::Il2CppString* message);

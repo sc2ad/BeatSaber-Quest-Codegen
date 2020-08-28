@@ -26,7 +26,7 @@ namespace System {
     // Offset: 0x6
     int16_t Bottom;
     // Creating value type constructor for type: SmallRect
-    SmallRect(int16_t Left_ = {}, int16_t Top_ = {}, int16_t Right_ = {}, int16_t Bottom_ = {}) : Left{Left_}, Top{Top_}, Right{Right_}, Bottom{Bottom_} {}
+    constexpr SmallRect(int16_t Left_ = {}, int16_t Top_ = {}, int16_t Right_ = {}, int16_t Bottom_ = {}) : Left{Left_}, Top{Top_}, Right{Right_}, Bottom{Bottom_} {}
   }; // System.SmallRect
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

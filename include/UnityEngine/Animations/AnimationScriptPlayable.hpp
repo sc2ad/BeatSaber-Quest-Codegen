@@ -21,12 +21,16 @@ namespace UnityEngine::Animations {
     // private UnityEngine.Playables.PlayableHandle m_Handle
     // Offset: 0x0
     UnityEngine::Playables::PlayableHandle m_Handle;
+    // Creating value type constructor for type: AnimationScriptPlayable
+    constexpr AnimationScriptPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
+    // Creating conversion operator: operator UnityEngine::Playables::PlayableHandle
+    constexpr operator UnityEngine::Playables::PlayableHandle() const {
+      return m_Handle;
+    }
     // Get static field: static private readonly UnityEngine.Animations.AnimationScriptPlayable m_NullPlayable
     static UnityEngine::Animations::AnimationScriptPlayable _get_m_NullPlayable();
     // Set static field: static private readonly UnityEngine.Animations.AnimationScriptPlayable m_NullPlayable
     static void _set_m_NullPlayable(UnityEngine::Animations::AnimationScriptPlayable value);
-    // Creating value type constructor for type: AnimationScriptPlayable
-    AnimationScriptPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0xA5DC9C
     static AnimationScriptPlayable* New_ctor(UnityEngine::Playables::PlayableHandle handle);

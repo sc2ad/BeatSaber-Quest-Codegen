@@ -16,6 +16,12 @@ namespace Zenject {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SignalDefaultSyncModes
+    constexpr SignalDefaultSyncModes(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Zenject.SignalDefaultSyncModes Synchronous
     static constexpr const int Synchronous = 0;
     // Get static field: static public Zenject.SignalDefaultSyncModes Synchronous
@@ -28,8 +34,6 @@ namespace Zenject {
     static Zenject::SignalDefaultSyncModes _get_Asynchronous();
     // Set static field: static public Zenject.SignalDefaultSyncModes Asynchronous
     static void _set_Asynchronous(Zenject::SignalDefaultSyncModes value);
-    // Creating value type constructor for type: SignalDefaultSyncModes
-    SignalDefaultSyncModes(int value_ = {}) : value{value_} {}
   }; // Zenject.SignalDefaultSyncModes
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

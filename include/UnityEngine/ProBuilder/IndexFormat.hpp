@@ -16,6 +16,12 @@ namespace UnityEngine::ProBuilder {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: IndexFormat
+    constexpr IndexFormat(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ProBuilder.IndexFormat Local
     static constexpr const int Local = 0;
     // Get static field: static public UnityEngine.ProBuilder.IndexFormat Local
@@ -34,8 +40,6 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::IndexFormat _get_Both();
     // Set static field: static public UnityEngine.ProBuilder.IndexFormat Both
     static void _set_Both(UnityEngine::ProBuilder::IndexFormat value);
-    // Creating value type constructor for type: IndexFormat
-    IndexFormat(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.IndexFormat
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

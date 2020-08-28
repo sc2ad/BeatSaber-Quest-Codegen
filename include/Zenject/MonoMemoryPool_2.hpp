@@ -29,6 +29,10 @@ namespace Zenject {
     // private UnityEngine.Transform _originalParent
     // Offset: 0x0
     UnityEngine::Transform* originalParent;
+    // Creating conversion operator: operator UnityEngine::Transform*
+    constexpr operator UnityEngine::Transform*() const {
+      return originalParent;
+    }
     // protected System.Void OnCreated(TValue item)
     // Offset: 0xFFFFFFFF
     void OnCreated(TValue item) {

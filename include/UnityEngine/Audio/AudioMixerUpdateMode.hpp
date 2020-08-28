@@ -16,6 +16,12 @@ namespace UnityEngine::Audio {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: AudioMixerUpdateMode
+    constexpr AudioMixerUpdateMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Audio.AudioMixerUpdateMode Normal
     static constexpr const int Normal = 0;
     // Get static field: static public UnityEngine.Audio.AudioMixerUpdateMode Normal
@@ -28,8 +34,6 @@ namespace UnityEngine::Audio {
     static UnityEngine::Audio::AudioMixerUpdateMode _get_UnscaledTime();
     // Set static field: static public UnityEngine.Audio.AudioMixerUpdateMode UnscaledTime
     static void _set_UnscaledTime(UnityEngine::Audio::AudioMixerUpdateMode value);
-    // Creating value type constructor for type: AudioMixerUpdateMode
-    AudioMixerUpdateMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Audio.AudioMixerUpdateMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

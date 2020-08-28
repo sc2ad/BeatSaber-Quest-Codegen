@@ -23,6 +23,8 @@ namespace GlobalNamespace {
     // public System.Int32 listeningPort
     // Offset: 0x20
     int listeningPort;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // Get static field: static public OVRSystemPerfMetrics/OVRSystemPerfMetricsTcpServer singleton
     static GlobalNamespace::OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer* _get_singleton();
     // Set static field: static public OVRSystemPerfMetrics/OVRSystemPerfMetricsTcpServer singleton

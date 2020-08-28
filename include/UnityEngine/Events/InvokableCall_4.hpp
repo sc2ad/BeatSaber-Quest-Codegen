@@ -32,6 +32,10 @@ namespace UnityEngine::Events {
     // private UnityEngine.Events.UnityAction`4<T1,T2,T3,T4> Delegate
     // Offset: 0x0
     UnityEngine::Events::UnityAction_4<T1, T2, T3, T4>* Delegate;
+    // Creating conversion operator: operator UnityEngine::Events::UnityAction_4<T1, T2, T3, T4>*
+    constexpr operator UnityEngine::Events::UnityAction_4<T1, T2, T3, T4>*() const {
+      return Delegate;
+    }
     // public System.Void .ctor(System.Object target, System.Reflection.MethodInfo theFunction)
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.Events.BaseInvokableCall

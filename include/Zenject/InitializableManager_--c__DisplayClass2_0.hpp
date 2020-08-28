@@ -34,6 +34,10 @@ namespace Zenject {
     // public Zenject.IInitializable initializable
     // Offset: 0x10
     Zenject::IInitializable* initializable;
+    // Creating conversion operator: operator Zenject::IInitializable*
+    constexpr operator Zenject::IInitializable*() const {
+      return initializable;
+    }
     // System.Boolean <.ctor>b__0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
     // Offset: 0xF3C658
     bool $_ctor$b__0(ModestTree::Util::ValuePair_2<System::Type*, int>* x);

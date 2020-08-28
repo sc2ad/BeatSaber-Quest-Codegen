@@ -30,7 +30,7 @@ namespace System {
     // Offset: 0x14
     int num_args;
     // Creating value type constructor for type: ArgIterator
-    ArgIterator(System::IntPtr sig_ = {}, System::IntPtr args_ = {}, int next_arg_ = {}, int num_args_ = {}) : sig{sig_}, args{args_}, next_arg{next_arg_}, num_args{num_args_} {}
+    constexpr ArgIterator(System::IntPtr sig_ = {}, System::IntPtr args_ = {}, int next_arg_ = {}, int num_args_ = {}) : sig{sig_}, args{args_}, next_arg{next_arg_}, num_args{num_args_} {}
     // public override System.Boolean Equals(System.Object o)
     // Offset: 0xA40AF8
     // Implemented from: System.ValueType

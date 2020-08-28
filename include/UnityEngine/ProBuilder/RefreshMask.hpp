@@ -16,6 +16,12 @@ namespace UnityEngine::ProBuilder {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: RefreshMask
+    constexpr RefreshMask(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ProBuilder.RefreshMask UV
     static constexpr const int UV = 1;
     // Get static field: static public UnityEngine.ProBuilder.RefreshMask UV
@@ -52,8 +58,6 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::RefreshMask _get_All();
     // Set static field: static public UnityEngine.ProBuilder.RefreshMask All
     static void _set_All(UnityEngine::ProBuilder::RefreshMask value);
-    // Creating value type constructor for type: RefreshMask
-    RefreshMask(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.RefreshMask
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

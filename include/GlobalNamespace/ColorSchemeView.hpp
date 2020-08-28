@@ -40,6 +40,8 @@ namespace GlobalNamespace {
     // private UnityEngine.UI.Image _obstacleColorImage
     // Offset: 0x38
     UnityEngine::UI::Image* obstacleColorImage;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void SetColors(UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color environment0Color, UnityEngine.Color environment1Color, UnityEngine.Color obstacleColor)
     // Offset: 0xBE025C
     void SetColors(UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environment0Color, UnityEngine::Color environment1Color, UnityEngine::Color obstacleColor);

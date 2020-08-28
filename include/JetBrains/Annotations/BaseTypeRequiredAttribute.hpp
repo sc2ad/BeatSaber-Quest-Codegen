@@ -23,6 +23,10 @@ namespace JetBrains::Annotations {
     // private System.Type <BaseType>k__BackingField
     // Offset: 0x10
     System::Type* BaseType;
+    // Creating conversion operator: operator System::Type*
+    constexpr operator System::Type*() const {
+      return BaseType;
+    }
     // public System.Void .ctor(System.Type baseType)
     // Offset: 0x196113C
     static BaseTypeRequiredAttribute* New_ctor(System::Type* baseType);

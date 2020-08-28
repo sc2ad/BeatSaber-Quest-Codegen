@@ -31,6 +31,10 @@ namespace UnityEngine::TestTools {
     // private readonly NUnit.Framework.Internal.ITestExecutionContext m_Context
     // Offset: 0x10
     NUnit::Framework::Internal::ITestExecutionContext* m_Context;
+    // Creating conversion operator: operator NUnit::Framework::Internal::ITestExecutionContext*
+    constexpr operator NUnit::Framework::Internal::ITestExecutionContext*() const {
+      return m_Context;
+    }
     // Get static field: static private System.Collections.IEnumerator m_TestEnumerator
     static System::Collections::IEnumerator* _get_m_TestEnumerator();
     // Set static field: static private System.Collections.IEnumerator m_TestEnumerator

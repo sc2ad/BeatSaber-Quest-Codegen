@@ -16,6 +16,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: PlatformID
+    constexpr PlatformID(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.PlatformID Win32S
     static constexpr const int Win32S = 0;
     // Get static field: static public System.PlatformID Win32S
@@ -58,8 +64,6 @@ namespace System {
     static System::PlatformID _get_MacOSX();
     // Set static field: static public System.PlatformID MacOSX
     static void _set_MacOSX(System::PlatformID value);
-    // Creating value type constructor for type: PlatformID
-    PlatformID(int value_ = {}) : value{value_} {}
   }; // System.PlatformID
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

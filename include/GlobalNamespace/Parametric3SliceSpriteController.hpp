@@ -61,6 +61,8 @@ namespace GlobalNamespace {
     // private System.Boolean _isInitialized
     // Offset: 0x58
     bool isInitialized;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static field const value: static private System.Single kMaxWidth
     static constexpr const float kMaxWidth = 10;
     // Get static field: static private System.Single kMaxWidth

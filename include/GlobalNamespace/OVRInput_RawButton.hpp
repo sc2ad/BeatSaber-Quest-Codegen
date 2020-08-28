@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: RawButton
+    constexpr RawButton(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRInput/RawButton None
     static constexpr const int None = 0;
     // Get static field: static public OVRInput/RawButton None
@@ -198,8 +204,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRInput::RawButton _get_Any();
     // Set static field: static public OVRInput/RawButton Any
     static void _set_Any(GlobalNamespace::OVRInput::RawButton value);
-    // Creating value type constructor for type: RawButton
-    RawButton(int value_ = {}) : value{value_} {}
   }; // OVRInput/RawButton
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

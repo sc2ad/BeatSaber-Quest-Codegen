@@ -16,6 +16,12 @@ namespace System::IO {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SearchOption
+    constexpr SearchOption(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.IO.SearchOption TopDirectoryOnly
     static constexpr const int TopDirectoryOnly = 0;
     // Get static field: static public System.IO.SearchOption TopDirectoryOnly
@@ -28,8 +34,6 @@ namespace System::IO {
     static System::IO::SearchOption _get_AllDirectories();
     // Set static field: static public System.IO.SearchOption AllDirectories
     static void _set_AllDirectories(System::IO::SearchOption value);
-    // Creating value type constructor for type: SearchOption
-    SearchOption(int value_ = {}) : value{value_} {}
   }; // System.IO.SearchOption
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

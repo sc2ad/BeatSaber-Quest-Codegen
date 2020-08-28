@@ -30,7 +30,11 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x0
     System::Threading::Tasks::Task* m_task;
     // Creating value type constructor for type: TaskAwaiter
-    TaskAwaiter(System::Threading::Tasks::Task* m_task_ = {}) : m_task{m_task_} {}
+    constexpr TaskAwaiter(System::Threading::Tasks::Task* m_task_ = {}) : m_task{m_task_} {}
+    // Creating conversion operator: operator System::Threading::Tasks::Task*
+    constexpr operator System::Threading::Tasks::Task*() const {
+      return m_task;
+    }
     // System.Void .ctor(System.Threading.Tasks.Task task)
     // Offset: 0xA424EC
     static TaskAwaiter* New_ctor(System::Threading::Tasks::Task* task);

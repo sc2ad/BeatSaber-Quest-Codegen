@@ -106,6 +106,8 @@ namespace GlobalNamespace {
     // private PreviewDifficultyBeatmapSet[] _no360MovementPreviewDifficultyBeatmapSets
     // Offset: 0x90
     ::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* no360MovementPreviewDifficultyBeatmapSets;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private System.Void InitData()
     // Offset: 0xC1E58C
     void InitData();

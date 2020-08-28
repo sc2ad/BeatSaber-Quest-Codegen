@@ -31,6 +31,8 @@ namespace GlobalNamespace {
     // private UnityEngine.TextMesh _text
     // Offset: 0x20
     UnityEngine::TextMesh* text;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Update()
     // Offset: 0xC32BD4
     void Update();

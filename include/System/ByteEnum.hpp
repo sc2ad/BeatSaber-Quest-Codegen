@@ -17,7 +17,11 @@ namespace System {
     // Offset: 0x0
     uint8_t value;
     // Creating value type constructor for type: ByteEnum
-    ByteEnum(uint8_t value_ = {}) : value{value_} {}
+    constexpr ByteEnum(uint8_t value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator uint8_t
+    constexpr operator uint8_t() const {
+      return value;
+    }
   }; // System.ByteEnum
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

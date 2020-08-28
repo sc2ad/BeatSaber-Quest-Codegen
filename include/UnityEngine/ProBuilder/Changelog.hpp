@@ -38,6 +38,10 @@ namespace UnityEngine::ProBuilder {
     // private System.Collections.Generic.List`1<UnityEngine.ProBuilder.ChangelogEntry> m_Entries
     // Offset: 0x10
     System::Collections::Generic::List_1<UnityEngine::ProBuilder::ChangelogEntry*>* m_Entries;
+    // Creating conversion operator: operator System::Collections::Generic::List_1<UnityEngine::ProBuilder::ChangelogEntry*>*
+    constexpr operator System::Collections::Generic::List_1<UnityEngine::ProBuilder::ChangelogEntry*>*() const {
+      return m_Entries;
+    }
     // static field const value: static private System.String k_ChangelogEntryPattern
     static constexpr const char* k_ChangelogEntryPattern = "(##\\s\\[[0-9]+\\.[0-9]+\\.[0-9]+(\\-[a-zA-Z]+(\\.[0-9]+)*)*\\])";
     // Get static field: static private System.String k_ChangelogEntryPattern

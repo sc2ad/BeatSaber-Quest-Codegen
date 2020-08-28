@@ -16,6 +16,12 @@ namespace System::Net::Sockets {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SelectMode
+    constexpr SelectMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Net.Sockets.SelectMode SelectRead
     static constexpr const int SelectRead = 0;
     // Get static field: static public System.Net.Sockets.SelectMode SelectRead
@@ -34,8 +40,6 @@ namespace System::Net::Sockets {
     static System::Net::Sockets::SelectMode _get_SelectError();
     // Set static field: static public System.Net.Sockets.SelectMode SelectError
     static void _set_SelectError(System::Net::Sockets::SelectMode value);
-    // Creating value type constructor for type: SelectMode
-    SelectMode(int value_ = {}) : value{value_} {}
   }; // System.Net.Sockets.SelectMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

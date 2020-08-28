@@ -62,6 +62,12 @@ namespace UnityEngine::UI {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: BlockingObjects
+      constexpr BlockingObjects(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public UnityEngine.UI.GraphicRaycaster/BlockingObjects None
       static constexpr const int None = 0;
       // Get static field: static public UnityEngine.UI.GraphicRaycaster/BlockingObjects None
@@ -86,8 +92,6 @@ namespace UnityEngine::UI {
       static UnityEngine::UI::GraphicRaycaster::BlockingObjects _get_All();
       // Set static field: static public UnityEngine.UI.GraphicRaycaster/BlockingObjects All
       static void _set_All(UnityEngine::UI::GraphicRaycaster::BlockingObjects value);
-      // Creating value type constructor for type: BlockingObjects
-      BlockingObjects(int value_ = {}) : value{value_} {}
     }; // UnityEngine.UI.GraphicRaycaster/BlockingObjects
     // private System.Boolean m_IgnoreReversedGraphics
     // Offset: 0x20

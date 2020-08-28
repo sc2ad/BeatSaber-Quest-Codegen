@@ -18,6 +18,12 @@ namespace System::Diagnostics {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TraceFormat
+    constexpr TraceFormat(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Diagnostics.StackTrace/TraceFormat Normal
     static constexpr const int Normal = 0;
     // Get static field: static public System.Diagnostics.StackTrace/TraceFormat Normal
@@ -36,8 +42,6 @@ namespace System::Diagnostics {
     static System::Diagnostics::StackTrace::TraceFormat _get_NoResourceLookup();
     // Set static field: static public System.Diagnostics.StackTrace/TraceFormat NoResourceLookup
     static void _set_NoResourceLookup(System::Diagnostics::StackTrace::TraceFormat value);
-    // Creating value type constructor for type: TraceFormat
-    TraceFormat(int value_ = {}) : value{value_} {}
   }; // System.Diagnostics.StackTrace/TraceFormat
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

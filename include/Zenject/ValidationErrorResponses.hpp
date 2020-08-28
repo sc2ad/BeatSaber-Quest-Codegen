@@ -16,6 +16,12 @@ namespace Zenject {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ValidationErrorResponses
+    constexpr ValidationErrorResponses(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Zenject.ValidationErrorResponses Log
     static constexpr const int Log = 0;
     // Get static field: static public Zenject.ValidationErrorResponses Log
@@ -28,8 +34,6 @@ namespace Zenject {
     static Zenject::ValidationErrorResponses _get_Throw();
     // Set static field: static public Zenject.ValidationErrorResponses Throw
     static void _set_Throw(Zenject::ValidationErrorResponses value);
-    // Creating value type constructor for type: ValidationErrorResponses
-    ValidationErrorResponses(int value_ = {}) : value{value_} {}
   }; // Zenject.ValidationErrorResponses
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -35,7 +35,7 @@ namespace TMPro {
     // Offset: 0x24
     UnityEngine::Color32 color;
     // Creating value type constructor for type: TMP_Vertex
-    TMP_Vertex(UnityEngine::Vector3 position_ = {}, UnityEngine::Vector2 uv_ = {}, UnityEngine::Vector2 uv2_ = {}, UnityEngine::Vector2 uv4_ = {}, UnityEngine::Color32 color_ = {}) : position{position_}, uv{uv_}, uv2{uv2_}, uv4{uv4_}, color{color_} {}
+    constexpr TMP_Vertex(UnityEngine::Vector3 position_ = {}, UnityEngine::Vector2 uv_ = {}, UnityEngine::Vector2 uv2_ = {}, UnityEngine::Vector2 uv4_ = {}, UnityEngine::Color32 color_ = {}) : position{position_}, uv{uv_}, uv2{uv2_}, uv4{uv4_}, color{color_} {}
   }; // TMPro.TMP_Vertex
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

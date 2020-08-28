@@ -23,7 +23,7 @@ namespace System {
     // Offset: 0xC
     int m_length;
     // Creating value type constructor for type: UnSafeCharBuffer
-    UnSafeCharBuffer(::Il2CppChar* m_buffer_ = {}, int m_totalSize_ = {}, int m_length_ = {}) : m_buffer{m_buffer_}, m_totalSize{m_totalSize_}, m_length{m_length_} {}
+    constexpr UnSafeCharBuffer(::Il2CppChar* m_buffer_ = {}, int m_totalSize_ = {}, int m_length_ = {}) : m_buffer{m_buffer_}, m_totalSize{m_totalSize_}, m_length{m_length_} {}
     // public System.Void .ctor(System.Char* buffer, System.Int32 bufferSize)
     // Offset: 0xA5767C
     static UnSafeCharBuffer* New_ctor(::Il2CppChar* buffer, int bufferSize);

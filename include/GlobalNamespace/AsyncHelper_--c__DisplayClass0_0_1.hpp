@@ -63,7 +63,7 @@ namespace GlobalNamespace {
       // Offset: 0x0
       System::Runtime::CompilerServices::TaskAwaiter_1<T> $$u__1;
       // Creating value type constructor for type: $$RunSync$b__0$d
-      $$RunSync$b__0$d(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder $$t__builder_ = {}, GlobalNamespace::AsyncHelper::$$c__DisplayClass0_0_1<T>* $$4__this_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<T> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $$u__1{$$u__1_} {}
+      constexpr $$RunSync$b__0$d(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder $$t__builder_ = {}, GlobalNamespace::AsyncHelper::$$c__DisplayClass0_0_1<T>* $$4__this_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<T> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $$u__1{$$u__1_} {}
       // private System.Void MoveNext()
       // Offset: 0xFFFFFFFF
       // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine

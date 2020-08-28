@@ -23,6 +23,10 @@ namespace System::Diagnostics::Tracing {
     // public System.Diagnostics.Tracing.ActivityFilter filterList
     // Offset: 0x10
     System::Diagnostics::Tracing::ActivityFilter* filterList;
+    // Creating conversion operator: operator System::Diagnostics::Tracing::ActivityFilter*
+    constexpr operator System::Diagnostics::Tracing::ActivityFilter*() const {
+      return filterList;
+    }
     // System.Void <GetActivityDyingDelegate>b__0(System.Guid oldActivity)
     // Offset: 0xC97CF0
     void $GetActivityDyingDelegate$b__0(System::Guid oldActivity);

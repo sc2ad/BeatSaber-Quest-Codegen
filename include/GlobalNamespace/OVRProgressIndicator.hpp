@@ -26,6 +26,8 @@ namespace GlobalNamespace {
     // public System.Single currentProgress
     // Offset: 0x20
     float currentProgress;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private System.Void Awake()
     // Offset: 0xF4C490
     void Awake();

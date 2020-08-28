@@ -22,6 +22,8 @@ namespace System::IO {
     // private System.Int32 _length
     // Offset: 0x24
     int length;
+    // Deleting conversion operator: operator ::Il2CppObject*
+    constexpr operator ::Il2CppObject*() const = delete;
     // public System.Void .ctor(System.String s)
     // Offset: 0x100E4B0
     static StringReader* New_ctor(::Il2CppString* s);

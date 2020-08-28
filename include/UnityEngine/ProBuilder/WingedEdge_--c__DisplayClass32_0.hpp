@@ -24,6 +24,10 @@ namespace UnityEngine::ProBuilder {
     // public System.Collections.Generic.HashSet`1<System.Int32> common
     // Offset: 0x10
     System::Collections::Generic::HashSet_1<int>* common;
+    // Creating conversion operator: operator System::Collections::Generic::HashSet_1<int>*
+    constexpr operator System::Collections::Generic::HashSet_1<int>*() const {
+      return common;
+    }
     // System.Boolean <SortCommonIndexesByAdjacency>b__0(UnityEngine.ProBuilder.WingedEdge x)
     // Offset: 0x18DC004
     bool $SortCommonIndexesByAdjacency$b__0(UnityEngine::ProBuilder::WingedEdge* x);

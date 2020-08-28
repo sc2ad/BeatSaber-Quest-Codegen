@@ -7,6 +7,10 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: PlayerStatisticsViewController
 #include "GlobalNamespace/PlayerStatisticsViewController.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
+// Including type: PlayerAllOverallStatsData
+#include "GlobalNamespace/PlayerAllOverallStatsData.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -28,7 +32,7 @@ namespace GlobalNamespace {
     // Offset: 0x8
     System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* playerOverallStatsDataFunc;
     // Creating value type constructor for type: StatsScopeData
-    StatsScopeData(::Il2CppString* text_ = {}, System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* playerOverallStatsDataFunc_ = {}) : text{text_}, playerOverallStatsDataFunc{playerOverallStatsDataFunc_} {}
+    constexpr StatsScopeData(::Il2CppString* text_ = {}, System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* playerOverallStatsDataFunc_ = {}) : text{text_}, playerOverallStatsDataFunc{playerOverallStatsDataFunc_} {}
     // public System.String get_text()
     // Offset: 0xA2C76C
     ::Il2CppString* get_text();

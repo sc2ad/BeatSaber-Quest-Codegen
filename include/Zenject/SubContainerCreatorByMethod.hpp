@@ -39,6 +39,10 @@ namespace Zenject {
     // private readonly System.Action`1<Zenject.DiContainer> _installMethod
     // Offset: 0x20
     System::Action_1<Zenject::DiContainer*>* installMethod;
+    // Creating conversion operator: operator System::Action_1<Zenject::DiContainer*>*
+    constexpr operator System::Action_1<Zenject::DiContainer*>*() const {
+      return installMethod;
+    }
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.SubContainerCreatorBindInfo containerBindInfo, System.Action`1<Zenject.DiContainer> installMethod)
     // Offset: 0xFD089C
     static SubContainerCreatorByMethod* New_ctor(Zenject::DiContainer* container, Zenject::SubContainerCreatorBindInfo* containerBindInfo, System::Action_1<Zenject::DiContainer*>* installMethod);

@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: VROverlayInputMethod
+    constexpr VROverlayInputMethod(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.VROverlayInputMethod None
     static constexpr const int None = 0;
     // Get static field: static public OVR.OpenVR.VROverlayInputMethod None
@@ -34,8 +40,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::VROverlayInputMethod _get_DualAnalog();
     // Set static field: static public OVR.OpenVR.VROverlayInputMethod DualAnalog
     static void _set_DualAnalog(OVR::OpenVR::VROverlayInputMethod value);
-    // Creating value type constructor for type: VROverlayInputMethod
-    VROverlayInputMethod(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.VROverlayInputMethod
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

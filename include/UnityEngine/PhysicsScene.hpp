@@ -41,7 +41,11 @@ namespace UnityEngine {
     // Offset: 0x0
     int m_Handle;
     // Creating value type constructor for type: PhysicsScene
-    PhysicsScene(int m_Handle_ = {}) : m_Handle{m_Handle_} {}
+    constexpr PhysicsScene(int m_Handle_ = {}) : m_Handle{m_Handle_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return m_Handle;
+    }
     // public System.Boolean Raycast(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, System.Single maxDistance, System.Int32 layerMask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
     // Offset: 0xA5EC90
     bool Raycast(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, float maxDistance, int layerMask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);

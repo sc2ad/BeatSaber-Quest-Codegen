@@ -46,6 +46,12 @@ namespace System {
     // private System.UInt32 m_value
     // Offset: 0x0
     uint m_value;
+    // Creating value type constructor for type: UInt32
+    constexpr UInt32(uint m_value_ = {}) : m_value{m_value_} {}
+    // Creating conversion operator: operator uint
+    constexpr operator uint() const {
+      return m_value;
+    }
     // static field const value: static public System.UInt32 MaxValue
     static constexpr const uint MaxValue = 4294967295u;
     // Get static field: static public System.UInt32 MaxValue
@@ -58,8 +64,6 @@ namespace System {
     static uint _get_MinValue();
     // Set static field: static public System.UInt32 MinValue
     static void _set_MinValue(uint value);
-    // Creating value type constructor for type: UInt32
-    UInt32(uint m_value_ = {}) : m_value{m_value_} {}
     // static public System.UInt32 Parse(System.String s, System.IFormatProvider provider)
     // Offset: 0x179DA24
     static uint Parse(::Il2CppString* s, System::IFormatProvider* provider);

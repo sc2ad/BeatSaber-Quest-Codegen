@@ -16,6 +16,10 @@ namespace JetBrains::Annotations {
     // private System.String <Comment>k__BackingField
     // Offset: 0x10
     ::Il2CppString* Comment;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return Comment;
+    }
     // public System.Void .ctor(System.String comment)
     // Offset: 0x19615CC
     static PublicAPIAttribute* New_ctor(::Il2CppString* comment);

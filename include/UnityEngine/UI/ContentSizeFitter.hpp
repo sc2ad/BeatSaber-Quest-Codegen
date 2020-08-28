@@ -38,6 +38,12 @@ namespace UnityEngine::UI {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: FitMode
+      constexpr FitMode(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public UnityEngine.UI.ContentSizeFitter/FitMode Unconstrained
       static constexpr const int Unconstrained = 0;
       // Get static field: static public UnityEngine.UI.ContentSizeFitter/FitMode Unconstrained
@@ -56,8 +62,6 @@ namespace UnityEngine::UI {
       static UnityEngine::UI::ContentSizeFitter::FitMode _get_PreferredSize();
       // Set static field: static public UnityEngine.UI.ContentSizeFitter/FitMode PreferredSize
       static void _set_PreferredSize(UnityEngine::UI::ContentSizeFitter::FitMode value);
-      // Creating value type constructor for type: FitMode
-      FitMode(int value_ = {}) : value{value_} {}
     }; // UnityEngine.UI.ContentSizeFitter/FitMode
     // protected UnityEngine.UI.ContentSizeFitter/FitMode m_HorizontalFit
     // Offset: 0x18
@@ -71,6 +75,8 @@ namespace UnityEngine::UI {
     // private UnityEngine.DrivenRectTransformTracker m_Tracker
     // Offset: 0x28
     UnityEngine::DrivenRectTransformTracker m_Tracker;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public UnityEngine.UI.ContentSizeFitter/FitMode get_horizontalFit()
     // Offset: 0xE098E8
     UnityEngine::UI::ContentSizeFitter::FitMode get_horizontalFit();

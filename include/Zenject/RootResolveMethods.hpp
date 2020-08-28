@@ -16,6 +16,12 @@ namespace Zenject {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: RootResolveMethods
+    constexpr RootResolveMethods(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Zenject.RootResolveMethods NonLazyOnly
     static constexpr const int NonLazyOnly = 0;
     // Get static field: static public Zenject.RootResolveMethods NonLazyOnly
@@ -28,8 +34,6 @@ namespace Zenject {
     static Zenject::RootResolveMethods _get_All();
     // Set static field: static public Zenject.RootResolveMethods All
     static void _set_All(Zenject::RootResolveMethods value);
-    // Creating value type constructor for type: RootResolveMethods
-    RootResolveMethods(int value_ = {}) : value{value_} {}
   }; // Zenject.RootResolveMethods
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

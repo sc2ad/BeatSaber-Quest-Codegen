@@ -22,7 +22,7 @@ namespace OVR::OpenVR {
     // Offset: 0x8
     OVR::OpenVR::ETrackedDeviceProperty prop;
     // Creating value type constructor for type: VREvent_Property_t
-    VREvent_Property_t(uint64_t container_ = {}, OVR::OpenVR::ETrackedDeviceProperty prop_ = {}) : container{container_}, prop{prop_} {}
+    constexpr VREvent_Property_t(uint64_t container_ = {}, OVR::OpenVR::ETrackedDeviceProperty prop_ = {}) : container{container_}, prop{prop_} {}
   }; // OVR.OpenVR.VREvent_Property_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

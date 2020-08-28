@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: FontStyle
+    constexpr FontStyle(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.FontStyle Normal
     static constexpr const int Normal = 0;
     // Get static field: static public UnityEngine.FontStyle Normal
@@ -40,8 +46,6 @@ namespace UnityEngine {
     static UnityEngine::FontStyle _get_BoldAndItalic();
     // Set static field: static public UnityEngine.FontStyle BoldAndItalic
     static void _set_BoldAndItalic(UnityEngine::FontStyle value);
-    // Creating value type constructor for type: FontStyle
-    FontStyle(int value_ = {}) : value{value_} {}
   }; // UnityEngine.FontStyle
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

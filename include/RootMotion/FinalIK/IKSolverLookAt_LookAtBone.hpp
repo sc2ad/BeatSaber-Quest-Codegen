@@ -25,6 +25,10 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.Vector3 baseForwardOffsetEuler
     // Offset: 0x74
     UnityEngine::Vector3 baseForwardOffsetEuler;
+    // Creating conversion operator: operator UnityEngine::Vector3
+    constexpr operator UnityEngine::Vector3() const {
+      return baseForwardOffsetEuler;
+    }
     // public System.Void Initiate(UnityEngine.Transform root)
     // Offset: 0x135465C
     void Initiate(UnityEngine::Transform* root);

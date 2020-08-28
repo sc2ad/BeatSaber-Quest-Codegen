@@ -16,6 +16,10 @@ namespace System::Runtime::InteropServices {
     // System.Int32 _val
     // Offset: 0x10
     int val;
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return val;
+    }
     // public System.Void .ctor(System.Int32 dispId)
     // Offset: 0x1167D28
     static DispIdAttribute* New_ctor(int dispId);

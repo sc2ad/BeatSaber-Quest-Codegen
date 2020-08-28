@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.SubContainerCreatorByNewPrefabWithParams
 #include "Zenject/SubContainerCreatorByNewPrefabWithParams.hpp"
+// Including type: Zenject.TypeValuePair
+#include "Zenject/TypeValuePair.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject
@@ -23,6 +25,10 @@ namespace Zenject {
     // public Zenject.TypeValuePair argPair
     // Offset: 0x10
     Zenject::TypeValuePair argPair;
+    // Creating conversion operator: operator Zenject::TypeValuePair
+    constexpr operator Zenject::TypeValuePair() const {
+      return argPair;
+    }
     // System.Boolean <CreateTempContainer>b__0(Zenject.InjectableInfo x)
     // Offset: 0xFD32B4
     bool $CreateTempContainer$b__0(Zenject::InjectableInfo* x);

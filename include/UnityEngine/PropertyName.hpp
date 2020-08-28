@@ -24,7 +24,11 @@ namespace UnityEngine {
     // Offset: 0x0
     int id;
     // Creating value type constructor for type: PropertyName
-    PropertyName(int id_ = {}) : id{id_} {}
+    constexpr PropertyName(int id_ = {}) : id{id_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return id;
+    }
     // public System.Void .ctor(System.String name)
     // Offset: 0xA48FF8
     static PropertyName* New_ctor(::Il2CppString* name);

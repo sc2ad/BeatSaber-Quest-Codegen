@@ -16,6 +16,12 @@ namespace System::IO {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: NotifyFilters
+    constexpr NotifyFilters(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.IO.NotifyFilters Attributes
     static constexpr const int Attributes = 4;
     // Get static field: static public System.IO.NotifyFilters Attributes
@@ -64,8 +70,6 @@ namespace System::IO {
     static System::IO::NotifyFilters _get_Size();
     // Set static field: static public System.IO.NotifyFilters Size
     static void _set_Size(System::IO::NotifyFilters value);
-    // Creating value type constructor for type: NotifyFilters
-    NotifyFilters(int value_ = {}) : value{value_} {}
   }; // System.IO.NotifyFilters
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

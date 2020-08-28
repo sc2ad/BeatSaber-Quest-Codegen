@@ -18,6 +18,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TM
+    constexpr TM(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.DateTimeParse/TM NotSet
     static constexpr const int NotSet = -1;
     // Get static field: static public System.DateTimeParse/TM NotSet
@@ -36,8 +42,6 @@ namespace System {
     static System::DateTimeParse::TM _get_PM();
     // Set static field: static public System.DateTimeParse/TM PM
     static void _set_PM(System::DateTimeParse::TM value);
-    // Creating value type constructor for type: TM
-    TM(int value_ = {}) : value{value_} {}
   }; // System.DateTimeParse/TM
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

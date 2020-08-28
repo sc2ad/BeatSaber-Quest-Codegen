@@ -23,6 +23,10 @@ namespace UnityEngine::ProBuilder {
     // public System.Int32 i
     // Offset: 0x10
     int i;
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return i;
+    }
     // System.Boolean <GetUnusedTextureGroup>b__0(UnityEngine.ProBuilder.Face element)
     // Offset: 0x103BDE8
     bool $GetUnusedTextureGroup$b__0(UnityEngine::ProBuilder::Face* element);

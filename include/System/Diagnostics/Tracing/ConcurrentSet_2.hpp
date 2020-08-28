@@ -32,7 +32,11 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x0
     ::Array<ItemType>* items;
     // Creating value type constructor for type: ConcurrentSet_2
-    ConcurrentSet_2(::Array<ItemType>* items_ = {}) : items{items_} {}
+    constexpr ConcurrentSet_2(::Array<ItemType>* items_ = {}) : items{items_} {}
+    // Creating conversion operator: operator ::Array<ItemType>*
+    constexpr operator ::Array<ItemType>*() const {
+      return items;
+    }
     // public ItemType TryGet(KeyType key)
     // Offset: 0xFFFFFFFF
     ItemType TryGet(KeyType key) {

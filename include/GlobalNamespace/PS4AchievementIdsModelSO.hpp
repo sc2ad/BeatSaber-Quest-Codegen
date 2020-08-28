@@ -41,6 +41,8 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.Dictionary`2<System.Int32,System.String> _trophyIdToAchievementId
     // Offset: 0x28
     System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* trophyIdToAchievementId;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Collections.Generic.List`1<PS4AchievementIdsModelSO/AchievementIdData> get_achievementsIds()
     // Offset: 0xBD0950
     System::Collections::Generic::List_1<GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData*>* get_achievementsIds();

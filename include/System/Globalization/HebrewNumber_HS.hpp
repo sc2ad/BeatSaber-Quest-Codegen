@@ -18,6 +18,12 @@ namespace System::Globalization {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: HS
+    constexpr HS(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Globalization.HebrewNumber/HS _err
     static constexpr const int _err = -1;
     // Get static field: static public System.Globalization.HebrewNumber/HS _err
@@ -132,8 +138,6 @@ namespace System::Globalization {
     static System::Globalization::HebrewNumber::HS _get_END();
     // Set static field: static public System.Globalization.HebrewNumber/HS END
     static void _set_END(System::Globalization::HebrewNumber::HS value);
-    // Creating value type constructor for type: HS
-    HS(int value_ = {}) : value{value_} {}
   }; // System.Globalization.HebrewNumber/HS
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

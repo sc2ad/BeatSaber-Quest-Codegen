@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SceneDismissType
+    constexpr SceneDismissType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public GameScenesManager/SceneDismissType Unload
     static constexpr const int Unload = 0;
     // Get static field: static public GameScenesManager/SceneDismissType Unload
@@ -30,8 +36,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::GameScenesManager::SceneDismissType _get_Deactivate();
     // Set static field: static public GameScenesManager/SceneDismissType Deactivate
     static void _set_Deactivate(GlobalNamespace::GameScenesManager::SceneDismissType value);
-    // Creating value type constructor for type: SceneDismissType
-    SceneDismissType(int value_ = {}) : value{value_} {}
   }; // GameScenesManager/SceneDismissType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

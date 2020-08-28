@@ -25,6 +25,10 @@ namespace UnityEngine {
     // System.IntPtr nativeDisplay
     // Offset: 0x10
     System::IntPtr nativeDisplay;
+    // Creating conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const {
+      return nativeDisplay;
+    }
     // Get static field: static public UnityEngine.Display[] displays
     static ::Array<UnityEngine::Display*>* _get_displays();
     // Set static field: static public UnityEngine.Display[] displays

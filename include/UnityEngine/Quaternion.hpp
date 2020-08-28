@@ -33,6 +33,8 @@ namespace UnityEngine {
     // public System.Single w
     // Offset: 0xC
     float w;
+    // Creating value type constructor for type: Quaternion
+    constexpr Quaternion(float x_ = {}, float y_ = {}, float z_ = {}, float w_ = {}) : x{x_}, y{y_}, z{z_}, w{w_} {}
     // Get static field: static private readonly UnityEngine.Quaternion identityQuaternion
     static UnityEngine::Quaternion _get_identityQuaternion();
     // Set static field: static private readonly UnityEngine.Quaternion identityQuaternion
@@ -43,8 +45,6 @@ namespace UnityEngine {
     static float _get_kEpsilon();
     // Set static field: static public System.Single kEpsilon
     static void _set_kEpsilon(float value);
-    // Creating value type constructor for type: Quaternion
-    Quaternion(float x_ = {}, float y_ = {}, float z_ = {}, float w_ = {}) : x{x_}, y{y_}, z{z_}, w{w_} {}
     // static public UnityEngine.Quaternion FromToRotation(UnityEngine.Vector3 fromDirection, UnityEngine.Vector3 toDirection)
     // Offset: 0x141F000
     static UnityEngine::Quaternion FromToRotation(UnityEngine::Vector3 fromDirection, UnityEngine::Vector3 toDirection);

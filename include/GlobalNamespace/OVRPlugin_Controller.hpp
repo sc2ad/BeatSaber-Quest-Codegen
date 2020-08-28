@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Controller
+    constexpr Controller(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRPlugin/Controller None
     static constexpr const int None = 0;
     // Get static field: static public OVRPlugin/Controller None
@@ -102,8 +108,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::Controller _get_All();
     // Set static field: static public OVRPlugin/Controller All
     static void _set_All(GlobalNamespace::OVRPlugin::Controller value);
-    // Creating value type constructor for type: Controller
-    Controller(int value_ = {}) : value{value_} {}
   }; // OVRPlugin/Controller
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

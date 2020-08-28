@@ -29,7 +29,7 @@ namespace System::Globalization {
     // Offset: 0x8
     ::Il2CppString* Names;
     // Creating value type constructor for type: InternalCodePageDataItem
-    InternalCodePageDataItem(uint16_t codePage_ = {}, uint16_t uiFamilyCodePage_ = {}, uint flags_ = {}, ::Il2CppString* Names_ = {}) : codePage{codePage_}, uiFamilyCodePage{uiFamilyCodePage_}, flags{flags_}, Names{Names_} {}
+    constexpr InternalCodePageDataItem(uint16_t codePage_ = {}, uint16_t uiFamilyCodePage_ = {}, uint flags_ = {}, ::Il2CppString* Names_ = {}) : codePage{codePage_}, uiFamilyCodePage{uiFamilyCodePage_}, flags{flags_}, Names{Names_} {}
   }; // System.Globalization.InternalCodePageDataItem
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

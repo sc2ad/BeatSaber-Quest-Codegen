@@ -18,6 +18,10 @@ namespace System::Runtime::CompilerServices {
     // private System.DateTime date
     // Offset: 0x10
     System::DateTime date;
+    // Creating conversion operator: operator System::DateTime
+    constexpr operator System::DateTime() const {
+      return date;
+    }
     // public override System.Object get_Value()
     // Offset: 0x1166928
     // Implemented from: System.Runtime.CompilerServices.CustomConstantAttribute

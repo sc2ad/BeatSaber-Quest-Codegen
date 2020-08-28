@@ -53,6 +53,8 @@ namespace GlobalNamespace {
     // private FileBrowserItem[] _items
     // Offset: 0x38
     ::Array<GlobalNamespace::FileBrowserItem*>* items;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static field const value: static private System.String kCellIdentifier
     static constexpr const char* kCellIdentifier = "Cell";
     // Get static field: static private System.String kCellIdentifier

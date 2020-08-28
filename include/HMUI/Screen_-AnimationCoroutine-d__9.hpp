@@ -9,6 +9,8 @@
 #include "HMUI/Screen.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
+// Including type: UnityEngine.Vector3
+#include "UnityEngine/Vector3.hpp"
 // Completed includes
 // Type namespace: HMUI
 namespace HMUI {

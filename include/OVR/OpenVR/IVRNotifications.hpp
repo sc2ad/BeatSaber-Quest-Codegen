@@ -28,7 +28,7 @@ namespace OVR::OpenVR {
     // Offset: 0x8
     OVR::OpenVR::IVRNotifications::_RemoveNotification* RemoveNotification;
     // Creating value type constructor for type: IVRNotifications
-    IVRNotifications(OVR::OpenVR::IVRNotifications::_CreateNotification* CreateNotification_ = {}, OVR::OpenVR::IVRNotifications::_RemoveNotification* RemoveNotification_ = {}) : CreateNotification{CreateNotification_}, RemoveNotification{RemoveNotification_} {}
+    constexpr IVRNotifications(OVR::OpenVR::IVRNotifications::_CreateNotification* CreateNotification_ = {}, OVR::OpenVR::IVRNotifications::_RemoveNotification* RemoveNotification_ = {}) : CreateNotification{CreateNotification_}, RemoveNotification{RemoveNotification_} {}
   }; // OVR.OpenVR.IVRNotifications
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

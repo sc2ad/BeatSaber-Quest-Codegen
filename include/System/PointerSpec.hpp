@@ -28,6 +28,10 @@ namespace System {
     // private System.Int32 pointer_level
     // Offset: 0x10
     int pointer_level;
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return pointer_level;
+    }
     // System.Void .ctor(System.Int32 pointer_level)
     // Offset: 0x1366818
     static PointerSpec* New_ctor(int pointer_level);

@@ -33,7 +33,11 @@ namespace Mono {
     // Offset: 0x0
     Mono::RuntimeStructs::GenericParamInfo* value;
     // Creating value type constructor for type: RuntimeGenericParamInfoHandle
-    RuntimeGenericParamInfoHandle(Mono::RuntimeStructs::GenericParamInfo* value_ = {}) : value{value_} {}
+    constexpr RuntimeGenericParamInfoHandle(Mono::RuntimeStructs::GenericParamInfo* value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator Mono::RuntimeStructs::GenericParamInfo*
+    constexpr operator Mono::RuntimeStructs::GenericParamInfo*() const {
+      return value;
+    }
     // System.Void .ctor(System.IntPtr ptr)
     // Offset: 0xA408A8
     static RuntimeGenericParamInfoHandle* New_ctor(System::IntPtr ptr);

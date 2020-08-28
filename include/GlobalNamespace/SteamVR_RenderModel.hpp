@@ -106,6 +106,8 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.Dictionary`2<System.Int32,System.String> nameCache
     // Offset: 0x58
     System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* nameCache;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static field const value: static public System.String modelOverrideWarning
     static constexpr const char* modelOverrideWarning = "Model override is really only meant to be used in the scene view for lining things up; using it at runtime is discouraged.  Use tracked device index instead to ensure the correct model is displayed for all users.";
     // Get static field: static public System.String modelOverrideWarning

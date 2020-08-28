@@ -23,6 +23,10 @@ namespace GlobalNamespace {
     // private ScenesTransitionSetupDataSO <nextScenesTransitionSetupData>k__BackingField
     // Offset: 0x10
     GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData;
+    // Creating conversion operator: operator GlobalNamespace::ScenesTransitionSetupDataSO*
+    constexpr operator GlobalNamespace::ScenesTransitionSetupDataSO*() const {
+      return nextScenesTransitionSetupData;
+    }
     // public ScenesTransitionSetupDataSO get_nextScenesTransitionSetupData()
     // Offset: 0xC2F448
     GlobalNamespace::ScenesTransitionSetupDataSO* get_nextScenesTransitionSetupData();

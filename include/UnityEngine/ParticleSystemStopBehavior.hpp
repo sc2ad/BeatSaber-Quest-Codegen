@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ParticleSystemStopBehavior
+    constexpr ParticleSystemStopBehavior(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ParticleSystemStopBehavior StopEmittingAndClear
     static constexpr const int StopEmittingAndClear = 0;
     // Get static field: static public UnityEngine.ParticleSystemStopBehavior StopEmittingAndClear
@@ -28,8 +34,6 @@ namespace UnityEngine {
     static UnityEngine::ParticleSystemStopBehavior _get_StopEmitting();
     // Set static field: static public UnityEngine.ParticleSystemStopBehavior StopEmitting
     static void _set_StopEmitting(UnityEngine::ParticleSystemStopBehavior value);
-    // Creating value type constructor for type: ParticleSystemStopBehavior
-    ParticleSystemStopBehavior(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ParticleSystemStopBehavior
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

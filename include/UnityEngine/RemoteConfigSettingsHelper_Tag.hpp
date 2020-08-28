@@ -18,6 +18,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Tag
+    constexpr Tag(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.RemoteConfigSettingsHelper/Tag kUnknown
     static constexpr const int kUnknown = 0;
     // Get static field: static public UnityEngine.RemoteConfigSettingsHelper/Tag kUnknown
@@ -84,8 +90,6 @@ namespace UnityEngine {
     static UnityEngine::RemoteConfigSettingsHelper::Tag _get_kMaxTags();
     // Set static field: static public UnityEngine.RemoteConfigSettingsHelper/Tag kMaxTags
     static void _set_kMaxTags(UnityEngine::RemoteConfigSettingsHelper::Tag value);
-    // Creating value type constructor for type: Tag
-    Tag(int value_ = {}) : value{value_} {}
   }; // UnityEngine.RemoteConfigSettingsHelper/Tag
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

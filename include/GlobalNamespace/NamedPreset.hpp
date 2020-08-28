@@ -14,6 +14,10 @@ namespace GlobalNamespace {
     // private System.String _presetNameLocalizationKey
     // Offset: 0x10
     ::Il2CppString* presetNameLocalizationKey;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return presetNameLocalizationKey;
+    }
     // public System.String get_presetNameLocalizationKey()
     // Offset: 0xC1070C
     ::Il2CppString* get_presetNameLocalizationKey();

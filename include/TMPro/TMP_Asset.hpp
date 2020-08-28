@@ -29,6 +29,8 @@ namespace TMPro {
     // public System.Int32 materialHashCode
     // Offset: 0x28
     int materialHashCode;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void .ctor()
     // Offset: 0xB55260
     // Implemented from: UnityEngine.ScriptableObject

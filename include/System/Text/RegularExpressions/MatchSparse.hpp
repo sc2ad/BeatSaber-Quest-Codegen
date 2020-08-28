@@ -30,6 +30,10 @@ namespace System::Text::RegularExpressions {
     // System.Collections.Hashtable _caps
     // Offset: 0x70
     System::Collections::Hashtable* caps;
+    // Creating conversion operator: operator System::Collections::Hashtable*
+    constexpr operator System::Collections::Hashtable*() const {
+      return caps;
+    }
     // System.Void .ctor(System.Text.RegularExpressions.Regex regex, System.Collections.Hashtable caps, System.Int32 capcount, System.String text, System.Int32 begpos, System.Int32 len, System.Int32 startpos)
     // Offset: 0x1221894
     static MatchSparse* New_ctor(System::Text::RegularExpressions::Regex* regex, System::Collections::Hashtable* caps, int capcount, ::Il2CppString* text, int begpos, int len, int startpos);

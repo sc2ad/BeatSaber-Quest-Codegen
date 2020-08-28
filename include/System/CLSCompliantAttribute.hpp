@@ -16,6 +16,10 @@ namespace System {
     // private System.Boolean m_compliant
     // Offset: 0x10
     bool m_compliant;
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return m_compliant;
+    }
     // public System.Void .ctor(System.Boolean isCompliant)
     // Offset: 0x13363C0
     static CLSCompliantAttribute* New_ctor(bool isCompliant);

@@ -30,6 +30,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: ValueType
+      constexpr ValueType(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public FormattedFloatListSettingsValueController/ValueType Normal
       static constexpr const int Normal = 0;
       // Get static field: static public FormattedFloatListSettingsValueController/ValueType Normal
@@ -48,8 +54,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::FormattedFloatListSettingsValueController::ValueType _get_InvertedNormalized();
       // Set static field: static public FormattedFloatListSettingsValueController/ValueType InvertedNormalized
       static void _set_InvertedNormalized(GlobalNamespace::FormattedFloatListSettingsValueController::ValueType value);
-      // Creating value type constructor for type: ValueType
-      ValueType(int value_ = {}) : value{value_} {}
     }; // FormattedFloatListSettingsValueController/ValueType
     // private FloatSO _settingsValue
     // Offset: 0x38

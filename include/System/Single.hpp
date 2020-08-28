@@ -48,6 +48,12 @@ namespace System {
     // System.Single m_value
     // Offset: 0x0
     float m_value;
+    // Creating value type constructor for type: Single
+    constexpr Single(float m_value_ = {}) : m_value{m_value_} {}
+    // Creating conversion operator: operator float
+    constexpr operator float() const {
+      return m_value;
+    }
     // static field const value: static public System.Single MinValue
     static constexpr const float MinValue = -3.4028235e+38;
     // Get static field: static public System.Single MinValue
@@ -78,8 +84,6 @@ namespace System {
     static float _get_NaN();
     // Set static field: static public System.Single NaN
     static void _set_NaN(float value);
-    // Creating value type constructor for type: Single
-    Single(float m_value_ = {}) : m_value{m_value_} {}
     // static public System.Boolean IsInfinity(System.Single f)
     // Offset: 0xDF1384
     static bool IsInfinity(float f);

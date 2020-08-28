@@ -23,6 +23,10 @@ namespace GlobalNamespace {
     // private ColorScheme <colorScheme>k__BackingField
     // Offset: 0x10
     GlobalNamespace::ColorScheme* colorScheme;
+    // Creating conversion operator: operator GlobalNamespace::ColorScheme*
+    constexpr operator GlobalNamespace::ColorScheme*() const {
+      return colorScheme;
+    }
     // public ColorScheme get_colorScheme()
     // Offset: 0xBF3654
     GlobalNamespace::ColorScheme* get_colorScheme();

@@ -22,7 +22,7 @@ namespace UnityEngine::Analytics {
     // Offset: 0x8
     ::Il2CppString* token;
     // Creating value type constructor for type: TokenData
-    TokenData(::Il2CppString* url_ = {}, ::Il2CppString* token_ = {}) : url{url_}, token{token_} {}
+    constexpr TokenData(::Il2CppString* url_ = {}, ::Il2CppString* token_ = {}) : url{url_}, token{token_} {}
   }; // UnityEngine.Analytics.DataPrivacy/TokenData
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

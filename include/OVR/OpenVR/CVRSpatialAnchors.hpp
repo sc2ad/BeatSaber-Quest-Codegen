@@ -37,6 +37,10 @@ namespace OVR::OpenVR {
     // private OVR.OpenVR.IVRSpatialAnchors FnTable
     // Offset: 0x10
     OVR::OpenVR::IVRSpatialAnchors FnTable;
+    // Creating conversion operator: operator OVR::OpenVR::IVRSpatialAnchors
+    constexpr operator OVR::OpenVR::IVRSpatialAnchors() const {
+      return FnTable;
+    }
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0xED1758
     static CVRSpatialAnchors* New_ctor(System::IntPtr pInterface);

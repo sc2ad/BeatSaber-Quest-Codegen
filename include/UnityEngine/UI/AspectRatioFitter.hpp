@@ -40,6 +40,12 @@ namespace UnityEngine::UI {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: AspectMode
+      constexpr AspectMode(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public UnityEngine.UI.AspectRatioFitter/AspectMode None
       static constexpr const int None = 0;
       // Get static field: static public UnityEngine.UI.AspectRatioFitter/AspectMode None
@@ -70,8 +76,6 @@ namespace UnityEngine::UI {
       static UnityEngine::UI::AspectRatioFitter::AspectMode _get_EnvelopeParent();
       // Set static field: static public UnityEngine.UI.AspectRatioFitter/AspectMode EnvelopeParent
       static void _set_EnvelopeParent(UnityEngine::UI::AspectRatioFitter::AspectMode value);
-      // Creating value type constructor for type: AspectMode
-      AspectMode(int value_ = {}) : value{value_} {}
     }; // UnityEngine.UI.AspectRatioFitter/AspectMode
     // private UnityEngine.UI.AspectRatioFitter/AspectMode m_AspectMode
     // Offset: 0x18
@@ -88,6 +92,8 @@ namespace UnityEngine::UI {
     // private UnityEngine.DrivenRectTransformTracker m_Tracker
     // Offset: 0x29
     UnityEngine::DrivenRectTransformTracker m_Tracker;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public UnityEngine.UI.AspectRatioFitter/AspectMode get_aspectMode()
     // Offset: 0xE05F3C
     UnityEngine::UI::AspectRatioFitter::AspectMode get_aspectMode();

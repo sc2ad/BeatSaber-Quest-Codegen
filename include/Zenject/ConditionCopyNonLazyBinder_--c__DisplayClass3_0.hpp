@@ -28,6 +28,10 @@ namespace Zenject {
     // public System.Type[] targets
     // Offset: 0x10
     ::Array<System::Type*>* targets;
+    // Creating conversion operator: operator ::Array<System::Type*>*
+    constexpr operator ::Array<System::Type*>*() const {
+      return targets;
+    }
     // System.Boolean <WhenInjectedInto>b__0(Zenject.InjectContext r)
     // Offset: 0xD6CEC4
     bool $WhenInjectedInto$b__0(Zenject::InjectContext* r);

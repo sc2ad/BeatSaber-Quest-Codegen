@@ -36,6 +36,8 @@ namespace GlobalNamespace {
     // private LIV.SDK.Unity.LIV _liv
     // Offset: 0x28
     LIV::SDK::Unity::LIV* liv;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xB9B310
     void Start();

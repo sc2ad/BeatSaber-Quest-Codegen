@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: CameraDeviceDepthQuality
+    constexpr CameraDeviceDepthQuality(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRPlugin/CameraDeviceDepthQuality Low
     static constexpr const int Low = 0;
     // Get static field: static public OVRPlugin/CameraDeviceDepthQuality Low
@@ -36,8 +42,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::CameraDeviceDepthQuality _get_High();
     // Set static field: static public OVRPlugin/CameraDeviceDepthQuality High
     static void _set_High(GlobalNamespace::OVRPlugin::CameraDeviceDepthQuality value);
-    // Creating value type constructor for type: CameraDeviceDepthQuality
-    CameraDeviceDepthQuality(int value_ = {}) : value{value_} {}
   }; // OVRPlugin/CameraDeviceDepthQuality
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

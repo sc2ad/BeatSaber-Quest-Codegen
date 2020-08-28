@@ -35,6 +35,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: EIndex
+      constexpr EIndex(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public SteamVR_TrackedObject/EIndex None
       static constexpr const int None = -1;
       // Get static field: static public SteamVR_TrackedObject/EIndex None
@@ -137,8 +143,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::SteamVR_TrackedObject::EIndex _get_Device15();
       // Set static field: static public SteamVR_TrackedObject/EIndex Device15
       static void _set_Device15(GlobalNamespace::SteamVR_TrackedObject::EIndex value);
-      // Creating value type constructor for type: EIndex
-      EIndex(int value_ = {}) : value{value_} {}
     }; // SteamVR_TrackedObject/EIndex
     // public SteamVR_TrackedObject/EIndex index
     // Offset: 0x18
@@ -152,6 +156,8 @@ namespace GlobalNamespace {
     // private SteamVR_Events/Action newPosesAction
     // Offset: 0x30
     GlobalNamespace::SteamVR_Events::Action* newPosesAction;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Boolean get_isValid()
     // Offset: 0xFD80FC
     bool get_isValid();

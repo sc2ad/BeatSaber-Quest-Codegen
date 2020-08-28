@@ -66,6 +66,8 @@ namespace GlobalNamespace {
     // private MissionLevelScenesTransitionSetupDataSO _scenesTransitionSetupData
     // Offset: 0x58
     GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* scenesTransitionSetupData;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public override System.Void InstallBindings(Zenject.DiContainer container)
     // Offset: 0xC077FC
     // Implemented from: Zenject.NoTransitionInstaller

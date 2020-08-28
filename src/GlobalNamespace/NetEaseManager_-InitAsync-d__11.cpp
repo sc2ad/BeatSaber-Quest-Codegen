@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NetEaseManager/<InitAsync>d__11
 #include "GlobalNamespace/NetEaseManager_-InitAsync-d__11.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

@@ -23,6 +23,10 @@ namespace GlobalNamespace {
     // public readonly IBeatmapLevelPack beatmapLevelPack
     // Offset: 0x10
     GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack;
+    // Creating conversion operator: operator GlobalNamespace::IBeatmapLevelPack*
+    constexpr operator GlobalNamespace::IBeatmapLevelPack*() const {
+      return beatmapLevelPack;
+    }
     // public System.Void .ctor(IBeatmapLevelPack beatmapLevelPack)
     // Offset: 0xC2DF10
     static SelectLevelPackDestination* New_ctor(GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack);

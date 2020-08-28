@@ -18,6 +18,10 @@ namespace System::Security::Cryptography {
     // private System.IntPtr _handle
     // Offset: 0x10
     System::IntPtr handle;
+    // Creating conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const {
+      return handle;
+    }
     // Get static field: static private System.Object _lock
     static ::Il2CppObject* _get__lock();
     // Set static field: static private System.Object _lock

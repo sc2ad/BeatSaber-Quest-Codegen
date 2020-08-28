@@ -16,6 +16,12 @@ namespace UnityEngine::ProBuilder {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: RectSelectMode
+    constexpr RectSelectMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ProBuilder.RectSelectMode Partial
     static constexpr const int Partial = 0;
     // Get static field: static public UnityEngine.ProBuilder.RectSelectMode Partial
@@ -28,8 +34,6 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::RectSelectMode _get_Complete();
     // Set static field: static public UnityEngine.ProBuilder.RectSelectMode Complete
     static void _set_Complete(UnityEngine::ProBuilder::RectSelectMode value);
-    // Creating value type constructor for type: RectSelectMode
-    RectSelectMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.RectSelectMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

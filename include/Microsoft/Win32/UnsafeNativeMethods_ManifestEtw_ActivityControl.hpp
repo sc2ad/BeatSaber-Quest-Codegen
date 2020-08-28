@@ -18,6 +18,12 @@ namespace Microsoft::Win32 {
     // public System.UInt32 value__
     // Offset: 0x0
     uint value;
+    // Creating value type constructor for type: ActivityControl
+    constexpr ActivityControl(uint value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator uint
+    constexpr operator uint() const {
+      return value;
+    }
     // static field const value: static public Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/ActivityControl EVENT_ACTIVITY_CTRL_GET_ID
     static constexpr const uint EVENT_ACTIVITY_CTRL_GET_ID = 1u;
     // Get static field: static public Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/ActivityControl EVENT_ACTIVITY_CTRL_GET_ID
@@ -48,8 +54,6 @@ namespace Microsoft::Win32 {
     static Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::ActivityControl _get_EVENT_ACTIVITY_CTRL_CREATE_SET_ID();
     // Set static field: static public Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/ActivityControl EVENT_ACTIVITY_CTRL_CREATE_SET_ID
     static void _set_EVENT_ACTIVITY_CTRL_CREATE_SET_ID(Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::ActivityControl value);
-    // Creating value type constructor for type: ActivityControl
-    ActivityControl(uint value_ = {}) : value{value_} {}
   }; // Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/ActivityControl
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

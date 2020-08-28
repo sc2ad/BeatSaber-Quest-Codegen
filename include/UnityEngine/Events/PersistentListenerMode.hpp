@@ -16,6 +16,12 @@ namespace UnityEngine::Events {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: PersistentListenerMode
+    constexpr PersistentListenerMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Events.PersistentListenerMode EventDefined
     static constexpr const int EventDefined = 0;
     // Get static field: static public UnityEngine.Events.PersistentListenerMode EventDefined
@@ -58,8 +64,6 @@ namespace UnityEngine::Events {
     static UnityEngine::Events::PersistentListenerMode _get_Bool();
     // Set static field: static public UnityEngine.Events.PersistentListenerMode Bool
     static void _set_Bool(UnityEngine::Events::PersistentListenerMode value);
-    // Creating value type constructor for type: PersistentListenerMode
-    PersistentListenerMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Events.PersistentListenerMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

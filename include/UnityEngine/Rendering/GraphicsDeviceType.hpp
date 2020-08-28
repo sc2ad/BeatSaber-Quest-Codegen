@@ -16,6 +16,12 @@ namespace UnityEngine::Rendering {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: GraphicsDeviceType
+    constexpr GraphicsDeviceType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Rendering.GraphicsDeviceType OpenGL2
     static constexpr const int OpenGL2 = 0;
     // Get static field: static public UnityEngine.Rendering.GraphicsDeviceType OpenGL2
@@ -130,8 +136,6 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::GraphicsDeviceType _get_XboxOneD3D12();
     // Set static field: static public UnityEngine.Rendering.GraphicsDeviceType XboxOneD3D12
     static void _set_XboxOneD3D12(UnityEngine::Rendering::GraphicsDeviceType value);
-    // Creating value type constructor for type: GraphicsDeviceType
-    GraphicsDeviceType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Rendering.GraphicsDeviceType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -28,6 +28,10 @@ namespace UnityEngine::TestRunner {
     // private System.Type m_Type
     // Offset: 0x10
     System::Type* m_Type;
+    // Creating conversion operator: operator System::Type*
+    constexpr operator System::Type*() const {
+      return m_Type;
+    }
     // UnityEngine.TestRunner.ITestRunCallback ConstructCallback()
     // Offset: 0xE3E6B0
     UnityEngine::TestRunner::ITestRunCallback* ConstructCallback();

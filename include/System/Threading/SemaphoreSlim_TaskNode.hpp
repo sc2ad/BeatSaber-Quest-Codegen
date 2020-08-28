@@ -28,6 +28,8 @@ namespace System::Threading {
     // System.Threading.SemaphoreSlim/TaskNode Next
     // Offset: 0x60
     System::Threading::SemaphoreSlim::TaskNode* Next;
+    // Deleting conversion operator: operator TResult
+    constexpr operator TResult() const = delete;
     // System.Void .ctor()
     // Offset: 0xCDC0FC
     // Implemented from: System.Threading.Tasks.Task`1

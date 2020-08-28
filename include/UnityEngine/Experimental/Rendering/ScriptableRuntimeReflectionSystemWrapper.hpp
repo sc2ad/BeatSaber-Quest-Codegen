@@ -21,6 +21,10 @@ namespace UnityEngine::Experimental::Rendering {
     // private UnityEngine.Experimental.Rendering.IScriptableRuntimeReflectionSystem <implementation>k__BackingField
     // Offset: 0x10
     UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* implementation;
+    // Creating conversion operator: operator UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*
+    constexpr operator UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*() const {
+      return implementation;
+    }
     // UnityEngine.Experimental.Rendering.IScriptableRuntimeReflectionSystem get_implementation()
     // Offset: 0x1312F7C
     UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* get_implementation();

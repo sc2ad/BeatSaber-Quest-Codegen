@@ -23,6 +23,10 @@ namespace System::Runtime::InteropServices {
     // System.Type _val
     // Offset: 0x10
     System::Type* val;
+    // Creating conversion operator: operator System::Type*
+    constexpr operator System::Type*() const {
+      return val;
+    }
     // public System.Void .ctor(System.Type defaultInterface)
     // Offset: 0x1167C90
     static ComDefaultInterfaceAttribute* New_ctor(System::Type* defaultInterface);

@@ -47,6 +47,8 @@ namespace GlobalNamespace {
     // protected OVRCameraRig CameraRig
     // Offset: 0x30
     GlobalNamespace::OVRCameraRig* CameraRig;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private System.Void Awake()
     // Offset: 0xCCE1B4
     void Awake();

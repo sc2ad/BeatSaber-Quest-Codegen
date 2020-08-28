@@ -16,6 +16,12 @@ namespace JetBrains::Annotations {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ImplicitUseKindFlags
+    constexpr ImplicitUseKindFlags(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public JetBrains.Annotations.ImplicitUseKindFlags Default
     static constexpr const int Default = 7;
     // Get static field: static public JetBrains.Annotations.ImplicitUseKindFlags Default
@@ -46,8 +52,6 @@ namespace JetBrains::Annotations {
     static JetBrains::Annotations::ImplicitUseKindFlags _get_InstantiatedNoFixedConstructorSignature();
     // Set static field: static public JetBrains.Annotations.ImplicitUseKindFlags InstantiatedNoFixedConstructorSignature
     static void _set_InstantiatedNoFixedConstructorSignature(JetBrains::Annotations::ImplicitUseKindFlags value);
-    // Creating value type constructor for type: ImplicitUseKindFlags
-    ImplicitUseKindFlags(int value_ = {}) : value{value_} {}
   }; // JetBrains.Annotations.ImplicitUseKindFlags
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

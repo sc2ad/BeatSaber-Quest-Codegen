@@ -28,6 +28,8 @@ namespace GlobalNamespace {
     // private PlayerHeightDetector _playerHeightDetector
     // Offset: 0x20
     GlobalNamespace::PlayerHeightDetector* playerHeightDetector;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xB7A8F8
     void Start();

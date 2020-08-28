@@ -25,6 +25,10 @@ namespace Zenject {
     // public Zenject.DiContainer subContainer
     // Offset: 0x10
     Zenject::DiContainer* subContainer;
+    // Creating conversion operator: operator Zenject::DiContainer*
+    constexpr operator Zenject::DiContainer*() const {
+      return subContainer;
+    }
     // Zenject.ISubContainerCreator <ByInstance>b__0(Zenject.DiContainer _)
     // Offset: 0xFD10B8
     Zenject::ISubContainerCreator* $ByInstance$b__0(Zenject::DiContainer* _);

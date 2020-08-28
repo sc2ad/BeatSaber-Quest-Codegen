@@ -48,6 +48,12 @@ namespace System {
     // System.Double m_value
     // Offset: 0x0
     double m_value;
+    // Creating value type constructor for type: Double
+    constexpr Double(double m_value_ = {}) : m_value{m_value_} {}
+    // Creating conversion operator: operator double
+    constexpr operator double() const {
+      return m_value;
+    }
     // static field const value: static public System.Double MinValue
     static constexpr const double MinValue = -1.7976931348623157e+308;
     // Get static field: static public System.Double MinValue
@@ -82,8 +88,6 @@ namespace System {
     static double _get_NegativeZero();
     // Set static field: static System.Double NegativeZero
     static void _set_NegativeZero(double value);
-    // Creating value type constructor for type: Double
-    Double(double m_value_ = {}) : m_value{m_value_} {}
     // static public System.Boolean IsInfinity(System.Double d)
     // Offset: 0xDA1D9C
     static bool IsInfinity(double d);

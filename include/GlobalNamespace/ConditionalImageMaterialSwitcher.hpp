@@ -42,6 +42,8 @@ namespace GlobalNamespace {
     // private UnityEngine.UI.Image _image
     // Offset: 0x30
     UnityEngine::UI::Image* image;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void Awake()
     // Offset: 0xBE1FD8
     void Awake();

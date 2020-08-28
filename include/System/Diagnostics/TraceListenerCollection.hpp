@@ -35,6 +35,10 @@ namespace System::Diagnostics {
     // private System.Collections.ArrayList list
     // Offset: 0x10
     System::Collections::ArrayList* list;
+    // Creating conversion operator: operator System::Collections::ArrayList*
+    constexpr operator System::Collections::ArrayList*() const {
+      return list;
+    }
     // public System.Int32 Add(System.Diagnostics.TraceListener listener)
     // Offset: 0xF62B88
     int Add(System::Diagnostics::TraceListener* listener);

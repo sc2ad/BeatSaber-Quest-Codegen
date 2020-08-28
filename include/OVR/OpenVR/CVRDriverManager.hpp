@@ -28,6 +28,10 @@ namespace OVR::OpenVR {
     // private OVR.OpenVR.IVRDriverManager FnTable
     // Offset: 0x10
     OVR::OpenVR::IVRDriverManager FnTable;
+    // Creating conversion operator: operator OVR::OpenVR::IVRDriverManager
+    constexpr operator OVR::OpenVR::IVRDriverManager() const {
+      return FnTable;
+    }
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0xECED34
     static CVRDriverManager* New_ctor(System::IntPtr pInterface);

@@ -16,6 +16,12 @@ namespace System::Collections::Generic {
     // public System.Byte value__
     // Offset: 0x0
     uint8_t value;
+    // Creating value type constructor for type: InsertionBehavior
+    constexpr InsertionBehavior(uint8_t value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator uint8_t
+    constexpr operator uint8_t() const {
+      return value;
+    }
     // static field const value: static public System.Collections.Generic.InsertionBehavior None
     static constexpr const uint8_t None = 0u;
     // Get static field: static public System.Collections.Generic.InsertionBehavior None
@@ -34,8 +40,6 @@ namespace System::Collections::Generic {
     static System::Collections::Generic::InsertionBehavior _get_ThrowOnExisting();
     // Set static field: static public System.Collections.Generic.InsertionBehavior ThrowOnExisting
     static void _set_ThrowOnExisting(System::Collections::Generic::InsertionBehavior value);
-    // Creating value type constructor for type: InsertionBehavior
-    InsertionBehavior(uint8_t value_ = {}) : value{value_} {}
   }; // System.Collections.Generic.InsertionBehavior
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -25,7 +25,7 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x0
     uint UInt;
     // Creating value type constructor for type: FloatIntUnion
-    FloatIntUnion(float Float_ = {}, int Int_ = {}, uint UInt_ = {}) : Float{Float_}, Int{Int_}, UInt{UInt_} {}
+    constexpr FloatIntUnion(float Float_ = {}, int Int_ = {}, uint UInt_ = {}) : Float{Float_}, Int{Int_}, UInt{UInt_} {}
   }; // NUnit.Framework.Constraints.FloatingPointNumerics/FloatIntUnion
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

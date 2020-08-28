@@ -16,6 +16,12 @@ namespace System::Net::NetworkInformation {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: NetworkInterfaceComponent
+    constexpr NetworkInterfaceComponent(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Net.NetworkInformation.NetworkInterfaceComponent IPv4
     static constexpr const int IPv4 = 0;
     // Get static field: static public System.Net.NetworkInformation.NetworkInterfaceComponent IPv4
@@ -28,8 +34,6 @@ namespace System::Net::NetworkInformation {
     static System::Net::NetworkInformation::NetworkInterfaceComponent _get_IPv6();
     // Set static field: static public System.Net.NetworkInformation.NetworkInterfaceComponent IPv6
     static void _set_IPv6(System::Net::NetworkInformation::NetworkInterfaceComponent value);
-    // Creating value type constructor for type: NetworkInterfaceComponent
-    NetworkInterfaceComponent(int value_ = {}) : value{value_} {}
   }; // System.Net.NetworkInformation.NetworkInterfaceComponent
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

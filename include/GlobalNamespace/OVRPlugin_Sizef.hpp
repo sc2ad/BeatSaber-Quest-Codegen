@@ -21,12 +21,12 @@ namespace GlobalNamespace {
     // public System.Single h
     // Offset: 0x4
     float h;
+    // Creating value type constructor for type: Sizef
+    constexpr Sizef(float w_ = {}, float h_ = {}) : w{w_}, h{h_} {}
     // Get static field: static public readonly OVRPlugin/Sizef zero
     static GlobalNamespace::OVRPlugin::Sizef _get_zero();
     // Set static field: static public readonly OVRPlugin/Sizef zero
     static void _set_zero(GlobalNamespace::OVRPlugin::Sizef value);
-    // Creating value type constructor for type: Sizef
-    Sizef(float w_ = {}, float h_ = {}) : w{w_}, h{h_} {}
     // static private System.Void .cctor()
     // Offset: 0xF4B1D8
     static void _cctor();

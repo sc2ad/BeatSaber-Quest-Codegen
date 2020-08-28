@@ -33,12 +33,16 @@ namespace System {
     // private System.Void* m_value
     // Offset: 0x0
     void* m_value;
+    // Creating value type constructor for type: IntPtr
+    constexpr IntPtr(void* m_value_ = {}) : m_value{m_value_} {}
+    // Creating conversion operator: operator void*
+    constexpr operator void*() const {
+      return m_value;
+    }
     // Get static field: static public readonly System.IntPtr Zero
     static System::IntPtr _get_Zero();
     // Set static field: static public readonly System.IntPtr Zero
     static void _set_Zero(System::IntPtr value);
-    // Creating value type constructor for type: IntPtr
-    IntPtr(void* m_value_ = {}) : m_value{m_value_} {}
     // public System.Void .ctor(System.Int32 value)
     // Offset: 0xA3F84C
     static IntPtr* New_ctor(int value);

@@ -41,6 +41,8 @@ namespace RootMotion::FinalIK {
     // private System.Boolean <initiated>k__BackingField
     // Offset: 0x38
     bool initiated;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void ResetPosition()
     // Offset: 0xFFFFFFFF
     void ResetPosition();

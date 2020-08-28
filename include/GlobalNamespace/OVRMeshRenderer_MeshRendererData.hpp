@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x2
     bool ShouldUseSystemGestureMaterial;
     // Creating value type constructor for type: MeshRendererData
-    MeshRendererData(bool IsDataValid_ = {}, bool IsDataHighConfidence_ = {}, bool ShouldUseSystemGestureMaterial_ = {}) : IsDataValid{IsDataValid_}, IsDataHighConfidence{IsDataHighConfidence_}, ShouldUseSystemGestureMaterial{ShouldUseSystemGestureMaterial_} {}
+    constexpr MeshRendererData(bool IsDataValid_ = {}, bool IsDataHighConfidence_ = {}, bool ShouldUseSystemGestureMaterial_ = {}) : IsDataValid{IsDataValid_}, IsDataHighConfidence{IsDataHighConfidence_}, ShouldUseSystemGestureMaterial{ShouldUseSystemGestureMaterial_} {}
     // public System.Boolean get_IsDataValid()
     // Offset: 0xA399D0
     bool get_IsDataValid();

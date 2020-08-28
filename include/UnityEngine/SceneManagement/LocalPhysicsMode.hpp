@@ -16,6 +16,12 @@ namespace UnityEngine::SceneManagement {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: LocalPhysicsMode
+    constexpr LocalPhysicsMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.SceneManagement.LocalPhysicsMode None
     static constexpr const int None = 0;
     // Get static field: static public UnityEngine.SceneManagement.LocalPhysicsMode None
@@ -34,8 +40,6 @@ namespace UnityEngine::SceneManagement {
     static UnityEngine::SceneManagement::LocalPhysicsMode _get_Physics3D();
     // Set static field: static public UnityEngine.SceneManagement.LocalPhysicsMode Physics3D
     static void _set_Physics3D(UnityEngine::SceneManagement::LocalPhysicsMode value);
-    // Creating value type constructor for type: LocalPhysicsMode
-    LocalPhysicsMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.SceneManagement.LocalPhysicsMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

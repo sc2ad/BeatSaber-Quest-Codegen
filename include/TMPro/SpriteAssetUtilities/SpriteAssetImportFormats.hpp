@@ -16,6 +16,12 @@ namespace TMPro::SpriteAssetUtilities {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SpriteAssetImportFormats
+    constexpr SpriteAssetImportFormats(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public TMPro.SpriteAssetUtilities.SpriteAssetImportFormats None
     static constexpr const int None = 0;
     // Get static field: static public TMPro.SpriteAssetUtilities.SpriteAssetImportFormats None
@@ -28,8 +34,6 @@ namespace TMPro::SpriteAssetUtilities {
     static TMPro::SpriteAssetUtilities::SpriteAssetImportFormats _get_TexturePacker();
     // Set static field: static public TMPro.SpriteAssetUtilities.SpriteAssetImportFormats TexturePacker
     static void _set_TexturePacker(TMPro::SpriteAssetUtilities::SpriteAssetImportFormats value);
-    // Creating value type constructor for type: SpriteAssetImportFormats
-    SpriteAssetImportFormats(int value_ = {}) : value{value_} {}
   }; // TMPro.SpriteAssetUtilities.SpriteAssetImportFormats
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

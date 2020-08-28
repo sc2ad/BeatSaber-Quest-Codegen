@@ -11,11 +11,14 @@
 // Begin forward declares
 // Forward declaring namespace: OVRSimpleJSON
 namespace OVRSimpleJSON {
-  // Skipping declaration: JSONNode because it is already included!
+  // Forward declaring type: JSONNode
+  class JSONNode;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
-  // Skipping declaration: KeyValuePair`2 because it is already included!
+  // Forward declaring type: KeyValuePair`2<TKey, TValue>
+  template<typename TKey, typename TValue>
+  struct KeyValuePair_2;
 }
 // Completed forward declares
 // Type namespace: OVRSimpleJSON
@@ -26,6 +29,10 @@ namespace OVRSimpleJSON {
     // public OVRSimpleJSON.JSONNode aNode
     // Offset: 0x10
     OVRSimpleJSON::JSONNode* aNode;
+    // Creating conversion operator: operator OVRSimpleJSON::JSONNode*
+    constexpr operator OVRSimpleJSON::JSONNode*() const {
+      return aNode;
+    }
     // System.Boolean <Remove>b__0(System.Collections.Generic.KeyValuePair`2<System.String,OVRSimpleJSON.JSONNode> k)
     // Offset: 0xF591F4
     bool $Remove$b__0(System::Collections::Generic::KeyValuePair_2<::Il2CppString*, OVRSimpleJSON::JSONNode*> k);

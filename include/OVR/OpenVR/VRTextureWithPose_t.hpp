@@ -18,7 +18,11 @@ namespace OVR::OpenVR {
     // Offset: 0x0
     OVR::OpenVR::HmdMatrix34_t mDeviceToAbsoluteTracking;
     // Creating value type constructor for type: VRTextureWithPose_t
-    VRTextureWithPose_t(OVR::OpenVR::HmdMatrix34_t mDeviceToAbsoluteTracking_ = {}) : mDeviceToAbsoluteTracking{mDeviceToAbsoluteTracking_} {}
+    constexpr VRTextureWithPose_t(OVR::OpenVR::HmdMatrix34_t mDeviceToAbsoluteTracking_ = {}) : mDeviceToAbsoluteTracking{mDeviceToAbsoluteTracking_} {}
+    // Creating conversion operator: operator OVR::OpenVR::HmdMatrix34_t
+    constexpr operator OVR::OpenVR::HmdMatrix34_t() const {
+      return mDeviceToAbsoluteTracking;
+    }
   }; // OVR.OpenVR.VRTextureWithPose_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -20,7 +20,7 @@ namespace System {
     // Offset: 0x2
     int16_t Y;
     // Creating value type constructor for type: Coord
-    Coord(int16_t X_ = {}, int16_t Y_ = {}) : X{X_}, Y{Y_} {}
+    constexpr Coord(int16_t X_ = {}, int16_t Y_ = {}) : X{X_}, Y{Y_} {}
   }; // System.Coord
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

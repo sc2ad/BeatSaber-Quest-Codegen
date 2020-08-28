@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: BoneId
+    constexpr BoneId(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRPlugin/BoneId Invalid
     static constexpr const int Invalid = -1;
     // Get static field: static public OVRPlugin/BoneId Invalid
@@ -192,8 +198,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::BoneId _get_Max();
     // Set static field: static public OVRPlugin/BoneId Max
     static void _set_Max(GlobalNamespace::OVRPlugin::BoneId value);
-    // Creating value type constructor for type: BoneId
-    BoneId(int value_ = {}) : value{value_} {}
   }; // OVRPlugin/BoneId
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

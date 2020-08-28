@@ -16,6 +16,10 @@ namespace JetBrains::Annotations {
     // private System.String <Name>k__BackingField
     // Offset: 0x10
     ::Il2CppString* Name;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return Name;
+    }
     // public System.Void .ctor(System.String name)
     // Offset: 0x1961278
     static HtmlAttributeValueAttribute* New_ctor(::Il2CppString* name);

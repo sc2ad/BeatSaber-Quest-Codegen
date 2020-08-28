@@ -55,6 +55,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Color _graphicsColor
     // Offset: 0x48
     UnityEngine::Color graphicsColor;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static field const value: static private System.Int32 kMaxColors
     static constexpr const int kMaxColors = 2;
     // Get static field: static private System.Int32 kMaxColors

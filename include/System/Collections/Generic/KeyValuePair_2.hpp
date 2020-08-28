@@ -25,7 +25,7 @@ namespace System::Collections::Generic {
     // Offset: 0x0
     TValue value;
     // Creating value type constructor for type: KeyValuePair_2
-    KeyValuePair_2(TKey key_ = {}, TValue value_ = {}) : key{key_}, value{value_} {}
+    constexpr KeyValuePair_2(TKey key_ = {}, TValue value_ = {}) : key{key_}, value{value_} {}
     // public System.Void .ctor(TKey key, TValue value)
     // Offset: 0xFFFFFFFF
     static KeyValuePair_2<TKey, TValue>* New_ctor(TKey key, TValue value) {

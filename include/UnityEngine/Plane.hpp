@@ -30,14 +30,14 @@ namespace UnityEngine {
     // private System.Single m_Distance
     // Offset: 0xC
     float m_Distance;
+    // Creating value type constructor for type: Plane
+    constexpr Plane(UnityEngine::Vector3 m_Normal_ = {}, float m_Distance_ = {}) : m_Normal{m_Normal_}, m_Distance{m_Distance_} {}
     // static field const value: static System.Int32 size
     static constexpr const int size = 16;
     // Get static field: static System.Int32 size
     static int _get_size();
     // Set static field: static System.Int32 size
     static void _set_size(int value);
-    // Creating value type constructor for type: Plane
-    Plane(UnityEngine::Vector3 m_Normal_ = {}, float m_Distance_ = {}) : m_Normal{m_Normal_}, m_Distance{m_Distance_} {}
     // public UnityEngine.Vector3 get_normal()
     // Offset: 0xA4893C
     UnityEngine::Vector3 get_normal();

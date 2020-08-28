@@ -39,6 +39,8 @@ namespace GlobalNamespace {
     // private System.Int32 lastRefreshFrameNum
     // Offset: 0x38
     int lastRefreshFrameNum;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // Get static field: static private readonly System.Int32 _directionalLightDirectionsID
     static int _get__directionalLightDirectionsID();
     // Set static field: static private readonly System.Int32 _directionalLightDirectionsID

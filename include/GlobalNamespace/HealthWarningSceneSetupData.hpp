@@ -23,6 +23,10 @@ namespace GlobalNamespace {
     // private ScenesTransitionSetupDataSO _nextScenesTransitionSetupData
     // Offset: 0x10
     GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData;
+    // Creating conversion operator: operator GlobalNamespace::ScenesTransitionSetupDataSO*
+    constexpr operator GlobalNamespace::ScenesTransitionSetupDataSO*() const {
+      return nextScenesTransitionSetupData;
+    }
     // public ScenesTransitionSetupDataSO get_nextScenesTransitionSetupData()
     // Offset: 0xB447A0
     GlobalNamespace::ScenesTransitionSetupDataSO* get_nextScenesTransitionSetupData();

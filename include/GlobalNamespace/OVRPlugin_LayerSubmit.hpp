@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Offset: 0x2C
     int LayerSubmitFlags;
     // Creating value type constructor for type: LayerSubmit
-    LayerSubmit(int LayerId_ = {}, int TextureStage_ = {}, ::Array<GlobalNamespace::OVRPlugin::Recti>* ViewportRect_ = {}, GlobalNamespace::OVRPlugin::Posef Pose_ = {}, int LayerSubmitFlags_ = {}) : LayerId{LayerId_}, TextureStage{TextureStage_}, ViewportRect{ViewportRect_}, Pose{Pose_}, LayerSubmitFlags{LayerSubmitFlags_} {}
+    constexpr LayerSubmit(int LayerId_ = {}, int TextureStage_ = {}, ::Array<GlobalNamespace::OVRPlugin::Recti>* ViewportRect_ = {}, GlobalNamespace::OVRPlugin::Posef Pose_ = {}, int LayerSubmitFlags_ = {}) : LayerId{LayerId_}, TextureStage{TextureStage_}, ViewportRect{ViewportRect_}, Pose{Pose_}, LayerSubmitFlags{LayerSubmitFlags_} {}
   }; // OVRPlugin/LayerSubmit
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

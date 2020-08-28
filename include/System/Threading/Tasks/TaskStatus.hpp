@@ -16,6 +16,12 @@ namespace System::Threading::Tasks {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TaskStatus
+    constexpr TaskStatus(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Threading.Tasks.TaskStatus Created
     static constexpr const int Created = 0;
     // Get static field: static public System.Threading.Tasks.TaskStatus Created
@@ -64,8 +70,6 @@ namespace System::Threading::Tasks {
     static System::Threading::Tasks::TaskStatus _get_Faulted();
     // Set static field: static public System.Threading.Tasks.TaskStatus Faulted
     static void _set_Faulted(System::Threading::Tasks::TaskStatus value);
-    // Creating value type constructor for type: TaskStatus
-    TaskStatus(int value_ = {}) : value{value_} {}
   }; // System.Threading.Tasks.TaskStatus
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

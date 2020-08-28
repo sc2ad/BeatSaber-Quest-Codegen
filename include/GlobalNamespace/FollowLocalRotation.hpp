@@ -26,6 +26,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Transform _transform
     // Offset: 0x20
     UnityEngine::Transform* transform;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Awake()
     // Offset: 0xCB26BC
     void Awake();

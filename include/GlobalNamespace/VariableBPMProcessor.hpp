@@ -21,6 +21,10 @@ namespace GlobalNamespace {
     // private System.Single _currentBPM
     // Offset: 0x10
     float currentBPM;
+    // Creating conversion operator: operator float
+    constexpr operator float() const {
+      return currentBPM;
+    }
     // public System.Single get_currentBPM()
     // Offset: 0xC55B80
     float get_currentBPM();

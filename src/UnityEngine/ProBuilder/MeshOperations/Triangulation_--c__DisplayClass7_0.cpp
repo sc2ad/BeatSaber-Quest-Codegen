@@ -7,6 +7,8 @@
 #include "UnityEngine/ProBuilder/MeshOperations/Triangulation_--c__DisplayClass7_0.hpp"
 // Including type: UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint
 #include "UnityEngine/ProBuilder/Poly2Tri/TriangulationPoint.hpp"
+// Including type: UnityEngine.Vector2
+#include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.ProBuilder.Poly2Tri.PolygonPoint
 #include "UnityEngine/ProBuilder/Poly2Tri/PolygonPoint.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

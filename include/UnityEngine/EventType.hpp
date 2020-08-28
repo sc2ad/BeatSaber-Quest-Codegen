@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EventType
+    constexpr EventType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.EventType MouseDown
     static constexpr const int MouseDown = 0;
     // Get static field: static public UnityEngine.EventType MouseDown
@@ -208,8 +214,6 @@ namespace UnityEngine {
     static UnityEngine::EventType _get_used();
     // Set static field: static public UnityEngine.EventType used
     static void _set_used(UnityEngine::EventType value);
-    // Creating value type constructor for type: EventType
-    EventType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.EventType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

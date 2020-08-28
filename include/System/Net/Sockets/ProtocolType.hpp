@@ -16,6 +16,12 @@ namespace System::Net::Sockets {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ProtocolType
+    constexpr ProtocolType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Net.Sockets.ProtocolType IP
     static constexpr const int IP = 0;
     // Get static field: static public System.Net.Sockets.ProtocolType IP
@@ -166,8 +172,6 @@ namespace System::Net::Sockets {
     static System::Net::Sockets::ProtocolType _get_Unknown();
     // Set static field: static public System.Net.Sockets.ProtocolType Unknown
     static void _set_Unknown(System::Net::Sockets::ProtocolType value);
-    // Creating value type constructor for type: ProtocolType
-    ProtocolType(int value_ = {}) : value{value_} {}
   }; // System.Net.Sockets.ProtocolType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

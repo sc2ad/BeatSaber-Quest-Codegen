@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.Remoting.Contexts.CrossContextChannel
 #include "System/Runtime/Remoting/Contexts/CrossContextChannel.hpp"
+// Including type: System.Runtime.Remoting.Messaging.IMessageSink
+#include "System/Runtime/Remoting/Messaging/IMessageSink.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Contexts

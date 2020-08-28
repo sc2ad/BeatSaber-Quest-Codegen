@@ -19,6 +19,8 @@ namespace GlobalNamespace {
     // public System.Boolean enable360DegreeLevels
     // Offset: 0x19
     bool enable360DegreeLevels;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void .ctor()
     // Offset: 0xB88914
     // Implemented from: UnityEngine.ScriptableObject

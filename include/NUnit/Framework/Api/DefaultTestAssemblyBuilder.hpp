@@ -59,6 +59,10 @@ namespace NUnit::Framework::Api {
     // private NUnit.Framework.Interfaces.ISuiteBuilder _defaultSuiteBuilder
     // Offset: 0x10
     NUnit::Framework::Interfaces::ISuiteBuilder* defaultSuiteBuilder;
+    // Creating conversion operator: operator NUnit::Framework::Interfaces::ISuiteBuilder*
+    constexpr operator NUnit::Framework::Interfaces::ISuiteBuilder*() const {
+      return defaultSuiteBuilder;
+    }
     // Get static field: static private NUnit.Framework.Internal.Logger log
     static NUnit::Framework::Internal::Logger* _get_log();
     // Set static field: static private NUnit.Framework.Internal.Logger log

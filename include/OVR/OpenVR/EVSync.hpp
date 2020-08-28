@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVSync
+    constexpr EVSync(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.EVSync None
     static constexpr const int None = 0;
     // Get static field: static public OVR.OpenVR.EVSync None
@@ -34,8 +40,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVSync _get_NoWaitRender();
     // Set static field: static public OVR.OpenVR.EVSync NoWaitRender
     static void _set_NoWaitRender(OVR::OpenVR::EVSync value);
-    // Creating value type constructor for type: EVSync
-    EVSync(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EVSync
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

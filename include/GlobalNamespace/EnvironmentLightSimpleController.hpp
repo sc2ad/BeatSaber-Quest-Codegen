@@ -31,6 +31,8 @@ namespace GlobalNamespace {
     // private LightWithIdManager _lightManager
     // Offset: 0x30
     GlobalNamespace::LightWithIdManager* lightManager;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void LateUpdate()
     // Offset: 0xBEA714
     void LateUpdate();

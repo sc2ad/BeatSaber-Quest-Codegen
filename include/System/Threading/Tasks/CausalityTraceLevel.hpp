@@ -16,6 +16,12 @@ namespace System::Threading::Tasks {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: CausalityTraceLevel
+    constexpr CausalityTraceLevel(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Threading.Tasks.CausalityTraceLevel Required
     static constexpr const int Required = 0;
     // Get static field: static public System.Threading.Tasks.CausalityTraceLevel Required
@@ -34,8 +40,6 @@ namespace System::Threading::Tasks {
     static System::Threading::Tasks::CausalityTraceLevel _get_Verbose();
     // Set static field: static public System.Threading.Tasks.CausalityTraceLevel Verbose
     static void _set_Verbose(System::Threading::Tasks::CausalityTraceLevel value);
-    // Creating value type constructor for type: CausalityTraceLevel
-    CausalityTraceLevel(int value_ = {}) : value{value_} {}
   }; // System.Threading.Tasks.CausalityTraceLevel
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

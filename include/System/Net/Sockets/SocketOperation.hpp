@@ -16,6 +16,12 @@ namespace System::Net::Sockets {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SocketOperation
+    constexpr SocketOperation(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Net.Sockets.SocketOperation Accept
     static constexpr const int Accept = 0;
     // Get static field: static public System.Net.Sockets.SocketOperation Accept
@@ -88,8 +94,6 @@ namespace System::Net::Sockets {
     static System::Net::Sockets::SocketOperation _get_SendGeneric();
     // Set static field: static public System.Net.Sockets.SocketOperation SendGeneric
     static void _set_SendGeneric(System::Net::Sockets::SocketOperation value);
-    // Creating value type constructor for type: SocketOperation
-    SocketOperation(int value_ = {}) : value{value_} {}
   }; // System.Net.Sockets.SocketOperation
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

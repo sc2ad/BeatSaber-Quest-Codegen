@@ -26,6 +26,10 @@ namespace UnityEngine::Analytics {
     // System.IntPtr m_Ptr
     // Offset: 0x10
     System::IntPtr m_Ptr;
+    // Creating conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const {
+      return m_Ptr;
+    }
     // public System.Void .ctor(System.String name)
     // Offset: 0x1975868
     static CustomEventData* New_ctor(::Il2CppString* name);

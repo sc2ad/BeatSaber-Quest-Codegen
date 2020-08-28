@@ -102,6 +102,8 @@ namespace GlobalNamespace {
     // protected System.Boolean m_operatingWithoutOVRCameraRig
     // Offset: 0xC0
     bool m_operatingWithoutOVRCameraRig;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public OVRGrabbable get_grabbedObject()
     // Offset: 0xE68DB0
     GlobalNamespace::OVRGrabbable* get_grabbedObject();

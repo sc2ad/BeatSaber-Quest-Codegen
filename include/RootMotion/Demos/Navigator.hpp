@@ -39,6 +39,12 @@ namespace RootMotion::Demos {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: State
+      constexpr State(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public RootMotion.Demos.Navigator/State Idle
       static constexpr const int Idle = 0;
       // Get static field: static public RootMotion.Demos.Navigator/State Idle
@@ -57,8 +63,6 @@ namespace RootMotion::Demos {
       static RootMotion::Demos::Navigator::State _get_OnPath();
       // Set static field: static public RootMotion.Demos.Navigator/State OnPath
       static void _set_OnPath(RootMotion::Demos::Navigator::State value);
-      // Creating value type constructor for type: State
-      State(int value_ = {}) : value{value_} {}
     }; // RootMotion.Demos.Navigator/State
     // public System.Boolean activeTargetSeeking
     // Offset: 0x10

@@ -16,6 +16,12 @@ namespace UnityEngine::Timeline {
     // public System.Int16 value__
     // Offset: 0x0
     int16_t value;
+    // Creating value type constructor for type: NotificationFlags
+    constexpr NotificationFlags(int16_t value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int16_t
+    constexpr operator int16_t() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Timeline.NotificationFlags TriggerInEditMode
     static constexpr const int16_t TriggerInEditMode = 1;
     // Get static field: static public UnityEngine.Timeline.NotificationFlags TriggerInEditMode
@@ -34,8 +40,6 @@ namespace UnityEngine::Timeline {
     static UnityEngine::Timeline::NotificationFlags _get_TriggerOnce();
     // Set static field: static public UnityEngine.Timeline.NotificationFlags TriggerOnce
     static void _set_TriggerOnce(UnityEngine::Timeline::NotificationFlags value);
-    // Creating value type constructor for type: NotificationFlags
-    NotificationFlags(int16_t value_ = {}) : value{value_} {}
   }; // UnityEngine.Timeline.NotificationFlags
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -42,6 +42,12 @@ namespace System {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: UriQuirksVersion
+      constexpr UriQuirksVersion(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public System.UriParser/UriQuirksVersion V2
       static constexpr const int V2 = 2;
       // Get static field: static public System.UriParser/UriQuirksVersion V2
@@ -54,8 +60,6 @@ namespace System {
       static System::UriParser::UriQuirksVersion _get_V3();
       // Set static field: static public System.UriParser/UriQuirksVersion V3
       static void _set_V3(System::UriParser::UriQuirksVersion value);
-      // Creating value type constructor for type: UriQuirksVersion
-      UriQuirksVersion(int value_ = {}) : value{value_} {}
     }; // System.UriParser/UriQuirksVersion
     // private System.UriSyntaxFlags m_Flags
     // Offset: 0x10

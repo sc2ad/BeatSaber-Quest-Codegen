@@ -18,6 +18,12 @@ namespace System::Globalization {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: HebrewToken
+    constexpr HebrewToken(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Globalization.HebrewNumber/HebrewToken Invalid
     static constexpr const int Invalid = -1;
     // Get static field: static public System.Globalization.HebrewNumber/HebrewToken Invalid
@@ -84,8 +90,6 @@ namespace System::Globalization {
     static System::Globalization::HebrewNumber::HebrewToken _get_DoubleQuote();
     // Set static field: static public System.Globalization.HebrewNumber/HebrewToken DoubleQuote
     static void _set_DoubleQuote(System::Globalization::HebrewNumber::HebrewToken value);
-    // Creating value type constructor for type: HebrewToken
-    HebrewToken(int value_ = {}) : value{value_} {}
   }; // System.Globalization.HebrewNumber/HebrewToken
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

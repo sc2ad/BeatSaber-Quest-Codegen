@@ -28,6 +28,10 @@ namespace Oculus::Platform::Models {
     // public readonly System.UInt64 TotalCount
     // Offset: 0x28
     uint64_t TotalCount;
+    // Creating conversion operator: operator uint64_t
+    constexpr operator uint64_t() const {
+      return TotalCount;
+    }
     // public System.Void .ctor(System.IntPtr a)
     // Offset: 0xEA4570
     static LeaderboardEntryList* New_ctor(System::IntPtr a);

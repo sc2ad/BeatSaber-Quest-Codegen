@@ -37,6 +37,10 @@ namespace NUnit::Framework::Internal {
     // private System.Collections.Generic.Dictionary`2<System.String,System.Collections.IList> inner
     // Offset: 0x10
     System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::IList*>* inner;
+    // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::IList*>*
+    constexpr operator System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::IList*>*() const {
+      return inner;
+    }
     // public System.Void Add(System.String key, System.Object value)
     // Offset: 0x18F0C34
     // Implemented from: NUnit.Framework.Interfaces.IPropertyBag

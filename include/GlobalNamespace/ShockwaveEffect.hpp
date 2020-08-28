@@ -39,6 +39,8 @@ namespace GlobalNamespace {
     // private System.Single _prevShockwaveParticleSpawnTime
     // Offset: 0xB8
     float prevShockwaveParticleSpawnTime;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xC2F49C
     void Start();

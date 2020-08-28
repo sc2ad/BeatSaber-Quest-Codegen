@@ -26,6 +26,8 @@ namespace GlobalNamespace {
     // private UnityEngine.Vector3 _positionOffset
     // Offset: 0x20
     UnityEngine::Vector3 positionOffset;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xB855FC
     void Start();

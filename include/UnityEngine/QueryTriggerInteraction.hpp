@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: QueryTriggerInteraction
+    constexpr QueryTriggerInteraction(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.QueryTriggerInteraction UseGlobal
     static constexpr const int UseGlobal = 0;
     // Get static field: static public UnityEngine.QueryTriggerInteraction UseGlobal
@@ -34,8 +40,6 @@ namespace UnityEngine {
     static UnityEngine::QueryTriggerInteraction _get_Collide();
     // Set static field: static public UnityEngine.QueryTriggerInteraction Collide
     static void _set_Collide(UnityEngine::QueryTriggerInteraction value);
-    // Creating value type constructor for type: QueryTriggerInteraction
-    QueryTriggerInteraction(int value_ = {}) : value{value_} {}
   }; // UnityEngine.QueryTriggerInteraction
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

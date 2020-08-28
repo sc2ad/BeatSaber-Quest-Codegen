@@ -18,6 +18,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: DTT
+    constexpr DTT(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.DateTimeParse/DTT End
     static constexpr const int End = 0;
     // Get static field: static public System.DateTimeParse/DTT End
@@ -144,8 +150,6 @@ namespace System {
     static System::DateTimeParse::DTT _get_Max();
     // Set static field: static public System.DateTimeParse/DTT Max
     static void _set_Max(System::DateTimeParse::DTT value);
-    // Creating value type constructor for type: DTT
-    DTT(int value_ = {}) : value{value_} {}
   }; // System.DateTimeParse/DTT
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

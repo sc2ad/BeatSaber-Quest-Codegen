@@ -16,6 +16,12 @@ namespace NUnit::Framework {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ParallelScope
+    constexpr ParallelScope(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public NUnit.Framework.ParallelScope None
     static constexpr const int None = 0;
     // Get static field: static public NUnit.Framework.ParallelScope None
@@ -40,8 +46,6 @@ namespace NUnit::Framework {
     static NUnit::Framework::ParallelScope _get_Fixtures();
     // Set static field: static public NUnit.Framework.ParallelScope Fixtures
     static void _set_Fixtures(NUnit::Framework::ParallelScope value);
-    // Creating value type constructor for type: ParallelScope
-    ParallelScope(int value_ = {}) : value{value_} {}
   }; // NUnit.Framework.ParallelScope
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

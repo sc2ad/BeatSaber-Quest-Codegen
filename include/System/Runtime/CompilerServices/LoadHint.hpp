@@ -16,6 +16,12 @@ namespace System::Runtime::CompilerServices {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: LoadHint
+    constexpr LoadHint(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Runtime.CompilerServices.LoadHint Default
     static constexpr const int Default = 0;
     // Get static field: static public System.Runtime.CompilerServices.LoadHint Default
@@ -34,8 +40,6 @@ namespace System::Runtime::CompilerServices {
     static System::Runtime::CompilerServices::LoadHint _get_Sometimes();
     // Set static field: static public System.Runtime.CompilerServices.LoadHint Sometimes
     static void _set_Sometimes(System::Runtime::CompilerServices::LoadHint value);
-    // Creating value type constructor for type: LoadHint
-    LoadHint(int value_ = {}) : value{value_} {}
   }; // System.Runtime.CompilerServices.LoadHint
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

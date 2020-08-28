@@ -16,6 +16,12 @@ namespace JetBrains::Annotations {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: CollectionAccessType
+    constexpr CollectionAccessType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public JetBrains.Annotations.CollectionAccessType None
     static constexpr const int None = 0;
     // Get static field: static public JetBrains.Annotations.CollectionAccessType None
@@ -40,8 +46,6 @@ namespace JetBrains::Annotations {
     static JetBrains::Annotations::CollectionAccessType _get_UpdatedContent();
     // Set static field: static public JetBrains.Annotations.CollectionAccessType UpdatedContent
     static void _set_UpdatedContent(JetBrains::Annotations::CollectionAccessType value);
-    // Creating value type constructor for type: CollectionAccessType
-    CollectionAccessType(int value_ = {}) : value{value_} {}
   }; // JetBrains.Annotations.CollectionAccessType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

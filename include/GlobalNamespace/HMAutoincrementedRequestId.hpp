@@ -16,6 +16,10 @@ namespace GlobalNamespace {
     // private System.UInt64 _requestId
     // Offset: 0x10
     uint64_t requestId;
+    // Creating conversion operator: operator uint64_t
+    constexpr operator uint64_t() const {
+      return requestId;
+    }
     // Get static field: static private System.UInt64 _nextRequestId
     static uint64_t _get__nextRequestId();
     // Set static field: static private System.UInt64 _nextRequestId

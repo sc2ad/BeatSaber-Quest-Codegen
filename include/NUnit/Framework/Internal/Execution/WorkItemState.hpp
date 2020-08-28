@@ -16,6 +16,12 @@ namespace NUnit::Framework::Internal::Execution {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: WorkItemState
+    constexpr WorkItemState(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public NUnit.Framework.Internal.Execution.WorkItemState Ready
     static constexpr const int Ready = 0;
     // Get static field: static public NUnit.Framework.Internal.Execution.WorkItemState Ready
@@ -34,8 +40,6 @@ namespace NUnit::Framework::Internal::Execution {
     static NUnit::Framework::Internal::Execution::WorkItemState _get_Complete();
     // Set static field: static public NUnit.Framework.Internal.Execution.WorkItemState Complete
     static void _set_Complete(NUnit::Framework::Internal::Execution::WorkItemState value);
-    // Creating value type constructor for type: WorkItemState
-    WorkItemState(int value_ = {}) : value{value_} {}
   }; // NUnit.Framework.Internal.Execution.WorkItemState
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

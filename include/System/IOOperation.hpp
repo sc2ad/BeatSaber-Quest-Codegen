@@ -16,6 +16,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: IOOperation
+    constexpr IOOperation(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.IOOperation Read
     static constexpr const int Read = 1;
     // Get static field: static public System.IOOperation Read
@@ -28,8 +34,6 @@ namespace System {
     static System::IOOperation _get_Write();
     // Set static field: static public System.IOOperation Write
     static void _set_Write(System::IOOperation value);
-    // Creating value type constructor for type: IOOperation
-    IOOperation(int value_ = {}) : value{value_} {}
   }; // System.IOOperation
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

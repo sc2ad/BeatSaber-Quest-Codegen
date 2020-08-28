@@ -30,6 +30,10 @@ namespace OVRSimpleJSON {
     // private System.String m_Data
     // Offset: 0x10
     ::Il2CppString* m_Data;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return m_Data;
+    }
     // public System.Void .ctor(System.String aData)
     // Offset: 0xF52FB8
     static JSONString* New_ctor(::Il2CppString* aData);

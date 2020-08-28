@@ -40,6 +40,8 @@ namespace UnityEngine::ProBuilder {
     // private System.Collections.Generic.List`1<UnityEngine.Color> m_Colors
     // Offset: 0x28
     System::Collections::Generic::List_1<UnityEngine::Color>* m_Colors;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public UnityEngine.Color get_current()
     // Offset: 0x15358DC
     UnityEngine::Color get_current();

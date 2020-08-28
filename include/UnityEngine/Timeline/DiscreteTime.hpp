@@ -22,6 +22,12 @@ namespace UnityEngine::Timeline {
     // private readonly System.Int64 m_DiscreteTime
     // Offset: 0x0
     int64_t m_DiscreteTime;
+    // Creating value type constructor for type: DiscreteTime
+    constexpr DiscreteTime(int64_t m_DiscreteTime_ = {}) : m_DiscreteTime{m_DiscreteTime_} {}
+    // Creating conversion operator: operator int64_t
+    constexpr operator int64_t() const {
+      return m_DiscreteTime;
+    }
     // static field const value: static private System.Double k_Tick
     static constexpr const double k_Tick = 1e-12;
     // Get static field: static private System.Double k_Tick
@@ -32,8 +38,6 @@ namespace UnityEngine::Timeline {
     static UnityEngine::Timeline::DiscreteTime _get_kMaxTime();
     // Set static field: static public readonly UnityEngine.Timeline.DiscreteTime kMaxTime
     static void _set_kMaxTime(UnityEngine::Timeline::DiscreteTime value);
-    // Creating value type constructor for type: DiscreteTime
-    DiscreteTime(int64_t m_DiscreteTime_ = {}) : m_DiscreteTime{m_DiscreteTime_} {}
     // static public System.Double get_tickValue()
     // Offset: 0x109A538
     static double get_tickValue();

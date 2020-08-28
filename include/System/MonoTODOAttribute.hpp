@@ -16,6 +16,10 @@ namespace System {
     // private System.String comment
     // Offset: 0x10
     ::Il2CppString* comment;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return comment;
+    }
     // public System.Void .ctor(System.String comment)
     // Offset: 0x101AEC0
     static MonoTODOAttribute* New_ctor(::Il2CppString* comment);

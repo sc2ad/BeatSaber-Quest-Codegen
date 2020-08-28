@@ -16,6 +16,12 @@ namespace UnityEngine::Analytics {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: AnalyticsResult
+    constexpr AnalyticsResult(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Analytics.AnalyticsResult Ok
     static constexpr const int Ok = 0;
     // Get static field: static public UnityEngine.Analytics.AnalyticsResult Ok
@@ -64,8 +70,6 @@ namespace UnityEngine::Analytics {
     static UnityEngine::Analytics::AnalyticsResult _get_UnsupportedPlatform();
     // Set static field: static public UnityEngine.Analytics.AnalyticsResult UnsupportedPlatform
     static void _set_UnsupportedPlatform(UnityEngine::Analytics::AnalyticsResult value);
-    // Creating value type constructor for type: AnalyticsResult
-    AnalyticsResult(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Analytics.AnalyticsResult
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

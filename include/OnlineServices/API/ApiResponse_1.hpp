@@ -25,7 +25,7 @@ namespace OnlineServices::API {
     // Offset: 0x0
     T responseDto;
     // Creating value type constructor for type: ApiResponse_1
-    ApiResponse_1(OnlineServices::API::Response response_ = {}, T responseDto_ = {}) : response{response_}, responseDto{responseDto_} {}
+    constexpr ApiResponse_1(OnlineServices::API::Response response_ = {}, T responseDto_ = {}) : response{response_}, responseDto{responseDto_} {}
     // public System.Boolean get_isError()
     // Offset: 0xFFFFFFFF
     bool get_isError() {

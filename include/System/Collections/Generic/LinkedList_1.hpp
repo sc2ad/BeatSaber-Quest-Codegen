@@ -75,7 +75,7 @@ namespace System::Collections::Generic {
       // Offset: 0x0
       int index;
       // Creating value type constructor for type: Enumerator
-      Enumerator(System::Collections::Generic::LinkedList_1<T>* list_ = {}, System::Collections::Generic::LinkedListNode_1<T>* node_ = {}, int version_ = {}, T current_ = {}, int index_ = {}) : list{list_}, node{node_}, version{version_}, current{current_}, index{index_} {}
+      constexpr Enumerator(System::Collections::Generic::LinkedList_1<T>* list_ = {}, System::Collections::Generic::LinkedListNode_1<T>* node_ = {}, int version_ = {}, T current_ = {}, int index_ = {}) : list{list_}, node{node_}, version{version_}, current{current_}, index{index_} {}
       // System.Void .ctor(System.Collections.Generic.LinkedList`1<T> list)
       // Offset: 0xFFFFFFFF
       static typename LinkedList_1<T>::Enumerator* New_ctor(System::Collections::Generic::LinkedList_1<T>* list) {

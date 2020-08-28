@@ -35,6 +35,12 @@ namespace Zenject {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: BindTypes
+      constexpr BindTypes(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public Zenject.ZenjectBinding/BindTypes Self
       static constexpr const int Self = 0;
       // Get static field: static public Zenject.ZenjectBinding/BindTypes Self
@@ -59,8 +65,6 @@ namespace Zenject {
       static Zenject::ZenjectBinding::BindTypes _get_BaseType();
       // Set static field: static public Zenject.ZenjectBinding/BindTypes BaseType
       static void _set_BaseType(Zenject::ZenjectBinding::BindTypes value);
-      // Creating value type constructor for type: BindTypes
-      BindTypes(int value_ = {}) : value{value_} {}
     }; // Zenject.ZenjectBinding/BindTypes
     // private UnityEngine.Component[] _components
     // Offset: 0x18
@@ -80,6 +84,8 @@ namespace Zenject {
     // private Zenject.ZenjectBinding/BindTypes _bindType
     // Offset: 0x38
     Zenject::ZenjectBinding::BindTypes bindType;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Boolean get_UseSceneContext()
     // Offset: 0x19439A4
     bool get_UseSceneContext();

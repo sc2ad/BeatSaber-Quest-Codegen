@@ -31,6 +31,12 @@ namespace Zenject {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: ContainerSources
+      constexpr ContainerSources(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public Zenject.ZenAutoInjecter/ContainerSources SceneContext
       static constexpr const int SceneContext = 0;
       // Get static field: static public Zenject.ZenAutoInjecter/ContainerSources SceneContext
@@ -49,8 +55,6 @@ namespace Zenject {
       static Zenject::ZenAutoInjecter::ContainerSources _get_SearchHierarchy();
       // Set static field: static public Zenject.ZenAutoInjecter/ContainerSources SearchHierarchy
       static void _set_SearchHierarchy(Zenject::ZenAutoInjecter::ContainerSources value);
-      // Creating value type constructor for type: ContainerSources
-      ContainerSources(int value_ = {}) : value{value_} {}
     }; // Zenject.ZenAutoInjecter/ContainerSources
     // private Zenject.ZenAutoInjecter/ContainerSources _containerSource
     // Offset: 0x18
@@ -58,6 +62,8 @@ namespace Zenject {
     // private System.Boolean _hasInjected
     // Offset: 0x1C
     bool hasInjected;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public Zenject.ZenAutoInjecter/ContainerSources get_ContainerSource()
     // Offset: 0x1943694
     Zenject::ZenAutoInjecter::ContainerSources get_ContainerSource();

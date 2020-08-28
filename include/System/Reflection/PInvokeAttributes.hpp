@@ -16,6 +16,12 @@ namespace System::Reflection {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: PInvokeAttributes
+    constexpr PInvokeAttributes(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Reflection.PInvokeAttributes NoMangle
     static constexpr const int NoMangle = 1;
     // Get static field: static public System.Reflection.PInvokeAttributes NoMangle
@@ -148,8 +154,6 @@ namespace System::Reflection {
     static System::Reflection::PInvokeAttributes _get_MaxValue();
     // Set static field: static public System.Reflection.PInvokeAttributes MaxValue
     static void _set_MaxValue(System::Reflection::PInvokeAttributes value);
-    // Creating value type constructor for type: PInvokeAttributes
-    PInvokeAttributes(int value_ = {}) : value{value_} {}
   }; // System.Reflection.PInvokeAttributes
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

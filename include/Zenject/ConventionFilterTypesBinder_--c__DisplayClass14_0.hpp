@@ -23,6 +23,10 @@ namespace Zenject {
     // public System.String suffix
     // Offset: 0x10
     ::Il2CppString* suffix;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return suffix;
+    }
     // System.Boolean <WithSuffix>b__0(System.Type t)
     // Offset: 0xD701A0
     bool $WithSuffix$b__0(System::Type* t);

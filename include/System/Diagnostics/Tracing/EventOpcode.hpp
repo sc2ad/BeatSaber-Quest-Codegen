@@ -16,6 +16,12 @@ namespace System::Diagnostics::Tracing {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EventOpcode
+    constexpr EventOpcode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Diagnostics.Tracing.EventOpcode Info
     static constexpr const int Info = 0;
     // Get static field: static public System.Diagnostics.Tracing.EventOpcode Info
@@ -82,8 +88,6 @@ namespace System::Diagnostics::Tracing {
     static System::Diagnostics::Tracing::EventOpcode _get_Receive();
     // Set static field: static public System.Diagnostics.Tracing.EventOpcode Receive
     static void _set_Receive(System::Diagnostics::Tracing::EventOpcode value);
-    // Creating value type constructor for type: EventOpcode
-    EventOpcode(int value_ = {}) : value{value_} {}
   }; // System.Diagnostics.Tracing.EventOpcode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -36,6 +36,8 @@ namespace GlobalNamespace {
     // private UnityEngine.ParticleSystem _particleSystem
     // Offset: 0x28
     UnityEngine::ParticleSystem* particleSystem;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xC2E090
     void Start();

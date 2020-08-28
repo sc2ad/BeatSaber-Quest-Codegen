@@ -30,6 +30,10 @@ namespace OVRSimpleJSON {
     // private System.Boolean m_Data
     // Offset: 0x10
     bool m_Data;
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return m_Data;
+    }
     // public System.Void .ctor(System.Boolean aData)
     // Offset: 0xF52494
     static JSONBool* New_ctor(bool aData);

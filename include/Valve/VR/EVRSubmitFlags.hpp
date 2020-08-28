@@ -16,6 +16,12 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRSubmitFlags
+    constexpr EVRSubmitFlags(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.EVRSubmitFlags Submit_Default
     static constexpr const int Submit_Default = 0;
     // Get static field: static public Valve.VR.EVRSubmitFlags Submit_Default
@@ -52,8 +58,6 @@ namespace Valve::VR {
     static Valve::VR::EVRSubmitFlags _get_Submit_TextureWithDepth();
     // Set static field: static public Valve.VR.EVRSubmitFlags Submit_TextureWithDepth
     static void _set_Submit_TextureWithDepth(Valve::VR::EVRSubmitFlags value);
-    // Creating value type constructor for type: EVRSubmitFlags
-    EVRSubmitFlags(int value_ = {}) : value{value_} {}
   }; // Valve.VR.EVRSubmitFlags
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,12 @@ namespace System::Threading::Tasks {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TaskContinuationOptions
+    constexpr TaskContinuationOptions(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Threading.Tasks.TaskContinuationOptions None
     static constexpr const int None = 0;
     // Get static field: static public System.Threading.Tasks.TaskContinuationOptions None
@@ -106,8 +112,6 @@ namespace System::Threading::Tasks {
     static System::Threading::Tasks::TaskContinuationOptions _get_ExecuteSynchronously();
     // Set static field: static public System.Threading.Tasks.TaskContinuationOptions ExecuteSynchronously
     static void _set_ExecuteSynchronously(System::Threading::Tasks::TaskContinuationOptions value);
-    // Creating value type constructor for type: TaskContinuationOptions
-    TaskContinuationOptions(int value_ = {}) : value{value_} {}
   }; // System.Threading.Tasks.TaskContinuationOptions
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -122,6 +122,8 @@ namespace UnityEngine::UI {
     // private System.Boolean <useLegacyMeshGeneration>k__BackingField
     // Offset: 0x88
     bool useLegacyMeshGeneration;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // Get static field: static protected UnityEngine.Material s_DefaultUI
     static UnityEngine::Material* _get_s_DefaultUI();
     // Set static field: static protected UnityEngine.Material s_DefaultUI

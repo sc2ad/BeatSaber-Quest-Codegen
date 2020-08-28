@@ -13,7 +13,7 @@ namespace UnityEngine::TextCore::LowLevel {
   struct FontEngineUtilities : public System::ValueType {
     public:
     // Creating value type constructor for type: FontEngineUtilities
-    FontEngineUtilities() {}
+    constexpr FontEngineUtilities() {}
     // static System.Int32 MaxValue(System.Int32 a, System.Int32 b, System.Int32 c)
     // Offset: 0x195B900
     static int MaxValue(int a, int b, int c);

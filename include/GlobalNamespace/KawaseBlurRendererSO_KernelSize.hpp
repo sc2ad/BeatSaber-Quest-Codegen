@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: KernelSize
+    constexpr KernelSize(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public KawaseBlurRendererSO/KernelSize Kernel7
     static constexpr const int Kernel7 = 0;
     // Get static field: static public KawaseBlurRendererSO/KernelSize Kernel7
@@ -66,8 +72,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::KawaseBlurRendererSO::KernelSize _get_Kernel143();
     // Set static field: static public KawaseBlurRendererSO/KernelSize Kernel143
     static void _set_Kernel143(GlobalNamespace::KawaseBlurRendererSO::KernelSize value);
-    // Creating value type constructor for type: KernelSize
-    KernelSize(int value_ = {}) : value{value_} {}
   }; // KawaseBlurRendererSO/KernelSize
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -18,6 +18,12 @@ namespace System::Xml {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Token
+    constexpr Token(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Xml.XmlWellFormedWriter/Token StartDocument
     static constexpr const int StartDocument = 0;
     // Get static field: static public System.Xml.XmlWellFormedWriter/Token StartDocument
@@ -108,8 +114,6 @@ namespace System::Xml {
     static System::Xml::XmlWellFormedWriter::Token _get_Whitespace();
     // Set static field: static public System.Xml.XmlWellFormedWriter/Token Whitespace
     static void _set_Whitespace(System::Xml::XmlWellFormedWriter::Token value);
-    // Creating value type constructor for type: Token
-    Token(int value_ = {}) : value{value_} {}
   }; // System.Xml.XmlWellFormedWriter/Token
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

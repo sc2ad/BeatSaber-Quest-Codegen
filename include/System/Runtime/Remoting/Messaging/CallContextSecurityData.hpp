@@ -23,6 +23,10 @@ namespace System::Runtime::Remoting::Messaging {
     // private System.Security.Principal.IPrincipal _principal
     // Offset: 0x10
     System::Security::Principal::IPrincipal* principal;
+    // Creating conversion operator: operator System::Security::Principal::IPrincipal*
+    constexpr operator System::Security::Principal::IPrincipal*() const {
+      return principal;
+    }
     // System.Boolean get_HasInfo()
     // Offset: 0x10671C8
     bool get_HasInfo();

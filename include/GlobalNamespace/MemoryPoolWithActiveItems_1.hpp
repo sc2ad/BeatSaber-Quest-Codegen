@@ -33,6 +33,8 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.HashSet`1<TValue> _activeItems
     // Offset: 0x0
     System::Collections::Generic::HashSet_1<TValue>* activeItems;
+    // Deleting conversion operator: operator UnityEngine::Transform*
+    constexpr operator UnityEngine::Transform*() const = delete;
     // public System.Collections.Generic.HashSet`1<TValue> get_activeItems()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::HashSet_1<TValue>* get_activeItems() {

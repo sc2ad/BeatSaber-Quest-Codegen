@@ -16,6 +16,12 @@ namespace UnityEngine::Rendering {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ShadowCastingMode
+    constexpr ShadowCastingMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Rendering.ShadowCastingMode Off
     static constexpr const int Off = 0;
     // Get static field: static public UnityEngine.Rendering.ShadowCastingMode Off
@@ -40,8 +46,6 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::ShadowCastingMode _get_ShadowsOnly();
     // Set static field: static public UnityEngine.Rendering.ShadowCastingMode ShadowsOnly
     static void _set_ShadowsOnly(UnityEngine::Rendering::ShadowCastingMode value);
-    // Creating value type constructor for type: ShadowCastingMode
-    ShadowCastingMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Rendering.ShadowCastingMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

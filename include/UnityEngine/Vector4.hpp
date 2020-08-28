@@ -35,6 +35,8 @@ namespace UnityEngine {
     // public System.Single w
     // Offset: 0xC
     float w;
+    // Creating value type constructor for type: Vector4
+    constexpr Vector4(float x_ = {}, float y_ = {}, float z_ = {}, float w_ = {}) : x{x_}, y{y_}, z{z_}, w{w_} {}
     // static field const value: static public System.Single kEpsilon
     static constexpr const float kEpsilon = 1e-05;
     // Get static field: static public System.Single kEpsilon
@@ -57,8 +59,6 @@ namespace UnityEngine {
     static UnityEngine::Vector4 _get_negativeInfinityVector();
     // Set static field: static private readonly UnityEngine.Vector4 negativeInfinityVector
     static void _set_negativeInfinityVector(UnityEngine::Vector4 value);
-    // Creating value type constructor for type: Vector4
-    Vector4(float x_ = {}, float y_ = {}, float z_ = {}, float w_ = {}) : x{x_}, y{y_}, z{z_}, w{w_} {}
     // public System.Single get_Item(System.Int32 index)
     // Offset: 0xA4795C
     float get_Item(int index);

@@ -16,6 +16,12 @@ namespace System::Reflection {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: MemberTypes
+    constexpr MemberTypes(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Reflection.MemberTypes Constructor
     static constexpr const int Constructor = 1;
     // Get static field: static public System.Reflection.MemberTypes Constructor
@@ -70,8 +76,6 @@ namespace System::Reflection {
     static System::Reflection::MemberTypes _get_All();
     // Set static field: static public System.Reflection.MemberTypes All
     static void _set_All(System::Reflection::MemberTypes value);
-    // Creating value type constructor for type: MemberTypes
-    MemberTypes(int value_ = {}) : value{value_} {}
   }; // System.Reflection.MemberTypes
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

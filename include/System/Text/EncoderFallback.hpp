@@ -21,6 +21,10 @@ namespace System::Text {
     // System.Boolean bIsMicrosoftBestFitFallback
     // Offset: 0x10
     bool bIsMicrosoftBestFitFallback;
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return bIsMicrosoftBestFitFallback;
+    }
     // Get static field: static private System.Text.EncoderFallback replacementFallback
     static System::Text::EncoderFallback* _get_replacementFallback();
     // Set static field: static private System.Text.EncoderFallback replacementFallback

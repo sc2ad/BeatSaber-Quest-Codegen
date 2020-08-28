@@ -16,6 +16,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ObstacleType
+    constexpr ObstacleType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public ObstacleType FullHeight
     static constexpr const int FullHeight = 0;
     // Get static field: static public ObstacleType FullHeight
@@ -28,8 +34,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::ObstacleType _get_Top();
     // Set static field: static public ObstacleType Top
     static void _set_Top(GlobalNamespace::ObstacleType value);
-    // Creating value type constructor for type: ObstacleType
-    ObstacleType(int value_ = {}) : value{value_} {}
   }; // ObstacleType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

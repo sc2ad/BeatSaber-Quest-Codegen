@@ -28,6 +28,10 @@ namespace TMPro {
     // public UnityEngine.Sprite sprite
     // Offset: 0x40
     UnityEngine::Sprite* sprite;
+    // Creating conversion operator: operator UnityEngine::Sprite*
+    constexpr operator UnityEngine::Sprite*() const {
+      return sprite;
+    }
     // public System.Void .ctor(System.UInt32 index, UnityEngine.TextCore.GlyphMetrics metrics, UnityEngine.TextCore.GlyphRect glyphRect, System.Single scale, System.Int32 atlasIndex, UnityEngine.Sprite sprite)
     // Offset: 0xBB5CF4
     static TMP_SpriteGlyph* New_ctor(uint index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float scale, int atlasIndex, UnityEngine::Sprite* sprite);

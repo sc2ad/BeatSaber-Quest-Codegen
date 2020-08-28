@@ -18,6 +18,12 @@ namespace HMUI {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: SlideAnimationDirection
+    constexpr SlideAnimationDirection(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public HMUI.ViewController/SlideAnimationDirection Up
     static constexpr const int Up = 0;
     // Get static field: static public HMUI.ViewController/SlideAnimationDirection Up
@@ -42,8 +48,6 @@ namespace HMUI {
     static HMUI::ViewController::SlideAnimationDirection _get_Right();
     // Set static field: static public HMUI.ViewController/SlideAnimationDirection Right
     static void _set_Right(HMUI::ViewController::SlideAnimationDirection value);
-    // Creating value type constructor for type: SlideAnimationDirection
-    SlideAnimationDirection(int value_ = {}) : value{value_} {}
   }; // HMUI.ViewController/SlideAnimationDirection
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

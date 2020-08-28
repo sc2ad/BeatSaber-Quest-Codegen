@@ -40,6 +40,8 @@ namespace GlobalNamespace {
     // private Saber _rightSaber
     // Offset: 0x40
     GlobalNamespace::Saber* rightSaber;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Boolean get_sabersAreClashing()
     // Offset: 0xC27FEC
     bool get_sabersAreClashing();

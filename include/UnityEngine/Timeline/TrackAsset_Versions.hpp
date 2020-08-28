@@ -18,6 +18,12 @@ namespace UnityEngine::Timeline {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Versions
+    constexpr Versions(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Timeline.TrackAsset/Versions Initial
     static constexpr const int Initial = 0;
     // Get static field: static public UnityEngine.Timeline.TrackAsset/Versions Initial
@@ -42,8 +48,6 @@ namespace UnityEngine::Timeline {
     static UnityEngine::Timeline::TrackAsset::Versions _get_AnimatedTrackProperties();
     // Set static field: static public UnityEngine.Timeline.TrackAsset/Versions AnimatedTrackProperties
     static void _set_AnimatedTrackProperties(UnityEngine::Timeline::TrackAsset::Versions value);
-    // Creating value type constructor for type: Versions
-    Versions(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Timeline.TrackAsset/Versions
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

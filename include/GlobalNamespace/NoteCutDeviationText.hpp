@@ -35,6 +35,8 @@ namespace GlobalNamespace {
     // private BeatmapObjectManager _beatmapObjectManager
     // Offset: 0x20
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xC15AEC
     void Start();

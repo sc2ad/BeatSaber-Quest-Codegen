@@ -35,6 +35,8 @@ namespace System::Threading::Tasks {
     // private System.Int32 m_firstTaskAlreadyCompleted
     // Offset: 0x60
     int m_firstTaskAlreadyCompleted;
+    // Deleting conversion operator: operator TResult
+    constexpr operator TResult() const = delete;
     // public System.Void .ctor(System.Collections.Generic.IList`1<System.Threading.Tasks.Task> tasks)
     // Offset: 0xCE89B4
     static TaskFactory::CompleteOnInvokePromise* New_ctor(System::Collections::Generic::IList_1<System::Threading::Tasks::Task*>* tasks);

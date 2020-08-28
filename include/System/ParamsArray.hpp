@@ -29,6 +29,8 @@ namespace System {
     // private readonly System.Object[] args
     // Offset: 0x18
     ::Array<::Il2CppObject*>* args;
+    // Creating value type constructor for type: ParamsArray
+    constexpr ParamsArray(::Il2CppObject* arg0_ = {}, ::Il2CppObject* arg1_ = {}, ::Il2CppObject* arg2_ = {}, ::Array<::Il2CppObject*>* args_ = {}) : arg0{arg0_}, arg1{arg1_}, arg2{arg2_}, args{args_} {}
     // Get static field: static private readonly System.Object[] oneArgArray
     static ::Array<::Il2CppObject*>* _get_oneArgArray();
     // Set static field: static private readonly System.Object[] oneArgArray
@@ -41,8 +43,6 @@ namespace System {
     static ::Array<::Il2CppObject*>* _get_threeArgArray();
     // Set static field: static private readonly System.Object[] threeArgArray
     static void _set_threeArgArray(::Array<::Il2CppObject*>* value);
-    // Creating value type constructor for type: ParamsArray
-    ParamsArray(::Il2CppObject* arg0_ = {}, ::Il2CppObject* arg1_ = {}, ::Il2CppObject* arg2_ = {}, ::Array<::Il2CppObject*>* args_ = {}) : arg0{arg0_}, arg1{arg1_}, arg2{arg2_}, args{args_} {}
     // public System.Void .ctor(System.Object arg0)
     // Offset: 0xA46C64
     static ParamsArray* New_ctor(::Il2CppObject* arg0);

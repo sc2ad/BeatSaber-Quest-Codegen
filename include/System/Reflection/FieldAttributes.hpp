@@ -16,6 +16,12 @@ namespace System::Reflection {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: FieldAttributes
+    constexpr FieldAttributes(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Reflection.FieldAttributes FieldAccessMask
     static constexpr const int FieldAccessMask = 7;
     // Get static field: static public System.Reflection.FieldAttributes FieldAccessMask
@@ -130,8 +136,6 @@ namespace System::Reflection {
     static System::Reflection::FieldAttributes _get_HasFieldRVA();
     // Set static field: static public System.Reflection.FieldAttributes HasFieldRVA
     static void _set_HasFieldRVA(System::Reflection::FieldAttributes value);
-    // Creating value type constructor for type: FieldAttributes
-    FieldAttributes(int value_ = {}) : value{value_} {}
   }; // System.Reflection.FieldAttributes
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

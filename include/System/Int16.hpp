@@ -48,6 +48,12 @@ namespace System {
     // System.Int16 m_value
     // Offset: 0x0
     int16_t m_value;
+    // Creating value type constructor for type: Int16
+    constexpr Int16(int16_t m_value_ = {}) : m_value{m_value_} {}
+    // Creating conversion operator: operator int16_t
+    constexpr operator int16_t() const {
+      return m_value;
+    }
     // static field const value: static public System.Int16 MaxValue
     static constexpr const int16_t MaxValue = 32767;
     // Get static field: static public System.Int16 MaxValue
@@ -60,8 +66,6 @@ namespace System {
     static int16_t _get_MinValue();
     // Set static field: static public System.Int16 MinValue
     static void _set_MinValue(int16_t value);
-    // Creating value type constructor for type: Int16
-    Int16(int16_t m_value_ = {}) : m_value{m_value_} {}
     // private System.String ToString(System.String format, System.Globalization.NumberFormatInfo info)
     // Offset: 0xA3F49C
     ::Il2CppString* ToString(::Il2CppString* format, System::Globalization::NumberFormatInfo* info);

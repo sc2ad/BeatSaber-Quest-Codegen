@@ -18,6 +18,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ExceptionMessageKind
+    constexpr ExceptionMessageKind(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Exception/ExceptionMessageKind ThreadAbort
     static constexpr const int ThreadAbort = 1;
     // Get static field: static public System.Exception/ExceptionMessageKind ThreadAbort
@@ -36,8 +42,6 @@ namespace System {
     static System::Exception::ExceptionMessageKind _get_OutOfMemory();
     // Set static field: static public System.Exception/ExceptionMessageKind OutOfMemory
     static void _set_OutOfMemory(System::Exception::ExceptionMessageKind value);
-    // Creating value type constructor for type: ExceptionMessageKind
-    ExceptionMessageKind(int value_ = {}) : value{value_} {}
   }; // System.Exception/ExceptionMessageKind
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

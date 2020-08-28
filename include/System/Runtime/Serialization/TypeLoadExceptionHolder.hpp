@@ -14,6 +14,10 @@ namespace System::Runtime::Serialization {
     // private System.String m_typeName
     // Offset: 0x10
     ::Il2CppString* m_typeName;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return m_typeName;
+    }
     // System.Void .ctor(System.String typeName)
     // Offset: 0x10035D0
     static TypeLoadExceptionHolder* New_ctor(::Il2CppString* typeName);

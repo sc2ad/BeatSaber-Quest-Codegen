@@ -29,6 +29,10 @@ namespace System::IO {
     // private System.String _maybeFullPath
     // Offset: 0x88
     ::Il2CppString* maybeFullPath;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return maybeFullPath;
+    }
     // public System.Void .ctor(System.String message, System.Int32 hresult)
     // Offset: 0x113A238
     static IOException* New_ctor(::Il2CppString* message, int hresult);

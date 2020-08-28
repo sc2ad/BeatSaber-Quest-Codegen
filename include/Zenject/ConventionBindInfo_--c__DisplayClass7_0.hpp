@@ -26,6 +26,10 @@ namespace Zenject {
     // public System.Type type
     // Offset: 0x10
     System::Type* type;
+    // Creating conversion operator: operator System::Type*
+    constexpr operator System::Type*() const {
+      return type;
+    }
     // System.Boolean <ShouldIncludeType>b__0(System.Func`2<System.Type,System.Boolean> predicate)
     // Offset: 0xD6F6AC
     bool $ShouldIncludeType$b__0(System::Func_2<System::Type*, bool>* predicate);

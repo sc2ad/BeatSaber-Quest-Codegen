@@ -16,6 +16,12 @@ namespace UnityEngine::Rendering {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ReflectionProbeUsage
+    constexpr ReflectionProbeUsage(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Rendering.ReflectionProbeUsage Off
     static constexpr const int Off = 0;
     // Get static field: static public UnityEngine.Rendering.ReflectionProbeUsage Off
@@ -40,8 +46,6 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::ReflectionProbeUsage _get_Simple();
     // Set static field: static public UnityEngine.Rendering.ReflectionProbeUsage Simple
     static void _set_Simple(UnityEngine::Rendering::ReflectionProbeUsage value);
-    // Creating value type constructor for type: ReflectionProbeUsage
-    ReflectionProbeUsage(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Rendering.ReflectionProbeUsage
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

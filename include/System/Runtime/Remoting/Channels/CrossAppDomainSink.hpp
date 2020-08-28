@@ -42,6 +42,10 @@ namespace System::Runtime::Remoting::Channels {
     // private System.Int32 _domainID
     // Offset: 0x10
     int domainID;
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return domainID;
+    }
     // Get static field: static private System.Collections.Hashtable s_sinks
     static System::Collections::Hashtable* _get_s_sinks();
     // Set static field: static private System.Collections.Hashtable s_sinks

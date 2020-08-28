@@ -28,6 +28,8 @@ namespace GlobalNamespace {
     // private FileBrowserItem[] _bookmarksFolders
     // Offset: 0x20
     ::Array<GlobalNamespace::FileBrowserItem*>* bookmarksFolders;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public FileBrowserItem[] get_bookmarksFolders()
     // Offset: 0xB7CBA8
     ::Array<GlobalNamespace::FileBrowserItem*>* get_bookmarksFolders();

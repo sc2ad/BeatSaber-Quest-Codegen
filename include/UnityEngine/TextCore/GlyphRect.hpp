@@ -29,12 +29,12 @@ namespace UnityEngine::TextCore {
     // private System.Int32 m_Height
     // Offset: 0xC
     int m_Height;
+    // Creating value type constructor for type: GlyphRect
+    constexpr GlyphRect(int m_X_ = {}, int m_Y_ = {}, int m_Width_ = {}, int m_Height_ = {}) : m_X{m_X_}, m_Y{m_Y_}, m_Width{m_Width_}, m_Height{m_Height_} {}
     // Get static field: static private readonly UnityEngine.TextCore.GlyphRect s_ZeroGlyphRect
     static UnityEngine::TextCore::GlyphRect _get_s_ZeroGlyphRect();
     // Set static field: static private readonly UnityEngine.TextCore.GlyphRect s_ZeroGlyphRect
     static void _set_s_ZeroGlyphRect(UnityEngine::TextCore::GlyphRect value);
-    // Creating value type constructor for type: GlyphRect
-    GlyphRect(int m_X_ = {}, int m_Y_ = {}, int m_Width_ = {}, int m_Height_ = {}) : m_X{m_X_}, m_Y{m_Y_}, m_Width{m_Width_}, m_Height{m_Height_} {}
     // public System.Int32 get_x()
     // Offset: 0xA5EA04
     int get_x();

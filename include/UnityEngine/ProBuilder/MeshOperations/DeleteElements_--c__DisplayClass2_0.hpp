@@ -25,6 +25,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // public UnityEngine.ProBuilder.ProBuilderMesh mesh
     // Offset: 0x10
     UnityEngine::ProBuilder::ProBuilderMesh* mesh;
+    // Creating conversion operator: operator UnityEngine::ProBuilder::ProBuilderMesh*
+    constexpr operator UnityEngine::ProBuilder::ProBuilderMesh*() const {
+      return mesh;
+    }
     // System.Int32 <DeleteFaces>b__0(UnityEngine.ProBuilder.Face x)
     // Offset: 0xF109C8
     int $DeleteFaces$b__0(UnityEngine::ProBuilder::Face* x);

@@ -16,6 +16,10 @@ namespace System::Reflection {
     // private System.String m_trademark
     // Offset: 0x10
     ::Il2CppString* m_trademark;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return m_trademark;
+    }
     // public System.Void .ctor(System.String trademark)
     // Offset: 0x1369CD8
     static AssemblyTrademarkAttribute* New_ctor(::Il2CppString* trademark);

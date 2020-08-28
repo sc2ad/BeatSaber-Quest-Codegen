@@ -16,6 +16,12 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: BinaryArrayTypeEnum
+    constexpr BinaryArrayTypeEnum(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Runtime.Serialization.Formatters.Binary.BinaryArrayTypeEnum Single
     static constexpr const int Single = 0;
     // Get static field: static public System.Runtime.Serialization.Formatters.Binary.BinaryArrayTypeEnum Single
@@ -52,8 +58,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum _get_RectangularOffset();
     // Set static field: static public System.Runtime.Serialization.Formatters.Binary.BinaryArrayTypeEnum RectangularOffset
     static void _set_RectangularOffset(System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum value);
-    // Creating value type constructor for type: BinaryArrayTypeEnum
-    BinaryArrayTypeEnum(int value_ = {}) : value{value_} {}
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryArrayTypeEnum
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

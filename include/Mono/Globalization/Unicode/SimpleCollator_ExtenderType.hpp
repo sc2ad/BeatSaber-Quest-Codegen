@@ -18,6 +18,12 @@ namespace Mono::Globalization::Unicode {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ExtenderType
+    constexpr ExtenderType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Mono.Globalization.Unicode.SimpleCollator/ExtenderType None
     static constexpr const int None = 0;
     // Get static field: static public Mono.Globalization.Unicode.SimpleCollator/ExtenderType None
@@ -48,8 +54,6 @@ namespace Mono::Globalization::Unicode {
     static Mono::Globalization::Unicode::SimpleCollator::ExtenderType _get_Buggy();
     // Set static field: static public Mono.Globalization.Unicode.SimpleCollator/ExtenderType Buggy
     static void _set_Buggy(Mono::Globalization::Unicode::SimpleCollator::ExtenderType value);
-    // Creating value type constructor for type: ExtenderType
-    ExtenderType(int value_ = {}) : value{value_} {}
   }; // Mono.Globalization.Unicode.SimpleCollator/ExtenderType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

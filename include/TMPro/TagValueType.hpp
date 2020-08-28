@@ -16,6 +16,12 @@ namespace TMPro {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TagValueType
+    constexpr TagValueType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public TMPro.TagValueType None
     static constexpr const int None = 0;
     // Get static field: static public TMPro.TagValueType None
@@ -40,8 +46,6 @@ namespace TMPro {
     static TMPro::TagValueType _get_ColorValue();
     // Set static field: static public TMPro.TagValueType ColorValue
     static void _set_ColorValue(TMPro::TagValueType value);
-    // Creating value type constructor for type: TagValueType
-    TagValueType(int value_ = {}) : value{value_} {}
   }; // TMPro.TagValueType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

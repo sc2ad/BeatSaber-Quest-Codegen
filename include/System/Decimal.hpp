@@ -66,6 +66,8 @@ namespace System {
     // private System.Int32 mid
     // Offset: 0xC
     int mid;
+    // Creating value type constructor for type: Decimal
+    constexpr Decimal(int flags_ = {}, int hi_ = {}, int lo_ = {}, int mid_ = {}) : flags{flags_}, hi{hi_}, lo{lo_}, mid{mid_} {}
     // static field const value: static private System.Int32 SignMask
     static constexpr const int SignMask = -2147483648;
     // Get static field: static private System.Int32 SignMask
@@ -134,8 +136,6 @@ namespace System {
     static System::Decimal _get_NearPositiveZero();
     // Set static field: static private readonly System.Decimal NearPositiveZero
     static void _set_NearPositiveZero(System::Decimal value);
-    // Creating value type constructor for type: Decimal
-    Decimal(int flags_ = {}, int hi_ = {}, int lo_ = {}, int mid_ = {}) : flags{flags_}, hi{hi_}, lo{lo_}, mid{mid_} {}
     // public System.Void .ctor(System.Int32 value)
     // Offset: 0xA2CF20
     static Decimal* New_ctor(int value);

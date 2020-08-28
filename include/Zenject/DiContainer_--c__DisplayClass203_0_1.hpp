@@ -31,6 +31,10 @@ namespace Zenject {
     // public TContract instance
     // Offset: 0x0
     TContract instance;
+    // Creating conversion operator: operator TContract
+    constexpr operator TContract() const {
+      return instance;
+    }
     // Zenject.IProvider <BindInstance>b__0(Zenject.DiContainer container, System.Type type)
     // Offset: 0xFFFFFFFF
     Zenject::IProvider* $BindInstance$b__0(Zenject::DiContainer* container, System::Type* type) {

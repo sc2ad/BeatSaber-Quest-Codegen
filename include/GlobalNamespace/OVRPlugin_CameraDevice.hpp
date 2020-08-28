@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: CameraDevice
+    constexpr CameraDevice(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRPlugin/CameraDevice None
     static constexpr const int None = 0;
     // Get static field: static public OVRPlugin/CameraDevice None
@@ -42,8 +48,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::CameraDevice _get_ZEDCamera();
     // Set static field: static public OVRPlugin/CameraDevice ZEDCamera
     static void _set_ZEDCamera(GlobalNamespace::OVRPlugin::CameraDevice value);
-    // Creating value type constructor for type: CameraDevice
-    CameraDevice(int value_ = {}) : value{value_} {}
   }; // OVRPlugin/CameraDevice
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

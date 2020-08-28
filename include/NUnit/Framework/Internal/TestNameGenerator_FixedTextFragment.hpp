@@ -25,6 +25,10 @@ namespace NUnit::Framework::Internal {
     // private System.String _text
     // Offset: 0x10
     ::Il2CppString* text;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return text;
+    }
     // public System.Void .ctor(System.String text)
     // Offset: 0x18F5DD4
     static TestNameGenerator::FixedTextFragment* New_ctor(::Il2CppString* text);

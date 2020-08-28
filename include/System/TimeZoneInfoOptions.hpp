@@ -16,6 +16,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TimeZoneInfoOptions
+    constexpr TimeZoneInfoOptions(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.TimeZoneInfoOptions None
     static constexpr const int None = 1;
     // Get static field: static public System.TimeZoneInfoOptions None
@@ -28,8 +34,6 @@ namespace System {
     static System::TimeZoneInfoOptions _get_NoThrowOnInvalidTime();
     // Set static field: static public System.TimeZoneInfoOptions NoThrowOnInvalidTime
     static void _set_NoThrowOnInvalidTime(System::TimeZoneInfoOptions value);
-    // Creating value type constructor for type: TimeZoneInfoOptions
-    TimeZoneInfoOptions(int value_ = {}) : value{value_} {}
   }; // System.TimeZoneInfoOptions
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

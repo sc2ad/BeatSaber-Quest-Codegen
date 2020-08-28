@@ -7,8 +7,12 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.MeshOperations.ElementSelection
 #include "UnityEngine/ProBuilder/MeshOperations/ElementSelection.hpp"
+// Including type: UnityEngine.ProBuilder.Edge
+#include "UnityEngine/ProBuilder/Edge.hpp"
 // Including type: System.Collections.Generic.KeyValuePair`2
 #include "System/Collections/Generic/KeyValuePair_2.hpp"
+// Including type: UnityEngine.ProBuilder.EdgeLookup
+#include "UnityEngine/ProBuilder/EdgeLookup.hpp"
 // Including type: UnityEngine.ProBuilder.SimpleTuple`2
 #include "UnityEngine/ProBuilder/SimpleTuple_2.hpp"
 // Completed includes

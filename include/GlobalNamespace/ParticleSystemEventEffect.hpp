@@ -87,6 +87,8 @@ namespace GlobalNamespace {
     // private System.Single _particleSpeed
     // Offset: 0xB0
     float particleSpeed;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xBD26A0
     void Start();

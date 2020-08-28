@@ -36,6 +36,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: FilterBy
+      constexpr FilterBy(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public BeatmapLevelFilterModel/LevelFilterParams/FilterBy AllLevels
       static constexpr const int AllLevels = 0;
       // Get static field: static public BeatmapLevelFilterModel/LevelFilterParams/FilterBy AllLevels
@@ -54,8 +60,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::BeatmapLevelFilterModel::LevelFilterParams::FilterBy _get_BeatmapCharacteristic();
       // Set static field: static public BeatmapLevelFilterModel/LevelFilterParams/FilterBy BeatmapCharacteristic
       static void _set_BeatmapCharacteristic(GlobalNamespace::BeatmapLevelFilterModel::LevelFilterParams::FilterBy value);
-      // Creating value type constructor for type: FilterBy
-      FilterBy(int value_ = {}) : value{value_} {}
     }; // BeatmapLevelFilterModel/LevelFilterParams/FilterBy
     // public BeatmapLevelFilterModel/LevelFilterParams/FilterBy filterBy
     // Offset: 0x10

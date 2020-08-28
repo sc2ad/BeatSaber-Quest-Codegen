@@ -16,6 +16,10 @@ namespace System::ComponentModel {
     // private System.Boolean browsable
     // Offset: 0x10
     bool browsable;
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return browsable;
+    }
     // Get static field: static public readonly System.ComponentModel.BrowsableAttribute Yes
     static System::ComponentModel::BrowsableAttribute* _get_Yes();
     // Set static field: static public readonly System.ComponentModel.BrowsableAttribute Yes

@@ -9,6 +9,8 @@
 #include "System/Func_2.hpp"
 // Including type: UnityEngine.Mesh
 #include "UnityEngine/Mesh.hpp"
+// Including type: UnityEngine.Vector3
+#include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
 // Including type: UnityEngine.Vector2

@@ -29,6 +29,10 @@ namespace NUnit::Framework::Constraints {
     // private readonly System.Collections.Generic.Stack`1<NUnit.Framework.Constraints.ConstraintOperator> stack
     // Offset: 0x10
     System::Collections::Generic::Stack_1<NUnit::Framework::Constraints::ConstraintOperator*>* stack;
+    // Creating conversion operator: operator System::Collections::Generic::Stack_1<NUnit::Framework::Constraints::ConstraintOperator*>*
+    constexpr operator System::Collections::Generic::Stack_1<NUnit::Framework::Constraints::ConstraintOperator*>*() const {
+      return stack;
+    }
     // public System.Boolean get_Empty()
     // Offset: 0x1076748
     bool get_Empty();

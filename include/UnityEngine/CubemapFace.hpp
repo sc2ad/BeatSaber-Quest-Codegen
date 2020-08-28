@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: CubemapFace
+    constexpr CubemapFace(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.CubemapFace Unknown
     static constexpr const int Unknown = -1;
     // Get static field: static public UnityEngine.CubemapFace Unknown
@@ -58,8 +64,6 @@ namespace UnityEngine {
     static UnityEngine::CubemapFace _get_NegativeZ();
     // Set static field: static public UnityEngine.CubemapFace NegativeZ
     static void _set_NegativeZ(UnityEngine::CubemapFace value);
-    // Creating value type constructor for type: CubemapFace
-    CubemapFace(int value_ = {}) : value{value_} {}
   }; // UnityEngine.CubemapFace
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

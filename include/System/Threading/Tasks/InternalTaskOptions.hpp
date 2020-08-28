@@ -16,6 +16,12 @@ namespace System::Threading::Tasks {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: InternalTaskOptions
+    constexpr InternalTaskOptions(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Threading.Tasks.InternalTaskOptions None
     static constexpr const int None = 0;
     // Get static field: static public System.Threading.Tasks.InternalTaskOptions None
@@ -70,8 +76,6 @@ namespace System::Threading::Tasks {
     static System::Threading::Tasks::InternalTaskOptions _get_DoNotDispose();
     // Set static field: static public System.Threading.Tasks.InternalTaskOptions DoNotDispose
     static void _set_DoNotDispose(System::Threading::Tasks::InternalTaskOptions value);
-    // Creating value type constructor for type: InternalTaskOptions
-    InternalTaskOptions(int value_ = {}) : value{value_} {}
   }; // System.Threading.Tasks.InternalTaskOptions
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

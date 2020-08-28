@@ -29,6 +29,12 @@ namespace System::Diagnostics {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: DebuggingModes
+      constexpr DebuggingModes(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public System.Diagnostics.DebuggableAttribute/DebuggingModes None
       static constexpr const int None = 0;
       // Get static field: static public System.Diagnostics.DebuggableAttribute/DebuggingModes None
@@ -59,12 +65,14 @@ namespace System::Diagnostics {
       static System::Diagnostics::DebuggableAttribute::DebuggingModes _get_EnableEditAndContinue();
       // Set static field: static public System.Diagnostics.DebuggableAttribute/DebuggingModes EnableEditAndContinue
       static void _set_EnableEditAndContinue(System::Diagnostics::DebuggableAttribute::DebuggingModes value);
-      // Creating value type constructor for type: DebuggingModes
-      DebuggingModes(int value_ = {}) : value{value_} {}
     }; // System.Diagnostics.DebuggableAttribute/DebuggingModes
     // private System.Diagnostics.DebuggableAttribute/DebuggingModes m_debuggingModes
     // Offset: 0x10
     System::Diagnostics::DebuggableAttribute::DebuggingModes m_debuggingModes;
+    // Creating conversion operator: operator System::Diagnostics::DebuggableAttribute::DebuggingModes
+    constexpr operator System::Diagnostics::DebuggableAttribute::DebuggingModes() const {
+      return m_debuggingModes;
+    }
     // public System.Void .ctor(System.Diagnostics.DebuggableAttribute/DebuggingModes modes)
     // Offset: 0xC9517C
     static DebuggableAttribute* New_ctor(System::Diagnostics::DebuggableAttribute::DebuggingModes modes);

@@ -61,7 +61,7 @@ namespace Valve::VR {
     // Offset: 0x3C
     float m15;
     // Creating value type constructor for type: HmdMatrix44_t
-    HmdMatrix44_t(float m0_ = {}, float m1_ = {}, float m2_ = {}, float m3_ = {}, float m4_ = {}, float m5_ = {}, float m6_ = {}, float m7_ = {}, float m8_ = {}, float m9_ = {}, float m10_ = {}, float m11_ = {}, float m12_ = {}, float m13_ = {}, float m14_ = {}, float m15_ = {}) : m0{m0_}, m1{m1_}, m2{m2_}, m3{m3_}, m4{m4_}, m5{m5_}, m6{m6_}, m7{m7_}, m8{m8_}, m9{m9_}, m10{m10_}, m11{m11_}, m12{m12_}, m13{m13_}, m14{m14_}, m15{m15_} {}
+    constexpr HmdMatrix44_t(float m0_ = {}, float m1_ = {}, float m2_ = {}, float m3_ = {}, float m4_ = {}, float m5_ = {}, float m6_ = {}, float m7_ = {}, float m8_ = {}, float m9_ = {}, float m10_ = {}, float m11_ = {}, float m12_ = {}, float m13_ = {}, float m14_ = {}, float m15_ = {}) : m0{m0_}, m1{m1_}, m2{m2_}, m3{m3_}, m4{m4_}, m5{m5_}, m6{m6_}, m7{m7_}, m8{m8_}, m9{m9_}, m10{m10_}, m11{m11_}, m12{m12_}, m13{m13_}, m14{m14_}, m15{m15_} {}
   }; // Valve.VR.HmdMatrix44_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

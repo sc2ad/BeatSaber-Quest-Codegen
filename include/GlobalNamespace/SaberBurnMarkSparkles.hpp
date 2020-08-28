@@ -72,6 +72,8 @@ namespace GlobalNamespace {
     // private UnityEngine.ParticleSystem/EmitParams _sparklesEmitParams
     // Offset: 0x78
     UnityEngine::ParticleSystem::EmitParams sparklesEmitParams;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xC2729C
     void Start();

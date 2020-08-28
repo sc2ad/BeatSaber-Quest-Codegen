@@ -45,6 +45,8 @@ namespace GlobalNamespace {
     // private System.Int32 _showAnimatorParam
     // Offset: 0x2C
     int showAnimatorParam;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void set_Show(System.Boolean value)
     // Offset: 0xCBC6D0
     void set_Show(bool value);

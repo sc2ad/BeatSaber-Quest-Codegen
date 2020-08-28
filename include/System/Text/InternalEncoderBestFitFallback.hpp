@@ -28,6 +28,8 @@ namespace System::Text {
     // System.Char[] arrayBestFit
     // Offset: 0x20
     ::Array<::Il2CppChar>* arrayBestFit;
+    // Deleting conversion operator: operator bool
+    constexpr operator bool() const = delete;
     // System.Void .ctor(System.Text.Encoding encoding)
     // Offset: 0x12F53B4
     static InternalEncoderBestFitFallback* New_ctor(System::Text::Encoding* encoding);

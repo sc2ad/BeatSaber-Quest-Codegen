@@ -40,6 +40,8 @@ namespace HMUI {
     // private System.Boolean _didStart
     // Offset: 0x40
     bool didStart;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Awake()
     // Offset: 0xED6FBC
     void Awake();

@@ -169,6 +169,8 @@ namespace RootMotion::FinalIK {
     // private System.Int32 chestBonesCount
     // Offset: 0x16C
     int chestBonesCount;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // private System.Void Start()
     // Offset: 0x13B0828
     void Start();

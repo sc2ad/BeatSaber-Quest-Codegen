@@ -16,6 +16,12 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: InternalArrayTypeE
+    constexpr InternalArrayTypeE(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Runtime.Serialization.Formatters.Binary.InternalArrayTypeE Empty
     static constexpr const int Empty = 0;
     // Get static field: static public System.Runtime.Serialization.Formatters.Binary.InternalArrayTypeE Empty
@@ -46,8 +52,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE _get_Base64();
     // Set static field: static public System.Runtime.Serialization.Formatters.Binary.InternalArrayTypeE Base64
     static void _set_Base64(System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE value);
-    // Creating value type constructor for type: InternalArrayTypeE
-    InternalArrayTypeE(int value_ = {}) : value{value_} {}
   }; // System.Runtime.Serialization.Formatters.Binary.InternalArrayTypeE
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

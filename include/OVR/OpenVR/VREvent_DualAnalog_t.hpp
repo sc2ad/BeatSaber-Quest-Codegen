@@ -31,7 +31,7 @@ namespace OVR::OpenVR {
     // Offset: 0x10
     OVR::OpenVR::EDualAnalogWhich which;
     // Creating value type constructor for type: VREvent_DualAnalog_t
-    VREvent_DualAnalog_t(float x_ = {}, float y_ = {}, float transformedX_ = {}, float transformedY_ = {}, OVR::OpenVR::EDualAnalogWhich which_ = {}) : x{x_}, y{y_}, transformedX{transformedX_}, transformedY{transformedY_}, which{which_} {}
+    constexpr VREvent_DualAnalog_t(float x_ = {}, float y_ = {}, float transformedX_ = {}, float transformedY_ = {}, OVR::OpenVR::EDualAnalogWhich which_ = {}) : x{x_}, y{y_}, transformedX{transformedX_}, transformedY{transformedY_}, which{which_} {}
   }; // OVR.OpenVR.VREvent_DualAnalog_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

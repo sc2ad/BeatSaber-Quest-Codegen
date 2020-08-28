@@ -66,6 +66,8 @@ namespace GlobalNamespace {
     // private System.Single <currentAlpha>k__BackingField
     // Offset: 0x54
     float currentAlpha;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Single get_currentAlpha()
     // Offset: 0xF50264
     float get_currentAlpha();

@@ -16,6 +16,12 @@ namespace System::Reflection {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: CallingConventions
+    constexpr CallingConventions(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Reflection.CallingConventions Standard
     static constexpr const int Standard = 1;
     // Get static field: static public System.Reflection.CallingConventions Standard
@@ -46,8 +52,6 @@ namespace System::Reflection {
     static System::Reflection::CallingConventions _get_ExplicitThis();
     // Set static field: static public System.Reflection.CallingConventions ExplicitThis
     static void _set_ExplicitThis(System::Reflection::CallingConventions value);
-    // Creating value type constructor for type: CallingConventions
-    CallingConventions(int value_ = {}) : value{value_} {}
   }; // System.Reflection.CallingConventions
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

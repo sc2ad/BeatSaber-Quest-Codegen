@@ -44,6 +44,8 @@ namespace GlobalNamespace {
     // private EnvironmentSizeData _environmentSizeData
     // Offset: 0x40
     GlobalNamespace::EnvironmentSizeData* environmentSizeData;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public SceneInfo get_sceneInfo()
     // Offset: 0xBEA6DC
     GlobalNamespace::SceneInfo* get_sceneInfo();

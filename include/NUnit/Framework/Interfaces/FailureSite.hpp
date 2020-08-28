@@ -16,6 +16,12 @@ namespace NUnit::Framework::Interfaces {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: FailureSite
+    constexpr FailureSite(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public NUnit.Framework.Interfaces.FailureSite Test
     static constexpr const int Test = 0;
     // Get static field: static public NUnit.Framework.Interfaces.FailureSite Test
@@ -46,8 +52,6 @@ namespace NUnit::Framework::Interfaces {
     static NUnit::Framework::Interfaces::FailureSite _get_Child();
     // Set static field: static public NUnit.Framework.Interfaces.FailureSite Child
     static void _set_Child(NUnit::Framework::Interfaces::FailureSite value);
-    // Creating value type constructor for type: FailureSite
-    FailureSite(int value_ = {}) : value{value_} {}
   }; // NUnit.Framework.Interfaces.FailureSite
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

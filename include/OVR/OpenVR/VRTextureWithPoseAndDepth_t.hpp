@@ -18,7 +18,11 @@ namespace OVR::OpenVR {
     // Offset: 0x0
     OVR::OpenVR::VRTextureDepthInfo_t depth;
     // Creating value type constructor for type: VRTextureWithPoseAndDepth_t
-    VRTextureWithPoseAndDepth_t(OVR::OpenVR::VRTextureDepthInfo_t depth_ = {}) : depth{depth_} {}
+    constexpr VRTextureWithPoseAndDepth_t(OVR::OpenVR::VRTextureDepthInfo_t depth_ = {}) : depth{depth_} {}
+    // Creating conversion operator: operator OVR::OpenVR::VRTextureDepthInfo_t
+    constexpr operator OVR::OpenVR::VRTextureDepthInfo_t() const {
+      return depth;
+    }
   }; // OVR.OpenVR.VRTextureWithPoseAndDepth_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

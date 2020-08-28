@@ -16,6 +16,12 @@ namespace Microsoft::Win32 {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: RegistryValueOptions
+    constexpr RegistryValueOptions(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Microsoft.Win32.RegistryValueOptions None
     static constexpr const int None = 0;
     // Get static field: static public Microsoft.Win32.RegistryValueOptions None
@@ -28,8 +34,6 @@ namespace Microsoft::Win32 {
     static Microsoft::Win32::RegistryValueOptions _get_DoNotExpandEnvironmentNames();
     // Set static field: static public Microsoft.Win32.RegistryValueOptions DoNotExpandEnvironmentNames
     static void _set_DoNotExpandEnvironmentNames(Microsoft::Win32::RegistryValueOptions value);
-    // Creating value type constructor for type: RegistryValueOptions
-    RegistryValueOptions(int value_ = {}) : value{value_} {}
   }; // Microsoft.Win32.RegistryValueOptions
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

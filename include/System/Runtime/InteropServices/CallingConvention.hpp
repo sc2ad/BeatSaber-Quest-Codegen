@@ -16,6 +16,12 @@ namespace System::Runtime::InteropServices {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: CallingConvention
+    constexpr CallingConvention(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Runtime.InteropServices.CallingConvention Winapi
     static constexpr const int Winapi = 1;
     // Get static field: static public System.Runtime.InteropServices.CallingConvention Winapi
@@ -46,8 +52,6 @@ namespace System::Runtime::InteropServices {
     static System::Runtime::InteropServices::CallingConvention _get_FastCall();
     // Set static field: static public System.Runtime.InteropServices.CallingConvention FastCall
     static void _set_FastCall(System::Runtime::InteropServices::CallingConvention value);
-    // Creating value type constructor for type: CallingConvention
-    CallingConvention(int value_ = {}) : value{value_} {}
   }; // System.Runtime.InteropServices.CallingConvention
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

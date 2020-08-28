@@ -80,6 +80,8 @@ namespace System::Threading::Tasks {
     // private readonly System.Boolean _lookForOce
     // Offset: 0x0
     bool lookForOce;
+    // Deleting conversion operator: operator TResult
+    constexpr operator TResult() const = delete;
     // public System.Void .ctor(System.Threading.Tasks.Task outerTask, System.Boolean lookForOce)
     // Offset: 0xFFFFFFFF
     static UnwrapPromise_1<TResult>* New_ctor(System::Threading::Tasks::Task* outerTask, bool lookForOce) {

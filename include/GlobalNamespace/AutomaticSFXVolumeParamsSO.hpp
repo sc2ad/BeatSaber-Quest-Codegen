@@ -37,6 +37,8 @@ namespace GlobalNamespace {
     // private System.Single _volumeSmooth
     // Offset: 0x34
     float volumeSmooth;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Single get_musicVolumeMultiplier()
     // Offset: 0xB8B618
     float get_musicVolumeMultiplier();

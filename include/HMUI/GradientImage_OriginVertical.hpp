@@ -18,6 +18,12 @@ namespace HMUI {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: OriginVertical
+    constexpr OriginVertical(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public HMUI.GradientImage/OriginVertical Bottom
     static constexpr const int Bottom = 0;
     // Get static field: static public HMUI.GradientImage/OriginVertical Bottom
@@ -30,8 +36,6 @@ namespace HMUI {
     static HMUI::GradientImage::OriginVertical _get_Top();
     // Set static field: static public HMUI.GradientImage/OriginVertical Top
     static void _set_Top(HMUI::GradientImage::OriginVertical value);
-    // Creating value type constructor for type: OriginVertical
-    OriginVertical(int value_ = {}) : value{value_} {}
   }; // HMUI.GradientImage/OriginVertical
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

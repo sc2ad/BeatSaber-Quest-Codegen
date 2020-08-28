@@ -16,6 +16,12 @@ namespace Valve::VR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EGamepadTextInputMode
+    constexpr EGamepadTextInputMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Valve.VR.EGamepadTextInputMode k_EGamepadTextInputModeNormal
     static constexpr const int k_EGamepadTextInputModeNormal = 0;
     // Get static field: static public Valve.VR.EGamepadTextInputMode k_EGamepadTextInputModeNormal
@@ -34,8 +40,6 @@ namespace Valve::VR {
     static Valve::VR::EGamepadTextInputMode _get_k_EGamepadTextInputModeSubmit();
     // Set static field: static public Valve.VR.EGamepadTextInputMode k_EGamepadTextInputModeSubmit
     static void _set_k_EGamepadTextInputModeSubmit(Valve::VR::EGamepadTextInputMode value);
-    // Creating value type constructor for type: EGamepadTextInputMode
-    EGamepadTextInputMode(int value_ = {}) : value{value_} {}
   }; // Valve.VR.EGamepadTextInputMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

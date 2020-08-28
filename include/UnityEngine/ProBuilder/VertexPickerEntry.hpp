@@ -35,7 +35,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x10
     UnityEngine::Vector3 worldPosition;
     // Creating value type constructor for type: VertexPickerEntry
-    VertexPickerEntry(UnityEngine::ProBuilder::ProBuilderMesh* mesh_ = {}, int vertex_ = {}, float screenDistance_ = {}, UnityEngine::Vector3 worldPosition_ = {}) : mesh{mesh_}, vertex{vertex_}, screenDistance{screenDistance_}, worldPosition{worldPosition_} {}
+    constexpr VertexPickerEntry(UnityEngine::ProBuilder::ProBuilderMesh* mesh_ = {}, int vertex_ = {}, float screenDistance_ = {}, UnityEngine::Vector3 worldPosition_ = {}) : mesh{mesh_}, vertex{vertex_}, screenDistance{screenDistance_}, worldPosition{worldPosition_} {}
   }; // UnityEngine.ProBuilder.VertexPickerEntry
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

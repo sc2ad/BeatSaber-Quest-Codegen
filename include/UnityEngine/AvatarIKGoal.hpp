@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: AvatarIKGoal
+    constexpr AvatarIKGoal(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.AvatarIKGoal LeftFoot
     static constexpr const int LeftFoot = 0;
     // Get static field: static public UnityEngine.AvatarIKGoal LeftFoot
@@ -40,8 +46,6 @@ namespace UnityEngine {
     static UnityEngine::AvatarIKGoal _get_RightHand();
     // Set static field: static public UnityEngine.AvatarIKGoal RightHand
     static void _set_RightHand(UnityEngine::AvatarIKGoal value);
-    // Creating value type constructor for type: AvatarIKGoal
-    AvatarIKGoal(int value_ = {}) : value{value_} {}
   }; // UnityEngine.AvatarIKGoal
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

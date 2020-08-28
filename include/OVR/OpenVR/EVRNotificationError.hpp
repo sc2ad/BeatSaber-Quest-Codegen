@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVRNotificationError
+    constexpr EVRNotificationError(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.EVRNotificationError OK
     static constexpr const int OK = 0;
     // Get static field: static public OVR.OpenVR.EVRNotificationError OK
@@ -46,8 +52,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRNotificationError _get_SystemWithUserValueAlreadyExists();
     // Set static field: static public OVR.OpenVR.EVRNotificationError SystemWithUserValueAlreadyExists
     static void _set_SystemWithUserValueAlreadyExists(OVR::OpenVR::EVRNotificationError value);
-    // Creating value type constructor for type: EVRNotificationError
-    EVRNotificationError(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EVRNotificationError
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

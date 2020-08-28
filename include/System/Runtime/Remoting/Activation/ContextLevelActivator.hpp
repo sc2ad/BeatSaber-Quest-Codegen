@@ -25,6 +25,10 @@ namespace System::Runtime::Remoting::Activation {
     // private System.Runtime.Remoting.Activation.IActivator m_NextActivator
     // Offset: 0x10
     System::Runtime::Remoting::Activation::IActivator* m_NextActivator;
+    // Creating conversion operator: operator System::Runtime::Remoting::Activation::IActivator*
+    constexpr operator System::Runtime::Remoting::Activation::IActivator*() const {
+      return m_NextActivator;
+    }
     // public System.Void .ctor(System.Runtime.Remoting.Activation.IActivator next)
     // Offset: 0x1053704
     static ContextLevelActivator* New_ctor(System::Runtime::Remoting::Activation::IActivator* next);

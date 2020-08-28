@@ -16,6 +16,10 @@ namespace GlobalNamespace {
     // public readonly System.Boolean showDoNotAgreeButton
     // Offset: 0x10
     bool showDoNotAgreeButton;
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return showDoNotAgreeButton;
+    }
     // public System.Void .ctor(System.Boolean showDoNotAgreeButton)
     // Offset: 0xBEC02C
     static EulaViewController::InitData* New_ctor(bool showDoNotAgreeButton);

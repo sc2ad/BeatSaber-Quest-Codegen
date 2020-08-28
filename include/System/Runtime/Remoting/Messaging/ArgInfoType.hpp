@@ -16,6 +16,12 @@ namespace System::Runtime::Remoting::Messaging {
     // public System.Byte value__
     // Offset: 0x0
     uint8_t value;
+    // Creating value type constructor for type: ArgInfoType
+    constexpr ArgInfoType(uint8_t value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator uint8_t
+    constexpr operator uint8_t() const {
+      return value;
+    }
     // static field const value: static public System.Runtime.Remoting.Messaging.ArgInfoType In
     static constexpr const uint8_t In = 0u;
     // Get static field: static public System.Runtime.Remoting.Messaging.ArgInfoType In
@@ -28,8 +34,6 @@ namespace System::Runtime::Remoting::Messaging {
     static System::Runtime::Remoting::Messaging::ArgInfoType _get_Out();
     // Set static field: static public System.Runtime.Remoting.Messaging.ArgInfoType Out
     static void _set_Out(System::Runtime::Remoting::Messaging::ArgInfoType value);
-    // Creating value type constructor for type: ArgInfoType
-    ArgInfoType(uint8_t value_ = {}) : value{value_} {}
   }; // System.Runtime.Remoting.Messaging.ArgInfoType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

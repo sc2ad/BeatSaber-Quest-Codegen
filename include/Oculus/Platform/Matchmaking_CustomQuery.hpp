@@ -20,7 +20,8 @@ namespace System::Collections::Generic {
 }
 // Forward declaring namespace: System
 namespace System {
-  // Skipping declaration: IntPtr because it is already included!
+  // Forward declaring type: IntPtr
+  struct IntPtr;
 }
 // Completed forward declares
 // Type namespace: Oculus.Platform

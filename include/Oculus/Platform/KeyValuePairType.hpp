@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: KeyValuePairType
+    constexpr KeyValuePairType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.KeyValuePairType String
     static constexpr const int String = 0;
     // Get static field: static public Oculus.Platform.KeyValuePairType String
@@ -40,8 +46,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::KeyValuePairType _get_Unknown();
     // Set static field: static public Oculus.Platform.KeyValuePairType Unknown
     static void _set_Unknown(Oculus::Platform::KeyValuePairType value);
-    // Creating value type constructor for type: KeyValuePairType
-    KeyValuePairType(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.KeyValuePairType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

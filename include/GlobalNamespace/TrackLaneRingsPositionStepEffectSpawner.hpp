@@ -47,6 +47,8 @@ namespace GlobalNamespace {
     // private System.Boolean _prevWasMinStep
     // Offset: 0x38
     bool prevWasMinStep;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xC46FA0
     void Start();

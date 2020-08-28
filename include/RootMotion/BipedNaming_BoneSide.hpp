@@ -18,6 +18,12 @@ namespace RootMotion {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: BoneSide
+    constexpr BoneSide(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public RootMotion.BipedNaming/BoneSide Center
     static constexpr const int Center = 0;
     // Get static field: static public RootMotion.BipedNaming/BoneSide Center
@@ -36,8 +42,6 @@ namespace RootMotion {
     static RootMotion::BipedNaming::BoneSide _get_Right();
     // Set static field: static public RootMotion.BipedNaming/BoneSide Right
     static void _set_Right(RootMotion::BipedNaming::BoneSide value);
-    // Creating value type constructor for type: BoneSide
-    BoneSide(int value_ = {}) : value{value_} {}
   }; // RootMotion.BipedNaming/BoneSide
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

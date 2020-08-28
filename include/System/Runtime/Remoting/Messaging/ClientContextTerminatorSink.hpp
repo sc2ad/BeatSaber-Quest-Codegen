@@ -30,6 +30,10 @@ namespace System::Runtime::Remoting::Messaging {
     // private System.Runtime.Remoting.Contexts.Context _context
     // Offset: 0x10
     System::Runtime::Remoting::Contexts::Context* context;
+    // Creating conversion operator: operator System::Runtime::Remoting::Contexts::Context*
+    constexpr operator System::Runtime::Remoting::Contexts::Context*() const {
+      return context;
+    }
     // public System.Void .ctor(System.Runtime.Remoting.Contexts.Context ctx)
     // Offset: 0x105FCA8
     static ClientContextTerminatorSink* New_ctor(System::Runtime::Remoting::Contexts::Context* ctx);

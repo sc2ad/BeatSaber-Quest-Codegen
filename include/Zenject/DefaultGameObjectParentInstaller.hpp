@@ -23,6 +23,8 @@ namespace Zenject {
     // private readonly System.String _name
     // Offset: 0x18
     ::Il2CppString* name;
+    // Deleting conversion operator: operator Zenject::DiContainer*
+    constexpr operator Zenject::DiContainer*() const = delete;
     // public System.Void .ctor(System.String name)
     // Offset: 0xD70D4C
     static DefaultGameObjectParentInstaller* New_ctor(::Il2CppString* name);

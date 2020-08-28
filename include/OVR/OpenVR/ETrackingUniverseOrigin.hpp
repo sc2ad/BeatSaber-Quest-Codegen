@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: ETrackingUniverseOrigin
+    constexpr ETrackingUniverseOrigin(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.ETrackingUniverseOrigin TrackingUniverseSeated
     static constexpr const int TrackingUniverseSeated = 0;
     // Get static field: static public OVR.OpenVR.ETrackingUniverseOrigin TrackingUniverseSeated
@@ -34,8 +40,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::ETrackingUniverseOrigin _get_TrackingUniverseRawAndUncalibrated();
     // Set static field: static public OVR.OpenVR.ETrackingUniverseOrigin TrackingUniverseRawAndUncalibrated
     static void _set_TrackingUniverseRawAndUncalibrated(OVR::OpenVR::ETrackingUniverseOrigin value);
-    // Creating value type constructor for type: ETrackingUniverseOrigin
-    ETrackingUniverseOrigin(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.ETrackingUniverseOrigin
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

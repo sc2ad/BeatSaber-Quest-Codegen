@@ -29,6 +29,12 @@ namespace UnityEngine::Timeline {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: UseEditMode
+      constexpr UseEditMode(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public UnityEngine.Timeline.TimeFieldAttribute/UseEditMode None
       static constexpr const int None = 0;
       // Get static field: static public UnityEngine.Timeline.TimeFieldAttribute/UseEditMode None
@@ -41,12 +47,14 @@ namespace UnityEngine::Timeline {
       static UnityEngine::Timeline::TimeFieldAttribute::UseEditMode _get_ApplyEditMode();
       // Set static field: static public UnityEngine.Timeline.TimeFieldAttribute/UseEditMode ApplyEditMode
       static void _set_ApplyEditMode(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode value);
-      // Creating value type constructor for type: UseEditMode
-      UseEditMode(int value_ = {}) : value{value_} {}
     }; // UnityEngine.Timeline.TimeFieldAttribute/UseEditMode
     // private readonly UnityEngine.Timeline.TimeFieldAttribute/UseEditMode <useEditMode>k__BackingField
     // Offset: 0x10
     UnityEngine::Timeline::TimeFieldAttribute::UseEditMode useEditMode;
+    // Creating conversion operator: operator UnityEngine::Timeline::TimeFieldAttribute::UseEditMode
+    constexpr operator UnityEngine::Timeline::TimeFieldAttribute::UseEditMode() const {
+      return useEditMode;
+    }
     // public UnityEngine.Timeline.TimeFieldAttribute/UseEditMode get_useEditMode()
     // Offset: 0x10A0648
     UnityEngine::Timeline::TimeFieldAttribute::UseEditMode get_useEditMode();

@@ -73,6 +73,8 @@ namespace GlobalNamespace {
     // private BeatmapLevelSO _anyBeatmapLevelSO
     // Offset: 0x60
     GlobalNamespace::BeatmapLevelSO* anyBeatmapLevelSO;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void Init()
     // Offset: 0xC011B8
     void Init();

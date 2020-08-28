@@ -23,6 +23,8 @@ namespace System::Text {
     // private System.String strDefault
     // Offset: 0x18
     ::Il2CppString* strDefault;
+    // Deleting conversion operator: operator bool
+    constexpr operator bool() const = delete;
     // public System.Void .ctor(System.String replacement)
     // Offset: 0x12F1EEC
     static DecoderReplacementFallback* New_ctor(::Il2CppString* replacement);

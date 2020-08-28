@@ -118,6 +118,8 @@ namespace GlobalNamespace {
     // private MissionNodesManager _missionNodesManager
     // Offset: 0xF0
     GlobalNamespace::MissionNodesManager* missionNodesManager;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xB82DC4
     void Start();

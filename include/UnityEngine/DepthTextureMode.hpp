@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: DepthTextureMode
+    constexpr DepthTextureMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.DepthTextureMode None
     static constexpr const int None = 0;
     // Get static field: static public UnityEngine.DepthTextureMode None
@@ -40,8 +46,6 @@ namespace UnityEngine {
     static UnityEngine::DepthTextureMode _get_MotionVectors();
     // Set static field: static public UnityEngine.DepthTextureMode MotionVectors
     static void _set_MotionVectors(UnityEngine::DepthTextureMode value);
-    // Creating value type constructor for type: DepthTextureMode
-    DepthTextureMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.DepthTextureMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

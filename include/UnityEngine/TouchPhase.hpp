@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: TouchPhase
+    constexpr TouchPhase(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.TouchPhase Began
     static constexpr const int Began = 0;
     // Get static field: static public UnityEngine.TouchPhase Began
@@ -46,8 +52,6 @@ namespace UnityEngine {
     static UnityEngine::TouchPhase _get_Canceled();
     // Set static field: static public UnityEngine.TouchPhase Canceled
     static void _set_Canceled(UnityEngine::TouchPhase value);
-    // Creating value type constructor for type: TouchPhase
-    TouchPhase(int value_ = {}) : value{value_} {}
   }; // UnityEngine.TouchPhase
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

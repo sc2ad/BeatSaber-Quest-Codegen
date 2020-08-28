@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: LightType
+    constexpr LightType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.LightType Spot
     static constexpr const int Spot = 0;
     // Get static field: static public UnityEngine.LightType Spot
@@ -52,8 +58,6 @@ namespace UnityEngine {
     static UnityEngine::LightType _get_Disc();
     // Set static field: static public UnityEngine.LightType Disc
     static void _set_Disc(UnityEngine::LightType value);
-    // Creating value type constructor for type: LightType
-    LightType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.LightType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

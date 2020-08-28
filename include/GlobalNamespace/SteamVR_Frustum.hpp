@@ -36,6 +36,8 @@ namespace GlobalNamespace {
     // public System.Single farZ
     // Offset: 0x30
     float farZ;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void UpdateModel()
     // Offset: 0xD86A1C
     void UpdateModel();

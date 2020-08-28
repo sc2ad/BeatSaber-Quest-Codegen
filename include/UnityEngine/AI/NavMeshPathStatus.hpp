@@ -16,6 +16,12 @@ namespace UnityEngine::AI {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: NavMeshPathStatus
+    constexpr NavMeshPathStatus(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.AI.NavMeshPathStatus PathComplete
     static constexpr const int PathComplete = 0;
     // Get static field: static public UnityEngine.AI.NavMeshPathStatus PathComplete
@@ -34,8 +40,6 @@ namespace UnityEngine::AI {
     static UnityEngine::AI::NavMeshPathStatus _get_PathInvalid();
     // Set static field: static public UnityEngine.AI.NavMeshPathStatus PathInvalid
     static void _set_PathInvalid(UnityEngine::AI::NavMeshPathStatus value);
-    // Creating value type constructor for type: NavMeshPathStatus
-    NavMeshPathStatus(int value_ = {}) : value{value_} {}
   }; // UnityEngine.AI.NavMeshPathStatus
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

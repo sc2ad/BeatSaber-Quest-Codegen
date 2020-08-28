@@ -15,15 +15,9 @@
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
-  // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
-  class IEnumerable_1;
-  // Forward declaring type: IEnumerator`1<T>
-  template<typename T>
-  class IEnumerator_1;
-  // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
-  class IEnumerable_1;
+  // Skipping declaration: IEnumerable`1 because it is already included!
+  // Skipping declaration: IEnumerator`1 because it is already included!
+  // Skipping declaration: IEnumerable`1 because it is already included!
 }
 // Forward declaring namespace: System
 namespace System {

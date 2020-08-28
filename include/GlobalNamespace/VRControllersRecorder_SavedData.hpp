@@ -23,6 +23,10 @@ namespace GlobalNamespace {
     // public VRControllersRecorder/SavedData/KeyframeSerializable[] _keyframes
     // Offset: 0x10
     ::Array<GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable*>* keyframes;
+    // Creating conversion operator: operator ::Array<GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable*>*
+    constexpr operator ::Array<GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable*>*() const {
+      return keyframes;
+    }
     // public System.Void .ctor()
     // Offset: 0xC51430
     // Implemented from: System.Object

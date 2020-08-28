@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: NetSyncConnectionStatus
+    constexpr NetSyncConnectionStatus(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.NetSyncConnectionStatus Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.NetSyncConnectionStatus Unknown
@@ -40,8 +46,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::NetSyncConnectionStatus _get_Connected();
     // Set static field: static public Oculus.Platform.NetSyncConnectionStatus Connected
     static void _set_Connected(Oculus::Platform::NetSyncConnectionStatus value);
-    // Creating value type constructor for type: NetSyncConnectionStatus
-    NetSyncConnectionStatus(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.NetSyncConnectionStatus
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

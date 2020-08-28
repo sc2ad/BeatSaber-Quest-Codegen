@@ -28,6 +28,10 @@ namespace System::Threading {
     // private System.Threading.SynchronizationContextProperties _props
     // Offset: 0x10
     System::Threading::SynchronizationContextProperties props;
+    // Creating conversion operator: operator System::Threading::SynchronizationContextProperties
+    constexpr operator System::Threading::SynchronizationContextProperties() const {
+      return props;
+    }
     // Get static field: static private System.Type s_cachedPreparedType1
     static System::Type* _get_s_cachedPreparedType1();
     // Set static field: static private System.Type s_cachedPreparedType1

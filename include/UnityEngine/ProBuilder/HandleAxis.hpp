@@ -16,6 +16,12 @@ namespace UnityEngine::ProBuilder {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: HandleAxis
+    constexpr HandleAxis(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.ProBuilder.HandleAxis X
     static constexpr const int X = 1;
     // Get static field: static public UnityEngine.ProBuilder.HandleAxis X
@@ -40,8 +46,6 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::HandleAxis _get_Free();
     // Set static field: static public UnityEngine.ProBuilder.HandleAxis Free
     static void _set_Free(UnityEngine::ProBuilder::HandleAxis value);
-    // Creating value type constructor for type: HandleAxis
-    HandleAxis(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.HandleAxis
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,10 @@ namespace JetBrains::Annotations {
     // private System.String <Attribute>k__BackingField
     // Offset: 0x10
     ::Il2CppString* Attribute;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return Attribute;
+    }
     // public System.Void .ctor(System.String attribute)
     // Offset: 0x1961070
     static AspRequiredAttributeAttribute* New_ctor(::Il2CppString* attribute);

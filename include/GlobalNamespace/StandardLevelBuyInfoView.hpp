@@ -37,6 +37,8 @@ namespace GlobalNamespace {
     // private UnityEngine.UI.Button _buyPackButton
     // Offset: 0x30
     UnityEngine::UI::Button* buyPackButton;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public UnityEngine.UI.Button get_buyLevelButton()
     // Offset: 0xB9DDB0
     UnityEngine::UI::Button* get_buyLevelButton();

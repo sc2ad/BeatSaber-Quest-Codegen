@@ -18,6 +18,12 @@ namespace GlobalNamespace {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: OverlayFlag
+    constexpr OverlayFlag(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVRPlugin/OverlayFlag None
     static constexpr const int None = 0;
     // Get static field: static public OVRPlugin/OverlayFlag None
@@ -84,8 +90,6 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::OverlayFlag _get_Hidden();
     // Set static field: static public OVRPlugin/OverlayFlag Hidden
     static void _set_Hidden(GlobalNamespace::OVRPlugin::OverlayFlag value);
-    // Creating value type constructor for type: OverlayFlag
-    OverlayFlag(int value_ = {}) : value{value_} {}
   }; // OVRPlugin/OverlayFlag
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -42,6 +42,12 @@ namespace GlobalNamespace {
       // public System.Int32 value__
       // Offset: 0x0
       int value;
+      // Creating value type constructor for type: State
+      constexpr State(int value_ = {}) : value{value_} {}
+      // Creating conversion operator: operator int
+      constexpr operator int() const {
+        return value;
+      }
       // static field const value: static public AudioTimeSyncController/State Playing
       static constexpr const int Playing = 0;
       // Get static field: static public AudioTimeSyncController/State Playing
@@ -60,8 +66,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::AudioTimeSyncController::State _get_Stopped();
       // Set static field: static public AudioTimeSyncController/State Stopped
       static void _set_Stopped(GlobalNamespace::AudioTimeSyncController::State value);
-      // Creating value type constructor for type: State
-      State(int value_ = {}) : value{value_} {}
     }; // AudioTimeSyncController/State
     // private System.Single _audioSyncLerpSpeed
     // Offset: 0x18
@@ -123,6 +127,8 @@ namespace GlobalNamespace {
     // private System.Boolean _canStartSong
     // Offset: 0x74
     bool canStartSong;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public AudioTimeSyncController/State get_state()
     // Offset: 0xB8A97C
     GlobalNamespace::AudioTimeSyncController::State get_state();

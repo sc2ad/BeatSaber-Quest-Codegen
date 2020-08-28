@@ -16,6 +16,12 @@ namespace UnityEngine::Rendering {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: BuiltinShaderMode
+    constexpr BuiltinShaderMode(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.Rendering.BuiltinShaderMode Disabled
     static constexpr const int Disabled = 0;
     // Get static field: static public UnityEngine.Rendering.BuiltinShaderMode Disabled
@@ -34,8 +40,6 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::BuiltinShaderMode _get_UseCustom();
     // Set static field: static public UnityEngine.Rendering.BuiltinShaderMode UseCustom
     static void _set_UseCustom(UnityEngine::Rendering::BuiltinShaderMode value);
-    // Creating value type constructor for type: BuiltinShaderMode
-    BuiltinShaderMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Rendering.BuiltinShaderMode
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

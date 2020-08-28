@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: RichPresenceExtraContext
+    constexpr RichPresenceExtraContext(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.RichPresenceExtraContext Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.RichPresenceExtraContext Unknown
@@ -52,8 +58,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::RichPresenceExtraContext _get_LookingForAMatch();
     // Set static field: static public Oculus.Platform.RichPresenceExtraContext LookingForAMatch
     static void _set_LookingForAMatch(Oculus::Platform::RichPresenceExtraContext value);
-    // Creating value type constructor for type: RichPresenceExtraContext
-    RichPresenceExtraContext(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.RichPresenceExtraContext
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

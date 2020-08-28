@@ -47,6 +47,8 @@ namespace GlobalNamespace {
     // private System.Single _rotationSpeed
     // Offset: 0x48
     float rotationSpeed;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // static field const value: static private System.Single kSpeedMultiplier
     static constexpr const float kSpeedMultiplier = 20;
     // Get static field: static private System.Single kSpeedMultiplier

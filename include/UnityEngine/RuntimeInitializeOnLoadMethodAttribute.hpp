@@ -18,6 +18,10 @@ namespace UnityEngine {
     // private UnityEngine.RuntimeInitializeLoadType m_LoadType
     // Offset: 0x10
     UnityEngine::RuntimeInitializeLoadType m_LoadType;
+    // Creating conversion operator: operator UnityEngine::RuntimeInitializeLoadType
+    constexpr operator UnityEngine::RuntimeInitializeLoadType() const {
+      return m_LoadType;
+    }
     // public System.Void .ctor(UnityEngine.RuntimeInitializeLoadType loadType)
     // Offset: 0x1390374
     static RuntimeInitializeOnLoadMethodAttribute* New_ctor(UnityEngine::RuntimeInitializeLoadType loadType);

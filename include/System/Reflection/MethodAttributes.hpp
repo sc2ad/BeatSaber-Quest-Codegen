@@ -16,6 +16,12 @@ namespace System::Reflection {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: MethodAttributes
+    constexpr MethodAttributes(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Reflection.MethodAttributes MemberAccessMask
     static constexpr const int MemberAccessMask = 7;
     // Get static field: static public System.Reflection.MethodAttributes MemberAccessMask
@@ -160,8 +166,6 @@ namespace System::Reflection {
     static System::Reflection::MethodAttributes _get_RequireSecObject();
     // Set static field: static public System.Reflection.MethodAttributes RequireSecObject
     static void _set_RequireSecObject(System::Reflection::MethodAttributes value);
-    // Creating value type constructor for type: MethodAttributes
-    MethodAttributes(int value_ = {}) : value{value_} {}
   }; // System.Reflection.MethodAttributes
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

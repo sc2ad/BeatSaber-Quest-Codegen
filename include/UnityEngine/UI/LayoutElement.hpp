@@ -41,6 +41,8 @@ namespace UnityEngine::UI {
     // private System.Int32 m_LayoutPriority
     // Offset: 0x34
     int m_LayoutPriority;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // public System.Void set_ignoreLayout(System.Boolean value)
     // Offset: 0x11FF9B4
     void set_ignoreLayout(bool value);

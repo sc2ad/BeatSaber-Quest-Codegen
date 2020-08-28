@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: LightShadows
+    constexpr LightShadows(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.LightShadows None
     static constexpr const int None = 0;
     // Get static field: static public UnityEngine.LightShadows None
@@ -34,8 +40,6 @@ namespace UnityEngine {
     static UnityEngine::LightShadows _get_Soft();
     // Set static field: static public UnityEngine.LightShadows Soft
     static void _set_Soft(UnityEngine::LightShadows value);
-    // Creating value type constructor for type: LightShadows
-    LightShadows(int value_ = {}) : value{value_} {}
   }; // UnityEngine.LightShadows
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

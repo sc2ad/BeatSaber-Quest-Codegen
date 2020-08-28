@@ -16,6 +16,12 @@ namespace System {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: DateTimeKind
+    constexpr DateTimeKind(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.DateTimeKind Unspecified
     static constexpr const int Unspecified = 0;
     // Get static field: static public System.DateTimeKind Unspecified
@@ -34,8 +40,6 @@ namespace System {
     static System::DateTimeKind _get_Local();
     // Set static field: static public System.DateTimeKind Local
     static void _set_Local(System::DateTimeKind value);
-    // Creating value type constructor for type: DateTimeKind
-    DateTimeKind(int value_ = {}) : value{value_} {}
   }; // System.DateTimeKind
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -38,6 +38,10 @@ namespace Valve::VR {
     // private Valve.VR.IVRTrackedCamera FnTable
     // Offset: 0x10
     Valve::VR::IVRTrackedCamera FnTable;
+    // Creating conversion operator: operator Valve::VR::IVRTrackedCamera
+    constexpr operator Valve::VR::IVRTrackedCamera() const {
+      return FnTable;
+    }
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0xFE968C
     static CVRTrackedCamera* New_ctor(System::IntPtr pInterface);

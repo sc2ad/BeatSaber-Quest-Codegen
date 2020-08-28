@@ -16,6 +16,12 @@ namespace System::Globalization {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: DateTimeFormatFlags
+    constexpr DateTimeFormatFlags(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Globalization.DateTimeFormatFlags None
     static constexpr const int None = 0;
     // Get static field: static public System.Globalization.DateTimeFormatFlags None
@@ -64,8 +70,6 @@ namespace System::Globalization {
     static System::Globalization::DateTimeFormatFlags _get_NotInitialized();
     // Set static field: static public System.Globalization.DateTimeFormatFlags NotInitialized
     static void _set_NotInitialized(System::Globalization::DateTimeFormatFlags value);
-    // Creating value type constructor for type: DateTimeFormatFlags
-    DateTimeFormatFlags(int value_ = {}) : value{value_} {}
   }; // System.Globalization.DateTimeFormatFlags
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

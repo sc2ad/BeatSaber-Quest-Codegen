@@ -62,6 +62,8 @@ namespace GlobalNamespace {
     // public System.Collections.Generic.List`1<PlayerSaveData/GuestPlayer> guestPlayers
     // Offset: 0x20
     System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::GuestPlayer*>* guestPlayers;
+    // Deleting conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const = delete;
     // static field const value: static public System.String kCurrentVersion
     static constexpr const char* kCurrentVersion = "2.0.6";
     // Get static field: static public System.String kCurrentVersion

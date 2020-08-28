@@ -21,6 +21,10 @@ namespace System {
     // private System.LocalDataStore m_Store
     // Offset: 0x10
     System::LocalDataStore* m_Store;
+    // Creating conversion operator: operator System::LocalDataStore*
+    constexpr operator System::LocalDataStore*() const {
+      return m_Store;
+    }
     // public System.Void .ctor(System.LocalDataStore store)
     // Offset: 0x1016D48
     static LocalDataStoreHolder* New_ctor(System::LocalDataStore* store);

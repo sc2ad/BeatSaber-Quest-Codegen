@@ -21,6 +21,10 @@ namespace Oculus::Platform::Models {
     // public readonly System.UInt64 ID
     // Offset: 0x10
     uint64_t ID;
+    // Creating conversion operator: operator uint64_t
+    constexpr operator uint64_t() const {
+      return ID;
+    }
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0xEA70F0
     static PartyID* New_ctor(System::IntPtr o);

@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: FocusType
+    constexpr FocusType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.FocusType Native
     static constexpr const int Native = 0;
     // Get static field: static public UnityEngine.FocusType Native
@@ -34,8 +40,6 @@ namespace UnityEngine {
     static UnityEngine::FocusType _get_Passive();
     // Set static field: static public UnityEngine.FocusType Passive
     static void _set_Passive(UnityEngine::FocusType value);
-    // Creating value type constructor for type: FocusType
-    FocusType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.FocusType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

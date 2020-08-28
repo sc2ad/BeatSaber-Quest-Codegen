@@ -16,6 +16,10 @@ namespace JetBrains::Annotations {
     // private System.String <BasePath>k__BackingField
     // Offset: 0x10
     ::Il2CppString* BasePath;
+    // Creating conversion operator: operator ::Il2CppString*
+    constexpr operator ::Il2CppString*() const {
+      return BasePath;
+    }
     // public System.Void .ctor(System.String basePath)
     // Offset: 0x1961578
     static PathReferenceAttribute* New_ctor(::Il2CppString* basePath);

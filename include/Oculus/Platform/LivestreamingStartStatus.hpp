@@ -16,6 +16,12 @@ namespace Oculus::Platform {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: LivestreamingStartStatus
+    constexpr LivestreamingStartStatus(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public Oculus.Platform.LivestreamingStartStatus Success
     static constexpr const int Success = 1;
     // Get static field: static public Oculus.Platform.LivestreamingStartStatus Success
@@ -52,8 +58,6 @@ namespace Oculus::Platform {
     static Oculus::Platform::LivestreamingStartStatus _get_MissingParameters();
     // Set static field: static public Oculus.Platform.LivestreamingStartStatus MissingParameters
     static void _set_MissingParameters(Oculus::Platform::LivestreamingStartStatus value);
-    // Creating value type constructor for type: LivestreamingStartStatus
-    LivestreamingStartStatus(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.LivestreamingStartStatus
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

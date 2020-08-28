@@ -18,7 +18,11 @@ namespace UnityEngine {
     // Offset: 0x0
     UnityEngine::ParticleSystem* m_ParticleSystem;
     // Creating value type constructor for type: MainModule
-    MainModule(UnityEngine::ParticleSystem* m_ParticleSystem_ = {}) : m_ParticleSystem{m_ParticleSystem_} {}
+    constexpr MainModule(UnityEngine::ParticleSystem* m_ParticleSystem_ = {}) : m_ParticleSystem{m_ParticleSystem_} {}
+    // Creating conversion operator: operator UnityEngine::ParticleSystem*
+    constexpr operator UnityEngine::ParticleSystem*() const {
+      return m_ParticleSystem;
+    }
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
     // Offset: 0xA5F820
     static ParticleSystem::MainModule* New_ctor(UnityEngine::ParticleSystem* particleSystem);

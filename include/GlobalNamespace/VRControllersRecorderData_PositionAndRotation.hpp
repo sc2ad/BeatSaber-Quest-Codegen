@@ -26,7 +26,7 @@ namespace GlobalNamespace {
     // Offset: 0xC
     UnityEngine::Quaternion rot;
     // Creating value type constructor for type: PositionAndRotation
-    PositionAndRotation(UnityEngine::Vector3 pos_ = {}, UnityEngine::Quaternion rot_ = {}) : pos{pos_}, rot{rot_} {}
+    constexpr PositionAndRotation(UnityEngine::Vector3 pos_ = {}, UnityEngine::Quaternion rot_ = {}) : pos{pos_}, rot{rot_} {}
     // public System.Void .ctor(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
     // Offset: 0xA2CBF4
     static VRControllersRecorderData::PositionAndRotation* New_ctor(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot);

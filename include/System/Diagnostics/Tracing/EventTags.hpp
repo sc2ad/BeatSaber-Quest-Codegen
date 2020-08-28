@@ -16,14 +16,18 @@ namespace System::Diagnostics::Tracing {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EventTags
+    constexpr EventTags(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Diagnostics.Tracing.EventTags None
     static constexpr const int None = 0;
     // Get static field: static public System.Diagnostics.Tracing.EventTags None
     static System::Diagnostics::Tracing::EventTags _get_None();
     // Set static field: static public System.Diagnostics.Tracing.EventTags None
     static void _set_None(System::Diagnostics::Tracing::EventTags value);
-    // Creating value type constructor for type: EventTags
-    EventTags(int value_ = {}) : value{value_} {}
   }; // System.Diagnostics.Tracing.EventTags
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

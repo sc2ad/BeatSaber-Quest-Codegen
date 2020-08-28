@@ -31,6 +31,8 @@ namespace GlobalNamespace {
     // private UnityEngine.AnimationClip _animationClip
     // Offset: 0x20
     UnityEngine::AnimationClip* animationClip;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Update()
     // Offset: 0xB9D040
     void Update();

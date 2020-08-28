@@ -31,6 +31,10 @@ namespace System::ComponentModel {
     // private readonly System.Int32 nativeErrorCode
     // Offset: 0x88
     int nativeErrorCode;
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return nativeErrorCode;
+    }
     // Get static field: static private System.Boolean s_ErrorMessagesInitialized
     static bool _get_s_ErrorMessagesInitialized();
     // Set static field: static private System.Boolean s_ErrorMessagesInitialized

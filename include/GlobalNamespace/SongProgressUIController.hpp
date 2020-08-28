@@ -67,6 +67,8 @@ namespace GlobalNamespace {
     // private System.Text.StringBuilder _stringBuilder
     // Offset: 0x58
     System::Text::StringBuilder* stringBuilder;
+    // Deleting conversion operator: operator System::IntPtr
+    constexpr operator System::IntPtr() const = delete;
     // protected System.Void Start()
     // Offset: 0xB9CD5C
     void Start();

@@ -16,6 +16,10 @@ namespace GlobalNamespace {
     // public readonly System.Boolean autoRestart
     // Offset: 0x10
     bool autoRestart;
+    // Creating conversion operator: operator bool
+    constexpr operator bool() const {
+      return autoRestart;
+    }
     // public System.Void .ctor(System.Boolean autoRestart)
     // Offset: 0xC04660
     static MissionLevelFailedController::InitData* New_ctor(bool autoRestart);

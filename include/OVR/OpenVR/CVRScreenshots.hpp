@@ -37,6 +37,10 @@ namespace OVR::OpenVR {
     // private OVR.OpenVR.IVRScreenshots FnTable
     // Offset: 0x10
     OVR::OpenVR::IVRScreenshots FnTable;
+    // Creating conversion operator: operator OVR::OpenVR::IVRScreenshots
+    constexpr operator OVR::OpenVR::IVRScreenshots() const {
+      return FnTable;
+    }
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0xED1280
     static CVRScreenshots* New_ctor(System::IntPtr pInterface);

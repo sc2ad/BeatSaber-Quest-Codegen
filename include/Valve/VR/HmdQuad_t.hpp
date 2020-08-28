@@ -27,7 +27,7 @@ namespace Valve::VR {
     // Offset: 0x24
     Valve::VR::HmdVector3_t vCorners3;
     // Creating value type constructor for type: HmdQuad_t
-    HmdQuad_t(Valve::VR::HmdVector3_t vCorners0_ = {}, Valve::VR::HmdVector3_t vCorners1_ = {}, Valve::VR::HmdVector3_t vCorners2_ = {}, Valve::VR::HmdVector3_t vCorners3_ = {}) : vCorners0{vCorners0_}, vCorners1{vCorners1_}, vCorners2{vCorners2_}, vCorners3{vCorners3_} {}
+    constexpr HmdQuad_t(Valve::VR::HmdVector3_t vCorners0_ = {}, Valve::VR::HmdVector3_t vCorners1_ = {}, Valve::VR::HmdVector3_t vCorners2_ = {}, Valve::VR::HmdVector3_t vCorners3_ = {}) : vCorners0{vCorners0_}, vCorners1{vCorners1_}, vCorners2{vCorners2_}, vCorners3{vCorners3_} {}
   }; // Valve.VR.HmdQuad_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

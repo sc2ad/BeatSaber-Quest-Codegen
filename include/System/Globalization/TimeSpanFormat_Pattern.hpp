@@ -18,6 +18,12 @@ namespace System::Globalization {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: Pattern
+    constexpr Pattern(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public System.Globalization.TimeSpanFormat/Pattern None
     static constexpr const int None = 0;
     // Get static field: static public System.Globalization.TimeSpanFormat/Pattern None
@@ -36,8 +42,6 @@ namespace System::Globalization {
     static System::Globalization::TimeSpanFormat::Pattern _get_Full();
     // Set static field: static public System.Globalization.TimeSpanFormat/Pattern Full
     static void _set_Full(System::Globalization::TimeSpanFormat::Pattern value);
-    // Creating value type constructor for type: Pattern
-    Pattern(int value_ = {}) : value{value_} {}
   }; // System.Globalization.TimeSpanFormat/Pattern
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

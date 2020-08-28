@@ -30,7 +30,7 @@ namespace System::Threading {
     // Offset: 0x0
     int m_index;
     // Creating value type constructor for type: SparselyPopulatedArrayAddInfo_1
-    SparselyPopulatedArrayAddInfo_1(System::Threading::SparselyPopulatedArrayFragment_1<T>* m_source_ = {}, int m_index_ = {}) : m_source{m_source_}, m_index{m_index_} {}
+    constexpr SparselyPopulatedArrayAddInfo_1(System::Threading::SparselyPopulatedArrayFragment_1<T>* m_source_ = {}, int m_index_ = {}) : m_source{m_source_}, m_index{m_index_} {}
     // System.Void .ctor(System.Threading.SparselyPopulatedArrayFragment`1<T> source, System.Int32 index)
     // Offset: 0xFFFFFFFF
     static SparselyPopulatedArrayAddInfo_1<T>* New_ctor(System::Threading::SparselyPopulatedArrayFragment_1<T>* source, int index) {

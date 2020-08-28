@@ -16,6 +16,12 @@ namespace UnityEngine {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: PointerType
+    constexpr PointerType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public UnityEngine.PointerType Mouse
     static constexpr const int Mouse = 0;
     // Get static field: static public UnityEngine.PointerType Mouse
@@ -34,8 +40,6 @@ namespace UnityEngine {
     static UnityEngine::PointerType _get_Pen();
     // Set static field: static public UnityEngine.PointerType Pen
     static void _set_Pen(UnityEngine::PointerType value);
-    // Creating value type constructor for type: PointerType
-    PointerType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.PointerType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,6 +16,12 @@ namespace OVR::OpenVR {
     // public System.Int32 value__
     // Offset: 0x0
     int value;
+    // Creating value type constructor for type: EVROverlayIntersectionMaskPrimitiveType
+    constexpr EVROverlayIntersectionMaskPrimitiveType(int value_ = {}) : value{value_} {}
+    // Creating conversion operator: operator int
+    constexpr operator int() const {
+      return value;
+    }
     // static field const value: static public OVR.OpenVR.EVROverlayIntersectionMaskPrimitiveType OverlayIntersectionPrimitiveType_Rectangle
     static constexpr const int OverlayIntersectionPrimitiveType_Rectangle = 0;
     // Get static field: static public OVR.OpenVR.EVROverlayIntersectionMaskPrimitiveType OverlayIntersectionPrimitiveType_Rectangle
@@ -28,8 +34,6 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType _get_OverlayIntersectionPrimitiveType_Circle();
     // Set static field: static public OVR.OpenVR.EVROverlayIntersectionMaskPrimitiveType OverlayIntersectionPrimitiveType_Circle
     static void _set_OverlayIntersectionPrimitiveType_Circle(OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType value);
-    // Creating value type constructor for type: EVROverlayIntersectionMaskPrimitiveType
-    EVROverlayIntersectionMaskPrimitiveType(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EVROverlayIntersectionMaskPrimitiveType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

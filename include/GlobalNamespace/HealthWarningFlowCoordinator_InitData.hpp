@@ -23,6 +23,10 @@ namespace GlobalNamespace {
     // public readonly ScenesTransitionSetupDataSO nextScenesTransitionSetupData
     // Offset: 0x10
     GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData;
+    // Creating conversion operator: operator GlobalNamespace::ScenesTransitionSetupDataSO*
+    constexpr operator GlobalNamespace::ScenesTransitionSetupDataSO*() const {
+      return nextScenesTransitionSetupData;
+    }
     // public System.Void .ctor(ScenesTransitionSetupDataSO nextScenesTransitionSetupData)
     // Offset: 0xB44578
     static HealthWarningFlowCoordinator::InitData* New_ctor(GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);

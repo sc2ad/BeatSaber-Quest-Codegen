@@ -58,6 +58,10 @@ namespace Zenject {
       // public System.Type concreteType
       // Offset: 0x0
       System::Type* concreteType;
+      // Creating conversion operator: operator System::Type*
+      constexpr operator System::Type*() const {
+        return concreteType;
+      }
       // System.Boolean <To>b__1(System.Type contractType)
       // Offset: 0xFFFFFFFF
       bool $To$b__1(System::Type* contractType) {

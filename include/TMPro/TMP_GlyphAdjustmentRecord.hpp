@@ -28,7 +28,7 @@ namespace TMPro {
     // Offset: 0x4
     TMPro::TMP_GlyphValueRecord m_GlyphValueRecord;
     // Creating value type constructor for type: TMP_GlyphAdjustmentRecord
-    TMP_GlyphAdjustmentRecord(uint m_GlyphIndex_ = {}, TMPro::TMP_GlyphValueRecord m_GlyphValueRecord_ = {}) : m_GlyphIndex{m_GlyphIndex_}, m_GlyphValueRecord{m_GlyphValueRecord_} {}
+    constexpr TMP_GlyphAdjustmentRecord(uint m_GlyphIndex_ = {}, TMPro::TMP_GlyphValueRecord m_GlyphValueRecord_ = {}) : m_GlyphIndex{m_GlyphIndex_}, m_GlyphValueRecord{m_GlyphValueRecord_} {}
     // public System.UInt32 get_glyphIndex()
     // Offset: 0xA2BA1C
     uint get_glyphIndex();

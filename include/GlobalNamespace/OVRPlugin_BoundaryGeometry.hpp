@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     int PointsCount;
     // Creating value type constructor for type: BoundaryGeometry
-    BoundaryGeometry(GlobalNamespace::OVRPlugin::BoundaryType BoundaryType_ = {}, ::Array<GlobalNamespace::OVRPlugin::Vector3f>* Points_ = {}, int PointsCount_ = {}) : BoundaryType{BoundaryType_}, Points{Points_}, PointsCount{PointsCount_} {}
+    constexpr BoundaryGeometry(GlobalNamespace::OVRPlugin::BoundaryType BoundaryType_ = {}, ::Array<GlobalNamespace::OVRPlugin::Vector3f>* Points_ = {}, int PointsCount_ = {}) : BoundaryType{BoundaryType_}, Points{Points_}, PointsCount{PointsCount_} {}
   }; // OVRPlugin/BoundaryGeometry
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
