@@ -19,8 +19,6 @@
 #include "System/DateTime.hpp"
 // Including type: System.DayOfWeek
 #include "System/DayOfWeek.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -117,9 +115,8 @@ namespace System {
   }; // System.TimeZoneInfo/TransitionTime
   // static public System.Boolean op_Inequality(System.TimeZoneInfo/TransitionTime t1, System.TimeZoneInfo/TransitionTime t2)
   // Offset: 0x1795428
-  inline bool operator !=(const System::TimeZoneInfo::TransitionTime& t1, const System::TimeZoneInfo::TransitionTime& t2) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "TimeZoneInfo/TransitionTime", "op_Inequality", t1, t2));
-  }
+  bool operator !=(const System::TimeZoneInfo::TransitionTime& t1, const System::TimeZoneInfo::TransitionTime& t2);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::TransitionTime, "System", "TimeZoneInfo/TransitionTime");
 #pragma pack(pop)

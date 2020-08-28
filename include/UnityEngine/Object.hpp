@@ -226,14 +226,10 @@ namespace UnityEngine {
   }; // UnityEngine.Object
   // static public System.Boolean op_Equality(UnityEngine.Object x, UnityEngine.Object y)
   // Offset: 0x14169AC
-  inline bool operator ==(UnityEngine::Object* x, UnityEngine::Object& y) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine", "Object", "op_Equality", x, &y));
-  }
+  bool operator ==(UnityEngine::Object* x, UnityEngine::Object& y);
   // static public System.Boolean op_Inequality(UnityEngine.Object x, UnityEngine.Object y)
   // Offset: 0x14199D0
-  inline bool operator !=(UnityEngine::Object* x, UnityEngine::Object& y) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine", "Object", "op_Inequality", x, &y));
-  }
+  bool operator !=(UnityEngine::Object* x, UnityEngine::Object& y);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Object*, "UnityEngine", "Object");
 #pragma pack(pop)

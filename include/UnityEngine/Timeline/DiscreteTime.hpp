@@ -11,8 +11,6 @@
 #include "System/IComparable.hpp"
 // Including type: System.Double
 #include "System/Double.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
@@ -133,44 +131,29 @@ namespace UnityEngine::Timeline {
   }; // UnityEngine.Timeline.DiscreteTime
   // static public System.Boolean op_Equality(UnityEngine.Timeline.DiscreteTime lhs, UnityEngine.Timeline.DiscreteTime rhs)
   // Offset: 0x109ABBC
-  inline bool operator ==(const UnityEngine::Timeline::DiscreteTime& lhs, const UnityEngine::Timeline::DiscreteTime& rhs) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine.Timeline", "DiscreteTime", "op_Equality", lhs, rhs));
-  }
+  bool operator ==(const UnityEngine::Timeline::DiscreteTime& lhs, const UnityEngine::Timeline::DiscreteTime& rhs);
   // static public System.Boolean op_Inequality(UnityEngine.Timeline.DiscreteTime lhs, UnityEngine.Timeline.DiscreteTime rhs)
   // Offset: 0x109ABC8
-  inline bool operator !=(const UnityEngine::Timeline::DiscreteTime& lhs, const UnityEngine::Timeline::DiscreteTime& rhs) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine.Timeline", "DiscreteTime", "op_Inequality", lhs, rhs));
-  }
+  bool operator !=(const UnityEngine::Timeline::DiscreteTime& lhs, const UnityEngine::Timeline::DiscreteTime& rhs);
   // static public System.Boolean op_GreaterThan(UnityEngine.Timeline.DiscreteTime lhs, UnityEngine.Timeline.DiscreteTime rhs)
   // Offset: 0x109AC3C
-  inline bool operator >(const UnityEngine::Timeline::DiscreteTime& lhs, const UnityEngine::Timeline::DiscreteTime& rhs) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine.Timeline", "DiscreteTime", "op_GreaterThan", lhs, rhs));
-  }
+  bool operator >(const UnityEngine::Timeline::DiscreteTime& lhs, const UnityEngine::Timeline::DiscreteTime& rhs);
   // static public System.Boolean op_LessThan(UnityEngine.Timeline.DiscreteTime lhs, UnityEngine.Timeline.DiscreteTime rhs)
   // Offset: 0x109AC48
-  inline bool operator <(const UnityEngine::Timeline::DiscreteTime& lhs, const UnityEngine::Timeline::DiscreteTime& rhs) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine.Timeline", "DiscreteTime", "op_LessThan", lhs, rhs));
-  }
+  bool operator <(const UnityEngine::Timeline::DiscreteTime& lhs, const UnityEngine::Timeline::DiscreteTime& rhs);
   // static public System.Boolean op_LessThanOrEqual(UnityEngine.Timeline.DiscreteTime lhs, UnityEngine.Timeline.DiscreteTime rhs)
   // Offset: 0x109AC54
-  inline bool operator <=(const UnityEngine::Timeline::DiscreteTime& lhs, const UnityEngine::Timeline::DiscreteTime& rhs) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine.Timeline", "DiscreteTime", "op_LessThanOrEqual", lhs, rhs));
-  }
+  bool operator <=(const UnityEngine::Timeline::DiscreteTime& lhs, const UnityEngine::Timeline::DiscreteTime& rhs);
   // static public System.Boolean op_GreaterThanOrEqual(UnityEngine.Timeline.DiscreteTime lhs, UnityEngine.Timeline.DiscreteTime rhs)
   // Offset: 0x109AC60
-  inline bool operator >=(const UnityEngine::Timeline::DiscreteTime& lhs, const UnityEngine::Timeline::DiscreteTime& rhs) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine.Timeline", "DiscreteTime", "op_GreaterThanOrEqual", lhs, rhs));
-  }
+  bool operator >=(const UnityEngine::Timeline::DiscreteTime& lhs, const UnityEngine::Timeline::DiscreteTime& rhs);
   // static public UnityEngine.Timeline.DiscreteTime op_Addition(UnityEngine.Timeline.DiscreteTime lhs, UnityEngine.Timeline.DiscreteTime rhs)
   // Offset: 0x109AC6C
-  inline UnityEngine::Timeline::DiscreteTime operator+(const UnityEngine::Timeline::DiscreteTime& lhs, const UnityEngine::Timeline::DiscreteTime& rhs) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Timeline::DiscreteTime>("UnityEngine.Timeline", "DiscreteTime", "op_Addition", lhs, rhs));
-  }
+  UnityEngine::Timeline::DiscreteTime operator+(const UnityEngine::Timeline::DiscreteTime& lhs, const UnityEngine::Timeline::DiscreteTime& rhs);
   // static public UnityEngine.Timeline.DiscreteTime op_Subtraction(UnityEngine.Timeline.DiscreteTime lhs, UnityEngine.Timeline.DiscreteTime rhs)
   // Offset: 0x109AC74
-  inline UnityEngine::Timeline::DiscreteTime operator-(const UnityEngine::Timeline::DiscreteTime& lhs, const UnityEngine::Timeline::DiscreteTime& rhs) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Timeline::DiscreteTime>("UnityEngine.Timeline", "DiscreteTime", "op_Subtraction", lhs, rhs));
-  }
+  UnityEngine::Timeline::DiscreteTime operator-(const UnityEngine::Timeline::DiscreteTime& lhs, const UnityEngine::Timeline::DiscreteTime& rhs);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::DiscreteTime, "UnityEngine.Timeline", "DiscreteTime");
 #pragma pack(pop)

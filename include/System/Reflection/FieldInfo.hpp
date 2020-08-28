@@ -9,8 +9,6 @@
 #include "System/Reflection/MemberInfo.hpp"
 // Including type: System.Runtime.InteropServices._FieldInfo
 #include "System/Runtime/InteropServices/_FieldInfo.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -134,14 +132,11 @@ namespace System::Reflection {
   }; // System.Reflection.FieldInfo
   // static public System.Boolean op_Equality(System.Reflection.FieldInfo left, System.Reflection.FieldInfo right)
   // Offset: 0x136F730
-  inline bool operator ==(System::Reflection::FieldInfo* left, System::Reflection::FieldInfo& right) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Reflection", "FieldInfo", "op_Equality", left, &right));
-  }
+  bool operator ==(System::Reflection::FieldInfo* left, System::Reflection::FieldInfo& right);
   // static public System.Boolean op_Inequality(System.Reflection.FieldInfo left, System.Reflection.FieldInfo right)
   // Offset: 0x136FB14
-  inline bool operator !=(System::Reflection::FieldInfo* left, System::Reflection::FieldInfo& right) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Reflection", "FieldInfo", "op_Inequality", left, &right));
-  }
+  bool operator !=(System::Reflection::FieldInfo* left, System::Reflection::FieldInfo& right);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::FieldInfo*, "System.Reflection", "FieldInfo");
 #pragma pack(pop)

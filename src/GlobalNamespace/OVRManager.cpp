@@ -33,6 +33,8 @@
 #include "System/Func_2.hpp"
 // Including type: UnityEngine.GameObject
 #include "UnityEngine/GameObject.hpp"
+// Including type: UnityEngine.Vector4
+#include "UnityEngine/Vector4.hpp"
 // Including type: OVRPose
 #include "GlobalNamespace/OVRPose.hpp"
 // Including type: UnityEngine.XR.XRNode

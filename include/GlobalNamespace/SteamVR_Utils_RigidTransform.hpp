@@ -13,8 +13,6 @@
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
 #include "UnityEngine/Quaternion.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -104,24 +102,17 @@ namespace GlobalNamespace {
   }; // SteamVR_Utils/RigidTransform
   // static public System.Boolean op_Equality(SteamVR_Utils/RigidTransform a, SteamVR_Utils/RigidTransform b)
   // Offset: 0xFDB2BC
-  inline bool operator ==(const GlobalNamespace::SteamVR_Utils::RigidTransform& a, const GlobalNamespace::SteamVR_Utils::RigidTransform& b) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("", "SteamVR_Utils/RigidTransform", "op_Equality", a, b));
-  }
+  bool operator ==(const GlobalNamespace::SteamVR_Utils::RigidTransform& a, const GlobalNamespace::SteamVR_Utils::RigidTransform& b);
   // static public System.Boolean op_Inequality(SteamVR_Utils/RigidTransform a, SteamVR_Utils/RigidTransform b)
   // Offset: 0xFDB3F4
-  inline bool operator !=(const GlobalNamespace::SteamVR_Utils::RigidTransform& a, const GlobalNamespace::SteamVR_Utils::RigidTransform& b) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("", "SteamVR_Utils/RigidTransform", "op_Inequality", a, b));
-  }
+  bool operator !=(const GlobalNamespace::SteamVR_Utils::RigidTransform& a, const GlobalNamespace::SteamVR_Utils::RigidTransform& b);
   // static public SteamVR_Utils/RigidTransform op_Multiply(SteamVR_Utils/RigidTransform a, SteamVR_Utils/RigidTransform b)
   // Offset: 0xFDB52C
-  inline GlobalNamespace::SteamVR_Utils::RigidTransform operator*(const GlobalNamespace::SteamVR_Utils::RigidTransform& a, const GlobalNamespace::SteamVR_Utils::RigidTransform& b) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<GlobalNamespace::SteamVR_Utils::RigidTransform>("", "SteamVR_Utils/RigidTransform", "op_Multiply", a, b));
-  }
+  GlobalNamespace::SteamVR_Utils::RigidTransform operator*(const GlobalNamespace::SteamVR_Utils::RigidTransform& a, const GlobalNamespace::SteamVR_Utils::RigidTransform& b);
   // static public UnityEngine.Vector3 op_Multiply(SteamVR_Utils/RigidTransform t, UnityEngine.Vector3 v)
   // Offset: 0xFDBB50
-  inline UnityEngine::Vector3 operator*(const GlobalNamespace::SteamVR_Utils::RigidTransform& t, const UnityEngine::Vector3& v) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector3>("", "SteamVR_Utils/RigidTransform", "op_Multiply", t, v));
-  }
+  UnityEngine::Vector3 operator*(const GlobalNamespace::SteamVR_Utils::RigidTransform& t, const UnityEngine::Vector3& v);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Utils::RigidTransform, "", "SteamVR_Utils/RigidTransform");
 #pragma pack(pop)

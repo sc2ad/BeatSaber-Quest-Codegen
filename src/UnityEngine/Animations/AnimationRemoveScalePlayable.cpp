@@ -6,6 +6,8 @@
 #include "UnityEngine/Animations/AnimationRemoveScalePlayable.hpp"
 // Including type: UnityEngine.Playables.PlayableGraph
 #include "UnityEngine/Playables/PlayableGraph.hpp"
+// Including type: UnityEngine.Playables.Playable
+#include "UnityEngine/Playables/Playable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

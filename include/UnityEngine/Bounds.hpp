@@ -11,8 +11,6 @@
 #include "System/IEquatable_1.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -105,14 +103,11 @@ namespace UnityEngine {
   }; // UnityEngine.Bounds
   // static public System.Boolean op_Equality(UnityEngine.Bounds lhs, UnityEngine.Bounds rhs)
   // Offset: 0x130748C
-  inline bool operator ==(const UnityEngine::Bounds& lhs, const UnityEngine::Bounds& rhs) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine", "Bounds", "op_Equality", lhs, rhs));
-  }
+  bool operator ==(const UnityEngine::Bounds& lhs, const UnityEngine::Bounds& rhs);
   // static public System.Boolean op_Inequality(UnityEngine.Bounds lhs, UnityEngine.Bounds rhs)
   // Offset: 0x13075A8
-  inline bool operator !=(const UnityEngine::Bounds& lhs, const UnityEngine::Bounds& rhs) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine", "Bounds", "op_Inequality", lhs, rhs));
-  }
+  bool operator !=(const UnityEngine::Bounds& lhs, const UnityEngine::Bounds& rhs);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bounds, "UnityEngine", "Bounds");
 #pragma pack(pop)

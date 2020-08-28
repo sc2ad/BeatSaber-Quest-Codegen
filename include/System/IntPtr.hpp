@@ -9,8 +9,6 @@
 #include "System/ValueType.hpp"
 // Including type: System.Runtime.Serialization.ISerializable
 #include "System/Runtime/Serialization/ISerializable.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -93,14 +91,11 @@ namespace System {
   }; // System.IntPtr
   // static public System.Boolean op_Equality(System.IntPtr value1, System.IntPtr value2)
   // Offset: 0x1015FB0
-  inline bool operator ==(const System::IntPtr& value1, const System::IntPtr& value2) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "IntPtr", "op_Equality", value1, value2));
-  }
+  bool operator ==(const System::IntPtr& value1, const System::IntPtr& value2);
   // static public System.Boolean op_Inequality(System.IntPtr value1, System.IntPtr value2)
   // Offset: 0x1015FBC
-  inline bool operator !=(const System::IntPtr& value1, const System::IntPtr& value2) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "IntPtr", "op_Inequality", value1, value2));
-  }
+  bool operator !=(const System::IntPtr& value1, const System::IntPtr& value2);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IntPtr, "System", "IntPtr");
 #pragma pack(pop)

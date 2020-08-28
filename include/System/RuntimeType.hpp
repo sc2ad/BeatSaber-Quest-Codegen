@@ -9,8 +9,6 @@
 #include "System/Reflection/TypeInfo.hpp"
 // Including type: System.ICloneable
 #include "System/ICloneable.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -767,14 +765,11 @@ namespace System {
   }; // System.RuntimeType
   // static public System.Boolean op_Equality(System.RuntimeType left, System.RuntimeType right)
   // Offset: 0xDDB6BC
-  inline bool operator ==(System::RuntimeType* left, System::RuntimeType& right) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "RuntimeType", "op_Equality", left, &right));
-  }
+  bool operator ==(System::RuntimeType* left, System::RuntimeType& right);
   // static public System.Boolean op_Inequality(System.RuntimeType left, System.RuntimeType right)
   // Offset: 0xDDCC74
-  inline bool operator !=(System::RuntimeType* left, System::RuntimeType& right) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "RuntimeType", "op_Inequality", left, &right));
-  }
+  bool operator !=(System::RuntimeType* left, System::RuntimeType& right);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::RuntimeType*, "System", "RuntimeType");
 #pragma pack(pop)

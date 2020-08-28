@@ -9,8 +9,6 @@
 #include "System/Reflection/ICustomAttributeProvider.hpp"
 // Including type: System.Runtime.InteropServices._MemberInfo
 #include "System/Runtime/InteropServices/_MemberInfo.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -91,14 +89,11 @@ namespace System::Reflection {
   }; // System.Reflection.MemberInfo
   // static public System.Boolean op_Equality(System.Reflection.MemberInfo left, System.Reflection.MemberInfo right)
   // Offset: 0x136B874
-  inline bool operator ==(System::Reflection::MemberInfo* left, System::Reflection::MemberInfo& right) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Reflection", "MemberInfo", "op_Equality", left, &right));
-  }
+  bool operator ==(System::Reflection::MemberInfo* left, System::Reflection::MemberInfo& right);
   // static public System.Boolean op_Inequality(System.Reflection.MemberInfo left, System.Reflection.MemberInfo right)
   // Offset: 0x13704B4
-  inline bool operator !=(System::Reflection::MemberInfo* left, System::Reflection::MemberInfo& right) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Reflection", "MemberInfo", "op_Inequality", left, &right));
-  }
+  bool operator !=(System::Reflection::MemberInfo* left, System::Reflection::MemberInfo& right);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MemberInfo*, "System.Reflection", "MemberInfo");
 #pragma pack(pop)

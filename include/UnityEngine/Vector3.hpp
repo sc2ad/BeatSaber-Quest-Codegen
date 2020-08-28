@@ -11,8 +11,6 @@
 #include "System/IEquatable_1.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -231,44 +229,29 @@ namespace UnityEngine {
   }; // UnityEngine.Vector3
   // static public UnityEngine.Vector3 op_Addition(UnityEngine.Vector3 a, UnityEngine.Vector3 b)
   // Offset: 0x1399004
-  inline UnityEngine::Vector3 operator+(const UnityEngine::Vector3& a, const UnityEngine::Vector3& b) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector3>("UnityEngine", "Vector3", "op_Addition", a, b));
-  }
+  UnityEngine::Vector3 operator+(const UnityEngine::Vector3& a, const UnityEngine::Vector3& b);
   // static public UnityEngine.Vector3 op_Subtraction(UnityEngine.Vector3 a, UnityEngine.Vector3 b)
   // Offset: 0x139DD4C
-  inline UnityEngine::Vector3 operator-(const UnityEngine::Vector3& a, const UnityEngine::Vector3& b) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector3>("UnityEngine", "Vector3", "op_Subtraction", a, b));
-  }
+  UnityEngine::Vector3 operator-(const UnityEngine::Vector3& a, const UnityEngine::Vector3& b);
   // static public UnityEngine.Vector3 op_UnaryNegation(UnityEngine.Vector3 a)
   // Offset: 0x139DD5C
-  inline UnityEngine::Vector3 operator-(const UnityEngine::Vector3& a) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector3>("UnityEngine", "Vector3", "op_UnaryNegation", a));
-  }
+  UnityEngine::Vector3 operator-(const UnityEngine::Vector3& a);
   // static public UnityEngine.Vector3 op_Multiply(UnityEngine.Vector3 a, System.Single d)
   // Offset: 0x139DD6C
-  inline UnityEngine::Vector3 operator*(const UnityEngine::Vector3& a, const float& d) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector3>("UnityEngine", "Vector3", "op_Multiply", a, d));
-  }
+  UnityEngine::Vector3 operator*(const UnityEngine::Vector3& a, const float& d);
   // static public UnityEngine.Vector3 op_Multiply(System.Single d, UnityEngine.Vector3 a)
   // Offset: 0x139DD7C
-  inline UnityEngine::Vector3 operator*(const float& d, const UnityEngine::Vector3& a) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector3>("UnityEngine", "Vector3", "op_Multiply", d, a));
-  }
+  UnityEngine::Vector3 operator*(const float& d, const UnityEngine::Vector3& a);
   // static public UnityEngine.Vector3 op_Division(UnityEngine.Vector3 a, System.Single d)
   // Offset: 0x139D234
-  inline UnityEngine::Vector3 operator/(const UnityEngine::Vector3& a, const float& d) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector3>("UnityEngine", "Vector3", "op_Division", a, d));
-  }
+  UnityEngine::Vector3 operator/(const UnityEngine::Vector3& a, const float& d);
   // static public System.Boolean op_Equality(UnityEngine.Vector3 lhs, UnityEngine.Vector3 rhs)
   // Offset: 0x139DD90
-  inline bool operator ==(const UnityEngine::Vector3& lhs, const UnityEngine::Vector3& rhs) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine", "Vector3", "op_Equality", lhs, rhs));
-  }
+  bool operator ==(const UnityEngine::Vector3& lhs, const UnityEngine::Vector3& rhs);
   // static public System.Boolean op_Inequality(UnityEngine.Vector3 lhs, UnityEngine.Vector3 rhs)
   // Offset: 0x139DDC4
-  inline bool operator !=(const UnityEngine::Vector3& lhs, const UnityEngine::Vector3& rhs) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine", "Vector3", "op_Inequality", lhs, rhs));
-  }
+  bool operator !=(const UnityEngine::Vector3& lhs, const UnityEngine::Vector3& rhs);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector3, "UnityEngine", "Vector3");
 #pragma pack(pop)

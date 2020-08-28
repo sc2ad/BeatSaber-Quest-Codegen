@@ -6,8 +6,6 @@
 // Begin includes
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading
@@ -97,14 +95,11 @@ namespace System::Threading {
   }; // System.Threading.CancellationToken
   // static public System.Boolean op_Equality(System.Threading.CancellationToken left, System.Threading.CancellationToken right)
   // Offset: 0x13DB014
-  inline bool operator ==(const System::Threading::CancellationToken& left, const System::Threading::CancellationToken& right) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Threading", "CancellationToken", "op_Equality", left, right));
-  }
+  bool operator ==(const System::Threading::CancellationToken& left, const System::Threading::CancellationToken& right);
   // static public System.Boolean op_Inequality(System.Threading.CancellationToken left, System.Threading.CancellationToken right)
   // Offset: 0x13DB03C
-  inline bool operator !=(const System::Threading::CancellationToken& left, const System::Threading::CancellationToken& right) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Threading", "CancellationToken", "op_Inequality", left, right));
-  }
+  bool operator !=(const System::Threading::CancellationToken& left, const System::Threading::CancellationToken& right);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationToken, "System.Threading", "CancellationToken");
 #pragma pack(pop)

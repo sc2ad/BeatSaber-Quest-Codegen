@@ -15,6 +15,8 @@
 #include "UnityEngine/Vector4.hpp"
 // Including type: UnityEngine.Color32
 #include "UnityEngine/Color32.hpp"
+// Including type: UnityEngine.Vector2
+#include "UnityEngine/Vector2.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -34,7 +36,8 @@ namespace UnityEngine {
   struct Matrix4x4;
   // Forward declaring type: Bounds
   struct Bounds;
-  // Skipping declaration: Color because it is already included!
+  // Forward declaring type: Color
+  struct Color;
 }
 // Forward declaring namespace: System
 namespace System {

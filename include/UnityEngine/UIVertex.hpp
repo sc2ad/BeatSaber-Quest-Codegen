@@ -13,6 +13,8 @@
 #include "UnityEngine/Vector4.hpp"
 // Including type: UnityEngine.Color32
 #include "UnityEngine/Color32.hpp"
+// Including type: UnityEngine.Vector2
+#include "UnityEngine/Vector2.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {

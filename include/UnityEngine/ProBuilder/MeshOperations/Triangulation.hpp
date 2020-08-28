@@ -39,7 +39,8 @@ namespace UnityEngine::ProBuilder {
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Skipping declaration: Vector3 because it is already included!
+  // Forward declaring type: Vector3
+  struct Vector3;
 }
 // Completed forward declares
 // Type namespace: UnityEngine.ProBuilder.MeshOperations

@@ -21,21 +21,21 @@
 #include "System/IEquatable_1.hpp"
 // Including type: System.DateTime
 #include "System/DateTime.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
+// Forward declaring namespace: System
+namespace System {
+  // Forward declaring type: TimeSpan
+  struct TimeSpan;
+  // Forward declaring type: IFormatProvider
+  class IFormatProvider;
+}
 // Forward declaring namespace: System::Runtime::Serialization
 namespace System::Runtime::Serialization {
   // Forward declaring type: SerializationInfo
   class SerializationInfo;
   // Forward declaring type: StreamingContext
   struct StreamingContext;
-}
-// Forward declaring namespace: System
-namespace System {
-  // Forward declaring type: IFormatProvider
-  class IFormatProvider;
 }
 // Completed forward declares
 // Type namespace: System
@@ -134,14 +134,11 @@ namespace System {
   }; // System.DateTimeOffset
   // static public System.TimeSpan op_Subtraction(System.DateTimeOffset left, System.DateTimeOffset right)
   // Offset: 0x10D6BDC
-  inline System::TimeSpan operator-(const System::DateTimeOffset& left, const System::DateTimeOffset& right) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<System::TimeSpan>("System", "DateTimeOffset", "op_Subtraction", left, right));
-  }
+  System::TimeSpan operator-(const System::DateTimeOffset& left, const System::DateTimeOffset& right);
   // static public System.Boolean op_Equality(System.DateTimeOffset left, System.DateTimeOffset right)
   // Offset: 0x10D6C70
-  inline bool operator ==(const System::DateTimeOffset& left, const System::DateTimeOffset& right) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "DateTimeOffset", "op_Equality", left, right));
-  }
+  bool operator ==(const System::DateTimeOffset& left, const System::DateTimeOffset& right);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeOffset, "System", "DateTimeOffset");
 #pragma pack(pop)

@@ -15,8 +15,6 @@
 #include "System/IntPtr.hpp"
 // Including type: System.Reflection.BindingFlags
 #include "System/Reflection/BindingFlags.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -154,9 +152,8 @@ namespace System::Reflection {
   }; // System.Reflection.Module
   // static public System.Boolean op_Equality(System.Reflection.Module left, System.Reflection.Module right)
   // Offset: 0x11514FC
-  inline bool operator ==(System::Reflection::Module* left, System::Reflection::Module& right) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Reflection", "Module", "op_Equality", left, &right));
-  }
+  bool operator ==(System::Reflection::Module* left, System::Reflection::Module& right);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Module*, "System.Reflection", "Module");
 #pragma pack(pop)

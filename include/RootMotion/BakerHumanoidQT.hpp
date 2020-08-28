@@ -19,7 +19,8 @@ namespace UnityEngine {
   class AnimationCurve;
   // Forward declaring type: Avatar
   class Avatar;
-  // Skipping declaration: Vector3 because it is already included!
+  // Forward declaring type: Vector3
+  struct Vector3;
   // Forward declaring type: AnimationClip
   class AnimationClip;
 }

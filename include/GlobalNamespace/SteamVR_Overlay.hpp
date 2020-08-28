@@ -9,6 +9,8 @@
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Vector4
 #include "UnityEngine/Vector4.hpp"
+// Including type: UnityEngine.Vector2
+#include "UnityEngine/Vector2.hpp"
 // Including type: Valve.VR.VROverlayInputMethod
 #include "Valve/VR/VROverlayInputMethod.hpp"
 // Completed includes

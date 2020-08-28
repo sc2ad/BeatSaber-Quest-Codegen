@@ -27,6 +27,8 @@
 #include "System/Tuple_2.hpp"
 // Including type: System.Action`2
 #include "System/Action_2.hpp"
+// Including type: System.IntPtr
+#include "System/IntPtr.hpp"
 // Including type: Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/EtwEnableCallback
 #include "Microsoft/Win32/UnsafeNativeMethods_ManifestEtw_EtwEnableCallback.hpp"
 // Including type: Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/EVENT_INFO_CLASS

@@ -57,7 +57,8 @@ namespace UnityEngine {
   // Skipping declaration: Vector3 because it is already included!
   // Forward declaring type: RectTransform
   class RectTransform;
-  // Skipping declaration: Vector2 because it is already included!
+  // Forward declaring type: Vector2
+  struct Vector2;
   // Skipping declaration: Color because it is already included!
   // Forward declaring type: Sprite
   class Sprite;

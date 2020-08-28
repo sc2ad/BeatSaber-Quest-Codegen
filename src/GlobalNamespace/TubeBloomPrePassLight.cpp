@@ -13,6 +13,8 @@
 #include "GlobalNamespace/Parametric3SliceSpriteController.hpp"
 // Including type: UnityEngine.Transform
 #include "UnityEngine/Transform.hpp"
+// Including type: UnityEngine.Vector4
+#include "UnityEngine/Vector4.hpp"
 // Including type: UnityEngine.Matrix4x4
 #include "UnityEngine/Matrix4x4.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

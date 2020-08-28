@@ -7,6 +7,8 @@
 #include "UnityEngine/ProBuilder/Bounds2D.hpp"
 // Including type: System.Collections.Generic.IList`1
 #include "System/Collections/Generic/IList_1.hpp"
+// Including type: UnityEngine.Vector3
+#include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.ProBuilder.Edge
 #include "UnityEngine/ProBuilder/Edge.hpp"
 // Including type: UnityEngine.Rect

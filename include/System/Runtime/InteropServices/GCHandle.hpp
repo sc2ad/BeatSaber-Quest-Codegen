@@ -6,12 +6,13 @@
 // Begin includes
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-// Including type: System.IntPtr
-#include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
+// Forward declaring namespace: System
+namespace System {
+  // Forward declaring type: IntPtr
+  struct IntPtr;
+}
 // Forward declaring namespace: System::Runtime::InteropServices
 namespace System::Runtime::InteropServices {
   // Forward declaring type: GCHandleType
@@ -99,9 +100,8 @@ namespace System::Runtime::InteropServices {
   }; // System.Runtime.InteropServices.GCHandle
   // static public System.Boolean op_Equality(System.Runtime.InteropServices.GCHandle a, System.Runtime.InteropServices.GCHandle b)
   // Offset: 0x116851C
-  inline bool operator ==(const System::Runtime::InteropServices::GCHandle& a, const System::Runtime::InteropServices::GCHandle& b) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Runtime.InteropServices", "GCHandle", "op_Equality", a, b));
-  }
+  bool operator ==(const System::Runtime::InteropServices::GCHandle& a, const System::Runtime::InteropServices::GCHandle& b);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::GCHandle, "System.Runtime.InteropServices", "GCHandle");
 #pragma pack(pop)

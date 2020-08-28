@@ -13,8 +13,6 @@
 #include "UnityEngine/ParticleSystemGradientMode.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -53,5 +51,6 @@ namespace UnityEngine {
     UnityEngine::Color get_color();
   }; // UnityEngine.ParticleSystem/MinMaxGradient
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::MinMaxGradient, "UnityEngine", "ParticleSystem/MinMaxGradient");
 #pragma pack(pop)

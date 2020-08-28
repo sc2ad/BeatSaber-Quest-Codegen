@@ -15,6 +15,8 @@
 #include "GlobalNamespace/OVRPlugin_LayerDesc.hpp"
 // Including type: System.Runtime.InteropServices.GCHandle
 #include "System/Runtime/InteropServices/GCHandle.hpp"
+// Including type: UnityEngine.Vector2
+#include "UnityEngine/Vector2.hpp"
 // Including type: OVRManager/XRDevice
 #include "GlobalNamespace/OVRManager.hpp"
 // Including type: System.Int32

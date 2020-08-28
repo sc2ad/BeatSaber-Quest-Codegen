@@ -6,8 +6,6 @@
 // Begin includes
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -76,9 +74,8 @@ namespace TMPro {
   }; // TMPro.TMP_GlyphValueRecord
   // static public TMPro.TMP_GlyphValueRecord op_Addition(TMPro.TMP_GlyphValueRecord a, TMPro.TMP_GlyphValueRecord b)
   // Offset: 0xB615E0
-  inline TMPro::TMP_GlyphValueRecord operator+(const TMPro::TMP_GlyphValueRecord& a, const TMPro::TMP_GlyphValueRecord& b) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<TMPro::TMP_GlyphValueRecord>("TMPro", "TMP_GlyphValueRecord", "op_Addition", a, b));
-  }
+  TMPro::TMP_GlyphValueRecord operator+(const TMPro::TMP_GlyphValueRecord& a, const TMPro::TMP_GlyphValueRecord& b);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_GlyphValueRecord, "TMPro", "TMP_GlyphValueRecord");
 #pragma pack(pop)

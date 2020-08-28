@@ -10,16 +10,14 @@
 #include "UnityEngine/Playables/IPlayableOutput.hpp"
 // Including type: UnityEngine.Playables.PlayableOutputHandle
 #include "UnityEngine/Playables/PlayableOutputHandle.hpp"
-// Including type: UnityEngine.Playables.PlayableOutput
-#include "UnityEngine/Playables/PlayableOutput.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Playables
 namespace UnityEngine::Playables {
   // Forward declaring type: PlayableGraph
   struct PlayableGraph;
+  // Forward declaring type: PlayableOutput
+  struct PlayableOutput;
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
@@ -72,5 +70,6 @@ namespace UnityEngine::Audio {
     UnityEngine::Playables::PlayableOutputHandle GetHandle();
   }; // UnityEngine.Audio.AudioPlayableOutput
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioPlayableOutput, "UnityEngine.Audio", "AudioPlayableOutput");
 #pragma pack(pop)

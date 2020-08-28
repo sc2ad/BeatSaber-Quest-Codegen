@@ -53,7 +53,8 @@ namespace UnityEngine {
   class Camera;
   // Forward declaring type: GameObject
   class GameObject;
-  // Skipping declaration: Vector4 because it is already included!
+  // Forward declaring type: Vector4
+  struct Vector4;
   // Skipping declaration: Quaternion because it is already included!
 }
 // Forward declaring namespace: UnityEngine::XR

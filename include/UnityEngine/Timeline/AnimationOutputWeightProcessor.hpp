@@ -11,6 +11,8 @@
 #include "UnityEngine/Animations/AnimationPlayableOutput.hpp"
 // Including type: UnityEngine.Animations.AnimationMotionXToDeltaPlayable
 #include "UnityEngine/Animations/AnimationMotionXToDeltaPlayable.hpp"
+// Including type: UnityEngine.Playables.Playable
+#include "UnityEngine/Playables/Playable.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic

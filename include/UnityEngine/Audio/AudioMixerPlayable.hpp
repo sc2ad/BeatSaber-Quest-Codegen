@@ -12,16 +12,14 @@
 #include "System/IEquatable_1.hpp"
 // Including type: UnityEngine.Playables.PlayableHandle
 #include "UnityEngine/Playables/PlayableHandle.hpp"
-// Including type: UnityEngine.Playables.Playable
-#include "UnityEngine/Playables/Playable.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Playables
 namespace UnityEngine::Playables {
   // Forward declaring type: PlayableGraph
   struct PlayableGraph;
+  // Forward declaring type: Playable
+  struct Playable;
 }
 // Completed forward declares
 // Type namespace: UnityEngine.Audio
@@ -62,5 +60,6 @@ namespace UnityEngine::Audio {
     bool Equals(UnityEngine::Audio::AudioMixerPlayable other);
   }; // UnityEngine.Audio.AudioMixerPlayable
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioMixerPlayable, "UnityEngine.Audio", "AudioMixerPlayable");
 #pragma pack(pop)

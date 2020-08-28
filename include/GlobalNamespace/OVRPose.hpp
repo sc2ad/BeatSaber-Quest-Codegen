@@ -13,8 +13,6 @@
 #include "UnityEngine/Quaternion.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -57,19 +55,14 @@ namespace GlobalNamespace {
   }; // OVRPose
   // static public System.Boolean op_Equality(OVRPose x, OVRPose y)
   // Offset: 0xF4BC2C
-  inline bool operator ==(const GlobalNamespace::OVRPose& x, const GlobalNamespace::OVRPose& y) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("", "OVRPose", "op_Equality", x, y));
-  }
+  bool operator ==(const GlobalNamespace::OVRPose& x, const GlobalNamespace::OVRPose& y);
   // static public System.Boolean op_Inequality(OVRPose x, OVRPose y)
   // Offset: 0xF4BD9C
-  inline bool operator !=(const GlobalNamespace::OVRPose& x, const GlobalNamespace::OVRPose& y) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("", "OVRPose", "op_Inequality", x, y));
-  }
+  bool operator !=(const GlobalNamespace::OVRPose& x, const GlobalNamespace::OVRPose& y);
   // static public OVRPose op_Multiply(OVRPose lhs, OVRPose rhs)
   // Offset: 0xF4BDE8
-  inline GlobalNamespace::OVRPose operator*(const GlobalNamespace::OVRPose& lhs, const GlobalNamespace::OVRPose& rhs) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<GlobalNamespace::OVRPose>("", "OVRPose", "op_Multiply", lhs, rhs));
-  }
+  GlobalNamespace::OVRPose operator*(const GlobalNamespace::OVRPose& lhs, const GlobalNamespace::OVRPose& rhs);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPose, "", "OVRPose");
 #pragma pack(pop)

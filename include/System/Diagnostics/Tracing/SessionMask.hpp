@@ -7,8 +7,6 @@
 #include <stdint.h>
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: System.Diagnostics.Tracing
 namespace System::Diagnostics::Tracing {
@@ -50,5 +48,6 @@ namespace System::Diagnostics::Tracing {
     void set_Item(int perEventSourceSessionId, bool value);
   }; // System.Diagnostics.Tracing.SessionMask
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::SessionMask, "System.Diagnostics.Tracing", "SessionMask");
 #pragma pack(pop)

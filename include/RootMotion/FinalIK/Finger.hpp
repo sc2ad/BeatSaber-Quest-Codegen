@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Quaternion
 #include "UnityEngine/Quaternion.hpp"
+// Including type: UnityEngine.Vector3
+#include "UnityEngine/Vector3.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes

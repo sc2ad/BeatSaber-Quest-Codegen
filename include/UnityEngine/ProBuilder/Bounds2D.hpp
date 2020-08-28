@@ -28,7 +28,8 @@ namespace System::Collections::Generic {
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Skipping declaration: Vector3 because it is already included!
+  // Forward declaring type: Vector3
+  struct Vector3;
   // Forward declaring type: Rect
   struct Rect;
 }

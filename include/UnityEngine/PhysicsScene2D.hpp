@@ -20,7 +20,8 @@ namespace UnityEngine {
   // Skipping declaration: Vector2 because it is already included!
   // Forward declaring type: ContactFilter2D
   struct ContactFilter2D;
-  // Skipping declaration: Vector3 because it is already included!
+  // Forward declaring type: Vector3
+  struct Vector3;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {

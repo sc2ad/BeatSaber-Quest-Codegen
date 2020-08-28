@@ -9,6 +9,8 @@
 #include "UnityEngine/Playables/PlayableGraph.hpp"
 // Including type: UnityEngine.AudioSource
 #include "UnityEngine/AudioSource.hpp"
+// Including type: UnityEngine.Playables.PlayableOutput
+#include "UnityEngine/Playables/PlayableOutput.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

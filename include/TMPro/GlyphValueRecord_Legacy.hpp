@@ -6,8 +6,6 @@
 // Begin includes
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TextCore::LowLevel
@@ -41,9 +39,8 @@ namespace TMPro {
   }; // TMPro.GlyphValueRecord_Legacy
   // static public TMPro.GlyphValueRecord_Legacy op_Addition(TMPro.GlyphValueRecord_Legacy a, TMPro.GlyphValueRecord_Legacy b)
   // Offset: 0xB50B70
-  inline TMPro::GlyphValueRecord_Legacy operator+(const TMPro::GlyphValueRecord_Legacy& a, const TMPro::GlyphValueRecord_Legacy& b) {
-    return THROW_UNLESS(il2cpp_utils::RunMethod<TMPro::GlyphValueRecord_Legacy>("TMPro", "GlyphValueRecord_Legacy", "op_Addition", a, b));
-  }
+  TMPro::GlyphValueRecord_Legacy operator+(const TMPro::GlyphValueRecord_Legacy& a, const TMPro::GlyphValueRecord_Legacy& b);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::GlyphValueRecord_Legacy, "TMPro", "GlyphValueRecord_Legacy");
 #pragma pack(pop)

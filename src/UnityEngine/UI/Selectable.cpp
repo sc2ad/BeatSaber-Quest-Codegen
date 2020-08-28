@@ -21,6 +21,8 @@
 #include "UnityEngine/Animator.hpp"
 // Including type: UnityEngine.RectTransform
 #include "UnityEngine/RectTransform.hpp"
+// Including type: UnityEngine.Vector2
+#include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.EventSystems.AxisEventData
 #include "UnityEngine/EventSystems/AxisEventData.hpp"
 // Including type: UnityEngine.Sprite
