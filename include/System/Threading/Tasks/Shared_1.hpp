@@ -17,10 +17,6 @@ namespace System::Threading::Tasks {
     // T Value
     // Offset: 0x0
     T Value;
-    // Creating conversion operator: operator T
-    constexpr operator T() const {
-      return Value;
-    }
     // System.Void .ctor(T value)
     // Offset: 0xFFFFFFFF
     static Shared_1<T>* New_ctor(T value) {

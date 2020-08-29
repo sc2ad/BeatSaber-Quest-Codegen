@@ -59,8 +59,6 @@ namespace System::IO {
     // private System.Threading.ExecutionContext _context
     // Offset: 0x78
     System::Threading::ExecutionContext* context;
-    // Deleting conversion operator: operator TResult
-    constexpr operator TResult() const = delete;
     // Get static field: static private System.Threading.ContextCallback s_invokeAsyncCallback
     static System::Threading::ContextCallback* _get_s_invokeAsyncCallback();
     // Set static field: static private System.Threading.ContextCallback s_invokeAsyncCallback

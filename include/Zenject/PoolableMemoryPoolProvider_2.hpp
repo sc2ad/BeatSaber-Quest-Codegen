@@ -54,10 +54,6 @@ namespace Zenject {
     // private TMemoryPool _pool
     // Offset: 0x0
     TMemoryPool pool;
-    // Creating conversion operator: operator TMemoryPool
-    constexpr operator TMemoryPool() const {
-      return pool;
-    }
     // public System.Void .ctor(Zenject.DiContainer container, System.Guid poolId)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.PoolableMemoryPoolProviderBase`1

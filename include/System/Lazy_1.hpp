@@ -49,10 +49,6 @@ namespace System {
       // T m_value
       // Offset: 0x0
       T m_value;
-      // Creating conversion operator: operator T
-      constexpr operator T() const {
-        return m_value;
-      }
       // System.Void .ctor(T value)
       // Offset: 0xFFFFFFFF
       static typename Lazy_1<T>::Boxed* New_ctor(T value) {

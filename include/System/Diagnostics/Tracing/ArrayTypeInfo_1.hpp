@@ -15,6 +15,7 @@
 // Begin forward declares
 // Forward declaring namespace: System::Diagnostics::Tracing
 namespace System::Diagnostics::Tracing {
+  // Skipping declaration: TraceLoggingTypeInfo`1 because it is already included!
   // Forward declaring type: TraceLoggingDataCollector
   class TraceLoggingDataCollector;
   // Forward declaring type: TraceLoggingMetadataCollector

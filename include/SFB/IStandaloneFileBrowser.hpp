@@ -16,6 +16,9 @@ namespace System {
   // Forward declaring type: Action`1<T>
   template<typename T>
   class Action_1;
+  // Forward declaring type: Action`1<T>
+  template<typename T>
+  class Action_1;
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
