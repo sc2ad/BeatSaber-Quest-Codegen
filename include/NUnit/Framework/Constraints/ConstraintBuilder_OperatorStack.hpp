@@ -30,7 +30,7 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x10
     System::Collections::Generic::Stack_1<NUnit::Framework::Constraints::ConstraintOperator*>* stack;
     // Creating conversion operator: operator System::Collections::Generic::Stack_1<NUnit::Framework::Constraints::ConstraintOperator*>*
-    constexpr operator System::Collections::Generic::Stack_1<NUnit::Framework::Constraints::ConstraintOperator*>*() const {
+    constexpr operator System::Collections::Generic::Stack_1<NUnit::Framework::Constraints::ConstraintOperator*>*() const noexcept {
       return stack;
     }
     // public System.Boolean get_Empty()

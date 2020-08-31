@@ -43,9 +43,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: State
-      constexpr State(int value_ = {}) : value{value_} {}
+      constexpr State(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public AudioTimeSyncController/State Playing
@@ -128,7 +128,7 @@ namespace GlobalNamespace {
     // Offset: 0x74
     bool canStartSong;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public AudioTimeSyncController/State get_state()
     // Offset: 0xB8A97C
     GlobalNamespace::AudioTimeSyncController::State get_state();

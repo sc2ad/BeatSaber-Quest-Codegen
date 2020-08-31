@@ -32,7 +32,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x0
     System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<ElementType>* elementInfo;
     // Creating conversion operator: operator System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<ElementType>*
-    constexpr operator System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<ElementType>*() const {
+    constexpr operator System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<ElementType>*() const noexcept {
       return elementInfo;
     }
     // public System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ElementType[] value)

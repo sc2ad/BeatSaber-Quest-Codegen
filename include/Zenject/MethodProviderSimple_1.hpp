@@ -46,7 +46,7 @@ namespace Zenject {
     // Offset: 0x0
     System::Func_1<TReturn>* method;
     // Creating conversion operator: operator System::Func_1<TReturn>*
-    constexpr operator System::Func_1<TReturn>*() const {
+    constexpr operator System::Func_1<TReturn>*() const noexcept {
       return method;
     }
     // public System.Void .ctor(System.Func`1<TReturn> method)

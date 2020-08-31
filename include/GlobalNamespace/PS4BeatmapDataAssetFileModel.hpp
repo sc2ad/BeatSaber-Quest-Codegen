@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>* levelDataAssetDownloadUpdateEvent;
     // Creating conversion operator: operator System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>*
-    constexpr operator System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>*() const {
+    constexpr operator System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>*() const noexcept {
       return levelDataAssetDownloadUpdateEvent;
     }
     // public System.Void add_levelDataAssetDownloadUpdateEvent(System.Action`1<LevelDataAssetDownloadUpdate> value)

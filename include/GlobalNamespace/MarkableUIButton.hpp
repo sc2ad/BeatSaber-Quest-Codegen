@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     // Offset: 0x24
     int markedTriggerId;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_marked()
     // Offset: 0xCB8930
     bool get_marked();

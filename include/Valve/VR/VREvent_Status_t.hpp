@@ -16,9 +16,9 @@ namespace Valve::VR {
     // Offset: 0x0
     uint statusState;
     // Creating value type constructor for type: VREvent_Status_t
-    constexpr VREvent_Status_t(uint statusState_ = {}) : statusState{statusState_} {}
+    constexpr VREvent_Status_t(uint statusState_ = {}) noexcept : statusState{statusState_} {}
     // Creating conversion operator: operator uint
-    constexpr operator uint() const {
+    constexpr operator uint() const noexcept {
       return statusState;
     }
   }; // Valve.VR.VREvent_Status_t

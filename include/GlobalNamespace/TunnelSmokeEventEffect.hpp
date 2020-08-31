@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Offset: 0x40
     ::Array<UnityEngine::ParticleSystem::Particle>* particles;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kSpeedMultiplier
     static constexpr const float kSpeedMultiplier = 5;
     // Get static field: static private System.Single kSpeedMultiplier

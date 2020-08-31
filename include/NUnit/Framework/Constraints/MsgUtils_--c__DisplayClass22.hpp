@@ -24,7 +24,7 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x10
     NUnit::Framework::Constraints::ValueFormatter* next;
     // Creating conversion operator: operator NUnit::Framework::Constraints::ValueFormatter*
-    constexpr operator NUnit::Framework::Constraints::ValueFormatter*() const {
+    constexpr operator NUnit::Framework::Constraints::ValueFormatter*() const noexcept {
       return next;
     }
     // public System.String <.cctor>b__4(System.Object val)

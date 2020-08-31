@@ -32,7 +32,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x60
     System::Diagnostics::Tracing::EventSource* m_eventSource;
     // Creating conversion operator: operator System::Diagnostics::Tracing::EventSource*
-    constexpr operator System::Diagnostics::Tracing::EventSource*() const {
+    constexpr operator System::Diagnostics::Tracing::EventSource*() const noexcept {
       return m_eventSource;
     }
     // public System.Void .ctor(System.Diagnostics.Tracing.EventSource eventSource)

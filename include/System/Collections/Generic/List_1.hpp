@@ -77,7 +77,7 @@ namespace System::Collections::Generic {
       // Offset: 0x0
       T current;
       // Creating value type constructor for type: Enumerator
-      constexpr Enumerator(System::Collections::Generic::List_1<T>* list_ = {}, int index_ = {}, int version_ = {}, T current_ = {}) : list{list_}, index{index_}, version{version_}, current{current_} {}
+      constexpr Enumerator(System::Collections::Generic::List_1<T>* list_ = {}, int index_ = {}, int version_ = {}, T current_ = {}) noexcept : list{list_}, index{index_}, version{version_}, current{current_} {}
       // System.Void .ctor(System.Collections.Generic.List`1<T> list)
       // Offset: 0xFFFFFFFF
       static typename List_1<T>::Enumerator* New_ctor(System::Collections::Generic::List_1<T>* list) {

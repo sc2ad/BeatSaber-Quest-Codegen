@@ -17,7 +17,7 @@ namespace HMUI {
     // Offset: 0x18
     bool interactable;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_interactable()
     // Offset: 0xEE97B0
     bool get_interactable();

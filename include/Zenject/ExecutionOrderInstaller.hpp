@@ -30,7 +30,7 @@ namespace Zenject {
     // Offset: 0x18
     System::Collections::Generic::List_1<System::Type*>* typeOrder;
     // Deleting conversion operator: operator Zenject::DiContainer*
-    constexpr operator Zenject::DiContainer*() const = delete;
+    constexpr operator Zenject::DiContainer*() const noexcept = delete;
     // public System.Void .ctor(System.Collections.Generic.List`1<System.Type> typeOrder)
     // Offset: 0xF311F0
     static ExecutionOrderInstaller* New_ctor(System::Collections::Generic::List_1<System::Type*>* typeOrder);

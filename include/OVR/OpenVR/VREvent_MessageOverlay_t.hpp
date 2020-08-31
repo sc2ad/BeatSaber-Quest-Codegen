@@ -16,9 +16,9 @@ namespace OVR::OpenVR {
     // Offset: 0x0
     uint unVRMessageOverlayResponse;
     // Creating value type constructor for type: VREvent_MessageOverlay_t
-    constexpr VREvent_MessageOverlay_t(uint unVRMessageOverlayResponse_ = {}) : unVRMessageOverlayResponse{unVRMessageOverlayResponse_} {}
+    constexpr VREvent_MessageOverlay_t(uint unVRMessageOverlayResponse_ = {}) noexcept : unVRMessageOverlayResponse{unVRMessageOverlayResponse_} {}
     // Creating conversion operator: operator uint
-    constexpr operator uint() const {
+    constexpr operator uint() const noexcept {
       return unVRMessageOverlayResponse;
     }
   }; // OVR.OpenVR.VREvent_MessageOverlay_t

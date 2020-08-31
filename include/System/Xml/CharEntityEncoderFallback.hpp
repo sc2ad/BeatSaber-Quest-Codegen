@@ -41,7 +41,7 @@ namespace System::Xml {
     // Offset: 0x30
     int startOffset;
     // Deleting conversion operator: operator bool
-    constexpr operator bool() const = delete;
+    constexpr operator bool() const noexcept = delete;
     // System.Void set_StartOffset(System.Int32 value)
     // Offset: 0x119936C
     void set_StartOffset(int value);

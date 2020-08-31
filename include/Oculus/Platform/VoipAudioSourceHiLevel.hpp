@@ -42,7 +42,7 @@ namespace Oculus::Platform {
     // Offset: 0x30
     Oculus::Platform::IVoipPCMSource* pcmSource;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private System.Int32 audioSystemPlaybackFrequency
     static int _get_audioSystemPlaybackFrequency();
     // Set static field: static private System.Int32 audioSystemPlaybackFrequency

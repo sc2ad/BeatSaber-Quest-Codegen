@@ -42,7 +42,7 @@ namespace UnityEngine::PlayerLoop {
     // Nested type: UnityEngine::PlayerLoop::FixedUpdate::NewInputFixedUpdate
     struct NewInputFixedUpdate;
     // Creating value type constructor for type: FixedUpdate
-    constexpr FixedUpdate() {}
+    constexpr FixedUpdate() noexcept {}
   }; // UnityEngine.PlayerLoop.FixedUpdate
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

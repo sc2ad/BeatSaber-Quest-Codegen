@@ -100,7 +100,7 @@ namespace HMUI {
     // Offset: 0x62
     bool isInTransition;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public HMUI.ContainerViewController get_containerViewController()
     // Offset: 0x10EC308
     HMUI::ContainerViewController* get_containerViewController();

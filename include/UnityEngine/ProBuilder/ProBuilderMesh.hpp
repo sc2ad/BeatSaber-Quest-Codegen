@@ -153,9 +153,9 @@ namespace UnityEngine::ProBuilder {
       // Offset: 0x0
       uint8_t value;
       // Creating value type constructor for type: CacheValidState
-      constexpr CacheValidState(uint8_t value_ = {}) : value{value_} {}
+      constexpr CacheValidState(uint8_t value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator uint8_t
-      constexpr operator uint8_t() const {
+      constexpr operator uint8_t() const noexcept {
         return value;
       }
       // static field const value: static public UnityEngine.ProBuilder.ProBuilderMesh/CacheValidState SharedVertex
@@ -259,7 +259,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xF0
     System::Collections::Generic::List_1<int>* m_SelectedCoincidentVertices;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 k_UVChannelCount
     static constexpr const int k_UVChannelCount = 4;
     // Get static field: static private System.Int32 k_UVChannelCount

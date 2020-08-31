@@ -22,7 +22,7 @@ namespace OVR::OpenVR {
     // Offset: 0x8
     uint button;
     // Creating value type constructor for type: VREvent_Mouse_t
-    constexpr VREvent_Mouse_t(float x_ = {}, float y_ = {}, uint button_ = {}) : x{x_}, y{y_}, button{button_} {}
+    constexpr VREvent_Mouse_t(float x_ = {}, float y_ = {}, uint button_ = {}) noexcept : x{x_}, y{y_}, button{button_} {}
   }; // OVR.OpenVR.VREvent_Mouse_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

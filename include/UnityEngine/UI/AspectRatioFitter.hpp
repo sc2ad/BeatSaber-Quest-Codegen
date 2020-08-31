@@ -41,9 +41,9 @@ namespace UnityEngine::UI {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: AspectMode
-      constexpr AspectMode(int value_ = {}) : value{value_} {}
+      constexpr AspectMode(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public UnityEngine.UI.AspectRatioFitter/AspectMode None
@@ -93,7 +93,7 @@ namespace UnityEngine::UI {
     // Offset: 0x29
     UnityEngine::DrivenRectTransformTracker m_Tracker;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.UI.AspectRatioFitter/AspectMode get_aspectMode()
     // Offset: 0xE05F3C
     UnityEngine::UI::AspectRatioFitter::AspectMode get_aspectMode();

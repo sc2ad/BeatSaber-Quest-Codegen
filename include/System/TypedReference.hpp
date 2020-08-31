@@ -36,7 +36,7 @@ namespace System {
     // Offset: 0x10
     System::IntPtr Type;
     // Creating value type constructor for type: TypedReference
-    constexpr TypedReference(System::RuntimeTypeHandle type_ = {}, System::IntPtr Value_ = {}, System::IntPtr Type_ = {}) : type{type_}, Value{Value_}, Type{Type_} {}
+    constexpr TypedReference(System::RuntimeTypeHandle type_ = {}, System::IntPtr Value_ = {}, System::IntPtr Type_ = {}) noexcept : type{type_}, Value{Value_}, Type{Type_} {}
     // static public System.TypedReference MakeTypedReference(System.Object target, System.Reflection.FieldInfo[] flds)
     // Offset: 0x179C6F0
     static System::TypedReference MakeTypedReference(::Il2CppObject* target, ::Array<System::Reflection::FieldInfo*>* flds);

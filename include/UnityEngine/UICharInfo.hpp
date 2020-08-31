@@ -22,7 +22,7 @@ namespace UnityEngine {
     // Offset: 0x8
     float charWidth;
     // Creating value type constructor for type: UICharInfo
-    constexpr UICharInfo(UnityEngine::Vector2 cursorPos_ = {}, float charWidth_ = {}) : cursorPos{cursorPos_}, charWidth{charWidth_} {}
+    constexpr UICharInfo(UnityEngine::Vector2 cursorPos_ = {}, float charWidth_ = {}) noexcept : cursorPos{cursorPos_}, charWidth{charWidth_} {}
   }; // UnityEngine.UICharInfo
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

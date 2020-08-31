@@ -50,7 +50,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x18
     System::Threading::Tasks::Task* m_task;
     // Creating value type constructor for type: AsyncVoidMethodBuilder
-    constexpr AsyncVoidMethodBuilder(System::Threading::SynchronizationContext* m_synchronizationContext_ = {}, System::Runtime::CompilerServices::AsyncMethodBuilderCore m_coreState_ = {}, System::Threading::Tasks::Task* m_task_ = {}) : m_synchronizationContext{m_synchronizationContext_}, m_coreState{m_coreState_}, m_task{m_task_} {}
+    constexpr AsyncVoidMethodBuilder(System::Threading::SynchronizationContext* m_synchronizationContext_ = {}, System::Runtime::CompilerServices::AsyncMethodBuilderCore m_coreState_ = {}, System::Threading::Tasks::Task* m_task_ = {}) noexcept : m_synchronizationContext{m_synchronizationContext_}, m_coreState{m_coreState_}, m_task{m_task_} {}
     // static public System.Runtime.CompilerServices.AsyncVoidMethodBuilder Create()
     // Offset: 0x1166568
     static System::Runtime::CompilerServices::AsyncVoidMethodBuilder Create();

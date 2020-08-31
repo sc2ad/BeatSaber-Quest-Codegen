@@ -46,9 +46,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: ConfidenceBehavior
-      constexpr ConfidenceBehavior(int value_ = {}) : value{value_} {}
+      constexpr ConfidenceBehavior(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public OVRMeshRenderer/ConfidenceBehavior None
@@ -71,9 +71,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: SystemGestureBehavior
-      constexpr SystemGestureBehavior(int value_ = {}) : value{value_} {}
+      constexpr SystemGestureBehavior(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public OVRMeshRenderer/SystemGestureBehavior None
@@ -126,7 +126,7 @@ namespace GlobalNamespace {
     // Offset: 0x53
     bool ShouldUseSystemGestureMaterial;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_IsInitialized()
     // Offset: 0xEEB9B4
     bool get_IsInitialized();

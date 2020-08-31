@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Offset: 0x40
     GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* randomSoundPicker;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
     // Offset: 0xB7C13C
     void Start();

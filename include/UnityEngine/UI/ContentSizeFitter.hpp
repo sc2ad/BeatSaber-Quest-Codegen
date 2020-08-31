@@ -39,9 +39,9 @@ namespace UnityEngine::UI {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: FitMode
-      constexpr FitMode(int value_ = {}) : value{value_} {}
+      constexpr FitMode(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public UnityEngine.UI.ContentSizeFitter/FitMode Unconstrained
@@ -76,7 +76,7 @@ namespace UnityEngine::UI {
     // Offset: 0x28
     UnityEngine::DrivenRectTransformTracker m_Tracker;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.UI.ContentSizeFitter/FitMode get_horizontalFit()
     // Offset: 0xE098E8
     UnityEngine::UI::ContentSizeFitter::FitMode get_horizontalFit();

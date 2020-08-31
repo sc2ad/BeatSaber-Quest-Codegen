@@ -62,7 +62,7 @@ namespace UnityEngine::EventSystems {
     // Offset: 0x40
     UnityEngine::EventSystems::BaseInput* m_DefaultInput;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.EventSystems.BaseInput get_input()
     // Offset: 0xDFAA50
     UnityEngine::EventSystems::BaseInput* get_input();

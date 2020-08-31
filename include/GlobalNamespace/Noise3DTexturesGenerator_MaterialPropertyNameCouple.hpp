@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     // Offset: 0x8
     UnityEngine::Material* material;
     // Creating value type constructor for type: MaterialPropertyNameCouple
-    constexpr MaterialPropertyNameCouple(::Il2CppString* texturePropertyName_ = {}, UnityEngine::Material* material_ = {}) : texturePropertyName{texturePropertyName_}, material{material_} {}
+    constexpr MaterialPropertyNameCouple(::Il2CppString* texturePropertyName_ = {}, UnityEngine::Material* material_ = {}) noexcept : texturePropertyName{texturePropertyName_}, material{material_} {}
   }; // Noise3DTexturesGenerator/MaterialPropertyNameCouple
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

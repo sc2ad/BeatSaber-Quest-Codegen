@@ -74,7 +74,7 @@ namespace GlobalNamespace {
     // Offset: 0x60
     UnityEngine::Color color;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didFinishEvent(System.Action`1<BeatEffect> value)
     // Offset: 0xB8DFB8
     void add_didFinishEvent(System::Action_1<GlobalNamespace::BeatEffect*>* value);

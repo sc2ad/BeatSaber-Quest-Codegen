@@ -17,9 +17,9 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x0
     int value;
     // Creating value type constructor for type: ConstraintStatus
-    constexpr ConstraintStatus(int value_ = {}) : value{value_} {}
+    constexpr ConstraintStatus(int value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return value;
     }
     // static field const value: static public NUnit.Framework.Constraints.ConstraintStatus Unknown

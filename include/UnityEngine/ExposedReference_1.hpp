@@ -34,7 +34,7 @@ namespace UnityEngine {
     // Offset: 0x0
     UnityEngine::Object* defaultValue;
     // Creating value type constructor for type: ExposedReference_1
-    constexpr ExposedReference_1(UnityEngine::PropertyName exposedName_ = {}, UnityEngine::Object* defaultValue_ = {}) : exposedName{exposedName_}, defaultValue{defaultValue_} {}
+    constexpr ExposedReference_1(UnityEngine::PropertyName exposedName_ = {}, UnityEngine::Object* defaultValue_ = {}) noexcept : exposedName{exposedName_}, defaultValue{defaultValue_} {}
     // public T Resolve(UnityEngine.IExposedPropertyTable resolver)
     // Offset: 0xFFFFFFFF
     T Resolve(UnityEngine::IExposedPropertyTable* resolver) {

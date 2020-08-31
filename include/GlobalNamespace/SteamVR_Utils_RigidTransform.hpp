@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     // Offset: 0xC
     UnityEngine::Quaternion rot;
     // Creating value type constructor for type: RigidTransform
-    constexpr RigidTransform(UnityEngine::Vector3 pos_ = {}, UnityEngine::Quaternion rot_ = {}) : pos{pos_}, rot{rot_} {}
+    constexpr RigidTransform(UnityEngine::Vector3 pos_ = {}, UnityEngine::Quaternion rot_ = {}) noexcept : pos{pos_}, rot{rot_} {}
     // static public SteamVR_Utils/RigidTransform get_identity()
     // Offset: 0xFDA5F0
     static GlobalNamespace::SteamVR_Utils::RigidTransform get_identity();

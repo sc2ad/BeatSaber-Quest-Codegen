@@ -38,7 +38,7 @@ namespace TMPro {
     // Offset: 0x10
     System::Collections::Generic::List_1<TMPro::KerningPair*>* kerningPairs;
     // Creating conversion operator: operator System::Collections::Generic::List_1<TMPro::KerningPair*>*
-    constexpr operator System::Collections::Generic::List_1<TMPro::KerningPair*>*() const {
+    constexpr operator System::Collections::Generic::List_1<TMPro::KerningPair*>*() const noexcept {
       return kerningPairs;
     }
     // public System.Void AddKerningPair()

@@ -126,7 +126,7 @@ namespace HMUI {
     // Offset: 0xA0
     UnityEngine::EventSystems::EventSystem* prevEventSystem;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public HMUI.ViewController get_topViewController()
     // Offset: 0xEDAD58
     HMUI::ViewController* get_topViewController();

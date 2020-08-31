@@ -34,7 +34,7 @@ namespace Zenject {
     // Offset: 0x10
     System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>* subContainerGetter;
     // Creating conversion operator: operator System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>*
-    constexpr operator System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>*() const {
+    constexpr operator System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>*() const noexcept {
       return subContainerGetter;
     }
     // Zenject.ISubContainerCreator <ByInstanceGetter>b__0(Zenject.DiContainer _)

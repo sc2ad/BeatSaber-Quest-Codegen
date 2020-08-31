@@ -38,7 +38,7 @@ namespace OnlineServices {
     // Offset: 0x14
     bool includeScoreWithModifiers;
     // Creating value type constructor for type: GetLeaderboardFilterData
-    constexpr GetLeaderboardFilterData(GlobalNamespace::IDifficultyBeatmap* beatmap_ = {}, int count_ = {}, int fromRank_ = {}, OnlineServices::ScoresScope scope_ = {}, bool includeScoreWithModifiers_ = {}) : beatmap{beatmap_}, count{count_}, fromRank{fromRank_}, scope{scope_}, includeScoreWithModifiers{includeScoreWithModifiers_} {}
+    constexpr GetLeaderboardFilterData(GlobalNamespace::IDifficultyBeatmap* beatmap_ = {}, int count_ = {}, int fromRank_ = {}, OnlineServices::ScoresScope scope_ = {}, bool includeScoreWithModifiers_ = {}) noexcept : beatmap{beatmap_}, count{count_}, fromRank{fromRank_}, scope{scope_}, includeScoreWithModifiers{includeScoreWithModifiers_} {}
     // public System.Void .ctor(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, OnlineServices.ScoresScope scope, System.Boolean includeScoreWithModifiers)
     // Offset: 0xA2CAEC
     static GetLeaderboardFilterData* New_ctor(GlobalNamespace::IDifficultyBeatmap* beatmap, int count, int fromRank, OnlineServices::ScoresScope scope, bool includeScoreWithModifiers);

@@ -33,7 +33,7 @@ namespace System {
     // Offset: 0x12
     System::Coord MaxWindowSize;
     // Creating value type constructor for type: ConsoleScreenBufferInfo
-    constexpr ConsoleScreenBufferInfo(System::Coord Size_ = {}, System::Coord CursorPosition_ = {}, int16_t Attribute_ = {}, System::SmallRect Window_ = {}, System::Coord MaxWindowSize_ = {}) : Size{Size_}, CursorPosition{CursorPosition_}, Attribute{Attribute_}, Window{Window_}, MaxWindowSize{MaxWindowSize_} {}
+    constexpr ConsoleScreenBufferInfo(System::Coord Size_ = {}, System::Coord CursorPosition_ = {}, int16_t Attribute_ = {}, System::SmallRect Window_ = {}, System::Coord MaxWindowSize_ = {}) noexcept : Size{Size_}, CursorPosition{CursorPosition_}, Attribute{Attribute_}, Window{Window_}, MaxWindowSize{MaxWindowSize_} {}
   }; // System.ConsoleScreenBufferInfo
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     bool mirror;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public override UnityEngine.Vector3 get_positionOffset()
     // Offset: 0xC53018
     // Implemented from: VRControllerTransformOffset

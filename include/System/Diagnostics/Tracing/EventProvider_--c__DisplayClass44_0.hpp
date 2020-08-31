@@ -25,7 +25,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x10
     System::Collections::Generic::List_1<System::Diagnostics::Tracing::EventProvider::SessionInfo>* liveSessionList;
     // Creating conversion operator: operator System::Collections::Generic::List_1<System::Diagnostics::Tracing::EventProvider::SessionInfo>*
-    constexpr operator System::Collections::Generic::List_1<System::Diagnostics::Tracing::EventProvider::SessionInfo>*() const {
+    constexpr operator System::Collections::Generic::List_1<System::Diagnostics::Tracing::EventProvider::SessionInfo>*() const noexcept {
       return liveSessionList;
     }
     // System.Void <GetSessions>b__0(System.Int32 etwSessionId, System.Int64 matchAllKeywords)

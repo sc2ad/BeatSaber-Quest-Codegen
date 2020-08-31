@@ -21,9 +21,9 @@ namespace UnityEngine::Timeline {
     // Offset: 0x0
     int64_t m_DiscreteTime;
     // Creating value type constructor for type: DiscreteTime
-    constexpr DiscreteTime(int64_t m_DiscreteTime_ = {}) : m_DiscreteTime{m_DiscreteTime_} {}
+    constexpr DiscreteTime(int64_t m_DiscreteTime_ = {}) noexcept : m_DiscreteTime{m_DiscreteTime_} {}
     // Creating conversion operator: operator int64_t
-    constexpr operator int64_t() const {
+    constexpr operator int64_t() const noexcept {
       return m_DiscreteTime;
     }
     // static field const value: static private System.Double k_Tick

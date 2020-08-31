@@ -77,7 +77,7 @@ namespace TMPro {
     // Offset: 0x70
     bool m_isRegisteredForEvents;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public TMPro.TMP_FontAsset get_fontAsset()
     // Offset: 0xBB65A0
     TMPro::TMP_FontAsset* get_fontAsset();

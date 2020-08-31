@@ -17,7 +17,7 @@ namespace System::IO {
     // Offset: 0x18
     System::IO::TextReader* in;
     // Deleting conversion operator: operator ::Il2CppObject*
-    constexpr operator ::Il2CppObject*() const = delete;
+    constexpr operator ::Il2CppObject*() const noexcept = delete;
     // System.Void .ctor(System.IO.TextReader t)
     // Offset: 0x100F5C0
     static TextReader::SyncTextReader* New_ctor(System::IO::TextReader* t);

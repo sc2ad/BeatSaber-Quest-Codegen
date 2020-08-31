@@ -29,7 +29,7 @@ namespace OVR::OpenVR {
     // Offset: 0x10
     OVR::OpenVR::IVRDriverManager FnTable;
     // Creating conversion operator: operator OVR::OpenVR::IVRDriverManager
-    constexpr operator OVR::OpenVR::IVRDriverManager() const {
+    constexpr operator OVR::OpenVR::IVRDriverManager() const noexcept {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)

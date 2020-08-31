@@ -17,7 +17,7 @@ namespace UnityEngine::Internal {
     // Offset: 0x10
     ::Il2CppObject* DefaultValue;
     // Creating conversion operator: operator ::Il2CppObject*
-    constexpr operator ::Il2CppObject*() const {
+    constexpr operator ::Il2CppObject*() const noexcept {
       return DefaultValue;
     }
     // public System.Void .ctor(System.String value)

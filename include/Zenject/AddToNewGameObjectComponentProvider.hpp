@@ -47,7 +47,7 @@ namespace Zenject {
     // Offset: 0x38
     Zenject::GameObjectCreationParameters* gameObjectBindInfo;
     // Creating conversion operator: operator Zenject::GameObjectCreationParameters*
-    constexpr operator Zenject::GameObjectCreationParameters*() const {
+    constexpr operator Zenject::GameObjectCreationParameters*() const noexcept {
       return gameObjectBindInfo;
     }
     // public System.Void .ctor(Zenject.DiContainer container, System.Type componentType, System.Collections.Generic.IEnumerable`1<Zenject.TypeValuePair> extraArguments, Zenject.GameObjectCreationParameters gameObjectBindInfo, System.Object concreteIdentifier, System.Action`2<Zenject.InjectContext,System.Object> instantiateCallback)

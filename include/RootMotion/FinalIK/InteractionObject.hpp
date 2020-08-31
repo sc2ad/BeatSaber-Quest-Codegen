@@ -57,9 +57,9 @@ namespace RootMotion::FinalIK {
         // Offset: 0x0
         int value;
         // Creating value type constructor for type: Type
-        constexpr Type(int value_ = {}) : value{value_} {}
+        constexpr Type(int value_ = {}) noexcept : value{value_} {}
         // Creating conversion operator: operator int
-        constexpr operator int() const {
+        constexpr operator int() const noexcept {
           return value;
         }
         // static field const value: static public RootMotion.FinalIK.InteractionObject/WeightCurve/Type PositionWeight
@@ -178,7 +178,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x58
     ::Array<RootMotion::FinalIK::InteractionTarget*>* targets;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void OpenUserManual()
     // Offset: 0x144E974
     void OpenUserManual();

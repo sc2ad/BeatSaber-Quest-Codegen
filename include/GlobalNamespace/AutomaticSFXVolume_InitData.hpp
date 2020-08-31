@@ -17,7 +17,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     float volumeOffset;
     // Creating conversion operator: operator float
-    constexpr operator float() const {
+    constexpr operator float() const noexcept {
       return volumeOffset;
     }
     // public System.Void .ctor(System.Single volumeOffset)

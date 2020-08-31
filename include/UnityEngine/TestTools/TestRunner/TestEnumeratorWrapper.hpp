@@ -29,7 +29,7 @@ namespace UnityEngine::TestTools::TestRunner {
     // Offset: 0x10
     NUnit::Framework::Internal::TestMethod* m_TestMethod;
     // Creating conversion operator: operator NUnit::Framework::Internal::TestMethod*
-    constexpr operator NUnit::Framework::Internal::TestMethod*() const {
+    constexpr operator NUnit::Framework::Internal::TestMethod*() const noexcept {
       return m_TestMethod;
     }
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod testMethod)

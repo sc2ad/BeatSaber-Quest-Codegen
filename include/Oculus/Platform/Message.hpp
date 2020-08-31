@@ -172,9 +172,9 @@ namespace Oculus::Platform {
       // Offset: 0x0
       uint value;
       // Creating value type constructor for type: MessageType
-      constexpr MessageType(uint value_ = {}) : value{value_} {}
+      constexpr MessageType(uint value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator uint
-      constexpr operator uint() const {
+      constexpr operator uint() const noexcept {
         return value;
       }
       // static field const value: static public Oculus.Platform.Message/MessageType Unknown

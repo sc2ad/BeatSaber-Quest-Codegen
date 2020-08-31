@@ -17,9 +17,9 @@ namespace System::Threading {
     // Offset: 0x0
     int value;
     // Creating value type constructor for type: StackCrawlMark
-    constexpr StackCrawlMark(int value_ = {}) : value{value_} {}
+    constexpr StackCrawlMark(int value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return value;
     }
     // static field const value: static public System.Threading.StackCrawlMark LookForMe

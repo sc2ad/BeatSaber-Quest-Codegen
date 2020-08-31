@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::PlayerHeightDetector* playerHeightDetector;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
     // Offset: 0xB7A8F8
     void Start();

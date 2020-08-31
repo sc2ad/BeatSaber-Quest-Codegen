@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     // Offset: 0x58
     HMUI::ButtonBinder* buttonBinder;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didPressRefreshButtonEvent(System.Action value)
     // Offset: 0xBF570C
     void add_didPressRefreshButtonEvent(System::Action* value);

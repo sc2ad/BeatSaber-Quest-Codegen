@@ -35,7 +35,7 @@ namespace System {
     // Offset: 0x10
     System::Delegate* delegate;
     // Creating conversion operator: operator System::Delegate*
-    constexpr operator System::Delegate*() const {
+    constexpr operator System::Delegate*() const noexcept {
       return delegate;
     }
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext ctx)

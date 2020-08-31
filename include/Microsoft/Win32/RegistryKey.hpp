@@ -58,7 +58,7 @@ namespace Microsoft::Win32 {
     // Offset: 0x39
     bool isWritable;
     // Deleting conversion operator: operator ::Il2CppObject*
-    constexpr operator ::Il2CppObject*() const = delete;
+    constexpr operator ::Il2CppObject*() const noexcept = delete;
     // Get static field: static private readonly Microsoft.Win32.IRegistryApi RegistryApi
     static Microsoft::Win32::IRegistryApi* _get_RegistryApi();
     // Set static field: static private readonly Microsoft.Win32.IRegistryApi RegistryApi

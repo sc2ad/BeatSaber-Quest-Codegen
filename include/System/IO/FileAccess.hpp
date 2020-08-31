@@ -17,9 +17,9 @@ namespace System::IO {
     // Offset: 0x0
     int value;
     // Creating value type constructor for type: FileAccess
-    constexpr FileAccess(int value_ = {}) : value{value_} {}
+    constexpr FileAccess(int value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return value;
     }
     // static field const value: static public System.IO.FileAccess Read

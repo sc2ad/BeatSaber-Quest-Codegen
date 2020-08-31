@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     HMUI::HierarchyManager* hierarchyManager;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Collections.IEnumerator Start()
     // Offset: 0xB447DC
     System::Collections::IEnumerator* Start();

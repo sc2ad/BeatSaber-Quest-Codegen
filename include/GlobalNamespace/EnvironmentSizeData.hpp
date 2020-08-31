@@ -34,9 +34,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: Width
-      constexpr Width(int value_ = {}) : value{value_} {}
+      constexpr Width(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public EnvironmentSizeData/Width Normal
@@ -65,9 +65,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: FloorType
-      constexpr FloorType(int value_ = {}) : value{value_} {}
+      constexpr FloorType(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public EnvironmentSizeData/FloorType NoFloor
@@ -90,9 +90,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: CeilingType
-      constexpr CeilingType(int value_ = {}) : value{value_} {}
+      constexpr CeilingType(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public EnvironmentSizeData/CeilingType NoCeiling

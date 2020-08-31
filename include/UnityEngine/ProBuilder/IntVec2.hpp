@@ -21,9 +21,9 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x0
     UnityEngine::Vector2 value;
     // Creating value type constructor for type: IntVec2
-    constexpr IntVec2(UnityEngine::Vector2 value_ = {}) : value{value_} {}
+    constexpr IntVec2(UnityEngine::Vector2 value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator UnityEngine::Vector2
-    constexpr operator UnityEngine::Vector2() const {
+    constexpr operator UnityEngine::Vector2() const noexcept {
       return value;
     }
     // public System.Single get_x()

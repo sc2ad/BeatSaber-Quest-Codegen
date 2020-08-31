@@ -32,7 +32,7 @@ namespace UnityEngine {
     // Offset: 0x10
     System::IntPtr m_Ptr;
     // Creating conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const {
+    constexpr operator System::IntPtr() const noexcept {
       return m_Ptr;
     }
     // Get static field: static private UnityEngine.Event s_Current

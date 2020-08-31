@@ -141,7 +141,7 @@ namespace GlobalNamespace {
     // Offset: 0xF0
     UnityEngine::Quaternion inverseWorldRotation;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static public System.Single kAvoidMarkTimeOffset
     static constexpr const float kAvoidMarkTimeOffset = 0.15;
     // Get static field: static public System.Single kAvoidMarkTimeOffset

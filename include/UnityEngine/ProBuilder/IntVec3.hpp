@@ -21,9 +21,9 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x0
     UnityEngine::Vector3 value;
     // Creating value type constructor for type: IntVec3
-    constexpr IntVec3(UnityEngine::Vector3 value_ = {}) : value{value_} {}
+    constexpr IntVec3(UnityEngine::Vector3 value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator UnityEngine::Vector3
-    constexpr operator UnityEngine::Vector3() const {
+    constexpr operator UnityEngine::Vector3() const noexcept {
       return value;
     }
     // public System.Single get_x()

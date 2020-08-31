@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     GlobalNamespace::VRPlatformHelper* vrPlatformHelper;
     // Creating conversion operator: operator GlobalNamespace::VRPlatformHelper*
-    constexpr operator GlobalNamespace::VRPlatformHelper*() const {
+    constexpr operator GlobalNamespace::VRPlatformHelper*() const noexcept {
       return vrPlatformHelper;
     }
     // static field const value: static private System.String kTriggerLeftHand

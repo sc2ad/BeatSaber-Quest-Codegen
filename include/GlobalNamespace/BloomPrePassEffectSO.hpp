@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     float linesWidth;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public TextureEffectSO get_textureEffect()
     // Offset: 0x18265E4
     // Implemented from: IBloomPrePassParams

@@ -80,7 +80,7 @@ namespace GlobalNamespace {
     // Offset: 0x70
     float randomDirection;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kSpeedMultiplier
     static constexpr const float kSpeedMultiplier = 20;
     // Get static field: static private System.Single kSpeedMultiplier

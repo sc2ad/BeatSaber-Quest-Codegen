@@ -40,9 +40,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: Status
-      constexpr Status(int value_ = {}) : value{value_} {}
+      constexpr Status(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public MissionObjectiveChecker/Status None
@@ -98,7 +98,7 @@ namespace GlobalNamespace {
     // Offset: 0x40
     bool disableChecking;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_statusDidChangeEvent(System.Action`1<MissionObjectiveChecker> value)
     // Offset: 0xC0BA78
     void add_statusDidChangeEvent(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>* value);

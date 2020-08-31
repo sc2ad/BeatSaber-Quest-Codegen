@@ -26,7 +26,7 @@ namespace System {
     // Offset: 0xA0
     ::Il2CppString* signature;
     // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const {
+    constexpr operator ::Il2CppString*() const noexcept {
       return signature;
     }
     // public System.Void .ctor(System.String className, System.String methodName)

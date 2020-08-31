@@ -28,9 +28,9 @@ namespace Mono {
     // Offset: 0x0
     Mono::RuntimeGPtrArrayHandle handle;
     // Creating value type constructor for type: SafeGPtrArrayHandle
-    constexpr SafeGPtrArrayHandle(Mono::RuntimeGPtrArrayHandle handle_ = {}) : handle{handle_} {}
+    constexpr SafeGPtrArrayHandle(Mono::RuntimeGPtrArrayHandle handle_ = {}) noexcept : handle{handle_} {}
     // Creating conversion operator: operator Mono::RuntimeGPtrArrayHandle
-    constexpr operator Mono::RuntimeGPtrArrayHandle() const {
+    constexpr operator Mono::RuntimeGPtrArrayHandle() const noexcept {
       return handle;
     }
     // System.Void .ctor(System.IntPtr ptr)

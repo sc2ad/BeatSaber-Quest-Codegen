@@ -63,7 +63,7 @@ namespace System {
       // Offset: 0x0
       System::Runtime::ExceptionServices::ExceptionDispatchInfo* m_edi;
       // Creating conversion operator: operator System::Runtime::ExceptionServices::ExceptionDispatchInfo*
-      constexpr operator System::Runtime::ExceptionServices::ExceptionDispatchInfo*() const {
+      constexpr operator System::Runtime::ExceptionServices::ExceptionDispatchInfo*() const noexcept {
         return m_edi;
       }
       // System.Void .ctor(System.Exception ex)

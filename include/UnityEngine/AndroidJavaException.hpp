@@ -17,7 +17,7 @@ namespace UnityEngine {
     // Offset: 0x88
     ::Il2CppString* mJavaStackTrace;
     // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const {
+    constexpr operator ::Il2CppString*() const noexcept {
       return mJavaStackTrace;
     }
     // System.Void .ctor(System.String message, System.String javaStackTrace)

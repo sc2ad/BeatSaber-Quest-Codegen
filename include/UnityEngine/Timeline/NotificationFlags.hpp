@@ -17,9 +17,9 @@ namespace UnityEngine::Timeline {
     // Offset: 0x0
     int16_t value;
     // Creating value type constructor for type: NotificationFlags
-    constexpr NotificationFlags(int16_t value_ = {}) : value{value_} {}
+    constexpr NotificationFlags(int16_t value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator int16_t
-    constexpr operator int16_t() const {
+    constexpr operator int16_t() const noexcept {
       return value;
     }
     // static field const value: static public UnityEngine.Timeline.NotificationFlags TriggerInEditMode

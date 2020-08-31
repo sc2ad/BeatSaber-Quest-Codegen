@@ -26,7 +26,7 @@ namespace Zenject::Internal {
     // Offset: 0x10
     UnityEngine::SceneManagement::Scene scene;
     // Creating conversion operator: operator UnityEngine::SceneManagement::Scene
-    constexpr operator UnityEngine::SceneManagement::Scene() const {
+    constexpr operator UnityEngine::SceneManagement::Scene() const noexcept {
       return scene;
     }
     // System.Boolean <GetRootGameObjects>b__1(UnityEngine.GameObject x)

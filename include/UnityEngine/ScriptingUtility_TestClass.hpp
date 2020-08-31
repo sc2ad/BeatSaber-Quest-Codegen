@@ -19,9 +19,9 @@ namespace UnityEngine {
     // Offset: 0x0
     int value;
     // Creating value type constructor for type: TestClass
-    constexpr TestClass(int value_ = {}) : value{value_} {}
+    constexpr TestClass(int value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return value;
     }
   }; // UnityEngine.ScriptingUtility/TestClass

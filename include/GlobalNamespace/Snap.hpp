@@ -20,7 +20,7 @@ namespace GlobalNamespace {
     // Offset: 0x24
     UnityEngine::Vector3 offset;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void SnapPosition()
     // Offset: 0xCBD6AC
     void SnapPosition();

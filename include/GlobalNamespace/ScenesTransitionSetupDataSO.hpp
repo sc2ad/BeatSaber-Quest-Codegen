@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::Array<GlobalNamespace::SceneSetupData*>* sceneSetupDataArray;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public SceneInfo[] get_scenes()
     // Offset: 0xCBBEFC
     ::Array<GlobalNamespace::SceneInfo*>* get_scenes();

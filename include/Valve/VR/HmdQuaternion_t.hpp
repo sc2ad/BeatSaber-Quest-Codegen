@@ -25,7 +25,7 @@ namespace Valve::VR {
     // Offset: 0x18
     double z;
     // Creating value type constructor for type: HmdQuaternion_t
-    constexpr HmdQuaternion_t(double w_ = {}, double x_ = {}, double y_ = {}, double z_ = {}) : w{w_}, x{x_}, y{y_}, z{z_} {}
+    constexpr HmdQuaternion_t(double w_ = {}, double x_ = {}, double y_ = {}, double z_ = {}) noexcept : w{w_}, x{x_}, y{y_}, z{z_} {}
   }; // Valve.VR.HmdQuaternion_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

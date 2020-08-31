@@ -30,7 +30,7 @@ namespace System::Security {
     // Offset: 0x88
     ::Il2CppString* permissionState;
     // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const {
+    constexpr operator ::Il2CppString*() const noexcept {
       return permissionState;
     }
     // public System.Void .ctor()

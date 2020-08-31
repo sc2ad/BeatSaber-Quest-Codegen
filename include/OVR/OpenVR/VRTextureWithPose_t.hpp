@@ -18,9 +18,9 @@ namespace OVR::OpenVR {
     // Offset: 0x0
     OVR::OpenVR::HmdMatrix34_t mDeviceToAbsoluteTracking;
     // Creating value type constructor for type: VRTextureWithPose_t
-    constexpr VRTextureWithPose_t(OVR::OpenVR::HmdMatrix34_t mDeviceToAbsoluteTracking_ = {}) : mDeviceToAbsoluteTracking{mDeviceToAbsoluteTracking_} {}
+    constexpr VRTextureWithPose_t(OVR::OpenVR::HmdMatrix34_t mDeviceToAbsoluteTracking_ = {}) noexcept : mDeviceToAbsoluteTracking{mDeviceToAbsoluteTracking_} {}
     // Creating conversion operator: operator OVR::OpenVR::HmdMatrix34_t
-    constexpr operator OVR::OpenVR::HmdMatrix34_t() const {
+    constexpr operator OVR::OpenVR::HmdMatrix34_t() const noexcept {
       return mDeviceToAbsoluteTracking;
     }
   }; // OVR.OpenVR.VRTextureWithPose_t

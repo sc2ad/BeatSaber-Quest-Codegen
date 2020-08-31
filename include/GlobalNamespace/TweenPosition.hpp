@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Offset: 0x30
     UnityEngine::Vector3 targetPos;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_TargetPos(UnityEngine.Vector3 value)
     // Offset: 0xCBE77C
     void set_TargetPos(UnityEngine::Vector3 value);

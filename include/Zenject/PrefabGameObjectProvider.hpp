@@ -42,7 +42,7 @@ namespace Zenject {
     // Offset: 0x10
     Zenject::IPrefabInstantiator* prefabCreator;
     // Creating conversion operator: operator Zenject::IPrefabInstantiator*
-    constexpr operator Zenject::IPrefabInstantiator*() const {
+    constexpr operator Zenject::IPrefabInstantiator*() const noexcept {
       return prefabCreator;
     }
     // public System.Void .ctor(Zenject.IPrefabInstantiator prefabCreator)

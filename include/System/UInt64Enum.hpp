@@ -17,9 +17,9 @@ namespace System {
     // Offset: 0x0
     uint64_t value;
     // Creating value type constructor for type: UInt64Enum
-    constexpr UInt64Enum(uint64_t value_ = {}) : value{value_} {}
+    constexpr UInt64Enum(uint64_t value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator uint64_t
-    constexpr operator uint64_t() const {
+    constexpr operator uint64_t() const noexcept {
       return value;
     }
   }; // System.UInt64Enum

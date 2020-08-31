@@ -17,7 +17,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x10
     bool val;
     // Creating conversion operator: operator bool
-    constexpr operator bool() const {
+    constexpr operator bool() const noexcept {
       return val;
     }
     // public System.Void .ctor(System.Boolean visibility)

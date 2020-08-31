@@ -19,7 +19,7 @@ namespace UnityEngine::Scripting::APIUpdating {
     // Offset: 0x10
     UnityEngine::Scripting::APIUpdating::MovedFromAttributeData data;
     // Creating conversion operator: operator UnityEngine::Scripting::APIUpdating::MovedFromAttributeData
-    constexpr operator UnityEngine::Scripting::APIUpdating::MovedFromAttributeData() const {
+    constexpr operator UnityEngine::Scripting::APIUpdating::MovedFromAttributeData() const noexcept {
       return data;
     }
     // public System.Void .ctor(System.Boolean autoUpdateAPI, System.String sourceNamespace, System.String sourceAssembly, System.String sourceClassName)

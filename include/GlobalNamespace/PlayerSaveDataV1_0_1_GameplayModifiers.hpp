@@ -28,9 +28,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: EnabledObstacleType
-      constexpr EnabledObstacleType(int value_ = {}) : value{value_} {}
+      constexpr EnabledObstacleType(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public PlayerSaveDataV1_0_1/GameplayModifiers/EnabledObstacleType All
@@ -59,9 +59,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: EnergyType
-      constexpr EnergyType(int value_ = {}) : value{value_} {}
+      constexpr EnergyType(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public PlayerSaveDataV1_0_1/GameplayModifiers/EnergyType Bar
@@ -84,9 +84,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: SongSpeed
-      constexpr SongSpeed(int value_ = {}) : value{value_} {}
+      constexpr SongSpeed(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public PlayerSaveDataV1_0_1/GameplayModifiers/SongSpeed Normal

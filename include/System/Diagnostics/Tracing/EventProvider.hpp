@@ -78,7 +78,7 @@ namespace System::Diagnostics::Tracing {
       // Offset: 0x4
       int etwSessionId;
       // Creating value type constructor for type: SessionInfo
-      constexpr SessionInfo(int sessionIdBit_ = {}, int etwSessionId_ = {}) : sessionIdBit{sessionIdBit_}, etwSessionId{etwSessionId_} {}
+      constexpr SessionInfo(int sessionIdBit_ = {}, int etwSessionId_ = {}) noexcept : sessionIdBit{sessionIdBit_}, etwSessionId{etwSessionId_} {}
       // System.Void .ctor(System.Int32 sessionIdBit_, System.Int32 etwSessionId_)
       // Offset: 0xA2D5B8
       static EventProvider::SessionInfo* New_ctor(int sessionIdBit_, int etwSessionId_);
@@ -90,9 +90,9 @@ namespace System::Diagnostics::Tracing {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: WriteEventErrorCode
-      constexpr WriteEventErrorCode(int value_ = {}) : value{value_} {}
+      constexpr WriteEventErrorCode(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public System.Diagnostics.Tracing.EventProvider/WriteEventErrorCode NoError

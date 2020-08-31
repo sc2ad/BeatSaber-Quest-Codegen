@@ -60,9 +60,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: SkeletonType
-      constexpr SkeletonType(int value_ = {}) : value{value_} {}
+      constexpr SkeletonType(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public OVRSkeleton/SkeletonType None
@@ -139,7 +139,7 @@ namespace GlobalNamespace {
     // Offset: 0x88
     System::Collections::Generic::IList_1<GlobalNamespace::OVRBoneCapsule*>* Capsules;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_IsInitialized()
     // Offset: 0xF597A4
     bool get_IsInitialized();

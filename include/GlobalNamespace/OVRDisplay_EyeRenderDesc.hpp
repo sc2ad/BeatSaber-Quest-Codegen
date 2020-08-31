@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     GlobalNamespace::OVRDisplay::EyeFov fullFov;
     // Creating value type constructor for type: EyeRenderDesc
-    constexpr EyeRenderDesc(UnityEngine::Vector2 resolution_ = {}, UnityEngine::Vector2 fov_ = {}, GlobalNamespace::OVRDisplay::EyeFov fullFov_ = {}) : resolution{resolution_}, fov{fov_}, fullFov{fullFov_} {}
+    constexpr EyeRenderDesc(UnityEngine::Vector2 resolution_ = {}, UnityEngine::Vector2 fov_ = {}, GlobalNamespace::OVRDisplay::EyeFov fullFov_ = {}) noexcept : resolution{resolution_}, fov{fov_}, fullFov{fullFov_} {}
   }; // OVRDisplay/EyeRenderDesc
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

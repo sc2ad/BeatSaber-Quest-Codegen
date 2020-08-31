@@ -31,7 +31,7 @@ namespace System::Collections {
     // Offset: 0x10
     System::Collections::Hashtable* hashtable;
     // Creating conversion operator: operator System::Collections::Hashtable*
-    constexpr operator System::Collections::Hashtable*() const {
+    constexpr operator System::Collections::Hashtable*() const noexcept {
       return hashtable;
     }
     // System.Void .ctor(System.Collections.Hashtable hashtable)

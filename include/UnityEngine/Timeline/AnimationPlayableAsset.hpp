@@ -70,9 +70,9 @@ namespace UnityEngine::Timeline {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: LoopMode
-      constexpr LoopMode(int value_ = {}) : value{value_} {}
+      constexpr LoopMode(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public UnityEngine.Timeline.AnimationPlayableAsset/LoopMode UseSourceAsset
@@ -128,7 +128,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x50
     UnityEngine::Quaternion m_Rotation;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private readonly System.Int32 k_LatestVersion
     static int _get_k_LatestVersion();
     // Set static field: static private readonly System.Int32 k_LatestVersion

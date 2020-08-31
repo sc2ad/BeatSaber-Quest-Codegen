@@ -24,7 +24,7 @@ namespace NUnit::Framework::Internal::Commands {
     // Offset: 0x10
     System::IDisposable* disposable;
     // Creating conversion operator: operator System::IDisposable*
-    constexpr operator System::IDisposable*() const {
+    constexpr operator System::IDisposable*() const noexcept {
       return disposable;
     }
     // public System.Object <Execute>b__0()

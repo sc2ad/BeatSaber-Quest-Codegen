@@ -114,7 +114,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0xB4
     float turnToTargetMlpV;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Start()
     // Offset: 0x13AB380
     void Start();

@@ -65,7 +65,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x11
     bool m_HasNotifications;
     // Creating value type constructor for type: MarkerList
-    constexpr MarkerList(System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>* m_Objects_ = {}, System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>* m_Cache_ = {}, bool m_CacheDirty_ = {}, bool m_HasNotifications_ = {}) : m_Objects{m_Objects_}, m_Cache{m_Cache_}, m_CacheDirty{m_CacheDirty_}, m_HasNotifications{m_HasNotifications_} {}
+    constexpr MarkerList(System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>* m_Objects_ = {}, System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>* m_Cache_ = {}, bool m_CacheDirty_ = {}, bool m_HasNotifications_ = {}) noexcept : m_Objects{m_Objects_}, m_Cache{m_Cache_}, m_CacheDirty{m_CacheDirty_}, m_HasNotifications{m_HasNotifications_} {}
     // public System.Collections.Generic.List`1<UnityEngine.Timeline.IMarker> get_markers()
     // Offset: 0xA40534
     System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>* get_markers();

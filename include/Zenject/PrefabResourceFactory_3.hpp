@@ -27,7 +27,7 @@ namespace Zenject {
     // Offset: 0x0
     Zenject::DiContainer* container;
     // Creating conversion operator: operator Zenject::DiContainer*
-    constexpr operator Zenject::DiContainer*() const {
+    constexpr operator Zenject::DiContainer*() const noexcept {
       return container;
     }
     // public Zenject.DiContainer get_Container()

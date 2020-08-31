@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     // Offset: 0x48
     bool changingGameplayModifierToggles;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public GameplayModifiers get_gameplayModifiers()
     // Offset: 0xB4076C
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();

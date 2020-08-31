@@ -32,9 +32,9 @@ namespace Zenject {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: ContainerSources
-      constexpr ContainerSources(int value_ = {}) : value{value_} {}
+      constexpr ContainerSources(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public Zenject.ZenAutoInjecter/ContainerSources SceneContext
@@ -63,7 +63,7 @@ namespace Zenject {
     // Offset: 0x1C
     bool hasInjected;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public Zenject.ZenAutoInjecter/ContainerSources get_ContainerSource()
     // Offset: 0x1943694
     Zenject::ZenAutoInjecter::ContainerSources get_ContainerSource();

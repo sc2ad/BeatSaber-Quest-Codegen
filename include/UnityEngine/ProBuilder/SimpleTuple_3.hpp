@@ -28,7 +28,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x0
     T3 m_Item3;
     // Creating value type constructor for type: SimpleTuple_3
-    constexpr SimpleTuple_3(T1 m_Item1_ = {}, T2 m_Item2_ = {}, T3 m_Item3_ = {}) : m_Item1{m_Item1_}, m_Item2{m_Item2_}, m_Item3{m_Item3_} {}
+    constexpr SimpleTuple_3(T1 m_Item1_ = {}, T2 m_Item2_ = {}, T3 m_Item3_ = {}) noexcept : m_Item1{m_Item1_}, m_Item2{m_Item2_}, m_Item3{m_Item3_} {}
     // public T1 get_item1()
     // Offset: 0xFFFFFFFF
     T1 get_item1() {

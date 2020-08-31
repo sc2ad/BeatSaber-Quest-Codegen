@@ -17,7 +17,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x10
     bool m_wrapNonExceptionThrows;
     // Creating conversion operator: operator bool
-    constexpr operator bool() const {
+    constexpr operator bool() const noexcept {
       return m_wrapNonExceptionThrows;
     }
     // public System.Void set_WrapNonExceptionThrows(System.Boolean value)

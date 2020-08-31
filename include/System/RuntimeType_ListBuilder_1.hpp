@@ -35,7 +35,7 @@ namespace System {
     // Offset: 0x0
     int capacity;
     // Creating value type constructor for type: ListBuilder_1
-    constexpr ListBuilder_1(::Array<T>* items_ = {}, T item_ = {}, int count_ = {}, int capacity_ = {}) : items{items_}, item{item_}, count{count_}, capacity{capacity_} {}
+    constexpr ListBuilder_1(::Array<T>* items_ = {}, T item_ = {}, int count_ = {}, int capacity_ = {}) noexcept : items{items_}, item{item_}, count{count_}, capacity{capacity_} {}
     // public System.Void .ctor(System.Int32 capacity)
     // Offset: 0xFFFFFFFF
     static RuntimeType::ListBuilder_1<T>* New_ctor(int capacity) {

@@ -30,7 +30,7 @@ namespace System::IO {
     // Offset: 0x88
     ::Il2CppString* maybeFullPath;
     // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const {
+    constexpr operator ::Il2CppString*() const noexcept {
       return maybeFullPath;
     }
     // public System.Void .ctor(System.String message, System.Int32 hresult)

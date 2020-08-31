@@ -80,7 +80,7 @@ namespace UnityEngine::PlayerLoop {
     // Nested type: UnityEngine::PlayerLoop::EarlyUpdate::PerformanceAnalyticsUpdate
     struct PerformanceAnalyticsUpdate;
     // Creating value type constructor for type: EarlyUpdate
-    constexpr EarlyUpdate() {}
+    constexpr EarlyUpdate() noexcept {}
   }; // UnityEngine.PlayerLoop.EarlyUpdate
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -31,7 +31,7 @@ namespace UnityEngine {
     // Offset: 0xC
     float m_Distance;
     // Creating value type constructor for type: Plane
-    constexpr Plane(UnityEngine::Vector3 m_Normal_ = {}, float m_Distance_ = {}) : m_Normal{m_Normal_}, m_Distance{m_Distance_} {}
+    constexpr Plane(UnityEngine::Vector3 m_Normal_ = {}, float m_Distance_ = {}) noexcept : m_Normal{m_Normal_}, m_Distance{m_Distance_} {}
     // static field const value: static System.Int32 size
     static constexpr const int size = 16;
     // Get static field: static System.Int32 size

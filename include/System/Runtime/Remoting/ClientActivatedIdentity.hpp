@@ -35,7 +35,7 @@ namespace System::Runtime::Remoting {
     // Offset: 0x70
     System::MarshalByRefObject* targetThis;
     // Creating conversion operator: operator System::MarshalByRefObject*
-    constexpr operator System::MarshalByRefObject*() const {
+    constexpr operator System::MarshalByRefObject*() const noexcept {
       return targetThis;
     }
     // public System.Void .ctor(System.String objectUri, System.Type objectType)

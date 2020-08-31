@@ -19,7 +19,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x10
     UnityEngine::Timeline::TimelineAsset::MediaType m_MediaType;
     // Creating conversion operator: operator UnityEngine::Timeline::TimelineAsset::MediaType
-    constexpr operator UnityEngine::Timeline::TimelineAsset::MediaType() const {
+    constexpr operator UnityEngine::Timeline::TimelineAsset::MediaType() const noexcept {
       return m_MediaType;
     }
     // public System.Void .ctor(UnityEngine.Timeline.TimelineAsset/MediaType mt)

@@ -129,7 +129,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0xE8
     UnityEngine::Collider* c;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void OpenUserManual()
     // Offset: 0x144FCB8
     void OpenUserManual();

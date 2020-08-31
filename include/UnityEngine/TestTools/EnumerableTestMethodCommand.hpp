@@ -44,7 +44,7 @@ namespace UnityEngine::TestTools {
     // Offset: 0x18
     NUnit::Framework::Internal::TestMethod* testMethod;
     // Deleting conversion operator: operator NUnit::Framework::Internal::Test*
-    constexpr operator NUnit::Framework::Internal::Test*() const = delete;
+    constexpr operator NUnit::Framework::Internal::Test*() const noexcept = delete;
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod testMethod)
     // Offset: 0xE368C4
     static EnumerableTestMethodCommand* New_ctor(NUnit::Framework::Internal::TestMethod* testMethod);

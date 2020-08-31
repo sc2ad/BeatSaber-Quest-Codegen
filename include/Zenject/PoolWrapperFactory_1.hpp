@@ -34,7 +34,7 @@ namespace Zenject {
     // Offset: 0x0
     Zenject::IMemoryPool_1<T>* pool;
     // Creating conversion operator: operator Zenject::IMemoryPool_1<T>*
-    constexpr operator Zenject::IMemoryPool_1<T>*() const {
+    constexpr operator Zenject::IMemoryPool_1<T>*() const noexcept {
       return pool;
     }
     // public System.Void .ctor(Zenject.IMemoryPool`1<T> pool)

@@ -17,9 +17,9 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x0
     uint8_t value;
     // Creating value type constructor for type: ArgInfoType
-    constexpr ArgInfoType(uint8_t value_ = {}) : value{value_} {}
+    constexpr ArgInfoType(uint8_t value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator uint8_t
-    constexpr operator uint8_t() const {
+    constexpr operator uint8_t() const noexcept {
       return value;
     }
     // static field const value: static public System.Runtime.Remoting.Messaging.ArgInfoType In

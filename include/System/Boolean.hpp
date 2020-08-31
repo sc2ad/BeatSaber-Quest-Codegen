@@ -44,9 +44,9 @@ namespace System {
     // Offset: 0x0
     bool m_value;
     // Creating value type constructor for type: Boolean
-    constexpr Boolean(bool m_value_ = {}) : m_value{m_value_} {}
+    constexpr Boolean(bool m_value_ = {}) noexcept : m_value{m_value_} {}
     // Creating conversion operator: operator bool
-    constexpr operator bool() const {
+    constexpr operator bool() const noexcept {
       return m_value;
     }
     // static field const value: static System.Int32 True

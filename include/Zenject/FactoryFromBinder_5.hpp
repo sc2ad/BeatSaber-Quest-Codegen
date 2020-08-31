@@ -63,7 +63,7 @@ namespace Zenject {
       // Offset: 0x0
       System::Func_6<Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TContract>* method;
       // Creating conversion operator: operator System::Func_6<Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TContract>*
-      constexpr operator System::Func_6<Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TContract>*() const {
+      constexpr operator System::Func_6<Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TContract>*() const noexcept {
         return method;
       }
       // Zenject.IProvider <FromMethod>b__0(Zenject.DiContainer container)

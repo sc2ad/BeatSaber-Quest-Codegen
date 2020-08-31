@@ -40,9 +40,9 @@ namespace RootMotion {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: Mode
-      constexpr Mode(int value_ = {}) : value{value_} {}
+      constexpr Mode(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public RootMotion.Baker/Mode AnimationClips
@@ -113,7 +113,7 @@ namespace RootMotion {
     // Offset: 0x70
     float clipLength;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void OpenUserManual()
     // Offset: 0x13A07A0
     void OpenUserManual();

@@ -39,7 +39,7 @@ namespace OVR::OpenVR {
     // Offset: 0x10
     OVR::OpenVR::IVRTrackedCamera FnTable;
     // Creating conversion operator: operator OVR::OpenVR::IVRTrackedCamera
-    constexpr operator OVR::OpenVR::IVRTrackedCamera() const {
+    constexpr operator OVR::OpenVR::IVRTrackedCamera() const noexcept {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)

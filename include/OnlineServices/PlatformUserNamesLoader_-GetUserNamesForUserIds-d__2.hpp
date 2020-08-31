@@ -42,7 +42,7 @@ namespace OnlineServices {
     // Offset: 0x38
     System::Runtime::CompilerServices::TaskAwaiter_1<::Array<::Il2CppString*>*> $$u__1;
     // Creating value type constructor for type: $GetUserNamesForUserIds$d__2
-    constexpr $GetUserNamesForUserIds$d__2(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Array<::Il2CppString*>*> $$t__builder_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, OnlineServices::PlatformUserNamesLoader* $$4__this_ = {}, ::Array<::Il2CppString*>* userPlatfromIds_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Array<::Il2CppString*>*> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, cancellationToken{cancellationToken_}, $$4__this{$$4__this_}, userPlatfromIds{userPlatfromIds_}, $$u__1{$$u__1_} {}
+    constexpr $GetUserNamesForUserIds$d__2(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Array<::Il2CppString*>*> $$t__builder_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, OnlineServices::PlatformUserNamesLoader* $$4__this_ = {}, ::Array<::Il2CppString*>* userPlatfromIds_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Array<::Il2CppString*>*> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, cancellationToken{cancellationToken_}, $$4__this{$$4__this_}, userPlatfromIds{userPlatfromIds_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
     // Offset: 0xA2C1B0
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine

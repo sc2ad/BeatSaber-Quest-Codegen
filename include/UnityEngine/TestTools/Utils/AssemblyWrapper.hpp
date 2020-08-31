@@ -24,7 +24,7 @@ namespace UnityEngine::TestTools::Utils {
     // Offset: 0x10
     System::Reflection::Assembly* Assembly;
     // Creating conversion operator: operator System::Reflection::Assembly*
-    constexpr operator System::Reflection::Assembly*() const {
+    constexpr operator System::Reflection::Assembly*() const noexcept {
       return Assembly;
     }
     // public System.Void .ctor(System.Reflection.Assembly assembly)

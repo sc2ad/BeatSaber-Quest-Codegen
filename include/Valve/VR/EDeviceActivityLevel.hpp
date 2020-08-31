@@ -17,9 +17,9 @@ namespace Valve::VR {
     // Offset: 0x0
     int value;
     // Creating value type constructor for type: EDeviceActivityLevel
-    constexpr EDeviceActivityLevel(int value_ = {}) : value{value_} {}
+    constexpr EDeviceActivityLevel(int value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return value;
     }
     // static field const value: static public Valve.VR.EDeviceActivityLevel k_EDeviceActivityLevel_Unknown

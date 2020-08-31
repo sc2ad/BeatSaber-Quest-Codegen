@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::Saber* saber;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didFinishEvent(System.Action`1<BombCutSoundEffect> value)
     // Offset: 0xB7BDE4
     void add_didFinishEvent(System::Action_1<GlobalNamespace::BombCutSoundEffect*>* value);

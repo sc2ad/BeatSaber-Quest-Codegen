@@ -32,7 +32,7 @@ namespace OVR::OpenVR {
     // Offset: 0x4
     System::IntPtr rubTextureMapData;
     // Creating value type constructor for type: RenderModel_TextureMap_t_Packed
-    constexpr RenderModel_TextureMap_t_Packed(uint16_t unWidth_ = {}, uint16_t unHeight_ = {}, System::IntPtr rubTextureMapData_ = {}) : unWidth{unWidth_}, unHeight{unHeight_}, rubTextureMapData{rubTextureMapData_} {}
+    constexpr RenderModel_TextureMap_t_Packed(uint16_t unWidth_ = {}, uint16_t unHeight_ = {}, System::IntPtr rubTextureMapData_ = {}) noexcept : unWidth{unWidth_}, unHeight{unHeight_}, rubTextureMapData{rubTextureMapData_} {}
     // public System.Void .ctor(OVR.OpenVR.RenderModel_TextureMap_t unpacked)
     // Offset: 0xA2DB18
     static RenderModel_TextureMap_t_Packed* New_ctor(OVR::OpenVR::RenderModel_TextureMap_t unpacked);

@@ -32,7 +32,7 @@ namespace TMPro {
     // Offset: 0x18
     bool isSelected;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
     // Offset: 0xBB2940
     // Implemented from: UnityEngine.EventSystems.IPointerClickHandler

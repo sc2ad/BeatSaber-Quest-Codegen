@@ -17,7 +17,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x10
     float m_Framerate;
     // Creating conversion operator: operator float
-    constexpr operator float() const {
+    constexpr operator float() const noexcept {
       return m_Framerate;
     }
     // Get static field: static readonly System.Single kMinFps

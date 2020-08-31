@@ -33,7 +33,7 @@ namespace System::Xml {
     // Offset: 0x20
     ::Il2CppObject* o;
     // Creating value type constructor for type: XmlEvent
-    constexpr XmlEvent(System::Xml::XmlEventCache::XmlEventType eventType_ = {}, ::Il2CppString* s1_ = {}, ::Il2CppString* s2_ = {}, ::Il2CppString* s3_ = {}, ::Il2CppObject* o_ = {}) : eventType{eventType_}, s1{s1_}, s2{s2_}, s3{s3_}, o{o_} {}
+    constexpr XmlEvent(System::Xml::XmlEventCache::XmlEventType eventType_ = {}, ::Il2CppString* s1_ = {}, ::Il2CppString* s2_ = {}, ::Il2CppString* s3_ = {}, ::Il2CppObject* o_ = {}) noexcept : eventType{eventType_}, s1{s1_}, s2{s2_}, s3{s3_}, o{o_} {}
     // public System.Void InitEvent(System.Xml.XmlEventCache/XmlEventType eventType)
     // Offset: 0xA42D18
     void InitEvent(System::Xml::XmlEventCache::XmlEventType eventType);

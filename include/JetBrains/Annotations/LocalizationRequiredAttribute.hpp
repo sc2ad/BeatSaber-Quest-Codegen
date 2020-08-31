@@ -17,7 +17,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x10
     bool Required;
     // Creating conversion operator: operator bool
-    constexpr operator bool() const {
+    constexpr operator bool() const noexcept {
       return Required;
     }
     // public System.Void .ctor(System.Boolean required)

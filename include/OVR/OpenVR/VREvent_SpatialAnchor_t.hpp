@@ -16,9 +16,9 @@ namespace OVR::OpenVR {
     // Offset: 0x0
     uint unHandle;
     // Creating value type constructor for type: VREvent_SpatialAnchor_t
-    constexpr VREvent_SpatialAnchor_t(uint unHandle_ = {}) : unHandle{unHandle_} {}
+    constexpr VREvent_SpatialAnchor_t(uint unHandle_ = {}) noexcept : unHandle{unHandle_} {}
     // Creating conversion operator: operator uint
-    constexpr operator uint() const {
+    constexpr operator uint() const noexcept {
       return unHandle;
     }
   }; // OVR.OpenVR.VREvent_SpatialAnchor_t

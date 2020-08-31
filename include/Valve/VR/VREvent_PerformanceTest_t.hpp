@@ -16,9 +16,9 @@ namespace Valve::VR {
     // Offset: 0x0
     uint m_nFidelityLevel;
     // Creating value type constructor for type: VREvent_PerformanceTest_t
-    constexpr VREvent_PerformanceTest_t(uint m_nFidelityLevel_ = {}) : m_nFidelityLevel{m_nFidelityLevel_} {}
+    constexpr VREvent_PerformanceTest_t(uint m_nFidelityLevel_ = {}) noexcept : m_nFidelityLevel{m_nFidelityLevel_} {}
     // Creating conversion operator: operator uint
-    constexpr operator uint() const {
+    constexpr operator uint() const noexcept {
       return m_nFidelityLevel;
     }
   }; // Valve.VR.VREvent_PerformanceTest_t

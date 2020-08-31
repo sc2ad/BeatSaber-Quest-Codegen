@@ -119,7 +119,7 @@ namespace System::Collections::Concurrent {
       // Offset: 0x0
       System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* enumerator;
       // Creating conversion operator: operator System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
-      constexpr operator System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() const {
+      constexpr operator System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() const noexcept {
         return enumerator;
       }
       // System.Void .ctor(System.Collections.Concurrent.ConcurrentDictionary`2<TKey,TValue> dictionary)

@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Offset: 0x38
     UnityEngine::Texture2D* defaultPackCoverTexture2D;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void .ctor()
     // Offset: 0xBE38D8
     // Implemented from: UnityEngine.MonoBehaviour

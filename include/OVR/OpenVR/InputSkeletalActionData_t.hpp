@@ -23,7 +23,7 @@ namespace OVR::OpenVR {
     // Offset: 0x10
     uint boneCount;
     // Creating value type constructor for type: InputSkeletalActionData_t
-    constexpr InputSkeletalActionData_t(bool bActive_ = {}, uint64_t activeOrigin_ = {}, uint boneCount_ = {}) : bActive{bActive_}, activeOrigin{activeOrigin_}, boneCount{boneCount_} {}
+    constexpr InputSkeletalActionData_t(bool bActive_ = {}, uint64_t activeOrigin_ = {}, uint boneCount_ = {}) noexcept : bActive{bActive_}, activeOrigin{activeOrigin_}, boneCount{boneCount_} {}
   }; // OVR.OpenVR.InputSkeletalActionData_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

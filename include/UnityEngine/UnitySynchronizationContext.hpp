@@ -43,7 +43,7 @@ namespace UnityEngine {
       // Offset: 0x10
       System::Threading::ManualResetEvent* m_WaitHandle;
       // Creating value type constructor for type: WorkRequest
-      constexpr WorkRequest(System::Threading::SendOrPostCallback* m_DelagateCallback_ = {}, ::Il2CppObject* m_DelagateState_ = {}, System::Threading::ManualResetEvent* m_WaitHandle_ = {}) : m_DelagateCallback{m_DelagateCallback_}, m_DelagateState{m_DelagateState_}, m_WaitHandle{m_WaitHandle_} {}
+      constexpr WorkRequest(System::Threading::SendOrPostCallback* m_DelagateCallback_ = {}, ::Il2CppObject* m_DelagateState_ = {}, System::Threading::ManualResetEvent* m_WaitHandle_ = {}) noexcept : m_DelagateCallback{m_DelagateCallback_}, m_DelagateState{m_DelagateState_}, m_WaitHandle{m_WaitHandle_} {}
       // public System.Void .ctor(System.Threading.SendOrPostCallback callback, System.Object state, System.Threading.ManualResetEvent waitHandle)
       // Offset: 0xA47750
       static UnitySynchronizationContext::WorkRequest* New_ctor(System::Threading::SendOrPostCallback* callback, ::Il2CppObject* state, System::Threading::ManualResetEvent* waitHandle);
@@ -64,7 +64,7 @@ namespace UnityEngine {
     // Offset: 0x2C
     int m_TrackedCount;
     // Deleting conversion operator: operator System::Threading::SynchronizationContextProperties
-    constexpr operator System::Threading::SynchronizationContextProperties() const = delete;
+    constexpr operator System::Threading::SynchronizationContextProperties() const noexcept = delete;
     // private System.Void .ctor(System.Int32 mainThreadID)
     // Offset: 0x139AA38
     static UnitySynchronizationContext* New_ctor(int mainThreadID);

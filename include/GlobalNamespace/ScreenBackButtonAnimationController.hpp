@@ -41,9 +41,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: AnimationType
-      constexpr AnimationType(int value_ = {}) : value{value_} {}
+      constexpr AnimationType(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public ScreenBackButtonAnimationController/AnimationType FadeIn
@@ -90,7 +90,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenBackButtonAnimationController::AnimationType, int>* animationHashes;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
     // Offset: 0x10EE570
     void Awake();

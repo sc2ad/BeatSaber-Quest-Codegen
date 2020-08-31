@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     // Offset: 0x68
     bool sabersInsideAfterOnEnable;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_alpha(System.Single value)
     // Offset: 0xB45F78
     void set_alpha(float value);

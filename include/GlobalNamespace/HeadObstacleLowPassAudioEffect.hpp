@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     bool headWasInObstacle;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Update()
     // Offset: 0xB43870
     void Update();

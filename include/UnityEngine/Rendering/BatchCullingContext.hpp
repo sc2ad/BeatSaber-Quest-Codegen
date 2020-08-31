@@ -34,7 +34,7 @@ namespace UnityEngine::Rendering {
     // Offset: 0x30
     UnityEngine::Rendering::LODParameters lodParameters;
     // Creating value type constructor for type: BatchCullingContext
-    constexpr BatchCullingContext(Unity::Collections::NativeArray_1<UnityEngine::Plane> cullingPlanes_ = {}, Unity::Collections::NativeArray_1<UnityEngine::Rendering::BatchVisibility> batchVisibility_ = {}, Unity::Collections::NativeArray_1<int> visibleIndices_ = {}, UnityEngine::Rendering::LODParameters lodParameters_ = {}) : cullingPlanes{cullingPlanes_}, batchVisibility{batchVisibility_}, visibleIndices{visibleIndices_}, lodParameters{lodParameters_} {}
+    constexpr BatchCullingContext(Unity::Collections::NativeArray_1<UnityEngine::Plane> cullingPlanes_ = {}, Unity::Collections::NativeArray_1<UnityEngine::Rendering::BatchVisibility> batchVisibility_ = {}, Unity::Collections::NativeArray_1<int> visibleIndices_ = {}, UnityEngine::Rendering::LODParameters lodParameters_ = {}) noexcept : cullingPlanes{cullingPlanes_}, batchVisibility{batchVisibility_}, visibleIndices{visibleIndices_}, lodParameters{lodParameters_} {}
     // public System.Void .ctor(Unity.Collections.NativeArray`1<UnityEngine.Plane> inCullingPlanes, Unity.Collections.NativeArray`1<UnityEngine.Rendering.BatchVisibility> inOutBatchVisibility, Unity.Collections.NativeArray`1<System.Int32> outVisibleIndices, UnityEngine.Rendering.LODParameters inLodParameters)
     // Offset: 0xA46F94
     static BatchCullingContext* New_ctor(Unity::Collections::NativeArray_1<UnityEngine::Plane> inCullingPlanes, Unity::Collections::NativeArray_1<UnityEngine::Rendering::BatchVisibility> inOutBatchVisibility, Unity::Collections::NativeArray_1<int> outVisibleIndices, UnityEngine::Rendering::LODParameters inLodParameters);

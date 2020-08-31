@@ -36,7 +36,7 @@ namespace UnityEngine::PlayerLoop {
     // Nested type: UnityEngine::PlayerLoop::PreUpdate::NewInputUpdate
     struct NewInputUpdate;
     // Creating value type constructor for type: PreUpdate
-    constexpr PreUpdate() {}
+    constexpr PreUpdate() noexcept {}
   }; // UnityEngine.PlayerLoop.PreUpdate
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

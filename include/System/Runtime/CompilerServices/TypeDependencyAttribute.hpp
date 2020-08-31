@@ -17,7 +17,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x10
     ::Il2CppString* typeName;
     // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const {
+    constexpr operator ::Il2CppString*() const noexcept {
       return typeName;
     }
     // public System.Void .ctor(System.String typeName)

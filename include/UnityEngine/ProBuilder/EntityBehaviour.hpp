@@ -31,7 +31,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x18
     bool manageVisibility;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Initialize()
     // Offset: 0xFFFFFFFF
     void Initialize();

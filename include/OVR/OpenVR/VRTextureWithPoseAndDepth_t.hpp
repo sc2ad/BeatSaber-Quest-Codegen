@@ -18,9 +18,9 @@ namespace OVR::OpenVR {
     // Offset: 0x0
     OVR::OpenVR::VRTextureDepthInfo_t depth;
     // Creating value type constructor for type: VRTextureWithPoseAndDepth_t
-    constexpr VRTextureWithPoseAndDepth_t(OVR::OpenVR::VRTextureDepthInfo_t depth_ = {}) : depth{depth_} {}
+    constexpr VRTextureWithPoseAndDepth_t(OVR::OpenVR::VRTextureDepthInfo_t depth_ = {}) noexcept : depth{depth_} {}
     // Creating conversion operator: operator OVR::OpenVR::VRTextureDepthInfo_t
-    constexpr operator OVR::OpenVR::VRTextureDepthInfo_t() const {
+    constexpr operator OVR::OpenVR::VRTextureDepthInfo_t() const noexcept {
       return depth;
     }
   }; // OVR.OpenVR.VRTextureWithPoseAndDepth_t

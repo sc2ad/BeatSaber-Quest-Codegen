@@ -48,7 +48,7 @@ namespace Zenject {
     // Offset: 0x0
     System::Func_2<Zenject::DiContainer*, TValue>* method;
     // Creating conversion operator: operator System::Func_2<Zenject::DiContainer*, TValue>*
-    constexpr operator System::Func_2<Zenject::DiContainer*, TValue>*() const {
+    constexpr operator System::Func_2<Zenject::DiContainer*, TValue>*() const noexcept {
       return method;
     }
     // public System.Void .ctor(System.Func`2<Zenject.DiContainer,TValue> method)

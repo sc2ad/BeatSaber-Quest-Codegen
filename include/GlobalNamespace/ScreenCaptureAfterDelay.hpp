@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     // Offset: 0x38
     UnityEngine::RenderTexture* captureRenderTexture;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Collections.IEnumerator Start()
     // Offset: 0x1914EC8
     System::Collections::IEnumerator* Start();

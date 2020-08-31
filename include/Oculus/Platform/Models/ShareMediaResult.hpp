@@ -24,7 +24,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x10
     Oculus::Platform::ShareMediaStatus Status;
     // Creating conversion operator: operator Oculus::Platform::ShareMediaStatus
-    constexpr operator Oculus::Platform::ShareMediaStatus() const {
+    constexpr operator Oculus::Platform::ShareMediaStatus() const noexcept {
       return Status;
     }
     // public System.Void .ctor(System.IntPtr o)

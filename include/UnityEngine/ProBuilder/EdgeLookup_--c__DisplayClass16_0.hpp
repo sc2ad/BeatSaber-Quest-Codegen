@@ -30,7 +30,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x10
     System::Collections::Generic::Dictionary_2<int, int>* lookup;
     // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<int, int>*
-    constexpr operator System::Collections::Generic::Dictionary_2<int, int>*() const {
+    constexpr operator System::Collections::Generic::Dictionary_2<int, int>*() const noexcept {
       return lookup;
     }
     // UnityEngine.ProBuilder.EdgeLookup <GetEdgeLookup>b__0(UnityEngine.ProBuilder.Edge x)

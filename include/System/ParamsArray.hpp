@@ -30,7 +30,7 @@ namespace System {
     // Offset: 0x18
     ::Array<::Il2CppObject*>* args;
     // Creating value type constructor for type: ParamsArray
-    constexpr ParamsArray(::Il2CppObject* arg0_ = {}, ::Il2CppObject* arg1_ = {}, ::Il2CppObject* arg2_ = {}, ::Array<::Il2CppObject*>* args_ = {}) : arg0{arg0_}, arg1{arg1_}, arg2{arg2_}, args{args_} {}
+    constexpr ParamsArray(::Il2CppObject* arg0_ = {}, ::Il2CppObject* arg1_ = {}, ::Il2CppObject* arg2_ = {}, ::Array<::Il2CppObject*>* args_ = {}) noexcept : arg0{arg0_}, arg1{arg1_}, arg2{arg2_}, args{args_} {}
     // Get static field: static private readonly System.Object[] oneArgArray
     static ::Array<::Il2CppObject*>* _get_oneArgArray();
     // Set static field: static private readonly System.Object[] oneArgArray

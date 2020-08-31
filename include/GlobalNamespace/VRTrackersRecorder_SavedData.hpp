@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     ::Array<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable*>* keyframes;
     // Creating conversion operator: operator ::Array<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable*>*
-    constexpr operator ::Array<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable*>*() const {
+    constexpr operator ::Array<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable*>*() const noexcept {
       return keyframes;
     }
     // public System.Void .ctor()

@@ -49,9 +49,9 @@ namespace System {
     // Offset: 0x0
     int16_t m_value;
     // Creating value type constructor for type: Int16
-    constexpr Int16(int16_t m_value_ = {}) : m_value{m_value_} {}
+    constexpr Int16(int16_t m_value_ = {}) noexcept : m_value{m_value_} {}
     // Creating conversion operator: operator int16_t
-    constexpr operator int16_t() const {
+    constexpr operator int16_t() const noexcept {
       return m_value;
     }
     // static field const value: static public System.Int16 MaxValue

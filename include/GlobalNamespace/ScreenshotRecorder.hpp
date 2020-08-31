@@ -35,9 +35,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: RecordingType
-      constexpr RecordingType(int value_ = {}) : value{value_} {}
+      constexpr RecordingType(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public ScreenshotRecorder/RecordingType Sequence
@@ -132,7 +132,7 @@ namespace GlobalNamespace {
     // Offset: 0x70
     UnityEngine::RenderTexture* cameraRenderTexture;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnEnable()
     // Offset: 0xCBBF1C
     void OnEnable();

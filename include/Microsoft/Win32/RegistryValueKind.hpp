@@ -17,9 +17,9 @@ namespace Microsoft::Win32 {
     // Offset: 0x0
     int value;
     // Creating value type constructor for type: RegistryValueKind
-    constexpr RegistryValueKind(int value_ = {}) : value{value_} {}
+    constexpr RegistryValueKind(int value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return value;
     }
     // static field const value: static public Microsoft.Win32.RegistryValueKind Unknown

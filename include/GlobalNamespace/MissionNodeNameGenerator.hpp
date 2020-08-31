@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::MissionNodesManager* missionNodesManager;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void .ctor()
     // Offset: 0xC09C20
     // Implemented from: UnityEngine.MonoBehaviour

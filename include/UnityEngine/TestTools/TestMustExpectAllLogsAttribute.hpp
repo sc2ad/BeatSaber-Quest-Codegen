@@ -17,7 +17,7 @@ namespace UnityEngine::TestTools {
     // Offset: 0x10
     bool MustExpect;
     // Creating conversion operator: operator bool
-    constexpr operator bool() const {
+    constexpr operator bool() const noexcept {
       return MustExpect;
     }
     // public System.Boolean get_MustExpect()

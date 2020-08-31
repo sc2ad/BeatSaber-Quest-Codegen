@@ -21,9 +21,9 @@ namespace Mono {
     // Offset: 0x0
     System::IntPtr value;
     // Creating value type constructor for type: RuntimePropertyHandle
-    constexpr RuntimePropertyHandle(System::IntPtr value_ = {}) : value{value_} {}
+    constexpr RuntimePropertyHandle(System::IntPtr value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const {
+    constexpr operator System::IntPtr() const noexcept {
       return value;
     }
     // System.Void .ctor(System.IntPtr v)

@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     UnityEngine::RenderBuffer depthBuffer;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.RenderBuffer get_ColorBuffer()
     // Offset: 0xB41558
     UnityEngine::RenderBuffer get_ColorBuffer();

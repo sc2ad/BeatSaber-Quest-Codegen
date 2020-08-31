@@ -24,7 +24,7 @@ namespace Zenject::Internal {
     // Offset: 0x10
     System::Type* type;
     // Creating conversion operator: operator System::Type*
-    constexpr operator System::Type*() const {
+    constexpr operator System::Type*() const noexcept {
       return type;
     }
     // System.Object <TryCreateFactoryMethod>b__0(System.Object[] args)

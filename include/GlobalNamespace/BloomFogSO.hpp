@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Offset: 0x2C
     float transition;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.String kBloomFogEnabledKeyword
     static constexpr const char* kBloomFogEnabledKeyword = "ENABLE_BLOOM_FOG";
     // Get static field: static private System.String kBloomFogEnabledKeyword

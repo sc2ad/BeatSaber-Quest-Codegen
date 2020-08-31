@@ -43,7 +43,7 @@ namespace System::Resources {
     // Offset: 0x10
     System::Resources::ResourceManager* rm;
     // Creating conversion operator: operator System::Resources::ResourceManager*
-    constexpr operator System::Resources::ResourceManager*() const {
+    constexpr operator System::Resources::ResourceManager*() const noexcept {
       return rm;
     }
     // System.Void .ctor(System.Resources.ResourceManager rm)

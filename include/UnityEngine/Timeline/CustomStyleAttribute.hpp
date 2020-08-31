@@ -17,7 +17,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x10
     ::Il2CppString* ussStyle;
     // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const {
+    constexpr operator ::Il2CppString*() const noexcept {
       return ussStyle;
     }
     // public System.Void .ctor(System.String ussStyle)

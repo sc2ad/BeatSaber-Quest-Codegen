@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     System::Func_1<System::Threading::Tasks::Task*>* asyncTask;
     // Creating conversion operator: operator System::Func_1<System::Threading::Tasks::Task*>*
-    constexpr operator System::Func_1<System::Threading::Tasks::Task*>*() const {
+    constexpr operator System::Func_1<System::Threading::Tasks::Task*>*() const noexcept {
       return asyncTask;
     }
     // System.Threading.Tasks.Task <RunSync>b__0()

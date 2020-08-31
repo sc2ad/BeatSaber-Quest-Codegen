@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     // Offset: 0x34
     int numberOfClearedMissions;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Int32 get_numberOfClearedMissions()
     // Offset: 0xB7E294
     int get_numberOfClearedMissions();

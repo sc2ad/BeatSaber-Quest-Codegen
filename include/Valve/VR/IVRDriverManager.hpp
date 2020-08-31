@@ -28,7 +28,7 @@ namespace Valve::VR {
     // Offset: 0x8
     Valve::VR::IVRDriverManager::_GetDriverName* GetDriverName;
     // Creating value type constructor for type: IVRDriverManager
-    constexpr IVRDriverManager(Valve::VR::IVRDriverManager::_GetDriverCount* GetDriverCount_ = {}, Valve::VR::IVRDriverManager::_GetDriverName* GetDriverName_ = {}) : GetDriverCount{GetDriverCount_}, GetDriverName{GetDriverName_} {}
+    constexpr IVRDriverManager(Valve::VR::IVRDriverManager::_GetDriverCount* GetDriverCount_ = {}, Valve::VR::IVRDriverManager::_GetDriverName* GetDriverName_ = {}) noexcept : GetDriverCount{GetDriverCount_}, GetDriverName{GetDriverName_} {}
   }; // Valve.VR.IVRDriverManager
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

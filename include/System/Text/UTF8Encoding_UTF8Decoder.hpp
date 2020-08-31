@@ -28,7 +28,7 @@ namespace System::Text {
     // Offset: 0x30
     int bits;
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return bits;
     }
     // public System.Void .ctor(System.Text.UTF8Encoding encoding)

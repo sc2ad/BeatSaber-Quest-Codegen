@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     // Offset: 0x30
     bool initialized;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kMaxPyramidSize
     static constexpr const int kMaxPyramidSize = 16;
     // Get static field: static private System.Int32 kMaxPyramidSize

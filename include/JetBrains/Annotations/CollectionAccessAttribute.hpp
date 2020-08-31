@@ -19,7 +19,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x10
     JetBrains::Annotations::CollectionAccessType CollectionAccessType;
     // Creating conversion operator: operator JetBrains::Annotations::CollectionAccessType
-    constexpr operator JetBrains::Annotations::CollectionAccessType() const {
+    constexpr operator JetBrains::Annotations::CollectionAccessType() const noexcept {
       return CollectionAccessType;
     }
     // public System.Void .ctor(JetBrains.Annotations.CollectionAccessType collectionAccessType)

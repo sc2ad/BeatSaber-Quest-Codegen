@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Action* TriggerCheckerOnStayEvent;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void OnTriggerEnter(UnityEngine.Collider other)
     // Offset: 0xCBE738
     void OnTriggerEnter(UnityEngine::Collider* other);

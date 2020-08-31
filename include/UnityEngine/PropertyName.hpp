@@ -22,9 +22,9 @@ namespace UnityEngine {
     // Offset: 0x0
     int id;
     // Creating value type constructor for type: PropertyName
-    constexpr PropertyName(int id_ = {}) : id{id_} {}
+    constexpr PropertyName(int id_ = {}) noexcept : id{id_} {}
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return id;
     }
     // public System.Void .ctor(System.String name)

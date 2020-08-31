@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Offset: 0x30
     UnityEngine::ParticleSystem::EmissionModule burnParticleSystemEmmisionModule;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_color(UnityEngine.Color value)
     // Offset: 0xC34CD8
     void set_color(UnityEngine::Color value);

@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Offset: 0x40
     System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::LeaderboardEntriesResult*> $$u__1;
     // Creating value type constructor for type: $LoadScoresAsync$d__28
-    constexpr $LoadScoresAsync$d__28(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, GlobalNamespace::CentralLeaderboardViewController* $$4__this_ = {}, GlobalNamespace::IDifficultyBeatmap* $loadingFordifficultyBeatmap$5__2_ = {}, System::Threading::CancellationToken $cancellationToken$5__3_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::LeaderboardEntriesResult*> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $loadingFordifficultyBeatmap$5__2{$loadingFordifficultyBeatmap$5__2_}, $cancellationToken$5__3{$cancellationToken$5__3_}, $$u__1{$$u__1_} {}
+    constexpr $LoadScoresAsync$d__28(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, GlobalNamespace::CentralLeaderboardViewController* $$4__this_ = {}, GlobalNamespace::IDifficultyBeatmap* $loadingFordifficultyBeatmap$5__2_ = {}, System::Threading::CancellationToken $cancellationToken$5__3_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::LeaderboardEntriesResult*> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $loadingFordifficultyBeatmap$5__2{$loadingFordifficultyBeatmap$5__2_}, $cancellationToken$5__3{$cancellationToken$5__3_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
     // Offset: 0xA2BDC8
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine

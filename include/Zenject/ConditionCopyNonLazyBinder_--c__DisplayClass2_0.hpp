@@ -24,7 +24,7 @@ namespace Zenject {
     // Offset: 0x10
     ::Il2CppObject* instance;
     // Creating conversion operator: operator ::Il2CppObject*
-    constexpr operator ::Il2CppObject*() const {
+    constexpr operator ::Il2CppObject*() const noexcept {
       return instance;
     }
     // System.Boolean <WhenInjectedIntoInstance>b__0(Zenject.InjectContext r)

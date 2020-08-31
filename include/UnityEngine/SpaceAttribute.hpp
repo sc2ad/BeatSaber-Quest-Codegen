@@ -17,7 +17,7 @@ namespace UnityEngine {
     // Offset: 0x10
     float height;
     // Creating conversion operator: operator float
-    constexpr operator float() const {
+    constexpr operator float() const noexcept {
       return height;
     }
     // public System.Void .ctor(System.Single height)

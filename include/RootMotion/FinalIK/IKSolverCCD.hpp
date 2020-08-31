@@ -23,7 +23,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x88
     RootMotion::FinalIK::IKSolver::IterationDelegate* OnPreIteration;
     // Creating conversion operator: operator RootMotion::FinalIK::IKSolver::IterationDelegate*
-    constexpr operator RootMotion::FinalIK::IKSolver::IterationDelegate*() const {
+    constexpr operator RootMotion::FinalIK::IKSolver::IterationDelegate*() const noexcept {
       return OnPreIteration;
     }
     // public System.Void FadeOutBoneWeights()

@@ -31,7 +31,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x10
     System::Runtime::Remoting::Contexts::Context* context;
     // Creating conversion operator: operator System::Runtime::Remoting::Contexts::Context*
-    constexpr operator System::Runtime::Remoting::Contexts::Context*() const {
+    constexpr operator System::Runtime::Remoting::Contexts::Context*() const noexcept {
       return context;
     }
     // public System.Void .ctor(System.Runtime.Remoting.Contexts.Context ctx)

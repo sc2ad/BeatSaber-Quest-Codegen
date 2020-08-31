@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Offset: 0x30
     UnityEngine::UI::Image* separatorImage;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_modifierName(System.String value)
     // Offset: 0xB3F044
     void set_modifierName(::Il2CppString* value);

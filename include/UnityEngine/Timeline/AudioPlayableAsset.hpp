@@ -59,7 +59,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x28
     UnityEngine::Timeline::AudioClipProperties* m_ClipProperties;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // System.Single get_bufferingTime()
     // Offset: 0x1094B20
     float get_bufferingTime();

@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Array<GlobalNamespace::Noise3DTexturesGenerator::MaterialTextureParamsCouple>* data;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private UnityEngine.Texture3D _texture
     static UnityEngine::Texture3D* _get__texture();
     // Set static field: static private UnityEngine.Texture3D _texture

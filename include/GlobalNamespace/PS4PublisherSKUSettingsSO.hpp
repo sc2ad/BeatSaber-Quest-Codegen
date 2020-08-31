@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     // Offset: 0x38
     int defaultAgeRestriction;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String get_skuName()
     // Offset: 0xBD2544
     ::Il2CppString* get_skuName();

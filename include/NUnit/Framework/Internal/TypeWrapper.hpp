@@ -45,7 +45,7 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x10
     System::Type* Type;
     // Creating conversion operator: operator System::Type*
-    constexpr operator System::Type*() const {
+    constexpr operator System::Type*() const noexcept {
       return Type;
     }
     // public System.Void .ctor(System.Type type)

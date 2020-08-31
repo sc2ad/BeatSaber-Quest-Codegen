@@ -87,7 +87,7 @@ namespace GlobalNamespace {
     // Offset: 0x8C
     bool savedCursorVisible;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.RenderTexture get_texture()
     // Offset: 0xD8A8CC
     UnityEngine::RenderTexture* get_texture();

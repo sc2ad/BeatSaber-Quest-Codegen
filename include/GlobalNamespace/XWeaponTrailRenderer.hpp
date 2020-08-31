@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     UnityEngine::Mesh* mesh;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Mesh get_mesh()
     // Offset: 0xC56578
     UnityEngine::Mesh* get_mesh();

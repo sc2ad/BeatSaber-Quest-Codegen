@@ -50,7 +50,7 @@ namespace System::Linq {
     // Offset: 0x0
     bool descending;
     // Deleting conversion operator: operator System::Collections::Generic::IEnumerable_1<TElement>*
-    constexpr operator System::Collections::Generic::IEnumerable_1<TElement>*() const = delete;
+    constexpr operator System::Collections::Generic::IEnumerable_1<TElement>*() const noexcept = delete;
     // System.Void .ctor(System.Collections.Generic.IEnumerable`1<TElement> source, System.Func`2<TElement,TKey> keySelector, System.Collections.Generic.IComparer`1<TKey> comparer, System.Boolean descending)
     // Offset: 0xFFFFFFFF
     static OrderedEnumerable_2<TElement, TKey>* New_ctor(System::Collections::Generic::IEnumerable_1<TElement>* source, System::Func_2<TElement, TKey>* keySelector, System::Collections::Generic::IComparer_1<TKey>* comparer, bool descending) {

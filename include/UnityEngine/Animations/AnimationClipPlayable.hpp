@@ -36,9 +36,9 @@ namespace UnityEngine::Animations {
     // Offset: 0x0
     UnityEngine::Playables::PlayableHandle m_Handle;
     // Creating value type constructor for type: AnimationClipPlayable
-    constexpr AnimationClipPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
+    constexpr AnimationClipPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) noexcept : m_Handle{m_Handle_} {}
     // Creating conversion operator: operator UnityEngine::Playables::PlayableHandle
-    constexpr operator UnityEngine::Playables::PlayableHandle() const {
+    constexpr operator UnityEngine::Playables::PlayableHandle() const noexcept {
       return m_Handle;
     }
     // static public UnityEngine.Animations.AnimationClipPlayable Create(UnityEngine.Playables.PlayableGraph graph, UnityEngine.AnimationClip clip)

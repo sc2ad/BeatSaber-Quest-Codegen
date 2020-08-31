@@ -152,7 +152,7 @@ namespace GlobalNamespace {
     // Offset: 0x12B
     bool isLoaded;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static public System.Single kDefaultPlayerHeight
     static constexpr const float kDefaultPlayerHeight = 1.8;
     // Get static field: static public System.Single kDefaultPlayerHeight

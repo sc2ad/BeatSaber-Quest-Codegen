@@ -39,7 +39,7 @@ namespace Valve::VR {
     // Offset: 0x10
     Valve::VR::IVRTrackedCamera FnTable;
     // Creating conversion operator: operator Valve::VR::IVRTrackedCamera
-    constexpr operator Valve::VR::IVRTrackedCamera() const {
+    constexpr operator Valve::VR::IVRTrackedCamera() const noexcept {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)

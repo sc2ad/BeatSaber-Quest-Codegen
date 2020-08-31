@@ -26,7 +26,7 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x10
     int maxStringLength;
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return maxStringLength;
     }
     // public System.Void .ctor(System.Int32 maxStringLength)

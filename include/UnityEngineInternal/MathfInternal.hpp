@@ -13,7 +13,7 @@ namespace UnityEngineInternal {
   struct MathfInternal : public System::ValueType {
     public:
     // Creating value type constructor for type: MathfInternal
-    constexpr MathfInternal() {}
+    constexpr MathfInternal() noexcept {}
     // Get static field: static public System.Single FloatMinNormal
     static float _get_FloatMinNormal();
     // Set static field: static public System.Single FloatMinNormal

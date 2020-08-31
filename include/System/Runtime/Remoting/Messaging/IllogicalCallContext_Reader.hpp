@@ -19,9 +19,9 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x0
     System::Runtime::Remoting::Messaging::IllogicalCallContext* m_ctx;
     // Creating value type constructor for type: Reader
-    constexpr Reader(System::Runtime::Remoting::Messaging::IllogicalCallContext* m_ctx_ = {}) : m_ctx{m_ctx_} {}
+    constexpr Reader(System::Runtime::Remoting::Messaging::IllogicalCallContext* m_ctx_ = {}) noexcept : m_ctx{m_ctx_} {}
     // Creating conversion operator: operator System::Runtime::Remoting::Messaging::IllogicalCallContext*
-    constexpr operator System::Runtime::Remoting::Messaging::IllogicalCallContext*() const {
+    constexpr operator System::Runtime::Remoting::Messaging::IllogicalCallContext*() const noexcept {
       return m_ctx;
     }
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IllogicalCallContext ctx)

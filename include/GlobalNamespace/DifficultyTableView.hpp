@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Offset: 0x40
     ::Array<GlobalNamespace::IDifficultyBeatmap*>* difficultyBeatmaps;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.String kCellIdentifier
     static constexpr const char* kCellIdentifier = "Cell";
     // Get static field: static private System.String kCellIdentifier

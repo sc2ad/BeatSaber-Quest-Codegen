@@ -17,7 +17,7 @@ namespace System {
     // Offset: 0x10
     bool ignoreCase;
     // Creating conversion operator: operator bool
-    constexpr operator bool() const {
+    constexpr operator bool() const noexcept {
       return ignoreCase;
     }
     // System.Void .ctor(System.Boolean ignoreCase)

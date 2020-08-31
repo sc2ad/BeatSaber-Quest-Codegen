@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Offset: 0x30
     System::Text::StringBuilder* stringBuilder;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kMaxNumberOfDigits
     static constexpr const int kMaxNumberOfDigits = 9;
     // Get static field: static private System.Int32 kMaxNumberOfDigits

@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Offset: 0x48
     float releaseCoef;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
     // Offset: 0xB8B224
     void Start();

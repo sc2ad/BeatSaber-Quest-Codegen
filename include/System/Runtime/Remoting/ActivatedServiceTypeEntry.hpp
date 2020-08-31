@@ -24,7 +24,7 @@ namespace System::Runtime::Remoting {
     // Offset: 0x20
     System::Type* obj_type;
     // Creating conversion operator: operator System::Type*
-    constexpr operator System::Type*() const {
+    constexpr operator System::Type*() const noexcept {
       return obj_type;
     }
     // public System.Void .ctor(System.String typeName, System.String assemblyName)

@@ -57,9 +57,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: ConfidenceBehavior
-      constexpr ConfidenceBehavior(int value_ = {}) : value{value_} {}
+      constexpr ConfidenceBehavior(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public OVRSkeletonRenderer/ConfidenceBehavior None
@@ -82,9 +82,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: SystemGestureBehavior
-      constexpr SystemGestureBehavior(int value_ = {}) : value{value_} {}
+      constexpr SystemGestureBehavior(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public OVRSkeletonRenderer/SystemGestureBehavior None
@@ -158,7 +158,7 @@ namespace GlobalNamespace {
     // Offset: 0x87
     bool ShouldUseSystemGestureMaterial;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single LINE_RENDERER_WIDTH
     static constexpr const float LINE_RENDERER_WIDTH = 0.005;
     // Get static field: static private System.Single LINE_RENDERER_WIDTH

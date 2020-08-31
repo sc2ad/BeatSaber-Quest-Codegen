@@ -22,7 +22,7 @@ namespace System {
     // Offset: 0x10
     System::LocalDataStore* m_Store;
     // Creating conversion operator: operator System::LocalDataStore*
-    constexpr operator System::LocalDataStore*() const {
+    constexpr operator System::LocalDataStore*() const noexcept {
       return m_Store;
     }
     // public System.Void .ctor(System.LocalDataStore store)

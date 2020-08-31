@@ -29,7 +29,7 @@ namespace System {
     // Offset: 0x10
     ::Il2CppObject* identity;
     // Creating conversion operator: operator ::Il2CppObject*
-    constexpr operator ::Il2CppObject*() const {
+    constexpr operator ::Il2CppObject*() const noexcept {
       return identity;
     }
     // System.Runtime.Remoting.ServerIdentity get_ObjectIdentity()

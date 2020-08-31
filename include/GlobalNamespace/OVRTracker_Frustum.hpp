@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     // Offset: 0x8
     UnityEngine::Vector2 fov;
     // Creating value type constructor for type: Frustum
-    constexpr Frustum(float nearZ_ = {}, float farZ_ = {}, UnityEngine::Vector2 fov_ = {}) : nearZ{nearZ_}, farZ{farZ_}, fov{fov_} {}
+    constexpr Frustum(float nearZ_ = {}, float farZ_ = {}, UnityEngine::Vector2 fov_ = {}) noexcept : nearZ{nearZ_}, farZ{farZ_}, fov{fov_} {}
   }; // OVRTracker/Frustum
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

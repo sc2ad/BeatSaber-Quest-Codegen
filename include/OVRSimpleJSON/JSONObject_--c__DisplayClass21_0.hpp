@@ -30,7 +30,7 @@ namespace OVRSimpleJSON {
     // Offset: 0x10
     OVRSimpleJSON::JSONNode* aNode;
     // Creating conversion operator: operator OVRSimpleJSON::JSONNode*
-    constexpr operator OVRSimpleJSON::JSONNode*() const {
+    constexpr operator OVRSimpleJSON::JSONNode*() const noexcept {
       return aNode;
     }
     // System.Boolean <Remove>b__0(System.Collections.Generic.KeyValuePair`2<System.String,OVRSimpleJSON.JSONNode> k)

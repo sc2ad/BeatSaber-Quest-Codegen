@@ -49,7 +49,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Offset: 0x58
     NUnit::Framework::Internal::Commands::TestCommand* m_Command;
     // Creating conversion operator: operator NUnit::Framework::Internal::Commands::TestCommand*
-    constexpr operator NUnit::Framework::Internal::Commands::TestCommand*() const {
+    constexpr operator NUnit::Framework::Internal::Commands::TestCommand*() const noexcept {
       return m_Command;
     }
     // Get static field: static private UnityEngine.MonoBehaviour m_MonoBehaviourCoroutineRunner

@@ -24,7 +24,7 @@ namespace Polyglot {
     // Offset: 0x10
     Polyglot::Localization* settings;
     // Creating conversion operator: operator Polyglot::Localization*
-    constexpr operator Polyglot::Localization*() const {
+    constexpr operator Polyglot::Localization*() const noexcept {
       return settings;
     }
     // System.Void <DownloadCustomSheet>b__0(System.String s)

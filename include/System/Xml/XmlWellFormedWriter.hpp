@@ -74,9 +74,9 @@ namespace System::Xml {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: State
-      constexpr State(int value_ = {}) : value{value_} {}
+      constexpr State(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public System.Xml.XmlWellFormedWriter/State Start
@@ -285,9 +285,9 @@ namespace System::Xml {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: SpecialAttribute
-      constexpr SpecialAttribute(int value_ = {}) : value{value_} {}
+      constexpr SpecialAttribute(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public System.Xml.XmlWellFormedWriter/SpecialAttribute No

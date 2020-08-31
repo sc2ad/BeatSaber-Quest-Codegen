@@ -36,7 +36,7 @@ namespace System::Diagnostics {
     // Offset: 0x10
     System::Collections::ArrayList* list;
     // Creating conversion operator: operator System::Collections::ArrayList*
-    constexpr operator System::Collections::ArrayList*() const {
+    constexpr operator System::Collections::ArrayList*() const noexcept {
       return list;
     }
     // public System.Int32 Add(System.Diagnostics.TraceListener listener)

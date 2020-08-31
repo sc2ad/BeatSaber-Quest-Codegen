@@ -49,9 +49,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: Hand
-      constexpr Hand(int value_ = {}) : value{value_} {}
+      constexpr Hand(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public OVRHand/Hand None
@@ -80,9 +80,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: TrackingConfidence
-      constexpr TrackingConfidence(int value_ = {}) : value{value_} {}
+      constexpr TrackingConfidence(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public OVRHand/TrackingConfidence Low
@@ -135,7 +135,7 @@ namespace GlobalNamespace {
     // Offset: 0xBC
     GlobalNamespace::OVRHand::TrackingConfidence HandConfidence;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_IsDataValid()
     // Offset: 0xE6BD5C
     bool get_IsDataValid();

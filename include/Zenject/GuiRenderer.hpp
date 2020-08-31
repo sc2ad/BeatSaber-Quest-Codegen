@@ -24,7 +24,7 @@ namespace Zenject {
     // Offset: 0x18
     Zenject::GuiRenderableManager* renderableManager;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Construct(Zenject.GuiRenderableManager renderableManager)
     // Offset: 0xF3B554
     void Construct(Zenject::GuiRenderableManager* renderableManager);

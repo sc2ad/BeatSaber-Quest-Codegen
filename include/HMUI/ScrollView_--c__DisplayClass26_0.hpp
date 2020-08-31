@@ -17,7 +17,7 @@ namespace HMUI {
     // Offset: 0x10
     float threshold;
     // Creating conversion operator: operator float
-    constexpr operator float() const {
+    constexpr operator float() const noexcept {
       return threshold;
     }
     // System.Boolean <PageDownButtonPressed>b__0(System.Single posy)

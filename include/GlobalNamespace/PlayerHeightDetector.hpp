@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Offset: 0x4C
     float lastReportedHeight;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kHeightScaleAdjust
     static constexpr const float kHeightScaleAdjust = 1.2;
     // Get static field: static private System.Single kHeightScaleAdjust

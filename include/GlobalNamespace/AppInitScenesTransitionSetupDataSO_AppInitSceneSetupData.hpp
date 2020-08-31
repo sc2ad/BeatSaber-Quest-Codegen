@@ -21,7 +21,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType appInitOverrideStartType;
     // Creating conversion operator: operator GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType
-    constexpr operator GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType() const {
+    constexpr operator GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType() const noexcept {
       return appInitOverrideStartType;
     }
     // public AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType get_appInitOverrideStartType()

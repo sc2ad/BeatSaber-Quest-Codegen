@@ -29,7 +29,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x20
     UnityEngine::Timeline::TrackAsset* parent;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void set_parent(UnityEngine.Timeline.TrackAsset value)
     // Offset: 0x109BAD0
     void set_parent(UnityEngine::Timeline::TrackAsset* value);

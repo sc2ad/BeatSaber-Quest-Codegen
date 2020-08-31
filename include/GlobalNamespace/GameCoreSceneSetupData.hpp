@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     GlobalNamespace::ColorScheme* colorScheme;
     // Creating conversion operator: operator GlobalNamespace::ColorScheme*
-    constexpr operator GlobalNamespace::ColorScheme*() const {
+    constexpr operator GlobalNamespace::ColorScheme*() const noexcept {
       return colorScheme;
     }
     // public ColorScheme get_colorScheme()

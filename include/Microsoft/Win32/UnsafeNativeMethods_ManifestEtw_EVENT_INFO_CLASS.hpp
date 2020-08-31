@@ -19,9 +19,9 @@ namespace Microsoft::Win32 {
     // Offset: 0x0
     int value;
     // Creating value type constructor for type: EVENT_INFO_CLASS
-    constexpr EVENT_INFO_CLASS(int value_ = {}) : value{value_} {}
+    constexpr EVENT_INFO_CLASS(int value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return value;
     }
     // static field const value: static public Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/EVENT_INFO_CLASS BinaryTrackInfo

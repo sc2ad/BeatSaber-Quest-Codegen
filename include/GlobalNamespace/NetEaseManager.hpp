@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     // Offset: 0x38
     System::Threading::Tasks::TaskCompletionSource_1<NetEase::Docker::LogoutData>* logoutTaskCompletionSource;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_supportsLeaderboards()
     // Offset: 0xC10E04
     bool get_supportsLeaderboards();

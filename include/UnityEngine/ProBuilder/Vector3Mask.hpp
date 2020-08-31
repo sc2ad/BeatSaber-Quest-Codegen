@@ -30,9 +30,9 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x0
     uint8_t m_Mask;
     // Creating value type constructor for type: Vector3Mask
-    constexpr Vector3Mask(uint8_t m_Mask_ = {}) : m_Mask{m_Mask_} {}
+    constexpr Vector3Mask(uint8_t m_Mask_ = {}) noexcept : m_Mask{m_Mask_} {}
     // Creating conversion operator: operator uint8_t
-    constexpr operator uint8_t() const {
+    constexpr operator uint8_t() const noexcept {
       return m_Mask;
     }
     // static field const value: static private System.Byte X

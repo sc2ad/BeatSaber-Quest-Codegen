@@ -31,7 +31,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Offset: 0x18
     UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer* m_ResultRenderer;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
     // Offset: 0xE4753C
     void RunStarted(NUnit::Framework::Interfaces::ITest* testsToRun);

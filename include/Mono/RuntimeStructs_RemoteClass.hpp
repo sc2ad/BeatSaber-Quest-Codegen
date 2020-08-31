@@ -33,7 +33,7 @@ namespace Mono {
     // Offset: 0x20
     uint interface_count;
     // Creating value type constructor for type: RemoteClass
-    constexpr RemoteClass(System::IntPtr default_vtable_ = {}, System::IntPtr xdomain_vtable_ = {}, Mono::RuntimeStructs::MonoClass* proxy_class_ = {}, System::IntPtr proxy_class_name_ = {}, uint interface_count_ = {}) : default_vtable{default_vtable_}, xdomain_vtable{xdomain_vtable_}, proxy_class{proxy_class_}, proxy_class_name{proxy_class_name_}, interface_count{interface_count_} {}
+    constexpr RemoteClass(System::IntPtr default_vtable_ = {}, System::IntPtr xdomain_vtable_ = {}, Mono::RuntimeStructs::MonoClass* proxy_class_ = {}, System::IntPtr proxy_class_name_ = {}, uint interface_count_ = {}) noexcept : default_vtable{default_vtable_}, xdomain_vtable{xdomain_vtable_}, proxy_class{proxy_class_}, proxy_class_name{proxy_class_name_}, interface_count{interface_count_} {}
   }; // Mono.RuntimeStructs/RemoteClass
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

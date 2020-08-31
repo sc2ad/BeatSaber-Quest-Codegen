@@ -17,7 +17,7 @@ namespace UnityEngine::Bindings {
     // Offset: 0x10
     bool DoesNotContributeToSize;
     // Creating conversion operator: operator bool
-    constexpr operator bool() const {
+    constexpr operator bool() const noexcept {
       return DoesNotContributeToSize;
     }
     // public System.Void set_DoesNotContributeToSize(System.Boolean value)

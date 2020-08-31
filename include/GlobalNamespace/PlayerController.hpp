@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     // Offset: 0x60
     UnityEngine::Quaternion headRot;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public Saber get_leftSaber()
     // Offset: 0xBDA1F0
     GlobalNamespace::Saber* get_leftSaber();

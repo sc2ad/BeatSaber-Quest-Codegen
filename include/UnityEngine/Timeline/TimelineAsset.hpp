@@ -95,9 +95,9 @@ namespace UnityEngine::Timeline {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: DurationMode
-      constexpr DurationMode(int value_ = {}) : value{value_} {}
+      constexpr DurationMode(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public UnityEngine.Timeline.TimelineAsset/DurationMode BasedOnClips
@@ -141,7 +141,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x58
     UnityEngine::Timeline::MarkerTrack* m_MarkerTrack;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 k_LatestVersion
     static constexpr const int k_LatestVersion = 0;
     // Get static field: static private System.Int32 k_LatestVersion

@@ -35,7 +35,7 @@ namespace System::Threading {
     // Offset: 0x8
     System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*> m_registrationInfo;
     // Creating value type constructor for type: CancellationTokenRegistration
-    constexpr CancellationTokenRegistration(System::Threading::CancellationCallbackInfo* m_callbackInfo_ = {}, System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*> m_registrationInfo_ = {}) : m_callbackInfo{m_callbackInfo_}, m_registrationInfo{m_registrationInfo_} {}
+    constexpr CancellationTokenRegistration(System::Threading::CancellationCallbackInfo* m_callbackInfo_ = {}, System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*> m_registrationInfo_ = {}) noexcept : m_callbackInfo{m_callbackInfo_}, m_registrationInfo{m_registrationInfo_} {}
     // System.Void .ctor(System.Threading.CancellationCallbackInfo callbackInfo, System.Threading.SparselyPopulatedArrayAddInfo`1<System.Threading.CancellationCallbackInfo> registrationInfo)
     // Offset: 0xA47C20
     static CancellationTokenRegistration* New_ctor(System::Threading::CancellationCallbackInfo* callbackInfo, System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*> registrationInfo);

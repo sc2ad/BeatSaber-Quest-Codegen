@@ -19,7 +19,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x10
     System::DateTime date;
     // Creating conversion operator: operator System::DateTime
-    constexpr operator System::DateTime() const {
+    constexpr operator System::DateTime() const noexcept {
       return date;
     }
     // public override System.Object get_Value()

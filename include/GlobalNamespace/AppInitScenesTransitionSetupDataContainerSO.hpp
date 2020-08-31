@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::AppInitScenesTransitionSetupDataSO* appInitScenesTransitionSetupData;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void .ctor()
     // Offset: 0xB8880C
     // Implemented from: PersistentScriptableObject

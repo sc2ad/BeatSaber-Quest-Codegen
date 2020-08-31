@@ -19,7 +19,7 @@ namespace OVR::OpenVR {
     // Offset: 0x4
     uint unArgsHandle;
     // Creating value type constructor for type: VREvent_ApplicationLaunch_t
-    constexpr VREvent_ApplicationLaunch_t(uint pid_ = {}, uint unArgsHandle_ = {}) : pid{pid_}, unArgsHandle{unArgsHandle_} {}
+    constexpr VREvent_ApplicationLaunch_t(uint pid_ = {}, uint unArgsHandle_ = {}) noexcept : pid{pid_}, unArgsHandle{unArgsHandle_} {}
   }; // OVR.OpenVR.VREvent_ApplicationLaunch_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

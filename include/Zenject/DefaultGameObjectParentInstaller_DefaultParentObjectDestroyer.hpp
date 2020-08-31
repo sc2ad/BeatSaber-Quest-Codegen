@@ -26,7 +26,7 @@ namespace Zenject {
     // Offset: 0x10
     UnityEngine::GameObject* gameObject;
     // Creating conversion operator: operator UnityEngine::GameObject*
-    constexpr operator UnityEngine::GameObject*() const {
+    constexpr operator UnityEngine::GameObject*() const noexcept {
       return gameObject;
     }
     // public System.Void .ctor(UnityEngine.GameObject gameObject)

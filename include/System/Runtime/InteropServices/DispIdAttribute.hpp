@@ -17,7 +17,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x10
     int val;
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return val;
     }
     // public System.Void .ctor(System.Int32 dispId)

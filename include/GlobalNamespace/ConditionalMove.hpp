@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     // Offset: 0x30
     bool activateOnFalse;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
     // Offset: 0xBE20EC
     void Awake();

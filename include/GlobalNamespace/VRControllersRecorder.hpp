@@ -58,9 +58,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: Mode
-      constexpr Mode(int value_ = {}) : value{value_} {}
+      constexpr Mode(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public VRControllersRecorder/Mode Record
@@ -146,7 +146,7 @@ namespace GlobalNamespace {
     // Offset: 0x98
     int keyframeIndex;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_mode(VRControllersRecorder/Mode value)
     // Offset: 0xC4F994
     void set_mode(GlobalNamespace::VRControllersRecorder::Mode value);

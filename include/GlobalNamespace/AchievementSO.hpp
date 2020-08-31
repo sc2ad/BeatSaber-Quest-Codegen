@@ -17,7 +17,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Il2CppString* achievementId;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String get_achievementId()
     // Offset: 0xB82DB4
     ::Il2CppString* get_achievementId();

@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Offset: 0x48
     ::Array<GlobalNamespace::MissionObjectiveChecker*>* activeMissionObjectiveCheckers;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_objectiveDidFailEvent(System.Action value)
     // Offset: 0xC0BE8C
     void add_objectiveDidFailEvent(System::Action* value);

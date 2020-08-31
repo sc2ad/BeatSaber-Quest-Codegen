@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Offset: 0x58
     UnityEngine::Quaternion localOrientation;
     // Creating value type constructor for type: OpenVRControllerDetails
-    constexpr OpenVRControllerDetails(OVR::OpenVR::VRControllerState_t state_ = {}, GlobalNamespace::OVRInput::OpenVRController controllerType_ = {}, uint deviceID_ = {}, UnityEngine::Vector3 localPosition_ = {}, UnityEngine::Quaternion localOrientation_ = {}) : state{state_}, controllerType{controllerType_}, deviceID{deviceID_}, localPosition{localPosition_}, localOrientation{localOrientation_} {}
+    constexpr OpenVRControllerDetails(OVR::OpenVR::VRControllerState_t state_ = {}, GlobalNamespace::OVRInput::OpenVRController controllerType_ = {}, uint deviceID_ = {}, UnityEngine::Vector3 localPosition_ = {}, UnityEngine::Quaternion localOrientation_ = {}) noexcept : state{state_}, controllerType{controllerType_}, deviceID{deviceID_}, localPosition{localPosition_}, localOrientation{localOrientation_} {}
   }; // OVRInput/OpenVRControllerDetails
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

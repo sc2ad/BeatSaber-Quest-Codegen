@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::MainCamera* mainCamera;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Collections.IEnumerator Start()
     // Offset: 0xC479DC
     System::Collections::IEnumerator* Start();

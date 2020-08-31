@@ -29,7 +29,7 @@ namespace OVR::OpenVR {
     // Offset: 0xC
     OVR::OpenVR::EColorSpace eColorSpace;
     // Creating value type constructor for type: Texture_t
-    constexpr Texture_t(System::IntPtr handle_ = {}, OVR::OpenVR::ETextureType eType_ = {}, OVR::OpenVR::EColorSpace eColorSpace_ = {}) : handle{handle_}, eType{eType_}, eColorSpace{eColorSpace_} {}
+    constexpr Texture_t(System::IntPtr handle_ = {}, OVR::OpenVR::ETextureType eType_ = {}, OVR::OpenVR::EColorSpace eColorSpace_ = {}) noexcept : handle{handle_}, eType{eType_}, eColorSpace{eColorSpace_} {}
   }; // OVR.OpenVR.Texture_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

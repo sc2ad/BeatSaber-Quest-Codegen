@@ -40,7 +40,7 @@ namespace System {
     // Offset: 0xE
     uint16_t End;
     // Creating value type constructor for type: Offset
-    constexpr Offset(uint16_t Scheme_ = {}, uint16_t User_ = {}, uint16_t Host_ = {}, uint16_t PortValue_ = {}, uint16_t Path_ = {}, uint16_t Query_ = {}, uint16_t Fragment_ = {}, uint16_t End_ = {}) : Scheme{Scheme_}, User{User_}, Host{Host_}, PortValue{PortValue_}, Path{Path_}, Query{Query_}, Fragment{Fragment_}, End{End_} {}
+    constexpr Offset(uint16_t Scheme_ = {}, uint16_t User_ = {}, uint16_t Host_ = {}, uint16_t PortValue_ = {}, uint16_t Path_ = {}, uint16_t Query_ = {}, uint16_t Fragment_ = {}, uint16_t End_ = {}) noexcept : Scheme{Scheme_}, User{User_}, Host{Host_}, PortValue{PortValue_}, Path{Path_}, Query{Query_}, Fragment{Fragment_}, End{End_} {}
   }; // System.Uri/Offset
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

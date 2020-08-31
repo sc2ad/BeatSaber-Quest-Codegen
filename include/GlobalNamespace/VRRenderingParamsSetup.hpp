@@ -35,9 +35,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: SceneType
-      constexpr SceneType(int value_ = {}) : value{value_} {}
+      constexpr SceneType(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public VRRenderingParamsSetup/SceneType Undefined
@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     // Offset: 0x38
     GlobalNamespace::VRPlatformHelper* vrPlatformHelper;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnEnable()
     // Offset: 0x1915CCC
     void OnEnable();

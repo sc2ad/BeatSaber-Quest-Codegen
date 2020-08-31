@@ -48,7 +48,7 @@ namespace UnityEngine::Rendering {
     // Offset: 0x30
     int visibleIndicesCount;
     // Creating value type constructor for type: BatchRendererCullingOutput
-    constexpr BatchRendererCullingOutput(Unity::Jobs::JobHandle cullingJobsFence_ = {}, UnityEngine::Plane* cullingPlanes_ = {}, UnityEngine::Rendering::BatchVisibility* batchVisibility_ = {}, int* visibleIndices_ = {}, int cullingPlanesCount_ = {}, int batchVisibilityCount_ = {}, int visibleIndicesCount_ = {}) : cullingJobsFence{cullingJobsFence_}, cullingPlanes{cullingPlanes_}, batchVisibility{batchVisibility_}, visibleIndices{visibleIndices_}, cullingPlanesCount{cullingPlanesCount_}, batchVisibilityCount{batchVisibilityCount_}, visibleIndicesCount{visibleIndicesCount_} {}
+    constexpr BatchRendererCullingOutput(Unity::Jobs::JobHandle cullingJobsFence_ = {}, UnityEngine::Plane* cullingPlanes_ = {}, UnityEngine::Rendering::BatchVisibility* batchVisibility_ = {}, int* visibleIndices_ = {}, int cullingPlanesCount_ = {}, int batchVisibilityCount_ = {}, int visibleIndicesCount_ = {}) noexcept : cullingJobsFence{cullingJobsFence_}, cullingPlanes{cullingPlanes_}, batchVisibility{batchVisibility_}, visibleIndices{visibleIndices_}, cullingPlanesCount{cullingPlanesCount_}, batchVisibilityCount{batchVisibilityCount_}, visibleIndicesCount{visibleIndicesCount_} {}
   }; // UnityEngine.Rendering.BatchRendererCullingOutput
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

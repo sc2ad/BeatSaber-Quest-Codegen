@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Offset: 0x40
     UnityEngine::SpriteRenderer* spriteRenderer;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Awake()
     // Offset: 0xBE2218
     void Awake();

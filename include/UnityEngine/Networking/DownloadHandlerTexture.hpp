@@ -39,7 +39,7 @@ namespace UnityEngine::Networking {
     // Offset: 0x21
     bool mNonReadable;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static private System.IntPtr Create(UnityEngine.Networking.DownloadHandlerTexture obj, System.Boolean readable)
     // Offset: 0x1982A70
     static System::IntPtr Create(UnityEngine::Networking::DownloadHandlerTexture* obj, bool readable);

@@ -17,9 +17,9 @@ namespace TMPro {
     // Offset: 0x0
     uint8_t value;
     // Creating value type constructor for type: TextElementType
-    constexpr TextElementType(uint8_t value_ = {}) : value{value_} {}
+    constexpr TextElementType(uint8_t value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator uint8_t
-    constexpr operator uint8_t() const {
+    constexpr operator uint8_t() const noexcept {
       return value;
     }
     // static field const value: static public TMPro.TextElementType Character

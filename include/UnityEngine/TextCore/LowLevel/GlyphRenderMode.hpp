@@ -17,9 +17,9 @@ namespace UnityEngine::TextCore::LowLevel {
     // Offset: 0x0
     int value;
     // Creating value type constructor for type: GlyphRenderMode
-    constexpr GlyphRenderMode(int value_ = {}) : value{value_} {}
+    constexpr GlyphRenderMode(int value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return value;
     }
     // static field const value: static public UnityEngine.TextCore.LowLevel.GlyphRenderMode SMOOTH_HINTED

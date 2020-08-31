@@ -39,7 +39,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x10
     System::Collections::Generic::List_1<UnityEngine::ProBuilder::ChangelogEntry*>* m_Entries;
     // Creating conversion operator: operator System::Collections::Generic::List_1<UnityEngine::ProBuilder::ChangelogEntry*>*
-    constexpr operator System::Collections::Generic::List_1<UnityEngine::ProBuilder::ChangelogEntry*>*() const {
+    constexpr operator System::Collections::Generic::List_1<UnityEngine::ProBuilder::ChangelogEntry*>*() const noexcept {
       return m_Entries;
     }
     // static field const value: static private System.String k_ChangelogEntryPattern

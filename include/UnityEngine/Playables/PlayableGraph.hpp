@@ -44,7 +44,7 @@ namespace UnityEngine::Playables {
     // Offset: 0x8
     uint m_Version;
     // Creating value type constructor for type: PlayableGraph
-    constexpr PlayableGraph(System::IntPtr m_Handle_ = {}, uint m_Version_ = {}) : m_Handle{m_Handle_}, m_Version{m_Version_} {}
+    constexpr PlayableGraph(System::IntPtr m_Handle_ = {}, uint m_Version_ = {}) noexcept : m_Handle{m_Handle_}, m_Version{m_Version_} {}
     // public UnityEngine.Playables.Playable GetRootPlayable(System.Int32 index)
     // Offset: 0xA48B38
     UnityEngine::Playables::Playable GetRootPlayable(int index);

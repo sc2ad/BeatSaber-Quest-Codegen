@@ -26,7 +26,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::HapticFeedbackController* hapticFeedbackController;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void HitNote(SaberType saberType)
     // Offset: 0xC16958
     void HitNote(GlobalNamespace::SaberType saberType);

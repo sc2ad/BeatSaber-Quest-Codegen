@@ -19,7 +19,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x10
     System::Decimal dec;
     // Creating conversion operator: operator System::Decimal
-    constexpr operator System::Decimal() const {
+    constexpr operator System::Decimal() const noexcept {
       return dec;
     }
     // public System.Void .ctor(System.Byte scale, System.Byte sign, System.UInt32 hi, System.UInt32 mid, System.UInt32 low)

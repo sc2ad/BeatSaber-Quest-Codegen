@@ -27,7 +27,7 @@ namespace UnityEngine::Rendering {
     // Offset: 0x10
     bool disposed;
     // Creating conversion operator: operator bool
-    constexpr operator bool() const {
+    constexpr operator bool() const noexcept {
       return disposed;
     }
     // protected System.Void Render(UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras)

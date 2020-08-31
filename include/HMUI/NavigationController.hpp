@@ -54,9 +54,9 @@ namespace HMUI {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: Orientation
-      constexpr Orientation(int value_ = {}) : value{value_} {}
+      constexpr Orientation(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public HMUI.NavigationController/Orientation Horizontal
@@ -79,9 +79,9 @@ namespace HMUI {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: Alignment
-      constexpr Alignment(int value_ = {}) : value{value_} {}
+      constexpr Alignment(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public HMUI.NavigationController/Alignment Beginning

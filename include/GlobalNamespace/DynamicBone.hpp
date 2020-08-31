@@ -54,9 +54,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: UpdateMode
-      constexpr UpdateMode(int value_ = {}) : value{value_} {}
+      constexpr UpdateMode(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public DynamicBone/UpdateMode Normal
@@ -85,9 +85,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: FreezeAxis
-      constexpr FreezeAxis(int value_ = {}) : value{value_} {}
+      constexpr FreezeAxis(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public DynamicBone/FreezeAxis None
@@ -212,7 +212,7 @@ namespace GlobalNamespace {
     // Offset: 0x100
     System::Collections::Generic::List_1<GlobalNamespace::DynamicBone::Particle*>* m_Particles;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Start()
     // Offset: 0x194F654
     void Start();

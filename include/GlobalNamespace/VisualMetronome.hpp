@@ -80,7 +80,7 @@ namespace GlobalNamespace {
     // Offset: 0x74
     bool dontTickThisFrame;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_tickerColor(UnityEngine.Color value)
     // Offset: 0xC55BF0
     void set_tickerColor(UnityEngine::Color value);

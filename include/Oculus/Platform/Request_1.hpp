@@ -28,7 +28,7 @@ namespace Oculus::Platform {
     // Offset: 0x0
     typename Oculus::Platform::Message_1<T>::Callback* callback;
     // Creating conversion operator: operator typename Oculus::Platform::Message_1<T>::Callback*
-    constexpr operator typename Oculus::Platform::Message_1<T>::Callback*() const {
+    constexpr operator typename Oculus::Platform::Message_1<T>::Callback*() const noexcept {
       return callback;
     }
     // public Oculus.Platform.Request`1<T> OnComplete(Oculus.Platform.Message`1/Callback<T> callback)

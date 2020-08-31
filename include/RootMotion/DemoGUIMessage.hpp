@@ -22,7 +22,7 @@ namespace RootMotion {
     // Offset: 0x20
     UnityEngine::Color color;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void OnGUI()
     // Offset: 0x13AA7B4
     void OnGUI();

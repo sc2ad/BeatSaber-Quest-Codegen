@@ -34,9 +34,9 @@ namespace System::Threading {
     // Offset: 0x0
     System::Threading::CancellationTokenSource* m_source;
     // Creating value type constructor for type: CancellationToken
-    constexpr CancellationToken(System::Threading::CancellationTokenSource* m_source_ = {}) : m_source{m_source_} {}
+    constexpr CancellationToken(System::Threading::CancellationTokenSource* m_source_ = {}) noexcept : m_source{m_source_} {}
     // Creating conversion operator: operator System::Threading::CancellationTokenSource*
-    constexpr operator System::Threading::CancellationTokenSource*() const {
+    constexpr operator System::Threading::CancellationTokenSource*() const noexcept {
       return m_source;
     }
     // Get static field: static private readonly System.Action`1<System.Object> s_ActionToActionObjShunt

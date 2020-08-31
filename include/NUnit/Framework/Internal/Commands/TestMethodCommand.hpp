@@ -31,7 +31,7 @@ namespace NUnit::Framework::Internal::Commands {
     // Offset: 0x20
     ::Array<::Il2CppObject*>* arguments;
     // Deleting conversion operator: operator NUnit::Framework::Internal::Test*
-    constexpr operator NUnit::Framework::Internal::Test*() const = delete;
+    constexpr operator NUnit::Framework::Internal::Test*() const noexcept = delete;
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod testMethod)
     // Offset: 0x108987C
     static TestMethodCommand* New_ctor(NUnit::Framework::Internal::TestMethod* testMethod);

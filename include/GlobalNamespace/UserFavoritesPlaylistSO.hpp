@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void SetupFromLevelPackCollection(System.Collections.Generic.HashSet`1<System.String> userFavoritesBeatmapLevelIds, IBeatmapLevelPackCollection beatmapLevelPackCollection)
     // Offset: 0xC4DAD4
     void SetupFromLevelPackCollection(System::Collections::Generic::HashSet_1<::Il2CppString*>* userFavoritesBeatmapLevelIds, GlobalNamespace::IBeatmapLevelPackCollection* beatmapLevelPackCollection);

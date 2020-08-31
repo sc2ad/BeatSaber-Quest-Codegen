@@ -25,7 +25,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x10
     System::Collections::Generic::HashSet_1<int>* common;
     // Creating conversion operator: operator System::Collections::Generic::HashSet_1<int>*
-    constexpr operator System::Collections::Generic::HashSet_1<int>*() const {
+    constexpr operator System::Collections::Generic::HashSet_1<int>*() const noexcept {
       return common;
     }
     // System.Boolean <SortCommonIndexesByAdjacency>b__0(UnityEngine.ProBuilder.WingedEdge x)

@@ -50,9 +50,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: MovementPhase
-      constexpr MovementPhase(int value_ = {}) : value{value_} {}
+      constexpr MovementPhase(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public NoteMovement/MovementPhase None
@@ -111,7 +111,7 @@ namespace GlobalNamespace {
     // Offset: 0x70
     UnityEngine::Vector3 prevPosition;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didInitEvent(System.Action value)
     // Offset: 0xC318A4
     void add_didInitEvent(System::Action* value);

@@ -35,7 +35,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x28
     bool fixedFrame;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Boolean get_animatePhysics()
     // Offset: 0x1384CAC
     bool get_animatePhysics();

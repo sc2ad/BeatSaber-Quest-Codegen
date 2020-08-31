@@ -24,7 +24,7 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x89
     bool isTheory;
     // Creating conversion operator: operator bool
-    constexpr operator bool() const {
+    constexpr operator bool() const noexcept {
       return isTheory;
     }
     // public System.Void .ctor(NUnit.Framework.Interfaces.IMethodInfo method)

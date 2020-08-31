@@ -119,7 +119,7 @@ namespace System {
     // Offset: 0x28
     System::Reflection::RuntimeConstructorInfo* m_serializationCtor;
     // Deleting conversion operator: operator System::RuntimeTypeHandle
-    constexpr operator System::RuntimeTypeHandle() const = delete;
+    constexpr operator System::RuntimeTypeHandle() const noexcept = delete;
     // Get static field: static readonly System.RuntimeType ValueType
     static System::RuntimeType* _get_ValueType();
     // Set static field: static readonly System.RuntimeType ValueType

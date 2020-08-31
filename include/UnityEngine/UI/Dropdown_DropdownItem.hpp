@@ -55,7 +55,7 @@ namespace UnityEngine::UI {
     // Offset: 0x30
     UnityEngine::UI::Toggle* m_Toggle;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.UI.Text get_text()
     // Offset: 0x11697BC
     UnityEngine::UI::Text* get_text();

@@ -48,7 +48,7 @@ namespace GlobalNamespace {
       // Offset: 0x10
       ::Array<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>* keyframes;
       // Creating conversion operator: operator ::Array<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>*
-      constexpr operator ::Array<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>*() const {
+      constexpr operator ::Array<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>*() const noexcept {
         return keyframes;
       }
       // public System.Void .ctor()
@@ -64,9 +64,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: RecordMode
-      constexpr RecordMode(int value_ = {}) : value{value_} {}
+      constexpr RecordMode(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public SimpleVRNodeRecorder/RecordMode Record
@@ -125,7 +125,7 @@ namespace GlobalNamespace {
     // Offset: 0x60
     UnityEngine::Quaternion prevRot;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
     // Offset: 0xB9A158
     void Awake();

@@ -24,7 +24,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x10
     Oculus::Platform::LivestreamingStartStatus StreamingResult;
     // Creating conversion operator: operator Oculus::Platform::LivestreamingStartStatus
-    constexpr operator Oculus::Platform::LivestreamingStartStatus() const {
+    constexpr operator Oculus::Platform::LivestreamingStartStatus() const noexcept {
       return StreamingResult;
     }
     // public System.Void .ctor(System.IntPtr o)

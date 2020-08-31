@@ -38,9 +38,9 @@ namespace UnityEngine::Animations {
     // Offset: 0x0
     UnityEngine::Playables::PlayableHandle m_Handle;
     // Creating value type constructor for type: AnimationOffsetPlayable
-    constexpr AnimationOffsetPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
+    constexpr AnimationOffsetPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) noexcept : m_Handle{m_Handle_} {}
     // Creating conversion operator: operator UnityEngine::Playables::PlayableHandle
-    constexpr operator UnityEngine::Playables::PlayableHandle() const {
+    constexpr operator UnityEngine::Playables::PlayableHandle() const noexcept {
       return m_Handle;
     }
     // Get static field: static private readonly UnityEngine.Animations.AnimationOffsetPlayable m_NullPlayable

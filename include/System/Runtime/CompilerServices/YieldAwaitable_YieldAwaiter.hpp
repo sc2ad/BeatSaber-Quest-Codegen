@@ -32,7 +32,7 @@ namespace System::Runtime::CompilerServices {
   struct YieldAwaitable::YieldAwaiter : public System::ValueType, public System::Runtime::CompilerServices::ICriticalNotifyCompletion {
     public:
     // Creating value type constructor for type: YieldAwaiter
-    constexpr YieldAwaiter() {}
+    constexpr YieldAwaiter() noexcept {}
     // Get static field: static private readonly System.Threading.WaitCallback s_waitCallbackRunAction
     static System::Threading::WaitCallback* _get_s_waitCallbackRunAction();
     // Set static field: static private readonly System.Threading.WaitCallback s_waitCallbackRunAction

@@ -17,7 +17,7 @@ namespace UnityEngine {
     // Offset: 0x18
     bool isAnimatorMotion;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_isLooping()
     // Offset: 0x194227C
     bool get_isLooping();

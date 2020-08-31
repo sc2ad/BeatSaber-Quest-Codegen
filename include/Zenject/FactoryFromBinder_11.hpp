@@ -67,7 +67,7 @@ namespace Zenject {
       // Offset: 0x0
       System::Func_12<Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>* method;
       // Creating conversion operator: operator System::Func_12<Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*
-      constexpr operator System::Func_12<Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*() const {
+      constexpr operator System::Func_12<Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*() const noexcept {
         return method;
       }
       // Zenject.IProvider <FromMethod>b__0(Zenject.DiContainer container)
@@ -135,7 +135,7 @@ namespace Zenject {
       // Offset: 0x0
       System::Guid factoryId;
       // Creating conversion operator: operator System::Guid
-      constexpr operator System::Guid() const {
+      constexpr operator System::Guid() const noexcept {
         return factoryId;
       }
       // Zenject.IProvider <FromIFactory>b__0(Zenject.DiContainer container)

@@ -40,7 +40,7 @@ namespace System::Collections {
     // Offset: 0x50
     System::Collections::Hashtable* table;
     // Creating conversion operator: operator System::Collections::Hashtable*
-    constexpr operator System::Collections::Hashtable*() const {
+    constexpr operator System::Collections::Hashtable*() const noexcept {
       return table;
     }
     // System.Void .ctor(System.Collections.Hashtable table)

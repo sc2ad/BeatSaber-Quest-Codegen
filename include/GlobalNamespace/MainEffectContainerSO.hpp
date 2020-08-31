@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::BoolSO* postProcessEnabled;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public MainEffectSO get_mainEffect()
     // Offset: 0x1911AB0
     GlobalNamespace::MainEffectSO* get_mainEffect();

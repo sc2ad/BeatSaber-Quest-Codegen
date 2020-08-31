@@ -28,7 +28,7 @@ namespace System::IO {
     // Offset: 0x18
     bool timedOut;
     // Creating value type constructor for type: WaitForChangedResult
-    constexpr WaitForChangedResult(System::IO::WatcherChangeTypes changeType_ = {}, ::Il2CppString* name_ = {}, ::Il2CppString* oldName_ = {}, bool timedOut_ = {}) : changeType{changeType_}, name{name_}, oldName{oldName_}, timedOut{timedOut_} {}
+    constexpr WaitForChangedResult(System::IO::WatcherChangeTypes changeType_ = {}, ::Il2CppString* name_ = {}, ::Il2CppString* oldName_ = {}, bool timedOut_ = {}) noexcept : changeType{changeType_}, name{name_}, oldName{oldName_}, timedOut{timedOut_} {}
     // public System.Void set_ChangeType(System.IO.WatcherChangeTypes value)
     // Offset: 0xA3C0C0
     void set_ChangeType(System::IO::WatcherChangeTypes value);

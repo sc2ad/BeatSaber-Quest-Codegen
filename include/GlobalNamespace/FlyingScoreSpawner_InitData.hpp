@@ -19,7 +19,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     GlobalNamespace::FlyingScoreSpawner::SpawnPosition spawnPosition;
     // Creating conversion operator: operator GlobalNamespace::FlyingScoreSpawner::SpawnPosition
-    constexpr operator GlobalNamespace::FlyingScoreSpawner::SpawnPosition() const {
+    constexpr operator GlobalNamespace::FlyingScoreSpawner::SpawnPosition() const noexcept {
       return spawnPosition;
     }
     // public System.Void .ctor(FlyingScoreSpawner/SpawnPosition spawnPosition)

@@ -29,7 +29,7 @@ namespace Zenject {
     // Offset: 0x10
     Zenject::InjectContext* ctx;
     // Creating conversion operator: operator Zenject::InjectContext*
-    constexpr operator Zenject::InjectContext*() const {
+    constexpr operator Zenject::InjectContext*() const noexcept {
       return ctx;
     }
     // System.Boolean <FromComponentsInHierarchyBase>b__3(UnityEngine.Component x)

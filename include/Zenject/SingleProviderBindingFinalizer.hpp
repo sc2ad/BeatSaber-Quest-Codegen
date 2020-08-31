@@ -36,7 +36,7 @@ namespace Zenject {
     // Offset: 0x18
     System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>* providerFactory;
     // Deleting conversion operator: operator Zenject::BindInfo*
-    constexpr operator Zenject::BindInfo*() const = delete;
+    constexpr operator Zenject::BindInfo*() const noexcept = delete;
     // public System.Void .ctor(Zenject.BindInfo bindInfo, System.Func`3<Zenject.DiContainer,System.Type,Zenject.IProvider> providerFactory)
     // Offset: 0xFCF008
     static SingleProviderBindingFinalizer* New_ctor(Zenject::BindInfo* bindInfo, System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>* providerFactory);

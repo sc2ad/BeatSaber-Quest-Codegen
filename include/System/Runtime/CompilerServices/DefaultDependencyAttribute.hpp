@@ -19,7 +19,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x10
     System::Runtime::CompilerServices::LoadHint loadHint;
     // Creating conversion operator: operator System::Runtime::CompilerServices::LoadHint
-    constexpr operator System::Runtime::CompilerServices::LoadHint() const {
+    constexpr operator System::Runtime::CompilerServices::LoadHint() const noexcept {
       return loadHint;
     }
     // public System.Void .ctor(System.Runtime.CompilerServices.LoadHint loadHintArgument)

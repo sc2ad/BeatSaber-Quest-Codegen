@@ -35,7 +35,7 @@ namespace UnityEngine::Events {
     // Offset: 0x0
     ::Array<::Il2CppObject*>* m_InvokeArray;
     // Creating conversion operator: operator ::Array<::Il2CppObject*>*
-    constexpr operator ::Array<::Il2CppObject*>*() const {
+    constexpr operator ::Array<::Il2CppObject*>*() const noexcept {
       return m_InvokeArray;
     }
     // public System.Void AddListener(UnityEngine.Events.UnityAction`1<T0> call)

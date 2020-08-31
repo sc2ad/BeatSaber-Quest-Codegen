@@ -28,7 +28,7 @@ namespace OVR::OpenVR {
     // Offset: 0x48
     OVR::OpenVR::HmdVector2_t vRange;
     // Creating value type constructor for type: VRTextureDepthInfo_t
-    constexpr VRTextureDepthInfo_t(System::IntPtr handle_ = {}, OVR::OpenVR::HmdMatrix44_t mProjection_ = {}, OVR::OpenVR::HmdVector2_t vRange_ = {}) : handle{handle_}, mProjection{mProjection_}, vRange{vRange_} {}
+    constexpr VRTextureDepthInfo_t(System::IntPtr handle_ = {}, OVR::OpenVR::HmdMatrix44_t mProjection_ = {}, OVR::OpenVR::HmdVector2_t vRange_ = {}) noexcept : handle{handle_}, mProjection{mProjection_}, vRange{vRange_} {}
   }; // OVR.OpenVR.VRTextureDepthInfo_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

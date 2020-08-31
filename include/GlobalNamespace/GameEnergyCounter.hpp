@@ -92,7 +92,7 @@ namespace GlobalNamespace {
     // Offset: 0x6A
     bool failOnSaberClash;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_gameEnergyDidReach0Event(System.Action value)
     // Offset: 0xBF3698
     void add_gameEnergyDidReach0Event(System::Action* value);

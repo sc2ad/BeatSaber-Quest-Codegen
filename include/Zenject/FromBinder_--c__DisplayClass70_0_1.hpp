@@ -45,7 +45,7 @@ namespace Zenject {
     // Offset: 0x0
     System::Func_2<Zenject::InjectContext*, System::Collections::Generic::IEnumerable_1<TConcrete>*>* method;
     // Creating conversion operator: operator System::Func_2<Zenject::InjectContext*, System::Collections::Generic::IEnumerable_1<TConcrete>*>*
-    constexpr operator System::Func_2<Zenject::InjectContext*, System::Collections::Generic::IEnumerable_1<TConcrete>*>*() const {
+    constexpr operator System::Func_2<Zenject::InjectContext*, System::Collections::Generic::IEnumerable_1<TConcrete>*>*() const noexcept {
       return method;
     }
     // Zenject.IProvider <FromMethodMultipleBase>b__0(Zenject.DiContainer container, System.Type type)

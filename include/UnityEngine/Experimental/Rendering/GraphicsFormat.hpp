@@ -17,9 +17,9 @@ namespace UnityEngine::Experimental::Rendering {
     // Offset: 0x0
     int value;
     // Creating value type constructor for type: GraphicsFormat
-    constexpr GraphicsFormat(int value_ = {}) : value{value_} {}
+    constexpr GraphicsFormat(int value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return value;
     }
     // static field const value: static public UnityEngine.Experimental.Rendering.GraphicsFormat None

@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::MissionStage* firstLockedMissionStage;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public MissionStage get_firstLockedMissionStage()
     // Offset: 0xC0F280
     GlobalNamespace::MissionStage* get_firstLockedMissionStage();

@@ -39,7 +39,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x0
     System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<T>* valueInfo;
     // Creating conversion operator: operator System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<T>*
-    constexpr operator System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<T>*() const {
+    constexpr operator System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<T>*() const noexcept {
       return valueInfo;
     }
     // public System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, System.Nullable`1<T> value)

@@ -30,7 +30,7 @@ namespace Zenject {
     // Offset: 0x10
     System::Reflection::Assembly* assembly;
     // Creating conversion operator: operator System::Reflection::Assembly*
-    constexpr operator System::Reflection::Assembly*() const {
+    constexpr operator System::Reflection::Assembly*() const noexcept {
       return assembly;
     }
     // System.Boolean <ShouldIncludeAssembly>b__0(System.Func`2<System.Reflection.Assembly,System.Boolean> predicate)

@@ -17,9 +17,9 @@ namespace System::Xml {
     // Offset: 0x0
     uint value;
     // Creating value type constructor for type: AttributeProperties
-    constexpr AttributeProperties(uint value_ = {}) : value{value_} {}
+    constexpr AttributeProperties(uint value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator uint
-    constexpr operator uint() const {
+    constexpr operator uint() const noexcept {
       return value;
     }
     // static field const value: static public System.Xml.AttributeProperties DEFAULT

@@ -17,7 +17,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x10
     ::Il2CppString* AnonymousProperty;
     // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const {
+    constexpr operator ::Il2CppString*() const noexcept {
       return AnonymousProperty;
     }
     // public System.Void .ctor(System.String anonymousProperty)

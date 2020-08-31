@@ -26,7 +26,7 @@ namespace System::Resources {
     // Offset: 0x88
     ::Il2CppString* cultureName;
     // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const {
+    constexpr operator ::Il2CppString*() const noexcept {
       return cultureName;
     }
     // public System.Void .ctor(System.String message, System.String cultureName)

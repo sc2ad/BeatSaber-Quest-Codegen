@@ -86,7 +86,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x94
     bool lastSmoothTowardsTarget;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Start()
     // Offset: 0x1231F10
     void Start();

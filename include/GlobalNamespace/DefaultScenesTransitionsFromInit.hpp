@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public MenuScenesTransitionSetupDataSO get_mainMenuScenesTransitionSetupData()
     // Offset: 0xBE698C
     GlobalNamespace::MenuScenesTransitionSetupDataSO* get_mainMenuScenesTransitionSetupData();

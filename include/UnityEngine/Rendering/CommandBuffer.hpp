@@ -60,7 +60,7 @@ namespace UnityEngine::Rendering {
     // Offset: 0x10
     System::IntPtr m_Ptr;
     // Creating conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const {
+    constexpr operator System::IntPtr() const noexcept {
       return m_Ptr;
     }
     // static private System.IntPtr InitBuffer()

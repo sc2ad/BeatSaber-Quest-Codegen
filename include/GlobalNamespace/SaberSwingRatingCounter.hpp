@@ -94,7 +94,7 @@ namespace GlobalNamespace {
     // Offset: 0xC0
     UnityEngine::Vector3 cutBottomPos;
     // Deleting conversion operator: operator uint64_t
-    constexpr operator uint64_t() const = delete;
+    constexpr operator uint64_t() const noexcept = delete;
     // public System.Void add_didChangeEvent(SaberSwingRatingCounter/DidChangeDelegate value)
     // Offset: 0xC298EC
     void add_didChangeEvent(GlobalNamespace::SaberSwingRatingCounter::DidChangeDelegate* value);

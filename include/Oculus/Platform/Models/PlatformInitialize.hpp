@@ -24,7 +24,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x10
     Oculus::Platform::PlatformInitializeResult Result;
     // Creating conversion operator: operator Oculus::Platform::PlatformInitializeResult
-    constexpr operator Oculus::Platform::PlatformInitializeResult() const {
+    constexpr operator Oculus::Platform::PlatformInitializeResult() const noexcept {
       return Result;
     }
     // public System.Void .ctor(System.IntPtr o)

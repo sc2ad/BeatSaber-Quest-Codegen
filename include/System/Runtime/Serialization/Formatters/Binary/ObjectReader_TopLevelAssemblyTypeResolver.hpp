@@ -29,7 +29,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x10
     System::Reflection::Assembly* m_topLevelAssembly;
     // Creating conversion operator: operator System::Reflection::Assembly*
-    constexpr operator System::Reflection::Assembly*() const {
+    constexpr operator System::Reflection::Assembly*() const noexcept {
       return m_topLevelAssembly;
     }
     // public System.Void .ctor(System.Reflection.Assembly topLevelAssembly)

@@ -17,9 +17,9 @@ namespace Valve::VR {
     // Offset: 0x0
     int value;
     // Creating value type constructor for type: ECollisionBoundsStyle
-    constexpr ECollisionBoundsStyle(int value_ = {}) : value{value_} {}
+    constexpr ECollisionBoundsStyle(int value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return value;
     }
     // static field const value: static public Valve.VR.ECollisionBoundsStyle COLLISION_BOUNDS_STYLE_BEGINNER

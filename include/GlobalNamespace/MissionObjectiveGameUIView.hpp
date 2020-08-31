@@ -82,7 +82,7 @@ namespace GlobalNamespace {
     // Offset: 0x98
     GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void SetMissionObjectiveChecker(MissionObjectiveChecker missionObjectiveChecker)
     // Offset: 0xC0CDBC
     void SetMissionObjectiveChecker(GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);

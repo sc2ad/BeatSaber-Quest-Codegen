@@ -31,7 +31,7 @@ namespace OVRSimpleJSON {
     // Offset: 0x10
     bool m_Data;
     // Creating conversion operator: operator bool
-    constexpr operator bool() const {
+    constexpr operator bool() const noexcept {
       return m_Data;
     }
     // public System.Void .ctor(System.Boolean aData)

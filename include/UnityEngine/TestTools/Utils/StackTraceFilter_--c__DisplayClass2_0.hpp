@@ -17,7 +17,7 @@ namespace UnityEngine::TestTools::Utils {
     // Offset: 0x10
     ::Il2CppString* line;
     // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const {
+    constexpr operator ::Il2CppString*() const noexcept {
       return line;
     }
     // System.Boolean <Filter>b__0(System.String s)

@@ -42,7 +42,7 @@ namespace NUnit::Framework::Internal::Builders {
     // Offset: 0x10
     NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder* defaultBuilder;
     // Creating conversion operator: operator NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*
-    constexpr operator NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*() const {
+    constexpr operator NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*() const noexcept {
       return defaultBuilder;
     }
     // private NUnit.Framework.Internal.TestSuite BuildMultipleFixtures(NUnit.Framework.Interfaces.ITypeInfo typeInfo, System.Collections.Generic.IEnumerable`1<NUnit.Framework.Internal.TestSuite> fixtures)

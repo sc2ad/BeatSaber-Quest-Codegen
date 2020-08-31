@@ -15,7 +15,7 @@ namespace Microsoft::Win32 {
     // Offset: 0x10
     ::Il2CppString* value;
     // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const {
+    constexpr operator ::Il2CppString*() const noexcept {
       return value;
     }
     // public System.Void .ctor(System.String s)

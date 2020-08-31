@@ -17,7 +17,7 @@ namespace OnlineServices::API {
     // Offset: 0x10
     ::Array<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*>* leaderboardsInfoDtos;
     // Creating conversion operator: operator ::Array<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*>*
-    constexpr operator ::Array<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*>*() const {
+    constexpr operator ::Array<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*>*() const noexcept {
       return leaderboardsInfoDtos;
     }
     // public System.Void .ctor()

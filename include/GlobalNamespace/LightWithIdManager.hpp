@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Offset: 0x30
     int lastColorChangeFrameNum;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kMaxLightId
     static constexpr const int kMaxLightId = 20;
     // Get static field: static private System.Int32 kMaxLightId

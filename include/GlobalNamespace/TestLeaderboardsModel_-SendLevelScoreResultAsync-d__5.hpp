@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Offset: 0x58
     System::Runtime::CompilerServices::TaskAwaiter $$u__1;
     // Creating value type constructor for type: $SendLevelScoreResultAsync$d__5
-    constexpr $SendLevelScoreResultAsync$d__5(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<OnlineServices::SendLeaderboardEntryResult> $$t__builder_ = {}, GlobalNamespace::TestLeaderboardsModel* $$4__this_ = {}, OnlineServices::LevelScoreResultsData levelScoreResult_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, levelScoreResult{levelScoreResult_}, $$u__1{$$u__1_} {}
+    constexpr $SendLevelScoreResultAsync$d__5(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<OnlineServices::SendLeaderboardEntryResult> $$t__builder_ = {}, GlobalNamespace::TestLeaderboardsModel* $$4__this_ = {}, OnlineServices::LevelScoreResultsData levelScoreResult_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, levelScoreResult{levelScoreResult_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
     // Offset: 0xA2CB44
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine

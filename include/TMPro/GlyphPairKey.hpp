@@ -30,7 +30,7 @@ namespace TMPro {
     // Offset: 0x8
     int64_t key;
     // Creating value type constructor for type: GlyphPairKey
-    constexpr GlyphPairKey(uint firstGlyphIndex_ = {}, uint secondGlyphIndex_ = {}, int64_t key_ = {}) : firstGlyphIndex{firstGlyphIndex_}, secondGlyphIndex{secondGlyphIndex_}, key{key_} {}
+    constexpr GlyphPairKey(uint firstGlyphIndex_ = {}, uint secondGlyphIndex_ = {}, int64_t key_ = {}) noexcept : firstGlyphIndex{firstGlyphIndex_}, secondGlyphIndex{secondGlyphIndex_}, key{key_} {}
     // public System.Void .ctor(System.UInt32 firstGlyphIndex, System.UInt32 secondGlyphIndex)
     // Offset: 0xA2B790
     static GlyphPairKey* New_ctor(uint firstGlyphIndex, uint secondGlyphIndex);

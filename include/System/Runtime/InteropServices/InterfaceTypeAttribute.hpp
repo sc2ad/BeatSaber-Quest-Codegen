@@ -19,7 +19,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x10
     System::Runtime::InteropServices::ComInterfaceType val;
     // Creating conversion operator: operator System::Runtime::InteropServices::ComInterfaceType
-    constexpr operator System::Runtime::InteropServices::ComInterfaceType() const {
+    constexpr operator System::Runtime::InteropServices::ComInterfaceType() const noexcept {
       return val;
     }
     // public System.Void .ctor(System.Runtime.InteropServices.ComInterfaceType interfaceType)

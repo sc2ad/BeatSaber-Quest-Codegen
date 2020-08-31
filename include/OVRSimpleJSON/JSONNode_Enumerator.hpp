@@ -36,9 +36,9 @@ namespace OVRSimpleJSON {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: Type
-      constexpr Type(int value_ = {}) : value{value_} {}
+      constexpr Type(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public OVRSimpleJSON.JSONNode/Enumerator/Type None
@@ -70,7 +70,7 @@ namespace OVRSimpleJSON {
     // Offset: 0x30
     typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator m_Array;
     // Creating value type constructor for type: Enumerator
-    constexpr Enumerator(OVRSimpleJSON::JSONNode::Enumerator::Type type_ = {}, typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator m_Object_ = {}, typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator m_Array_ = {}) : type{type_}, m_Object{m_Object_}, m_Array{m_Array_} {}
+    constexpr Enumerator(OVRSimpleJSON::JSONNode::Enumerator::Type type_ = {}, typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator m_Object_ = {}, typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator m_Array_ = {}) noexcept : type{type_}, m_Object{m_Object_}, m_Array{m_Array_} {}
     // public System.Boolean get_IsValid()
     // Offset: 0xA3B99C
     bool get_IsValid();

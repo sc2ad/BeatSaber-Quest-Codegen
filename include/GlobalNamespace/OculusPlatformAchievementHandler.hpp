@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     GlobalNamespace::AchievementIdsModelSO* achievementIdsModel;
     // Creating conversion operator: operator GlobalNamespace::AchievementIdsModelSO*
-    constexpr operator GlobalNamespace::AchievementIdsModelSO*() const {
+    constexpr operator GlobalNamespace::AchievementIdsModelSO*() const noexcept {
       return achievementIdsModel;
     }
     // public System.Void .ctor(AchievementIdsModelSO achievementIdsModel)

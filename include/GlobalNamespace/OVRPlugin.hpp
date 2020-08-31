@@ -296,7 +296,7 @@ namespace GlobalNamespace {
       // Offset: 0x8
       float z;
       // Creating value type constructor for type: Vector3f
-      constexpr Vector3f(float x_ = {}, float y_ = {}, float z_ = {}) : x{x_}, y{y_}, z{z_} {}
+      constexpr Vector3f(float x_ = {}, float y_ = {}, float z_ = {}) noexcept : x{x_}, y{y_}, z{z_} {}
       // Get static field: static public readonly OVRPlugin/Vector3f zero
       static GlobalNamespace::OVRPlugin::Vector3f _get_zero();
       // Set static field: static public readonly OVRPlugin/Vector3f zero
@@ -326,7 +326,7 @@ namespace GlobalNamespace {
       // Offset: 0xC
       float w;
       // Creating value type constructor for type: Quatf
-      constexpr Quatf(float x_ = {}, float y_ = {}, float z_ = {}, float w_ = {}) : x{x_}, y{y_}, z{z_}, w{w_} {}
+      constexpr Quatf(float x_ = {}, float y_ = {}, float z_ = {}, float w_ = {}) noexcept : x{x_}, y{y_}, z{z_}, w{w_} {}
       // Get static field: static public readonly OVRPlugin/Quatf identity
       static GlobalNamespace::OVRPlugin::Quatf _get_identity();
       // Set static field: static public readonly OVRPlugin/Quatf identity
@@ -350,7 +350,7 @@ namespace GlobalNamespace {
       // Offset: 0x10
       GlobalNamespace::OVRPlugin::Vector3f Position;
       // Creating value type constructor for type: Posef
-      constexpr Posef(GlobalNamespace::OVRPlugin::Quatf Orientation_ = {}, GlobalNamespace::OVRPlugin::Vector3f Position_ = {}) : Orientation{Orientation_}, Position{Position_} {}
+      constexpr Posef(GlobalNamespace::OVRPlugin::Quatf Orientation_ = {}, GlobalNamespace::OVRPlugin::Vector3f Position_ = {}) noexcept : Orientation{Orientation_}, Position{Position_} {}
       // Get static field: static public readonly OVRPlugin/Posef identity
       static GlobalNamespace::OVRPlugin::Posef _get_identity();
       // Set static field: static public readonly OVRPlugin/Posef identity
@@ -371,9 +371,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: TrackingConfidence
-      constexpr TrackingConfidence(int value_ = {}) : value{value_} {}
+      constexpr TrackingConfidence(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public OVRPlugin/TrackingConfidence Low
@@ -396,9 +396,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: HandStatus
-      constexpr HandStatus(int value_ = {}) : value{value_} {}
+      constexpr HandStatus(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public OVRPlugin/HandStatus HandTracked
@@ -427,9 +427,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: HandFingerPinch
-      constexpr HandFingerPinch(int value_ = {}) : value{value_} {}
+      constexpr HandFingerPinch(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public OVRPlugin/HandFingerPinch Thumb
@@ -593,7 +593,7 @@ namespace GlobalNamespace {
       // Offset: 0x1F8
       double SampleTimeStamp;
       // Creating value type constructor for type: HandStateInternal
-      constexpr HandStateInternal(GlobalNamespace::OVRPlugin::HandStatus Status_ = {}, GlobalNamespace::OVRPlugin::Posef RootPose_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_0_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_1_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_2_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_3_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_4_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_5_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_6_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_7_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_8_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_9_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_10_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_11_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_12_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_13_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_14_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_15_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_16_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_17_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_18_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_19_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_20_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_21_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_22_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_23_ = {}, GlobalNamespace::OVRPlugin::HandFingerPinch Pinches_ = {}, float PinchStrength_0_ = {}, float PinchStrength_1_ = {}, float PinchStrength_2_ = {}, float PinchStrength_3_ = {}, float PinchStrength_4_ = {}, GlobalNamespace::OVRPlugin::Posef PointerPose_ = {}, float HandScale_ = {}, GlobalNamespace::OVRPlugin::TrackingConfidence HandConfidence_ = {}, GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_0_ = {}, GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_1_ = {}, GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_2_ = {}, GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_3_ = {}, GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_4_ = {}, double RequestedTimeStamp_ = {}, double SampleTimeStamp_ = {}) : Status{Status_}, RootPose{RootPose_}, BoneRotations_0{BoneRotations_0_}, BoneRotations_1{BoneRotations_1_}, BoneRotations_2{BoneRotations_2_}, BoneRotations_3{BoneRotations_3_}, BoneRotations_4{BoneRotations_4_}, BoneRotations_5{BoneRotations_5_}, BoneRotations_6{BoneRotations_6_}, BoneRotations_7{BoneRotations_7_}, BoneRotations_8{BoneRotations_8_}, BoneRotations_9{BoneRotations_9_}, BoneRotations_10{BoneRotations_10_}, BoneRotations_11{BoneRotations_11_}, BoneRotations_12{BoneRotations_12_}, BoneRotations_13{BoneRotations_13_}, BoneRotations_14{BoneRotations_14_}, BoneRotations_15{BoneRotations_15_}, BoneRotations_16{BoneRotations_16_}, BoneRotations_17{BoneRotations_17_}, BoneRotations_18{BoneRotations_18_}, BoneRotations_19{BoneRotations_19_}, BoneRotations_20{BoneRotations_20_}, BoneRotations_21{BoneRotations_21_}, BoneRotations_22{BoneRotations_22_}, BoneRotations_23{BoneRotations_23_}, Pinches{Pinches_}, PinchStrength_0{PinchStrength_0_}, PinchStrength_1{PinchStrength_1_}, PinchStrength_2{PinchStrength_2_}, PinchStrength_3{PinchStrength_3_}, PinchStrength_4{PinchStrength_4_}, PointerPose{PointerPose_}, HandScale{HandScale_}, HandConfidence{HandConfidence_}, FingerConfidences_0{FingerConfidences_0_}, FingerConfidences_1{FingerConfidences_1_}, FingerConfidences_2{FingerConfidences_2_}, FingerConfidences_3{FingerConfidences_3_}, FingerConfidences_4{FingerConfidences_4_}, RequestedTimeStamp{RequestedTimeStamp_}, SampleTimeStamp{SampleTimeStamp_} {}
+      constexpr HandStateInternal(GlobalNamespace::OVRPlugin::HandStatus Status_ = {}, GlobalNamespace::OVRPlugin::Posef RootPose_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_0_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_1_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_2_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_3_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_4_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_5_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_6_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_7_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_8_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_9_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_10_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_11_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_12_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_13_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_14_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_15_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_16_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_17_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_18_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_19_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_20_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_21_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_22_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_23_ = {}, GlobalNamespace::OVRPlugin::HandFingerPinch Pinches_ = {}, float PinchStrength_0_ = {}, float PinchStrength_1_ = {}, float PinchStrength_2_ = {}, float PinchStrength_3_ = {}, float PinchStrength_4_ = {}, GlobalNamespace::OVRPlugin::Posef PointerPose_ = {}, float HandScale_ = {}, GlobalNamespace::OVRPlugin::TrackingConfidence HandConfidence_ = {}, GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_0_ = {}, GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_1_ = {}, GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_2_ = {}, GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_3_ = {}, GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_4_ = {}, double RequestedTimeStamp_ = {}, double SampleTimeStamp_ = {}) noexcept : Status{Status_}, RootPose{RootPose_}, BoneRotations_0{BoneRotations_0_}, BoneRotations_1{BoneRotations_1_}, BoneRotations_2{BoneRotations_2_}, BoneRotations_3{BoneRotations_3_}, BoneRotations_4{BoneRotations_4_}, BoneRotations_5{BoneRotations_5_}, BoneRotations_6{BoneRotations_6_}, BoneRotations_7{BoneRotations_7_}, BoneRotations_8{BoneRotations_8_}, BoneRotations_9{BoneRotations_9_}, BoneRotations_10{BoneRotations_10_}, BoneRotations_11{BoneRotations_11_}, BoneRotations_12{BoneRotations_12_}, BoneRotations_13{BoneRotations_13_}, BoneRotations_14{BoneRotations_14_}, BoneRotations_15{BoneRotations_15_}, BoneRotations_16{BoneRotations_16_}, BoneRotations_17{BoneRotations_17_}, BoneRotations_18{BoneRotations_18_}, BoneRotations_19{BoneRotations_19_}, BoneRotations_20{BoneRotations_20_}, BoneRotations_21{BoneRotations_21_}, BoneRotations_22{BoneRotations_22_}, BoneRotations_23{BoneRotations_23_}, Pinches{Pinches_}, PinchStrength_0{PinchStrength_0_}, PinchStrength_1{PinchStrength_1_}, PinchStrength_2{PinchStrength_2_}, PinchStrength_3{PinchStrength_3_}, PinchStrength_4{PinchStrength_4_}, PointerPose{PointerPose_}, HandScale{HandScale_}, HandConfidence{HandConfidence_}, FingerConfidences_0{FingerConfidences_0_}, FingerConfidences_1{FingerConfidences_1_}, FingerConfidences_2{FingerConfidences_2_}, FingerConfidences_3{FingerConfidences_3_}, FingerConfidences_4{FingerConfidences_4_}, RequestedTimeStamp{RequestedTimeStamp_}, SampleTimeStamp{SampleTimeStamp_} {}
     }; // OVRPlugin/HandStateInternal
     // static field const value: static public System.Boolean isSupportedPlatform
     static constexpr const bool isSupportedPlatform = true;

@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     UnityEngine::Camera* mrcForegroundCameraPrefab;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Init(ExternalCamerasManager/InitData initData)
     // Offset: 0x1910CE4
     void Init(GlobalNamespace::ExternalCamerasManager::InitData* initData);

@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData;
     // Creating conversion operator: operator GlobalNamespace::ScenesTransitionSetupDataSO*
-    constexpr operator GlobalNamespace::ScenesTransitionSetupDataSO*() const {
+    constexpr operator GlobalNamespace::ScenesTransitionSetupDataSO*() const noexcept {
       return nextScenesTransitionSetupData;
     }
     // public ScenesTransitionSetupDataSO get_nextScenesTransitionSetupData()

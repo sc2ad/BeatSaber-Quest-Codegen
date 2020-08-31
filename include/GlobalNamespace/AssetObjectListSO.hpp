@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Array<UnityEngine::Object*>* objects;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Object[] get_objects()
     // Offset: 0xB89464
     ::Array<UnityEngine::Object*>* get_objects();

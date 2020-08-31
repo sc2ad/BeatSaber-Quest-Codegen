@@ -66,7 +66,7 @@ namespace HMUI {
     // Offset: 0x48
     int selectedCellNumber;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didSelectCellEvent(System.Action`2<HMUI.SegmentedControl,System.Int32> value)
     // Offset: 0x10E4760
     void add_didSelectCellEvent(System::Action_2<HMUI::SegmentedControl*, int>* value);

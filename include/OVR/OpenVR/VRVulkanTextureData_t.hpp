@@ -46,7 +46,7 @@ namespace OVR::OpenVR {
     // Offset: 0x38
     uint m_nSampleCount;
     // Creating value type constructor for type: VRVulkanTextureData_t
-    constexpr VRVulkanTextureData_t(uint64_t m_nImage_ = {}, System::IntPtr m_pDevice_ = {}, System::IntPtr m_pPhysicalDevice_ = {}, System::IntPtr m_pInstance_ = {}, System::IntPtr m_pQueue_ = {}, uint m_nQueueFamilyIndex_ = {}, uint m_nWidth_ = {}, uint m_nHeight_ = {}, uint m_nFormat_ = {}, uint m_nSampleCount_ = {}) : m_nImage{m_nImage_}, m_pDevice{m_pDevice_}, m_pPhysicalDevice{m_pPhysicalDevice_}, m_pInstance{m_pInstance_}, m_pQueue{m_pQueue_}, m_nQueueFamilyIndex{m_nQueueFamilyIndex_}, m_nWidth{m_nWidth_}, m_nHeight{m_nHeight_}, m_nFormat{m_nFormat_}, m_nSampleCount{m_nSampleCount_} {}
+    constexpr VRVulkanTextureData_t(uint64_t m_nImage_ = {}, System::IntPtr m_pDevice_ = {}, System::IntPtr m_pPhysicalDevice_ = {}, System::IntPtr m_pInstance_ = {}, System::IntPtr m_pQueue_ = {}, uint m_nQueueFamilyIndex_ = {}, uint m_nWidth_ = {}, uint m_nHeight_ = {}, uint m_nFormat_ = {}, uint m_nSampleCount_ = {}) noexcept : m_nImage{m_nImage_}, m_pDevice{m_pDevice_}, m_pPhysicalDevice{m_pPhysicalDevice_}, m_pInstance{m_pInstance_}, m_pQueue{m_pQueue_}, m_nQueueFamilyIndex{m_nQueueFamilyIndex_}, m_nWidth{m_nWidth_}, m_nHeight{m_nHeight_}, m_nFormat{m_nFormat_}, m_nSampleCount{m_nSampleCount_} {}
   }; // OVR.OpenVR.VRVulkanTextureData_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

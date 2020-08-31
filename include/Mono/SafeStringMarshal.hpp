@@ -26,7 +26,7 @@ namespace Mono {
     // Offset: 0x8
     System::IntPtr marshaled_string;
     // Creating value type constructor for type: SafeStringMarshal
-    constexpr SafeStringMarshal(::Il2CppString* str_ = {}, System::IntPtr marshaled_string_ = {}) : str{str_}, marshaled_string{marshaled_string_} {}
+    constexpr SafeStringMarshal(::Il2CppString* str_ = {}, System::IntPtr marshaled_string_ = {}) noexcept : str{str_}, marshaled_string{marshaled_string_} {}
     // static public System.IntPtr StringToUtf8(System.String str)
     // Offset: 0x10B9D9C
     static System::IntPtr StringToUtf8(::Il2CppString* str);

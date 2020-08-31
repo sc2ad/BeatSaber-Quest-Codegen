@@ -143,7 +143,7 @@ namespace UnityEngine::Timeline {
       // Offset: 0x10
       System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>* markerList;
       // Creating value type constructor for type: TransientBuildData
-      constexpr TransientBuildData(System::Collections::Generic::List_1<UnityEngine::Timeline::TrackAsset*>* trackList_ = {}, System::Collections::Generic::List_1<UnityEngine::Timeline::TimelineClip*>* clipList_ = {}, System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>* markerList_ = {}) : trackList{trackList_}, clipList{clipList_}, markerList{markerList_} {}
+      constexpr TransientBuildData(System::Collections::Generic::List_1<UnityEngine::Timeline::TrackAsset*>* trackList_ = {}, System::Collections::Generic::List_1<UnityEngine::Timeline::TimelineClip*>* clipList_ = {}, System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>* markerList_ = {}) noexcept : trackList{trackList_}, clipList{clipList_}, markerList{markerList_} {}
       // static public UnityEngine.Timeline.TrackAsset/TransientBuildData Create()
       // Offset: 0x190EAFC
       static UnityEngine::Timeline::TrackAsset::TransientBuildData Create();
@@ -203,7 +203,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x88
     UnityEngine::Timeline::MarkerList m_Markers;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 k_LatestVersion
     static constexpr const int k_LatestVersion = 3;
     // Get static field: static private System.Int32 k_LatestVersion

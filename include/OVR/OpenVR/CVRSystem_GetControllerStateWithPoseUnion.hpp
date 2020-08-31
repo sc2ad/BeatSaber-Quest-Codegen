@@ -24,7 +24,7 @@ namespace OVR::OpenVR {
     // Offset: 0x0
     OVR::OpenVR::CVRSystem::_GetControllerStateWithPosePacked* pGetControllerStateWithPosePacked;
     // Creating value type constructor for type: GetControllerStateWithPoseUnion
-    constexpr GetControllerStateWithPoseUnion(OVR::OpenVR::IVRSystem::_GetControllerStateWithPose* pGetControllerStateWithPose_ = {}, OVR::OpenVR::CVRSystem::_GetControllerStateWithPosePacked* pGetControllerStateWithPosePacked_ = {}) : pGetControllerStateWithPose{pGetControllerStateWithPose_}, pGetControllerStateWithPosePacked{pGetControllerStateWithPosePacked_} {}
+    constexpr GetControllerStateWithPoseUnion(OVR::OpenVR::IVRSystem::_GetControllerStateWithPose* pGetControllerStateWithPose_ = {}, OVR::OpenVR::CVRSystem::_GetControllerStateWithPosePacked* pGetControllerStateWithPosePacked_ = {}) noexcept : pGetControllerStateWithPose{pGetControllerStateWithPose_}, pGetControllerStateWithPosePacked{pGetControllerStateWithPosePacked_} {}
   }; // OVR.OpenVR.CVRSystem/GetControllerStateWithPoseUnion
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -43,7 +43,7 @@ namespace System::Runtime::Remoting::Channels {
     // Offset: 0x10
     int domainID;
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return domainID;
     }
     // Get static field: static private System.Collections.Hashtable s_sinks

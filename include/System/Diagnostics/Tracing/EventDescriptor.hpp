@@ -41,7 +41,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x8
     int64_t m_keywords;
     // Creating value type constructor for type: EventDescriptor
-    constexpr EventDescriptor(int m_traceloggingId_ = {}, uint16_t m_id_ = {}, uint8_t m_version_ = {}, uint8_t m_channel_ = {}, uint8_t m_level_ = {}, uint8_t m_opcode_ = {}, uint16_t m_task_ = {}, int64_t m_keywords_ = {}) : m_traceloggingId{m_traceloggingId_}, m_id{m_id_}, m_version{m_version_}, m_channel{m_channel_}, m_level{m_level_}, m_opcode{m_opcode_}, m_task{m_task_}, m_keywords{m_keywords_} {}
+    constexpr EventDescriptor(int m_traceloggingId_ = {}, uint16_t m_id_ = {}, uint8_t m_version_ = {}, uint8_t m_channel_ = {}, uint8_t m_level_ = {}, uint8_t m_opcode_ = {}, uint16_t m_task_ = {}, int64_t m_keywords_ = {}) noexcept : m_traceloggingId{m_traceloggingId_}, m_id{m_id_}, m_version{m_version_}, m_channel{m_channel_}, m_level{m_level_}, m_opcode{m_opcode_}, m_task{m_task_}, m_keywords{m_keywords_} {}
     // public System.Void .ctor(System.Int32 traceloggingId, System.Byte level, System.Byte opcode, System.Int64 keywords)
     // Offset: 0xA2D490
     static EventDescriptor* New_ctor(int traceloggingId, uint8_t level, uint8_t opcode, int64_t keywords);

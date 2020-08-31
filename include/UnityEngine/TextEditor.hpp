@@ -53,9 +53,9 @@ namespace UnityEngine {
       // Offset: 0x0
       uint8_t value;
       // Creating value type constructor for type: DblClickSnapping
-      constexpr DblClickSnapping(uint8_t value_ = {}) : value{value_} {}
+      constexpr DblClickSnapping(uint8_t value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator uint8_t
-      constexpr operator uint8_t() const {
+      constexpr operator uint8_t() const noexcept {
         return value;
       }
       // static field const value: static public UnityEngine.TextEditor/DblClickSnapping WORDS
@@ -78,9 +78,9 @@ namespace UnityEngine {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: TextEditOp
-      constexpr TextEditOp(int value_ = {}) : value{value_} {}
+      constexpr TextEditOp(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public UnityEngine.TextEditor/TextEditOp MoveLeft

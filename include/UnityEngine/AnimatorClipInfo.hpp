@@ -19,7 +19,7 @@ namespace UnityEngine {
     // Offset: 0x4
     float m_Weight;
     // Creating value type constructor for type: AnimatorClipInfo
-    constexpr AnimatorClipInfo(int m_ClipInstanceID_ = {}, float m_Weight_ = {}) : m_ClipInstanceID{m_ClipInstanceID_}, m_Weight{m_Weight_} {}
+    constexpr AnimatorClipInfo(int m_ClipInstanceID_ = {}, float m_Weight_ = {}) noexcept : m_ClipInstanceID{m_ClipInstanceID_}, m_Weight{m_Weight_} {}
   }; // UnityEngine.AnimatorClipInfo
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -44,7 +44,7 @@ namespace System::Reflection {
     // Offset: 0x10
     System::Reflection::EventInfo::AddEventAdapter* cached_add_event;
     // Creating conversion operator: operator System::Reflection::EventInfo::AddEventAdapter*
-    constexpr operator System::Reflection::EventInfo::AddEventAdapter*() const {
+    constexpr operator System::Reflection::EventInfo::AddEventAdapter*() const noexcept {
       return cached_add_event;
     }
     // public System.Type get_EventHandlerType()

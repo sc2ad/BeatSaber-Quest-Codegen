@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::UI::Button* button;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void OnReset()
     // Offset: 0xCBCD94
     void OnReset();

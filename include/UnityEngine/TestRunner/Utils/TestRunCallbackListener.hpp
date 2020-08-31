@@ -50,7 +50,7 @@ namespace UnityEngine::TestRunner::Utils {
     // Offset: 0x18
     ::Array<UnityEngine::TestRunner::ITestRunCallback*>* m_Callbacks;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
     // Offset: 0xE3E708
     void RunStarted(NUnit::Framework::Interfaces::ITest* testsToRun);

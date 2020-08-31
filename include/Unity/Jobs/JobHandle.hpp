@@ -21,7 +21,7 @@ namespace Unity::Jobs {
     // Offset: 0x8
     int version;
     // Creating value type constructor for type: JobHandle
-    constexpr JobHandle(System::IntPtr jobGroup_ = {}, int version_ = {}) : jobGroup{jobGroup_}, version{version_} {}
+    constexpr JobHandle(System::IntPtr jobGroup_ = {}, int version_ = {}) noexcept : jobGroup{jobGroup_}, version{version_} {}
     // static public System.Void ScheduleBatchedJobs()
     // Offset: 0x1302B9C
     static void ScheduleBatchedJobs();

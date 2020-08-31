@@ -51,7 +51,7 @@ namespace GlobalNamespace {
       // Offset: 0x8
       GlobalNamespace::IBeatmapLevel* beatmapLevel;
       // Creating value type constructor for type: LoadBeatmapLevelResult
-      constexpr LoadBeatmapLevelResult(bool isError_ = {}, GlobalNamespace::IBeatmapLevel* beatmapLevel_ = {}) : isError{isError_}, beatmapLevel{beatmapLevel_} {}
+      constexpr LoadBeatmapLevelResult(bool isError_ = {}, GlobalNamespace::IBeatmapLevel* beatmapLevel_ = {}) noexcept : isError{isError_}, beatmapLevel{beatmapLevel_} {}
       // public System.Void .ctor(System.Boolean isError, IBeatmapLevel beatmapLevel)
       // Offset: 0xA2BBC8
       static BeatmapLevelLoader::LoadBeatmapLevelResult* New_ctor(bool isError, GlobalNamespace::IBeatmapLevel* beatmapLevel);

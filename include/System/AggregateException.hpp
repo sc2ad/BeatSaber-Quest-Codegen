@@ -52,7 +52,7 @@ namespace System {
     // Offset: 0x88
     System::Collections::ObjectModel::ReadOnlyCollection_1<System::Exception*>* m_innerExceptions;
     // Creating conversion operator: operator System::Collections::ObjectModel::ReadOnlyCollection_1<System::Exception*>*
-    constexpr operator System::Collections::ObjectModel::ReadOnlyCollection_1<System::Exception*>*() const {
+    constexpr operator System::Collections::ObjectModel::ReadOnlyCollection_1<System::Exception*>*() const noexcept {
       return m_innerExceptions;
     }
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<System.Exception> innerExceptions)

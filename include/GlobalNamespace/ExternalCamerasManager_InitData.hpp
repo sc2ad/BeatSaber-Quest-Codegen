@@ -17,7 +17,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     bool enableOculusMRC;
     // Creating conversion operator: operator bool
-    constexpr operator bool() const {
+    constexpr operator bool() const noexcept {
       return enableOculusMRC;
     }
     // public System.Void .ctor(System.Boolean enableOculusMRC)

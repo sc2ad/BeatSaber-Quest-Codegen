@@ -25,7 +25,7 @@ namespace UnityEngine::UI {
     // Offset: 0x10
     System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>* m_Options;
     // Creating conversion operator: operator System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>*
-    constexpr operator System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>*() const {
+    constexpr operator System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>*() const noexcept {
       return m_Options;
     }
     // public System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData> get_options()

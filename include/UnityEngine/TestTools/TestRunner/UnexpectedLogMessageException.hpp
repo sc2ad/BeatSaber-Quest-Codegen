@@ -29,7 +29,7 @@ namespace UnityEngine::TestTools::TestRunner {
     // Offset: 0x88
     UnityEngine::TestTools::Logging::LogMatch* LogEvent;
     // Creating conversion operator: operator UnityEngine::TestTools::Logging::LogMatch*
-    constexpr operator UnityEngine::TestTools::Logging::LogMatch*() const {
+    constexpr operator UnityEngine::TestTools::Logging::LogMatch*() const noexcept {
       return LogEvent;
     }
     // public System.Void .ctor(UnityEngine.TestTools.Logging.LogMatch log)

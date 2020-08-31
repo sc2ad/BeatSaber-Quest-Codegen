@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     // Offset: 0x24
     UnityEngine::Color color;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private System.Collections.Generic.List`1<BloomPrePassBGLight> _bloomBGLightList
     static System::Collections::Generic::List_1<GlobalNamespace::BloomPrePassBGLight*>* _get__bloomBGLightList();
     // Set static field: static private System.Collections.Generic.List`1<BloomPrePassBGLight> _bloomBGLightList

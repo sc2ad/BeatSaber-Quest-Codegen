@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     // Offset: 0x1C
     bool valid;
     // Creating value type constructor for type: VRNodeTransform
-    constexpr VRNodeTransform(UnityEngine::Vector3 pos_ = {}, UnityEngine::Quaternion rot_ = {}, bool valid_ = {}) : pos{pos_}, rot{rot_}, valid{valid_} {}
+    constexpr VRNodeTransform(UnityEngine::Vector3 pos_ = {}, UnityEngine::Quaternion rot_ = {}, bool valid_ = {}) noexcept : pos{pos_}, rot{rot_}, valid{valid_} {}
   }; // VRPlatformHelper/VRNodeTransform
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

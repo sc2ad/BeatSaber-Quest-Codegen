@@ -17,9 +17,9 @@ namespace Oculus::Platform {
     // Offset: 0x0
     int value;
     // Creating value type constructor for type: PeerConnectionState
-    constexpr PeerConnectionState(int value_ = {}) : value{value_} {}
+    constexpr PeerConnectionState(int value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return value;
     }
     // static field const value: static public Oculus.Platform.PeerConnectionState Unknown

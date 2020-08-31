@@ -45,7 +45,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x70
     bool initiated;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void LateUpdate()
     // Offset: 0x13AFFC8
     void LateUpdate();

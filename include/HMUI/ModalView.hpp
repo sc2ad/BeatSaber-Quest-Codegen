@@ -63,7 +63,7 @@ namespace HMUI {
     // Offset: 0x48
     UnityEngine::GameObject* blockerGO;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kSortingLayer
     static constexpr const int kSortingLayer = 30000;
     // Get static field: static private System.Int32 kSortingLayer

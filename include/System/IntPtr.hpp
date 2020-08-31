@@ -32,9 +32,9 @@ namespace System {
     // Offset: 0x0
     void* m_value;
     // Creating value type constructor for type: IntPtr
-    constexpr IntPtr(void* m_value_ = {}) : m_value{m_value_} {}
+    constexpr IntPtr(void* m_value_ = {}) noexcept : m_value{m_value_} {}
     // Creating conversion operator: operator void*
-    constexpr operator void*() const {
+    constexpr operator void*() const noexcept {
       return m_value;
     }
     // Get static field: static public readonly System.IntPtr Zero

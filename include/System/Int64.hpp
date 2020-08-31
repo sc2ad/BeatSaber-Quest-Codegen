@@ -47,9 +47,9 @@ namespace System {
     // Offset: 0x0
     int64_t m_value;
     // Creating value type constructor for type: Int64
-    constexpr Int64(int64_t m_value_ = {}) : m_value{m_value_} {}
+    constexpr Int64(int64_t m_value_ = {}) noexcept : m_value{m_value_} {}
     // Creating conversion operator: operator int64_t
-    constexpr operator int64_t() const {
+    constexpr operator int64_t() const noexcept {
       return m_value;
     }
     // static field const value: static public System.Int64 MaxValue

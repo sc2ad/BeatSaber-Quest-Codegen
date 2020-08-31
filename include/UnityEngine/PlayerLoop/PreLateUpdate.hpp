@@ -42,7 +42,7 @@ namespace UnityEngine::PlayerLoop {
     // Nested type: UnityEngine::PlayerLoop::PreLateUpdate::ConstraintManagerUpdate
     struct ConstraintManagerUpdate;
     // Creating value type constructor for type: PreLateUpdate
-    constexpr PreLateUpdate() {}
+    constexpr PreLateUpdate() noexcept {}
   }; // UnityEngine.PlayerLoop.PreLateUpdate
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -55,7 +55,7 @@ namespace UnityEngine {
     // Offset: 0x18
     bool isMask;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_hasPopInstruction(System.Boolean value)
     // Offset: 0x1970350
     void set_hasPopInstruction(bool value);

@@ -25,7 +25,7 @@ namespace OVR::OpenVR {
     // Offset: 0xC
     float z;
     // Creating value type constructor for type: HmdQuaternionf_t
-    constexpr HmdQuaternionf_t(float w_ = {}, float x_ = {}, float y_ = {}, float z_ = {}) : w{w_}, x{x_}, y{y_}, z{z_} {}
+    constexpr HmdQuaternionf_t(float w_ = {}, float x_ = {}, float y_ = {}, float z_ = {}) noexcept : w{w_}, x{x_}, y{y_}, z{z_} {}
   }; // OVR.OpenVR.HmdQuaternionf_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

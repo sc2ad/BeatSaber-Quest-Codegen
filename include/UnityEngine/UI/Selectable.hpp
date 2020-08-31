@@ -89,9 +89,9 @@ namespace UnityEngine::UI {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: Transition
-      constexpr Transition(int value_ = {}) : value{value_} {}
+      constexpr Transition(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public UnityEngine.UI.Selectable/Transition None
@@ -159,7 +159,7 @@ namespace UnityEngine::UI {
     // Offset: 0xE8
     System::Collections::Generic::List_1<UnityEngine::CanvasGroup*>* m_CanvasGroupCache;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static protected UnityEngine.UI.Selectable[] s_Selectables
     static ::Array<UnityEngine::UI::Selectable*>* _get_s_Selectables();
     // Set static field: static protected UnityEngine.UI.Selectable[] s_Selectables

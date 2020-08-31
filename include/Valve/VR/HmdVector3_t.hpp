@@ -22,7 +22,7 @@ namespace Valve::VR {
     // Offset: 0x8
     float v2;
     // Creating value type constructor for type: HmdVector3_t
-    constexpr HmdVector3_t(float v0_ = {}, float v1_ = {}, float v2_ = {}) : v0{v0_}, v1{v1_}, v2{v2_} {}
+    constexpr HmdVector3_t(float v0_ = {}, float v1_ = {}, float v2_ = {}) noexcept : v0{v0_}, v1{v1_}, v2{v2_} {}
   }; // Valve.VR.HmdVector3_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

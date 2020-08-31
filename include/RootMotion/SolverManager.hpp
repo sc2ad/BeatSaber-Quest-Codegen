@@ -43,7 +43,7 @@ namespace RootMotion {
     // Offset: 0x32
     bool skipSolverUpdate;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Disable()
     // Offset: 0x12460E0
     void Disable();

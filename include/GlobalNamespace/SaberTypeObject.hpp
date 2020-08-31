@@ -19,7 +19,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::SaberType saberType;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public SaberType get_saberType()
     // Offset: 0xC2A8B8
     GlobalNamespace::SaberType get_saberType();

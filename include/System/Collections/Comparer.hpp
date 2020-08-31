@@ -35,7 +35,7 @@ namespace System::Collections {
     // Offset: 0x10
     System::Globalization::CompareInfo* m_compareInfo;
     // Creating conversion operator: operator System::Globalization::CompareInfo*
-    constexpr operator System::Globalization::CompareInfo*() const {
+    constexpr operator System::Globalization::CompareInfo*() const noexcept {
       return m_compareInfo;
     }
     // Get static field: static public readonly System.Collections.Comparer Default

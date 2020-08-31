@@ -17,7 +17,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Il2CppString* missionHelpId;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String get_missionHelpId()
     // Offset: 0xC04740
     ::Il2CppString* get_missionHelpId();

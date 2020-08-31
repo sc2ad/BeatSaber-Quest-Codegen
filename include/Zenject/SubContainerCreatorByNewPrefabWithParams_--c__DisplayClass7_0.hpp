@@ -26,7 +26,7 @@ namespace Zenject {
     // Offset: 0x10
     Zenject::TypeValuePair argPair;
     // Creating conversion operator: operator Zenject::TypeValuePair
-    constexpr operator Zenject::TypeValuePair() const {
+    constexpr operator Zenject::TypeValuePair() const noexcept {
       return argPair;
     }
     // System.Boolean <CreateTempContainer>b__0(Zenject.InjectableInfo x)

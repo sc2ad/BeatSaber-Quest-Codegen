@@ -22,7 +22,7 @@ namespace OVR::OpenVR {
     // Offset: 0x8
     uint repeatCount;
     // Creating value type constructor for type: VREvent_Scroll_t
-    constexpr VREvent_Scroll_t(float xdelta_ = {}, float ydelta_ = {}, uint repeatCount_ = {}) : xdelta{xdelta_}, ydelta{ydelta_}, repeatCount{repeatCount_} {}
+    constexpr VREvent_Scroll_t(float xdelta_ = {}, float ydelta_ = {}, uint repeatCount_ = {}) noexcept : xdelta{xdelta_}, ydelta{ydelta_}, repeatCount{repeatCount_} {}
   }; // OVR.OpenVR.VREvent_Scroll_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

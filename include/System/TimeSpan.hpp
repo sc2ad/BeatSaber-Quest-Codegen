@@ -36,9 +36,9 @@ namespace System {
     // Offset: 0x0
     int64_t ticks;
     // Creating value type constructor for type: TimeSpan
-    constexpr TimeSpan(int64_t ticks_ = {}) : ticks{ticks_} {}
+    constexpr TimeSpan(int64_t ticks_ = {}) noexcept : ticks{ticks_} {}
     // Creating conversion operator: operator int64_t
-    constexpr operator int64_t() const {
+    constexpr operator int64_t() const noexcept {
       return ticks;
     }
     // Get static field: static public readonly System.TimeSpan Zero

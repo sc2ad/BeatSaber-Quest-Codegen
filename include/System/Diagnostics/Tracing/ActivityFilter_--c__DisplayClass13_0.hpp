@@ -27,7 +27,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x10
     int tickNow;
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return tickNow;
     }
     // System.Int32 <TrimActiveActivityStore>b__0(System.Collections.Generic.KeyValuePair`2<System.Guid,System.Int32> x, System.Collections.Generic.KeyValuePair`2<System.Guid,System.Int32> y)

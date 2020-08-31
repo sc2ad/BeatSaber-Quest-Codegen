@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     // Offset: 0x58
     GlobalNamespace::ColorScheme* colorScheme;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_selectedColorDidChangeEvent(System.Action`1<UnityEngine.Color> value)
     // Offset: 0xB813A4
     void add_selectedColorDidChangeEvent(System::Action_1<UnityEngine::Color>* value);

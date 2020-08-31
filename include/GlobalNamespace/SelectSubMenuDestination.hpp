@@ -30,9 +30,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: Destination
-      constexpr Destination(int value_ = {}) : value{value_} {}
+      constexpr Destination(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public SelectSubMenuDestination/Destination MainMenu
@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     GlobalNamespace::SelectSubMenuDestination::Destination menuDestination;
     // Creating conversion operator: operator GlobalNamespace::SelectSubMenuDestination::Destination
-    constexpr operator GlobalNamespace::SelectSubMenuDestination::Destination() const {
+    constexpr operator GlobalNamespace::SelectSubMenuDestination::Destination() const noexcept {
       return menuDestination;
     }
     // public System.Void .ctor(SelectSubMenuDestination/Destination menuDestination)

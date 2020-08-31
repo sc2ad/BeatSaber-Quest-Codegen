@@ -48,7 +48,7 @@ namespace Polyglot {
     // Offset: 0x0
     System::Collections::Generic::List_1<::Il2CppObject*>* parameters;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_MaintainTextAlignment()
     // Offset: 0xFFFFFFFF
     bool get_MaintainTextAlignment() {

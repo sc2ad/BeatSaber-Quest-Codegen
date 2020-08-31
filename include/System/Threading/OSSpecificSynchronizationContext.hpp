@@ -43,7 +43,7 @@ namespace System::Threading {
     // Offset: 0x18
     ::Il2CppObject* m_OSSynchronizationContext;
     // Deleting conversion operator: operator System::Threading::SynchronizationContextProperties
-    constexpr operator System::Threading::SynchronizationContextProperties() const = delete;
+    constexpr operator System::Threading::SynchronizationContextProperties() const noexcept = delete;
     // Get static field: static private readonly System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Threading.OSSpecificSynchronizationContext> s_ContextCache
     static System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Threading::OSSpecificSynchronizationContext*>* _get_s_ContextCache();
     // Set static field: static private readonly System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Threading.OSSpecificSynchronizationContext> s_ContextCache

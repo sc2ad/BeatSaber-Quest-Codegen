@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     Oculus::Platform::Models::AchievementProgress* achievement;
     // Creating conversion operator: operator Oculus::Platform::Models::AchievementProgress*
-    constexpr operator Oculus::Platform::Models::AchievementProgress*() const {
+    constexpr operator Oculus::Platform::Models::AchievementProgress*() const noexcept {
       return achievement;
     }
     // System.Boolean <GetUnlockedAchievements>b__1(AchievementSO x)

@@ -30,7 +30,7 @@ namespace UnityEngine::PlayerLoop {
     // Nested type: UnityEngine::PlayerLoop::Initialization::XREarlyUpdate
     struct XREarlyUpdate;
     // Creating value type constructor for type: Initialization
-    constexpr Initialization() {}
+    constexpr Initialization() noexcept {}
   }; // UnityEngine.PlayerLoop.Initialization
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

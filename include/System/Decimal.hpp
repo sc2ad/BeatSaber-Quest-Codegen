@@ -65,7 +65,7 @@ namespace System {
     // Offset: 0xC
     int mid;
     // Creating value type constructor for type: Decimal
-    constexpr Decimal(int flags_ = {}, int hi_ = {}, int lo_ = {}, int mid_ = {}) : flags{flags_}, hi{hi_}, lo{lo_}, mid{mid_} {}
+    constexpr Decimal(int flags_ = {}, int hi_ = {}, int lo_ = {}, int mid_ = {}) noexcept : flags{flags_}, hi{hi_}, lo{lo_}, mid{mid_} {}
     // static field const value: static private System.Int32 SignMask
     static constexpr const int SignMask = -2147483648;
     // Get static field: static private System.Int32 SignMask

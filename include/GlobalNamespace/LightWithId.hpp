@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     bool isRegistered;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Int32 get_id()
     // Offset: 0x182C020
     int get_id();

@@ -17,9 +17,9 @@ namespace System {
     // Offset: 0x0
     int16_t value;
     // Creating value type constructor for type: Int16Enum
-    constexpr Int16Enum(int16_t value_ = {}) : value{value_} {}
+    constexpr Int16Enum(int16_t value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator int16_t
-    constexpr operator int16_t() const {
+    constexpr operator int16_t() const noexcept {
       return value;
     }
   }; // System.Int16Enum

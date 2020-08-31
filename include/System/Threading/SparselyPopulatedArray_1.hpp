@@ -28,7 +28,7 @@ namespace System::Threading {
     // Offset: 0x0
     System::Threading::SparselyPopulatedArrayFragment_1<T>* m_tail;
     // Creating conversion operator: operator System::Threading::SparselyPopulatedArrayFragment_1<T>*
-    constexpr operator System::Threading::SparselyPopulatedArrayFragment_1<T>*() const {
+    constexpr operator System::Threading::SparselyPopulatedArrayFragment_1<T>*() const noexcept {
       return m_tail;
     }
     // System.Void .ctor(System.Int32 initialSize)

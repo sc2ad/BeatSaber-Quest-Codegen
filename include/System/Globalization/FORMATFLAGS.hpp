@@ -17,9 +17,9 @@ namespace System::Globalization {
     // Offset: 0x0
     int value;
     // Creating value type constructor for type: FORMATFLAGS
-    constexpr FORMATFLAGS(int value_ = {}) : value{value_} {}
+    constexpr FORMATFLAGS(int value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return value;
     }
     // static field const value: static public System.Globalization.FORMATFLAGS None

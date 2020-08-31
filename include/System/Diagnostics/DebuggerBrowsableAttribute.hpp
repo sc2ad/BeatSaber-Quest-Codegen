@@ -19,7 +19,7 @@ namespace System::Diagnostics {
     // Offset: 0x10
     System::Diagnostics::DebuggerBrowsableState state;
     // Creating conversion operator: operator System::Diagnostics::DebuggerBrowsableState
-    constexpr operator System::Diagnostics::DebuggerBrowsableState() const {
+    constexpr operator System::Diagnostics::DebuggerBrowsableState() const noexcept {
       return state;
     }
     // public System.Void .ctor(System.Diagnostics.DebuggerBrowsableState state)

@@ -32,7 +32,7 @@ namespace UnityEngine::Events {
     // Offset: 0x10
     System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall*>* m_Calls;
     // Creating conversion operator: operator System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall*>*
-    constexpr operator System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall*>*() const {
+    constexpr operator System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall*>*() const noexcept {
       return m_Calls;
     }
     // public System.Void Initialize(UnityEngine.Events.InvokableCallList invokableList, UnityEngine.Events.UnityEventBase unityEventBase)

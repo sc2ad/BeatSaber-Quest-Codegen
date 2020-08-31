@@ -36,9 +36,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: State
-      constexpr State(int value_ = {}) : value{value_} {}
+      constexpr State(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public TextFadeTransitions/State NotInTransition
@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     // Offset: 0x38
     float fade;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
     // Offset: 0xC4625C
     void Awake();

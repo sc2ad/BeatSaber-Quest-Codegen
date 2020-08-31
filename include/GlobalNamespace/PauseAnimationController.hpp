@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     System::Action* resumeFromPauseAnimationDidFinishEvent;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_resumeFromPauseAnimationDidFinishEvent(System.Action value)
     // Offset: 0xBD3844
     void add_resumeFromPauseAnimationDidFinishEvent(System::Action* value);

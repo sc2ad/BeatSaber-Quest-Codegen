@@ -17,7 +17,7 @@ namespace Oculus::Platform {
     // Offset: 0x18
     bool IsPersistantBetweenSceneLoads;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static private System.Void ovr_UnityResetTestPlatform()
     // Offset: 0xE980A0
     static void ovr_UnityResetTestPlatform();

@@ -32,7 +32,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0xC
     int m_Reserved;
     // Creating value type constructor for type: EventData
-    constexpr EventData(int64_t m_Ptr_ = {}, int m_Size_ = {}, int m_Reserved_ = {}) : m_Ptr{m_Ptr_}, m_Size{m_Size_}, m_Reserved{m_Reserved_} {}
+    constexpr EventData(int64_t m_Ptr_ = {}, int m_Size_ = {}, int m_Reserved_ = {}) noexcept : m_Ptr{m_Ptr_}, m_Size{m_Size_}, m_Reserved{m_Reserved_} {}
     // public System.IntPtr get_DataPointer()
     // Offset: 0xA2FF08
     System::IntPtr get_DataPointer();

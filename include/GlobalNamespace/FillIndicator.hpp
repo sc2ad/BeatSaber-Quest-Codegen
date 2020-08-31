@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::UI::Image* image;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_fillAmount(System.Single value)
     // Offset: 0xBE7478
     void set_fillAmount(float value);

@@ -17,9 +17,9 @@ namespace System::Threading::Tasks {
     // Offset: 0x0
     int value;
     // Creating value type constructor for type: TaskStatus
-    constexpr TaskStatus(int value_ = {}) : value{value_} {}
+    constexpr TaskStatus(int value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return value;
     }
     // static field const value: static public System.Threading.Tasks.TaskStatus Created

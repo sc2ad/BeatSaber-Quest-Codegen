@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     // Offset: 0x58
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler*>* unusedCutScoreHandlers;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Collections.Generic.List`1<BeatmapObjectExecutionRating> get_beatmapObjectExecutionRatings()
     // Offset: 0xB76528
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectExecutionRating*>* get_beatmapObjectExecutionRatings();

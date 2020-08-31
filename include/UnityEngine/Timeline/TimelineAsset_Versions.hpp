@@ -19,9 +19,9 @@ namespace UnityEngine::Timeline {
     // Offset: 0x0
     int value;
     // Creating value type constructor for type: Versions
-    constexpr Versions(int value_ = {}) : value{value_} {}
+    constexpr Versions(int value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return value;
     }
     // static field const value: static public UnityEngine.Timeline.TimelineAsset/Versions Initial

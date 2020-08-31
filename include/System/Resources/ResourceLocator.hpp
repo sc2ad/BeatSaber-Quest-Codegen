@@ -29,7 +29,7 @@ namespace System::Resources {
     // Offset: 0x8
     int dataPos;
     // Creating value type constructor for type: ResourceLocator
-    constexpr ResourceLocator(::Il2CppObject* value_ = {}, int dataPos_ = {}) : value{value_}, dataPos{dataPos_} {}
+    constexpr ResourceLocator(::Il2CppObject* value_ = {}, int dataPos_ = {}) noexcept : value{value_}, dataPos{dataPos_} {}
     // System.Void .ctor(System.Int32 dataPos, System.Object value)
     // Offset: 0xA42150
     static ResourceLocator* New_ctor(int dataPos, ::Il2CppObject* value);

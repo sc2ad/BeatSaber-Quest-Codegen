@@ -26,7 +26,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0x10
     UnityEngine::ProBuilder::Face* face;
     // Creating conversion operator: operator UnityEngine::ProBuilder::Face*
-    constexpr operator UnityEngine::ProBuilder::Face*() const {
+    constexpr operator UnityEngine::ProBuilder::Face*() const noexcept {
       return face;
     }
     // System.Boolean <GetFaceLoop>b__0(UnityEngine.ProBuilder.WingedEdge x)

@@ -38,7 +38,7 @@ namespace OVR::OpenVR {
     // Offset: 0x18
     OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorDescriptor* GetSpatialAnchorDescriptor;
     // Creating value type constructor for type: IVRSpatialAnchors
-    constexpr IVRSpatialAnchors(OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor* CreateSpatialAnchorFromDescriptor_ = {}, OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromPose* CreateSpatialAnchorFromPose_ = {}, OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorPose* GetSpatialAnchorPose_ = {}, OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorDescriptor* GetSpatialAnchorDescriptor_ = {}) : CreateSpatialAnchorFromDescriptor{CreateSpatialAnchorFromDescriptor_}, CreateSpatialAnchorFromPose{CreateSpatialAnchorFromPose_}, GetSpatialAnchorPose{GetSpatialAnchorPose_}, GetSpatialAnchorDescriptor{GetSpatialAnchorDescriptor_} {}
+    constexpr IVRSpatialAnchors(OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor* CreateSpatialAnchorFromDescriptor_ = {}, OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromPose* CreateSpatialAnchorFromPose_ = {}, OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorPose* GetSpatialAnchorPose_ = {}, OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorDescriptor* GetSpatialAnchorDescriptor_ = {}) noexcept : CreateSpatialAnchorFromDescriptor{CreateSpatialAnchorFromDescriptor_}, CreateSpatialAnchorFromPose{CreateSpatialAnchorFromPose_}, GetSpatialAnchorPose{GetSpatialAnchorPose_}, GetSpatialAnchorDescriptor{GetSpatialAnchorDescriptor_} {}
   }; // OVR.OpenVR.IVRSpatialAnchors
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

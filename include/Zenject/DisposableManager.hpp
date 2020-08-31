@@ -73,7 +73,7 @@ namespace Zenject {
       // Offset: 0x8
       int Priority;
       // Creating value type constructor for type: DisposableInfo
-      constexpr DisposableInfo(System::IDisposable* Disposable_ = {}, int Priority_ = {}) : Disposable{Disposable_}, Priority{Priority_} {}
+      constexpr DisposableInfo(System::IDisposable* Disposable_ = {}, int Priority_ = {}) noexcept : Disposable{Disposable_}, Priority{Priority_} {}
       // public System.Void .ctor(System.IDisposable disposable, System.Int32 priority)
       // Offset: 0xA3B4D8
       static DisposableManager::DisposableInfo* New_ctor(System::IDisposable* disposable, int priority);

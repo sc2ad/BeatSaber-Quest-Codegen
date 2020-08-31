@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::BeatmapLevelPackCollectionSO* beatmapLevelPackCollection;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public BeatmapLevelPackCollectionSO get_beatmapLevelPackCollection()
     // Offset: 0xB71B84
     GlobalNamespace::BeatmapLevelPackCollectionSO* get_beatmapLevelPackCollection();

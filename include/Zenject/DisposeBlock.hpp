@@ -84,7 +84,7 @@ namespace Zenject {
       // Offset: 0x8
       ::Il2CppObject* Object;
       // Creating value type constructor for type: SpawnedObjectPoolPair
-      constexpr SpawnedObjectPoolPair(Zenject::IMemoryPool* Pool_ = {}, ::Il2CppObject* Object_ = {}) : Pool{Pool_}, Object{Object_} {}
+      constexpr SpawnedObjectPoolPair(Zenject::IMemoryPool* Pool_ = {}, ::Il2CppObject* Object_ = {}) noexcept : Pool{Pool_}, Object{Object_} {}
     }; // Zenject.DisposeBlock/SpawnedObjectPoolPair
     // private System.Collections.Generic.List`1<System.IDisposable> _disposables
     // Offset: 0x10

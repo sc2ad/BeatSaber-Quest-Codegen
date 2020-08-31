@@ -26,7 +26,7 @@ namespace Zenject {
     // Offset: 0x18
     Zenject::DiContainer* Container;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // protected Zenject.DiContainer get_Container()
     // Offset: 0xFC4604
     Zenject::DiContainer* get_Container();

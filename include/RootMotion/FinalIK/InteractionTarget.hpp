@@ -60,7 +60,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x60
     UnityEngine::Transform* lastPivot;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void OpenUserManual()
     // Offset: 0x1453838
     void OpenUserManual();

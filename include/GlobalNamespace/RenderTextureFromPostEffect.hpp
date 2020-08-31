@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::Camera* camera;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.RenderTexture get_targetTexture()
     // Offset: 0x1914C34
     UnityEngine::RenderTexture* get_targetTexture();

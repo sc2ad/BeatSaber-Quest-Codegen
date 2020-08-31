@@ -27,9 +27,9 @@ namespace LeaderboardsDTO {
     // Offset: 0x0
     ::Array<LeaderboardsDTO::LeaderboardEntryDTO*>* entries;
     // Creating value type constructor for type: LeaderboardEntriesDTO
-    constexpr LeaderboardEntriesDTO(::Array<LeaderboardsDTO::LeaderboardEntryDTO*>* entries_ = {}) : entries{entries_} {}
+    constexpr LeaderboardEntriesDTO(::Array<LeaderboardsDTO::LeaderboardEntryDTO*>* entries_ = {}) noexcept : entries{entries_} {}
     // Creating conversion operator: operator ::Array<LeaderboardsDTO::LeaderboardEntryDTO*>*
-    constexpr operator ::Array<LeaderboardsDTO::LeaderboardEntryDTO*>*() const {
+    constexpr operator ::Array<LeaderboardsDTO::LeaderboardEntryDTO*>*() const noexcept {
       return entries;
     }
   }; // LeaderboardsDTO.LeaderboardEntriesDTO

@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     System::Collections::Generic::List_1<::Il2CppString*>* lines;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnDestroy()
     // Offset: 0xCBD5AC
     void OnDestroy();

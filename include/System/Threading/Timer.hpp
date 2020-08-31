@@ -52,7 +52,7 @@ namespace System::Threading {
     // Offset: 0x40
     bool disposed;
     // Deleting conversion operator: operator ::Il2CppObject*
-    constexpr operator ::Il2CppObject*() const = delete;
+    constexpr operator ::Il2CppObject*() const noexcept = delete;
     // Get static field: static private readonly System.Threading.Timer/Scheduler scheduler
     static System::Threading::Timer::Scheduler* _get_scheduler();
     // Set static field: static private readonly System.Threading.Timer/Scheduler scheduler

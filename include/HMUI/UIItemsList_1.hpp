@@ -95,7 +95,7 @@ namespace HMUI {
     // Offset: 0x0
     System::Collections::Generic::List_1<T>* items;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Collections.Generic.IEnumerable`1<T> get_items()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::IEnumerable_1<T>* get_items() {

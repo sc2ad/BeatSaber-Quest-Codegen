@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     // Offset: 0x8
     UnityEngine::RenderTexture* up;
     // Creating value type constructor for type: Level
-    constexpr Level(UnityEngine::RenderTexture* down_ = {}, UnityEngine::RenderTexture* up_ = {}) : down{down_}, up{up_} {}
+    constexpr Level(UnityEngine::RenderTexture* down_ = {}, UnityEngine::RenderTexture* up_ = {}) noexcept : down{down_}, up{up_} {}
   }; // PyramidBloomRendererSO/Level
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

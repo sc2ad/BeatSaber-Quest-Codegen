@@ -27,7 +27,7 @@ namespace UnityEngine {
     // Offset: 0x8
     float z;
     // Creating value type constructor for type: Vector3
-    constexpr Vector3(float x_ = {}, float y_ = {}, float z_ = {}) : x{x_}, y{y_}, z{z_} {}
+    constexpr Vector3(float x_ = {}, float y_ = {}, float z_ = {}) noexcept : x{x_}, y{y_}, z{z_} {}
     // static field const value: static public System.Single kEpsilon
     static constexpr const float kEpsilon = 1e-05;
     // Get static field: static public System.Single kEpsilon

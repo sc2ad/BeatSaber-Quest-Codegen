@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Offset: 0x38
     UnityEngine::Vector3 lastTrackedPosition;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.XR.XRNode get_node()
     // Offset: 0xCBECE0
     UnityEngine::XR::XRNode get_node();

@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     // Offset: 0x60
     System::Action_1<GlobalNamespace::ObstacleController*>* obstacleDidPassAvoidedMarkEvent;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_noteWasSpawnedEvent(System.Action`1<NoteController> value)
     // Offset: 0xB77800
     void add_noteWasSpawnedEvent(System::Action_1<GlobalNamespace::NoteController*>* value);

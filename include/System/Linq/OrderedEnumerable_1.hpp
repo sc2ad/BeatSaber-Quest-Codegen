@@ -115,7 +115,7 @@ namespace System::Linq {
     // Offset: 0x0
     System::Collections::Generic::IEnumerable_1<TElement>* source;
     // Creating conversion operator: operator System::Collections::Generic::IEnumerable_1<TElement>*
-    constexpr operator System::Collections::Generic::IEnumerable_1<TElement>*() const {
+    constexpr operator System::Collections::Generic::IEnumerable_1<TElement>*() const noexcept {
       return source;
     }
     // public System.Collections.Generic.IEnumerator`1<TElement> GetEnumerator()

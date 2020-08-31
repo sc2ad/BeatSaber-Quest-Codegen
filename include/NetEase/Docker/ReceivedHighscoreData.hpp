@@ -38,7 +38,7 @@ namespace NetEase::Docker {
     // Offset: 0x10
     System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* Scores;
     // Creating value type constructor for type: ReceivedHighscoreData
-    constexpr ReceivedHighscoreData(bool FetchingSuccessful_ = {}, int HighscoreCode_ = {}, ::Il2CppString* Track_ = {}, System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* Scores_ = {}) : FetchingSuccessful{FetchingSuccessful_}, HighscoreCode{HighscoreCode_}, Track{Track_}, Scores{Scores_} {}
+    constexpr ReceivedHighscoreData(bool FetchingSuccessful_ = {}, int HighscoreCode_ = {}, ::Il2CppString* Track_ = {}, System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* Scores_ = {}) noexcept : FetchingSuccessful{FetchingSuccessful_}, HighscoreCode{HighscoreCode_}, Track{Track_}, Scores{Scores_} {}
     // public System.Boolean get_FetchingSuccessful()
     // Offset: 0xA606E0
     bool get_FetchingSuccessful();

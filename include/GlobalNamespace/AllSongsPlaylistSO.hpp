@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void SetupFromLevelPackCollection(IBeatmapLevelPackCollection beatmapLevelPackCollection)
     // Offset: 0xB84D50
     void SetupFromLevelPackCollection(GlobalNamespace::IBeatmapLevelPackCollection* beatmapLevelPackCollection);

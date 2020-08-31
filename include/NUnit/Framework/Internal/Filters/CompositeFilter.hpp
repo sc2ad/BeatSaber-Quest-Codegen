@@ -33,7 +33,7 @@ namespace NUnit::Framework::Internal::Filters {
     // Offset: 0x10
     System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>* Filters;
     // Creating conversion operator: operator System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>*
-    constexpr operator System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>*() const {
+    constexpr operator System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>*() const noexcept {
       return Filters;
     }
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITestFilter[] filters)

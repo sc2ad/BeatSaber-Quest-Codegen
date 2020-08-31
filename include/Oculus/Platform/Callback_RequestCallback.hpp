@@ -19,7 +19,7 @@ namespace Oculus::Platform {
     // Offset: 0x10
     Oculus::Platform::Message::Callback* messageCallback;
     // Creating conversion operator: operator Oculus::Platform::Message::Callback*
-    constexpr operator Oculus::Platform::Message::Callback*() const {
+    constexpr operator Oculus::Platform::Message::Callback*() const noexcept {
       return messageCallback;
     }
     // public System.Void .ctor(Oculus.Platform.Message/Callback callback)

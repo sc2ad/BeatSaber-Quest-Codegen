@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     ::Array<GlobalNamespace::TrackLaneRing*>* rings;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Single get_ringPositionStep()
     // Offset: 0xC468B8
     float get_ringPositionStep();

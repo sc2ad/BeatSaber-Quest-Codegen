@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     GlobalNamespace::BeatmapDataLoader::NotesInTimeRowProcessor* notesInTimeRowProcessor;
     // Creating conversion operator: operator GlobalNamespace::BeatmapDataLoader::NotesInTimeRowProcessor*
-    constexpr operator GlobalNamespace::BeatmapDataLoader::NotesInTimeRowProcessor*() const {
+    constexpr operator GlobalNamespace::BeatmapDataLoader::NotesInTimeRowProcessor*() const noexcept {
       return notesInTimeRowProcessor;
     }
     // private System.Single GetRealTimeFromBPMTime(System.Single bmpTime, System.Single bpm, System.Single shuffle, System.Single shufflePeriod)

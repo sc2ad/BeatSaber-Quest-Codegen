@@ -38,7 +38,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x28
     RootMotion::FinalIK::VRIK* ik;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Start()
     // Offset: 0x12410EC
     void Start();

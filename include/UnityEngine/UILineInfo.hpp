@@ -25,7 +25,7 @@ namespace UnityEngine {
     // Offset: 0xC
     float leading;
     // Creating value type constructor for type: UILineInfo
-    constexpr UILineInfo(int startCharIdx_ = {}, int height_ = {}, float topY_ = {}, float leading_ = {}) : startCharIdx{startCharIdx_}, height{height_}, topY{topY_}, leading{leading_} {}
+    constexpr UILineInfo(int startCharIdx_ = {}, int height_ = {}, float topY_ = {}, float leading_ = {}) noexcept : startCharIdx{startCharIdx_}, height{height_}, topY{topY_}, leading{leading_} {}
   }; // UnityEngine.UILineInfo
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

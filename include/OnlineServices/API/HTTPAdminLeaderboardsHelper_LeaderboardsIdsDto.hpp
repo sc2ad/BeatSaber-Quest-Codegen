@@ -17,7 +17,7 @@ namespace OnlineServices::API {
     // Offset: 0x10
     ::Array<::Il2CppString*>* leaderboardsIds;
     // Creating conversion operator: operator ::Array<::Il2CppString*>*
-    constexpr operator ::Array<::Il2CppString*>*() const {
+    constexpr operator ::Array<::Il2CppString*>*() const noexcept {
       return leaderboardsIds;
     }
     // public System.Void .ctor()

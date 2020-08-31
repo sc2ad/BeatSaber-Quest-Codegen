@@ -27,7 +27,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0xC
     UnityEngine::Vector2 scale;
     // Creating value type constructor for type: UVTransform
-    constexpr UVTransform(UnityEngine::Vector2 translation_ = {}, float rotation_ = {}, UnityEngine::Vector2 scale_ = {}) : translation{translation_}, rotation{rotation_}, scale{scale_} {}
+    constexpr UVTransform(UnityEngine::Vector2 translation_ = {}, float rotation_ = {}, UnityEngine::Vector2 scale_ = {}) noexcept : translation{translation_}, rotation{rotation_}, scale{scale_} {}
     // public override System.String ToString()
     // Offset: 0xA3FF68
     // Implemented from: System.ValueType

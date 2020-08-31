@@ -28,7 +28,7 @@ namespace Valve::VR {
     // Offset: 0x8
     Valve::VR::IVRResources::_GetResourceFullPath* GetResourceFullPath;
     // Creating value type constructor for type: IVRResources
-    constexpr IVRResources(Valve::VR::IVRResources::_LoadSharedResource* LoadSharedResource_ = {}, Valve::VR::IVRResources::_GetResourceFullPath* GetResourceFullPath_ = {}) : LoadSharedResource{LoadSharedResource_}, GetResourceFullPath{GetResourceFullPath_} {}
+    constexpr IVRResources(Valve::VR::IVRResources::_LoadSharedResource* LoadSharedResource_ = {}, Valve::VR::IVRResources::_GetResourceFullPath* GetResourceFullPath_ = {}) noexcept : LoadSharedResource{LoadSharedResource_}, GetResourceFullPath{GetResourceFullPath_} {}
   }; // Valve.VR.IVRResources
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

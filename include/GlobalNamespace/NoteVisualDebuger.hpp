@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::TextMesh* text;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Update()
     // Offset: 0xC32BD4
     void Update();

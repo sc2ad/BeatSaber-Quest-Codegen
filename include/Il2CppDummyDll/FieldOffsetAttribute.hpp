@@ -17,7 +17,7 @@ namespace Il2CppDummyDll {
     // Offset: 0xFFFFFFFF
     ::Il2CppString* Offset;
     // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const {
+    constexpr operator ::Il2CppString*() const noexcept {
       return Offset;
     }
     // public System.Void .ctor()

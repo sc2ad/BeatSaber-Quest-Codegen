@@ -85,7 +85,7 @@ namespace UnityEngine::UI {
     // Offset: 0x68
     ::Array<UnityEngine::Vector3>* m_Corners;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // private UnityEngine.Canvas get_Canvas()
     // Offset: 0x12079B8
     UnityEngine::Canvas* get_Canvas();

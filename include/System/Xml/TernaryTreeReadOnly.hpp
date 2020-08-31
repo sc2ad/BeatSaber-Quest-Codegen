@@ -15,7 +15,7 @@ namespace System::Xml {
     // Offset: 0x10
     ::Array<uint8_t>* nodeBuffer;
     // Creating conversion operator: operator ::Array<uint8_t>*
-    constexpr operator ::Array<uint8_t>*() const {
+    constexpr operator ::Array<uint8_t>*() const noexcept {
       return nodeBuffer;
     }
     // public System.Void .ctor(System.Byte[] nodeBuffer)

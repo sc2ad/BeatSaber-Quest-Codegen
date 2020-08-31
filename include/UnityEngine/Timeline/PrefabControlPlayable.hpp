@@ -38,7 +38,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x10
     UnityEngine::GameObject* m_Instance;
     // Creating conversion operator: operator UnityEngine::GameObject*
-    constexpr operator UnityEngine::GameObject*() const {
+    constexpr operator UnityEngine::GameObject*() const noexcept {
       return m_Instance;
     }
     // static public UnityEngine.Playables.ScriptPlayable`1<UnityEngine.Timeline.PrefabControlPlayable> Create(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject prefabGameObject, UnityEngine.Transform parentTransform)

@@ -25,7 +25,7 @@ namespace TMPro {
     // Offset: 0x8
     int length;
     // Creating value type constructor for type: UnicodeChar
-    constexpr UnicodeChar(int unicode_ = {}, int stringIndex_ = {}, int length_ = {}) : unicode{unicode_}, stringIndex{stringIndex_}, length{length_} {}
+    constexpr UnicodeChar(int unicode_ = {}, int stringIndex_ = {}, int length_ = {}) noexcept : unicode{unicode_}, stringIndex{stringIndex_}, length{length_} {}
   }; // TMPro.TMP_Text/UnicodeChar
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

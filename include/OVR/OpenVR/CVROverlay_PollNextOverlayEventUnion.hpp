@@ -24,7 +24,7 @@ namespace OVR::OpenVR {
     // Offset: 0x0
     OVR::OpenVR::CVROverlay::_PollNextOverlayEventPacked* pPollNextOverlayEventPacked;
     // Creating value type constructor for type: PollNextOverlayEventUnion
-    constexpr PollNextOverlayEventUnion(OVR::OpenVR::IVROverlay::_PollNextOverlayEvent* pPollNextOverlayEvent_ = {}, OVR::OpenVR::CVROverlay::_PollNextOverlayEventPacked* pPollNextOverlayEventPacked_ = {}) : pPollNextOverlayEvent{pPollNextOverlayEvent_}, pPollNextOverlayEventPacked{pPollNextOverlayEventPacked_} {}
+    constexpr PollNextOverlayEventUnion(OVR::OpenVR::IVROverlay::_PollNextOverlayEvent* pPollNextOverlayEvent_ = {}, OVR::OpenVR::CVROverlay::_PollNextOverlayEventPacked* pPollNextOverlayEventPacked_ = {}) noexcept : pPollNextOverlayEvent{pPollNextOverlayEvent_}, pPollNextOverlayEventPacked{pPollNextOverlayEventPacked_} {}
   }; // OVR.OpenVR.CVROverlay/PollNextOverlayEventUnion
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

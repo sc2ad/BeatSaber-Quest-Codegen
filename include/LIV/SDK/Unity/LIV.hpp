@@ -37,7 +37,7 @@ namespace LIV::SDK::Unity {
     // Offset: 0x2C
     UnityEngine::LayerMask SpectatorLayerMask;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void .ctor()
     // Offset: 0x1983C24
     // Implemented from: UnityEngine.MonoBehaviour

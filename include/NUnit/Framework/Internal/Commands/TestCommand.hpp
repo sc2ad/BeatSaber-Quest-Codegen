@@ -26,7 +26,7 @@ namespace NUnit::Framework::Internal::Commands {
     // Offset: 0x10
     NUnit::Framework::Internal::Test* Test;
     // Creating conversion operator: operator NUnit::Framework::Internal::Test*
-    constexpr operator NUnit::Framework::Internal::Test*() const {
+    constexpr operator NUnit::Framework::Internal::Test*() const noexcept {
       return Test;
     }
     // public System.Void .ctor(NUnit.Framework.Internal.Test test)

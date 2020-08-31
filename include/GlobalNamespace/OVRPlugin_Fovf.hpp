@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     // Offset: 0xC
     float RightTan;
     // Creating value type constructor for type: Fovf
-    constexpr Fovf(float UpTan_ = {}, float DownTan_ = {}, float LeftTan_ = {}, float RightTan_ = {}) : UpTan{UpTan_}, DownTan{DownTan_}, LeftTan{LeftTan_}, RightTan{RightTan_} {}
+    constexpr Fovf(float UpTan_ = {}, float DownTan_ = {}, float LeftTan_ = {}, float RightTan_ = {}) noexcept : UpTan{UpTan_}, DownTan{DownTan_}, LeftTan{LeftTan_}, RightTan{RightTan_} {}
   }; // OVRPlugin/Fovf
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

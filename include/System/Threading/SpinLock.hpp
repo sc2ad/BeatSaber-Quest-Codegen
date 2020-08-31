@@ -23,9 +23,9 @@ namespace System::Threading {
     // Offset: 0x0
     int m_owner;
     // Creating value type constructor for type: SpinLock
-    constexpr SpinLock(int m_owner_ = {}) : m_owner{m_owner_} {}
+    constexpr SpinLock(int m_owner_ = {}) noexcept : m_owner{m_owner_} {}
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return m_owner;
     }
     // Get static field: static private System.Int32 MAXIMUM_WAITERS

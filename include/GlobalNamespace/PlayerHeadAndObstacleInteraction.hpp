@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Offset: 0x30
     System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* intersectingObstacles;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Vector3 get_headPos()
     // Offset: 0xBDE510
     UnityEngine::Vector3 get_headPos();

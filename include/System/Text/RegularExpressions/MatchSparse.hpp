@@ -31,7 +31,7 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x70
     System::Collections::Hashtable* caps;
     // Creating conversion operator: operator System::Collections::Hashtable*
-    constexpr operator System::Collections::Hashtable*() const {
+    constexpr operator System::Collections::Hashtable*() const noexcept {
       return caps;
     }
     // System.Void .ctor(System.Text.RegularExpressions.Regex regex, System.Collections.Hashtable caps, System.Int32 capcount, System.String text, System.Int32 begpos, System.Int32 len, System.Int32 startpos)

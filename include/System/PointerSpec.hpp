@@ -29,7 +29,7 @@ namespace System {
     // Offset: 0x10
     int pointer_level;
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return pointer_level;
     }
     // System.Void .ctor(System.Int32 pointer_level)

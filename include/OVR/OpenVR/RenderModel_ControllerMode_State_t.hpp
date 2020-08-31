@@ -16,9 +16,9 @@ namespace OVR::OpenVR {
     // Offset: 0x0
     bool bScrollWheelVisible;
     // Creating value type constructor for type: RenderModel_ControllerMode_State_t
-    constexpr RenderModel_ControllerMode_State_t(bool bScrollWheelVisible_ = {}) : bScrollWheelVisible{bScrollWheelVisible_} {}
+    constexpr RenderModel_ControllerMode_State_t(bool bScrollWheelVisible_ = {}) noexcept : bScrollWheelVisible{bScrollWheelVisible_} {}
     // Creating conversion operator: operator bool
-    constexpr operator bool() const {
+    constexpr operator bool() const noexcept {
       return bScrollWheelVisible;
     }
   }; // OVR.OpenVR.RenderModel_ControllerMode_State_t

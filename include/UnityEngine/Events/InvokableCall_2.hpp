@@ -33,7 +33,7 @@ namespace UnityEngine::Events {
     // Offset: 0x0
     UnityEngine::Events::UnityAction_2<T1, T2>* Delegate;
     // Creating conversion operator: operator UnityEngine::Events::UnityAction_2<T1, T2>*
-    constexpr operator UnityEngine::Events::UnityAction_2<T1, T2>*() const {
+    constexpr operator UnityEngine::Events::UnityAction_2<T1, T2>*() const noexcept {
       return Delegate;
     }
     // protected System.Void add_Delegate(UnityEngine.Events.UnityAction`2<T1,T2> value)

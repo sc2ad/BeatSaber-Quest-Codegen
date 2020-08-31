@@ -19,7 +19,7 @@ namespace System::ComponentModel {
     // Offset: 0x10
     System::ComponentModel::EditorBrowsableState browsableState;
     // Creating conversion operator: operator System::ComponentModel::EditorBrowsableState
-    constexpr operator System::ComponentModel::EditorBrowsableState() const {
+    constexpr operator System::ComponentModel::EditorBrowsableState() const noexcept {
       return browsableState;
     }
     // public System.Void .ctor(System.ComponentModel.EditorBrowsableState state)

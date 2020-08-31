@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Offset: 0x34
     float targetVolume;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kSmooth
     static constexpr const float kSmooth = 8;
     // Get static field: static private System.Single kSmooth

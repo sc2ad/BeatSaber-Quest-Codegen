@@ -31,7 +31,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x38
     ::Il2CppString* uri;
     // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const {
+    constexpr operator ::Il2CppString*() const noexcept {
       return uri;
     }
     // System.String get_Uri()

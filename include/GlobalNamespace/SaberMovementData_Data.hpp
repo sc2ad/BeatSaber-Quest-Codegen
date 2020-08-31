@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::Vector3 segmentNormal;
     // Creating value type constructor for type: Data
-    constexpr Data(float time_ = {}, float segmentAngle_ = {}, UnityEngine::Vector3 topPos_ = {}, UnityEngine::Vector3 bottomPos_ = {}, UnityEngine::Vector3 segmentNormal_ = {}) : time{time_}, segmentAngle{segmentAngle_}, topPos{topPos_}, bottomPos{bottomPos_}, segmentNormal{segmentNormal_} {}
+    constexpr Data(float time_ = {}, float segmentAngle_ = {}, UnityEngine::Vector3 topPos_ = {}, UnityEngine::Vector3 bottomPos_ = {}, UnityEngine::Vector3 segmentNormal_ = {}) noexcept : time{time_}, segmentAngle{segmentAngle_}, topPos{topPos_}, bottomPos{bottomPos_}, segmentNormal{segmentNormal_} {}
   }; // SaberMovementData/Data
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

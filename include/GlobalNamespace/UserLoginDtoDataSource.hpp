@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     GlobalNamespace::PlatformUserModelSO* platformUserModel;
     // Creating conversion operator: operator GlobalNamespace::PlatformUserModelSO*
-    constexpr operator GlobalNamespace::PlatformUserModelSO*() const {
+    constexpr operator GlobalNamespace::PlatformUserModelSO*() const noexcept {
       return platformUserModel;
     }
     // static field const value: static private System.String kVersion

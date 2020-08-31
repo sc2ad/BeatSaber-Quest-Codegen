@@ -17,7 +17,7 @@ namespace UnityEngine::Bindings {
     // Offset: 0x10
     bool ThrowsException;
     // Creating conversion operator: operator bool
-    constexpr operator bool() const {
+    constexpr operator bool() const noexcept {
       return ThrowsException;
     }
     // public System.Void set_ThrowsException(System.Boolean value)

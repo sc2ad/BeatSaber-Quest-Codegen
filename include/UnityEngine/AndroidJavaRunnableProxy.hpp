@@ -24,7 +24,7 @@ namespace UnityEngine {
     // Offset: 0x20
     UnityEngine::AndroidJavaRunnable* mRunnable;
     // Creating conversion operator: operator UnityEngine::AndroidJavaRunnable*
-    constexpr operator UnityEngine::AndroidJavaRunnable*() const {
+    constexpr operator UnityEngine::AndroidJavaRunnable*() const noexcept {
       return mRunnable;
     }
     // public System.Void .ctor(UnityEngine.AndroidJavaRunnable runnable)

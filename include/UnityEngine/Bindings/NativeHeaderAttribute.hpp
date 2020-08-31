@@ -17,7 +17,7 @@ namespace UnityEngine::Bindings {
     // Offset: 0x10
     ::Il2CppString* Header;
     // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const {
+    constexpr operator ::Il2CppString*() const noexcept {
       return Header;
     }
     // public System.Void set_Header(System.String value)

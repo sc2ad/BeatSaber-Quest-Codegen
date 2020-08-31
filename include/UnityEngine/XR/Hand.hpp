@@ -25,7 +25,7 @@ namespace UnityEngine::XR {
     // Offset: 0x8
     uint m_FeatureIndex;
     // Creating value type constructor for type: Hand
-    constexpr Hand(uint64_t m_DeviceId_ = {}, uint m_FeatureIndex_ = {}) : m_DeviceId{m_DeviceId_}, m_FeatureIndex{m_FeatureIndex_} {}
+    constexpr Hand(uint64_t m_DeviceId_ = {}, uint m_FeatureIndex_ = {}) noexcept : m_DeviceId{m_DeviceId_}, m_FeatureIndex{m_FeatureIndex_} {}
     // System.UInt64 get_deviceId()
     // Offset: 0xA5EDBC
     uint64_t get_deviceId();

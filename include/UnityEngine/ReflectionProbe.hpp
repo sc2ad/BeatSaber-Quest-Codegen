@@ -41,9 +41,9 @@ namespace UnityEngine {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: ReflectionProbeEvent
-      constexpr ReflectionProbeEvent(int value_ = {}) : value{value_} {}
+      constexpr ReflectionProbeEvent(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public UnityEngine.ReflectionProbe/ReflectionProbeEvent ReflectionProbeAdded

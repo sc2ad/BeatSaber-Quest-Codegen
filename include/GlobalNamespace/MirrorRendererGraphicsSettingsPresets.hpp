@@ -26,7 +26,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Array<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>* presets;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public MirrorRendererGraphicsSettingsPresets/Preset[] get_presets()
     // Offset: 0xC02DE8
     ::Array<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>* get_presets();

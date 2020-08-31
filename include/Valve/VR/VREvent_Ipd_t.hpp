@@ -16,9 +16,9 @@ namespace Valve::VR {
     // Offset: 0x0
     float ipdMeters;
     // Creating value type constructor for type: VREvent_Ipd_t
-    constexpr VREvent_Ipd_t(float ipdMeters_ = {}) : ipdMeters{ipdMeters_} {}
+    constexpr VREvent_Ipd_t(float ipdMeters_ = {}) noexcept : ipdMeters{ipdMeters_} {}
     // Creating conversion operator: operator float
-    constexpr operator float() const {
+    constexpr operator float() const noexcept {
       return ipdMeters;
     }
   }; // Valve.VR.VREvent_Ipd_t

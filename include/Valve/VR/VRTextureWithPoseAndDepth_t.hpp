@@ -18,9 +18,9 @@ namespace Valve::VR {
     // Offset: 0x0
     Valve::VR::VRTextureDepthInfo_t depth;
     // Creating value type constructor for type: VRTextureWithPoseAndDepth_t
-    constexpr VRTextureWithPoseAndDepth_t(Valve::VR::VRTextureDepthInfo_t depth_ = {}) : depth{depth_} {}
+    constexpr VRTextureWithPoseAndDepth_t(Valve::VR::VRTextureDepthInfo_t depth_ = {}) noexcept : depth{depth_} {}
     // Creating conversion operator: operator Valve::VR::VRTextureDepthInfo_t
-    constexpr operator Valve::VR::VRTextureDepthInfo_t() const {
+    constexpr operator Valve::VR::VRTextureDepthInfo_t() const noexcept {
       return depth;
     }
   }; // Valve.VR.VRTextureWithPoseAndDepth_t

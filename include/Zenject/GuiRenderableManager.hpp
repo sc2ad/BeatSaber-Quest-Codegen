@@ -51,7 +51,7 @@ namespace Zenject {
     // Offset: 0x10
     System::Collections::Generic::List_1<Zenject::GuiRenderableManager::RenderableInfo*>* renderables;
     // Creating conversion operator: operator System::Collections::Generic::List_1<Zenject::GuiRenderableManager::RenderableInfo*>*
-    constexpr operator System::Collections::Generic::List_1<Zenject::GuiRenderableManager::RenderableInfo*>*() const {
+    constexpr operator System::Collections::Generic::List_1<Zenject::GuiRenderableManager::RenderableInfo*>*() const noexcept {
       return renderables;
     }
     // public System.Void .ctor(System.Collections.Generic.List`1<Zenject.IGuiRenderable> renderables, System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities)

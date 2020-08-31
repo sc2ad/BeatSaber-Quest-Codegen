@@ -45,7 +45,7 @@ namespace HMUI {
     // Offset: 0x28
     HMUI::HoverHintController* hoverHintController;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String get_text()
     // Offset: 0xEE2638
     ::Il2CppString* get_text();

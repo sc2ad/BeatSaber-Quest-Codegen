@@ -35,7 +35,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x28
     System::Security::Cryptography::AsnDecodeStatus status;
     // Deleting conversion operator: operator bool
-    constexpr operator bool() const = delete;
+    constexpr operator bool() const noexcept = delete;
     // static field const value: static System.String oid
     static constexpr const char* oid = "2.5.29.15";
     // Get static field: static System.String oid

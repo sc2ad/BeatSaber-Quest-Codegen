@@ -43,7 +43,7 @@ namespace HMUI {
     // Offset: 0x34
     bool initialized;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public HMUI.ViewController get_rootViewController()
     // Offset: 0x10E07B8
     HMUI::ViewController* get_rootViewController();

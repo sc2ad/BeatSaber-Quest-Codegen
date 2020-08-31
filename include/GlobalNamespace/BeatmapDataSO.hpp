@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Offset: 0x38
     GlobalNamespace::BeatmapDataLoader* beatmapDataLoader;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public BeatmapData get_beatmapData()
     // Offset: 0xB94CE0
     GlobalNamespace::BeatmapData* get_beatmapData();

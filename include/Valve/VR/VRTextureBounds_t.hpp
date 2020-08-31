@@ -25,7 +25,7 @@ namespace Valve::VR {
     // Offset: 0xC
     float vMax;
     // Creating value type constructor for type: VRTextureBounds_t
-    constexpr VRTextureBounds_t(float uMin_ = {}, float vMin_ = {}, float uMax_ = {}, float vMax_ = {}) : uMin{uMin_}, vMin{vMin_}, uMax{uMax_}, vMax{vMax_} {}
+    constexpr VRTextureBounds_t(float uMin_ = {}, float vMin_ = {}, float uMax_ = {}, float vMax_ = {}) noexcept : uMin{uMin_}, vMin{vMin_}, uMax{uMax_}, vMax{vMax_} {}
   }; // Valve.VR.VRTextureBounds_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

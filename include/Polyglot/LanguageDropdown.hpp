@@ -26,7 +26,7 @@ namespace Polyglot {
     // Offset: 0x18
     UnityEngine::UI::Dropdown* dropdown;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Reset()
     // Offset: 0x1917ACC
     void Reset();

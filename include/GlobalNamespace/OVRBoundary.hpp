@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     System::Collections::Generic::List_1<UnityEngine::Vector3>* cachedGeometryList;
     // Creating conversion operator: operator System::Collections::Generic::List_1<UnityEngine::Vector3>*
-    constexpr operator System::Collections::Generic::List_1<UnityEngine::Vector3>*() const {
+    constexpr operator System::Collections::Generic::List_1<UnityEngine::Vector3>*() const noexcept {
       return cachedGeometryList;
     }
     // Get static field: static private System.Int32 cachedVector3fSize

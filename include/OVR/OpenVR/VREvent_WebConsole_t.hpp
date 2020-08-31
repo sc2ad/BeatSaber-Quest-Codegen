@@ -17,9 +17,9 @@ namespace OVR::OpenVR {
     // Offset: 0x0
     uint64_t webConsoleHandle;
     // Creating value type constructor for type: VREvent_WebConsole_t
-    constexpr VREvent_WebConsole_t(uint64_t webConsoleHandle_ = {}) : webConsoleHandle{webConsoleHandle_} {}
+    constexpr VREvent_WebConsole_t(uint64_t webConsoleHandle_ = {}) noexcept : webConsoleHandle{webConsoleHandle_} {}
     // Creating conversion operator: operator uint64_t
-    constexpr operator uint64_t() const {
+    constexpr operator uint64_t() const noexcept {
       return webConsoleHandle;
     }
   }; // OVR.OpenVR.VREvent_WebConsole_t

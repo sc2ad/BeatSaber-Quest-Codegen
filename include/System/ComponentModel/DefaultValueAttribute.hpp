@@ -17,7 +17,7 @@ namespace System::ComponentModel {
     // Offset: 0x10
     ::Il2CppObject* value;
     // Creating conversion operator: operator ::Il2CppObject*
-    constexpr operator ::Il2CppObject*() const {
+    constexpr operator ::Il2CppObject*() const noexcept {
       return value;
     }
     // public System.Void .ctor(System.Boolean value)

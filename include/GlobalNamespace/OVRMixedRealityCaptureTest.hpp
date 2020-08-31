@@ -33,9 +33,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: CameraMode
-      constexpr CameraMode(int value_ = {}) : value{value_} {}
+      constexpr CameraMode(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public OVRMixedRealityCaptureTest/CameraMode Normal
@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::OVRPlugin::Fovf defaultFov;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Start()
     // Offset: 0xEED33C
     void Start();

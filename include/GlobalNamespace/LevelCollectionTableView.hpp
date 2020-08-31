@@ -114,7 +114,7 @@ namespace GlobalNamespace {
     // Offset: 0xA0
     GlobalNamespace::IPreviewBeatmapLevel* selectedPreviewBeatmapLevel;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didSelectLevelEvent(System.Action`2<LevelCollectionTableView,IPreviewBeatmapLevel> value)
     // Offset: 0xB49078
     void add_didSelectLevelEvent(System::Action_2<GlobalNamespace::LevelCollectionTableView*, GlobalNamespace::IPreviewBeatmapLevel*>* value);

@@ -20,7 +20,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     // Offset: 0x0
     TPriority Priority;
     // Creating value type constructor for type: ItemPriority_2
-    constexpr ItemPriority_2(TItem Item_ = {}, TPriority Priority_ = {}) : Item{Item_}, Priority{Priority_} {}
+    constexpr ItemPriority_2(TItem Item_ = {}, TPriority Priority_ = {}) noexcept : Item{Item_}, Priority{Priority_} {}
   }; // UnityEngine.ProBuilder.KdTree.ItemPriority`2
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

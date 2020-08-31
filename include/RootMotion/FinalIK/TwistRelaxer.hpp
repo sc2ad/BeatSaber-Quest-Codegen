@@ -56,7 +56,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x60
     UnityEngine::Vector3 axisRelativeToChildDefault;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Relax()
     // Offset: 0x123BDB0
     void Relax();

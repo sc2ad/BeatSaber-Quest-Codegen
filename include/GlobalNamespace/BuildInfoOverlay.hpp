@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::GameObject* canvas;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
     // Offset: 0xB7D408
     void Start();

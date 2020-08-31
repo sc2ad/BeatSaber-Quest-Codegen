@@ -49,9 +49,9 @@ namespace System {
     // Offset: 0x0
     ::Il2CppChar m_value;
     // Creating value type constructor for type: Char
-    constexpr Char(::Il2CppChar m_value_ = {}) : m_value{m_value_} {}
+    constexpr Char(::Il2CppChar m_value_ = {}) noexcept : m_value{m_value_} {}
     // Creating conversion operator: operator ::Il2CppChar
-    constexpr operator ::Il2CppChar() const {
+    constexpr operator ::Il2CppChar() const noexcept {
       return m_value;
     }
     // static field const value: static public System.Char MaxValue

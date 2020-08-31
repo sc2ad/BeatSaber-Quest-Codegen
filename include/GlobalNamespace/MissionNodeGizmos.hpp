@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::CampaignProgressModel* missionProgressModel;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void .ctor()
     // Offset: 0xC09C18
     // Implemented from: UnityEngine.MonoBehaviour

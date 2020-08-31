@@ -22,7 +22,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x10
     uint64_t ID;
     // Creating conversion operator: operator uint64_t
-    constexpr operator uint64_t() const {
+    constexpr operator uint64_t() const noexcept {
       return ID;
     }
     // public System.Void .ctor(System.IntPtr o)

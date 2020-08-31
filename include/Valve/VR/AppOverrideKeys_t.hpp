@@ -21,7 +21,7 @@ namespace Valve::VR {
     // Offset: 0x8
     System::IntPtr pchValue;
     // Creating value type constructor for type: AppOverrideKeys_t
-    constexpr AppOverrideKeys_t(System::IntPtr pchKey_ = {}, System::IntPtr pchValue_ = {}) : pchKey{pchKey_}, pchValue{pchValue_} {}
+    constexpr AppOverrideKeys_t(System::IntPtr pchKey_ = {}, System::IntPtr pchValue_ = {}) noexcept : pchKey{pchKey_}, pchValue{pchValue_} {}
   }; // Valve.VR.AppOverrideKeys_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

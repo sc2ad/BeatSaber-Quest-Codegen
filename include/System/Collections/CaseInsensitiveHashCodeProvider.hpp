@@ -26,7 +26,7 @@ namespace System::Collections {
     // Offset: 0x10
     System::Globalization::TextInfo* m_text;
     // Creating conversion operator: operator System::Globalization::TextInfo*
-    constexpr operator System::Globalization::TextInfo*() const {
+    constexpr operator System::Globalization::TextInfo*() const noexcept {
       return m_text;
     }
     // public System.Void .ctor(System.Globalization.CultureInfo culture)

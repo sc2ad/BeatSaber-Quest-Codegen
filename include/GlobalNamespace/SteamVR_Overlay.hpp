@@ -74,7 +74,7 @@ namespace GlobalNamespace {
     // Offset: 0x58
     uint64_t handle;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private SteamVR_Overlay <instance>k__BackingField
     static GlobalNamespace::SteamVR_Overlay* _get_$instance$k__BackingField();
     // Set static field: static private SteamVR_Overlay <instance>k__BackingField

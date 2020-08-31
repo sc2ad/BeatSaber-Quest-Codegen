@@ -27,7 +27,7 @@ namespace System {
     // Offset: 0x8
     System::ConsoleModifiers mods;
     // Creating value type constructor for type: ConsoleKeyInfo
-    constexpr ConsoleKeyInfo(::Il2CppChar keyChar_ = {}, System::ConsoleKey key_ = {}, System::ConsoleModifiers mods_ = {}) : keyChar{keyChar_}, key{key_}, mods{mods_} {}
+    constexpr ConsoleKeyInfo(::Il2CppChar keyChar_ = {}, System::ConsoleKey key_ = {}, System::ConsoleModifiers mods_ = {}) noexcept : keyChar{keyChar_}, key{key_}, mods{mods_} {}
     // public System.Void .ctor(System.Char keyChar, System.ConsoleKey key, System.Boolean shift, System.Boolean alt, System.Boolean control)
     // Offset: 0xA40B80
     static ConsoleKeyInfo* New_ctor(::Il2CppChar keyChar, System::ConsoleKey key, bool shift, bool alt, bool control);

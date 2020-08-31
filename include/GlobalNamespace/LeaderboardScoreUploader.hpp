@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     // Offset: 0x40
     bool uploading;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.String kScoresToUploadFileName
     static constexpr const char* kScoresToUploadFileName = "ScoresToUpload.dat";
     // Get static field: static private System.String kScoresToUploadFileName

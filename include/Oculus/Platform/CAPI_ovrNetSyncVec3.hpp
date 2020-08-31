@@ -25,7 +25,7 @@ namespace Oculus::Platform {
     // Offset: 0x8
     float z;
     // Creating value type constructor for type: ovrNetSyncVec3
-    constexpr ovrNetSyncVec3(float x_ = {}, float y_ = {}, float z_ = {}) : x{x_}, y{y_}, z{z_} {}
+    constexpr ovrNetSyncVec3(float x_ = {}, float y_ = {}, float z_ = {}) noexcept : x{x_}, y{y_}, z{z_} {}
   }; // Oculus.Platform.CAPI/ovrNetSyncVec3
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

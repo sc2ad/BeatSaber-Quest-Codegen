@@ -17,7 +17,7 @@ namespace System::Reflection {
     // Offset: 0x10
     bool m_delaySign;
     // Creating conversion operator: operator bool
-    constexpr operator bool() const {
+    constexpr operator bool() const noexcept {
       return m_delaySign;
     }
     // public System.Void .ctor(System.Boolean delaySign)

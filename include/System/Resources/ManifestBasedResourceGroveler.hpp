@@ -55,7 +55,7 @@ namespace System::Resources {
     // Offset: 0x10
     System::Resources::ResourceManager::ResourceManagerMediator* mediator;
     // Creating conversion operator: operator System::Resources::ResourceManager::ResourceManagerMediator*
-    constexpr operator System::Resources::ResourceManager::ResourceManagerMediator*() const {
+    constexpr operator System::Resources::ResourceManager::ResourceManagerMediator*() const noexcept {
       return mediator;
     }
     // public System.Void .ctor(System.Resources.ResourceManager/ResourceManagerMediator mediator)

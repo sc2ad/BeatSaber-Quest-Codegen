@@ -19,7 +19,7 @@ namespace UnityEngine {
     // Offset: 0x10
     UnityEngine::RuntimeInitializeLoadType m_LoadType;
     // Creating conversion operator: operator UnityEngine::RuntimeInitializeLoadType
-    constexpr operator UnityEngine::RuntimeInitializeLoadType() const {
+    constexpr operator UnityEngine::RuntimeInitializeLoadType() const noexcept {
       return m_LoadType;
     }
     // public System.Void .ctor(UnityEngine.RuntimeInitializeLoadType loadType)

@@ -26,7 +26,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0x10
     UnityEngine::ProBuilder::EdgeLookup lup;
     // Creating conversion operator: operator UnityEngine::ProBuilder::EdgeLookup
-    constexpr operator UnityEngine::ProBuilder::EdgeLookup() const {
+    constexpr operator UnityEngine::ProBuilder::EdgeLookup() const noexcept {
       return lup;
     }
     // System.Boolean <BevelEdges>b__4(UnityEngine.ProBuilder.WingedEdge x)

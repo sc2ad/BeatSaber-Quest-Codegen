@@ -22,7 +22,7 @@ namespace TMPro::SpriteAssetUtilities {
     // Offset: 0x4
     float h;
     // Creating value type constructor for type: SpriteSize
-    constexpr SpriteSize(float w_ = {}, float h_ = {}) : w{w_}, h{h_} {}
+    constexpr SpriteSize(float w_ = {}, float h_ = {}) noexcept : w{w_}, h{h_} {}
     // public override System.String ToString()
     // Offset: 0xA2B944
     // Implemented from: System.ValueType

@@ -97,9 +97,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: TrackingOrigin
-      constexpr TrackingOrigin(int value_ = {}) : value{value_} {}
+      constexpr TrackingOrigin(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public OVRManager/TrackingOrigin EyeLevel
@@ -128,9 +128,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: XRDevice
-      constexpr XRDevice(int value_ = {}) : value{value_} {}
+      constexpr XRDevice(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public OVRManager/XRDevice Unknown
@@ -159,9 +159,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: CompositionMethod
-      constexpr CompositionMethod(int value_ = {}) : value{value_} {}
+      constexpr CompositionMethod(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public OVRManager/CompositionMethod External
@@ -184,9 +184,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: CameraDevice
-      constexpr CameraDevice(int value_ = {}) : value{value_} {}
+      constexpr CameraDevice(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public OVRManager/CameraDevice WebCamera0
@@ -215,9 +215,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: DepthQuality
-      constexpr DepthQuality(int value_ = {}) : value{value_} {}
+      constexpr DepthQuality(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public OVRManager/DepthQuality Low
@@ -246,9 +246,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: VirtualGreenScreenType
-      constexpr VirtualGreenScreenType(int value_ = {}) : value{value_} {}
+      constexpr VirtualGreenScreenType(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public OVRManager/VirtualGreenScreenType Off
@@ -277,9 +277,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: MrcActivationMode
-      constexpr MrcActivationMode(int value_ = {}) : value{value_} {}
+      constexpr MrcActivationMode(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public OVRManager/MrcActivationMode Automatic
@@ -449,7 +449,7 @@ namespace GlobalNamespace {
     // Offset: 0xF0
     UnityEngine::Camera* lastFoundMainCamera;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private OVRManager <instance>k__BackingField
     static GlobalNamespace::OVRManager* _get_$instance$k__BackingField();
     // Set static field: static private OVRManager <instance>k__BackingField

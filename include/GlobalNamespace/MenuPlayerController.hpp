@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     UnityEngine::Transform* headTransform;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public VRController get_leftController()
     // Offset: 0xC01DE0
     GlobalNamespace::VRController* get_leftController();

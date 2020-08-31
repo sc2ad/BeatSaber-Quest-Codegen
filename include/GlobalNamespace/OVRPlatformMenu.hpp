@@ -43,9 +43,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: eHandler
-      constexpr eHandler(int value_ = {}) : value{value_} {}
+      constexpr eHandler(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public OVRPlatformMenu/eHandler ShowConfirmQuit
@@ -71,7 +71,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     System::Func_1<bool>* OnShortPress;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private System.Collections.Generic.Stack`1<System.String> sceneStack
     static System::Collections::Generic::Stack_1<::Il2CppString*>* _get_sceneStack();
     // Set static field: static private System.Collections.Generic.Stack`1<System.String> sceneStack

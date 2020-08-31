@@ -17,7 +17,7 @@ namespace System::ComponentModel {
     // Offset: 0x10
     bool browsable;
     // Creating conversion operator: operator bool
-    constexpr operator bool() const {
+    constexpr operator bool() const noexcept {
       return browsable;
     }
     // Get static field: static public readonly System.ComponentModel.BrowsableAttribute Yes

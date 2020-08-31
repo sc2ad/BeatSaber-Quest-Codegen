@@ -17,9 +17,9 @@ namespace TMPro {
     // Offset: 0x0
     int value;
     // Creating value type constructor for type: Compute_DistanceTransform_EventTypes
-    constexpr Compute_DistanceTransform_EventTypes(int value_ = {}) : value{value_} {}
+    constexpr Compute_DistanceTransform_EventTypes(int value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return value;
     }
     // static field const value: static public TMPro.Compute_DistanceTransform_EventTypes Processing

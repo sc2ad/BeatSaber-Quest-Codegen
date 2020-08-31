@@ -16,9 +16,9 @@ namespace Valve::VR {
     // Offset: 0x0
     bool bResetBySystemMenu;
     // Creating value type constructor for type: VREvent_SeatedZeroPoseReset_t
-    constexpr VREvent_SeatedZeroPoseReset_t(bool bResetBySystemMenu_ = {}) : bResetBySystemMenu{bResetBySystemMenu_} {}
+    constexpr VREvent_SeatedZeroPoseReset_t(bool bResetBySystemMenu_ = {}) noexcept : bResetBySystemMenu{bResetBySystemMenu_} {}
     // Creating conversion operator: operator bool
-    constexpr operator bool() const {
+    constexpr operator bool() const noexcept {
       return bResetBySystemMenu;
     }
   }; // Valve.VR.VREvent_SeatedZeroPoseReset_t

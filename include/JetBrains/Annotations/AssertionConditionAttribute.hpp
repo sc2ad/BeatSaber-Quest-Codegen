@@ -19,7 +19,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x10
     JetBrains::Annotations::AssertionConditionType ConditionType;
     // Creating conversion operator: operator JetBrains::Annotations::AssertionConditionType
-    constexpr operator JetBrains::Annotations::AssertionConditionType() const {
+    constexpr operator JetBrains::Annotations::AssertionConditionType() const noexcept {
       return ConditionType;
     }
     // public System.Void .ctor(JetBrains.Annotations.AssertionConditionType conditionType)

@@ -17,7 +17,7 @@ namespace UnityEngine {
     // Offset: 0x10
     float m_Seconds;
     // Creating conversion operator: operator float
-    constexpr operator float() const {
+    constexpr operator float() const noexcept {
       return m_Seconds;
     }
     // public System.Void .ctor(System.Single seconds)

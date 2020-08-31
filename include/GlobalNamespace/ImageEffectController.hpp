@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::ImageEffectController::RenderImageCallback* renderImageCallback;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void SetCallback(ImageEffectController/RenderImageCallback renderImageCallback)
     // Offset: 0x18290D4
     void SetCallback(GlobalNamespace::ImageEffectController::RenderImageCallback* renderImageCallback);

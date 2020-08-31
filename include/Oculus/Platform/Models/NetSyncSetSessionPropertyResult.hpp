@@ -27,7 +27,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x10
     Oculus::Platform::Models::NetSyncSession* Session;
     // Creating conversion operator: operator Oculus::Platform::Models::NetSyncSession*
-    constexpr operator Oculus::Platform::Models::NetSyncSession*() const {
+    constexpr operator Oculus::Platform::Models::NetSyncSession*() const noexcept {
       return Session;
     }
     // public System.Void .ctor(System.IntPtr o)

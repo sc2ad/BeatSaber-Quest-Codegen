@@ -86,7 +86,7 @@ namespace GlobalNamespace {
     // Offset: 0x78
     ::Array<UnityEngine::Vector3>* burnMarkPositions;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_sparkleEffectDidStartEvent(System.Action`1<SaberType> value)
     // Offset: 0xC345FC
     void add_sparkleEffectDidStartEvent(System::Action_1<GlobalNamespace::SaberType>* value);

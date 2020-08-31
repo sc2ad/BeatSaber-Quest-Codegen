@@ -24,7 +24,7 @@ namespace Zenject {
     // Offset: 0x10
     System::Type* parentType;
     // Creating conversion operator: operator System::Type*
-    constexpr operator System::Type*() const {
+    constexpr operator System::Type*() const noexcept {
       return parentType;
     }
     // System.Boolean <DerivingFrom>b__0(System.Type type)

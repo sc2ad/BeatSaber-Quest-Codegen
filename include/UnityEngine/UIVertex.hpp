@@ -46,7 +46,7 @@ namespace UnityEngine {
     // Offset: 0x44
     UnityEngine::Vector2 uv3;
     // Creating value type constructor for type: UIVertex
-    constexpr UIVertex(UnityEngine::Vector3 position_ = {}, UnityEngine::Vector3 normal_ = {}, UnityEngine::Vector4 tangent_ = {}, UnityEngine::Color32 color_ = {}, UnityEngine::Vector2 uv0_ = {}, UnityEngine::Vector2 uv1_ = {}, UnityEngine::Vector2 uv2_ = {}, UnityEngine::Vector2 uv3_ = {}) : position{position_}, normal{normal_}, tangent{tangent_}, color{color_}, uv0{uv0_}, uv1{uv1_}, uv2{uv2_}, uv3{uv3_} {}
+    constexpr UIVertex(UnityEngine::Vector3 position_ = {}, UnityEngine::Vector3 normal_ = {}, UnityEngine::Vector4 tangent_ = {}, UnityEngine::Color32 color_ = {}, UnityEngine::Vector2 uv0_ = {}, UnityEngine::Vector2 uv1_ = {}, UnityEngine::Vector2 uv2_ = {}, UnityEngine::Vector2 uv3_ = {}) noexcept : position{position_}, normal{normal_}, tangent{tangent_}, color{color_}, uv0{uv0_}, uv1{uv1_}, uv2{uv2_}, uv3{uv3_} {}
     // Get static field: static private readonly UnityEngine.Color32 s_DefaultColor
     static UnityEngine::Color32 _get_s_DefaultColor();
     // Set static field: static private readonly UnityEngine.Color32 s_DefaultColor

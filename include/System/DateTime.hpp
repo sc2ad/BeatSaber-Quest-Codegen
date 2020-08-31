@@ -65,9 +65,9 @@ namespace System {
     // Offset: 0x0
     uint64_t dateData;
     // Creating value type constructor for type: DateTime
-    constexpr DateTime(uint64_t dateData_ = {}) : dateData{dateData_} {}
+    constexpr DateTime(uint64_t dateData_ = {}) noexcept : dateData{dateData_} {}
     // Creating conversion operator: operator uint64_t
-    constexpr operator uint64_t() const {
+    constexpr operator uint64_t() const noexcept {
       return dateData;
     }
     // static field const value: static private System.Int64 TicksPerMillisecond

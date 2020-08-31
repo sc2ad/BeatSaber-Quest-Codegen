@@ -51,7 +51,7 @@ namespace Unity::Collections {
       // Offset: 0x0
       int m_Index;
       // Creating value type constructor for type: Enumerator
-      constexpr Enumerator(Unity::Collections::NativeArray_1<T> m_Array_ = {}, int m_Index_ = {}) : m_Array{m_Array_}, m_Index{m_Index_} {}
+      constexpr Enumerator(Unity::Collections::NativeArray_1<T> m_Array_ = {}, int m_Index_ = {}) noexcept : m_Array{m_Array_}, m_Index{m_Index_} {}
       // public System.Void .ctor(Unity.Collections.NativeArray`1<T> array)
       // Offset: 0xFFFFFFFF
       static typename NativeArray_1<T>::Enumerator* New_ctor(Unity::Collections::NativeArray_1<T>& array) {
@@ -118,7 +118,7 @@ namespace Unity::Collections {
     // Offset: 0x0
     Unity::Collections::Allocator m_AllocatorLabel;
     // Creating value type constructor for type: NativeArray_1
-    constexpr NativeArray_1(void* m_Buffer_ = {}, int m_Length_ = {}, Unity::Collections::Allocator m_AllocatorLabel_ = {}) : m_Buffer{m_Buffer_}, m_Length{m_Length_}, m_AllocatorLabel{m_AllocatorLabel_} {}
+    constexpr NativeArray_1(void* m_Buffer_ = {}, int m_Length_ = {}, Unity::Collections::Allocator m_AllocatorLabel_ = {}) noexcept : m_Buffer{m_Buffer_}, m_Length{m_Length_}, m_AllocatorLabel{m_AllocatorLabel_} {}
     // public System.Int32 get_Length()
     // Offset: 0xFFFFFFFF
     int get_Length() {

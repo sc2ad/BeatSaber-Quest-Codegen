@@ -24,7 +24,7 @@ namespace UnityEngine::Networking {
     // Offset: 0x20
     UnityEngine::Networking::UnityWebRequest* webRequest;
     // Creating conversion operator: operator UnityEngine::Networking::UnityWebRequest*
-    constexpr operator UnityEngine::Networking::UnityWebRequest*() const {
+    constexpr operator UnityEngine::Networking::UnityWebRequest*() const noexcept {
       return webRequest;
     }
     // System.Void set_webRequest(UnityEngine.Networking.UnityWebRequest value)

@@ -29,7 +29,7 @@ namespace OVR::OpenVR {
     // Offset: 0x10
     OVR::OpenVR::IVRResources FnTable;
     // Creating conversion operator: operator OVR::OpenVR::IVRResources
-    constexpr operator OVR::OpenVR::IVRResources() const {
+    constexpr operator OVR::OpenVR::IVRResources() const noexcept {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)

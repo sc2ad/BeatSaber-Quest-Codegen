@@ -47,7 +47,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x12
     uint8_t valuesSet;
     // Creating value type constructor for type: EventSourceOptions
-    constexpr EventSourceOptions(System::Diagnostics::Tracing::EventKeywords keywords_ = {}, System::Diagnostics::Tracing::EventTags tags_ = {}, System::Diagnostics::Tracing::EventActivityOptions activityOptions_ = {}, uint8_t level_ = {}, uint8_t opcode_ = {}, uint8_t valuesSet_ = {}) : keywords{keywords_}, tags{tags_}, activityOptions{activityOptions_}, level{level_}, opcode{opcode_}, valuesSet{valuesSet_} {}
+    constexpr EventSourceOptions(System::Diagnostics::Tracing::EventKeywords keywords_ = {}, System::Diagnostics::Tracing::EventTags tags_ = {}, System::Diagnostics::Tracing::EventActivityOptions activityOptions_ = {}, uint8_t level_ = {}, uint8_t opcode_ = {}, uint8_t valuesSet_ = {}) noexcept : keywords{keywords_}, tags{tags_}, activityOptions{activityOptions_}, level{level_}, opcode{opcode_}, valuesSet{valuesSet_} {}
     // public System.Void set_Level(System.Diagnostics.Tracing.EventLevel value)
     // Offset: 0xA300A0
     void set_Level(System::Diagnostics::Tracing::EventLevel value);

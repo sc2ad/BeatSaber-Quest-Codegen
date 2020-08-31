@@ -31,7 +31,7 @@ namespace Zenject {
     // Offset: 0x10
     bool includeInactive;
     // Creating conversion operator: operator bool
-    constexpr operator bool() const {
+    constexpr operator bool() const noexcept {
       return includeInactive;
     }
     // Zenject.IProvider <FromComponentInChildren>b__0(Zenject.DiContainer container, System.Type concreteType)

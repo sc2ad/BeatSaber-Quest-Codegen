@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     // Offset: 0x58
     bool isActive;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public MissionNodeVisualController get_parentMissionNode()
     // Offset: 0xC098A0
     GlobalNamespace::MissionNodeVisualController* get_parentMissionNode();

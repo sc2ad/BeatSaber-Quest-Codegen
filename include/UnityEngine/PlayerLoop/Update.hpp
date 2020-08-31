@@ -26,7 +26,7 @@ namespace UnityEngine::PlayerLoop {
     // Nested type: UnityEngine::PlayerLoop::Update::ScriptRunDelayedTasks
     struct ScriptRunDelayedTasks;
     // Creating value type constructor for type: Update
-    constexpr Update() {}
+    constexpr Update() noexcept {}
   }; // UnityEngine.PlayerLoop.Update
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

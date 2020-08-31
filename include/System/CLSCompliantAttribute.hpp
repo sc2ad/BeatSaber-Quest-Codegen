@@ -17,7 +17,7 @@ namespace System {
     // Offset: 0x10
     bool m_compliant;
     // Creating conversion operator: operator bool
-    constexpr operator bool() const {
+    constexpr operator bool() const noexcept {
       return m_compliant;
     }
     // public System.Void .ctor(System.Boolean isCompliant)

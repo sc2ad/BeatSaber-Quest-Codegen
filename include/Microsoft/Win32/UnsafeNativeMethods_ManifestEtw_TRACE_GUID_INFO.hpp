@@ -22,7 +22,7 @@ namespace Microsoft::Win32 {
     // Offset: 0x4
     int Reserved;
     // Creating value type constructor for type: TRACE_GUID_INFO
-    constexpr TRACE_GUID_INFO(int InstanceCount_ = {}, int Reserved_ = {}) : InstanceCount{InstanceCount_}, Reserved{Reserved_} {}
+    constexpr TRACE_GUID_INFO(int InstanceCount_ = {}, int Reserved_ = {}) noexcept : InstanceCount{InstanceCount_}, Reserved{Reserved_} {}
   }; // Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/TRACE_GUID_INFO
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

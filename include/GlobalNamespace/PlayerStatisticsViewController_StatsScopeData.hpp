@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // Offset: 0x8
     System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* playerOverallStatsDataFunc;
     // Creating value type constructor for type: StatsScopeData
-    constexpr StatsScopeData(::Il2CppString* text_ = {}, System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* playerOverallStatsDataFunc_ = {}) : text{text_}, playerOverallStatsDataFunc{playerOverallStatsDataFunc_} {}
+    constexpr StatsScopeData(::Il2CppString* text_ = {}, System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* playerOverallStatsDataFunc_ = {}) noexcept : text{text_}, playerOverallStatsDataFunc{playerOverallStatsDataFunc_} {}
     // public System.String get_text()
     // Offset: 0xA2C76C
     ::Il2CppString* get_text();

@@ -19,7 +19,7 @@ namespace System::Xml {
     // Offset: 0x10
     System::Xml::XmlWellFormedWriter* wfWriter;
     // Creating conversion operator: operator System::Xml::XmlWellFormedWriter*
-    constexpr operator System::Xml::XmlWellFormedWriter*() const {
+    constexpr operator System::Xml::XmlWellFormedWriter*() const noexcept {
       return wfWriter;
     }
     // System.Void .ctor(System.Xml.XmlWellFormedWriter wfWriter)

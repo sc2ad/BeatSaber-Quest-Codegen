@@ -30,7 +30,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0x10
     System::Collections::Generic::HashSet_1<int>* appended;
     // Creating conversion operator: operator System::Collections::Generic::HashSet_1<int>*
-    constexpr operator System::Collections::Generic::HashSet_1<int>*() const {
+    constexpr operator System::Collections::Generic::HashSet_1<int>*() const noexcept {
       return appended;
     }
     // System.Boolean <Connect>b__3(UnityEngine.ProBuilder.Edge x)

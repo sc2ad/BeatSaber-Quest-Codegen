@@ -24,7 +24,7 @@ namespace System::Xml {
     // Offset: 0x28
     System::Xml::XmlRawWriter* rawWriter;
     // Creating conversion operator: operator System::Xml::XmlRawWriter*
-    constexpr operator System::Xml::XmlRawWriter*() const {
+    constexpr operator System::Xml::XmlRawWriter*() const noexcept {
       return rawWriter;
     }
     // System.Void .ctor(System.Xml.XmlRawWriter rawWriter)

@@ -17,7 +17,7 @@ namespace System::Collections {
     // Offset: 0x10
     System::Collections::SortedList* sortedList;
     // Creating conversion operator: operator System::Collections::SortedList*
-    constexpr operator System::Collections::SortedList*() const {
+    constexpr operator System::Collections::SortedList*() const noexcept {
       return sortedList;
     }
   }; // System.Collections.SortedList/ValueList

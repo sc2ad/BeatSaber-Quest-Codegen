@@ -27,7 +27,7 @@ namespace OVR::OpenVR {
     // Offset: 0x18
     OVR::OpenVR::ETrackingUniverseOrigin eOrigin;
     // Creating value type constructor for type: VROverlayIntersectionParams_t
-    constexpr VROverlayIntersectionParams_t(OVR::OpenVR::HmdVector3_t vSource_ = {}, OVR::OpenVR::HmdVector3_t vDirection_ = {}, OVR::OpenVR::ETrackingUniverseOrigin eOrigin_ = {}) : vSource{vSource_}, vDirection{vDirection_}, eOrigin{eOrigin_} {}
+    constexpr VROverlayIntersectionParams_t(OVR::OpenVR::HmdVector3_t vSource_ = {}, OVR::OpenVR::HmdVector3_t vDirection_ = {}, OVR::OpenVR::ETrackingUniverseOrigin eOrigin_ = {}) noexcept : vSource{vSource_}, vDirection{vDirection_}, eOrigin{eOrigin_} {}
   }; // OVR.OpenVR.VROverlayIntersectionParams_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -49,9 +49,9 @@ namespace System {
     // Offset: 0x0
     float m_value;
     // Creating value type constructor for type: Single
-    constexpr Single(float m_value_ = {}) : m_value{m_value_} {}
+    constexpr Single(float m_value_ = {}) noexcept : m_value{m_value_} {}
     // Creating conversion operator: operator float
-    constexpr operator float() const {
+    constexpr operator float() const noexcept {
       return m_value;
     }
     // static field const value: static public System.Single MinValue

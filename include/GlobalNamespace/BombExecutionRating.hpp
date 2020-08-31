@@ -28,9 +28,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: Rating
-      constexpr Rating(int value_ = {}) : value{value_} {}
+      constexpr Rating(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public BombExecutionRating/Rating OK
@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::BombExecutionRating::Rating rating;
     // Creating conversion operator: operator GlobalNamespace::BombExecutionRating::Rating
-    constexpr operator GlobalNamespace::BombExecutionRating::Rating() const {
+    constexpr operator GlobalNamespace::BombExecutionRating::Rating() const noexcept {
       return rating;
     }
     // public BombExecutionRating/Rating get_rating()

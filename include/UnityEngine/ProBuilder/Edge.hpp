@@ -39,7 +39,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x4
     int b;
     // Creating value type constructor for type: Edge
-    constexpr Edge(int a_ = {}, int b_ = {}) : a{a_}, b{b_} {}
+    constexpr Edge(int a_ = {}, int b_ = {}) noexcept : a{a_}, b{b_} {}
     // Get static field: static public readonly UnityEngine.ProBuilder.Edge Empty
     static UnityEngine::ProBuilder::Edge _get_Empty();
     // Set static field: static public readonly UnityEngine.ProBuilder.Edge Empty

@@ -33,7 +33,7 @@ namespace Zenject {
     // Offset: 0x0
     System::Action_2<Zenject::InjectContext*, T>* callback;
     // Creating conversion operator: operator System::Action_2<Zenject::InjectContext*, T>*
-    constexpr operator System::Action_2<Zenject::InjectContext*, T>*() const {
+    constexpr operator System::Action_2<Zenject::InjectContext*, T>*() const noexcept {
       return callback;
     }
     // System.Void <OnInstantiated>b__0(Zenject.InjectContext ctx, System.Object obj)

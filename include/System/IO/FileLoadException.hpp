@@ -29,7 +29,7 @@ namespace System::IO {
     // Offset: 0x98
     ::Il2CppString* fusionLog;
     // Deleting conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const = delete;
+    constexpr operator ::Il2CppString*() const noexcept = delete;
     // private System.Void SetMessageField()
     // Offset: 0x1134C54
     void SetMessageField();

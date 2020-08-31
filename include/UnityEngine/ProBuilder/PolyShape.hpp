@@ -47,9 +47,9 @@ namespace UnityEngine::ProBuilder {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: PolyEditMode
-      constexpr PolyEditMode(int value_ = {}) : value{value_} {}
+      constexpr PolyEditMode(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public UnityEngine.ProBuilder.PolyShape/PolyEditMode None
@@ -96,7 +96,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x31
     bool isOnGrid;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3> get_controlPoints()
     // Offset: 0x1032524
     System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::Vector3>* get_controlPoints();

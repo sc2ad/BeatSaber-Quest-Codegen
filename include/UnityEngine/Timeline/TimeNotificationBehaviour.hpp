@@ -65,7 +65,7 @@ namespace UnityEngine::Timeline {
       // Offset: 0x12
       UnityEngine::Timeline::NotificationFlags flags;
       // Creating value type constructor for type: NotificationEntry
-      constexpr NotificationEntry(double time_ = {}, UnityEngine::Playables::INotification* payload_ = {}, bool notificationFired_ = {}, UnityEngine::Timeline::NotificationFlags flags_ = {}) : time{time_}, payload{payload_}, notificationFired{notificationFired_}, flags{flags_} {}
+      constexpr NotificationEntry(double time_ = {}, UnityEngine::Playables::INotification* payload_ = {}, bool notificationFired_ = {}, UnityEngine::Timeline::NotificationFlags flags_ = {}) noexcept : time{time_}, payload{payload_}, notificationFired{notificationFired_}, flags{flags_} {}
       // public System.Boolean get_triggerInEditor()
       // Offset: 0xA40650
       bool get_triggerInEditor();

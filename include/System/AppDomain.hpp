@@ -128,7 +128,7 @@ namespace System {
     // Offset: 0x98
     System::Collections::Generic::List_1<::Il2CppString*>* compatibility_switch;
     // Deleting conversion operator: operator ::Il2CppObject*
-    constexpr operator ::Il2CppObject*() const = delete;
+    constexpr operator ::Il2CppObject*() const noexcept = delete;
     // Get static field: static private System.String _process_guid
     static ::Il2CppString* _get__process_guid();
     // Set static field: static private System.String _process_guid

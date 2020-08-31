@@ -71,7 +71,7 @@ namespace HMUI {
     // Offset: 0x60
     float contentHeight;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
     // Offset: 0x10E9950
     void Start();

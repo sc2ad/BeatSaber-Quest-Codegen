@@ -37,7 +37,7 @@ namespace NUnit::Framework::Internal::Builders {
     // Offset: 0x10
     NUnit::Framework::Interfaces::ITestCaseBuilder* testBuilder;
     // Creating conversion operator: operator NUnit::Framework::Interfaces::ITestCaseBuilder*
-    constexpr operator NUnit::Framework::Interfaces::ITestCaseBuilder*() const {
+    constexpr operator NUnit::Framework::Interfaces::ITestCaseBuilder*() const noexcept {
       return testBuilder;
     }
     // Get static field: static private readonly System.String NO_TYPE_ARGS_MSG

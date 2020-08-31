@@ -56,7 +56,7 @@ namespace Zenject {
     // Offset: 0x28
     System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>* creatorFactory;
     // Deleting conversion operator: operator Zenject::BindInfo*
-    constexpr operator Zenject::BindInfo*() const = delete;
+    constexpr operator Zenject::BindInfo*() const noexcept = delete;
     // public System.Void .ctor(Zenject.BindInfo bindInfo, System.Object subIdentifier, System.Boolean resolveAll, System.Func`2<Zenject.DiContainer,Zenject.ISubContainerCreator> creatorFactory)
     // Offset: 0xFCF3B8
     static SubContainerBindingFinalizer* New_ctor(Zenject::BindInfo* bindInfo, ::Il2CppObject* subIdentifier, bool resolveAll, System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>* creatorFactory);

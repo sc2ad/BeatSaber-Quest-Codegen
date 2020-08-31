@@ -22,7 +22,7 @@ namespace UnityEngine::Experimental::Rendering {
     // Offset: 0x10
     UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* implementation;
     // Creating conversion operator: operator UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*
-    constexpr operator UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*() const {
+    constexpr operator UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*() const noexcept {
       return implementation;
     }
     // UnityEngine.Experimental.Rendering.IScriptableRuntimeReflectionSystem get_implementation()

@@ -31,7 +31,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0x10
     int index;
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return index;
     }
     // UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint <Triangulate>b__0(UnityEngine.Vector2 x)

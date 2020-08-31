@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Offset: 0x1C
     bool monoscopic;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Update()
     // Offset: 0xEEEEF4
     void Update();

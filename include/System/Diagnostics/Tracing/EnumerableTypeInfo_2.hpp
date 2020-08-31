@@ -39,7 +39,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x0
     System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<ElementType>* elementInfo;
     // Creating conversion operator: operator System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<ElementType>*
-    constexpr operator System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<ElementType>*() const {
+    constexpr operator System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<ElementType>*() const noexcept {
       return elementInfo;
     }
     // public override System.Void WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)

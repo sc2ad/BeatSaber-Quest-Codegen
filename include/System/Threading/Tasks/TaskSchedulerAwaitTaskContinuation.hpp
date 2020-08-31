@@ -38,7 +38,7 @@ namespace System::Threading::Tasks {
     // Offset: 0x20
     System::Threading::Tasks::TaskScheduler* m_scheduler;
     // Creating conversion operator: operator System::Threading::Tasks::TaskScheduler*
-    constexpr operator System::Threading::Tasks::TaskScheduler*() const {
+    constexpr operator System::Threading::Tasks::TaskScheduler*() const noexcept {
       return m_scheduler;
     }
     // System.Void .ctor(System.Threading.Tasks.TaskScheduler scheduler, System.Action action, System.Boolean flowExecutionContext, System.Threading.StackCrawlMark stackMark)

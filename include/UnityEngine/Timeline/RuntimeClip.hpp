@@ -37,7 +37,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x30
     UnityEngine::Playables::Playable m_ParentMixer;
     // Deleting conversion operator: operator int
-    constexpr operator int() const = delete;
+    constexpr operator int() const noexcept = delete;
     // public System.Void .ctor(UnityEngine.Timeline.TimelineClip clip, UnityEngine.Playables.Playable clipPlayable, UnityEngine.Playables.Playable parentMixer)
     // Offset: 0x1092608
     static RuntimeClip* New_ctor(UnityEngine::Timeline::TimelineClip* clip, UnityEngine::Playables::Playable clipPlayable, UnityEngine::Playables::Playable parentMixer);

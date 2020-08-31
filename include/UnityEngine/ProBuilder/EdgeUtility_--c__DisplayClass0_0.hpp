@@ -26,7 +26,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x10
     UnityEngine::ProBuilder::ProBuilderMesh* mesh;
     // Creating conversion operator: operator UnityEngine::ProBuilder::ProBuilderMesh*
-    constexpr operator UnityEngine::ProBuilder::ProBuilderMesh*() const {
+    constexpr operator UnityEngine::ProBuilder::ProBuilderMesh*() const noexcept {
       return mesh;
     }
     // UnityEngine.ProBuilder.Edge <GetSharedVertexHandleEdges>b__0(UnityEngine.ProBuilder.Edge x)

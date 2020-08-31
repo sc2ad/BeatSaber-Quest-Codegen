@@ -29,7 +29,7 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x10
     ::Array<System::Type*>* argTypes;
     // Creating conversion operator: operator ::Array<System::Type*>*
-    constexpr operator ::Array<System::Type*>*() const {
+    constexpr operator ::Array<System::Type*>*() const noexcept {
       return argTypes;
     }
     // public System.Boolean <GetConstructor>b__0(System.Reflection.ConstructorInfo c)

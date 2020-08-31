@@ -50,7 +50,7 @@ namespace Zenject {
     // Offset: 0x10
     Zenject::ConventionBindInfo* BindInfo;
     // Creating conversion operator: operator Zenject::ConventionBindInfo*
-    constexpr operator Zenject::ConventionBindInfo*() const {
+    constexpr operator Zenject::ConventionBindInfo*() const noexcept {
       return BindInfo;
     }
     // public System.Void .ctor(Zenject.ConventionBindInfo bindInfo)

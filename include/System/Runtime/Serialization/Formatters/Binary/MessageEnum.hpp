@@ -17,9 +17,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x0
     int value;
     // Creating value type constructor for type: MessageEnum
-    constexpr MessageEnum(int value_ = {}) : value{value_} {}
+    constexpr MessageEnum(int value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return value;
     }
     // static field const value: static public System.Runtime.Serialization.Formatters.Binary.MessageEnum NoArgs

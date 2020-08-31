@@ -29,7 +29,7 @@ namespace Zenject::Internal {
     // Offset: 0x10
     System::Reflection::FieldInfo* x;
     // Creating conversion operator: operator System::Reflection::FieldInfo*
-    constexpr operator System::Reflection::FieldInfo*() const {
+    constexpr operator System::Reflection::FieldInfo*() const noexcept {
       return x;
     }
     // System.Boolean <GetFieldInfos>b__2(System.Type a)

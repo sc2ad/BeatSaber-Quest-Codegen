@@ -26,7 +26,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::BloomPrePassEffectSO* bloomPrePassEffect;
     // Deleting conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const = delete;
+    constexpr operator ::Il2CppString*() const noexcept = delete;
     // public System.Void .ctor()
     // Offset: 0xB7BDDC
     // Implemented from: NamedPreset

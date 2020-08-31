@@ -32,7 +32,7 @@ namespace UnityEngine {
     // Offset: 0x18
     UnityEngine::Font::FontTextureRebuildCallback* m_FontTextureRebuildCallback;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private System.Action`1<UnityEngine.Font> textureRebuilt
     static System::Action_1<UnityEngine::Font*>* _get_textureRebuilt();
     // Set static field: static private System.Action`1<UnityEngine.Font> textureRebuilt

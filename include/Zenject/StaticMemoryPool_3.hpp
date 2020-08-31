@@ -33,7 +33,7 @@ namespace Zenject {
     // Offset: 0x0
     System::Action_3<TParam1, TParam2, TValue>* onSpawnMethod;
     // Creating conversion operator: operator System::Action_3<TParam1, TParam2, TValue>*
-    constexpr operator System::Action_3<TParam1, TParam2, TValue>*() const {
+    constexpr operator System::Action_3<TParam1, TParam2, TValue>*() const noexcept {
       return onSpawnMethod;
     }
     // public System.Void .ctor(System.Action`3<TParam1,TParam2,TValue> onSpawnMethod, System.Action`1<TValue> onDespawnedMethod)

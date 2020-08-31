@@ -51,7 +51,7 @@ namespace UnityEngine::Playables {
     // Offset: 0x18
     UnityEngine::Playables::PlayableBinding::CreateOutputMethod* m_CreateOutputMethod;
     // Creating value type constructor for type: PlayableBinding
-    constexpr PlayableBinding(::Il2CppString* m_StreamName_ = {}, UnityEngine::Object* m_SourceObject_ = {}, System::Type* m_SourceBindingType_ = {}, UnityEngine::Playables::PlayableBinding::CreateOutputMethod* m_CreateOutputMethod_ = {}) : m_StreamName{m_StreamName_}, m_SourceObject{m_SourceObject_}, m_SourceBindingType{m_SourceBindingType_}, m_CreateOutputMethod{m_CreateOutputMethod_} {}
+    constexpr PlayableBinding(::Il2CppString* m_StreamName_ = {}, UnityEngine::Object* m_SourceObject_ = {}, System::Type* m_SourceBindingType_ = {}, UnityEngine::Playables::PlayableBinding::CreateOutputMethod* m_CreateOutputMethod_ = {}) noexcept : m_StreamName{m_StreamName_}, m_SourceObject{m_SourceObject_}, m_SourceBindingType{m_SourceBindingType_}, m_CreateOutputMethod{m_CreateOutputMethod_} {}
     // Get static field: static public readonly UnityEngine.Playables.PlayableBinding[] None
     static ::Array<UnityEngine::Playables::PlayableBinding>* _get_None();
     // Set static field: static public readonly UnityEngine.Playables.PlayableBinding[] None

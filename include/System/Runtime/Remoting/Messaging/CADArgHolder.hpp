@@ -15,7 +15,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x10
     int index;
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return index;
     }
     // public System.Void .ctor(System.Int32 i)

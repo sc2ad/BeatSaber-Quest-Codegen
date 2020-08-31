@@ -17,7 +17,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x20
     bool critical;
     // Creating conversion operator: operator bool
-    constexpr operator bool() const {
+    constexpr operator bool() const noexcept {
       return critical;
     }
     // public System.Boolean get_Critical()

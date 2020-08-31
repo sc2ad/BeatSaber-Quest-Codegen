@@ -29,7 +29,7 @@ namespace Valve::VR {
     // Offset: 0x10
     Valve::VR::IVRResources FnTable;
     // Creating conversion operator: operator Valve::VR::IVRResources
-    constexpr operator Valve::VR::IVRResources() const {
+    constexpr operator Valve::VR::IVRResources() const noexcept {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)

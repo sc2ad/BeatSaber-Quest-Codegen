@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::CoreGameHUDController* flyingHUDPrefab;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void ManualInstallBindings(Zenject.DiContainer container, GameplayCoreHUDInstaller/HudType hudType)
     // Offset: 0xB3DDD0
     void ManualInstallBindings(Zenject::DiContainer* container, GlobalNamespace::GameplayCoreHUDInstaller::HudType hudType);

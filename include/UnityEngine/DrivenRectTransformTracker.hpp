@@ -24,7 +24,7 @@ namespace UnityEngine {
   struct DrivenRectTransformTracker : public System::ValueType {
     public:
     // Creating value type constructor for type: DrivenRectTransformTracker
-    constexpr DrivenRectTransformTracker() {}
+    constexpr DrivenRectTransformTracker() noexcept {}
     // public System.Void Add(UnityEngine.Object driver, UnityEngine.RectTransform rectTransform, UnityEngine.DrivenTransformProperties drivenProperties)
     // Offset: 0xA459FC
     void Add(UnityEngine::Object* driver, UnityEngine::RectTransform* rectTransform, UnityEngine::DrivenTransformProperties drivenProperties);

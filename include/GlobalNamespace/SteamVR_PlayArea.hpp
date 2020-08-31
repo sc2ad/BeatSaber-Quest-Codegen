@@ -48,9 +48,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: Size
-      constexpr Size(int value_ = {}) : value{value_} {}
+      constexpr Size(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public SteamVR_PlayArea/Size Calibrated
@@ -100,7 +100,7 @@ namespace GlobalNamespace {
     // Offset: 0x38
     ::Array<UnityEngine::Vector3>* vertices;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static public System.Boolean GetBounds(SteamVR_PlayArea/Size size, Valve.VR.HmdQuad_t pRect)
     // Offset: 0xD8D79C
     static bool GetBounds(GlobalNamespace::SteamVR_PlayArea::Size size, Valve::VR::HmdQuad_t& pRect);

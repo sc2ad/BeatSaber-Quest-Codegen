@@ -34,9 +34,9 @@ namespace UnityEngine::UI {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: Corner
-      constexpr Corner(int value_ = {}) : value{value_} {}
+      constexpr Corner(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public UnityEngine.UI.GridLayoutGroup/Corner UpperLeft
@@ -71,9 +71,9 @@ namespace UnityEngine::UI {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: Axis
-      constexpr Axis(int value_ = {}) : value{value_} {}
+      constexpr Axis(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public UnityEngine.UI.GridLayoutGroup/Axis Horizontal
@@ -96,9 +96,9 @@ namespace UnityEngine::UI {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: Constraint
-      constexpr Constraint(int value_ = {}) : value{value_} {}
+      constexpr Constraint(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public UnityEngine.UI.GridLayoutGroup/Constraint Flexible

@@ -29,7 +29,7 @@ namespace Valve::VR {
     // Offset: 0x10
     Valve::VR::IVRDriverManager FnTable;
     // Creating conversion operator: operator Valve::VR::IVRDriverManager
-    constexpr operator Valve::VR::IVRDriverManager() const {
+    constexpr operator Valve::VR::IVRDriverManager() const noexcept {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)

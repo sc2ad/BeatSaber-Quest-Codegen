@@ -26,7 +26,7 @@ namespace GlobalNamespace {
     // Offset: 0x8
     GlobalNamespace::OVRPlugin::Sizei Size;
     // Creating value type constructor for type: Recti
-    constexpr Recti(GlobalNamespace::OVRPlugin::Vector2i Pos_ = {}, GlobalNamespace::OVRPlugin::Sizei Size_ = {}) : Pos{Pos_}, Size{Size_} {}
+    constexpr Recti(GlobalNamespace::OVRPlugin::Vector2i Pos_ = {}, GlobalNamespace::OVRPlugin::Sizei Size_ = {}) noexcept : Pos{Pos_}, Size{Size_} {}
   }; // OVRPlugin/Recti
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

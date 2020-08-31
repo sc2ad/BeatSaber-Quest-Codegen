@@ -122,7 +122,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xA0
     System::Collections::Generic::List_1<UnityEngine::Material*>* m_Material_values;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean HasKey(System.String key)
     // Offset: 0x1032EE4
     bool HasKey(::Il2CppString* key);

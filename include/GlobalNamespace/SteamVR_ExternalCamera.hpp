@@ -103,7 +103,7 @@ namespace GlobalNamespace {
       // Offset: 0x48
       bool disableStandardAssets;
       // Creating value type constructor for type: Config
-      constexpr Config(float x_ = {}, float y_ = {}, float z_ = {}, float rx_ = {}, float ry_ = {}, float rz_ = {}, float fov_ = {}, float near_ = {}, float far_ = {}, float sceneResolutionScale_ = {}, float frameSkip_ = {}, float nearOffset_ = {}, float farOffset_ = {}, float hmdOffset_ = {}, float r_ = {}, float g_ = {}, float b_ = {}, float a_ = {}, bool disableStandardAssets_ = {}) : x{x_}, y{y_}, z{z_}, rx{rx_}, ry{ry_}, rz{rz_}, fov{fov_}, near{near_}, far{far_}, sceneResolutionScale{sceneResolutionScale_}, frameSkip{frameSkip_}, nearOffset{nearOffset_}, farOffset{farOffset_}, hmdOffset{hmdOffset_}, r{r_}, g{g_}, b{b_}, a{a_}, disableStandardAssets{disableStandardAssets_} {}
+      constexpr Config(float x_ = {}, float y_ = {}, float z_ = {}, float rx_ = {}, float ry_ = {}, float rz_ = {}, float fov_ = {}, float near_ = {}, float far_ = {}, float sceneResolutionScale_ = {}, float frameSkip_ = {}, float nearOffset_ = {}, float farOffset_ = {}, float hmdOffset_ = {}, float r_ = {}, float g_ = {}, float b_ = {}, float a_ = {}, bool disableStandardAssets_ = {}) noexcept : x{x_}, y{y_}, z{z_}, rx{rx_}, ry{ry_}, rz{rz_}, fov{fov_}, near{near_}, far{far_}, sceneResolutionScale{sceneResolutionScale_}, frameSkip{frameSkip_}, nearOffset{nearOffset_}, farOffset{farOffset_}, hmdOffset{hmdOffset_}, r{r_}, g{g_}, b{b_}, a{a_}, disableStandardAssets{disableStandardAssets_} {}
     }; // SteamVR_ExternalCamera/Config
     // public SteamVR_ExternalCamera/Config config
     // Offset: 0x18
@@ -142,7 +142,7 @@ namespace GlobalNamespace {
     // Offset: 0xB8
     float sceneResolutionScale;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void ReadConfig()
     // Offset: 0xD8431C
     void ReadConfig();

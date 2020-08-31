@@ -42,7 +42,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Offset: 0x2
     bool _2;
     // Creating value type constructor for type: FixedBitArray3
-    constexpr FixedBitArray3(bool _0_ = {}, bool _1_ = {}, bool _2_ = {}) : _0{_0_}, _1{_1_}, _2{_2_} {}
+    constexpr FixedBitArray3(bool _0_ = {}, bool _1_ = {}, bool _2_ = {}) noexcept : _0{_0_}, _1{_1_}, _2{_2_} {}
     // public System.Boolean get_Item(System.Int32 index)
     // Offset: 0xA5D87C
     bool get_Item(int index);

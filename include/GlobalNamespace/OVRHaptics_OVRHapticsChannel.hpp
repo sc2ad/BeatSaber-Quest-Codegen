@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     GlobalNamespace::OVRHaptics::OVRHapticsOutput* m_output;
     // Creating conversion operator: operator GlobalNamespace::OVRHaptics::OVRHapticsOutput*
-    constexpr operator GlobalNamespace::OVRHaptics::OVRHapticsOutput*() const {
+    constexpr operator GlobalNamespace::OVRHaptics::OVRHapticsOutput*() const noexcept {
       return m_output;
     }
     // public System.Void .ctor(System.UInt32 outputIndex)

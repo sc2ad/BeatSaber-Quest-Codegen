@@ -49,9 +49,9 @@ namespace System {
     // Offset: 0x0
     uint16_t m_value;
     // Creating value type constructor for type: UInt16
-    constexpr UInt16(uint16_t m_value_ = {}) : m_value{m_value_} {}
+    constexpr UInt16(uint16_t m_value_ = {}) noexcept : m_value{m_value_} {}
     // Creating conversion operator: operator uint16_t
-    constexpr operator uint16_t() const {
+    constexpr operator uint16_t() const noexcept {
       return m_value;
     }
     // static field const value: static public System.UInt16 MaxValue

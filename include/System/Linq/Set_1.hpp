@@ -44,7 +44,7 @@ namespace System::Linq {
       // Offset: 0x0
       int next;
       // Creating value type constructor for type: Slot
-      constexpr Slot(int hashCode_ = {}, TElement value_ = {}, int next_ = {}) : hashCode{hashCode_}, value{value_}, next{next_} {}
+      constexpr Slot(int hashCode_ = {}, TElement value_ = {}, int next_ = {}) noexcept : hashCode{hashCode_}, value{value_}, next{next_} {}
     }; // System.Linq.Set`1/Slot
     // private System.Int32[] buckets
     // Offset: 0x0

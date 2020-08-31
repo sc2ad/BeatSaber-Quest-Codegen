@@ -42,7 +42,7 @@ namespace NUnit::Framework::Internal::Builders {
     // Offset: 0x10
     NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder* nunitTestCaseBuilder;
     // Creating conversion operator: operator NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*
-    constexpr operator NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*() const {
+    constexpr operator NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*() const noexcept {
       return nunitTestCaseBuilder;
     }
     // public System.Boolean CanBuildFrom(NUnit.Framework.Interfaces.IMethodInfo method)

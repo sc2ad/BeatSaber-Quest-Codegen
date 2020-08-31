@@ -50,7 +50,7 @@ namespace System {
     // Offset: 0x8
     int16_t m_offsetMinutes;
     // Creating value type constructor for type: DateTimeOffset
-    constexpr DateTimeOffset(System::DateTime m_dateTime_ = {}, int16_t m_offsetMinutes_ = {}) : m_dateTime{m_dateTime_}, m_offsetMinutes{m_offsetMinutes_} {}
+    constexpr DateTimeOffset(System::DateTime m_dateTime_ = {}, int16_t m_offsetMinutes_ = {}) noexcept : m_dateTime{m_dateTime_}, m_offsetMinutes{m_offsetMinutes_} {}
     // Get static field: static public readonly System.DateTimeOffset MinValue
     static System::DateTimeOffset _get_MinValue();
     // Set static field: static public readonly System.DateTimeOffset MinValue

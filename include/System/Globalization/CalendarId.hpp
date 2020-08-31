@@ -17,9 +17,9 @@ namespace System::Globalization {
     // Offset: 0x0
     uint16_t value;
     // Creating value type constructor for type: CalendarId
-    constexpr CalendarId(uint16_t value_ = {}) : value{value_} {}
+    constexpr CalendarId(uint16_t value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator uint16_t
-    constexpr operator uint16_t() const {
+    constexpr operator uint16_t() const noexcept {
       return value;
     }
     // static field const value: static public System.Globalization.CalendarId GREGORIAN

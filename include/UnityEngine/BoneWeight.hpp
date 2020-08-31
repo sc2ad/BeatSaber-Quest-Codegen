@@ -42,7 +42,7 @@ namespace UnityEngine {
     // Offset: 0x1C
     int m_BoneIndex3;
     // Creating value type constructor for type: BoneWeight
-    constexpr BoneWeight(float m_Weight0_ = {}, float m_Weight1_ = {}, float m_Weight2_ = {}, float m_Weight3_ = {}, int m_BoneIndex0_ = {}, int m_BoneIndex1_ = {}, int m_BoneIndex2_ = {}, int m_BoneIndex3_ = {}) : m_Weight0{m_Weight0_}, m_Weight1{m_Weight1_}, m_Weight2{m_Weight2_}, m_Weight3{m_Weight3_}, m_BoneIndex0{m_BoneIndex0_}, m_BoneIndex1{m_BoneIndex1_}, m_BoneIndex2{m_BoneIndex2_}, m_BoneIndex3{m_BoneIndex3_} {}
+    constexpr BoneWeight(float m_Weight0_ = {}, float m_Weight1_ = {}, float m_Weight2_ = {}, float m_Weight3_ = {}, int m_BoneIndex0_ = {}, int m_BoneIndex1_ = {}, int m_BoneIndex2_ = {}, int m_BoneIndex3_ = {}) noexcept : m_Weight0{m_Weight0_}, m_Weight1{m_Weight1_}, m_Weight2{m_Weight2_}, m_Weight3{m_Weight3_}, m_BoneIndex0{m_BoneIndex0_}, m_BoneIndex1{m_BoneIndex1_}, m_BoneIndex2{m_BoneIndex2_}, m_BoneIndex3{m_BoneIndex3_} {}
     // public System.Single get_weight0()
     // Offset: 0xA4565C
     float get_weight0();

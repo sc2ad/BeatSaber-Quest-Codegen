@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     ::Il2CppString* localizedDescription;
     // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const {
+    constexpr operator ::Il2CppString*() const noexcept {
       return localizedDescription;
     }
     // static field const value: static private System.String kBrowsingMenusRichPresenceLocalizationKey

@@ -31,7 +31,7 @@ namespace System::IO {
     // Offset: 0x20
     int64_t LastWriteTime;
     // Creating value type constructor for type: MonoIOStat
-    constexpr MonoIOStat(System::IO::FileAttributes fileAttributes_ = {}, int64_t Length_ = {}, int64_t CreationTime_ = {}, int64_t LastAccessTime_ = {}, int64_t LastWriteTime_ = {}) : fileAttributes{fileAttributes_}, Length{Length_}, CreationTime{CreationTime_}, LastAccessTime{LastAccessTime_}, LastWriteTime{LastWriteTime_} {}
+    constexpr MonoIOStat(System::IO::FileAttributes fileAttributes_ = {}, int64_t Length_ = {}, int64_t CreationTime_ = {}, int64_t LastAccessTime_ = {}, int64_t LastWriteTime_ = {}) noexcept : fileAttributes{fileAttributes_}, Length{Length_}, CreationTime{CreationTime_}, LastAccessTime{LastAccessTime_}, LastWriteTime{LastWriteTime_} {}
   }; // System.IO.MonoIOStat
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

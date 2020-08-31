@@ -47,7 +47,7 @@ namespace System::Runtime::CompilerServices {
       // Offset: 0x0
       bool m_continueOnCapturedContext;
       // Creating value type constructor for type: ConfiguredTaskAwaiter
-      constexpr ConfiguredTaskAwaiter(System::Threading::Tasks::Task_1<TResult>* m_task_ = {}, bool m_continueOnCapturedContext_ = {}) : m_task{m_task_}, m_continueOnCapturedContext{m_continueOnCapturedContext_} {}
+      constexpr ConfiguredTaskAwaiter(System::Threading::Tasks::Task_1<TResult>* m_task_ = {}, bool m_continueOnCapturedContext_ = {}) noexcept : m_task{m_task_}, m_continueOnCapturedContext{m_continueOnCapturedContext_} {}
       // System.Void .ctor(System.Threading.Tasks.Task`1<TResult> task, System.Boolean continueOnCapturedContext)
       // Offset: 0xFFFFFFFF
       static typename ConfiguredTaskAwaitable_1<TResult>::ConfiguredTaskAwaiter* New_ctor(System::Threading::Tasks::Task_1<TResult>* task, bool continueOnCapturedContext) {
@@ -75,9 +75,9 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x0
     typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<TResult>::ConfiguredTaskAwaiter m_configuredTaskAwaiter;
     // Creating value type constructor for type: ConfiguredTaskAwaitable_1
-    constexpr ConfiguredTaskAwaitable_1(typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<TResult>::ConfiguredTaskAwaiter m_configuredTaskAwaiter_ = {}) : m_configuredTaskAwaiter{m_configuredTaskAwaiter_} {}
+    constexpr ConfiguredTaskAwaitable_1(typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<TResult>::ConfiguredTaskAwaiter m_configuredTaskAwaiter_ = {}) noexcept : m_configuredTaskAwaiter{m_configuredTaskAwaiter_} {}
     // Creating conversion operator: operator typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<TResult>::ConfiguredTaskAwaiter
-    constexpr operator typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<TResult>::ConfiguredTaskAwaiter() const {
+    constexpr operator typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<TResult>::ConfiguredTaskAwaiter() const noexcept {
       return m_configuredTaskAwaiter;
     }
     // System.Void .ctor(System.Threading.Tasks.Task`1<TResult> task, System.Boolean continueOnCapturedContext)

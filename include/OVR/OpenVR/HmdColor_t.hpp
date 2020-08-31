@@ -25,7 +25,7 @@ namespace OVR::OpenVR {
     // Offset: 0xC
     float a;
     // Creating value type constructor for type: HmdColor_t
-    constexpr HmdColor_t(float r_ = {}, float g_ = {}, float b_ = {}, float a_ = {}) : r{r_}, g{g_}, b{b_}, a{a_} {}
+    constexpr HmdColor_t(float r_ = {}, float g_ = {}, float b_ = {}, float a_ = {}) noexcept : r{r_}, g{g_}, b{b_}, a{a_} {}
   }; // OVR.OpenVR.HmdColor_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

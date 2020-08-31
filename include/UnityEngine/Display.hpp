@@ -26,7 +26,7 @@ namespace UnityEngine {
     // Offset: 0x10
     System::IntPtr nativeDisplay;
     // Creating conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const {
+    constexpr operator System::IntPtr() const noexcept {
       return nativeDisplay;
     }
     // Get static field: static public UnityEngine.Display[] displays

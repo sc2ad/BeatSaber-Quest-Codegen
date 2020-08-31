@@ -18,9 +18,9 @@ namespace UnityEngine::Animations {
     // Offset: 0x0
     System::IntPtr stream;
     // Creating value type constructor for type: AnimationHumanStream
-    constexpr AnimationHumanStream(System::IntPtr stream_ = {}) : stream{stream_} {}
+    constexpr AnimationHumanStream(System::IntPtr stream_ = {}) noexcept : stream{stream_} {}
     // Creating conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const {
+    constexpr operator System::IntPtr() const noexcept {
       return stream;
     }
   }; // UnityEngine.Animations.AnimationHumanStream

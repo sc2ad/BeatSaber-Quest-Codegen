@@ -17,9 +17,9 @@ namespace Valve::VR {
     // Offset: 0x0
     int value;
     // Creating value type constructor for type: EVREye
-    constexpr EVREye(int value_ = {}) : value{value_} {}
+    constexpr EVREye(int value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return value;
     }
     // static field const value: static public Valve.VR.EVREye Eye_Left

@@ -36,9 +36,9 @@ namespace Zenject {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: BindTypes
-      constexpr BindTypes(int value_ = {}) : value{value_} {}
+      constexpr BindTypes(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public Zenject.ZenjectBinding/BindTypes Self
@@ -85,7 +85,7 @@ namespace Zenject {
     // Offset: 0x38
     Zenject::ZenjectBinding::BindTypes bindType;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_UseSceneContext()
     // Offset: 0x19439A4
     bool get_UseSceneContext();

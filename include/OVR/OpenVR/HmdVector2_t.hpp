@@ -19,7 +19,7 @@ namespace OVR::OpenVR {
     // Offset: 0x4
     float v1;
     // Creating value type constructor for type: HmdVector2_t
-    constexpr HmdVector2_t(float v0_ = {}, float v1_ = {}) : v0{v0_}, v1{v1_} {}
+    constexpr HmdVector2_t(float v0_ = {}, float v1_ = {}) noexcept : v0{v0_}, v1{v1_} {}
   }; // OVR.OpenVR.HmdVector2_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

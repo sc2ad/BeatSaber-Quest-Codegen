@@ -17,7 +17,7 @@ namespace System::Reflection {
     // Offset: 0x10
     ::Il2CppString* m_configuration;
     // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const {
+    constexpr operator ::Il2CppString*() const noexcept {
       return m_configuration;
     }
     // public System.Void .ctor(System.String configuration)

@@ -15,7 +15,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x10
     int m_ErrorCode;
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return m_ErrorCode;
     }
   }; // System.Runtime.InteropServices.ErrorWrapper

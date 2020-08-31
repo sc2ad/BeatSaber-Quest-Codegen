@@ -24,7 +24,7 @@ namespace System::Security::Principal {
     // Offset: 0x28
     System::Security::Principal::WindowsIdentity* identity;
     // Creating conversion operator: operator System::Security::Principal::WindowsIdentity*
-    constexpr operator System::Security::Principal::WindowsIdentity*() const {
+    constexpr operator System::Security::Principal::WindowsIdentity*() const noexcept {
       return identity;
     }
     // public System.Void .ctor(System.Security.Principal.WindowsIdentity ntIdentity)

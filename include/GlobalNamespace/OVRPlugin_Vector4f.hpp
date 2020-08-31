@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     // Offset: 0xC
     float w;
     // Creating value type constructor for type: Vector4f
-    constexpr Vector4f(float x_ = {}, float y_ = {}, float z_ = {}, float w_ = {}) : x{x_}, y{y_}, z{z_}, w{w_} {}
+    constexpr Vector4f(float x_ = {}, float y_ = {}, float z_ = {}, float w_ = {}) noexcept : x{x_}, y{y_}, z{z_}, w{w_} {}
     // Get static field: static public readonly OVRPlugin/Vector4f zero
     static GlobalNamespace::OVRPlugin::Vector4f _get_zero();
     // Set static field: static public readonly OVRPlugin/Vector4f zero

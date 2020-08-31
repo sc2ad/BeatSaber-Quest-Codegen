@@ -82,7 +82,7 @@ namespace GlobalNamespace {
     // Offset: 0x60
     System::Action_1<GlobalNamespace::FireworkItemController*>* didFinishEvent;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didFinishEvent(System.Action`1<FireworkItemController> value)
     // Offset: 0xBEE0B4
     void add_didFinishEvent(System::Action_1<GlobalNamespace::FireworkItemController*>* value);

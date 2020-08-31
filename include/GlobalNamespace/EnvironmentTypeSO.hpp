@@ -17,7 +17,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Il2CppString* typeNameLocalizationKey;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String get_typeNameLocalizationKey()
     // Offset: 0xBEB9D0
     ::Il2CppString* get_typeNameLocalizationKey();

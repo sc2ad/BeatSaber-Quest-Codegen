@@ -30,7 +30,7 @@ namespace VRUIControls {
     // Offset: 0x10
     System::Collections::Generic::List_1<VRUIControls::ButtonState*>* trackedButtons;
     // Creating conversion operator: operator System::Collections::Generic::List_1<VRUIControls::ButtonState*>*
-    constexpr operator System::Collections::Generic::List_1<VRUIControls::ButtonState*>*() const {
+    constexpr operator System::Collections::Generic::List_1<VRUIControls::ButtonState*>*() const noexcept {
       return trackedButtons;
     }
     // public System.Boolean AnyPressesThisFrame()

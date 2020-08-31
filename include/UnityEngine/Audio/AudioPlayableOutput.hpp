@@ -37,9 +37,9 @@ namespace UnityEngine::Audio {
     // Offset: 0x0
     UnityEngine::Playables::PlayableOutputHandle m_Handle;
     // Creating value type constructor for type: AudioPlayableOutput
-    constexpr AudioPlayableOutput(UnityEngine::Playables::PlayableOutputHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
+    constexpr AudioPlayableOutput(UnityEngine::Playables::PlayableOutputHandle m_Handle_ = {}) noexcept : m_Handle{m_Handle_} {}
     // Creating conversion operator: operator UnityEngine::Playables::PlayableOutputHandle
-    constexpr operator UnityEngine::Playables::PlayableOutputHandle() const {
+    constexpr operator UnityEngine::Playables::PlayableOutputHandle() const noexcept {
       return m_Handle;
     }
     // static public UnityEngine.Audio.AudioPlayableOutput Create(UnityEngine.Playables.PlayableGraph graph, System.String name, UnityEngine.AudioSource target)

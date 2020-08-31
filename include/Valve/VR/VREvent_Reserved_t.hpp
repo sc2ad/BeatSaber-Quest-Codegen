@@ -20,7 +20,7 @@ namespace Valve::VR {
     // Offset: 0x8
     uint64_t reserved1;
     // Creating value type constructor for type: VREvent_Reserved_t
-    constexpr VREvent_Reserved_t(uint64_t reserved0_ = {}, uint64_t reserved1_ = {}) : reserved0{reserved0_}, reserved1{reserved1_} {}
+    constexpr VREvent_Reserved_t(uint64_t reserved0_ = {}, uint64_t reserved1_ = {}) noexcept : reserved0{reserved0_}, reserved1{reserved1_} {}
   }; // Valve.VR.VREvent_Reserved_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -17,9 +17,9 @@ namespace System {
     // Offset: 0x0
     int8_t value;
     // Creating value type constructor for type: SByteEnum
-    constexpr SByteEnum(int8_t value_ = {}) : value{value_} {}
+    constexpr SByteEnum(int8_t value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator int8_t
-    constexpr operator int8_t() const {
+    constexpr operator int8_t() const noexcept {
       return value;
     }
   }; // System.SByteEnum

@@ -47,9 +47,9 @@ namespace System {
     // Offset: 0x0
     int m_value;
     // Creating value type constructor for type: Int32
-    constexpr Int32(int m_value_ = {}) : m_value{m_value_} {}
+    constexpr Int32(int m_value_ = {}) noexcept : m_value{m_value_} {}
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return m_value;
     }
     // static field const value: static public System.Int32 MaxValue

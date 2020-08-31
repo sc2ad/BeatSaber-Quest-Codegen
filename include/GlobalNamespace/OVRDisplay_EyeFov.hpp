@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     // Offset: 0xC
     float RightFov;
     // Creating value type constructor for type: EyeFov
-    constexpr EyeFov(float UpFov_ = {}, float DownFov_ = {}, float LeftFov_ = {}, float RightFov_ = {}) : UpFov{UpFov_}, DownFov{DownFov_}, LeftFov{LeftFov_}, RightFov{RightFov_} {}
+    constexpr EyeFov(float UpFov_ = {}, float DownFov_ = {}, float LeftFov_ = {}, float RightFov_ = {}) noexcept : UpFov{UpFov_}, DownFov{DownFov_}, LeftFov{LeftFov_}, RightFov{RightFov_} {}
   }; // OVRDisplay/EyeFov
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,9 +16,9 @@ namespace Valve::VR {
     // Offset: 0x0
     float progress;
     // Creating value type constructor for type: VREvent_ScreenshotProgress_t
-    constexpr VREvent_ScreenshotProgress_t(float progress_ = {}) : progress{progress_} {}
+    constexpr VREvent_ScreenshotProgress_t(float progress_ = {}) noexcept : progress{progress_} {}
     // Creating conversion operator: operator float
-    constexpr operator float() const {
+    constexpr operator float() const noexcept {
       return progress;
     }
   }; // Valve.VR.VREvent_ScreenshotProgress_t

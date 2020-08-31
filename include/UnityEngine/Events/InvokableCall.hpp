@@ -29,7 +29,7 @@ namespace UnityEngine::Events {
     // Offset: 0x10
     UnityEngine::Events::UnityAction* Delegate;
     // Creating conversion operator: operator UnityEngine::Events::UnityAction*
-    constexpr operator UnityEngine::Events::UnityAction*() const {
+    constexpr operator UnityEngine::Events::UnityAction*() const noexcept {
       return Delegate;
     }
     // private System.Void add_Delegate(UnityEngine.Events.UnityAction value)

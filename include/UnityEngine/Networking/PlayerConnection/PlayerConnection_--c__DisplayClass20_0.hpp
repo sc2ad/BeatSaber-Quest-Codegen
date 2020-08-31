@@ -24,7 +24,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Offset: 0x10
     bool msgReceived;
     // Creating conversion operator: operator bool
-    constexpr operator bool() const {
+    constexpr operator bool() const noexcept {
       return msgReceived;
     }
     // System.Void <BlockUntilRecvMsg>b__0(UnityEngine.Networking.PlayerConnection.MessageEventArgs args)

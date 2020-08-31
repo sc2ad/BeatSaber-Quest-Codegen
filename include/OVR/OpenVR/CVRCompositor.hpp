@@ -54,7 +54,7 @@ namespace OVR::OpenVR {
     // Offset: 0x10
     OVR::OpenVR::IVRCompositor FnTable;
     // Creating conversion operator: operator OVR::OpenVR::IVRCompositor
-    constexpr operator OVR::OpenVR::IVRCompositor() const {
+    constexpr operator OVR::OpenVR::IVRCompositor() const noexcept {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)

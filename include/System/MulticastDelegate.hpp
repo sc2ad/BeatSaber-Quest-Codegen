@@ -31,7 +31,7 @@ namespace System {
     // Offset: 0x68
     ::Array<System::Delegate*>* delegates;
     // Creating conversion operator: operator ::Array<System::Delegate*>*
-    constexpr operator ::Array<System::Delegate*>*() const {
+    constexpr operator ::Array<System::Delegate*>*() const noexcept {
       return delegates;
     }
     // private System.Int32 LastIndexOf(System.Delegate[] haystack, System.Delegate[] needle)

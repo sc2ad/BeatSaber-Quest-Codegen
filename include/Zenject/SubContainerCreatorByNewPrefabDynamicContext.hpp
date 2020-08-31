@@ -36,7 +36,7 @@ namespace Zenject {
     // Offset: 0x20
     Zenject::GameObjectCreationParameters* gameObjectBindInfo;
     // Deleting conversion operator: operator Zenject::DiContainer*
-    constexpr operator Zenject::DiContainer*() const = delete;
+    constexpr operator Zenject::DiContainer*() const noexcept = delete;
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.IPrefabProvider prefabProvider, Zenject.GameObjectCreationParameters gameObjectBindInfo)
     // Offset: 0xFD2774
     static SubContainerCreatorByNewPrefabDynamicContext* New_ctor(Zenject::DiContainer* container, Zenject::IPrefabProvider* prefabProvider, Zenject::GameObjectCreationParameters* gameObjectBindInfo);

@@ -34,7 +34,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0x10
     System::Type* type;
     // Creating conversion operator: operator System::Type*
-    constexpr operator System::Type*() const {
+    constexpr operator System::Type*() const noexcept {
       return type;
     }
     // System.Reflection.MemberInfo[] <GetSerializableMembers>b__0(System.Runtime.Serialization.MemberHolder _)

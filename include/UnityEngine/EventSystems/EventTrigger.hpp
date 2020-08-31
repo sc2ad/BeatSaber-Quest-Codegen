@@ -74,7 +74,7 @@ namespace UnityEngine::EventSystems {
     // Offset: 0x18
     System::Collections::Generic::List_1<UnityEngine::EventSystems::EventTrigger::Entry*>* m_Delegates;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry> get_delegates()
     // Offset: 0xDFD2E4
     System::Collections::Generic::List_1<UnityEngine::EventSystems::EventTrigger::Entry*>* get_delegates();

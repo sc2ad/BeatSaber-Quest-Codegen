@@ -44,7 +44,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Offset: 0x58
     NUnit::Framework::Internal::Commands::TestCommand* command;
     // Creating conversion operator: operator NUnit::Framework::Internal::Commands::TestCommand*
-    constexpr operator NUnit::Framework::Internal::Commands::TestCommand*() const {
+    constexpr operator NUnit::Framework::Internal::Commands::TestCommand*() const noexcept {
       return command;
     }
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod test, NUnit.Framework.Interfaces.ITestFilter filter)

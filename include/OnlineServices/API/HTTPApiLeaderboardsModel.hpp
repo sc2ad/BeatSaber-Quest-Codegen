@@ -60,7 +60,7 @@ namespace OnlineServices::API {
     // Offset: 0x10
     OnlineServices::API::HTTPLeaderboardsOathHelper* httpLeaderboardsOathHelper;
     // Creating conversion operator: operator OnlineServices::API::HTTPLeaderboardsOathHelper*
-    constexpr operator OnlineServices::API::HTTPLeaderboardsOathHelper*() const {
+    constexpr operator OnlineServices::API::HTTPLeaderboardsOathHelper*() const noexcept {
       return httpLeaderboardsOathHelper;
     }
     // static field const value: static private System.String kSendLevelScoreResultPath

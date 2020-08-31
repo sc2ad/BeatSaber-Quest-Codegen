@@ -36,7 +36,7 @@ namespace Zenject {
     // Offset: 0x10
     UnityEngine::GameObject* gameObject;
     // Creating conversion operator: operator UnityEngine::GameObject*
-    constexpr operator UnityEngine::GameObject*() const {
+    constexpr operator UnityEngine::GameObject*() const noexcept {
       return gameObject;
     }
     // Zenject.IProvider <FromComponentOn>b__0(Zenject.DiContainer container, System.Type type)

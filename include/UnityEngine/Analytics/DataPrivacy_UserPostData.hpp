@@ -43,7 +43,7 @@ namespace UnityEngine::Analytics {
     // Offset: 0x40
     ::Il2CppString* plugin_ver;
     // Creating value type constructor for type: UserPostData
-    constexpr UserPostData(::Il2CppString* appid_ = {}, ::Il2CppString* userid_ = {}, int64_t sessionid_ = {}, ::Il2CppString* platform_ = {}, uint platformid_ = {}, ::Il2CppString* sdk_ver_ = {}, bool debug_device_ = {}, ::Il2CppString* deviceid_ = {}, ::Il2CppString* plugin_ver_ = {}) : appid{appid_}, userid{userid_}, sessionid{sessionid_}, platform{platform_}, platformid{platformid_}, sdk_ver{sdk_ver_}, debug_device{debug_device_}, deviceid{deviceid_}, plugin_ver{plugin_ver_} {}
+    constexpr UserPostData(::Il2CppString* appid_ = {}, ::Il2CppString* userid_ = {}, int64_t sessionid_ = {}, ::Il2CppString* platform_ = {}, uint platformid_ = {}, ::Il2CppString* sdk_ver_ = {}, bool debug_device_ = {}, ::Il2CppString* deviceid_ = {}, ::Il2CppString* plugin_ver_ = {}) noexcept : appid{appid_}, userid{userid_}, sessionid{sessionid_}, platform{platform_}, platformid{platformid_}, sdk_ver{sdk_ver_}, debug_device{debug_device_}, deviceid{deviceid_}, plugin_ver{plugin_ver_} {}
   }; // UnityEngine.Analytics.DataPrivacy/UserPostData
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

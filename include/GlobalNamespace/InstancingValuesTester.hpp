@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Offset: 0x30
     ::Array<GlobalNamespace::InstancingValuesTester::PropertyNameColorValuePair*>* colors;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
     // Offset: 0x1829700
     void Start();

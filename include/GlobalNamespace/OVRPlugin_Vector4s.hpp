@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     // Offset: 0x6
     int16_t w;
     // Creating value type constructor for type: Vector4s
-    constexpr Vector4s(int16_t x_ = {}, int16_t y_ = {}, int16_t z_ = {}, int16_t w_ = {}) : x{x_}, y{y_}, z{z_}, w{w_} {}
+    constexpr Vector4s(int16_t x_ = {}, int16_t y_ = {}, int16_t z_ = {}, int16_t w_ = {}) noexcept : x{x_}, y{y_}, z{z_}, w{w_} {}
     // Get static field: static public readonly OVRPlugin/Vector4s zero
     static GlobalNamespace::OVRPlugin::Vector4s _get_zero();
     // Set static field: static public readonly OVRPlugin/Vector4s zero

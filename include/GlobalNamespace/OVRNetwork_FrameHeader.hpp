@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     // Offset: 0x8
     int payloadLength;
     // Creating value type constructor for type: FrameHeader
-    constexpr FrameHeader(uint protocolIdentifier_ = {}, int payloadType_ = {}, int payloadLength_ = {}) : protocolIdentifier{protocolIdentifier_}, payloadType{payloadType_}, payloadLength{payloadLength_} {}
+    constexpr FrameHeader(uint protocolIdentifier_ = {}, int payloadType_ = {}, int payloadLength_ = {}) noexcept : protocolIdentifier{protocolIdentifier_}, payloadType{payloadType_}, payloadLength{payloadLength_} {}
     // static field const value: static public System.Int32 StructSize
     static constexpr const int StructSize = 12;
     // Get static field: static public System.Int32 StructSize

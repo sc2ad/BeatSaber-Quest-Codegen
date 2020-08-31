@@ -29,7 +29,7 @@ namespace OVR::OpenVR {
     // Offset: 0x10
     OVR::OpenVR::IVRExtendedDisplay FnTable;
     // Creating conversion operator: operator OVR::OpenVR::IVRExtendedDisplay
-    constexpr operator OVR::OpenVR::IVRExtendedDisplay() const {
+    constexpr operator OVR::OpenVR::IVRExtendedDisplay() const noexcept {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)

@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     System::Action* event;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void add__event(System.Action value)
     // Offset: 0xCBCAC0
     void add__event(System::Action* value);

@@ -22,9 +22,9 @@ namespace UnityEngine::Experimental::Playables {
     // Offset: 0x0
     UnityEngine::Playables::PlayableHandle m_Handle;
     // Creating value type constructor for type: MaterialEffectPlayable
-    constexpr MaterialEffectPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
+    constexpr MaterialEffectPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) noexcept : m_Handle{m_Handle_} {}
     // Creating conversion operator: operator UnityEngine::Playables::PlayableHandle
-    constexpr operator UnityEngine::Playables::PlayableHandle() const {
+    constexpr operator UnityEngine::Playables::PlayableHandle() const noexcept {
       return m_Handle;
     }
     // public UnityEngine.Playables.PlayableHandle GetHandle()

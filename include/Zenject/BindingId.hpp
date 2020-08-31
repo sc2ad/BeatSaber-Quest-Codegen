@@ -32,7 +32,7 @@ namespace Zenject {
     // Offset: 0x8
     ::Il2CppObject* identifier;
     // Creating value type constructor for type: BindingId
-    constexpr BindingId(System::Type* type_ = {}, ::Il2CppObject* identifier_ = {}) : type{type_}, identifier{identifier_} {}
+    constexpr BindingId(System::Type* type_ = {}, ::Il2CppObject* identifier_ = {}) noexcept : type{type_}, identifier{identifier_} {}
     // public System.Void .ctor(System.Type type, System.Object identifier)
     // Offset: 0xA2FCBC
     static BindingId* New_ctor(System::Type* type, ::Il2CppObject* identifier);

@@ -25,7 +25,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x10
     System::Diagnostics::Tracing::EtwSession* etwSession;
     // Creating conversion operator: operator System::Diagnostics::Tracing::EtwSession*
-    constexpr operator System::Diagnostics::Tracing::EtwSession*() const {
+    constexpr operator System::Diagnostics::Tracing::EtwSession*() const noexcept {
       return etwSession;
     }
     // System.Boolean <RemoveEtwSession>b__0(System.WeakReference`1<System.Diagnostics.Tracing.EtwSession> wrEtwSession)

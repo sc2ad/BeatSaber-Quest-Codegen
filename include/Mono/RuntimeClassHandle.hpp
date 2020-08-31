@@ -28,9 +28,9 @@ namespace Mono {
     // Offset: 0x0
     Mono::RuntimeStructs::MonoClass* value;
     // Creating value type constructor for type: RuntimeClassHandle
-    constexpr RuntimeClassHandle(Mono::RuntimeStructs::MonoClass* value_ = {}) : value{value_} {}
+    constexpr RuntimeClassHandle(Mono::RuntimeStructs::MonoClass* value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator Mono::RuntimeStructs::MonoClass*
-    constexpr operator Mono::RuntimeStructs::MonoClass*() const {
+    constexpr operator Mono::RuntimeStructs::MonoClass*() const noexcept {
       return value;
     }
     // System.Void .ctor(Mono.RuntimeStructs/MonoClass* value)

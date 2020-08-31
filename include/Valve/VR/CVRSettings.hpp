@@ -34,7 +34,7 @@ namespace Valve::VR {
     // Offset: 0x10
     Valve::VR::IVRSettings FnTable;
     // Creating conversion operator: operator Valve::VR::IVRSettings
-    constexpr operator Valve::VR::IVRSettings() const {
+    constexpr operator Valve::VR::IVRSettings() const noexcept {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)

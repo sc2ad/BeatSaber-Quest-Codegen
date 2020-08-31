@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::BloomPrePassEffectSO* bloomPrePassEffect;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public BloomPrePassEffectSO get_bloomPrePassEffect()
     // Offset: 0x18265CC
     GlobalNamespace::BloomPrePassEffectSO* get_bloomPrePassEffect();

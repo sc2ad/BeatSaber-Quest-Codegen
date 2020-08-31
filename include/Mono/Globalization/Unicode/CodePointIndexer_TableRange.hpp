@@ -31,7 +31,7 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0x10
     int IndexEnd;
     // Creating value type constructor for type: TableRange
-    constexpr TableRange(int Start_ = {}, int End_ = {}, int Count_ = {}, int IndexStart_ = {}, int IndexEnd_ = {}) : Start{Start_}, End{End_}, Count{Count_}, IndexStart{IndexStart_}, IndexEnd{IndexEnd_} {}
+    constexpr TableRange(int Start_ = {}, int End_ = {}, int Count_ = {}, int IndexStart_ = {}, int IndexEnd_ = {}) noexcept : Start{Start_}, End{End_}, Count{Count_}, IndexStart{IndexStart_}, IndexEnd{IndexEnd_} {}
     // public System.Void .ctor(System.Int32 start, System.Int32 end, System.Int32 indexStart)
     // Offset: 0xA4069C
     static CodePointIndexer::TableRange* New_ctor(int start, int end, int indexStart);

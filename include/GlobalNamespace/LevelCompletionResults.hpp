@@ -37,9 +37,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: LevelEndStateType
-      constexpr LevelEndStateType(int value_ = {}) : value{value_} {}
+      constexpr LevelEndStateType(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public LevelCompletionResults/LevelEndStateType None
@@ -68,9 +68,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: LevelEndAction
-      constexpr LevelEndAction(int value_ = {}) : value{value_} {}
+      constexpr LevelEndAction(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public LevelCompletionResults/LevelEndAction None

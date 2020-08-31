@@ -50,7 +50,7 @@ namespace UnityEngine::Playables {
     // Offset: 0x8
     uint m_Version;
     // Creating value type constructor for type: PlayableHandle
-    constexpr PlayableHandle(System::IntPtr m_Handle_ = {}, uint m_Version_ = {}) : m_Handle{m_Handle_}, m_Version{m_Version_} {}
+    constexpr PlayableHandle(System::IntPtr m_Handle_ = {}, uint m_Version_ = {}) noexcept : m_Handle{m_Handle_}, m_Version{m_Version_} {}
     // Get static field: static private readonly UnityEngine.Playables.PlayableHandle m_Null
     static UnityEngine::Playables::PlayableHandle _get_m_Null();
     // Set static field: static private readonly UnityEngine.Playables.PlayableHandle m_Null

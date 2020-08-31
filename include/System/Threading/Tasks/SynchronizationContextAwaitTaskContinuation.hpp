@@ -42,7 +42,7 @@ namespace System::Threading::Tasks {
     // Offset: 0x20
     System::Threading::SynchronizationContext* m_syncContext;
     // Creating conversion operator: operator System::Threading::SynchronizationContext*
-    constexpr operator System::Threading::SynchronizationContext*() const {
+    constexpr operator System::Threading::SynchronizationContext*() const noexcept {
       return m_syncContext;
     }
     // Get static field: static private readonly System.Threading.SendOrPostCallback s_postCallback

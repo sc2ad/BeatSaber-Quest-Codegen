@@ -26,7 +26,7 @@ namespace System::Runtime::Remoting::Activation {
     // Offset: 0x10
     System::Runtime::Remoting::Activation::IActivator* m_NextActivator;
     // Creating conversion operator: operator System::Runtime::Remoting::Activation::IActivator*
-    constexpr operator System::Runtime::Remoting::Activation::IActivator*() const {
+    constexpr operator System::Runtime::Remoting::Activation::IActivator*() const noexcept {
       return m_NextActivator;
     }
     // public System.Void .ctor(System.Runtime.Remoting.Activation.IActivator next)

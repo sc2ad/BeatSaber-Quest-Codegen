@@ -69,7 +69,7 @@ namespace GlobalNamespace {
     // Offset: 0x48
     HMUI::ButtonBinder* buttonBinder;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kMaxNumberOfCells
     static constexpr const int kMaxNumberOfCells = 10;
     // Get static field: static private System.Int32 kMaxNumberOfCells

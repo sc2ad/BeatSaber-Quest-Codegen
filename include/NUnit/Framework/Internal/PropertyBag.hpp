@@ -38,7 +38,7 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x10
     System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::IList*>* inner;
     // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::IList*>*
-    constexpr operator System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::IList*>*() const {
+    constexpr operator System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::IList*>*() const noexcept {
       return inner;
     }
     // public System.Void Add(System.String key, System.Object value)

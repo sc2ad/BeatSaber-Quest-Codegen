@@ -30,7 +30,7 @@ namespace Oculus::Platform {
     // Offset: 0x18
     uint criterionArrayCount;
     // Creating value type constructor for type: ovrMatchmakingCustomQueryData
-    constexpr ovrMatchmakingCustomQueryData(System::IntPtr dataArray_ = {}, uint dataArrayCount_ = {}, System::IntPtr criterionArray_ = {}, uint criterionArrayCount_ = {}) : dataArray{dataArray_}, dataArrayCount{dataArrayCount_}, criterionArray{criterionArray_}, criterionArrayCount{criterionArrayCount_} {}
+    constexpr ovrMatchmakingCustomQueryData(System::IntPtr dataArray_ = {}, uint dataArrayCount_ = {}, System::IntPtr criterionArray_ = {}, uint criterionArrayCount_ = {}) noexcept : dataArray{dataArray_}, dataArrayCount{dataArrayCount_}, criterionArray{criterionArray_}, criterionArrayCount{criterionArrayCount_} {}
   }; // Oculus.Platform.CAPI/ovrMatchmakingCustomQueryData
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

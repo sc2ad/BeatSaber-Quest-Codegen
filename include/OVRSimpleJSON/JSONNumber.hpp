@@ -31,7 +31,7 @@ namespace OVRSimpleJSON {
     // Offset: 0x10
     double m_Data;
     // Creating conversion operator: operator double
-    constexpr operator double() const {
+    constexpr operator double() const noexcept {
       return m_Data;
     }
     // public System.Void .ctor(System.Double aData)

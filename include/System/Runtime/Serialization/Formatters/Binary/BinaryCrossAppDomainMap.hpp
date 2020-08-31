@@ -22,7 +22,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x10
     int crossAppDomainArrayIndex;
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return crossAppDomainArrayIndex;
     }
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)

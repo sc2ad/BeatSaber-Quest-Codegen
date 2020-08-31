@@ -35,7 +35,7 @@ namespace Zenject {
     // Offset: 0x10
     Zenject::IFixedTickable* tickable;
     // Creating conversion operator: operator Zenject::IFixedTickable*
-    constexpr operator Zenject::IFixedTickable*() const {
+    constexpr operator Zenject::IFixedTickable*() const noexcept {
       return tickable;
     }
     // System.Boolean <InitFixedTickables>b__1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)

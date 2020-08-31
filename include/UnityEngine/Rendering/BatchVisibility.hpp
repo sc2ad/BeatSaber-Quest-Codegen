@@ -22,7 +22,7 @@ namespace UnityEngine::Rendering {
     // Offset: 0x8
     int visibleCount;
     // Creating value type constructor for type: BatchVisibility
-    constexpr BatchVisibility(int offset_ = {}, int instancesCount_ = {}, int visibleCount_ = {}) : offset{offset_}, instancesCount{instancesCount_}, visibleCount{visibleCount_} {}
+    constexpr BatchVisibility(int offset_ = {}, int instancesCount_ = {}, int visibleCount_ = {}) noexcept : offset{offset_}, instancesCount{instancesCount_}, visibleCount{visibleCount_} {}
   }; // UnityEngine.Rendering.BatchVisibility
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

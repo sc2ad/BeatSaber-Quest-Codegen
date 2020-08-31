@@ -41,7 +41,7 @@ namespace Zenject {
     // Offset: 0x0
     System::Guid poolId;
     // Creating conversion operator: operator System::Guid
-    constexpr operator System::Guid() const {
+    constexpr operator System::Guid() const noexcept {
       return poolId;
     }
     // Zenject.IProvider <FromPoolableMemoryPool>b__0(Zenject.DiContainer container)

@@ -28,7 +28,7 @@ namespace NUnit::Framework {
     // Offset: 0x10
     System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* parameters;
     // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*
-    constexpr operator System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*() const {
+    constexpr operator System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*() const noexcept {
       return parameters;
     }
     // Get static field: static private readonly System.IFormatProvider MODIFIED_INVARIANT_CULTURE

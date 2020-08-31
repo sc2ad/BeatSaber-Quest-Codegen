@@ -22,7 +22,7 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x10
     System::WeakReference* ref;
     // Creating conversion operator: operator System::WeakReference*
-    constexpr operator System::WeakReference*() const {
+    constexpr operator System::WeakReference*() const noexcept {
       return ref;
     }
     // public System.Void .ctor()

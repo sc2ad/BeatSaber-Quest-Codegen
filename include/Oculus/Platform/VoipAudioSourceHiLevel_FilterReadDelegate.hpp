@@ -22,7 +22,7 @@ namespace Oculus::Platform {
     // Offset: 0x20
     ::Array<float>* scratchBuffer;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Awake()
     // Offset: 0x196CB80
     void Awake();

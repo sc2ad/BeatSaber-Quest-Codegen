@@ -17,7 +17,7 @@ namespace OnlineServices::API {
     // Offset: 0x10
     bool everythingOK;
     // Creating conversion operator: operator bool
-    constexpr operator bool() const {
+    constexpr operator bool() const noexcept {
       return everythingOK;
     }
     // public System.Void .ctor()

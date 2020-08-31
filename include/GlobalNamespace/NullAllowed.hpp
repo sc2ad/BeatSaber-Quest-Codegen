@@ -30,9 +30,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: Context
-      constexpr Context(int value_ = {}) : value{value_} {}
+      constexpr Context(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public NullAllowed/Context Everywhere
@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     GlobalNamespace::NullAllowed::Context context;
     // Creating conversion operator: operator GlobalNamespace::NullAllowed::Context
-    constexpr operator GlobalNamespace::NullAllowed::Context() const {
+    constexpr operator GlobalNamespace::NullAllowed::Context() const noexcept {
       return context;
     }
     // public NullAllowed/Context get_context()

@@ -31,7 +31,7 @@ namespace System::Globalization {
     // Offset: 0x98
     System::Nullable_1<int> m_invalidCultureId;
     // Deleting conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const = delete;
+    constexpr operator ::Il2CppString*() const noexcept = delete;
     // public System.Void .ctor(System.String paramName, System.String invalidCultureName, System.String message)
     // Offset: 0x12BB924
     static CultureNotFoundException* New_ctor(::Il2CppString* paramName, ::Il2CppString* invalidCultureName, ::Il2CppString* message);

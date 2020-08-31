@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Offset: 0x3C
     GlobalNamespace::RankModel::Rank prevImmediateRank;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
     // Offset: 0xB45190
     void Start();

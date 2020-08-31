@@ -36,7 +36,7 @@ namespace Zenject {
     // Offset: 0x0
     UnityEngine::Transform* originalParent;
     // Creating conversion operator: operator UnityEngine::Transform*
-    constexpr operator UnityEngine::Transform*() const {
+    constexpr operator UnityEngine::Transform*() const noexcept {
       return originalParent;
     }
     // protected System.Void OnCreated(TValue item)

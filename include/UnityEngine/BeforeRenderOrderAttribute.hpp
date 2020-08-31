@@ -17,7 +17,7 @@ namespace UnityEngine {
     // Offset: 0x10
     int order;
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return order;
     }
     // public System.Int32 get_order()

@@ -42,7 +42,7 @@ namespace System::Collections::ObjectModel {
     // Offset: 0x0
     System::Collections::Generic::IList_1<T>* items;
     // Creating conversion operator: operator System::Collections::Generic::IList_1<T>*
-    constexpr operator System::Collections::Generic::IList_1<T>*() const {
+    constexpr operator System::Collections::Generic::IList_1<T>*() const noexcept {
       return items;
     }
     // protected System.Void ClearItems()

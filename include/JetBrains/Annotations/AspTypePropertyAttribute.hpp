@@ -17,7 +17,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x10
     bool CreateConstructorReferences;
     // Creating conversion operator: operator bool
-    constexpr operator bool() const {
+    constexpr operator bool() const noexcept {
       return CreateConstructorReferences;
     }
     // public System.Boolean get_CreateConstructorReferences()

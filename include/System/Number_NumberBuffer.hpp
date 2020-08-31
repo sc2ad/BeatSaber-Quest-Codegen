@@ -31,7 +31,7 @@ namespace System {
     // Offset: 0x18
     bool sign;
     // Creating value type constructor for type: NumberBuffer
-    constexpr NumberBuffer(uint8_t* baseAddress_ = {}, ::Il2CppChar* digits_ = {}, int precision_ = {}, int scale_ = {}, bool sign_ = {}) : baseAddress{baseAddress_}, digits{digits_}, precision{precision_}, scale{scale_}, sign{sign_} {}
+    constexpr NumberBuffer(uint8_t* baseAddress_ = {}, ::Il2CppChar* digits_ = {}, int precision_ = {}, int scale_ = {}, bool sign_ = {}) noexcept : baseAddress{baseAddress_}, digits{digits_}, precision{precision_}, scale{scale_}, sign{sign_} {}
     // Get static field: static public readonly System.Int32 NumberBufferBytes
     static int _get_NumberBufferBytes();
     // Set static field: static public readonly System.Int32 NumberBufferBytes

@@ -30,9 +30,9 @@ namespace UnityEngine::Timeline {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: UseEditMode
-      constexpr UseEditMode(int value_ = {}) : value{value_} {}
+      constexpr UseEditMode(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public UnityEngine.Timeline.TimeFieldAttribute/UseEditMode None
@@ -52,7 +52,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x10
     UnityEngine::Timeline::TimeFieldAttribute::UseEditMode useEditMode;
     // Creating conversion operator: operator UnityEngine::Timeline::TimeFieldAttribute::UseEditMode
-    constexpr operator UnityEngine::Timeline::TimeFieldAttribute::UseEditMode() const {
+    constexpr operator UnityEngine::Timeline::TimeFieldAttribute::UseEditMode() const noexcept {
       return useEditMode;
     }
     // public UnityEngine.Timeline.TimeFieldAttribute/UseEditMode get_useEditMode()

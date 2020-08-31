@@ -25,7 +25,7 @@ namespace System::Collections {
     // Offset: 0x10
     int hash_coll;
     // Creating value type constructor for type: bucket
-    constexpr bucket(::Il2CppObject* key_ = {}, ::Il2CppObject* val_ = {}, int hash_coll_ = {}) : key{key_}, val{val_}, hash_coll{hash_coll_} {}
+    constexpr bucket(::Il2CppObject* key_ = {}, ::Il2CppObject* val_ = {}, int hash_coll_ = {}) noexcept : key{key_}, val{val_}, hash_coll{hash_coll_} {}
   }; // System.Collections.Hashtable/bucket
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

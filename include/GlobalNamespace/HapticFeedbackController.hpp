@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Offset: 0x30
     int continousRumbleIntervalCounter;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kContinuesRumbleImpulseStrength
     static constexpr const float kContinuesRumbleImpulseStrength = 1;
     // Get static field: static private System.Single kContinuesRumbleImpulseStrength

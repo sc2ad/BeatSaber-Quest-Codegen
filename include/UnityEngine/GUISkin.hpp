@@ -116,7 +116,7 @@ namespace UnityEngine {
     // Offset: 0xE0
     System::Collections::Generic::Dictionary_2<::Il2CppString*, UnityEngine::GUIStyle*>* m_Styles;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static UnityEngine.GUIStyle ms_Error
     static UnityEngine::GUIStyle* _get_ms_Error();
     // Set static field: static UnityEngine.GUIStyle ms_Error

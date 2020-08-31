@@ -21,7 +21,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Offset: 0x10
     System::Guid messageId;
     // Creating conversion operator: operator System::Guid
-    constexpr operator System::Guid() const {
+    constexpr operator System::Guid() const noexcept {
       return messageId;
     }
     // System.Boolean <Register>b__0(UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageTypeSubscribers x)

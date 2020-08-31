@@ -26,7 +26,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x88
     ::Il2CppObject* m_wrappedException;
     // Creating conversion operator: operator ::Il2CppObject*
-    constexpr operator ::Il2CppObject*() const {
+    constexpr operator ::Il2CppObject*() const noexcept {
       return m_wrappedException;
     }
     // private System.Void .ctor(System.Object thrownObject)

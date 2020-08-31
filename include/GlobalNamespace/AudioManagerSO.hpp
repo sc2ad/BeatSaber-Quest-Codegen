@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Offset: 0x30
     bool sfxEnabled;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.String kMSHRTFSpatializerPluginName
     static constexpr const char* kMSHRTFSpatializerPluginName = "MS HRTF Spatializer";
     // Get static field: static private System.String kMSHRTFSpatializerPluginName

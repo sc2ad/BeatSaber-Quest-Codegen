@@ -30,7 +30,7 @@ namespace Zenject {
     // Offset: 0x18
     System::Collections::Generic::List_1<Zenject::IAnimatorMoveHandler*>* handlers;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Construct(System.Collections.Generic.List`1<Zenject.IAnimatorMoveHandler> handlers)
     // Offset: 0xD683F0
     void Construct(System::Collections::Generic::List_1<Zenject::IAnimatorMoveHandler*>* handlers);

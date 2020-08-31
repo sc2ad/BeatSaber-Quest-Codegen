@@ -25,7 +25,7 @@ namespace UnityEngine {
     // Offset: 0x10
     System::Func_1<bool>* m_Predicate;
     // Creating conversion operator: operator System::Func_1<bool>*
-    constexpr operator System::Func_1<bool>*() const {
+    constexpr operator System::Func_1<bool>*() const noexcept {
       return m_Predicate;
     }
     // public System.Void .ctor(System.Func`1<System.Boolean> predicate)

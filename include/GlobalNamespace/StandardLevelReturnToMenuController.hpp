@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void ReturnToMenu()
     // Offset: 0xBA5CE8
     // Implemented from: IReturnToMenuController

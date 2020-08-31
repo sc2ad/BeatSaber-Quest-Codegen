@@ -30,7 +30,7 @@ namespace Zenject {
     // Offset: 0x10
     System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>* parents;
     // Creating conversion operator: operator System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>*
-    constexpr operator System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>*() const {
+    constexpr operator System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>*() const noexcept {
       return parents;
     }
     // System.Boolean <Install>b__0(Zenject.DiContainer x)

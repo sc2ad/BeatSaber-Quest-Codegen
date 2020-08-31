@@ -27,7 +27,7 @@ namespace System {
     // Offset: 0x8
     int num;
     // Creating value type constructor for type: DateTimeToken
-    constexpr DateTimeToken(System::DateTimeParse::DTT dtt_ = {}, System::TokenType suffix_ = {}, int num_ = {}) : dtt{dtt_}, suffix{suffix_}, num{num_} {}
+    constexpr DateTimeToken(System::DateTimeParse::DTT dtt_ = {}, System::TokenType suffix_ = {}, int num_ = {}) noexcept : dtt{dtt_}, suffix{suffix_}, num{num_} {}
   }; // System.DateTimeToken
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

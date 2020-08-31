@@ -36,7 +36,7 @@ namespace GlobalNamespace {
       // Offset: 0x4
       float time;
       // Creating value type constructor for type: AverageValueData
-      constexpr AverageValueData(float value_ = {}, float time_ = {}) : value{value_}, time{time_} {}
+      constexpr AverageValueData(float value_ = {}, float time_ = {}) noexcept : value{value_}, time{time_} {}
       // public System.Single get_value()
       // Offset: 0xA2BE10
       float get_value();

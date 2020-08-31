@@ -28,7 +28,7 @@ namespace System::Threading::Tasks {
     // Offset: 0x0
     System::Threading::Tasks::Task_1<TResult>* m_task;
     // Creating conversion operator: operator System::Threading::Tasks::Task_1<TResult>*
-    constexpr operator System::Threading::Tasks::Task_1<TResult>*() const {
+    constexpr operator System::Threading::Tasks::Task_1<TResult>*() const noexcept {
       return m_task;
     }
     // public System.Threading.Tasks.Task`1<TResult> get_Task()

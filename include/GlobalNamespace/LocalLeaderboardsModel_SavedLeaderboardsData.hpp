@@ -25,7 +25,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>* leaderboardsData;
     // Creating conversion operator: operator System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>*
-    constexpr operator System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>*() const {
+    constexpr operator System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>*() const noexcept {
       return leaderboardsData;
     }
     // public System.Void .ctor()

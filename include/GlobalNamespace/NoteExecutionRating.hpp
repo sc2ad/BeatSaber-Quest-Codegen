@@ -28,9 +28,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: Rating
-      constexpr Rating(int value_ = {}) : value{value_} {}
+      constexpr Rating(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public NoteExecutionRating/Rating GoodCut

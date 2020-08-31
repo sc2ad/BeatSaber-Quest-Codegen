@@ -77,9 +77,9 @@ namespace UnityEngine::UI {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: Type
-      constexpr Type(int value_ = {}) : value{value_} {}
+      constexpr Type(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public UnityEngine.UI.Image/Type Simple
@@ -114,9 +114,9 @@ namespace UnityEngine::UI {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: FillMethod
-      constexpr FillMethod(int value_ = {}) : value{value_} {}
+      constexpr FillMethod(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public UnityEngine.UI.Image/FillMethod Horizontal

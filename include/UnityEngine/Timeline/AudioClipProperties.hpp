@@ -17,7 +17,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x10
     float volume;
     // Creating conversion operator: operator float
-    constexpr operator float() const {
+    constexpr operator float() const noexcept {
       return volume;
     }
     // public System.Void .ctor()

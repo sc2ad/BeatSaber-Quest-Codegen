@@ -18,9 +18,9 @@ namespace OVR::OpenVR {
     // Offset: 0x0
     System::IntPtr m_pSettings;
     // Creating value type constructor for type: CVRSettingHelper
-    constexpr CVRSettingHelper(System::IntPtr m_pSettings_ = {}) : m_pSettings{m_pSettings_} {}
+    constexpr CVRSettingHelper(System::IntPtr m_pSettings_ = {}) noexcept : m_pSettings{m_pSettings_} {}
     // Creating conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const {
+    constexpr operator System::IntPtr() const noexcept {
       return m_pSettings;
     }
   }; // OVR.OpenVR.CVRSettingHelper

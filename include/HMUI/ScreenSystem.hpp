@@ -73,7 +73,7 @@ namespace HMUI {
     // Offset: 0x68
     HMUI::ButtonBinder* buttonBinder;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public HMUI.TitleViewController get_titleViewController()
     // Offset: 0x10E1140
     HMUI::TitleViewController* get_titleViewController();

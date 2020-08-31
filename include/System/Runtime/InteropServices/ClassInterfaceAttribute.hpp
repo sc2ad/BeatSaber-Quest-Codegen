@@ -19,7 +19,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x10
     System::Runtime::InteropServices::ClassInterfaceType val;
     // Creating conversion operator: operator System::Runtime::InteropServices::ClassInterfaceType
-    constexpr operator System::Runtime::InteropServices::ClassInterfaceType() const {
+    constexpr operator System::Runtime::InteropServices::ClassInterfaceType() const noexcept {
       return val;
     }
     // public System.Void .ctor(System.Runtime.InteropServices.ClassInterfaceType classInterfaceType)

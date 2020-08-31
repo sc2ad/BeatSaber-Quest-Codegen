@@ -94,7 +94,7 @@ namespace Xft {
     // Offset: 0x88
     int frameNum;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Vector3 get_curHeadPos()
     // Offset: 0xC57D58
     UnityEngine::Vector3 get_curHeadPos();

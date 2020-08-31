@@ -38,7 +38,7 @@ namespace UnityEngine {
       // Offset: 0x8
       UnityEngine::Events::UnityAction* callback;
       // Creating value type constructor for type: OrderBlock
-      constexpr OrderBlock(int order_ = {}, UnityEngine::Events::UnityAction* callback_ = {}) : order{order_}, callback{callback_} {}
+      constexpr OrderBlock(int order_ = {}, UnityEngine::Events::UnityAction* callback_ = {}) noexcept : order{order_}, callback{callback_} {}
     }; // UnityEngine.BeforeRenderHelper/OrderBlock
     // Get static field: static private System.Collections.Generic.List`1<UnityEngine.BeforeRenderHelper/OrderBlock> s_OrderBlocks
     static System::Collections::Generic::List_1<UnityEngine::BeforeRenderHelper::OrderBlock>* _get_s_OrderBlocks();

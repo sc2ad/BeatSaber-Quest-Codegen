@@ -41,7 +41,7 @@ namespace OnlineServices {
     // Offset: 0x10
     System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>* platformServicesAvailabilityInfoChangedEvent;
     // Creating conversion operator: operator System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*
-    constexpr operator System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*() const {
+    constexpr operator System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*() const noexcept {
       return platformServicesAvailabilityInfoChangedEvent;
     }
     // public System.Void add_platformServicesAvailabilityInfoChangedEvent(System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> value)

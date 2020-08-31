@@ -36,9 +36,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: OpMode
-      constexpr OpMode(int value_ = {}) : value{value_} {}
+      constexpr OpMode(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public OVRHeadsetEmulator/OpMode Off
@@ -94,7 +94,7 @@ namespace GlobalNamespace {
     // Offset: 0x55
     bool emulatorHasInitialized;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single MOUSE_SCALE_X
     static constexpr const float MOUSE_SCALE_X = -2;
     // Get static field: static private System.Single MOUSE_SCALE_X

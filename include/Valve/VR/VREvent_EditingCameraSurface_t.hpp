@@ -20,7 +20,7 @@ namespace Valve::VR {
     // Offset: 0x8
     uint nVisualMode;
     // Creating value type constructor for type: VREvent_EditingCameraSurface_t
-    constexpr VREvent_EditingCameraSurface_t(uint64_t overlayHandle_ = {}, uint nVisualMode_ = {}) : overlayHandle{overlayHandle_}, nVisualMode{nVisualMode_} {}
+    constexpr VREvent_EditingCameraSurface_t(uint64_t overlayHandle_ = {}, uint nVisualMode_ = {}) noexcept : overlayHandle{overlayHandle_}, nVisualMode{nVisualMode_} {}
   }; // Valve.VR.VREvent_EditingCameraSurface_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

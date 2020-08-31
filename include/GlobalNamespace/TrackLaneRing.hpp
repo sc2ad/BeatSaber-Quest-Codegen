@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Offset: 0x48
     UnityEngine::Transform* transform;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Single get_destRotZ()
     // Offset: 0xC46614
     float get_destRotZ();

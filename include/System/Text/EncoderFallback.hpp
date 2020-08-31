@@ -22,7 +22,7 @@ namespace System::Text {
     // Offset: 0x10
     bool bIsMicrosoftBestFitFallback;
     // Creating conversion operator: operator bool
-    constexpr operator bool() const {
+    constexpr operator bool() const noexcept {
       return bIsMicrosoftBestFitFallback;
     }
     // Get static field: static private System.Text.EncoderFallback replacementFallback

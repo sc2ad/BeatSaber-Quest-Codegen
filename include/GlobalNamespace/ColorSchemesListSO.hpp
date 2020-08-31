@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Array<GlobalNamespace::ColorSchemeSO*>* colorSchemes;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public ColorSchemeSO[] get_colorSchemes()
     // Offset: 0x1980DC0
     ::Array<GlobalNamespace::ColorSchemeSO*>* get_colorSchemes();

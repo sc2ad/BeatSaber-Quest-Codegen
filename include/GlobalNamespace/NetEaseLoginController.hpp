@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::NetEaseManager* netEaseManager;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Collections.IEnumerator Start()
     // Offset: 0xC12D18
     System::Collections::IEnumerator* Start();

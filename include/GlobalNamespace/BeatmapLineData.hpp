@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     ::Array<GlobalNamespace::BeatmapObjectData*>* beatmapObjectsData;
     // Creating conversion operator: operator ::Array<GlobalNamespace::BeatmapObjectData*>*
-    constexpr operator ::Array<GlobalNamespace::BeatmapObjectData*>*() const {
+    constexpr operator ::Array<GlobalNamespace::BeatmapObjectData*>*() const noexcept {
       return beatmapObjectsData;
     }
     // public System.Void .ctor()

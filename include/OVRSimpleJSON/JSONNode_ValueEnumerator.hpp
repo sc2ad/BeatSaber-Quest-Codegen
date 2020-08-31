@@ -21,9 +21,9 @@ namespace OVRSimpleJSON {
     // Offset: 0x0
     OVRSimpleJSON::JSONNode::Enumerator m_Enumerator;
     // Creating value type constructor for type: ValueEnumerator
-    constexpr ValueEnumerator(OVRSimpleJSON::JSONNode::Enumerator m_Enumerator_ = {}) : m_Enumerator{m_Enumerator_} {}
+    constexpr ValueEnumerator(OVRSimpleJSON::JSONNode::Enumerator m_Enumerator_ = {}) noexcept : m_Enumerator{m_Enumerator_} {}
     // Creating conversion operator: operator OVRSimpleJSON::JSONNode::Enumerator
-    constexpr operator OVRSimpleJSON::JSONNode::Enumerator() const {
+    constexpr operator OVRSimpleJSON::JSONNode::Enumerator() const noexcept {
       return m_Enumerator;
     }
     // public System.Void .ctor(System.Collections.Generic.List`1/Enumerator<OVRSimpleJSON.JSONNode> aArrayEnum)

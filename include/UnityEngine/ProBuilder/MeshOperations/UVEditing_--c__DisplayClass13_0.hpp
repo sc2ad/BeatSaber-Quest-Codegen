@@ -25,7 +25,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0x10
     int b;
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return b;
     }
     // System.Boolean <SewUVs>b__0(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> x)

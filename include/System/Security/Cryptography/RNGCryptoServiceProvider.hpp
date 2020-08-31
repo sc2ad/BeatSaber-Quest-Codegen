@@ -19,7 +19,7 @@ namespace System::Security::Cryptography {
     // Offset: 0x10
     System::IntPtr handle;
     // Creating conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const {
+    constexpr operator System::IntPtr() const noexcept {
       return handle;
     }
     // Get static field: static private System.Object _lock

@@ -25,7 +25,7 @@ namespace System::Threading {
     // Offset: 0x0
     bool ThreadContextChanged;
     // Creating value type constructor for type: AsyncLocalValueChangedArgs_1
-    constexpr AsyncLocalValueChangedArgs_1(T PreviousValue_ = {}, T CurrentValue_ = {}, bool ThreadContextChanged_ = {}) : PreviousValue{PreviousValue_}, CurrentValue{CurrentValue_}, ThreadContextChanged{ThreadContextChanged_} {}
+    constexpr AsyncLocalValueChangedArgs_1(T PreviousValue_ = {}, T CurrentValue_ = {}, bool ThreadContextChanged_ = {}) noexcept : PreviousValue{PreviousValue_}, CurrentValue{CurrentValue_}, ThreadContextChanged{ThreadContextChanged_} {}
     // public T get_PreviousValue()
     // Offset: 0xFFFFFFFF
     T get_PreviousValue() {

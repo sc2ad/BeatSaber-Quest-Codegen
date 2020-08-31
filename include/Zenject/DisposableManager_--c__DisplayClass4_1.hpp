@@ -35,7 +35,7 @@ namespace Zenject {
     // Offset: 0x10
     Zenject::ILateDisposable* lateDisposable;
     // Creating conversion operator: operator Zenject::ILateDisposable*
-    constexpr operator Zenject::ILateDisposable*() const {
+    constexpr operator Zenject::ILateDisposable*() const noexcept {
       return lateDisposable;
     }
     // System.Boolean <.ctor>b__2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)

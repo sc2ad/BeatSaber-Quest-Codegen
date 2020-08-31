@@ -17,9 +17,9 @@ namespace System::Xml {
     // Offset: 0x0
     ::Array<uint8_t>* charProperties;
     // Creating value type constructor for type: XmlCharType
-    constexpr XmlCharType(::Array<uint8_t>* charProperties_ = {}) : charProperties{charProperties_} {}
+    constexpr XmlCharType(::Array<uint8_t>* charProperties_ = {}) noexcept : charProperties{charProperties_} {}
     // Creating conversion operator: operator ::Array<uint8_t>*
-    constexpr operator ::Array<uint8_t>*() const {
+    constexpr operator ::Array<uint8_t>*() const noexcept {
       return charProperties;
     }
     // Get static field: static private System.Object s_Lock

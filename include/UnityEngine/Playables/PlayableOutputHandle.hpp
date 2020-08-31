@@ -49,7 +49,7 @@ namespace UnityEngine::Playables {
     // Offset: 0x8
     uint m_Version;
     // Creating value type constructor for type: PlayableOutputHandle
-    constexpr PlayableOutputHandle(System::IntPtr m_Handle_ = {}, uint m_Version_ = {}) : m_Handle{m_Handle_}, m_Version{m_Version_} {}
+    constexpr PlayableOutputHandle(System::IntPtr m_Handle_ = {}, uint m_Version_ = {}) noexcept : m_Handle{m_Handle_}, m_Version{m_Version_} {}
     // Get static field: static private readonly UnityEngine.Playables.PlayableOutputHandle m_Null
     static UnityEngine::Playables::PlayableOutputHandle _get_m_Null();
     // Set static field: static private readonly UnityEngine.Playables.PlayableOutputHandle m_Null

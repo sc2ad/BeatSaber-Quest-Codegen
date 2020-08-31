@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     float intensity;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static public System.Int32 kMaxLights
     static constexpr const int kMaxLights = 5;
     // Get static field: static public System.Int32 kMaxLights

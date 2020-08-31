@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     // Offset: 0x48
     HMUI::ButtonBinder* buttonBinder;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_interactable(System.Boolean value)
     // Offset: 0xBDED84
     void set_interactable(bool value);

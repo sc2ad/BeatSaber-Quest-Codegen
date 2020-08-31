@@ -19,9 +19,9 @@ namespace System {
     // Offset: 0x0
     int value;
     // Creating value type constructor for type: TM
-    constexpr TM(int value_ = {}) : value{value_} {}
+    constexpr TM(int value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return value;
     }
     // static field const value: static public System.DateTimeParse/TM NotSet

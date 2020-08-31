@@ -51,7 +51,7 @@ namespace OnlineServices::API {
     // Offset: 0x38
     System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__1;
     // Creating value type constructor for type: $SendLevelScoreResultAsync$d__6
-    constexpr $SendLevelScoreResultAsync$d__6(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<OnlineServices::API::Response> $$t__builder_ = {}, OnlineServices::API::HTTPApiLeaderboardsModel* $$4__this_ = {}, LeaderboardsDTO::LevelScoreResultDTO* levelScoreResultDto_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, levelScoreResultDto{levelScoreResultDto_}, cancellationToken{cancellationToken_}, $$u__1{$$u__1_} {}
+    constexpr $SendLevelScoreResultAsync$d__6(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<OnlineServices::API::Response> $$t__builder_ = {}, OnlineServices::API::HTTPApiLeaderboardsModel* $$4__this_ = {}, LeaderboardsDTO::LevelScoreResultDTO* levelScoreResultDto_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, levelScoreResultDto{levelScoreResultDto_}, cancellationToken{cancellationToken_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
     // Offset: 0xA2C988
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine

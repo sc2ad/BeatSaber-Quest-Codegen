@@ -37,7 +37,7 @@ namespace HMUI {
     // Offset: 0x20
     HMUI::HoverHint* hoverHint;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_sprite(UnityEngine.Sprite value)
     // Offset: 0xEE94BC
     void set_sprite(UnityEngine::Sprite* value);

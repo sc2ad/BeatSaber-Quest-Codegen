@@ -29,7 +29,7 @@ namespace UnityEngine::TestRunner::Utils {
     // Offset: 0x10
     NUnit::Framework::Interfaces::ITestResult* result;
     // Creating conversion operator: operator NUnit::Framework::Interfaces::ITestResult*
-    constexpr operator NUnit::Framework::Interfaces::ITestResult*() const {
+    constexpr operator NUnit::Framework::Interfaces::ITestResult*() const noexcept {
       return result;
     }
     // System.Void <TestFinished>b__0(UnityEngine.TestRunner.ITestRunCallback callback)

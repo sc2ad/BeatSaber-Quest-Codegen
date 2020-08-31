@@ -25,7 +25,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     float Radius;
     // Creating value type constructor for type: BoneCapsule
-    constexpr BoneCapsule(int16_t BoneIndex_ = {}, ::Array<GlobalNamespace::OVRPlugin::Vector3f>* Points_ = {}, float Radius_ = {}) : BoneIndex{BoneIndex_}, Points{Points_}, Radius{Radius_} {}
+    constexpr BoneCapsule(int16_t BoneIndex_ = {}, ::Array<GlobalNamespace::OVRPlugin::Vector3f>* Points_ = {}, float Radius_ = {}) noexcept : BoneIndex{BoneIndex_}, Points{Points_}, Radius{Radius_} {}
   }; // OVRPlugin/BoneCapsule
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

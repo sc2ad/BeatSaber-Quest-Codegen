@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     System::Action_1<::Il2CppString*>* scoreForLeaderboardDidUploadEvent;
     // Creating conversion operator: operator System::Action_1<::Il2CppString*>*
-    constexpr operator System::Action_1<::Il2CppString*>*() const {
+    constexpr operator System::Action_1<::Il2CppString*>*() const noexcept {
       return scoreForLeaderboardDidUploadEvent;
     }
     // public System.Void add_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)

@@ -24,7 +24,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x10
     System::Type* val;
     // Creating conversion operator: operator System::Type*
-    constexpr operator System::Type*() const {
+    constexpr operator System::Type*() const noexcept {
       return val;
     }
     // public System.Void .ctor(System.Type defaultInterface)

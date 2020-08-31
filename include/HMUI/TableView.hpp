@@ -85,9 +85,9 @@ namespace HMUI {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: TableType
-      constexpr TableType(int value_ = {}) : value{value_} {}
+      constexpr TableType(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public HMUI.TableView/TableType Vertical
@@ -173,7 +173,7 @@ namespace HMUI {
     // Offset: 0xB0
     bool refreshScrollButtonsIsScheduled;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_selectionType(HMUI.TableViewSelectionType value)
     // Offset: 0x10E6E28
     void set_selectionType(HMUI::TableViewSelectionType value);

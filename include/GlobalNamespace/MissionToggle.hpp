@@ -110,7 +110,7 @@ namespace GlobalNamespace {
     // Offset: 0xA3
     bool missionCleared;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_selectionDidChangeEvent(System.Action`1<MissionToggle> value)
     // Offset: 0xC0A630
     void add_selectionDidChangeEvent(System::Action_1<GlobalNamespace::MissionToggle*>* value);

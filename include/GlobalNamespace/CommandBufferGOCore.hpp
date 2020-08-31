@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::Mesh* mesh;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private UnityEngine.Material _material
     static UnityEngine::Material* _get__material();
     // Set static field: static private UnityEngine.Material _material

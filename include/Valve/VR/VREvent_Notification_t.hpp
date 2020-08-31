@@ -20,7 +20,7 @@ namespace Valve::VR {
     // Offset: 0x8
     uint notificationId;
     // Creating value type constructor for type: VREvent_Notification_t
-    constexpr VREvent_Notification_t(uint64_t ulUserValue_ = {}, uint notificationId_ = {}) : ulUserValue{ulUserValue_}, notificationId{notificationId_} {}
+    constexpr VREvent_Notification_t(uint64_t ulUserValue_ = {}, uint notificationId_ = {}) noexcept : ulUserValue{ulUserValue_}, notificationId{notificationId_} {}
   }; // Valve.VR.VREvent_Notification_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

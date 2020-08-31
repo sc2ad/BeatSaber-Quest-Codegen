@@ -24,7 +24,7 @@ namespace Zenject {
     // Offset: 0x10
     ::Il2CppString* prefix;
     // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const {
+    constexpr operator ::Il2CppString*() const noexcept {
       return prefix;
     }
     // System.Boolean <WithPrefix>b__0(System.Type t)

@@ -56,7 +56,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x10
     ::Array<int>* m_Vertices;
     // Creating conversion operator: operator ::Array<int>*
-    constexpr operator ::Array<int>*() const {
+    constexpr operator ::Array<int>*() const noexcept {
       return m_Vertices;
     }
     // System.Int32[] get_arrayInternal()

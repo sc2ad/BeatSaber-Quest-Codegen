@@ -45,7 +45,7 @@ namespace HMUI {
     // Offset: 0x38
     UnityEngine::AnimationCurve* parentAlphaAnimationCurve;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void ExecuteAnimation(UnityEngine.GameObject go)
     // Offset: 0x10DF86C
     void ExecuteAnimation(UnityEngine::GameObject* go);

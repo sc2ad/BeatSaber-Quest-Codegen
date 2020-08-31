@@ -42,9 +42,9 @@ namespace UnityEngine::UI::CoroutineTween {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: ColorTweenMode
-      constexpr ColorTweenMode(int value_ = {}) : value{value_} {}
+      constexpr ColorTweenMode(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public UnityEngine.UI.CoroutineTween.ColorTween/ColorTweenMode All
@@ -85,7 +85,7 @@ namespace UnityEngine::UI::CoroutineTween {
     // Offset: 0x30
     bool m_IgnoreTimeScale;
     // Creating value type constructor for type: ColorTween
-    constexpr ColorTween(UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenCallback* m_Target_ = {}, UnityEngine::Color m_StartColor_ = {}, UnityEngine::Color m_TargetColor_ = {}, UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenMode m_TweenMode_ = {}, float m_Duration_ = {}, bool m_IgnoreTimeScale_ = {}) : m_Target{m_Target_}, m_StartColor{m_StartColor_}, m_TargetColor{m_TargetColor_}, m_TweenMode{m_TweenMode_}, m_Duration{m_Duration_}, m_IgnoreTimeScale{m_IgnoreTimeScale_} {}
+    constexpr ColorTween(UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenCallback* m_Target_ = {}, UnityEngine::Color m_StartColor_ = {}, UnityEngine::Color m_TargetColor_ = {}, UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenMode m_TweenMode_ = {}, float m_Duration_ = {}, bool m_IgnoreTimeScale_ = {}) noexcept : m_Target{m_Target_}, m_StartColor{m_StartColor_}, m_TargetColor{m_TargetColor_}, m_TweenMode{m_TweenMode_}, m_Duration{m_Duration_}, m_IgnoreTimeScale{m_IgnoreTimeScale_} {}
     // public UnityEngine.Color get_startColor()
     // Offset: 0xA32C94
     UnityEngine::Color get_startColor();

@@ -17,9 +17,9 @@ namespace UnityEngine {
     // Offset: 0x0
     int value;
     // Creating value type constructor for type: EventType
-    constexpr EventType(int value_ = {}) : value{value_} {}
+    constexpr EventType(int value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return value;
     }
     // static field const value: static public UnityEngine.EventType MouseDown

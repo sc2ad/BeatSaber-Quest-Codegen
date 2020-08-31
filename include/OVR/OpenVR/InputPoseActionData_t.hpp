@@ -25,7 +25,7 @@ namespace OVR::OpenVR {
     // Offset: 0x10
     OVR::OpenVR::TrackedDevicePose_t pose;
     // Creating value type constructor for type: InputPoseActionData_t
-    constexpr InputPoseActionData_t(bool bActive_ = {}, uint64_t activeOrigin_ = {}, OVR::OpenVR::TrackedDevicePose_t pose_ = {}) : bActive{bActive_}, activeOrigin{activeOrigin_}, pose{pose_} {}
+    constexpr InputPoseActionData_t(bool bActive_ = {}, uint64_t activeOrigin_ = {}, OVR::OpenVR::TrackedDevicePose_t pose_ = {}) noexcept : bActive{bActive_}, activeOrigin{activeOrigin_}, pose{pose_} {}
   }; // OVR.OpenVR.InputPoseActionData_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

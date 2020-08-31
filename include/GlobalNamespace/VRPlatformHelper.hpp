@@ -61,9 +61,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: VRPlatformSDK
-      constexpr VRPlatformSDK(int value_ = {}) : value{value_} {}
+      constexpr VRPlatformSDK(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public VRPlatformHelper/VRPlatformSDK OpenVR
@@ -92,9 +92,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: XRDeviceModel
-      constexpr XRDeviceModel(int value_ = {}) : value{value_} {}
+      constexpr XRDeviceModel(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public VRPlatformHelper/XRDeviceModel Unknown
@@ -165,7 +165,7 @@ namespace GlobalNamespace {
     // Offset: 0x68
     System::Collections::Generic::List_1<UnityEngine::XR::XRNodeState>* nodeStates;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_inputFocusWasCapturedEvent(System.Action value)
     // Offset: 0xCBFA54
     void add_inputFocusWasCapturedEvent(System::Action* value);

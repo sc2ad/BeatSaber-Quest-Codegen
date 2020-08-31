@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     // Offset: 0x48
     bool initialized;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private readonly System.Int32 _vertexTransfromMatrixID
     static int _get__vertexTransfromMatrixID();
     // Set static field: static private readonly System.Int32 _vertexTransfromMatrixID

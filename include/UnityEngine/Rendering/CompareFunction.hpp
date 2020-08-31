@@ -17,9 +17,9 @@ namespace UnityEngine::Rendering {
     // Offset: 0x0
     int value;
     // Creating value type constructor for type: CompareFunction
-    constexpr CompareFunction(int value_ = {}) : value{value_} {}
+    constexpr CompareFunction(int value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return value;
     }
     // static field const value: static public UnityEngine.Rendering.CompareFunction Disabled

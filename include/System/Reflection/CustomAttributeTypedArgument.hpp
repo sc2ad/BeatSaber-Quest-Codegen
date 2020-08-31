@@ -30,7 +30,7 @@ namespace System::Reflection {
     // Offset: 0x8
     ::Il2CppObject* value;
     // Creating value type constructor for type: CustomAttributeTypedArgument
-    constexpr CustomAttributeTypedArgument(System::Type* argumentType_ = {}, ::Il2CppObject* value_ = {}) : argumentType{argumentType_}, value{value_} {}
+    constexpr CustomAttributeTypedArgument(System::Type* argumentType_ = {}, ::Il2CppObject* value_ = {}) noexcept : argumentType{argumentType_}, value{value_} {}
     // public System.Void .ctor(System.Type argumentType, System.Object value)
     // Offset: 0xA46DE0
     static CustomAttributeTypedArgument* New_ctor(System::Type* argumentType, ::Il2CppObject* value);

@@ -35,7 +35,7 @@ namespace Zenject {
     // Offset: 0x10
     Zenject::IInitializable* initializable;
     // Creating conversion operator: operator Zenject::IInitializable*
-    constexpr operator Zenject::IInitializable*() const {
+    constexpr operator Zenject::IInitializable*() const noexcept {
       return initializable;
     }
     // System.Boolean <.ctor>b__0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)

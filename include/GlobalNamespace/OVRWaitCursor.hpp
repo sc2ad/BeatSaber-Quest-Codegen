@@ -17,7 +17,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::Vector3 rotateSpeeds;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Update()
     // Offset: 0x1900A78
     void Update();

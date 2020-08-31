@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::RectTransform* rectTransform;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Int32 get_minimumMissionsToUnlock()
     // Offset: 0xC0F054
     int get_minimumMissionsToUnlock();

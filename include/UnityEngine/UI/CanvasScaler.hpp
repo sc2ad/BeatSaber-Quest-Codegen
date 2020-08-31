@@ -43,9 +43,9 @@ namespace UnityEngine::UI {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: ScaleMode
-      constexpr ScaleMode(int value_ = {}) : value{value_} {}
+      constexpr ScaleMode(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public UnityEngine.UI.CanvasScaler/ScaleMode ConstantPixelSize
@@ -74,9 +74,9 @@ namespace UnityEngine::UI {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: ScreenMatchMode
-      constexpr ScreenMatchMode(int value_ = {}) : value{value_} {}
+      constexpr ScreenMatchMode(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public UnityEngine.UI.CanvasScaler/ScreenMatchMode MatchWidthOrHeight
@@ -105,9 +105,9 @@ namespace UnityEngine::UI {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: Unit
-      constexpr Unit(int value_ = {}) : value{value_} {}
+      constexpr Unit(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public UnityEngine.UI.CanvasScaler/Unit Centimeters
@@ -181,7 +181,7 @@ namespace UnityEngine::UI {
     // Offset: 0x54
     float m_PrevReferencePixelsPerUnit;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kLogBase
     static constexpr const float kLogBase = 2;
     // Get static field: static private System.Single kLogBase

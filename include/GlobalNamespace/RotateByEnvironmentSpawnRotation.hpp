@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::EnvironmentSpawnRotation* environmentSpawnRotation;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
     // Offset: 0xC22D90
     void Start();

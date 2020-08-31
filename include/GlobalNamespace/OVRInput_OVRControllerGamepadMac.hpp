@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Offset: 0x101
     bool initialized;
     // Creating conversion operator: operator bool
-    constexpr operator bool() const {
+    constexpr operator bool() const noexcept {
       return initialized;
     }
     // static field const value: static private System.String DllName

@@ -34,9 +34,9 @@ namespace UnityEngine::Scripting {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: Mode
-      constexpr Mode(int value_ = {}) : value{value_} {}
+      constexpr Mode(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public UnityEngine.Scripting.GarbageCollector/Mode Disabled

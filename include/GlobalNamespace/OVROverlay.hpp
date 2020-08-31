@@ -64,9 +64,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: OverlayShape
-      constexpr OverlayShape(int value_ = {}) : value{value_} {}
+      constexpr OverlayShape(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public OVROverlay/OverlayShape Quad
@@ -107,9 +107,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: OverlayType
-      constexpr OverlayType(int value_ = {}) : value{value_} {}
+      constexpr OverlayType(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public OVROverlay/OverlayType None
@@ -255,7 +255,7 @@ namespace GlobalNamespace {
     // Offset: 0x19C
     bool xrDeviceConstructed;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static System.Int32 maxInstances
     static constexpr const int maxInstances = 15;
     // Get static field: static System.Int32 maxInstances

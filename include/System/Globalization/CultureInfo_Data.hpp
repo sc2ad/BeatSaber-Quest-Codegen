@@ -34,7 +34,7 @@ namespace System::Globalization {
     // Offset: 0x11
     uint8_t list_sep;
     // Creating value type constructor for type: Data
-    constexpr Data(int ansi_ = {}, int ebcdic_ = {}, int mac_ = {}, int oem_ = {}, bool right_to_left_ = {}, uint8_t list_sep_ = {}) : ansi{ansi_}, ebcdic{ebcdic_}, mac{mac_}, oem{oem_}, right_to_left{right_to_left_}, list_sep{list_sep_} {}
+    constexpr Data(int ansi_ = {}, int ebcdic_ = {}, int mac_ = {}, int oem_ = {}, bool right_to_left_ = {}, uint8_t list_sep_ = {}) noexcept : ansi{ansi_}, ebcdic{ebcdic_}, mac{mac_}, oem{oem_}, right_to_left{right_to_left_}, list_sep{list_sep_} {}
   }; // System.Globalization.CultureInfo/Data
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

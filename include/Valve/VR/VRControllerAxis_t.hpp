@@ -19,7 +19,7 @@ namespace Valve::VR {
     // Offset: 0x4
     float y;
     // Creating value type constructor for type: VRControllerAxis_t
-    constexpr VRControllerAxis_t(float x_ = {}, float y_ = {}) : x{x_}, y{y_} {}
+    constexpr VRControllerAxis_t(float x_ = {}, float y_ = {}) noexcept : x{x_}, y{y_} {}
   }; // Valve.VR.VRControllerAxis_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

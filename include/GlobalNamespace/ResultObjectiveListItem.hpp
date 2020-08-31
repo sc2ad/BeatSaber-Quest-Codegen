@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Offset: 0x38
     TMPro::TextMeshProUGUI* valueText;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_iconColor(UnityEngine.Color value)
     // Offset: 0xC20F04
     void set_iconColor(UnityEngine::Color value);

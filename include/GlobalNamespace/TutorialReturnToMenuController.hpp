@@ -26,7 +26,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::TutorialScenesTransitionSetupDataSO* tutorialSceneSetupData;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void ReturnToMenu()
     // Offset: 0xC4A298
     // Implemented from: IReturnToMenuController

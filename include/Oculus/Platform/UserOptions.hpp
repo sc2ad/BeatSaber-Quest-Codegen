@@ -26,7 +26,7 @@ namespace Oculus::Platform {
     // Offset: 0x10
     System::IntPtr Handle;
     // Creating conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const {
+    constexpr operator System::IntPtr() const noexcept {
       return Handle;
     }
     // public System.Void SetMaxUsers(System.UInt32 value)

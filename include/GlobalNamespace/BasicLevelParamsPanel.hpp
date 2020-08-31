@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     TMPro::TextMeshProUGUI* bpmText;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_duration(System.Single value)
     // Offset: 0xB8BF58
     void set_duration(float value);

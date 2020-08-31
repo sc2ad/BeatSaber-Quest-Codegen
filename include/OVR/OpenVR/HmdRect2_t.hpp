@@ -21,7 +21,7 @@ namespace OVR::OpenVR {
     // Offset: 0x8
     OVR::OpenVR::HmdVector2_t vBottomRight;
     // Creating value type constructor for type: HmdRect2_t
-    constexpr HmdRect2_t(OVR::OpenVR::HmdVector2_t vTopLeft_ = {}, OVR::OpenVR::HmdVector2_t vBottomRight_ = {}) : vTopLeft{vTopLeft_}, vBottomRight{vBottomRight_} {}
+    constexpr HmdRect2_t(OVR::OpenVR::HmdVector2_t vTopLeft_ = {}, OVR::OpenVR::HmdVector2_t vBottomRight_ = {}) noexcept : vTopLeft{vTopLeft_}, vBottomRight{vBottomRight_} {}
   }; // OVR.OpenVR.HmdRect2_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -76,7 +76,7 @@ namespace Valve::VR {
     // Offset: 0x10
     Valve::VR::IVROverlay FnTable;
     // Creating conversion operator: operator Valve::VR::IVROverlay
-    constexpr operator Valve::VR::IVROverlay() const {
+    constexpr operator Valve::VR::IVROverlay() const noexcept {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)

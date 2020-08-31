@@ -40,7 +40,7 @@ namespace Valve::VR {
     // Offset: 0x10
     Valve::VR::IVRApplications FnTable;
     // Creating conversion operator: operator Valve::VR::IVRApplications
-    constexpr operator Valve::VR::IVRApplications() const {
+    constexpr operator Valve::VR::IVRApplications() const noexcept {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)

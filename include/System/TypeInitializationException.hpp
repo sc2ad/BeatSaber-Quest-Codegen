@@ -30,7 +30,7 @@ namespace System {
     // Offset: 0x88
     ::Il2CppString* typeName;
     // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const {
+    constexpr operator ::Il2CppString*() const noexcept {
       return typeName;
     }
     // public System.String get_TypeName()

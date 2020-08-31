@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     // Offset: 0x24
     UnityEngine::Quaternion offset;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void OnNewPosesApplied()
     // Offset: 0xD832C8
     void OnNewPosesApplied();

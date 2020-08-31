@@ -82,7 +82,7 @@ namespace UnityEngine::TestTools::TestRunner {
     // Offset: 0x50
     UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner* m_Runner;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static System.String kPlaymodeTestControllerName
     static constexpr const char* kPlaymodeTestControllerName = "Code-based tests runner";
     // Get static field: static System.String kPlaymodeTestControllerName

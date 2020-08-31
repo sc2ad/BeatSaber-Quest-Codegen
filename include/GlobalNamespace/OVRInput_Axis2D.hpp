@@ -19,9 +19,9 @@ namespace GlobalNamespace {
     // Offset: 0x0
     int value;
     // Creating value type constructor for type: Axis2D
-    constexpr Axis2D(int value_ = {}) : value{value_} {}
+    constexpr Axis2D(int value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return value;
     }
     // static field const value: static public OVRInput/Axis2D None

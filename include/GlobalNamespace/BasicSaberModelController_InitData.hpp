@@ -19,7 +19,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     UnityEngine::Color trailTintColor;
     // Creating conversion operator: operator UnityEngine::Color
-    constexpr operator UnityEngine::Color() const {
+    constexpr operator UnityEngine::Color() const noexcept {
       return trailTintColor;
     }
     // public System.Void .ctor(UnityEngine.Color trailTintColor)

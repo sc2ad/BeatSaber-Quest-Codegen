@@ -24,7 +24,7 @@ namespace System::Security::Cryptography {
     // Offset: 0x28
     System::Security::Cryptography::SHA1Internal* sha;
     // Creating conversion operator: operator System::Security::Cryptography::SHA1Internal*
-    constexpr operator System::Security::Cryptography::SHA1Internal*() const {
+    constexpr operator System::Security::Cryptography::SHA1Internal*() const noexcept {
       return sha;
     }
     // public System.Void .ctor()

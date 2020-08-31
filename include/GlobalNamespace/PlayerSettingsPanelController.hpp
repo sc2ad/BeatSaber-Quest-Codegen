@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     // Offset: 0x70
     HMUI::ToggleBinder* toggleBinder;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public PlayerSpecificSettings get_playerSpecificSettings()
     // Offset: 0xC1B70C
     GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();

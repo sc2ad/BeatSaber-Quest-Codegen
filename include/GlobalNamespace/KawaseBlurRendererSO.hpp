@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     // Offset: 0x60
     ::Array<UnityEngine::RenderTexture*>* blurTextures;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kMaxBloomIterations
     static constexpr const int kMaxBloomIterations = 5;
     // Get static field: static private System.Int32 kMaxBloomIterations

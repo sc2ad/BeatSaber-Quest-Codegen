@@ -82,7 +82,7 @@ namespace GlobalNamespace {
     // Offset: 0x173
     bool result_mesh_RH;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private System.String prevConnected
     static ::Il2CppString* _get_prevConnected();
     // Set static field: static private System.String prevConnected

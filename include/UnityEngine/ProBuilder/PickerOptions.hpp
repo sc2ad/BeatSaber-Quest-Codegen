@@ -22,7 +22,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x4
     UnityEngine::ProBuilder::RectSelectMode rectSelectMode;
     // Creating value type constructor for type: PickerOptions
-    constexpr PickerOptions(bool depthTest_ = {}, UnityEngine::ProBuilder::RectSelectMode rectSelectMode_ = {}) : depthTest{depthTest_}, rectSelectMode{rectSelectMode_} {}
+    constexpr PickerOptions(bool depthTest_ = {}, UnityEngine::ProBuilder::RectSelectMode rectSelectMode_ = {}) noexcept : depthTest{depthTest_}, rectSelectMode{rectSelectMode_} {}
     // Get static field: static private readonly UnityEngine.ProBuilder.PickerOptions k_Default
     static UnityEngine::ProBuilder::PickerOptions _get_k_Default();
     // Set static field: static private readonly UnityEngine.ProBuilder.PickerOptions k_Default

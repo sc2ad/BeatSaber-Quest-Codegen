@@ -39,7 +39,7 @@ namespace Zenject {
     // Offset: 0x10
     Zenject::DiContainer* container;
     // Creating conversion operator: operator Zenject::DiContainer*
-    constexpr operator Zenject::DiContainer*() const {
+    constexpr operator Zenject::DiContainer*() const noexcept {
       return container;
     }
     // public System.Void .ctor(Zenject.DiContainer container)

@@ -31,9 +31,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: CellSize
-      constexpr CellSize(int value_ = {}) : value{value_} {}
+      constexpr CellSize(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public SteamVR_Skybox/CellSize x1024
@@ -92,7 +92,7 @@ namespace GlobalNamespace {
     // Offset: 0x4C
     float StereoIpdMm;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void SetTextureByIndex(System.Int32 i, UnityEngine.Texture t)
     // Offset: 0xD93C08
     void SetTextureByIndex(int i, UnityEngine::Texture* t);

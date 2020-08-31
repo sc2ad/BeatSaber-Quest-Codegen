@@ -63,9 +63,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: EntitlementStatus
-      constexpr EntitlementStatus(int value_ = {}) : value{value_} {}
+      constexpr EntitlementStatus(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public AdditionalContentModel/EntitlementStatus Failed
@@ -94,9 +94,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: OpenProductStoreResult
-      constexpr OpenProductStoreResult(int value_ = {}) : value{value_} {}
+      constexpr OpenProductStoreResult(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public AdditionalContentModel/OpenProductStoreResult OK
@@ -119,9 +119,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: IsPackBetterBuyThanLevelResult
-      constexpr IsPackBetterBuyThanLevelResult(int value_ = {}) : value{value_} {}
+      constexpr IsPackBetterBuyThanLevelResult(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public AdditionalContentModel/IsPackBetterBuyThanLevelResult PackIsBetter
@@ -150,7 +150,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     System::Action* didInvalidateDataEvent;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didInvalidateDataEvent(System.Action value)
     // Offset: 0xB84328
     void add_didInvalidateDataEvent(System::Action* value);

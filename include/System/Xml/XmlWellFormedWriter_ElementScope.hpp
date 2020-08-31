@@ -43,7 +43,7 @@ namespace System::Xml {
     // Offset: 0x28
     ::Il2CppString* xmlLang;
     // Creating value type constructor for type: ElementScope
-    constexpr ElementScope(int prevNSTop_ = {}, ::Il2CppString* prefix_ = {}, ::Il2CppString* localName_ = {}, ::Il2CppString* namespaceUri_ = {}, System::Xml::XmlSpace xmlSpace_ = {}, ::Il2CppString* xmlLang_ = {}) : prevNSTop{prevNSTop_}, prefix{prefix_}, localName{localName_}, namespaceUri{namespaceUri_}, xmlSpace{xmlSpace_}, xmlLang{xmlLang_} {}
+    constexpr ElementScope(int prevNSTop_ = {}, ::Il2CppString* prefix_ = {}, ::Il2CppString* localName_ = {}, ::Il2CppString* namespaceUri_ = {}, System::Xml::XmlSpace xmlSpace_ = {}, ::Il2CppString* xmlLang_ = {}) noexcept : prevNSTop{prevNSTop_}, prefix{prefix_}, localName{localName_}, namespaceUri{namespaceUri_}, xmlSpace{xmlSpace_}, xmlLang{xmlLang_} {}
     // System.Void Set(System.String prefix, System.String localName, System.String namespaceUri, System.Int32 prevNSTop)
     // Offset: 0xA5E32C
     void Set(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* namespaceUri, int prevNSTop);

@@ -17,7 +17,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x1E
     bool inited;
     // Creating conversion operator: operator bool
-    constexpr operator bool() const {
+    constexpr operator bool() const noexcept {
       return inited;
     }
     // public System.Void AcquirePointer(System.Byte* pointer)

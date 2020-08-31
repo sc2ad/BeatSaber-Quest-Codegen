@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
     // Offset: 0xC4F448
     void Awake();

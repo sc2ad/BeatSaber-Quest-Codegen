@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // Offset: 0x30
     UnityEngine::Color addColor;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public override UnityEngine.Color get_color()
     // Offset: 0x1980DD0
     // Implemented from: ColorSO

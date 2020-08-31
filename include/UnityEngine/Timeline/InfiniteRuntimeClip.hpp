@@ -26,7 +26,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x18
     UnityEngine::Playables::Playable m_Playable;
     // Deleting conversion operator: operator int
-    constexpr operator int() const = delete;
+    constexpr operator int() const noexcept = delete;
     // Get static field: static private readonly System.Int64 kIntervalEnd
     static int64_t _get_kIntervalEnd();
     // Set static field: static private readonly System.Int64 kIntervalEnd

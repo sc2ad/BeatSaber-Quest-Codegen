@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     // Offset: 0x58
     GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.UI.Button get_buyButton()
     // Offset: 0xB9DE44
     UnityEngine::UI::Button* get_buyButton();

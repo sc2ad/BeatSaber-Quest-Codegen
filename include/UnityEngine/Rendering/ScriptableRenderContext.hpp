@@ -30,9 +30,9 @@ namespace UnityEngine::Rendering {
     // Offset: 0x0
     System::IntPtr m_Ptr;
     // Creating value type constructor for type: ScriptableRenderContext
-    constexpr ScriptableRenderContext(System::IntPtr m_Ptr_ = {}) : m_Ptr{m_Ptr_} {}
+    constexpr ScriptableRenderContext(System::IntPtr m_Ptr_ = {}) noexcept : m_Ptr{m_Ptr_} {}
     // Creating conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const {
+    constexpr operator System::IntPtr() const noexcept {
       return m_Ptr;
     }
     // private System.Int32 GetNumberOfCameras_Internal()

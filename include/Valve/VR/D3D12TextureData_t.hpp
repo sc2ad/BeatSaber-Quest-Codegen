@@ -24,7 +24,7 @@ namespace Valve::VR {
     // Offset: 0x10
     uint m_nNodeMask;
     // Creating value type constructor for type: D3D12TextureData_t
-    constexpr D3D12TextureData_t(System::IntPtr m_pResource_ = {}, System::IntPtr m_pCommandQueue_ = {}, uint m_nNodeMask_ = {}) : m_pResource{m_pResource_}, m_pCommandQueue{m_pCommandQueue_}, m_nNodeMask{m_nNodeMask_} {}
+    constexpr D3D12TextureData_t(System::IntPtr m_pResource_ = {}, System::IntPtr m_pCommandQueue_ = {}, uint m_nNodeMask_ = {}) noexcept : m_pResource{m_pResource_}, m_pCommandQueue{m_pCommandQueue_}, m_nNodeMask{m_nNodeMask_} {}
   }; // Valve.VR.D3D12TextureData_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

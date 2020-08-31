@@ -39,9 +39,9 @@ namespace UnityEngine {
     // Offset: 0x0
     int m_Handle;
     // Creating value type constructor for type: PhysicsScene2D
-    constexpr PhysicsScene2D(int m_Handle_ = {}) : m_Handle{m_Handle_} {}
+    constexpr PhysicsScene2D(int m_Handle_ = {}) noexcept : m_Handle{m_Handle_} {}
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return m_Handle;
     }
     // public UnityEngine.RaycastHit2D Raycast(UnityEngine.Vector2 origin, UnityEngine.Vector2 direction, System.Single distance, System.Int32 layerMask)

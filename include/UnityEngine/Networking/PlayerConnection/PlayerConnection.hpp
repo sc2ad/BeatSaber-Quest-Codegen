@@ -64,7 +64,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Offset: 0x28
     bool m_IsInitilized;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static UnityEngine.IPlayerEditorConnectionNative connectionNative
     static UnityEngine::IPlayerEditorConnectionNative* _get_connectionNative();
     // Set static field: static UnityEngine.IPlayerEditorConnectionNative connectionNative

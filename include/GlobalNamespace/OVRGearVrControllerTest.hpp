@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Text::StringBuilder* data;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private System.String prevConnected
     static ::Il2CppString* _get_prevConnected();
     // Set static field: static private System.String prevConnected

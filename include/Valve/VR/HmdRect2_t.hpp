@@ -21,7 +21,7 @@ namespace Valve::VR {
     // Offset: 0x8
     Valve::VR::HmdVector2_t vBottomRight;
     // Creating value type constructor for type: HmdRect2_t
-    constexpr HmdRect2_t(Valve::VR::HmdVector2_t vTopLeft_ = {}, Valve::VR::HmdVector2_t vBottomRight_ = {}) : vTopLeft{vTopLeft_}, vBottomRight{vBottomRight_} {}
+    constexpr HmdRect2_t(Valve::VR::HmdVector2_t vTopLeft_ = {}, Valve::VR::HmdVector2_t vBottomRight_ = {}) noexcept : vTopLeft{vTopLeft_}, vBottomRight{vBottomRight_} {}
   }; // Valve.VR.HmdRect2_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

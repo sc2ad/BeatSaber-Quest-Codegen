@@ -82,7 +82,7 @@ namespace HMUI {
     // Offset: 0x10
     System::Collections::Generic::List_1<System::Tuple_4<UnityEngine::UI::InputField*, GlobalNamespace::IObservableChange*, UnityEngine::Events::UnityAction_1<::Il2CppString*>*, System::Action*>*>* bindings;
     // Creating conversion operator: operator System::Collections::Generic::List_1<System::Tuple_4<UnityEngine::UI::InputField*, GlobalNamespace::IObservableChange*, UnityEngine::Events::UnityAction_1<::Il2CppString*>*, System::Action*>*>*
-    constexpr operator System::Collections::Generic::List_1<System::Tuple_4<UnityEngine::UI::InputField*, GlobalNamespace::IObservableChange*, UnityEngine::Events::UnityAction_1<::Il2CppString*>*, System::Action*>*>*() const {
+    constexpr operator System::Collections::Generic::List_1<System::Tuple_4<UnityEngine::UI::InputField*, GlobalNamespace::IObservableChange*, UnityEngine::Events::UnityAction_1<::Il2CppString*>*, System::Action*>*>*() const noexcept {
       return bindings;
     }
     // public System.Void AddBindings(System.Collections.Generic.List`1<System.Tuple`4<UnityEngine.UI.InputField,T0,System.Func`2<System.String,T1>,System.Func`2<T1,System.String>>> bindingData)

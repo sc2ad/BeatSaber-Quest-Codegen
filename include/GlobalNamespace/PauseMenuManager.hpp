@@ -103,7 +103,7 @@ namespace GlobalNamespace {
     // Offset: 0x98
     bool ignoreFirstFrameVRControllerInteraction;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didPressContinueButtonEvent(System.Action value)
     // Offset: 0xBD430C
     void add_didPressContinueButtonEvent(System::Action* value);

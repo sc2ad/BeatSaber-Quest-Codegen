@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::Renderer* renderer;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Renderer get_renderer()
     // Offset: 0xCBDA1C
     UnityEngine::Renderer* get_renderer();

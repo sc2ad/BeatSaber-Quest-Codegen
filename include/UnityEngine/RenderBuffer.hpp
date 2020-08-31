@@ -21,7 +21,7 @@ namespace UnityEngine {
     // Offset: 0x8
     System::IntPtr m_BufferPtr;
     // Creating value type constructor for type: RenderBuffer
-    constexpr RenderBuffer(int m_RenderTextureInstanceID_ = {}, System::IntPtr m_BufferPtr_ = {}) : m_RenderTextureInstanceID{m_RenderTextureInstanceID_}, m_BufferPtr{m_BufferPtr_} {}
+    constexpr RenderBuffer(int m_RenderTextureInstanceID_ = {}, System::IntPtr m_BufferPtr_ = {}) noexcept : m_RenderTextureInstanceID{m_RenderTextureInstanceID_}, m_BufferPtr{m_BufferPtr_} {}
   }; // UnityEngine.RenderBuffer
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

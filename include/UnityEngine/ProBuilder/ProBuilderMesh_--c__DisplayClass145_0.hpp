@@ -24,7 +24,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x10
     int i;
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return i;
     }
     // System.Boolean <UnusedElementGroup>b__0(UnityEngine.ProBuilder.Face element)

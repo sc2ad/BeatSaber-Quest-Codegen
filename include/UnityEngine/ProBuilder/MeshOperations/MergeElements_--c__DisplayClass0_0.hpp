@@ -30,7 +30,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0x10
     System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* remove;
     // Creating conversion operator: operator System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>*
-    constexpr operator System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>*() const {
+    constexpr operator System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>*() const noexcept {
       return remove;
     }
     // System.Boolean <MergePairs>b__0(UnityEngine.ProBuilder.Face x)

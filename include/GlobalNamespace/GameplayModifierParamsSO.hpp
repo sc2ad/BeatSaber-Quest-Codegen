@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     // Offset: 0x38
     ::Array<GlobalNamespace::GameplayModifierParamsSO*>* mutuallyExclusives;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String get_modifierNameLocalizationKey()
     // Offset: 0xB3F110
     ::Il2CppString* get_modifierNameLocalizationKey();

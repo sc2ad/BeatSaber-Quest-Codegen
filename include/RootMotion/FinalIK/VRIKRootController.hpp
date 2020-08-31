@@ -42,7 +42,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x40
     RootMotion::FinalIK::VRIK* ik;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Vector3 get_pelvisTargetRight()
     // Offset: 0x1241320
     UnityEngine::Vector3 get_pelvisTargetRight();

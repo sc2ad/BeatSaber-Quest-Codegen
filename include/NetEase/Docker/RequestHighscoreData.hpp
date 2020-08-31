@@ -22,7 +22,7 @@ namespace NetEase::Docker {
     // Offset: 0x8
     ::Il2CppString* HighscoreType;
     // Creating value type constructor for type: RequestHighscoreData
-    constexpr RequestHighscoreData(::Il2CppString* Track_ = {}, ::Il2CppString* HighscoreType_ = {}) : Track{Track_}, HighscoreType{HighscoreType_} {}
+    constexpr RequestHighscoreData(::Il2CppString* Track_ = {}, ::Il2CppString* HighscoreType_ = {}) noexcept : Track{Track_}, HighscoreType{HighscoreType_} {}
     // public System.String get_Track()
     // Offset: 0xA607E0
     ::Il2CppString* get_Track();

@@ -24,7 +24,7 @@ namespace Valve::VR {
     // Offset: 0x0
     Valve::VR::CVRSystem::_GetControllerStatePacked* pGetControllerStatePacked;
     // Creating value type constructor for type: GetControllerStateUnion
-    constexpr GetControllerStateUnion(Valve::VR::IVRSystem::_GetControllerState* pGetControllerState_ = {}, Valve::VR::CVRSystem::_GetControllerStatePacked* pGetControllerStatePacked_ = {}) : pGetControllerState{pGetControllerState_}, pGetControllerStatePacked{pGetControllerStatePacked_} {}
+    constexpr GetControllerStateUnion(Valve::VR::IVRSystem::_GetControllerState* pGetControllerState_ = {}, Valve::VR::CVRSystem::_GetControllerStatePacked* pGetControllerStatePacked_ = {}) noexcept : pGetControllerState{pGetControllerState_}, pGetControllerStatePacked{pGetControllerStatePacked_} {}
   }; // Valve.VR.CVRSystem/GetControllerStateUnion
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

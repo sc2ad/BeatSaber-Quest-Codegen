@@ -26,7 +26,7 @@ namespace NetEase::Docker {
     // Offset: 0x10
     int64_t TimeStamp;
     // Creating value type constructor for type: ScoreData
-    constexpr ScoreData(::Il2CppString* Name_ = {}, int Score_ = {}, int64_t TimeStamp_ = {}) : Name{Name_}, Score{Score_}, TimeStamp{TimeStamp_} {}
+    constexpr ScoreData(::Il2CppString* Name_ = {}, int Score_ = {}, int64_t TimeStamp_ = {}) noexcept : Name{Name_}, Score{Score_}, TimeStamp{TimeStamp_} {}
     // public System.String get_Name()
     // Offset: 0xA608A4
     ::Il2CppString* get_Name();

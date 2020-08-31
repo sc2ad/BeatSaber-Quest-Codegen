@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::ILevelEndActions* levelEndActions;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Collections.IEnumerator Start()
     // Offset: 0xC55198
     System::Collections::IEnumerator* Start();

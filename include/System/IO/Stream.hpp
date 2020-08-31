@@ -56,7 +56,7 @@ namespace System::IO {
     // Offset: 0x20
     System::Threading::SemaphoreSlim* asyncActiveSemaphore;
     // Deleting conversion operator: operator ::Il2CppObject*
-    constexpr operator ::Il2CppObject*() const = delete;
+    constexpr operator ::Il2CppObject*() const noexcept = delete;
     // Get static field: static public readonly System.IO.Stream Null
     static System::IO::Stream* _get_Null();
     // Set static field: static public readonly System.IO.Stream Null

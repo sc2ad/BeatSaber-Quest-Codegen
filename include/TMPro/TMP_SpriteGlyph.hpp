@@ -29,7 +29,7 @@ namespace TMPro {
     // Offset: 0x40
     UnityEngine::Sprite* sprite;
     // Creating conversion operator: operator UnityEngine::Sprite*
-    constexpr operator UnityEngine::Sprite*() const {
+    constexpr operator UnityEngine::Sprite*() const noexcept {
       return sprite;
     }
     // public System.Void .ctor(System.UInt32 index, UnityEngine.TextCore.GlyphMetrics metrics, UnityEngine.TextCore.GlyphRect glyphRect, System.Single scale, System.Int32 atlasIndex, UnityEngine.Sprite sprite)

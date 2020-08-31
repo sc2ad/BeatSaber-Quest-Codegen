@@ -17,7 +17,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     float accumulator;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private System.Single <deltaTime>k__BackingField
     static float _get_$deltaTime$k__BackingField();
     // Set static field: static private System.Single <deltaTime>k__BackingField

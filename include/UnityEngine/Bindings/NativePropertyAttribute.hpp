@@ -19,7 +19,7 @@ namespace UnityEngine::Bindings {
     // Offset: 0x1C
     UnityEngine::Bindings::TargetType TargetType;
     // Creating conversion operator: operator UnityEngine::Bindings::TargetType
-    constexpr operator UnityEngine::Bindings::TargetType() const {
+    constexpr operator UnityEngine::Bindings::TargetType() const noexcept {
       return TargetType;
     }
     // public System.Void set_TargetType(UnityEngine.Bindings.TargetType value)

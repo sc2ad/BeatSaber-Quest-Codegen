@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Offset: 0xA8
     GlobalNamespace::BeatmapLevelData* beatmapLevelData;
     // Creating conversion operator: operator GlobalNamespace::BeatmapLevelData*
-    constexpr operator GlobalNamespace::BeatmapLevelData*() const {
+    constexpr operator GlobalNamespace::BeatmapLevelData*() const noexcept {
       return beatmapLevelData;
     }
     // public System.Void .ctor(CustomPreviewBeatmapLevel customPreviewBeatmapLevel, UnityEngine.AudioClip previewAudioClip, UnityEngine.Texture2D coverImageTexture2D)

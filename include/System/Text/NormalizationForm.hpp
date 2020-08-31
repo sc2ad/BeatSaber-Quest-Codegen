@@ -17,9 +17,9 @@ namespace System::Text {
     // Offset: 0x0
     int value;
     // Creating value type constructor for type: NormalizationForm
-    constexpr NormalizationForm(int value_ = {}) : value{value_} {}
+    constexpr NormalizationForm(int value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return value;
     }
     // static field const value: static public System.Text.NormalizationForm FormC

@@ -51,7 +51,7 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     // Offset: 0x18
     ::Il2CppString* m_ProductName;
     // Deleting conversion operator: operator NUnit::Framework::Interfaces::ISuiteBuilder*
-    constexpr operator NUnit::Framework::Interfaces::ISuiteBuilder*() const = delete;
+    constexpr operator NUnit::Framework::Interfaces::ISuiteBuilder*() const noexcept = delete;
     // public NUnit.Framework.Interfaces.ITest Build(System.Reflection.Assembly[] assemblies, UnityEngine.TestTools.TestPlatform[] testPlatforms, System.Collections.Generic.IDictionary`2<System.String,System.Object> options)
     // Offset: 0xE398D8
     NUnit::Framework::Interfaces::ITest* Build(::Array<System::Reflection::Assembly*>* assemblies, ::Array<UnityEngine::TestTools::TestPlatform>* testPlatforms, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* options);

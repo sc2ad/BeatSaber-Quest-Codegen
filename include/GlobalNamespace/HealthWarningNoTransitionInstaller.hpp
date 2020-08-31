@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::HealthWarningScenesTransitionSetupDataSO* scenesTransitionSetupData;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public override System.Void InstallBindings(Zenject.DiContainer container)
     // Offset: 0xB445AC
     // Implemented from: Zenject.NoTransitionInstaller

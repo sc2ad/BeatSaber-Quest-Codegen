@@ -22,7 +22,7 @@ namespace TMPro {
     // Offset: 0x4
     TMPro::CaretPosition position;
     // Creating value type constructor for type: CaretInfo
-    constexpr CaretInfo(int index_ = {}, TMPro::CaretPosition position_ = {}) : index{index_}, position{position_} {}
+    constexpr CaretInfo(int index_ = {}, TMPro::CaretPosition position_ = {}) noexcept : index{index_}, position{position_} {}
     // public System.Void .ctor(System.Int32 index, TMPro.CaretPosition position)
     // Offset: 0xA2B3D0
     static CaretInfo* New_ctor(int index, TMPro::CaretPosition position);

@@ -24,7 +24,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x10
     System::Type* BaseType;
     // Creating conversion operator: operator System::Type*
-    constexpr operator System::Type*() const {
+    constexpr operator System::Type*() const noexcept {
       return BaseType;
     }
     // public System.Void .ctor(System.Type baseType)

@@ -24,7 +24,7 @@ namespace System {
     // Offset: 0x10
     System::TimeZoneInfo* LocalTimeZone;
     // Creating conversion operator: operator System::TimeZoneInfo*
-    constexpr operator System::TimeZoneInfo*() const {
+    constexpr operator System::TimeZoneInfo*() const noexcept {
       return LocalTimeZone;
     }
     // static public System.Boolean GetTimeZoneData(System.Int32 year, System.Int64[] data, System.String[] names, System.Boolean daylight_inverted)

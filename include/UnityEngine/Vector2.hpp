@@ -31,7 +31,7 @@ namespace UnityEngine {
     // Offset: 0x4
     float y;
     // Creating value type constructor for type: Vector2
-    constexpr Vector2(float x_ = {}, float y_ = {}) : x{x_}, y{y_} {}
+    constexpr Vector2(float x_ = {}, float y_ = {}) noexcept : x{x_}, y{y_} {}
     // Get static field: static private readonly UnityEngine.Vector2 zeroVector
     static UnityEngine::Vector2 _get_zeroVector();
     // Set static field: static private readonly UnityEngine.Vector2 zeroVector

@@ -17,9 +17,9 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x0
     uint8_t value;
     // Creating value type constructor for type: EventChannel
-    constexpr EventChannel(uint8_t value_ = {}) : value{value_} {}
+    constexpr EventChannel(uint8_t value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator uint8_t
-    constexpr operator uint8_t() const {
+    constexpr operator uint8_t() const noexcept {
       return value;
     }
     // static field const value: static public System.Diagnostics.Tracing.EventChannel None

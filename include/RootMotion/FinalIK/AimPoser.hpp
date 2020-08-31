@@ -31,7 +31,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x20
     ::Array<RootMotion::FinalIK::AimPoser::Pose*>* poses;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public RootMotion.FinalIK.AimPoser/Pose GetPose(UnityEngine.Vector3 localDirection)
     // Offset: 0x13AC730
     RootMotion::FinalIK::AimPoser::Pose* GetPose(UnityEngine::Vector3 localDirection);

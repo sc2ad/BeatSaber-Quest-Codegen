@@ -39,7 +39,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x28
     float lastTime;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Single get_deltaTime()
     // Offset: 0x1232F1C
     float get_deltaTime();

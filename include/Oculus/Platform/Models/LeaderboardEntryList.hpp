@@ -29,7 +29,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x28
     uint64_t TotalCount;
     // Creating conversion operator: operator uint64_t
-    constexpr operator uint64_t() const {
+    constexpr operator uint64_t() const noexcept {
       return TotalCount;
     }
     // public System.Void .ctor(System.IntPtr a)

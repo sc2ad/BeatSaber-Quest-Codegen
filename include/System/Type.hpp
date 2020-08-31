@@ -81,7 +81,7 @@ namespace System {
     // Offset: 0x10
     System::RuntimeTypeHandle impl;
     // Creating conversion operator: operator System::RuntimeTypeHandle
-    constexpr operator System::RuntimeTypeHandle() const {
+    constexpr operator System::RuntimeTypeHandle() const noexcept {
       return impl;
     }
     // Get static field: static public readonly System.Reflection.MemberFilter FilterAttribute

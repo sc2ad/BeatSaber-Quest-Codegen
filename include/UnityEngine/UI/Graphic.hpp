@@ -123,7 +123,7 @@ namespace UnityEngine::UI {
     // Offset: 0x88
     bool useLegacyMeshGeneration;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static protected UnityEngine.Material s_DefaultUI
     static UnityEngine::Material* _get_s_DefaultUI();
     // Set static field: static protected UnityEngine.Material s_DefaultUI

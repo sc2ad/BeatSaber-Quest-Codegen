@@ -49,9 +49,9 @@ namespace System {
     // Offset: 0x0
     uint8_t m_value;
     // Creating value type constructor for type: Byte
-    constexpr Byte(uint8_t m_value_ = {}) : m_value{m_value_} {}
+    constexpr Byte(uint8_t m_value_ = {}) noexcept : m_value{m_value_} {}
     // Creating conversion operator: operator uint8_t
-    constexpr operator uint8_t() const {
+    constexpr operator uint8_t() const noexcept {
       return m_value;
     }
     // static field const value: static public System.Byte MaxValue

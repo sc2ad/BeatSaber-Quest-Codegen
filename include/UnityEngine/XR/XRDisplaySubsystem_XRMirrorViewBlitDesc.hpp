@@ -29,7 +29,7 @@ namespace UnityEngine::XR {
     // Offset: 0xC
     int blitParamsCount;
     // Creating value type constructor for type: XRMirrorViewBlitDesc
-    constexpr XRMirrorViewBlitDesc(System::IntPtr displaySubsystemInstance_ = {}, bool nativeBlitAvailable_ = {}, bool nativeBlitInvalidStates_ = {}, int blitParamsCount_ = {}) : displaySubsystemInstance{displaySubsystemInstance_}, nativeBlitAvailable{nativeBlitAvailable_}, nativeBlitInvalidStates{nativeBlitInvalidStates_}, blitParamsCount{blitParamsCount_} {}
+    constexpr XRMirrorViewBlitDesc(System::IntPtr displaySubsystemInstance_ = {}, bool nativeBlitAvailable_ = {}, bool nativeBlitInvalidStates_ = {}, int blitParamsCount_ = {}) noexcept : displaySubsystemInstance{displaySubsystemInstance_}, nativeBlitAvailable{nativeBlitAvailable_}, nativeBlitInvalidStates{nativeBlitInvalidStates_}, blitParamsCount{blitParamsCount_} {}
   }; // UnityEngine.XR.XRDisplaySubsystem/XRMirrorViewBlitDesc
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

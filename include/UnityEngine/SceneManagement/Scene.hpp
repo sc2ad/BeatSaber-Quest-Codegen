@@ -35,9 +35,9 @@ namespace UnityEngine::SceneManagement {
     // Offset: 0x0
     int m_Handle;
     // Creating value type constructor for type: Scene
-    constexpr Scene(int m_Handle_ = {}) : m_Handle{m_Handle_} {}
+    constexpr Scene(int m_Handle_ = {}) noexcept : m_Handle{m_Handle_} {}
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return m_Handle;
     }
     // static private System.Boolean IsValidInternal(System.Int32 sceneHandle)

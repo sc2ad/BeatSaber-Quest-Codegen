@@ -32,9 +32,9 @@ namespace System {
     // Offset: 0x0
     void* pointer;
     // Creating value type constructor for type: UIntPtr
-    constexpr UIntPtr(void* pointer_ = {}) : pointer{pointer_} {}
+    constexpr UIntPtr(void* pointer_ = {}) noexcept : pointer{pointer_} {}
     // Creating conversion operator: operator void*
-    constexpr operator void*() const {
+    constexpr operator void*() const noexcept {
       return pointer;
     }
     // Get static field: static public readonly System.UIntPtr Zero

@@ -74,7 +74,7 @@ namespace Polyglot {
     // Offset: 0x38
     UnityEngine::Events::UnityEvent* Localize;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.String KeyNotFound
     static constexpr const char* KeyNotFound = "[{0}]";
     // Get static field: static private System.String KeyNotFound

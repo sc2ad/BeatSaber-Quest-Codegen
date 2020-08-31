@@ -30,7 +30,7 @@ namespace System {
     // Offset: 0x88
     ::Il2CppString* m_paramName;
     // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const {
+    constexpr operator ::Il2CppString*() const noexcept {
       return m_paramName;
     }
     // public System.Void .ctor(System.String message, System.String paramName)

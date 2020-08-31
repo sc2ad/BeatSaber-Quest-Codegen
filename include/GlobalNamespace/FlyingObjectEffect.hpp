@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     // Offset: 0x7C
     bool shake;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didFinishEvent(System.Action`1<FlyingObjectEffect> value)
     // Offset: 0xBEFFCC
     void add_didFinishEvent(System::Action_1<GlobalNamespace::FlyingObjectEffect*>* value);

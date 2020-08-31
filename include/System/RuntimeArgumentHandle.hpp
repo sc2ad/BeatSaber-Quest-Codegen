@@ -18,9 +18,9 @@ namespace System {
     // Offset: 0x0
     System::IntPtr args;
     // Creating value type constructor for type: RuntimeArgumentHandle
-    constexpr RuntimeArgumentHandle(System::IntPtr args_ = {}) : args{args_} {}
+    constexpr RuntimeArgumentHandle(System::IntPtr args_ = {}) noexcept : args{args_} {}
     // Creating conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const {
+    constexpr operator System::IntPtr() const noexcept {
       return args;
     }
   }; // System.RuntimeArgumentHandle

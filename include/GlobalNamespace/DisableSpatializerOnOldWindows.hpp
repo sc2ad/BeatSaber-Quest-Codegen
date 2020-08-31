@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::AudioSource* audioSource;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void .ctor()
     // Offset: 0xBE8390
     // Implemented from: UnityEngine.MonoBehaviour

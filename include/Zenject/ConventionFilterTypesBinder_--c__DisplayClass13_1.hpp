@@ -24,7 +24,7 @@ namespace Zenject {
     // Offset: 0x10
     System::Type* t;
     // Creating conversion operator: operator System::Type*
-    constexpr operator System::Type*() const {
+    constexpr operator System::Type*() const noexcept {
       return t;
     }
     // System.Boolean <InNamespaces>b__1(System.String n)

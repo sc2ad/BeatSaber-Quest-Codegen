@@ -19,7 +19,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x18
     UnityEngine::ProBuilder::EntityType m_EntityType;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.ProBuilder.EntityType get_entityType()
     // Offset: 0xF930CC
     UnityEngine::ProBuilder::EntityType get_entityType();

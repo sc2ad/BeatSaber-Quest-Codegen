@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     ::Array<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*>* no360MovementDifficultyBeatmapSets;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.AudioClip get_audioClip()
     // Offset: 0xB703A4
     UnityEngine::AudioClip* get_audioClip();

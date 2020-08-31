@@ -20,7 +20,7 @@ namespace System::Threading {
     // Offset: 0x0
     ::Array<T>* m_array;
     // Creating conversion operator: operator ::Array<T>*
-    constexpr operator ::Array<T>*() const {
+    constexpr operator ::Array<T>*() const noexcept {
       return m_array;
     }
     // System.Void .ctor(System.Int32 initialSize)

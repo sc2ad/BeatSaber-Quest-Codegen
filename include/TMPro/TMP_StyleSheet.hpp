@@ -36,7 +36,7 @@ namespace TMPro {
     // Offset: 0x20
     System::Collections::Generic::Dictionary_2<int, TMPro::TMP_Style*>* m_StyleDictionary;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private TMPro.TMP_StyleSheet s_Instance
     static TMPro::TMP_StyleSheet* _get_s_Instance();
     // Set static field: static private TMPro.TMP_StyleSheet s_Instance

@@ -28,7 +28,7 @@ namespace OVR::OpenVR {
     // Offset: 0x8
     OVR::OpenVR::IVRResources::_GetResourceFullPath* GetResourceFullPath;
     // Creating value type constructor for type: IVRResources
-    constexpr IVRResources(OVR::OpenVR::IVRResources::_LoadSharedResource* LoadSharedResource_ = {}, OVR::OpenVR::IVRResources::_GetResourceFullPath* GetResourceFullPath_ = {}) : LoadSharedResource{LoadSharedResource_}, GetResourceFullPath{GetResourceFullPath_} {}
+    constexpr IVRResources(OVR::OpenVR::IVRResources::_LoadSharedResource* LoadSharedResource_ = {}, OVR::OpenVR::IVRResources::_GetResourceFullPath* GetResourceFullPath_ = {}) noexcept : LoadSharedResource{LoadSharedResource_}, GetResourceFullPath{GetResourceFullPath_} {}
   }; // OVR.OpenVR.IVRResources
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

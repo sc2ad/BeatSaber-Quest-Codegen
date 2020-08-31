@@ -46,7 +46,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x50
     bool m_Started;
     // Deleting conversion operator: operator int
-    constexpr operator int() const = delete;
+    constexpr operator int() const noexcept = delete;
     // public System.Void SetTime(System.Double time)
     // Offset: 0x109EEB4
     void SetTime(double time);

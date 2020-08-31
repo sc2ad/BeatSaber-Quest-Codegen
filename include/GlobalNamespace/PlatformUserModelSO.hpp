@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::IPlatformUserHandler* platformUserHandler;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public PlatformInfo get_platformInfo()
     // Offset: 0xBD84BC
     GlobalNamespace::PlatformInfo* get_platformInfo();

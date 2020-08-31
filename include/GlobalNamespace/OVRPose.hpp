@@ -26,7 +26,7 @@ namespace GlobalNamespace {
     // Offset: 0xC
     UnityEngine::Quaternion orientation;
     // Creating value type constructor for type: OVRPose
-    constexpr OVRPose(UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion orientation_ = {}) : position{position_}, orientation{orientation_} {}
+    constexpr OVRPose(UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion orientation_ = {}) noexcept : position{position_}, orientation{orientation_} {}
     // static public OVRPose get_identity()
     // Offset: 0xF4BAC0
     static GlobalNamespace::OVRPose get_identity();

@@ -33,7 +33,7 @@ namespace UnityEngine::UI {
     // Offset: 0x18
     UnityEngine::UI::Graphic* m_Graphic;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // protected UnityEngine.UI.Graphic get_graphic()
     // Offset: 0xE06618
     UnityEngine::UI::Graphic* get_graphic();

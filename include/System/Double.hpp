@@ -49,9 +49,9 @@ namespace System {
     // Offset: 0x0
     double m_value;
     // Creating value type constructor for type: Double
-    constexpr Double(double m_value_ = {}) : m_value{m_value_} {}
+    constexpr Double(double m_value_ = {}) noexcept : m_value{m_value_} {}
     // Creating conversion operator: operator double
-    constexpr operator double() const {
+    constexpr operator double() const noexcept {
       return m_value;
     }
     // static field const value: static public System.Double MinValue

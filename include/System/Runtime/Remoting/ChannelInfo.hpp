@@ -17,7 +17,7 @@ namespace System::Runtime::Remoting {
     // Offset: 0x10
     ::Array<::Il2CppObject*>* channelData;
     // Creating conversion operator: operator ::Array<::Il2CppObject*>*
-    constexpr operator ::Array<::Il2CppObject*>*() const {
+    constexpr operator ::Array<::Il2CppObject*>*() const noexcept {
       return channelData;
     }
     // public System.Void .ctor(System.Object remoteChannelData)

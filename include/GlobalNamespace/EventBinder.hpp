@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     System::Collections::Generic::List_1<System::Action*>* unsubscribes;
     // Creating conversion operator: operator System::Collections::Generic::List_1<System::Action*>*
-    constexpr operator System::Collections::Generic::List_1<System::Action*>*() const {
+    constexpr operator System::Collections::Generic::List_1<System::Action*>*() const noexcept {
       return unsubscribes;
     }
     // public System.Void Bind(System.Action subscribe, System.Action unsubscribe)

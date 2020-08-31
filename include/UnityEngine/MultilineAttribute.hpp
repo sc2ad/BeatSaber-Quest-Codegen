@@ -17,7 +17,7 @@ namespace UnityEngine {
     // Offset: 0x10
     int lines;
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return lines;
     }
     // public System.Void .ctor()

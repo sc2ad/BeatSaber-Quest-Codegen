@@ -23,7 +23,7 @@ namespace Oculus::Platform {
     // Offset: 0x28
     bool ovrUseStandalonePlatform;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private Oculus.Platform.PlatformSettings instance
     static Oculus::Platform::PlatformSettings* _get_instance();
     // Set static field: static private Oculus.Platform.PlatformSettings instance

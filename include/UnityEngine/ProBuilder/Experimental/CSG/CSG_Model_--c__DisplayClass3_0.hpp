@@ -29,7 +29,7 @@ namespace UnityEngine::ProBuilder::Experimental::CSG {
     // Offset: 0x10
     UnityEngine::Transform* transform;
     // Creating conversion operator: operator UnityEngine::Transform*
-    constexpr operator UnityEngine::Transform*() const {
+    constexpr operator UnityEngine::Transform*() const noexcept {
       return transform;
     }
     // UnityEngine.ProBuilder.CSG_Vertex <.ctor>b__0(UnityEngine.ProBuilder.CSG_Vertex x)

@@ -58,7 +58,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x68
     UnityEngine::ProBuilder::MeshArrays m_Attributes;
     // Creating value type constructor for type: CSG_Vertex
-    constexpr CSG_Vertex(UnityEngine::Vector3 m_Position_ = {}, UnityEngine::Color m_Color_ = {}, UnityEngine::Vector3 m_Normal_ = {}, UnityEngine::Vector4 m_Tangent_ = {}, UnityEngine::Vector2 m_UV0_ = {}, UnityEngine::Vector2 m_UV2_ = {}, UnityEngine::Vector4 m_UV3_ = {}, UnityEngine::Vector4 m_UV4_ = {}, UnityEngine::ProBuilder::MeshArrays m_Attributes_ = {}) : m_Position{m_Position_}, m_Color{m_Color_}, m_Normal{m_Normal_}, m_Tangent{m_Tangent_}, m_UV0{m_UV0_}, m_UV2{m_UV2_}, m_UV3{m_UV3_}, m_UV4{m_UV4_}, m_Attributes{m_Attributes_} {}
+    constexpr CSG_Vertex(UnityEngine::Vector3 m_Position_ = {}, UnityEngine::Color m_Color_ = {}, UnityEngine::Vector3 m_Normal_ = {}, UnityEngine::Vector4 m_Tangent_ = {}, UnityEngine::Vector2 m_UV0_ = {}, UnityEngine::Vector2 m_UV2_ = {}, UnityEngine::Vector4 m_UV3_ = {}, UnityEngine::Vector4 m_UV4_ = {}, UnityEngine::ProBuilder::MeshArrays m_Attributes_ = {}) noexcept : m_Position{m_Position_}, m_Color{m_Color_}, m_Normal{m_Normal_}, m_Tangent{m_Tangent_}, m_UV0{m_UV0_}, m_UV2{m_UV2_}, m_UV3{m_UV3_}, m_UV4{m_UV4_}, m_Attributes{m_Attributes_} {}
     // public UnityEngine.Vector3 get_position()
     // Offset: 0xA4D4E8
     UnityEngine::Vector3 get_position();

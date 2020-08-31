@@ -68,7 +68,7 @@ namespace HMUI {
     // Offset: 0x5C
     float contentMinY;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
     // Offset: 0x10E2520
     void Start();

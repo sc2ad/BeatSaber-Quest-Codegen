@@ -29,7 +29,7 @@ namespace Zenject {
     // Offset: 0x10
     System::Text::RegularExpressions::Regex* regex;
     // Creating conversion operator: operator System::Text::RegularExpressions::Regex*
-    constexpr operator System::Text::RegularExpressions::Regex*() const {
+    constexpr operator System::Text::RegularExpressions::Regex*() const noexcept {
       return regex;
     }
     // System.Boolean <MatchingRegex>b__0(System.Type t)

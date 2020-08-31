@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Offset: 0x40
     UnityEngine::Coroutine* coroutine;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void FadeOutInstant()
     // Offset: 0xCB0A9C
     void FadeOutInstant();

@@ -17,9 +17,9 @@ namespace Valve::VR {
     // Offset: 0x0
     uint64_t overlayHandle;
     // Creating value type constructor for type: VREvent_Overlay_t
-    constexpr VREvent_Overlay_t(uint64_t overlayHandle_ = {}) : overlayHandle{overlayHandle_} {}
+    constexpr VREvent_Overlay_t(uint64_t overlayHandle_ = {}) noexcept : overlayHandle{overlayHandle_} {}
     // Creating conversion operator: operator uint64_t
-    constexpr operator uint64_t() const {
+    constexpr operator uint64_t() const noexcept {
       return overlayHandle;
     }
   }; // Valve.VR.VREvent_Overlay_t

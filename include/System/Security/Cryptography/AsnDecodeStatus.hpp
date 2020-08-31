@@ -17,9 +17,9 @@ namespace System::Security::Cryptography {
     // Offset: 0x0
     int value;
     // Creating value type constructor for type: AsnDecodeStatus
-    constexpr AsnDecodeStatus(int value_ = {}) : value{value_} {}
+    constexpr AsnDecodeStatus(int value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return value;
     }
     // static field const value: static public System.Security.Cryptography.AsnDecodeStatus NotDecoded

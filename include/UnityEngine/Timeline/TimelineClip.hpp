@@ -58,9 +58,9 @@ namespace UnityEngine::Timeline {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: ClipExtrapolation
-      constexpr ClipExtrapolation(int value_ = {}) : value{value_} {}
+      constexpr ClipExtrapolation(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public UnityEngine.Timeline.TimelineClip/ClipExtrapolation None
@@ -101,9 +101,9 @@ namespace UnityEngine::Timeline {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: BlendCurveMode
-      constexpr BlendCurveMode(int value_ = {}) : value{value_} {}
+      constexpr BlendCurveMode(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public UnityEngine.Timeline.TimelineClip/BlendCurveMode Auto

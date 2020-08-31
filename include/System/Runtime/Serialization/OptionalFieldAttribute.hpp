@@ -17,7 +17,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0x10
     int versionAdded;
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return versionAdded;
     }
     // public System.Void set_VersionAdded(System.Int32 value)

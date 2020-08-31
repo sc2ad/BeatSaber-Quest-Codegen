@@ -58,7 +58,7 @@ namespace HMUI {
     // Offset: 0x31
     bool highlighted;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Int32 get_cellNumber()
     // Offset: 0x10E5338
     int get_cellNumber();

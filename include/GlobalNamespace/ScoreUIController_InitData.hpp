@@ -19,7 +19,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     GlobalNamespace::ScoreUIController::ScoreDisplayType scoreDisplayType;
     // Creating conversion operator: operator GlobalNamespace::ScoreUIController::ScoreDisplayType
-    constexpr operator GlobalNamespace::ScoreUIController::ScoreDisplayType() const {
+    constexpr operator GlobalNamespace::ScoreUIController::ScoreDisplayType() const noexcept {
       return scoreDisplayType;
     }
     // public System.Void .ctor(ScoreUIController/ScoreDisplayType scoreDisplayType)

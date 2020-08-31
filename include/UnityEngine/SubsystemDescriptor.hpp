@@ -17,7 +17,7 @@ namespace UnityEngine {
     // Offset: 0x10
     ::Il2CppString* id;
     // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const {
+    constexpr operator ::Il2CppString*() const noexcept {
       return id;
     }
     // public System.String get_id()

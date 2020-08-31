@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::RandomValueToShader* randomValueToShader;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnEnable()
     // Offset: 0x1827FAC
     void OnEnable();

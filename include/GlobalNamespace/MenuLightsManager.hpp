@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::MenuLightsPresetSO* preset;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Collections.IEnumerator Start()
     // Offset: 0xC016CC
     System::Collections::IEnumerator* Start();

@@ -22,7 +22,7 @@ namespace Valve::VR {
     // Offset: 0x8
     bool bForced;
     // Creating value type constructor for type: VREvent_Process_t
-    constexpr VREvent_Process_t(uint pid_ = {}, uint oldPid_ = {}, bool bForced_ = {}) : pid{pid_}, oldPid{oldPid_}, bForced{bForced_} {}
+    constexpr VREvent_Process_t(uint pid_ = {}, uint oldPid_ = {}, bool bForced_ = {}) noexcept : pid{pid_}, oldPid{oldPid_}, bForced{bForced_} {}
   }; // Valve.VR.VREvent_Process_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

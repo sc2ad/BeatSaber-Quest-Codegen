@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     // Offset: 0x51
     bool hideCancelButton;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_textKeyWasPressedEvent(System.Action`1<System.Char> value)
     // Offset: 0xC4C370
     void add_textKeyWasPressedEvent(System::Action_1<::Il2CppChar>* value);

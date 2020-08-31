@@ -29,7 +29,7 @@ namespace Valve::VR {
     // Offset: 0xC
     Valve::VR::EColorSpace eColorSpace;
     // Creating value type constructor for type: Texture_t
-    constexpr Texture_t(System::IntPtr handle_ = {}, Valve::VR::ETextureType eType_ = {}, Valve::VR::EColorSpace eColorSpace_ = {}) : handle{handle_}, eType{eType_}, eColorSpace{eColorSpace_} {}
+    constexpr Texture_t(System::IntPtr handle_ = {}, Valve::VR::ETextureType eType_ = {}, Valve::VR::EColorSpace eColorSpace_ = {}) noexcept : handle{handle_}, eType{eType_}, eColorSpace{eColorSpace_} {}
   }; // Valve.VR.Texture_t
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

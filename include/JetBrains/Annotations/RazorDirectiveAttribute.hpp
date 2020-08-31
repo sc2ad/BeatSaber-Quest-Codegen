@@ -17,7 +17,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x10
     ::Il2CppString* Directive;
     // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const {
+    constexpr operator ::Il2CppString*() const noexcept {
       return Directive;
     }
     // public System.Void .ctor(System.String directive)

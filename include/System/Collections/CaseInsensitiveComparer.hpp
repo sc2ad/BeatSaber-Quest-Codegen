@@ -26,7 +26,7 @@ namespace System::Collections {
     // Offset: 0x10
     System::Globalization::CompareInfo* m_compareInfo;
     // Creating conversion operator: operator System::Globalization::CompareInfo*
-    constexpr operator System::Globalization::CompareInfo*() const {
+    constexpr operator System::Globalization::CompareInfo*() const noexcept {
       return m_compareInfo;
     }
     // public System.Void .ctor(System.Globalization.CultureInfo culture)

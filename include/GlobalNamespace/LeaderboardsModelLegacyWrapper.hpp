@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     OnlineServices::ILeaderboardsModel* leaderboardsModel;
     // Creating conversion operator: operator OnlineServices::ILeaderboardsModel*
-    constexpr operator OnlineServices::ILeaderboardsModel*() const {
+    constexpr operator OnlineServices::ILeaderboardsModel*() const noexcept {
       return leaderboardsModel;
     }
     // public System.Void .ctor(OnlineServices.ILeaderboardsModel leaderboardsModel)

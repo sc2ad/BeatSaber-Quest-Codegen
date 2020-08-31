@@ -38,7 +38,7 @@ namespace Valve::VR {
     // Offset: 0x10
     Valve::VR::IVRChaperoneSetup FnTable;
     // Creating conversion operator: operator Valve::VR::IVRChaperoneSetup
-    constexpr operator Valve::VR::IVRChaperoneSetup() const {
+    constexpr operator Valve::VR::IVRChaperoneSetup() const noexcept {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)

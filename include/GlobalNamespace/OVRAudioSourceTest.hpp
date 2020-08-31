@@ -20,7 +20,7 @@ namespace GlobalNamespace {
     // Offset: 0x1C
     float nextActionTime;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Start()
     // Offset: 0xCC8380
     void Start();

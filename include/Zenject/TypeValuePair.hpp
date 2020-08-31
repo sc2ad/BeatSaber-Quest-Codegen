@@ -29,7 +29,7 @@ namespace Zenject {
     // Offset: 0x8
     ::Il2CppObject* Value;
     // Creating value type constructor for type: TypeValuePair
-    constexpr TypeValuePair(System::Type* Type_ = {}, ::Il2CppObject* Value_ = {}) : Type{Type_}, Value{Value_} {}
+    constexpr TypeValuePair(System::Type* Type_ = {}, ::Il2CppObject* Value_ = {}) noexcept : Type{Type_}, Value{Value_} {}
     // public System.Void .ctor(System.Type type, System.Object value)
     // Offset: 0xA5E0B4
     static TypeValuePair* New_ctor(System::Type* type, ::Il2CppObject* value);

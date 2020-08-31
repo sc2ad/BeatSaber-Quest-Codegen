@@ -24,7 +24,7 @@ namespace System::Runtime::Remoting {
     // Offset: 0x10
     System::Runtime::Remoting::Messaging::IMessageSink* envoySinks;
     // Creating conversion operator: operator System::Runtime::Remoting::Messaging::IMessageSink*
-    constexpr operator System::Runtime::Remoting::Messaging::IMessageSink*() const {
+    constexpr operator System::Runtime::Remoting::Messaging::IMessageSink*() const noexcept {
       return envoySinks;
     }
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMessageSink sinks)

@@ -16,9 +16,9 @@ namespace OVR::OpenVR {
     // Offset: 0x0
     uint button;
     // Creating value type constructor for type: VREvent_Controller_t
-    constexpr VREvent_Controller_t(uint button_ = {}) : button{button_} {}
+    constexpr VREvent_Controller_t(uint button_ = {}) noexcept : button{button_} {}
     // Creating conversion operator: operator uint
-    constexpr operator uint() const {
+    constexpr operator uint() const noexcept {
       return button;
     }
   }; // OVR.OpenVR.VREvent_Controller_t

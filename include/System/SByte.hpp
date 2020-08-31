@@ -49,9 +49,9 @@ namespace System {
     // Offset: 0x0
     int8_t m_value;
     // Creating value type constructor for type: SByte
-    constexpr SByte(int8_t m_value_ = {}) : m_value{m_value_} {}
+    constexpr SByte(int8_t m_value_ = {}) noexcept : m_value{m_value_} {}
     // Creating conversion operator: operator int8_t
-    constexpr operator int8_t() const {
+    constexpr operator int8_t() const noexcept {
       return m_value;
     }
     // static field const value: static public System.SByte MaxValue

@@ -40,7 +40,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x8
     int m_C;
     // Creating value type constructor for type: Triangle
-    constexpr Triangle(int m_A_ = {}, int m_B_ = {}, int m_C_ = {}) : m_A{m_A_}, m_B{m_B_}, m_C{m_C_} {}
+    constexpr Triangle(int m_A_ = {}, int m_B_ = {}, int m_C_ = {}) noexcept : m_A{m_A_}, m_B{m_B_}, m_C{m_C_} {}
     // public System.Int32 get_a()
     // Offset: 0xA57830
     int get_a();

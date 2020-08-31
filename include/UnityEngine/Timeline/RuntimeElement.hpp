@@ -24,7 +24,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x10
     int intervalBit;
     // Creating conversion operator: operator int
-    constexpr operator int() const {
+    constexpr operator int() const noexcept {
       return intervalBit;
     }
     // public System.Int32 get_intervalBit()

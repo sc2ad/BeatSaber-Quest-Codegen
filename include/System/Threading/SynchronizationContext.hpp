@@ -29,7 +29,7 @@ namespace System::Threading {
     // Offset: 0x10
     System::Threading::SynchronizationContextProperties props;
     // Creating conversion operator: operator System::Threading::SynchronizationContextProperties
-    constexpr operator System::Threading::SynchronizationContextProperties() const {
+    constexpr operator System::Threading::SynchronizationContextProperties() const noexcept {
       return props;
     }
     // Get static field: static private System.Type s_cachedPreparedType1

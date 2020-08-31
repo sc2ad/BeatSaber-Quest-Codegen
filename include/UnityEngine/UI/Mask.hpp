@@ -51,7 +51,7 @@ namespace UnityEngine::UI {
     // Offset: 0x38
     UnityEngine::Material* m_UnmaskMaterial;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.RectTransform get_rectTransform()
     // Offset: 0x1203C10
     UnityEngine::RectTransform* get_rectTransform();

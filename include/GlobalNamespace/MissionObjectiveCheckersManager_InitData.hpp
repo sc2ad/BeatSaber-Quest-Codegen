@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     ::Array<GlobalNamespace::MissionObjective*>* missionObjectives;
     // Creating conversion operator: operator ::Array<GlobalNamespace::MissionObjective*>*
-    constexpr operator ::Array<GlobalNamespace::MissionObjective*>*() const {
+    constexpr operator ::Array<GlobalNamespace::MissionObjective*>*() const noexcept {
       return missionObjectives;
     }
     // public System.Void .ctor(MissionObjective[] missionObjectives)

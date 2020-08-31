@@ -111,7 +111,7 @@ namespace GlobalNamespace {
     // Offset: 0x58
     System::Collections::Generic::HashSet_1<::Il2CppString*>* neverUnloadScenes;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static public System.Single kStandardTransitionLength
     static constexpr const float kStandardTransitionLength = 0.7;
     // Get static field: static public System.Single kStandardTransitionLength

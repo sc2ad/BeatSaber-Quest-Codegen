@@ -26,9 +26,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: Direction
-      constexpr Direction(int value_ = {}) : value{value_} {}
+      constexpr Direction(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public DynamicBoneColliderBase/Direction X
@@ -57,9 +57,9 @@ namespace GlobalNamespace {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: Bound
-      constexpr Bound(int value_ = {}) : value{value_} {}
+      constexpr Bound(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public DynamicBoneColliderBase/Bound Outside
@@ -85,7 +85,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::DynamicBoneColliderBase::Bound m_Bound;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Collide(UnityEngine.Vector3 particlePosition, System.Single particleRadius)
     // Offset: 0x195336C
     void Collide(UnityEngine::Vector3& particlePosition, float particleRadius);

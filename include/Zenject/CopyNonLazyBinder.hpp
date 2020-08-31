@@ -32,7 +32,7 @@ namespace Zenject {
     // Offset: 0x18
     System::Collections::Generic::List_1<Zenject::BindInfo*>* secondaryBindInfos;
     // Deleting conversion operator: operator Zenject::BindInfo*
-    constexpr operator Zenject::BindInfo*() const = delete;
+    constexpr operator Zenject::BindInfo*() const noexcept = delete;
     // System.Void AddSecondaryCopyBindInfo(Zenject.BindInfo bindInfo)
     // Offset: 0xD70AF8
     void AddSecondaryCopyBindInfo(Zenject::BindInfo* bindInfo);

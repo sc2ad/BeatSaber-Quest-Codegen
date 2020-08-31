@@ -17,7 +17,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     ::Il2CppString* path;
     // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const {
+    constexpr operator ::Il2CppString*() const noexcept {
       return path;
     }
     // System.Boolean <Load>b__0(System.String s)

@@ -17,7 +17,7 @@ namespace UnityEngine {
   struct Mathf : public System::ValueType {
     public:
     // Creating value type constructor for type: Mathf
-    constexpr Mathf() {}
+    constexpr Mathf() noexcept {}
     // Get static field: static public readonly System.Single Epsilon
     static float _get_Epsilon();
     // Set static field: static public readonly System.Single Epsilon

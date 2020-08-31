@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::AsyncCachedLoader_2<::Il2CppString*, UnityEngine::Texture2D*>* texture2DCachedAsyncLoader;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void ClearCache()
     // Offset: 0x1953728
     void ClearCache();

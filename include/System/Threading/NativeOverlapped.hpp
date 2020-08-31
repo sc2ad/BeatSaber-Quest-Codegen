@@ -30,7 +30,7 @@ namespace System::Threading {
     // Offset: 0x18
     System::IntPtr EventHandle;
     // Creating value type constructor for type: NativeOverlapped
-    constexpr NativeOverlapped(System::IntPtr InternalLow_ = {}, System::IntPtr InternalHigh_ = {}, int OffsetLow_ = {}, int OffsetHigh_ = {}, System::IntPtr EventHandle_ = {}) : InternalLow{InternalLow_}, InternalHigh{InternalHigh_}, OffsetLow{OffsetLow_}, OffsetHigh{OffsetHigh_}, EventHandle{EventHandle_} {}
+    constexpr NativeOverlapped(System::IntPtr InternalLow_ = {}, System::IntPtr InternalHigh_ = {}, int OffsetLow_ = {}, int OffsetHigh_ = {}, System::IntPtr EventHandle_ = {}) noexcept : InternalLow{InternalLow_}, InternalHigh{InternalHigh_}, OffsetLow{OffsetLow_}, OffsetHigh{OffsetHigh_}, EventHandle{EventHandle_} {}
   }; // System.Threading.NativeOverlapped
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

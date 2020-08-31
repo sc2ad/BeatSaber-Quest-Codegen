@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Offset: 0x4
     int h;
     // Creating value type constructor for type: Sizei
-    constexpr Sizei(int w_ = {}, int h_ = {}) : w{w_}, h{h_} {}
+    constexpr Sizei(int w_ = {}, int h_ = {}) noexcept : w{w_}, h{h_} {}
     // Get static field: static public readonly OVRPlugin/Sizei zero
     static GlobalNamespace::OVRPlugin::Sizei _get_zero();
     // Set static field: static public readonly OVRPlugin/Sizei zero

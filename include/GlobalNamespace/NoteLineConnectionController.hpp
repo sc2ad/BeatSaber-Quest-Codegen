@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     // Offset: 0x7C
     bool didFinish;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didFinishEvent(System.Action`1<NoteLineConnectionController> value)
     // Offset: 0xC313AC
     void add_didFinishEvent(System::Action_1<GlobalNamespace::NoteLineConnectionController*>* value);

@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     // Offset: 0x30
     bool wireframe;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private System.Collections.Hashtable values
     static System::Collections::Hashtable* _get_values();
     // Set static field: static private System.Collections.Hashtable values

@@ -20,9 +20,9 @@ namespace System::Reflection {
     // Offset: 0x0
     ::Array<bool>* byRef;
     // Creating value type constructor for type: ParameterModifier
-    constexpr ParameterModifier(::Array<bool>* byRef_ = {}) : byRef{byRef_} {}
+    constexpr ParameterModifier(::Array<bool>* byRef_ = {}) noexcept : byRef{byRef_} {}
     // Creating conversion operator: operator ::Array<bool>*
-    constexpr operator ::Array<bool>*() const {
+    constexpr operator ::Array<bool>*() const noexcept {
       return byRef;
     }
   }; // System.Reflection.ParameterModifier

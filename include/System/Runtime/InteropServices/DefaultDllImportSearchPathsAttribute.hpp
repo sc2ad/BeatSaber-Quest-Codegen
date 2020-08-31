@@ -19,7 +19,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x10
     System::Runtime::InteropServices::DllImportSearchPath paths;
     // Creating conversion operator: operator System::Runtime::InteropServices::DllImportSearchPath
-    constexpr operator System::Runtime::InteropServices::DllImportSearchPath() const {
+    constexpr operator System::Runtime::InteropServices::DllImportSearchPath() const noexcept {
       return paths;
     }
     // public System.Void .ctor(System.Runtime.InteropServices.DllImportSearchPath paths)

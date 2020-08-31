@@ -24,7 +24,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x10
     System::Type* StateMachineType;
     // Creating conversion operator: operator System::Type*
-    constexpr operator System::Type*() const {
+    constexpr operator System::Type*() const noexcept {
       return StateMachineType;
     }
     // private System.Void set_StateMachineType(System.Type value)

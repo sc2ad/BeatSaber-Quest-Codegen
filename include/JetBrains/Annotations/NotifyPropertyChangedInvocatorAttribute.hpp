@@ -17,7 +17,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x10
     ::Il2CppString* ParameterName;
     // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const {
+    constexpr operator ::Il2CppString*() const noexcept {
       return ParameterName;
     }
     // public System.Void .ctor(System.String parameterName)

@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::MainCamera* mainCamera;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Start()
     // Offset: 0xC2E05C
     void Start();

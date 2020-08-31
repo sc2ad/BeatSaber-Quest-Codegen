@@ -76,9 +76,9 @@ namespace UnityEngine::UI {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: MovementType
-      constexpr MovementType(int value_ = {}) : value{value_} {}
+      constexpr MovementType(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public UnityEngine.UI.ScrollRect/MovementType Unrestricted
@@ -107,9 +107,9 @@ namespace UnityEngine::UI {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: ScrollbarVisibility
-      constexpr ScrollbarVisibility(int value_ = {}) : value{value_} {}
+      constexpr ScrollbarVisibility(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public UnityEngine.UI.ScrollRect/ScrollbarVisibility Permanent
@@ -243,7 +243,7 @@ namespace UnityEngine::UI {
     // Offset: 0x120
     ::Array<UnityEngine::Vector3>* m_Corners;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.RectTransform get_content()
     // Offset: 0x120B1C0
     UnityEngine::RectTransform* get_content();

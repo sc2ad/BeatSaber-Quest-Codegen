@@ -24,7 +24,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x10
     System::Diagnostics::Tracing::ActivityFilter* filterList;
     // Creating conversion operator: operator System::Diagnostics::Tracing::ActivityFilter*
-    constexpr operator System::Diagnostics::Tracing::ActivityFilter*() const {
+    constexpr operator System::Diagnostics::Tracing::ActivityFilter*() const noexcept {
       return filterList;
     }
     // System.Void <GetActivityDyingDelegate>b__0(System.Guid oldActivity)

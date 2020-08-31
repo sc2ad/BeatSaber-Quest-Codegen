@@ -30,9 +30,9 @@ namespace System::Diagnostics {
       // Offset: 0x0
       int value;
       // Creating value type constructor for type: DebuggingModes
-      constexpr DebuggingModes(int value_ = {}) : value{value_} {}
+      constexpr DebuggingModes(int value_ = {}) noexcept : value{value_} {}
       // Creating conversion operator: operator int
-      constexpr operator int() const {
+      constexpr operator int() const noexcept {
         return value;
       }
       // static field const value: static public System.Diagnostics.DebuggableAttribute/DebuggingModes None
@@ -70,7 +70,7 @@ namespace System::Diagnostics {
     // Offset: 0x10
     System::Diagnostics::DebuggableAttribute::DebuggingModes m_debuggingModes;
     // Creating conversion operator: operator System::Diagnostics::DebuggableAttribute::DebuggingModes
-    constexpr operator System::Diagnostics::DebuggableAttribute::DebuggingModes() const {
+    constexpr operator System::Diagnostics::DebuggableAttribute::DebuggingModes() const noexcept {
       return m_debuggingModes;
     }
     // public System.Void .ctor(System.Diagnostics.DebuggableAttribute/DebuggingModes modes)

@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Offset: 0x2C
     bool isInitialized;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Color get_color()
     // Offset: 0x1829560
     UnityEngine::Color get_color();

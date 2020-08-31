@@ -25,7 +25,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0xC
     uint Reserved;
     // Creating value type constructor for type: EventData
-    constexpr EventData(uint64_t Ptr_ = {}, uint Size_ = {}, uint Reserved_ = {}) : Ptr{Ptr_}, Size{Size_}, Reserved{Reserved_} {}
+    constexpr EventData(uint64_t Ptr_ = {}, uint Size_ = {}, uint Reserved_ = {}) noexcept : Ptr{Ptr_}, Size{Size_}, Reserved{Reserved_} {}
   }; // System.Diagnostics.Tracing.EventProvider/EventData
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

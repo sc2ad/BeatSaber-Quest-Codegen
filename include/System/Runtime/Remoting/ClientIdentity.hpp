@@ -33,7 +33,7 @@ namespace System::Runtime::Remoting {
     // Offset: 0x48
     System::WeakReference* proxyReference;
     // Creating conversion operator: operator System::WeakReference*
-    constexpr operator System::WeakReference*() const {
+    constexpr operator System::WeakReference*() const noexcept {
       return proxyReference;
     }
     // public System.Void .ctor(System.String objectUri, System.Runtime.Remoting.ObjRef objRef)

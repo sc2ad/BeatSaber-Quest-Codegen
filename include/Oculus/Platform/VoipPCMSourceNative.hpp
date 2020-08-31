@@ -17,7 +17,7 @@ namespace Oculus::Platform {
     // Offset: 0x10
     uint64_t senderID;
     // Creating conversion operator: operator uint64_t
-    constexpr operator uint64_t() const {
+    constexpr operator uint64_t() const noexcept {
       return senderID;
     }
     // public System.Int32 GetPCM(System.Single[] dest, System.Int32 length)

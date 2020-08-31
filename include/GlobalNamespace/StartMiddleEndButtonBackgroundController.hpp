@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Offset: 0x30
     HMUI::ImageView* image;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void SetStartSprite()
     // Offset: 0xBA5D40
     void SetStartSprite();

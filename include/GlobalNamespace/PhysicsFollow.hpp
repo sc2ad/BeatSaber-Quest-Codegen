@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Offset: 0x38
     UnityEngine::Rigidbody2D* rigidBody2D;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
     // Offset: 0xCBB32C
     void Start();

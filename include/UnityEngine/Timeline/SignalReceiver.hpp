@@ -46,7 +46,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x18
     UnityEngine::Timeline::SignalReceiver::EventKeyValue* m_Events;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void AddReaction(UnityEngine.Timeline.SignalAsset asset, UnityEngine.Events.UnityEvent reaction)
     // Offset: 0x109F83C
     void AddReaction(UnityEngine::Timeline::SignalAsset* asset, UnityEngine::Events::UnityEvent* reaction);

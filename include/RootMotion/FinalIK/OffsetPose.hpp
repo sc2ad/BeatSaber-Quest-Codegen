@@ -30,7 +30,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x18
     ::Array<RootMotion::FinalIK::OffsetPose::EffectorLink*>* effectorLinks;
     // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const = delete;
+    constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
     // Offset: 0x1233D58
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight);
