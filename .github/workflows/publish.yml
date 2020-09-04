@@ -114,8 +114,8 @@ jobs:
         git config user.email "<>"
     - name: Commit Edit Version
       run: |
-        git add ./Android.mk qpm.json
-        git commit -m "Update Version"
+        git add ./Android.mk qpm.json qpm.shared.json
+        git commit -m "Update Version and post restore"
     # Then, we want to use the commit we have just made, and force push our tag to that commit
     - name: Get Commit ID
       id: get_commit_id
@@ -175,7 +175,7 @@ jobs:
         ./QPM/QPM package edit-extra "soLink" "${{ steps.upload_release_asset.outputs.browser_download_url }}"
     - name: Commit Changed package info
       run: |
-        git add qpm.json
+        git add qpm.json qpm.shared.json
         git commit -m "Updated qpm.json"
       
     # Then, we want to use the commit we have just made, and force push our tag to that commit
