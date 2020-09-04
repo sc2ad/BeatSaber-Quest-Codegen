@@ -45,7 +45,7 @@ namespace UnityEngine::Audio {
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0xA5EAE8
     static AudioMixerPlayable* New_ctor(UnityEngine::Playables::PlayableHandle handle);
-    // static private System.Boolean CreateAudioMixerPlayableInternal(UnityEngine.Playables.PlayableGraph graph, System.Boolean normalizeInputVolumes, UnityEngine.Playables.PlayableHandle handle)
+    // static private System.Boolean CreateAudioMixerPlayableInternal(ref UnityEngine.Playables.PlayableGraph graph, System.Boolean normalizeInputVolumes, ref UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0x195CB08
     static bool CreateAudioMixerPlayableInternal(UnityEngine::Playables::PlayableGraph& graph, bool normalizeInputVolumes, UnityEngine::Playables::PlayableHandle& handle);
     // public UnityEngine.Playables.PlayableHandle GetHandle()

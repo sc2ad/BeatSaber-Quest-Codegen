@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: AudioLatencyViewController
 #include "GlobalNamespace/AudioLatencyViewController.hpp"
 // Including type: FloatSO

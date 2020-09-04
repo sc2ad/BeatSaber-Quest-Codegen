@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.Serialization.Formatters.Binary.ObjectNull
 #include "System/Runtime/Serialization/Formatters/Binary/ObjectNull.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.__BinaryWriter

@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     // public MissionResultsViewController <>4__this
     // Offset: 0x28
     GlobalNamespace::MissionResultsViewController* $$4__this;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xC0DEB8
     static MissionResultsViewController::$StartFireworksAfterDelay$d__27* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

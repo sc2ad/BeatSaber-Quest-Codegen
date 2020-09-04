@@ -41,7 +41,7 @@ namespace Valve::VR {
     // public System.Void .ctor(Valve.VR.RenderModel_t unpacked)
     // Offset: 0xA5D730
     static RenderModel_t_Packed* New_ctor(Valve::VR::RenderModel_t unpacked);
-    // public System.Void Unpack(Valve.VR.RenderModel_t unpacked)
+    // public System.Void Unpack(ref Valve.VR.RenderModel_t unpacked)
     // Offset: 0xA5D750
     void Unpack(Valve::VR::RenderModel_t& unpacked);
   }; // Valve.VR.RenderModel_t_Packed

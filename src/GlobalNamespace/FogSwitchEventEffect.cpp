@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: FogSwitchEventEffect
 #include "GlobalNamespace/FogSwitchEventEffect.hpp"
 // Including type: FogSwitchEventEffect/<AnimateToFogCoroutine>d__8

@@ -79,5 +79,5 @@ void System::Diagnostics::Tracing::ActivityFilter::Dispose() {
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose"));
 }
 void System::Diagnostics::Tracing::ActivityFilter::System_IDisposable_Dispose() {
-  Dispose();
+  System::Diagnostics::Tracing::ActivityFilter::Dispose();
 }

@@ -129,7 +129,7 @@ namespace System::Threading {
     // public System.Void Start(System.Object parameter)
     // Offset: 0xCE97C4
     void Start(::Il2CppObject* parameter);
-    // private System.Void Start(System.Threading.StackCrawlMark stackMark)
+    // private System.Void Start(ref System.Threading.StackCrawlMark stackMark)
     // Offset: 0xCE9D34
     void Start(System::Threading::StackCrawlMark& stackMark);
     // System.Threading.ExecutionContext/Reader GetExecutionContextReader()
@@ -249,7 +249,7 @@ namespace System::Threading {
     // static public System.Void SpinWait(System.Int32 iterations)
     // Offset: 0xCDE188
     static void SpinWait(int iterations);
-    // private System.Void StartInternal(System.Security.Principal.IPrincipal principal, System.Threading.StackCrawlMark stackMark)
+    // private System.Void StartInternal(System.Security.Principal.IPrincipal principal, ref System.Threading.StackCrawlMark stackMark)
     // Offset: 0xCE9E18
     void StartInternal(System::Security::Principal::IPrincipal* principal, System::Threading::StackCrawlMark& stackMark);
     // static private System.Void SetState(System.Threading.InternalThread thread, System.Threading.ThreadState set)

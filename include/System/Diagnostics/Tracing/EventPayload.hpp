@@ -7,8 +7,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Collections.Generic.IDictionary`2
 #include "System/Collections/Generic/IDictionary_2.hpp"
-// Including type: System.Collections.Generic.KeyValuePair`2
-#include "System/Collections/Generic/KeyValuePair_2.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Diagnostics::Tracing
@@ -16,9 +14,6 @@ namespace System::Diagnostics::Tracing {
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
   // Forward declaring type: List`1<T>
   template<typename T>
   class List_1;
@@ -58,7 +53,7 @@ namespace System::Diagnostics::Tracing {
     // public System.Void CopyTo(System.Collections.Generic.KeyValuePair`2<System.String,System.Object>[] payloadEntries, System.Int32 count)
     // Offset: 0xC9CAC0
     void CopyTo(::Array<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, ::Il2CppObject*>>* payloadEntries, int count);
-    // public System.Boolean TryGetValue(System.String key, System.Object value)
+    // public System.Boolean TryGetValue(System.String key, out System.Object value)
     // Offset: 0xC9CBE0
     bool TryGetValue(::Il2CppString* key, ::Il2CppObject*& value);
     // public System.Object get_Item(System.String key)

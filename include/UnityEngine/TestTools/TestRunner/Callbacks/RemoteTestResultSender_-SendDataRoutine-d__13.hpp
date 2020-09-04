@@ -30,7 +30,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // private System.Boolean <>7__wrap2
     // Offset: 0x30
     bool $$7__wrap2;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xE46574
     static RemoteTestResultSender::$SendDataRoutine$d__13* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()

@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include <initializer_list>
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -67,9 +68,16 @@ namespace UnityEngine {
     // static public System.Single Max(System.Single a, System.Single b)
     // Offset: 0x1410FF4
     static float Max(float a, float b);
-    // static public System.Single Max(System.Single[] values)
+    // static public System.Single Max(params System.Single[] values)
     // Offset: 0x1411000
     static float Max(::Array<float>* values);
+    // Creating initializer_list -> params proxy for: System.Single Max(params System.Single[] values)
+    static float Max(std::initializer_list<float> values);
+    // Creating TArgs -> initializer_list proxy for: System.Single Max(params System.Single[] values)
+    template<class ...TParams>
+    static float Max(TParams&&... values) {
+      return Max({values...});
+    }
     // static public System.Int32 Max(System.Int32 a, System.Int32 b)
     // Offset: 0x1411054
     static int Max(int a, int b);
@@ -124,10 +132,10 @@ namespace UnityEngine {
     // static public System.Boolean Approximately(System.Single a, System.Single b)
     // Offset: 0x1411700
     static bool Approximately(float a, float b);
-    // static public System.Single SmoothDamp(System.Single current, System.Single target, System.Single currentVelocity, System.Single smoothTime)
+    // static public System.Single SmoothDamp(System.Single current, System.Single target, ref System.Single currentVelocity, System.Single smoothTime)
     // Offset: 0x14117B0
     static float SmoothDamp(float current, float target, float& currentVelocity, float smoothTime);
-    // static public System.Single SmoothDamp(System.Single current, System.Single target, System.Single currentVelocity, System.Single smoothTime, System.Single maxSpeed, System.Single deltaTime)
+    // static public System.Single SmoothDamp(System.Single current, System.Single target, ref System.Single currentVelocity, System.Single smoothTime, System.Single maxSpeed, System.Single deltaTime)
     // Offset: 0x1411854
     static float SmoothDamp(float current, float target, float& currentVelocity, float smoothTime, float maxSpeed, float deltaTime);
     // static public System.Single Repeat(System.Single t, System.Single length)

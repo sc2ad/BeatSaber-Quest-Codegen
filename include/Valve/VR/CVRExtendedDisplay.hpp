@@ -35,13 +35,13 @@ namespace Valve::VR {
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0xFE5A68
     static CVRExtendedDisplay* New_ctor(System::IntPtr pInterface);
-    // public System.Void GetWindowBounds(System.Int32 pnX, System.Int32 pnY, System.UInt32 pnWidth, System.UInt32 pnHeight)
+    // public System.Void GetWindowBounds(ref System.Int32 pnX, ref System.Int32 pnY, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)
     // Offset: 0xFE5B78
     void GetWindowBounds(int& pnX, int& pnY, uint& pnWidth, uint& pnHeight);
-    // public System.Void GetEyeOutputViewport(Valve.VR.EVREye eEye, System.UInt32 pnX, System.UInt32 pnY, System.UInt32 pnWidth, System.UInt32 pnHeight)
+    // public System.Void GetEyeOutputViewport(Valve.VR.EVREye eEye, ref System.UInt32 pnX, ref System.UInt32 pnY, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)
     // Offset: 0xFE5BA4
     void GetEyeOutputViewport(Valve::VR::EVREye eEye, uint& pnX, uint& pnY, uint& pnWidth, uint& pnHeight);
-    // public System.Void GetDXGIOutputInfo(System.Int32 pnAdapterIndex, System.Int32 pnAdapterOutputIndex)
+    // public System.Void GetDXGIOutputInfo(ref System.Int32 pnAdapterIndex, ref System.Int32 pnAdapterOutputIndex)
     // Offset: 0xFE5BD0
     void GetDXGIOutputInfo(int& pnAdapterIndex, int& pnAdapterOutputIndex);
   }; // Valve.VR.CVRExtendedDisplay

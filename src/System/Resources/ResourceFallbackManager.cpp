@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Resources.ResourceFallbackManager
 #include "System/Resources/ResourceFallbackManager.hpp"
 // Including type: System.Resources.ResourceFallbackManager/<GetEnumerator>d__5

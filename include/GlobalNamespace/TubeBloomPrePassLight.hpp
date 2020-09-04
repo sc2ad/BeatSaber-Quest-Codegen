@@ -87,7 +87,7 @@ namespace GlobalNamespace {
     // private System.Void Refresh()
     // Offset: 0x18302C4
     void Refresh();
-    // private System.Void ClipPoints(UnityEngine.Vector4 fromPointClipPos, UnityEngine.Vector4 toPointClipPos, UnityEngine.Vector3 fromPointViewPos, UnityEngine.Vector3 toPointViewPos, System.Boolean fromPointInside, System.Single t)
+    // private System.Void ClipPoints(ref UnityEngine.Vector4 fromPointClipPos, ref UnityEngine.Vector4 toPointClipPos, ref UnityEngine.Vector3 fromPointViewPos, ref UnityEngine.Vector3 toPointViewPos, System.Boolean fromPointInside, System.Single t)
     // Offset: 0x18311E0
     void ClipPoints(UnityEngine::Vector4& fromPointClipPos, UnityEngine::Vector4& toPointClipPos, UnityEngine::Vector3& fromPointViewPos, UnityEngine::Vector3& toPointViewPos, bool fromPointInside, float t);
     // protected System.Void OnDrawGizmos()

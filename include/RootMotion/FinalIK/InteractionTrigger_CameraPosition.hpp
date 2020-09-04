@@ -46,7 +46,7 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.Quaternion GetRotation()
     // Offset: 0x1230EC8
     UnityEngine::Quaternion GetRotation();
-    // public System.Boolean IsInRange(UnityEngine.Transform raycastFrom, UnityEngine.RaycastHit hit, UnityEngine.Transform trigger, System.Single error)
+    // public System.Boolean IsInRange(UnityEngine.Transform raycastFrom, UnityEngine.RaycastHit hit, UnityEngine.Transform trigger, out System.Single error)
     // Offset: 0x1231070
     bool IsInRange(UnityEngine::Transform* raycastFrom, UnityEngine::RaycastHit hit, UnityEngine::Transform* trigger, float& error);
     // public System.Void .ctor()

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Net.Sockets.Socket/<>c
 #include "System/Net/Sockets/Socket_--c.hpp"
 // Including type: System.IOAsyncCallback

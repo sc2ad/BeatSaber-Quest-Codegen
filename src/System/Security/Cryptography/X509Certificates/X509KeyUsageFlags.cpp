@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Security.Cryptography.X509Certificates.X509KeyUsageFlags
 #include "System/Security/Cryptography/X509Certificates/X509KeyUsageFlags.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

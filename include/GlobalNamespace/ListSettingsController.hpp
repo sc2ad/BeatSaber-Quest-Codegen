@@ -19,7 +19,7 @@ namespace GlobalNamespace {
     // private System.Int32 _numberOfElements
     // Offset: 0x34
     int numberOfElements;
-    // protected System.Boolean GetInitValues(System.Int32 idx, System.Int32 numberOfElements)
+    // protected System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     // Offset: 0xFFFFFFFF
     bool GetInitValues(int& idx, int& numberOfElements);
     // protected System.Void ApplyValue(System.Int32 idx)

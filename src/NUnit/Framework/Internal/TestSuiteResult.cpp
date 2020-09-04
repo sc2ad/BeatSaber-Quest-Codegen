@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Internal.TestSuiteResult
 #include "NUnit/Framework/Internal/TestSuiteResult.hpp"
 // Including type: System.Collections.Generic.List`1

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: SimpleRetailDemoFlowCoordinator/<>c__DisplayClass22_0
 #include "GlobalNamespace/SimpleRetailDemoFlowCoordinator_--c__DisplayClass22_0.hpp"
 // Including type: ResultsViewController

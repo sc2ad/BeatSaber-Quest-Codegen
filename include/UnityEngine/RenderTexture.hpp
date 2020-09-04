@@ -174,19 +174,19 @@ namespace UnityEngine {
     // static public UnityEngine.RenderTexture GetTemporary(System.Int32 width, System.Int32 height)
     // Offset: 0x1425554
     static UnityEngine::RenderTexture* GetTemporary(int width, int height);
-    // private System.Void GetColorBuffer_Injected(UnityEngine.RenderBuffer ret)
+    // private System.Void GetColorBuffer_Injected(out UnityEngine.RenderBuffer ret)
     // Offset: 0x1423EA4
     void GetColorBuffer_Injected(UnityEngine::RenderBuffer& ret);
-    // private System.Void GetDepthBuffer_Injected(UnityEngine.RenderBuffer ret)
+    // private System.Void GetDepthBuffer_Injected(out UnityEngine.RenderBuffer ret)
     // Offset: 0x1423F4C
     void GetDepthBuffer_Injected(UnityEngine::RenderBuffer& ret);
-    // private System.Void SetRenderTextureDescriptor_Injected(UnityEngine.RenderTextureDescriptor desc)
+    // private System.Void SetRenderTextureDescriptor_Injected(ref UnityEngine.RenderTextureDescriptor desc)
     // Offset: 0x14241E4
     void SetRenderTextureDescriptor_Injected(UnityEngine::RenderTextureDescriptor& desc);
-    // private System.Void GetDescriptor_Injected(UnityEngine.RenderTextureDescriptor ret)
+    // private System.Void GetDescriptor_Injected(out UnityEngine.RenderTextureDescriptor ret)
     // Offset: 0x14242C0
     void GetDescriptor_Injected(UnityEngine::RenderTextureDescriptor& ret);
-    // static private UnityEngine.RenderTexture GetTemporary_Internal_Injected(UnityEngine.RenderTextureDescriptor desc)
+    // static private UnityEngine.RenderTexture GetTemporary_Internal_Injected(ref UnityEngine.RenderTextureDescriptor desc)
     // Offset: 0x1424350
     static UnityEngine::RenderTexture* GetTemporary_Internal_Injected(UnityEngine::RenderTextureDescriptor& desc);
     // public override System.Int32 get_width()

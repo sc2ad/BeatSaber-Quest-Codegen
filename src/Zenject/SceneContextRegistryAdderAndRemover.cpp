@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.SceneContextRegistryAdderAndRemover
 #include "Zenject/SceneContextRegistryAdderAndRemover.hpp"
 // Including type: Zenject.SceneContextRegistry
@@ -25,5 +24,5 @@ void Zenject::SceneContextRegistryAdderAndRemover::Dispose() {
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose"));
 }
 void Zenject::SceneContextRegistryAdderAndRemover::System_IDisposable_Dispose() {
-  Dispose();
+  Zenject::SceneContextRegistryAdderAndRemover::Dispose();
 }

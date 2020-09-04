@@ -14,3 +14,7 @@
 UnityEngine::AssetFileNameExtensionAttribute* UnityEngine::AssetFileNameExtensionAttribute::New_ctor(::Il2CppString* preferredExtension, ::Array<::Il2CppString*>* otherExtensions) {
   return (AssetFileNameExtensionAttribute*)THROW_UNLESS(il2cpp_utils::New("UnityEngine", "AssetFileNameExtensionAttribute", preferredExtension, otherExtensions));
 }
+// Creating initializer_list -> params proxy for: System.Void .ctor(System.String preferredExtension, params System.String[] otherExtensions)
+UnityEngine::AssetFileNameExtensionAttribute* UnityEngine::AssetFileNameExtensionAttribute::New_ctor(::Il2CppString* preferredExtension, std::initializer_list<::Il2CppString*> otherExtensions) {
+  return UnityEngine::AssetFileNameExtensionAttribute::New_ctor(preferredExtension, ::Array<::Il2CppString*>::New(otherExtensions));
+}

@@ -724,10 +724,10 @@ namespace UnityEngine {
     // System.Void OnSelectIndexChange()
     // Offset: 0x127D528
     void OnSelectIndexChange();
-    // private System.Void ClampTextIndex(System.Int32 index)
+    // private System.Void ClampTextIndex(ref System.Int32 index)
     // Offset: 0x127D52C
     void ClampTextIndex(int& index);
-    // private System.Void EnsureValidCodePointIndex(System.Int32 index)
+    // private System.Void EnsureValidCodePointIndex(ref System.Int32 index)
     // Offset: 0x127A270
     void EnsureValidCodePointIndex(int& index);
     // private System.Boolean IsValidCodePointIndex(System.Int32 index)

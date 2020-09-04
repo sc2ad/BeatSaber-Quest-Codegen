@@ -17,8 +17,6 @@
 // Begin forward declares
 // Forward declaring namespace: System::Diagnostics::Tracing
 namespace System::Diagnostics::Tracing {
-  // Skipping declaration: TraceLoggingTypeInfo`1 because it is already included!
-  // Skipping declaration: TraceLoggingTypeInfo`1 because it is already included!
   // Forward declaring type: TraceLoggingDataCollector
   class TraceLoggingDataCollector;
   // Forward declaring type: TraceLoggingMetadataCollector
@@ -37,7 +35,7 @@ namespace System::Diagnostics::Tracing {
     // private readonly System.Diagnostics.Tracing.TraceLoggingTypeInfo`1<V> valueInfo
     // Offset: 0x0
     System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<V>* valueInfo;
-    // public System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, System.Collections.Generic.KeyValuePair`2<K,V> value)
+    // public System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref System.Collections.Generic.KeyValuePair`2<K,V> value)
     // Offset: 0xFFFFFFFF
     void WriteData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, System::Collections::Generic::KeyValuePair_2<K, V>& value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "WriteData", collector, value));

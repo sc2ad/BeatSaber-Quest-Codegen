@@ -29,10 +29,10 @@ namespace System::Threading {
     // public System.Threading.ThreadPoolWorkQueue/QueueSegment Next
     // Offset: 0x20
     System::Threading::ThreadPoolWorkQueue::QueueSegment* Next;
-    // private System.Void GetIndexes(System.Int32 upper, System.Int32 lower)
+    // private System.Void GetIndexes(out System.Int32 upper, out System.Int32 lower)
     // Offset: 0xCED170
     void GetIndexes(int& upper, int& lower);
-    // private System.Boolean CompareExchangeIndexes(System.Int32 prevUpper, System.Int32 newUpper, System.Int32 prevLower, System.Int32 newLower)
+    // private System.Boolean CompareExchangeIndexes(ref System.Int32 prevUpper, System.Int32 newUpper, ref System.Int32 prevLower, System.Int32 newLower)
     // Offset: 0xCED1B0
     bool CompareExchangeIndexes(int& prevUpper, int newUpper, int& prevLower, int newLower);
     // public System.Boolean IsUsedUp()
@@ -41,7 +41,7 @@ namespace System::Threading {
     // public System.Boolean TryEnqueue(System.Threading.IThreadPoolWorkItem node)
     // Offset: 0xCEC0E0
     bool TryEnqueue(System::Threading::IThreadPoolWorkItem* node);
-    // public System.Boolean TryDequeue(System.Threading.IThreadPoolWorkItem node)
+    // public System.Boolean TryDequeue(out System.Threading.IThreadPoolWorkItem node)
     // Offset: 0xCEC95C
     bool TryDequeue(System::Threading::IThreadPoolWorkItem*& node);
     // public System.Void .ctor()

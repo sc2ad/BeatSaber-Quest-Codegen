@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.TestTools.ImmediateEnumerableCommand
 #include "UnityEngine/TestTools/ImmediateEnumerableCommand.hpp"
 // Including type: NUnit.Framework.Internal.TestResult

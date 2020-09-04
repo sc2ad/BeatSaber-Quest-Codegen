@@ -27,9 +27,6 @@ namespace Zenject {
   class BindInfo;
   // Forward declaring type: FactoryBindInfo
   class FactoryBindInfo;
-  // Forward declaring type: FactorySubContainerBinder`3<TContract, TParam1, TParam2>
-  template<typename TContract, typename TParam1, typename TParam2>
-  class FactorySubContainerBinder_3;
   // Forward declaring type: SubContainerCreatorBindInfo
   class SubContainerCreatorBindInfo;
   // Forward declaring type: IProvider

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Unity.Collections.LowLevel.Unsafe.UnsafeUtility
 #include "Unity/Collections/LowLevel/Unsafe/UnsafeUtility.hpp"
 // Including type: Unity.Collections.Allocator

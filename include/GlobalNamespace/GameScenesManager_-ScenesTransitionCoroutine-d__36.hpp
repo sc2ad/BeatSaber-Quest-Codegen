@@ -101,7 +101,7 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.List`1/Enumerator<System.String> <>7__wrap6
     // Offset: 0x88
     typename System::Collections::Generic::List_1<::Il2CppString*>::Enumerator $$7__wrap6;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xCB3D90
     static GameScenesManager::$ScenesTransitionCoroutine$d__36* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()

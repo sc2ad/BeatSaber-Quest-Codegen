@@ -173,7 +173,7 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.RaycastHit GetRootHit(System.Single maxDistanceMlp)
     // Offset: 0x137C294
     UnityEngine::RaycastHit GetRootHit(float maxDistanceMlp);
-    // public System.Boolean IsValid(System.String errorMessage)
+    // public System.Boolean IsValid(ref System.String errorMessage)
     // Offset: 0x137C674
     bool IsValid(::Il2CppString*& errorMessage);
     // public System.Void Initiate(UnityEngine.Transform root, UnityEngine.Transform[] feet)

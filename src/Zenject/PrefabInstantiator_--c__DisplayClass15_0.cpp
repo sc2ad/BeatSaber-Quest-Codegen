@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.PrefabInstantiator/<>c__DisplayClass15_0
 #include "Zenject/PrefabInstantiator_--c__DisplayClass15_0.hpp"
 // Including type: System.Collections.Generic.List`1

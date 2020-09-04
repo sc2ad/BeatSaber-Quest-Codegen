@@ -43,13 +43,13 @@ namespace UnityEngine {
     // static private System.Void Internal_Destroy(System.IntPtr ptr)
     // Offset: 0x1941E18
     static void Internal_Destroy(System::IntPtr ptr);
-    // private System.Void GetHumanPose(UnityEngine.Vector3 bodyPosition, UnityEngine.Quaternion bodyRotation, System.Single[] muscles)
+    // private System.Void GetHumanPose(out UnityEngine.Vector3 bodyPosition, out UnityEngine.Quaternion bodyRotation, out System.Single[] muscles)
     // Offset: 0x1941E58
     void GetHumanPose(UnityEngine::Vector3& bodyPosition, UnityEngine::Quaternion& bodyRotation, ::Array<float>*& muscles);
     // public System.Void .ctor(UnityEngine.Avatar avatar, UnityEngine.Transform root)
     // Offset: 0x1941F74
     static HumanPoseHandler* New_ctor(UnityEngine::Avatar* avatar, UnityEngine::Transform* root);
-    // public System.Void GetHumanPose(UnityEngine.HumanPose humanPose)
+    // public System.Void GetHumanPose(ref UnityEngine.HumanPose humanPose)
     // Offset: 0x1942164
     void GetHumanPose(UnityEngine::HumanPose& humanPose);
     // public System.Void Dispose()

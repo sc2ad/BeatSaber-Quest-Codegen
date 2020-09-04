@@ -19,9 +19,6 @@ namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
   template<typename T>
   class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
 }
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
@@ -115,7 +112,7 @@ namespace GlobalNamespace {
     // protected System.Void OnDisable()
     // Offset: 0xBFC050
     void OnDisable();
-    // static private System.Void LoadLeaderboardsData(System.String filename, System.Collections.Generic.List`1<LocalLeaderboardsModel/LeaderboardData> leaderboardsData)
+    // static private System.Void LoadLeaderboardsData(System.String filename, out System.Collections.Generic.List`1<LocalLeaderboardsModel/LeaderboardData> leaderboardsData)
     // Offset: 0xBFC0B8
     static void LoadLeaderboardsData(::Il2CppString* filename, System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>*& leaderboardsData);
     // static private System.Void SaveLeaderboardsData(System.String filename, System.Collections.Generic.List`1<LocalLeaderboardsModel/LeaderboardData> leaderboardsData)

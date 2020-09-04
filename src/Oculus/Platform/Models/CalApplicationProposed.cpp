@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.Models.CalApplicationProposed
 #include "Oculus/Platform/Models/CalApplicationProposed.hpp"
 // Including type: System.IntPtr

@@ -90,10 +90,10 @@ namespace System {
     // static public System.Version Parse(System.String input)
     // Offset: 0x17A0EDC
     static System::Version* Parse(::Il2CppString* input);
-    // static private System.Boolean TryParseVersion(System.String version, System.Version/VersionResult result)
+    // static private System.Boolean TryParseVersion(System.String version, ref System.Version/VersionResult result)
     // Offset: 0x17A1940
     static bool TryParseVersion(::Il2CppString* version, System::Version::VersionResult& result);
-    // static private System.Boolean TryParseComponent(System.String component, System.String componentName, System.Version/VersionResult result, System.Int32 parsedComponent)
+    // static private System.Boolean TryParseComponent(System.String component, System.String componentName, ref System.Version/VersionResult result, out System.Int32 parsedComponent)
     // Offset: 0x17A1E78
     static bool TryParseComponent(::Il2CppString* component, ::Il2CppString* componentName, System::Version::VersionResult& result, int& parsedComponent);
     // static private System.Void .cctor()

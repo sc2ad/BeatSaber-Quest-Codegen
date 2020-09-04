@@ -33,13 +33,13 @@ namespace Valve::VR {
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x192AE30
     static IVRTrackedCamera::_HasCamera* New_ctor(::Il2CppObject* object, System::IntPtr method);
-    // public Valve.VR.EVRTrackedCameraError Invoke(System.UInt32 nDeviceIndex, System.Boolean pHasCamera)
+    // public Valve.VR.EVRTrackedCameraError Invoke(System.UInt32 nDeviceIndex, ref System.Boolean pHasCamera)
     // Offset: 0x192AE44
     Valve::VR::EVRTrackedCameraError Invoke(uint nDeviceIndex, bool& pHasCamera);
-    // public System.IAsyncResult BeginInvoke(System.UInt32 nDeviceIndex, System.Boolean pHasCamera, System.AsyncCallback callback, System.Object object)
+    // public System.IAsyncResult BeginInvoke(System.UInt32 nDeviceIndex, ref System.Boolean pHasCamera, System.AsyncCallback callback, System.Object object)
     // Offset: 0x192B0D4
     System::IAsyncResult* BeginInvoke(uint nDeviceIndex, bool& pHasCamera, System::AsyncCallback* callback, ::Il2CppObject* object);
-    // public Valve.VR.EVRTrackedCameraError EndInvoke(System.Boolean pHasCamera, System.IAsyncResult result)
+    // public Valve.VR.EVRTrackedCameraError EndInvoke(ref System.Boolean pHasCamera, System.IAsyncResult result)
     // Offset: 0x192B188
     Valve::VR::EVRTrackedCameraError EndInvoke(bool& pHasCamera, System::IAsyncResult* result);
   }; // Valve.VR.IVRTrackedCamera/_HasCamera

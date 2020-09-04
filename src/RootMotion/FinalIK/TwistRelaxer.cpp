@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.TwistRelaxer
 #include "RootMotion/FinalIK/TwistRelaxer.hpp"
 // Including type: RootMotion.FinalIK.IK

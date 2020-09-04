@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Threading.ThreadPoolWorkQueue
 #include "System/Threading/ThreadPoolWorkQueue.hpp"
 // Including type: System.Threading.ThreadPoolWorkQueue/SparseArray`1

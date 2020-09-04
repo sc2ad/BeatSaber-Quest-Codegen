@@ -37,13 +37,13 @@ namespace OVR::OpenVR {
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16B9B6C
     static IVRSpatialAnchors::_CreateSpatialAnchorFromPose* New_ctor(::Il2CppObject* object, System::IntPtr method);
-    // public OVR.OpenVR.EVRSpatialAnchorError Invoke(System.UInt32 unDeviceIndex, OVR.OpenVR.ETrackingUniverseOrigin eOrigin, OVR.OpenVR.SpatialAnchorPose_t pPose, System.UInt32 pHandleOut)
+    // public OVR.OpenVR.EVRSpatialAnchorError Invoke(System.UInt32 unDeviceIndex, OVR.OpenVR.ETrackingUniverseOrigin eOrigin, ref OVR.OpenVR.SpatialAnchorPose_t pPose, ref System.UInt32 pHandleOut)
     // Offset: 0x16B9B80
     OVR::OpenVR::EVRSpatialAnchorError Invoke(uint unDeviceIndex, OVR::OpenVR::ETrackingUniverseOrigin eOrigin, OVR::OpenVR::SpatialAnchorPose_t& pPose, uint& pHandleOut);
-    // public System.IAsyncResult BeginInvoke(System.UInt32 unDeviceIndex, OVR.OpenVR.ETrackingUniverseOrigin eOrigin, OVR.OpenVR.SpatialAnchorPose_t pPose, System.UInt32 pHandleOut, System.AsyncCallback callback, System.Object object)
+    // public System.IAsyncResult BeginInvoke(System.UInt32 unDeviceIndex, OVR.OpenVR.ETrackingUniverseOrigin eOrigin, ref OVR.OpenVR.SpatialAnchorPose_t pPose, ref System.UInt32 pHandleOut, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16B9E48
     System::IAsyncResult* BeginInvoke(uint unDeviceIndex, OVR::OpenVR::ETrackingUniverseOrigin eOrigin, OVR::OpenVR::SpatialAnchorPose_t& pPose, uint& pHandleOut, System::AsyncCallback* callback, ::Il2CppObject* object);
-    // public OVR.OpenVR.EVRSpatialAnchorError EndInvoke(OVR.OpenVR.SpatialAnchorPose_t pPose, System.UInt32 pHandleOut, System.IAsyncResult result)
+    // public OVR.OpenVR.EVRSpatialAnchorError EndInvoke(ref OVR.OpenVR.SpatialAnchorPose_t pPose, ref System.UInt32 pHandleOut, System.IAsyncResult result)
     // Offset: 0x16B9F30
     OVR::OpenVR::EVRSpatialAnchorError EndInvoke(OVR::OpenVR::SpatialAnchorPose_t& pPose, uint& pHandleOut, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSpatialAnchors/_CreateSpatialAnchorFromPose

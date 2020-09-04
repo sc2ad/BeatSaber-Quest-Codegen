@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: DeactivateAfterFirstFrame
 #include "GlobalNamespace/DeactivateAfterFirstFrame.hpp"
 // Including type: DeactivateAfterFirstFrame/<Start>d__0

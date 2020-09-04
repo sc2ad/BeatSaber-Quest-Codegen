@@ -57,5 +57,5 @@ void System::WeakReference::GetObjectData(System::Runtime::Serialization::Serial
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "GetObjectData", info, context));
 }
 void System::WeakReference::System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-  GetObjectData(info, context);
+  System::WeakReference::GetObjectData(info, context);
 }

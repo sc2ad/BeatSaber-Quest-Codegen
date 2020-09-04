@@ -50,7 +50,7 @@ namespace Zenject {
     // public Zenject.GameObjectCreationParameters get_GameObjectCreationParameters()
     // Offset: 0xFFFFFFFF
     Zenject::GameObjectCreationParameters* get_GameObjectCreationParameters();
-    // public UnityEngine.GameObject Instantiate(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, System.Action injectAction)
+    // public UnityEngine.GameObject Instantiate(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction)
     // Offset: 0xFFFFFFFF
     UnityEngine::GameObject* Instantiate(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction);
     // public UnityEngine.Object GetPrefab()

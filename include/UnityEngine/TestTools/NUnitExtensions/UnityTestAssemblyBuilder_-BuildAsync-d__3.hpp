@@ -67,7 +67,7 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     // private System.Int32 <index>5__3
     // Offset: 0x48
     int $index$5__3;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xE43BB0
     static UnityTestAssemblyBuilder::$BuildAsync$d__3* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

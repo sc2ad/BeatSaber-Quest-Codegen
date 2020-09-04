@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.IKSolverVR/Footstep
 #include "RootMotion/FinalIK/IKSolverVR_Footstep.hpp"
 // Including type: RootMotion.InterpolationMode

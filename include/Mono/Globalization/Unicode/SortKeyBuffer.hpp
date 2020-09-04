@@ -107,7 +107,7 @@ namespace Mono::Globalization::Unicode {
     // private System.Void AppendLevel5(System.Byte category, System.Byte lv1)
     // Offset: 0x10B8CB4
     void AppendLevel5(uint8_t category, uint8_t lv1);
-    // private System.Void AppendBufferPrimitive(System.Byte value, System.Byte[] buf, System.Int32 bidx)
+    // private System.Void AppendBufferPrimitive(System.Byte value, ref System.Byte[] buf, ref System.Int32 bidx)
     // Offset: 0x10B8BC4
     void AppendBufferPrimitive(uint8_t value, ::Array<uint8_t>*& buf, int& bidx);
     // public System.Globalization.SortKey GetResultAndReset()

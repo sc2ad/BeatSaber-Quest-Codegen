@@ -247,7 +247,7 @@ namespace GlobalNamespace {
     // private System.Void HandleDashboardWasDectivated()
     // Offset: 0xCC05E4
     void HandleDashboardWasDectivated();
-    // public System.Boolean GetNodePose(UnityEngine.XR.XRNode nodeType, System.Int32 idx, UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
+    // public System.Boolean GetNodePose(UnityEngine.XR.XRNode nodeType, System.Int32 idx, out UnityEngine.Vector3 pos, out UnityEngine.Quaternion rot)
     // Offset: 0xCBF280
     bool GetNodePose(UnityEngine::XR::XRNode nodeType, int idx, UnityEngine::Vector3& pos, UnityEngine::Quaternion& rot);
     // public System.Void TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single strength)

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.Models.CloudStorageConflictMetadata
 #include "Oculus/Platform/Models/CloudStorageConflictMetadata.hpp"
 // Including type: Oculus.Platform.Models.CloudStorageMetadata

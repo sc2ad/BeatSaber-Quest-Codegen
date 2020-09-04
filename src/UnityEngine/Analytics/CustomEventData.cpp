@@ -67,5 +67,5 @@ void UnityEngine::Analytics::CustomEventData::Dispose() {
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose"));
 }
 void UnityEngine::Analytics::CustomEventData::System_IDisposable_Dispose() {
-  Dispose();
+  UnityEngine::Analytics::CustomEventData::Dispose();
 }

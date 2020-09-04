@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // public ScreenCaptureAfterDelay <>4__this
     // Offset: 0x20
     GlobalNamespace::ScreenCaptureAfterDelay* $$4__this;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0x1914F44
     static ScreenCaptureAfterDelay::$Start$d__6* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

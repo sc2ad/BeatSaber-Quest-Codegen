@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Threading.Tasks.TaskFactory/CompleteOnInvokePromise
 #include "System/Threading/Tasks/TaskFactory_CompleteOnInvokePromise.hpp"
 // Including type: System.Threading.Tasks.Task
@@ -21,5 +20,5 @@ void System::Threading::Tasks::TaskFactory::CompleteOnInvokePromise::Invoke(Syst
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "Invoke", completingTask));
 }
 void System::Threading::Tasks::TaskFactory::CompleteOnInvokePromise::System_Threading_Tasks_ITaskCompletionAction_Invoke(System::Threading::Tasks::Task* completingTask) {
-  Invoke(completingTask);
+  System::Threading::Tasks::TaskFactory::CompleteOnInvokePromise::Invoke(completingTask);
 }

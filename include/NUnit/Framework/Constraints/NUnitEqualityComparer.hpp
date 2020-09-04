@@ -23,12 +23,6 @@ namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
   template<typename T>
   class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: IList`1<T>
-  template<typename T>
-  class IList_1;
   // Forward declaring type: IList`1<T>
   template<typename T>
   class IList_1;
@@ -101,7 +95,7 @@ namespace NUnit::Framework::Constraints {
     // public System.Boolean get_WithSameOffset()
     // Offset: 0x107C488
     bool get_WithSameOffset();
-    // public System.Boolean AreEqual(System.Object x, System.Object y, NUnit.Framework.Constraints.Tolerance tolerance)
+    // public System.Boolean AreEqual(System.Object x, System.Object y, ref NUnit.Framework.Constraints.Tolerance tolerance)
     // Offset: 0x1075040
     bool AreEqual(::Il2CppObject* x, ::Il2CppObject* y, NUnit::Framework::Constraints::Tolerance*& tolerance);
     // static private System.Reflection.MethodInfo FirstImplementsIEquatableOfSecond(System.Type first, System.Type second)
@@ -116,13 +110,13 @@ namespace NUnit::Framework::Constraints {
     // private NUnit.Framework.Constraints.EqualityAdapter GetExternalComparer(System.Object x, System.Object y)
     // Offset: 0x107C490
     NUnit::Framework::Constraints::EqualityAdapter* GetExternalComparer(::Il2CppObject* x, ::Il2CppObject* y);
-    // private System.Boolean ArraysEqual(System.Array x, System.Array y, NUnit.Framework.Constraints.Tolerance tolerance)
+    // private System.Boolean ArraysEqual(System.Array x, System.Array y, ref NUnit.Framework.Constraints.Tolerance tolerance)
     // Offset: 0x107C5BC
     bool ArraysEqual(System::Array* x, System::Array* y, NUnit::Framework::Constraints::Tolerance*& tolerance);
-    // private System.Boolean DictionariesEqual(System.Collections.IDictionary x, System.Collections.IDictionary y, NUnit.Framework.Constraints.Tolerance tolerance)
+    // private System.Boolean DictionariesEqual(System.Collections.IDictionary x, System.Collections.IDictionary y, ref NUnit.Framework.Constraints.Tolerance tolerance)
     // Offset: 0x107C69C
     bool DictionariesEqual(System::Collections::IDictionary* x, System::Collections::IDictionary* y, NUnit::Framework::Constraints::Tolerance*& tolerance);
-    // private System.Boolean DictionaryEntriesEqual(System.Collections.DictionaryEntry x, System.Collections.DictionaryEntry y, NUnit.Framework.Constraints.Tolerance tolerance)
+    // private System.Boolean DictionaryEntriesEqual(System.Collections.DictionaryEntry x, System.Collections.DictionaryEntry y, ref NUnit.Framework.Constraints.Tolerance tolerance)
     // Offset: 0x107CCBC
     bool DictionaryEntriesEqual(System::Collections::DictionaryEntry x, System::Collections::DictionaryEntry y, NUnit::Framework::Constraints::Tolerance*& tolerance);
     // private System.Boolean StringsEqual(System.String x, System.String y)
@@ -131,7 +125,7 @@ namespace NUnit::Framework::Constraints {
     // private System.Boolean CharsEqual(System.Char x, System.Char y)
     // Offset: 0x107D4A8
     bool CharsEqual(::Il2CppChar x, ::Il2CppChar y);
-    // private System.Boolean EnumerablesEqual(System.Collections.IEnumerable x, System.Collections.IEnumerable y, NUnit.Framework.Constraints.Tolerance tolerance)
+    // private System.Boolean EnumerablesEqual(System.Collections.IEnumerable x, System.Collections.IEnumerable y, ref NUnit.Framework.Constraints.Tolerance tolerance)
     // Offset: 0x107E034
     bool EnumerablesEqual(System::Collections::IEnumerable* x, System::Collections::IEnumerable* y, NUnit::Framework::Constraints::Tolerance*& tolerance);
     // static private System.Boolean DirectoriesEqual(System.IO.DirectoryInfo x, System.IO.DirectoryInfo y)
@@ -140,7 +134,7 @@ namespace NUnit::Framework::Constraints {
     // private System.Boolean StreamsEqual(System.IO.Stream x, System.IO.Stream y)
     // Offset: 0x107CE58
     bool StreamsEqual(System::IO::Stream* x, System::IO::Stream* y);
-    // static System.Void CheckGameObjectReference(T value)
+    // static System.Void CheckGameObjectReference(ref T value)
     // Offset: 0xFFFFFFFF
     template<class T>
     static void CheckGameObjectReference(T& value) {

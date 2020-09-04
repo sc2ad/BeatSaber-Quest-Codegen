@@ -49,5 +49,5 @@ void System::IO::FileLoadException::GetObjectData(System::Runtime::Serialization
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "GetObjectData", info, context));
 }
 void System::IO::FileLoadException::System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-  GetObjectData(info, context);
+  System::IO::FileLoadException::GetObjectData(info, context);
 }

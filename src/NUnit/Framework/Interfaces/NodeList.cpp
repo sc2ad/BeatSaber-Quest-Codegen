@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Interfaces.NodeList
 #include "NUnit/Framework/Interfaces/NodeList.hpp"
 // Including type: NUnit.Framework.Interfaces.TNode

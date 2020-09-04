@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.IKSolver/Point
 #include "RootMotion/FinalIK/IKSolver_Point.hpp"
 // Including type: UnityEngine.Transform

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: CameraRenderCallbacksManager
 #include "GlobalNamespace/CameraRenderCallbacksManager.hpp"
 // Including type: CameraRenderCallbacksManager/ICameraRenderCallbacks

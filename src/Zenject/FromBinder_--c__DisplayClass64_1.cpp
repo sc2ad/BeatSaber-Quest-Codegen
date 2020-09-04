@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.FromBinder/<>c__DisplayClass64_1
 #include "Zenject/FromBinder_--c__DisplayClass64_1.hpp"
 // Including type: UnityEngine.MonoBehaviour

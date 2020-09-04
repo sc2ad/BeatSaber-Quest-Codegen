@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.SubContainerBinder/<>c__DisplayClass12_0
 #include "Zenject/SubContainerBinder_--c__DisplayClass12_0.hpp"
 // Including type: Zenject.GameObjectCreationParameters

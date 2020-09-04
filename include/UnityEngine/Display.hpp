@@ -68,13 +68,13 @@ namespace UnityEngine {
     // static private System.Void FireDisplaysUpdated()
     // Offset: 0x130E8B0
     static void FireDisplaysUpdated();
-    // static private System.Void GetSystemExtImpl(System.IntPtr nativeDisplay, System.Int32 w, System.Int32 h)
+    // static private System.Void GetSystemExtImpl(System.IntPtr nativeDisplay, out System.Int32 w, out System.Int32 h)
     // Offset: 0x130E448
     static void GetSystemExtImpl(System::IntPtr nativeDisplay, int& w, int& h);
-    // static private System.Void GetRenderingExtImpl(System.IntPtr nativeDisplay, System.Int32 w, System.Int32 h)
+    // static private System.Void GetRenderingExtImpl(System.IntPtr nativeDisplay, out System.Int32 w, out System.Int32 h)
     // Offset: 0x130E2A8
     static void GetRenderingExtImpl(System::IntPtr nativeDisplay, int& w, int& h);
-    // static private System.Int32 RelativeMouseAtImpl(System.Int32 x, System.Int32 y, System.Int32 rx, System.Int32 ry)
+    // static private System.Int32 RelativeMouseAtImpl(System.Int32 x, System.Int32 y, out System.Int32 rx, out System.Int32 ry)
     // Offset: 0x130E610
     static int RelativeMouseAtImpl(int x, int y, int& rx, int& ry);
     // static private System.Void .cctor()

@@ -5,10 +5,9 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: UnityEngine.ILogger
 #include "UnityEngine/ILogger.hpp"
-// Including type: UnityEngine.LogType
-#include "UnityEngine/LogType.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -76,16 +75,30 @@ namespace UnityEngine {
     // Implemented from: UnityEngine.ILogger
     // Base method: System.Void ILogger::Log(UnityEngine.LogType logType, System.Object message, UnityEngine.Object context)
     void Log(UnityEngine::LogType logType, ::Il2CppObject* message, UnityEngine::Object* context);
-    // public System.Void LogFormat(UnityEngine.LogType logType, System.String format, System.Object[] args)
+    // public System.Void LogFormat(UnityEngine.LogType logType, System.String format, params System.Object[] args)
     // Offset: 0x1316F78
     // Implemented from: UnityEngine.ILogger
-    // Base method: System.Void ILogger::LogFormat(UnityEngine.LogType logType, System.String format, System.Object[] args)
+    // Base method: System.Void ILogger::LogFormat(UnityEngine.LogType logType, System.String format, params System.Object[] args)
     void LogFormat(UnityEngine::LogType logType, ::Il2CppString* format, ::Array<::Il2CppObject*>* args);
-    // public System.Void LogFormat(UnityEngine.LogType logType, UnityEngine.Object context, System.String format, System.Object[] args)
+    // Creating initializer_list -> params proxy for: System.Void LogFormat(UnityEngine.LogType logType, System.String format, params System.Object[] args)
+    void LogFormat(UnityEngine::LogType logType, ::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.Void LogFormat(UnityEngine.LogType logType, System.String format, params System.Object[] args)
+    template<class ...TParams>
+    void LogFormat(UnityEngine::LogType logType, ::Il2CppString* format, TParams&&... args) {
+      LogFormat(logType, format, {args...});
+    }
+    // public System.Void LogFormat(UnityEngine.LogType logType, UnityEngine.Object context, System.String format, params System.Object[] args)
     // Offset: 0x131708C
     // Implemented from: UnityEngine.ILogHandler
-    // Base method: System.Void ILogHandler::LogFormat(UnityEngine.LogType logType, UnityEngine.Object context, System.String format, System.Object[] args)
+    // Base method: System.Void ILogHandler::LogFormat(UnityEngine.LogType logType, UnityEngine.Object context, System.String format, params System.Object[] args)
     void LogFormat(UnityEngine::LogType logType, UnityEngine::Object* context, ::Il2CppString* format, ::Array<::Il2CppObject*>* args);
+    // Creating initializer_list -> params proxy for: System.Void LogFormat(UnityEngine.LogType logType, UnityEngine.Object context, System.String format, params System.Object[] args)
+    void LogFormat(UnityEngine::LogType logType, UnityEngine::Object* context, ::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.Void LogFormat(UnityEngine.LogType logType, UnityEngine.Object context, System.String format, params System.Object[] args)
+    template<class ...TParams>
+    void LogFormat(UnityEngine::LogType logType, UnityEngine::Object* context, ::Il2CppString* format, TParams&&... args) {
+      LogFormat(logType, context, format, {args...});
+    }
     // public System.Void LogException(System.Exception exception, UnityEngine.Object context)
     // Offset: 0x13171A4
     // Implemented from: UnityEngine.ILogHandler

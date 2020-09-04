@@ -46,25 +46,25 @@ namespace UnityEngine {
     // static public System.Void DrawRay(UnityEngine.Vector3 from, UnityEngine.Vector3 direction)
     // Offset: 0x1314188
     static void DrawRay(UnityEngine::Vector3 from, UnityEngine::Vector3 direction);
-    // static private System.Void DrawLine_Injected(UnityEngine.Vector3 from, UnityEngine.Vector3 to)
+    // static private System.Void DrawLine_Injected(ref UnityEngine.Vector3 from, ref UnityEngine.Vector3 to)
     // Offset: 0x1313D70
     static void DrawLine_Injected(UnityEngine::Vector3& from, UnityEngine::Vector3& to);
-    // static private System.Void DrawWireSphere_Injected(UnityEngine.Vector3 center, System.Single radius)
+    // static private System.Void DrawWireSphere_Injected(ref UnityEngine.Vector3 center, System.Single radius)
     // Offset: 0x1313E20
     static void DrawWireSphere_Injected(UnityEngine::Vector3& center, float radius);
-    // static private System.Void DrawSphere_Injected(UnityEngine.Vector3 center, System.Single radius)
+    // static private System.Void DrawSphere_Injected(ref UnityEngine.Vector3 center, System.Single radius)
     // Offset: 0x1313ED0
     static void DrawSphere_Injected(UnityEngine::Vector3& center, float radius);
-    // static private System.Void DrawWireCube_Injected(UnityEngine.Vector3 center, UnityEngine.Vector3 size)
+    // static private System.Void DrawWireCube_Injected(ref UnityEngine.Vector3 center, ref UnityEngine.Vector3 size)
     // Offset: 0x1313F7C
     static void DrawWireCube_Injected(UnityEngine::Vector3& center, UnityEngine::Vector3& size);
-    // static private System.Void DrawCube_Injected(UnityEngine.Vector3 center, UnityEngine.Vector3 size)
+    // static private System.Void DrawCube_Injected(ref UnityEngine.Vector3 center, ref UnityEngine.Vector3 size)
     // Offset: 0x1314028
     static void DrawCube_Injected(UnityEngine::Vector3& center, UnityEngine::Vector3& size);
-    // static private System.Void set_color_Injected(UnityEngine.Color value)
+    // static private System.Void set_color_Injected(ref UnityEngine.Color value)
     // Offset: 0x13140C8
     static void set_color_Injected(UnityEngine::Color& value);
-    // static private System.Void set_matrix_Injected(UnityEngine.Matrix4x4 value)
+    // static private System.Void set_matrix_Injected(ref UnityEngine.Matrix4x4 value)
     // Offset: 0x1314148
     static void set_matrix_Injected(UnityEngine::Matrix4x4& value);
   }; // UnityEngine.Gizmos

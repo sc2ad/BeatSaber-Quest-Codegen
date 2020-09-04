@@ -31,13 +31,13 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::IKMapping::BoneMap
     class BoneMap;
-    // public System.Boolean IsValid(RootMotion.FinalIK.IKSolver solver, System.String message)
+    // public System.Boolean IsValid(RootMotion.FinalIK.IKSolver solver, ref System.String message)
     // Offset: 0x1384F44
     bool IsValid(RootMotion::FinalIK::IKSolver* solver, ::Il2CppString*& message);
     // public System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
     // Offset: 0x1384F4C
     void Initiate(RootMotion::FinalIK::IKSolverFullBody* solver);
-    // protected System.Boolean BoneIsValid(UnityEngine.Transform bone, RootMotion.FinalIK.IKSolver solver, System.String message, RootMotion.Warning/Logger logger)
+    // protected System.Boolean BoneIsValid(UnityEngine.Transform bone, RootMotion.FinalIK.IKSolver solver, ref System.String message, RootMotion.Warning/Logger logger)
     // Offset: 0x1384F50
     bool BoneIsValid(UnityEngine::Transform* bone, RootMotion::FinalIK::IKSolver* solver, ::Il2CppString*& message, RootMotion::Warning::Logger* logger);
     // protected UnityEngine.Vector3 SolveFABRIKJoint(UnityEngine.Vector3 pos1, UnityEngine.Vector3 pos2, System.Single length)

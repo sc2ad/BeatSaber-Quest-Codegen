@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRPlugin/OVRP_1_37_0
 #include "GlobalNamespace/OVRPlugin_OVRP_1_37_0.hpp"
 // Including type: System.Version

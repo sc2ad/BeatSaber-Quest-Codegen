@@ -51,7 +51,7 @@ namespace OVR::OpenVR {
     // public System.Void .ctor(OVR.OpenVR.VRControllerState_t unpacked)
     // Offset: 0xA2DB94
     static VRControllerState_t_Packed* New_ctor(OVR::OpenVR::VRControllerState_t unpacked);
-    // public System.Void Unpack(OVR.OpenVR.VRControllerState_t unpacked)
+    // public System.Void Unpack(ref OVR.OpenVR.VRControllerState_t unpacked)
     // Offset: 0xA2DBC0
     void Unpack(OVR::OpenVR::VRControllerState_t& unpacked);
   }; // OVR.OpenVR.VRControllerState_t_Packed

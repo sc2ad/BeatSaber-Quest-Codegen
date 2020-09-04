@@ -140,10 +140,10 @@ namespace GlobalNamespace {
     // public System.Void Update(System.Single bpm, System.Single jumpOffsetY)
     // Offset: 0xB7A4AC
     void Update(float bpm, float jumpOffsetY);
-    // public System.Void GetObstacleSpawnMovementData(ObstacleData obstacleData, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single obstacleHeight)
+    // public System.Void GetObstacleSpawnMovementData(ObstacleData obstacleData, out UnityEngine.Vector3 moveStartPos, out UnityEngine.Vector3 moveEndPos, out UnityEngine.Vector3 jumpEndPos, out System.Single obstacleHeight)
     // Offset: 0xB79D74
     void GetObstacleSpawnMovementData(GlobalNamespace::ObstacleData* obstacleData, UnityEngine::Vector3& moveStartPos, UnityEngine::Vector3& moveEndPos, UnityEngine::Vector3& jumpEndPos, float& obstacleHeight);
-    // public System.Void GetNoteSpawnMovementData(NoteData noteData, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single jumpGravity)
+    // public System.Void GetNoteSpawnMovementData(NoteData noteData, out UnityEngine.Vector3 moveStartPos, out UnityEngine.Vector3 moveEndPos, out UnityEngine.Vector3 jumpEndPos, out System.Single jumpGravity)
     // Offset: 0xB7A230
     void GetNoteSpawnMovementData(GlobalNamespace::NoteData* noteData, UnityEngine::Vector3& moveStartPos, UnityEngine::Vector3& moveEndPos, UnityEngine::Vector3& jumpEndPos, float& jumpGravity);
     // public UnityEngine.Vector3 GetNoteOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)

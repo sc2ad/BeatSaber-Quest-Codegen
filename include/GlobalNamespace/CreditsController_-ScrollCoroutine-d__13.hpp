@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // private System.Single <textHeight>5__4
     // Offset: 0x30
     float $textHeight$5__4;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xBE3130
     static CreditsController::$ScrollCoroutine$d__13* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

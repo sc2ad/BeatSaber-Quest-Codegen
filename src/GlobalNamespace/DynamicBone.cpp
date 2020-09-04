@@ -2,17 +2,16 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: DynamicBone
 #include "GlobalNamespace/DynamicBone.hpp"
 // Including type: UnityEngine.AnimationCurve
 #include "UnityEngine/AnimationCurve.hpp"
-// Including type: System.Collections.Generic.List`1
-#include "System/Collections/Generic/List_1.hpp"
 // Including type: DynamicBone/Particle
 #include "GlobalNamespace/DynamicBone_Particle.hpp"
 // Including type: UnityEngine.Transform
 #include "UnityEngine/Transform.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
 // Including type: DynamicBoneColliderBase
 #include "GlobalNamespace/DynamicBoneColliderBase.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

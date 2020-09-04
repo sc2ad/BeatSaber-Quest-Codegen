@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: Zenject.FromBinderNonGeneric
 #include "Zenject/FromBinderNonGeneric.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
@@ -53,9 +54,16 @@ namespace Zenject {
     Zenject::FromBinderNonGeneric* To() {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::FromBinderNonGeneric*>(this, "To", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()})));
     }
-    // public Zenject.FromBinderNonGeneric To(System.Type[] concreteTypes)
+    // public Zenject.FromBinderNonGeneric To(params System.Type[] concreteTypes)
     // Offset: 0xD6C710
     Zenject::FromBinderNonGeneric* To(::Array<System::Type*>* concreteTypes);
+    // Creating initializer_list -> params proxy for: Zenject.FromBinderNonGeneric To(params System.Type[] concreteTypes)
+    Zenject::FromBinderNonGeneric* To(std::initializer_list<System::Type*> concreteTypes);
+    // Creating TArgs -> initializer_list proxy for: Zenject.FromBinderNonGeneric To(params System.Type[] concreteTypes)
+    template<class ...TParams>
+    Zenject::FromBinderNonGeneric* To(TParams&&... concreteTypes) {
+      return To({concreteTypes...});
+    }
     // public Zenject.FromBinderNonGeneric To(System.Collections.Generic.IEnumerable`1<System.Type> concreteTypes)
     // Offset: 0xD6C714
     Zenject::FromBinderNonGeneric* To(System::Collections::Generic::IEnumerable_1<System::Type*>* concreteTypes);

@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     // public System.Action finishCallback
     // Offset: 0x30
     System::Action* finishCallback;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xC0869C
     static MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

@@ -9,8 +9,8 @@
 #include "UnityEngine/TextCore/Glyph.hpp"
 // Including type: UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct
 #include "UnityEngine/TextCore/LowLevel/GlyphMarshallingStruct.hpp"
-// Including type: System.Collections.Generic.List`1
-#include "System/Collections/Generic/List_1.hpp"
+// Including type: UnityEngine.Texture2D
+#include "UnityEngine/Texture2D.hpp"
 // Including type: UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord
 #include "UnityEngine/TextCore/LowLevel/GlyphPairAdjustmentRecord.hpp"
 // Including type: System.Collections.Generic.Dictionary`2
@@ -27,8 +27,8 @@
 #include "UnityEngine/TextCore/LowLevel/GlyphPackingMode.hpp"
 // Including type: UnityEngine.TextCore.LowLevel.GlyphRenderMode
 #include "UnityEngine/TextCore/LowLevel/GlyphRenderMode.hpp"
-// Including type: UnityEngine.Texture2D
-#include "UnityEngine/Texture2D.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

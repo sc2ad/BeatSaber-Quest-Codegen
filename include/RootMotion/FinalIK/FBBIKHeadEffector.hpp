@@ -204,7 +204,7 @@ namespace RootMotion::FinalIK {
     // private System.Void LerpSolverPosition(RootMotion.FinalIK.IKEffector effector, UnityEngine.Vector3 position, System.Single weight, UnityEngine.Vector3 offset)
     // Offset: 0x13B2E24
     void LerpSolverPosition(RootMotion::FinalIK::IKEffector* effector, UnityEngine::Vector3 position, float weight, UnityEngine::Vector3 offset);
-    // private System.Void Solve(UnityEngine.Vector3 pos1, UnityEngine.Vector3 pos2, System.Single nominalDistance)
+    // private System.Void Solve(ref UnityEngine.Vector3 pos1, ref UnityEngine.Vector3 pos2, System.Single nominalDistance)
     // Offset: 0x13B2C88
     void Solve(UnityEngine::Vector3& pos1, UnityEngine::Vector3& pos2, float nominalDistance);
     // private System.Void OnDestroy()

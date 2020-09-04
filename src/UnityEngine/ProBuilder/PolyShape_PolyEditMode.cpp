@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.PolyShape/PolyEditMode
 #include "UnityEngine/ProBuilder/PolyShape.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

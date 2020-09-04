@@ -24,7 +24,7 @@ namespace TMPro {
     // public TMPro.TMP_InputField <>4__this
     // Offset: 0x20
     TMPro::TMP_InputField* $$4__this;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xBAC194
     static TMP_InputField::$CaretBlink$d__267* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

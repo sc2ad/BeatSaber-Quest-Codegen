@@ -130,7 +130,7 @@ namespace UnityEngine::UI {
     // protected System.Void OnTransformChildrenChanged()
     // Offset: 0x120135C
     void OnTransformChildrenChanged();
-    // protected System.Void SetProperty(T currentValue, T newValue)
+    // protected System.Void SetProperty(ref T currentValue, T newValue)
     // Offset: 0xFFFFFFFF
     template<class T>
     void SetProperty(T& currentValue, T newValue) {

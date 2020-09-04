@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: VRControllersValueSOOffsets
 #include "GlobalNamespace/VRControllersValueSOOffsets.hpp"
 // Including type: Vector3SO

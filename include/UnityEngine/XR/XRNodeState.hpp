@@ -65,28 +65,28 @@ namespace UnityEngine::XR {
     // public System.Void set_tracked(System.Boolean value)
     // Offset: 0xA5F220
     void set_tracked(bool value);
-    // public System.Boolean TryGetPosition(UnityEngine.Vector3 position)
+    // public System.Boolean TryGetPosition(out UnityEngine.Vector3 position)
     // Offset: 0xA5F22C
     bool TryGetPosition(UnityEngine::Vector3& position);
-    // public System.Boolean TryGetRotation(UnityEngine.Quaternion rotation)
+    // public System.Boolean TryGetRotation(out UnityEngine.Quaternion rotation)
     // Offset: 0xA5F244
     bool TryGetRotation(UnityEngine::Quaternion& rotation);
-    // public System.Boolean TryGetVelocity(UnityEngine.Vector3 velocity)
+    // public System.Boolean TryGetVelocity(out UnityEngine.Vector3 velocity)
     // Offset: 0xA5F25C
     bool TryGetVelocity(UnityEngine::Vector3& velocity);
-    // public System.Boolean TryGetAngularVelocity(UnityEngine.Vector3 angularVelocity)
+    // public System.Boolean TryGetAngularVelocity(out UnityEngine.Vector3 angularVelocity)
     // Offset: 0xA5F274
     bool TryGetAngularVelocity(UnityEngine::Vector3& angularVelocity);
-    // public System.Boolean TryGetAcceleration(UnityEngine.Vector3 acceleration)
+    // public System.Boolean TryGetAcceleration(out UnityEngine.Vector3 acceleration)
     // Offset: 0xA5F28C
     bool TryGetAcceleration(UnityEngine::Vector3& acceleration);
-    // public System.Boolean TryGetAngularAcceleration(UnityEngine.Vector3 angularAcceleration)
+    // public System.Boolean TryGetAngularAcceleration(out UnityEngine.Vector3 angularAcceleration)
     // Offset: 0xA5F2A4
     bool TryGetAngularAcceleration(UnityEngine::Vector3& angularAcceleration);
-    // private System.Boolean TryGet(UnityEngine.Vector3 inValue, UnityEngine.XR.AvailableTrackingData availabilityFlag, UnityEngine.Vector3 outValue)
+    // private System.Boolean TryGet(UnityEngine.Vector3 inValue, UnityEngine.XR.AvailableTrackingData availabilityFlag, out UnityEngine.Vector3 outValue)
     // Offset: 0xA5F2BC
     bool TryGet(UnityEngine::Vector3 inValue, UnityEngine::XR::AvailableTrackingData availabilityFlag, UnityEngine::Vector3& outValue);
-    // private System.Boolean TryGet(UnityEngine.Quaternion inValue, UnityEngine.XR.AvailableTrackingData availabilityFlag, UnityEngine.Quaternion outValue)
+    // private System.Boolean TryGet(UnityEngine.Quaternion inValue, UnityEngine.XR.AvailableTrackingData availabilityFlag, out UnityEngine.Quaternion outValue)
     // Offset: 0xA5F2C4
     bool TryGet(UnityEngine::Quaternion inValue, UnityEngine::XR::AvailableTrackingData availabilityFlag, UnityEngine::Quaternion& outValue);
   }; // UnityEngine.XR.XRNodeState

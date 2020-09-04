@@ -316,7 +316,7 @@ namespace UnityEngine::UI {
     // protected System.Single get_multipliedPixelsPerUnit()
     // Offset: 0x1171970
     float get_multipliedPixelsPerUnit();
-    // private System.Void PreserveSpriteAspectRatio(UnityEngine.Rect rect, UnityEngine.Vector2 spriteSize)
+    // private System.Void PreserveSpriteAspectRatio(ref UnityEngine.Rect rect, UnityEngine.Vector2 spriteSize)
     // Offset: 0x1171BAC
     void PreserveSpriteAspectRatio(UnityEngine::Rect& rect, UnityEngine::Vector2 spriteSize);
     // private UnityEngine.Vector4 GetDrawingDimensions(System.Boolean shouldPreserveAspect)

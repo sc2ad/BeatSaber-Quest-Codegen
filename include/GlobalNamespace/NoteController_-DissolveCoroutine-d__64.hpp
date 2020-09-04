@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     // public System.Single duration
     // Offset: 0x28
     float duration;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xC1589C
     static NoteController::$DissolveCoroutine$d__64* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

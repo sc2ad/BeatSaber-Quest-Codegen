@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: SaberSwingRatingCounter
 #include "GlobalNamespace/SaberSwingRatingCounter.hpp"
 // Including type: SaberSwingRatingCounter/DidChangeDelegate

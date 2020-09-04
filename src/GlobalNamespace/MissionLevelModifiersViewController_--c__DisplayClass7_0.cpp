@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: MissionLevelModifiersViewController/<>c__DisplayClass7_0
 #include "GlobalNamespace/MissionLevelModifiersViewController_--c__DisplayClass7_0.hpp"
 // Including type: System.Collections.Generic.List`1

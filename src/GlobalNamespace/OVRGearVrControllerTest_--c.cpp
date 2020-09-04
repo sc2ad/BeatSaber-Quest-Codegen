@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRGearVrControllerTest/<>c
 #include "GlobalNamespace/OVRGearVrControllerTest_--c.hpp"
 // Including type: OVRGearVrControllerTest/BoolMonitor/BoolGenerator

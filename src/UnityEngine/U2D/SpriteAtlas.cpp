@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.U2D.SpriteAtlas
 #include "UnityEngine/U2D/SpriteAtlas.hpp"
 // Including type: UnityEngine.Sprite

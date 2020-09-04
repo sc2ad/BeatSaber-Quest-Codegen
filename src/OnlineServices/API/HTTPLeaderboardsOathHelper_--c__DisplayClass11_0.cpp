@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OnlineServices.API.HTTPLeaderboardsOathHelper/<>c__DisplayClass11_0
 #include "OnlineServices/API/HTTPLeaderboardsOathHelper_--c__DisplayClass11_0.hpp"
 // Including type: UnityEngine.Networking.UnityWebRequest

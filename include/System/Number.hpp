@@ -32,10 +32,10 @@ namespace System {
     public:
     // Nested type: System::Number::NumberBuffer
     struct NumberBuffer;
-    // static public System.Boolean NumberBufferToDecimal(System.Byte* number, System.Decimal value)
+    // static public System.Boolean NumberBufferToDecimal(System.Byte* number, ref System.Decimal value)
     // Offset: 0x101BD9C
     static bool NumberBufferToDecimal(uint8_t* number, System::Decimal& value);
-    // static System.Boolean NumberBufferToDouble(System.Byte* number, System.Double value)
+    // static System.Boolean NumberBufferToDouble(System.Byte* number, ref System.Double value)
     // Offset: 0x101BDA0
     static bool NumberBufferToDouble(uint8_t* number, double& value);
     // static public System.String FormatDecimal(System.Decimal value, System.String format, System.Globalization.NumberFormatInfo info)
@@ -59,31 +59,31 @@ namespace System {
     // static public System.String FormatSingle(System.Single value, System.String format, System.Globalization.NumberFormatInfo info)
     // Offset: 0x101BF3C
     static ::Il2CppString* FormatSingle(float value, ::Il2CppString* format, System::Globalization::NumberFormatInfo* info);
-    // static private System.Boolean HexNumberToInt32(System.Number/NumberBuffer number, System.Int32 value)
+    // static private System.Boolean HexNumberToInt32(ref System.Number/NumberBuffer number, ref System.Int32 value)
     // Offset: 0x101BFC4
     static bool HexNumberToInt32(System::Number::NumberBuffer& number, int& value);
-    // static private System.Boolean HexNumberToInt64(System.Number/NumberBuffer number, System.Int64 value)
+    // static private System.Boolean HexNumberToInt64(ref System.Number/NumberBuffer number, ref System.Int64 value)
     // Offset: 0x101C090
     static bool HexNumberToInt64(System::Number::NumberBuffer& number, int64_t& value);
-    // static private System.Boolean HexNumberToUInt32(System.Number/NumberBuffer number, System.UInt32 value)
+    // static private System.Boolean HexNumberToUInt32(ref System.Number/NumberBuffer number, ref System.UInt32 value)
     // Offset: 0x101BFF8
     static bool HexNumberToUInt32(System::Number::NumberBuffer& number, uint& value);
-    // static private System.Boolean HexNumberToUInt64(System.Number/NumberBuffer number, System.UInt64 value)
+    // static private System.Boolean HexNumberToUInt64(ref System.Number/NumberBuffer number, ref System.UInt64 value)
     // Offset: 0x101C0C4
     static bool HexNumberToUInt64(System::Number::NumberBuffer& number, uint64_t& value);
     // static private System.Boolean IsWhite(System.Char ch)
     // Offset: 0x101C160
     static bool IsWhite(::Il2CppChar ch);
-    // static private System.Boolean NumberToInt32(System.Number/NumberBuffer number, System.Int32 value)
+    // static private System.Boolean NumberToInt32(ref System.Number/NumberBuffer number, ref System.Int32 value)
     // Offset: 0x101C188
     static bool NumberToInt32(System::Number::NumberBuffer& number, int& value);
-    // static private System.Boolean NumberToInt64(System.Number/NumberBuffer number, System.Int64 value)
+    // static private System.Boolean NumberToInt64(ref System.Number/NumberBuffer number, ref System.Int64 value)
     // Offset: 0x101C214
     static bool NumberToInt64(System::Number::NumberBuffer& number, int64_t& value);
-    // static private System.Boolean NumberToUInt32(System.Number/NumberBuffer number, System.UInt32 value)
+    // static private System.Boolean NumberToUInt32(ref System.Number/NumberBuffer number, ref System.UInt32 value)
     // Offset: 0x101C298
     static bool NumberToUInt32(System::Number::NumberBuffer& number, uint& value);
-    // static private System.Boolean NumberToUInt64(System.Number/NumberBuffer number, System.UInt64 value)
+    // static private System.Boolean NumberToUInt64(ref System.Number/NumberBuffer number, ref System.UInt64 value)
     // Offset: 0x101C31C
     static bool NumberToUInt64(System::Number::NumberBuffer& number, uint64_t& value);
     // static private System.Char* MatchChars(System.Char* p, System.String str)
@@ -104,7 +104,7 @@ namespace System {
     // static System.Int64 ParseInt64(System.String value, System.Globalization.NumberStyles options, System.Globalization.NumberFormatInfo numfmt)
     // Offset: 0x1015300
     static int64_t ParseInt64(::Il2CppString* value, System::Globalization::NumberStyles options, System::Globalization::NumberFormatInfo* numfmt);
-    // static private System.Boolean ParseNumber(System.Char* str, System.Globalization.NumberStyles options, System.Number/NumberBuffer number, System.Text.StringBuilder sb, System.Globalization.NumberFormatInfo numfmt, System.Boolean parseDecimal)
+    // static private System.Boolean ParseNumber(ref System.Char* str, System.Globalization.NumberStyles options, ref System.Number/NumberBuffer number, System.Text.StringBuilder sb, System.Globalization.NumberFormatInfo numfmt, System.Boolean parseDecimal)
     // Offset: 0x101C960
     static bool ParseNumber(::Il2CppChar*& str, System::Globalization::NumberStyles options, System::Number::NumberBuffer& number, System::Text::StringBuilder* sb, System::Globalization::NumberFormatInfo* numfmt, bool parseDecimal);
     // static System.Single ParseSingle(System.String value, System.Globalization.NumberStyles options, System.Globalization.NumberFormatInfo numfmt)
@@ -116,31 +116,31 @@ namespace System {
     // static System.UInt64 ParseUInt64(System.String value, System.Globalization.NumberStyles options, System.Globalization.NumberFormatInfo numfmt)
     // Offset: 0x101D23C
     static uint64_t ParseUInt64(::Il2CppString* value, System::Globalization::NumberStyles options, System::Globalization::NumberFormatInfo* numfmt);
-    // static private System.Void StringToNumber(System.String str, System.Globalization.NumberStyles options, System.Number/NumberBuffer number, System.Globalization.NumberFormatInfo info, System.Boolean parseDecimal)
+    // static private System.Void StringToNumber(System.String str, System.Globalization.NumberStyles options, ref System.Number/NumberBuffer number, System.Globalization.NumberFormatInfo info, System.Boolean parseDecimal)
     // Offset: 0x101C5A8
     static void StringToNumber(::Il2CppString* str, System::Globalization::NumberStyles options, System::Number::NumberBuffer& number, System::Globalization::NumberFormatInfo* info, bool parseDecimal);
     // static private System.Boolean TrailingZeros(System.String s, System.Int32 index)
     // Offset: 0x101D388
     static bool TrailingZeros(::Il2CppString* s, int index);
-    // static System.Boolean TryParseDouble(System.String value, System.Globalization.NumberStyles options, System.Globalization.NumberFormatInfo numfmt, System.Double result)
+    // static System.Boolean TryParseDouble(System.String value, System.Globalization.NumberStyles options, System.Globalization.NumberFormatInfo numfmt, out System.Double result)
     // Offset: 0x101D3F0
     static bool TryParseDouble(::Il2CppString* value, System::Globalization::NumberStyles options, System::Globalization::NumberFormatInfo* numfmt, double& result);
-    // static System.Boolean TryParseInt32(System.String s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info, System.Int32 result)
+    // static System.Boolean TryParseInt32(System.String s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info, out System.Int32 result)
     // Offset: 0x1014790
     static bool TryParseInt32(::Il2CppString* s, System::Globalization::NumberStyles style, System::Globalization::NumberFormatInfo* info, int& result);
-    // static System.Boolean TryParseInt64(System.String s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info, System.Int64 result)
+    // static System.Boolean TryParseInt64(System.String s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info, out System.Int64 result)
     // Offset: 0x1015528
     static bool TryParseInt64(::Il2CppString* s, System::Globalization::NumberStyles style, System::Globalization::NumberFormatInfo* info, int64_t& result);
-    // static System.Boolean TryParseSingle(System.String value, System.Globalization.NumberStyles options, System.Globalization.NumberFormatInfo numfmt, System.Single result)
+    // static System.Boolean TryParseSingle(System.String value, System.Globalization.NumberStyles options, System.Globalization.NumberFormatInfo numfmt, out System.Single result)
     // Offset: 0x101D4FC
     static bool TryParseSingle(::Il2CppString* value, System::Globalization::NumberStyles options, System::Globalization::NumberFormatInfo* numfmt, float& result);
-    // static System.Boolean TryParseUInt32(System.String s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info, System.UInt32 result)
+    // static System.Boolean TryParseUInt32(System.String s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info, out System.UInt32 result)
     // Offset: 0x101D640
     static bool TryParseUInt32(::Il2CppString* s, System::Globalization::NumberStyles style, System::Globalization::NumberFormatInfo* info, uint& result);
-    // static System.Boolean TryStringToNumber(System.String str, System.Globalization.NumberStyles options, System.Number/NumberBuffer number, System.Globalization.NumberFormatInfo numfmt, System.Boolean parseDecimal)
+    // static System.Boolean TryStringToNumber(System.String str, System.Globalization.NumberStyles options, ref System.Number/NumberBuffer number, System.Globalization.NumberFormatInfo numfmt, System.Boolean parseDecimal)
     // Offset: 0x101C94C
     static bool TryStringToNumber(::Il2CppString* str, System::Globalization::NumberStyles options, System::Number::NumberBuffer& number, System::Globalization::NumberFormatInfo* numfmt, bool parseDecimal);
-    // static System.Boolean TryStringToNumber(System.String str, System.Globalization.NumberStyles options, System.Number/NumberBuffer number, System.Text.StringBuilder sb, System.Globalization.NumberFormatInfo numfmt, System.Boolean parseDecimal)
+    // static System.Boolean TryStringToNumber(System.String str, System.Globalization.NumberStyles options, ref System.Number/NumberBuffer number, System.Text.StringBuilder sb, System.Globalization.NumberFormatInfo numfmt, System.Boolean parseDecimal)
     // Offset: 0x101D75C
     static bool TryStringToNumber(::Il2CppString* str, System::Globalization::NumberStyles options, System::Number::NumberBuffer& number, System::Text::StringBuilder* sb, System::Globalization::NumberFormatInfo* numfmt, bool parseDecimal);
   }; // System.Number

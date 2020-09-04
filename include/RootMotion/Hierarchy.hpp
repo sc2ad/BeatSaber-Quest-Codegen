@@ -32,7 +32,7 @@ namespace RootMotion {
     // static public System.Boolean ContainsChild(UnityEngine.Transform transform, UnityEngine.Transform child)
     // Offset: 0x1242400
     static bool ContainsChild(UnityEngine::Transform* transform, UnityEngine::Transform* child);
-    // static public System.Void AddAncestors(UnityEngine.Transform transform, UnityEngine.Transform blocker, UnityEngine.Transform[] array)
+    // static public System.Void AddAncestors(UnityEngine.Transform transform, UnityEngine.Transform blocker, ref UnityEngine.Transform[] array)
     // Offset: 0x1242524
     static void AddAncestors(UnityEngine::Transform* transform, UnityEngine::Transform* blocker, ::Array<UnityEngine::Transform*>*& array);
     // static public UnityEngine.Transform GetAncestor(UnityEngine.Transform transform, System.Int32 minChildCount)

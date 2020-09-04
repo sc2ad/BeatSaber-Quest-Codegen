@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Internal.Execution.CommandBuilder
 #include "NUnit/Framework/Internal/Execution/CommandBuilder.hpp"
 // Including type: NUnit.Framework.Internal.Commands.TestCommand

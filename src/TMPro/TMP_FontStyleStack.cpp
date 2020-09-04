@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include <stdint.h>
 // Including type: TMPro.TMP_FontStyleStack
 #include "TMPro/TMP_FontStyleStack.hpp"
 // Including type: TMPro.FontStyles

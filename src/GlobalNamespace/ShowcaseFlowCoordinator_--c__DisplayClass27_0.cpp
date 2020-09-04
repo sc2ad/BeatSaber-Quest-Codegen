@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: ShowcaseFlowCoordinator/<>c__DisplayClass27_0
 #include "GlobalNamespace/ShowcaseFlowCoordinator_--c__DisplayClass27_0.hpp"
 // Including type: ResultsViewController

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.TextCore.Glyph
 #include "UnityEngine/TextCore/Glyph.hpp"
 // Including type: UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct

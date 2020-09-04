@@ -5,14 +5,16 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.Math
 #include "UnityEngine/ProBuilder/Math.hpp"
-// Including type: System.Collections.Generic.IList`1
-#include "System/Collections/Generic/IList_1.hpp"
+// Including type: System.Func`2
+#include "System/Func_2.hpp"
 // Including type: UnityEngine.Ray
 #include "UnityEngine/Ray.hpp"
 // Including type: UnityEngine.ProBuilder.Bounds2D
 #include "UnityEngine/ProBuilder/Bounds2D.hpp"
 // Including type: UnityEngine.Rect
 #include "UnityEngine/Rect.hpp"
+// Including type: System.Collections.Generic.IList`1
+#include "System/Collections/Generic/IList_1.hpp"
 // Including type: UnityEngine.ProBuilder.Vertex
 #include "UnityEngine/ProBuilder/Vertex.hpp"
 // Including type: UnityEngine.ProBuilder.ProBuilderMesh
@@ -25,8 +27,6 @@
 #include "UnityEngine/Bounds.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
 #include "System/Collections/Generic/IEnumerable_1.hpp"
-// Including type: System.Func`2
-#include "System/Func_2.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

@@ -46,7 +46,7 @@ namespace ModestTree::Util {
     // private System.Collections.IEnumerator <>7__wrap1
     // Offset: 0x38
     System::Collections::IEnumerator* $$7__wrap1;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xD65644
     static UnityUtil::$GetDirectChildren$d__21* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()

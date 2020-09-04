@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: BeatmapObjectCallbackController
 #include "GlobalNamespace/BeatmapObjectCallbackController.hpp"
 // Including type: BeatmapObjectCallbackController/InitData

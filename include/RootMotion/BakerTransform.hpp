@@ -71,10 +71,10 @@ namespace RootMotion {
     // public System.Void SetRelativeSpace(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
     // Offset: 0x13A2728
     void SetRelativeSpace(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation);
-    // public System.Void SetCurves(UnityEngine.AnimationClip clip)
+    // public System.Void SetCurves(ref UnityEngine.AnimationClip clip)
     // Offset: 0x13A273C
     void SetCurves(UnityEngine::AnimationClip*& clip);
-    // private System.Void AddRootMotionCurves(UnityEngine.AnimationClip clip)
+    // private System.Void AddRootMotionCurves(ref UnityEngine.AnimationClip clip)
     // Offset: 0x13A29CC
     void AddRootMotionCurves(UnityEngine::AnimationClip*& clip);
     // public System.Void Reset()

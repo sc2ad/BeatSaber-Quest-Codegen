@@ -217,7 +217,7 @@ namespace System::Collections::Concurrent {
       // private System.Int32 <i>5__3
       // Offset: 0x0
       int $i$5__3;
-      // public System.Void .ctor(System.Int32 $$1__state)
+      // public System.Void .ctor(System.Int32 <>1__state)
       // Offset: 0xFFFFFFFF
       static typename ConcurrentDictionary_2<TKey, TValue>::$GetEnumerator$d__32* New_ctor(int $$1__state) {
         return (typename ConcurrentDictionary_2<TKey, TValue>::$GetEnumerator$d__32*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename ConcurrentDictionary_2<TKey, TValue>::$GetEnumerator$d__32*>::get(), $$1__state)));
@@ -315,17 +315,17 @@ namespace System::Collections::Concurrent {
     bool TryAdd(TKey key, TValue value) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "TryAdd", key, value));
     }
-    // public System.Boolean TryRemove(TKey key, TValue value)
+    // public System.Boolean TryRemove(TKey key, out TValue value)
     // Offset: 0xFFFFFFFF
     bool TryRemove(TKey key, TValue& value) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "TryRemove", key, value));
     }
-    // private System.Boolean TryRemoveInternal(TKey key, TValue value, System.Boolean matchValue, TValue oldValue)
+    // private System.Boolean TryRemoveInternal(TKey key, out TValue value, System.Boolean matchValue, TValue oldValue)
     // Offset: 0xFFFFFFFF
     bool TryRemoveInternal(TKey key, TValue& value, bool matchValue, TValue oldValue) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "TryRemoveInternal", key, value, matchValue, oldValue));
     }
-    // private System.Boolean TryGetValueInternal(TKey key, System.Int32 hashcode, TValue value)
+    // private System.Boolean TryGetValueInternal(TKey key, System.Int32 hashcode, out TValue value)
     // Offset: 0xFFFFFFFF
     bool TryGetValueInternal(TKey key, int hashcode, TValue& value) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "TryGetValueInternal", key, hashcode, value));
@@ -355,7 +355,7 @@ namespace System::Collections::Concurrent {
     System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* GetEnumerator() {
       return THROW_UNLESS((il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(this, "GetEnumerator")));
     }
-    // private System.Boolean TryAddInternal(TKey key, System.Int32 hashcode, TValue value, System.Boolean updateIfExists, System.Boolean acquireLock, TValue resultingValue)
+    // private System.Boolean TryAddInternal(TKey key, System.Int32 hashcode, TValue value, System.Boolean updateIfExists, System.Boolean acquireLock, out TValue resultingValue)
     // Offset: 0xFFFFFFFF
     bool TryAddInternal(TKey key, int hashcode, TValue value, bool updateIfExists, bool acquireLock, TValue& resultingValue) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "TryAddInternal", key, hashcode, value, updateIfExists, acquireLock, resultingValue));
@@ -395,7 +395,7 @@ namespace System::Collections::Concurrent {
     static int GetBucket(int hashcode, int bucketCount) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<int>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ConcurrentDictionary_2<TKey, TValue>*>::get(), "GetBucket", hashcode, bucketCount)));
     }
-    // static private System.Void GetBucketAndLockNo(System.Int32 hashcode, System.Int32 bucketNo, System.Int32 lockNo, System.Int32 bucketCount, System.Int32 lockCount)
+    // static private System.Void GetBucketAndLockNo(System.Int32 hashcode, out System.Int32 bucketNo, out System.Int32 lockNo, System.Int32 bucketCount, System.Int32 lockCount)
     // Offset: 0xFFFFFFFF
     static void GetBucketAndLockNo(int hashcode, int& bucketNo, int& lockNo, int bucketCount, int lockCount) {
       THROW_UNLESS((il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ConcurrentDictionary_2<TKey, TValue>*>::get(), "GetBucketAndLockNo", hashcode, bucketNo, lockNo, bucketCount, lockCount)));
@@ -405,12 +405,12 @@ namespace System::Collections::Concurrent {
     static int get_DefaultConcurrencyLevel() {
       return THROW_UNLESS((il2cpp_utils::RunMethod<int>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ConcurrentDictionary_2<TKey, TValue>*>::get(), "get_DefaultConcurrencyLevel")));
     }
-    // private System.Void AcquireAllLocks(System.Int32 locksAcquired)
+    // private System.Void AcquireAllLocks(ref System.Int32 locksAcquired)
     // Offset: 0xFFFFFFFF
     void AcquireAllLocks(int& locksAcquired) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "AcquireAllLocks", locksAcquired));
     }
-    // private System.Void AcquireLocks(System.Int32 fromInclusive, System.Int32 toExclusive, System.Int32 locksAcquired)
+    // private System.Void AcquireLocks(System.Int32 fromInclusive, System.Int32 toExclusive, ref System.Int32 locksAcquired)
     // Offset: 0xFFFFFFFF
     void AcquireLocks(int fromInclusive, int toExclusive, int& locksAcquired) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "AcquireLocks", fromInclusive, toExclusive, locksAcquired));
@@ -444,11 +444,11 @@ namespace System::Collections::Concurrent {
     bool ContainsKey(TKey key) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "ContainsKey", key));
     }
-    // public System.Boolean TryGetValue(TKey key, TValue value)
+    // public System.Boolean TryGetValue(TKey key, out TValue value)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IDictionary`2
-    // Base method: System.Boolean IDictionary`2::TryGetValue(TKey key, TValue value)
-    // Base method: System.Boolean IReadOnlyDictionary`2::TryGetValue(TKey key, TValue value)
+    // Base method: System.Boolean IDictionary`2::TryGetValue(TKey key, out TValue value)
+    // Base method: System.Boolean IReadOnlyDictionary`2::TryGetValue(TKey key, out TValue value)
     bool TryGetValue(TKey key, TValue& value) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "TryGetValue", key, value));
     }

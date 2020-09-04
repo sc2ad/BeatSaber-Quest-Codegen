@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: SteamVR_Skybox
 #include "GlobalNamespace/SteamVR_Skybox.hpp"
 // Including type: UnityEngine.Texture

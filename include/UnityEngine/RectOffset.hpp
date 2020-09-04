@@ -74,7 +74,7 @@ namespace UnityEngine {
     // public UnityEngine.Rect Remove(UnityEngine.Rect rect)
     // Offset: 0x14221C4
     UnityEngine::Rect Remove(UnityEngine::Rect rect);
-    // private System.Void Remove_Injected(UnityEngine.Rect rect, UnityEngine.Rect ret)
+    // private System.Void Remove_Injected(ref UnityEngine.Rect rect, out UnityEngine.Rect ret)
     // Offset: 0x142222C
     void Remove_Injected(UnityEngine::Rect& rect, UnityEngine::Rect& ret);
     // public System.Void .ctor()

@@ -52,7 +52,7 @@ namespace System::IO {
     static ::Array<::Il2CppString*>* _get_NoStringsArray();
     // Set static field: static private System.String[] NoStringsArray
     static void _set_NoStringsArray(::Array<::Il2CppString*>* value);
-    // static public System.Boolean GetInstance(System.IO.IFileWatcher watcher)
+    // static public System.Boolean GetInstance(out System.IO.IFileWatcher watcher)
     // Offset: 0xF6521C
     static bool GetInstance(System::IO::IFileWatcher*& watcher);
     // private System.Void Monitor()

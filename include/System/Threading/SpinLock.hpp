@@ -35,19 +35,19 @@ namespace System::Threading {
     // public System.Void .ctor(System.Boolean enableThreadOwnerTracking)
     // Offset: 0xA2DCE4
     static SpinLock* New_ctor(bool enableThreadOwnerTracking);
-    // public System.Void Enter(System.Boolean lockTaken)
+    // public System.Void Enter(ref System.Boolean lockTaken)
     // Offset: 0xA2DCF0
     void Enter(bool& lockTaken);
-    // public System.Void TryEnter(System.Int32 millisecondsTimeout, System.Boolean lockTaken)
+    // public System.Void TryEnter(System.Int32 millisecondsTimeout, ref System.Boolean lockTaken)
     // Offset: 0xA2DCF8
     void TryEnter(int millisecondsTimeout, bool& lockTaken);
-    // private System.Void ContinueTryEnter(System.Int32 millisecondsTimeout, System.Boolean lockTaken)
+    // private System.Void ContinueTryEnter(System.Int32 millisecondsTimeout, ref System.Boolean lockTaken)
     // Offset: 0xA2DD00
     void ContinueTryEnter(int millisecondsTimeout, bool& lockTaken);
     // private System.Void DecrementWaiters()
     // Offset: 0xA2DD08
     void DecrementWaiters();
-    // private System.Void ContinueTryEnterWithThreadTracking(System.Int32 millisecondsTimeout, System.UInt32 startTime, System.Boolean lockTaken)
+    // private System.Void ContinueTryEnterWithThreadTracking(System.Int32 millisecondsTimeout, System.UInt32 startTime, ref System.Boolean lockTaken)
     // Offset: 0xA2DD10
     void ContinueTryEnterWithThreadTracking(int millisecondsTimeout, uint startTime, bool& lockTaken);
     // public System.Void Exit(System.Boolean useMemoryBarrier)

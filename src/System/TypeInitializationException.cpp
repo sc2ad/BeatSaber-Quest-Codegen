@@ -33,5 +33,5 @@ void System::TypeInitializationException::GetObjectData(System::Runtime::Seriali
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "GetObjectData", info, context));
 }
 void System::TypeInitializationException::System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-  GetObjectData(info, context);
+  System::TypeInitializationException::GetObjectData(info, context);
 }

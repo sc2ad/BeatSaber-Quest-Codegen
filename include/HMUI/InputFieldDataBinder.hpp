@@ -17,12 +17,6 @@ namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
   template<typename T>
   class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
 }
 // Forward declaring namespace: System
 namespace System {
@@ -31,12 +25,6 @@ namespace System {
   class Tuple_4;
   // Forward declaring type: Action
   class Action;
-  // Forward declaring type: Tuple`4<T1, T2, T3, T4>
-  template<typename T1, typename T2, typename T3, typename T4>
-  class Tuple_4;
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
-  class Func_2;
   // Forward declaring type: Func`2<T, TResult>
   template<typename T, typename TResult>
   class Func_2;
@@ -53,9 +41,6 @@ namespace UnityEngine::UI {
 namespace GlobalNamespace {
   // Forward declaring type: IObservableChange
   class IObservableChange;
-  // Forward declaring type: IValue`1<T>
-  template<typename T>
-  class IValue_1;
   // Forward declaring type: IValue`1<T>
   template<typename T>
   class IValue_1;

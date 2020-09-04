@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.IO.FileSystemEnumerableHelpers
 #include "System/IO/FileSystemEnumerableHelpers.hpp"
 // Including type: Microsoft.Win32.Win32Native/WIN32_FIND_DATA

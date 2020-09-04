@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: PS4Helper
 #include "GlobalNamespace/PS4Helper.hpp"
 // Including type: System.Action

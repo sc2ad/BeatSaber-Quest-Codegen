@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: CreditsController
 #include "GlobalNamespace/CreditsController.hpp"
 // Including type: CreditsController/<ScrollCoroutine>d__13

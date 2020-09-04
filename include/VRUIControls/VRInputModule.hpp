@@ -90,7 +90,7 @@ namespace VRUIControls {
     // public System.Void set_useMouseForPressInput(System.Boolean value)
     // Offset: 0x193A074
     void set_useMouseForPressInput(bool value);
-    // protected System.Boolean GetPointerData(System.Int32 id, UnityEngine.EventSystems.PointerEventData data, System.Boolean create)
+    // protected System.Boolean GetPointerData(System.Int32 id, out UnityEngine.EventSystems.PointerEventData data, System.Boolean create)
     // Offset: 0x193A080
     bool GetPointerData(int id, UnityEngine::EventSystems::PointerEventData*& data, bool create);
     // protected VRUIControls.MouseState GetMousePointerEventData(System.Int32 id)

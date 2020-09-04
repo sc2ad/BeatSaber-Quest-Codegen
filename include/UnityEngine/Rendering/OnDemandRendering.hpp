@@ -18,7 +18,7 @@ namespace UnityEngine::Rendering {
     // static public System.Int32 get_renderFrameInterval()
     // Offset: 0x138D9BC
     static int get_renderFrameInterval();
-    // static System.Void GetRenderFrameInterval(System.Int32 frameInterval)
+    // static System.Void GetRenderFrameInterval(out System.Int32 frameInterval)
     // Offset: 0x138DA24
     static void GetRenderFrameInterval(int& frameInterval);
     // static private System.Void .cctor()

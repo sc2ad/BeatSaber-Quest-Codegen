@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Diagnostics.Tracing.EventProvider/<>c__DisplayClass44_0
 #include "System/Diagnostics/Tracing/EventProvider_--c__DisplayClass44_0.hpp"
 // Including type: System.Collections.Generic.List`1

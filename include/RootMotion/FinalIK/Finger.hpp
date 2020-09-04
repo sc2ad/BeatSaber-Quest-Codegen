@@ -125,7 +125,7 @@ namespace RootMotion::FinalIK {
     // public System.Void set_IKRotation(UnityEngine.Quaternion value)
     // Offset: 0x13B6AE4
     void set_IKRotation(UnityEngine::Quaternion value);
-    // public System.Boolean IsValid(System.String errorMessage)
+    // public System.Boolean IsValid(ref System.String errorMessage)
     // Offset: 0x13B6B04
     bool IsValid(::Il2CppString*& errorMessage);
     // public System.Void Initiate(UnityEngine.Transform hand, System.Int32 index)

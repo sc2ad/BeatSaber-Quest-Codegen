@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UserLoginDtoDataSource/<GetUserInfo>d__5
 #include "GlobalNamespace/UserLoginDtoDataSource_-GetUserInfo-d__5.hpp"
 // Including type: PlatformUserModelSO/UserInfo

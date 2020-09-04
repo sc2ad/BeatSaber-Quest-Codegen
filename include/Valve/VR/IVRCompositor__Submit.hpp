@@ -41,13 +41,13 @@ namespace Valve::VR {
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x160A460
     static IVRCompositor::_Submit* New_ctor(::Il2CppObject* object, System::IntPtr method);
-    // public Valve.VR.EVRCompositorError Invoke(Valve.VR.EVREye eEye, Valve.VR.Texture_t pTexture, Valve.VR.VRTextureBounds_t pBounds, Valve.VR.EVRSubmitFlags nSubmitFlags)
+    // public Valve.VR.EVRCompositorError Invoke(Valve.VR.EVREye eEye, ref Valve.VR.Texture_t pTexture, ref Valve.VR.VRTextureBounds_t pBounds, Valve.VR.EVRSubmitFlags nSubmitFlags)
     // Offset: 0x160A474
     Valve::VR::EVRCompositorError Invoke(Valve::VR::EVREye eEye, Valve::VR::Texture_t& pTexture, Valve::VR::VRTextureBounds_t& pBounds, Valve::VR::EVRSubmitFlags nSubmitFlags);
-    // public System.IAsyncResult BeginInvoke(Valve.VR.EVREye eEye, Valve.VR.Texture_t pTexture, Valve.VR.VRTextureBounds_t pBounds, Valve.VR.EVRSubmitFlags nSubmitFlags, System.AsyncCallback callback, System.Object object)
+    // public System.IAsyncResult BeginInvoke(Valve.VR.EVREye eEye, ref Valve.VR.Texture_t pTexture, ref Valve.VR.VRTextureBounds_t pBounds, Valve.VR.EVRSubmitFlags nSubmitFlags, System.AsyncCallback callback, System.Object object)
     // Offset: 0x160A73C
     System::IAsyncResult* BeginInvoke(Valve::VR::EVREye eEye, Valve::VR::Texture_t& pTexture, Valve::VR::VRTextureBounds_t& pBounds, Valve::VR::EVRSubmitFlags nSubmitFlags, System::AsyncCallback* callback, ::Il2CppObject* object);
-    // public Valve.VR.EVRCompositorError EndInvoke(Valve.VR.Texture_t pTexture, Valve.VR.VRTextureBounds_t pBounds, System.IAsyncResult result)
+    // public Valve.VR.EVRCompositorError EndInvoke(ref Valve.VR.Texture_t pTexture, ref Valve.VR.VRTextureBounds_t pBounds, System.IAsyncResult result)
     // Offset: 0x160A82C
     Valve::VR::EVRCompositorError EndInvoke(Valve::VR::Texture_t& pTexture, Valve::VR::VRTextureBounds_t& pBounds, System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_Submit

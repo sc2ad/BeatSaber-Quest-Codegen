@@ -25,24 +25,9 @@ namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
   template<typename TKey, typename TValue>
   class Dictionary_2;
-  // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
-  class Dictionary_2;
-  // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
-  class Dictionary_2;
-  // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
-  class Dictionary_2;
   // Forward declaring type: IList`1<T>
   template<typename T>
   class IList_1;
-  // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
-  class Dictionary_2;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
   // Forward declaring type: List`1<T>
   template<typename T>
   class List_1;
@@ -184,7 +169,7 @@ namespace System::Diagnostics::Tracing {
     // private System.String GetTypeName(System.Type type)
     // Offset: 0xD9ADEC
     ::Il2CppString* GetTypeName(System::Type* type);
-    // static private System.Void UpdateStringBuilder(System.Text.StringBuilder stringBuilder, System.String eventMessage, System.Int32 startIndex, System.Int32 count)
+    // static private System.Void UpdateStringBuilder(ref System.Text.StringBuilder stringBuilder, System.String eventMessage, System.Int32 startIndex, System.Int32 count)
     // Offset: 0xD9D540
     static void UpdateStringBuilder(System::Text::StringBuilder*& stringBuilder, ::Il2CppString* eventMessage, int startIndex, int count);
     // private System.String TranslateToManifestConvention(System.String eventMessage, System.String evtName)

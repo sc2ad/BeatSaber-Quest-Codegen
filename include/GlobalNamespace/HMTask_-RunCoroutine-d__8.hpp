@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // public HMTask <>4__this
     // Offset: 0x20
     GlobalNamespace::HMTask* $$4__this;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xCB6F3C
     static HMTask::$RunCoroutine$d__8* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

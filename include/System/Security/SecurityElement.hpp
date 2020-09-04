@@ -110,7 +110,7 @@ namespace System::Security {
     // static public System.Boolean IsValidText(System.String text)
     // Offset: 0xDEFB98
     static bool IsValidText(::Il2CppString* text);
-    // private System.Void ToXml(System.Text.StringBuilder s, System.Int32 level)
+    // private System.Void ToXml(ref System.Text.StringBuilder s, System.Int32 level)
     // Offset: 0xDF097C
     void ToXml(System::Text::StringBuilder*& s, int level);
     // System.Security.SecurityElement/SecurityAttribute GetAttribute(System.String name)

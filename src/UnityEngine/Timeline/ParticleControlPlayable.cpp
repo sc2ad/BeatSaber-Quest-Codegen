@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Timeline.ParticleControlPlayable
 #include "UnityEngine/Timeline/ParticleControlPlayable.hpp"
 // Including type: UnityEngine.ParticleSystem

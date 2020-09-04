@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.Poly2Tri.PointSet
 #include "UnityEngine/ProBuilder/Poly2Tri/PointSet.hpp"
 // Including type: System.Collections.Generic.IList`1

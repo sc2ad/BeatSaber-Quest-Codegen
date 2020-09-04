@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: System.Reflection.MemberInfo
 #include "System/Reflection/MemberInfo.hpp"
 // Including type: System.Runtime.InteropServices._Type
@@ -388,9 +389,16 @@ namespace System {
     // protected System.Boolean IsCOMObjectImpl()
     // Offset: 0xFFFFFFFF
     bool IsCOMObjectImpl();
-    // public System.Type MakeGenericType(System.Type[] typeArguments)
+    // public System.Type MakeGenericType(params System.Type[] typeArguments)
     // Offset: 0x1797C94
     System::Type* MakeGenericType(::Array<System::Type*>* typeArguments);
+    // Creating initializer_list -> params proxy for: System.Type MakeGenericType(params System.Type[] typeArguments)
+    System::Type* MakeGenericType(std::initializer_list<System::Type*> typeArguments);
+    // Creating TArgs -> initializer_list proxy for: System.Type MakeGenericType(params System.Type[] typeArguments)
+    template<class ...TParams>
+    System::Type* MakeGenericType(TParams&&... typeArguments) {
+      return MakeGenericType({typeArguments...});
+    }
     // protected System.Boolean IsContextfulImpl()
     // Offset: 0x1797D14
     bool IsContextfulImpl();
@@ -421,7 +429,7 @@ namespace System {
     // private System.Array GetEnumRawConstantValues()
     // Offset: 0x179850C
     System::Array* GetEnumRawConstantValues();
-    // private System.Void GetEnumData(System.String[] enumNames, System.Array enumValues)
+    // private System.Void GetEnumData(out System.String[] enumNames, out System.Array enumValues)
     // Offset: 0x1798000
     void GetEnumData(::Array<::Il2CppString*>*& enumNames, System::Array*& enumValues);
     // public System.Type GetEnumUnderlyingType()

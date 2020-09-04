@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -48,21 +49,42 @@ namespace UnityEngine {
     // static public System.Void Log(System.Object message, UnityEngine.Object context)
     // Offset: 0x130D27C
     static void Log(::Il2CppObject* message, UnityEngine::Object* context);
-    // static public System.Void LogFormat(System.String format, System.Object[] args)
+    // static public System.Void LogFormat(System.String format, params System.Object[] args)
     // Offset: 0x130D36C
     static void LogFormat(::Il2CppString* format, ::Array<::Il2CppObject*>* args);
+    // Creating initializer_list -> params proxy for: System.Void LogFormat(System.String format, params System.Object[] args)
+    static void LogFormat(::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.Void LogFormat(System.String format, params System.Object[] args)
+    template<class ...TParams>
+    static void LogFormat(::Il2CppString* format, TParams&&... args) {
+      LogFormat(format, {args...});
+    }
     // static public System.Void LogError(System.Object message)
     // Offset: 0x130D45C
     static void LogError(::Il2CppObject* message);
     // static public System.Void LogError(System.Object message, UnityEngine.Object context)
     // Offset: 0x130D53C
     static void LogError(::Il2CppObject* message, UnityEngine::Object* context);
-    // static public System.Void LogErrorFormat(System.String format, System.Object[] args)
+    // static public System.Void LogErrorFormat(System.String format, params System.Object[] args)
     // Offset: 0x130D62C
     static void LogErrorFormat(::Il2CppString* format, ::Array<::Il2CppObject*>* args);
-    // static public System.Void LogErrorFormat(UnityEngine.Object context, System.String format, System.Object[] args)
+    // Creating initializer_list -> params proxy for: System.Void LogErrorFormat(System.String format, params System.Object[] args)
+    static void LogErrorFormat(::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.Void LogErrorFormat(System.String format, params System.Object[] args)
+    template<class ...TParams>
+    static void LogErrorFormat(::Il2CppString* format, TParams&&... args) {
+      LogErrorFormat(format, {args...});
+    }
+    // static public System.Void LogErrorFormat(UnityEngine.Object context, System.String format, params System.Object[] args)
     // Offset: 0x130D71C
     static void LogErrorFormat(UnityEngine::Object* context, ::Il2CppString* format, ::Array<::Il2CppObject*>* args);
+    // Creating initializer_list -> params proxy for: System.Void LogErrorFormat(UnityEngine.Object context, System.String format, params System.Object[] args)
+    static void LogErrorFormat(UnityEngine::Object* context, ::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.Void LogErrorFormat(UnityEngine.Object context, System.String format, params System.Object[] args)
+    template<class ...TParams>
+    static void LogErrorFormat(UnityEngine::Object* context, ::Il2CppString* format, TParams&&... args) {
+      LogErrorFormat(context, format, {args...});
+    }
     // static public System.Void LogException(System.Exception exception)
     // Offset: 0x1304CF8
     static void LogException(System::Exception* exception);
@@ -75,12 +97,26 @@ namespace UnityEngine {
     // static public System.Void LogWarning(System.Object message, UnityEngine.Object context)
     // Offset: 0x130D9DC
     static void LogWarning(::Il2CppObject* message, UnityEngine::Object* context);
-    // static public System.Void LogWarningFormat(System.String format, System.Object[] args)
+    // static public System.Void LogWarningFormat(System.String format, params System.Object[] args)
     // Offset: 0x130DACC
     static void LogWarningFormat(::Il2CppString* format, ::Array<::Il2CppObject*>* args);
-    // static public System.Void LogWarningFormat(UnityEngine.Object context, System.String format, System.Object[] args)
+    // Creating initializer_list -> params proxy for: System.Void LogWarningFormat(System.String format, params System.Object[] args)
+    static void LogWarningFormat(::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.Void LogWarningFormat(System.String format, params System.Object[] args)
+    template<class ...TParams>
+    static void LogWarningFormat(::Il2CppString* format, TParams&&... args) {
+      LogWarningFormat(format, {args...});
+    }
+    // static public System.Void LogWarningFormat(UnityEngine.Object context, System.String format, params System.Object[] args)
     // Offset: 0x130DBBC
     static void LogWarningFormat(UnityEngine::Object* context, ::Il2CppString* format, ::Array<::Il2CppObject*>* args);
+    // Creating initializer_list -> params proxy for: System.Void LogWarningFormat(UnityEngine.Object context, System.String format, params System.Object[] args)
+    static void LogWarningFormat(UnityEngine::Object* context, ::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.Void LogWarningFormat(UnityEngine.Object context, System.String format, params System.Object[] args)
+    template<class ...TParams>
+    static void LogWarningFormat(UnityEngine::Object* context, ::Il2CppString* format, TParams&&... args) {
+      LogWarningFormat(context, format, {args...});
+    }
     // static public System.Void LogAssertion(System.Object message)
     // Offset: 0x1305328
     static void LogAssertion(::Il2CppObject* message);
@@ -93,7 +129,7 @@ namespace UnityEngine {
     // static private System.Void .cctor()
     // Offset: 0x130DE90
     static void _cctor();
-    // static private System.Void DrawLine_Injected(UnityEngine.Vector3 start, UnityEngine.Vector3 end, UnityEngine.Color color, System.Single duration, System.Boolean depthTest)
+    // static private System.Void DrawLine_Injected(ref UnityEngine.Vector3 start, ref UnityEngine.Vector3 end, ref UnityEngine.Color color, System.Single duration, System.Boolean depthTest)
     // Offset: 0x130D124
     static void DrawLine_Injected(UnityEngine::Vector3& start, UnityEngine::Vector3& end, UnityEngine::Color& color, float duration, bool depthTest);
   }; // UnityEngine.Debug

@@ -51,7 +51,7 @@ namespace UnityEngine::Timeline {
     // private System.Int32 <>7__wrap2
     // Offset: 0x40
     int $$7__wrap2;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0x1098468
     static ControlPlayableAsset::$GetControlableScripts$d__38* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

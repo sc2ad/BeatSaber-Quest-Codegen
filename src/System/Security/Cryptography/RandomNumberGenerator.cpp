@@ -29,5 +29,5 @@ void System::Security::Cryptography::RandomNumberGenerator::Dispose() {
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose"));
 }
 void System::Security::Cryptography::RandomNumberGenerator::System_IDisposable_Dispose() {
-  Dispose();
+  System::Security::Cryptography::RandomNumberGenerator::Dispose();
 }

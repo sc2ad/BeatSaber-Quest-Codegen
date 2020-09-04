@@ -33,7 +33,7 @@ namespace UnityEngine::TestTools::Utils {
     // public System.Collections.IEnumerator testEnumerator
     // Offset: 0x28
     System::Collections::IEnumerator* testEnumerator;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0x19778F4
     static CoroutineRunner::$HandleEnumerableTest$d__9* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

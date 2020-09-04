@@ -41,7 +41,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // private System.Int32 <i>5__2
     // Offset: 0x24
     int $i$5__2;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0x1932780
     static FixedBitArray3::$Enumerate$d__10* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

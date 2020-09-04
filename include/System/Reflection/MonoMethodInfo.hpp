@@ -52,7 +52,7 @@ namespace System::Reflection {
     System::Reflection::CallingConventions callconv;
     // Creating value type constructor for type: MonoMethodInfo
     constexpr MonoMethodInfo(System::Type* parent_ = {}, System::Type* ret_ = {}, System::Reflection::MethodAttributes attrs_ = {}, System::Reflection::MethodImplAttributes iattrs_ = {}, System::Reflection::CallingConventions callconv_ = {}) noexcept : parent{parent_}, ret{ret_}, attrs{attrs_}, iattrs{iattrs_}, callconv{callconv_} {}
-    // static private System.Void get_method_info(System.IntPtr handle, System.Reflection.MonoMethodInfo info)
+    // static private System.Void get_method_info(System.IntPtr handle, out System.Reflection.MonoMethodInfo info)
     // Offset: 0x11544E0
     static void get_method_info(System::IntPtr handle, System::Reflection::MonoMethodInfo& info);
     // static private System.Int32 get_method_attributes(System.IntPtr handle)

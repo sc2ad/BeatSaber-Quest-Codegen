@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OculusPlatformUserHandler/<>c__DisplayClass5_0
 #include "GlobalNamespace/OculusPlatformUserHandler_--c__DisplayClass5_0.hpp"
 // Including type: HMAsyncRequest

@@ -44,7 +44,7 @@ namespace System::Threading {
     // static private System.Void .cctor()
     // Offset: 0xCD9BD8
     static void _cctor();
-    // System.Void .ctor(System.Threading.WaitCallback waitCallback, System.Object stateObj, System.Boolean compressStack, System.Threading.StackCrawlMark stackMark)
+    // System.Void .ctor(System.Threading.WaitCallback waitCallback, System.Object stateObj, System.Boolean compressStack, ref System.Threading.StackCrawlMark stackMark)
     // Offset: 0xCD9C58
     static QueueUserWorkItemCallback* New_ctor(System::Threading::WaitCallback* waitCallback, ::Il2CppObject* stateObj, bool compressStack, System::Threading::StackCrawlMark& stackMark);
     // static private System.Void WaitCallback_Context(System.Object state)

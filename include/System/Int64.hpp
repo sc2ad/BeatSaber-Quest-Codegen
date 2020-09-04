@@ -76,10 +76,10 @@ namespace System {
     // static public System.Int64 Parse(System.String s, System.Globalization.NumberStyles style, System.IFormatProvider provider)
     // Offset: 0x10154A0
     static int64_t Parse(::Il2CppString* s, System::Globalization::NumberStyles style, System::IFormatProvider* provider);
-    // static public System.Boolean TryParse(System.String s, System.Int64 result)
+    // static public System.Boolean TryParse(System.String s, out System.Int64 result)
     // Offset: 0x10154F0
     static bool TryParse(::Il2CppString* s, int64_t& result);
-    // static public System.Boolean TryParse(System.String s, System.Globalization.NumberStyles style, System.IFormatProvider provider, System.Int64 result)
+    // static public System.Boolean TryParse(System.String s, System.Globalization.NumberStyles style, System.IFormatProvider provider, out System.Int64 result)
     // Offset: 0x1015658
     static bool TryParse(::Il2CppString* s, System::Globalization::NumberStyles style, System::IFormatProvider* provider, int64_t& result);
     // public System.Int32 CompareTo(System.Object value)

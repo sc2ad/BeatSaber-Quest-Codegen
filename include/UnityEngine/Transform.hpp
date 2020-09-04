@@ -195,70 +195,70 @@ namespace UnityEngine {
     // public UnityEngine.Transform GetChild(System.Int32 index)
     // Offset: 0x1399EC8
     UnityEngine::Transform* GetChild(int index);
-    // private System.Void get_position_Injected(UnityEngine.Vector3 ret)
+    // private System.Void get_position_Injected(out UnityEngine.Vector3 ret)
     // Offset: 0x1397E50
     void get_position_Injected(UnityEngine::Vector3& ret);
-    // private System.Void set_position_Injected(UnityEngine.Vector3 value)
+    // private System.Void set_position_Injected(ref UnityEngine.Vector3 value)
     // Offset: 0x1397EF8
     void set_position_Injected(UnityEngine::Vector3& value);
-    // private System.Void get_localPosition_Injected(UnityEngine.Vector3 ret)
+    // private System.Void get_localPosition_Injected(out UnityEngine.Vector3 ret)
     // Offset: 0x1397FA8
     void get_localPosition_Injected(UnityEngine::Vector3& ret);
-    // private System.Void set_localPosition_Injected(UnityEngine.Vector3 value)
+    // private System.Void set_localPosition_Injected(ref UnityEngine.Vector3 value)
     // Offset: 0x1398050
     void set_localPosition_Injected(UnityEngine::Vector3& value);
-    // private System.Void get_rotation_Injected(UnityEngine.Quaternion ret)
+    // private System.Void get_rotation_Injected(out UnityEngine.Quaternion ret)
     // Offset: 0x139878C
     void get_rotation_Injected(UnityEngine::Quaternion& ret);
-    // private System.Void set_rotation_Injected(UnityEngine.Quaternion value)
+    // private System.Void set_rotation_Injected(ref UnityEngine.Quaternion value)
     // Offset: 0x13987DC
     void set_rotation_Injected(UnityEngine::Quaternion& value);
-    // private System.Void get_localRotation_Injected(UnityEngine.Quaternion ret)
+    // private System.Void get_localRotation_Injected(out UnityEngine.Quaternion ret)
     // Offset: 0x139882C
     void get_localRotation_Injected(UnityEngine::Quaternion& ret);
-    // private System.Void set_localRotation_Injected(UnityEngine.Quaternion value)
+    // private System.Void set_localRotation_Injected(ref UnityEngine.Quaternion value)
     // Offset: 0x139887C
     void set_localRotation_Injected(UnityEngine::Quaternion& value);
-    // private System.Void get_localScale_Injected(UnityEngine.Vector3 ret)
+    // private System.Void get_localScale_Injected(out UnityEngine.Vector3 ret)
     // Offset: 0x139892C
     void get_localScale_Injected(UnityEngine::Vector3& ret);
-    // private System.Void set_localScale_Injected(UnityEngine.Vector3 value)
+    // private System.Void set_localScale_Injected(ref UnityEngine.Vector3 value)
     // Offset: 0x13989D4
     void set_localScale_Injected(UnityEngine::Vector3& value);
-    // private System.Void get_worldToLocalMatrix_Injected(UnityEngine.Matrix4x4 ret)
+    // private System.Void get_worldToLocalMatrix_Injected(out UnityEngine.Matrix4x4 ret)
     // Offset: 0x1398D28
     void get_worldToLocalMatrix_Injected(UnityEngine::Matrix4x4& ret);
-    // private System.Void get_localToWorldMatrix_Injected(UnityEngine.Matrix4x4 ret)
+    // private System.Void get_localToWorldMatrix_Injected(out UnityEngine.Matrix4x4 ret)
     // Offset: 0x1398DF0
     void get_localToWorldMatrix_Injected(UnityEngine::Matrix4x4& ret);
-    // private System.Void SetPositionAndRotation_Injected(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
+    // private System.Void SetPositionAndRotation_Injected(ref UnityEngine.Vector3 position, ref UnityEngine.Quaternion rotation)
     // Offset: 0x1398EA4
     void SetPositionAndRotation_Injected(UnityEngine::Vector3& position, UnityEngine::Quaternion& rotation);
-    // private System.Void RotateAroundInternal_Injected(UnityEngine.Vector3 axis, System.Single angle)
+    // private System.Void RotateAroundInternal_Injected(ref UnityEngine.Vector3 axis, System.Single angle)
     // Offset: 0x1399314
     void RotateAroundInternal_Injected(UnityEngine::Vector3& axis, float angle);
-    // private System.Void Internal_LookAt_Injected(UnityEngine.Vector3 worldPosition, UnityEngine.Vector3 worldUp)
+    // private System.Void Internal_LookAt_Injected(ref UnityEngine.Vector3 worldPosition, ref UnityEngine.Vector3 worldUp)
     // Offset: 0x13995E0
     void Internal_LookAt_Injected(UnityEngine::Vector3& worldPosition, UnityEngine::Vector3& worldUp);
-    // private System.Void TransformDirection_Injected(UnityEngine.Vector3 direction, UnityEngine.Vector3 ret)
+    // private System.Void TransformDirection_Injected(ref UnityEngine.Vector3 direction, out UnityEngine.Vector3 ret)
     // Offset: 0x1399638
     void TransformDirection_Injected(UnityEngine::Vector3& direction, UnityEngine::Vector3& ret);
-    // private System.Void InverseTransformDirection_Injected(UnityEngine.Vector3 direction, UnityEngine.Vector3 ret)
+    // private System.Void InverseTransformDirection_Injected(ref UnityEngine.Vector3 direction, out UnityEngine.Vector3 ret)
     // Offset: 0x13996FC
     void InverseTransformDirection_Injected(UnityEngine::Vector3& direction, UnityEngine::Vector3& ret);
-    // private System.Void TransformVector_Injected(UnityEngine.Vector3 vector, UnityEngine.Vector3 ret)
+    // private System.Void TransformVector_Injected(ref UnityEngine.Vector3 vector, out UnityEngine.Vector3 ret)
     // Offset: 0x13997C0
     void TransformVector_Injected(UnityEngine::Vector3& vector, UnityEngine::Vector3& ret);
-    // private System.Void InverseTransformVector_Injected(UnityEngine.Vector3 vector, UnityEngine.Vector3 ret)
+    // private System.Void InverseTransformVector_Injected(ref UnityEngine.Vector3 vector, out UnityEngine.Vector3 ret)
     // Offset: 0x1399884
     void InverseTransformVector_Injected(UnityEngine::Vector3& vector, UnityEngine::Vector3& ret);
-    // private System.Void TransformPoint_Injected(UnityEngine.Vector3 position, UnityEngine.Vector3 ret)
+    // private System.Void TransformPoint_Injected(ref UnityEngine.Vector3 position, out UnityEngine.Vector3 ret)
     // Offset: 0x1399948
     void TransformPoint_Injected(UnityEngine::Vector3& position, UnityEngine::Vector3& ret);
-    // private System.Void InverseTransformPoint_Injected(UnityEngine.Vector3 position, UnityEngine.Vector3 ret)
+    // private System.Void InverseTransformPoint_Injected(ref UnityEngine.Vector3 position, out UnityEngine.Vector3 ret)
     // Offset: 0x1399A0C
     void InverseTransformPoint_Injected(UnityEngine::Vector3& position, UnityEngine::Vector3& ret);
-    // private System.Void get_lossyScale_Injected(UnityEngine.Vector3 ret)
+    // private System.Void get_lossyScale_Injected(out UnityEngine.Vector3 ret)
     // Offset: 0x1399CE4
     void get_lossyScale_Injected(UnityEngine::Vector3& ret);
     // protected System.Void .ctor()

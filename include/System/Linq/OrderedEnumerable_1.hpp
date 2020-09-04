@@ -70,7 +70,7 @@ namespace System::Linq {
       // private System.Int32 <i>5__3
       // Offset: 0x0
       int $i$5__3;
-      // public System.Void .ctor(System.Int32 $$1__state)
+      // public System.Void .ctor(System.Int32 <>1__state)
       // Offset: 0xFFFFFFFF
       static typename OrderedEnumerable_1<TElement>::$GetEnumerator$d__1* New_ctor(int $$1__state) {
         return (typename OrderedEnumerable_1<TElement>::$GetEnumerator$d__1*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename OrderedEnumerable_1<TElement>::$GetEnumerator$d__1*>::get(), $$1__state));

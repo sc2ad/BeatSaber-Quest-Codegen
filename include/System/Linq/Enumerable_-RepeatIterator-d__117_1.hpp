@@ -50,7 +50,7 @@ namespace System::Linq {
     // public System.Int32 <>3__count
     // Offset: 0x0
     int $$3__count;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xFFFFFFFF
     static Enumerable::$RepeatIterator$d__117_1<TResult>* New_ctor(int $$1__state) {
       return (Enumerable::$RepeatIterator$d__117_1<TResult>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Enumerable::$RepeatIterator$d__117_1<TResult>*>::get(), $$1__state));

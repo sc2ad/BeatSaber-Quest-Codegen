@@ -90,7 +90,7 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.IKSolver/Node GetNode(System.Int32 chainIndex, System.Int32 nodeIndex)
     // Offset: 0x134B764
     RootMotion::FinalIK::IKSolver::Node* GetNode(int chainIndex, int nodeIndex);
-    // public System.Void GetChainAndNodeIndexes(UnityEngine.Transform transform, System.Int32 chainIndex, System.Int32 nodeIndex)
+    // public System.Void GetChainAndNodeIndexes(UnityEngine.Transform transform, out System.Int32 chainIndex, out System.Int32 nodeIndex)
     // Offset: 0x134B7C0
     void GetChainAndNodeIndexes(UnityEngine::Transform* transform, int& chainIndex, int& nodeIndex);
     // protected System.Void ReadPose()
@@ -115,10 +115,10 @@ namespace RootMotion::FinalIK {
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: RootMotion.FinalIK.IKSolver/Point IKSolver::GetPoint(UnityEngine.Transform transform)
     RootMotion::FinalIK::IKSolver::Point* GetPoint(UnityEngine::Transform* transform);
-    // public override System.Boolean IsValid(System.String message)
+    // public override System.Boolean IsValid(ref System.String message)
     // Offset: 0x134BB64
     // Implemented from: RootMotion.FinalIK.IKSolver
-    // Base method: System.Boolean IKSolver::IsValid(System.String message)
+    // Base method: System.Boolean IKSolver::IsValid(ref System.String message)
     bool IsValid(::Il2CppString*& message);
     // public override System.Void StoreDefaultLocalState()
     // Offset: 0x134BD6C

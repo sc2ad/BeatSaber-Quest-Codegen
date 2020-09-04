@@ -1318,73 +1318,73 @@ namespace TMPro {
     // public System.Void SetCharArray(System.Int32[] sourceText, System.Int32 start, System.Int32 length)
     // Offset: 0xBBE014
     void SetCharArray(::Array<int>* sourceText, int start, int length);
-    // protected System.Void SetTextArrayToCharArray(System.Char[] sourceText, TMPro.TMP_Text/UnicodeChar[] charBuffer)
+    // protected System.Void SetTextArrayToCharArray(System.Char[] sourceText, ref TMPro.TMP_Text/UnicodeChar[] charBuffer)
     // Offset: 0xBBC224
     void SetTextArrayToCharArray(::Array<::Il2CppChar>* sourceText, ::Array<TMPro::TMP_Text::UnicodeChar>*& charBuffer);
-    // protected System.Void StringToCharArray(System.String sourceText, TMPro.TMP_Text/UnicodeChar[] charBuffer)
+    // protected System.Void StringToCharArray(System.String sourceText, ref TMPro.TMP_Text/UnicodeChar[] charBuffer)
     // Offset: 0xBBB914
     void StringToCharArray(::Il2CppString* sourceText, ::Array<TMPro::TMP_Text::UnicodeChar>*& charBuffer);
-    // protected System.Void StringBuilderToIntArray(System.Text.StringBuilder sourceText, TMPro.TMP_Text/UnicodeChar[] charBuffer)
+    // protected System.Void StringBuilderToIntArray(System.Text.StringBuilder sourceText, ref TMPro.TMP_Text/UnicodeChar[] charBuffer)
     // Offset: 0xBBCAC0
     void StringBuilderToIntArray(System::Text::StringBuilder* sourceText, ::Array<TMPro::TMP_Text::UnicodeChar>*& charBuffer);
-    // private System.Boolean ReplaceOpeningStyleTag(System.String sourceText, System.Int32 srcIndex, System.Int32 srcOffset, TMPro.TMP_Text/UnicodeChar[] charBuffer, System.Int32 writeIndex)
+    // private System.Boolean ReplaceOpeningStyleTag(ref System.String sourceText, System.Int32 srcIndex, out System.Int32 srcOffset, ref TMPro.TMP_Text/UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
     // Offset: 0xBBED2C
     bool ReplaceOpeningStyleTag(::Il2CppString*& sourceText, int srcIndex, int& srcOffset, ::Array<TMPro::TMP_Text::UnicodeChar>*& charBuffer, int& writeIndex);
-    // private System.Boolean ReplaceOpeningStyleTag(System.Int32[] sourceText, System.Int32 srcIndex, System.Int32 srcOffset, TMPro.TMP_Text/UnicodeChar[] charBuffer, System.Int32 writeIndex)
+    // private System.Boolean ReplaceOpeningStyleTag(ref System.Int32[] sourceText, System.Int32 srcIndex, out System.Int32 srcOffset, ref TMPro.TMP_Text/UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
     // Offset: 0xBBE55C
     bool ReplaceOpeningStyleTag(::Array<int>*& sourceText, int srcIndex, int& srcOffset, ::Array<TMPro::TMP_Text::UnicodeChar>*& charBuffer, int& writeIndex);
-    // private System.Boolean ReplaceOpeningStyleTag(System.Char[] sourceText, System.Int32 srcIndex, System.Int32 srcOffset, TMPro.TMP_Text/UnicodeChar[] charBuffer, System.Int32 writeIndex)
+    // private System.Boolean ReplaceOpeningStyleTag(ref System.Char[] sourceText, System.Int32 srcIndex, out System.Int32 srcOffset, ref TMPro.TMP_Text/UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
     // Offset: 0xBBD730
     bool ReplaceOpeningStyleTag(::Array<::Il2CppChar>*& sourceText, int srcIndex, int& srcOffset, ::Array<TMPro::TMP_Text::UnicodeChar>*& charBuffer, int& writeIndex);
-    // private System.Boolean ReplaceOpeningStyleTag(System.Text.StringBuilder sourceText, System.Int32 srcIndex, System.Int32 srcOffset, TMPro.TMP_Text/UnicodeChar[] charBuffer, System.Int32 writeIndex)
+    // private System.Boolean ReplaceOpeningStyleTag(ref System.Text.StringBuilder sourceText, System.Int32 srcIndex, out System.Int32 srcOffset, ref TMPro.TMP_Text/UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
     // Offset: 0xBBF500
     bool ReplaceOpeningStyleTag(System::Text::StringBuilder*& sourceText, int srcIndex, int& srcOffset, ::Array<TMPro::TMP_Text::UnicodeChar>*& charBuffer, int& writeIndex);
-    // private System.Boolean ReplaceClosingStyleTag(System.String sourceText, System.Int32 srcIndex, TMPro.TMP_Text/UnicodeChar[] charBuffer, System.Int32 writeIndex)
+    // private System.Boolean ReplaceClosingStyleTag(ref System.String sourceText, System.Int32 srcIndex, ref TMPro.TMP_Text/UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
     // Offset: 0xBBEF9C
     bool ReplaceClosingStyleTag(::Il2CppString*& sourceText, int srcIndex, ::Array<TMPro::TMP_Text::UnicodeChar>*& charBuffer, int& writeIndex);
-    // private System.Boolean ReplaceClosingStyleTag(System.Int32[] sourceText, System.Int32 srcIndex, TMPro.TMP_Text/UnicodeChar[] charBuffer, System.Int32 writeIndex)
+    // private System.Boolean ReplaceClosingStyleTag(ref System.Int32[] sourceText, System.Int32 srcIndex, ref TMPro.TMP_Text/UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
     // Offset: 0xBBE7CC
     bool ReplaceClosingStyleTag(::Array<int>*& sourceText, int srcIndex, ::Array<TMPro::TMP_Text::UnicodeChar>*& charBuffer, int& writeIndex);
-    // private System.Boolean ReplaceClosingStyleTag(System.Char[] sourceText, System.Int32 srcIndex, TMPro.TMP_Text/UnicodeChar[] charBuffer, System.Int32 writeIndex)
+    // private System.Boolean ReplaceClosingStyleTag(ref System.Char[] sourceText, System.Int32 srcIndex, ref TMPro.TMP_Text/UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
     // Offset: 0xBBD9A0
     bool ReplaceClosingStyleTag(::Array<::Il2CppChar>*& sourceText, int srcIndex, ::Array<TMPro::TMP_Text::UnicodeChar>*& charBuffer, int& writeIndex);
-    // private System.Boolean ReplaceClosingStyleTag(System.Text.StringBuilder sourceText, System.Int32 srcIndex, TMPro.TMP_Text/UnicodeChar[] charBuffer, System.Int32 writeIndex)
+    // private System.Boolean ReplaceClosingStyleTag(ref System.Text.StringBuilder sourceText, System.Int32 srcIndex, ref TMPro.TMP_Text/UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
     // Offset: 0xBBF770
     bool ReplaceClosingStyleTag(System::Text::StringBuilder*& sourceText, int srcIndex, ::Array<TMPro::TMP_Text::UnicodeChar>*& charBuffer, int& writeIndex);
-    // private System.Boolean IsTagName(System.String text, System.String tag, System.Int32 index)
+    // private System.Boolean IsTagName(ref System.String text, System.String tag, System.Int32 index)
     // Offset: 0xBBEC24
     bool IsTagName(::Il2CppString*& text, ::Il2CppString* tag, int index);
-    // private System.Boolean IsTagName(System.Char[] text, System.String tag, System.Int32 index)
+    // private System.Boolean IsTagName(ref System.Char[] text, System.String tag, System.Int32 index)
     // Offset: 0xBBD600
     bool IsTagName(::Array<::Il2CppChar>*& text, ::Il2CppString* tag, int index);
-    // private System.Boolean IsTagName(System.Int32[] text, System.String tag, System.Int32 index)
+    // private System.Boolean IsTagName(ref System.Int32[] text, System.String tag, System.Int32 index)
     // Offset: 0xBBE42C
     bool IsTagName(::Array<int>*& text, ::Il2CppString* tag, int index);
-    // private System.Boolean IsTagName(System.Text.StringBuilder text, System.String tag, System.Int32 index)
+    // private System.Boolean IsTagName(ref System.Text.StringBuilder text, System.String tag, System.Int32 index)
     // Offset: 0xBBF3F4
     bool IsTagName(System::Text::StringBuilder*& text, ::Il2CppString* tag, int index);
-    // private System.Int32 GetTagHashCode(System.String text, System.Int32 index, System.Int32 closeIndex)
+    // private System.Int32 GetTagHashCode(ref System.String text, System.Int32 index, out System.Int32 closeIndex)
     // Offset: 0xBBF9D0
     int GetTagHashCode(::Il2CppString*& text, int index, int& closeIndex);
-    // private System.Int32 GetTagHashCode(System.Char[] text, System.Int32 index, System.Int32 closeIndex)
+    // private System.Int32 GetTagHashCode(ref System.Char[] text, System.Int32 index, out System.Int32 closeIndex)
     // Offset: 0xBBFB08
     int GetTagHashCode(::Array<::Il2CppChar>*& text, int index, int& closeIndex);
-    // private System.Int32 GetTagHashCode(System.Int32[] text, System.Int32 index, System.Int32 closeIndex)
+    // private System.Int32 GetTagHashCode(ref System.Int32[] text, System.Int32 index, out System.Int32 closeIndex)
     // Offset: 0xBBFA88
     int GetTagHashCode(::Array<int>*& text, int index, int& closeIndex);
-    // private System.Int32 GetTagHashCode(System.Text.StringBuilder text, System.Int32 index, System.Int32 closeIndex)
+    // private System.Int32 GetTagHashCode(ref System.Text.StringBuilder text, System.Int32 index, out System.Int32 closeIndex)
     // Offset: 0xBBFB88
     int GetTagHashCode(System::Text::StringBuilder*& text, int index, int& closeIndex);
-    // private System.Void ResizeInternalArray(T[] array)
+    // private System.Void ResizeInternalArray(ref T[] array)
     // Offset: 0xFFFFFFFF
     template<class T>
     void ResizeInternalArray(::Array<T>*& array) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "ResizeInternalArray", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, array));
     }
-    // protected System.Void AddFloatToCharArray(System.Double number, System.Int32 index, System.Int32 precision)
+    // protected System.Void AddFloatToCharArray(System.Double number, ref System.Int32 index, System.Int32 precision)
     // Offset: 0xBBC8A0
     void AddFloatToCharArray(double number, int& index, int precision);
-    // protected System.Void AddIntToCharArray(System.Double number, System.Int32 index, System.Int32 precision)
+    // protected System.Void AddIntToCharArray(System.Double number, ref System.Int32 index, System.Int32 precision)
     // Offset: 0xBBFC4C
     void AddIntToCharArray(double number, int& index, int precision);
     // protected System.Int32 SetArraySizes(TMPro.TMP_Text/UnicodeChar[] chars)
@@ -1459,10 +1459,10 @@ namespace TMPro {
     // public System.Void ComputeMarginSize()
     // Offset: 0xBC78A8
     void ComputeMarginSize();
-    // protected System.Void SaveWordWrappingState(TMPro.WordWrapState state, System.Int32 index, System.Int32 count)
+    // protected System.Void SaveWordWrappingState(ref TMPro.WordWrapState state, System.Int32 index, System.Int32 count)
     // Offset: 0xBC26E0
     void SaveWordWrappingState(TMPro::WordWrapState& state, int index, int count);
-    // protected System.Int32 RestoreWordWrappingState(TMPro.WordWrapState state)
+    // protected System.Int32 RestoreWordWrappingState(ref TMPro.WordWrapState state)
     // Offset: 0xBC732C
     int RestoreWordWrappingState(TMPro::WordWrapState& state);
     // protected System.Void SaveGlyphVertexInfo(System.Single padding, System.Single style_padding, UnityEngine.Color32 vertexColor)
@@ -1480,10 +1480,10 @@ namespace TMPro {
     // protected System.Void FillSpriteVertexBuffers(System.Int32 i, System.Int32 index_X4)
     // Offset: 0xBC9F24
     void FillSpriteVertexBuffers(int i, int index_X4);
-    // protected System.Void DrawUnderlineMesh(UnityEngine.Vector3 start, UnityEngine.Vector3 end, System.Int32 index, System.Single startScale, System.Single endScale, System.Single maxScale, System.Single sdfScale, UnityEngine.Color32 underlineColor)
+    // protected System.Void DrawUnderlineMesh(UnityEngine.Vector3 start, UnityEngine.Vector3 end, ref System.Int32 index, System.Single startScale, System.Single endScale, System.Single maxScale, System.Single sdfScale, UnityEngine.Color32 underlineColor)
     // Offset: 0xBCA590
     void DrawUnderlineMesh(UnityEngine::Vector3 start, UnityEngine::Vector3 end, int& index, float startScale, float endScale, float maxScale, float sdfScale, UnityEngine::Color32 underlineColor);
-    // protected System.Void DrawTextHighlight(UnityEngine.Vector3 start, UnityEngine.Vector3 end, System.Int32 index, UnityEngine.Color32 highlightColor)
+    // protected System.Void DrawTextHighlight(UnityEngine.Vector3 start, UnityEngine.Vector3 end, ref System.Int32 index, UnityEngine.Color32 highlightColor)
     // Offset: 0xBCB734
     void DrawTextHighlight(UnityEngine::Vector3 start, UnityEngine::Vector3 end, int& index, UnityEngine::Color32 highlightColor);
     // protected System.Void LoadDefaultSettings()
@@ -1543,16 +1543,16 @@ namespace TMPro {
     // protected UnityEngine.Color32 HexCharsToColor(System.Char[] hexChars, System.Int32 startIndex, System.Int32 length)
     // Offset: 0xBCC7B8
     UnityEngine::Color32 HexCharsToColor(::Array<::Il2CppChar>* hexChars, int startIndex, int length);
-    // private System.Int32 GetAttributeParameters(System.Char[] chars, System.Int32 startIndex, System.Int32 length, System.Single[] parameters)
+    // private System.Int32 GetAttributeParameters(System.Char[] chars, System.Int32 startIndex, System.Int32 length, ref System.Single[] parameters)
     // Offset: 0xBCCA34
     int GetAttributeParameters(::Array<::Il2CppChar>* chars, int startIndex, int length, ::Array<float>*& parameters);
     // protected System.Single ConvertToFloat(System.Char[] chars, System.Int32 startIndex, System.Int32 length)
     // Offset: 0xBCCC60
     float ConvertToFloat(::Array<::Il2CppChar>* chars, int startIndex, int length);
-    // protected System.Single ConvertToFloat(System.Char[] chars, System.Int32 startIndex, System.Int32 length, System.Int32 lastIndex)
+    // protected System.Single ConvertToFloat(System.Char[] chars, System.Int32 startIndex, System.Int32 length, out System.Int32 lastIndex)
     // Offset: 0xBCCAF4
     float ConvertToFloat(::Array<::Il2CppChar>* chars, int startIndex, int length, int& lastIndex);
-    // protected System.Boolean ValidateHtmlTag(TMPro.TMP_Text/UnicodeChar[] chars, System.Int32 startIndex, System.Int32 endIndex)
+    // protected System.Boolean ValidateHtmlTag(TMPro.TMP_Text/UnicodeChar[] chars, System.Int32 startIndex, out System.Int32 endIndex)
     // Offset: 0xBC2A30
     bool ValidateHtmlTag(::Array<TMPro::TMP_Text::UnicodeChar>* chars, int startIndex, int& endIndex);
     // public override UnityEngine.Color get_color()

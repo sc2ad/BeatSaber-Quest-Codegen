@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.InjectTypeInfo/InjectMemberInfo
 #include "Zenject/InjectTypeInfo_InjectMemberInfo.hpp"
 // Including type: Zenject.ZenMemberSetterMethod

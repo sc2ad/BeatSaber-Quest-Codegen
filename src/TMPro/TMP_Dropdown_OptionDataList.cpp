@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TMPro.TMP_Dropdown/OptionDataList
 #include "TMPro/TMP_Dropdown_OptionDataList.hpp"
 // Including type: System.Collections.Generic.List`1

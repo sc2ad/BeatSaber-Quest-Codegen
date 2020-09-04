@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: PlayerSaveDataV1_0_1/GameplayModifiers/EnabledObstacleType
 #include "GlobalNamespace/PlayerSaveDataV1_0_1_GameplayModifiers.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

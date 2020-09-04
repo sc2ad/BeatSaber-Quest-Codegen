@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: System.IO.TextWriter
 #include "System/IO/TextWriter.hpp"
 // Completed includes
@@ -111,11 +112,18 @@ namespace System::IO {
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::WriteLine(System.String format, System.Object arg0, System.Object arg1)
     void WriteLine(::Il2CppString* format, ::Il2CppObject* arg0, ::Il2CppObject* arg1);
-    // public override System.Void WriteLine(System.String format, System.Object[] arg)
+    // public override System.Void WriteLine(System.String format, params System.Object[] arg)
     // Offset: 0x1010F78
     // Implemented from: System.IO.TextWriter
-    // Base method: System.Void TextWriter::WriteLine(System.String format, System.Object[] arg)
+    // Base method: System.Void TextWriter::WriteLine(System.String format, params System.Object[] arg)
     void WriteLine(::Il2CppString* format, ::Array<::Il2CppObject*>* arg);
+    // Creating initializer_list -> params proxy for: System.Void WriteLine(System.String format, params System.Object[] arg)
+    void WriteLine(::Il2CppString* format, std::initializer_list<::Il2CppObject*> arg);
+    // Creating TArgs -> initializer_list proxy for: System.Void WriteLine(System.String format, params System.Object[] arg)
+    template<class ...TParams>
+    void WriteLine(::Il2CppString* format, TParams&&... arg) {
+      WriteLine(format, {arg...});
+    }
   }; // System.IO.TextWriter/SyncTextWriter
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

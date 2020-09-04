@@ -43,10 +43,10 @@ namespace System {
     // static private System.IntPtr GetStdHandle(System.Handles handle)
     // Offset: 0x17A27A0
     static System::IntPtr GetStdHandle(System::Handles handle);
-    // static private System.Boolean GetConsoleScreenBufferInfo(System.IntPtr handle, System.ConsoleScreenBufferInfo info)
+    // static private System.Boolean GetConsoleScreenBufferInfo(System.IntPtr handle, out System.ConsoleScreenBufferInfo info)
     // Offset: 0x17A2828
     static bool GetConsoleScreenBufferInfo(System::IntPtr handle, System::ConsoleScreenBufferInfo& info);
-    // static private System.Boolean ReadConsoleInput(System.IntPtr handle, System.InputRecord record, System.Int32 length, System.Int32 nread)
+    // static private System.Boolean ReadConsoleInput(System.IntPtr handle, out System.InputRecord record, System.Int32 length, out System.Int32 nread)
     // Offset: 0x17A2A40
     static bool ReadConsoleInput(System::IntPtr handle, System::InputRecord& record, int length, int& nread);
     // public System.Void .ctor()

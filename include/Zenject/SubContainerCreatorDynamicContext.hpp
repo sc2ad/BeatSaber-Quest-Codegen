@@ -51,7 +51,7 @@ namespace Zenject {
     // protected System.Void AddInstallers(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.GameObjectContext context)
     // Offset: 0xFFFFFFFF
     void AddInstallers(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::GameObjectContext* context);
-    // protected UnityEngine.GameObject CreateGameObject(System.Boolean shouldMakeActive)
+    // protected UnityEngine.GameObject CreateGameObject(out System.Boolean shouldMakeActive)
     // Offset: 0xFFFFFFFF
     UnityEngine::GameObject* CreateGameObject(bool& shouldMakeActive);
     // public Zenject.DiContainer CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext parentContext)

@@ -185,7 +185,7 @@ namespace System::Xml {
     // private System.Char* InvalidXmlChar(System.Int32 ch, System.Char* pDst, System.Boolean entitize)
     // Offset: 0x11A6F84
     ::Il2CppChar* InvalidXmlChar(int ch, ::Il2CppChar* pDst, bool entitize);
-    // System.Void EncodeChar(System.Char* pSrc, System.Char* pSrcEnd, System.Char* pDst)
+    // System.Void EncodeChar(ref System.Char* pSrc, System.Char* pSrcEnd, ref System.Char* pDst)
     // Offset: 0x119C5D4
     void EncodeChar(::Il2CppChar*& pSrc, ::Il2CppChar* pSrcEnd, ::Il2CppChar*& pDst);
     // protected System.Void ChangeTextContentMark(System.Boolean value)

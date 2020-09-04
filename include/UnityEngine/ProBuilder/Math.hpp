@@ -21,35 +21,12 @@
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: System::Collections::Generic
-namespace System::Collections::Generic {
-  // Forward declaring type: IList`1<T>
-  template<typename T>
-  class IList_1;
-  // Forward declaring type: IList`1<T>
-  template<typename T>
-  class IList_1;
-  // Forward declaring type: IList`1<T>
-  template<typename T>
-  class IList_1;
-  // Forward declaring type: IList`1<T>
-  template<typename T>
-  class IList_1;
-  // Forward declaring type: IList`1<T>
-  template<typename T>
-  class IList_1;
-  // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
-  class IEnumerable_1;
-  // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
-  class IEnumerable_1;
-  // Forward declaring type: IList`1<T>
-  template<typename T>
-  class IList_1;
-  // Forward declaring type: IList`1<T>
-  template<typename T>
-  class IList_1;
+// Forward declaring namespace: System
+namespace System {
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
+  class Func_2;
+  // Skipping declaration: IComparable`1 because it is already included!
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
@@ -73,12 +50,14 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: Normal
   struct Normal;
 }
-// Forward declaring namespace: System
-namespace System {
-  // Skipping declaration: IComparable`1 because it is already included!
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
-  class Func_2;
+// Forward declaring namespace: System::Collections::Generic
+namespace System::Collections::Generic {
+  // Forward declaring type: IList`1<T>
+  template<typename T>
+  class IList_1;
+  // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
+  class IEnumerable_1;
 }
 // Completed forward declares
 // Type namespace: UnityEngine.ProBuilder
@@ -171,7 +150,7 @@ namespace UnityEngine::ProBuilder {
     // static UnityEngine.Vector3 GetNearestPointRayRay(UnityEngine.Vector3 ao, UnityEngine.Vector3 ad, UnityEngine.Vector3 bo, UnityEngine.Vector3 bd)
     // Offset: 0xFA0C24
     static UnityEngine::Vector3 GetNearestPointRayRay(UnityEngine::Vector3 ao, UnityEngine::Vector3 ad, UnityEngine::Vector3 bo, UnityEngine::Vector3 bd);
-    // static System.Boolean GetLineSegmentIntersect(UnityEngine.Vector2 p0, UnityEngine.Vector2 p1, UnityEngine.Vector2 p2, UnityEngine.Vector2 p3, UnityEngine.Vector2 intersect)
+    // static System.Boolean GetLineSegmentIntersect(UnityEngine.Vector2 p0, UnityEngine.Vector2 p1, UnityEngine.Vector2 p2, UnityEngine.Vector2 p3, ref UnityEngine.Vector2 intersect)
     // Offset: 0xFA0EE0
     static bool GetLineSegmentIntersect(UnityEngine::Vector2 p0, UnityEngine::Vector2 p1, UnityEngine::Vector2 p2, UnityEngine::Vector2 p3, UnityEngine::Vector2& intersect);
     // static System.Boolean GetLineSegmentIntersect(UnityEngine.Vector2 p0, UnityEngine.Vector2 p1, UnityEngine.Vector2 p2, UnityEngine.Vector2 p3)
@@ -192,10 +171,10 @@ namespace UnityEngine::ProBuilder {
     // static System.Boolean RectIntersectsLineSegment(UnityEngine.Rect rect, UnityEngine.Vector3 a, UnityEngine.Vector3 b)
     // Offset: 0xFA1674
     static bool RectIntersectsLineSegment(UnityEngine::Rect rect, UnityEngine::Vector3 a, UnityEngine::Vector3 b);
-    // static public System.Boolean RayIntersectsTriangle(UnityEngine.Ray InRay, UnityEngine.Vector3 InTriangleA, UnityEngine.Vector3 InTriangleB, UnityEngine.Vector3 InTriangleC, System.Single OutDistance, UnityEngine.Vector3 OutPoint)
+    // static public System.Boolean RayIntersectsTriangle(UnityEngine.Ray InRay, UnityEngine.Vector3 InTriangleA, UnityEngine.Vector3 InTriangleB, UnityEngine.Vector3 InTriangleC, out System.Single OutDistance, out UnityEngine.Vector3 OutPoint)
     // Offset: 0xF9A094
     static bool RayIntersectsTriangle(UnityEngine::Ray InRay, UnityEngine::Vector3 InTriangleA, UnityEngine::Vector3 InTriangleB, UnityEngine::Vector3 InTriangleC, float& OutDistance, UnityEngine::Vector3& OutPoint);
-    // static System.Boolean RayIntersectsTriangle2(UnityEngine.Vector3 origin, UnityEngine.Vector3 dir, UnityEngine.Vector3 vert0, UnityEngine.Vector3 vert1, UnityEngine.Vector3 vert2, System.Single distance, UnityEngine.Vector3 normal)
+    // static System.Boolean RayIntersectsTriangle2(UnityEngine.Vector3 origin, UnityEngine.Vector3 dir, UnityEngine.Vector3 vert0, UnityEngine.Vector3 vert1, UnityEngine.Vector3 vert2, ref System.Single distance, ref UnityEngine.Vector3 normal)
     // Offset: 0xF9B69C
     static bool RayIntersectsTriangle2(UnityEngine::Vector3 origin, UnityEngine::Vector3 dir, UnityEngine::Vector3 vert0, UnityEngine::Vector3 vert1, UnityEngine::Vector3 vert2, float& distance, UnityEngine::Vector3& normal);
     // static public System.Single Secant(System.Single x)
@@ -326,16 +305,16 @@ namespace UnityEngine::ProBuilder {
     // static System.Int32 IntSum(UnityEngine.Vector3 mask)
     // Offset: 0xFA5D40
     static int IntSum(UnityEngine::Vector3 mask);
-    // static System.Void Cross(UnityEngine.Vector3 a, UnityEngine.Vector3 b, System.Single x, System.Single y, System.Single z)
+    // static System.Void Cross(UnityEngine.Vector3 a, UnityEngine.Vector3 b, ref System.Single x, ref System.Single y, ref System.Single z)
     // Offset: 0xFA5DD8
     static void Cross(UnityEngine::Vector3 a, UnityEngine::Vector3 b, float& x, float& y, float& z);
-    // static System.Void Cross(UnityEngine.Vector3 a, UnityEngine.Vector3 b, UnityEngine.Vector3 res)
+    // static System.Void Cross(UnityEngine.Vector3 a, UnityEngine.Vector3 b, ref UnityEngine.Vector3 res)
     // Offset: 0xFA1698
     static void Cross(UnityEngine::Vector3 a, UnityEngine::Vector3 b, UnityEngine::Vector3& res);
-    // static System.Void Cross(System.Single ax, System.Single ay, System.Single az, System.Single bx, System.Single by, System.Single bz, System.Single x, System.Single y, System.Single z)
+    // static System.Void Cross(System.Single ax, System.Single ay, System.Single az, System.Single bx, System.Single by, System.Single bz, ref System.Single x, ref System.Single y, ref System.Single z)
     // Offset: 0xFA18C8
     static void Cross(float ax, float ay, float az, float bx, float by, float bz, float& x, float& y, float& z);
-    // static System.Void Subtract(UnityEngine.Vector3 a, UnityEngine.Vector3 b, UnityEngine.Vector3 res)
+    // static System.Void Subtract(UnityEngine.Vector3 a, UnityEngine.Vector3 b, ref UnityEngine.Vector3 res)
     // Offset: 0xFA1680
     static void Subtract(UnityEngine::Vector3 a, UnityEngine::Vector3 b, UnityEngine::Vector3& res);
     // static System.Int32 Min(System.Int32 a, System.Int32 b)

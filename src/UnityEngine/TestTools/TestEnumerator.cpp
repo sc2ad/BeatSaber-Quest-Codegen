@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.TestTools.TestEnumerator
 #include "UnityEngine/TestTools/TestEnumerator.hpp"
 // Including type: UnityEngine.TestTools.TestEnumerator/<Execute>d__5

@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // private LevelCompletionResults <levelCompletionResults>5__2
     // Offset: 0x28
     GlobalNamespace::LevelCompletionResults* $levelCompletionResults$5__2;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xBA3C2C
     static StandardLevelFailedController::$LevelFailedCoroutine$d__13* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

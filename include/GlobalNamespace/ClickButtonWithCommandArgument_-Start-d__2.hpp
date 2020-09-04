@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // public ClickButtonWithCommandArgument <>4__this
     // Offset: 0x20
     GlobalNamespace::ClickButtonWithCommandArgument* $$4__this;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xCAE894
     static ClickButtonWithCommandArgument::$Start$d__2* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -26,10 +27,17 @@ namespace System {
     static System::ParameterizedStrings::LowLevelStack* _get__cachedStack();
     // Set static field: static private System.ParameterizedStrings/LowLevelStack _cachedStack
     static void _set__cachedStack(System::ParameterizedStrings::LowLevelStack* value);
-    // static public System.String Evaluate(System.String format, System.ParameterizedStrings/FormatParam[] args)
+    // static public System.String Evaluate(System.String format, params System.ParameterizedStrings/FormatParam[] args)
     // Offset: 0x1363EC8
     static ::Il2CppString* Evaluate(::Il2CppString* format, ::Array<System::ParameterizedStrings::FormatParam>* args);
-    // static private System.String EvaluateInternal(System.String format, System.Int32 pos, System.ParameterizedStrings/FormatParam[] args, System.ParameterizedStrings/LowLevelStack stack, System.ParameterizedStrings/FormatParam[] dynamicVars, System.ParameterizedStrings/FormatParam[] staticVars)
+    // Creating initializer_list -> params proxy for: System.String Evaluate(System.String format, params System.ParameterizedStrings/FormatParam[] args)
+    static ::Il2CppString* Evaluate(::Il2CppString* format, std::initializer_list<System::ParameterizedStrings::FormatParam> args);
+    // Creating TArgs -> initializer_list proxy for: System.String Evaluate(System.String format, params System.ParameterizedStrings/FormatParam[] args)
+    template<class ...TParams>
+    static ::Il2CppString* Evaluate(::Il2CppString* format, TParams&&... args) {
+      return Evaluate(format, {args...});
+    }
+    // static private System.String EvaluateInternal(System.String format, ref System.Int32 pos, System.ParameterizedStrings/FormatParam[] args, System.ParameterizedStrings/LowLevelStack stack, ref System.ParameterizedStrings/FormatParam[] dynamicVars, ref System.ParameterizedStrings/FormatParam[] staticVars)
     // Offset: 0x136409C
     static ::Il2CppString* EvaluateInternal(::Il2CppString* format, int& pos, ::Array<System::ParameterizedStrings::FormatParam>* args, System::ParameterizedStrings::LowLevelStack* stack, ::Array<System::ParameterizedStrings::FormatParam>*& dynamicVars, ::Array<System::ParameterizedStrings::FormatParam>*& staticVars);
     // static private System.Boolean AsBool(System.Int32 i)
@@ -50,7 +58,7 @@ namespace System {
     // static private System.String FormatPrintF(System.String format, System.Object arg)
     // Offset: 0x1364BBC
     static ::Il2CppString* FormatPrintF(::Il2CppString* format, ::Il2CppObject* arg);
-    // static private System.ParameterizedStrings/FormatParam[] GetDynamicOrStaticVariables(System.Char c, System.ParameterizedStrings/FormatParam[] dynamicVars, System.ParameterizedStrings/FormatParam[] staticVars, System.Int32 index)
+    // static private System.ParameterizedStrings/FormatParam[] GetDynamicOrStaticVariables(System.Char c, ref System.ParameterizedStrings/FormatParam[] dynamicVars, ref System.ParameterizedStrings/FormatParam[] staticVars, out System.Int32 index)
     // Offset: 0x1364F10
     static ::Array<System::ParameterizedStrings::FormatParam>* GetDynamicOrStaticVariables(::Il2CppChar c, ::Array<System::ParameterizedStrings::FormatParam>*& dynamicVars, ::Array<System::ParameterizedStrings::FormatParam>*& staticVars, int& index);
   }; // System.ParameterizedStrings

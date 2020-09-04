@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: ModestTree.LinqExtensions
 #include "ModestTree/LinqExtensions.hpp"
 // Including type: ModestTree.LinqExtensions/<Yield>d__0`1

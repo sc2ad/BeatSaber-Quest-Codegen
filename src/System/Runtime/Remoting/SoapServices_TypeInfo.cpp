@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.Remoting.SoapServices/TypeInfo
 #include "System/Runtime/Remoting/SoapServices_TypeInfo.hpp"
 // Including type: System.Collections.Hashtable

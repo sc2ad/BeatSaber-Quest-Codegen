@@ -24,7 +24,7 @@ namespace UnityEngine::TestTools::TestRunner {
     // public UnityEngine.TestTools.TestRunner.PlaymodeTestsController <>4__this
     // Offset: 0x20
     UnityEngine::TestTools::TestRunner::PlaymodeTestsController* $$4__this;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xE48A74
     static PlaymodeTestsController::$Start$d__12* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

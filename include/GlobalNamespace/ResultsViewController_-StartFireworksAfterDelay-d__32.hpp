@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     // public ResultsViewController <>4__this
     // Offset: 0x28
     GlobalNamespace::ResultsViewController* $$4__this;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xC21C3C
     static ResultsViewController::$StartFireworksAfterDelay$d__32* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

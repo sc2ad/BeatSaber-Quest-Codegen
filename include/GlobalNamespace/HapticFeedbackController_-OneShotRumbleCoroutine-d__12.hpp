@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     // private System.Single <intervalStartTime>5__4
     // Offset: 0x44
     float $intervalStartTime$5__4;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xCB7674
     static HapticFeedbackController::$OneShotRumbleCoroutine$d__12* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

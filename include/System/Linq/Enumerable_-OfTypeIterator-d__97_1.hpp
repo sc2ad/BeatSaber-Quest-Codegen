@@ -45,7 +45,7 @@ namespace System::Linq {
     // private System.Collections.IEnumerator <>7__wrap1
     // Offset: 0x0
     System::Collections::IEnumerator* $$7__wrap1;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xFFFFFFFF
     static Enumerable::$OfTypeIterator$d__97_1<TResult>* New_ctor(int $$1__state) {
       return (Enumerable::$OfTypeIterator$d__97_1<TResult>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Enumerable::$OfTypeIterator$d__97_1<TResult>*>::get(), $$1__state));

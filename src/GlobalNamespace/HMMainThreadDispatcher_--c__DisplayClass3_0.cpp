@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: HMMainThreadDispatcher/<>c__DisplayClass3_0
 #include "GlobalNamespace/HMMainThreadDispatcher_--c__DisplayClass3_0.hpp"
 // Including type: System.Collections.IEnumerator

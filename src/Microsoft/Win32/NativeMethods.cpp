@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Microsoft.Win32.NativeMethods
 #include "Microsoft/Win32/NativeMethods.hpp"
 // Including type: System.Runtime.InteropServices.HandleRef

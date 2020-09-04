@@ -121,5 +121,5 @@ void System::IO::BinaryWriter::Dispose() {
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose"));
 }
 void System::IO::BinaryWriter::System_IDisposable_Dispose() {
-  Dispose();
+  System::IO::BinaryWriter::Dispose();
 }

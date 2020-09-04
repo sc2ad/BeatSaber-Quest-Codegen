@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: NUnit.Framework.Internal.Filters.CompositeFilter
 #include "NUnit/Framework/Internal/Filters/CompositeFilter.hpp"
 // Completed includes
@@ -28,11 +29,18 @@ namespace NUnit::Framework::Internal::Filters {
     // Base method: System.Void TestFilter::.ctor()
     // Base method: System.Void Object::.ctor()
     static AndFilter* New_ctor();
-    // public System.Void .ctor(NUnit.Framework.Interfaces.ITestFilter[] filters)
+    // public System.Void .ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
     // Offset: 0x108B8E4
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
-    // Base method: System.Void CompositeFilter::.ctor(NUnit.Framework.Interfaces.ITestFilter[] filters)
+    // Base method: System.Void CompositeFilter::.ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
     static AndFilter* New_ctor(::Array<NUnit::Framework::Interfaces::ITestFilter*>* filters);
+    // Creating initializer_list -> params proxy for: System.Void .ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
+    static AndFilter* New_ctor(std::initializer_list<NUnit::Framework::Interfaces::ITestFilter*> filters);
+    // Creating TArgs -> initializer_list proxy for: System.Void .ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
+    template<class ...TParams>
+    static AndFilter* New_ctor(TParams&&... filters) {
+      return New_ctor({filters...});
+    }
     // public override System.Boolean Pass(NUnit.Framework.Interfaces.ITest test)
     // Offset: 0x108B994
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter

@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -38,9 +39,16 @@ namespace System {
     // static public System.Object CreateInstance(System.Type type, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes)
     // Offset: 0x10BCCB0
     static ::Il2CppObject* CreateInstance(System::Type* type, System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder* binder, ::Array<::Il2CppObject*>* args, System::Globalization::CultureInfo* culture, ::Array<::Il2CppObject*>* activationAttributes);
-    // static public System.Object CreateInstance(System.Type type, System.Object[] args)
+    // static public System.Object CreateInstance(System.Type type, params System.Object[] args)
     // Offset: 0x10BCF14
     static ::Il2CppObject* CreateInstance(System::Type* type, ::Array<::Il2CppObject*>* args);
+    // Creating initializer_list -> params proxy for: System.Object CreateInstance(System.Type type, params System.Object[] args)
+    static ::Il2CppObject* CreateInstance(System::Type* type, std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.Object CreateInstance(System.Type type, params System.Object[] args)
+    template<class ...TParams>
+    static ::Il2CppObject* CreateInstance(System::Type* type, TParams&&... args) {
+      return CreateInstance(type, {args...});
+    }
     // static public System.Object CreateInstance(System.Type type)
     // Offset: 0x10BCF2C
     static ::Il2CppObject* CreateInstance(System::Type* type);

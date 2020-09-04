@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Net.Sockets.SocketAsyncEventArgs
 #include "System/Net/Sockets/SocketAsyncEventArgs.hpp"
 // Including type: System.Net.EndPoint

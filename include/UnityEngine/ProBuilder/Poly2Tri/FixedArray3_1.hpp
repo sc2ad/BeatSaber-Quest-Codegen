@@ -53,7 +53,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
       // private System.Int32 <i>5__2
       // Offset: 0x0
       int $i$5__2;
-      // public System.Void .ctor(System.Int32 $$1__state)
+      // public System.Void .ctor(System.Int32 <>1__state)
       // Offset: 0xFFFFFFFF
       static typename FixedArray3_1<T>::$Enumerate$d__10* New_ctor(int $$1__state) {
         return (typename FixedArray3_1<T>::$Enumerate$d__10*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename FixedArray3_1<T>::$Enumerate$d__10*>::get(), $$1__state));

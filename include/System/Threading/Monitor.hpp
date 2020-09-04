@@ -14,7 +14,7 @@ namespace System::Threading {
     // static public System.Void Enter(System.Object obj)
     // Offset: 0x13DFCA4
     static void Enter(::Il2CppObject* obj);
-    // static public System.Void Enter(System.Object obj, System.Boolean lockTaken)
+    // static public System.Void Enter(System.Object obj, ref System.Boolean lockTaken)
     // Offset: 0x13DF294
     static void Enter(::Il2CppObject* obj, bool& lockTaken);
     // static private System.Void ThrowLockTakenException()
@@ -56,13 +56,13 @@ namespace System::Threading {
     // static private System.Boolean ObjWait(System.Boolean exitContext, System.Int32 millisecondsTimeout, System.Object obj)
     // Offset: 0x13DFDD8
     static bool ObjWait(bool exitContext, int millisecondsTimeout, ::Il2CppObject* obj);
-    // static private System.Void try_enter_with_atomic_var(System.Object obj, System.Int32 millisecondsTimeout, System.Boolean lockTaken)
+    // static private System.Void try_enter_with_atomic_var(System.Object obj, System.Int32 millisecondsTimeout, ref System.Boolean lockTaken)
     // Offset: 0x13E0054
     static void try_enter_with_atomic_var(::Il2CppObject* obj, int millisecondsTimeout, bool& lockTaken);
-    // static private System.Void ReliableEnterTimeout(System.Object obj, System.Int32 timeout, System.Boolean lockTaken)
+    // static private System.Void ReliableEnterTimeout(System.Object obj, System.Int32 timeout, ref System.Boolean lockTaken)
     // Offset: 0x13E0058
     static void ReliableEnterTimeout(::Il2CppObject* obj, int timeout, bool& lockTaken);
-    // static private System.Void ReliableEnter(System.Object obj, System.Boolean lockTaken)
+    // static private System.Void ReliableEnter(System.Object obj, ref System.Boolean lockTaken)
     // Offset: 0x13DFD34
     static void ReliableEnter(::Il2CppObject* obj, bool& lockTaken);
   }; // System.Threading.Monitor

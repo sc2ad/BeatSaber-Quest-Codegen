@@ -14,20 +14,8 @@ namespace TMPro {
   class FastAction_2;
   // Forward declaring type: Compute_DT_EventArgs
   class Compute_DT_EventArgs;
-  // Forward declaring type: FastAction`2<A, B>
-  template<typename A, typename B>
-  class FastAction_2;
-  // Forward declaring type: FastAction`2<A, B>
-  template<typename A, typename B>
-  class FastAction_2;
   // Forward declaring type: TMP_FontAsset
   class TMP_FontAsset;
-  // Forward declaring type: FastAction`2<A, B>
-  template<typename A, typename B>
-  class FastAction_2;
-  // Forward declaring type: FastAction`2<A, B>
-  template<typename A, typename B>
-  class FastAction_2;
   // Forward declaring type: TextMeshPro
   class TextMeshPro;
   // Forward declaring type: FastAction`3<A, B, C>
@@ -36,21 +24,12 @@ namespace TMPro {
   // Forward declaring type: FastAction`1<A>
   template<typename A>
   class FastAction_1;
-  // Forward declaring type: FastAction`1<A>
-  template<typename A>
-  class FastAction_1;
   // Forward declaring type: TMP_ColorGradient
   class TMP_ColorGradient;
   // Forward declaring type: FastAction
   class FastAction;
-  // Forward declaring type: FastAction`2<A, B>
-  template<typename A, typename B>
-  class FastAction_2;
   // Forward declaring type: TextMeshProUGUI
   class TextMeshProUGUI;
-  // Forward declaring type: FastAction`1<A>
-  template<typename A>
-  class FastAction_1;
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {

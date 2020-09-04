@@ -130,7 +130,7 @@ namespace System::Runtime::Remoting::Messaging {
     // System.Runtime.Remoting.Messaging.CallType get_CallType()
     // Offset: 0x106FA04
     System::Runtime::Remoting::Messaging::CallType get_CallType();
-    // public System.Boolean NeedsOutProcessing(System.Int32 outCount)
+    // public System.Boolean NeedsOutProcessing(out System.Int32 outCount)
     // Offset: 0x106FF50
     bool NeedsOutProcessing(int& outCount);
     // static private System.Void .cctor()

@@ -97,10 +97,10 @@ namespace GlobalNamespace {
     // public System.Void UpdateOverlay()
     // Offset: 0xD8CFD0
     void UpdateOverlay();
-    // public System.Boolean PollNextEvent(Valve.VR.VREvent_t pEvent)
+    // public System.Boolean PollNextEvent(ref Valve.VR.VREvent_t pEvent)
     // Offset: 0xD8D40C
     bool PollNextEvent(Valve::VR::VREvent_t& pEvent);
-    // public System.Boolean ComputeIntersection(UnityEngine.Vector3 source, UnityEngine.Vector3 direction, SteamVR_Overlay/IntersectionResults results)
+    // public System.Boolean ComputeIntersection(UnityEngine.Vector3 source, UnityEngine.Vector3 direction, ref SteamVR_Overlay/IntersectionResults results)
     // Offset: 0xD8D518
     bool ComputeIntersection(UnityEngine::Vector3 source, UnityEngine::Vector3 direction, GlobalNamespace::SteamVR_Overlay::IntersectionResults& results);
     // public System.Void .ctor()

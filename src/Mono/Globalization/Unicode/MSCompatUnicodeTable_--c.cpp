@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Mono.Globalization.Unicode.MSCompatUnicodeTable/<>c
 #include "Mono/Globalization/Unicode/MSCompatUnicodeTable_--c.hpp"
 // Including type: System.Comparison`1

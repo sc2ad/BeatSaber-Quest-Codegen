@@ -76,10 +76,10 @@ namespace System::Diagnostics::Tracing {
     static ClassPropertyWriter_2<ContainerType, ValueType>* New_ctor(System::Diagnostics::Tracing::PropertyAnalysis* property) {
       return (ClassPropertyWriter_2<ContainerType, ValueType>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ClassPropertyWriter_2<ContainerType, ValueType>*>::get(), property)));
     }
-    // public override System.Void Write(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ContainerType container)
+    // public override System.Void Write(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref ContainerType container)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Diagnostics.Tracing.PropertyAccessor`1
-    // Base method: System.Void PropertyAccessor`1::Write(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ContainerType container)
+    // Base method: System.Void PropertyAccessor`1::Write(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref ContainerType container)
     void Write(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, ContainerType& container) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Write", collector, container));
     }

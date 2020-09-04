@@ -34,7 +34,7 @@ namespace UnityEngine::UI {
     // public UnityEngine.EventSystems.PointerEventData eventData
     // Offset: 0x28
     UnityEngine::EventSystems::PointerEventData* eventData;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0x1210BF0
     static Scrollbar::$ClickRepeat$d__57* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

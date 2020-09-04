@@ -57,7 +57,7 @@ namespace System::Threading::Tasks {
     static System::Threading::ContextCallback* _get_s_invokeActionCallback();
     // Set static field: static private System.Threading.ContextCallback s_invokeActionCallback
     static void _set_s_invokeActionCallback(System::Threading::ContextCallback* value);
-    // System.Void .ctor(System.Action action, System.Boolean flowExecutionContext, System.Threading.StackCrawlMark stackMark)
+    // System.Void .ctor(System.Action action, System.Boolean flowExecutionContext, ref System.Threading.StackCrawlMark stackMark)
     // Offset: 0xCDE988
     static AwaitTaskContinuation* New_ctor(System::Action* action, bool flowExecutionContext, System::Threading::StackCrawlMark& stackMark);
     // System.Void .ctor(System.Action action, System.Boolean flowExecutionContext)
@@ -78,10 +78,10 @@ namespace System::Threading::Tasks {
     // static protected System.Threading.ContextCallback GetInvokeActionCallback()
     // Offset: 0xCDF498
     static System::Threading::ContextCallback* GetInvokeActionCallback();
-    // protected System.Void RunCallback(System.Threading.ContextCallback callback, System.Object state, System.Threading.Tasks.Task currentTask)
+    // protected System.Void RunCallback(System.Threading.ContextCallback callback, System.Object state, ref System.Threading.Tasks.Task currentTask)
     // Offset: 0xCDEFC8
     void RunCallback(System::Threading::ContextCallback* callback, ::Il2CppObject* state, System::Threading::Tasks::Task*& currentTask);
-    // static System.Void RunOrScheduleAction(System.Action action, System.Boolean allowInlining, System.Threading.Tasks.Task currentTask)
+    // static System.Void RunOrScheduleAction(System.Action action, System.Boolean allowInlining, ref System.Threading.Tasks.Task currentTask)
     // Offset: 0xCDF690
     static void RunOrScheduleAction(System::Action* action, bool allowInlining, System::Threading::Tasks::Task*& currentTask);
     // static System.Void UnsafeScheduleAction(System.Action action, System.Threading.Tasks.Task task)

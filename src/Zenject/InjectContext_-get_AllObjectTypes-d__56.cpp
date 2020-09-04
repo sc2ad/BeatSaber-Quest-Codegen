@@ -7,8 +7,6 @@
 #include "Zenject/InjectContext_-get_AllObjectTypes-d__56.hpp"
 // Including type: System.Type
 #include "System/Type.hpp"
-// Including type: System.Collections.Generic.IEnumerator`1
-#include "System/Collections/Generic/IEnumerator_1.hpp"
 // Including type: System.Collections.IEnumerator
 #include "System/Collections/IEnumerator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

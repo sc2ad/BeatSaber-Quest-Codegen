@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: HMUI.TableViewScroller
 #include "HMUI/TableViewScroller.hpp"
 // Including type: HMUI.TableViewScroller/ScrollPositionType

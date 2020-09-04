@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: BeatmapLevelFilterModel/<>c__DisplayClass0_0
 #include "GlobalNamespace/BeatmapLevelFilterModel_--c__DisplayClass0_0.hpp"
 // Including type: IPreviewBeatmapLevel

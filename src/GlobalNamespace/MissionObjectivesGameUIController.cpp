@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: MissionObjectivesGameUIController
 #include "GlobalNamespace/MissionObjectivesGameUIController.hpp"
 // Including type: MissionObjectiveGameUIView

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TrackLaneRingsRotationEffect/RingRotationEffect
 #include "GlobalNamespace/TrackLaneRingsRotationEffect_RingRotationEffect.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

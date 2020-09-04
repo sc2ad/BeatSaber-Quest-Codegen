@@ -33,13 +33,13 @@ namespace OVR::OpenVR {
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16C2F00
     static IVRSystem::_PollNextEvent* New_ctor(::Il2CppObject* object, System::IntPtr method);
-    // public System.Boolean Invoke(OVR.OpenVR.VREvent_t pEvent, System.UInt32 uncbVREvent)
+    // public System.Boolean Invoke(ref OVR.OpenVR.VREvent_t pEvent, System.UInt32 uncbVREvent)
     // Offset: 0x16C2F14
     bool Invoke(OVR::OpenVR::VREvent_t& pEvent, uint uncbVREvent);
-    // public System.IAsyncResult BeginInvoke(OVR.OpenVR.VREvent_t pEvent, System.UInt32 uncbVREvent, System.AsyncCallback callback, System.Object object)
+    // public System.IAsyncResult BeginInvoke(ref OVR.OpenVR.VREvent_t pEvent, System.UInt32 uncbVREvent, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16C318C
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::VREvent_t& pEvent, uint uncbVREvent, System::AsyncCallback* callback, ::Il2CppObject* object);
-    // public System.Boolean EndInvoke(OVR.OpenVR.VREvent_t pEvent, System.IAsyncResult result)
+    // public System.Boolean EndInvoke(ref OVR.OpenVR.VREvent_t pEvent, System.IAsyncResult result)
     // Offset: 0x16C3240
     bool EndInvoke(OVR::OpenVR::VREvent_t& pEvent, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_PollNextEvent

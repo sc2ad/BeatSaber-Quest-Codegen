@@ -95,31 +95,31 @@ namespace UnityEngine {
     // static public UnityEngine.Sprite Create(UnityEngine.Texture2D texture, UnityEngine.Rect rect, UnityEngine.Vector2 pivot, System.Single pixelsPerUnit, System.UInt32 extrude, UnityEngine.SpriteMeshType meshType, UnityEngine.Vector4 border, System.Boolean generateFallbackPhysicsShape)
     // Offset: 0x1392F70
     static UnityEngine::Sprite* Create(UnityEngine::Texture2D* texture, UnityEngine::Rect rect, UnityEngine::Vector2 pivot, float pixelsPerUnit, uint extrude, UnityEngine::SpriteMeshType meshType, UnityEngine::Vector4 border, bool generateFallbackPhysicsShape);
-    // private System.Void GetTextureRect_Injected(UnityEngine.Rect ret)
+    // private System.Void GetTextureRect_Injected(out UnityEngine.Rect ret)
     // Offset: 0x1392688
     void GetTextureRect_Injected(UnityEngine::Rect& ret);
-    // private System.Void GetInnerUVs_Injected(UnityEngine.Vector4 ret)
+    // private System.Void GetInnerUVs_Injected(out UnityEngine.Vector4 ret)
     // Offset: 0x1392734
     void GetInnerUVs_Injected(UnityEngine::Vector4& ret);
-    // private System.Void GetOuterUVs_Injected(UnityEngine.Vector4 ret)
+    // private System.Void GetOuterUVs_Injected(out UnityEngine.Vector4 ret)
     // Offset: 0x13927E0
     void GetOuterUVs_Injected(UnityEngine::Vector4& ret);
-    // private System.Void GetPadding_Injected(UnityEngine.Vector4 ret)
+    // private System.Void GetPadding_Injected(out UnityEngine.Vector4 ret)
     // Offset: 0x139288C
     void GetPadding_Injected(UnityEngine::Vector4& ret);
-    // static private UnityEngine.Sprite CreateSprite_Injected(UnityEngine.Texture2D texture, UnityEngine.Rect rect, UnityEngine.Vector2 pivot, System.Single pixelsPerUnit, System.UInt32 extrude, UnityEngine.SpriteMeshType meshType, UnityEngine.Vector4 border, System.Boolean generateFallbackPhysicsShape)
+    // static private UnityEngine.Sprite CreateSprite_Injected(UnityEngine.Texture2D texture, ref UnityEngine.Rect rect, ref UnityEngine.Vector2 pivot, System.Single pixelsPerUnit, System.UInt32 extrude, UnityEngine.SpriteMeshType meshType, ref UnityEngine.Vector4 border, System.Boolean generateFallbackPhysicsShape)
     // Offset: 0x1392980
     static UnityEngine::Sprite* CreateSprite_Injected(UnityEngine::Texture2D* texture, UnityEngine::Rect& rect, UnityEngine::Vector2& pivot, float pixelsPerUnit, uint extrude, UnityEngine::SpriteMeshType meshType, UnityEngine::Vector4& border, bool generateFallbackPhysicsShape);
-    // private System.Void get_bounds_Injected(UnityEngine.Bounds ret)
+    // private System.Void get_bounds_Injected(out UnityEngine.Bounds ret)
     // Offset: 0x1392A84
     void get_bounds_Injected(UnityEngine::Bounds& ret);
-    // private System.Void get_rect_Injected(UnityEngine.Rect ret)
+    // private System.Void get_rect_Injected(out UnityEngine.Rect ret)
     // Offset: 0x1392B30
     void get_rect_Injected(UnityEngine::Rect& ret);
-    // private System.Void get_border_Injected(UnityEngine.Vector4 ret)
+    // private System.Void get_border_Injected(out UnityEngine.Vector4 ret)
     // Offset: 0x1392BDC
     void get_border_Injected(UnityEngine::Vector4& ret);
-    // private System.Void get_pivot_Injected(UnityEngine.Vector2 ret)
+    // private System.Void get_pivot_Injected(out UnityEngine.Vector2 ret)
     // Offset: 0x1392D44
     void get_pivot_Injected(UnityEngine::Vector2& ret);
     // private System.Void .ctor()

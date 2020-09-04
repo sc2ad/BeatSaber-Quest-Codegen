@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.TestTools.TestRunner.GUI.SynchronousFilter
 #include "UnityEngine/TestTools/TestRunner/GUI/SynchronousFilter.hpp"
 // Including type: UnityEngine.TestTools.TestRunner.GUI.SynchronousFilter/<>c

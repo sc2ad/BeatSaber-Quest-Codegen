@@ -2,9 +2,8 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.BipedNaming/BoneType
-#include "RootMotion/BipedNaming_BoneType.hpp"
+#include "RootMotion/BipedNaming.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

@@ -24,21 +24,6 @@ namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
   template<typename T>
   class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
@@ -104,7 +89,7 @@ namespace UnityEngine::UI {
     // public System.Int32 get_currentIndexCount()
     // Offset: 0x1938040
     int get_currentIndexCount();
-    // public System.Void PopulateUIVertex(UnityEngine.UIVertex vertex, System.Int32 i)
+    // public System.Void PopulateUIVertex(ref UnityEngine.UIVertex vertex, System.Int32 i)
     // Offset: 0x1938094
     void PopulateUIVertex(UnityEngine::UIVertex& vertex, int i);
     // public System.Void SetUIVertex(UnityEngine.UIVertex vertex, System.Int32 i)

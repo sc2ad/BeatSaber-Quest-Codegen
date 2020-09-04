@@ -41,7 +41,7 @@ namespace System::Globalization {
     // static System.String ToString(System.Int32 Number)
     // Offset: 0x12CE808
     static ::Il2CppString* ToString(int Number);
-    // static System.Globalization.HebrewNumberParsingState ParseByChar(System.Char ch, System.Globalization.HebrewNumberParsingContext context)
+    // static System.Globalization.HebrewNumberParsingState ParseByChar(System.Char ch, ref System.Globalization.HebrewNumberParsingContext context)
     // Offset: 0x12C17C0
     static System::Globalization::HebrewNumberParsingState ParseByChar(::Il2CppChar ch, System::Globalization::HebrewNumberParsingContext& context);
     // static System.Boolean IsDigit(System.Char ch)

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.DiContainer/<>c__DisplayClass86_0
 #include "Zenject/DiContainer_--c__DisplayClass86_0.hpp"
 // Including type: Zenject.InjectContext

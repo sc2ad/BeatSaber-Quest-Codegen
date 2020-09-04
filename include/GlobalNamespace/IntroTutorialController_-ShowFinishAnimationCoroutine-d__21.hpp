@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     // private System.Single <duration>5__3
     // Offset: 0x2C
     float $duration$5__3;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xB45EC0
     static IntroTutorialController::$ShowFinishAnimationCoroutine$d__21* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

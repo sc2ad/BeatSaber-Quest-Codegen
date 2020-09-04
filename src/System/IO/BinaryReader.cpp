@@ -133,5 +133,5 @@ void System::IO::BinaryReader::Dispose() {
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose"));
 }
 void System::IO::BinaryReader::System_IDisposable_Dispose() {
-  Dispose();
+  System::IO::BinaryReader::Dispose();
 }

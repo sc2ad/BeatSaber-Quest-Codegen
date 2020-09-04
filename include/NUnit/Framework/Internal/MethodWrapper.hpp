@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: NUnit.Framework.Interfaces.IMethodInfo
 #include "NUnit/Framework/Interfaces/IMethodInfo.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
@@ -94,11 +95,18 @@ namespace NUnit::Framework::Internal {
     // Implemented from: NUnit.Framework.Interfaces.IMethodInfo
     // Base method: NUnit.Framework.Interfaces.IParameterInfo[] IMethodInfo::GetParameters()
     ::Array<NUnit::Framework::Interfaces::IParameterInfo*>* GetParameters();
-    // public NUnit.Framework.Interfaces.IMethodInfo MakeGenericMethod(System.Type[] typeArguments)
+    // public NUnit.Framework.Interfaces.IMethodInfo MakeGenericMethod(params System.Type[] typeArguments)
     // Offset: 0x18EFFC4
     // Implemented from: NUnit.Framework.Interfaces.IMethodInfo
-    // Base method: NUnit.Framework.Interfaces.IMethodInfo IMethodInfo::MakeGenericMethod(System.Type[] typeArguments)
+    // Base method: NUnit.Framework.Interfaces.IMethodInfo IMethodInfo::MakeGenericMethod(params System.Type[] typeArguments)
     NUnit::Framework::Interfaces::IMethodInfo* MakeGenericMethod(::Array<System::Type*>* typeArguments);
+    // Creating initializer_list -> params proxy for: NUnit.Framework.Interfaces.IMethodInfo MakeGenericMethod(params System.Type[] typeArguments)
+    NUnit::Framework::Interfaces::IMethodInfo* MakeGenericMethod(std::initializer_list<System::Type*> typeArguments);
+    // Creating TArgs -> initializer_list proxy for: NUnit.Framework.Interfaces.IMethodInfo MakeGenericMethod(params System.Type[] typeArguments)
+    template<class ...TParams>
+    NUnit::Framework::Interfaces::IMethodInfo* MakeGenericMethod(TParams&&... typeArguments) {
+      return MakeGenericMethod({typeArguments...});
+    }
     // public T[] GetCustomAttributes(System.Boolean inherit)
     // Offset: 0xFFFFFFFF
     // Implemented from: NUnit.Framework.Interfaces.IReflectionInfo
@@ -115,11 +123,18 @@ namespace NUnit::Framework::Internal {
     bool IsDefined(bool inherit) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>(this, "IsDefined", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, inherit)));
     }
-    // public System.Object Invoke(System.Object fixture, System.Object[] args)
+    // public System.Object Invoke(System.Object fixture, params System.Object[] args)
     // Offset: 0x18F00D4
     // Implemented from: NUnit.Framework.Interfaces.IMethodInfo
-    // Base method: System.Object IMethodInfo::Invoke(System.Object fixture, System.Object[] args)
+    // Base method: System.Object IMethodInfo::Invoke(System.Object fixture, params System.Object[] args)
     ::Il2CppObject* Invoke(::Il2CppObject* fixture, ::Array<::Il2CppObject*>* args);
+    // Creating initializer_list -> params proxy for: System.Object Invoke(System.Object fixture, params System.Object[] args)
+    ::Il2CppObject* Invoke(::Il2CppObject* fixture, std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.Object Invoke(System.Object fixture, params System.Object[] args)
+    template<class ...TParams>
+    ::Il2CppObject* Invoke(::Il2CppObject* fixture, TParams&&... args) {
+      return Invoke(fixture, {args...});
+    }
     // public override System.String ToString()
     // Offset: 0x18F03EC
     // Implemented from: System.Object

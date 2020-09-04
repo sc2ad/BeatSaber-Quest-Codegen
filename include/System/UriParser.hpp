@@ -169,10 +169,10 @@ namespace System {
     // protected System.UriParser OnNewUri()
     // Offset: 0x1957180
     System::UriParser* OnNewUri();
-    // protected System.Void InitializeAndValidate(System.Uri uri, System.UriFormatException parsingError)
+    // protected System.Void InitializeAndValidate(System.Uri uri, out System.UriFormatException parsingError)
     // Offset: 0x1957184
     void InitializeAndValidate(System::Uri* uri, System::UriFormatException*& parsingError);
-    // protected System.String Resolve(System.Uri baseUri, System.Uri relativeUri, System.UriFormatException parsingError)
+    // protected System.String Resolve(System.Uri baseUri, System.Uri relativeUri, out System.UriFormatException parsingError)
     // Offset: 0x19571C0
     ::Il2CppString* Resolve(System::Uri* baseUri, System::Uri* relativeUri, System::UriFormatException*& parsingError);
     // protected System.String GetComponents(System.Uri uri, System.UriComponents components, System.UriFormat format)
@@ -214,10 +214,10 @@ namespace System {
     // System.UriParser InternalOnNewUri()
     // Offset: 0x19582DC
     System::UriParser* InternalOnNewUri();
-    // System.Void InternalValidate(System.Uri thisUri, System.UriFormatException parsingError)
+    // System.Void InternalValidate(System.Uri thisUri, out System.UriFormatException parsingError)
     // Offset: 0x1958348
     void InternalValidate(System::Uri* thisUri, System::UriFormatException*& parsingError);
-    // System.String InternalResolve(System.Uri thisBaseUri, System.Uri uriLink, System.UriFormatException parsingError)
+    // System.String InternalResolve(System.Uri thisBaseUri, System.Uri uriLink, out System.UriFormatException parsingError)
     // Offset: 0x1958354
     ::Il2CppString* InternalResolve(System::Uri* thisBaseUri, System::Uri* uriLink, System::UriFormatException*& parsingError);
     // System.String InternalGetComponents(System.Uri thisUri, System.UriComponents uriComponents, System.UriFormat uriFormat)

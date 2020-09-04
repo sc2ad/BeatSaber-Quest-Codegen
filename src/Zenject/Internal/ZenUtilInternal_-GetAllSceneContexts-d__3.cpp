@@ -7,8 +7,6 @@
 #include "Zenject/Internal/ZenUtilInternal_-GetAllSceneContexts-d__3.hpp"
 // Including type: Zenject.SceneContext
 #include "Zenject/SceneContext.hpp"
-// Including type: System.Collections.Generic.IEnumerator`1
-#include "System/Collections/Generic/IEnumerator_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

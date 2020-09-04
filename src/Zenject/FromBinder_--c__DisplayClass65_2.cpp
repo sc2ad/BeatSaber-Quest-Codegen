@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.FromBinder/<>c__DisplayClass65_2
 #include "Zenject/FromBinder_--c__DisplayClass65_2.hpp"
 // Including type: Zenject.InjectContext

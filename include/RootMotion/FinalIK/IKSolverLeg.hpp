@@ -69,10 +69,10 @@ namespace RootMotion::FinalIK {
     // private System.Void Write()
     // Offset: 0x1351554
     void Write();
-    // public override System.Boolean IsValid(System.String message)
+    // public override System.Boolean IsValid(ref System.String message)
     // Offset: 0x1350840
     // Implemented from: RootMotion.FinalIK.IKSolver
-    // Base method: System.Boolean IKSolver::IsValid(System.String message)
+    // Base method: System.Boolean IKSolver::IsValid(ref System.String message)
     bool IsValid(::Il2CppString*& message);
     // public override RootMotion.FinalIK.IKSolver/Point[] GetPoints()
     // Offset: 0x1350CB4

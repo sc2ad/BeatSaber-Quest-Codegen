@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.Vector2Mask
 #include "UnityEngine/ProBuilder/Vector2Mask.hpp"
 // Including type: UnityEngine.Vector3

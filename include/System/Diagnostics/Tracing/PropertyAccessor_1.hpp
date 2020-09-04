@@ -23,7 +23,7 @@ namespace System::Diagnostics::Tracing {
   template<typename ContainerType>
   class PropertyAccessor_1 : public ::Il2CppObject {
     public:
-    // public System.Void Write(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ContainerType value)
+    // public System.Void Write(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref ContainerType value)
     // Offset: 0xFFFFFFFF
     void Write(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, ContainerType& value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Write", collector, value));

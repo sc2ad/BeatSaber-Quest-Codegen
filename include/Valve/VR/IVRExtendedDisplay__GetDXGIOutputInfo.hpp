@@ -28,13 +28,13 @@ namespace Valve::VR {
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x160BACC
     static IVRExtendedDisplay::_GetDXGIOutputInfo* New_ctor(::Il2CppObject* object, System::IntPtr method);
-    // public System.Void Invoke(System.Int32 pnAdapterIndex, System.Int32 pnAdapterOutputIndex)
+    // public System.Void Invoke(ref System.Int32 pnAdapterIndex, ref System.Int32 pnAdapterOutputIndex)
     // Offset: 0x160BAE0
     void Invoke(int& pnAdapterIndex, int& pnAdapterOutputIndex);
-    // public System.IAsyncResult BeginInvoke(System.Int32 pnAdapterIndex, System.Int32 pnAdapterOutputIndex, System.AsyncCallback callback, System.Object object)
+    // public System.IAsyncResult BeginInvoke(ref System.Int32 pnAdapterIndex, ref System.Int32 pnAdapterOutputIndex, System.AsyncCallback callback, System.Object object)
     // Offset: 0x160BD4C
     System::IAsyncResult* BeginInvoke(int& pnAdapterIndex, int& pnAdapterOutputIndex, System::AsyncCallback* callback, ::Il2CppObject* object);
-    // public System.Void EndInvoke(System.Int32 pnAdapterIndex, System.Int32 pnAdapterOutputIndex, System.IAsyncResult result)
+    // public System.Void EndInvoke(ref System.Int32 pnAdapterIndex, ref System.Int32 pnAdapterOutputIndex, System.IAsyncResult result)
     // Offset: 0x160BDF8
     void EndInvoke(int& pnAdapterIndex, int& pnAdapterOutputIndex, System::IAsyncResult* result);
   }; // Valve.VR.IVRExtendedDisplay/_GetDXGIOutputInfo

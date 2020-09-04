@@ -28,10 +28,10 @@ namespace Valve::VR {
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1602370
     static IVRChaperoneSetup::_SetWorkingCollisionBoundsTagsInfo* New_ctor(::Il2CppObject* object, System::IntPtr method);
-    // public System.Void Invoke(System.Byte[] pTagsBuffer, System.UInt32 unTagCount)
+    // public System.Void Invoke(in System.Byte[] pTagsBuffer, System.UInt32 unTagCount)
     // Offset: 0x1602384
     void Invoke(::Array<uint8_t>*& pTagsBuffer, uint unTagCount);
-    // public System.IAsyncResult BeginInvoke(System.Byte[] pTagsBuffer, System.UInt32 unTagCount, System.AsyncCallback callback, System.Object object)
+    // public System.IAsyncResult BeginInvoke(in System.Byte[] pTagsBuffer, System.UInt32 unTagCount, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16025F0
     System::IAsyncResult* BeginInvoke(::Array<uint8_t>*& pTagsBuffer, uint unTagCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)

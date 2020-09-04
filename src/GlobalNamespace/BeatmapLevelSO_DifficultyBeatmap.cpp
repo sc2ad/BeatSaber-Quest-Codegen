@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: BeatmapLevelSO/DifficultyBeatmap
 #include "GlobalNamespace/BeatmapLevelSO_DifficultyBeatmap.hpp"
 // Including type: BeatmapDataSO

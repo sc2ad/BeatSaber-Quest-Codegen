@@ -62,7 +62,7 @@ namespace Xft {
     // public UnityEngine.Vector3 NextNormal(Xft.SplineControlPoint controlpoint)
     // Offset: 0xC56AA0
     UnityEngine::Vector3 NextNormal(Xft::SplineControlPoint* controlpoint);
-    // public Xft.SplineControlPoint LenToSegment(System.Single t, System.Single localF)
+    // public Xft.SplineControlPoint LenToSegment(System.Single t, out System.Single localF)
     // Offset: 0xC56AD8
     Xft::SplineControlPoint* LenToSegment(float t, float& localF);
     // static public UnityEngine.Vector3 CatmulRom(UnityEngine.Vector3 T0, UnityEngine.Vector3 P0, UnityEngine.Vector3 P1, UnityEngine.Vector3 T1, System.Single f)

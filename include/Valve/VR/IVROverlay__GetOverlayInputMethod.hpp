@@ -35,13 +35,13 @@ namespace Valve::VR {
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16114C0
     static IVROverlay::_GetOverlayInputMethod* New_ctor(::Il2CppObject* object, System::IntPtr method);
-    // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, Valve.VR.VROverlayInputMethod peInputMethod)
+    // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, ref Valve.VR.VROverlayInputMethod peInputMethod)
     // Offset: 0x16114D4
     Valve::VR::EVROverlayError Invoke(uint64_t ulOverlayHandle, Valve::VR::VROverlayInputMethod& peInputMethod);
-    // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, Valve.VR.VROverlayInputMethod peInputMethod, System.AsyncCallback callback, System.Object object)
+    // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, ref Valve.VR.VROverlayInputMethod peInputMethod, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1611758
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, Valve::VR::VROverlayInputMethod& peInputMethod, System::AsyncCallback* callback, ::Il2CppObject* object);
-    // public Valve.VR.EVROverlayError EndInvoke(Valve.VR.VROverlayInputMethod peInputMethod, System.IAsyncResult result)
+    // public Valve.VR.EVROverlayError EndInvoke(ref Valve.VR.VROverlayInputMethod peInputMethod, System.IAsyncResult result)
     // Offset: 0x1611808
     Valve::VR::EVROverlayError EndInvoke(Valve::VR::VROverlayInputMethod& peInputMethod, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_GetOverlayInputMethod

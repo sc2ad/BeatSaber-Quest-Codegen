@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.EditorIK
 #include "RootMotion/FinalIK/EditorIK.hpp"
 // Including type: RootMotion.FinalIK.IK

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.MeshOperations.Triangulation/<>c__DisplayClass8_0
 #include "UnityEngine/ProBuilder/MeshOperations/Triangulation_--c__DisplayClass8_0.hpp"
 // Including type: System.Func`2

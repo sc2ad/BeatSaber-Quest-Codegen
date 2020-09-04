@@ -40,10 +40,10 @@ namespace Zenject {
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.IPrefabProvider prefabProvider, Zenject.GameObjectCreationParameters gameObjectBindInfo)
     // Offset: 0xFD2774
     static SubContainerCreatorByNewPrefabDynamicContext* New_ctor(Zenject::DiContainer* container, Zenject::IPrefabProvider* prefabProvider, Zenject::GameObjectCreationParameters* gameObjectBindInfo);
-    // protected override UnityEngine.GameObject CreateGameObject(System.Boolean shouldMakeActive)
+    // protected override UnityEngine.GameObject CreateGameObject(out System.Boolean shouldMakeActive)
     // Offset: 0xFD27D8
     // Implemented from: Zenject.SubContainerCreatorDynamicContext
-    // Base method: UnityEngine.GameObject SubContainerCreatorDynamicContext::CreateGameObject(System.Boolean shouldMakeActive)
+    // Base method: UnityEngine.GameObject SubContainerCreatorDynamicContext::CreateGameObject(out System.Boolean shouldMakeActive)
     UnityEngine::GameObject* CreateGameObject(bool& shouldMakeActive);
   }; // Zenject.SubContainerCreatorByNewPrefabDynamicContext
 }

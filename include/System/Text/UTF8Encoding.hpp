@@ -53,13 +53,13 @@ namespace System::Text {
     // static private System.Boolean InRange(System.Int32 ch, System.Int32 start, System.Int32 end)
     // Offset: 0x13D3C84
     static bool InRange(int ch, int start, int end);
-    // private System.Boolean FallbackInvalidByteSequence(System.Byte* pSrc, System.Int32 ch, System.Text.DecoderFallbackBuffer fallback, System.Char* pTarget)
+    // private System.Boolean FallbackInvalidByteSequence(ref System.Byte* pSrc, System.Int32 ch, System.Text.DecoderFallbackBuffer fallback, ref System.Char* pTarget)
     // Offset: 0x13D51D0
     bool FallbackInvalidByteSequence(uint8_t*& pSrc, int ch, System::Text::DecoderFallbackBuffer* fallback, ::Il2CppChar*& pTarget);
     // private System.Int32 FallbackInvalidByteSequence(System.Byte* pSrc, System.Int32 ch, System.Text.DecoderFallbackBuffer fallback)
     // Offset: 0x13D495C
     int FallbackInvalidByteSequence(uint8_t* pSrc, int ch, System::Text::DecoderFallbackBuffer* fallback);
-    // private System.Byte[] GetBytesUnknown(System.Byte* pSrc, System.Int32 ch)
+    // private System.Byte[] GetBytesUnknown(ref System.Byte* pSrc, System.Int32 ch)
     // Offset: 0x13D5248
     ::Array<uint8_t>* GetBytesUnknown(uint8_t*& pSrc, int ch);
     // public System.Void .ctor()

@@ -12,9 +12,6 @@ namespace System {
   // Forward declaring type: EventHandler`1<TEventArgs>
   template<typename TEventArgs>
   class EventHandler_1;
-  // Forward declaring type: EventHandler`1<TEventArgs>
-  template<typename TEventArgs>
-  class EventHandler_1;
   // Forward declaring type: WeakReference
   class WeakReference;
   // Forward declaring type: EventArgs

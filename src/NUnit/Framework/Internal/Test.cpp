@@ -213,5 +213,5 @@ int NUnit::Framework::Internal::Test::CompareTo(::Il2CppObject* obj) {
   return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "CompareTo", obj));
 }
 int NUnit::Framework::Internal::Test::System_IComparable_CompareTo(::Il2CppObject* obj) {
-  return CompareTo(obj);
+  return NUnit::Framework::Internal::Test::CompareTo(obj);
 }

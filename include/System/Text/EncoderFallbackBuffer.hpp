@@ -66,7 +66,7 @@ namespace System::Text {
     // System.Char InternalGetNextChar()
     // Offset: 0x12EF530
     ::Il2CppChar InternalGetNextChar();
-    // System.Boolean InternalFallback(System.Char ch, System.Char* chars)
+    // System.Boolean InternalFallback(System.Char ch, ref System.Char* chars)
     // Offset: 0x12F38D0
     bool InternalFallback(::Il2CppChar ch, ::Il2CppChar*& chars);
     // System.Void ThrowLastCharRecursive(System.Int32 charRecursive)

@@ -39,7 +39,7 @@ namespace UnityEngine::TestTools {
     // public NUnit.Framework.Internal.Test test
     // Offset: 0x28
     NUnit::Framework::Internal::Test* test;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xE44B1C
     static TestActionCommand::$InvokeBefore$d__2* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

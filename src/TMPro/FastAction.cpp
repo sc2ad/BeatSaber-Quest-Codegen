@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TMPro.FastAction
 #include "TMPro/FastAction.hpp"
 // Including type: System.Collections.Generic.LinkedList`1

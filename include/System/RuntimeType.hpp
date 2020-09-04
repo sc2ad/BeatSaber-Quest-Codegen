@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: System.Reflection.TypeInfo
 #include "System/Reflection/TypeInfo.hpp"
 // Including type: System.ICloneable
@@ -208,13 +209,13 @@ namespace System {
     // static System.Void SanityCheckGenericArguments(System.RuntimeType[] genericArguments, System.RuntimeType[] genericParamters)
     // Offset: 0xDDB48C
     static void SanityCheckGenericArguments(::Array<System::RuntimeType*>* genericArguments, ::Array<System::RuntimeType*>* genericParamters);
-    // static private System.Void SplitName(System.String fullname, System.String name, System.String ns)
+    // static private System.Void SplitName(System.String fullname, out System.String name, out System.String ns)
     // Offset: 0xDDB6C8
     static void SplitName(::Il2CppString* fullname, ::Il2CppString*& name, ::Il2CppString*& ns);
-    // static private System.Void FilterHelper(System.Reflection.BindingFlags bindingFlags, System.String name, System.Boolean allowPrefixLookup, System.Boolean prefixLookup, System.Boolean ignoreCase, System.RuntimeType/MemberListType listType)
+    // static private System.Void FilterHelper(System.Reflection.BindingFlags bindingFlags, ref System.String name, System.Boolean allowPrefixLookup, out System.Boolean prefixLookup, out System.Boolean ignoreCase, out System.RuntimeType/MemberListType listType)
     // Offset: 0xDDB968
     static void FilterHelper(System::Reflection::BindingFlags bindingFlags, ::Il2CppString*& name, bool allowPrefixLookup, bool& prefixLookup, bool& ignoreCase, System::RuntimeType::MemberListType& listType);
-    // static private System.Void FilterHelper(System.Reflection.BindingFlags bindingFlags, System.String name, System.Boolean ignoreCase, System.RuntimeType/MemberListType listType)
+    // static private System.Void FilterHelper(System.Reflection.BindingFlags bindingFlags, ref System.String name, out System.Boolean ignoreCase, out System.RuntimeType/MemberListType listType)
     // Offset: 0xDDBDE4
     static void FilterHelper(System::Reflection::BindingFlags bindingFlags, ::Il2CppString*& name, bool& ignoreCase, System::RuntimeType::MemberListType& listType);
     // static private System.Boolean FilterApplyPrefixLookup(System.Reflection.MemberInfo memberInfo, System.String name, System.Boolean ignoreCase)
@@ -271,10 +272,10 @@ namespace System {
     // private System.Void CreateInstanceCheckThis()
     // Offset: 0xDE2E78
     void CreateInstanceCheckThis();
-    // System.Object CreateInstanceImpl(System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes, System.Threading.StackCrawlMark stackMark)
+    // System.Object CreateInstanceImpl(System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes, ref System.Threading.StackCrawlMark stackMark)
     // Offset: 0xDE3088
     ::Il2CppObject* CreateInstanceImpl(System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder* binder, ::Array<::Il2CppObject*>* args, System::Globalization::CultureInfo* culture, ::Array<::Il2CppObject*>* activationAttributes, System::Threading::StackCrawlMark& stackMark);
-    // System.Object CreateInstanceDefaultCtor(System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Threading.StackCrawlMark stackMark)
+    // System.Object CreateInstanceDefaultCtor(System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, ref System.Threading.StackCrawlMark stackMark)
     // Offset: 0xDE39C8
     ::Il2CppObject* CreateInstanceDefaultCtor(bool publicOnly, bool skipCheckThis, bool fillCache, System::Threading::StackCrawlMark& stackMark);
     // System.Reflection.MonoCMethod GetDefaultConstructor()
@@ -286,7 +287,7 @@ namespace System {
     // System.Reflection.RuntimeConstructorInfo GetSerializationCtor()
     // Offset: 0xDE3DA8
     System::Reflection::RuntimeConstructorInfo* GetSerializationCtor();
-    // System.Object CreateInstanceSlow(System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Threading.StackCrawlMark stackMark)
+    // System.Object CreateInstanceSlow(System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, ref System.Threading.StackCrawlMark stackMark)
     // Offset: 0xDE3BC4
     ::Il2CppObject* CreateInstanceSlow(bool publicOnly, bool skipCheckThis, bool fillCache, System::Threading::StackCrawlMark& stackMark);
     // private System.Object CreateInstanceMono(System.Boolean nonPublic)
@@ -295,7 +296,7 @@ namespace System {
     // System.Object CheckValue(System.Object value, System.Reflection.Binder binder, System.Globalization.CultureInfo culture, System.Reflection.BindingFlags invokeAttr)
     // Offset: 0xDE4374
     ::Il2CppObject* CheckValue(::Il2CppObject* value, System::Reflection::Binder* binder, System::Globalization::CultureInfo* culture, System::Reflection::BindingFlags invokeAttr);
-    // private System.Object TryConvertToType(System.Object value, System.Boolean failed)
+    // private System.Object TryConvertToType(System.Object value, ref System.Boolean failed)
     // Offset: 0xDE44F8
     ::Il2CppObject* TryConvertToType(::Il2CppObject* value, bool& failed);
     // static private System.Object IsConvertibleToPrimitiveType(System.Object value, System.Type targetType)
@@ -584,11 +585,18 @@ namespace System {
     // Implemented from: System.Type
     // Base method: System.Type[] Type::GetGenericArguments()
     ::Array<System::Type*>* GetGenericArguments();
-    // public override System.Type MakeGenericType(System.Type[] instantiation)
+    // public override System.Type MakeGenericType(params System.Type[] instantiation)
     // Offset: 0xDE10F0
     // Implemented from: System.Type
-    // Base method: System.Type Type::MakeGenericType(System.Type[] instantiation)
+    // Base method: System.Type Type::MakeGenericType(params System.Type[] instantiation)
     System::Type* MakeGenericType(::Array<System::Type*>* instantiation);
+    // Creating initializer_list -> params proxy for: System.Type MakeGenericType(params System.Type[] instantiation)
+    System::Type* MakeGenericType(std::initializer_list<System::Type*> instantiation);
+    // Creating TArgs -> initializer_list proxy for: System.Type MakeGenericType(params System.Type[] instantiation)
+    template<class ...TParams>
+    System::Type* MakeGenericType(TParams&&... instantiation) {
+      return MakeGenericType({instantiation...});
+    }
     // public override System.Boolean get_IsGenericTypeDefinition()
     // Offset: 0xDE1564
     // Implemented from: System.Type

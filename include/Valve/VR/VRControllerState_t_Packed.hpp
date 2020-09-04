@@ -51,7 +51,7 @@ namespace Valve::VR {
     // public System.Void .ctor(Valve.VR.VRControllerState_t unpacked)
     // Offset: 0xA5D77C
     static VRControllerState_t_Packed* New_ctor(Valve::VR::VRControllerState_t unpacked);
-    // public System.Void Unpack(Valve.VR.VRControllerState_t unpacked)
+    // public System.Void Unpack(ref Valve.VR.VRControllerState_t unpacked)
     // Offset: 0xA5D7A8
     void Unpack(Valve::VR::VRControllerState_t& unpacked);
   }; // Valve.VR.VRControllerState_t_Packed

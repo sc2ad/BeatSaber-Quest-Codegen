@@ -30,7 +30,7 @@ namespace UnityEngine::UI {
     // private System.Single <elapsedTime>5__3
     // Offset: 0x2C
     float $elapsedTime$5__3;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xE06C94
     static Button::$OnFinishSubmit$d__9* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

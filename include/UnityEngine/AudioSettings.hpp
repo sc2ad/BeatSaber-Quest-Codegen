@@ -50,7 +50,7 @@ namespace UnityEngine {
     // static System.Boolean StopAudioOutput()
     // Offset: 0x195E980
     static bool StopAudioOutput();
-    // static private System.Void GetConfiguration_Injected(UnityEngine.AudioConfiguration ret)
+    // static private System.Void GetConfiguration_Injected(out UnityEngine.AudioConfiguration ret)
     // Offset: 0x195E628
     static void GetConfiguration_Injected(UnityEngine::AudioConfiguration& ret);
   }; // UnityEngine.AudioSettings

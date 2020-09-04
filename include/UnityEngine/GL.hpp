@@ -57,7 +57,7 @@ namespace UnityEngine {
     // static public System.Void Clear(System.Boolean clearDepth, System.Boolean clearColor, UnityEngine.Color backgroundColor)
     // Offset: 0x1313400
     static void Clear(bool clearDepth, bool clearColor, UnityEngine::Color backgroundColor);
-    // static private System.Void GLClear_Injected(System.Boolean clearDepth, System.Boolean clearColor, UnityEngine.Color backgroundColor, System.Single depth)
+    // static private System.Void GLClear_Injected(System.Boolean clearDepth, System.Boolean clearColor, ref UnityEngine.Color backgroundColor, System.Single depth)
     // Offset: 0x1313398
     static void GLClear_Injected(bool clearDepth, bool clearColor, UnityEngine::Color& backgroundColor, float depth);
   }; // UnityEngine.GL

@@ -27,10 +27,10 @@ namespace GlobalNamespace {
     // static public OVRPlugin/Result ovrp_SetHandNodePoseStateLatency(System.Double latencyInSeconds)
     // Offset: 0xF44FF8
     static GlobalNamespace::OVRPlugin::Result ovrp_SetHandNodePoseStateLatency(double latencyInSeconds);
-    // static public OVRPlugin/Result ovrp_GetHandNodePoseStateLatency(System.Double latencyInSeconds)
+    // static public OVRPlugin/Result ovrp_GetHandNodePoseStateLatency(out System.Double latencyInSeconds)
     // Offset: 0xF45080
     static GlobalNamespace::OVRPlugin::Result ovrp_GetHandNodePoseStateLatency(double& latencyInSeconds);
-    // static public OVRPlugin/Result ovrp_GetAppHasInputFocus(OVRPlugin/Bool appHasInputFocus)
+    // static public OVRPlugin/Result ovrp_GetAppHasInputFocus(out OVRPlugin/Bool appHasInputFocus)
     // Offset: 0xF45100
     static GlobalNamespace::OVRPlugin::Result ovrp_GetAppHasInputFocus(GlobalNamespace::OVRPlugin::Bool& appHasInputFocus);
     // static private System.Void .cctor()

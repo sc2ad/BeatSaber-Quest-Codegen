@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include <stdint.h>
 // Including type: OVR.OpenVR.RenderModel_TextureMap_t_Packed
 #include "OVR/OpenVR/RenderModel_TextureMap_t_Packed.hpp"
 // Including type: OVR.OpenVR.RenderModel_TextureMap_t

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Collections.Generic.CollectionExtensions
 #include "System/Collections/Generic/CollectionExtensions.hpp"
 // Including type: System.Collections.Generic.IReadOnlyDictionary`2

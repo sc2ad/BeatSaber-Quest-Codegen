@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.MeshOperations.Bevel/<>c__DisplayClass0_2
 #include "UnityEngine/ProBuilder/MeshOperations/Bevel_--c__DisplayClass0_2.hpp"
 // Including type: UnityEngine.ProBuilder.WingedEdge

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.CCDIK
 #include "RootMotion/FinalIK/CCDIK.hpp"
 // Including type: RootMotion.FinalIK.IKSolverCCD

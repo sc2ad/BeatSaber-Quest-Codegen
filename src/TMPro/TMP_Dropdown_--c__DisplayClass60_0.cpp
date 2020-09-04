@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TMPro.TMP_Dropdown/<>c__DisplayClass60_0
 #include "TMPro/TMP_Dropdown_--c__DisplayClass60_0.hpp"
 // Including type: TMPro.TMP_Dropdown/DropdownItem

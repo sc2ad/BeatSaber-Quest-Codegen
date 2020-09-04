@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Diagnostics.Tracing.EtwSession/<>c__DisplayClass1_0
 #include "System/Diagnostics/Tracing/EtwSession_--c__DisplayClass1_0.hpp"
 // Including type: System.WeakReference`1

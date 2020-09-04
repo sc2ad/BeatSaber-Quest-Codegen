@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.LimbIK
 #include "RootMotion/FinalIK/LimbIK.hpp"
 // Including type: RootMotion.FinalIK.IKSolverLimb

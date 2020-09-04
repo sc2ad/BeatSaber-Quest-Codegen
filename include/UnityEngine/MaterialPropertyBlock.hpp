@@ -101,13 +101,13 @@ namespace UnityEngine {
     // public UnityEngine.Color GetColor(System.Int32 nameID)
     // Offset: 0x1319338
     UnityEngine::Color GetColor(int nameID);
-    // private System.Void GetColorImpl_Injected(System.Int32 name, UnityEngine.Color ret)
+    // private System.Void GetColorImpl_Injected(System.Int32 name, out UnityEngine.Color ret)
     // Offset: 0x1318950
     void GetColorImpl_Injected(int name, UnityEngine::Color& ret);
-    // private System.Void SetVectorImpl_Injected(System.Int32 name, UnityEngine.Vector4 value)
+    // private System.Void SetVectorImpl_Injected(System.Int32 name, ref UnityEngine.Vector4 value)
     // Offset: 0x1318A70
     void SetVectorImpl_Injected(int name, UnityEngine::Vector4& value);
-    // private System.Void SetColorImpl_Injected(System.Int32 name, UnityEngine.Color value)
+    // private System.Void SetColorImpl_Injected(System.Int32 name, ref UnityEngine.Color value)
     // Offset: 0x1318B30
     void SetColorImpl_Injected(int name, UnityEngine::Color& value);
     // public System.Void .ctor()

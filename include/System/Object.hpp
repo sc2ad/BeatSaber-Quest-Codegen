@@ -51,7 +51,7 @@ namespace System {
     // static System.Int32 InternalGetHashCode(System.Object o)
     // Offset: 0x1362DEC
     static int InternalGetHashCode(::Il2CppObject* o);
-    // private System.Void FieldGetter(System.String typeName, System.String fieldName, System.Object val)
+    // private System.Void FieldGetter(System.String typeName, System.String fieldName, ref System.Object val)
     // Offset: 0x1362E24
     void FieldGetter(::Il2CppString* typeName, ::Il2CppString* fieldName, ::Il2CppObject*& val);
     // private System.Void FieldSetter(System.String typeName, System.String fieldName, System.Object val)

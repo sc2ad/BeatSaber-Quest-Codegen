@@ -202,10 +202,10 @@ namespace UnityEngine {
     // static System.Boolean HitTest(UnityEngine.Rect rect, UnityEngine.Event evt)
     // Offset: 0x1267C78
     static bool HitTest(UnityEngine::Rect rect, UnityEngine::Event* evt);
-    // static private System.Int32 GetControlID_Injected(System.Int32 hint, UnityEngine.FocusType focusType, UnityEngine.Rect rect)
+    // static private System.Int32 GetControlID_Injected(System.Int32 hint, UnityEngine.FocusType focusType, ref UnityEngine.Rect rect)
     // Offset: 0x1277BBC
     static int GetControlID_Injected(int hint, UnityEngine::FocusType focusType, UnityEngine::Rect& rect);
-    // static private System.Void set_compositionCursorPos_Injected(UnityEngine.Vector2 value)
+    // static private System.Void set_compositionCursorPos_Injected(ref UnityEngine.Vector2 value)
     // Offset: 0x1277C58
     static void set_compositionCursorPos_Injected(UnityEngine::Vector2& value);
   }; // UnityEngine.GUIUtility

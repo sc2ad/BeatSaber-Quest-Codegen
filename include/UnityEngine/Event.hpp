@@ -142,10 +142,10 @@ namespace UnityEngine {
     // public System.Void Use()
     // Offset: 0x12626F0
     void Use();
-    // private System.Void get_mousePosition_Injected(UnityEngine.Vector2 ret)
+    // private System.Void get_mousePosition_Injected(out UnityEngine.Vector2 ret)
     // Offset: 0x125F658
     void get_mousePosition_Injected(UnityEngine::Vector2& ret);
-    // private System.Void get_delta_Injected(UnityEngine.Vector2 ret)
+    // private System.Void get_delta_Injected(out UnityEngine.Vector2 ret)
     // Offset: 0x125F700
     void get_delta_Injected(UnityEngine::Vector2& ret);
     // public System.Void .ctor()

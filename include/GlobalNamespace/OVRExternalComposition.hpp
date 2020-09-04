@@ -106,7 +106,7 @@ namespace GlobalNamespace {
     // public System.Void CacheAudioData(System.Single[] data, System.Int32 channels)
     // Offset: 0xCD3DA4
     void CacheAudioData(::Array<float>* data, int channels);
-    // public System.Void GetAndResetAudioData(System.Single[] audioData, System.Int32 audioFrames, System.Int32 channels)
+    // public System.Void GetAndResetAudioData(ref System.Single[] audioData, out System.Int32 audioFrames, out System.Int32 channels)
     // Offset: 0xCD3018
     void GetAndResetAudioData(::Array<float>*& audioData, int& audioFrames, int& channels);
     // public override OVRManager/CompositionMethod CompositionMethod()

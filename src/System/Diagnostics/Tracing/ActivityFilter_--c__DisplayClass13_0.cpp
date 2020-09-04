@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Diagnostics.Tracing.ActivityFilter/<>c__DisplayClass13_0
 #include "System/Diagnostics/Tracing/ActivityFilter_--c__DisplayClass13_0.hpp"
 // Including type: System.Collections.Generic.KeyValuePair`2

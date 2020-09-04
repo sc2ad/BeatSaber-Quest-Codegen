@@ -16,3 +16,7 @@
 ::Il2CppString* System::Xml::Res::GetString(::Il2CppString* name, ::Array<::Il2CppObject*>* args) {
   return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppString*>("System.Xml", "Res", "GetString", name, args));
 }
+// Creating initializer_list -> params proxy for: System.String GetString(System.String name, params System.Object[] args)
+::Il2CppString* System::Xml::Res::GetString(::Il2CppString* name, std::initializer_list<::Il2CppObject*> args) {
+  return System::Xml::Res::GetString(name, ::Array<::Il2CppObject*>::New(args));
+}

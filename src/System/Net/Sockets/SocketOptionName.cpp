@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Net.Sockets.SocketOptionName
 #include "System/Net/Sockets/SocketOptionName.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

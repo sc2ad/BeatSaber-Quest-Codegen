@@ -159,7 +159,7 @@ namespace System::IO {
     // protected System.Void OnRenamed(System.IO.RenamedEventArgs e)
     // Offset: 0xF690C0
     void OnRenamed(System::IO::RenamedEventArgs* e);
-    // System.Void DispatchEvents(System.IO.FileAction act, System.String filename, System.IO.RenamedEventArgs renamed)
+    // System.Void DispatchEvents(System.IO.FileAction act, System.String filename, ref System.IO.RenamedEventArgs renamed)
     // Offset: 0xF66894
     void DispatchEvents(System::IO::FileAction act, ::Il2CppString* filename, System::IO::RenamedEventArgs*& renamed);
     // private System.Void Start()

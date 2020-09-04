@@ -49,27 +49,6 @@ namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
   template<typename TKey, typename TValue>
   class Dictionary_2;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
-  class Dictionary_2;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
 }
 // Forward declaring namespace: UnityEngine::TextCore
 namespace UnityEngine::TextCore {
@@ -365,7 +344,7 @@ namespace TMPro {
     // private System.Boolean HasCharacter_Internal(System.Char character, System.Boolean searchFallbacks)
     // Offset: 0xB5D2A0
     bool HasCharacter_Internal(::Il2CppChar character, bool searchFallbacks);
-    // public System.Boolean HasCharacters(System.String text, System.Collections.Generic.List`1<System.Char> missingCharacters)
+    // public System.Boolean HasCharacters(System.String text, out System.Collections.Generic.List`1<System.Char> missingCharacters)
     // Offset: 0xB5D408
     bool HasCharacters(::Il2CppString* text, System::Collections::Generic::List_1<::Il2CppChar>*& missingCharacters);
     // public System.Boolean HasCharacters(System.String text)
@@ -380,13 +359,13 @@ namespace TMPro {
     // public System.Boolean TryAddCharacters(System.UInt32[] unicodes)
     // Offset: 0xB5D7E8
     bool TryAddCharacters(::Array<uint>* unicodes);
-    // public System.Boolean TryAddCharacters(System.UInt32[] unicodes, System.UInt32[] missingUnicodes)
+    // public System.Boolean TryAddCharacters(System.UInt32[] unicodes, out System.UInt32[] missingUnicodes)
     // Offset: 0xB5D810
     bool TryAddCharacters(::Array<uint>* unicodes, ::Array<uint>*& missingUnicodes);
     // public System.Boolean TryAddCharacters(System.String characters)
     // Offset: 0xB5DF84
     bool TryAddCharacters(::Il2CppString* characters);
-    // public System.Boolean TryAddCharacters(System.String characters, System.String missingCharacters)
+    // public System.Boolean TryAddCharacters(System.String characters, out System.String missingCharacters)
     // Offset: 0xB5DFAC
     bool TryAddCharacters(::Il2CppString* characters, ::Il2CppString*& missingCharacters);
     // System.Boolean TryAddCharacter_Internal(System.UInt32 unicode)
@@ -395,7 +374,7 @@ namespace TMPro {
     // TMPro.TMP_Character AddCharacter_Internal(System.UInt32 unicode, UnityEngine.TextCore.Glyph glyph)
     // Offset: 0xB5E950
     TMPro::TMP_Character* AddCharacter_Internal(uint unicode, UnityEngine::TextCore::Glyph* glyph);
-    // System.Boolean TryAddCharacterInternal(System.UInt32 unicode, TMPro.TMP_Character character)
+    // System.Boolean TryAddCharacterInternal(System.UInt32 unicode, out TMPro.TMP_Character character)
     // Offset: 0xB5CC70
     bool TryAddCharacterInternal(uint unicode, TMPro::TMP_Character*& character);
     // System.UInt32 GetGlyphIndex(System.UInt32 unicode)

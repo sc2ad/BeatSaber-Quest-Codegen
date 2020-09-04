@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.AxisTools
 #include "RootMotion/AxisTools.hpp"
 // Including type: UnityEngine.Vector3

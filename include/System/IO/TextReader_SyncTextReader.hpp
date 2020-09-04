@@ -41,10 +41,10 @@ namespace System::IO {
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Read()
     int Read();
-    // public override System.Int32 Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
+    // public override System.Int32 Read(in System.Char[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0x100FAEC
     // Implemented from: System.IO.TextReader
-    // Base method: System.Int32 TextReader::Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
+    // Base method: System.Int32 TextReader::Read(in System.Char[] buffer, System.Int32 index, System.Int32 count)
     int Read(::Array<::Il2CppChar>*& buffer, int index, int count);
     // public override System.String ReadLine()
     // Offset: 0x100FB0C

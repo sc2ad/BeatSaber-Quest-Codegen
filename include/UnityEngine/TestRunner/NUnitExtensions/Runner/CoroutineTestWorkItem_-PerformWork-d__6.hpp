@@ -46,7 +46,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // private UnityEngine.TestTools.Utils.CoroutineRunner <coroutineRunner>5__3
     // Offset: 0x38
     UnityEngine::TestTools::Utils::CoroutineRunner* $coroutineRunner$5__3;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xE35020
     static CoroutineTestWorkItem::$PerformWork$d__6* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()

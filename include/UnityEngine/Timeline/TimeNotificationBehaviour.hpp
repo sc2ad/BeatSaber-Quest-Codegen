@@ -109,10 +109,10 @@ namespace UnityEngine::Timeline {
     // private System.Void SyncDurationWithExternalSource(UnityEngine.Playables.Playable playable)
     // Offset: 0x10A0E38
     void SyncDurationWithExternalSource(UnityEngine::Playables::Playable playable);
-    // static private System.Void Trigger_internal(UnityEngine.Playables.Playable playable, UnityEngine.Playables.PlayableOutput output, UnityEngine.Timeline.TimeNotificationBehaviour/NotificationEntry e)
+    // static private System.Void Trigger_internal(UnityEngine.Playables.Playable playable, UnityEngine.Playables.PlayableOutput output, ref UnityEngine.Timeline.TimeNotificationBehaviour/NotificationEntry e)
     // Offset: 0x10A0A7C
     static void Trigger_internal(UnityEngine::Playables::Playable playable, UnityEngine::Playables::PlayableOutput output, UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry& e);
-    // static private System.Void Restore_internal(UnityEngine.Timeline.TimeNotificationBehaviour/NotificationEntry e)
+    // static private System.Void Restore_internal(ref UnityEngine.Timeline.TimeNotificationBehaviour/NotificationEntry e)
     // Offset: 0x10A1130
     static void Restore_internal(UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry& e);
     // public override System.Void OnGraphStart(UnityEngine.Playables.Playable playable)

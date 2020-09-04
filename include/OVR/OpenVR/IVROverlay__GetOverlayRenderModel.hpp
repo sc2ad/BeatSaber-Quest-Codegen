@@ -40,13 +40,13 @@ namespace OVR::OpenVR {
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1528890
     static IVROverlay::_GetOverlayRenderModel* New_ctor(::Il2CppObject* object, System::IntPtr method);
-    // public System.UInt32 Invoke(System.UInt64 ulOverlayHandle, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, OVR.OpenVR.HmdColor_t pColor, OVR.OpenVR.EVROverlayError pError)
+    // public System.UInt32 Invoke(System.UInt64 ulOverlayHandle, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, ref OVR.OpenVR.HmdColor_t pColor, ref OVR.OpenVR.EVROverlayError pError)
     // Offset: 0x15288A4
     uint Invoke(uint64_t ulOverlayHandle, System::Text::StringBuilder* pchValue, uint unBufferSize, OVR::OpenVR::HmdColor_t& pColor, OVR::OpenVR::EVROverlayError& pError);
-    // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, OVR.OpenVR.HmdColor_t pColor, OVR.OpenVR.EVROverlayError pError, System.AsyncCallback callback, System.Object object)
+    // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, ref OVR.OpenVR.HmdColor_t pColor, ref OVR.OpenVR.EVROverlayError pError, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1528B6C
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, System::Text::StringBuilder* pchValue, uint unBufferSize, OVR::OpenVR::HmdColor_t& pColor, OVR::OpenVR::EVROverlayError& pError, System::AsyncCallback* callback, ::Il2CppObject* object);
-    // public System.UInt32 EndInvoke(OVR.OpenVR.HmdColor_t pColor, OVR.OpenVR.EVROverlayError pError, System.IAsyncResult result)
+    // public System.UInt32 EndInvoke(ref OVR.OpenVR.HmdColor_t pColor, ref OVR.OpenVR.EVROverlayError pError, System.IAsyncResult result)
     // Offset: 0x1528C6C
     uint EndInvoke(OVR::OpenVR::HmdColor_t& pColor, OVR::OpenVR::EVROverlayError& pError, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetOverlayRenderModel

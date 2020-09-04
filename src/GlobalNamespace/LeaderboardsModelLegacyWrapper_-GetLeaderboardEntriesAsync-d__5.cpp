@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: LeaderboardsModelLegacyWrapper/<GetLeaderboardEntriesAsync>d__5
 #include "GlobalNamespace/LeaderboardsModelLegacyWrapper_-GetLeaderboardEntriesAsync-d__5.hpp"
 // Including type: LeaderboardsModelLegacyWrapper/HMAsyncRequestWithCancellationToken

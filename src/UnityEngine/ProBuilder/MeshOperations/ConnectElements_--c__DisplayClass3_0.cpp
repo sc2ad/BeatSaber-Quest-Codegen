@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c__DisplayClass3_0
 #include "UnityEngine/ProBuilder/MeshOperations/ConnectElements_--c__DisplayClass3_0.hpp"
 // Including type: System.Collections.Generic.HashSet`1

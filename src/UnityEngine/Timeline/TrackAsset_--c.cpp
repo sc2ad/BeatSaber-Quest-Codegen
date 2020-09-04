@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Timeline.TrackAsset/<>c
 #include "UnityEngine/Timeline/TrackAsset_--c.hpp"
 // Including type: System.Comparison`1

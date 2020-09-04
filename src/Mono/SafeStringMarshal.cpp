@@ -29,5 +29,5 @@ void Mono::SafeStringMarshal::Dispose() {
   THROW_UNLESS(il2cpp_utils::RunMethod(*this, "Dispose"));
 }
 void Mono::SafeStringMarshal::System_IDisposable_Dispose() {
-  Dispose();
+  Mono::SafeStringMarshal::Dispose();
 }

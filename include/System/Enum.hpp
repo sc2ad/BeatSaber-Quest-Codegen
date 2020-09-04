@@ -77,7 +77,7 @@ namespace System {
     // static System.RuntimeType InternalGetUnderlyingType(System.RuntimeType enumType)
     // Offset: 0xDA3B48
     static System::RuntimeType* InternalGetUnderlyingType(System::RuntimeType* enumType);
-    // static private System.Boolean GetEnumValuesAndNames(System.RuntimeType enumType, System.UInt64[] values, System.String[] names)
+    // static private System.Boolean GetEnumValuesAndNames(System.RuntimeType enumType, out System.UInt64[] values, out System.String[] names)
     // Offset: 0xDA3164
     static bool GetEnumValuesAndNames(System::RuntimeType* enumType, ::Array<uint64_t>*& values, ::Array<::Il2CppString*>*& names);
     // static private System.Object InternalBoxEnum(System.RuntimeType enumType, System.Int64 value)
@@ -89,7 +89,7 @@ namespace System {
     // static public System.Object Parse(System.Type enumType, System.String value, System.Boolean ignoreCase)
     // Offset: 0xDA3BC8
     static ::Il2CppObject* Parse(System::Type* enumType, ::Il2CppString* value, bool ignoreCase);
-    // static private System.Boolean TryParseEnum(System.Type enumType, System.String value, System.Boolean ignoreCase, System.Enum/EnumResult parseResult)
+    // static private System.Boolean TryParseEnum(System.Type enumType, System.String value, System.Boolean ignoreCase, ref System.Enum/EnumResult parseResult)
     // Offset: 0xDA3D08
     static bool TryParseEnum(System::Type* enumType, ::Il2CppString* value, bool ignoreCase, System::Enum::EnumResult& parseResult);
     // static public System.Type GetUnderlyingType(System.Type enumType)

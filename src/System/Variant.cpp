@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include <stdint.h>
 // Including type: System.Variant
 #include "System/Variant.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

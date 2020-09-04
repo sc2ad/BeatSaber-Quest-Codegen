@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.CompilerServices.AsyncMethodBuilderCore/<>c__DisplayClass4_0
 #include "System/Runtime/CompilerServices/AsyncMethodBuilderCore_--c__DisplayClass4_0.hpp"
 // Including type: System.Threading.Tasks.Task

@@ -55,7 +55,7 @@ namespace System::Threading {
     // System.Boolean LocalFindAndPop(System.Threading.IThreadPoolWorkItem callback)
     // Offset: 0xCEB768
     bool LocalFindAndPop(System::Threading::IThreadPoolWorkItem* callback);
-    // public System.Void Dequeue(System.Threading.ThreadPoolWorkQueueThreadLocals tl, System.Threading.IThreadPoolWorkItem callback, System.Boolean missedSteal)
+    // public System.Void Dequeue(System.Threading.ThreadPoolWorkQueueThreadLocals tl, out System.Threading.IThreadPoolWorkItem callback, out System.Boolean missedSteal)
     // Offset: 0xCEC484
     void Dequeue(System::Threading::ThreadPoolWorkQueueThreadLocals* tl, System::Threading::IThreadPoolWorkItem*& callback, bool& missedSteal);
     // static System.Boolean Dispatch()

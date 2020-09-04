@@ -62,7 +62,7 @@ namespace System::Diagnostics::Tracing {
     // public System.Boolean CanBeOrphan()
     // Offset: 0xC98AA0
     bool CanBeOrphan();
-    // private System.Void CreateActivityPathGuid(System.Guid idRet, System.Int32 activityPathGuidOffset)
+    // private System.Void CreateActivityPathGuid(out System.Guid idRet, out System.Int32 activityPathGuidOffset)
     // Offset: 0xC98E7C
     void CreateActivityPathGuid(System::Guid& idRet, int& activityPathGuidOffset);
     // private System.Void CreateOverflowGuid(System.Guid* outPtr)
@@ -71,7 +71,7 @@ namespace System::Diagnostics::Tracing {
     // static private System.Int32 AddIdToGuid(System.Guid* outPtr, System.Int32 whereToAddId, System.UInt32 id, System.Boolean overflow)
     // Offset: 0xC99198
     static int AddIdToGuid(System::Guid* outPtr, int whereToAddId, uint id, bool overflow);
-    // static private System.Void WriteNibble(System.Byte* ptr, System.Byte* endPtr, System.UInt32 value)
+    // static private System.Void WriteNibble(ref System.Byte* ptr, System.Byte* endPtr, System.UInt32 value)
     // Offset: 0xC9934C
     static void WriteNibble(uint8_t*& ptr, uint8_t* endPtr, uint value);
     // public override System.String ToString()

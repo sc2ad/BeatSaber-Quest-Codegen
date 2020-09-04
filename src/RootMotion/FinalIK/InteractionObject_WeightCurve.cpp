@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.InteractionObject/WeightCurve
 #include "RootMotion/FinalIK/InteractionObject.hpp"
 // Including type: UnityEngine.AnimationCurve

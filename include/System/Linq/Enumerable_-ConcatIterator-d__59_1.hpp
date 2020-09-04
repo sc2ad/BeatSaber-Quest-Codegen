@@ -50,7 +50,7 @@ namespace System::Linq {
     // private System.Collections.Generic.IEnumerator`1<TSource> <>7__wrap1
     // Offset: 0x0
     System::Collections::Generic::IEnumerator_1<TSource>* $$7__wrap1;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xFFFFFFFF
     static Enumerable::$ConcatIterator$d__59_1<TSource>* New_ctor(int $$1__state) {
       return (Enumerable::$ConcatIterator$d__59_1<TSource>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Enumerable::$ConcatIterator$d__59_1<TSource>*>::get(), $$1__state));

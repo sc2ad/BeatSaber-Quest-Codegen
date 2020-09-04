@@ -28,7 +28,7 @@ namespace UnityEngine {
     // static public System.String ExtractStackTrace()
     // Offset: 0x1393678
     static ::Il2CppString* ExtractStackTrace();
-    // static System.Void ExtractStringFromExceptionInternal(System.Object exceptiono, System.String message, System.String stackTrace)
+    // static System.Void ExtractStringFromExceptionInternal(System.Object exceptiono, out System.String message, out System.String stackTrace)
     // Offset: 0x1393D14
     static void ExtractStringFromExceptionInternal(::Il2CppObject* exceptiono, ::Il2CppString*& message, ::Il2CppString*& stackTrace);
     // static System.String ExtractFormattedStackTrace(System.Diagnostics.StackTrace stackTrace)

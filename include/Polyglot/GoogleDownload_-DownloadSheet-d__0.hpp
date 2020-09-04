@@ -60,7 +60,7 @@ namespace Polyglot {
     // private UnityEngine.Networking.UnityWebRequest <www>5__3
     // Offset: 0x50
     UnityEngine::Networking::UnityWebRequest* $www$5__3;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0x1917738
     static GoogleDownload::$DownloadSheet$d__0* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

@@ -83,10 +83,10 @@ namespace UnityEngine {
     // static public System.Void SetGlobalVectorArray(System.Int32 nameID, UnityEngine.Vector4[] values)
     // Offset: 0x1392334
     static void SetGlobalVectorArray(int nameID, ::Array<UnityEngine::Vector4>* values);
-    // static private System.Void SetGlobalVectorImpl_Injected(System.Int32 name, UnityEngine.Vector4 value)
+    // static private System.Void SetGlobalVectorImpl_Injected(System.Int32 name, ref UnityEngine.Vector4 value)
     // Offset: 0x1391E90
     static void SetGlobalVectorImpl_Injected(int name, UnityEngine::Vector4& value);
-    // static private System.Void SetGlobalMatrixImpl_Injected(System.Int32 name, UnityEngine.Matrix4x4 value)
+    // static private System.Void SetGlobalMatrixImpl_Injected(System.Int32 name, ref UnityEngine.Matrix4x4 value)
     // Offset: 0x1391F30
     static void SetGlobalMatrixImpl_Injected(int name, UnityEngine::Matrix4x4& value);
     // private System.Void .ctor()

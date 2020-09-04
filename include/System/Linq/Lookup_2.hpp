@@ -27,13 +27,9 @@ namespace System::Collections::Generic {
   // Forward declaring type: IEqualityComparer`1<T>
   template<typename T>
   class IEqualityComparer_1;
-  // Skipping declaration: IEnumerable`1 because it is already included!
 }
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
-  class Func_2;
   // Forward declaring type: Func`2<T, TResult>
   template<typename T, typename TResult>
   class Func_2;
@@ -75,7 +71,7 @@ namespace System::Linq {
         // private System.Int32 <i>5__1
         // Offset: 0x0
         int $i$5__1;
-        // public System.Void .ctor(System.Int32 $$1__state)
+        // public System.Void .ctor(System.Int32 <>1__state)
         // Offset: 0xFFFFFFFF
         static typename Lookup_2<TElement, TKey>::Grouping::$GetEnumerator$d__7* New_ctor(int $$1__state) {
           return (typename Lookup_2<TElement, TKey>::Grouping::$GetEnumerator$d__7*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename Lookup_2<TElement, TKey>::Grouping::$GetEnumerator$d__7*>::get(), $$1__state)));
@@ -264,7 +260,7 @@ namespace System::Linq {
       // private System.Linq.Lookup`2/Grouping<TKey,TElement> <g>5__1
       // Offset: 0x0
       typename System::Linq::Lookup_2<TKey, TElement>::Grouping* $g$5__1;
-      // public System.Void .ctor(System.Int32 $$1__state)
+      // public System.Void .ctor(System.Int32 <>1__state)
       // Offset: 0xFFFFFFFF
       static typename Lookup_2<TKey, TElement>::$GetEnumerator$d__12* New_ctor(int $$1__state) {
         return (typename Lookup_2<TKey, TElement>::$GetEnumerator$d__12*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename Lookup_2<TKey, TElement>::$GetEnumerator$d__12*>::get(), $$1__state)));

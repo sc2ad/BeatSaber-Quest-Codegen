@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     // private SteamVR_Controller/Device <hmd>5__5
     // Offset: 0x40
     GlobalNamespace::SteamVR_Controller::Device* $hmd$5__5;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xD89380
     static SteamVR_LoadLevel::$LoadLevel$d__45* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

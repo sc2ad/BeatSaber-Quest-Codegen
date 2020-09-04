@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Xft.XWeaponTrail/ElementPool
 #include "Xft/XWeaponTrail_ElementPool.hpp"
 // Including type: System.Collections.Generic.Stack`1

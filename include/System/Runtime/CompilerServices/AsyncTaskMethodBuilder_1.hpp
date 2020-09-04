@@ -60,7 +60,7 @@ namespace System::Runtime::CompilerServices {
     static System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> Create() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<AsyncTaskMethodBuilder_1<TResult>>::get(), "Create"));
     }
-    // public System.Void Start(TStateMachine stateMachine)
+    // public System.Void Start(ref TStateMachine stateMachine)
     // Offset: 0xFFFFFFFF
     template<class TStateMachine>
     void Start(TStateMachine& stateMachine) {
@@ -72,7 +72,7 @@ namespace System::Runtime::CompilerServices {
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
       THROW_UNLESS(il2cpp_utils::RunMethod(*this, "SetStateMachine", stateMachine));
     }
-    // public System.Void AwaitUnsafeOnCompleted(TAwaiter awaiter, TStateMachine stateMachine)
+    // public System.Void AwaitUnsafeOnCompleted(ref TAwaiter awaiter, ref TStateMachine stateMachine)
     // Offset: 0xFFFFFFFF
     template<class TAwaiter, class TStateMachine>
     void AwaitUnsafeOnCompleted(TAwaiter& awaiter, TStateMachine& stateMachine) {

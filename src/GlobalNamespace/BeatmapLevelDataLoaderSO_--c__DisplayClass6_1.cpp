@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: BeatmapLevelDataLoaderSO/<>c__DisplayClass6_1
 #include "GlobalNamespace/BeatmapLevelDataLoaderSO_--c__DisplayClass6_1.hpp"
 // Including type: UnityEngine.AssetBundle

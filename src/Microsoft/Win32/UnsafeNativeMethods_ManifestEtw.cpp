@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Diagnostics.Tracing.EventDescriptor
 #include "System/Diagnostics/Tracing/EventDescriptor.hpp"
 // Including type: Microsoft.Win32.UnsafeNativeMethods/ManifestEtw

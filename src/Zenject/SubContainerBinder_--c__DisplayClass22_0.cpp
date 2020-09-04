@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.SubContainerBinder/<>c__DisplayClass22_0
 #include "Zenject/SubContainerBinder_--c__DisplayClass22_0.hpp"
 // Including type: UnityEngine.Object

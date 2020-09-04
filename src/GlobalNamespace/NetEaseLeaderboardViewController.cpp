@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NetEaseLeaderboardViewController
 #include "GlobalNamespace/NetEaseLeaderboardViewController.hpp"
 // Including type: NetEaseLeaderboardViewController/<RefreshDelayed>d__14

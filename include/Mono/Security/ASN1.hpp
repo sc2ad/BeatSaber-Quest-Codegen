@@ -54,10 +54,10 @@ namespace Mono::Security {
     // public System.Byte[] GetBytes()
     // Offset: 0x197B4A0
     ::Array<uint8_t>* GetBytes();
-    // protected System.Void Decode(System.Byte[] asn1, System.Int32 anPos, System.Int32 anLength)
+    // protected System.Void Decode(System.Byte[] asn1, ref System.Int32 anPos, System.Int32 anLength)
     // Offset: 0x197B15C
     void Decode(::Array<uint8_t>* asn1, int& anPos, int anLength);
-    // protected System.Void DecodeTLV(System.Byte[] asn1, System.Int32 pos, System.Byte tag, System.Int32 length, System.Byte[] content)
+    // protected System.Void DecodeTLV(System.Byte[] asn1, ref System.Int32 pos, out System.Byte tag, out System.Int32 length, out System.Byte[] content)
     // Offset: 0x197BAC8
     void DecodeTLV(::Array<uint8_t>* asn1, int& pos, uint8_t& tag, int& length, ::Array<uint8_t>*& content);
     // public Mono.Security.ASN1 get_Item(System.Int32 index)

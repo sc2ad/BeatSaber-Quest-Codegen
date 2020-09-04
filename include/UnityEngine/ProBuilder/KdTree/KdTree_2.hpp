@@ -113,7 +113,7 @@ namespace UnityEngine::ProBuilder::KdTree {
       // private System.Action`1<UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue>> <addRight>5__3
       // Offset: 0x0
       System::Action_1<UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* $addRight$5__3;
-      // public System.Void .ctor(System.Int32 $$1__state)
+      // public System.Void .ctor(System.Int32 <>1__state)
       // Offset: 0xFFFFFFFF
       static typename KdTree_2<TKey, TValue>::$GetEnumerator$d__33* New_ctor(int $$1__state) {
         return (typename KdTree_2<TKey, TValue>::$GetEnumerator$d__33*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename KdTree_2<TKey, TValue>::$GetEnumerator$d__33*>::get(), $$1__state)));

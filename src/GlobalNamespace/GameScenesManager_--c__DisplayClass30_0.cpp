@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: GameScenesManager/<>c__DisplayClass30_0
 #include "GlobalNamespace/GameScenesManager_--c__DisplayClass30_0.hpp"
 // Including type: ScenesTransitionSetupDataSO

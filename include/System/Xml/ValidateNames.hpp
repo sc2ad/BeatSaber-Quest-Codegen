@@ -20,7 +20,7 @@ namespace System::Xml {
     // static System.Int32 ParseNCName(System.String s, System.Int32 offset)
     // Offset: 0x11A17A0
     static int ParseNCName(::Il2CppString* s, int offset);
-    // static System.Int32 ParseQName(System.String s, System.Int32 offset, System.Int32 colonOffset)
+    // static System.Int32 ParseQName(System.String s, System.Int32 offset, out System.Int32 colonOffset)
     // Offset: 0x11A18EC
     static int ParseQName(::Il2CppString* s, int offset, int& colonOffset);
     // static private System.Void .cctor()

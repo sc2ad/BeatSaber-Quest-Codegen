@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.Toggle
 #include "UnityEngine/UI/Toggle.hpp"
 // Including type: UnityEngine.UI.Graphic

@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // public FlickeringNeonSign <>4__this
     // Offset: 0x20
     GlobalNamespace::FlickeringNeonSign* $$4__this;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xBEF4C8
     static FlickeringNeonSign::$FlickeringCoroutine$d__12* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

@@ -35,10 +35,10 @@ namespace UnityEngine {
     // static System.Void Pop()
     // Offset: 0x126AC2C
     static void Pop();
-    // static private System.Void get_visibleRect_Injected(UnityEngine.Rect ret)
+    // static private System.Void get_visibleRect_Injected(out UnityEngine.Rect ret)
     // Offset: 0x126BB48
     static void get_visibleRect_Injected(UnityEngine::Rect& ret);
-    // static private System.Void Internal_Push_Injected(UnityEngine.Rect screenRect, UnityEngine.Vector2 scrollOffset, UnityEngine.Vector2 renderOffset, System.Boolean resetOffset)
+    // static private System.Void Internal_Push_Injected(ref UnityEngine.Rect screenRect, ref UnityEngine.Vector2 scrollOffset, ref UnityEngine.Vector2 renderOffset, System.Boolean resetOffset)
     // Offset: 0x126BBF0
     static void Internal_Push_Injected(UnityEngine::Rect& screenRect, UnityEngine::Vector2& scrollOffset, UnityEngine::Vector2& renderOffset, bool resetOffset);
   }; // UnityEngine.GUIClip

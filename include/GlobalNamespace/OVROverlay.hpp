@@ -334,7 +334,7 @@ namespace GlobalNamespace {
     // private System.Void OnDestroy()
     // Offset: 0xEF6A44
     void OnDestroy();
-    // private System.Boolean ComputeSubmit(OVRPose pose, UnityEngine.Vector3 scale, System.Boolean overlay, System.Boolean headLocked)
+    // private System.Boolean ComputeSubmit(ref OVRPose pose, ref UnityEngine.Vector3 scale, ref System.Boolean overlay, ref System.Boolean headLocked)
     // Offset: 0xEF6A68
     bool ComputeSubmit(GlobalNamespace::OVRPose& pose, UnityEngine::Vector3& scale, bool& overlay, bool& headLocked);
     // private System.Void OpenVROverlayUpdate(UnityEngine.Vector3 scale, OVRPose pose)

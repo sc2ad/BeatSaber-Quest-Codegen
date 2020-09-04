@@ -28,10 +28,10 @@ namespace GlobalNamespace {
     // private NamedPresetsSO _presets
     // Offset: 0x40
     GlobalNamespace::NamedPresetsSO* presets;
-    // protected override System.Boolean GetInitValues(System.Int32 idx, System.Int32 numberOfElements)
+    // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     // Offset: 0xC1E2B8
     // Implemented from: ListSettingsController
-    // Base method: System.Boolean ListSettingsController::GetInitValues(System.Int32 idx, System.Int32 numberOfElements)
+    // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(int& idx, int& numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
     // Offset: 0xC1E3AC

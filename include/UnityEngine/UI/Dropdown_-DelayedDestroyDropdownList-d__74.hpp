@@ -27,7 +27,7 @@ namespace UnityEngine::UI {
     // public UnityEngine.UI.Dropdown <>4__this
     // Offset: 0x28
     UnityEngine::UI::Dropdown* $$4__this;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0x116960C
     static Dropdown::$DelayedDestroyDropdownList$d__74* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

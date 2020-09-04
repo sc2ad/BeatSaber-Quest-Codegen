@@ -49,5 +49,5 @@ void System::IO::FileNotFoundException::GetObjectData(System::Runtime::Serializa
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "GetObjectData", info, context));
 }
 void System::IO::FileNotFoundException::System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-  GetObjectData(info, context);
+  System::IO::FileNotFoundException::GetObjectData(info, context);
 }

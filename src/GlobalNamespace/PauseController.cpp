@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: PauseController
 #include "GlobalNamespace/PauseController.hpp"
 // Including type: PauseController/<>c__DisplayClass17_0

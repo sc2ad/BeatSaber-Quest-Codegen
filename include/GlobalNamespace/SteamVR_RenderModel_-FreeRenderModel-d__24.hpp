@@ -26,7 +26,7 @@ namespace GlobalNamespace {
     // public System.IntPtr pRenderModel
     // Offset: 0x20
     System::IntPtr pRenderModel;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xD92954
     static SteamVR_RenderModel::$FreeRenderModel$d__24* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

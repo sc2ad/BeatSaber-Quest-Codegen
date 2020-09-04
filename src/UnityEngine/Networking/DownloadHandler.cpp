@@ -53,5 +53,5 @@ void UnityEngine::Networking::DownloadHandler::Dispose() {
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose"));
 }
 void UnityEngine::Networking::DownloadHandler::System_IDisposable_Dispose() {
-  Dispose();
+  UnityEngine::Networking::DownloadHandler::Dispose();
 }

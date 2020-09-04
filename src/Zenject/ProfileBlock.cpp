@@ -57,5 +57,5 @@ void Zenject::ProfileBlock::Dispose() {
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose"));
 }
 void Zenject::ProfileBlock::System_IDisposable_Dispose() {
-  Dispose();
+  Zenject::ProfileBlock::Dispose();
 }

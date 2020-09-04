@@ -33,13 +33,13 @@ namespace OVR::OpenVR {
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1529358
     static IVROverlay::_GetOverlayTexelAspect* New_ctor(::Il2CppObject* object, System::IntPtr method);
-    // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, System.Single pfTexelAspect)
+    // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, ref System.Single pfTexelAspect)
     // Offset: 0x152936C
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, float& pfTexelAspect);
-    // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.Single pfTexelAspect, System.AsyncCallback callback, System.Object object)
+    // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, ref System.Single pfTexelAspect, System.AsyncCallback callback, System.Object object)
     // Offset: 0x15295F0
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, float& pfTexelAspect, System::AsyncCallback* callback, ::Il2CppObject* object);
-    // public OVR.OpenVR.EVROverlayError EndInvoke(System.Single pfTexelAspect, System.IAsyncResult result)
+    // public OVR.OpenVR.EVROverlayError EndInvoke(ref System.Single pfTexelAspect, System.IAsyncResult result)
     // Offset: 0x15296A0
     OVR::OpenVR::EVROverlayError EndInvoke(float& pfTexelAspect, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetOverlayTexelAspect

@@ -31,5 +31,5 @@ System::Threading::WaitHandle* System::IO::FileStreamAsyncResult::get_AsyncWaitH
   return THROW_UNLESS(il2cpp_utils::RunMethod<System::Threading::WaitHandle*>(this, "get_AsyncWaitHandle"));
 }
 System::Threading::WaitHandle* System::IO::FileStreamAsyncResult::System_IAsyncResult_get_AsyncWaitHandle() {
-  return get_AsyncWaitHandle();
+  return System::IO::FileStreamAsyncResult::get_AsyncWaitHandle();
 }

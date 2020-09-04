@@ -24,9 +24,6 @@ namespace System {
   // Forward declaring type: Func`2<T, TResult>
   template<typename T, typename TResult>
   class Func_2;
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
-  class Func_2;
 }
 // Forward declaring namespace: UnityEngine::UI
 namespace UnityEngine::UI {

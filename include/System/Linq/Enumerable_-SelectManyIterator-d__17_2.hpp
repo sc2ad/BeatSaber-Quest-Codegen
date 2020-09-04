@@ -15,11 +15,6 @@
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: System::Collections::Generic
-namespace System::Collections::Generic {
-  // Skipping declaration: IEnumerable`1 because it is already included!
-  // Skipping declaration: IEnumerator`1 because it is already included!
-}
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
@@ -64,7 +59,7 @@ namespace System::Linq {
     // private System.Collections.Generic.IEnumerator`1<TResult> <>7__wrap2
     // Offset: 0x0
     System::Collections::Generic::IEnumerator_1<TResult>* $$7__wrap2;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xFFFFFFFF
     static Enumerable::$SelectManyIterator$d__17_2<TResult, TSource>* New_ctor(int $$1__state) {
       return (Enumerable::$SelectManyIterator$d__17_2<TResult, TSource>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Enumerable::$SelectManyIterator$d__17_2<TResult, TSource>*>::get(), $$1__state)));

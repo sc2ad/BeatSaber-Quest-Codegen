@@ -33,13 +33,13 @@ namespace OVR::OpenVR {
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xCC2EC0
     static IVRTrackedCamera::_AcquireVideoStreamingService* New_ctor(::Il2CppObject* object, System::IntPtr method);
-    // public OVR.OpenVR.EVRTrackedCameraError Invoke(System.UInt32 nDeviceIndex, System.UInt64 pHandle)
+    // public OVR.OpenVR.EVRTrackedCameraError Invoke(System.UInt32 nDeviceIndex, ref System.UInt64 pHandle)
     // Offset: 0xCC2ED4
     OVR::OpenVR::EVRTrackedCameraError Invoke(uint nDeviceIndex, uint64_t& pHandle);
-    // public System.IAsyncResult BeginInvoke(System.UInt32 nDeviceIndex, System.UInt64 pHandle, System.AsyncCallback callback, System.Object object)
+    // public System.IAsyncResult BeginInvoke(System.UInt32 nDeviceIndex, ref System.UInt64 pHandle, System.AsyncCallback callback, System.Object object)
     // Offset: 0xCC3164
     System::IAsyncResult* BeginInvoke(uint nDeviceIndex, uint64_t& pHandle, System::AsyncCallback* callback, ::Il2CppObject* object);
-    // public OVR.OpenVR.EVRTrackedCameraError EndInvoke(System.UInt64 pHandle, System.IAsyncResult result)
+    // public OVR.OpenVR.EVRTrackedCameraError EndInvoke(ref System.UInt64 pHandle, System.IAsyncResult result)
     // Offset: 0xCC3218
     OVR::OpenVR::EVRTrackedCameraError EndInvoke(uint64_t& pHandle, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRTrackedCamera/_AcquireVideoStreamingService

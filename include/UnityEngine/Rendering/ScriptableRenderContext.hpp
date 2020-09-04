@@ -50,10 +50,10 @@ namespace UnityEngine::Rendering {
     // UnityEngine.Camera GetCamera(System.Int32 index)
     // Offset: 0xA472B8
     UnityEngine::Camera* GetCamera(int index);
-    // static private System.Int32 GetNumberOfCameras_Internal_Injected(UnityEngine.Rendering.ScriptableRenderContext _unity_self)
+    // static private System.Int32 GetNumberOfCameras_Internal_Injected(ref UnityEngine.Rendering.ScriptableRenderContext _unity_self)
     // Offset: 0x138F420
     static int GetNumberOfCameras_Internal_Injected(UnityEngine::Rendering::ScriptableRenderContext& _unity_self);
-    // static private UnityEngine.Camera GetCamera_Internal_Injected(UnityEngine.Rendering.ScriptableRenderContext _unity_self, System.Int32 index)
+    // static private UnityEngine.Camera GetCamera_Internal_Injected(ref UnityEngine.Rendering.ScriptableRenderContext _unity_self, System.Int32 index)
     // Offset: 0x138F4B0
     static UnityEngine::Camera* GetCamera_Internal_Injected(UnityEngine::Rendering::ScriptableRenderContext& _unity_self, int index);
     // public System.Boolean Equals(UnityEngine.Rendering.ScriptableRenderContext other)

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.Models.LivestreamingStatus
 #include "Oculus/Platform/Models/LivestreamingStatus.hpp"
 // Including type: System.IntPtr

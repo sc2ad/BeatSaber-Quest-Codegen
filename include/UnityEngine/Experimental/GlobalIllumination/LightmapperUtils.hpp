@@ -39,19 +39,19 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // static public System.Single ExtractInnerCone(UnityEngine.Light l)
     // Offset: 0x131133C
     static float ExtractInnerCone(UnityEngine::Light* l);
-    // static public System.Void Extract(UnityEngine.Light l, UnityEngine.Experimental.GlobalIllumination.DirectionalLight dir)
+    // static public System.Void Extract(UnityEngine.Light l, ref UnityEngine.Experimental.GlobalIllumination.DirectionalLight dir)
     // Offset: 0x1311450
     static void Extract(UnityEngine::Light* l, UnityEngine::Experimental::GlobalIllumination::DirectionalLight& dir);
-    // static public System.Void Extract(UnityEngine.Light l, UnityEngine.Experimental.GlobalIllumination.PointLight point)
+    // static public System.Void Extract(UnityEngine.Light l, ref UnityEngine.Experimental.GlobalIllumination.PointLight point)
     // Offset: 0x13115C4
     static void Extract(UnityEngine::Light* l, UnityEngine::Experimental::GlobalIllumination::PointLight& point);
-    // static public System.Void Extract(UnityEngine.Light l, UnityEngine.Experimental.GlobalIllumination.SpotLight spot)
+    // static public System.Void Extract(UnityEngine.Light l, ref UnityEngine.Experimental.GlobalIllumination.SpotLight spot)
     // Offset: 0x131176C
     static void Extract(UnityEngine::Light* l, UnityEngine::Experimental::GlobalIllumination::SpotLight& spot);
-    // static public System.Void Extract(UnityEngine.Light l, UnityEngine.Experimental.GlobalIllumination.RectangleLight rect)
+    // static public System.Void Extract(UnityEngine.Light l, ref UnityEngine.Experimental.GlobalIllumination.RectangleLight rect)
     // Offset: 0x1311950
     static void Extract(UnityEngine::Light* l, UnityEngine::Experimental::GlobalIllumination::RectangleLight& rect);
-    // static public System.Void Extract(UnityEngine.Light l, UnityEngine.Experimental.GlobalIllumination.DiscLight disc)
+    // static public System.Void Extract(UnityEngine.Light l, ref UnityEngine.Experimental.GlobalIllumination.DiscLight disc)
     // Offset: 0x1311AF0
     static void Extract(UnityEngine::Light* l, UnityEngine::Experimental::GlobalIllumination::DiscLight& disc);
   }; // UnityEngine.Experimental.GlobalIllumination.LightmapperUtils

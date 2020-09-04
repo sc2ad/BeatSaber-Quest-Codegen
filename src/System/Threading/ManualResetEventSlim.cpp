@@ -229,5 +229,5 @@ void System::Threading::ManualResetEventSlim::Dispose() {
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose"));
 }
 void System::Threading::ManualResetEventSlim::System_IDisposable_Dispose() {
-  Dispose();
+  System::Threading::ManualResetEventSlim::Dispose();
 }

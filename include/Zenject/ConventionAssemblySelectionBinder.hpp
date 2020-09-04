@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -24,9 +25,6 @@ namespace System {
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
-  // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
-  class IEnumerable_1;
   // Forward declaring type: IEnumerable`1<T>
   template<typename T>
   class IEnumerable_1;
@@ -71,9 +69,16 @@ namespace Zenject {
     void FromAssemblyContaining() {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "FromAssemblyContaining", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
     }
-    // public System.Void FromAssembliesContaining(System.Type[] types)
+    // public System.Void FromAssembliesContaining(params System.Type[] types)
     // Offset: 0xD6EDA8
     void FromAssembliesContaining(::Array<System::Type*>* types);
+    // Creating initializer_list -> params proxy for: System.Void FromAssembliesContaining(params System.Type[] types)
+    void FromAssembliesContaining(std::initializer_list<System::Type*> types);
+    // Creating TArgs -> initializer_list proxy for: System.Void FromAssembliesContaining(params System.Type[] types)
+    template<class ...TParams>
+    void FromAssembliesContaining(TParams&&... types) {
+      FromAssembliesContaining({types...});
+    }
     // public System.Void FromAssembliesContaining(System.Collections.Generic.IEnumerable`1<System.Type> types)
     // Offset: 0xD6EDAC
     void FromAssembliesContaining(System::Collections::Generic::IEnumerable_1<System::Type*>* types);
@@ -83,9 +88,16 @@ namespace Zenject {
     // public System.Void FromAssembly(System.Reflection.Assembly assembly)
     // Offset: 0xD6F05C
     void FromAssembly(System::Reflection::Assembly* assembly);
-    // public System.Void FromAssemblies(System.Reflection.Assembly[] assemblies)
+    // public System.Void FromAssemblies(params System.Reflection.Assembly[] assemblies)
     // Offset: 0xD6F058
     void FromAssemblies(::Array<System::Reflection::Assembly*>* assemblies);
+    // Creating initializer_list -> params proxy for: System.Void FromAssemblies(params System.Reflection.Assembly[] assemblies)
+    void FromAssemblies(std::initializer_list<System::Reflection::Assembly*> assemblies);
+    // Creating TArgs -> initializer_list proxy for: System.Void FromAssemblies(params System.Reflection.Assembly[] assemblies)
+    template<class ...TParams>
+    void FromAssemblies(TParams&&... assemblies) {
+      FromAssemblies({assemblies...});
+    }
     // public System.Void FromAssemblies(System.Collections.Generic.IEnumerable`1<System.Reflection.Assembly> assemblies)
     // Offset: 0xD6EED0
     void FromAssemblies(System::Collections::Generic::IEnumerable_1<System::Reflection::Assembly*>* assemblies);

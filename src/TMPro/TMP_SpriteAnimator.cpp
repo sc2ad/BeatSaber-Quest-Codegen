@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TMPro.TMP_SpriteAnimator
 #include "TMPro/TMP_SpriteAnimator.hpp"
 // Including type: TMPro.TMP_SpriteAnimator/<DoSpriteAnimationInternal>d__7

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Diagnostics.Tracing.TplEtwProvider/Keywords
 #include "System/Diagnostics/Tracing/TplEtwProvider_Keywords.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

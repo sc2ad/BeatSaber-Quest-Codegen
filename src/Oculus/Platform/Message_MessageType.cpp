@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.Message/MessageType
 #include "Oculus/Platform/Message.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

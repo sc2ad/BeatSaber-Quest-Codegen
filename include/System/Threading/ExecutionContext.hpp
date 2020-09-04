@@ -188,10 +188,10 @@ namespace System::Threading {
     // static System.Void RunInternal(System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx)
     // Offset: 0x13DDA64
     static void RunInternal(System::Threading::ExecutionContext* executionContext, System::Threading::ContextCallback* callback, ::Il2CppObject* state, bool preserveSyncCtx);
-    // static System.Void EstablishCopyOnWriteScope(System.Threading.ExecutionContextSwitcher ecsw)
+    // static System.Void EstablishCopyOnWriteScope(ref System.Threading.ExecutionContextSwitcher ecsw)
     // Offset: 0x13DE01C
     static void EstablishCopyOnWriteScope(System::Threading::ExecutionContextSwitcher& ecsw);
-    // static private System.Void EstablishCopyOnWriteScope(System.Threading.Thread currentThread, System.Boolean knownNullWindowsIdentity, System.Threading.ExecutionContextSwitcher ecsw)
+    // static private System.Void EstablishCopyOnWriteScope(System.Threading.Thread currentThread, System.Boolean knownNullWindowsIdentity, ref System.Threading.ExecutionContextSwitcher ecsw)
     // Offset: 0x13DDD08
     static void EstablishCopyOnWriteScope(System::Threading::Thread* currentThread, bool knownNullWindowsIdentity, System::Threading::ExecutionContextSwitcher& ecsw);
     // static System.Threading.ExecutionContextSwitcher SetExecutionContext(System.Threading.ExecutionContext executionContext, System.Boolean preserveSyncCtx)
@@ -212,7 +212,7 @@ namespace System::Threading {
     // static System.Threading.ExecutionContext FastCapture()
     // Offset: 0x13DE4EC
     static System::Threading::ExecutionContext* FastCapture();
-    // static System.Threading.ExecutionContext Capture(System.Threading.StackCrawlMark stackMark, System.Threading.ExecutionContext/CaptureOptions options)
+    // static System.Threading.ExecutionContext Capture(ref System.Threading.StackCrawlMark stackMark, System.Threading.ExecutionContext/CaptureOptions options)
     // Offset: 0x13DA8F8
     static System::Threading::ExecutionContext* Capture(System::Threading::StackCrawlMark& stackMark, System::Threading::ExecutionContext::CaptureOptions options);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

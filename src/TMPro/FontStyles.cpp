@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TMPro.FontStyles
 #include "TMPro/FontStyles.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

@@ -43,5 +43,5 @@ void UnityEngine::HumanPoseHandler::Dispose() {
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose"));
 }
 void UnityEngine::HumanPoseHandler::System_IDisposable_Dispose() {
-  Dispose();
+  UnityEngine::HumanPoseHandler::Dispose();
 }

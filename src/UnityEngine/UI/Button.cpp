@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.Button
 #include "UnityEngine/UI/Button.hpp"
 // Including type: UnityEngine.UI.Button/ButtonClickedEvent

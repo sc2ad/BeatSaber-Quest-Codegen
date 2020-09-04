@@ -38,15 +38,6 @@ namespace System {
   // Forward declaring type: Action`2<T1, T2>
   template<typename T1, typename T2>
   class Action_2;
-  // Forward declaring type: Action`2<T1, T2>
-  template<typename T1, typename T2>
-  class Action_2;
-  // Forward declaring type: Action`2<T1, T2>
-  template<typename T1, typename T2>
-  class Action_2;
-  // Forward declaring type: Action`1<T>
-  template<typename T>
-  class Action_1;
   // Forward declaring type: Action`1<T>
   template<typename T>
   class Action_1;
@@ -262,7 +253,7 @@ namespace GlobalNamespace {
     // protected System.Void LateUpdate()
     // Offset: 0xC2C614
     void LateUpdate();
-    // private System.Void LoseMultiplier(System.Boolean comboChanged, System.Boolean multiplierChanged)
+    // private System.Void LoseMultiplier(out System.Boolean comboChanged, out System.Boolean multiplierChanged)
     // Offset: 0xC2C4C0
     void LoseMultiplier(bool& comboChanged, bool& multiplierChanged);
     // private System.Void NotifyForChange(System.Boolean comboChanged, System.Boolean multiplierChanged)

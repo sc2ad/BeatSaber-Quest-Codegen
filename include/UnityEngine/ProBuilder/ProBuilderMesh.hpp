@@ -33,51 +33,12 @@ namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
   template<typename T>
   class List_1;
-  // Forward declaring type: IList`1<T>
-  template<typename T>
-  class IList_1;
   // Forward declaring type: HashSet`1<T>
   template<typename T>
   class HashSet_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
   // Forward declaring type: IList`1<T>
   template<typename T>
   class IList_1;
-  // Forward declaring type: IList`1<T>
-  template<typename T>
-  class IList_1;
-  // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
-  class IEnumerable_1;
-  // Forward declaring type: IList`1<T>
-  template<typename T>
-  class IList_1;
-  // Forward declaring type: IList`1<T>
-  template<typename T>
-  class IList_1;
-  // Forward declaring type: IList`1<T>
-  template<typename T>
-  class IList_1;
-  // Forward declaring type: IList`1<T>
-  template<typename T>
-  class IList_1;
-  // Forward declaring type: IList`1<T>
-  template<typename T>
-  class IList_1;
-  // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
-  class IEnumerable_1;
-  // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
-  class IEnumerable_1;
-  // Forward declaring type: IList`1<T>
-  template<typename T>
-  class IList_1;
-  // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
-  class IEnumerable_1;
   // Forward declaring type: IEnumerable`1<T>
   template<typename T>
   class IEnumerable_1;
@@ -106,21 +67,15 @@ namespace System::Collections::ObjectModel {
   // Forward declaring type: ReadOnlyCollection`1<T>
   template<typename T>
   class ReadOnlyCollection_1;
-  // Forward declaring type: ReadOnlyCollection`1<T>
-  template<typename T>
-  class ReadOnlyCollection_1;
-  // Forward declaring type: ReadOnlyCollection`1<T>
-  template<typename T>
-  class ReadOnlyCollection_1;
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: Mesh
+  class Mesh;
   // Forward declaring type: MeshRenderer
   class MeshRenderer;
   // Forward declaring type: MeshFilter
   class MeshFilter;
-  // Forward declaring type: Mesh
-  class Mesh;
   // Forward declaring type: Material
   class Material;
   // Forward declaring type: MeshTopology

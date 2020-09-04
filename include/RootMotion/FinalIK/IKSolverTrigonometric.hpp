@@ -119,10 +119,10 @@ namespace RootMotion::FinalIK {
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::FixTransforms()
     void FixTransforms();
-    // public override System.Boolean IsValid(System.String message)
+    // public override System.Boolean IsValid(ref System.String message)
     // Offset: 0x135606C
     // Implemented from: RootMotion.FinalIK.IKSolver
-    // Base method: System.Boolean IKSolver::IsValid(System.String message)
+    // Base method: System.Boolean IKSolver::IsValid(ref System.String message)
     bool IsValid(::Il2CppString*& message);
     // protected override System.Void OnInitiate()
     // Offset: 0x1356CB8

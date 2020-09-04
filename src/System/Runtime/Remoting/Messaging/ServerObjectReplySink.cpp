@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.Remoting.Messaging.ServerObjectReplySink
 #include "System/Runtime/Remoting/Messaging/ServerObjectReplySink.hpp"
 // Including type: System.Runtime.Remoting.ServerIdentity

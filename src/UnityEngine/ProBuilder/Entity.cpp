@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.Entity
 #include "UnityEngine/ProBuilder/Entity.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

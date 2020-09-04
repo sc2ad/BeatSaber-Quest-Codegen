@@ -34,7 +34,7 @@ namespace UnityEngine::UI {
     // public UnityEngine.UI.InputField <>4__this
     // Offset: 0x28
     UnityEngine::UI::InputField* $$4__this;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0x11FEF0C
     static InputField::$MouseDragOutsideRect$d__179* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

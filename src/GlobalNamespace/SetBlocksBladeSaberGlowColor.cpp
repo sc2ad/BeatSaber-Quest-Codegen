@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: SetBlocksBladeSaberGlowColor
 #include "GlobalNamespace/SetBlocksBladeSaberGlowColor.hpp"
 // Including type: SaberTypeObject

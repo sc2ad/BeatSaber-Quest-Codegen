@@ -37,7 +37,7 @@ namespace UnityEngine::Timeline {
     // public UnityEngine.Timeline.AnimationPlayableAsset <>4__this
     // Offset: 0x40
     UnityEngine::Timeline::AnimationPlayableAsset* $$4__this;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0x1090418
     static AnimationPlayableAsset::$get_outputs$d__45* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

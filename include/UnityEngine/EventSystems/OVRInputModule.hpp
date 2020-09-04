@@ -188,7 +188,7 @@ namespace UnityEngine::EventSystems {
     // protected System.Void CopyFromTo(UnityEngine.EventSystems.OVRPointerEventData from, UnityEngine.EventSystems.OVRPointerEventData to)
     // Offset: 0x19025CC
     void CopyFromTo(UnityEngine::EventSystems::OVRPointerEventData* from, UnityEngine::EventSystems::OVRPointerEventData* to);
-    // protected System.Boolean GetPointerData(System.Int32 id, UnityEngine.EventSystems.OVRPointerEventData data, System.Boolean create)
+    // protected System.Boolean GetPointerData(System.Int32 id, out UnityEngine.EventSystems.OVRPointerEventData data, System.Boolean create)
     // Offset: 0x19026D0
     bool GetPointerData(int id, UnityEngine::EventSystems::OVRPointerEventData*& data, bool create);
     // static private UnityEngine.Vector3 GetRectTransformNormal(UnityEngine.RectTransform rectTransform)

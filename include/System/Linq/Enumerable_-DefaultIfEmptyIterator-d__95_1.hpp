@@ -50,7 +50,7 @@ namespace System::Linq {
     // public TSource <>3__defaultValue
     // Offset: 0x0
     TSource $$3__defaultValue;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xFFFFFFFF
     static Enumerable::$DefaultIfEmptyIterator$d__95_1<TSource>* New_ctor(int $$1__state) {
       return (Enumerable::$DefaultIfEmptyIterator$d__95_1<TSource>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Enumerable::$DefaultIfEmptyIterator$d__95_1<TSource>*>::get(), $$1__state));

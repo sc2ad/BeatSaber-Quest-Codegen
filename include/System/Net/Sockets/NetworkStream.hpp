@@ -102,10 +102,10 @@ namespace System::Net::Sockets {
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::Seek(System.Int64 offset, System.IO.SeekOrigin origin)
     int64_t Seek(int64_t offset, System::IO::SeekOrigin origin);
-    // public override System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
+    // public override System.Int32 Read(in System.Byte[] buffer, System.Int32 offset, System.Int32 size)
     // Offset: 0xF71008
     // Implemented from: System.IO.Stream
-    // Base method: System.Int32 Stream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
+    // Base method: System.Int32 Stream::Read(in System.Byte[] buffer, System.Int32 offset, System.Int32 size)
     int Read(::Array<uint8_t>*& buffer, int offset, int size);
     // public override System.Void Write(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
     // Offset: 0xF714A0

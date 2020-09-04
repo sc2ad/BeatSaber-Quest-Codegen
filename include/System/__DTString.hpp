@@ -65,13 +65,13 @@ namespace System {
     // System.Boolean Advance(System.Int32 count)
     // Offset: 0xA57764
     bool Advance(int count);
-    // System.Void GetRegularToken(System.TokenType tokenType, System.Int32 tokenValue, System.Globalization.DateTimeFormatInfo dtfi)
+    // System.Void GetRegularToken(out System.TokenType tokenType, out System.Int32 tokenValue, System.Globalization.DateTimeFormatInfo dtfi)
     // Offset: 0xA5776C
     void GetRegularToken(System::TokenType& tokenType, int& tokenValue, System::Globalization::DateTimeFormatInfo* dtfi);
-    // System.TokenType GetSeparatorToken(System.Globalization.DateTimeFormatInfo dtfi, System.Int32 indexBeforeSeparator, System.Char charBeforeSeparator)
+    // System.TokenType GetSeparatorToken(System.Globalization.DateTimeFormatInfo dtfi, out System.Int32 indexBeforeSeparator, out System.Char charBeforeSeparator)
     // Offset: 0xA57774
     System::TokenType GetSeparatorToken(System::Globalization::DateTimeFormatInfo* dtfi, int& indexBeforeSeparator, ::Il2CppChar& charBeforeSeparator);
-    // System.Boolean MatchSpecifiedWords(System.String target, System.Boolean checkWordBoundary, System.Int32 matchLength)
+    // System.Boolean MatchSpecifiedWords(System.String target, System.Boolean checkWordBoundary, ref System.Int32 matchLength)
     // Offset: 0xA5777C
     bool MatchSpecifiedWords(::Il2CppString* target, bool checkWordBoundary, int& matchLength);
     // System.Boolean Match(System.Char ch)

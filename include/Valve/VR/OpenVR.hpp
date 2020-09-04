@@ -1179,7 +1179,7 @@ namespace Valve::VR {
     static Valve::VR::OpenVR::COpenVRContext* _get__OpenVRInternal_ModuleContext();
     // Set static field: static private Valve.VR.OpenVR/COpenVRContext _OpenVRInternal_ModuleContext
     static void _set__OpenVRInternal_ModuleContext(Valve::VR::OpenVR::COpenVRContext* value);
-    // static public System.UInt32 InitInternal(Valve.VR.EVRInitError peError, Valve.VR.EVRApplicationType eApplicationType)
+    // static public System.UInt32 InitInternal(ref Valve.VR.EVRInitError peError, Valve.VR.EVRApplicationType eApplicationType)
     // Offset: 0x192B864
     static uint InitInternal(Valve::VR::EVRInitError& peError, Valve::VR::EVRApplicationType eApplicationType);
     // static public System.Void ShutdownInternal()
@@ -1194,7 +1194,7 @@ namespace Valve::VR {
     // static public System.String GetStringForHmdError(Valve.VR.EVRInitError error)
     // Offset: 0x192BA6C
     static ::Il2CppString* GetStringForHmdError(Valve::VR::EVRInitError error);
-    // static public System.IntPtr GetGenericInterface(System.String pchInterfaceVersion, Valve.VR.EVRInitError peError)
+    // static public System.IntPtr GetGenericInterface(System.String pchInterfaceVersion, ref Valve.VR.EVRInitError peError)
     // Offset: 0x192BB64
     static System::IntPtr GetGenericInterface(::Il2CppString* pchInterfaceVersion, Valve::VR::EVRInitError& peError);
     // static public System.Boolean IsInterfaceVersionValid(System.String pchInterfaceVersion)
@@ -1245,7 +1245,7 @@ namespace Valve::VR {
     // static public Valve.VR.CVRTrackedCamera get_TrackedCamera()
     // Offset: 0x192CABC
     static Valve::VR::CVRTrackedCamera* get_TrackedCamera();
-    // static public Valve.VR.CVRSystem Init(Valve.VR.EVRInitError peError, Valve.VR.EVRApplicationType eApplicationType)
+    // static public Valve.VR.CVRSystem Init(ref Valve.VR.EVRInitError peError, Valve.VR.EVRApplicationType eApplicationType)
     // Offset: 0x192CBE8
     static Valve::VR::CVRSystem* Init(Valve::VR::EVRInitError& peError, Valve::VR::EVRApplicationType eApplicationType);
     // static public System.Void Shutdown()

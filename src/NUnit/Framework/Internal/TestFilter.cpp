@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Internal.TestFilter
 #include "NUnit/Framework/Internal/TestFilter.hpp"
 // Including type: NUnit.Framework.Internal.TestFilter/EmptyFilter

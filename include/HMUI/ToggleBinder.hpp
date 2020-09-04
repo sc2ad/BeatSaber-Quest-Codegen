@@ -12,15 +12,9 @@ namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
   template<typename T>
   class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
 }
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Tuple`2<T1, T2>
-  template<typename T1, typename T2>
-  class Tuple_2;
   // Forward declaring type: Tuple`2<T1, T2>
   template<typename T1, typename T2>
   class Tuple_2;

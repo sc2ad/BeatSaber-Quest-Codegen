@@ -78,13 +78,13 @@ namespace UnityEngine::Rendering {
     // private System.Void Internal_DrawMesh(UnityEngine.Mesh mesh, UnityEngine.Matrix4x4 matrix, UnityEngine.Material material, System.Int32 submeshIndex, System.Int32 shaderPass, UnityEngine.MaterialPropertyBlock properties)
     // Offset: 0x138C118
     void Internal_DrawMesh(UnityEngine::Mesh* mesh, UnityEngine::Matrix4x4 matrix, UnityEngine::Material* material, int submeshIndex, int shaderPass, UnityEngine::MaterialPropertyBlock* properties);
-    // private System.Void CopyTexture_Internal(UnityEngine.Rendering.RenderTargetIdentifier src, System.Int32 srcElement, System.Int32 srcMip, System.Int32 srcX, System.Int32 srcY, System.Int32 srcWidth, System.Int32 srcHeight, UnityEngine.Rendering.RenderTargetIdentifier dst, System.Int32 dstElement, System.Int32 dstMip, System.Int32 dstX, System.Int32 dstY, System.Int32 mode)
+    // private System.Void CopyTexture_Internal(ref UnityEngine.Rendering.RenderTargetIdentifier src, System.Int32 srcElement, System.Int32 srcMip, System.Int32 srcX, System.Int32 srcY, System.Int32 srcWidth, System.Int32 srcHeight, ref UnityEngine.Rendering.RenderTargetIdentifier dst, System.Int32 dstElement, System.Int32 dstMip, System.Int32 dstX, System.Int32 dstY, System.Int32 mode)
     // Offset: 0x138C228
     void CopyTexture_Internal(UnityEngine::Rendering::RenderTargetIdentifier& src, int srcElement, int srcMip, int srcX, int srcY, int srcWidth, int srcHeight, UnityEngine::Rendering::RenderTargetIdentifier& dst, int dstElement, int dstMip, int dstX, int dstY, int mode);
-    // private System.Void Blit_Texture(UnityEngine.Texture source, UnityEngine.Rendering.RenderTargetIdentifier dest, UnityEngine.Material mat, System.Int32 pass, UnityEngine.Vector2 scale, UnityEngine.Vector2 offset, System.Int32 sourceDepthSlice, System.Int32 destDepthSlice)
+    // private System.Void Blit_Texture(UnityEngine.Texture source, ref UnityEngine.Rendering.RenderTargetIdentifier dest, UnityEngine.Material mat, System.Int32 pass, UnityEngine.Vector2 scale, UnityEngine.Vector2 offset, System.Int32 sourceDepthSlice, System.Int32 destDepthSlice)
     // Offset: 0x138C2EC
     void Blit_Texture(UnityEngine::Texture* source, UnityEngine::Rendering::RenderTargetIdentifier& dest, UnityEngine::Material* mat, int pass, UnityEngine::Vector2 scale, UnityEngine::Vector2 offset, int sourceDepthSlice, int destDepthSlice);
-    // private System.Void Blit_Identifier(UnityEngine.Rendering.RenderTargetIdentifier source, UnityEngine.Rendering.RenderTargetIdentifier dest, UnityEngine.Material mat, System.Int32 pass, UnityEngine.Vector2 scale, UnityEngine.Vector2 offset, System.Int32 sourceDepthSlice, System.Int32 destDepthSlice)
+    // private System.Void Blit_Identifier(ref UnityEngine.Rendering.RenderTargetIdentifier source, ref UnityEngine.Rendering.RenderTargetIdentifier dest, UnityEngine.Material mat, System.Int32 pass, UnityEngine.Vector2 scale, UnityEngine.Vector2 offset, System.Int32 sourceDepthSlice, System.Int32 destDepthSlice)
     // Offset: 0x138C430
     void Blit_Identifier(UnityEngine::Rendering::RenderTargetIdentifier& source, UnityEngine::Rendering::RenderTargetIdentifier& dest, UnityEngine::Material* mat, int pass, UnityEngine::Vector2 scale, UnityEngine::Vector2 offset, int sourceDepthSlice, int destDepthSlice);
     // public System.Void GetTemporaryRT(System.Int32 nameID, System.Int32 width, System.Int32 height, System.Int32 depthBuffer, UnityEngine.FilterMode filter, UnityEngine.Experimental.Rendering.GraphicsFormat format, System.Int32 antiAliasing, System.Boolean enableRandomWrite, UnityEngine.RenderTextureMemoryless memorylessMode, System.Boolean useDynamicScale)
@@ -114,10 +114,10 @@ namespace UnityEngine::Rendering {
     // private System.Boolean ValidateAgainstExecutionFlags(UnityEngine.Rendering.CommandBufferExecutionFlags requiredFlags, UnityEngine.Rendering.CommandBufferExecutionFlags invalidFlags)
     // Offset: 0x138CA68
     bool ValidateAgainstExecutionFlags(UnityEngine::Rendering::CommandBufferExecutionFlags requiredFlags, UnityEngine::Rendering::CommandBufferExecutionFlags invalidFlags);
-    // private System.Void SetGlobalTexture_Impl(System.Int32 nameID, UnityEngine.Rendering.RenderTargetIdentifier rt, UnityEngine.Rendering.RenderTextureSubElement element)
+    // private System.Void SetGlobalTexture_Impl(System.Int32 nameID, ref UnityEngine.Rendering.RenderTargetIdentifier rt, UnityEngine.Rendering.RenderTextureSubElement element)
     // Offset: 0x138CAC0
     void SetGlobalTexture_Impl(int nameID, UnityEngine::Rendering::RenderTargetIdentifier& rt, UnityEngine::Rendering::RenderTextureSubElement element);
-    // private System.Void SetShadowSamplingMode_Impl(UnityEngine.Rendering.RenderTargetIdentifier shadowmap, UnityEngine.Rendering.ShadowSamplingMode mode)
+    // private System.Void SetShadowSamplingMode_Impl(ref UnityEngine.Rendering.RenderTargetIdentifier shadowmap, UnityEngine.Rendering.ShadowSamplingMode mode)
     // Offset: 0x138CB28
     void SetShadowSamplingMode_Impl(UnityEngine::Rendering::RenderTargetIdentifier& shadowmap, UnityEngine::Rendering::ShadowSamplingMode mode);
     // private System.Void Dispose(System.Boolean disposing)
@@ -159,16 +159,16 @@ namespace UnityEngine::Rendering {
     // public System.Void SetShadowSamplingMode(UnityEngine.Rendering.RenderTargetIdentifier shadowmap, UnityEngine.Rendering.ShadowSamplingMode mode)
     // Offset: 0x138D524
     void SetShadowSamplingMode(UnityEngine::Rendering::RenderTargetIdentifier shadowmap, UnityEngine::Rendering::ShadowSamplingMode mode);
-    // private System.Void Internal_DrawMesh_Injected(UnityEngine.Mesh mesh, UnityEngine.Matrix4x4 matrix, UnityEngine.Material material, System.Int32 submeshIndex, System.Int32 shaderPass, UnityEngine.MaterialPropertyBlock properties)
+    // private System.Void Internal_DrawMesh_Injected(UnityEngine.Mesh mesh, ref UnityEngine.Matrix4x4 matrix, UnityEngine.Material material, System.Int32 submeshIndex, System.Int32 shaderPass, UnityEngine.MaterialPropertyBlock properties)
     // Offset: 0x138C1A0
     void Internal_DrawMesh_Injected(UnityEngine::Mesh* mesh, UnityEngine::Matrix4x4& matrix, UnityEngine::Material* material, int submeshIndex, int shaderPass, UnityEngine::MaterialPropertyBlock* properties);
-    // private System.Void Blit_Texture_Injected(UnityEngine.Texture source, UnityEngine.Rendering.RenderTargetIdentifier dest, UnityEngine.Material mat, System.Int32 pass, UnityEngine.Vector2 scale, UnityEngine.Vector2 offset, System.Int32 sourceDepthSlice, System.Int32 destDepthSlice)
+    // private System.Void Blit_Texture_Injected(UnityEngine.Texture source, ref UnityEngine.Rendering.RenderTargetIdentifier dest, UnityEngine.Material mat, System.Int32 pass, ref UnityEngine.Vector2 scale, ref UnityEngine.Vector2 offset, System.Int32 sourceDepthSlice, System.Int32 destDepthSlice)
     // Offset: 0x138C390
     void Blit_Texture_Injected(UnityEngine::Texture* source, UnityEngine::Rendering::RenderTargetIdentifier& dest, UnityEngine::Material* mat, int pass, UnityEngine::Vector2& scale, UnityEngine::Vector2& offset, int sourceDepthSlice, int destDepthSlice);
-    // private System.Void Blit_Identifier_Injected(UnityEngine.Rendering.RenderTargetIdentifier source, UnityEngine.Rendering.RenderTargetIdentifier dest, UnityEngine.Material mat, System.Int32 pass, UnityEngine.Vector2 scale, UnityEngine.Vector2 offset, System.Int32 sourceDepthSlice, System.Int32 destDepthSlice)
+    // private System.Void Blit_Identifier_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier source, ref UnityEngine.Rendering.RenderTargetIdentifier dest, UnityEngine.Material mat, System.Int32 pass, ref UnityEngine.Vector2 scale, ref UnityEngine.Vector2 offset, System.Int32 sourceDepthSlice, System.Int32 destDepthSlice)
     // Offset: 0x138C4D4
     void Blit_Identifier_Injected(UnityEngine::Rendering::RenderTargetIdentifier& source, UnityEngine::Rendering::RenderTargetIdentifier& dest, UnityEngine::Material* mat, int pass, UnityEngine::Vector2& scale, UnityEngine::Vector2& offset, int sourceDepthSlice, int destDepthSlice);
-    // private System.Void SetGlobalVector_Injected(System.Int32 nameID, UnityEngine.Vector4 value)
+    // private System.Void SetGlobalVector_Injected(System.Int32 nameID, ref UnityEngine.Vector4 value)
     // Offset: 0x138CA10
     void SetGlobalVector_Injected(int nameID, UnityEngine::Vector4& value);
     // protected override System.Void Finalize()

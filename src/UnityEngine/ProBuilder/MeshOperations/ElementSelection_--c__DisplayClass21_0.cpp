@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c__DisplayClass21_0
 #include "UnityEngine/ProBuilder/MeshOperations/ElementSelection_--c__DisplayClass21_0.hpp"
 // Including type: UnityEngine.ProBuilder.Face

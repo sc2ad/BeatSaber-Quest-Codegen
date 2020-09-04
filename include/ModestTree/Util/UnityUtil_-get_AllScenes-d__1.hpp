@@ -37,7 +37,7 @@ namespace ModestTree::Util {
     // private System.Int32 <i>5__2
     // Offset: 0x1C
     int $i$5__2;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xD64D10
     static UnityUtil::$get_AllScenes$d__1* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

@@ -33,13 +33,13 @@ namespace Valve::VR {
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1605F48
     static IVRCompositor::_GetFrameTiming* New_ctor(::Il2CppObject* object, System::IntPtr method);
-    // public System.Boolean Invoke(Valve.VR.Compositor_FrameTiming pTiming, System.UInt32 unFramesAgo)
+    // public System.Boolean Invoke(ref Valve.VR.Compositor_FrameTiming pTiming, System.UInt32 unFramesAgo)
     // Offset: 0x1605F5C
     bool Invoke(Valve::VR::Compositor_FrameTiming& pTiming, uint unFramesAgo);
-    // public System.IAsyncResult BeginInvoke(Valve.VR.Compositor_FrameTiming pTiming, System.UInt32 unFramesAgo, System.AsyncCallback callback, System.Object object)
+    // public System.IAsyncResult BeginInvoke(ref Valve.VR.Compositor_FrameTiming pTiming, System.UInt32 unFramesAgo, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16061D4
     System::IAsyncResult* BeginInvoke(Valve::VR::Compositor_FrameTiming& pTiming, uint unFramesAgo, System::AsyncCallback* callback, ::Il2CppObject* object);
-    // public System.Boolean EndInvoke(Valve.VR.Compositor_FrameTiming pTiming, System.IAsyncResult result)
+    // public System.Boolean EndInvoke(ref Valve.VR.Compositor_FrameTiming pTiming, System.IAsyncResult result)
     // Offset: 0x1606288
     bool EndInvoke(Valve::VR::Compositor_FrameTiming& pTiming, System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_GetFrameTiming

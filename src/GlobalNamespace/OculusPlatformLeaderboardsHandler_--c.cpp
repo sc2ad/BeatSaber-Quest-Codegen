@@ -2,13 +2,10 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OculusPlatformLeaderboardsHandler/<>c
 #include "GlobalNamespace/OculusPlatformLeaderboardsHandler_--c.hpp"
 // Including type: Oculus.Platform.Models.LeaderboardEntryList
 #include "Oculus/Platform/Models/LeaderboardEntryList.hpp"
-// Including type: Oculus.Platform.Message`1
-#include "Oculus/Platform/Message_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

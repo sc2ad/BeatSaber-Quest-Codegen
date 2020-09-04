@@ -95,7 +95,7 @@ namespace RootMotion::FinalIK {
     // public System.Boolean get_isEmpty()
     // Offset: 0x123CF38
     bool get_isEmpty();
-    // static public System.Boolean AutoDetectReferences(UnityEngine.Transform root, RootMotion.FinalIK.VRIK/References references)
+    // static public System.Boolean AutoDetectReferences(UnityEngine.Transform root, out RootMotion.FinalIK.VRIK/References references)
     // Offset: 0x123CA14
     static bool AutoDetectReferences(UnityEngine::Transform* root, RootMotion::FinalIK::VRIK::References*& references);
     // public System.Void .ctor()

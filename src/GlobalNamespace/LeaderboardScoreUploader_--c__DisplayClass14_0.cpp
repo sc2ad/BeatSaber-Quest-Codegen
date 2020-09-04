@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: LeaderboardScoreUploader/<>c__DisplayClass14_0
 #include "GlobalNamespace/LeaderboardScoreUploader_--c__DisplayClass14_0.hpp"
 // Including type: LeaderboardScoreUploader/ScoreData

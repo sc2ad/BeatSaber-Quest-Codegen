@@ -48,10 +48,10 @@ namespace System::Diagnostics::Tracing {
     static int64_t _get_m_nextId();
     // Set static field: static private System.Int64 m_nextId
     static void _set_m_nextId(int64_t value);
-    // public System.Void OnStart(System.String providerName, System.String activityName, System.Int32 task, System.Guid activityId, System.Guid relatedActivityId, System.Diagnostics.Tracing.EventActivityOptions options)
+    // public System.Void OnStart(System.String providerName, System.String activityName, System.Int32 task, ref System.Guid activityId, ref System.Guid relatedActivityId, System.Diagnostics.Tracing.EventActivityOptions options)
     // Offset: 0xC9808C
     void OnStart(::Il2CppString* providerName, ::Il2CppString* activityName, int task, System::Guid& activityId, System::Guid& relatedActivityId, System::Diagnostics::Tracing::EventActivityOptions options);
-    // public System.Void OnStop(System.String providerName, System.String activityName, System.Int32 task, System.Guid activityId)
+    // public System.Void OnStop(System.String providerName, System.String activityName, System.Int32 task, ref System.Guid activityId)
     // Offset: 0xC986F8
     void OnStop(::Il2CppString* providerName, ::Il2CppString* activityName, int task, System::Guid& activityId);
     // public System.Void Enable()

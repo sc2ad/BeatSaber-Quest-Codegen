@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.WingedEdge/<>c__DisplayClass32_0
 #include "UnityEngine/ProBuilder/WingedEdge_--c__DisplayClass32_0.hpp"
 // Including type: System.Collections.Generic.HashSet`1

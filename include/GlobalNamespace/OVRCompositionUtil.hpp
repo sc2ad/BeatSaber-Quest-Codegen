@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // static public System.Void SafeDestroy(UnityEngine.GameObject obj)
     // Offset: 0xCCC05C
     static void SafeDestroy(UnityEngine::GameObject* obj);
-    // static public System.Void SafeDestroy(UnityEngine.GameObject obj)
+    // static public System.Void SafeDestroy(ref UnityEngine.GameObject obj)
     // Offset: 0xCCC0FC
     static void SafeDestroy(UnityEngine::GameObject*& obj);
     // static public OVRPlugin/CameraDevice ConvertCameraDevice(OVRManager/CameraDevice cameraDevice)

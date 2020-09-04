@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.TestRunner.TestLaunchers.PlayerConnectionMessageIds
 #include "UnityEngine/TestRunner/TestLaunchers/PlayerConnectionMessageIds.hpp"
 // Including type: System.Guid

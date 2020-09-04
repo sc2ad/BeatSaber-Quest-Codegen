@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include <stdint.h>
 // Including type: Valve.VR.VRControllerState_t_Packed
 #include "Valve/VR/VRControllerState_t_Packed.hpp"
 // Including type: Valve.VR.VRControllerState_t

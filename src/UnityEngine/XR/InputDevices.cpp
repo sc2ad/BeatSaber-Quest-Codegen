@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.XR.InputDevices
 #include "UnityEngine/XR/InputDevices.hpp"
 // Including type: System.Action`1

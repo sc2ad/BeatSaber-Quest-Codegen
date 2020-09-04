@@ -46,7 +46,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // public UnityEngine.TestRunner.NUnitExtensions.Runner.FailCommand <>4__this
     // Offset: 0x38
     UnityEngine::TestRunner::NUnitExtensions::Runner::FailCommand* $$4__this;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xE365BC
     static FailCommand::$ExecuteEnumerable$d__4* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

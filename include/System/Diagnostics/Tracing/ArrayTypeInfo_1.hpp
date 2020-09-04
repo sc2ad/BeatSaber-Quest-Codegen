@@ -15,7 +15,6 @@
 // Begin forward declares
 // Forward declaring namespace: System::Diagnostics::Tracing
 namespace System::Diagnostics::Tracing {
-  // Skipping declaration: TraceLoggingTypeInfo`1 because it is already included!
   // Forward declaring type: TraceLoggingDataCollector
   class TraceLoggingDataCollector;
   // Forward declaring type: TraceLoggingMetadataCollector
@@ -35,7 +34,7 @@ namespace System::Diagnostics::Tracing {
     constexpr operator System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<ElementType>*() const noexcept {
       return elementInfo;
     }
-    // public System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ElementType[] value)
+    // public System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref ElementType[] value)
     // Offset: 0xFFFFFFFF
     void WriteData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, ::Array<ElementType>*& value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "WriteData", collector, value));

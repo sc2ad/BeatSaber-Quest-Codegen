@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TMPro.TMP_MaterialManager/MaskingMaterial
 #include "TMPro/TMP_MaterialManager_MaskingMaterial.hpp"
 // Including type: UnityEngine.Material

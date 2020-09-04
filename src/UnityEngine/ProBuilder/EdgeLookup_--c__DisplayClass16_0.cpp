@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.EdgeLookup/<>c__DisplayClass16_0
 #include "UnityEngine/ProBuilder/EdgeLookup_--c__DisplayClass16_0.hpp"
 // Including type: System.Collections.Generic.Dictionary`2

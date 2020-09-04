@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include <initializer_list>
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -25,9 +26,16 @@ namespace SFB {
     ::Array<::Il2CppString*>* extensions;
     // Creating value type constructor for type: ExtensionFilter
     constexpr ExtensionFilter(::Il2CppString* name_ = {}, ::Array<::Il2CppString*>* extensions_ = {}) noexcept : name{name_}, extensions{extensions_} {}
-    // public System.Void .ctor(System.String filterName, System.String[] filterExtensions)
+    // public System.Void .ctor(System.String filterName, params System.String[] filterExtensions)
     // Offset: 0xA2C81C
     static ExtensionFilter* New_ctor(::Il2CppString* filterName, ::Array<::Il2CppString*>* filterExtensions);
+    // Creating initializer_list -> params proxy for: System.Void .ctor(System.String filterName, params System.String[] filterExtensions)
+    static ExtensionFilter* New_ctor(::Il2CppString* filterName, std::initializer_list<::Il2CppString*> filterExtensions);
+    // Creating TArgs -> initializer_list proxy for: System.Void .ctor(System.String filterName, params System.String[] filterExtensions)
+    template<class ...TParams>
+    static ExtensionFilter* New_ctor(::Il2CppString* filterName, TParams&&... filterExtensions) {
+      return New_ctor(filterName, {filterExtensions...});
+    }
   }; // SFB.ExtensionFilter
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

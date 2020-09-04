@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     // private System.Single <elapsedTime>5__2
     // Offset: 0x34
     float $elapsedTime$5__2;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xBE4748
     static CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

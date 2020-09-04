@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/TRACE_QUERY_INFO_CLASS
 #include "Microsoft/Win32/UnsafeNativeMethods_ManifestEtw_TRACE_QUERY_INFO_CLASS.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

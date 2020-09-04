@@ -175,10 +175,10 @@ namespace System::Runtime::Serialization {
     // private System.Int32 FindElement(System.String name)
     // Offset: 0x1002814
     int FindElement(::Il2CppString* name);
-    // private System.Object GetElement(System.String name, System.Type foundType)
+    // private System.Object GetElement(System.String name, out System.Type foundType)
     // Offset: 0x10028D4
     ::Il2CppObject* GetElement(::Il2CppString* name, System::Type*& foundType);
-    // private System.Object GetElementNoThrow(System.String name, System.Type foundType)
+    // private System.Object GetElementNoThrow(System.String name, out System.Type foundType)
     // Offset: 0x1002A1C
     ::Il2CppObject* GetElementNoThrow(::Il2CppString* name, System::Type*& foundType);
     // public System.Object GetValue(System.String name, System.Type type)

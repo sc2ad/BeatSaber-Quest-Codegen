@@ -128,16 +128,16 @@ namespace System::Reflection {
     // public System.String get_Location()
     // Offset: 0x1366F60
     ::Il2CppString* get_Location();
-    // System.IntPtr GetManifestResourceInternal(System.String name, System.Int32 size, System.Reflection.Module module)
+    // System.IntPtr GetManifestResourceInternal(System.String name, out System.Int32 size, out System.Reflection.Module module)
     // Offset: 0x1367128
     System::IntPtr GetManifestResourceInternal(::Il2CppString* name, int& size, System::Reflection::Module*& module);
     // public System.IO.Stream GetManifestResourceStream(System.String name)
     // Offset: 0x136712C
     System::IO::Stream* GetManifestResourceStream(::Il2CppString* name);
-    // System.IO.Stream GetManifestResourceStream(System.Type type, System.String name, System.Boolean skipSecurityCheck, System.Threading.StackCrawlMark stackMark)
+    // System.IO.Stream GetManifestResourceStream(System.Type type, System.String name, System.Boolean skipSecurityCheck, ref System.Threading.StackCrawlMark stackMark)
     // Offset: 0x1367504
     System::IO::Stream* GetManifestResourceStream(System::Type* type, ::Il2CppString* name, bool skipSecurityCheck, System::Threading::StackCrawlMark& stackMark);
-    // System.IO.Stream GetManifestResourceStream(System.String name, System.Threading.StackCrawlMark stackMark, System.Boolean skipSecurityCheck)
+    // System.IO.Stream GetManifestResourceStream(System.String name, ref System.Threading.StackCrawlMark stackMark, System.Boolean skipSecurityCheck)
     // Offset: 0x1367698
     System::IO::Stream* GetManifestResourceStream(::Il2CppString* name, System::Threading::StackCrawlMark& stackMark, bool skipSecurityCheck);
     // System.String GetSimpleName()
@@ -173,7 +173,7 @@ namespace System::Reflection {
     // static public System.Reflection.Assembly GetAssembly(System.Type type)
     // Offset: 0x1367860
     static System::Reflection::Assembly* GetAssembly(System::Type* type);
-    // System.Reflection.RuntimeAssembly InternalGetSatelliteAssembly(System.String name, System.Globalization.CultureInfo culture, System.Version version, System.Boolean throwOnFileNotFound, System.Threading.StackCrawlMark stackMark)
+    // System.Reflection.RuntimeAssembly InternalGetSatelliteAssembly(System.String name, System.Globalization.CultureInfo culture, System.Version version, System.Boolean throwOnFileNotFound, ref System.Threading.StackCrawlMark stackMark)
     // Offset: 0x1367928
     System::Reflection::RuntimeAssembly* InternalGetSatelliteAssembly(::Il2CppString* name, System::Globalization::CultureInfo* culture, System::Version* version, bool throwOnFileNotFound, System::Threading::StackCrawlMark& stackMark);
     // static private System.Reflection.Assembly LoadFrom(System.String assemblyFile, System.Boolean refonly)

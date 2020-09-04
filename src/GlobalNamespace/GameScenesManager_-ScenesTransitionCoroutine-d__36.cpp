@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: GameScenesManager/<ScenesTransitionCoroutine>d__36
 #include "GlobalNamespace/GameScenesManager_-ScenesTransitionCoroutine-d__36.hpp"
-// Including type: System.Collections.Generic.List`1
-#include "System/Collections/Generic/List_1.hpp"
 // Including type: System.Action
 #include "System/Action.hpp"
 // Including type: System.Action`1

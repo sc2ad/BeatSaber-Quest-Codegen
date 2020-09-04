@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: HMUI.ScrollView/<>c__DisplayClass26_0
 #include "HMUI/ScrollView_--c__DisplayClass26_0.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

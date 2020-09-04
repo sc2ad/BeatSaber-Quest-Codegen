@@ -42,18 +42,6 @@ namespace UnityEngine::Events {
   class UnityAction_3;
   // Forward declaring type: UnityAction
   class UnityAction;
-  // Forward declaring type: UnityAction`1<T0>
-  template<typename T0>
-  class UnityAction_1;
-  // Forward declaring type: UnityAction`1<T0>
-  template<typename T0>
-  class UnityAction_1;
-  // Forward declaring type: UnityAction`2<T0, T1>
-  template<typename T0, typename T1>
-  class UnityAction_2;
-  // Forward declaring type: UnityAction`1<T0>
-  template<typename T0>
-  class UnityAction_1;
 }
 // Completed forward declares
 // Type namespace: 

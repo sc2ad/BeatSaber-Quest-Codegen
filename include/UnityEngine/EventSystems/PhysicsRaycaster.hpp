@@ -80,7 +80,7 @@ namespace UnityEngine::EventSystems {
     // public System.Void set_maxRayIntersections(System.Int32 value)
     // Offset: 0xE00000
     void set_maxRayIntersections(int value);
-    // protected System.Boolean ComputeRayAndDistance(UnityEngine.EventSystems.PointerEventData eventData, UnityEngine.Ray ray, System.Int32 eventDisplayIndex, System.Single distanceToClipPlane)
+    // protected System.Boolean ComputeRayAndDistance(UnityEngine.EventSystems.PointerEventData eventData, ref UnityEngine.Ray ray, ref System.Int32 eventDisplayIndex, ref System.Single distanceToClipPlane)
     // Offset: 0xDFFA38
     bool ComputeRayAndDistance(UnityEngine::EventSystems::PointerEventData* eventData, UnityEngine::Ray& ray, int& eventDisplayIndex, float& distanceToClipPlane);
     // protected System.Void .ctor()

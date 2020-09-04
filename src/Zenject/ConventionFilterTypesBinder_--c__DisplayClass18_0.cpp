@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.ConventionFilterTypesBinder/<>c__DisplayClass18_0
 #include "Zenject/ConventionFilterTypesBinder_--c__DisplayClass18_0.hpp"
 // Including type: System.Text.RegularExpressions.Regex

@@ -17,9 +17,6 @@ namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
   template<typename T>
   class IEnumerable_1;
-  // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
-  class IEnumerable_1;
 }
 // Completed forward declares
 // Type namespace: ModestTree

@@ -138,13 +138,13 @@ namespace UnityEngine {
     // static private System.Void .cctor()
     // Offset: 0x1412EB4
     static void _cctor();
-    // static private System.Void GetLossyScale_Injected(UnityEngine.Matrix4x4 _unity_self, UnityEngine.Vector3 ret)
+    // static private System.Void GetLossyScale_Injected(ref UnityEngine.Matrix4x4 _unity_self, out UnityEngine.Vector3 ret)
     // Offset: 0x1411CF0
     static void GetLossyScale_Injected(UnityEngine::Matrix4x4& _unity_self, UnityEngine::Vector3& ret);
-    // static private System.Void TRS_Injected(UnityEngine.Vector3 pos, UnityEngine.Quaternion q, UnityEngine.Vector3 s, UnityEngine.Matrix4x4 ret)
+    // static private System.Void TRS_Injected(ref UnityEngine.Vector3 pos, ref UnityEngine.Quaternion q, ref UnityEngine.Vector3 s, out UnityEngine.Matrix4x4 ret)
     // Offset: 0x1411E1C
     static void TRS_Injected(UnityEngine::Vector3& pos, UnityEngine::Quaternion& q, UnityEngine::Vector3& s, UnityEngine::Matrix4x4& ret);
-    // static private System.Void Ortho_Injected(System.Single left, System.Single right, System.Single bottom, System.Single top, System.Single zNear, System.Single zFar, UnityEngine.Matrix4x4 ret)
+    // static private System.Void Ortho_Injected(System.Single left, System.Single right, System.Single bottom, System.Single top, System.Single zNear, System.Single zFar, out UnityEngine.Matrix4x4 ret)
     // Offset: 0x1411F78
     static void Ortho_Injected(float left, float right, float bottom, float top, float zNear, float zFar, UnityEngine::Matrix4x4& ret);
     // public override System.Int32 GetHashCode()

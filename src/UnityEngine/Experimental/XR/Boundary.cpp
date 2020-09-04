@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Experimental.XR.Boundary
 #include "UnityEngine/Experimental/XR/Boundary.hpp"
 // Including type: UnityEngine.Experimental.XR.Boundary/Type

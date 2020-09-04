@@ -197,7 +197,7 @@ namespace NUnit::Framework::Constraints {
     // static public System.String ClipString(System.String s, System.Int32 maxStringLength, System.Int32 clipStart)
     // Offset: 0x107B1A4
     static ::Il2CppString* ClipString(::Il2CppString* s, int maxStringLength, int clipStart);
-    // static public System.Void ClipExpectedAndActual(System.String expected, System.String actual, System.Int32 maxDisplayLength, System.Int32 mismatch)
+    // static public System.Void ClipExpectedAndActual(ref System.String expected, ref System.String actual, System.Int32 maxDisplayLength, System.Int32 mismatch)
     // Offset: 0x107B2EC
     static void ClipExpectedAndActual(::Il2CppString*& expected, ::Il2CppString*& actual, int maxDisplayLength, int mismatch);
     // static public System.Int32 FindMismatchPosition(System.String expected, System.String actual, System.Int32 istart, System.Boolean ignoreCase)

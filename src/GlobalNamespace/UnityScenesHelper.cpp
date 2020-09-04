@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityScenesHelper
 #include "GlobalNamespace/UnityScenesHelper.hpp"
 // Including type: UnityEngine.SceneManagement.Scene

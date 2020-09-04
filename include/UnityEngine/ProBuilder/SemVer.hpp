@@ -90,7 +90,7 @@ namespace UnityEngine::ProBuilder {
     // public System.String ToString(System.String format)
     // Offset: 0x1047354
     ::Il2CppString* ToString(::Il2CppString* format);
-    // static public System.Boolean TryGetVersionInfo(System.String input, UnityEngine.ProBuilder.SemVer version)
+    // static public System.Boolean TryGetVersionInfo(System.String input, out UnityEngine.ProBuilder.SemVer version)
     // Offset: 0x104670C
     static bool TryGetVersionInfo(::Il2CppString* input, UnityEngine::ProBuilder::SemVer*& version);
     // static private System.Int32 GetBuildNumber(System.String input)

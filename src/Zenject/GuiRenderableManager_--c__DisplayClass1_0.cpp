@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.GuiRenderableManager/<>c__DisplayClass1_0
 #include "Zenject/GuiRenderableManager_--c__DisplayClass1_0.hpp"
 // Including type: Zenject.IGuiRenderable

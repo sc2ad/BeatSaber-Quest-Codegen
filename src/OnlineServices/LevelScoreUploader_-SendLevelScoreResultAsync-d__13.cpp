@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OnlineServices.LevelScoreUploader/<SendLevelScoreResultAsync>d__13
 #include "OnlineServices/LevelScoreUploader_-SendLevelScoreResultAsync-d__13.hpp"
 // Including type: OnlineServices.PlatformServicesAvailabilityInfo

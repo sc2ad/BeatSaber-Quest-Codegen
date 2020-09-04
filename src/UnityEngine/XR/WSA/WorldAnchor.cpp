@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.XR.WSA.WorldAnchor
 #include "UnityEngine/XR/WSA/WorldAnchor.hpp"
 // Including type: UnityEngine.XR.WSA.WorldAnchor/OnTrackingChangedDelegate

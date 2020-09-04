@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: SteamVR_Utils
 #include "GlobalNamespace/SteamVR_Utils.hpp"
 // Including type: System.MulticastDelegate
@@ -33,9 +34,16 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFDBD28
     static SteamVR_Utils::SystemFn* New_ctor(::Il2CppObject* object, System::IntPtr method);
-    // public System.Object Invoke(Valve.VR.CVRSystem system, System.Object[] args)
+    // public System.Object Invoke(Valve.VR.CVRSystem system, params System.Object[] args)
     // Offset: 0xFD9018
     ::Il2CppObject* Invoke(Valve::VR::CVRSystem* system, ::Array<::Il2CppObject*>* args);
+    // Creating initializer_list -> params proxy for: System.Object Invoke(Valve.VR.CVRSystem system, params System.Object[] args)
+    ::Il2CppObject* Invoke(Valve::VR::CVRSystem* system, std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.Object Invoke(Valve.VR.CVRSystem system, params System.Object[] args)
+    template<class ...TParams>
+    ::Il2CppObject* Invoke(Valve::VR::CVRSystem* system, TParams&&... args) {
+      return Invoke(system, {args...});
+    }
     // public System.IAsyncResult BeginInvoke(Valve.VR.CVRSystem system, System.Object[] args, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFDBD3C
     System::IAsyncResult* BeginInvoke(Valve::VR::CVRSystem* system, ::Array<::Il2CppObject*>* args, System::AsyncCallback* callback, ::Il2CppObject* object);

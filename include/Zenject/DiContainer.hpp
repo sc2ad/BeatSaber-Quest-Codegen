@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: Zenject.IInstantiator
 #include "Zenject/IInstantiator.hpp"
 // Including type: Zenject.BindingId
@@ -135,9 +136,6 @@ namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
   template<typename TKey, typename TValue>
   class Dictionary_2;
-  // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
-  class Dictionary_2;
   // Forward declaring type: List`1<T>
   template<typename T>
   class List_1;
@@ -147,45 +145,9 @@ namespace System::Collections::Generic {
   // Forward declaring type: Queue`1<T>
   template<typename T>
   class Queue_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: HashSet`1<T>
-  template<typename T>
-  class HashSet_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
   // Forward declaring type: IEnumerable`1<T>
   template<typename T>
   class IEnumerable_1;
-  // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
-  class IEnumerable_1;
-  // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
-  class IEnumerable_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
-  class IEnumerable_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
-  class IEnumerable_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
 }
 // Forward declaring namespace: System
 namespace System {
@@ -533,13 +495,13 @@ namespace Zenject {
     // private System.Void InjectExplicitInternal(System.Object injectable, System.Type injectableType, System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgs, Zenject.InjectContext context, System.Object concreteIdentifier)
     // Offset: 0xD77148
     void InjectExplicitInternal(::Il2CppObject* injectable, System::Type* injectableType, System::Collections::Generic::List_1<Zenject::TypeValuePair>* extraArgs, Zenject::InjectContext* context, ::Il2CppObject* concreteIdentifier);
-    // UnityEngine.GameObject CreateAndParentPrefabResource(System.String resourcePath, Zenject.GameObjectCreationParameters gameObjectBindInfo, Zenject.InjectContext context, System.Boolean shouldMakeActive)
+    // UnityEngine.GameObject CreateAndParentPrefabResource(System.String resourcePath, Zenject.GameObjectCreationParameters gameObjectBindInfo, Zenject.InjectContext context, out System.Boolean shouldMakeActive)
     // Offset: 0xD77D98
     UnityEngine::GameObject* CreateAndParentPrefabResource(::Il2CppString* resourcePath, Zenject::GameObjectCreationParameters* gameObjectBindInfo, Zenject::InjectContext* context, bool& shouldMakeActive);
     // private UnityEngine.GameObject GetPrefabAsGameObject(UnityEngine.Object prefab)
     // Offset: 0xD782E4
     UnityEngine::GameObject* GetPrefabAsGameObject(UnityEngine::Object* prefab);
-    // UnityEngine.GameObject CreateAndParentPrefab(UnityEngine.Object prefab, Zenject.GameObjectCreationParameters gameObjectBindInfo, Zenject.InjectContext context, System.Boolean shouldMakeActive)
+    // UnityEngine.GameObject CreateAndParentPrefab(UnityEngine.Object prefab, Zenject.GameObjectCreationParameters gameObjectBindInfo, Zenject.InjectContext context, out System.Boolean shouldMakeActive)
     // Offset: 0xD77ED0
     UnityEngine::GameObject* CreateAndParentPrefab(UnityEngine::Object* prefab, Zenject::GameObjectCreationParameters* gameObjectBindInfo, Zenject::InjectContext* context, bool& shouldMakeActive);
     // public UnityEngine.GameObject CreateEmptyGameObject(Zenject.GameObjectCreationParameters gameObjectBindInfo, Zenject.InjectContext context)
@@ -760,9 +722,16 @@ namespace Zenject {
     Zenject::ConcreteIdBinderGeneric_1<TContract>* Bind(Zenject::BindStatement* bindStatement) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::ConcreteIdBinderGeneric_1<TContract>*>(this, "Bind", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, bindStatement)));
     }
-    // public Zenject.ConcreteIdBinderNonGeneric Bind(System.Type[] contractTypes)
+    // public Zenject.ConcreteIdBinderNonGeneric Bind(params System.Type[] contractTypes)
     // Offset: 0xD6EA64
     Zenject::ConcreteIdBinderNonGeneric* Bind(::Array<System::Type*>* contractTypes);
+    // Creating initializer_list -> params proxy for: Zenject.ConcreteIdBinderNonGeneric Bind(params System.Type[] contractTypes)
+    Zenject::ConcreteIdBinderNonGeneric* Bind(std::initializer_list<System::Type*> contractTypes);
+    // Creating TArgs -> initializer_list proxy for: Zenject.ConcreteIdBinderNonGeneric Bind(params System.Type[] contractTypes)
+    template<class ...TParams>
+    Zenject::ConcreteIdBinderNonGeneric* Bind(TParams&&... contractTypes) {
+      return Bind({contractTypes...});
+    }
     // public Zenject.ConcreteIdBinderNonGeneric Bind(System.Collections.Generic.IEnumerable`1<System.Type> contractTypes)
     // Offset: 0xD7AC54
     Zenject::ConcreteIdBinderNonGeneric* Bind(System::Collections::Generic::IEnumerable_1<System::Type*>* contractTypes);
@@ -796,9 +765,16 @@ namespace Zenject {
     Zenject::IdScopeConcreteIdArgConditionCopyNonLazyBinder* BindInstance(TContract instance) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::IdScopeConcreteIdArgConditionCopyNonLazyBinder*>(this, "BindInstance", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, instance)));
     }
-    // public System.Void BindInstances(System.Object[] instances)
+    // public System.Void BindInstances(params System.Object[] instances)
     // Offset: 0xD7B218
     void BindInstances(::Array<::Il2CppObject*>* instances);
+    // Creating initializer_list -> params proxy for: System.Void BindInstances(params System.Object[] instances)
+    void BindInstances(std::initializer_list<::Il2CppObject*> instances);
+    // Creating TArgs -> initializer_list proxy for: System.Void BindInstances(params System.Object[] instances)
+    template<class ...TParams>
+    void BindInstances(TParams&&... instances) {
+      BindInstances({instances...});
+    }
     // private Zenject.FactoryToChoiceIdBinder`1<TContract> BindFactoryInternal()
     // Offset: 0xFFFFFFFF
     template<class TContract, class TFactoryContract, class TFactoryConcrete>

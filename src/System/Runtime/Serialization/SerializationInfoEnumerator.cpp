@@ -45,5 +45,5 @@ void System::Runtime::Serialization::SerializationInfoEnumerator::Reset() {
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "Reset"));
 }
 void System::Runtime::Serialization::SerializationInfoEnumerator::System_Collections_IEnumerator_Reset() {
-  Reset();
+  System::Runtime::Serialization::SerializationInfoEnumerator::Reset();
 }

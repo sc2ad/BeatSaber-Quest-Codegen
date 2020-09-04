@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.HitReaction/HitPointBone/BoneLink
 #include "RootMotion/FinalIK/HitReaction_HitPointBone_BoneLink.hpp"
 // Including type: UnityEngine.Transform

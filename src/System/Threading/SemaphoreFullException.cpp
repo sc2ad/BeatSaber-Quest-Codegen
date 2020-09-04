@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Threading.SemaphoreFullException
 #include "System/Threading/SemaphoreFullException.hpp"
 // Including type: System.Runtime.Serialization.SerializationInfo

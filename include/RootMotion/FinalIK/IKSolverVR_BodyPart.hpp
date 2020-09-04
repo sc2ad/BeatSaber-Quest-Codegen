@@ -54,7 +54,7 @@ namespace RootMotion::FinalIK {
     // public System.Void PreSolve()
     // Offset: 0xFFFFFFFF
     void PreSolve();
-    // public System.Void Write(UnityEngine.Vector3[] solvedPositions, UnityEngine.Quaternion[] solvedRotations)
+    // public System.Void Write(ref UnityEngine.Vector3[] solvedPositions, ref UnityEngine.Quaternion[] solvedRotations)
     // Offset: 0xFFFFFFFF
     void Write(::Array<UnityEngine::Vector3>*& solvedPositions, ::Array<UnityEngine::Quaternion>*& solvedRotations);
     // public System.Void ApplyOffsets()

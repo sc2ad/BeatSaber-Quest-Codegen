@@ -20,7 +20,7 @@ namespace System::Runtime::InteropServices {
     constexpr operator bool() const noexcept {
       return inited;
     }
-    // public System.Void AcquirePointer(System.Byte* pointer)
+    // public System.Void AcquirePointer(ref System.Byte* pointer)
     // Offset: 0x1051C28
     void AcquirePointer(uint8_t*& pointer);
     // public System.Void ReleasePointer()

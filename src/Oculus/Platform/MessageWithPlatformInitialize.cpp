@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.MessageWithPlatformInitialize
 #include "Oculus/Platform/MessageWithPlatformInitialize.hpp"
 // Including type: Oculus.Platform.Models.PlatformInitialize

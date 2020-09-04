@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.Remoting.Lifetime.LeaseState
 #include "System/Runtime/Remoting/Lifetime/LeaseState.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

@@ -27,7 +27,7 @@ namespace UnityEngine {
     // public System.Void set_connectedAnchor(UnityEngine.Vector3 value)
     // Offset: 0x19635A8
     void set_connectedAnchor(UnityEngine::Vector3 value);
-    // private System.Void set_connectedAnchor_Injected(UnityEngine.Vector3 value)
+    // private System.Void set_connectedAnchor_Injected(ref UnityEngine.Vector3 value)
     // Offset: 0x1963600
     void set_connectedAnchor_Injected(UnityEngine::Vector3& value);
   }; // UnityEngine.Joint

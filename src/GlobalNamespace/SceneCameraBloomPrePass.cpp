@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: SceneCameraBloomPrePass
 #include "GlobalNamespace/SceneCameraBloomPrePass.hpp"
 // Including type: BloomPrePassRendererSO

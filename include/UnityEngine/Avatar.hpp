@@ -37,7 +37,7 @@ namespace UnityEngine {
     // UnityEngine.Quaternion Internal_GetPostRotation(System.Int32 humanId)
     // Offset: 0x1941B84
     UnityEngine::Quaternion Internal_GetPostRotation(int humanId);
-    // private System.Void Internal_GetPostRotation_Injected(System.Int32 humanId, UnityEngine.Quaternion ret)
+    // private System.Void Internal_GetPostRotation_Injected(System.Int32 humanId, out UnityEngine.Quaternion ret)
     // Offset: 0x1941BF0
     void Internal_GetPostRotation_Injected(int humanId, UnityEngine::Quaternion& ret);
     // private System.Void .ctor()

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.MeshOperations.MeshValidation/<>c__DisplayClass5_0
 #include "UnityEngine/ProBuilder/MeshOperations/MeshValidation_--c__DisplayClass5_0.hpp"
 // Including type: System.Func`2

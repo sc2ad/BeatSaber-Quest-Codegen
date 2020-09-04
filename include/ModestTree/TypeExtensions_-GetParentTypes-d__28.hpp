@@ -46,7 +46,7 @@ namespace ModestTree {
     // private System.Collections.Generic.IEnumerator`1<System.Type> <>7__wrap1
     // Offset: 0x38
     System::Collections::Generic::IEnumerator_1<System::Type*>* $$7__wrap1;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xD634B4
     static TypeExtensions::$GetParentTypes$d__28* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()

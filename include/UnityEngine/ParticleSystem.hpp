@@ -63,19 +63,19 @@ namespace UnityEngine {
     // public System.Void set_useAutoRandomSeed(System.Boolean value)
     // Offset: 0x196E054
     void set_useAutoRandomSeed(bool value);
-    // public System.Void SetParticles(UnityEngine.ParticleSystem/Particle[] particles, System.Int32 size, System.Int32 offset)
+    // public System.Void SetParticles(out UnityEngine.ParticleSystem/Particle[] particles, System.Int32 size, System.Int32 offset)
     // Offset: 0x196E0A4
     void SetParticles(::Array<UnityEngine::ParticleSystem::Particle>*& particles, int size, int offset);
-    // public System.Void SetParticles(UnityEngine.ParticleSystem/Particle[] particles, System.Int32 size)
+    // public System.Void SetParticles(out UnityEngine.ParticleSystem/Particle[] particles, System.Int32 size)
     // Offset: 0x196E10C
     void SetParticles(::Array<UnityEngine::ParticleSystem::Particle>*& particles, int size);
-    // public System.Int32 GetParticles(UnityEngine.ParticleSystem/Particle[] particles, System.Int32 size, System.Int32 offset)
+    // public System.Int32 GetParticles(out UnityEngine.ParticleSystem/Particle[] particles, System.Int32 size, System.Int32 offset)
     // Offset: 0x196E168
     int GetParticles(::Array<UnityEngine::ParticleSystem::Particle>*& particles, int size, int offset);
-    // public System.Int32 GetParticles(UnityEngine.ParticleSystem/Particle[] particles, System.Int32 size)
+    // public System.Int32 GetParticles(out UnityEngine.ParticleSystem/Particle[] particles, System.Int32 size)
     // Offset: 0x196E1D0
     int GetParticles(::Array<UnityEngine::ParticleSystem::Particle>*& particles, int size);
-    // public System.Int32 GetParticles(UnityEngine.ParticleSystem/Particle[] particles)
+    // public System.Int32 GetParticles(out UnityEngine.ParticleSystem/Particle[] particles)
     // Offset: 0x196E22C
     int GetParticles(::Array<UnityEngine::ParticleSystem::Particle>*& particles);
     // public System.Void Simulate(System.Single t, System.Boolean withChildren, System.Boolean restart, System.Boolean fixedTimeStep)
@@ -102,7 +102,7 @@ namespace UnityEngine {
     // public System.Void Emit(UnityEngine.ParticleSystem/EmitParams emitParams, System.Int32 count)
     // Offset: 0x196E4F4
     void Emit(UnityEngine::ParticleSystem::EmitParams emitParams, int count);
-    // private System.Void EmitOld_Internal(UnityEngine.ParticleSystem/Particle particle)
+    // private System.Void EmitOld_Internal(ref UnityEngine.ParticleSystem/Particle particle)
     // Offset: 0x196DE64
     void EmitOld_Internal(UnityEngine::ParticleSystem::Particle& particle);
     // public UnityEngine.ParticleSystem/MainModule get_main()
@@ -117,7 +117,7 @@ namespace UnityEngine {
     // public UnityEngine.ParticleSystem/ForceOverLifetimeModule get_forceOverLifetime()
     // Offset: 0x196E640
     UnityEngine::ParticleSystem::ForceOverLifetimeModule get_forceOverLifetime();
-    // private System.Void Emit_Injected(UnityEngine.ParticleSystem/EmitParams emitParams, System.Int32 count)
+    // private System.Void Emit_Injected(ref UnityEngine.ParticleSystem/EmitParams emitParams, System.Int32 count)
     // Offset: 0x196E54C
     void Emit_Injected(UnityEngine::ParticleSystem::EmitParams& emitParams, int count);
   }; // UnityEngine.ParticleSystem

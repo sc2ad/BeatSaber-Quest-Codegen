@@ -62,22 +62,22 @@ namespace UnityEngine::Animations {
     // System.Void SetLoopTime(System.Boolean value)
     // Offset: 0xA5DAEC
     void SetLoopTime(bool value);
-    // static private System.Boolean CreateHandleInternal(UnityEngine.Playables.PlayableGraph graph, UnityEngine.AnimationClip clip, UnityEngine.Playables.PlayableHandle handle)
+    // static private System.Boolean CreateHandleInternal(UnityEngine.Playables.PlayableGraph graph, UnityEngine.AnimationClip clip, ref UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0x193DF38
     static bool CreateHandleInternal(UnityEngine::Playables::PlayableGraph graph, UnityEngine::AnimationClip* clip, UnityEngine::Playables::PlayableHandle& handle);
-    // static private System.Void SetApplyFootIKInternal(UnityEngine.Playables.PlayableHandle handle, System.Boolean value)
+    // static private System.Void SetApplyFootIKInternal(ref UnityEngine.Playables.PlayableHandle handle, System.Boolean value)
     // Offset: 0x193E0B8
     static void SetApplyFootIKInternal(UnityEngine::Playables::PlayableHandle& handle, bool value);
-    // static private System.Void SetRemoveStartOffsetInternal(UnityEngine.Playables.PlayableHandle handle, System.Boolean value)
+    // static private System.Void SetRemoveStartOffsetInternal(ref UnityEngine.Playables.PlayableHandle handle, System.Boolean value)
     // Offset: 0x193E158
     static void SetRemoveStartOffsetInternal(UnityEngine::Playables::PlayableHandle& handle, bool value);
-    // static private System.Void SetOverrideLoopTimeInternal(UnityEngine.Playables.PlayableHandle handle, System.Boolean value)
+    // static private System.Void SetOverrideLoopTimeInternal(ref UnityEngine.Playables.PlayableHandle handle, System.Boolean value)
     // Offset: 0x193E1F8
     static void SetOverrideLoopTimeInternal(UnityEngine::Playables::PlayableHandle& handle, bool value);
-    // static private System.Void SetLoopTimeInternal(UnityEngine.Playables.PlayableHandle handle, System.Boolean value)
+    // static private System.Void SetLoopTimeInternal(ref UnityEngine.Playables.PlayableHandle handle, System.Boolean value)
     // Offset: 0x193E298
     static void SetLoopTimeInternal(UnityEngine::Playables::PlayableHandle& handle, bool value);
-    // static private System.Boolean CreateHandleInternal_Injected(UnityEngine.Playables.PlayableGraph graph, UnityEngine.AnimationClip clip, UnityEngine.Playables.PlayableHandle handle)
+    // static private System.Boolean CreateHandleInternal_Injected(ref UnityEngine.Playables.PlayableGraph graph, UnityEngine.AnimationClip clip, ref UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0x193E2E8
     static bool CreateHandleInternal_Injected(UnityEngine::Playables::PlayableGraph& graph, UnityEngine::AnimationClip* clip, UnityEngine::Playables::PlayableHandle& handle);
     // public UnityEngine.Playables.PlayableHandle GetHandle()

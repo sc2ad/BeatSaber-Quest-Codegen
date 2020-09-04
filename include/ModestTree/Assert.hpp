@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -174,12 +175,26 @@ namespace ModestTree {
     // static public Zenject.ZenjectException CreateException(System.String message)
     // Offset: 0xD604DC
     static Zenject::ZenjectException* CreateException(::Il2CppString* message);
-    // static public Zenject.ZenjectException CreateException(System.String message, System.Object[] parameters)
+    // static public Zenject.ZenjectException CreateException(System.String message, params System.Object[] parameters)
     // Offset: 0xD607A4
     static Zenject::ZenjectException* CreateException(::Il2CppString* message, ::Array<::Il2CppObject*>* parameters);
-    // static public Zenject.ZenjectException CreateException(System.Exception innerException, System.String message, System.Object[] parameters)
+    // Creating initializer_list -> params proxy for: Zenject.ZenjectException CreateException(System.String message, params System.Object[] parameters)
+    static Zenject::ZenjectException* CreateException(::Il2CppString* message, std::initializer_list<::Il2CppObject*> parameters);
+    // Creating TArgs -> initializer_list proxy for: Zenject.ZenjectException CreateException(System.String message, params System.Object[] parameters)
+    template<class ...TParams>
+    static Zenject::ZenjectException* CreateException(::Il2CppString* message, TParams&&... parameters) {
+      return CreateException(message, {parameters...});
+    }
+    // static public Zenject.ZenjectException CreateException(System.Exception innerException, System.String message, params System.Object[] parameters)
     // Offset: 0xD61FDC
     static Zenject::ZenjectException* CreateException(System::Exception* innerException, ::Il2CppString* message, ::Array<::Il2CppObject*>* parameters);
+    // Creating initializer_list -> params proxy for: Zenject.ZenjectException CreateException(System.Exception innerException, System.String message, params System.Object[] parameters)
+    static Zenject::ZenjectException* CreateException(System::Exception* innerException, ::Il2CppString* message, std::initializer_list<::Il2CppObject*> parameters);
+    // Creating TArgs -> initializer_list proxy for: Zenject.ZenjectException CreateException(System.Exception innerException, System.String message, params System.Object[] parameters)
+    template<class ...TParams>
+    static Zenject::ZenjectException* CreateException(System::Exception* innerException, ::Il2CppString* message, TParams&&... parameters) {
+      return CreateException(innerException, message, {parameters...});
+    }
   }; // ModestTree.Assert
 }
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::Assert*, "ModestTree", "Assert");

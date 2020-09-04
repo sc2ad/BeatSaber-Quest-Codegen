@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: NUnit.Framework.Constraints.MessageWriter
 #include "NUnit/Framework/Constraints/MessageWriter.hpp"
 // Completed includes
@@ -46,9 +47,16 @@ namespace NUnit::Framework::Internal {
     static int _get_PrefixLength();
     // Set static field: static public readonly System.Int32 PrefixLength
     static void _set_PrefixLength(int value);
-    // public System.Void .ctor(System.String userMessage, System.Object[] args)
+    // public System.Void .ctor(System.String userMessage, params System.Object[] args)
     // Offset: 0x18FA114
     static TextMessageWriter* New_ctor(::Il2CppString* userMessage, ::Array<::Il2CppObject*>* args);
+    // Creating initializer_list -> params proxy for: System.Void .ctor(System.String userMessage, params System.Object[] args)
+    static TextMessageWriter* New_ctor(::Il2CppString* userMessage, std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.Void .ctor(System.String userMessage, params System.Object[] args)
+    template<class ...TParams>
+    static TextMessageWriter* New_ctor(::Il2CppString* userMessage, TParams&&... args) {
+      return New_ctor(userMessage, {args...});
+    }
     // private System.Void WriteExpectedLine(NUnit.Framework.Constraints.ConstraintResult result)
     // Offset: 0x18FA328
     void WriteExpectedLine(NUnit::Framework::Constraints::ConstraintResult* result);
@@ -72,11 +80,18 @@ namespace NUnit::Framework::Internal {
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Int32 MessageWriter::get_MaxLineLength()
     int get_MaxLineLength();
-    // public override System.Void WriteMessageLine(System.Int32 level, System.String message, System.Object[] args)
+    // public override System.Void WriteMessageLine(System.Int32 level, System.String message, params System.Object[] args)
     // Offset: 0x18FA1F0
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
-    // Base method: System.Void MessageWriter::WriteMessageLine(System.Int32 level, System.String message, System.Object[] args)
+    // Base method: System.Void MessageWriter::WriteMessageLine(System.Int32 level, System.String message, params System.Object[] args)
     void WriteMessageLine(int level, ::Il2CppString* message, ::Array<::Il2CppObject*>* args);
+    // Creating initializer_list -> params proxy for: System.Void WriteMessageLine(System.Int32 level, System.String message, params System.Object[] args)
+    void WriteMessageLine(int level, ::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.Void WriteMessageLine(System.Int32 level, System.String message, params System.Object[] args)
+    template<class ...TParams>
+    void WriteMessageLine(int level, ::Il2CppString* message, TParams&&... args) {
+      WriteMessageLine(level, message, {args...});
+    }
     // public override System.Void DisplayDifferences(NUnit.Framework.Constraints.ConstraintResult result)
     // Offset: 0x18FA2FC
     // Implemented from: NUnit.Framework.Constraints.MessageWriter

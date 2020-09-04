@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: Zenject.CopyNonLazyBinder
 #include "Zenject/CopyNonLazyBinder.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
@@ -47,9 +48,16 @@ namespace Zenject {
     // public Zenject.CopyNonLazyBinder WhenInjectedIntoInstance(System.Object instance)
     // Offset: 0xD6CCF0
     Zenject::CopyNonLazyBinder* WhenInjectedIntoInstance(::Il2CppObject* instance);
-    // public Zenject.CopyNonLazyBinder WhenInjectedInto(System.Type[] targets)
+    // public Zenject.CopyNonLazyBinder WhenInjectedInto(params System.Type[] targets)
     // Offset: 0xD6CDC8
     Zenject::CopyNonLazyBinder* WhenInjectedInto(::Array<System::Type*>* targets);
+    // Creating initializer_list -> params proxy for: Zenject.CopyNonLazyBinder WhenInjectedInto(params System.Type[] targets)
+    Zenject::CopyNonLazyBinder* WhenInjectedInto(std::initializer_list<System::Type*> targets);
+    // Creating TArgs -> initializer_list proxy for: Zenject.CopyNonLazyBinder WhenInjectedInto(params System.Type[] targets)
+    template<class ...TParams>
+    Zenject::CopyNonLazyBinder* WhenInjectedInto(TParams&&... targets) {
+      return WhenInjectedInto({targets...});
+    }
     // public Zenject.CopyNonLazyBinder WhenInjectedInto()
     // Offset: 0xFFFFFFFF
     template<class T>

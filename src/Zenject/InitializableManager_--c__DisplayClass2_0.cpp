@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.InitializableManager/<>c__DisplayClass2_0
 #include "Zenject/InitializableManager_--c__DisplayClass2_0.hpp"
 // Including type: Zenject.IInitializable

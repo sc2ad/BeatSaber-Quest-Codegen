@@ -65,7 +65,7 @@ namespace System::Reflection {
     // private System.Type reftype
     // Offset: 0x20
     System::Type* reftype;
-    // System.Object InternalInvoke(System.Object obj, System.Object[] parameters, System.Exception exc)
+    // System.Object InternalInvoke(System.Object obj, System.Object[] parameters, out System.Exception exc)
     // Offset: 0x1151D10
     ::Il2CppObject* InternalInvoke(::Il2CppObject* obj, ::Array<::Il2CppObject*>* parameters, System::Exception*& exc);
     // private System.Object DoInvoke(System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture)

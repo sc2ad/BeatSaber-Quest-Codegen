@@ -233,5 +233,5 @@ void UnityEngine::Networking::UnityWebRequest::Dispose() {
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose"));
 }
 void UnityEngine::Networking::UnityWebRequest::System_IDisposable_Dispose() {
-  Dispose();
+  UnityEngine::Networking::UnityWebRequest::Dispose();
 }

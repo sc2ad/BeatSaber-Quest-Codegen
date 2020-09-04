@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.Remoting.Messaging.EnvoyTerminatorSink
 #include "System/Runtime/Remoting/Messaging/EnvoyTerminatorSink.hpp"
 // Including type: System.Runtime.Remoting.Messaging.IMessage

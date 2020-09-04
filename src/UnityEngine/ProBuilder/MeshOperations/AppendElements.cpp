@@ -13,18 +13,18 @@
 #include "UnityEngine/ProBuilder/Face.hpp"
 // Including type: UnityEngine.ProBuilder.ProBuilderMesh
 #include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
-// Including type: System.Collections.Generic.IList`1
-#include "System/Collections/Generic/IList_1.hpp"
+// Including type: UnityEngine.ProBuilder.FaceRebuildData
+#include "UnityEngine/ProBuilder/FaceRebuildData.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
+// Including type: System.Collections.Generic.IList`1
+#include "System/Collections/Generic/IList_1.hpp"
 // Including type: UnityEngine.ProBuilder.ActionResult
 #include "UnityEngine/ProBuilder/ActionResult.hpp"
 // Including type: UnityEngine.ProBuilder.PolyShape
 #include "UnityEngine/ProBuilder/PolyShape.hpp"
-// Including type: UnityEngine.ProBuilder.FaceRebuildData
-#include "UnityEngine/ProBuilder/FaceRebuildData.hpp"
 // Including type: System.Collections.Generic.List`1
 #include "System/Collections/Generic/List_1.hpp"
 // Including type: UnityEngine.ProBuilder.Vertex

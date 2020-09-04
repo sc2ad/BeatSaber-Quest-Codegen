@@ -27,5 +27,5 @@ void System::Security::Cryptography::OidEnumerator::Reset() {
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "Reset"));
 }
 void System::Security::Cryptography::OidEnumerator::System_Collections_IEnumerator_Reset() {
-  Reset();
+  System::Security::Cryptography::OidEnumerator::Reset();
 }

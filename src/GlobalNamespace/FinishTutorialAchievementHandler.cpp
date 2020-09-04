@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: FinishTutorialAchievementHandler
 #include "GlobalNamespace/FinishTutorialAchievementHandler.hpp"
 // Including type: AchievementsModelSO

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.FactoryFromBinder6Extensions
 #include "Zenject/FactoryFromBinder6Extensions.hpp"
 // Including type: Zenject.FactoryFromBinder6Extensions/<>c__DisplayClass0_0`7

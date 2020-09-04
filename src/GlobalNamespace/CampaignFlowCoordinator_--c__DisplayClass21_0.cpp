@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: CampaignFlowCoordinator/<>c__DisplayClass21_0
 #include "GlobalNamespace/CampaignFlowCoordinator_--c__DisplayClass21_0.hpp"
 // Including type: MissionResultsViewController

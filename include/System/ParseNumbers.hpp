@@ -30,7 +30,7 @@ namespace System {
     // static public System.String IntToString(System.Int32 value, System.Int32 toBase, System.Int32 width, System.Char paddingChar, System.Int32 flags)
     // Offset: 0x1365FAC
     static ::Il2CppString* IntToString(int value, int toBase, int width, ::Il2CppChar paddingChar, int flags);
-    // static private System.Void EndianSwap(System.Byte[] value)
+    // static private System.Void EndianSwap(ref System.Byte[] value)
     // Offset: 0x136669C
     static void EndianSwap(::Array<uint8_t>*& value);
     // static private System.Text.StringBuilder ConvertToBase2(System.Byte[] value)

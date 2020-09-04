@@ -14,9 +14,6 @@ namespace System::Collections::Generic {
   // Forward declaring type: Queue`1<T>
   template<typename T>
   class Queue_1;
-  // Forward declaring type: Queue`1<T>
-  template<typename T>
-  class Queue_1;
 }
 // Completed forward declares
 // Type namespace: 

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.PositionAsUV1
 #include "UnityEngine/UI/PositionAsUV1.hpp"
 // Including type: UnityEngine.UI.VertexHelper

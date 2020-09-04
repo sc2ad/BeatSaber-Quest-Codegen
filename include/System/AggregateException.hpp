@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: System.Exception
 #include "System/Exception.hpp"
 // Completed includes
@@ -17,12 +18,6 @@ namespace System::Collections::ObjectModel {
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
-  // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
-  class IEnumerable_1;
-  // Forward declaring type: IList`1<T>
-  template<typename T>
-  class IList_1;
   // Forward declaring type: IEnumerable`1<T>
   template<typename T>
   class IEnumerable_1;
@@ -58,15 +53,29 @@ namespace System {
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<System.Exception> innerExceptions)
     // Offset: 0x10BD1B4
     static AggregateException* New_ctor(System::Collections::Generic::IEnumerable_1<System::Exception*>* innerExceptions);
-    // public System.Void .ctor(System.Exception[] innerExceptions)
+    // public System.Void .ctor(params System.Exception[] innerExceptions)
     // Offset: 0x10BD2D4
     static AggregateException* New_ctor(::Array<System::Exception*>* innerExceptions);
+    // Creating initializer_list -> params proxy for: System.Void .ctor(params System.Exception[] innerExceptions)
+    static AggregateException* New_ctor(std::initializer_list<System::Exception*> innerExceptions);
+    // Creating TArgs -> initializer_list proxy for: System.Void .ctor(params System.Exception[] innerExceptions)
+    template<class ...TParams>
+    static AggregateException* New_ctor(TParams&&... innerExceptions) {
+      return New_ctor({innerExceptions...});
+    }
     // public System.Void .ctor(System.String message, System.Collections.Generic.IEnumerable`1<System.Exception> innerExceptions)
     // Offset: 0x10BD220
     static AggregateException* New_ctor(::Il2CppString* message, System::Collections::Generic::IEnumerable_1<System::Exception*>* innerExceptions);
-    // public System.Void .ctor(System.String message, System.Exception[] innerExceptions)
+    // public System.Void .ctor(System.String message, params System.Exception[] innerExceptions)
     // Offset: 0x10BD340
     static AggregateException* New_ctor(::Il2CppString* message, ::Array<System::Exception*>* innerExceptions);
+    // Creating initializer_list -> params proxy for: System.Void .ctor(System.String message, params System.Exception[] innerExceptions)
+    static AggregateException* New_ctor(::Il2CppString* message, std::initializer_list<System::Exception*> innerExceptions);
+    // Creating TArgs -> initializer_list proxy for: System.Void .ctor(System.String message, params System.Exception[] innerExceptions)
+    template<class ...TParams>
+    static AggregateException* New_ctor(::Il2CppString* message, TParams&&... innerExceptions) {
+      return New_ctor(message, {innerExceptions...});
+    }
     // private System.Void .ctor(System.String message, System.Collections.Generic.IList`1<System.Exception> innerExceptions)
     // Offset: 0x10BD344
     static AggregateException* New_ctor(::Il2CppString* message, System::Collections::Generic::IList_1<System::Exception*>* innerExceptions);

@@ -74,10 +74,10 @@ namespace UnityEngine {
     // public System.Void RemoveCommandBuffer(UnityEngine.Rendering.LightEvent evt, UnityEngine.Rendering.CommandBuffer buffer)
     // Offset: 0x13166D0
     void RemoveCommandBuffer(UnityEngine::Rendering::LightEvent evt, UnityEngine::Rendering::CommandBuffer* buffer);
-    // private System.Void get_color_Injected(UnityEngine.Color ret)
+    // private System.Void get_color_Injected(out UnityEngine.Color ret)
     // Offset: 0x13164C4
     void get_color_Injected(UnityEngine::Color& ret);
-    // private System.Void set_color_Injected(UnityEngine.Color value)
+    // private System.Void set_color_Injected(ref UnityEngine.Color value)
     // Offset: 0x131656C
     void set_color_Injected(UnityEngine::Color& value);
   }; // UnityEngine.Light

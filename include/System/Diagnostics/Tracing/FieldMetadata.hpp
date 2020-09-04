@@ -50,7 +50,7 @@ namespace System::Diagnostics::Tracing {
     // public System.Void IncrementStructFieldCount()
     // Offset: 0xD977C8
     void IncrementStructFieldCount();
-    // public System.Void Encode(System.Int32 pos, System.Byte[] metadata)
+    // public System.Void Encode(ref System.Int32 pos, System.Byte[] metadata)
     // Offset: 0xD97868
     void Encode(int& pos, ::Array<uint8_t>* metadata);
   }; // System.Diagnostics.Tracing.FieldMetadata

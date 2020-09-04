@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // public TutorialSongController <>4__this
     // Offset: 0x20
     GlobalNamespace::TutorialSongController* $$4__this;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xC4B6D8
     static TutorialSongController::$StartSongCoroutine$d__37* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

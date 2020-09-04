@@ -41,7 +41,7 @@ namespace OVR::OpenVR {
     // public System.Void .ctor(OVR.OpenVR.RenderModel_t unpacked)
     // Offset: 0xA2DB48
     static RenderModel_t_Packed* New_ctor(OVR::OpenVR::RenderModel_t unpacked);
-    // public System.Void Unpack(OVR.OpenVR.RenderModel_t unpacked)
+    // public System.Void Unpack(ref OVR.OpenVR.RenderModel_t unpacked)
     // Offset: 0xA2DB68
     void Unpack(OVR::OpenVR::RenderModel_t& unpacked);
   }; // OVR.OpenVR.RenderModel_t_Packed

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: HMUI.HoverHintController
 #include "HMUI/HoverHintController.hpp"
 // Including type: HMUI.HoverHintController/<ShowHintAfterDelay>d__10

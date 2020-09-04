@@ -35,7 +35,7 @@ namespace RootMotion::FinalIK {
     // public System.Int32[] children
     // Offset: 0x20
     ::Array<int>* children;
-    // public System.Boolean IsValid(System.String message)
+    // public System.Boolean IsValid(ref System.String message)
     // Offset: 0x13AF7EC
     bool IsValid(::Il2CppString*& message);
     // public System.Void Initiate()

@@ -57,7 +57,7 @@ namespace HMUI {
     // private System.Single <elapsedTime>5__6
     // Offset: 0x50
     float $elapsedTime$5__6;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0x10ECC08
     static ViewController::$DismissViewControllerCoroutine$d__51* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

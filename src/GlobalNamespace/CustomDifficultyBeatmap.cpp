@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: CustomDifficultyBeatmap
 #include "GlobalNamespace/CustomDifficultyBeatmap.hpp"
 // Including type: IBeatmapLevel

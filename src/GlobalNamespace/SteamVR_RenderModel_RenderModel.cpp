@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: SteamVR_RenderModel/RenderModel
 #include "GlobalNamespace/SteamVR_RenderModel_RenderModel.hpp"
 // Including type: UnityEngine.Mesh

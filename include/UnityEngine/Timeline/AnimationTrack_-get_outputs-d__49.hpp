@@ -37,7 +37,7 @@ namespace UnityEngine::Timeline {
     // public UnityEngine.Timeline.AnimationTrack <>4__this
     // Offset: 0x40
     UnityEngine::Timeline::AnimationTrack* $$4__this;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0x1091740
     static AnimationTrack::$get_outputs$d__49* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

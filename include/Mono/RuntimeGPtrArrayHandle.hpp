@@ -46,7 +46,7 @@ namespace Mono {
     // static private System.Void GPtrArrayFree(Mono.RuntimeStructs/GPtrArray* value)
     // Offset: 0x10B96CC
     static void GPtrArrayFree(Mono::RuntimeStructs::GPtrArray* value);
-    // static System.Void DestroyAndFree(Mono.RuntimeGPtrArrayHandle h)
+    // static System.Void DestroyAndFree(ref Mono.RuntimeGPtrArrayHandle h)
     // Offset: 0x10B96D0
     static void DestroyAndFree(Mono::RuntimeGPtrArrayHandle& h);
   }; // Mono.RuntimeGPtrArrayHandle

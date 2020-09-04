@@ -12,3 +12,7 @@
 SFB::ExtensionFilter* SFB::ExtensionFilter::New_ctor(::Il2CppString* filterName, ::Array<::Il2CppString*>* filterExtensions) {
   return (ExtensionFilter*)THROW_UNLESS(il2cpp_utils::New("SFB", "ExtensionFilter", filterName, filterExtensions));
 }
+// Creating initializer_list -> params proxy for: System.Void .ctor(System.String filterName, params System.String[] filterExtensions)
+SFB::ExtensionFilter* SFB::ExtensionFilter::New_ctor(::Il2CppString* filterName, std::initializer_list<::Il2CppString*> filterExtensions) {
+  return SFB::ExtensionFilter::New_ctor(filterName, ::Array<::Il2CppString*>::New(filterExtensions));
+}

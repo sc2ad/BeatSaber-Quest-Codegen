@@ -42,7 +42,7 @@ namespace UnityEngine {
     // public System.Void .ctor(System.String text, UnityEngine.TouchScreenKeyboardType keyboardType, System.Boolean autocorrection, System.Boolean multiline, System.Boolean secure, System.Boolean alert, System.String textPlaceholder, System.Int32 characterLimit)
     // Offset: 0x13974B4
     static TouchScreenKeyboard* New_ctor(::Il2CppString* text, UnityEngine::TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure, bool alert, ::Il2CppString* textPlaceholder, int characterLimit);
-    // static private System.IntPtr TouchScreenKeyboard_InternalConstructorHelper(UnityEngine.TouchScreenKeyboard_InternalConstructorHelperArguments arguments, System.String text, System.String textPlaceholder)
+    // static private System.IntPtr TouchScreenKeyboard_InternalConstructorHelper(ref UnityEngine.TouchScreenKeyboard_InternalConstructorHelperArguments arguments, System.String text, System.String textPlaceholder)
     // Offset: 0x1397618
     static System::IntPtr TouchScreenKeyboard_InternalConstructorHelper(UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments& arguments, ::Il2CppString* text, ::Il2CppString* textPlaceholder);
     // static public System.Boolean get_isSupported()
@@ -90,7 +90,7 @@ namespace UnityEngine {
     // public System.Void set_selection(UnityEngine.RangeInt value)
     // Offset: 0x1397B54
     void set_selection(UnityEngine::RangeInt value);
-    // static private System.Void GetSelection(System.Int32 start, System.Int32 length)
+    // static private System.Void GetSelection(out System.Int32 start, out System.Int32 length)
     // Offset: 0x1397B04
     static void GetSelection(int& start, int& length);
     // static private System.Void SetSelection(System.Int32 start, System.Int32 length)

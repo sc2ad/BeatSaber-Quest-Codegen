@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.FBBIKHeadEffector/BendBone
 #include "RootMotion/FinalIK/FBBIKHeadEffector_BendBone.hpp"
 // Including type: UnityEngine.Transform

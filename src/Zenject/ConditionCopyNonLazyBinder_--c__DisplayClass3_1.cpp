@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.ConditionCopyNonLazyBinder/<>c__DisplayClass3_1
 #include "Zenject/ConditionCopyNonLazyBinder_--c__DisplayClass3_1.hpp"
 // Including type: Zenject.InjectContext

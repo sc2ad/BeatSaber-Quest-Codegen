@@ -113,9 +113,6 @@ namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
   template<typename TKey, typename TValue>
   class Dictionary_2;
-  // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
-  class Dictionary_2;
 }
 // Completed forward declares
 // Type namespace: Oculus.Platform
@@ -196,7 +193,7 @@ namespace Oculus::Platform {
     // static public System.Boolean ovr_UnityInitWrapperStandalone(System.String accessToken, System.IntPtr loggingCB)
     // Offset: 0x159CDA0
     static bool ovr_UnityInitWrapperStandalone(::Il2CppString* accessToken, System::IntPtr loggingCB);
-    // static public System.UInt64 ovr_Platform_InitializeStandaloneOculus(Oculus.Platform.CAPI/OculusInitParams init)
+    // static public System.UInt64 ovr_Platform_InitializeStandaloneOculus(ref Oculus.Platform.CAPI/OculusInitParams init)
     // Offset: 0x159CE4C
     static uint64_t ovr_Platform_InitializeStandaloneOculus(Oculus::Platform::CAPI::OculusInitParams& init);
     // static public System.UInt64 ovr_PlatformInitializeWithAccessToken(System.UInt64 appId, System.String accessToken)
@@ -304,7 +301,7 @@ namespace Oculus::Platform {
     // static public System.UIntPtr ovr_NetSync_GetAmbisonicInterleavedInt16PCM(System.Int64 connection_id, System.Int16[] outputBuffer, System.UIntPtr outputBufferNumElements)
     // Offset: 0x159E3E8
     static System::UIntPtr ovr_NetSync_GetAmbisonicInterleavedInt16PCM(int64_t connection_id, ::Array<int16_t>* outputBuffer, System::UIntPtr outputBufferNumElements);
-    // static public System.Boolean ovr_NetSync_GetListenerPosition(System.Int64 connection_id, System.UInt64 sessionId, Oculus.Platform.CAPI/ovrNetSyncVec3 position)
+    // static public System.Boolean ovr_NetSync_GetListenerPosition(System.Int64 connection_id, System.UInt64 sessionId, ref Oculus.Platform.CAPI/ovrNetSyncVec3 position)
     // Offset: 0x159E488
     static bool ovr_NetSync_GetListenerPosition(int64_t connection_id, uint64_t sessionId, Oculus::Platform::CAPI::ovrNetSyncVec3& position);
     // static public System.UIntPtr ovr_NetSync_GetMonostreamFloatPCM(System.Int64 connection_id, System.UInt64 sessionId, System.Single[] outputBuffer, System.UIntPtr outputBufferNumElements)
@@ -316,7 +313,7 @@ namespace Oculus::Platform {
     // static public System.UIntPtr ovr_NetSync_GetPcmBufferMaxSamples()
     // Offset: 0x159E688
     static System::UIntPtr ovr_NetSync_GetPcmBufferMaxSamples();
-    // static public System.Void ovr_NetSync_SetListenerPosition(System.Int64 connection_id, Oculus.Platform.CAPI/ovrNetSyncVec3 position)
+    // static public System.Void ovr_NetSync_SetListenerPosition(System.Int64 connection_id, ref Oculus.Platform.CAPI/ovrNetSyncVec3 position)
     // Offset: 0x159E6FC
     static void ovr_NetSync_SetListenerPosition(int64_t connection_id, Oculus::Platform::CAPI::ovrNetSyncVec3& position);
     // static public System.Void ovr_Net_Accept(System.UInt64 peerID)

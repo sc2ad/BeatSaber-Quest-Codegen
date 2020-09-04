@@ -38,7 +38,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // private System.Collections.IEnumerator <>7__wrap1
     // Offset: 0x30
     System::Collections::IEnumerator* $$7__wrap1;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xE30A8C
     static CompositeWorkItem::$PerformWork$d__12* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()

@@ -52,7 +52,7 @@ namespace System::Diagnostics::Tracing {
     // private System.Diagnostics.Tracing.ActivityFilter <af>5__1
     // Offset: 0x50
     System::Diagnostics::Tracing::ActivityFilter* $af$5__1;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xC97A34
     static ActivityFilter::$GetFilterAsTuple$d__7* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

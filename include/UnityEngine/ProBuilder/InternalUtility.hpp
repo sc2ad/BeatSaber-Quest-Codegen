@@ -30,9 +30,6 @@ namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
   template<typename T>
   class IEnumerable_1;
-  // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
-  class IEnumerable_1;
 }
 // Forward declaring namespace: System
 namespace System {
@@ -81,7 +78,7 @@ namespace UnityEngine::ProBuilder {
     // static public System.String ControlKeyString(System.Char character)
     // Offset: 0xF9E6A0
     static ::Il2CppString* ControlKeyString(::Il2CppChar character);
-    // static public System.Boolean TryParseColor(System.String value, UnityEngine.Color col)
+    // static public System.Boolean TryParseColor(System.String value, ref UnityEngine.Color col)
     // Offset: 0xF9E778
     static bool TryParseColor(::Il2CppString* value, UnityEngine::Color& col);
     // static public UnityEngine.Vector3[] StringToVector3Array(System.String str)

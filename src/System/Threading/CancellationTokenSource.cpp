@@ -229,5 +229,5 @@ void System::Threading::CancellationTokenSource::Dispose() {
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose"));
 }
 void System::Threading::CancellationTokenSource::System_IDisposable_Dispose() {
-  Dispose();
+  System::Threading::CancellationTokenSource::Dispose();
 }

@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // public EnableAfterDelay <>4__this
     // Offset: 0x20
     GlobalNamespace::EnableAfterDelay* $$4__this;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xCAFD54
     static EnableAfterDelay::$Start$d__1* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

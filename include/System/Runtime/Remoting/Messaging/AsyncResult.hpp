@@ -143,7 +143,7 @@ namespace System::Runtime::Remoting::Messaging {
     // static private System.Void .cctor()
     // Offset: 0x1063ECC
     static void _cctor();
-    // private System.Void <.ctor>b__17_0(System.Object $p0$)
+    // private System.Void <.ctor>b__17_0(System.Object <p0>)
     // Offset: 0x1063F4C
     void $_ctor$b__17_0(::Il2CppObject* $p0$);
     // System.Void .ctor()

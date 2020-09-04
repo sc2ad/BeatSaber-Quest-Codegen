@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: UnityEngine.Object
 #include "UnityEngine/Object.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
@@ -195,9 +196,16 @@ namespace UnityEngine {
     // public System.Void .ctor(System.String name)
     // Offset: 0x1313974
     static GameObject* New_ctor(::Il2CppString* name);
-    // public System.Void .ctor(System.String name, System.Type[] components)
+    // public System.Void .ctor(System.String name, params System.Type[] components)
     // Offset: 0x1313AF8
     static GameObject* New_ctor(::Il2CppString* name, ::Array<System::Type*>* components);
+    // Creating initializer_list -> params proxy for: System.Void .ctor(System.String name, params System.Type[] components)
+    static GameObject* New_ctor(::Il2CppString* name, std::initializer_list<System::Type*> components);
+    // Creating TArgs -> initializer_list proxy for: System.Void .ctor(System.String name, params System.Type[] components)
+    template<class ...TParams>
+    static GameObject* New_ctor(::Il2CppString* name, TParams&&... components) {
+      return New_ctor(name, {components...});
+    }
     // static private System.Void Internal_CreateGameObject(UnityEngine.GameObject self, System.String name)
     // Offset: 0x1313A14
     static void Internal_CreateGameObject(UnityEngine::GameObject* self, ::Il2CppString* name);
@@ -210,7 +218,7 @@ namespace UnityEngine {
     // public UnityEngine.GameObject get_gameObject()
     // Offset: 0x1313D10
     UnityEngine::GameObject* get_gameObject();
-    // private System.Void get_scene_Injected(UnityEngine.SceneManagement.Scene ret)
+    // private System.Void get_scene_Injected(out UnityEngine.SceneManagement.Scene ret)
     // Offset: 0x1313CC0
     void get_scene_Injected(UnityEngine::SceneManagement::Scene& ret);
     // public System.Void .ctor()

@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // public LeaderboardScoreUploader <>4__this
     // Offset: 0x20
     GlobalNamespace::LeaderboardScoreUploader* $$4__this;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xB46CD4
     static LeaderboardScoreUploader::$UploadScoresCoroutine$d__14* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

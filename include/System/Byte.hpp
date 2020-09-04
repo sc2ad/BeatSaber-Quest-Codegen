@@ -75,10 +75,10 @@ namespace System {
     // static private System.Byte Parse(System.String s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info)
     // Offset: 0x1335324
     static uint8_t Parse(::Il2CppString* s, System::Globalization::NumberStyles style, System::Globalization::NumberFormatInfo* info);
-    // static public System.Boolean TryParse(System.String s, System.Byte result)
+    // static public System.Boolean TryParse(System.String s, out System.Byte result)
     // Offset: 0x13354E8
     static bool TryParse(::Il2CppString* s, uint8_t& result);
-    // static private System.Boolean TryParse(System.String s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info, System.Byte result)
+    // static private System.Boolean TryParse(System.String s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info, out System.Byte result)
     // Offset: 0x1335520
     static bool TryParse(::Il2CppString* s, System::Globalization::NumberStyles style, System::Globalization::NumberFormatInfo* info, uint8_t& result);
     // public System.String ToString(System.String format)

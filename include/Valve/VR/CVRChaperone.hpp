@@ -42,10 +42,10 @@ namespace Valve::VR {
     // public Valve.VR.ChaperoneCalibrationState GetCalibrationState()
     // Offset: 0xFE30C8
     Valve::VR::ChaperoneCalibrationState GetCalibrationState();
-    // public System.Boolean GetPlayAreaSize(System.Single pSizeX, System.Single pSizeZ)
+    // public System.Boolean GetPlayAreaSize(ref System.Single pSizeX, ref System.Single pSizeZ)
     // Offset: 0xFE32F4
     bool GetPlayAreaSize(float& pSizeX, float& pSizeZ);
-    // public System.Boolean GetPlayAreaRect(Valve.VR.HmdQuad_t rect)
+    // public System.Boolean GetPlayAreaRect(ref Valve.VR.HmdQuad_t rect)
     // Offset: 0xFE358C
     bool GetPlayAreaRect(Valve::VR::HmdQuad_t& rect);
     // public System.Void ReloadInfo()
@@ -54,7 +54,7 @@ namespace Valve::VR {
     // public System.Void SetSceneColor(Valve.VR.HmdColor_t color)
     // Offset: 0xFE3A24
     void SetSceneColor(Valve::VR::HmdColor_t color);
-    // public System.Void GetBoundsColor(Valve.VR.HmdColor_t pOutputColorArray, System.Int32 nNumOutputColors, System.Single flCollisionBoundsFadeDistance, Valve.VR.HmdColor_t pOutputCameraColor)
+    // public System.Void GetBoundsColor(ref Valve.VR.HmdColor_t pOutputColorArray, System.Int32 nNumOutputColors, System.Single flCollisionBoundsFadeDistance, ref Valve.VR.HmdColor_t pOutputCameraColor)
     // Offset: 0xFE3CE8
     void GetBoundsColor(Valve::VR::HmdColor_t& pOutputColorArray, int nNumOutputColors, float flCollisionBoundsFadeDistance, Valve::VR::HmdColor_t& pOutputCameraColor);
     // public System.Boolean AreBoundsVisible()

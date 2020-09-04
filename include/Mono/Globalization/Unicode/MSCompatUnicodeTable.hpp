@@ -115,10 +115,10 @@ namespace Mono::Globalization::Unicode {
     // static public Mono.Globalization.Unicode.TailoringInfo GetTailoringInfo(System.Int32 lcid)
     // Offset: 0x10B0C18
     static Mono::Globalization::Unicode::TailoringInfo* GetTailoringInfo(int lcid);
-    // static public System.Void BuildTailoringTables(System.Globalization.CultureInfo culture, Mono.Globalization.Unicode.TailoringInfo t, Mono.Globalization.Unicode.Contraction[] contractions, Mono.Globalization.Unicode.Level2Map[] diacriticals)
+    // static public System.Void BuildTailoringTables(System.Globalization.CultureInfo culture, Mono.Globalization.Unicode.TailoringInfo t, ref Mono.Globalization.Unicode.Contraction[] contractions, ref Mono.Globalization.Unicode.Level2Map[] diacriticals)
     // Offset: 0x10B0D44
     static void BuildTailoringTables(System::Globalization::CultureInfo* culture, Mono::Globalization::Unicode::TailoringInfo* t, ::Array<Mono::Globalization::Unicode::Contraction*>*& contractions, ::Array<Mono::Globalization::Unicode::Level2Map*>*& diacriticals);
-    // static private System.Void SetCJKReferences(System.String name, Mono.Globalization.Unicode.CodePointIndexer cjkIndexer, System.Byte* catTable, System.Byte* lv1Table, Mono.Globalization.Unicode.CodePointIndexer lv2Indexer, System.Byte* lv2Table)
+    // static private System.Void SetCJKReferences(System.String name, ref Mono.Globalization.Unicode.CodePointIndexer cjkIndexer, ref System.Byte* catTable, ref System.Byte* lv1Table, ref Mono.Globalization.Unicode.CodePointIndexer lv2Indexer, ref System.Byte* lv2Table)
     // Offset: 0x10B1324
     static void SetCJKReferences(::Il2CppString* name, Mono::Globalization::Unicode::CodePointIndexer*& cjkIndexer, uint8_t*& catTable, uint8_t*& lv1Table, Mono::Globalization::Unicode::CodePointIndexer*& lv2Indexer, uint8_t*& lv2Table);
     // static public System.Byte Category(System.Int32 cp)
@@ -169,10 +169,10 @@ namespace Mono::Globalization::Unicode {
     // static private System.Void .cctor()
     // Offset: 0x10B1EC4
     static void _cctor();
-    // static public System.Void FillCJK(System.String culture, Mono.Globalization.Unicode.CodePointIndexer cjkIndexer, System.Byte* catTable, System.Byte* lv1Table, Mono.Globalization.Unicode.CodePointIndexer lv2Indexer, System.Byte* lv2Table)
+    // static public System.Void FillCJK(System.String culture, ref Mono.Globalization.Unicode.CodePointIndexer cjkIndexer, ref System.Byte* catTable, ref System.Byte* lv1Table, ref Mono.Globalization.Unicode.CodePointIndexer lv2Indexer, ref System.Byte* lv2Table)
     // Offset: 0x10B236C
     static void FillCJK(::Il2CppString* culture, Mono::Globalization::Unicode::CodePointIndexer*& cjkIndexer, uint8_t*& catTable, uint8_t*& lv1Table, Mono::Globalization::Unicode::CodePointIndexer*& lv2Indexer, uint8_t*& lv2Table);
-    // static private System.Void FillCJKCore(System.String culture, Mono.Globalization.Unicode.CodePointIndexer cjkIndexer, System.Byte* catTable, System.Byte* lv1Table, Mono.Globalization.Unicode.CodePointIndexer cjkLv2Indexer, System.Byte* lv2Table)
+    // static private System.Void FillCJKCore(System.String culture, ref Mono.Globalization.Unicode.CodePointIndexer cjkIndexer, ref System.Byte* catTable, ref System.Byte* lv1Table, ref Mono.Globalization.Unicode.CodePointIndexer cjkLv2Indexer, ref System.Byte* lv2Table)
     // Offset: 0x10B24C8
     static void FillCJKCore(::Il2CppString* culture, Mono::Globalization::Unicode::CodePointIndexer*& cjkIndexer, uint8_t*& catTable, uint8_t*& lv1Table, Mono::Globalization::Unicode::CodePointIndexer*& cjkLv2Indexer, uint8_t*& lv2Table);
   }; // Mono.Globalization.Unicode.MSCompatUnicodeTable

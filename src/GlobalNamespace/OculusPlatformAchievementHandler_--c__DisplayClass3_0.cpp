@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OculusPlatformAchievementHandler/<>c__DisplayClass3_0
 #include "GlobalNamespace/OculusPlatformAchievementHandler_--c__DisplayClass3_0.hpp"
 // Including type: Oculus.Platform.Message`1

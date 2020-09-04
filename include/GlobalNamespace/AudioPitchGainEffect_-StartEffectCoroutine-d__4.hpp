@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // private System.Single <time>5__3
     // Offset: 0x3C
     float $time$5__3;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xB8A708
     static AudioPitchGainEffect::$StartEffectCoroutine$d__4* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

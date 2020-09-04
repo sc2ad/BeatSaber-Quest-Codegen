@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.TickableManager/<>c__DisplayClass19_0
 #include "Zenject/TickableManager_--c__DisplayClass19_0.hpp"
 // Including type: Zenject.ILateTickable

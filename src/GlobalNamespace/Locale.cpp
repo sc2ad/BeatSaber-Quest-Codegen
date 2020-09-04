@@ -16,3 +16,7 @@
 ::Il2CppString* GlobalNamespace::Locale::GetText(::Il2CppString* fmt, ::Array<::Il2CppObject*>* args) {
   return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppString*>("", "Locale", "GetText", fmt, args));
 }
+// Creating initializer_list -> params proxy for: System.String GetText(System.String fmt, params System.Object[] args)
+::Il2CppString* GlobalNamespace::Locale::GetText(::Il2CppString* fmt, std::initializer_list<::Il2CppObject*> args) {
+  return GlobalNamespace::Locale::GetText(fmt, ::Array<::Il2CppObject*>::New(args));
+}

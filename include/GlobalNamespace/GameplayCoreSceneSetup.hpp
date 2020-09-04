@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     // private GameplayCoreHUDInstaller/HudType GetGameplayCoreHUDTypeForEnvironmentSize(EnvironmentSizeData/Width environmentWidth)
     // Offset: 0xB3EF1C
     GlobalNamespace::GameplayCoreHUDInstaller::HudType GetGameplayCoreHUDTypeForEnvironmentSize(GlobalNamespace::EnvironmentSizeData::Width environmentWidth);
-    // private System.Boolean UseOneSaberOnly(BeatmapCharacteristicSO beatmapCharacteristic, PlayerSpecificSettings playerSpecificSettings, SaberType saberType)
+    // private System.Boolean UseOneSaberOnly(BeatmapCharacteristicSO beatmapCharacteristic, PlayerSpecificSettings playerSpecificSettings, out SaberType saberType)
     // Offset: 0xB3EE64
     bool UseOneSaberOnly(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, GlobalNamespace::SaberType& saberType);
     // public override System.Void InstallBindings()

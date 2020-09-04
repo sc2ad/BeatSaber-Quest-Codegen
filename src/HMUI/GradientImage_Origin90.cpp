@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: HMUI.GradientImage/Origin90
 #include "HMUI/GradientImage_Origin90.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

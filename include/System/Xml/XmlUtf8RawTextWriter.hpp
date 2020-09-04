@@ -149,13 +149,13 @@ namespace System::Xml {
     // private System.Byte* InvalidXmlChar(System.Int32 ch, System.Byte* pDst, System.Boolean entitize)
     // Offset: 0x11ABDD0
     uint8_t* InvalidXmlChar(int ch, uint8_t* pDst, bool entitize);
-    // System.Void EncodeChar(System.Char* pSrc, System.Char* pSrcEnd, System.Byte* pDst)
+    // System.Void EncodeChar(ref System.Char* pSrc, System.Char* pSrcEnd, ref System.Byte* pDst)
     // Offset: 0x119F3F8
     void EncodeChar(::Il2CppChar*& pSrc, ::Il2CppChar* pSrcEnd, uint8_t*& pDst);
     // static System.Byte* EncodeMultibyteUTF8(System.Int32 ch, System.Byte* pDst)
     // Offset: 0x11ABEE0
     static uint8_t* EncodeMultibyteUTF8(int ch, uint8_t* pDst);
-    // static System.Void CharToUTF8(System.Char* pSrc, System.Char* pSrcEnd, System.Byte* pDst)
+    // static System.Void CharToUTF8(ref System.Char* pSrc, System.Char* pSrcEnd, ref System.Byte* pDst)
     // Offset: 0x119C674
     static void CharToUTF8(::Il2CppChar*& pSrc, ::Il2CppChar* pSrcEnd, uint8_t*& pDst);
     // protected System.Byte* WriteNewLine(System.Byte* pDst)

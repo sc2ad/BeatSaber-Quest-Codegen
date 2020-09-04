@@ -199,7 +199,7 @@ namespace RootMotion::FinalIK {
     // public System.Single get_progress()
     // Offset: 0x144DBDC
     float get_progress();
-    // private System.Void TriggerUntriggeredEvents(System.Boolean checkTime, System.Boolean pickUp, System.Boolean pause)
+    // private System.Void TriggerUntriggeredEvents(System.Boolean checkTime, out System.Boolean pickUp, out System.Boolean pause)
     // Offset: 0x144D408
     void TriggerUntriggeredEvents(bool checkTime, bool& pickUp, bool& pause);
     // private System.Void PickUp(UnityEngine.Transform root)

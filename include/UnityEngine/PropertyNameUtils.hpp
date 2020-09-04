@@ -21,7 +21,7 @@ namespace UnityEngine {
     // static public UnityEngine.PropertyName PropertyNameFromString(System.String name)
     // Offset: 0x141ECFC
     static UnityEngine::PropertyName PropertyNameFromString(::Il2CppString* name);
-    // static private System.Void PropertyNameFromString_Injected(System.String name, UnityEngine.PropertyName ret)
+    // static private System.Void PropertyNameFromString_Injected(System.String name, out UnityEngine.PropertyName ret)
     // Offset: 0x141EE88
     static void PropertyNameFromString_Injected(::Il2CppString* name, UnityEngine::PropertyName& ret);
   }; // UnityEngine.PropertyNameUtils

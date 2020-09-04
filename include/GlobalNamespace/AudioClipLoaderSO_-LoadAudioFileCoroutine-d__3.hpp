@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // private UnityEngine.Networking.UnityWebRequest <www>5__2
     // Offset: 0x38
     UnityEngine::Networking::UnityWebRequest* $www$5__2;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xB89608
     static AudioClipLoaderSO::$LoadAudioFileCoroutine$d__3* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()

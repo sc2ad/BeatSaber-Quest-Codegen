@@ -9,16 +9,12 @@
 #include "RootMotion/BipedReferences_AutoDetectParams.hpp"
 // Including type: UnityEngine.Transform
 #include "UnityEngine/Transform.hpp"
-// Including type: RootMotion.BipedNaming/BoneType
-#include "RootMotion/BipedNaming_BoneType.hpp"
 // Including type: UnityEngine.Animator
 #include "UnityEngine/Animator.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
 #include "UnityEngine/Quaternion.hpp"
-// Including type: RootMotion.BipedNaming/BoneSide
-#include "RootMotion/BipedNaming_BoneSide.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

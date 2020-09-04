@@ -97,7 +97,7 @@ namespace UnityEngine {
     // UnityEngine.UnityException CreateNonReadableException(UnityEngine.Texture t)
     // Offset: 0x139501C
     UnityEngine::UnityException* CreateNonReadableException(UnityEngine::Texture* t);
-    // private System.Void get_texelSize_Injected(UnityEngine.Vector2 ret)
+    // private System.Void get_texelSize_Injected(out UnityEngine.Vector2 ret)
     // Offset: 0x1394CBC
     void get_texelSize_Injected(UnityEngine::Vector2& ret);
     // protected System.Void .ctor()

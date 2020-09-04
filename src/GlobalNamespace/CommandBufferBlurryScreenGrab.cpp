@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: CommandBufferBlurryScreenGrab
 #include "GlobalNamespace/CommandBufferBlurryScreenGrab.hpp"
 // Including type: System.Collections.Generic.Dictionary`2

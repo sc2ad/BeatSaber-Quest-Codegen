@@ -78,7 +78,7 @@ namespace UnityEngine {
     // static private System.Void Internal_DrawMeshNow2(UnityEngine.Mesh mesh, System.Int32 subsetIndex, UnityEngine.Matrix4x4 matrix)
     // Offset: 0x1314958
     static void Internal_DrawMeshNow2(UnityEngine::Mesh* mesh, int subsetIndex, UnityEngine::Matrix4x4 matrix);
-    // static System.Void Internal_DrawTexture(UnityEngine.Internal_DrawTextureArguments args)
+    // static System.Void Internal_DrawTexture(ref UnityEngine.Internal_DrawTextureArguments args)
     // Offset: 0x1314A4C
     static void Internal_DrawTexture(UnityEngine::Internal_DrawTextureArguments& args);
     // static private System.Void Internal_DrawMeshInstanced(UnityEngine.Mesh mesh, System.Int32 submeshIndex, UnityEngine.Material material, UnityEngine.Matrix4x4[] matrices, System.Int32 count, UnityEngine.MaterialPropertyBlock properties, UnityEngine.Rendering.ShadowCastingMode castShadows, System.Boolean receiveShadows, System.Int32 layer, UnityEngine.Camera camera, UnityEngine.Rendering.LightProbeUsage lightProbeUsage, UnityEngine.LightProbeProxyVolume lightProbeProxyVolume)
@@ -162,19 +162,19 @@ namespace UnityEngine {
     // static private System.Void .cctor()
     // Offset: 0x13161C0
     static void _cctor();
-    // static private System.Void GetActiveColorBuffer_Injected(UnityEngine.RenderBuffer ret)
+    // static private System.Void GetActiveColorBuffer_Injected(out UnityEngine.RenderBuffer ret)
     // Offset: 0x1314668
     static void GetActiveColorBuffer_Injected(UnityEngine::RenderBuffer& ret);
-    // static private System.Void GetActiveDepthBuffer_Injected(UnityEngine.RenderBuffer ret)
+    // static private System.Void GetActiveDepthBuffer_Injected(out UnityEngine.RenderBuffer ret)
     // Offset: 0x131473C
     static void GetActiveDepthBuffer_Injected(UnityEngine::RenderBuffer& ret);
-    // static private System.Void Internal_SetRTSimple_Injected(UnityEngine.RenderBuffer color, UnityEngine.RenderBuffer depth, System.Int32 mip, UnityEngine.CubemapFace face, System.Int32 depthSlice)
+    // static private System.Void Internal_SetRTSimple_Injected(ref UnityEngine.RenderBuffer color, ref UnityEngine.RenderBuffer depth, System.Int32 mip, UnityEngine.CubemapFace face, System.Int32 depthSlice)
     // Offset: 0x1314868
     static void Internal_SetRTSimple_Injected(UnityEngine::RenderBuffer& color, UnityEngine::RenderBuffer& depth, int mip, UnityEngine::CubemapFace face, int depthSlice);
-    // static private System.Void Internal_DrawMeshNow2_Injected(UnityEngine.Mesh mesh, System.Int32 subsetIndex, UnityEngine.Matrix4x4 matrix)
+    // static private System.Void Internal_DrawMeshNow2_Injected(UnityEngine.Mesh mesh, System.Int32 subsetIndex, ref UnityEngine.Matrix4x4 matrix)
     // Offset: 0x13149F4
     static void Internal_DrawMeshNow2_Injected(UnityEngine::Mesh* mesh, int subsetIndex, UnityEngine::Matrix4x4& matrix);
-    // static private System.Void Blit4_Injected(UnityEngine.Texture source, UnityEngine.RenderTexture dest, UnityEngine.Vector2 scale, UnityEngine.Vector2 offset)
+    // static private System.Void Blit4_Injected(UnityEngine.Texture source, UnityEngine.RenderTexture dest, ref UnityEngine.Vector2 scale, ref UnityEngine.Vector2 offset)
     // Offset: 0x1314CC0
     static void Blit4_Injected(UnityEngine::Texture* source, UnityEngine::RenderTexture* dest, UnityEngine::Vector2& scale, UnityEngine::Vector2& offset);
   }; // UnityEngine.Graphics

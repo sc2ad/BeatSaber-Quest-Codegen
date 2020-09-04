@@ -84,7 +84,7 @@ namespace System {
     // static public System.Boolean Parse(System.String value)
     // Offset: 0x1333E78
     static bool Parse(::Il2CppString* value);
-    // static public System.Boolean TryParse(System.String value, System.Boolean result)
+    // static public System.Boolean TryParse(System.String value, out System.Boolean result)
     // Offset: 0x1333F8C
     static bool TryParse(::Il2CppString* value, bool& result);
     // static private System.String TrimWhiteSpaceAndNull(System.String value)

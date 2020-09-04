@@ -18,3 +18,7 @@
 System::Collections::Generic::List_1<Zenject::TypeValuePair>* Zenject::ValidationUtil::CreateDefaultArgs(::Array<System::Type*>* argTypes) {
   return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>("Zenject", "ValidationUtil", "CreateDefaultArgs", argTypes));
 }
+// Creating initializer_list -> params proxy for: System.Collections.Generic.List`1<Zenject.TypeValuePair> CreateDefaultArgs(params System.Type[] argTypes)
+System::Collections::Generic::List_1<Zenject::TypeValuePair>* Zenject::ValidationUtil::CreateDefaultArgs(std::initializer_list<System::Type*> argTypes) {
+  return Zenject::ValidationUtil::CreateDefaultArgs(::Array<System::Type*>::New(argTypes));
+}

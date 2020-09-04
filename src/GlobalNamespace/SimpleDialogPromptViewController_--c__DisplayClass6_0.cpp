@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: SimpleDialogPromptViewController/<>c__DisplayClass6_0
 #include "GlobalNamespace/SimpleDialogPromptViewController_--c__DisplayClass6_0.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

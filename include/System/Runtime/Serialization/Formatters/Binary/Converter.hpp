@@ -244,7 +244,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // static System.Array CreatePrimitiveArray(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code, System.Int32 length)
     // Offset: 0xE29530
     static System::Array* CreatePrimitiveArray(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, int length);
-    // static System.Boolean IsPrimitiveArray(System.Type type, System.Object typeInformation)
+    // static System.Boolean IsPrimitiveArray(System.Type type, out System.Object typeInformation)
     // Offset: 0xE25F40
     static bool IsPrimitiveArray(System::Type* type, ::Il2CppObject*& typeInformation);
     // static private System.Void InitValueA()

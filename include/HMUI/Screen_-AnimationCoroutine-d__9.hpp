@@ -29,7 +29,7 @@ namespace HMUI {
     // private UnityEngine.Vector3 <localScale>5__2
     // Offset: 0x28
     UnityEngine::Vector3 $localScale$5__2;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0x10E0E80
     static Screen::$AnimationCoroutine$d__9* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

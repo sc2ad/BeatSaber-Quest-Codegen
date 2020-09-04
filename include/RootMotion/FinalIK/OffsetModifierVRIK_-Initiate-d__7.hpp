@@ -24,7 +24,7 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.OffsetModifierVRIK <>4__this
     // Offset: 0x20
     RootMotion::FinalIK::OffsetModifierVRIK* $$4__this;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0x1233924
     static OffsetModifierVRIK::$Initiate$d__7* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

@@ -49,7 +49,7 @@ namespace HMUI {
     // private System.Single <moveOffset>5__4
     // Offset: 0x48
     float $moveOffset$5__4;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0x10EC9E4
     static ViewController::$PresentViewControllerCoroutine$d__47* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

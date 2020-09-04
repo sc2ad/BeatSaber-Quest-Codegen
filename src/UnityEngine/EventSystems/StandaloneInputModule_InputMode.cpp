@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.EventSystems.StandaloneInputModule/InputMode
 #include "UnityEngine/EventSystems/StandaloneInputModule_InputMode.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

@@ -111,7 +111,7 @@ namespace RootMotion {
     // public System.Void MultiplyLength(UnityEngine.AnimationCurve curve, System.Single mlp)
     // Offset: 0x13A17F0
     void MultiplyLength(UnityEngine::AnimationCurve* curve, float mlp);
-    // public System.Void SetCurves(UnityEngine.AnimationClip clip, System.Single maxError, System.Single lengthMlp)
+    // public System.Void SetCurves(ref UnityEngine.AnimationClip clip, System.Single maxError, System.Single lengthMlp)
     // Offset: 0x13A18A4
     void SetCurves(UnityEngine::AnimationClip*& clip, float maxError, float lengthMlp);
   }; // RootMotion.BakerHumanoidQT

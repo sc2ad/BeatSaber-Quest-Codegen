@@ -53,7 +53,7 @@ namespace System::Diagnostics {
     static int _get_OFFSET_UNKNOWN();
     // Set static field: static public System.Int32 OFFSET_UNKNOWN
     static void _set_OFFSET_UNKNOWN(int value);
-    // static private System.Boolean get_frame_info(System.Int32 skip, System.Boolean needFileInfo, System.Reflection.MethodBase method, System.Int32 iloffset, System.Int32 native_offset, System.String file, System.Int32 line, System.Int32 column)
+    // static private System.Boolean get_frame_info(System.Int32 skip, System.Boolean needFileInfo, out System.Reflection.MethodBase method, out System.Int32 iloffset, out System.Int32 native_offset, out System.String file, out System.Int32 line, out System.Int32 column)
     // Offset: 0xC954C0
     static bool get_frame_info(int skip, bool needFileInfo, System::Reflection::MethodBase*& method, int& iloffset, int& native_offset, ::Il2CppString*& file, int& line, int& column);
     // public System.Void .ctor(System.Int32 skipFrames, System.Boolean fNeedFileInfo)

@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // static public OVRPlugin/Controller ovrp_GetConnectedControllers()
     // Offset: 0xF4AA98
     static GlobalNamespace::OVRPlugin::Controller ovrp_GetConnectedControllers();
-    // static public OVRPlugin/Bool ovrp_GetBoundaryGeometry2(OVRPlugin/BoundaryType boundaryType, System.IntPtr points, System.Int32 pointsCount)
+    // static public OVRPlugin/Bool ovrp_GetBoundaryGeometry2(OVRPlugin/BoundaryType boundaryType, System.IntPtr points, ref System.Int32 pointsCount)
     // Offset: 0xF4AB0C
     static GlobalNamespace::OVRPlugin::Bool ovrp_GetBoundaryGeometry2(GlobalNamespace::OVRPlugin::BoundaryType boundaryType, System::IntPtr points, int& pointsCount);
     // static public OVRPlugin/AppPerfStats ovrp_GetAppPerfStats()

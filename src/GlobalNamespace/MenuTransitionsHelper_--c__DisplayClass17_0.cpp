@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: MenuTransitionsHelper/<>c__DisplayClass17_0
 #include "GlobalNamespace/MenuTransitionsHelper_--c__DisplayClass17_0.hpp"
 // Including type: StandardLevelScenesTransitionSetupDataSO

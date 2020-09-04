@@ -129,5 +129,5 @@ void System::Threading::SemaphoreSlim::Dispose() {
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose"));
 }
 void System::Threading::SemaphoreSlim::System_IDisposable_Dispose() {
-  Dispose();
+  System::Threading::SemaphoreSlim::Dispose();
 }

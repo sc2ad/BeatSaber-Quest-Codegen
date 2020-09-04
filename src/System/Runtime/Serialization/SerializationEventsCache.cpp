@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.Serialization.SerializationEventsCache
 #include "System/Runtime/Serialization/SerializationEventsCache.hpp"
 // Including type: System.Collections.Hashtable

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.IKSolverLookAt/LookAtBone
 #include "RootMotion/FinalIK/IKSolverLookAt_LookAtBone.hpp"
 // Including type: UnityEngine.Transform

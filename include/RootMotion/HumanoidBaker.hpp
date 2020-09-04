@@ -102,10 +102,10 @@ namespace RootMotion {
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetLoopFrame(System.Single time)
     void OnSetLoopFrame(float time);
-    // protected override System.Void OnSetCurves(UnityEngine.AnimationClip clip)
+    // protected override System.Void OnSetCurves(ref UnityEngine.AnimationClip clip)
     // Offset: 0x12436B0
     // Implemented from: RootMotion.Baker
-    // Base method: System.Void Baker::OnSetCurves(UnityEngine.AnimationClip clip)
+    // Base method: System.Void Baker::OnSetCurves(ref UnityEngine.AnimationClip clip)
     void OnSetCurves(UnityEngine::AnimationClip*& clip);
     // protected override System.Void OnSetKeyframes(System.Single time, System.Boolean lastFrame)
     // Offset: 0x1243880

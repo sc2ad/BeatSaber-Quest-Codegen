@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: System.Collections.IList
 #include "System/Collections/IList.hpp"
 // Including type: System.Collections.IStructuralComparable
@@ -56,9 +57,6 @@ namespace System::Collections::Generic {
   // Forward declaring type: IComparer`1<T>
   template<typename T>
   class IComparer_1;
-  // Forward declaring type: IComparer`1<T>
-  template<typename T>
-  class IComparer_1;
   // Forward declaring type: IEnumerator`1<T>
   template<typename T>
   class IEnumerator_1;
@@ -81,16 +79,23 @@ namespace System {
     struct SorterObjectArray;
     // Nested type: System::Array::SorterGenericArray
     struct SorterGenericArray;
-    // static public System.Array CreateInstance(System.Type elementType, System.Int64[] lengths)
+    // static public System.Array CreateInstance(System.Type elementType, params System.Int64[] lengths)
     // Offset: 0x1329DA8
     static System::Array* CreateInstance(System::Type* elementType, ::Array<int64_t>* lengths);
+    // Creating initializer_list -> params proxy for: System.Array CreateInstance(System.Type elementType, params System.Int64[] lengths)
+    static System::Array* CreateInstance(System::Type* elementType, std::initializer_list<int64_t> lengths);
+    // Creating TArgs -> initializer_list proxy for: System.Array CreateInstance(System.Type elementType, params System.Int64[] lengths)
+    template<class ...TParams>
+    static System::Array* CreateInstance(System::Type* elementType, TParams&&... lengths) {
+      return CreateInstance(elementType, {lengths...});
+    }
     // static public System.Collections.ObjectModel.ReadOnlyCollection`1<T> AsReadOnly(T[] array)
     // Offset: 0xFFFFFFFF
     template<class T>
     static System::Collections::ObjectModel::ReadOnlyCollection_1<T>* AsReadOnly(::Array<T>* array) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::ObjectModel::ReadOnlyCollection_1<T>*>("System", "Array", "AsReadOnly", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, array)));
     }
-    // static public System.Void Resize(T[] array, System.Int32 newSize)
+    // static public System.Void Resize(ref T[] array, System.Int32 newSize)
     // Offset: 0xFFFFFFFF
     template<class T>
     static void Resize(::Array<T>*& array, int newSize) {
@@ -138,9 +143,16 @@ namespace System {
     // public System.Object GetValue(System.Int64 index1, System.Int64 index2, System.Int64 index3)
     // Offset: 0x132BF5C
     ::Il2CppObject* GetValue(int64_t index1, int64_t index2, int64_t index3);
-    // public System.Object GetValue(System.Int64[] indices)
+    // public System.Object GetValue(params System.Int64[] indices)
     // Offset: 0x132C11C
     ::Il2CppObject* GetValue(::Array<int64_t>* indices);
+    // Creating initializer_list -> params proxy for: System.Object GetValue(params System.Int64[] indices)
+    ::Il2CppObject* GetValue(std::initializer_list<int64_t> indices);
+    // Creating TArgs -> initializer_list proxy for: System.Object GetValue(params System.Int64[] indices)
+    template<class ...TParams>
+    ::Il2CppObject* GetValue(TParams&&... indices) {
+      return GetValue({indices...});
+    }
     // public System.Boolean get_IsFixedSize()
     // Offset: 0x132C2A4
     bool get_IsFixedSize();
@@ -270,9 +282,16 @@ namespace System {
     // public System.Void SetValue(System.Object value, System.Int64 index1, System.Int64 index2, System.Int64 index3)
     // Offset: 0x132D084
     void SetValue(::Il2CppObject* value, int64_t index1, int64_t index2, int64_t index3);
-    // public System.Void SetValue(System.Object value, System.Int64[] indices)
+    // public System.Void SetValue(System.Object value, params System.Int64[] indices)
     // Offset: 0x132D254
     void SetValue(::Il2CppObject* value, ::Array<int64_t>* indices);
+    // Creating initializer_list -> params proxy for: System.Void SetValue(System.Object value, params System.Int64[] indices)
+    void SetValue(::Il2CppObject* value, std::initializer_list<int64_t> indices);
+    // Creating TArgs -> initializer_list proxy for: System.Void SetValue(System.Object value, params System.Int64[] indices)
+    template<class ...TParams>
+    void SetValue(::Il2CppObject* value, TParams&&... indices) {
+      SetValue(value, {indices...});
+    }
     // static public System.Void Sort(System.Array array)
     // Offset: 0x132D3E4
     static void Sort(System::Array* array);
@@ -504,13 +523,13 @@ namespace System {
     void InternalArray__set_Item(int index, T item) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "InternalArray__set_Item", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, index, item));
     }
-    // System.Void GetGenericValueImpl(System.Int32 pos, T value)
+    // System.Void GetGenericValueImpl(System.Int32 pos, out T value)
     // Offset: 0xFFFFFFFF
     template<class T>
     void GetGenericValueImpl(int pos, T& value) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "GetGenericValueImpl", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, pos, value));
     }
-    // System.Void SetGenericValueImpl(System.Int32 pos, T value)
+    // System.Void SetGenericValueImpl(System.Int32 pos, ref T value)
     // Offset: 0xFFFFFFFF
     template<class T>
     void SetGenericValueImpl(int pos, T& value) {
@@ -531,12 +550,16 @@ namespace System {
     // public System.Int32 GetLowerBound(System.Int32 dimension)
     // Offset: 0x132A6DC
     int GetLowerBound(int dimension);
-    // public System.Object GetValue(System.Int32[] indices)
+    // public System.Object GetValue(params System.Int32[] indices)
     // Offset: 0x132C2A0
     ::Il2CppObject* GetValue(::Array<int>* indices);
-    // public System.Void SetValue(System.Object value, System.Int32[] indices)
+    // Creating initializer_list -> params proxy for: System.Object GetValue(params System.Int32[] indices)
+    ::Il2CppObject* GetValue(std::initializer_list<int> indices);
+    // public System.Void SetValue(System.Object value, params System.Int32[] indices)
     // Offset: 0x132D3E0
     void SetValue(::Il2CppObject* value, ::Array<int>* indices);
+    // Creating initializer_list -> params proxy for: System.Void SetValue(System.Object value, params System.Int32[] indices)
+    void SetValue(::Il2CppObject* value, std::initializer_list<int> indices);
     // System.Object GetValueImpl(System.Int32 pos)
     // Offset: 0x132DBD8
     ::Il2CppObject* GetValueImpl(int pos);
@@ -576,9 +599,16 @@ namespace System {
     // static System.Array UnsafeCreateInstance(System.Type elementType, System.Int32 length1, System.Int32 length2)
     // Offset: 0x132DFE8
     static System::Array* UnsafeCreateInstance(System::Type* elementType, int length1, int length2);
-    // static System.Array UnsafeCreateInstance(System.Type elementType, System.Int32[] lengths)
+    // static System.Array UnsafeCreateInstance(System.Type elementType, params System.Int32[] lengths)
     // Offset: 0x132E084
     static System::Array* UnsafeCreateInstance(System::Type* elementType, ::Array<int>* lengths);
+    // Creating initializer_list -> params proxy for: System.Array UnsafeCreateInstance(System.Type elementType, params System.Int32[] lengths)
+    static System::Array* UnsafeCreateInstance(System::Type* elementType, std::initializer_list<int> lengths);
+    // Creating TArgs -> initializer_list proxy for: System.Array UnsafeCreateInstance(System.Type elementType, params System.Int32[] lengths)
+    template<class ...TParams>
+    static System::Array* UnsafeCreateInstance(System::Type* elementType, TParams&&... lengths) {
+      return UnsafeCreateInstance(elementType, {lengths...});
+    }
     // static public System.Array CreateInstance(System.Type elementType, System.Int32 length)
     // Offset: 0x132E088
     static System::Array* CreateInstance(System::Type* elementType, int length);
@@ -588,9 +618,11 @@ namespace System {
     // static public System.Array CreateInstance(System.Type elementType, System.Int32 length1, System.Int32 length2, System.Int32 length3)
     // Offset: 0x132E110
     static System::Array* CreateInstance(System::Type* elementType, int length1, int length2, int length3);
-    // static public System.Array CreateInstance(System.Type elementType, System.Int32[] lengths)
+    // static public System.Array CreateInstance(System.Type elementType, params System.Int32[] lengths)
     // Offset: 0x1329F1C
     static System::Array* CreateInstance(System::Type* elementType, ::Array<int>* lengths);
+    // Creating initializer_list -> params proxy for: System.Array CreateInstance(System.Type elementType, params System.Int32[] lengths)
+    static System::Array* CreateInstance(System::Type* elementType, std::initializer_list<int> lengths);
     // static public System.Array CreateInstance(System.Type elementType, System.Int32[] lengths, System.Int32[] lowerBounds)
     // Offset: 0x132DC30
     static System::Array* CreateInstance(System::Type* elementType, ::Array<int>* lengths, ::Array<int>* lowerBounds);

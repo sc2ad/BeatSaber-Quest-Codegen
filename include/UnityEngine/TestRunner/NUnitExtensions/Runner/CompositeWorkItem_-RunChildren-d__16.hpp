@@ -54,7 +54,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // private System.Collections.IEnumerator <enumerable>5__5
     // Offset: 0x58
     System::Collections::IEnumerator* $enumerable$5__5;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xE315CC
     static CompositeWorkItem::$RunChildren$d__16* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()

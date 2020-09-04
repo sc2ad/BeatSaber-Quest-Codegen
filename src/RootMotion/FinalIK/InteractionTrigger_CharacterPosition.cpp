@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.InteractionTrigger/CharacterPosition
 #include "RootMotion/FinalIK/InteractionTrigger_CharacterPosition.hpp"
 // Including type: UnityEngine.Vector3

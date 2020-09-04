@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRInput/RawAxis2D
 #include "GlobalNamespace/OVRInput_RawAxis2D.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

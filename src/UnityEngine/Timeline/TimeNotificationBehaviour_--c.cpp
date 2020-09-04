@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Timeline.TimeNotificationBehaviour/<>c
 #include "UnityEngine/Timeline/TimeNotificationBehaviour_--c.hpp"
 // Including type: System.Comparison`1

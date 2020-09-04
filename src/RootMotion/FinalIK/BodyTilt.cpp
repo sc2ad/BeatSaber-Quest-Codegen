@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.BodyTilt
 #include "RootMotion/FinalIK/BodyTilt.hpp"
 // Including type: RootMotion.FinalIK.OffsetPose

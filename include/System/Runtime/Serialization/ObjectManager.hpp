@@ -94,7 +94,7 @@ namespace System::Runtime::Serialization {
     // private System.Void AddObjectHolder(System.Runtime.Serialization.ObjectHolder holder)
     // Offset: 0xFFC910
     void AddObjectHolder(System::Runtime::Serialization::ObjectHolder* holder);
-    // private System.Boolean GetCompletionInfo(System.Runtime.Serialization.FixupHolder fixup, System.Runtime.Serialization.ObjectHolder holder, System.Object member, System.Boolean bThrowIfMissing)
+    // private System.Boolean GetCompletionInfo(System.Runtime.Serialization.FixupHolder fixup, out System.Runtime.Serialization.ObjectHolder holder, out System.Object member, System.Boolean bThrowIfMissing)
     // Offset: 0xFFCA74
     bool GetCompletionInfo(System::Runtime::Serialization::FixupHolder* fixup, System::Runtime::Serialization::ObjectHolder*& holder, ::Il2CppObject*& member, bool bThrowIfMissing);
     // private System.Void FixupSpecialObject(System.Runtime.Serialization.ObjectHolder holder)

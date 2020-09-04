@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVR.OpenVR.VREvent_t_Packed
 #include "OVR/OpenVR/VREvent_t_Packed.hpp"
 // Including type: OVR.OpenVR.VREvent_t

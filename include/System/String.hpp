@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: System.IComparable
 #include "System/IComparable.hpp"
 // Including type: System.ICloneable
@@ -111,9 +112,16 @@ namespace System {
     static int _get_alignConst();
     // Set static field: static private System.Int32 alignConst
     static void _set_alignConst(int value);
-    // static public System.String Join(System.String separator, System.String[] value)
+    // static public System.String Join(System.String separator, params System.String[] value)
     // Offset: 0xDF21C0
     static ::Il2CppString* Join(::Il2CppString* separator, ::Array<::Il2CppString*>* value);
+    // Creating initializer_list -> params proxy for: System.String Join(System.String separator, params System.String[] value)
+    static ::Il2CppString* Join(::Il2CppString* separator, std::initializer_list<::Il2CppString*> value);
+    // Creating TArgs -> initializer_list proxy for: System.String Join(System.String separator, params System.String[] value)
+    template<class ...TParams>
+    static ::Il2CppString* Join(::Il2CppString* separator, TParams&&... value) {
+      return Join(separator, {value...});
+    }
     // static public System.String Join(System.String separator, System.String[] value, System.Int32 startIndex, System.Int32 count)
     // Offset: 0xDF225C
     static ::Il2CppString* Join(::Il2CppString* separator, ::Array<::Il2CppString*>* value, int startIndex, int count);
@@ -153,9 +161,16 @@ namespace System {
     // System.Int32 GetLegacyNonRandomizedHashCode()
     // Offset: 0xDF3090
     int GetLegacyNonRandomizedHashCode();
-    // public System.String[] Split(System.Char[] separator)
+    // public System.String[] Split(params System.Char[] separator)
     // Offset: 0xDEBF30
     ::Array<::Il2CppString*>* Split(::Array<::Il2CppChar>* separator);
+    // Creating initializer_list -> params proxy for: System.String[] Split(params System.Char[] separator)
+    ::Array<::Il2CppString*>* Split(std::initializer_list<::Il2CppChar> separator);
+    // Creating TArgs -> initializer_list proxy for: System.String[] Split(params System.Char[] separator)
+    template<class ...TParams>
+    ::Array<::Il2CppString*>* Split(TParams&&... separator) {
+      return Split({separator...});
+    }
     // public System.String[] Split(System.Char[] separator, System.Int32 count)
     // Offset: 0xDF3374
     ::Array<::Il2CppString*>* Split(::Array<::Il2CppChar>* separator, int count);
@@ -171,7 +186,7 @@ namespace System {
     // private System.String[] InternalSplitOmitEmptyEntries(System.Int32[] sepList, System.Int32[] lengthList, System.Int32 numReplaces, System.Int32 count)
     // Offset: 0xDF3554
     ::Array<::Il2CppString*>* InternalSplitOmitEmptyEntries(::Array<int>* sepList, ::Array<int>* lengthList, int numReplaces, int count);
-    // private System.Int32 MakeSeparatorList(System.Char[] separator, System.Int32[] sepList)
+    // private System.Int32 MakeSeparatorList(System.Char[] separator, ref System.Int32[] sepList)
     // Offset: 0xDF3388
     int MakeSeparatorList(::Array<::Il2CppChar>* separator, ::Array<int>*& sepList);
     // public System.String Substring(System.Int32 startIndex)
@@ -183,15 +198,36 @@ namespace System {
     // private System.String InternalSubString(System.Int32 startIndex, System.Int32 length)
     // Offset: 0xDF3AA4
     ::Il2CppString* InternalSubString(int startIndex, int length);
-    // public System.String Trim(System.Char[] trimChars)
+    // public System.String Trim(params System.Char[] trimChars)
     // Offset: 0xDF3B00
     ::Il2CppString* Trim(::Array<::Il2CppChar>* trimChars);
-    // public System.String TrimStart(System.Char[] trimChars)
+    // Creating initializer_list -> params proxy for: System.String Trim(params System.Char[] trimChars)
+    ::Il2CppString* Trim(std::initializer_list<::Il2CppChar> trimChars);
+    // Creating TArgs -> initializer_list proxy for: System.String Trim(params System.Char[] trimChars)
+    template<class ...TParams>
+    ::Il2CppString* Trim(TParams&&... trimChars) {
+      return Trim({trimChars...});
+    }
+    // public System.String TrimStart(params System.Char[] trimChars)
     // Offset: 0xDF3DCC
     ::Il2CppString* TrimStart(::Array<::Il2CppChar>* trimChars);
-    // public System.String TrimEnd(System.Char[] trimChars)
+    // Creating initializer_list -> params proxy for: System.String TrimStart(params System.Char[] trimChars)
+    ::Il2CppString* TrimStart(std::initializer_list<::Il2CppChar> trimChars);
+    // Creating TArgs -> initializer_list proxy for: System.String TrimStart(params System.Char[] trimChars)
+    template<class ...TParams>
+    ::Il2CppString* TrimStart(TParams&&... trimChars) {
+      return TrimStart({trimChars...});
+    }
+    // public System.String TrimEnd(params System.Char[] trimChars)
     // Offset: 0xDF3DE8
     ::Il2CppString* TrimEnd(::Array<::Il2CppChar>* trimChars);
+    // Creating initializer_list -> params proxy for: System.String TrimEnd(params System.Char[] trimChars)
+    ::Il2CppString* TrimEnd(std::initializer_list<::Il2CppChar> trimChars);
+    // Creating TArgs -> initializer_list proxy for: System.String TrimEnd(params System.Char[] trimChars)
+    template<class ...TParams>
+    ::Il2CppString* TrimEnd(TParams&&... trimChars) {
+      return TrimEnd({trimChars...});
+    }
     // public System.Void .ctor(System.Char* value)
     // Offset: 0xDF3E04
     static ::Il2CppString* New_ctor(::Il2CppChar* value);
@@ -396,9 +432,16 @@ namespace System {
     // static public System.String Format(System.String format, System.Object arg0, System.Object arg1, System.Object arg2)
     // Offset: 0xDF70F4
     static ::Il2CppString* Format(::Il2CppString* format, ::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2);
-    // static public System.String Format(System.String format, System.Object[] args)
+    // static public System.String Format(System.String format, params System.Object[] args)
     // Offset: 0xDF7144
     static ::Il2CppString* Format(::Il2CppString* format, ::Array<::Il2CppObject*>* args);
+    // Creating initializer_list -> params proxy for: System.String Format(System.String format, params System.Object[] args)
+    static ::Il2CppString* Format(::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.String Format(System.String format, params System.Object[] args)
+    template<class ...TParams>
+    static ::Il2CppString* Format(::Il2CppString* format, TParams&&... args) {
+      return Format(format, {args...});
+    }
     // static public System.String Format(System.IFormatProvider provider, System.String format, System.Object arg0)
     // Offset: 0xDF721C
     static ::Il2CppString* Format(System::IFormatProvider* provider, ::Il2CppString* format, ::Il2CppObject* arg0);
@@ -408,9 +451,16 @@ namespace System {
     // static public System.String Format(System.IFormatProvider provider, System.String format, System.Object arg0, System.Object arg1, System.Object arg2)
     // Offset: 0xDF7274
     static ::Il2CppString* Format(System::IFormatProvider* provider, ::Il2CppString* format, ::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2);
-    // static public System.String Format(System.IFormatProvider provider, System.String format, System.Object[] args)
+    // static public System.String Format(System.IFormatProvider provider, System.String format, params System.Object[] args)
     // Offset: 0xDE3AE8
     static ::Il2CppString* Format(System::IFormatProvider* provider, ::Il2CppString* format, ::Array<::Il2CppObject*>* args);
+    // Creating initializer_list -> params proxy for: System.String Format(System.IFormatProvider provider, System.String format, params System.Object[] args)
+    static ::Il2CppString* Format(System::IFormatProvider* provider, ::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.String Format(System.IFormatProvider provider, System.String format, params System.Object[] args)
+    template<class ...TParams>
+    static ::Il2CppString* Format(System::IFormatProvider* provider, ::Il2CppString* format, TParams&&... args) {
+      return Format(provider, format, {args...});
+    }
     // static private System.String FormatHelper(System.IFormatProvider provider, System.String format, System.ParamsArray args)
     // Offset: 0xDF6FBC
     static ::Il2CppString* FormatHelper(System::IFormatProvider* provider, ::Il2CppString* format, System::ParamsArray args);
@@ -426,9 +476,16 @@ namespace System {
     // static public System.String Concat(System.Object arg0, System.Object arg1, System.Object arg2)
     // Offset: 0xDF74C0
     static ::Il2CppString* Concat(::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2);
-    // static public System.String Concat(System.Object[] args)
+    // static public System.String Concat(params System.Object[] args)
     // Offset: 0xDF75C0
     static ::Il2CppString* Concat(::Array<::Il2CppObject*>* args);
+    // Creating initializer_list -> params proxy for: System.String Concat(params System.Object[] args)
+    static ::Il2CppString* Concat(std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.String Concat(params System.Object[] args)
+    template<class ...TParams>
+    static ::Il2CppString* Concat(TParams&&... args) {
+      return Concat({args...});
+    }
     // static public System.String Concat(System.String str0, System.String str1)
     // Offset: 0xDE4288
     static ::Il2CppString* Concat(::Il2CppString* str0, ::Il2CppString* str1);
@@ -441,9 +498,11 @@ namespace System {
     // static private System.String ConcatArray(System.String[] values, System.Int32 totalLength)
     // Offset: 0xDF77D0
     static ::Il2CppString* ConcatArray(::Array<::Il2CppString*>* values, int totalLength);
-    // static public System.String Concat(System.String[] values)
+    // static public System.String Concat(params System.String[] values)
     // Offset: 0xDF79E4
     static ::Il2CppString* Concat(::Array<::Il2CppString*>* values);
+    // Creating initializer_list -> params proxy for: System.String Concat(params System.String[] values)
+    static ::Il2CppString* Concat(std::initializer_list<::Il2CppString*> values);
     // public System.Int32 get_Length()
     // Offset: 0xDF836C
     int get_Length();

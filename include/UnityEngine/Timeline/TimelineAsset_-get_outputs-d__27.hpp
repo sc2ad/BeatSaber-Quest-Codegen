@@ -15,10 +15,6 @@
 #include "System/Collections/Generic/IEnumerator_1.hpp"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: System::Collections::Generic
-namespace System::Collections::Generic {
-  // Skipping declaration: IEnumerator`1 because it is already included!
-}
 // Forward declaring namespace: UnityEngine::Timeline
 namespace UnityEngine::Timeline {
   // Forward declaring type: TrackAsset
@@ -52,7 +48,7 @@ namespace UnityEngine::Timeline {
     // private System.Collections.Generic.IEnumerator`1<UnityEngine.Playables.PlayableBinding> <>7__wrap2
     // Offset: 0x50
     System::Collections::Generic::IEnumerator_1<UnityEngine::Playables::PlayableBinding>* $$7__wrap2;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0x10A2C54
     static TimelineAsset::$get_outputs$d__27* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()

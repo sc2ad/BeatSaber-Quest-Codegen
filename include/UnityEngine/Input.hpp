@@ -107,19 +107,19 @@ namespace UnityEngine {
     // static public System.Boolean get_touchSupported()
     // Offset: 0x1979D2C
     static bool get_touchSupported();
-    // static private System.Void GetTouch_Injected(System.Int32 index, UnityEngine.Touch ret)
+    // static private System.Void GetTouch_Injected(System.Int32 index, out UnityEngine.Touch ret)
     // Offset: 0x197986C
     static void GetTouch_Injected(int index, UnityEngine::Touch& ret);
-    // static private System.Void get_mousePosition_Injected(UnityEngine.Vector3 ret)
+    // static private System.Void get_mousePosition_Injected(out UnityEngine.Vector3 ret)
     // Offset: 0x1979A48
     static void get_mousePosition_Injected(UnityEngine::Vector3& ret);
-    // static private System.Void get_mouseScrollDelta_Injected(UnityEngine.Vector2 ret)
+    // static private System.Void get_mouseScrollDelta_Injected(out UnityEngine.Vector2 ret)
     // Offset: 0x1979AD0
     static void get_mouseScrollDelta_Injected(UnityEngine::Vector2& ret);
-    // static private System.Void get_compositionCursorPos_Injected(UnityEngine.Vector2 ret)
+    // static private System.Void get_compositionCursorPos_Injected(out UnityEngine.Vector2 ret)
     // Offset: 0x1979C00
     static void get_compositionCursorPos_Injected(UnityEngine::Vector2& ret);
-    // static private System.Void set_compositionCursorPos_Injected(UnityEngine.Vector2 value)
+    // static private System.Void set_compositionCursorPos_Injected(ref UnityEngine.Vector2 value)
     // Offset: 0x1979C84
     static void set_compositionCursorPos_Injected(UnityEngine::Vector2& value);
   }; // UnityEngine.Input

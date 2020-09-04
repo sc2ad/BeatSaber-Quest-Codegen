@@ -89,7 +89,7 @@ namespace UnityEngine::UI {
     // protected System.Void SetChildrenAlongAxis(System.Int32 axis, System.Boolean isVertical)
     // Offset: 0x116FFF8
     void SetChildrenAlongAxis(int axis, bool isVertical);
-    // private System.Void GetChildSizes(UnityEngine.RectTransform child, System.Int32 axis, System.Boolean controlSize, System.Boolean childForceExpand, System.Single min, System.Single preferred, System.Single flexible)
+    // private System.Void GetChildSizes(UnityEngine.RectTransform child, System.Int32 axis, System.Boolean controlSize, System.Boolean childForceExpand, out System.Single min, out System.Single preferred, out System.Single flexible)
     // Offset: 0x11708C4
     void GetChildSizes(UnityEngine::RectTransform* child, int axis, bool controlSize, bool childForceExpand, float& min, float& preferred, float& flexible);
     // protected System.Void .ctor()

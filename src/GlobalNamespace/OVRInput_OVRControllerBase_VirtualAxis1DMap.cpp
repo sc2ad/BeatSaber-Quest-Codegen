@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRInput/OVRControllerBase/VirtualAxis1DMap
 #include "GlobalNamespace/OVRInput_OVRControllerBase_VirtualAxis1DMap.hpp"
 // Including type: OVRInput/Axis1D

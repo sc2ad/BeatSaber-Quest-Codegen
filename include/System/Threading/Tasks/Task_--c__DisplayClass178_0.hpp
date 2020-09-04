@@ -40,7 +40,7 @@ namespace System::Threading::Tasks {
     // public System.Threading.Tasks.InternalTaskOptions internalOptionsForReplicas
     // Offset: 0x2C
     System::Threading::Tasks::InternalTaskOptions internalOptionsForReplicas;
-    // System.Void <ExecuteSelfReplicating>b__0(System.Object $p0$)
+    // System.Void <ExecuteSelfReplicating>b__0(System.Object <p0>)
     // Offset: 0xCE71C8
     void $ExecuteSelfReplicating$b__0(::Il2CppObject* $p0$);
     // public System.Void .ctor()

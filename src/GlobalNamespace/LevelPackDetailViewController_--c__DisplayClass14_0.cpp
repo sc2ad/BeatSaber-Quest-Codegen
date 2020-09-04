@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: LevelPackDetailViewController/<>c__DisplayClass14_0
 #include "GlobalNamespace/LevelPackDetailViewController_--c__DisplayClass14_0.hpp"
 // Including type: System.Action

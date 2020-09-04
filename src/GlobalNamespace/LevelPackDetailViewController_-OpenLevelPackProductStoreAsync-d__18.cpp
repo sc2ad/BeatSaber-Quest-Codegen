@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: LevelPackDetailViewController/<OpenLevelPackProductStoreAsync>d__18
 #include "GlobalNamespace/LevelPackDetailViewController_-OpenLevelPackProductStoreAsync-d__18.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

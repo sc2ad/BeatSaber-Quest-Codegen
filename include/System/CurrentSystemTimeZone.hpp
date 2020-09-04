@@ -27,7 +27,7 @@ namespace System {
     constexpr operator System::TimeZoneInfo*() const noexcept {
       return LocalTimeZone;
     }
-    // static public System.Boolean GetTimeZoneData(System.Int32 year, System.Int64[] data, System.String[] names, System.Boolean daylight_inverted)
+    // static public System.Boolean GetTimeZoneData(System.Int32 year, out System.Int64[] data, out System.String[] names, out System.Boolean daylight_inverted)
     // Offset: 0x10CF4AC
     static bool GetTimeZoneData(int year, ::Array<int64_t>*& data, ::Array<::Il2CppString*>*& names, bool& daylight_inverted);
     // System.Void .ctor()

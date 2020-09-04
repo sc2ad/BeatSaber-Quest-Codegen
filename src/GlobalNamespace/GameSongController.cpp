@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: GameSongController
 #include "GlobalNamespace/GameSongController.hpp"
 // Including type: GameSongController/<StartSongCoroutine>d__10

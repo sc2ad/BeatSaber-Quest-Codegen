@@ -71,10 +71,10 @@ namespace System::Runtime::Remoting::Channels {
     // static System.Runtime.Remoting.Contexts.CrossContextChannel get_CrossContextChannel()
     // Offset: 0x10562D4
     static System::Runtime::Remoting::Contexts::CrossContextChannel* get_CrossContextChannel();
-    // static System.Runtime.Remoting.Messaging.IMessageSink CreateClientChannelSinkChain(System.String url, System.Object remoteChannelData, System.String objectUri)
+    // static System.Runtime.Remoting.Messaging.IMessageSink CreateClientChannelSinkChain(System.String url, System.Object remoteChannelData, out System.String objectUri)
     // Offset: 0x105633C
     static System::Runtime::Remoting::Messaging::IMessageSink* CreateClientChannelSinkChain(::Il2CppString* url, ::Il2CppObject* remoteChannelData, ::Il2CppString*& objectUri);
-    // static System.Runtime.Remoting.Messaging.IMessageSink CreateClientChannelSinkChain(System.Runtime.Remoting.Channels.IChannelSender sender, System.String url, System.Object[] channelDataArray, System.String objectUri)
+    // static System.Runtime.Remoting.Messaging.IMessageSink CreateClientChannelSinkChain(System.Runtime.Remoting.Channels.IChannelSender sender, System.String url, System.Object[] channelDataArray, out System.String objectUri)
     // Offset: 0x1056B70
     static System::Runtime::Remoting::Messaging::IMessageSink* CreateClientChannelSinkChain(System::Runtime::Remoting::Channels::IChannelSender* sender, ::Il2CppString* url, ::Array<::Il2CppObject*>* channelDataArray, ::Il2CppString*& objectUri);
     // static public System.Void RegisterChannel(System.Runtime.Remoting.Channels.IChannel chnl)

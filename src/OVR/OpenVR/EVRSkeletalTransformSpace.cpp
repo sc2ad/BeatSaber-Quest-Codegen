@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVR.OpenVR.EVRSkeletalTransformSpace
 #include "OVR/OpenVR/EVRSkeletalTransformSpace.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

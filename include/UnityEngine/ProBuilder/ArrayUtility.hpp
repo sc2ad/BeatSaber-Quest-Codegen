@@ -23,24 +23,6 @@ namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
   template<typename T>
   class IEnumerable_1;
-  // Forward declaring type: IList`1<T>
-  template<typename T>
-  class IList_1;
-  // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
-  class IEnumerable_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
-  class Dictionary_2;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
-  class IEnumerable_1;
   // Forward declaring type: Dictionary`2<TKey, TValue>
   template<typename TKey, typename TValue>
   class Dictionary_2;
@@ -53,12 +35,6 @@ namespace System {
   // Forward declaring type: IComparable`1<T>
   template<typename T>
   class IComparable_1;
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
-  class Func_2;
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
-  class Func_2;
 }
 // Completed forward declares
 // Type namespace: UnityEngine.ProBuilder
@@ -159,7 +135,7 @@ namespace UnityEngine::ProBuilder {
     static bool ContainsMatch(::Array<T>* a, ::Array<T>* b) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("UnityEngine.ProBuilder", "ArrayUtility", "ContainsMatch", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, a, b)));
     }
-    // static public System.Boolean ContainsMatch(T[] a, T[] b, System.Int32 index_a, System.Int32 index_b)
+    // static public System.Boolean ContainsMatch(T[] a, T[] b, out System.Int32 index_a, out System.Int32 index_b)
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool ContainsMatch(::Array<T>* a, ::Array<T>* b, int& index_a, int& index_b) {

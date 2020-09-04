@@ -99,34 +99,34 @@ namespace UnityEngine::Playables {
     // static private System.Void .cctor()
     // Offset: 0x141DAD8
     static void _cctor();
-    // static private System.Boolean IsValid_Injected(UnityEngine.Playables.PlayableOutputHandle _unity_self)
+    // static private System.Boolean IsValid_Injected(ref UnityEngine.Playables.PlayableOutputHandle _unity_self)
     // Offset: 0x141D27C
     static bool IsValid_Injected(UnityEngine::Playables::PlayableOutputHandle& _unity_self);
-    // static private System.Type GetPlayableOutputType_Injected(UnityEngine.Playables.PlayableOutputHandle _unity_self)
+    // static private System.Type GetPlayableOutputType_Injected(ref UnityEngine.Playables.PlayableOutputHandle _unity_self)
     // Offset: 0x141D340
     static System::Type* GetPlayableOutputType_Injected(UnityEngine::Playables::PlayableOutputHandle& _unity_self);
-    // static private System.Void SetReferenceObject_Injected(UnityEngine.Playables.PlayableOutputHandle _unity_self, UnityEngine.Object target)
+    // static private System.Void SetReferenceObject_Injected(ref UnityEngine.Playables.PlayableOutputHandle _unity_self, UnityEngine.Object target)
     // Offset: 0x141D414
     static void SetReferenceObject_Injected(UnityEngine::Playables::PlayableOutputHandle& _unity_self, UnityEngine::Object* target);
-    // static private System.Void SetUserData_Injected(UnityEngine.Playables.PlayableOutputHandle _unity_self, UnityEngine.Object target)
+    // static private System.Void SetUserData_Injected(ref UnityEngine.Playables.PlayableOutputHandle _unity_self, UnityEngine.Object target)
     // Offset: 0x141D4F8
     static void SetUserData_Injected(UnityEngine::Playables::PlayableOutputHandle& _unity_self, UnityEngine::Object* target);
-    // static private System.Void GetSourcePlayable_Injected(UnityEngine.Playables.PlayableOutputHandle _unity_self, UnityEngine.Playables.PlayableHandle ret)
+    // static private System.Void GetSourcePlayable_Injected(ref UnityEngine.Playables.PlayableOutputHandle _unity_self, out UnityEngine.Playables.PlayableHandle ret)
     // Offset: 0x141D5E4
     static void GetSourcePlayable_Injected(UnityEngine::Playables::PlayableOutputHandle& _unity_self, UnityEngine::Playables::PlayableHandle& ret);
-    // static private System.Void SetSourcePlayable_Injected(UnityEngine.Playables.PlayableOutputHandle _unity_self, UnityEngine.Playables.PlayableHandle target, System.Int32 port)
+    // static private System.Void SetSourcePlayable_Injected(ref UnityEngine.Playables.PlayableOutputHandle _unity_self, ref UnityEngine.Playables.PlayableHandle target, System.Int32 port)
     // Offset: 0x141D6DC
     static void SetSourcePlayable_Injected(UnityEngine::Playables::PlayableOutputHandle& _unity_self, UnityEngine::Playables::PlayableHandle& target, int port);
-    // static private System.Int32 GetSourceOutputPort_Injected(UnityEngine.Playables.PlayableOutputHandle _unity_self)
+    // static private System.Int32 GetSourceOutputPort_Injected(ref UnityEngine.Playables.PlayableOutputHandle _unity_self)
     // Offset: 0x141D7B8
     static int GetSourceOutputPort_Injected(UnityEngine::Playables::PlayableOutputHandle& _unity_self);
-    // static private System.Void SetWeight_Injected(UnityEngine.Playables.PlayableOutputHandle _unity_self, System.Single weight)
+    // static private System.Void SetWeight_Injected(ref UnityEngine.Playables.PlayableOutputHandle _unity_self, System.Single weight)
     // Offset: 0x141D88C
     static void SetWeight_Injected(UnityEngine::Playables::PlayableOutputHandle& _unity_self, float weight);
-    // static private System.Void PushNotification_Injected(UnityEngine.Playables.PlayableOutputHandle _unity_self, UnityEngine.Playables.PlayableHandle origin, UnityEngine.Playables.INotification notification, System.Object context)
+    // static private System.Void PushNotification_Injected(ref UnityEngine.Playables.PlayableOutputHandle _unity_self, ref UnityEngine.Playables.PlayableHandle origin, UnityEngine.Playables.INotification notification, System.Object context)
     // Offset: 0x141D98C
     static void PushNotification_Injected(UnityEngine::Playables::PlayableOutputHandle& _unity_self, UnityEngine::Playables::PlayableHandle& origin, UnityEngine::Playables::INotification* notification, ::Il2CppObject* context);
-    // static private System.Void AddNotificationReceiver_Injected(UnityEngine.Playables.PlayableOutputHandle _unity_self, UnityEngine.Playables.INotificationReceiver receiver)
+    // static private System.Void AddNotificationReceiver_Injected(ref UnityEngine.Playables.PlayableOutputHandle _unity_self, UnityEngine.Playables.INotificationReceiver receiver)
     // Offset: 0x141DA88
     static void AddNotificationReceiver_Injected(UnityEngine::Playables::PlayableOutputHandle& _unity_self, UnityEngine::Playables::INotificationReceiver* receiver);
     // public override System.Int32 GetHashCode()

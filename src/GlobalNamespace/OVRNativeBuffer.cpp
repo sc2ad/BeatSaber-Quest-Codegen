@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRNativeBuffer
 #include "GlobalNamespace/OVRNativeBuffer.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
@@ -45,5 +44,5 @@ void GlobalNamespace::OVRNativeBuffer::Dispose() {
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose"));
 }
 void GlobalNamespace::OVRNativeBuffer::System_IDisposable_Dispose() {
-  Dispose();
+  GlobalNamespace::OVRNativeBuffer::Dispose();
 }

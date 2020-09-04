@@ -47,7 +47,7 @@ namespace NUnit::Framework::Internal {
     // static public System.Void ConvertArgumentList(System.Object[] arglist, NUnit.Framework.Interfaces.IParameterInfo[] parameters)
     // Offset: 0x18FBC08
     static void ConvertArgumentList(::Array<::Il2CppObject*>* arglist, ::Array<NUnit::Framework::Interfaces::IParameterInfo*>* parameters);
-    // static public System.Boolean CanDeduceTypeArgsFromArgs(System.Type type, System.Object[] arglist, System.Type[] typeArgsOut)
+    // static public System.Boolean CanDeduceTypeArgsFromArgs(System.Type type, System.Object[] arglist, ref System.Type[] typeArgsOut)
     // Offset: 0x18FC038
     static bool CanDeduceTypeArgsFromArgs(System::Type* type, ::Array<::Il2CppObject*>* arglist, ::Array<System::Type*>*& typeArgsOut);
     // static private System.Void .cctor()

@@ -98,7 +98,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Void ArrayCountIncrement(System.Int32 value)
     // Offset: 0xE2BE10
     void ArrayCountIncrement(int value);
-    // System.Boolean GetNext(System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum outBinaryTypeEnum, System.Object outTypeInformation)
+    // System.Boolean GetNext(out System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum outBinaryTypeEnum, out System.Object outTypeInformation)
     // Offset: 0xE2BE20
     bool GetNext(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum& outBinaryTypeEnum, ::Il2CppObject*& outTypeInformation);
     // static private System.Void .cctor()

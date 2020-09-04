@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Internal.InternalTraceWriter
 #include "NUnit/Framework/Internal/InternalTraceWriter.hpp"
 // Including type: System.Text.Encoding

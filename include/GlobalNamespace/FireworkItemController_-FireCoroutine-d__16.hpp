@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // private System.Boolean <explosionSoundFired>5__4
     // Offset: 0x30
     bool $explosionSoundFired$5__4;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xBEE468
     static FireworkItemController::$FireCoroutine$d__16* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

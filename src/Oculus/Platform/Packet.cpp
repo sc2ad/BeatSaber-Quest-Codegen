@@ -39,5 +39,5 @@ void Oculus::Platform::Packet::Dispose() {
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose"));
 }
 void Oculus::Platform::Packet::System_IDisposable_Dispose() {
-  Dispose();
+  Oculus::Platform::Packet::Dispose();
 }

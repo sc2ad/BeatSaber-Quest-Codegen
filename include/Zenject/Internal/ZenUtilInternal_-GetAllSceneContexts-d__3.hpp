@@ -20,10 +20,6 @@ namespace Zenject {
   // Forward declaring type: SceneContext
   class SceneContext;
 }
-// Forward declaring namespace: System::Collections::Generic
-namespace System::Collections::Generic {
-  // Skipping declaration: IEnumerator`1 because it is already included!
-}
 // Forward declaring namespace: System::Collections
 namespace System::Collections {
   // Skipping declaration: IEnumerator because it is already included!
@@ -46,7 +42,7 @@ namespace Zenject::Internal {
     // private System.Collections.Generic.IEnumerator`1<UnityEngine.SceneManagement.Scene> <>7__wrap1
     // Offset: 0x28
     System::Collections::Generic::IEnumerator_1<UnityEngine::SceneManagement::Scene>* $$7__wrap1;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xFC216C
     static ZenUtilInternal::$GetAllSceneContexts$d__3* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()

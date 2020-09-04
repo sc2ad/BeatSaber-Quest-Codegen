@@ -16,10 +16,6 @@ namespace Oculus::Platform::Models {
   // Forward declaring type: LeaderboardEntryList
   class LeaderboardEntryList;
 }
-// Forward declaring namespace: Oculus::Platform
-namespace Oculus::Platform {
-  // Skipping declaration: Message`1 because it is already included!
-}
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Timeline.TrackClipTypeAttribute
 #include "UnityEngine/Timeline/TrackClipTypeAttribute.hpp"
 // Including type: System.Type

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.SubContainerCreatorByMethod
 #include "Zenject/SubContainerCreatorByMethod.hpp"
 // Including type: System.Action`1

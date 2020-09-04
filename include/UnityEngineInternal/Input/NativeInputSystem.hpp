@@ -62,7 +62,7 @@ namespace UnityEngineInternal::Input {
     // static System.Void NotifyDeviceDiscovered(System.Int32 deviceId, System.String deviceDescriptor)
     // Offset: 0x1982878
     static void NotifyDeviceDiscovered(int deviceId, ::Il2CppString* deviceDescriptor);
-    // static System.Void ShouldRunUpdate(UnityEngineInternal.Input.NativeInputUpdateType updateType, System.Boolean retval)
+    // static System.Void ShouldRunUpdate(UnityEngineInternal.Input.NativeInputUpdateType updateType, out System.Boolean retval)
     // Offset: 0x1982918
     static void ShouldRunUpdate(UnityEngineInternal::Input::NativeInputUpdateType updateType, bool& retval);
     // static System.Void set_hasDeviceDiscoveredCallback(System.Boolean value)

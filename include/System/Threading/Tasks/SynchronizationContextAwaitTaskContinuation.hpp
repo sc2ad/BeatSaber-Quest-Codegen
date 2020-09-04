@@ -53,7 +53,7 @@ namespace System::Threading::Tasks {
     static System::Threading::ContextCallback* _get_s_postActionCallback();
     // Set static field: static private System.Threading.ContextCallback s_postActionCallback
     static void _set_s_postActionCallback(System::Threading::ContextCallback* value);
-    // System.Void .ctor(System.Threading.SynchronizationContext context, System.Action action, System.Boolean flowExecutionContext, System.Threading.StackCrawlMark stackMark)
+    // System.Void .ctor(System.Threading.SynchronizationContext context, System.Action action, System.Boolean flowExecutionContext, ref System.Threading.StackCrawlMark stackMark)
     // Offset: 0xCE08CC
     static SynchronizationContextAwaitTaskContinuation* New_ctor(System::Threading::SynchronizationContext* context, System::Action* action, bool flowExecutionContext, System::Threading::StackCrawlMark& stackMark);
     // static private System.Void PostAction(System.Object state)

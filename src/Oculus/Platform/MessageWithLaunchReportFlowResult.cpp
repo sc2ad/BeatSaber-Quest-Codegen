@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.MessageWithLaunchReportFlowResult
 #include "Oculus/Platform/MessageWithLaunchReportFlowResult.hpp"
 // Including type: Oculus.Platform.Models.LaunchReportFlowResult

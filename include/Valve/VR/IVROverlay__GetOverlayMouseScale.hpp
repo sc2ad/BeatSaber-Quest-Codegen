@@ -35,13 +35,13 @@ namespace Valve::VR {
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1611C14
     static IVROverlay::_GetOverlayMouseScale* New_ctor(::Il2CppObject* object, System::IntPtr method);
-    // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, Valve.VR.HmdVector2_t pvecMouseScale)
+    // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, ref Valve.VR.HmdVector2_t pvecMouseScale)
     // Offset: 0x1611C28
     Valve::VR::EVROverlayError Invoke(uint64_t ulOverlayHandle, Valve::VR::HmdVector2_t& pvecMouseScale);
-    // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, Valve.VR.HmdVector2_t pvecMouseScale, System.AsyncCallback callback, System.Object object)
+    // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, ref Valve.VR.HmdVector2_t pvecMouseScale, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1611EAC
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, Valve::VR::HmdVector2_t& pvecMouseScale, System::AsyncCallback* callback, ::Il2CppObject* object);
-    // public Valve.VR.EVROverlayError EndInvoke(Valve.VR.HmdVector2_t pvecMouseScale, System.IAsyncResult result)
+    // public Valve.VR.EVROverlayError EndInvoke(ref Valve.VR.HmdVector2_t pvecMouseScale, System.IAsyncResult result)
     // Offset: 0x1611F5C
     Valve::VR::EVROverlayError EndInvoke(Valve::VR::HmdVector2_t& pvecMouseScale, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_GetOverlayMouseScale

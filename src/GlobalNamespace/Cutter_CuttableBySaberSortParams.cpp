@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Cutter/CuttableBySaberSortParams
 #include "GlobalNamespace/Cutter_CuttableBySaberSortParams.hpp"
 // Including type: CuttableBySaber

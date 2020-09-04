@@ -99,7 +99,7 @@ namespace System::Net {
     // System.Void .ctor(System.Int32 newAddress)
     // Offset: 0xF6E478
     static IPAddress* New_ctor(int newAddress);
-    // static public System.Boolean TryParse(System.String ipString, System.Net.IPAddress address)
+    // static public System.Boolean TryParse(System.String ipString, out System.Net.IPAddress address)
     // Offset: 0xF6DBB0
     static bool TryParse(::Il2CppString* ipString, System::Net::IPAddress*& address);
     // static public System.Net.IPAddress Parse(System.String ipString)

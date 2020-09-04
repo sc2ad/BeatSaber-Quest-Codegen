@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: PlayerSaveDataV1_0_1/PlayerAllOverallStatsData
 #include "GlobalNamespace/PlayerSaveDataV1_0_1_PlayerAllOverallStatsData.hpp"
 // Including type: PlayerSaveDataV1_0_1/PlayerOverallStatsData

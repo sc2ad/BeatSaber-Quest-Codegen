@@ -12,3 +12,7 @@
 ::Il2CppString* UnityEngine::UnityString::Format(::Il2CppString* fmt, ::Array<::Il2CppObject*>* args) {
   return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppString*>("UnityEngine", "UnityString", "Format", fmt, args));
 }
+// Creating initializer_list -> params proxy for: System.String Format(System.String fmt, params System.Object[] args)
+::Il2CppString* UnityEngine::UnityString::Format(::Il2CppString* fmt, std::initializer_list<::Il2CppObject*> args) {
+  return UnityEngine::UnityString::Format(fmt, ::Array<::Il2CppObject*>::New(args));
+}

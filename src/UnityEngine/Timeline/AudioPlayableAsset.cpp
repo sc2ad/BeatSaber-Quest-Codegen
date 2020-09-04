@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Timeline.AudioPlayableAsset
 #include "UnityEngine/Timeline/AudioPlayableAsset.hpp"
 // Including type: UnityEngine.Timeline.AudioPlayableAsset/<get_outputs>d__16

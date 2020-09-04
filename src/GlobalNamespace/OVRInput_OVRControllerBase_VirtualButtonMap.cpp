@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRInput/OVRControllerBase/VirtualButtonMap
 #include "GlobalNamespace/OVRInput_OVRControllerBase_VirtualButtonMap.hpp"
 // Including type: OVRInput/Button

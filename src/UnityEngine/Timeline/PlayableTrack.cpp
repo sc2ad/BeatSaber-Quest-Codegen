@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Timeline.PlayableTrack
 #include "UnityEngine/Timeline/PlayableTrack.hpp"
 // Including type: UnityEngine.Timeline.TimelineClip

@@ -73,7 +73,7 @@ namespace System::Runtime::Remoting {
     // static private System.String GetAssemblyName(System.Reflection.MethodBase mb)
     // Offset: 0xE20B60
     static ::Il2CppString* GetAssemblyName(System::Reflection::MethodBase* mb);
-    // static public System.Boolean GetXmlElementForInteropType(System.Type type, System.String xmlElement, System.String xmlNamespace)
+    // static public System.Boolean GetXmlElementForInteropType(System.Type type, out System.String xmlElement, out System.String xmlNamespace)
     // Offset: 0xE20C94
     static bool GetXmlElementForInteropType(System::Type* type, ::Il2CppString*& xmlElement, ::Il2CppString*& xmlNamespace);
     // static public System.String GetXmlNamespaceForMethodCall(System.Reflection.MethodBase mb)
@@ -82,7 +82,7 @@ namespace System::Runtime::Remoting {
     // static public System.String GetXmlNamespaceForMethodResponse(System.Reflection.MethodBase mb)
     // Offset: 0xE15390
     static ::Il2CppString* GetXmlNamespaceForMethodResponse(System::Reflection::MethodBase* mb);
-    // static public System.Boolean GetXmlTypeForInteropType(System.Type type, System.String xmlType, System.String xmlTypeNamespace)
+    // static public System.Boolean GetXmlTypeForInteropType(System.Type type, out System.String xmlType, out System.String xmlTypeNamespace)
     // Offset: 0xE20DA0
     static bool GetXmlTypeForInteropType(System::Type* type, ::Il2CppString*& xmlType, ::Il2CppString*& xmlTypeNamespace);
     // static public System.Void PreLoad(System.Reflection.Assembly assembly)

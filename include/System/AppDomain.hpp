@@ -249,7 +249,7 @@ namespace System {
     // System.Byte[] GetMarshalledDomainObjRef()
     // Offset: 0x10BF28C
     ::Array<uint8_t>* GetMarshalledDomainObjRef();
-    // System.Void ProcessMessageInDomain(System.Byte[] arrRequest, System.Runtime.Remoting.Messaging.CADMethodCallMessage cadMsg, System.Byte[] arrResponse, System.Runtime.Remoting.Messaging.CADMethodReturnMessage cadMrm)
+    // System.Void ProcessMessageInDomain(System.Byte[] arrRequest, System.Runtime.Remoting.Messaging.CADMethodCallMessage cadMsg, out System.Byte[] arrResponse, out System.Runtime.Remoting.Messaging.CADMethodReturnMessage cadMrm)
     // Offset: 0x10BF364
     void ProcessMessageInDomain(::Array<uint8_t>* arrRequest, System::Runtime::Remoting::Messaging::CADMethodCallMessage* cadMsg, ::Array<uint8_t>*& arrResponse, System::Runtime::Remoting::Messaging::CADMethodReturnMessage*& cadMrm);
     // public System.Void add_DomainUnload(System.EventHandler value)

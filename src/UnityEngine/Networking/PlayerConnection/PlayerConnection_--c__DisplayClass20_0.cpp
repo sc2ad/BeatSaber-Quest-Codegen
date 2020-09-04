@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Networking.PlayerConnection.PlayerConnection/<>c__DisplayClass20_0
 #include "UnityEngine/Networking/PlayerConnection/PlayerConnection_--c__DisplayClass20_0.hpp"
 // Including type: UnityEngine.Networking.PlayerConnection.MessageEventArgs

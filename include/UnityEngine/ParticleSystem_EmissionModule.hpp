@@ -32,10 +32,10 @@ namespace UnityEngine {
     // public System.Void set_enabled(System.Boolean value)
     // Offset: 0xA5F430
     void set_enabled(bool value);
-    // static private System.Boolean get_enabled_Injected(UnityEngine.ParticleSystem/EmissionModule _unity_self)
+    // static private System.Boolean get_enabled_Injected(ref UnityEngine.ParticleSystem/EmissionModule _unity_self)
     // Offset: 0x196E6B4
     static bool get_enabled_Injected(UnityEngine::ParticleSystem::EmissionModule& _unity_self);
-    // static private System.Void set_enabled_Injected(UnityEngine.ParticleSystem/EmissionModule _unity_self, System.Boolean value)
+    // static private System.Void set_enabled_Injected(ref UnityEngine.ParticleSystem/EmissionModule _unity_self, System.Boolean value)
     // Offset: 0x196E744
     static void set_enabled_Injected(UnityEngine::ParticleSystem::EmissionModule& _unity_self, bool value);
   }; // UnityEngine.ParticleSystem/EmissionModule

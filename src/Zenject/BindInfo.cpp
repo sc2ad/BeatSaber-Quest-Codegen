@@ -35,5 +35,5 @@ void Zenject::BindInfo::Dispose() {
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose"));
 }
 void Zenject::BindInfo::System_IDisposable_Dispose() {
-  Dispose();
+  Zenject::BindInfo::Dispose();
 }

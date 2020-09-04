@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Timeline.TimelineAsset/<get_outputs>d__27
 #include "UnityEngine/Timeline/TimelineAsset_-get_outputs-d__27.hpp"
-// Including type: System.Collections.Generic.IEnumerator`1
-#include "System/Collections/Generic/IEnumerator_1.hpp"
 // Including type: UnityEngine.Timeline.TrackAsset
 #include "UnityEngine/Timeline/TrackAsset.hpp"
 // Including type: System.Collections.IEnumerator

@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: System.Single
 #include "System/Single.hpp"
 // Including type: UnityEngine.Vector2
@@ -91,12 +92,26 @@ namespace UnityEngine::UI {
     // static public UnityEngine.UI.DefaultControls/IFactoryControls get_factory()
     // Offset: 0xE0A110
     static UnityEngine::UI::DefaultControls::IFactoryControls* get_factory();
-    // static private UnityEngine.GameObject CreateUIElementRoot(System.String name, UnityEngine.Vector2 size, System.Type[] components)
+    // static private UnityEngine.GameObject CreateUIElementRoot(System.String name, UnityEngine.Vector2 size, params System.Type[] components)
     // Offset: 0xE0A178
     static UnityEngine::GameObject* CreateUIElementRoot(::Il2CppString* name, UnityEngine::Vector2 size, ::Array<System::Type*>* components);
-    // static private UnityEngine.GameObject CreateUIObject(System.String name, UnityEngine.GameObject parent, System.Type[] components)
+    // Creating initializer_list -> params proxy for: UnityEngine.GameObject CreateUIElementRoot(System.String name, UnityEngine.Vector2 size, params System.Type[] components)
+    static UnityEngine::GameObject* CreateUIElementRoot(::Il2CppString* name, UnityEngine::Vector2 size, std::initializer_list<System::Type*> components);
+    // Creating TArgs -> initializer_list proxy for: UnityEngine.GameObject CreateUIElementRoot(System.String name, UnityEngine.Vector2 size, params System.Type[] components)
+    template<class ...TParams>
+    static UnityEngine::GameObject* CreateUIElementRoot(::Il2CppString* name, UnityEngine::Vector2 size, TParams&&... components) {
+      return CreateUIElementRoot(name, size, {components...});
+    }
+    // static private UnityEngine.GameObject CreateUIObject(System.String name, UnityEngine.GameObject parent, params System.Type[] components)
     // Offset: 0xE0A2E4
     static UnityEngine::GameObject* CreateUIObject(::Il2CppString* name, UnityEngine::GameObject* parent, ::Array<System::Type*>* components);
+    // Creating initializer_list -> params proxy for: UnityEngine.GameObject CreateUIObject(System.String name, UnityEngine.GameObject parent, params System.Type[] components)
+    static UnityEngine::GameObject* CreateUIObject(::Il2CppString* name, UnityEngine::GameObject* parent, std::initializer_list<System::Type*> components);
+    // Creating TArgs -> initializer_list proxy for: UnityEngine.GameObject CreateUIObject(System.String name, UnityEngine.GameObject parent, params System.Type[] components)
+    template<class ...TParams>
+    static UnityEngine::GameObject* CreateUIObject(::Il2CppString* name, UnityEngine::GameObject* parent, TParams&&... components) {
+      return CreateUIObject(name, parent, {components...});
+    }
     // static private System.Void SetDefaultTextValues(UnityEngine.UI.Text lbl)
     // Offset: 0xE0A538
     static void SetDefaultTextValues(UnityEngine::UI::Text* lbl);

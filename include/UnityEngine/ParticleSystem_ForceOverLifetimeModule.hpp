@@ -38,16 +38,16 @@ namespace UnityEngine {
     // public System.Void set_z(UnityEngine.ParticleSystem/MinMaxCurve value)
     // Offset: 0xA5F78C
     void set_z(UnityEngine::ParticleSystem::MinMaxCurve value);
-    // static private System.Void set_enabled_Injected(UnityEngine.ParticleSystem/ForceOverLifetimeModule _unity_self, System.Boolean value)
+    // static private System.Void set_enabled_Injected(ref UnityEngine.ParticleSystem/ForceOverLifetimeModule _unity_self, System.Boolean value)
     // Offset: 0x196E83C
     static void set_enabled_Injected(UnityEngine::ParticleSystem::ForceOverLifetimeModule& _unity_self, bool value);
-    // static private System.Void set_x_Injected(UnityEngine.ParticleSystem/ForceOverLifetimeModule _unity_self, UnityEngine.ParticleSystem/MinMaxCurve value)
+    // static private System.Void set_x_Injected(ref UnityEngine.ParticleSystem/ForceOverLifetimeModule _unity_self, ref UnityEngine.ParticleSystem/MinMaxCurve value)
     // Offset: 0x196E8DC
     static void set_x_Injected(UnityEngine::ParticleSystem::ForceOverLifetimeModule& _unity_self, UnityEngine::ParticleSystem::MinMaxCurve& value);
-    // static private System.Void set_y_Injected(UnityEngine.ParticleSystem/ForceOverLifetimeModule _unity_self, UnityEngine.ParticleSystem/MinMaxCurve value)
+    // static private System.Void set_y_Injected(ref UnityEngine.ParticleSystem/ForceOverLifetimeModule _unity_self, ref UnityEngine.ParticleSystem/MinMaxCurve value)
     // Offset: 0x196E97C
     static void set_y_Injected(UnityEngine::ParticleSystem::ForceOverLifetimeModule& _unity_self, UnityEngine::ParticleSystem::MinMaxCurve& value);
-    // static private System.Void set_z_Injected(UnityEngine.ParticleSystem/ForceOverLifetimeModule _unity_self, UnityEngine.ParticleSystem/MinMaxCurve value)
+    // static private System.Void set_z_Injected(ref UnityEngine.ParticleSystem/ForceOverLifetimeModule _unity_self, ref UnityEngine.ParticleSystem/MinMaxCurve value)
     // Offset: 0x196EA1C
     static void set_z_Injected(UnityEngine::ParticleSystem::ForceOverLifetimeModule& _unity_self, UnityEngine::ParticleSystem::MinMaxCurve& value);
   }; // UnityEngine.ParticleSystem/ForceOverLifetimeModule

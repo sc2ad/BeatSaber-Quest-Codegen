@@ -33,13 +33,13 @@ namespace OVR::OpenVR {
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1516314
     static IVRCompositor::_GetFrameTiming* New_ctor(::Il2CppObject* object, System::IntPtr method);
-    // public System.Boolean Invoke(OVR.OpenVR.Compositor_FrameTiming pTiming, System.UInt32 unFramesAgo)
+    // public System.Boolean Invoke(ref OVR.OpenVR.Compositor_FrameTiming pTiming, System.UInt32 unFramesAgo)
     // Offset: 0x1516328
     bool Invoke(OVR::OpenVR::Compositor_FrameTiming& pTiming, uint unFramesAgo);
-    // public System.IAsyncResult BeginInvoke(OVR.OpenVR.Compositor_FrameTiming pTiming, System.UInt32 unFramesAgo, System.AsyncCallback callback, System.Object object)
+    // public System.IAsyncResult BeginInvoke(ref OVR.OpenVR.Compositor_FrameTiming pTiming, System.UInt32 unFramesAgo, System.AsyncCallback callback, System.Object object)
     // Offset: 0x15165A0
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::Compositor_FrameTiming& pTiming, uint unFramesAgo, System::AsyncCallback* callback, ::Il2CppObject* object);
-    // public System.Boolean EndInvoke(OVR.OpenVR.Compositor_FrameTiming pTiming, System.IAsyncResult result)
+    // public System.Boolean EndInvoke(ref OVR.OpenVR.Compositor_FrameTiming pTiming, System.IAsyncResult result)
     // Offset: 0x1516654
     bool EndInvoke(OVR::OpenVR::Compositor_FrameTiming& pTiming, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_GetFrameTiming

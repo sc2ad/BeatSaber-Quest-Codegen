@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
 // Completed includes
@@ -27,9 +28,16 @@ namespace UnityEngine {
     // private readonly System.Collections.Generic.IEnumerable`1<System.String> <otherExtensions>k__BackingField
     // Offset: 0x18
     System::Collections::Generic::IEnumerable_1<::Il2CppString*>* otherExtensions;
-    // public System.Void .ctor(System.String preferredExtension, System.String[] otherExtensions)
+    // public System.Void .ctor(System.String preferredExtension, params System.String[] otherExtensions)
     // Offset: 0x1974B9C
     static AssetFileNameExtensionAttribute* New_ctor(::Il2CppString* preferredExtension, ::Array<::Il2CppString*>* otherExtensions);
+    // Creating initializer_list -> params proxy for: System.Void .ctor(System.String preferredExtension, params System.String[] otherExtensions)
+    static AssetFileNameExtensionAttribute* New_ctor(::Il2CppString* preferredExtension, std::initializer_list<::Il2CppString*> otherExtensions);
+    // Creating TArgs -> initializer_list proxy for: System.Void .ctor(System.String preferredExtension, params System.String[] otherExtensions)
+    template<class ...TParams>
+    static AssetFileNameExtensionAttribute* New_ctor(::Il2CppString* preferredExtension, TParams&&... otherExtensions) {
+      return New_ctor(preferredExtension, {otherExtensions...});
+    }
   }; // UnityEngine.AssetFileNameExtensionAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

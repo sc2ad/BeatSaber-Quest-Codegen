@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: LocalLeaderboardsModel/SavedLeaderboardsData
 #include "GlobalNamespace/LocalLeaderboardsModel_SavedLeaderboardsData.hpp"
 // Including type: System.Collections.Generic.List`1

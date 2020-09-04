@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.FBIKChain/Smoothing
 #include "RootMotion/FinalIK/FBIKChain.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

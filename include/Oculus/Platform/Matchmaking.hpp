@@ -18,23 +18,8 @@ namespace Oculus::Platform {
   class Request_1;
   // Forward declaring type: MatchmakingStatApproach
   struct MatchmakingStatApproach;
-  // Forward declaring type: Request`1<T>
-  template<typename T>
-  class Request_1;
   // Forward declaring type: MatchmakingOptions
   class MatchmakingOptions;
-  // Forward declaring type: Request`1<T>
-  template<typename T>
-  class Request_1;
-  // Forward declaring type: Request`1<T>
-  template<typename T>
-  class Request_1;
-  // Forward declaring type: Request`1<T>
-  template<typename T>
-  class Request_1;
-  // Forward declaring type: Request`1<T>
-  template<typename T>
-  class Request_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {

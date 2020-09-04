@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // public MenuDestination destination
     // Offset: 0x28
     GlobalNamespace::MenuDestination* destination;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xBFEAC8
     static MainFlowCoordinator::$ProcessMenuDestinationRequestAfterFrameCoroutine$d__36* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

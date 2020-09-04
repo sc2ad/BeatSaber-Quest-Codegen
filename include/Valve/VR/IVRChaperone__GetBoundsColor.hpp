@@ -33,13 +33,13 @@ namespace Valve::VR {
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFEAE9C
     static IVRChaperone::_GetBoundsColor* New_ctor(::Il2CppObject* object, System::IntPtr method);
-    // public System.Void Invoke(Valve.VR.HmdColor_t pOutputColorArray, System.Int32 nNumOutputColors, System.Single flCollisionBoundsFadeDistance, Valve.VR.HmdColor_t pOutputCameraColor)
+    // public System.Void Invoke(ref Valve.VR.HmdColor_t pOutputColorArray, System.Int32 nNumOutputColors, System.Single flCollisionBoundsFadeDistance, ref Valve.VR.HmdColor_t pOutputCameraColor)
     // Offset: 0xFE3D00
     void Invoke(Valve::VR::HmdColor_t& pOutputColorArray, int nNumOutputColors, float flCollisionBoundsFadeDistance, Valve::VR::HmdColor_t& pOutputCameraColor);
-    // public System.IAsyncResult BeginInvoke(Valve.VR.HmdColor_t pOutputColorArray, System.Int32 nNumOutputColors, System.Single flCollisionBoundsFadeDistance, Valve.VR.HmdColor_t pOutputCameraColor, System.AsyncCallback callback, System.Object object)
+    // public System.IAsyncResult BeginInvoke(ref Valve.VR.HmdColor_t pOutputColorArray, System.Int32 nNumOutputColors, System.Single flCollisionBoundsFadeDistance, ref Valve.VR.HmdColor_t pOutputCameraColor, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFEAEB0
     System::IAsyncResult* BeginInvoke(Valve::VR::HmdColor_t& pOutputColorArray, int nNumOutputColors, float flCollisionBoundsFadeDistance, Valve::VR::HmdColor_t& pOutputCameraColor, System::AsyncCallback* callback, ::Il2CppObject* object);
-    // public System.Void EndInvoke(Valve.VR.HmdColor_t pOutputColorArray, Valve.VR.HmdColor_t pOutputCameraColor, System.IAsyncResult result)
+    // public System.Void EndInvoke(ref Valve.VR.HmdColor_t pOutputColorArray, ref Valve.VR.HmdColor_t pOutputCameraColor, System.IAsyncResult result)
     // Offset: 0xFEAF9C
     void EndInvoke(Valve::VR::HmdColor_t& pOutputColorArray, Valve::VR::HmdColor_t& pOutputCameraColor, System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperone/_GetBoundsColor

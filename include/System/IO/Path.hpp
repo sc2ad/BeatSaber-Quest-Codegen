@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -90,7 +91,7 @@ namespace System::IO {
     // static System.String GetFullPathInternal(System.String path)
     // Offset: 0x10069D8
     static ::Il2CppString* GetFullPathInternal(::Il2CppString* path);
-    // static private System.Int32 GetFullPathName(System.String path, System.Int32 numBufferChars, System.Text.StringBuilder buffer, System.IntPtr lpFilePartOrNull)
+    // static private System.Int32 GetFullPathName(System.String path, System.Int32 numBufferChars, System.Text.StringBuilder buffer, ref System.IntPtr lpFilePartOrNull)
     // Offset: 0x1006A3C
     static int GetFullPathName(::Il2CppString* path, int numBufferChars, System::Text::StringBuilder* buffer, System::IntPtr& lpFilePartOrNull);
     // static System.String GetFullPathName(System.String path)
@@ -132,9 +133,16 @@ namespace System::IO {
     // static private System.String CanonicalizePath(System.String path)
     // Offset: 0x1007060
     static ::Il2CppString* CanonicalizePath(::Il2CppString* path);
-    // static public System.String Combine(System.String[] paths)
+    // static public System.String Combine(params System.String[] paths)
     // Offset: 0x1008008
     static ::Il2CppString* Combine(::Array<::Il2CppString*>* paths);
+    // Creating initializer_list -> params proxy for: System.String Combine(params System.String[] paths)
+    static ::Il2CppString* Combine(std::initializer_list<::Il2CppString*> paths);
+    // Creating TArgs -> initializer_list proxy for: System.String Combine(params System.String[] paths)
+    template<class ...TParams>
+    static ::Il2CppString* Combine(TParams&&... paths) {
+      return Combine({paths...});
+    }
     // static public System.String Combine(System.String path1, System.String path2, System.String path3)
     // Offset: 0x1008314
     static ::Il2CppString* Combine(::Il2CppString* path1, ::Il2CppString* path2, ::Il2CppString* path3);

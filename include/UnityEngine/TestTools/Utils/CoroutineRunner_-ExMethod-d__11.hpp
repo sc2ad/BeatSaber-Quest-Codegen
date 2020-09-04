@@ -36,7 +36,7 @@ namespace UnityEngine::TestTools::Utils {
     // public System.Int32 timeout
     // Offset: 0x30
     int timeout;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xE4A348
     static CoroutineRunner::$ExMethod$d__11* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

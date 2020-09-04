@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: MissionSelectionMapViewController
 #include "GlobalNamespace/MissionSelectionMapViewController.hpp"
 // Including type: HMUI.ScrollView

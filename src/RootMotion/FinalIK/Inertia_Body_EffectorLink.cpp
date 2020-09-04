@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.Inertia/Body/EffectorLink
 #include "RootMotion/FinalIK/Inertia_Body_EffectorLink.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

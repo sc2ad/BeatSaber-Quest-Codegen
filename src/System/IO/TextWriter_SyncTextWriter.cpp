@@ -84,3 +84,7 @@ void System::IO::TextWriter::SyncTextWriter::WriteLine(::Il2CppString* format, :
 void System::IO::TextWriter::SyncTextWriter::WriteLine(::Il2CppString* format, ::Array<::Il2CppObject*>* arg) {
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "WriteLine", format, arg));
 }
+// Creating initializer_list -> params proxy for: System.Void WriteLine(System.String format, params System.Object[] arg)
+void System::IO::TextWriter::SyncTextWriter::WriteLine(::Il2CppString* format, std::initializer_list<::Il2CppObject*> arg) {
+  System::IO::TextWriter::SyncTextWriter::WriteLine(format, ::Array<::Il2CppObject*>::New(arg));
+}

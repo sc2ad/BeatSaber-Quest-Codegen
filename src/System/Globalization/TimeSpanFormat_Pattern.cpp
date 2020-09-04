@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Globalization.TimeSpanFormat/Pattern
 #include "System/Globalization/TimeSpanFormat_Pattern.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

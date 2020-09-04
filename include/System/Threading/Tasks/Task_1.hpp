@@ -27,17 +27,11 @@ namespace System::Threading::Tasks {
   // Forward declaring type: TaskFactory`1<TResult>
   template<typename TResult>
   class TaskFactory_1;
-  // Forward declaring type: Task`1<TResult>
-  template<typename TResult>
-  class Task_1;
   // Forward declaring type: TaskScheduler
   class TaskScheduler;
 }
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
-  class Func_2;
   // Forward declaring type: Func`2<T, TResult>
   template<typename T, typename TResult>
   class Func_2;
@@ -131,7 +125,7 @@ namespace System::Threading::Tasks {
     static Task_1<TResult>* New_ctor(System::Func_2<::Il2CppObject*, TResult>* function, ::Il2CppObject* state, System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskCreationOptions creationOptions) {
       return (Task_1<TResult>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Task_1<TResult>*>::get(), function, state, cancellationToken, creationOptions));
     }
-    // System.Void .ctor(System.Func`1<TResult> valueSelector, System.Threading.Tasks.Task parent, System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.InternalTaskOptions internalOptions, System.Threading.Tasks.TaskScheduler scheduler, System.Threading.StackCrawlMark stackMark)
+    // System.Void .ctor(System.Func`1<TResult> valueSelector, System.Threading.Tasks.Task parent, System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.InternalTaskOptions internalOptions, System.Threading.Tasks.TaskScheduler scheduler, ref System.Threading.StackCrawlMark stackMark)
     // Offset: 0xFFFFFFFF
     static Task_1<TResult>* New_ctor(System::Func_1<TResult>* valueSelector, System::Threading::Tasks::Task* parent, System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::InternalTaskOptions internalOptions, System::Threading::Tasks::TaskScheduler* scheduler, System::Threading::StackCrawlMark& stackMark) {
       return (Task_1<TResult>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Task_1<TResult>*>::get(), valueSelector, parent, cancellationToken, creationOptions, internalOptions, scheduler, stackMark));
@@ -141,7 +135,7 @@ namespace System::Threading::Tasks {
     static Task_1<TResult>* New_ctor(System::Func_1<TResult>* valueSelector, System::Threading::Tasks::Task* parent, System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::InternalTaskOptions internalOptions, System::Threading::Tasks::TaskScheduler* scheduler) {
       return (Task_1<TResult>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Task_1<TResult>*>::get(), valueSelector, parent, cancellationToken, creationOptions, internalOptions, scheduler));
     }
-    // static System.Threading.Tasks.Task`1<TResult> StartNew(System.Threading.Tasks.Task parent, System.Func`1<TResult> function, System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.InternalTaskOptions internalOptions, System.Threading.Tasks.TaskScheduler scheduler, System.Threading.StackCrawlMark stackMark)
+    // static System.Threading.Tasks.Task`1<TResult> StartNew(System.Threading.Tasks.Task parent, System.Func`1<TResult> function, System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.InternalTaskOptions internalOptions, System.Threading.Tasks.TaskScheduler scheduler, ref System.Threading.StackCrawlMark stackMark)
     // Offset: 0xFFFFFFFF
     static System::Threading::Tasks::Task_1<TResult>* StartNew(System::Threading::Tasks::Task* parent, System::Func_1<TResult>* function, System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::InternalTaskOptions internalOptions, System::Threading::Tasks::TaskScheduler* scheduler, System::Threading::StackCrawlMark& stackMark) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Threading::Tasks::Task_1<TResult>*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Task_1<TResult>*>::get(), "StartNew", parent, function, cancellationToken, creationOptions, internalOptions, scheduler, stackMark));

@@ -421,19 +421,19 @@ namespace UnityEngine::UI {
     // protected System.Void UpdateBounds()
     // Offset: 0x120BF0C
     void UpdateBounds();
-    // static System.Void AdjustBounds(UnityEngine.Bounds viewBounds, UnityEngine.Vector2 contentPivot, UnityEngine.Vector3 contentSize, UnityEngine.Vector3 contentPos)
+    // static System.Void AdjustBounds(ref UnityEngine.Bounds viewBounds, ref UnityEngine.Vector2 contentPivot, ref UnityEngine.Vector3 contentSize, ref UnityEngine.Vector3 contentPos)
     // Offset: 0x120F004
     static void AdjustBounds(UnityEngine::Bounds& viewBounds, UnityEngine::Vector2& contentPivot, UnityEngine::Vector3& contentSize, UnityEngine::Vector3& contentPos);
     // private UnityEngine.Bounds GetBounds()
     // Offset: 0x120E988
     UnityEngine::Bounds GetBounds();
-    // static UnityEngine.Bounds InternalGetBounds(UnityEngine.Vector3[] corners, UnityEngine.Matrix4x4 viewWorldToLocalMatrix)
+    // static UnityEngine.Bounds InternalGetBounds(UnityEngine.Vector3[] corners, ref UnityEngine.Matrix4x4 viewWorldToLocalMatrix)
     // Offset: 0x120F144
     static UnityEngine::Bounds InternalGetBounds(::Array<UnityEngine::Vector3>* corners, UnityEngine::Matrix4x4& viewWorldToLocalMatrix);
     // private UnityEngine.Vector2 CalculateOffset(UnityEngine.Vector2 delta)
     // Offset: 0x120CF40
     UnityEngine::Vector2 CalculateOffset(UnityEngine::Vector2 delta);
-    // static UnityEngine.Vector2 InternalCalculateOffset(UnityEngine.Bounds viewBounds, UnityEngine.Bounds contentBounds, System.Boolean horizontal, System.Boolean vertical, UnityEngine.UI.ScrollRect/MovementType movementType, UnityEngine.Vector2 delta)
+    // static UnityEngine.Vector2 InternalCalculateOffset(ref UnityEngine.Bounds viewBounds, ref UnityEngine.Bounds contentBounds, System.Boolean horizontal, System.Boolean vertical, UnityEngine.UI.ScrollRect/MovementType movementType, ref UnityEngine.Vector2 delta)
     // Offset: 0x120F348
     static UnityEngine::Vector2 InternalCalculateOffset(UnityEngine::Bounds& viewBounds, UnityEngine::Bounds& contentBounds, bool horizontal, bool vertical, UnityEngine::UI::ScrollRect::MovementType movementType, UnityEngine::Vector2& delta);
     // protected System.Void SetDirty()

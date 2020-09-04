@@ -191,5 +191,5 @@ void System::Threading::WaitHandle::Dispose() {
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose"));
 }
 void System::Threading::WaitHandle::System_IDisposable_Dispose() {
-  Dispose();
+  System::Threading::WaitHandle::Dispose();
 }

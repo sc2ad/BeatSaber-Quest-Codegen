@@ -39,7 +39,7 @@ namespace RootMotion::FinalIK {
     // public System.Void SetDefaultLocalRotation(UnityEngine.Quaternion localRotation)
     // Offset: 0x1237BEC
     void SetDefaultLocalRotation(UnityEngine::Quaternion localRotation);
-    // public UnityEngine.Quaternion GetLimitedLocalRotation(UnityEngine.Quaternion localRotation, System.Boolean changed)
+    // public UnityEngine.Quaternion GetLimitedLocalRotation(UnityEngine.Quaternion localRotation, out System.Boolean changed)
     // Offset: 0x1237C04
     UnityEngine::Quaternion GetLimitedLocalRotation(UnityEngine::Quaternion localRotation, bool& changed);
     // public System.Boolean Apply()

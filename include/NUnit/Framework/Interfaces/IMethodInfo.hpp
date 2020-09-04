@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include <initializer_list>
 // Including type: NUnit.Framework.Interfaces.IReflectionInfo
 #include "NUnit/Framework/Interfaces/IReflectionInfo.hpp"
 // Completed includes
@@ -64,12 +65,26 @@ namespace NUnit::Framework::Interfaces {
     // public NUnit.Framework.Interfaces.IParameterInfo[] GetParameters()
     // Offset: 0xFFFFFFFF
     ::Array<NUnit::Framework::Interfaces::IParameterInfo*>* GetParameters();
-    // public NUnit.Framework.Interfaces.IMethodInfo MakeGenericMethod(System.Type[] typeArguments)
+    // public NUnit.Framework.Interfaces.IMethodInfo MakeGenericMethod(params System.Type[] typeArguments)
     // Offset: 0xFFFFFFFF
     NUnit::Framework::Interfaces::IMethodInfo* MakeGenericMethod(::Array<System::Type*>* typeArguments);
-    // public System.Object Invoke(System.Object fixture, System.Object[] args)
+    // Creating initializer_list -> params proxy for: NUnit.Framework.Interfaces.IMethodInfo MakeGenericMethod(params System.Type[] typeArguments)
+    NUnit::Framework::Interfaces::IMethodInfo* MakeGenericMethod(std::initializer_list<System::Type*> typeArguments);
+    // Creating TArgs -> initializer_list proxy for: NUnit.Framework.Interfaces.IMethodInfo MakeGenericMethod(params System.Type[] typeArguments)
+    template<class ...TParams>
+    NUnit::Framework::Interfaces::IMethodInfo* MakeGenericMethod(TParams&&... typeArguments) {
+      return MakeGenericMethod({typeArguments...});
+    }
+    // public System.Object Invoke(System.Object fixture, params System.Object[] args)
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* Invoke(::Il2CppObject* fixture, ::Array<::Il2CppObject*>* args);
+    // Creating initializer_list -> params proxy for: System.Object Invoke(System.Object fixture, params System.Object[] args)
+    ::Il2CppObject* Invoke(::Il2CppObject* fixture, std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.Object Invoke(System.Object fixture, params System.Object[] args)
+    template<class ...TParams>
+    ::Il2CppObject* Invoke(::Il2CppObject* fixture, TParams&&... args) {
+      return Invoke(fixture, {args...});
+    }
   }; // NUnit.Framework.Interfaces.IMethodInfo
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -33,13 +33,13 @@ namespace Valve::VR {
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16D7734
     static IVRSystem::_GetOutputDevice* New_ctor(::Il2CppObject* object, System::IntPtr method);
-    // public System.Void Invoke(System.UInt64 pnDevice, Valve.VR.ETextureType textureType, System.IntPtr pInstance)
+    // public System.Void Invoke(ref System.UInt64 pnDevice, Valve.VR.ETextureType textureType, System.IntPtr pInstance)
     // Offset: 0x16D7748
     void Invoke(uint64_t& pnDevice, Valve::VR::ETextureType textureType, System::IntPtr pInstance);
-    // public System.IAsyncResult BeginInvoke(System.UInt64 pnDevice, Valve.VR.ETextureType textureType, System.IntPtr pInstance, System.AsyncCallback callback, System.Object object)
+    // public System.IAsyncResult BeginInvoke(ref System.UInt64 pnDevice, Valve.VR.ETextureType textureType, System.IntPtr pInstance, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16D79CC
     System::IAsyncResult* BeginInvoke(uint64_t& pnDevice, Valve::VR::ETextureType textureType, System::IntPtr pInstance, System::AsyncCallback* callback, ::Il2CppObject* object);
-    // public System.Void EndInvoke(System.UInt64 pnDevice, System.IAsyncResult result)
+    // public System.Void EndInvoke(ref System.UInt64 pnDevice, System.IAsyncResult result)
     // Offset: 0x16D7A9C
     void EndInvoke(uint64_t& pnDevice, System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetOutputDevice

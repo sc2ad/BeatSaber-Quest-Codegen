@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
 // Including type: System.IntPtr
@@ -65,9 +66,16 @@ namespace UnityEngine {
     // static public UnityEngine.AnimationCurve EaseInOut(System.Single timeStart, System.Single valueStart, System.Single timeEnd, System.Single valueEnd)
     // Offset: 0x1303188
     static UnityEngine::AnimationCurve* EaseInOut(float timeStart, float valueStart, float timeEnd, float valueEnd);
-    // public System.Void .ctor(UnityEngine.Keyframe[] keys)
+    // public System.Void .ctor(params UnityEngine.Keyframe[] keys)
     // Offset: 0x1303118
     static AnimationCurve* New_ctor(::Array<UnityEngine::Keyframe>* keys);
+    // Creating initializer_list -> params proxy for: System.Void .ctor(params UnityEngine.Keyframe[] keys)
+    static AnimationCurve* New_ctor(std::initializer_list<UnityEngine::Keyframe> keys);
+    // Creating TArgs -> initializer_list proxy for: System.Void .ctor(params UnityEngine.Keyframe[] keys)
+    template<class ...TParams>
+    static AnimationCurve* New_ctor(TParams&&... keys) {
+      return New_ctor({keys...});
+    }
     // protected override System.Void Finalize()
     // Offset: 0x1302D24
     // Implemented from: System.Object

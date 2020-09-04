@@ -28,13 +28,13 @@ namespace UnityEngine {
     // public System.Void set_size(UnityEngine.Vector3 value)
     // Offset: 0x1962C28
     void set_size(UnityEngine::Vector3 value);
-    // private System.Void set_center_Injected(UnityEngine.Vector3 value)
+    // private System.Void set_center_Injected(ref UnityEngine.Vector3 value)
     // Offset: 0x1962B28
     void set_center_Injected(UnityEngine::Vector3& value);
-    // private System.Void get_size_Injected(UnityEngine.Vector3 ret)
+    // private System.Void get_size_Injected(out UnityEngine.Vector3 ret)
     // Offset: 0x1962BD8
     void get_size_Injected(UnityEngine::Vector3& ret);
-    // private System.Void set_size_Injected(UnityEngine.Vector3 value)
+    // private System.Void set_size_Injected(ref UnityEngine.Vector3 value)
     // Offset: 0x1962C80
     void set_size_Injected(UnityEngine::Vector3& value);
   }; // UnityEngine.BoxCollider

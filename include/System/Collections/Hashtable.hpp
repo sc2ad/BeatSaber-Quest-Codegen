@@ -183,7 +183,7 @@ namespace System::Collections {
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x133CAC8
     static Hashtable* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
-    // private System.UInt32 InitHash(System.Object key, System.Int32 hashsize, System.UInt32 seed, System.UInt32 incr)
+    // private System.UInt32 InitHash(System.Object key, System.Int32 hashsize, out System.UInt32 seed, out System.UInt32 incr)
     // Offset: 0x133CB60
     uint InitHash(::Il2CppObject* key, int hashsize, uint& seed, uint& incr);
     // public System.Void Add(System.Object key, System.Object value)

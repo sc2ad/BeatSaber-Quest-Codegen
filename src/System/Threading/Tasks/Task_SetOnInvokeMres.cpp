@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Threading.Tasks.Task/SetOnInvokeMres
 #include "System/Threading/Tasks/Task_SetOnInvokeMres.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
@@ -17,5 +16,5 @@ void System::Threading::Tasks::Task::SetOnInvokeMres::Invoke(System::Threading::
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "Invoke", completingTask));
 }
 void System::Threading::Tasks::Task::SetOnInvokeMres::System_Threading_Tasks_ITaskCompletionAction_Invoke(System::Threading::Tasks::Task* completingTask) {
-  Invoke(completingTask);
+  System::Threading::Tasks::Task::SetOnInvokeMres::Invoke(completingTask);
 }

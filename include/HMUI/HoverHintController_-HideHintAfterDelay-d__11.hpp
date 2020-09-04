@@ -27,7 +27,7 @@ namespace HMUI {
     // public System.Single delay
     // Offset: 0x28
     float delay;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xEE2E3C
     static HoverHintController::$HideHintAfterDelay$d__11* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

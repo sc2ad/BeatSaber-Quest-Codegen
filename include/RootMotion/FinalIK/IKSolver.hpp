@@ -63,7 +63,7 @@ namespace RootMotion::FinalIK {
     // public System.Boolean IsValid()
     // Offset: 0x13894A0
     bool IsValid();
-    // public System.Boolean IsValid(System.String message)
+    // public System.Boolean IsValid(ref System.String message)
     // Offset: 0xFFFFFFFF
     bool IsValid(::Il2CppString*& message);
     // public System.Void Initiate(UnityEngine.Transform root)
@@ -120,7 +120,7 @@ namespace RootMotion::FinalIK {
     // static public System.Boolean HierarchyIsValid(RootMotion.FinalIK.IKSolver/Bone[] bones)
     // Offset: 0x1389730
     static bool HierarchyIsValid(::Array<RootMotion::FinalIK::IKSolver::Bone*>* bones);
-    // static protected System.Single PreSolveBones(RootMotion.FinalIK.IKSolver/Bone[] bones)
+    // static protected System.Single PreSolveBones(ref RootMotion.FinalIK.IKSolver/Bone[] bones)
     // Offset: 0x13897DC
     static float PreSolveBones(::Array<RootMotion::FinalIK::IKSolver::Bone*>*& bones);
     // protected System.Void .ctor()

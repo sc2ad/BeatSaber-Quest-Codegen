@@ -84,7 +84,7 @@ namespace System {
     // static System.String GetRealFormat(System.String format, System.Globalization.DateTimeFormatInfo dtfi)
     // Offset: 0x10D534C
     static ::Il2CppString* GetRealFormat(::Il2CppString* format, System::Globalization::DateTimeFormatInfo* dtfi);
-    // static private System.String ExpandPredefinedFormat(System.String format, System.DateTime dateTime, System.Globalization.DateTimeFormatInfo dtfi, System.TimeSpan offset)
+    // static private System.String ExpandPredefinedFormat(System.String format, ref System.DateTime dateTime, ref System.Globalization.DateTimeFormatInfo dtfi, ref System.TimeSpan offset)
     // Offset: 0x10D55F8
     static ::Il2CppString* ExpandPredefinedFormat(::Il2CppString* format, System::DateTime& dateTime, System::Globalization::DateTimeFormatInfo*& dtfi, System::TimeSpan& offset);
     // static System.String Format(System.DateTime dateTime, System.String format, System.Globalization.DateTimeFormatInfo dtfi)

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: BloomPrePassBGLightWithId
 #include "GlobalNamespace/BloomPrePassBGLightWithId.hpp"
 // Including type: BloomPrePassBGLight

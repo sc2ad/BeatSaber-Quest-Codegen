@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.Callback/RequestCallback
 #include "Oculus/Platform/Callback_RequestCallback.hpp"
 // Including type: Oculus.Platform.Message/Callback

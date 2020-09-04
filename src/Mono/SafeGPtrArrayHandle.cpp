@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Mono.SafeGPtrArrayHandle
 #include "Mono/SafeGPtrArrayHandle.hpp"
 // Including type: System.IntPtr
@@ -27,5 +26,5 @@ void Mono::SafeGPtrArrayHandle::Dispose() {
   THROW_UNLESS(il2cpp_utils::RunMethod(*this, "Dispose"));
 }
 void Mono::SafeGPtrArrayHandle::System_IDisposable_Dispose() {
-  Dispose();
+  Mono::SafeGPtrArrayHandle::Dispose();
 }

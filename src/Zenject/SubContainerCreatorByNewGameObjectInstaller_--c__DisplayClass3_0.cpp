@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.SubContainerCreatorByNewGameObjectInstaller/<>c__DisplayClass3_0
 #include "Zenject/SubContainerCreatorByNewGameObjectInstaller_--c__DisplayClass3_0.hpp"
 // Including type: System.Collections.Generic.List`1

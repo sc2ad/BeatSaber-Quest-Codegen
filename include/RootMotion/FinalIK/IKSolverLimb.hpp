@@ -132,7 +132,7 @@ namespace RootMotion::FinalIK {
     // private RootMotion.FinalIK.IKSolverLimb/AxisDirection[] get_axisDirections()
     // Offset: 0x1352FF0
     ::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>* get_axisDirections();
-    // private System.Void StoreAxisDirections(RootMotion.FinalIK.IKSolverLimb/AxisDirection[] axisDirections)
+    // private System.Void StoreAxisDirections(ref RootMotion.FinalIK.IKSolverLimb/AxisDirection[] axisDirections)
     // Offset: 0x1351D78
     void StoreAxisDirections(::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>*& axisDirections);
     // private UnityEngine.Vector3 GetModifiedBendNormal()

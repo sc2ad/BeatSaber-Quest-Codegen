@@ -170,10 +170,10 @@ namespace System {
     // static System.Decimal Abs(System.Decimal d)
     // Offset: 0xC8BDFC
     static System::Decimal Abs(System::Decimal d);
-    // static private System.Void FCallAddSub(System.Decimal d1, System.Decimal d2, System.Byte bSign)
+    // static private System.Void FCallAddSub(ref System.Decimal d1, ref System.Decimal d2, System.Byte bSign)
     // Offset: 0xC8BE30
     static void FCallAddSub(System::Decimal& d1, System::Decimal& d2, uint8_t bSign);
-    // static private System.Int32 FCallCompare(System.Decimal d1, System.Decimal d2)
+    // static private System.Int32 FCallCompare(ref System.Decimal d1, ref System.Decimal d2)
     // Offset: 0xC8BE34
     static int FCallCompare(System::Decimal& d1, System::Decimal& d2);
     // static public System.Decimal Parse(System.String s, System.IFormatProvider provider)
@@ -191,7 +191,7 @@ namespace System {
     // static public System.Decimal Round(System.Decimal d, System.Int32 decimals)
     // Offset: 0xC8C360
     static System::Decimal Round(System::Decimal d, int decimals);
-    // static private System.Void FCallRound(System.Decimal d, System.Int32 decimals)
+    // static private System.Void FCallRound(ref System.Decimal d, System.Int32 decimals)
     // Offset: 0xC8C3DC
     static void FCallRound(System::Decimal& d, int decimals);
     // static public System.Byte ToByte(System.Decimal value)
@@ -227,7 +227,7 @@ namespace System {
     // static public System.Single ToSingle(System.Decimal d)
     // Offset: 0xC8CE0C
     static float ToSingle(System::Decimal d);
-    // static private System.Void FCallTruncate(System.Decimal d)
+    // static private System.Void FCallTruncate(ref System.Decimal d)
     // Offset: 0xC8CA90
     static void FCallTruncate(System::Decimal& d);
     // static private System.Void .cctor()

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Experimental.Audio.AudioSampleProvider
 #include "UnityEngine/Experimental/Audio/AudioSampleProvider.hpp"
 // Including type: UnityEngine.Experimental.Audio.AudioSampleProvider/SampleFramesHandler

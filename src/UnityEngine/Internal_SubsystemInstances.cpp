@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Internal_SubsystemInstances
 #include "UnityEngine/Internal_SubsystemInstances.hpp"
 // Including type: System.Collections.Generic.List`1

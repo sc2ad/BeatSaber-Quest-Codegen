@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -14,9 +15,16 @@ namespace GlobalNamespace {
     // static public System.String GetText(System.String msg)
     // Offset: 0x10A8798
     static ::Il2CppString* GetText(::Il2CppString* msg);
-    // static public System.String GetText(System.String fmt, System.Object[] args)
+    // static public System.String GetText(System.String fmt, params System.Object[] args)
     // Offset: 0x10A879C
     static ::Il2CppString* GetText(::Il2CppString* fmt, ::Array<::Il2CppObject*>* args);
+    // Creating initializer_list -> params proxy for: System.String GetText(System.String fmt, params System.Object[] args)
+    static ::Il2CppString* GetText(::Il2CppString* fmt, std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.String GetText(System.String fmt, params System.Object[] args)
+    template<class ...TParams>
+    static ::Il2CppString* GetText(::Il2CppString* fmt, TParams&&... args) {
+      return GetText(fmt, {args...});
+    }
   }; // Locale
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -57,10 +57,10 @@ namespace UnityEngine::Audio {
     // public System.Void SetEvaluateOnSeek(System.Boolean value)
     // Offset: 0xA5EB68
     void SetEvaluateOnSeek(bool value);
-    // static private System.Void InternalSetTarget(UnityEngine.Playables.PlayableOutputHandle output, UnityEngine.AudioSource target)
+    // static private System.Void InternalSetTarget(ref UnityEngine.Playables.PlayableOutputHandle output, UnityEngine.AudioSource target)
     // Offset: 0x195D0B4
     static void InternalSetTarget(UnityEngine::Playables::PlayableOutputHandle& output, UnityEngine::AudioSource* target);
-    // static private System.Void InternalSetEvaluateOnSeek(UnityEngine.Playables.PlayableOutputHandle output, System.Boolean value)
+    // static private System.Void InternalSetEvaluateOnSeek(ref UnityEngine.Playables.PlayableOutputHandle output, System.Boolean value)
     // Offset: 0x195D154
     static void InternalSetEvaluateOnSeek(UnityEngine::Playables::PlayableOutputHandle& output, bool value);
     // public UnityEngine.Playables.PlayableOutputHandle GetHandle()

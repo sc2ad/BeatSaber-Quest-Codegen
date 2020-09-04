@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.HitReaction/HitPointEffector/EffectorLink
 #include "RootMotion/FinalIK/HitReaction_HitPointEffector_EffectorLink.hpp"
 // Including type: RootMotion.FinalIK.IKSolverFullBodyBiped

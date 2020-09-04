@@ -191,7 +191,7 @@ namespace System::Collections::Generic {
     void SetCapacity(int capacity) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "SetCapacity", capacity));
     }
-    // private System.Void MoveNext(System.Int32 index)
+    // private System.Void MoveNext(ref System.Int32 index)
     // Offset: 0xFFFFFFFF
     void MoveNext(int& index) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "MoveNext", index));

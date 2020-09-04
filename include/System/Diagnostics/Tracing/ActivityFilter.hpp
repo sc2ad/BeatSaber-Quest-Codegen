@@ -23,9 +23,6 @@ namespace System::Collections::Concurrent {
   // Forward declaring type: ConcurrentDictionary`2<TKey, TValue>
   template<typename TKey, typename TValue>
   class ConcurrentDictionary_2;
-  // Forward declaring type: ConcurrentDictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
-  class ConcurrentDictionary_2;
 }
 // Forward declaring namespace: System
 namespace System {
@@ -35,9 +32,6 @@ namespace System {
   // Forward declaring type: Action`1<T>
   template<typename T>
   class Action_1;
-  // Forward declaring type: Tuple`2<T1, T2>
-  template<typename T1, typename T2>
-  class Tuple_2;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
@@ -84,10 +78,10 @@ namespace System::Diagnostics::Tracing {
     // private System.Action`1<System.Guid> m_myActivityDelegate
     // Offset: 0x48
     System::Action_1<System::Guid>* m_myActivityDelegate;
-    // static public System.Void DisableFilter(System.Diagnostics.Tracing.ActivityFilter filterList, System.Diagnostics.Tracing.EventSource source)
+    // static public System.Void DisableFilter(ref System.Diagnostics.Tracing.ActivityFilter filterList, System.Diagnostics.Tracing.EventSource source)
     // Offset: 0xC96758
     static void DisableFilter(System::Diagnostics::Tracing::ActivityFilter*& filterList, System::Diagnostics::Tracing::EventSource* source);
-    // static public System.Void UpdateFilter(System.Diagnostics.Tracing.ActivityFilter filterList, System.Diagnostics.Tracing.EventSource source, System.Int32 perEventSourceSessionId, System.String startEvents)
+    // static public System.Void UpdateFilter(ref System.Diagnostics.Tracing.ActivityFilter filterList, System.Diagnostics.Tracing.EventSource source, System.Int32 perEventSourceSessionId, System.String startEvents)
     // Offset: 0xC96B60
     static void UpdateFilter(System::Diagnostics::Tracing::ActivityFilter*& filterList, System::Diagnostics::Tracing::EventSource* source, int perEventSourceSessionId, ::Il2CppString* startEvents);
     // static public System.Boolean PassesActivityFilter(System.Diagnostics.Tracing.ActivityFilter filterList, System.Guid* childActivityID, System.Boolean triggeringEvent, System.Diagnostics.Tracing.EventSource source, System.Int32 eventId)
@@ -111,7 +105,7 @@ namespace System::Diagnostics::Tracing {
     // static private System.Action`1<System.Guid> GetActivityDyingDelegate(System.Diagnostics.Tracing.ActivityFilter filterList)
     // Offset: 0xC97C34
     static System::Action_1<System::Guid>* GetActivityDyingDelegate(System::Diagnostics::Tracing::ActivityFilter* filterList);
-    // static private System.Boolean EnableFilter(System.Diagnostics.Tracing.ActivityFilter filterList, System.Diagnostics.Tracing.EventSource source, System.Int32 perEventSourceSessionId, System.Int32 eventId, System.Int32 samplingFreq)
+    // static private System.Boolean EnableFilter(ref System.Diagnostics.Tracing.ActivityFilter filterList, System.Diagnostics.Tracing.EventSource source, System.Int32 perEventSourceSessionId, System.Int32 eventId, System.Int32 samplingFreq)
     // Offset: 0xC96FB4
     static bool EnableFilter(System::Diagnostics::Tracing::ActivityFilter*& filterList, System::Diagnostics::Tracing::EventSource* source, int perEventSourceSessionId, int eventId, int samplingFreq);
     // static private System.Void TrimActiveActivityStore(System.Collections.Concurrent.ConcurrentDictionary`2<System.Guid,System.Int32> activities)

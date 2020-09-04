@@ -99,16 +99,16 @@ namespace UnityEngine::Playables {
     // private System.Void SendOnPlayableDirectorStop()
     // Offset: 0x198339C
     void SendOnPlayableDirectorStop();
-    // private UnityEngine.Object GetReferenceValue_Injected(UnityEngine.PropertyName id, System.Boolean idValid)
+    // private UnityEngine.Object GetReferenceValue_Injected(ref UnityEngine.PropertyName id, out System.Boolean idValid)
     // Offset: 0x19831DC
     UnityEngine::Object* GetReferenceValue_Injected(UnityEngine::PropertyName& id, bool& idValid);
-    // private System.Void GetGraphHandle_Injected(UnityEngine.Playables.PlayableGraph ret)
+    // private System.Void GetGraphHandle_Injected(out UnityEngine.Playables.PlayableGraph ret)
     // Offset: 0x1983284
     void GetGraphHandle_Injected(UnityEngine::Playables::PlayableGraph& ret);
-    // public UnityEngine.Object GetReferenceValue(UnityEngine.PropertyName id, System.Boolean idValid)
+    // public UnityEngine.Object GetReferenceValue(UnityEngine.PropertyName id, out System.Boolean idValid)
     // Offset: 0x1983180
     // Implemented from: UnityEngine.IExposedPropertyTable
-    // Base method: UnityEngine.Object IExposedPropertyTable::GetReferenceValue(UnityEngine.PropertyName id, System.Boolean idValid)
+    // Base method: UnityEngine.Object IExposedPropertyTable::GetReferenceValue(UnityEngine.PropertyName id, out System.Boolean idValid)
     UnityEngine::Object* GetReferenceValue(UnityEngine::PropertyName id, bool& idValid);
   }; // UnityEngine.Playables.PlayableDirector
 }

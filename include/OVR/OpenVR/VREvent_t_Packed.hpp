@@ -39,7 +39,7 @@ namespace OVR::OpenVR {
     // public System.Void .ctor(OVR.OpenVR.VREvent_t unpacked)
     // Offset: 0xA2DBD0
     static VREvent_t_Packed* New_ctor(OVR::OpenVR::VREvent_t unpacked);
-    // public System.Void Unpack(OVR.OpenVR.VREvent_t unpacked)
+    // public System.Void Unpack(ref OVR.OpenVR.VREvent_t unpacked)
     // Offset: 0xA2DC20
     void Unpack(OVR::OpenVR::VREvent_t& unpacked);
   }; // OVR.OpenVR.VREvent_t_Packed

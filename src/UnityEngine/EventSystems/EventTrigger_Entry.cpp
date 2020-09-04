@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.EventSystems.EventTrigger/Entry
 #include "UnityEngine/EventSystems/EventTrigger_Entry.hpp"
 // Including type: UnityEngine.EventSystems.EventTrigger/TriggerEvent

@@ -28,9 +28,6 @@ namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
   template<typename T>
   class IEnumerable_1;
-  // Forward declaring type: HashSet`1<T>
-  template<typename T>
-  class HashSet_1;
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.MessageWithUserAndRoomList
 #include "Oculus/Platform/MessageWithUserAndRoomList.hpp"
 // Including type: Oculus.Platform.Models.UserAndRoomList

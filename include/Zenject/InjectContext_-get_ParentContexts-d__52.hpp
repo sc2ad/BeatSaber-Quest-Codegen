@@ -38,7 +38,7 @@ namespace Zenject {
     // private System.Collections.Generic.IEnumerator`1<Zenject.InjectContext> <>7__wrap1
     // Offset: 0x30
     System::Collections::Generic::IEnumerator_1<Zenject::InjectContext*>* $$7__wrap1;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xF3CACC
     static InjectContext::$get_ParentContexts$d__52* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()

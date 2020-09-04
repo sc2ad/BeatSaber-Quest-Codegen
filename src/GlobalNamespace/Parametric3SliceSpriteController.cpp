@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Parametric3SliceSpriteController
 #include "GlobalNamespace/Parametric3SliceSpriteController.hpp"
 // Including type: UnityEngine.MeshRenderer

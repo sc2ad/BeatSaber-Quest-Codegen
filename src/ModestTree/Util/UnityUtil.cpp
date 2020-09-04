@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: ModestTree.Util.UnityUtil
 #include "ModestTree/Util/UnityUtil.hpp"
 // Including type: ModestTree.Util.UnityUtil/<get_AllScenes>d__1

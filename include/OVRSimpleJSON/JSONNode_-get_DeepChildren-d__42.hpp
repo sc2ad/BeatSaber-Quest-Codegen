@@ -41,7 +41,7 @@ namespace OVRSimpleJSON {
     // private System.Collections.Generic.IEnumerator`1<OVRSimpleJSON.JSONNode> <>7__wrap2
     // Offset: 0x38
     System::Collections::Generic::IEnumerator_1<OVRSimpleJSON::JSONNode*>* $$7__wrap2;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xF535D0
     static JSONNode::$get_DeepChildren$d__42* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()

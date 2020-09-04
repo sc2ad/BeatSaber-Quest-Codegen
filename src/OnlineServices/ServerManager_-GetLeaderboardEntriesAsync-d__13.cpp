@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OnlineServices.ServerManager/<GetLeaderboardEntriesAsync>d__13
 #include "OnlineServices/ServerManager_-GetLeaderboardEntriesAsync-d__13.hpp"
 // Including type: OnlineServices.LeaderboardEntriesResult

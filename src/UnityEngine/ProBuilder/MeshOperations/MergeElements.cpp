@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.MeshOperations.MergeElements
 #include "UnityEngine/ProBuilder/MeshOperations/MergeElements.hpp"
 // Including type: UnityEngine.ProBuilder.MeshOperations.MergeElements/<>c__DisplayClass0_0

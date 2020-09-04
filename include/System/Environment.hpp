@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: System.Int32
 #include "System/Int32.hpp"
 // Completed includes
@@ -54,9 +55,16 @@ namespace System {
     // static System.String GetResourceString(System.String key)
     // Offset: 0xD96D48
     static ::Il2CppString* GetResourceString(::Il2CppString* key);
-    // static System.String GetResourceString(System.String key, System.Object[] values)
+    // static System.String GetResourceString(System.String key, params System.Object[] values)
     // Offset: 0xD9942C
     static ::Il2CppString* GetResourceString(::Il2CppString* key, ::Array<::Il2CppObject*>* values);
+    // Creating initializer_list -> params proxy for: System.String GetResourceString(System.String key, params System.Object[] values)
+    static ::Il2CppString* GetResourceString(::Il2CppString* key, std::initializer_list<::Il2CppObject*> values);
+    // Creating TArgs -> initializer_list proxy for: System.String GetResourceString(System.String key, params System.Object[] values)
+    template<class ...TParams>
+    static ::Il2CppString* GetResourceString(::Il2CppString* key, TParams&&... values) {
+      return GetResourceString(key, {values...});
+    }
     // static System.String GetResourceStringEncodingName(System.Int32 codePage)
     // Offset: 0xDA7418
     static ::Il2CppString* GetResourceStringEncodingName(int codePage);

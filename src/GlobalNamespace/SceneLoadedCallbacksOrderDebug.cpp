@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: SceneLoadedCallbacksOrderDebug
 #include "GlobalNamespace/SceneLoadedCallbacksOrderDebug.hpp"
 // Including type: UnityEngine.SceneManagement.Scene

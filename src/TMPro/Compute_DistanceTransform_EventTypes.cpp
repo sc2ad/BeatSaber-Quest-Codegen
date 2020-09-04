@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TMPro.Compute_DistanceTransform_EventTypes
 #include "TMPro/Compute_DistanceTransform_EventTypes.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

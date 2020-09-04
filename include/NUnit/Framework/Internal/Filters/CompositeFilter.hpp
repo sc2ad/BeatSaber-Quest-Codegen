@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: NUnit.Framework.Internal.TestFilter
 #include "NUnit/Framework/Internal/TestFilter.hpp"
 // Completed includes
@@ -36,9 +37,16 @@ namespace NUnit::Framework::Internal::Filters {
     constexpr operator System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>*() const noexcept {
       return Filters;
     }
-    // public System.Void .ctor(NUnit.Framework.Interfaces.ITestFilter[] filters)
+    // public System.Void .ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
     // Offset: 0x108B8E8
     static CompositeFilter* New_ctor(::Array<NUnit::Framework::Interfaces::ITestFilter*>* filters);
+    // Creating initializer_list -> params proxy for: System.Void .ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
+    static CompositeFilter* New_ctor(std::initializer_list<NUnit::Framework::Interfaces::ITestFilter*> filters);
+    // Creating TArgs -> initializer_list proxy for: System.Void .ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
+    template<class ...TParams>
+    static CompositeFilter* New_ctor(TParams&&... filters) {
+      return New_ctor({filters...});
+    }
     // public System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITestFilter> get_Filters()
     // Offset: 0x108BCC8
     System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>* get_Filters();

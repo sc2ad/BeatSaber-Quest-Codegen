@@ -169,13 +169,13 @@ namespace UnityEngine {
     // public UnityEngine.Texture GetTexture(System.Int32 nameID)
     // Offset: 0x1318894
     UnityEngine::Texture* GetTexture(int nameID);
-    // private System.Void SetColorImpl_Injected(System.Int32 name, UnityEngine.Color value)
+    // private System.Void SetColorImpl_Injected(System.Int32 name, ref UnityEngine.Color value)
     // Offset: 0x13182FC
     void SetColorImpl_Injected(int name, UnityEngine::Color& value);
-    // private System.Void SetMatrixImpl_Injected(System.Int32 name, UnityEngine.Matrix4x4 value)
+    // private System.Void SetMatrixImpl_Injected(System.Int32 name, ref UnityEngine.Matrix4x4 value)
     // Offset: 0x13183AC
     void SetMatrixImpl_Injected(int name, UnityEngine::Matrix4x4& value);
-    // private System.Void GetColorImpl_Injected(System.Int32 name, UnityEngine.Color ret)
+    // private System.Void GetColorImpl_Injected(System.Int32 name, out UnityEngine.Color ret)
     // Offset: 0x1318518
     void GetColorImpl_Injected(int name, UnityEngine::Color& ret);
   }; // UnityEngine.Material

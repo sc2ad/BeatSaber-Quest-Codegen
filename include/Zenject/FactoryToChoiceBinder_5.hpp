@@ -13,7 +13,6 @@
 // Begin forward declares
 // Forward declaring namespace: Zenject
 namespace Zenject {
-  // Skipping declaration: FactoryFromBinder`5 because it is already included!
   // Forward declaring type: DiContainer
   class DiContainer;
   // Forward declaring type: BindInfo

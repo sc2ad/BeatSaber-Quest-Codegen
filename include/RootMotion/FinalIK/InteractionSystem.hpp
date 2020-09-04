@@ -42,9 +42,6 @@ namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
   template<typename T>
   class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
 }
 // Completed forward declares
 // Type namespace: RootMotion.FinalIK
@@ -202,10 +199,10 @@ namespace RootMotion::FinalIK {
     // public System.Boolean TriggerInteraction(System.Int32 index, System.Boolean interrupt)
     // Offset: 0x1450A24
     bool TriggerInteraction(int index, bool interrupt);
-    // public System.Boolean TriggerInteraction(System.Int32 index, System.Boolean interrupt, RootMotion.FinalIK.InteractionObject interactionObject)
+    // public System.Boolean TriggerInteraction(System.Int32 index, System.Boolean interrupt, out RootMotion.FinalIK.InteractionObject interactionObject)
     // Offset: 0x1450CC8
     bool TriggerInteraction(int index, bool interrupt, RootMotion::FinalIK::InteractionObject*& interactionObject);
-    // public System.Boolean TriggerInteraction(System.Int32 index, System.Boolean interrupt, RootMotion.FinalIK.InteractionTarget interactionTarget)
+    // public System.Boolean TriggerInteraction(System.Int32 index, System.Boolean interrupt, out RootMotion.FinalIK.InteractionTarget interactionTarget)
     // Offset: 0x1450EB8
     bool TriggerInteraction(int index, bool interrupt, RootMotion::FinalIK::InteractionTarget*& interactionTarget);
     // public RootMotion.FinalIK.InteractionTrigger/Range GetClosestInteractionRange()
@@ -265,7 +262,7 @@ namespace RootMotion::FinalIK {
     // public System.Void OnTriggerExit(UnityEngine.Collider c)
     // Offset: 0x1452518
     void OnTriggerExit(UnityEngine::Collider* c);
-    // private System.Boolean ContactIsInRange(System.Int32 index, System.Int32 bestRangeIndex)
+    // private System.Boolean ContactIsInRange(System.Int32 index, out System.Int32 bestRangeIndex)
     // Offset: 0x1452614
     bool ContactIsInRange(int index, int& bestRangeIndex);
     // private System.Void OnDrawGizmosSelected()

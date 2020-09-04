@@ -41,16 +41,16 @@ namespace UnityEngine {
     // public UnityEngine.Bounds get_bounds()
     // Offset: 0x1963310
     UnityEngine::Bounds get_bounds();
-    // private System.Void Internal_ClosestPointOnBounds(UnityEngine.Vector3 point, UnityEngine.Vector3 outPos, System.Single distance)
+    // private System.Void Internal_ClosestPointOnBounds(UnityEngine.Vector3 point, ref UnityEngine.Vector3 outPos, ref System.Single distance)
     // Offset: 0x19633CC
     void Internal_ClosestPointOnBounds(UnityEngine::Vector3 point, UnityEngine::Vector3& outPos, float& distance);
     // public UnityEngine.Vector3 ClosestPointOnBounds(UnityEngine.Vector3 position)
     // Offset: 0x19634A4
     UnityEngine::Vector3 ClosestPointOnBounds(UnityEngine::Vector3 position);
-    // private System.Void get_bounds_Injected(UnityEngine.Bounds ret)
+    // private System.Void get_bounds_Injected(out UnityEngine.Bounds ret)
     // Offset: 0x196337C
     void get_bounds_Injected(UnityEngine::Bounds& ret);
-    // private System.Void Internal_ClosestPointOnBounds_Injected(UnityEngine.Vector3 point, UnityEngine.Vector3 outPos, System.Single distance)
+    // private System.Void Internal_ClosestPointOnBounds_Injected(ref UnityEngine.Vector3 point, ref UnityEngine.Vector3 outPos, ref System.Single distance)
     // Offset: 0x196343C
     void Internal_ClosestPointOnBounds_Injected(UnityEngine::Vector3& point, UnityEngine::Vector3& outPos, float& distance);
   }; // UnityEngine.Collider

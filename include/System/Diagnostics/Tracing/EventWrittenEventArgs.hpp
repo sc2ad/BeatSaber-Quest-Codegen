@@ -16,9 +16,6 @@ namespace System::Collections::ObjectModel {
   // Forward declaring type: ReadOnlyCollection`1<T>
   template<typename T>
   class ReadOnlyCollection_1;
-  // Forward declaring type: ReadOnlyCollection`1<T>
-  template<typename T>
-  class ReadOnlyCollection_1;
 }
 // Forward declaring namespace: System::Diagnostics::Tracing
 namespace System::Diagnostics::Tracing {

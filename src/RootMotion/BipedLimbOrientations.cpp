@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.BipedLimbOrientations
 #include "RootMotion/BipedLimbOrientations.hpp"
 // Including type: RootMotion.BipedLimbOrientations/LimbOrientation

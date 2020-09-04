@@ -27,12 +27,6 @@ namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
   template<typename T>
   class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
 }
 // Forward declaring namespace: System::Text
 namespace System::Text {
@@ -102,7 +96,7 @@ namespace System {
     // private System.Void AddModifier(System.ModifierSpec md)
     // Offset: 0x179C4D4
     void AddModifier(System::ModifierSpec* md);
-    // static private System.Void SkipSpace(System.String name, System.Int32 pos)
+    // static private System.Void SkipSpace(System.String name, ref System.Int32 pos)
     // Offset: 0x179C578
     static void SkipSpace(::Il2CppString* name, int& pos);
     // static private System.Void BoundCheck(System.Int32 idx, System.String s)
@@ -111,7 +105,7 @@ namespace System {
     // static private System.TypeIdentifier ParsedTypeIdentifier(System.String displayName)
     // Offset: 0x179C4D0
     static System::TypeIdentifier* ParsedTypeIdentifier(::Il2CppString* displayName);
-    // static private System.TypeSpec Parse(System.String name, System.Int32 p, System.Boolean is_recurse, System.Boolean allow_aqn)
+    // static private System.TypeSpec Parse(System.String name, ref System.Int32 p, System.Boolean is_recurse, System.Boolean allow_aqn)
     // Offset: 0x179B8B0
     static System::TypeSpec* Parse(::Il2CppString* name, int& p, bool is_recurse, bool allow_aqn);
     // public System.Void .ctor()

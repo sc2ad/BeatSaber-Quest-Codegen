@@ -31,7 +31,7 @@ namespace UnityEngine::UI {
     // public UnityEngine.RectTransform rectTransform
     // Offset: 0x20
     UnityEngine::RectTransform* rectTransform;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0x12013DC
     static LayoutGroup::$DelayedSetDirty$d__56* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

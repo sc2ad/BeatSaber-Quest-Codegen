@@ -40,7 +40,7 @@ namespace UnityEngine {
     // private System.Void Stop(System.Boolean stopOneShots)
     // Offset: 0x195F06C
     void Stop(bool stopOneShots);
-    // static private System.Void GetSpectrumDataHelper(UnityEngine.AudioSource source, System.Single[] samples, System.Int32 channel, UnityEngine.FFTWindow window)
+    // static private System.Void GetSpectrumDataHelper(UnityEngine.AudioSource source, out System.Single[] samples, System.Int32 channel, UnityEngine.FFTWindow window)
     // Offset: 0x195F0BC
     static void GetSpectrumDataHelper(UnityEngine::AudioSource* source, ::Array<float>*& samples, int channel, UnityEngine::FFTWindow window);
     // public System.Single get_volume()

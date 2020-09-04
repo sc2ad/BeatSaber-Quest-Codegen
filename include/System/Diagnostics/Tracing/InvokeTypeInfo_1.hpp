@@ -52,10 +52,10 @@ namespace System::Diagnostics::Tracing {
     void WriteMetadata(System::Diagnostics::Tracing::TraceLoggingMetadataCollector* collector, ::Il2CppString* name, System::Diagnostics::Tracing::EventFieldFormat format) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "WriteMetadata", collector, name, format));
     }
-    // public override System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ContainerType value)
+    // public override System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref ContainerType value)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo`1
-    // Base method: System.Void TraceLoggingTypeInfo`1::WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ContainerType value)
+    // Base method: System.Void TraceLoggingTypeInfo`1::WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref ContainerType value)
     void WriteData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, ContainerType& value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "WriteData", collector, value));
     }

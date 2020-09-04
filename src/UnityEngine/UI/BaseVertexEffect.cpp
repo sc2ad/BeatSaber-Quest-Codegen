@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.BaseVertexEffect
 #include "UnityEngine/UI/BaseVertexEffect.hpp"
 // Including type: System.Collections.Generic.List`1

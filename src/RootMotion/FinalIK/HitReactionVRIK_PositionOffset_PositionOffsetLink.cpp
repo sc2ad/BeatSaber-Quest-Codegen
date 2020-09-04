@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.HitReactionVRIK/PositionOffset/PositionOffsetLink
 #include "RootMotion/FinalIK/HitReactionVRIK_PositionOffset_PositionOffsetLink.hpp"
 // Including type: RootMotion.FinalIK.VRIK

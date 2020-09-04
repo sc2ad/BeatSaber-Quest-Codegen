@@ -49,13 +49,13 @@ namespace UnityEngine::Animations {
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0xA5DB60
     static AnimationMixerPlayable* New_ctor(UnityEngine::Playables::PlayableHandle handle);
-    // static private System.Boolean CreateHandleInternal(UnityEngine.Playables.PlayableGraph graph, System.Boolean normalizeWeights, UnityEngine.Playables.PlayableHandle handle)
+    // static private System.Boolean CreateHandleInternal(UnityEngine.Playables.PlayableGraph graph, System.Boolean normalizeWeights, ref UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0x193EC98
     static bool CreateHandleInternal(UnityEngine::Playables::PlayableGraph graph, bool normalizeWeights, UnityEngine::Playables::PlayableHandle& handle);
     // static private System.Void .cctor()
     // Offset: 0x193EE64
     static void _cctor();
-    // static private System.Boolean CreateHandleInternal_Injected(UnityEngine.Playables.PlayableGraph graph, System.Boolean normalizeWeights, UnityEngine.Playables.PlayableHandle handle)
+    // static private System.Boolean CreateHandleInternal_Injected(ref UnityEngine.Playables.PlayableGraph graph, System.Boolean normalizeWeights, ref UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0x193EE0C
     static bool CreateHandleInternal_Injected(UnityEngine::Playables::PlayableGraph& graph, bool normalizeWeights, UnityEngine::Playables::PlayableHandle& handle);
     // public UnityEngine.Playables.PlayableHandle GetHandle()

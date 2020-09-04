@@ -187,10 +187,10 @@ namespace RootMotion::FinalIK {
     // private UnityEngine.Vector3 GetHandBodyPull(RootMotion.FinalIK.IKEffector effector, RootMotion.FinalIK.FBIKChain arm, UnityEngine.Vector3 offset)
     // Offset: 0x134F560
     UnityEngine::Vector3 GetHandBodyPull(RootMotion::FinalIK::IKEffector* effector, RootMotion::FinalIK::FBIKChain* arm, UnityEngine::Vector3 offset);
-    // public override System.Boolean IsValid(System.String message)
+    // public override System.Boolean IsValid(ref System.String message)
     // Offset: 0x134D318
     // Implemented from: RootMotion.FinalIK.IKSolverFullBody
-    // Base method: System.Boolean IKSolverFullBody::IsValid(System.String message)
+    // Base method: System.Boolean IKSolverFullBody::IsValid(ref System.String message)
     bool IsValid(::Il2CppString*& message);
     // protected override System.Void ReadPose()
     // Offset: 0x134F088

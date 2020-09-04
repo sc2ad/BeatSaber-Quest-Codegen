@@ -2,15 +2,12 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OculusPlatformAdditionalContentModel/<>c__DisplayClass12_0
 #include "GlobalNamespace/OculusPlatformAdditionalContentModel_--c__DisplayClass12_0.hpp"
 // Including type: System.Threading.Tasks.TaskCompletionSource`1
 #include "System/Threading/Tasks/TaskCompletionSource_1.hpp"
 // Including type: Oculus.Platform.Models.PurchaseList
 #include "Oculus/Platform/Models/PurchaseList.hpp"
-// Including type: Oculus.Platform.Message`1
-#include "Oculus/Platform/Message_1.hpp"
 // Including type: Oculus.Platform.Models.AssetDetailsList
 #include "Oculus/Platform/Models/AssetDetailsList.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

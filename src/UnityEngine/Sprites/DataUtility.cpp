@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Sprites.DataUtility
 #include "UnityEngine/Sprites/DataUtility.hpp"
 // Including type: UnityEngine.Vector4

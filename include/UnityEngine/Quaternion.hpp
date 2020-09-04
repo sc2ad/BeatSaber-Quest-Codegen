@@ -69,7 +69,7 @@ namespace UnityEngine {
     // static private UnityEngine.Vector3 Internal_ToEulerRad(UnityEngine.Quaternion rotation)
     // Offset: 0x141F668
     static UnityEngine::Vector3 Internal_ToEulerRad(UnityEngine::Quaternion rotation);
-    // static private System.Void Internal_ToAxisAngleRad(UnityEngine.Quaternion q, UnityEngine.Vector3 axis, System.Single angle)
+    // static private System.Void Internal_ToAxisAngleRad(UnityEngine.Quaternion q, out UnityEngine.Vector3 axis, out System.Single angle)
     // Offset: 0x141F760
     static void Internal_ToAxisAngleRad(UnityEngine::Quaternion q, UnityEngine::Vector3& axis, float& angle);
     // static public UnityEngine.Quaternion AngleAxis(System.Single angle, UnityEngine.Vector3 axis)
@@ -117,7 +117,7 @@ namespace UnityEngine {
     // static public UnityEngine.Quaternion Euler(UnityEngine.Vector3 euler)
     // Offset: 0x1420440
     static UnityEngine::Quaternion Euler(UnityEngine::Vector3 euler);
-    // public System.Void ToAngleAxis(System.Single angle, UnityEngine.Vector3 axis)
+    // public System.Void ToAngleAxis(out System.Single angle, out UnityEngine.Vector3 axis)
     // Offset: 0xA490B4
     void ToAngleAxis(float& angle, UnityEngine::Vector3& axis);
     // static public UnityEngine.Quaternion RotateTowards(UnityEngine.Quaternion from, UnityEngine.Quaternion to, System.Single maxDegreesDelta)
@@ -129,34 +129,34 @@ namespace UnityEngine {
     // static private System.Void .cctor()
     // Offset: 0x1420BA4
     static void _cctor();
-    // static private System.Void FromToRotation_Injected(UnityEngine.Vector3 fromDirection, UnityEngine.Vector3 toDirection, UnityEngine.Quaternion ret)
+    // static private System.Void FromToRotation_Injected(ref UnityEngine.Vector3 fromDirection, ref UnityEngine.Vector3 toDirection, out UnityEngine.Quaternion ret)
     // Offset: 0x141F0B0
     static void FromToRotation_Injected(UnityEngine::Vector3& fromDirection, UnityEngine::Vector3& toDirection, UnityEngine::Quaternion& ret);
-    // static private System.Void Inverse_Injected(UnityEngine.Quaternion rotation, UnityEngine.Quaternion ret)
+    // static private System.Void Inverse_Injected(ref UnityEngine.Quaternion rotation, out UnityEngine.Quaternion ret)
     // Offset: 0x141F1AC
     static void Inverse_Injected(UnityEngine::Quaternion& rotation, UnityEngine::Quaternion& ret);
-    // static private System.Void Slerp_Injected(UnityEngine.Quaternion a, UnityEngine.Quaternion b, System.Single t, UnityEngine.Quaternion ret)
+    // static private System.Void Slerp_Injected(ref UnityEngine.Quaternion a, ref UnityEngine.Quaternion b, System.Single t, out UnityEngine.Quaternion ret)
     // Offset: 0x141F2BC
     static void Slerp_Injected(UnityEngine::Quaternion& a, UnityEngine::Quaternion& b, float t, UnityEngine::Quaternion& ret);
-    // static private System.Void SlerpUnclamped_Injected(UnityEngine.Quaternion a, UnityEngine.Quaternion b, System.Single t, UnityEngine.Quaternion ret)
+    // static private System.Void SlerpUnclamped_Injected(ref UnityEngine.Quaternion a, ref UnityEngine.Quaternion b, System.Single t, out UnityEngine.Quaternion ret)
     // Offset: 0x141F3E4
     static void SlerpUnclamped_Injected(UnityEngine::Quaternion& a, UnityEngine::Quaternion& b, float t, UnityEngine::Quaternion& ret);
-    // static private System.Void Lerp_Injected(UnityEngine.Quaternion a, UnityEngine.Quaternion b, System.Single t, UnityEngine.Quaternion ret)
+    // static private System.Void Lerp_Injected(ref UnityEngine.Quaternion a, ref UnityEngine.Quaternion b, System.Single t, out UnityEngine.Quaternion ret)
     // Offset: 0x141F50C
     static void Lerp_Injected(UnityEngine::Quaternion& a, UnityEngine::Quaternion& b, float t, UnityEngine::Quaternion& ret);
-    // static private System.Void Internal_FromEulerRad_Injected(UnityEngine.Vector3 euler, UnityEngine.Quaternion ret)
+    // static private System.Void Internal_FromEulerRad_Injected(ref UnityEngine.Vector3 euler, out UnityEngine.Quaternion ret)
     // Offset: 0x141F618
     static void Internal_FromEulerRad_Injected(UnityEngine::Vector3& euler, UnityEngine::Quaternion& ret);
-    // static private System.Void Internal_ToEulerRad_Injected(UnityEngine.Quaternion rotation, UnityEngine.Vector3 ret)
+    // static private System.Void Internal_ToEulerRad_Injected(ref UnityEngine.Quaternion rotation, out UnityEngine.Vector3 ret)
     // Offset: 0x141F710
     static void Internal_ToEulerRad_Injected(UnityEngine::Quaternion& rotation, UnityEngine::Vector3& ret);
-    // static private System.Void Internal_ToAxisAngleRad_Injected(UnityEngine.Quaternion q, UnityEngine.Vector3 axis, System.Single angle)
+    // static private System.Void Internal_ToAxisAngleRad_Injected(ref UnityEngine.Quaternion q, out UnityEngine.Vector3 axis, out System.Single angle)
     // Offset: 0x141F80C
     static void Internal_ToAxisAngleRad_Injected(UnityEngine::Quaternion& q, UnityEngine::Vector3& axis, float& angle);
-    // static private System.Void AngleAxis_Injected(System.Single angle, UnityEngine.Vector3 axis, UnityEngine.Quaternion ret)
+    // static private System.Void AngleAxis_Injected(System.Single angle, ref UnityEngine.Vector3 axis, out UnityEngine.Quaternion ret)
     // Offset: 0x141F918
     static void AngleAxis_Injected(float angle, UnityEngine::Vector3& axis, UnityEngine::Quaternion& ret);
-    // static private System.Void LookRotation_Injected(UnityEngine.Vector3 forward, UnityEngine.Vector3 upwards, UnityEngine.Quaternion ret)
+    // static private System.Void LookRotation_Injected(ref UnityEngine.Vector3 forward, ref UnityEngine.Vector3 upwards, out UnityEngine.Quaternion ret)
     // Offset: 0x141FA28
     static void LookRotation_Injected(UnityEngine::Vector3& forward, UnityEngine::Vector3& upwards, UnityEngine::Quaternion& ret);
     // public override System.Int32 GetHashCode()

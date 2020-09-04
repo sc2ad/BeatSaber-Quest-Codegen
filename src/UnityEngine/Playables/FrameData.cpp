@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Playables.FrameData
 #include "UnityEngine/Playables/FrameData.hpp"
 // Including type: UnityEngine.Playables.FrameData/EvaluationType

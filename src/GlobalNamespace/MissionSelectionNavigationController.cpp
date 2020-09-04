@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: MissionSelectionNavigationController
 #include "GlobalNamespace/MissionSelectionNavigationController.hpp"
 // Including type: MissionSelectionNavigationController/<>c__DisplayClass11_0

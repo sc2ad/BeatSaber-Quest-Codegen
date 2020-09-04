@@ -60,7 +60,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // private System.Collections.IEnumerator <>7__wrap2
     // Offset: 0x50
     System::Collections::IEnumerator* $$7__wrap2;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xE381FC
     static UnityLogCheckDelegatingCommand::$ExecuteEnumerable$d__3* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()

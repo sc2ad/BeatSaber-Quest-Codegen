@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     // public System.Boolean showLoadingIndicator
     // Offset: 0x30
     bool showLoadingIndicator;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xB7F524
     static CentralLeaderboardViewController::$RefreshDelayed$d__27* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: StandardLevelDetailViewController/<>c__DisplayClass41_0
 #include "GlobalNamespace/StandardLevelDetailViewController_--c__DisplayClass41_0.hpp"
 // Including type: System.Action

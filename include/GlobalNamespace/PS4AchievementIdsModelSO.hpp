@@ -20,9 +20,6 @@ namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
   template<typename TKey, typename TValue>
   class Dictionary_2;
-  // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
-  class Dictionary_2;
 }
 // Completed forward declares
 // Type namespace: 
@@ -46,10 +43,10 @@ namespace GlobalNamespace {
     // public System.Collections.Generic.List`1<PS4AchievementIdsModelSO/AchievementIdData> get_achievementsIds()
     // Offset: 0xBD0950
     System::Collections::Generic::List_1<GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData*>* get_achievementsIds();
-    // public System.Boolean GetTrophyId(System.String achievementId, System.Int32 trophyId)
+    // public System.Boolean GetTrophyId(System.String achievementId, out System.Int32 trophyId)
     // Offset: 0xBD0B18
     bool GetTrophyId(::Il2CppString* achievementId, int& trophyId);
-    // public System.Boolean GetAchievementId(System.Int32 trophyId, System.String achievementId)
+    // public System.Boolean GetAchievementId(System.Int32 trophyId, out System.String achievementId)
     // Offset: 0xBD0B8C
     bool GetAchievementId(int trophyId, ::Il2CppString*& achievementId);
     // protected override System.Void OnEnable()

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: VRUIControls.ButtonState
 #include "VRUIControls/ButtonState.hpp"
 // Including type: VRUIControls.MouseButtonEventData

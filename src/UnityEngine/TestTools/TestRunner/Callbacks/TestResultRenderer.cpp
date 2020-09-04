@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.TestTools.TestRunner.Callbacks.TestResultRenderer
 #include "UnityEngine/TestTools/TestRunner/Callbacks/TestResultRenderer.hpp"
 // Including type: UnityEngine.TestTools.TestRunner.Callbacks.TestResultRenderer/Styles

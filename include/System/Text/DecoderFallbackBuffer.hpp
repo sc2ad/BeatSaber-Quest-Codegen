@@ -32,7 +32,7 @@ namespace System::Text {
     // System.Void InternalInitialize(System.Byte* byteStart, System.Char* charEnd)
     // Offset: 0x12EFC58
     void InternalInitialize(uint8_t* byteStart, ::Il2CppChar* charEnd);
-    // System.Boolean InternalFallback(System.Byte[] bytes, System.Byte* pBytes, System.Char* chars)
+    // System.Boolean InternalFallback(System.Byte[] bytes, System.Byte* pBytes, ref System.Char* chars)
     // Offset: 0x12F0F8C
     bool InternalFallback(::Array<uint8_t>* bytes, uint8_t* pBytes, ::Il2CppChar*& chars);
     // System.Int32 InternalFallback(System.Byte[] bytes, System.Byte* pBytes)

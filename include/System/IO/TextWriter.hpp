@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: System.MarshalByRefObject
 #include "System/MarshalByRefObject.hpp"
 // Including type: System.IDisposable
@@ -136,9 +137,16 @@ namespace System::IO {
     // public System.Void WriteLine(System.String format, System.Object arg0, System.Object arg1)
     // Offset: 0x10103D0
     void WriteLine(::Il2CppString* format, ::Il2CppObject* arg0, ::Il2CppObject* arg1);
-    // public System.Void WriteLine(System.String format, System.Object[] arg)
+    // public System.Void WriteLine(System.String format, params System.Object[] arg)
     // Offset: 0x1010438
     void WriteLine(::Il2CppString* format, ::Array<::Il2CppObject*>* arg);
+    // Creating initializer_list -> params proxy for: System.Void WriteLine(System.String format, params System.Object[] arg)
+    void WriteLine(::Il2CppString* format, std::initializer_list<::Il2CppObject*> arg);
+    // Creating TArgs -> initializer_list proxy for: System.Void WriteLine(System.String format, params System.Object[] arg)
+    template<class ...TParams>
+    void WriteLine(::Il2CppString* format, TParams&&... arg) {
+      WriteLine(format, {arg...});
+    }
     // static private System.Void .cctor()
     // Offset: 0x1010498
     static void _cctor();

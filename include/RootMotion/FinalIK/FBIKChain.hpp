@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: RootMotion.FinalIK.IKSolver
 #include "RootMotion/FinalIK/IKSolver.hpp"
 // Including type: System.Enum
@@ -137,16 +138,30 @@ namespace RootMotion::FinalIK {
     static float _get_maxLimbLength();
     // Set static field: static private System.Single maxLimbLength
     static void _set_maxLimbLength(float value);
-    // public System.Void .ctor(System.Single pin, System.Single pull, UnityEngine.Transform[] nodeTransforms)
+    // public System.Void .ctor(System.Single pin, System.Single pull, params UnityEngine.Transform[] nodeTransforms)
     // Offset: 0x13B3BDC
     static FBIKChain* New_ctor(float pin, float pull, ::Array<UnityEngine::Transform*>* nodeTransforms);
-    // public System.Void SetNodes(UnityEngine.Transform[] boneTransforms)
+    // Creating initializer_list -> params proxy for: System.Void .ctor(System.Single pin, System.Single pull, params UnityEngine.Transform[] nodeTransforms)
+    static FBIKChain* New_ctor(float pin, float pull, std::initializer_list<UnityEngine::Transform*> nodeTransforms);
+    // Creating TArgs -> initializer_list proxy for: System.Void .ctor(System.Single pin, System.Single pull, params UnityEngine.Transform[] nodeTransforms)
+    template<class ...TParams>
+    static FBIKChain* New_ctor(float pin, float pull, TParams&&... nodeTransforms) {
+      return New_ctor(pin, pull, {nodeTransforms...});
+    }
+    // public System.Void SetNodes(params UnityEngine.Transform[] boneTransforms)
     // Offset: 0x13B3D2C
     void SetNodes(::Array<UnityEngine::Transform*>* boneTransforms);
+    // Creating initializer_list -> params proxy for: System.Void SetNodes(params UnityEngine.Transform[] boneTransforms)
+    void SetNodes(std::initializer_list<UnityEngine::Transform*> boneTransforms);
+    // Creating TArgs -> initializer_list proxy for: System.Void SetNodes(params UnityEngine.Transform[] boneTransforms)
+    template<class ...TParams>
+    void SetNodes(TParams&&... boneTransforms) {
+      SetNodes({boneTransforms...});
+    }
     // public System.Int32 GetNodeIndex(UnityEngine.Transform boneTransform)
     // Offset: 0x13B3E60
     int GetNodeIndex(UnityEngine::Transform* boneTransform);
-    // public System.Boolean IsValid(System.String message)
+    // public System.Boolean IsValid(ref System.String message)
     // Offset: 0x13B3F3C
     bool IsValid(::Il2CppString*& message);
     // public System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)

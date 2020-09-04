@@ -31,10 +31,10 @@ namespace UnityEngine {
     // public System.Void set_color(UnityEngine.Color value)
     // Offset: 0x1393440
     void set_color(UnityEngine::Color value);
-    // private System.Void get_color_Injected(UnityEngine.Color ret)
+    // private System.Void get_color_Injected(out UnityEngine.Color ret)
     // Offset: 0x13933F0
     void get_color_Injected(UnityEngine::Color& ret);
-    // private System.Void set_color_Injected(UnityEngine.Color value)
+    // private System.Void set_color_Injected(ref UnityEngine.Color value)
     // Offset: 0x1393498
     void set_color_Injected(UnityEngine::Color& value);
   }; // UnityEngine.SpriteRenderer

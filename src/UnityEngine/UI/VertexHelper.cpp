@@ -113,5 +113,5 @@ void UnityEngine::UI::VertexHelper::Dispose() {
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose"));
 }
 void UnityEngine::UI::VertexHelper::System_IDisposable_Dispose() {
-  Dispose();
+  UnityEngine::UI::VertexHelper::Dispose();
 }

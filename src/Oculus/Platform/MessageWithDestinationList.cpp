@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.MessageWithDestinationList
 #include "Oculus/Platform/MessageWithDestinationList.hpp"
 // Including type: Oculus.Platform.Models.DestinationList

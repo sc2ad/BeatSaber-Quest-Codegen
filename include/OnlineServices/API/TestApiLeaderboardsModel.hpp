@@ -7,8 +7,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OnlineServices.API.IApiLeaderboardsModel
 #include "OnlineServices/API/IApiLeaderboardsModel.hpp"
-// Including type: OnlineServices.API.ApiResponse`1
-#include "OnlineServices/API/ApiResponse_1.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: OnlineServices::API
@@ -16,9 +14,6 @@ namespace OnlineServices::API {
 }
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
-  // Forward declaring type: Task`1<TResult>
-  template<typename TResult>
-  class Task_1;
   // Forward declaring type: Task`1<TResult>
   template<typename TResult>
   class Task_1;

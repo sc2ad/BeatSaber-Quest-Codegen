@@ -62,7 +62,7 @@ namespace NUnit::Framework::Constraints {
     // public System.Collections.Generic.IList`1<NUnit.Framework.Constraints.NUnitEqualityComparer/FailurePoint> get_FailurePoints()
     // Offset: 0x1076C34
     System::Collections::Generic::IList_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>* get_FailurePoints();
-    // private System.Void AdjustArgumentIfNeeded(T arg)
+    // private System.Void AdjustArgumentIfNeeded(ref T arg)
     // Offset: 0xFFFFFFFF
     template<class T>
     void AdjustArgumentIfNeeded(T& arg) {

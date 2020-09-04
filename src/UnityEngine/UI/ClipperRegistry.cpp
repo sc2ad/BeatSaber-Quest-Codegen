@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.ClipperRegistry
 #include "UnityEngine/UI/ClipperRegistry.hpp"
 // Including type: UnityEngine.UI.Collections.IndexedSet`1

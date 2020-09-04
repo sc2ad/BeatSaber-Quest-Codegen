@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: UnityEngine.UI.Selectable
 #include "UnityEngine/UI/Selectable.hpp"
 // Including type: UnityEngine.EventSystems.IUpdateSelectedHandler
@@ -869,10 +870,10 @@ namespace TMPro {
     // public System.Boolean get_wasCanceled()
     // Offset: 0xB63898
     bool get_wasCanceled();
-    // protected System.Void ClampStringPos(System.Int32 pos)
+    // protected System.Void ClampStringPos(ref System.Int32 pos)
     // Offset: 0xB638A0
     void ClampStringPos(int& pos);
-    // protected System.Void ClampCaretPos(System.Int32 pos)
+    // protected System.Void ClampCaretPos(ref System.Int32 pos)
     // Offset: 0xB638D8
     void ClampCaretPos(int& pos);
     // protected System.Int32 get_caretPositionInternal()
@@ -1172,9 +1173,16 @@ namespace TMPro {
     // private System.Void SetTextComponentRichTextMode()
     // Offset: 0xB63768
     void SetTextComponentRichTextMode();
-    // private System.Void SetToCustomIfContentTypeIsNot(TMPro.TMP_InputField/ContentType[] allowedContentTypes)
+    // private System.Void SetToCustomIfContentTypeIsNot(params TMPro.TMP_InputField/ContentType[] allowedContentTypes)
     // Offset: 0xB633C8
     void SetToCustomIfContentTypeIsNot(::Array<TMPro::TMP_InputField::ContentType>* allowedContentTypes);
+    // Creating initializer_list -> params proxy for: System.Void SetToCustomIfContentTypeIsNot(params TMPro.TMP_InputField/ContentType[] allowedContentTypes)
+    void SetToCustomIfContentTypeIsNot(std::initializer_list<TMPro::TMP_InputField::ContentType> allowedContentTypes);
+    // Creating TArgs -> initializer_list proxy for: System.Void SetToCustomIfContentTypeIsNot(params TMPro.TMP_InputField/ContentType[] allowedContentTypes)
+    template<class ...TParams>
+    void SetToCustomIfContentTypeIsNot(TParams&&... allowedContentTypes) {
+      SetToCustomIfContentTypeIsNot({allowedContentTypes...});
+    }
     // private System.Void SetToCustom()
     // Offset: 0xB63554
     void SetToCustom();

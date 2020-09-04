@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TMPro.TMP_TextElement_Legacy
 #include "TMPro/TMP_TextElement_Legacy.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

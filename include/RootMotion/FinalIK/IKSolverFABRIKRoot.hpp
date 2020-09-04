@@ -46,16 +46,16 @@ namespace RootMotion::FinalIK {
     // private System.Boolean IsRoot(System.Int32 index)
     // Offset: 0x134ABB8
     bool IsRoot(int index);
-    // private System.Void AddPointsToArray(RootMotion.FinalIK.IKSolver/Point[] array, RootMotion.FinalIK.FABRIKChain chain)
+    // private System.Void AddPointsToArray(ref RootMotion.FinalIK.IKSolver/Point[] array, RootMotion.FinalIK.FABRIKChain chain)
     // Offset: 0x134B26C
     void AddPointsToArray(::Array<RootMotion::FinalIK::IKSolver::Point*>*& array, RootMotion::FinalIK::FABRIKChain* chain);
     // private UnityEngine.Vector3 GetCentroid()
     // Offset: 0x134AE88
     UnityEngine::Vector3 GetCentroid();
-    // public override System.Boolean IsValid(System.String message)
+    // public override System.Boolean IsValid(ref System.String message)
     // Offset: 0x1349F98
     // Implemented from: RootMotion.FinalIK.IKSolver
-    // Base method: System.Boolean IKSolver::IsValid(System.String message)
+    // Base method: System.Boolean IKSolver::IsValid(ref System.String message)
     bool IsValid(::Il2CppString*& message);
     // public override System.Void StoreDefaultLocalState()
     // Offset: 0x134A970

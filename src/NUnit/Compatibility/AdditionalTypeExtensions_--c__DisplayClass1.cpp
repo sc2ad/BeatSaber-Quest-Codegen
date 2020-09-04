@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Compatibility.AdditionalTypeExtensions/<>c__DisplayClass1
 #include "NUnit/Compatibility/AdditionalTypeExtensions_--c__DisplayClass1.hpp"
 // Including type: System.Type

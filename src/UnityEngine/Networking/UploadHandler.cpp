@@ -37,5 +37,5 @@ void UnityEngine::Networking::UploadHandler::Dispose() {
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose"));
 }
 void UnityEngine::Networking::UploadHandler::System_IDisposable_Dispose() {
-  Dispose();
+  UnityEngine::Networking::UploadHandler::Dispose();
 }

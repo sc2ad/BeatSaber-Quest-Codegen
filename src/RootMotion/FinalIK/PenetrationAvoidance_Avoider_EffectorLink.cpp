@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.PenetrationAvoidance/Avoider/EffectorLink
 #include "RootMotion/FinalIK/PenetrationAvoidance_Avoider_EffectorLink.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

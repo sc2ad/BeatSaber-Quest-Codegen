@@ -36,10 +36,10 @@ namespace UnityEngine {
     // public System.Single get_stepOffset()
     // Offset: 0x1963170
     float get_stepOffset();
-    // private UnityEngine.CollisionFlags Move_Injected(UnityEngine.Vector3 motion)
+    // private UnityEngine.CollisionFlags Move_Injected(ref UnityEngine.Vector3 motion)
     // Offset: 0x1962FF0
     UnityEngine::CollisionFlags Move_Injected(UnityEngine::Vector3& motion);
-    // private System.Void get_center_Injected(UnityEngine.Vector3 ret)
+    // private System.Void get_center_Injected(out UnityEngine.Vector3 ret)
     // Offset: 0x1963120
     void get_center_Injected(UnityEngine::Vector3& ret);
   }; // UnityEngine.CharacterController

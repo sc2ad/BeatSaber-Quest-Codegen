@@ -37,7 +37,7 @@ namespace HMUI {
     // public HMUI.HoverHintController <>4__this
     // Offset: 0x30
     HMUI::HoverHintController* $$4__this;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xEE2E10
     static HoverHintController::$ShowHintAfterDelay$d__10* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

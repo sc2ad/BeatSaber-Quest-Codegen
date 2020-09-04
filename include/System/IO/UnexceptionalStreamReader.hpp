@@ -57,10 +57,10 @@ namespace System::IO {
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Read()
     int Read();
-    // public override System.Int32 Read(System.Char[] dest_buffer, System.Int32 index, System.Int32 count)
+    // public override System.Int32 Read(in System.Char[] dest_buffer, System.Int32 index, System.Int32 count)
     // Offset: 0x1011240
     // Implemented from: System.IO.StreamReader
-    // Base method: System.Int32 StreamReader::Read(System.Char[] dest_buffer, System.Int32 index, System.Int32 count)
+    // Base method: System.Int32 StreamReader::Read(in System.Char[] dest_buffer, System.Int32 index, System.Int32 count)
     int Read(::Array<::Il2CppChar>*& dest_buffer, int index, int count);
     // public override System.String ReadLine()
     // Offset: 0x10116A8

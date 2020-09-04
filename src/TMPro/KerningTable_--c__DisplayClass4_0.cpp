@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TMPro.KerningTable/<>c__DisplayClass4_0
 #include "TMPro/KerningTable_--c__DisplayClass4_0.hpp"
 // Including type: TMPro.KerningPair

@@ -29,7 +29,7 @@ namespace System::Diagnostics::Tracing {
     // private System.Int32 <i>5__1
     // Offset: 0x30
     int $i$5__1;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xC9C9F0
     static EventPayload::$GetEnumerator$d__17* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

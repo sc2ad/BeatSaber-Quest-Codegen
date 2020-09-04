@@ -32,7 +32,7 @@ namespace UnityEngine {
     UnityEngine::AudioClip::PCMSetPositionCallback* m_PCMSetPositionCallback;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // static private System.Boolean GetData(UnityEngine.AudioClip clip, System.Single[] data, System.Int32 numSamples, System.Int32 samplesOffset)
+    // static private System.Boolean GetData(UnityEngine.AudioClip clip, out System.Single[] data, System.Int32 numSamples, System.Int32 samplesOffset)
     // Offset: 0x195D22C
     static bool GetData(UnityEngine::AudioClip* clip, ::Array<float>*& data, int numSamples, int samplesOffset);
     // static private System.Boolean SetData(UnityEngine.AudioClip clip, System.Single[] data, System.Int32 numsamples, System.Int32 samplesOffset)

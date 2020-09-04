@@ -116,13 +116,13 @@ namespace TMPro {
     // public TMPro.TMP_MeshInfo[] CopyMeshInfoVertexData()
     // Offset: 0xDC3374
     ::Array<TMPro::TMP_MeshInfo>* CopyMeshInfoVertexData();
-    // static public System.Void Resize(T[] array, System.Int32 size)
+    // static public System.Void Resize(ref T[] array, System.Int32 size)
     // Offset: 0xFFFFFFFF
     template<class T>
     static void Resize(::Array<T>*& array, int size) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("TMPro", "TMP_TextInfo", "Resize", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, array, size));
     }
-    // static public System.Void Resize(T[] array, System.Int32 size, System.Boolean isBlockAllocated)
+    // static public System.Void Resize(ref T[] array, System.Int32 size, System.Boolean isBlockAllocated)
     // Offset: 0xFFFFFFFF
     template<class T>
     static void Resize(::Array<T>*& array, int size, bool isBlockAllocated) {

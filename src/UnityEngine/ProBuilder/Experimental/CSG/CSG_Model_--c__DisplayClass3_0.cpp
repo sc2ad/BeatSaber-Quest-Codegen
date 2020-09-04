@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.Experimental.CSG.CSG_Model/<>c__DisplayClass3_0
 #include "UnityEngine/ProBuilder/Experimental/CSG/CSG_Model_--c__DisplayClass3_0.hpp"
 // Including type: UnityEngine.Transform

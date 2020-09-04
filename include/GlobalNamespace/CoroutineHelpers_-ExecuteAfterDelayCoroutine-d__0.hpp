@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // public System.Action action
     // Offset: 0x28
     System::Action* action;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xCAF650
     static CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

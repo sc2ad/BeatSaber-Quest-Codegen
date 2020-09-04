@@ -636,7 +636,7 @@ namespace System::Globalization {
     // System.Boolean get_HasForceTwoDigitYears()
     // Offset: 0x12BFC0C
     bool get_HasForceTwoDigitYears();
-    // System.Boolean YearMonthAdjustment(System.Int32 year, System.Int32 month, System.Boolean parsedMonthName)
+    // System.Boolean YearMonthAdjustment(ref System.Int32 year, ref System.Int32 month, System.Boolean parsedMonthName)
     // Offset: 0x12BFC40
     bool YearMonthAdjustment(int& year, int& month, bool parsedMonthName);
     // static System.Globalization.DateTimeFormatInfo GetJapaneseCalendarDTFI()
@@ -654,13 +654,13 @@ namespace System::Globalization {
     // private System.Void AddMonthNames(System.Globalization.TokenHashValue[] temp, System.String monthPostfix)
     // Offset: 0x12C14A4
     void AddMonthNames(::Array<System::Globalization::TokenHashValue*>* temp, ::Il2CppString* monthPostfix);
-    // static private System.Boolean TryParseHebrewNumber(System.__DTString str, System.Boolean badFormat, System.Int32 number)
+    // static private System.Boolean TryParseHebrewNumber(ref System.__DTString str, out System.Boolean badFormat, out System.Int32 number)
     // Offset: 0x12C1560
     static bool TryParseHebrewNumber(System::__DTString& str, bool& badFormat, int& number);
     // static private System.Boolean IsHebrewChar(System.Char ch)
     // Offset: 0x12C19B4
     static bool IsHebrewChar(::Il2CppChar ch);
-    // System.Boolean Tokenize(System.TokenType TokenMask, System.TokenType tokenType, System.Int32 tokenValue, System.__DTString str)
+    // System.Boolean Tokenize(System.TokenType TokenMask, out System.TokenType tokenType, out System.Int32 tokenValue, ref System.__DTString str)
     // Offset: 0x12C19C8
     bool Tokenize(System::TokenType TokenMask, System::TokenType& tokenType, int& tokenValue, System::__DTString& str);
     // private System.Void InsertAtCurrentHashNode(System.Globalization.TokenHashValue[] hashTable, System.String str, System.Char ch, System.TokenType tokenType, System.Int32 tokenValue, System.Int32 pos, System.Int32 hashcode, System.Int32 hashProbe)

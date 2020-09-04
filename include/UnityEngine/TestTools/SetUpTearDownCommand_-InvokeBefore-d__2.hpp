@@ -39,7 +39,7 @@ namespace UnityEngine::TestTools {
     // public UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context
     // Offset: 0x28
     UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xE444BC
     static SetUpTearDownCommand::$InvokeBefore$d__2* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

@@ -38,7 +38,7 @@ namespace System {
     // public System.Boolean StartsWith(System.Int32 c)
     // Offset: 0x1335E38
     bool StartsWith(int c);
-    // public System.TermInfoStrings Match(System.Char[] buffer, System.Int32 offset, System.Int32 length, System.Int32 used)
+    // public System.TermInfoStrings Match(System.Char[] buffer, System.Int32 offset, System.Int32 length, out System.Int32 used)
     // Offset: 0x1335EC8
     System::TermInfoStrings Match(::Array<::Il2CppChar>* buffer, int offset, int length, int& used);
     // public System.Void .ctor()

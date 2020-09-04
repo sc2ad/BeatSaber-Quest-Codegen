@@ -21,7 +21,6 @@ namespace System::Collections::Generic {
 }
 // Forward declaring namespace: System::Diagnostics::Tracing
 namespace System::Diagnostics::Tracing {
-  // Skipping declaration: TraceLoggingTypeInfo`1 because it is already included!
   // Forward declaring type: TraceLoggingMetadataCollector
   class TraceLoggingMetadataCollector;
   // Forward declaring type: TraceLoggingDataCollector
@@ -49,10 +48,10 @@ namespace System::Diagnostics::Tracing {
     void WriteMetadata(System::Diagnostics::Tracing::TraceLoggingMetadataCollector* collector, ::Il2CppString* name, System::Diagnostics::Tracing::EventFieldFormat format) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "WriteMetadata", collector, name, format));
     }
-    // public override System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, IterableType value)
+    // public override System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref IterableType value)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo`1
-    // Base method: System.Void TraceLoggingTypeInfo`1::WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, IterableType value)
+    // Base method: System.Void TraceLoggingTypeInfo`1::WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref IterableType value)
     void WriteData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, IterableType& value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "WriteData", collector, value));
     }

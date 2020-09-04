@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: System.Reflection.BindingFlags
 #include "System/Reflection/BindingFlags.hpp"
 // Completed includes
@@ -75,9 +76,16 @@ namespace NUnit::Framework::Internal {
     // static public System.Object InvokeMethod(System.Reflection.MethodInfo method, System.Object fixture)
     // Offset: 0x18F22C4
     static ::Il2CppObject* InvokeMethod(System::Reflection::MethodInfo* method, ::Il2CppObject* fixture);
-    // static public System.Object InvokeMethod(System.Reflection.MethodInfo method, System.Object fixture, System.Object[] args)
+    // static public System.Object InvokeMethod(System.Reflection.MethodInfo method, System.Object fixture, params System.Object[] args)
     // Offset: 0x18F0154
     static ::Il2CppObject* InvokeMethod(System::Reflection::MethodInfo* method, ::Il2CppObject* fixture, ::Array<::Il2CppObject*>* args);
+    // Creating initializer_list -> params proxy for: System.Object InvokeMethod(System.Reflection.MethodInfo method, System.Object fixture, params System.Object[] args)
+    static ::Il2CppObject* InvokeMethod(System::Reflection::MethodInfo* method, ::Il2CppObject* fixture, std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.Object InvokeMethod(System.Reflection.MethodInfo method, System.Object fixture, params System.Object[] args)
+    template<class ...TParams>
+    static ::Il2CppObject* InvokeMethod(System::Reflection::MethodInfo* method, ::Il2CppObject* fixture, TParams&&... args) {
+      return InvokeMethod(method, fixture, {args...});
+    }
     // static public System.Func`2<System.Func`1<System.Object>,System.Object> get_MethodCallWrapper()
     // Offset: 0x18F2344
     static System::Func_2<System::Func_1<::Il2CppObject*>*, ::Il2CppObject*>* get_MethodCallWrapper();

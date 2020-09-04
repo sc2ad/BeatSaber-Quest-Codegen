@@ -125,7 +125,7 @@ namespace System {
     static System::NumberFormatter* _get_userFormatProvider();
     // Set static field: static private System.NumberFormatter userFormatProvider
     static void _set_userFormatProvider(System::NumberFormatter* value);
-    // static private System.Void GetFormatterTables(System.UInt64* MantissaBitsTable, System.Int32* TensExponentTable, System.Char* DigitLowerTable, System.Char* DigitUpperTable, System.Int64* TenPowersList, System.Int32* DecHexDigits)
+    // static private System.Void GetFormatterTables(out System.UInt64* MantissaBitsTable, out System.Int32* TensExponentTable, out System.Char* DigitLowerTable, out System.Char* DigitUpperTable, out System.Int64* TenPowersList, out System.Int32* DecHexDigits)
     // Offset: 0x135D7DC
     static void GetFormatterTables(uint64_t*& MantissaBitsTable, int*& TensExponentTable, ::Il2CppChar*& DigitLowerTable, ::Il2CppChar*& DigitUpperTable, int64_t*& TenPowersList, int*& DecHexDigits);
     // static private System.Void .cctor()

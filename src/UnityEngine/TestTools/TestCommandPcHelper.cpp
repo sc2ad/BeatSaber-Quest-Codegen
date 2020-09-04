@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.TestTools.TestCommandPcHelper
 #include "UnityEngine/TestTools/TestCommandPcHelper.hpp"
 // Including type: System.Collections.IEnumerator

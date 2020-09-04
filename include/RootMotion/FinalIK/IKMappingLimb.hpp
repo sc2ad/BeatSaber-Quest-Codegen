@@ -88,10 +88,10 @@ namespace RootMotion::FinalIK {
     // public System.Void WritePose(RootMotion.FinalIK.IKSolverFullBody solver, System.Boolean fullBody)
     // Offset: 0x138799C
     void WritePose(RootMotion::FinalIK::IKSolverFullBody* solver, bool fullBody);
-    // public override System.Boolean IsValid(RootMotion.FinalIK.IKSolver solver, System.String message)
+    // public override System.Boolean IsValid(RootMotion.FinalIK.IKSolver solver, ref System.String message)
     // Offset: 0x1386D04
     // Implemented from: RootMotion.FinalIK.IKMapping
-    // Base method: System.Boolean IKMapping::IsValid(RootMotion.FinalIK.IKSolver solver, System.String message)
+    // Base method: System.Boolean IKMapping::IsValid(RootMotion.FinalIK.IKSolver solver, ref System.String message)
     bool IsValid(RootMotion::FinalIK::IKSolver* solver, ::Il2CppString*& message);
     // public System.Void .ctor()
     // Offset: 0x13871B0

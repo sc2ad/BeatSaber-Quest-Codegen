@@ -54,7 +54,7 @@ namespace System::Runtime::CompilerServices {
     // static public System.Runtime.CompilerServices.AsyncVoidMethodBuilder Create()
     // Offset: 0x1166568
     static System::Runtime::CompilerServices::AsyncVoidMethodBuilder Create();
-    // public System.Void Start(TStateMachine stateMachine)
+    // public System.Void Start(ref TStateMachine stateMachine)
     // Offset: 0xFFFFFFFF
     template<class TStateMachine>
     void Start(TStateMachine& stateMachine) {
@@ -64,7 +64,7 @@ namespace System::Runtime::CompilerServices {
     // public System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     // Offset: 0xA42268
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
-    // public System.Void AwaitUnsafeOnCompleted(TAwaiter awaiter, TStateMachine stateMachine)
+    // public System.Void AwaitUnsafeOnCompleted(ref TAwaiter awaiter, ref TStateMachine stateMachine)
     // Offset: 0xFFFFFFFF
     template<class TAwaiter, class TStateMachine>
     void AwaitUnsafeOnCompleted(TAwaiter& awaiter, TStateMachine& stateMachine) {

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.RemoteSettings
 #include "UnityEngine/RemoteSettings.hpp"
 // Including type: UnityEngine.RemoteSettings/UpdatedEventHandler

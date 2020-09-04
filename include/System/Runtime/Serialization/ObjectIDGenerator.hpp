@@ -27,13 +27,13 @@ namespace System::Runtime::Serialization {
     static ::Array<int>* _get_sizes();
     // Set static field: static private readonly System.Int32[] sizes
     static void _set_sizes(::Array<int>* value);
-    // private System.Int32 FindElement(System.Object obj, System.Boolean found)
+    // private System.Int32 FindElement(System.Object obj, out System.Boolean found)
     // Offset: 0xFFC02C
     int FindElement(::Il2CppObject* obj, bool& found);
-    // public System.Int64 GetId(System.Object obj, System.Boolean firstTime)
+    // public System.Int64 GetId(System.Object obj, out System.Boolean firstTime)
     // Offset: 0xFFC104
     int64_t GetId(::Il2CppObject* obj, bool& firstTime);
-    // public System.Int64 HasId(System.Object obj, System.Boolean firstTime)
+    // public System.Int64 HasId(System.Object obj, out System.Boolean firstTime)
     // Offset: 0xFFC5DC
     int64_t HasId(::Il2CppObject* obj, bool& firstTime);
     // private System.Void Rehash()

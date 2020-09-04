@@ -32,7 +32,7 @@ namespace OVRSimpleJSON {
     // private System.Int32 <>l__initialThreadId
     // Offset: 0x20
     int $$l__initialThreadId;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xF5350C
     static JSONNode::$get_Children$d__40* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

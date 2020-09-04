@@ -28,13 +28,13 @@ namespace Valve::VR {
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x15FFB44
     static IVRChaperoneSetup::_GetLiveCollisionBoundsTagsInfo* New_ctor(::Il2CppObject* object, System::IntPtr method);
-    // public System.Boolean Invoke(System.Byte[] pTagsBuffer, System.UInt32 punTagCount)
+    // public System.Boolean Invoke(in System.Byte[] pTagsBuffer, ref System.UInt32 punTagCount)
     // Offset: 0x15FFB58
     bool Invoke(::Array<uint8_t>*& pTagsBuffer, uint& punTagCount);
-    // public System.IAsyncResult BeginInvoke(System.Byte[] pTagsBuffer, System.UInt32 punTagCount, System.AsyncCallback callback, System.Object object)
+    // public System.IAsyncResult BeginInvoke(in System.Byte[] pTagsBuffer, ref System.UInt32 punTagCount, System.AsyncCallback callback, System.Object object)
     // Offset: 0x15FFDD0
     System::IAsyncResult* BeginInvoke(::Array<uint8_t>*& pTagsBuffer, uint& punTagCount, System::AsyncCallback* callback, ::Il2CppObject* object);
-    // public System.Boolean EndInvoke(System.UInt32 punTagCount, System.IAsyncResult result)
+    // public System.Boolean EndInvoke(ref System.UInt32 punTagCount, System.IAsyncResult result)
     // Offset: 0x15FFE6C
     bool EndInvoke(uint& punTagCount, System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperoneSetup/_GetLiveCollisionBoundsTagsInfo

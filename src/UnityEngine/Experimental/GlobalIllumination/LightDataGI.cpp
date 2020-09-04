@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Experimental.GlobalIllumination.LightDataGI
 #include "UnityEngine/Experimental/GlobalIllumination/LightDataGI.hpp"
 // Including type: UnityEngine.Experimental.GlobalIllumination.DirectionalLight

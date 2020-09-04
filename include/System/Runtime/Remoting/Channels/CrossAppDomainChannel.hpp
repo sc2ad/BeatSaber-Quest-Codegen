@@ -52,10 +52,10 @@ namespace System::Runtime::Remoting::Channels {
     // Implemented from: System.Runtime.Remoting.Channels.IChannelReceiver
     // Base method: System.Void IChannelReceiver::StartListening(System.Object data)
     void StartListening(::Il2CppObject* data);
-    // public System.Runtime.Remoting.Messaging.IMessageSink CreateMessageSink(System.String url, System.Object data, System.String uri)
+    // public System.Runtime.Remoting.Messaging.IMessageSink CreateMessageSink(System.String url, System.Object data, out System.String uri)
     // Offset: 0x1059460
     // Implemented from: System.Runtime.Remoting.Channels.IChannelSender
-    // Base method: System.Runtime.Remoting.Messaging.IMessageSink IChannelSender::CreateMessageSink(System.String url, System.Object data, System.String uri)
+    // Base method: System.Runtime.Remoting.Messaging.IMessageSink IChannelSender::CreateMessageSink(System.String url, System.Object data, out System.String uri)
     System::Runtime::Remoting::Messaging::IMessageSink* CreateMessageSink(::Il2CppString* url, ::Il2CppObject* data, ::Il2CppString*& uri);
     // public System.Void .ctor()
     // Offset: 0x10592DC

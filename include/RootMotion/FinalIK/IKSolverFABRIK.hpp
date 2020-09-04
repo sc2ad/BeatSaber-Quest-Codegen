@@ -69,7 +69,7 @@ namespace RootMotion::FinalIK {
     // private UnityEngine.Vector3 GetParentSolverPosition(System.Int32 index)
     // Offset: 0x1348490
     UnityEngine::Vector3 GetParentSolverPosition(int index);
-    // private UnityEngine.Quaternion GetLimitedRotation(System.Int32 index, UnityEngine.Quaternion q, System.Boolean changed)
+    // private UnityEngine.Quaternion GetLimitedRotation(System.Int32 index, UnityEngine.Quaternion q, out System.Boolean changed)
     // Offset: 0x13496D0
     UnityEngine::Quaternion GetLimitedRotation(int index, UnityEngine::Quaternion q, bool& changed);
     // private System.Void LimitForward(System.Int32 rotateBone, System.Int32 limitBone)

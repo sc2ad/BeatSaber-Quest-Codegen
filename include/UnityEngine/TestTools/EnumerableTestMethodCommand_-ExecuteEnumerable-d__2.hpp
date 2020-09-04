@@ -57,7 +57,7 @@ namespace UnityEngine::TestTools {
     // private System.Collections.IEnumerator <executingEnumerator>5__3
     // Offset: 0x48
     System::Collections::IEnumerator* $executingEnumerator$5__3;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xE413A0
     static EnumerableTestMethodCommand::$ExecuteEnumerable$d__2* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

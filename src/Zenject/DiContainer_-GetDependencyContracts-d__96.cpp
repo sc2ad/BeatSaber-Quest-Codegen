@@ -7,8 +7,6 @@
 #include "Zenject/DiContainer_-GetDependencyContracts-d__96.hpp"
 // Including type: System.Type
 #include "System/Type.hpp"
-// Including type: System.Collections.Generic.IEnumerator`1
-#include "System/Collections/Generic/IEnumerator_1.hpp"
 // Including type: Zenject.InjectableInfo
 #include "Zenject/InjectableInfo.hpp"
 // Including type: System.Collections.IEnumerator

@@ -96,7 +96,7 @@ namespace UnityEngine::TestTools {
       // private UnityEngine.TestTools.Logging.LogScope <logScope>5__5
       // Offset: 0x0
       UnityEngine::TestTools::Logging::LogScope* $logScope$5__5;
-      // public System.Void .ctor(System.Int32 $$1__state)
+      // public System.Void .ctor(System.Int32 <>1__state)
       // Offset: 0xFFFFFFFF
       static typename BeforeAfterTestCommandBase_1<T>::$ExecuteEnumerable$d__9* New_ctor(int $$1__state) {
         return (typename BeforeAfterTestCommandBase_1<T>::$ExecuteEnumerable$d__9*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename BeforeAfterTestCommandBase_1<T>::$ExecuteEnumerable$d__9*>::get(), $$1__state));

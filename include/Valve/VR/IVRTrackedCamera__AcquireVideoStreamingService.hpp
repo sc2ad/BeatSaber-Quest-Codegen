@@ -33,13 +33,13 @@ namespace Valve::VR {
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16DCBC4
     static IVRTrackedCamera::_AcquireVideoStreamingService* New_ctor(::Il2CppObject* object, System::IntPtr method);
-    // public Valve.VR.EVRTrackedCameraError Invoke(System.UInt32 nDeviceIndex, System.UInt64 pHandle)
+    // public Valve.VR.EVRTrackedCameraError Invoke(System.UInt32 nDeviceIndex, ref System.UInt64 pHandle)
     // Offset: 0x16DCBD8
     Valve::VR::EVRTrackedCameraError Invoke(uint nDeviceIndex, uint64_t& pHandle);
-    // public System.IAsyncResult BeginInvoke(System.UInt32 nDeviceIndex, System.UInt64 pHandle, System.AsyncCallback callback, System.Object object)
+    // public System.IAsyncResult BeginInvoke(System.UInt32 nDeviceIndex, ref System.UInt64 pHandle, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16DCE68
     System::IAsyncResult* BeginInvoke(uint nDeviceIndex, uint64_t& pHandle, System::AsyncCallback* callback, ::Il2CppObject* object);
-    // public Valve.VR.EVRTrackedCameraError EndInvoke(System.UInt64 pHandle, System.IAsyncResult result)
+    // public Valve.VR.EVRTrackedCameraError EndInvoke(ref System.UInt64 pHandle, System.IAsyncResult result)
     // Offset: 0x16DCF1C
     Valve::VR::EVRTrackedCameraError EndInvoke(uint64_t& pHandle, System::IAsyncResult* result);
   }; // Valve.VR.IVRTrackedCamera/_AcquireVideoStreamingService

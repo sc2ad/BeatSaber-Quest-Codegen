@@ -93,10 +93,10 @@ namespace UnityEngine {
     // public System.Single get_maxColorComponent()
     // Offset: 0xA458F8
     float get_maxColorComponent();
-    // static public System.Void RGBToHSV(UnityEngine.Color rgbColor, System.Single H, System.Single S, System.Single V)
+    // static public System.Void RGBToHSV(UnityEngine.Color rgbColor, out System.Single H, out System.Single S, out System.Single V)
     // Offset: 0x130A768
     static void RGBToHSV(UnityEngine::Color rgbColor, float& H, float& S, float& V);
-    // static private System.Void RGBToHSVHelper(System.Single offset, System.Single dominantcolor, System.Single colorone, System.Single colortwo, System.Single H, System.Single S, System.Single V)
+    // static private System.Void RGBToHSVHelper(System.Single offset, System.Single dominantcolor, System.Single colorone, System.Single colortwo, out System.Single H, out System.Single S, out System.Single V)
     // Offset: 0x130A880
     static void RGBToHSVHelper(float offset, float dominantcolor, float colorone, float colortwo, float& H, float& S, float& V);
     // static public UnityEngine.Color HSVToRGB(System.Single H, System.Single S, System.Single V)

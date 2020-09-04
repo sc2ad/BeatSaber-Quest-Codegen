@@ -131,5 +131,5 @@ void UnityEngine::TestTools::Logging::LogScope::Dispose() {
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose"));
 }
 void UnityEngine::TestTools::Logging::LogScope::System_IDisposable_Dispose() {
-  Dispose();
+  UnityEngine::TestTools::Logging::LogScope::Dispose();
 }

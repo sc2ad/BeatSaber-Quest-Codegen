@@ -98,7 +98,7 @@ namespace System::Globalization {
     // System.Int32 AddDateWords(System.String pattern, System.Int32 index, System.String formatPostfix)
     // Offset: 0x12C2734
     int AddDateWords(::Il2CppString* pattern, int index, ::Il2CppString* formatPostfix);
-    // static System.Int32 ScanRepeatChar(System.String pattern, System.Char ch, System.Int32 index, System.Int32 count)
+    // static System.Int32 ScanRepeatChar(System.String pattern, System.Char ch, System.Int32 index, out System.Int32 count)
     // Offset: 0x12C2920
     static int ScanRepeatChar(::Il2CppString* pattern, ::Il2CppChar ch, int index, int& count);
     // System.Void AddIgnorableSymbols(System.String text)

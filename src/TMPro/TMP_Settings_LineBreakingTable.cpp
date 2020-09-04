@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TMPro.TMP_Settings/LineBreakingTable
 #include "TMPro/TMP_Settings_LineBreakingTable.hpp"
 // Including type: System.Collections.Generic.Dictionary`2

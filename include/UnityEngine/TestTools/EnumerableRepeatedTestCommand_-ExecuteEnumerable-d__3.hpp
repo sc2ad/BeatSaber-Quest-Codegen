@@ -60,7 +60,7 @@ namespace UnityEngine::TestTools {
     // private System.Collections.IEnumerator <>7__wrap3
     // Offset: 0x50
     System::Collections::IEnumerator* $$7__wrap3;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xE3FE04
     static EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()

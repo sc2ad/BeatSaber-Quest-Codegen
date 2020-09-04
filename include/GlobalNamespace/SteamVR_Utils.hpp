@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -78,10 +79,17 @@ namespace GlobalNamespace {
     // static public UnityEngine.Vector3 GetScale(UnityEngine.Matrix4x4 m)
     // Offset: 0xFD8D7C
     static UnityEngine::Vector3 GetScale(UnityEngine::Matrix4x4 m);
-    // static public System.Object CallSystemFn(SteamVR_Utils/SystemFn fn, System.Object[] args)
+    // static public System.Object CallSystemFn(SteamVR_Utils/SystemFn fn, params System.Object[] args)
     // Offset: 0xFD8EB4
     static ::Il2CppObject* CallSystemFn(GlobalNamespace::SteamVR_Utils::SystemFn* fn, ::Array<::Il2CppObject*>* args);
-    // static public System.Void TakeStereoScreenshot(System.UInt32 screenshotHandle, UnityEngine.GameObject target, System.Int32 cellSize, System.Single ipd, System.String previewFilename, System.String VRFilename)
+    // Creating initializer_list -> params proxy for: System.Object CallSystemFn(SteamVR_Utils/SystemFn fn, params System.Object[] args)
+    static ::Il2CppObject* CallSystemFn(GlobalNamespace::SteamVR_Utils::SystemFn* fn, std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.Object CallSystemFn(SteamVR_Utils/SystemFn fn, params System.Object[] args)
+    template<class ...TParams>
+    static ::Il2CppObject* CallSystemFn(GlobalNamespace::SteamVR_Utils::SystemFn* fn, TParams&&... args) {
+      return CallSystemFn(fn, {args...});
+    }
+    // static public System.Void TakeStereoScreenshot(System.UInt32 screenshotHandle, UnityEngine.GameObject target, System.Int32 cellSize, System.Single ipd, ref System.String previewFilename, ref System.String VRFilename)
     // Offset: 0xFD9424
     static void TakeStereoScreenshot(uint screenshotHandle, UnityEngine::GameObject* target, int cellSize, float ipd, ::Il2CppString*& previewFilename, ::Il2CppString*& VRFilename);
   }; // SteamVR_Utils

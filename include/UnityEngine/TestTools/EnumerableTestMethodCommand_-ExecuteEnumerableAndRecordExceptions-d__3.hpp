@@ -38,7 +38,7 @@ namespace UnityEngine::TestTools {
     // public NUnit.Framework.Internal.ITestExecutionContext context
     // Offset: 0x28
     NUnit::Framework::Internal::ITestExecutionContext* context;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xE41470
     static EnumerableTestMethodCommand::$ExecuteEnumerableAndRecordExceptions$d__3* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

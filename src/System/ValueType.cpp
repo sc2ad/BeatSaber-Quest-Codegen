@@ -3,7 +3,6 @@
 // =========================================================================
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "System/Object.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

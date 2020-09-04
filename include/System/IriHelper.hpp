@@ -21,7 +21,7 @@ namespace System {
     // static System.Boolean CheckIriUnicodeRange(System.Char unicode, System.Boolean isQuery)
     // Offset: 0xF6BD7C
     static bool CheckIriUnicodeRange(::Il2CppChar unicode, bool isQuery);
-    // static System.Boolean CheckIriUnicodeRange(System.Char highSurr, System.Char lowSurr, System.Boolean surrogatePair, System.Boolean isQuery)
+    // static System.Boolean CheckIriUnicodeRange(System.Char highSurr, System.Char lowSurr, ref System.Boolean surrogatePair, System.Boolean isQuery)
     // Offset: 0xF6BDD4
     static bool CheckIriUnicodeRange(::Il2CppChar highSurr, ::Il2CppChar lowSurr, bool& surrogatePair, bool isQuery);
     // static System.Boolean CheckIsReserved(System.Char ch, System.UriComponents component)

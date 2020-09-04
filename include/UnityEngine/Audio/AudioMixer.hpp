@@ -26,7 +26,7 @@ namespace UnityEngine::Audio {
     // public System.Boolean SetFloat(System.String name, System.Single value)
     // Offset: 0x195C864
     bool SetFloat(::Il2CppString* name, float value);
-    // public System.Boolean GetFloat(System.String name, System.Single value)
+    // public System.Boolean GetFloat(System.String name, out System.Single value)
     // Offset: 0x195C8C4
     bool GetFloat(::Il2CppString* name, float& value);
   }; // UnityEngine.Audio.AudioMixer

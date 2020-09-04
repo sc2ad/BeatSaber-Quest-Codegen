@@ -23,8 +23,8 @@
 #include "System/Collections/ObjectModel/ReadOnlyCollection_1.hpp"
 // Including type: System.Collections.Generic.List`1
 #include "System/Collections/Generic/List_1.hpp"
-// Including type: System.Collections.Generic.IList`1
-#include "System/Collections/Generic/IList_1.hpp"
+// Including type: UnityEngine.Mesh
+#include "UnityEngine/Mesh.hpp"
 // Including type: UnityEngine.ProBuilder.UnwrapParameters
 #include "UnityEngine/ProBuilder/UnwrapParameters.hpp"
 // Including type: UnityEngine.MeshRenderer
@@ -37,10 +37,10 @@
 #include "System/Action_1.hpp"
 // Including type: UnityEngine.ProBuilder.MeshArrays
 #include "UnityEngine/ProBuilder/MeshArrays.hpp"
+// Including type: System.Collections.Generic.IList`1
+#include "System/Collections/Generic/IList_1.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
 #include "System/Collections/Generic/IEnumerable_1.hpp"
-// Including type: UnityEngine.Mesh
-#include "UnityEngine/Mesh.hpp"
 // Including type: UnityEngine.ProBuilder.MeshSyncState
 #include "UnityEngine/ProBuilder/MeshSyncState.hpp"
 // Including type: UnityEngine.Material

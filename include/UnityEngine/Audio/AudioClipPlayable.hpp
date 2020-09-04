@@ -62,22 +62,22 @@ namespace UnityEngine::Audio {
     // public System.Void Seek(System.Double startTime, System.Double startDelay, System.Double duration)
     // Offset: 0xA5EAE0
     void Seek(double startTime, double startDelay, double duration);
-    // static private System.Void SetVolumeInternal(UnityEngine.Playables.PlayableHandle hdl, System.Single volume)
+    // static private System.Void SetVolumeInternal(ref UnityEngine.Playables.PlayableHandle hdl, System.Single volume)
     // Offset: 0x195C38C
     static void SetVolumeInternal(UnityEngine::Playables::PlayableHandle& hdl, float volume);
-    // static private System.Void SetStereoPanInternal(UnityEngine.Playables.PlayableHandle hdl, System.Single stereoPan)
+    // static private System.Void SetStereoPanInternal(ref UnityEngine.Playables.PlayableHandle hdl, System.Single stereoPan)
     // Offset: 0x195C4D8
     static void SetStereoPanInternal(UnityEngine::Playables::PlayableHandle& hdl, float stereoPan);
-    // static private System.Void SetSpatialBlendInternal(UnityEngine.Playables.PlayableHandle hdl, System.Single spatialBlend)
+    // static private System.Void SetSpatialBlendInternal(ref UnityEngine.Playables.PlayableHandle hdl, System.Single spatialBlend)
     // Offset: 0x195C620
     static void SetSpatialBlendInternal(UnityEngine::Playables::PlayableHandle& hdl, float spatialBlend);
-    // static private System.Void SetStartDelayInternal(UnityEngine.Playables.PlayableHandle hdl, System.Double delay)
+    // static private System.Void SetStartDelayInternal(ref UnityEngine.Playables.PlayableHandle hdl, System.Double delay)
     // Offset: 0x195C774
     static void SetStartDelayInternal(UnityEngine::Playables::PlayableHandle& hdl, double delay);
-    // static private System.Void SetPauseDelayInternal(UnityEngine.Playables.PlayableHandle hdl, System.Double delay)
+    // static private System.Void SetPauseDelayInternal(ref UnityEngine.Playables.PlayableHandle hdl, System.Double delay)
     // Offset: 0x195C7C4
     static void SetPauseDelayInternal(UnityEngine::Playables::PlayableHandle& hdl, double delay);
-    // static private System.Boolean InternalCreateAudioClipPlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.AudioClip clip, System.Boolean looping, UnityEngine.Playables.PlayableHandle handle)
+    // static private System.Boolean InternalCreateAudioClipPlayable(ref UnityEngine.Playables.PlayableGraph graph, UnityEngine.AudioClip clip, System.Boolean looping, ref UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0x195C11C
     static bool InternalCreateAudioClipPlayable(UnityEngine::Playables::PlayableGraph& graph, UnityEngine::AudioClip* clip, bool looping, UnityEngine::Playables::PlayableHandle& handle);
     // public UnityEngine.Playables.PlayableHandle GetHandle()

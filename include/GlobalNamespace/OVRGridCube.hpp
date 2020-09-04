@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     // private System.Void Update()
     // Offset: 0xE6B344
     void Update();
-    // public System.Void SetOVRCameraController(OVRCameraRig cameraController)
+    // public System.Void SetOVRCameraController(ref OVRCameraRig cameraController)
     // Offset: 0xE6B5AC
     void SetOVRCameraController(GlobalNamespace::OVRCameraRig*& cameraController);
     // private System.Void UpdateCubeGrid()

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.RichPresence
 #include "Oculus/Platform/RichPresence.hpp"
 // Including type: Oculus.Platform.Request

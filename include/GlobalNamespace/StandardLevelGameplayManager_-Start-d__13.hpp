@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // public StandardLevelGameplayManager <>4__this
     // Offset: 0x20
     GlobalNamespace::StandardLevelGameplayManager* $$4__this;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xBA4440
     static StandardLevelGameplayManager::$Start$d__13* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

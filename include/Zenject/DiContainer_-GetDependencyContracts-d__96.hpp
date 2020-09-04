@@ -18,10 +18,6 @@ namespace System {
   // Forward declaring type: Type
   class Type;
 }
-// Forward declaring namespace: System::Collections::Generic
-namespace System::Collections::Generic {
-  // Skipping declaration: IEnumerator`1 because it is already included!
-}
 // Forward declaring namespace: Zenject
 namespace Zenject {
   // Forward declaring type: InjectableInfo
@@ -58,7 +54,7 @@ namespace Zenject {
     // private System.Collections.Generic.IEnumerator`1<Zenject.InjectableInfo> <>7__wrap1
     // Offset: 0x40
     System::Collections::Generic::IEnumerator_1<Zenject::InjectableInfo*>* $$7__wrap1;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xF2F100
     static DiContainer::$GetDependencyContracts$d__96* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: SteamVR_TrackedCamera/VideoStreamTexture
 #include "GlobalNamespace/SteamVR_TrackedCamera_VideoStreamTexture.hpp"
 // Including type: UnityEngine.Texture2D

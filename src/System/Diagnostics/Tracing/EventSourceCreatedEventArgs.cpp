@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Diagnostics.Tracing.EventSourceCreatedEventArgs
 #include "System/Diagnostics/Tracing/EventSourceCreatedEventArgs.hpp"
 // Including type: System.Diagnostics.Tracing.EventSource

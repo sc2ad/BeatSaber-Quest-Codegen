@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: HMTask
 #include "GlobalNamespace/HMTask.hpp"
 // Including type: HMTask/<RunCoroutine>d__8

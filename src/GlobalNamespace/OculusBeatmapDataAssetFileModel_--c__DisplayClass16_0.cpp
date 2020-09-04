@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OculusBeatmapDataAssetFileModel/<>c__DisplayClass16_0
 #include "GlobalNamespace/OculusBeatmapDataAssetFileModel_--c__DisplayClass16_0.hpp"
 // Including type: System.Threading.Tasks.TaskCompletionSource`1

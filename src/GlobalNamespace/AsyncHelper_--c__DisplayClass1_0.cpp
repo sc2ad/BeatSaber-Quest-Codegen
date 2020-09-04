@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: AsyncHelper/<>c__DisplayClass1_0
 #include "GlobalNamespace/AsyncHelper_--c__DisplayClass1_0.hpp"
 // Including type: AsyncHelper/<>c__DisplayClass1_0/<<RunSync>b__0>d

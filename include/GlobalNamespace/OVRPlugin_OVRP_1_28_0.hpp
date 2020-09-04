@@ -26,10 +26,10 @@ namespace GlobalNamespace {
     static System::Version* _get_version();
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
-    // static public OVRPlugin/Result ovrp_GetDominantHand(OVRPlugin/Handedness dominantHand)
+    // static public OVRPlugin/Result ovrp_GetDominantHand(out OVRPlugin/Handedness dominantHand)
     // Offset: 0xF46EFC
     static GlobalNamespace::OVRPlugin::Result ovrp_GetDominantHand(GlobalNamespace::OVRPlugin::Handedness& dominantHand);
-    // static public OVRPlugin/Result ovrp_GetReorientHMDOnControllerRecenter(OVRPlugin/Bool recenter)
+    // static public OVRPlugin/Result ovrp_GetReorientHMDOnControllerRecenter(out OVRPlugin/Bool recenter)
     // Offset: 0xF46F7C
     static GlobalNamespace::OVRPlugin::Result ovrp_GetReorientHMDOnControllerRecenter(GlobalNamespace::OVRPlugin::Bool& recenter);
     // static public OVRPlugin/Result ovrp_SetReorientHMDOnControllerRecenter(OVRPlugin/Bool recenter)
@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // static public OVRPlugin/Result ovrp_SendEvent(System.String name, System.String param)
     // Offset: 0xF4707C
     static GlobalNamespace::OVRPlugin::Result ovrp_SendEvent(::Il2CppString* name, ::Il2CppString* param);
-    // static public OVRPlugin/Result ovrp_EnqueueSetupLayer2(OVRPlugin/LayerDesc desc, System.Int32 compositionDepth, System.IntPtr layerId)
+    // static public OVRPlugin/Result ovrp_EnqueueSetupLayer2(ref OVRPlugin/LayerDesc desc, System.Int32 compositionDepth, System.IntPtr layerId)
     // Offset: 0xF4713C
     static GlobalNamespace::OVRPlugin::Result ovrp_EnqueueSetupLayer2(GlobalNamespace::OVRPlugin::LayerDesc& desc, int compositionDepth, System::IntPtr layerId);
     // static private System.Void .cctor()

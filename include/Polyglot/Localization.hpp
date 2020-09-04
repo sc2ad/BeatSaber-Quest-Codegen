@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: UnityEngine.ScriptableObject
 #include "UnityEngine/ScriptableObject.hpp"
 // Including type: Polyglot.Language
@@ -24,12 +25,6 @@ namespace Polyglot {
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
   // Forward declaring type: List`1<T>
   template<typename T>
   class List_1;
@@ -163,9 +158,16 @@ namespace Polyglot {
     // static public System.Collections.Generic.List`1<System.String> GetKeys()
     // Offset: 0x1918F1C
     static System::Collections::Generic::List_1<::Il2CppString*>* GetKeys();
-    // static public System.String GetFormat(System.String key, System.Object[] arguments)
+    // static public System.String GetFormat(System.String key, params System.Object[] arguments)
     // Offset: 0x1919004
     static ::Il2CppString* GetFormat(::Il2CppString* key, ::Array<::Il2CppObject*>* arguments);
+    // Creating initializer_list -> params proxy for: System.String GetFormat(System.String key, params System.Object[] arguments)
+    static ::Il2CppString* GetFormat(::Il2CppString* key, std::initializer_list<::Il2CppObject*> arguments);
+    // Creating TArgs -> initializer_list proxy for: System.String GetFormat(System.String key, params System.Object[] arguments)
+    template<class ...TParams>
+    static ::Il2CppString* GetFormat(::Il2CppString* key, TParams&&... arguments) {
+      return GetFormat(key, {arguments...});
+    }
     // public System.Boolean InputFilesContains(Polyglot.LocalizationDocument doc)
     // Offset: 0x191905C
     bool InputFilesContains(Polyglot::LocalizationDocument* doc);

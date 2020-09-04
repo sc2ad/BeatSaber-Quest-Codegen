@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: PromoViewController/<>c__DisplayClass5_0
 #include "GlobalNamespace/PromoViewController_--c__DisplayClass5_0.hpp"
 // Including type: PromoViewController/ButtonPromoTypePair

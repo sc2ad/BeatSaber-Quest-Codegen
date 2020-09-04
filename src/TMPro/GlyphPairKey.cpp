@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include <stdint.h>
 // Including type: TMPro.GlyphPairKey
 #include "TMPro/GlyphPairKey.hpp"
 // Including type: TMPro.TMP_GlyphPairAdjustmentRecord

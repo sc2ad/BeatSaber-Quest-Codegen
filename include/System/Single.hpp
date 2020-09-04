@@ -111,13 +111,13 @@ namespace System {
     // static private System.Single Parse(System.String s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info)
     // Offset: 0xDF1790
     static float Parse(::Il2CppString* s, System::Globalization::NumberStyles style, System::Globalization::NumberFormatInfo* info);
-    // static public System.Boolean TryParse(System.String s, System.Single result)
+    // static public System.Boolean TryParse(System.String s, out System.Single result)
     // Offset: 0xDF1824
     static bool TryParse(::Il2CppString* s, float& result);
-    // static public System.Boolean TryParse(System.String s, System.Globalization.NumberStyles style, System.IFormatProvider provider, System.Single result)
+    // static public System.Boolean TryParse(System.String s, System.Globalization.NumberStyles style, System.IFormatProvider provider, out System.Single result)
     // Offset: 0xDF1914
     static bool TryParse(::Il2CppString* s, System::Globalization::NumberStyles style, System::IFormatProvider* provider, float& result);
-    // static private System.Boolean TryParse(System.String s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info, System.Single result)
+    // static private System.Boolean TryParse(System.String s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info, out System.Single result)
     // Offset: 0xDF185C
     static bool TryParse(::Il2CppString* s, System::Globalization::NumberStyles style, System::Globalization::NumberFormatInfo* info, float& result);
     // public System.Int32 CompareTo(System.Object value)

@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // public System.Void Update()
     // Offset: 0xE6D1C0
     void Update();
-    // public System.Void AppendToStringBuilder(System.Text.StringBuilder sb)
+    // public System.Void AppendToStringBuilder(ref System.Text.StringBuilder sb)
     // Offset: 0xE6D264
     void AppendToStringBuilder(System::Text::StringBuilder*& sb);
   }; // OVRHandTest/BoolMonitor

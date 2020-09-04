@@ -213,10 +213,10 @@ namespace System::IO {
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::WriteByte(System.Byte value)
     void WriteByte(uint8_t value);
-    // public override System.Int32 Read(System.Byte[] array, System.Int32 offset, System.Int32 count)
+    // public override System.Int32 Read(in System.Byte[] array, System.Int32 offset, System.Int32 count)
     // Offset: 0x11378D0
     // Implemented from: System.IO.Stream
-    // Base method: System.Int32 Stream::Read(System.Byte[] array, System.Int32 offset, System.Int32 count)
+    // Base method: System.Int32 Stream::Read(in System.Byte[] array, System.Int32 offset, System.Int32 count)
     int Read(::Array<uint8_t>*& array, int offset, int count);
     // public override System.IAsyncResult BeginRead(System.Byte[] array, System.Int32 offset, System.Int32 numBytes, System.AsyncCallback userCallback, System.Object stateObject)
     // Offset: 0x1137C84

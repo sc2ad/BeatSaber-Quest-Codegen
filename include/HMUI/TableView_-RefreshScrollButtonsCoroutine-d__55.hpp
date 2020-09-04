@@ -24,7 +24,7 @@ namespace HMUI {
     // public HMUI.TableView <>4__this
     // Offset: 0x20
     HMUI::TableView* $$4__this;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0x10E7F70
     static TableView::$RefreshScrollButtonsCoroutine$d__55* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

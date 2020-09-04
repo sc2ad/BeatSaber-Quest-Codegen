@@ -52,7 +52,7 @@ namespace Unity::Collections {
       int m_Index;
       // Creating value type constructor for type: Enumerator
       constexpr Enumerator(Unity::Collections::NativeArray_1<T> m_Array_ = {}, int m_Index_ = {}) noexcept : m_Array{m_Array_}, m_Index{m_Index_} {}
-      // public System.Void .ctor(Unity.Collections.NativeArray`1<T> array)
+      // public System.Void .ctor(ref Unity.Collections.NativeArray`1<T> array)
       // Offset: 0xFFFFFFFF
       static typename NativeArray_1<T>::Enumerator* New_ctor(Unity::Collections::NativeArray_1<T>& array) {
         return (typename NativeArray_1<T>::Enumerator*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename NativeArray_1<T>::Enumerator>::get(), array));

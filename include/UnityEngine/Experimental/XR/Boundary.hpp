@@ -26,10 +26,10 @@ namespace UnityEngine::Experimental::XR {
     public:
     // Nested type: UnityEngine::Experimental::XR::Boundary::Type
     struct Type;
-    // static public System.Boolean TryGetDimensions(UnityEngine.Vector3 dimensionsOut, UnityEngine.Experimental.XR.Boundary/Type boundaryType)
+    // static public System.Boolean TryGetDimensions(out UnityEngine.Vector3 dimensionsOut, UnityEngine.Experimental.XR.Boundary/Type boundaryType)
     // Offset: 0x197DE60
     static bool TryGetDimensions(UnityEngine::Vector3& dimensionsOut, UnityEngine::Experimental::XR::Boundary::Type boundaryType);
-    // static private System.Boolean TryGetDimensionsInternal(UnityEngine.Vector3 dimensionsOut, UnityEngine.Experimental.XR.Boundary/Type boundaryType)
+    // static private System.Boolean TryGetDimensionsInternal(out UnityEngine.Vector3 dimensionsOut, UnityEngine.Experimental.XR.Boundary/Type boundaryType)
     // Offset: 0x197DEB0
     static bool TryGetDimensionsInternal(UnityEngine::Vector3& dimensionsOut, UnityEngine::Experimental::XR::Boundary::Type boundaryType);
     // static public System.Boolean get_visible()

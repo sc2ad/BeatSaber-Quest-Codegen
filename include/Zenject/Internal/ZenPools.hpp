@@ -16,17 +16,8 @@ namespace Zenject {
   class StaticMemoryPool_1;
   // Forward declaring type: InjectContext
   class InjectContext;
-  // Forward declaring type: StaticMemoryPool`1<TValue>
-  template<typename TValue>
-  class StaticMemoryPool_1;
-  // Forward declaring type: StaticMemoryPool`1<TValue>
-  template<typename TValue>
-  class StaticMemoryPool_1;
   // Forward declaring type: BindInfo
   class BindInfo;
-  // Forward declaring type: StaticMemoryPool`1<TValue>
-  template<typename TValue>
-  class StaticMemoryPool_1;
   // Forward declaring type: BindStatement
   class BindStatement;
   // Forward declaring type: IProvider

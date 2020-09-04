@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: SaberClashChecker
 #include "GlobalNamespace/SaberClashChecker.hpp"
 // Including type: PlayerController

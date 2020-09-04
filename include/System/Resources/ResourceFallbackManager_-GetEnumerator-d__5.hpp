@@ -37,7 +37,7 @@ namespace System::Resources {
     // private System.Boolean <reachedNeutralResourcesCulture>5__2
     // Offset: 0x30
     bool $reachedNeutralResourcesCulture$5__2;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0x115CF38
     static ResourceFallbackManager::$GetEnumerator$d__5* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

@@ -52,9 +52,6 @@ namespace System {
   // Forward declaring type: Action`3<T1, T2, T3>
   template<typename T1, typename T2, typename T3>
   class Action_3;
-  // Forward declaring type: Action`3<T1, T2, T3>
-  template<typename T1, typename T2, typename T3>
-  class Action_3;
   // Forward declaring type: Type
   class Type;
 }
@@ -75,36 +72,12 @@ namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
   template<typename T>
   class IEnumerable_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
   // Forward declaring type: Dictionary`2<TKey, TValue>
   template<typename TKey, typename TValue>
   class Dictionary_2;
-  // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
-  class IEnumerable_1;
-  // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
-  class IEnumerable_1;
-  // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
-  class IEnumerable_1;
   // Forward declaring type: IList`1<T>
   template<typename T>
   class IList_1;
-  // Forward declaring type: IList`1<T>
-  template<typename T>
-  class IList_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
-  class IEnumerable_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
 }
 // Forward declaring namespace: UnityEngine::Playables
 namespace UnityEngine::Playables {
@@ -445,10 +418,10 @@ namespace UnityEngine::Timeline {
     // System.Void RemoveClip(UnityEngine.Timeline.TimelineClip clip)
     // Offset: 0x190D50C
     void RemoveClip(UnityEngine::Timeline::TimelineClip* clip);
-    // System.Void GetEvaluationTime(System.Double outStart, System.Double outDuration)
+    // System.Void GetEvaluationTime(out System.Double outStart, out System.Double outDuration)
     // Offset: 0x190D584
     void GetEvaluationTime(double& outStart, double& outDuration);
-    // System.Void GetSequenceTime(System.Double outStart, System.Double outDuration)
+    // System.Void GetSequenceTime(out System.Double outStart, out System.Double outDuration)
     // Offset: 0x190DB44
     void GetSequenceTime(double& outStart, double& outDuration);
     // UnityEngine.GameObject GetGameObjectBinding(UnityEngine.Playables.PlayableDirector director)

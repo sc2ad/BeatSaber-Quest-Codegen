@@ -40,10 +40,10 @@ namespace UnityEngine {
     // public System.Void set_direction(System.Int32 value)
     // Offset: 0x1962F48
     void set_direction(int value);
-    // private System.Void get_center_Injected(UnityEngine.Vector3 ret)
+    // private System.Void get_center_Injected(out UnityEngine.Vector3 ret)
     // Offset: 0x1962D30
     void get_center_Injected(UnityEngine::Vector3& ret);
-    // private System.Void set_center_Injected(UnityEngine.Vector3 value)
+    // private System.Void set_center_Injected(ref UnityEngine.Vector3 value)
     // Offset: 0x1962DD8
     void set_center_Injected(UnityEngine::Vector3& value);
   }; // UnityEngine.CapsuleCollider

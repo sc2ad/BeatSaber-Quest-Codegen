@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: NUnit.Framework.Internal.InternalTraceLevel
 #include "NUnit/Framework/Internal/InternalTraceLevel.hpp"
 // Completed includes
@@ -49,15 +50,29 @@ namespace NUnit::Framework::Internal {
     // public System.Void Debug(System.String message)
     // Offset: 0x18EF818
     void Debug(::Il2CppString* message);
-    // public System.Void Debug(System.String message, System.Object[] args)
+    // public System.Void Debug(System.String message, params System.Object[] args)
     // Offset: 0x18EF83C
     void Debug(::Il2CppString* message, ::Array<::Il2CppObject*>* args);
+    // Creating initializer_list -> params proxy for: System.Void Debug(System.String message, params System.Object[] args)
+    void Debug(::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.Void Debug(System.String message, params System.Object[] args)
+    template<class ...TParams>
+    void Debug(::Il2CppString* message, TParams&&... args) {
+      Debug(message, {args...});
+    }
     // private System.Void Log(NUnit.Framework.Internal.InternalTraceLevel level, System.String message)
     // Offset: 0x18EF7FC
     void Log(NUnit::Framework::Internal::InternalTraceLevel level, ::Il2CppString* message);
-    // private System.Void Log(NUnit.Framework.Internal.InternalTraceLevel level, System.String format, System.Object[] args)
+    // private System.Void Log(NUnit.Framework.Internal.InternalTraceLevel level, System.String format, params System.Object[] args)
     // Offset: 0x18EF84C
     void Log(NUnit::Framework::Internal::InternalTraceLevel level, ::Il2CppString* format, ::Array<::Il2CppObject*>* args);
+    // Creating initializer_list -> params proxy for: System.Void Log(NUnit.Framework.Internal.InternalTraceLevel level, System.String format, params System.Object[] args)
+    void Log(NUnit::Framework::Internal::InternalTraceLevel level, ::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.Void Log(NUnit.Framework.Internal.InternalTraceLevel level, System.String format, params System.Object[] args)
+    template<class ...TParams>
+    void Log(NUnit::Framework::Internal::InternalTraceLevel level, ::Il2CppString* format, TParams&&... args) {
+      Log(level, format, {args...});
+    }
     // private System.Void WriteLog(NUnit.Framework.Internal.InternalTraceLevel level, System.String message)
     // Offset: 0x18EF898
     void WriteLog(NUnit::Framework::Internal::InternalTraceLevel level, ::Il2CppString* message);

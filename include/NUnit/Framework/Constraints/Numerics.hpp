@@ -32,13 +32,13 @@ namespace NUnit::Framework::Constraints {
     // static public System.Boolean IsFixedPointNumeric(System.Object obj)
     // Offset: 0x107EA10
     static bool IsFixedPointNumeric(::Il2CppObject* obj);
-    // static public System.Boolean AreEqual(System.Object expected, System.Object actual, NUnit.Framework.Constraints.Tolerance tolerance)
+    // static public System.Boolean AreEqual(System.Object expected, System.Object actual, ref NUnit.Framework.Constraints.Tolerance tolerance)
     // Offset: 0x107D750
     static bool AreEqual(::Il2CppObject* expected, ::Il2CppObject* actual, NUnit::Framework::Constraints::Tolerance*& tolerance);
-    // static private System.Boolean AreEqual(System.Double expected, System.Double actual, NUnit.Framework.Constraints.Tolerance tolerance)
+    // static private System.Boolean AreEqual(System.Double expected, System.Double actual, ref NUnit.Framework.Constraints.Tolerance tolerance)
     // Offset: 0x107EB28
     static bool AreEqual(double expected, double actual, NUnit::Framework::Constraints::Tolerance*& tolerance);
-    // static private System.Boolean AreEqual(System.Single expected, System.Single actual, NUnit.Framework.Constraints.Tolerance tolerance)
+    // static private System.Boolean AreEqual(System.Single expected, System.Single actual, ref NUnit.Framework.Constraints.Tolerance tolerance)
     // Offset: 0x107EEE4
     static bool AreEqual(float expected, float actual, NUnit::Framework::Constraints::Tolerance*& tolerance);
     // static private System.Boolean AreEqual(System.Decimal expected, System.Decimal actual, NUnit.Framework.Constraints.Tolerance tolerance)

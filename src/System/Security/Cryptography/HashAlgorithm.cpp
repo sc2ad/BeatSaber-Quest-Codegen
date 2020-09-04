@@ -37,5 +37,5 @@ void System::Security::Cryptography::HashAlgorithm::Dispose() {
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose"));
 }
 void System::Security::Cryptography::HashAlgorithm::System_IDisposable_Dispose() {
-  Dispose();
+  System::Security::Cryptography::HashAlgorithm::Dispose();
 }

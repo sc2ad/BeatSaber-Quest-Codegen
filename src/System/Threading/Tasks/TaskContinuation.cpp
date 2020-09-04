@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Threading.Tasks.TaskContinuation
 #include "System/Threading/Tasks/TaskContinuation.hpp"
 // Including type: System.Threading.Tasks.Task

@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     // private System.Int32 <>7__wrap3
     // Offset: 0x38
     int $$7__wrap3;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xC088B0
     static MissionMapAnimationController::$UpdateNodesAndConnectionCoroutine$d__15* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

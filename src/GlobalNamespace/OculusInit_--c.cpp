@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OculusInit/<>c
 #include "GlobalNamespace/OculusInit_--c.hpp"
 // Including type: Oculus.Platform.Message/Callback

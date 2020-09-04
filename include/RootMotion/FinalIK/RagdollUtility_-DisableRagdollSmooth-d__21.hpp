@@ -24,7 +24,7 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.RagdollUtility <>4__this
     // Offset: 0x20
     RootMotion::FinalIK::RagdollUtility* $$4__this;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0x1235258
     static RagdollUtility::$DisableRagdollSmooth$d__21* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

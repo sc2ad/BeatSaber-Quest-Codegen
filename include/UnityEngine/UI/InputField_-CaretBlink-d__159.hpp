@@ -24,7 +24,7 @@ namespace UnityEngine::UI {
     // public UnityEngine.UI.InputField <>4__this
     // Offset: 0x20
     UnityEngine::UI::InputField* $$4__this;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0x11FED30
     static InputField::$CaretBlink$d__159* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

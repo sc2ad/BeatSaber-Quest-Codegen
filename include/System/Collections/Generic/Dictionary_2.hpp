@@ -25,10 +25,6 @@
 #include "System/Collections/IDictionaryEnumerator.hpp"
 // Including type: System.Collections.DictionaryEntry
 #include "System/Collections/DictionaryEntry.hpp"
-// Including type: System.Collections.Generic.ICollection`1
-#include "System/Collections/Generic/ICollection_1.hpp"
-// Including type: System.Collections.Generic.IReadOnlyCollection`1
-#include "System/Collections/Generic/IReadOnlyCollection_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -42,7 +38,6 @@ namespace System::Collections::Generic {
   // Forward declaring type: IEqualityComparer`1<T>
   template<typename T>
   class IEqualityComparer_1;
-  // Skipping declaration: ValueCollection because it is already included!
 }
 // Forward declaring namespace: System
 namespace System {
@@ -823,11 +818,11 @@ namespace System::Collections::Generic {
     bool System_Collections_Generic_IDictionary_2_Remove(TKey key) {
       return Remove(key);
     }
-    // public System.Boolean TryGetValue(TKey key, TValue value)
+    // public System.Boolean TryGetValue(TKey key, out TValue value)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IDictionary`2
-    // Base method: System.Boolean IDictionary`2::TryGetValue(TKey key, TValue value)
-    // Base method: System.Boolean IReadOnlyDictionary`2::TryGetValue(TKey key, TValue value)
+    // Base method: System.Boolean IDictionary`2::TryGetValue(TKey key, out TValue value)
+    // Base method: System.Boolean IReadOnlyDictionary`2::TryGetValue(TKey key, out TValue value)
     bool TryGetValue(TKey key, TValue& value) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "TryGetValue", key, value));
     }

@@ -136,10 +136,10 @@ namespace UnityEngine {
     // public UnityEngine.Color[] GetPixels()
     // Offset: 0x139627C
     ::Array<UnityEngine::Color>* GetPixels();
-    // private System.Void GetPixelBilinearImpl_Injected(System.Int32 image, System.Single u, System.Single v, UnityEngine.Color ret)
+    // private System.Void GetPixelBilinearImpl_Injected(System.Int32 image, System.Single u, System.Single v, out UnityEngine.Color ret)
     // Offset: 0x13954EC
     void GetPixelBilinearImpl_Injected(int image, float u, float v, UnityEngine::Color& ret);
-    // private System.Void ReadPixelsImpl_Injected(UnityEngine.Rect source, System.Int32 destX, System.Int32 destY, System.Boolean recalculateMipMaps)
+    // private System.Void ReadPixelsImpl_Injected(ref UnityEngine.Rect source, System.Int32 destX, System.Int32 destY, System.Boolean recalculateMipMaps)
     // Offset: 0x139564C
     void ReadPixelsImpl_Injected(UnityEngine::Rect& source, int destX, int destY, bool recalculateMipMaps);
     // public override System.Boolean get_isReadable()

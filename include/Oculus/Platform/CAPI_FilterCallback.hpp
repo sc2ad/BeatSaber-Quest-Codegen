@@ -30,10 +30,10 @@ namespace Oculus::Platform {
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xE96F40
     static CAPI::FilterCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
-    // public System.Void Invoke(System.Int16[] pcmData, System.UIntPtr pcmDataLength, System.Int32 frequency, System.Int32 numChannels)
+    // public System.Void Invoke(in System.Int16[] pcmData, System.UIntPtr pcmDataLength, System.Int32 frequency, System.Int32 numChannels)
     // Offset: 0xE96F54
     void Invoke(::Array<int16_t>*& pcmData, System::UIntPtr pcmDataLength, int frequency, int numChannels);
-    // public System.IAsyncResult BeginInvoke(System.Int16[] pcmData, System.UIntPtr pcmDataLength, System.Int32 frequency, System.Int32 numChannels, System.AsyncCallback callback, System.Object object)
+    // public System.IAsyncResult BeginInvoke(in System.Int16[] pcmData, System.UIntPtr pcmDataLength, System.Int32 frequency, System.Int32 numChannels, System.AsyncCallback callback, System.Object object)
     // Offset: 0xE971EC
     System::IAsyncResult* BeginInvoke(::Array<int16_t>*& pcmData, System::UIntPtr pcmDataLength, int frequency, int numChannels, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)

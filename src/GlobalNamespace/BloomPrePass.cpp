@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: BloomPrePass
 #include "GlobalNamespace/BloomPrePass.hpp"
 // Including type: BloomPrePassRenderDataSO/Data

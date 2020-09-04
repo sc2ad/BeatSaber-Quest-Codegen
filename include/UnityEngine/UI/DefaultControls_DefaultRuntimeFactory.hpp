@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: UnityEngine.UI.DefaultControls
 #include "UnityEngine/UI/DefaultControls.hpp"
 // Including type: UnityEngine.UI.DefaultControls/IFactoryControls
@@ -34,11 +35,18 @@ namespace UnityEngine::UI {
     // static private System.Void .cctor()
     // Offset: 0xE0E6C0
     static void _cctor();
-    // public UnityEngine.GameObject CreateGameObject(System.String name, System.Type[] components)
+    // public UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
     // Offset: 0xE0E644
     // Implemented from: UnityEngine.UI.DefaultControls/IFactoryControls
-    // Base method: UnityEngine.GameObject IFactoryControls::CreateGameObject(System.String name, System.Type[] components)
+    // Base method: UnityEngine.GameObject IFactoryControls::CreateGameObject(System.String name, params System.Type[] components)
     UnityEngine::GameObject* CreateGameObject(::Il2CppString* name, ::Array<System::Type*>* components);
+    // Creating initializer_list -> params proxy for: UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
+    UnityEngine::GameObject* CreateGameObject(::Il2CppString* name, std::initializer_list<System::Type*> components);
+    // Creating TArgs -> initializer_list proxy for: UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
+    template<class ...TParams>
+    UnityEngine::GameObject* CreateGameObject(::Il2CppString* name, TParams&&... components) {
+      return CreateGameObject(name, {components...});
+    }
     // public System.Void .ctor()
     // Offset: 0xE0E6B8
     // Implemented from: System.Object

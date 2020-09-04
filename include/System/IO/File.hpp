@@ -119,7 +119,7 @@ namespace System::IO {
     // static public System.Void AppendAllLines(System.String path, System.Collections.Generic.IEnumerable`1<System.String> contents)
     // Offset: 0x1134278
     static void AppendAllLines(::Il2CppString* path, System::Collections::Generic::IEnumerable_1<::Il2CppString*>* contents);
-    // static System.Int32 FillAttributeInfo(System.String path, System.IO.MonoIOStat data, System.Boolean tryagain, System.Boolean returnErrorOnNotFound)
+    // static System.Int32 FillAttributeInfo(System.String path, ref System.IO.MonoIOStat data, System.Boolean tryagain, System.Boolean returnErrorOnNotFound)
     // Offset: 0x11345F8
     static int FillAttributeInfo(::Il2CppString* path, System::IO::MonoIOStat& data, bool tryagain, bool returnErrorOnNotFound);
   }; // System.IO.File

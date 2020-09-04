@@ -147,7 +147,7 @@ namespace RootMotion {
     // protected System.Void OnSetLoopFrame(System.Single time)
     // Offset: 0xFFFFFFFF
     void OnSetLoopFrame(float time);
-    // protected System.Void OnSetCurves(UnityEngine.AnimationClip clip)
+    // protected System.Void OnSetCurves(ref UnityEngine.AnimationClip clip)
     // Offset: 0xFFFFFFFF
     void OnSetCurves(UnityEngine::AnimationClip*& clip);
     // protected System.Void OnSetKeyframes(System.Single time, System.Boolean lastFrame)

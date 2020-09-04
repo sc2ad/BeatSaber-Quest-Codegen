@@ -110,7 +110,7 @@ namespace System::Reflection {
     // private System.Reflection.AssemblyContentType contentType
     // Offset: 0x6C
     System::Reflection::AssemblyContentType contentType;
-    // static private System.Boolean ParseAssemblyName(System.IntPtr name, Mono.MonoAssemblyName aname, System.Boolean is_version_definited, System.Boolean is_token_defined)
+    // static private System.Boolean ParseAssemblyName(System.IntPtr name, out Mono.MonoAssemblyName aname, out System.Boolean is_version_definited, out System.Boolean is_token_defined)
     // Offset: 0x1368B48
     static bool ParseAssemblyName(System::IntPtr name, Mono::MonoAssemblyName& aname, bool& is_version_definited, bool& is_token_defined);
     // public System.Void .ctor(System.String assemblyName)

@@ -43,13 +43,13 @@ namespace System::Threading {
     // public System.Boolean LocalFindAndPop(System.Threading.IThreadPoolWorkItem obj)
     // Offset: 0xCEC1B8
     bool LocalFindAndPop(System::Threading::IThreadPoolWorkItem* obj);
-    // public System.Boolean LocalPop(System.Threading.IThreadPoolWorkItem obj)
+    // public System.Boolean LocalPop(out System.Threading.IThreadPoolWorkItem obj)
     // Offset: 0xCEC660
     bool LocalPop(System::Threading::IThreadPoolWorkItem*& obj);
-    // public System.Boolean TrySteal(System.Threading.IThreadPoolWorkItem obj, System.Boolean missedSteal)
+    // public System.Boolean TrySteal(out System.Threading.IThreadPoolWorkItem obj, ref System.Boolean missedSteal)
     // Offset: 0xCECAC4
     bool TrySteal(System::Threading::IThreadPoolWorkItem*& obj, bool& missedSteal);
-    // private System.Boolean TrySteal(System.Threading.IThreadPoolWorkItem obj, System.Boolean missedSteal, System.Int32 millisecondsTimeout)
+    // private System.Boolean TrySteal(out System.Threading.IThreadPoolWorkItem obj, ref System.Boolean missedSteal, System.Int32 millisecondsTimeout)
     // Offset: 0xCED228
     bool TrySteal(System::Threading::IThreadPoolWorkItem*& obj, bool& missedSteal, int millisecondsTimeout);
     // public System.Void .ctor()

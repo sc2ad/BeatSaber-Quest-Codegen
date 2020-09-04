@@ -41,7 +41,7 @@ namespace OVR::OpenVR {
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0xECF52C
     static CVRNotifications* New_ctor(System::IntPtr pInterface);
-    // public OVR.OpenVR.EVRNotificationError CreateNotification(System.UInt64 ulOverlayHandle, System.UInt64 ulUserValue, OVR.OpenVR.EVRNotificationType type, System.String pchText, OVR.OpenVR.EVRNotificationStyle style, OVR.OpenVR.NotificationBitmap_t pImage, System.UInt32 pNotificationId)
+    // public OVR.OpenVR.EVRNotificationError CreateNotification(System.UInt64 ulOverlayHandle, System.UInt64 ulUserValue, OVR.OpenVR.EVRNotificationType type, System.String pchText, OVR.OpenVR.EVRNotificationStyle style, ref OVR.OpenVR.NotificationBitmap_t pImage, ref System.UInt32 pNotificationId)
     // Offset: 0xECF634
     OVR::OpenVR::EVRNotificationError CreateNotification(uint64_t ulOverlayHandle, uint64_t ulUserValue, OVR::OpenVR::EVRNotificationType type, ::Il2CppString* pchText, OVR::OpenVR::EVRNotificationStyle style, OVR::OpenVR::NotificationBitmap_t& pImage, uint& pNotificationId);
     // public OVR.OpenVR.EVRNotificationError RemoveNotification(System.UInt32 notificationId)

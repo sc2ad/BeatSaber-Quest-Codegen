@@ -37,7 +37,7 @@ namespace UnityEngine::Timeline {
     // public UnityEngine.Timeline.TrackAsset <>4__this
     // Offset: 0x40
     UnityEngine::Timeline::TrackAsset* $$4__this;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0x1909B4C
     static TrackAsset::$get_outputs$d__65* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

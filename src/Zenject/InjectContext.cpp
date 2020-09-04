@@ -165,5 +165,5 @@ void Zenject::InjectContext::Dispose() {
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose"));
 }
 void Zenject::InjectContext::System_IDisposable_Dispose() {
-  Dispose();
+  Zenject::InjectContext::Dispose();
 }

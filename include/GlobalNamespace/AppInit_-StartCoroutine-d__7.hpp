@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     // private AppInit/AppStartType <startType>5__2
     // Offset: 0x28
     GlobalNamespace::AppInit::AppStartType $startType$5__2;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xB882C0
     static AppInit::$StartCoroutine$d__7* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

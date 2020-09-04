@@ -83,10 +83,10 @@ namespace UnityEngine {
     // static public UnityEngine.Vector3 Slerp(UnityEngine.Vector3 a, UnityEngine.Vector3 b, System.Single t)
     // Offset: 0x139C674
     static UnityEngine::Vector3 Slerp(UnityEngine::Vector3 a, UnityEngine::Vector3 b, float t);
-    // static private System.Void OrthoNormalize2(UnityEngine.Vector3 a, UnityEngine.Vector3 b)
+    // static private System.Void OrthoNormalize2(ref UnityEngine.Vector3 a, ref UnityEngine.Vector3 b)
     // Offset: 0x139C7A0
     static void OrthoNormalize2(UnityEngine::Vector3& a, UnityEngine::Vector3& b);
-    // static public System.Void OrthoNormalize(UnityEngine.Vector3 normal, UnityEngine.Vector3 tangent)
+    // static public System.Void OrthoNormalize(ref UnityEngine.Vector3 normal, ref UnityEngine.Vector3 tangent)
     // Offset: 0x139C7F0
     static void OrthoNormalize(UnityEngine::Vector3& normal, UnityEngine::Vector3& tangent);
     // static public UnityEngine.Vector3 RotateTowards(UnityEngine.Vector3 current, UnityEngine.Vector3 target, System.Single maxRadiansDelta, System.Single maxMagnitudeDelta)
@@ -98,10 +98,10 @@ namespace UnityEngine {
     // static public UnityEngine.Vector3 LerpUnclamped(UnityEngine.Vector3 a, UnityEngine.Vector3 b, System.Single t)
     // Offset: 0x139CA88
     static UnityEngine::Vector3 LerpUnclamped(UnityEngine::Vector3 a, UnityEngine::Vector3 b, float t);
-    // static public UnityEngine.Vector3 SmoothDamp(UnityEngine.Vector3 current, UnityEngine.Vector3 target, UnityEngine.Vector3 currentVelocity, System.Single smoothTime)
+    // static public UnityEngine.Vector3 SmoothDamp(UnityEngine.Vector3 current, UnityEngine.Vector3 target, ref UnityEngine.Vector3 currentVelocity, System.Single smoothTime)
     // Offset: 0x139CAB0
     static UnityEngine::Vector3 SmoothDamp(UnityEngine::Vector3 current, UnityEngine::Vector3 target, UnityEngine::Vector3& currentVelocity, float smoothTime);
-    // static public UnityEngine.Vector3 SmoothDamp(UnityEngine.Vector3 current, UnityEngine.Vector3 target, UnityEngine.Vector3 currentVelocity, System.Single smoothTime, System.Single maxSpeed, System.Single deltaTime)
+    // static public UnityEngine.Vector3 SmoothDamp(UnityEngine.Vector3 current, UnityEngine.Vector3 target, ref UnityEngine.Vector3 currentVelocity, System.Single smoothTime, System.Single maxSpeed, System.Single deltaTime)
     // Offset: 0x139CBA8
     static UnityEngine::Vector3 SmoothDamp(UnityEngine::Vector3 current, UnityEngine::Vector3 target, UnityEngine::Vector3& currentVelocity, float smoothTime, float maxSpeed, float deltaTime);
     // public System.Single get_Item(System.Int32 index)
@@ -200,10 +200,10 @@ namespace UnityEngine {
     // static private System.Void .cctor()
     // Offset: 0x139E200
     static void _cctor();
-    // static private System.Void Slerp_Injected(UnityEngine.Vector3 a, UnityEngine.Vector3 b, System.Single t, UnityEngine.Vector3 ret)
+    // static private System.Void Slerp_Injected(ref UnityEngine.Vector3 a, ref UnityEngine.Vector3 b, System.Single t, out UnityEngine.Vector3 ret)
     // Offset: 0x139C738
     static void Slerp_Injected(UnityEngine::Vector3& a, UnityEngine::Vector3& b, float t, UnityEngine::Vector3& ret);
-    // static private System.Void RotateTowards_Injected(UnityEngine.Vector3 current, UnityEngine.Vector3 target, System.Single maxRadiansDelta, System.Single maxMagnitudeDelta, UnityEngine.Vector3 ret)
+    // static private System.Void RotateTowards_Injected(ref UnityEngine.Vector3 current, ref UnityEngine.Vector3 target, System.Single maxRadiansDelta, System.Single maxMagnitudeDelta, out UnityEngine.Vector3 ret)
     // Offset: 0x139C950
     static void RotateTowards_Injected(UnityEngine::Vector3& current, UnityEngine::Vector3& target, float maxRadiansDelta, float maxMagnitudeDelta, UnityEngine::Vector3& ret);
     // public override System.Int32 GetHashCode()

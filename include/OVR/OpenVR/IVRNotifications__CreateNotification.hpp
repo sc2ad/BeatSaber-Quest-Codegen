@@ -39,13 +39,13 @@ namespace OVR::OpenVR {
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1522B2C
     static IVRNotifications::_CreateNotification* New_ctor(::Il2CppObject* object, System::IntPtr method);
-    // public OVR.OpenVR.EVRNotificationError Invoke(System.UInt64 ulOverlayHandle, System.UInt64 ulUserValue, OVR.OpenVR.EVRNotificationType type, System.String pchText, OVR.OpenVR.EVRNotificationStyle style, OVR.OpenVR.NotificationBitmap_t pImage, System.UInt32 pNotificationId)
+    // public OVR.OpenVR.EVRNotificationError Invoke(System.UInt64 ulOverlayHandle, System.UInt64 ulUserValue, OVR.OpenVR.EVRNotificationType type, System.String pchText, OVR.OpenVR.EVRNotificationStyle style, ref OVR.OpenVR.NotificationBitmap_t pImage, ref System.UInt32 pNotificationId)
     // Offset: 0x1522B40
     OVR::OpenVR::EVRNotificationError Invoke(uint64_t ulOverlayHandle, uint64_t ulUserValue, OVR::OpenVR::EVRNotificationType type, ::Il2CppString* pchText, OVR::OpenVR::EVRNotificationStyle style, OVR::OpenVR::NotificationBitmap_t& pImage, uint& pNotificationId);
-    // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.UInt64 ulUserValue, OVR.OpenVR.EVRNotificationType type, System.String pchText, OVR.OpenVR.EVRNotificationStyle style, OVR.OpenVR.NotificationBitmap_t pImage, System.UInt32 pNotificationId, System.AsyncCallback callback, System.Object object)
+    // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.UInt64 ulUserValue, OVR.OpenVR.EVRNotificationType type, System.String pchText, OVR.OpenVR.EVRNotificationStyle style, ref OVR.OpenVR.NotificationBitmap_t pImage, ref System.UInt32 pNotificationId, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1522E24
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint64_t ulUserValue, OVR::OpenVR::EVRNotificationType type, ::Il2CppString* pchText, OVR::OpenVR::EVRNotificationStyle style, OVR::OpenVR::NotificationBitmap_t& pImage, uint& pNotificationId, System::AsyncCallback* callback, ::Il2CppObject* object);
-    // public OVR.OpenVR.EVRNotificationError EndInvoke(OVR.OpenVR.NotificationBitmap_t pImage, System.UInt32 pNotificationId, System.IAsyncResult result)
+    // public OVR.OpenVR.EVRNotificationError EndInvoke(ref OVR.OpenVR.NotificationBitmap_t pImage, ref System.UInt32 pNotificationId, System.IAsyncResult result)
     // Offset: 0x1522F54
     OVR::OpenVR::EVRNotificationError EndInvoke(OVR::OpenVR::NotificationBitmap_t& pImage, uint& pNotificationId, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRNotifications/_CreateNotification

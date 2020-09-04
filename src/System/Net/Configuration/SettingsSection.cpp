@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Net.Configuration.SettingsSection
 #include "System/Net/Configuration/SettingsSection.hpp"
 // Including type: System.Configuration.ConfigurationPropertyCollection

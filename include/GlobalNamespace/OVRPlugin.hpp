@@ -34,9 +34,6 @@ namespace System {
   // Forward declaring type: Nullable`1<T>
   template<typename T>
   struct Nullable_1;
-  // Forward declaring type: Nullable`1<T>
-  template<typename T>
-  struct Nullable_1;
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
@@ -932,7 +929,7 @@ namespace GlobalNamespace {
     // static public OVRPlugin/BoundaryGeometry GetBoundaryGeometry(OVRPlugin/BoundaryType boundaryType)
     // Offset: 0xEFE860
     static GlobalNamespace::OVRPlugin::BoundaryGeometry GetBoundaryGeometry(GlobalNamespace::OVRPlugin::BoundaryType boundaryType);
-    // static public System.Boolean GetBoundaryGeometry2(OVRPlugin/BoundaryType boundaryType, System.IntPtr points, System.Int32 pointsCount)
+    // static public System.Boolean GetBoundaryGeometry2(OVRPlugin/BoundaryType boundaryType, System.IntPtr points, ref System.Int32 pointsCount)
     // Offset: 0xEFE980
     static bool GetBoundaryGeometry2(GlobalNamespace::OVRPlugin::BoundaryType boundaryType, System::IntPtr points, int& pointsCount);
     // static public OVRPlugin/AppPerfStats GetAppPerfStats()
@@ -971,7 +968,7 @@ namespace GlobalNamespace {
     // static public System.Boolean UpdateExternalCamera()
     // Offset: 0xEECA1C
     static bool UpdateExternalCamera();
-    // static public System.Boolean GetMixedRealityCameraInfo(System.Int32 cameraId, OVRPlugin/CameraExtrinsics cameraExtrinsics, OVRPlugin/CameraIntrinsics cameraIntrinsics, OVRPlugin/Posef calibrationRawPose)
+    // static public System.Boolean GetMixedRealityCameraInfo(System.Int32 cameraId, out OVRPlugin/CameraExtrinsics cameraExtrinsics, out OVRPlugin/CameraIntrinsics cameraIntrinsics, out OVRPlugin/Posef calibrationRawPose)
     // Offset: 0xEEDCC4
     static bool GetMixedRealityCameraInfo(int cameraId, GlobalNamespace::OVRPlugin::CameraExtrinsics& cameraExtrinsics, GlobalNamespace::OVRPlugin::CameraIntrinsics& cameraIntrinsics, GlobalNamespace::OVRPlugin::Posef& calibrationRawPose);
     // static public System.Boolean OverrideExternalCameraFov(System.Int32 cameraId, System.Boolean useOverriddenFov, OVRPlugin/Fovf fov)
@@ -989,7 +986,7 @@ namespace GlobalNamespace {
     // static public System.Boolean ResetDefaultExternalCamera()
     // Offset: 0xEED73C
     static bool ResetDefaultExternalCamera();
-    // static public System.Boolean SetDefaultExternalCamera(System.String cameraName, OVRPlugin/CameraIntrinsics cameraIntrinsics, OVRPlugin/CameraExtrinsics cameraExtrinsics)
+    // static public System.Boolean SetDefaultExternalCamera(System.String cameraName, ref OVRPlugin/CameraIntrinsics cameraIntrinsics, ref OVRPlugin/CameraExtrinsics cameraExtrinsics)
     // Offset: 0xEEDEB0
     static bool SetDefaultExternalCamera(::Il2CppString* cameraName, GlobalNamespace::OVRPlugin::CameraIntrinsics& cameraIntrinsics, GlobalNamespace::OVRPlugin::CameraExtrinsics& cameraExtrinsics);
     // static public OVRPlugin/Vector3f GetBoundaryDimensions(OVRPlugin/BoundaryType boundaryType)
@@ -1061,7 +1058,7 @@ namespace GlobalNamespace {
     // static public System.Void set_systemDisplayFrequency(System.Single value)
     // Offset: 0xF005E8
     static void set_systemDisplayFrequency(float value);
-    // static public System.Boolean GetNodeFrustum2(OVRPlugin/Node nodeId, OVRPlugin/Frustumf2 frustum)
+    // static public System.Boolean GetNodeFrustum2(OVRPlugin/Node nodeId, out OVRPlugin/Frustumf2 frustum)
     // Offset: 0xF006F8
     static bool GetNodeFrustum2(GlobalNamespace::OVRPlugin::Node nodeId, GlobalNamespace::OVRPlugin::Frustumf2& frustum);
     // static public System.Boolean get_AsymmetricFovEnabled()
@@ -1082,10 +1079,10 @@ namespace GlobalNamespace {
     // static public System.Boolean SendEvent(System.String name, System.String param, System.String source)
     // Offset: 0xF00D54
     static bool SendEvent(::Il2CppString* name, ::Il2CppString* param, ::Il2CppString* source);
-    // static public System.Boolean SetHeadPoseModifier(OVRPlugin/Quatf relativeRotation, OVRPlugin/Vector3f relativeTranslation)
+    // static public System.Boolean SetHeadPoseModifier(ref OVRPlugin/Quatf relativeRotation, ref OVRPlugin/Vector3f relativeTranslation)
     // Offset: 0xF00F44
     static bool SetHeadPoseModifier(GlobalNamespace::OVRPlugin::Quatf& relativeRotation, GlobalNamespace::OVRPlugin::Vector3f& relativeTranslation);
-    // static public System.Boolean GetHeadPoseModifier(OVRPlugin/Quatf relativeRotation, OVRPlugin/Vector3f relativeTranslation)
+    // static public System.Boolean GetHeadPoseModifier(out OVRPlugin/Quatf relativeRotation, out OVRPlugin/Vector3f relativeTranslation)
     // Offset: 0xF0105C
     static bool GetHeadPoseModifier(GlobalNamespace::OVRPlugin::Quatf& relativeRotation, GlobalNamespace::OVRPlugin::Vector3f& relativeTranslation);
     // static public System.Boolean IsPerfMetricsSupported(OVRPlugin/PerfMetrics perfMetrics)
@@ -1115,13 +1112,13 @@ namespace GlobalNamespace {
     // static public System.Boolean GetHandTrackingEnabled()
     // Offset: 0xF01B20
     static bool GetHandTrackingEnabled();
-    // static public System.Boolean GetHandState(OVRPlugin/Step stepId, OVRPlugin/Hand hand, OVRPlugin/HandState handState)
+    // static public System.Boolean GetHandState(OVRPlugin/Step stepId, OVRPlugin/Hand hand, ref OVRPlugin/HandState handState)
     // Offset: 0xF01C34
     static bool GetHandState(GlobalNamespace::OVRPlugin::Step stepId, GlobalNamespace::OVRPlugin::Hand hand, GlobalNamespace::OVRPlugin::HandState& handState);
-    // static public System.Boolean GetSkeleton(OVRPlugin/SkeletonType skeletonType, OVRPlugin/Skeleton skeleton)
+    // static public System.Boolean GetSkeleton(OVRPlugin/SkeletonType skeletonType, out OVRPlugin/Skeleton skeleton)
     // Offset: 0xF023E0
     static bool GetSkeleton(GlobalNamespace::OVRPlugin::SkeletonType skeletonType, GlobalNamespace::OVRPlugin::Skeleton& skeleton);
-    // static public System.Boolean GetMesh(OVRPlugin/MeshType meshType, OVRPlugin/Mesh mesh)
+    // static public System.Boolean GetMesh(OVRPlugin/MeshType meshType, out OVRPlugin/Mesh mesh)
     // Offset: 0xEEB7B0
     static bool GetMesh(GlobalNamespace::OVRPlugin::MeshType meshType, GlobalNamespace::OVRPlugin::Mesh*& mesh);
     // static public System.Boolean GetSystemHmd3DofModeEnabled()

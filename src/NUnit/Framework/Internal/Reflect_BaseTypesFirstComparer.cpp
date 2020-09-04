@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Internal.Reflect/BaseTypesFirstComparer
 #include "NUnit/Framework/Internal/Reflect_BaseTypesFirstComparer.hpp"
 // Including type: System.Reflection.MethodInfo

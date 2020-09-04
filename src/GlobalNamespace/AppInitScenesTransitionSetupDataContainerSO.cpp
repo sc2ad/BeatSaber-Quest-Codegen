@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: AppInitScenesTransitionSetupDataContainerSO
 #include "GlobalNamespace/AppInitScenesTransitionSetupDataContainerSO.hpp"
 // Including type: AppInitScenesTransitionSetupDataSO

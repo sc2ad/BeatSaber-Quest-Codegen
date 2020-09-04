@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.Constraints
 #include "RootMotion/FinalIK/Constraints.hpp"
 // Including type: UnityEngine.Transform

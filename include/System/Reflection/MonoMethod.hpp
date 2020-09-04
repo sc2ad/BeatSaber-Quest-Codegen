@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: System.Reflection.RuntimeMethodInfo
 #include "System/Reflection/RuntimeMethodInfo.hpp"
 // Including type: System.IntPtr
@@ -75,13 +76,13 @@ namespace System::Reflection {
     // static System.Reflection.MonoMethod get_base_method(System.Reflection.MonoMethod method, System.Boolean definition)
     // Offset: 0x1153630
     static System::Reflection::MonoMethod* get_base_method(System::Reflection::MonoMethod* method, bool definition);
-    // System.Object InternalInvoke(System.Object obj, System.Object[] parameters, System.Exception exc)
+    // System.Object InternalInvoke(System.Object obj, System.Object[] parameters, out System.Exception exc)
     // Offset: 0x11537A0
     ::Il2CppObject* InternalInvoke(::Il2CppObject* obj, ::Array<::Il2CppObject*>* parameters, System::Exception*& exc);
     // static System.Void ConvertValues(System.Reflection.Binder binder, System.Object[] args, System.Reflection.ParameterInfo[] pinfo, System.Globalization.CultureInfo culture, System.Reflection.BindingFlags invokeAttr)
     // Offset: 0x1152028
     static void ConvertValues(System::Reflection::Binder* binder, ::Array<::Il2CppObject*>* args, ::Array<System::Reflection::ParameterInfo*>* pinfo, System::Globalization::CultureInfo* culture, System::Reflection::BindingFlags invokeAttr);
-    // System.Void GetPInvoke(System.Reflection.PInvokeAttributes flags, System.String entryPoint, System.String dllName)
+    // System.Void GetPInvoke(out System.Reflection.PInvokeAttributes flags, out System.String entryPoint, out System.String dllName)
     // Offset: 0x1153C5C
     void GetPInvoke(System::Reflection::PInvokeAttributes& flags, ::Il2CppString*& entryPoint, ::Il2CppString*& dllName);
     // System.Object[] GetPseudoCustomAttributes()
@@ -190,11 +191,18 @@ namespace System::Reflection {
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
     ::Array<::Il2CppObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
-    // public override System.Reflection.MethodInfo MakeGenericMethod(System.Type[] methodInstantiation)
+    // public override System.Reflection.MethodInfo MakeGenericMethod(params System.Type[] methodInstantiation)
     // Offset: 0x1154010
     // Implemented from: System.Reflection.MethodInfo
-    // Base method: System.Reflection.MethodInfo MethodInfo::MakeGenericMethod(System.Type[] methodInstantiation)
+    // Base method: System.Reflection.MethodInfo MethodInfo::MakeGenericMethod(params System.Type[] methodInstantiation)
     System::Reflection::MethodInfo* MakeGenericMethod(::Array<System::Type*>* methodInstantiation);
+    // Creating initializer_list -> params proxy for: System.Reflection.MethodInfo MakeGenericMethod(params System.Type[] methodInstantiation)
+    System::Reflection::MethodInfo* MakeGenericMethod(std::initializer_list<System::Type*> methodInstantiation);
+    // Creating TArgs -> initializer_list proxy for: System.Reflection.MethodInfo MakeGenericMethod(params System.Type[] methodInstantiation)
+    template<class ...TParams>
+    System::Reflection::MethodInfo* MakeGenericMethod(TParams&&... methodInstantiation) {
+      return MakeGenericMethod({methodInstantiation...});
+    }
     // public override System.Type[] GetGenericArguments()
     // Offset: 0x115433C
     // Implemented from: System.Reflection.MethodInfo

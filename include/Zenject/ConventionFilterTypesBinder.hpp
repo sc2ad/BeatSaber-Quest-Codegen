@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: Zenject.ConventionAssemblySelectionBinder
 #include "Zenject/ConventionAssemblySelectionBinder.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
@@ -22,9 +23,6 @@ namespace System {
   class Type;
   // Forward declaring type: Attribute
   class Attribute;
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
-  class Func_2;
   // Forward declaring type: Func`2<T, TResult>
   template<typename T, typename TResult>
   class Func_2;
@@ -120,9 +118,16 @@ namespace Zenject {
     // public Zenject.ConventionFilterTypesBinder InNamespace(System.String ns)
     // Offset: 0xD6FB50
     Zenject::ConventionFilterTypesBinder* InNamespace(::Il2CppString* ns);
-    // public Zenject.ConventionFilterTypesBinder InNamespaces(System.String[] namespaces)
+    // public Zenject.ConventionFilterTypesBinder InNamespaces(params System.String[] namespaces)
     // Offset: 0xD6FC0C
     Zenject::ConventionFilterTypesBinder* InNamespaces(::Array<::Il2CppString*>* namespaces);
+    // Creating initializer_list -> params proxy for: Zenject.ConventionFilterTypesBinder InNamespaces(params System.String[] namespaces)
+    Zenject::ConventionFilterTypesBinder* InNamespaces(std::initializer_list<::Il2CppString*> namespaces);
+    // Creating TArgs -> initializer_list proxy for: Zenject.ConventionFilterTypesBinder InNamespaces(params System.String[] namespaces)
+    template<class ...TParams>
+    Zenject::ConventionFilterTypesBinder* InNamespaces(TParams&&... namespaces) {
+      return InNamespaces({namespaces...});
+    }
     // public Zenject.ConventionFilterTypesBinder InNamespaces(System.Collections.Generic.IEnumerable`1<System.String> namespaces)
     // Offset: 0xD6FC10
     Zenject::ConventionFilterTypesBinder* InNamespaces(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* namespaces);

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Text.UTF8Encoding/UTF8Encoder
 #include "System/Text/UTF8Encoding_UTF8Encoder.hpp"
 // Including type: System.Runtime.Serialization.SerializationInfo

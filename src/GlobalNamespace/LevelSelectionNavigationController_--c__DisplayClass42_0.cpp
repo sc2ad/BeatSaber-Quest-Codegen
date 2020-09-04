@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: LevelSelectionNavigationController/<>c__DisplayClass42_0
 #include "GlobalNamespace/LevelSelectionNavigationController_--c__DisplayClass42_0.hpp"
 // Including type: HMUI.ViewController

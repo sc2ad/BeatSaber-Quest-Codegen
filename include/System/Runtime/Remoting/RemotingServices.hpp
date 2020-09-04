@@ -122,7 +122,7 @@ namespace System::Runtime::Remoting {
     // static private System.Void .cctor()
     // Offset: 0xE1CB50
     static void _cctor();
-    // static System.Object InternalExecute(System.Reflection.MethodBase method, System.Object obj, System.Object[] parameters, System.Object[] out_args)
+    // static System.Object InternalExecute(System.Reflection.MethodBase method, System.Object obj, System.Object[] parameters, out System.Object[] out_args)
     // Offset: 0xE1CE94
     static ::Il2CppObject* InternalExecute(System::Reflection::MethodBase* method, ::Il2CppObject* obj, ::Array<::Il2CppObject*>* parameters, ::Array<::Il2CppObject*>*& out_args);
     // static System.Reflection.MethodBase GetVirtualMethod(System.Type type, System.Reflection.MethodBase method)
@@ -194,10 +194,10 @@ namespace System::Runtime::Remoting {
     // static private System.String RemoveAppNameFromUri(System.String uri)
     // Offset: 0xE1EF24
     static ::Il2CppString* RemoveAppNameFromUri(::Il2CppString* uri);
-    // static System.Runtime.Remoting.ClientIdentity GetOrCreateClientIdentity(System.Runtime.Remoting.ObjRef objRef, System.Type proxyType, System.Object clientProxy)
+    // static System.Runtime.Remoting.ClientIdentity GetOrCreateClientIdentity(System.Runtime.Remoting.ObjRef objRef, System.Type proxyType, out System.Object clientProxy)
     // Offset: 0xE1F034
     static System::Runtime::Remoting::ClientIdentity* GetOrCreateClientIdentity(System::Runtime::Remoting::ObjRef* objRef, System::Type* proxyType, ::Il2CppObject*& clientProxy);
-    // static private System.Runtime.Remoting.Messaging.IMessageSink GetClientChannelSinkChain(System.String url, System.Object channelData, System.String objectUri)
+    // static private System.Runtime.Remoting.Messaging.IMessageSink GetClientChannelSinkChain(System.String url, System.Object channelData, out System.String objectUri)
     // Offset: 0xE1EBDC
     static System::Runtime::Remoting::Messaging::IMessageSink* GetClientChannelSinkChain(::Il2CppString* url, ::Il2CppObject* channelData, ::Il2CppString*& objectUri);
     // static System.Runtime.Remoting.ClientActivatedIdentity CreateContextBoundObjectIdentity(System.Type objectType)

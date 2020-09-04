@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // public SimpleRetailDemoFlowCoordinator <>4__this
     // Offset: 0x20
     GlobalNamespace::SimpleRetailDemoFlowCoordinator* $$4__this;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xB99518
     static SimpleRetailDemoFlowCoordinator::$QuitApplicationCoroutine$d__21* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

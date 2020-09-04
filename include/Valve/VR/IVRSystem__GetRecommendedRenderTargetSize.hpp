@@ -28,13 +28,13 @@ namespace Valve::VR {
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16D88E8
     static IVRSystem::_GetRecommendedRenderTargetSize* New_ctor(::Il2CppObject* object, System::IntPtr method);
-    // public System.Void Invoke(System.UInt32 pnWidth, System.UInt32 pnHeight)
+    // public System.Void Invoke(ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)
     // Offset: 0x16D88FC
     void Invoke(uint& pnWidth, uint& pnHeight);
-    // public System.IAsyncResult BeginInvoke(System.UInt32 pnWidth, System.UInt32 pnHeight, System.AsyncCallback callback, System.Object object)
+    // public System.IAsyncResult BeginInvoke(ref System.UInt32 pnWidth, ref System.UInt32 pnHeight, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16D8B68
     System::IAsyncResult* BeginInvoke(uint& pnWidth, uint& pnHeight, System::AsyncCallback* callback, ::Il2CppObject* object);
-    // public System.Void EndInvoke(System.UInt32 pnWidth, System.UInt32 pnHeight, System.IAsyncResult result)
+    // public System.Void EndInvoke(ref System.UInt32 pnWidth, ref System.UInt32 pnHeight, System.IAsyncResult result)
     // Offset: 0x16D8C14
     void EndInvoke(uint& pnWidth, uint& pnHeight, System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetRecommendedRenderTargetSize

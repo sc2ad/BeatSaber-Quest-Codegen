@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: SteamVR_Controller/Device
 #include "GlobalNamespace/SteamVR_Controller_Device.hpp"
 // Including type: UnityEngine.Vector3

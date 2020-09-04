@@ -58,7 +58,7 @@ namespace System {
     // static System.Int32 InternalKeyAvailable(System.Int32 ms_timeout)
     // Offset: 0x10C540C
     static int InternalKeyAvailable(int ms_timeout);
-    // static System.Boolean TtySetup(System.String keypadXmit, System.String teardown, System.Byte[] control_characters, System.Int32* address)
+    // static System.Boolean TtySetup(System.String keypadXmit, System.String teardown, out System.Byte[] control_characters, out System.Int32* address)
     // Offset: 0x10C5410
     static bool TtySetup(::Il2CppString* keypadXmit, ::Il2CppString* teardown, ::Array<uint8_t>*& control_characters, int*& address);
     // static System.Boolean SetEcho(System.Boolean wantEcho)

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.IO.SearchPattern2/OpCode
 #include "System/IO/SearchPattern2_OpCode.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

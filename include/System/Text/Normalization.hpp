@@ -98,13 +98,13 @@ namespace System::Text {
     // static private System.String Decompose(System.String source, System.Int32 checkType)
     // Offset: 0x12FD93C
     static ::Il2CppString* Decompose(::Il2CppString* source, int checkType);
-    // static private System.Void Decompose(System.String source, System.Text.StringBuilder sb, System.Int32 checkType)
+    // static private System.Void Decompose(System.String source, ref System.Text.StringBuilder sb, System.Int32 checkType)
     // Offset: 0x12FCBE8
     static void Decompose(::Il2CppString* source, System::Text::StringBuilder*& sb, int checkType);
-    // static private System.Void ReorderCanonical(System.String src, System.Text.StringBuilder sb, System.Int32 start)
+    // static private System.Void ReorderCanonical(System.String src, ref System.Text.StringBuilder sb, System.Int32 start)
     // Offset: 0x12FDD54
     static void ReorderCanonical(::Il2CppString* src, System::Text::StringBuilder*& sb, int start);
-    // static private System.Void DecomposeChar(System.Text.StringBuilder sb, System.Int32[] buf, System.String s, System.Int32 i, System.Int32 checkType, System.Int32 start)
+    // static private System.Void DecomposeChar(ref System.Text.StringBuilder sb, ref System.Int32[] buf, System.String s, System.Int32 i, System.Int32 checkType, ref System.Int32 start)
     // Offset: 0x12FD9D8
     static void DecomposeChar(System::Text::StringBuilder*& sb, ::Array<int>*& buf, ::Il2CppString* s, int i, int checkType, int& start);
     // static public System.Text.NormalizationCheck QuickCheck(System.Char c, System.Int32 type)
@@ -122,7 +122,7 @@ namespace System::Text {
     // static public System.String Normalize(System.String source, System.Int32 type)
     // Offset: 0x12FE3D0
     static ::Il2CppString* Normalize(::Il2CppString* source, int type);
-    // static private System.Void load_normalization_resource(System.IntPtr props, System.IntPtr mappedChars, System.IntPtr charMapIndex, System.IntPtr helperIndex, System.IntPtr mapIdxToComposite, System.IntPtr combiningClass)
+    // static private System.Void load_normalization_resource(out System.IntPtr props, out System.IntPtr mappedChars, out System.IntPtr charMapIndex, out System.IntPtr helperIndex, out System.IntPtr mapIdxToComposite, out System.IntPtr combiningClass)
     // Offset: 0x12FE488
     static void load_normalization_resource(System::IntPtr& props, System::IntPtr& mappedChars, System::IntPtr& charMapIndex, System::IntPtr& helperIndex, System::IntPtr& mapIdxToComposite, System::IntPtr& combiningClass);
     // static private System.Void .cctor()

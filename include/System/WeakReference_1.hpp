@@ -48,7 +48,7 @@ namespace System {
     static WeakReference_1<T>* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
       return (WeakReference_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<WeakReference_1<T>*>::get(), info, context));
     }
-    // public System.Boolean TryGetTarget(T target)
+    // public System.Boolean TryGetTarget(out T target)
     // Offset: 0xFFFFFFFF
     bool TryGetTarget(T& target) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "TryGetTarget", target));

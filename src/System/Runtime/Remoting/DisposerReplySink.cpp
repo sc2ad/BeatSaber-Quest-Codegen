@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.Remoting.DisposerReplySink
 #include "System/Runtime/Remoting/DisposerReplySink.hpp"
 // Including type: System.IDisposable

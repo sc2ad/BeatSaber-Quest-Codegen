@@ -125,7 +125,7 @@ namespace System::Resources {
     // private System.Boolean CompareStringEqualsName(System.String name)
     // Offset: 0x1160434
     bool CompareStringEqualsName(::Il2CppString* name);
-    // private System.String AllocateStringForNameIndex(System.Int32 index, System.Int32 dataOffset)
+    // private System.String AllocateStringForNameIndex(System.Int32 index, out System.Int32 dataOffset)
     // Offset: 0x116064C
     ::Il2CppString* AllocateStringForNameIndex(int index, int& dataOffset);
     // private System.Object GetValueForNameIndex(System.Int32 index)
@@ -137,7 +137,7 @@ namespace System::Resources {
     // System.Object LoadObject(System.Int32 pos)
     // Offset: 0x1161ABC
     ::Il2CppObject* LoadObject(int pos);
-    // System.Object LoadObject(System.Int32 pos, System.Resources.ResourceTypeCode typeCode)
+    // System.Object LoadObject(System.Int32 pos, out System.Resources.ResourceTypeCode typeCode)
     // Offset: 0x1161AF4
     ::Il2CppObject* LoadObject(int pos, System::Resources::ResourceTypeCode& typeCode);
     // System.Object LoadObjectV1(System.Int32 pos)
@@ -146,10 +146,10 @@ namespace System::Resources {
     // private System.Object _LoadObjectV1(System.Int32 pos)
     // Offset: 0x1161B94
     ::Il2CppObject* _LoadObjectV1(int pos);
-    // System.Object LoadObjectV2(System.Int32 pos, System.Resources.ResourceTypeCode typeCode)
+    // System.Object LoadObjectV2(System.Int32 pos, out System.Resources.ResourceTypeCode typeCode)
     // Offset: 0x1161354
     ::Il2CppObject* LoadObjectV2(int pos, System::Resources::ResourceTypeCode& typeCode);
-    // private System.Object _LoadObjectV2(System.Int32 pos, System.Resources.ResourceTypeCode typeCode)
+    // private System.Object _LoadObjectV2(System.Int32 pos, out System.Resources.ResourceTypeCode typeCode)
     // Offset: 0x11624E4
     ::Il2CppObject* _LoadObjectV2(int pos, System::Resources::ResourceTypeCode& typeCode);
     // private System.Object DeserializeObject(System.Int32 typeIndex)

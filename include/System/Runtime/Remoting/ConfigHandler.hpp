@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: Mono.Xml.SmallXmlParser/IContentHandler
 #include "Mono/Xml/SmallXmlParser_IContentHandler.hpp"
 // Completed includes
@@ -61,9 +62,16 @@ namespace System::Runtime::Remoting {
     // public System.Void .ctor(System.Boolean onlyDelayedChannels)
     // Offset: 0x105ADB8
     static ConfigHandler* New_ctor(bool onlyDelayedChannels);
-    // private System.Void ValidatePath(System.String element, System.String[] paths)
+    // private System.Void ValidatePath(System.String element, params System.String[] paths)
     // Offset: 0x105AE80
     void ValidatePath(::Il2CppString* element, ::Array<::Il2CppString*>* paths);
+    // Creating initializer_list -> params proxy for: System.Void ValidatePath(System.String element, params System.String[] paths)
+    void ValidatePath(::Il2CppString* element, std::initializer_list<::Il2CppString*> paths);
+    // Creating TArgs -> initializer_list proxy for: System.Void ValidatePath(System.String element, params System.String[] paths)
+    template<class ...TParams>
+    void ValidatePath(::Il2CppString* element, TParams&&... paths) {
+      ValidatePath(element, {paths...});
+    }
     // private System.Boolean CheckPath(System.String path)
     // Offset: 0x105AF8C
     bool CheckPath(::Il2CppString* path);
@@ -106,7 +114,7 @@ namespace System::Runtime::Remoting {
     // private System.String GetNotNull(Mono.Xml.SmallXmlParser/IAttrList attrs, System.String name)
     // Offset: 0x105E0F8
     ::Il2CppString* GetNotNull(Mono::Xml::SmallXmlParser::IAttrList* attrs, ::Il2CppString* name);
-    // private System.String ExtractAssembly(System.String type)
+    // private System.String ExtractAssembly(ref System.String type)
     // Offset: 0x105E234
     ::Il2CppString* ExtractAssembly(::Il2CppString*& type);
     // public System.Void OnStartParsing(Mono.Xml.SmallXmlParser parser)

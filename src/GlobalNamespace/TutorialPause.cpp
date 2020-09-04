@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TutorialPause
 #include "GlobalNamespace/TutorialPause.hpp"
 // Including type: System.Action

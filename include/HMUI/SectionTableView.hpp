@@ -89,7 +89,7 @@ namespace HMUI {
     // public System.Void ScrollToRow(System.Int32 section, System.Int32 row, HMUI.TableViewScroller/ScrollPositionType scrollPositionType, System.Boolean animated)
     // Offset: 0x10E45F8
     void ScrollToRow(int section, int row, HMUI::TableViewScroller::ScrollPositionType scrollPositionType, bool animated);
-    // public System.Void SectionAndRowForBaseRow(System.Int32 baseRow, System.Int32 section, System.Int32 row, System.Boolean isSectionHeader)
+    // public System.Void SectionAndRowForBaseRow(System.Int32 baseRow, out System.Int32 section, out System.Int32 row, out System.Boolean isSectionHeader)
     // Offset: 0x10E3618
     void SectionAndRowForBaseRow(int baseRow, int& section, int& row, bool& isSectionHeader);
     // public System.Single CellSize()

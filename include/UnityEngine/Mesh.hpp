@@ -49,21 +49,6 @@ namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
   template<typename T>
   class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
 }
 // Completed forward declares
 // Type namespace: UnityEngine
@@ -392,10 +377,10 @@ namespace UnityEngine {
     // public UnityEngine.MeshTopology GetTopology(System.Int32 submesh)
     // Offset: 0x1415AF8
     UnityEngine::MeshTopology GetTopology(int submesh);
-    // private System.Void get_bounds_Injected(UnityEngine.Bounds ret)
+    // private System.Void get_bounds_Injected(out UnityEngine.Bounds ret)
     // Offset: 0x1413734
     void get_bounds_Injected(UnityEngine::Bounds& ret);
-    // private System.Void set_bounds_Injected(UnityEngine.Bounds value)
+    // private System.Void set_bounds_Injected(ref UnityEngine.Bounds value)
     // Offset: 0x14137D4
     void set_bounds_Injected(UnityEngine::Bounds& value);
     // public System.Void .ctor()

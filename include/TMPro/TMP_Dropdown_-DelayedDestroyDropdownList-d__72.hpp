@@ -27,7 +27,7 @@ namespace TMPro {
     // public TMPro.TMP_Dropdown <>4__this
     // Offset: 0x28
     TMPro::TMP_Dropdown* $$4__this;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xB59FD4
     static TMP_Dropdown::$DelayedDestroyDropdownList$d__72* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TMPro.TMP_Asset
 #include "TMPro/TMP_Asset.hpp"
 // Including type: UnityEngine.Material

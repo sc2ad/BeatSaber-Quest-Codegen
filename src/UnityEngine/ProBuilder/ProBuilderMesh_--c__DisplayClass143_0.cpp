@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.ProBuilderMesh/<>c__DisplayClass143_0
 #include "UnityEngine/ProBuilder/ProBuilderMesh_--c__DisplayClass143_0.hpp"
 // Including type: UnityEngine.ProBuilder.Face

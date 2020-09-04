@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.IgnoreException
 #include "NUnit/Framework/IgnoreException.hpp"
 // Including type: System.Runtime.Serialization.SerializationInfo

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TweenPosition
 #include "GlobalNamespace/TweenPosition.hpp"
 // Including type: TweenPosition/<AnimateToNewPosCoroutine>d__11

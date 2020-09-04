@@ -31,5 +31,5 @@ int System::Collections::LowLevelComparer::Compare(::Il2CppObject* a, ::Il2CppOb
   return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "Compare", a, b));
 }
 int System::Collections::LowLevelComparer::System_Collections_IComparer_Compare(::Il2CppObject* a, ::Il2CppObject* b) {
-  return Compare(a, b);
+  return System::Collections::LowLevelComparer::Compare(a, b);
 }

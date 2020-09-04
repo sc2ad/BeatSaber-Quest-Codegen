@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.Remoting.Channels.AsyncRequest
 #include "System/Runtime/Remoting/Channels/AsyncRequest.hpp"
 // Including type: System.Runtime.Remoting.Messaging.IMessageSink

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: ModestTree.TypeExtensions/<>c__DisplayClass39_1
 #include "ModestTree/TypeExtensions_--c__DisplayClass39_1.hpp"
 // Including type: System.Attribute

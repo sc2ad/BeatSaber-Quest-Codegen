@@ -293,5 +293,5 @@ void GlobalNamespace::SteamVR::Dispose() {
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose"));
 }
 void GlobalNamespace::SteamVR::System_IDisposable_Dispose() {
-  Dispose();
+  GlobalNamespace::SteamVR::Dispose();
 }

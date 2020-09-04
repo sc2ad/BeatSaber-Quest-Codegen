@@ -25,10 +25,10 @@ namespace GlobalNamespace {
     // private System.Void OnDrawGizmosSelected()
     // Offset: 0x1953560
     void OnDrawGizmosSelected();
-    // public override System.Void Collide(UnityEngine.Vector3 particlePosition, System.Single particleRadius)
+    // public override System.Void Collide(ref UnityEngine.Vector3 particlePosition, System.Single particleRadius)
     // Offset: 0x1953374
     // Implemented from: DynamicBoneColliderBase
-    // Base method: System.Void DynamicBoneColliderBase::Collide(UnityEngine.Vector3 particlePosition, System.Single particleRadius)
+    // Base method: System.Void DynamicBoneColliderBase::Collide(ref UnityEngine.Vector3 particlePosition, System.Single particleRadius)
     void Collide(UnityEngine::Vector3& particlePosition, float particleRadius);
     // public System.Void .ctor()
     // Offset: 0x1953724

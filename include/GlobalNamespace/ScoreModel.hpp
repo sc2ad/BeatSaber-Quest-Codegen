@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     // static public System.Int32 MaxRawScoreForNumberOfNotes(System.Int32 noteCount)
     // Offset: 0xC2C870
     static int MaxRawScoreForNumberOfNotes(int noteCount);
-    // static public System.Void RawScoreWithoutMultiplier(NoteCutInfo noteCutInfo, System.Int32 beforeCutRawScore, System.Int32 afterCutRawScore, System.Int32 cutDistanceRawScore)
+    // static public System.Void RawScoreWithoutMultiplier(NoteCutInfo noteCutInfo, out System.Int32 beforeCutRawScore, out System.Int32 afterCutRawScore, out System.Int32 cutDistanceRawScore)
     // Offset: 0xC2D230
     static void RawScoreWithoutMultiplier(GlobalNamespace::NoteCutInfo* noteCutInfo, int& beforeCutRawScore, int& afterCutRawScore, int& cutDistanceRawScore);
     // static public System.Int32 GetModifiedScoreForGameplayModifiersScoreMultiplier(System.Int32 rawScore, System.Single gameplayModifiersScoreMultiplier)

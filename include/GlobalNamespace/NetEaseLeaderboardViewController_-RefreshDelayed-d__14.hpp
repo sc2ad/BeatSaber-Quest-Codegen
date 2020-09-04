@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     // public System.Boolean showLoadingIndicator
     // Offset: 0x29
     bool showLoadingIndicator;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xC124A4
     static NetEaseLeaderboardViewController::$RefreshDelayed$d__14* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

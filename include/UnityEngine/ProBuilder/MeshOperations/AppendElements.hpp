@@ -20,38 +20,14 @@ namespace UnityEngine::ProBuilder {
   class Face;
   // Forward declaring type: ProBuilderMesh
   class ProBuilderMesh;
+  // Forward declaring type: FaceRebuildData
+  class FaceRebuildData;
   // Forward declaring type: ActionResult
   class ActionResult;
   // Forward declaring type: PolyShape
   class PolyShape;
-  // Forward declaring type: FaceRebuildData
-  class FaceRebuildData;
   // Forward declaring type: Vertex
   class Vertex;
-}
-// Forward declaring namespace: System::Collections::Generic
-namespace System::Collections::Generic {
-  // Forward declaring type: IList`1<T>
-  template<typename T>
-  class IList_1;
-  // Forward declaring type: IList`1<T>
-  template<typename T>
-  class IList_1;
-  // Forward declaring type: IList`1<T>
-  template<typename T>
-  class IList_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: IList`1<T>
-  template<typename T>
-  class IList_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
@@ -59,6 +35,15 @@ namespace UnityEngine {
   struct Color;
   // Forward declaring type: Vector2
   struct Vector2;
+}
+// Forward declaring namespace: System::Collections::Generic
+namespace System::Collections::Generic {
+  // Forward declaring type: IList`1<T>
+  template<typename T>
+  class IList_1;
+  // Forward declaring type: List`1<T>
+  template<typename T>
+  class List_1;
 }
 // Completed forward declares
 // Type namespace: UnityEngine.ProBuilder.MeshOperations

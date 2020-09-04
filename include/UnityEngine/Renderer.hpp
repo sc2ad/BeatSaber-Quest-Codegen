@@ -53,7 +53,7 @@ namespace UnityEngine {
     // private System.Void SetMaterial(UnityEngine.Material m)
     // Offset: 0x138AF44
     void SetMaterial(UnityEngine::Material* m);
-    // private System.Void CopySharedMaterialArray(UnityEngine.Material[] m)
+    // private System.Void CopySharedMaterialArray(out UnityEngine.Material[] m)
     // Offset: 0x138AF94
     void CopySharedMaterialArray(::Array<UnityEngine::Material*>*& m);
     // private System.Void SetMaterialArray(UnityEngine.Material[] m)
@@ -131,7 +131,7 @@ namespace UnityEngine {
     // public System.Void GetSharedMaterials(System.Collections.Generic.List`1<UnityEngine.Material> m)
     // Offset: 0x138B6D4
     void GetSharedMaterials(System::Collections::Generic::List_1<UnityEngine::Material*>* m);
-    // private System.Void get_bounds_Injected(UnityEngine.Bounds ret)
+    // private System.Void get_bounds_Injected(out UnityEngine.Bounds ret)
     // Offset: 0x138AE74
     void get_bounds_Injected(UnityEngine::Bounds& ret);
   }; // UnityEngine.Renderer

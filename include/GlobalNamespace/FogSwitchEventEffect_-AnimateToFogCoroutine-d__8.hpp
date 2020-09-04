@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // private System.Single <elapsedTime>5__4
     // Offset: 0x38
     float $elapsedTime$5__4;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xBF1A3C
     static FogSwitchEventEffect::$AnimateToFogCoroutine$d__8* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

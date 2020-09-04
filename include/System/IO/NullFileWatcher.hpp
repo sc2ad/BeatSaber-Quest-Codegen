@@ -24,7 +24,7 @@ namespace System::IO {
     static System::IO::IFileWatcher* _get_instance();
     // Set static field: static private System.IO.IFileWatcher instance
     static void _set_instance(System::IO::IFileWatcher* value);
-    // static public System.Boolean GetInstance(System.IO.IFileWatcher watcher)
+    // static public System.Boolean GetInstance(out System.IO.IFileWatcher watcher)
     // Offset: 0xF689CC
     static bool GetInstance(System::IO::IFileWatcher*& watcher);
     // public System.Void StartDispatching(System.IO.FileSystemWatcher fsw)

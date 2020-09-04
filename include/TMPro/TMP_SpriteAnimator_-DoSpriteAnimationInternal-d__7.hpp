@@ -71,7 +71,7 @@ namespace TMPro {
     // private System.Single <targetTime>5__8
     // Offset: 0x1F4
     float $targetTime$5__8;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xBB37B8
     static TMP_SpriteAnimator::$DoSpriteAnimationInternal$d__7* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

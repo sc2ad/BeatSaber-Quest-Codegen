@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.Internal.ReflectionTypeAnalyzer
 #include "Zenject/Internal/ReflectionTypeAnalyzer.hpp"
 // Including type: Zenject.Internal.ReflectionTypeAnalyzer/<>c__DisplayClass5_0
@@ -29,10 +28,10 @@
 #include "System/Type.hpp"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
-// Including type: System.Collections.Generic.List`1
-#include "System/Collections/Generic/List_1.hpp"
 // Including type: System.Reflection.ParameterInfo
 #include "System/Reflection/ParameterInfo.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
 // Including type: Zenject.InjectableInfo
 #include "Zenject/InjectableInfo.hpp"
 // Including type: System.Reflection.MemberInfo

@@ -51,7 +51,7 @@ namespace System::Reflection {
     System::Reflection::PropertyAttributes attrs;
     // Creating value type constructor for type: MonoPropertyInfo
     constexpr MonoPropertyInfo(System::Type* parent_ = {}, System::Type* declaring_type_ = {}, ::Il2CppString* name_ = {}, System::Reflection::MethodInfo* get_method_ = {}, System::Reflection::MethodInfo* set_method_ = {}, System::Reflection::PropertyAttributes attrs_ = {}) noexcept : parent{parent_}, declaring_type{declaring_type_}, name{name_}, get_method{get_method_}, set_method{set_method_}, attrs{attrs_} {}
-    // static System.Void get_property_info(System.Reflection.MonoProperty prop, System.Reflection.MonoPropertyInfo info, System.Reflection.PInfo req_info)
+    // static System.Void get_property_info(System.Reflection.MonoProperty prop, ref System.Reflection.MonoPropertyInfo info, System.Reflection.PInfo req_info)
     // Offset: 0x1154C08
     static void get_property_info(System::Reflection::MonoProperty* prop, System::Reflection::MonoPropertyInfo& info, System::Reflection::PInfo req_info);
     // static System.Type[] GetTypeModifiers(System.Reflection.MonoProperty prop, System.Boolean optional)

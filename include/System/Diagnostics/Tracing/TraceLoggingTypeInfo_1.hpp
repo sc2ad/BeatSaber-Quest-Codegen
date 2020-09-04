@@ -54,7 +54,7 @@ namespace System::Diagnostics::Tracing {
     static System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<DataType>* get_Instance() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<DataType>*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TraceLoggingTypeInfo_1<DataType>*>::get(), "get_Instance"));
     }
-    // public System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, DataType value)
+    // public System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref DataType value)
     // Offset: 0xFFFFFFFF
     void WriteData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, DataType& value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "WriteData", collector, value));

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.TestTools.TestRunner.PlaymodeTestsControllerSettings/<>c
 #include "UnityEngine/TestTools/TestRunner/PlaymodeTestsControllerSettings_--c.hpp"
 // Including type: System.Func`2

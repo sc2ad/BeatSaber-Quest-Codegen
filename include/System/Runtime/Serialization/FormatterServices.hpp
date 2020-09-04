@@ -76,7 +76,7 @@ namespace System::Runtime::Serialization {
     // static private System.Reflection.MemberInfo[] InternalGetSerializableMembers(System.RuntimeType type)
     // Offset: 0xE22EF0
     static ::Array<System::Reflection::MemberInfo*>* InternalGetSerializableMembers(System::RuntimeType* type);
-    // static private System.Boolean GetParentTypes(System.RuntimeType parentType, System.RuntimeType[] parentTypes, System.Int32 parentTypeCount)
+    // static private System.Boolean GetParentTypes(System.RuntimeType parentType, out System.RuntimeType[] parentTypes, out System.Int32 parentTypeCount)
     // Offset: 0xE23570
     static bool GetParentTypes(System::RuntimeType* parentType, ::Array<System::RuntimeType*>*& parentTypes, int& parentTypeCount);
     // static public System.Reflection.MemberInfo[] GetSerializableMembers(System.Type type, System.Runtime.Serialization.StreamingContext context)
@@ -112,7 +112,7 @@ namespace System::Runtime::Serialization {
     // static System.Reflection.Assembly LoadAssemblyFromStringNoThrow(System.String assemblyName)
     // Offset: 0xE246B4
     static System::Reflection::Assembly* LoadAssemblyFromStringNoThrow(::Il2CppString* assemblyName);
-    // static System.String GetClrAssemblyName(System.Type type, System.Boolean hasTypeForwardedFrom)
+    // static System.String GetClrAssemblyName(System.Type type, out System.Boolean hasTypeForwardedFrom)
     // Offset: 0xE24798
     static ::Il2CppString* GetClrAssemblyName(System::Type* type, bool& hasTypeForwardedFrom);
     // static System.String GetClrTypeFullName(System.Type type)

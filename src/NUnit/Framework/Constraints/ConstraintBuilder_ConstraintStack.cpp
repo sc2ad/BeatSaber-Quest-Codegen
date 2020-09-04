@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Constraints.ConstraintBuilder/ConstraintStack
 #include "NUnit/Framework/Constraints/ConstraintBuilder_ConstraintStack.hpp"
 // Including type: System.Collections.Generic.Stack`1

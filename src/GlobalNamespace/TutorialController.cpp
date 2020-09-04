@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TutorialController
 #include "GlobalNamespace/TutorialController.hpp"
 // Including type: TutorialController/<OutroCoroutine>d__13

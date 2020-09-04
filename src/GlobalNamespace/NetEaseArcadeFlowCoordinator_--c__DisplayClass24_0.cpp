@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NetEaseArcadeFlowCoordinator/<>c__DisplayClass24_0
 #include "GlobalNamespace/NetEaseArcadeFlowCoordinator_--c__DisplayClass24_0.hpp"
 // Including type: ResultsViewController

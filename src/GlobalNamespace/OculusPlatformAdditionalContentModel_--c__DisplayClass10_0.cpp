@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OculusPlatformAdditionalContentModel/<>c__DisplayClass10_0
 #include "GlobalNamespace/OculusPlatformAdditionalContentModel_--c__DisplayClass10_0.hpp"
 // Including type: System.Threading.Tasks.TaskCompletionSource`1

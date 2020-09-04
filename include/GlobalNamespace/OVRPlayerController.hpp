@@ -206,25 +206,25 @@ namespace GlobalNamespace {
     // public System.Void Stop()
     // Offset: 0xEFA298
     void Stop();
-    // public System.Void GetMoveScaleMultiplier(System.Single moveScaleMultiplier)
+    // public System.Void GetMoveScaleMultiplier(ref System.Single moveScaleMultiplier)
     // Offset: 0xEFA32C
     void GetMoveScaleMultiplier(float& moveScaleMultiplier);
     // public System.Void SetMoveScaleMultiplier(System.Single moveScaleMultiplier)
     // Offset: 0xEFA338
     void SetMoveScaleMultiplier(float moveScaleMultiplier);
-    // public System.Void GetRotationScaleMultiplier(System.Single rotationScaleMultiplier)
+    // public System.Void GetRotationScaleMultiplier(ref System.Single rotationScaleMultiplier)
     // Offset: 0xEFA340
     void GetRotationScaleMultiplier(float& rotationScaleMultiplier);
     // public System.Void SetRotationScaleMultiplier(System.Single rotationScaleMultiplier)
     // Offset: 0xEFA34C
     void SetRotationScaleMultiplier(float rotationScaleMultiplier);
-    // public System.Void GetSkipMouseRotation(System.Boolean skipMouseRotation)
+    // public System.Void GetSkipMouseRotation(ref System.Boolean skipMouseRotation)
     // Offset: 0xEFA354
     void GetSkipMouseRotation(bool& skipMouseRotation);
     // public System.Void SetSkipMouseRotation(System.Boolean skipMouseRotation)
     // Offset: 0xEFA360
     void SetSkipMouseRotation(bool skipMouseRotation);
-    // public System.Void GetHaltUpdateMovement(System.Boolean haltUpdateMovement)
+    // public System.Void GetHaltUpdateMovement(ref System.Boolean haltUpdateMovement)
     // Offset: 0xEFA36C
     void GetHaltUpdateMovement(bool& haltUpdateMovement);
     // public System.Void SetHaltUpdateMovement(System.Boolean haltUpdateMovement)

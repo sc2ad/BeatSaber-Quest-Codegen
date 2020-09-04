@@ -57,10 +57,10 @@ namespace UnityEngine::Animations {
     // public System.Void SetTarget(UnityEngine.Animator value)
     // Offset: 0xA5DC14
     void SetTarget(UnityEngine::Animator* value);
-    // static private UnityEngine.Animator InternalGetTarget(UnityEngine.Playables.PlayableOutputHandle handle)
+    // static private UnityEngine.Animator InternalGetTarget(ref UnityEngine.Playables.PlayableOutputHandle handle)
     // Offset: 0x193FF68
     static UnityEngine::Animator* InternalGetTarget(UnityEngine::Playables::PlayableOutputHandle& handle);
-    // static private System.Void InternalSetTarget(UnityEngine.Playables.PlayableOutputHandle handle, UnityEngine.Animator target)
+    // static private System.Void InternalSetTarget(ref UnityEngine.Playables.PlayableOutputHandle handle, UnityEngine.Animator target)
     // Offset: 0x193FFA8
     static void InternalSetTarget(UnityEngine::Playables::PlayableOutputHandle& handle, UnityEngine::Animator* target);
     // public UnityEngine.Playables.PlayableOutputHandle GetHandle()

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: PrivacyPolicyViewController
 #include "GlobalNamespace/PrivacyPolicyViewController.hpp"
 // Including type: HMUI.TextPageScrollView

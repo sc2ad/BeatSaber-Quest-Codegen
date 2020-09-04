@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Rendering.BatchRendererGroup
 #include "UnityEngine/Rendering/BatchRendererGroup.hpp"
 // Including type: UnityEngine.Rendering.BatchRendererGroup/OnPerformCulling

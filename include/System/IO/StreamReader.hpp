@@ -148,7 +148,7 @@ namespace System::IO {
     // System.Int32 ReadBuffer()
     // Offset: 0x100CB68
     int ReadBuffer();
-    // private System.Int32 ReadBuffer(System.Char[] userBuffer, System.Int32 userOffset, System.Int32 desiredChars, System.Boolean readToUserBuffer)
+    // private System.Int32 ReadBuffer(System.Char[] userBuffer, System.Int32 userOffset, System.Int32 desiredChars, out System.Boolean readToUserBuffer)
     // Offset: 0x100C3E8
     int ReadBuffer(::Array<::Il2CppChar>* userBuffer, int userOffset, int desiredChars, bool& readToUserBuffer);
     // System.Void .ctor()
@@ -178,10 +178,10 @@ namespace System::IO {
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Read()
     int Read();
-    // public override System.Int32 Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
+    // public override System.Int32 Read(in System.Char[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0x100C1B0
     // Implemented from: System.IO.TextReader
-    // Base method: System.Int32 TextReader::Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
+    // Base method: System.Int32 TextReader::Read(in System.Char[] buffer, System.Int32 index, System.Int32 count)
     int Read(::Array<::Il2CppChar>*& buffer, int index, int count);
     // public override System.String ReadToEnd()
     // Offset: 0x100C600

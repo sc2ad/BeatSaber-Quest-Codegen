@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     // public ShowHideAnimationController <>4__this
     // Offset: 0x28
     GlobalNamespace::ShowHideAnimationController* $$4__this;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xCBC940
     static ShowHideAnimationController::$DeactivateSelfAfterDelayCoroutine$d__9* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

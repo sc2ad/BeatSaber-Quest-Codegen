@@ -374,15 +374,15 @@ namespace UnityEngine::Timeline {
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: UnityEngine.Playables.Playable TrackAsset::OnCreateClipPlayableGraph(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go, UnityEngine.Timeline.IntervalTree`1<UnityEngine.Timeline.RuntimeElement> tree)
     UnityEngine::Playables::Playable OnCreateClipPlayableGraph(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go, UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>* tree);
-    // override System.Void GetEvaluationTime(System.Double outStart, System.Double outDuration)
+    // override System.Void GetEvaluationTime(out System.Double outStart, out System.Double outDuration)
     // Offset: 0x1093D18
     // Implemented from: UnityEngine.Timeline.TrackAsset
-    // Base method: System.Void TrackAsset::GetEvaluationTime(System.Double outStart, System.Double outDuration)
+    // Base method: System.Void TrackAsset::GetEvaluationTime(out System.Double outStart, out System.Double outDuration)
     void GetEvaluationTime(double& outStart, double& outDuration);
-    // override System.Void GetSequenceTime(System.Double outStart, System.Double outDuration)
+    // override System.Void GetSequenceTime(out System.Double outStart, out System.Double outDuration)
     // Offset: 0x1093DC8
     // Implemented from: UnityEngine.Timeline.TrackAsset
-    // Base method: System.Void TrackAsset::GetSequenceTime(System.Double outStart, System.Double outDuration)
+    // Base method: System.Void TrackAsset::GetSequenceTime(out System.Double outStart, out System.Double outDuration)
     void GetSequenceTime(double& outStart, double& outDuration);
     // public override System.Void GatherProperties(UnityEngine.Playables.PlayableDirector director, UnityEngine.Timeline.IPropertyCollector driver)
     // Offset: 0x1093EC8

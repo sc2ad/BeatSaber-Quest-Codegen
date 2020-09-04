@@ -41,10 +41,10 @@ namespace System {
     // public System.Void .ctor(System.String term, System.Byte[] buffer)
     // Offset: 0x12E8FD0
     static TermInfoReader* New_ctor(::Il2CppString* term, ::Array<uint8_t>* buffer);
-    // private System.Void ReadHeader(System.Byte[] buffer, System.Int32 position)
+    // private System.Void ReadHeader(System.Byte[] buffer, ref System.Int32 position)
     // Offset: 0x12ED6D8
     void ReadHeader(::Array<uint8_t>* buffer, int& position);
-    // private System.Void ReadNames(System.Byte[] buffer, System.Int32 position)
+    // private System.Void ReadNames(System.Byte[] buffer, ref System.Int32 position)
     // Offset: 0x12ED838
     void ReadNames(::Array<uint8_t>* buffer, int& position);
     // public System.Int32 Get(System.TermInfoNumbers number)

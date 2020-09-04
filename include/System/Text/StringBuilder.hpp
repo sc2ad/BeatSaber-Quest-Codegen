@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: System.Runtime.Serialization.ISerializable
 #include "System/Runtime/Serialization/ISerializable.hpp"
 // Including type: System.Int32
@@ -186,18 +187,32 @@ namespace System::Text {
     // public System.Text.StringBuilder AppendFormat(System.String format, System.Object arg0, System.Object arg1, System.Object arg2)
     // Offset: 0x1300E48
     System::Text::StringBuilder* AppendFormat(::Il2CppString* format, ::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2);
-    // public System.Text.StringBuilder AppendFormat(System.String format, System.Object[] args)
+    // public System.Text.StringBuilder AppendFormat(System.String format, params System.Object[] args)
     // Offset: 0x1300EAC
     System::Text::StringBuilder* AppendFormat(::Il2CppString* format, ::Array<::Il2CppObject*>* args);
+    // Creating initializer_list -> params proxy for: System.Text.StringBuilder AppendFormat(System.String format, params System.Object[] args)
+    System::Text::StringBuilder* AppendFormat(::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.Text.StringBuilder AppendFormat(System.String format, params System.Object[] args)
+    template<class ...TParams>
+    System::Text::StringBuilder* AppendFormat(::Il2CppString* format, TParams&&... args) {
+      return AppendFormat(format, {args...});
+    }
     // public System.Text.StringBuilder AppendFormat(System.IFormatProvider provider, System.String format, System.Object arg0)
     // Offset: 0x1300F8C
     System::Text::StringBuilder* AppendFormat(System::IFormatProvider* provider, ::Il2CppString* format, ::Il2CppObject* arg0);
     // public System.Text.StringBuilder AppendFormat(System.IFormatProvider provider, System.String format, System.Object arg0, System.Object arg1)
     // Offset: 0x1300FF4
     System::Text::StringBuilder* AppendFormat(System::IFormatProvider* provider, ::Il2CppString* format, ::Il2CppObject* arg0, ::Il2CppObject* arg1);
-    // public System.Text.StringBuilder AppendFormat(System.IFormatProvider provider, System.String format, System.Object[] args)
+    // public System.Text.StringBuilder AppendFormat(System.IFormatProvider provider, System.String format, params System.Object[] args)
     // Offset: 0x1301060
     System::Text::StringBuilder* AppendFormat(System::IFormatProvider* provider, ::Il2CppString* format, ::Array<::Il2CppObject*>* args);
+    // Creating initializer_list -> params proxy for: System.Text.StringBuilder AppendFormat(System.IFormatProvider provider, System.String format, params System.Object[] args)
+    System::Text::StringBuilder* AppendFormat(System::IFormatProvider* provider, ::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.Text.StringBuilder AppendFormat(System.IFormatProvider provider, System.String format, params System.Object[] args)
+    template<class ...TParams>
+    System::Text::StringBuilder* AppendFormat(System::IFormatProvider* provider, ::Il2CppString* format, TParams&&... args) {
+      return AppendFormat(provider, format, {args...});
+    }
     // static private System.Void FormatError()
     // Offset: 0x130114C
     static void FormatError();
@@ -222,7 +237,7 @@ namespace System::Text {
     // private System.Boolean StartsWith(System.Text.StringBuilder chunk, System.Int32 indexInChunk, System.Int32 count, System.String value)
     // Offset: 0x1301518
     bool StartsWith(System::Text::StringBuilder* chunk, int indexInChunk, int count, ::Il2CppString* value);
-    // private System.Void ReplaceInPlaceAtChunk(System.Text.StringBuilder chunk, System.Int32 indexInChunk, System.Char* value, System.Int32 count)
+    // private System.Void ReplaceInPlaceAtChunk(ref System.Text.StringBuilder chunk, ref System.Int32 indexInChunk, System.Char* value, System.Int32 count)
     // Offset: 0x12FFE68
     void ReplaceInPlaceAtChunk(System::Text::StringBuilder*& chunk, int& indexInChunk, ::Il2CppChar* value, int count);
     // static private System.Void ThreadSafeCopy(System.Char* sourcePtr, System.Char[] destination, System.Int32 destinationIndex, System.Int32 count)
@@ -243,13 +258,13 @@ namespace System::Text {
     // private System.Void .ctor(System.Text.StringBuilder from)
     // Offset: 0x1301930
     static StringBuilder* New_ctor(System::Text::StringBuilder* from);
-    // private System.Void MakeRoom(System.Int32 index, System.Int32 count, System.Text.StringBuilder chunk, System.Int32 indexInChunk, System.Boolean doneMoveFollowingChars)
+    // private System.Void MakeRoom(System.Int32 index, System.Int32 count, out System.Text.StringBuilder chunk, out System.Int32 indexInChunk, System.Boolean doneMoveFollowingChars)
     // Offset: 0x12FFB54
     void MakeRoom(int index, int count, System::Text::StringBuilder*& chunk, int& indexInChunk, bool doneMoveFollowingChars);
     // private System.Void .ctor(System.Int32 size, System.Int32 maxCapacity, System.Text.StringBuilder previousBlock)
     // Offset: 0x1301998
     static StringBuilder* New_ctor(int size, int maxCapacity, System::Text::StringBuilder* previousBlock);
-    // private System.Void Remove(System.Int32 startIndex, System.Int32 count, System.Text.StringBuilder chunk, System.Int32 indexInChunk)
+    // private System.Void Remove(System.Int32 startIndex, System.Int32 count, out System.Text.StringBuilder chunk, out System.Int32 indexInChunk)
     // Offset: 0x12FFF8C
     void Remove(int startIndex, int count, System::Text::StringBuilder*& chunk, int& indexInChunk);
     // public System.Void .ctor()

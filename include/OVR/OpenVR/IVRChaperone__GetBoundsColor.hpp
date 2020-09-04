@@ -33,13 +33,13 @@ namespace OVR::OpenVR {
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xED4A68
     static IVRChaperone::_GetBoundsColor* New_ctor(::Il2CppObject* object, System::IntPtr method);
-    // public System.Void Invoke(OVR.OpenVR.HmdColor_t pOutputColorArray, System.Int32 nNumOutputColors, System.Single flCollisionBoundsFadeDistance, OVR.OpenVR.HmdColor_t pOutputCameraColor)
+    // public System.Void Invoke(ref OVR.OpenVR.HmdColor_t pOutputColorArray, System.Int32 nNumOutputColors, System.Single flCollisionBoundsFadeDistance, ref OVR.OpenVR.HmdColor_t pOutputCameraColor)
     // Offset: 0xECA6E8
     void Invoke(OVR::OpenVR::HmdColor_t& pOutputColorArray, int nNumOutputColors, float flCollisionBoundsFadeDistance, OVR::OpenVR::HmdColor_t& pOutputCameraColor);
-    // public System.IAsyncResult BeginInvoke(OVR.OpenVR.HmdColor_t pOutputColorArray, System.Int32 nNumOutputColors, System.Single flCollisionBoundsFadeDistance, OVR.OpenVR.HmdColor_t pOutputCameraColor, System.AsyncCallback callback, System.Object object)
+    // public System.IAsyncResult BeginInvoke(ref OVR.OpenVR.HmdColor_t pOutputColorArray, System.Int32 nNumOutputColors, System.Single flCollisionBoundsFadeDistance, ref OVR.OpenVR.HmdColor_t pOutputCameraColor, System.AsyncCallback callback, System.Object object)
     // Offset: 0xED4A7C
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::HmdColor_t& pOutputColorArray, int nNumOutputColors, float flCollisionBoundsFadeDistance, OVR::OpenVR::HmdColor_t& pOutputCameraColor, System::AsyncCallback* callback, ::Il2CppObject* object);
-    // public System.Void EndInvoke(OVR.OpenVR.HmdColor_t pOutputColorArray, OVR.OpenVR.HmdColor_t pOutputCameraColor, System.IAsyncResult result)
+    // public System.Void EndInvoke(ref OVR.OpenVR.HmdColor_t pOutputColorArray, ref OVR.OpenVR.HmdColor_t pOutputCameraColor, System.IAsyncResult result)
     // Offset: 0xED4B68
     void EndInvoke(OVR::OpenVR::HmdColor_t& pOutputColorArray, OVR::OpenVR::HmdColor_t& pOutputCameraColor, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRChaperone/_GetBoundsColor

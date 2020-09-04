@@ -124,7 +124,7 @@ namespace System::IO {
     // public System.Int64 Seek(System.Int64 offset, System.IO.SeekOrigin origin)
     // Offset: 0xFFFFFFFF
     int64_t Seek(int64_t offset, System::IO::SeekOrigin origin);
-    // public System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
+    // public System.Int32 Read(in System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     // Offset: 0xFFFFFFFF
     int Read(::Array<uint8_t>*& buffer, int offset, int count);
     // public System.Int32 ReadByte()

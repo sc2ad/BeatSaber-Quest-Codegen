@@ -39,7 +39,7 @@ namespace Valve::VR {
     // public System.Void .ctor(Valve.VR.VREvent_t unpacked)
     // Offset: 0xA5D7B0
     static VREvent_t_Packed* New_ctor(Valve::VR::VREvent_t unpacked);
-    // public System.Void Unpack(Valve.VR.VREvent_t unpacked)
+    // public System.Void Unpack(ref Valve.VR.VREvent_t unpacked)
     // Offset: 0xA5D800
     void Unpack(Valve::VR::VREvent_t& unpacked);
   }; // Valve.VR.VREvent_t_Packed

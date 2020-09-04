@@ -140,7 +140,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Type GetMemberType(System.Reflection.MemberInfo objMember)
     // Offset: 0xFF54F8
     System::Type* GetMemberType(System::Reflection::MemberInfo* objMember);
-    // System.Void GetMemberInfo(System.String[] outMemberNames, System.Type[] outMemberTypes, System.Object[] outMemberData)
+    // System.Void GetMemberInfo(out System.String[] outMemberNames, out System.Type[] outMemberTypes, out System.Object[] outMemberData)
     // Offset: 0xFEE190
     void GetMemberInfo(::Array<::Il2CppString*>*& outMemberNames, ::Array<System::Type*>*& outMemberTypes, ::Array<::Il2CppObject*>*& outMemberData);
     // static private System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo GetObjectInfo(System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit)

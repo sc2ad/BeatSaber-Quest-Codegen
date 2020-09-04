@@ -45,13 +45,13 @@ namespace UnityEngine {
     // public System.Void SetPositions(UnityEngine.Vector3[] positions)
     // Offset: 0x1316A78
     void SetPositions(::Array<UnityEngine::Vector3>* positions);
-    // private System.Void set_startColor_Injected(UnityEngine.Color value)
+    // private System.Void set_startColor_Injected(ref UnityEngine.Color value)
     // Offset: 0x1316870
     void set_startColor_Injected(UnityEngine::Color& value);
-    // private System.Void set_endColor_Injected(UnityEngine.Color value)
+    // private System.Void set_endColor_Injected(ref UnityEngine.Color value)
     // Offset: 0x1316918
     void set_endColor_Injected(UnityEngine::Color& value);
-    // private System.Void SetPosition_Injected(System.Int32 index, UnityEngine.Vector3 position)
+    // private System.Void SetPosition_Injected(System.Int32 index, ref UnityEngine.Vector3 position)
     // Offset: 0x1316A20
     void SetPosition_Injected(int index, UnityEngine::Vector3& position);
   }; // UnityEngine.LineRenderer

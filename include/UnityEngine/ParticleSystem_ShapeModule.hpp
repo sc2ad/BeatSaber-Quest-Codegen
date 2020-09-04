@@ -39,10 +39,10 @@ namespace UnityEngine {
     // public System.Void set_rotation(UnityEngine.Vector3 value)
     // Offset: 0xA5FDE8
     void set_rotation(UnityEngine::Vector3 value);
-    // static private System.Void set_position_Injected(UnityEngine.ParticleSystem/ShapeModule _unity_self, UnityEngine.Vector3 value)
+    // static private System.Void set_position_Injected(ref UnityEngine.ParticleSystem/ShapeModule _unity_self, ref UnityEngine.Vector3 value)
     // Offset: 0x196F4E4
     static void set_position_Injected(UnityEngine::ParticleSystem::ShapeModule& _unity_self, UnityEngine::Vector3& value);
-    // static private System.Void set_rotation_Injected(UnityEngine.ParticleSystem/ShapeModule _unity_self, UnityEngine.Vector3 value)
+    // static private System.Void set_rotation_Injected(ref UnityEngine.ParticleSystem/ShapeModule _unity_self, ref UnityEngine.Vector3 value)
     // Offset: 0x196F58C
     static void set_rotation_Injected(UnityEngine::ParticleSystem::ShapeModule& _unity_self, UnityEngine::Vector3& value);
   }; // UnityEngine.ParticleSystem/ShapeModule

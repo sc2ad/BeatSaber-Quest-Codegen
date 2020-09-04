@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.BindStatement
 #include "Zenject/BindStatement.hpp"
 // Including type: System.Collections.Generic.List`1
@@ -59,5 +58,5 @@ void Zenject::BindStatement::Dispose() {
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose"));
 }
 void Zenject::BindStatement::System_IDisposable_Dispose() {
-  Dispose();
+  Zenject::BindStatement::Dispose();
 }

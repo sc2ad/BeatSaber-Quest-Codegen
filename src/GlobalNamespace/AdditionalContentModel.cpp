@@ -9,8 +9,6 @@
 #include "System/Threading/CancellationToken.hpp"
 // Including type: AdditionalContentModel/UpdateEntitlementsResult
 #include "GlobalNamespace/AdditionalContentModel_UpdateEntitlementsResult.hpp"
-// Including type: System.Threading.Tasks.Task`1
-#include "System/Threading/Tasks/Task_1.hpp"
 // Including type: AdditionalContentModel/<GetLevelEntitlementStatusAsync>d__10
 #include "GlobalNamespace/AdditionalContentModel_-GetLevelEntitlementStatusAsync-d__10.hpp"
 // Including type: AdditionalContentModel/<GetPackEntitlementStatusAsync>d__11
@@ -19,6 +17,8 @@
 #include "GlobalNamespace/AlwaysOwnedContentContainerSO.hpp"
 // Including type: System.Action
 #include "System/Action.hpp"
+// Including type: System.Threading.Tasks.Task`1
+#include "System/Threading/Tasks/Task_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

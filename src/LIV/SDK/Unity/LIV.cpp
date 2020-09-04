@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: LIV.SDK.Unity.LIV
 #include "LIV/SDK/Unity/LIV.hpp"
 // Including type: UnityEngine.Transform

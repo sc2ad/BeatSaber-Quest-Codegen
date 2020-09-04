@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: HMUI.Slider2D
 #include "HMUI/Slider2D.hpp"
 // Including type: UnityEngine.RectTransform

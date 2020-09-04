@@ -70,7 +70,7 @@ namespace System::Runtime::InteropServices {
     // public System.Void SetHandleAsInvalid()
     // Offset: 0x1052078
     void SetHandleAsInvalid();
-    // public System.Void DangerousAddRef(System.Boolean success)
+    // public System.Void DangerousAddRef(ref System.Boolean success)
     // Offset: 0x1051CD8
     void DangerousAddRef(bool& success);
     // public System.Void DangerousRelease()

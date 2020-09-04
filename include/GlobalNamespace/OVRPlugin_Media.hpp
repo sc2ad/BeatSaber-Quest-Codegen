@@ -74,7 +74,7 @@ namespace GlobalNamespace {
     // static public System.Boolean SetMrcFrameSize(System.Int32 frameWidth, System.Int32 frameHeight)
     // Offset: 0xF03578
     static bool SetMrcFrameSize(int frameWidth, int frameHeight);
-    // static public System.Void GetMrcFrameSize(System.Int32 frameWidth, System.Int32 frameHeight)
+    // static public System.Void GetMrcFrameSize(out System.Int32 frameWidth, out System.Int32 frameHeight)
     // Offset: 0xF03690
     static void GetMrcFrameSize(int& frameWidth, int& frameHeight);
     // static public System.Boolean SetMrcAudioSampleRate(System.Int32 sampleRate)
@@ -89,10 +89,10 @@ namespace GlobalNamespace {
     // static public System.Boolean GetMrcFrameImageFlipped()
     // Offset: 0xF03ACC
     static bool GetMrcFrameImageFlipped();
-    // static public System.Boolean EncodeMrcFrame(System.IntPtr textureHandle, System.Single[] audioData, System.Int32 audioFrames, System.Int32 audioChannels, System.Double timestamp, System.Int32 outSyncId)
+    // static public System.Boolean EncodeMrcFrame(System.IntPtr textureHandle, System.Single[] audioData, System.Int32 audioFrames, System.Int32 audioChannels, System.Double timestamp, ref System.Int32 outSyncId)
     // Offset: 0xF03BD8
     static bool EncodeMrcFrame(System::IntPtr textureHandle, ::Array<float>* audioData, int audioFrames, int audioChannels, double timestamp, int& outSyncId);
-    // static public System.Boolean EncodeMrcFrame(UnityEngine.RenderTexture frame, System.Single[] audioData, System.Int32 audioFrames, System.Int32 audioChannels, System.Double timestamp, System.Int32 outSyncId)
+    // static public System.Boolean EncodeMrcFrame(UnityEngine.RenderTexture frame, System.Single[] audioData, System.Int32 audioFrames, System.Int32 audioChannels, System.Double timestamp, ref System.Int32 outSyncId)
     // Offset: 0xF03E14
     static bool EncodeMrcFrame(UnityEngine::RenderTexture* frame, ::Array<float>* audioData, int audioFrames, int audioChannels, double timestamp, int& outSyncId);
     // static public System.Boolean SyncMrcFrame(System.Int32 syncId)

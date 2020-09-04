@@ -29,21 +29,6 @@ namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
   template<typename T>
   class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
 }
 // Completed forward declares
 // Type namespace: UnityEngine
@@ -137,13 +122,13 @@ namespace UnityEngine {
     // static private System.Void CreateUIVertexStreamInternal(System.Object verts, System.Object positions, System.Object colors, System.Object uv0S, System.Object uv1S, System.Object uv2S, System.Object uv3S, System.Object normals, System.Object tangents, System.Object indices)
     // Offset: 0x1970DF0
     static void CreateUIVertexStreamInternal(::Il2CppObject* verts, ::Il2CppObject* positions, ::Il2CppObject* colors, ::Il2CppObject* uv0S, ::Il2CppObject* uv1S, ::Il2CppObject* uv2S, ::Il2CppObject* uv3S, ::Il2CppObject* normals, ::Il2CppObject* tangents, ::Il2CppObject* indices);
-    // private System.Void SetColor_Injected(UnityEngine.Color color)
+    // private System.Void SetColor_Injected(ref UnityEngine.Color color)
     // Offset: 0x19705E8
     void SetColor_Injected(UnityEngine::Color& color);
-    // private System.Void GetColor_Injected(UnityEngine.Color ret)
+    // private System.Void GetColor_Injected(out UnityEngine.Color ret)
     // Offset: 0x1970694
     void GetColor_Injected(UnityEngine::Color& ret);
-    // private System.Void EnableRectClipping_Injected(UnityEngine.Rect rect)
+    // private System.Void EnableRectClipping_Injected(ref UnityEngine.Rect rect)
     // Offset: 0x197073C
     void EnableRectClipping_Injected(UnityEngine::Rect& rect);
   }; // UnityEngine.CanvasRenderer

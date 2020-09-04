@@ -140,7 +140,7 @@ namespace RootMotion::FinalIK {
     // public System.Void .ctor(UnityEngine.Transform bone, UnityEngine.Transform[] childBones)
     // Offset: 0x1383444
     static IKEffector* New_ctor(UnityEngine::Transform* bone, ::Array<UnityEngine::Transform*>* childBones);
-    // public System.Boolean IsValid(RootMotion.FinalIK.IKSolver solver, System.String message)
+    // public System.Boolean IsValid(RootMotion.FinalIK.IKSolver solver, ref System.String message)
     // Offset: 0x13835EC
     bool IsValid(RootMotion::FinalIK::IKSolver* solver, ::Il2CppString*& message);
     // public System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
@@ -164,7 +164,7 @@ namespace RootMotion::FinalIK {
     // public System.Void Update(RootMotion.FinalIK.IKSolverFullBody solver)
     // Offset: 0x1384688
     void Update(RootMotion::FinalIK::IKSolverFullBody* solver);
-    // private UnityEngine.Vector3 GetPosition(RootMotion.FinalIK.IKSolverFullBody solver, UnityEngine.Quaternion planeRotationOffset)
+    // private UnityEngine.Vector3 GetPosition(RootMotion.FinalIK.IKSolverFullBody solver, out UnityEngine.Quaternion planeRotationOffset)
     // Offset: 0x13849D0
     UnityEngine::Vector3 GetPosition(RootMotion::FinalIK::IKSolverFullBody* solver, UnityEngine::Quaternion& planeRotationOffset);
     // public System.Void .ctor()

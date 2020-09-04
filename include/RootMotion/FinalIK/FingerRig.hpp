@@ -40,7 +40,7 @@ namespace RootMotion::FinalIK {
     // private System.Void set_initiated(System.Boolean value)
     // Offset: 0x1372F78
     void set_initiated(bool value);
-    // public System.Boolean IsValid(System.String errorMessage)
+    // public System.Boolean IsValid(ref System.String errorMessage)
     // Offset: 0x1372F84
     bool IsValid(::Il2CppString*& errorMessage);
     // public System.Void AutoDetect()
@@ -52,7 +52,7 @@ namespace RootMotion::FinalIK {
     // public System.Void RemoveFinger(System.Int32 index)
     // Offset: 0x1373540
     void RemoveFinger(int index);
-    // private System.Void AddChildrenRecursive(UnityEngine.Transform parent, UnityEngine.Transform[] array)
+    // private System.Void AddChildrenRecursive(UnityEngine.Transform parent, ref UnityEngine.Transform[] array)
     // Offset: 0x1373270
     void AddChildrenRecursive(UnityEngine::Transform* parent, ::Array<UnityEngine::Transform*>*& array);
     // public System.Void UpdateFingerSolvers()

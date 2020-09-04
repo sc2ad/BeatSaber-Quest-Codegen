@@ -42,7 +42,7 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.InteractionTrigger/Range/Interaction[] interactions
     // Offset: 0x30
     ::Array<RootMotion::FinalIK::InteractionTrigger::Range::Interaction*>* interactions;
-    // public System.Boolean IsInRange(UnityEngine.Transform character, UnityEngine.Transform raycastFrom, UnityEngine.RaycastHit raycastHit, UnityEngine.Transform trigger, System.Single maxError)
+    // public System.Boolean IsInRange(UnityEngine.Transform character, UnityEngine.Transform raycastFrom, UnityEngine.RaycastHit raycastHit, UnityEngine.Transform trigger, out System.Single maxError)
     // Offset: 0x1230D38
     bool IsInRange(UnityEngine::Transform* character, UnityEngine::Transform* raycastFrom, UnityEngine::RaycastHit raycastHit, UnityEngine::Transform* trigger, float& maxError);
     // public System.Void .ctor()

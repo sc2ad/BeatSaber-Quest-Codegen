@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.Models.PartyID
 #include "Oculus/Platform/Models/PartyID.hpp"
 // Including type: System.IntPtr

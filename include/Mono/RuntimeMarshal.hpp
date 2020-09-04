@@ -31,7 +31,7 @@ namespace Mono {
     // static Mono.SafeStringMarshal MarshalString(System.String str)
     // Offset: 0x10B99DC
     static Mono::SafeStringMarshal MarshalString(::Il2CppString* str);
-    // static private System.Int32 DecodeBlobSize(System.IntPtr in_ptr, System.IntPtr out_ptr)
+    // static private System.Int32 DecodeBlobSize(System.IntPtr in_ptr, out System.IntPtr out_ptr)
     // Offset: 0x10B9A68
     static int DecodeBlobSize(System::IntPtr in_ptr, System::IntPtr& out_ptr);
     // static System.Byte[] DecodeBlobArray(System.IntPtr ptr)
@@ -40,7 +40,7 @@ namespace Mono {
     // static System.Int32 AsciHexDigitValue(System.Int32 c)
     // Offset: 0x10B9BA8
     static int AsciHexDigitValue(int c);
-    // static System.Void FreeAssemblyName(Mono.MonoAssemblyName name, System.Boolean freeStruct)
+    // static System.Void FreeAssemblyName(ref Mono.MonoAssemblyName name, System.Boolean freeStruct)
     // Offset: 0x10B9BD4
     static void FreeAssemblyName(Mono::MonoAssemblyName& name, bool freeStruct);
   }; // Mono.RuntimeMarshal

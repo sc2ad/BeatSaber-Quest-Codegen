@@ -39,10 +39,10 @@ namespace UnityEngine {
     // static public UnityEngine.Vector3 get_onUnitSphere()
     // Offset: 0x1420DF4
     static UnityEngine::Vector3 get_onUnitSphere();
-    // static private System.Void get_insideUnitSphere_Injected(UnityEngine.Vector3 ret)
+    // static private System.Void get_insideUnitSphere_Injected(out UnityEngine.Vector3 ret)
     // Offset: 0x1420DB4
     static void get_insideUnitSphere_Injected(UnityEngine::Vector3& ret);
-    // static private System.Void get_onUnitSphere_Injected(UnityEngine.Vector3 ret)
+    // static private System.Void get_onUnitSphere_Injected(out UnityEngine.Vector3 ret)
     // Offset: 0x1420E4C
     static void get_onUnitSphere_Injected(UnityEngine::Vector3& ret);
   }; // UnityEngine.Random

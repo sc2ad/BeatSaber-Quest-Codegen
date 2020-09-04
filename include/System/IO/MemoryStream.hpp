@@ -142,10 +142,10 @@ namespace System::IO {
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::set_Position(System.Int64 value)
     void set_Position(int64_t value);
-    // public override System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
+    // public override System.Int32 Read(in System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     // Offset: 0x113AA54
     // Implemented from: System.IO.Stream
-    // Base method: System.Int32 Stream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
+    // Base method: System.Int32 Stream::Read(in System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     int Read(::Array<uint8_t>*& buffer, int offset, int count);
     // public override System.Int32 ReadByte()
     // Offset: 0x113ACA4

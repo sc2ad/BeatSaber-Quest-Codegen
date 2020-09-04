@@ -59,7 +59,7 @@ namespace UnityEngine {
     // public System.Boolean SameSide(UnityEngine.Vector3 inPt0, UnityEngine.Vector3 inPt1)
     // Offset: 0xA48980
     bool SameSide(UnityEngine::Vector3 inPt0, UnityEngine::Vector3 inPt1);
-    // public System.Boolean Raycast(UnityEngine.Ray ray, System.Single enter)
+    // public System.Boolean Raycast(UnityEngine.Ray ray, out System.Single enter)
     // Offset: 0xA48988
     bool Raycast(UnityEngine::Ray ray, float& enter);
     // public override System.String ToString()

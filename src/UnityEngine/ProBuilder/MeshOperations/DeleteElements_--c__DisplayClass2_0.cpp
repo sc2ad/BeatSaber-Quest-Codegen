@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.MeshOperations.DeleteElements/<>c__DisplayClass2_0
 #include "UnityEngine/ProBuilder/MeshOperations/DeleteElements_--c__DisplayClass2_0.hpp"
 // Including type: UnityEngine.ProBuilder.ProBuilderMesh

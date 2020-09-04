@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Experimental.Rendering.GraphicsFormatUtility
 #include "UnityEngine/Experimental/Rendering/GraphicsFormatUtility.hpp"
 // Including type: UnityEngine.Experimental.Rendering.GraphicsFormat

@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // public GameSongController <>4__this
     // Offset: 0x20
     GlobalNamespace::GameSongController* $$4__this;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xB3D8A8
     static GameSongController::$StartSongCoroutine$d__10* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()

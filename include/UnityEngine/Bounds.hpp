@@ -65,19 +65,19 @@ namespace UnityEngine {
     // public System.Void Encapsulate(UnityEngine.Vector3 point)
     // Offset: 0xA457C4
     void Encapsulate(UnityEngine::Vector3 point);
-    // public System.Boolean IntersectRay(UnityEngine.Ray ray, System.Single distance)
+    // public System.Boolean IntersectRay(UnityEngine.Ray ray, out System.Single distance)
     // Offset: 0xA457CC
     bool IntersectRay(UnityEngine::Ray ray, float& distance);
     // public System.Boolean Contains(UnityEngine.Vector3 point)
     // Offset: 0xA4584C
     bool Contains(UnityEngine::Vector3 point);
-    // static private System.Boolean IntersectRayAABB(UnityEngine.Ray ray, UnityEngine.Bounds bounds, System.Single dist)
+    // static private System.Boolean IntersectRayAABB(UnityEngine.Ray ray, UnityEngine.Bounds bounds, out System.Single dist)
     // Offset: 0x1307854
     static bool IntersectRayAABB(UnityEngine::Ray ray, UnityEngine::Bounds bounds, float& dist);
-    // static private System.Boolean Contains_Injected(UnityEngine.Bounds _unity_self, UnityEngine.Vector3 point)
+    // static private System.Boolean Contains_Injected(ref UnityEngine.Bounds _unity_self, ref UnityEngine.Vector3 point)
     // Offset: 0x1307A54
     static bool Contains_Injected(UnityEngine::Bounds& _unity_self, UnityEngine::Vector3& point);
-    // static private System.Boolean IntersectRayAABB_Injected(UnityEngine.Ray ray, UnityEngine.Bounds bounds, System.Single dist)
+    // static private System.Boolean IntersectRayAABB_Injected(ref UnityEngine.Ray ray, ref UnityEngine.Bounds bounds, out System.Single dist)
     // Offset: 0x1307AA4
     static bool IntersectRayAABB_Injected(UnityEngine::Ray& ray, UnityEngine::Bounds& bounds, float& dist);
     // public override System.Int32 GetHashCode()

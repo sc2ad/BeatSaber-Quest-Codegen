@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand/<>c__DisplayClass2_0
 #include "UnityEngine/TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand_--c__DisplayClass2_0.hpp"
 // Including type: NUnit.Framework.Internal.ITestExecutionContext

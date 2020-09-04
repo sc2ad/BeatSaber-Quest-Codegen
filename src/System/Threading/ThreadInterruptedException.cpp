@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Threading.ThreadInterruptedException
 #include "System/Threading/ThreadInterruptedException.hpp"
 // Including type: System.Runtime.Serialization.SerializationInfo

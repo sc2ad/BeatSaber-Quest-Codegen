@@ -233,7 +233,7 @@ namespace System {
     // private System.Object GetKeyFromBuffer(System.Boolean cooked)
     // Offset: 0x12EA500
     ::Il2CppObject* GetKeyFromBuffer(bool cooked);
-    // private System.ConsoleKeyInfo ReadKeyInternal(System.Boolean fresh)
+    // private System.ConsoleKeyInfo ReadKeyInternal(out System.Boolean fresh)
     // Offset: 0x12EA7EC
     System::ConsoleKeyInfo ReadKeyInternal(bool& fresh);
     // private System.Boolean InputPending()
@@ -248,7 +248,7 @@ namespace System {
     // private System.Void EchoFlush()
     // Offset: 0x12EACDC
     void EchoFlush();
-    // public System.Int32 Read(System.Char[] dest, System.Int32 index, System.Int32 count)
+    // public System.Int32 Read(in System.Char[] dest, System.Int32 index, System.Int32 count)
     // Offset: 0x12EAD1C
     int Read(::Array<::Il2CppChar>*& dest, int index, int count);
     // public System.String ReadLine()

@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: System.IO.StringWriter
 #include "System/IO/StringWriter.hpp"
 // Completed includes
@@ -30,12 +31,26 @@ namespace NUnit::Framework::Constraints {
     // public System.Int32 get_MaxLineLength()
     // Offset: 0xFFFFFFFF
     int get_MaxLineLength();
-    // public System.Void WriteMessageLine(System.String message, System.Object[] args)
+    // public System.Void WriteMessageLine(System.String message, params System.Object[] args)
     // Offset: 0x1077FD8
     void WriteMessageLine(::Il2CppString* message, ::Array<::Il2CppObject*>* args);
-    // public System.Void WriteMessageLine(System.Int32 level, System.String message, System.Object[] args)
+    // Creating initializer_list -> params proxy for: System.Void WriteMessageLine(System.String message, params System.Object[] args)
+    void WriteMessageLine(::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.Void WriteMessageLine(System.String message, params System.Object[] args)
+    template<class ...TParams>
+    void WriteMessageLine(::Il2CppString* message, TParams&&... args) {
+      WriteMessageLine(message, {args...});
+    }
+    // public System.Void WriteMessageLine(System.Int32 level, System.String message, params System.Object[] args)
     // Offset: 0xFFFFFFFF
     void WriteMessageLine(int level, ::Il2CppString* message, ::Array<::Il2CppObject*>* args);
+    // Creating initializer_list -> params proxy for: System.Void WriteMessageLine(System.Int32 level, System.String message, params System.Object[] args)
+    void WriteMessageLine(int level, ::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.Void WriteMessageLine(System.Int32 level, System.String message, params System.Object[] args)
+    template<class ...TParams>
+    void WriteMessageLine(int level, ::Il2CppString* message, TParams&&... args) {
+      WriteMessageLine(level, message, {args...});
+    }
     // public System.Void DisplayDifferences(NUnit.Framework.Constraints.ConstraintResult result)
     // Offset: 0xFFFFFFFF
     void DisplayDifferences(NUnit::Framework::Constraints::ConstraintResult* result);

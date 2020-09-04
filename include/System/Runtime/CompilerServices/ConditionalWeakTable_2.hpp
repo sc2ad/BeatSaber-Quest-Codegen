@@ -136,7 +136,7 @@ namespace System::Runtime::CompilerServices {
     bool Remove(TKey key) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "Remove", key));
     }
-    // public System.Boolean TryGetValue(TKey key, TValue value)
+    // public System.Boolean TryGetValue(TKey key, out TValue value)
     // Offset: 0xFFFFFFFF
     bool TryGetValue(TKey key, TValue& value) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "TryGetValue", key, value));

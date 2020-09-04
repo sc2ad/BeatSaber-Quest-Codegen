@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.MediaContentType
 #include "Oculus/Platform/MediaContentType.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

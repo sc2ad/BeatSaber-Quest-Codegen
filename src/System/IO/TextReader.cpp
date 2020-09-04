@@ -91,5 +91,5 @@ void System::IO::TextReader::Dispose() {
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose"));
 }
 void System::IO::TextReader::System_IDisposable_Dispose() {
-  Dispose();
+  System::IO::TextReader::Dispose();
 }

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UserLoginDtoDataSource/<>c__DisplayClass5_0
 #include "GlobalNamespace/UserLoginDtoDataSource_--c__DisplayClass5_0.hpp"
 // Including type: System.Threading.Tasks.TaskCompletionSource`1

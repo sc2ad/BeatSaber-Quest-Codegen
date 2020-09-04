@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: NUnit.Framework.Constraints.IConstraint
 #include "NUnit/Framework/Constraints/IConstraint.hpp"
 // Completed includes
@@ -40,9 +41,16 @@ namespace NUnit::Framework::Constraints {
     // private NUnit.Framework.Constraints.ConstraintBuilder <Builder>k__BackingField
     // Offset: 0x28
     NUnit::Framework::Constraints::ConstraintBuilder* Builder;
-    // protected System.Void .ctor(System.Object[] args)
+    // protected System.Void .ctor(params System.Object[] args)
     // Offset: 0x1076010
     static Constraint* New_ctor(::Array<::Il2CppObject*>* args);
+    // Creating initializer_list -> params proxy for: System.Void .ctor(params System.Object[] args)
+    static Constraint* New_ctor(std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.Void .ctor(params System.Object[] args)
+    template<class ...TParams>
+    static Constraint* New_ctor(TParams&&... args) {
+      return New_ctor({args...});
+    }
     // public System.String get_DisplayName()
     // Offset: 0x10760E8
     ::Il2CppString* get_DisplayName();

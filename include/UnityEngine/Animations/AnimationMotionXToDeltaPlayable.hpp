@@ -52,16 +52,16 @@ namespace UnityEngine::Animations {
     // public System.Void SetAbsoluteMotion(System.Boolean value)
     // Offset: 0xA5DB98
     void SetAbsoluteMotion(bool value);
-    // static private System.Boolean CreateHandleInternal(UnityEngine.Playables.PlayableGraph graph, UnityEngine.Playables.PlayableHandle handle)
+    // static private System.Boolean CreateHandleInternal(UnityEngine.Playables.PlayableGraph graph, ref UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0x193F150
     static bool CreateHandleInternal(UnityEngine::Playables::PlayableGraph graph, UnityEngine::Playables::PlayableHandle& handle);
-    // static private System.Void SetAbsoluteMotionInternal(UnityEngine.Playables.PlayableHandle handle, System.Boolean value)
+    // static private System.Void SetAbsoluteMotionInternal(ref UnityEngine.Playables.PlayableHandle handle, System.Boolean value)
     // Offset: 0x193F348
     static void SetAbsoluteMotionInternal(UnityEngine::Playables::PlayableHandle& handle, bool value);
     // static private System.Void .cctor()
     // Offset: 0x193F3E8
     static void _cctor();
-    // static private System.Boolean CreateHandleInternal_Injected(UnityEngine.Playables.PlayableGraph graph, UnityEngine.Playables.PlayableHandle handle)
+    // static private System.Boolean CreateHandleInternal_Injected(ref UnityEngine.Playables.PlayableGraph graph, ref UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0x193F398
     static bool CreateHandleInternal_Injected(UnityEngine::Playables::PlayableGraph& graph, UnityEngine::Playables::PlayableHandle& handle);
     // public UnityEngine.Playables.PlayableHandle GetHandle()

@@ -49,5 +49,5 @@ System::Collections::IEnumerator* UnityEngine::Animation::GetEnumerator() {
   return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::IEnumerator*>(this, "GetEnumerator"));
 }
 System::Collections::IEnumerator* UnityEngine::Animation::System_Collections_IEnumerable_GetEnumerator() {
-  return GetEnumerator();
+  return UnityEngine::Animation::GetEnumerator();
 }

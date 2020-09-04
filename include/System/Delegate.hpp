@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Including type: System.ICloneable
 #include "System/ICloneable.hpp"
 // Including type: System.Runtime.Serialization.ISerializable
@@ -140,9 +141,16 @@ namespace System {
     // static public System.Delegate Combine(System.Delegate a, System.Delegate b)
     // Offset: 0xC94598
     static System::Delegate* Combine(System::Delegate* a, System::Delegate* b);
-    // static public System.Delegate Combine(System.Delegate[] delegates)
+    // static public System.Delegate Combine(params System.Delegate[] delegates)
     // Offset: 0xC9478C
     static System::Delegate* Combine(::Array<System::Delegate*>* delegates);
+    // Creating initializer_list -> params proxy for: System.Delegate Combine(params System.Delegate[] delegates)
+    static System::Delegate* Combine(std::initializer_list<System::Delegate*> delegates);
+    // Creating TArgs -> initializer_list proxy for: System.Delegate Combine(params System.Delegate[] delegates)
+    template<class ...TParams>
+    static System::Delegate* Combine(TParams&&... delegates) {
+      return Combine({delegates...});
+    }
     // protected System.Delegate CombineImpl(System.Delegate d)
     // Offset: 0xC94804
     System::Delegate* CombineImpl(System::Delegate* d);

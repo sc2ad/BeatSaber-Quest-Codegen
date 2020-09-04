@@ -47,7 +47,7 @@ namespace RootMotion::FinalIK {
     // static public System.Void SwingRotation(RootMotion.FinalIK.IKSolverVR/VirtualBone[] bones, System.Int32 index, UnityEngine.Vector3 swingTarget, System.Single weight)
     // Offset: 0x144A030
     static void SwingRotation(::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>* bones, int index, UnityEngine::Vector3 swingTarget, float weight);
-    // static public System.Single PreSolve(RootMotion.FinalIK.IKSolverVR/VirtualBone[] bones)
+    // static public System.Single PreSolve(ref RootMotion.FinalIK.IKSolverVR/VirtualBone[] bones)
     // Offset: 0x14402C8
     static float PreSolve(::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*& bones);
     // static public System.Void RotateAroundPoint(RootMotion.FinalIK.IKSolverVR/VirtualBone[] bones, System.Int32 index, UnityEngine.Vector3 point, UnityEngine.Quaternion rotation)

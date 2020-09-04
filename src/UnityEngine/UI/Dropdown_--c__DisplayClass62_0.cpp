@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.Dropdown/<>c__DisplayClass62_0
 #include "UnityEngine/UI/Dropdown_--c__DisplayClass62_0.hpp"
 // Including type: UnityEngine.UI.Dropdown/DropdownItem

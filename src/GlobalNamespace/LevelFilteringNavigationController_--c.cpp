@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: LevelFilteringNavigationController/<>c
 #include "GlobalNamespace/LevelFilteringNavigationController_--c.hpp"
 // Including type: System.Func`2

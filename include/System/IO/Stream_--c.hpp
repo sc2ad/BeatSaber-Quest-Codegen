@@ -63,10 +63,10 @@ namespace System::IO {
     // System.Threading.SemaphoreSlim <EnsureAsyncActiveSemaphoreInitialized>b__4_0()
     // Offset: 0x100A9DC
     System::Threading::SemaphoreSlim* $EnsureAsyncActiveSemaphoreInitialized$b__4_0();
-    // System.Int32 <BeginReadInternal>b__39_0(System.Object $p0$)
+    // System.Int32 <BeginReadInternal>b__39_0(System.Object <p0>)
     // Offset: 0x100AA40
     int $BeginReadInternal$b__39_0(::Il2CppObject* $p0$);
-    // System.Int32 <BeginWriteInternal>b__46_0(System.Object $p0$)
+    // System.Int32 <BeginWriteInternal>b__46_0(System.Object <p0>)
     // Offset: 0x100AB90
     int $BeginWriteInternal$b__46_0(::Il2CppObject* $p0$);
     // System.Void <RunReadWriteTaskWhenReady>b__47_0(System.Threading.Tasks.Task t, System.Object state)

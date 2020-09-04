@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Experimental.GlobalIllumination.LightMode
 #include "UnityEngine/Experimental/GlobalIllumination/LightMode.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

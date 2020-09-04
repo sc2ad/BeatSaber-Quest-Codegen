@@ -33,13 +33,13 @@ namespace OVR::OpenVR {
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xED4F9C
     static IVRChaperoneSetup::_ExportLiveToBuffer* New_ctor(::Il2CppObject* object, System::IntPtr method);
-    // public System.Boolean Invoke(System.Text.StringBuilder pBuffer, System.UInt32 pnBufferLength)
+    // public System.Boolean Invoke(System.Text.StringBuilder pBuffer, ref System.UInt32 pnBufferLength)
     // Offset: 0xECDEB8
     bool Invoke(System::Text::StringBuilder* pBuffer, uint& pnBufferLength);
-    // public System.IAsyncResult BeginInvoke(System.Text.StringBuilder pBuffer, System.UInt32 pnBufferLength, System.AsyncCallback callback, System.Object object)
+    // public System.IAsyncResult BeginInvoke(System.Text.StringBuilder pBuffer, ref System.UInt32 pnBufferLength, System.AsyncCallback callback, System.Object object)
     // Offset: 0xED4FB0
     System::IAsyncResult* BeginInvoke(System::Text::StringBuilder* pBuffer, uint& pnBufferLength, System::AsyncCallback* callback, ::Il2CppObject* object);
-    // public System.Boolean EndInvoke(System.UInt32 pnBufferLength, System.IAsyncResult result)
+    // public System.Boolean EndInvoke(ref System.UInt32 pnBufferLength, System.IAsyncResult result)
     // Offset: 0xED504C
     bool EndInvoke(uint& pnBufferLength, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRChaperoneSetup/_ExportLiveToBuffer

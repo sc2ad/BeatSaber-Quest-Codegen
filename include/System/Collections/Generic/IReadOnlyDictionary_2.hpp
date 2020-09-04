@@ -17,7 +17,7 @@ namespace System::Collections::Generic {
   template<typename TKey, typename TValue>
   class IReadOnlyDictionary_2 : public System::Collections::Generic::IReadOnlyCollection_1<System::Collections::Generic::KeyValuePair_2<TKey, TValue>> {
     public:
-    // public System.Boolean TryGetValue(TKey key, TValue value)
+    // public System.Boolean TryGetValue(TKey key, out TValue value)
     // Offset: 0xFFFFFFFF
     bool TryGetValue(TKey key, TValue& value) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "TryGetValue", key, value));

@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -42,15 +43,22 @@ namespace System::Text {
     // static System.Text.Encoding get_UTF8Unmarked()
     // Offset: 0x12F9A98
     static System::Text::Encoding* get_UTF8Unmarked();
-    // static System.String InternalCodePage(System.Int32 code_page)
+    // static System.String InternalCodePage(ref System.Int32 code_page)
     // Offset: 0x12F9C8C
     static ::Il2CppString* InternalCodePage(int& code_page);
     // static System.Text.Encoding GetDefaultEncoding()
     // Offset: 0x12F8218
     static System::Text::Encoding* GetDefaultEncoding();
-    // static System.Object InvokeI18N(System.String name, System.Object[] args)
+    // static System.Object InvokeI18N(System.String name, params System.Object[] args)
     // Offset: 0x12F68C0
     static ::Il2CppObject* InvokeI18N(::Il2CppString* name, ::Array<::Il2CppObject*>* args);
+    // Creating initializer_list -> params proxy for: System.Object InvokeI18N(System.String name, params System.Object[] args)
+    static ::Il2CppObject* InvokeI18N(::Il2CppString* name, std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.Object InvokeI18N(System.String name, params System.Object[] args)
+    template<class ...TParams>
+    static ::Il2CppObject* InvokeI18N(::Il2CppString* name, TParams&&... args) {
+      return InvokeI18N(name, {args...});
+    }
     // static private System.Void .cctor()
     // Offset: 0x12F9C90
     static void _cctor();

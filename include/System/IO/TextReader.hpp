@@ -19,9 +19,6 @@ namespace System {
   // Forward declaring type: Func`2<T, TResult>
   template<typename T, typename TResult>
   class Func_2;
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
-  class Func_2;
 }
 // Completed forward declares
 // Type namespace: System.IO
@@ -59,7 +56,7 @@ namespace System::IO {
     // public System.Int32 Read()
     // Offset: 0x100F108
     int Read();
-    // public System.Int32 Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
+    // public System.Int32 Read(in System.Char[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0x100F110
     int Read(::Array<::Il2CppChar>*& buffer, int index, int count);
     // public System.String ReadToEnd()

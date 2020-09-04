@@ -236,7 +236,7 @@ namespace UnityEngine {
     // static private System.Int32 GetAllCamerasCount()
     // Offset: 0x13091B0
     static int GetAllCamerasCount();
-    // static private System.Int32 GetAllCamerasImpl(UnityEngine.Camera[] cam)
+    // static private System.Int32 GetAllCamerasImpl(out UnityEngine.Camera[] cam)
     // Offset: 0x13091E4
     static int GetAllCamerasImpl(::Array<UnityEngine::Camera*>*& cam);
     // static public System.Int32 get_allCamerasCount()
@@ -275,49 +275,49 @@ namespace UnityEngine {
     // static private System.Void FireOnPostRender(UnityEngine.Camera cam)
     // Offset: 0x1309C0C
     static void FireOnPostRender(UnityEngine::Camera* cam);
-    // private System.Void get_backgroundColor_Injected(UnityEngine.Color ret)
+    // private System.Void get_backgroundColor_Injected(out UnityEngine.Color ret)
     // Offset: 0x1308168
     void get_backgroundColor_Injected(UnityEngine::Color& ret);
-    // private System.Void set_backgroundColor_Injected(UnityEngine.Color value)
+    // private System.Void set_backgroundColor_Injected(ref UnityEngine.Color value)
     // Offset: 0x1308210
     void set_backgroundColor_Injected(UnityEngine::Color& value);
-    // private System.Void get_rect_Injected(UnityEngine.Rect ret)
+    // private System.Void get_rect_Injected(out UnityEngine.Rect ret)
     // Offset: 0x13083DC
     void get_rect_Injected(UnityEngine::Rect& ret);
-    // private System.Void set_rect_Injected(UnityEngine.Rect value)
+    // private System.Void set_rect_Injected(ref UnityEngine.Rect value)
     // Offset: 0x1308484
     void set_rect_Injected(UnityEngine::Rect& value);
-    // private System.Void get_pixelRect_Injected(UnityEngine.Rect ret)
+    // private System.Void get_pixelRect_Injected(out UnityEngine.Rect ret)
     // Offset: 0x1308530
     void get_pixelRect_Injected(UnityEngine::Rect& ret);
-    // private System.Void get_worldToCameraMatrix_Injected(UnityEngine.Matrix4x4 ret)
+    // private System.Void get_worldToCameraMatrix_Injected(out UnityEngine.Matrix4x4 ret)
     // Offset: 0x1308798
     void get_worldToCameraMatrix_Injected(UnityEngine::Matrix4x4& ret);
-    // private System.Void set_worldToCameraMatrix_Injected(UnityEngine.Matrix4x4 value)
+    // private System.Void set_worldToCameraMatrix_Injected(ref UnityEngine.Matrix4x4 value)
     // Offset: 0x1308838
     void set_worldToCameraMatrix_Injected(UnityEngine::Matrix4x4& value);
-    // private System.Void get_projectionMatrix_Injected(UnityEngine.Matrix4x4 ret)
+    // private System.Void get_projectionMatrix_Injected(out UnityEngine.Matrix4x4 ret)
     // Offset: 0x1308900
     void get_projectionMatrix_Injected(UnityEngine::Matrix4x4& ret);
-    // private System.Void set_projectionMatrix_Injected(UnityEngine.Matrix4x4 value)
+    // private System.Void set_projectionMatrix_Injected(ref UnityEngine.Matrix4x4 value)
     // Offset: 0x13089A0
     void set_projectionMatrix_Injected(UnityEngine::Matrix4x4& value);
-    // private System.Void CalculateObliqueMatrix_Injected(UnityEngine.Vector4 clipPlane, UnityEngine.Matrix4x4 ret)
+    // private System.Void CalculateObliqueMatrix_Injected(ref UnityEngine.Vector4 clipPlane, out UnityEngine.Matrix4x4 ret)
     // Offset: 0x1308AB4
     void CalculateObliqueMatrix_Injected(UnityEngine::Vector4& clipPlane, UnityEngine::Matrix4x4& ret);
-    // private System.Void WorldToScreenPoint_Injected(UnityEngine.Vector3 position, UnityEngine.Camera/MonoOrStereoscopicEye eye, UnityEngine.Vector3 ret)
+    // private System.Void WorldToScreenPoint_Injected(ref UnityEngine.Vector3 position, UnityEngine.Camera/MonoOrStereoscopicEye eye, out UnityEngine.Vector3 ret)
     // Offset: 0x1308B88
     void WorldToScreenPoint_Injected(UnityEngine::Vector3& position, UnityEngine::Camera::MonoOrStereoscopicEye eye, UnityEngine::Vector3& ret);
-    // private System.Void ViewportToWorldPoint_Injected(UnityEngine.Vector3 position, UnityEngine.Camera/MonoOrStereoscopicEye eye, UnityEngine.Vector3 ret)
+    // private System.Void ViewportToWorldPoint_Injected(ref UnityEngine.Vector3 position, UnityEngine.Camera/MonoOrStereoscopicEye eye, out UnityEngine.Vector3 ret)
     // Offset: 0x1308C6C
     void ViewportToWorldPoint_Injected(UnityEngine::Vector3& position, UnityEngine::Camera::MonoOrStereoscopicEye eye, UnityEngine::Vector3& ret);
-    // private System.Void ScreenToViewportPoint_Injected(UnityEngine.Vector3 position, UnityEngine.Vector3 ret)
+    // private System.Void ScreenToViewportPoint_Injected(ref UnityEngine.Vector3 position, out UnityEngine.Vector3 ret)
     // Offset: 0x1308D48
     void ScreenToViewportPoint_Injected(UnityEngine::Vector3& position, UnityEngine::Vector3& ret);
-    // private System.Void ScreenPointToRay_Injected(UnityEngine.Vector2 pos, UnityEngine.Camera/MonoOrStereoscopicEye eye, UnityEngine.Ray ret)
+    // private System.Void ScreenPointToRay_Injected(ref UnityEngine.Vector2 pos, UnityEngine.Camera/MonoOrStereoscopicEye eye, out UnityEngine.Ray ret)
     // Offset: 0x1308E24
     void ScreenPointToRay_Injected(UnityEngine::Vector2& pos, UnityEngine::Camera::MonoOrStereoscopicEye eye, UnityEngine::Ray& ret);
-    // private System.Void GetStereoProjectionMatrix_Injected(UnityEngine.Camera/StereoscopicEye eye, UnityEngine.Matrix4x4 ret)
+    // private System.Void GetStereoProjectionMatrix_Injected(UnityEngine.Camera/StereoscopicEye eye, out UnityEngine.Matrix4x4 ret)
     // Offset: 0x1309158
     void GetStereoProjectionMatrix_Injected(UnityEngine::Camera::StereoscopicEye eye, UnityEngine::Matrix4x4& ret);
     // public System.Void .ctor()

@@ -43,7 +43,7 @@ namespace UnityEngine {
     // static UnityEngine.GUIStyleState GetGUIStyleState(UnityEngine.GUIStyle sourceStyle, System.IntPtr source)
     // Offset: 0x1276C20
     static UnityEngine::GUIStyleState* GetGUIStyleState(UnityEngine::GUIStyle* sourceStyle, System::IntPtr source);
-    // private System.Void set_textColor_Injected(UnityEngine.Color value)
+    // private System.Void set_textColor_Injected(ref UnityEngine.Color value)
     // Offset: 0x1277784
     void set_textColor_Injected(UnityEngine::Color& value);
     // public System.Void .ctor()

@@ -21,15 +21,9 @@ namespace System::Collections::ObjectModel {
   // Forward declaring type: ReadOnlyCollection`1<T>
   template<typename T>
   class ReadOnlyCollection_1;
-  // Forward declaring type: ReadOnlyCollection`1<T>
-  template<typename T>
-  class ReadOnlyCollection_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
-  // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
-  class IEnumerable_1;
   // Forward declaring type: IEnumerable`1<T>
   template<typename T>
   class IEnumerable_1;
@@ -187,7 +181,7 @@ namespace UnityEngine::ProBuilder {
     // static System.Void GetDistinctIndices(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, System.Collections.Generic.List`1<System.Int32> indices)
     // Offset: 0xF98794
     static void GetDistinctIndices(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, System::Collections::Generic::List_1<int>* indices);
-    // System.Boolean TryGetNextEdge(UnityEngine.ProBuilder.Edge source, System.Int32 index, UnityEngine.ProBuilder.Edge nextEdge, System.Int32 nextIndex)
+    // System.Boolean TryGetNextEdge(UnityEngine.ProBuilder.Edge source, System.Int32 index, ref UnityEngine.ProBuilder.Edge nextEdge, ref System.Int32 nextIndex)
     // Offset: 0xF98AC0
     bool TryGetNextEdge(UnityEngine::ProBuilder::Edge source, int index, UnityEngine::ProBuilder::Edge& nextEdge, int& nextIndex);
     // public System.Void .ctor()

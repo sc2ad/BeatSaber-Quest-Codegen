@@ -31,7 +31,7 @@ namespace UnityEngine::Experimental::Rendering {
     // System.Void set_implementation(UnityEngine.Experimental.Rendering.IScriptableRuntimeReflectionSystem value)
     // Offset: 0x1312F84
     void set_implementation(UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
-    // private System.Void Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes(System.Boolean result)
+    // private System.Void Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes(out System.Boolean result)
     // Offset: 0x1312F8C
     void Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes(bool& result);
     // public System.Void .ctor()

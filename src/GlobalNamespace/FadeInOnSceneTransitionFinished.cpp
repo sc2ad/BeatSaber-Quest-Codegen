@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: FadeInOnSceneTransitionFinished
 #include "GlobalNamespace/FadeInOnSceneTransitionFinished.hpp"
 // Including type: FadeInOnSceneTransitionFinished/<FadeInAfterSceneTransitionCoroutine>d__3

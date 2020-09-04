@@ -51,7 +51,7 @@ namespace NUnit::Framework {
     // public NUnit.Framework.Interfaces.ITypeInfo <>3__typeInfo
     // Offset: 0x30
     NUnit::Framework::Interfaces::ITypeInfo* $$3__typeInfo;
-    // public System.Void .ctor(System.Int32 $$1__state)
+    // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0x18FD51C
     static TestFixtureAttribute::$BuildFrom$d__0* New_ctor(int $$1__state);
     // private System.Collections.Generic.IEnumerator`1<NUnit.Framework.Internal.TestSuite> System.Collections.Generic.IEnumerable<NUnit.Framework.Internal.TestSuite>.GetEnumerator()

@@ -16,9 +16,6 @@ namespace Oculus::Platform {
   struct LeaderboardFilterType;
   // Forward declaring type: LeaderboardStartAt
   struct LeaderboardStartAt;
-  // Forward declaring type: Request`1<T>
-  template<typename T>
-  class Request_1;
 }
 // Forward declaring namespace: Oculus::Platform::Models
 namespace Oculus::Platform::Models {

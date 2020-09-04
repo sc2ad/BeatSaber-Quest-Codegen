@@ -39,7 +39,7 @@ namespace UnityEngine::Animations {
       static_assert(std::is_base_of_v<UnityEngine::Playables::IPlayable, std::remove_pointer_t<U>> && is_value_type_v<U>);
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("UnityEngine.Animations", "AnimationPlayableExtensions", "SetAnimatedProperties", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, playable, clip));
     }
-    // static System.Void SetAnimatedPropertiesInternal(UnityEngine.Playables.PlayableHandle playable, UnityEngine.AnimationClip animatedProperties)
+    // static System.Void SetAnimatedPropertiesInternal(ref UnityEngine.Playables.PlayableHandle playable, UnityEngine.AnimationClip animatedProperties)
     // Offset: 0x193FC98
     static void SetAnimatedPropertiesInternal(UnityEngine::Playables::PlayableHandle& playable, UnityEngine::AnimationClip* animatedProperties);
   }; // UnityEngine.Animations.AnimationPlayableExtensions

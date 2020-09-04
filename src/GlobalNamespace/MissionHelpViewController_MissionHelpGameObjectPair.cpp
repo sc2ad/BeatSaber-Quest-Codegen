@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: MissionHelpViewController/MissionHelpGameObjectPair
 #include "GlobalNamespace/MissionHelpViewController_MissionHelpGameObjectPair.hpp"
 // Including type: MissionHelpSO

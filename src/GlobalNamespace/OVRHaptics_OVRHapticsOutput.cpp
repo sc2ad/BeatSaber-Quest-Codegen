@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRHaptics/OVRHapticsOutput
 #include "GlobalNamespace/OVRHaptics_OVRHapticsOutput.hpp"
 // Including type: OVRHaptics/OVRHapticsOutput/ClipPlaybackTracker

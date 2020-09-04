@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Valve.VR.CVRDriverManager
 #include "Valve/VR/CVRDriverManager.hpp"
 // Including type: System.IntPtr

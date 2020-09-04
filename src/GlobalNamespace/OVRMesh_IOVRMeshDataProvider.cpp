@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRMesh/IOVRMeshDataProvider
 #include "GlobalNamespace/OVRMesh_IOVRMeshDataProvider.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

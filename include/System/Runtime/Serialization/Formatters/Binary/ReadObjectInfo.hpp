@@ -142,10 +142,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Type GetType(System.String name)
     // Offset: 0xFF2048
     System::Type* GetType(::Il2CppString* name);
-    // System.Void AddValue(System.String name, System.Object value, System.Runtime.Serialization.SerializationInfo si, System.Object[] memberData)
+    // System.Void AddValue(System.String name, System.Object value, ref System.Runtime.Serialization.SerializationInfo si, ref System.Object[] memberData)
     // Offset: 0xFF21C8
     void AddValue(::Il2CppString* name, ::Il2CppObject* value, System::Runtime::Serialization::SerializationInfo*& si, ::Array<::Il2CppObject*>*& memberData);
-    // System.Void InitDataStore(System.Runtime.Serialization.SerializationInfo si, System.Object[] memberData)
+    // System.Void InitDataStore(ref System.Runtime.Serialization.SerializationInfo si, ref System.Object[] memberData)
     // Offset: 0xFF2344
     void InitDataStore(System::Runtime::Serialization::SerializationInfo*& si, ::Array<::Il2CppObject*>*& memberData);
     // System.Void RecordFixup(System.Int64 objectId, System.String name, System.Int64 idRef)
