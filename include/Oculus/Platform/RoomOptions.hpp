@@ -53,6 +53,9 @@ namespace Oculus::Platform {
     // public System.Void SetTurnOffUpdates(System.Boolean value)
     // Offset: 0xEAE6A8
     void SetTurnOffUpdates(bool value);
+    // static public System.IntPtr op_Explicit(Oculus.Platform.RoomOptions options)
+    // Offset: 0xEAE724
+    // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
     // Offset: 0xEAE2D4
     // Implemented from: System.Object

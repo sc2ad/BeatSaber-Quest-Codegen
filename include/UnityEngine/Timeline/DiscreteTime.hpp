@@ -87,6 +87,24 @@ namespace UnityEngine::Timeline {
     // static private System.Single ToFloat(System.Int64 time)
     // Offset: 0x109AA88
     static float ToFloat(int64_t time);
+    // static public System.Double op_Explicit(UnityEngine.Timeline.DiscreteTime b)
+    // Offset: 0x10984D4
+    explicit operator double();
+    // static public System.Single op_Explicit(UnityEngine.Timeline.DiscreteTime b)
+    // Offset: 0x109AAFC
+    explicit operator float();
+    // static public System.Int64 op_Explicit(UnityEngine.Timeline.DiscreteTime b)
+    // Offset: 0x109AB60
+    // ABORTED: conflicts with another method.  explicit operator int64_t();
+    // static public UnityEngine.Timeline.DiscreteTime op_Explicit(System.Double time)
+    // Offset: 0x10984A0
+    explicit DiscreteTime(double& time);
+    // static public UnityEngine.Timeline.DiscreteTime op_Explicit(System.Single time)
+    // Offset: 0x109AB64
+    explicit DiscreteTime(float& time);
+    // static public UnityEngine.Timeline.DiscreteTime op_Explicit(System.Int64 time)
+    // Offset: 0x109ABB8
+    explicit DiscreteTime(int64_t& time);
     // static public UnityEngine.Timeline.DiscreteTime Min(UnityEngine.Timeline.DiscreteTime lhs, UnityEngine.Timeline.DiscreteTime rhs)
     // Offset: 0x109ACD4
     static UnityEngine::Timeline::DiscreteTime Min(UnityEngine::Timeline::DiscreteTime lhs, UnityEngine::Timeline::DiscreteTime rhs);

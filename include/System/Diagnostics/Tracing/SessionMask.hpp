@@ -46,6 +46,12 @@ namespace System::Diagnostics::Tracing {
     // public System.Void set_Item(System.Int32 perEventSourceSessionId, System.Boolean value)
     // Offset: 0xA3010C
     void set_Item(int perEventSourceSessionId, bool value);
+    // static public System.UInt64 op_Explicit(System.Diagnostics.Tracing.SessionMask m)
+    // Offset: 0xD9E16C
+    explicit operator uint64_t();
+    // static public System.UInt32 op_Explicit(System.Diagnostics.Tracing.SessionMask m)
+    // Offset: 0xD9E174
+    // ABORTED: conflicts with another method.  explicit operator uint();
   }; // System.Diagnostics.Tracing.SessionMask
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

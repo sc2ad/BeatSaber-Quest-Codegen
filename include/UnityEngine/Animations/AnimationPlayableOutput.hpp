@@ -51,6 +51,9 @@ namespace UnityEngine::Animations {
     // static public UnityEngine.Animations.AnimationPlayableOutput get_Null()
     // Offset: 0x193FD40
     static UnityEngine::Animations::AnimationPlayableOutput get_Null();
+    // static public UnityEngine.Animations.AnimationPlayableOutput op_Explicit(UnityEngine.Playables.PlayableOutput output)
+    // Offset: 0x193FEE0
+    explicit AnimationPlayableOutput(UnityEngine::Playables::PlayableOutput& output);
     // public UnityEngine.Animator GetTarget()
     // Offset: 0xA5DBD4
     UnityEngine::Animator* GetTarget();

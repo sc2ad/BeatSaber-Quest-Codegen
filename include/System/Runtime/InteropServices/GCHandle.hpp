@@ -66,6 +66,12 @@ namespace System::Runtime::InteropServices {
     // public System.Void Free()
     // Offset: 0xA4262C
     void Free();
+    // static public System.IntPtr op_Explicit(System.Runtime.InteropServices.GCHandle value)
+    // Offset: 0x1168430
+    explicit operator System::IntPtr();
+    // static public System.Runtime.InteropServices.GCHandle op_Explicit(System.IntPtr value)
+    // Offset: 0x1168438
+    explicit GCHandle(System::IntPtr& value);
     // static private System.Boolean CheckCurrentDomain(System.Int32 handle)
     // Offset: 0x1168518
     static bool CheckCurrentDomain(int handle);

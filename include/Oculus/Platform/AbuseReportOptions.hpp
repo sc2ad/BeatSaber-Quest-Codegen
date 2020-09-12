@@ -33,6 +33,9 @@ namespace Oculus::Platform {
     // public System.Void SetReportType(Oculus.Platform.AbuseReportType value)
     // Offset: 0x1598814
     void SetReportType(Oculus::Platform::AbuseReportType value);
+    // static public System.IntPtr op_Explicit(Oculus.Platform.AbuseReportOptions options)
+    // Offset: 0x159891C
+    // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
     // Offset: 0x1598624
     // Implemented from: System.Object

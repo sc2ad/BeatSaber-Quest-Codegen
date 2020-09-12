@@ -50,6 +50,9 @@ namespace UnityEngine::Audio {
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0xA5EAAC
     static AudioClipPlayable* New_ctor(UnityEngine::Playables::PlayableHandle handle);
+    // static public UnityEngine.Audio.AudioClipPlayable op_Explicit(UnityEngine.Playables.Playable playable)
+    // Offset: 0x195C1C4
+    explicit AudioClipPlayable(UnityEngine::Playables::Playable& playable);
     // System.Void SetVolume(System.Single value)
     // Offset: 0xA5EAC8
     void SetVolume(float value);

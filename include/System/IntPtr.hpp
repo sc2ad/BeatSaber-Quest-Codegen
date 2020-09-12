@@ -65,6 +65,24 @@ namespace System {
     // public System.String ToString(System.String format)
     // Offset: 0xA3F8CC
     ::Il2CppString* ToString(::Il2CppString* format);
+    // static public System.IntPtr op_Explicit(System.Int32 value)
+    // Offset: 0x1015FC8
+    explicit IntPtr(int& value);
+    // static public System.IntPtr op_Explicit(System.Int64 value)
+    // Offset: 0x1015FD0
+    explicit IntPtr(int64_t& value);
+    // static public System.IntPtr op_Explicit(System.Void* value)
+    // Offset: 0x1015FD4
+    // ABORTED: conflicts with another method.  explicit IntPtr(void* value);
+    // static public System.Int32 op_Explicit(System.IntPtr value)
+    // Offset: 0x1015FD8
+    explicit operator int();
+    // static public System.Int64 op_Explicit(System.IntPtr value)
+    // Offset: 0x1015FDC
+    explicit operator int64_t();
+    // static public System.Void* op_Explicit(System.IntPtr value)
+    // Offset: 0x1015FE0
+    // ABORTED: conflicts with another method.  explicit operator void*();
     // System.Boolean IsNull()
     // Offset: 0xA3F904
     bool IsNull();

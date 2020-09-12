@@ -36,6 +36,9 @@ namespace Oculus::Platform {
     // public System.Void SetZoneId(System.String value)
     // Offset: 0xEAC36C
     void SetZoneId(::Il2CppString* value);
+    // static public System.IntPtr op_Explicit(Oculus.Platform.NetSyncOptions options)
+    // Offset: 0xEAC3E8
+    // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
     // Offset: 0xEAC1FC
     // Implemented from: System.Object

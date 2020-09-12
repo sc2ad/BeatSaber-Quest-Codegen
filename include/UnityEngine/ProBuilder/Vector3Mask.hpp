@@ -75,6 +75,9 @@ namespace UnityEngine::ProBuilder {
     // public System.Int32 get_active()
     // Offset: 0xA5796C
     int get_active();
+    // static public UnityEngine.ProBuilder.Vector3Mask op_Explicit(UnityEngine.Vector3 v)
+    // Offset: 0x18D598C
+    explicit Vector3Mask(UnityEngine::Vector3& v);
     // public System.Single get_Item(System.Int32 i)
     // Offset: 0xA57988
     float get_Item(int i);

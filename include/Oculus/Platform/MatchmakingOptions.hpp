@@ -63,6 +63,9 @@ namespace Oculus::Platform {
     // public System.Void SetEnqueueQueryKey(System.String value)
     // Offset: 0xE9CFE4
     void SetEnqueueQueryKey(::Il2CppString* value);
+    // static public System.IntPtr op_Explicit(Oculus.Platform.MatchmakingOptions options)
+    // Offset: 0xE9B98C
+    // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
     // Offset: 0xE9CA20
     // Implemented from: System.Object

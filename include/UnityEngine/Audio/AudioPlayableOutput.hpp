@@ -51,6 +51,9 @@ namespace UnityEngine::Audio {
     // static public UnityEngine.Audio.AudioPlayableOutput get_Null()
     // Offset: 0x195CECC
     static UnityEngine::Audio::AudioPlayableOutput get_Null();
+    // static public UnityEngine.Audio.AudioPlayableOutput op_Explicit(UnityEngine.Playables.PlayableOutput output)
+    // Offset: 0x195D06C
+    explicit AudioPlayableOutput(UnityEngine::Playables::PlayableOutput& output);
     // public System.Void SetTarget(UnityEngine.AudioSource value)
     // Offset: 0xA5EB18
     void SetTarget(UnityEngine::AudioSource* value);

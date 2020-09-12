@@ -230,6 +230,18 @@ namespace System {
     // static private System.Void FCallTruncate(ref System.Decimal d)
     // Offset: 0xC8CA90
     static void FCallTruncate(System::Decimal& d);
+    // static public System.Decimal op_Explicit(System.Single value)
+    // Offset: 0xC8CE94
+    explicit Decimal(float& value);
+    // static public System.Decimal op_Explicit(System.Double value)
+    // Offset: 0xC8CEBC
+    explicit Decimal(double& value);
+    // static public System.Single op_Explicit(System.Decimal value)
+    // Offset: 0xC8CEE4
+    explicit operator float();
+    // static public System.Double op_Explicit(System.Decimal value)
+    // Offset: 0xC8CF58
+    explicit operator double();
     // static private System.Void .cctor()
     // Offset: 0xC8D9C0
     static void _cctor();

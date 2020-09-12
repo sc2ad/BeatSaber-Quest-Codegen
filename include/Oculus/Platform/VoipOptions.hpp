@@ -35,6 +35,9 @@ namespace Oculus::Platform {
     // public System.Void SetCreateNewConnectionUseDtx(Oculus.Platform.VoipDtxState value)
     // Offset: 0x196D234
     void SetCreateNewConnectionUseDtx(Oculus::Platform::VoipDtxState value);
+    // static public System.IntPtr op_Explicit(Oculus.Platform.VoipOptions options)
+    // Offset: 0x196C0E0
+    // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
     // Offset: 0x196D140
     // Implemented from: System.Object

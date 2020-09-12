@@ -68,6 +68,9 @@ namespace Oculus::Platform {
     // public System.Void SetStartTime(System.DateTime value)
     // Offset: 0xEAE1A0
     void SetStartTime(System::DateTime value);
+    // static public System.IntPtr op_Explicit(Oculus.Platform.RichPresenceOptions options)
+    // Offset: 0xEADA10
+    // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
     // Offset: 0xEADBDC
     // Implemented from: System.Object

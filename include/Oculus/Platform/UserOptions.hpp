@@ -41,6 +41,9 @@ namespace Oculus::Platform {
     // public System.Void SetTimeWindow(Oculus.Platform.TimeWindow value)
     // Offset: 0xEB07B0
     void SetTimeWindow(Oculus::Platform::TimeWindow value);
+    // static public System.IntPtr op_Explicit(Oculus.Platform.UserOptions options)
+    // Offset: 0xEAD2B8
+    // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
     // Offset: 0xEAD1C4
     // Implemented from: System.Object

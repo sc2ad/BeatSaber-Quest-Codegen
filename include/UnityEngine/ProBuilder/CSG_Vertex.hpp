@@ -158,6 +158,9 @@ namespace UnityEngine::ProBuilder {
     // private System.Void set_hasUV4(System.Boolean value)
     // Offset: 0xA4D72C
     void set_hasUV4(bool value);
+    // static public UnityEngine.ProBuilder.CSG_Vertex op_Explicit(UnityEngine.ProBuilder.Vertex vertex)
+    // Offset: 0x1534CA8
+    explicit CSG_Vertex(UnityEngine::ProBuilder::Vertex* vertex);
     // public System.Void Flip()
     // Offset: 0xA4D748
     void Flip();
