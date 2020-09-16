@@ -57,10 +57,10 @@ namespace UnityEngine::ProBuilder {
     float get_y();
     // public System.Void .ctor(UnityEngine.Vector3 v, System.Single epsilon)
     // Offset: 0xA578FC
-    static Vector2Mask* New_ctor(UnityEngine::Vector3 v, float epsilon);
+    Vector2Mask(UnityEngine::Vector3 v, float epsilon);
     // public System.Void .ctor(System.Byte mask)
     // Offset: 0xA57904
-    static Vector2Mask* New_ctor(uint8_t mask);
+    // ABORTED: conflicts with another method.  Vector2Mask(uint8_t mask);
     // static private System.Void .cctor()
     // Offset: 0x18D5694
     static void _cctor();

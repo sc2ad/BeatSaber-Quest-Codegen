@@ -25,7 +25,7 @@ namespace UnityEngine {
     }
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
     // Offset: 0xA5F820
-    static ParticleSystem::MainModule* New_ctor(UnityEngine::ParticleSystem* particleSystem);
+    // ABORTED: conflicts with another method.  MainModule(UnityEngine::ParticleSystem* particleSystem);
     // public System.Single get_duration()
     // Offset: 0xA5F828
     float get_duration();

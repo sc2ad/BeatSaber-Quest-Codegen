@@ -40,7 +40,7 @@ namespace Valve::VR {
     constexpr RenderModel_t_Packed(System::IntPtr rVertexData_ = {}, uint unVertexCount_ = {}, System::IntPtr rIndexData_ = {}, uint unTriangleCount_ = {}, int diffuseTextureId_ = {}) noexcept : rVertexData{rVertexData_}, unVertexCount{unVertexCount_}, rIndexData{rIndexData_}, unTriangleCount{unTriangleCount_}, diffuseTextureId{diffuseTextureId_} {}
     // public System.Void .ctor(Valve.VR.RenderModel_t unpacked)
     // Offset: 0xA5D730
-    static RenderModel_t_Packed* New_ctor(Valve::VR::RenderModel_t unpacked);
+    RenderModel_t_Packed(Valve::VR::RenderModel_t unpacked);
     // public System.Void Unpack(ref Valve.VR.RenderModel_t unpacked)
     // Offset: 0xA5D750
     void Unpack(Valve::VR::RenderModel_t& unpacked);

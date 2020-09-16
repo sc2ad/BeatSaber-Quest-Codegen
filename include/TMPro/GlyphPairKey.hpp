@@ -33,10 +33,10 @@ namespace TMPro {
     constexpr GlyphPairKey(uint firstGlyphIndex_ = {}, uint secondGlyphIndex_ = {}, int64_t key_ = {}) noexcept : firstGlyphIndex{firstGlyphIndex_}, secondGlyphIndex{secondGlyphIndex_}, key{key_} {}
     // public System.Void .ctor(System.UInt32 firstGlyphIndex, System.UInt32 secondGlyphIndex)
     // Offset: 0xA2B790
-    static GlyphPairKey* New_ctor(uint firstGlyphIndex, uint secondGlyphIndex);
+    GlyphPairKey(uint firstGlyphIndex, uint secondGlyphIndex);
     // System.Void .ctor(TMPro.TMP_GlyphPairAdjustmentRecord record)
     // Offset: 0xA2B7A4
-    static GlyphPairKey* New_ctor(TMPro::TMP_GlyphPairAdjustmentRecord* record);
+    GlyphPairKey(TMPro::TMP_GlyphPairAdjustmentRecord* record);
   }; // TMPro.GlyphPairKey
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

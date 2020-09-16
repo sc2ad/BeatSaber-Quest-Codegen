@@ -41,10 +41,10 @@ namespace UnityEngine {
     constexpr Color(float r_ = {}, float g_ = {}, float b_ = {}, float a_ = {}) noexcept : r{r_}, g{g_}, b{b_}, a{a_} {}
     // public System.Void .ctor(System.Single r, System.Single g, System.Single b, System.Single a)
     // Offset: 0xA45854
-    static Color* New_ctor(float r, float g, float b, float a);
+    // ABORTED: conflicts with another method.  Color(float r, float g, float b, float a);
     // public System.Void .ctor(System.Single r, System.Single g, System.Single b)
     // Offset: 0xA45860
-    static Color* New_ctor(float r, float g, float b);
+    Color(float r, float g, float b);
     // public System.String ToString(System.String format)
     // Offset: 0xA4587C
     ::Il2CppString* ToString(::Il2CppString* format);

@@ -38,8 +38,8 @@ namespace System {
     constexpr ListBuilder_1(::Array<T>* items_ = {}, T item_ = {}, int count_ = {}, int capacity_ = {}) noexcept : items{items_}, item{item_}, count{count_}, capacity{capacity_} {}
     // public System.Void .ctor(System.Int32 capacity)
     // Offset: 0xFFFFFFFF
-    static RuntimeType::ListBuilder_1<T>* New_ctor(int capacity) {
-      return (RuntimeType::ListBuilder_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RuntimeType::ListBuilder_1<T>>::get(), capacity));
+    ListBuilder_1(int capacity) {
+      THROW_UNLESS(il2cpp_utils::RunMethod(*this, ".ctor", capacity));
     }
     // public T get_Item(System.Int32 index)
     // Offset: 0xFFFFFFFF

@@ -58,7 +58,7 @@ namespace Zenject {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FromBinder::$$c__DisplayClass70_0_1<TConcrete>* New_ctor() {
-      return (FromBinder::$$c__DisplayClass70_0_1<TConcrete>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FromBinder::$$c__DisplayClass70_0_1<TConcrete>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<FromBinder::$$c__DisplayClass70_0_1<TConcrete>*>());
     }
   }; // Zenject.FromBinder/<>c__DisplayClass70_0`1
 }

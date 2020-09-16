@@ -25,7 +25,7 @@ namespace Mono::Globalization::Unicode {
     constexpr PreviousInfo(int Code_ = {}, uint8_t* SortKey_ = {}) noexcept : Code{Code_}, SortKey{SortKey_} {}
     // public System.Void .ctor(System.Boolean dummy)
     // Offset: 0xA4079C
-    static SimpleCollator::PreviousInfo* New_ctor(bool dummy);
+    PreviousInfo(bool dummy);
   }; // Mono.Globalization.Unicode.SimpleCollator/PreviousInfo
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

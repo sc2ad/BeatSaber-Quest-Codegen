@@ -66,6 +66,7 @@ namespace UnityEngine::TestTools {
     class $ExecuteEnumerable$d__9 : public ::Il2CppObject, public System::Collections::Generic::IEnumerable_1<::Il2CppObject*>, public System::Collections::Generic::IEnumerator_1<::Il2CppObject*>, public ::il2cpp_utils::il2cpp_type_check::NestedType {
       public:
       using declaring_type = BeforeAfterTestCommandBase_1<T>*;
+      static constexpr std::string_view NESTED_NAME = "$ExecuteEnumerable$d__9";
       // private System.Int32 <>1__state
       // Offset: 0x0
       int $$1__state;
@@ -99,7 +100,7 @@ namespace UnityEngine::TestTools {
       // public System.Void .ctor(System.Int32 <>1__state)
       // Offset: 0xFFFFFFFF
       static typename BeforeAfterTestCommandBase_1<T>::$ExecuteEnumerable$d__9* New_ctor(int $$1__state) {
-        return (typename BeforeAfterTestCommandBase_1<T>::$ExecuteEnumerable$d__9*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename BeforeAfterTestCommandBase_1<T>::$ExecuteEnumerable$d__9*>::get(), $$1__state));
+        return THROW_UNLESS(il2cpp_utils::New<typename BeforeAfterTestCommandBase_1<T>::$ExecuteEnumerable$d__9*>($$1__state));
       }
       // private System.Void <>m__Finally1()
       // Offset: 0xFFFFFFFF
@@ -194,7 +195,7 @@ namespace UnityEngine::TestTools {
     // protected System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand, System.String beforeErrorPrefix, System.String afterErrorPrefix, System.Boolean skipYieldAfterActions)
     // Offset: 0xFFFFFFFF
     static BeforeAfterTestCommandBase_1<T>* New_ctor(NUnit::Framework::Internal::Commands::TestCommand* innerCommand, ::Il2CppString* beforeErrorPrefix, ::Il2CppString* afterErrorPrefix, bool skipYieldAfterActions) {
-      return (BeforeAfterTestCommandBase_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeforeAfterTestCommandBase_1<T>*>::get(), innerCommand, beforeErrorPrefix, afterErrorPrefix, skipYieldAfterActions));
+      return THROW_UNLESS(il2cpp_utils::New<BeforeAfterTestCommandBase_1<T>*>(innerCommand, beforeErrorPrefix, afterErrorPrefix, skipYieldAfterActions));
     }
     // protected System.Collections.IEnumerator InvokeBefore(T action, NUnit.Framework.Internal.Test test, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
     // Offset: 0xFFFFFFFF

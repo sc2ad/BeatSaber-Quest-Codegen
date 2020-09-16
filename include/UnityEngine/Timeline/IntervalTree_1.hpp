@@ -42,6 +42,7 @@ namespace UnityEngine::Timeline {
       static_assert((!std::is_complete_v<std::remove_pointer_t<T>> || std::is_base_of_v<UnityEngine::Timeline::IInterval, std::remove_pointer_t<T>>));
       public:
       using declaring_type = IntervalTree_1<T>*;
+      static constexpr std::string_view NESTED_NAME = "Entry";
       // public System.Int64 intervalStart
       // Offset: 0x0
       int64_t intervalStart;
@@ -153,7 +154,7 @@ namespace UnityEngine::Timeline {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static IntervalTree_1<T>* New_ctor() {
-      return (IntervalTree_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<IntervalTree_1<T>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<IntervalTree_1<T>*>());
     }
   }; // UnityEngine.Timeline.IntervalTree`1
 }

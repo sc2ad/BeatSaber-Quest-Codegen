@@ -27,7 +27,7 @@ namespace TMPro {
     constexpr LineSegment(UnityEngine::Vector3 Point1_ = {}, UnityEngine::Vector3 Point2_ = {}) noexcept : Point1{Point1_}, Point2{Point2_} {}
     // public System.Void .ctor(UnityEngine.Vector3 p1, UnityEngine.Vector3 p2)
     // Offset: 0xA32680
-    static TMP_TextUtilities::LineSegment* New_ctor(UnityEngine::Vector3 p1, UnityEngine::Vector3 p2);
+    // ABORTED: conflicts with another method.  LineSegment(UnityEngine::Vector3 p1, UnityEngine::Vector3 p2);
   }; // TMPro.TMP_TextUtilities/LineSegment
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

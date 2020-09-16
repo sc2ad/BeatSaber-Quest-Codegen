@@ -26,7 +26,7 @@ namespace System::Runtime::Remoting::Messaging {
     }
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IllogicalCallContext ctx)
     // Offset: 0xA402E4
-    static IllogicalCallContext::Reader* New_ctor(System::Runtime::Remoting::Messaging::IllogicalCallContext* ctx);
+    // ABORTED: conflicts with another method.  Reader(System::Runtime::Remoting::Messaging::IllogicalCallContext* ctx);
     // public System.Boolean get_IsNull()
     // Offset: 0xA402EC
     bool get_IsNull();

@@ -47,7 +47,7 @@ namespace Zenject {
     // Base method: System.Void KeyedFactoryBase`2::.ctor()
     // Base method: System.Void Object::.ctor()
     static KeyedFactory_4<TBase, TKey, TParam1, TParam2>* New_ctor() {
-      return (KeyedFactory_4<TBase, TKey, TParam1, TParam2>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<KeyedFactory_4<TBase, TKey, TParam1, TParam2>*>::get())));
+      return THROW_UNLESS((il2cpp_utils::New<KeyedFactory_4<TBase, TKey, TParam1, TParam2>*>()));
     }
   }; // Zenject.KeyedFactory`4
 }

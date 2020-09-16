@@ -136,37 +136,37 @@ namespace System {
     static void _set_NearPositiveZero(System::Decimal value);
     // public System.Void .ctor(System.Int32 value)
     // Offset: 0xA2CF20
-    static Decimal* New_ctor(int value);
+    Decimal(int value);
     // public System.Void .ctor(System.UInt32 value)
     // Offset: 0xA2CF44
-    static Decimal* New_ctor(uint value);
+    Decimal(uint value);
     // public System.Void .ctor(System.Int64 value)
     // Offset: 0xA2CF50
-    static Decimal* New_ctor(int64_t value);
+    Decimal(int64_t value);
     // public System.Void .ctor(System.UInt64 value)
     // Offset: 0xA2CF78
-    static Decimal* New_ctor(uint64_t value);
+    Decimal(uint64_t value);
     // public System.Void .ctor(System.Single value)
     // Offset: 0xA2CF88
-    static Decimal* New_ctor(float value);
+    Decimal(float value);
     // public System.Void .ctor(System.Double value)
     // Offset: 0xA2CF90
-    static Decimal* New_ctor(double value);
+    Decimal(double value);
     // public System.Void .ctor(System.Int32[] bits)
     // Offset: 0xA2CF98
-    static Decimal* New_ctor(::Array<int>* bits);
+    Decimal(::Array<int>* bits);
     // private System.Void SetBits(System.Int32[] bits)
     // Offset: 0xA2CFA0
     void SetBits(::Array<int>* bits);
     // public System.Void .ctor(System.Int32 lo, System.Int32 mid, System.Int32 hi, System.Boolean isNegative, System.Byte scale)
     // Offset: 0xA2CFA8
-    static Decimal* New_ctor(int lo, int mid, int hi, bool isNegative, uint8_t scale);
+    Decimal(int lo, int mid, int hi, bool isNegative, uint8_t scale);
     // private System.Void OnSerializing(System.Runtime.Serialization.StreamingContext ctx)
     // Offset: 0xA2CFB4
     void OnSerializing(System::Runtime::Serialization::StreamingContext ctx);
     // private System.Void .ctor(System.Int32 lo, System.Int32 mid, System.Int32 hi, System.Int32 flags)
     // Offset: 0xA2CFC4
-    static Decimal* New_ctor(int lo, int mid, int hi, int flags);
+    // ABORTED: conflicts with another method.  Decimal(int lo, int mid, int hi, int flags);
     // static System.Decimal Abs(System.Decimal d)
     // Offset: 0xC8BDFC
     static System::Decimal Abs(System::Decimal d);

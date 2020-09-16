@@ -46,10 +46,10 @@ namespace UnityEngine {
     constexpr MinMaxCurve(UnityEngine::ParticleSystemCurveMode m_Mode_ = {}, float m_CurveMultiplier_ = {}, UnityEngine::AnimationCurve* m_CurveMin_ = {}, UnityEngine::AnimationCurve* m_CurveMax_ = {}, float m_ConstantMin_ = {}, float m_ConstantMax_ = {}) noexcept : m_Mode{m_Mode_}, m_CurveMultiplier{m_CurveMultiplier_}, m_CurveMin{m_CurveMin_}, m_CurveMax{m_CurveMax_}, m_ConstantMin{m_ConstantMin_}, m_ConstantMax{m_ConstantMax_} {}
     // public System.Void .ctor(System.Single constant)
     // Offset: 0xA5FC10
-    static ParticleSystem::MinMaxCurve* New_ctor(float constant);
+    MinMaxCurve(float constant);
     // public System.Void .ctor(System.Single min, System.Single max)
     // Offset: 0xA5FC60
-    static ParticleSystem::MinMaxCurve* New_ctor(float min, float max);
+    MinMaxCurve(float min, float max);
     // public UnityEngine.ParticleSystemCurveMode get_mode()
     // Offset: 0xA5FCB4
     UnityEngine::ParticleSystemCurveMode get_mode();

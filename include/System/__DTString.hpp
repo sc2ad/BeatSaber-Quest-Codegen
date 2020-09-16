@@ -55,7 +55,7 @@ namespace System {
     static void _set_WhiteSpaceChecks(::Array<::Il2CppChar>* value);
     // System.Void .ctor(System.String str, System.Globalization.DateTimeFormatInfo dtfi)
     // Offset: 0xA57744
-    static __DTString* New_ctor(::Il2CppString* str, System::Globalization::DateTimeFormatInfo* dtfi);
+    __DTString(::Il2CppString* str, System::Globalization::DateTimeFormatInfo* dtfi);
     // System.Boolean GetNext()
     // Offset: 0xA5774C
     bool GetNext();

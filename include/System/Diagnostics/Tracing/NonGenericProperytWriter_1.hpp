@@ -41,7 +41,7 @@ namespace System::Diagnostics::Tracing {
     // public System.Void .ctor(System.Diagnostics.Tracing.PropertyAnalysis property)
     // Offset: 0xFFFFFFFF
     static NonGenericProperytWriter_1<ContainerType>* New_ctor(System::Diagnostics::Tracing::PropertyAnalysis* property) {
-      return (NonGenericProperytWriter_1<ContainerType>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<NonGenericProperytWriter_1<ContainerType>*>::get(), property));
+      return THROW_UNLESS(il2cpp_utils::New<NonGenericProperytWriter_1<ContainerType>*>(property));
     }
     // public override System.Void Write(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref ContainerType container)
     // Offset: 0xFFFFFFFF

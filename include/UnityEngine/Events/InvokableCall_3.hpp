@@ -49,7 +49,7 @@ namespace UnityEngine::Events {
     // public System.Void .ctor(UnityEngine.Events.UnityAction`3<T1,T2,T3> action)
     // Offset: 0xFFFFFFFF
     static InvokableCall_3<T1, T2, T3>* New_ctor(UnityEngine::Events::UnityAction_3<T1, T2, T3>* action) {
-      return (InvokableCall_3<T1, T2, T3>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<InvokableCall_3<T1, T2, T3>*>::get(), action)));
+      return THROW_UNLESS((il2cpp_utils::New<InvokableCall_3<T1, T2, T3>*>(action)));
     }
     // public System.Void Invoke(T1 args0, T2 args1, T3 args2)
     // Offset: 0xFFFFFFFF
@@ -61,7 +61,7 @@ namespace UnityEngine::Events {
     // Implemented from: UnityEngine.Events.BaseInvokableCall
     // Base method: System.Void BaseInvokableCall::.ctor(System.Object target, System.Reflection.MethodInfo theFunction)
     static InvokableCall_3<T1, T2, T3>* New_ctor(::Il2CppObject* target, System::Reflection::MethodInfo* theFunction) {
-      return (InvokableCall_3<T1, T2, T3>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<InvokableCall_3<T1, T2, T3>*>::get(), target, theFunction)));
+      return THROW_UNLESS((il2cpp_utils::New<InvokableCall_3<T1, T2, T3>*>(target, theFunction)));
     }
     // public override System.Void Invoke(System.Object[] args)
     // Offset: 0xFFFFFFFF

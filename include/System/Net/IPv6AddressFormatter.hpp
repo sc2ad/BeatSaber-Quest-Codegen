@@ -28,7 +28,7 @@ namespace System::Net {
     constexpr IPv6AddressFormatter(::Array<uint16_t>* address_ = {}, int64_t scopeId_ = {}) noexcept : address{address_}, scopeId{scopeId_} {}
     // public System.Void .ctor(System.UInt16[] addr, System.Int64 scopeId)
     // Offset: 0xA3C244
-    static IPv6AddressFormatter* New_ctor(::Array<uint16_t>* addr, int64_t scopeId);
+    // ABORTED: conflicts with another method.  IPv6AddressFormatter(::Array<uint16_t>* addr, int64_t scopeId);
     // static private System.UInt16 SwapUShort(System.UInt16 number)
     // Offset: 0xF6FD04
     static uint16_t SwapUShort(uint16_t number);

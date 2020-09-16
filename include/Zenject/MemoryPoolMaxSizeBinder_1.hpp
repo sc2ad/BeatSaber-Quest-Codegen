@@ -39,7 +39,7 @@ namespace Zenject {
     // Implemented from: Zenject.MemoryPoolExpandBinder`1
     // Base method: System.Void MemoryPoolExpandBinder`1::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, Zenject.MemoryPoolBindInfo poolBindInfo)
     static MemoryPoolMaxSizeBinder_1<TContract>* New_ctor(Zenject::DiContainer* bindContainer, Zenject::BindInfo* bindInfo, Zenject::FactoryBindInfo* factoryBindInfo, Zenject::MemoryPoolBindInfo* poolBindInfo) {
-      return (MemoryPoolMaxSizeBinder_1<TContract>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MemoryPoolMaxSizeBinder_1<TContract>*>::get(), bindContainer, bindInfo, factoryBindInfo, poolBindInfo));
+      return THROW_UNLESS(il2cpp_utils::New<MemoryPoolMaxSizeBinder_1<TContract>*>(bindContainer, bindInfo, factoryBindInfo, poolBindInfo));
     }
   }; // Zenject.MemoryPoolMaxSizeBinder`1
 }

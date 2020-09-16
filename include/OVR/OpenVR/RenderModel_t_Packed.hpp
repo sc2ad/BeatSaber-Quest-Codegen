@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     constexpr RenderModel_t_Packed(System::IntPtr rVertexData_ = {}, uint unVertexCount_ = {}, System::IntPtr rIndexData_ = {}, uint unTriangleCount_ = {}, int diffuseTextureId_ = {}) noexcept : rVertexData{rVertexData_}, unVertexCount{unVertexCount_}, rIndexData{rIndexData_}, unTriangleCount{unTriangleCount_}, diffuseTextureId{diffuseTextureId_} {}
     // public System.Void .ctor(OVR.OpenVR.RenderModel_t unpacked)
     // Offset: 0xA2DB48
-    static RenderModel_t_Packed* New_ctor(OVR::OpenVR::RenderModel_t unpacked);
+    RenderModel_t_Packed(OVR::OpenVR::RenderModel_t unpacked);
     // public System.Void Unpack(ref OVR.OpenVR.RenderModel_t unpacked)
     // Offset: 0xA2DB68
     void Unpack(OVR::OpenVR::RenderModel_t& unpacked);

@@ -38,7 +38,7 @@ namespace OVR::OpenVR {
     constexpr VREvent_t_Packed(uint eventType_ = {}, uint trackedDeviceIndex_ = {}, float eventAgeSeconds_ = {}, OVR::OpenVR::VREvent_Data_t data_ = {}) noexcept : eventType{eventType_}, trackedDeviceIndex{trackedDeviceIndex_}, eventAgeSeconds{eventAgeSeconds_}, data{data_} {}
     // public System.Void .ctor(OVR.OpenVR.VREvent_t unpacked)
     // Offset: 0xA2DBD0
-    static VREvent_t_Packed* New_ctor(OVR::OpenVR::VREvent_t unpacked);
+    VREvent_t_Packed(OVR::OpenVR::VREvent_t unpacked);
     // public System.Void Unpack(ref OVR.OpenVR.VREvent_t unpacked)
     // Offset: 0xA2DC20
     void Unpack(OVR::OpenVR::VREvent_t& unpacked);

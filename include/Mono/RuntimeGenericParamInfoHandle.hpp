@@ -40,7 +40,7 @@ namespace Mono {
     }
     // System.Void .ctor(System.IntPtr ptr)
     // Offset: 0xA408A8
-    static RuntimeGenericParamInfoHandle* New_ctor(System::IntPtr ptr);
+    RuntimeGenericParamInfoHandle(System::IntPtr ptr);
     // System.Type[] get_Constraints()
     // Offset: 0xA408D4
     ::Array<System::Type*>* get_Constraints();

@@ -35,7 +35,7 @@ namespace System::Collections::Generic {
     // public System.Void .ctor(System.Runtime.Serialization.SerializationInfo information, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xFFFFFFFF
     static LongEnumEqualityComparer_1<T>* New_ctor(System::Runtime::Serialization::SerializationInfo* information, System::Runtime::Serialization::StreamingContext context) {
-      return (LongEnumEqualityComparer_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LongEnumEqualityComparer_1<T>*>::get(), information, context));
+      return THROW_UNLESS(il2cpp_utils::New<LongEnumEqualityComparer_1<T>*>(information, context));
     }
     // public override System.Boolean Equals(T x, T y)
     // Offset: 0xFFFFFFFF
@@ -71,7 +71,7 @@ namespace System::Collections::Generic {
     // Base method: System.Void EqualityComparer`1::.ctor()
     // Base method: System.Void Object::.ctor()
     static LongEnumEqualityComparer_1<T>* New_ctor() {
-      return (LongEnumEqualityComparer_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LongEnumEqualityComparer_1<T>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<LongEnumEqualityComparer_1<T>*>());
     }
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xFFFFFFFF

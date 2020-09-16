@@ -25,7 +25,7 @@ namespace RootMotion {
     constexpr AutoDetectParams(bool legsParentInSpine_ = {}, bool includeEyes_ = {}) noexcept : legsParentInSpine{legsParentInSpine_}, includeEyes{includeEyes_} {}
     // public System.Void .ctor(System.Boolean legsParentInSpine, System.Boolean includeEyes)
     // Offset: 0xA47A58
-    static BipedReferences::AutoDetectParams* New_ctor(bool legsParentInSpine, bool includeEyes);
+    // ABORTED: conflicts with another method.  AutoDetectParams(bool legsParentInSpine, bool includeEyes);
     // static public RootMotion.BipedReferences/AutoDetectParams get_Default()
     // Offset: 0x13AA7A4
     static RootMotion::BipedReferences::AutoDetectParams get_Default();

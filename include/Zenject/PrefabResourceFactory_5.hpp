@@ -52,7 +52,7 @@ namespace Zenject {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PrefabResourceFactory_5<P1, P2, P3, P4, T>* New_ctor() {
-      return (PrefabResourceFactory_5<P1, P2, P3, P4, T>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PrefabResourceFactory_5<P1, P2, P3, P4, T>*>::get())));
+      return THROW_UNLESS((il2cpp_utils::New<PrefabResourceFactory_5<P1, P2, P3, P4, T>*>()));
     }
   }; // Zenject.PrefabResourceFactory`5
 }

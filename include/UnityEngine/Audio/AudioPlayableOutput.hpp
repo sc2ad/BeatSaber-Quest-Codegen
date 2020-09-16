@@ -47,7 +47,7 @@ namespace UnityEngine::Audio {
     static UnityEngine::Audio::AudioPlayableOutput Create(UnityEngine::Playables::PlayableGraph graph, ::Il2CppString* name, UnityEngine::AudioSource* target);
     // System.Void .ctor(UnityEngine.Playables.PlayableOutputHandle handle)
     // Offset: 0xA5EB04
-    static AudioPlayableOutput* New_ctor(UnityEngine::Playables::PlayableOutputHandle handle);
+    // ABORTED: conflicts with another method.  AudioPlayableOutput(UnityEngine::Playables::PlayableOutputHandle handle);
     // static public UnityEngine.Audio.AudioPlayableOutput get_Null()
     // Offset: 0x195CECC
     static UnityEngine::Audio::AudioPlayableOutput get_Null();

@@ -48,9 +48,7 @@ namespace UnityEngine::ProBuilder {
     }
     // public System.Void .ctor(T1 item1, T2 item2)
     // Offset: 0xFFFFFFFF
-    static SimpleTuple_2<T1, T2>* New_ctor(T1 item1, T2 item2) {
-      return (SimpleTuple_2<T1, T2>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<SimpleTuple_2<T1, T2>>::get(), item1, item2)));
-    }
+    // ABORTED: conflicts with another method.  SimpleTuple_2(T1 item1, T2 item2)
     // public override System.String ToString()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.ValueType

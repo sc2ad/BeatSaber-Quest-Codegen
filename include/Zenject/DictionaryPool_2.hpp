@@ -59,7 +59,7 @@ namespace Zenject {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DictionaryPool_2<TKey, TValue>* New_ctor() {
-      return (DictionaryPool_2<TKey, TValue>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<DictionaryPool_2<TKey, TValue>*>::get())));
+      return THROW_UNLESS((il2cpp_utils::New<DictionaryPool_2<TKey, TValue>*>()));
     }
   }; // Zenject.DictionaryPool`2
 }

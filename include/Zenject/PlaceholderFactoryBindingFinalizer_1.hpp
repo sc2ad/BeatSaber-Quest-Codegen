@@ -35,7 +35,7 @@ namespace Zenject {
     // public System.Void .ctor(Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
     // Offset: 0xFFFFFFFF
     static PlaceholderFactoryBindingFinalizer_1<TContract>* New_ctor(Zenject::BindInfo* bindInfo, Zenject::FactoryBindInfo* factoryBindInfo) {
-      return (PlaceholderFactoryBindingFinalizer_1<TContract>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PlaceholderFactoryBindingFinalizer_1<TContract>*>::get(), bindInfo, factoryBindInfo));
+      return THROW_UNLESS(il2cpp_utils::New<PlaceholderFactoryBindingFinalizer_1<TContract>*>(bindInfo, factoryBindInfo));
     }
     // protected override System.Void OnFinalizeBinding(Zenject.DiContainer container)
     // Offset: 0xFFFFFFFF

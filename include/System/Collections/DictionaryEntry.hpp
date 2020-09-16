@@ -25,7 +25,7 @@ namespace System::Collections {
     constexpr DictionaryEntry(::Il2CppObject* key_ = {}, ::Il2CppObject* value_ = {}) noexcept : key{key_}, value{value_} {}
     // public System.Void .ctor(System.Object key, System.Object value)
     // Offset: 0xA467CC
-    static DictionaryEntry* New_ctor(::Il2CppObject* key, ::Il2CppObject* value);
+    // ABORTED: conflicts with another method.  DictionaryEntry(::Il2CppObject* key, ::Il2CppObject* value);
     // public System.Object get_Key()
     // Offset: 0xA46800
     ::Il2CppObject* get_Key();

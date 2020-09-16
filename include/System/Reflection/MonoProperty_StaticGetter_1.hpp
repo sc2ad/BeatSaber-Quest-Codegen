@@ -30,7 +30,7 @@ namespace System::Reflection {
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFFFFFFFF
     static MonoProperty::StaticGetter_1<R>* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      return (MonoProperty::StaticGetter_1<R>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MonoProperty::StaticGetter_1<R>*>::get(), object, method));
+      return THROW_UNLESS(il2cpp_utils::New<MonoProperty::StaticGetter_1<R>*>(object, method));
     }
     // public R Invoke()
     // Offset: 0xFFFFFFFF

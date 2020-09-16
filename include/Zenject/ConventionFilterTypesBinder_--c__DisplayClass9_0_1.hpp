@@ -46,7 +46,7 @@ namespace Zenject {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConventionFilterTypesBinder::$$c__DisplayClass9_0_1<T>* New_ctor() {
-      return (ConventionFilterTypesBinder::$$c__DisplayClass9_0_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ConventionFilterTypesBinder::$$c__DisplayClass9_0_1<T>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<ConventionFilterTypesBinder::$$c__DisplayClass9_0_1<T>*>());
     }
   }; // Zenject.ConventionFilterTypesBinder/<>c__DisplayClass9_0`1
 }

@@ -59,7 +59,7 @@ namespace UnityEngine::ProBuilder {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ArrayUtility::$$c__23_1<T>* New_ctor() {
-      return (ArrayUtility::$$c__23_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArrayUtility::$$c__23_1<T>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<ArrayUtility::$$c__23_1<T>*>());
     }
   }; // UnityEngine.ProBuilder.ArrayUtility/<>c__23`1
 }

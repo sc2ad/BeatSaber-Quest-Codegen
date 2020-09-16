@@ -35,7 +35,7 @@ namespace Oculus::Platform {
     constexpr ovrMatchmakingCriterion(::Il2CppString* key_ = {}, Oculus::Platform::MatchmakingCriterionImportance importance_ = {}, System::IntPtr parameterArray_ = {}, uint parameterArrayCount_ = {}) noexcept : key{key_}, importance{importance_}, parameterArray{parameterArray_}, parameterArrayCount{parameterArrayCount_} {}
     // public System.Void .ctor(System.String key, Oculus.Platform.MatchmakingCriterionImportance importance)
     // Offset: 0xA34AB8
-    static CAPI::ovrMatchmakingCriterion* New_ctor(::Il2CppString* key, Oculus::Platform::MatchmakingCriterionImportance importance);
+    ovrMatchmakingCriterion(::Il2CppString* key, Oculus::Platform::MatchmakingCriterionImportance importance);
   }; // Oculus.Platform.CAPI/ovrMatchmakingCriterion
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

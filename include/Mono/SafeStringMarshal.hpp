@@ -35,7 +35,7 @@ namespace Mono {
     static void GFree(System::IntPtr ptr);
     // public System.Void .ctor(System.String str)
     // Offset: 0xA40A5C
-    static SafeStringMarshal* New_ctor(::Il2CppString* str);
+    SafeStringMarshal(::Il2CppString* str);
     // public System.IntPtr get_Value()
     // Offset: 0xA40A64
     System::IntPtr get_Value();

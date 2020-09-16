@@ -27,7 +27,7 @@ namespace System::Runtime::InteropServices {
     constexpr HandleRef(::Il2CppObject* m_wrapper_ = {}, System::IntPtr m_handle_ = {}) noexcept : m_wrapper{m_wrapper_}, m_handle{m_handle_} {}
     // public System.Void .ctor(System.Object wrapper, System.IntPtr handle)
     // Offset: 0xA400D8
-    static HandleRef* New_ctor(::Il2CppObject* wrapper, System::IntPtr handle);
+    // ABORTED: conflicts with another method.  HandleRef(::Il2CppObject* wrapper, System::IntPtr handle);
     // public System.IntPtr get_Handle()
     // Offset: 0xA40108
     System::IntPtr get_Handle();

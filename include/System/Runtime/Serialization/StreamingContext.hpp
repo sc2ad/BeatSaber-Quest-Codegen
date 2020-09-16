@@ -25,10 +25,10 @@ namespace System::Runtime::Serialization {
     constexpr StreamingContext(::Il2CppObject* m_additionalContext_ = {}, System::Runtime::Serialization::StreamingContextStates m_state_ = {}) noexcept : m_additionalContext{m_additionalContext_}, m_state{m_state_} {}
     // public System.Void .ctor(System.Runtime.Serialization.StreamingContextStates state)
     // Offset: 0xA3F2B0
-    static StreamingContext* New_ctor(System::Runtime::Serialization::StreamingContextStates state);
+    StreamingContext(System::Runtime::Serialization::StreamingContextStates state);
     // public System.Void .ctor(System.Runtime.Serialization.StreamingContextStates state, System.Object additional)
     // Offset: 0xA3F2C0
-    static StreamingContext* New_ctor(System::Runtime::Serialization::StreamingContextStates state, ::Il2CppObject* additional);
+    StreamingContext(System::Runtime::Serialization::StreamingContextStates state, ::Il2CppObject* additional);
     // public System.Runtime.Serialization.StreamingContextStates get_State()
     // Offset: 0xA3F2E0
     System::Runtime::Serialization::StreamingContextStates get_State();

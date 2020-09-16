@@ -92,7 +92,7 @@ namespace System::Collections::Generic {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ArraySortHelper_2<TKey, TValue>* New_ctor() {
-      return (ArraySortHelper_2<TKey, TValue>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArraySortHelper_2<TKey, TValue>*>::get())));
+      return THROW_UNLESS((il2cpp_utils::New<ArraySortHelper_2<TKey, TValue>*>()));
     }
   }; // System.Collections.Generic.ArraySortHelper`2
 }

@@ -35,10 +35,10 @@ namespace Mono {
     }
     // System.Void .ctor(Mono.RuntimeStructs/MonoClass* value)
     // Offset: 0xA407AC
-    static RuntimeClassHandle* New_ctor(Mono::RuntimeStructs::MonoClass* value);
+    // ABORTED: conflicts with another method.  RuntimeClassHandle(Mono::RuntimeStructs::MonoClass* value);
     // System.Void .ctor(System.IntPtr ptr)
     // Offset: 0xA407B4
-    static RuntimeClassHandle* New_ctor(System::IntPtr ptr);
+    RuntimeClassHandle(System::IntPtr ptr);
     // Mono.RuntimeStructs/MonoClass* get_Value()
     // Offset: 0xA407E0
     Mono::RuntimeStructs::MonoClass* get_Value();

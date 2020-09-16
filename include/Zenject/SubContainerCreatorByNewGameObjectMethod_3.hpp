@@ -46,6 +46,7 @@ namespace Zenject {
     class $$c__DisplayClass2_0 : public ::Il2CppObject, public ::il2cpp_utils::il2cpp_type_check::NestedType {
       public:
       using declaring_type = SubContainerCreatorByNewGameObjectMethod_3<TParam1, TParam2, TParam3>*;
+      static constexpr std::string_view NESTED_NAME = "$$c__DisplayClass2_0";
       // public Zenject.SubContainerCreatorByNewGameObjectMethod`3<TParam1,TParam2,TParam3> <>4__this
       // Offset: 0x0
       Zenject::SubContainerCreatorByNewGameObjectMethod_3<TParam1, TParam2, TParam3>* $$4__this;
@@ -62,7 +63,7 @@ namespace Zenject {
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename SubContainerCreatorByNewGameObjectMethod_3<TParam1, TParam2, TParam3>::$$c__DisplayClass2_0* New_ctor() {
-        return (typename SubContainerCreatorByNewGameObjectMethod_3<TParam1, TParam2, TParam3>::$$c__DisplayClass2_0*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename SubContainerCreatorByNewGameObjectMethod_3<TParam1, TParam2, TParam3>::$$c__DisplayClass2_0*>::get())));
+        return THROW_UNLESS((il2cpp_utils::New<typename SubContainerCreatorByNewGameObjectMethod_3<TParam1, TParam2, TParam3>::$$c__DisplayClass2_0*>()));
       }
     }; // Zenject.SubContainerCreatorByNewGameObjectMethod`3/<>c__DisplayClass2_0
     // private readonly System.Action`4<Zenject.DiContainer,TParam1,TParam2,TParam3> _installerMethod
@@ -71,7 +72,7 @@ namespace Zenject {
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.GameObjectCreationParameters gameObjectBindInfo, System.Action`4<Zenject.DiContainer,TParam1,TParam2,TParam3> installerMethod)
     // Offset: 0xFFFFFFFF
     static SubContainerCreatorByNewGameObjectMethod_3<TParam1, TParam2, TParam3>* New_ctor(Zenject::DiContainer* container, Zenject::GameObjectCreationParameters* gameObjectBindInfo, System::Action_4<Zenject::DiContainer*, TParam1, TParam2, TParam3>* installerMethod) {
-      return (SubContainerCreatorByNewGameObjectMethod_3<TParam1, TParam2, TParam3>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<SubContainerCreatorByNewGameObjectMethod_3<TParam1, TParam2, TParam3>*>::get(), container, gameObjectBindInfo, installerMethod)));
+      return THROW_UNLESS((il2cpp_utils::New<SubContainerCreatorByNewGameObjectMethod_3<TParam1, TParam2, TParam3>*>(container, gameObjectBindInfo, installerMethod)));
     }
     // protected override System.Void AddInstallers(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.GameObjectContext context)
     // Offset: 0xFFFFFFFF

@@ -85,7 +85,7 @@ namespace Zenject {
     // Base method: System.Void FactoryToChoiceBinder`3::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
     // Base method: System.Void FactoryFromBinder`3::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
     static FactoryArgumentsToChoiceBinder_3<TParam1, TParam2, TContract>* New_ctor(Zenject::DiContainer* bindContainer, Zenject::BindInfo* bindInfo, Zenject::FactoryBindInfo* factoryBindInfo) {
-      return (FactoryArgumentsToChoiceBinder_3<TParam1, TParam2, TContract>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FactoryArgumentsToChoiceBinder_3<TParam1, TParam2, TContract>*>::get(), bindContainer, bindInfo, factoryBindInfo)));
+      return THROW_UNLESS((il2cpp_utils::New<FactoryArgumentsToChoiceBinder_3<TParam1, TParam2, TContract>*>(bindContainer, bindInfo, factoryBindInfo)));
     }
   }; // Zenject.FactoryArgumentsToChoiceBinder`3
 }

@@ -53,7 +53,7 @@ namespace System::Collections::Generic {
     // Base method: System.Void Comparer`1::.ctor()
     // Base method: System.Void Object::.ctor()
     static NullableComparer_1<T>* New_ctor() {
-      return (NullableComparer_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<NullableComparer_1<T>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<NullableComparer_1<T>*>());
     }
   }; // System.Collections.Generic.NullableComparer`1
 }

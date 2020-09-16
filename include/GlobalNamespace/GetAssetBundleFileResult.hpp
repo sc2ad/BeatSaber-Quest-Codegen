@@ -25,7 +25,7 @@ namespace GlobalNamespace {
     constexpr GetAssetBundleFileResult(bool isError_ = {}, ::Il2CppString* assetBundlePath_ = {}) noexcept : isError{isError_}, assetBundlePath{assetBundlePath_} {}
     // public System.Void .ctor(System.Boolean isError, System.String assetBundlePath)
     // Offset: 0xA2B1DC
-    static GetAssetBundleFileResult* New_ctor(bool isError, ::Il2CppString* assetBundlePath);
+    // ABORTED: conflicts with another method.  GetAssetBundleFileResult(bool isError, ::Il2CppString* assetBundlePath);
   }; // GetAssetBundleFileResult
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

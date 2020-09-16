@@ -328,31 +328,31 @@ namespace System {
     static void _set_DateDataField(::Il2CppString* value);
     // public System.Void .ctor(System.Int64 ticks)
     // Offset: 0xA40CC4
-    static DateTime* New_ctor(int64_t ticks);
+    DateTime(int64_t ticks);
     // private System.Void .ctor(System.UInt64 dateData)
     // Offset: 0xA40CCC
-    static DateTime* New_ctor(uint64_t dateData);
+    // ABORTED: conflicts with another method.  DateTime(uint64_t dateData);
     // public System.Void .ctor(System.Int64 ticks, System.DateTimeKind kind)
     // Offset: 0xA40CD4
-    static DateTime* New_ctor(int64_t ticks, System::DateTimeKind kind);
+    DateTime(int64_t ticks, System::DateTimeKind kind);
     // System.Void .ctor(System.Int64 ticks, System.DateTimeKind kind, System.Boolean isAmbiguousDst)
     // Offset: 0xA40CDC
-    static DateTime* New_ctor(int64_t ticks, System::DateTimeKind kind, bool isAmbiguousDst);
+    DateTime(int64_t ticks, System::DateTimeKind kind, bool isAmbiguousDst);
     // public System.Void .ctor(System.Int32 year, System.Int32 month, System.Int32 day)
     // Offset: 0xA40CE8
-    static DateTime* New_ctor(int year, int month, int day);
+    DateTime(int year, int month, int day);
     // public System.Void .ctor(System.Int32 year, System.Int32 month, System.Int32 day, System.Int32 hour, System.Int32 minute, System.Int32 second, System.DateTimeKind kind)
     // Offset: 0xA40CF0
-    static DateTime* New_ctor(int year, int month, int day, int hour, int minute, int second, System::DateTimeKind kind);
+    DateTime(int year, int month, int day, int hour, int minute, int second, System::DateTimeKind kind);
     // public System.Void .ctor(System.Int32 year, System.Int32 month, System.Int32 day, System.Int32 hour, System.Int32 minute, System.Int32 second, System.Int32 millisecond)
     // Offset: 0xA40CF8
-    static DateTime* New_ctor(int year, int month, int day, int hour, int minute, int second, int millisecond);
+    DateTime(int year, int month, int day, int hour, int minute, int second, int millisecond);
     // public System.Void .ctor(System.Int32 year, System.Int32 month, System.Int32 day, System.Int32 hour, System.Int32 minute, System.Int32 second, System.Int32 millisecond, System.DateTimeKind kind)
     // Offset: 0xA40D00
-    static DateTime* New_ctor(int year, int month, int day, int hour, int minute, int second, int millisecond, System::DateTimeKind kind);
+    DateTime(int year, int month, int day, int hour, int minute, int second, int millisecond, System::DateTimeKind kind);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xA40D10
-    static DateTime* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
+    DateTime(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // System.Int64 get_InternalTicks()
     // Offset: 0xA40D18
     int64_t get_InternalTicks();

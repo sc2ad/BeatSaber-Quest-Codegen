@@ -40,7 +40,7 @@ namespace UnityEngine::ProBuilder {
     float get_w();
     // public System.Void .ctor(UnityEngine.Vector4 vector)
     // Offset: 0xA3CD4C
-    static IntVec4* New_ctor(UnityEngine::Vector4 vector);
+    // ABORTED: conflicts with another method.  IntVec4(UnityEngine::Vector4 vector);
     // public System.Boolean Equals(UnityEngine.Vector4 p)
     // Offset: 0xA3CD68
     bool Equals(UnityEngine::Vector4 p);

@@ -43,10 +43,10 @@ namespace UnityEngine {
     UnityEngine::Vector3 get_normal();
     // public System.Void .ctor(UnityEngine.Vector3 inNormal, UnityEngine.Vector3 inPoint)
     // Offset: 0xA48948
-    static Plane* New_ctor(UnityEngine::Vector3 inNormal, UnityEngine::Vector3 inPoint);
+    Plane(UnityEngine::Vector3 inNormal, UnityEngine::Vector3 inPoint);
     // public System.Void .ctor(UnityEngine.Vector3 a, UnityEngine.Vector3 b, UnityEngine.Vector3 c)
     // Offset: 0xA48950
-    static Plane* New_ctor(UnityEngine::Vector3 a, UnityEngine::Vector3 b, UnityEngine::Vector3 c);
+    Plane(UnityEngine::Vector3 a, UnityEngine::Vector3 b, UnityEngine::Vector3 c);
     // public System.Void SetNormalAndPosition(UnityEngine.Vector3 inNormal, UnityEngine.Vector3 inPoint)
     // Offset: 0xA48968
     void SetNormalAndPosition(UnityEngine::Vector3 inNormal, UnityEngine::Vector3 inPoint);

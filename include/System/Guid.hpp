@@ -94,16 +94,16 @@ namespace System {
     static void _set__fastRng(System::Security::Cryptography::RandomNumberGenerator* value);
     // public System.Void .ctor(System.Byte[] b)
     // Offset: 0xA417D8
-    static Guid* New_ctor(::Array<uint8_t>* b);
+    Guid(::Array<uint8_t>* b);
     // public System.Void .ctor(System.UInt32 a, System.UInt16 b, System.UInt16 c, System.Byte d, System.Byte e, System.Byte f, System.Byte g, System.Byte h, System.Byte i, System.Byte j, System.Byte k)
     // Offset: 0xA417E0
-    static Guid* New_ctor(uint a, uint16_t b, uint16_t c, uint8_t d, uint8_t e, uint8_t f, uint8_t g, uint8_t h, uint8_t i, uint8_t j, uint8_t k);
+    Guid(uint a, uint16_t b, uint16_t c, uint8_t d, uint8_t e, uint8_t f, uint8_t g, uint8_t h, uint8_t i, uint8_t j, uint8_t k);
     // public System.Void .ctor(System.Int32 a, System.Int16 b, System.Int16 c, System.Byte d, System.Byte e, System.Byte f, System.Byte g, System.Byte h, System.Byte i, System.Byte j, System.Byte k)
     // Offset: 0xA41820
-    static Guid* New_ctor(int a, int16_t b, int16_t c, uint8_t d, uint8_t e, uint8_t f, uint8_t g, uint8_t h, uint8_t i, uint8_t j, uint8_t k);
+    // ABORTED: conflicts with another method.  Guid(int a, int16_t b, int16_t c, uint8_t d, uint8_t e, uint8_t f, uint8_t g, uint8_t h, uint8_t i, uint8_t j, uint8_t k);
     // public System.Void .ctor(System.String g)
     // Offset: 0xA41860
-    static Guid* New_ctor(::Il2CppString* g);
+    Guid(::Il2CppString* g);
     // static public System.Guid Parse(System.String input)
     // Offset: 0x1129920
     static System::Guid Parse(::Il2CppString* input);

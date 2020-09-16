@@ -43,6 +43,7 @@ namespace System::Collections::Generic {
     struct Enumerator : public System::ValueType, public System::Collections::Generic::IEnumerator_1<T>, public ::il2cpp_utils::il2cpp_type_check::NestedType {
       public:
       using declaring_type = Stack_1<T>*;
+      static constexpr std::string_view NESTED_NAME = "Enumerator";
       // private readonly System.Collections.Generic.Stack`1<T> _stack
       // Offset: 0x0
       System::Collections::Generic::Stack_1<T>* stack;
@@ -59,8 +60,8 @@ namespace System::Collections::Generic {
       constexpr Enumerator(System::Collections::Generic::Stack_1<T>* stack_ = {}, int version_ = {}, int index_ = {}, T currentElement_ = {}) noexcept : stack{stack_}, version{version_}, index{index_}, currentElement{currentElement_} {}
       // System.Void .ctor(System.Collections.Generic.Stack`1<T> stack)
       // Offset: 0xFFFFFFFF
-      static typename Stack_1<T>::Enumerator* New_ctor(System::Collections::Generic::Stack_1<T>* stack) {
-        return (typename Stack_1<T>::Enumerator*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename Stack_1<T>::Enumerator>::get(), stack));
+      Enumerator(System::Collections::Generic::Stack_1<T>* stack) {
+        THROW_UNLESS(il2cpp_utils::RunMethod(*this, ".ctor", stack));
       }
       // private System.Void ThrowEnumerationNotStartedOrEnded()
       // Offset: 0xFFFFFFFF
@@ -138,7 +139,7 @@ namespace System::Collections::Generic {
     // public System.Void .ctor(System.Int32 capacity)
     // Offset: 0xFFFFFFFF
     static Stack_1<T>* New_ctor(int capacity) {
-      return (Stack_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Stack_1<T>*>::get(), capacity));
+      return THROW_UNLESS(il2cpp_utils::New<Stack_1<T>*>(capacity));
     }
     // public System.Boolean Contains(T item)
     // Offset: 0xFFFFFFFF
@@ -170,7 +171,7 @@ namespace System::Collections::Generic {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Stack_1<T>* New_ctor() {
-      return (Stack_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Stack_1<T>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<Stack_1<T>*>());
     }
     // public System.Int32 get_Count()
     // Offset: 0xFFFFFFFF

@@ -53,7 +53,7 @@ namespace System::Linq {
     // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xFFFFFFFF
     static Enumerable::$RepeatIterator$d__117_1<TResult>* New_ctor(int $$1__state) {
-      return (Enumerable::$RepeatIterator$d__117_1<TResult>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Enumerable::$RepeatIterator$d__117_1<TResult>*>::get(), $$1__state));
+      return THROW_UNLESS(il2cpp_utils::New<Enumerable::$RepeatIterator$d__117_1<TResult>*>($$1__state));
     }
     // private System.Void System.IDisposable.Dispose()
     // Offset: 0xFFFFFFFF

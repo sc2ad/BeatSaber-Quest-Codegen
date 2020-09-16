@@ -52,7 +52,7 @@ namespace UnityEngine::TextCore {
     static UnityEngine::TextCore::GlyphRect get_zero();
     // public System.Void .ctor(System.Int32 x, System.Int32 y, System.Int32 width, System.Int32 height)
     // Offset: 0xA5EA24
-    static GlyphRect* New_ctor(int x, int y, int width, int height);
+    // ABORTED: conflicts with another method.  GlyphRect(int x, int y, int width, int height);
     // static private System.Void .cctor()
     // Offset: 0x1959A94
     static void _cctor();

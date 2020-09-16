@@ -63,7 +63,7 @@ namespace UnityEngine::UI {
     // public System.Void .ctor(UnityEngine.Events.UnityAction`1<T> actionOnGet, UnityEngine.Events.UnityAction`1<T> actionOnRelease)
     // Offset: 0xFFFFFFFF
     static ObjectPool_1<T>* New_ctor(UnityEngine::Events::UnityAction_1<T>* actionOnGet, UnityEngine::Events::UnityAction_1<T>* actionOnRelease) {
-      return (ObjectPool_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ObjectPool_1<T>*>::get(), actionOnGet, actionOnRelease));
+      return THROW_UNLESS(il2cpp_utils::New<ObjectPool_1<T>*>(actionOnGet, actionOnRelease));
     }
     // public T Get()
     // Offset: 0xFFFFFFFF

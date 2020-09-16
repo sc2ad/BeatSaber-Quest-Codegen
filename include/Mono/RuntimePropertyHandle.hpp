@@ -28,7 +28,7 @@ namespace Mono {
     }
     // System.Void .ctor(System.IntPtr v)
     // Offset: 0xA40908
-    static RuntimePropertyHandle* New_ctor(System::IntPtr v);
+    // ABORTED: conflicts with another method.  RuntimePropertyHandle(System::IntPtr v);
     // public System.IntPtr get_Value()
     // Offset: 0xA40910
     System::IntPtr get_Value();

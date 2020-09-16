@@ -28,7 +28,7 @@ namespace UnityEngine::XR {
     constexpr InputDevice(uint64_t m_DeviceId_ = {}, bool m_Initialized_ = {}) noexcept : m_DeviceId{m_DeviceId_}, m_Initialized{m_Initialized_} {}
     // System.Void .ctor(System.UInt64 deviceId)
     // Offset: 0xA5EE34
-    static InputDevice* New_ctor(uint64_t deviceId);
+    InputDevice(uint64_t deviceId);
     // private System.UInt64 get_deviceId()
     // Offset: 0xA5EE44
     uint64_t get_deviceId();

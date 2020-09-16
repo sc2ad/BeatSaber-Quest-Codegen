@@ -64,13 +64,13 @@ namespace TMPro {
     void set_yAdvance(float value);
     // public System.Void .ctor(System.Single xPlacement, System.Single yPlacement, System.Single xAdvance, System.Single yAdvance)
     // Offset: 0xA2BAC8
-    static TMP_GlyphValueRecord* New_ctor(float xPlacement, float yPlacement, float xAdvance, float yAdvance);
+    // ABORTED: conflicts with another method.  TMP_GlyphValueRecord(float xPlacement, float yPlacement, float xAdvance, float yAdvance);
     // System.Void .ctor(TMPro.GlyphValueRecord_Legacy valueRecord)
     // Offset: 0xA2BAD4
-    static TMP_GlyphValueRecord* New_ctor(TMPro::GlyphValueRecord_Legacy valueRecord);
+    TMP_GlyphValueRecord(TMPro::GlyphValueRecord_Legacy valueRecord);
     // System.Void .ctor(UnityEngine.TextCore.LowLevel.GlyphValueRecord valueRecord)
     // Offset: 0xA2BAE0
-    static TMP_GlyphValueRecord* New_ctor(UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord);
+    TMP_GlyphValueRecord(UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord);
   }; // TMPro.TMP_GlyphValueRecord
   // static public TMPro.TMP_GlyphValueRecord op_Addition(TMPro.TMP_GlyphValueRecord a, TMPro.TMP_GlyphValueRecord b)
   // Offset: 0xB615E0

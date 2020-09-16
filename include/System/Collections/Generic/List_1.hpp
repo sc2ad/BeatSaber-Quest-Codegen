@@ -64,6 +64,7 @@ namespace System::Collections::Generic {
     struct Enumerator : public System::ValueType, public System::Collections::Generic::IEnumerator_1<T>, public ::il2cpp_utils::il2cpp_type_check::NestedType {
       public:
       using declaring_type = List_1<T>*;
+      static constexpr std::string_view NESTED_NAME = "Enumerator";
       // private System.Collections.Generic.List`1<T> list
       // Offset: 0x0
       System::Collections::Generic::List_1<T>* list;
@@ -80,8 +81,8 @@ namespace System::Collections::Generic {
       constexpr Enumerator(System::Collections::Generic::List_1<T>* list_ = {}, int index_ = {}, int version_ = {}, T current_ = {}) noexcept : list{list_}, index{index_}, version{version_}, current{current_} {}
       // System.Void .ctor(System.Collections.Generic.List`1<T> list)
       // Offset: 0xFFFFFFFF
-      static typename List_1<T>::Enumerator* New_ctor(System::Collections::Generic::List_1<T>* list) {
-        return (typename List_1<T>::Enumerator*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename List_1<T>::Enumerator>::get(), list));
+      Enumerator(System::Collections::Generic::List_1<T>* list) {
+        THROW_UNLESS(il2cpp_utils::RunMethod(*this, ".ctor", list));
       }
       // private System.Boolean MoveNextRare()
       // Offset: 0xFFFFFFFF
@@ -169,12 +170,12 @@ namespace System::Collections::Generic {
     // public System.Void .ctor(System.Int32 capacity)
     // Offset: 0xFFFFFFFF
     static List_1<T>* New_ctor(int capacity) {
-      return (List_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<List_1<T>*>::get(), capacity));
+      return THROW_UNLESS(il2cpp_utils::New<List_1<T>*>(capacity));
     }
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<T> collection)
     // Offset: 0xFFFFFFFF
     static List_1<T>* New_ctor(System::Collections::Generic::IEnumerable_1<T>* collection) {
-      return (List_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<List_1<T>*>::get(), collection));
+      return THROW_UNLESS(il2cpp_utils::New<List_1<T>*>(collection));
     }
     // public System.Int32 get_Capacity()
     // Offset: 0xFFFFFFFF
@@ -321,7 +322,7 @@ namespace System::Collections::Generic {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static List_1<T>* New_ctor() {
-      return (List_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<List_1<T>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<List_1<T>*>());
     }
     // public System.Int32 get_Count()
     // Offset: 0xFFFFFFFF

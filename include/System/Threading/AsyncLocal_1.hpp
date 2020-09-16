@@ -36,7 +36,7 @@ namespace System::Threading {
     // public System.Void .ctor(System.Action`1<System.Threading.AsyncLocalValueChangedArgs`1<T>> valueChangedHandler)
     // Offset: 0xFFFFFFFF
     static AsyncLocal_1<T>* New_ctor(System::Action_1<System::Threading::AsyncLocalValueChangedArgs_1<T>>* valueChangedHandler) {
-      return (AsyncLocal_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<AsyncLocal_1<T>*>::get(), valueChangedHandler));
+      return THROW_UNLESS(il2cpp_utils::New<AsyncLocal_1<T>*>(valueChangedHandler));
     }
     // public T get_Value()
     // Offset: 0xFFFFFFFF

@@ -33,9 +33,7 @@ namespace System::Threading {
     constexpr SparselyPopulatedArrayAddInfo_1(System::Threading::SparselyPopulatedArrayFragment_1<T>* m_source_ = {}, int m_index_ = {}) noexcept : m_source{m_source_}, m_index{m_index_} {}
     // System.Void .ctor(System.Threading.SparselyPopulatedArrayFragment`1<T> source, System.Int32 index)
     // Offset: 0xFFFFFFFF
-    static SparselyPopulatedArrayAddInfo_1<T>* New_ctor(System::Threading::SparselyPopulatedArrayFragment_1<T>* source, int index) {
-      return (SparselyPopulatedArrayAddInfo_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<SparselyPopulatedArrayAddInfo_1<T>>::get(), source, index));
-    }
+    // ABORTED: conflicts with another method.  SparselyPopulatedArrayAddInfo_1(System::Threading::SparselyPopulatedArrayFragment_1<T>* source, int index)
     // System.Threading.SparselyPopulatedArrayFragment`1<T> get_Source()
     // Offset: 0xFFFFFFFF
     System::Threading::SparselyPopulatedArrayFragment_1<T>* get_Source() {

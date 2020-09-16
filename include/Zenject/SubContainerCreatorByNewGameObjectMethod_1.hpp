@@ -46,6 +46,7 @@ namespace Zenject {
     class $$c__DisplayClass2_0 : public ::Il2CppObject, public ::il2cpp_utils::il2cpp_type_check::NestedType {
       public:
       using declaring_type = SubContainerCreatorByNewGameObjectMethod_1<TParam1>*;
+      static constexpr std::string_view NESTED_NAME = "$$c__DisplayClass2_0";
       // public Zenject.SubContainerCreatorByNewGameObjectMethod`1<TParam1> <>4__this
       // Offset: 0x0
       Zenject::SubContainerCreatorByNewGameObjectMethod_1<TParam1>* $$4__this;
@@ -62,7 +63,7 @@ namespace Zenject {
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename SubContainerCreatorByNewGameObjectMethod_1<TParam1>::$$c__DisplayClass2_0* New_ctor() {
-        return (typename SubContainerCreatorByNewGameObjectMethod_1<TParam1>::$$c__DisplayClass2_0*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename SubContainerCreatorByNewGameObjectMethod_1<TParam1>::$$c__DisplayClass2_0*>::get()));
+        return THROW_UNLESS(il2cpp_utils::New<typename SubContainerCreatorByNewGameObjectMethod_1<TParam1>::$$c__DisplayClass2_0*>());
       }
     }; // Zenject.SubContainerCreatorByNewGameObjectMethod`1/<>c__DisplayClass2_0
     // private readonly System.Action`2<Zenject.DiContainer,TParam1> _installerMethod
@@ -71,7 +72,7 @@ namespace Zenject {
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.GameObjectCreationParameters gameObjectBindInfo, System.Action`2<Zenject.DiContainer,TParam1> installerMethod)
     // Offset: 0xFFFFFFFF
     static SubContainerCreatorByNewGameObjectMethod_1<TParam1>* New_ctor(Zenject::DiContainer* container, Zenject::GameObjectCreationParameters* gameObjectBindInfo, System::Action_2<Zenject::DiContainer*, TParam1>* installerMethod) {
-      return (SubContainerCreatorByNewGameObjectMethod_1<TParam1>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<SubContainerCreatorByNewGameObjectMethod_1<TParam1>*>::get(), container, gameObjectBindInfo, installerMethod));
+      return THROW_UNLESS(il2cpp_utils::New<SubContainerCreatorByNewGameObjectMethod_1<TParam1>*>(container, gameObjectBindInfo, installerMethod));
     }
     // protected override System.Void AddInstallers(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.GameObjectContext context)
     // Offset: 0xFFFFFFFF

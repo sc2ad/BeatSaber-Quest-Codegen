@@ -68,10 +68,10 @@ namespace UnityEngine::ProBuilder {
     float get_z();
     // public System.Void .ctor(UnityEngine.Vector3 v, System.Single epsilon)
     // Offset: 0xA57954
-    static Vector3Mask* New_ctor(UnityEngine::Vector3 v, float epsilon);
+    Vector3Mask(UnityEngine::Vector3 v, float epsilon);
     // public System.Void .ctor(System.Byte mask)
     // Offset: 0xA5795C
-    static Vector3Mask* New_ctor(uint8_t mask);
+    // ABORTED: conflicts with another method.  Vector3Mask(uint8_t mask);
     // public System.Int32 get_active()
     // Offset: 0xA5796C
     int get_active();

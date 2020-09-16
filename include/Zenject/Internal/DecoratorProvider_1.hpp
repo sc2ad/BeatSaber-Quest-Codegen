@@ -56,7 +56,7 @@ namespace Zenject::Internal {
     // public System.Void .ctor(Zenject.DiContainer container)
     // Offset: 0xFFFFFFFF
     static DecoratorProvider_1<TContract>* New_ctor(Zenject::DiContainer* container) {
-      return (DecoratorProvider_1<TContract>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<DecoratorProvider_1<TContract>*>::get(), container));
+      return THROW_UNLESS(il2cpp_utils::New<DecoratorProvider_1<TContract>*>(container));
     }
     // public System.Void AddFactoryId(System.Guid factoryBindId)
     // Offset: 0xFFFFFFFF

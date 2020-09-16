@@ -83,7 +83,7 @@ namespace UnityEngine {
     static UnityEngine::Quaternion LookRotation(UnityEngine::Vector3 forward);
     // public System.Void .ctor(System.Single x, System.Single y, System.Single z, System.Single w)
     // Offset: 0xA49088
-    static Quaternion* New_ctor(float x, float y, float z, float w);
+    // ABORTED: conflicts with another method.  Quaternion(float x, float y, float z, float w);
     // static public UnityEngine.Quaternion get_identity()
     // Offset: 0x141FB58
     static UnityEngine::Quaternion get_identity();

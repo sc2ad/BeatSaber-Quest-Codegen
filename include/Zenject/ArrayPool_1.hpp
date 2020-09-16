@@ -44,7 +44,7 @@ namespace Zenject {
     // public System.Void .ctor(System.Int32 length)
     // Offset: 0xFFFFFFFF
     static ArrayPool_1<T>* New_ctor(int length) {
-      return (ArrayPool_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArrayPool_1<T>*>::get(), length));
+      return THROW_UNLESS(il2cpp_utils::New<ArrayPool_1<T>*>(length));
     }
     // static private System.Void OnDespawned(T[] arr)
     // Offset: 0xFFFFFFFF

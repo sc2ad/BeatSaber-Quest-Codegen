@@ -42,7 +42,7 @@ namespace System::Runtime::Serialization {
     ::Il2CppString* get_Name();
     // System.Void .ctor(System.String entryName, System.Object entryValue, System.Type entryType)
     // Offset: 0xA3F0F0
-    static SerializationEntry* New_ctor(::Il2CppString* entryName, ::Il2CppObject* entryValue, System::Type* entryType);
+    SerializationEntry(::Il2CppString* entryName, ::Il2CppObject* entryValue, System::Type* entryType);
   }; // System.Runtime.Serialization.SerializationEntry
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

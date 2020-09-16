@@ -44,10 +44,11 @@ namespace System::Diagnostics::Tracing {
     class Getter : public System::MulticastDelegate, public ::il2cpp_utils::il2cpp_type_check::NestedType {
       public:
       using declaring_type = ClassPropertyWriter_2<ContainerType, ValueType>*;
+      static constexpr std::string_view NESTED_NAME = "Getter";
       // public System.Void .ctor(System.Object object, System.IntPtr method)
       // Offset: 0xFFFFFFFF
       static typename ClassPropertyWriter_2<ContainerType, ValueType>::Getter* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-        return (typename ClassPropertyWriter_2<ContainerType, ValueType>::Getter*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename ClassPropertyWriter_2<ContainerType, ValueType>::Getter*>::get(), object, method)));
+        return THROW_UNLESS((il2cpp_utils::New<typename ClassPropertyWriter_2<ContainerType, ValueType>::Getter*>(object, method)));
       }
       // public ValueType Invoke(ContainerType container)
       // Offset: 0xFFFFFFFF
@@ -74,7 +75,7 @@ namespace System::Diagnostics::Tracing {
     // public System.Void .ctor(System.Diagnostics.Tracing.PropertyAnalysis property)
     // Offset: 0xFFFFFFFF
     static ClassPropertyWriter_2<ContainerType, ValueType>* New_ctor(System::Diagnostics::Tracing::PropertyAnalysis* property) {
-      return (ClassPropertyWriter_2<ContainerType, ValueType>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ClassPropertyWriter_2<ContainerType, ValueType>*>::get(), property)));
+      return THROW_UNLESS((il2cpp_utils::New<ClassPropertyWriter_2<ContainerType, ValueType>*>(property)));
     }
     // public override System.Void Write(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref ContainerType container)
     // Offset: 0xFFFFFFFF

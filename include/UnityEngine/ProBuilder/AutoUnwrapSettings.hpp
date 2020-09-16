@@ -220,7 +220,7 @@ namespace UnityEngine::ProBuilder {
     void set_anchor(UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor value);
     // public System.Void .ctor(UnityEngine.ProBuilder.AutoUnwrapSettings unwrapSettings)
     // Offset: 0xA4D40C
-    static AutoUnwrapSettings* New_ctor(UnityEngine::ProBuilder::AutoUnwrapSettings unwrapSettings);
+    // ABORTED: is copy constructor.  AutoUnwrapSettings(UnityEngine::ProBuilder::AutoUnwrapSettings unwrapSettings);
     // static public UnityEngine.ProBuilder.AutoUnwrapSettings get_tile()
     // Offset: 0x152EFE8
     static UnityEngine::ProBuilder::AutoUnwrapSettings get_tile();

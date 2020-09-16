@@ -43,7 +43,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()
     static ScriptableObjectInstaller_1<TDerived>* New_ctor() {
-      return (ScriptableObjectInstaller_1<TDerived>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptableObjectInstaller_1<TDerived>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<ScriptableObjectInstaller_1<TDerived>*>());
     }
   }; // Zenject.ScriptableObjectInstaller`1
 }

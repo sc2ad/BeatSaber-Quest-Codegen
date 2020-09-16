@@ -55,13 +55,13 @@ namespace System {
     }
     // System.Void .ctor(System.IntPtr val)
     // Offset: 0xA32710
-    static RuntimeTypeHandle* New_ctor(System::IntPtr val);
+    // ABORTED: conflicts with another method.  RuntimeTypeHandle(System::IntPtr val);
     // System.Void .ctor(System.RuntimeType type)
     // Offset: 0xA32718
-    static RuntimeTypeHandle* New_ctor(System::RuntimeType* type);
+    RuntimeTypeHandle(System::RuntimeType* type);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xA32734
-    static RuntimeTypeHandle* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
+    RuntimeTypeHandle(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.IntPtr get_Value()
     // Offset: 0xA3273C
     System::IntPtr get_Value();

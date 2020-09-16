@@ -25,10 +25,10 @@ namespace System {
     constexpr FormatParam(int int32_ = {}, ::Il2CppString* string_ = {}) noexcept : int32{int32_}, string{string_} {}
     // public System.Void .ctor(System.Int32 value)
     // Offset: 0xA46B9C
-    static ParameterizedStrings::FormatParam* New_ctor(int value);
+    FormatParam(int value);
     // private System.Void .ctor(System.Int32 intValue, System.String stringValue)
     // Offset: 0xA46BAC
-    static ParameterizedStrings::FormatParam* New_ctor(int intValue, ::Il2CppString* stringValue);
+    // ABORTED: conflicts with another method.  FormatParam(int intValue, ::Il2CppString* stringValue);
     // public System.Int32 get_Int32()
     // Offset: 0xA46BBC
     int get_Int32();

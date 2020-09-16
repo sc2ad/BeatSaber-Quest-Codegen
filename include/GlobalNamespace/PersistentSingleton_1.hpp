@@ -86,7 +86,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()
     static PersistentSingleton_1<T>* New_ctor() {
-      return (PersistentSingleton_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PersistentSingleton_1<T>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<PersistentSingleton_1<T>*>());
     }
     // static private System.Void .cctor()
     // Offset: 0xFFFFFFFF

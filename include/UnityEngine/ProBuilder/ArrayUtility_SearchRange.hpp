@@ -25,7 +25,7 @@ namespace UnityEngine::ProBuilder {
     constexpr SearchRange(int begin_ = {}, int end_ = {}) noexcept : begin{begin_}, end{end_} {}
     // public System.Void .ctor(System.Int32 begin, System.Int32 end)
     // Offset: 0xA4D274
-    static ArrayUtility::SearchRange* New_ctor(int begin, int end);
+    // ABORTED: conflicts with another method.  SearchRange(int begin, int end);
     // public System.Boolean Valid()
     // Offset: 0xA4D27C
     bool Valid();

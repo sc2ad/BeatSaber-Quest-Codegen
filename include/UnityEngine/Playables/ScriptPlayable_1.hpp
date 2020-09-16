@@ -107,9 +107,7 @@ namespace UnityEngine::Playables {
     }
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0xFFFFFFFF
-    static ScriptPlayable_1<T>* New_ctor(UnityEngine::Playables::PlayableHandle handle) {
-      return (ScriptPlayable_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), handle));
-    }
+    // ABORTED: conflicts with another method.  ScriptPlayable_1(UnityEngine::Playables::PlayableHandle handle)
     // public T GetBehaviour()
     // Offset: 0xFFFFFFFF
     T GetBehaviour() {

@@ -34,7 +34,7 @@ namespace System::Threading {
     static void _set_MAXIMUM_WAITERS(int value);
     // public System.Void .ctor(System.Boolean enableThreadOwnerTracking)
     // Offset: 0xA2DCE4
-    static SpinLock* New_ctor(bool enableThreadOwnerTracking);
+    SpinLock(bool enableThreadOwnerTracking);
     // public System.Void Enter(ref System.Boolean lockTaken)
     // Offset: 0xA2DCF0
     void Enter(bool& lockTaken);

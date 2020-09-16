@@ -62,7 +62,7 @@ namespace System::Linq {
     // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xFFFFFFFF
     static Enumerable::$SelectManyIterator$d__17_2<TResult, TSource>* New_ctor(int $$1__state) {
-      return (Enumerable::$SelectManyIterator$d__17_2<TResult, TSource>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Enumerable::$SelectManyIterator$d__17_2<TResult, TSource>*>::get(), $$1__state)));
+      return THROW_UNLESS((il2cpp_utils::New<Enumerable::$SelectManyIterator$d__17_2<TResult, TSource>*>($$1__state)));
     }
     // private System.Void <>m__Finally1()
     // Offset: 0xFFFFFFFF

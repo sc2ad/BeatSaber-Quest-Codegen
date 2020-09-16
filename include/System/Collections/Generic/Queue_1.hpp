@@ -43,6 +43,7 @@ namespace System::Collections::Generic {
     struct Enumerator : public System::ValueType, public System::Collections::Generic::IEnumerator_1<T>, public ::il2cpp_utils::il2cpp_type_check::NestedType {
       public:
       using declaring_type = Queue_1<T>*;
+      static constexpr std::string_view NESTED_NAME = "Enumerator";
       // private readonly System.Collections.Generic.Queue`1<T> _q
       // Offset: 0x0
       System::Collections::Generic::Queue_1<T>* q;
@@ -59,8 +60,8 @@ namespace System::Collections::Generic {
       constexpr Enumerator(System::Collections::Generic::Queue_1<T>* q_ = {}, int version_ = {}, int index_ = {}, T currentElement_ = {}) noexcept : q{q_}, version{version_}, index{index_}, currentElement{currentElement_} {}
       // System.Void .ctor(System.Collections.Generic.Queue`1<T> q)
       // Offset: 0xFFFFFFFF
-      static typename Queue_1<T>::Enumerator* New_ctor(System::Collections::Generic::Queue_1<T>* q) {
-        return (typename Queue_1<T>::Enumerator*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename Queue_1<T>::Enumerator>::get(), q));
+      Enumerator(System::Collections::Generic::Queue_1<T>* q) {
+        THROW_UNLESS(il2cpp_utils::RunMethod(*this, ".ctor", q));
       }
       // private System.Void ThrowEnumerationNotStartedOrEnded()
       // Offset: 0xFFFFFFFF
@@ -154,7 +155,7 @@ namespace System::Collections::Generic {
     // public System.Void .ctor(System.Int32 capacity)
     // Offset: 0xFFFFFFFF
     static Queue_1<T>* New_ctor(int capacity) {
-      return (Queue_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Queue_1<T>*>::get(), capacity));
+      return THROW_UNLESS(il2cpp_utils::New<Queue_1<T>*>(capacity));
     }
     // public System.Void Clear()
     // Offset: 0xFFFFFFFF
@@ -206,7 +207,7 @@ namespace System::Collections::Generic {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Queue_1<T>* New_ctor() {
-      return (Queue_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Queue_1<T>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<Queue_1<T>*>());
     }
     // public System.Int32 get_Count()
     // Offset: 0xFFFFFFFF

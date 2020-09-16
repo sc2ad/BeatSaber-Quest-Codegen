@@ -47,6 +47,7 @@ namespace GlobalNamespace {
     class $$c__DisplayClass4_0 : public ::Il2CppObject, public ::il2cpp_utils::il2cpp_type_check::NestedType {
       public:
       using declaring_type = AsyncCache_2<TKey, TValue>*;
+      static constexpr std::string_view NESTED_NAME = "$$c__DisplayClass4_0";
       // public TKey toAdd
       // Offset: 0x0
       TKey toAdd;
@@ -63,7 +64,7 @@ namespace GlobalNamespace {
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename AsyncCache_2<TKey, TValue>::$$c__DisplayClass4_0* New_ctor() {
-        return (typename AsyncCache_2<TKey, TValue>::$$c__DisplayClass4_0*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename AsyncCache_2<TKey, TValue>::$$c__DisplayClass4_0*>::get())));
+        return THROW_UNLESS((il2cpp_utils::New<typename AsyncCache_2<TKey, TValue>::$$c__DisplayClass4_0*>()));
       }
     }; // AsyncCache`2/<>c__DisplayClass4_0
     // private readonly System.Func`2<TKey,System.Threading.Tasks.Task`1<TValue>> _valueFactory
@@ -75,7 +76,7 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.Func`2<TKey,System.Threading.Tasks.Task`1<TValue>> valueFactory)
     // Offset: 0xFFFFFFFF
     static AsyncCache_2<TKey, TValue>* New_ctor(System::Func_2<TKey, System::Threading::Tasks::Task_1<TValue>*>* valueFactory) {
-      return (AsyncCache_2<TKey, TValue>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<AsyncCache_2<TKey, TValue>*>::get(), valueFactory)));
+      return THROW_UNLESS((il2cpp_utils::New<AsyncCache_2<TKey, TValue>*>(valueFactory)));
     }
     // public System.Threading.Tasks.Task`1<TValue> get_Item(TKey key)
     // Offset: 0xFFFFFFFF

@@ -30,7 +30,7 @@ namespace RootMotion::FinalIK {
     constexpr AxisDirection(UnityEngine::Vector3 direction_ = {}, UnityEngine::Vector3 axis_ = {}, float dot_ = {}) noexcept : direction{direction_}, axis{axis_}, dot{dot_} {}
     // public System.Void .ctor(UnityEngine.Vector3 direction, UnityEngine.Vector3 axis)
     // Offset: 0xA46A68
-    static IKSolverLimb::AxisDirection* New_ctor(UnityEngine::Vector3 direction, UnityEngine::Vector3 axis);
+    AxisDirection(UnityEngine::Vector3 direction, UnityEngine::Vector3 axis);
   }; // RootMotion.FinalIK.IKSolverLimb/AxisDirection
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

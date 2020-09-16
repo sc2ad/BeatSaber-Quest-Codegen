@@ -65,7 +65,7 @@ namespace HMUI {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InputFieldDataBinder::$$c__DisplayClass2_0_2<T0, T1>* New_ctor() {
-      return (InputFieldDataBinder::$$c__DisplayClass2_0_2<T0, T1>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<InputFieldDataBinder::$$c__DisplayClass2_0_2<T0, T1>*>::get())));
+      return THROW_UNLESS((il2cpp_utils::New<InputFieldDataBinder::$$c__DisplayClass2_0_2<T0, T1>*>()));
     }
   }; // HMUI.InputFieldDataBinder/<>c__DisplayClass2_0`2
 }

@@ -35,7 +35,7 @@ namespace Valve::VR {
     constexpr RenderModel_TextureMap_t_Packed(::Il2CppChar unWidth_ = {}, ::Il2CppChar unHeight_ = {}, System::IntPtr rubTextureMapData_ = {}) noexcept : unWidth{unWidth_}, unHeight{unHeight_}, rubTextureMapData{rubTextureMapData_} {}
     // public System.Void .ctor(Valve.VR.RenderModel_TextureMap_t unpacked)
     // Offset: 0xA5D700
-    static RenderModel_TextureMap_t_Packed* New_ctor(Valve::VR::RenderModel_TextureMap_t unpacked);
+    RenderModel_TextureMap_t_Packed(Valve::VR::RenderModel_TextureMap_t unpacked);
     // public System.Void Unpack(ref Valve.VR.RenderModel_TextureMap_t unpacked)
     // Offset: 0xA5D714
     void Unpack(Valve::VR::RenderModel_TextureMap_t& unpacked);

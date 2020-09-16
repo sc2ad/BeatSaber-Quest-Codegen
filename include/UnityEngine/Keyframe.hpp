@@ -37,10 +37,10 @@ namespace UnityEngine {
     constexpr Keyframe(float m_Time_ = {}, float m_Value_ = {}, float m_InTangent_ = {}, float m_OutTangent_ = {}, int m_WeightedMode_ = {}, float m_InWeight_ = {}, float m_OutWeight_ = {}) noexcept : m_Time{m_Time_}, m_Value{m_Value_}, m_InTangent{m_InTangent_}, m_OutTangent{m_OutTangent_}, m_WeightedMode{m_WeightedMode_}, m_InWeight{m_InWeight_}, m_OutWeight{m_OutWeight_} {}
     // public System.Void .ctor(System.Single time, System.Single value)
     // Offset: 0xA45F14
-    static Keyframe* New_ctor(float time, float value);
+    Keyframe(float time, float value);
     // public System.Void .ctor(System.Single time, System.Single value, System.Single inTangent, System.Single outTangent)
     // Offset: 0xA45F24
-    static Keyframe* New_ctor(float time, float value, float inTangent, float outTangent);
+    Keyframe(float time, float value, float inTangent, float outTangent);
     // public System.Single get_time()
     // Offset: 0xA45F38
     float get_time();

@@ -50,7 +50,7 @@ namespace Valve::VR {
     constexpr VRControllerState_t_Packed(uint unPacketNum_ = {}, uint64_t ulButtonPressed_ = {}, uint64_t ulButtonTouched_ = {}, Valve::VR::VRControllerAxis_t rAxis0_ = {}, Valve::VR::VRControllerAxis_t rAxis1_ = {}, Valve::VR::VRControllerAxis_t rAxis2_ = {}, Valve::VR::VRControllerAxis_t rAxis3_ = {}, Valve::VR::VRControllerAxis_t rAxis4_ = {}) noexcept : unPacketNum{unPacketNum_}, ulButtonPressed{ulButtonPressed_}, ulButtonTouched{ulButtonTouched_}, rAxis0{rAxis0_}, rAxis1{rAxis1_}, rAxis2{rAxis2_}, rAxis3{rAxis3_}, rAxis4{rAxis4_} {}
     // public System.Void .ctor(Valve.VR.VRControllerState_t unpacked)
     // Offset: 0xA5D77C
-    static VRControllerState_t_Packed* New_ctor(Valve::VR::VRControllerState_t unpacked);
+    VRControllerState_t_Packed(Valve::VR::VRControllerState_t unpacked);
     // public System.Void Unpack(ref Valve.VR.VRControllerState_t unpacked)
     // Offset: 0xA5D7A8
     void Unpack(Valve::VR::VRControllerState_t& unpacked);

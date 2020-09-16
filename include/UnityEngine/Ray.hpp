@@ -25,7 +25,7 @@ namespace UnityEngine {
     constexpr Ray(UnityEngine::Vector3 m_Origin_ = {}, UnityEngine::Vector3 m_Direction_ = {}) noexcept : m_Origin{m_Origin_}, m_Direction{m_Direction_} {}
     // public System.Void .ctor(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction)
     // Offset: 0xA490F0
-    static Ray* New_ctor(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction);
+    // ABORTED: conflicts with another method.  Ray(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction);
     // public UnityEngine.Vector3 get_origin()
     // Offset: 0xA490F8
     UnityEngine::Vector3 get_origin();

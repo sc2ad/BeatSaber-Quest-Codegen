@@ -101,7 +101,7 @@ namespace UnityEngine {
     static UnityEngine::Matrix4x4 Ortho(float left, float right, float bottom, float top, float zNear, float zFar);
     // public System.Void .ctor(UnityEngine.Vector4 column0, UnityEngine.Vector4 column1, UnityEngine.Vector4 column2, UnityEngine.Vector4 column3)
     // Offset: 0xA48870
-    static Matrix4x4* New_ctor(UnityEngine::Vector4 column0, UnityEngine::Vector4 column1, UnityEngine::Vector4 column2, UnityEngine::Vector4 column3);
+    Matrix4x4(UnityEngine::Vector4 column0, UnityEngine::Vector4 column1, UnityEngine::Vector4 column2, UnityEngine::Vector4 column3);
     // public System.Single get_Item(System.Int32 row, System.Int32 column)
     // Offset: 0xA48880
     float get_Item(int row, int column);

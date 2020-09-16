@@ -47,7 +47,7 @@ namespace UnityEngine::Animations {
     static UnityEngine::Animations::AnimationPlayableOutput Create(UnityEngine::Playables::PlayableGraph graph, ::Il2CppString* name, UnityEngine::Animator* target);
     // System.Void .ctor(UnityEngine.Playables.PlayableOutputHandle handle)
     // Offset: 0xA5DBC0
-    static AnimationPlayableOutput* New_ctor(UnityEngine::Playables::PlayableOutputHandle handle);
+    // ABORTED: conflicts with another method.  AnimationPlayableOutput(UnityEngine::Playables::PlayableOutputHandle handle);
     // static public UnityEngine.Animations.AnimationPlayableOutput get_Null()
     // Offset: 0x193FD40
     static UnityEngine::Animations::AnimationPlayableOutput get_Null();

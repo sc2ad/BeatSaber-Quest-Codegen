@@ -41,10 +41,11 @@ namespace System::Runtime::CompilerServices {
     class CreateValueCallback : public System::MulticastDelegate, public ::il2cpp_utils::il2cpp_type_check::NestedType {
       public:
       using declaring_type = ConditionalWeakTable_2<TKey, TValue>*;
+      static constexpr std::string_view NESTED_NAME = "CreateValueCallback";
       // public System.Void .ctor(System.Object object, System.IntPtr method)
       // Offset: 0xFFFFFFFF
       static typename ConditionalWeakTable_2<TKey, TValue>::CreateValueCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-        return (typename ConditionalWeakTable_2<TKey, TValue>::CreateValueCallback*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename ConditionalWeakTable_2<TKey, TValue>::CreateValueCallback*>::get(), object, method)));
+        return THROW_UNLESS((il2cpp_utils::New<typename ConditionalWeakTable_2<TKey, TValue>::CreateValueCallback*>(object, method)));
       }
       // public TValue Invoke(TKey key)
       // Offset: 0xFFFFFFFF
@@ -151,7 +152,7 @@ namespace System::Runtime::CompilerServices {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConditionalWeakTable_2<TKey, TValue>* New_ctor() {
-      return (ConditionalWeakTable_2<TKey, TValue>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ConditionalWeakTable_2<TKey, TValue>*>::get())));
+      return THROW_UNLESS((il2cpp_utils::New<ConditionalWeakTable_2<TKey, TValue>*>()));
     }
     // protected override System.Void Finalize()
     // Offset: 0xFFFFFFFF

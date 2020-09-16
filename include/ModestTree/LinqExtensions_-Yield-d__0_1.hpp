@@ -44,7 +44,7 @@ namespace ModestTree {
     // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xFFFFFFFF
     static LinqExtensions::$Yield$d__0_1<T>* New_ctor(int $$1__state) {
-      return (LinqExtensions::$Yield$d__0_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LinqExtensions::$Yield$d__0_1<T>*>::get(), $$1__state));
+      return THROW_UNLESS(il2cpp_utils::New<LinqExtensions::$Yield$d__0_1<T>*>($$1__state));
     }
     // private System.Void System.IDisposable.Dispose()
     // Offset: 0xFFFFFFFF

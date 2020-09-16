@@ -43,7 +43,7 @@ namespace Zenject {
     // Base method: System.Void MemoryPoolBase`1::.ctor()
     // Base method: System.Void Object::.ctor()
     static MemoryPool_7<TValue, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>* New_ctor() {
-      return (MemoryPool_7<TValue, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MemoryPool_7<TValue, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>*>::get())));
+      return THROW_UNLESS((il2cpp_utils::New<MemoryPool_7<TValue, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>*>()));
     }
   }; // Zenject.MemoryPool`7
 }

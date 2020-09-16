@@ -203,7 +203,7 @@ namespace Zenject {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MemoryPoolBase_1<TContract>* New_ctor() {
-      return (MemoryPoolBase_1<TContract>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MemoryPoolBase_1<TContract>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<MemoryPoolBase_1<TContract>*>());
     }
   }; // Zenject.MemoryPoolBase`1
 }

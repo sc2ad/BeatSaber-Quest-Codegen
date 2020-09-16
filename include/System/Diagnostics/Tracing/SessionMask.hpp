@@ -24,7 +24,7 @@ namespace System::Diagnostics::Tracing {
     }
     // public System.Void .ctor(System.UInt32 mask)
     // Offset: 0xA300C4
-    static SessionMask* New_ctor(uint mask);
+    // ABORTED: conflicts with another method.  SessionMask(uint mask);
     // public System.Boolean IsEqualOrSupersetOf(System.Diagnostics.Tracing.SessionMask m)
     // Offset: 0xA300D0
     bool IsEqualOrSupersetOf(System::Diagnostics::Tracing::SessionMask m);

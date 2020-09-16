@@ -61,6 +61,7 @@ namespace System::Collections::Generic {
     struct Slot : public System::ValueType, public ::il2cpp_utils::il2cpp_type_check::NestedType {
       public:
       using declaring_type = HashSet_1<T>*;
+      static constexpr std::string_view NESTED_NAME = "Slot";
       // System.Int32 hashCode
       // Offset: 0x0
       int hashCode;
@@ -77,6 +78,7 @@ namespace System::Collections::Generic {
     struct Enumerator : public System::ValueType, public System::Collections::Generic::IEnumerator_1<T>, public ::il2cpp_utils::il2cpp_type_check::NestedType {
       public:
       using declaring_type = HashSet_1<T>*;
+      static constexpr std::string_view NESTED_NAME = "Enumerator";
       // private System.Collections.Generic.HashSet`1<T> _set
       // Offset: 0x0
       System::Collections::Generic::HashSet_1<T>* set;
@@ -93,8 +95,8 @@ namespace System::Collections::Generic {
       constexpr Enumerator(System::Collections::Generic::HashSet_1<T>* set_ = {}, int index_ = {}, int version_ = {}, T current_ = {}) noexcept : set{set_}, index{index_}, version{version_}, current{current_} {}
       // System.Void .ctor(System.Collections.Generic.HashSet`1<T> set)
       // Offset: 0xFFFFFFFF
-      static typename HashSet_1<T>::Enumerator* New_ctor(System::Collections::Generic::HashSet_1<T>* set) {
-        return (typename HashSet_1<T>::Enumerator*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename HashSet_1<T>::Enumerator>::get(), set));
+      Enumerator(System::Collections::Generic::HashSet_1<T>* set) {
+        THROW_UNLESS(il2cpp_utils::RunMethod(*this, ".ctor", set));
       }
       // public System.Void Dispose()
       // Offset: 0xFFFFFFFF
@@ -239,22 +241,22 @@ namespace System::Collections::Generic {
     // public System.Void .ctor(System.Collections.Generic.IEqualityComparer`1<T> comparer)
     // Offset: 0xFFFFFFFF
     static HashSet_1<T>* New_ctor(System::Collections::Generic::IEqualityComparer_1<T>* comparer) {
-      return (HashSet_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HashSet_1<T>*>::get(), comparer));
+      return THROW_UNLESS(il2cpp_utils::New<HashSet_1<T>*>(comparer));
     }
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<T> collection)
     // Offset: 0xFFFFFFFF
     static HashSet_1<T>* New_ctor(System::Collections::Generic::IEnumerable_1<T>* collection) {
-      return (HashSet_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HashSet_1<T>*>::get(), collection));
+      return THROW_UNLESS(il2cpp_utils::New<HashSet_1<T>*>(collection));
     }
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<T> collection, System.Collections.Generic.IEqualityComparer`1<T> comparer)
     // Offset: 0xFFFFFFFF
     static HashSet_1<T>* New_ctor(System::Collections::Generic::IEnumerable_1<T>* collection, System::Collections::Generic::IEqualityComparer_1<T>* comparer) {
-      return (HashSet_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HashSet_1<T>*>::get(), collection, comparer));
+      return THROW_UNLESS(il2cpp_utils::New<HashSet_1<T>*>(collection, comparer));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xFFFFFFFF
     static HashSet_1<T>* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      return (HashSet_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HashSet_1<T>*>::get(), info, context));
+      return THROW_UNLESS(il2cpp_utils::New<HashSet_1<T>*>(info, context));
     }
     // private System.Void CopyFrom(System.Collections.Generic.HashSet`1<T> source)
     // Offset: 0xFFFFFFFF
@@ -341,7 +343,7 @@ namespace System::Collections::Generic {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HashSet_1<T>* New_ctor() {
-      return (HashSet_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HashSet_1<T>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<HashSet_1<T>*>());
     }
     // private System.Void System.Collections.Generic.ICollection<T>.Add(T item)
     // Offset: 0xFFFFFFFF

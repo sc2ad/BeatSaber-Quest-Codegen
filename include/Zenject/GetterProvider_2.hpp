@@ -61,7 +61,7 @@ namespace Zenject {
     // public System.Void .ctor(System.Object identifier, System.Func`2<TObj,TResult> method, Zenject.DiContainer container, Zenject.InjectSources sourceType, System.Boolean matchAll)
     // Offset: 0xFFFFFFFF
     static GetterProvider_2<TObj, TResult>* New_ctor(::Il2CppObject* identifier, System::Func_2<TObj, TResult>* method, Zenject::DiContainer* container, Zenject::InjectSources sourceType, bool matchAll) {
-      return (GetterProvider_2<TObj, TResult>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GetterProvider_2<TObj, TResult>*>::get(), identifier, method, container, sourceType, matchAll)));
+      return THROW_UNLESS((il2cpp_utils::New<GetterProvider_2<TObj, TResult>*>(identifier, method, container, sourceType, matchAll)));
     }
     // private Zenject.InjectContext GetSubContext(Zenject.InjectContext parent)
     // Offset: 0xFFFFFFFF

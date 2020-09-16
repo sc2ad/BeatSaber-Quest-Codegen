@@ -47,7 +47,7 @@ namespace System::Collections::ObjectModel {
     // public System.Void .ctor(System.Collections.Generic.IList`1<T> list)
     // Offset: 0xFFFFFFFF
     static ReadOnlyCollection_1<T>* New_ctor(System::Collections::Generic::IList_1<T>* list) {
-      return (ReadOnlyCollection_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReadOnlyCollection_1<T>*>::get(), list));
+      return THROW_UNLESS(il2cpp_utils::New<ReadOnlyCollection_1<T>*>(list));
     }
     // static private System.Boolean IsCompatibleObject(System.Object value)
     // Offset: 0xFFFFFFFF

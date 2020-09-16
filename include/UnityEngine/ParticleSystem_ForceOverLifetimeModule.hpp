@@ -25,7 +25,7 @@ namespace UnityEngine {
     }
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
     // Offset: 0xA5F684
-    static ParticleSystem::ForceOverLifetimeModule* New_ctor(UnityEngine::ParticleSystem* particleSystem);
+    // ABORTED: conflicts with another method.  ForceOverLifetimeModule(UnityEngine::ParticleSystem* particleSystem);
     // public System.Void set_enabled(System.Boolean value)
     // Offset: 0xA5F68C
     void set_enabled(bool value);

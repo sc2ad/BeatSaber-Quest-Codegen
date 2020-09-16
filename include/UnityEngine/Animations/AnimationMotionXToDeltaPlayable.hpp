@@ -48,7 +48,7 @@ namespace UnityEngine::Animations {
     static UnityEngine::Playables::PlayableHandle CreateHandle(UnityEngine::Playables::PlayableGraph graph);
     // private System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0xA5DB7C
-    static AnimationMotionXToDeltaPlayable* New_ctor(UnityEngine::Playables::PlayableHandle handle);
+    // ABORTED: conflicts with another method.  AnimationMotionXToDeltaPlayable(UnityEngine::Playables::PlayableHandle handle);
     // public System.Void SetAbsoluteMotion(System.Boolean value)
     // Offset: 0xA5DB98
     void SetAbsoluteMotion(bool value);

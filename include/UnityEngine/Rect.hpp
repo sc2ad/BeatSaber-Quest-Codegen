@@ -43,13 +43,13 @@ namespace UnityEngine {
     constexpr Rect(float m_XMin_ = {}, float m_YMin_ = {}, float m_Width_ = {}, float m_Height_ = {}) noexcept : m_XMin{m_XMin_}, m_YMin{m_YMin_}, m_Width{m_Width_}, m_Height{m_Height_} {}
     // public System.Void .ctor(System.Single x, System.Single y, System.Single width, System.Single height)
     // Offset: 0xA4916C
-    static Rect* New_ctor(float x, float y, float width, float height);
+    // ABORTED: conflicts with another method.  Rect(float x, float y, float width, float height);
     // public System.Void .ctor(UnityEngine.Vector2 position, UnityEngine.Vector2 size)
     // Offset: 0xA49178
-    static Rect* New_ctor(UnityEngine::Vector2 position, UnityEngine::Vector2 size);
+    Rect(UnityEngine::Vector2 position, UnityEngine::Vector2 size);
     // public System.Void .ctor(UnityEngine.Rect source)
     // Offset: 0xA49184
-    static Rect* New_ctor(UnityEngine::Rect source);
+    // ABORTED: is copy constructor.  Rect(UnityEngine::Rect source);
     // static public UnityEngine.Rect get_zero()
     // Offset: 0x14211A0
     static UnityEngine::Rect get_zero();

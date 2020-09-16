@@ -54,7 +54,7 @@ namespace System::Threading {
     bool get_CanBeCanceled();
     // System.Void .ctor(System.Threading.CancellationTokenSource source)
     // Offset: 0xA47B84
-    static CancellationToken* New_ctor(System::Threading::CancellationTokenSource* source);
+    // ABORTED: conflicts with another method.  CancellationToken(System::Threading::CancellationTokenSource* source);
     // static private System.Void ActionToActionObjShunt(System.Object obj)
     // Offset: 0x13DA714
     static void ActionToActionObjShunt(::Il2CppObject* obj);

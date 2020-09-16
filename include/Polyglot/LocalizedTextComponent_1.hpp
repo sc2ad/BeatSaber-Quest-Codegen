@@ -132,7 +132,7 @@ namespace Polyglot {
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()
     static LocalizedTextComponent_1<T>* New_ctor() {
-      return (LocalizedTextComponent_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LocalizedTextComponent_1<T>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<LocalizedTextComponent_1<T>*>());
     }
   }; // Polyglot.LocalizedTextComponent`1
 }

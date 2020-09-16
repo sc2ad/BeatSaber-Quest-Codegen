@@ -49,7 +49,7 @@ namespace Zenject {
     // public System.Void .ctor(Zenject.DiContainer container, System.Guid factoryId)
     // Offset: 0xFFFFFFFF
     static IFactoryProviderBase_1<TContract>* New_ctor(Zenject::DiContainer* container, System::Guid factoryId) {
-      return (IFactoryProviderBase_1<TContract>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<IFactoryProviderBase_1<TContract>*>::get(), container, factoryId));
+      return THROW_UNLESS(il2cpp_utils::New<IFactoryProviderBase_1<TContract>*>(container, factoryId));
     }
     // protected System.Guid get_FactoryId()
     // Offset: 0xFFFFFFFF

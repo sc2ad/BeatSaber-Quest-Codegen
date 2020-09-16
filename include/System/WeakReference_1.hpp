@@ -36,17 +36,17 @@ namespace System {
     // public System.Void .ctor(T target)
     // Offset: 0xFFFFFFFF
     static WeakReference_1<T>* New_ctor(T target) {
-      return (WeakReference_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<WeakReference_1<T>*>::get(), target));
+      return THROW_UNLESS(il2cpp_utils::New<WeakReference_1<T>*>(target));
     }
     // public System.Void .ctor(T target, System.Boolean trackResurrection)
     // Offset: 0xFFFFFFFF
     static WeakReference_1<T>* New_ctor(T target, bool trackResurrection) {
-      return (WeakReference_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<WeakReference_1<T>*>::get(), target, trackResurrection));
+      return THROW_UNLESS(il2cpp_utils::New<WeakReference_1<T>*>(target, trackResurrection));
     }
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xFFFFFFFF
     static WeakReference_1<T>* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      return (WeakReference_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<WeakReference_1<T>*>::get(), info, context));
+      return THROW_UNLESS(il2cpp_utils::New<WeakReference_1<T>*>(info, context));
     }
     // public System.Boolean TryGetTarget(out T target)
     // Offset: 0xFFFFFFFF

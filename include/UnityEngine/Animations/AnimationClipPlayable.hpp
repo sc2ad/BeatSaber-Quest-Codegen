@@ -49,7 +49,7 @@ namespace UnityEngine::Animations {
     static UnityEngine::Playables::PlayableHandle CreateHandle(UnityEngine::Playables::PlayableGraph graph, UnityEngine::AnimationClip* clip);
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0xA5D9E0
-    static AnimationClipPlayable* New_ctor(UnityEngine::Playables::PlayableHandle handle);
+    // ABORTED: conflicts with another method.  AnimationClipPlayable(UnityEngine::Playables::PlayableHandle handle);
     // public System.Void SetApplyFootIK(System.Boolean value)
     // Offset: 0xA5D9FC
     void SetApplyFootIK(bool value);

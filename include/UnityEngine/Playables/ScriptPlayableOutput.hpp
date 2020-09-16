@@ -42,7 +42,7 @@ namespace UnityEngine::Playables {
     static UnityEngine::Playables::ScriptPlayableOutput Create(UnityEngine::Playables::PlayableGraph graph, ::Il2CppString* name);
     // System.Void .ctor(UnityEngine.Playables.PlayableOutputHandle handle)
     // Offset: 0xA48F88
-    static ScriptPlayableOutput* New_ctor(UnityEngine::Playables::PlayableOutputHandle handle);
+    // ABORTED: conflicts with another method.  ScriptPlayableOutput(UnityEngine::Playables::PlayableOutputHandle handle);
     // static public UnityEngine.Playables.ScriptPlayableOutput get_Null()
     // Offset: 0x141DC90
     static UnityEngine::Playables::ScriptPlayableOutput get_Null();

@@ -40,6 +40,7 @@ namespace System::Runtime::CompilerServices {
     struct ConfiguredTaskAwaiter : public System::ValueType, public System::Runtime::CompilerServices::ICriticalNotifyCompletion, public ::il2cpp_utils::il2cpp_type_check::NestedType {
       public:
       using declaring_type = ConfiguredTaskAwaitable_1<TResult>;
+      static constexpr std::string_view NESTED_NAME = "ConfiguredTaskAwaiter";
       // private readonly System.Threading.Tasks.Task`1<TResult> m_task
       // Offset: 0x0
       System::Threading::Tasks::Task_1<TResult>* m_task;
@@ -50,9 +51,7 @@ namespace System::Runtime::CompilerServices {
       constexpr ConfiguredTaskAwaiter(System::Threading::Tasks::Task_1<TResult>* m_task_ = {}, bool m_continueOnCapturedContext_ = {}) noexcept : m_task{m_task_}, m_continueOnCapturedContext{m_continueOnCapturedContext_} {}
       // System.Void .ctor(System.Threading.Tasks.Task`1<TResult> task, System.Boolean continueOnCapturedContext)
       // Offset: 0xFFFFFFFF
-      static typename ConfiguredTaskAwaitable_1<TResult>::ConfiguredTaskAwaiter* New_ctor(System::Threading::Tasks::Task_1<TResult>* task, bool continueOnCapturedContext) {
-        return (typename ConfiguredTaskAwaitable_1<TResult>::ConfiguredTaskAwaiter*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename ConfiguredTaskAwaitable_1<TResult>::ConfiguredTaskAwaiter>::get(), task, continueOnCapturedContext));
-      }
+      // ABORTED: conflicts with another method.  ConfiguredTaskAwaiter(System::Threading::Tasks::Task_1<TResult>* task, bool continueOnCapturedContext)
       // public System.Boolean get_IsCompleted()
       // Offset: 0xFFFFFFFF
       bool get_IsCompleted() {
@@ -82,8 +81,8 @@ namespace System::Runtime::CompilerServices {
     }
     // System.Void .ctor(System.Threading.Tasks.Task`1<TResult> task, System.Boolean continueOnCapturedContext)
     // Offset: 0xFFFFFFFF
-    static ConfiguredTaskAwaitable_1<TResult>* New_ctor(System::Threading::Tasks::Task_1<TResult>* task, bool continueOnCapturedContext) {
-      return (ConfiguredTaskAwaitable_1<TResult>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ConfiguredTaskAwaitable_1<TResult>>::get(), task, continueOnCapturedContext));
+    ConfiguredTaskAwaitable_1(System::Threading::Tasks::Task_1<TResult>* task, bool continueOnCapturedContext) {
+      THROW_UNLESS(il2cpp_utils::RunMethod(*this, ".ctor", task, continueOnCapturedContext));
     }
     // public System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<TResult> GetAwaiter()
     // Offset: 0xFFFFFFFF

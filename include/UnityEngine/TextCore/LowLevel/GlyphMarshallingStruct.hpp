@@ -42,7 +42,7 @@ namespace UnityEngine::TextCore::LowLevel {
     constexpr GlyphMarshallingStruct(uint index_ = {}, UnityEngine::TextCore::GlyphMetrics metrics_ = {}, UnityEngine::TextCore::GlyphRect glyphRect_ = {}, float scale_ = {}, int atlasIndex_ = {}) noexcept : index{index_}, metrics{metrics_}, glyphRect{glyphRect_}, scale{scale_}, atlasIndex{atlasIndex_} {}
     // public System.Void .ctor(UnityEngine.TextCore.Glyph glyph)
     // Offset: 0xA5EA5C
-    static GlyphMarshallingStruct* New_ctor(UnityEngine::TextCore::Glyph* glyph);
+    GlyphMarshallingStruct(UnityEngine::TextCore::Glyph* glyph);
   }; // UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

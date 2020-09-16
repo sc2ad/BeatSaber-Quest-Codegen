@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     void set_playerOverallStatsDataFunc(System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* value);
     // public System.Void .ctor(System.String text, System.Func`1<PlayerAllOverallStatsData/PlayerOverallStatsData> playerOverallStatsDataFunc)
     // Offset: 0xA2C78C
-    static PlayerStatisticsViewController::StatsScopeData* New_ctor(::Il2CppString* text, System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* playerOverallStatsDataFunc);
+    // ABORTED: conflicts with another method.  StatsScopeData(::Il2CppString* text, System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* playerOverallStatsDataFunc);
   }; // PlayerStatisticsViewController/StatsScopeData
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

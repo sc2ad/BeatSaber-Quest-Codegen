@@ -32,7 +32,7 @@ namespace Zenject {
     constexpr PoolableInfo(Zenject::IPoolable* Poolable_ = {}, int Priority_ = {}) noexcept : Poolable{Poolable_}, Priority{Priority_} {}
     // public System.Void .ctor(Zenject.IPoolable poolable, System.Int32 priority)
     // Offset: 0xA3D1A8
-    static PoolableManager::PoolableInfo* New_ctor(Zenject::IPoolable* poolable, int priority);
+    // ABORTED: conflicts with another method.  PoolableInfo(Zenject::IPoolable* poolable, int priority);
   }; // Zenject.PoolableManager/PoolableInfo
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

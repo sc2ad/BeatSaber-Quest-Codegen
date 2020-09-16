@@ -70,10 +70,10 @@ namespace UnityEngine {
     void set_Item(int index, float value);
     // public System.Void .ctor(System.Single x, System.Single y, System.Single z, System.Single w)
     // Offset: 0xA4796C
-    static Vector4* New_ctor(float x, float y, float z, float w);
+    // ABORTED: conflicts with another method.  Vector4(float x, float y, float z, float w);
     // public System.Void .ctor(System.Single x, System.Single y, System.Single z)
     // Offset: 0xA47978
-    static Vector4* New_ctor(float x, float y, float z);
+    Vector4(float x, float y, float z);
     // public System.Void Normalize()
     // Offset: 0xA479D4
     void Normalize();

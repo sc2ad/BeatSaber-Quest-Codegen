@@ -39,7 +39,7 @@ namespace Zenject {
     // Base method: System.Void FromBinderGeneric`1::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)
     // Base method: System.Void FromBinder::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)
     static ConcreteIdBinderGeneric_1<TContract>* New_ctor(Zenject::DiContainer* bindContainer, Zenject::BindInfo* bindInfo, Zenject::BindStatement* bindStatement) {
-      return (ConcreteIdBinderGeneric_1<TContract>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ConcreteIdBinderGeneric_1<TContract>*>::get(), bindContainer, bindInfo, bindStatement));
+      return THROW_UNLESS(il2cpp_utils::New<ConcreteIdBinderGeneric_1<TContract>*>(bindContainer, bindInfo, bindStatement));
     }
   }; // Zenject.ConcreteIdBinderGeneric`1
 }

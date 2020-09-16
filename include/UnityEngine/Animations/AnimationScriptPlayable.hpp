@@ -33,7 +33,7 @@ namespace UnityEngine::Animations {
     static void _set_m_NullPlayable(UnityEngine::Animations::AnimationScriptPlayable value);
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0xA5DC9C
-    static AnimationScriptPlayable* New_ctor(UnityEngine::Playables::PlayableHandle handle);
+    // ABORTED: conflicts with another method.  AnimationScriptPlayable(UnityEngine::Playables::PlayableHandle handle);
     // static private System.Void .cctor()
     // Offset: 0x194084C
     static void _cctor();

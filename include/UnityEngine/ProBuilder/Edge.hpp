@@ -46,7 +46,7 @@ namespace UnityEngine::ProBuilder {
     static void _set_Empty(UnityEngine::ProBuilder::Edge value);
     // public System.Void .ctor(System.Int32 a, System.Int32 b)
     // Offset: 0xA3CAD4
-    static Edge* New_ctor(int a, int b);
+    // ABORTED: conflicts with another method.  Edge(int a, int b);
     // public System.Boolean IsValid()
     // Offset: 0xA3CADC
     bool IsValid();

@@ -38,13 +38,13 @@ namespace System::Runtime::InteropServices {
     }
     // private System.Void .ctor(System.IntPtr h)
     // Offset: 0xA42544
-    static GCHandle* New_ctor(System::IntPtr h);
+    GCHandle(System::IntPtr h);
     // private System.Void .ctor(System.Object obj)
     // Offset: 0xA42570
-    static GCHandle* New_ctor(::Il2CppObject* obj);
+    GCHandle(::Il2CppObject* obj);
     // System.Void .ctor(System.Object value, System.Runtime.InteropServices.GCHandleType type)
     // Offset: 0xA425A0
-    static GCHandle* New_ctor(::Il2CppObject* value, System::Runtime::InteropServices::GCHandleType type);
+    GCHandle(::Il2CppObject* value, System::Runtime::InteropServices::GCHandleType type);
     // public System.Boolean get_IsAllocated()
     // Offset: 0xA425D8
     bool get_IsAllocated();

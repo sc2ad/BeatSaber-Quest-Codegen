@@ -34,7 +34,7 @@ namespace System::Threading {
     // System.Void .ctor(System.Int32 initialSize)
     // Offset: 0xFFFFFFFF
     static SparselyPopulatedArray_1<T>* New_ctor(int initialSize) {
-      return (SparselyPopulatedArray_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<SparselyPopulatedArray_1<T>*>::get(), initialSize));
+      return THROW_UNLESS(il2cpp_utils::New<SparselyPopulatedArray_1<T>*>(initialSize));
     }
     // System.Threading.SparselyPopulatedArrayFragment`1<T> get_Tail()
     // Offset: 0xFFFFFFFF

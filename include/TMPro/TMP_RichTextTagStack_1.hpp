@@ -44,13 +44,13 @@ namespace TMPro {
     }
     // public System.Void .ctor(T[] tagStack)
     // Offset: 0xFFFFFFFF
-    static TMP_RichTextTagStack_1<T>* New_ctor(::Array<T>* tagStack) {
-      return (TMP_RichTextTagStack_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMP_RichTextTagStack_1<T>>::get(), tagStack));
+    TMP_RichTextTagStack_1(::Array<T>* tagStack) {
+      THROW_UNLESS(il2cpp_utils::RunMethod(*this, ".ctor", tagStack));
     }
     // public System.Void .ctor(System.Int32 capacity)
     // Offset: 0xFFFFFFFF
-    static TMP_RichTextTagStack_1<T>* New_ctor(int capacity) {
-      return (TMP_RichTextTagStack_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMP_RichTextTagStack_1<T>>::get(), capacity));
+    TMP_RichTextTagStack_1(int capacity) {
+      THROW_UNLESS(il2cpp_utils::RunMethod(*this, ".ctor", capacity));
     }
     // public System.Void Clear()
     // Offset: 0xFFFFFFFF

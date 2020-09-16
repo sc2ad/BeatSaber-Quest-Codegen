@@ -44,7 +44,7 @@ namespace Zenject {
     // Implemented from: Zenject.FactoryFromBinder`5
     // Base method: System.Void FactoryFromBinder`5::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
     static FactoryToChoiceBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>* New_ctor(Zenject::DiContainer* bindContainer, Zenject::BindInfo* bindInfo, Zenject::FactoryBindInfo* factoryBindInfo) {
-      return (FactoryToChoiceBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FactoryToChoiceBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>*>::get(), bindContainer, bindInfo, factoryBindInfo)));
+      return THROW_UNLESS((il2cpp_utils::New<FactoryToChoiceBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>*>(bindContainer, bindInfo, factoryBindInfo)));
     }
   }; // Zenject.FactoryToChoiceBinder`5
 }

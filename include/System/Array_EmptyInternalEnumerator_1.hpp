@@ -83,7 +83,7 @@ namespace System {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Array::EmptyInternalEnumerator_1<T>* New_ctor() {
-      return (Array::EmptyInternalEnumerator_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Array::EmptyInternalEnumerator_1<T>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<Array::EmptyInternalEnumerator_1<T>*>());
     }
   }; // System.Array/EmptyInternalEnumerator`1
 }

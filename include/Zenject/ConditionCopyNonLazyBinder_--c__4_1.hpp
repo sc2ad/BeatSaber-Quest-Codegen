@@ -60,7 +60,7 @@ namespace Zenject {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConditionCopyNonLazyBinder::$$c__4_1<T>* New_ctor() {
-      return (ConditionCopyNonLazyBinder::$$c__4_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ConditionCopyNonLazyBinder::$$c__4_1<T>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<ConditionCopyNonLazyBinder::$$c__4_1<T>*>());
     }
   }; // Zenject.ConditionCopyNonLazyBinder/<>c__4`1
 }

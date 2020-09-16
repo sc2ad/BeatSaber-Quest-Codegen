@@ -41,7 +41,7 @@ namespace System::Xml {
     static void SetProperties(::Il2CppString* ranges, uint8_t value);
     // private System.Void .ctor(System.Byte[] charProperties)
     // Offset: 0xA42ABC
-    static XmlCharType* New_ctor(::Array<uint8_t>* charProperties);
+    // ABORTED: conflicts with another method.  XmlCharType(::Array<uint8_t>* charProperties);
     // static public System.Xml.XmlCharType get_Instance()
     // Offset: 0x11A1A44
     static System::Xml::XmlCharType get_Instance();

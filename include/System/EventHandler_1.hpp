@@ -28,7 +28,7 @@ namespace System {
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFFFFFFFF
     static EventHandler_1<TEventArgs>* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      return (EventHandler_1<TEventArgs>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<EventHandler_1<TEventArgs>*>::get(), object, method));
+      return THROW_UNLESS(il2cpp_utils::New<EventHandler_1<TEventArgs>*>(object, method));
     }
     // public System.Void Invoke(System.Object sender, TEventArgs e)
     // Offset: 0xFFFFFFFF

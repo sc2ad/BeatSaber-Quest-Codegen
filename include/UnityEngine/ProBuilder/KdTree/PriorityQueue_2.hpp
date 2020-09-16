@@ -40,7 +40,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     // public System.Void .ctor(System.Int32 capacity, UnityEngine.ProBuilder.KdTree.ITypeMath`1<TPriority> priorityMath)
     // Offset: 0xFFFFFFFF
     static PriorityQueue_2<TItem, TPriority>* New_ctor(int capacity, UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>* priorityMath) {
-      return (PriorityQueue_2<TItem, TPriority>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PriorityQueue_2<TItem, TPriority>*>::get(), capacity, priorityMath)));
+      return THROW_UNLESS((il2cpp_utils::New<PriorityQueue_2<TItem, TPriority>*>(capacity, priorityMath)));
     }
     // public System.Int32 get_Count()
     // Offset: 0xFFFFFFFF

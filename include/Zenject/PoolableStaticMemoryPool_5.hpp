@@ -40,7 +40,7 @@ namespace Zenject {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PoolableStaticMemoryPool_5<TParam1, TParam2, TParam3, TParam4, TValue>* New_ctor() {
-      return (PoolableStaticMemoryPool_5<TParam1, TParam2, TParam3, TParam4, TValue>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PoolableStaticMemoryPool_5<TParam1, TParam2, TParam3, TParam4, TValue>*>::get())));
+      return THROW_UNLESS((il2cpp_utils::New<PoolableStaticMemoryPool_5<TParam1, TParam2, TParam3, TParam4, TValue>*>()));
     }
   }; // Zenject.PoolableStaticMemoryPool`5
 }

@@ -79,7 +79,7 @@ namespace Zenject {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlaceholderFactoryBase_1<TValue>* New_ctor() {
-      return (PlaceholderFactoryBase_1<TValue>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PlaceholderFactoryBase_1<TValue>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<PlaceholderFactoryBase_1<TValue>*>());
     }
   }; // Zenject.PlaceholderFactoryBase`1
 }

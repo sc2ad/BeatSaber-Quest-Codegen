@@ -56,7 +56,7 @@ namespace Zenject {
     // Implemented from: Zenject.PoolableMemoryPoolProviderBase`1
     // Base method: System.Void PoolableMemoryPoolProviderBase`1::.ctor(Zenject.DiContainer container, System.Guid poolId)
     static PoolableMemoryPoolProvider_3<TContract, TParam1, TMemoryPool>* New_ctor(Zenject::DiContainer* container, System::Guid poolId) {
-      return (PoolableMemoryPoolProvider_3<TContract, TParam1, TMemoryPool>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PoolableMemoryPoolProvider_3<TContract, TParam1, TMemoryPool>*>::get(), container, poolId)));
+      return THROW_UNLESS((il2cpp_utils::New<PoolableMemoryPoolProvider_3<TContract, TParam1, TMemoryPool>*>(container, poolId)));
     }
     // public System.Void Validate()
     // Offset: 0xFFFFFFFF

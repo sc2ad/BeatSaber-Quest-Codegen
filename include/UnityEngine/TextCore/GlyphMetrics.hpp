@@ -51,7 +51,7 @@ namespace UnityEngine::TextCore {
     float get_horizontalAdvance();
     // public System.Void .ctor(System.Single width, System.Single height, System.Single bearingX, System.Single bearingY, System.Single advance)
     // Offset: 0xA5E9AC
-    static GlyphMetrics* New_ctor(float width, float height, float bearingX, float bearingY, float advance);
+    // ABORTED: conflicts with another method.  GlyphMetrics(float width, float height, float bearingX, float bearingY, float advance);
     // public override System.Int32 GetHashCode()
     // Offset: 0xA5E9BC
     // Implemented from: System.ValueType

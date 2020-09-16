@@ -23,7 +23,7 @@ namespace Zenject {
     // Base method: System.Void PlaceholderFactoryBase`1::.ctor()
     // Base method: System.Void Object::.ctor()
     static Factory_2<TParam1, TValue>* New_ctor() {
-      return (Factory_2<TParam1, TValue>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Factory_2<TParam1, TValue>*>::get())));
+      return THROW_UNLESS((il2cpp_utils::New<Factory_2<TParam1, TValue>*>()));
     }
   }; // Zenject.Factory`2
 }

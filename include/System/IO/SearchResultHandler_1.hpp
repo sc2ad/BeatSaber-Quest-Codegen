@@ -36,7 +36,7 @@ namespace System::IO {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SearchResultHandler_1<TSource>* New_ctor() {
-      return (SearchResultHandler_1<TSource>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<SearchResultHandler_1<TSource>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<SearchResultHandler_1<TSource>*>());
     }
   }; // System.IO.SearchResultHandler`1
 }

@@ -41,7 +41,7 @@ namespace Zenject {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DiContainer::$$c__DisplayClass203_0_1<TContract>* New_ctor() {
-      return (DiContainer::$$c__DisplayClass203_0_1<TContract>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<DiContainer::$$c__DisplayClass203_0_1<TContract>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<DiContainer::$$c__DisplayClass203_0_1<TContract>*>());
     }
   }; // Zenject.DiContainer/<>c__DisplayClass203_0`1
 }

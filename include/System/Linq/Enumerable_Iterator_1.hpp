@@ -67,7 +67,7 @@ namespace System::Linq {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Enumerable::Iterator_1<TSource>* New_ctor() {
-      return (Enumerable::Iterator_1<TSource>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Enumerable::Iterator_1<TSource>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<Enumerable::Iterator_1<TSource>*>());
     }
     // public TSource get_Current()
     // Offset: 0xFFFFFFFF

@@ -48,7 +48,7 @@ namespace System::Linq {
     // System.Void .ctor(System.Func`2<TElement,TKey> keySelector, System.Collections.Generic.IComparer`1<TKey> comparer, System.Boolean descending, System.Linq.EnumerableSorter`1<TElement> next)
     // Offset: 0xFFFFFFFF
     static EnumerableSorter_2<TElement, TKey>* New_ctor(System::Func_2<TElement, TKey>* keySelector, System::Collections::Generic::IComparer_1<TKey>* comparer, bool descending, System::Linq::EnumerableSorter_1<TElement>* next) {
-      return (EnumerableSorter_2<TElement, TKey>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<EnumerableSorter_2<TElement, TKey>*>::get(), keySelector, comparer, descending, next)));
+      return THROW_UNLESS((il2cpp_utils::New<EnumerableSorter_2<TElement, TKey>*>(keySelector, comparer, descending, next)));
     }
     // override System.Void ComputeKeys(TElement[] elements, System.Int32 count)
     // Offset: 0xFFFFFFFF

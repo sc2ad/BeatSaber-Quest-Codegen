@@ -90,7 +90,7 @@ namespace UnityEngine::ProBuilder::KdTree::Math {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TypeMath_1<T>* New_ctor() {
-      return (TypeMath_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TypeMath_1<T>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<TypeMath_1<T>*>());
     }
   }; // UnityEngine.ProBuilder.KdTree.Math.TypeMath`1
 }

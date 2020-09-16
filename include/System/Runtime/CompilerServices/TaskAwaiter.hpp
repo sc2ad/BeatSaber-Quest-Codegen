@@ -37,7 +37,7 @@ namespace System::Runtime::CompilerServices {
     }
     // System.Void .ctor(System.Threading.Tasks.Task task)
     // Offset: 0xA424EC
-    static TaskAwaiter* New_ctor(System::Threading::Tasks::Task* task);
+    // ABORTED: conflicts with another method.  TaskAwaiter(System::Threading::Tasks::Task* task);
     // public System.Boolean get_IsCompleted()
     // Offset: 0xA424F4
     bool get_IsCompleted();

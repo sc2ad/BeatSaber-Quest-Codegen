@@ -55,7 +55,7 @@ namespace System {
     // public System.Void .ctor(T1 item1, T2 item2)
     // Offset: 0xFFFFFFFF
     static Tuple_2<T1, T2>* New_ctor(T1 item1, T2 item2) {
-      return (Tuple_2<T1, T2>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tuple_2<T1, T2>*>::get(), item1, item2)));
+      return THROW_UNLESS((il2cpp_utils::New<Tuple_2<T1, T2>*>(item1, item2)));
     }
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0xFFFFFFFF

@@ -68,7 +68,7 @@ namespace UnityEngine::Timeline {
     System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>* get_markers();
     // public System.Void .ctor(System.Int32 capacity)
     // Offset: 0xA4055C
-    static MarkerList* New_ctor(int capacity);
+    MarkerList(int capacity);
     // public System.Void Add(UnityEngine.ScriptableObject item)
     // Offset: 0xA40564
     void Add(UnityEngine::ScriptableObject* item);

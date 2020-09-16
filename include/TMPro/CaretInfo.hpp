@@ -25,7 +25,7 @@ namespace TMPro {
     constexpr CaretInfo(int index_ = {}, TMPro::CaretPosition position_ = {}) noexcept : index{index_}, position{position_} {}
     // public System.Void .ctor(System.Int32 index, TMPro.CaretPosition position)
     // Offset: 0xA2B3D0
-    static CaretInfo* New_ctor(int index, TMPro::CaretPosition position);
+    // ABORTED: conflicts with another method.  CaretInfo(int index, TMPro::CaretPosition position);
   }; // TMPro.CaretInfo
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

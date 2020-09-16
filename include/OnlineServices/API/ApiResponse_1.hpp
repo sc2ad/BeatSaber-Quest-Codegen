@@ -33,9 +33,7 @@ namespace OnlineServices::API {
     }
     // public System.Void .ctor(OnlineServices.API.Response response, T responseDto)
     // Offset: 0xFFFFFFFF
-    static ApiResponse_1<T>* New_ctor(OnlineServices::API::Response response, T responseDto) {
-      return (ApiResponse_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ApiResponse_1<T>>::get(), response, responseDto));
-    }
+    // ABORTED: conflicts with another method.  ApiResponse_1(OnlineServices::API::Response response, T responseDto)
   }; // OnlineServices.API.ApiResponse`1
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(OnlineServices::API::ApiResponse_1, "OnlineServices.API", "ApiResponse`1");

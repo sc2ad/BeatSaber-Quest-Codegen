@@ -48,7 +48,7 @@ namespace UnityEngine::Animations {
     static UnityEngine::Playables::PlayableHandle CreateHandle(UnityEngine::Playables::PlayableGraph graph, int inputCount, bool normalizeWeights);
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0xA5DB60
-    static AnimationMixerPlayable* New_ctor(UnityEngine::Playables::PlayableHandle handle);
+    // ABORTED: conflicts with another method.  AnimationMixerPlayable(UnityEngine::Playables::PlayableHandle handle);
     // static private System.Boolean CreateHandleInternal(UnityEngine.Playables.PlayableGraph graph, System.Boolean normalizeWeights, ref UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0x193EC98
     static bool CreateHandleInternal(UnityEngine::Playables::PlayableGraph graph, bool normalizeWeights, UnityEngine::Playables::PlayableHandle& handle);

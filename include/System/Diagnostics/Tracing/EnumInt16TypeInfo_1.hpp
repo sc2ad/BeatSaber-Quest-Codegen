@@ -54,7 +54,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void TraceLoggingTypeInfo`1::.ctor()
     // Base method: System.Void Object::.ctor()
     static EnumInt16TypeInfo_1<EnumType>* New_ctor() {
-      return (EnumInt16TypeInfo_1<EnumType>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<EnumInt16TypeInfo_1<EnumType>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<EnumInt16TypeInfo_1<EnumType>*>());
     }
   }; // System.Diagnostics.Tracing.EnumInt16TypeInfo`1
 }

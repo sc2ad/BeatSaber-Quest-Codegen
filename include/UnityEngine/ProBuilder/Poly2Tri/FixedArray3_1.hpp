@@ -35,6 +35,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     class $Enumerate$d__10 : public ::Il2CppObject, public System::Collections::Generic::IEnumerable_1<T>, public System::Collections::Generic::IEnumerator_1<T>, public ::il2cpp_utils::il2cpp_type_check::NestedType {
       public:
       using declaring_type = FixedArray3_1<T>;
+      static constexpr std::string_view NESTED_NAME = "$Enumerate$d__10";
       // private System.Int32 <>1__state
       // Offset: 0x0
       int $$1__state;
@@ -56,7 +57,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
       // public System.Void .ctor(System.Int32 <>1__state)
       // Offset: 0xFFFFFFFF
       static typename FixedArray3_1<T>::$Enumerate$d__10* New_ctor(int $$1__state) {
-        return (typename FixedArray3_1<T>::$Enumerate$d__10*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename FixedArray3_1<T>::$Enumerate$d__10*>::get(), $$1__state));
+        return THROW_UNLESS(il2cpp_utils::New<typename FixedArray3_1<T>::$Enumerate$d__10*>($$1__state));
       }
       // private System.Void System.IDisposable.Dispose()
       // Offset: 0xFFFFFFFF

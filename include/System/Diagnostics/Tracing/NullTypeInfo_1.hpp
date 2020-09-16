@@ -54,7 +54,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void TraceLoggingTypeInfo`1::.ctor()
     // Base method: System.Void Object::.ctor()
     static NullTypeInfo_1<DataType>* New_ctor() {
-      return (NullTypeInfo_1<DataType>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<NullTypeInfo_1<DataType>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<NullTypeInfo_1<DataType>*>());
     }
   }; // System.Diagnostics.Tracing.NullTypeInfo`1
 }

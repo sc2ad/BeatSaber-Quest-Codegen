@@ -49,7 +49,7 @@ namespace Zenject {
     // public System.Void .ctor(Zenject.DiContainer container, System.Guid poolId)
     // Offset: 0xFFFFFFFF
     static PoolableMemoryPoolProviderBase_1<TContract>* New_ctor(Zenject::DiContainer* container, System::Guid poolId) {
-      return (PoolableMemoryPoolProviderBase_1<TContract>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PoolableMemoryPoolProviderBase_1<TContract>*>::get(), container, poolId));
+      return THROW_UNLESS(il2cpp_utils::New<PoolableMemoryPoolProviderBase_1<TContract>*>(container, poolId));
     }
     // protected System.Guid get_PoolId()
     // Offset: 0xFFFFFFFF

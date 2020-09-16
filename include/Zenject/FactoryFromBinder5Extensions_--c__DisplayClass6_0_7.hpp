@@ -54,7 +54,7 @@ namespace Zenject {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FactoryFromBinder5Extensions::$$c__DisplayClass6_0_7<TParam1, TParam2, TParam3, TParam4, TParam5, TContract, TMemoryPool>* New_ctor() {
-      return (FactoryFromBinder5Extensions::$$c__DisplayClass6_0_7<TParam1, TParam2, TParam3, TParam4, TParam5, TContract, TMemoryPool>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FactoryFromBinder5Extensions::$$c__DisplayClass6_0_7<TParam1, TParam2, TParam3, TParam4, TParam5, TContract, TMemoryPool>*>::get())));
+      return THROW_UNLESS((il2cpp_utils::New<FactoryFromBinder5Extensions::$$c__DisplayClass6_0_7<TParam1, TParam2, TParam3, TParam4, TParam5, TContract, TMemoryPool>*>()));
     }
   }; // Zenject.FactoryFromBinder5Extensions/<>c__DisplayClass6_0`7
 }

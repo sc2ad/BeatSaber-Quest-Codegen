@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.Int32 maxNumberElements)
     // Offset: 0xFFFFFFFF
     static HMCache_2<K, V>* New_ctor(int maxNumberElements) {
-      return (HMCache_2<K, V>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMCache_2<K, V>*>::get(), maxNumberElements)));
+      return THROW_UNLESS((il2cpp_utils::New<HMCache_2<K, V>*>(maxNumberElements)));
     }
     // public System.Boolean IsInCache(K key)
     // Offset: 0xFFFFFFFF

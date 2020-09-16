@@ -59,7 +59,7 @@ namespace System::Linq {
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,TKey> keySelector, System.Func`2<TSource,TElement> elementSelector, System.Collections.Generic.IEqualityComparer`1<TKey> comparer)
     // Offset: 0xFFFFFFFF
     static GroupedEnumerable_3<TKey, TElement, TSource>* New_ctor(System::Collections::Generic::IEnumerable_1<TSource>* source, System::Func_2<TSource, TKey>* keySelector, System::Func_2<TSource, TElement>* elementSelector, System::Collections::Generic::IEqualityComparer_1<TKey>* comparer) {
-      return (GroupedEnumerable_3<TKey, TElement, TSource>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GroupedEnumerable_3<TKey, TElement, TSource>*>::get(), source, keySelector, elementSelector, comparer)));
+      return THROW_UNLESS((il2cpp_utils::New<GroupedEnumerable_3<TKey, TElement, TSource>*>(source, keySelector, elementSelector, comparer)));
     }
     // public System.Collections.Generic.IEnumerator`1<System.Linq.IGrouping`2<TKey,TElement>> GetEnumerator()
     // Offset: 0xFFFFFFFF

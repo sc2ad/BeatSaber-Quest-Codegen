@@ -37,7 +37,7 @@ namespace System::Threading {
     }
     // public System.Void .ctor(System.Threading.ExecutionContext ec)
     // Offset: 0xA47CF8
-    static ExecutionContext::Reader* New_ctor(System::Threading::ExecutionContext* ec);
+    // ABORTED: conflicts with another method.  Reader(System::Threading::ExecutionContext* ec);
     // public System.Threading.ExecutionContext DangerousGetRawExecutionContext()
     // Offset: 0xA47D00
     System::Threading::ExecutionContext* DangerousGetRawExecutionContext();

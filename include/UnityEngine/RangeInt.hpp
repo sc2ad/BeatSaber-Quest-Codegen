@@ -25,7 +25,7 @@ namespace UnityEngine {
     int get_end();
     // public System.Void .ctor(System.Int32 start, System.Int32 length)
     // Offset: 0xA490E8
-    static RangeInt* New_ctor(int start, int length);
+    // ABORTED: conflicts with another method.  RangeInt(int start, int length);
   }; // UnityEngine.RangeInt
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

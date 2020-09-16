@@ -61,7 +61,7 @@ namespace System::Threading::Tasks {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TaskCompletionSource_1<TResult>* New_ctor() {
-      return (TaskCompletionSource_1<TResult>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TaskCompletionSource_1<TResult>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<TaskCompletionSource_1<TResult>*>());
     }
   }; // System.Threading.Tasks.TaskCompletionSource`1
 }

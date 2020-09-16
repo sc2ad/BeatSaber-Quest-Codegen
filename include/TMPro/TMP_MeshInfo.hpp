@@ -88,10 +88,10 @@ namespace TMPro {
     static void _set_s_DefaultBounds(UnityEngine::Bounds value);
     // public System.Void .ctor(UnityEngine.Mesh mesh, System.Int32 size)
     // Offset: 0xA2C05C
-    static TMP_MeshInfo* New_ctor(UnityEngine::Mesh* mesh, int size);
+    TMP_MeshInfo(UnityEngine::Mesh* mesh, int size);
     // public System.Void .ctor(UnityEngine.Mesh mesh, System.Int32 size, System.Boolean isVolumetric)
     // Offset: 0xA2C064
-    static TMP_MeshInfo* New_ctor(UnityEngine::Mesh* mesh, int size, bool isVolumetric);
+    TMP_MeshInfo(UnityEngine::Mesh* mesh, int size, bool isVolumetric);
     // public System.Void ResizeMeshInfo(System.Int32 size)
     // Offset: 0xA2C070
     void ResizeMeshInfo(int size);

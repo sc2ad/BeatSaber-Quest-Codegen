@@ -32,7 +32,7 @@ namespace System::Resources {
     constexpr ResourceLocator(::Il2CppObject* value_ = {}, int dataPos_ = {}) noexcept : value{value_}, dataPos{dataPos_} {}
     // System.Void .ctor(System.Int32 dataPos, System.Object value)
     // Offset: 0xA42150
-    static ResourceLocator* New_ctor(int dataPos, ::Il2CppObject* value);
+    ResourceLocator(int dataPos, ::Il2CppObject* value);
     // System.Int32 get_DataPosition()
     // Offset: 0xA42160
     int get_DataPosition();

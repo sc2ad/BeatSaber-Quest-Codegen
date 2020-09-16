@@ -28,9 +28,7 @@ namespace System::Collections::Generic {
     constexpr KeyValuePair_2(TKey key_ = {}, TValue value_ = {}) noexcept : key{key_}, value{value_} {}
     // public System.Void .ctor(TKey key, TValue value)
     // Offset: 0xFFFFFFFF
-    static KeyValuePair_2<TKey, TValue>* New_ctor(TKey key, TValue value) {
-      return (KeyValuePair_2<TKey, TValue>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<KeyValuePair_2<TKey, TValue>>::get(), key, value)));
-    }
+    // ABORTED: conflicts with another method.  KeyValuePair_2(TKey key, TValue value)
     // public TKey get_Key()
     // Offset: 0xFFFFFFFF
     TKey get_Key() {

@@ -75,7 +75,7 @@ namespace System::Collections::ObjectModel {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Collection_1<T>* New_ctor() {
-      return (Collection_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Collection_1<T>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<Collection_1<T>*>());
     }
     // public System.Int32 get_Count()
     // Offset: 0xFFFFFFFF

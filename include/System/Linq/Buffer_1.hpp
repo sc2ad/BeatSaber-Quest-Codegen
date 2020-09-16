@@ -37,8 +37,8 @@ namespace System::Linq {
     constexpr Buffer_1(::Array<TElement>* items_ = {}, int count_ = {}) noexcept : items{items_}, count{count_} {}
     // System.Void .ctor(System.Collections.Generic.IEnumerable`1<TElement> source)
     // Offset: 0xFFFFFFFF
-    static Buffer_1<TElement>* New_ctor(System::Collections::Generic::IEnumerable_1<TElement>* source) {
-      return (Buffer_1<TElement>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Buffer_1<TElement>>::get(), source));
+    Buffer_1(System::Collections::Generic::IEnumerable_1<TElement>* source) {
+      THROW_UNLESS(il2cpp_utils::RunMethod(*this, ".ctor", source));
     }
     // TElement[] ToArray()
     // Offset: 0xFFFFFFFF

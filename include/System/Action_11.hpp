@@ -28,7 +28,7 @@ namespace System {
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFFFFFFFF
     static Action_11<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      return (Action_11<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Action_11<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>*>::get(), object, method)));
+      return THROW_UNLESS((il2cpp_utils::New<Action_11<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>*>(object, method)));
     }
     // public System.Void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11)
     // Offset: 0xFFFFFFFF

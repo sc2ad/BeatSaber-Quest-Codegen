@@ -42,6 +42,7 @@ namespace System {
     class ArraySegmentEnumerator : public ::Il2CppObject, public System::Collections::Generic::IEnumerator_1<T>, public ::il2cpp_utils::il2cpp_type_check::NestedType {
       public:
       using declaring_type = ArraySegment_1<T>;
+      static constexpr std::string_view NESTED_NAME = "ArraySegmentEnumerator";
       // private T[] _array
       // Offset: 0x0
       ::Array<T>* array;
@@ -57,7 +58,7 @@ namespace System {
       // System.Void .ctor(System.ArraySegment`1<T> arraySegment)
       // Offset: 0xFFFFFFFF
       static typename ArraySegment_1<T>::ArraySegmentEnumerator* New_ctor(System::ArraySegment_1<T> arraySegment) {
-        return (typename ArraySegment_1<T>::ArraySegmentEnumerator*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename ArraySegment_1<T>::ArraySegmentEnumerator*>::get(), arraySegment));
+        return THROW_UNLESS(il2cpp_utils::New<typename ArraySegment_1<T>::ArraySegmentEnumerator*>(arraySegment));
       }
       // public System.Boolean MoveNext()
       // Offset: 0xFFFFFFFF
@@ -118,14 +119,12 @@ namespace System {
     constexpr ArraySegment_1(::Array<T>* array_ = {}, int offset_ = {}, int count_ = {}) noexcept : array{array_}, offset{offset_}, count{count_} {}
     // public System.Void .ctor(T[] array)
     // Offset: 0xFFFFFFFF
-    static ArraySegment_1<T>* New_ctor(::Array<T>* array) {
-      return (ArraySegment_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArraySegment_1<T>>::get(), array));
+    ArraySegment_1(::Array<T>* array) {
+      THROW_UNLESS(il2cpp_utils::RunMethod(*this, ".ctor", array));
     }
     // public System.Void .ctor(T[] array, System.Int32 offset, System.Int32 count)
     // Offset: 0xFFFFFFFF
-    static ArraySegment_1<T>* New_ctor(::Array<T>* array, int offset, int count) {
-      return (ArraySegment_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArraySegment_1<T>>::get(), array, offset, count));
-    }
+    // ABORTED: conflicts with another method.  ArraySegment_1(::Array<T>* array, int offset, int count)
     // public T[] get_Array()
     // Offset: 0xFFFFFFFF
     ::Array<T>* get_Array() {

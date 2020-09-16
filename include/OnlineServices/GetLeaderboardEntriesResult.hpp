@@ -36,7 +36,7 @@ namespace OnlineServices {
     constexpr GetLeaderboardEntriesResult(bool isError_ = {}, ::Array<OnlineServices::LeaderboardEntryData*>* leaderboardEntries_ = {}, int referencePlayerScoreIndex_ = {}) noexcept : isError{isError_}, leaderboardEntries{leaderboardEntries_}, referencePlayerScoreIndex{referencePlayerScoreIndex_} {}
     // public System.Void .ctor(System.Boolean isError, OnlineServices.LeaderboardEntryData[] leaderboardEntries, System.Int32 referencePlayerScoreIndex)
     // Offset: 0xA2CA74
-    static GetLeaderboardEntriesResult* New_ctor(bool isError, ::Array<OnlineServices::LeaderboardEntryData*>* leaderboardEntries, int referencePlayerScoreIndex);
+    // ABORTED: conflicts with another method.  GetLeaderboardEntriesResult(bool isError, ::Array<OnlineServices::LeaderboardEntryData*>* leaderboardEntries, int referencePlayerScoreIndex);
     // static public OnlineServices.GetLeaderboardEntriesResult get_resultWithError()
     // Offset: 0xC435E4
     static OnlineServices::GetLeaderboardEntriesResult get_resultWithError();

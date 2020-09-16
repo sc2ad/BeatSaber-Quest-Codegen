@@ -84,7 +84,7 @@ namespace UnityEngine {
     void set_Item(int index, float value);
     // public System.Void .ctor(System.Single x, System.Single y)
     // Offset: 0xA47770
-    static Vector2* New_ctor(float x, float y);
+    // ABORTED: conflicts with another method.  Vector2(float x, float y);
     // static public UnityEngine.Vector2 Lerp(UnityEngine.Vector2 a, UnityEngine.Vector2 b, System.Single t)
     // Offset: 0x139B680
     static UnityEngine::Vector2 Lerp(UnityEngine::Vector2 a, UnityEngine::Vector2 b, float t);

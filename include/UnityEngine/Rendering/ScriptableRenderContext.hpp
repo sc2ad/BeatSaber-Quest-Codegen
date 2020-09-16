@@ -43,7 +43,7 @@ namespace UnityEngine::Rendering {
     UnityEngine::Camera* GetCamera_Internal(int index);
     // System.Void .ctor(System.IntPtr ptr)
     // Offset: 0xA47270
-    static ScriptableRenderContext* New_ctor(System::IntPtr ptr);
+    // ABORTED: conflicts with another method.  ScriptableRenderContext(System::IntPtr ptr);
     // System.Int32 GetNumberOfCameras()
     // Offset: 0xA47278
     int GetNumberOfCameras();

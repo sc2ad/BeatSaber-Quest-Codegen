@@ -30,8 +30,8 @@ namespace System {
     constexpr Nullable_1(T value_ = {}, bool has_value_ = {}) noexcept : value{value_}, has_value{has_value_} {}
     // public System.Void .ctor(T value)
     // Offset: 0xFFFFFFFF
-    static Nullable_1<T>* New_ctor(T value) {
-      return (Nullable_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Nullable_1<T>>::get(), value));
+    Nullable_1(T value) {
+      THROW_UNLESS(il2cpp_utils::RunMethod(*this, ".ctor", value));
     }
     // public System.Boolean get_HasValue()
     // Offset: 0xFFFFFFFF

@@ -40,7 +40,7 @@ namespace Zenject {
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.InjectContext context)
     // Offset: 0xFFFFFFFF
     static LazyInject_1<T>* New_ctor(Zenject::DiContainer* container, Zenject::InjectContext* context) {
-      return (LazyInject_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LazyInject_1<T>*>::get(), container, context));
+      return THROW_UNLESS(il2cpp_utils::New<LazyInject_1<T>*>(container, context));
     }
     // public T get_Value()
     // Offset: 0xFFFFFFFF

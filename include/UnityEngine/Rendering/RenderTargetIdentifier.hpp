@@ -53,13 +53,13 @@ namespace UnityEngine::Rendering {
     constexpr RenderTargetIdentifier(UnityEngine::Rendering::BuiltinRenderTextureType m_Type_ = {}, int m_NameID_ = {}, int m_InstanceID_ = {}, System::IntPtr m_BufferPointer_ = {}, int m_MipLevel_ = {}, UnityEngine::CubemapFace m_CubeFace_ = {}, int m_DepthSlice_ = {}) noexcept : m_Type{m_Type_}, m_NameID{m_NameID_}, m_InstanceID{m_InstanceID_}, m_BufferPointer{m_BufferPointer_}, m_MipLevel{m_MipLevel_}, m_CubeFace{m_CubeFace_}, m_DepthSlice{m_DepthSlice_} {}
     // public System.Void .ctor(UnityEngine.Rendering.BuiltinRenderTextureType type)
     // Offset: 0xA470B8
-    static RenderTargetIdentifier* New_ctor(UnityEngine::Rendering::BuiltinRenderTextureType type);
+    RenderTargetIdentifier(UnityEngine::Rendering::BuiltinRenderTextureType type);
     // public System.Void .ctor(System.Int32 nameID)
     // Offset: 0xA47120
-    static RenderTargetIdentifier* New_ctor(int nameID);
+    RenderTargetIdentifier(int nameID);
     // public System.Void .ctor(UnityEngine.Texture tex)
     // Offset: 0xA47188
-    static RenderTargetIdentifier* New_ctor(UnityEngine::Texture* tex);
+    RenderTargetIdentifier(UnityEngine::Texture* tex);
     // public override System.String ToString()
     // Offset: 0xA47190
     // Implemented from: System.ValueType

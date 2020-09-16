@@ -34,7 +34,7 @@ namespace Zenject {
     // public System.Void .ctor(Zenject.IProvider provider, Zenject.InjectContext injectContext)
     // Offset: 0xFFFFFFFF
     static FactoryProviderWrapper_1<TContract>* New_ctor(Zenject::IProvider* provider, Zenject::InjectContext* injectContext) {
-      return (FactoryProviderWrapper_1<TContract>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FactoryProviderWrapper_1<TContract>*>::get(), provider, injectContext));
+      return THROW_UNLESS(il2cpp_utils::New<FactoryProviderWrapper_1<TContract>*>(provider, injectContext));
     }
     // public TContract Create()
     // Offset: 0xFFFFFFFF

@@ -38,7 +38,7 @@ namespace UnityEngine::Playables {
     static UnityEngine::Playables::PlayableOutput get_Null();
     // System.Void .ctor(UnityEngine.Playables.PlayableOutputHandle handle)
     // Offset: 0xA48ED0
-    static PlayableOutput* New_ctor(UnityEngine::Playables::PlayableOutputHandle handle);
+    // ABORTED: conflicts with another method.  PlayableOutput(UnityEngine::Playables::PlayableOutputHandle handle);
     // public System.Boolean IsPlayableOutputOfType()
     // Offset: 0xFFFFFFFF
     template<class T>

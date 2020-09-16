@@ -69,7 +69,7 @@ namespace GlobalNamespace {
     // Base method: System.Void MemoryPoolBase`1::.ctor()
     // Base method: System.Void Object::.ctor()
     static MemoryPoolWithActiveItems_1<TValue>* New_ctor() {
-      return (MemoryPoolWithActiveItems_1<TValue>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MemoryPoolWithActiveItems_1<TValue>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<MemoryPoolWithActiveItems_1<TValue>*>());
     }
   }; // MemoryPoolWithActiveItems`1
 }

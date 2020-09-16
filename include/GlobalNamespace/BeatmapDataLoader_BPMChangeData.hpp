@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     constexpr BPMChangeData(float bpmChangeStartTime_ = {}, float bpmChangeStartBPMTime_ = {}, float bpm_ = {}) noexcept : bpmChangeStartTime{bpmChangeStartTime_}, bpmChangeStartBPMTime{bpmChangeStartBPMTime_}, bpm{bpm_} {}
     // public System.Void .ctor(System.Single bpmChangeStartTime, System.Single bpmChangeStartBPMTime, System.Single bpm)
     // Offset: 0xA2BE4C
-    static BeatmapDataLoader::BPMChangeData* New_ctor(float bpmChangeStartTime, float bpmChangeStartBPMTime, float bpm);
+    // ABORTED: conflicts with another method.  BPMChangeData(float bpmChangeStartTime, float bpmChangeStartBPMTime, float bpm);
   }; // BeatmapDataLoader/BPMChangeData
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -69,7 +69,7 @@ namespace Zenject {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FromBinderNonGeneric::$$c__1_2<TConcrete, TFactory>* New_ctor() {
-      return (FromBinderNonGeneric::$$c__1_2<TConcrete, TFactory>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FromBinderNonGeneric::$$c__1_2<TConcrete, TFactory>*>::get())));
+      return THROW_UNLESS((il2cpp_utils::New<FromBinderNonGeneric::$$c__1_2<TConcrete, TFactory>*>()));
     }
   }; // Zenject.FromBinderNonGeneric/<>c__1`2
 }

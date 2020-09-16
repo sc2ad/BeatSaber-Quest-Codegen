@@ -35,7 +35,7 @@ namespace UnityEngine::EventSystems {
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFFFFFFFF
     static ExecuteEvents::EventFunction_1<T1>* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      return (ExecuteEvents::EventFunction_1<T1>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ExecuteEvents::EventFunction_1<T1>*>::get(), object, method));
+      return THROW_UNLESS(il2cpp_utils::New<ExecuteEvents::EventFunction_1<T1>*>(object, method));
     }
     // public System.Void Invoke(T1 handler, UnityEngine.EventSystems.BaseEventData eventData)
     // Offset: 0xFFFFFFFF

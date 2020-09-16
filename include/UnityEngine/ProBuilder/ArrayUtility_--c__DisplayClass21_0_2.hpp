@@ -46,7 +46,7 @@ namespace UnityEngine::ProBuilder {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ArrayUtility::$$c__DisplayClass21_0_2<TSource, TKey>* New_ctor() {
-      return (ArrayUtility::$$c__DisplayClass21_0_2<TSource, TKey>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArrayUtility::$$c__DisplayClass21_0_2<TSource, TKey>*>::get())));
+      return THROW_UNLESS((il2cpp_utils::New<ArrayUtility::$$c__DisplayClass21_0_2<TSource, TKey>*>()));
     }
   }; // UnityEngine.ProBuilder.ArrayUtility/<>c__DisplayClass21_0`2
 }

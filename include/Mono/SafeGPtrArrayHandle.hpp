@@ -35,7 +35,7 @@ namespace Mono {
     }
     // System.Void .ctor(System.IntPtr ptr)
     // Offset: 0xA40948
-    static SafeGPtrArrayHandle* New_ctor(System::IntPtr ptr);
+    SafeGPtrArrayHandle(System::IntPtr ptr);
     // System.Int32 get_Length()
     // Offset: 0xA4099C
     int get_Length();

@@ -64,7 +64,7 @@ namespace UnityEngine::Events {
     // Base method: System.Void UnityEventBase::.ctor()
     // Base method: System.Void Object::.ctor()
     static UnityEvent_2<T0, T1>* New_ctor() {
-      return (UnityEvent_2<T0, T1>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEvent_2<T0, T1>*>::get())));
+      return THROW_UNLESS((il2cpp_utils::New<UnityEvent_2<T0, T1>*>()));
     }
     // protected override System.Reflection.MethodInfo FindMethod_Impl(System.String name, System.Object targetObj)
     // Offset: 0xFFFFFFFF

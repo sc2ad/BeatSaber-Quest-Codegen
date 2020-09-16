@@ -49,7 +49,7 @@ namespace Zenject {
     // public System.Void .ctor(System.Func`1<TReturn> method)
     // Offset: 0xFFFFFFFF
     static MethodProviderSimple_1<TReturn>* New_ctor(System::Func_1<TReturn>* method) {
-      return (MethodProviderSimple_1<TReturn>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MethodProviderSimple_1<TReturn>*>::get(), method));
+      return THROW_UNLESS(il2cpp_utils::New<MethodProviderSimple_1<TReturn>*>(method));
     }
     // public System.Boolean get_IsCached()
     // Offset: 0xFFFFFFFF

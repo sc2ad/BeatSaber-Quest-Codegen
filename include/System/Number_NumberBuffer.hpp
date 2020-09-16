@@ -38,7 +38,7 @@ namespace System {
     static void _set_NumberBufferBytes(int value);
     // public System.Void .ctor(System.Byte* stackBuffer)
     // Offset: 0xA46AD4
-    static Number::NumberBuffer* New_ctor(uint8_t* stackBuffer);
+    NumberBuffer(uint8_t* stackBuffer);
     // public System.Byte* PackForNative()
     // Offset: 0xA46AE8
     uint8_t* PackForNative();

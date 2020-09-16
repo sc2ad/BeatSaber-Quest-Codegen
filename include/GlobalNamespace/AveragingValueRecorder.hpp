@@ -48,7 +48,7 @@ namespace GlobalNamespace {
       void set_time(float value);
       // public System.Void .ctor(System.Single value, System.Single time)
       // Offset: 0xA2BE30
-      static AveragingValueRecorder::AverageValueData* New_ctor(float value, float time);
+      // ABORTED: conflicts with another method.  AverageValueData(float value, float time);
     }; // AveragingValueRecorder/AverageValueData
     // private System.Single _averageWindowDuration
     // Offset: 0x10

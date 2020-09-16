@@ -37,7 +37,7 @@ namespace System::Collections::Generic {
     // System.Void .ctor(System.Collections.Generic.LinkedList`1<T> list, T value)
     // Offset: 0xFFFFFFFF
     static LinkedListNode_1<T>* New_ctor(System::Collections::Generic::LinkedList_1<T>* list, T value) {
-      return (LinkedListNode_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LinkedListNode_1<T>*>::get(), list, value));
+      return THROW_UNLESS(il2cpp_utils::New<LinkedListNode_1<T>*>(list, value));
     }
     // public System.Collections.Generic.LinkedListNode`1<T> get_Next()
     // Offset: 0xFFFFFFFF

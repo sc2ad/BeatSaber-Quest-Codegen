@@ -40,7 +40,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     // public System.Void .ctor(TKey[] point, TValue value)
     // Offset: 0xFFFFFFFF
     static KdTreeNode_2<TKey, TValue>* New_ctor(::Array<TKey>* point, TValue value) {
-      return (KdTreeNode_2<TKey, TValue>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<KdTreeNode_2<TKey, TValue>*>::get(), point, value)));
+      return THROW_UNLESS((il2cpp_utils::New<KdTreeNode_2<TKey, TValue>*>(point, value)));
     }
     // UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue> get_Item(System.Int32 compare)
     // Offset: 0xFFFFFFFF
@@ -62,7 +62,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static KdTreeNode_2<TKey, TValue>* New_ctor() {
-      return (KdTreeNode_2<TKey, TValue>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<KdTreeNode_2<TKey, TValue>*>::get())));
+      return THROW_UNLESS((il2cpp_utils::New<KdTreeNode_2<TKey, TValue>*>()));
     }
     // public override System.String ToString()
     // Offset: 0xFFFFFFFF

@@ -60,7 +60,7 @@ namespace TMPro {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FastAction_3<A, B, C>* New_ctor() {
-      return (FastAction_3<A, B, C>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FastAction_3<A, B, C>*>::get())));
+      return THROW_UNLESS((il2cpp_utils::New<FastAction_3<A, B, C>*>()));
     }
   }; // TMPro.FastAction`3
 }

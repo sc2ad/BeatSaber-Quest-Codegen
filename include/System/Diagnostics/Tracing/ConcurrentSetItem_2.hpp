@@ -30,7 +30,7 @@ namespace System::Diagnostics::Tracing {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConcurrentSetItem_2<KeyType, ItemType>* New_ctor() {
-      return (ConcurrentSetItem_2<KeyType, ItemType>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ConcurrentSetItem_2<KeyType, ItemType>*>::get())));
+      return THROW_UNLESS((il2cpp_utils::New<ConcurrentSetItem_2<KeyType, ItemType>*>()));
     }
   }; // System.Diagnostics.Tracing.ConcurrentSetItem`2
 }

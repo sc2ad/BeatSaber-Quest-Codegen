@@ -43,7 +43,7 @@ namespace System::Linq {
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.Boolean> predicate)
     // Offset: 0xFFFFFFFF
     static Enumerable::WhereEnumerableIterator_1<TSource>* New_ctor(System::Collections::Generic::IEnumerable_1<TSource>* source, System::Func_2<TSource, bool>* predicate) {
-      return (Enumerable::WhereEnumerableIterator_1<TSource>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Enumerable::WhereEnumerableIterator_1<TSource>*>::get(), source, predicate));
+      return THROW_UNLESS(il2cpp_utils::New<Enumerable::WhereEnumerableIterator_1<TSource>*>(source, predicate));
     }
     // public override System.Linq.Enumerable/Iterator`1<TSource> Clone()
     // Offset: 0xFFFFFFFF

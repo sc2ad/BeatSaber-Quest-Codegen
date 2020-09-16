@@ -43,13 +43,13 @@ namespace System {
     static void _set_Zero(System::UIntPtr value);
     // public System.Void .ctor(System.UInt64 value)
     // Offset: 0xA57604
-    static UIntPtr* New_ctor(uint64_t value);
+    UIntPtr(uint64_t value);
     // public System.Void .ctor(System.UInt32 value)
     // Offset: 0xA5760C
-    static UIntPtr* New_ctor(uint value);
+    UIntPtr(uint value);
     // public System.Void .ctor(System.Void* value)
     // Offset: 0xA57618
-    static UIntPtr* New_ctor(void* value);
+    // ABORTED: conflicts with another method.  UIntPtr(void* value);
     // static public System.UInt64 op_Explicit(System.UIntPtr value)
     // Offset: 0x179EE20
     explicit operator uint64_t();

@@ -40,7 +40,7 @@ namespace System::Linq {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Enumerable::$$c__DisplayClass7_0_3<TSource, TMiddle, TResult>* New_ctor() {
-      return (Enumerable::$$c__DisplayClass7_0_3<TSource, TMiddle, TResult>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Enumerable::$$c__DisplayClass7_0_3<TSource, TMiddle, TResult>*>::get())));
+      return THROW_UNLESS((il2cpp_utils::New<Enumerable::$$c__DisplayClass7_0_3<TSource, TMiddle, TResult>*>()));
     }
   }; // System.Linq.Enumerable/<>c__DisplayClass7_0`3
 }

@@ -50,6 +50,7 @@ namespace GlobalNamespace {
     struct $$RunSync$b__0$d : public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine, public ::il2cpp_utils::il2cpp_type_check::NestedType {
       public:
       using declaring_type = AsyncHelper::$$c__DisplayClass0_0_1<T>*;
+      static constexpr std::string_view NESTED_NAME = "$$RunSync$b__0$d";
       // public System.Int32 <>1__state
       // Offset: 0x0
       int $$1__state;
@@ -95,7 +96,7 @@ namespace GlobalNamespace {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AsyncHelper::$$c__DisplayClass0_0_1<T>* New_ctor() {
-      return (AsyncHelper::$$c__DisplayClass0_0_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<AsyncHelper::$$c__DisplayClass0_0_1<T>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<AsyncHelper::$$c__DisplayClass0_0_1<T>*>());
     }
   }; // AsyncHelper/<>c__DisplayClass0_0`1
 }

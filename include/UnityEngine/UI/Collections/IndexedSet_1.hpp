@@ -233,7 +233,7 @@ namespace UnityEngine::UI::Collections {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static IndexedSet_1<T>* New_ctor() {
-      return (IndexedSet_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<IndexedSet_1<T>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<IndexedSet_1<T>*>());
     }
   }; // UnityEngine.UI.Collections.IndexedSet`1
 }

@@ -46,6 +46,7 @@ namespace TMPro {
       static_assert((!std::is_complete_v<std::remove_pointer_t<T>> || std::is_base_of_v<TMPro::ITweenValue, std::remove_pointer_t<T>>) && (!std::is_complete_v<std::remove_pointer_t<T>> || is_value_type_v<T>));
       public:
       using declaring_type = TweenRunner_1<T>*;
+      static constexpr std::string_view NESTED_NAME = "$Start$d__2";
       // private System.Int32 <>1__state
       // Offset: 0x0
       int $$1__state;
@@ -61,7 +62,7 @@ namespace TMPro {
       // public System.Void .ctor(System.Int32 <>1__state)
       // Offset: 0xFFFFFFFF
       static typename TweenRunner_1<T>::$Start$d__2* New_ctor(int $$1__state) {
-        return (typename TweenRunner_1<T>::$Start$d__2*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename TweenRunner_1<T>::$Start$d__2*>::get(), $$1__state));
+        return THROW_UNLESS(il2cpp_utils::New<typename TweenRunner_1<T>::$Start$d__2*>($$1__state));
       }
       // private System.Void System.IDisposable.Dispose()
       // Offset: 0xFFFFFFFF
@@ -130,7 +131,7 @@ namespace TMPro {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TweenRunner_1<T>* New_ctor() {
-      return (TweenRunner_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TweenRunner_1<T>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<TweenRunner_1<T>*>());
     }
   }; // TMPro.TweenRunner`1
 }

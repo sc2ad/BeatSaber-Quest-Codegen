@@ -43,10 +43,10 @@ namespace TMPro {
     void set_glyphValueRecord(TMPro::TMP_GlyphValueRecord value);
     // public System.Void .ctor(System.UInt32 glyphIndex, TMPro.TMP_GlyphValueRecord glyphValueRecord)
     // Offset: 0xA2BA44
-    static TMP_GlyphAdjustmentRecord* New_ctor(uint glyphIndex, TMPro::TMP_GlyphValueRecord glyphValueRecord);
+    // ABORTED: conflicts with another method.  TMP_GlyphAdjustmentRecord(uint glyphIndex, TMPro::TMP_GlyphValueRecord glyphValueRecord);
     // System.Void .ctor(UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord adjustmentRecord)
     // Offset: 0xA2BA54
-    static TMP_GlyphAdjustmentRecord* New_ctor(UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord adjustmentRecord);
+    TMP_GlyphAdjustmentRecord(UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord adjustmentRecord);
   }; // TMPro.TMP_GlyphAdjustmentRecord
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

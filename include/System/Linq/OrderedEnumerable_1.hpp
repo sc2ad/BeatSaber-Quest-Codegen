@@ -52,6 +52,7 @@ namespace System::Linq {
     class $GetEnumerator$d__1 : public ::Il2CppObject, public System::Collections::Generic::IEnumerator_1<TElement>, public ::il2cpp_utils::il2cpp_type_check::NestedType {
       public:
       using declaring_type = OrderedEnumerable_1<TElement>*;
+      static constexpr std::string_view NESTED_NAME = "$GetEnumerator$d__1";
       // private System.Int32 <>1__state
       // Offset: 0x0
       int $$1__state;
@@ -73,7 +74,7 @@ namespace System::Linq {
       // public System.Void .ctor(System.Int32 <>1__state)
       // Offset: 0xFFFFFFFF
       static typename OrderedEnumerable_1<TElement>::$GetEnumerator$d__1* New_ctor(int $$1__state) {
-        return (typename OrderedEnumerable_1<TElement>::$GetEnumerator$d__1*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename OrderedEnumerable_1<TElement>::$GetEnumerator$d__1*>::get(), $$1__state));
+        return THROW_UNLESS(il2cpp_utils::New<typename OrderedEnumerable_1<TElement>::$GetEnumerator$d__1*>($$1__state));
       }
       // private System.Void System.IDisposable.Dispose()
       // Offset: 0xFFFFFFFF
@@ -148,7 +149,7 @@ namespace System::Linq {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OrderedEnumerable_1<TElement>* New_ctor() {
-      return (OrderedEnumerable_1<TElement>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OrderedEnumerable_1<TElement>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<OrderedEnumerable_1<TElement>*>());
     }
   }; // System.Linq.OrderedEnumerable`1
 }

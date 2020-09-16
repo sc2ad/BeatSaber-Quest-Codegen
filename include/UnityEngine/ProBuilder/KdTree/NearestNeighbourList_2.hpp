@@ -37,7 +37,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     // public System.Void .ctor(System.Int32 maxCapacity, UnityEngine.ProBuilder.KdTree.ITypeMath`1<TDistance> distanceMath)
     // Offset: 0xFFFFFFFF
     static NearestNeighbourList_2<TItem, TDistance>* New_ctor(int maxCapacity, UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>* distanceMath) {
-      return (NearestNeighbourList_2<TItem, TDistance>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<NearestNeighbourList_2<TItem, TDistance>*>::get(), maxCapacity, distanceMath)));
+      return THROW_UNLESS((il2cpp_utils::New<NearestNeighbourList_2<TItem, TDistance>*>(maxCapacity, distanceMath)));
     }
     // public System.Int32 get_MaxCapacity()
     // Offset: 0xFFFFFFFF

@@ -81,7 +81,7 @@ namespace System::Collections::Generic {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EqualityComparer_1<T>* New_ctor() {
-      return (EqualityComparer_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<EqualityComparer_1<T>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<EqualityComparer_1<T>*>());
     }
   }; // System.Collections.Generic.EqualityComparer`1
 }

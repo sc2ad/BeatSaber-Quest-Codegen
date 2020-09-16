@@ -39,7 +39,7 @@ namespace Zenject {
     // public System.Void .ctor(System.Action`4<TParam1,TParam2,TParam3,TValue> onSpawnMethod, System.Action`1<TValue> onDespawnedMethod)
     // Offset: 0xFFFFFFFF
     static StaticMemoryPool_4<TValue, TParam1, TParam2, TParam3>* New_ctor(System::Action_4<TParam1, TParam2, TParam3, TValue>* onSpawnMethod, System::Action_1<TValue>* onDespawnedMethod) {
-      return (StaticMemoryPool_4<TValue, TParam1, TParam2, TParam3>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<StaticMemoryPool_4<TValue, TParam1, TParam2, TParam3>*>::get(), onSpawnMethod, onDespawnedMethod)));
+      return THROW_UNLESS((il2cpp_utils::New<StaticMemoryPool_4<TValue, TParam1, TParam2, TParam3>*>(onSpawnMethod, onDespawnedMethod)));
     }
     // public System.Void set_OnSpawnMethod(System.Action`4<TParam1,TParam2,TParam3,TValue> value)
     // Offset: 0xFFFFFFFF

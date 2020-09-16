@@ -46,7 +46,7 @@ namespace System::Linq {
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.Boolean> predicate, System.Func`2<TSource,TResult> selector)
     // Offset: 0xFFFFFFFF
     static Enumerable::WhereSelectEnumerableIterator_2<TResult, TSource>* New_ctor(System::Collections::Generic::IEnumerable_1<TSource>* source, System::Func_2<TSource, bool>* predicate, System::Func_2<TSource, TResult>* selector) {
-      return (Enumerable::WhereSelectEnumerableIterator_2<TResult, TSource>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Enumerable::WhereSelectEnumerableIterator_2<TResult, TSource>*>::get(), source, predicate, selector)));
+      return THROW_UNLESS((il2cpp_utils::New<Enumerable::WhereSelectEnumerableIterator_2<TResult, TSource>*>(source, predicate, selector)));
     }
     // public override System.Linq.Enumerable/Iterator`1<TResult> Clone()
     // Offset: 0xFFFFFFFF

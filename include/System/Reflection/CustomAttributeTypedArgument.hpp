@@ -33,7 +33,7 @@ namespace System::Reflection {
     constexpr CustomAttributeTypedArgument(System::Type* argumentType_ = {}, ::Il2CppObject* value_ = {}) noexcept : argumentType{argumentType_}, value{value_} {}
     // public System.Void .ctor(System.Type argumentType, System.Object value)
     // Offset: 0xA46DE0
-    static CustomAttributeTypedArgument* New_ctor(System::Type* argumentType, ::Il2CppObject* value);
+    // ABORTED: conflicts with another method.  CustomAttributeTypedArgument(System::Type* argumentType, ::Il2CppObject* value);
     // public System.Object get_Value()
     // Offset: 0xA46DE8
     ::Il2CppObject* get_Value();

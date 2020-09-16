@@ -42,7 +42,7 @@ namespace UnityEngine {
     constexpr Color32(int rgba_ = {}, uint8_t r_ = {}, uint8_t g_ = {}, uint8_t b_ = {}, uint8_t a_ = {}) noexcept : rgba{rgba_}, r{r_}, g{g_}, b{b_}, a{a_} {}
     // public System.Void .ctor(System.Byte r, System.Byte g, System.Byte b, System.Byte a)
     // Offset: 0xA45900
-    static Color32* New_ctor(uint8_t r, uint8_t g, uint8_t b, uint8_t a);
+    Color32(uint8_t r, uint8_t g, uint8_t b, uint8_t a);
     // public override System.String ToString()
     // Offset: 0xA45914
     // Implemented from: System.ValueType

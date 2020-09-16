@@ -32,7 +32,7 @@ namespace Zenject {
     constexpr TypeValuePair(System::Type* Type_ = {}, ::Il2CppObject* Value_ = {}) noexcept : Type{Type_}, Value{Value_} {}
     // public System.Void .ctor(System.Type type, System.Object value)
     // Offset: 0xA5E0B4
-    static TypeValuePair* New_ctor(System::Type* type, ::Il2CppObject* value);
+    // ABORTED: conflicts with another method.  TypeValuePair(System::Type* type, ::Il2CppObject* value);
   }; // Zenject.TypeValuePair
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

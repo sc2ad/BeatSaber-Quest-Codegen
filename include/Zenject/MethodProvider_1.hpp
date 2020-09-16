@@ -50,7 +50,7 @@ namespace Zenject {
     // public System.Void .ctor(System.Func`2<Zenject.InjectContext,TReturn> method, Zenject.DiContainer container)
     // Offset: 0xFFFFFFFF
     static MethodProvider_1<TReturn>* New_ctor(System::Func_2<Zenject::InjectContext*, TReturn>* method, Zenject::DiContainer* container) {
-      return (MethodProvider_1<TReturn>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MethodProvider_1<TReturn>*>::get(), method, container));
+      return THROW_UNLESS(il2cpp_utils::New<MethodProvider_1<TReturn>*>(method, container));
     }
     // public System.Boolean get_IsCached()
     // Offset: 0xFFFFFFFF

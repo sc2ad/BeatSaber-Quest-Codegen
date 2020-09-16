@@ -30,7 +30,7 @@ namespace UnityEngine {
     // Base method: System.Void IntegratedSubsystem::.ctor()
     // Base method: System.Void Object::.ctor()
     static IntegratedSubsystem_1<TSubsystemDescriptor>* New_ctor() {
-      return (IntegratedSubsystem_1<TSubsystemDescriptor>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<IntegratedSubsystem_1<TSubsystemDescriptor>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<IntegratedSubsystem_1<TSubsystemDescriptor>*>());
     }
   }; // UnityEngine.IntegratedSubsystem`1
 }

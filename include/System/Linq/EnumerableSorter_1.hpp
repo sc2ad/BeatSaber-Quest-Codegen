@@ -39,7 +39,7 @@ namespace System::Linq {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EnumerableSorter_1<TElement>* New_ctor() {
-      return (EnumerableSorter_1<TElement>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<EnumerableSorter_1<TElement>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<EnumerableSorter_1<TElement>*>());
     }
   }; // System.Linq.EnumerableSorter`1
 }

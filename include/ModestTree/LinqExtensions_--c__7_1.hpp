@@ -95,7 +95,7 @@ namespace ModestTree {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LinqExtensions::$$c__7_1<T>* New_ctor() {
-      return (LinqExtensions::$$c__7_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LinqExtensions::$$c__7_1<T>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<LinqExtensions::$$c__7_1<T>*>());
     }
   }; // ModestTree.LinqExtensions/<>c__7`1
 }

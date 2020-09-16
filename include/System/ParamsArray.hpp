@@ -45,16 +45,16 @@ namespace System {
     static void _set_threeArgArray(::Array<::Il2CppObject*>* value);
     // public System.Void .ctor(System.Object arg0)
     // Offset: 0xA46C64
-    static ParamsArray* New_ctor(::Il2CppObject* arg0);
+    ParamsArray(::Il2CppObject* arg0);
     // public System.Void .ctor(System.Object arg0, System.Object arg1)
     // Offset: 0xA46C6C
-    static ParamsArray* New_ctor(::Il2CppObject* arg0, ::Il2CppObject* arg1);
+    ParamsArray(::Il2CppObject* arg0, ::Il2CppObject* arg1);
     // public System.Void .ctor(System.Object arg0, System.Object arg1, System.Object arg2)
     // Offset: 0xA46C74
-    static ParamsArray* New_ctor(::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2);
+    ParamsArray(::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2);
     // public System.Void .ctor(System.Object[] args)
     // Offset: 0xA46C7C
-    static ParamsArray* New_ctor(::Array<::Il2CppObject*>* args);
+    ParamsArray(::Array<::Il2CppObject*>* args);
     // public System.Int32 get_Length()
     // Offset: 0xA46C84
     int get_Length();

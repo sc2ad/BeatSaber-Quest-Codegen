@@ -61,7 +61,7 @@ namespace System {
     static void _set_MaxValue(System::DateTimeOffset value);
     // public System.Void .ctor(System.Int64 ticks, System.TimeSpan offset)
     // Offset: 0xA410C4
-    static DateTimeOffset* New_ctor(int64_t ticks, System::TimeSpan offset);
+    DateTimeOffset(int64_t ticks, System::TimeSpan offset);
     // public System.DateTime get_UtcDateTime()
     // Offset: 0xA410CC
     System::DateTime get_UtcDateTime();
@@ -76,7 +76,7 @@ namespace System {
     int64_t get_Ticks();
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xA41160
-    static DateTimeOffset* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
+    DateTimeOffset(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // static private System.Int16 ValidateOffset(System.TimeSpan offset)
     // Offset: 0x10D5F8C
     static int16_t ValidateOffset(System::TimeSpan offset);

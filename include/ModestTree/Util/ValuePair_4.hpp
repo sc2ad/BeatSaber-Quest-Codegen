@@ -29,7 +29,7 @@ namespace ModestTree::Util {
     // public System.Void .ctor(T1 first, T2 second, T3 third, T4 fourth)
     // Offset: 0xFFFFFFFF
     static ValuePair_4<T1, T2, T3, T4>* New_ctor(T1 first, T2 second, T3 third, T4 fourth) {
-      return (ValuePair_4<T1, T2, T3, T4>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ValuePair_4<T1, T2, T3, T4>*>::get(), first, second, third, fourth)));
+      return THROW_UNLESS((il2cpp_utils::New<ValuePair_4<T1, T2, T3, T4>*>(first, second, third, fourth)));
     }
     // public System.Boolean Equals(ModestTree.Util.ValuePair`4<T1,T2,T3,T4> that)
     // Offset: 0xFFFFFFFF
@@ -41,7 +41,7 @@ namespace ModestTree::Util {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ValuePair_4<T1, T2, T3, T4>* New_ctor() {
-      return (ValuePair_4<T1, T2, T3, T4>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ValuePair_4<T1, T2, T3, T4>*>::get())));
+      return THROW_UNLESS((il2cpp_utils::New<ValuePair_4<T1, T2, T3, T4>*>()));
     }
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0xFFFFFFFF

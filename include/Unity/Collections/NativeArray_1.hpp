@@ -44,6 +44,7 @@ namespace Unity::Collections {
       static_assert((!std::is_complete_v<std::remove_pointer_t<T>> || is_value_type_v<T>));
       public:
       using declaring_type = NativeArray_1<T>;
+      static constexpr std::string_view NESTED_NAME = "Enumerator";
       // private Unity.Collections.NativeArray`1<T> m_Array
       // Offset: 0x0
       Unity::Collections::NativeArray_1<T> m_Array;
@@ -54,8 +55,8 @@ namespace Unity::Collections {
       constexpr Enumerator(Unity::Collections::NativeArray_1<T> m_Array_ = {}, int m_Index_ = {}) noexcept : m_Array{m_Array_}, m_Index{m_Index_} {}
       // public System.Void .ctor(ref Unity.Collections.NativeArray`1<T> array)
       // Offset: 0xFFFFFFFF
-      static typename NativeArray_1<T>::Enumerator* New_ctor(Unity::Collections::NativeArray_1<T>& array) {
-        return (typename NativeArray_1<T>::Enumerator*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename NativeArray_1<T>::Enumerator>::get(), array));
+      Enumerator(Unity::Collections::NativeArray_1<T>& array) {
+        THROW_UNLESS(il2cpp_utils::RunMethod(*this, ".ctor", array));
       }
       // public System.Void Dispose()
       // Offset: 0xFFFFFFFF

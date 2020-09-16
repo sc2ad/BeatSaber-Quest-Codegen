@@ -234,7 +234,7 @@ namespace Oculus::Platform::Models {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DeserializableList_1<T>* New_ctor() {
-      return (DeserializableList_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<DeserializableList_1<T>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<DeserializableList_1<T>*>());
     }
   }; // Oculus.Platform.Models.DeserializableList`1
 }

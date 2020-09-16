@@ -43,7 +43,7 @@ namespace System::Diagnostics::Tracing {
     // public System.Void .ctor(System.Diagnostics.Tracing.TypeAnalysis typeAnalysis)
     // Offset: 0xFFFFFFFF
     static InvokeTypeInfo_1<ContainerType>* New_ctor(System::Diagnostics::Tracing::TypeAnalysis* typeAnalysis) {
-      return (InvokeTypeInfo_1<ContainerType>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<InvokeTypeInfo_1<ContainerType>*>::get(), typeAnalysis));
+      return THROW_UNLESS(il2cpp_utils::New<InvokeTypeInfo_1<ContainerType>*>(typeAnalysis));
     }
     // public override System.Void WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
     // Offset: 0xFFFFFFFF

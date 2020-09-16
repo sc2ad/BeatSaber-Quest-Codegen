@@ -74,7 +74,7 @@ namespace System::Linq {
     // public System.Void .ctor(System.Int32 <>1__state)
     // Offset: 0xFFFFFFFF
     static Enumerable::$ExceptIterator$d__77_1<TSource>* New_ctor(int $$1__state) {
-      return (Enumerable::$ExceptIterator$d__77_1<TSource>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Enumerable::$ExceptIterator$d__77_1<TSource>*>::get(), $$1__state));
+      return THROW_UNLESS(il2cpp_utils::New<Enumerable::$ExceptIterator$d__77_1<TSource>*>($$1__state));
     }
     // private System.Void <>m__Finally1()
     // Offset: 0xFFFFFFFF

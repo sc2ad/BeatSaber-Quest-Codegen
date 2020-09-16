@@ -26,7 +26,7 @@ namespace System::Threading {
     // System.Void .ctor(System.Int32 initialSize)
     // Offset: 0xFFFFFFFF
     static ThreadPoolWorkQueue::SparseArray_1<T>* New_ctor(int initialSize) {
-      return (ThreadPoolWorkQueue::SparseArray_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ThreadPoolWorkQueue::SparseArray_1<T>*>::get(), initialSize));
+      return THROW_UNLESS(il2cpp_utils::New<ThreadPoolWorkQueue::SparseArray_1<T>*>(initialSize));
     }
     // T[] get_Current()
     // Offset: 0xFFFFFFFF

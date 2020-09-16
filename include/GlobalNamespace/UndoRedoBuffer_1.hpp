@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.Int32 capacity)
     // Offset: 0xFFFFFFFF
     static UndoRedoBuffer_1<T>* New_ctor(int capacity) {
-      return (UndoRedoBuffer_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UndoRedoBuffer_1<T>*>::get(), capacity));
+      return THROW_UNLESS(il2cpp_utils::New<UndoRedoBuffer_1<T>*>(capacity));
     }
     // public System.Void Add(T item)
     // Offset: 0xFFFFFFFF

@@ -34,7 +34,7 @@ namespace UnityEngine {
     constexpr Bounds(UnityEngine::Vector3 m_Center_ = {}, UnityEngine::Vector3 m_Extents_ = {}) noexcept : m_Center{m_Center_}, m_Extents{m_Extents_} {}
     // public System.Void .ctor(UnityEngine.Vector3 center, UnityEngine.Vector3 size)
     // Offset: 0xA4571C
-    static Bounds* New_ctor(UnityEngine::Vector3 center, UnityEngine::Vector3 size);
+    // ABORTED: conflicts with another method.  Bounds(UnityEngine::Vector3 center, UnityEngine::Vector3 size);
     // public UnityEngine.Vector3 get_center()
     // Offset: 0xA4576C
     UnityEngine::Vector3 get_center();

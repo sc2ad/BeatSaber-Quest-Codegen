@@ -35,7 +35,7 @@ namespace System {
     constexpr SorterGenericArray(System::Array* keys_ = {}, System::Array* items_ = {}, System::Collections::IComparer* comparer_ = {}) noexcept : keys{keys_}, items{items_}, comparer{comparer_} {}
     // System.Void .ctor(System.Array keys, System.Array items, System.Collections.IComparer comparer)
     // Offset: 0xA460B8
-    static Array::SorterGenericArray* New_ctor(System::Array* keys, System::Array* items, System::Collections::IComparer* comparer);
+    // ABORTED: conflicts with another method.  SorterGenericArray(System::Array* keys, System::Array* items, System::Collections::IComparer* comparer);
     // System.Void SwapIfGreaterWithItems(System.Int32 a, System.Int32 b)
     // Offset: 0xA460C0
     void SwapIfGreaterWithItems(int a, int b);

@@ -55,6 +55,7 @@ namespace Zenject {
     class $$c__DisplayClass5_0 : public ::Il2CppObject, public ::il2cpp_utils::il2cpp_type_check::NestedType {
       public:
       using declaring_type = ConcreteBinderGeneric_1<TContract>*;
+      static constexpr std::string_view NESTED_NAME = "$$c__DisplayClass5_0";
       // public System.Type concreteType
       // Offset: 0x0
       System::Type* concreteType;
@@ -72,7 +73,7 @@ namespace Zenject {
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename ConcreteBinderGeneric_1<TContract>::$$c__DisplayClass5_0* New_ctor() {
-        return (typename ConcreteBinderGeneric_1<TContract>::$$c__DisplayClass5_0*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename ConcreteBinderGeneric_1<TContract>::$$c__DisplayClass5_0*>::get()));
+        return THROW_UNLESS(il2cpp_utils::New<typename ConcreteBinderGeneric_1<TContract>::$$c__DisplayClass5_0*>());
       }
     }; // Zenject.ConcreteBinderGeneric`1/<>c__DisplayClass5_0
     // public Zenject.FromBinderGeneric`1<TContract> ToSelf()
@@ -127,7 +128,7 @@ namespace Zenject {
     // Base method: System.Void FromBinderGeneric`1::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)
     // Base method: System.Void FromBinder::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)
     static ConcreteBinderGeneric_1<TContract>* New_ctor(Zenject::DiContainer* bindContainer, Zenject::BindInfo* bindInfo, Zenject::BindStatement* bindStatement) {
-      return (ConcreteBinderGeneric_1<TContract>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ConcreteBinderGeneric_1<TContract>*>::get(), bindContainer, bindInfo, bindStatement));
+      return THROW_UNLESS(il2cpp_utils::New<ConcreteBinderGeneric_1<TContract>*>(bindContainer, bindInfo, bindStatement));
     }
   }; // Zenject.ConcreteBinderGeneric`1
 }

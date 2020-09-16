@@ -34,7 +34,7 @@ namespace Mono::Globalization::Unicode {
     constexpr TableRange(int Start_ = {}, int End_ = {}, int Count_ = {}, int IndexStart_ = {}, int IndexEnd_ = {}) noexcept : Start{Start_}, End{End_}, Count{Count_}, IndexStart{IndexStart_}, IndexEnd{IndexEnd_} {}
     // public System.Void .ctor(System.Int32 start, System.Int32 end, System.Int32 indexStart)
     // Offset: 0xA4069C
-    static CodePointIndexer::TableRange* New_ctor(int start, int end, int indexStart);
+    TableRange(int start, int end, int indexStart);
   }; // Mono.Globalization.Unicode.CodePointIndexer/TableRange
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

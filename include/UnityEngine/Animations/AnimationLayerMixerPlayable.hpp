@@ -53,7 +53,7 @@ namespace UnityEngine::Animations {
     static UnityEngine::Playables::PlayableHandle CreateHandle(UnityEngine::Playables::PlayableGraph graph, int inputCount);
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0xA5DB3C
-    static AnimationLayerMixerPlayable* New_ctor(UnityEngine::Playables::PlayableHandle handle);
+    // ABORTED: conflicts with another method.  AnimationLayerMixerPlayable(UnityEngine::Playables::PlayableHandle handle);
     // public System.Void SetLayerMaskFromAvatarMask(System.UInt32 layerIndex, UnityEngine.AvatarMask mask)
     // Offset: 0xA5DB58
     void SetLayerMaskFromAvatarMask(uint layerIndex, UnityEngine::AvatarMask* mask);

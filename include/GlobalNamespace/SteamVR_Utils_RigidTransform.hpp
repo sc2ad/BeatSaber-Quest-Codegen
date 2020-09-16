@@ -49,19 +49,19 @@ namespace GlobalNamespace {
     static GlobalNamespace::SteamVR_Utils::RigidTransform FromLocal(UnityEngine::Transform* t);
     // public System.Void .ctor(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
     // Offset: 0xA3D1D8
-    static SteamVR_Utils::RigidTransform* New_ctor(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot);
+    // ABORTED: conflicts with another method.  RigidTransform(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot);
     // public System.Void .ctor(UnityEngine.Transform t)
     // Offset: 0xA3D1EC
-    static SteamVR_Utils::RigidTransform* New_ctor(UnityEngine::Transform* t);
+    RigidTransform(UnityEngine::Transform* t);
     // public System.Void .ctor(UnityEngine.Transform from, UnityEngine.Transform to)
     // Offset: 0xA3D1F4
-    static SteamVR_Utils::RigidTransform* New_ctor(UnityEngine::Transform* from, UnityEngine::Transform* to);
+    RigidTransform(UnityEngine::Transform* from, UnityEngine::Transform* to);
     // public System.Void .ctor(Valve.VR.HmdMatrix34_t pose)
     // Offset: 0xA3D1FC
-    static SteamVR_Utils::RigidTransform* New_ctor(Valve::VR::HmdMatrix34_t pose);
+    RigidTransform(Valve::VR::HmdMatrix34_t pose);
     // public System.Void .ctor(Valve.VR.HmdMatrix44_t pose)
     // Offset: 0xA3D230
-    static SteamVR_Utils::RigidTransform* New_ctor(Valve::VR::HmdMatrix44_t pose);
+    RigidTransform(Valve::VR::HmdMatrix44_t pose);
     // public Valve.VR.HmdMatrix44_t ToHmdMatrix44()
     // Offset: 0xA3D264
     Valve::VR::HmdMatrix44_t ToHmdMatrix44();

@@ -51,7 +51,7 @@ namespace UnityEngine::ProBuilder {
     // public System.Void .ctor(System.Int32 initialSize, System.Int32 desiredSize, System.Func`1<T> constructor, System.Action`1<T> destructor, System.Boolean lazyInitialization)
     // Offset: 0xFFFFFFFF
     static ObjectPool_1<T>* New_ctor(int initialSize, int desiredSize, System::Func_1<T>* constructor, System::Action_1<T>* destructor, bool lazyInitialization) {
-      return (ObjectPool_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ObjectPool_1<T>*>::get(), initialSize, desiredSize, constructor, destructor, lazyInitialization));
+      return THROW_UNLESS(il2cpp_utils::New<ObjectPool_1<T>*>(initialSize, desiredSize, constructor, destructor, lazyInitialization));
     }
     // public T Get()
     // Offset: 0xFFFFFFFF

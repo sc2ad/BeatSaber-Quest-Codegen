@@ -59,6 +59,7 @@ namespace System::Collections::Generic {
     struct Enumerator : public System::ValueType, public System::Collections::Generic::IEnumerator_1<T>, public System::Runtime::Serialization::ISerializable, public System::Runtime::Serialization::IDeserializationCallback, public ::il2cpp_utils::il2cpp_type_check::NestedType {
       public:
       using declaring_type = LinkedList_1<T>*;
+      static constexpr std::string_view NESTED_NAME = "Enumerator";
       // private System.Collections.Generic.LinkedList`1<T> _list
       // Offset: 0x0
       System::Collections::Generic::LinkedList_1<T>* list;
@@ -78,13 +79,13 @@ namespace System::Collections::Generic {
       constexpr Enumerator(System::Collections::Generic::LinkedList_1<T>* list_ = {}, System::Collections::Generic::LinkedListNode_1<T>* node_ = {}, int version_ = {}, T current_ = {}, int index_ = {}) noexcept : list{list_}, node{node_}, version{version_}, current{current_}, index{index_} {}
       // System.Void .ctor(System.Collections.Generic.LinkedList`1<T> list)
       // Offset: 0xFFFFFFFF
-      static typename LinkedList_1<T>::Enumerator* New_ctor(System::Collections::Generic::LinkedList_1<T>* list) {
-        return (typename LinkedList_1<T>::Enumerator*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename LinkedList_1<T>::Enumerator>::get(), list));
+      Enumerator(System::Collections::Generic::LinkedList_1<T>* list) {
+        THROW_UNLESS(il2cpp_utils::RunMethod(*this, ".ctor", list));
       }
       // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
       // Offset: 0xFFFFFFFF
-      static typename LinkedList_1<T>::Enumerator* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-        return (typename LinkedList_1<T>::Enumerator*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename LinkedList_1<T>::Enumerator>::get(), info, context));
+      Enumerator(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
+        THROW_UNLESS(il2cpp_utils::RunMethod(*this, ".ctor", info, context));
       }
       // public T get_Current()
       // Offset: 0xFFFFFFFF
@@ -194,7 +195,7 @@ namespace System::Collections::Generic {
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xFFFFFFFF
     static LinkedList_1<T>* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      return (LinkedList_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LinkedList_1<T>*>::get(), info, context));
+      return THROW_UNLESS(il2cpp_utils::New<LinkedList_1<T>*>(info, context));
     }
     // public System.Collections.Generic.LinkedListNode`1<T> get_First()
     // Offset: 0xFFFFFFFF
@@ -271,7 +272,7 @@ namespace System::Collections::Generic {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LinkedList_1<T>* New_ctor() {
-      return (LinkedList_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LinkedList_1<T>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<LinkedList_1<T>*>());
     }
     // public System.Int32 get_Count()
     // Offset: 0xFFFFFFFF

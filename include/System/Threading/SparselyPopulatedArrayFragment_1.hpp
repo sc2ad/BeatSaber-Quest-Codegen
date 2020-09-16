@@ -29,12 +29,12 @@ namespace System::Threading {
     // System.Void .ctor(System.Int32 size)
     // Offset: 0xFFFFFFFF
     static SparselyPopulatedArrayFragment_1<T>* New_ctor(int size) {
-      return (SparselyPopulatedArrayFragment_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<SparselyPopulatedArrayFragment_1<T>*>::get(), size));
+      return THROW_UNLESS(il2cpp_utils::New<SparselyPopulatedArrayFragment_1<T>*>(size));
     }
     // System.Void .ctor(System.Int32 size, System.Threading.SparselyPopulatedArrayFragment`1<T> prev)
     // Offset: 0xFFFFFFFF
     static SparselyPopulatedArrayFragment_1<T>* New_ctor(int size, System::Threading::SparselyPopulatedArrayFragment_1<T>* prev) {
-      return (SparselyPopulatedArrayFragment_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<SparselyPopulatedArrayFragment_1<T>*>::get(), size, prev));
+      return THROW_UNLESS(il2cpp_utils::New<SparselyPopulatedArrayFragment_1<T>*>(size, prev));
     }
     // T get_Item(System.Int32 index)
     // Offset: 0xFFFFFFFF

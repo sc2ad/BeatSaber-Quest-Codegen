@@ -25,7 +25,7 @@ namespace UnityEngine {
     }
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
     // Offset: 0xA5F3E8
-    static ParticleSystem::EmissionModule* New_ctor(UnityEngine::ParticleSystem* particleSystem);
+    // ABORTED: conflicts with another method.  EmissionModule(UnityEngine::ParticleSystem* particleSystem);
     // public System.Boolean get_enabled()
     // Offset: 0xA5F3F0
     bool get_enabled();

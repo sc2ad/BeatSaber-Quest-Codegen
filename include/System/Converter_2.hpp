@@ -28,7 +28,7 @@ namespace System {
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFFFFFFFF
     static Converter_2<TInput, TOutput>* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      return (Converter_2<TInput, TOutput>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Converter_2<TInput, TOutput>*>::get(), object, method)));
+      return THROW_UNLESS((il2cpp_utils::New<Converter_2<TInput, TOutput>*>(object, method)));
     }
     // public TOutput Invoke(TInput input)
     // Offset: 0xFFFFFFFF

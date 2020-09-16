@@ -41,7 +41,7 @@ namespace Oculus::Platform {
     // Implemented from: Oculus.Platform.Request
     // Base method: System.Void Request::.ctor(System.UInt64 requestID)
     static Request_1<T>* New_ctor(uint64_t requestID) {
-      return (Request_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Request_1<T>*>::get(), requestID));
+      return THROW_UNLESS(il2cpp_utils::New<Request_1<T>*>(requestID));
     }
     // public override System.Void HandleMessage(Oculus.Platform.Message msg)
     // Offset: 0xFFFFFFFF

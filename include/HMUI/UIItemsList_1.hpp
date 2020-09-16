@@ -58,10 +58,11 @@ namespace HMUI {
       static_assert((!std::is_complete_v<std::remove_pointer_t<T>> || std::is_convertible_v<T, UnityEngine::MonoBehaviour*>));
       public:
       using declaring_type = UIItemsList_1<T>*;
+      static constexpr std::string_view NESTED_NAME = "DataCallback";
       // public System.Void .ctor(System.Object object, System.IntPtr method)
       // Offset: 0xFFFFFFFF
       static typename UIItemsList_1<T>::DataCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-        return (typename UIItemsList_1<T>::DataCallback*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename UIItemsList_1<T>::DataCallback*>::get(), object, method));
+        return THROW_UNLESS(il2cpp_utils::New<typename UIItemsList_1<T>::DataCallback*>(object, method));
       }
       // public System.Void Invoke(System.Int32 idx, T item)
       // Offset: 0xFFFFFFFF
@@ -115,7 +116,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()
     static UIItemsList_1<T>* New_ctor() {
-      return (UIItemsList_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UIItemsList_1<T>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<UIItemsList_1<T>*>());
     }
   }; // HMUI.UIItemsList`1
 }

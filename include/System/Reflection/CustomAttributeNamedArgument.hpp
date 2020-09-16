@@ -35,7 +35,7 @@ namespace System::Reflection {
     constexpr CustomAttributeNamedArgument(System::Reflection::CustomAttributeTypedArgument typedArgument_ = {}, System::Reflection::MemberInfo* memberInfo_ = {}) noexcept : typedArgument{typedArgument_}, memberInfo{memberInfo_} {}
     // public System.Void .ctor(System.Reflection.MemberInfo memberInfo, System.Object value)
     // Offset: 0xA46D70
-    static CustomAttributeNamedArgument* New_ctor(System::Reflection::MemberInfo* memberInfo, ::Il2CppObject* value);
+    CustomAttributeNamedArgument(System::Reflection::MemberInfo* memberInfo, ::Il2CppObject* value);
     // public System.Reflection.MemberInfo get_MemberInfo()
     // Offset: 0xA46D78
     System::Reflection::MemberInfo* get_MemberInfo();

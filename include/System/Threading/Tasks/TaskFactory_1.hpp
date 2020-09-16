@@ -51,7 +51,7 @@ namespace System::Threading::Tasks {
     // public System.Void .ctor(System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.TaskContinuationOptions continuationOptions, System.Threading.Tasks.TaskScheduler scheduler)
     // Offset: 0xFFFFFFFF
     static TaskFactory_1<TResult>* New_ctor(System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::TaskContinuationOptions continuationOptions, System::Threading::Tasks::TaskScheduler* scheduler) {
-      return (TaskFactory_1<TResult>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TaskFactory_1<TResult>*>::get(), cancellationToken, creationOptions, continuationOptions, scheduler));
+      return THROW_UNLESS(il2cpp_utils::New<TaskFactory_1<TResult>*>(cancellationToken, creationOptions, continuationOptions, scheduler));
     }
     // public System.Threading.Tasks.Task`1<TResult> StartNew(System.Func`1<TResult> function, System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.TaskScheduler scheduler)
     // Offset: 0xFFFFFFFF
@@ -63,7 +63,7 @@ namespace System::Threading::Tasks {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TaskFactory_1<TResult>* New_ctor() {
-      return (TaskFactory_1<TResult>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TaskFactory_1<TResult>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<TaskFactory_1<TResult>*>());
     }
   }; // System.Threading.Tasks.TaskFactory`1
 }

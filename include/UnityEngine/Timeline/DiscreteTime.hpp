@@ -41,22 +41,22 @@ namespace UnityEngine::Timeline {
     static double get_tickValue();
     // public System.Void .ctor(UnityEngine.Timeline.DiscreteTime time)
     // Offset: 0xA40430
-    static DiscreteTime* New_ctor(UnityEngine::Timeline::DiscreteTime time);
+    // ABORTED: is copy constructor.  DiscreteTime(UnityEngine::Timeline::DiscreteTime time);
     // private System.Void .ctor(System.Int64 time)
     // Offset: 0xA40438
-    static DiscreteTime* New_ctor(int64_t time);
+    // ABORTED: conflicts with another method.  DiscreteTime(int64_t time);
     // public System.Void .ctor(System.Double time)
     // Offset: 0xA40440
-    static DiscreteTime* New_ctor(double time);
+    DiscreteTime(double time);
     // public System.Void .ctor(System.Single time)
     // Offset: 0xA40448
-    static DiscreteTime* New_ctor(float time);
+    DiscreteTime(float time);
     // public System.Void .ctor(System.Int32 time)
     // Offset: 0xA40450
-    static DiscreteTime* New_ctor(int time);
+    DiscreteTime(int time);
     // public System.Void .ctor(System.Int32 frame, System.Double fps)
     // Offset: 0xA40458
-    static DiscreteTime* New_ctor(int frame, double fps);
+    DiscreteTime(int frame, double fps);
     // public UnityEngine.Timeline.DiscreteTime OneTickBefore()
     // Offset: 0xA40460
     UnityEngine::Timeline::DiscreteTime OneTickBefore();

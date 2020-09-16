@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Base method: System.Void UnityEventBase::.ctor()
     // Base method: System.Void Object::.ctor()
     static SteamVR_Events::Event_2<T0, T1>* New_ctor() {
-      return (SteamVR_Events::Event_2<T0, T1>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<SteamVR_Events::Event_2<T0, T1>*>::get())));
+      return THROW_UNLESS((il2cpp_utils::New<SteamVR_Events::Event_2<T0, T1>*>()));
     }
   }; // SteamVR_Events/Event`2
 }

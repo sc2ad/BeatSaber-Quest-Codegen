@@ -28,7 +28,7 @@ namespace System {
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFFFFFFFF
     static Func_2<T, TResult>* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      return (Func_2<T, TResult>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Func_2<T, TResult>*>::get(), object, method)));
+      return THROW_UNLESS((il2cpp_utils::New<Func_2<T, TResult>*>(object, method)));
     }
     // public TResult Invoke(T arg)
     // Offset: 0xFFFFFFFF

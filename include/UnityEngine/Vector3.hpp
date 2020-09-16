@@ -112,10 +112,10 @@ namespace UnityEngine {
     void set_Item(int index, float value);
     // public System.Void .ctor(System.Single x, System.Single y, System.Single z)
     // Offset: 0xA4789C
-    static Vector3* New_ctor(float x, float y, float z);
+    // ABORTED: conflicts with another method.  Vector3(float x, float y, float z);
     // public System.Void .ctor(System.Single x, System.Single y)
     // Offset: 0xA478A8
-    static Vector3* New_ctor(float x, float y);
+    Vector3(float x, float y);
     // static public UnityEngine.Vector3 Scale(UnityEngine.Vector3 a, UnityEngine.Vector3 b)
     // Offset: 0x139CFAC
     static UnityEngine::Vector3 Scale(UnityEngine::Vector3 a, UnityEngine::Vector3 b);

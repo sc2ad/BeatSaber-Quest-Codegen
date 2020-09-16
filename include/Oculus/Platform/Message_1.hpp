@@ -39,10 +39,11 @@ namespace Oculus::Platform {
     class Callback : public System::MulticastDelegate, public ::il2cpp_utils::il2cpp_type_check::NestedType {
       public:
       using declaring_type = Message_1<T>*;
+      static constexpr std::string_view NESTED_NAME = "Callback";
       // public System.Void .ctor(System.Object object, System.IntPtr method)
       // Offset: 0xFFFFFFFF
       static typename Message_1<T>::Callback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-        return (typename Message_1<T>::Callback*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename Message_1<T>::Callback*>::get(), object, method));
+        return THROW_UNLESS(il2cpp_utils::New<typename Message_1<T>::Callback*>(object, method));
       }
       // public System.Void Invoke(Oculus.Platform.Message`1<T> message)
       // Offset: 0xFFFFFFFF
@@ -78,7 +79,7 @@ namespace Oculus::Platform {
     // Implemented from: Oculus.Platform.Message
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static Message_1<T>* New_ctor(System::IntPtr c_message) {
-      return (Message_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Message_1<T>*>::get(), c_message));
+      return THROW_UNLESS(il2cpp_utils::New<Message_1<T>*>(c_message));
     }
   }; // Oculus.Platform.Message`1
 }

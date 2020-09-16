@@ -40,7 +40,7 @@ namespace Zenject {
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
     // Offset: 0xFFFFFFFF
     static DecoratorToChoiceFromBinder_1<TContract>* New_ctor(Zenject::DiContainer* bindContainer, Zenject::BindInfo* bindInfo, Zenject::FactoryBindInfo* factoryBindInfo) {
-      return (DecoratorToChoiceFromBinder_1<TContract>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<DecoratorToChoiceFromBinder_1<TContract>*>::get(), bindContainer, bindInfo, factoryBindInfo));
+      return THROW_UNLESS(il2cpp_utils::New<DecoratorToChoiceFromBinder_1<TContract>*>(bindContainer, bindInfo, factoryBindInfo));
     }
     // public Zenject.FactoryFromBinder`2<TContract,TConcrete> With()
     // Offset: 0xFFFFFFFF

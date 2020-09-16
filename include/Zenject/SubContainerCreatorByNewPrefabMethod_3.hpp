@@ -48,6 +48,7 @@ namespace Zenject {
     class $$c__DisplayClass2_0 : public ::Il2CppObject, public ::il2cpp_utils::il2cpp_type_check::NestedType {
       public:
       using declaring_type = SubContainerCreatorByNewPrefabMethod_3<TParam1, TParam2, TParam3>*;
+      static constexpr std::string_view NESTED_NAME = "$$c__DisplayClass2_0";
       // public Zenject.SubContainerCreatorByNewPrefabMethod`3<TParam1,TParam2,TParam3> <>4__this
       // Offset: 0x0
       Zenject::SubContainerCreatorByNewPrefabMethod_3<TParam1, TParam2, TParam3>* $$4__this;
@@ -64,7 +65,7 @@ namespace Zenject {
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename SubContainerCreatorByNewPrefabMethod_3<TParam1, TParam2, TParam3>::$$c__DisplayClass2_0* New_ctor() {
-        return (typename SubContainerCreatorByNewPrefabMethod_3<TParam1, TParam2, TParam3>::$$c__DisplayClass2_0*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename SubContainerCreatorByNewPrefabMethod_3<TParam1, TParam2, TParam3>::$$c__DisplayClass2_0*>::get())));
+        return THROW_UNLESS((il2cpp_utils::New<typename SubContainerCreatorByNewPrefabMethod_3<TParam1, TParam2, TParam3>::$$c__DisplayClass2_0*>()));
       }
     }; // Zenject.SubContainerCreatorByNewPrefabMethod`3/<>c__DisplayClass2_0
     // private readonly System.Action`4<Zenject.DiContainer,TParam1,TParam2,TParam3> _installerMethod
@@ -73,7 +74,7 @@ namespace Zenject {
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.IPrefabProvider prefabProvider, Zenject.GameObjectCreationParameters gameObjectBindInfo, System.Action`4<Zenject.DiContainer,TParam1,TParam2,TParam3> installerMethod)
     // Offset: 0xFFFFFFFF
     static SubContainerCreatorByNewPrefabMethod_3<TParam1, TParam2, TParam3>* New_ctor(Zenject::DiContainer* container, Zenject::IPrefabProvider* prefabProvider, Zenject::GameObjectCreationParameters* gameObjectBindInfo, System::Action_4<Zenject::DiContainer*, TParam1, TParam2, TParam3>* installerMethod) {
-      return (SubContainerCreatorByNewPrefabMethod_3<TParam1, TParam2, TParam3>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<SubContainerCreatorByNewPrefabMethod_3<TParam1, TParam2, TParam3>*>::get(), container, prefabProvider, gameObjectBindInfo, installerMethod)));
+      return THROW_UNLESS((il2cpp_utils::New<SubContainerCreatorByNewPrefabMethod_3<TParam1, TParam2, TParam3>*>(container, prefabProvider, gameObjectBindInfo, installerMethod)));
     }
     // protected override System.Void AddInstallers(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.GameObjectContext context)
     // Offset: 0xFFFFFFFF

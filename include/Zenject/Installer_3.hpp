@@ -35,7 +35,7 @@ namespace Zenject {
     // Base method: System.Void InstallerBase::.ctor()
     // Base method: System.Void Object::.ctor()
     static Installer_3<TParam1, TParam2, TDerived>* New_ctor() {
-      return (Installer_3<TParam1, TParam2, TDerived>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Installer_3<TParam1, TParam2, TDerived>*>::get())));
+      return THROW_UNLESS((il2cpp_utils::New<Installer_3<TParam1, TParam2, TDerived>*>()));
     }
   }; // Zenject.Installer`3
 }

@@ -30,8 +30,8 @@ namespace System {
     constexpr InternalEnumerator_1(System::Array* array_ = {}, int idx_ = {}) noexcept : array{array_}, idx{idx_} {}
     // System.Void .ctor(System.Array array)
     // Offset: 0xFFFFFFFF
-    static Array::InternalEnumerator_1<T>* New_ctor(System::Array* array) {
-      return (Array::InternalEnumerator_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Array::InternalEnumerator_1<T>>::get(), array));
+    InternalEnumerator_1(System::Array* array) {
+      THROW_UNLESS(il2cpp_utils::RunMethod(*this, ".ctor", array));
     }
     // public System.Void Dispose()
     // Offset: 0xFFFFFFFF

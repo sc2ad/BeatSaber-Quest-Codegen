@@ -64,7 +64,7 @@ namespace Zenject {
       constexpr DisposableInfo(System::IDisposable* Disposable_ = {}, int Priority_ = {}) noexcept : Disposable{Disposable_}, Priority{Priority_} {}
       // public System.Void .ctor(System.IDisposable disposable, System.Int32 priority)
       // Offset: 0xA3B4D8
-      static DisposableManager::DisposableInfo* New_ctor(System::IDisposable* disposable, int priority);
+      // ABORTED: conflicts with another method.  DisposableInfo(System::IDisposable* disposable, int priority);
     }; // Zenject.DisposableManager/DisposableInfo
     // private readonly System.Collections.Generic.List`1<Zenject.DisposableManager/DisposableInfo> _disposables
     // Offset: 0x10

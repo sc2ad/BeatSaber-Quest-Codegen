@@ -53,10 +53,10 @@ namespace System {
     }
     // System.Void .ctor(System.IntPtr v)
     // Offset: 0xA3F2E8
-    static RuntimeFieldHandle* New_ctor(System::IntPtr v);
+    // ABORTED: conflicts with another method.  RuntimeFieldHandle(System::IntPtr v);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xA3F2F0
-    static RuntimeFieldHandle* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
+    RuntimeFieldHandle(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.IntPtr get_Value()
     // Offset: 0xA3F2F8
     System::IntPtr get_Value();

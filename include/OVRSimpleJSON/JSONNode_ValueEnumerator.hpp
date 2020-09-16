@@ -28,13 +28,13 @@ namespace OVRSimpleJSON {
     }
     // public System.Void .ctor(System.Collections.Generic.List`1/Enumerator<OVRSimpleJSON.JSONNode> aArrayEnum)
     // Offset: 0xA3BC30
-    static JSONNode::ValueEnumerator* New_ctor(typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator aArrayEnum);
+    ValueEnumerator(typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator aArrayEnum);
     // public System.Void .ctor(System.Collections.Generic.Dictionary`2/Enumerator<System.String,OVRSimpleJSON.JSONNode> aDictEnum)
     // Offset: 0xA3BCA4
-    static JSONNode::ValueEnumerator* New_ctor(typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator aDictEnum);
+    ValueEnumerator(typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator aDictEnum);
     // public System.Void .ctor(OVRSimpleJSON.JSONNode/Enumerator aEnumerator)
     // Offset: 0xA3BD34
-    static JSONNode::ValueEnumerator* New_ctor(OVRSimpleJSON::JSONNode::Enumerator aEnumerator);
+    // ABORTED: conflicts with another method.  ValueEnumerator(OVRSimpleJSON::JSONNode::Enumerator aEnumerator);
     // public OVRSimpleJSON.JSONNode get_Current()
     // Offset: 0xA3BD64
     OVRSimpleJSON::JSONNode* get_Current();

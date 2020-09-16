@@ -29,10 +29,10 @@ namespace UnityEngine {
     }
     // public System.Void .ctor(System.String name)
     // Offset: 0xA48FF8
-    static PropertyName* New_ctor(::Il2CppString* name);
+    PropertyName(::Il2CppString* name);
     // public System.Void .ctor(UnityEngine.PropertyName other)
     // Offset: 0xA49058
-    static PropertyName* New_ctor(UnityEngine::PropertyName other);
+    // ABORTED: is copy constructor.  PropertyName(UnityEngine::PropertyName other);
     // public override System.Int32 GetHashCode()
     // Offset: 0xA49060
     // Implemented from: System.ValueType

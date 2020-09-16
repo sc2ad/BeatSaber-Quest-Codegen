@@ -53,9 +53,7 @@ namespace System::Threading {
     }
     // System.Void .ctor(T previousValue, T currentValue, System.Boolean contextChanged)
     // Offset: 0xFFFFFFFF
-    static AsyncLocalValueChangedArgs_1<T>* New_ctor(T previousValue, T currentValue, bool contextChanged) {
-      return (AsyncLocalValueChangedArgs_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<AsyncLocalValueChangedArgs_1<T>>::get(), previousValue, currentValue, contextChanged));
-    }
+    // ABORTED: conflicts with another method.  AsyncLocalValueChangedArgs_1(T previousValue, T currentValue, bool contextChanged)
   }; // System.Threading.AsyncLocalValueChangedArgs`1
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::Threading::AsyncLocalValueChangedArgs_1, "System.Threading", "AsyncLocalValueChangedArgs`1");

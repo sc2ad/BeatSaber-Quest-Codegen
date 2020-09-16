@@ -32,7 +32,7 @@ namespace UnityEngine {
     }
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
     // Offset: 0xA5FDD8
-    static ParticleSystem::ShapeModule* New_ctor(UnityEngine::ParticleSystem* particleSystem);
+    // ABORTED: conflicts with another method.  ShapeModule(UnityEngine::ParticleSystem* particleSystem);
     // public System.Void set_position(UnityEngine.Vector3 value)
     // Offset: 0xA5FDE0
     void set_position(UnityEngine::Vector3 value);

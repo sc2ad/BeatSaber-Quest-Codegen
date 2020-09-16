@@ -47,7 +47,7 @@ namespace RootMotion::FinalIK {
     constexpr Foot(RootMotion::FinalIK::IKSolver* solver_ = {}, UnityEngine::Transform* transform_ = {}, UnityEngine::Quaternion rotation_ = {}, RootMotion::FinalIK::Grounding::Leg* leg_ = {}) noexcept : solver{solver_}, transform{transform_}, rotation{rotation_}, leg{leg_} {}
     // public System.Void .ctor(RootMotion.FinalIK.IKSolver solver, UnityEngine.Transform transform)
     // Offset: 0xA46F40
-    static GrounderQuadruped::Foot* New_ctor(RootMotion::FinalIK::IKSolver* solver, UnityEngine::Transform* transform);
+    Foot(RootMotion::FinalIK::IKSolver* solver, UnityEngine::Transform* transform);
   }; // RootMotion.FinalIK.GrounderQuadruped/Foot
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

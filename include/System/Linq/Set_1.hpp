@@ -34,6 +34,7 @@ namespace System::Linq {
     struct Slot : public System::ValueType, public ::il2cpp_utils::il2cpp_type_check::NestedType {
       public:
       using declaring_type = Set_1<TElement>*;
+      static constexpr std::string_view NESTED_NAME = "Slot";
       // System.Int32 hashCode
       // Offset: 0x0
       int hashCode;
@@ -64,7 +65,7 @@ namespace System::Linq {
     // public System.Void .ctor(System.Collections.Generic.IEqualityComparer`1<TElement> comparer)
     // Offset: 0xFFFFFFFF
     static Set_1<TElement>* New_ctor(System::Collections::Generic::IEqualityComparer_1<TElement>* comparer) {
-      return (Set_1<TElement>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Set_1<TElement>*>::get(), comparer));
+      return THROW_UNLESS(il2cpp_utils::New<Set_1<TElement>*>(comparer));
     }
     // public System.Boolean Add(TElement value)
     // Offset: 0xFFFFFFFF

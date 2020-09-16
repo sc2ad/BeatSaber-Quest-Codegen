@@ -82,7 +82,7 @@ namespace System::IO {
     // System.Void .ctor(System.String path, System.String originalUserPath, System.String searchPattern, System.IO.SearchOption searchOption, System.IO.SearchResultHandler`1<TSource> resultHandler, System.Boolean checkHost)
     // Offset: 0xFFFFFFFF
     static FileSystemEnumerableIterator_1<TSource>* New_ctor(::Il2CppString* path, ::Il2CppString* originalUserPath, ::Il2CppString* searchPattern, System::IO::SearchOption searchOption, System::IO::SearchResultHandler_1<TSource>* resultHandler, bool checkHost) {
-      return (FileSystemEnumerableIterator_1<TSource>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FileSystemEnumerableIterator_1<TSource>*>::get(), path, originalUserPath, searchPattern, searchOption, resultHandler, checkHost));
+      return THROW_UNLESS(il2cpp_utils::New<FileSystemEnumerableIterator_1<TSource>*>(path, originalUserPath, searchPattern, searchOption, resultHandler, checkHost));
     }
     // private System.Void CommonInit()
     // Offset: 0xFFFFFFFF
@@ -92,7 +92,7 @@ namespace System::IO {
     // private System.Void .ctor(System.String fullPath, System.String normalizedSearchPath, System.String searchCriteria, System.String userPath, System.IO.SearchOption searchOption, System.IO.SearchResultHandler`1<TSource> resultHandler, System.Boolean checkHost)
     // Offset: 0xFFFFFFFF
     static FileSystemEnumerableIterator_1<TSource>* New_ctor(::Il2CppString* fullPath, ::Il2CppString* normalizedSearchPath, ::Il2CppString* searchCriteria, ::Il2CppString* userPath, System::IO::SearchOption searchOption, System::IO::SearchResultHandler_1<TSource>* resultHandler, bool checkHost) {
-      return (FileSystemEnumerableIterator_1<TSource>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FileSystemEnumerableIterator_1<TSource>*>::get(), fullPath, normalizedSearchPath, searchCriteria, userPath, searchOption, resultHandler, checkHost));
+      return THROW_UNLESS(il2cpp_utils::New<FileSystemEnumerableIterator_1<TSource>*>(fullPath, normalizedSearchPath, searchCriteria, userPath, searchOption, resultHandler, checkHost));
     }
     // private System.IO.SearchResult CreateSearchResult(System.IO.Directory/SearchData localSearchData, Microsoft.Win32.Win32Native/WIN32_FIND_DATA findData)
     // Offset: 0xFFFFFFFF

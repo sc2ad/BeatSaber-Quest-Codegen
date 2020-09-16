@@ -38,7 +38,7 @@ namespace System::Threading {
     constexpr CancellationTokenRegistration(System::Threading::CancellationCallbackInfo* m_callbackInfo_ = {}, System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*> m_registrationInfo_ = {}) noexcept : m_callbackInfo{m_callbackInfo_}, m_registrationInfo{m_registrationInfo_} {}
     // System.Void .ctor(System.Threading.CancellationCallbackInfo callbackInfo, System.Threading.SparselyPopulatedArrayAddInfo`1<System.Threading.CancellationCallbackInfo> registrationInfo)
     // Offset: 0xA47C20
-    static CancellationTokenRegistration* New_ctor(System::Threading::CancellationCallbackInfo* callbackInfo, System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*> registrationInfo);
+    // ABORTED: conflicts with another method.  CancellationTokenRegistration(System::Threading::CancellationCallbackInfo* callbackInfo, System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*> registrationInfo);
     // System.Boolean TryDeregister()
     // Offset: 0xA47C64
     bool TryDeregister();

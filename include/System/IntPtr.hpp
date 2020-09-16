@@ -43,16 +43,16 @@ namespace System {
     static void _set_Zero(System::IntPtr value);
     // public System.Void .ctor(System.Int32 value)
     // Offset: 0xA3F84C
-    static IntPtr* New_ctor(int value);
+    IntPtr(int value);
     // public System.Void .ctor(System.Int64 value)
     // Offset: 0xA3F858
-    static IntPtr* New_ctor(int64_t value);
+    IntPtr(int64_t value);
     // public System.Void .ctor(System.Void* value)
     // Offset: 0xA3F860
-    static IntPtr* New_ctor(void* value);
+    // ABORTED: conflicts with another method.  IntPtr(void* value);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xA3F868
-    static IntPtr* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
+    IntPtr(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // static public System.Int32 get_Size()
     // Offset: 0x1015DF8
     static int get_Size();

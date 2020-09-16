@@ -41,9 +41,7 @@ namespace System::Runtime::CompilerServices {
     }
     // System.Void .ctor(System.Threading.Tasks.Task`1<TResult> task)
     // Offset: 0xFFFFFFFF
-    static TaskAwaiter_1<TResult>* New_ctor(System::Threading::Tasks::Task_1<TResult>* task) {
-      return (TaskAwaiter_1<TResult>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TaskAwaiter_1<TResult>>::get(), task));
-    }
+    // ABORTED: conflicts with another method.  TaskAwaiter_1(System::Threading::Tasks::Task_1<TResult>* task)
     // public System.Boolean get_IsCompleted()
     // Offset: 0xFFFFFFFF
     bool get_IsCompleted() {

@@ -37,7 +37,7 @@ namespace UnityEngine::ProBuilder {
     float get_z();
     // public System.Void .ctor(UnityEngine.Vector3 vector)
     // Offset: 0xA3CCF0
-    static IntVec3* New_ctor(UnityEngine::Vector3 vector);
+    // ABORTED: conflicts with another method.  IntVec3(UnityEngine::Vector3 vector);
     // public System.Boolean Equals(UnityEngine.Vector3 p)
     // Offset: 0xA3CD0C
     bool Equals(UnityEngine::Vector3 p);

@@ -61,7 +61,7 @@ namespace Zenject {
     // Base method: System.Void MemoryPoolBase`1::.ctor()
     // Base method: System.Void Object::.ctor()
     static MonoPoolableMemoryPool_2<TParam1, TValue>* New_ctor() {
-      return (MonoPoolableMemoryPool_2<TParam1, TValue>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MonoPoolableMemoryPool_2<TParam1, TValue>*>::get())));
+      return THROW_UNLESS((il2cpp_utils::New<MonoPoolableMemoryPool_2<TParam1, TValue>*>()));
     }
     // protected System.Void Reinitialize(TParam1 p1, TValue item)
     // Offset: 0xFFFFFFFF

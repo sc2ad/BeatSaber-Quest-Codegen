@@ -63,13 +63,13 @@ namespace System {
     static void _set__legacyMode(bool value);
     // public System.Void .ctor(System.Int64 ticks)
     // Offset: 0xA2DEEC
-    static TimeSpan* New_ctor(int64_t ticks);
+    // ABORTED: conflicts with another method.  TimeSpan(int64_t ticks);
     // public System.Void .ctor(System.Int32 hours, System.Int32 minutes, System.Int32 seconds)
     // Offset: 0xA2DEF4
-    static TimeSpan* New_ctor(int hours, int minutes, int seconds);
+    TimeSpan(int hours, int minutes, int seconds);
     // public System.Void .ctor(System.Int32 days, System.Int32 hours, System.Int32 minutes, System.Int32 seconds, System.Int32 milliseconds)
     // Offset: 0xA2DEFC
-    static TimeSpan* New_ctor(int days, int hours, int minutes, int seconds, int milliseconds);
+    TimeSpan(int days, int hours, int minutes, int seconds, int milliseconds);
     // public System.Int64 get_Ticks()
     // Offset: 0xA2DF04
     int64_t get_Ticks();

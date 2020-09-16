@@ -55,7 +55,7 @@ namespace GlobalNamespace {
       void set_time(float value);
       // public System.Void .ctor(System.Int32 multiplier, System.Single time)
       // Offset: 0xA2C5FC
-      static MultiplierValuesRecorder::MultiplierValue* New_ctor(int multiplier, float time);
+      // ABORTED: conflicts with another method.  MultiplierValue(int multiplier, float time);
     }; // MultiplierValuesRecorder/MultiplierValue
     // private ScoreController _scoreController
     // Offset: 0x18

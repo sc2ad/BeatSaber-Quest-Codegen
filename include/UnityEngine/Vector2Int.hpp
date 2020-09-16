@@ -58,7 +58,7 @@ namespace UnityEngine {
     int get_y();
     // public System.Void .ctor(System.Int32 x, System.Int32 y)
     // Offset: 0xA47864
-    static Vector2Int* New_ctor(int x, int y);
+    // ABORTED: conflicts with another method.  Vector2Int(int x, int y);
     // static private System.Void .cctor()
     // Offset: 0x139C5E4
     static void _cctor();

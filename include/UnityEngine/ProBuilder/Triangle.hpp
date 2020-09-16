@@ -55,7 +55,7 @@ namespace UnityEngine::ProBuilder {
     System::Collections::Generic::IEnumerable_1<int>* get_indices();
     // public System.Void .ctor(System.Int32 a, System.Int32 b, System.Int32 c)
     // Offset: 0xA57850
-    static Triangle* New_ctor(int a, int b, int c);
+    // ABORTED: conflicts with another method.  Triangle(int a, int b, int c);
     // public System.Boolean IsAdjacent(UnityEngine.ProBuilder.Triangle other)
     // Offset: 0xA578B8
     bool IsAdjacent(UnityEngine::ProBuilder::Triangle other);

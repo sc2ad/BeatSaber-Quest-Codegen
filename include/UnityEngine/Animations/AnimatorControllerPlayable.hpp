@@ -33,7 +33,7 @@ namespace UnityEngine::Animations {
     static void _set_m_NullPlayable(UnityEngine::Animations::AnimatorControllerPlayable value);
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0xA5DCB8
-    static AnimatorControllerPlayable* New_ctor(UnityEngine::Playables::PlayableHandle handle);
+    // ABORTED: conflicts with another method.  AnimatorControllerPlayable(UnityEngine::Playables::PlayableHandle handle);
     // public System.Void SetHandle(UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0xA5DCCC
     void SetHandle(UnityEngine::Playables::PlayableHandle handle);

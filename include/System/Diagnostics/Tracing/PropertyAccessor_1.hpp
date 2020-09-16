@@ -43,7 +43,7 @@ namespace System::Diagnostics::Tracing {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PropertyAccessor_1<ContainerType>* New_ctor() {
-      return (PropertyAccessor_1<ContainerType>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PropertyAccessor_1<ContainerType>*>::get()));
+      return THROW_UNLESS(il2cpp_utils::New<PropertyAccessor_1<ContainerType>*>());
     }
   }; // System.Diagnostics.Tracing.PropertyAccessor`1
 }

@@ -86,7 +86,7 @@ namespace System {
     static void ValidateTransitionTime(System::DateTime timeOfDay, int month, int week, int day, System::DayOfWeek dayOfWeek);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xA570C0
-    static TimeZoneInfo::TransitionTime* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
+    TransitionTime(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0xA5705C
     // Implemented from: System.ValueType

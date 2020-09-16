@@ -40,7 +40,7 @@ namespace Zenject {
     // public System.Void .ctor(Zenject.IMemoryPool`2<TParam1,TValue> pool)
     // Offset: 0xFFFFFFFF
     static PoolWrapperFactory_2<TParam1, TValue>* New_ctor(Zenject::IMemoryPool_2<TParam1, TValue>* pool) {
-      return (PoolWrapperFactory_2<TParam1, TValue>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PoolWrapperFactory_2<TParam1, TValue>*>::get(), pool)));
+      return THROW_UNLESS((il2cpp_utils::New<PoolWrapperFactory_2<TParam1, TValue>*>(pool)));
     }
     // public TValue Create(TParam1 arg)
     // Offset: 0xFFFFFFFF
