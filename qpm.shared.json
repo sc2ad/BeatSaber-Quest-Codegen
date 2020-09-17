@@ -1,0 +1,47 @@
+{
+  "config": {
+    "sharedDir": "include",
+    "dependenciesDir": "extern",
+    "info": {
+      "name": "codegen",
+      "id": "codegen",
+      "version": "0.2.4",
+      "url": "https://github.com/sc2ad/BeatSaber-Quest-Codegen",
+      "additionalData": {}
+    },
+    "dependencies": [
+      {
+        "id": "beatsaber-hook",
+        "versionRange": "^0.6.0",
+        "additionalData": {}
+      }
+    ],
+    "additionalData": {}
+  },
+  "restoredDependencies": [
+    {
+      "dependency": {
+        "id": "beatsaber-hook",
+        "versionRange": "^0.6.0",
+        "additionalData": {}
+      },
+      "version": "0.6.0"
+    },
+    {
+      "dependency": {
+        "id": "modloader",
+        "versionRange": "^1.0.0",
+        "additionalData": {}
+      },
+      "version": "1.0.2"
+    },
+    {
+      "dependency": {
+        "id": "libil2cpp",
+        "versionRange": "0.1.2",
+        "additionalData": {}
+      },
+      "version": "0.1.2"
+    }
+  ]
+}
