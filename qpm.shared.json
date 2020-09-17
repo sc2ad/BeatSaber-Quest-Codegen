@@ -7,7 +7,10 @@
       "id": "codegen",
       "version": "0.2.4",
       "url": "https://github.com/sc2ad/BeatSaber-Quest-Codegen",
-      "additionalData": {}
+      "additionalData": {
+        "branchName": "version-v0.2.4",
+        "soLink": "https://github.com/sc2ad/BeatSaber-Quest-Codegen/releases/download/v0.2.4/libcodegen_0_2_4.so"
+      }
     },
     "dependencies": [
       {
