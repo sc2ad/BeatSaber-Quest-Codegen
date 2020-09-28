@@ -32,7 +32,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := il2cpp_codegen
 LOCAL_SRC_FILES += $(call rwildcard,./src,*.cpp)
 LOCAL_C_INCLUDES := ./include ./extern
-LOCAL_CFLAGS += -DMOD_ID='"il2cpp_codegen"' -DVERSION='"0.2.4"' -DNEED_UNSAFE_CSHARP -DNO_CODEGEN_USE -I'./extern'
+LOCAL_CFLAGS += -DMOD_ID='"il2cpp_codegen"' -DVERSION='"0.2.4"' -DNEED_UNSAFE_CSHARP -DNO_CODEGEN_USE -isystem'./extern'
 LOCAL_CFLAGS += -Wall -Wextra -Werror -Wno-unused-function -isystem'extern/libil2cpp/il2cpp/libil2cpp'
 LOCAL_SHARED_LIBRARIES += beatsaber-hook
 LOCAL_LDLIBS := -llog
