@@ -29,7 +29,7 @@ namespace HMUI {
     static void _cctor();
     // System.Void <PushViewController>g__AnimationLayouter|3_0(System.Single t, HMUI.ViewController[] viewControllers)
     // Offset: 0x117D134
-    void $PushViewController$g__AnimationLayouter|3_0(float t, ::Array<HMUI::ViewController*>* viewControllers);
+    void $PushViewController$g__AnimationLayouter_3_0(float t, ::Array<HMUI::ViewController*>* viewControllers);
     // public System.Void .ctor()
     // Offset: 0x117D12C
     // Implemented from: System.Object

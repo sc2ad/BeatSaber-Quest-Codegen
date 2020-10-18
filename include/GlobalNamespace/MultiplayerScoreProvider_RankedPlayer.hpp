@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     public:
     // private readonly MultiplayerSyncState`3<StandardScoreSyncState,StandardScoreSyncState/Score,System.Int32> _multiplayerSyncState
     // Offset: 0x10
-    GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState::Score, int>* multiplayerSyncState;
+    GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>* multiplayerSyncState;
     // private readonly MultiplayerScoreProvider _scoreSyncManager
     // Offset: 0x18
     GlobalNamespace::MultiplayerScoreProvider* scoreSyncManager;
@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     ::Il2CppString* get_userName();
     // public System.Void .ctor(MultiplayerSyncState`3<StandardScoreSyncState,StandardScoreSyncState/Score,System.Int32> multiplayerSyncState, MultiplayerScoreProvider scoreSyncManager)
     // Offset: 0xF03B48
-    static MultiplayerScoreProvider::RankedPlayer* New_ctor(GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState::Score, int>* multiplayerSyncState, GlobalNamespace::MultiplayerScoreProvider* scoreSyncManager);
+    static MultiplayerScoreProvider::RankedPlayer* New_ctor(GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>* multiplayerSyncState, GlobalNamespace::MultiplayerScoreProvider* scoreSyncManager);
     // public System.Int32 CompareTo(MultiplayerScoreProvider/RankedPlayer other)
     // Offset: 0xF03FA0
     // Implemented from: System.IComparable`1

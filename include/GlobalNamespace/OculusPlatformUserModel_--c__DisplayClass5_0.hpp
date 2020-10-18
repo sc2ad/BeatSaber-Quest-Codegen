@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     System::Threading::Tasks::TaskCompletionSource_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>* tcs;
     // System.Void <GetUserNamesForUserIds>g__Fetch|0(System.Int32 index, System.UInt64 platformId)
     // Offset: 0x100AFDC
-    void $GetUserNamesForUserIds$g__Fetch|0(int index, uint64_t platformId);
+    void $GetUserNamesForUserIds$g__Fetch_0(int index, uint64_t platformId);
     // public System.Void .ctor()
     // Offset: 0x100AFD4
     // Implemented from: System.Object

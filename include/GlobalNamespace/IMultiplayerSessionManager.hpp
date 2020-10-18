@@ -10,7 +10,7 @@
 // Including type: DisconnectedReason
 #include "GlobalNamespace/DisconnectedReason.hpp"
 // Including type: MultiplayerSessionManager/MessageType
-#include "GlobalNamespace/MultiplayerSessionManager.hpp"
+#include "GlobalNamespace/MultiplayerSessionManager_MessageType.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -166,14 +166,14 @@ namespace GlobalNamespace {
     // public System.Void RegisterCallback(MultiplayerSessionManager/MessageType serializerType, System.Action`2<T,IConnectedPlayer> callback, System.Func`1<T> constructor)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void RegisterCallback(GlobalNamespace::MultiplayerSessionManager::MessageType serializerType, System::Action_2<T, GlobalNamespace::IConnectedPlayer*>* callback, System::Func_1<T>* constructor) {
+    void RegisterCallback(GlobalNamespace::MultiplayerSessionManager_MessageType serializerType, System::Action_2<T, GlobalNamespace::IConnectedPlayer*>* callback, System::Func_1<T>* constructor) {
       static_assert(std::is_base_of_v<LiteNetLib::Utils::INetSerializable, std::remove_pointer_t<T>>);
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "RegisterCallback", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, serializerType, callback, constructor));
     }
     // public System.Void UnregisterCallback(MultiplayerSessionManager/MessageType serializerType)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void UnregisterCallback(GlobalNamespace::MultiplayerSessionManager::MessageType serializerType) {
+    void UnregisterCallback(GlobalNamespace::MultiplayerSessionManager_MessageType serializerType) {
       static_assert(std::is_base_of_v<LiteNetLib::Utils::INetSerializable, std::remove_pointer_t<T>>);
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "UnregisterCallback", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, serializerType));
     }
@@ -185,10 +185,10 @@ namespace GlobalNamespace {
     bool LocalPlayerHasState(::Il2CppString* state);
     // public System.Void RegisterSerializer(MultiplayerSessionManager/MessageType serializerType, INetworkPacketSubSerializer`1<IConnectedPlayer> subSerializer)
     // Offset: 0xFFFFFFFF
-    void RegisterSerializer(GlobalNamespace::MultiplayerSessionManager::MessageType serializerType, GlobalNamespace::INetworkPacketSubSerializer_1<GlobalNamespace::IConnectedPlayer*>* subSerializer);
+    void RegisterSerializer(GlobalNamespace::MultiplayerSessionManager_MessageType serializerType, GlobalNamespace::INetworkPacketSubSerializer_1<GlobalNamespace::IConnectedPlayer*>* subSerializer);
     // public System.Void UnregisterSerializer(MultiplayerSessionManager/MessageType serializerType, INetworkPacketSubSerializer`1<IConnectedPlayer> subSerializer)
     // Offset: 0xFFFFFFFF
-    void UnregisterSerializer(GlobalNamespace::MultiplayerSessionManager::MessageType serializerType, GlobalNamespace::INetworkPacketSubSerializer_1<GlobalNamespace::IConnectedPlayer*>* subSerializer);
+    void UnregisterSerializer(GlobalNamespace::MultiplayerSessionManager_MessageType serializerType, GlobalNamespace::INetworkPacketSubSerializer_1<GlobalNamespace::IConnectedPlayer*>* subSerializer);
     // public System.Void PerformAtSyncTime(System.Single syncTime, System.Action action)
     // Offset: 0xFFFFFFFF
     void PerformAtSyncTime(float syncTime, System::Action* action);

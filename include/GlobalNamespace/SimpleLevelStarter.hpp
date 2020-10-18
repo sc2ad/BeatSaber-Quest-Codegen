@@ -117,7 +117,7 @@ namespace GlobalNamespace {
     void HandleLevelDidFinish(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData, GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // private System.Void <StartLevel>g__AfterSceneSwitchCallback|14_0(Zenject.DiContainer container)
     // Offset: 0xEEDC50
-    void $StartLevel$g__AfterSceneSwitchCallback|14_0(Zenject::DiContainer* container);
+    void $StartLevel$g__AfterSceneSwitchCallback_14_0(Zenject::DiContainer* container);
     // public System.Void .ctor()
     // Offset: 0xEEDB7C
     // Implemented from: UnityEngine.MonoBehaviour

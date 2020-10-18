@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     constexpr operator System::IntPtr() const noexcept = delete;
     // public LocalMultiplayerSyncState`3<StandardScoreSyncState,StandardScoreSyncState/Score,System.Int32> get_localState()
     // Offset: 0xFC6334
-    GlobalNamespace::LocalMultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState::Score, int>* get_localState();
+    GlobalNamespace::LocalMultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>* get_localState();
     // private System.Void Init()
     // Offset: 0xFC633C
     void Init();
@@ -87,10 +87,10 @@ namespace GlobalNamespace {
     void UpdatePlayer(GlobalNamespace::MockPlayer* connectedPlayer);
     // public MultiplayerSyncState`3<StandardScoreSyncState,StandardScoreSyncState/Score,System.Int32> GetSyncStateForPlayer(IConnectedPlayer player)
     // Offset: 0xFC6BAC
-    GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState::Score, int>* GetSyncStateForPlayer(GlobalNamespace::IConnectedPlayer* player);
+    GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>* GetSyncStateForPlayer(GlobalNamespace::IConnectedPlayer* player);
     // public MultiplayerSyncState`3<StandardScoreSyncState,StandardScoreSyncState/Score,System.Int32> GetSyncState(System.Int32 i)
     // Offset: 0xFC6C88
-    GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState::Score, int>* GetSyncState(int i);
+    GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>* GetSyncState(int i);
     // private System.Int32 Interpolate(System.Int32 prev, System.Single pt, System.Int32 curr, System.Single ct, System.Single t)
     // Offset: 0xFC6D00
     int Interpolate(int prev, float pt, int curr, float ct, float t);

@@ -38,19 +38,19 @@ namespace GlobalNamespace {
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // private LocalMultiplayerSyncState`3<NodePoseSyncState,NodePoseSyncState/NodePose,PoseSerializable> _localState
     // Offset: 0x20
-    GlobalNamespace::LocalMultiplayerSyncState_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState::NodePose, GlobalNamespace::PoseSerializable>* localState;
+    GlobalNamespace::LocalMultiplayerSyncState_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>* localState;
     // public LocalMultiplayerSyncState`3<NodePoseSyncState,NodePoseSyncState/NodePose,PoseSerializable> get_localState()
     // Offset: 0xFC4058
-    GlobalNamespace::LocalMultiplayerSyncState_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState::NodePose, GlobalNamespace::PoseSerializable>* get_localState();
+    GlobalNamespace::LocalMultiplayerSyncState_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>* get_localState();
     // private System.Void Init()
     // Offset: 0xFC4060
     void Init();
     // public MultiplayerSyncState`3<NodePoseSyncState,NodePoseSyncState/NodePose,PoseSerializable> GetSyncStateForPlayer(IConnectedPlayer player)
     // Offset: 0xFC4174
-    GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState::NodePose, GlobalNamespace::PoseSerializable>* GetSyncStateForPlayer(GlobalNamespace::IConnectedPlayer* player);
+    GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>* GetSyncStateForPlayer(GlobalNamespace::IConnectedPlayer* player);
     // public MultiplayerSyncState`3<NodePoseSyncState,NodePoseSyncState/NodePose,PoseSerializable> GetSyncState(System.Int32 i)
     // Offset: 0xFC417C
-    GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState::NodePose, GlobalNamespace::PoseSerializable>* GetSyncState(int i);
+    GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>* GetSyncState(int i);
     // private PoseSerializable Interpolate(PoseSerializable prev, System.Single prevTime, PoseSerializable curr, System.Single currTime, System.Single time)
     // Offset: 0xFC41DC
     GlobalNamespace::PoseSerializable Interpolate(GlobalNamespace::PoseSerializable prev, float prevTime, GlobalNamespace::PoseSerializable curr, float currTime, float time);

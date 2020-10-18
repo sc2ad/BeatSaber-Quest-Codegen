@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     static GlobalNamespace::BeatmapEventType ConvertFromBeatmapSaveDataBeatmapEventType(GlobalNamespace::BeatmapSaveData::BeatmapEventType beatmapEventType);
     // private System.Single <GetBeatmapDataFromBeatmapSaveData>g__ProcessTime|2_3(System.Single bpmTime, ref BeatmapDataLoader/<>c__DisplayClass2_0 )
     // Offset: 0x104D33C
-    float $GetBeatmapDataFromBeatmapSaveData$g__ProcessTime|2_3(float bpmTime, GlobalNamespace::BeatmapDataLoader::$$c__DisplayClass2_0& param_1);
+    float $GetBeatmapDataFromBeatmapSaveData$g__ProcessTime_2_3(float bpmTime, GlobalNamespace::BeatmapDataLoader::$$c__DisplayClass2_0& param_1);
     // public System.Void .ctor()
     // Offset: 0x104D5F8
     // Implemented from: System.Object

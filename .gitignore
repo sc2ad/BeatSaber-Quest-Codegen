@@ -6,3 +6,4 @@ qpm.lock.json
 ndkpath.txt
 obj/
 libs/
+qpm.shared.json
