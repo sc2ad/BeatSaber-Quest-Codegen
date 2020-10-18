@@ -13,6 +13,9 @@ namespace GlobalNamespace {
     // public System.Single get_songTime()
     // Offset: 0xFFFFFFFF
     float get_songTime();
+    // public System.Single get_songEndTime()
+    // Offset: 0xFFFFFFFF
+    float get_songEndTime();
   }; // IAudioTimeSource
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -25,18 +25,18 @@ namespace VRUIControls {
     static VRUIControls::VRGraphicRaycaster::$$c* _get_$$9();
     // Set static field: static public readonly VRUIControls.VRGraphicRaycaster/<>c <>9
     static void _set_$$9(VRUIControls::VRGraphicRaycaster::$$c* value);
-    // Get static field: static public System.Comparison`1<VRUIControls.VRGraphicRaycaster/TGraphicRaycastResult> <>9__13_0
-    static System::Comparison_1<VRUIControls::VRGraphicRaycaster::TGraphicRaycastResult>* _get_$$9__13_0();
-    // Set static field: static public System.Comparison`1<VRUIControls.VRGraphicRaycaster/TGraphicRaycastResult> <>9__13_0
-    static void _set_$$9__13_0(System::Comparison_1<VRUIControls::VRGraphicRaycaster::TGraphicRaycastResult>* value);
+    // Get static field: static public System.Comparison`1<VRUIControls.VRGraphicRaycaster/VRGraphicRaycastResult> <>9__12_0
+    static System::Comparison_1<VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult>* _get_$$9__12_0();
+    // Set static field: static public System.Comparison`1<VRUIControls.VRGraphicRaycaster/VRGraphicRaycastResult> <>9__12_0
+    static void _set_$$9__12_0(System::Comparison_1<VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1939ED0
+    // Offset: 0x21A795C
     static void _cctor();
-    // System.Int32 <Raycast>b__13_0(VRUIControls.VRGraphicRaycaster/TGraphicRaycastResult g1, VRUIControls.VRGraphicRaycaster/TGraphicRaycastResult g2)
-    // Offset: 0x1939F40
-    int $Raycast$b__13_0(VRUIControls::VRGraphicRaycaster::TGraphicRaycastResult g1, VRUIControls::VRGraphicRaycaster::TGraphicRaycastResult g2);
+    // System.Int32 <RaycastCanvas>b__12_0(VRUIControls.VRGraphicRaycaster/VRGraphicRaycastResult g1, VRUIControls.VRGraphicRaycaster/VRGraphicRaycastResult g2)
+    // Offset: 0x21A79CC
+    int $RaycastCanvas$b__12_0(VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult g1, VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult g2);
     // public System.Void .ctor()
-    // Offset: 0x1939F38
+    // Offset: 0x21A79C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static VRGraphicRaycaster::$$c* New_ctor();

@@ -24,16 +24,16 @@ namespace System::Threading {
   class ParameterizedThreadStart : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x13E0B18
+    // Offset: 0x16D5468
     static ParameterizedThreadStart* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Object obj)
-    // Offset: 0x13E0B2C
+    // Offset: 0x16D547C
     void Invoke(::Il2CppObject* obj);
     // public System.IAsyncResult BeginInvoke(System.Object obj, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x13E0EE4
+    // Offset: 0x16D5834
     System::IAsyncResult* BeginInvoke(::Il2CppObject* obj, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x13E0F08
+    // Offset: 0x16D5858
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Threading.ParameterizedThreadStart
 }

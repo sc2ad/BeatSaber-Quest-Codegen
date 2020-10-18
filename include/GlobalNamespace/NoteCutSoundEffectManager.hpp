@@ -9,8 +9,6 @@
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: NoteCutSoundEffect
 #include "GlobalNamespace/NoteCutSoundEffect.hpp"
-// Including type: BeatmapObjectCallbackController
-#include "GlobalNamespace/BeatmapObjectCallbackController.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 // Completed includes
@@ -21,17 +19,18 @@ namespace GlobalNamespace {
   class AudioManagerSO;
   // Forward declaring type: BeatmapObjectManager
   class BeatmapObjectManager;
-  // Forward declaring type: PlayerController
-  class PlayerController;
+  // Forward declaring type: SaberManager
+  class SaberManager;
+  // Forward declaring type: AudioTimeSyncController
+  class AudioTimeSyncController;
   // Forward declaring type: RandomObjectPicker`1<T>
   template<typename T>
   class RandomObjectPicker_1;
-  // Forward declaring type: AudioTimeSyncController
-  class AudioTimeSyncController;
-  // Forward declaring type: BeatmapObjectData
-  class BeatmapObjectData;
-  // Forward declaring type: INoteController
-  class INoteController;
+  // Forward declaring type: MonoMemoryPoolContainer`1<T>
+  template<typename T>
+  class MonoMemoryPoolContainer_1;
+  // Forward declaring type: NoteController
+  class NoteController;
   // Forward declaring type: NoteCutInfo
   class NoteCutInfo;
 }
@@ -63,54 +62,51 @@ namespace GlobalNamespace {
     // private UnityEngine.AudioClip _testAudioClip
     // Offset: 0x38
     UnityEngine::AudioClip* testAudioClip;
-    // private NoteCutSoundEffectManager/InitData _initData
+    // private readonly NoteCutSoundEffectManager/InitData _initData
     // Offset: 0x40
     GlobalNamespace::NoteCutSoundEffectManager::InitData* initData;
-    // private BeatmapObjectManager _beatmapObjectManager
+    // private readonly BeatmapObjectManager _beatmapObjectManager
     // Offset: 0x48
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
-    // private PlayerController _playerController
+    // private readonly SaberManager _saberManager
     // Offset: 0x50
-    GlobalNamespace::PlayerController* playerController;
-    // private BeatmapObjectCallbackController _beatmapObjectCallbackController
+    GlobalNamespace::SaberManager* saberManager;
+    // private readonly NoteCutSoundEffect/Pool _noteCutSoundEffectPool
     // Offset: 0x58
-    GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
-    // private NoteCutSoundEffect/Pool _noteCutSoundEffectPool
-    // Offset: 0x60
     GlobalNamespace::NoteCutSoundEffect::Pool* noteCutSoundEffectPool;
-    // private AudioTimeSyncController _audioTimeSyncController
-    // Offset: 0x68
+    // private readonly AudioTimeSyncController _audioTimeSyncController
+    // Offset: 0x60
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // private System.Boolean <handleWrongSaberTypeAsGood>k__BackingField
-    // Offset: 0x70
+    // Offset: 0x68
     bool handleWrongSaberTypeAsGood;
-    // private BeatmapObjectCallbackController/BeatmapObjectCallbackData _beatmapObjectCallbackData
-    // Offset: 0x78
-    GlobalNamespace::BeatmapObjectCallbackController::BeatmapObjectCallbackData* beatmapObjectCallbackData;
     // private RandomObjectPicker`1<UnityEngine.AudioClip> _randomLongCutSoundPicker
-    // Offset: 0x80
+    // Offset: 0x70
     GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* randomLongCutSoundPicker;
     // private RandomObjectPicker`1<UnityEngine.AudioClip> _randomShortCutSoundPicker
-    // Offset: 0x88
+    // Offset: 0x78
     GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* randomShortCutSoundPicker;
     // private System.Single _prevNoteATime
-    // Offset: 0x90
+    // Offset: 0x80
     float prevNoteATime;
     // private System.Single _prevNoteBTime
-    // Offset: 0x94
+    // Offset: 0x84
     float prevNoteBTime;
     // private NoteCutSoundEffect _prevNoteASoundEffect
-    // Offset: 0x98
+    // Offset: 0x88
     GlobalNamespace::NoteCutSoundEffect* prevNoteASoundEffect;
     // private NoteCutSoundEffect _prevNoteBSoundEffect
-    // Offset: 0xA0
+    // Offset: 0x90
     GlobalNamespace::NoteCutSoundEffect* prevNoteBSoundEffect;
     // private System.Single _beatAlignOffset
-    // Offset: 0xA8
+    // Offset: 0x98
     float beatAlignOffset;
     // private System.Boolean _useTestAudioClips
-    // Offset: 0xAC
+    // Offset: 0x9C
     bool useTestAudioClips;
+    // private MonoMemoryPoolContainer`1<NoteCutSoundEffect> _noteCutSoundEffectPoolContainer
+    // Offset: 0xA0
+    GlobalNamespace::MonoMemoryPoolContainer_1<GlobalNamespace::NoteCutSoundEffect*>* noteCutSoundEffectPoolContainer;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kMaxNumberOfEffects
@@ -132,34 +128,34 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kDenseNotesVolumeMul
     static void _set_kDenseNotesVolumeMul(float value);
     // public System.Boolean get_handleWrongSaberTypeAsGood()
-    // Offset: 0xC1865C
+    // Offset: 0x10A8C60
     bool get_handleWrongSaberTypeAsGood();
     // public System.Void set_handleWrongSaberTypeAsGood(System.Boolean value)
-    // Offset: 0xC18664
+    // Offset: 0x10A8C68
     void set_handleWrongSaberTypeAsGood(bool value);
     // protected System.Void Start()
-    // Offset: 0xC18670
+    // Offset: 0x10A8C74
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xC1887C
+    // Offset: 0x10A8EB0
     void OnDestroy();
-    // private System.Void BeatmapObjectCallback(BeatmapObjectData beatmapObjectData)
-    // Offset: 0xC18994
-    void BeatmapObjectCallback(GlobalNamespace::BeatmapObjectData* beatmapObjectData);
-    // private System.Void HandleNoteWasCut(INoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0xC18E4C
-    void HandleNoteWasCut(GlobalNamespace::INoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
+    // private System.Void HandleNoteWasSpawned(NoteController noteController)
+    // Offset: 0x10A8FA0
+    void HandleNoteWasSpawned(GlobalNamespace::NoteController* noteController);
+    // private System.Void HandleNoteWasCut(NoteController noteController, NoteCutInfo noteCutInfo)
+    // Offset: 0x10A9430
+    void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // private System.Void HandleCutSoundEffectDidFinish(NoteCutSoundEffect cutSoundEffect)
-    // Offset: 0xC18F68
+    // Offset: 0x10A954C
     void HandleCutSoundEffectDidFinish(GlobalNamespace::NoteCutSoundEffect* cutSoundEffect);
     // public System.Void Pause()
-    // Offset: 0xC19014
+    // Offset: 0x10A95F8
     void Pause();
     // public System.Void Resume()
-    // Offset: 0xC19110
+    // Offset: 0x10A96F4
     void Resume();
     // public System.Void .ctor()
-    // Offset: 0xC19254
+    // Offset: 0x10A983C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

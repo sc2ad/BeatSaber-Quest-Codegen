@@ -4,12 +4,12 @@
 // Begin includes
 // Including type: TutorialPause
 #include "GlobalNamespace/TutorialPause.hpp"
-// Including type: System.Action
-#include "System/Action.hpp"
 // Including type: TutorialSongController
 #include "GlobalNamespace/TutorialSongController.hpp"
-// Including type: PlayerController
-#include "GlobalNamespace/PlayerController.hpp"
+// Including type: SaberManager
+#include "GlobalNamespace/SaberManager.hpp"
+// Including type: System.Action
+#include "System/Action.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

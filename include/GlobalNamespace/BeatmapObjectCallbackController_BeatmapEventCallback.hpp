@@ -31,16 +31,16 @@ namespace GlobalNamespace {
   class BeatmapObjectCallbackController::BeatmapEventCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xB7638C
+    // Offset: 0x105B584
     static BeatmapObjectCallbackController::BeatmapEventCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(BeatmapEventData eventData)
-    // Offset: 0xB75AF0
+    // Offset: 0x105AC00
     void Invoke(GlobalNamespace::BeatmapEventData* eventData);
     // public System.IAsyncResult BeginInvoke(BeatmapEventData eventData, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xB763A0
+    // Offset: 0x105B598
     System::IAsyncResult* BeginInvoke(GlobalNamespace::BeatmapEventData* eventData, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xB763C4
+    // Offset: 0x105B5BC
     void EndInvoke(System::IAsyncResult* result);
   }; // BeatmapObjectCallbackController/BeatmapEventCallback
 }

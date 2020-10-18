@@ -23,13 +23,13 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x1C
     UnityEngine::Vector2 scale;
     // public System.Void .ctor(UnityEngine.Vector2 position, System.Single rotation, UnityEngine.Vector2 scale)
-    // Offset: 0x18D27E4
+    // Offset: 0x2125C0C
     static Transform2D* New_ctor(UnityEngine::Vector2 position, float rotation, UnityEngine::Vector2 scale);
     // public UnityEngine.Vector2 TransformPoint(UnityEngine.Vector2 p)
-    // Offset: 0x18D2840
+    // Offset: 0x2125C68
     UnityEngine::Vector2 TransformPoint(UnityEngine::Vector2 p);
     // public override System.String ToString()
-    // Offset: 0x18D2914
+    // Offset: 0x2125D3C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

@@ -29,46 +29,46 @@ namespace System::IO {
     // Offset: 0x68
     ::Il2CppString* parent;
     // public System.Void .ctor(System.String path)
-    // Offset: 0x1131FB8
+    // Offset: 0x169199C
     static DirectoryInfo* New_ctor(::Il2CppString* path);
     // System.Void .ctor(System.String path, System.Boolean simpleOriginalPath)
-    // Offset: 0x113083C
+    // Offset: 0x1690220
     static DirectoryInfo* New_ctor(::Il2CppString* path, bool simpleOriginalPath);
     // private System.Void Initialize()
-    // Offset: 0x113217C
+    // Offset: 0x1691B60
     void Initialize();
     // public System.IO.DirectoryInfo get_Parent()
-    // Offset: 0x113093C
+    // Offset: 0x1690320
     System::IO::DirectoryInfo* get_Parent();
     // public System.Void Create()
-    // Offset: 0x11309B8
+    // Offset: 0x169039C
     void Create();
     // public System.IO.DirectoryInfo[] GetDirectories()
-    // Offset: 0x1132628
+    // Offset: 0x169200C
     ::Array<System::IO::DirectoryInfo*>* GetDirectories();
     // public System.IO.DirectoryInfo[] GetDirectories(System.String searchPattern)
-    // Offset: 0x1132678
+    // Offset: 0x169205C
     ::Array<System::IO::DirectoryInfo*>* GetDirectories(::Il2CppString* searchPattern);
     // System.Void CheckPath(System.String path)
-    // Offset: 0x1132028
+    // Offset: 0x1691A0C
     void CheckPath(::Il2CppString* path);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x113242C
+    // Offset: 0x1691E10
     // Implemented from: System.IO.FileSystemInfo
     // Base method: System.Void FileSystemInfo::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static DirectoryInfo* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Boolean get_Exists()
-    // Offset: 0x1132594
+    // Offset: 0x1691F78
     // Implemented from: System.IO.FileSystemInfo
     // Base method: System.Boolean FileSystemInfo::get_Exists()
     bool get_Exists();
     // public override System.String get_Name()
-    // Offset: 0x1132620
+    // Offset: 0x1692004
     // Implemented from: System.IO.FileSystemInfo
     // Base method: System.String FileSystemInfo::get_Name()
     ::Il2CppString* get_Name();
     // public override System.String ToString()
-    // Offset: 0x1132804
+    // Offset: 0x16921E8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

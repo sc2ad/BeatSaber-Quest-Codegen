@@ -34,6 +34,9 @@ namespace System::Collections {
     // public System.Boolean Contains(System.Object key)
     // Offset: 0xFFFFFFFF
     bool System_Collections_IDictionary_Contains(::Il2CppObject* key);
+    // public System.Void Add(System.Object key, System.Object value)
+    // Offset: 0xFFFFFFFF
+    void System_Collections_IDictionary_Add(::Il2CppObject* key, ::Il2CppObject* value);
     // public System.Collections.IDictionaryEnumerator GetEnumerator()
     // Offset: 0xFFFFFFFF
     System::Collections::IDictionaryEnumerator* System_Collections_IDictionary_GetEnumerator();

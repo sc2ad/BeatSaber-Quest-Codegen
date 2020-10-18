@@ -32,10 +32,10 @@ namespace GlobalNamespace {
   class SteamVR_Utils::SystemFn : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xFDBD28
+    // Offset: 0x1529CC4
     static SteamVR_Utils::SystemFn* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Object Invoke(Valve.VR.CVRSystem system, params System.Object[] args)
-    // Offset: 0xFD9018
+    // Offset: 0x1526FB4
     ::Il2CppObject* Invoke(Valve::VR::CVRSystem* system, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Object Invoke(Valve.VR.CVRSystem system, params System.Object[] args)
     ::Il2CppObject* Invoke(Valve::VR::CVRSystem* system, std::initializer_list<::Il2CppObject*> args);
@@ -45,10 +45,10 @@ namespace GlobalNamespace {
       return Invoke(system, {args...});
     }
     // public System.IAsyncResult BeginInvoke(Valve.VR.CVRSystem system, System.Object[] args, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xFDBD3C
+    // Offset: 0x1529CD8
     System::IAsyncResult* BeginInvoke(Valve::VR::CVRSystem* system, ::Array<::Il2CppObject*>* args, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Object EndInvoke(System.IAsyncResult result)
-    // Offset: 0xFDBD6C
+    // Offset: 0x1529D08
     ::Il2CppObject* EndInvoke(System::IAsyncResult* result);
   }; // SteamVR_Utils/SystemFn
 }

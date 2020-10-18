@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRCompositor::_GetVulkanInstanceExtensionsRequired : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1607DA4
+    // Offset: 0x1E32024
     static IVRCompositor::_GetVulkanInstanceExtensionsRequired* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.Text.StringBuilder pchValue, System.UInt32 unBufferSize)
-    // Offset: 0x1607DB8
+    // Offset: 0x1E32038
     uint Invoke(System::Text::StringBuilder* pchValue, uint unBufferSize);
     // public System.IAsyncResult BeginInvoke(System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16081EC
+    // Offset: 0x1E3246C
     System::IAsyncResult* BeginInvoke(System::Text::StringBuilder* pchValue, uint unBufferSize, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1608288
+    // Offset: 0x1E32508
     uint EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_GetVulkanInstanceExtensionsRequired
 }

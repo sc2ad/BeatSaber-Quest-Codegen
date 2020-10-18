@@ -30,8 +30,8 @@ namespace Zenject {
   // Forward declaring type: ConcreteBinderGeneric`1<TContract>
   template<typename TContract>
   class ConcreteBinderGeneric_1;
-  // Forward declaring type: FactorySubContainerBinder`11<TContract, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10>
-  template<typename TContract, typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10>
+  // Forward declaring type: FactorySubContainerBinder`11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>
+  template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10, typename TContract>
   class FactorySubContainerBinder_11;
   // Forward declaring type: IProvider
   class IProvider;

@@ -25,25 +25,25 @@ namespace UnityEngine::Bindings {
     // Offset: 0x20
     UnityEngine::Bindings::CodegenOptions CodegenOptions;
     // public System.Void set_Header(System.String value)
-    // Offset: 0x1975108
+    // Offset: 0x2223E60
     void set_Header(::Il2CppString* value);
     // public System.Void set_IntermediateScriptingStructName(System.String value)
-    // Offset: 0x1975110
+    // Offset: 0x2223E68
     void set_IntermediateScriptingStructName(::Il2CppString* value);
     // public System.Void set_CodegenOptions(UnityEngine.Bindings.CodegenOptions value)
-    // Offset: 0x1975118
+    // Offset: 0x2223E70
     void set_CodegenOptions(UnityEngine::Bindings::CodegenOptions value);
     // public System.Void .ctor(UnityEngine.Bindings.CodegenOptions codegenOptions)
-    // Offset: 0x1975148
+    // Offset: 0x2223EA0
     static NativeTypeAttribute* New_ctor(UnityEngine::Bindings::CodegenOptions codegenOptions);
     // public System.Void .ctor(System.String header)
-    // Offset: 0x1975174
+    // Offset: 0x2223ECC
     static NativeTypeAttribute* New_ctor(::Il2CppString* header);
     // public System.Void .ctor(UnityEngine.Bindings.CodegenOptions codegenOptions, System.String intermediateStructName)
-    // Offset: 0x1975270
+    // Offset: 0x2223FC8
     static NativeTypeAttribute* New_ctor(UnityEngine::Bindings::CodegenOptions codegenOptions, ::Il2CppString* intermediateStructName);
     // public System.Void .ctor()
-    // Offset: 0x1975120
+    // Offset: 0x2223E78
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

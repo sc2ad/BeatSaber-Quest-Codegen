@@ -32,27 +32,27 @@ namespace UnityEngine::XR {
     // Set static field: static private UnityEngine.XR.MeshId s_InvalidId
     static void _set_s_InvalidId(UnityEngine::XR::MeshId value);
     // static private System.Void .cctor()
-    // Offset: 0x1967F68
+    // Offset: 0x220E8CC
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0xA5F088
+    // Offset: 0xDDE090
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA5F090
+    // Offset: 0xDDE098
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA5F0CC
+    // Offset: 0xDDE0D4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(UnityEngine.XR.MeshId other)
-    // Offset: 0xA5F0D4
+    // Offset: 0xDDE0DC
     // Implemented from: System.IEquatable`1
-    // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.XR.MeshId other)
+    // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.XR.MeshId other)
     bool Equals(UnityEngine::XR::MeshId other);
   }; // UnityEngine.XR.MeshId
 }

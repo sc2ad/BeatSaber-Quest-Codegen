@@ -81,62 +81,62 @@ namespace GlobalNamespace {
     // Set static field: static private OVRGazePointer _instance
     static void _set__instance(GlobalNamespace::OVRGazePointer* value);
     // public System.Boolean get_hidden()
-    // Offset: 0xCD3EBC
+    // Offset: 0x113C8BC
     bool get_hidden();
     // private System.Void set_hidden(System.Boolean value)
-    // Offset: 0xCD3EC4
+    // Offset: 0x113C8C4
     void set_hidden(bool value);
     // public System.Single get_currentScale()
-    // Offset: 0xCD3ED0
+    // Offset: 0x113C8D0
     float get_currentScale();
     // private System.Void set_currentScale(System.Single value)
-    // Offset: 0xCD3ED8
+    // Offset: 0x113C8D8
     void set_currentScale(float value);
     // static public OVRGazePointer get_instance()
-    // Offset: 0xCD3EE0
+    // Offset: 0x113C8E0
     static GlobalNamespace::OVRGazePointer* get_instance();
     // public System.Single get_visibilityStrength()
-    // Offset: 0xCD40C0
+    // Offset: 0x113CAC0
     float get_visibilityStrength();
     // public System.Single get_SelectionProgress()
-    // Offset: 0xCD41D0
+    // Offset: 0x113CBD0
     float get_SelectionProgress();
     // public System.Void set_SelectionProgress(System.Single value)
-    // Offset: 0xCD4258
+    // Offset: 0x113CC58
     void set_SelectionProgress(float value);
     // public System.Void Awake()
-    // Offset: 0xCD42E8
+    // Offset: 0x113CCE8
     void Awake();
     // private System.Void Update()
-    // Offset: 0xCD4470
+    // Offset: 0x113CE70
     void Update();
     // private System.Void LateUpdate()
-    // Offset: 0xCD4ECC
+    // Offset: 0x113D8CC
     void LateUpdate();
     // public System.Void RequestHide()
-    // Offset: 0xCD5090
+    // Offset: 0x113DA90
     void RequestHide();
     // public System.Void RequestShow()
-    // Offset: 0xCD4E9C
+    // Offset: 0x113D89C
     void RequestShow();
     // private System.Void Hide()
-    // Offset: 0xCD46A8
+    // Offset: 0x113D0A8
     void Hide();
     // private System.Void Show()
-    // Offset: 0xCD4990
+    // Offset: 0x113D390
     void Show();
     // public override System.Void SetCursorStartDest(UnityEngine.Vector3 _, UnityEngine.Vector3 pos, UnityEngine.Vector3 normal)
-    // Offset: 0xCD4C74
+    // Offset: 0x113D674
     // Implemented from: OVRCursor
     // Base method: System.Void OVRCursor::SetCursorStartDest(UnityEngine.Vector3 _, UnityEngine.Vector3 pos, UnityEngine.Vector3 normal)
     void SetCursorStartDest(UnityEngine::Vector3 _, UnityEngine::Vector3 pos, UnityEngine::Vector3 normal);
     // public override System.Void SetCursorRay(UnityEngine.Transform ray)
-    // Offset: 0xCD4EC8
+    // Offset: 0x113D8C8
     // Implemented from: OVRCursor
     // Base method: System.Void OVRCursor::SetCursorRay(UnityEngine.Transform ray)
     void SetCursorRay(UnityEngine::Transform* ray);
     // public System.Void .ctor()
-    // Offset: 0xCD50C8
+    // Offset: 0x113DAC8
     // Implemented from: OVRCursor
     // Base method: System.Void OVRCursor::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -12,7 +12,7 @@ namespace GlobalNamespace {
   class AudioHelpers : public ::Il2CppObject {
     public:
     // static public System.Single NormalizedVolumeToDB(System.Single normalizedVolume)
-    // Offset: 0xCADCA8
+    // Offset: 0x1091984
     static float NormalizedVolumeToDB(float normalizedVolume);
   }; // AudioHelpers
 }

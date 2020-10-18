@@ -42,28 +42,28 @@ namespace Zenject {
     // Set static field: static public Zenject.ZenjectSettings Default
     static void _set_Default(Zenject::ZenjectSettings* value);
     // public System.Void .ctor(Zenject.ValidationErrorResponses validationErrorResponse, Zenject.RootResolveMethods validationRootResolveMethod, System.Boolean displayWarningWhenResolvingDuringInstall, System.Boolean ensureDeterministicDestructionOrderOnApplicationQuit, Zenject.ZenjectSettings/SignalSettings signalSettings)
-    // Offset: 0x1944490
+    // Offset: 0x21EC24C
     static ZenjectSettings* New_ctor(Zenject::ValidationErrorResponses validationErrorResponse, Zenject::RootResolveMethods validationRootResolveMethod, bool displayWarningWhenResolvingDuringInstall, bool ensureDeterministicDestructionOrderOnApplicationQuit, Zenject::ZenjectSettings::SignalSettings* signalSettings);
     // public Zenject.ZenjectSettings/SignalSettings get_Signals()
-    // Offset: 0x1944570
+    // Offset: 0x21EC32C
     Zenject::ZenjectSettings::SignalSettings* get_Signals();
     // public Zenject.ValidationErrorResponses get_ValidationErrorResponse()
-    // Offset: 0x1944578
+    // Offset: 0x21EC334
     Zenject::ValidationErrorResponses get_ValidationErrorResponse();
     // public Zenject.RootResolveMethods get_ValidationRootResolveMethod()
-    // Offset: 0x1944580
+    // Offset: 0x21EC33C
     Zenject::RootResolveMethods get_ValidationRootResolveMethod();
     // public System.Boolean get_DisplayWarningWhenResolvingDuringInstall()
-    // Offset: 0x1944588
+    // Offset: 0x21EC344
     bool get_DisplayWarningWhenResolvingDuringInstall();
     // public System.Boolean get_EnsureDeterministicDestructionOrderOnApplicationQuit()
-    // Offset: 0x1944590
+    // Offset: 0x21EC34C
     bool get_EnsureDeterministicDestructionOrderOnApplicationQuit();
     // static private System.Void .cctor()
-    // Offset: 0x1944598
+    // Offset: 0x21EC354
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1944558
+    // Offset: 0x21EC314
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ZenjectSettings* New_ctor();

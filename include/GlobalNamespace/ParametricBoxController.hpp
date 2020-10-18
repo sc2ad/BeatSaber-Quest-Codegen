@@ -45,8 +45,20 @@ namespace GlobalNamespace {
     // public System.Single minAlpha
     // Offset: 0x3C
     float minAlpha;
-    // private UnityEngine.MeshRenderer _meshRenderer
+    // public System.Single alphaStart
     // Offset: 0x40
+    float alphaStart;
+    // public System.Single alphaEnd
+    // Offset: 0x44
+    float alphaEnd;
+    // public System.Single widthStart
+    // Offset: 0x48
+    float widthStart;
+    // public System.Single widthEnd
+    // Offset: 0x4C
+    float widthEnd;
+    // private UnityEngine.MeshRenderer _meshRenderer
+    // Offset: 0x50
     UnityEngine::MeshRenderer* meshRenderer;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
@@ -58,23 +70,39 @@ namespace GlobalNamespace {
     static int _get__colorID();
     // Set static field: static private readonly System.Int32 _colorID
     static void _set__colorID(int value);
+    // Get static field: static private readonly System.Int32 _alphaStartID
+    static int _get__alphaStartID();
+    // Set static field: static private readonly System.Int32 _alphaStartID
+    static void _set__alphaStartID(int value);
+    // Get static field: static private readonly System.Int32 _alphaEndID
+    static int _get__alphaEndID();
+    // Set static field: static private readonly System.Int32 _alphaEndID
+    static void _set__alphaEndID(int value);
+    // Get static field: static private readonly System.Int32 _widthStartID
+    static int _get__widthStartID();
+    // Set static field: static private readonly System.Int32 _widthStartID
+    static void _set__widthStartID(int value);
+    // Get static field: static private readonly System.Int32 _widthEndID
+    static int _get__widthEndID();
+    // Set static field: static private readonly System.Int32 _widthEndID
+    static void _set__widthEndID(int value);
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x182E550
+    // Offset: 0x1FB0FB4
     static void NoDomainReloadInit();
     // protected System.Void Awake()
-    // Offset: 0x182E5BC
+    // Offset: 0x1FB1020
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x182E5DC
+    // Offset: 0x1FB1040
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x182E844
+    // Offset: 0x1FB1358
     void OnDisable();
     // public System.Void Refresh()
-    // Offset: 0x182E610
+    // Offset: 0x1FB1074
     void Refresh();
     // public System.Void .ctor()
-    // Offset: 0x182E864
+    // Offset: 0x1FB1378
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -83,7 +111,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ParametricBoxController* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x182E880
+    // Offset: 0x1FB139C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

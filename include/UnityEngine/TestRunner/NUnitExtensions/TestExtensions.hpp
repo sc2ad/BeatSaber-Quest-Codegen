@@ -28,40 +28,40 @@ namespace UnityEngine::TestRunner::NUnitExtensions {
   class TestExtensions : public ::Il2CppObject {
     public:
     // static private System.Collections.Generic.IEnumerable`1<System.String> GetTestCategories(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xE3A310
+    // Offset: 0x12B7254
     static System::Collections::Generic::IEnumerable_1<::Il2CppString*>* GetTestCategories(NUnit::Framework::Interfaces::ITest* test);
     // static public System.Collections.Generic.List`1<System.String> GetAllCategoriesFromTest(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xE3A664
+    // Offset: 0x12B75A8
     static System::Collections::Generic::List_1<::Il2CppString*>* GetAllCategoriesFromTest(NUnit::Framework::Interfaces::ITest* test);
     // static public System.Void ParseForNameDuplicates(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xE3A7D0
+    // Offset: 0x12B7714
     static void ParseForNameDuplicates(NUnit::Framework::Interfaces::ITest* test);
     // static public System.Int32 GetChildIndex(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xE3ACE8
+    // Offset: 0x12B7C2C
     static int GetChildIndex(NUnit::Framework::Interfaces::ITest* test);
     // static public System.Boolean HasChildIndex(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xE3AEC4
+    // Offset: 0x12B7E08
     static bool HasChildIndex(NUnit::Framework::Interfaces::ITest* test);
     // static private System.String GetAncestorPath(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xE3B078
+    // Offset: 0x12B7FBC
     static ::Il2CppString* GetAncestorPath(NUnit::Framework::Interfaces::ITest* test);
     // static public System.String GetUniqueName(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xE3B310
+    // Offset: 0x12B6DD0
     static ::Il2CppString* GetUniqueName(NUnit::Framework::Interfaces::ITest* test);
     // static public System.String GetFullName(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xE3B460
+    // Offset: 0x12B8254
     static ::Il2CppString* GetFullName(NUnit::Framework::Interfaces::ITest* test);
     // static public System.String GetSkipReason(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xE3B9E0
+    // Offset: 0x12B8720
     static ::Il2CppString* GetSkipReason(NUnit::Framework::Interfaces::ITest* test);
     // static public System.String GetParentId(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xE3BC2C
+    // Offset: 0x12B896C
     static ::Il2CppString* GetParentId(NUnit::Framework::Interfaces::ITest* test);
     // static public System.String GetParentFullName(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xE3BDB8
+    // Offset: 0x12B8AF8
     static ::Il2CppString* GetParentFullName(NUnit::Framework::Interfaces::ITest* test);
     // static public System.String GetParentUniqueName(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xE3BF48
+    // Offset: 0x12B8C88
     static ::Il2CppString* GetParentUniqueName(NUnit::Framework::Interfaces::ITest* test);
   }; // UnityEngine.TestRunner.NUnitExtensions.TestExtensions
 }

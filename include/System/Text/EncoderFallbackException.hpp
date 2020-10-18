@@ -37,13 +37,13 @@ namespace System::Text {
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
     // System.Void .ctor(System.String message, System.Char charUnknown, System.Int32 index)
-    // Offset: 0x12F2FE0
+    // Offset: 0x18872C0
     static EncoderFallbackException* New_ctor(::Il2CppString* message, ::Il2CppChar charUnknown, int index);
     // System.Void .ctor(System.String message, System.Char charUnknownHigh, System.Char charUnknownLow, System.Int32 index)
-    // Offset: 0x12F33A4
+    // Offset: 0x1887684
     static EncoderFallbackException* New_ctor(::Il2CppString* message, ::Il2CppChar charUnknownHigh, ::Il2CppChar charUnknownLow, int index);
     // public System.Void .ctor()
-    // Offset: 0x12F3B90
+    // Offset: 0x1887E70
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -51,7 +51,7 @@ namespace System::Text {
     // Base method: System.Void Object::.ctor()
     static EncoderFallbackException* New_ctor();
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x12F3C04
+    // Offset: 0x1887EE4
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

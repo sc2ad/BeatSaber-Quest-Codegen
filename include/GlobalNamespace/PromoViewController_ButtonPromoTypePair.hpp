@@ -22,8 +22,6 @@ namespace GlobalNamespace {
   class BeatmapLevelPackSO;
   // Forward declaring type: BeatmapLevelSO
   class BeatmapLevelSO;
-  // Forward declaring type: FilteredByBeatmapCharacteristicPlaylistSO
-  class FilteredByBeatmapCharacteristicPlaylistSO;
   // Forward declaring type: IAnnotatedBeatmapLevelCollection
   class IAnnotatedBeatmapLevelCollection;
 }
@@ -45,17 +43,14 @@ namespace GlobalNamespace {
     // public BeatmapLevelSO beatmapLevel
     // Offset: 0x28
     GlobalNamespace::BeatmapLevelSO* beatmapLevel;
-    // public FilteredByBeatmapCharacteristicPlaylistSO filteredByBeatmapCharacteristicPlaylist
-    // Offset: 0x30
-    GlobalNamespace::FilteredByBeatmapCharacteristicPlaylistSO* filteredByBeatmapCharacteristicPlaylist;
     // private IAnnotatedBeatmapLevelCollection _annotatedBeatmapLevelCollection
-    // Offset: 0x38
+    // Offset: 0x30
     GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection;
     // public IAnnotatedBeatmapLevelCollection get_annotatedBeatmapLevelCollection()
-    // Offset: 0xC1F6DC
+    // Offset: 0xF7272C
     GlobalNamespace::IAnnotatedBeatmapLevelCollection* get_annotatedBeatmapLevelCollection();
     // public System.Void .ctor()
-    // Offset: 0xC1F7BC
+    // Offset: 0xF72804
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PromoViewController::ButtonPromoTypePair* New_ctor();

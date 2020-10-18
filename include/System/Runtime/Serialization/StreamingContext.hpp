@@ -24,21 +24,21 @@ namespace System::Runtime::Serialization {
     // Creating value type constructor for type: StreamingContext
     constexpr StreamingContext(::Il2CppObject* m_additionalContext_ = {}, System::Runtime::Serialization::StreamingContextStates m_state_ = {}) noexcept : m_additionalContext{m_additionalContext_}, m_state{m_state_} {}
     // public System.Void .ctor(System.Runtime.Serialization.StreamingContextStates state)
-    // Offset: 0xA3F2B0
+    // Offset: 0xDBA25C
     StreamingContext(System::Runtime::Serialization::StreamingContextStates state);
     // public System.Void .ctor(System.Runtime.Serialization.StreamingContextStates state, System.Object additional)
-    // Offset: 0xA3F2C0
+    // Offset: 0xDBA26C
     StreamingContext(System::Runtime::Serialization::StreamingContextStates state, ::Il2CppObject* additional);
     // public System.Runtime.Serialization.StreamingContextStates get_State()
-    // Offset: 0xA3F2E0
+    // Offset: 0xDBA28C
     System::Runtime::Serialization::StreamingContextStates get_State();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA3F2D0
+    // Offset: 0xDBA27C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA3F2D8
+    // Offset: 0xDBA284
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

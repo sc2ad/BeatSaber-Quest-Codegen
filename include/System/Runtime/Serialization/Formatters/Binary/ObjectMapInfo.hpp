@@ -31,10 +31,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x20
     ::Array<System::Type*>* memberTypes;
     // System.Void .ctor(System.Int32 objectId, System.Int32 numMembers, System.String[] memberNames, System.Type[] memberTypes)
-    // Offset: 0xE2BA10
+    // Offset: 0x14BF56C
     static ObjectMapInfo* New_ctor(int objectId, int numMembers, ::Array<::Il2CppString*>* memberNames, ::Array<System::Type*>* memberTypes);
     // System.Boolean isCompatible(System.Int32 numMembers, System.String[] memberNames, System.Type[] memberTypes)
-    // Offset: 0xE2BA74
+    // Offset: 0x14BF5D0
     bool isCompatible(int numMembers, ::Array<::Il2CppString*>* memberNames, ::Array<System::Type*>* memberTypes);
   }; // System.Runtime.Serialization.Formatters.Binary.ObjectMapInfo
 }

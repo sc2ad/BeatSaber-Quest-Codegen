@@ -38,7 +38,7 @@ namespace TMPro {
     // Offset: 0x50
     UnityEngine::Sprite* sprite;
     // public System.Void .ctor()
-    // Offset: 0xBB353C
+    // Offset: 0xF8F0E4
     // Implemented from: TMPro.TMP_TextElement_Legacy
     // Base method: System.Void TMP_TextElement_Legacy::.ctor()
     // Base method: System.Void Object::.ctor()

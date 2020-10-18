@@ -12,28 +12,28 @@ namespace UnityEngine {
   class PlayerPrefs : public ::Il2CppObject {
     public:
     // static private System.Boolean TrySetInt(System.String key, System.Int32 value)
-    // Offset: 0x141E424
+    // Offset: 0x1BA0D60
     static bool TrySetInt(::Il2CppString* key, int value);
     // static private System.Boolean TrySetSetString(System.String key, System.String value)
-    // Offset: 0x141E474
+    // Offset: 0x1BA0DB0
     static bool TrySetSetString(::Il2CppString* key, ::Il2CppString* value);
     // static public System.Void SetInt(System.String key, System.Int32 value)
-    // Offset: 0x141E4C4
+    // Offset: 0x1BA0E00
     static void SetInt(::Il2CppString* key, int value);
     // static public System.Int32 GetInt(System.String key, System.Int32 defaultValue)
-    // Offset: 0x141E5F0
+    // Offset: 0x1BA0F2C
     static int GetInt(::Il2CppString* key, int defaultValue);
     // static public System.Int32 GetInt(System.String key)
-    // Offset: 0x141E640
+    // Offset: 0x1BA0F7C
     static int GetInt(::Il2CppString* key);
     // static public System.Void SetString(System.String key, System.String value)
-    // Offset: 0x141E684
+    // Offset: 0x1BA0FC0
     static void SetString(::Il2CppString* key, ::Il2CppString* value);
     // static public System.String GetString(System.String key, System.String defaultValue)
-    // Offset: 0x141E738
+    // Offset: 0x1BA1074
     static ::Il2CppString* GetString(::Il2CppString* key, ::Il2CppString* defaultValue);
     // static public System.Void DeleteAll()
-    // Offset: 0x141E788
+    // Offset: 0x1BA10C4
     static void DeleteAll();
   }; // UnityEngine.PlayerPrefs
 }

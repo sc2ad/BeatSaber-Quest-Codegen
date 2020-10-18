@@ -26,37 +26,37 @@ namespace System::Globalization {
     // Offset: 0x24
     int lcid;
     // static public System.Int32 Compare(System.Globalization.SortKey sortkey1, System.Globalization.SortKey sortkey2)
-    // Offset: 0x1124CC8
+    // Offset: 0x16846AC
     static int Compare(System::Globalization::SortKey* sortkey1, System::Globalization::SortKey* sortkey2);
     // System.Void .ctor(System.Int32 lcid, System.String source, System.Globalization.CompareOptions opt)
-    // Offset: 0x1124E58
+    // Offset: 0x168483C
     static SortKey* New_ctor(int lcid, ::Il2CppString* source, System::Globalization::CompareOptions opt);
     // System.Void .ctor(System.Int32 lcid, System.String source, System.Byte[] buffer, System.Globalization.CompareOptions opt, System.Int32 lv1Length, System.Int32 lv2Length, System.Int32 lv3Length, System.Int32 kanaSmallLength, System.Int32 markTypeLength, System.Int32 katakanaLength, System.Int32 kanaWidthLength, System.Int32 identLength)
-    // Offset: 0x1124EA8
+    // Offset: 0x168488C
     static SortKey* New_ctor(int lcid, ::Il2CppString* source, ::Array<uint8_t>* buffer, System::Globalization::CompareOptions opt, int lv1Length, int lv2Length, int lv3Length, int kanaSmallLength, int markTypeLength, int katakanaLength, int kanaWidthLength, int identLength);
     // public System.String get_OriginalString()
-    // Offset: 0x1124F14
+    // Offset: 0x16848F8
     ::Il2CppString* get_OriginalString();
     // public System.Byte[] get_KeyData()
-    // Offset: 0x1124F1C
+    // Offset: 0x1684900
     ::Array<uint8_t>* get_KeyData();
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0x1124F24
+    // Offset: 0x1684908
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1124FE4
+    // Offset: 0x16849C8
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1125058
+    // Offset: 0x1684A3C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // System.Void .ctor()
-    // Offset: 0x112528C
+    // Offset: 0x1684C70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SortKey* New_ctor();

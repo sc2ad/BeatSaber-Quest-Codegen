@@ -31,7 +31,7 @@ namespace UnityEngine::Assertions {
     // Set static field: static public System.Boolean raiseExceptions
     static void _set_raiseExceptions(bool value);
     // static private System.Void Fail(System.String message, System.String userMessage)
-    // Offset: 0x130521C
+    // Offset: 0x19E02E8
     static void Fail(::Il2CppString* message, ::Il2CppString* userMessage);
     // static public System.Void AreEqual(T expected, T actual, System.String message)
     // Offset: 0xFFFFFFFF
@@ -46,13 +46,13 @@ namespace UnityEngine::Assertions {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("UnityEngine.Assertions", "Assert", "AreEqual", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, expected, actual, message, comparer));
     }
     // static public System.Void AreEqual(UnityEngine.Object expected, UnityEngine.Object actual, System.String message)
-    // Offset: 0x1305494
+    // Offset: 0x19E0560
     static void AreEqual(UnityEngine::Object* expected, UnityEngine::Object* actual, ::Il2CppString* message);
     // static public System.Void AreEqual(System.Int32 expected, System.Int32 actual)
-    // Offset: 0x130575C
+    // Offset: 0x19E0828
     static void AreEqual(int expected, int actual);
     // static private System.Void .cctor()
-    // Offset: 0x13057F8
+    // Offset: 0x19E08C4
     static void _cctor();
   }; // UnityEngine.Assertions.Assert
 }

@@ -64,21 +64,21 @@ namespace System::Net::Sockets {
     // Set static field: static private System.Boolean THROW_ON_ABORT_RETRIES
     static void _set_THROW_ON_ABORT_RETRIES(bool value);
     // public System.Void RegisterForBlockingSyscall()
-    // Offset: 0xF731A8
+    // Offset: 0x12D8DB4
     void RegisterForBlockingSyscall();
     // public System.Void UnRegisterForBlockingSyscall()
-    // Offset: 0xF7344C
+    // Offset: 0x12D9058
     void UnRegisterForBlockingSyscall();
     // static private System.Void .cctor()
-    // Offset: 0xF735EC
+    // Offset: 0x12D91F8
     static void _cctor();
     // public System.Void .ctor(System.IntPtr preexistingHandle, System.Boolean ownsHandle)
-    // Offset: 0xF72BC4
+    // Offset: 0x12D87D0
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Void SafeHandle::.ctor(System.IntPtr preexistingHandle, System.Boolean ownsHandle)
     static SafeSocketHandle* New_ctor(System::IntPtr preexistingHandle, bool ownsHandle);
     // protected override System.Boolean ReleaseHandle()
-    // Offset: 0xF72C98
+    // Offset: 0x12D88A4
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Boolean SafeHandle::ReleaseHandle()
     bool ReleaseHandle();

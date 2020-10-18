@@ -53,7 +53,7 @@ namespace GlobalNamespace {
       // Creating value type constructor for type: LoadBeatmapLevelResult
       constexpr LoadBeatmapLevelResult(bool isError_ = {}, GlobalNamespace::IBeatmapLevel* beatmapLevel_ = {}) noexcept : isError{isError_}, beatmapLevel{beatmapLevel_} {}
       // public System.Void .ctor(System.Boolean isError, IBeatmapLevel beatmapLevel)
-      // Offset: 0xA2BBC8
+      // Offset: 0xDA2BF0
       // ABORTED: conflicts with another method.  LoadBeatmapLevelResult(bool isError, GlobalNamespace::IBeatmapLevel* beatmapLevel);
     }; // BeatmapLevelLoader/LoadBeatmapLevelResult
     // private BeatmapLevelDataLoaderSO _beatmapLevelDataLoader
@@ -63,10 +63,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::IBeatmapDataAssetFileModel* beatmapDataAssetFileModel;
     // public System.Void .ctor(BeatmapLevelDataLoaderSO beatmapLevelDataLoader, IBeatmapDataAssetFileModel beatmapDataAssetFileModel)
-    // Offset: 0xB70EB0
+    // Offset: 0x10552E8
     static BeatmapLevelLoader* New_ctor(GlobalNamespace::BeatmapLevelDataLoaderSO* beatmapLevelDataLoader, GlobalNamespace::IBeatmapDataAssetFileModel* beatmapDataAssetFileModel);
     // public System.Threading.Tasks.Task`1<BeatmapLevelLoader/LoadBeatmapLevelResult> LoadBeatmapLevelAsync(IPreviewBeatmapLevel previewLevel, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xB70F00
+    // Offset: 0x1055338
     System::Threading::Tasks::Task_1<GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult>* LoadBeatmapLevelAsync(GlobalNamespace::IPreviewBeatmapLevel* previewLevel, System::Threading::CancellationToken cancellationToken);
   }; // BeatmapLevelLoader
 }

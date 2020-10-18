@@ -70,116 +70,104 @@ namespace GlobalNamespace {
       static GlobalNamespace::MainMenuViewController::MenuButton _get_SoloCampaign();
       // Set static field: static public MainMenuViewController/MenuButton SoloCampaign
       static void _set_SoloCampaign(GlobalNamespace::MainMenuViewController::MenuButton value);
-      // static field const value: static public MainMenuViewController/MenuButton Settings
-      static constexpr const int Settings = 4;
-      // Get static field: static public MainMenuViewController/MenuButton Settings
-      static GlobalNamespace::MainMenuViewController::MenuButton _get_Settings();
-      // Set static field: static public MainMenuViewController/MenuButton Settings
-      static void _set_Settings(GlobalNamespace::MainMenuViewController::MenuButton value);
-      // static field const value: static public MainMenuViewController/MenuButton PlayerSettings
-      static constexpr const int PlayerSettings = 5;
-      // Get static field: static public MainMenuViewController/MenuButton PlayerSettings
-      static GlobalNamespace::MainMenuViewController::MenuButton _get_PlayerSettings();
-      // Set static field: static public MainMenuViewController/MenuButton PlayerSettings
-      static void _set_PlayerSettings(GlobalNamespace::MainMenuViewController::MenuButton value);
       // static field const value: static public MainMenuViewController/MenuButton FloorAdjust
-      static constexpr const int FloorAdjust = 6;
+      static constexpr const int FloorAdjust = 4;
       // Get static field: static public MainMenuViewController/MenuButton FloorAdjust
       static GlobalNamespace::MainMenuViewController::MenuButton _get_FloorAdjust();
       // Set static field: static public MainMenuViewController/MenuButton FloorAdjust
       static void _set_FloorAdjust(GlobalNamespace::MainMenuViewController::MenuButton value);
-      // static field const value: static public MainMenuViewController/MenuButton HowToPlay
-      static constexpr const int HowToPlay = 7;
-      // Get static field: static public MainMenuViewController/MenuButton HowToPlay
-      static GlobalNamespace::MainMenuViewController::MenuButton _get_HowToPlay();
-      // Set static field: static public MainMenuViewController/MenuButton HowToPlay
-      static void _set_HowToPlay(GlobalNamespace::MainMenuViewController::MenuButton value);
-      // static field const value: static public MainMenuViewController/MenuButton Credits
-      static constexpr const int Credits = 8;
-      // Get static field: static public MainMenuViewController/MenuButton Credits
-      static GlobalNamespace::MainMenuViewController::MenuButton _get_Credits();
-      // Set static field: static public MainMenuViewController/MenuButton Credits
-      static void _set_Credits(GlobalNamespace::MainMenuViewController::MenuButton value);
       // static field const value: static public MainMenuViewController/MenuButton Quit
-      static constexpr const int Quit = 9;
+      static constexpr const int Quit = 5;
       // Get static field: static public MainMenuViewController/MenuButton Quit
       static GlobalNamespace::MainMenuViewController::MenuButton _get_Quit();
       // Set static field: static public MainMenuViewController/MenuButton Quit
       static void _set_Quit(GlobalNamespace::MainMenuViewController::MenuButton value);
+      // static field const value: static public MainMenuViewController/MenuButton Multiplayer
+      static constexpr const int Multiplayer = 6;
+      // Get static field: static public MainMenuViewController/MenuButton Multiplayer
+      static GlobalNamespace::MainMenuViewController::MenuButton _get_Multiplayer();
+      // Set static field: static public MainMenuViewController/MenuButton Multiplayer
+      static void _set_Multiplayer(GlobalNamespace::MainMenuViewController::MenuButton value);
+      // static field const value: static public MainMenuViewController/MenuButton Options
+      static constexpr const int Options = 7;
+      // Get static field: static public MainMenuViewController/MenuButton Options
+      static GlobalNamespace::MainMenuViewController::MenuButton _get_Options();
+      // Set static field: static public MainMenuViewController/MenuButton Options
+      static void _set_Options(GlobalNamespace::MainMenuViewController::MenuButton value);
+      // static field const value: static public MainMenuViewController/MenuButton HowToPlay
+      static constexpr const int HowToPlay = 8;
+      // Get static field: static public MainMenuViewController/MenuButton HowToPlay
+      static GlobalNamespace::MainMenuViewController::MenuButton _get_HowToPlay();
+      // Set static field: static public MainMenuViewController/MenuButton HowToPlay
+      static void _set_HowToPlay(GlobalNamespace::MainMenuViewController::MenuButton value);
     }; // MainMenuViewController/MenuButton
     // private UnityEngine.UI.Button _soloButton
-    // Offset: 0x68
+    // Offset: 0x70
     UnityEngine::UI::Button* soloButton;
     // private UnityEngine.UI.Button _partyButton
-    // Offset: 0x70
+    // Offset: 0x78
     UnityEngine::UI::Button* partyButton;
     // private UnityEngine.UI.Button _campaignButton
-    // Offset: 0x78
-    UnityEngine::UI::Button* campaignButton;
-    // private UnityEngine.UI.Button _settingsButton
     // Offset: 0x80
-    UnityEngine::UI::Button* settingsButton;
-    // private UnityEngine.UI.Button _playerSettingsButton
-    // Offset: 0x88
-    UnityEngine::UI::Button* playerSettingsButton;
+    UnityEngine::UI::Button* campaignButton;
     // private UnityEngine.UI.Button _quitButton
-    // Offset: 0x90
+    // Offset: 0x88
     UnityEngine::UI::Button* quitButton;
     // private UnityEngine.UI.Button _howToPlayButton
-    // Offset: 0x98
+    // Offset: 0x90
     UnityEngine::UI::Button* howToPlayButton;
     // private UnityEngine.UI.Button _beatmapEditorButton
-    // Offset: 0xA0
+    // Offset: 0x98
     UnityEngine::UI::Button* beatmapEditorButton;
-    // private UnityEngine.UI.Button _creditsButton
+    // private UnityEngine.UI.Button _multiplayerButton
+    // Offset: 0xA0
+    UnityEngine::UI::Button* multiplayerButton;
+    // private UnityEngine.UI.Button _optionsButton
     // Offset: 0xA8
-    UnityEngine::UI::Button* creditsButton;
+    UnityEngine::UI::Button* optionsButton;
     // private System.Action`2<MainMenuViewController,MainMenuViewController/MenuButton> didFinishEvent
     // Offset: 0xB0
     System::Action_2<GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton>* didFinishEvent;
     // public System.Void add_didFinishEvent(System.Action`2<MainMenuViewController,MainMenuViewController/MenuButton> value)
-    // Offset: 0xBFD4BC
+    // Offset: 0xED5934
     void add_didFinishEvent(System::Action_2<GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<MainMenuViewController,MainMenuViewController/MenuButton> value)
-    // Offset: 0xBFDB80
+    // Offset: 0xED59D8
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton>* value);
     // private System.Void HandleMenuButton(MainMenuViewController/MenuButton menuButton)
-    // Offset: 0xBFFBCC
+    // Offset: 0xED5D30
     void HandleMenuButton(GlobalNamespace::MainMenuViewController::MenuButton menuButton);
-    // private System.Void <DidActivate>b__13_0()
-    // Offset: 0xBFFC4C
-    void $DidActivate$b__13_0();
-    // private System.Void <DidActivate>b__13_1()
-    // Offset: 0xBFFC54
-    void $DidActivate$b__13_1();
-    // private System.Void <DidActivate>b__13_2()
-    // Offset: 0xBFFC5C
-    void $DidActivate$b__13_2();
-    // private System.Void <DidActivate>b__13_3()
-    // Offset: 0xBFFC64
-    void $DidActivate$b__13_3();
-    // private System.Void <DidActivate>b__13_4()
-    // Offset: 0xBFFC6C
-    void $DidActivate$b__13_4();
-    // private System.Void <DidActivate>b__13_5()
-    // Offset: 0xBFFC74
-    void $DidActivate$b__13_5();
-    // private System.Void <DidActivate>b__13_6()
-    // Offset: 0xBFFC7C
-    void $DidActivate$b__13_6();
-    // private System.Void <DidActivate>b__13_7()
-    // Offset: 0xBFFC84
-    void $DidActivate$b__13_7();
-    // private System.Void <DidActivate>b__13_8()
-    // Offset: 0xBFFC8C
-    void $DidActivate$b__13_8();
-    // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xBFF8D4
+    // private System.Void <DidActivate>b__12_0()
+    // Offset: 0xED5DB0
+    void $DidActivate$b__12_0();
+    // private System.Void <DidActivate>b__12_1()
+    // Offset: 0xED5DB8
+    void $DidActivate$b__12_1();
+    // private System.Void <DidActivate>b__12_2()
+    // Offset: 0xED5DC0
+    void $DidActivate$b__12_2();
+    // private System.Void <DidActivate>b__12_3()
+    // Offset: 0xED5DC8
+    void $DidActivate$b__12_3();
+    // private System.Void <DidActivate>b__12_4()
+    // Offset: 0xED5DD0
+    void $DidActivate$b__12_4();
+    // private System.Void <DidActivate>b__12_5()
+    // Offset: 0xED5DD8
+    void $DidActivate$b__12_5();
+    // private System.Void <DidActivate>b__12_6()
+    // Offset: 0xED5DE0
+    void $DidActivate$b__12_6();
+    // private System.Void <DidActivate>b__12_7()
+    // Offset: 0xED5DE8
+    void $DidActivate$b__12_7();
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0xED5A7C
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xBFFC44
+    // Offset: 0xED5DA8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

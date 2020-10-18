@@ -33,91 +33,91 @@ namespace UnityEngine {
     // Set static field: static private UnityEngine.Canvas/WillRenderCanvases willRenderCanvases
     static void _set_willRenderCanvases(UnityEngine::Canvas::WillRenderCanvases* value);
     // static public System.Void add_willRenderCanvases(UnityEngine.Canvas/WillRenderCanvases value)
-    // Offset: 0x196F62C
+    // Offset: 0x221B710
     static void add_willRenderCanvases(UnityEngine::Canvas::WillRenderCanvases* value);
     // static public System.Void remove_willRenderCanvases(UnityEngine.Canvas/WillRenderCanvases value)
-    // Offset: 0x196F6E0
+    // Offset: 0x221B7C4
     static void remove_willRenderCanvases(UnityEngine::Canvas::WillRenderCanvases* value);
     // public UnityEngine.RenderMode get_renderMode()
-    // Offset: 0x196F794
+    // Offset: 0x221B878
     UnityEngine::RenderMode get_renderMode();
     // public System.Void set_renderMode(UnityEngine.RenderMode value)
-    // Offset: 0x196F7D4
+    // Offset: 0x221B8B8
     void set_renderMode(UnityEngine::RenderMode value);
     // public System.Boolean get_isRootCanvas()
-    // Offset: 0x196F824
+    // Offset: 0x221B908
     bool get_isRootCanvas();
     // public System.Single get_scaleFactor()
-    // Offset: 0x196F864
+    // Offset: 0x221B948
     float get_scaleFactor();
     // public System.Void set_scaleFactor(System.Single value)
-    // Offset: 0x196F8A4
+    // Offset: 0x221B988
     void set_scaleFactor(float value);
     // public System.Single get_referencePixelsPerUnit()
-    // Offset: 0x196F8F4
+    // Offset: 0x221B9D8
     float get_referencePixelsPerUnit();
     // public System.Void set_referencePixelsPerUnit(System.Single value)
-    // Offset: 0x196F934
+    // Offset: 0x221BA18
     void set_referencePixelsPerUnit(float value);
     // public System.Boolean get_pixelPerfect()
-    // Offset: 0x196F984
+    // Offset: 0x221BA68
     bool get_pixelPerfect();
     // public System.Void set_pixelPerfect(System.Boolean value)
-    // Offset: 0x196F9C4
+    // Offset: 0x221BAA8
     void set_pixelPerfect(bool value);
     // public System.Int32 get_renderOrder()
-    // Offset: 0x196FA14
+    // Offset: 0x221BAF8
     int get_renderOrder();
     // public System.Boolean get_overrideSorting()
-    // Offset: 0x196FA54
+    // Offset: 0x221BB38
     bool get_overrideSorting();
     // public System.Void set_overrideSorting(System.Boolean value)
-    // Offset: 0x196FA94
+    // Offset: 0x221BB78
     void set_overrideSorting(bool value);
     // public System.Int32 get_sortingOrder()
-    // Offset: 0x196FAE4
+    // Offset: 0x221BBC8
     int get_sortingOrder();
     // public System.Void set_sortingOrder(System.Int32 value)
-    // Offset: 0x196FB24
+    // Offset: 0x221BC08
     void set_sortingOrder(int value);
     // public System.Int32 get_targetDisplay()
-    // Offset: 0x196FB74
+    // Offset: 0x221BC58
     int get_targetDisplay();
     // public System.Int32 get_sortingLayerID()
-    // Offset: 0x196FBB4
+    // Offset: 0x221BC98
     int get_sortingLayerID();
     // public System.Void set_sortingLayerID(System.Int32 value)
-    // Offset: 0x196FBF4
+    // Offset: 0x221BCD8
     void set_sortingLayerID(int value);
     // public UnityEngine.AdditionalCanvasShaderChannels get_additionalShaderChannels()
-    // Offset: 0x196FC44
+    // Offset: 0x221BD28
     UnityEngine::AdditionalCanvasShaderChannels get_additionalShaderChannels();
     // public System.Void set_additionalShaderChannels(UnityEngine.AdditionalCanvasShaderChannels value)
-    // Offset: 0x196FC84
+    // Offset: 0x221BD68
     void set_additionalShaderChannels(UnityEngine::AdditionalCanvasShaderChannels value);
     // public UnityEngine.Canvas get_rootCanvas()
-    // Offset: 0x196FCD4
+    // Offset: 0x221BDB8
     UnityEngine::Canvas* get_rootCanvas();
     // public UnityEngine.Camera get_worldCamera()
-    // Offset: 0x196FD14
+    // Offset: 0x221BDF8
     UnityEngine::Camera* get_worldCamera();
     // public System.Void set_worldCamera(UnityEngine.Camera value)
-    // Offset: 0x196FD54
+    // Offset: 0x221BE38
     void set_worldCamera(UnityEngine::Camera* value);
     // static public UnityEngine.Material GetDefaultCanvasMaterial()
-    // Offset: 0x196FDA4
+    // Offset: 0x221BE88
     static UnityEngine::Material* GetDefaultCanvasMaterial();
     // static public UnityEngine.Material GetETC1SupportedCanvasMaterial()
-    // Offset: 0x196FDD8
+    // Offset: 0x221BEBC
     static UnityEngine::Material* GetETC1SupportedCanvasMaterial();
     // static public System.Void ForceUpdateCanvases()
-    // Offset: 0x196FE0C
+    // Offset: 0x221BEF0
     static void ForceUpdateCanvases();
     // static private System.Void SendWillRenderCanvases()
-    // Offset: 0x196FE10
+    // Offset: 0x221BEF4
     static void SendWillRenderCanvases();
     // public System.Void .ctor()
-    // Offset: 0x197007C
+    // Offset: 0x221C160
     // Implemented from: UnityEngine.Behaviour
     // Base method: System.Void Behaviour::.ctor()
     // Base method: System.Void Component::.ctor()

@@ -16,8 +16,8 @@
 #include "GlobalNamespace/SongController.hpp"
 // Including type: NoteCutSoundEffectManager
 #include "GlobalNamespace/NoteCutSoundEffectManager.hpp"
-// Including type: PlayerController
-#include "GlobalNamespace/PlayerController.hpp"
+// Including type: SaberManager
+#include "GlobalNamespace/SaberManager.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

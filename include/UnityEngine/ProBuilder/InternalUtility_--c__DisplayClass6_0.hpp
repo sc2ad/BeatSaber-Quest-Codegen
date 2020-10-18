@@ -21,10 +21,10 @@ namespace UnityEngine::ProBuilder {
       return valid;
     }
     // System.Boolean <TryParseColor>b__0(System.Char c)
-    // Offset: 0xF9ECE4
+    // Offset: 0x194283C
     bool $TryParseColor$b__0(::Il2CppChar c);
     // public System.Void .ctor()
-    // Offset: 0xF9E9FC
+    // Offset: 0x1942554
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InternalUtility::$$c__DisplayClass6_0* New_ctor();

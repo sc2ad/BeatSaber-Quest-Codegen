@@ -49,30 +49,30 @@ namespace Zenject {
     // Offset: 0x18
     UnityEngine::GameObject* gameObject;
     // public System.Void .ctor(Zenject.IPrefabInstantiator subInstantiator)
-    // Offset: 0xFC6840
+    // Offset: 0x15147DC
     static PrefabInstantiatorCached* New_ctor(Zenject::IPrefabInstantiator* subInstantiator);
     // public System.Collections.Generic.List`1<Zenject.TypeValuePair> get_ExtraArguments()
-    // Offset: 0xFC7690
+    // Offset: 0x151562C
     // Implemented from: Zenject.IPrefabInstantiator
     // Base method: System.Collections.Generic.List`1<Zenject.TypeValuePair> IPrefabInstantiator::get_ExtraArguments()
     System::Collections::Generic::List_1<Zenject::TypeValuePair>* get_ExtraArguments();
     // public System.Type get_ArgumentTarget()
-    // Offset: 0xFC7744
+    // Offset: 0x15156E0
     // Implemented from: Zenject.IPrefabInstantiator
     // Base method: System.Type IPrefabInstantiator::get_ArgumentTarget()
     System::Type* get_ArgumentTarget();
     // public Zenject.GameObjectCreationParameters get_GameObjectCreationParameters()
-    // Offset: 0xFC77F4
+    // Offset: 0x1515790
     // Implemented from: Zenject.IPrefabInstantiator
     // Base method: Zenject.GameObjectCreationParameters IPrefabInstantiator::get_GameObjectCreationParameters()
     Zenject::GameObjectCreationParameters* get_GameObjectCreationParameters();
     // public UnityEngine.Object GetPrefab()
-    // Offset: 0xFC78A8
+    // Offset: 0x1515844
     // Implemented from: Zenject.IPrefabInstantiator
     // Base method: UnityEngine.Object IPrefabInstantiator::GetPrefab()
     UnityEngine::Object* GetPrefab();
     // public UnityEngine.GameObject Instantiate(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction)
-    // Offset: 0xFC795C
+    // Offset: 0x15158F8
     // Implemented from: Zenject.IPrefabInstantiator
     // Base method: UnityEngine.GameObject IPrefabInstantiator::Instantiate(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction)
     UnityEngine::GameObject* Instantiate(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction);

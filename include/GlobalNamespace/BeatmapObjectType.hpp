@@ -28,18 +28,18 @@ namespace GlobalNamespace {
     static GlobalNamespace::BeatmapObjectType _get_Note();
     // Set static field: static public BeatmapObjectType Note
     static void _set_Note(GlobalNamespace::BeatmapObjectType value);
-    // static field const value: static public BeatmapObjectType LongNote
-    static constexpr const int LongNote = 1;
-    // Get static field: static public BeatmapObjectType LongNote
-    static GlobalNamespace::BeatmapObjectType _get_LongNote();
-    // Set static field: static public BeatmapObjectType LongNote
-    static void _set_LongNote(GlobalNamespace::BeatmapObjectType value);
     // static field const value: static public BeatmapObjectType Obstacle
     static constexpr const int Obstacle = 2;
     // Get static field: static public BeatmapObjectType Obstacle
     static GlobalNamespace::BeatmapObjectType _get_Obstacle();
     // Set static field: static public BeatmapObjectType Obstacle
     static void _set_Obstacle(GlobalNamespace::BeatmapObjectType value);
+    // static field const value: static public BeatmapObjectType None
+    static constexpr const int None = -1;
+    // Get static field: static public BeatmapObjectType None
+    static GlobalNamespace::BeatmapObjectType _get_None();
+    // Set static field: static public BeatmapObjectType None
+    static void _set_None(GlobalNamespace::BeatmapObjectType value);
   }; // BeatmapObjectType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

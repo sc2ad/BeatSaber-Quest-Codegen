@@ -53,14 +53,14 @@ namespace System::Linq {
     // override System.Void ComputeKeys(TElement[] elements, System.Int32 count)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Linq.EnumerableSorter`1
-    // Base method: System.Void EnumerableSorter`1::ComputeKeys(TElement[] elements, System.Int32 count)
+    // Base method: System.Void EnumerableSorter_1::ComputeKeys(TElement[] elements, System.Int32 count)
     void ComputeKeys(::Array<TElement>* elements, int count) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "ComputeKeys", elements, count));
     }
     // override System.Int32 CompareKeys(System.Int32 index1, System.Int32 index2)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Linq.EnumerableSorter`1
-    // Base method: System.Int32 EnumerableSorter`1::CompareKeys(System.Int32 index1, System.Int32 index2)
+    // Base method: System.Int32 EnumerableSorter_1::CompareKeys(System.Int32 index1, System.Int32 index2)
     int CompareKeys(int index1, int index2) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "CompareKeys", index1, index2));
     }

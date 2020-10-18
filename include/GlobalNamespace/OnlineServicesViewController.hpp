@@ -27,33 +27,33 @@ namespace GlobalNamespace {
   class OnlineServicesViewController : public HMUI::ViewController {
     public:
     // private UnityEngine.UI.Button _enableButton
-    // Offset: 0x68
+    // Offset: 0x70
     UnityEngine::UI::Button* enableButton;
     // private UnityEngine.UI.Button _dontEnableButton
-    // Offset: 0x70
+    // Offset: 0x78
     UnityEngine::UI::Button* dontEnableButton;
     // private System.Action`1<System.Boolean> didFinishEvent
-    // Offset: 0x78
+    // Offset: 0x80
     System::Action_1<bool>* didFinishEvent;
     // public System.Void add_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0xBCFE98
+    // Offset: 0x1014618
     void add_didFinishEvent(System::Action_1<bool>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0xBCFF3C
+    // Offset: 0x10146BC
     void remove_didFinishEvent(System::Action_1<bool>* value);
     // private System.Void <DidActivate>b__5_0()
-    // Offset: 0xBD00E4
+    // Offset: 0x1014864
     void $DidActivate$b__5_0();
     // private System.Void <DidActivate>b__5_1()
-    // Offset: 0xBD0148
+    // Offset: 0x10148C8
     void $DidActivate$b__5_1();
-    // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xBCFFE0
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0x1014760
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xBD00DC
+    // Offset: 0x101485C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

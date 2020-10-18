@@ -24,19 +24,19 @@ namespace UnityEngine {
       return m_ParticleSystem;
     }
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
-    // Offset: 0xA5F3E8
+    // Offset: 0xDDE540
     // ABORTED: conflicts with another method.  EmissionModule(UnityEngine::ParticleSystem* particleSystem);
     // public System.Boolean get_enabled()
-    // Offset: 0xA5F3F0
+    // Offset: 0xDDE548
     bool get_enabled();
     // public System.Void set_enabled(System.Boolean value)
-    // Offset: 0xA5F430
+    // Offset: 0xDDE588
     void set_enabled(bool value);
     // static private System.Boolean get_enabled_Injected(ref UnityEngine.ParticleSystem/EmissionModule _unity_self)
-    // Offset: 0x196E6B4
+    // Offset: 0x221ECD8
     static bool get_enabled_Injected(UnityEngine::ParticleSystem::EmissionModule& _unity_self);
     // static private System.Void set_enabled_Injected(ref UnityEngine.ParticleSystem/EmissionModule _unity_self, System.Boolean value)
-    // Offset: 0x196E744
+    // Offset: 0x221ED68
     static void set_enabled_Injected(UnityEngine::ParticleSystem::EmissionModule& _unity_self, bool value);
   }; // UnityEngine.ParticleSystem/EmissionModule
 }

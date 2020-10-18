@@ -38,7 +38,7 @@ namespace NUnit::Framework::Internal::Filters {
       return Filters;
     }
     // public System.Void .ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
-    // Offset: 0x108B8E8
+    // Offset: 0x15F5960
     static CompositeFilter* New_ctor(::Array<NUnit::Framework::Interfaces::ITestFilter*>* filters);
     // Creating initializer_list -> params proxy for: System.Void .ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
     static CompositeFilter* New_ctor(std::initializer_list<NUnit::Framework::Interfaces::ITestFilter*> filters);
@@ -48,16 +48,16 @@ namespace NUnit::Framework::Internal::Filters {
       return New_ctor({filters...});
     }
     // public System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITestFilter> get_Filters()
-    // Offset: 0x108BCC8
+    // Offset: 0x15F5D40
     System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>* get_Filters();
     // private System.Void set_Filters(System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITestFilter> value)
-    // Offset: 0x108C8A8
+    // Offset: 0x15F6920
     void set_Filters(System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>* value);
     // protected System.String get_ElementName()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_ElementName();
     // public System.Void .ctor()
-    // Offset: 0x108B848
+    // Offset: 0x15F58C0
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: System.Void TestFilter::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -78,7 +78,7 @@ namespace NUnit::Framework::Internal::Filters {
     // Base method: System.Boolean TestFilter::IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
     bool IsExplicitMatch(NUnit::Framework::Interfaces::ITest* test);
     // public override NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
-    // Offset: 0x108C8B0
+    // Offset: 0x15F6928
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: NUnit.Framework.Interfaces.TNode TestFilter::AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);

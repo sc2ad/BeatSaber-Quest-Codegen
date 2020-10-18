@@ -31,10 +31,10 @@ namespace UnityEngine {
 }
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: PlayerController
-  class PlayerController;
   // Forward declaring type: ColorManager
   class ColorManager;
+  // Forward declaring type: SaberManager
+  class SaberManager;
   // Forward declaring type: Saber
   class Saber;
 }
@@ -62,16 +62,16 @@ namespace GlobalNamespace {
     // private UnityEngine.Shader _fadeOutShader
     // Offset: 0x30
     UnityEngine::Shader* fadeOutShader;
-    // private PlayerController _playerController
+    // private readonly ColorManager _colorManager
     // Offset: 0x38
-    GlobalNamespace::PlayerController* playerController;
-    // private ColorManager _colorManager
-    // Offset: 0x40
     GlobalNamespace::ColorManager* colorManager;
+    // private readonly SaberManager _saberManager
+    // Offset: 0x40
+    GlobalNamespace::SaberManager* saberManager;
     // private UnityEngine.Renderer _renderer
     // Offset: 0x48
     UnityEngine::Renderer* renderer;
-    // private System.Int32 _fadeOutStrengthShaderPropertyID
+    // private readonly System.Int32 _fadeOutStrengthShaderPropertyID
     // Offset: 0x50
     int fadeOutStrengthShaderPropertyID;
     // private Saber[] _sabers
@@ -107,22 +107,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xC25C04
+    // Offset: 0xF7D048
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xC264DC
+    // Offset: 0xF7D954
     void OnDestroy();
+    // protected System.Void OnEnable()
+    // Offset: 0xF7DBC8
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0xF7DD14
+    void OnDisable();
     // private System.Boolean GetBurnMarkPos(UnityEngine.Vector3 bladeBottomPos, UnityEngine.Vector3 bladeTopPos, out UnityEngine.Vector3 burnMarkPos)
-    // Offset: 0xC26750
+    // Offset: 0xF7DE60
     bool GetBurnMarkPos(UnityEngine::Vector3 bladeBottomPos, UnityEngine::Vector3 bladeTopPos, UnityEngine::Vector3& burnMarkPos);
     // private UnityEngine.Vector3 WorldToCameraBurnMarkPos(UnityEngine.Vector3 pos)
-    // Offset: 0xC269E0
+    // Offset: 0xF7E0F0
     UnityEngine::Vector3 WorldToCameraBurnMarkPos(UnityEngine::Vector3 pos);
     // protected System.Void LateUpdate()
-    // Offset: 0xC26B08
+    // Offset: 0xF7E218
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0xC27270
+    // Offset: 0xF7E928
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

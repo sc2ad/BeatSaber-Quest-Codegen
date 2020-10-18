@@ -25,7 +25,7 @@ namespace RootMotion {
     // Offset: 0x28
     UnityEngine::Vector3 lastBoneLeftAxis;
     // public System.Void .ctor(UnityEngine.Vector3 upperBoneForwardAxis, UnityEngine.Vector3 lowerBoneForwardAxis, UnityEngine.Vector3 lastBoneLeftAxis)
-    // Offset: 0x13A37BC
+    // Offset: 0x1AC3AF4
     static BipedLimbOrientations::LimbOrientation* New_ctor(UnityEngine::Vector3 upperBoneForwardAxis, UnityEngine::Vector3 lowerBoneForwardAxis, UnityEngine::Vector3 lastBoneLeftAxis);
   }; // RootMotion.BipedLimbOrientations/LimbOrientation
 }

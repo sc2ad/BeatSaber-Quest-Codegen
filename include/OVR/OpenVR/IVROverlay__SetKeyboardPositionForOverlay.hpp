@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_SetKeyboardPositionForOverlay : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16A7524
+    // Offset: 0x1F2C2CC
     static IVROverlay::_SetKeyboardPositionForOverlay* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.UInt64 ulOverlayHandle, OVR.OpenVR.HmdRect2_t avoidRect)
-    // Offset: 0x16A7538
+    // Offset: 0x1F2C2E0
     void Invoke(uint64_t ulOverlayHandle, OVR::OpenVR::HmdRect2_t avoidRect);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, OVR.OpenVR.HmdRect2_t avoidRect, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16A77F8
+    // Offset: 0x1F2C5A0
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, OVR::OpenVR::HmdRect2_t avoidRect, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16A78A8
+    // Offset: 0x1F2C650
     void EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_SetKeyboardPositionForOverlay
 }

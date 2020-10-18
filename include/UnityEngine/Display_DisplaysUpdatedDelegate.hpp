@@ -26,16 +26,16 @@ namespace UnityEngine {
   class Display::DisplaysUpdatedDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x130EC94
+    // Offset: 0x19E9F04
     static Display::DisplaysUpdatedDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x130E954
+    // Offset: 0x19E9BC4
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x130ECA8
+    // Offset: 0x19E9F18
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x130ECD4
+    // Offset: 0x19E9F44
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Display/DisplaysUpdatedDelegate
 }

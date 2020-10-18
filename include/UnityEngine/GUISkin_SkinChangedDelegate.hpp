@@ -26,16 +26,16 @@ namespace UnityEngine {
   class GUISkin::SkinChangedDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x127585C
+    // Offset: 0x1913464
     static GUISkin::SkinChangedDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x12755A0
+    // Offset: 0x19131A8
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1275870
+    // Offset: 0x1913478
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x127589C
+    // Offset: 0x19134A4
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.GUISkin/SkinChangedDelegate
 }

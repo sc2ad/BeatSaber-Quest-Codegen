@@ -31,29 +31,24 @@ namespace GlobalNamespace {
   class OnlineServicesSettingsViewController : public HMUI::ViewController {
     public:
     // private BoolSO _onlineServicesEnabled
-    // Offset: 0x68
+    // Offset: 0x70
     GlobalNamespace::BoolSO* onlineServicesEnabled;
     // private UnityEngine.UI.Toggle _enableOnlineServicesToggle
-    // Offset: 0x70
+    // Offset: 0x78
     UnityEngine::UI::Toggle* enableOnlineServicesToggle;
     // private HMUI.ToggleBinder _toggleBinder
-    // Offset: 0x78
+    // Offset: 0x80
     HMUI::ToggleBinder* toggleBinder;
     // private System.Void HandleEnableOnlineServicesToggleValueChanged(System.Boolean value)
-    // Offset: 0xBCFE8C
+    // Offset: 0x101460C
     void HandleEnableOnlineServicesToggleValueChanged(bool value);
-    // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xBCFD8C
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0x1014510
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
-    // protected override System.Void DidDeactivate(HMUI.ViewController/DeactivationType deactivationType)
-    // Offset: 0xBCFE88
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidDeactivate(HMUI.ViewController/DeactivationType deactivationType)
-    void DidDeactivate(HMUI::ViewController::DeactivationType deactivationType);
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xBCFE90
+    // Offset: 0x1014610
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -46,14 +46,14 @@ namespace System::Diagnostics::Tracing {
     // public override System.Void Write(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref ContainerType container)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Diagnostics.Tracing.PropertyAccessor`1
-    // Base method: System.Void PropertyAccessor`1::Write(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref ContainerType container)
+    // Base method: System.Void PropertyAccessor_1::Write(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref ContainerType container)
     void Write(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, ContainerType& container) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Write", collector, container));
     }
     // public override System.Object GetData(ContainerType container)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Diagnostics.Tracing.PropertyAccessor`1
-    // Base method: System.Object PropertyAccessor`1::GetData(ContainerType container)
+    // Base method: System.Object PropertyAccessor_1::GetData(ContainerType container)
     ::Il2CppObject* GetData(ContainerType container) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(this, "GetData", container));
     }

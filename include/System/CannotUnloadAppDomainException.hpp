@@ -23,20 +23,20 @@ namespace System {
   class CannotUnloadAppDomainException : public System::SystemException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x13363F0
+    // Offset: 0x15CF1B0
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static CannotUnloadAppDomainException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1336464
+    // Offset: 0x15CF224
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static CannotUnloadAppDomainException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1336498
+    // Offset: 0x15CF258
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

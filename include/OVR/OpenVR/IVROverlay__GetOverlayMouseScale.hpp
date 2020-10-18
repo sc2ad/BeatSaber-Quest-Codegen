@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_GetOverlayMouseScale : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x152813C
+    // Offset: 0x1D6BA44
     static IVROverlay::_GetOverlayMouseScale* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.HmdVector2_t pvecMouseScale)
-    // Offset: 0x1528150
+    // Offset: 0x1D6BA58
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, OVR::OpenVR::HmdVector2_t& pvecMouseScale);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.HmdVector2_t pvecMouseScale, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x15283D4
+    // Offset: 0x1D6BCDC
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, OVR::OpenVR::HmdVector2_t& pvecMouseScale, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(ref OVR.OpenVR.HmdVector2_t pvecMouseScale, System.IAsyncResult result)
-    // Offset: 0x1528484
+    // Offset: 0x1D6BD8C
     OVR::OpenVR::EVROverlayError EndInvoke(OVR::OpenVR::HmdVector2_t& pvecMouseScale, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetOverlayMouseScale
 }

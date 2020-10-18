@@ -21,9 +21,9 @@ namespace GlobalNamespace {
   class GuestNameButtonsListItemsList : public HMUI::UIItemsList_1<GlobalNamespace::GuestNameButtonsListItem*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xB419E8
+    // Offset: 0xECC228
     // Implemented from: HMUI.UIItemsList`1
-    // Base method: System.Void UIItemsList`1::.ctor()
+    // Base method: System.Void UIItemsList_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
     // Base method: System.Void Component::.ctor()

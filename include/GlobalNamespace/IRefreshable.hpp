@@ -12,7 +12,7 @@ namespace GlobalNamespace {
     public:
     // public System.Void Refresh()
     // Offset: 0xFFFFFFFF
-    void Refresh();
+    void GlobalNamespace_IRefreshable_Refresh();
   }; // IRefreshable
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

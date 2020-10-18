@@ -14,7 +14,7 @@ namespace GlobalNamespace {
   class DisableOnNonQuest : public UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0xBE8358
+    // Offset: 0xF6076C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

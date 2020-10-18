@@ -29,10 +29,10 @@ namespace System::Diagnostics::Tracing {
       return etwSession;
     }
     // System.Boolean <RemoveEtwSession>b__0(System.WeakReference`1<System.Diagnostics.Tracing.EtwSession> wrEtwSession)
-    // Offset: 0xC9B170
+    // Offset: 0x147AE48
     bool $RemoveEtwSession$b__0(System::WeakReference_1<System::Diagnostics::Tracing::EtwSession*>* wrEtwSession);
     // public System.Void .ctor()
-    // Offset: 0xC9B00C
+    // Offset: 0x147ACE4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EtwSession::$$c__DisplayClass1_0* New_ctor();

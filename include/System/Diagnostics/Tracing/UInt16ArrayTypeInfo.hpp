@@ -25,17 +25,17 @@ namespace System::Diagnostics::Tracing {
   class UInt16ArrayTypeInfo : public System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<::Array<uint16_t>*> {
     public:
     // public System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref System.UInt16[] value)
-    // Offset: 0xDA154C
+    // Offset: 0x1250A58
     void WriteData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, ::Array<uint16_t>*& value);
     // public override System.Void WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
-    // Offset: 0xDA14BC
+    // Offset: 0x12509C8
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo
     // Base method: System.Void TraceLoggingTypeInfo::WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
     void WriteMetadata(System::Diagnostics::Tracing::TraceLoggingMetadataCollector* collector, ::Il2CppString* name, System::Diagnostics::Tracing::EventFieldFormat format);
     // public System.Void .ctor()
-    // Offset: 0xDA1564
+    // Offset: 0x1250A70
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo`1
-    // Base method: System.Void TraceLoggingTypeInfo`1::.ctor()
+    // Base method: System.Void TraceLoggingTypeInfo_1::.ctor()
     // Base method: System.Void Object::.ctor()
     static UInt16ArrayTypeInfo* New_ctor();
   }; // System.Diagnostics.Tracing.UInt16ArrayTypeInfo

@@ -48,10 +48,10 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
       return command;
     }
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod test, NUnit.Framework.Interfaces.ITestFilter filter)
-    // Offset: 0xE357DC
+    // Offset: 0x12B263C
     static DefaultTestWorkItem* New_ctor(NUnit::Framework::Internal::TestMethod* test, NUnit::Framework::Interfaces::ITestFilter* filter);
     // protected override System.Collections.IEnumerable PerformWork()
-    // Offset: 0xE35828
+    // Offset: 0x12B2688
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem
     // Base method: System.Collections.IEnumerable UnityWorkItem::PerformWork()
     System::Collections::IEnumerable* PerformWork();

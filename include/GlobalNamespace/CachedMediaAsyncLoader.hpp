@@ -21,8 +21,8 @@ namespace GlobalNamespace {
 namespace UnityEngine {
   // Forward declaring type: AudioClip
   class AudioClip;
-  // Forward declaring type: Texture2D
-  class Texture2D;
+  // Forward declaring type: Sprite
+  class Sprite;
 }
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
@@ -43,37 +43,37 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::CachedMediaAsyncLoader::$LoadAudioClipAsync$d__5
     struct $LoadAudioClipAsync$d__5;
-    // Nested type: GlobalNamespace::CachedMediaAsyncLoader::$LoadImageAsync$d__6
-    struct $LoadImageAsync$d__6;
-    // private System.Int32 _maxNumberAdioClipCachedElements
+    // Nested type: GlobalNamespace::CachedMediaAsyncLoader::$LoadSpriteAsync$d__6
+    struct $LoadSpriteAsync$d__6;
+    // private System.Int32 _maxNumberOfAudioClipCachedElements
     // Offset: 0x18
-    int maxNumberAdioClipCachedElements;
-    // private System.Int32 _maxNumberImageCachedElements
+    int maxNumberOfAudioClipCachedElements;
+    // private System.Int32 _maxNumberOfSpriteCachedElements
     // Offset: 0x1C
-    int maxNumberImageCachedElements;
-    // private AsyncCachedLoader`2<System.String,UnityEngine.AudioClip> _audioCachedAsyncLoader
+    int maxNumberOfSpriteCachedElements;
+    // private AsyncCachedLoader`2<System.String,UnityEngine.AudioClip> _audioAsyncCachedLoader
     // Offset: 0x20
-    GlobalNamespace::AsyncCachedLoader_2<::Il2CppString*, UnityEngine::AudioClip*>* audioCachedAsyncLoader;
-    // private AsyncCachedLoader`2<System.String,UnityEngine.Texture2D> _texture2DCachedAsyncLoader
+    GlobalNamespace::AsyncCachedLoader_2<::Il2CppString*, UnityEngine::AudioClip*>* audioAsyncCachedLoader;
+    // private AsyncCachedLoader`2<System.String,UnityEngine.Sprite> _spriteAsyncCachedLoader
     // Offset: 0x28
-    GlobalNamespace::AsyncCachedLoader_2<::Il2CppString*, UnityEngine::Texture2D*>* texture2DCachedAsyncLoader;
+    GlobalNamespace::AsyncCachedLoader_2<::Il2CppString*, UnityEngine::Sprite*>* spriteAsyncCachedLoader;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void ClearCache()
-    // Offset: 0x1953728
+    // Offset: 0x21F80B4
     void ClearCache();
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> LoadAudioClipAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x19537A0
+    // Offset: 0x21F812C
     // Implemented from: IAudioClipAsyncLoader
     // Base method: System.Threading.Tasks.Task`1<UnityEngine.AudioClip> IAudioClipAsyncLoader::LoadAudioClipAsync(System.String path, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* LoadAudioClipAsync(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
-    // public System.Threading.Tasks.Task`1<UnityEngine.Texture2D> LoadImageAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1953904
-    // Implemented from: IImageAsyncLoader
-    // Base method: System.Threading.Tasks.Task`1<UnityEngine.Texture2D> IImageAsyncLoader::LoadImageAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    System::Threading::Tasks::Task_1<UnityEngine::Texture2D*>* LoadImageAsync(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
+    // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> LoadSpriteAsync(System.String path, System.Threading.CancellationToken cancellationToken)
+    // Offset: 0x21F8290
+    // Implemented from: ISpriteAsyncLoader
+    // Base method: System.Threading.Tasks.Task`1<UnityEngine.Sprite> ISpriteAsyncLoader::LoadSpriteAsync(System.String path, System.Threading.CancellationToken cancellationToken)
+    System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* LoadSpriteAsync(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x1953A68
+    // Offset: 0x21F83F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

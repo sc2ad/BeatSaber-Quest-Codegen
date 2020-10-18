@@ -15,6 +15,11 @@
 namespace UnityEngine {
   // Skipping declaration: ParticleSystem because it is already included!
 }
+// Forward declaring namespace: Libraries::HM::HMLib::VR
+namespace Libraries::HM::HMLib::VR {
+  // Forward declaring type: HapticPresetSO
+  class HapticPresetSO;
+}
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: SaberClashChecker
@@ -36,37 +41,40 @@ namespace GlobalNamespace {
     // private UnityEngine.ParticleSystem _glowParticleSystem
     // Offset: 0x20
     UnityEngine::ParticleSystem* glowParticleSystem;
-    // private SaberClashChecker _saberClashChecker
+    // private Libraries.HM.HMLib.VR.HapticPresetSO _rumblePreset
     // Offset: 0x28
+    Libraries::HM::HMLib::VR::HapticPresetSO* rumblePreset;
+    // private SaberClashChecker _saberClashChecker
+    // Offset: 0x30
     GlobalNamespace::SaberClashChecker* saberClashChecker;
     // private HapticFeedbackController _hapticFeedbackController
-    // Offset: 0x30
+    // Offset: 0x38
     GlobalNamespace::HapticFeedbackController* hapticFeedbackController;
     // private ColorManager _colorManager
-    // Offset: 0x38
+    // Offset: 0x40
     GlobalNamespace::ColorManager* colorManager;
     // private UnityEngine.ParticleSystem/EmissionModule _sparkleParticleSystemEmmisionModule
-    // Offset: 0x40
+    // Offset: 0x48
     UnityEngine::ParticleSystem::EmissionModule sparkleParticleSystemEmmisionModule;
     // private UnityEngine.ParticleSystem/EmissionModule _glowParticleSystemEmmisionModule
-    // Offset: 0x48
+    // Offset: 0x50
     UnityEngine::ParticleSystem::EmissionModule glowParticleSystemEmmisionModule;
     // private System.Boolean _sabersAreClashing
-    // Offset: 0x50
+    // Offset: 0x58
     bool sabersAreClashing;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xC28710
+    // Offset: 0xF7FFA8
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0xC288EC
+    // Offset: 0xF80184
     void OnDisable();
     // protected System.Void LateUpdate()
-    // Offset: 0xC288FC
+    // Offset: 0xF80194
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0xC289F8
+    // Offset: 0xF80298
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

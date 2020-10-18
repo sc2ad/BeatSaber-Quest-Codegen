@@ -35,13 +35,13 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Int32> <>9__5_0
     static void _set_$$9__5_0(System::Func_2<UnityEngine::ProBuilder::Face*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0xF0B090
+    // Offset: 0x13ED6E0
     static void _cctor();
     // System.Int32 <SplitByMaxVertexCount>b__5_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0xF0B100
+    // Offset: 0x13ED750
     int $SplitByMaxVertexCount$b__5_0(UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0xF0B0F8
+    // Offset: 0x13ED748
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CombineMeshes::$$c* New_ctor();

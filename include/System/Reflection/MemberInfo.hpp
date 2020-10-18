@@ -53,16 +53,16 @@ namespace System::Reflection {
     // Offset: 0xFFFFFFFF
     ::Array<::Il2CppObject*>* GetCustomAttributes(bool inherit);
     // public System.Collections.Generic.IList`1<System.Reflection.CustomAttributeData> GetCustomAttributesData()
-    // Offset: 0x1370170
+    // Offset: 0x18CCE8C
     System::Collections::Generic::IList_1<System::Reflection::CustomAttributeData*>* GetCustomAttributesData();
     // public System.Int32 get_MetadataToken()
-    // Offset: 0x13701D0
+    // Offset: 0x18CCEEC
     int get_MetadataToken();
     // public System.Reflection.Module get_Module()
-    // Offset: 0x13701D4
+    // Offset: 0x18CCEF0
     System::Reflection::Module* get_Module();
     // protected System.Void .ctor()
-    // Offset: 0x136EC14
+    // Offset: 0x18CB8B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MemberInfo* New_ctor();
@@ -77,21 +77,21 @@ namespace System::Reflection {
     // Base method: System.Boolean ICustomAttributeProvider::IsDefined(System.Type attributeType, System.Boolean inherit)
     bool IsDefined(System::Type* attributeType, bool inherit);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x13704D0
+    // Offset: 0x18CD6BC
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x136EC28
+    // Offset: 0x18CB8D4
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.Reflection.MemberInfo
   // static public System.Boolean op_Equality(System.Reflection.MemberInfo left, System.Reflection.MemberInfo right)
-  // Offset: 0x136B874
+  // Offset: 0x18CCFA4
   bool operator ==(System::Reflection::MemberInfo* left, System::Reflection::MemberInfo& right);
   // static public System.Boolean op_Inequality(System.Reflection.MemberInfo left, System.Reflection.MemberInfo right)
-  // Offset: 0x13704B4
+  // Offset: 0x18CD6A0
   bool operator !=(System::Reflection::MemberInfo* left, System::Reflection::MemberInfo& right);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

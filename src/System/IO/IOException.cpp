@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.IO.IOException
 #include "System/IO/IOException.hpp"
-// Including type: System.Exception
-#include "System/Exception.hpp"
 // Including type: System.Runtime.Serialization.SerializationInfo
 #include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Including type: System.Runtime.Serialization.StreamingContext

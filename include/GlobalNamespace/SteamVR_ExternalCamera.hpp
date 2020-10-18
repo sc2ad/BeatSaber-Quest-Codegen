@@ -144,34 +144,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void ReadConfig()
-    // Offset: 0xD8431C
+    // Offset: 0x123496C
     void ReadConfig();
     // private System.Void OnChanged(System.Object source, System.IO.FileSystemEventArgs e)
-    // Offset: 0xD84C40
+    // Offset: 0x1235290
     void OnChanged(::Il2CppObject* source, System::IO::FileSystemEventArgs* e);
     // public System.Void AttachToCamera(SteamVR_Camera vrcam)
-    // Offset: 0xD84C44
+    // Offset: 0x1235294
     void AttachToCamera(GlobalNamespace::SteamVR_Camera* vrcam);
     // public System.Single GetTargetDistance()
-    // Offset: 0xD8524C
+    // Offset: 0x123589C
     float GetTargetDistance();
     // public System.Void RenderNear()
-    // Offset: 0xD854F8
+    // Offset: 0x1235B48
     void RenderNear();
     // public System.Void RenderFar()
-    // Offset: 0xD85C50
+    // Offset: 0x12362A0
     void RenderFar();
     // private System.Void OnGUI()
-    // Offset: 0xD85D70
+    // Offset: 0x12363C0
     void OnGUI();
     // private System.Void OnEnable()
-    // Offset: 0xD85D74
+    // Offset: 0x12363C4
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0xD85FF0
+    // Offset: 0x1236640
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0xD8615C
+    // Offset: 0x12367AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

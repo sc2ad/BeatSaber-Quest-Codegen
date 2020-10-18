@@ -36,10 +36,10 @@ namespace Zenject {
     // Offset: 0x18
     Zenject::GameObjectCreationParameters* gameObjectInfo;
     // Zenject.ISubContainerCreator <ByNewContextPrefab>b__0(Zenject.DiContainer container)
-    // Offset: 0xFD0F14
+    // Offset: 0x151EEB0
     Zenject::ISubContainerCreator* $ByNewContextPrefab$b__0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0xFD0570
+    // Offset: 0x151E50C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SubContainerBinder::$$c__DisplayClass22_0* New_ctor();

@@ -45,7 +45,7 @@ namespace Zenject {
     // public T Create()
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IFactory`1
-    // Base method: TValue IFactory`1::Create()
+    // Base method: TValue IFactory_1::Create()
     T Create() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "Create"));
     }

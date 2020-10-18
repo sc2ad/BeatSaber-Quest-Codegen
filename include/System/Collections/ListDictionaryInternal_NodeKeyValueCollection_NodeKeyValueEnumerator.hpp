@@ -33,10 +33,10 @@ namespace System::Collections {
     // Offset: 0x25
     bool start;
     // public System.Void .ctor(System.Collections.ListDictionaryInternal list, System.Boolean isKeys)
-    // Offset: 0x13417F0
+    // Offset: 0x17E6650
     static ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator* New_ctor(System::Collections::ListDictionaryInternal* list, bool isKeys);
     // public System.Object get_Current()
-    // Offset: 0x1341864
+    // Offset: 0x17E66C4
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* get_Current();
@@ -44,12 +44,15 @@ namespace System::Collections {
     // Maps to method: get_Current
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Boolean MoveNext()
-    // Offset: 0x1341914
+    // Offset: 0x17E6774
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
+    // Creating proxy method: System_Collections_IEnumerator_MoveNext
+    // Maps to method: MoveNext
+    bool System_Collections_IEnumerator_MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1341A04
+    // Offset: 0x17E6864
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();

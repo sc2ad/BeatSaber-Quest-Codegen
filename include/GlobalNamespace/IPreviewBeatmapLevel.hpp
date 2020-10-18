@@ -23,8 +23,8 @@ namespace System::Threading::Tasks {
 namespace UnityEngine {
   // Forward declaring type: AudioClip
   class AudioClip;
-  // Forward declaring type: Texture2D
-  class Texture2D;
+  // Forward declaring type: Sprite
+  class Sprite;
 }
 // Forward declaring namespace: System::Threading
 namespace System::Threading {
@@ -90,9 +90,9 @@ namespace GlobalNamespace {
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> GetPreviewAudioClipAsync(System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
     System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* GetPreviewAudioClipAsync(System::Threading::CancellationToken cancellationToken);
-    // public System.Threading.Tasks.Task`1<UnityEngine.Texture2D> GetCoverImageTexture2DAsync(System.Threading.CancellationToken cancellationToken)
+    // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> GetCoverImageAsync(System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<UnityEngine::Texture2D*>* GetCoverImageTexture2DAsync(System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* GetCoverImageAsync(System::Threading::CancellationToken cancellationToken);
   }; // IPreviewBeatmapLevel
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

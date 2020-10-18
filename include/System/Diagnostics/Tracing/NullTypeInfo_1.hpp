@@ -37,7 +37,7 @@ namespace System::Diagnostics::Tracing {
     // public override System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref DataType value)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo`1
-    // Base method: System.Void TraceLoggingTypeInfo`1::WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref DataType value)
+    // Base method: System.Void TraceLoggingTypeInfo_1::WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref DataType value)
     void WriteData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, DataType& value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "WriteData", collector, value));
     }
@@ -51,7 +51,7 @@ namespace System::Diagnostics::Tracing {
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo`1
-    // Base method: System.Void TraceLoggingTypeInfo`1::.ctor()
+    // Base method: System.Void TraceLoggingTypeInfo_1::.ctor()
     // Base method: System.Void Object::.ctor()
     static NullTypeInfo_1<DataType>* New_ctor() {
       return THROW_UNLESS(il2cpp_utils::New<NullTypeInfo_1<DataType>*>());

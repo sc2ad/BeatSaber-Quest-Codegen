@@ -37,16 +37,16 @@ namespace RootMotion::FinalIK {
     // Offset: 0x2C
     UnityEngine::Quaternion defaultLocalRotation;
     // public System.Void .ctor(UnityEngine.Transform bone, UnityEngine.Transform target)
-    // Offset: 0x1374564
+    // Offset: 0x1A93CB4
     static GenericPoser::Map* New_ctor(UnityEngine::Transform* bone, UnityEngine::Transform* target);
     // public System.Void StoreDefaultState()
-    // Offset: 0x1374984
+    // Offset: 0x1A940D4
     void StoreDefaultState();
     // public System.Void FixTransform()
-    // Offset: 0x1374938
+    // Offset: 0x1A94088
     void FixTransform();
     // public System.Void Update(System.Single localRotationWeight, System.Single localPositionWeight)
-    // Offset: 0x1374730
+    // Offset: 0x1A93E80
     void Update(float localRotationWeight, float localPositionWeight);
   }; // RootMotion.FinalIK.GenericPoser/Map
 }

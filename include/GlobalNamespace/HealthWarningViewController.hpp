@@ -38,66 +38,66 @@ namespace GlobalNamespace {
   class HealthWarningViewController : public HMUI::ViewController {
     public:
     // private UnityEngine.UI.Button _continueButton
-    // Offset: 0x68
+    // Offset: 0x70
     UnityEngine::UI::Button* continueButton;
     // private UnityEngine.UI.Button _privacyPolicyButton
-    // Offset: 0x70
+    // Offset: 0x78
     UnityEngine::UI::Button* privacyPolicyButton;
     // private UnityEngine.UI.Button _openDataPrivacyPageButton
-    // Offset: 0x78
+    // Offset: 0x80
     UnityEngine::UI::Button* openDataPrivacyPageButton;
     // private UnityEngine.GameObject _privacyAgreeToPrivacyPolicyLabel
-    // Offset: 0x80
+    // Offset: 0x88
     UnityEngine::GameObject* privacyAgreeToPrivacyPolicyLabel;
     // private IAnalyticsModel _analyticsModel
-    // Offset: 0x88
+    // Offset: 0x90
     GlobalNamespace::IAnalyticsModel* analyticsModel;
     // private AppStaticSettingsSO _appStaticSettings
-    // Offset: 0x90
+    // Offset: 0x98
     GlobalNamespace::AppStaticSettingsSO* appStaticSettings;
     // private System.Action privacyPolicyButtonPressedEvent
-    // Offset: 0x98
+    // Offset: 0xA0
     System::Action* privacyPolicyButtonPressedEvent;
     // private System.Action openDataPrivacyPageButtonPressedEvent
-    // Offset: 0xA0
+    // Offset: 0xA8
     System::Action* openDataPrivacyPageButtonPressedEvent;
     // private System.Action didFinishEvent
-    // Offset: 0xA8
+    // Offset: 0xB0
     System::Action* didFinishEvent;
     // public System.Void add_privacyPolicyButtonPressedEvent(System.Action value)
-    // Offset: 0xB43CD4
+    // Offset: 0xECE4D8
     void add_privacyPolicyButtonPressedEvent(System::Action* value);
     // public System.Void remove_privacyPolicyButtonPressedEvent(System.Action value)
-    // Offset: 0xB44064
+    // Offset: 0xECE820
     void remove_privacyPolicyButtonPressedEvent(System::Action* value);
     // public System.Void add_openDataPrivacyPageButtonPressedEvent(System.Action value)
-    // Offset: 0xB43D78
+    // Offset: 0xECE57C
     void add_openDataPrivacyPageButtonPressedEvent(System::Action* value);
     // public System.Void remove_openDataPrivacyPageButtonPressedEvent(System.Action value)
-    // Offset: 0xB44108
+    // Offset: 0xECE8C4
     void remove_openDataPrivacyPageButtonPressedEvent(System::Action* value);
     // public System.Void add_didFinishEvent(System.Action value)
-    // Offset: 0xB43C30
+    // Offset: 0xECE434
     void add_didFinishEvent(System::Action* value);
     // public System.Void remove_didFinishEvent(System.Action value)
-    // Offset: 0xB43FC0
+    // Offset: 0xECE77C
     void remove_didFinishEvent(System::Action* value);
     // private System.Void <DidActivate>b__15_0()
-    // Offset: 0xB44C38
+    // Offset: 0xECF3A4
     void $DidActivate$b__15_0();
     // private System.Void <DidActivate>b__15_1()
-    // Offset: 0xB44C4C
+    // Offset: 0xECF3B8
     void $DidActivate$b__15_1();
     // private System.Void <DidActivate>b__15_2()
-    // Offset: 0xB44C60
+    // Offset: 0xECF3CC
     void $DidActivate$b__15_2();
-    // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xB44998
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0xECF104
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xB44C30
+    // Offset: 0xECF39C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

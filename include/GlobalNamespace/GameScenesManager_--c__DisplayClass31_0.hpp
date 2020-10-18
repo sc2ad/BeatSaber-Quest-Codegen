@@ -9,10 +9,24 @@
 #include "GlobalNamespace/GameScenesManager.hpp"
 // Completed includes
 // Begin forward declares
+// Forward declaring namespace: System::Collections::Generic
+namespace System::Collections::Generic {
+  // Forward declaring type: List`1<T>
+  template<typename T>
+  class List_1;
+}
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action
   class Action;
+  // Forward declaring type: Action`1<T>
+  template<typename T>
+  class Action_1;
+}
+// Forward declaring namespace: Zenject
+namespace Zenject {
+  // Forward declaring type: DiContainer
+  class DiContainer;
 }
 // Completed forward declares
 // Type namespace: 
@@ -23,14 +37,32 @@ namespace GlobalNamespace {
     // public GameScenesManager <>4__this
     // Offset: 0x10
     GlobalNamespace::GameScenesManager* $$4__this;
-    // public System.Action finishCallback
+    // public System.Collections.Generic.List`1<System.String> prevScenes
     // Offset: 0x18
-    System::Action* finishCallback;
-    // System.Void <PopScenes>b__0()
-    // Offset: 0xCB4BB4
-    void $PopScenes$b__0();
+    System::Collections::Generic::List_1<::Il2CppString*>* prevScenes;
+    // public System.Collections.Generic.List`1<System.String> emptyTransitionSceneNameList
+    // Offset: 0x20
+    System::Collections::Generic::List_1<::Il2CppString*>* emptyTransitionSceneNameList;
+    // public System.Single minDuration
+    // Offset: 0x28
+    float minDuration;
+    // public System.Action afterMinDurationCallback
+    // Offset: 0x30
+    System::Action* afterMinDurationCallback;
+    // public System.Action`1<Zenject.DiContainer> finishCallback
+    // Offset: 0x38
+    System::Action_1<Zenject::DiContainer*>* finishCallback;
+    // public System.Action`1<Zenject.DiContainer> <>9__1
+    // Offset: 0x40
+    System::Action_1<Zenject::DiContainer*>* $$9__1;
+    // System.Void <PopScenes>b__0(Zenject.DiContainer emptySceneContainer)
+    // Offset: 0x109A8F8
+    void $PopScenes$b__0(Zenject::DiContainer* emptySceneContainer);
+    // System.Void <PopScenes>b__1(Zenject.DiContainer container)
+    // Offset: 0x109A9FC
+    void $PopScenes$b__1(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0xCB3674
+    // Offset: 0x1099390
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GameScenesManager::$$c__DisplayClass31_0* New_ctor();

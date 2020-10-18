@@ -35,7 +35,7 @@ namespace ModestTree {
   class MiscExtensions : public ::Il2CppObject {
     public:
     // static public System.String Fmt(System.String s, params System.Object[] args)
-    // Offset: 0xD61310
+    // Offset: 0x11EC8E8
     static ::Il2CppString* Fmt(::Il2CppString* s, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.String Fmt(System.String s, params System.Object[] args)
     static ::Il2CppString* Fmt(::Il2CppString* s, std::initializer_list<::Il2CppObject*> args);
@@ -51,7 +51,7 @@ namespace ModestTree {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<int>("ModestTree", "MiscExtensions", "IndexOf", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list, item)));
     }
     // static public System.String Join(System.Collections.Generic.IEnumerable`1<System.String> values, System.String separator)
-    // Offset: 0xD623D8
+    // Offset: 0x11ED9B0
     static ::Il2CppString* Join(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* values, ::Il2CppString* separator);
     // static public System.Void AllocFreeAddRange(System.Collections.Generic.IList`1<T> list, System.Collections.Generic.IList`1<T> items)
     // Offset: 0xFFFFFFFF
@@ -85,9 +85,9 @@ namespace ModestTree {
     }
     // static public TVal GetValueAndRemove(System.Collections.Generic.IDictionary`2<TKey,TVal> dictionary, TKey key)
     // Offset: 0xFFFFFFFF
-    template<class TVal, class TKey>
+    template<class TKey, class TVal>
     static TVal GetValueAndRemove(System::Collections::Generic::IDictionary_2<TKey, TVal>* dictionary, TKey key) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<TVal>("ModestTree", "MiscExtensions", "GetValueAndRemove", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TVal>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get()}, dictionary, key)));
+      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<TVal>("ModestTree", "MiscExtensions", "GetValueAndRemove", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TVal>::get()}, dictionary, key)));
     }
   }; // ModestTree.MiscExtensions
 }

@@ -13,6 +13,8 @@
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: AnimationClip
+  class AnimationClip;
   // Forward declaring type: AnimationState
   class AnimationState;
   // Forward declaring type: PlayMode
@@ -31,29 +33,47 @@ namespace UnityEngine {
     public:
     // Nested type: UnityEngine::Animation::Enumerator
     class Enumerator;
+    // public UnityEngine.AnimationClip get_clip()
+    // Offset: 0x21E4F20
+    UnityEngine::AnimationClip* get_clip();
+    // public System.Void Rewind()
+    // Offset: 0x21E4F60
+    void Rewind();
+    // static private System.Void INTERNAL_CALL_Rewind(UnityEngine.Animation self)
+    // Offset: 0x21E4FA0
+    static void INTERNAL_CALL_Rewind(UnityEngine::Animation* self);
     // public UnityEngine.AnimationState get_Item(System.String name)
-    // Offset: 0x193D308
+    // Offset: 0x21E4FE0
     UnityEngine::AnimationState* get_Item(::Il2CppString* name);
+    // public System.Boolean Play()
+    // Offset: 0x21E5080
+    bool Play();
+    // public System.Boolean Play(UnityEngine.PlayMode mode)
+    // Offset: 0x21E50C4
+    bool Play(UnityEngine::PlayMode mode);
     // public System.Void CrossFade(System.String animation, System.Single fadeLength, UnityEngine.PlayMode mode)
-    // Offset: 0x193D3A8
+    // Offset: 0x21E5164
     void CrossFade(::Il2CppString* animation, float fadeLength, UnityEngine::PlayMode mode);
     // public System.Void CrossFade(System.String animation, System.Single fadeLength)
-    // Offset: 0x193D410
+    // Offset: 0x21E51CC
     void CrossFade(::Il2CppString* animation, float fadeLength);
+    // private System.Boolean PlayDefaultAnimation(UnityEngine.PlayMode mode)
+    // Offset: 0x21E5114
+    bool PlayDefaultAnimation(UnityEngine::PlayMode mode);
     // UnityEngine.AnimationState GetState(System.String name)
-    // Offset: 0x193D358
+    // Offset: 0x21E5030
     UnityEngine::AnimationState* GetState(::Il2CppString* name);
     // UnityEngine.AnimationState GetStateAtIndex(System.Int32 index)
-    // Offset: 0x193D528
+    // Offset: 0x21E52E4
     UnityEngine::AnimationState* GetStateAtIndex(int index);
     // System.Int32 GetStateCount()
-    // Offset: 0x193D578
+    // Offset: 0x21E5334
     int GetStateCount();
     // public System.Boolean get_animatePhysics()
-    // Offset: 0x193D5B8
+    // Offset: 0x21E5374
     bool get_animatePhysics();
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x193D474
+    // Offset: 0x21E5230
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* GetEnumerator();

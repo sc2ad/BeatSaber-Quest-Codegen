@@ -20,10 +20,10 @@ namespace TMPro {
     // Offset: 0x18
     TMPro::TMP_Dropdown* $$4__this;
     // System.Void <Show>b__0(System.Boolean x)
-    // Offset: 0xB5A1B4
+    // Offset: 0xF47CBC
     void $Show$b__0(bool x);
     // public System.Void .ctor()
-    // Offset: 0xB59604
+    // Offset: 0xF4710C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TMP_Dropdown::$$c__DisplayClass60_0* New_ctor();

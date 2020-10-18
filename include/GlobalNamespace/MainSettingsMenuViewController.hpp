@@ -19,8 +19,13 @@ namespace System {
 namespace GlobalNamespace {
   // Forward declaring type: SettingsSubMenuInfo
   class SettingsSubMenuInfo;
-  // Forward declaring type: MainSettingsTableView
-  class MainSettingsTableView;
+}
+// Forward declaring namespace: HMUI
+namespace HMUI {
+  // Forward declaring type: TextSegmentedControl
+  class TextSegmentedControl;
+  // Forward declaring type: SegmentedControl
+  class SegmentedControl;
 }
 // Completed forward declares
 // Type namespace: 
@@ -29,45 +34,45 @@ namespace GlobalNamespace {
   class MainSettingsMenuViewController : public HMUI::ViewController {
     public:
     // private System.Action`2<SettingsSubMenuInfo,System.Int32> didSelectSettingsSubMenuEvent
-    // Offset: 0x68
-    System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>* didSelectSettingsSubMenuEvent;
-    // private MainSettingsTableView _mainSettingsTableView
     // Offset: 0x70
-    GlobalNamespace::MainSettingsTableView* mainSettingsTableView;
+    System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>* didSelectSettingsSubMenuEvent;
     // private SettingsSubMenuInfo[] _settingsSubMenuInfos
     // Offset: 0x78
     ::Array<GlobalNamespace::SettingsSubMenuInfo*>* settingsSubMenuInfos;
-    // private SettingsSubMenuInfo _selectedSubMenuInfo
+    // private HMUI.TextSegmentedControl _settingsMenuSegmentedControl
     // Offset: 0x80
+    HMUI::TextSegmentedControl* settingsMenuSegmentedControl;
+    // private SettingsSubMenuInfo _selectedSubMenuInfo
+    // Offset: 0x88
     GlobalNamespace::SettingsSubMenuInfo* selectedSubMenuInfo;
     // private System.Int32 _selectedSubMenuInfoIdx
-    // Offset: 0x88
+    // Offset: 0x90
     int selectedSubMenuInfoIdx;
     // public System.Void add_didSelectSettingsSubMenuEvent(System.Action`2<SettingsSubMenuInfo,System.Int32> value)
-    // Offset: 0xBFFF40
+    // Offset: 0xED609C
     void add_didSelectSettingsSubMenuEvent(System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>* value);
     // public System.Void remove_didSelectSettingsSubMenuEvent(System.Action`2<SettingsSubMenuInfo,System.Int32> value)
-    // Offset: 0xBFFFE4
+    // Offset: 0xED6140
     void remove_didSelectSettingsSubMenuEvent(System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>* value);
     // public System.Int32 get_numberOfSubMenus()
-    // Offset: 0xC00088
+    // Offset: 0xED61E4
     int get_numberOfSubMenus();
     // public SettingsSubMenuInfo get_selectedSubMenuInfo()
-    // Offset: 0xC000A4
+    // Offset: 0xED6200
     GlobalNamespace::SettingsSubMenuInfo* get_selectedSubMenuInfo();
     // public System.Void Init(System.Int32 selectedSubMenuInfoIdx)
-    // Offset: 0xC000AC
+    // Offset: 0xED6208
     void Init(int selectedSubMenuInfoIdx);
-    // private System.Void HandleMainSettingsTableViewDidSelectRow(MainSettingsTableView tableView, System.Int32 row)
-    // Offset: 0xC00394
-    void HandleMainSettingsTableViewDidSelectRow(GlobalNamespace::MainSettingsTableView* tableView, int row);
-    // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xC000F0
+    // private System.Void HandleSettingsMenuSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
+    // Offset: 0xED63E4
+    void HandleSettingsMenuSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellIdx);
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0xED624C
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xC00448
+    // Offset: 0xED6498
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

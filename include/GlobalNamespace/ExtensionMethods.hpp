@@ -19,6 +19,10 @@ namespace UnityEngine {
   class MonoBehaviour;
   // Forward declaring type: Transform
   class Transform;
+  // Forward declaring type: Vector3
+  struct Vector3;
+  // Forward declaring type: Quaternion
+  struct Quaternion;
 }
 // Forward declaring namespace: System
 namespace System {
@@ -41,10 +45,10 @@ namespace GlobalNamespace {
   class ExtensionMethods : public ::Il2CppObject {
     public:
     // static public System.Boolean ContainsLayer(UnityEngine.LayerMask layerMask, System.Int32 layer)
-    // Offset: 0xCB08A4
+    // Offset: 0x109611C
     static bool ContainsLayer(UnityEngine::LayerMask layerMask, int layer);
     // static public UnityEngine.Coroutine StartUniqueCoroutine(UnityEngine.MonoBehaviour m, System.Func`1<System.Collections.IEnumerator> func)
-    // Offset: 0xCB08E0
+    // Offset: 0x1096158
     static UnityEngine::Coroutine* StartUniqueCoroutine(UnityEngine::MonoBehaviour* m, System::Func_1<System::Collections::IEnumerator*>* func);
     // static public UnityEngine.Coroutine StartUniqueCoroutine(UnityEngine.MonoBehaviour m, System.Func`2<T,System.Collections.IEnumerator> func, T value)
     // Offset: 0xFFFFFFFF
@@ -53,7 +57,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<UnityEngine::Coroutine*>("", "ExtensionMethods", "StartUniqueCoroutine", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, m, func, value)));
     }
     // static public System.Void StopUniqueCoroutine(UnityEngine.MonoBehaviour m, System.Func`1<System.Collections.IEnumerator> func)
-    // Offset: 0xCB0960
+    // Offset: 0x10961D8
     static void StopUniqueCoroutine(UnityEngine::MonoBehaviour* m, System::Func_1<System::Collections::IEnumerator*>* func);
     // static public System.Void StopUniqueCoroutine(UnityEngine.MonoBehaviour m, System.Func`2<T,System.Collections.IEnumerator> func)
     // Offset: 0xFFFFFFFF
@@ -62,8 +66,14 @@ namespace GlobalNamespace {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("", "ExtensionMethods", "StopUniqueCoroutine", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, m, func));
     }
     // static public System.Boolean IsDescendantOf(UnityEngine.Transform transform, UnityEngine.Transform parent)
-    // Offset: 0xCB09B0
+    // Offset: 0x1096228
     static bool IsDescendantOf(UnityEngine::Transform* transform, UnityEngine::Transform* parent);
+    // static public System.Void SetLocalPositionAndRotation(UnityEngine.Transform tr, UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
+    // Offset: 0x1096314
+    static void SetLocalPositionAndRotation(UnityEngine::Transform* tr, UnityEngine::Vector3 pos, UnityEngine::Quaternion rot);
+    // static public System.String GetPath(UnityEngine.Transform current)
+    // Offset: 0x1096378
+    static ::Il2CppString* GetPath(UnityEngine::Transform* current);
   }; // ExtensionMethods
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ExtensionMethods*, "", "ExtensionMethods");

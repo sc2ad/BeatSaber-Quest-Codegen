@@ -21,12 +21,12 @@ namespace System::Net::Configuration {
   class Ipv6Element : public System::Configuration::ConfigurationElement {
     public:
     // public System.Void .ctor()
-    // Offset: 0xF6CE28
+    // Offset: 0x14D7CB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Ipv6Element* New_ctor();
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0xF6CE68
+    // Offset: 0x14D7CF8
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     System::Configuration::ConfigurationPropertyCollection* get_Properties();

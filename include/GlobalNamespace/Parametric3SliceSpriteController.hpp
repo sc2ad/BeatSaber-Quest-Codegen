@@ -49,9 +49,12 @@ namespace GlobalNamespace {
     // public System.Single minAlpha
     // Offset: 0x3C
     float minAlpha;
-    // public System.Boolean useExponentAlpha
+    // public System.Single alphaStart
     // Offset: 0x40
-    bool useExponentAlpha;
+    float alphaStart;
+    // public System.Single alphaEnd
+    // Offset: 0x44
+    float alphaEnd;
     // private UnityEngine.MeshRenderer _meshRenderer
     // Offset: 0x48
     UnityEngine::MeshRenderer* meshRenderer;
@@ -83,6 +86,14 @@ namespace GlobalNamespace {
     static int _get__sizeParamsID();
     // Set static field: static private readonly System.Int32 _sizeParamsID
     static void _set__sizeParamsID(int value);
+    // Get static field: static private readonly System.Int32 _alphaStartID
+    static int _get__alphaStartID();
+    // Set static field: static private readonly System.Int32 _alphaStartID
+    static void _set__alphaStartID(int value);
+    // Get static field: static private readonly System.Int32 _alphaEndID
+    static int _get__alphaEndID();
+    // Set static field: static private readonly System.Int32 _alphaEndID
+    static void _set__alphaEndID(int value);
     // Get static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
@@ -96,34 +107,34 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 _instanceCount
     static void _set__instanceCount(int value);
     // static private System.Void RuntimeInit()
-    // Offset: 0x182D858
+    // Offset: 0x1FB024C
     static void RuntimeInit();
     // protected System.Void Awake()
-    // Offset: 0x182D8E0
+    // Offset: 0x1FB02D4
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x182E014
+    // Offset: 0x1FB0A08
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x182E094
+    // Offset: 0x1FB0A88
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x182E348
+    // Offset: 0x1FB0D68
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0x182E404
+    // Offset: 0x1FB0E24
     void OnDestroy();
     // private System.Void Init()
-    // Offset: 0x182DA6C
+    // Offset: 0x1FB0460
     void Init();
     // private UnityEngine.Mesh CreateMesh()
-    // Offset: 0x182DB0C
+    // Offset: 0x1FB0500
     UnityEngine::Mesh* CreateMesh();
     // public System.Void Refresh()
-    // Offset: 0x182E128
+    // Offset: 0x1FB0B1C
     void Refresh();
     // public System.Void .ctor()
-    // Offset: 0x182E4A4
+    // Offset: 0x1FB0EC4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -132,7 +143,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static Parametric3SliceSpriteController* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x182E4C0
+    // Offset: 0x1FB0EE8
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

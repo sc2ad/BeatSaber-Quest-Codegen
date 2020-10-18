@@ -21,7 +21,7 @@ namespace UnityEngine {
       return order;
     }
     // public System.Int32 get_order()
-    // Offset: 0x1306A48
+    // Offset: 0x19E1B14
     int get_order();
   }; // UnityEngine.BeforeRenderOrderAttribute
 }

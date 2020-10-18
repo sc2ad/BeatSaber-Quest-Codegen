@@ -77,118 +77,118 @@ namespace UnityEngine {
     // Set static field: static public System.Single kEpsilonNormalSqrt
     static void _set_kEpsilonNormalSqrt(float value);
     // public System.Single get_Item(System.Int32 index)
-    // Offset: 0xA47760
+    // Offset: 0xDBF278
     float get_Item(int index);
     // public System.Void set_Item(System.Int32 index, System.Single value)
-    // Offset: 0xA47768
+    // Offset: 0xDBF280
     void set_Item(int index, float value);
     // public System.Void .ctor(System.Single x, System.Single y)
-    // Offset: 0xA47770
+    // Offset: 0xDBF288
     // ABORTED: conflicts with another method.  Vector2(float x, float y);
     // static public UnityEngine.Vector2 Lerp(UnityEngine.Vector2 a, UnityEngine.Vector2 b, System.Single t)
-    // Offset: 0x139B680
+    // Offset: 0x1999180
     static UnityEngine::Vector2 Lerp(UnityEngine::Vector2 a, UnityEngine::Vector2 b, float t);
     // static public UnityEngine.Vector2 Scale(UnityEngine.Vector2 a, UnityEngine.Vector2 b)
-    // Offset: 0x139B72C
+    // Offset: 0x199922C
     static UnityEngine::Vector2 Scale(UnityEngine::Vector2 a, UnityEngine::Vector2 b);
     // public System.Void Scale(UnityEngine.Vector2 scale)
-    // Offset: 0xA47778
+    // Offset: 0xDBF290
     void Scale(UnityEngine::Vector2 scale);
     // public System.Void Normalize()
-    // Offset: 0xA4778C
+    // Offset: 0xDBF2A4
     void Normalize();
     // public UnityEngine.Vector2 get_normalized()
-    // Offset: 0xA47794
+    // Offset: 0xDBF2AC
     UnityEngine::Vector2 get_normalized();
     // public System.String ToString(System.String format)
-    // Offset: 0xA477C8
+    // Offset: 0xDBF2E0
     ::Il2CppString* ToString(::Il2CppString* format);
     // static public UnityEngine.Vector2 Perpendicular(UnityEngine.Vector2 inDirection)
-    // Offset: 0x139BD04
+    // Offset: 0x1999804
     static UnityEngine::Vector2 Perpendicular(UnityEngine::Vector2 inDirection);
     // static public System.Single Dot(UnityEngine.Vector2 lhs, UnityEngine.Vector2 rhs)
-    // Offset: 0x139BD18
+    // Offset: 0x1999818
     static float Dot(UnityEngine::Vector2 lhs, UnityEngine::Vector2 rhs);
     // public System.Single get_magnitude()
-    // Offset: 0xA47838
+    // Offset: 0xDBF350
     float get_magnitude();
     // public System.Single get_sqrMagnitude()
-    // Offset: 0xA47840
+    // Offset: 0xDBF358
     float get_sqrMagnitude();
     // static public System.Single Angle(UnityEngine.Vector2 from, UnityEngine.Vector2 to)
-    // Offset: 0x139BD3C
+    // Offset: 0x199983C
     static float Angle(UnityEngine::Vector2 from, UnityEngine::Vector2 to);
     // static public System.Single SignedAngle(UnityEngine.Vector2 from, UnityEngine.Vector2 to)
-    // Offset: 0x139BE98
+    // Offset: 0x1999998
     static float SignedAngle(UnityEngine::Vector2 from, UnityEngine::Vector2 to);
     // static public System.Single Distance(UnityEngine.Vector2 a, UnityEngine.Vector2 b)
-    // Offset: 0x139BF6C
+    // Offset: 0x1999A6C
     static float Distance(UnityEngine::Vector2 a, UnityEngine::Vector2 b);
     // static public UnityEngine.Vector2 get_zero()
-    // Offset: 0x139B8B4
+    // Offset: 0x19993B4
     static UnityEngine::Vector2 get_zero();
     // static public UnityEngine.Vector2 get_one()
-    // Offset: 0x139C158
+    // Offset: 0x1999C58
     static UnityEngine::Vector2 get_one();
     // static public UnityEngine.Vector2 get_up()
-    // Offset: 0x139C1C0
+    // Offset: 0x1999CC0
     static UnityEngine::Vector2 get_up();
     // static public UnityEngine.Vector2 get_right()
-    // Offset: 0x139C228
+    // Offset: 0x1999D28
     static UnityEngine::Vector2 get_right();
     // static private System.Void .cctor()
-    // Offset: 0x139C290
+    // Offset: 0x1999D90
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0xA477C0
+    // Offset: 0xDBF2D8
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA477D0
+    // Offset: 0xDBF2E8
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0xA4780C
+    // Offset: 0xDBF324
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
     // public System.Boolean Equals(UnityEngine.Vector2 other)
-    // Offset: 0xA47814
+    // Offset: 0xDBF32C
     // Implemented from: System.IEquatable`1
-    // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Vector2 other)
+    // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Vector2 other)
     bool Equals(UnityEngine::Vector2 other);
   }; // UnityEngine.Vector2
   // static public UnityEngine.Vector2 op_Addition(UnityEngine.Vector2 a, UnityEngine.Vector2 b)
-  // Offset: 0x139C020
+  // Offset: 0x1999B20
   UnityEngine::Vector2 operator+(const UnityEngine::Vector2& a, const UnityEngine::Vector2& b);
   // static public UnityEngine.Vector2 op_Subtraction(UnityEngine.Vector2 a, UnityEngine.Vector2 b)
-  // Offset: 0x139C02C
+  // Offset: 0x1999B2C
   UnityEngine::Vector2 operator-(const UnityEngine::Vector2& a, const UnityEngine::Vector2& b);
   // static public UnityEngine.Vector2 op_Multiply(UnityEngine.Vector2 a, UnityEngine.Vector2 b)
-  // Offset: 0x139C038
+  // Offset: 0x1999B38
   UnityEngine::Vector2 operator*(const UnityEngine::Vector2& a, const UnityEngine::Vector2& b);
   // static public UnityEngine.Vector2 op_Division(UnityEngine.Vector2 a, UnityEngine.Vector2 b)
-  // Offset: 0x139C044
+  // Offset: 0x1999B44
   UnityEngine::Vector2 operator/(const UnityEngine::Vector2& a, const UnityEngine::Vector2& b);
   // static public UnityEngine.Vector2 op_UnaryNegation(UnityEngine.Vector2 a)
-  // Offset: 0x139C050
+  // Offset: 0x1999B50
   UnityEngine::Vector2 operator-(const UnityEngine::Vector2& a);
   // static public UnityEngine.Vector2 op_Multiply(UnityEngine.Vector2 a, System.Single d)
-  // Offset: 0x139C05C
+  // Offset: 0x1999B5C
   UnityEngine::Vector2 operator*(const UnityEngine::Vector2& a, const float& d);
   // static public UnityEngine.Vector2 op_Multiply(System.Single d, UnityEngine.Vector2 a)
-  // Offset: 0x139C068
+  // Offset: 0x1999B68
   UnityEngine::Vector2 operator*(const float& d, const UnityEngine::Vector2& a);
   // static public UnityEngine.Vector2 op_Division(UnityEngine.Vector2 a, System.Single d)
-  // Offset: 0x139B8A8
+  // Offset: 0x19993A8
   UnityEngine::Vector2 operator/(const UnityEngine::Vector2& a, const float& d);
   // static public System.Boolean op_Equality(UnityEngine.Vector2 lhs, UnityEngine.Vector2 rhs)
-  // Offset: 0x139C078
+  // Offset: 0x1999B78
   bool operator ==(const UnityEngine::Vector2& lhs, const UnityEngine::Vector2& rhs);
   // static public System.Boolean op_Inequality(UnityEngine.Vector2 lhs, UnityEngine.Vector2 rhs)
-  // Offset: 0x139C0A0
+  // Offset: 0x1999BA0
   bool operator !=(const UnityEngine::Vector2& lhs, const UnityEngine::Vector2& rhs);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -18,9 +18,9 @@ namespace UnityEngine::UI {
   class ScrollRect::ScrollRectEvent : public UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x120BA1C
+    // Offset: 0x1840504
     // Implemented from: UnityEngine.Events.UnityEvent`1
-    // Base method: System.Void UnityEvent`1::.ctor()
+    // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()
     // Base method: System.Void Object::.ctor()
     static ScrollRect::ScrollRectEvent* New_ctor();

@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRChaperone::_ForceBoundsVisible : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xFEADEC
+    // Offset: 0x1538D88
     static IVRChaperone::_ForceBoundsVisible* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Boolean bForce)
-    // Offset: 0xFE41EC
+    // Offset: 0x1532188
     void Invoke(bool bForce);
     // public System.IAsyncResult BeginInvoke(System.Boolean bForce, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xFEAE00
+    // Offset: 0x1538D9C
     System::IAsyncResult* BeginInvoke(bool bForce, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xFEAE90
+    // Offset: 0x1538E2C
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperone/_ForceBoundsVisible
 }

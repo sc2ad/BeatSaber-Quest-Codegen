@@ -134,10 +134,15 @@ namespace UnityEngine::ProBuilder::KdTree {
       bool MoveNext() {
         return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "MoveNext"));
       }
+      // Creating proxy method: System_Collections_IEnumerator_MoveNext
+      // Maps to method: MoveNext
+      bool System_Collections_IEnumerator_MoveNext() {
+        return MoveNext();
+      }
       // private UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue> System.Collections.Generic.IEnumerator<UnityEngine.ProBuilder.KdTree.KdTreeNode<TKey,TValue>>.get_Current()
       // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.IEnumerator`1
-      // Base method: T IEnumerator`1::get_Current()
+      // Base method: T IEnumerator_1::get_Current()
       UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* System_Collections_Generic_IEnumerator_1_get_Current() {
         return THROW_UNLESS((il2cpp_utils::RunMethod<UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>(this, "System.Collections.Generic.IEnumerator<UnityEngine.ProBuilder.KdTree.KdTreeNode<TKey,TValue>>.get_Current")));
       }

@@ -37,33 +37,33 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::MissionLevelModifiersViewController::$$c__DisplayClass7_0
     class $$c__DisplayClass7_0;
     // private GameplayModifiersModelSO _gameplayModifiersModel
-    // Offset: 0x68
+    // Offset: 0x70
     GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel;
     // private GameplayModifierInfoListItemsList _gameplayModifierInfoListItemsList
-    // Offset: 0x70
+    // Offset: 0x78
     GlobalNamespace::GameplayModifierInfoListItemsList* gameplayModifierInfoListItemsList;
     // private UnityEngine.GameObject _modifiersPanel
-    // Offset: 0x78
+    // Offset: 0x80
     UnityEngine::GameObject* modifiersPanel;
     // private TMPro.TextMeshProUGUI _titleText
-    // Offset: 0x80
+    // Offset: 0x88
     TMPro::TextMeshProUGUI* titleText;
     // private GameplayModifiers _gameplayModifiers
-    // Offset: 0x88
+    // Offset: 0x90
     GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // public System.Void Setup(GameplayModifiers gameplayModifiers)
-    // Offset: 0xC06558
+    // Offset: 0xEDF1B4
     void Setup(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Void RefreshContent()
-    // Offset: 0xC0659C
+    // Offset: 0xEDF1F8
     void RefreshContent();
-    // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xC066FC
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0xEDF358
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xC06700
+    // Offset: 0xEDF364
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

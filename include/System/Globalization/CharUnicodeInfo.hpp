@@ -41,31 +41,31 @@ namespace System::Globalization {
     // Set static field: static private System.UInt16[] s_pDigitValues
     static void _set_s_pDigitValues(::Array<uint16_t>* value);
     // static System.Int32 InternalConvertToUtf32(System.String s, System.Int32 index)
-    // Offset: 0xDACEB8
+    // Offset: 0x125CB0C
     static int InternalConvertToUtf32(::Il2CppString* s, int index);
     // static System.Boolean IsWhiteSpace(System.String s, System.Int32 index)
-    // Offset: 0xDACF8C
+    // Offset: 0x125CBE0
     static bool IsWhiteSpace(::Il2CppString* s, int index);
     // static System.Boolean IsWhiteSpace(System.Char c)
-    // Offset: 0xDAD108
+    // Offset: 0x125CD5C
     static bool IsWhiteSpace(::Il2CppChar c);
     // static public System.Globalization.UnicodeCategory GetUnicodeCategory(System.Char ch)
-    // Offset: 0xDAD17C
+    // Offset: 0x125CDD0
     static System::Globalization::UnicodeCategory GetUnicodeCategory(::Il2CppChar ch);
     // static public System.Globalization.UnicodeCategory GetUnicodeCategory(System.String s, System.Int32 index)
-    // Offset: 0xDAD01C
+    // Offset: 0x125CC70
     static System::Globalization::UnicodeCategory GetUnicodeCategory(::Il2CppString* s, int index);
     // static System.Globalization.UnicodeCategory InternalGetUnicodeCategory(System.Int32 ch)
-    // Offset: 0xDAD1E0
+    // Offset: 0x125CE34
     static System::Globalization::UnicodeCategory InternalGetUnicodeCategory(int ch);
     // static System.Byte InternalGetCategoryValue(System.Int32 ch, System.Int32 offset)
-    // Offset: 0xDAD2D0
+    // Offset: 0x125CF24
     static uint8_t InternalGetCategoryValue(int ch, int offset);
     // static System.Globalization.UnicodeCategory InternalGetUnicodeCategory(System.String value, System.Int32 index)
-    // Offset: 0xDAD250
+    // Offset: 0x125CEA4
     static System::Globalization::UnicodeCategory InternalGetUnicodeCategory(::Il2CppString* value, int index);
     // static private System.Void .cctor()
-    // Offset: 0xDAD3C4
+    // Offset: 0x125D018
     static void _cctor();
   }; // System.Globalization.CharUnicodeInfo
 }

@@ -41,22 +41,22 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x30
     int assemId;
     // System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum)
-    // Offset: 0xE28250
+    // Offset: 0x150C97C
     static BinaryObjectWithMap* New_ctor(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
     // System.Void Set(System.Int32 objectId, System.String name, System.Int32 numMembers, System.String[] memberNames, System.Int32 assemId)
-    // Offset: 0xE2827C
+    // Offset: 0x150C9A8
     void Set(int objectId, ::Il2CppString* name, int numMembers, ::Array<::Il2CppString*>* memberNames, int assemId);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0xE282E4
+    // Offset: 0x150CA10
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0xE283CC
+    // Offset: 0x150CAF8
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0xE2853C
+    // Offset: 0x150CC68
     void Dump();
     // System.Void .ctor()
-    // Offset: 0xE28248
+    // Offset: 0x150C974
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BinaryObjectWithMap* New_ctor();

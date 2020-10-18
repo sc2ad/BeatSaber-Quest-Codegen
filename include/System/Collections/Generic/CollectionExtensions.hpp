@@ -23,15 +23,15 @@ namespace System::Collections::Generic {
     public:
     // static public TValue GetValueOrDefault(System.Collections.Generic.IReadOnlyDictionary`2<TKey,TValue> dictionary, TKey key)
     // Offset: 0xFFFFFFFF
-    template<class TValue, class TKey>
+    template<class TKey, class TValue>
     static TValue GetValueOrDefault(System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>* dictionary, TKey key) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<TValue>("System.Collections.Generic", "CollectionExtensions", "GetValueOrDefault", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get()}, dictionary, key)));
+      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<TValue>("System.Collections.Generic", "CollectionExtensions", "GetValueOrDefault", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()}, dictionary, key)));
     }
     // static public TValue GetValueOrDefault(System.Collections.Generic.IReadOnlyDictionary`2<TKey,TValue> dictionary, TKey key, TValue defaultValue)
     // Offset: 0xFFFFFFFF
-    template<class TValue, class TKey>
+    template<class TKey, class TValue>
     static TValue GetValueOrDefault(System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>* dictionary, TKey key, TValue defaultValue) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<TValue>("System.Collections.Generic", "CollectionExtensions", "GetValueOrDefault", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get()}, dictionary, key, defaultValue)));
+      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<TValue>("System.Collections.Generic", "CollectionExtensions", "GetValueOrDefault", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()}, dictionary, key, defaultValue)));
     }
   }; // System.Collections.Generic.CollectionExtensions
 }

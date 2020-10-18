@@ -12,40 +12,40 @@ namespace UnityEngine::XR {
   class XRSettings : public ::Il2CppObject {
     public:
     // static public System.Boolean get_enabled()
-    // Offset: 0x197E858
+    // Offset: 0x222865C
     static bool get_enabled();
     // static public System.Boolean get_showDeviceView()
-    // Offset: 0x197E88C
+    // Offset: 0x2228690
     static bool get_showDeviceView();
     // static public System.Void set_showDeviceView(System.Boolean value)
-    // Offset: 0x197E8C0
+    // Offset: 0x22286C4
     static void set_showDeviceView(bool value);
     // static public System.Single get_eyeTextureResolutionScale()
-    // Offset: 0x197E900
+    // Offset: 0x2228704
     static float get_eyeTextureResolutionScale();
     // static public System.Void set_eyeTextureResolutionScale(System.Single value)
-    // Offset: 0x197E934
+    // Offset: 0x2228738
     static void set_eyeTextureResolutionScale(float value);
     // static public System.Int32 get_eyeTextureWidth()
-    // Offset: 0x197E978
+    // Offset: 0x222877C
     static int get_eyeTextureWidth();
     // static public System.Int32 get_eyeTextureHeight()
-    // Offset: 0x197E9AC
+    // Offset: 0x22287B0
     static int get_eyeTextureHeight();
     // static public System.Single get_renderViewportScale()
-    // Offset: 0x197E9E0
+    // Offset: 0x22287E4
     static float get_renderViewportScale();
     // static public System.Void set_renderViewportScale(System.Single value)
-    // Offset: 0x197EA48
+    // Offset: 0x222884C
     static void set_renderViewportScale(float value);
     // static System.Single get_renderViewportScaleInternal()
-    // Offset: 0x197EA14
+    // Offset: 0x2228818
     static float get_renderViewportScaleInternal();
     // static System.Void set_renderViewportScaleInternal(System.Single value)
-    // Offset: 0x197EB0C
+    // Offset: 0x2228910
     static void set_renderViewportScaleInternal(float value);
     // static public System.String get_loadedDeviceName()
-    // Offset: 0x197EB50
+    // Offset: 0x2228954
     static ::Il2CppString* get_loadedDeviceName();
   }; // UnityEngine.XR.XRSettings
 }

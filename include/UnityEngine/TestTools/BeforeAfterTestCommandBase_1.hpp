@@ -131,10 +131,15 @@ namespace UnityEngine::TestTools {
       bool MoveNext() {
         return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "MoveNext"));
       }
+      // Creating proxy method: System_Collections_IEnumerator_MoveNext
+      // Maps to method: MoveNext
+      bool System_Collections_IEnumerator_MoveNext() {
+        return MoveNext();
+      }
       // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
       // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.IEnumerator`1
-      // Base method: T IEnumerator`1::get_Current()
+      // Base method: T IEnumerator_1::get_Current()
       ::Il2CppObject* System_Collections_Generic_IEnumerator_1_get_Current() {
         return THROW_UNLESS((il2cpp_utils::RunMethod<::Il2CppObject*>(this, "System.Collections.Generic.IEnumerator<System.Object>.get_Current")));
       }
@@ -155,7 +160,7 @@ namespace UnityEngine::TestTools {
       // private System.Collections.Generic.IEnumerator`1<System.Object> System.Collections.Generic.IEnumerable<System.Object>.GetEnumerator()
       // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.IEnumerable`1
-      // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable`1::GetEnumerator()
+      // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable_1::GetEnumerator()
       System::Collections::Generic::IEnumerator_1<::Il2CppObject*>* System_Collections_Generic_IEnumerable_1_GetEnumerator() {
         return THROW_UNLESS((il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this, "System.Collections.Generic.IEnumerable<System.Object>.GetEnumerator")));
       }

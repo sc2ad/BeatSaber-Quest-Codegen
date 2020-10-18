@@ -72,10 +72,15 @@ namespace Zenject {
       bool MoveNext() {
         return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "MoveNext"));
       }
+      // Creating proxy method: System_Collections_IEnumerator_MoveNext
+      // Maps to method: MoveNext
+      bool System_Collections_IEnumerator_MoveNext() {
+        return MoveNext();
+      }
       // private System.Type System.Collections.Generic.IEnumerator<System.Type>.get_Current()
       // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.IEnumerator`1
-      // Base method: T IEnumerator`1::get_Current()
+      // Base method: T IEnumerator_1::get_Current()
       System::Type* System_Collections_Generic_IEnumerator_1_get_Current() {
         return THROW_UNLESS((il2cpp_utils::RunMethod<System::Type*>(this, "System.Collections.Generic.IEnumerator<System.Type>.get_Current")));
       }
@@ -96,7 +101,7 @@ namespace Zenject {
       // private System.Collections.Generic.IEnumerator`1<System.Type> System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator()
       // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.IEnumerable`1
-      // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable`1::GetEnumerator()
+      // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable_1::GetEnumerator()
       System::Collections::Generic::IEnumerator_1<System::Type*>* System_Collections_Generic_IEnumerable_1_GetEnumerator() {
         return THROW_UNLESS((il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerator_1<System::Type*>*>(this, "System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator")));
       }
@@ -111,7 +116,7 @@ namespace Zenject {
     // public TValue Create()
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IFactory`1
-    // Base method: TValue IFactory`1::Create()
+    // Base method: TValue IFactory_1::Create()
     TValue Create() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<TValue>(this, "Create"));
     }
@@ -123,14 +128,14 @@ namespace Zenject {
     // protected override System.Collections.Generic.IEnumerable`1<System.Type> get_ParamTypes()
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.PlaceholderFactoryBase`1
-    // Base method: System.Collections.Generic.IEnumerable`1<System.Type> PlaceholderFactoryBase`1::get_ParamTypes()
+    // Base method: System.Collections.Generic.IEnumerable`1<System.Type> PlaceholderFactoryBase_1::get_ParamTypes()
     System::Collections::Generic::IEnumerable_1<System::Type*>* get_ParamTypes() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerable_1<System::Type*>*>(this, "get_ParamTypes"));
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.PlaceholderFactoryBase`1
-    // Base method: System.Void PlaceholderFactoryBase`1::.ctor()
+    // Base method: System.Void PlaceholderFactoryBase_1::.ctor()
     // Base method: System.Void Object::.ctor()
     static PlaceholderFactory_1<TValue>* New_ctor() {
       return THROW_UNLESS(il2cpp_utils::New<PlaceholderFactory_1<TValue>*>());

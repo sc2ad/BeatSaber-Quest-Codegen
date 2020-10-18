@@ -23,7 +23,7 @@ namespace System::Threading {
   class OSSpecificSynchronizationContext::MonoPInvokeCallbackAttribute : public System::Attribute {
     public:
     // public System.Void .ctor(System.Type t)
-    // Offset: 0x13E0B10
+    // Offset: 0x16D5460
     static OSSpecificSynchronizationContext::MonoPInvokeCallbackAttribute* New_ctor(System::Type* t);
   }; // System.Threading.OSSpecificSynchronizationContext/MonoPInvokeCallbackAttribute
 }

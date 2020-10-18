@@ -28,15 +28,18 @@ namespace System::Runtime::Remoting::Messaging {
       return principal;
     }
     // System.Boolean get_HasInfo()
-    // Offset: 0x10671C8
+    // Offset: 0x12A8B6C
     bool get_HasInfo();
     // public System.Object Clone()
-    // Offset: 0x10671D8
+    // Offset: 0x12A8B7C
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();
+    // Creating proxy method: System_ICloneable_Clone
+    // Maps to method: Clone
+    ::Il2CppObject* System_ICloneable_Clone();
     // public System.Void .ctor()
-    // Offset: 0x1067250
+    // Offset: 0x12A8BF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CallContextSecurityData* New_ctor();

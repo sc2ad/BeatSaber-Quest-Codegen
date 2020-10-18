@@ -17,10 +17,10 @@
 namespace GlobalNamespace {
   // Forward declaring type: ColorSO
   class ColorSO;
-  // Forward declaring type: BeatmapObjectCallbackController
-  class BeatmapObjectCallbackController;
   // Forward declaring type: LightWithIdManager
   class LightWithIdManager;
+  // Forward declaring type: BeatmapObjectCallbackController
+  class BeatmapObjectCallbackController;
   // Forward declaring type: BeatmapEventData
   class BeatmapEventData;
 }
@@ -69,12 +69,12 @@ namespace GlobalNamespace {
     // private BeatmapEventType _colorBoostEvent
     // Offset: 0x68
     GlobalNamespace::BeatmapEventType colorBoostEvent;
-    // private BeatmapObjectCallbackController _beatmapObjectCallbackController
+    // private readonly LightWithIdManager _lightManager
     // Offset: 0x70
-    GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
-    // private LightWithIdManager _lightManager
-    // Offset: 0x78
     GlobalNamespace::LightWithIdManager* lightManager;
+    // private readonly BeatmapObjectCallbackController _beatmapObjectCallbackController
+    // Offset: 0x78
+    GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
     // private System.Boolean _lightIsOn
     // Offset: 0x80
     bool lightIsOn;
@@ -104,35 +104,35 @@ namespace GlobalNamespace {
     int prevLightSwitchBeatmapEventDataValue;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // public System.Int32 get_LightsID()
-    // Offset: 0xBFA6DC
-    int get_LightsID();
+    // public System.Int32 get_lightsId()
+    // Offset: 0x102E460
+    int get_lightsId();
     // protected System.Void Start()
-    // Offset: 0xBFA6E4
+    // Offset: 0x102E468
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0xBFA778
+    // Offset: 0x102E4FC
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xBFA850
+    // Offset: 0x102E5D8
     void Update();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0xBFA9F8
+    // Offset: 0x102E780
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void ProcessLightSwitchEvent(System.Int32 beatmapEventDataValue, System.Boolean updateColorsOnly)
-    // Offset: 0xBFAA80
+    // Offset: 0x102E808
     void ProcessLightSwitchEvent(int beatmapEventDataValue, bool updateColorsOnly);
     // private UnityEngine.Color GetNormalColor(System.Int32 beatmapEventValue)
-    // Offset: 0xBFAC4C
+    // Offset: 0x102E9D4
     UnityEngine::Color GetNormalColor(int beatmapEventValue);
     // private UnityEngine.Color GetHighlightColor(System.Int32 beatmapEventValue)
-    // Offset: 0xBFACA8
+    // Offset: 0x102EA30
     UnityEngine::Color GetHighlightColor(int beatmapEventValue);
     // private System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0xBFA9D4
+    // Offset: 0x102E75C
     void SetColor(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0xBFAD04
+    // Offset: 0x102EA8C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

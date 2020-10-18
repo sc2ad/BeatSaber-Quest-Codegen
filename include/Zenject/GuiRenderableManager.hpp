@@ -49,10 +49,10 @@ namespace Zenject {
       return renderables;
     }
     // public System.Void .ctor(System.Collections.Generic.List`1<Zenject.IGuiRenderable> renderables, System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities)
-    // Offset: 0xF3AC5C
+    // Offset: 0x14532EC
     static GuiRenderableManager* New_ctor(System::Collections::Generic::List_1<Zenject::IGuiRenderable*>* renderables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* priorities);
     // public System.Void OnGui()
-    // Offset: 0xF3B12C
+    // Offset: 0x14537BC
     void OnGui();
   }; // Zenject.GuiRenderableManager
 }

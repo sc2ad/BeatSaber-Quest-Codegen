@@ -28,10 +28,10 @@ namespace System::Diagnostics::Tracing {
       return EventSource;
     }
     // System.Void set_EventSource(System.Diagnostics.Tracing.EventSource value)
-    // Offset: 0xD96C5C
+    // Offset: 0x148CF2C
     void set_EventSource(System::Diagnostics::Tracing::EventSource* value);
     // public System.Void .ctor()
-    // Offset: 0xD96C64
+    // Offset: 0x147B650
     // Implemented from: System.EventArgs
     // Base method: System.Void EventArgs::.ctor()
     // Base method: System.Void Object::.ctor()

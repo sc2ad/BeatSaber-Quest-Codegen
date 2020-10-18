@@ -20,10 +20,10 @@ namespace System::Threading {
     // Set static field: static private System.Int32 s_lastProcessorCountRefreshTicks
     static void _set_s_lastProcessorCountRefreshTicks(int value);
     // static System.Int32 get_ProcessorCount()
-    // Offset: 0xCD9B00
+    // Offset: 0x16D5864
     static int get_ProcessorCount();
     // static System.Boolean get_IsSingleProcessor()
-    // Offset: 0xCD9BBC
+    // Offset: 0x16D5920
     static bool get_IsSingleProcessor();
   }; // System.Threading.PlatformHelper
 }

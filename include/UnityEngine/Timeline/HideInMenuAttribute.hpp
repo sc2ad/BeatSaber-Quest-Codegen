@@ -14,7 +14,7 @@ namespace UnityEngine::Timeline {
   class HideInMenuAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x109B8B4
+    // Offset: 0x161F93C
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

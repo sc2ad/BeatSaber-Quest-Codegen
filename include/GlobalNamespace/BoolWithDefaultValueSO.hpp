@@ -17,15 +17,15 @@ namespace GlobalNamespace {
     // Offset: 0x21
     bool defaultValue;
     // protected override System.Void OnEnable()
-    // Offset: 0xCADF64
+    // Offset: 0x1091C40
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0xCAE004
+    // Offset: 0x1091CE0
     // Implemented from: BoolSO
     // Base method: System.Void BoolSO::.ctor()
-    // Base method: System.Void ObservableVariableSO`1::.ctor()
+    // Base method: System.Void ObservableVariableSO_1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

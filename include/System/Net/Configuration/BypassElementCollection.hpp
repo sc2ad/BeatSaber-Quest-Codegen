@@ -14,7 +14,7 @@ namespace System::Net::Configuration {
   class BypassElementCollection : public System::Configuration::ConfigurationElementCollection {
     public:
     // public System.Void .ctor()
-    // Offset: 0xF6CBE8
+    // Offset: 0x14D78C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BypassElementCollection* New_ctor();

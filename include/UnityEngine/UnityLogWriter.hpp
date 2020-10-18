@@ -21,36 +21,36 @@ namespace UnityEngine {
   class UnityLogWriter : public System::IO::TextWriter {
     public:
     // static public System.Void WriteStringToUnityLog(System.String s)
-    // Offset: 0x139A7D0
+    // Offset: 0x1998344
     static void WriteStringToUnityLog(::Il2CppString* s);
     // static private System.Void WriteStringToUnityLogImpl(System.String s)
-    // Offset: 0x139A818
+    // Offset: 0x199838C
     static void WriteStringToUnityLogImpl(::Il2CppString* s);
     // static public System.Void Init()
-    // Offset: 0x139A858
+    // Offset: 0x19983CC
     static void Init();
     // public override System.Text.Encoding get_Encoding()
-    // Offset: 0x139A93C
+    // Offset: 0x19984B0
     // Implemented from: System.IO.TextWriter
     // Base method: System.Text.Encoding TextWriter::get_Encoding()
     System::Text::Encoding* get_Encoding();
     // public override System.Void Write(System.Char value)
-    // Offset: 0x139A944
+    // Offset: 0x19984B8
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char value)
     void Write(::Il2CppChar value);
     // public override System.Void Write(System.String s)
-    // Offset: 0x139A9A4
+    // Offset: 0x1998518
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.String s)
     void Write(::Il2CppString* s);
     // public override System.Void Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x139A9EC
+    // Offset: 0x1998560
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
     void Write(::Array<::Il2CppChar>* buffer, int index, int count);
     // public System.Void .ctor()
-    // Offset: 0x139A8D4
+    // Offset: 0x1998448
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::.ctor()
     // Base method: System.Void MarshalByRefObject::.ctor()

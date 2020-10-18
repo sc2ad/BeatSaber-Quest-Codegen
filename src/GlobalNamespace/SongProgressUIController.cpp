@@ -14,6 +14,8 @@
 #include "GlobalNamespace/AudioTimeSyncController.hpp"
 // Including type: System.Text.StringBuilder
 #include "System/Text/StringBuilder.hpp"
+// Including type: UnityEngine.RectTransform
+#include "UnityEngine/RectTransform.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

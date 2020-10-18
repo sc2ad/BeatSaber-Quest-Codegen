@@ -150,8 +150,14 @@ namespace GlobalNamespace {
     // public System.Boolean oculusMRCEnabled
     // Offset: 0xBD
     bool oculusMRCEnabled;
+    // public System.Boolean openVrThreadedHaptics
+    // Offset: 0xBE
+    bool openVrThreadedHaptics;
+    // public System.Int32 languageSettings
+    // Offset: 0xC0
+    int languageSettings;
     // public System.Void .ctor()
-    // Offset: 0xC00524
+    // Offset: 0xED6998
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MainSettingsModelSO::Config* New_ctor();

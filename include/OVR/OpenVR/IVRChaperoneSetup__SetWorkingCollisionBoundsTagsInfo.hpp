@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRChaperoneSetup::_SetWorkingCollisionBoundsTagsInfo : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xED5B2C
+    // Offset: 0x1385A08
     static IVRChaperoneSetup::_SetWorkingCollisionBoundsTagsInfo* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(in System.Byte[] pTagsBuffer, System.UInt32 unTagCount)
-    // Offset: 0xECD35C
+    // Offset: 0x137D238
     void Invoke(::Array<uint8_t>*& pTagsBuffer, uint unTagCount);
     // public System.IAsyncResult BeginInvoke(in System.Byte[] pTagsBuffer, System.UInt32 unTagCount, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xED5B40
+    // Offset: 0x1385A1C
     System::IAsyncResult* BeginInvoke(::Array<uint8_t>*& pTagsBuffer, uint unTagCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xED5BDC
+    // Offset: 0x1385AB8
     void EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRChaperoneSetup/_SetWorkingCollisionBoundsTagsInfo
 }

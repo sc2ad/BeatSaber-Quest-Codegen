@@ -16,9 +16,9 @@ namespace UnityEngine::UI::CoroutineTween {
   class FloatTween::FloatTweenCallback : public UnityEngine::Events::UnityEvent_1<float> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xE0A0B0
+    // Offset: 0x1288C20
     // Implemented from: UnityEngine.Events.UnityEvent`1
-    // Base method: System.Void UnityEvent`1::.ctor()
+    // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()
     // Base method: System.Void Object::.ctor()
     static FloatTween::FloatTweenCallback* New_ctor();

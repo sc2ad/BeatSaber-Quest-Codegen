@@ -14,9 +14,9 @@ namespace GlobalNamespace {
   class FloatSignal : public GlobalNamespace::GenericSignal_1<float> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xCB2474
+    // Offset: 0x10980C4
     // Implemented from: GenericSignal`1
-    // Base method: System.Void GenericSignal`1::.ctor()
+    // Base method: System.Void GenericSignal_1::.ctor()
     // Base method: System.Void Signal::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

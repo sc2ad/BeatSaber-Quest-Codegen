@@ -20,10 +20,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::UIKeyboard* $$4__this;
     // System.Void <Awake>b__4()
-    // Offset: 0xC4D7A8
+    // Offset: 0x12E3838
     void $Awake$b__4();
     // public System.Void .ctor()
-    // Offset: 0xC4D6E8
+    // Offset: 0x12E3778
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UIKeyboard::$$c__DisplayClass21_0* New_ctor();

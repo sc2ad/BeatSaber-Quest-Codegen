@@ -60,46 +60,46 @@ namespace UnityEngine::Events {
     // Offset: 0xFFFFFFFF
     UnityEngine::Events::BaseInvokableCall* GetDelegate(::Il2CppObject* target, System::Reflection::MethodInfo* theFunction);
     // System.Reflection.MethodInfo FindMethod(UnityEngine.Events.PersistentCall call)
-    // Offset: 0x130FB18
+    // Offset: 0x19EAD88
     System::Reflection::MethodInfo* FindMethod(UnityEngine::Events::PersistentCall* call);
     // System.Reflection.MethodInfo FindMethod(System.String name, System.Object listener, UnityEngine.Events.PersistentListenerMode mode, System.Type argumentType)
-    // Offset: 0x13109C8
+    // Offset: 0x19EBC38
     System::Reflection::MethodInfo* FindMethod(::Il2CppString* name, ::Il2CppObject* listener, UnityEngine::Events::PersistentListenerMode mode, System::Type* argumentType);
     // private System.Void DirtyPersistentCalls()
-    // Offset: 0x1310994
+    // Offset: 0x19EBC04
     void DirtyPersistentCalls();
     // private System.Void RebuildPersistentCallsIfNeeded()
-    // Offset: 0x1310C80
+    // Offset: 0x19EBEF0
     void RebuildPersistentCallsIfNeeded();
     // System.Void AddCall(UnityEngine.Events.BaseInvokableCall call)
-    // Offset: 0x13104A8
+    // Offset: 0x19EB718
     void AddCall(UnityEngine::Events::BaseInvokableCall* call);
     // protected System.Void RemoveListener(System.Object targetObj, System.Reflection.MethodInfo method)
-    // Offset: 0x1310508
+    // Offset: 0x19EB778
     void RemoveListener(::Il2CppObject* targetObj, System::Reflection::MethodInfo* method);
     // System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall> PrepareInvoke()
-    // Offset: 0x1310960
+    // Offset: 0x19EBBD0
     System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall*>* PrepareInvoke();
     // static public System.Reflection.MethodInfo GetValidMethodInfo(System.Object obj, System.String functionName, System.Type[] argumentTypes)
-    // Offset: 0x131058C
+    // Offset: 0x19EB7FC
     static System::Reflection::MethodInfo* GetValidMethodInfo(::Il2CppObject* obj, ::Il2CppString* functionName, ::Array<System::Type*>* argumentTypes);
     // protected System.Void .ctor()
-    // Offset: 0x1310364
+    // Offset: 0x19EB5D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UnityEventBase* New_ctor();
     // private System.Void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize()
-    // Offset: 0x131098C
+    // Offset: 0x19EBBFC
     // Implemented from: UnityEngine.ISerializationCallbackReceiver
     // Base method: System.Void ISerializationCallbackReceiver::OnBeforeSerialize()
     void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
     // private System.Void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize()
-    // Offset: 0x1310990
+    // Offset: 0x19EBC00
     // Implemented from: UnityEngine.ISerializationCallbackReceiver
     // Base method: System.Void ISerializationCallbackReceiver::OnAfterDeserialize()
     void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
     // public override System.String ToString()
-    // Offset: 0x1310CC0
+    // Offset: 0x19EBF30
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

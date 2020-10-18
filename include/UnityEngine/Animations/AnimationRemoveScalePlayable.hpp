@@ -41,32 +41,32 @@ namespace UnityEngine::Animations {
     // Set static field: static private readonly UnityEngine.Animations.AnimationRemoveScalePlayable m_NullPlayable
     static void _set_m_NullPlayable(UnityEngine::Animations::AnimationRemoveScalePlayable value);
     // static public UnityEngine.Animations.AnimationRemoveScalePlayable Create(UnityEngine.Playables.PlayableGraph graph, System.Int32 inputCount)
-    // Offset: 0x194021C
+    // Offset: 0x21E7FD8
     static UnityEngine::Animations::AnimationRemoveScalePlayable Create(UnityEngine::Playables::PlayableGraph graph, int inputCount);
     // static private UnityEngine.Playables.PlayableHandle CreateHandle(UnityEngine.Playables.PlayableGraph graph, System.Int32 inputCount)
-    // Offset: 0x19402C4
+    // Offset: 0x21E8080
     static UnityEngine::Playables::PlayableHandle CreateHandle(UnityEngine::Playables::PlayableGraph graph, int inputCount);
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0xA5DC80
+    // Offset: 0xDDCBEC
     // ABORTED: conflicts with another method.  AnimationRemoveScalePlayable(UnityEngine::Playables::PlayableHandle handle);
     // static private System.Boolean CreateHandleInternal(UnityEngine.Playables.PlayableGraph graph, ref UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0x1940474
+    // Offset: 0x21E8230
     static bool CreateHandleInternal(UnityEngine::Playables::PlayableGraph graph, UnityEngine::Playables::PlayableHandle& handle);
     // static private System.Void .cctor()
-    // Offset: 0x1940660
+    // Offset: 0x21E841C
     static void _cctor();
     // static private System.Boolean CreateHandleInternal_Injected(ref UnityEngine.Playables.PlayableGraph graph, ref UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0x1940610
+    // Offset: 0x21E83CC
     static bool CreateHandleInternal_Injected(UnityEngine::Playables::PlayableGraph& graph, UnityEngine::Playables::PlayableHandle& handle);
     // public UnityEngine.Playables.PlayableHandle GetHandle()
-    // Offset: 0xA5DC88
+    // Offset: 0xDDCBF4
     // Implemented from: UnityEngine.Playables.IPlayable
     // Base method: UnityEngine.Playables.PlayableHandle IPlayable::GetHandle()
     UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Animations.AnimationRemoveScalePlayable other)
-    // Offset: 0xA5DC94
+    // Offset: 0xDDCC00
     // Implemented from: System.IEquatable`1
-    // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Animations.AnimationRemoveScalePlayable other)
+    // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Animations.AnimationRemoveScalePlayable other)
     bool Equals(UnityEngine::Animations::AnimationRemoveScalePlayable other);
   }; // UnityEngine.Animations.AnimationRemoveScalePlayable
 }

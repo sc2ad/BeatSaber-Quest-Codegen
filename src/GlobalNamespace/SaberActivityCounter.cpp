@@ -4,8 +4,8 @@
 // Begin includes
 // Including type: SaberActivityCounter
 #include "GlobalNamespace/SaberActivityCounter.hpp"
-// Including type: PlayerController
-#include "GlobalNamespace/PlayerController.hpp"
+// Including type: SaberManager
+#include "GlobalNamespace/SaberManager.hpp"
 // Including type: System.Action`1
 #include "System/Action_1.hpp"
 // Including type: Saber

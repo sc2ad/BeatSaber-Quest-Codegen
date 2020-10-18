@@ -12,7 +12,7 @@ namespace UnityEngine {
   class YieldInstruction : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x139EFB0
+    // Offset: 0x199CCC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static YieldInstruction* New_ctor();

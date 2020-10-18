@@ -94,112 +94,112 @@ namespace NUnit::Framework::Internal {
     // Set static field: static readonly System.String CHILD_IGNORE_MESSAGE
     static void _set_CHILD_IGNORE_MESSAGE(::Il2CppString* value);
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x18F3C9C
+    // Offset: 0x2177FBC
     static TestResult* New_ctor(NUnit::Framework::Interfaces::ITest* test);
     // private System.Void set_Test(NUnit.Framework.Interfaces.ITest value)
-    // Offset: 0x18F7910
+    // Offset: 0x217BC30
     void set_Test(NUnit::Framework::Interfaces::ITest* value);
     // private System.Void set_ResultState(NUnit.Framework.Interfaces.ResultState value)
-    // Offset: 0x18F7900
+    // Offset: 0x217BC20
     void set_ResultState(NUnit::Framework::Interfaces::ResultState* value);
     // public System.Void set_Duration(System.Double value)
-    // Offset: 0x18F7A88
+    // Offset: 0x217BDA8
     void set_Duration(double value);
     // public System.Void set_StartTime(System.DateTime value)
-    // Offset: 0x18F7AB4
+    // Offset: 0x217BDD4
     void set_StartTime(System::DateTime value);
     // public System.Void set_EndTime(System.DateTime value)
-    // Offset: 0x18F7AC4
+    // Offset: 0x217BDE4
     void set_EndTime(System::DateTime value);
     // private System.Void set_Message(System.String value)
-    // Offset: 0x18F7AD4
+    // Offset: 0x217BDF4
     void set_Message(::Il2CppString* value);
     // private System.Void set_StackTrace(System.String value)
-    // Offset: 0x18F7AE4
+    // Offset: 0x217BE04
     void set_StackTrace(::Il2CppString* value);
     // public System.IO.TextWriter get_OutWriter()
-    // Offset: 0x18F42B4
+    // Offset: 0x21785D4
     System::IO::TextWriter* get_OutWriter();
     // private System.Void set_OutWriter(System.IO.TextWriter value)
-    // Offset: 0x18F7AF4
+    // Offset: 0x217BE14
     void set_OutWriter(System::IO::TextWriter* value);
     // public System.Void SetResult(NUnit.Framework.Interfaces.ResultState resultState)
-    // Offset: 0x18F856C
+    // Offset: 0x217C88C
     void SetResult(NUnit::Framework::Interfaces::ResultState* resultState);
     // public System.Void SetResult(NUnit.Framework.Interfaces.ResultState resultState, System.String message)
-    // Offset: 0x18F85FC
+    // Offset: 0x217C91C
     void SetResult(NUnit::Framework::Interfaces::ResultState* resultState, ::Il2CppString* message);
     // public System.Void SetResult(NUnit.Framework.Interfaces.ResultState resultState, System.String message, System.String stackTrace)
-    // Offset: 0x18F8578
+    // Offset: 0x217C898
     void SetResult(NUnit::Framework::Interfaces::ResultState* resultState, ::Il2CppString* message, ::Il2CppString* stackTrace);
     // public System.Void RecordException(System.Exception ex)
-    // Offset: 0x18F8604
+    // Offset: 0x217C924
     void RecordException(System::Exception* ex);
     // public System.Void RecordException(System.Exception ex, NUnit.Framework.Interfaces.FailureSite site)
-    // Offset: 0x18F8814
+    // Offset: 0x217CB34
     void RecordException(System::Exception* ex, NUnit::Framework::Interfaces::FailureSite site);
     // public System.Void RecordTearDownException(System.Exception ex)
-    // Offset: 0x18F8A64
+    // Offset: 0x217CD84
     void RecordTearDownException(System::Exception* ex);
     // private NUnit.Framework.Interfaces.TNode AddReasonElement(NUnit.Framework.Interfaces.TNode targetNode)
-    // Offset: 0x18F8468
+    // Offset: 0x217C788
     NUnit::Framework::Interfaces::TNode* AddReasonElement(NUnit::Framework::Interfaces::TNode* targetNode);
     // private NUnit.Framework.Interfaces.TNode AddFailureElement(NUnit.Framework.Interfaces.TNode targetNode)
-    // Offset: 0x18F8384
+    // Offset: 0x217C6A4
     NUnit::Framework::Interfaces::TNode* AddFailureElement(NUnit::Framework::Interfaces::TNode* targetNode);
     // private NUnit.Framework.Interfaces.TNode AddOutputElement(NUnit.Framework.Interfaces.TNode targetNode)
-    // Offset: 0x18F84EC
+    // Offset: 0x217C80C
     NUnit::Framework::Interfaces::TNode* AddOutputElement(NUnit::Framework::Interfaces::TNode* targetNode);
     // static private System.Void .cctor()
-    // Offset: 0x18F8DA4
+    // Offset: 0x217D0C4
     static void _cctor();
     // public NUnit.Framework.Interfaces.ITest get_Test()
-    // Offset: 0x18F7908
+    // Offset: 0x217BC28
     // Implemented from: NUnit.Framework.Interfaces.ITestResult
     // Base method: NUnit.Framework.Interfaces.ITest ITestResult::get_Test()
     NUnit::Framework::Interfaces::ITest* get_Test();
     // public NUnit.Framework.Interfaces.ResultState get_ResultState()
-    // Offset: 0x18F3DF4
+    // Offset: 0x2178114
     // Implemented from: NUnit.Framework.Interfaces.ITestResult
     // Base method: NUnit.Framework.Interfaces.ResultState ITestResult::get_ResultState()
     NUnit::Framework::Interfaces::ResultState* get_ResultState();
     // public System.String get_Name()
-    // Offset: 0x18F7918
+    // Offset: 0x217BC38
     // Implemented from: NUnit.Framework.Interfaces.ITestResult
     // Base method: System.String ITestResult::get_Name()
     ::Il2CppString* get_Name();
     // public System.String get_FullName()
-    // Offset: 0x18F79CC
+    // Offset: 0x217BCEC
     // Implemented from: NUnit.Framework.Interfaces.ITestResult
     // Base method: System.String ITestResult::get_FullName()
     ::Il2CppString* get_FullName();
     // public System.Double get_Duration()
-    // Offset: 0x18F7A80
+    // Offset: 0x217BDA0
     // Implemented from: NUnit.Framework.Interfaces.ITestResult
     // Base method: System.Double ITestResult::get_Duration()
     double get_Duration();
     // public System.DateTime get_StartTime()
-    // Offset: 0x18F7AAC
+    // Offset: 0x217BDCC
     // Implemented from: NUnit.Framework.Interfaces.ITestResult
     // Base method: System.DateTime ITestResult::get_StartTime()
     System::DateTime get_StartTime();
     // public System.DateTime get_EndTime()
-    // Offset: 0x18F7ABC
+    // Offset: 0x217BDDC
     // Implemented from: NUnit.Framework.Interfaces.ITestResult
     // Base method: System.DateTime ITestResult::get_EndTime()
     System::DateTime get_EndTime();
     // public System.String get_Message()
-    // Offset: 0x18F7ACC
+    // Offset: 0x217BDEC
     // Implemented from: NUnit.Framework.Interfaces.ITestResult
     // Base method: System.String ITestResult::get_Message()
     ::Il2CppString* get_Message();
     // public System.String get_StackTrace()
-    // Offset: 0x18F7ADC
+    // Offset: 0x217BDFC
     // Implemented from: NUnit.Framework.Interfaces.ITestResult
     // Base method: System.String ITestResult::get_StackTrace()
     ::Il2CppString* get_StackTrace();
     // public System.Int32 get_AssertCount()
-    // Offset: 0x18F7AEC
+    // Offset: 0x217BE0C
     // Implemented from: NUnit.Framework.Interfaces.ITestResult
     // Base method: System.Int32 ITestResult::get_AssertCount()
     int get_AssertCount();
@@ -234,17 +234,17 @@ namespace NUnit::Framework::Internal {
     // Base method: System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.ITestResult> ITestResult::get_Children()
     System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestResult*>* get_Children();
     // public System.String get_Output()
-    // Offset: 0x18F7AFC
+    // Offset: 0x217BE1C
     // Implemented from: NUnit.Framework.Interfaces.ITestResult
     // Base method: System.String ITestResult::get_Output()
     ::Il2CppString* get_Output();
     // public NUnit.Framework.Interfaces.TNode ToXml(System.Boolean recursive)
-    // Offset: 0x18F7B1C
+    // Offset: 0x217BE3C
     // Implemented from: NUnit.Framework.Interfaces.IXmlNodeBuilder
     // Base method: NUnit.Framework.Interfaces.TNode IXmlNodeBuilder::ToXml(System.Boolean recursive)
     NUnit::Framework::Interfaces::TNode* ToXml(bool recursive);
     // public NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
-    // Offset: 0x18F7BA8
+    // Offset: 0x217BEC8
     // Implemented from: NUnit.Framework.Interfaces.IXmlNodeBuilder
     // Base method: NUnit.Framework.Interfaces.TNode IXmlNodeBuilder::AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);

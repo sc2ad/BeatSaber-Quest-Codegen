@@ -16,12 +16,10 @@ namespace UnityEngine {
 }
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: PlayerController
-  class PlayerController;
-  // Forward declaring type: AudioTimeSyncController
-  class AudioTimeSyncController;
-  // Forward declaring type: NoteCutDirection
-  struct NoteCutDirection;
+  // Forward declaring type: PlayerTransforms
+  class PlayerTransforms;
+  // Forward declaring type: IAudioTimeSource
+  class IAudioTimeSource;
 }
 // Forward declaring namespace: System
 namespace System {
@@ -46,15 +44,15 @@ namespace GlobalNamespace {
     // private System.Single _yAvoidanceDown
     // Offset: 0x24
     float yAvoidanceDown;
-    // private System.Single _endDistanceOffest
+    // private System.Single _endDistanceOffset
     // Offset: 0x28
-    float endDistanceOffest;
-    // private PlayerController _playerController
+    float endDistanceOffset;
+    // private readonly PlayerTransforms _playerTransforms
     // Offset: 0x30
-    GlobalNamespace::PlayerController* playerController;
-    // private AudioTimeSyncController _audioTimeSyncController
+    GlobalNamespace::PlayerTransforms* playerTransforms;
+    // private readonly IAudioTimeSource _audioTimeSyncController
     // Offset: 0x38
-    GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
+    GlobalNamespace::IAudioTimeSource* audioTimeSyncController;
     // private System.Action noteJumpDidFinishEvent
     // Offset: 0x40
     System::Action* noteJumpDidFinishEvent;
@@ -67,65 +65,68 @@ namespace GlobalNamespace {
     // private System.Action noteJumpDidPassHalfEvent
     // Offset: 0x58
     System::Action* noteJumpDidPassHalfEvent;
-    // private UnityEngine.Vector3 _startPos
+    // private System.Action`1<System.Single> noteJumpDidUpdateProgressEvent
     // Offset: 0x60
+    System::Action_1<float>* noteJumpDidUpdateProgressEvent;
+    // private UnityEngine.Vector3 _startPos
+    // Offset: 0x68
     UnityEngine::Vector3 startPos;
     // private UnityEngine.Vector3 _endPos
-    // Offset: 0x6C
+    // Offset: 0x74
     UnityEngine::Vector3 endPos;
     // private System.Single _jumpDuration
-    // Offset: 0x78
+    // Offset: 0x80
     float jumpDuration;
     // private UnityEngine.Vector3 _moveVec
-    // Offset: 0x7C
+    // Offset: 0x84
     UnityEngine::Vector3 moveVec;
     // private System.Single _beatTime
-    // Offset: 0x88
+    // Offset: 0x90
     float beatTime;
     // private System.Single _startVerticalVelocity
-    // Offset: 0x8C
+    // Offset: 0x94
     float startVerticalVelocity;
     // private UnityEngine.Quaternion _startRotation
-    // Offset: 0x90
+    // Offset: 0x98
     UnityEngine::Quaternion startRotation;
     // private UnityEngine.Quaternion _middleRotation
-    // Offset: 0xA0
+    // Offset: 0xA8
     UnityEngine::Quaternion middleRotation;
     // private UnityEngine.Quaternion _endRotation
-    // Offset: 0xB0
+    // Offset: 0xB8
     UnityEngine::Quaternion endRotation;
     // private System.Single _gravity
-    // Offset: 0xC0
+    // Offset: 0xC8
     float gravity;
     // private System.Single _yAvoidance
-    // Offset: 0xC4
+    // Offset: 0xCC
     float yAvoidance;
     // private System.Single _missedTime
-    // Offset: 0xC8
+    // Offset: 0xD0
     float missedTime;
     // private System.Boolean _missedMarkReported
-    // Offset: 0xCC
+    // Offset: 0xD4
     bool missedMarkReported;
     // private System.Boolean _threeQuartersMarkReported
-    // Offset: 0xCD
+    // Offset: 0xD5
     bool threeQuartersMarkReported;
     // private System.Boolean _halfJumpMarkReported
-    // Offset: 0xCE
+    // Offset: 0xD6
     bool halfJumpMarkReported;
     // private UnityEngine.Vector3 _localPosition
-    // Offset: 0xD0
+    // Offset: 0xD8
     UnityEngine::Vector3 localPosition;
     // private readonly UnityEngine.Vector3[] _randomRotations
-    // Offset: 0xE0
+    // Offset: 0xE8
     ::Array<UnityEngine::Vector3>* randomRotations;
     // private System.Int32 _randomRotationIdx
-    // Offset: 0xE8
+    // Offset: 0xF0
     int randomRotationIdx;
     // private UnityEngine.Quaternion _worldRotation
-    // Offset: 0xEC
+    // Offset: 0xF4
     UnityEngine::Quaternion worldRotation;
     // private UnityEngine.Quaternion _inverseWorldRotation
-    // Offset: 0xFC
+    // Offset: 0x104
     UnityEngine::Quaternion inverseWorldRotation;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
@@ -136,52 +137,55 @@ namespace GlobalNamespace {
     // Set static field: static public System.Single kMissedTimeOffset
     static void _set_kMissedTimeOffset(float value);
     // public System.Void add_noteJumpDidFinishEvent(System.Action value)
-    // Offset: 0xC2FFAC
+    // Offset: 0x10AC028
     void add_noteJumpDidFinishEvent(System::Action* value);
     // public System.Void remove_noteJumpDidFinishEvent(System.Action value)
-    // Offset: 0xC30050
+    // Offset: 0x10AC0CC
     void remove_noteJumpDidFinishEvent(System::Action* value);
     // public System.Void add_noteJumpDidPassMissedMarkerEvent(System.Action value)
-    // Offset: 0xC300F4
+    // Offset: 0x10AC170
     void add_noteJumpDidPassMissedMarkerEvent(System::Action* value);
     // public System.Void remove_noteJumpDidPassMissedMarkerEvent(System.Action value)
-    // Offset: 0xC30198
+    // Offset: 0x10AC214
     void remove_noteJumpDidPassMissedMarkerEvent(System::Action* value);
     // public System.Void add_noteJumpDidPassThreeQuartersEvent(System.Action`1<NoteJump> value)
-    // Offset: 0xC3023C
+    // Offset: 0x10AC2B8
     void add_noteJumpDidPassThreeQuartersEvent(System::Action_1<GlobalNamespace::NoteJump*>* value);
     // public System.Void remove_noteJumpDidPassThreeQuartersEvent(System.Action`1<NoteJump> value)
-    // Offset: 0xC302E0
+    // Offset: 0x10AC35C
     void remove_noteJumpDidPassThreeQuartersEvent(System::Action_1<GlobalNamespace::NoteJump*>* value);
     // public System.Void add_noteJumpDidPassHalfEvent(System.Action value)
-    // Offset: 0xC30384
+    // Offset: 0x10AC400
     void add_noteJumpDidPassHalfEvent(System::Action* value);
     // public System.Void remove_noteJumpDidPassHalfEvent(System.Action value)
-    // Offset: 0xC30428
+    // Offset: 0x10AC4A4
     void remove_noteJumpDidPassHalfEvent(System::Action* value);
+    // public System.Void add_noteJumpDidUpdateProgressEvent(System.Action`1<System.Single> value)
+    // Offset: 0x10AC548
+    void add_noteJumpDidUpdateProgressEvent(System::Action_1<float>* value);
+    // public System.Void remove_noteJumpDidUpdateProgressEvent(System.Action`1<System.Single> value)
+    // Offset: 0x10AC5EC
+    void remove_noteJumpDidUpdateProgressEvent(System::Action_1<float>* value);
     // public System.Single get_distanceToPlayer()
-    // Offset: 0xC304CC
+    // Offset: 0x10AC690
     float get_distanceToPlayer();
     // public UnityEngine.Vector3 get_beatPos()
-    // Offset: 0xC305BC
+    // Offset: 0x10AC784
     UnityEngine::Vector3 get_beatPos();
     // public System.Single get_jumpDuration()
-    // Offset: 0xC30668
+    // Offset: 0x10AC830
     float get_jumpDuration();
     // public UnityEngine.Vector3 get_moveVec()
-    // Offset: 0xC30670
+    // Offset: 0x10AC838
     UnityEngine::Vector3 get_moveVec();
-    // public System.Void Init(System.Single beatTime, System.Single worldRotation, UnityEngine.Vector3 startPos, UnityEngine.Vector3 endPos, System.Single jumpDuration, System.Single gravity, System.Single flipYSide, NoteCutDirection cutDirection, System.Single cutDirectionAngleOffset)
-    // Offset: 0xC3067C
-    void Init(float beatTime, float worldRotation, UnityEngine::Vector3 startPos, UnityEngine::Vector3 endPos, float jumpDuration, float gravity, float flipYSide, GlobalNamespace::NoteCutDirection cutDirection, float cutDirectionAngleOffset);
-    // private System.Single EaseInOutQuad(System.Single t)
-    // Offset: 0xC309C4
-    float EaseInOutQuad(float t);
+    // public System.Void Init(System.Single beatTime, System.Single worldRotation, UnityEngine.Vector3 startPos, UnityEngine.Vector3 endPos, System.Single jumpDuration, System.Single gravity, System.Single flipYSide, System.Single endRotation)
+    // Offset: 0x10AC844
+    void Init(float beatTime, float worldRotation, UnityEngine::Vector3 startPos, UnityEngine::Vector3 endPos, float jumpDuration, float gravity, float flipYSide, float endRotation);
     // public UnityEngine.Vector3 ManualUpdate()
-    // Offset: 0xC309F4
+    // Offset: 0x10ACB48
     UnityEngine::Vector3 ManualUpdate();
     // public System.Void .ctor()
-    // Offset: 0xC3103C
+    // Offset: 0x10AD234
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

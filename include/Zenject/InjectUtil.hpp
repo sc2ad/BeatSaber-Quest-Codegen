@@ -37,7 +37,7 @@ namespace Zenject {
     // Nested type: Zenject::InjectUtil::$$c
     class $$c;
     // static public System.Collections.Generic.List`1<Zenject.TypeValuePair> CreateArgList(System.Collections.Generic.IEnumerable`1<System.Object> args)
-    // Offset: 0xF3E0F4
+    // Offset: 0x1456784
     static System::Collections::Generic::List_1<Zenject::TypeValuePair>* CreateArgList(System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* args);
     // static public Zenject.TypeValuePair CreateTypePair(T param)
     // Offset: 0xFFFFFFFF
@@ -82,7 +82,7 @@ namespace Zenject {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>("Zenject", "InjectUtil", "CreateArgListExplicit", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get()}, param1, param2, param3, param4, param5, param6)));
     }
     // static public System.Boolean PopValueWithType(System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgMap, System.Type injectedFieldType, out System.Object value)
-    // Offset: 0xF3E22C
+    // Offset: 0x14568BC
     static bool PopValueWithType(System::Collections::Generic::List_1<Zenject::TypeValuePair>* extraArgMap, System::Type* injectedFieldType, ::Il2CppObject*& value);
   }; // Zenject.InjectUtil
 }

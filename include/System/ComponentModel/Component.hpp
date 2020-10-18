@@ -42,30 +42,30 @@ namespace System::ComponentModel {
     // Set static field: static private readonly System.Object EventDisposed
     static void _set_EventDisposed(::Il2CppObject* value);
     // protected System.Boolean get_CanRaiseEvents()
-    // Offset: 0xF5CE24
+    // Offset: 0x1725A84
     bool get_CanRaiseEvents();
     // System.Boolean get_CanRaiseEventsInternal()
-    // Offset: 0xF5CE2C
+    // Offset: 0x1725A8C
     bool get_CanRaiseEventsInternal();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0xF5CEB4
+    // Offset: 0x1725B14
     void Dispose(bool disposing);
     // protected System.Object GetService(System.Type service)
-    // Offset: 0xF5D1EC
+    // Offset: 0x1725E4C
     ::Il2CppObject* GetService(System::Type* service);
     // protected System.Boolean get_DesignMode()
-    // Offset: 0xF5D2BC
+    // Offset: 0x1725F1C
     bool get_DesignMode();
     // static private System.Void .cctor()
-    // Offset: 0xF5D4AC
+    // Offset: 0x172610C
     static void _cctor();
     // protected override System.Void Finalize()
-    // Offset: 0xF5CDB0
+    // Offset: 0x1725A10
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public System.Void Dispose()
-    // Offset: 0xF5CE38
+    // Offset: 0x1725A98
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -73,12 +73,12 @@ namespace System::ComponentModel {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // public override System.String ToString()
-    // Offset: 0xF5D37C
+    // Offset: 0x1725FDC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public System.Void .ctor()
-    // Offset: 0xF5D4A4
+    // Offset: 0x1726104
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()

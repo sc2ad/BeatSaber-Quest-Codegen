@@ -38,16 +38,16 @@ namespace NUnit::Framework::Internal::Builders {
     // Offset: 0x18
     NUnit::Framework::Internal::TestNameGenerator* nameGenerator;
     // public NUnit.Framework.Internal.TestMethod BuildTestMethod(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test parentSuite, NUnit.Framework.Internal.TestCaseParameters parms)
-    // Offset: 0x1074758
+    // Offset: 0x15DE6A0
     NUnit::Framework::Internal::TestMethod* BuildTestMethod(NUnit::Framework::Interfaces::IMethodInfo* method, NUnit::Framework::Internal::Test* parentSuite, NUnit::Framework::Internal::TestCaseParameters* parms);
     // static private System.Boolean CheckTestMethodSignature(NUnit.Framework.Internal.TestMethod testMethod, NUnit.Framework.Internal.TestCaseParameters parms)
-    // Offset: 0x1084A64
+    // Offset: 0x15EEADC
     static bool CheckTestMethodSignature(NUnit::Framework::Internal::TestMethod* testMethod, NUnit::Framework::Internal::TestCaseParameters* parms);
     // static private System.Boolean MarkAsNotRunnable(NUnit.Framework.Internal.TestMethod testMethod, System.String reason)
-    // Offset: 0x10852AC
+    // Offset: 0x15EF324
     static bool MarkAsNotRunnable(NUnit::Framework::Internal::TestMethod* testMethod, ::Il2CppString* reason);
     // public System.Void .ctor()
-    // Offset: 0x1073FB0
+    // Offset: 0x15DDEF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NUnitTestCaseBuilder* New_ctor();

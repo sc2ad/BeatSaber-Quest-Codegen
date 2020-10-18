@@ -22,10 +22,10 @@ namespace UnityEngine {
     // Offset: 0x18
     int m_CurrentIndex;
     // System.Void .ctor(UnityEngine.Animation outer)
-    // Offset: 0x193D4EC
+    // Offset: 0x21E52A8
     static Animation::Enumerator* New_ctor(UnityEngine::Animation* outer);
     // public System.Object get_Current()
-    // Offset: 0x193D5F8
+    // Offset: 0x21E53B4
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* get_Current();
@@ -33,12 +33,15 @@ namespace UnityEngine {
     // Maps to method: get_Current
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Boolean MoveNext()
-    // Offset: 0x193D650
+    // Offset: 0x21E540C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
+    // Creating proxy method: System_Collections_IEnumerator_MoveNext
+    // Maps to method: MoveNext
+    bool System_Collections_IEnumerator_MoveNext();
     // public System.Void Reset()
-    // Offset: 0x193D6BC
+    // Offset: 0x21E5478
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();

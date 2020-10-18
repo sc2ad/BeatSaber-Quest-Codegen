@@ -26,16 +26,16 @@ namespace Oculus::Platform {
   class StandalonePlatform::UnityLogDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xEB0288
+    // Offset: 0x1370984
     static StandalonePlatform::UnityLogDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.IntPtr tag, System.IntPtr msg)
-    // Offset: 0xEB029C
+    // Offset: 0x1370998
     void Invoke(System::IntPtr tag, System::IntPtr msg);
     // public System.IAsyncResult BeginInvoke(System.IntPtr tag, System.IntPtr msg, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xEB0518
+    // Offset: 0x1370C14
     System::IAsyncResult* BeginInvoke(System::IntPtr tag, System::IntPtr msg, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xEB05B8
+    // Offset: 0x1370CB4
     void EndInvoke(System::IAsyncResult* result);
   }; // Oculus.Platform.StandalonePlatform/UnityLogDelegate
 }

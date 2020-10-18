@@ -26,16 +26,16 @@ namespace UnityEngine::Timeline {
     // Set static field: static private System.Action`1<UnityEngine.Timeline.SignalAsset> OnEnableCallback
     static void _set_OnEnableCallback(System::Action_1<UnityEngine::Timeline::SignalAsset*>* value);
     // static System.Void add_OnEnableCallback(System.Action`1<UnityEngine.Timeline.SignalAsset> value)
-    // Offset: 0x109F33C
+    // Offset: 0x16233C4
     static void add_OnEnableCallback(System::Action_1<UnityEngine::Timeline::SignalAsset*>* value);
     // static System.Void remove_OnEnableCallback(System.Action`1<UnityEngine.Timeline.SignalAsset> value)
-    // Offset: 0x109F3F0
+    // Offset: 0x1623478
     static void remove_OnEnableCallback(System::Action_1<UnityEngine::Timeline::SignalAsset*>* value);
     // private System.Void OnEnable()
-    // Offset: 0x109F4A4
+    // Offset: 0x162352C
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x109F518
+    // Offset: 0x16235A0
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

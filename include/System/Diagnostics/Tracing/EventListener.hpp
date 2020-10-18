@@ -73,22 +73,22 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static private System.Boolean s_EventSourceShutdownRegistered
     static void _set_s_EventSourceShutdownRegistered(bool value);
     // protected internal System.Void OnEventSourceCreated(System.Diagnostics.Tracing.EventSource eventSource)
-    // Offset: 0xC9B8CC
+    // Offset: 0x147B5A4
     void OnEventSourceCreated(System::Diagnostics::Tracing::EventSource* eventSource);
     // protected internal System.Void OnEventWritten(System.Diagnostics.Tracing.EventWrittenEventArgs eventData)
-    // Offset: 0xC9B97C
+    // Offset: 0x147B6B8
     void OnEventWritten(System::Diagnostics::Tracing::EventWrittenEventArgs* eventData);
     // static System.Void AddEventSource(System.Diagnostics.Tracing.EventSource newEventSource)
-    // Offset: 0xC9B9F4
+    // Offset: 0x147B730
     static void AddEventSource(System::Diagnostics::Tracing::EventSource* newEventSource);
     // static private System.Void DisposeOnShutdown(System.Object sender, System.EventArgs e)
-    // Offset: 0xC9C0D0
+    // Offset: 0x147BE0C
     static void DisposeOnShutdown(::Il2CppObject* sender, System::EventArgs* e);
     // static System.Object get_EventListenersLock()
-    // Offset: 0xC9BE4C
+    // Offset: 0x147BB88
     static ::Il2CppObject* get_EventListenersLock();
     // static private System.Void .cctor()
-    // Offset: 0xC9C364
+    // Offset: 0x147C0A0
     static void _cctor();
   }; // System.Diagnostics.Tracing.EventListener
 }

@@ -32,19 +32,19 @@ namespace GlobalNamespace {
       return functions;
     }
     // public System.Void AddFunction(System.String name, LevelMissionParser/ParserFunction function)
-    // Offset: 0xBF3FBC
+    // Offset: 0x1027564
     void AddFunction(::Il2CppString* name, GlobalNamespace::LevelMissionParser::ParserFunction* function);
     // public System.Boolean Parse(System.String s)
-    // Offset: 0xBF402C
+    // Offset: 0x10275D4
     bool Parse(::Il2CppString* s);
     // private System.Boolean Parse(System.String s, System.Int32 start, System.Int32 length)
-    // Offset: 0xBF4048
+    // Offset: 0x10275F0
     bool Parse(::Il2CppString* s, int start, int length);
     // private System.Boolean ParseFunction(System.String s, System.Int32 start, System.Int32 length)
-    // Offset: 0xBF4324
+    // Offset: 0x10278CC
     bool ParseFunction(::Il2CppString* s, int start, int length);
     // public System.Void .ctor()
-    // Offset: 0xBF3F3C
+    // Offset: 0x10274E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LevelMissionParser* New_ctor();

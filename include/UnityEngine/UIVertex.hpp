@@ -60,7 +60,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.UIVertex simpleVert
     static void _set_simpleVert(UnityEngine::UIVertex value);
     // static private System.Void .cctor()
-    // Offset: 0x196A5C8
+    // Offset: 0x22181B0
     static void _cctor();
   }; // UnityEngine.UIVertex
 }

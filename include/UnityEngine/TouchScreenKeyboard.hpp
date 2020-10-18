@@ -34,70 +34,70 @@ namespace UnityEngine {
       return m_Ptr;
     }
     // static private System.Void Internal_Destroy(System.IntPtr ptr)
-    // Offset: 0x1397358
+    // Offset: 0x1994D84
     static void Internal_Destroy(System::IntPtr ptr);
     // private System.Void Destroy()
-    // Offset: 0x1397398
+    // Offset: 0x1994DC4
     void Destroy();
     // public System.Void .ctor(System.String text, UnityEngine.TouchScreenKeyboardType keyboardType, System.Boolean autocorrection, System.Boolean multiline, System.Boolean secure, System.Boolean alert, System.String textPlaceholder, System.Int32 characterLimit)
-    // Offset: 0x13974B4
+    // Offset: 0x1994EE0
     static TouchScreenKeyboard* New_ctor(::Il2CppString* text, UnityEngine::TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure, bool alert, ::Il2CppString* textPlaceholder, int characterLimit);
     // static private System.IntPtr TouchScreenKeyboard_InternalConstructorHelper(ref UnityEngine.TouchScreenKeyboard_InternalConstructorHelperArguments arguments, System.String text, System.String textPlaceholder)
-    // Offset: 0x1397618
+    // Offset: 0x1995044
     static System::IntPtr TouchScreenKeyboard_InternalConstructorHelper(UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments& arguments, ::Il2CppString* text, ::Il2CppString* textPlaceholder);
     // static public System.Boolean get_isSupported()
-    // Offset: 0x1397670
+    // Offset: 0x199509C
     static bool get_isSupported();
     // static public System.Boolean get_isInPlaceEditingAllowed()
-    // Offset: 0x13976DC
+    // Offset: 0x1995108
     static bool get_isInPlaceEditingAllowed();
     // static public UnityEngine.TouchScreenKeyboard Open(System.String text, UnityEngine.TouchScreenKeyboardType keyboardType, System.Boolean autocorrection, System.Boolean multiline, System.Boolean secure, System.Boolean alert, System.String textPlaceholder, System.Int32 characterLimit)
-    // Offset: 0x13976E4
+    // Offset: 0x1995110
     static UnityEngine::TouchScreenKeyboard* Open(::Il2CppString* text, UnityEngine::TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure, bool alert, ::Il2CppString* textPlaceholder, int characterLimit);
     // static public UnityEngine.TouchScreenKeyboard Open(System.String text, UnityEngine.TouchScreenKeyboardType keyboardType, System.Boolean autocorrection, System.Boolean multiline, System.Boolean secure)
-    // Offset: 0x13977A4
+    // Offset: 0x19951D0
     static UnityEngine::TouchScreenKeyboard* Open(::Il2CppString* text, UnityEngine::TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure);
     // public System.String get_text()
-    // Offset: 0x1397838
+    // Offset: 0x1995264
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x1397878
+    // Offset: 0x19952A4
     void set_text(::Il2CppString* value);
     // static public System.Void set_hideInput(System.Boolean value)
-    // Offset: 0x13978C8
+    // Offset: 0x19952F4
     static void set_hideInput(bool value);
     // public System.Boolean get_active()
-    // Offset: 0x1397908
+    // Offset: 0x1995334
     bool get_active();
     // public System.Void set_active(System.Boolean value)
-    // Offset: 0x1397948
+    // Offset: 0x1995374
     void set_active(bool value);
     // public UnityEngine.TouchScreenKeyboard/Status get_status()
-    // Offset: 0x1397998
+    // Offset: 0x19953C4
     UnityEngine::TouchScreenKeyboard::Status get_status();
     // public System.Void set_characterLimit(System.Int32 value)
-    // Offset: 0x13979D8
+    // Offset: 0x1995404
     void set_characterLimit(int value);
     // public System.Boolean get_canGetSelection()
-    // Offset: 0x1397A28
+    // Offset: 0x1995454
     bool get_canGetSelection();
     // public System.Boolean get_canSetSelection()
-    // Offset: 0x1397A68
+    // Offset: 0x1995494
     bool get_canSetSelection();
     // public UnityEngine.RangeInt get_selection()
-    // Offset: 0x1397AA8
+    // Offset: 0x19954D4
     UnityEngine::RangeInt get_selection();
     // public System.Void set_selection(UnityEngine.RangeInt value)
-    // Offset: 0x1397B54
+    // Offset: 0x1995580
     void set_selection(UnityEngine::RangeInt value);
     // static private System.Void GetSelection(out System.Int32 start, out System.Int32 length)
-    // Offset: 0x1397B04
+    // Offset: 0x1995530
     static void GetSelection(int& start, int& length);
     // static private System.Void SetSelection(System.Int32 start, System.Int32 length)
-    // Offset: 0x1397C5C
+    // Offset: 0x1995688
     static void SetSelection(int start, int length);
     // protected override System.Void Finalize()
-    // Offset: 0x139744C
+    // Offset: 0x1994E78
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

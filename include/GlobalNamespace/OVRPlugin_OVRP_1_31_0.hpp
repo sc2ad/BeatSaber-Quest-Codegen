@@ -30,13 +30,13 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static public OVRPlugin/Result ovrp_GetTimeInSeconds(out System.Double value)
-    // Offset: 0xF47AFC
+    // Offset: 0x1492910
     static GlobalNamespace::OVRPlugin::Result ovrp_GetTimeInSeconds(double& value);
     // static public OVRPlugin/Result ovrp_SetColorScaleAndOffset(UnityEngine.Vector4 colorScale, UnityEngine.Vector4 colorOffset, OVRPlugin/Bool applyToAllLayers)
-    // Offset: 0xF47B7C
+    // Offset: 0x1492990
     static GlobalNamespace::OVRPlugin::Result ovrp_SetColorScaleAndOffset(UnityEngine::Vector4 colorScale, UnityEngine::Vector4 colorOffset, GlobalNamespace::OVRPlugin::Bool applyToAllLayers);
     // static private System.Void .cctor()
-    // Offset: 0xF47C5C
+    // Offset: 0x1492A70
     static void _cctor();
   }; // OVRPlugin/OVRP_1_31_0
 }

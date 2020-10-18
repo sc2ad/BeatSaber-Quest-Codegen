@@ -35,17 +35,17 @@ namespace GlobalNamespace {
     // Offset: 0x20
     OnlineServices::GetLeaderboardFilterData leaderboardFilterData;
     // private System.Runtime.CompilerServices.TaskAwaiter <>u__1
-    // Offset: 0x38
+    // Offset: 0x40
     System::Runtime::CompilerServices::TaskAwaiter $$u__1;
     // Creating value type constructor for type: $GetLeaderboardEntriesAsync$d__4
     constexpr $GetLeaderboardEntriesAsync$d__4(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<OnlineServices::GetLeaderboardEntriesResult> $$t__builder_ = {}, OnlineServices::GetLeaderboardFilterData leaderboardFilterData_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, leaderboardFilterData{leaderboardFilterData_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
-    // Offset: 0xA2BF64
+    // Offset: 0xDA1584
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xA2BF6C
+    // Offset: 0xDA158C
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

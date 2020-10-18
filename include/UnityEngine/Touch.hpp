@@ -64,16 +64,16 @@ namespace UnityEngine {
     // Creating value type constructor for type: Touch
     constexpr Touch(int m_FingerId_ = {}, UnityEngine::Vector2 m_Position_ = {}, UnityEngine::Vector2 m_RawPosition_ = {}, UnityEngine::Vector2 m_PositionDelta_ = {}, float m_TimeDelta_ = {}, int m_TapCount_ = {}, UnityEngine::TouchPhase m_Phase_ = {}, UnityEngine::TouchType m_Type_ = {}, float m_Pressure_ = {}, float m_maximumPossiblePressure_ = {}, float m_Radius_ = {}, float m_RadiusVariance_ = {}, float m_AltitudeAngle_ = {}, float m_AzimuthAngle_ = {}) noexcept : m_FingerId{m_FingerId_}, m_Position{m_Position_}, m_RawPosition{m_RawPosition_}, m_PositionDelta{m_PositionDelta_}, m_TimeDelta{m_TimeDelta_}, m_TapCount{m_TapCount_}, m_Phase{m_Phase_}, m_Type{m_Type_}, m_Pressure{m_Pressure_}, m_maximumPossiblePressure{m_maximumPossiblePressure_}, m_Radius{m_Radius_}, m_RadiusVariance{m_RadiusVariance_}, m_AltitudeAngle{m_AltitudeAngle_}, m_AzimuthAngle{m_AzimuthAngle_} {}
     // public System.Int32 get_fingerId()
-    // Offset: 0xA60A34
+    // Offset: 0xDDF964
     int get_fingerId();
     // public UnityEngine.Vector2 get_position()
-    // Offset: 0xA60A3C
+    // Offset: 0xDDF96C
     UnityEngine::Vector2 get_position();
     // public UnityEngine.TouchPhase get_phase()
-    // Offset: 0xA60A44
+    // Offset: 0xDDF974
     UnityEngine::TouchPhase get_phase();
     // public UnityEngine.TouchType get_type()
-    // Offset: 0xA60A4C
+    // Offset: 0xDDF97C
     UnityEngine::TouchType get_type();
   }; // UnityEngine.Touch
 }

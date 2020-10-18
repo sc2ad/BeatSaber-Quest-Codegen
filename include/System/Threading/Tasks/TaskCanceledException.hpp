@@ -33,18 +33,25 @@ namespace System::Threading::Tasks {
     // Deleting conversion operator: operator System::Threading::CancellationToken
     constexpr operator System::Threading::CancellationToken() const noexcept = delete;
     // public System.Void .ctor(System.Threading.Tasks.Task task)
-    // Offset: 0xCE3050
+    // Offset: 0x16DEAC8
     static TaskCanceledException* New_ctor(System::Threading::Tasks::Task* task);
     // public System.Void .ctor()
-    // Offset: 0xCE7628
+    // Offset: 0x16E43AC
     // Implemented from: System.OperationCanceledException
     // Base method: System.Void OperationCanceledException::.ctor()
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static TaskCanceledException* New_ctor();
+    // public System.Void .ctor(System.String message)
+    // Offset: 0x16E440C
+    // Implemented from: System.OperationCanceledException
+    // Base method: System.Void OperationCanceledException::.ctor(System.String message)
+    // Base method: System.Void SystemException::.ctor(System.String message)
+    // Base method: System.Void Exception::.ctor(System.String message)
+    static TaskCanceledException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xCE7688
+    // Offset: 0x16E4414
     // Implemented from: System.OperationCanceledException
     // Base method: System.Void OperationCanceledException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

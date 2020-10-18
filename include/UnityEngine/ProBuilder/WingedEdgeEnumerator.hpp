@@ -27,15 +27,18 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x18
     UnityEngine::ProBuilder::WingedEdge* m_Current;
     // public System.Void .ctor(UnityEngine.ProBuilder.WingedEdge start)
-    // Offset: 0x18CFB80
+    // Offset: 0x2122FA8
     static WingedEdgeEnumerator* New_ctor(UnityEngine::ProBuilder::WingedEdge* start);
     // public System.Boolean MoveNext()
-    // Offset: 0x18CFEA4
+    // Offset: 0x21232CC
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
+    // Creating proxy method: System_Collections_IEnumerator_MoveNext
+    // Maps to method: MoveNext
+    bool System_Collections_IEnumerator_MoveNext();
     // public System.Void Reset()
-    // Offset: 0x18DC09C
+    // Offset: 0x212F518
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();
@@ -43,20 +46,20 @@ namespace UnityEngine::ProBuilder {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
     // public UnityEngine.ProBuilder.WingedEdge get_Current()
-    // Offset: 0x18CFBC4
+    // Offset: 0x2122FEC
     // Implemented from: System.Collections.Generic.IEnumerator`1
-    // Base method: T IEnumerator`1::get_Current()
+    // Base method: T IEnumerator_1::get_Current()
     UnityEngine::ProBuilder::WingedEdge* get_Current();
     // Creating proxy method: System_Collections_Generic_IEnumerator_1_get_Current
     // Maps to method: get_Current
     UnityEngine::ProBuilder::WingedEdge* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x18DC0A8
+    // Offset: 0x212F524
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void Dispose()
-    // Offset: 0x18DC0EC
+    // Offset: 0x212F568
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

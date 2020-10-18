@@ -20,6 +20,8 @@
 #include "GlobalNamespace/BeatmapObjectExecutionRating.hpp"
 // Including type: System.Collections.Generic.HashSet`1
 #include "System/Collections/Generic/HashSet_1.hpp"
+// Including type: ObstacleData
+#include "GlobalNamespace/ObstacleData.hpp"
 // Including type: ObstacleController
 #include "GlobalNamespace/ObstacleController.hpp"
 // Including type: NoteData

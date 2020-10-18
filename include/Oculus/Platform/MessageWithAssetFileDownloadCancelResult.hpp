@@ -25,16 +25,16 @@ namespace Oculus::Platform {
   class MessageWithAssetFileDownloadCancelResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDownloadCancelResult*> {
     public:
     // protected Oculus.Platform.Models.AssetFileDownloadCancelResult GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xEA1F84
+    // Offset: 0x1362680
     Oculus::Platform::Models::AssetFileDownloadCancelResult* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE9EF30
+    // Offset: 0x135F62C
     // Implemented from: Oculus.Platform.Message`1
-    // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
+    // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithAssetFileDownloadCancelResult* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.AssetFileDownloadCancelResult GetAssetFileDownloadCancelResult()
-    // Offset: 0xEA1F40
+    // Offset: 0x136263C
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.AssetFileDownloadCancelResult Message::GetAssetFileDownloadCancelResult()
     Oculus::Platform::Models::AssetFileDownloadCancelResult* GetAssetFileDownloadCancelResult();

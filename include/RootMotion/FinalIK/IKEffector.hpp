@@ -126,49 +126,49 @@ namespace RootMotion::FinalIK {
     // Offset: 0xE8
     ::Array<int>* childNodeIndexes;
     // public RootMotion.FinalIK.IKSolver/Node GetNode(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1383188
+    // Offset: 0x1AA28D8
     RootMotion::FinalIK::IKSolver::Node* GetNode(RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Boolean get_isEndEffector()
-    // Offset: 0x13831F0
+    // Offset: 0x1AA2940
     bool get_isEndEffector();
     // private System.Void set_isEndEffector(System.Boolean value)
-    // Offset: 0x13831F8
+    // Offset: 0x1AA2948
     void set_isEndEffector(bool value);
     // public System.Void PinToBone(System.Single positionWeight, System.Single rotationWeight)
-    // Offset: 0x1383204
+    // Offset: 0x1AA2954
     void PinToBone(float positionWeight, float rotationWeight);
     // public System.Void .ctor(UnityEngine.Transform bone, UnityEngine.Transform[] childBones)
-    // Offset: 0x1383444
+    // Offset: 0x1AA2B94
     static IKEffector* New_ctor(UnityEngine::Transform* bone, ::Array<UnityEngine::Transform*>* childBones);
     // public System.Boolean IsValid(RootMotion.FinalIK.IKSolver solver, ref System.String message)
-    // Offset: 0x13835EC
+    // Offset: 0x1AA2D3C
     bool IsValid(RootMotion::FinalIK::IKSolver* solver, ::Il2CppString*& message);
     // public System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x13838E8
+    // Offset: 0x1AA3038
     void Initiate(RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void ResetOffset(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1383BC0
+    // Offset: 0x1AA3310
     void ResetOffset(RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void SetToTarget()
-    // Offset: 0x1383D00
+    // Offset: 0x1AA3450
     void SetToTarget();
     // public System.Void OnPreSolve(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1383DAC
+    // Offset: 0x1AA34FC
     void OnPreSolve(RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void OnPostWrite()
-    // Offset: 0x1384400
+    // Offset: 0x1AA3B50
     void OnPostWrite();
     // private UnityEngine.Quaternion GetPlaneRotation(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1384470
+    // Offset: 0x1AA3BC0
     UnityEngine::Quaternion GetPlaneRotation(RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void Update(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1384688
+    // Offset: 0x1AA3DD8
     void Update(RootMotion::FinalIK::IKSolverFullBody* solver);
     // private UnityEngine.Vector3 GetPosition(RootMotion.FinalIK.IKSolverFullBody solver, out UnityEngine.Quaternion planeRotationOffset)
-    // Offset: 0x13849D0
+    // Offset: 0x1AA4120
     UnityEngine::Vector3 GetPosition(RootMotion::FinalIK::IKSolverFullBody* solver, UnityEngine::Quaternion& planeRotationOffset);
     // public System.Void .ctor()
-    // Offset: 0x13832D8
+    // Offset: 0x1AA2A28
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static IKEffector* New_ctor();

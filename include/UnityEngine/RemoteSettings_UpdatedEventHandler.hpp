@@ -26,16 +26,16 @@ namespace UnityEngine {
   class RemoteSettings::UpdatedEventHandler : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x19778A8
+    // Offset: 0x222A340
     static RemoteSettings::UpdatedEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x19775A8
+    // Offset: 0x222A040
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x19778BC
+    // Offset: 0x222A354
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x19778E8
+    // Offset: 0x222A380
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.RemoteSettings/UpdatedEventHandler
 }

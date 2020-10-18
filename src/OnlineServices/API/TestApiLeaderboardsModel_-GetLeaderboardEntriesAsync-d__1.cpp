@@ -4,6 +4,8 @@
 // Begin includes
 // Including type: OnlineServices.API.TestApiLeaderboardsModel/<GetLeaderboardEntriesAsync>d__1
 #include "OnlineServices/API/TestApiLeaderboardsModel_-GetLeaderboardEntriesAsync-d__1.hpp"
+// Including type: BeatSaberAPI.DataTransferObjects.LeaderboardEntries
+#include "BeatSaberAPI/DataTransferObjects/LeaderboardEntries.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

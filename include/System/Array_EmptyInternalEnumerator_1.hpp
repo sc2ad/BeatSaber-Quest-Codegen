@@ -52,10 +52,15 @@ namespace System {
     bool MoveNext() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "MoveNext"));
     }
+    // Creating proxy method: System_Collections_IEnumerator_MoveNext
+    // Maps to method: MoveNext
+    bool System_Collections_IEnumerator_MoveNext() {
+      return MoveNext();
+    }
     // public T get_Current()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IEnumerator`1
-    // Base method: T IEnumerator`1::get_Current()
+    // Base method: T IEnumerator_1::get_Current()
     T get_Current() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "get_Current"));
     }

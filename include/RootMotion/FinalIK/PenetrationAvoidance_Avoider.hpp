@@ -62,16 +62,16 @@ namespace RootMotion::FinalIK {
     // Offset: 0x54
     UnityEngine::Vector3 offsetV;
     // public System.Void Solve(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
-    // Offset: 0x1234300
+    // Offset: 0x18E8438
     void Solve(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight);
     // private UnityEngine.Vector3 GetOffsetTarget(RootMotion.FinalIK.IKSolverFullBodyBiped solver)
-    // Offset: 0x123450C
+    // Offset: 0x18E8644
     UnityEngine::Vector3 GetOffsetTarget(RootMotion::FinalIK::IKSolverFullBodyBiped* solver);
     // private UnityEngine.Vector3 Raycast(UnityEngine.Vector3 from, UnityEngine.Vector3 to)
-    // Offset: 0x12346A4
+    // Offset: 0x18E87DC
     UnityEngine::Vector3 Raycast(UnityEngine::Vector3 from, UnityEngine::Vector3 to);
     // public System.Void .ctor()
-    // Offset: 0x1234918
+    // Offset: 0x18E8A50
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PenetrationAvoidance::Avoider* New_ctor();

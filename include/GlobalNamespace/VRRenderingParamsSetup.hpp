@@ -13,8 +13,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: VRPlatformHelper
-  class VRPlatformHelper;
+  // Forward declaring type: IVRPlatformHelper
+  class IVRPlatformHelper;
   // Forward declaring type: FloatSO
   class FloatSO;
   // Forward declaring type: BoolSO
@@ -71,16 +71,16 @@ namespace GlobalNamespace {
     // private VRRenderingParamsSetup/SceneType _sceneType
     // Offset: 0x30
     GlobalNamespace::VRRenderingParamsSetup::SceneType sceneType;
-    // private VRPlatformHelper _vrPlatformHelper
+    // private IVRPlatformHelper _vrPlatformHelper
     // Offset: 0x38
-    GlobalNamespace::VRPlatformHelper* vrPlatformHelper;
+    GlobalNamespace::IVRPlatformHelper* vrPlatformHelper;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnEnable()
-    // Offset: 0x1915CCC
+    // Offset: 0x21A5914
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x1915E10
+    // Offset: 0x21A5B20
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

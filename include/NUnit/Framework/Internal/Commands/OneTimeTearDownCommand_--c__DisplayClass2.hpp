@@ -28,10 +28,10 @@ namespace NUnit::Framework::Internal::Commands {
       return disposable;
     }
     // public System.Object <Execute>b__0()
-    // Offset: 0x10890E0
+    // Offset: 0x15F3158
     ::Il2CppObject* $Execute$b__0();
     // public System.Void .ctor()
-    // Offset: 0x1088D90
+    // Offset: 0x15F2E08
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OneTimeTearDownCommand::$$c__DisplayClass2* New_ctor();

@@ -37,16 +37,16 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kDepthTextureEnabledKeyword
     static void _set_kDepthTextureEnabledKeyword(::Il2CppString* value);
     // protected System.Void Awake()
-    // Offset: 0x1915E18
+    // Offset: 0x21A5B28
     void Awake();
     // protected System.Void OnPreRender()
-    // Offset: 0x1915E9C
+    // Offset: 0x21A5BAC
     void OnPreRender();
     // private System.Void SetShaderKeyword(System.String keyword, System.Boolean value)
-    // Offset: 0x1915F1C
+    // Offset: 0x21A5C2C
     void SetShaderKeyword(::Il2CppString* keyword, bool value);
     // public System.Void .ctor()
-    // Offset: 0x1915F30
+    // Offset: 0x21A5C40
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

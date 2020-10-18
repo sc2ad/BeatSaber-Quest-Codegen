@@ -42,7 +42,7 @@ namespace Zenject {
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.FactoryFromBinder`2
-    // Base method: System.Void FactoryFromBinder`2::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
+    // Base method: System.Void FactoryFromBinder_2::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
     static FactoryToChoiceBinder_2<TParam1, TContract>* New_ctor(Zenject::DiContainer* bindContainer, Zenject::BindInfo* bindInfo, Zenject::FactoryBindInfo* factoryBindInfo) {
       return THROW_UNLESS((il2cpp_utils::New<FactoryToChoiceBinder_2<TParam1, TContract>*>(bindContainer, bindInfo, factoryBindInfo)));
     }

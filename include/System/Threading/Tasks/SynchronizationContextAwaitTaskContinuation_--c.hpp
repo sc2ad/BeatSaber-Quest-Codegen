@@ -18,13 +18,13 @@ namespace System::Threading::Tasks {
     // Set static field: static public readonly System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation/<>c <>9
     static void _set_$$9(System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0xCE0CC0
+    // Offset: 0x16DC68C
     static void _cctor();
     // System.Void <.cctor>b__7_0(System.Object state)
-    // Offset: 0xCE0D30
+    // Offset: 0x16DC6FC
     void $_cctor$b__7_0(::Il2CppObject* state);
     // public System.Void .ctor()
-    // Offset: 0xCE0D28
+    // Offset: 0x16DC6F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SynchronizationContextAwaitTaskContinuation::$$c* New_ctor();

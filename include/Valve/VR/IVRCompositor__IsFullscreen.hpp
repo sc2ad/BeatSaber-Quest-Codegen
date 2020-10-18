@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRCompositor::_IsFullscreen : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x160850C
+    // Offset: 0x1E3278C
     static IVRCompositor::_IsFullscreen* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke()
-    // Offset: 0x1608520
+    // Offset: 0x1E327A0
     bool Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1608738
+    // Offset: 0x1E329B8
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1608764
+    // Offset: 0x1E329E4
     bool EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_IsFullscreen
 }

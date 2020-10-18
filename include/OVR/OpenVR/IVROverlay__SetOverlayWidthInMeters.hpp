@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_SetOverlayWidthInMeters : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16ACED4
+    // Offset: 0x1F31C7C
     static IVROverlay::_SetOverlayWidthInMeters* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, System.Single fWidthInMeters)
-    // Offset: 0x16ACEE8
+    // Offset: 0x1F31C90
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, float fWidthInMeters);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.Single fWidthInMeters, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16AD170
+    // Offset: 0x1F31F18
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, float fWidthInMeters, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16AD21C
+    // Offset: 0x1F31FC4
     OVR::OpenVR::EVROverlayError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_SetOverlayWidthInMeters
 }

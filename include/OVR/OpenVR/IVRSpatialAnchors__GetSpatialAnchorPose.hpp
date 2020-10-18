@@ -35,16 +35,16 @@ namespace OVR::OpenVR {
   class IVRSpatialAnchors::_GetSpatialAnchorPose : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16BA310
+    // Offset: 0x1F3F0B8
     static IVRSpatialAnchors::_GetSpatialAnchorPose* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRSpatialAnchorError Invoke(System.UInt32 unHandle, OVR.OpenVR.ETrackingUniverseOrigin eOrigin, ref OVR.OpenVR.SpatialAnchorPose_t pPoseOut)
-    // Offset: 0x16BA324
+    // Offset: 0x1F3F0CC
     OVR::OpenVR::EVRSpatialAnchorError Invoke(uint unHandle, OVR::OpenVR::ETrackingUniverseOrigin eOrigin, OVR::OpenVR::SpatialAnchorPose_t& pPoseOut);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unHandle, OVR.OpenVR.ETrackingUniverseOrigin eOrigin, ref OVR.OpenVR.SpatialAnchorPose_t pPoseOut, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16BA5D0
+    // Offset: 0x1F3F378
     System::IAsyncResult* BeginInvoke(uint unHandle, OVR::OpenVR::ETrackingUniverseOrigin eOrigin, OVR::OpenVR::SpatialAnchorPose_t& pPoseOut, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRSpatialAnchorError EndInvoke(ref OVR.OpenVR.SpatialAnchorPose_t pPoseOut, System.IAsyncResult result)
-    // Offset: 0x16BA6A4
+    // Offset: 0x1F3F44C
     OVR::OpenVR::EVRSpatialAnchorError EndInvoke(OVR::OpenVR::SpatialAnchorPose_t& pPoseOut, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSpatialAnchors/_GetSpatialAnchorPose
 }

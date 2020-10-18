@@ -22,7 +22,7 @@ namespace UnityEngine::EventSystems {
     // Offset: 0x18
     UnityEngine::EventSystems::EventTrigger::TriggerEvent* callback;
     // public System.Void .ctor()
-    // Offset: 0xDFD534
+    // Offset: 0x127C0A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EventTrigger::Entry* New_ctor();

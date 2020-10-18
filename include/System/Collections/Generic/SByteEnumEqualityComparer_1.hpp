@@ -31,8 +31,8 @@ namespace System::Collections::Generic {
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.EnumEqualityComparer`1
-    // Base method: System.Void EnumEqualityComparer`1::.ctor()
-    // Base method: System.Void EqualityComparer`1::.ctor()
+    // Base method: System.Void EnumEqualityComparer_1::.ctor()
+    // Base method: System.Void EqualityComparer_1::.ctor()
     // Base method: System.Void Object::.ctor()
     static SByteEnumEqualityComparer_1<T>* New_ctor() {
       return THROW_UNLESS(il2cpp_utils::New<SByteEnumEqualityComparer_1<T>*>());
@@ -40,14 +40,14 @@ namespace System::Collections::Generic {
     // public System.Void .ctor(System.Runtime.Serialization.SerializationInfo information, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.EnumEqualityComparer`1
-    // Base method: System.Void EnumEqualityComparer`1::.ctor(System.Runtime.Serialization.SerializationInfo information, System.Runtime.Serialization.StreamingContext context)
+    // Base method: System.Void EnumEqualityComparer_1::.ctor(System.Runtime.Serialization.SerializationInfo information, System.Runtime.Serialization.StreamingContext context)
     static SByteEnumEqualityComparer_1<T>* New_ctor(System::Runtime::Serialization::SerializationInfo* information, System::Runtime::Serialization::StreamingContext context) {
       return THROW_UNLESS(il2cpp_utils::New<SByteEnumEqualityComparer_1<T>*>(information, context));
     }
     // public override System.Int32 GetHashCode(T obj)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.EnumEqualityComparer`1
-    // Base method: System.Int32 EnumEqualityComparer`1::GetHashCode(T obj)
+    // Base method: System.Int32 EnumEqualityComparer_1::GetHashCode(T obj)
     int GetHashCode(T obj) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "GetHashCode", obj));
     }

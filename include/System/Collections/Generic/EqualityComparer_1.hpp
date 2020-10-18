@@ -51,14 +51,14 @@ namespace System::Collections::Generic {
     // public System.Boolean Equals(T x, T y)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IEqualityComparer`1
-    // Base method: System.Boolean IEqualityComparer`1::Equals(T x, T y)
+    // Base method: System.Boolean IEqualityComparer_1::Equals(T x, T y)
     bool Equals(T x, T y) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "Equals", x, y));
     }
     // public System.Int32 GetHashCode(T obj)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IEqualityComparer`1
-    // Base method: System.Int32 IEqualityComparer`1::GetHashCode(T obj)
+    // Base method: System.Int32 IEqualityComparer_1::GetHashCode(T obj)
     int GetHashCode(T obj) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "GetHashCode", obj));
     }

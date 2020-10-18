@@ -35,13 +35,13 @@ namespace UnityEngine::TestTools {
     // Set static field: static public System.Func`2<System.Reflection.MethodInfo,System.Boolean> <>9__1_0
     static void _set_$$9__1_0(System::Func_2<System::Reflection::MethodInfo*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0xE411E0
+    // Offset: 0x12BDF20
     static void _cctor();
     // System.Boolean <GetMethodsWithAttributeFromFixture>b__1_0(System.Reflection.MethodInfo x)
-    // Offset: 0xE41250
+    // Offset: 0x12BDF90
     bool $GetMethodsWithAttributeFromFixture$b__1_0(System::Reflection::MethodInfo* x);
     // public System.Void .ctor()
-    // Offset: 0xE41248
+    // Offset: 0x12BDF88
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EnumerableSetUpTearDownCommand::$$c* New_ctor();

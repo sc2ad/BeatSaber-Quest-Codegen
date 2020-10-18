@@ -7,8 +7,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: LevelFilteringNavigationController
 #include "GlobalNamespace/LevelFilteringNavigationController.hpp"
-// Including type: TabBarViewController
-#include "GlobalNamespace/TabBarViewController.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -16,6 +14,11 @@ namespace System {
   // Forward declaring type: Func`2<T, TResult>
   template<typename T, typename TResult>
   class Func_2;
+}
+// Forward declaring namespace: GlobalNamespace
+namespace GlobalNamespace {
+  // Forward declaring type: IBeatmapLevelPack
+  class IBeatmapLevelPack;
 }
 // Completed forward declares
 // Type namespace: 
@@ -27,18 +30,25 @@ namespace GlobalNamespace {
     static GlobalNamespace::LevelFilteringNavigationController::$$c* _get_$$9();
     // Set static field: static public readonly LevelFilteringNavigationController/<>c <>9
     static void _set_$$9(GlobalNamespace::LevelFilteringNavigationController::$$c* value);
-    // Get static field: static public System.Func`2<LevelFilteringNavigationController/TabBarData,TabBarViewController/TabBarItem> <>9__31_0
-    static System::Func_2<GlobalNamespace::LevelFilteringNavigationController::TabBarData*, GlobalNamespace::TabBarViewController::TabBarItem*>* _get_$$9__31_0();
-    // Set static field: static public System.Func`2<LevelFilteringNavigationController/TabBarData,TabBarViewController/TabBarItem> <>9__31_0
-    static void _set_$$9__31_0(System::Func_2<GlobalNamespace::LevelFilteringNavigationController::TabBarData*, GlobalNamespace::TabBarViewController::TabBarItem*>* value);
+    // Get static field: static public System.Func`2<IBeatmapLevelPack,System.String> <>9__41_0
+    static System::Func_2<GlobalNamespace::IBeatmapLevelPack*, ::Il2CppString*>* _get_$$9__41_0();
+    // Set static field: static public System.Func`2<IBeatmapLevelPack,System.String> <>9__41_0
+    static void _set_$$9__41_0(System::Func_2<GlobalNamespace::IBeatmapLevelPack*, ::Il2CppString*>* value);
+    // Get static field: static public System.Func`2<IBeatmapLevelPack,System.String> <>9__41_2
+    static System::Func_2<GlobalNamespace::IBeatmapLevelPack*, ::Il2CppString*>* _get_$$9__41_2();
+    // Set static field: static public System.Func`2<IBeatmapLevelPack,System.String> <>9__41_2
+    static void _set_$$9__41_2(System::Func_2<GlobalNamespace::IBeatmapLevelPack*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xB4D5DC
+    // Offset: 0x1025D5C
     static void _cctor();
-    // TabBarViewController/TabBarItem <InitializeTabBarViewController>b__31_0(LevelFilteringNavigationController/TabBarData x)
-    // Offset: 0xB4D64C
-    GlobalNamespace::TabBarViewController::TabBarItem* $InitializeTabBarViewController$b__31_0(GlobalNamespace::LevelFilteringNavigationController::TabBarData* x);
+    // System.String <SelectAnnotatedBeatmapLevelCollection>b__41_0(IBeatmapLevelPack pack)
+    // Offset: 0x1025DCC
+    ::Il2CppString* $SelectAnnotatedBeatmapLevelCollection$b__41_0(GlobalNamespace::IBeatmapLevelPack* pack);
+    // System.String <SelectAnnotatedBeatmapLevelCollection>b__41_2(IBeatmapLevelPack pack)
+    // Offset: 0x1025E78
+    ::Il2CppString* $SelectAnnotatedBeatmapLevelCollection$b__41_2(GlobalNamespace::IBeatmapLevelPack* pack);
     // public System.Void .ctor()
-    // Offset: 0xB4D644
+    // Offset: 0x1025DC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LevelFilteringNavigationController::$$c* New_ctor();

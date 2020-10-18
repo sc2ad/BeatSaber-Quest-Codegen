@@ -40,8 +40,23 @@ namespace GlobalNamespace {
     // public System.Single saberTrailIntensity
     // Offset: 0x24
     float saberTrailIntensity;
+    // public System.Boolean autoRestart
+    // Offset: 0x28
+    bool autoRestart;
+    // public System.Boolean noFailEffects
+    // Offset: 0x29
+    bool noFailEffects;
+    // public System.Single noteJumpBeatOffset
+    // Offset: 0x2C
+    float noteJumpBeatOffset;
+    // public System.Boolean hideNoteSpawnEffect
+    // Offset: 0x30
+    bool hideNoteSpawnEffect;
+    // public System.Boolean adaptiveSfx
+    // Offset: 0x31
+    bool adaptiveSfx;
     // public System.Void .ctor()
-    // Offset: 0xC1B4A4
+    // Offset: 0xFDEAD0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerSaveData::PlayerSpecificSettings* New_ctor();

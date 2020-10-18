@@ -31,16 +31,16 @@ namespace UnityEngine {
   class CullingGroup::StateChanged : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x130CD6C
+    // Offset: 0x19E7FDC
     static CullingGroup::StateChanged* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(UnityEngine.CullingGroupEvent sphere)
-    // Offset: 0x130CB0C
+    // Offset: 0x19E7D7C
     void Invoke(UnityEngine::CullingGroupEvent sphere);
     // public System.IAsyncResult BeginInvoke(UnityEngine.CullingGroupEvent sphere, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x130CD80
+    // Offset: 0x19E7FF0
     System::IAsyncResult* BeginInvoke(UnityEngine::CullingGroupEvent sphere, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x130CE0C
+    // Offset: 0x19E807C
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.CullingGroup/StateChanged
 }

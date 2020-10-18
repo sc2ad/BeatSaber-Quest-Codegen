@@ -19,28 +19,31 @@ namespace System {
   class ParseNumbers : public ::Il2CppObject {
     public:
     // static public System.Int32 StringToInt(System.String value, System.Int32 fromBase, System.Int32 flags)
-    // Offset: 0x1365740
+    // Offset: 0x1AB57BC
     static int StringToInt(::Il2CppString* value, int fromBase, int flags);
     // static public System.Int32 StringToInt(System.String value, System.Int32 fromBase, System.Int32 flags, System.Int32* parsePos)
-    // Offset: 0x1365748
+    // Offset: 0x1AB57C4
     static int StringToInt(::Il2CppString* value, int fromBase, int flags, int* parsePos);
+    // static public System.String LongToString(System.Int64 value, System.Int32 toBase, System.Int32 width, System.Char paddingChar, System.Int32 flags)
+    // Offset: 0x1AB5BDC
+    static ::Il2CppString* LongToString(int64_t value, int toBase, int width, ::Il2CppChar paddingChar, int flags);
     // static public System.Int64 StringToLong(System.String value, System.Int32 fromBase, System.Int32 flags, System.Int32* parsePos)
-    // Offset: 0x1365B64
+    // Offset: 0x1AB61C4
     static int64_t StringToLong(::Il2CppString* value, int fromBase, int flags, int* parsePos);
     // static public System.String IntToString(System.Int32 value, System.Int32 toBase, System.Int32 width, System.Char paddingChar, System.Int32 flags)
-    // Offset: 0x1365FAC
+    // Offset: 0x1AB6608
     static ::Il2CppString* IntToString(int value, int toBase, int width, ::Il2CppChar paddingChar, int flags);
     // static private System.Void EndianSwap(ref System.Byte[] value)
-    // Offset: 0x136669C
+    // Offset: 0x1AB682C
     static void EndianSwap(::Array<uint8_t>*& value);
     // static private System.Text.StringBuilder ConvertToBase2(System.Byte[] value)
-    // Offset: 0x13661D4
+    // Offset: 0x1AB5CFC
     static System::Text::StringBuilder* ConvertToBase2(::Array<uint8_t>* value);
     // static private System.Text.StringBuilder ConvertToBase8(System.Byte[] value)
-    // Offset: 0x1366310
+    // Offset: 0x1AB5E38
     static System::Text::StringBuilder* ConvertToBase8(::Array<uint8_t>* value);
     // static private System.Text.StringBuilder ConvertToBase16(System.Byte[] value)
-    // Offset: 0x13664E8
+    // Offset: 0x1AB6010
     static System::Text::StringBuilder* ConvertToBase16(::Array<uint8_t>* value);
   }; // System.ParseNumbers
 }

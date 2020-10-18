@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     // Offset: 0x16
     bool failOnSaberClash;
     // public System.Void .ctor(GameplayModifiers/EnergyType energyType, System.Boolean noFail, System.Boolean instaFail, System.Boolean failOnSaberClash)
-    // Offset: 0xB3C0CC
+    // Offset: 0xEBFBF8
     static GameEnergyCounter::InitData* New_ctor(GlobalNamespace::GameplayModifiers::EnergyType energyType, bool noFail, bool instaFail, bool failOnSaberClash);
   }; // GameEnergyCounter/InitData
 }

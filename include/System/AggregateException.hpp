@@ -51,10 +51,10 @@ namespace System {
       return m_innerExceptions;
     }
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<System.Exception> innerExceptions)
-    // Offset: 0x10BD1B4
+    // Offset: 0x15BF4BC
     static AggregateException* New_ctor(System::Collections::Generic::IEnumerable_1<System::Exception*>* innerExceptions);
     // public System.Void .ctor(params System.Exception[] innerExceptions)
-    // Offset: 0x10BD2D4
+    // Offset: 0x15BF5DC
     static AggregateException* New_ctor(::Array<System::Exception*>* innerExceptions);
     // Creating initializer_list -> params proxy for: System.Void .ctor(params System.Exception[] innerExceptions)
     static AggregateException* New_ctor(std::initializer_list<System::Exception*> innerExceptions);
@@ -64,10 +64,10 @@ namespace System {
       return New_ctor({innerExceptions...});
     }
     // public System.Void .ctor(System.String message, System.Collections.Generic.IEnumerable`1<System.Exception> innerExceptions)
-    // Offset: 0x10BD220
+    // Offset: 0x15BF528
     static AggregateException* New_ctor(::Il2CppString* message, System::Collections::Generic::IEnumerable_1<System::Exception*>* innerExceptions);
     // public System.Void .ctor(System.String message, params System.Exception[] innerExceptions)
-    // Offset: 0x10BD340
+    // Offset: 0x15BF648
     static AggregateException* New_ctor(::Il2CppString* message, ::Array<System::Exception*>* innerExceptions);
     // Creating initializer_list -> params proxy for: System.Void .ctor(System.String message, params System.Exception[] innerExceptions)
     static AggregateException* New_ctor(::Il2CppString* message, std::initializer_list<System::Exception*> innerExceptions);
@@ -77,36 +77,36 @@ namespace System {
       return New_ctor(message, {innerExceptions...});
     }
     // private System.Void .ctor(System.String message, System.Collections.Generic.IList`1<System.Exception> innerExceptions)
-    // Offset: 0x10BD344
+    // Offset: 0x15BF64C
     static AggregateException* New_ctor(::Il2CppString* message, System::Collections::Generic::IList_1<System::Exception*>* innerExceptions);
     // System.Void .ctor(System.Collections.Generic.IEnumerable`1<System.Runtime.ExceptionServices.ExceptionDispatchInfo> innerExceptionInfos)
-    // Offset: 0x10BD718
+    // Offset: 0x15BFAD4
     static AggregateException* New_ctor(System::Collections::Generic::IEnumerable_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos);
     // System.Void .ctor(System.String message, System.Collections.Generic.IEnumerable`1<System.Runtime.ExceptionServices.ExceptionDispatchInfo> innerExceptionInfos)
-    // Offset: 0x10BD784
+    // Offset: 0x15BFB40
     static AggregateException* New_ctor(::Il2CppString* message, System::Collections::Generic::IEnumerable_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos);
     // private System.Void .ctor(System.String message, System.Collections.Generic.IList`1<System.Runtime.ExceptionServices.ExceptionDispatchInfo> innerExceptionInfos)
-    // Offset: 0x10BD838
+    // Offset: 0x15BFBF4
     static AggregateException* New_ctor(::Il2CppString* message, System::Collections::Generic::IList_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos);
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<System.Exception> get_InnerExceptions()
-    // Offset: 0x10BDF94
+    // Offset: 0x15C0350
     System::Collections::ObjectModel::ReadOnlyCollection_1<System::Exception*>* get_InnerExceptions();
     // public System.AggregateException Flatten()
-    // Offset: 0x10BDF9C
+    // Offset: 0x15C0358
     System::AggregateException* Flatten();
     // public System.Void .ctor()
-    // Offset: 0x10BD0D0
+    // Offset: 0x15BF3D8
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static AggregateException* New_ctor();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x10BDC74
+    // Offset: 0x15C0030
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static AggregateException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x10BDE34
+    // Offset: 0x15C01F0
     // Implemented from: System.Exception
     // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -114,7 +114,7 @@ namespace System {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.String ToString()
-    // Offset: 0x10BE23C
+    // Offset: 0x15C05F8
     // Implemented from: System.Exception
     // Base method: System.String Exception::ToString()
     ::Il2CppString* ToString();

@@ -10,6 +10,8 @@
 #include "Oculus/Platform/Models/PurchaseList.hpp"
 // Including type: Oculus.Platform.Models.AssetDetailsList
 #include "Oculus/Platform/Models/AssetDetailsList.hpp"
+// Including type: Oculus.Platform.Message`1/Callback
+#include "Oculus/Platform/Message_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

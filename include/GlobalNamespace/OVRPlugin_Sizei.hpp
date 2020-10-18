@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     // Set static field: static public readonly OVRPlugin/Sizei zero
     static void _set_zero(GlobalNamespace::OVRPlugin::Sizei value);
     // static private System.Void .cctor()
-    // Offset: 0xF4B228
+    // Offset: 0x149603C
     static void _cctor();
   }; // OVRPlugin/Sizei
 }

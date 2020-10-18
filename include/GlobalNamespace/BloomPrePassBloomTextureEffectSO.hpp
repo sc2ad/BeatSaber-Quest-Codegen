@@ -32,34 +32,37 @@ namespace GlobalNamespace {
     // private System.Single _intensity
     // Offset: 0x30
     float intensity;
-    // private System.Boolean _uniformPyramidWeights
+    // private System.Single _downBloomIntensityOffset
     // Offset: 0x34
+    float downBloomIntensityOffset;
+    // private System.Boolean _uniformPyramidWeights
+    // Offset: 0x38
     bool uniformPyramidWeights;
     // private System.Single _pyramidWeightsParam
-    // Offset: 0x38
+    // Offset: 0x3C
     float pyramidWeightsParam;
     // private PyramidBloomRendererSO/Pass _prefilterPass
-    // Offset: 0x3C
+    // Offset: 0x40
     GlobalNamespace::PyramidBloomRendererSO::Pass prefilterPass;
     // private PyramidBloomRendererSO/Pass _downsamplePass
-    // Offset: 0x40
+    // Offset: 0x44
     GlobalNamespace::PyramidBloomRendererSO::Pass downsamplePass;
     // private PyramidBloomRendererSO/Pass _upsamplePass
-    // Offset: 0x44
+    // Offset: 0x48
     GlobalNamespace::PyramidBloomRendererSO::Pass upsamplePass;
     // private PyramidBloomRendererSO/Pass _finalUpsamplePass
-    // Offset: 0x48
+    // Offset: 0x4C
     GlobalNamespace::PyramidBloomRendererSO::Pass finalUpsamplePass;
     // private PyramidBloomRendererSO _bloomRenderer
     // Offset: 0x50
     GlobalNamespace::PyramidBloomRendererSO* bloomRenderer;
     // public override System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x190FB20
+    // Offset: 0x219F738
     // Implemented from: TextureEffectSO
     // Base method: System.Void TextureEffectSO::Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
     void Render(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);
     // public System.Void .ctor()
-    // Offset: 0x190FB70
+    // Offset: 0x219F78C
     // Implemented from: BloomPrePassEffectSO
     // Base method: System.Void BloomPrePassEffectSO::.ctor()
     // Base method: System.Void TextureEffectSO::.ctor()

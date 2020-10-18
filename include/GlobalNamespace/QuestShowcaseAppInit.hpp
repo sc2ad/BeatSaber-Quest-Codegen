@@ -21,6 +21,8 @@ namespace GlobalNamespace {
   class MainSettingsModelSO;
   // Forward declaring type: GameScenesManager
   class GameScenesManager;
+  // Forward declaring type: PlayerDataModel
+  class PlayerDataModel;
 }
 // Completed forward declares
 // Type namespace: 
@@ -40,31 +42,34 @@ namespace GlobalNamespace {
     // private MainSettingsModelSO _mainSettingsModel
     // Offset: 0x50
     GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
-    // private GameScenesManager _gameScenesManager
+    // private readonly GameScenesManager _gameScenesManager
     // Offset: 0x58
     GlobalNamespace::GameScenesManager* gameScenesManager;
+    // private readonly PlayerDataModel _playerDataModel
+    // Offset: 0x60
+    GlobalNamespace::PlayerDataModel* playerDataModel;
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0xC1F9BC
+    // Offset: 0xF72A04
     // Implemented from: AppInit
     // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
     void AppStartAndMultiSceneEditorSetup();
     // protected override System.Void RepeatableSetup()
-    // Offset: 0xC1F9D8
+    // Offset: 0xF72A20
     // Implemented from: AppInit
     // Base method: System.Void AppInit::RepeatableSetup()
     void RepeatableSetup();
     // protected override System.Void TransitionToNextScene()
-    // Offset: 0xC1FA24
+    // Offset: 0xF72BA8
     // Implemented from: AppInit
     // Base method: System.Void AppInit::TransitionToNextScene()
     void TransitionToNextScene();
     // public override System.Void InstallBindings()
-    // Offset: 0xC1FA70
+    // Offset: 0xF72BF4
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xC1FAFC
+    // Offset: 0xF72C80
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     // Base method: System.Void MonoInstaller::.ctor()

@@ -30,10 +30,10 @@ namespace NUnit::Framework::Internal {
       return text;
     }
     // public System.Void .ctor(System.String text)
-    // Offset: 0x18F5DD4
+    // Offset: 0x217A0F4
     static TestNameGenerator::FixedTextFragment* New_ctor(::Il2CppString* text);
     // public override System.String GetText(System.Reflection.MethodInfo method, System.Object[] args)
-    // Offset: 0x18F6AE8
+    // Offset: 0x217AE08
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NameFragment
     // Base method: System.String NameFragment::GetText(System.Reflection.MethodInfo method, System.Object[] args)
     ::Il2CppString* GetText(System::Reflection::MethodInfo* method, ::Array<::Il2CppObject*>* args);

@@ -20,8 +20,8 @@ namespace UnityEngine {
 namespace GlobalNamespace {
   // Forward declaring type: FloatSO
   class FloatSO;
-  // Forward declaring type: VRPlatformHelper
-  class VRPlatformHelper;
+  // Forward declaring type: IVRPlatformHelper
+  class IVRPlatformHelper;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
@@ -52,7 +52,7 @@ namespace GlobalNamespace {
         return keyframes;
       }
       // public System.Void .ctor()
-      // Offset: 0xB9ADB0
+      // Offset: 0xEEFE18
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static SimpleVRNodeRecorder::SavedData* New_ctor();
@@ -109,9 +109,9 @@ namespace GlobalNamespace {
     // private System.Single _forwardOffset
     // Offset: 0x3C
     float forwardOffset;
-    // private VRPlatformHelper _vrPlatformHelper
+    // private IVRPlatformHelper _vrPlatformHelper
     // Offset: 0x40
-    GlobalNamespace::VRPlatformHelper* vrPlatformHelper;
+    GlobalNamespace::IVRPlatformHelper* vrPlatformHelper;
     // private System.Collections.Generic.List`1<SimpleVRNodeRecorder/SavedData/NodeKeyframe> _keyframes
     // Offset: 0x48
     System::Collections::Generic::List_1<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>* keyframes;
@@ -127,25 +127,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0xB9A158
+    // Offset: 0xEEF158
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xB9A57C
+    // Offset: 0xEEF57C
     void OnDestroy();
     // private System.Void RecordNewKeyFrame()
-    // Offset: 0xB9A6CC
+    // Offset: 0xEEF6CC
     void RecordNewKeyFrame();
     // protected System.Void Update()
-    // Offset: 0xB9A830
+    // Offset: 0xEEF898
     void Update();
     // private System.Void Save()
-    // Offset: 0xB9A58C
+    // Offset: 0xEEF58C
     void Save();
     // private System.Void Load()
-    // Offset: 0xB9A274
+    // Offset: 0xEEF274
     void Load();
     // public System.Void .ctor()
-    // Offset: 0xB9ADB8
+    // Offset: 0xEEFE20
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

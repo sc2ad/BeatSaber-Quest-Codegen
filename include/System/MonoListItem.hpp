@@ -18,7 +18,7 @@ namespace System {
     // Offset: 0x18
     ::Il2CppObject* data;
     // public System.Void .ctor()
-    // Offset: 0x101AEB0
+    // Offset: 0x1AAA604
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MonoListItem* New_ctor();

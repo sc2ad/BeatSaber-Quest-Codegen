@@ -30,31 +30,31 @@ namespace UnityEngine {
   class CubemapArray : public UnityEngine::Texture {
     public:
     // static private System.Boolean Internal_CreateImpl(UnityEngine.CubemapArray mono, System.Int32 ext, System.Int32 count, System.Int32 mipCount, UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags)
-    // Offset: 0x130C600
+    // Offset: 0x19E7870
     static bool Internal_CreateImpl(UnityEngine::CubemapArray* mono, int ext, int count, int mipCount, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
     // static private System.Void Internal_Create(UnityEngine.CubemapArray mono, System.Int32 ext, System.Int32 count, System.Int32 mipCount, UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags)
-    // Offset: 0x130C680
+    // Offset: 0x19E78F0
     static void Internal_Create(UnityEngine::CubemapArray* mono, int ext, int count, int mipCount, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
     // public System.Void .ctor(System.Int32 width, System.Int32 cubemapCount, UnityEngine.Experimental.Rendering.DefaultFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags)
-    // Offset: 0x130C768
+    // Offset: 0x19E79D8
     static CubemapArray* New_ctor(int width, int cubemapCount, UnityEngine::Experimental::Rendering::DefaultFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
     // public System.Void .ctor(System.Int32 width, System.Int32 cubemapCount, UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags)
-    // Offset: 0x130C7B8
+    // Offset: 0x19E7A28
     static CubemapArray* New_ctor(int width, int cubemapCount, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
     // public System.Void .ctor(System.Int32 width, System.Int32 cubemapCount, UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags, System.Int32 mipCount)
-    // Offset: 0x130C858
+    // Offset: 0x19E7AC8
     static CubemapArray* New_ctor(int width, int cubemapCount, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int mipCount);
     // public System.Void .ctor(System.Int32 width, System.Int32 cubemapCount, UnityEngine.TextureFormat textureFormat, System.Int32 mipCount, System.Boolean linear)
-    // Offset: 0x130C938
+    // Offset: 0x19E7BA8
     static CubemapArray* New_ctor(int width, int cubemapCount, UnityEngine::TextureFormat textureFormat, int mipCount, bool linear);
     // public System.Void .ctor(System.Int32 width, System.Int32 cubemapCount, UnityEngine.TextureFormat textureFormat, System.Boolean mipChain, System.Boolean linear)
-    // Offset: 0x130CA60
+    // Offset: 0x19E7CD0
     static CubemapArray* New_ctor(int width, int cubemapCount, UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear);
     // public System.Void .ctor(System.Int32 width, System.Int32 cubemapCount, UnityEngine.TextureFormat textureFormat, System.Boolean mipChain)
-    // Offset: 0x130CA84
+    // Offset: 0x19E7CF4
     static CubemapArray* New_ctor(int width, int cubemapCount, UnityEngine::TextureFormat textureFormat, bool mipChain);
     // public override System.Boolean get_isReadable()
-    // Offset: 0x130C5C0
+    // Offset: 0x19E7830
     // Implemented from: UnityEngine.Texture
     // Base method: System.Boolean Texture::get_isReadable()
     bool get_isReadable();

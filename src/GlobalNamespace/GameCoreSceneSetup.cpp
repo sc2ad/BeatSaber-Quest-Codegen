@@ -4,8 +4,6 @@
 // Begin includes
 // Including type: GameCoreSceneSetup
 #include "GlobalNamespace/GameCoreSceneSetup.hpp"
-// Including type: BasicSaberModelController
-#include "GlobalNamespace/BasicSaberModelController.hpp"
 // Including type: ScreenCaptureAfterDelay
 #include "GlobalNamespace/ScreenCaptureAfterDelay.hpp"
 // Including type: MainSettingsModelSO

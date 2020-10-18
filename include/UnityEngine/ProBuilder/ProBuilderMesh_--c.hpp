@@ -34,46 +34,46 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::ProBuilderMesh::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.ProBuilder.ProBuilderMesh/<>c <>9
     static void _set_$$9(UnityEngine::ProBuilder::ProBuilderMesh::$$c* value);
-    // Get static field: static public System.Func`2<UnityEngine.Vector4,UnityEngine.Vector2> <>9__100_0
-    static System::Func_2<UnityEngine::Vector4, UnityEngine::Vector2>* _get_$$9__100_0();
-    // Set static field: static public System.Func`2<UnityEngine.Vector4,UnityEngine.Vector2> <>9__100_0
-    static void _set_$$9__100_0(System::Func_2<UnityEngine::Vector4, UnityEngine::Vector2>* value);
-    // Get static field: static public System.Func`2<UnityEngine.Vector4,UnityEngine.Vector2> <>9__100_1
-    static System::Func_2<UnityEngine::Vector4, UnityEngine::Vector2>* _get_$$9__100_1();
-    // Set static field: static public System.Func`2<UnityEngine.Vector4,UnityEngine.Vector2> <>9__100_1
-    static void _set_$$9__100_1(System::Func_2<UnityEngine::Vector4, UnityEngine::Vector2>* value);
-    // Get static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Int32> <>9__108_0
-    static System::Func_2<UnityEngine::ProBuilder::Face*, int>* _get_$$9__108_0();
-    // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Int32> <>9__108_0
-    static void _set_$$9__108_0(System::Func_2<UnityEngine::ProBuilder::Face*, int>* value);
+    // Get static field: static public System.Func`2<UnityEngine.Vector4,UnityEngine.Vector2> <>9__102_0
+    static System::Func_2<UnityEngine::Vector4, UnityEngine::Vector2>* _get_$$9__102_0();
+    // Set static field: static public System.Func`2<UnityEngine.Vector4,UnityEngine.Vector2> <>9__102_0
+    static void _set_$$9__102_0(System::Func_2<UnityEngine::Vector4, UnityEngine::Vector2>* value);
+    // Get static field: static public System.Func`2<UnityEngine.Vector4,UnityEngine.Vector2> <>9__102_1
+    static System::Func_2<UnityEngine::Vector4, UnityEngine::Vector2>* _get_$$9__102_1();
+    // Set static field: static public System.Func`2<UnityEngine.Vector4,UnityEngine.Vector2> <>9__102_1
+    static void _set_$$9__102_1(System::Func_2<UnityEngine::Vector4, UnityEngine::Vector2>* value);
     // Get static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Int32> <>9__110_0
     static System::Func_2<UnityEngine::ProBuilder::Face*, int>* _get_$$9__110_0();
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Int32> <>9__110_0
     static void _set_$$9__110_0(System::Func_2<UnityEngine::ProBuilder::Face*, int>* value);
-    // Get static field: static public System.Func`2<UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.Face> <>9__140_0
-    static System::Func_2<UnityEngine::ProBuilder::Face*, UnityEngine::ProBuilder::Face*>* _get_$$9__140_0();
-    // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.Face> <>9__140_0
-    static void _set_$$9__140_0(System::Func_2<UnityEngine::ProBuilder::Face*, UnityEngine::ProBuilder::Face*>* value);
+    // Get static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Int32> <>9__112_0
+    static System::Func_2<UnityEngine::ProBuilder::Face*, int>* _get_$$9__112_0();
+    // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Int32> <>9__112_0
+    static void _set_$$9__112_0(System::Func_2<UnityEngine::ProBuilder::Face*, int>* value);
+    // Get static field: static public System.Func`2<UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.Face> <>9__147_0
+    static System::Func_2<UnityEngine::ProBuilder::Face*, UnityEngine::ProBuilder::Face*>* _get_$$9__147_0();
+    // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.Face> <>9__147_0
+    static void _set_$$9__147_0(System::Func_2<UnityEngine::ProBuilder::Face*, UnityEngine::ProBuilder::Face*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x103BBAC
+    // Offset: 0x15A9CA8
     static void _cctor();
-    // UnityEngine.Vector2 <SetUVs>b__100_0(UnityEngine.Vector4 x)
-    // Offset: 0x103BC1C
-    UnityEngine::Vector2 $SetUVs$b__100_0(UnityEngine::Vector4 x);
-    // UnityEngine.Vector2 <SetUVs>b__100_1(UnityEngine.Vector4 x)
-    // Offset: 0x103BCAC
-    UnityEngine::Vector2 $SetUVs$b__100_1(UnityEngine::Vector4 x);
-    // System.Int32 <get_indexCount>b__108_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x103BD3C
-    int $get_indexCount$b__108_0(UnityEngine::ProBuilder::Face* x);
-    // System.Int32 <get_triangleCount>b__110_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x103BD60
-    int $get_triangleCount$b__110_0(UnityEngine::ProBuilder::Face* x);
-    // UnityEngine.ProBuilder.Face <CopyFrom>b__140_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x103BD84
-    UnityEngine::ProBuilder::Face* $CopyFrom$b__140_0(UnityEngine::ProBuilder::Face* x);
+    // UnityEngine.Vector2 <SetUVs>b__102_0(UnityEngine.Vector4 x)
+    // Offset: 0x15A9D18
+    UnityEngine::Vector2 $SetUVs$b__102_0(UnityEngine::Vector4 x);
+    // UnityEngine.Vector2 <SetUVs>b__102_1(UnityEngine.Vector4 x)
+    // Offset: 0x15A9DA8
+    UnityEngine::Vector2 $SetUVs$b__102_1(UnityEngine::Vector4 x);
+    // System.Int32 <get_indexCount>b__110_0(UnityEngine.ProBuilder.Face x)
+    // Offset: 0x15A9E38
+    int $get_indexCount$b__110_0(UnityEngine::ProBuilder::Face* x);
+    // System.Int32 <get_triangleCount>b__112_0(UnityEngine.ProBuilder.Face x)
+    // Offset: 0x15A9E5C
+    int $get_triangleCount$b__112_0(UnityEngine::ProBuilder::Face* x);
+    // UnityEngine.ProBuilder.Face <CopyFrom>b__147_0(UnityEngine.ProBuilder.Face x)
+    // Offset: 0x15A9E80
+    UnityEngine::ProBuilder::Face* $CopyFrom$b__147_0(UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0x103BC14
+    // Offset: 0x15A9D10
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ProBuilderMesh::$$c* New_ctor();

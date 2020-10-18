@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRRenderModels::_GetComponentButtonMask : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16C8DB4
+    // Offset: 0x1F4DB5C
     static IVRRenderModels::_GetComponentButtonMask* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt64 Invoke(System.String pchRenderModelName, System.String pchComponentName)
-    // Offset: 0x16C8DC8
+    // Offset: 0x1F4DB70
     uint64_t Invoke(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName);
     // public System.IAsyncResult BeginInvoke(System.String pchRenderModelName, System.String pchComponentName, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16C91D4
+    // Offset: 0x1F4DF7C
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt64 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16C9204
+    // Offset: 0x1F4DFAC
     uint64_t EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRRenderModels/_GetComponentButtonMask
 }

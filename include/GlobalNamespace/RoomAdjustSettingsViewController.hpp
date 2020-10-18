@@ -15,16 +15,13 @@ namespace GlobalNamespace {
   class Vector3SO;
   // Forward declaring type: FloatSO
   class FloatSO;
+  // Forward declaring type: StepValuePicker
+  class StepValuePicker;
 }
 // Forward declaring namespace: UnityEngine::UI
 namespace UnityEngine::UI {
   // Forward declaring type: Button
   class Button;
-}
-// Forward declaring namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: TextMeshProUGUI
-  class TextMeshProUGUI;
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
@@ -37,50 +34,26 @@ namespace GlobalNamespace {
   class RoomAdjustSettingsViewController : public HMUI::ViewController {
     public:
     // private Vector3SO _roomCenter
-    // Offset: 0x68
+    // Offset: 0x70
     GlobalNamespace::Vector3SO* roomCenter;
     // private FloatSO _roomRotation
-    // Offset: 0x70
-    GlobalNamespace::FloatSO* roomRotation;
-    // private UnityEngine.UI.Button _xIncButton
     // Offset: 0x78
-    UnityEngine::UI::Button* xIncButton;
-    // private UnityEngine.UI.Button _xDecButton
+    GlobalNamespace::FloatSO* roomRotation;
+    // private StepValuePicker _xStepValuePicker
     // Offset: 0x80
-    UnityEngine::UI::Button* xDecButton;
-    // private UnityEngine.UI.Button _yIncButton
+    GlobalNamespace::StepValuePicker* xStepValuePicker;
+    // private StepValuePicker _yStepValuePicker
     // Offset: 0x88
-    UnityEngine::UI::Button* yIncButton;
-    // private UnityEngine.UI.Button _yDecButton
+    GlobalNamespace::StepValuePicker* yStepValuePicker;
+    // private StepValuePicker _zStepValuePicker
     // Offset: 0x90
-    UnityEngine::UI::Button* yDecButton;
-    // private UnityEngine.UI.Button _zIncButton
+    GlobalNamespace::StepValuePicker* zStepValuePicker;
+    // private StepValuePicker _rotStepValuePicker
     // Offset: 0x98
-    UnityEngine::UI::Button* zIncButton;
-    // private UnityEngine.UI.Button _zDecButton
-    // Offset: 0xA0
-    UnityEngine::UI::Button* zDecButton;
-    // private UnityEngine.UI.Button _rotIncButton
-    // Offset: 0xA8
-    UnityEngine::UI::Button* rotIncButton;
-    // private UnityEngine.UI.Button _rotDecButton
-    // Offset: 0xB0
-    UnityEngine::UI::Button* rotDecButton;
+    GlobalNamespace::StepValuePicker* rotStepValuePicker;
     // private UnityEngine.UI.Button _resetButton
-    // Offset: 0xB8
+    // Offset: 0xA0
     UnityEngine::UI::Button* resetButton;
-    // private TMPro.TextMeshProUGUI _xText
-    // Offset: 0xC0
-    TMPro::TextMeshProUGUI* xText;
-    // private TMPro.TextMeshProUGUI _yText
-    // Offset: 0xC8
-    TMPro::TextMeshProUGUI* yText;
-    // private TMPro.TextMeshProUGUI _zText
-    // Offset: 0xD0
-    TMPro::TextMeshProUGUI* zText;
-    // private TMPro.TextMeshProUGUI _rotText
-    // Offset: 0xD8
-    TMPro::TextMeshProUGUI* rotText;
     // static field const value: static private System.Single kHorizontalMoveStep
     static constexpr const float kHorizontalMoveStep = 0.1;
     // Get static field: static private System.Single kHorizontalMoveStep
@@ -100,51 +73,51 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kRotationStep
     static void _set_kRotationStep(float value);
     // private System.Void Move(UnityEngine.Vector3 move)
-    // Offset: 0xC2296C
+    // Offset: 0xF7A084
     void Move(UnityEngine::Vector3 move);
     // private System.Void Rotate(System.Single rotation)
-    // Offset: 0xC22A3C
+    // Offset: 0xF7A154
     void Rotate(float rotation);
     // private System.Void ResetRoom()
-    // Offset: 0xC22AB0
+    // Offset: 0xF7A1C8
     void ResetRoom();
     // private System.Void RefreshTexts()
-    // Offset: 0xC227F0
+    // Offset: 0xF79F08
     void RefreshTexts();
-    // private System.Void <DidActivate>b__18_0()
-    // Offset: 0xC22B6C
-    void $DidActivate$b__18_0();
-    // private System.Void <DidActivate>b__18_1()
-    // Offset: 0xC22BC4
-    void $DidActivate$b__18_1();
-    // private System.Void <DidActivate>b__18_2()
-    // Offset: 0xC22C1C
-    void $DidActivate$b__18_2();
-    // private System.Void <DidActivate>b__18_3()
-    // Offset: 0xC22C74
-    void $DidActivate$b__18_3();
-    // private System.Void <DidActivate>b__18_4()
-    // Offset: 0xC22CCC
-    void $DidActivate$b__18_4();
-    // private System.Void <DidActivate>b__18_5()
-    // Offset: 0xC22D24
-    void $DidActivate$b__18_5();
-    // private System.Void <DidActivate>b__18_6()
-    // Offset: 0xC22D7C
-    void $DidActivate$b__18_6();
-    // private System.Void <DidActivate>b__18_7()
-    // Offset: 0xC22D84
-    void $DidActivate$b__18_7();
-    // private System.Void <DidActivate>b__18_8()
-    // Offset: 0xC22D8C
-    void $DidActivate$b__18_8();
-    // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xC22524
+    // private System.Void <DidActivate>b__10_0()
+    // Offset: 0xF7A284
+    void $DidActivate$b__10_0();
+    // private System.Void <DidActivate>b__10_1()
+    // Offset: 0xF7A2DC
+    void $DidActivate$b__10_1();
+    // private System.Void <DidActivate>b__10_2()
+    // Offset: 0xF7A334
+    void $DidActivate$b__10_2();
+    // private System.Void <DidActivate>b__10_3()
+    // Offset: 0xF7A38C
+    void $DidActivate$b__10_3();
+    // private System.Void <DidActivate>b__10_4()
+    // Offset: 0xF7A3E4
+    void $DidActivate$b__10_4();
+    // private System.Void <DidActivate>b__10_5()
+    // Offset: 0xF7A43C
+    void $DidActivate$b__10_5();
+    // private System.Void <DidActivate>b__10_6()
+    // Offset: 0xF7A494
+    void $DidActivate$b__10_6();
+    // private System.Void <DidActivate>b__10_7()
+    // Offset: 0xF7A49C
+    void $DidActivate$b__10_7();
+    // private System.Void <DidActivate>b__10_8()
+    // Offset: 0xF7A4A4
+    void $DidActivate$b__10_8();
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0xF79C84
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xC22B64
+    // Offset: 0xF7A27C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

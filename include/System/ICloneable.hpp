@@ -15,7 +15,7 @@ namespace System {
     public:
     // public System.Object Clone()
     // Offset: 0xFFFFFFFF
-    ::Il2CppObject* Clone();
+    ::Il2CppObject* System_ICloneable_Clone();
   }; // System.ICloneable
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -31,10 +31,10 @@ namespace UnityEngine::UI {
     // Offset: 0x18
     ::Array<UnityEngine::Vector3>* m_CanvasCorners;
     // public UnityEngine.Rect GetCanvasRect(UnityEngine.RectTransform t, UnityEngine.Canvas c)
-    // Offset: 0x1207BD0
+    // Offset: 0x183C6B8
     UnityEngine::Rect GetCanvasRect(UnityEngine::RectTransform* t, UnityEngine::Canvas* c);
     // public System.Void .ctor()
-    // Offset: 0x1207E88
+    // Offset: 0x183C970
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static RectangularVertexClipper* New_ctor();

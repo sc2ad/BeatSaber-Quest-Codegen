@@ -23,15 +23,15 @@ namespace System::Xml {
       return wfWriter;
     }
     // System.Void .ctor(System.Xml.XmlWellFormedWriter wfWriter)
-    // Offset: 0x1945CEC
+    // Offset: 0x21F5F78
     static XmlWellFormedWriter::NamespaceResolverProxy* New_ctor(System::Xml::XmlWellFormedWriter* wfWriter);
     // private System.String System.Xml.IXmlNamespaceResolver.LookupNamespace(System.String prefix)
-    // Offset: 0x1945D20
+    // Offset: 0x21F5FAC
     // Implemented from: System.Xml.IXmlNamespaceResolver
     // Base method: System.String IXmlNamespaceResolver::LookupNamespace(System.String prefix)
     ::Il2CppString* System_Xml_IXmlNamespaceResolver_LookupNamespace(::Il2CppString* prefix);
     // private System.String System.Xml.IXmlNamespaceResolver.LookupPrefix(System.String namespaceName)
-    // Offset: 0x1945D3C
+    // Offset: 0x21F5FC8
     // Implemented from: System.Xml.IXmlNamespaceResolver
     // Base method: System.String IXmlNamespaceResolver::LookupPrefix(System.String namespaceName)
     ::Il2CppString* System_Xml_IXmlNamespaceResolver_LookupPrefix(::Il2CppString* namespaceName);

@@ -18,7 +18,7 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0x11
     uint8_t Replace;
     // public System.Void .ctor(System.Byte source, System.Byte replace)
-    // Offset: 0x10B0BDC
+    // Offset: 0x17D34A4
     static Level2Map* New_ctor(uint8_t source, uint8_t replace);
   }; // Mono.Globalization.Unicode.Level2Map
 }

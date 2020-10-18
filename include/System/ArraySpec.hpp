@@ -32,20 +32,20 @@ namespace System {
     // Offset: 0x14
     bool bound;
     // System.Void .ctor(System.Int32 dimensions, System.Boolean bound)
-    // Offset: 0x1330438
+    // Offset: 0x15C93E0
     static ArraySpec* New_ctor(int dimensions, bool bound);
     // public System.Type Resolve(System.Type type)
-    // Offset: 0x1330478
+    // Offset: 0x15C9420
     // Implemented from: System.ModifierSpec
     // Base method: System.Type ModifierSpec::Resolve(System.Type type)
     System::Type* Resolve(System::Type* type);
     // public System.Text.StringBuilder Append(System.Text.StringBuilder sb)
-    // Offset: 0x13304EC
+    // Offset: 0x15C9494
     // Implemented from: System.ModifierSpec
     // Base method: System.Text.StringBuilder ModifierSpec::Append(System.Text.StringBuilder sb)
     System::Text::StringBuilder* Append(System::Text::StringBuilder* sb);
     // public override System.String ToString()
-    // Offset: 0x13305A0
+    // Offset: 0x15C9548
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

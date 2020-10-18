@@ -40,13 +40,13 @@ namespace RootMotion::FinalIK {
     // Offset: 0x2C
     UnityEngine::Quaternion current;
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, UnityEngine.Quaternion offset, System.Single crossFader)
-    // Offset: 0x137FFF4
+    // Offset: 0x1A9F744
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, UnityEngine::Quaternion offset, float crossFader);
     // public System.Void CrossFadeStart()
-    // Offset: 0x137FD7C
+    // Offset: 0x1A9F4CC
     void CrossFadeStart();
     // public System.Void .ctor()
-    // Offset: 0x1380164
+    // Offset: 0x1A9F8B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HitReaction::HitPointBone::BoneLink* New_ctor();

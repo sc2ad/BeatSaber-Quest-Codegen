@@ -21,7 +21,7 @@ namespace System::Reflection {
       return m_defaultAlias;
     }
     // public System.Void .ctor(System.String defaultAlias)
-    // Offset: 0x13689A4
+    // Offset: 0x1AB8D7C
     static AssemblyDefaultAliasAttribute* New_ctor(::Il2CppString* defaultAlias);
   }; // System.Reflection.AssemblyDefaultAliasAttribute
 }

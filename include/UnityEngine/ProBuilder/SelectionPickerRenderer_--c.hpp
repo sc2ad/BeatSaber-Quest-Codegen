@@ -36,18 +36,18 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::SelectionPickerRenderer::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.ProBuilder.SelectionPickerRenderer/<>c <>9
     static void _set_$$9(UnityEngine::ProBuilder::SelectionPickerRenderer::$$c* value);
-    // Get static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__20_0
-    static System::Func_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::IEnumerable_1<int>*>* _get_$$9__20_0();
-    // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__20_0
-    static void _set_$$9__20_0(System::Func_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::IEnumerable_1<int>*>* value);
+    // Get static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__24_0
+    static System::Func_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::IEnumerable_1<int>*>* _get_$$9__24_0();
+    // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__24_0
+    static void _set_$$9__24_0(System::Func_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::IEnumerable_1<int>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1046248
+    // Offset: 0x15B3DB0
     static void _cctor();
-    // System.Collections.Generic.IEnumerable`1<System.Int32> <GenerateFacePickingObjects>b__20_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x10462B8
-    System::Collections::Generic::IEnumerable_1<int>* $GenerateFacePickingObjects$b__20_0(UnityEngine::ProBuilder::Face* x);
+    // System.Collections.Generic.IEnumerable`1<System.Int32> <GenerateFacePickingObjects>b__24_0(UnityEngine.ProBuilder.Face x)
+    // Offset: 0x15B3E20
+    System::Collections::Generic::IEnumerable_1<int>* $GenerateFacePickingObjects$b__24_0(UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0x10462B0
+    // Offset: 0x15B3E18
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SelectionPickerRenderer::$$c* New_ctor();

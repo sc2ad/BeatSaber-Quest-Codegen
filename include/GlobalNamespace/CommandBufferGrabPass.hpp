@@ -49,25 +49,25 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CommandBufferOwners> _cameras
     static void _set__cameras(System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* value);
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x1910928
+    // Offset: 0x21A0548
     static void NoDomainReloadInit();
     // protected override UnityEngine.Rendering.CommandBuffer CreateCommandBuffer(UnityEngine.Camera camera)
-    // Offset: 0x19109B8
+    // Offset: 0x21A05D8
     // Implemented from: CommandBufferGOCore
     // Base method: UnityEngine.Rendering.CommandBuffer CommandBufferGOCore::CreateCommandBuffer(UnityEngine.Camera camera)
     UnityEngine::Rendering::CommandBuffer* CreateCommandBuffer(UnityEngine::Camera* camera);
     // protected override System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CommandBufferOwners> CamerasDict()
-    // Offset: 0x1910B94
+    // Offset: 0x21A07B4
     // Implemented from: CommandBufferGOCore
     // Base method: System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CommandBufferOwners> CommandBufferGOCore::CamerasDict()
     System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* CamerasDict();
     // protected override UnityEngine.Rendering.CameraEvent CommandBufferCameraEvent()
-    // Offset: 0x1910BFC
+    // Offset: 0x21A081C
     // Implemented from: CommandBufferGOCore
     // Base method: UnityEngine.Rendering.CameraEvent CommandBufferGOCore::CommandBufferCameraEvent()
     UnityEngine::Rendering::CameraEvent CommandBufferCameraEvent();
     // public System.Void .ctor()
-    // Offset: 0x1910C04
+    // Offset: 0x21A0824
     // Implemented from: CommandBufferGOCore
     // Base method: System.Void CommandBufferGOCore::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static CommandBufferGrabPass* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1910C6C
+    // Offset: 0x21A088C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

@@ -12,10 +12,10 @@ namespace System {
   class UncNameHelper : public ::Il2CppObject {
     public:
     // static System.String ParseCanonicalName(System.String str, System.Int32 start, System.Int32 end, ref System.Boolean loopback)
-    // Offset: 0x15044E0
+    // Offset: 0x180C644
     static ::Il2CppString* ParseCanonicalName(::Il2CppString* str, int start, int end, bool& loopback);
     // static System.Boolean IsValid(System.Char* name, System.UInt16 start, ref System.Int32 returnedEnd, System.Boolean notImplicitFile)
-    // Offset: 0x15044E8
+    // Offset: 0x180C64C
     static bool IsValid(::Il2CppChar* name, uint16_t start, int& returnedEnd, bool notImplicitFile);
   }; // System.UncNameHelper
 }

@@ -20,28 +20,28 @@ namespace System {
   class IPv6AddressHelper : public ::Il2CppObject {
     public:
     // static System.String ParseCanonicalName(System.String str, System.Int32 start, ref System.Boolean isLoopback, ref System.String scopeId)
-    // Offset: 0xF6ACDC
+    // Offset: 0x1736E30
     static ::Il2CppString* ParseCanonicalName(::Il2CppString* str, int start, bool& isLoopback, ::Il2CppString*& scopeId);
     // static System.String CreateCanonicalName(System.UInt16* numbers)
-    // Offset: 0xF6B294
+    // Offset: 0x17373E8
     static ::Il2CppString* CreateCanonicalName(uint16_t* numbers);
     // static private System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> FindCompressionRange(System.UInt16* numbers)
-    // Offset: 0xF6B930
+    // Offset: 0x1737A84
     static System::Collections::Generic::KeyValuePair_2<int, int> FindCompressionRange(uint16_t* numbers);
     // static private System.Boolean ShouldHaveIpv4Embedded(System.UInt16* numbers)
-    // Offset: 0xF6BA08
+    // Offset: 0x1737B5C
     static bool ShouldHaveIpv4Embedded(uint16_t* numbers);
     // static private System.Boolean InternalIsValid(System.Char* name, System.Int32 start, ref System.Int32 end, System.Boolean validateStrictAddress)
-    // Offset: 0xF6BA98
+    // Offset: 0x1737BEC
     static bool InternalIsValid(::Il2CppChar* name, int start, int& end, bool validateStrictAddress);
     // static System.Boolean IsValid(System.Char* name, System.Int32 start, ref System.Int32 end)
-    // Offset: 0xF6BD6C
+    // Offset: 0x1737EC0
     static bool IsValid(::Il2CppChar* name, int start, int& end);
     // static System.Boolean IsValidStrict(System.Char* name, System.Int32 start, ref System.Int32 end)
-    // Offset: 0xF6BD74
+    // Offset: 0x1737EC8
     static bool IsValidStrict(::Il2CppChar* name, int start, int& end);
     // static System.Boolean Parse(System.String address, System.UInt16* numbers, System.Int32 start, ref System.String scopeId)
-    // Offset: 0xF6ADA0
+    // Offset: 0x1736EF4
     static bool Parse(::Il2CppString* address, uint16_t* numbers, int start, ::Il2CppString*& scopeId);
   }; // System.IPv6AddressHelper
 }

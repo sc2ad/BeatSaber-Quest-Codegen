@@ -35,34 +35,34 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SkeletonPoseData
     constexpr SkeletonPoseData(GlobalNamespace::OVRPlugin::Posef RootPose_ = {}, float RootScale_ = {}, ::Array<GlobalNamespace::OVRPlugin::Quatf>* BoneRotations_ = {}, bool IsDataValid_ = {}, bool IsDataHighConfidence_ = {}) noexcept : RootPose{RootPose_}, RootScale{RootScale_}, BoneRotations{BoneRotations_}, IsDataValid{IsDataValid_}, IsDataHighConfidence{IsDataHighConfidence_} {}
     // public OVRPlugin/Posef get_RootPose()
-    // Offset: 0xA3BF64
+    // Offset: 0xDB5790
     GlobalNamespace::OVRPlugin::Posef get_RootPose();
     // public System.Void set_RootPose(OVRPlugin/Posef value)
-    // Offset: 0xA3BF78
+    // Offset: 0xDB57A4
     void set_RootPose(GlobalNamespace::OVRPlugin::Posef value);
     // public System.Single get_RootScale()
-    // Offset: 0xA3BF94
+    // Offset: 0xDB57C0
     float get_RootScale();
     // public System.Void set_RootScale(System.Single value)
-    // Offset: 0xA3BF9C
+    // Offset: 0xDB57C8
     void set_RootScale(float value);
     // public OVRPlugin/Quatf[] get_BoneRotations()
-    // Offset: 0xA3BFA4
+    // Offset: 0xDB57D0
     ::Array<GlobalNamespace::OVRPlugin::Quatf>* get_BoneRotations();
     // public System.Void set_BoneRotations(OVRPlugin/Quatf[] value)
-    // Offset: 0xA3BFAC
+    // Offset: 0xDB57D8
     void set_BoneRotations(::Array<GlobalNamespace::OVRPlugin::Quatf>* value);
     // public System.Boolean get_IsDataValid()
-    // Offset: 0xA3BFB4
+    // Offset: 0xDB57E0
     bool get_IsDataValid();
     // public System.Void set_IsDataValid(System.Boolean value)
-    // Offset: 0xA3BFBC
+    // Offset: 0xDB57E8
     void set_IsDataValid(bool value);
     // public System.Boolean get_IsDataHighConfidence()
-    // Offset: 0xA3BFC8
+    // Offset: 0xDB57F4
     bool get_IsDataHighConfidence();
     // public System.Void set_IsDataHighConfidence(System.Boolean value)
-    // Offset: 0xA3BFD0
+    // Offset: 0xDB57FC
     void set_IsDataHighConfidence(bool value);
   }; // OVRSkeleton/SkeletonPoseData
 }

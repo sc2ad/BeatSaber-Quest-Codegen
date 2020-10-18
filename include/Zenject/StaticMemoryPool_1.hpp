@@ -46,7 +46,7 @@ namespace Zenject {
     // public TValue Spawn()
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IMemoryPool`1
-    // Base method: TValue IMemoryPool`1::Spawn()
+    // Base method: TValue IMemoryPool_1::Spawn()
     TValue Spawn() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<TValue>(this, "Spawn"));
     }

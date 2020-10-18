@@ -65,64 +65,64 @@ namespace System::Runtime::Serialization {
     // Set static field: static private System.Reflection.Binder s_binder
     static void _set_s_binder(System::Reflection::Binder* value);
     // static private System.Void .cctor()
-    // Offset: 0xE22BA8
+    // Offset: 0x1507AD0
     static void _cctor();
     // static private System.Reflection.MemberInfo[] GetSerializableMembers(System.RuntimeType type)
-    // Offset: 0xE22D20
+    // Offset: 0x1507C48
     static ::Array<System::Reflection::MemberInfo*>* GetSerializableMembers(System::RuntimeType* type);
     // static private System.Boolean CheckSerializable(System.RuntimeType type)
-    // Offset: 0xE22ED0
+    // Offset: 0x1507DF8
     static bool CheckSerializable(System::RuntimeType* type);
     // static private System.Reflection.MemberInfo[] InternalGetSerializableMembers(System.RuntimeType type)
-    // Offset: 0xE22EF0
+    // Offset: 0x1507E18
     static ::Array<System::Reflection::MemberInfo*>* InternalGetSerializableMembers(System::RuntimeType* type);
     // static private System.Boolean GetParentTypes(System.RuntimeType parentType, out System.RuntimeType[] parentTypes, out System.Int32 parentTypeCount)
-    // Offset: 0xE23570
+    // Offset: 0x1508498
     static bool GetParentTypes(System::RuntimeType* parentType, ::Array<System::RuntimeType*>*& parentTypes, int& parentTypeCount);
     // static public System.Reflection.MemberInfo[] GetSerializableMembers(System.Type type, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xE238D0
+    // Offset: 0x15087F8
     static ::Array<System::Reflection::MemberInfo*>* GetSerializableMembers(System::Type* type, System::Runtime::Serialization::StreamingContext context);
     // static public System.Object GetUninitializedObject(System.Type type)
-    // Offset: 0xE23B3C
+    // Offset: 0x1508A64
     static ::Il2CppObject* GetUninitializedObject(System::Type* type);
     // static private System.Object nativeGetUninitializedObject(System.RuntimeType type)
-    // Offset: 0xE23CF8
+    // Offset: 0x1508C20
     static ::Il2CppObject* nativeGetUninitializedObject(System::RuntimeType* type);
     // static private System.Boolean GetEnableUnsafeTypeForwarders()
-    // Offset: 0xE23D00
+    // Offset: 0x1508C28
     static bool GetEnableUnsafeTypeForwarders();
     // static System.Boolean UnsafeTypeForwardersIsEnabled()
-    // Offset: 0xE23D08
+    // Offset: 0x1508C30
     static bool UnsafeTypeForwardersIsEnabled();
     // static System.Void SerializationSetValue(System.Reflection.MemberInfo fi, System.Object target, System.Object value)
-    // Offset: 0xE23DD0
+    // Offset: 0x1508CF8
     static void SerializationSetValue(System::Reflection::MemberInfo* fi, ::Il2CppObject* target, ::Il2CppObject* value);
     // static public System.Object PopulateObjectMembers(System.Object obj, System.Reflection.MemberInfo[] members, System.Object[] data)
-    // Offset: 0xE23FA8
+    // Offset: 0x1508ED0
     static ::Il2CppObject* PopulateObjectMembers(::Il2CppObject* obj, ::Array<System::Reflection::MemberInfo*>* members, ::Array<::Il2CppObject*>* data);
     // static public System.Object[] GetObjectData(System.Object obj, System.Reflection.MemberInfo[] members)
-    // Offset: 0xE242A4
+    // Offset: 0x15091CC
     static ::Array<::Il2CppObject*>* GetObjectData(::Il2CppObject* obj, ::Array<System::Reflection::MemberInfo*>* members);
     // static public System.Type GetTypeFromAssembly(System.Reflection.Assembly assem, System.String name)
-    // Offset: 0xE245EC
+    // Offset: 0x1509514
     static System::Type* GetTypeFromAssembly(System::Reflection::Assembly* assem, ::Il2CppString* name);
     // static System.Reflection.Assembly LoadAssemblyFromString(System.String assemblyName)
-    // Offset: 0xE246AC
+    // Offset: 0x15095D4
     static System::Reflection::Assembly* LoadAssemblyFromString(::Il2CppString* assemblyName);
     // static System.Reflection.Assembly LoadAssemblyFromStringNoThrow(System.String assemblyName)
-    // Offset: 0xE246B4
+    // Offset: 0x15095DC
     static System::Reflection::Assembly* LoadAssemblyFromStringNoThrow(::Il2CppString* assemblyName);
     // static System.String GetClrAssemblyName(System.Type type, out System.Boolean hasTypeForwardedFrom)
-    // Offset: 0xE24798
+    // Offset: 0x15096C0
     static ::Il2CppString* GetClrAssemblyName(System::Type* type, bool& hasTypeForwardedFrom);
     // static System.String GetClrTypeFullName(System.Type type)
-    // Offset: 0xE248FC
+    // Offset: 0x1509824
     static ::Il2CppString* GetClrTypeFullName(System::Type* type);
     // static private System.String GetClrTypeFullNameForArray(System.Type type)
-    // Offset: 0xE249A0
+    // Offset: 0x15098C8
     static ::Il2CppString* GetClrTypeFullNameForArray(System::Type* type);
     // static private System.String GetClrTypeFullNameForNonArrayTypes(System.Type type)
-    // Offset: 0xE24B98
+    // Offset: 0x1509AC0
     static ::Il2CppString* GetClrTypeFullNameForNonArrayTypes(System::Type* type);
   }; // System.Runtime.Serialization.FormatterServices
 }

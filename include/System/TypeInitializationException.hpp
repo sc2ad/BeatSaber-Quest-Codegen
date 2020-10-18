@@ -34,29 +34,29 @@ namespace System {
       return typeName;
     }
     // public System.String get_TypeName()
-    // Offset: 0x179A1BC
+    // Offset: 0x1960ED0
     ::Il2CppString* get_TypeName();
     // private System.Void .ctor()
-    // Offset: 0x1799FA4
+    // Offset: 0x1960CB8
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static TypeInitializationException* New_ctor();
     // public System.Void .ctor(System.String fullTypeName, System.Exception innerException)
-    // Offset: 0x179A018
+    // Offset: 0x1960D2C
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String fullTypeName, System.Exception innerException)
     // Base method: System.Void Exception::.ctor(System.String fullTypeName, System.Exception innerException)
     static TypeInitializationException* New_ctor(::Il2CppString* fullTypeName, System::Exception* innerException);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x179A11C
+    // Offset: 0x1960E30
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static TypeInitializationException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x179A218
+    // Offset: 0x1960F2C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);

@@ -30,21 +30,21 @@ namespace Oculus::Platform {
       return Handle;
     }
     // public System.Void SetBitrateForNewConnections(Oculus.Platform.VoipBitrate value)
-    // Offset: 0x196D1B8
+    // Offset: 0x221ADA0
     void SetBitrateForNewConnections(Oculus::Platform::VoipBitrate value);
     // public System.Void SetCreateNewConnectionUseDtx(Oculus.Platform.VoipDtxState value)
-    // Offset: 0x196D234
+    // Offset: 0x221AE1C
     void SetCreateNewConnectionUseDtx(Oculus::Platform::VoipDtxState value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.VoipOptions options)
-    // Offset: 0x196C0E0
+    // Offset: 0x2219CC8
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x196D140
+    // Offset: 0x221AD28
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static VoipOptions* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x196D2B0
+    // Offset: 0x221AE98
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

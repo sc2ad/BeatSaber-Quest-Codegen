@@ -114,142 +114,145 @@ namespace System::Text {
     // Set static field: static private System.Object s_InternalSyncObject
     static void _set_s_InternalSyncObject(::Il2CppObject* value);
     // protected System.Void .ctor(System.Int32 codePage)
-    // Offset: 0x12EDAD0
+    // Offset: 0x1881DB0
     static Encoding* New_ctor(int codePage);
     // System.Void SetDefaultFallbacks()
-    // Offset: 0x12F52E4
+    // Offset: 0x18895C4
     void SetDefaultFallbacks();
     // System.Void OnDeserializing()
-    // Offset: 0x12F543C
+    // Offset: 0x188971C
     void OnDeserializing();
     // System.Void OnDeserialized()
-    // Offset: 0x12F547C
+    // Offset: 0x188975C
     void OnDeserialized();
     // private System.Void OnDeserializing(System.Runtime.Serialization.StreamingContext ctx)
-    // Offset: 0x12F54CC
+    // Offset: 0x18897AC
     void OnDeserializing(System::Runtime::Serialization::StreamingContext ctx);
     // private System.Void OnDeserialized(System.Runtime.Serialization.StreamingContext ctx)
-    // Offset: 0x12F550C
+    // Offset: 0x18897EC
     void OnDeserialized(System::Runtime::Serialization::StreamingContext ctx);
     // private System.Void OnSerializing(System.Runtime.Serialization.StreamingContext ctx)
-    // Offset: 0x12F5510
+    // Offset: 0x18897F0
     void OnSerializing(System::Runtime::Serialization::StreamingContext ctx);
     // System.Void DeserializeEncoding(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x12F551C
+    // Offset: 0x18897FC
     void DeserializeEncoding(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // System.Void SerializeEncoding(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x12F5878
+    // Offset: 0x1889B58
     void SerializeEncoding(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // static private System.Object get_InternalSyncObject()
-    // Offset: 0x12F59C4
+    // Offset: 0x1889CA4
     static ::Il2CppObject* get_InternalSyncObject();
     // static public System.Text.Encoding GetEncoding(System.Int32 codepage)
-    // Offset: 0x12F5A58
+    // Offset: 0x1889D38
     static System::Text::Encoding* GetEncoding(int codepage);
+    // static public System.Text.Encoding GetEncoding(System.Int32 codepage, System.Text.EncoderFallback encoderFallback, System.Text.DecoderFallback decoderFallback)
+    // Offset: 0x188B214
+    static System::Text::Encoding* GetEncoding(int codepage, System::Text::EncoderFallback* encoderFallback, System::Text::DecoderFallback* decoderFallback);
     // static public System.Text.Encoding GetEncoding(System.String name)
-    // Offset: 0x12F6F34
+    // Offset: 0x188B614
     static System::Text::Encoding* GetEncoding(::Il2CppString* name);
     // public System.Byte[] GetPreamble()
-    // Offset: 0x12F70DC
+    // Offset: 0x188B7BC
     ::Array<uint8_t>* GetPreamble();
     // private System.Void GetDataItem()
-    // Offset: 0x12F7144
+    // Offset: 0x188B824
     void GetDataItem();
     // public System.String get_EncodingName()
-    // Offset: 0x12F7290
+    // Offset: 0x188B970
     ::Il2CppString* get_EncodingName();
     // public System.String get_WebName()
-    // Offset: 0x12F729C
+    // Offset: 0x188B97C
     ::Il2CppString* get_WebName();
     // public System.Text.EncoderFallback get_EncoderFallback()
-    // Offset: 0x12F72D8
+    // Offset: 0x188B9B8
     System::Text::EncoderFallback* get_EncoderFallback();
     // public System.Void set_EncoderFallback(System.Text.EncoderFallback value)
-    // Offset: 0x12F72E0
+    // Offset: 0x188B434
     void set_EncoderFallback(System::Text::EncoderFallback* value);
     // public System.Text.DecoderFallback get_DecoderFallback()
-    // Offset: 0x12F73D0
+    // Offset: 0x188B9C0
     System::Text::DecoderFallback* get_DecoderFallback();
     // public System.Void set_DecoderFallback(System.Text.DecoderFallback value)
-    // Offset: 0x12F73D8
+    // Offset: 0x188B524
     void set_DecoderFallback(System::Text::DecoderFallback* value);
     // public System.Boolean get_IsReadOnly()
-    // Offset: 0x12F7558
+    // Offset: 0x188BA58
     bool get_IsReadOnly();
     // static public System.Text.Encoding get_ASCII()
-    // Offset: 0x12EDA28
+    // Offset: 0x1881D08
     static System::Text::Encoding* get_ASCII();
     // static private System.Text.Encoding get_Latin1()
-    // Offset: 0x12F6820
+    // Offset: 0x188AB00
     static System::Text::Encoding* get_Latin1();
     // public System.Int32 GetByteCount(System.String s)
-    // Offset: 0x12F7568
+    // Offset: 0x188BA68
     int GetByteCount(::Il2CppString* s);
     // public System.Int32 GetByteCount(System.Char[] chars, System.Int32 index, System.Int32 count)
     // Offset: 0xFFFFFFFF
     int GetByteCount(::Array<::Il2CppChar>* chars, int index, int count);
     // public System.Int32 GetByteCount(System.Char* chars, System.Int32 count)
-    // Offset: 0x12F7620
+    // Offset: 0x188BB20
     int GetByteCount(::Il2CppChar* chars, int count);
     // System.Int32 GetByteCount(System.Char* chars, System.Int32 count, System.Text.EncoderNLS encoder)
-    // Offset: 0x12F7790
+    // Offset: 0x188BC90
     int GetByteCount(::Il2CppChar* chars, int count, System::Text::EncoderNLS* encoder);
     // public System.Byte[] GetBytes(System.Char[] chars, System.Int32 index, System.Int32 count)
-    // Offset: 0x12F779C
+    // Offset: 0x188BC9C
     ::Array<uint8_t>* GetBytes(::Array<::Il2CppChar>* chars, int index, int count);
     // public System.Int32 GetBytes(System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex)
     // Offset: 0xFFFFFFFF
     int GetBytes(::Array<::Il2CppChar>* chars, int charIndex, int charCount, ::Array<uint8_t>* bytes, int byteIndex);
     // public System.Byte[] GetBytes(System.String s)
-    // Offset: 0x12F785C
+    // Offset: 0x188BD5C
     ::Array<uint8_t>* GetBytes(::Il2CppString* s);
     // public System.Int32 GetBytes(System.String s, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex)
-    // Offset: 0x12F7964
+    // Offset: 0x188BE64
     int GetBytes(::Il2CppString* s, int charIndex, int charCount, ::Array<uint8_t>* bytes, int byteIndex);
     // System.Int32 GetBytes(System.Char* chars, System.Int32 charCount, System.Byte* bytes, System.Int32 byteCount, System.Text.EncoderNLS encoder)
-    // Offset: 0x12F7A40
+    // Offset: 0x188BF40
     int GetBytes(::Il2CppChar* chars, int charCount, uint8_t* bytes, int byteCount, System::Text::EncoderNLS* encoder);
     // public System.Int32 GetBytes(System.Char* chars, System.Int32 charCount, System.Byte* bytes, System.Int32 byteCount)
-    // Offset: 0x12F7A50
+    // Offset: 0x188BF50
     int GetBytes(::Il2CppChar* chars, int charCount, uint8_t* bytes, int byteCount);
     // public System.Int32 GetCharCount(System.Byte[] bytes, System.Int32 index, System.Int32 count)
     // Offset: 0xFFFFFFFF
     int GetCharCount(::Array<uint8_t>* bytes, int index, int count);
     // public System.Int32 GetCharCount(System.Byte* bytes, System.Int32 count)
-    // Offset: 0x12F7C70
+    // Offset: 0x188C170
     int GetCharCount(uint8_t* bytes, int count);
     // System.Int32 GetCharCount(System.Byte* bytes, System.Int32 count, System.Text.DecoderNLS decoder)
-    // Offset: 0x12F7DE4
+    // Offset: 0x188C2E4
     int GetCharCount(uint8_t* bytes, int count, System::Text::DecoderNLS* decoder);
     // public System.Char[] GetChars(System.Byte[] bytes, System.Int32 index, System.Int32 count)
-    // Offset: 0x12F7DF4
+    // Offset: 0x188C2F4
     ::Array<::Il2CppChar>* GetChars(::Array<uint8_t>* bytes, int index, int count);
     // public System.Int32 GetChars(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex)
     // Offset: 0xFFFFFFFF
     int GetChars(::Array<uint8_t>* bytes, int byteIndex, int byteCount, ::Array<::Il2CppChar>* chars, int charIndex);
     // public System.Int32 GetChars(System.Byte* bytes, System.Int32 byteCount, System.Char* chars, System.Int32 charCount)
-    // Offset: 0x12F7EB8
+    // Offset: 0x188C3B8
     int GetChars(uint8_t* bytes, int byteCount, ::Il2CppChar* chars, int charCount);
     // System.Int32 GetChars(System.Byte* bytes, System.Int32 byteCount, System.Char* chars, System.Int32 charCount, System.Text.DecoderNLS decoder)
-    // Offset: 0x12F80D8
+    // Offset: 0x188C5D8
     int GetChars(uint8_t* bytes, int byteCount, ::Il2CppChar* chars, int charCount, System::Text::DecoderNLS* decoder);
     // public System.Int32 get_CodePage()
-    // Offset: 0x12F80E8
+    // Offset: 0x188C5E8
     int get_CodePage();
     // public System.Text.Decoder GetDecoder()
-    // Offset: 0x12F80F0
+    // Offset: 0x188C5F0
     System::Text::Decoder* GetDecoder();
     // static private System.Text.Encoding CreateDefaultEncoding()
-    // Offset: 0x12F81A8
+    // Offset: 0x188C6A8
     static System::Text::Encoding* CreateDefaultEncoding();
     // System.Void setReadOnly(System.Boolean value)
-    // Offset: 0x12F83B4
+    // Offset: 0x188C8B4
     void setReadOnly(bool value);
     // static public System.Text.Encoding get_Default()
-    // Offset: 0x12F6458
+    // Offset: 0x188A738
     static System::Text::Encoding* get_Default();
     // public System.Text.Encoder GetEncoder()
-    // Offset: 0x12F83C0
+    // Offset: 0x188C8C0
     System::Text::Encoder* GetEncoder();
     // public System.Int32 GetMaxByteCount(System.Int32 charCount)
     // Offset: 0xFFFFFFFF
@@ -258,61 +261,64 @@ namespace System::Text {
     // Offset: 0xFFFFFFFF
     int GetMaxCharCount(int byteCount);
     // public System.String GetString(System.Byte[] bytes)
-    // Offset: 0x12F8478
+    // Offset: 0x188C978
     ::Il2CppString* GetString(::Array<uint8_t>* bytes);
     // public System.String GetString(System.Byte[] bytes, System.Int32 index, System.Int32 count)
-    // Offset: 0x12F8540
+    // Offset: 0x188CA40
     ::Il2CppString* GetString(::Array<uint8_t>* bytes, int index, int count);
     // static public System.Text.Encoding get_Unicode()
-    // Offset: 0x12F64E4
+    // Offset: 0x188A7C4
     static System::Text::Encoding* get_Unicode();
     // static public System.Text.Encoding get_BigEndianUnicode()
-    // Offset: 0x12F658C
+    // Offset: 0x188A86C
     static System::Text::Encoding* get_BigEndianUnicode();
     // static public System.Text.Encoding get_UTF7()
-    // Offset: 0x12F6634
+    // Offset: 0x188A914
     static System::Text::Encoding* get_UTF7();
     // static public System.Text.Encoding get_UTF8()
-    // Offset: 0x12F677C
+    // Offset: 0x188AA5C
     static System::Text::Encoding* get_UTF8();
     // static public System.Text.Encoding get_UTF32()
-    // Offset: 0x12F66D4
+    // Offset: 0x188A9B4
     static System::Text::Encoding* get_UTF32();
     // System.Char[] GetBestFitUnicodeToBytesData()
-    // Offset: 0x12F86AC
+    // Offset: 0x188CBAC
     ::Array<::Il2CppChar>* GetBestFitUnicodeToBytesData();
     // System.Char[] GetBestFitBytesToUnicodeData()
-    // Offset: 0x12F8714
+    // Offset: 0x188CC14
     ::Array<::Il2CppChar>* GetBestFitBytesToUnicodeData();
     // System.Void ThrowBytesOverflow()
-    // Offset: 0x12F877C
+    // Offset: 0x188CC7C
     void ThrowBytesOverflow();
     // System.Void ThrowBytesOverflow(System.Text.EncoderNLS encoder, System.Boolean nothingEncoded)
-    // Offset: 0x12EFA28
+    // Offset: 0x1883D08
     void ThrowBytesOverflow(System::Text::EncoderNLS* encoder, bool nothingEncoded);
     // System.Void ThrowCharsOverflow()
-    // Offset: 0x12F88A4
+    // Offset: 0x188CDA4
     void ThrowCharsOverflow();
     // System.Void ThrowCharsOverflow(System.Text.DecoderNLS decoder, System.Boolean nothingDecoded)
-    // Offset: 0x12EFF14
+    // Offset: 0x18841F4
     void ThrowCharsOverflow(System::Text::DecoderNLS* decoder, bool nothingDecoded);
     // protected System.Void .ctor()
-    // Offset: 0x12F52DC
+    // Offset: 0x18895BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Encoding* New_ctor();
     // public System.Object Clone()
-    // Offset: 0x12F74C8
+    // Offset: 0x188B9C8
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();
+    // Creating proxy method: System_ICloneable_Clone
+    // Maps to method: Clone
+    ::Il2CppObject* System_ICloneable_Clone();
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0x12F856C
+    // Offset: 0x188CA6C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x12F8650
+    // Offset: 0x188CB50
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

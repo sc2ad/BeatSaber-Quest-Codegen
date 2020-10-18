@@ -89,112 +89,118 @@ namespace System::IO {
     // Set static field: static public readonly System.IO.StreamReader Null
     static void _set_Null(System::IO::StreamReader* value);
     // static System.Int32 get_DefaultBufferSize()
-    // Offset: 0x100B578
+    // Offset: 0x1590C24
     static int get_DefaultBufferSize();
     // private System.Void CheckAsyncTaskInProgress()
-    // Offset: 0x100B580
+    // Offset: 0x1590C2C
     void CheckAsyncTaskInProgress();
     // public System.Void .ctor(System.IO.Stream stream)
-    // Offset: 0x100B698
+    // Offset: 0x1590D44
     static StreamReader* New_ctor(System::IO::Stream* stream);
     // public System.Void .ctor(System.IO.Stream stream, System.Boolean detectEncodingFromByteOrderMarks)
-    // Offset: 0x100B6A0
+    // Offset: 0x1590D4C
     static StreamReader* New_ctor(System::IO::Stream* stream, bool detectEncodingFromByteOrderMarks);
     // public System.Void .ctor(System.IO.Stream stream, System.Text.Encoding encoding)
-    // Offset: 0x100B8F0
+    // Offset: 0x1590F9C
     static StreamReader* New_ctor(System::IO::Stream* stream, System::Text::Encoding* encoding);
     // public System.Void .ctor(System.IO.Stream stream, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean leaveOpen)
-    // Offset: 0x100B738
+    // Offset: 0x1590DE4
     static StreamReader* New_ctor(System::IO::Stream* stream, System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks, int bufferSize, bool leaveOpen);
     // public System.Void .ctor(System.String path)
-    // Offset: 0x100BAF8
+    // Offset: 0x15911A4
     static StreamReader* New_ctor(::Il2CppString* path);
     // public System.Void .ctor(System.String path, System.Boolean detectEncodingFromByteOrderMarks)
-    // Offset: 0x100BB00
+    // Offset: 0x15911AC
     static StreamReader* New_ctor(::Il2CppString* path, bool detectEncodingFromByteOrderMarks);
     // public System.Void .ctor(System.String path, System.Text.Encoding encoding)
-    // Offset: 0x100BBA4
+    // Offset: 0x1591250
     static StreamReader* New_ctor(::Il2CppString* path, System::Text::Encoding* encoding);
     // public System.Void .ctor(System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize)
-    // Offset: 0x100BB98
+    // Offset: 0x1591244
     static StreamReader* New_ctor(::Il2CppString* path, System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks, int bufferSize);
     // System.Void .ctor(System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost)
-    // Offset: 0x100BC2C
+    // Offset: 0x15912D8
     static StreamReader* New_ctor(::Il2CppString* path, System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks, int bufferSize, bool checkHost);
     // private System.Void Init(System.IO.Stream stream, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean leaveOpen)
-    // Offset: 0x100B978
+    // Offset: 0x1591024
     void Init(System::IO::Stream* stream, System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks, int bufferSize, bool leaveOpen);
     // System.Void Init(System.IO.Stream stream)
-    // Offset: 0x100BE58
+    // Offset: 0x1591504
     void Init(System::IO::Stream* stream);
+    // public System.Text.Encoding get_CurrentEncoding()
+    // Offset: 0x159164C
+    System::Text::Encoding* get_CurrentEncoding();
+    // public System.IO.Stream get_BaseStream()
+    // Offset: 0x1591654
+    System::IO::Stream* get_BaseStream();
     // System.Boolean get_LeaveOpen()
-    // Offset: 0x100BF8C
+    // Offset: 0x1591638
     bool get_LeaveOpen();
     // public System.Boolean get_EndOfStream()
-    // Offset: 0x100BFA0
+    // Offset: 0x159165C
     bool get_EndOfStream();
     // System.Boolean DataAvailable()
-    // Offset: 0x100C110
+    // Offset: 0x15917CC
     bool DataAvailable();
     // private System.Void CompressBuffer(System.Int32 n)
-    // Offset: 0x100C6D8
+    // Offset: 0x1591D94
     void CompressBuffer(int n);
     // private System.Void DetectEncoding()
-    // Offset: 0x100C720
+    // Offset: 0x1591DDC
     void DetectEncoding();
     // private System.Boolean IsPreamble()
-    // Offset: 0x100CA50
+    // Offset: 0x159210C
     bool IsPreamble();
     // System.Int32 ReadBuffer()
-    // Offset: 0x100CB68
+    // Offset: 0x1592224
     int ReadBuffer();
     // private System.Int32 ReadBuffer(System.Char[] userBuffer, System.Int32 userOffset, System.Int32 desiredChars, out System.Boolean readToUserBuffer)
-    // Offset: 0x100C3E8
+    // Offset: 0x1591AA4
     int ReadBuffer(::Array<::Il2CppChar>* userBuffer, int userOffset, int desiredChars, bool& readToUserBuffer);
     // System.Void .ctor()
-    // Offset: 0x100B628
+    // Offset: 0x1590CD4
     // Implemented from: System.IO.TextReader
     // Base method: System.Void TextReader::.ctor()
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
     static StreamReader* New_ctor();
     // public override System.Void Close()
-    // Offset: 0x100BE88
+    // Offset: 0x1591534
     // Implemented from: System.IO.TextReader
     // Base method: System.Void TextReader::Close()
     void Close();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x100BE98
+    // Offset: 0x1591544
     // Implemented from: System.IO.TextReader
     // Base method: System.Void TextReader::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Int32 Peek()
-    // Offset: 0x100C080
+    // Offset: 0x159173C
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Peek()
     int Peek();
     // public override System.Int32 Read()
-    // Offset: 0x100C120
+    // Offset: 0x15917DC
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Read()
     int Read();
     // public override System.Int32 Read(in System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x100C1B0
+    // Offset: 0x159186C
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Read(in System.Char[] buffer, System.Int32 index, System.Int32 count)
     int Read(::Array<::Il2CppChar>*& buffer, int index, int count);
     // public override System.String ReadToEnd()
-    // Offset: 0x100C600
+    // Offset: 0x1591CBC
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadToEnd()
     ::Il2CppString* ReadToEnd();
     // public override System.String ReadLine()
-    // Offset: 0x100CCD8
+    // Offset: 0x1592394
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadLine()
     ::Il2CppString* ReadLine();
     // static private System.Void .cctor()
-    // Offset: 0x100CEFC
+    // Offset: 0x15925B8
     // Implemented from: System.IO.TextReader
     // Base method: System.Void TextReader::.cctor()
     static void _cctor();

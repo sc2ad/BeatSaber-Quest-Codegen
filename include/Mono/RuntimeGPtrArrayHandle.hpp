@@ -32,22 +32,22 @@ namespace Mono {
       return value;
     }
     // System.Void .ctor(System.IntPtr ptr)
-    // Offset: 0xA40850
+    // Offset: 0xDBB618
     RuntimeGPtrArrayHandle(System::IntPtr ptr);
     // System.Int32 get_Length()
-    // Offset: 0xA4087C
+    // Offset: 0xDBB644
     int get_Length();
     // System.IntPtr get_Item(System.Int32 i)
-    // Offset: 0xA40898
+    // Offset: 0xDBB660
     System::IntPtr get_Item(int i);
     // System.IntPtr Lookup(System.Int32 i)
-    // Offset: 0xA408A0
+    // Offset: 0xDBB668
     System::IntPtr Lookup(int i);
     // static private System.Void GPtrArrayFree(Mono.RuntimeStructs/GPtrArray* value)
-    // Offset: 0x10B96CC
+    // Offset: 0x17E1418
     static void GPtrArrayFree(Mono::RuntimeStructs::GPtrArray* value);
     // static System.Void DestroyAndFree(ref Mono.RuntimeGPtrArrayHandle h)
-    // Offset: 0x10B96D0
+    // Offset: 0x17E141C
     static void DestroyAndFree(Mono::RuntimeGPtrArrayHandle& h);
   }; // Mono.RuntimeGPtrArrayHandle
 }

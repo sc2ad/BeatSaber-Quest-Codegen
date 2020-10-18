@@ -8,12 +8,12 @@
 #include "GlobalNamespace/StandardLevelFailedController_InitData.hpp"
 // Including type: StandardLevelFailedController/<LevelFailedCoroutine>d__13
 #include "GlobalNamespace/StandardLevelFailedController_-LevelFailedCoroutine-d__13.hpp"
-// Including type: PrepareLevelCompletionResults
-#include "GlobalNamespace/PrepareLevelCompletionResults.hpp"
 // Including type: LevelFailedTextEffect
 #include "GlobalNamespace/LevelFailedTextEffect.hpp"
 // Including type: StandardLevelScenesTransitionSetupDataSO
 #include "GlobalNamespace/StandardLevelScenesTransitionSetupDataSO.hpp"
+// Including type: PrepareLevelCompletionResults
+#include "GlobalNamespace/PrepareLevelCompletionResults.hpp"
 // Including type: ILevelEndActions
 #include "GlobalNamespace/ILevelEndActions.hpp"
 // Including type: BeatmapObjectSpawnController

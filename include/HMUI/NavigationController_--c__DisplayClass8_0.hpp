@@ -32,11 +32,11 @@ namespace HMUI {
     // public System.Single[] endPositions
     // Offset: 0x28
     ::Array<float>* endPositions;
-    // System.Void <PushViewController>b__0(System.Single t, HMUI.ViewController[] viewControllers)
-    // Offset: 0x10DED0C
-    void $PushViewController$b__0(float t, ::Array<HMUI::ViewController*>* viewControllers);
+    // System.Void <PushViewController>g__AnimationLayouter|0(System.Single t, HMUI.ViewController[] viewControllers)
+    // Offset: 0x11733C4
+    void $PushViewController$g__AnimationLayouter|0(float t, ::Array<HMUI::ViewController*>* viewControllers);
     // public System.Void .ctor()
-    // Offset: 0x10DE710
+    // Offset: 0x1172EE4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NavigationController::$$c__DisplayClass8_0* New_ctor();

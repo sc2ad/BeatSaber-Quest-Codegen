@@ -39,13 +39,13 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Action_1<::Array<GlobalNamespace::FileBrowserItem*>*>* callback;
     // System.Void <GetContentOfDirectory>b__0()
-    // Offset: 0xBED6D4
+    // Offset: 0xF68E10
     void $GetContentOfDirectory$b__0();
     // System.Void <GetContentOfDirectory>b__1()
-    // Offset: 0xBED708
+    // Offset: 0xF68E44
     void $GetContentOfDirectory$b__1();
     // public System.Void .ctor()
-    // Offset: 0xBED248
+    // Offset: 0xF68984
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FileBrowserModel::$$c__DisplayClass0_0* New_ctor();

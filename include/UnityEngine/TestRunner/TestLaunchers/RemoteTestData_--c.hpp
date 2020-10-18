@@ -35,13 +35,13 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Set static field: static public System.Func`2<NUnit.Framework.Interfaces.ITest,System.String> <>9__18_0
     static void _set_$$9__18_0(System::Func_2<NUnit::Framework::Interfaces::ITest*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xE3D430
+    // Offset: 0x12BA170
     static void _cctor();
     // System.String <.ctor>b__18_0(NUnit.Framework.Interfaces.ITest t)
-    // Offset: 0xE3D4A0
+    // Offset: 0x12BA1E0
     ::Il2CppString* $_ctor$b__18_0(NUnit::Framework::Interfaces::ITest* t);
     // public System.Void .ctor()
-    // Offset: 0xE3D498
+    // Offset: 0x12BA1D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static RemoteTestData::$$c* New_ctor();

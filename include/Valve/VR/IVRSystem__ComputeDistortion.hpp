@@ -33,16 +33,16 @@ namespace Valve::VR {
   class IVRSystem::_ComputeDistortion : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16D3628
+    // Offset: 0x1F583D0
     static IVRSystem::_ComputeDistortion* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(Valve.VR.EVREye eEye, System.Single fU, System.Single fV, ref Valve.VR.DistortionCoordinates_t pDistortionCoordinates)
-    // Offset: 0x16D363C
+    // Offset: 0x1F583E4
     bool Invoke(Valve::VR::EVREye eEye, float fU, float fV, Valve::VR::DistortionCoordinates_t& pDistortionCoordinates);
     // public System.IAsyncResult BeginInvoke(Valve.VR.EVREye eEye, System.Single fU, System.Single fV, ref Valve.VR.DistortionCoordinates_t pDistortionCoordinates, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16D3908
+    // Offset: 0x1F586B0
     System::IAsyncResult* BeginInvoke(Valve::VR::EVREye eEye, float fU, float fV, Valve::VR::DistortionCoordinates_t& pDistortionCoordinates, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(ref Valve.VR.DistortionCoordinates_t pDistortionCoordinates, System.IAsyncResult result)
-    // Offset: 0x16D39F4
+    // Offset: 0x1F5879C
     bool EndInvoke(Valve::VR::DistortionCoordinates_t& pDistortionCoordinates, System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_ComputeDistortion
 }

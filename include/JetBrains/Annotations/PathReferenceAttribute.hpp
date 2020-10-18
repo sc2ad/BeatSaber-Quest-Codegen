@@ -21,16 +21,16 @@ namespace JetBrains::Annotations {
       return BasePath;
     }
     // public System.Void .ctor(System.String basePath)
-    // Offset: 0x1961578
+    // Offset: 0x220C400
     static PathReferenceAttribute* New_ctor(::Il2CppString* basePath);
     // public System.String get_BasePath()
-    // Offset: 0x19615AC
+    // Offset: 0x220C434
     ::Il2CppString* get_BasePath();
     // private System.Void set_BasePath(System.String value)
-    // Offset: 0x19615B4
+    // Offset: 0x220C43C
     void set_BasePath(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1961570
+    // Offset: 0x220C3F8
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -27,23 +27,23 @@ namespace UnityEngine::XR {
     // Creating value type constructor for type: Bone
     constexpr Bone(uint64_t m_DeviceId_ = {}, uint m_FeatureIndex_ = {}) noexcept : m_DeviceId{m_DeviceId_}, m_FeatureIndex{m_FeatureIndex_} {}
     // System.UInt64 get_deviceId()
-    // Offset: 0xA5ED34
+    // Offset: 0xDDDD3C
     uint64_t get_deviceId();
     // System.UInt32 get_featureIndex()
-    // Offset: 0xA5ED3C
+    // Offset: 0xDDDD44
     uint get_featureIndex();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA5ED44
+    // Offset: 0xDDDD4C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(UnityEngine.XR.Bone other)
-    // Offset: 0xA5ED4C
+    // Offset: 0xDDDD54
     // Implemented from: System.IEquatable`1
-    // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.XR.Bone other)
+    // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.XR.Bone other)
     bool Equals(UnityEngine::XR::Bone other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA5ED70
+    // Offset: 0xDDDD78
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

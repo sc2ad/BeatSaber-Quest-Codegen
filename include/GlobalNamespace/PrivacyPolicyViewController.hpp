@@ -14,10 +14,10 @@ namespace HMUI {
   // Forward declaring type: TextPageScrollView
   class TextPageScrollView;
 }
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: TextAsset
-  class TextAsset;
+// Forward declaring namespace: GlobalNamespace
+namespace GlobalNamespace {
+  // Forward declaring type: LocalizedTextAsset
+  class LocalizedTextAsset;
 }
 // Completed forward declares
 // Type namespace: 
@@ -26,18 +26,18 @@ namespace GlobalNamespace {
   class PrivacyPolicyViewController : public HMUI::ViewController {
     public:
     // private HMUI.TextPageScrollView _textPageScrollView
-    // Offset: 0x68
-    HMUI::TextPageScrollView* textPageScrollView;
-    // private UnityEngine.TextAsset _privacyPolicyTextAsset
     // Offset: 0x70
-    UnityEngine::TextAsset* privacyPolicyTextAsset;
-    // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xC1F344
+    HMUI::TextPageScrollView* textPageScrollView;
+    // private LocalizedTextAsset _privacyPolicyLocalizedTextAsset
+    // Offset: 0x78
+    GlobalNamespace::LocalizedTextAsset* privacyPolicyLocalizedTextAsset;
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0xF72394
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xC1F398
+    // Offset: 0xF723E8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

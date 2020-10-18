@@ -23,13 +23,13 @@ namespace System::Reflection {
   class Assembly::UnmanagedMemoryStreamForModule : public System::IO::UnmanagedMemoryStream {
     public:
     // private System.Reflection.Module module
-    // Offset: 0x60
+    // Offset: 0x68
     System::Reflection::Module* module;
     // public System.Void .ctor(System.Byte* pointer, System.Int64 length, System.Reflection.Module module)
-    // Offset: 0x13674D0
+    // Offset: 0x1AB78F4
     static Assembly::UnmanagedMemoryStreamForModule* New_ctor(uint8_t* pointer, int64_t length, System::Reflection::Module* module);
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x13688C4
+    // Offset: 0x1AB8C9C
     // Implemented from: System.IO.UnmanagedMemoryStream
     // Base method: System.Void UnmanagedMemoryStream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);

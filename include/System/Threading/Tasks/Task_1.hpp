@@ -17,6 +17,8 @@
 #include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
 // Including type: System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1
 #include "System/Runtime/CompilerServices/ConfiguredTaskAwaitable_1.hpp"
+// Including type: System.Threading.Tasks.TaskContinuationOptions
+#include "System/Threading/Tasks/TaskContinuationOptions.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -146,6 +148,11 @@ namespace System::Threading::Tasks {
     bool TrySetResult(TResult result) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "TrySetResult", result));
     }
+    // System.Void DangerousSetResult(TResult result)
+    // Offset: 0xFFFFFFFF
+    void DangerousSetResult(TResult result) {
+      THROW_UNLESS(il2cpp_utils::RunMethod(this, "DangerousSetResult", result));
+    }
     // public TResult get_Result()
     // Offset: 0xFFFFFFFF
     TResult get_Result() {
@@ -190,6 +197,18 @@ namespace System::Threading::Tasks {
     // Offset: 0xFFFFFFFF
     System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<TResult> ConfigureAwait(bool continueOnCapturedContext) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<TResult>>(this, "ConfigureAwait", continueOnCapturedContext));
+    }
+    // public System.Threading.Tasks.Task`1<TNewResult> ContinueWith(System.Func`2<System.Threading.Tasks.Task`1<TResult>,TNewResult> continuationFunction)
+    // Offset: 0xFFFFFFFF
+    template<class TNewResult>
+    System::Threading::Tasks::Task_1<TNewResult>* ContinueWith(System::Func_2<System::Threading::Tasks::Task_1<TResult>*, TNewResult>* continuationFunction) {
+      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Threading::Tasks::Task_1<TNewResult>*>(this, "ContinueWith", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TNewResult>::get()}, continuationFunction)));
+    }
+    // System.Threading.Tasks.Task`1<TNewResult> ContinueWith(System.Func`2<System.Threading.Tasks.Task`1<TResult>,TNewResult> continuationFunction, System.Threading.Tasks.TaskScheduler scheduler, System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskContinuationOptions continuationOptions, ref System.Threading.StackCrawlMark stackMark)
+    // Offset: 0xFFFFFFFF
+    template<class TNewResult>
+    System::Threading::Tasks::Task_1<TNewResult>* ContinueWith(System::Func_2<System::Threading::Tasks::Task_1<TResult>*, TNewResult>* continuationFunction, System::Threading::Tasks::TaskScheduler* scheduler, System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskContinuationOptions continuationOptions, System::Threading::StackCrawlMark& stackMark) {
+      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Threading::Tasks::Task_1<TNewResult>*>(this, "ContinueWith", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TNewResult>::get()}, continuationFunction, scheduler, cancellationToken, continuationOptions, stackMark)));
     }
     // System.Void .ctor()
     // Offset: 0xFFFFFFFF

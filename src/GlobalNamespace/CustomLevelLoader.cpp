@@ -10,8 +10,8 @@
 #include "GlobalNamespace/EnvironmentInfoSO.hpp"
 // Including type: EnvironmentsListSO
 #include "GlobalNamespace/EnvironmentsListSO.hpp"
-// Including type: UnityEngine.Texture2D
-#include "UnityEngine/Texture2D.hpp"
+// Including type: UnityEngine.Sprite
+#include "UnityEngine/Sprite.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

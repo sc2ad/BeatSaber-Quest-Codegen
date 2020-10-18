@@ -23,13 +23,13 @@ namespace UnityEngine {
     // Offset: 0x1C
     int priority;
     // public System.Void .ctor(System.String itemName)
-    // Offset: 0x130BA10
+    // Offset: 0x19E6C80
     static ContextMenu* New_ctor(::Il2CppString* itemName);
     // public System.Void .ctor(System.String itemName, System.Boolean isValidateFunction)
-    // Offset: 0x130BA58
+    // Offset: 0x19E6CC8
     static ContextMenu* New_ctor(::Il2CppString* itemName, bool isValidateFunction);
     // public System.Void .ctor(System.String itemName, System.Boolean isValidateFunction, System.Int32 priority)
-    // Offset: 0x130BAB0
+    // Offset: 0x19E6D20
     static ContextMenu* New_ctor(::Il2CppString* itemName, bool isValidateFunction, int priority);
   }; // UnityEngine.ContextMenu
 }

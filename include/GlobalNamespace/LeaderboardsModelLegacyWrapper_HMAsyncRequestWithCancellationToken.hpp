@@ -26,17 +26,17 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Threading::CancellationTokenSource* cancellationTokenSource;
     // public System.Threading.CancellationTokenSource get_cancellationTokenSource()
-    // Offset: 0xB49034
+    // Offset: 0x101DDEC
     System::Threading::CancellationTokenSource* get_cancellationTokenSource();
     // public System.Void .ctor()
-    // Offset: 0xB483E0
+    // Offset: 0x101D1B0
     // Implemented from: HMAsyncRequest
     // Base method: System.Void HMAsyncRequest::.ctor()
     // Base method: System.Void HMAutoincrementedRequestId::.ctor()
     // Base method: System.Void Object::.ctor()
     static LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken* New_ctor();
     // public override System.Void Cancel()
-    // Offset: 0xB4903C
+    // Offset: 0x101DDF4
     // Implemented from: HMAsyncRequest
     // Base method: System.Void HMAsyncRequest::Cancel()
     void Cancel();

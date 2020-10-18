@@ -26,16 +26,16 @@ namespace GlobalNamespace {
   class OVROverlay::ExternalSurfaceObjectCreated : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xEF7914
+    // Offset: 0x13D9F10
     static OVROverlay::ExternalSurfaceObjectCreated* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0xEF40C4
+    // Offset: 0x13D66C0
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0xEF7928
+    // Offset: 0x13D9F24
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xEF7954
+    // Offset: 0x13D9F50
     void EndInvoke(System::IAsyncResult* result);
   }; // OVROverlay/ExternalSurfaceObjectCreated
 }

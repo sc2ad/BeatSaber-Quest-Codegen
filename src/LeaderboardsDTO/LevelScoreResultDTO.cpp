@@ -5,8 +5,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: LeaderboardsDTO.LevelScoreResultDTO
 #include "LeaderboardsDTO/LevelScoreResultDTO.hpp"
-// Including type: LeaderboardsDTO.GameplayModifiersDTO
-#include "LeaderboardsDTO/GameplayModifiersDTO.hpp"
+// Including type: LeaderboardsDTO.GameplayModifiersDto
+#include "LeaderboardsDTO/GameplayModifiersDto.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

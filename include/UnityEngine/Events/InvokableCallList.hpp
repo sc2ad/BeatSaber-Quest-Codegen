@@ -42,22 +42,22 @@ namespace UnityEngine::Events {
     // Offset: 0x28
     bool m_NeedsUpdate;
     // public System.Void AddPersistentInvokableCall(UnityEngine.Events.BaseInvokableCall call)
-    // Offset: 0x130F40C
+    // Offset: 0x19EA67C
     void AddPersistentInvokableCall(UnityEngine::Events::BaseInvokableCall* call);
     // public System.Void AddListener(UnityEngine.Events.BaseInvokableCall call)
-    // Offset: 0x130F480
+    // Offset: 0x19EA6F0
     void AddListener(UnityEngine::Events::BaseInvokableCall* call);
     // public System.Void RemoveListener(System.Object targetObj, System.Reflection.MethodInfo method)
-    // Offset: 0x130F4F4
+    // Offset: 0x19EA764
     void RemoveListener(::Il2CppObject* targetObj, System::Reflection::MethodInfo* method);
     // public System.Void ClearPersistent()
-    // Offset: 0x130F66C
+    // Offset: 0x19EA8DC
     void ClearPersistent();
     // public System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall> PrepareInvoke()
-    // Offset: 0x130F6D0
+    // Offset: 0x19EA940
     System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall*>* PrepareInvoke();
     // public System.Void .ctor()
-    // Offset: 0x130F76C
+    // Offset: 0x19EA9DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InvokableCallList* New_ctor();

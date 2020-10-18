@@ -13,8 +13,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: PlayerController
-  class PlayerController;
+  // Forward declaring type: PlayerTransforms
+  class PlayerTransforms;
   // Forward declaring type: AudioTimeSyncController
   class AudioTimeSyncController;
   // Forward declaring type: ColorManager
@@ -44,13 +44,13 @@ namespace GlobalNamespace {
     // private UnityEngine.LineRenderer _lineRenderer
     // Offset: 0x18
     UnityEngine::LineRenderer* lineRenderer;
-    // private PlayerController _playerController
+    // private readonly PlayerTransforms _playerTransforms
     // Offset: 0x20
-    GlobalNamespace::PlayerController* playerController;
-    // private AudioTimeSyncController _audioTimeSyncController
+    GlobalNamespace::PlayerTransforms* playerTransforms;
+    // private readonly AudioTimeSyncController _audioTimeSyncController
     // Offset: 0x28
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
-    // private ColorManager _colorManager
+    // private readonly ColorManager _colorManager
     // Offset: 0x30
     GlobalNamespace::ColorManager* colorManager;
     // private System.Action`1<NoteLineConnectionController> didFinishEvent
@@ -83,22 +83,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didFinishEvent(System.Action`1<NoteLineConnectionController> value)
-    // Offset: 0xC313AC
+    // Offset: 0x10AE2A4
     void add_didFinishEvent(System::Action_1<GlobalNamespace::NoteLineConnectionController*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<NoteLineConnectionController> value)
-    // Offset: 0xC31450
+    // Offset: 0x10AE348
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::NoteLineConnectionController*>* value);
     // public System.Void Setup(NoteController noteController0, NoteController noteController1, System.Single fadeOutStartDistance, System.Single fadeOutEndDistance, System.Single noteTime)
-    // Offset: 0xC314F4
+    // Offset: 0x10AE3EC
     void Setup(GlobalNamespace::NoteController* noteController0, GlobalNamespace::NoteController* noteController1, float fadeOutStartDistance, float fadeOutEndDistance, float noteTime);
     // protected System.Void Update()
-    // Offset: 0xC317B4
+    // Offset: 0x10AE6AC
     void Update();
     // private System.Void UpdatePositionsAndColors()
-    // Offset: 0xC315C8
+    // Offset: 0x10AE4C0
     void UpdatePositionsAndColors();
     // public System.Void .ctor()
-    // Offset: 0xC3184C
+    // Offset: 0x10AE744
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

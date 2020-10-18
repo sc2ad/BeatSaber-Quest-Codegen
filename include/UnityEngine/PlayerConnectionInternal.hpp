@@ -21,71 +21,71 @@ namespace UnityEngine {
   class PlayerConnectionInternal : public ::Il2CppObject, public UnityEngine::IPlayerEditorConnectionNative {
     public:
     // static private System.Boolean IsConnected()
-    // Offset: 0x141E388
+    // Offset: 0x1BA0CC4
     static bool IsConnected();
     // static private System.Void Initialize()
-    // Offset: 0x141E320
+    // Offset: 0x1BA0C5C
     static void Initialize();
     // static private System.Void RegisterInternal(System.String messageId)
-    // Offset: 0x141E1E0
+    // Offset: 0x1BA0B1C
     static void RegisterInternal(::Il2CppString* messageId);
     // static private System.Void UnregisterInternal(System.String messageId)
-    // Offset: 0x141E2AC
+    // Offset: 0x1BA0BE8
     static void UnregisterInternal(::Il2CppString* messageId);
     // static private System.Void SendMessage(System.String messageId, System.Byte[] data, System.Int32 playerId)
-    // Offset: 0x141DF08
+    // Offset: 0x1BA0844
     static void SendMessage(::Il2CppString* messageId, ::Array<uint8_t>* data, int playerId);
     // static private System.Boolean TrySendMessage(System.String messageId, System.Byte[] data, System.Int32 playerId)
-    // Offset: 0x141E094
+    // Offset: 0x1BA09D0
     static bool TrySendMessage(::Il2CppString* messageId, ::Array<uint8_t>* data, int playerId);
     // static private System.Void PollInternal()
-    // Offset: 0x141E120
+    // Offset: 0x1BA0A5C
     static void PollInternal();
     // static private System.Void DisconnectAll()
-    // Offset: 0x141E3F0
+    // Offset: 0x1BA0D2C
     static void DisconnectAll();
     // private System.Void UnityEngine.IPlayerEditorConnectionNative.SendMessage(System.Guid messageId, System.Byte[] data, System.Int32 playerId)
-    // Offset: 0x141DDD8
+    // Offset: 0x1BA0714
     // Implemented from: UnityEngine.IPlayerEditorConnectionNative
     // Base method: System.Void IPlayerEditorConnectionNative::SendMessage(System.Guid messageId, System.Byte[] data, System.Int32 playerId)
     void UnityEngine_IPlayerEditorConnectionNative_SendMessage(System::Guid messageId, ::Array<uint8_t>* data, int playerId);
     // private System.Boolean UnityEngine.IPlayerEditorConnectionNative.TrySendMessage(System.Guid messageId, System.Byte[] data, System.Int32 playerId)
-    // Offset: 0x141DF60
+    // Offset: 0x1BA089C
     // Implemented from: UnityEngine.IPlayerEditorConnectionNative
     // Base method: System.Boolean IPlayerEditorConnectionNative::TrySendMessage(System.Guid messageId, System.Byte[] data, System.Int32 playerId)
     bool UnityEngine_IPlayerEditorConnectionNative_TrySendMessage(System::Guid messageId, ::Array<uint8_t>* data, int playerId);
     // private System.Void UnityEngine.IPlayerEditorConnectionNative.Poll()
-    // Offset: 0x141E0EC
+    // Offset: 0x1BA0A28
     // Implemented from: UnityEngine.IPlayerEditorConnectionNative
     // Base method: System.Void IPlayerEditorConnectionNative::Poll()
     void UnityEngine_IPlayerEditorConnectionNative_Poll();
     // private System.Void UnityEngine.IPlayerEditorConnectionNative.RegisterInternal(System.Guid messageId)
-    // Offset: 0x141E154
+    // Offset: 0x1BA0A90
     // Implemented from: UnityEngine.IPlayerEditorConnectionNative
     // Base method: System.Void IPlayerEditorConnectionNative::RegisterInternal(System.Guid messageId)
     void UnityEngine_IPlayerEditorConnectionNative_RegisterInternal(System::Guid messageId);
     // private System.Void UnityEngine.IPlayerEditorConnectionNative.UnregisterInternal(System.Guid messageId)
-    // Offset: 0x141E220
+    // Offset: 0x1BA0B5C
     // Implemented from: UnityEngine.IPlayerEditorConnectionNative
     // Base method: System.Void IPlayerEditorConnectionNative::UnregisterInternal(System.Guid messageId)
     void UnityEngine_IPlayerEditorConnectionNative_UnregisterInternal(System::Guid messageId);
     // private System.Void UnityEngine.IPlayerEditorConnectionNative.Initialize()
-    // Offset: 0x141E2EC
+    // Offset: 0x1BA0C28
     // Implemented from: UnityEngine.IPlayerEditorConnectionNative
     // Base method: System.Void IPlayerEditorConnectionNative::Initialize()
     void UnityEngine_IPlayerEditorConnectionNative_Initialize();
     // private System.Boolean UnityEngine.IPlayerEditorConnectionNative.IsConnected()
-    // Offset: 0x141E354
+    // Offset: 0x1BA0C90
     // Implemented from: UnityEngine.IPlayerEditorConnectionNative
     // Base method: System.Boolean IPlayerEditorConnectionNative::IsConnected()
     bool UnityEngine_IPlayerEditorConnectionNative_IsConnected();
     // private System.Void UnityEngine.IPlayerEditorConnectionNative.DisconnectAll()
-    // Offset: 0x141E3BC
+    // Offset: 0x1BA0CF8
     // Implemented from: UnityEngine.IPlayerEditorConnectionNative
     // Base method: System.Void IPlayerEditorConnectionNative::DisconnectAll()
     void UnityEngine_IPlayerEditorConnectionNative_DisconnectAll();
     // public System.Void .ctor()
-    // Offset: 0x1416D28
+    // Offset: 0x1B99664
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerConnectionInternal* New_ctor();

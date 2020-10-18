@@ -35,40 +35,40 @@ namespace System {
     // Offset: 0xA0
     int ResourceId;
     // private System.Void SetMessageField()
-    // Offset: 0x179A3BC
+    // Offset: 0x19610D0
     void SetMessageField();
     // private System.Void .ctor(System.String className, System.String assemblyName)
-    // Offset: 0x179A50C
+    // Offset: 0x1961220
     static TypeLoadException* New_ctor(::Il2CppString* className, ::Il2CppString* assemblyName);
     // private System.Void .ctor(System.String className, System.String assemblyName, System.String messageArg, System.Int32 resourceId)
-    // Offset: 0x179A518
+    // Offset: 0x196122C
     static TypeLoadException* New_ctor(::Il2CppString* className, ::Il2CppString* assemblyName, ::Il2CppString* messageArg, int resourceId);
     // public System.Void .ctor()
-    // Offset: 0x179A324
+    // Offset: 0x1961038
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static TypeLoadException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1799B94
+    // Offset: 0x19608A8
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static TypeLoadException* New_ctor(::Il2CppString* message);
     // public override System.String get_Message()
-    // Offset: 0x179A398
+    // Offset: 0x19610AC
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
     ::Il2CppString* get_Message();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x179A5AC
+    // Offset: 0x19612C0
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static TypeLoadException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x179A6F4
+    // Offset: 0x1961408
     // Implemented from: System.Exception
     // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);

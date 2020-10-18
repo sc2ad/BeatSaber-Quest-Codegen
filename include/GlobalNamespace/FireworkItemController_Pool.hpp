@@ -16,11 +16,11 @@ namespace GlobalNamespace {
   class FireworkItemController::Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::FireworkItemController*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xBEE7C4
+    // Offset: 0xF6B1B8
     // Implemented from: Zenject.MonoMemoryPool`1
-    // Base method: System.Void MonoMemoryPool`1::.ctor()
-    // Base method: System.Void MemoryPool`1::.ctor()
-    // Base method: System.Void MemoryPoolBase`1::.ctor()
+    // Base method: System.Void MonoMemoryPool_1::.ctor()
+    // Base method: System.Void MemoryPool_1::.ctor()
+    // Base method: System.Void MemoryPoolBase_1::.ctor()
     // Base method: System.Void Object::.ctor()
     static FireworkItemController::Pool* New_ctor();
   }; // FireworkItemController/Pool

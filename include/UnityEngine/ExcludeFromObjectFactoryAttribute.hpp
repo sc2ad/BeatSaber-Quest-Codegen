@@ -14,7 +14,7 @@ namespace UnityEngine {
   class ExcludeFromObjectFactoryAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1310D4C
+    // Offset: 0x19EBFBC
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

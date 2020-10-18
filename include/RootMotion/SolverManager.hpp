@@ -45,49 +45,49 @@ namespace RootMotion {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Disable()
-    // Offset: 0x12460E0
+    // Offset: 0x18FA218
     void Disable();
     // protected System.Void InitiateSolver()
-    // Offset: 0x1246178
+    // Offset: 0x18FA2B0
     void InitiateSolver();
     // protected System.Void UpdateSolver()
-    // Offset: 0x124617C
+    // Offset: 0x18FA2B4
     void UpdateSolver();
     // protected System.Void FixTransforms()
-    // Offset: 0x1246180
+    // Offset: 0x18FA2B8
     void FixTransforms();
     // private System.Void OnDisable()
-    // Offset: 0x1246184
+    // Offset: 0x18FA2BC
     void OnDisable();
     // private System.Void Start()
-    // Offset: 0x1246214
+    // Offset: 0x18FA34C
     void Start();
     // private System.Boolean get_animatePhysics()
-    // Offset: 0x1246218
+    // Offset: 0x18FA350
     bool get_animatePhysics();
     // private System.Void Initiate()
-    // Offset: 0x12461BC
+    // Offset: 0x18FA2F4
     void Initiate();
     // private System.Void Update()
-    // Offset: 0x1246500
+    // Offset: 0x18FA638
     void Update();
     // private System.Void FindAnimatorRecursive(UnityEngine.Transform t, System.Boolean findInChildren)
-    // Offset: 0x1246308
+    // Offset: 0x18FA440
     void FindAnimatorRecursive(UnityEngine::Transform* t, bool findInChildren);
     // private System.Boolean get_isAnimated()
-    // Offset: 0x124654C
+    // Offset: 0x18FA684
     bool get_isAnimated();
     // private System.Void FixedUpdate()
-    // Offset: 0x1246608
+    // Offset: 0x18FA740
     void FixedUpdate();
     // private System.Void LateUpdate()
-    // Offset: 0x1246664
+    // Offset: 0x18FA79C
     void LateUpdate();
     // public System.Void UpdateSolverExternal()
-    // Offset: 0x12466C0
+    // Offset: 0x18FA7F8
     void UpdateSolverExternal();
     // public System.Void .ctor()
-    // Offset: 0x1234A00
+    // Offset: 0x18E8B38
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

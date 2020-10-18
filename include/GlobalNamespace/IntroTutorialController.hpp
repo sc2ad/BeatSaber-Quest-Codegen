@@ -84,40 +84,40 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_introTutorialDidFinishEvent(System.Action value)
-    // Offset: 0xB457C8
+    // Offset: 0x1019FC8
     void add_introTutorialDidFinishEvent(System::Action* value);
     // public System.Void remove_introTutorialDidFinishEvent(System.Action value)
-    // Offset: 0xB4586C
+    // Offset: 0x101A06C
     void remove_introTutorialDidFinishEvent(System::Action* value);
     // protected System.Void Start()
-    // Offset: 0xB45910
+    // Offset: 0x101A110
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xB45A94
+    // Offset: 0x101A294
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xB45C34
+    // Offset: 0x101A434
     void Update();
     // private System.Void CleanUp()
-    // Offset: 0xB45A98
+    // Offset: 0x101A298
     void CleanUp();
     // private System.Void HandleGameDidPause()
-    // Offset: 0xB45D84
+    // Offset: 0x101A584
     void HandleGameDidPause();
     // private System.Void HandlegameDidResume()
-    // Offset: 0xB45E00
+    // Offset: 0x101A600
     void HandlegameDidResume();
     // private System.Void ShowFinishAnimation()
-    // Offset: 0xB45CF8
+    // Offset: 0x101A4F8
     void ShowFinishAnimation();
     // private System.Collections.IEnumerator ShowFinishAnimationCoroutine()
-    // Offset: 0xB45E44
+    // Offset: 0x101A644
     System::Collections::IEnumerator* ShowFinishAnimationCoroutine();
     // private System.Void SetFinishAnimationParams(System.Single progress)
-    // Offset: 0xB45EEC
+    // Offset: 0x101A6EC
     void SetFinishAnimationParams(float progress);
     // public System.Void .ctor()
-    // Offset: 0xB45F94
+    // Offset: 0x101A794
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

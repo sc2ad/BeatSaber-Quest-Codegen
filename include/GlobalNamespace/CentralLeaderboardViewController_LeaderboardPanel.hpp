@@ -16,12 +16,15 @@ namespace GlobalNamespace {
     // public readonly System.String title
     // Offset: 0x10
     ::Il2CppString* title;
-    // public readonly System.Boolean includeScoreWithModifiers
+    // public readonly System.String hint
     // Offset: 0x18
-    bool includeScoreWithModifiers;
-    // public System.Void .ctor(System.String title, System.Boolean includeScoreWithModifiers)
-    // Offset: 0xB7EEE0
-    static CentralLeaderboardViewController::LeaderboardPanel* New_ctor(::Il2CppString* title, bool includeScoreWithModifiers);
+    ::Il2CppString* hint;
+    // public readonly System.Boolean mixed
+    // Offset: 0x20
+    bool mixed;
+    // public System.Void .ctor(System.String title, System.String hint, System.Boolean mixed)
+    // Offset: 0xF1E4F0
+    static CentralLeaderboardViewController::LeaderboardPanel* New_ctor(::Il2CppString* title, ::Il2CppString* hint, bool mixed);
   }; // CentralLeaderboardViewController/LeaderboardPanel
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

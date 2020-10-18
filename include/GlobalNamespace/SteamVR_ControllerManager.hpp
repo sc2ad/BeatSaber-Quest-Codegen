@@ -76,43 +76,43 @@ namespace GlobalNamespace {
     // Set static field: static private System.String[] labels
     static void _set_labels(::Array<::Il2CppString*>* value);
     // private System.Void SetUniqueObject(UnityEngine.GameObject o, System.Int32 index)
-    // Offset: 0xD81E04
+    // Offset: 0x1232454
     void SetUniqueObject(UnityEngine::GameObject* o, int index);
     // public System.Void UpdateTargets()
-    // Offset: 0xD81F34
+    // Offset: 0x1232584
     void UpdateTargets();
     // private System.Void Awake()
-    // Offset: 0xD82090
+    // Offset: 0x12326E0
     void Awake();
     // private System.Void OnEnable()
-    // Offset: 0xD82404
+    // Offset: 0x1232A54
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0xD829A4
+    // Offset: 0x1232FF4
     void OnDisable();
     // private System.Void OnInputFocus(System.Boolean hasFocus)
-    // Offset: 0xD82A08
+    // Offset: 0x1233058
     void OnInputFocus(bool hasFocus);
     // private System.Void HideObject(UnityEngine.Transform t, System.String name)
-    // Offset: 0xD82DB8
+    // Offset: 0x1233408
     void HideObject(UnityEngine::Transform* t, ::Il2CppString* name);
     // private System.Void ShowObject(UnityEngine.Transform t, System.String name)
-    // Offset: 0xD82CC4
+    // Offset: 0x1233314
     void ShowObject(UnityEngine::Transform* t, ::Il2CppString* name);
     // private System.Void SetTrackedDeviceIndex(System.Int32 objectIndex, System.UInt32 trackedDeviceIndex)
-    // Offset: 0xD82F28
+    // Offset: 0x1233578
     void SetTrackedDeviceIndex(int objectIndex, uint trackedDeviceIndex);
     // private System.Void OnTrackedDeviceRoleChanged(Valve.VR.VREvent_t vrEvent)
-    // Offset: 0xD83174
+    // Offset: 0x12337C4
     void OnTrackedDeviceRoleChanged(Valve::VR::VREvent_t vrEvent);
     // private System.Void OnDeviceConnected(System.Int32 index, System.Boolean connected)
-    // Offset: 0xD82880
+    // Offset: 0x1232ED0
     void OnDeviceConnected(int index, bool connected);
     // public System.Void Refresh()
-    // Offset: 0xD825E4
+    // Offset: 0x1232C34
     void Refresh();
     // private System.Void .ctor()
-    // Offset: 0xD82094
+    // Offset: 0x12326E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -121,7 +121,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SteamVR_ControllerManager* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xD83178
+    // Offset: 0x12337C8
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

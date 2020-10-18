@@ -39,43 +39,46 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Offset: 0x30
     System::Collections::IEnumerator* $$7__wrap1;
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0xE30A8C
+    // Offset: 0x12AD8EC
     static CompositeWorkItem::$PerformWork$d__12* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()
-    // Offset: 0xE32E20
+    // Offset: 0x12AFC80
     void $$m__Finally1();
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0xE32E04
+    // Offset: 0x12AFC64
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0xE32EEC
+    // Offset: 0x12AFD4C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
+    // Creating proxy method: System_Collections_IEnumerator_MoveNext
+    // Maps to method: MoveNext
+    bool System_Collections_IEnumerator_MoveNext();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0xE336A8
+    // Offset: 0x12B0508
     // Implemented from: System.Collections.Generic.IEnumerator`1
-    // Base method: T IEnumerator`1::get_Current()
+    // Base method: T IEnumerator_1::get_Current()
     ::Il2CppObject* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0xE336B0
+    // Offset: 0x12B0510
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0xE33710
+    // Offset: 0x12B0570
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // private System.Collections.Generic.IEnumerator`1<System.Object> System.Collections.Generic.IEnumerable<System.Object>.GetEnumerator()
-    // Offset: 0xE33718
+    // Offset: 0x12B0578
     // Implemented from: System.Collections.Generic.IEnumerable`1
-    // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable`1::GetEnumerator()
+    // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable_1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<::Il2CppObject*>* System_Collections_Generic_IEnumerable_1_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0xE337CC
+    // Offset: 0x12B062C
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();

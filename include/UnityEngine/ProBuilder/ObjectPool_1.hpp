@@ -53,15 +53,15 @@ namespace UnityEngine::ProBuilder {
     static ObjectPool_1<T>* New_ctor(int initialSize, int desiredSize, System::Func_1<T>* constructor, System::Action_1<T>* destructor, bool lazyInitialization) {
       return THROW_UNLESS(il2cpp_utils::New<ObjectPool_1<T>*>(initialSize, desiredSize, constructor, destructor, lazyInitialization));
     }
-    // public T Get()
+    // public T Dequeue()
     // Offset: 0xFFFFFFFF
-    T Get() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "Get"));
+    T Dequeue() {
+      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "Dequeue"));
     }
-    // public System.Void Put(T obj)
+    // public System.Void Enqueue(T obj)
     // Offset: 0xFFFFFFFF
-    void Put(T obj) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Put", obj));
+    void Enqueue(T obj) {
+      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Enqueue", obj));
     }
     // public System.Void Empty()
     // Offset: 0xFFFFFFFF

@@ -28,7 +28,7 @@ namespace UnityEngine {
       return displayMask;
     }
     // static private System.Int32 GetGUITargetAttrValue(System.Type klass, System.String methodName)
-    // Offset: 0x1277998
+    // Offset: 0x19155A0
     static int GetGUITargetAttrValue(System::Type* klass, ::Il2CppString* methodName);
   }; // UnityEngine.GUITargetAttribute
 }

@@ -4,6 +4,8 @@
 // Begin includes
 // Including type: SaberClashEffect
 #include "GlobalNamespace/SaberClashEffect.hpp"
+// Including type: Libraries.HM.HMLib.VR.HapticPresetSO
+#include "Libraries/HM/HMLib/VR/HapticPresetSO.hpp"
 // Including type: SaberClashChecker
 #include "GlobalNamespace/SaberClashChecker.hpp"
 // Including type: HapticFeedbackController

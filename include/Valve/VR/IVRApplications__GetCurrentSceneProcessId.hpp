@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRApplications::_GetCurrentSceneProcessId : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xFEA494
+    // Offset: 0x1538430
     static IVRApplications::_GetCurrentSceneProcessId* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke()
-    // Offset: 0xFE2DA0
+    // Offset: 0x1530D3C
     uint Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0xFEA4A8
+    // Offset: 0x1538444
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0xFEA4D4
+    // Offset: 0x1538470
     uint EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRApplications/_GetCurrentSceneProcessId
 }

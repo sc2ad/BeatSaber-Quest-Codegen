@@ -6,8 +6,6 @@
 #include "GlobalNamespace/MissionObjectivesGameUIController.hpp"
 // Including type: MissionObjectiveGameUIView
 #include "GlobalNamespace/MissionObjectiveGameUIView.hpp"
-// Including type: UnityEngine.GameObject
-#include "UnityEngine/GameObject.hpp"
 // Including type: MissionObjectiveCheckersManager
 #include "GlobalNamespace/MissionObjectiveCheckersManager.hpp"
 // Including type: System.Collections.Generic.List`1

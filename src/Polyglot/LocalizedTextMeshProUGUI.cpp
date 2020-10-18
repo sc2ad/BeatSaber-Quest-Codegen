@@ -7,6 +7,8 @@
 #include "Polyglot/LocalizedTextMeshProUGUI.hpp"
 // Including type: TMPro.TextMeshProUGUI
 #include "TMPro/TextMeshProUGUI.hpp"
+// Including type: Polyglot.LanguageDirection
+#include "Polyglot/LanguageDirection.hpp"
 // Including type: TMPro.TextAlignmentOptions
 #include "TMPro/TextAlignmentOptions.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

@@ -30,7 +30,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Offset: 0x98
     UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* C;
     // public System.Void .ctor(System.String message, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint a, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint b, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint c)
-    // Offset: 0x19304D0
+    // Offset: 0x21C4F70
     static PointOnEdgeException* New_ctor(::Il2CppString* message, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* a, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* b, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* c);
   }; // UnityEngine.ProBuilder.Poly2Tri.PointOnEdgeException
 }

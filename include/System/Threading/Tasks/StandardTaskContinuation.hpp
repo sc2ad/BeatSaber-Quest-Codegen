@@ -34,10 +34,10 @@ namespace System::Threading::Tasks {
     // Offset: 0x20
     System::Threading::Tasks::TaskScheduler* m_taskScheduler;
     // System.Void .ctor(System.Threading.Tasks.Task task, System.Threading.Tasks.TaskContinuationOptions options, System.Threading.Tasks.TaskScheduler scheduler)
-    // Offset: 0xCDFE28
+    // Offset: 0x16DB7F4
     static StandardTaskContinuation* New_ctor(System::Threading::Tasks::Task* task, System::Threading::Tasks::TaskContinuationOptions options, System::Threading::Tasks::TaskScheduler* scheduler);
     // override System.Void Run(System.Threading.Tasks.Task completedTask, System.Boolean bCanInlineContinuationTask)
-    // Offset: 0xCE00F8
+    // Offset: 0x16DBAC4
     // Implemented from: System.Threading.Tasks.TaskContinuation
     // Base method: System.Void TaskContinuation::Run(System.Threading.Tasks.Task completedTask, System.Boolean bCanInlineContinuationTask)
     void Run(System::Threading::Tasks::Task* completedTask, bool bCanInlineContinuationTask);

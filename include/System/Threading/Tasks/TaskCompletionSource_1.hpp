@@ -17,6 +17,11 @@ namespace System::Threading::Tasks {
   template<typename TResult>
   class Task_1;
 }
+// Forward declaring namespace: System
+namespace System {
+  // Forward declaring type: Exception
+  class Exception;
+}
 // Completed forward declares
 // Type namespace: System.Threading.Tasks
 namespace System::Threading::Tasks {
@@ -41,10 +46,25 @@ namespace System::Threading::Tasks {
     void SpinUntilCompleted() {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "SpinUntilCompleted"));
     }
+    // public System.Boolean TrySetException(System.Exception exception)
+    // Offset: 0xFFFFFFFF
+    bool TrySetException(System::Exception* exception) {
+      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "TrySetException", exception));
+    }
+    // public System.Void SetException(System.Exception exception)
+    // Offset: 0xFFFFFFFF
+    void SetException(System::Exception* exception) {
+      THROW_UNLESS(il2cpp_utils::RunMethod(this, "SetException", exception));
+    }
     // public System.Boolean TrySetResult(TResult result)
     // Offset: 0xFFFFFFFF
     bool TrySetResult(TResult result) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "TrySetResult", result));
+    }
+    // public System.Void SetResult(TResult result)
+    // Offset: 0xFFFFFFFF
+    void SetResult(TResult result) {
+      THROW_UNLESS(il2cpp_utils::RunMethod(this, "SetResult", result));
     }
     // public System.Boolean TrySetCanceled()
     // Offset: 0xFFFFFFFF
@@ -55,6 +75,11 @@ namespace System::Threading::Tasks {
     // Offset: 0xFFFFFFFF
     bool TrySetCanceled(System::Threading::CancellationToken cancellationToken) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "TrySetCanceled", cancellationToken));
+    }
+    // public System.Void SetCanceled()
+    // Offset: 0xFFFFFFFF
+    void SetCanceled() {
+      THROW_UNLESS(il2cpp_utils::RunMethod(this, "SetCanceled"));
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

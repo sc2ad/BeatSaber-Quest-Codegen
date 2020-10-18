@@ -37,77 +37,77 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::PlayerStatisticsViewController::StatsScopeData
     struct StatsScopeData;
     // private HMUI.TextSegmentedControl _statsScopeSegmentedControl
-    // Offset: 0x68
+    // Offset: 0x70
     HMUI::TextSegmentedControl* statsScopeSegmentedControl;
     // private TMPro.TextMeshProUGUI _playedLevelsCountText
-    // Offset: 0x70
+    // Offset: 0x78
     TMPro::TextMeshProUGUI* playedLevelsCountText;
     // private TMPro.TextMeshProUGUI _clearedLevelsCountText
-    // Offset: 0x78
+    // Offset: 0x80
     TMPro::TextMeshProUGUI* clearedLevelsCountText;
     // private TMPro.TextMeshProUGUI _failedLevelsCountText
-    // Offset: 0x80
+    // Offset: 0x88
     TMPro::TextMeshProUGUI* failedLevelsCountText;
     // private TMPro.TextMeshProUGUI _timePlayedText
-    // Offset: 0x88
+    // Offset: 0x90
     TMPro::TextMeshProUGUI* timePlayedText;
     // private TMPro.TextMeshProUGUI _goodCutsCountText
-    // Offset: 0x90
+    // Offset: 0x98
     TMPro::TextMeshProUGUI* goodCutsCountText;
     // private TMPro.TextMeshProUGUI _badCutsCountCountText
-    // Offset: 0x98
+    // Offset: 0xA0
     TMPro::TextMeshProUGUI* badCutsCountCountText;
     // private TMPro.TextMeshProUGUI _missedCountText
-    // Offset: 0xA0
+    // Offset: 0xA8
     TMPro::TextMeshProUGUI* missedCountText;
     // private TMPro.TextMeshProUGUI _averageCutScoreText
-    // Offset: 0xA8
+    // Offset: 0xB0
     TMPro::TextMeshProUGUI* averageCutScoreText;
     // private TMPro.TextMeshProUGUI _totalScoreText
-    // Offset: 0xB0
+    // Offset: 0xB8
     TMPro::TextMeshProUGUI* totalScoreText;
     // private TMPro.TextMeshProUGUI _fullComboCountText
-    // Offset: 0xB8
+    // Offset: 0xC0
     TMPro::TextMeshProUGUI* fullComboCountText;
     // private TMPro.TextMeshProUGUI _handDistanceTravelledText
-    // Offset: 0xC0
+    // Offset: 0xC8
     TMPro::TextMeshProUGUI* handDistanceTravelledText;
     // private PlayerDataModel _playerDataModel
-    // Offset: 0xC8
+    // Offset: 0xD0
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // private PlayerStatisticsViewController/StatsScopeData[] _statsScopeDatas
-    // Offset: 0xD0
+    // Offset: 0xD8
     ::Array<GlobalNamespace::PlayerStatisticsViewController::StatsScopeData>* statsScopeDatas;
     // private System.Void UpdateView(PlayerAllOverallStatsData/PlayerOverallStatsData playerOverallStatsData)
-    // Offset: 0xC1C71C
+    // Offset: 0xFE3AF0
     void UpdateView(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* playerOverallStatsData);
     // private System.Void HandleStatsScopeSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
-    // Offset: 0xC1CD2C
+    // Offset: 0xFE4110
     void HandleStatsScopeSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellIdx);
     // private PlayerAllOverallStatsData/PlayerOverallStatsData <DidActivate>b__15_0()
-    // Offset: 0xC1CDC8
+    // Offset: 0xFE41AC
     GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* $DidActivate$b__15_0();
     // private PlayerAllOverallStatsData/PlayerOverallStatsData <DidActivate>b__15_1()
-    // Offset: 0xC1CDF8
+    // Offset: 0xFE41EC
     GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* $DidActivate$b__15_1();
     // private PlayerAllOverallStatsData/PlayerOverallStatsData <DidActivate>b__15_2()
-    // Offset: 0xC1CE28
+    // Offset: 0xFE421C
     GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* $DidActivate$b__15_2();
     // private PlayerAllOverallStatsData/PlayerOverallStatsData <DidActivate>b__15_3()
-    // Offset: 0xC1CE58
+    // Offset: 0xFE424C
     GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* $DidActivate$b__15_3();
-    // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xC1C298
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0xFE36E0
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
-    // protected override System.Void DidDeactivate(HMUI.ViewController/DeactivationType deactivationType)
-    // Offset: 0xC1CC80
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    // Offset: 0xFE4064
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidDeactivate(HMUI.ViewController/DeactivationType deactivationType)
-    void DidDeactivate(HMUI::ViewController::DeactivationType deactivationType);
+    // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0xC1CDC0
+    // Offset: 0xFE41A4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

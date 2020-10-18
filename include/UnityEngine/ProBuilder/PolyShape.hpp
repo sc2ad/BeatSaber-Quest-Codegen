@@ -98,40 +98,40 @@ namespace UnityEngine::ProBuilder {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3> get_controlPoints()
-    // Offset: 0x1032524
+    // Offset: 0x1586A58
     System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::Vector3>* get_controlPoints();
     // public System.Void SetControlPoints(System.Collections.Generic.IList`1<UnityEngine.Vector3> points)
-    // Offset: 0x1032594
+    // Offset: 0x1586AC8
     void SetControlPoints(System::Collections::Generic::IList_1<UnityEngine::Vector3>* points);
     // public System.Single get_extrude()
-    // Offset: 0x1032600
+    // Offset: 0x1586B34
     float get_extrude();
     // public System.Void set_extrude(System.Single value)
-    // Offset: 0x1032608
+    // Offset: 0x1586B3C
     void set_extrude(float value);
-    // public UnityEngine.ProBuilder.PolyShape/PolyEditMode get_polyEditMode()
-    // Offset: 0x1032610
+    // UnityEngine.ProBuilder.PolyShape/PolyEditMode get_polyEditMode()
+    // Offset: 0x1586B44
     UnityEngine::ProBuilder::PolyShape::PolyEditMode get_polyEditMode();
-    // public System.Void set_polyEditMode(UnityEngine.ProBuilder.PolyShape/PolyEditMode value)
-    // Offset: 0x1032618
+    // System.Void set_polyEditMode(UnityEngine.ProBuilder.PolyShape/PolyEditMode value)
+    // Offset: 0x1586B4C
     void set_polyEditMode(UnityEngine::ProBuilder::PolyShape::PolyEditMode value);
     // public System.Boolean get_flipNormals()
-    // Offset: 0x1032620
+    // Offset: 0x1586B54
     bool get_flipNormals();
     // public System.Void set_flipNormals(System.Boolean value)
-    // Offset: 0x1032628
+    // Offset: 0x1586B5C
     void set_flipNormals(bool value);
-    // public UnityEngine.ProBuilder.ProBuilderMesh get_mesh()
-    // Offset: 0x1032634
+    // UnityEngine.ProBuilder.ProBuilderMesh get_mesh()
+    // Offset: 0x1586B68
     UnityEngine::ProBuilder::ProBuilderMesh* get_mesh();
-    // public System.Void set_mesh(UnityEngine.ProBuilder.ProBuilderMesh value)
-    // Offset: 0x10326E0
+    // System.Void set_mesh(UnityEngine.ProBuilder.ProBuilderMesh value)
+    // Offset: 0x1586C14
     void set_mesh(UnityEngine::ProBuilder::ProBuilderMesh* value);
     // private System.Boolean IsSnapEnabled()
-    // Offset: 0x10326E8
+    // Offset: 0x1586C1C
     bool IsSnapEnabled();
     // public System.Void .ctor()
-    // Offset: 0x10326F0
+    // Offset: 0x1586C24
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

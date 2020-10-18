@@ -19,7 +19,7 @@ namespace Oculus::Platform {
   class Entitlements : public ::Il2CppObject {
     public:
     // static public Oculus.Platform.Request IsUserEntitledToApplication()
-    // Offset: 0xE99A10
+    // Offset: 0x135A10C
     static Oculus::Platform::Request* IsUserEntitledToApplication();
   }; // Oculus.Platform.Entitlements
 }

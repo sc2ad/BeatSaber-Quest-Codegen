@@ -24,10 +24,10 @@ namespace RootMotion {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void OnGUI()
-    // Offset: 0x13AA7B4
+    // Offset: 0x1ACAAEC
     void OnGUI();
     // public System.Void .ctor()
-    // Offset: 0x13AA8F4
+    // Offset: 0x1ACAC2C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

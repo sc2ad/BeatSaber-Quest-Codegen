@@ -32,34 +32,34 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x20
     NUnit::Framework::Constraints::ConstraintStatus Status;
     // public System.Void .ctor(NUnit.Framework.Constraints.IConstraint constraint, System.Object actualValue)
-    // Offset: 0x1076878
+    // Offset: 0x15E07C8
     static ConstraintResult* New_ctor(NUnit::Framework::Constraints::IConstraint* constraint, ::Il2CppObject* actualValue);
     // public System.Void .ctor(NUnit.Framework.Constraints.IConstraint constraint, System.Object actualValue, System.Boolean isSuccess)
-    // Offset: 0x10768C8
+    // Offset: 0x15E0818
     static ConstraintResult* New_ctor(NUnit::Framework::Constraints::IConstraint* constraint, ::Il2CppObject* actualValue, bool isSuccess);
     // public System.Object get_ActualValue()
-    // Offset: 0x1076904
+    // Offset: 0x15E0854
     ::Il2CppObject* get_ActualValue();
     // private System.Void set_ActualValue(System.Object value)
-    // Offset: 0x107690C
+    // Offset: 0x15E085C
     void set_ActualValue(::Il2CppObject* value);
     // public NUnit.Framework.Constraints.ConstraintStatus get_Status()
-    // Offset: 0x1076914
+    // Offset: 0x15E0864
     NUnit::Framework::Constraints::ConstraintStatus get_Status();
     // public System.Void set_Status(NUnit.Framework.Constraints.ConstraintStatus value)
-    // Offset: 0x107691C
+    // Offset: 0x15E086C
     void set_Status(NUnit::Framework::Constraints::ConstraintStatus value);
     // public System.Boolean get_IsSuccess()
-    // Offset: 0x1076924
+    // Offset: 0x15E0874
     bool get_IsSuccess();
     // public System.String get_Description()
-    // Offset: 0x1076934
+    // Offset: 0x15E0884
     ::Il2CppString* get_Description();
     // public System.Void WriteMessageTo(NUnit.Framework.Constraints.MessageWriter writer)
-    // Offset: 0x10769E4
+    // Offset: 0x15E0934
     void WriteMessageTo(NUnit::Framework::Constraints::MessageWriter* writer);
     // public System.Void WriteActualValueTo(NUnit.Framework.Constraints.MessageWriter writer)
-    // Offset: 0x1076A10
+    // Offset: 0x15E0960
     void WriteActualValueTo(NUnit::Framework::Constraints::MessageWriter* writer);
   }; // NUnit.Framework.Constraints.ConstraintResult
 }

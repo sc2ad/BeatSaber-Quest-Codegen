@@ -24,12 +24,12 @@ namespace GlobalNamespace {
     constexpr operator int() const noexcept {
       return value;
     }
-    // static field const value: static public PlatformLeaderboardsModel/GetScoresResult OK
-    static constexpr const int OK = 0;
-    // Get static field: static public PlatformLeaderboardsModel/GetScoresResult OK
-    static GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult _get_OK();
-    // Set static field: static public PlatformLeaderboardsModel/GetScoresResult OK
-    static void _set_OK(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult value);
+    // static field const value: static public PlatformLeaderboardsModel/GetScoresResult Ok
+    static constexpr const int Ok = 0;
+    // Get static field: static public PlatformLeaderboardsModel/GetScoresResult Ok
+    static GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult _get_Ok();
+    // Set static field: static public PlatformLeaderboardsModel/GetScoresResult Ok
+    static void _set_Ok(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult value);
     // static field const value: static public PlatformLeaderboardsModel/GetScoresResult Failed
     static constexpr const int Failed = 1;
     // Get static field: static public PlatformLeaderboardsModel/GetScoresResult Failed

@@ -30,18 +30,18 @@ namespace System::Collections {
       return m_text;
     }
     // public System.Void .ctor(System.Globalization.CultureInfo culture)
-    // Offset: 0x133A858
+    // Offset: 0x15D45FC
     static CaseInsensitiveHashCodeProvider* New_ctor(System::Globalization::CultureInfo* culture);
     // static public System.Collections.CaseInsensitiveHashCodeProvider get_Default()
-    // Offset: 0x133A90C
+    // Offset: 0x15D46AC
     static System::Collections::CaseInsensitiveHashCodeProvider* get_Default();
     // public System.Void .ctor()
-    // Offset: 0x133A7C4
+    // Offset: 0x15D4568
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CaseInsensitiveHashCodeProvider* New_ctor();
     // public System.Int32 GetHashCode(System.Object obj)
-    // Offset: 0x133A998
+    // Offset: 0x15D4738
     // Implemented from: System.Collections.IHashCodeProvider
     // Base method: System.Int32 IHashCodeProvider::GetHashCode(System.Object obj)
     int GetHashCode(::Il2CppObject* obj);

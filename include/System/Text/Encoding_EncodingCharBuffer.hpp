@@ -53,34 +53,34 @@ namespace System::Text {
     // Offset: 0x58
     System::Text::DecoderFallbackBuffer* fallbackBuffer;
     // System.Void .ctor(System.Text.Encoding enc, System.Text.DecoderNLS decoder, System.Char* charStart, System.Int32 charCount, System.Byte* byteStart, System.Int32 byteCount)
-    // Offset: 0x12F9764
+    // Offset: 0x188DC64
     static Encoding::EncodingCharBuffer* New_ctor(System::Text::Encoding* enc, System::Text::DecoderNLS* decoder, ::Il2CppChar* charStart, int charCount, uint8_t* byteStart, int byteCount);
     // System.Boolean AddChar(System.Char ch, System.Int32 numBytes)
-    // Offset: 0x12F9848
+    // Offset: 0x188DD48
     bool AddChar(::Il2CppChar ch, int numBytes);
     // System.Boolean AddChar(System.Char ch)
-    // Offset: 0x12F98BC
+    // Offset: 0x188DDBC
     bool AddChar(::Il2CppChar ch);
     // System.Void AdjustBytes(System.Int32 count)
-    // Offset: 0x12F98C4
+    // Offset: 0x188DDC4
     void AdjustBytes(int count);
     // System.Boolean get_MoreData()
-    // Offset: 0x12F98D4
+    // Offset: 0x188DDD4
     bool get_MoreData();
     // System.Byte GetNextByte()
-    // Offset: 0x12F98E4
+    // Offset: 0x188DDE4
     uint8_t GetNextByte();
     // System.Int32 get_BytesUsed()
-    // Offset: 0x12F9908
+    // Offset: 0x188DE08
     int get_BytesUsed();
     // System.Boolean Fallback(System.Byte fallbackByte)
-    // Offset: 0x12F9918
+    // Offset: 0x188DE18
     bool Fallback(uint8_t fallbackByte);
     // System.Boolean Fallback(System.Byte[] byteBuffer)
-    // Offset: 0x12F99A0
+    // Offset: 0x188DEA0
     bool Fallback(::Array<uint8_t>* byteBuffer);
     // System.Int32 get_Count()
-    // Offset: 0x12F9A90
+    // Offset: 0x188DF90
     int get_Count();
   }; // System.Text.Encoding/EncodingCharBuffer
 }

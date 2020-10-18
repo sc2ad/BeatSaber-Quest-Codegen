@@ -31,13 +31,13 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.Material> s_MaterialArray
     static void _set_s_MaterialArray(System::Collections::Generic::List_1<UnityEngine::Material*>* value);
     // static System.Int32 GetMaterialCount(UnityEngine.Renderer renderer)
-    // Offset: 0xF9FA28
+    // Offset: 0x1943580
     static int GetMaterialCount(UnityEngine::Renderer* renderer);
     // static UnityEngine.Material GetSharedMaterial(UnityEngine.Renderer renderer, System.Int32 index)
-    // Offset: 0xF9FADC
+    // Offset: 0x1943634
     static UnityEngine::Material* GetSharedMaterial(UnityEngine::Renderer* renderer, int index);
     // static private System.Void .cctor()
-    // Offset: 0xF9FC2C
+    // Offset: 0x1943784
     static void _cctor();
   }; // UnityEngine.ProBuilder.MaterialUtility
 }

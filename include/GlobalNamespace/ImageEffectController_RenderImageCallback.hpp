@@ -31,16 +31,16 @@ namespace GlobalNamespace {
   class ImageEffectController::RenderImageCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x18294F8
+    // Offset: 0x1FABC08
     static ImageEffectController::RenderImageCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x18290EC
+    // Offset: 0x1FAB7FC
     void Invoke(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);
     // public System.IAsyncResult BeginInvoke(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x182950C
+    // Offset: 0x1FABC1C
     System::IAsyncResult* BeginInvoke(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x182953C
+    // Offset: 0x1FABC4C
     void EndInvoke(System::IAsyncResult* result);
   }; // ImageEffectController/RenderImageCallback
 }

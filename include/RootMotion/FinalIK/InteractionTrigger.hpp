@@ -37,28 +37,28 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void OpenUserManual()
-    // Offset: 0x1230948
+    // Offset: 0x18E4A80
     void OpenUserManual();
     // private System.Void OpenScriptReference()
-    // Offset: 0x1230994
+    // Offset: 0x18E4ACC
     void OpenScriptReference();
     // private System.Void OpenTutorial4()
-    // Offset: 0x12309E0
+    // Offset: 0x18E4B18
     void OpenTutorial4();
     // private System.Void SupportGroup()
-    // Offset: 0x1230A2C
+    // Offset: 0x18E4B64
     void SupportGroup();
     // private System.Void ASThread()
-    // Offset: 0x1230A78
+    // Offset: 0x18E4BB0
     void ASThread();
     // private System.Void Start()
-    // Offset: 0x1230AC4
+    // Offset: 0x18E4BFC
     void Start();
     // public System.Int32 GetBestRangeIndex(UnityEngine.Transform character, UnityEngine.Transform raycastFrom, UnityEngine.RaycastHit raycastHit)
-    // Offset: 0x1230AC8
+    // Offset: 0x18E4C00
     int GetBestRangeIndex(UnityEngine::Transform* character, UnityEngine::Transform* raycastFrom, UnityEngine::RaycastHit raycastHit);
     // public System.Void .ctor()
-    // Offset: 0x1230E5C
+    // Offset: 0x18E4F94
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

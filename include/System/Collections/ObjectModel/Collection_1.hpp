@@ -80,9 +80,9 @@ namespace System::Collections::ObjectModel {
     // public System.Int32 get_Count()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
-    // Base method: System.Int32 ICollection`1::get_Count()
+    // Base method: System.Int32 ICollection_1::get_Count()
     // Base method: System.Int32 ICollection::get_Count()
-    // Base method: System.Int32 IReadOnlyCollection`1::get_Count()
+    // Base method: System.Int32 IReadOnlyCollection_1::get_Count()
     int get_Count() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "get_Count"));
     }
@@ -99,8 +99,8 @@ namespace System::Collections::ObjectModel {
     // public T get_Item(System.Int32 index)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IList`1
-    // Base method: T IList`1::get_Item(System.Int32 index)
-    // Base method: T IReadOnlyList`1::get_Item(System.Int32 index)
+    // Base method: T IList_1::get_Item(System.Int32 index)
+    // Base method: T IReadOnlyList_1::get_Item(System.Int32 index)
     T get_Item(int index) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "get_Item", index));
     }
@@ -117,7 +117,7 @@ namespace System::Collections::ObjectModel {
     // public System.Void set_Item(System.Int32 index, T value)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IList`1
-    // Base method: System.Void IList`1::set_Item(System.Int32 index, T value)
+    // Base method: System.Void IList_1::set_Item(System.Int32 index, T value)
     void set_Item(int index, T value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_Item", index, value));
     }
@@ -129,7 +129,7 @@ namespace System::Collections::ObjectModel {
     // public System.Void Add(T item)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
-    // Base method: System.Void ICollection`1::Add(T item)
+    // Base method: System.Void ICollection_1::Add(T item)
     void Add(T item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Add", item));
     }
@@ -141,7 +141,7 @@ namespace System::Collections::ObjectModel {
     // public System.Void Clear()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
-    // Base method: System.Void ICollection`1::Clear()
+    // Base method: System.Void ICollection_1::Clear()
     // Base method: System.Void IList::Clear()
     void Clear() {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Clear"));
@@ -159,7 +159,7 @@ namespace System::Collections::ObjectModel {
     // public System.Void CopyTo(T[] array, System.Int32 index)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
-    // Base method: System.Void ICollection`1::CopyTo(T[] array, System.Int32 index)
+    // Base method: System.Void ICollection_1::CopyTo(T[] array, System.Int32 index)
     void CopyTo(::Array<T>* array, int index) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "CopyTo", array, index));
     }
@@ -171,7 +171,7 @@ namespace System::Collections::ObjectModel {
     // public System.Boolean Contains(T item)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
-    // Base method: System.Boolean ICollection`1::Contains(T item)
+    // Base method: System.Boolean ICollection_1::Contains(T item)
     bool Contains(T item) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "Contains", item));
     }
@@ -183,7 +183,7 @@ namespace System::Collections::ObjectModel {
     // public System.Collections.Generic.IEnumerator`1<T> GetEnumerator()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IEnumerable`1
-    // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable`1::GetEnumerator()
+    // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable_1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<T>* GetEnumerator() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerator_1<T>*>(this, "GetEnumerator"));
     }
@@ -195,7 +195,7 @@ namespace System::Collections::ObjectModel {
     // public System.Int32 IndexOf(T item)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IList`1
-    // Base method: System.Int32 IList`1::IndexOf(T item)
+    // Base method: System.Int32 IList_1::IndexOf(T item)
     int IndexOf(T item) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "IndexOf", item));
     }
@@ -207,7 +207,7 @@ namespace System::Collections::ObjectModel {
     // public System.Void Insert(System.Int32 index, T item)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IList`1
-    // Base method: System.Void IList`1::Insert(System.Int32 index, T item)
+    // Base method: System.Void IList_1::Insert(System.Int32 index, T item)
     void Insert(int index, T item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Insert", index, item));
     }
@@ -219,7 +219,7 @@ namespace System::Collections::ObjectModel {
     // public System.Boolean Remove(T item)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
-    // Base method: System.Boolean ICollection`1::Remove(T item)
+    // Base method: System.Boolean ICollection_1::Remove(T item)
     bool Remove(T item) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "Remove", item));
     }
@@ -231,7 +231,7 @@ namespace System::Collections::ObjectModel {
     // public System.Void RemoveAt(System.Int32 index)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IList`1
-    // Base method: System.Void IList`1::RemoveAt(System.Int32 index)
+    // Base method: System.Void IList_1::RemoveAt(System.Int32 index)
     // Base method: System.Void IList::RemoveAt(System.Int32 index)
     void RemoveAt(int index) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "RemoveAt", index));
@@ -249,7 +249,7 @@ namespace System::Collections::ObjectModel {
     // private System.Boolean System.Collections.Generic.ICollection<T>.get_IsReadOnly()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
-    // Base method: System.Boolean ICollection`1::get_IsReadOnly()
+    // Base method: System.Boolean ICollection_1::get_IsReadOnly()
     bool System_Collections_Generic_ICollection_1_get_IsReadOnly() {
       return THROW_UNLESS((il2cpp_utils::RunMethod<bool>(this, "System.Collections.Generic.ICollection<T>.get_IsReadOnly")));
     }

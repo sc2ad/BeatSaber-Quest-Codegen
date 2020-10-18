@@ -35,16 +35,16 @@ namespace System::Runtime::CompilerServices {
     // Set static field: static public System.Threading.WaitCallback <>9__6_1
     static void _set_$$9__6_1(System::Threading::WaitCallback* value);
     // static private System.Void .cctor()
-    // Offset: 0x1165C58
+    // Offset: 0x128FEF0
     static void _cctor();
     // System.Void <ThrowAsync>b__6_0(System.Object state)
-    // Offset: 0x1165CC8
+    // Offset: 0x128FF60
     void $ThrowAsync$b__6_0(::Il2CppObject* state);
     // System.Void <ThrowAsync>b__6_1(System.Object state)
-    // Offset: 0x1165D88
+    // Offset: 0x1290020
     void $ThrowAsync$b__6_1(::Il2CppObject* state);
     // public System.Void .ctor()
-    // Offset: 0x1165CC0
+    // Offset: 0x128FF58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AsyncMethodBuilderCore::$$c* New_ctor();

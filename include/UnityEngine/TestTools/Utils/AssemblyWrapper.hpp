@@ -28,10 +28,10 @@ namespace UnityEngine::TestTools::Utils {
       return Assembly;
     }
     // public System.Void .ctor(System.Reflection.Assembly assembly)
-    // Offset: 0xE4A214
+    // Offset: 0x12C6F74
     static AssemblyWrapper* New_ctor(System::Reflection::Assembly* assembly);
     // public System.Reflection.Assembly get_Assembly()
-    // Offset: 0xE4A248
+    // Offset: 0x12C6FA8
     // Implemented from: UnityEngine.TestTools.Utils.IAssemblyWrapper
     // Base method: System.Reflection.Assembly IAssemblyWrapper::get_Assembly()
     System::Reflection::Assembly* get_Assembly();

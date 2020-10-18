@@ -41,28 +41,28 @@ namespace UnityEngine::Networking {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static private System.IntPtr Create(UnityEngine.Networking.DownloadHandlerTexture obj, System.Boolean readable)
-    // Offset: 0x1982A70
+    // Offset: 0x222CE20
     static System::IntPtr Create(UnityEngine::Networking::DownloadHandlerTexture* obj, bool readable);
     // private System.Void InternalCreateTexture(System.Boolean readable)
-    // Offset: 0x1982AC0
+    // Offset: 0x222CE70
     void InternalCreateTexture(bool readable);
     // public System.Void .ctor(System.Boolean readable)
-    // Offset: 0x1982B18
+    // Offset: 0x222CEC8
     static DownloadHandlerTexture* New_ctor(bool readable);
     // public UnityEngine.Texture2D get_texture()
-    // Offset: 0x1982B8C
+    // Offset: 0x222CF3C
     UnityEngine::Texture2D* get_texture();
     // private UnityEngine.Texture2D InternalGetTexture()
-    // Offset: 0x1982B90
+    // Offset: 0x222CF40
     UnityEngine::Texture2D* InternalGetTexture();
     // private UnityEngine.Texture2D InternalGetTextureNative()
-    // Offset: 0x1982CE4
+    // Offset: 0x222D094
     UnityEngine::Texture2D* InternalGetTextureNative();
     // static public UnityEngine.Texture2D GetContent(UnityEngine.Networking.UnityWebRequest www)
-    // Offset: 0x1982D24
+    // Offset: 0x222D0D4
     static UnityEngine::Texture2D* GetContent(UnityEngine::Networking::UnityWebRequest* www);
     // protected override System.Byte[] GetData()
-    // Offset: 0x1982B84
+    // Offset: 0x222CF34
     // Implemented from: UnityEngine.Networking.DownloadHandler
     // Base method: System.Byte[] DownloadHandler::GetData()
     ::Array<uint8_t>* GetData();

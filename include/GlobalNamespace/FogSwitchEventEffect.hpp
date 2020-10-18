@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // private BeatmapEventType _event
     // Offset: 0x20
     GlobalNamespace::BeatmapEventType event;
-    // private BeatmapObjectCallbackController _beatmapObjectCallbackController
+    // private readonly BeatmapObjectCallbackController _beatmapObjectCallbackController
     // Offset: 0x28
     GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Deleting conversion operator: operator System::IntPtr
@@ -51,22 +51,22 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kTransitionDuration
     static void _set_kTransitionDuration(float value);
     // protected System.Void Start()
-    // Offset: 0xBF179C
+    // Offset: 0xEBD078
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0xBF1830
+    // Offset: 0xEBD10C
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0xBF1908
+    // Offset: 0xEBD1E8
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void AnimateToFog(System.Single duration, System.Single value)
-    // Offset: 0xBF195C
+    // Offset: 0xEBD23C
     void AnimateToFog(float duration, float value);
     // private System.Collections.IEnumerator AnimateToFogCoroutine(System.Single duration, System.Single value)
-    // Offset: 0xBF19AC
+    // Offset: 0xEBD28C
     System::Collections::IEnumerator* AnimateToFogCoroutine(float duration, float value);
     // public System.Void .ctor()
-    // Offset: 0xBF1A68
+    // Offset: 0xEBD348
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

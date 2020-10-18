@@ -27,49 +27,49 @@ namespace UnityEngine::ProBuilder {
       return value;
     }
     // public System.Single get_x()
-    // Offset: 0xA3CCD8
+    // Offset: 0xDBDC10
     float get_x();
     // public System.Single get_y()
-    // Offset: 0xA3CCE0
+    // Offset: 0xDBDC18
     float get_y();
     // public System.Single get_z()
-    // Offset: 0xA3CCE8
+    // Offset: 0xDBDC20
     float get_z();
     // public System.Void .ctor(UnityEngine.Vector3 vector)
-    // Offset: 0xA3CCF0
+    // Offset: 0xDBDC28
     // ABORTED: conflicts with another method.  IntVec3(UnityEngine::Vector3 vector);
     // public System.Boolean Equals(UnityEngine.Vector3 p)
-    // Offset: 0xA3CD0C
+    // Offset: 0xDBDC44
     bool Equals(UnityEngine::Vector3 p);
     // static private System.Int32 round(System.Single v)
-    // Offset: 0xF9DE6C
+    // Offset: 0x19419C4
     static int round(float v);
     // public override System.String ToString()
-    // Offset: 0xA3CCFC
+    // Offset: 0xDBDC34
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public System.Boolean Equals(UnityEngine.ProBuilder.IntVec3 p)
-    // Offset: 0xA3CD04
+    // Offset: 0xDBDC3C
     // Implemented from: System.IEquatable`1
-    // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.ProBuilder.IntVec3 p)
+    // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.ProBuilder.IntVec3 p)
     bool Equals(UnityEngine::ProBuilder::IntVec3 p);
     // public override System.Boolean Equals(System.Object b)
-    // Offset: 0xA3CD14
+    // Offset: 0xDBDC4C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object b)
     bool Equals(::Il2CppObject* b);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA3CD1C
+    // Offset: 0xDBDC54
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.ProBuilder.IntVec3
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.IntVec3 a, UnityEngine.ProBuilder.IntVec3 b)
-  // Offset: 0xF9DD60
+  // Offset: 0x19418B8
   bool operator ==(const UnityEngine::ProBuilder::IntVec3& a, const UnityEngine::ProBuilder::IntVec3& b);
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.IntVec3 a, UnityEngine.ProBuilder.IntVec3 b)
-  // Offset: 0xF9DE30
+  // Offset: 0x1941988
   bool operator !=(const UnityEngine::ProBuilder::IntVec3& a, const UnityEngine::ProBuilder::IntVec3& b);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

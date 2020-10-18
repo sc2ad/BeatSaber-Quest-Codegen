@@ -23,19 +23,19 @@ namespace UnityEngine::Scripting {
     // Offset: 0x19
     bool GenerateProxy;
     // public System.Void .ctor(System.String name)
-    // Offset: 0x19754C0
+    // Offset: 0x2224218
     static RequiredByNativeCodeAttribute* New_ctor(::Il2CppString* name);
     // public System.Void set_Name(System.String value)
-    // Offset: 0x19754F4
+    // Offset: 0x222424C
     void set_Name(::Il2CppString* value);
     // public System.Void set_Optional(System.Boolean value)
-    // Offset: 0x19754FC
+    // Offset: 0x2224254
     void set_Optional(bool value);
     // public System.Void set_GenerateProxy(System.Boolean value)
-    // Offset: 0x1975508
+    // Offset: 0x2224260
     void set_GenerateProxy(bool value);
     // public System.Void .ctor()
-    // Offset: 0x19754B8
+    // Offset: 0x2224210
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

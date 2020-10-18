@@ -35,39 +35,39 @@ namespace System::Runtime::Remoting::Metadata {
     // Offset: 0x51
     bool isElement;
     // public System.String get_XmlElementName()
-    // Offset: 0xE154F0
+    // Offset: 0x14FAA54
     ::Il2CppString* get_XmlElementName();
     // public System.String get_XmlTypeName()
-    // Offset: 0xE15500
+    // Offset: 0x14FAA64
     ::Il2CppString* get_XmlTypeName();
     // public System.String get_XmlTypeNamespace()
-    // Offset: 0xE15508
+    // Offset: 0x14FAA6C
     ::Il2CppString* get_XmlTypeNamespace();
     // System.Boolean get_IsInteropXmlElement()
-    // Offset: 0xE15510
+    // Offset: 0x14FAA74
     bool get_IsInteropXmlElement();
     // System.Boolean get_IsInteropXmlType()
-    // Offset: 0xE15518
+    // Offset: 0x14FAA7C
     bool get_IsInteropXmlType();
     // public System.Void .ctor()
-    // Offset: 0xE154E0
+    // Offset: 0x14FAA44
     // Implemented from: System.Runtime.Remoting.Metadata.SoapAttribute
     // Base method: System.Void SoapAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()
     static SoapTypeAttribute* New_ctor();
     // public override System.Boolean get_UseAttribute()
-    // Offset: 0xE154E8
+    // Offset: 0x14FAA4C
     // Implemented from: System.Runtime.Remoting.Metadata.SoapAttribute
     // Base method: System.Boolean SoapAttribute::get_UseAttribute()
     bool get_UseAttribute();
     // public override System.String get_XmlNamespace()
-    // Offset: 0xE154F8
+    // Offset: 0x14FAA5C
     // Implemented from: System.Runtime.Remoting.Metadata.SoapAttribute
     // Base method: System.String SoapAttribute::get_XmlNamespace()
     ::Il2CppString* get_XmlNamespace();
     // override System.Void SetReflectionObject(System.Object reflectionObject)
-    // Offset: 0xE15520
+    // Offset: 0x14FAA84
     // Implemented from: System.Runtime.Remoting.Metadata.SoapAttribute
     // Base method: System.Void SoapAttribute::SetReflectionObject(System.Object reflectionObject)
     void SetReflectionObject(::Il2CppObject* reflectionObject);

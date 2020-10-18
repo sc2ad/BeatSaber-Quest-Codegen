@@ -21,7 +21,7 @@ namespace UnityEngine::TestTools {
       return MustExpect;
     }
     // public System.Boolean get_MustExpect()
-    // Offset: 0xE453FC
+    // Offset: 0x12C213C
     bool get_MustExpect();
   }; // UnityEngine.TestTools.TestMustExpectAllLogsAttribute
 }

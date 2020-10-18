@@ -18,8 +18,8 @@ namespace Zenject {
   class IPoolable_1;
   // Forward declaring type: IMemoryPool
   class IMemoryPool;
-  // Forward declaring type: MemoryPool`2<TValue, TParam1>
-  template<typename TValue, typename TParam1>
+  // Forward declaring type: MemoryPool`2<TParam1, TValue>
+  template<typename TParam1, typename TValue>
   class MemoryPool_2;
   // Forward declaring type: MemoryPoolInitialSizeMaxSizeBinder`1<TContract>
   template<typename TContract>

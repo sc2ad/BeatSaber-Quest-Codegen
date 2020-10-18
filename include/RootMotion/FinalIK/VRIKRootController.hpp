@@ -44,28 +44,28 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Vector3 get_pelvisTargetRight()
-    // Offset: 0x1241320
+    // Offset: 0x18F5458
     UnityEngine::Vector3 get_pelvisTargetRight();
     // private System.Void set_pelvisTargetRight(UnityEngine.Vector3 value)
-    // Offset: 0x124132C
+    // Offset: 0x18F5464
     void set_pelvisTargetRight(UnityEngine::Vector3 value);
     // private System.Void Awake()
-    // Offset: 0x1241338
+    // Offset: 0x18F5470
     void Awake();
     // public System.Void Calibrate()
-    // Offset: 0x123FDC4
+    // Offset: 0x18F3EFC
     void Calibrate();
     // public System.Void Calibrate(RootMotion.FinalIK.VRIKCalibrator/CalibrationData data)
-    // Offset: 0x1240E4C
+    // Offset: 0x18F4F84
     void Calibrate(RootMotion::FinalIK::VRIKCalibrator::CalibrationData* data);
     // private System.Void OnPreUpdate()
-    // Offset: 0x1241434
+    // Offset: 0x18F556C
     void OnPreUpdate();
     // private System.Void OnDestroy()
-    // Offset: 0x12418D8
+    // Offset: 0x18F5A10
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x12419F4
+    // Offset: 0x18F5B2C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

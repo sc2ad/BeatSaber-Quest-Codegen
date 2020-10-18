@@ -23,23 +23,31 @@ namespace System::Security::Cryptography {
     // Offset: 0x20
     System::Security::Cryptography::OidGroup m_group;
     // public System.Void .ctor(System.String oid)
-    // Offset: 0x121C470
+    // Offset: 0x16B6D3C
     static Oid* New_ctor(::Il2CppString* oid);
     // System.Void .ctor(System.String oid, System.Security.Cryptography.OidGroup group, System.Boolean lookupFriendlyName)
-    // Offset: 0x121C47C
+    // Offset: 0x16B6D48
     static Oid* New_ctor(::Il2CppString* oid, System::Security::Cryptography::OidGroup group, bool lookupFriendlyName);
     // public System.Void .ctor(System.String value, System.String friendlyName)
-    // Offset: 0x121C548
+    // Offset: 0x16B6E18
     static Oid* New_ctor(::Il2CppString* value, ::Il2CppString* friendlyName);
     // public System.Void .ctor(System.Security.Cryptography.Oid oid)
-    // Offset: 0x121A0C8
+    // Offset: 0x16B6E68
     static Oid* New_ctor(System::Security::Cryptography::Oid* oid);
     // public System.String get_Value()
-    // Offset: 0x121C598
+    // Offset: 0x16B6F28
     ::Il2CppString* get_Value();
     // public System.Void set_Value(System.String value)
-    // Offset: 0x121C5A0
+    // Offset: 0x16B6F30
     void set_Value(::Il2CppString* value);
+    // public System.String get_FriendlyName()
+    // Offset: 0x16B6F38
+    ::Il2CppString* get_FriendlyName();
+    // public System.Void .ctor()
+    // Offset: 0x16B6D34
+    // Implemented from: System.Object
+    // Base method: System.Void Object::.ctor()
+    static Oid* New_ctor();
   }; // System.Security.Cryptography.Oid
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

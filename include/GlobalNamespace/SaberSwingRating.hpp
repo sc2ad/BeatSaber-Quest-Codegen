@@ -50,19 +50,14 @@ namespace GlobalNamespace {
     // Set static field: static public System.Single kAfterCutAngleFor1Rating
     static void _set_kAfterCutAngleFor1Rating(float value);
     // static private System.Single NormalRating(System.Single normalDiff)
-    // Offset: 0xC2981C
+    // Offset: 0xF81930
     static float NormalRating(float normalDiff);
     // static public System.Single BeforeCutStepRating(System.Single angleDiff, System.Single normalDiff)
-    // Offset: 0xC29574
+    // Offset: 0xF81688
     static float BeforeCutStepRating(float angleDiff, float normalDiff);
     // static public System.Single AfterCutStepRating(System.Single angleDiff, System.Single normalDiff)
-    // Offset: 0xC298B0
+    // Offset: 0xF819C4
     static float AfterCutStepRating(float angleDiff, float normalDiff);
-    // public System.Void .ctor()
-    // Offset: 0xC298E4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    static SaberSwingRating* New_ctor();
   }; // SaberSwingRating
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

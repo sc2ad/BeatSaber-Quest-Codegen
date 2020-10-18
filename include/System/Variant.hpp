@@ -80,7 +80,7 @@ namespace System {
     // Creating value type constructor for type: Variant
     constexpr Variant(int16_t vt_ = {}, uint16_t wReserved1_ = {}, uint16_t wReserved2_ = {}, uint16_t wReserved3_ = {}, int64_t llVal_ = {}, int lVal_ = {}, uint8_t bVal_ = {}, int16_t iVal_ = {}, float fltVal_ = {}, double dblVal_ = {}, int16_t boolVal_ = {}, System::IntPtr bstrVal_ = {}, int8_t cVal_ = {}, uint16_t uiVal_ = {}, uint ulVal_ = {}, uint64_t ullVal_ = {}, int intVal_ = {}, uint uintVal_ = {}, System::IntPtr pdispVal_ = {}, System::BRECORD bRecord_ = {}) noexcept : vt{vt_}, wReserved1{wReserved1_}, wReserved2{wReserved2_}, wReserved3{wReserved3_}, llVal{llVal_}, lVal{lVal_}, bVal{bVal_}, iVal{iVal_}, fltVal{fltVal_}, dblVal{dblVal_}, boolVal{boolVal_}, bstrVal{bstrVal_}, cVal{cVal_}, uiVal{uiVal_}, ulVal{ulVal_}, ullVal{ullVal_}, intVal{intVal_}, uintVal{uintVal_}, pdispVal{pdispVal_}, bRecord{bRecord_} {}
     // public System.Void Clear()
-    // Offset: 0xA5769C
+    // Offset: 0xDBE858
     void Clear();
   }; // System.Variant
 }

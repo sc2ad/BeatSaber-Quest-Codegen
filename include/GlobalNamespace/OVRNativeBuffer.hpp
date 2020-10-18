@@ -25,33 +25,33 @@ namespace GlobalNamespace {
     // Offset: 0x18
     System::IntPtr m_ptr;
     // public System.Void .ctor(System.Int32 numBytes)
-    // Offset: 0xEEF018
+    // Offset: 0x13D1614
     static OVRNativeBuffer* New_ctor(int numBytes);
     // public System.Void Reset(System.Int32 numBytes)
-    // Offset: 0xEEF1C8
+    // Offset: 0x13D17C4
     void Reset(int numBytes);
     // public System.Int32 GetCapacity()
-    // Offset: 0xEEF1CC
+    // Offset: 0x13D17C8
     int GetCapacity();
     // public System.IntPtr GetPointer(System.Int32 byteOffset)
-    // Offset: 0xEEF1D4
+    // Offset: 0x13D17D0
     System::IntPtr GetPointer(int byteOffset);
     // private System.Void Dispose(System.Boolean disposing)
-    // Offset: 0xEEF194
+    // Offset: 0x13D1790
     void Dispose(bool disposing);
     // private System.Void Reallocate(System.Int32 numBytes)
-    // Offset: 0xEEF07C
+    // Offset: 0x13D1678
     void Reallocate(int numBytes);
     // private System.Void Release()
-    // Offset: 0xEEF2E8
+    // Offset: 0x13D18E4
     void Release();
     // protected override System.Void Finalize()
-    // Offset: 0xEEF118
+    // Offset: 0x13D1714
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public System.Void Dispose()
-    // Offset: 0xEEF268
+    // Offset: 0x13D1864
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

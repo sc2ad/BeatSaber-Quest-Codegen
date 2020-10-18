@@ -34,13 +34,13 @@ namespace Zenject {
     // Offset: 0x18
     UnityEngine::MonoBehaviour* monoBehaviour;
     // System.Boolean <FromComponentsInChildrenBase>b__2(UnityEngine.Component x)
-    // Offset: 0xF37CA0
+    // Offset: 0x1450330
     bool $FromComponentsInChildrenBase$b__2(UnityEngine::Component* x);
     // System.Boolean <FromComponentsInChildrenBase>b__3(UnityEngine.Component x)
-    // Offset: 0xF37CC4
+    // Offset: 0x1450354
     bool $FromComponentsInChildrenBase$b__3(UnityEngine::Component* x);
     // public System.Void .ctor()
-    // Offset: 0xF37C98
+    // Offset: 0x1450328
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FromBinder::$$c__DisplayClass60_2* New_ctor();

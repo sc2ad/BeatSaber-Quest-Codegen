@@ -36,10 +36,10 @@ namespace UnityEngine::Events {
       return m_Calls;
     }
     // public System.Void Initialize(UnityEngine.Events.InvokableCallList invokableList, UnityEngine.Events.UnityEventBase unityEventBase)
-    // Offset: 0x13101B0
+    // Offset: 0x19EB420
     void Initialize(UnityEngine::Events::InvokableCallList* invokableList, UnityEngine::Events::UnityEventBase* unityEventBase);
     // public System.Void .ctor()
-    // Offset: 0x1310134
+    // Offset: 0x19EB3A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PersistentCallGroup* New_ctor();

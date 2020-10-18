@@ -26,31 +26,31 @@ namespace GlobalNamespace {
     // Offset: 0x24
     bool fullCombo;
     // public System.Int32 get_score()
-    // Offset: 0xB48070
+    // Offset: 0x101CE68
     int get_score();
     // private System.Void set_score(System.Int32 value)
-    // Offset: 0xB48078
+    // Offset: 0x101CE70
     void set_score(int value);
     // public System.String get_playerName()
-    // Offset: 0xB48080
+    // Offset: 0x101CE78
     ::Il2CppString* get_playerName();
     // private System.Void set_playerName(System.String value)
-    // Offset: 0xB48088
+    // Offset: 0x101CE80
     void set_playerName(::Il2CppString* value);
     // public System.Int32 get_rank()
-    // Offset: 0xB48090
+    // Offset: 0x101CE88
     int get_rank();
     // private System.Void set_rank(System.Int32 value)
-    // Offset: 0xB48098
+    // Offset: 0x101CE90
     void set_rank(int value);
     // public System.Boolean get_fullCombo()
-    // Offset: 0xB480A0
+    // Offset: 0x101CE98
     bool get_fullCombo();
     // private System.Void set_fullCombo(System.Boolean value)
-    // Offset: 0xB480A8
+    // Offset: 0x101CEA0
     void set_fullCombo(bool value);
     // public System.Void .ctor(System.Int32 score, System.String playerName, System.Int32 rank, System.Boolean fullCombo)
-    // Offset: 0xB480B4
+    // Offset: 0x101CEAC
     static LeaderboardTableView::ScoreData* New_ctor(int score, ::Il2CppString* playerName, int rank, bool fullCombo);
   }; // LeaderboardTableView/ScoreData
 }

@@ -27,10 +27,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     System::Collections::IEnumerator* action;
     // System.Void <Enqueue>b__0()
-    // Offset: 0xCB6DB8
+    // Offset: 0x109CCC0
     void $Enqueue$b__0();
     // public System.Void .ctor()
-    // Offset: 0xCB6BF8
+    // Offset: 0x109CB00
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HMMainThreadDispatcher::$$c__DisplayClass3_0* New_ctor();

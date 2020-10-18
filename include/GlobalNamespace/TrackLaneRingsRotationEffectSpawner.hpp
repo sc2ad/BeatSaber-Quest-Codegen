@@ -80,22 +80,22 @@ namespace GlobalNamespace {
     // private System.Single _rotationFlexySpeed
     // Offset: 0x34
     float rotationFlexySpeed;
-    // private BeatmapObjectCallbackController _beatmapObjectCallbackController
+    // private readonly BeatmapObjectCallbackController _beatmapObjectCallbackController
     // Offset: 0x38
     GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xC47750
+    // Offset: 0xF36288
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xC477E4
+    // Offset: 0xF3631C
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0xC478BC
+    // Offset: 0xF363F8
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0xC479B8
+    // Offset: 0xF364F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

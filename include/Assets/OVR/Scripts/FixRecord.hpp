@@ -41,7 +41,7 @@ namespace Assets::OVR::Scripts {
     // Offset: 0x39
     bool complete;
     // public System.Void .ctor(System.String cat, System.String msg, Assets.OVR.Scripts.FixMethodDelegate fix, UnityEngine.Object target, System.Boolean editRequired, System.String[] buttons)
-    // Offset: 0xEC2650
+    // Offset: 0x137252C
     static FixRecord* New_ctor(::Il2CppString* cat, ::Il2CppString* msg, Assets::OVR::Scripts::FixMethodDelegate* fix, UnityEngine::Object* target, bool editRequired, ::Array<::Il2CppString*>* buttons);
   }; // Assets.OVR.Scripts.FixRecord
 }

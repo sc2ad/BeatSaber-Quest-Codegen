@@ -11,10 +11,15 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: PlatformUserModelSO
-  class PlatformUserModelSO;
   // Forward declaring type: IDifficultyBeatmap
   class IDifficultyBeatmap;
+}
+// Forward declaring namespace: OnlineServices::API
+namespace OnlineServices::API {
+  // Forward declaring type: IUserLoginDtoDataSource
+  class IUserLoginDtoDataSource;
+  // Forward declaring type: IApiLeaderboardsModel
+  class IApiLeaderboardsModel;
 }
 // Forward declaring namespace: System
 namespace System {
@@ -22,27 +27,18 @@ namespace System {
   template<typename T>
   class Action_1;
 }
-// Forward declaring namespace: OnlineServices::API
-namespace OnlineServices::API {
-  // Forward declaring type: IApiLeaderboardsModel
-  class IApiLeaderboardsModel;
-  // Forward declaring type: IUserLoginDtoDataSource
-  class IUserLoginDtoDataSource;
-}
-// Forward declaring namespace: OnlineServices
-namespace OnlineServices {
-  // Forward declaring type: PlatformUserNamesLoader
-  class PlatformUserNamesLoader;
-  // Forward declaring type: GetLeaderboardFilterData
-  struct GetLeaderboardFilterData;
-  // Forward declaring type: LevelScoreResultsData
-  struct LevelScoreResultsData;
-}
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
   template<typename TResult>
   class Task_1;
+}
+// Forward declaring namespace: OnlineServices
+namespace OnlineServices {
+  // Forward declaring type: GetLeaderboardFilterData
+  struct GetLeaderboardFilterData;
+  // Forward declaring type: LevelScoreResultsData
+  struct LevelScoreResultsData;
 }
 // Forward declaring namespace: System::Threading
 namespace System::Threading {
@@ -57,20 +53,20 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::HTTPLeaderboardsModel::$$c
     class $$c;
-    // Nested type: GlobalNamespace::HTTPLeaderboardsModel::$GetLeaderboardEntriesAsync$d__12
-    struct $GetLeaderboardEntriesAsync$d__12;
-    // Nested type: GlobalNamespace::HTTPLeaderboardsModel::$SendLevelScoreResultAsync$d__13
-    struct $SendLevelScoreResultAsync$d__13;
-    // private System.Action`1<System.String> scoreForLeaderboardDidUploadEvent
+    // Nested type: GlobalNamespace::HTTPLeaderboardsModel::$GetLeaderboardEntriesAsync$d__10
+    struct $GetLeaderboardEntriesAsync$d__10;
+    // Nested type: GlobalNamespace::HTTPLeaderboardsModel::$SendLevelScoreResultAsync$d__11
+    struct $SendLevelScoreResultAsync$d__11;
+    // private readonly OnlineServices.API.IUserLoginDtoDataSource _userLoginDataSource
     // Offset: 0x10
-    System::Action_1<::Il2CppString*>* scoreForLeaderboardDidUploadEvent;
-    // private OnlineServices.API.IApiLeaderboardsModel _apiLeaderboardsModel
+    OnlineServices::API::IUserLoginDtoDataSource* userLoginDataSource;
+    // private readonly OnlineServices.API.IApiLeaderboardsModel _apiLeaderboardsModel
     // Offset: 0x18
     OnlineServices::API::IApiLeaderboardsModel* apiLeaderboardsModel;
-    // private OnlineServices.API.IUserLoginDtoDataSource _userLoginDataSource
+    // private System.Action`1<System.String> scoreForLeaderboardDidUploadEvent
     // Offset: 0x20
-    OnlineServices::API::IUserLoginDtoDataSource* userLoginDataSource;
-    // private System.String _guid
+    System::Action_1<::Il2CppString*>* scoreForLeaderboardDidUploadEvent;
+    // private readonly System.String _guid
     // Offset: 0x28
     ::Il2CppString* guid;
     // private System.String[] _friendsUserIds
@@ -79,36 +75,35 @@ namespace GlobalNamespace {
     // private System.String _platformUserId
     // Offset: 0x38
     ::Il2CppString* platformUserId;
-    // private OnlineServices.PlatformUserNamesLoader _platformUserNamesLoader
-    // Offset: 0x40
-    OnlineServices::PlatformUserNamesLoader* platformUserNamesLoader;
     // public System.Void add_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
-    // Offset: 0xB41FC0
+    // Offset: 0xECC800
     void add_scoreForLeaderboardDidUploadEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
-    // Offset: 0xB42064
+    // Offset: 0xECC8A4
     void remove_scoreForLeaderboardDidUploadEvent(System::Action_1<::Il2CppString*>* value);
-    // public System.Void .ctor(System.String hostName, PlatformUserModelSO platformUserModel, OnlineServices.PlatformUserNamesLoader platformUserNamesLoader)
-    // Offset: 0xB42108
-    static HTTPLeaderboardsModel* New_ctor(::Il2CppString* hostName, GlobalNamespace::PlatformUserModelSO* platformUserModel, OnlineServices::PlatformUserNamesLoader* platformUserNamesLoader);
     // public System.Void LogoutAsync()
-    // Offset: 0xB42240
+    // Offset: 0xECC948
     void LogoutAsync();
     // public System.String GetLeaderboardId(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0xB422F4
+    // Offset: 0xECC9FC
     // Implemented from: OnlineServices.ILeaderboardsModel
     // Base method: System.String ILeaderboardsModel::GetLeaderboardId(IDifficultyBeatmap difficultyBeatmap)
     ::Il2CppString* GetLeaderboardId(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Threading.Tasks.Task`1<OnlineServices.GetLeaderboardEntriesResult> GetLeaderboardEntriesAsync(OnlineServices.GetLeaderboardFilterData leaderboardFilterData, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xB425D4
+    // Offset: 0xECCCDC
     // Implemented from: OnlineServices.ILeaderboardsModel
     // Base method: System.Threading.Tasks.Task`1<OnlineServices.GetLeaderboardEntriesResult> ILeaderboardsModel::GetLeaderboardEntriesAsync(OnlineServices.GetLeaderboardFilterData leaderboardFilterData, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<OnlineServices::GetLeaderboardEntriesResult>* GetLeaderboardEntriesAsync(OnlineServices::GetLeaderboardFilterData leaderboardFilterData, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<OnlineServices.SendLeaderboardEntryResult> SendLevelScoreResultAsync(OnlineServices.LevelScoreResultsData levelResultsData, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xB42738
+    // Offset: 0xECCE3C
     // Implemented from: OnlineServices.ILeaderboardsModel
     // Base method: System.Threading.Tasks.Task`1<OnlineServices.SendLeaderboardEntryResult> ILeaderboardsModel::SendLevelScoreResultAsync(OnlineServices.LevelScoreResultsData levelResultsData, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<OnlineServices::SendLeaderboardEntryResult>* SendLevelScoreResultAsync(OnlineServices::LevelScoreResultsData levelResultsData, System::Threading::CancellationToken cancellationToken);
+    // public System.Void .ctor()
+    // Offset: 0xECCFA4
+    // Implemented from: System.Object
+    // Base method: System.Void Object::.ctor()
+    static HTTPLeaderboardsModel* New_ctor();
   }; // HTTPLeaderboardsModel
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

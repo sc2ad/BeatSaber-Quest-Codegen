@@ -23,20 +23,20 @@ namespace UnityEngine::Bindings {
       return TargetType;
     }
     // public System.Void set_TargetType(UnityEngine.Bindings.TargetType value)
-    // Offset: 0x1975080
+    // Offset: 0x2223DD8
     void set_TargetType(UnityEngine::Bindings::TargetType value);
     // public System.Void .ctor(System.String name, System.Boolean isFree, UnityEngine.Bindings.TargetType targetType)
-    // Offset: 0x1975094
+    // Offset: 0x2223DEC
     static NativePropertyAttribute* New_ctor(::Il2CppString* name, bool isFree, UnityEngine::Bindings::TargetType targetType);
     // public System.Void .ctor()
-    // Offset: 0x1975088
+    // Offset: 0x2223DE0
     // Implemented from: UnityEngine.Bindings.NativeMethodAttribute
     // Base method: System.Void NativeMethodAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()
     static NativePropertyAttribute* New_ctor();
     // public System.Void .ctor(System.String name)
-    // Offset: 0x1975090
+    // Offset: 0x2223DE8
     // Implemented from: UnityEngine.Bindings.NativeMethodAttribute
     // Base method: System.Void NativeMethodAttribute::.ctor(System.String name)
     static NativePropertyAttribute* New_ctor(::Il2CppString* name);

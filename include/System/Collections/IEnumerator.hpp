@@ -15,7 +15,7 @@ namespace System::Collections {
     public:
     // public System.Boolean MoveNext()
     // Offset: 0xFFFFFFFF
-    bool MoveNext();
+    bool System_Collections_IEnumerator_MoveNext();
     // public System.Object get_Current()
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();

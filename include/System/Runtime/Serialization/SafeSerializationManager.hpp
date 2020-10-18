@@ -64,32 +64,32 @@ namespace System::Runtime::Serialization {
     // Set static field: static private System.String RealTypeSerializationName
     static void _set_RealTypeSerializationName(::Il2CppString* value);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xFFFDB4
+    // Offset: 0x169C680
     static SafeSerializationManager* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // System.Boolean get_IsActive()
-    // Offset: 0x10002B0
+    // Offset: 0x169CB64
     bool get_IsActive();
     // System.Void CompleteSerialization(System.Object serializedObject, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x10002C0
+    // Offset: 0x169CB74
     void CompleteSerialization(::Il2CppObject* serializedObject, System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // System.Void CompleteDeserialization(System.Object deserializedObject)
-    // Offset: 0x1000684
+    // Offset: 0x169CF38
     void CompleteDeserialization(::Il2CppObject* deserializedObject);
     // private System.Void OnDeserialized(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1000D40
+    // Offset: 0x169D7D0
     void OnDeserialized(System::Runtime::Serialization::StreamingContext context);
     // System.Void .ctor()
-    // Offset: 0xFFFDAC
+    // Offset: 0x169C678
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SafeSerializationManager* New_ctor();
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x10009B0
+    // Offset: 0x169D264
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // private System.Object System.Runtime.Serialization.IObjectReference.GetRealObject(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1000A58
+    // Offset: 0x169D30C
     // Implemented from: System.Runtime.Serialization.IObjectReference
     // Base method: System.Object IObjectReference::GetRealObject(System.Runtime.Serialization.StreamingContext context)
     ::Il2CppObject* System_Runtime_Serialization_IObjectReference_GetRealObject(System::Runtime::Serialization::StreamingContext context);

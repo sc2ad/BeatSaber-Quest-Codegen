@@ -32,27 +32,27 @@ namespace System::ComponentModel {
     // Set static field: static public readonly System.ComponentModel.TypeConverterAttribute Default
     static void _set_Default(System::ComponentModel::TypeConverterAttribute* value);
     // public System.Void .ctor(System.Type type)
-    // Offset: 0xF5E5A4
+    // Offset: 0x1727204
     static TypeConverterAttribute* New_ctor(System::Type* type);
     // public System.String get_ConverterTypeName()
-    // Offset: 0xF5E5F4
+    // Offset: 0x1727254
     ::Il2CppString* get_ConverterTypeName();
     // static private System.Void .cctor()
-    // Offset: 0xF5E6B0
+    // Offset: 0x1727310
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0xF5E53C
+    // Offset: 0x172719C
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()
     static TypeConverterAttribute* New_ctor();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xF5E5FC
+    // Offset: 0x172725C
     // Implemented from: System.Attribute
     // Base method: System.Boolean Attribute::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xF5E690
+    // Offset: 0x17272F0
     // Implemented from: System.Attribute
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();

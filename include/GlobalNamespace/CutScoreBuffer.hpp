@@ -19,8 +19,8 @@ namespace System {
 namespace GlobalNamespace {
   // Forward declaring type: NoteCutInfo
   class NoteCutInfo;
-  // Forward declaring type: SaberSwingRatingCounter
-  class SaberSwingRatingCounter;
+  // Forward declaring type: ISaberSwingRatingCounter
+  class ISaberSwingRatingCounter;
 }
 // Completed forward declares
 // Type namespace: 
@@ -49,23 +49,23 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator uint64_t
     constexpr operator uint64_t() const noexcept = delete;
     // public System.Int32 get_scoreWithMultiplier()
-    // Offset: 0xBE4370
+    // Offset: 0xF5C3F4
     int get_scoreWithMultiplier();
     // public System.Int32 get_multiplier()
-    // Offset: 0xBE4384
+    // Offset: 0xF5C408
     int get_multiplier();
     // public System.Void .ctor(NoteCutInfo noteCutInfo, System.Int32 multiplier)
-    // Offset: 0xBE438C
+    // Offset: 0xF5C410
     static CutScoreBuffer* New_ctor(GlobalNamespace::NoteCutInfo* noteCutInfo, int multiplier);
-    // private System.Void HandleSwingRatingCounterDidChangeEvent(SaberSwingRatingCounter swingRatingCounter, System.Single rating)
-    // Offset: 0xBE451C
-    void HandleSwingRatingCounterDidChangeEvent(GlobalNamespace::SaberSwingRatingCounter* swingRatingCounter, float rating);
+    // private System.Void HandleSwingRatingCounterDidChangeEvent(ISaberSwingRatingCounter swingRatingCounter, System.Single rating)
+    // Offset: 0xF5C65C
+    void HandleSwingRatingCounterDidChangeEvent(GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter, float rating);
     // private System.Void RefreshScores()
-    // Offset: 0xBE44B0
+    // Offset: 0xF5C5F0
     void RefreshScores();
-    // private System.Void HandleSwingRatingCounterDidFinishEvent(SaberSwingRatingCounter swingRatingCounter)
-    // Offset: 0xBE4520
-    void HandleSwingRatingCounterDidFinishEvent(GlobalNamespace::SaberSwingRatingCounter* swingRatingCounter);
+    // private System.Void HandleSwingRatingCounterDidFinishEvent(ISaberSwingRatingCounter swingRatingCounter)
+    // Offset: 0xF5C660
+    void HandleSwingRatingCounterDidFinishEvent(GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
   }; // CutScoreBuffer
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

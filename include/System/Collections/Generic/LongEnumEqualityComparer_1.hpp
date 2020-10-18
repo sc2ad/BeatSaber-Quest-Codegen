@@ -40,14 +40,14 @@ namespace System::Collections::Generic {
     // public override System.Boolean Equals(T x, T y)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.EqualityComparer`1
-    // Base method: System.Boolean EqualityComparer`1::Equals(T x, T y)
+    // Base method: System.Boolean EqualityComparer_1::Equals(T x, T y)
     bool Equals(T x, T y) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "Equals", x, y));
     }
     // public override System.Int32 GetHashCode(T obj)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.EqualityComparer`1
-    // Base method: System.Int32 EqualityComparer`1::GetHashCode(T obj)
+    // Base method: System.Int32 EqualityComparer_1::GetHashCode(T obj)
     int GetHashCode(T obj) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "GetHashCode", obj));
     }
@@ -68,7 +68,7 @@ namespace System::Collections::Generic {
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.EqualityComparer`1
-    // Base method: System.Void EqualityComparer`1::.ctor()
+    // Base method: System.Void EqualityComparer_1::.ctor()
     // Base method: System.Void Object::.ctor()
     static LongEnumEqualityComparer_1<T>* New_ctor() {
       return THROW_UNLESS(il2cpp_utils::New<LongEnumEqualityComparer_1<T>*>());

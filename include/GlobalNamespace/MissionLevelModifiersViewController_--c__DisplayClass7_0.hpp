@@ -36,10 +36,10 @@ namespace GlobalNamespace {
       return modifierParamsList;
     }
     // System.Void <RefreshContent>b__0(System.Int32 idx, GameplayModifierInfoListItem gameplayModifierInfoListItem)
-    // Offset: 0xC07710
+    // Offset: 0xEDF36C
     void $RefreshContent$b__0(int idx, GlobalNamespace::GameplayModifierInfoListItem* gameplayModifierInfoListItem);
     // public System.Void .ctor()
-    // Offset: 0xC07708
+    // Offset: 0xEDF35C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MissionLevelModifiersViewController::$$c__DisplayClass7_0* New_ctor();

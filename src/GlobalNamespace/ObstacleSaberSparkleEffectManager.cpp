@@ -7,8 +7,12 @@
 #include "GlobalNamespace/ObstacleSaberSparkleEffectManager.hpp"
 // Including type: ObstacleSaberSparkleEffect
 #include "GlobalNamespace/ObstacleSaberSparkleEffect.hpp"
-// Including type: PlayerController
-#include "GlobalNamespace/PlayerController.hpp"
+// Including type: Libraries.HM.HMLib.VR.HapticPresetSO
+#include "Libraries/HM/HMLib/VR/HapticPresetSO.hpp"
+// Including type: BeatmapObjectManager
+#include "GlobalNamespace/BeatmapObjectManager.hpp"
+// Including type: SaberManager
+#include "GlobalNamespace/SaberManager.hpp"
 // Including type: HapticFeedbackController
 #include "GlobalNamespace/HapticFeedbackController.hpp"
 // Including type: ColorManager
@@ -25,8 +29,6 @@
 #include "UnityEngine/Quaternion.hpp"
 // Including type: UnityEngine.Bounds
 #include "UnityEngine/Bounds.hpp"
-// Including type: ObstacleController/Pool
-#include "GlobalNamespace/ObstacleController_Pool.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

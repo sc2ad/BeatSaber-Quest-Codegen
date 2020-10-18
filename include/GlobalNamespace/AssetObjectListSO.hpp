@@ -25,10 +25,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Object[] get_objects()
-    // Offset: 0xB89464
+    // Offset: 0xFB0734
     ::Array<UnityEngine::Object*>* get_objects();
     // public System.Void .ctor()
-    // Offset: 0xB8946C
+    // Offset: 0xFB073C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

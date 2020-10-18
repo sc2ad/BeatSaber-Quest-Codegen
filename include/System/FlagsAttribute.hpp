@@ -14,7 +14,7 @@ namespace System {
   class FlagsAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0xDA9D38
+    // Offset: 0x125988C
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

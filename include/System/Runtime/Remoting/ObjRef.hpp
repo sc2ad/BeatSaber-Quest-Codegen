@@ -65,60 +65,60 @@ namespace System::Runtime::Remoting {
     // Set static field: static private System.Int32 WellKnowObjectRef
     static void _set_WellKnowObjectRef(int value);
     // System.Void .ctor(System.String uri, System.Runtime.Remoting.IChannelInfo cinfo)
-    // Offset: 0xE159AC
+    // Offset: 0x14FAF10
     static ObjRef* New_ctor(::Il2CppString* uri, System::Runtime::Remoting::IChannelInfo* cinfo);
     // System.Runtime.Remoting.ObjRef DeserializeInTheCurrentDomain(System.Int32 domainId, System.Byte[] tInfo)
-    // Offset: 0xE159FC
+    // Offset: 0x14FAF60
     System::Runtime::Remoting::ObjRef* DeserializeInTheCurrentDomain(int domainId, ::Array<uint8_t>* tInfo);
     // System.Byte[] SerializeType()
-    // Offset: 0xE15B24
+    // Offset: 0x14FB088
     ::Array<uint8_t>* SerializeType();
     // System.Void .ctor(System.Type type, System.String url, System.Object remoteChannelData)
-    // Offset: 0xE15BC4
+    // Offset: 0x14FB128
     static ObjRef* New_ctor(System::Type* type, ::Il2CppString* url, ::Il2CppObject* remoteChannelData);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xE160F0
+    // Offset: 0x14FB654
     static ObjRef* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // System.Boolean get_IsReferenceToWellKnow()
-    // Offset: 0xE1655C
+    // Offset: 0x14FBAC0
     bool get_IsReferenceToWellKnow();
     // public System.Runtime.Remoting.IChannelInfo get_ChannelInfo()
-    // Offset: 0xE165D4
+    // Offset: 0x14FBB38
     System::Runtime::Remoting::IChannelInfo* get_ChannelInfo();
     // public System.Runtime.Remoting.IEnvoyInfo get_EnvoyInfo()
-    // Offset: 0xE165DC
+    // Offset: 0x14FBB40
     System::Runtime::Remoting::IEnvoyInfo* get_EnvoyInfo();
     // public System.Void set_EnvoyInfo(System.Runtime.Remoting.IEnvoyInfo value)
-    // Offset: 0xE165E4
+    // Offset: 0x14FBB48
     void set_EnvoyInfo(System::Runtime::Remoting::IEnvoyInfo* value);
     // public System.Runtime.Remoting.IRemotingTypeInfo get_TypeInfo()
-    // Offset: 0xE165EC
+    // Offset: 0x14FBB50
     System::Runtime::Remoting::IRemotingTypeInfo* get_TypeInfo();
     // public System.Void set_TypeInfo(System.Runtime.Remoting.IRemotingTypeInfo value)
-    // Offset: 0xE165F4
+    // Offset: 0x14FBB58
     void set_TypeInfo(System::Runtime::Remoting::IRemotingTypeInfo* value);
     // public System.String get_URI()
-    // Offset: 0xE165FC
+    // Offset: 0x14FBB60
     ::Il2CppString* get_URI();
     // public System.Void set_URI(System.String value)
-    // Offset: 0xE16604
+    // Offset: 0x14FBB68
     void set_URI(::Il2CppString* value);
     // System.Void UpdateChannelInfo()
-    // Offset: 0xE15944
+    // Offset: 0x14FAEA8
     void UpdateChannelInfo();
     // System.Type get_ServerType()
-    // Offset: 0xE168A0
+    // Offset: 0x14FBE04
     System::Type* get_ServerType();
     // static private System.Void .cctor()
-    // Offset: 0xE169F0
+    // Offset: 0x14FBF54
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0xE1591C
+    // Offset: 0x14FAE80
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ObjRef* New_ctor();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xE1660C
+    // Offset: 0x14FBB70
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -126,7 +126,7 @@ namespace System::Runtime::Remoting {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Object GetRealObject(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xE1677C
+    // Offset: 0x14FBCE0
     // Implemented from: System.Runtime.Serialization.IObjectReference
     // Base method: System.Object IObjectReference::GetRealObject(System.Runtime.Serialization.StreamingContext context)
     ::Il2CppObject* GetRealObject(System::Runtime::Serialization::StreamingContext context);

@@ -19,8 +19,8 @@ namespace System {
 }
 // Forward declaring namespace: System::Linq
 namespace System::Linq {
-  // Forward declaring type: IGrouping`2<TElement, TKey>
-  template<typename TElement, typename TKey>
+  // Forward declaring type: IGrouping`2<TKey, TElement>
+  template<typename TKey, typename TElement>
   class IGrouping_2;
 }
 // Completed forward declares

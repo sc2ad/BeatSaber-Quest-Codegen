@@ -14,39 +14,39 @@ namespace UnityEngine::ProBuilder::KdTree::Math {
   class FloatMath : public UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<float> {
     public:
     // public System.Int32 Compare(System.Single a, System.Single b)
-    // Offset: 0x1983834
+    // Offset: 0x222DBE4
     int Compare(float a, float b);
     // public System.Boolean AreEqual(System.Single a, System.Single b)
-    // Offset: 0x1983860
+    // Offset: 0x222DC10
     bool AreEqual(float a, float b);
     // public System.Single get_MinValue()
-    // Offset: 0x198386C
+    // Offset: 0x222DC1C
     float get_MinValue();
     // public System.Single get_Zero()
-    // Offset: 0x1983878
+    // Offset: 0x222DC28
     float get_Zero();
     // public System.Single get_NegativeInfinity()
-    // Offset: 0x1983880
+    // Offset: 0x222DC30
     float get_NegativeInfinity();
     // public System.Single get_PositiveInfinity()
-    // Offset: 0x198388C
+    // Offset: 0x222DC3C
     float get_PositiveInfinity();
     // public System.Single Add(System.Single a, System.Single b)
-    // Offset: 0x1983898
+    // Offset: 0x222DC48
     float Add(float a, float b);
     // public System.Single Subtract(System.Single a, System.Single b)
-    // Offset: 0x19838A0
+    // Offset: 0x222DC50
     float Subtract(float a, float b);
     // public System.Single Multiply(System.Single a, System.Single b)
-    // Offset: 0x19838A8
+    // Offset: 0x222DC58
     float Multiply(float a, float b);
     // public System.Single DistanceSquaredBetweenPoints(System.Single[] a, System.Single[] b)
-    // Offset: 0x19838B0
+    // Offset: 0x222DC60
     float DistanceSquaredBetweenPoints(::Array<float>* a, ::Array<float>* b);
     // public System.Void .ctor()
-    // Offset: 0x19839C4
+    // Offset: 0x222DD74
     // Implemented from: UnityEngine.ProBuilder.KdTree.Math.TypeMath`1
-    // Base method: System.Void TypeMath`1::.ctor()
+    // Base method: System.Void TypeMath_1::.ctor()
     // Base method: System.Void Object::.ctor()
     static FloatMath* New_ctor();
   }; // UnityEngine.ProBuilder.KdTree.Math.FloatMath

@@ -39,19 +39,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public VRController get_leftController()
-    // Offset: 0xC01DE0
+    // Offset: 0xED9614
     GlobalNamespace::VRController* get_leftController();
     // public VRController get_rightController()
-    // Offset: 0xC01DE8
+    // Offset: 0xED961C
     GlobalNamespace::VRController* get_rightController();
     // public UnityEngine.Vector3 get_headPos()
-    // Offset: 0xC01DF0
+    // Offset: 0xED9624
     UnityEngine::Vector3 get_headPos();
     // public UnityEngine.Quaternion get_headRot()
-    // Offset: 0xC01E0C
+    // Offset: 0xED9640
     UnityEngine::Quaternion get_headRot();
     // public System.Void .ctor()
-    // Offset: 0xC01E28
+    // Offset: 0xED965C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

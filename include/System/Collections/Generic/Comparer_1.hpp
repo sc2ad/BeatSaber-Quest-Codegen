@@ -41,7 +41,7 @@ namespace System::Collections::Generic {
     // public System.Int32 Compare(T x, T y)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IComparer`1
-    // Base method: System.Int32 IComparer`1::Compare(T x, T y)
+    // Base method: System.Int32 IComparer_1::Compare(T x, T y)
     int Compare(T x, T y) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "Compare", x, y));
     }

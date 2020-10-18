@@ -27,17 +27,17 @@ namespace System::Diagnostics::Tracing {
   class DateTimeOffsetTypeInfo : public System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<System::DateTimeOffset> {
     public:
     // public System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref System.DateTimeOffset value)
-    // Offset: 0xC9A4B8
+    // Offset: 0x147A18C
     void WriteData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, System::DateTimeOffset& value);
     // public override System.Void WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
-    // Offset: 0xC9A3E0
+    // Offset: 0x147A0B4
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo
     // Base method: System.Void TraceLoggingTypeInfo::WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
     void WriteMetadata(System::Diagnostics::Tracing::TraceLoggingMetadataCollector* collector, ::Il2CppString* name, System::Diagnostics::Tracing::EventFieldFormat format);
     // public System.Void .ctor()
-    // Offset: 0xC9A534
+    // Offset: 0x147A208
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo`1
-    // Base method: System.Void TraceLoggingTypeInfo`1::.ctor()
+    // Base method: System.Void TraceLoggingTypeInfo_1::.ctor()
     // Base method: System.Void Object::.ctor()
     static DateTimeOffsetTypeInfo* New_ctor();
   }; // System.Diagnostics.Tracing.DateTimeOffsetTypeInfo

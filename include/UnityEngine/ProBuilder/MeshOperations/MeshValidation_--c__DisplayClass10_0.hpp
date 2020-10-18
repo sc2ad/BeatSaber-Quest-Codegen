@@ -30,10 +30,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
       return mesh;
     }
     // System.Boolean <RebuildSelectionIndexes>b__0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x10235D4
+    // Offset: 0x1577B08
     bool $RebuildSelectionIndexes$b__0(UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0x1023394
+    // Offset: 0x15778C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MeshValidation::$$c__DisplayClass10_0* New_ctor();

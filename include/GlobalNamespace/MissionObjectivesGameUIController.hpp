@@ -16,11 +16,6 @@ namespace GlobalNamespace {
   // Forward declaring type: MissionObjectiveCheckersManager
   class MissionObjectiveCheckersManager;
 }
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: GameObject
-  class GameObject;
-}
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
@@ -36,37 +31,34 @@ namespace GlobalNamespace {
     // private MissionObjectiveGameUIView _missionObjectiveGameUIViewPrefab
     // Offset: 0x18
     GlobalNamespace::MissionObjectiveGameUIView* missionObjectiveGameUIViewPrefab;
-    // private UnityEngine.GameObject _backgroundGO
-    // Offset: 0x20
-    UnityEngine::GameObject* backgroundGO;
     // private System.Single _separator
-    // Offset: 0x28
+    // Offset: 0x20
     float separator;
     // private System.Single _elementWidth
-    // Offset: 0x2C
+    // Offset: 0x24
     float elementWidth;
     // private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
-    // Offset: 0x30
+    // Offset: 0x28
     GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager;
     // private System.Collections.Generic.List`1<MissionObjectiveGameUIView> _missionObjectiveGameUIViews
-    // Offset: 0x38
+    // Offset: 0x30
     System::Collections::Generic::List_1<GlobalNamespace::MissionObjectiveGameUIView*>* missionObjectiveGameUIViews;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xC0D1FC
+    // Offset: 0xEE3C80
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xC0D5F4
+    // Offset: 0xEE405C
     void OnDestroy();
     // private System.Void HandleMissionObjectiveCheckersManagerObjectivesListDidChange()
-    // Offset: 0xC0D6C4
+    // Offset: 0xEE412C
     void HandleMissionObjectiveCheckersManagerObjectivesListDidChange();
     // private System.Void CreateUIElements()
-    // Offset: 0xC0D28C
+    // Offset: 0xEE3D10
     void CreateUIElements();
     // public System.Void .ctor()
-    // Offset: 0xC0D6C8
+    // Offset: 0xEE4130
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

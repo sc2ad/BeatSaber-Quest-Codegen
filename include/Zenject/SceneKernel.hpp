@@ -14,7 +14,7 @@ namespace Zenject {
   class SceneKernel : public Zenject::MonoKernel {
     public:
     // public System.Void .ctor()
-    // Offset: 0xFCE1E8
+    // Offset: 0x151C184
     // Implemented from: Zenject.MonoKernel
     // Base method: System.Void MonoKernel::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

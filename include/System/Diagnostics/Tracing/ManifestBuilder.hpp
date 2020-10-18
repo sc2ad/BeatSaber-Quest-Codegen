@@ -110,73 +110,73 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x80
     System::Collections::Generic::List_1<int>* byteArrArgIndices;
     // public System.Void .ctor(System.String providerName, System.Guid providerGuid, System.String dllName, System.Resources.ResourceManager resources, System.Diagnostics.Tracing.EventManifestOptions flags)
-    // Offset: 0xD98DCC
+    // Offset: 0x12482D8
     static ManifestBuilder* New_ctor(::Il2CppString* providerName, System::Guid providerGuid, ::Il2CppString* dllName, System::Resources::ResourceManager* resources, System::Diagnostics::Tracing::EventManifestOptions flags);
     // public System.Void AddOpcode(System.String name, System.Int32 value)
-    // Offset: 0xD99178
+    // Offset: 0x1248684
     void AddOpcode(::Il2CppString* name, int value);
     // public System.Void AddTask(System.String name, System.Int32 value)
-    // Offset: 0xD995C4
+    // Offset: 0x1248AD0
     void AddTask(::Il2CppString* name, int value);
     // public System.Void AddKeyword(System.String name, System.UInt64 value)
-    // Offset: 0xD998B8
+    // Offset: 0x1248DC4
     void AddKeyword(::Il2CppString* name, uint64_t value);
     // public System.Void StartEvent(System.String eventName, System.Diagnostics.Tracing.EventAttribute eventAttribute)
-    // Offset: 0xD99D70
+    // Offset: 0x124927C
     void StartEvent(::Il2CppString* eventName, System::Diagnostics::Tracing::EventAttribute* eventAttribute);
     // public System.Void AddEventParameter(System.Type type, System.String name)
-    // Offset: 0xD9A8BC
+    // Offset: 0x1249DC8
     void AddEventParameter(System::Type* type, ::Il2CppString* name);
     // public System.Void EndEvent()
-    // Offset: 0xD9B240
+    // Offset: 0x124A74C
     void EndEvent();
     // public System.Byte[] CreateManifest()
-    // Offset: 0xD9BD40
+    // Offset: 0x124B24C
     ::Array<uint8_t>* CreateManifest();
     // public System.Collections.Generic.IList`1<System.String> get_Errors()
-    // Offset: 0xD9D1B0
+    // Offset: 0x124C6BC
     System::Collections::Generic::IList_1<::Il2CppString*>* get_Errors();
     // public System.Void ManifestError(System.String msg, System.Boolean runtimeCritical)
-    // Offset: 0xD994AC
+    // Offset: 0x12489B8
     void ManifestError(::Il2CppString* msg, bool runtimeCritical);
     // private System.String CreateManifestString()
-    // Offset: 0xD9BD80
+    // Offset: 0x124B28C
     ::Il2CppString* CreateManifestString();
     // private System.Void WriteNameAndMessageAttribs(System.Text.StringBuilder stringBuilder, System.String elementName, System.String name)
-    // Offset: 0xD9D1B8
+    // Offset: 0x124C6C4
     void WriteNameAndMessageAttribs(System::Text::StringBuilder* stringBuilder, ::Il2CppString* elementName, ::Il2CppString* name);
     // private System.Void WriteMessageAttrib(System.Text.StringBuilder stringBuilder, System.String elementName, System.String name, System.String value)
-    // Offset: 0xD9A118
+    // Offset: 0x1249624
     void WriteMessageAttrib(System::Text::StringBuilder* stringBuilder, ::Il2CppString* elementName, ::Il2CppString* name, ::Il2CppString* value);
     // System.String GetLocalizedMessage(System.String key, System.Globalization.CultureInfo ci, System.Boolean etwFormat)
-    // Offset: 0xD9D424
+    // Offset: 0x124C930
     ::Il2CppString* GetLocalizedMessage(::Il2CppString* key, System::Globalization::CultureInfo* ci, bool etwFormat);
     // static private System.Collections.Generic.List`1<System.Globalization.CultureInfo> GetSupportedCultures(System.Resources.ResourceManager resources)
-    // Offset: 0xD9D270
+    // Offset: 0x124C77C
     static System::Collections::Generic::List_1<System::Globalization::CultureInfo*>* GetSupportedCultures(System::Resources::ResourceManager* resources);
     // static private System.String GetLevelName(System.Diagnostics.Tracing.EventLevel level)
-    // Offset: 0xD9A054
+    // Offset: 0x1249560
     static ::Il2CppString* GetLevelName(System::Diagnostics::Tracing::EventLevel level);
     // private System.String GetTaskName(System.Diagnostics.Tracing.EventTask task, System.String eventName)
-    // Offset: 0xD9A7BC
+    // Offset: 0x1249CC8
     ::Il2CppString* GetTaskName(System::Diagnostics::Tracing::EventTask task, ::Il2CppString* eventName);
     // private System.String GetOpcodeName(System.Diagnostics.Tracing.EventOpcode opcode, System.String eventName)
-    // Offset: 0xD9A5A8
+    // Offset: 0x1249AB4
     ::Il2CppString* GetOpcodeName(System::Diagnostics::Tracing::EventOpcode opcode, ::Il2CppString* eventName);
     // private System.String GetKeywords(System.UInt64 keywords, System.String eventName)
-    // Offset: 0xD9A328
+    // Offset: 0x1249834
     ::Il2CppString* GetKeywords(uint64_t keywords, ::Il2CppString* eventName);
     // private System.String GetTypeName(System.Type type)
-    // Offset: 0xD9ADEC
+    // Offset: 0x124A2F8
     ::Il2CppString* GetTypeName(System::Type* type);
     // static private System.Void UpdateStringBuilder(ref System.Text.StringBuilder stringBuilder, System.String eventMessage, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0xD9D540
+    // Offset: 0x124CA4C
     static void UpdateStringBuilder(System::Text::StringBuilder*& stringBuilder, ::Il2CppString* eventMessage, int startIndex, int count);
     // private System.String TranslateToManifestConvention(System.String eventMessage, System.String evtName)
-    // Offset: 0xD9B424
+    // Offset: 0x124A930
     ::Il2CppString* TranslateToManifestConvention(::Il2CppString* eventMessage, ::Il2CppString* evtName);
     // private System.Int32 TranslateIndexToManifestConvention(System.Int32 idx, System.String evtName)
-    // Offset: 0xD9D5FC
+    // Offset: 0x124CB08
     int TranslateIndexToManifestConvention(int idx, ::Il2CppString* evtName);
   }; // System.Diagnostics.Tracing.ManifestBuilder
 }

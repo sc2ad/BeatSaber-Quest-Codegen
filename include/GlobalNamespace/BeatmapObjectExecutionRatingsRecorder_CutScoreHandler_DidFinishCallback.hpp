@@ -26,16 +26,16 @@ namespace GlobalNamespace {
   class BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::DidFinishCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xB768D4
+    // Offset: 0xF14E94
     static BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::DidFinishCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(BeatmapObjectExecutionRatingsRecorder/CutScoreHandler cutScoreHandler)
-    // Offset: 0xB77418
+    // Offset: 0xF14ADC
     void Invoke(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler* cutScoreHandler);
     // public System.IAsyncResult BeginInvoke(BeatmapObjectExecutionRatingsRecorder/CutScoreHandler cutScoreHandler, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xB777D0
+    // Offset: 0xF14EA8
     System::IAsyncResult* BeginInvoke(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler* cutScoreHandler, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xB777F4
+    // Offset: 0xF14ECC
     void EndInvoke(System::IAsyncResult* result);
   }; // BeatmapObjectExecutionRatingsRecorder/CutScoreHandler/DidFinishCallback
 }

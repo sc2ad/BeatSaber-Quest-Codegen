@@ -17,6 +17,8 @@ namespace GlobalNamespace {
   class MissionLevelScenesTransitionSetupDataSO;
   // Forward declaring type: PrepareLevelCompletionResults
   class PrepareLevelCompletionResults;
+  // Forward declaring type: MissionObjectiveCheckersManager
+  class MissionObjectiveCheckersManager;
 }
 // Completed forward declares
 // Type namespace: 
@@ -30,15 +32,18 @@ namespace GlobalNamespace {
     // private PrepareLevelCompletionResults _prepareLevelCompletionResults
     // Offset: 0x20
     GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults;
+    // private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
+    // Offset: 0x28
+    GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void RestartLevel()
-    // Offset: 0xC07E1C
+    // Offset: 0xEDF508
     // Implemented from: ILevelRestartController
     // Base method: System.Void ILevelRestartController::RestartLevel()
     void RestartLevel();
     // public System.Void .ctor()
-    // Offset: 0xC07F30
+    // Offset: 0xEDF5B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

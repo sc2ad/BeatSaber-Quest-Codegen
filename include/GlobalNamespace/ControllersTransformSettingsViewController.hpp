@@ -26,28 +26,28 @@ namespace GlobalNamespace {
   class ControllersTransformSettingsViewController : public HMUI::ViewController {
     public:
     // private Vector3SO _controllerPosition
-    // Offset: 0x68
+    // Offset: 0x70
     GlobalNamespace::Vector3SO* controllerPosition;
     // private Vector3SO _controllerRotation
-    // Offset: 0x70
+    // Offset: 0x78
     GlobalNamespace::Vector3SO* controllerRotation;
     // private HMUI.RangeValuesTextSlider _posXSlider
-    // Offset: 0x78
+    // Offset: 0x80
     HMUI::RangeValuesTextSlider* posXSlider;
     // private HMUI.RangeValuesTextSlider _posYSlider
-    // Offset: 0x80
+    // Offset: 0x88
     HMUI::RangeValuesTextSlider* posYSlider;
     // private HMUI.RangeValuesTextSlider _posZSlider
-    // Offset: 0x88
+    // Offset: 0x90
     HMUI::RangeValuesTextSlider* posZSlider;
     // private HMUI.RangeValuesTextSlider _rotXSlider
-    // Offset: 0x90
+    // Offset: 0x98
     HMUI::RangeValuesTextSlider* rotXSlider;
     // private HMUI.RangeValuesTextSlider _rotYSlider
-    // Offset: 0x98
+    // Offset: 0xA0
     HMUI::RangeValuesTextSlider* rotYSlider;
     // private HMUI.RangeValuesTextSlider _rotZSlider
-    // Offset: 0xA0
+    // Offset: 0xA8
     HMUI::RangeValuesTextSlider* rotZSlider;
     // static field const value: static private System.Single kPositionStep
     static constexpr const float kPositionStep = 0.1;
@@ -68,23 +68,23 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kRotationStep
     static void _set_kRotationStep(float value);
     // private System.Void HandlePositionSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0xBE2A64
+    // Offset: 0xF28724
     void HandlePositionSliderValueDidChange(HMUI::RangeValuesTextSlider* slider, float value);
     // private System.Void HandleRotationSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0xBE2B40
+    // Offset: 0xF28800
     void HandleRotationSliderValueDidChange(HMUI::RangeValuesTextSlider* slider, float value);
-    // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xBE22C8
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0xF27F88
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0xBE2738
+    // Offset: 0xF283F8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0xBE2C10
+    // Offset: 0xF288D0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

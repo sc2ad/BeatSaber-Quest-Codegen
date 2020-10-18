@@ -31,13 +31,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void SetCallback(ImageEffectController/RenderImageCallback renderImageCallback)
-    // Offset: 0x18290D4
+    // Offset: 0x1FAB7E4
     void SetCallback(GlobalNamespace::ImageEffectController::RenderImageCallback* renderImageCallback);
     // protected System.Void OnRenderImage(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x18290DC
+    // Offset: 0x1FAB7EC
     void OnRenderImage(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);
     // public System.Void .ctor()
-    // Offset: 0x18294F0
+    // Offset: 0x1FABC00
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

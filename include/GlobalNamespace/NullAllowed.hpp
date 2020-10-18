@@ -48,21 +48,23 @@ namespace GlobalNamespace {
       // Set static field: static public NullAllowed/Context Prefab
       static void _set_Prefab(GlobalNamespace::NullAllowed::Context value);
     }; // NullAllowed/Context
-    // private NullAllowed/Context _context
+    // public readonly NullAllowed/Context context
     // Offset: 0x10
     GlobalNamespace::NullAllowed::Context context;
-    // Creating conversion operator: operator GlobalNamespace::NullAllowed::Context
-    constexpr operator GlobalNamespace::NullAllowed::Context() const noexcept {
-      return context;
-    }
-    // public NullAllowed/Context get_context()
-    // Offset: 0xCB8DA8
-    GlobalNamespace::NullAllowed::Context get_context();
+    // public readonly System.String propertyName
+    // Offset: 0x18
+    ::Il2CppString* propertyName;
+    // public readonly System.Object ifNotValue
+    // Offset: 0x20
+    ::Il2CppObject* ifNotValue;
     // public System.Void .ctor(NullAllowed/Context context)
-    // Offset: 0xCB8DD8
+    // Offset: 0x222E15C
     static NullAllowed* New_ctor(GlobalNamespace::NullAllowed::Context context);
+    // public System.Void .ctor(System.String propertyName, System.Object ifNotValue)
+    // Offset: 0x222E188
+    static NullAllowed* New_ctor(::Il2CppString* propertyName, ::Il2CppObject* ifNotValue);
     // public System.Void .ctor()
-    // Offset: 0xCB8DB0
+    // Offset: 0x222E134
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRCompositor::_SubmitExplicitTimingData : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x151AC30
+    // Offset: 0x1D5E538
     static IVRCompositor::_SubmitExplicitTimingData* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRCompositorError Invoke()
-    // Offset: 0x151AC44
+    // Offset: 0x1D5E54C
     OVR::OpenVR::EVRCompositorError Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x151AE58
+    // Offset: 0x1D5E760
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRCompositorError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x151AE84
+    // Offset: 0x1D5E78C
     OVR::OpenVR::EVRCompositorError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_SubmitExplicitTimingData
 }

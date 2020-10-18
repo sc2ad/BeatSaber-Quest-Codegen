@@ -36,37 +36,37 @@ namespace System::Threading {
       return m_ec;
     }
     // public System.Void .ctor(System.Threading.ExecutionContext ec)
-    // Offset: 0xA47CF8
+    // Offset: 0xDC23A0
     // ABORTED: conflicts with another method.  Reader(System::Threading::ExecutionContext* ec);
     // public System.Threading.ExecutionContext DangerousGetRawExecutionContext()
-    // Offset: 0xA47D00
+    // Offset: 0xDC23A8
     System::Threading::ExecutionContext* DangerousGetRawExecutionContext();
     // public System.Boolean get_IsNull()
-    // Offset: 0xA47D08
+    // Offset: 0xDC23B0
     bool get_IsNull();
     // public System.Boolean IsDefaultFTContext(System.Boolean ignoreSyncCtx)
-    // Offset: 0xA47D18
+    // Offset: 0xDC23C0
     bool IsDefaultFTContext(bool ignoreSyncCtx);
     // public System.Boolean get_IsFlowSuppressed()
-    // Offset: 0xA47D34
+    // Offset: 0xDC23DC
     bool get_IsFlowSuppressed();
     // public System.Threading.SynchronizationContext get_SynchronizationContext()
-    // Offset: 0xA47D50
+    // Offset: 0xDC23F8
     System::Threading::SynchronizationContext* get_SynchronizationContext();
     // public System.Threading.SynchronizationContext get_SynchronizationContextNoFlow()
-    // Offset: 0xA47D68
+    // Offset: 0xDC2410
     System::Threading::SynchronizationContext* get_SynchronizationContextNoFlow();
     // public System.Runtime.Remoting.Messaging.LogicalCallContext/Reader get_LogicalCallContext()
-    // Offset: 0xA47D80
+    // Offset: 0xDC2428
     System::Runtime::Remoting::Messaging::LogicalCallContext::Reader get_LogicalCallContext();
     // public System.Runtime.Remoting.Messaging.IllogicalCallContext/Reader get_IllogicalCallContext()
-    // Offset: 0xA47D88
+    // Offset: 0xDC2430
     System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader get_IllogicalCallContext();
     // public System.Object GetLocalValue(System.Threading.IAsyncLocal local)
-    // Offset: 0xA47D90
+    // Offset: 0xDC2438
     ::Il2CppObject* GetLocalValue(System::Threading::IAsyncLocal* local);
     // public System.Boolean HasSameLocalValues(System.Threading.ExecutionContext other)
-    // Offset: 0xA47D98
+    // Offset: 0xDC2440
     bool HasSameLocalValues(System::Threading::ExecutionContext* other);
   }; // System.Threading.ExecutionContext/Reader
 }

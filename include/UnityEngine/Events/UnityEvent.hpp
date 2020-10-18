@@ -35,30 +35,30 @@ namespace UnityEngine::Events {
       return m_InvokeArray;
     }
     // public System.Void AddListener(UnityEngine.Events.UnityAction call)
-    // Offset: 0x1310404
+    // Offset: 0x19EB674
     void AddListener(UnityEngine::Events::UnityAction* call);
     // public System.Void RemoveListener(UnityEngine.Events.UnityAction call)
-    // Offset: 0x13104C0
+    // Offset: 0x19EB730
     void RemoveListener(UnityEngine::Events::UnityAction* call);
     // static private UnityEngine.Events.BaseInvokableCall GetDelegate(UnityEngine.Events.UnityAction action)
-    // Offset: 0x131043C
+    // Offset: 0x19EB6AC
     static UnityEngine::Events::BaseInvokableCall* GetDelegate(UnityEngine::Events::UnityAction* action);
     // public System.Void Invoke()
-    // Offset: 0x13107C0
+    // Offset: 0x19EBA30
     void Invoke();
     // public System.Void .ctor()
-    // Offset: 0x1310338
+    // Offset: 0x19EB5A8
     // Implemented from: UnityEngine.Events.UnityEventBase
     // Base method: System.Void UnityEventBase::.ctor()
     // Base method: System.Void Object::.ctor()
     static UnityEvent* New_ctor();
     // protected override System.Reflection.MethodInfo FindMethod_Impl(System.String name, System.Object targetObj)
-    // Offset: 0x1310520
+    // Offset: 0x19EB790
     // Implemented from: UnityEngine.Events.UnityEventBase
     // Base method: System.Reflection.MethodInfo UnityEventBase::FindMethod_Impl(System.String name, System.Object targetObj)
     System::Reflection::MethodInfo* FindMethod_Impl(::Il2CppString* name, ::Il2CppObject* targetObj);
     // override UnityEngine.Events.BaseInvokableCall GetDelegate(System.Object target, System.Reflection.MethodInfo theFunction)
-    // Offset: 0x1310750
+    // Offset: 0x19EB9C0
     // Implemented from: UnityEngine.Events.UnityEventBase
     // Base method: UnityEngine.Events.BaseInvokableCall UnityEventBase::GetDelegate(System.Object target, System.Reflection.MethodInfo theFunction)
     UnityEngine::Events::BaseInvokableCall* GetDelegate(::Il2CppObject* target, System::Reflection::MethodInfo* theFunction);

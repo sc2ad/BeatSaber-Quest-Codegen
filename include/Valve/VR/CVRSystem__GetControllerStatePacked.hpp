@@ -31,16 +31,16 @@ namespace Valve::VR {
   class CVRSystem::_GetControllerStatePacked : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xFE9320
+    // Offset: 0x15372BC
     static CVRSystem::_GetControllerStatePacked* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.UInt32 unControllerDeviceIndex, ref Valve.VR.VRControllerState_t_Packed pControllerState, System.UInt32 unControllerStateSize)
-    // Offset: 0xFE8990
+    // Offset: 0x153692C
     bool Invoke(uint unControllerDeviceIndex, Valve::VR::VRControllerState_t_Packed& pControllerState, uint unControllerStateSize);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unControllerDeviceIndex, ref Valve.VR.VRControllerState_t_Packed pControllerState, System.UInt32 unControllerStateSize, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xFE9334
+    // Offset: 0x15372D0
     System::IAsyncResult* BeginInvoke(uint unControllerDeviceIndex, Valve::VR::VRControllerState_t_Packed& pControllerState, uint unControllerStateSize, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(ref Valve.VR.VRControllerState_t_Packed pControllerState, System.IAsyncResult result)
-    // Offset: 0xFE9400
+    // Offset: 0x153739C
     bool EndInvoke(Valve::VR::VRControllerState_t_Packed& pControllerState, System::IAsyncResult* result);
   }; // Valve.VR.CVRSystem/_GetControllerStatePacked
 }

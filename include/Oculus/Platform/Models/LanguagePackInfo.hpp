@@ -28,7 +28,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x20
     ::Il2CppString* Tag;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xEAA124
+    // Offset: 0x136A820
     static LanguagePackInfo* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.LanguagePackInfo
 }

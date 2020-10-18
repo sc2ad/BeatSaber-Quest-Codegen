@@ -106,86 +106,86 @@ namespace RootMotion::FinalIK {
     // Offset: 0x144
     UnityEngine::Vector3 bendNormalRelToTarget;
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0x14416F8
+    // Offset: 0x1BEF348
     UnityEngine::Vector3 get_position();
     // private System.Void set_position(UnityEngine.Vector3 value)
-    // Offset: 0x1441704
+    // Offset: 0x1BEF354
     void set_position(UnityEngine::Vector3 value);
     // public UnityEngine.Quaternion get_rotation()
-    // Offset: 0x1441710
+    // Offset: 0x1BEF360
     UnityEngine::Quaternion get_rotation();
     // private System.Void set_rotation(UnityEngine.Quaternion value)
-    // Offset: 0x144171C
+    // Offset: 0x1BEF36C
     void set_rotation(UnityEngine::Quaternion value);
     // public System.Boolean get_hasToes()
-    // Offset: 0x1441728
+    // Offset: 0x1BEF378
     bool get_hasToes();
     // private System.Void set_hasToes(System.Boolean value)
-    // Offset: 0x1441730
+    // Offset: 0x1BEF380
     void set_hasToes(bool value);
     // public RootMotion.FinalIK.IKSolverVR/VirtualBone get_thigh()
-    // Offset: 0x144173C
+    // Offset: 0x1BEF38C
     RootMotion::FinalIK::IKSolverVR::VirtualBone* get_thigh();
     // private RootMotion.FinalIK.IKSolverVR/VirtualBone get_calf()
-    // Offset: 0x1441770
+    // Offset: 0x1BEF3C0
     RootMotion::FinalIK::IKSolverVR::VirtualBone* get_calf();
     // private RootMotion.FinalIK.IKSolverVR/VirtualBone get_foot()
-    // Offset: 0x14417A8
+    // Offset: 0x1BEF3F8
     RootMotion::FinalIK::IKSolverVR::VirtualBone* get_foot();
     // private RootMotion.FinalIK.IKSolverVR/VirtualBone get_toes()
-    // Offset: 0x14417E0
+    // Offset: 0x1BEF430
     RootMotion::FinalIK::IKSolverVR::VirtualBone* get_toes();
     // public RootMotion.FinalIK.IKSolverVR/VirtualBone get_lastBone()
-    // Offset: 0x1441818
+    // Offset: 0x1BEF468
     RootMotion::FinalIK::IKSolverVR::VirtualBone* get_lastBone();
     // public UnityEngine.Vector3 get_thighRelativeToPelvis()
-    // Offset: 0x1441858
+    // Offset: 0x1BEF4A8
     UnityEngine::Vector3 get_thighRelativeToPelvis();
     // private System.Void set_thighRelativeToPelvis(UnityEngine.Vector3 value)
-    // Offset: 0x1441864
+    // Offset: 0x1BEF4B4
     void set_thighRelativeToPelvis(UnityEngine::Vector3 value);
     // private System.Void ApplyPositionOffset(UnityEngine.Vector3 offset, System.Single weight)
-    // Offset: 0x144265C
+    // Offset: 0x1BF02AC
     void ApplyPositionOffset(UnityEngine::Vector3 offset, float weight);
     // private System.Void ApplyRotationOffset(UnityEngine.Quaternion offset, System.Single weight)
-    // Offset: 0x1442424
+    // Offset: 0x1BF0074
     void ApplyRotationOffset(UnityEngine::Quaternion offset, float weight);
     // public System.Void Solve(System.Boolean stretch)
-    // Offset: 0x1442D18
+    // Offset: 0x1BF0968
     void Solve(bool stretch);
     // private System.Void FixTwistRotations()
-    // Offset: 0x1443464
+    // Offset: 0x1BF10B4
     void FixTwistRotations();
     // private System.Void Stretching()
-    // Offset: 0x1442F38
+    // Offset: 0x1BF0B88
     void Stretching();
     // protected override System.Void OnRead(UnityEngine.Vector3[] positions, UnityEngine.Quaternion[] rotations, System.Boolean hasChest, System.Boolean hasNeck, System.Boolean hasShoulders, System.Boolean hasToes, System.Boolean hasLegs, System.Int32 rootIndex, System.Int32 index)
-    // Offset: 0x1441870
+    // Offset: 0x1BEF4C0
     // Implemented from: RootMotion.FinalIK.IKSolverVR/BodyPart
     // Base method: System.Void BodyPart::OnRead(UnityEngine.Vector3[] positions, UnityEngine.Quaternion[] rotations, System.Boolean hasChest, System.Boolean hasNeck, System.Boolean hasShoulders, System.Boolean hasToes, System.Boolean hasLegs, System.Int32 rootIndex, System.Int32 index)
     void OnRead(::Array<UnityEngine::Vector3>* positions, ::Array<UnityEngine::Quaternion>* rotations, bool hasChest, bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs, int rootIndex, int index);
     // public override System.Void PreSolve()
-    // Offset: 0x1441E78
+    // Offset: 0x1BEFAC8
     // Implemented from: RootMotion.FinalIK.IKSolverVR/BodyPart
     // Base method: System.Void BodyPart::PreSolve()
     void PreSolve();
     // public override System.Void ApplyOffsets()
-    // Offset: 0x1442760
+    // Offset: 0x1BF03B0
     // Implemented from: RootMotion.FinalIK.IKSolverVR/BodyPart
     // Base method: System.Void BodyPart::ApplyOffsets()
     void ApplyOffsets();
     // public override System.Void Write(ref UnityEngine.Vector3[] solvedPositions, ref UnityEngine.Quaternion[] solvedRotations)
-    // Offset: 0x14438CC
+    // Offset: 0x1BF151C
     // Implemented from: RootMotion.FinalIK.IKSolverVR/BodyPart
     // Base method: System.Void BodyPart::Write(ref UnityEngine.Vector3[] solvedPositions, ref UnityEngine.Quaternion[] solvedRotations)
     void Write(::Array<UnityEngine::Vector3>*& solvedPositions, ::Array<UnityEngine::Quaternion>*& solvedRotations);
     // public override System.Void ResetOffsets()
-    // Offset: 0x1443AE8
+    // Offset: 0x1BF1738
     // Implemented from: RootMotion.FinalIK.IKSolverVR/BodyPart
     // Base method: System.Void BodyPart::ResetOffsets()
     void ResetOffsets();
     // public System.Void .ctor()
-    // Offset: 0x1443B98
+    // Offset: 0x1BF17E8
     // Implemented from: RootMotion.FinalIK.IKSolverVR/BodyPart
     // Base method: System.Void BodyPart::.ctor()
     // Base method: System.Void Object::.ctor()

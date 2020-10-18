@@ -104,45 +104,45 @@ namespace HMUI {
       static void _set_End(HMUI::NavigationController::Alignment value);
     }; // HMUI.NavigationController/Alignment
     // private HMUI.NavigationController/Orientation _orientation
-    // Offset: 0x78
+    // Offset: 0x80
     HMUI::NavigationController::Orientation orientation;
     // private System.Boolean _reversedStacking
-    // Offset: 0x7C
+    // Offset: 0x84
     bool reversedStacking;
     // private HMUI.NavigationController/Alignment _alignment
-    // Offset: 0x80
+    // Offset: 0x88
     HMUI::NavigationController::Alignment alignment;
     // private System.Single _edgeSize
-    // Offset: 0x84
+    // Offset: 0x8C
     float edgeSize;
     // private System.Single _viewControllersSeparator
-    // Offset: 0x88
+    // Offset: 0x90
     float viewControllersSeparator;
     // public System.Void PushViewController(HMUI.ViewController viewController, System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x10DE600
+    // Offset: 0x1172DD0
     void PushViewController(HMUI::ViewController* viewController, System::Action* finishedCallback, bool immediately);
     // public System.Void PopViewController(System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x10DE718
+    // Offset: 0x1172EEC
     void PopViewController(System::Action* finishedCallback, bool immediately);
     // public System.Void PopViewControllers(System.Int32 numberOfViewControllersToPop, System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x10DE72C
+    // Offset: 0x1172F00
     void PopViewControllers(int numberOfViewControllersToPop, System::Action* finishedCallback, bool immediately);
     // private UnityEngine.Vector3 PositionVector(System.Single pos)
-    // Offset: 0x10DE5A4
+    // Offset: 0x1172D74
     UnityEngine::Vector3 PositionVector(float pos);
     // private System.Void SetupViewControllerRect(HMUI.ViewController viewController)
-    // Offset: 0x10DE54C
+    // Offset: 0x1172D18
     void SetupViewControllerRect(HMUI::ViewController* viewController);
     // private System.Single[] GetNewPositionsForViewControllers(System.Collections.Generic.List`1<HMUI.ViewController> viewControllers, System.Collections.Generic.HashSet`1<HMUI.ViewController> fixedViewControllers, System.Single fixedEndPos)
-    // Offset: 0x10DE0CC
+    // Offset: 0x1172894
     ::Array<float>* GetNewPositionsForViewControllers(System::Collections::Generic::List_1<HMUI::ViewController*>* viewControllers, System::Collections::Generic::HashSet_1<HMUI::ViewController*>* fixedViewControllers, float fixedEndPos);
     // protected override System.Void LayoutViewControllers(System.Collections.Generic.List`1<HMUI.ViewController> viewControllers)
-    // Offset: 0x10DDF98
+    // Offset: 0x1172760
     // Implemented from: HMUI.ContainerViewController
     // Base method: System.Void ContainerViewController::LayoutViewControllers(System.Collections.Generic.List`1<HMUI.ViewController> viewControllers)
     void LayoutViewControllers(System::Collections::Generic::List_1<HMUI::ViewController*>* viewControllers);
     // public System.Void .ctor()
-    // Offset: 0x10DE9E4
+    // Offset: 0x117310C
     // Implemented from: HMUI.ContainerViewController
     // Base method: System.Void ContainerViewController::.ctor()
     // Base method: System.Void ViewController::.ctor()

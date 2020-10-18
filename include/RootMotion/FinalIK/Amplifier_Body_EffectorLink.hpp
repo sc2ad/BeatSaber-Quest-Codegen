@@ -22,7 +22,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x14
     float weight;
     // public System.Void .ctor()
-    // Offset: 0x13AD17C
+    // Offset: 0x1ACD4B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Amplifier::Body::EffectorLink* New_ctor();

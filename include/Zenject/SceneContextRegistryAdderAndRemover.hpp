@@ -31,15 +31,15 @@ namespace Zenject {
     // Offset: 0x18
     Zenject::SceneContext* sceneContext;
     // public System.Void .ctor(Zenject.SceneContext sceneContext, Zenject.SceneContextRegistry registry)
-    // Offset: 0xFCDDEC
+    // Offset: 0x151BD88
     static SceneContextRegistryAdderAndRemover* New_ctor(Zenject::SceneContext* sceneContext, Zenject::SceneContextRegistry* registry);
     // public System.Void Initialize()
-    // Offset: 0xFCDE3C
+    // Offset: 0x151BDD8
     // Implemented from: Zenject.IInitializable
     // Base method: System.Void IInitializable::Initialize()
     void Initialize();
     // public System.Void Dispose()
-    // Offset: 0xFCDE5C
+    // Offset: 0x151BDF8
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

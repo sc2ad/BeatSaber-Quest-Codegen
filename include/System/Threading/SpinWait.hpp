@@ -22,11 +22,14 @@ namespace System::Threading {
       return m_count;
     }
     // public System.Boolean get_NextSpinWillYield()
-    // Offset: 0xA2DD60
+    // Offset: 0xDBA64C
     bool get_NextSpinWillYield();
     // public System.Void SpinOnce()
-    // Offset: 0xA2DD90
+    // Offset: 0xDBA67C
     void SpinOnce();
+    // public System.Void Reset()
+    // Offset: 0xDBA684
+    void Reset();
   }; // System.Threading.SpinWait
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

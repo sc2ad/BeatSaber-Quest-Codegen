@@ -42,100 +42,100 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x18
     System::Collections::Generic::List_1<::Il2CppObject*>* m_values;
     // System.Void .ctor(System.Collections.Generic.List`1<System.String> payloadNames, System.Collections.Generic.List`1<System.Object> payloadValues)
-    // Offset: 0xC9C3EC
+    // Offset: 0x147C128
     static EventPayload* New_ctor(System::Collections::Generic::List_1<::Il2CppString*>* payloadNames, System::Collections::Generic::List_1<::Il2CppObject*>* payloadValues);
     // public System.Collections.Generic.ICollection`1<System.String> get_Keys()
-    // Offset: 0xC9C43C
+    // Offset: 0x147C178
     System::Collections::Generic::ICollection_1<::Il2CppString*>* get_Keys();
     // public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>> GetEnumerator()
-    // Offset: 0xC9C974
+    // Offset: 0x147C6B0
     System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, ::Il2CppObject*>>* GetEnumerator();
     // public System.Void CopyTo(System.Collections.Generic.KeyValuePair`2<System.String,System.Object>[] payloadEntries, System.Int32 count)
-    // Offset: 0xC9CAC0
+    // Offset: 0x147C7FC
     void CopyTo(::Array<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, ::Il2CppObject*>>* payloadEntries, int count);
     // public System.Boolean TryGetValue(System.String key, out System.Object value)
-    // Offset: 0xC9CBE0
+    // Offset: 0x147C91C
     bool TryGetValue(::Il2CppString* key, ::Il2CppObject*& value);
     // public System.Object get_Item(System.String key)
-    // Offset: 0xC9C444
+    // Offset: 0x147C180
     // Implemented from: System.Collections.Generic.IDictionary`2
-    // Base method: TValue IDictionary`2::get_Item(System.String key)
+    // Base method: TValue IDictionary_2::get_Item(System.String key)
     ::Il2CppObject* get_Item(::Il2CppString* key);
     // public System.Void set_Item(System.String key, System.Object value)
-    // Offset: 0xC9C5FC
+    // Offset: 0x147C338
     // Implemented from: System.Collections.Generic.IDictionary`2
-    // Base method: System.Void IDictionary`2::set_Item(System.String key, System.Object value)
+    // Base method: System.Void IDictionary_2::set_Item(System.String key, System.Object value)
     void set_Item(::Il2CppString* key, ::Il2CppObject* value);
     // public System.Void Add(System.String key, System.Object value)
-    // Offset: 0xC9C65C
+    // Offset: 0x147C398
     // Implemented from: System.Collections.Generic.IDictionary`2
-    // Base method: System.Void IDictionary`2::Add(System.String key, System.Object value)
+    // Base method: System.Void IDictionary_2::Add(System.String key, System.Object value)
     void Add(::Il2CppString* key, ::Il2CppObject* value);
     // Creating proxy method: System_Collections_Generic_IDictionary_2_Add
     // Maps to method: Add
     void System_Collections_Generic_IDictionary_2_Add(::Il2CppString* key, ::Il2CppObject* value);
     // public System.Void Add(System.Collections.Generic.KeyValuePair`2<System.String,System.Object> payloadEntry)
-    // Offset: 0xC9C6BC
+    // Offset: 0x147C3F8
     // Implemented from: System.Collections.Generic.ICollection`1
-    // Base method: System.Void ICollection`1::Add(System.Collections.Generic.KeyValuePair`2<System.String,System.Object> payloadEntry)
+    // Base method: System.Void ICollection_1::Add(System.Collections.Generic.KeyValuePair`2<System.String,System.Object> payloadEntry)
     void Add(System::Collections::Generic::KeyValuePair_2<::Il2CppString*, ::Il2CppObject*> payloadEntry);
     // Creating proxy method: System_Collections_Generic_ICollection_1_Add
     // Maps to method: Add
     void System_Collections_Generic_ICollection_1_Add(System::Collections::Generic::KeyValuePair_2<::Il2CppString*, ::Il2CppObject*> payloadEntry);
     // public System.Void Clear()
-    // Offset: 0xC9C71C
+    // Offset: 0x147C458
     // Implemented from: System.Collections.Generic.ICollection`1
-    // Base method: System.Void ICollection`1::Clear()
+    // Base method: System.Void ICollection_1::Clear()
     void Clear();
     // Creating proxy method: System_Collections_Generic_ICollection_1_Clear
     // Maps to method: Clear
     void System_Collections_Generic_ICollection_1_Clear();
     // public System.Boolean Contains(System.Collections.Generic.KeyValuePair`2<System.String,System.Object> entry)
-    // Offset: 0xC9C77C
+    // Offset: 0x147C4B8
     // Implemented from: System.Collections.Generic.ICollection`1
-    // Base method: System.Boolean ICollection`1::Contains(System.Collections.Generic.KeyValuePair`2<System.String,System.Object> entry)
+    // Base method: System.Boolean ICollection_1::Contains(System.Collections.Generic.KeyValuePair`2<System.String,System.Object> entry)
     bool Contains(System::Collections::Generic::KeyValuePair_2<::Il2CppString*, ::Il2CppObject*> entry);
     // Creating proxy method: System_Collections_Generic_ICollection_1_Contains
     // Maps to method: Contains
     bool System_Collections_Generic_ICollection_1_Contains(System::Collections::Generic::KeyValuePair_2<::Il2CppString*, ::Il2CppObject*> entry);
     // public System.Boolean ContainsKey(System.String key)
-    // Offset: 0xC9C7D0
+    // Offset: 0x147C50C
     // Implemented from: System.Collections.Generic.IDictionary`2
-    // Base method: System.Boolean IDictionary`2::ContainsKey(System.String key)
+    // Base method: System.Boolean IDictionary_2::ContainsKey(System.String key)
     bool ContainsKey(::Il2CppString* key);
     // public System.Int32 get_Count()
-    // Offset: 0xC9C91C
+    // Offset: 0x147C658
     // Implemented from: System.Collections.Generic.ICollection`1
-    // Base method: System.Int32 ICollection`1::get_Count()
+    // Base method: System.Int32 ICollection_1::get_Count()
     int get_Count();
     // Creating proxy method: System_Collections_Generic_ICollection_1_get_Count
     // Maps to method: get_Count
     int System_Collections_Generic_ICollection_1_get_Count();
     // public System.Boolean get_IsReadOnly()
-    // Offset: 0xC9C96C
+    // Offset: 0x147C6A8
     // Implemented from: System.Collections.Generic.ICollection`1
-    // Base method: System.Boolean ICollection`1::get_IsReadOnly()
+    // Base method: System.Boolean ICollection_1::get_IsReadOnly()
     bool get_IsReadOnly();
     // Creating proxy method: System_Collections_Generic_ICollection_1_get_IsReadOnly
     // Maps to method: get_IsReadOnly
     bool System_Collections_Generic_ICollection_1_get_IsReadOnly();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0xC9CA1C
+    // Offset: 0x147C758
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public System.Boolean Remove(System.String key)
-    // Offset: 0xC9CB20
+    // Offset: 0x147C85C
     // Implemented from: System.Collections.Generic.IDictionary`2
-    // Base method: System.Boolean IDictionary`2::Remove(System.String key)
+    // Base method: System.Boolean IDictionary_2::Remove(System.String key)
     bool Remove(::Il2CppString* key);
     // Creating proxy method: System_Collections_Generic_IDictionary_2_Remove
     // Maps to method: Remove
     bool System_Collections_Generic_IDictionary_2_Remove(::Il2CppString* key);
     // public System.Boolean Remove(System.Collections.Generic.KeyValuePair`2<System.String,System.Object> entry)
-    // Offset: 0xC9CB80
+    // Offset: 0x147C8BC
     // Implemented from: System.Collections.Generic.ICollection`1
-    // Base method: System.Boolean ICollection`1::Remove(System.Collections.Generic.KeyValuePair`2<System.String,System.Object> entry)
+    // Base method: System.Boolean ICollection_1::Remove(System.Collections.Generic.KeyValuePair`2<System.String,System.Object> entry)
     bool Remove(System::Collections::Generic::KeyValuePair_2<::Il2CppString*, ::Il2CppObject*> entry);
     // Creating proxy method: System_Collections_Generic_ICollection_1_Remove
     // Maps to method: Remove

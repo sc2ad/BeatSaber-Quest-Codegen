@@ -29,7 +29,7 @@ namespace UnityEngine {
     // Offset: 0x18
     System::Collections::Generic::IEnumerable_1<::Il2CppString*>* otherExtensions;
     // public System.Void .ctor(System.String preferredExtension, params System.String[] otherExtensions)
-    // Offset: 0x1974B9C
+    // Offset: 0x22238F4
     static AssetFileNameExtensionAttribute* New_ctor(::Il2CppString* preferredExtension, ::Array<::Il2CppString*>* otherExtensions);
     // Creating initializer_list -> params proxy for: System.Void .ctor(System.String preferredExtension, params System.String[] otherExtensions)
     static AssetFileNameExtensionAttribute* New_ctor(::Il2CppString* preferredExtension, std::initializer_list<::Il2CppString*> otherExtensions);

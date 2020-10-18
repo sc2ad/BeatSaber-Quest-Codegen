@@ -32,32 +32,32 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public TextureEffectSO get_textureEffect()
-    // Offset: 0x18265E4
+    // Offset: 0x1FA8D28
     // Implemented from: IBloomPrePassParams
     // Base method: TextureEffectSO IBloomPrePassParams::get_textureEffect()
     GlobalNamespace::TextureEffectSO* get_textureEffect();
     // public System.Int32 get_textureWidth()
-    // Offset: 0x18265E8
+    // Offset: 0x1FA8D2C
     // Implemented from: IBloomPrePassParams
     // Base method: System.Int32 IBloomPrePassParams::get_textureWidth()
     int get_textureWidth();
     // public System.Int32 get_textureHeight()
-    // Offset: 0x18265F0
+    // Offset: 0x1FA8D34
     // Implemented from: IBloomPrePassParams
     // Base method: System.Int32 IBloomPrePassParams::get_textureHeight()
     int get_textureHeight();
     // public UnityEngine.Vector2 get_fov()
-    // Offset: 0x18265F8
+    // Offset: 0x1FA8D3C
     // Implemented from: IBloomPrePassParams
     // Base method: UnityEngine.Vector2 IBloomPrePassParams::get_fov()
     UnityEngine::Vector2 get_fov();
     // public System.Single get_linesWidth()
-    // Offset: 0x1826600
+    // Offset: 0x1FA8D44
     // Implemented from: IBloomPrePassParams
     // Base method: System.Single IBloomPrePassParams::get_linesWidth()
     float get_linesWidth();
     // public System.Void .ctor()
-    // Offset: 0x1826608
+    // Offset: 0x1FA8D4C
     // Implemented from: TextureEffectSO
     // Base method: System.Void TextureEffectSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

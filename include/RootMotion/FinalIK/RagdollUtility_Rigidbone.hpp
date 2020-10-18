@@ -64,13 +64,13 @@ namespace RootMotion::FinalIK {
     // Offset: 0x68
     UnityEngine::Quaternion lastRotation;
     // public System.Void .ctor(UnityEngine.Rigidbody r)
-    // Offset: 0x1235030
+    // Offset: 0x18E9168
     static RagdollUtility::Rigidbone* New_ctor(UnityEngine::Rigidbody* r);
     // public System.Void RecordVelocity()
-    // Offset: 0x1235CA8
+    // Offset: 0x18E9DE0
     void RecordVelocity();
     // public System.Void WakeUp(System.Single velocityWeight, System.Single angularVelocityWeight)
-    // Offset: 0x1235A8C
+    // Offset: 0x18E9BC4
     void WakeUp(float velocityWeight, float angularVelocityWeight);
   }; // RootMotion.FinalIK.RagdollUtility/Rigidbone
 }

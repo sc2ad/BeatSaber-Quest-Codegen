@@ -4,6 +4,8 @@
 // Begin includes
 // Including type: RichPresenceManager
 #include "GlobalNamespace/RichPresenceManager.hpp"
+// Including type: StandardLevelScenesTransitionSetupDataSO
+#include "GlobalNamespace/StandardLevelScenesTransitionSetupDataSO.hpp"
 // Including type: ScenesTransitionSetupDataSO
 #include "GlobalNamespace/ScenesTransitionSetupDataSO.hpp"
 // Including type: MissionLevelScenesTransitionSetupDataSO

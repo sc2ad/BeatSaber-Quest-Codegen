@@ -55,37 +55,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_relativeScoreOrImmediateRankDidChangeEvent(System.Action value)
-    // Offset: 0xC208E0
+    // Offset: 0xF77B8C
     void add_relativeScoreOrImmediateRankDidChangeEvent(System::Action* value);
     // public System.Void remove_relativeScoreOrImmediateRankDidChangeEvent(System.Action value)
-    // Offset: 0xC20984
+    // Offset: 0xF77C30
     void remove_relativeScoreOrImmediateRankDidChangeEvent(System::Action* value);
     // public System.Single get_relativeScore()
-    // Offset: 0xC20A28
+    // Offset: 0xF77CD4
     float get_relativeScore();
     // private System.Void set_relativeScore(System.Single value)
-    // Offset: 0xC20A30
+    // Offset: 0xF77CDC
     void set_relativeScore(float value);
     // public RankModel/Rank get_immediateRank()
-    // Offset: 0xC20A38
+    // Offset: 0xF77CE4
     GlobalNamespace::RankModel::Rank get_immediateRank();
     // private System.Void set_immediateRank(RankModel/Rank value)
-    // Offset: 0xC20A40
+    // Offset: 0xF77CEC
     void set_immediateRank(GlobalNamespace::RankModel::Rank value);
     // protected System.Void Start()
-    // Offset: 0xC20A48
+    // Offset: 0xF77CF4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xC20BD4
+    // Offset: 0xF77E80
     void OnDestroy();
     // private System.Void HandleScoreControllerImmediateMaxPossibleScoreDidChange(System.Int32 immediateMaxPossibleScore, System.Int32 immediateMaxPossibleModifiedScore)
-    // Offset: 0xC20D4C
+    // Offset: 0xF77FF8
     void HandleScoreControllerImmediateMaxPossibleScoreDidChange(int immediateMaxPossibleScore, int immediateMaxPossibleModifiedScore);
     // private System.Void UpdateRelativeScoreAndImmediateRank(System.Int32 score, System.Int32 modifiedScore, System.Int32 maxPossibleScore, System.Int32 maxPossibleModifiedScore)
-    // Offset: 0xC20DA8
+    // Offset: 0xF78058
     void UpdateRelativeScoreAndImmediateRank(int score, int modifiedScore, int maxPossibleScore, int maxPossibleModifiedScore);
     // public System.Void .ctor()
-    // Offset: 0xC20E2C
+    // Offset: 0xF780E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

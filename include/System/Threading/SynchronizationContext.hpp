@@ -53,34 +53,34 @@ namespace System::Threading {
     // Set static field: static private System.Type s_cachedPreparedType5
     static void _set_s_cachedPreparedType5(System::Type* value);
     // public System.Void Send(System.Threading.SendOrPostCallback d, System.Object state)
-    // Offset: 0xCDE5B4
+    // Offset: 0x16D9F80
     void Send(System::Threading::SendOrPostCallback* d, ::Il2CppObject* state);
     // public System.Void Post(System.Threading.SendOrPostCallback d, System.Object state)
-    // Offset: 0xCDE5D0
+    // Offset: 0x16D9F9C
     void Post(System::Threading::SendOrPostCallback* d, ::Il2CppObject* state);
     // public System.Void OperationStarted()
-    // Offset: 0xCDE65C
+    // Offset: 0x16DA028
     void OperationStarted();
     // public System.Void OperationCompleted()
-    // Offset: 0xCDE660
+    // Offset: 0x16DA02C
     void OperationCompleted();
     // static public System.Void SetSynchronizationContext(System.Threading.SynchronizationContext syncContext)
-    // Offset: 0xCDE664
+    // Offset: 0x16DA030
     static void SetSynchronizationContext(System::Threading::SynchronizationContext* syncContext);
     // static public System.Threading.SynchronizationContext get_Current()
-    // Offset: 0xCDE760
+    // Offset: 0x16DA12C
     static System::Threading::SynchronizationContext* get_Current();
     // static System.Threading.SynchronizationContext get_CurrentNoFlow()
-    // Offset: 0xCDE840
+    // Offset: 0x16DA20C
     static System::Threading::SynchronizationContext* get_CurrentNoFlow();
     // static private System.Threading.SynchronizationContext GetThreadLocalContext()
-    // Offset: 0xCDE7E0
+    // Offset: 0x16DA1AC
     static System::Threading::SynchronizationContext* GetThreadLocalContext();
     // public System.Threading.SynchronizationContext CreateCopy()
-    // Offset: 0xCDE894
+    // Offset: 0x16DA260
     System::Threading::SynchronizationContext* CreateCopy();
     // public System.Void .ctor()
-    // Offset: 0xCDE5AC
+    // Offset: 0x16D9F78
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SynchronizationContext* New_ctor();

@@ -39,7 +39,7 @@ namespace Zenject {
     // public TContract Create()
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IFactory`1
-    // Base method: TValue IFactory`1::Create()
+    // Base method: TValue IFactory_1::Create()
     TContract Create() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<TContract>(this, "Create"));
     }

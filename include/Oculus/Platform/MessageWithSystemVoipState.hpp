@@ -25,16 +25,16 @@ namespace Oculus::Platform {
   class MessageWithSystemVoipState : public Oculus::Platform::Message_1<Oculus::Platform::Models::SystemVoipState*> {
     public:
     // protected Oculus.Platform.Models.SystemVoipState GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xEA92C4
+    // Offset: 0x13699C0
     Oculus::Platform::Models::SystemVoipState* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE9FD70
+    // Offset: 0x136046C
     // Implemented from: Oculus.Platform.Message`1
-    // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
+    // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithSystemVoipState* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.SystemVoipState GetSystemVoipState()
-    // Offset: 0xEA9280
+    // Offset: 0x136997C
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.SystemVoipState Message::GetSystemVoipState()
     Oculus::Platform::Models::SystemVoipState* GetSystemVoipState();

@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRChaperoneSetup::_ReloadFromDisk : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1601AD8
+    // Offset: 0x1E2BD58
     static IVRChaperoneSetup::_ReloadFromDisk* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(Valve.VR.EChaperoneConfigFile configFile)
-    // Offset: 0x1601AEC
+    // Offset: 0x1E2BD6C
     void Invoke(Valve::VR::EChaperoneConfigFile configFile);
     // public System.IAsyncResult BeginInvoke(Valve.VR.EChaperoneConfigFile configFile, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1601D58
+    // Offset: 0x1E2BFD8
     System::IAsyncResult* BeginInvoke(Valve::VR::EChaperoneConfigFile configFile, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1601DE4
+    // Offset: 0x1E2C064
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperoneSetup/_ReloadFromDisk
 }

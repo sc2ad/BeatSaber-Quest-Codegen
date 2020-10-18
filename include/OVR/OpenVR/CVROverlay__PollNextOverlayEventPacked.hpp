@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class CVROverlay::_PollNextOverlayEventPacked : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xED05A8
+    // Offset: 0x1380484
     static CVROverlay::_PollNextOverlayEventPacked* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.VREvent_t_Packed pEvent, System.UInt32 uncbVREvent)
-    // Offset: 0xECFED4
+    // Offset: 0x137FDB0
     bool Invoke(uint64_t ulOverlayHandle, OVR::OpenVR::VREvent_t_Packed& pEvent, uint uncbVREvent);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.VREvent_t_Packed pEvent, System.UInt32 uncbVREvent, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xED05BC
+    // Offset: 0x1380498
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, OVR::OpenVR::VREvent_t_Packed& pEvent, uint uncbVREvent, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(ref OVR.OpenVR.VREvent_t_Packed pEvent, System.IAsyncResult result)
-    // Offset: 0xED0690
+    // Offset: 0x138056C
     bool EndInvoke(OVR::OpenVR::VREvent_t_Packed& pEvent, System::IAsyncResult* result);
   }; // OVR.OpenVR.CVROverlay/_PollNextOverlayEventPacked
 }

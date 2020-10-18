@@ -20,16 +20,16 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x18
     bool allInternalsVisible;
     // public System.Void .ctor(System.String assemblyName)
-    // Offset: 0x1166AAC
+    // Offset: 0x1291018
     static InternalsVisibleToAttribute* New_ctor(::Il2CppString* assemblyName);
     // public System.String get_AssemblyName()
-    // Offset: 0x1166AE8
+    // Offset: 0x1291054
     ::Il2CppString* get_AssemblyName();
     // public System.Boolean get_AllInternalsVisible()
-    // Offset: 0x1166AF0
+    // Offset: 0x129105C
     bool get_AllInternalsVisible();
     // public System.Void set_AllInternalsVisible(System.Boolean value)
-    // Offset: 0x1166AF8
+    // Offset: 0x1291064
     void set_AllInternalsVisible(bool value);
   }; // System.Runtime.CompilerServices.InternalsVisibleToAttribute
 }

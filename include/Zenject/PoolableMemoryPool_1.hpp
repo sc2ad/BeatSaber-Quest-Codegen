@@ -27,22 +27,22 @@ namespace Zenject {
     // protected override System.Void OnDespawned(TValue item)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPoolBase`1
-    // Base method: System.Void MemoryPoolBase`1::OnDespawned(TValue item)
+    // Base method: System.Void MemoryPoolBase_1::OnDespawned(TValue item)
     void OnDespawned(TValue item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnDespawned", item));
     }
     // protected override System.Void Reinitialize(TValue item)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPool`1
-    // Base method: System.Void MemoryPool`1::Reinitialize(TValue item)
+    // Base method: System.Void MemoryPool_1::Reinitialize(TValue item)
     void Reinitialize(TValue item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Reinitialize", item));
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPool`1
-    // Base method: System.Void MemoryPool`1::.ctor()
-    // Base method: System.Void MemoryPoolBase`1::.ctor()
+    // Base method: System.Void MemoryPool_1::.ctor()
+    // Base method: System.Void MemoryPoolBase_1::.ctor()
     // Base method: System.Void Object::.ctor()
     static PoolableMemoryPool_1<TValue>* New_ctor() {
       return THROW_UNLESS(il2cpp_utils::New<PoolableMemoryPool_1<TValue>*>());

@@ -18,8 +18,8 @@
 #include "GlobalNamespace/GameEnergyCounter.hpp"
 // Including type: GameSongController
 #include "GlobalNamespace/GameSongController.hpp"
-// Including type: BeatmapData
-#include "GlobalNamespace/BeatmapData.hpp"
+// Including type: IReadonlyBeatmapData
+#include "GlobalNamespace/IReadonlyBeatmapData.hpp"
 // Including type: AudioTimeSyncController
 #include "GlobalNamespace/AudioTimeSyncController.hpp"
 // Including type: GameplayModifiers

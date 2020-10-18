@@ -27,8 +27,8 @@ namespace GlobalNamespace {
   class NoteCutInfo;
   // Forward declaring type: CutScoreBuffer
   class CutScoreBuffer;
-  // Forward declaring type: INoteController
-  class INoteController;
+  // Forward declaring type: NoteController
+  class NoteController;
 }
 // Forward declaring namespace: System
 namespace System {
@@ -65,16 +65,16 @@ namespace GlobalNamespace {
     // private GameplayModifiersModelSO _gameplayModifiersModel
     // Offset: 0x20
     GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel;
-    // private GameplayModifiers _gameplayModifiers
+    // private readonly GameplayModifiers _gameplayModifiers
     // Offset: 0x28
     GlobalNamespace::GameplayModifiers* gameplayModifiers;
-    // private BeatmapObjectManager _beatmapObjectManager
+    // private readonly BeatmapObjectManager _beatmapObjectManager
     // Offset: 0x30
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
-    // private PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
+    // private readonly PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
     // Offset: 0x38
     GlobalNamespace::PlayerHeadAndObstacleInteraction* playerHeadAndObstacleInteraction;
-    // private AudioTimeSyncController _audioTimeSyncController
+    // private readonly AudioTimeSyncController _audioTimeSyncController
     // Offset: 0x40
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // private System.Action`3<NoteData,NoteCutInfo,System.Int32> noteWasCutEvent
@@ -146,7 +146,7 @@ namespace GlobalNamespace {
     // private System.Int32 _cutOrMissedNotes
     // Offset: 0xC8
     int cutOrMissedNotes;
-    // private System.Collections.Generic.List`1<CutScoreBuffer> _cutScoreBuffers
+    // private readonly System.Collections.Generic.List`1<CutScoreBuffer> _cutScoreBuffers
     // Offset: 0xD0
     System::Collections::Generic::List_1<GlobalNamespace::CutScoreBuffer*>* cutScoreBuffers;
     // private System.Single _gameplayModifiersScoreMultiplier
@@ -155,121 +155,121 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_noteWasCutEvent(System.Action`3<NoteData,NoteCutInfo,System.Int32> value)
-    // Offset: 0xC2B450
+    // Offset: 0xF85604
     void add_noteWasCutEvent(System::Action_3<GlobalNamespace::NoteData*, GlobalNamespace::NoteCutInfo*, int>* value);
     // public System.Void remove_noteWasCutEvent(System.Action`3<NoteData,NoteCutInfo,System.Int32> value)
-    // Offset: 0xC2B4F4
+    // Offset: 0xF856A8
     void remove_noteWasCutEvent(System::Action_3<GlobalNamespace::NoteData*, GlobalNamespace::NoteCutInfo*, int>* value);
     // public System.Void add_noteWasMissedEvent(System.Action`2<NoteData,System.Int32> value)
-    // Offset: 0xC2B598
+    // Offset: 0xF8574C
     void add_noteWasMissedEvent(System::Action_2<GlobalNamespace::NoteData*, int>* value);
     // public System.Void remove_noteWasMissedEvent(System.Action`2<NoteData,System.Int32> value)
-    // Offset: 0xC2B63C
+    // Offset: 0xF857F0
     void remove_noteWasMissedEvent(System::Action_2<GlobalNamespace::NoteData*, int>* value);
     // public System.Void add_scoreDidChangeEvent(System.Action`2<System.Int32,System.Int32> value)
-    // Offset: 0xC2B6E0
+    // Offset: 0xF85894
     void add_scoreDidChangeEvent(System::Action_2<int, int>* value);
     // public System.Void remove_scoreDidChangeEvent(System.Action`2<System.Int32,System.Int32> value)
-    // Offset: 0xC2B784
+    // Offset: 0xF85938
     void remove_scoreDidChangeEvent(System::Action_2<int, int>* value);
     // public System.Void add_immediateMaxPossibleScoreDidChangeEvent(System.Action`2<System.Int32,System.Int32> value)
-    // Offset: 0xC20B30
+    // Offset: 0xF77DDC
     void add_immediateMaxPossibleScoreDidChangeEvent(System::Action_2<int, int>* value);
     // public System.Void remove_immediateMaxPossibleScoreDidChangeEvent(System.Action`2<System.Int32,System.Int32> value)
-    // Offset: 0xC20CA8
+    // Offset: 0xF77F54
     void remove_immediateMaxPossibleScoreDidChangeEvent(System::Action_2<int, int>* value);
     // public System.Void add_multiplierDidChangeEvent(System.Action`2<System.Int32,System.Single> value)
-    // Offset: 0xC2B828
+    // Offset: 0xF859DC
     void add_multiplierDidChangeEvent(System::Action_2<int, float>* value);
     // public System.Void remove_multiplierDidChangeEvent(System.Action`2<System.Int32,System.Single> value)
-    // Offset: 0xC2B8CC
+    // Offset: 0xF85A80
     void remove_multiplierDidChangeEvent(System::Action_2<int, float>* value);
     // public System.Void add_comboDidChangeEvent(System.Action`1<System.Int32> value)
-    // Offset: 0xC2B970
+    // Offset: 0xF85B24
     void add_comboDidChangeEvent(System::Action_1<int>* value);
     // public System.Void remove_comboDidChangeEvent(System.Action`1<System.Int32> value)
-    // Offset: 0xC2BA14
+    // Offset: 0xF85BC8
     void remove_comboDidChangeEvent(System::Action_1<int>* value);
     // public System.Void add_feverModeChargeProgressDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0xC2BAB8
+    // Offset: 0xF85C6C
     void add_feverModeChargeProgressDidChangeEvent(System::Action_1<float>* value);
     // public System.Void remove_feverModeChargeProgressDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0xC2BB5C
+    // Offset: 0xF85D10
     void remove_feverModeChargeProgressDidChangeEvent(System::Action_1<float>* value);
     // public System.Void add_feverDidStartEvent(System.Action value)
-    // Offset: 0xC2BC00
+    // Offset: 0xF85DB4
     void add_feverDidStartEvent(System::Action* value);
     // public System.Void remove_feverDidStartEvent(System.Action value)
-    // Offset: 0xC2BCA4
+    // Offset: 0xF85E58
     void remove_feverDidStartEvent(System::Action* value);
     // public System.Void add_feverDidFinishEvent(System.Action value)
-    // Offset: 0xC2BD48
+    // Offset: 0xF85EFC
     void add_feverDidFinishEvent(System::Action* value);
     // public System.Void remove_feverDidFinishEvent(System.Action value)
-    // Offset: 0xC2BDEC
+    // Offset: 0xF85FA0
     void remove_feverDidFinishEvent(System::Action* value);
     // public System.Void add_comboBreakingEventHappenedEvent(System.Action value)
-    // Offset: 0xC2BE90
+    // Offset: 0xF86044
     void add_comboBreakingEventHappenedEvent(System::Action* value);
     // public System.Void remove_comboBreakingEventHappenedEvent(System.Action value)
-    // Offset: 0xC2BF34
+    // Offset: 0xF860E8
     void remove_comboBreakingEventHappenedEvent(System::Action* value);
     // public System.Int32 get_prevFrameRawScore()
-    // Offset: 0xC2BFD8
+    // Offset: 0xF8618C
     int get_prevFrameRawScore();
     // public System.Int32 get_prevFrameModifiedScore()
-    // Offset: 0xC1E268
+    // Offset: 0xF712A8
     int get_prevFrameModifiedScore();
     // public System.Int32 get_maxCombo()
-    // Offset: 0xC2C058
+    // Offset: 0xF86194
     int get_maxCombo();
     // public System.Int32 get_multiplierWithFever()
-    // Offset: 0xC2C060
+    // Offset: 0xF8619C
     int get_multiplierWithFever();
     // public System.Boolean get_feverModeActive()
-    // Offset: 0xC2C07C
+    // Offset: 0xF861B8
     bool get_feverModeActive();
     // public System.Single get_feverModeDrainProgress()
-    // Offset: 0xC2C084
+    // Offset: 0xF861C0
     float get_feverModeDrainProgress();
     // public System.Single get_feverModeChargeProgress()
-    // Offset: 0xC2C118
+    // Offset: 0xF86254
     float get_feverModeChargeProgress();
-    // public System.Single get_immediateMaxPossibleRawScore()
-    // Offset: 0xC2C130
-    float get_immediateMaxPossibleRawScore();
+    // public System.Int32 get_immediateMaxPossibleRawScore()
+    // Offset: 0xF8626C
+    int get_immediateMaxPossibleRawScore();
     // public System.Single get_gameplayModifiersScoreMultiplier()
-    // Offset: 0xC2C13C
+    // Offset: 0xF86274
     float get_gameplayModifiersScoreMultiplier();
     // protected System.Void Start()
-    // Offset: 0xC2C144
+    // Offset: 0xF8627C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xC2C254
+    // Offset: 0xF8638C
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xC2C37C
+    // Offset: 0xF8647C
     void Update();
     // protected System.Void LateUpdate()
-    // Offset: 0xC2C614
+    // Offset: 0xF86714
     void LateUpdate();
     // private System.Void LoseMultiplier(out System.Boolean comboChanged, out System.Boolean multiplierChanged)
-    // Offset: 0xC2C4C0
+    // Offset: 0xF865C0
     void LoseMultiplier(bool& comboChanged, bool& multiplierChanged);
     // private System.Void NotifyForChange(System.Boolean comboChanged, System.Boolean multiplierChanged)
-    // Offset: 0xC2C534
+    // Offset: 0xF86634
     void NotifyForChange(bool comboChanged, bool multiplierChanged);
-    // private System.Void HandleNoteWasCutEvent(INoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0xC2C8BC
-    void HandleNoteWasCutEvent(GlobalNamespace::INoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
-    // private System.Void HandleNoteWasMissedEvent(INoteController noteController)
-    // Offset: 0xC2CC20
-    void HandleNoteWasMissedEvent(GlobalNamespace::INoteController* noteController);
-    // private System.Void HandleCutScoreBufferDidFinishEvent(CutScoreBuffer cutScoreBuffer)
-    // Offset: 0xC2CE20
-    void HandleCutScoreBufferDidFinishEvent(GlobalNamespace::CutScoreBuffer* cutScoreBuffer);
+    // private System.Void HandleNoteWasCut(NoteController noteController, NoteCutInfo noteCutInfo)
+    // Offset: 0xF8693C
+    void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
+    // private System.Void HandleNoteWasMissed(NoteController noteController)
+    // Offset: 0xF86B6C
+    void HandleNoteWasMissed(GlobalNamespace::NoteController* noteController);
+    // private System.Void HandleCutScoreBufferDidFinish(CutScoreBuffer cutScoreBuffer)
+    // Offset: 0xF86C28
+    void HandleCutScoreBufferDidFinish(GlobalNamespace::CutScoreBuffer* cutScoreBuffer);
     // public System.Void .ctor()
-    // Offset: 0xC2CEA8
+    // Offset: 0xF86CB0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

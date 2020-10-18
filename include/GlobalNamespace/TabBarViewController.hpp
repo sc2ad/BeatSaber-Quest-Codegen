@@ -33,53 +33,53 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::TabBarViewController::TabBarItem
     class TabBarItem;
     // private HMUI.TextSegmentedControl _segmentedControll
-    // Offset: 0x68
+    // Offset: 0x70
     HMUI::TextSegmentedControl* segmentedControll;
     // private UnityEngine.UI.ContentSizeFitter _contentSizeFilter
-    // Offset: 0x70
+    // Offset: 0x78
     UnityEngine::UI::ContentSizeFitter* contentSizeFilter;
     // private System.String[] _labels
-    // Offset: 0x78
+    // Offset: 0x80
     ::Array<::Il2CppString*>* labels;
     // private TabBarViewController/TabBarItem[] _items
-    // Offset: 0x80
+    // Offset: 0x88
     ::Array<GlobalNamespace::TabBarViewController::TabBarItem*>* items;
     // private System.Boolean _shouldReloadData
-    // Offset: 0x88
+    // Offset: 0x90
     bool shouldReloadData;
     // public System.Void set_sizeToFit(System.Boolean value)
-    // Offset: 0xBA9530
+    // Offset: 0xF30978
     void set_sizeToFit(bool value);
     // public System.Boolean get_sizeToFit()
-    // Offset: 0xBA9550
+    // Offset: 0xF30998
     bool get_sizeToFit();
     // public System.Int32 get_selectedCellNumber()
-    // Offset: 0xBA956C
+    // Offset: 0xF309B4
     int get_selectedCellNumber();
     // public System.Void Setup(TabBarViewController/TabBarItem[] items)
-    // Offset: 0xB97B0C
+    // Offset: 0xF309D0
     void Setup(::Array<GlobalNamespace::TabBarViewController::TabBarItem*>* items);
     // public System.Void SelectItem(System.Int32 index)
-    // Offset: 0xBA9588
+    // Offset: 0xF30B30
     void SelectItem(int index);
     // public System.Void Clear()
-    // Offset: 0xB97E58
+    // Offset: 0xF30B4C
     void Clear();
     // private System.Void HandleDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellNumber)
-    // Offset: 0xBA9758
+    // Offset: 0xF30D5C
     void HandleDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellNumber);
-    // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xBA95A4
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0xF30BA8
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0xBA9674
+    // Offset: 0xF30C78
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0xBA97AC
+    // Offset: 0xF30DB0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

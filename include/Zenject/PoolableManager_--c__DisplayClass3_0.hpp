@@ -39,10 +39,10 @@ namespace Zenject {
       return poolable;
     }
     // System.Boolean <CreatePoolableInfo>b__0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0xFC575C
+    // Offset: 0x15136F8
     bool $CreatePoolableInfo$b__0(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // public System.Void .ctor()
-    // Offset: 0xFC53F8
+    // Offset: 0x1513394
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PoolableManager::$$c__DisplayClass3_0* New_ctor();

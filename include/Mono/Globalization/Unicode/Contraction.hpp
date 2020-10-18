@@ -24,7 +24,7 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0x28
     ::Array<uint8_t>* SortKey;
     // public System.Void .ctor(System.Int32 index, System.Char[] source, System.String replacement, System.Byte[] sortkey)
-    // Offset: 0x10B0A5C
+    // Offset: 0x17D3324
     static Contraction* New_ctor(int index, ::Array<::Il2CppChar>* source, ::Il2CppString* replacement, ::Array<uint8_t>* sortkey);
   }; // Mono.Globalization.Unicode.Contraction
 }

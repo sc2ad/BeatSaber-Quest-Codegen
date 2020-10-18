@@ -23,16 +23,16 @@ namespace UnityEngine {
       return m_Ptr;
     }
     // static private System.Void ReleaseCoroutine(System.IntPtr ptr)
-    // Offset: 0x130BBF8
+    // Offset: 0x19E6E68
     static void ReleaseCoroutine(System::IntPtr ptr);
     // private System.Void .ctor()
-    // Offset: 0x130BB54
+    // Offset: 0x19E6DC4
     // Implemented from: UnityEngine.YieldInstruction
     // Base method: System.Void YieldInstruction::.ctor()
     // Base method: System.Void Object::.ctor()
     static Coroutine* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x130BB5C
+    // Offset: 0x19E6DCC
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

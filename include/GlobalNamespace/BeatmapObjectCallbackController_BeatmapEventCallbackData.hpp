@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Offset: 0x1C
     int nextEventIndex;
     // public System.Void .ctor(BeatmapObjectCallbackController/BeatmapEventCallback callback, System.Single aheadTime)
-    // Offset: 0xB761E4
+    // Offset: 0x105B3C4
     static BeatmapObjectCallbackController::BeatmapEventCallbackData* New_ctor(GlobalNamespace::BeatmapObjectCallbackController::BeatmapEventCallback* callback, float aheadTime);
   }; // BeatmapObjectCallbackController/BeatmapEventCallbackData
 }

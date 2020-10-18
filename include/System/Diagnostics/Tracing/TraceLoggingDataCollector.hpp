@@ -27,109 +27,109 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static readonly System.Diagnostics.Tracing.TraceLoggingDataCollector Instance
     static void _set_Instance(System::Diagnostics::Tracing::TraceLoggingDataCollector* value);
     // public System.Int32 BeginBufferedArray()
-    // Offset: 0xD9F234
+    // Offset: 0x124E740
     int BeginBufferedArray();
     // public System.Void EndBufferedArray(System.Int32 bookmark, System.Int32 count)
-    // Offset: 0xD9F284
+    // Offset: 0x124E790
     void EndBufferedArray(int bookmark, int count);
     // public System.Void AddScalar(System.Boolean value)
-    // Offset: 0xD9F2EC
+    // Offset: 0x124E7F8
     void AddScalar(bool value);
     // public System.Void AddScalar(System.SByte value)
-    // Offset: 0xD9E030
+    // Offset: 0x124D53C
     void AddScalar(int8_t value);
     // public System.Void AddScalar(System.Byte value)
-    // Offset: 0xD9F350
+    // Offset: 0x124E85C
     void AddScalar(uint8_t value);
     // public System.Void AddScalar(System.Int16 value)
-    // Offset: 0xD982AC
+    // Offset: 0x12477B8
     void AddScalar(int16_t value);
     // public System.Void AddScalar(System.UInt16 value)
-    // Offset: 0xD9F3B0
+    // Offset: 0x124E8BC
     void AddScalar(uint16_t value);
     // public System.Void AddScalar(System.Int32 value)
-    // Offset: 0xD98624
+    // Offset: 0x1247B30
     void AddScalar(int value);
     // public System.Void AddScalar(System.UInt32 value)
-    // Offset: 0xD9F410
+    // Offset: 0x124E91C
     void AddScalar(uint value);
     // public System.Void AddScalar(System.Int64 value)
-    // Offset: 0xD98974
+    // Offset: 0x1247E80
     void AddScalar(int64_t value);
     // public System.Void AddScalar(System.UInt64 value)
-    // Offset: 0xD9F470
+    // Offset: 0x124E97C
     void AddScalar(uint64_t value);
     // public System.Void AddScalar(System.IntPtr value)
-    // Offset: 0xD98D0C
+    // Offset: 0x1248218
     void AddScalar(System::IntPtr value);
     // public System.Void AddScalar(System.UIntPtr value)
-    // Offset: 0xD9F4D0
+    // Offset: 0x124E9DC
     void AddScalar(System::UIntPtr value);
     // public System.Void AddScalar(System.Single value)
-    // Offset: 0xD9E38C
+    // Offset: 0x124D898
     void AddScalar(float value);
     // public System.Void AddScalar(System.Double value)
-    // Offset: 0xD9F560
+    // Offset: 0x124EA6C
     void AddScalar(double value);
     // public System.Void AddScalar(System.Char value)
-    // Offset: 0xD9F5C0
+    // Offset: 0x124EACC
     void AddScalar(::Il2CppChar value);
     // public System.Void AddScalar(System.Guid value)
-    // Offset: 0xD97F44
+    // Offset: 0x1247450
     void AddScalar(System::Guid value);
     // public System.Void AddBinary(System.String value)
-    // Offset: 0xD9EE24
+    // Offset: 0x124E330
     void AddBinary(::Il2CppString* value);
     // public System.Void AddBinary(System.Byte[] value)
-    // Offset: 0xD9F620
+    // Offset: 0x124EB2C
     void AddBinary(::Array<uint8_t>* value);
     // public System.Void AddArray(System.Boolean[] value)
-    // Offset: 0xD9F690
+    // Offset: 0x124EB9C
     void AddArray(::Array<bool>* value);
     // public System.Void AddArray(System.SByte[] value)
-    // Offset: 0xD9DEC4
+    // Offset: 0x124D3D0
     void AddArray(::Array<int8_t>* value);
     // public System.Void AddArray(System.Int16[] value)
-    // Offset: 0xD98140
+    // Offset: 0x124764C
     void AddArray(::Array<int16_t>* value);
     // public System.Void AddArray(System.UInt16[] value)
-    // Offset: 0xD9F704
+    // Offset: 0x124EC10
     void AddArray(::Array<uint16_t>* value);
     // public System.Void AddArray(System.Int32[] value)
-    // Offset: 0xD984B8
+    // Offset: 0x12479C4
     void AddArray(::Array<int>* value);
     // public System.Void AddArray(System.UInt32[] value)
-    // Offset: 0xD9F778
+    // Offset: 0x124EC84
     void AddArray(::Array<uint>* value);
     // public System.Void AddArray(System.Int64[] value)
-    // Offset: 0xD98808
+    // Offset: 0x1247D14
     void AddArray(::Array<int64_t>* value);
     // public System.Void AddArray(System.UInt64[] value)
-    // Offset: 0xD9F7EC
+    // Offset: 0x124ECF8
     void AddArray(::Array<uint64_t>* value);
     // public System.Void AddArray(System.IntPtr[] value)
-    // Offset: 0xD98B78
+    // Offset: 0x1248084
     void AddArray(::Array<System::IntPtr>* value);
     // public System.Void AddArray(System.UIntPtr[] value)
-    // Offset: 0xD9F860
+    // Offset: 0x124ED6C
     void AddArray(::Array<System::UIntPtr>* value);
     // public System.Void AddArray(System.Single[] value)
-    // Offset: 0xD9E220
+    // Offset: 0x124D72C
     void AddArray(::Array<float>* value);
     // public System.Void AddArray(System.Double[] value)
-    // Offset: 0xD9F914
+    // Offset: 0x124EE20
     void AddArray(::Array<double>* value);
     // public System.Void AddArray(System.Char[] value)
-    // Offset: 0xD9F988
+    // Offset: 0x124EE94
     void AddArray(::Array<::Il2CppChar>* value);
     // public System.Void AddArray(System.Guid[] value)
-    // Offset: 0xD97CD0
+    // Offset: 0x12471DC
     void AddArray(::Array<System::Guid>* value);
     // static private System.Void .cctor()
-    // Offset: 0xD9F9FC
+    // Offset: 0x124EF08
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0xD9F22C
+    // Offset: 0x124E738
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TraceLoggingDataCollector* New_ctor();

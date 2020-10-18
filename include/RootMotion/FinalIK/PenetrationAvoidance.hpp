@@ -24,12 +24,12 @@ namespace RootMotion::FinalIK {
     // Offset: 0x30
     ::Array<RootMotion::FinalIK::PenetrationAvoidance::Avoider*>* avoiders;
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x123427C
+    // Offset: 0x18E83B4
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();
     // public System.Void .ctor()
-    // Offset: 0x12344FC
+    // Offset: 0x18E8634
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

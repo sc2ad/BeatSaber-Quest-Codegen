@@ -64,77 +64,77 @@ namespace System::Reflection {
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* GetValue(::Il2CppObject* obj);
     // public System.Boolean get_IsLiteral()
-    // Offset: 0x136F4E4
+    // Offset: 0x18CC19C
     bool get_IsLiteral();
     // public System.Boolean get_IsStatic()
-    // Offset: 0x136F508
+    // Offset: 0x18CC1C0
     bool get_IsStatic();
     // public System.Boolean get_IsInitOnly()
-    // Offset: 0x136F52C
+    // Offset: 0x18CC1E4
     bool get_IsInitOnly();
     // public System.Boolean get_IsPublic()
-    // Offset: 0x136F550
+    // Offset: 0x18CC208
     bool get_IsPublic();
     // public System.Boolean get_IsNotSerialized()
-    // Offset: 0x136F57C
+    // Offset: 0x18CC234
     bool get_IsNotSerialized();
     // public System.Void SetValue(System.Object obj, System.Object value, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Globalization.CultureInfo culture)
     // Offset: 0xFFFFFFFF
     void SetValue(::Il2CppObject* obj, ::Il2CppObject* value, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, System::Globalization::CultureInfo* culture);
     // public System.Void SetValue(System.Object obj, System.Object value)
-    // Offset: 0x136F5A0
+    // Offset: 0x18CC258
     void SetValue(::Il2CppObject* obj, ::Il2CppObject* value);
     // static private System.Reflection.FieldInfo internal_from_handle_type(System.IntPtr field_handle, System.IntPtr type_handle)
-    // Offset: 0x136F5BC
+    // Offset: 0x18CC274
     static System::Reflection::FieldInfo* internal_from_handle_type(System::IntPtr field_handle, System::IntPtr type_handle);
     // static public System.Reflection.FieldInfo GetFieldFromHandle(System.RuntimeFieldHandle handle)
-    // Offset: 0x136F5C0
+    // Offset: 0x18CC278
     static System::Reflection::FieldInfo* GetFieldFromHandle(System::RuntimeFieldHandle handle);
     // static public System.Reflection.FieldInfo GetFieldFromHandle(System.RuntimeFieldHandle handle, System.RuntimeTypeHandle declaringType)
-    // Offset: 0x136F658
+    // Offset: 0x18CC310
     static System::Reflection::FieldInfo* GetFieldFromHandle(System::RuntimeFieldHandle handle, System::RuntimeTypeHandle declaringType);
     // System.Int32 GetFieldOffset()
-    // Offset: 0x136F77C
+    // Offset: 0x18CC434
     int GetFieldOffset();
     // public System.Void SetValueDirect(System.TypedReference obj, System.Object value)
-    // Offset: 0x136F7E8
+    // Offset: 0x18CC4A0
     void SetValueDirect(System::TypedReference obj, ::Il2CppObject* value);
     // private System.Runtime.InteropServices.MarshalAsAttribute get_marshal_info()
-    // Offset: 0x136F868
+    // Offset: 0x18CC520
     System::Runtime::InteropServices::MarshalAsAttribute* get_marshal_info();
     // System.Object[] GetPseudoCustomAttributes()
-    // Offset: 0x136F86C
+    // Offset: 0x18CC524
     ::Array<::Il2CppObject*>* GetPseudoCustomAttributes();
     // public System.Object GetRawConstantValue()
-    // Offset: 0x136FA98
+    // Offset: 0x18CC750
     ::Il2CppObject* GetRawConstantValue();
     // protected System.Void .ctor()
-    // Offset: 0x136F4D8
+    // Offset: 0x18CC18C
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Void MemberInfo::.ctor()
     // Base method: System.Void Object::.ctor()
     static FieldInfo* New_ctor();
     // public override System.Reflection.MemberTypes get_MemberType()
-    // Offset: 0x136F4DC
+    // Offset: 0x18CC194
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Reflection.MemberTypes MemberInfo::get_MemberType()
     System::Reflection::MemberTypes get_MemberType();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x136FB04
+    // Offset: 0x18CC7BC
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Boolean MemberInfo::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x136FB10
+    // Offset: 0x18CC7C8
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Int32 MemberInfo::GetHashCode()
     int GetHashCode();
   }; // System.Reflection.FieldInfo
   // static public System.Boolean op_Equality(System.Reflection.FieldInfo left, System.Reflection.FieldInfo right)
-  // Offset: 0x136F730
+  // Offset: 0x18CC3E8
   bool operator ==(System::Reflection::FieldInfo* left, System::Reflection::FieldInfo& right);
   // static public System.Boolean op_Inequality(System.Reflection.FieldInfo left, System.Reflection.FieldInfo right)
-  // Offset: 0x136FB14
+  // Offset: 0x18CC7D0
   bool operator !=(System::Reflection::FieldInfo* left, System::Reflection::FieldInfo& right);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

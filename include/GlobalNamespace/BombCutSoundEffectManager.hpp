@@ -20,13 +20,13 @@ namespace UnityEngine {
 namespace GlobalNamespace {
   // Forward declaring type: BeatmapObjectManager
   class BeatmapObjectManager;
-  // Forward declaring type: PlayerController
-  class PlayerController;
+  // Forward declaring type: SaberManager
+  class SaberManager;
   // Forward declaring type: RandomObjectPicker`1<T>
   template<typename T>
   class RandomObjectPicker_1;
-  // Forward declaring type: INoteController
-  class INoteController;
+  // Forward declaring type: NoteController
+  class NoteController;
   // Forward declaring type: NoteCutInfo
   class NoteCutInfo;
 }
@@ -42,13 +42,13 @@ namespace GlobalNamespace {
     // private UnityEngine.AudioClip[] _bombExplosionAudioClips
     // Offset: 0x20
     ::Array<UnityEngine::AudioClip*>* bombExplosionAudioClips;
-    // private BeatmapObjectManager _beatmapObjectManager
+    // private readonly BeatmapObjectManager _beatmapObjectManager
     // Offset: 0x28
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
-    // private PlayerController _playerController
+    // private readonly SaberManager saberManager
     // Offset: 0x30
-    GlobalNamespace::PlayerController* playerController;
-    // private BombCutSoundEffect/Pool _bombCutSoundEffectPool
+    GlobalNamespace::SaberManager* saberManager;
+    // private readonly BombCutSoundEffect/Pool _bombCutSoundEffectPool
     // Offset: 0x38
     GlobalNamespace::BombCutSoundEffect::Pool* bombCutSoundEffectPool;
     // private RandomObjectPicker`1<UnityEngine.AudioClip> _randomSoundPicker
@@ -57,19 +57,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xB7C13C
+    // Offset: 0xF1A6B4
     void Start();
-    // private System.Void HandleNoteWasCut(INoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0xB7C20C
-    void HandleNoteWasCut(GlobalNamespace::INoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
+    // private System.Void HandleNoteWasCut(NoteController noteController, NoteCutInfo noteCutInfo)
+    // Offset: 0xF1A784
+    void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // protected System.Void OnDestroy()
-    // Offset: 0xB7C440
+    // Offset: 0xF1A974
     void OnDestroy();
     // private System.Void HandleBombCutSoundEffectDidFinish(BombCutSoundEffect bombCutSoundEffect)
-    // Offset: 0xB7C514
+    // Offset: 0xF1AA10
     void HandleBombCutSoundEffectDidFinish(GlobalNamespace::BombCutSoundEffect* bombCutSoundEffect);
     // public System.Void .ctor()
-    // Offset: 0xB7C5C0
+    // Offset: 0xF1AABC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

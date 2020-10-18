@@ -19,8 +19,8 @@ namespace Zenject {
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.PlaceholderFactory`3
-    // Base method: System.Void PlaceholderFactory`3::.ctor()
-    // Base method: System.Void PlaceholderFactoryBase`1::.ctor()
+    // Base method: System.Void PlaceholderFactory_3::.ctor()
+    // Base method: System.Void PlaceholderFactoryBase_1::.ctor()
     // Base method: System.Void Object::.ctor()
     static Factory_3<TParam1, TParam2, TValue>* New_ctor() {
       return THROW_UNLESS((il2cpp_utils::New<Factory_3<TParam1, TParam2, TValue>*>()));

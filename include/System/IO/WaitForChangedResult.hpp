@@ -30,13 +30,13 @@ namespace System::IO {
     // Creating value type constructor for type: WaitForChangedResult
     constexpr WaitForChangedResult(System::IO::WatcherChangeTypes changeType_ = {}, ::Il2CppString* name_ = {}, ::Il2CppString* oldName_ = {}, bool timedOut_ = {}) noexcept : changeType{changeType_}, name{name_}, oldName{oldName_}, timedOut{timedOut_} {}
     // public System.Void set_ChangeType(System.IO.WatcherChangeTypes value)
-    // Offset: 0xA3C0C0
+    // Offset: 0xDBA9EC
     void set_ChangeType(System::IO::WatcherChangeTypes value);
     // public System.Void set_Name(System.String value)
-    // Offset: 0xA3C0C8
+    // Offset: 0xDBA9F4
     void set_Name(::Il2CppString* value);
     // public System.Void set_OldName(System.String value)
-    // Offset: 0xA3C0D0
+    // Offset: 0xDBA9FC
     void set_OldName(::Il2CppString* value);
   }; // System.IO.WaitForChangedResult
 }

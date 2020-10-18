@@ -27,15 +27,18 @@ namespace System {
     // Offset: 0x1C
     int endIndex;
     // System.Void .ctor(System.Array array)
-    // Offset: 0x132DA84
+    // Offset: 0x15C6A40
     static Array::ArrayEnumerator* New_ctor(System::Array* array);
     // public System.Boolean MoveNext()
-    // Offset: 0x132E4D8
+    // Offset: 0x15C7484
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
+    // Creating proxy method: System_Collections_IEnumerator_MoveNext
+    // Maps to method: MoveNext
+    bool System_Collections_IEnumerator_MoveNext();
     // public System.Void Reset()
-    // Offset: 0x132E500
+    // Offset: 0x15C74AC
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();
@@ -43,12 +46,15 @@ namespace System {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
     // public System.Object Clone()
-    // Offset: 0x132E50C
+    // Offset: 0x15C74B8
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();
+    // Creating proxy method: System_ICloneable_Clone
+    // Maps to method: Clone
+    ::Il2CppObject* System_ICloneable_Clone();
     // public System.Object get_Current()
-    // Offset: 0x132E514
+    // Offset: 0x15C74C0
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* get_Current();

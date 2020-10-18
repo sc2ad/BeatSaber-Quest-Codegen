@@ -39,49 +39,49 @@ namespace UnityEngine::ProBuilder::KdTree::Math {
     // public System.Int32 Compare(T a, T b)
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.ProBuilder.KdTree.ITypeMath`1
-    // Base method: System.Int32 ITypeMath`1::Compare(T a, T b)
+    // Base method: System.Int32 ITypeMath_1::Compare(T a, T b)
     int Compare(T a, T b) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "Compare", a, b));
     }
     // public System.Boolean AreEqual(T[] a, T[] b)
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.ProBuilder.KdTree.ITypeMath`1
-    // Base method: System.Boolean ITypeMath`1::AreEqual(T[] a, T[] b)
+    // Base method: System.Boolean ITypeMath_1::AreEqual(T[] a, T[] b)
     bool AreEqual(::Array<T>* a, ::Array<T>* b) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "AreEqual", a, b));
     }
     // public T get_MinValue()
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.ProBuilder.KdTree.ITypeMath`1
-    // Base method: T ITypeMath`1::get_MinValue()
+    // Base method: T ITypeMath_1::get_MinValue()
     T get_MinValue() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "get_MinValue"));
     }
     // public T get_NegativeInfinity()
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.ProBuilder.KdTree.ITypeMath`1
-    // Base method: T ITypeMath`1::get_NegativeInfinity()
+    // Base method: T ITypeMath_1::get_NegativeInfinity()
     T get_NegativeInfinity() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "get_NegativeInfinity"));
     }
     // public T get_PositiveInfinity()
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.ProBuilder.KdTree.ITypeMath`1
-    // Base method: T ITypeMath`1::get_PositiveInfinity()
+    // Base method: T ITypeMath_1::get_PositiveInfinity()
     T get_PositiveInfinity() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "get_PositiveInfinity"));
     }
     // public T Multiply(T a, T b)
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.ProBuilder.KdTree.ITypeMath`1
-    // Base method: T ITypeMath`1::Multiply(T a, T b)
+    // Base method: T ITypeMath_1::Multiply(T a, T b)
     T Multiply(T a, T b) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "Multiply", a, b));
     }
     // public T DistanceSquaredBetweenPoints(T[] a, T[] b)
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.ProBuilder.KdTree.ITypeMath`1
-    // Base method: T ITypeMath`1::DistanceSquaredBetweenPoints(T[] a, T[] b)
+    // Base method: T ITypeMath_1::DistanceSquaredBetweenPoints(T[] a, T[] b)
     T DistanceSquaredBetweenPoints(::Array<T>* a, ::Array<T>* b) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "DistanceSquaredBetweenPoints", a, b));
     }

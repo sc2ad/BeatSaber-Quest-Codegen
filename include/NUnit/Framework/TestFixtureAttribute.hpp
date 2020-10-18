@@ -70,27 +70,27 @@ namespace NUnit::Framework {
     // Offset: 0x30
     ::Array<System::Type*>* TypeArgs;
     // public NUnit.Framework.Interfaces.RunState get_RunState()
-    // Offset: 0x18FD468
+    // Offset: 0x21817E4
     // Implemented from: NUnit.Framework.Interfaces.ITestData
     // Base method: NUnit.Framework.Interfaces.RunState ITestData::get_RunState()
     NUnit::Framework::Interfaces::RunState get_RunState();
     // public System.Object[] get_Arguments()
-    // Offset: 0x18FD470
+    // Offset: 0x21817EC
     // Implemented from: NUnit.Framework.Interfaces.ITestData
     // Base method: System.Object[] ITestData::get_Arguments()
     ::Array<::Il2CppObject*>* get_Arguments();
     // public NUnit.Framework.Interfaces.IPropertyBag get_Properties()
-    // Offset: 0x18FD478
+    // Offset: 0x21817F4
     // Implemented from: NUnit.Framework.Interfaces.ITestData
     // Base method: NUnit.Framework.Interfaces.IPropertyBag ITestData::get_Properties()
     NUnit::Framework::Interfaces::IPropertyBag* get_Properties();
     // public System.Type[] get_TypeArgs()
-    // Offset: 0x18FD480
+    // Offset: 0x21817FC
     // Implemented from: NUnit.Framework.Interfaces.ITestFixtureData
     // Base method: System.Type[] ITestFixtureData::get_TypeArgs()
     ::Array<System::Type*>* get_TypeArgs();
     // public System.Collections.Generic.IEnumerable`1<NUnit.Framework.Internal.TestSuite> BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x18FD488
+    // Offset: 0x2181804
     // Implemented from: NUnit.Framework.Interfaces.IFixtureBuilder
     // Base method: System.Collections.Generic.IEnumerable`1<NUnit.Framework.Internal.TestSuite> IFixtureBuilder::BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
     System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestSuite*>* BuildFrom(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);

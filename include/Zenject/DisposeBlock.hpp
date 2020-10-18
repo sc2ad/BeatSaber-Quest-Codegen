@@ -24,26 +24,26 @@ namespace Zenject {
   // Forward declaring type: IMemoryPool`1<TValue>
   template<typename TValue>
   class IMemoryPool_1;
-  // Forward declaring type: IMemoryPool`2<TValue, TParam1>
-  template<typename TValue, typename TParam1>
+  // Forward declaring type: IMemoryPool`2<TParam1, TValue>
+  template<typename TParam1, typename TValue>
   class IMemoryPool_2;
-  // Forward declaring type: IMemoryPool`3<TValue, TParam1, TParam2>
-  template<typename TValue, typename TParam1, typename TParam2>
+  // Forward declaring type: IMemoryPool`3<TParam1, TParam2, TValue>
+  template<typename TParam1, typename TParam2, typename TValue>
   class IMemoryPool_3;
-  // Forward declaring type: IMemoryPool`4<TValue, TParam1, TParam2, TParam3>
-  template<typename TValue, typename TParam1, typename TParam2, typename TParam3>
+  // Forward declaring type: IMemoryPool`4<TParam1, TParam2, TParam3, TValue>
+  template<typename TParam1, typename TParam2, typename TParam3, typename TValue>
   class IMemoryPool_4;
-  // Forward declaring type: IMemoryPool`5<TValue, TParam1, TParam2, TParam3, TParam4>
-  template<typename TValue, typename TParam1, typename TParam2, typename TParam3, typename TParam4>
+  // Forward declaring type: IMemoryPool`5<TParam1, TParam2, TParam3, TParam4, TValue>
+  template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TValue>
   class IMemoryPool_5;
-  // Forward declaring type: IMemoryPool`6<TValue, TParam1, TParam2, TParam3, TParam4, TParam5>
-  template<typename TValue, typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5>
+  // Forward declaring type: IMemoryPool`6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>
+  template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue>
   class IMemoryPool_6;
-  // Forward declaring type: IMemoryPool`7<TValue, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>
-  template<typename TValue, typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6>
+  // Forward declaring type: IMemoryPool`7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>
+  template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
   class IMemoryPool_7;
-  // Forward declaring type: IMemoryPool`8<TValue, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7>
-  template<typename TValue, typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7>
+  // Forward declaring type: IMemoryPool`8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>
+  template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TValue>
   class IMemoryPool_8;
   // Forward declaring type: IMemoryPool
   class IMemoryPool;
@@ -91,13 +91,13 @@ namespace Zenject {
     // Set static field: static private readonly Zenject.StaticMemoryPool`1<Zenject.DisposeBlock> _pool
     static void _set__pool(Zenject::StaticMemoryPool_1<Zenject::DisposeBlock*>* value);
     // static private System.Void OnSpawned(Zenject.DisposeBlock that)
-    // Offset: 0xF30A08
+    // Offset: 0x1449098
     static void OnSpawned(Zenject::DisposeBlock* that);
     // static private System.Void OnDespawned(Zenject.DisposeBlock that)
-    // Offset: 0xF30A40
+    // Offset: 0x14490D0
     static void OnDespawned(Zenject::DisposeBlock* that);
     // private System.Void LazyInitializeDisposableList()
-    // Offset: 0xF30CD0
+    // Offset: 0x1449360
     void LazyInitializeDisposableList();
     // public System.Void AddRange(System.Collections.Generic.IList`1<T> disposables)
     // Offset: 0xFFFFFFFF
@@ -107,10 +107,10 @@ namespace Zenject {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "AddRange", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, disposables));
     }
     // public System.Void Add(System.IDisposable disposable)
-    // Offset: 0xF30D78
+    // Offset: 0x1449408
     void Add(System::IDisposable* disposable);
     // public System.Void Remove(System.IDisposable disposable)
-    // Offset: 0xF30E14
+    // Offset: 0x14494A4
     void Remove(System::IDisposable* disposable);
     // private System.Void StoreSpawnedObject(T obj, Zenject.IDespawnableMemoryPool`1<T> pool)
     // Offset: 0xFFFFFFFF
@@ -179,13 +179,13 @@ namespace Zenject {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::List_1<T>*>(this, "SpawnList", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // static public Zenject.DisposeBlock Spawn()
-    // Offset: 0xF30E80
+    // Offset: 0x1449510
     static Zenject::DisposeBlock* Spawn();
     // static private System.Void .cctor()
-    // Offset: 0xF30F88
+    // Offset: 0x1449618
     static void _cctor();
     // public System.Void Dispose()
-    // Offset: 0xF30EFC
+    // Offset: 0x144958C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -193,7 +193,7 @@ namespace Zenject {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // public System.Void .ctor()
-    // Offset: 0xF30F80
+    // Offset: 0x1449610
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DisposeBlock* New_ctor();

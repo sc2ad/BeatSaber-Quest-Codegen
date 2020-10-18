@@ -31,31 +31,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Int32 get_currentFPS()
-    // Offset: 0xBEC710
+    // Offset: 0xF67E4C
     int get_currentFPS();
     // private System.Void set_currentFPS(System.Int32 value)
-    // Offset: 0xBEC718
+    // Offset: 0xF67E54
     void set_currentFPS(int value);
     // public System.Int32 get_lowestFPS()
-    // Offset: 0xBEC720
+    // Offset: 0xF67E5C
     int get_lowestFPS();
     // private System.Void set_lowestFPS(System.Int32 value)
-    // Offset: 0xBEC728
+    // Offset: 0xF67E64
     void set_lowestFPS(int value);
     // public System.Int32 get_highestFPS()
-    // Offset: 0xBEC730
+    // Offset: 0xF67E6C
     int get_highestFPS();
     // private System.Void set_highestFPS(System.Int32 value)
-    // Offset: 0xBEC738
+    // Offset: 0xF67E74
     void set_highestFPS(int value);
     // protected System.Void Awake()
-    // Offset: 0xBEC740
+    // Offset: 0xF67E7C
     void Awake();
     // protected System.Void Update()
-    // Offset: 0xBEC750
+    // Offset: 0xF67E8C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xBEC834
+    // Offset: 0xF67F70
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

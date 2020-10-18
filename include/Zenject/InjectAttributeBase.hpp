@@ -25,25 +25,25 @@ namespace Zenject {
     // Offset: 0x20
     Zenject::InjectSources Source;
     // public System.Boolean get_Optional()
-    // Offset: 0x196198C
+    // Offset: 0x220C814
     bool get_Optional();
     // public System.Void set_Optional(System.Boolean value)
-    // Offset: 0x1961994
+    // Offset: 0x220C81C
     void set_Optional(bool value);
     // public System.Object get_Id()
-    // Offset: 0x19619A0
+    // Offset: 0x220C828
     ::Il2CppObject* get_Id();
     // public System.Void set_Id(System.Object value)
-    // Offset: 0x19619A8
+    // Offset: 0x220C830
     void set_Id(::Il2CppObject* value);
     // public Zenject.InjectSources get_Source()
-    // Offset: 0x19619B0
+    // Offset: 0x220C838
     Zenject::InjectSources get_Source();
     // public System.Void set_Source(Zenject.InjectSources value)
-    // Offset: 0x19619B8
+    // Offset: 0x220C840
     void set_Source(Zenject::InjectSources value);
     // protected System.Void .ctor()
-    // Offset: 0x1961984
+    // Offset: 0x220C80C
     // Implemented from: Zenject.Internal.PreserveAttribute
     // Base method: System.Void PreserveAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

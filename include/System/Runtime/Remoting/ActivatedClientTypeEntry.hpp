@@ -32,19 +32,19 @@ namespace System::Runtime::Remoting {
     // Offset: 0x28
     System::Type* obj_type;
     // public System.Void .ctor(System.String typeName, System.String assemblyName, System.String appUrl)
-    // Offset: 0x10522B0
+    // Offset: 0x12941E8
     static ActivatedClientTypeEntry* New_ctor(::Il2CppString* typeName, ::Il2CppString* assemblyName, ::Il2CppString* appUrl);
     // public System.String get_ApplicationUrl()
-    // Offset: 0x105241C
+    // Offset: 0x1294354
     ::Il2CppString* get_ApplicationUrl();
     // public System.Runtime.Remoting.Contexts.IContextAttribute[] get_ContextAttributes()
-    // Offset: 0x1052424
+    // Offset: 0x129435C
     ::Array<System::Runtime::Remoting::Contexts::IContextAttribute*>* get_ContextAttributes();
     // public System.Type get_ObjectType()
-    // Offset: 0x105242C
+    // Offset: 0x1294364
     System::Type* get_ObjectType();
     // public override System.String ToString()
-    // Offset: 0x1052434
+    // Offset: 0x129436C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

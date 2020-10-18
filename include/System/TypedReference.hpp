@@ -38,24 +38,24 @@ namespace System {
     // Creating value type constructor for type: TypedReference
     constexpr TypedReference(System::RuntimeTypeHandle type_ = {}, System::IntPtr Value_ = {}, System::IntPtr Type_ = {}) noexcept : type{type_}, Value{Value_}, Type{Type_} {}
     // static public System.TypedReference MakeTypedReference(System.Object target, System.Reflection.FieldInfo[] flds)
-    // Offset: 0x179C6F0
+    // Offset: 0x1963404
     static System::TypedReference MakeTypedReference(::Il2CppObject* target, ::Array<System::Reflection::FieldInfo*>* flds);
     // static private System.TypedReference MakeTypedReferenceInternal(System.Object target, System.Reflection.FieldInfo[] fields)
-    // Offset: 0x179CAE0
+    // Offset: 0x19637F4
     static System::TypedReference MakeTypedReferenceInternal(::Il2CppObject* target, ::Array<System::Reflection::FieldInfo*>* fields);
     // System.Boolean get_IsNull()
-    // Offset: 0xA5711C
+    // Offset: 0xDBE198
     bool get_IsNull();
     // static public System.Void SetTypedReference(System.TypedReference target, System.Object value)
-    // Offset: 0x179CC58
+    // Offset: 0x196396C
     static void SetTypedReference(System::TypedReference target, ::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA57108
+    // Offset: 0xDBE184
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object o)
-    // Offset: 0xA57110
+    // Offset: 0xDBE18C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);

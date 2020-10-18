@@ -39,49 +39,49 @@ namespace RootMotion::FinalIK {
     // Offset: 0x40
     RootMotion::FinalIK::IKSolverFullBodyBiped* solver;
     // private System.Void OpenSetupTutorial()
-    // Offset: 0x1373A10
+    // Offset: 0x1A93160
     void OpenSetupTutorial();
     // private System.Void OpenInspectorTutorial()
-    // Offset: 0x1373A5C
+    // Offset: 0x1A931AC
     void OpenInspectorTutorial();
     // private System.Void SupportGroup()
-    // Offset: 0x1373AA8
+    // Offset: 0x1A931F8
     void SupportGroup();
     // private System.Void ASThread()
-    // Offset: 0x1373AF4
+    // Offset: 0x1A93244
     void ASThread();
     // public System.Void SetReferences(RootMotion.BipedReferences references, UnityEngine.Transform rootNode)
-    // Offset: 0x1373B40
+    // Offset: 0x1A93290
     void SetReferences(RootMotion::BipedReferences* references, UnityEngine::Transform* rootNode);
     // public System.Boolean ReferencesError(ref System.String errorMessage)
-    // Offset: 0x1373B8C
+    // Offset: 0x1A932DC
     bool ReferencesError(::Il2CppString*& errorMessage);
     // public System.Boolean ReferencesWarning(ref System.String warningMessage)
-    // Offset: 0x1373D54
+    // Offset: 0x1A934A4
     bool ReferencesWarning(::Il2CppString*& warningMessage);
     // private System.Void Reinitiate()
-    // Offset: 0x13740B4
+    // Offset: 0x1A93804
     void Reinitiate();
     // private System.Void AutoDetectReferences()
-    // Offset: 0x13740D4
+    // Offset: 0x1A93824
     void AutoDetectReferences();
     // protected override System.Void OpenUserManual()
-    // Offset: 0x1373978
+    // Offset: 0x1A930C8
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: System.Void IK::OpenUserManual()
     void OpenUserManual();
     // protected override System.Void OpenScriptReference()
-    // Offset: 0x13739C4
+    // Offset: 0x1A93114
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: System.Void IK::OpenScriptReference()
     void OpenScriptReference();
     // public override RootMotion.FinalIK.IKSolver GetIKSolver()
-    // Offset: 0x1373B84
+    // Offset: 0x1A932D4
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: RootMotion.FinalIK.IKSolver IK::GetIKSolver()
     RootMotion::FinalIK::IKSolver* GetIKSolver();
     // public System.Void .ctor()
-    // Offset: 0x13741C8
+    // Offset: 0x1A93918
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: System.Void IK::.ctor()
     // Base method: System.Void SolverManager::.ctor()

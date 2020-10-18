@@ -44,10 +44,10 @@ namespace UnityEngine {
     // Creating value type constructor for type: MinMaxGradient
     constexpr MinMaxGradient(UnityEngine::ParticleSystemGradientMode m_Mode_ = {}, UnityEngine::Gradient* m_GradientMin_ = {}, UnityEngine::Gradient* m_GradientMax_ = {}, UnityEngine::Color m_ColorMin_ = {}, UnityEngine::Color m_ColorMax_ = {}) noexcept : m_Mode{m_Mode_}, m_GradientMin{m_GradientMin_}, m_GradientMax{m_GradientMax_}, m_ColorMin{m_ColorMin_}, m_ColorMax{m_ColorMax_} {}
     // public System.Void .ctor(UnityEngine.Color color)
-    // Offset: 0xA5FCE8
+    // Offset: 0xDDECE8
     MinMaxGradient(UnityEngine::Color color);
     // public UnityEngine.Color get_color()
-    // Offset: 0xA5FCF0
+    // Offset: 0xDDECF0
     UnityEngine::Color get_color();
   }; // UnityEngine.ParticleSystem/MinMaxGradient
 }

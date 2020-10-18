@@ -23,11 +23,17 @@ namespace System::Net {
     static ::Array<::Il2CppChar>* _get_InvalidParamChars();
     // Set static field: static readonly System.Char[] InvalidParamChars
     static void _set_InvalidParamChars(::Array<::Il2CppChar>* value);
+    // static public System.String MakeStringNull(System.String stringValue)
+    // Offset: 0x13B8840
+    static ::Il2CppString* MakeStringNull(::Il2CppString* stringValue);
+    // static public System.Boolean IsBlankString(System.String stringValue)
+    // Offset: 0x13B8854
+    static bool IsBlankString(::Il2CppString* stringValue);
     // static public System.Boolean ValidateTcpPort(System.Int32 port)
-    // Offset: 0x1219A9C
+    // Offset: 0x13B5E2C
     static bool ValidateTcpPort(int port);
     // static private System.Void .cctor()
-    // Offset: 0x1219F4C
+    // Offset: 0x13B8870
     static void _cctor();
   }; // System.Net.ValidationHelper
 }

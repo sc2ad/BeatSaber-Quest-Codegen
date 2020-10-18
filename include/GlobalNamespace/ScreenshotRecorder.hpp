@@ -134,28 +134,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnEnable()
-    // Offset: 0xCBBF1C
+    // Offset: 0x10A3D58
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xCBC0DC
+    // Offset: 0x10A3F18
     void OnDisable();
     // protected System.Void LateUpdate()
-    // Offset: 0xCBC1B0
+    // Offset: 0x10A3FEC
     void LateUpdate();
     // private System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0xCBC314
+    // Offset: 0x10A4150
     void OnApplicationFocus(bool hasFocus);
     // private System.Void SaveCameraScreenshot()
-    // Offset: 0xCBC280
+    // Offset: 0x10A40BC
     void SaveCameraScreenshot();
     // private System.Void SaveTextureScreenshot(UnityEngine.Texture2D tex)
-    // Offset: 0xCBC450
+    // Offset: 0x10A428C
     void SaveTextureScreenshot(UnityEngine::Texture2D* tex);
     // private UnityEngine.Texture2D ConvertRenderTexture(UnityEngine.RenderTexture renderTexture)
-    // Offset: 0xCBC32C
+    // Offset: 0x10A4168
     UnityEngine::Texture2D* ConvertRenderTexture(UnityEngine::RenderTexture* renderTexture);
     // public System.Void .ctor()
-    // Offset: 0xCBC560
+    // Offset: 0x10A439C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

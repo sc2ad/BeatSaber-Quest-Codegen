@@ -24,25 +24,25 @@ namespace System::Text {
     // Offset: 0xFFFFFFFF
     ::Il2CppChar GetNextChar();
     // public System.Void Reset()
-    // Offset: 0x12F0F58
+    // Offset: 0x1885238
     void Reset();
     // System.Void InternalReset()
-    // Offset: 0x12EFF88
+    // Offset: 0x1884268
     void InternalReset();
     // System.Void InternalInitialize(System.Byte* byteStart, System.Char* charEnd)
-    // Offset: 0x12EFC58
+    // Offset: 0x1883F38
     void InternalInitialize(uint8_t* byteStart, ::Il2CppChar* charEnd);
     // System.Boolean InternalFallback(System.Byte[] bytes, System.Byte* pBytes, ref System.Char* chars)
-    // Offset: 0x12F0F8C
+    // Offset: 0x188526C
     bool InternalFallback(::Array<uint8_t>* bytes, uint8_t* pBytes, ::Il2CppChar*& chars);
     // System.Int32 InternalFallback(System.Byte[] bytes, System.Byte* pBytes)
-    // Offset: 0x12F1138
+    // Offset: 0x1885418
     int InternalFallback(::Array<uint8_t>* bytes, uint8_t* pBytes);
     // System.Void ThrowLastBytesRecursive(System.Byte[] bytesUnknown)
-    // Offset: 0x12F12CC
+    // Offset: 0x18855AC
     void ThrowLastBytesRecursive(::Array<uint8_t>* bytesUnknown);
     // protected System.Void .ctor()
-    // Offset: 0x12F0D30
+    // Offset: 0x1885010
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DecoderFallbackBuffer* New_ctor();

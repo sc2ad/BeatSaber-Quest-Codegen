@@ -19,10 +19,10 @@ namespace System::Xml {
       return nodeBuffer;
     }
     // public System.Void .ctor(System.Byte[] nodeBuffer)
-    // Offset: 0x119BD18
+    // Offset: 0x1787DB0
     static TernaryTreeReadOnly* New_ctor(::Array<uint8_t>* nodeBuffer);
     // public System.Byte FindCaseInsensitiveString(System.String stringToFind)
-    // Offset: 0x119A3D8
+    // Offset: 0x1786470
     uint8_t FindCaseInsensitiveString(::Il2CppString* stringToFind);
   }; // System.Xml.TernaryTreeReadOnly
 }

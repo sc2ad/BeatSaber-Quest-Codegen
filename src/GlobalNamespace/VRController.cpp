@@ -6,8 +6,8 @@
 #include "GlobalNamespace/VRController.hpp"
 // Including type: VRControllerTransformOffset
 #include "GlobalNamespace/VRControllerTransformOffset.hpp"
-// Including type: VRPlatformHelper
-#include "GlobalNamespace/VRPlatformHelper.hpp"
+// Including type: IVRPlatformHelper
+#include "GlobalNamespace/IVRPlatformHelper.hpp"
 // Including type: VRControllersInputManager
 #include "GlobalNamespace/VRControllersInputManager.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

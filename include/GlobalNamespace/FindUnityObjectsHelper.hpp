@@ -34,10 +34,16 @@ namespace GlobalNamespace {
   class FindUnityObjectsHelper : public ::Il2CppObject {
     public:
     // static public System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> GetMonoBehavioursInLoadedScenes()
-    // Offset: 0xCB1CAC
+    // Offset: 0x10976F8
     static System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* GetMonoBehavioursInLoadedScenes();
+    // static public System.Collections.Generic.List`1<UnityEngine.GameObject> GetAllRootGameObjectsInLoadedScenes()
+    // Offset: 0x10978EC
+    static System::Collections::Generic::List_1<UnityEngine::GameObject*>* GetAllRootGameObjectsInLoadedScenes();
+    // static public System.Collections.Generic.List`1<UnityEngine.GameObject> GetAllGameObjectsInGameObject(UnityEngine.GameObject go)
+    // Offset: 0x10979C0
+    static System::Collections::Generic::List_1<UnityEngine::GameObject*>* GetAllGameObjectsInGameObject(UnityEngine::GameObject* go);
     // static public System.Collections.Generic.List`1<UnityEngine.GameObject> GetAllGameObjectsInLoadedScenes()
-    // Offset: 0xCB1D10
+    // Offset: 0x109775C
     static System::Collections::Generic::List_1<UnityEngine::GameObject*>* GetAllGameObjectsInLoadedScenes();
     // static public System.Collections.Generic.List`1<T> GetComponentsInGameObjects(System.Collections.Generic.IReadOnlyList`1<UnityEngine.GameObject> gameObjects)
     // Offset: 0xFFFFFFFF

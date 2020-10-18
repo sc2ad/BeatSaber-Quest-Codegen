@@ -134,123 +134,123 @@ namespace UnityEngine::Timeline {
     // Set static field: static private readonly System.Int32 k_LatestVersion
     static void _set_k_LatestVersion(int value);
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0x108FD98
+    // Offset: 0x1613E20
     UnityEngine::Vector3 get_position();
     // public System.Void set_position(UnityEngine.Vector3 value)
-    // Offset: 0x108FDA4
+    // Offset: 0x1613E2C
     void set_position(UnityEngine::Vector3 value);
     // public UnityEngine.Quaternion get_rotation()
-    // Offset: 0x108FDB0
+    // Offset: 0x1613E38
     UnityEngine::Quaternion get_rotation();
     // public System.Void set_rotation(UnityEngine.Quaternion value)
-    // Offset: 0x108FE38
+    // Offset: 0x1613EC0
     void set_rotation(UnityEngine::Quaternion value);
     // public UnityEngine.Vector3 get_eulerAngles()
-    // Offset: 0x108FE78
+    // Offset: 0x1613F00
     UnityEngine::Vector3 get_eulerAngles();
     // public System.Void set_eulerAngles(UnityEngine.Vector3 value)
-    // Offset: 0x108FE84
+    // Offset: 0x1613F0C
     void set_eulerAngles(UnityEngine::Vector3 value);
     // public System.Boolean get_useTrackMatchFields()
-    // Offset: 0x108FE90
+    // Offset: 0x1613F18
     bool get_useTrackMatchFields();
     // public System.Void set_useTrackMatchFields(System.Boolean value)
-    // Offset: 0x108FE98
+    // Offset: 0x1613F20
     void set_useTrackMatchFields(bool value);
     // public UnityEngine.Timeline.MatchTargetFields get_matchTargetFields()
-    // Offset: 0x108FEA4
+    // Offset: 0x1613F2C
     UnityEngine::Timeline::MatchTargetFields get_matchTargetFields();
     // public System.Void set_matchTargetFields(UnityEngine.Timeline.MatchTargetFields value)
-    // Offset: 0x108FEAC
+    // Offset: 0x1613F34
     void set_matchTargetFields(UnityEngine::Timeline::MatchTargetFields value);
     // public System.Boolean get_removeStartOffset()
-    // Offset: 0x108FEB4
+    // Offset: 0x1613F3C
     bool get_removeStartOffset();
     // public System.Void set_removeStartOffset(System.Boolean value)
-    // Offset: 0x108FEBC
+    // Offset: 0x1613F44
     void set_removeStartOffset(bool value);
     // public System.Boolean get_applyFootIK()
-    // Offset: 0x108FEC8
+    // Offset: 0x1613F50
     bool get_applyFootIK();
     // public System.Void set_applyFootIK(System.Boolean value)
-    // Offset: 0x108FED0
+    // Offset: 0x1613F58
     void set_applyFootIK(bool value);
     // public UnityEngine.Timeline.AnimationPlayableAsset/LoopMode get_loop()
-    // Offset: 0x108FEDC
+    // Offset: 0x1613F64
     UnityEngine::Timeline::AnimationPlayableAsset::LoopMode get_loop();
     // public System.Void set_loop(UnityEngine.Timeline.AnimationPlayableAsset/LoopMode value)
-    // Offset: 0x108FEE4
+    // Offset: 0x1613F6C
     void set_loop(UnityEngine::Timeline::AnimationPlayableAsset::LoopMode value);
     // System.Boolean get_hasRootTransforms()
-    // Offset: 0x108FEEC
+    // Offset: 0x1613F74
     bool get_hasRootTransforms();
     // UnityEngine.Timeline.AppliedOffsetMode get_appliedOffsetMode()
-    // Offset: 0x1090078
+    // Offset: 0x1614100
     UnityEngine::Timeline::AppliedOffsetMode get_appliedOffsetMode();
     // System.Void set_appliedOffsetMode(UnityEngine.Timeline.AppliedOffsetMode value)
-    // Offset: 0x1090080
+    // Offset: 0x1614108
     void set_appliedOffsetMode(UnityEngine::Timeline::AppliedOffsetMode value);
     // public UnityEngine.AnimationClip get_clip()
-    // Offset: 0x1090088
+    // Offset: 0x1614110
     UnityEngine::AnimationClip* get_clip();
     // public System.Void set_clip(UnityEngine.AnimationClip value)
-    // Offset: 0x1090090
+    // Offset: 0x1614118
     void set_clip(UnityEngine::AnimationClip* value);
     // static UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.AnimationClip clip, UnityEngine.Vector3 positionOffset, UnityEngine.Vector3 eulerOffset, System.Boolean removeStartOffset, UnityEngine.Timeline.AppliedOffsetMode mode, System.Boolean applyFootIK, UnityEngine.Timeline.AnimationPlayableAsset/LoopMode loop)
-    // Offset: 0x1090540
+    // Offset: 0x16145C8
     static UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::AnimationClip* clip, UnityEngine::Vector3 positionOffset, UnityEngine::Vector3 eulerOffset, bool removeStartOffset, UnityEngine::Timeline::AppliedOffsetMode mode, bool applyFootIK, UnityEngine::Timeline::AnimationPlayableAsset::LoopMode loop);
     // static private System.Boolean ShouldApplyOffset(UnityEngine.Timeline.AppliedOffsetMode mode, UnityEngine.AnimationClip clip)
-    // Offset: 0x1090918
+    // Offset: 0x16149A0
     static bool ShouldApplyOffset(UnityEngine::Timeline::AppliedOffsetMode mode, UnityEngine::AnimationClip* clip);
     // static private System.Boolean ShouldApplyScaleRemove(UnityEngine.Timeline.AppliedOffsetMode mode)
-    // Offset: 0x10908F8
+    // Offset: 0x1614980
     static bool ShouldApplyScaleRemove(UnityEngine::Timeline::AppliedOffsetMode mode);
     // public System.Void ResetOffsets()
-    // Offset: 0x1090AA8
+    // Offset: 0x1614B30
     void ResetOffsets();
     // static System.Boolean HasRootTransforms(UnityEngine.AnimationClip clip)
-    // Offset: 0x108FF9C
+    // Offset: 0x1614024
     static bool HasRootTransforms(UnityEngine::AnimationClip* clip);
     // private System.Void OnUpgradeFromVersion(System.Int32 oldVersion)
-    // Offset: 0x1090CFC
+    // Offset: 0x1614D84
     void OnUpgradeFromVersion(int oldVersion);
     // public override System.Double get_duration()
-    // Offset: 0x109015C
+    // Offset: 0x16141E4
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Double PlayableAsset::get_duration()
     double get_duration();
     // public override System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> get_outputs()
-    // Offset: 0x109038C
+    // Offset: 0x1614414
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> PlayableAsset::get_outputs()
     System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* get_outputs();
     // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    // Offset: 0x1090450
+    // Offset: 0x16144D8
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
     UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go);
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x10909A8
+    // Offset: 0x1614A30
     // Implemented from: UnityEngine.Timeline.ITimelineClipAsset
     // Base method: UnityEngine.Timeline.ClipCaps ITimelineClipAsset::get_clipCaps()
     UnityEngine::Timeline::ClipCaps get_clipCaps();
     // public System.Void GatherProperties(UnityEngine.Playables.PlayableDirector director, UnityEngine.Timeline.IPropertyCollector driver)
-    // Offset: 0x1090B28
+    // Offset: 0x1614BB0
     // Implemented from: UnityEngine.Timeline.IPropertyPreview
     // Base method: System.Void IPropertyPreview::GatherProperties(UnityEngine.Playables.PlayableDirector director, UnityEngine.Timeline.IPropertyCollector driver)
     void GatherProperties(UnityEngine::Playables::PlayableDirector* director, UnityEngine::Timeline::IPropertyCollector* driver);
     // private System.Void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize()
-    // Offset: 0x1090BEC
+    // Offset: 0x1614C74
     // Implemented from: UnityEngine.ISerializationCallbackReceiver
     // Base method: System.Void ISerializationCallbackReceiver::OnBeforeSerialize()
     void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
     // private System.Void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize()
-    // Offset: 0x1090C5C
+    // Offset: 0x1614CE4
     // Implemented from: UnityEngine.ISerializationCallbackReceiver
     // Base method: System.Void ISerializationCallbackReceiver::OnAfterDeserialize()
     void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
     // public System.Void .ctor()
-    // Offset: 0x1090D44
+    // Offset: 0x1614DCC
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Void PlayableAsset::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -258,7 +258,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     static AnimationPlayableAsset* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1090E3C
+    // Offset: 0x1614EC4
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

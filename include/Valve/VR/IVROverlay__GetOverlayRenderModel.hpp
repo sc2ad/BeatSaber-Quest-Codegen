@@ -38,16 +38,16 @@ namespace Valve::VR {
   class IVROverlay::_GetOverlayRenderModel : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1612368
+    // Offset: 0x1E3C5E8
     static IVROverlay::_GetOverlayRenderModel* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.UInt64 ulOverlayHandle, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, ref Valve.VR.HmdColor_t pColor, ref Valve.VR.EVROverlayError pError)
-    // Offset: 0x161237C
+    // Offset: 0x1E3C5FC
     uint Invoke(uint64_t ulOverlayHandle, System::Text::StringBuilder* pchValue, uint unBufferSize, Valve::VR::HmdColor_t& pColor, Valve::VR::EVROverlayError& pError);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, ref Valve.VR.HmdColor_t pColor, ref Valve.VR.EVROverlayError pError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1612644
+    // Offset: 0x1E3C8C4
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, System::Text::StringBuilder* pchValue, uint unBufferSize, Valve::VR::HmdColor_t& pColor, Valve::VR::EVROverlayError& pError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(ref Valve.VR.HmdColor_t pColor, ref Valve.VR.EVROverlayError pError, System.IAsyncResult result)
-    // Offset: 0x1612744
+    // Offset: 0x1E3C9C4
     uint EndInvoke(Valve::VR::HmdColor_t& pColor, Valve::VR::EVROverlayError& pError, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_GetOverlayRenderModel
 }

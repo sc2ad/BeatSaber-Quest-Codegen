@@ -25,11 +25,6 @@ namespace UnityEngine::TestRunner::TestLaunchers {
   // Forward declaring type: IRemoteTestResultDataFactory
   class IRemoteTestResultDataFactory;
 }
-// Forward declaring namespace: UnityEngine::Networking::PlayerConnection
-namespace UnityEngine::Networking::PlayerConnection {
-  // Forward declaring type: MessageEventArgs
-  class MessageEventArgs;
-}
 // Forward declaring namespace: NUnit::Framework::Interfaces
 namespace NUnit::Framework::Interfaces {
   // Forward declaring type: ITest
@@ -50,8 +45,8 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     public:
     // Nested type: UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData
     class QueueData;
-    // Nested type: UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::$SendDataRoutine$d__13
-    class $SendDataRoutine$d__13;
+    // Nested type: UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::$SendDataRoutine$d__12
+    class $SendDataRoutine$d__12;
     // private System.Single m_NextliveMessage
     // Offset: 0x18
     float m_NextliveMessage;
@@ -73,37 +68,34 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Set static field: static private System.Int32 k_aliveMessageFrequency
     static void _set_k_aliveMessageFrequency(int value);
     // public System.Void Start()
-    // Offset: 0xE45C98
+    // Offset: 0x12C2AEC
     void Start();
-    // private System.Void EditorProccessedTheResult(UnityEngine.Networking.PlayerConnection.MessageEventArgs arg0)
-    // Offset: 0xE45DE4
-    void EditorProccessedTheResult(UnityEngine::Networking::PlayerConnection::MessageEventArgs* arg0);
     // private System.Byte[] SerializeObject(System.Object objectToSerialize)
-    // Offset: 0xE45E34
+    // Offset: 0x12C2B94
     ::Array<uint8_t>* SerializeObject(::Il2CppObject* objectToSerialize);
     // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
-    // Offset: 0xE45E84
+    // Offset: 0x12C2BE4
     void RunStarted(NUnit::Framework::Interfaces::ITest* testsToRun);
     // public System.Void RunFinished(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0xE46048
+    // Offset: 0x12C2DA8
     void RunFinished(NUnit::Framework::Interfaces::ITestResult* testResults);
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xE46200
+    // Offset: 0x12C2F60
     void TestStarted(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0xE463BC
+    // Offset: 0x12C311C
     void TestFinished(NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Collections.IEnumerator SendDataRoutine()
-    // Offset: 0xE45D68
+    // Offset: 0x12C2B18
     System::Collections::IEnumerator* SendDataRoutine();
     // private System.Void SendAliveMessageIfNeeded()
-    // Offset: 0xE465A0
+    // Offset: 0x12C3300
     void SendAliveMessageIfNeeded();
     // private System.Void ResetNextPlayerAliveMessageTime()
-    // Offset: 0xE466A0
+    // Offset: 0x12C3400
     void ResetNextPlayerAliveMessageTime();
     // public System.Void .ctor()
-    // Offset: 0xE466D4
+    // Offset: 0x12C3434
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

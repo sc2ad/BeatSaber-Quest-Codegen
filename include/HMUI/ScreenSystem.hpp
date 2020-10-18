@@ -23,11 +23,6 @@ namespace UnityEngine::UI {
   // Forward declaring type: Button
   class Button;
 }
-// Forward declaring namespace: GlobalNamespace
-namespace GlobalNamespace {
-  // Forward declaring type: ScreenBackButtonAnimationController
-  class ScreenBackButtonAnimationController;
-}
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action
@@ -57,64 +52,58 @@ namespace HMUI {
     // private UnityEngine.UI.Button _backButton
     // Offset: 0x40
     UnityEngine::UI::Button* backButton;
-    // private ScreenBackButtonAnimationController _screenBackButtonAnimationController
-    // Offset: 0x48
-    GlobalNamespace::ScreenBackButtonAnimationController* screenBackButtonAnimationController;
     // private HMUI.TitleViewController _titleViewController
-    // Offset: 0x50
+    // Offset: 0x48
     HMUI::TitleViewController* titleViewController;
     // private System.Action backButtonWasPressedEvent
-    // Offset: 0x58
+    // Offset: 0x50
     System::Action* backButtonWasPressedEvent;
     // private System.Boolean _backButtonIsVisible
-    // Offset: 0x60
+    // Offset: 0x58
     bool backButtonIsVisible;
     // private HMUI.ButtonBinder _buttonBinder
-    // Offset: 0x68
+    // Offset: 0x60
     HMUI::ButtonBinder* buttonBinder;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public HMUI.TitleViewController get_titleViewController()
-    // Offset: 0x10E1140
+    // Offset: 0x1175AA4
     HMUI::TitleViewController* get_titleViewController();
     // public HMUI.Screen get_mainScreen()
-    // Offset: 0x10E1148
+    // Offset: 0x1175AAC
     HMUI::Screen* get_mainScreen();
     // public HMUI.Screen get_leftScreen()
-    // Offset: 0x10E1150
+    // Offset: 0x1175AB4
     HMUI::Screen* get_leftScreen();
     // public HMUI.Screen get_rightScreen()
-    // Offset: 0x10E1158
+    // Offset: 0x1175ABC
     HMUI::Screen* get_rightScreen();
     // public HMUI.Screen get_bottomScreen()
-    // Offset: 0x10E1160
+    // Offset: 0x1175AC4
     HMUI::Screen* get_bottomScreen();
     // public HMUI.Screen get_topScreen()
-    // Offset: 0x10E1168
+    // Offset: 0x1175ACC
     HMUI::Screen* get_topScreen();
     // public System.Void add_backButtonWasPressedEvent(System.Action value)
-    // Offset: 0x10E1170
+    // Offset: 0x1175AD4
     void add_backButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_backButtonWasPressedEvent(System.Action value)
-    // Offset: 0x10E1214
+    // Offset: 0x1175B78
     void remove_backButtonWasPressedEvent(System::Action* value);
     // private System.Void Awake()
-    // Offset: 0x10E12B8
+    // Offset: 0x1175C1C
     void Awake();
     // private System.Void OnDestroy()
-    // Offset: 0x10E137C
+    // Offset: 0x1175CE0
     void OnDestroy();
-    // public System.Void BackButtonPush(System.Boolean show)
-    // Offset: 0x10E1398
-    void BackButtonPush(bool show);
-    // public System.Void BackButtonPop(System.Boolean show)
-    // Offset: 0x10E1494
-    void BackButtonPop(bool show);
-    // private System.Void <Awake>b__25_0()
-    // Offset: 0x10E1514
-    void $Awake$b__25_0();
+    // public System.Void SetBackButton(System.Boolean visible, System.Boolean animated)
+    // Offset: 0x1175CFC
+    void SetBackButton(bool visible, bool animated);
+    // private System.Void <Awake>b__24_0()
+    // Offset: 0x1175D40
+    void $Awake$b__24_0();
     // public System.Void .ctor()
-    // Offset: 0x10E150C
+    // Offset: 0x1175D38
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

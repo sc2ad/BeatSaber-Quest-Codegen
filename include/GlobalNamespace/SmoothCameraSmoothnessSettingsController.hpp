@@ -21,31 +21,31 @@ namespace GlobalNamespace {
   class SmoothCameraSmoothnessSettingsController : public GlobalNamespace::ListSettingsController {
     public:
     // private FloatSO _smoothCameraPositionSmooth
-    // Offset: 0x38
+    // Offset: 0x28
     GlobalNamespace::FloatSO* smoothCameraPositionSmooth;
     // private FloatSO _smoothCameraRotationSmooth
-    // Offset: 0x40
+    // Offset: 0x30
     GlobalNamespace::FloatSO* smoothCameraRotationSmooth;
     // private System.Single[] _smoothnesses
-    // Offset: 0x48
+    // Offset: 0x38
     ::Array<float>* smoothnesses;
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0xB9B500
+    // Offset: 0xEF139C
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(int& idx, int& numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0xB9B628
+    // Offset: 0xEF14C4
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0xB9B6E4
+    // Offset: 0xEF1580
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::Il2CppString* TextForValue(int idx);
     // public System.Void .ctor()
-    // Offset: 0xB9B7B4
+    // Offset: 0xEF1650
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()

@@ -130,63 +130,68 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public AudioTimeSyncController/State get_state()
-    // Offset: 0xB8A97C
+    // Offset: 0xFB1D00
     GlobalNamespace::AudioTimeSyncController::State get_state();
     // public System.Single get_songLength()
-    // Offset: 0xB8A98C
+    // Offset: 0xFB1D10
     float get_songLength();
     // public System.Boolean get_isAudioLoaded()
-    // Offset: 0xB8A9B4
+    // Offset: 0xFB1D38
     bool get_isAudioLoaded();
-    // public System.Single get_songEndTime()
-    // Offset: 0xB8A9E8
-    float get_songEndTime();
     // public System.Single get_timeScale()
-    // Offset: 0xB8AA10
+    // Offset: 0xFB1D94
     float get_timeScale();
     // public System.Double get_dspTimeOffset()
-    // Offset: 0xB8AA18
+    // Offset: 0xFB1D9C
     double get_dspTimeOffset();
     // public UnityEngine.WaitUntil get_waitUntilAudioIsLoaded()
-    // Offset: 0xB8AA20
+    // Offset: 0xFB1DA4
     UnityEngine::WaitUntil* get_waitUntilAudioIsLoaded();
     // public UnityEngine.AudioSource get_audioSource()
-    // Offset: 0xB8AAB8
+    // Offset: 0xFB1E3C
     UnityEngine::AudioSource* get_audioSource();
     // protected System.Void Awake()
-    // Offset: 0xB8AAC0
+    // Offset: 0xFB1E44
     void Awake();
     // protected System.Void Start()
-    // Offset: 0xB8AB14
+    // Offset: 0xFB1E98
     void Start();
     // protected System.Void Update()
-    // Offset: 0xB8ABF0
+    // Offset: 0xFB1FB0
     void Update();
     // private System.Single get_timeSinceStart()
-    // Offset: 0xB8AF58
+    // Offset: 0xFB2318
     float get_timeSinceStart();
-    // public System.Void StartSong()
-    // Offset: 0xB8AF84
-    void StartSong();
+    // public System.Void StartSong(System.Single startTimeOffset)
+    // Offset: 0xFB2344
+    void StartSong(float startTimeOffset);
+    // public System.Void SeekTo(System.Single startTimeOffset)
+    // Offset: 0xFB2350
+    void SeekTo(float startTimeOffset);
     // public System.Void StopSong()
-    // Offset: 0xB8B0FC
+    // Offset: 0xFB24E0
     void StopSong();
     // public System.Void Pause()
-    // Offset: 0xB8B134
+    // Offset: 0xFB2518
     void Pause();
     // public System.Void Resume()
-    // Offset: 0xB8B17C
+    // Offset: 0xFB2560
     void Resume();
     // private System.Boolean <get_waitUntilAudioIsLoaded>b__25_0()
-    // Offset: 0xB8B1C4
+    // Offset: 0xFB25A8
     bool $get_waitUntilAudioIsLoaded$b__25_0();
     // public System.Single get_songTime()
-    // Offset: 0xB8A984
+    // Offset: 0xFB1D08
     // Implemented from: IAudioTimeSource
     // Base method: System.Single IAudioTimeSource::get_songTime()
     float get_songTime();
+    // public System.Single get_songEndTime()
+    // Offset: 0xFB1D6C
+    // Implemented from: IAudioTimeSource
+    // Base method: System.Single IAudioTimeSource::get_songEndTime()
+    float get_songEndTime();
     // public System.Void .ctor()
-    // Offset: 0xB8B1B0
+    // Offset: 0xFB2594
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

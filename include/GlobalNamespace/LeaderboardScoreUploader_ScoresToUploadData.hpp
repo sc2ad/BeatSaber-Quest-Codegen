@@ -29,7 +29,7 @@ namespace GlobalNamespace {
       return scores;
     }
     // public System.Void .ctor()
-    // Offset: 0xB47014
+    // Offset: 0x101BE84
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LeaderboardScoreUploader::ScoresToUploadData* New_ctor();

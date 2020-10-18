@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
       return ID;
     }
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xEA2684
+    // Offset: 0x1362D80
     static CalApplicationProposed* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.CalApplicationProposed
 }

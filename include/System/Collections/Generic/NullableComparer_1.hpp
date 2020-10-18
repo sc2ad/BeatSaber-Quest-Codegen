@@ -50,7 +50,7 @@ namespace System::Collections::Generic {
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.Comparer`1
-    // Base method: System.Void Comparer`1::.ctor()
+    // Base method: System.Void Comparer_1::.ctor()
     // Base method: System.Void Object::.ctor()
     static NullableComparer_1<T>* New_ctor() {
       return THROW_UNLESS(il2cpp_utils::New<NullableComparer_1<T>*>());

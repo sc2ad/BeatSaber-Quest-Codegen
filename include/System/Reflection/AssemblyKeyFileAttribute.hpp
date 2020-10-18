@@ -21,7 +21,7 @@ namespace System::Reflection {
       return m_keyFile;
     }
     // public System.Void .ctor(System.String keyFile)
-    // Offset: 0x1368B14
+    // Offset: 0x1AB8EEC
     static AssemblyKeyFileAttribute* New_ctor(::Il2CppString* keyFile);
   }; // System.Reflection.AssemblyKeyFileAttribute
 }

@@ -32,7 +32,7 @@ namespace Mono {
       return value;
     }
     // Mono.RuntimeClassHandle get_ProxyClass()
-    // Offset: 0xA4092C
+    // Offset: 0xDBB6F4
     Mono::RuntimeClassHandle get_ProxyClass();
   }; // Mono.RuntimeRemoteClassHandle
 }

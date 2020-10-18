@@ -28,7 +28,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x18
     ::Il2CppString* TotalViews;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xEA5164
+    // Offset: 0x1365860
     static LivestreamingVideoStats* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.LivestreamingVideoStats
 }

@@ -49,28 +49,28 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Nested type: UnityEngine::ProBuilder::MeshOperations::ExtrudeElements::$$c
     class $$c;
     // static public UnityEngine.ProBuilder.Face[] Extrude(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, UnityEngine.ProBuilder.ExtrudeMethod method, System.Single distance)
-    // Offset: 0xF14E24
+    // Offset: 0x13F754C
     static ::Array<UnityEngine::ProBuilder::Face*>* Extrude(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, UnityEngine::ProBuilder::ExtrudeMethod method, float distance);
     // static public UnityEngine.ProBuilder.Edge[] Extrude(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> edges, System.Single distance, System.Boolean extrudeAsGroup, System.Boolean enableManifoldExtrude)
-    // Offset: 0xF16FA8
+    // Offset: 0x13F96D0
     static ::Array<UnityEngine::ProBuilder::Edge>* Extrude(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* edges, float distance, bool extrudeAsGroup, bool enableManifoldExtrude);
     // static public System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> DetachFaces(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces)
-    // Offset: 0xF17F28
+    // Offset: 0x13FA650
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>* DetachFaces(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces);
     // static public System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> DetachFaces(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, System.Boolean deleteSourceFaces)
-    // Offset: 0xF17F30
+    // Offset: 0x13FA658
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>* DetachFaces(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, bool deleteSourceFaces);
     // static private UnityEngine.ProBuilder.Face[] ExtrudePerFace(UnityEngine.ProBuilder.ProBuilderMesh pb, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, System.Single distance)
-    // Offset: 0xF14E38
+    // Offset: 0x13F7560
     static ::Array<UnityEngine::ProBuilder::Face*>* ExtrudePerFace(UnityEngine::ProBuilder::ProBuilderMesh* pb, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, float distance);
     // static private UnityEngine.ProBuilder.Face[] ExtrudeAsGroups(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, System.Boolean compensateAngleVertexDistance, System.Single distance)
-    // Offset: 0xF158DC
+    // Offset: 0x13F8004
     static ::Array<UnityEngine::ProBuilder::Face*>* ExtrudeAsGroups(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, bool compensateAngleVertexDistance, float distance);
     // static private System.Collections.Generic.List`1<System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face>> GetFaceGroups(System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge> wings)
-    // Offset: 0xF187EC
+    // Offset: 0x13FAF14
     static System::Collections::Generic::List_1<System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>*>* GetFaceGroups(System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge*>* wings);
     // static private System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.EdgeLookup,UnityEngine.ProBuilder.Face> GetPerimeterEdges(System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> faces, System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup)
-    // Offset: 0xF18B50
+    // Offset: 0x13FB278
     static System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::EdgeLookup, UnityEngine::ProBuilder::Face*>* GetPerimeterEdges(System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* faces, System::Collections::Generic::Dictionary_2<int, int>* lookup);
   }; // UnityEngine.ProBuilder.MeshOperations.ExtrudeElements
 }

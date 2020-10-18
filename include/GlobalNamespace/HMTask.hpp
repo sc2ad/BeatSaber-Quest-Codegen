@@ -52,25 +52,25 @@ namespace GlobalNamespace {
     // Offset: 0x2A
     bool finished;
     // public System.Void .ctor(System.Action job, System.Action finishCallback)
-    // Offset: 0xCB10CC
+    // Offset: 0x1096B18
     static HMTask* New_ctor(System::Action* job, System::Action* finishCallback);
     // public System.Void Run()
-    // Offset: 0xCB11F0
+    // Offset: 0x1096C3C
     void Run();
     // public System.Collections.IEnumerator RunCoroutine()
-    // Offset: 0xCB6EC0
+    // Offset: 0x109CDC8
     System::Collections::IEnumerator* RunCoroutine();
     // private System.Void RunJob()
-    // Offset: 0xCB6F68
+    // Offset: 0x109CE70
     void RunJob();
     // public System.Void Cancel()
-    // Offset: 0xCB703C
+    // Offset: 0x109CF44
     void Cancel();
     // private System.Boolean <RunCoroutine>b__8_0()
-    // Offset: 0xCB7048
+    // Offset: 0x109CF50
     bool $RunCoroutine$b__8_0();
     // private System.Void <RunJob>b__9_0()
-    // Offset: 0xCB7050
+    // Offset: 0x109CF58
     void $RunJob$b__9_0();
   }; // HMTask
 }

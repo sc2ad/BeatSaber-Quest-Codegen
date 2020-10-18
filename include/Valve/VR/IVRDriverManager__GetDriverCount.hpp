@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRDriverManager::_GetDriverCount : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x160B4B0
+    // Offset: 0x1E35730
     static IVRDriverManager::_GetDriverCount* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke()
-    // Offset: 0x160B4C4
+    // Offset: 0x1E35744
     uint Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x160B6D8
+    // Offset: 0x1E35958
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x160B704
+    // Offset: 0x1E35984
     uint EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRDriverManager/_GetDriverCount
 }

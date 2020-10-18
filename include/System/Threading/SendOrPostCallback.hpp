@@ -24,16 +24,16 @@ namespace System::Threading {
   class SendOrPostCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xCDD524
+    // Offset: 0x16D92A0
     static SendOrPostCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Object state)
-    // Offset: 0xCDD538
+    // Offset: 0x16D4D9C
     void Invoke(::Il2CppObject* state);
     // public System.IAsyncResult BeginInvoke(System.Object state, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xCDD8F0
+    // Offset: 0x16D92B4
     System::IAsyncResult* BeginInvoke(::Il2CppObject* state, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xCDD914
+    // Offset: 0x16D92D8
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Threading.SendOrPostCallback
 }

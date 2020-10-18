@@ -7,12 +7,18 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: SceneSetupData
 #include "GlobalNamespace/SceneSetupData.hpp"
+// Including type: BeatmapDifficulty
+#include "GlobalNamespace/BeatmapDifficulty.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: MissionObjective
   class MissionObjective;
+  // Forward declaring type: IPreviewBeatmapLevel
+  class IPreviewBeatmapLevel;
+  // Forward declaring type: BeatmapCharacteristicSO
+  class BeatmapCharacteristicSO;
 }
 // Completed forward declares
 // Type namespace: 
@@ -26,21 +32,21 @@ namespace GlobalNamespace {
     // public readonly System.Boolean autoRestart
     // Offset: 0x18
     bool autoRestart;
-    // public readonly System.String songName
+    // public readonly IPreviewBeatmapLevel previewBeatmapLevel
     // Offset: 0x20
-    ::Il2CppString* songName;
-    // public readonly System.String songSubName
+    GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel;
+    // public readonly BeatmapDifficulty beatmapDifficulty
     // Offset: 0x28
-    ::Il2CppString* songSubName;
-    // public readonly System.String difficultyName
+    GlobalNamespace::BeatmapDifficulty beatmapDifficulty;
+    // public readonly BeatmapCharacteristicSO beatmapCharacteristic
     // Offset: 0x30
-    ::Il2CppString* difficultyName;
+    GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic;
     // public readonly System.String backButtonText
     // Offset: 0x38
     ::Il2CppString* backButtonText;
-    // public System.Void .ctor(MissionObjective[] missionObjectives, System.Boolean autoRestart, System.String songName, System.String songSubName, System.String difficultyName, System.String backButtonText)
-    // Offset: 0xC04698
-    static MissionGameplaySceneSetupData* New_ctor(::Array<GlobalNamespace::MissionObjective*>* missionObjectives, bool autoRestart, ::Il2CppString* songName, ::Il2CppString* songSubName, ::Il2CppString* difficultyName, ::Il2CppString* backButtonText);
+    // public System.Void .ctor(MissionObjective[] missionObjectives, System.Boolean autoRestart, IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, System.String backButtonText)
+    // Offset: 0xEDCDC4
+    static MissionGameplaySceneSetupData* New_ctor(::Array<GlobalNamespace::MissionObjective*>* missionObjectives, bool autoRestart, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::Il2CppString* backButtonText);
   }; // MissionGameplaySceneSetupData
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

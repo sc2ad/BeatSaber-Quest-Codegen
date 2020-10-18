@@ -14,9 +14,9 @@ namespace GlobalNamespace {
   class StringSO : public GlobalNamespace::ObservableVariableSO_1<::Il2CppString*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xCBDE48
+    // Offset: 0x21ECB7C
     // Implemented from: ObservableVariableSO`1
-    // Base method: System.Void ObservableVariableSO`1::.ctor()
+    // Base method: System.Void ObservableVariableSO_1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

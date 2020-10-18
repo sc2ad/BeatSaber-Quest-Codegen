@@ -21,7 +21,7 @@ namespace System {
   class UriParser::BuiltInUriParser : public System::UriParser {
     public:
     // System.Void .ctor(System.String lwrCaseScheme, System.Int32 defaultPort, System.UriSyntaxFlags syntaxFlags)
-    // Offset: 0x1957DA8
+    // Offset: 0x21F461C
     static UriParser::BuiltInUriParser* New_ctor(::Il2CppString* lwrCaseScheme, int defaultPort, System::UriSyntaxFlags syntaxFlags);
   }; // System.UriParser/BuiltInUriParser
 }

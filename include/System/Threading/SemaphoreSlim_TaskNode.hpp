@@ -29,19 +29,19 @@ namespace System::Threading {
     // Offset: 0x60
     System::Threading::SemaphoreSlim::TaskNode* Next;
     // System.Void .ctor()
-    // Offset: 0xCDC0FC
+    // Offset: 0x16D7E78
     // Implemented from: System.Threading.Tasks.Task`1
-    // Base method: System.Void Task`1::.ctor()
+    // Base method: System.Void Task_1::.ctor()
     // Base method: System.Void Task::.ctor()
     // Base method: System.Void Object::.ctor()
     static SemaphoreSlim::TaskNode* New_ctor();
     // private System.Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
-    // Offset: 0xCDD4CC
+    // Offset: 0x16D9248
     // Implemented from: System.Threading.IThreadPoolWorkItem
     // Base method: System.Void IThreadPoolWorkItem::ExecuteWorkItem()
     void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
     // private System.Void System.Threading.IThreadPoolWorkItem.MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0xCDD520
+    // Offset: 0x16D929C
     // Implemented from: System.Threading.IThreadPoolWorkItem
     // Base method: System.Void IThreadPoolWorkItem::MarkAborted(System.Threading.ThreadAbortException tae)
     void System_Threading_IThreadPoolWorkItem_MarkAborted(System::Threading::ThreadAbortException* tae);

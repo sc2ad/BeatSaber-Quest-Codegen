@@ -8,6 +8,8 @@
 #include "System/Threading/Tasks/Task_1.hpp"
 // Including type: System.Runtime.CompilerServices.IAsyncStateMachine
 #include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
+// Including type: System.Runtime.CompilerServices.INotifyCompletion
+#include "System/Runtime/CompilerServices/INotifyCompletion.hpp"
 // Including type: System.Runtime.CompilerServices.ICriticalNotifyCompletion
 #include "System/Runtime/CompilerServices/ICriticalNotifyCompletion.hpp"
 // Including type: System.Threading.Tasks.Task

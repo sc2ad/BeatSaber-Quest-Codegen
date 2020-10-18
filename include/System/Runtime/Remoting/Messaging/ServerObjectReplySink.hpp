@@ -34,15 +34,15 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x18
     System::Runtime::Remoting::ServerIdentity* identity;
     // public System.Void .ctor(System.Runtime.Remoting.ServerIdentity identity, System.Runtime.Remoting.Messaging.IMessageSink replySink)
-    // Offset: 0xE13768
+    // Offset: 0x14F8CD4
     static ServerObjectReplySink* New_ctor(System::Runtime::Remoting::ServerIdentity* identity, System::Runtime::Remoting::Messaging::IMessageSink* replySink);
     // public System.Runtime.Remoting.Messaging.IMessage SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0xE137B8
+    // Offset: 0x14F8D24
     // Implemented from: System.Runtime.Remoting.Messaging.IMessageSink
     // Base method: System.Runtime.Remoting.Messaging.IMessage IMessageSink::SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
     System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg);
     // public System.Runtime.Remoting.Messaging.IMessageCtrl AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
-    // Offset: 0xE13898
+    // Offset: 0x14F8E04
     // Implemented from: System.Runtime.Remoting.Messaging.IMessageSink
     // Base method: System.Runtime.Remoting.Messaging.IMessageCtrl IMessageSink::AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
     System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg, System::Runtime::Remoting::Messaging::IMessageSink* replySink);

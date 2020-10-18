@@ -16,21 +16,21 @@ namespace System::IO {
   class PinnedBufferMemoryStream : public System::IO::UnmanagedMemoryStream {
     public:
     // private System.Byte[] _array
-    // Offset: 0x60
+    // Offset: 0x68
     ::Array<uint8_t>* array;
     // private System.Runtime.InteropServices.GCHandle _pinningHandle
-    // Offset: 0x68
+    // Offset: 0x70
     System::Runtime::InteropServices::GCHandle pinningHandle;
     // System.Void .ctor(System.Byte[] array)
-    // Offset: 0x1008DFC
+    // Offset: 0x158D430
     static PinnedBufferMemoryStream* New_ctor(::Array<uint8_t>* array);
     // protected override System.Void Finalize()
-    // Offset: 0x10091C0
+    // Offset: 0x158D7F4
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1009238
+    // Offset: 0x158D86C
     // Implemented from: System.IO.UnmanagedMemoryStream
     // Base method: System.Void UnmanagedMemoryStream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);

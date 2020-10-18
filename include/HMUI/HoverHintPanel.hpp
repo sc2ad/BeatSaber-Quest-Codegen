@@ -50,25 +50,25 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_isShown()
-    // Offset: 0xEE34D0
+    // Offset: 0x11BDE28
     bool get_isShown();
     // private System.Void set_isShown(System.Boolean value)
-    // Offset: 0xEE34D8
+    // Offset: 0x11BDE30
     void set_isShown(bool value);
     // protected System.Void Awake()
-    // Offset: 0xEE34E4
+    // Offset: 0x11BDE3C
     void Awake();
     // public System.Void Show(System.String text, UnityEngine.Transform parent, UnityEngine.Vector2 containerSize, UnityEngine.Rect spawnRect)
-    // Offset: 0xEE2F6C
+    // Offset: 0x11BD8C4
     void Show(::Il2CppString* text, UnityEngine::Transform* parent, UnityEngine::Vector2 containerSize, UnityEngine::Rect spawnRect);
     // public System.Void Hide()
-    // Offset: 0xEE2AD4
+    // Offset: 0x11BD3D4
     void Hide();
     // private UnityEngine.Vector2 CalculatePanelPosition(UnityEngine.Vector2 containerSize, UnityEngine.Rect spawnRect, UnityEngine.Vector2 panelSize)
-    // Offset: 0xEE35EC
+    // Offset: 0x11BDF44
     UnityEngine::Vector2 CalculatePanelPosition(UnityEngine::Vector2 containerSize, UnityEngine::Rect spawnRect, UnityEngine::Vector2 panelSize);
     // public System.Void .ctor()
-    // Offset: 0xEE3718
+    // Offset: 0x11BE070
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

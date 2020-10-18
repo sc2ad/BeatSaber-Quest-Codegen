@@ -76,19 +76,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didFinishEvent(System.Action`1<BeatEffect> value)
-    // Offset: 0xB8DFB8
+    // Offset: 0xFBCCC8
     void add_didFinishEvent(System::Action_1<GlobalNamespace::BeatEffect*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<BeatEffect> value)
-    // Offset: 0xB8E05C
+    // Offset: 0xFBCD6C
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::BeatEffect*>* value);
     // public System.Void Init(UnityEngine.Color color, System.Single animationDuration, UnityEngine.Quaternion rotation)
-    // Offset: 0xB8E100
+    // Offset: 0xFBCE10
     void Init(UnityEngine::Color color, float animationDuration, UnityEngine::Quaternion rotation);
-    // protected System.Void Update()
-    // Offset: 0xB8E1F8
-    void Update();
+    // public System.Void ManualUpdate(System.Single deltaTime)
+    // Offset: 0xFBCF08
+    void ManualUpdate(float deltaTime);
     // public System.Void .ctor()
-    // Offset: 0xB8E3C8
+    // Offset: 0xFBD0D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

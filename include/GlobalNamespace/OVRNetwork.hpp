@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Set static field: static public System.UInt32 FrameHeaderMagicIdentifier
     static void _set_FrameHeaderMagicIdentifier(uint value);
     // public System.Void .ctor()
-    // Offset: 0xEEF374
+    // Offset: 0x13D1970
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRNetwork* New_ctor();

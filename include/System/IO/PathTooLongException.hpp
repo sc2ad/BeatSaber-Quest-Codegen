@@ -23,7 +23,7 @@ namespace System::IO {
   class PathTooLongException : public System::IO::IOException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1008D4C
+    // Offset: 0x158D380
     // Implemented from: System.IO.IOException
     // Base method: System.Void IOException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -31,14 +31,14 @@ namespace System::IO {
     // Base method: System.Void Object::.ctor()
     static PathTooLongException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1008DC0
+    // Offset: 0x158D3F4
     // Implemented from: System.IO.IOException
     // Base method: System.Void IOException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static PathTooLongException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1008DF4
+    // Offset: 0x158D428
     // Implemented from: System.IO.IOException
     // Base method: System.Void IOException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

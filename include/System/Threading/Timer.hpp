@@ -64,31 +64,34 @@ namespace System::Threading {
     // Set static field: static private System.Int64 MaxValue
     static void _set_MaxValue(int64_t value);
     // public System.Void .ctor(System.Threading.TimerCallback callback, System.Object state, System.Int32 dueTime, System.Int32 period)
-    // Offset: 0xCE69A8
+    // Offset: 0x16E2870
     static Timer* New_ctor(System::Threading::TimerCallback* callback, ::Il2CppObject* state, int dueTime, int period);
     // public System.Void .ctor(System.Threading.TimerCallback callback, System.Object state, System.TimeSpan dueTime, System.TimeSpan period)
-    // Offset: 0xCED910
+    // Offset: 0x16EAAC8
     static Timer* New_ctor(System::Threading::TimerCallback* callback, ::Il2CppObject* state, System::TimeSpan dueTime, System::TimeSpan period);
     // private System.Void Init(System.Threading.TimerCallback callback, System.Object state, System.Int64 dueTime, System.Int64 period)
-    // Offset: 0xCED840
+    // Offset: 0x16EA9F8
     void Init(System::Threading::TimerCallback* callback, ::Il2CppObject* state, int64_t dueTime, int64_t period);
+    // public System.Boolean Change(System.Int32 dueTime, System.Int32 period)
+    // Offset: 0x16EAD68
+    bool Change(int dueTime, int period);
     // public System.Boolean Change(System.TimeSpan dueTime, System.TimeSpan period)
-    // Offset: 0xCEDBCC
+    // Offset: 0x16EAD8C
     bool Change(System::TimeSpan dueTime, System::TimeSpan period);
     // private System.Boolean Change(System.Int64 dueTime, System.Int64 period, System.Boolean first)
-    // Offset: 0xCED9A8
+    // Offset: 0x16EAB44
     bool Change(int64_t dueTime, int64_t period, bool first);
     // System.Void KeepRootedWhileScheduled()
-    // Offset: 0xCE6A00
+    // Offset: 0x16E28C8
     void KeepRootedWhileScheduled();
     // static private System.Int64 GetTimeMonotonic()
-    // Offset: 0xCEDCEC
+    // Offset: 0x16EAEAC
     static int64_t GetTimeMonotonic();
     // static private System.Void .cctor()
-    // Offset: 0xCEDE78
+    // Offset: 0x16EB038
     static void _cctor();
     // public System.Void Dispose()
-    // Offset: 0xCE758C
+    // Offset: 0x16E3FF4
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

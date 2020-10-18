@@ -25,7 +25,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x18
     ::Il2CppString* Filepath;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xEA21C8
+    // Offset: 0x13628C4
     static AssetFileDownloadResult* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.AssetFileDownloadResult
 }

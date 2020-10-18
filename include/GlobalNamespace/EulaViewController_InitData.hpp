@@ -21,7 +21,7 @@ namespace GlobalNamespace {
       return showDoNotAgreeButton;
     }
     // public System.Void .ctor(System.Boolean showDoNotAgreeButton)
-    // Offset: 0xBEC02C
+    // Offset: 0xF67564
     static EulaViewController::InitData* New_ctor(bool showDoNotAgreeButton);
   }; // EulaViewController/InitData
 }

@@ -23,16 +23,16 @@ namespace GlobalNamespace {
   class SteamVR_Events::Event : public UnityEngine::Events::UnityEvent {
     public:
     // public System.Void Listen(UnityEngine.Events.UnityAction action)
-    // Offset: 0xD835D8
+    // Offset: 0x1233C28
     void Listen(UnityEngine::Events::UnityAction* action);
     // public System.Void Remove(UnityEngine.Events.UnityAction action)
-    // Offset: 0xD836AC
+    // Offset: 0x1233CFC
     void Remove(UnityEngine::Events::UnityAction* action);
     // public System.Void Send()
-    // Offset: 0xD84314
+    // Offset: 0x1234964
     void Send();
     // public System.Void .ctor()
-    // Offset: 0xD842D4
+    // Offset: 0x1234924
     // Implemented from: UnityEngine.Events.UnityEvent
     // Base method: System.Void UnityEvent::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

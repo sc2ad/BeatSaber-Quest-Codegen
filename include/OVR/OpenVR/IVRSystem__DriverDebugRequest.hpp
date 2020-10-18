@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_DriverDebugRequest : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16BB328
+    // Offset: 0x1F400D0
     static IVRSystem::_DriverDebugRequest* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.UInt32 unDeviceIndex, System.String pchRequest, System.Text.StringBuilder pchResponseBuffer, System.UInt32 unResponseBufferSize)
-    // Offset: 0x16BB33C
+    // Offset: 0x1F400E4
     uint Invoke(uint unDeviceIndex, ::Il2CppString* pchRequest, System::Text::StringBuilder* pchResponseBuffer, uint unResponseBufferSize);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unDeviceIndex, System.String pchRequest, System.Text.StringBuilder pchResponseBuffer, System.UInt32 unResponseBufferSize, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16BB604
+    // Offset: 0x1F403AC
     System::IAsyncResult* BeginInvoke(uint unDeviceIndex, ::Il2CppString* pchRequest, System::Text::StringBuilder* pchResponseBuffer, uint unResponseBufferSize, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16BB6B8
+    // Offset: 0x1F40460
     uint EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_DriverDebugRequest
 }

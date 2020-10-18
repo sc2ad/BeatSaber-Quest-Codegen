@@ -33,10 +33,10 @@ namespace UnityEngine::TestRunner::Utils {
       return result;
     }
     // System.Void <TestFinished>b__0(UnityEngine.TestRunner.ITestRunCallback callback)
-    // Offset: 0xE3F340
+    // Offset: 0x12BC080
     void $TestFinished$b__0(UnityEngine::TestRunner::ITestRunCallback* callback);
     // public System.Void .ctor()
-    // Offset: 0xE3EE44
+    // Offset: 0x12BBB84
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TestRunCallbackListener::$$c__DisplayClass6_0* New_ctor();

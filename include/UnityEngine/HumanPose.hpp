@@ -29,7 +29,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: HumanPose
     constexpr HumanPose(UnityEngine::Vector3 bodyPosition_ = {}, UnityEngine::Quaternion bodyRotation_ = {}, ::Array<float>* muscles_ = {}) noexcept : bodyPosition{bodyPosition_}, bodyRotation{bodyRotation_}, muscles{muscles_} {}
     // System.Void Init()
-    // Offset: 0xA5DF64
+    // Offset: 0xDDCED0
     void Init();
   }; // UnityEngine.HumanPose
 }

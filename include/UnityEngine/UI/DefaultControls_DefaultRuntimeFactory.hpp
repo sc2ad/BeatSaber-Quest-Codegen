@@ -33,10 +33,10 @@ namespace UnityEngine::UI {
     // Set static field: static public UnityEngine.UI.DefaultControls/IFactoryControls Default
     static void _set_Default(UnityEngine::UI::DefaultControls::IFactoryControls* value);
     // static private System.Void .cctor()
-    // Offset: 0xE0E6C0
+    // Offset: 0x128D230
     static void _cctor();
     // public UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
-    // Offset: 0xE0E644
+    // Offset: 0x128D1B4
     // Implemented from: UnityEngine.UI.DefaultControls/IFactoryControls
     // Base method: UnityEngine.GameObject IFactoryControls::CreateGameObject(System.String name, params System.Type[] components)
     UnityEngine::GameObject* CreateGameObject(::Il2CppString* name, ::Array<System::Type*>* components);
@@ -48,7 +48,7 @@ namespace UnityEngine::UI {
       return CreateGameObject(name, {components...});
     }
     // public System.Void .ctor()
-    // Offset: 0xE0E6B8
+    // Offset: 0x128D228
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DefaultControls::DefaultRuntimeFactory* New_ctor();

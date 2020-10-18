@@ -19,7 +19,7 @@ namespace System::Collections::Generic {
     // public override System.Int32 Compare(T x, T y)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.Comparer`1
-    // Base method: System.Int32 Comparer`1::Compare(T x, T y)
+    // Base method: System.Int32 Comparer_1::Compare(T x, T y)
     int Compare(T x, T y) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "Compare", x, y));
     }
@@ -40,7 +40,7 @@ namespace System::Collections::Generic {
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.Comparer`1
-    // Base method: System.Void Comparer`1::.ctor()
+    // Base method: System.Void Comparer_1::.ctor()
     // Base method: System.Void Object::.ctor()
     static ObjectComparer_1<T>* New_ctor() {
       return THROW_UNLESS(il2cpp_utils::New<ObjectComparer_1<T>*>());

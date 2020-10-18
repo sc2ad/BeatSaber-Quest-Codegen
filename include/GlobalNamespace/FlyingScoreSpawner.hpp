@@ -33,22 +33,22 @@ namespace GlobalNamespace {
     struct SpawnPosition;
     // Nested type: GlobalNamespace::FlyingScoreSpawner::InitData
     class InitData;
-    // private FlyingScoreEffect/Pool _flyingScoreEffectPool
+    // private readonly FlyingScoreEffect/Pool _flyingScoreEffectPool
     // Offset: 0x18
     GlobalNamespace::FlyingScoreEffect::Pool* flyingScoreEffectPool;
-    // private FlyingScoreSpawner/InitData _initData
+    // private readonly FlyingScoreSpawner/InitData _initData
     // Offset: 0x20
     GlobalNamespace::FlyingScoreSpawner::InitData* initData;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void SpawnFlyingScore(NoteCutInfo noteCutInfo, System.Int32 noteLineIndex, System.Int32 multiplier, UnityEngine.Vector3 pos, UnityEngine.Quaternion rotation, UnityEngine.Quaternion inverseRotation, UnityEngine.Color color)
-    // Offset: 0xBF099C
+    // Offset: 0xF6D594
     void SpawnFlyingScore(GlobalNamespace::NoteCutInfo* noteCutInfo, int noteLineIndex, int multiplier, UnityEngine::Vector3 pos, UnityEngine::Quaternion rotation, UnityEngine::Quaternion inverseRotation, UnityEngine::Color color);
     // private System.Void HandleFlyingScoreEffectDidFinish(FlyingObjectEffect flyingObjectEffect)
-    // Offset: 0xBF0C60
+    // Offset: 0xF6D858
     void HandleFlyingScoreEffectDidFinish(GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
     // public System.Void .ctor()
-    // Offset: 0xBF0D44
+    // Offset: 0xF6D93C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

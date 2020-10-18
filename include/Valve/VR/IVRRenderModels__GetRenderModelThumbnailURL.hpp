@@ -36,16 +36,16 @@ namespace Valve::VR {
   class IVRRenderModels::_GetRenderModelThumbnailURL : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16CB584
+    // Offset: 0x1F5032C
     static IVRRenderModels::_GetRenderModelThumbnailURL* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.String pchRenderModelName, System.Text.StringBuilder pchThumbnailURL, System.UInt32 unThumbnailURLLen, ref Valve.VR.EVRRenderModelError peError)
-    // Offset: 0x16CB598
+    // Offset: 0x1F50340
     uint Invoke(::Il2CppString* pchRenderModelName, System::Text::StringBuilder* pchThumbnailURL, uint unThumbnailURLLen, Valve::VR::EVRRenderModelError& peError);
     // public System.IAsyncResult BeginInvoke(System.String pchRenderModelName, System.Text.StringBuilder pchThumbnailURL, System.UInt32 unThumbnailURLLen, ref Valve.VR.EVRRenderModelError peError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16CB9EC
+    // Offset: 0x1F50794
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchRenderModelName, System::Text::StringBuilder* pchThumbnailURL, uint unThumbnailURLLen, Valve::VR::EVRRenderModelError& peError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(ref Valve.VR.EVRRenderModelError peError, System.IAsyncResult result)
-    // Offset: 0x16CBAB4
+    // Offset: 0x1F5085C
     uint EndInvoke(Valve::VR::EVRRenderModelError& peError, System::IAsyncResult* result);
   }; // Valve.VR.IVRRenderModels/_GetRenderModelThumbnailURL
 }

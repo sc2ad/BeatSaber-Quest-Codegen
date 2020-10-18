@@ -36,40 +36,40 @@ namespace UnityEngine::TextCore {
     // Set static field: static private readonly UnityEngine.TextCore.GlyphRect s_ZeroGlyphRect
     static void _set_s_ZeroGlyphRect(UnityEngine::TextCore::GlyphRect value);
     // public System.Int32 get_x()
-    // Offset: 0xA5EA04
+    // Offset: 0xDDDB50
     int get_x();
     // public System.Int32 get_y()
-    // Offset: 0xA5EA0C
+    // Offset: 0xDDDB58
     int get_y();
     // public System.Int32 get_width()
-    // Offset: 0xA5EA14
+    // Offset: 0xDDDB60
     int get_width();
     // public System.Int32 get_height()
-    // Offset: 0xA5EA1C
+    // Offset: 0xDDDB68
     int get_height();
     // static public UnityEngine.TextCore.GlyphRect get_zero()
-    // Offset: 0x1959880
+    // Offset: 0x22056C8
     static UnityEngine::TextCore::GlyphRect get_zero();
     // public System.Void .ctor(System.Int32 x, System.Int32 y, System.Int32 width, System.Int32 height)
-    // Offset: 0xA5EA24
+    // Offset: 0xDDDB70
     // ABORTED: conflicts with another method.  GlyphRect(int x, int y, int width, int height);
     // static private System.Void .cctor()
-    // Offset: 0x1959A94
+    // Offset: 0x22058DC
     static void _cctor();
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA5EA30
+    // Offset: 0xDDDB7C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA5EA38
+    // Offset: 0xDDDB84
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(UnityEngine.TextCore.GlyphRect other)
-    // Offset: 0xA5EA40
+    // Offset: 0xDDDB8C
     // Implemented from: System.IEquatable`1
-    // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.TextCore.GlyphRect other)
+    // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.TextCore.GlyphRect other)
     bool Equals(UnityEngine::TextCore::GlyphRect other);
   }; // UnityEngine.TextCore.GlyphRect
 }

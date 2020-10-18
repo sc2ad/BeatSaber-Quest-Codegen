@@ -33,7 +33,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Set static field: static public readonly UnityEngine.GUIStyle FailedMessagesStyle
     static void _set_FailedMessagesStyle(UnityEngine::GUIStyle* value);
     // static private System.Void .cctor()
-    // Offset: 0xE47328
+    // Offset: 0x12C4088
     static void _cctor();
   }; // UnityEngine.TestTools.TestRunner.Callbacks.TestResultRenderer/Styles
 }

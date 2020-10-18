@@ -30,15 +30,15 @@ namespace GlobalNamespace {
     // Offset: 0x90
     System::Collections::Generic::List_1<UnityEngine::Transform*>* customBones;
     // public System.Collections.Generic.List`1<UnityEngine.Transform> get_CustomBones()
-    // Offset: 0xCCDF4C
+    // Offset: 0x113694C
     System::Collections::Generic::List_1<UnityEngine::Transform*>* get_CustomBones();
     // protected override System.Void InitializeBones(OVRPlugin/Skeleton skeleton)
-    // Offset: 0xCCDF54
+    // Offset: 0x1136954
     // Implemented from: OVRSkeleton
     // Base method: System.Void OVRSkeleton::InitializeBones(OVRPlugin/Skeleton skeleton)
     void InitializeBones(GlobalNamespace::OVRPlugin::Skeleton skeleton);
     // public System.Void .ctor()
-    // Offset: 0xCCE110
+    // Offset: 0x1136B10
     // Implemented from: OVRSkeleton
     // Base method: System.Void OVRSkeleton::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

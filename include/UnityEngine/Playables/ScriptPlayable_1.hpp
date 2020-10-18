@@ -128,7 +128,7 @@ namespace UnityEngine::Playables {
     // public System.Boolean Equals(UnityEngine.Playables.ScriptPlayable`1<T> other)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.IEquatable`1
-    // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Playables.ScriptPlayable`1<T> other)
+    // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Playables.ScriptPlayable`1<T> other)
     bool Equals(UnityEngine::Playables::ScriptPlayable_1<T> other) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(*this, "Equals", other));
     }

@@ -33,16 +33,16 @@ namespace Valve::VR {
   class IVRScreenshots::_SubmitScreenshot : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16CE830
+    // Offset: 0x1F535D8
     static IVRScreenshots::_SubmitScreenshot* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRScreenshotError Invoke(System.UInt32 screenshotHandle, Valve.VR.EVRScreenshotType type, System.String pchSourcePreviewFilename, System.String pchSourceVRFilename)
-    // Offset: 0x16CE844
+    // Offset: 0x1F535EC
     Valve::VR::EVRScreenshotError Invoke(uint screenshotHandle, Valve::VR::EVRScreenshotType type, ::Il2CppString* pchSourcePreviewFilename, ::Il2CppString* pchSourceVRFilename);
     // public System.IAsyncResult BeginInvoke(System.UInt32 screenshotHandle, Valve.VR.EVRScreenshotType type, System.String pchSourcePreviewFilename, System.String pchSourceVRFilename, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16CEB0C
+    // Offset: 0x1F538B4
     System::IAsyncResult* BeginInvoke(uint screenshotHandle, Valve::VR::EVRScreenshotType type, ::Il2CppString* pchSourcePreviewFilename, ::Il2CppString* pchSourceVRFilename, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRScreenshotError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16CEBC8
+    // Offset: 0x1F53970
     Valve::VR::EVRScreenshotError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRScreenshots/_SubmitScreenshot
 }

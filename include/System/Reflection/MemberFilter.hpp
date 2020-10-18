@@ -29,16 +29,16 @@ namespace System::Reflection {
   class MemberFilter : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x136FCF0
+    // Offset: 0x18CCA0C
     static MemberFilter* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.Reflection.MemberInfo m, System.Object filterCriteria)
-    // Offset: 0x136FD04
+    // Offset: 0x18CCA20
     bool Invoke(System::Reflection::MemberInfo* m, ::Il2CppObject* filterCriteria);
     // public System.IAsyncResult BeginInvoke(System.Reflection.MemberInfo m, System.Object filterCriteria, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1370114
+    // Offset: 0x18CCE30
     System::IAsyncResult* BeginInvoke(System::Reflection::MemberInfo* m, ::Il2CppObject* filterCriteria, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1370144
+    // Offset: 0x18CCE60
     bool EndInvoke(System::IAsyncResult* result);
   }; // System.Reflection.MemberFilter
 }

@@ -48,19 +48,19 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // protected GameScenesManager get_gameScenesManager()
-    // Offset: 0xB88110
+    // Offset: 0xFAF378
     GlobalNamespace::GameScenesManager* get_gameScenesManager();
     // private System.Collections.IEnumerator StartCoroutine()
-    // Offset: 0xB88244
+    // Offset: 0xFAF4AC
     System::Collections::IEnumerator* StartCoroutine();
     // protected System.Void OnDestroy()
-    // Offset: 0xB882EC
+    // Offset: 0xFAF554
     void OnDestroy();
     // private System.Void HandleBeforeDismissingScenes()
-    // Offset: 0xB883C0
+    // Offset: 0xFAF628
     void HandleBeforeDismissingScenes();
     // protected AppInit/AppStartType GetAppStartType()
-    // Offset: 0xB881EC
+    // Offset: 0xFAF454
     GlobalNamespace::AppInit::AppStartType GetAppStartType();
     // protected System.Void AppStartAndMultiSceneEditorSetup()
     // Offset: 0xFFFFFFFF
@@ -72,12 +72,12 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void TransitionToNextScene();
     // public override System.Void Start()
-    // Offset: 0xB88118
+    // Offset: 0xFAF380
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::Start()
     void Start();
     // protected System.Void .ctor()
-    // Offset: 0xB88460
+    // Offset: 0xFAF6C8
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

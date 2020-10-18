@@ -43,7 +43,7 @@ namespace System::Threading {
     // Set static field: static public System.Threading.ThreadPoolWorkQueue workQueue
     static void _set_workQueue(System::Threading::ThreadPoolWorkQueue* value);
     // static private System.Void .cctor()
-    // Offset: 0xCEB7FC
+    // Offset: 0x16E89B4
     static void _cctor();
   }; // System.Threading.ThreadPoolGlobals
 }

@@ -15,12 +15,17 @@
 namespace GlobalNamespace {
   // Forward declaring type: StringSignal
   class StringSignal;
-  // Forward declaring type: VRTextEntryController
-  class VRTextEntryController;
   // Forward declaring type: GuestNameButtonsListItemsList
   class GuestNameButtonsListItemsList;
   // Forward declaring type: PlayerDataModel
   class PlayerDataModel;
+}
+// Forward declaring namespace: HMUI
+namespace HMUI {
+  // Forward declaring type: UIKeyboard
+  class UIKeyboard;
+  // Forward declaring type: InputFieldView
+  class InputFieldView;
 }
 // Completed forward declares
 // Type namespace: 
@@ -30,31 +35,34 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate
     class FinishDelegate;
-    // Nested type: GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass9_0
-    class $$c__DisplayClass9_0;
-    // Nested type: GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass9_1
-    class $$c__DisplayClass9_1;
+    // Nested type: GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0
+    class $$c__DisplayClass10_0;
+    // Nested type: GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_1
+    class $$c__DisplayClass10_1;
     // private StringSignal _playerNameWasEnteredSignal
-    // Offset: 0x68
-    GlobalNamespace::StringSignal* playerNameWasEnteredSignal;
-    // private VRTextEntryController _textEntryController
     // Offset: 0x70
-    GlobalNamespace::VRTextEntryController* textEntryController;
-    // private GuestNameButtonsListItemsList _guestNameButtonsListItemsList
+    GlobalNamespace::StringSignal* playerNameWasEnteredSignal;
+    // private HMUI.UIKeyboard _uiKeyboard
     // Offset: 0x78
-    GlobalNamespace::GuestNameButtonsListItemsList* guestNameButtonsListItemsList;
-    // private PlayerDataModel _playerDataModel
+    HMUI::UIKeyboard* uiKeyboard;
+    // private HMUI.InputFieldView _nameInputFieldView
     // Offset: 0x80
+    HMUI::InputFieldView* nameInputFieldView;
+    // private GuestNameButtonsListItemsList _guestNameButtonsListItemsList
+    // Offset: 0x88
+    GlobalNamespace::GuestNameButtonsListItemsList* guestNameButtonsListItemsList;
+    // private readonly PlayerDataModel _playerDataModel
+    // Offset: 0x90
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // private EnterPlayerGuestNameViewController/FinishDelegate _didFinishCallback
-    // Offset: 0x88
+    // Offset: 0x98
     GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate* didFinishCallback;
-    // static field const value: static private System.Int32 kMaxPlayerNameCompoundLenght
-    static constexpr const int kMaxPlayerNameCompoundLenght = 40;
-    // Get static field: static private System.Int32 kMaxPlayerNameCompoundLenght
-    static int _get_kMaxPlayerNameCompoundLenght();
-    // Set static field: static private System.Int32 kMaxPlayerNameCompoundLenght
-    static void _set_kMaxPlayerNameCompoundLenght(int value);
+    // static field const value: static private System.Int32 kMaxPlayerNameCompoundLength
+    static constexpr const int kMaxPlayerNameCompoundLength = 40;
+    // Get static field: static private System.Int32 kMaxPlayerNameCompoundLength
+    static int _get_kMaxPlayerNameCompoundLength();
+    // Set static field: static private System.Int32 kMaxPlayerNameCompoundLength
+    static void _set_kMaxPlayerNameCompoundLength(int value);
     // static field const value: static private System.Int32 kMaxShowPlayer
     static constexpr const int kMaxShowPlayer = 5;
     // Get static field: static private System.Int32 kMaxShowPlayer
@@ -62,23 +70,23 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kMaxShowPlayer
     static void _set_kMaxShowPlayer(int value);
     // public System.Void Init(EnterPlayerGuestNameViewController/FinishDelegate didFinishCallback)
-    // Offset: 0xBE9A5C
+    // Offset: 0xF65120
     void Init(GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate* didFinishCallback);
     // private System.Void OkButtonPressed()
-    // Offset: 0xBE9D94
+    // Offset: 0xF65460
     void OkButtonPressed();
-    // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xBE9A64
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0xF65128
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
-    // protected override System.Void DidDeactivate(HMUI.ViewController/DeactivationType deactivationType)
-    // Offset: 0xBE9CE0
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    // Offset: 0xF65398
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidDeactivate(HMUI.ViewController/DeactivationType deactivationType)
-    void DidDeactivate(HMUI::ViewController::DeactivationType deactivationType);
+    // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0xBEA258
+    // Offset: 0xF6594C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

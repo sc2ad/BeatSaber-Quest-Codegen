@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
+// Including type: UnityEngine.Vector2
+#include "UnityEngine/Vector2.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI
@@ -30,6 +32,11 @@ namespace GlobalNamespace {
 namespace System::Text {
   // Forward declaring type: StringBuilder
   class StringBuilder;
+}
+// Forward declaring namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: RectTransform
+  class RectTransform;
 }
 // Completed forward declares
 // Type namespace: 
@@ -67,16 +74,22 @@ namespace GlobalNamespace {
     // private System.Text.StringBuilder _stringBuilder
     // Offset: 0x58
     System::Text::StringBuilder* stringBuilder;
+    // private UnityEngine.RectTransform _progressImageRectTransform
+    // Offset: 0x60
+    UnityEngine::RectTransform* progressImageRectTransform;
+    // private UnityEngine.Vector2 _progressImageStartSize
+    // Offset: 0x68
+    UnityEngine::Vector2 progressImageStartSize;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xB9CD5C
+    // Offset: 0xEF35F4
     void Start();
     // protected System.Void Update()
-    // Offset: 0xB9CE6C
+    // Offset: 0xEF3750
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xB9D030
+    // Offset: 0xEF3934
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

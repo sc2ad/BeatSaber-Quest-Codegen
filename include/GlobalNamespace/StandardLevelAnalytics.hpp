@@ -13,8 +13,6 @@
 namespace GlobalNamespace {
   // Forward declaring type: StandardLevelScenesTransitionSetupDataSO
   class StandardLevelScenesTransitionSetupDataSO;
-  // Forward declaring type: IDifficultyBeatmap
-  class IDifficultyBeatmap;
   // Forward declaring type: IAnalyticsModel
   class IAnalyticsModel;
   // Forward declaring type: LevelCompletionResults
@@ -29,25 +27,22 @@ namespace GlobalNamespace {
     // private StandardLevelScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
     // Offset: 0x18
     GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData;
-    // private IDifficultyBeatmap _difficultyBeatmap
+    // private readonly IAnalyticsModel _analyticsModel
     // Offset: 0x20
-    GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
-    // private IAnalyticsModel _analyticsModel
-    // Offset: 0x28
     GlobalNamespace::IAnalyticsModel* analyticsModel;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xB9D8A4
+    // Offset: 0xEF5F84
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xB9D9D8
+    // Offset: 0xEF6018
     void OnDestroy();
     // private System.Void HandleStandardLevelDidFinishEvent(StandardLevelScenesTransitionSetupDataSO standardLevelScenesTransitionSetupData, LevelCompletionResults levelCompletionResults)
-    // Offset: 0xB9DB0C
+    // Offset: 0xEF60AC
     void HandleStandardLevelDidFinishEvent(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData, GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0xB9DDA8
+    // Offset: 0xEF64CC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

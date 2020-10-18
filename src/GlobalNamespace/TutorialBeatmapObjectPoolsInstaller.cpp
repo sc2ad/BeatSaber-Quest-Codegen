@@ -4,14 +4,16 @@
 // Begin includes
 // Including type: TutorialBeatmapObjectPoolsInstaller
 #include "GlobalNamespace/TutorialBeatmapObjectPoolsInstaller.hpp"
-// Including type: NoteController
-#include "GlobalNamespace/NoteController.hpp"
+// Including type: TutorialNoteController
+#include "GlobalNamespace/TutorialNoteController.hpp"
 // Including type: BombNoteController
 #include "GlobalNamespace/BombNoteController.hpp"
 // Including type: ObstacleController
 #include "GlobalNamespace/ObstacleController.hpp"
 // Including type: NoteLineConnectionController
 #include "GlobalNamespace/NoteLineConnectionController.hpp"
+// Including type: NoteRibbonController
+#include "GlobalNamespace/NoteRibbonController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

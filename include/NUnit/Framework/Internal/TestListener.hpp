@@ -25,25 +25,25 @@ namespace NUnit::Framework::Internal {
   class TestListener : public ::Il2CppObject, public NUnit::Framework::Interfaces::ITestListener {
     public:
     // static public NUnit.Framework.Interfaces.ITestListener get_NULL()
-    // Offset: 0x18F40B0
+    // Offset: 0x21783D0
     static NUnit::Framework::Interfaces::ITestListener* get_NULL();
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x18F5098
+    // Offset: 0x21793B8
     // Implemented from: NUnit.Framework.Interfaces.ITestListener
     // Base method: System.Void ITestListener::TestStarted(NUnit.Framework.Interfaces.ITest test)
     void TestStarted(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x18F509C
+    // Offset: 0x21793BC
     // Implemented from: NUnit.Framework.Interfaces.ITestListener
     // Base method: System.Void ITestListener::TestFinished(NUnit.Framework.Interfaces.ITestResult result)
     void TestFinished(NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Void TestOutput(NUnit.Framework.Interfaces.TestOutput output)
-    // Offset: 0x18F50A0
+    // Offset: 0x21793C0
     // Implemented from: NUnit.Framework.Interfaces.ITestListener
     // Base method: System.Void ITestListener::TestOutput(NUnit.Framework.Interfaces.TestOutput output)
     void TestOutput(NUnit::Framework::Interfaces::TestOutput* output);
     // private System.Void .ctor()
-    // Offset: 0x18F50A4
+    // Offset: 0x21793C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TestListener* New_ctor();

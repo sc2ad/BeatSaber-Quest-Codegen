@@ -4,6 +4,8 @@
 // Begin includes
 // Including type: NoteCutHapticEffect
 #include "GlobalNamespace/NoteCutHapticEffect.hpp"
+// Including type: Libraries.HM.HMLib.VR.HapticPresetSO
+#include "Libraries/HM/HMLib/VR/HapticPresetSO.hpp"
 // Including type: HapticFeedbackController
 #include "GlobalNamespace/HapticFeedbackController.hpp"
 // Including type: SaberType

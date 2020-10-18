@@ -30,15 +30,15 @@ namespace System::Runtime::Remoting {
     // Offset: 0x20
     ::Array<::Il2CppString*>* interfacesImplemented;
     // public System.Void .ctor(System.Type type)
-    // Offset: 0xE15CD8
+    // Offset: 0x14FB23C
     static TypeInfo* New_ctor(System::Type* type);
     // public System.String get_TypeName()
-    // Offset: 0xE218E8
+    // Offset: 0x1506810
     // Implemented from: System.Runtime.Remoting.IRemotingTypeInfo
     // Base method: System.String IRemotingTypeInfo::get_TypeName()
     ::Il2CppString* get_TypeName();
     // public System.Boolean CanCastTo(System.Type fromType, System.Object o)
-    // Offset: 0xE218F0
+    // Offset: 0x1506818
     // Implemented from: System.Runtime.Remoting.IRemotingTypeInfo
     // Base method: System.Boolean IRemotingTypeInfo::CanCastTo(System.Type fromType, System.Object o)
     bool CanCastTo(System::Type* fromType, ::Il2CppObject* o);

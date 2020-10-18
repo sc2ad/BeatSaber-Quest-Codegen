@@ -27,19 +27,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x18
     ::Il2CppString* assemblyString;
     // System.Void Set(System.Int32 assemId, System.String assemblyString)
-    // Offset: 0xE25994
+    // Offset: 0x150A8BC
     void Set(int assemId, ::Il2CppString* assemblyString);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0xE259A4
+    // Offset: 0x150A8CC
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0xE259F8
+    // Offset: 0x150A920
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0xE25A48
+    // Offset: 0x150A970
     void Dump();
     // System.Void .ctor()
-    // Offset: 0xE2598C
+    // Offset: 0x150A8B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BinaryAssembly* New_ctor();

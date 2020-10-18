@@ -14,9 +14,9 @@ namespace GlobalNamespace {
   class StringSignal : public GlobalNamespace::GenericSignal_1<::Il2CppString*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xCBDE98
+    // Offset: 0x21ECBCC
     // Implemented from: GenericSignal`1
-    // Base method: System.Void GenericSignal`1::.ctor()
+    // Base method: System.Void GenericSignal_1::.ctor()
     // Base method: System.Void Signal::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

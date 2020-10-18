@@ -88,91 +88,100 @@ namespace UnityEngine {
     // Set static field: static private readonly UnityEngine.Matrix4x4 identityMatrix
     static void _set_identityMatrix(UnityEngine::Matrix4x4 value);
     // private UnityEngine.Vector3 GetLossyScale()
-    // Offset: 0xA48860
+    // Offset: 0xDC60CC
     UnityEngine::Vector3 GetLossyScale();
     // public UnityEngine.Vector3 get_lossyScale()
-    // Offset: 0xA48868
+    // Offset: 0xDC60D4
     UnityEngine::Vector3 get_lossyScale();
     // static public UnityEngine.Matrix4x4 TRS(UnityEngine.Vector3 pos, UnityEngine.Quaternion q, UnityEngine.Vector3 s)
-    // Offset: 0x1411D44
+    // Offset: 0x1B943E0
     static UnityEngine::Matrix4x4 TRS(UnityEngine::Vector3 pos, UnityEngine::Quaternion q, UnityEngine::Vector3 s);
+    // static public UnityEngine.Matrix4x4 Inverse(UnityEngine.Matrix4x4 m)
+    // Offset: 0x1B94520
+    static UnityEngine::Matrix4x4 Inverse(UnityEngine::Matrix4x4 m);
+    // public UnityEngine.Matrix4x4 get_inverse()
+    // Offset: 0xDC60DC
+    UnityEngine::Matrix4x4 get_inverse();
     // static public UnityEngine.Matrix4x4 Ortho(System.Single left, System.Single right, System.Single bottom, System.Single top, System.Single zNear, System.Single zFar)
-    // Offset: 0x1411E84
+    // Offset: 0x1B946E8
     static UnityEngine::Matrix4x4 Ortho(float left, float right, float bottom, float top, float zNear, float zFar);
     // public System.Void .ctor(UnityEngine.Vector4 column0, UnityEngine.Vector4 column1, UnityEngine.Vector4 column2, UnityEngine.Vector4 column3)
-    // Offset: 0xA48870
+    // Offset: 0xDC60E4
     Matrix4x4(UnityEngine::Vector4 column0, UnityEngine::Vector4 column1, UnityEngine::Vector4 column2, UnityEngine::Vector4 column3);
     // public System.Single get_Item(System.Int32 row, System.Int32 column)
-    // Offset: 0xA48880
+    // Offset: 0xDC60F4
     float get_Item(int row, int column);
     // public System.Void set_Item(System.Int32 row, System.Int32 column, System.Single value)
-    // Offset: 0xA4888C
+    // Offset: 0xDC6100
     void set_Item(int row, int column, float value);
     // public System.Single get_Item(System.Int32 index)
-    // Offset: 0xA48898
+    // Offset: 0xDC610C
     float get_Item(int index);
     // public System.Void set_Item(System.Int32 index, System.Single value)
-    // Offset: 0xA488A0
+    // Offset: 0xDC6114
     void set_Item(int index, float value);
     // public UnityEngine.Vector4 GetColumn(System.Int32 index)
-    // Offset: 0xA488F0
+    // Offset: 0xDC6164
     UnityEngine::Vector4 GetColumn(int index);
     // public System.Void SetColumn(System.Int32 index, UnityEngine.Vector4 column)
-    // Offset: 0xA488F8
+    // Offset: 0xDC616C
     void SetColumn(int index, UnityEngine::Vector4 column);
     // public UnityEngine.Vector3 MultiplyPoint(UnityEngine.Vector3 point)
-    // Offset: 0xA48900
+    // Offset: 0xDC6174
     UnityEngine::Vector3 MultiplyPoint(UnityEngine::Vector3 point);
     // public UnityEngine.Vector3 MultiplyPoint3x4(UnityEngine.Vector3 point)
-    // Offset: 0xA48908
+    // Offset: 0xDC617C
     UnityEngine::Vector3 MultiplyPoint3x4(UnityEngine::Vector3 point);
     // public UnityEngine.Vector3 MultiplyVector(UnityEngine.Vector3 vector)
-    // Offset: 0xA48910
+    // Offset: 0xDC6184
     UnityEngine::Vector3 MultiplyVector(UnityEngine::Vector3 vector);
     // static public UnityEngine.Matrix4x4 Rotate(UnityEngine.Quaternion q)
-    // Offset: 0x1412840
+    // Offset: 0x1B950A4
     static UnityEngine::Matrix4x4 Rotate(UnityEngine::Quaternion q);
     // static public UnityEngine.Matrix4x4 get_identity()
-    // Offset: 0x14128D8
+    // Offset: 0x1B9513C
     static UnityEngine::Matrix4x4 get_identity();
     // static private System.Void .cctor()
-    // Offset: 0x1412EB4
+    // Offset: 0x1B95718
     static void _cctor();
     // static private System.Void GetLossyScale_Injected(ref UnityEngine.Matrix4x4 _unity_self, out UnityEngine.Vector3 ret)
-    // Offset: 0x1411CF0
+    // Offset: 0x1B9438C
     static void GetLossyScale_Injected(UnityEngine::Matrix4x4& _unity_self, UnityEngine::Vector3& ret);
     // static private System.Void TRS_Injected(ref UnityEngine.Vector3 pos, ref UnityEngine.Quaternion q, ref UnityEngine.Vector3 s, out UnityEngine.Matrix4x4 ret)
-    // Offset: 0x1411E1C
+    // Offset: 0x1B944B8
     static void TRS_Injected(UnityEngine::Vector3& pos, UnityEngine::Quaternion& q, UnityEngine::Vector3& s, UnityEngine::Matrix4x4& ret);
+    // static private System.Void Inverse_Injected(ref UnityEngine.Matrix4x4 m, out UnityEngine.Matrix4x4 ret)
+    // Offset: 0x1B945DC
+    static void Inverse_Injected(UnityEngine::Matrix4x4& m, UnityEngine::Matrix4x4& ret);
     // static private System.Void Ortho_Injected(System.Single left, System.Single right, System.Single bottom, System.Single top, System.Single zNear, System.Single zFar, out UnityEngine.Matrix4x4 ret)
-    // Offset: 0x1411F78
+    // Offset: 0x1B947DC
     static void Ortho_Injected(float left, float right, float bottom, float top, float zNear, float zFar, UnityEngine::Matrix4x4& ret);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA488A8
+    // Offset: 0xDC611C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0xA488B0
+    // Offset: 0xDC6124
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
     // public System.Boolean Equals(UnityEngine.Matrix4x4 other)
-    // Offset: 0xA488B8
+    // Offset: 0xDC612C
     // Implemented from: System.IEquatable`1
-    // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Matrix4x4 other)
+    // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Matrix4x4 other)
     bool Equals(UnityEngine::Matrix4x4 other);
     // public override System.String ToString()
-    // Offset: 0xA48918
+    // Offset: 0xDC618C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.Matrix4x4
   // static public UnityEngine.Matrix4x4 op_Multiply(UnityEngine.Matrix4x4 lhs, UnityEngine.Matrix4x4 rhs)
-  // Offset: 0x14125C4
+  // Offset: 0x1B94E28
   UnityEngine::Matrix4x4 operator*(const UnityEngine::Matrix4x4& lhs, const UnityEngine::Matrix4x4& rhs);
   // static public UnityEngine.Vector4 op_Multiply(UnityEngine.Matrix4x4 lhs, UnityEngine.Vector4 vector)
-  // Offset: 0x1412670
+  // Offset: 0x1B94ED4
   UnityEngine::Vector4 operator*(const UnityEngine::Matrix4x4& lhs, const UnityEngine::Vector4& vector);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

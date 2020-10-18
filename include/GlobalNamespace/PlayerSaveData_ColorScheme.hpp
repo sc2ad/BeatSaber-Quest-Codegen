@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Offset: 0x58
     UnityEngine::Color obstaclesColor;
     // public System.Void .ctor(System.String colorSchemeId, UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color environmentColor0, UnityEngine.Color environmentColor1, UnityEngine.Color obstaclesColor)
-    // Offset: 0xBDC5C4
+    // Offset: 0xFDEBD8
     static PlayerSaveData::ColorScheme* New_ctor(::Il2CppString* colorSchemeId, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, UnityEngine::Color obstaclesColor);
   }; // PlayerSaveData/ColorScheme
 }

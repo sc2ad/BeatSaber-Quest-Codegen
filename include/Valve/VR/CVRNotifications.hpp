@@ -39,13 +39,13 @@ namespace Valve::VR {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0xFE5BF4
+    // Offset: 0x1533B90
     static CVRNotifications* New_ctor(System::IntPtr pInterface);
     // public Valve.VR.EVRNotificationError CreateNotification(System.UInt64 ulOverlayHandle, System.UInt64 ulUserValue, Valve.VR.EVRNotificationType type, System.String pchText, Valve.VR.EVRNotificationStyle style, ref Valve.VR.NotificationBitmap_t pImage, ref System.UInt32 pNotificationId)
-    // Offset: 0xFE5CFC
+    // Offset: 0x1533C98
     Valve::VR::EVRNotificationError CreateNotification(uint64_t ulOverlayHandle, uint64_t ulUserValue, Valve::VR::EVRNotificationType type, ::Il2CppString* pchText, Valve::VR::EVRNotificationStyle style, Valve::VR::NotificationBitmap_t& pImage, uint& pNotificationId);
     // public Valve.VR.EVRNotificationError RemoveNotification(System.UInt32 notificationId)
-    // Offset: 0xFE5D20
+    // Offset: 0x1533CBC
     Valve::VR::EVRNotificationError RemoveNotification(uint notificationId);
   }; // Valve.VR.CVRNotifications
 }

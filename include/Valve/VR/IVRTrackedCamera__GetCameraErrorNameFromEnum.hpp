@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRTrackedCamera::_GetCameraErrorNameFromEnum : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16DCF54
+    // Offset: 0x1F61CFC
     static IVRTrackedCamera::_GetCameraErrorNameFromEnum* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.IntPtr Invoke(Valve.VR.EVRTrackedCameraError eCameraError)
-    // Offset: 0x16DCF68
+    // Offset: 0x1F61D10
     System::IntPtr Invoke(Valve::VR::EVRTrackedCameraError eCameraError);
     // public System.IAsyncResult BeginInvoke(Valve.VR.EVRTrackedCameraError eCameraError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16DD1DC
+    // Offset: 0x1F61F84
     System::IAsyncResult* BeginInvoke(Valve::VR::EVRTrackedCameraError eCameraError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.IntPtr EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16DD268
+    // Offset: 0x1F62010
     System::IntPtr EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRTrackedCamera/_GetCameraErrorNameFromEnum
 }

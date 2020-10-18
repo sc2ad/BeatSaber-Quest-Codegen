@@ -27,10 +27,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0x18
     UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_0* CS$$$8__locals1;
     // System.Boolean <BevelEdges>b__5(UnityEngine.ProBuilder.WingedEdge x)
-    // Offset: 0xF08588
+    // Offset: 0x13EABAC
     bool $BevelEdges$b__5(UnityEngine::ProBuilder::WingedEdge* x);
     // public System.Void .ctor()
-    // Offset: 0xF08114
+    // Offset: 0x13EA738
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Bevel::$$c__DisplayClass0_2* New_ctor();

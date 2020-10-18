@@ -116,35 +116,35 @@ namespace UnityEngine::UI {
     // Set static field: static private readonly System.Collections.Generic.List`1<UnityEngine.UI.Graphic> s_SortedGraphics
     static void _set_s_SortedGraphics(System::Collections::Generic::List_1<UnityEngine::UI::Graphic*>* value);
     // public System.Boolean get_ignoreReversedGraphics()
-    // Offset: 0x116D568
+    // Offset: 0x17534A4
     bool get_ignoreReversedGraphics();
     // public System.Void set_ignoreReversedGraphics(System.Boolean value)
-    // Offset: 0x116D570
+    // Offset: 0x17534AC
     void set_ignoreReversedGraphics(bool value);
     // public UnityEngine.UI.GraphicRaycaster/BlockingObjects get_blockingObjects()
-    // Offset: 0x116D57C
+    // Offset: 0x17534B8
     UnityEngine::UI::GraphicRaycaster::BlockingObjects get_blockingObjects();
     // public System.Void set_blockingObjects(UnityEngine.UI.GraphicRaycaster/BlockingObjects value)
-    // Offset: 0x116D584
+    // Offset: 0x17534C0
     void set_blockingObjects(UnityEngine::UI::GraphicRaycaster::BlockingObjects value);
     // private UnityEngine.Canvas get_canvas()
-    // Offset: 0x116D458
+    // Offset: 0x1753394
     UnityEngine::Canvas* get_canvas();
     // static private System.Void Raycast(UnityEngine.Canvas canvas, UnityEngine.Camera eventCamera, UnityEngine.Vector2 pointerPosition, System.Collections.Generic.IList`1<UnityEngine.UI.Graphic> foundGraphics, System.Collections.Generic.List`1<UnityEngine.UI.Graphic> results)
-    // Offset: 0x116E5C4
+    // Offset: 0x1754500
     static void Raycast(UnityEngine::Canvas* canvas, UnityEngine::Camera* eventCamera, UnityEngine::Vector2 pointerPosition, System::Collections::Generic::IList_1<UnityEngine::UI::Graphic*>* foundGraphics, System::Collections::Generic::List_1<UnityEngine::UI::Graphic*>* results);
     // public override System.Int32 get_sortOrderPriority()
-    // Offset: 0x116D400
+    // Offset: 0x175333C
     // Implemented from: UnityEngine.EventSystems.BaseRaycaster
     // Base method: System.Int32 BaseRaycaster::get_sortOrderPriority()
     int get_sortOrderPriority();
     // public override System.Int32 get_renderOrderPriority()
-    // Offset: 0x116D504
+    // Offset: 0x1753440
     // Implemented from: UnityEngine.EventSystems.BaseRaycaster
     // Base method: System.Int32 BaseRaycaster::get_renderOrderPriority()
     int get_renderOrderPriority();
     // protected System.Void .ctor()
-    // Offset: 0x116D58C
+    // Offset: 0x17534C8
     // Implemented from: UnityEngine.EventSystems.BaseRaycaster
     // Base method: System.Void BaseRaycaster::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -155,17 +155,17 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static GraphicRaycaster* New_ctor();
     // public override System.Void Raycast(UnityEngine.EventSystems.PointerEventData eventData, System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> resultAppendList)
-    // Offset: 0x116D620
+    // Offset: 0x175355C
     // Implemented from: UnityEngine.EventSystems.BaseRaycaster
     // Base method: System.Void BaseRaycaster::Raycast(UnityEngine.EventSystems.PointerEventData eventData, System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> resultAppendList)
     void Raycast(UnityEngine::EventSystems::PointerEventData* eventData, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>* resultAppendList);
     // public override UnityEngine.Camera get_eventCamera()
-    // Offset: 0x116EA74
+    // Offset: 0x17549B0
     // Implemented from: UnityEngine.EventSystems.BaseRaycaster
     // Base method: UnityEngine.Camera BaseRaycaster::get_eventCamera()
     UnityEngine::Camera* get_eventCamera();
     // static private System.Void .cctor()
-    // Offset: 0x116EBBC
+    // Offset: 0x1754AF8
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

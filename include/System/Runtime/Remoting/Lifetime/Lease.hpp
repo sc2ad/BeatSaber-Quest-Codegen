@@ -64,43 +64,43 @@ namespace System::Runtime::Remoting::Lifetime {
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // public System.Void Activate()
-    // Offset: 0x1061B54
+    // Offset: 0x12A3690
     void Activate();
     // public System.Void Unregister(System.Runtime.Remoting.Lifetime.ISponsor obj)
-    // Offset: 0x1061C04
+    // Offset: 0x12A3740
     void Unregister(System::Runtime::Remoting::Lifetime::ISponsor* obj);
     // System.Void UpdateState()
-    // Offset: 0x1061D44
+    // Offset: 0x12A3880
     void UpdateState();
     // private System.Void CheckNextSponsor()
-    // Offset: 0x1061EAC
+    // Offset: 0x12A39E8
     void CheckNextSponsor();
     // private System.Void ProcessSponsorResponse(System.Object state, System.Boolean timedOut)
-    // Offset: 0x1062150
+    // Offset: 0x12A3C90
     void ProcessSponsorResponse(::Il2CppObject* state, bool timedOut);
     // public System.Void .ctor()
-    // Offset: 0x106193C
+    // Offset: 0x12A3478
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
     static Lease* New_ctor();
     // public System.TimeSpan get_CurrentLeaseTime()
-    // Offset: 0x1061AD4
+    // Offset: 0x12A3610
     // Implemented from: System.Runtime.Remoting.Lifetime.ILease
     // Base method: System.TimeSpan ILease::get_CurrentLeaseTime()
     System::TimeSpan get_CurrentLeaseTime();
     // public System.Runtime.Remoting.Lifetime.LeaseState get_CurrentState()
-    // Offset: 0x1061B4C
+    // Offset: 0x12A3688
     // Implemented from: System.Runtime.Remoting.Lifetime.ILease
     // Base method: System.Runtime.Remoting.Lifetime.LeaseState ILease::get_CurrentState()
     System::Runtime::Remoting::Lifetime::LeaseState get_CurrentState();
     // public System.TimeSpan get_RenewOnCallTime()
-    // Offset: 0x1061B60
+    // Offset: 0x12A369C
     // Implemented from: System.Runtime.Remoting.Lifetime.ILease
     // Base method: System.TimeSpan ILease::get_RenewOnCallTime()
     System::TimeSpan get_RenewOnCallTime();
     // public System.TimeSpan Renew(System.TimeSpan renewalTime)
-    // Offset: 0x1061B68
+    // Offset: 0x12A36A4
     // Implemented from: System.Runtime.Remoting.Lifetime.ILease
     // Base method: System.TimeSpan ILease::Renew(System.TimeSpan renewalTime)
     System::TimeSpan Renew(System::TimeSpan renewalTime);

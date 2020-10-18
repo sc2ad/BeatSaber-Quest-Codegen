@@ -18,8 +18,8 @@ namespace System {
 }
 // Forward declaring namespace: Zenject
 namespace Zenject {
-  // Forward declaring type: IMemoryPool`2<TValue, TParam1>
-  template<typename TValue, typename TParam1>
+  // Forward declaring type: IMemoryPool`2<TParam1, TValue>
+  template<typename TParam1, typename TValue>
   class IMemoryPool_2;
 }
 // Completed forward declares
@@ -45,7 +45,7 @@ namespace Zenject {
     // public TValue Create(TParam1 arg)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IFactory`2
-    // Base method: TValue IFactory`2::Create(TParam1 arg)
+    // Base method: TValue IFactory_2::Create(TParam1 arg)
     TValue Create(TParam1 arg) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<TValue>(this, "Create", arg));
     }

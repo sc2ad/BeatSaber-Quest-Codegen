@@ -13,6 +13,8 @@
 namespace UnityEngine {
   // Forward declaring type: RectTransform
   class RectTransform;
+  // Forward declaring type: AnimationClip
+  class AnimationClip;
 }
 // Completed forward declares
 // Type namespace: HMUI
@@ -23,34 +25,46 @@ namespace HMUI {
     // private UnityEngine.RectTransform _handle
     // Offset: 0x18
     UnityEngine::RectTransform* handle;
-    // private System.Single _progress
+    // private UnityEngine.AnimationClip _normalAnimationClip
     // Offset: 0x20
+    UnityEngine::AnimationClip* normalAnimationClip;
+    // private UnityEngine.AnimationClip _disabledAnimationClip
+    // Offset: 0x28
+    UnityEngine::AnimationClip* disabledAnimationClip;
+    // private System.Single _padding
+    // Offset: 0x30
+    float padding;
+    // private System.Single _progress
+    // Offset: 0x34
     float progress;
     // private System.Single _normalizedPageHeight
-    // Offset: 0x24
+    // Offset: 0x38
     float normalizedPageHeight;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_progress(System.Single value)
-    // Offset: 0x10E20B8
+    // Offset: 0x218B8C8
     void set_progress(float value);
     // public System.Single get_progress()
-    // Offset: 0x10EC2E4
+    // Offset: 0x218BA8C
     float get_progress();
     // public System.Void set_normalizedPageHeight(System.Single value)
-    // Offset: 0x10E1C7C
+    // Offset: 0x218BA94
     void set_normalizedPageHeight(float value);
     // public System.Single get_normalizedPageHeight()
-    // Offset: 0x10EC2EC
+    // Offset: 0x218BB30
     float get_normalizedPageHeight();
-    // protected System.Void Awake()
-    // Offset: 0x10EC2F4
-    void Awake();
+    // public System.Void set_disabled(System.Boolean value)
+    // Offset: 0x218BB38
+    void set_disabled(bool value);
+    // protected System.Void OnEnable()
+    // Offset: 0x218BB84
+    void OnEnable();
     // private System.Void RefreshHandle()
-    // Offset: 0x10EC1D0
+    // Offset: 0x218B964
     void RefreshHandle();
     // public System.Void .ctor()
-    // Offset: 0x10EC2F8
+    // Offset: 0x218BB88
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

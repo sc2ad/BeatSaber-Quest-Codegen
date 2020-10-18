@@ -11,12 +11,12 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: PrepareLevelCompletionResults
-  class PrepareLevelCompletionResults;
   // Forward declaring type: LevelFailedTextEffect
   class LevelFailedTextEffect;
   // Forward declaring type: StandardLevelScenesTransitionSetupDataSO
   class StandardLevelScenesTransitionSetupDataSO;
+  // Forward declaring type: PrepareLevelCompletionResults
+  class PrepareLevelCompletionResults;
   // Forward declaring type: ILevelEndActions
   class ILevelEndActions;
   // Forward declaring type: BeatmapObjectSpawnController
@@ -43,49 +43,49 @@ namespace GlobalNamespace {
     class InitData;
     // Nested type: GlobalNamespace::StandardLevelFailedController::$LevelFailedCoroutine$d__13
     class $LevelFailedCoroutine$d__13;
-    // private PrepareLevelCompletionResults _prepareLevelCompletionResults
-    // Offset: 0x18
-    GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults;
     // private LevelFailedTextEffect _levelFailedTextEffect
-    // Offset: 0x20
+    // Offset: 0x18
     GlobalNamespace::LevelFailedTextEffect* levelFailedTextEffect;
     // private StandardLevelScenesTransitionSetupDataSO _standardLevelSceneSetupData
-    // Offset: 0x28
+    // Offset: 0x20
     GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData;
-    // private StandardLevelFailedController/InitData _initData
+    // private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
+    // Offset: 0x28
+    GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults;
+    // private readonly StandardLevelFailedController/InitData _initData
     // Offset: 0x30
     GlobalNamespace::StandardLevelFailedController::InitData* initData;
-    // private ILevelEndActions _gameplayManager
+    // private readonly ILevelEndActions _gameplayManager
     // Offset: 0x38
     GlobalNamespace::ILevelEndActions* gameplayManager;
-    // private BeatmapObjectSpawnController _beatmapObjectSpawnController
+    // private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
     // Offset: 0x40
     GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController;
-    // private GameSongController _gameSongController
+    // private readonly GameSongController _gameSongController
     // Offset: 0x48
     GlobalNamespace::GameSongController* gameSongController;
-    // private EnvironmentSpawnRotation _environmentSpawnRotation
+    // private readonly EnvironmentSpawnRotation _environmentSpawnRotation
     // Offset: 0x50
     GlobalNamespace::EnvironmentSpawnRotation* environmentSpawnRotation;
-    // private BeatmapObjectManager _beatmapObjectManager
+    // private readonly BeatmapObjectManager _beatmapObjectManager
     // Offset: 0x58
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xBA39A4
+    // Offset: 0xF29A50
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xBA3A8C
+    // Offset: 0xF29B38
     void OnDestroy();
     // private System.Void HandleLevelFailed()
-    // Offset: 0xBA3B84
+    // Offset: 0xF29C30
     void HandleLevelFailed();
     // private System.Collections.IEnumerator LevelFailedCoroutine()
-    // Offset: 0xBA3BB0
+    // Offset: 0xF29C5C
     System::Collections::IEnumerator* LevelFailedCoroutine();
     // public System.Void .ctor()
-    // Offset: 0xBA3C58
+    // Offset: 0xF29D04
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

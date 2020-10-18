@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRCompositor::_GetTrackingSpace : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1517B60
+    // Offset: 0x1D5B468
     static IVRCompositor::_GetTrackingSpace* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.ETrackingUniverseOrigin Invoke()
-    // Offset: 0x1517B74
+    // Offset: 0x1D5B47C
     OVR::OpenVR::ETrackingUniverseOrigin Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1517D88
+    // Offset: 0x1D5B690
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.ETrackingUniverseOrigin EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1517DB4
+    // Offset: 0x1D5B6BC
     OVR::OpenVR::ETrackingUniverseOrigin EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_GetTrackingSpace
 }

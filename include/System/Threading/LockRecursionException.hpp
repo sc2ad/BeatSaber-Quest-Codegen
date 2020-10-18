@@ -23,18 +23,18 @@ namespace System::Threading {
   class LockRecursionException : public System::Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0x13DE91C
+    // Offset: 0x1A1C78C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static LockRecursionException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x13DE984
+    // Offset: 0x1A1C7F4
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     static LockRecursionException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x13DE9FC
+    // Offset: 0x1A1C86C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static LockRecursionException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);

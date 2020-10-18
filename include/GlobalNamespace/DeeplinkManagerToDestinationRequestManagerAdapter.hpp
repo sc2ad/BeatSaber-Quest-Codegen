@@ -47,33 +47,33 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::MenuDestination* currentMenuDestinationRequest;
     // public System.Void Init(IDeeplinkManager deeplinkManager)
-    // Offset: 0xBE6234
+    // Offset: 0xF5E764
     void Init(GlobalNamespace::IDeeplinkManager* deeplinkManager);
     // protected System.Void HandleDeeplinkManagerDidReceiveDeeplink(Deeplink deeplink)
-    // Offset: 0xBE640C
+    // Offset: 0xF5E93C
     void HandleDeeplinkManagerDidReceiveDeeplink(GlobalNamespace::Deeplink* deeplink);
     // public System.Void add_didSendMenuDestinationRequestEvent(System.Action`1<MenuDestination> value)
-    // Offset: 0xBE60E4
+    // Offset: 0xF5E614
     // Implemented from: IDestinationRequestManager
     // Base method: System.Void IDestinationRequestManager::add_didSendMenuDestinationRequestEvent(System.Action`1<MenuDestination> value)
     void add_didSendMenuDestinationRequestEvent(System::Action_1<GlobalNamespace::MenuDestination*>* value);
     // public System.Void remove_didSendMenuDestinationRequestEvent(System.Action`1<MenuDestination> value)
-    // Offset: 0xBE6188
+    // Offset: 0xF5E6B8
     // Implemented from: IDestinationRequestManager
     // Base method: System.Void IDestinationRequestManager::remove_didSendMenuDestinationRequestEvent(System.Action`1<MenuDestination> value)
     void remove_didSendMenuDestinationRequestEvent(System::Action_1<GlobalNamespace::MenuDestination*>* value);
     // public MenuDestination get_currentMenuDestinationRequest()
-    // Offset: 0xBE622C
+    // Offset: 0xF5E75C
     // Implemented from: IDestinationRequestManager
     // Base method: MenuDestination IDestinationRequestManager::get_currentMenuDestinationRequest()
     GlobalNamespace::MenuDestination* get_currentMenuDestinationRequest();
     // public System.Void Clear()
-    // Offset: 0xBE6978
+    // Offset: 0xF5ED18
     // Implemented from: IDestinationRequestManager
     // Base method: System.Void IDestinationRequestManager::Clear()
     void Clear();
     // public System.Void .ctor()
-    // Offset: 0xBE6984
+    // Offset: 0xF5ED24
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DeeplinkManagerToDestinationRequestManagerAdapter* New_ctor();

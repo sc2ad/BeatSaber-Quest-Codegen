@@ -22,8 +22,8 @@ namespace GlobalNamespace {
 namespace UnityEngine {
   // Forward declaring type: AudioClip
   class AudioClip;
-  // Forward declaring type: Texture2D
-  class Texture2D;
+  // Forward declaring type: Sprite
+  class Sprite;
 }
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
@@ -44,8 +44,8 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::PreviewBeatmapLevelSO::$GetPreviewAudioClipAsync$d__51
     struct $GetPreviewAudioClipAsync$d__51;
-    // Nested type: GlobalNamespace::PreviewBeatmapLevelSO::$GetCoverImageTexture2DAsync$d__52
-    struct $GetCoverImageTexture2DAsync$d__52;
+    // Nested type: GlobalNamespace::PreviewBeatmapLevelSO::$GetCoverImageAsync$d__52
+    struct $GetCoverImageAsync$d__52;
     // private System.String _levelID
     // Offset: 0x18
     ::Il2CppString* levelID;
@@ -85,9 +85,9 @@ namespace GlobalNamespace {
     // private System.Single _songDuration
     // Offset: 0x60
     float songDuration;
-    // private UnityEngine.Texture2D _coverImageTexture2D
+    // private UnityEngine.Sprite _coverImage
     // Offset: 0x68
-    UnityEngine::Texture2D* coverImageTexture2D;
+    UnityEngine::Sprite* coverImage;
     // private EnvironmentInfoSO _environmentInfo
     // Offset: 0x70
     GlobalNamespace::EnvironmentInfoSO* environmentInfo;
@@ -106,100 +106,100 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void InitData()
-    // Offset: 0xC1E58C
+    // Offset: 0xF715D0
     void InitData();
     // public System.String get_levelID()
-    // Offset: 0xC1E4C8
+    // Offset: 0xF7150C
     // Implemented from: IPreviewBeatmapLevel
     // Base method: System.String IPreviewBeatmapLevel::get_levelID()
     ::Il2CppString* get_levelID();
     // public System.String get_songName()
-    // Offset: 0xC1E4D0
+    // Offset: 0xF71514
     // Implemented from: IPreviewBeatmapLevel
     // Base method: System.String IPreviewBeatmapLevel::get_songName()
     ::Il2CppString* get_songName();
     // public System.String get_songSubName()
-    // Offset: 0xC1E4D8
+    // Offset: 0xF7151C
     // Implemented from: IPreviewBeatmapLevel
     // Base method: System.String IPreviewBeatmapLevel::get_songSubName()
     ::Il2CppString* get_songSubName();
     // public System.String get_songAuthorName()
-    // Offset: 0xC1E4E0
+    // Offset: 0xF71524
     // Implemented from: IPreviewBeatmapLevel
     // Base method: System.String IPreviewBeatmapLevel::get_songAuthorName()
     ::Il2CppString* get_songAuthorName();
     // public System.String get_levelAuthorName()
-    // Offset: 0xC1E4E8
+    // Offset: 0xF7152C
     // Implemented from: IPreviewBeatmapLevel
     // Base method: System.String IPreviewBeatmapLevel::get_levelAuthorName()
     ::Il2CppString* get_levelAuthorName();
     // public System.Single get_beatsPerMinute()
-    // Offset: 0xC1E4F0
+    // Offset: 0xF71534
     // Implemented from: IPreviewBeatmapLevel
     // Base method: System.Single IPreviewBeatmapLevel::get_beatsPerMinute()
     float get_beatsPerMinute();
     // public System.Single get_songTimeOffset()
-    // Offset: 0xC1E4F8
+    // Offset: 0xF7153C
     // Implemented from: IPreviewBeatmapLevel
     // Base method: System.Single IPreviewBeatmapLevel::get_songTimeOffset()
     float get_songTimeOffset();
     // public System.Single get_songDuration()
-    // Offset: 0xC1E500
+    // Offset: 0xF71544
     // Implemented from: IPreviewBeatmapLevel
     // Base method: System.Single IPreviewBeatmapLevel::get_songDuration()
     float get_songDuration();
     // public System.Single get_shuffle()
-    // Offset: 0xC1E508
+    // Offset: 0xF7154C
     // Implemented from: IPreviewBeatmapLevel
     // Base method: System.Single IPreviewBeatmapLevel::get_shuffle()
     float get_shuffle();
     // public System.Single get_shufflePeriod()
-    // Offset: 0xC1E510
+    // Offset: 0xF71554
     // Implemented from: IPreviewBeatmapLevel
     // Base method: System.Single IPreviewBeatmapLevel::get_shufflePeriod()
     float get_shufflePeriod();
     // public System.Single get_previewStartTime()
-    // Offset: 0xC1E518
+    // Offset: 0xF7155C
     // Implemented from: IPreviewBeatmapLevel
     // Base method: System.Single IPreviewBeatmapLevel::get_previewStartTime()
     float get_previewStartTime();
     // public System.Single get_previewDuration()
-    // Offset: 0xC1E520
+    // Offset: 0xF71564
     // Implemented from: IPreviewBeatmapLevel
     // Base method: System.Single IPreviewBeatmapLevel::get_previewDuration()
     float get_previewDuration();
     // public EnvironmentInfoSO get_environmentInfo()
-    // Offset: 0xC1E528
+    // Offset: 0xF7156C
     // Implemented from: IPreviewBeatmapLevel
     // Base method: EnvironmentInfoSO IPreviewBeatmapLevel::get_environmentInfo()
     GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
     // public EnvironmentInfoSO get_allDirectionsEnvironmentInfo()
-    // Offset: 0xC1E530
+    // Offset: 0xF71574
     // Implemented from: IPreviewBeatmapLevel
     // Base method: EnvironmentInfoSO IPreviewBeatmapLevel::get_allDirectionsEnvironmentInfo()
     GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
     // public PreviewDifficultyBeatmapSet[] get_previewDifficultyBeatmapSets()
-    // Offset: 0xC1E538
+    // Offset: 0xF7157C
     // Implemented from: IPreviewBeatmapLevel
     // Base method: PreviewDifficultyBeatmapSet[] IPreviewBeatmapLevel::get_previewDifficultyBeatmapSets()
     ::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* get_previewDifficultyBeatmapSets();
     // protected override System.Void OnEnable()
-    // Offset: 0xC1E554
+    // Offset: 0xF71598
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> GetPreviewAudioClipAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xC1E6D0
+    // Offset: 0xF71714
     // Implemented from: IPreviewBeatmapLevel
     // Base method: System.Threading.Tasks.Task`1<UnityEngine.AudioClip> IPreviewBeatmapLevel::GetPreviewAudioClipAsync(System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* GetPreviewAudioClipAsync(System::Threading::CancellationToken cancellationToken);
-    // public System.Threading.Tasks.Task`1<UnityEngine.Texture2D> GetCoverImageTexture2DAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xC1E81C
+    // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> GetCoverImageAsync(System.Threading.CancellationToken cancellationToken)
+    // Offset: 0xF71860
     // Implemented from: IPreviewBeatmapLevel
-    // Base method: System.Threading.Tasks.Task`1<UnityEngine.Texture2D> IPreviewBeatmapLevel::GetCoverImageTexture2DAsync(System.Threading.CancellationToken cancellationToken)
-    System::Threading::Tasks::Task_1<UnityEngine::Texture2D*>* GetCoverImageTexture2DAsync(System::Threading::CancellationToken cancellationToken);
+    // Base method: System.Threading.Tasks.Task`1<UnityEngine.Sprite> IPreviewBeatmapLevel::GetCoverImageAsync(System.Threading.CancellationToken cancellationToken)
+    System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* GetCoverImageAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0xC1E968
+    // Offset: 0xF719AC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

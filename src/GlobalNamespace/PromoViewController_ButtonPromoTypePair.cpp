@@ -12,8 +12,6 @@
 #include "GlobalNamespace/BeatmapLevelPackSO.hpp"
 // Including type: BeatmapLevelSO
 #include "GlobalNamespace/BeatmapLevelSO.hpp"
-// Including type: FilteredByBeatmapCharacteristicPlaylistSO
-#include "GlobalNamespace/FilteredByBeatmapCharacteristicPlaylistSO.hpp"
 // Including type: IAnnotatedBeatmapLevelCollection
 #include "GlobalNamespace/IAnnotatedBeatmapLevelCollection.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

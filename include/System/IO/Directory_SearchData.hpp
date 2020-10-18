@@ -25,7 +25,7 @@ namespace System::IO {
     // Offset: 0x20
     System::IO::SearchOption searchOption;
     // public System.Void .ctor(System.String fullPath, System.String userPath, System.IO.SearchOption searchOption)
-    // Offset: 0x1131F5C
+    // Offset: 0x1691940
     static Directory::SearchData* New_ctor(::Il2CppString* fullPath, ::Il2CppString* userPath, System::IO::SearchOption searchOption);
   }; // System.IO.Directory/SearchData
 }

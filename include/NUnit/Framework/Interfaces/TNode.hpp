@@ -58,76 +58,76 @@ namespace NUnit::Framework::Interfaces {
     // Set static field: static private System.Text.RegularExpressions.MatchEvaluator CS$<>9__CachedAnonymousMethodDelegate1
     static void _set_CS$$$9__CachedAnonymousMethodDelegate1(System::Text::RegularExpressions::MatchEvaluator* value);
     // public System.Void .ctor(System.String name)
-    // Offset: 0x1081108
+    // Offset: 0x15EB180
     static TNode* New_ctor(::Il2CppString* name);
     // public System.Void .ctor(System.String name, System.String value)
-    // Offset: 0x10811BC
+    // Offset: 0x15EB234
     static TNode* New_ctor(::Il2CppString* name, ::Il2CppString* value);
     // public System.Void .ctor(System.String name, System.String value, System.Boolean valueIsCDATA)
-    // Offset: 0x10811F4
+    // Offset: 0x15EB26C
     static TNode* New_ctor(::Il2CppString* name, ::Il2CppString* value, bool valueIsCDATA);
     // public System.String get_Name()
-    // Offset: 0x108123C
+    // Offset: 0x15EB2B4
     ::Il2CppString* get_Name();
     // private System.Void set_Name(System.String value)
-    // Offset: 0x1081244
+    // Offset: 0x15EB2BC
     void set_Name(::Il2CppString* value);
     // public System.String get_Value()
-    // Offset: 0x108124C
+    // Offset: 0x15EB2C4
     ::Il2CppString* get_Value();
     // public System.Void set_Value(System.String value)
-    // Offset: 0x1081254
+    // Offset: 0x15EB2CC
     void set_Value(::Il2CppString* value);
     // public System.Boolean get_ValueIsCDATA()
-    // Offset: 0x108125C
+    // Offset: 0x15EB2D4
     bool get_ValueIsCDATA();
     // private System.Void set_ValueIsCDATA(System.Boolean value)
-    // Offset: 0x1081264
+    // Offset: 0x15EB2DC
     void set_ValueIsCDATA(bool value);
     // public NUnit.Framework.Interfaces.AttributeDictionary get_Attributes()
-    // Offset: 0x1081270
+    // Offset: 0x15EB2E8
     NUnit::Framework::Interfaces::AttributeDictionary* get_Attributes();
     // private System.Void set_Attributes(NUnit.Framework.Interfaces.AttributeDictionary value)
-    // Offset: 0x1081278
+    // Offset: 0x15EB2F0
     void set_Attributes(NUnit::Framework::Interfaces::AttributeDictionary* value);
     // public NUnit.Framework.Interfaces.NodeList get_ChildNodes()
-    // Offset: 0x1081280
+    // Offset: 0x15EB2F8
     NUnit::Framework::Interfaces::NodeList* get_ChildNodes();
     // private System.Void set_ChildNodes(NUnit.Framework.Interfaces.NodeList value)
-    // Offset: 0x1081288
+    // Offset: 0x15EB300
     void set_ChildNodes(NUnit::Framework::Interfaces::NodeList* value);
     // public System.String get_OuterXml()
-    // Offset: 0x1081290
+    // Offset: 0x15EB308
     ::Il2CppString* get_OuterXml();
     // public NUnit.Framework.Interfaces.TNode AddElement(System.String name)
-    // Offset: 0x1081648
+    // Offset: 0x15EB6C0
     NUnit::Framework::Interfaces::TNode* AddElement(::Il2CppString* name);
     // public NUnit.Framework.Interfaces.TNode AddElement(System.String name, System.String value)
-    // Offset: 0x10816D4
+    // Offset: 0x15EB74C
     NUnit::Framework::Interfaces::TNode* AddElement(::Il2CppString* name, ::Il2CppString* value);
     // public NUnit.Framework.Interfaces.TNode AddElementWithCDATA(System.String name, System.String value)
-    // Offset: 0x10818C0
+    // Offset: 0x15EB938
     NUnit::Framework::Interfaces::TNode* AddElementWithCDATA(::Il2CppString* name, ::Il2CppString* value);
     // public System.Void AddAttribute(System.String name, System.String value)
-    // Offset: 0x1081990
+    // Offset: 0x15EBA08
     void AddAttribute(::Il2CppString* name, ::Il2CppString* value);
     // public System.Void WriteTo(System.Xml.XmlWriter writer)
-    // Offset: 0x1081408
+    // Offset: 0x15EB480
     void WriteTo(System::Xml::XmlWriter* writer);
     // static private System.String EscapeInvalidXmlCharacters(System.String str)
-    // Offset: 0x10817A0
+    // Offset: 0x15EB818
     static ::Il2CppString* EscapeInvalidXmlCharacters(::Il2CppString* str);
     // static private System.String CharToUnicodeSequence(System.Char symbol)
-    // Offset: 0x1081B4C
+    // Offset: 0x15EBBC4
     static ::Il2CppString* CharToUnicodeSequence(::Il2CppChar symbol);
     // private System.Void WriteCDataTo(System.Xml.XmlWriter writer)
-    // Offset: 0x1081A2C
+    // Offset: 0x15EBAA4
     void WriteCDataTo(System::Xml::XmlWriter* writer);
     // static private System.String <EscapeInvalidXmlCharacters>b__0(System.Text.RegularExpressions.Match match)
-    // Offset: 0x1081BD0
+    // Offset: 0x15EBC48
     static ::Il2CppString* $EscapeInvalidXmlCharacters$b__0(System::Text::RegularExpressions::Match* match);
     // static private System.Void .cctor()
-    // Offset: 0x1081C60
+    // Offset: 0x15EBCD8
     static void _cctor();
   }; // NUnit.Framework.Interfaces.TNode
 }

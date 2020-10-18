@@ -37,10 +37,10 @@ namespace System::Threading {
     // Creating value type constructor for type: ExecutionContextSwitcher
     constexpr ExecutionContextSwitcher(System::Threading::ExecutionContext::Reader outerEC_ = {}, bool outerECBelongsToScope_ = {}, ::Il2CppObject* hecsw_ = {}, System::Threading::Thread* thread_ = {}) noexcept : outerEC{outerEC_}, outerECBelongsToScope{outerECBelongsToScope_}, hecsw{hecsw_}, thread{thread_} {}
     // System.Boolean UndoNoThrow()
-    // Offset: 0xA47DFC
+    // Offset: 0xDC24A4
     bool UndoNoThrow();
     // System.Void Undo()
-    // Offset: 0xA47E04
+    // Offset: 0xDC24AC
     void Undo();
   }; // System.Threading.ExecutionContextSwitcher
 }

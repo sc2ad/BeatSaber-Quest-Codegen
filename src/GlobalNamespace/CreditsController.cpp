@@ -4,8 +4,8 @@
 // Begin includes
 // Including type: CreditsController
 #include "GlobalNamespace/CreditsController.hpp"
-// Including type: CreditsController/<ScrollCoroutine>d__13
-#include "GlobalNamespace/CreditsController_-ScrollCoroutine-d__13.hpp"
+// Including type: CreditsController/<ScrollCoroutine>d__12
+#include "GlobalNamespace/CreditsController_-ScrollCoroutine-d__12.hpp"
 // Including type: CreditsScenesTransitionSetupDataSO
 #include "GlobalNamespace/CreditsScenesTransitionSetupDataSO.hpp"
 // Including type: SongPreviewPlayer

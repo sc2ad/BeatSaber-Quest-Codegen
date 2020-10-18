@@ -22,25 +22,25 @@ namespace UnityEngine {
   class CharacterController : public UnityEngine::Collider {
     public:
     // public UnityEngine.CollisionFlags Move(UnityEngine.Vector3 motion)
-    // Offset: 0x1962F98
+    // Offset: 0x220F45C
     UnityEngine::CollisionFlags Move(UnityEngine::Vector3 motion);
     // public System.Boolean get_isGrounded()
-    // Offset: 0x1963040
+    // Offset: 0x220F504
     bool get_isGrounded();
     // public System.Single get_height()
-    // Offset: 0x1963080
+    // Offset: 0x220F544
     float get_height();
     // public UnityEngine.Vector3 get_center()
-    // Offset: 0x19630C0
+    // Offset: 0x220F584
     UnityEngine::Vector3 get_center();
     // public System.Single get_stepOffset()
-    // Offset: 0x1963170
+    // Offset: 0x220F634
     float get_stepOffset();
     // private UnityEngine.CollisionFlags Move_Injected(ref UnityEngine.Vector3 motion)
-    // Offset: 0x1962FF0
+    // Offset: 0x220F4B4
     UnityEngine::CollisionFlags Move_Injected(UnityEngine::Vector3& motion);
     // private System.Void get_center_Injected(out UnityEngine.Vector3 ret)
-    // Offset: 0x1963120
+    // Offset: 0x220F5E4
     void get_center_Injected(UnityEngine::Vector3& ret);
   }; // UnityEngine.CharacterController
 }

@@ -15,10 +15,10 @@ namespace System {
   template<typename T, typename TResult>
   class Func_2;
 }
-// Forward declaring namespace: LeaderboardsDTO
-namespace LeaderboardsDTO {
-  // Forward declaring type: LeaderboardEntryDTO
-  class LeaderboardEntryDTO;
+// Forward declaring namespace: BeatSaberAPI::DataTransferObjects
+namespace BeatSaberAPI::DataTransferObjects {
+  // Forward declaring type: LeaderboardEntry
+  class LeaderboardEntry;
 }
 // Completed forward declares
 // Type namespace: 
@@ -30,18 +30,18 @@ namespace GlobalNamespace {
     static GlobalNamespace::HTTPLeaderboardsModel::$$c* _get_$$9();
     // Set static field: static public readonly HTTPLeaderboardsModel/<>c <>9
     static void _set_$$9(GlobalNamespace::HTTPLeaderboardsModel::$$c* value);
-    // Get static field: static public System.Func`2<LeaderboardsDTO.LeaderboardEntryDTO,System.String> <>9__12_0
-    static System::Func_2<LeaderboardsDTO::LeaderboardEntryDTO*, ::Il2CppString*>* _get_$$9__12_0();
-    // Set static field: static public System.Func`2<LeaderboardsDTO.LeaderboardEntryDTO,System.String> <>9__12_0
-    static void _set_$$9__12_0(System::Func_2<LeaderboardsDTO::LeaderboardEntryDTO*, ::Il2CppString*>* value);
+    // Get static field: static public System.Func`2<BeatSaberAPI.DataTransferObjects.LeaderboardEntry,System.String> <>9__10_0
+    static System::Func_2<BeatSaberAPI::DataTransferObjects::LeaderboardEntry*, ::Il2CppString*>* _get_$$9__10_0();
+    // Set static field: static public System.Func`2<BeatSaberAPI.DataTransferObjects.LeaderboardEntry,System.String> <>9__10_0
+    static void _set_$$9__10_0(System::Func_2<BeatSaberAPI::DataTransferObjects::LeaderboardEntry*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xB428A0
+    // Offset: 0xECD044
     static void _cctor();
-    // System.String <GetLeaderboardEntriesAsync>b__12_0(LeaderboardsDTO.LeaderboardEntryDTO x)
-    // Offset: 0xB42910
-    ::Il2CppString* $GetLeaderboardEntriesAsync$b__12_0(LeaderboardsDTO::LeaderboardEntryDTO* x);
+    // System.String <GetLeaderboardEntriesAsync>b__10_0(BeatSaberAPI.DataTransferObjects.LeaderboardEntry x)
+    // Offset: 0xECD0B4
+    ::Il2CppString* $GetLeaderboardEntriesAsync$b__10_0(BeatSaberAPI::DataTransferObjects::LeaderboardEntry* x);
     // public System.Void .ctor()
-    // Offset: 0xB42908
+    // Offset: 0xECD0AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HTTPLeaderboardsModel::$$c* New_ctor();

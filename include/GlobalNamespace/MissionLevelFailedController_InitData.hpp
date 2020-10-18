@@ -21,7 +21,7 @@ namespace GlobalNamespace {
       return autoRestart;
     }
     // public System.Void .ctor(System.Boolean autoRestart)
-    // Offset: 0xC04660
+    // Offset: 0xEDCD8C
     static MissionLevelFailedController::InitData* New_ctor(bool autoRestart);
   }; // MissionLevelFailedController/InitData
 }

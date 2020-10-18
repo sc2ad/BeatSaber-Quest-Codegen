@@ -93,28 +93,28 @@ namespace TMPro {
     // Set static field: static private UnityEngine.Vector2 k_InfinityVectorNegative
     static void _set_k_InfinityVectorNegative(UnityEngine::Vector2 value);
     // public System.Void .ctor(TMPro.TMP_Text textComponent)
-    // Offset: 0xDC2D70
+    // Offset: 0x12611A4
     static TMP_TextInfo* New_ctor(TMPro::TMP_Text* textComponent);
     // public System.Void Clear()
-    // Offset: 0xDC2F04
+    // Offset: 0x1261338
     void Clear();
     // public System.Void ClearMeshInfo(System.Boolean updateMesh)
-    // Offset: 0xDC2F68
+    // Offset: 0x126139C
     void ClearMeshInfo(bool updateMesh);
     // public System.Void ClearAllMeshInfo()
-    // Offset: 0xDC2FE8
+    // Offset: 0x126141C
     void ClearAllMeshInfo();
     // public System.Void ResetVertexLayout(System.Boolean isVolumetric)
-    // Offset: 0xDC3064
+    // Offset: 0x1261498
     void ResetVertexLayout(bool isVolumetric);
     // public System.Void ClearUnusedVertices(TMPro.MaterialReference[] materials)
-    // Offset: 0xDC30E8
+    // Offset: 0x126151C
     void ClearUnusedVertices(::Array<TMPro::MaterialReference>* materials);
     // public System.Void ClearLineInfo()
-    // Offset: 0xDC3164
+    // Offset: 0x1261598
     void ClearLineInfo();
     // public TMPro.TMP_MeshInfo[] CopyMeshInfoVertexData()
-    // Offset: 0xDC3374
+    // Offset: 0x12617A8
     ::Array<TMPro::TMP_MeshInfo>* CopyMeshInfoVertexData();
     // static public System.Void Resize(ref T[] array, System.Int32 size)
     // Offset: 0xFFFFFFFF
@@ -129,10 +129,10 @@ namespace TMPro {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("TMPro", "TMP_TextInfo", "Resize", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, array, size, isBlockAllocated));
     }
     // static private System.Void .cctor()
-    // Offset: 0xDC37A0
+    // Offset: 0x1261BD4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0xDC2C50
+    // Offset: 0x1261084
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TMP_TextInfo* New_ctor();

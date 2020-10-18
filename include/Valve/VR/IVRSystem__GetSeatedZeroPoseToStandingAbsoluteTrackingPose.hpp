@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRSystem::_GetSeatedZeroPoseToStandingAbsoluteTrackingPose : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16D8C3C
+    // Offset: 0x1F5D9E4
     static IVRSystem::_GetSeatedZeroPoseToStandingAbsoluteTrackingPose* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.HmdMatrix34_t Invoke()
-    // Offset: 0x16D8C50
+    // Offset: 0x1F5D9F8
     Valve::VR::HmdMatrix34_t Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16D8E90
+    // Offset: 0x1F5DC38
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.HmdMatrix34_t EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16D8EBC
+    // Offset: 0x1F5DC64
     Valve::VR::HmdMatrix34_t EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetSeatedZeroPoseToStandingAbsoluteTrackingPose
 }

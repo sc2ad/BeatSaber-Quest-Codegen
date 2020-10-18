@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
   class UserList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::User*> {
     public:
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0xEA9A10
+    // Offset: 0x136A10C
     static UserList* New_ctor(System::IntPtr a);
   }; // Oculus.Platform.Models.UserList
 }

@@ -37,13 +37,13 @@ namespace System::Threading {
     // Creating value type constructor for type: CancellationTokenRegistration
     constexpr CancellationTokenRegistration(System::Threading::CancellationCallbackInfo* m_callbackInfo_ = {}, System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*> m_registrationInfo_ = {}) noexcept : m_callbackInfo{m_callbackInfo_}, m_registrationInfo{m_registrationInfo_} {}
     // System.Void .ctor(System.Threading.CancellationCallbackInfo callbackInfo, System.Threading.SparselyPopulatedArrayAddInfo`1<System.Threading.CancellationCallbackInfo> registrationInfo)
-    // Offset: 0xA47C20
+    // Offset: 0xDC22C8
     // ABORTED: conflicts with another method.  CancellationTokenRegistration(System::Threading::CancellationCallbackInfo* callbackInfo, System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*> registrationInfo);
     // System.Boolean TryDeregister()
-    // Offset: 0xA47C64
+    // Offset: 0xDC230C
     bool TryDeregister();
     // public System.Void Dispose()
-    // Offset: 0xA47C6C
+    // Offset: 0xDC2314
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -51,17 +51,17 @@ namespace System::Threading {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA47C74
+    // Offset: 0xDC231C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(System.Threading.CancellationTokenRegistration other)
-    // Offset: 0xA47C7C
+    // Offset: 0xDC2324
     // Implemented from: System.IEquatable`1
-    // Base method: System.Boolean IEquatable`1::Equals(System.Threading.CancellationTokenRegistration other)
+    // Base method: System.Boolean IEquatable_1::Equals(System.Threading.CancellationTokenRegistration other)
     bool Equals(System::Threading::CancellationTokenRegistration other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA47CB4
+    // Offset: 0xDC235C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

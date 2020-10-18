@@ -53,53 +53,83 @@ namespace System {
     static ::Array<::Il2CppChar>* _get_WhiteSpaceChecks();
     // Set static field: static private System.Char[] WhiteSpaceChecks
     static void _set_WhiteSpaceChecks(::Array<::Il2CppChar>* value);
+    // System.Void .ctor(System.String str, System.Globalization.DateTimeFormatInfo dtfi, System.Boolean checkDigitToken)
+    // Offset: 0xDDD660
+    __DTString(::Il2CppString* str, System::Globalization::DateTimeFormatInfo* dtfi, bool checkDigitToken);
     // System.Void .ctor(System.String str, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0xA57744
+    // Offset: 0xDDD690
     __DTString(::Il2CppString* str, System::Globalization::DateTimeFormatInfo* dtfi);
+    // System.Globalization.CompareInfo get_CompareInfo()
+    // Offset: 0xDDD698
+    System::Globalization::CompareInfo* get_CompareInfo();
     // System.Boolean GetNext()
-    // Offset: 0xA5774C
+    // Offset: 0xDDD6A0
     bool GetNext();
     // System.Boolean AtEnd()
-    // Offset: 0xA57754
+    // Offset: 0xDDD6A8
     bool AtEnd();
     // System.Boolean Advance(System.Int32 count)
-    // Offset: 0xA57764
+    // Offset: 0xDDD6B8
     bool Advance(int count);
     // System.Void GetRegularToken(out System.TokenType tokenType, out System.Int32 tokenValue, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0xA5776C
+    // Offset: 0xDDD6C0
     void GetRegularToken(System::TokenType& tokenType, int& tokenValue, System::Globalization::DateTimeFormatInfo* dtfi);
     // System.TokenType GetSeparatorToken(System.Globalization.DateTimeFormatInfo dtfi, out System.Int32 indexBeforeSeparator, out System.Char charBeforeSeparator)
-    // Offset: 0xA57774
+    // Offset: 0xDDD6C8
     System::TokenType GetSeparatorToken(System::Globalization::DateTimeFormatInfo* dtfi, int& indexBeforeSeparator, ::Il2CppChar& charBeforeSeparator);
+    // System.Boolean MatchSpecifiedWord(System.String target)
+    // Offset: 0xDDD6D0
+    bool MatchSpecifiedWord(::Il2CppString* target);
+    // System.Boolean MatchSpecifiedWord(System.String target, System.Int32 endIndex)
+    // Offset: 0xDDD6D8
+    bool MatchSpecifiedWord(::Il2CppString* target, int endIndex);
     // System.Boolean MatchSpecifiedWords(System.String target, System.Boolean checkWordBoundary, ref System.Int32 matchLength)
-    // Offset: 0xA5777C
+    // Offset: 0xDDD6E0
     bool MatchSpecifiedWords(::Il2CppString* target, bool checkWordBoundary, int& matchLength);
+    // System.Boolean Match(System.String str)
+    // Offset: 0xDDD6EC
+    bool Match(::Il2CppString* str);
     // System.Boolean Match(System.Char ch)
-    // Offset: 0xA57788
+    // Offset: 0xDDD6F4
     bool Match(::Il2CppChar ch);
+    // System.Int32 MatchLongestWords(System.String[] words, ref System.Int32 maxMatchStrLen)
+    // Offset: 0xDDD6FC
+    int MatchLongestWords(::Array<::Il2CppString*>* words, int& maxMatchStrLen);
+    // System.Int32 GetRepeatCount()
+    // Offset: 0xDDD704
+    int GetRepeatCount();
     // System.Boolean GetNextDigit()
-    // Offset: 0xA57790
+    // Offset: 0xDDD70C
     bool GetNextDigit();
     // System.Char GetChar()
-    // Offset: 0xA57798
+    // Offset: 0xDDD714
     ::Il2CppChar GetChar();
     // System.Int32 GetDigit()
-    // Offset: 0xA577A0
+    // Offset: 0xDDD71C
     int GetDigit();
     // System.Void SkipWhiteSpaces()
-    // Offset: 0xA577A8
+    // Offset: 0xDDD724
     void SkipWhiteSpaces();
     // System.Boolean SkipWhiteSpaceCurrent()
-    // Offset: 0xA577B0
+    // Offset: 0xDDD72C
     bool SkipWhiteSpaceCurrent();
+    // System.Void TrimTail()
+    // Offset: 0xDDD734
+    void TrimTail();
+    // System.Void RemoveTrailingInQuoteSpaces()
+    // Offset: 0xDDD73C
+    void RemoveTrailingInQuoteSpaces();
+    // System.Void RemoveLeadingInQuoteSpaces()
+    // Offset: 0xDDD744
+    void RemoveLeadingInQuoteSpaces();
     // System.DTSubString GetSubString()
-    // Offset: 0xA577B8
+    // Offset: 0xDDD74C
     System::DTSubString GetSubString();
     // System.Void ConsumeSubString(System.DTSubString sub)
-    // Offset: 0xA577C0
+    // Offset: 0xDDD754
     void ConsumeSubString(System::DTSubString sub);
     // static private System.Void .cctor()
-    // Offset: 0x17A388C
+    // Offset: 0x22008F8
     static void _cctor();
   }; // System.__DTString
 }

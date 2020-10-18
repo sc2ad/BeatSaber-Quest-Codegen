@@ -52,13 +52,13 @@ namespace System::Reflection {
     // Creating value type constructor for type: MonoPropertyInfo
     constexpr MonoPropertyInfo(System::Type* parent_ = {}, System::Type* declaring_type_ = {}, ::Il2CppString* name_ = {}, System::Reflection::MethodInfo* get_method_ = {}, System::Reflection::MethodInfo* set_method_ = {}, System::Reflection::PropertyAttributes attrs_ = {}) noexcept : parent{parent_}, declaring_type{declaring_type_}, name{name_}, get_method{get_method_}, set_method{set_method_}, attrs{attrs_} {}
     // static System.Void get_property_info(System.Reflection.MonoProperty prop, ref System.Reflection.MonoPropertyInfo info, System.Reflection.PInfo req_info)
-    // Offset: 0x1154C08
+    // Offset: 0x18D2BB0
     static void get_property_info(System::Reflection::MonoProperty* prop, System::Reflection::MonoPropertyInfo& info, System::Reflection::PInfo req_info);
     // static System.Type[] GetTypeModifiers(System.Reflection.MonoProperty prop, System.Boolean optional)
-    // Offset: 0x1155CCC
+    // Offset: 0x18D3DA8
     static ::Array<System::Type*>* GetTypeModifiers(System::Reflection::MonoProperty* prop, bool optional);
     // static System.Object get_default_value(System.Reflection.MonoProperty prop)
-    // Offset: 0x1155388
+    // Offset: 0x18D3440
     static ::Il2CppObject* get_default_value(System::Reflection::MonoProperty* prop);
   }; // System.Reflection.MonoPropertyInfo
 }

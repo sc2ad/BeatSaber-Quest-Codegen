@@ -46,13 +46,13 @@ namespace UnityEngine::Playables {
     // Set static field: static private readonly UnityEngine.Playables.Playable m_NullPlayable
     static void _set_m_NullPlayable(UnityEngine::Playables::Playable value);
     // static public UnityEngine.Playables.Playable get_Null()
-    // Offset: 0x141A448
+    // Offset: 0x1B9CD84
     static UnityEngine::Playables::Playable get_Null();
     // static public UnityEngine.Playables.Playable Create(UnityEngine.Playables.PlayableGraph graph, System.Int32 inputCount)
-    // Offset: 0x141A4B0
+    // Offset: 0x1B9CDEC
     static UnityEngine::Playables::Playable Create(UnityEngine::Playables::PlayableGraph graph, int inputCount);
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0xA48A44
+    // Offset: 0xDC62B8
     // ABORTED: conflicts with another method.  Playable(UnityEngine::Playables::PlayableHandle handle);
     // public System.Boolean IsPlayableOfType()
     // Offset: 0xFFFFFFFF
@@ -62,20 +62,20 @@ namespace UnityEngine::Playables {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>(*this, "IsPlayableOfType", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // public System.Type GetPlayableType()
-    // Offset: 0xA48A58
+    // Offset: 0xDC62CC
     System::Type* GetPlayableType();
     // static private System.Void .cctor()
-    // Offset: 0x141A764
+    // Offset: 0x1B9D0A0
     static void _cctor();
     // public UnityEngine.Playables.PlayableHandle GetHandle()
-    // Offset: 0xA48A4C
+    // Offset: 0xDC62C0
     // Implemented from: UnityEngine.Playables.IPlayable
     // Base method: UnityEngine.Playables.PlayableHandle IPlayable::GetHandle()
     UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Playables.Playable other)
-    // Offset: 0xA48A80
+    // Offset: 0xDC62F4
     // Implemented from: System.IEquatable`1
-    // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Playables.Playable other)
+    // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Playables.Playable other)
     bool Equals(UnityEngine::Playables::Playable other);
   }; // UnityEngine.Playables.Playable
 }

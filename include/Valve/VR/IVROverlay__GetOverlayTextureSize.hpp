@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVROverlay::_GetOverlayTextureSize : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1613D78
+    // Offset: 0x1E3DFF8
     static IVROverlay::_GetOverlayTextureSize* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, ref System.UInt32 pWidth, ref System.UInt32 pHeight)
-    // Offset: 0x1613D8C
+    // Offset: 0x1E3E00C
     Valve::VR::EVROverlayError Invoke(uint64_t ulOverlayHandle, uint& pWidth, uint& pHeight);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, ref System.UInt32 pWidth, ref System.UInt32 pHeight, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1614024
+    // Offset: 0x1E3E2A4
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint& pWidth, uint& pHeight, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(ref System.UInt32 pWidth, ref System.UInt32 pHeight, System.IAsyncResult result)
-    // Offset: 0x16140F0
+    // Offset: 0x1E3E370
     Valve::VR::EVROverlayError EndInvoke(uint& pWidth, uint& pHeight, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_GetOverlayTextureSize
 }

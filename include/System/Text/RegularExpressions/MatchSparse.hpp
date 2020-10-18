@@ -35,10 +35,10 @@ namespace System::Text::RegularExpressions {
       return caps;
     }
     // System.Void .ctor(System.Text.RegularExpressions.Regex regex, System.Collections.Hashtable caps, System.Int32 capcount, System.String text, System.Int32 begpos, System.Int32 len, System.Int32 startpos)
-    // Offset: 0x1221894
+    // Offset: 0x16C997C
     static MatchSparse* New_ctor(System::Text::RegularExpressions::Regex* regex, System::Collections::Hashtable* caps, int capcount, ::Il2CppString* text, int begpos, int len, int startpos);
     // public override System.Text.RegularExpressions.GroupCollection get_Groups()
-    // Offset: 0x122195C
+    // Offset: 0x16C9A44
     // Implemented from: System.Text.RegularExpressions.Match
     // Base method: System.Text.RegularExpressions.GroupCollection Match::get_Groups()
     System::Text::RegularExpressions::GroupCollection* get_Groups();

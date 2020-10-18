@@ -28,7 +28,7 @@ namespace GlobalNamespace {
       return beatmapLevelPack;
     }
     // public System.Void .ctor(IBeatmapLevelPack beatmapLevelPack)
-    // Offset: 0xC2DF10
+    // Offset: 0xEE91F8
     static SelectLevelPackDestination* New_ctor(GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack);
   }; // SelectLevelPackDestination
 }

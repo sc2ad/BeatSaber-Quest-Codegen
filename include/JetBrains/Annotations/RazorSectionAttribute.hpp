@@ -14,7 +14,7 @@ namespace JetBrains::Annotations {
   class RazorSectionAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x19617C4
+    // Offset: 0x220C64C
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -32,61 +32,61 @@ namespace UnityEngine {
   class AndroidJNIHelper : public ::Il2CppObject {
     public:
     // static public System.Boolean get_debug()
-    // Offset: 0x191F070
+    // Offset: 0x21AE82C
     static bool get_debug();
     // static public System.Void set_debug(System.Boolean value)
-    // Offset: 0x191F0A4
+    // Offset: 0x21AE860
     static void set_debug(bool value);
     // static public System.IntPtr GetConstructorID(System.IntPtr javaClass)
-    // Offset: 0x191F0E4
+    // Offset: 0x21AE8A0
     static System::IntPtr GetConstructorID(System::IntPtr javaClass);
     // static public System.IntPtr GetConstructorID(System.IntPtr javaClass, System.String signature)
-    // Offset: 0x191F134
+    // Offset: 0x21AE8F0
     static System::IntPtr GetConstructorID(System::IntPtr javaClass, ::Il2CppString* signature);
     // static public System.IntPtr GetMethodID(System.IntPtr javaClass, System.String methodName)
-    // Offset: 0x191F2E8
+    // Offset: 0x21AEAA4
     static System::IntPtr GetMethodID(System::IntPtr javaClass, ::Il2CppString* methodName);
     // static public System.IntPtr GetMethodID(System.IntPtr javaClass, System.String methodName, System.String signature)
-    // Offset: 0x191F354
+    // Offset: 0x21AEB10
     static System::IntPtr GetMethodID(System::IntPtr javaClass, ::Il2CppString* methodName, ::Il2CppString* signature);
     // static public System.IntPtr GetMethodID(System.IntPtr javaClass, System.String methodName, System.String signature, System.Boolean isStatic)
-    // Offset: 0x191F34C
+    // Offset: 0x21AEB08
     static System::IntPtr GetMethodID(System::IntPtr javaClass, ::Il2CppString* methodName, ::Il2CppString* signature, bool isStatic);
     // static public System.IntPtr GetFieldID(System.IntPtr javaClass, System.String fieldName)
-    // Offset: 0x191F520
+    // Offset: 0x21AECDC
     static System::IntPtr GetFieldID(System::IntPtr javaClass, ::Il2CppString* fieldName);
     // static public System.IntPtr GetFieldID(System.IntPtr javaClass, System.String fieldName, System.String signature)
-    // Offset: 0x191F58C
+    // Offset: 0x21AED48
     static System::IntPtr GetFieldID(System::IntPtr javaClass, ::Il2CppString* fieldName, ::Il2CppString* signature);
     // static public System.IntPtr GetFieldID(System.IntPtr javaClass, System.String fieldName, System.String signature, System.Boolean isStatic)
-    // Offset: 0x191F584
+    // Offset: 0x21AED40
     static System::IntPtr GetFieldID(System::IntPtr javaClass, ::Il2CppString* fieldName, ::Il2CppString* signature, bool isStatic);
     // static public System.IntPtr CreateJavaRunnable(UnityEngine.AndroidJavaRunnable jrunnable)
-    // Offset: 0x191F888
+    // Offset: 0x21AF044
     static System::IntPtr CreateJavaRunnable(UnityEngine::AndroidJavaRunnable* jrunnable);
     // static public System.IntPtr CreateJavaProxy(UnityEngine.AndroidJavaProxy proxy)
-    // Offset: 0x191F8EC
+    // Offset: 0x21AF0A8
     static System::IntPtr CreateJavaProxy(UnityEngine::AndroidJavaProxy* proxy);
     // static public System.IntPtr ConvertToJNIArray(System.Array array)
-    // Offset: 0x191FA78
+    // Offset: 0x21AF234
     static System::IntPtr ConvertToJNIArray(System::Array* array);
     // static public UnityEngine.jvalue[] CreateJNIArgArray(System.Object[] args)
-    // Offset: 0x19202B4
+    // Offset: 0x21AFA70
     static ::Array<UnityEngine::jvalue>* CreateJNIArgArray(::Array<::Il2CppObject*>* args);
     // static public System.Void DeleteJNIArgArray(System.Object[] args, UnityEngine.jvalue[] jniArgs)
-    // Offset: 0x192078C
+    // Offset: 0x21AFF48
     static void DeleteJNIArgArray(::Array<::Il2CppObject*>* args, ::Array<UnityEngine::jvalue>* jniArgs);
     // static public System.IntPtr GetConstructorID(System.IntPtr jclass, System.Object[] args)
-    // Offset: 0x19208B0
+    // Offset: 0x21B006C
     static System::IntPtr GetConstructorID(System::IntPtr jclass, ::Array<::Il2CppObject*>* args);
     // static public System.IntPtr GetMethodID(System.IntPtr jclass, System.String methodName, System.Object[] args, System.Boolean isStatic)
-    // Offset: 0x1920908
+    // Offset: 0x21B00C4
     static System::IntPtr GetMethodID(System::IntPtr jclass, ::Il2CppString* methodName, ::Array<::Il2CppObject*>* args, bool isStatic);
     // static public System.String GetSignature(System.Object obj)
-    // Offset: 0x1920990
+    // Offset: 0x21B014C
     static ::Il2CppString* GetSignature(::Il2CppObject* obj);
     // static public System.String GetSignature(System.Object[] args)
-    // Offset: 0x1921538
+    // Offset: 0x21B0CF4
     static ::Il2CppString* GetSignature(::Array<::Il2CppObject*>* args);
     // static public ArrayType ConvertFromJNIArray(System.IntPtr array)
     // Offset: 0xFFFFFFFF

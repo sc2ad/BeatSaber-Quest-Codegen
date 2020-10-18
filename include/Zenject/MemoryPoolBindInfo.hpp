@@ -23,25 +23,25 @@ namespace Zenject {
     // Offset: 0x18
     int MaxSize;
     // public Zenject.PoolExpandMethods get_ExpandMethod()
-    // Offset: 0xFC3D48
+    // Offset: 0x1511CE4
     Zenject::PoolExpandMethods get_ExpandMethod();
     // public System.Void set_ExpandMethod(Zenject.PoolExpandMethods value)
-    // Offset: 0xFC3D50
+    // Offset: 0x1511CEC
     void set_ExpandMethod(Zenject::PoolExpandMethods value);
     // public System.Int32 get_InitialSize()
-    // Offset: 0xFC3D58
+    // Offset: 0x1511CF4
     int get_InitialSize();
     // public System.Void set_InitialSize(System.Int32 value)
-    // Offset: 0xFC3D60
+    // Offset: 0x1511CFC
     void set_InitialSize(int value);
     // public System.Int32 get_MaxSize()
-    // Offset: 0xFC3D68
+    // Offset: 0x1511D04
     int get_MaxSize();
     // public System.Void set_MaxSize(System.Int32 value)
-    // Offset: 0xFC3D70
+    // Offset: 0x1511D0C
     void set_MaxSize(int value);
     // public System.Void .ctor()
-    // Offset: 0xFC3D18
+    // Offset: 0x1511CB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MemoryPoolBindInfo* New_ctor();

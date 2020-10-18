@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRCompositor::_ClearLastSubmittedFrame : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x15139C0
+    // Offset: 0x1D572C8
     static IVRCompositor::_ClearLastSubmittedFrame* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x15139D4
+    // Offset: 0x1D572DC
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1513BE0
+    // Offset: 0x1D574E8
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1513C0C
+    // Offset: 0x1D57514
     void EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_ClearLastSubmittedFrame
 }

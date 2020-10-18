@@ -30,19 +30,19 @@ namespace GlobalNamespace {
     // Set static field: static public OVRSystemPerfMetrics/OVRSystemPerfMetricsTcpServer singleton
     static void _set_singleton(GlobalNamespace::OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer* value);
     // private System.Void OnEnable()
-    // Offset: 0x18FEFA0
+    // Offset: 0x218431C
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x18FF0E4
+    // Offset: 0x2184460
     void OnDisable();
     // private System.Void Update()
-    // Offset: 0x18FF19C
+    // Offset: 0x2184518
     void Update();
     // private OVRSystemPerfMetrics/PerfMetrics GatherPerfMetrics()
-    // Offset: 0x18FF224
+    // Offset: 0x21845A0
     GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics* GatherPerfMetrics();
     // public System.Void .ctor()
-    // Offset: 0x18FF8D4
+    // Offset: 0x2184C50
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x18FF950
+    // Offset: 0x2184CCC
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

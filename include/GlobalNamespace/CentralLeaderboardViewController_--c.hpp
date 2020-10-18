@@ -17,6 +17,11 @@ namespace System {
   template<typename T, typename TResult>
   class Func_2;
 }
+// Forward declaring namespace: GlobalNamespace
+namespace GlobalNamespace {
+  // Forward declaring type: GameplayModifierParamsSO
+  class GameplayModifierParamsSO;
+}
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -27,25 +32,32 @@ namespace GlobalNamespace {
     static GlobalNamespace::CentralLeaderboardViewController::$$c* _get_$$9();
     // Set static field: static public readonly CentralLeaderboardViewController/<>c <>9
     static void _set_$$9(GlobalNamespace::CentralLeaderboardViewController::$$c* value);
-    // Get static field: static public System.Func`2<CentralLeaderboardViewController/LeaderboardPanel,System.String> <>9__18_0
-    static System::Func_2<GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*, ::Il2CppString*>* _get_$$9__18_0();
-    // Set static field: static public System.Func`2<CentralLeaderboardViewController/LeaderboardPanel,System.String> <>9__18_0
-    static void _set_$$9__18_0(System::Func_2<GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*, ::Il2CppString*>* value);
-    // Get static field: static public System.Func`2<CentralLeaderboardViewController/ScoreScopeInfo,HMUI.IconSegmentedControl/DataItem> <>9__18_1
-    static System::Func_2<GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo*, HMUI::IconSegmentedControl::DataItem*>* _get_$$9__18_1();
-    // Set static field: static public System.Func`2<CentralLeaderboardViewController/ScoreScopeInfo,HMUI.IconSegmentedControl/DataItem> <>9__18_1
-    static void _set_$$9__18_1(System::Func_2<GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo*, HMUI::IconSegmentedControl::DataItem*>* value);
+    // Get static field: static public System.Func`2<CentralLeaderboardViewController/LeaderboardPanel,System.String> <>9__26_1
+    static System::Func_2<GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*, ::Il2CppString*>* _get_$$9__26_1();
+    // Set static field: static public System.Func`2<CentralLeaderboardViewController/LeaderboardPanel,System.String> <>9__26_1
+    static void _set_$$9__26_1(System::Func_2<GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*, ::Il2CppString*>* value);
+    // Get static field: static public System.Func`2<CentralLeaderboardViewController/ScoreScopeInfo,HMUI.IconSegmentedControl/DataItem> <>9__26_2
+    static System::Func_2<GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo*, HMUI::IconSegmentedControl::DataItem*>* _get_$$9__26_2();
+    // Set static field: static public System.Func`2<CentralLeaderboardViewController/ScoreScopeInfo,HMUI.IconSegmentedControl/DataItem> <>9__26_2
+    static void _set_$$9__26_2(System::Func_2<GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo*, HMUI::IconSegmentedControl::DataItem*>* value);
+    // Get static field: static public System.Func`2<GameplayModifierParamsSO,System.String> <>9__37_0
+    static System::Func_2<GlobalNamespace::GameplayModifierParamsSO*, ::Il2CppString*>* _get_$$9__37_0();
+    // Set static field: static public System.Func`2<GameplayModifierParamsSO,System.String> <>9__37_0
+    static void _set_$$9__37_0(System::Func_2<GlobalNamespace::GameplayModifierParamsSO*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xB7F6A0
+    // Offset: 0xF1EE20
     static void _cctor();
-    // System.String <DidActivate>b__18_0(CentralLeaderboardViewController/LeaderboardPanel x)
-    // Offset: 0xB7F710
-    ::Il2CppString* $DidActivate$b__18_0(GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel* x);
-    // HMUI.IconSegmentedControl/DataItem <DidActivate>b__18_1(CentralLeaderboardViewController/ScoreScopeInfo x)
-    // Offset: 0xB7F728
-    HMUI::IconSegmentedControl::DataItem* $DidActivate$b__18_1(GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo* x);
+    // System.String <DidActivate>b__26_1(CentralLeaderboardViewController/LeaderboardPanel x)
+    // Offset: 0xF1EE90
+    ::Il2CppString* $DidActivate$b__26_1(GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel* x);
+    // HMUI.IconSegmentedControl/DataItem <DidActivate>b__26_2(CentralLeaderboardViewController/ScoreScopeInfo x)
+    // Offset: 0xF1EEA8
+    HMUI::IconSegmentedControl::DataItem* $DidActivate$b__26_2(GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo* x);
+    // System.String <LoadScoresAsync>b__37_0(GameplayModifierParamsSO m)
+    // Offset: 0xF1EF24
+    ::Il2CppString* $LoadScoresAsync$b__37_0(GlobalNamespace::GameplayModifierParamsSO* m);
     // public System.Void .ctor()
-    // Offset: 0xB7F708
+    // Offset: 0xF1EE88
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CentralLeaderboardViewController::$$c* New_ctor();

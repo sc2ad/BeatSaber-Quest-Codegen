@@ -37,46 +37,46 @@ namespace UnityEngine {
     // Offset: 0x1C
     UnityEngine::LogType filterLogType;
     // public System.Void .ctor(UnityEngine.ILogHandler logHandler)
-    // Offset: 0x130DF44
+    // Offset: 0x19E91B4
     static Logger* New_ctor(UnityEngine::ILogHandler* logHandler);
     // public System.Void set_logHandler(UnityEngine.ILogHandler value)
-    // Offset: 0x1316AD0
+    // Offset: 0x19F1D98
     void set_logHandler(UnityEngine::ILogHandler* value);
     // public System.Boolean get_logEnabled()
-    // Offset: 0x1316AD8
+    // Offset: 0x19F1DA0
     bool get_logEnabled();
     // public System.Void set_logEnabled(System.Boolean value)
-    // Offset: 0x1316AE0
+    // Offset: 0x19F1DA8
     void set_logEnabled(bool value);
     // public UnityEngine.LogType get_filterLogType()
-    // Offset: 0x1316AEC
+    // Offset: 0x19F1DB4
     UnityEngine::LogType get_filterLogType();
     // public System.Void set_filterLogType(UnityEngine.LogType value)
-    // Offset: 0x1316AF4
+    // Offset: 0x19F1DBC
     void set_filterLogType(UnityEngine::LogType value);
     // public System.Boolean IsLogTypeAllowed(UnityEngine.LogType logType)
-    // Offset: 0x1316AFC
+    // Offset: 0x19F1DC4
     bool IsLogTypeAllowed(UnityEngine::LogType logType);
     // static private System.String GetString(System.Object message)
-    // Offset: 0x1316B38
+    // Offset: 0x19F1E00
     static ::Il2CppString* GetString(::Il2CppObject* message);
     // public UnityEngine.ILogHandler get_logHandler()
-    // Offset: 0x1316AC8
+    // Offset: 0x19F1D90
     // Implemented from: UnityEngine.ILogger
     // Base method: UnityEngine.ILogHandler ILogger::get_logHandler()
     UnityEngine::ILogHandler* get_logHandler();
     // public System.Void Log(UnityEngine.LogType logType, System.Object message)
-    // Offset: 0x1316C68
+    // Offset: 0x19F1F30
     // Implemented from: UnityEngine.ILogger
     // Base method: System.Void ILogger::Log(UnityEngine.LogType logType, System.Object message)
     void Log(UnityEngine::LogType logType, ::Il2CppObject* message);
     // public System.Void Log(UnityEngine.LogType logType, System.Object message, UnityEngine.Object context)
-    // Offset: 0x1316DE8
+    // Offset: 0x19F20B0
     // Implemented from: UnityEngine.ILogger
     // Base method: System.Void ILogger::Log(UnityEngine.LogType logType, System.Object message, UnityEngine.Object context)
     void Log(UnityEngine::LogType logType, ::Il2CppObject* message, UnityEngine::Object* context);
     // public System.Void LogFormat(UnityEngine.LogType logType, System.String format, params System.Object[] args)
-    // Offset: 0x1316F78
+    // Offset: 0x19F2240
     // Implemented from: UnityEngine.ILogger
     // Base method: System.Void ILogger::LogFormat(UnityEngine.LogType logType, System.String format, params System.Object[] args)
     void LogFormat(UnityEngine::LogType logType, ::Il2CppString* format, ::Array<::Il2CppObject*>* args);
@@ -88,7 +88,7 @@ namespace UnityEngine {
       LogFormat(logType, format, {args...});
     }
     // public System.Void LogFormat(UnityEngine.LogType logType, UnityEngine.Object context, System.String format, params System.Object[] args)
-    // Offset: 0x131708C
+    // Offset: 0x19F2354
     // Implemented from: UnityEngine.ILogHandler
     // Base method: System.Void ILogHandler::LogFormat(UnityEngine.LogType logType, UnityEngine.Object context, System.String format, params System.Object[] args)
     void LogFormat(UnityEngine::LogType logType, UnityEngine::Object* context, ::Il2CppString* format, ::Array<::Il2CppObject*>* args);
@@ -100,7 +100,7 @@ namespace UnityEngine {
       LogFormat(logType, context, format, {args...});
     }
     // public System.Void LogException(System.Exception exception, UnityEngine.Object context)
-    // Offset: 0x13171A4
+    // Offset: 0x19F246C
     // Implemented from: UnityEngine.ILogHandler
     // Base method: System.Void ILogHandler::LogException(System.Exception exception, UnityEngine.Object context)
     void LogException(System::Exception* exception, UnityEngine::Object* context);

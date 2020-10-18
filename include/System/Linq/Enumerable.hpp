@@ -14,8 +14,8 @@ namespace System::Linq {
   // Forward declaring type: IOrderedEnumerable`1<TElement>
   template<typename TElement>
   class IOrderedEnumerable_1;
-  // Forward declaring type: IGrouping`2<TElement, TKey>
-  template<typename TElement, typename TKey>
+  // Forward declaring type: IGrouping`2<TKey, TElement>
+  template<typename TKey, typename TElement>
   class IGrouping_2;
 }
 // Forward declaring namespace: System::Collections::Generic
@@ -38,6 +38,9 @@ namespace System {
   // Forward declaring type: Func`2<T, TResult>
   template<typename T, typename TResult>
   class Func_2;
+  // Forward declaring type: Func`3<T1, T2, TResult>
+  template<typename T1, typename T2, typename TResult>
+  class Func_3;
 }
 // Forward declaring namespace: System::Collections
 namespace System::Collections {
@@ -62,14 +65,14 @@ namespace System::Linq {
     // Nested type: System::Linq::Enumerable::WhereListIterator_1<TSource>
     template<typename TSource>
     class WhereListIterator_1;
-    // Nested type: System::Linq::Enumerable::WhereSelectEnumerableIterator_2<TResult, TSource>
-    template<typename TResult, typename TSource>
+    // Nested type: System::Linq::Enumerable::WhereSelectEnumerableIterator_2<TSource, TResult>
+    template<typename TSource, typename TResult>
     class WhereSelectEnumerableIterator_2;
-    // Nested type: System::Linq::Enumerable::WhereSelectArrayIterator_2<TResult, TSource>
-    template<typename TResult, typename TSource>
+    // Nested type: System::Linq::Enumerable::WhereSelectArrayIterator_2<TSource, TResult>
+    template<typename TSource, typename TResult>
     class WhereSelectArrayIterator_2;
-    // Nested type: System::Linq::Enumerable::WhereSelectListIterator_2<TResult, TSource>
-    template<typename TResult, typename TSource>
+    // Nested type: System::Linq::Enumerable::WhereSelectListIterator_2<TSource, TResult>
+    template<typename TSource, typename TResult>
     class WhereSelectListIterator_2;
     // Nested type: System::Linq::Enumerable::$$c__DisplayClass6_0_1<TSource>
     template<typename TSource>
@@ -77,8 +80,8 @@ namespace System::Linq {
     // Nested type: System::Linq::Enumerable::$$c__DisplayClass7_0_3<TSource, TMiddle, TResult>
     template<typename TSource, typename TMiddle, typename TResult>
     class $$c__DisplayClass7_0_3;
-    // Nested type: System::Linq::Enumerable::$SelectManyIterator$d__17_2<TResult, TSource>
-    template<typename TResult, typename TSource>
+    // Nested type: System::Linq::Enumerable::$SelectManyIterator$d__17_2<TSource, TResult>
+    template<typename TSource, typename TResult>
     class $SelectManyIterator$d__17_2;
     // Nested type: System::Linq::Enumerable::$TakeIterator$d__25_1<TSource>
     template<typename TSource>
@@ -89,6 +92,9 @@ namespace System::Linq {
     // Nested type: System::Linq::Enumerable::$ConcatIterator$d__59_1<TSource>
     template<typename TSource>
     class $ConcatIterator$d__59_1;
+    // Nested type: System::Linq::Enumerable::$AppendIterator$d__61_1<TSource>
+    template<typename TSource>
+    class $AppendIterator$d__61_1;
     // Nested type: System::Linq::Enumerable::$DistinctIterator$d__68_1<TSource>
     template<typename TSource>
     class $DistinctIterator$d__68_1;
@@ -118,9 +124,9 @@ namespace System::Linq {
     }
     // static public System.Collections.Generic.IEnumerable`1<TResult> Select(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,TResult> selector)
     // Offset: 0xFFFFFFFF
-    template<class TResult, class TSource>
+    template<class TSource, class TResult>
     static System::Collections::Generic::IEnumerable_1<TResult>* Select(System::Collections::Generic::IEnumerable_1<TSource>* source, System::Func_2<TSource, TResult>* selector) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::IEnumerable_1<TResult>*>("System.Linq", "Enumerable", "Select", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}, source, selector)));
+      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::IEnumerable_1<TResult>*>("System.Linq", "Enumerable", "Select", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, source, selector)));
     }
     // static private System.Func`2<TSource,System.Boolean> CombinePredicates(System.Func`2<TSource,System.Boolean> predicate1, System.Func`2<TSource,System.Boolean> predicate2)
     // Offset: 0xFFFFFFFF
@@ -130,21 +136,21 @@ namespace System::Linq {
     }
     // static private System.Func`2<TSource,TResult> CombineSelectors(System.Func`2<TSource,TMiddle> selector1, System.Func`2<TMiddle,TResult> selector2)
     // Offset: 0xFFFFFFFF
-    template<class TSource, class TResult, class TMiddle>
+    template<class TSource, class TMiddle, class TResult>
     static System::Func_2<TSource, TResult>* CombineSelectors(System::Func_2<TSource, TMiddle>* selector1, System::Func_2<TMiddle, TResult>* selector2) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Func_2<TSource, TResult>*>("System.Linq", "Enumerable", "CombineSelectors", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMiddle>::get()}, selector1, selector2)));
+      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Func_2<TSource, TResult>*>("System.Linq", "Enumerable", "CombineSelectors", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMiddle>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, selector1, selector2)));
     }
     // static public System.Collections.Generic.IEnumerable`1<TResult> SelectMany(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.Collections.Generic.IEnumerable`1<TResult>> selector)
     // Offset: 0xFFFFFFFF
-    template<class TResult, class TSource>
+    template<class TSource, class TResult>
     static System::Collections::Generic::IEnumerable_1<TResult>* SelectMany(System::Collections::Generic::IEnumerable_1<TSource>* source, System::Func_2<TSource, System::Collections::Generic::IEnumerable_1<TResult>*>* selector) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::IEnumerable_1<TResult>*>("System.Linq", "Enumerable", "SelectMany", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}, source, selector)));
+      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::IEnumerable_1<TResult>*>("System.Linq", "Enumerable", "SelectMany", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, source, selector)));
     }
     // static private System.Collections.Generic.IEnumerable`1<TResult> SelectManyIterator(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.Collections.Generic.IEnumerable`1<TResult>> selector)
     // Offset: 0xFFFFFFFF
-    template<class TResult, class TSource>
+    template<class TSource, class TResult>
     static System::Collections::Generic::IEnumerable_1<TResult>* SelectManyIterator(System::Collections::Generic::IEnumerable_1<TSource>* source, System::Func_2<TSource, System::Collections::Generic::IEnumerable_1<TResult>*>* selector) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::IEnumerable_1<TResult>*>("System.Linq", "Enumerable", "SelectManyIterator", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}, source, selector)));
+      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::IEnumerable_1<TResult>*>("System.Linq", "Enumerable", "SelectManyIterator", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, source, selector)));
     }
     // static public System.Collections.Generic.IEnumerable`1<TSource> Take(System.Collections.Generic.IEnumerable`1<TSource> source, System.Int32 count)
     // Offset: 0xFFFFFFFF
@@ -190,9 +196,9 @@ namespace System::Linq {
     }
     // static public System.Collections.Generic.IEnumerable`1<System.Linq.IGrouping`2<TKey,TSource>> GroupBy(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,TKey> keySelector)
     // Offset: 0xFFFFFFFF
-    template<class TKey, class TSource>
+    template<class TSource, class TKey>
     static System::Collections::Generic::IEnumerable_1<System::Linq::IGrouping_2<TKey, TSource>*>* GroupBy(System::Collections::Generic::IEnumerable_1<TSource>* source, System::Func_2<TSource, TKey>* keySelector) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::IEnumerable_1<System::Linq::IGrouping_2<TKey, TSource>*>*>("System.Linq", "Enumerable", "GroupBy", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}, source, keySelector)));
+      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::IEnumerable_1<System::Linq::IGrouping_2<TKey, TSource>*>*>("System.Linq", "Enumerable", "GroupBy", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get()}, source, keySelector)));
     }
     // static public System.Collections.Generic.IEnumerable`1<TSource> Concat(System.Collections.Generic.IEnumerable`1<TSource> first, System.Collections.Generic.IEnumerable`1<TSource> second)
     // Offset: 0xFFFFFFFF
@@ -205,6 +211,18 @@ namespace System::Linq {
     template<class TSource>
     static System::Collections::Generic::IEnumerable_1<TSource>* ConcatIterator(System::Collections::Generic::IEnumerable_1<TSource>* first, System::Collections::Generic::IEnumerable_1<TSource>* second) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::IEnumerable_1<TSource>*>("System.Linq", "Enumerable", "ConcatIterator", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}, first, second)));
+    }
+    // static public System.Collections.Generic.IEnumerable`1<TSource> Append(System.Collections.Generic.IEnumerable`1<TSource> source, TSource element)
+    // Offset: 0xFFFFFFFF
+    template<class TSource>
+    static System::Collections::Generic::IEnumerable_1<TSource>* Append(System::Collections::Generic::IEnumerable_1<TSource>* source, TSource element) {
+      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::IEnumerable_1<TSource>*>("System.Linq", "Enumerable", "Append", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}, source, element)));
+    }
+    // static private System.Collections.Generic.IEnumerable`1<TSource> AppendIterator(System.Collections.Generic.IEnumerable`1<TSource> source, TSource element)
+    // Offset: 0xFFFFFFFF
+    template<class TSource>
+    static System::Collections::Generic::IEnumerable_1<TSource>* AppendIterator(System::Collections::Generic::IEnumerable_1<TSource>* source, TSource element) {
+      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::IEnumerable_1<TSource>*>("System.Linq", "Enumerable", "AppendIterator", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}, source, element)));
     }
     // static public System.Collections.Generic.IEnumerable`1<TSource> Distinct(System.Collections.Generic.IEnumerable`1<TSource> source)
     // Offset: 0xFFFFFFFF
@@ -242,6 +260,18 @@ namespace System::Linq {
     static System::Collections::Generic::IEnumerable_1<TSource>* ReverseIterator(System::Collections::Generic::IEnumerable_1<TSource>* source) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::IEnumerable_1<TSource>*>("System.Linq", "Enumerable", "ReverseIterator", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}, source)));
     }
+    // static public System.Boolean SequenceEqual(System.Collections.Generic.IEnumerable`1<TSource> first, System.Collections.Generic.IEnumerable`1<TSource> second)
+    // Offset: 0xFFFFFFFF
+    template<class TSource>
+    static bool SequenceEqual(System::Collections::Generic::IEnumerable_1<TSource>* first, System::Collections::Generic::IEnumerable_1<TSource>* second) {
+      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("System.Linq", "Enumerable", "SequenceEqual", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}, first, second)));
+    }
+    // static public System.Boolean SequenceEqual(System.Collections.Generic.IEnumerable`1<TSource> first, System.Collections.Generic.IEnumerable`1<TSource> second, System.Collections.Generic.IEqualityComparer`1<TSource> comparer)
+    // Offset: 0xFFFFFFFF
+    template<class TSource>
+    static bool SequenceEqual(System::Collections::Generic::IEnumerable_1<TSource>* first, System::Collections::Generic::IEnumerable_1<TSource>* second, System::Collections::Generic::IEqualityComparer_1<TSource>* comparer) {
+      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("System.Linq", "Enumerable", "SequenceEqual", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}, first, second, comparer)));
+    }
     // static public TSource[] ToArray(System.Collections.Generic.IEnumerable`1<TSource> source)
     // Offset: 0xFFFFFFFF
     template<class TSource>
@@ -256,15 +286,15 @@ namespace System::Linq {
     }
     // static public System.Collections.Generic.Dictionary`2<TKey,TElement> ToDictionary(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,TKey> keySelector, System.Func`2<TSource,TElement> elementSelector)
     // Offset: 0xFFFFFFFF
-    template<class TKey, class TElement, class TSource>
+    template<class TSource, class TKey, class TElement>
     static System::Collections::Generic::Dictionary_2<TKey, TElement>* ToDictionary(System::Collections::Generic::IEnumerable_1<TSource>* source, System::Func_2<TSource, TKey>* keySelector, System::Func_2<TSource, TElement>* elementSelector) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::Dictionary_2<TKey, TElement>*>("System.Linq", "Enumerable", "ToDictionary", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TElement>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}, source, keySelector, elementSelector)));
+      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::Dictionary_2<TKey, TElement>*>("System.Linq", "Enumerable", "ToDictionary", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TElement>::get()}, source, keySelector, elementSelector)));
     }
     // static public System.Collections.Generic.Dictionary`2<TKey,TElement> ToDictionary(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,TKey> keySelector, System.Func`2<TSource,TElement> elementSelector, System.Collections.Generic.IEqualityComparer`1<TKey> comparer)
     // Offset: 0xFFFFFFFF
-    template<class TKey, class TElement, class TSource>
+    template<class TSource, class TKey, class TElement>
     static System::Collections::Generic::Dictionary_2<TKey, TElement>* ToDictionary(System::Collections::Generic::IEnumerable_1<TSource>* source, System::Func_2<TSource, TKey>* keySelector, System::Func_2<TSource, TElement>* elementSelector, System::Collections::Generic::IEqualityComparer_1<TKey>* comparer) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::Dictionary_2<TKey, TElement>*>("System.Linq", "Enumerable", "ToDictionary", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TElement>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}, source, keySelector, elementSelector, comparer)));
+      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::Dictionary_2<TKey, TElement>*>("System.Linq", "Enumerable", "ToDictionary", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TElement>::get()}, source, keySelector, elementSelector, comparer)));
     }
     // static public System.Collections.Generic.IEnumerable`1<TSource> DefaultIfEmpty(System.Collections.Generic.IEnumerable`1<TSource> source, TSource defaultValue)
     // Offset: 0xFFFFFFFF
@@ -416,8 +446,14 @@ namespace System::Linq {
     static bool Contains(System::Collections::Generic::IEnumerable_1<TSource>* source, TSource value, System::Collections::Generic::IEqualityComparer_1<TSource>* comparer) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("System.Linq", "Enumerable", "Contains", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}, source, value, comparer)));
     }
+    // static public TAccumulate Aggregate(System.Collections.Generic.IEnumerable`1<TSource> source, TAccumulate seed, System.Func`3<TAccumulate,TSource,TAccumulate> func)
+    // Offset: 0xFFFFFFFF
+    template<class TSource, class TAccumulate>
+    static TAccumulate Aggregate(System::Collections::Generic::IEnumerable_1<TSource>* source, TAccumulate seed, System::Func_3<TAccumulate, TSource, TAccumulate>* func) {
+      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<TAccumulate>("System.Linq", "Enumerable", "Aggregate", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TAccumulate>::get()}, source, seed, func)));
+    }
     // static public System.Int32 Sum(System.Collections.Generic.IEnumerable`1<System.Int32> source)
-    // Offset: 0x1981658
+    // Offset: 0x21D14A8
     static int Sum(System::Collections::Generic::IEnumerable_1<int>* source);
     // static public System.Int32 Sum(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.Int32> selector)
     // Offset: 0xFFFFFFFF
@@ -426,13 +462,13 @@ namespace System::Linq {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<int>("System.Linq", "Enumerable", "Sum", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}, source, selector)));
     }
     // static public System.Single Min(System.Collections.Generic.IEnumerable`1<System.Single> source)
-    // Offset: 0x198195C
+    // Offset: 0x21D17AC
     static float Min(System::Collections::Generic::IEnumerable_1<float>* source);
     // static public System.Int32 Max(System.Collections.Generic.IEnumerable`1<System.Int32> source)
-    // Offset: 0x1981C9C
+    // Offset: 0x21D1AEC
     static int Max(System::Collections::Generic::IEnumerable_1<int>* source);
     // static public System.Single Max(System.Collections.Generic.IEnumerable`1<System.Single> source)
-    // Offset: 0x1981F48
+    // Offset: 0x21D1D98
     static float Max(System::Collections::Generic::IEnumerable_1<float>* source);
     // static public System.Int32 Max(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.Int32> selector)
     // Offset: 0xFFFFFFFF

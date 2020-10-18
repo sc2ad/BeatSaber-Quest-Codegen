@@ -15,6 +15,8 @@
 namespace GlobalNamespace {
   // Forward declaring type: IDifficultyBeatmap
   class IDifficultyBeatmap;
+  // Forward declaring type: GameplayModifiers
+  class GameplayModifiers;
 }
 // Completed forward declares
 // Type namespace: OnlineServices
@@ -34,14 +36,14 @@ namespace OnlineServices {
     // public readonly OnlineServices.ScoresScope scope
     // Offset: 0x10
     OnlineServices::ScoresScope scope;
-    // public readonly System.Boolean includeScoreWithModifiers
-    // Offset: 0x14
-    bool includeScoreWithModifiers;
+    // public readonly GameplayModifiers gameplayModifiers
+    // Offset: 0x18
+    GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Creating value type constructor for type: GetLeaderboardFilterData
-    constexpr GetLeaderboardFilterData(GlobalNamespace::IDifficultyBeatmap* beatmap_ = {}, int count_ = {}, int fromRank_ = {}, OnlineServices::ScoresScope scope_ = {}, bool includeScoreWithModifiers_ = {}) noexcept : beatmap{beatmap_}, count{count_}, fromRank{fromRank_}, scope{scope_}, includeScoreWithModifiers{includeScoreWithModifiers_} {}
-    // public System.Void .ctor(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, OnlineServices.ScoresScope scope, System.Boolean includeScoreWithModifiers)
-    // Offset: 0xA2CAEC
-    // ABORTED: conflicts with another method.  GetLeaderboardFilterData(GlobalNamespace::IDifficultyBeatmap* beatmap, int count, int fromRank, OnlineServices::ScoresScope scope, bool includeScoreWithModifiers);
+    constexpr GetLeaderboardFilterData(GlobalNamespace::IDifficultyBeatmap* beatmap_ = {}, int count_ = {}, int fromRank_ = {}, OnlineServices::ScoresScope scope_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}) noexcept : beatmap{beatmap_}, count{count_}, fromRank{fromRank_}, scope{scope_}, gameplayModifiers{gameplayModifiers_} {}
+    // public System.Void .ctor(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, OnlineServices.ScoresScope scope, GameplayModifiers gameplayModifiers)
+    // Offset: 0xDA260C
+    // ABORTED: conflicts with another method.  GetLeaderboardFilterData(GlobalNamespace::IDifficultyBeatmap* beatmap, int count, int fromRank, OnlineServices::ScoresScope scope, GlobalNamespace::GameplayModifiers* gameplayModifiers);
   }; // OnlineServices.GetLeaderboardFilterData
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

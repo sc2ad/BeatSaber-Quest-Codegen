@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRExtendedDisplay::_GetDXGIOutputInfo : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x151C2BC
+    // Offset: 0x1D5FBC4
     static IVRExtendedDisplay::_GetDXGIOutputInfo* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(ref System.Int32 pnAdapterIndex, ref System.Int32 pnAdapterOutputIndex)
-    // Offset: 0x151C2D0
+    // Offset: 0x1D5FBD8
     void Invoke(int& pnAdapterIndex, int& pnAdapterOutputIndex);
     // public System.IAsyncResult BeginInvoke(ref System.Int32 pnAdapterIndex, ref System.Int32 pnAdapterOutputIndex, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x151C53C
+    // Offset: 0x1D5FE44
     System::IAsyncResult* BeginInvoke(int& pnAdapterIndex, int& pnAdapterOutputIndex, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(ref System.Int32 pnAdapterIndex, ref System.Int32 pnAdapterOutputIndex, System.IAsyncResult result)
-    // Offset: 0x151C5E8
+    // Offset: 0x1D5FEF0
     void EndInvoke(int& pnAdapterIndex, int& pnAdapterOutputIndex, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRExtendedDisplay/_GetDXGIOutputInfo
 }

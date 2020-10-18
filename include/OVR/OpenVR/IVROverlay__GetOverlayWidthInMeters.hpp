@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_GetOverlayWidthInMeters : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x152B8BC
+    // Offset: 0x1D6F1C4
     static IVROverlay::_GetOverlayWidthInMeters* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, ref System.Single pfWidthInMeters)
-    // Offset: 0x152B8D0
+    // Offset: 0x1D6F1D8
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, float& pfWidthInMeters);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, ref System.Single pfWidthInMeters, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x152BB54
+    // Offset: 0x1D6F45C
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, float& pfWidthInMeters, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(ref System.Single pfWidthInMeters, System.IAsyncResult result)
-    // Offset: 0x152BC04
+    // Offset: 0x1D6F50C
     OVR::OpenVR::EVROverlayError EndInvoke(float& pfWidthInMeters, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetOverlayWidthInMeters
 }

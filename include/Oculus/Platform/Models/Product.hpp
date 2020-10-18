@@ -31,7 +31,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x28
     ::Il2CppString* Sku;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xEAAF40
+    // Offset: 0x136B63C
     static Product* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.Product
 }

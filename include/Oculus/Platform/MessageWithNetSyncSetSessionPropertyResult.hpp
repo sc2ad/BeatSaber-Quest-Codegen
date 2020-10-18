@@ -25,16 +25,16 @@ namespace Oculus::Platform {
   class MessageWithNetSyncSetSessionPropertyResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::NetSyncSetSessionPropertyResult*> {
     public:
     // protected Oculus.Platform.Models.NetSyncSetSessionPropertyResult GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xEA67DC
+    // Offset: 0x1366ED8
     Oculus::Platform::Models::NetSyncSetSessionPropertyResult* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xEA6738
+    // Offset: 0x1366E34
     // Implemented from: Oculus.Platform.Message`1
-    // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
+    // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithNetSyncSetSessionPropertyResult* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.NetSyncSetSessionPropertyResult GetNetSyncSetSessionPropertyResult()
-    // Offset: 0xEA6798
+    // Offset: 0x1366E94
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.NetSyncSetSessionPropertyResult Message::GetNetSyncSetSessionPropertyResult()
     Oculus::Platform::Models::NetSyncSetSessionPropertyResult* GetNetSyncSetSessionPropertyResult();

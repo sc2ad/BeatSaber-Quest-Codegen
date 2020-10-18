@@ -51,22 +51,22 @@ namespace UnityEngineInternal::Input {
     // Set static field: static private System.Action`2<System.Int32,System.String> s_OnDeviceDiscoveredCallback
     static void _set_s_OnDeviceDiscoveredCallback(System::Action_2<int, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1982448
+    // Offset: 0x222C7F8
     static void _cctor();
     // static System.Void NotifyBeforeUpdate(UnityEngineInternal.Input.NativeInputUpdateType updateType)
-    // Offset: 0x19824C4
+    // Offset: 0x222C874
     static void NotifyBeforeUpdate(UnityEngineInternal::Input::NativeInputUpdateType updateType);
     // static System.Void NotifyUpdate(UnityEngineInternal.Input.NativeInputUpdateType updateType, System.IntPtr eventBuffer)
-    // Offset: 0x1982550
+    // Offset: 0x222C900
     static void NotifyUpdate(UnityEngineInternal::Input::NativeInputUpdateType updateType, System::IntPtr eventBuffer);
     // static System.Void NotifyDeviceDiscovered(System.Int32 deviceId, System.String deviceDescriptor)
-    // Offset: 0x1982878
+    // Offset: 0x222CC28
     static void NotifyDeviceDiscovered(int deviceId, ::Il2CppString* deviceDescriptor);
     // static System.Void ShouldRunUpdate(UnityEngineInternal.Input.NativeInputUpdateType updateType, out System.Boolean retval)
-    // Offset: 0x1982918
+    // Offset: 0x222CCC8
     static void ShouldRunUpdate(UnityEngineInternal::Input::NativeInputUpdateType updateType, bool& retval);
     // static System.Void set_hasDeviceDiscoveredCallback(System.Boolean value)
-    // Offset: 0x1982484
+    // Offset: 0x222C834
     static void set_hasDeviceDiscoveredCallback(bool value);
   }; // UnityEngineInternal.Input.NativeInputSystem
 }

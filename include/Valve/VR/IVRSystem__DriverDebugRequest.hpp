@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRSystem::_DriverDebugRequest : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16D3A2C
+    // Offset: 0x1F587D4
     static IVRSystem::_DriverDebugRequest* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.UInt32 unDeviceIndex, System.String pchRequest, System.Text.StringBuilder pchResponseBuffer, System.UInt32 unResponseBufferSize)
-    // Offset: 0x16D3A40
+    // Offset: 0x1F587E8
     uint Invoke(uint unDeviceIndex, ::Il2CppString* pchRequest, System::Text::StringBuilder* pchResponseBuffer, uint unResponseBufferSize);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unDeviceIndex, System.String pchRequest, System.Text.StringBuilder pchResponseBuffer, System.UInt32 unResponseBufferSize, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16D3D08
+    // Offset: 0x1F58AB0
     System::IAsyncResult* BeginInvoke(uint unDeviceIndex, ::Il2CppString* pchRequest, System::Text::StringBuilder* pchResponseBuffer, uint unResponseBufferSize, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16D3DBC
+    // Offset: 0x1F58B64
     uint EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_DriverDebugRequest
 }

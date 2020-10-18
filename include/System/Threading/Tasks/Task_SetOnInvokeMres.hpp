@@ -18,12 +18,12 @@ namespace System::Threading::Tasks {
   class Task::SetOnInvokeMres : public System::Threading::ManualResetEventSlim, public System::Threading::Tasks::ITaskCompletionAction {
     public:
     // System.Void .ctor()
-    // Offset: 0xCE5878
+    // Offset: 0x16E146C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Task::SetOnInvokeMres* New_ctor();
     // public System.Void Invoke(System.Threading.Tasks.Task completingTask)
-    // Offset: 0xCE7620
+    // Offset: 0x16E4088
     // Implemented from: System.Threading.Tasks.ITaskCompletionAction
     // Base method: System.Void ITaskCompletionAction::Invoke(System.Threading.Tasks.Task completingTask)
     void Invoke(System::Threading::Tasks::Task* completingTask);

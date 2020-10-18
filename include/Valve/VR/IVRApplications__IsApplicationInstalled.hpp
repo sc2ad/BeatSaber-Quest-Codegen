@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRApplications::_IsApplicationInstalled : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xFEA800
+    // Offset: 0x153879C
     static IVRApplications::_IsApplicationInstalled* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.String pchAppKey)
-    // Offset: 0xFDC6E8
+    // Offset: 0x152A684
     bool Invoke(::Il2CppString* pchAppKey);
     // public System.IAsyncResult BeginInvoke(System.String pchAppKey, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xFEA814
+    // Offset: 0x15387B0
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchAppKey, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0xFEA838
+    // Offset: 0x15387D4
     bool EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRApplications/_IsApplicationInstalled
 }

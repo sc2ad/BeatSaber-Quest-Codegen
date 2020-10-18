@@ -28,10 +28,10 @@ namespace TMPro {
       return stencilMaterial;
     }
     // System.Boolean <AddMaskingMaterial>b__0(TMPro.TMP_MaterialManager/MaskingMaterial item)
-    // Offset: 0xBAFBBC
+    // Offset: 0xF8B764
     bool $AddMaskingMaterial$b__0(TMPro::TMP_MaterialManager::MaskingMaterial* item);
     // public System.Void .ctor()
-    // Offset: 0xBADFFC
+    // Offset: 0xF89BA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TMP_MaterialManager::$$c__DisplayClass12_0* New_ctor();

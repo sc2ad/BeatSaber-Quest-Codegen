@@ -22,8 +22,6 @@ namespace GlobalNamespace {
 }
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Action
-  class Action;
   // Forward declaring type: Action`1<T>
   template<typename T>
   class Action_1;
@@ -54,26 +52,26 @@ namespace GlobalNamespace {
     // public ScenesTransitionSetupDataSO scenesTransitionSetupData
     // Offset: 0x30
     GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData;
-    // public System.Action finishCallback
+    // public System.Action`1<Zenject.DiContainer> finishCallback
     // Offset: 0x38
-    System::Action* finishCallback;
+    System::Action_1<Zenject::DiContainer*>* finishCallback;
     // public System.Action`1<Zenject.DiContainer> <>9__1
     // Offset: 0x40
     System::Action_1<Zenject::DiContainer*>* $$9__1;
-    // public System.Action <>9__2
+    // public System.Action`1<Zenject.DiContainer> <>9__2
     // Offset: 0x48
-    System::Action* $$9__2;
-    // System.Void <ClearAndOpenScenes>b__0()
-    // Offset: 0xCB4EDC
-    void $ClearAndOpenScenes$b__0();
+    System::Action_1<Zenject::DiContainer*>* $$9__2;
+    // System.Void <ClearAndOpenScenes>b__0(Zenject.DiContainer emptySceneContainer)
+    // Offset: 0x109AD64
+    void $ClearAndOpenScenes$b__0(Zenject::DiContainer* emptySceneContainer);
     // System.Void <ClearAndOpenScenes>b__1(Zenject.DiContainer container)
-    // Offset: 0xCB5018
+    // Offset: 0x109AEA8
     void $ClearAndOpenScenes$b__1(Zenject::DiContainer* container);
-    // System.Void <ClearAndOpenScenes>b__2()
-    // Offset: 0xCB50C0
-    void $ClearAndOpenScenes$b__2();
+    // System.Void <ClearAndOpenScenes>b__2(Zenject.DiContainer container)
+    // Offset: 0x109AF50
+    void $ClearAndOpenScenes$b__2(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0xCB3D88
+    // Offset: 0x1099AB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GameScenesManager::$$c__DisplayClass33_0* New_ctor();

@@ -40,13 +40,13 @@ namespace UnityEngine::TestTools::TestRunner {
     // Set static field: static public System.Func`2<UnityEngine.TestTools.TestRunner.GUI.TestRunnerFilter,NUnit.Framework.Interfaces.ITestFilter> <>9__5_0
     static void _set_$$9__5_0(System::Func_2<UnityEngine::TestTools::TestRunner::GUI::TestRunnerFilter*, NUnit::Framework::Interfaces::ITestFilter*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xE49B50
+    // Offset: 0x12C68B0
     static void _cctor();
     // NUnit.Framework.Interfaces.ITestFilter <BuildNUnitFilter>b__5_0(UnityEngine.TestTools.TestRunner.GUI.TestRunnerFilter f)
-    // Offset: 0xE49BC0
+    // Offset: 0x12C6920
     NUnit::Framework::Interfaces::ITestFilter* $BuildNUnitFilter$b__5_0(UnityEngine::TestTools::TestRunner::GUI::TestRunnerFilter* f);
     // public System.Void .ctor()
-    // Offset: 0xE49BB8
+    // Offset: 0x12C6918
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlaymodeTestsControllerSettings::$$c* New_ctor();

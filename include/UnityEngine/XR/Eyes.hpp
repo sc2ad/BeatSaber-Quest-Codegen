@@ -27,23 +27,23 @@ namespace UnityEngine::XR {
     // Creating value type constructor for type: Eyes
     constexpr Eyes(uint64_t m_DeviceId_ = {}, uint m_FeatureIndex_ = {}) noexcept : m_DeviceId{m_DeviceId_}, m_FeatureIndex{m_FeatureIndex_} {}
     // System.UInt64 get_deviceId()
-    // Offset: 0xA5ED78
+    // Offset: 0xDDDD80
     uint64_t get_deviceId();
     // System.UInt32 get_featureIndex()
-    // Offset: 0xA5ED80
+    // Offset: 0xDDDD88
     uint get_featureIndex();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA5ED88
+    // Offset: 0xDDDD90
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(UnityEngine.XR.Eyes other)
-    // Offset: 0xA5ED90
+    // Offset: 0xDDDD98
     // Implemented from: System.IEquatable`1
-    // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.XR.Eyes other)
+    // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.XR.Eyes other)
     bool Equals(UnityEngine::XR::Eyes other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA5EDB4
+    // Offset: 0xDDDDBC
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

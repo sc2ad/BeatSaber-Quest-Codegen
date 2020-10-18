@@ -58,76 +58,79 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public readonly UnityEngine.ProBuilder.Vector3Mask XYZ
     static void _set_XYZ(UnityEngine::ProBuilder::Vector3Mask value);
     // public System.Single get_x()
-    // Offset: 0xA5790C
+    // Offset: 0xDD4EB8
     float get_x();
     // public System.Single get_y()
-    // Offset: 0xA57924
+    // Offset: 0xDD4ED0
     float get_y();
     // public System.Single get_z()
-    // Offset: 0xA5793C
+    // Offset: 0xDD4EE8
     float get_z();
     // public System.Void .ctor(UnityEngine.Vector3 v, System.Single epsilon)
-    // Offset: 0xA57954
+    // Offset: 0xDD4F00
     Vector3Mask(UnityEngine::Vector3 v, float epsilon);
     // public System.Void .ctor(System.Byte mask)
-    // Offset: 0xA5795C
+    // Offset: 0xDD4F08
     // ABORTED: conflicts with another method.  Vector3Mask(uint8_t mask);
     // public System.Int32 get_active()
-    // Offset: 0xA5796C
+    // Offset: 0xDD4F18
     int get_active();
     // static public UnityEngine.ProBuilder.Vector3Mask op_Explicit(UnityEngine.Vector3 v)
-    // Offset: 0x18D598C
+    // Offset: 0x2128DA8
     explicit Vector3Mask(UnityEngine::Vector3& v);
     // public System.Single get_Item(System.Int32 i)
-    // Offset: 0xA57988
+    // Offset: 0xDD4F34
     float get_Item(int i);
     // public System.Void set_Item(System.Int32 i, System.Single value)
-    // Offset: 0xA57990
+    // Offset: 0xDD4F3C
     void set_Item(int i, float value);
     // static private System.Void .cctor()
-    // Offset: 0x18D5E78
+    // Offset: 0x21292F4
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0xA57964
+    // Offset: 0xDD4F10
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public System.Boolean Equals(UnityEngine.ProBuilder.Vector3Mask other)
-    // Offset: 0xA57998
+    // Offset: 0xDD4F44
     // Implemented from: System.IEquatable`1
-    // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.ProBuilder.Vector3Mask other)
+    // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.ProBuilder.Vector3Mask other)
     bool Equals(UnityEngine::ProBuilder::Vector3Mask other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA579A8
+    // Offset: 0xDD4F54
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA579B0
+    // Offset: 0xDD4F5C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.ProBuilder.Vector3Mask
   // static public UnityEngine.ProBuilder.Vector3Mask op_BitwiseOr(UnityEngine.ProBuilder.Vector3Mask left, UnityEngine.ProBuilder.Vector3Mask right)
-  // Offset: 0x18D59BC
+  // Offset: 0x2128DD8
   UnityEngine::ProBuilder::Vector3Mask operator|(const UnityEngine::ProBuilder::Vector3Mask& left, const UnityEngine::ProBuilder::Vector3Mask& right);
   // static public UnityEngine.ProBuilder.Vector3Mask op_BitwiseAnd(UnityEngine.ProBuilder.Vector3Mask left, UnityEngine.ProBuilder.Vector3Mask right)
-  // Offset: 0x18D59C8
+  // Offset: 0x2128DE4
   UnityEngine::ProBuilder::Vector3Mask operator&(const UnityEngine::ProBuilder::Vector3Mask& left, const UnityEngine::ProBuilder::Vector3Mask& right);
   // static public UnityEngine.ProBuilder.Vector3Mask op_ExclusiveOr(UnityEngine.ProBuilder.Vector3Mask left, UnityEngine.ProBuilder.Vector3Mask right)
-  // Offset: 0x18D59D4
+  // Offset: 0x2128DF0
   UnityEngine::ProBuilder::Vector3Mask operator^(const UnityEngine::ProBuilder::Vector3Mask& left, const UnityEngine::ProBuilder::Vector3Mask& right);
   // static public UnityEngine.Vector3 op_Multiply(UnityEngine.ProBuilder.Vector3Mask mask, System.Single value)
-  // Offset: 0x18D59E0
+  // Offset: 0x2128DFC
   UnityEngine::Vector3 operator*(const UnityEngine::ProBuilder::Vector3Mask& mask, const float& value);
+  // static public UnityEngine.Vector3 op_Multiply(UnityEngine.ProBuilder.Vector3Mask mask, UnityEngine.Vector3 value)
+  // Offset: 0x2128E60
+  UnityEngine::Vector3 operator*(const UnityEngine::ProBuilder::Vector3Mask& mask, const UnityEngine::Vector3& value);
   // static public UnityEngine.Vector3 op_Multiply(UnityEngine.Quaternion rotation, UnityEngine.ProBuilder.Vector3Mask mask)
-  // Offset: 0x18D5A44
+  // Offset: 0x2128EC0
   UnityEngine::Vector3 operator*(const UnityEngine::Quaternion& rotation, const UnityEngine::ProBuilder::Vector3Mask& mask);
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.Vector3Mask left, UnityEngine.ProBuilder.Vector3Mask right)
-  // Offset: 0x18D5C08
+  // Offset: 0x2129084
   bool operator ==(const UnityEngine::ProBuilder::Vector3Mask& left, const UnityEngine::ProBuilder::Vector3Mask& right);
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.Vector3Mask left, UnityEngine.ProBuilder.Vector3Mask right)
-  // Offset: 0x18D5C18
+  // Offset: 0x2129094
   bool operator !=(const UnityEngine::ProBuilder::Vector3Mask& left, const UnityEngine::ProBuilder::Vector3Mask& right);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

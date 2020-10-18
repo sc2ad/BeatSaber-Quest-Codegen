@@ -8,8 +8,8 @@
 #include "GlobalNamespace/NoteLineConnectionController_Pool.hpp"
 // Including type: UnityEngine.LineRenderer
 #include "UnityEngine/LineRenderer.hpp"
-// Including type: PlayerController
-#include "GlobalNamespace/PlayerController.hpp"
+// Including type: PlayerTransforms
+#include "GlobalNamespace/PlayerTransforms.hpp"
 // Including type: AudioTimeSyncController
 #include "GlobalNamespace/AudioTimeSyncController.hpp"
 // Including type: ColorManager

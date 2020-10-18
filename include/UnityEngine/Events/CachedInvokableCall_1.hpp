@@ -41,14 +41,14 @@ namespace UnityEngine::Events {
     // public override System.Void Invoke(System.Object[] args)
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.Events.InvokableCall`1
-    // Base method: System.Void InvokableCall`1::Invoke(System.Object[] args)
+    // Base method: System.Void InvokableCall_1::Invoke(System.Object[] args)
     void Invoke(::Array<::Il2CppObject*>* args) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Invoke", args));
     }
     // public override System.Void Invoke(T arg0)
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.Events.InvokableCall`1
-    // Base method: System.Void InvokableCall`1::Invoke(T arg0)
+    // Base method: System.Void InvokableCall_1::Invoke(T arg0)
     void Invoke(T arg0) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Invoke", arg0));
     }

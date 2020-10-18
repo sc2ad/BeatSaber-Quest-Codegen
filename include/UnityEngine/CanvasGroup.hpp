@@ -25,31 +25,31 @@ namespace UnityEngine {
   class CanvasGroup : public UnityEngine::Behaviour, public UnityEngine::ICanvasRaycastFilter {
     public:
     // public System.Single get_alpha()
-    // Offset: 0x19700D0
+    // Offset: 0x221C1B4
     float get_alpha();
     // public System.Void set_alpha(System.Single value)
-    // Offset: 0x1970110
+    // Offset: 0x221C1F4
     void set_alpha(float value);
     // public System.Boolean get_interactable()
-    // Offset: 0x1970160
+    // Offset: 0x221C244
     bool get_interactable();
     // public System.Void set_interactable(System.Boolean value)
-    // Offset: 0x19701A0
+    // Offset: 0x221C284
     void set_interactable(bool value);
     // public System.Boolean get_blocksRaycasts()
-    // Offset: 0x19701F0
+    // Offset: 0x221C2D4
     bool get_blocksRaycasts();
     // public System.Void set_blocksRaycasts(System.Boolean value)
-    // Offset: 0x1970230
+    // Offset: 0x221C314
     void set_blocksRaycasts(bool value);
     // public System.Boolean get_ignoreParentGroups()
-    // Offset: 0x1970280
+    // Offset: 0x221C364
     bool get_ignoreParentGroups();
     // public System.Void set_ignoreParentGroups(System.Boolean value)
-    // Offset: 0x19702C0
+    // Offset: 0x221C3A4
     void set_ignoreParentGroups(bool value);
     // public System.Boolean IsRaycastLocationValid(UnityEngine.Vector2 sp, UnityEngine.Camera eventCamera)
-    // Offset: 0x1970310
+    // Offset: 0x221C3F4
     // Implemented from: UnityEngine.ICanvasRaycastFilter
     // Base method: System.Boolean ICanvasRaycastFilter::IsRaycastLocationValid(UnityEngine.Vector2 sp, UnityEngine.Camera eventCamera)
     bool IsRaycastLocationValid(UnityEngine::Vector2 sp, UnityEngine::Camera* eventCamera);

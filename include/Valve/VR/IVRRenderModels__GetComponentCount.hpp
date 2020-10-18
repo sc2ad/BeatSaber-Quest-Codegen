@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRRenderModels::_GetComponentCount : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16C9230
+    // Offset: 0x1F4DFD8
     static IVRRenderModels::_GetComponentCount* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.String pchRenderModelName)
-    // Offset: 0x16C9244
+    // Offset: 0x1F4DFEC
     uint Invoke(::Il2CppString* pchRenderModelName);
     // public System.IAsyncResult BeginInvoke(System.String pchRenderModelName, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16C9604
+    // Offset: 0x1F4E3AC
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchRenderModelName, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16C9628
+    // Offset: 0x1F4E3D0
     uint EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRRenderModels/_GetComponentCount
 }

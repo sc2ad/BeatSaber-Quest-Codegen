@@ -21,24 +21,24 @@ namespace System::ComponentModel {
       return value;
     }
     // public System.Void .ctor(System.Boolean value)
-    // Offset: 0xF5D7C4
+    // Offset: 0x1726424
     static DefaultValueAttribute* New_ctor(bool value);
     // public System.Void .ctor(System.String value)
-    // Offset: 0xF5D844
+    // Offset: 0x17264A4
     static DefaultValueAttribute* New_ctor(::Il2CppString* value);
     // public System.Void .ctor(System.Object value)
-    // Offset: 0xF5D878
+    // Offset: 0x17264D8
     static DefaultValueAttribute* New_ctor(::Il2CppObject* value);
     // public System.Object get_Value()
-    // Offset: 0xF5D8AC
+    // Offset: 0x172650C
     ::Il2CppObject* get_Value();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xF5D8B4
+    // Offset: 0x1726514
     // Implemented from: System.Attribute
     // Base method: System.Boolean Attribute::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xF5D9D4
+    // Offset: 0x1726634
     // Implemented from: System.Attribute
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();

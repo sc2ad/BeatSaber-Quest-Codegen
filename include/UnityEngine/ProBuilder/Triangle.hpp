@@ -42,38 +42,38 @@ namespace UnityEngine::ProBuilder {
     // Creating value type constructor for type: Triangle
     constexpr Triangle(int m_A_ = {}, int m_B_ = {}, int m_C_ = {}) noexcept : m_A{m_A_}, m_B{m_B_}, m_C{m_C_} {}
     // public System.Int32 get_a()
-    // Offset: 0xA57830
+    // Offset: 0xDD4DDC
     int get_a();
     // public System.Int32 get_b()
-    // Offset: 0xA57838
+    // Offset: 0xDD4DE4
     int get_b();
     // public System.Int32 get_c()
-    // Offset: 0xA57840
+    // Offset: 0xDD4DEC
     int get_c();
     // public System.Collections.Generic.IEnumerable`1<System.Int32> get_indices()
-    // Offset: 0xA57848
+    // Offset: 0xDD4DF4
     System::Collections::Generic::IEnumerable_1<int>* get_indices();
     // public System.Void .ctor(System.Int32 a, System.Int32 b, System.Int32 c)
-    // Offset: 0xA57850
+    // Offset: 0xDD4DFC
     // ABORTED: conflicts with another method.  Triangle(int a, int b, int c);
     // public System.Boolean IsAdjacent(UnityEngine.ProBuilder.Triangle other)
-    // Offset: 0xA578B8
+    // Offset: 0xDD4E64
     bool IsAdjacent(UnityEngine::ProBuilder::Triangle other);
     // private System.Boolean ContainsEdge(UnityEngine.ProBuilder.Edge edge)
-    // Offset: 0xA578C4
+    // Offset: 0xDD4E70
     bool ContainsEdge(UnityEngine::ProBuilder::Edge edge);
     // public System.Boolean Equals(UnityEngine.ProBuilder.Triangle other)
-    // Offset: 0xA5785C
+    // Offset: 0xDD4E08
     // Implemented from: System.IEquatable`1
-    // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.ProBuilder.Triangle other)
+    // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.ProBuilder.Triangle other)
     bool Equals(UnityEngine::ProBuilder::Triangle other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA57890
+    // Offset: 0xDD4E3C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA57898
+    // Offset: 0xDD4E44
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

@@ -52,3 +52,6 @@ void UnityEngine::Playables::PlayableBehaviour::ProcessFrame(UnityEngine::Playab
 ::Il2CppObject* UnityEngine::Playables::PlayableBehaviour::Clone() {
   return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(this, "Clone"));
 }
+::Il2CppObject* UnityEngine::Playables::PlayableBehaviour::System_ICloneable_Clone() {
+  return UnityEngine::Playables::PlayableBehaviour::Clone();
+}

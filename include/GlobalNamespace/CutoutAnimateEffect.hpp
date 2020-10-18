@@ -44,28 +44,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_animating()
-    // Offset: 0xBE4614
+    // Offset: 0xF5C80C
     bool get_animating();
     // private System.Void set_animating(System.Boolean value)
-    // Offset: 0xBE461C
+    // Offset: 0xF5C814
     void set_animating(bool value);
     // protected System.Void Start()
-    // Offset: 0xBE4628
+    // Offset: 0xF5C820
     void Start();
     // private System.Collections.IEnumerator AnimateToCutoutCoroutine(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
-    // Offset: 0xBE46A8
+    // Offset: 0xF5C8A0
     System::Collections::IEnumerator* AnimateToCutoutCoroutine(float cutoutStart, float cutoutEnd, float duration);
     // private System.Void SetCutout(System.Single cutout)
-    // Offset: 0xBE4630
+    // Offset: 0xF5C828
     void SetCutout(float cutout);
     // public System.Void ResetEffect()
-    // Offset: 0xBE483C
+    // Offset: 0xF5CA34
     void ResetEffect();
     // public System.Void AnimateCutout(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
-    // Offset: 0xBE486C
+    // Offset: 0xF5CA64
     void AnimateCutout(float cutoutStart, float cutoutEnd, float duration);
     // public System.Void .ctor()
-    // Offset: 0xBE48CC
+    // Offset: 0xF5CAC4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

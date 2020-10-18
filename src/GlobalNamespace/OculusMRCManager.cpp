@@ -4,8 +4,8 @@
 // Begin includes
 // Including type: OculusMRCManager
 #include "GlobalNamespace/OculusMRCManager.hpp"
-// Including type: VRPlatformHelper
-#include "GlobalNamespace/VRPlatformHelper.hpp"
+// Including type: IVRPlatformHelper
+#include "GlobalNamespace/IVRPlatformHelper.hpp"
 // Including type: System.Func`2
 #include "System/Func_2.hpp"
 // Including type: UnityEngine.Camera

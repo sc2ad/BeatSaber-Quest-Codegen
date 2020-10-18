@@ -13,16 +13,16 @@
 #include "UnityEngine/EventSystems/IPointerExitHandler.hpp"
 // Completed includes
 // Begin forward declares
+// Forward declaring namespace: HMUI
+namespace HMUI {
+  // Forward declaring type: HoverHintController
+  class HoverHintController;
+}
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
   // Skipping declaration: Vector3 because it is already included!
   // Forward declaring type: Vector2
   struct Vector2;
-}
-// Forward declaring namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: HoverHintController
-  class HoverHintController;
 }
 // Forward declaring namespace: UnityEngine::EventSystems
 namespace UnityEngine::EventSystems {
@@ -38,41 +38,41 @@ namespace HMUI {
     // private System.String _text
     // Offset: 0x18
     ::Il2CppString* text;
-    // private UnityEngine.Vector3[] _worldCornersTemp
+    // private readonly HMUI.HoverHintController _hoverHintController
     // Offset: 0x20
-    ::Array<UnityEngine::Vector3>* worldCornersTemp;
-    // private HMUI.HoverHintController _hoverHintController
-    // Offset: 0x28
     HMUI::HoverHintController* hoverHintController;
+    // private readonly UnityEngine.Vector3[] _worldCornersTemp
+    // Offset: 0x28
+    ::Array<UnityEngine::Vector3>* worldCornersTemp;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String get_text()
-    // Offset: 0xEE2638
+    // Offset: 0x11BCDD8
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0xEE2640
+    // Offset: 0x11BCDE0
     void set_text(::Il2CppString* value);
     // public UnityEngine.Vector2 get_size()
-    // Offset: 0xEE2648
+    // Offset: 0x11BCDE8
     UnityEngine::Vector2 get_size();
     // public UnityEngine.Vector3 get_worldCenter()
-    // Offset: 0xEE26E0
+    // Offset: 0x11BCE80
     UnityEngine::Vector3 get_worldCenter();
-    // private System.Void OnDisable()
-    // Offset: 0xEE2980
+    // protected System.Void OnDisable()
+    // Offset: 0x11BD224
     void OnDisable();
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0xEE2868
+    // Offset: 0x11BD008
     // Implemented from: UnityEngine.EventSystems.IPointerEnterHandler
     // Base method: System.Void IPointerEnterHandler::OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0xEE291C
+    // Offset: 0x11BD0BC
     // Implemented from: UnityEngine.EventSystems.IPointerExitHandler
     // Base method: System.Void IPointerExitHandler::OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerExit(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0xEE29B4
+    // Offset: 0x11BD2B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

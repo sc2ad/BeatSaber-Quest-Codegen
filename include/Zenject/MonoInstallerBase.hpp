@@ -28,16 +28,16 @@ namespace Zenject {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected Zenject.DiContainer get_Container()
-    // Offset: 0xFC4604
+    // Offset: 0x15125A0
     Zenject::DiContainer* get_Container();
     // protected System.Void set_Container(Zenject.DiContainer value)
-    // Offset: 0xFC460C
+    // Offset: 0x15125A8
     void set_Container(Zenject::DiContainer* value);
     // public System.Void Start()
-    // Offset: 0xFC461C
+    // Offset: 0x15125B8
     void Start();
     // public System.Boolean get_IsEnabled()
-    // Offset: 0xFC4614
+    // Offset: 0x15125B0
     // Implemented from: Zenject.IInstaller
     // Base method: System.Boolean IInstaller::get_IsEnabled()
     bool get_IsEnabled();
@@ -45,12 +45,12 @@ namespace Zenject {
     // Maps to method: get_IsEnabled
     bool Zenject_IInstaller_get_IsEnabled();
     // public System.Void InstallBindings()
-    // Offset: 0xFC4620
+    // Offset: 0x15125BC
     // Implemented from: Zenject.IInstaller
     // Base method: System.Void IInstaller::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xFC45FC
+    // Offset: 0x1512598
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

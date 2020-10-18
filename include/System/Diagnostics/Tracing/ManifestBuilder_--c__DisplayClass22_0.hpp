@@ -30,7 +30,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x20
     int writtenSoFar;
     // public System.Void .ctor()
-    // Offset: 0xD9D5EC
+    // Offset: 0x124CAF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ManifestBuilder::$$c__DisplayClass22_0* New_ctor();

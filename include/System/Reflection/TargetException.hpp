@@ -23,20 +23,20 @@ namespace System::Reflection {
   class TargetException : public System::ApplicationException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1158C9C
+    // Offset: 0x18D6C34
     // Implemented from: System.ApplicationException
     // Base method: System.Void ApplicationException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static TargetException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1151E30
+    // Offset: 0x18CFF50
     // Implemented from: System.ApplicationException
     // Base method: System.Void ApplicationException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static TargetException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1158CD0
+    // Offset: 0x18D6C68
     // Implemented from: System.ApplicationException
     // Base method: System.Void ApplicationException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

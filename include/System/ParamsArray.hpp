@@ -44,28 +44,28 @@ namespace System {
     // Set static field: static private readonly System.Object[] threeArgArray
     static void _set_threeArgArray(::Array<::Il2CppObject*>* value);
     // public System.Void .ctor(System.Object arg0)
-    // Offset: 0xA46C64
+    // Offset: 0xDC39C8
     ParamsArray(::Il2CppObject* arg0);
     // public System.Void .ctor(System.Object arg0, System.Object arg1)
-    // Offset: 0xA46C6C
+    // Offset: 0xDC39D0
     ParamsArray(::Il2CppObject* arg0, ::Il2CppObject* arg1);
     // public System.Void .ctor(System.Object arg0, System.Object arg1, System.Object arg2)
-    // Offset: 0xA46C74
+    // Offset: 0xDC39D8
     ParamsArray(::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2);
     // public System.Void .ctor(System.Object[] args)
-    // Offset: 0xA46C7C
+    // Offset: 0xDC39E0
     ParamsArray(::Array<::Il2CppObject*>* args);
     // public System.Int32 get_Length()
-    // Offset: 0xA46C84
+    // Offset: 0xDC39E8
     int get_Length();
     // public System.Object get_Item(System.Int32 index)
-    // Offset: 0xA46CA0
+    // Offset: 0xDC3A04
     ::Il2CppObject* get_Item(int index);
     // private System.Object GetAtSlow(System.Int32 index)
-    // Offset: 0xA46CB4
+    // Offset: 0xDC3A18
     ::Il2CppObject* GetAtSlow(int index);
     // static private System.Void .cctor()
-    // Offset: 0x136568C
+    // Offset: 0x1AB5708
     static void _cctor();
   }; // System.ParamsArray
 }

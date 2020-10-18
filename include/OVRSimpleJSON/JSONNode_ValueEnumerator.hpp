@@ -27,22 +27,22 @@ namespace OVRSimpleJSON {
       return m_Enumerator;
     }
     // public System.Void .ctor(System.Collections.Generic.List`1/Enumerator<OVRSimpleJSON.JSONNode> aArrayEnum)
-    // Offset: 0xA3BC30
+    // Offset: 0xDB545C
     ValueEnumerator(typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator aArrayEnum);
     // public System.Void .ctor(System.Collections.Generic.Dictionary`2/Enumerator<System.String,OVRSimpleJSON.JSONNode> aDictEnum)
-    // Offset: 0xA3BCA4
+    // Offset: 0xDB54D0
     ValueEnumerator(typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator aDictEnum);
     // public System.Void .ctor(OVRSimpleJSON.JSONNode/Enumerator aEnumerator)
-    // Offset: 0xA3BD34
+    // Offset: 0xDB5560
     // ABORTED: conflicts with another method.  ValueEnumerator(OVRSimpleJSON::JSONNode::Enumerator aEnumerator);
     // public OVRSimpleJSON.JSONNode get_Current()
-    // Offset: 0xA3BD64
+    // Offset: 0xDB5590
     OVRSimpleJSON::JSONNode* get_Current();
     // public System.Boolean MoveNext()
-    // Offset: 0xA3BD6C
+    // Offset: 0xDB5598
     bool MoveNext();
     // public OVRSimpleJSON.JSONNode/ValueEnumerator GetEnumerator()
-    // Offset: 0xA3BD74
+    // Offset: 0xDB55A0
     OVRSimpleJSON::JSONNode::ValueEnumerator GetEnumerator();
   }; // OVRSimpleJSON.JSONNode/ValueEnumerator
 }

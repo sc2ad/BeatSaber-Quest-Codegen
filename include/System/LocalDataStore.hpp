@@ -29,22 +29,22 @@ namespace System {
     // Offset: 0x18
     System::LocalDataStoreMgr* m_Manager;
     // public System.Void .ctor(System.LocalDataStoreMgr mgr, System.Int32 InitialCapacity)
-    // Offset: 0x1016574
+    // Offset: 0x159BEC0
     static LocalDataStore* New_ctor(System::LocalDataStoreMgr* mgr, int InitialCapacity);
     // System.Void Dispose()
-    // Offset: 0x1016600
+    // Offset: 0x159BF4C
     void Dispose();
     // public System.Object GetData(System.LocalDataStoreSlot slot)
-    // Offset: 0x10166FC
+    // Offset: 0x159C048
     ::Il2CppObject* GetData(System::LocalDataStoreSlot* slot);
     // public System.Void SetData(System.LocalDataStoreSlot slot, System.Object data)
-    // Offset: 0x10168B0
+    // Offset: 0x159C1FC
     void SetData(System::LocalDataStoreSlot* slot, ::Il2CppObject* data);
     // System.Void FreeData(System.Int32 slot, System.Int64 cookie)
-    // Offset: 0x1016C88
+    // Offset: 0x159C5D4
     void FreeData(int slot, int64_t cookie);
     // private System.LocalDataStoreElement PopulateElement(System.LocalDataStoreSlot slot)
-    // Offset: 0x10169C8
+    // Offset: 0x159C314
     System::LocalDataStoreElement* PopulateElement(System::LocalDataStoreSlot* slot);
   }; // System.LocalDataStore
 }

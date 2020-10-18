@@ -34,34 +34,34 @@ namespace System::IO {
     // Offset: 0x68
     System::TermInfoDriver* driver;
     // public System.Void .ctor(System.IO.Stream stream, System.Text.Encoding encoding, System.Boolean leaveOpen)
-    // Offset: 0x112F434
+    // Offset: 0x168EE18
     static CStreamWriter* New_ctor(System::IO::Stream* stream, System::Text::Encoding* encoding, bool leaveOpen);
     // public System.Void InternalWriteString(System.String val)
-    // Offset: 0x112FB68
+    // Offset: 0x168F54C
     void InternalWriteString(::Il2CppString* val);
     // public System.Void InternalWriteChar(System.Char val)
-    // Offset: 0x112FA94
+    // Offset: 0x168F478
     void InternalWriteChar(::Il2CppChar val);
     // public System.Void InternalWriteChars(System.Char[] buffer, System.Int32 n)
-    // Offset: 0x112FC3C
+    // Offset: 0x168F620
     void InternalWriteChars(::Array<::Il2CppChar>* buffer, int n);
     // public override System.Void Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x112F544
+    // Offset: 0x168EF28
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
     void Write(::Array<::Il2CppChar>* buffer, int index, int count);
     // public override System.Void Write(System.Char val)
-    // Offset: 0x112F8C0
+    // Offset: 0x168F2A4
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.Char val)
     void Write(::Il2CppChar val);
     // public override System.Void Write(System.Char[] val)
-    // Offset: 0x112FD1C
+    // Offset: 0x168F700
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.Char[] val)
     void Write(::Array<::Il2CppChar>* val);
     // public override System.Void Write(System.String val)
-    // Offset: 0x112FD44
+    // Offset: 0x168F728
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.String val)
     void Write(::Il2CppString* val);

@@ -12,13 +12,13 @@ namespace System {
   class KnownTerminals : public ::Il2CppObject {
     public:
     // static public System.Byte[] get_linux()
-    // Offset: 0x10163C0
+    // Offset: 0x159BD0C
     static ::Array<uint8_t>* get_linux();
     // static public System.Byte[] get_xterm()
-    // Offset: 0x101642C
+    // Offset: 0x159BD78
     static ::Array<uint8_t>* get_xterm();
     // static public System.Byte[] get_ansi()
-    // Offset: 0x1016498
+    // Offset: 0x159BDE4
     static ::Array<uint8_t>* get_ansi();
   }; // System.KnownTerminals
 }

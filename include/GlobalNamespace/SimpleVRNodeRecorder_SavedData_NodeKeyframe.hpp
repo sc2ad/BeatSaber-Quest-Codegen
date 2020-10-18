@@ -47,13 +47,13 @@ namespace GlobalNamespace {
     // Offset: 0x2C
     float time;
     // public UnityEngine.Vector3 get_pos()
-    // Offset: 0xB9AD3C
+    // Offset: 0xEEFDA4
     UnityEngine::Vector3 get_pos();
     // public UnityEngine.Quaternion get_rot()
-    // Offset: 0xB9AD78
+    // Offset: 0xEEFDE0
     UnityEngine::Quaternion get_rot();
     // public System.Void .ctor(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot, System.Single time)
-    // Offset: 0xB9A7BC
+    // Offset: 0xEEF824
     static SimpleVRNodeRecorder::SavedData::NodeKeyframe* New_ctor(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot, float time);
   }; // SimpleVRNodeRecorder/SavedData/NodeKeyframe
 }

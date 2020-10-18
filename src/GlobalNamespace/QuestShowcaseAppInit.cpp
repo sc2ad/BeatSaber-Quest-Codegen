@@ -14,6 +14,8 @@
 #include "GlobalNamespace/MainSettingsModelSO.hpp"
 // Including type: GameScenesManager
 #include "GlobalNamespace/GameScenesManager.hpp"
+// Including type: PlayerDataModel
+#include "GlobalNamespace/PlayerDataModel.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

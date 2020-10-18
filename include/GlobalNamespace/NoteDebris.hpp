@@ -11,24 +11,25 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
+  // Forward declaring type: NoteDebrisPhysics
+  class NoteDebrisPhysics;
   // Forward declaring type: MaterialPropertyBlockController
   class MaterialPropertyBlockController;
   // Forward declaring type: ColorManager
   class ColorManager;
-  // Forward declaring type: NoteType
-  struct NoteType;
+  // Forward declaring type: ColorType
+  struct ColorType;
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
   // Forward declaring type: Transform
   class Transform;
-  // Forward declaring type: Rigidbody
-  class Rigidbody;
   // Forward declaring type: AnimationCurve
   class AnimationCurve;
   // Forward declaring type: Mesh
   class Mesh;
   // Skipping declaration: Vector3 because it is already included!
+  // Skipping declaration: Quaternion because it is already included!
 }
 // Forward declaring namespace: System
 namespace System {
@@ -47,9 +48,9 @@ namespace GlobalNamespace {
     // private UnityEngine.Transform _meshTransform
     // Offset: 0x18
     UnityEngine::Transform* meshTransform;
-    // private UnityEngine.Rigidbody _rigidbody
+    // private NoteDebrisPhysics _physics
     // Offset: 0x20
-    UnityEngine::Rigidbody* rigidbody;
+    GlobalNamespace::NoteDebrisPhysics* physics;
     // private MaterialPropertyBlockController _materialPropertyBlockController
     // Offset: 0x28
     GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController;
@@ -62,7 +63,7 @@ namespace GlobalNamespace {
     // private UnityEngine.Mesh _centroidComputationMesh
     // Offset: 0x40
     UnityEngine::Mesh* centroidComputationMesh;
-    // private ColorManager _colorManager
+    // private readonly ColorManager _colorManager
     // Offset: 0x48
     GlobalNamespace::ColorManager* colorManager;
     // private System.Action`1<NoteDebris> didFinishEvent
@@ -97,22 +98,22 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.Vector3[] _meshVertices
     static void _set__meshVertices(::Array<UnityEngine::Vector3>* value);
     // public System.Void add_didFinishEvent(System.Action`1<NoteDebris> value)
-    // Offset: 0xC196A4
+    // Offset: 0x10AA278
     void add_didFinishEvent(System::Action_1<GlobalNamespace::NoteDebris*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<NoteDebris> value)
-    // Offset: 0xC19748
+    // Offset: 0x10AA31C
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::NoteDebris*>* value);
     // protected System.Void Awake()
-    // Offset: 0xC197EC
+    // Offset: 0x10AA3C0
     void Awake();
     // protected System.Void Update()
-    // Offset: 0xC198AC
+    // Offset: 0x10AA480
     void Update();
-    // public System.Void Init(NoteType noteType, UnityEngine.Transform initTransform, UnityEngine.Vector3 cutPoint, UnityEngine.Vector3 cutNormal, UnityEngine.Vector3 force, UnityEngine.Vector3 torque, System.Single lifeTime)
-    // Offset: 0xC199D0
-    void Init(GlobalNamespace::NoteType noteType, UnityEngine::Transform* initTransform, UnityEngine::Vector3 cutPoint, UnityEngine::Vector3 cutNormal, UnityEngine::Vector3 force, UnityEngine::Vector3 torque, float lifeTime);
+    // public System.Void Init(ColorType colorType, UnityEngine.Vector3 notePos, UnityEngine.Quaternion noteRot, UnityEngine.Vector3 positionOffset, UnityEngine.Quaternion rotationOffset, UnityEngine.Vector3 cutPoint, UnityEngine.Vector3 cutNormal, UnityEngine.Vector3 force, UnityEngine.Vector3 torque, System.Single lifeTime)
+    // Offset: 0x10AA5A4
+    void Init(GlobalNamespace::ColorType colorType, UnityEngine::Vector3 notePos, UnityEngine::Quaternion noteRot, UnityEngine::Vector3 positionOffset, UnityEngine::Quaternion rotationOffset, UnityEngine::Vector3 cutPoint, UnityEngine::Vector3 cutNormal, UnityEngine::Vector3 force, UnityEngine::Vector3 torque, float lifeTime);
     // public System.Void .ctor()
-    // Offset: 0xC1A1B4
+    // Offset: 0x10AAE70
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -121,7 +122,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NoteDebris* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xC1A20C
+    // Offset: 0x10AAEC8
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

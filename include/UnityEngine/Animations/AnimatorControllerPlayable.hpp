@@ -32,23 +32,23 @@ namespace UnityEngine::Animations {
     // Set static field: static private readonly UnityEngine.Animations.AnimatorControllerPlayable m_NullPlayable
     static void _set_m_NullPlayable(UnityEngine::Animations::AnimatorControllerPlayable value);
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0xA5DCB8
+    // Offset: 0xDDCC24
     // ABORTED: conflicts with another method.  AnimatorControllerPlayable(UnityEngine::Playables::PlayableHandle handle);
     // public System.Void SetHandle(UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0xA5DCCC
+    // Offset: 0xDDCC38
     void SetHandle(UnityEngine::Playables::PlayableHandle handle);
     // static private System.Void .cctor()
-    // Offset: 0x1940AFC
+    // Offset: 0x21E88B8
     static void _cctor();
     // public UnityEngine.Playables.PlayableHandle GetHandle()
-    // Offset: 0xA5DCC0
+    // Offset: 0xDDCC2C
     // Implemented from: UnityEngine.Playables.IPlayable
     // Base method: UnityEngine.Playables.PlayableHandle IPlayable::GetHandle()
     UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Animations.AnimatorControllerPlayable other)
-    // Offset: 0xA5DCD4
+    // Offset: 0xDDCC40
     // Implemented from: System.IEquatable`1
-    // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Animations.AnimatorControllerPlayable other)
+    // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Animations.AnimatorControllerPlayable other)
     bool Equals(UnityEngine::Animations::AnimatorControllerPlayable other);
   }; // UnityEngine.Animations.AnimatorControllerPlayable
 }

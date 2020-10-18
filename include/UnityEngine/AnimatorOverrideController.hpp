@@ -26,7 +26,7 @@ namespace UnityEngine {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static System.Void OnInvalidateOverrideController(UnityEngine.AnimatorOverrideController controller)
-    // Offset: 0x1941700
+    // Offset: 0x21E94BC
     static void OnInvalidateOverrideController(UnityEngine::AnimatorOverrideController* controller);
   }; // UnityEngine.AnimatorOverrideController
 }

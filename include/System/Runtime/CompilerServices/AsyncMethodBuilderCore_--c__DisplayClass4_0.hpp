@@ -32,10 +32,10 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x18
     System::Action* continuation;
     // System.Void <OutputAsyncCausalityEvents>b__0()
-    // Offset: 0x1165DE4
+    // Offset: 0x1290084
     void $OutputAsyncCausalityEvents$b__0();
     // public System.Void .ctor()
-    // Offset: 0x1165520
+    // Offset: 0x129007C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AsyncMethodBuilderCore::$$c__DisplayClass4_0* New_ctor();

@@ -56,8 +56,8 @@ namespace Zenject {
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPool`4
-    // Base method: System.Void MemoryPool`4::.ctor()
-    // Base method: System.Void MemoryPoolBase`1::.ctor()
+    // Base method: System.Void MemoryPool_4::.ctor()
+    // Base method: System.Void MemoryPoolBase_1::.ctor()
     // Base method: System.Void Object::.ctor()
     static MonoMemoryPool_4<TParam1, TParam2, TParam3, TValue>* New_ctor() {
       return THROW_UNLESS((il2cpp_utils::New<MonoMemoryPool_4<TParam1, TParam2, TParam3, TValue>*>()));

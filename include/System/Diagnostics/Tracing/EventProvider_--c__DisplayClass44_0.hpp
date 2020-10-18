@@ -29,10 +29,10 @@ namespace System::Diagnostics::Tracing {
       return liveSessionList;
     }
     // System.Void <GetSessions>b__0(System.Int32 etwSessionId, System.Int64 matchAllKeywords)
-    // Offset: 0xC9FDB8
+    // Offset: 0x147FAF4
     void $GetSessions$b__0(int etwSessionId, int64_t matchAllKeywords);
     // public System.Void .ctor()
-    // Offset: 0xC9E140
+    // Offset: 0x147DE7C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EventProvider::$$c__DisplayClass44_0* New_ctor();

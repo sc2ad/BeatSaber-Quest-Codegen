@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Offset: 0x58
     GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData* achievementsData;
     // public System.Void .ctor()
-    // Offset: 0xC1B4FC
+    // Offset: 0xFE2A84
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerSaveDataV1_0_1::LocalPlayer* New_ctor();

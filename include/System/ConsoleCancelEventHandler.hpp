@@ -26,16 +26,16 @@ namespace System {
   class ConsoleCancelEventHandler : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x10C51C8
+    // Offset: 0x17EDD00
     static ConsoleCancelEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Object sender, System.ConsoleCancelEventArgs e)
-    // Offset: 0x10C4600
+    // Offset: 0x17ED138
     void Invoke(::Il2CppObject* sender, System::ConsoleCancelEventArgs* e);
     // public System.IAsyncResult BeginInvoke(System.Object sender, System.ConsoleCancelEventArgs e, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x10C51DC
+    // Offset: 0x17EDD14
     System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, System::ConsoleCancelEventArgs* e, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x10C520C
+    // Offset: 0x17EDD44
     void EndInvoke(System::IAsyncResult* result);
   }; // System.ConsoleCancelEventHandler
 }

@@ -14,18 +14,18 @@ namespace NUnit::Framework::Constraints {
   class SamePathConstraint : public NUnit::Framework::Constraints::PathConstraint {
     public:
     // public System.Void .ctor(System.String expected)
-    // Offset: 0x107E870
+    // Offset: 0x15E87C4
     // Implemented from: NUnit.Framework.Constraints.PathConstraint
     // Base method: System.Void PathConstraint::.ctor(System.String expected)
     // Base method: System.Void StringConstraint::.ctor(System.String expected)
     static SamePathConstraint* New_ctor(::Il2CppString* expected);
     // public override System.String get_Description()
-    // Offset: 0x1080250
+    // Offset: 0x15EA1A4
     // Implemented from: NUnit.Framework.Constraints.StringConstraint
     // Base method: System.String StringConstraint::get_Description()
     ::Il2CppString* get_Description();
     // protected override System.Boolean Matches(System.String actual)
-    // Offset: 0x10802D4
+    // Offset: 0x15EA228
     // Implemented from: NUnit.Framework.Constraints.StringConstraint
     // Base method: System.Boolean StringConstraint::Matches(System.String actual)
     bool Matches(::Il2CppString* actual);

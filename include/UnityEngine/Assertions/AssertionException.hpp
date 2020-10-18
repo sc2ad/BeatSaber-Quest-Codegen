@@ -21,10 +21,10 @@ namespace UnityEngine::Assertions {
       return m_UserMessage;
     }
     // public System.Void .ctor(System.String message, System.String userMessage)
-    // Offset: 0x1305408
+    // Offset: 0x19E04D4
     static AssertionException* New_ctor(::Il2CppString* message, ::Il2CppString* userMessage);
     // public override System.String get_Message()
-    // Offset: 0x130584C
+    // Offset: 0x19E0918
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
     ::Il2CppString* get_Message();

@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
   class IVRInput::_GetSkeletalActionData : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1520BD0
+    // Offset: 0x1D644D8
     static IVRInput::_GetSkeletalActionData* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRInputError Invoke(System.UInt64 action, ref OVR.OpenVR.InputSkeletalActionData_t pActionData, System.UInt32 unActionDataSize, System.UInt64 ulRestrictToDevice)
-    // Offset: 0x1520BE4
+    // Offset: 0x1D644EC
     OVR::OpenVR::EVRInputError Invoke(uint64_t action, OVR::OpenVR::InputSkeletalActionData_t& pActionData, uint unActionDataSize, uint64_t ulRestrictToDevice);
     // public System.IAsyncResult BeginInvoke(System.UInt64 action, ref OVR.OpenVR.InputSkeletalActionData_t pActionData, System.UInt32 unActionDataSize, System.UInt64 ulRestrictToDevice, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1520E94
+    // Offset: 0x1D6479C
     System::IAsyncResult* BeginInvoke(uint64_t action, OVR::OpenVR::InputSkeletalActionData_t& pActionData, uint unActionDataSize, uint64_t ulRestrictToDevice, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRInputError EndInvoke(ref OVR.OpenVR.InputSkeletalActionData_t pActionData, System.IAsyncResult result)
-    // Offset: 0x1520F80
+    // Offset: 0x1D64888
     OVR::OpenVR::EVRInputError EndInvoke(OVR::OpenVR::InputSkeletalActionData_t& pActionData, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRInput/_GetSkeletalActionData
 }

@@ -26,16 +26,16 @@ namespace System {
   class IOAsyncCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xF69D04
+    // Offset: 0x1735DF4
     static IOAsyncCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.IOAsyncResult ioares)
-    // Offset: 0xF69D18
+    // Offset: 0x1735E08
     void Invoke(System::IOAsyncResult* ioares);
     // public System.IAsyncResult BeginInvoke(System.IOAsyncResult ioares, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xF6A0D0
+    // Offset: 0x17361C0
     System::IAsyncResult* BeginInvoke(System::IOAsyncResult* ioares, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xF6A0F4
+    // Offset: 0x17361E4
     void EndInvoke(System::IAsyncResult* result);
   }; // System.IOAsyncCallback
 }

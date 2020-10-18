@@ -15,8 +15,8 @@
 namespace GlobalNamespace {
   // Forward declaring type: NoteCutInfo
   class NoteCutInfo;
-  // Forward declaring type: SaberSwingRatingCounter
-  class SaberSwingRatingCounter;
+  // Forward declaring type: ISaberSwingRatingCounter
+  class ISaberSwingRatingCounter;
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
@@ -59,24 +59,24 @@ namespace GlobalNamespace {
     // Offset: 0xB0
     GlobalNamespace::NoteCutInfo* noteCutInfo;
     // public System.Void InitAndPresent(NoteCutInfo noteCutInfo, System.Int32 multiplier, System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion rotation, UnityEngine.Color color)
-    // Offset: 0xBF0544
+    // Offset: 0xF6D080
     void InitAndPresent(GlobalNamespace::NoteCutInfo* noteCutInfo, int multiplier, float duration, UnityEngine::Vector3 targetPos, UnityEngine::Quaternion rotation, UnityEngine::Color color);
     // protected System.Void OnDisable()
-    // Offset: 0xBF071C
+    // Offset: 0xF6D2B4
     void OnDisable();
-    // private System.Void HandleSaberSwingRatingCounterDidChangeEvent(SaberSwingRatingCounter saberSwingRatingCounter, System.Single rating)
-    // Offset: 0xBF0868
-    void HandleSaberSwingRatingCounterDidChangeEvent(GlobalNamespace::SaberSwingRatingCounter* saberSwingRatingCounter, float rating);
+    // private System.Void HandleSaberSwingRatingCounterDidChangeEvent(ISaberSwingRatingCounter saberSwingRatingCounter, System.Single rating)
+    // Offset: 0xF6D460
+    void HandleSaberSwingRatingCounterDidChangeEvent(GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter, float rating);
     // private System.String GetScoreText(System.Int32 score)
-    // Offset: 0xBF06F4
+    // Offset: 0xF6D28C
     ::Il2CppString* GetScoreText(int score);
     // protected override System.Void ManualUpdate(System.Single t)
-    // Offset: 0xBF07BC
+    // Offset: 0xF6D3B4
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::ManualUpdate(System.Single t)
     void ManualUpdate(float t);
     // public System.Void .ctor()
-    // Offset: 0xBF0904
+    // Offset: 0xF6D4FC
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
   class RoomList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::Room*> {
     public:
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0xEA87F8
+    // Offset: 0x1368EF4
     static RoomList* New_ctor(System::IntPtr a);
   }; // Oculus.Platform.Models.RoomList
 }

@@ -15,8 +15,8 @@ namespace GlobalNamespace {
   class NoteExecutionRating;
   // Forward declaring type: NoteCutInfo
   class NoteCutInfo;
-  // Forward declaring type: SaberSwingRatingCounter
-  class SaberSwingRatingCounter;
+  // Forward declaring type: ISaberSwingRatingCounter
+  class ISaberSwingRatingCounter;
 }
 // Completed forward declares
 // Type namespace: 
@@ -26,7 +26,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::DidFinishCallback
     class DidFinishCallback;
-    // private BeatmapObjectExecutionRatingsRecorder/CutScoreHandler/DidFinishCallback _finishCallback
+    // private readonly BeatmapObjectExecutionRatingsRecorder/CutScoreHandler/DidFinishCallback _finishCallback
     // Offset: 0x10
     GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::DidFinishCallback* finishCallback;
     // private NoteExecutionRating _noteExecutionRating
@@ -36,14 +36,14 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::NoteCutInfo* noteCutInfo;
     // public System.Void .ctor(BeatmapObjectExecutionRatingsRecorder/CutScoreHandler/DidFinishCallback finishCallback)
-    // Offset: 0xB768E8
+    // Offset: 0xF14838
     static BeatmapObjectExecutionRatingsRecorder::CutScoreHandler* New_ctor(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::DidFinishCallback* finishCallback);
-    // public System.Void Set(NoteCutInfo noteCutInfo, NoteExecutionRating noteExecutionRating, SaberSwingRatingCounter swingRatingCounter)
-    // Offset: 0xB7705C
-    void Set(GlobalNamespace::NoteCutInfo* noteCutInfo, GlobalNamespace::NoteExecutionRating* noteExecutionRating, GlobalNamespace::SaberSwingRatingCounter* swingRatingCounter);
-    // private System.Void HandleSwingRatingCounterDidFinishEvent(SaberSwingRatingCounter swingRatingCounter)
-    // Offset: 0xB77324
-    void HandleSwingRatingCounterDidFinishEvent(GlobalNamespace::SaberSwingRatingCounter* swingRatingCounter);
+    // public System.Void Set(NoteCutInfo noteCutInfo, NoteExecutionRating noteExecutionRating, ISaberSwingRatingCounter swingRatingCounter)
+    // Offset: 0xF1486C
+    void Set(GlobalNamespace::NoteCutInfo* noteCutInfo, GlobalNamespace::NoteExecutionRating* noteExecutionRating, GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
+    // private System.Void HandleSwingRatingCounterDidFinish(ISaberSwingRatingCounter swingRatingCounter)
+    // Offset: 0xF14988
+    void HandleSwingRatingCounterDidFinish(GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
   }; // BeatmapObjectExecutionRatingsRecorder/CutScoreHandler
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

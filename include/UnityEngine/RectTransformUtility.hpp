@@ -37,49 +37,49 @@ namespace UnityEngine {
     // Set static field: static private readonly UnityEngine.Vector3[] s_Corners
     static void _set_s_Corners(::Array<UnityEngine::Vector3>* value);
     // static public UnityEngine.Vector2 PixelAdjustPoint(UnityEngine.Vector2 point, UnityEngine.Transform elementTransform, UnityEngine.Canvas canvas)
-    // Offset: 0x1970F34
+    // Offset: 0x221D018
     static UnityEngine::Vector2 PixelAdjustPoint(UnityEngine::Vector2 point, UnityEngine::Transform* elementTransform, UnityEngine::Canvas* canvas);
     // static public UnityEngine.Rect PixelAdjustRect(UnityEngine.RectTransform rectTransform, UnityEngine.Canvas canvas)
-    // Offset: 0x1971050
+    // Offset: 0x221D134
     static UnityEngine::Rect PixelAdjustRect(UnityEngine::RectTransform* rectTransform, UnityEngine::Canvas* canvas);
     // static private System.Boolean PointInRectangle(UnityEngine.Vector2 screenPoint, UnityEngine.RectTransform rect, UnityEngine.Camera cam)
-    // Offset: 0x1971158
+    // Offset: 0x221D23C
     static bool PointInRectangle(UnityEngine::Vector2 screenPoint, UnityEngine::RectTransform* rect, UnityEngine::Camera* cam);
     // static public System.Boolean RectangleContainsScreenPoint(UnityEngine.RectTransform rect, UnityEngine.Vector2 screenPoint, UnityEngine.Camera cam)
-    // Offset: 0x1971254
+    // Offset: 0x221D338
     static bool RectangleContainsScreenPoint(UnityEngine::RectTransform* rect, UnityEngine::Vector2 screenPoint, UnityEngine::Camera* cam);
     // static public System.Boolean ScreenPointToWorldPointInRectangle(UnityEngine.RectTransform rect, UnityEngine.Vector2 screenPoint, UnityEngine.Camera cam, out UnityEngine.Vector3 worldPoint)
-    // Offset: 0x19712E0
+    // Offset: 0x221D3C4
     static bool ScreenPointToWorldPointInRectangle(UnityEngine::RectTransform* rect, UnityEngine::Vector2 screenPoint, UnityEngine::Camera* cam, UnityEngine::Vector3& worldPoint);
     // static public System.Boolean ScreenPointToLocalPointInRectangle(UnityEngine.RectTransform rect, UnityEngine.Vector2 screenPoint, UnityEngine.Camera cam, out UnityEngine.Vector2 localPoint)
-    // Offset: 0x19716A0
+    // Offset: 0x221D784
     static bool ScreenPointToLocalPointInRectangle(UnityEngine::RectTransform* rect, UnityEngine::Vector2 screenPoint, UnityEngine::Camera* cam, UnityEngine::Vector2& localPoint);
     // static public UnityEngine.Ray ScreenPointToRay(UnityEngine.Camera cam, UnityEngine.Vector2 screenPos)
-    // Offset: 0x1971500
+    // Offset: 0x221D5E4
     static UnityEngine::Ray ScreenPointToRay(UnityEngine::Camera* cam, UnityEngine::Vector2 screenPos);
     // static public UnityEngine.Vector2 WorldToScreenPoint(UnityEngine.Camera cam, UnityEngine.Vector3 worldPoint)
-    // Offset: 0x19717E4
+    // Offset: 0x221D8C8
     static UnityEngine::Vector2 WorldToScreenPoint(UnityEngine::Camera* cam, UnityEngine::Vector3 worldPoint);
     // static public System.Void FlipLayoutOnAxis(UnityEngine.RectTransform rect, System.Int32 axis, System.Boolean keepPositioning, System.Boolean recursive)
-    // Offset: 0x19718F4
+    // Offset: 0x221D9D8
     static void FlipLayoutOnAxis(UnityEngine::RectTransform* rect, int axis, bool keepPositioning, bool recursive);
     // static public System.Void FlipLayoutAxes(UnityEngine.RectTransform rect, System.Boolean keepPositioning, System.Boolean recursive)
-    // Offset: 0x1971B98
+    // Offset: 0x221DC7C
     static void FlipLayoutAxes(UnityEngine::RectTransform* rect, bool keepPositioning, bool recursive);
     // static private UnityEngine.Vector2 GetTransposed(UnityEngine.Vector2 input)
-    // Offset: 0x1971E60
+    // Offset: 0x221DF44
     static UnityEngine::Vector2 GetTransposed(UnityEngine::Vector2 input);
     // static private System.Void .cctor()
-    // Offset: 0x1971E98
+    // Offset: 0x221DF7C
     static void _cctor();
     // static private System.Void PixelAdjustPoint_Injected(ref UnityEngine.Vector2 point, UnityEngine.Transform elementTransform, UnityEngine.Canvas canvas, out UnityEngine.Vector2 ret)
-    // Offset: 0x1970FE8
+    // Offset: 0x221D0CC
     static void PixelAdjustPoint_Injected(UnityEngine::Vector2& point, UnityEngine::Transform* elementTransform, UnityEngine::Canvas* canvas, UnityEngine::Vector2& ret);
     // static private System.Void PixelAdjustRect_Injected(UnityEngine.RectTransform rectTransform, UnityEngine.Canvas canvas, out UnityEngine.Rect ret)
-    // Offset: 0x1971100
+    // Offset: 0x221D1E4
     static void PixelAdjustRect_Injected(UnityEngine::RectTransform* rectTransform, UnityEngine::Canvas* canvas, UnityEngine::Rect& ret);
     // static private System.Boolean PointInRectangle_Injected(ref UnityEngine.Vector2 screenPoint, UnityEngine.RectTransform rect, UnityEngine.Camera cam)
-    // Offset: 0x19711FC
+    // Offset: 0x221D2E0
     static bool PointInRectangle_Injected(UnityEngine::Vector2& screenPoint, UnityEngine::RectTransform* rect, UnityEngine::Camera* cam);
   }; // UnityEngine.RectTransformUtility
 }

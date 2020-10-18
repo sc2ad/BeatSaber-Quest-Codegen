@@ -69,73 +69,73 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public MissionNode get_rootMissionNode()
-    // Offset: 0xC0AF44
+    // Offset: 0xEE2128
     GlobalNamespace::MissionNode* get_rootMissionNode();
     // public MissionNode get_finalMissionNode()
-    // Offset: 0xC0AF4C
+    // Offset: 0xEE2130
     GlobalNamespace::MissionNode* get_finalMissionNode();
     // public MissionStagesManager get_missionStagesManager()
-    // Offset: 0xC0AF54
+    // Offset: 0xEE2138
     GlobalNamespace::MissionStagesManager* get_missionStagesManager();
     // public CampaignProgressModel get_missionProgressModel()
-    // Offset: 0xC0AF5C
+    // Offset: 0xEE2140
     GlobalNamespace::CampaignProgressModel* get_missionProgressModel();
     // public MissionNode[] get_allMissionNodes()
-    // Offset: 0xC0AF64
+    // Offset: 0xEE2148
     ::Array<GlobalNamespace::MissionNode*>* get_allMissionNodes();
     // public System.Boolean get_IsInitialized()
-    // Offset: 0xC0AF6C
+    // Offset: 0xEE2150
     bool get_IsInitialized();
     // protected System.Void Awake()
-    // Offset: 0xC0AF74
+    // Offset: 0xEE2158
     void Awake();
     // public System.Void SetupNodeMap()
-    // Offset: 0xC085A8
+    // Offset: 0xEDFB14
     void SetupNodeMap();
     // public System.Boolean MissionWasCleared(MissionNode missionNode)
-    // Offset: 0xC0B400
+    // Offset: 0xEE25E8
     bool MissionWasCleared(GlobalNamespace::MissionNode* missionNode);
     // public MissionNode GetMissionNodeWithModelClearedStateInconsistency()
-    // Offset: 0xC081B0
+    // Offset: 0xEDF71C
     GlobalNamespace::MissionNode* GetMissionNodeWithModelClearedStateInconsistency();
     // public System.Boolean DidFirstLockedMissionStageChange()
-    // Offset: 0xC09560
+    // Offset: 0xEE0AE0
     bool DidFirstLockedMissionStageChange();
     // public System.Void UpdateStageLockText()
-    // Offset: 0xC09520
+    // Offset: 0xEE0A9C
     void UpdateStageLockText();
     // public MissionNode GetTopMostNotClearedMissionNode()
-    // Offset: 0xC08350
+    // Offset: 0xEDF8BC
     GlobalNamespace::MissionNode* GetTopMostNotClearedMissionNode();
     // private System.Void GetAllMissionNodes()
-    // Offset: 0xC0AFAC
+    // Offset: 0xEE2190
     void GetAllMissionNodes();
     // private System.Collections.Generic.HashSet`1<MissionNode> GetAllMissionNodes(MissionNode node, System.Collections.Generic.HashSet`1<MissionNode> visited)
-    // Offset: 0xC0B5E8
+    // Offset: 0xEE2658
     System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>* GetAllMissionNodes(GlobalNamespace::MissionNode* node, System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>* visited);
     // public MissionNodeConnection[] GetNewEnabledConnection()
-    // Offset: 0xC091F8
+    // Offset: 0xEE0760
     ::Array<GlobalNamespace::MissionNodeConnection*>* GetNewEnabledConnection();
     // private System.Void ResetAllNodes()
-    // Offset: 0xC0B124
+    // Offset: 0xEE2308
     void ResetAllNodes();
     // private System.Void SetupStages()
-    // Offset: 0xC0B18C
+    // Offset: 0xEE2370
     void SetupStages();
     // private System.Void RegisterAllNodes()
-    // Offset: 0xC0B048
+    // Offset: 0xEE222C
     void RegisterAllNodes();
     // private System.Void SetupNodeTree(MissionNodeVisualController node, System.Boolean parentCleared)
-    // Offset: 0xC0B1F4
+    // Offset: 0xEE23DC
     void SetupNodeTree(GlobalNamespace::MissionNodeVisualController* node, bool parentCleared);
     // private System.Boolean IsNodeInteractable(MissionNodeVisualController node, System.Boolean parentCleared)
-    // Offset: 0xC0B6D8
+    // Offset: 0xEE2748
     bool IsNodeInteractable(GlobalNamespace::MissionNodeVisualController* node, bool parentCleared);
     // private System.Void SetupNodeConnections()
-    // Offset: 0xC0B324
+    // Offset: 0xEE250C
     void SetupNodeConnections();
     // public System.Void .ctor()
-    // Offset: 0xC0B7E8
+    // Offset: 0xEE27B0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

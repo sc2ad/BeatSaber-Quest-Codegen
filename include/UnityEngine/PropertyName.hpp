@@ -28,34 +28,34 @@ namespace UnityEngine {
       return id;
     }
     // public System.Void .ctor(System.String name)
-    // Offset: 0xA48FF8
+    // Offset: 0xDC68CC
     PropertyName(::Il2CppString* name);
     // public System.Void .ctor(UnityEngine.PropertyName other)
-    // Offset: 0xA49058
+    // Offset: 0xDC692C
     // ABORTED: is copy constructor.  PropertyName(UnityEngine::PropertyName other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA49060
+    // Offset: 0xDC6934
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0xA49068
+    // Offset: 0xDC693C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
     // public System.Boolean Equals(UnityEngine.PropertyName other)
-    // Offset: 0xA49070
+    // Offset: 0xDC6944
     // Implemented from: System.IEquatable`1
-    // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.PropertyName other)
+    // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.PropertyName other)
     bool Equals(UnityEngine::PropertyName other);
     // public override System.String ToString()
-    // Offset: 0xA49080
+    // Offset: 0xDC6954
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.PropertyName
   // static public System.Boolean op_Equality(UnityEngine.PropertyName lhs, UnityEngine.PropertyName rhs)
-  // Offset: 0x141ED5C
+  // Offset: 0x1BA1F78
   bool operator ==(const UnityEngine::PropertyName& lhs, const UnityEngine::PropertyName& rhs);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

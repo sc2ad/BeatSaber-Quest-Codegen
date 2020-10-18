@@ -19,8 +19,6 @@ namespace GlobalNamespace {
   class IDifficultyBeatmap;
   // Forward declaring type: MissionObjective
   class MissionObjective;
-  // Forward declaring type: OverrideEnvironmentSettings
-  class OverrideEnvironmentSettings;
   // Forward declaring type: ColorScheme
   class ColorScheme;
   // Forward declaring type: GameplayModifiers
@@ -43,29 +41,44 @@ namespace GlobalNamespace {
     // private SceneInfo _missionGameplaySceneInfo
     // Offset: 0x28
     GlobalNamespace::SceneInfo* missionGameplaySceneInfo;
-    // private SceneInfo _gameplayCoreSceneInfo
-    // Offset: 0x30
-    GlobalNamespace::SceneInfo* gameplayCoreSceneInfo;
     // private SceneInfo _gameCoreSceneInfo
-    // Offset: 0x38
+    // Offset: 0x30
     GlobalNamespace::SceneInfo* gameCoreSceneInfo;
     // private System.Action`2<MissionLevelScenesTransitionSetupDataSO,MissionCompletionResults> didFinishEvent
-    // Offset: 0x40
+    // Offset: 0x38
     System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>* didFinishEvent;
+    // private System.String <missionId>k__BackingField
+    // Offset: 0x40
+    ::Il2CppString* missionId;
+    // private IDifficultyBeatmap <difficultyBeatmap>k__BackingField
+    // Offset: 0x48
+    GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
     // public System.Void add_didFinishEvent(System.Action`2<MissionLevelScenesTransitionSetupDataSO,MissionCompletionResults> value)
-    // Offset: 0xC07FDC
+    // Offset: 0xEDA020
     void add_didFinishEvent(System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<MissionLevelScenesTransitionSetupDataSO,MissionCompletionResults> value)
-    // Offset: 0xC08080
+    // Offset: 0xED9F7C
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>* value);
-    // public System.Void Init(IDifficultyBeatmap difficultyBeatmap, MissionObjective[] missionObjectives, OverrideEnvironmentSettings overrideEnvironmentSettings, ColorScheme overrideColorScheme, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, System.String backButtonText)
-    // Offset: 0xC078DC
-    void Init(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::Array<GlobalNamespace::MissionObjective*>* missionObjectives, GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, GlobalNamespace::ColorScheme* overrideColorScheme, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::Il2CppString* backButtonText);
+    // public System.String get_missionId()
+    // Offset: 0xEDF670
+    ::Il2CppString* get_missionId();
+    // private System.Void set_missionId(System.String value)
+    // Offset: 0xEDF678
+    void set_missionId(::Il2CppString* value);
+    // public IDifficultyBeatmap get_difficultyBeatmap()
+    // Offset: 0xEDF680
+    GlobalNamespace::IDifficultyBeatmap* get_difficultyBeatmap();
+    // private System.Void set_difficultyBeatmap(IDifficultyBeatmap value)
+    // Offset: 0xEDF688
+    void set_difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
+    // public System.Void Init(System.String missionId, IDifficultyBeatmap difficultyBeatmap, MissionObjective[] missionObjectives, ColorScheme overrideColorScheme, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, System.String backButtonText)
+    // Offset: 0xEDA0C4
+    void Init(::Il2CppString* missionId, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::Array<GlobalNamespace::MissionObjective*>* missionObjectives, GlobalNamespace::ColorScheme* overrideColorScheme, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::Il2CppString* backButtonText);
     // public System.Void Finish(MissionCompletionResults levelCompletionResults)
-    // Offset: 0xC07EB8
+    // Offset: 0xEDE288
     void Finish(GlobalNamespace::MissionCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0xC08124
+    // Offset: 0xEDF690
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

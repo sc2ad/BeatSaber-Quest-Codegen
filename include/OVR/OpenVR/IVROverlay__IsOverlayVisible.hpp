@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_IsOverlayVisible : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x152D140
+    // Offset: 0x1D70A48
     static IVROverlay::_IsOverlayVisible* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.UInt64 ulOverlayHandle)
-    // Offset: 0x152D154
+    // Offset: 0x1D70A5C
     bool Invoke(uint64_t ulOverlayHandle);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x152D3C0
+    // Offset: 0x1D70CC8
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x152D44C
+    // Offset: 0x1D70D54
     bool EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_IsOverlayVisible
 }

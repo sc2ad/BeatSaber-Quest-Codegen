@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVROverlay::_GetPrimaryDashboardDevice : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1615714
+    // Offset: 0x1E3F994
     static IVROverlay::_GetPrimaryDashboardDevice* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke()
-    // Offset: 0x1615728
+    // Offset: 0x1E3F9A8
     uint Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x161593C
+    // Offset: 0x1E3FBBC
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1615968
+    // Offset: 0x1E3FBE8
     uint EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_GetPrimaryDashboardDevice
 }

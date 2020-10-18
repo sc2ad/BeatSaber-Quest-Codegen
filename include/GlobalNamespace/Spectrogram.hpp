@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     // private UnityEngine.MeshRenderer[] _meshRenderers
     // Offset: 0x18
     ::Array<UnityEngine::MeshRenderer*>* meshRenderers;
-    // private BasicSpectrogramData _spectrogramData
+    // private readonly BasicSpectrogramData _spectrogramData
     // Offset: 0x20
     GlobalNamespace::BasicSpectrogramData* spectrogramData;
     // Deleting conversion operator: operator System::IntPtr
@@ -44,16 +44,16 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static void _set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock* value);
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0xB9D320
+    // Offset: 0xEF58B0
     static void NoDomainReloadInit();
     // protected System.Void Awake()
-    // Offset: 0xB9D38C
+    // Offset: 0xEF591C
     void Awake();
     // protected System.Void Update()
-    // Offset: 0xB9D448
+    // Offset: 0xEF59D8
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xB9D568
+    // Offset: 0xEF5AF8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static Spectrogram* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xB9D570
+    // Offset: 0xEF5B00
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

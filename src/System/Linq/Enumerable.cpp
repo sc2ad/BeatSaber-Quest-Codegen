@@ -31,6 +31,8 @@
 #include "System/Linq/Enumerable_-SkipIterator-d__31_1.hpp"
 // Including type: System.Linq.Enumerable/<ConcatIterator>d__59`1
 #include "System/Linq/Enumerable_-ConcatIterator-d__59_1.hpp"
+// Including type: System.Linq.Enumerable/<AppendIterator>d__61`1
+#include "System/Linq/Enumerable_-AppendIterator-d__61_1.hpp"
 // Including type: System.Linq.Enumerable/<DistinctIterator>d__68`1
 #include "System/Linq/Enumerable_-DistinctIterator-d__68_1.hpp"
 // Including type: System.Linq.Enumerable/<ExceptIterator>d__77`1
@@ -61,6 +63,8 @@
 #include "System/Collections/Generic/Dictionary_2.hpp"
 // Including type: System.Collections.IEnumerable
 #include "System/Collections/IEnumerable.hpp"
+// Including type: System.Func`3
+#include "System/Func_3.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

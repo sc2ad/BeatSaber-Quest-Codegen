@@ -39,7 +39,7 @@ namespace Zenject {
     // Offset: 0x38
     ::Il2CppObject* DefaultValue;
     // public System.Void .ctor(System.Boolean optional, System.Object identifier, System.String memberName, System.Type memberType, System.Object defaultValue, Zenject.InjectSources sourceType)
-    // Offset: 0x1961D74
+    // Offset: 0x220CBFC
     static InjectableInfo* New_ctor(bool optional, ::Il2CppObject* identifier, ::Il2CppString* memberName, System::Type* memberType, ::Il2CppObject* defaultValue, Zenject::InjectSources sourceType);
   }; // Zenject.InjectableInfo
 }

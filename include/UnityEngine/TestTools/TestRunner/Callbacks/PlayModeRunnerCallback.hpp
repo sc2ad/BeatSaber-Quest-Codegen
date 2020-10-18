@@ -38,25 +38,25 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void RunFinished(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0xE45404
+    // Offset: 0x12C2144
     void RunFinished(NUnit::Framework::Interfaces::ITestResult* testResults);
     // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0xE455E0
+    // Offset: 0x12C2320
     void TestFinished(NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Void OnGUI()
-    // Offset: 0xE455E4
+    // Offset: 0x12C2324
     void OnGUI();
     // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
-    // Offset: 0xE45B68
+    // Offset: 0x12C28A8
     void RunStarted(NUnit::Framework::Interfaces::ITest* testsToRun);
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xE45BDC
+    // Offset: 0x12C291C
     void TestStarted(NUnit::Framework::Interfaces::ITest* test);
     // private System.Void LogRecieved(System.String message, System.String stacktrace, UnityEngine.LogType type)
-    // Offset: 0xE45BE0
+    // Offset: 0x12C2920
     void LogRecieved(::Il2CppString* message, ::Il2CppString* stacktrace, UnityEngine::LogType type);
     // public System.Void .ctor()
-    // Offset: 0xE45C90
+    // Offset: 0x12C29D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

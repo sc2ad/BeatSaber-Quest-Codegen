@@ -4,8 +4,15 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-#include <stdint.h>
 // Completed includes
+// Begin forward declares
+// Forward declaring namespace: System::Collections::Generic
+namespace System::Collections::Generic {
+  // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
+  class Dictionary_2;
+}
+// Completed forward declares
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
 // Completed il2cpp-utils forward declares
@@ -20,9 +27,9 @@ namespace GlobalNamespace {
     // public System.Void OpenDataPrivacyPage()
     // Offset: 0xFFFFFFFF
     void OpenDataPrivacyPage();
-    // public System.Void LogEvent(System.String eventCategory, System.String eventAction, System.String eventLabel, System.Int64 value)
+    // public System.Void LogEvent(System.String eventType, System.Collections.Generic.Dictionary`2<System.String,System.String> eventData)
     // Offset: 0xFFFFFFFF
-    void LogEvent(::Il2CppString* eventCategory, ::Il2CppString* eventAction, ::Il2CppString* eventLabel, int64_t value);
+    void LogEvent(::Il2CppString* eventType, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* eventData);
   }; // IAnalyticsModel
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

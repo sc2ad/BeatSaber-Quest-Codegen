@@ -189,91 +189,91 @@ namespace UnityEngine::UI {
     // Set static field: static private System.Single kLogBase
     static void _set_kLogBase(float value);
     // public UnityEngine.UI.CanvasScaler/ScaleMode get_uiScaleMode()
-    // Offset: 0xE06E00
+    // Offset: 0x1285970
     UnityEngine::UI::CanvasScaler::ScaleMode get_uiScaleMode();
     // public System.Void set_uiScaleMode(UnityEngine.UI.CanvasScaler/ScaleMode value)
-    // Offset: 0xE06E08
+    // Offset: 0x1285978
     void set_uiScaleMode(UnityEngine::UI::CanvasScaler::ScaleMode value);
     // public System.Single get_referencePixelsPerUnit()
-    // Offset: 0xE06E10
+    // Offset: 0x1285980
     float get_referencePixelsPerUnit();
     // public System.Void set_referencePixelsPerUnit(System.Single value)
-    // Offset: 0xE06E18
+    // Offset: 0x1285988
     void set_referencePixelsPerUnit(float value);
     // public System.Single get_scaleFactor()
-    // Offset: 0xE06E20
+    // Offset: 0x1285990
     float get_scaleFactor();
     // public System.Void set_scaleFactor(System.Single value)
-    // Offset: 0xE06E28
+    // Offset: 0x1285998
     void set_scaleFactor(float value);
     // public UnityEngine.Vector2 get_referenceResolution()
-    // Offset: 0xE06EAC
+    // Offset: 0x1285A1C
     UnityEngine::Vector2 get_referenceResolution();
     // public System.Void set_referenceResolution(UnityEngine.Vector2 value)
-    // Offset: 0xE06EB4
+    // Offset: 0x1285A24
     void set_referenceResolution(UnityEngine::Vector2 value);
     // public UnityEngine.UI.CanvasScaler/ScreenMatchMode get_screenMatchMode()
-    // Offset: 0xE06FB4
+    // Offset: 0x1285B24
     UnityEngine::UI::CanvasScaler::ScreenMatchMode get_screenMatchMode();
     // public System.Void set_screenMatchMode(UnityEngine.UI.CanvasScaler/ScreenMatchMode value)
-    // Offset: 0xE06FBC
+    // Offset: 0x1285B2C
     void set_screenMatchMode(UnityEngine::UI::CanvasScaler::ScreenMatchMode value);
     // public System.Single get_matchWidthOrHeight()
-    // Offset: 0xE06FC4
+    // Offset: 0x1285B34
     float get_matchWidthOrHeight();
     // public System.Void set_matchWidthOrHeight(System.Single value)
-    // Offset: 0xE06FCC
+    // Offset: 0x1285B3C
     void set_matchWidthOrHeight(float value);
     // public UnityEngine.UI.CanvasScaler/Unit get_physicalUnit()
-    // Offset: 0xE06FD4
+    // Offset: 0x1285B44
     UnityEngine::UI::CanvasScaler::Unit get_physicalUnit();
     // public System.Void set_physicalUnit(UnityEngine.UI.CanvasScaler/Unit value)
-    // Offset: 0xE06FDC
+    // Offset: 0x1285B4C
     void set_physicalUnit(UnityEngine::UI::CanvasScaler::Unit value);
     // public System.Single get_fallbackScreenDPI()
-    // Offset: 0xE06FE4
+    // Offset: 0x1285B54
     float get_fallbackScreenDPI();
     // public System.Void set_fallbackScreenDPI(System.Single value)
-    // Offset: 0xE06FEC
+    // Offset: 0x1285B5C
     void set_fallbackScreenDPI(float value);
     // public System.Single get_defaultSpriteDPI()
-    // Offset: 0xE06FF4
+    // Offset: 0x1285B64
     float get_defaultSpriteDPI();
     // public System.Void set_defaultSpriteDPI(System.Single value)
-    // Offset: 0xE06FFC
+    // Offset: 0x1285B6C
     void set_defaultSpriteDPI(float value);
     // public System.Single get_dynamicPixelsPerUnit()
-    // Offset: 0xE0707C
+    // Offset: 0x1285BEC
     float get_dynamicPixelsPerUnit();
     // public System.Void set_dynamicPixelsPerUnit(System.Single value)
-    // Offset: 0xE07084
+    // Offset: 0x1285BF4
     void set_dynamicPixelsPerUnit(float value);
     // protected System.Void Update()
-    // Offset: 0xE0724C
+    // Offset: 0x1285DBC
     void Update();
     // protected System.Void Handle()
-    // Offset: 0xE0725C
+    // Offset: 0x1285DCC
     void Handle();
     // protected System.Void HandleWorldCanvas()
-    // Offset: 0xE07368
+    // Offset: 0x1285ED8
     void HandleWorldCanvas();
     // protected System.Void HandleConstantPixelSize()
-    // Offset: 0xE07394
+    // Offset: 0x1285F04
     void HandleConstantPixelSize();
     // protected System.Void HandleScaleWithScreenSize()
-    // Offset: 0xE073C0
+    // Offset: 0x1285F30
     void HandleScaleWithScreenSize();
     // protected System.Void HandleConstantPhysicalSize()
-    // Offset: 0xE07630
+    // Offset: 0x12861A0
     void HandleConstantPhysicalSize();
     // protected System.Void SetScaleFactor(System.Single scaleFactor)
-    // Offset: 0xE071B4
+    // Offset: 0x1285D24
     void SetScaleFactor(float scaleFactor);
     // protected System.Void SetReferencePixelsPerUnit(System.Single referencePixelsPerUnit)
-    // Offset: 0xE07200
+    // Offset: 0x1285D70
     void SetReferencePixelsPerUnit(float referencePixelsPerUnit);
     // protected System.Void .ctor()
-    // Offset: 0xE0708C
+    // Offset: 0x1285BFC
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -283,12 +283,12 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static CanvasScaler* New_ctor();
     // protected override System.Void OnEnable()
-    // Offset: 0xE07110
+    // Offset: 0x1285C80
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0xE07184
+    // Offset: 0x1285CF4
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDisable()
     void OnDisable();

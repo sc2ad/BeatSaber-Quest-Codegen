@@ -74,96 +74,102 @@ namespace System::IO {
     // Set static field: static private System.Text.Encoding _UTF8NoBOM
     static void _set__UTF8NoBOM(System::Text::Encoding* value);
     // private System.Void CheckAsyncTaskInProgress()
-    // Offset: 0x100D08C
+    // Offset: 0x15927B8
     void CheckAsyncTaskInProgress();
     // static System.Text.Encoding get_UTF8NoBOM()
-    // Offset: 0x100D134
+    // Offset: 0x1592860
     static System::Text::Encoding* get_UTF8NoBOM();
     // public System.Void .ctor(System.IO.Stream stream)
-    // Offset: 0x100D340
+    // Offset: 0x1592A6C
     static StreamWriter* New_ctor(System::IO::Stream* stream);
+    // public System.Void .ctor(System.IO.Stream stream, System.Text.Encoding encoding)
+    // Offset: 0x1592C98
+    static StreamWriter* New_ctor(System::IO::Stream* stream, System::Text::Encoding* encoding);
+    // public System.Void .ctor(System.IO.Stream stream, System.Text.Encoding encoding, System.Int32 bufferSize)
+    // Offset: 0x1592CA4
+    static StreamWriter* New_ctor(System::IO::Stream* stream, System::Text::Encoding* encoding, int bufferSize);
     // public System.Void .ctor(System.IO.Stream stream, System.Text.Encoding encoding, System.Int32 bufferSize, System.Boolean leaveOpen)
-    // Offset: 0x100D3C4
+    // Offset: 0x1592AF0
     static StreamWriter* New_ctor(System::IO::Stream* stream, System::Text::Encoding* encoding, int bufferSize, bool leaveOpen);
     // public System.Void .ctor(System.String path)
-    // Offset: 0x100D6E8
+    // Offset: 0x1592E28
     static StreamWriter* New_ctor(::Il2CppString* path);
     // public System.Void .ctor(System.String path, System.Boolean append)
-    // Offset: 0x100D77C
+    // Offset: 0x1592EBC
     static StreamWriter* New_ctor(::Il2CppString* path, bool append);
     // public System.Void .ctor(System.String path, System.Boolean append, System.Text.Encoding encoding)
-    // Offset: 0x100D808
+    // Offset: 0x1592F48
     static StreamWriter* New_ctor(::Il2CppString* path, bool append, System::Text::Encoding* encoding);
     // public System.Void .ctor(System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize)
-    // Offset: 0x100D770
+    // Offset: 0x1592EB0
     static StreamWriter* New_ctor(::Il2CppString* path, bool append, System::Text::Encoding* encoding, int bufferSize);
     // System.Void .ctor(System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize, System.Boolean checkHost)
-    // Offset: 0x100D818
+    // Offset: 0x1592F58
     static StreamWriter* New_ctor(::Il2CppString* path, bool append, System::Text::Encoding* encoding, int bufferSize, bool checkHost);
     // private System.Void Init(System.IO.Stream streamArg, System.Text.Encoding encodingArg, System.Int32 bufferSize, System.Boolean shouldLeaveOpen)
-    // Offset: 0x100D56C
+    // Offset: 0x1592CAC
     void Init(System::IO::Stream* streamArg, System::Text::Encoding* encodingArg, int bufferSize, bool shouldLeaveOpen);
     // static private System.IO.Stream CreateFile(System.String path, System.Boolean append, System.Boolean checkHost)
-    // Offset: 0x100DA00
+    // Offset: 0x1593140
     static System::IO::Stream* CreateFile(::Il2CppString* path, bool append, bool checkHost);
     // private System.Void Flush(System.Boolean flushStream, System.Boolean flushEncoder)
-    // Offset: 0x100DCFC
+    // Offset: 0x159343C
     void Flush(bool flushStream, bool flushEncoder);
     // public System.Void set_AutoFlush(System.Boolean value)
-    // Offset: 0x100DF08
+    // Offset: 0x1593648
     void set_AutoFlush(bool value);
     // System.Boolean get_LeaveOpen()
-    // Offset: 0x100DCEC
+    // Offset: 0x159342C
     bool get_LeaveOpen();
     // System.Void .ctor()
-    // Offset: 0x100D22C
+    // Offset: 0x1592958
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::.ctor()
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
     static StreamWriter* New_ctor();
     // public override System.Void Close()
-    // Offset: 0x100DAEC
+    // Offset: 0x159322C
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Close()
     void Close();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x100DB68
+    // Offset: 0x15932A8
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Void Flush()
-    // Offset: 0x100DE58
+    // Offset: 0x1593598
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Flush()
     void Flush();
     // public override System.Text.Encoding get_Encoding()
-    // Offset: 0x100DF5C
+    // Offset: 0x159369C
     // Implemented from: System.IO.TextWriter
     // Base method: System.Text.Encoding TextWriter::get_Encoding()
     System::Text::Encoding* get_Encoding();
     // public override System.Void Write(System.Char value)
-    // Offset: 0x100DF64
+    // Offset: 0x15936A4
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char value)
     void Write(::Il2CppChar value);
     // public override System.Void Write(System.Char[] buffer)
-    // Offset: 0x100E000
+    // Offset: 0x1593740
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char[] buffer)
     void Write(::Array<::Il2CppChar>* buffer);
     // public override System.Void Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x100E0D8
+    // Offset: 0x1593818
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
     void Write(::Array<::Il2CppChar>* buffer, int index, int count);
     // public override System.Void Write(System.String value)
-    // Offset: 0x100E310
+    // Offset: 0x1593A50
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.String value)
     void Write(::Il2CppString* value);
     // static private System.Void .cctor()
-    // Offset: 0x100E3E4
+    // Offset: 0x1593B24
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::.cctor()
     static void _cctor();

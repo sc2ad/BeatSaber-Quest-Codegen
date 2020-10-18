@@ -21,13 +21,13 @@ namespace System::Runtime::Remoting::Channels {
     // Offset: 0x20
     ::Il2CppString* processGuid;
     // System.Void .ctor(System.Int32 domainId)
-    // Offset: 0x10593A0
+    // Offset: 0x129B1B0
     static CrossAppDomainData* New_ctor(int domainId);
     // System.Int32 get_DomainID()
-    // Offset: 0x10598F4
+    // Offset: 0x129B704
     int get_DomainID();
     // System.String get_ProcessID()
-    // Offset: 0x10598FC
+    // Offset: 0x129B70C
     ::Il2CppString* get_ProcessID();
   }; // System.Runtime.Remoting.Channels.CrossAppDomainData
 }

@@ -24,7 +24,7 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0x1C
     bool FrenchSort;
     // public System.Void .ctor(System.Int32 lcid, System.Int32 tailoringIndex, System.Int32 tailoringCount, System.Boolean frenchSort)
-    // Offset: 0x10B2318
+    // Offset: 0x17D4BE0
     static TailoringInfo* New_ctor(int lcid, int tailoringIndex, int tailoringCount, bool frenchSort);
   }; // Mono.Globalization.Unicode.TailoringInfo
 }

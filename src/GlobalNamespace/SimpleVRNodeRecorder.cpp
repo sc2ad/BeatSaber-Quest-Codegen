@@ -11,8 +11,8 @@
 #include "UnityEngine/Transform.hpp"
 // Including type: FloatSO
 #include "GlobalNamespace/FloatSO.hpp"
-// Including type: VRPlatformHelper
-#include "GlobalNamespace/VRPlatformHelper.hpp"
+// Including type: IVRPlatformHelper
+#include "GlobalNamespace/IVRPlatformHelper.hpp"
 // Including type: System.Collections.Generic.List`1
 #include "System/Collections/Generic/List_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

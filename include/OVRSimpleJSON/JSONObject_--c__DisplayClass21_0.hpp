@@ -34,10 +34,10 @@ namespace OVRSimpleJSON {
       return aNode;
     }
     // System.Boolean <Remove>b__0(System.Collections.Generic.KeyValuePair`2<System.String,OVRSimpleJSON.JSONNode> k)
-    // Offset: 0xF591F4
+    // Offset: 0x14A4008
     bool $Remove$b__0(System::Collections::Generic::KeyValuePair_2<::Il2CppString*, OVRSimpleJSON::JSONNode*> k);
     // public System.Void .ctor()
-    // Offset: 0xF58E5C
+    // Offset: 0x14A3C70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static JSONObject::$$c__DisplayClass21_0* New_ctor();

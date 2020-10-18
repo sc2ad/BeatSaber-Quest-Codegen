@@ -33,10 +33,10 @@ namespace Zenject {
       return regex;
     }
     // System.Boolean <MatchingRegex>b__0(System.Type t)
-    // Offset: 0xD70228
+    // Offset: 0x11FB800
     bool $MatchingRegex$b__0(System::Type* t);
     // public System.Void .ctor()
-    // Offset: 0xD6FFDC
+    // Offset: 0x11FB5B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConventionFilterTypesBinder::$$c__DisplayClass18_0* New_ctor();

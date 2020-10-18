@@ -26,34 +26,34 @@ namespace System::Text {
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // public System.Void .ctor(System.String replacement)
-    // Offset: 0x12F1EEC
+    // Offset: 0x18861CC
     static DecoderReplacementFallback* New_ctor(::Il2CppString* replacement);
     // public System.String get_DefaultString()
-    // Offset: 0x12F20D0
+    // Offset: 0x18863B0
     ::Il2CppString* get_DefaultString();
     // public System.Void .ctor()
-    // Offset: 0x12F0DCC
+    // Offset: 0x18850AC
     // Implemented from: System.Text.DecoderFallback
     // Base method: System.Void DecoderFallback::.ctor()
     // Base method: System.Void Object::.ctor()
     static DecoderReplacementFallback* New_ctor();
     // public override System.Text.DecoderFallbackBuffer CreateFallbackBuffer()
-    // Offset: 0x12F20D8
+    // Offset: 0x18863B8
     // Implemented from: System.Text.DecoderFallback
     // Base method: System.Text.DecoderFallbackBuffer DecoderFallback::CreateFallbackBuffer()
     System::Text::DecoderFallbackBuffer* CreateFallbackBuffer();
     // public override System.Int32 get_MaxCharCount()
-    // Offset: 0x12F217C
+    // Offset: 0x188645C
     // Implemented from: System.Text.DecoderFallback
     // Base method: System.Int32 DecoderFallback::get_MaxCharCount()
     int get_MaxCharCount();
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0x12F2198
+    // Offset: 0x1886478
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x12F222C
+    // Offset: 0x188650C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

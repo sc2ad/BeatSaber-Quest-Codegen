@@ -38,44 +38,53 @@ namespace GlobalNamespace {
     // public System.Boolean agreedToEula
     // Offset: 0x22
     bool agreedToEula;
-    // public BeatmapDifficulty lastSelectedBeatmapDifficulty
+    // public System.Boolean agreedToMultiplayerDisclaimer
+    // Offset: 0x23
+    bool agreedToMultiplayerDisclaimer;
+    // public System.Boolean avatarCreated
     // Offset: 0x24
+    bool avatarCreated;
+    // public BeatmapDifficulty lastSelectedBeatmapDifficulty
+    // Offset: 0x28
     GlobalNamespace::BeatmapDifficulty lastSelectedBeatmapDifficulty;
     // public System.String lastSelectedBeatmapCharacteristicName
-    // Offset: 0x28
+    // Offset: 0x30
     ::Il2CppString* lastSelectedBeatmapCharacteristicName;
     // public PlayerSaveData/GameplayModifiers gameplayModifiers
-    // Offset: 0x30
+    // Offset: 0x38
     GlobalNamespace::PlayerSaveData::GameplayModifiers* gameplayModifiers;
     // public PlayerSaveData/PlayerSpecificSettings playerSpecificSettings
-    // Offset: 0x38
+    // Offset: 0x40
     GlobalNamespace::PlayerSaveData::PlayerSpecificSettings* playerSpecificSettings;
     // public PlayerSaveData/PracticeSettings practiceSettings
-    // Offset: 0x40
+    // Offset: 0x48
     GlobalNamespace::PlayerSaveData::PracticeSettings* practiceSettings;
     // public PlayerSaveData/PlayerAllOverallStatsData playerAllOverallStatsData
-    // Offset: 0x48
+    // Offset: 0x50
     GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData* playerAllOverallStatsData;
     // public System.Collections.Generic.List`1<PlayerSaveData/PlayerLevelStatsData> levelsStatsData
-    // Offset: 0x50
+    // Offset: 0x58
     System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::PlayerLevelStatsData*>* levelsStatsData;
     // public System.Collections.Generic.List`1<PlayerSaveData/PlayerMissionStatsData> missionsStatsData
-    // Offset: 0x58
+    // Offset: 0x60
     System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::PlayerMissionStatsData*>* missionsStatsData;
     // public System.Collections.Generic.List`1<System.String> showedMissionHelpIds
-    // Offset: 0x60
+    // Offset: 0x68
     System::Collections::Generic::List_1<::Il2CppString*>* showedMissionHelpIds;
     // public PlayerSaveData/ColorSchemesSettings colorSchemesSettings
-    // Offset: 0x68
+    // Offset: 0x70
     GlobalNamespace::PlayerSaveData::ColorSchemesSettings* colorSchemesSettings;
     // public PlayerSaveData/OverrideEnvironmentSettings overrideEnvironmentSettings
-    // Offset: 0x70
+    // Offset: 0x78
     GlobalNamespace::PlayerSaveData::OverrideEnvironmentSettings* overrideEnvironmentSettings;
     // public System.Collections.Generic.List`1<System.String> favoritesLevelIds
-    // Offset: 0x78
+    // Offset: 0x80
     System::Collections::Generic::List_1<::Il2CppString*>* favoritesLevelIds;
+    // public PlayerSaveData/MultiplayerModeSettings multiplayerModeSettings
+    // Offset: 0x88
+    GlobalNamespace::PlayerSaveData::MultiplayerModeSettings* multiplayerModeSettings;
     // public System.Void .ctor()
-    // Offset: 0xBDC4DC
+    // Offset: 0xFDEAB0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerSaveData::LocalPlayer* New_ctor();

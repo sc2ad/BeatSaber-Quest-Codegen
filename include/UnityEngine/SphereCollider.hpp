@@ -14,7 +14,7 @@ namespace UnityEngine {
   class SphereCollider : public UnityEngine::Collider {
     public:
     // public System.Single get_radius()
-    // Offset: 0x1966FB4
+    // Offset: 0x22132F8
     float get_radius();
   }; // UnityEngine.SphereCollider
 }

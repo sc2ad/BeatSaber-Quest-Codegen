@@ -28,10 +28,10 @@ namespace UnityEngine::Timeline {
       return intervalBit;
     }
     // public System.Int32 get_intervalBit()
-    // Offset: 0x109EDC8
+    // Offset: 0x1622E50
     int get_intervalBit();
     // public System.Void set_intervalBit(System.Int32 value)
-    // Offset: 0x109EDD0
+    // Offset: 0x1622E58
     void set_intervalBit(int value);
     // public System.Void set_enable(System.Boolean value)
     // Offset: 0xFFFFFFFF
@@ -40,7 +40,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0xFFFFFFFF
     void EvaluateAt(double localTime, UnityEngine::Playables::FrameData frameData);
     // public System.Void Reset()
-    // Offset: 0x109EDD8
+    // Offset: 0x1622E60
     void Reset();
     // public System.Int64 get_intervalStart()
     // Offset: 0xFFFFFFFF
@@ -53,7 +53,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Int64 IInterval::get_intervalEnd()
     int64_t get_intervalEnd();
     // protected System.Void .ctor()
-    // Offset: 0x109B8C4
+    // Offset: 0x161F94C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static RuntimeElement* New_ctor();

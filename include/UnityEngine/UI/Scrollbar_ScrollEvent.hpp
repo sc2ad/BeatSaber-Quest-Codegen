@@ -16,9 +16,9 @@ namespace UnityEngine::UI {
   class Scrollbar::ScrollEvent : public UnityEngine::Events::UnityEvent_1<float> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x120F9FC
+    // Offset: 0x18444E4
     // Implemented from: UnityEngine.Events.UnityEvent`1
-    // Base method: System.Void UnityEvent`1::.ctor()
+    // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()
     // Base method: System.Void Object::.ctor()
     static Scrollbar::ScrollEvent* New_ctor();

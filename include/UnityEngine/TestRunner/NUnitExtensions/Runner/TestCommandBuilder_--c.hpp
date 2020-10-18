@@ -51,19 +51,19 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Set static field: static public System.Func`2<System.Collections.Generic.IEnumerable`1<System.String>,System.Collections.Generic.IEnumerable`1<System.String>> <>9__1_2
     static void _set_$$9__1_2(System::Func_2<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xE37AEC
+    // Offset: 0x12B494C
     static void _cctor();
     // System.String <GetTestBuilderName>b__1_0(NUnit.Framework.Interfaces.ITestBuilder attribute)
-    // Offset: 0xE37B5C
+    // Offset: 0x12B49BC
     ::Il2CppString* $GetTestBuilderName$b__1_0(NUnit::Framework::Interfaces::ITestBuilder* attribute);
     // System.String <GetTestBuilderName>b__1_1(NUnit.Framework.Interfaces.ISimpleTestBuilder attribute)
-    // Offset: 0xE37B8C
+    // Offset: 0x12B49EC
     ::Il2CppString* $GetTestBuilderName$b__1_1(NUnit::Framework::Interfaces::ISimpleTestBuilder* attribute);
     // System.Collections.Generic.IEnumerable`1<System.String> <GetTestBuilderName>b__1_2(System.Collections.Generic.IEnumerable`1<System.String> v)
-    // Offset: 0xE37BBC
+    // Offset: 0x12B4A1C
     System::Collections::Generic::IEnumerable_1<::Il2CppString*>* $GetTestBuilderName$b__1_2(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* v);
     // public System.Void .ctor()
-    // Offset: 0xE37B54
+    // Offset: 0x12B49B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TestCommandBuilder::$$c* New_ctor();

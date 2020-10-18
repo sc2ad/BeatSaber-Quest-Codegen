@@ -20,22 +20,22 @@ namespace JetBrains::Annotations {
     // Offset: 0x18
     ::Il2CppString* PageName;
     // public System.Void .ctor(System.String baseType)
-    // Offset: 0x1961720
+    // Offset: 0x220C5A8
     static RazorPageBaseTypeAttribute* New_ctor(::Il2CppString* baseType);
     // public System.Void .ctor(System.String baseType, System.String pageName)
-    // Offset: 0x1961754
+    // Offset: 0x220C5DC
     static RazorPageBaseTypeAttribute* New_ctor(::Il2CppString* baseType, ::Il2CppString* pageName);
     // public System.String get_BaseType()
-    // Offset: 0x19617A4
+    // Offset: 0x220C62C
     ::Il2CppString* get_BaseType();
     // private System.Void set_BaseType(System.String value)
-    // Offset: 0x19617AC
+    // Offset: 0x220C634
     void set_BaseType(::Il2CppString* value);
     // public System.String get_PageName()
-    // Offset: 0x19617B4
+    // Offset: 0x220C63C
     ::Il2CppString* get_PageName();
     // private System.Void set_PageName(System.String value)
-    // Offset: 0x19617BC
+    // Offset: 0x220C644
     void set_PageName(::Il2CppString* value);
   }; // JetBrains.Annotations.RazorPageBaseTypeAttribute
 }

@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_GetPropErrorNameFromEnum : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16BFBE0
+    // Offset: 0x1F44988
     static IVRSystem::_GetPropErrorNameFromEnum* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.IntPtr Invoke(OVR.OpenVR.ETrackedPropertyError error)
-    // Offset: 0x16BFBF4
+    // Offset: 0x1F4499C
     System::IntPtr Invoke(OVR::OpenVR::ETrackedPropertyError error);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.ETrackedPropertyError error, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16BFE68
+    // Offset: 0x1F44C10
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::ETrackedPropertyError error, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.IntPtr EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16BFEF4
+    // Offset: 0x1F44C9C
     System::IntPtr EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_GetPropErrorNameFromEnum
 }

@@ -51,6 +51,8 @@ namespace GlobalNamespace {
     class OverrideEnvironmentSettings;
     // Nested type: GlobalNamespace::PlayerSaveData::GuestPlayer
     class GuestPlayer;
+    // Nested type: GlobalNamespace::PlayerSaveData::MultiplayerModeSettings
+    class MultiplayerModeSettings;
     // Nested type: GlobalNamespace::PlayerSaveData::LocalPlayer
     class LocalPlayer;
     // public System.Collections.Generic.List`1<PlayerSaveData/LocalPlayer> localPlayers
@@ -62,13 +64,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
     // static field const value: static public System.String kCurrentVersion
-    static constexpr const char* kCurrentVersion = "2.0.6";
+    static constexpr const char* kCurrentVersion = "2.0.12";
     // Get static field: static public System.String kCurrentVersion
     static ::Il2CppString* _get_kCurrentVersion();
     // Set static field: static public System.String kCurrentVersion
     static void _set_kCurrentVersion(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0xBDC47C
+    // Offset: 0xFDEA50
     // Implemented from: VersionSaveData
     // Base method: System.Void VersionSaveData::.ctor()
     // Base method: System.Void Object::.ctor()

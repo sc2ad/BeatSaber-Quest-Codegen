@@ -107,50 +107,74 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::Material* _get_s_ShapePreviewMaterial();
     // Set static field: static private UnityEngine.Material s_ShapePreviewMaterial
     static void _set_s_ShapePreviewMaterial(UnityEngine::Material* value);
+    // Get static field: static private System.String k_EdgePickerMaterial
+    static ::Il2CppString* _get_k_EdgePickerMaterial();
+    // Set static field: static private System.String k_EdgePickerMaterial
+    static void _set_k_EdgePickerMaterial(::Il2CppString* value);
+    // Get static field: static private System.String k_FacePickerMaterial
+    static ::Il2CppString* _get_k_FacePickerMaterial();
+    // Set static field: static private System.String k_FacePickerMaterial
+    static void _set_k_FacePickerMaterial(::Il2CppString* value);
+    // Get static field: static private System.String k_VertexPickerMaterial
+    static ::Il2CppString* _get_k_VertexPickerMaterial();
+    // Set static field: static private System.String k_VertexPickerMaterial
+    static void _set_k_VertexPickerMaterial(::Il2CppString* value);
+    // Get static field: static private System.String k_EdgePickerShader
+    static ::Il2CppString* _get_k_EdgePickerShader();
+    // Set static field: static private System.String k_EdgePickerShader
+    static void _set_k_EdgePickerShader(::Il2CppString* value);
+    // Get static field: static private System.String k_FacePickerShader
+    static ::Il2CppString* _get_k_FacePickerShader();
+    // Set static field: static private System.String k_FacePickerShader
+    static void _set_k_FacePickerShader(::Il2CppString* value);
+    // Get static field: static private System.String k_VertexPickerShader
+    static ::Il2CppString* _get_k_VertexPickerShader();
+    // Set static field: static private System.String k_VertexPickerShader
+    static void _set_k_VertexPickerShader(::Il2CppString* value);
     // static private System.Void Init()
-    // Offset: 0x153344C
+    // Offset: 0x1D91EB4
     static void Init();
     // static public System.Boolean get_geometryShadersSupported()
-    // Offset: 0x1533CF8
+    // Offset: 0x1D9278C
     static bool get_geometryShadersSupported();
     // static public UnityEngine.Material get_defaultMaterial()
-    // Offset: 0x1533D64
+    // Offset: 0x1D927F8
     static UnityEngine::Material* get_defaultMaterial();
     // static UnityEngine.Shader get_selectionPickerShader()
-    // Offset: 0x1533DD0
+    // Offset: 0x1D92864
     static UnityEngine::Shader* get_selectionPickerShader();
     // static UnityEngine.Material get_facePickerMaterial()
-    // Offset: 0x1533E3C
+    // Offset: 0x1D928D0
     static UnityEngine::Material* get_facePickerMaterial();
     // static UnityEngine.Material get_vertexPickerMaterial()
-    // Offset: 0x1533EA8
+    // Offset: 0x1D9293C
     static UnityEngine::Material* get_vertexPickerMaterial();
     // static UnityEngine.Material get_edgePickerMaterial()
-    // Offset: 0x1533F14
+    // Offset: 0x1D929A8
     static UnityEngine::Material* get_edgePickerMaterial();
     // static UnityEngine.Material get_triggerMaterial()
-    // Offset: 0x1533F80
+    // Offset: 0x1D92A14
     static UnityEngine::Material* get_triggerMaterial();
     // static UnityEngine.Material get_colliderMaterial()
-    // Offset: 0x1534070
+    // Offset: 0x1D92B04
     static UnityEngine::Material* get_colliderMaterial();
     // static UnityEngine.Material get_noDrawMaterial()
-    // Offset: 0x1534160
+    // Offset: 0x1D92BF4
     static UnityEngine::Material* get_noDrawMaterial();
     // static UnityEngine.Material GetLegacyDiffuse()
-    // Offset: 0x1534250
+    // Offset: 0x1D92CE4
     static UnityEngine::Material* GetLegacyDiffuse();
     // static UnityEngine.Material GetDefaultMaterial()
-    // Offset: 0x1533B40
+    // Offset: 0x1D925A8
     static UnityEngine::Material* GetDefaultMaterial();
     // static UnityEngine.Material get_unlitVertexColor()
-    // Offset: 0x15344EC
+    // Offset: 0x1D92F80
     static UnityEngine::Material* get_unlitVertexColor();
     // static UnityEngine.Material get_ShapePreviewMaterial()
-    // Offset: 0x1534558
+    // Offset: 0x1D92FEC
     static UnityEngine::Material* get_ShapePreviewMaterial();
     // static private System.Void .cctor()
-    // Offset: 0x15345C4
+    // Offset: 0x1D93058
     static void _cctor();
   }; // UnityEngine.ProBuilder.BuiltinMaterials
 }

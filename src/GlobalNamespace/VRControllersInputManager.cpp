@@ -5,8 +5,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: VRControllersInputManager
 #include "GlobalNamespace/VRControllersInputManager.hpp"
-// Including type: VRPlatformHelper
-#include "GlobalNamespace/VRPlatformHelper.hpp"
+// Including type: IVRPlatformHelper
+#include "GlobalNamespace/IVRPlatformHelper.hpp"
 // Including type: System.String
 #include "System/String.hpp"
 // Including type: UnityEngine.XR.XRNode

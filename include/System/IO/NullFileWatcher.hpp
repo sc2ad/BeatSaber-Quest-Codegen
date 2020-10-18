@@ -25,20 +25,20 @@ namespace System::IO {
     // Set static field: static private System.IO.IFileWatcher instance
     static void _set_instance(System::IO::IFileWatcher* value);
     // static public System.Boolean GetInstance(out System.IO.IFileWatcher watcher)
-    // Offset: 0xF689CC
+    // Offset: 0x1734ABC
     static bool GetInstance(System::IO::IFileWatcher*& watcher);
     // public System.Void StartDispatching(System.IO.FileSystemWatcher fsw)
-    // Offset: 0xF693D8
+    // Offset: 0x17354C8
     // Implemented from: System.IO.IFileWatcher
     // Base method: System.Void IFileWatcher::StartDispatching(System.IO.FileSystemWatcher fsw)
     void StartDispatching(System::IO::FileSystemWatcher* fsw);
     // public System.Void StopDispatching(System.IO.FileSystemWatcher fsw)
-    // Offset: 0xF693DC
+    // Offset: 0x17354CC
     // Implemented from: System.IO.IFileWatcher
     // Base method: System.Void IFileWatcher::StopDispatching(System.IO.FileSystemWatcher fsw)
     void StopDispatching(System::IO::FileSystemWatcher* fsw);
     // public System.Void .ctor()
-    // Offset: 0xF693E0
+    // Offset: 0x17354D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NullFileWatcher* New_ctor();

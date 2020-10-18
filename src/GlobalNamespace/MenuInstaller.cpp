@@ -6,6 +6,10 @@
 #include "GlobalNamespace/MenuInstaller.hpp"
 // Including type: FireworkItemController
 #include "GlobalNamespace/FireworkItemController.hpp"
+// Including type: MultiplayerLobbyAvatarController
+#include "GlobalNamespace/MultiplayerLobbyAvatarController.hpp"
+// Including type: MultiplayerLobbyAvatarPlace
+#include "GlobalNamespace/MultiplayerLobbyAvatarPlace.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

@@ -22,8 +22,6 @@ namespace GlobalNamespace {
 namespace UnityEngine {
   // Forward declaring type: AudioClip
   class AudioClip;
-  // Forward declaring type: Texture2D
-  class Texture2D;
 }
 // Completed forward declares
 // Type namespace: 
@@ -38,14 +36,14 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::BeatmapLevelData*() const noexcept {
       return beatmapLevelData;
     }
-    // public System.Void .ctor(CustomPreviewBeatmapLevel customPreviewBeatmapLevel, UnityEngine.AudioClip previewAudioClip, UnityEngine.Texture2D coverImageTexture2D)
-    // Offset: 0xBE34C4
-    static CustomBeatmapLevel* New_ctor(GlobalNamespace::CustomPreviewBeatmapLevel* customPreviewBeatmapLevel, UnityEngine::AudioClip* previewAudioClip, UnityEngine::Texture2D* coverImageTexture2D);
+    // public System.Void .ctor(CustomPreviewBeatmapLevel customPreviewBeatmapLevel, UnityEngine.AudioClip previewAudioClip)
+    // Offset: 0xF5B538
+    static CustomBeatmapLevel* New_ctor(GlobalNamespace::CustomPreviewBeatmapLevel* customPreviewBeatmapLevel, UnityEngine::AudioClip* previewAudioClip);
     // public System.Void SetBeatmapLevelData(BeatmapLevelData beatmapLevelData)
-    // Offset: 0xBE36B8
+    // Offset: 0xF5B734
     void SetBeatmapLevelData(GlobalNamespace::BeatmapLevelData* beatmapLevelData);
     // public IBeatmapLevelData get_beatmapLevelData()
-    // Offset: 0xBE34BC
+    // Offset: 0xF5B530
     // Implemented from: IBeatmapLevel
     // Base method: IBeatmapLevelData IBeatmapLevel::get_beatmapLevelData()
     GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();

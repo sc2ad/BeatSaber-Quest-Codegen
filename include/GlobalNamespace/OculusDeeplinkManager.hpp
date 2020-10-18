@@ -44,40 +44,40 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::Deeplink* currentDeeplink;
     // public System.Void OculusPlatformWasInitialized()
-    // Offset: 0xC38BE0
+    // Offset: 0x10BA930
     void OculusPlatformWasInitialized();
     // private System.Void SetLaunchIntentChangedNotificationCallback(Oculus.Platform.Message`1<System.String> message)
-    // Offset: 0xC38CA8
+    // Offset: 0x10BA9F8
     void SetLaunchIntentChangedNotificationCallback(Oculus::Platform::Message_1<::Il2CppString*>* message);
     // private System.Void ProcessLaunchDetails(Oculus.Platform.Models.LaunchDetails launchDetails)
-    // Offset: 0xC38C88
+    // Offset: 0x10BA9D8
     void ProcessLaunchDetails(Oculus::Platform::Models::LaunchDetails* launchDetails);
     // private System.Void UpdateDeeplinkMessage(System.String deeplinkMessage)
-    // Offset: 0xC38CEC
+    // Offset: 0x10BAA3C
     void UpdateDeeplinkMessage(::Il2CppString* deeplinkMessage);
     // private System.Boolean IsAtLeastOneFieldPopulated(Deeplink deeplink)
-    // Offset: 0xC38E24
+    // Offset: 0x10BAB74
     bool IsAtLeastOneFieldPopulated(GlobalNamespace::Deeplink* deeplink);
     // static public System.Void Log(System.String message)
-    // Offset: 0xC38EA4
+    // Offset: 0x10BABF4
     static void Log(::Il2CppString* message);
     // public System.Void add_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
-    // Offset: 0xC38A90
+    // Offset: 0x10BA7E0
     // Implemented from: IDeeplinkManager
     // Base method: System.Void IDeeplinkManager::add_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
     void add_didReceiveDeeplinkEvent(System::Action_1<GlobalNamespace::Deeplink*>* value);
     // public System.Void remove_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
-    // Offset: 0xC38B34
+    // Offset: 0x10BA884
     // Implemented from: IDeeplinkManager
     // Base method: System.Void IDeeplinkManager::remove_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
     void remove_didReceiveDeeplinkEvent(System::Action_1<GlobalNamespace::Deeplink*>* value);
     // public Deeplink get_currentDeeplink()
-    // Offset: 0xC38BD8
+    // Offset: 0x10BA928
     // Implemented from: IDeeplinkManager
     // Base method: Deeplink IDeeplinkManager::get_currentDeeplink()
     GlobalNamespace::Deeplink* get_currentDeeplink();
     // public System.Void .ctor()
-    // Offset: 0xC38F0C
+    // Offset: 0x10BAC5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusDeeplinkManager* New_ctor();

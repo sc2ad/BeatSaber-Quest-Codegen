@@ -21,16 +21,16 @@ namespace JetBrains::Annotations {
       return Name;
     }
     // public System.Void .ctor(System.String name)
-    // Offset: 0x19612C4
+    // Offset: 0x220C14C
     static HtmlElementAttributesAttribute* New_ctor(::Il2CppString* name);
     // public System.String get_Name()
-    // Offset: 0x19612F8
+    // Offset: 0x220C180
     ::Il2CppString* get_Name();
     // private System.Void set_Name(System.String value)
-    // Offset: 0x1961300
+    // Offset: 0x220C188
     void set_Name(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x19612BC
+    // Offset: 0x220C144
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

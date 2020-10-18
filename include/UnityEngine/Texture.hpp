@@ -47,67 +47,67 @@ namespace UnityEngine {
     // Set static field: static public readonly System.Int32 GenerateAllMips
     static void _set_GenerateAllMips(int value);
     // public System.Int32 get_mipmapCount()
-    // Offset: 0x13948E4
+    // Offset: 0x1992310
     int get_mipmapCount();
     // private System.Int32 GetDataWidth()
-    // Offset: 0x1394924
+    // Offset: 0x1992350
     int GetDataWidth();
     // private System.Int32 GetDataHeight()
-    // Offset: 0x1394964
+    // Offset: 0x1992390
     int GetDataHeight();
     // public System.Int32 get_width()
-    // Offset: 0x13949A4
+    // Offset: 0x19923D0
     int get_width();
     // public System.Void set_width(System.Int32 value)
-    // Offset: 0x13949E4
+    // Offset: 0x1992410
     void set_width(int value);
     // public System.Int32 get_height()
-    // Offset: 0x1394A44
+    // Offset: 0x1992470
     int get_height();
     // public System.Void set_height(System.Int32 value)
-    // Offset: 0x1394A84
+    // Offset: 0x19924B0
     void set_height(int value);
     // public System.Void set_dimension(UnityEngine.Rendering.TextureDimension value)
-    // Offset: 0x1394AE4
+    // Offset: 0x1992510
     void set_dimension(UnityEngine::Rendering::TextureDimension value);
     // public System.Boolean get_isReadable()
-    // Offset: 0x1394B44
+    // Offset: 0x1992570
     bool get_isReadable();
     // public UnityEngine.TextureWrapMode get_wrapMode()
-    // Offset: 0x1394B84
+    // Offset: 0x19925B0
     UnityEngine::TextureWrapMode get_wrapMode();
     // public System.Void set_wrapMode(UnityEngine.TextureWrapMode value)
-    // Offset: 0x1394BC4
+    // Offset: 0x19925F0
     void set_wrapMode(UnityEngine::TextureWrapMode value);
     // public System.Void set_mipMapBias(System.Single value)
-    // Offset: 0x1394C14
+    // Offset: 0x1992640
     void set_mipMapBias(float value);
     // public UnityEngine.Vector2 get_texelSize()
-    // Offset: 0x1394C64
+    // Offset: 0x1992690
     UnityEngine::Vector2 get_texelSize();
     // public System.IntPtr GetNativeTexturePtr()
-    // Offset: 0x1394D0C
+    // Offset: 0x1992738
     System::IntPtr GetNativeTexturePtr();
     // System.Boolean ValidateFormat(UnityEngine.TextureFormat format)
-    // Offset: 0x1394D4C
+    // Offset: 0x1992778
     bool ValidateFormat(UnityEngine::TextureFormat format);
     // System.Boolean ValidateFormat(UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.FormatUsage usage)
-    // Offset: 0x1394EB4
+    // Offset: 0x19928E0
     bool ValidateFormat(UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::FormatUsage usage);
     // UnityEngine.UnityException CreateNonReadableException(UnityEngine.Texture t)
-    // Offset: 0x139501C
+    // Offset: 0x1992A48
     UnityEngine::UnityException* CreateNonReadableException(UnityEngine::Texture* t);
     // private System.Void get_texelSize_Injected(out UnityEngine.Vector2 ret)
-    // Offset: 0x1394CBC
+    // Offset: 0x19926E8
     void get_texelSize_Injected(UnityEngine::Vector2& ret);
     // protected System.Void .ctor()
-    // Offset: 0x139487C
+    // Offset: 0x19922A8
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()
     static Texture* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x139513C
+    // Offset: 0x1992B68
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

@@ -15,7 +15,7 @@ namespace UnityEngine::Bindings {
   class VisibleToOtherModulesAttribute : public System::Attribute {
     public:
     // public System.Void .ctor(params System.String[] modules)
-    // Offset: 0x19753BC
+    // Offset: 0x2224114
     static VisibleToOtherModulesAttribute* New_ctor(::Array<::Il2CppString*>* modules);
     // Creating initializer_list -> params proxy for: System.Void .ctor(params System.String[] modules)
     static VisibleToOtherModulesAttribute* New_ctor(std::initializer_list<::Il2CppString*> modules);
@@ -25,7 +25,7 @@ namespace UnityEngine::Bindings {
       return New_ctor({modules...});
     }
     // public System.Void .ctor()
-    // Offset: 0x19753B4
+    // Offset: 0x222410C
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

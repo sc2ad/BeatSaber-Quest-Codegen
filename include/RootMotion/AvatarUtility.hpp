@@ -30,16 +30,16 @@ namespace RootMotion {
   class AvatarUtility : public ::Il2CppObject {
     public:
     // static public UnityEngine.Quaternion GetPostRotation(UnityEngine.Avatar avatar, UnityEngine.AvatarIKGoal avatarIKGoal)
-    // Offset: 0x139F764
+    // Offset: 0x1ABFA9C
     static UnityEngine::Quaternion GetPostRotation(UnityEngine::Avatar* avatar, UnityEngine::AvatarIKGoal avatarIKGoal);
     // static public RootMotion.TQ GetIKGoalTQ(UnityEngine.Avatar avatar, System.Single humanScale, UnityEngine.AvatarIKGoal avatarIKGoal, RootMotion.TQ bodyPositionRotation, RootMotion.TQ boneTQ)
-    // Offset: 0x139F984
+    // Offset: 0x1ABFCBC
     static RootMotion::TQ* GetIKGoalTQ(UnityEngine::Avatar* avatar, float humanScale, UnityEngine::AvatarIKGoal avatarIKGoal, RootMotion::TQ* bodyPositionRotation, RootMotion::TQ* boneTQ);
     // static public UnityEngine.HumanBodyBones HumanIDFromAvatarIKGoal(UnityEngine.AvatarIKGoal avatarIKGoal)
-    // Offset: 0x139F964
+    // Offset: 0x1ABFC9C
     static UnityEngine::HumanBodyBones HumanIDFromAvatarIKGoal(UnityEngine::AvatarIKGoal avatarIKGoal);
     // public System.Void .ctor()
-    // Offset: 0x13A001C
+    // Offset: 0x1AC0354
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AvatarUtility* New_ctor();

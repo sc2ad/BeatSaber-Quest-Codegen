@@ -22,16 +22,16 @@ namespace System {
   class AsyncCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1330AF8
+    // Offset: 0x15C9618
     static AsyncCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.IAsyncResult ar)
-    // Offset: 0x1330B0C
+    // Offset: 0x15C962C
     void Invoke(System::IAsyncResult* ar);
     // public System.IAsyncResult BeginInvoke(System.IAsyncResult ar, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1330EC4
+    // Offset: 0x15C99E4
     System::IAsyncResult* BeginInvoke(System::IAsyncResult* ar, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1330EE8
+    // Offset: 0x15C9A08
     void EndInvoke(System::IAsyncResult* result);
   }; // System.AsyncCallback
 }

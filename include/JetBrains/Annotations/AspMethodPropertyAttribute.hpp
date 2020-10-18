@@ -14,7 +14,7 @@ namespace JetBrains::Annotations {
   class AspMethodPropertyAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1960D94
+    // Offset: 0x220BC1C
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

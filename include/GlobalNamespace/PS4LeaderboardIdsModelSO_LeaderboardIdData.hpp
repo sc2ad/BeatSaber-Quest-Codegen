@@ -20,13 +20,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Il2CppString* leaderboardId;
     // public System.UInt32 get_ps4LeaderboardId()
-    // Offset: 0xBD1C90
+    // Offset: 0xFD38D8
     uint get_ps4LeaderboardId();
     // public System.String get_leaderboardId()
-    // Offset: 0xBD1C98
+    // Offset: 0xFD38E0
     ::Il2CppString* get_leaderboardId();
     // public System.Void .ctor(System.UInt32 ps4LeaderboardId, System.String leaderboardId)
-    // Offset: 0xBD1CA0
+    // Offset: 0xFD38E8
     static PS4LeaderboardIdsModelSO::LeaderboardIdData* New_ctor(uint ps4LeaderboardId, ::Il2CppString* leaderboardId);
   }; // PS4LeaderboardIdsModelSO/LeaderboardIdData
 }

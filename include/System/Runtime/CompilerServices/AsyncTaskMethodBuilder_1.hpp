@@ -22,6 +22,8 @@ namespace System::Threading::Tasks {
 namespace System::Runtime::CompilerServices {
   // Forward declaring type: IAsyncStateMachine
   class IAsyncStateMachine;
+  // Forward declaring type: INotifyCompletion
+  class INotifyCompletion;
   // Forward declaring type: ICriticalNotifyCompletion
   class ICriticalNotifyCompletion;
 }
@@ -71,6 +73,14 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0xFFFFFFFF
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
       THROW_UNLESS(il2cpp_utils::RunMethod(*this, "SetStateMachine", stateMachine));
+    }
+    // public System.Void AwaitOnCompleted(ref TAwaiter awaiter, ref TStateMachine stateMachine)
+    // Offset: 0xFFFFFFFF
+    template<class TAwaiter, class TStateMachine>
+    void AwaitOnCompleted(TAwaiter& awaiter, TStateMachine& stateMachine) {
+      static_assert(std::is_base_of_v<System::Runtime::CompilerServices::INotifyCompletion, std::remove_pointer_t<TAwaiter>>);
+      static_assert(std::is_base_of_v<System::Runtime::CompilerServices::IAsyncStateMachine, std::remove_pointer_t<TStateMachine>>);
+      THROW_UNLESS((il2cpp_utils::RunGenericMethod(*this, "AwaitOnCompleted", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TAwaiter>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TStateMachine>::get()}, awaiter, stateMachine)));
     }
     // public System.Void AwaitUnsafeOnCompleted(ref TAwaiter awaiter, ref TStateMachine stateMachine)
     // Offset: 0xFFFFFFFF

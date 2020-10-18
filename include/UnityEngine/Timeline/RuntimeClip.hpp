@@ -39,48 +39,48 @@ namespace UnityEngine::Timeline {
     // Deleting conversion operator: operator int
     constexpr operator int() const noexcept = delete;
     // public System.Void .ctor(UnityEngine.Timeline.TimelineClip clip, UnityEngine.Playables.Playable clipPlayable, UnityEngine.Playables.Playable parentMixer)
-    // Offset: 0x1092608
+    // Offset: 0x1616690
     static RuntimeClip* New_ctor(UnityEngine::Timeline::TimelineClip* clip, UnityEngine::Playables::Playable clipPlayable, UnityEngine::Playables::Playable parentMixer);
     // private System.Void Create(UnityEngine.Timeline.TimelineClip clip, UnityEngine.Playables.Playable clipPlayable, UnityEngine.Playables.Playable parentMixer)
-    // Offset: 0x109E3C0
+    // Offset: 0x1622448
     void Create(UnityEngine::Timeline::TimelineClip* clip, UnityEngine::Playables::Playable clipPlayable, UnityEngine::Playables::Playable parentMixer);
     // public UnityEngine.Timeline.TimelineClip get_clip()
-    // Offset: 0x109E458
+    // Offset: 0x16224E0
     UnityEngine::Timeline::TimelineClip* get_clip();
     // public UnityEngine.Playables.Playable get_mixer()
-    // Offset: 0x109E460
+    // Offset: 0x16224E8
     UnityEngine::Playables::Playable get_mixer();
     // public UnityEngine.Playables.Playable get_playable()
-    // Offset: 0x109E46C
+    // Offset: 0x16224F4
     UnityEngine::Playables::Playable get_playable();
     // public System.Void SetTime(System.Double time)
-    // Offset: 0x109E5C0
+    // Offset: 0x1622648
     void SetTime(double time);
     // public System.Void SetDuration(System.Double duration)
-    // Offset: 0x109E620
+    // Offset: 0x16226A8
     void SetDuration(double duration);
     // public override System.Double get_start()
-    // Offset: 0x109E35C
+    // Offset: 0x16223E4
     // Implemented from: UnityEngine.Timeline.RuntimeClipBase
     // Base method: System.Double RuntimeClipBase::get_start()
     double get_start();
     // public override System.Double get_duration()
-    // Offset: 0x109E3A0
+    // Offset: 0x1622428
     // Implemented from: UnityEngine.Timeline.RuntimeClipBase
     // Base method: System.Double RuntimeClipBase::get_duration()
     double get_duration();
     // public override System.Void set_enable(System.Boolean value)
-    // Offset: 0x109E478
+    // Offset: 0x1622500
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::set_enable(System.Boolean value)
     void set_enable(bool value);
     // public override System.Void EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
-    // Offset: 0x109E680
+    // Offset: 0x1622708
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
     void EvaluateAt(double localTime, UnityEngine::Playables::FrameData frameData);
     // public override System.Void Reset()
-    // Offset: 0x109EC84
+    // Offset: 0x1622D0C
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::Reset()
     void Reset();

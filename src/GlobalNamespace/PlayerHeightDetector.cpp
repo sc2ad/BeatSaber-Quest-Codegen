@@ -4,8 +4,8 @@
 // Begin includes
 // Including type: PlayerHeightDetector
 #include "GlobalNamespace/PlayerHeightDetector.hpp"
-// Including type: PlayerController
-#include "GlobalNamespace/PlayerController.hpp"
+// Including type: PlayerTransforms
+#include "GlobalNamespace/PlayerTransforms.hpp"
 // Including type: BeatmapObjectData
 #include "GlobalNamespace/BeatmapObjectData.hpp"
 // Including type: AudioTimeSyncController

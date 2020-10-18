@@ -42,20 +42,20 @@ namespace System::Runtime::Remoting::Messaging {
   class ConstructionResponse : public System::Runtime::Remoting::Messaging::MethodResponse, public System::Runtime::Remoting::Activation::IConstructionReturnMessage {
     public:
     // System.Void .ctor(System.Object resultObject, System.Runtime.Remoting.Messaging.LogicalCallContext callCtx, System.Runtime.Remoting.Messaging.IMethodCallMessage msg)
-    // Offset: 0x1053B34
+    // Offset: 0x1295A74
     static ConstructionResponse* New_ctor(::Il2CppObject* resultObject, System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx, System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);
     // System.Void .ctor(System.Exception e, System.Runtime.Remoting.Messaging.IMethodCallMessage msg)
-    // Offset: 0x105419C
+    // Offset: 0x12960E8
     // Implemented from: System.Runtime.Remoting.Messaging.MethodResponse
     // Base method: System.Void MethodResponse::.ctor(System.Exception e, System.Runtime.Remoting.Messaging.IMethodCallMessage msg)
     static ConstructionResponse* New_ctor(System::Exception* e, System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1069A44
+    // Offset: 0x12AA1DC
     // Implemented from: System.Runtime.Remoting.Messaging.MethodResponse
     // Base method: System.Void MethodResponse::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static ConstructionResponse* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Collections.IDictionary get_Properties()
-    // Offset: 0x1069AC4
+    // Offset: 0x12AA1E4
     // Implemented from: System.Runtime.Remoting.Messaging.MethodResponse
     // Base method: System.Collections.IDictionary MethodResponse::get_Properties()
     System::Collections::IDictionary* get_Properties();

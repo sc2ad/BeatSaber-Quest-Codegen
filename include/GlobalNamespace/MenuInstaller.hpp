@@ -13,6 +13,10 @@
 namespace GlobalNamespace {
   // Forward declaring type: FireworkItemController
   class FireworkItemController;
+  // Forward declaring type: MultiplayerLobbyAvatarController
+  class MultiplayerLobbyAvatarController;
+  // Forward declaring type: MultiplayerLobbyAvatarPlace
+  class MultiplayerLobbyAvatarPlace;
 }
 // Completed forward declares
 // Type namespace: 
@@ -23,13 +27,19 @@ namespace GlobalNamespace {
     // private FireworkItemController _fireworkItemControllerPrefab
     // Offset: 0x20
     GlobalNamespace::FireworkItemController* fireworkItemControllerPrefab;
+    // private MultiplayerLobbyAvatarController _multiplayerLobbyAvatarControllerPrefab
+    // Offset: 0x28
+    GlobalNamespace::MultiplayerLobbyAvatarController* multiplayerLobbyAvatarControllerPrefab;
+    // private MultiplayerLobbyAvatarPlace _multiplayerAvatarPlacePrefab
+    // Offset: 0x30
+    GlobalNamespace::MultiplayerLobbyAvatarPlace* multiplayerAvatarPlacePrefab;
     // public override System.Void InstallBindings()
-    // Offset: 0xC01644
+    // Offset: 0xED8CDC
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xC016C4
+    // Offset: 0xED8DE0
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

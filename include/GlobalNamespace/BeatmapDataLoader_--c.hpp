@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: BeatmapDataLoader
 #include "GlobalNamespace/BeatmapDataLoader.hpp"
+// Including type: BeatmapSaveData
+#include "GlobalNamespace/BeatmapSaveData.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -14,11 +16,6 @@ namespace System {
   // Forward declaring type: Comparison`1<T>
   template<typename T>
   class Comparison_1;
-}
-// Forward declaring namespace: GlobalNamespace
-namespace GlobalNamespace {
-  // Forward declaring type: BeatmapObjectData
-  class BeatmapObjectData;
 }
 // Completed forward declares
 // Type namespace: 
@@ -30,18 +27,32 @@ namespace GlobalNamespace {
     static GlobalNamespace::BeatmapDataLoader::$$c* _get_$$9();
     // Set static field: static public readonly BeatmapDataLoader/<>c <>9
     static void _set_$$9(GlobalNamespace::BeatmapDataLoader::$$c* value);
-    // Get static field: static public System.Comparison`1<BeatmapObjectData> <>9__4_0
-    static System::Comparison_1<GlobalNamespace::BeatmapObjectData*>* _get_$$9__4_0();
-    // Set static field: static public System.Comparison`1<BeatmapObjectData> <>9__4_0
-    static void _set_$$9__4_0(System::Comparison_1<GlobalNamespace::BeatmapObjectData*>* value);
+    // Get static field: static public System.Comparison`1<BeatmapSaveData/NoteData> <>9__2_0
+    static System::Comparison_1<GlobalNamespace::BeatmapSaveData::NoteData*>* _get_$$9__2_0();
+    // Set static field: static public System.Comparison`1<BeatmapSaveData/NoteData> <>9__2_0
+    static void _set_$$9__2_0(System::Comparison_1<GlobalNamespace::BeatmapSaveData::NoteData*>* value);
+    // Get static field: static public System.Comparison`1<BeatmapSaveData/LongNoteData> <>9__2_1
+    static System::Comparison_1<GlobalNamespace::BeatmapSaveData::LongNoteData*>* _get_$$9__2_1();
+    // Set static field: static public System.Comparison`1<BeatmapSaveData/LongNoteData> <>9__2_1
+    static void _set_$$9__2_1(System::Comparison_1<GlobalNamespace::BeatmapSaveData::LongNoteData*>* value);
+    // Get static field: static public System.Comparison`1<BeatmapSaveData/ObstacleData> <>9__2_2
+    static System::Comparison_1<GlobalNamespace::BeatmapSaveData::ObstacleData*>* _get_$$9__2_2();
+    // Set static field: static public System.Comparison`1<BeatmapSaveData/ObstacleData> <>9__2_2
+    static void _set_$$9__2_2(System::Comparison_1<GlobalNamespace::BeatmapSaveData::ObstacleData*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xB94B0C
+    // Offset: 0x104D600
     static void _cctor();
-    // System.Int32 <GetBeatmapDataFromBeatmapSaveData>b__4_0(BeatmapObjectData x, BeatmapObjectData y)
-    // Offset: 0xB94B7C
-    int $GetBeatmapDataFromBeatmapSaveData$b__4_0(GlobalNamespace::BeatmapObjectData* x, GlobalNamespace::BeatmapObjectData* y);
+    // System.Int32 <GetBeatmapDataFromBeatmapSaveData>b__2_0(BeatmapSaveData/NoteData x, BeatmapSaveData/NoteData y)
+    // Offset: 0x104D670
+    int $GetBeatmapDataFromBeatmapSaveData$b__2_0(GlobalNamespace::BeatmapSaveData::NoteData* x, GlobalNamespace::BeatmapSaveData::NoteData* y);
+    // System.Int32 <GetBeatmapDataFromBeatmapSaveData>b__2_1(BeatmapSaveData/LongNoteData x, BeatmapSaveData/LongNoteData y)
+    // Offset: 0x104D6A0
+    int $GetBeatmapDataFromBeatmapSaveData$b__2_1(GlobalNamespace::BeatmapSaveData::LongNoteData* x, GlobalNamespace::BeatmapSaveData::LongNoteData* y);
+    // System.Int32 <GetBeatmapDataFromBeatmapSaveData>b__2_2(BeatmapSaveData/ObstacleData x, BeatmapSaveData/ObstacleData y)
+    // Offset: 0x104D6D0
+    int $GetBeatmapDataFromBeatmapSaveData$b__2_2(GlobalNamespace::BeatmapSaveData::ObstacleData* x, GlobalNamespace::BeatmapSaveData::ObstacleData* y);
     // public System.Void .ctor()
-    // Offset: 0xB94B74
+    // Offset: 0x104D668
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BeatmapDataLoader::$$c* New_ctor();

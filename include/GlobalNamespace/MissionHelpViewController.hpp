@@ -34,39 +34,39 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair
     class MissionHelpGameObjectPair;
     // private UnityEngine.UI.Button _okButton
-    // Offset: 0x68
+    // Offset: 0x70
     UnityEngine::UI::Button* okButton;
     // private MissionHelpViewController/MissionHelpGameObjectPair[] _missionHelpGameObjectPairs
-    // Offset: 0x70
+    // Offset: 0x78
     ::Array<GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair*>* missionHelpGameObjectPairs;
     // private System.Action`1<MissionHelpViewController> didFinishEvent
-    // Offset: 0x78
+    // Offset: 0x80
     System::Action_1<GlobalNamespace::MissionHelpViewController*>* didFinishEvent;
     // private MissionHelpSO _missionHelp
-    // Offset: 0x80
+    // Offset: 0x88
     GlobalNamespace::MissionHelpSO* missionHelp;
     // public System.Void add_didFinishEvent(System.Action`1<MissionHelpViewController> value)
-    // Offset: 0xC04750
+    // Offset: 0xEDCE70
     void add_didFinishEvent(System::Action_1<GlobalNamespace::MissionHelpViewController*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<MissionHelpViewController> value)
-    // Offset: 0xC047F4
+    // Offset: 0xEDCF14
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::MissionHelpViewController*>* value);
     // public System.Void Setup(MissionHelpSO missionHelp)
-    // Offset: 0xC04898
+    // Offset: 0xEDCFB8
     void Setup(GlobalNamespace::MissionHelpSO* missionHelp);
     // public System.Void RefreshContent()
-    // Offset: 0xC048DC
+    // Offset: 0xEDCFFC
     void RefreshContent();
     // private System.Void OkButtonPressed()
-    // Offset: 0xC04A70
+    // Offset: 0xEDD190
     void OkButtonPressed();
-    // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xC049CC
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0xEDD0EC
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xC04AD4
+    // Offset: 0xEDD1F4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

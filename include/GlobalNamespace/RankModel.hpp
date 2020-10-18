@@ -9,10 +9,6 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: GameplayModifiers
-  class GameplayModifiers;
-  // Forward declaring type: GameplayModifiersModelSO
-  class GameplayModifiersModelSO;
 }
 // Completed forward declares
 // Type namespace: 
@@ -23,19 +19,11 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::RankModel::Rank
     struct Rank;
     // static public System.String GetRankName(RankModel/Rank rank)
-    // Offset: 0xC201DC
+    // Offset: 0x21BDEF4
     static ::Il2CppString* GetRankName(GlobalNamespace::RankModel::Rank rank);
-    // static public RankModel/Rank MaxRankForGameplayModifiers(GameplayModifiers gameplayModifiers, GameplayModifiersModelSO gameplayModifiersModel)
-    // Offset: 0xC20240
-    static GlobalNamespace::RankModel::Rank MaxRankForGameplayModifiers(GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel);
     // static public RankModel/Rank GetRankForScore(System.Int32 rawScore, System.Int32 modifiedScore, System.Int32 maxRawScore, System.Int32 maxModifiedScore)
-    // Offset: 0xC20288
+    // Offset: 0x21BDF58
     static GlobalNamespace::RankModel::Rank GetRankForScore(int rawScore, int modifiedScore, int maxRawScore, int maxModifiedScore);
-    // public System.Void .ctor()
-    // Offset: 0xC203BC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    static RankModel* New_ctor();
   }; // RankModel
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

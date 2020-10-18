@@ -23,13 +23,13 @@ namespace UnityEngine {
       return m_LoadType;
     }
     // public System.Void .ctor(UnityEngine.RuntimeInitializeLoadType loadType)
-    // Offset: 0x1390374
+    // Offset: 0x198DCD4
     static RuntimeInitializeOnLoadMethodAttribute* New_ctor(UnityEngine::RuntimeInitializeLoadType loadType);
     // private System.Void set_loadType(UnityEngine.RuntimeInitializeLoadType value)
-    // Offset: 0x139036C
+    // Offset: 0x198DCCC
     void set_loadType(UnityEngine::RuntimeInitializeLoadType value);
     // public System.Void .ctor()
-    // Offset: 0x139033C
+    // Offset: 0x198DC9C
     // Implemented from: UnityEngine.Scripting.PreserveAttribute
     // Base method: System.Void PreserveAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

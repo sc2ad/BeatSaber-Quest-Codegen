@@ -56,26 +56,32 @@ namespace GlobalNamespace {
     float releaseCoef;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // static field const value: static private System.Single kBaseVolume
+    static constexpr const float kBaseVolume = 0.4;
+    // Get static field: static private System.Single kBaseVolume
+    static float _get_kBaseVolume();
+    // Set static field: static private System.Single kBaseVolume
+    static void _set_kBaseVolume(float value);
     // protected System.Void Start()
-    // Offset: 0xB8B224
+    // Offset: 0xFB2B30
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0xB8B304
+    // Offset: 0xFB2C10
     void OnDisable();
     // protected System.Void OnValidate()
-    // Offset: 0xB8B398
+    // Offset: 0xFB2CA4
     void OnValidate();
     // private System.Void RecalculateParams()
-    // Offset: 0xB8B228
+    // Offset: 0xFB2B34
     void RecalculateParams();
     // protected System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
-    // Offset: 0xB8B39C
+    // Offset: 0xFB2CA8
     void OnAudioFilterRead(::Array<float>* data, int channels);
     // protected System.Void Update()
-    // Offset: 0xB8B59C
+    // Offset: 0xFB2EB8
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xB8B5D0
+    // Offset: 0xFB2F08
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

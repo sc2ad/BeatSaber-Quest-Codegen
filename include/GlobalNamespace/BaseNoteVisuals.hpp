@@ -31,22 +31,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0xB8BCE8
+    // Offset: 0xFBAF5C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xB8BDC8
+    // Offset: 0xFBB03C
     void OnDestroy();
-    // public System.Void HandleNoteControllerDidInitEvent(NoteController noteController)
-    // Offset: 0xB8BEEC
-    void HandleNoteControllerDidInitEvent(GlobalNamespace::NoteController* noteController);
-    // private System.Void HandleNoteDidStartDissolvingEvent(NoteController noteController, System.Single duration)
-    // Offset: 0xB8BF18
-    void HandleNoteDidStartDissolvingEvent(GlobalNamespace::NoteController* noteController, float duration);
+    // private System.Void HandleNoteControllerDidInit(NoteController noteController)
+    // Offset: 0xFBB160
+    void HandleNoteControllerDidInit(GlobalNamespace::NoteController* noteController);
+    // private System.Void HandleNoteDidStartDissolving(NoteController noteController, System.Single duration)
+    // Offset: 0xFBB17C
+    void HandleNoteDidStartDissolving(GlobalNamespace::NoteController* noteController, float duration);
     // private System.Void AnimateCutout(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
-    // Offset: 0xB8BF28
+    // Offset: 0xFBB18C
     void AnimateCutout(float cutoutStart, float cutoutEnd, float duration);
     // public System.Void .ctor()
-    // Offset: 0xB8BF50
+    // Offset: 0xFBB1B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

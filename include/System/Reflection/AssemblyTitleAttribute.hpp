@@ -21,7 +21,7 @@ namespace System::Reflection {
       return m_title;
     }
     // public System.Void .ctor(System.String title)
-    // Offset: 0x1369CA4
+    // Offset: 0x1ABA07C
     static AssemblyTitleAttribute* New_ctor(::Il2CppString* title);
   }; // System.Reflection.AssemblyTitleAttribute
 }

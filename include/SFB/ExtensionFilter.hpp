@@ -27,7 +27,7 @@ namespace SFB {
     // Creating value type constructor for type: ExtensionFilter
     constexpr ExtensionFilter(::Il2CppString* name_ = {}, ::Array<::Il2CppString*>* extensions_ = {}) noexcept : name{name_}, extensions{extensions_} {}
     // public System.Void .ctor(System.String filterName, params System.String[] filterExtensions)
-    // Offset: 0xA2C81C
+    // Offset: 0xDA1EC4
     // ABORTED: conflicts with another method.  ExtensionFilter(::Il2CppString* filterName, ::Array<::Il2CppString*>* filterExtensions);
   }; // SFB.ExtensionFilter
 }

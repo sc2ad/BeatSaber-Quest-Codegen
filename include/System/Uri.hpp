@@ -22,6 +22,8 @@ namespace System {
   struct ParsingError;
   // Forward declaring type: UriFormatException
   class UriFormatException;
+  // Forward declaring type: UriHostNameType
+  struct UriHostNameType;
   // Forward declaring type: UriComponents
   struct UriComponents;
   // Forward declaring type: UriFormat
@@ -503,349 +505,376 @@ namespace System {
     // Set static field: static private readonly System.Char[] _WSchars
     static void _set__WSchars(::Array<::Il2CppChar>* value);
     // private System.Boolean get_IsImplicitFile()
-    // Offset: 0x15047E4
+    // Offset: 0x180C948
     bool get_IsImplicitFile();
     // private System.Boolean get_IsUncOrDosPath()
-    // Offset: 0x15047F0
+    // Offset: 0x180C954
     bool get_IsUncOrDosPath();
     // private System.Boolean get_IsDosPath()
-    // Offset: 0x1504800
+    // Offset: 0x180C964
     bool get_IsDosPath();
     // private System.Boolean get_IsUncPath()
-    // Offset: 0x150480C
+    // Offset: 0x180C970
     bool get_IsUncPath();
     // private System.Uri/Flags get_HostType()
-    // Offset: 0x1504818
+    // Offset: 0x180C97C
     System::Uri::Flags get_HostType();
     // private System.UriParser get_Syntax()
-    // Offset: 0x1504824
+    // Offset: 0x180C988
     System::UriParser* get_Syntax();
     // private System.Boolean get_IsNotAbsoluteUri()
-    // Offset: 0x150482C
+    // Offset: 0x180C990
     bool get_IsNotAbsoluteUri();
     // static System.Boolean IriParsingStatic(System.UriParser syntax)
-    // Offset: 0x150483C
+    // Offset: 0x180C9A0
     static bool IriParsingStatic(System::UriParser* syntax);
     // private System.Boolean get_AllowIdn()
-    // Offset: 0x15048D8
+    // Offset: 0x180CA3C
     bool get_AllowIdn();
     // private System.Boolean AllowIdnStatic(System.UriParser syntax, System.Uri/Flags flags)
-    // Offset: 0x15049C4
+    // Offset: 0x180CB28
     bool AllowIdnStatic(System::UriParser* syntax, System::Uri::Flags flags);
     // private System.Boolean IsIntranet(System.String schemeHost)
-    // Offset: 0x1504AC0
+    // Offset: 0x180CC24
     bool IsIntranet(::Il2CppString* schemeHost);
     // System.Boolean get_UserDrivenParsing()
-    // Offset: 0x1504AC8
+    // Offset: 0x180CC2C
     bool get_UserDrivenParsing();
     // private System.Void SetUserDrivenParsing()
-    // Offset: 0x1504AD4
+    // Offset: 0x180CC38
     void SetUserDrivenParsing();
     // private System.UInt16 get_SecuredPathIndex()
-    // Offset: 0x1504AE8
+    // Offset: 0x180CC4C
     uint16_t get_SecuredPathIndex();
     // private System.Boolean NotAny(System.Uri/Flags flags)
-    // Offset: 0x15049B4
+    // Offset: 0x180CB18
     bool NotAny(System::Uri::Flags flags);
     // private System.Boolean InFact(System.Uri/Flags flags)
-    // Offset: 0x1504B48
+    // Offset: 0x180CCAC
     bool InFact(System::Uri::Flags flags);
     // static private System.Boolean StaticNotAny(System.Uri/Flags allFlags, System.Uri/Flags checkFlags)
-    // Offset: 0x1504AB4
+    // Offset: 0x180CC18
     static bool StaticNotAny(System::Uri::Flags allFlags, System::Uri::Flags checkFlags);
     // static private System.Boolean StaticInFact(System.Uri/Flags allFlags, System.Uri/Flags checkFlags)
-    // Offset: 0x1504B58
+    // Offset: 0x180CCBC
     static bool StaticInFact(System::Uri::Flags allFlags, System::Uri::Flags checkFlags);
     // private System.Uri/UriInfo EnsureUriInfo()
-    // Offset: 0x1504B64
+    // Offset: 0x180CCC8
     System::Uri::UriInfo* EnsureUriInfo();
     // private System.Void EnsureParseRemaining()
-    // Offset: 0x1505138
+    // Offset: 0x180D29C
     void EnsureParseRemaining();
     // private System.Void EnsureHostString(System.Boolean allowDnsOptimization)
-    // Offset: 0x1505DB4
+    // Offset: 0x180DF18
     void EnsureHostString(bool allowDnsOptimization);
     // public System.Void .ctor(System.String uriString)
-    // Offset: 0x1506228
+    // Offset: 0x180E38C
     static Uri* New_ctor(::Il2CppString* uriString);
     // public System.Void .ctor(System.String uriString, System.UriKind uriKind)
-    // Offset: 0x15064A0
+    // Offset: 0x180E604
     static Uri* New_ctor(::Il2CppString* uriString, System::UriKind uriKind);
     // public System.Void .ctor(System.Uri baseUri, System.String relativeUri)
-    // Offset: 0x150654C
+    // Offset: 0x180E6B0
     static Uri* New_ctor(System::Uri* baseUri, ::Il2CppString* relativeUri);
     // private System.Void CreateUri(System.Uri baseUri, System.String relativeUri, System.Boolean dontEscape)
-    // Offset: 0x150663C
+    // Offset: 0x180E7A0
     void CreateUri(System::Uri* baseUri, ::Il2CppString* relativeUri, bool dontEscape);
     // public System.Void .ctor(System.Uri baseUri, System.Uri relativeUri)
-    // Offset: 0x1506E74
+    // Offset: 0x180EFD8
     static Uri* New_ctor(System::Uri* baseUri, System::Uri* relativeUri);
     // static private System.ParsingError GetCombinedString(System.Uri baseUri, System.String relativeStr, System.Boolean dontEscape, ref System.String result)
-    // Offset: 0x1507090
+    // Offset: 0x180F1F4
     static System::ParsingError GetCombinedString(System::Uri* baseUri, ::Il2CppString* relativeStr, bool dontEscape, ::Il2CppString*& result);
     // static private System.UriFormatException GetException(System.ParsingError err)
-    // Offset: 0x1507F34
+    // Offset: 0x1810098
     static System::UriFormatException* GetException(System::ParsingError err);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1508050
+    // Offset: 0x18101B4
     static Uri* New_ctor(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // protected System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x150814C
+    // Offset: 0x18102B0
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // public System.String get_AbsolutePath()
-    // Offset: 0x1508220
+    // Offset: 0x1810384
     ::Il2CppString* get_AbsolutePath();
     // private System.String get_PrivateAbsolutePath()
-    // Offset: 0x150830C
+    // Offset: 0x1810470
     ::Il2CppString* get_PrivateAbsolutePath();
     // public System.String get_AbsoluteUri()
-    // Offset: 0x15083F0
+    // Offset: 0x181054C
     ::Il2CppString* get_AbsoluteUri();
+    // public System.String get_LocalPath()
+    // Offset: 0x181067C
+    ::Il2CppString* get_LocalPath();
+    // public System.String get_Authority()
+    // Offset: 0x1810D2C
+    ::Il2CppString* get_Authority();
+    // public System.UriHostNameType get_HostNameType()
+    // Offset: 0x1810DD0
+    System::UriHostNameType get_HostNameType();
+    // public System.Boolean get_IsDefaultPort()
+    // Offset: 0x1810EF8
+    bool get_IsDefaultPort();
     // public System.Boolean get_IsFile()
-    // Offset: 0x1508520
+    // Offset: 0x1810FD0
     bool get_IsFile();
     // public System.Boolean get_IsLoopback()
-    // Offset: 0x15085F0
+    // Offset: 0x18110A0
     bool get_IsLoopback();
     // public System.String get_PathAndQuery()
-    // Offset: 0x150869C
+    // Offset: 0x181114C
     ::Il2CppString* get_PathAndQuery();
     // public System.Boolean get_IsUnc()
-    // Offset: 0x1508790
+    // Offset: 0x1811240
     bool get_IsUnc();
     // public System.String get_Host()
-    // Offset: 0x1508830
+    // Offset: 0x18112E0
     ::Il2CppString* get_Host();
     // static private System.Boolean StaticIsFile(System.UriParser syntax)
-    // Offset: 0x15088D4
+    // Offset: 0x1811384
     static bool StaticIsFile(System::UriParser* syntax);
     // static private System.Object get_InitializeLock()
-    // Offset: 0x15088F0
+    // Offset: 0x18113A0
     static ::Il2CppObject* get_InitializeLock();
     // static private System.Void InitializeUriConfig()
-    // Offset: 0x15089D0
+    // Offset: 0x1811480
     static void InitializeUriConfig();
+    // private System.String GetLocalPath()
+    // Offset: 0x1810718
+    ::Il2CppString* GetLocalPath();
     // public System.Int32 get_Port()
-    // Offset: 0x1508B84
+    // Offset: 0x1811BF4
     int get_Port();
     // public System.String get_Query()
-    // Offset: 0x1508C78
+    // Offset: 0x1811CE8
     ::Il2CppString* get_Query();
     // public System.String get_Fragment()
-    // Offset: 0x1508DAC
+    // Offset: 0x1811E1C
     ::Il2CppString* get_Fragment();
     // public System.String get_Scheme()
-    // Offset: 0x1508EE0
+    // Offset: 0x1811F50
     ::Il2CppString* get_Scheme();
     // private System.Boolean get_OriginalStringSwitched()
-    // Offset: 0x1508F7C
+    // Offset: 0x1811FEC
     bool get_OriginalStringSwitched();
     // public System.String get_OriginalString()
-    // Offset: 0x1507458
+    // Offset: 0x180F5BC
     ::Il2CppString* get_OriginalString();
     // public System.String get_DnsSafeHost()
-    // Offset: 0x1508FD0
+    // Offset: 0x1812040
     ::Il2CppString* get_DnsSafeHost();
     // public System.Boolean get_IsAbsoluteUri()
-    // Offset: 0x150662C
+    // Offset: 0x180E790
     bool get_IsAbsoluteUri();
     // public System.Boolean get_UserEscaped()
-    // Offset: 0x1509224
+    // Offset: 0x1812294
     bool get_UserEscaped();
     // public System.String get_UserInfo()
-    // Offset: 0x1509230
+    // Offset: 0x18122A0
     ::Il2CppString* get_UserInfo();
     // static System.Boolean IsGenDelim(System.Char ch)
-    // Offset: 0x15092D4
+    // Offset: 0x1812344
     static bool IsGenDelim(::Il2CppChar ch);
     // static public System.Boolean CheckSchemeName(System.String schemeName)
-    // Offset: 0x1509320
+    // Offset: 0x1812390
     static bool CheckSchemeName(::Il2CppString* schemeName);
     // static public System.Boolean IsHexDigit(System.Char character)
-    // Offset: 0x1509530
+    // Offset: 0x18125A0
     static bool IsHexDigit(::Il2CppChar character);
     // static public System.Int32 FromHex(System.Char digit)
-    // Offset: 0x150956C
+    // Offset: 0x18125DC
     static int FromHex(::Il2CppChar digit);
+    // static private System.Boolean CheckForColonInFirstPathSegment(System.String uriString)
+    // Offset: 0x18132CC
+    static bool CheckForColonInFirstPathSegment(::Il2CppString* uriString);
     // static System.String InternalEscapeString(System.String rawString)
-    // Offset: 0x150A25C
+    // Offset: 0x1813378
     static ::Il2CppString* InternalEscapeString(::Il2CppString* rawString);
     // static private System.ParsingError ParseScheme(System.String uriString, ref System.Uri/Flags flags, ref System.UriParser syntax)
-    // Offset: 0x150A340
+    // Offset: 0x181345C
     static System::ParsingError ParseScheme(::Il2CppString* uriString, System::Uri::Flags& flags, System::UriParser*& syntax);
     // System.UriFormatException ParseMinimal()
-    // Offset: 0x150A998
+    // Offset: 0x1813AB4
     System::UriFormatException* ParseMinimal();
     // private System.ParsingError PrivateParseMinimal()
-    // Offset: 0x150AA28
+    // Offset: 0x1813B44
     System::ParsingError PrivateParseMinimal();
     // private System.Void PrivateParseMinimalIri(System.String newHost, System.UInt16 idx)
-    // Offset: 0x150C07C
+    // Offset: 0x1815198
     void PrivateParseMinimalIri(::Il2CppString* newHost, uint16_t idx);
     // private System.Void CreateUriInfo(System.Uri/Flags cF)
-    // Offset: 0x1504B94
+    // Offset: 0x180CCF8
     void CreateUriInfo(System::Uri::Flags cF);
     // private System.Void CreateHostString()
-    // Offset: 0x1505E18
+    // Offset: 0x180DF7C
     void CreateHostString();
     // static private System.String CreateHostStringHelper(System.String str, System.UInt16 idx, System.UInt16 end, ref System.Uri/Flags flags, ref System.String scopeId)
-    // Offset: 0x150C5E0
+    // Offset: 0x18156F4
     static ::Il2CppString* CreateHostStringHelper(::Il2CppString* str, uint16_t idx, uint16_t end, System::Uri::Flags& flags, ::Il2CppString*& scopeId);
     // private System.Void GetHostViaCustomSyntax()
-    // Offset: 0x150C17C
+    // Offset: 0x1815290
     void GetHostViaCustomSyntax();
     // System.String GetParts(System.UriComponents uriParts, System.UriFormat formatAs)
-    // Offset: 0x150821C
+    // Offset: 0x1810380
     ::Il2CppString* GetParts(System::UriComponents uriParts, System::UriFormat formatAs);
     // private System.String GetEscapedParts(System.UriComponents uriParts)
-    // Offset: 0x150CDCC
+    // Offset: 0x1815EE0
     ::Il2CppString* GetEscapedParts(System::UriComponents uriParts);
     // private System.String GetUnescapedParts(System.UriComponents uriParts, System.UriFormat formatAs)
-    // Offset: 0x150E2E0
+    // Offset: 0x1811B20
     ::Il2CppString* GetUnescapedParts(System::UriComponents uriParts, System::UriFormat formatAs);
     // private System.String ReCreateParts(System.UriComponents parts, System.UInt16 nonCanonical, System.UriFormat formatAs)
-    // Offset: 0x150D444
+    // Offset: 0x1816558
     ::Il2CppString* ReCreateParts(System::UriComponents parts, uint16_t nonCanonical, System::UriFormat formatAs);
     // private System.String GetUriPartsFromUserString(System.UriComponents uriParts)
-    // Offset: 0x150CEA4
+    // Offset: 0x1815FB8
     ::Il2CppString* GetUriPartsFromUserString(System::UriComponents uriParts);
     // private System.Void ParseRemaining()
-    // Offset: 0x1505148
+    // Offset: 0x180D2AC
     void ParseRemaining();
     // static private System.UInt16 ParseSchemeCheckImplicitFile(System.Char* uriString, System.UInt16 length, ref System.ParsingError err, ref System.Uri/Flags flags, ref System.UriParser syntax)
-    // Offset: 0x150A430
+    // Offset: 0x181354C
     static uint16_t ParseSchemeCheckImplicitFile(::Il2CppChar* uriString, uint16_t length, System::ParsingError& err, System::Uri::Flags& flags, System::UriParser*& syntax);
     // static private System.Boolean CheckKnownSchemes(System.Int64* lptr, System.UInt16 nChars, ref System.UriParser syntax)
-    // Offset: 0x150EB04
+    // Offset: 0x1817B44
     static bool CheckKnownSchemes(int64_t* lptr, uint16_t nChars, System::UriParser*& syntax);
     // static private System.ParsingError CheckSchemeSyntax(System.Char* ptr, System.UInt16 length, ref System.UriParser syntax)
-    // Offset: 0x1507308
+    // Offset: 0x180F46C
     static System::ParsingError CheckSchemeSyntax(::Il2CppChar* ptr, uint16_t length, System::UriParser*& syntax);
     // private System.UInt16 CheckAuthorityHelper(System.Char* pString, System.UInt16 idx, System.UInt16 length, ref System.ParsingError err, ref System.Uri/Flags flags, System.UriParser syntax, ref System.String newHost)
-    // Offset: 0x150B148
+    // Offset: 0x1814264
     uint16_t CheckAuthorityHelper(::Il2CppChar* pString, uint16_t idx, uint16_t length, System::ParsingError& err, System::Uri::Flags& flags, System::UriParser* syntax, ::Il2CppString*& newHost);
     // private System.Void CheckAuthorityHelperHandleDnsIri(System.Char* pString, System.UInt16 start, System.Int32 end, System.Int32 startInput, System.Boolean iriParsing, System.Boolean hasUnicode, System.UriParser syntax, System.String userInfoString, ref System.Uri/Flags flags, ref System.Boolean justNormalized, ref System.String newHost, ref System.ParsingError err)
-    // Offset: 0x150F0FC
+    // Offset: 0x181813C
     void CheckAuthorityHelperHandleDnsIri(::Il2CppChar* pString, uint16_t start, int end, int startInput, bool iriParsing, bool hasUnicode, System::UriParser* syntax, ::Il2CppString* userInfoString, System::Uri::Flags& flags, bool& justNormalized, ::Il2CppString*& newHost, System::ParsingError& err);
     // private System.Void CheckAuthorityHelperHandleAnyHostIri(System.Char* pString, System.Int32 startInput, System.Int32 end, System.Boolean iriParsing, System.Boolean hasUnicode, System.UriParser syntax, ref System.Uri/Flags flags, ref System.String newHost, ref System.ParsingError err)
-    // Offset: 0x150F4CC
+    // Offset: 0x181850C
     void CheckAuthorityHelperHandleAnyHostIri(::Il2CppChar* pString, int startInput, int end, bool iriParsing, bool hasUnicode, System::UriParser* syntax, System::Uri::Flags& flags, ::Il2CppString*& newHost, System::ParsingError& err);
     // private System.Void FindEndOfComponent(System.String input, ref System.UInt16 idx, System.UInt16 end, System.Char delim)
-    // Offset: 0x150EA50
+    // Offset: 0x1817A90
     void FindEndOfComponent(::Il2CppString* input, uint16_t& idx, uint16_t end, ::Il2CppChar delim);
     // private System.Void FindEndOfComponent(System.Char* str, ref System.UInt16 idx, System.UInt16 end, System.Char delim)
-    // Offset: 0x150F974
+    // Offset: 0x18189B4
     void FindEndOfComponent(::Il2CppChar* str, uint16_t& idx, uint16_t end, ::Il2CppChar delim);
     // private System.Uri/Check CheckCanonical(System.Char* str, ref System.UInt16 idx, System.UInt16 end, System.Char delim)
-    // Offset: 0x150C7C4
+    // Offset: 0x18158D8
     System::Uri::Check CheckCanonical(::Il2CppChar* str, uint16_t& idx, uint16_t end, ::Il2CppChar delim);
     // private System.Char[] GetCanonicalPath(System.Char[] dest, ref System.Int32 pos, System.UriFormat formatAs)
-    // Offset: 0x150E3B4
+    // Offset: 0x18173F4
     ::Array<::Il2CppChar>* GetCanonicalPath(::Array<::Il2CppChar>* dest, int& pos, System::UriFormat formatAs);
     // static private System.Void UnescapeOnly(System.Char* pch, System.Int32 start, ref System.Int32 end, System.Char ch1, System.Char ch2, System.Char ch3)
-    // Offset: 0x150FA0C
+    // Offset: 0x1818A4C
     static void UnescapeOnly(::Il2CppChar* pch, int start, int& end, ::Il2CppChar ch1, ::Il2CppChar ch2, ::Il2CppChar ch3);
     // static private System.Char[] Compress(System.Char[] dest, System.UInt16 start, ref System.Int32 destLength, System.UriParser syntax)
-    // Offset: 0x150FC4C
+    // Offset: 0x1811634
     static ::Array<::Il2CppChar>* Compress(::Array<::Il2CppChar>* dest, uint16_t start, int& destLength, System::UriParser* syntax);
     // static System.Int32 CalculateCaseInsensitiveHashCode(System.String text)
-    // Offset: 0x15097A0
+    // Offset: 0x1812810
     static int CalculateCaseInsensitiveHashCode(::Il2CppString* text);
     // static private System.String CombineUri(System.Uri basePart, System.String relativePart, System.UriFormat uriFormat)
-    // Offset: 0x150748C
+    // Offset: 0x180F5F0
     static ::Il2CppString* CombineUri(System::Uri* basePart, ::Il2CppString* relativePart, System::UriFormat uriFormat);
     // System.Boolean get_HasAuthority()
-    // Offset: 0x1510138
+    // Offset: 0x1818C8C
     bool get_HasAuthority();
     // static private System.Boolean IsLWS(System.Char ch)
-    // Offset: 0x150B108
+    // Offset: 0x1814224
     static bool IsLWS(::Il2CppChar ch);
     // static private System.Boolean IsAsciiLetter(System.Char character)
-    // Offset: 0x1509478
+    // Offset: 0x18124E8
     static bool IsAsciiLetter(::Il2CppChar character);
     // static System.Boolean IsAsciiLetterOrDigit(System.Char character)
-    // Offset: 0x15094A4
+    // Offset: 0x1812514
     static bool IsAsciiLetterOrDigit(::Il2CppChar character);
     // static System.Boolean IsBidiControlCharacter(System.Char ch)
-    // Offset: 0x1510144
+    // Offset: 0x1818C98
     static bool IsBidiControlCharacter(::Il2CppChar ch);
     // static System.String StripBidiControlCharacter(System.Char* strToClean, System.Int32 start, System.Int32 length)
-    // Offset: 0x150F7EC
+    // Offset: 0x181882C
     static ::Il2CppString* StripBidiControlCharacter(::Il2CppChar* strToClean, int start, int length);
     // private System.Void CreateThis(System.String uri, System.Boolean dontEscape, System.UriKind uriKind)
-    // Offset: 0x15062D0
+    // Offset: 0x180E434
     void CreateThis(::Il2CppString* uri, bool dontEscape, System::UriKind uriKind);
     // private System.Void InitializeUri(System.ParsingError err, System.UriKind uriKind, out System.UriFormatException e)
-    // Offset: 0x151018C
+    // Offset: 0x1818CE0
     void InitializeUri(System::ParsingError err, System::UriKind uriKind, System::UriFormatException*& e);
     // private System.Boolean CheckForConfigLoad(System.String data)
-    // Offset: 0x151078C
+    // Offset: 0x18192E0
     bool CheckForConfigLoad(::Il2CppString* data);
     // private System.Boolean CheckForUnicode(System.String data)
-    // Offset: 0x1510840
+    // Offset: 0x1819394
     bool CheckForUnicode(::Il2CppString* data);
     // private System.Boolean CheckForEscapedUnreserved(System.String data)
-    // Offset: 0x151096C
+    // Offset: 0x18194C0
     bool CheckForEscapedUnreserved(::Il2CppString* data);
     // static public System.Boolean TryCreate(System.String uriString, System.UriKind uriKind, out System.Uri result)
-    // Offset: 0x150A16C
+    // Offset: 0x18131DC
     static bool TryCreate(::Il2CppString* uriString, System::UriKind uriKind, System::Uri*& result);
     // public System.String GetComponents(System.UriComponents components, System.UriFormat format)
-    // Offset: 0x150CBD8
+    // Offset: 0x1815CEC
     ::Il2CppString* GetComponents(System::UriComponents components, System::UriFormat format);
+    // public System.Boolean IsWellFormedOriginalString()
+    // Offset: 0x1819B2C
+    bool IsWellFormedOriginalString();
+    // static public System.Boolean IsWellFormedUriString(System.String uriString, System.UriKind uriKind)
+    // Offset: 0x181A01C
+    static bool IsWellFormedUriString(::Il2CppString* uriString, System::UriKind uriKind);
+    // System.Boolean InternalIsWellFormedOriginalString()
+    // Offset: 0x1819B80
+    bool InternalIsWellFormedOriginalString();
     // static public System.String UnescapeDataString(System.String stringToUnescape)
-    // Offset: 0x1510FD8
+    // Offset: 0x181A0C8
     static ::Il2CppString* UnescapeDataString(::Il2CppString* stringToUnescape);
     // System.String EscapeUnescapeIri(System.String input, System.Int32 start, System.Int32 end, System.UriComponents component)
-    // Offset: 0x150EAB0
+    // Offset: 0x1817AF0
     ::Il2CppString* EscapeUnescapeIri(::Il2CppString* input, int start, int end, System::UriComponents component);
     // private System.Void .ctor(System.Uri/Flags flags, System.UriParser uriParser, System.String uri)
-    // Offset: 0x1511170
+    // Offset: 0x181A260
     static Uri* New_ctor(System::Uri::Flags flags, System::UriParser* uriParser, ::Il2CppString* uri);
     // static System.Uri CreateHelper(System.String uriString, System.Boolean dontEscape, System.UriKind uriKind, ref System.UriFormatException e)
-    // Offset: 0x1510B3C
+    // Offset: 0x1819690
     static System::Uri* CreateHelper(::Il2CppString* uriString, bool dontEscape, System::UriKind uriKind, System::UriFormatException*& e);
     // static System.Uri ResolveHelper(System.Uri baseUri, System.Uri relativeUri, ref System.String newUriString, ref System.Boolean userEscaped, out System.UriFormatException e)
-    // Offset: 0x15067E0
+    // Offset: 0x180E944
     static System::Uri* ResolveHelper(System::Uri* baseUri, System::Uri* relativeUri, ::Il2CppString*& newUriString, bool& userEscaped, System::UriFormatException*& e);
     // private System.String GetRelativeSerializationString(System.UriFormat format)
-    // Offset: 0x1510DC4
+    // Offset: 0x1819918
     ::Il2CppString* GetRelativeSerializationString(System::UriFormat format);
     // System.String GetComponentsHelper(System.UriComponents uriComponents, System.UriFormat uriFormat)
-    // Offset: 0x1509940
+    // Offset: 0x18129B0
     ::Il2CppString* GetComponentsHelper(System::UriComponents uriComponents, System::UriFormat uriFormat);
     // private System.Void CreateThisFromUri(System.Uri otherUri)
-    // Offset: 0x1506D10
+    // Offset: 0x180EE74
     void CreateThisFromUri(System::Uri* otherUri);
     // static private System.Void .cctor()
-    // Offset: 0x15111C8
+    // Offset: 0x181A2B8
     static void _cctor();
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1508148
+    // Offset: 0x18102AC
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1509644
+    // Offset: 0x18126B4
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1509864
+    // Offset: 0x18128D4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object comparand)
-    // Offset: 0x1509B84
+    // Offset: 0x1812BF4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object comparand)
     bool Equals(::Il2CppObject* comparand);
   }; // System.Uri
   // static public System.Boolean op_Equality(System.Uri uri1, System.Uri uri2)
-  // Offset: 0x1509B4C
+  // Offset: 0x1812BBC
   bool operator ==(System::Uri* uri1, System::Uri& uri2);
   // static public System.Boolean op_Inequality(System.Uri uri1, System.Uri uri2)
-  // Offset: 0x1506CC4
+  // Offset: 0x180EE28
   bool operator !=(System::Uri* uri1, System::Uri& uri2);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

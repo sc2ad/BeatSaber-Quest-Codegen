@@ -85,22 +85,22 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // Creating value type constructor for type: LightDataGI
     constexpr LightDataGI(int instanceID_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor color_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor_ = {}, UnityEngine::Quaternion orientation_ = {}, UnityEngine::Vector3 position_ = {}, float range_ = {}, float coneAngle_ = {}, float innerConeAngle_ = {}, float shape0_ = {}, float shape1_ = {}, UnityEngine::Experimental::GlobalIllumination::LightType type_ = {}, UnityEngine::Experimental::GlobalIllumination::LightMode mode_ = {}, uint8_t shadow_ = {}, UnityEngine::Experimental::GlobalIllumination::FalloffType falloff_ = {}) noexcept : instanceID{instanceID_}, color{color_}, indirectColor{indirectColor_}, orientation{orientation_}, position{position_}, range{range_}, coneAngle{coneAngle_}, innerConeAngle{innerConeAngle_}, shape0{shape0_}, shape1{shape1_}, type{type_}, mode{mode_}, shadow{shadow_}, falloff{falloff_} {}
     // public System.Void Init(ref UnityEngine.Experimental.GlobalIllumination.DirectionalLight light)
-    // Offset: 0xA45B78
+    // Offset: 0xDC1C70
     void Init(UnityEngine::Experimental::GlobalIllumination::DirectionalLight& light);
     // public System.Void Init(ref UnityEngine.Experimental.GlobalIllumination.PointLight light)
-    // Offset: 0xA45B80
+    // Offset: 0xDC1C78
     void Init(UnityEngine::Experimental::GlobalIllumination::PointLight& light);
     // public System.Void Init(ref UnityEngine.Experimental.GlobalIllumination.SpotLight light)
-    // Offset: 0xA45B88
+    // Offset: 0xDC1C80
     void Init(UnityEngine::Experimental::GlobalIllumination::SpotLight& light);
     // public System.Void Init(ref UnityEngine.Experimental.GlobalIllumination.RectangleLight light)
-    // Offset: 0xA45B90
+    // Offset: 0xDC1C88
     void Init(UnityEngine::Experimental::GlobalIllumination::RectangleLight& light);
     // public System.Void Init(ref UnityEngine.Experimental.GlobalIllumination.DiscLight light)
-    // Offset: 0xA45B98
+    // Offset: 0xDC1C90
     void Init(UnityEngine::Experimental::GlobalIllumination::DiscLight& light);
     // public System.Void InitNoBake(System.Int32 lightInstanceID)
-    // Offset: 0xA45BA0
+    // Offset: 0xDC1C98
     void InitNoBake(int lightInstanceID);
   }; // UnityEngine.Experimental.GlobalIllumination.LightDataGI
 }

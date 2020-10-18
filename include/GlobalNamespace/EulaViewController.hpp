@@ -11,6 +11,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
+  // Forward declaring type: LocalizedTextAsset
+  class LocalizedTextAsset;
 }
 // Forward declaring namespace: UnityEngine::UI
 namespace UnityEngine::UI {
@@ -21,11 +23,6 @@ namespace UnityEngine::UI {
 namespace HMUI {
   // Forward declaring type: TextPageScrollView
   class TextPageScrollView;
-}
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: TextAsset
-  class TextAsset;
 }
 // Forward declaring namespace: System
 namespace System {
@@ -42,42 +39,42 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::EulaViewController::InitData
     class InitData;
     // private UnityEngine.UI.Button _agreeButton
-    // Offset: 0x68
+    // Offset: 0x70
     UnityEngine::UI::Button* agreeButton;
     // private UnityEngine.UI.Button _doNotAgreeButton
-    // Offset: 0x70
+    // Offset: 0x78
     UnityEngine::UI::Button* doNotAgreeButton;
     // private HMUI.TextPageScrollView _textPageScrollView
-    // Offset: 0x78
-    HMUI::TextPageScrollView* textPageScrollView;
-    // private UnityEngine.TextAsset _eulaTextAsset
     // Offset: 0x80
-    UnityEngine::TextAsset* eulaTextAsset;
-    // private System.Action`1<System.Boolean> didFinishEvent
+    HMUI::TextPageScrollView* textPageScrollView;
+    // private LocalizedTextAsset _eulaLocalizedTextAsset
     // Offset: 0x88
+    GlobalNamespace::LocalizedTextAsset* eulaLocalizedTextAsset;
+    // private System.Action`1<System.Boolean> didFinishEvent
+    // Offset: 0x90
     System::Action_1<bool>* didFinishEvent;
     // private EulaViewController/InitData _initData
-    // Offset: 0x90
+    // Offset: 0x98
     GlobalNamespace::EulaViewController::InitData* initData;
     // public System.Void add_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0xBEBCC8
+    // Offset: 0xF67200
     void add_didFinishEvent(System::Action_1<bool>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0xBEBD6C
+    // Offset: 0xF672A4
     void remove_didFinishEvent(System::Action_1<bool>* value);
     // private System.Void <DidActivate>b__9_0()
-    // Offset: 0xBEBF64
+    // Offset: 0xF6749C
     void $DidActivate$b__9_0();
     // private System.Void <DidActivate>b__9_1()
-    // Offset: 0xBEBFC8
+    // Offset: 0xF67500
     void $DidActivate$b__9_1();
-    // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xBEBE10
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0xF67348
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xBEBF5C
+    // Offset: 0xF67494
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

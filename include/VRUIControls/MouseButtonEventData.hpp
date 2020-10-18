@@ -26,13 +26,13 @@ namespace VRUIControls {
     // Offset: 0x18
     UnityEngine::EventSystems::PointerEventData* buttonData;
     // public System.Boolean PressedThisFrame()
-    // Offset: 0x1938CEC
+    // Offset: 0x21A5C80
     bool PressedThisFrame();
     // public System.Boolean ReleasedThisFrame()
-    // Offset: 0x1938D00
+    // Offset: 0x21A5C94
     bool ReleasedThisFrame();
     // public System.Void .ctor()
-    // Offset: 0x1938D14
+    // Offset: 0x21A5CA8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MouseButtonEventData* New_ctor();

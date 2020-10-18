@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRChaperone::_ReloadInfo : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xED4DD4
+    // Offset: 0x1384CB0
     static IVRChaperone::_ReloadInfo* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0xECA200
+    // Offset: 0x137A0DC
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0xED4DE8
+    // Offset: 0x1384CC4
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xED4E14
+    // Offset: 0x1384CF0
     void EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRChaperone/_ReloadInfo
 }

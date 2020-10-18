@@ -21,13 +21,13 @@ namespace HMUI {
   class TitleViewController : public HMUI::ViewController {
     public:
     // private TMPro.TextMeshProUGUI _text
-    // Offset: 0x68
+    // Offset: 0x70
     TMPro::TextMeshProUGUI* text;
     // public System.Void SetText(System.String text)
-    // Offset: 0x10EB9CC
+    // Offset: 0x118301C
     void SetText(::Il2CppString* text);
     // public System.Void .ctor()
-    // Offset: 0x10EB9E8
+    // Offset: 0x1183038
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

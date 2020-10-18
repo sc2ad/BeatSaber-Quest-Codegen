@@ -29,10 +29,10 @@ namespace System::Runtime::Remoting::Messaging {
     // Set static field: static public System.String[] InternalExceptionKeys
     static void _set_InternalExceptionKeys(::Array<::Il2CppString*>* value);
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodReturnMessage message)
-    // Offset: 0x106E9A4
+    // Offset: 0x14F6114
     static MethodReturnDictionary* New_ctor(System::Runtime::Remoting::Messaging::IMethodReturnMessage* message);
     // static private System.Void .cctor()
-    // Offset: 0x106EFE4
+    // Offset: 0x14F6754
     static void _cctor();
   }; // System.Runtime.Remoting.Messaging.MethodReturnDictionary
 }

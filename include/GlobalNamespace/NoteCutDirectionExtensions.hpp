@@ -26,17 +26,20 @@ namespace GlobalNamespace {
   class NoteCutDirectionExtensions : public ::Il2CppObject {
     public:
     // static public UnityEngine.Vector2 Direction(NoteCutDirection cutDirection)
-    // Offset: 0xC15C6C
+    // Offset: 0x2220120
     static UnityEngine::Vector2 Direction(GlobalNamespace::NoteCutDirection cutDirection);
     // static public System.Single RotationAngle(NoteCutDirection cutDirection)
-    // Offset: 0xC15D50
+    // Offset: 0x2220204
     static float RotationAngle(GlobalNamespace::NoteCutDirection cutDirection);
-    // static public UnityEngine.Quaternion Rotation(NoteCutDirection cutDirection)
-    // Offset: 0xC15D70
-    static UnityEngine::Quaternion Rotation(GlobalNamespace::NoteCutDirection cutDirection);
+    // static public UnityEngine.Quaternion Rotation(NoteCutDirection cutDirection, System.Single offset)
+    // Offset: 0x2220224
+    static UnityEngine::Quaternion Rotation(GlobalNamespace::NoteCutDirection cutDirection, float offset);
     // static public System.Boolean IsMainDirection(NoteCutDirection cutDirection)
-    // Offset: 0xC15E00
+    // Offset: 0x22202B8
     static bool IsMainDirection(GlobalNamespace::NoteCutDirection cutDirection);
+    // static public NoteCutDirection MainNoteCutDirectionFromCutDirAngle(System.Single angle)
+    // Offset: 0x22202C4
+    static GlobalNamespace::NoteCutDirection MainNoteCutDirectionFromCutDirAngle(float angle);
   }; // NoteCutDirectionExtensions
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

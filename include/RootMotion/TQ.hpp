@@ -22,7 +22,7 @@ namespace RootMotion {
     // Offset: 0x1C
     UnityEngine::Quaternion q;
     // public System.Void .ctor(UnityEngine.Vector3 translation, UnityEngine.Quaternion rotation)
-    // Offset: 0x1246708
+    // Offset: 0x18FA840
     static TQ* New_ctor(UnityEngine::Vector3 translation, UnityEngine::Quaternion rotation);
   }; // RootMotion.TQ
 }

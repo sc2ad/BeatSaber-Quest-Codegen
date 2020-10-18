@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
       return Value;
     }
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xEA9D10
+    // Offset: 0x136A40C
     static UserProof* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.UserProof
 }

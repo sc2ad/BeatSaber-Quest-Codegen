@@ -33,11 +33,11 @@ namespace GlobalNamespace {
     GlobalNamespace::BloomFogEnvironmentParams* fog1Params;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // protected System.Void Awake()
-    // Offset: 0x1824BE0
-    void Awake();
+    // protected System.Void OnEnable()
+    // Offset: 0x1FA6B70
+    void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x1824C58
+    // Offset: 0x1FA6BE8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

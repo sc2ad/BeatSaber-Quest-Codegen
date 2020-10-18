@@ -50,43 +50,43 @@ namespace GlobalNamespace {
     // Offset: 0x38
     GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic;
     // public System.String get_levelID()
-    // Offset: 0xBDF060
+    // Offset: 0xFE211C
     ::Il2CppString* get_levelID();
     // public BeatmapDifficulty get_difficulty()
-    // Offset: 0xBDF068
+    // Offset: 0xFE2124
     GlobalNamespace::BeatmapDifficulty get_difficulty();
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0xBDF070
+    // Offset: 0xFE212C
     GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public System.Int32 get_highScore()
-    // Offset: 0xBDF078
+    // Offset: 0xFE2134
     int get_highScore();
     // public System.Int32 get_maxCombo()
-    // Offset: 0xBDF080
+    // Offset: 0xFE213C
     int get_maxCombo();
     // public System.Boolean get_fullCombo()
-    // Offset: 0xBDF088
+    // Offset: 0xFE2144
     bool get_fullCombo();
     // public RankModel/Rank get_maxRank()
-    // Offset: 0xBDF090
+    // Offset: 0xFE214C
     GlobalNamespace::RankModel::Rank get_maxRank();
     // public System.Boolean get_validScore()
-    // Offset: 0xBDF098
+    // Offset: 0xFE2154
     bool get_validScore();
     // public System.Int32 get_playCount()
-    // Offset: 0xBDF0A0
+    // Offset: 0xFE215C
     int get_playCount();
     // public System.Void .ctor(System.String levelID, BeatmapDifficulty difficulty, BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0xBDAF74
+    // Offset: 0xFDD46C
     static PlayerLevelStatsData* New_ctor(::Il2CppString* levelID, GlobalNamespace::BeatmapDifficulty difficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // public System.Void .ctor(System.String levelID, BeatmapDifficulty difficulty, BeatmapCharacteristicSO beatmapCharacteristic, System.Int32 highScore, System.Int32 maxCombo, System.Boolean fullCombo, RankModel/Rank maxRank, System.Boolean validScore, System.Int32 playCount)
-    // Offset: 0xBDDCD8
+    // Offset: 0xFE06F4
     static PlayerLevelStatsData* New_ctor(::Il2CppString* levelID, GlobalNamespace::BeatmapDifficulty difficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, int highScore, int maxCombo, bool fullCombo, GlobalNamespace::RankModel::Rank maxRank, bool validScore, int playCount);
     // public System.Void UpdateScoreData(System.Int32 score, System.Int32 maxCombo, System.Boolean fullCombo, RankModel/Rank rank)
-    // Offset: 0xBDF0A8
+    // Offset: 0xFE2164
     void UpdateScoreData(int score, int maxCombo, bool fullCombo, GlobalNamespace::RankModel::Rank rank);
     // public System.Void IncreaseNumberOfGameplays()
-    // Offset: 0xBDF18C
+    // Offset: 0xFDD7BC
     void IncreaseNumberOfGameplays();
   }; // PlayerLevelStatsData
 }

@@ -29,10 +29,10 @@ namespace UnityEngine {
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Int32,System.Object> s_StateCache
     static void _set_s_StateCache(System::Collections::Generic::Dictionary_2<int, ::Il2CppObject*>* value);
     // static System.Object GetStateObject(System.Type t, System.Int32 controlID)
-    // Offset: 0x12758A8
+    // Offset: 0x19134B0
     static ::Il2CppObject* GetStateObject(System::Type* t, int controlID);
     // static private System.Void .cctor()
-    // Offset: 0x12759B8
+    // Offset: 0x19135C0
     static void _cctor();
   }; // UnityEngine.GUIStateObjects
 }

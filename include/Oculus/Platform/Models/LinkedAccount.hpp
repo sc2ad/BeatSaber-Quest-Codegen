@@ -30,7 +30,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x20
     ::Il2CppString* UserId;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xEAA6A8
+    // Offset: 0x136ADA4
     static LinkedAccount* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.LinkedAccount
 }

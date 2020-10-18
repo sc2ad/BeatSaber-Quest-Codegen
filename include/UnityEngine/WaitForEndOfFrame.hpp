@@ -14,7 +14,7 @@ namespace UnityEngine {
   class WaitForEndOfFrame : public UnityEngine::YieldInstruction {
     public:
     // public System.Void .ctor()
-    // Offset: 0x139EFA8
+    // Offset: 0x199CCB8
     // Implemented from: UnityEngine.YieldInstruction
     // Base method: System.Void YieldInstruction::.ctor()
     // Base method: System.Void Object::.ctor()

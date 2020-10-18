@@ -6,8 +6,8 @@
 #include "GlobalNamespace/MoveBackWall.hpp"
 // Including type: UnityEngine.MeshRenderer
 #include "UnityEngine/MeshRenderer.hpp"
-// Including type: PlayerController
-#include "GlobalNamespace/PlayerController.hpp"
+// Including type: PlayerTransforms
+#include "GlobalNamespace/PlayerTransforms.hpp"
 // Including type: UnityEngine.Material
 #include "UnityEngine/Material.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

@@ -8,6 +8,8 @@
 #include "GlobalNamespace/MissionLevelScenesTransitionSetupDataSO.hpp"
 // Including type: PrepareLevelCompletionResults
 #include "GlobalNamespace/PrepareLevelCompletionResults.hpp"
+// Including type: MissionObjectiveCheckersManager
+#include "GlobalNamespace/MissionObjectiveCheckersManager.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

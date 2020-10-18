@@ -13,8 +13,6 @@
 namespace GlobalNamespace {
   // Forward declaring type: PlayerDataModel
   class PlayerDataModel;
-  // Forward declaring type: BoolSO
-  class BoolSO;
   // Forward declaring type: EulaViewController
   class EulaViewController;
   // Forward declaring type: HealthWarningViewController
@@ -23,8 +21,6 @@ namespace GlobalNamespace {
   class PrivacyPolicyViewController;
   // Forward declaring type: SimpleDialogPromptViewController
   class SimpleDialogPromptViewController;
-  // Forward declaring type: OnlineServicesViewController
-  class OnlineServicesViewController;
   // Forward declaring type: FadeInOutController
   class FadeInOutController;
   // Forward declaring type: GameScenesManager
@@ -35,10 +31,6 @@ namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
   template<typename TKey, typename TValue>
   class Dictionary_2;
-}
-// Forward declaring namespace: HMUI
-namespace HMUI {
-  // Skipping declaration: ViewController because it is already included!
 }
 // Completed forward declares
 // Type namespace: 
@@ -51,82 +43,73 @@ namespace GlobalNamespace {
     // private PlayerDataModel _playerDataModel
     // Offset: 0xA8
     GlobalNamespace::PlayerDataModel* playerDataModel;
-    // private BoolSO _onlineServicesEnabled
-    // Offset: 0xB0
-    GlobalNamespace::BoolSO* onlineServicesEnabled;
     // private EulaViewController _eulaViewController
-    // Offset: 0xB8
+    // Offset: 0xB0
     GlobalNamespace::EulaViewController* eulaViewController;
-    // private HealthWarningViewController _healthWarningViewContoller
-    // Offset: 0xC0
-    GlobalNamespace::HealthWarningViewController* healthWarningViewContoller;
+    // private HealthWarningViewController _healthWarningViewController
+    // Offset: 0xB8
+    GlobalNamespace::HealthWarningViewController* healthWarningViewController;
     // private PrivacyPolicyViewController _privacyPolicyViewController
-    // Offset: 0xC8
+    // Offset: 0xC0
     GlobalNamespace::PrivacyPolicyViewController* privacyPolicyViewController;
-    // private SimpleDialogPromptViewController _simpleDialogPromptViewController
-    // Offset: 0xD0
+    // private readonly SimpleDialogPromptViewController _simpleDialogPromptViewController
+    // Offset: 0xC8
     GlobalNamespace::SimpleDialogPromptViewController* simpleDialogPromptViewController;
-    // private OnlineServicesViewController _onlineServicesViewController
-    // Offset: 0xD8
-    GlobalNamespace::OnlineServicesViewController* onlineServicesViewController;
-    // private FadeInOutController _fadeInOut
-    // Offset: 0xE0
+    // private readonly FadeInOutController _fadeInOut
+    // Offset: 0xD0
     GlobalNamespace::FadeInOutController* fadeInOut;
-    // private GameScenesManager _gameScenesManager
-    // Offset: 0xE8
+    // private readonly GameScenesManager _gameScenesManager
+    // Offset: 0xD8
     GlobalNamespace::GameScenesManager* gameScenesManager;
-    // private HealthWarningFlowCoordinator/InitData _initData
-    // Offset: 0xF0
+    // private readonly HealthWarningFlowCoordinator/InitData _initData
+    // Offset: 0xE0
     GlobalNamespace::HealthWarningFlowCoordinator::InitData* initData;
     // private System.Collections.Generic.Dictionary`2<HMUI.ViewController,System.String> _viewControllerTitles
-    // Offset: 0xF8
+    // Offset: 0xE8
     System::Collections::Generic::Dictionary_2<HMUI::ViewController*, ::Il2CppString*>* viewControllerTitles;
     // protected System.Void Update()
-    // Offset: 0xB44270
+    // Offset: 0xECEA3C
     void Update();
-    // private System.Void HandleEulaViewControllerdidFinish(System.Boolean agreed)
-    // Offset: 0xB442B0
-    void HandleEulaViewControllerdidFinish(bool agreed);
+    // private System.Void HandleEulaViewControllerDidFinish(System.Boolean agreed)
+    // Offset: 0xECEA7C
+    void HandleEulaViewControllerDidFinish(bool agreed);
     // private System.Void HandleHealthWarningViewControllerPrivacyPolicyButtonPressed()
-    // Offset: 0xB44324
+    // Offset: 0xECEAF0
     void HandleHealthWarningViewControllerPrivacyPolicyButtonPressed();
     // private System.Void HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed()
-    // Offset: 0xB44338
+    // Offset: 0xECEB08
     void HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed();
-    // private System.Void HandleHealthWarningViewControllerdidFinish()
-    // Offset: 0xB442AC
-    void HandleHealthWarningViewControllerdidFinish();
-    // private System.Void HandleOnlineServicesViewControllerDidFinish(System.Boolean value)
-    // Offset: 0xB44444
-    void HandleOnlineServicesViewControllerDidFinish(bool value);
+    // private System.Void HandleHealthWarningViewControllerDidFinish()
+    // Offset: 0xECEA78
+    void HandleHealthWarningViewControllerDidFinish();
     // private System.Void GoToNextScene()
-    // Offset: 0xB44408
+    // Offset: 0xECEBDC
     void GoToNextScene();
-    // private System.Void <HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed>b__18_0(System.Int32 button)
-    // Offset: 0xB44564
-    void $HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed$b__18_0(int button);
-    // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.FlowCoordinator/ActivationType activationType)
-    // Offset: 0xB43920
+    // private System.Void <HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed>b__16_0(System.Int32 button)
+    // Offset: 0xECECCC
+    void $HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed$b__16_0(int button);
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0xECE188
     // Implemented from: HMUI.FlowCoordinator
-    // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, HMUI.FlowCoordinator/ActivationType activationType)
-    void DidActivate(bool firstActivation, HMUI::FlowCoordinator::ActivationType activationType);
-    // protected override System.Void DidDeactivate(HMUI.FlowCoordinator/DeactivationType deactivationType)
-    // Offset: 0xB43E1C
+    // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    // Offset: 0xECE620
     // Implemented from: HMUI.FlowCoordinator
-    // Base method: System.Void FlowCoordinator::DidDeactivate(HMUI.FlowCoordinator/DeactivationType deactivationType)
-    void DidDeactivate(HMUI::FlowCoordinator::DeactivationType deactivationType);
-    // protected override System.Void TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, System.Boolean immediately)
-    // Offset: 0xB441AC
+    // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
+    // protected override System.Void TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
+    // Offset: 0xECE968
     // Implemented from: HMUI.FlowCoordinator
-    // Base method: System.Void FlowCoordinator::TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, System.Boolean immediately)
-    void TopViewControllerWillChange(HMUI::ViewController* oldViewController, HMUI::ViewController* newViewController, bool immediately);
+    // Base method: System.Void FlowCoordinator::TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
+    void TopViewControllerWillChange(HMUI::ViewController* oldViewController, HMUI::ViewController* newViewController, HMUI::ViewController::AnimationType animationType);
     // protected override System.Void BackButtonWasPressed(HMUI.ViewController topViewController)
-    // Offset: 0xB444B4
+    // Offset: 0xECEC18
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::BackButtonWasPressed(HMUI.ViewController topViewController)
     void BackButtonWasPressed(HMUI::ViewController* topViewController);
     // public System.Void .ctor()
-    // Offset: 0xB4455C
+    // Offset: 0xECECC4
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

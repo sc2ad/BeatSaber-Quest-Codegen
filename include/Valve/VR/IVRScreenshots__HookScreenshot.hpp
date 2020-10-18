@@ -33,16 +33,16 @@ namespace Valve::VR {
   class IVRScreenshots::_HookScreenshot : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16CE12C
+    // Offset: 0x1F52ED4
     static IVRScreenshots::_HookScreenshot* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRScreenshotError Invoke(in Valve.VR.EVRScreenshotType[] pSupportedTypes, System.Int32 numTypes)
-    // Offset: 0x16CE140
+    // Offset: 0x1F52EE8
     Valve::VR::EVRScreenshotError Invoke(::Array<Valve::VR::EVRScreenshotType>*& pSupportedTypes, int numTypes);
     // public System.IAsyncResult BeginInvoke(in Valve.VR.EVRScreenshotType[] pSupportedTypes, System.Int32 numTypes, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16CE3B4
+    // Offset: 0x1F5315C
     System::IAsyncResult* BeginInvoke(::Array<Valve::VR::EVRScreenshotType>*& pSupportedTypes, int numTypes, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRScreenshotError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16CE450
+    // Offset: 0x1F531F8
     Valve::VR::EVRScreenshotError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRScreenshots/_HookScreenshot
 }

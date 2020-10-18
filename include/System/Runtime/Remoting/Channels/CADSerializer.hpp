@@ -26,19 +26,19 @@ namespace System::Runtime::Remoting::Channels {
   class CADSerializer : public ::Il2CppObject {
     public:
     // static System.Runtime.Remoting.Messaging.IMessage DeserializeMessage(System.IO.MemoryStream mem, System.Runtime.Remoting.Messaging.IMethodCallMessage msg)
-    // Offset: 0x1055F7C
+    // Offset: 0x1297ECC
     static System::Runtime::Remoting::Messaging::IMessage* DeserializeMessage(System::IO::MemoryStream* mem, System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);
     // static System.IO.MemoryStream SerializeMessage(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0x1055FDC
+    // Offset: 0x1297F2C
     static System::IO::MemoryStream* SerializeMessage(System::Runtime::Remoting::Messaging::IMessage* msg);
     // static System.Object DeserializeObjectSafe(System.Byte[] mem)
-    // Offset: 0x10560C0
+    // Offset: 0x1298010
     static ::Il2CppObject* DeserializeObjectSafe(::Array<uint8_t>* mem);
     // static System.IO.MemoryStream SerializeObject(System.Object obj)
-    // Offset: 0x10561F0
+    // Offset: 0x1298140
     static System::IO::MemoryStream* SerializeObject(::Il2CppObject* obj);
     // static System.Object DeserializeObject(System.IO.MemoryStream mem)
-    // Offset: 0x1056158
+    // Offset: 0x12980A8
     static ::Il2CppObject* DeserializeObject(System::IO::MemoryStream* mem);
   }; // System.Runtime.Remoting.Channels.CADSerializer
 }

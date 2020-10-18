@@ -43,26 +43,26 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.Queue`1<System.Action> _mainThreadExecutionQueue
     static void _set__mainThreadExecutionQueue(System::Collections::Generic::Queue_1<System::Action*>* value);
     // protected System.Void Update()
-    // Offset: 0xCB68DC
+    // Offset: 0x109C7E4
     void Update();
     // public System.Void Enqueue(System.Collections.IEnumerator action)
-    // Offset: 0xCB6A54
+    // Offset: 0x109C95C
     void Enqueue(System::Collections::IEnumerator* action);
     // public System.Void Enqueue(System.Action action)
-    // Offset: 0xCB6C00
+    // Offset: 0x109CB08
     void Enqueue(System::Action* action);
     // private System.Collections.IEnumerator ActionCoroutine(System.Action action)
-    // Offset: 0xCB6C28
+    // Offset: 0x109CB30
     System::Collections::IEnumerator* ActionCoroutine(System::Action* action);
     // static protected System.Void NoDomainReloadInit()
-    // Offset: 0xCB681C
+    // Offset: 0x109C724
     // Implemented from: PersistentSingleton`1
-    // Base method: System.Void PersistentSingleton`1::NoDomainReloadInit()
+    // Base method: System.Void PersistentSingleton_1::NoDomainReloadInit()
     static void NoDomainReloadInit();
     // public System.Void .ctor()
-    // Offset: 0xCB6CD0
+    // Offset: 0x109CBD8
     // Implemented from: PersistentSingleton`1
-    // Base method: System.Void PersistentSingleton`1::.ctor()
+    // Base method: System.Void PersistentSingleton_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
     // Base method: System.Void Component::.ctor()
@@ -70,9 +70,9 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static HMMainThreadDispatcher* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xCB6D40
+    // Offset: 0x109CC48
     // Implemented from: PersistentSingleton`1
-    // Base method: System.Void PersistentSingleton`1::.cctor()
+    // Base method: System.Void PersistentSingleton_1::.cctor()
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // HMMainThreadDispatcher

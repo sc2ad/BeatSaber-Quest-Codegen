@@ -36,25 +36,25 @@ namespace GlobalNamespace {
     // private System.Single _maxSpawnInterval
     // Offset: 0x28
     float maxSpawnInterval;
-    // private FireworkItemController/Pool _fireworkItemPool
+    // private readonly FireworkItemController/Pool _fireworkItemPool
     // Offset: 0x30
     GlobalNamespace::FireworkItemController::Pool* fireworkItemPool;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnEnable()
-    // Offset: 0xBEE814
+    // Offset: 0xF6B208
     void OnEnable();
     // private System.Collections.IEnumerator SpawningCoroutine()
-    // Offset: 0xBEE840
+    // Offset: 0xF6B234
     System::Collections::IEnumerator* SpawningCoroutine();
     // private System.Void HandleFireworkItemControllerDidFinish(FireworkItemController fireworkItemController)
-    // Offset: 0xBEE8E8
+    // Offset: 0xF6B2DC
     void HandleFireworkItemControllerDidFinish(GlobalNamespace::FireworkItemController* fireworkItemController);
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0xBEE994
+    // Offset: 0xF6B388
     void OnDrawGizmosSelected();
     // public System.Void .ctor()
-    // Offset: 0xBEEA18
+    // Offset: 0xF6B40C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

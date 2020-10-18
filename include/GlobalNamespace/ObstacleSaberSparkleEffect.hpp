@@ -31,31 +31,31 @@ namespace GlobalNamespace {
     // private UnityEngine.ParticleSystem _burnParticleSystem
     // Offset: 0x20
     UnityEngine::ParticleSystem* burnParticleSystem;
-    // private UnityEngine.ParticleSystem/EmissionModule _sparkleParticleSystemEmmisionModule
+    // private UnityEngine.ParticleSystem/EmissionModule _sparkleParticleSystemEmissionModule
     // Offset: 0x28
-    UnityEngine::ParticleSystem::EmissionModule sparkleParticleSystemEmmisionModule;
-    // private UnityEngine.ParticleSystem/EmissionModule _burnParticleSystemEmmisionModule
+    UnityEngine::ParticleSystem::EmissionModule sparkleParticleSystemEmissionModule;
+    // private UnityEngine.ParticleSystem/EmissionModule _burnParticleSystemEmissionModule
     // Offset: 0x30
-    UnityEngine::ParticleSystem::EmissionModule burnParticleSystemEmmisionModule;
+    UnityEngine::ParticleSystem::EmissionModule burnParticleSystemEmissionModule;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0xC34CD8
+    // Offset: 0x10B4974
     void set_color(UnityEngine::Color value);
     // protected System.Void Awake()
-    // Offset: 0xC34DE4
+    // Offset: 0x10B4A80
     void Awake();
     // public System.Void SetPositionAndRotation(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
-    // Offset: 0xC34E64
+    // Offset: 0x10B4B00
     void SetPositionAndRotation(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot);
     // public System.Void StartEmission()
-    // Offset: 0xC34EE0
+    // Offset: 0x10B4B7C
     void StartEmission();
     // public System.Void StopEmission()
-    // Offset: 0xC34F38
+    // Offset: 0x10B4BD4
     void StopEmission();
     // public System.Void .ctor()
-    // Offset: 0xC34FA4
+    // Offset: 0x10B4C40
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

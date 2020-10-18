@@ -21,10 +21,10 @@ namespace GlobalNamespace {
       return enumName;
     }
     // public System.Void .ctor(System.String name)
-    // Offset: 0xCB04CC
+    // Offset: 0x1095E1C
     static EnumFlagAttribute* New_ctor(::Il2CppString* name);
     // public System.Void .ctor()
-    // Offset: 0xCB04C4
+    // Offset: 0x1095E14
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

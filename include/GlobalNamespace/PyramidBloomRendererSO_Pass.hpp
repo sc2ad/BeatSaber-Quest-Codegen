@@ -48,38 +48,44 @@ namespace GlobalNamespace {
     static GlobalNamespace::PyramidBloomRendererSO::Pass _get_Downsample4();
     // Set static field: static public PyramidBloomRendererSO/Pass Downsample4
     static void _set_Downsample4(GlobalNamespace::PyramidBloomRendererSO::Pass value);
+    // static field const value: static public PyramidBloomRendererSO/Pass DownsampleBilinearGamma
+    static constexpr const int DownsampleBilinearGamma = 4;
+    // Get static field: static public PyramidBloomRendererSO/Pass DownsampleBilinearGamma
+    static GlobalNamespace::PyramidBloomRendererSO::Pass _get_DownsampleBilinearGamma();
+    // Set static field: static public PyramidBloomRendererSO/Pass DownsampleBilinearGamma
+    static void _set_DownsampleBilinearGamma(GlobalNamespace::PyramidBloomRendererSO::Pass value);
     // static field const value: static public PyramidBloomRendererSO/Pass UpsampleTent
-    static constexpr const int UpsampleTent = 4;
+    static constexpr const int UpsampleTent = 5;
     // Get static field: static public PyramidBloomRendererSO/Pass UpsampleTent
     static GlobalNamespace::PyramidBloomRendererSO::Pass _get_UpsampleTent();
     // Set static field: static public PyramidBloomRendererSO/Pass UpsampleTent
     static void _set_UpsampleTent(GlobalNamespace::PyramidBloomRendererSO::Pass value);
     // static field const value: static public PyramidBloomRendererSO/Pass UpsampleBox
-    static constexpr const int UpsampleBox = 5;
+    static constexpr const int UpsampleBox = 6;
     // Get static field: static public PyramidBloomRendererSO/Pass UpsampleBox
     static GlobalNamespace::PyramidBloomRendererSO::Pass _get_UpsampleBox();
     // Set static field: static public PyramidBloomRendererSO/Pass UpsampleBox
     static void _set_UpsampleBox(GlobalNamespace::PyramidBloomRendererSO::Pass value);
     // static field const value: static public PyramidBloomRendererSO/Pass UpsampleTentGamma
-    static constexpr const int UpsampleTentGamma = 6;
+    static constexpr const int UpsampleTentGamma = 7;
     // Get static field: static public PyramidBloomRendererSO/Pass UpsampleTentGamma
     static GlobalNamespace::PyramidBloomRendererSO::Pass _get_UpsampleTentGamma();
     // Set static field: static public PyramidBloomRendererSO/Pass UpsampleTentGamma
     static void _set_UpsampleTentGamma(GlobalNamespace::PyramidBloomRendererSO::Pass value);
     // static field const value: static public PyramidBloomRendererSO/Pass UpsampleBoxGamma
-    static constexpr const int UpsampleBoxGamma = 7;
+    static constexpr const int UpsampleBoxGamma = 8;
     // Get static field: static public PyramidBloomRendererSO/Pass UpsampleBoxGamma
     static GlobalNamespace::PyramidBloomRendererSO::Pass _get_UpsampleBoxGamma();
     // Set static field: static public PyramidBloomRendererSO/Pass UpsampleBoxGamma
     static void _set_UpsampleBoxGamma(GlobalNamespace::PyramidBloomRendererSO::Pass value);
     // static field const value: static public PyramidBloomRendererSO/Pass Bilinear
-    static constexpr const int Bilinear = 8;
+    static constexpr const int Bilinear = 9;
     // Get static field: static public PyramidBloomRendererSO/Pass Bilinear
     static GlobalNamespace::PyramidBloomRendererSO::Pass _get_Bilinear();
     // Set static field: static public PyramidBloomRendererSO/Pass Bilinear
     static void _set_Bilinear(GlobalNamespace::PyramidBloomRendererSO::Pass value);
     // static field const value: static public PyramidBloomRendererSO/Pass BilinearGamma
-    static constexpr const int BilinearGamma = 9;
+    static constexpr const int BilinearGamma = 10;
     // Get static field: static public PyramidBloomRendererSO/Pass BilinearGamma
     static GlobalNamespace::PyramidBloomRendererSO::Pass _get_BilinearGamma();
     // Set static field: static public PyramidBloomRendererSO/Pass BilinearGamma

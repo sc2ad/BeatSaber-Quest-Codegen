@@ -25,16 +25,16 @@ namespace Oculus::Platform {
   class MessageWithCalApplicationFinalized : public Oculus::Platform::Message_1<Oculus::Platform::Models::CalApplicationFinalized*> {
     public:
     // protected Oculus.Platform.Models.CalApplicationFinalized GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xEA2458
+    // Offset: 0x1362B54
     Oculus::Platform::Models::CalApplicationFinalized* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE9F050
+    // Offset: 0x135F74C
     // Implemented from: Oculus.Platform.Message`1
-    // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
+    // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithCalApplicationFinalized* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.CalApplicationFinalized GetCalApplicationFinalized()
-    // Offset: 0xEA2414
+    // Offset: 0x1362B10
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.CalApplicationFinalized Message::GetCalApplicationFinalized()
     Oculus::Platform::Models::CalApplicationFinalized* GetCalApplicationFinalized();

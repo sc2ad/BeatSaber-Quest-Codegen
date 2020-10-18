@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // private UnityEngine.ParticleSystem _particleSystem
     // Offset: 0x40
     UnityEngine::ParticleSystem* particleSystem;
-    // private BeatmapObjectCallbackController _beatmapObjectCallbackController
+    // private readonly BeatmapObjectCallbackController _beatmapObjectCallbackController
     // Offset: 0x48
     GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
     // private System.Boolean _lightIsOn
@@ -90,22 +90,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xBD26A0
+    // Offset: 0xFD42F8
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0xBD2954
+    // Offset: 0xFD45AC
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xBD2A2C
+    // Offset: 0xFD4688
     void Update();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0xBD2B50
+    // Offset: 0xFD47AC
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void RefreshParticles()
-    // Offset: 0xBD2818
+    // Offset: 0xFD4470
     void RefreshParticles();
     // public System.Void .ctor()
-    // Offset: 0xBD2D38
+    // Offset: 0xFD4994
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

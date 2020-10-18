@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRScreenshots::_UpdateScreenshotProgress : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16CEF74
+    // Offset: 0x1F53D1C
     static IVRScreenshots::_UpdateScreenshotProgress* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRScreenshotError Invoke(System.UInt32 screenshotHandle, System.Single flProgress)
-    // Offset: 0x16CEF88
+    // Offset: 0x1F53D30
     Valve::VR::EVRScreenshotError Invoke(uint screenshotHandle, float flProgress);
     // public System.IAsyncResult BeginInvoke(System.UInt32 screenshotHandle, System.Single flProgress, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16CF21C
+    // Offset: 0x1F53FC4
     System::IAsyncResult* BeginInvoke(uint screenshotHandle, float flProgress, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRScreenshotError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16CF2C8
+    // Offset: 0x1F54070
     Valve::VR::EVRScreenshotError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRScreenshots/_UpdateScreenshotProgress
 }

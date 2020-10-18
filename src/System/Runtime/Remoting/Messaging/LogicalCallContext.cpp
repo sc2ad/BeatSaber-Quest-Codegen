@@ -97,3 +97,6 @@ void System::Runtime::Remoting::Messaging::LogicalCallContext::System_Runtime_Se
 ::Il2CppObject* System::Runtime::Remoting::Messaging::LogicalCallContext::Clone() {
   return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(this, "Clone"));
 }
+::Il2CppObject* System::Runtime::Remoting::Messaging::LogicalCallContext::System_ICloneable_Clone() {
+  return System::Runtime::Remoting::Messaging::LogicalCallContext::Clone();
+}

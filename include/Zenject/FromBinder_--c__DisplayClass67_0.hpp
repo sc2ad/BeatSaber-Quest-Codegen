@@ -40,10 +40,10 @@ namespace Zenject {
       return method;
     }
     // Zenject.IProvider <FromMethodUntyped>b__0(Zenject.DiContainer container, System.Type type)
-    // Offset: 0xF39298
+    // Offset: 0x1451928
     Zenject::IProvider* $FromMethodUntyped$b__0(Zenject::DiContainer* container, System::Type* type);
     // public System.Void .ctor()
-    // Offset: 0xF36650
+    // Offset: 0x144ECE0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FromBinder::$$c__DisplayClass67_0* New_ctor();

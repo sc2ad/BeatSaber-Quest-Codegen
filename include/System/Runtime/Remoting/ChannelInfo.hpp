@@ -21,15 +21,15 @@ namespace System::Runtime::Remoting {
       return channelData;
     }
     // public System.Void .ctor(System.Object remoteChannelData)
-    // Offset: 0x1055E58
+    // Offset: 0x1297DA8
     static ChannelInfo* New_ctor(::Il2CppObject* remoteChannelData);
     // public System.Void .ctor()
-    // Offset: 0x1055A04
+    // Offset: 0x1297954
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ChannelInfo* New_ctor();
     // public System.Object[] get_ChannelData()
-    // Offset: 0x1055F24
+    // Offset: 0x1297E74
     // Implemented from: System.Runtime.Remoting.IChannelInfo
     // Base method: System.Object[] IChannelInfo::get_ChannelData()
     ::Array<::Il2CppObject*>* get_ChannelData();

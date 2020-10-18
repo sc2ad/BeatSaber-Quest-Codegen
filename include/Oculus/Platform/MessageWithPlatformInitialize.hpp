@@ -25,16 +25,16 @@ namespace Oculus::Platform {
   class MessageWithPlatformInitialize : public Oculus::Platform::Message_1<Oculus::Platform::Models::PlatformInitialize*> {
     public:
     // protected Oculus.Platform.Models.PlatformInitialize GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xEA78DC
+    // Offset: 0x1367FD8
     Oculus::Platform::Models::PlatformInitialize* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xEA00D0
+    // Offset: 0x13607CC
     // Implemented from: Oculus.Platform.Message`1
-    // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
+    // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithPlatformInitialize* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.PlatformInitialize GetPlatformInitialize()
-    // Offset: 0xEA7898
+    // Offset: 0x1367F94
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.PlatformInitialize Message::GetPlatformInitialize()
     Oculus::Platform::Models::PlatformInitialize* GetPlatformInitialize();

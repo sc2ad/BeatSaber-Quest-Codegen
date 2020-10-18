@@ -13,16 +13,13 @@
 namespace GlobalNamespace {
   // Forward declaring type: MainSettingsModelSO
   class MainSettingsModelSO;
+  // Forward declaring type: LocalizedTextAsset
+  class LocalizedTextAsset;
 }
 // Forward declaring namespace: HMUI
 namespace HMUI {
   // Forward declaring type: TextPageScrollView
   class TextPageScrollView;
-}
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: TextAsset
-  class TextAsset;
 }
 // Completed forward declares
 // Type namespace: 
@@ -31,24 +28,24 @@ namespace GlobalNamespace {
   class ReleaseInfoViewController : public HMUI::ViewController {
     public:
     // private MainSettingsModelSO _mainSettingsModel
-    // Offset: 0x68
+    // Offset: 0x70
     GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // private HMUI.TextPageScrollView _textPageScrollView
-    // Offset: 0x70
-    HMUI::TextPageScrollView* textPageScrollView;
-    // private UnityEngine.TextAsset _releaseNotesTextAsset
     // Offset: 0x78
-    UnityEngine::TextAsset* releaseNotesTextAsset;
-    // private UnityEngine.TextAsset _firstTextAsset
+    HMUI::TextPageScrollView* textPageScrollView;
+    // private LocalizedTextAsset _releaseNotesLocalizedTextAsset
     // Offset: 0x80
-    UnityEngine::TextAsset* firstTextAsset;
-    // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xC20E34
+    GlobalNamespace::LocalizedTextAsset* releaseNotesLocalizedTextAsset;
+    // private LocalizedTextAsset _firstLocalizedTextAsset
+    // Offset: 0x88
+    GlobalNamespace::LocalizedTextAsset* firstLocalizedTextAsset;
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0xF780E8
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xC20EA0
+    // Offset: 0xF78154
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

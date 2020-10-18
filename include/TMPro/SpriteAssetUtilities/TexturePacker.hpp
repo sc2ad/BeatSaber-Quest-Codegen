@@ -25,7 +25,7 @@ namespace TMPro::SpriteAssetUtilities {
     // Nested type: TMPro::SpriteAssetUtilities::TexturePacker::SpriteDataObject
     class SpriteDataObject;
     // public System.Void .ctor()
-    // Offset: 0xB54EF8
+    // Offset: 0xF42A00
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TexturePacker* New_ctor();

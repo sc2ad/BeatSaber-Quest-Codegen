@@ -20,8 +20,8 @@ namespace Zenject {
   class IPoolable_1;
   // Forward declaring type: IMemoryPool
   class IMemoryPool;
-  // Forward declaring type: MemoryPool`2<TValue, TParam1>
-  template<typename TValue, typename TParam1>
+  // Forward declaring type: MemoryPool`2<TParam1, TValue>
+  template<typename TParam1, typename TValue>
   class MemoryPool_2;
   // Forward declaring type: DiContainer
   class DiContainer;
@@ -54,7 +54,7 @@ namespace Zenject {
     // public System.Void .ctor(Zenject.DiContainer container, System.Guid poolId)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.PoolableMemoryPoolProviderBase`1
-    // Base method: System.Void PoolableMemoryPoolProviderBase`1::.ctor(Zenject.DiContainer container, System.Guid poolId)
+    // Base method: System.Void PoolableMemoryPoolProviderBase_1::.ctor(Zenject.DiContainer container, System.Guid poolId)
     static PoolableMemoryPoolProvider_2<TContract, TMemoryPool>* New_ctor(Zenject::DiContainer* container, System::Guid poolId) {
       return THROW_UNLESS((il2cpp_utils::New<PoolableMemoryPoolProvider_2<TContract, TMemoryPool>*>(container, poolId)));
     }
@@ -73,7 +73,7 @@ namespace Zenject {
     // public override System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.PoolableMemoryPoolProviderBase`1
-    // Base method: System.Void PoolableMemoryPoolProviderBase`1::GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
+    // Base method: System.Void PoolableMemoryPoolProviderBase_1::GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
     void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "GetAllInstancesWithInjectSplit", context, args, injectAction, buffer));
     }

@@ -38,16 +38,16 @@ namespace System::Net::Sockets {
     // Deleting conversion operator: operator int
     constexpr operator int() const noexcept = delete;
     // static private System.Int32 WSAGetLastError_internal()
-    // Offset: 0x1218FD8
+    // Offset: 0x13B5368
     static int WSAGetLastError_internal();
     // System.Void .ctor(System.Net.Sockets.SocketError socketError)
-    // Offset: 0x1218440
+    // Offset: 0x13B434C
     static SocketException* New_ctor(System::Net::Sockets::SocketError socketError);
     // public System.Net.Sockets.SocketError get_SocketErrorCode()
-    // Offset: 0x1216AA0
+    // Offset: 0x13B29AC
     System::Net::Sockets::SocketError get_SocketErrorCode();
     // public System.Void .ctor()
-    // Offset: 0x1218FDC
+    // Offset: 0x13B536C
     // Implemented from: System.ComponentModel.Win32Exception
     // Base method: System.Void Win32Exception::.ctor()
     // Base method: System.Void ExternalException::.ctor()
@@ -56,17 +56,17 @@ namespace System::Net::Sockets {
     // Base method: System.Void Object::.ctor()
     static SocketException* New_ctor();
     // System.Void .ctor(System.Int32 error, System.String message)
-    // Offset: 0x1219054
+    // Offset: 0x13B53E4
     // Implemented from: System.ComponentModel.Win32Exception
     // Base method: System.Void Win32Exception::.ctor(System.Int32 error, System.String message)
     static SocketException* New_ctor(int error, ::Il2CppString* message);
     // public System.Void .ctor(System.Int32 errorCode)
-    // Offset: 0x1216EB0
+    // Offset: 0x13B2DBC
     // Implemented from: System.ComponentModel.Win32Exception
     // Base method: System.Void Win32Exception::.ctor(System.Int32 errorCode)
     static SocketException* New_ctor(int errorCode);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x12190D4
+    // Offset: 0x13B5464
     // Implemented from: System.ComponentModel.Win32Exception
     // Base method: System.Void Win32Exception::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     // Base method: System.Void ExternalException::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
@@ -74,7 +74,7 @@ namespace System::Net::Sockets {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     static SocketException* New_ctor(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // public override System.String get_Message()
-    // Offset: 0x1219164
+    // Offset: 0x13B54F4
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
     ::Il2CppString* get_Message();

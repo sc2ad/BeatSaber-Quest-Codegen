@@ -30,43 +30,43 @@ namespace Mono::Xml {
     // Offset: 0x18
     System::Collections::Generic::List_1<::Il2CppString*>* attrValues;
     // System.Void Clear()
-    // Offset: 0x10BC0A4
+    // Offset: 0x18AF564
     void Clear();
     // System.Void Add(System.String name, System.String value)
-    // Offset: 0x10BC604
+    // Offset: 0x18AFAC4
     void Add(::Il2CppString* name, ::Il2CppString* value);
     // public System.Int32 get_Length()
-    // Offset: 0x10BC684
+    // Offset: 0x18AFB44
     // Implemented from: Mono.Xml.SmallXmlParser/IAttrList
     // Base method: System.Int32 IAttrList::get_Length()
     int get_Length();
     // public System.String GetName(System.Int32 i)
-    // Offset: 0x10BC6D4
+    // Offset: 0x18AFB94
     // Implemented from: Mono.Xml.SmallXmlParser/IAttrList
     // Base method: System.String IAttrList::GetName(System.Int32 i)
     ::Il2CppString* GetName(int i);
     // public System.String GetValue(System.Int32 i)
-    // Offset: 0x10BC74C
+    // Offset: 0x18AFC0C
     // Implemented from: Mono.Xml.SmallXmlParser/IAttrList
     // Base method: System.String IAttrList::GetValue(System.Int32 i)
     ::Il2CppString* GetValue(int i);
     // public System.String GetValue(System.String name)
-    // Offset: 0x10BC7C4
+    // Offset: 0x18AFC84
     // Implemented from: Mono.Xml.SmallXmlParser/IAttrList
     // Base method: System.String IAttrList::GetValue(System.String name)
     ::Il2CppString* GetValue(::Il2CppString* name);
     // public System.String[] get_Names()
-    // Offset: 0x10BC898
+    // Offset: 0x18AFD58
     // Implemented from: Mono.Xml.SmallXmlParser/IAttrList
     // Base method: System.String[] IAttrList::get_Names()
     ::Array<::Il2CppString*>* get_Names();
     // public System.String[] get_Values()
-    // Offset: 0x10BC8F0
+    // Offset: 0x18AFDB0
     // Implemented from: Mono.Xml.SmallXmlParser/IAttrList
     // Base method: System.String[] IAttrList::get_Values()
     ::Array<::Il2CppString*>* get_Values();
     // public System.Void .ctor()
-    // Offset: 0x10BAC6C
+    // Offset: 0x18AE12C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SmallXmlParser::AttrListImpl* New_ctor();

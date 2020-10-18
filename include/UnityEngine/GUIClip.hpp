@@ -21,25 +21,25 @@ namespace UnityEngine {
   class GUIClip : public ::Il2CppObject {
     public:
     // static UnityEngine.Rect get_visibleRect()
-    // Offset: 0x1267D18
+    // Offset: 0x190591C
     static UnityEngine::Rect get_visibleRect();
     // static System.Void Internal_Push(UnityEngine.Rect screenRect, UnityEngine.Vector2 scrollOffset, UnityEngine.Vector2 renderOffset, System.Boolean resetOffset)
-    // Offset: 0x126BB88
+    // Offset: 0x190978C
     static void Internal_Push(UnityEngine::Rect screenRect, UnityEngine::Vector2 scrollOffset, UnityEngine::Vector2 renderOffset, bool resetOffset);
     // static System.Void Internal_Pop()
-    // Offset: 0x1269790
+    // Offset: 0x1907394
     static void Internal_Pop();
     // static System.Void Push(UnityEngine.Rect screenRect, UnityEngine.Vector2 scrollOffset, UnityEngine.Vector2 renderOffset, System.Boolean resetOffset)
-    // Offset: 0x1269750
+    // Offset: 0x1907354
     static void Push(UnityEngine::Rect screenRect, UnityEngine::Vector2 scrollOffset, UnityEngine::Vector2 renderOffset, bool resetOffset);
     // static System.Void Pop()
-    // Offset: 0x126AC2C
+    // Offset: 0x1908830
     static void Pop();
     // static private System.Void get_visibleRect_Injected(out UnityEngine.Rect ret)
-    // Offset: 0x126BB48
+    // Offset: 0x190974C
     static void get_visibleRect_Injected(UnityEngine::Rect& ret);
     // static private System.Void Internal_Push_Injected(ref UnityEngine.Rect screenRect, ref UnityEngine.Vector2 scrollOffset, ref UnityEngine.Vector2 renderOffset, System.Boolean resetOffset)
-    // Offset: 0x126BBF0
+    // Offset: 0x19097F4
     static void Internal_Push_Injected(UnityEngine::Rect& screenRect, UnityEngine::Vector2& scrollOffset, UnityEngine::Vector2& renderOffset, bool resetOffset);
   }; // UnityEngine.GUIClip
 }

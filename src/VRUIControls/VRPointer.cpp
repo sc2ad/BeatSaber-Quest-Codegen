@@ -7,6 +7,8 @@
 #include "VRUIControls/VRPointer.hpp"
 // Including type: VRController
 #include "GlobalNamespace/VRController.hpp"
+// Including type: VRUIControls.VRLaserPointer
+#include "VRUIControls/VRLaserPointer.hpp"
 // Including type: UnityEngine.Transform
 #include "UnityEngine/Transform.hpp"
 // Including type: UnityEngine.EventSystems.EventSystem

@@ -21,6 +21,8 @@ namespace GlobalNamespace {
   class AudioTimeSyncController;
   // Forward declaring type: BeatmapObjectExecutionRating
   class BeatmapObjectExecutionRating;
+  // Forward declaring type: ObstacleData
+  class ObstacleData;
   // Forward declaring type: ObstacleController
   class ObstacleController;
   // Forward declaring type: NoteData
@@ -45,61 +47,61 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler
     class CutScoreHandler;
-    // private ScoreController _scoreController
+    // private readonly ScoreController _scoreController
     // Offset: 0x18
     GlobalNamespace::ScoreController* scoreController;
-    // private BeatmapObjectManager _beatmapObjectManager
+    // private readonly BeatmapObjectManager _beatmapObjectManager
     // Offset: 0x20
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
-    // private PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
+    // private readonly PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
     // Offset: 0x28
     GlobalNamespace::PlayerHeadAndObstacleInteraction* playerHeadAndObstacleInteraction;
-    // private AudioTimeSyncController _audioTimeSyncController
+    // private readonly AudioTimeSyncController _audioTimeSyncController
     // Offset: 0x30
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
-    // private System.Collections.Generic.List`1<BeatmapObjectExecutionRating> _beatmapObjectExecutionRatings
+    // private readonly System.Collections.Generic.List`1<BeatmapObjectExecutionRating> _beatmapObjectExecutionRatings
     // Offset: 0x38
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectExecutionRating*>* beatmapObjectExecutionRatings;
-    // private System.Collections.Generic.HashSet`1<System.Int32> _hitObstacles
+    // private readonly System.Collections.Generic.HashSet`1<ObstacleData> _hitObstacles
     // Offset: 0x40
-    System::Collections::Generic::HashSet_1<int>* hitObstacles;
-    // private System.Collections.Generic.List`1<ObstacleController> _prevIntersectingObstacles
+    System::Collections::Generic::HashSet_1<GlobalNamespace::ObstacleData*>* hitObstacles;
+    // private readonly System.Collections.Generic.List`1<ObstacleController> _prevIntersectingObstacles
     // Offset: 0x48
     System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* prevIntersectingObstacles;
-    // private System.Collections.Generic.List`1<BeatmapObjectExecutionRatingsRecorder/CutScoreHandler> _cutScoreHandlers
+    // private readonly System.Collections.Generic.List`1<BeatmapObjectExecutionRatingsRecorder/CutScoreHandler> _cutScoreHandlers
     // Offset: 0x50
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler*>* cutScoreHandlers;
-    // private System.Collections.Generic.List`1<BeatmapObjectExecutionRatingsRecorder/CutScoreHandler> _unusedCutScoreHandlers
+    // private readonly System.Collections.Generic.List`1<BeatmapObjectExecutionRatingsRecorder/CutScoreHandler> _unusedCutScoreHandlers
     // Offset: 0x58
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler*>* unusedCutScoreHandlers;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Collections.Generic.List`1<BeatmapObjectExecutionRating> get_beatmapObjectExecutionRatings()
-    // Offset: 0xB76528
+    // Offset: 0x105B67C
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectExecutionRating*>* get_beatmapObjectExecutionRatings();
     // protected System.Void Start()
-    // Offset: 0xB76530
+    // Offset: 0x105B684
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xB7691C
+    // Offset: 0x105B868
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xB76B60
+    // Offset: 0x105B9DC
     void Update();
     // private System.Void HandleCutScoreHandlerDidFinish(BeatmapObjectExecutionRatingsRecorder/CutScoreHandler cutScoreHandler)
-    // Offset: 0xB76D60
+    // Offset: 0x105BBF8
     void HandleCutScoreHandlerDidFinish(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler* cutScoreHandler);
     // private System.Void HandleScoreControllerNoteWasCut(NoteData noteData, NoteCutInfo noteCutInfo, System.Int32 multiplier)
-    // Offset: 0xB76DE4
+    // Offset: 0x105BC7C
     void HandleScoreControllerNoteWasCut(GlobalNamespace::NoteData* noteData, GlobalNamespace::NoteCutInfo* noteCutInfo, int multiplier);
     // private System.Void HandleScoreControllerNoteWasMissed(NoteData noteData, System.Int32 multiplier)
-    // Offset: 0xB77118
+    // Offset: 0x105BE9C
     void HandleScoreControllerNoteWasMissed(GlobalNamespace::NoteData* noteData, int multiplier);
     // private System.Void HandleObstacleDidPassAvoidedMark(ObstacleController obstacleController)
-    // Offset: 0xB77218
+    // Offset: 0x105BF78
     void HandleObstacleDidPassAvoidedMark(GlobalNamespace::ObstacleController* obstacleController);
     // public System.Void .ctor()
-    // Offset: 0xB7731C
+    // Offset: 0x105C06C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

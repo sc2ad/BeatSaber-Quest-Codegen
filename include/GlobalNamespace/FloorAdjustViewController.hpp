@@ -13,8 +13,8 @@
 namespace GlobalNamespace {
   // Forward declaring type: Vector3SO
   class Vector3SO;
-  // Forward declaring type: VRPlatformHelper
-  class VRPlatformHelper;
+  // Forward declaring type: IVRPlatformHelper
+  class IVRPlatformHelper;
 }
 // Forward declaring namespace: UnityEngine::UI
 namespace UnityEngine::UI {
@@ -33,22 +33,22 @@ namespace GlobalNamespace {
   class FloorAdjustViewController : public HMUI::ViewController {
     public:
     // private Vector3SO _roomCenter
-    // Offset: 0x68
+    // Offset: 0x70
     GlobalNamespace::Vector3SO* roomCenter;
     // private UnityEngine.UI.Button _yIncButton
-    // Offset: 0x70
+    // Offset: 0x78
     UnityEngine::UI::Button* yIncButton;
     // private UnityEngine.UI.Button _yDecButton
-    // Offset: 0x78
+    // Offset: 0x80
     UnityEngine::UI::Button* yDecButton;
     // private TMPro.TextMeshProUGUI _playerHeightText
-    // Offset: 0x80
-    TMPro::TextMeshProUGUI* playerHeightText;
-    // private VRPlatformHelper _vrPlatformHelper
     // Offset: 0x88
-    GlobalNamespace::VRPlatformHelper* vrPlatformHelper;
-    // private System.Single _playerHeight
+    TMPro::TextMeshProUGUI* playerHeightText;
+    // private IVRPlatformHelper _vrPlatformHelper
     // Offset: 0x90
+    GlobalNamespace::IVRPlatformHelper* vrPlatformHelper;
+    // private System.Single _playerHeight
+    // Offset: 0x98
     float playerHeight;
     // static field const value: static private System.Single kMoveStep
     static constexpr const float kMoveStep = 0.05;
@@ -69,21 +69,21 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kMaxPlayerHeight
     static void _set_kMaxPlayerHeight(float value);
     // protected System.Void Update()
-    // Offset: 0xBEF868
+    // Offset: 0xF6C288
     void Update();
     // private System.Void <DidActivate>b__9_0()
-    // Offset: 0xBEFA24
+    // Offset: 0xF6C4A8
     void $DidActivate$b__9_0();
     // private System.Void <DidActivate>b__9_1()
-    // Offset: 0xBEFA9C
+    // Offset: 0xF6C520
     void $DidActivate$b__9_1();
-    // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xBEF76C
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0xF6C18C
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xBEFA1C
+    // Offset: 0xF6C4A0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

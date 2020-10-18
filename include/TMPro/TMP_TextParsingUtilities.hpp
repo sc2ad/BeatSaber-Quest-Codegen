@@ -35,37 +35,37 @@ namespace TMPro {
     // Set static field: static private System.String k_LookupStringU
     static void _set_k_LookupStringU(::Il2CppString* value);
     // static private System.Void .cctor()
-    // Offset: 0xDC3840
+    // Offset: 0x1261C74
     static void _cctor();
     // static public TMPro.TMP_TextParsingUtilities get_instance()
-    // Offset: 0xDC38B0
+    // Offset: 0x1261CE4
     static TMPro::TMP_TextParsingUtilities* get_instance();
     // static public System.UInt32 GetHashCode(System.String s)
-    // Offset: 0xDC3918
+    // Offset: 0x1261D4C
     static uint GetHashCode(::Il2CppString* s);
     // static public System.Int32 GetHashCodeCaseSensitive(System.String s)
-    // Offset: 0xDC3A68
+    // Offset: 0x1261E9C
     static int GetHashCodeCaseSensitive(::Il2CppString* s);
     // static public System.Char ToLowerASCIIFast(System.Char c)
-    // Offset: 0xDC3AE0
+    // Offset: 0x1261F14
     static ::Il2CppChar ToLowerASCIIFast(::Il2CppChar c);
     // static public System.Char ToUpperASCIIFast(System.Char c)
-    // Offset: 0xDC39EC
+    // Offset: 0x1261E20
     static ::Il2CppChar ToUpperASCIIFast(::Il2CppChar c);
     // static public System.UInt32 ToUpperASCIIFast(System.UInt32 c)
-    // Offset: 0xDC3B5C
+    // Offset: 0x1261F90
     static uint ToUpperASCIIFast(uint c);
     // static public System.UInt32 ToLowerASCIIFast(System.UInt32 c)
-    // Offset: 0xDC3BD8
+    // Offset: 0x126200C
     static uint ToLowerASCIIFast(uint c);
     // static public System.Boolean IsHighSurrogate(System.UInt32 c)
-    // Offset: 0xDC3C54
+    // Offset: 0x1262088
     static bool IsHighSurrogate(uint c);
     // static public System.Boolean IsLowSurrogate(System.UInt32 c)
-    // Offset: 0xDC3C68
+    // Offset: 0x126209C
     static bool IsLowSurrogate(uint c);
     // public System.Void .ctor()
-    // Offset: 0xDC38A8
+    // Offset: 0x1261CDC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TMP_TextParsingUtilities* New_ctor();

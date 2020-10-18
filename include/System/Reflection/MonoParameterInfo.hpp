@@ -27,20 +27,20 @@ namespace System::Reflection {
   class MonoParameterInfo : public System::Reflection::RuntimeParameterInfo {
     public:
     // System.Void .ctor(System.Reflection.ParameterInfo pinfo, System.Reflection.MemberInfo member)
-    // Offset: 0x11547B8
+    // Offset: 0x18D2760
     static MonoParameterInfo* New_ctor(System::Reflection::ParameterInfo* pinfo, System::Reflection::MemberInfo* member);
     // public override System.Object get_DefaultValue()
-    // Offset: 0x1154880
+    // Offset: 0x18D2828
     // Implemented from: System.Reflection.ParameterInfo
     // Base method: System.Object ParameterInfo::get_DefaultValue()
     ::Il2CppObject* get_DefaultValue();
     // public override System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x1154AC4
+    // Offset: 0x18D2A6C
     // Implemented from: System.Reflection.ParameterInfo
     // Base method: System.Object[] ParameterInfo::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
     ::Array<::Il2CppObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
     // public override System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x1154B44
+    // Offset: 0x18D2AEC
     // Implemented from: System.Reflection.ParameterInfo
     // Base method: System.Boolean ParameterInfo::IsDefined(System.Type attributeType, System.Boolean inherit)
     bool IsDefined(System::Type* attributeType, bool inherit);

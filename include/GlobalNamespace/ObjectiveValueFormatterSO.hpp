@@ -14,10 +14,10 @@ namespace GlobalNamespace {
   class ObjectiveValueFormatterSO : public GlobalNamespace::PersistentScriptableObject {
     public:
     // public System.String FormatValue(System.Int32 value)
-    // Offset: 0xC32FA0
+    // Offset: 0x10B2D20
     ::Il2CppString* FormatValue(int value);
     // public System.Void .ctor()
-    // Offset: 0xC32FC8
+    // Offset: 0x10B2D48
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -30,43 +30,68 @@ namespace System::IO {
     // private System.Object state
     // Offset: 0x10
     ::Il2CppObject* state;
-    // private System.Threading.ManualResetEvent wh
+    // private System.Boolean completed
     // Offset: 0x18
+    bool completed;
+    // private System.Threading.ManualResetEvent wh
+    // Offset: 0x20
     System::Threading::ManualResetEvent* wh;
     // private System.AsyncCallback cb
-    // Offset: 0x20
-    System::AsyncCallback* cb;
-    // public System.Int32 Count
     // Offset: 0x28
+    System::AsyncCallback* cb;
+    // private System.Boolean completedSynch
+    // Offset: 0x30
+    bool completedSynch;
+    // public System.Int32 Count
+    // Offset: 0x34
     int Count;
     // public System.Int32 OriginalCount
-    // Offset: 0x2C
+    // Offset: 0x38
     int OriginalCount;
     // public System.Int32 BytesRead
-    // Offset: 0x30
+    // Offset: 0x3C
     int BytesRead;
     // private System.AsyncCallback realcb
-    // Offset: 0x38
+    // Offset: 0x40
     System::AsyncCallback* realcb;
     // public System.Void .ctor(System.AsyncCallback cb, System.Object state)
-    // Offset: 0x1138944
+    // Offset: 0x16986A8
     static FileStreamAsyncResult* New_ctor(System::AsyncCallback* cb, ::Il2CppObject* state);
     // static private System.Void CBWrapper(System.IAsyncResult ares)
-    // Offset: 0x1139DD0
+    // Offset: 0x1699E64
     static void CBWrapper(System::IAsyncResult* ares);
     // public System.Object get_AsyncState()
-    // Offset: 0x1139E6C
+    // Offset: 0x1699F00
     // Implemented from: System.IAsyncResult
     // Base method: System.Object IAsyncResult::get_AsyncState()
     ::Il2CppObject* get_AsyncState();
+    // Creating proxy method: System_IAsyncResult_get_AsyncState
+    // Maps to method: get_AsyncState
+    ::Il2CppObject* System_IAsyncResult_get_AsyncState();
+    // public System.Boolean get_CompletedSynchronously()
+    // Offset: 0x1699F08
+    // Implemented from: System.IAsyncResult
+    // Base method: System.Boolean IAsyncResult::get_CompletedSynchronously()
+    bool get_CompletedSynchronously();
+    // Creating proxy method: System_IAsyncResult_get_CompletedSynchronously
+    // Maps to method: get_CompletedSynchronously
+    bool System_IAsyncResult_get_CompletedSynchronously();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x1139E74
+    // Offset: 0x1699F10
     // Implemented from: System.IAsyncResult
     // Base method: System.Threading.WaitHandle IAsyncResult::get_AsyncWaitHandle()
     System::Threading::WaitHandle* get_AsyncWaitHandle();
     // Creating proxy method: System_IAsyncResult_get_AsyncWaitHandle
     // Maps to method: get_AsyncWaitHandle
     System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();
+    // public System.Boolean get_IsCompleted()
+    // Offset: 0x1699F18
+    // Implemented from: System.IAsyncResult
+    // Base method: System.Boolean IAsyncResult::get_IsCompleted()
+    bool get_IsCompleted();
+    // Creating proxy method: System_IAsyncResult_get_IsCompleted
+    // Maps to method: get_IsCompleted
+    bool System_IAsyncResult_get_IsCompleted();
   }; // System.IO.FileStreamAsyncResult
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

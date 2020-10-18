@@ -34,13 +34,13 @@ namespace RootMotion::FinalIK {
     // Offset: 0x34
     float angleBuffer;
     // public System.Boolean IsInDirection(UnityEngine.Vector3 d)
-    // Offset: 0x13AC80C
+    // Offset: 0x1ACCB44
     bool IsInDirection(UnityEngine::Vector3 d);
     // public System.Void SetAngleBuffer(System.Single value)
-    // Offset: 0x13ACB84
+    // Offset: 0x1ACCEBC
     void SetAngleBuffer(float value);
     // public System.Void .ctor()
-    // Offset: 0x13ACB8C
+    // Offset: 0x1ACCEC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AimPoser::Pose* New_ctor();

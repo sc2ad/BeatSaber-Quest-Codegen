@@ -42,56 +42,56 @@ namespace UnityEngine::Audio {
       return m_Handle;
     }
     // static public UnityEngine.Audio.AudioClipPlayable Create(UnityEngine.Playables.PlayableGraph graph, UnityEngine.AudioClip clip, System.Boolean looping)
-    // Offset: 0x195BE14
+    // Offset: 0x2207C5C
     static UnityEngine::Audio::AudioClipPlayable Create(UnityEngine::Playables::PlayableGraph graph, UnityEngine::AudioClip* clip, bool looping);
     // static private UnityEngine.Playables.PlayableHandle CreateHandle(UnityEngine.Playables.PlayableGraph graph, UnityEngine.AudioClip clip, System.Boolean looping)
-    // Offset: 0x195BF3C
+    // Offset: 0x2207D84
     static UnityEngine::Playables::PlayableHandle CreateHandle(UnityEngine::Playables::PlayableGraph graph, UnityEngine::AudioClip* clip, bool looping);
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0xA5EAAC
+    // Offset: 0xDDDBF8
     // ABORTED: conflicts with another method.  AudioClipPlayable(UnityEngine::Playables::PlayableHandle handle);
     // static public UnityEngine.Audio.AudioClipPlayable op_Explicit(UnityEngine.Playables.Playable playable)
-    // Offset: 0x195C1C4
+    // Offset: 0x220800C
     explicit AudioClipPlayable(UnityEngine::Playables::Playable& playable);
     // System.Void SetVolume(System.Single value)
-    // Offset: 0xA5EAC8
+    // Offset: 0xDDDC14
     void SetVolume(float value);
     // System.Void SetStereoPan(System.Single value)
-    // Offset: 0xA5EAD0
+    // Offset: 0xDDDC1C
     void SetStereoPan(float value);
     // System.Void SetSpatialBlend(System.Single value)
-    // Offset: 0xA5EAD8
+    // Offset: 0xDDDC24
     void SetSpatialBlend(float value);
     // public System.Void Seek(System.Double startTime, System.Double startDelay, System.Double duration)
-    // Offset: 0xA5EAE0
+    // Offset: 0xDDDC2C
     void Seek(double startTime, double startDelay, double duration);
     // static private System.Void SetVolumeInternal(ref UnityEngine.Playables.PlayableHandle hdl, System.Single volume)
-    // Offset: 0x195C38C
+    // Offset: 0x22081D4
     static void SetVolumeInternal(UnityEngine::Playables::PlayableHandle& hdl, float volume);
     // static private System.Void SetStereoPanInternal(ref UnityEngine.Playables.PlayableHandle hdl, System.Single stereoPan)
-    // Offset: 0x195C4D8
+    // Offset: 0x2208320
     static void SetStereoPanInternal(UnityEngine::Playables::PlayableHandle& hdl, float stereoPan);
     // static private System.Void SetSpatialBlendInternal(ref UnityEngine.Playables.PlayableHandle hdl, System.Single spatialBlend)
-    // Offset: 0x195C620
+    // Offset: 0x2208468
     static void SetSpatialBlendInternal(UnityEngine::Playables::PlayableHandle& hdl, float spatialBlend);
     // static private System.Void SetStartDelayInternal(ref UnityEngine.Playables.PlayableHandle hdl, System.Double delay)
-    // Offset: 0x195C774
+    // Offset: 0x22085BC
     static void SetStartDelayInternal(UnityEngine::Playables::PlayableHandle& hdl, double delay);
     // static private System.Void SetPauseDelayInternal(ref UnityEngine.Playables.PlayableHandle hdl, System.Double delay)
-    // Offset: 0x195C7C4
+    // Offset: 0x220860C
     static void SetPauseDelayInternal(UnityEngine::Playables::PlayableHandle& hdl, double delay);
     // static private System.Boolean InternalCreateAudioClipPlayable(ref UnityEngine.Playables.PlayableGraph graph, UnityEngine.AudioClip clip, System.Boolean looping, ref UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0x195C11C
+    // Offset: 0x2207F64
     static bool InternalCreateAudioClipPlayable(UnityEngine::Playables::PlayableGraph& graph, UnityEngine::AudioClip* clip, bool looping, UnityEngine::Playables::PlayableHandle& handle);
     // public UnityEngine.Playables.PlayableHandle GetHandle()
-    // Offset: 0xA5EAB4
+    // Offset: 0xDDDC00
     // Implemented from: UnityEngine.Playables.IPlayable
     // Base method: UnityEngine.Playables.PlayableHandle IPlayable::GetHandle()
     UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Audio.AudioClipPlayable other)
-    // Offset: 0xA5EAC0
+    // Offset: 0xDDDC0C
     // Implemented from: System.IEquatable`1
-    // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Audio.AudioClipPlayable other)
+    // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Audio.AudioClipPlayable other)
     bool Equals(UnityEngine::Audio::AudioClipPlayable other);
   }; // UnityEngine.Audio.AudioClipPlayable
 }

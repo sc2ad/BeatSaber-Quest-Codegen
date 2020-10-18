@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_GetTimeSinceLastVsync : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16C0FEC
+    // Offset: 0x1F45D94
     static IVRSystem::_GetTimeSinceLastVsync* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(ref System.Single pfSecondsSinceLastVsync, ref System.UInt64 pulFrameCounter)
-    // Offset: 0x16C1000
+    // Offset: 0x1F45DA8
     bool Invoke(float& pfSecondsSinceLastVsync, uint64_t& pulFrameCounter);
     // public System.IAsyncResult BeginInvoke(ref System.Single pfSecondsSinceLastVsync, ref System.UInt64 pulFrameCounter, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16C1278
+    // Offset: 0x1F46020
     System::IAsyncResult* BeginInvoke(float& pfSecondsSinceLastVsync, uint64_t& pulFrameCounter, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(ref System.Single pfSecondsSinceLastVsync, ref System.UInt64 pulFrameCounter, System.IAsyncResult result)
-    // Offset: 0x16C132C
+    // Offset: 0x1F460D4
     bool EndInvoke(float& pfSecondsSinceLastVsync, uint64_t& pulFrameCounter, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_GetTimeSinceLastVsync
 }

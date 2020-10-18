@@ -23,16 +23,16 @@ namespace System::Runtime::Remoting::Metadata {
     // Offset: 0x20
     ::Il2CppObject* ReflectInfo;
     // public System.Boolean get_UseAttribute()
-    // Offset: 0xE15084
+    // Offset: 0x14FA5E8
     bool get_UseAttribute();
     // public System.String get_XmlNamespace()
-    // Offset: 0xE1508C
+    // Offset: 0x14FA5F0
     ::Il2CppString* get_XmlNamespace();
     // System.Void SetReflectionObject(System.Object reflectionObject)
-    // Offset: 0xE15094
+    // Offset: 0x14FA5F8
     void SetReflectionObject(::Il2CppObject* reflectionObject);
     // public System.Void .ctor()
-    // Offset: 0xE1507C
+    // Offset: 0x14FA5E0
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

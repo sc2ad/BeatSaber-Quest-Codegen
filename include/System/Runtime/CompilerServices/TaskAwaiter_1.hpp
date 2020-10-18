@@ -52,6 +52,13 @@ namespace System::Runtime::CompilerServices {
     TResult GetResult() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<TResult>(*this, "GetResult"));
     }
+    // public System.Void OnCompleted(System.Action continuation)
+    // Offset: 0xFFFFFFFF
+    // Implemented from: System.Runtime.CompilerServices.INotifyCompletion
+    // Base method: System.Void INotifyCompletion::OnCompleted(System.Action continuation)
+    void OnCompleted(System::Action* continuation) {
+      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "OnCompleted", continuation));
+    }
     // public System.Void UnsafeOnCompleted(System.Action continuation)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Runtime.CompilerServices.ICriticalNotifyCompletion

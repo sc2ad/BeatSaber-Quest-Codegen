@@ -58,34 +58,34 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kMainEffectEnabledKeyword
     static void _set_kMainEffectEnabledKeyword(::Il2CppString* value);
     // public System.Void add_afterImageEffectEvent(System.Action`1<UnityEngine.RenderTexture> value)
-    // Offset: 0x1911BD0
+    // Offset: 0x21A17F0
     void add_afterImageEffectEvent(System::Action_1<UnityEngine::RenderTexture*>* value);
     // public System.Void remove_afterImageEffectEvent(System.Action`1<UnityEngine.RenderTexture> value)
-    // Offset: 0x1911C74
+    // Offset: 0x21A1894
     void remove_afterImageEffectEvent(System::Action_1<UnityEngine::RenderTexture*>* value);
     // protected System.Void OnEnable()
-    // Offset: 0x1911D18
+    // Offset: 0x21A1938
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1911EA8
+    // Offset: 0x21A1AC8
     void OnDisable();
     // protected System.Void OnValidate()
-    // Offset: 0x1911F40
+    // Offset: 0x21A1B60
     void OnValidate();
     // private System.Void LazySetupImageEffectController()
-    // Offset: 0x1911D4C
+    // Offset: 0x21A196C
     void LazySetupImageEffectController();
     // private System.Void ImageEffectControllerCallback(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x1911F78
+    // Offset: 0x21A1BB4
     void ImageEffectControllerCallback(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);
     // protected System.Void OnPreRender()
-    // Offset: 0x1912030
+    // Offset: 0x21A1C6C
     void OnPreRender();
     // protected System.Void OnPostRender()
-    // Offset: 0x19120F4
+    // Offset: 0x21A1D30
     void OnPostRender();
     // public System.Void .ctor()
-    // Offset: 0x1912168
+    // Offset: 0x21A1DA4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

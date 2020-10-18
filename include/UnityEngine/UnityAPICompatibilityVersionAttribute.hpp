@@ -20,7 +20,7 @@ namespace UnityEngine {
     // Offset: 0x18
     ::Array<::Il2CppString*>* configurationAssembliesHashes;
     // public System.Void .ctor(System.String version, System.String[] configurationAssembliesHashes)
-    // Offset: 0x139A66C
+    // Offset: 0x19981E0
     static UnityAPICompatibilityVersionAttribute* New_ctor(::Il2CppString* version, ::Array<::Il2CppString*>* configurationAssembliesHashes);
   }; // UnityEngine.UnityAPICompatibilityVersionAttribute
 }

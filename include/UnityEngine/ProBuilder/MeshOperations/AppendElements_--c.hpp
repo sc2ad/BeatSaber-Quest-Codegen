@@ -41,16 +41,16 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Vertex,UnityEngine.Vector3> <>9__14_1
     static void _set_$$9__14_1(System::Func_2<UnityEngine::ProBuilder::Vertex*, UnityEngine::Vector3>* value);
     // static private System.Void .cctor()
-    // Offset: 0xF05414
+    // Offset: 0x13E7A10
     static void _cctor();
     // System.Int32 <CreateShapeFromPolygon>b__7_0(UnityEngine.Vector3[] arr)
-    // Offset: 0xF05484
+    // Offset: 0x13E7A80
     int $CreateShapeFromPolygon$b__7_0(::Array<UnityEngine::Vector3>* arr);
     // UnityEngine.Vector3 <AppendVerticesToEdge>b__14_1(UnityEngine.ProBuilder.Vertex x)
-    // Offset: 0xF0549C
+    // Offset: 0x13E7A98
     UnityEngine::Vector3 $AppendVerticesToEdge$b__14_1(UnityEngine::ProBuilder::Vertex* x);
     // public System.Void .ctor()
-    // Offset: 0xF0547C
+    // Offset: 0x13E7A78
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AppendElements::$$c* New_ctor();

@@ -47,52 +47,52 @@ namespace System::Resources {
       return rm;
     }
     // System.Void .ctor(System.Resources.ResourceManager rm)
-    // Offset: 0x115D3AC
+    // Offset: 0x18DB344
     static ResourceManager::ResourceManagerMediator* New_ctor(System::Resources::ResourceManager* rm);
     // System.String get_ModuleDir()
-    // Offset: 0x115A61C
+    // Offset: 0x18D85B4
     ::Il2CppString* get_ModuleDir();
     // System.Type get_LocationInfo()
-    // Offset: 0x115A30C
+    // Offset: 0x18D82A4
     System::Type* get_LocationInfo();
     // System.Type get_UserResourceSet()
-    // Offset: 0x115A638
+    // Offset: 0x18D85D0
     System::Type* get_UserResourceSet();
     // System.String get_BaseNameField()
-    // Offset: 0x115A2F0
+    // Offset: 0x18D8288
     ::Il2CppString* get_BaseNameField();
     // System.Globalization.CultureInfo get_NeutralResourcesCulture()
-    // Offset: 0x115BE2C
+    // Offset: 0x18D9DC4
     System::Globalization::CultureInfo* get_NeutralResourcesCulture();
     // System.String GetResourceFileName(System.Globalization.CultureInfo culture)
-    // Offset: 0x115A20C
+    // Offset: 0x18D81A4
     ::Il2CppString* GetResourceFileName(System::Globalization::CultureInfo* culture);
     // System.Boolean get_LookedForSatelliteContractVersion()
-    // Offset: 0x115C82C
+    // Offset: 0x18DA7C4
     bool get_LookedForSatelliteContractVersion();
     // System.Void set_LookedForSatelliteContractVersion(System.Boolean value)
-    // Offset: 0x115C8C8
+    // Offset: 0x18DA860
     void set_LookedForSatelliteContractVersion(bool value);
     // System.Version get_SatelliteContractVersion()
-    // Offset: 0x115C954
+    // Offset: 0x18DA8EC
     System::Version* get_SatelliteContractVersion();
     // System.Void set_SatelliteContractVersion(System.Version value)
-    // Offset: 0x115C8AC
+    // Offset: 0x18DA844
     void set_SatelliteContractVersion(System::Version* value);
     // System.Version ObtainSatelliteContractVersion(System.Reflection.Assembly a)
-    // Offset: 0x115C848
+    // Offset: 0x18DA7E0
     System::Version* ObtainSatelliteContractVersion(System::Reflection::Assembly* a);
     // System.Resources.UltimateResourceFallbackLocation get_FallbackLoc()
-    // Offset: 0x115AB58
+    // Offset: 0x18D8AF0
     System::Resources::UltimateResourceFallbackLocation get_FallbackLoc();
     // System.Reflection.RuntimeAssembly get_CallingAssembly()
-    // Offset: 0x115C47C
+    // Offset: 0x18DA414
     System::Reflection::RuntimeAssembly* get_CallingAssembly();
     // System.Reflection.RuntimeAssembly get_MainAssembly()
-    // Offset: 0x115AB74
+    // Offset: 0x18D8B0C
     System::Reflection::RuntimeAssembly* get_MainAssembly();
     // System.String get_BaseName()
-    // Offset: 0x115CC18
+    // Offset: 0x18DABB0
     ::Il2CppString* get_BaseName();
   }; // System.Resources.ResourceManager/ResourceManagerMediator
 }

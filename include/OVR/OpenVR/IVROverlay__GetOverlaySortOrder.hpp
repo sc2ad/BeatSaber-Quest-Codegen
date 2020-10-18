@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_GetOverlaySortOrder : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1528FD8
+    // Offset: 0x1D6C8E0
     static IVROverlay::_GetOverlaySortOrder* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, ref System.UInt32 punSortOrder)
-    // Offset: 0x1528FEC
+    // Offset: 0x1D6C8F4
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, uint& punSortOrder);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, ref System.UInt32 punSortOrder, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1529270
+    // Offset: 0x1D6CB78
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint& punSortOrder, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(ref System.UInt32 punSortOrder, System.IAsyncResult result)
-    // Offset: 0x1529320
+    // Offset: 0x1D6CC28
     OVR::OpenVR::EVROverlayError EndInvoke(uint& punSortOrder, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetOverlaySortOrder
 }

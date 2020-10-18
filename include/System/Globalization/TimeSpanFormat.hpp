@@ -58,28 +58,28 @@ namespace System::Globalization {
       // Creating value type constructor for type: FormatLiterals
       constexpr FormatLiterals(::Il2CppString* AppCompatLiteral_ = {}, int dd_ = {}, int hh_ = {}, int mm_ = {}, int ss_ = {}, int ff_ = {}, ::Array<::Il2CppString*>* literals_ = {}) noexcept : AppCompatLiteral{AppCompatLiteral_}, dd{dd_}, hh{hh_}, mm{mm_}, ss{ss_}, ff{ff_}, literals{literals_} {}
       // System.String get_Start()
-      // Offset: 0xA4179C
+      // Offset: 0xDB9E44
       ::Il2CppString* get_Start();
       // System.String get_DayHourSep()
-      // Offset: 0xA417A4
+      // Offset: 0xDB9E4C
       ::Il2CppString* get_DayHourSep();
       // System.String get_HourMinuteSep()
-      // Offset: 0xA417AC
+      // Offset: 0xDB9E54
       ::Il2CppString* get_HourMinuteSep();
       // System.String get_MinuteSecondSep()
-      // Offset: 0xA417B4
+      // Offset: 0xDB9E5C
       ::Il2CppString* get_MinuteSecondSep();
       // System.String get_SecondFractionSep()
-      // Offset: 0xA417BC
+      // Offset: 0xDB9E64
       ::Il2CppString* get_SecondFractionSep();
       // System.String get_End()
-      // Offset: 0xA417C4
+      // Offset: 0xDB9E6C
       ::Il2CppString* get_End();
       // static System.Globalization.TimeSpanFormat/FormatLiterals InitInvariant(System.Boolean isNegative)
-      // Offset: 0x1128DD0
+      // Offset: 0x16887B4
       static System::Globalization::TimeSpanFormat::FormatLiterals InitInvariant(bool isNegative);
       // System.Void Init(System.String format, System.Boolean useInvariantFieldLengths)
-      // Offset: 0xA417CC
+      // Offset: 0xDB9E74
       void Init(::Il2CppString* format, bool useInvariantFieldLengths);
     }; // System.Globalization.TimeSpanFormat/FormatLiterals
     // Get static field: static readonly System.Globalization.TimeSpanFormat/FormatLiterals PositiveInvariantFormatLiterals
@@ -91,19 +91,19 @@ namespace System::Globalization {
     // Set static field: static readonly System.Globalization.TimeSpanFormat/FormatLiterals NegativeInvariantFormatLiterals
     static void _set_NegativeInvariantFormatLiterals(System::Globalization::TimeSpanFormat::FormatLiterals value);
     // static private System.String IntToString(System.Int32 n, System.Int32 digits)
-    // Offset: 0x112786C
+    // Offset: 0x1687250
     static ::Il2CppString* IntToString(int n, int digits);
     // static System.String Format(System.TimeSpan value, System.String format, System.IFormatProvider formatProvider)
-    // Offset: 0x1127884
+    // Offset: 0x1687268
     static ::Il2CppString* Format(System::TimeSpan value, ::Il2CppString* format, System::IFormatProvider* formatProvider);
     // static private System.String FormatStandard(System.TimeSpan value, System.Boolean isInvariant, System.String format, System.Globalization.TimeSpanFormat/Pattern pattern)
-    // Offset: 0x1127AC8
+    // Offset: 0x16874AC
     static ::Il2CppString* FormatStandard(System::TimeSpan value, bool isInvariant, ::Il2CppString* format, System::Globalization::TimeSpanFormat::Pattern pattern);
     // static System.String FormatCustomized(System.TimeSpan value, System.String format, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x1127FCC
+    // Offset: 0x16879B0
     static ::Il2CppString* FormatCustomized(System::TimeSpan value, ::Il2CppString* format, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.Void .cctor()
-    // Offset: 0x1128D24
+    // Offset: 0x1688708
     static void _cctor();
   }; // System.Globalization.TimeSpanFormat
 }

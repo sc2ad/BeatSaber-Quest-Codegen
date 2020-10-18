@@ -37,16 +37,16 @@ namespace Valve::VR {
   class IVRNotifications::_CreateNotification : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x160C604
+    // Offset: 0x1E36884
     static IVRNotifications::_CreateNotification* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRNotificationError Invoke(System.UInt64 ulOverlayHandle, System.UInt64 ulUserValue, Valve.VR.EVRNotificationType type, System.String pchText, Valve.VR.EVRNotificationStyle style, ref Valve.VR.NotificationBitmap_t pImage, ref System.UInt32 pNotificationId)
-    // Offset: 0x160C618
+    // Offset: 0x1E36898
     Valve::VR::EVRNotificationError Invoke(uint64_t ulOverlayHandle, uint64_t ulUserValue, Valve::VR::EVRNotificationType type, ::Il2CppString* pchText, Valve::VR::EVRNotificationStyle style, Valve::VR::NotificationBitmap_t& pImage, uint& pNotificationId);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.UInt64 ulUserValue, Valve.VR.EVRNotificationType type, System.String pchText, Valve.VR.EVRNotificationStyle style, ref Valve.VR.NotificationBitmap_t pImage, ref System.UInt32 pNotificationId, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x160C8FC
+    // Offset: 0x1E36B7C
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint64_t ulUserValue, Valve::VR::EVRNotificationType type, ::Il2CppString* pchText, Valve::VR::EVRNotificationStyle style, Valve::VR::NotificationBitmap_t& pImage, uint& pNotificationId, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRNotificationError EndInvoke(ref Valve.VR.NotificationBitmap_t pImage, ref System.UInt32 pNotificationId, System.IAsyncResult result)
-    // Offset: 0x160CA2C
+    // Offset: 0x1E36CAC
     Valve::VR::EVRNotificationError EndInvoke(Valve::VR::NotificationBitmap_t& pImage, uint& pNotificationId, System::IAsyncResult* result);
   }; // Valve.VR.IVRNotifications/_CreateNotification
 }

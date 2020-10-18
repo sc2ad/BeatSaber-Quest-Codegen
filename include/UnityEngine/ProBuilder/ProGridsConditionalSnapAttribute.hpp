@@ -14,7 +14,7 @@ namespace UnityEngine::ProBuilder {
   class ProGridsConditionalSnapAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x103BE30
+    // Offset: 0x15AAF0C
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -12,55 +12,55 @@ namespace UnityEngine {
   class Time : public ::Il2CppObject {
     public:
     // static public System.Single get_time()
-    // Offset: 0x1396E54
+    // Offset: 0x1994880
     static float get_time();
     // static public System.Single get_timeSinceLevelLoad()
-    // Offset: 0x1396E88
+    // Offset: 0x19948B4
     static float get_timeSinceLevelLoad();
     // static public System.Single get_deltaTime()
-    // Offset: 0x1396EBC
+    // Offset: 0x19948E8
     static float get_deltaTime();
     // static public System.Single get_unscaledTime()
-    // Offset: 0x1396EF0
+    // Offset: 0x199491C
     static float get_unscaledTime();
     // static public System.Single get_unscaledDeltaTime()
-    // Offset: 0x1396F24
+    // Offset: 0x1994950
     static float get_unscaledDeltaTime();
     // static public System.Single get_fixedDeltaTime()
-    // Offset: 0x1396F58
+    // Offset: 0x1994984
     static float get_fixedDeltaTime();
     // static public System.Void set_fixedDeltaTime(System.Single value)
-    // Offset: 0x1396F8C
+    // Offset: 0x19949B8
     static void set_fixedDeltaTime(float value);
     // static public System.Single get_smoothDeltaTime()
-    // Offset: 0x1396FD0
+    // Offset: 0x19949FC
     static float get_smoothDeltaTime();
     // static public System.Single get_maximumParticleDeltaTime()
-    // Offset: 0x1397004
+    // Offset: 0x1994A30
     static float get_maximumParticleDeltaTime();
     // static public System.Single get_timeScale()
-    // Offset: 0x1397038
+    // Offset: 0x1994A64
     static float get_timeScale();
     // static public System.Void set_timeScale(System.Single value)
-    // Offset: 0x139706C
+    // Offset: 0x1994A98
     static void set_timeScale(float value);
     // static public System.Int32 get_frameCount()
-    // Offset: 0x13970B0
+    // Offset: 0x1994ADC
     static int get_frameCount();
     // static public System.Single get_realtimeSinceStartup()
-    // Offset: 0x13970E4
+    // Offset: 0x1994B10
     static float get_realtimeSinceStartup();
     // static public System.Single get_captureDeltaTime()
-    // Offset: 0x1397118
+    // Offset: 0x1994B44
     static float get_captureDeltaTime();
     // static public System.Void set_captureDeltaTime(System.Single value)
-    // Offset: 0x139714C
+    // Offset: 0x1994B78
     static void set_captureDeltaTime(float value);
     // static public System.Int32 get_captureFramerate()
-    // Offset: 0x1397190
+    // Offset: 0x1994BBC
     static int get_captureFramerate();
     // static public System.Void set_captureFramerate(System.Int32 value)
-    // Offset: 0x13972CC
+    // Offset: 0x1994CF8
     static void set_captureFramerate(int value);
   }; // UnityEngine.Time
 }

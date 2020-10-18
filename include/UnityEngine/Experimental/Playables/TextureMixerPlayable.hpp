@@ -28,14 +28,14 @@ namespace UnityEngine::Experimental::Playables {
       return m_Handle;
     }
     // public UnityEngine.Playables.PlayableHandle GetHandle()
-    // Offset: 0xA45E74
+    // Offset: 0xDC1F6C
     // Implemented from: UnityEngine.Playables.IPlayable
     // Base method: UnityEngine.Playables.PlayableHandle IPlayable::GetHandle()
     UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Experimental.Playables.TextureMixerPlayable other)
-    // Offset: 0xA45E80
+    // Offset: 0xDC1F78
     // Implemented from: System.IEquatable`1
-    // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Experimental.Playables.TextureMixerPlayable other)
+    // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Experimental.Playables.TextureMixerPlayable other)
     bool Equals(UnityEngine::Experimental::Playables::TextureMixerPlayable other);
   }; // UnityEngine.Experimental.Playables.TextureMixerPlayable
 }

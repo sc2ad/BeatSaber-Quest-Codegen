@@ -26,16 +26,16 @@ namespace UnityEngine {
   class Font::FontTextureRebuildCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1968C70
+    // Offset: 0x2216858
     static Font::FontTextureRebuildCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x19689C4
+    // Offset: 0x22165AC
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1968C84
+    // Offset: 0x221686C
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1968CB0
+    // Offset: 0x2216898
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Font/FontTextureRebuildCallback
 }

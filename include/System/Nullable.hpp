@@ -19,7 +19,7 @@ namespace System {
   class Nullable : public ::Il2CppObject {
     public:
     // static public System.Type GetUnderlyingType(System.Type nullableType)
-    // Offset: 0x101BC0C
+    // Offset: 0x1AAB400
     static System::Type* GetUnderlyingType(System::Type* nullableType);
   }; // System.Nullable
 }

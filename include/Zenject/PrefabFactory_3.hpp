@@ -43,7 +43,7 @@ namespace Zenject {
     // public T Create(UnityEngine.Object prefab, P1 param, P2 param2)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IFactory`4
-    // Base method: TValue IFactory`4::Create(UnityEngine.Object prefab, P1 param, P2 param2)
+    // Base method: TValue IFactory_4::Create(UnityEngine.Object prefab, P1 param, P2 param2)
     T Create(UnityEngine::Object* prefab, P1 param, P2 param2) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "Create", prefab, param, param2));
     }

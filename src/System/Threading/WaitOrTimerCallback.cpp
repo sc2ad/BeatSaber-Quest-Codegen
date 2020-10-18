@@ -5,6 +5,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Threading.WaitOrTimerCallback
 #include "System/Threading/WaitOrTimerCallback.hpp"
+// Including type: System.IntPtr
+#include "System/IntPtr.hpp"
 // Including type: System.IAsyncResult
 #include "System/IAsyncResult.hpp"
 // Including type: System.AsyncCallback

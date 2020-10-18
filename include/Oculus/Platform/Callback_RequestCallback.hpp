@@ -23,13 +23,13 @@ namespace Oculus::Platform {
       return messageCallback;
     }
     // public System.Void .ctor(Oculus.Platform.Message/Callback callback)
-    // Offset: 0xE97514
+    // Offset: 0x1357C10
     static Callback::RequestCallback* New_ctor(Oculus::Platform::Message::Callback* callback);
     // public System.Void HandleMessage(Oculus.Platform.Message msg)
-    // Offset: 0xE97CD8
+    // Offset: 0x13583D4
     void HandleMessage(Oculus::Platform::Message* msg);
     // public System.Void .ctor()
-    // Offset: 0xE97CD0
+    // Offset: 0x13583CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Callback::RequestCallback* New_ctor();

@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRSystem::_GetPropErrorNameFromEnum : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16D82E4
+    // Offset: 0x1F5D08C
     static IVRSystem::_GetPropErrorNameFromEnum* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.IntPtr Invoke(Valve.VR.ETrackedPropertyError error)
-    // Offset: 0x16D82F8
+    // Offset: 0x1F5D0A0
     System::IntPtr Invoke(Valve::VR::ETrackedPropertyError error);
     // public System.IAsyncResult BeginInvoke(Valve.VR.ETrackedPropertyError error, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16D856C
+    // Offset: 0x1F5D314
     System::IAsyncResult* BeginInvoke(Valve::VR::ETrackedPropertyError error, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.IntPtr EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16D85F8
+    // Offset: 0x1F5D3A0
     System::IntPtr EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetPropErrorNameFromEnum
 }

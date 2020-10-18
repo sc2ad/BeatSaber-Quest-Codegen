@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRChaperoneSetup::_SetWorkingPlayAreaSize : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16029EC
+    // Offset: 0x1E2CC6C
     static IVRChaperoneSetup::_SetWorkingPlayAreaSize* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Single sizeX, System.Single sizeZ)
-    // Offset: 0x1602A00
+    // Offset: 0x1E2CC80
     void Invoke(float sizeX, float sizeZ);
     // public System.IAsyncResult BeginInvoke(System.Single sizeX, System.Single sizeZ, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1602C84
+    // Offset: 0x1E2CF04
     System::IAsyncResult* BeginInvoke(float sizeX, float sizeZ, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1602D24
+    // Offset: 0x1E2CFA4
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperoneSetup/_SetWorkingPlayAreaSize
 }

@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_GetTrackedDeviceClass : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16C16A4
+    // Offset: 0x1F4644C
     static IVRSystem::_GetTrackedDeviceClass* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.ETrackedDeviceClass Invoke(System.UInt32 unDeviceIndex)
-    // Offset: 0x16C16B8
+    // Offset: 0x1F46460
     OVR::OpenVR::ETrackedDeviceClass Invoke(uint unDeviceIndex);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unDeviceIndex, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16C192C
+    // Offset: 0x1F466D4
     System::IAsyncResult* BeginInvoke(uint unDeviceIndex, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.ETrackedDeviceClass EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16C19B8
+    // Offset: 0x1F46760
     OVR::OpenVR::ETrackedDeviceClass EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_GetTrackedDeviceClass
 }

@@ -14,7 +14,7 @@ namespace System::Runtime::InteropServices {
   class OptionalAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1051C10
+    // Offset: 0x1293B48
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

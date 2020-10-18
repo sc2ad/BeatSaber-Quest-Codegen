@@ -63,13 +63,13 @@ namespace RootMotion::FinalIK {
     // Offset: 0x60
     bool firstUpdate;
     // public System.Void Reset()
-    // Offset: 0x144ABBC
+    // Offset: 0x1BF880C
     void Reset();
     // public System.Void Update(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight, System.Single deltaTime)
-    // Offset: 0x144AD54
+    // Offset: 0x1BF89A4
     void Update(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight, float deltaTime);
     // public System.Void .ctor()
-    // Offset: 0x144B0D4
+    // Offset: 0x1BF8D24
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Inertia::Body* New_ctor();

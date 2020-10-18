@@ -32,3 +32,6 @@ System::Runtime::Serialization::Formatters::Binary::IntSizedArray* System::Runti
 ::Il2CppObject* System::Runtime::Serialization::Formatters::Binary::IntSizedArray::Clone() {
   return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(this, "Clone"));
 }
+::Il2CppObject* System::Runtime::Serialization::Formatters::Binary::IntSizedArray::System_ICloneable_Clone() {
+  return System::Runtime::Serialization::Formatters::Binary::IntSizedArray::Clone();
+}

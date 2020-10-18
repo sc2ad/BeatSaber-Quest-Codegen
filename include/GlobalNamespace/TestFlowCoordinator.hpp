@@ -34,13 +34,13 @@ namespace GlobalNamespace {
     // private HMUI.ViewController _topScreenViewController
     // Offset: 0xC8
     HMUI::ViewController* topScreenViewController;
-    // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.FlowCoordinator/ActivationType activationType)
-    // Offset: 0xBAA924
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0xF31FFC
     // Implemented from: HMUI.FlowCoordinator
-    // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, HMUI.FlowCoordinator/ActivationType activationType)
-    void DidActivate(bool firstActivation, HMUI::FlowCoordinator::ActivationType activationType);
+    // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xBAA940
+    // Offset: 0xF32018
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -35,10 +35,10 @@ namespace GlobalNamespace {
     // Set static field: static public System.Int32 StructSize
     static void _set_StructSize(int value);
     // public System.Byte[] ToBytes()
-    // Offset: 0xA39A0C
+    // Offset: 0xDB1090
     ::Array<uint8_t>* ToBytes();
     // static public OVRNetwork/FrameHeader FromBytes(System.Byte[] arr)
-    // Offset: 0xEEF480
+    // Offset: 0x13D1A7C
     static GlobalNamespace::OVRNetwork::FrameHeader FromBytes(::Array<uint8_t>* arr);
   }; // OVRNetwork/FrameHeader
 }

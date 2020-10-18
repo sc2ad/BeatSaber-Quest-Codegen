@@ -27,26 +27,26 @@ namespace System {
   class ExecutionEngineException : public System::SystemException {
     public:
     // public System.Void .ctor()
-    // Offset: 0xDA9C00
+    // Offset: 0x1259754
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static ExecutionEngineException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0xDA9C64
+    // Offset: 0x12597B8
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static ExecutionEngineException* New_ctor(::Il2CppString* message);
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0xDA876C
+    // Offset: 0x1257E34
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception innerException)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     static ExecutionEngineException* New_ctor(::Il2CppString* message, System::Exception* innerException);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xDA9C94
+    // Offset: 0x12597E8
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

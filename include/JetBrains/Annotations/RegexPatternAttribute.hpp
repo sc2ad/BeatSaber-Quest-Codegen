@@ -14,7 +14,7 @@ namespace JetBrains::Annotations {
   class RegexPatternAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x19617E4
+    // Offset: 0x220C66C
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

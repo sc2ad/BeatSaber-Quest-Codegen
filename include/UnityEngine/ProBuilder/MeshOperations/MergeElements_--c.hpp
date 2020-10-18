@@ -41,13 +41,13 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__1_0
     static void _set_$$9__1_0(System::Func_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::IEnumerable_1<int>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x101E8D8
+    // Offset: 0x1572CE8
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<System.Int32> <Merge>b__1_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x101E948
+    // Offset: 0x1572D58
     System::Collections::Generic::IEnumerable_1<int>* $Merge$b__1_0(UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0x101E940
+    // Offset: 0x1572D50
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MergeElements::$$c* New_ctor();

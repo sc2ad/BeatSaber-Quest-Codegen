@@ -21,7 +21,7 @@ namespace GlobalNamespace {
       return checkingEnabled;
     }
     // public System.Void .ctor(System.Boolean checkingEnabled)
-    // Offset: 0xC2ABE4
+    // Offset: 0xF83E28
     static SafeAreaRectChecker::InitData* New_ctor(bool checkingEnabled);
   }; // SafeAreaRectChecker/InitData
 }

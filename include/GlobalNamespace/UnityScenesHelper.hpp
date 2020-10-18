@@ -19,7 +19,7 @@ namespace GlobalNamespace {
   class UnityScenesHelper : public ::Il2CppObject {
     public:
     // static public System.Void SetActiveRootObjectsInScene(UnityEngine.SceneManagement.Scene scene, System.Boolean active)
-    // Offset: 0xCB4240
+    // Offset: 0x21EE04C
     static void SetActiveRootObjectsInScene(UnityEngine::SceneManagement::Scene scene, bool active);
   }; // UnityScenesHelper
 }

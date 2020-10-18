@@ -25,13 +25,13 @@ namespace RootMotion::FinalIK {
     // Offset: 0x18
     float weight;
     // public System.Boolean get_isValid()
-    // Offset: 0x13AEBEC
+    // Offset: 0x1ACEF24
     bool get_isValid();
     // public System.Void UpdateConstraint()
     // Offset: 0xFFFFFFFF
     void UpdateConstraint();
     // protected System.Void .ctor()
-    // Offset: 0x13AEC5C
+    // Offset: 0x1ACEF94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Constraint* New_ctor();

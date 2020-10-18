@@ -26,16 +26,16 @@ namespace UnityEngine::Experimental::Audio {
   class AudioSampleProvider::SampleFramesHandler : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x195FC58
+    // Offset: 0x220BAE0
     static AudioSampleProvider::SampleFramesHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(UnityEngine.Experimental.Audio.AudioSampleProvider provider, System.UInt32 sampleFrameCount)
-    // Offset: 0x195F810
+    // Offset: 0x220B698
     void Invoke(UnityEngine::Experimental::Audio::AudioSampleProvider* provider, uint sampleFrameCount);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Experimental.Audio.AudioSampleProvider provider, System.UInt32 sampleFrameCount, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x195FC6C
+    // Offset: 0x220BAF4
     System::IAsyncResult* BeginInvoke(UnityEngine::Experimental::Audio::AudioSampleProvider* provider, uint sampleFrameCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x195FD08
+    // Offset: 0x220BB90
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Experimental.Audio.AudioSampleProvider/SampleFramesHandler
 }

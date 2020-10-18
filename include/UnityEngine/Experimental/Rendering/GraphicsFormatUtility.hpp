@@ -28,31 +28,31 @@ namespace UnityEngine::Experimental::Rendering {
   class GraphicsFormatUtility : public ::Il2CppObject {
     public:
     // static public UnityEngine.Experimental.Rendering.GraphicsFormat GetGraphicsFormat(UnityEngine.TextureFormat format, System.Boolean isSRGB)
-    // Offset: 0x130C3C4
+    // Offset: 0x19E7634
     static UnityEngine::Experimental::Rendering::GraphicsFormat GetGraphicsFormat(UnityEngine::TextureFormat format, bool isSRGB);
     // static private UnityEngine.Experimental.Rendering.GraphicsFormat GetGraphicsFormat_Native_TextureFormat(UnityEngine.TextureFormat format, System.Boolean isSRGB)
-    // Offset: 0x1312AD0
+    // Offset: 0x19EDD40
     static UnityEngine::Experimental::Rendering::GraphicsFormat GetGraphicsFormat_Native_TextureFormat(UnityEngine::TextureFormat format, bool isSRGB);
     // static public UnityEngine.Experimental.Rendering.GraphicsFormat GetGraphicsFormat(UnityEngine.RenderTextureFormat format, System.Boolean isSRGB)
-    // Offset: 0x1312B20
+    // Offset: 0x19EDD90
     static UnityEngine::Experimental::Rendering::GraphicsFormat GetGraphicsFormat(UnityEngine::RenderTextureFormat format, bool isSRGB);
     // static private UnityEngine.Experimental.Rendering.GraphicsFormat GetGraphicsFormat_Native_RenderTextureFormat(UnityEngine.RenderTextureFormat format, System.Boolean isSRGB)
-    // Offset: 0x1312B70
+    // Offset: 0x19EDDE0
     static UnityEngine::Experimental::Rendering::GraphicsFormat GetGraphicsFormat_Native_RenderTextureFormat(UnityEngine::RenderTextureFormat format, bool isSRGB);
     // static public UnityEngine.Experimental.Rendering.GraphicsFormat GetGraphicsFormat(UnityEngine.RenderTextureFormat format, UnityEngine.RenderTextureReadWrite readWrite)
-    // Offset: 0x1312BC0
+    // Offset: 0x19EDE30
     static UnityEngine::Experimental::Rendering::GraphicsFormat GetGraphicsFormat(UnityEngine::RenderTextureFormat format, UnityEngine::RenderTextureReadWrite readWrite);
     // static public System.Boolean IsSRGBFormat(UnityEngine.Experimental.Rendering.GraphicsFormat format)
-    // Offset: 0x1312C30
+    // Offset: 0x19EDEA0
     static bool IsSRGBFormat(UnityEngine::Experimental::Rendering::GraphicsFormat format);
     // static public UnityEngine.RenderTextureFormat GetRenderTextureFormat(UnityEngine.Experimental.Rendering.GraphicsFormat format)
-    // Offset: 0x1312C70
+    // Offset: 0x19EDEE0
     static UnityEngine::RenderTextureFormat GetRenderTextureFormat(UnityEngine::Experimental::Rendering::GraphicsFormat format);
     // static System.Boolean IsCompressedTextureFormat(UnityEngine.TextureFormat format)
-    // Offset: 0x1312CB0
+    // Offset: 0x19EDF20
     static bool IsCompressedTextureFormat(UnityEngine::TextureFormat format);
     // static public System.Boolean IsCrunchFormat(UnityEngine.TextureFormat format)
-    // Offset: 0x130C414
+    // Offset: 0x19E7684
     static bool IsCrunchFormat(UnityEngine::TextureFormat format);
   }; // UnityEngine.Experimental.Rendering.GraphicsFormatUtility
 }

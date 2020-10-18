@@ -38,7 +38,7 @@ namespace Zenject {
     // public T Create(System.String prefabResourceName, P1 param, P2 param2, P3 param3, P4 param4)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IFactory`6
-    // Base method: TValue IFactory`6::Create(System.String prefabResourceName, P1 param, P2 param2, P3 param3, P4 param4)
+    // Base method: TValue IFactory_6::Create(System.String prefabResourceName, P1 param, P2 param2, P3 param3, P4 param4)
     T Create(::Il2CppString* prefabResourceName, P1 param, P2 param2, P3 param3, P4 param4) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "Create", prefabResourceName, param, param2, param3, param4));
     }

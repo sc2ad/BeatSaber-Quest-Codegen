@@ -55,7 +55,7 @@ namespace UnityEngine::Playables {
     // Set static field: static private readonly UnityEngine.Playables.PlayableOutputHandle m_Null
     static void _set_m_Null(UnityEngine::Playables::PlayableOutputHandle value);
     // static public UnityEngine.Playables.PlayableOutputHandle get_Null()
-    // Offset: 0x141D004
+    // Offset: 0x1B9F940
     static UnityEngine::Playables::PlayableOutputHandle get_Null();
     // System.Boolean IsPlayableOutputOfType()
     // Offset: 0xFFFFFFFF
@@ -64,89 +64,89 @@ namespace UnityEngine::Playables {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>(*this, "IsPlayableOutputOfType", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // static System.Boolean CompareVersion(UnityEngine.Playables.PlayableOutputHandle lhs, UnityEngine.Playables.PlayableOutputHandle rhs)
-    // Offset: 0x141D0A4
+    // Offset: 0x1B9F9E0
     static bool CompareVersion(UnityEngine::Playables::PlayableOutputHandle lhs, UnityEngine::Playables::PlayableOutputHandle rhs);
     // System.Boolean IsValid()
-    // Offset: 0xA48F38
+    // Offset: 0xDC67AC
     bool IsValid();
     // System.Type GetPlayableOutputType()
-    // Offset: 0xA48F40
+    // Offset: 0xDC67B4
     System::Type* GetPlayableOutputType();
     // System.Void SetReferenceObject(UnityEngine.Object target)
-    // Offset: 0xA48F48
+    // Offset: 0xDC67BC
     void SetReferenceObject(UnityEngine::Object* target);
     // System.Void SetUserData(UnityEngine.Object target)
-    // Offset: 0xA48F50
+    // Offset: 0xDC67C4
     void SetUserData(UnityEngine::Object* target);
     // UnityEngine.Playables.PlayableHandle GetSourcePlayable()
-    // Offset: 0xA48F58
+    // Offset: 0xDC67CC
     UnityEngine::Playables::PlayableHandle GetSourcePlayable();
     // System.Void SetSourcePlayable(UnityEngine.Playables.PlayableHandle target, System.Int32 port)
-    // Offset: 0xA48F60
+    // Offset: 0xDC67D4
     void SetSourcePlayable(UnityEngine::Playables::PlayableHandle target, int port);
     // System.Int32 GetSourceOutputPort()
-    // Offset: 0xA48F68
+    // Offset: 0xDC67DC
     int GetSourceOutputPort();
     // System.Void SetWeight(System.Single weight)
-    // Offset: 0xA48F70
+    // Offset: 0xDC67E4
     void SetWeight(float weight);
     // System.Void PushNotification(UnityEngine.Playables.PlayableHandle origin, UnityEngine.Playables.INotification notification, System.Object context)
-    // Offset: 0xA48F78
+    // Offset: 0xDC67EC
     void PushNotification(UnityEngine::Playables::PlayableHandle origin, UnityEngine::Playables::INotification* notification, ::Il2CppObject* context);
     // System.Void AddNotificationReceiver(UnityEngine.Playables.INotificationReceiver receiver)
-    // Offset: 0xA48F80
+    // Offset: 0xDC67F4
     void AddNotificationReceiver(UnityEngine::Playables::INotificationReceiver* receiver);
     // static private System.Void .cctor()
-    // Offset: 0x141DAD8
+    // Offset: 0x1BA0414
     static void _cctor();
     // static private System.Boolean IsValid_Injected(ref UnityEngine.Playables.PlayableOutputHandle _unity_self)
-    // Offset: 0x141D27C
+    // Offset: 0x1B9FBB8
     static bool IsValid_Injected(UnityEngine::Playables::PlayableOutputHandle& _unity_self);
     // static private System.Type GetPlayableOutputType_Injected(ref UnityEngine.Playables.PlayableOutputHandle _unity_self)
-    // Offset: 0x141D340
+    // Offset: 0x1B9FC7C
     static System::Type* GetPlayableOutputType_Injected(UnityEngine::Playables::PlayableOutputHandle& _unity_self);
     // static private System.Void SetReferenceObject_Injected(ref UnityEngine.Playables.PlayableOutputHandle _unity_self, UnityEngine.Object target)
-    // Offset: 0x141D414
+    // Offset: 0x1B9FD50
     static void SetReferenceObject_Injected(UnityEngine::Playables::PlayableOutputHandle& _unity_self, UnityEngine::Object* target);
     // static private System.Void SetUserData_Injected(ref UnityEngine.Playables.PlayableOutputHandle _unity_self, UnityEngine.Object target)
-    // Offset: 0x141D4F8
+    // Offset: 0x1B9FE34
     static void SetUserData_Injected(UnityEngine::Playables::PlayableOutputHandle& _unity_self, UnityEngine::Object* target);
     // static private System.Void GetSourcePlayable_Injected(ref UnityEngine.Playables.PlayableOutputHandle _unity_self, out UnityEngine.Playables.PlayableHandle ret)
-    // Offset: 0x141D5E4
+    // Offset: 0x1B9FF20
     static void GetSourcePlayable_Injected(UnityEngine::Playables::PlayableOutputHandle& _unity_self, UnityEngine::Playables::PlayableHandle& ret);
     // static private System.Void SetSourcePlayable_Injected(ref UnityEngine.Playables.PlayableOutputHandle _unity_self, ref UnityEngine.Playables.PlayableHandle target, System.Int32 port)
-    // Offset: 0x141D6DC
+    // Offset: 0x1BA0018
     static void SetSourcePlayable_Injected(UnityEngine::Playables::PlayableOutputHandle& _unity_self, UnityEngine::Playables::PlayableHandle& target, int port);
     // static private System.Int32 GetSourceOutputPort_Injected(ref UnityEngine.Playables.PlayableOutputHandle _unity_self)
-    // Offset: 0x141D7B8
+    // Offset: 0x1BA00F4
     static int GetSourceOutputPort_Injected(UnityEngine::Playables::PlayableOutputHandle& _unity_self);
     // static private System.Void SetWeight_Injected(ref UnityEngine.Playables.PlayableOutputHandle _unity_self, System.Single weight)
-    // Offset: 0x141D88C
+    // Offset: 0x1BA01C8
     static void SetWeight_Injected(UnityEngine::Playables::PlayableOutputHandle& _unity_self, float weight);
     // static private System.Void PushNotification_Injected(ref UnityEngine.Playables.PlayableOutputHandle _unity_self, ref UnityEngine.Playables.PlayableHandle origin, UnityEngine.Playables.INotification notification, System.Object context)
-    // Offset: 0x141D98C
+    // Offset: 0x1BA02C8
     static void PushNotification_Injected(UnityEngine::Playables::PlayableOutputHandle& _unity_self, UnityEngine::Playables::PlayableHandle& origin, UnityEngine::Playables::INotification* notification, ::Il2CppObject* context);
     // static private System.Void AddNotificationReceiver_Injected(ref UnityEngine.Playables.PlayableOutputHandle _unity_self, UnityEngine.Playables.INotificationReceiver receiver)
-    // Offset: 0x141DA88
+    // Offset: 0x1BA03C4
     static void AddNotificationReceiver_Injected(UnityEngine::Playables::PlayableOutputHandle& _unity_self, UnityEngine::Playables::INotificationReceiver* receiver);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA48EEC
+    // Offset: 0xDC6760
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object p)
-    // Offset: 0xA48F28
+    // Offset: 0xDC679C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object p)
     bool Equals(::Il2CppObject* p);
     // public System.Boolean Equals(UnityEngine.Playables.PlayableOutputHandle other)
-    // Offset: 0xA48F30
+    // Offset: 0xDC67A4
     // Implemented from: System.IEquatable`1
-    // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Playables.PlayableOutputHandle other)
+    // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Playables.PlayableOutputHandle other)
     bool Equals(UnityEngine::Playables::PlayableOutputHandle other);
   }; // UnityEngine.Playables.PlayableOutputHandle
   // static public System.Boolean op_Equality(UnityEngine.Playables.PlayableOutputHandle lhs, UnityEngine.Playables.PlayableOutputHandle rhs)
-  // Offset: 0x141CEF8
+  // Offset: 0x1B9F834
   bool operator ==(const UnityEngine::Playables::PlayableOutputHandle& lhs, const UnityEngine::Playables::PlayableOutputHandle& rhs);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableOutputHandle, "UnityEngine.Playables", "PlayableOutputHandle");

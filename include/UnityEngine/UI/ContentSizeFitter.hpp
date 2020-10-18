@@ -78,28 +78,28 @@ namespace UnityEngine::UI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.UI.ContentSizeFitter/FitMode get_horizontalFit()
-    // Offset: 0xE098E8
+    // Offset: 0x1288458
     UnityEngine::UI::ContentSizeFitter::FitMode get_horizontalFit();
     // public System.Void set_horizontalFit(UnityEngine.UI.ContentSizeFitter/FitMode value)
-    // Offset: 0xE098F0
+    // Offset: 0x1288460
     void set_horizontalFit(UnityEngine::UI::ContentSizeFitter::FitMode value);
     // public UnityEngine.UI.ContentSizeFitter/FitMode get_verticalFit()
-    // Offset: 0xE09A04
+    // Offset: 0x1288574
     UnityEngine::UI::ContentSizeFitter::FitMode get_verticalFit();
     // public System.Void set_verticalFit(UnityEngine.UI.ContentSizeFitter/FitMode value)
-    // Offset: 0xE09A0C
+    // Offset: 0x128857C
     void set_verticalFit(UnityEngine::UI::ContentSizeFitter::FitMode value);
     // private UnityEngine.RectTransform get_rectTransform()
-    // Offset: 0xE09A88
+    // Offset: 0x12885F8
     UnityEngine::RectTransform* get_rectTransform();
     // private System.Void HandleSelfFittingAlongAxis(System.Int32 axis)
-    // Offset: 0xE09BC8
+    // Offset: 0x1288738
     void HandleSelfFittingAlongAxis(int axis);
     // protected System.Void SetDirty()
-    // Offset: 0xE0996C
+    // Offset: 0x12884DC
     void SetDirty();
     // protected System.Void .ctor()
-    // Offset: 0xE09B34
+    // Offset: 0x12886A4
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -109,27 +109,27 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static ContentSizeFitter* New_ctor();
     // protected override System.Void OnEnable()
-    // Offset: 0xE09B3C
+    // Offset: 0x12886AC
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0xE09B40
+    // Offset: 0x12886B0
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDisable()
     void OnDisable();
     // protected override System.Void OnRectTransformDimensionsChange()
-    // Offset: 0xE09BC4
+    // Offset: 0x1288734
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnRectTransformDimensionsChange()
     void OnRectTransformDimensionsChange();
     // public System.Void SetLayoutHorizontal()
-    // Offset: 0xE09C98
+    // Offset: 0x1288808
     // Implemented from: UnityEngine.UI.ILayoutController
     // Base method: System.Void ILayoutController::SetLayoutHorizontal()
     void SetLayoutHorizontal();
     // public System.Void SetLayoutVertical()
-    // Offset: 0xE09CC8
+    // Offset: 0x1288838
     // Implemented from: UnityEngine.UI.ILayoutController
     // Base method: System.Void ILayoutController::SetLayoutVertical()
     void SetLayoutVertical();

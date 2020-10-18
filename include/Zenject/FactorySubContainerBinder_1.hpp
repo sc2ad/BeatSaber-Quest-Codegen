@@ -277,7 +277,7 @@ namespace Zenject {
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, System.Object subIdentifier)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.FactorySubContainerBinderBase`1
-    // Base method: System.Void FactorySubContainerBinderBase`1::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, System.Object subIdentifier)
+    // Base method: System.Void FactorySubContainerBinderBase_1::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, System.Object subIdentifier)
     static FactorySubContainerBinder_1<TContract>* New_ctor(Zenject::DiContainer* bindContainer, Zenject::BindInfo* bindInfo, Zenject::FactoryBindInfo* factoryBindInfo, ::Il2CppObject* subIdentifier) {
       return THROW_UNLESS(il2cpp_utils::New<FactorySubContainerBinder_1<TContract>*>(bindContainer, bindInfo, factoryBindInfo, subIdentifier));
     }

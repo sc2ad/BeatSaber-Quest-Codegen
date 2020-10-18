@@ -25,7 +25,7 @@ namespace UnityEngine::UI {
     // Offset: 0xFFFFFFFF
     void ModifyVertices(System::Collections::Generic::List_1<UnityEngine::UIVertex>* vertices);
     // protected System.Void .ctor()
-    // Offset: 0xE06A1C
+    // Offset: 0x128558C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BaseVertexEffect* New_ctor();

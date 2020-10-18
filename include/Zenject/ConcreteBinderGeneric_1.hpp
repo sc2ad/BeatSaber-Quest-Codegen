@@ -125,7 +125,7 @@ namespace Zenject {
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.FromBinderGeneric`1
-    // Base method: System.Void FromBinderGeneric`1::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)
+    // Base method: System.Void FromBinderGeneric_1::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)
     // Base method: System.Void FromBinder::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)
     static ConcreteBinderGeneric_1<TContract>* New_ctor(Zenject::DiContainer* bindContainer, Zenject::BindInfo* bindInfo, Zenject::BindStatement* bindStatement) {
       return THROW_UNLESS(il2cpp_utils::New<ConcreteBinderGeneric_1<TContract>*>(bindContainer, bindInfo, bindStatement));

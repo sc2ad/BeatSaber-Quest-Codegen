@@ -23,20 +23,20 @@ namespace System::Threading {
   class WaitHandleCannotBeOpenedException : public System::ApplicationException {
     public:
     // public System.Void .ctor()
-    // Offset: 0xCEFFBC
+    // Offset: 0x16ED1D8
     // Implemented from: System.ApplicationException
     // Base method: System.Void ApplicationException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static WaitHandleCannotBeOpenedException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0xCF0030
+    // Offset: 0x16ED24C
     // Implemented from: System.ApplicationException
     // Base method: System.Void ApplicationException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static WaitHandleCannotBeOpenedException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xCF0064
+    // Offset: 0x16ED280
     // Implemented from: System.ApplicationException
     // Base method: System.Void ApplicationException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

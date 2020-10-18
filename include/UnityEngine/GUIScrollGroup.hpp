@@ -57,28 +57,28 @@ namespace UnityEngine {
     // Offset: 0xB8
     UnityEngine::GUIStyle* verticalScrollbar;
     // public System.Void .ctor()
-    // Offset: 0x1273B04
+    // Offset: 0x191170C
     // Implemented from: UnityEngine.GUILayoutGroup
     // Base method: System.Void GUILayoutGroup::.ctor()
     // Base method: System.Void Object::.ctor()
     static GUIScrollGroup* New_ctor();
     // public override System.Void CalcWidth()
-    // Offset: 0x1273B10
+    // Offset: 0x1911718
     // Implemented from: UnityEngine.GUILayoutGroup
     // Base method: System.Void GUILayoutGroup::CalcWidth()
     void CalcWidth();
     // public override System.Void SetHorizontal(System.Single x, System.Single width)
-    // Offset: 0x1273BA0
+    // Offset: 0x19117A8
     // Implemented from: UnityEngine.GUILayoutGroup
     // Base method: System.Void GUILayoutGroup::SetHorizontal(System.Single x, System.Single width)
     void SetHorizontal(float x, float width);
     // public override System.Void CalcHeight()
-    // Offset: 0x1273CD0
+    // Offset: 0x19118D8
     // Implemented from: UnityEngine.GUILayoutGroup
     // Base method: System.Void GUILayoutGroup::CalcHeight()
     void CalcHeight();
     // public override System.Void SetVertical(System.Single y, System.Single height)
-    // Offset: 0x1273DD8
+    // Offset: 0x19119E0
     // Implemented from: UnityEngine.GUILayoutGroup
     // Base method: System.Void GUILayoutGroup::SetVertical(System.Single y, System.Single height)
     void SetVertical(float y, float height);

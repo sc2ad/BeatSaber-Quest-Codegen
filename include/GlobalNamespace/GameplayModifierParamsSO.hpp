@@ -38,22 +38,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String get_modifierNameLocalizationKey()
-    // Offset: 0xB3F110
+    // Offset: 0xEC8614
     ::Il2CppString* get_modifierNameLocalizationKey();
     // public System.String get_descriptionLocalizationKey()
-    // Offset: 0xB3F118
+    // Offset: 0xEC861C
     ::Il2CppString* get_descriptionLocalizationKey();
     // public System.Single get_multiplier()
-    // Offset: 0xB3F120
+    // Offset: 0xEC8624
     float get_multiplier();
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0xB3F128
+    // Offset: 0xEC862C
     UnityEngine::Sprite* get_icon();
     // public GameplayModifierParamsSO[] get_mutuallyExclusives()
-    // Offset: 0xB3F130
+    // Offset: 0xEC8634
     ::Array<GlobalNamespace::GameplayModifierParamsSO*>* get_mutuallyExclusives();
     // public System.Void .ctor()
-    // Offset: 0xB3F138
+    // Offset: 0xEC863C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

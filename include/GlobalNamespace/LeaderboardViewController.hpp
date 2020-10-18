@@ -23,8 +23,11 @@ namespace GlobalNamespace {
     // public System.Void SetData(IDifficultyBeatmap difficultyBeatmap)
     // Offset: 0xFFFFFFFF
     void SetData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
+    // public System.Void RefreshLevelStats()
+    // Offset: 0x101D038
+    void RefreshLevelStats();
     // protected System.Void .ctor()
-    // Offset: 0xB48240
+    // Offset: 0x101D03C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.Events.UnityEvent`2
-    // Base method: System.Void UnityEvent`2::.ctor()
+    // Base method: System.Void UnityEvent_2::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()
     // Base method: System.Void Object::.ctor()
     static SteamVR_Events::Event_2<T0, T1>* New_ctor() {

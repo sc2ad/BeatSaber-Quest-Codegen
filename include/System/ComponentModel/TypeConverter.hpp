@@ -34,7 +34,7 @@ namespace System::ComponentModel {
     // Set static field: static private System.Boolean useCompatibleTypeConversion
     static void _set_useCompatibleTypeConversion(bool value);
     // public System.Void .ctor()
-    // Offset: 0xF5CBEC
+    // Offset: 0x172584C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TypeConverter* New_ctor();

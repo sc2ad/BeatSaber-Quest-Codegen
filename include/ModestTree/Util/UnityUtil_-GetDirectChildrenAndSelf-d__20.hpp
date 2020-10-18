@@ -47,43 +47,46 @@ namespace ModestTree::Util {
     // Offset: 0x38
     System::Collections::IEnumerator* $$7__wrap1;
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0xD65580
+    // Offset: 0x11F0B58
     static UnityUtil::$GetDirectChildrenAndSelf$d__20* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()
-    // Offset: 0xD65FF4
+    // Offset: 0x11F15CC
     void $$m__Finally1();
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0xD65FD8
+    // Offset: 0x11F15B0
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0xD660C0
+    // Offset: 0x11F1698
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
+    // Creating proxy method: System_Collections_IEnumerator_MoveNext
+    // Maps to method: MoveNext
+    bool System_Collections_IEnumerator_MoveNext();
     // private UnityEngine.GameObject System.Collections.Generic.IEnumerator<UnityEngine.GameObject>.get_Current()
-    // Offset: 0xD6636C
+    // Offset: 0x11F1944
     // Implemented from: System.Collections.Generic.IEnumerator`1
-    // Base method: T IEnumerator`1::get_Current()
+    // Base method: T IEnumerator_1::get_Current()
     UnityEngine::GameObject* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0xD66374
+    // Offset: 0x11F194C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0xD663D4
+    // Offset: 0x11F19AC
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // private System.Collections.Generic.IEnumerator`1<UnityEngine.GameObject> System.Collections.Generic.IEnumerable<UnityEngine.GameObject>.GetEnumerator()
-    // Offset: 0xD663DC
+    // Offset: 0x11F19B4
     // Implemented from: System.Collections.Generic.IEnumerable`1
-    // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable`1::GetEnumerator()
+    // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable_1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<UnityEngine::GameObject*>* System_Collections_Generic_IEnumerable_1_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0xD66490
+    // Offset: 0x11F1A68
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();

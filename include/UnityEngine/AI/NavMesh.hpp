@@ -32,22 +32,22 @@ namespace UnityEngine::AI {
     // Set static field: static public UnityEngine.AI.NavMesh/OnNavMeshPreUpdate onPreUpdate
     static void _set_onPreUpdate(UnityEngine::AI::NavMesh::OnNavMeshPreUpdate* value);
     // static private System.Void Internal_CallOnNavMeshPreUpdate()
-    // Offset: 0x19801EC
+    // Offset: 0x222B38C
     static void Internal_CallOnNavMeshPreUpdate();
     // static public System.Boolean CalculatePath(UnityEngine.Vector3 sourcePosition, UnityEngine.Vector3 targetPosition, System.Int32 areaMask, UnityEngine.AI.NavMeshPath path)
-    // Offset: 0x1980458
+    // Offset: 0x222B5F8
     static bool CalculatePath(UnityEngine::Vector3 sourcePosition, UnityEngine::Vector3 targetPosition, int areaMask, UnityEngine::AI::NavMeshPath* path);
     // static private System.Boolean CalculatePathInternal(UnityEngine.Vector3 sourcePosition, UnityEngine.Vector3 targetPosition, System.Int32 areaMask, UnityEngine.AI.NavMeshPath path)
-    // Offset: 0x1980528
+    // Offset: 0x222B6C8
     static bool CalculatePathInternal(UnityEngine::Vector3 sourcePosition, UnityEngine::Vector3 targetPosition, int areaMask, UnityEngine::AI::NavMeshPath* path);
     // static public System.Boolean SamplePosition(UnityEngine.Vector3 sourcePosition, out UnityEngine.AI.NavMeshHit hit, System.Single maxDistance, System.Int32 areaMask)
-    // Offset: 0x1980608
+    // Offset: 0x222B7A8
     static bool SamplePosition(UnityEngine::Vector3 sourcePosition, UnityEngine::AI::NavMeshHit& hit, float maxDistance, int areaMask);
     // static private System.Boolean CalculatePathInternal_Injected(ref UnityEngine.Vector3 sourcePosition, ref UnityEngine.Vector3 targetPosition, System.Int32 areaMask, UnityEngine.AI.NavMeshPath path)
-    // Offset: 0x19805A0
+    // Offset: 0x222B740
     static bool CalculatePathInternal_Injected(UnityEngine::Vector3& sourcePosition, UnityEngine::Vector3& targetPosition, int areaMask, UnityEngine::AI::NavMeshPath* path);
     // static private System.Boolean SamplePosition_Injected(ref UnityEngine.Vector3 sourcePosition, out UnityEngine.AI.NavMeshHit hit, System.Single maxDistance, System.Int32 areaMask)
-    // Offset: 0x1980684
+    // Offset: 0x222B824
     static bool SamplePosition_Injected(UnityEngine::Vector3& sourcePosition, UnityEngine::AI::NavMeshHit& hit, float maxDistance, int areaMask);
   }; // UnityEngine.AI.NavMesh
 }

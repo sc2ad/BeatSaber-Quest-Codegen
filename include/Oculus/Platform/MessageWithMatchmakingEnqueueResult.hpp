@@ -25,16 +25,16 @@ namespace Oculus::Platform {
   class MessageWithMatchmakingEnqueueResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::MatchmakingEnqueueResult*> {
     public:
     // protected Oculus.Platform.Models.MatchmakingEnqueueResult GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xEA5630
+    // Offset: 0x1365D2C
     Oculus::Platform::Models::MatchmakingEnqueueResult* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE9F590
+    // Offset: 0x135FC8C
     // Implemented from: Oculus.Platform.Message`1
-    // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
+    // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithMatchmakingEnqueueResult* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.MatchmakingEnqueueResult GetMatchmakingEnqueueResult()
-    // Offset: 0xEA55EC
+    // Offset: 0x1365CE8
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.MatchmakingEnqueueResult Message::GetMatchmakingEnqueueResult()
     Oculus::Platform::Models::MatchmakingEnqueueResult* GetMatchmakingEnqueueResult();

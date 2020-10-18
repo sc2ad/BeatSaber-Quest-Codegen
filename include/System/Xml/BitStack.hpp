@@ -21,22 +21,22 @@ namespace System::Xml {
     // Offset: 0x1C
     uint curr;
     // public System.Void PushBit(System.Boolean bit)
-    // Offset: 0x1198E98
+    // Offset: 0x1784F30
     void PushBit(bool bit);
     // public System.Boolean PopBit()
-    // Offset: 0x1198FF4
+    // Offset: 0x178508C
     bool PopBit();
     // public System.Boolean PeekBit()
-    // Offset: 0x1199078
+    // Offset: 0x1785110
     bool PeekBit();
     // private System.Void PushCurr()
-    // Offset: 0x1198ED4
+    // Offset: 0x1784F6C
     void PushCurr();
     // private System.Void PopCurr()
-    // Offset: 0x1199028
+    // Offset: 0x17850C0
     void PopCurr();
     // public System.Void .ctor()
-    // Offset: 0x1198E6C
+    // Offset: 0x1784F04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BitStack* New_ctor();

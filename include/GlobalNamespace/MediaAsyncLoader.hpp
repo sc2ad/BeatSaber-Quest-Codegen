@@ -27,6 +27,8 @@ namespace UnityEngine {
   class AudioClip;
   // Forward declaring type: Texture2D
   class Texture2D;
+  // Forward declaring type: Sprite
+  class Sprite;
 }
 // Completed forward declares
 // Type namespace: 
@@ -38,22 +40,27 @@ namespace GlobalNamespace {
     struct $LoadWebpage$d__0;
     // Nested type: GlobalNamespace::MediaAsyncLoader::$LoadAudioClipAsync$d__1
     struct $LoadAudioClipAsync$d__1;
-    // Nested type: GlobalNamespace::MediaAsyncLoader::$LoadImageAsync$d__2
-    struct $LoadImageAsync$d__2;
+    // Nested type: GlobalNamespace::MediaAsyncLoader::$LoadTextureAsync$d__2
+    struct $LoadTextureAsync$d__2;
+    // Nested type: GlobalNamespace::MediaAsyncLoader::$LoadSpriteAsync$d__3
+    struct $LoadSpriteAsync$d__3;
     // static public System.Threading.Tasks.Task`1<System.String> LoadWebpage(System.String uri, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1954384
+    // Offset: 0x21F8D10
     static System::Threading::Tasks::Task_1<::Il2CppString*>* LoadWebpage(::Il2CppString* uri, System::Threading::CancellationToken cancellationToken);
     // static public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> LoadAudioClipAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x19544BC
+    // Offset: 0x21F8E48
     static System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* LoadAudioClipAsync(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
-    // static public System.Threading.Tasks.Task`1<UnityEngine.Texture2D> LoadImageAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x19545F4
-    static System::Threading::Tasks::Task_1<UnityEngine::Texture2D*>* LoadImageAsync(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
+    // static public System.Threading.Tasks.Task`1<UnityEngine.Texture2D> LoadTextureAsync(System.String path, System.Threading.CancellationToken cancellationToken)
+    // Offset: 0x21F8F80
+    static System::Threading::Tasks::Task_1<UnityEngine::Texture2D*>* LoadTextureAsync(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
+    // static public System.Threading.Tasks.Task`1<UnityEngine.Sprite> LoadSpriteAsync(System.String path, System.Threading.CancellationToken cancellationToken)
+    // Offset: 0x21F90B8
+    static System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* LoadSpriteAsync(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
     // static public System.Void Log(System.String message)
-    // Offset: 0x195472C
+    // Offset: 0x21F91F0
     static void Log(::Il2CppString* message);
     // public System.Void .ctor()
-    // Offset: 0x1954794
+    // Offset: 0x21F9258
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MediaAsyncLoader* New_ctor();

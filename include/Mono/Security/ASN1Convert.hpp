@@ -12,6 +12,11 @@ namespace Mono::Security {
   // Forward declaring type: ASN1
   class ASN1;
 }
+// Forward declaring namespace: System
+namespace System {
+  // Forward declaring type: DateTime
+  struct DateTime;
+}
 // Completed forward declares
 // Type namespace: Mono.Security
 namespace Mono::Security {
@@ -19,14 +24,23 @@ namespace Mono::Security {
   class ASN1Convert : public ::Il2CppObject {
     public:
     // static public Mono.Security.ASN1 FromInt32(System.Int32 value)
-    // Offset: 0x197BFE0
+    // Offset: 0x1B7EBF8
     static Mono::Security::ASN1* FromInt32(int value);
+    // static public Mono.Security.ASN1 FromOid(System.String oid)
+    // Offset: 0x1B7ED9C
+    static Mono::Security::ASN1* FromOid(::Il2CppString* oid);
+    // static public Mono.Security.ASN1 FromUnsignedBigInteger(System.Byte[] big)
+    // Offset: 0x1B7EE50
+    static Mono::Security::ASN1* FromUnsignedBigInteger(::Array<uint8_t>* big);
     // static public System.Int32 ToInt32(Mono.Security.ASN1 asn1)
-    // Offset: 0x197C184
+    // Offset: 0x1B7EF64
     static int ToInt32(Mono::Security::ASN1* asn1);
     // static public System.String ToOid(Mono.Security.ASN1 asn1)
-    // Offset: 0x197C2B0
+    // Offset: 0x1B7F090
     static ::Il2CppString* ToOid(Mono::Security::ASN1* asn1);
+    // static public System.DateTime ToDateTime(Mono.Security.ASN1 time)
+    // Offset: 0x1B7F318
+    static System::DateTime ToDateTime(Mono::Security::ASN1* time);
   }; // Mono.Security.ASN1Convert
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

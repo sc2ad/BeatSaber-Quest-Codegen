@@ -42,61 +42,70 @@ namespace HMUI {
     // private HMUI.ModalView _modalView
     // Offset: 0x28
     HMUI::ModalView* modalView;
-    // private System.Action`2<HMUI.DropdownWithTableView,System.Int32> didSelectCellWithIdxEvent
+    // private System.Int32 _numberOfVisibleCells
     // Offset: 0x30
-    System::Action_2<HMUI::DropdownWithTableView*, int>* didSelectCellWithIdxEvent;
-    // private System.Int32 _selectedCellIdx
+    int numberOfVisibleCells;
+    // private System.Action`2<HMUI.DropdownWithTableView,System.Int32> didSelectCellWithIdxEvent
     // Offset: 0x38
-    int selectedCellIdx;
-    // private System.Boolean _shouldScrollToSelectedCell
-    // Offset: 0x3C
-    bool shouldScrollToSelectedCell;
+    System::Action_2<HMUI::DropdownWithTableView*, int>* didSelectCellWithIdxEvent;
+    // private System.Int32 <selectedIndex>k__BackingField
+    // Offset: 0x40
+    int selectedIndex;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`2<HMUI.DropdownWithTableView,System.Int32> value)
-    // Offset: 0xEDA000
+    // Offset: 0x11B4548
     void add_didSelectCellWithIdxEvent(System::Action_2<HMUI::DropdownWithTableView*, int>* value);
     // public System.Void remove_didSelectCellWithIdxEvent(System.Action`2<HMUI.DropdownWithTableView,System.Int32> value)
-    // Offset: 0xEDA0A4
+    // Offset: 0x11B45EC
     void remove_didSelectCellWithIdxEvent(System::Action_2<HMUI::DropdownWithTableView*, int>* value);
     // public HMUI.TableView/IDataSource get_tableViewDataSource()
-    // Offset: 0xEDA148
+    // Offset: 0x11B4690
     HMUI::TableView::IDataSource* get_tableViewDataSource();
+    // public System.Int32 get_selectedIndex()
+    // Offset: 0x11B46AC
+    int get_selectedIndex();
+    // private System.Void set_selectedIndex(System.Int32 value)
+    // Offset: 0x11B46B4
+    void set_selectedIndex(int value);
     // public System.Void Init(HMUI.TableView/IDataSource tableViewDataSource)
-    // Offset: 0xEDA164
+    // Offset: 0x11B46BC
     void Init(HMUI::TableView::IDataSource* tableViewDataSource);
     // public System.Void ReloadData()
-    // Offset: 0xEDA19C
+    // Offset: 0x11B46DC
     void ReloadData();
     // public System.Void SelectCellWithIdx(System.Int32 idx)
-    // Offset: 0xEDA1D8
+    // Offset: 0x11B48D8
     void SelectCellWithIdx(int idx);
     // protected System.Void Awake()
-    // Offset: 0xEDA200
+    // Offset: 0x11B4900
     void Awake();
     // protected System.Void OnDisable()
-    // Offset: 0xEDA3E4
+    // Offset: 0x11B4A44
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0xEDA430
+    // Offset: 0x11B4A94
     void OnDestroy();
+    // private System.Void RefreshSize(HMUI.TableView/IDataSource dataSource)
+    // Offset: 0x11B4720
+    void RefreshSize(HMUI::TableView::IDataSource* dataSource);
     // private System.Void OnButtonClick()
-    // Offset: 0xEDA69C
+    // Offset: 0x11B4C60
     void OnButtonClick();
     // private System.Void HandleTableViewDidSelectCellWithIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0xEDA728
+    // Offset: 0x11B4CEC
     void HandleTableViewDidSelectCellWithIdx(HMUI::TableView* tableView, int idx);
     // private System.Void Hide(System.Boolean animated)
-    // Offset: 0xEDA3EC
+    // Offset: 0x11B4A4C
     void Hide(bool animated);
     // private System.Void Show(System.Boolean animated)
-    // Offset: 0xEDA6A4
+    // Offset: 0x11B4C68
     void Show(bool animated);
     // private System.Void HandleModalViewBlockerClicked()
-    // Offset: 0xEDAC48
+    // Offset: 0x11B4D64
     void HandleModalViewBlockerClicked();
     // public System.Void .ctor()
-    // Offset: 0xEDAC50
+    // Offset: 0x11B4D6C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

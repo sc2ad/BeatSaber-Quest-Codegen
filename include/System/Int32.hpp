@@ -65,28 +65,28 @@ namespace System {
     // Set static field: static public System.Int32 MinValue
     static void _set_MinValue(int value);
     // public System.String ToString(System.String format)
-    // Offset: 0xA3F594
+    // Offset: 0xDB7F80
     ::Il2CppString* ToString(::Il2CppString* format);
     // static public System.Int32 Parse(System.String s)
-    // Offset: 0x1014664
+    // Offset: 0x159A3C0
     static int Parse(::Il2CppString* s);
     // static public System.Int32 Parse(System.String s, System.Globalization.NumberStyles style)
-    // Offset: 0x1014694
+    // Offset: 0x159A3F4
     static int Parse(::Il2CppString* s, System::Globalization::NumberStyles style);
     // static public System.Int32 Parse(System.String s, System.IFormatProvider provider)
-    // Offset: 0x10146D4
+    // Offset: 0x159A438
     static int Parse(::Il2CppString* s, System::IFormatProvider* provider);
     // static public System.Int32 Parse(System.String s, System.Globalization.NumberStyles style, System.IFormatProvider provider)
-    // Offset: 0x1014708
+    // Offset: 0x159A470
     static int Parse(::Il2CppString* s, System::Globalization::NumberStyles style, System::IFormatProvider* provider);
     // static public System.Boolean TryParse(System.String s, out System.Int32 result)
-    // Offset: 0x1014758
+    // Offset: 0x159A4C4
     static bool TryParse(::Il2CppString* s, int& result);
     // static public System.Boolean TryParse(System.String s, System.Globalization.NumberStyles style, System.IFormatProvider provider, out System.Int32 result)
-    // Offset: 0x10148C8
+    // Offset: 0x159A500
     static bool TryParse(::Il2CppString* s, System::Globalization::NumberStyles style, System::IFormatProvider* provider, int& result);
     // public System.Int32 CompareTo(System.Object value)
-    // Offset: 0xA3F528
+    // Offset: 0xDB7F10
     // Implemented from: System.IComparable
     // Base method: System.Int32 IComparable::CompareTo(System.Object value)
     int CompareTo(::Il2CppObject* value);
@@ -94,117 +94,117 @@ namespace System {
     // Maps to method: CompareTo
     int System_IComparable_CompareTo(::Il2CppObject* value);
     // public System.Int32 CompareTo(System.Int32 value)
-    // Offset: 0xA3F530
+    // Offset: 0xDB7F18
     // Implemented from: System.IComparable`1
-    // Base method: System.Int32 IComparable`1::CompareTo(System.Int32 value)
+    // Base method: System.Int32 IComparable_1::CompareTo(System.Int32 value)
     int CompareTo(int value);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA3F544
+    // Offset: 0xDB7F2C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(System.Int32 obj)
-    // Offset: 0xA3F54C
+    // Offset: 0xDB7F34
     // Implemented from: System.IEquatable`1
-    // Base method: System.Boolean IEquatable`1::Equals(System.Int32 obj)
+    // Base method: System.Boolean IEquatable_1::Equals(System.Int32 obj)
     bool Equals(int obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA3F55C
+    // Offset: 0xDB7F44
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0xA3F564
+    // Offset: 0xDB7F4C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public System.String ToString(System.IFormatProvider provider)
-    // Offset: 0xA3F5C8
+    // Offset: 0xDB7FB8
     // Implemented from: System.IConvertible
     // Base method: System.String IConvertible::ToString(System.IFormatProvider provider)
     ::Il2CppString* ToString(System::IFormatProvider* provider);
     // public System.String ToString(System.String format, System.IFormatProvider provider)
-    // Offset: 0xA3F5FC
+    // Offset: 0xDB7FF0
     // Implemented from: System.IFormattable
     // Base method: System.String IFormattable::ToString(System.String format, System.IFormatProvider provider)
     ::Il2CppString* ToString(::Il2CppString* format, System::IFormatProvider* provider);
     // public System.TypeCode GetTypeCode()
-    // Offset: 0xA3F634
+    // Offset: 0xDB802C
     // Implemented from: System.IConvertible
     // Base method: System.TypeCode IConvertible::GetTypeCode()
     System::TypeCode GetTypeCode();
     // private System.Boolean System.IConvertible.ToBoolean(System.IFormatProvider provider)
-    // Offset: 0xA3F63C
+    // Offset: 0xDB8034
     // Implemented from: System.IConvertible
     // Base method: System.Boolean IConvertible::ToBoolean(System.IFormatProvider provider)
     bool System_IConvertible_ToBoolean(System::IFormatProvider* provider);
     // private System.Char System.IConvertible.ToChar(System.IFormatProvider provider)
-    // Offset: 0xA3F644
+    // Offset: 0xDB803C
     // Implemented from: System.IConvertible
     // Base method: System.Char IConvertible::ToChar(System.IFormatProvider provider)
     ::Il2CppChar System_IConvertible_ToChar(System::IFormatProvider* provider);
     // private System.SByte System.IConvertible.ToSByte(System.IFormatProvider provider)
-    // Offset: 0xA3F64C
+    // Offset: 0xDB8044
     // Implemented from: System.IConvertible
     // Base method: System.SByte IConvertible::ToSByte(System.IFormatProvider provider)
     int8_t System_IConvertible_ToSByte(System::IFormatProvider* provider);
     // private System.Byte System.IConvertible.ToByte(System.IFormatProvider provider)
-    // Offset: 0xA3F654
+    // Offset: 0xDB804C
     // Implemented from: System.IConvertible
     // Base method: System.Byte IConvertible::ToByte(System.IFormatProvider provider)
     uint8_t System_IConvertible_ToByte(System::IFormatProvider* provider);
     // private System.Int16 System.IConvertible.ToInt16(System.IFormatProvider provider)
-    // Offset: 0xA3F65C
+    // Offset: 0xDB8054
     // Implemented from: System.IConvertible
     // Base method: System.Int16 IConvertible::ToInt16(System.IFormatProvider provider)
     int16_t System_IConvertible_ToInt16(System::IFormatProvider* provider);
     // private System.UInt16 System.IConvertible.ToUInt16(System.IFormatProvider provider)
-    // Offset: 0xA3F664
+    // Offset: 0xDB805C
     // Implemented from: System.IConvertible
     // Base method: System.UInt16 IConvertible::ToUInt16(System.IFormatProvider provider)
     uint16_t System_IConvertible_ToUInt16(System::IFormatProvider* provider);
     // private System.Int32 System.IConvertible.ToInt32(System.IFormatProvider provider)
-    // Offset: 0xA3F66C
+    // Offset: 0xDB8064
     // Implemented from: System.IConvertible
     // Base method: System.Int32 IConvertible::ToInt32(System.IFormatProvider provider)
     int System_IConvertible_ToInt32(System::IFormatProvider* provider);
     // private System.UInt32 System.IConvertible.ToUInt32(System.IFormatProvider provider)
-    // Offset: 0xA3F674
+    // Offset: 0xDB806C
     // Implemented from: System.IConvertible
     // Base method: System.UInt32 IConvertible::ToUInt32(System.IFormatProvider provider)
     uint System_IConvertible_ToUInt32(System::IFormatProvider* provider);
     // private System.Int64 System.IConvertible.ToInt64(System.IFormatProvider provider)
-    // Offset: 0xA3F67C
+    // Offset: 0xDB8074
     // Implemented from: System.IConvertible
     // Base method: System.Int64 IConvertible::ToInt64(System.IFormatProvider provider)
     int64_t System_IConvertible_ToInt64(System::IFormatProvider* provider);
     // private System.UInt64 System.IConvertible.ToUInt64(System.IFormatProvider provider)
-    // Offset: 0xA3F684
+    // Offset: 0xDB807C
     // Implemented from: System.IConvertible
     // Base method: System.UInt64 IConvertible::ToUInt64(System.IFormatProvider provider)
     uint64_t System_IConvertible_ToUInt64(System::IFormatProvider* provider);
     // private System.Single System.IConvertible.ToSingle(System.IFormatProvider provider)
-    // Offset: 0xA3F68C
+    // Offset: 0xDB8084
     // Implemented from: System.IConvertible
     // Base method: System.Single IConvertible::ToSingle(System.IFormatProvider provider)
     float System_IConvertible_ToSingle(System::IFormatProvider* provider);
     // private System.Double System.IConvertible.ToDouble(System.IFormatProvider provider)
-    // Offset: 0xA3F694
+    // Offset: 0xDB808C
     // Implemented from: System.IConvertible
     // Base method: System.Double IConvertible::ToDouble(System.IFormatProvider provider)
     double System_IConvertible_ToDouble(System::IFormatProvider* provider);
     // private System.Decimal System.IConvertible.ToDecimal(System.IFormatProvider provider)
-    // Offset: 0xA3F69C
+    // Offset: 0xDB8094
     // Implemented from: System.IConvertible
     // Base method: System.Decimal IConvertible::ToDecimal(System.IFormatProvider provider)
     System::Decimal System_IConvertible_ToDecimal(System::IFormatProvider* provider);
     // private System.DateTime System.IConvertible.ToDateTime(System.IFormatProvider provider)
-    // Offset: 0xA3F6A4
+    // Offset: 0xDB809C
     // Implemented from: System.IConvertible
     // Base method: System.DateTime IConvertible::ToDateTime(System.IFormatProvider provider)
     System::DateTime System_IConvertible_ToDateTime(System::IFormatProvider* provider);
     // private System.Object System.IConvertible.ToType(System.Type type, System.IFormatProvider provider)
-    // Offset: 0xA3F6B0
+    // Offset: 0xDB80A8
     // Implemented from: System.IConvertible
     // Base method: System.Object IConvertible::ToType(System.Type type, System.IFormatProvider provider)
     ::Il2CppObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);

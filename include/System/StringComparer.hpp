@@ -36,22 +36,22 @@ namespace System {
     // Set static field: static private readonly System.StringComparer _ordinalIgnoreCase
     static void _set__ordinalIgnoreCase(System::StringComparer* value);
     // static public System.StringComparer get_InvariantCultureIgnoreCase()
-    // Offset: 0x12E7E50
+    // Offset: 0x187C130
     static System::StringComparer* get_InvariantCultureIgnoreCase();
     // static public System.StringComparer get_CurrentCultureIgnoreCase()
-    // Offset: 0x12E7EB8
+    // Offset: 0x187C198
     static System::StringComparer* get_CurrentCultureIgnoreCase();
     // static public System.StringComparer get_Ordinal()
-    // Offset: 0x12E7F4C
+    // Offset: 0x187C22C
     static System::StringComparer* get_Ordinal();
     // static public System.StringComparer get_OrdinalIgnoreCase()
-    // Offset: 0x12E7FB4
+    // Offset: 0x187C294
     static System::StringComparer* get_OrdinalIgnoreCase();
     // static private System.Void .cctor()
-    // Offset: 0x12E8358
+    // Offset: 0x187C638
     static void _cctor();
     // public System.Int32 Compare(System.Object x, System.Object y)
-    // Offset: 0x12E801C
+    // Offset: 0x187C2FC
     // Implemented from: System.Collections.IComparer
     // Base method: System.Int32 IComparer::Compare(System.Object x, System.Object y)
     int Compare(::Il2CppObject* x, ::Il2CppObject* y);
@@ -59,7 +59,7 @@ namespace System {
     // Maps to method: Compare
     int System_Collections_IComparer_Compare(::Il2CppObject* x, ::Il2CppObject* y);
     // public System.Boolean Equals(System.Object x, System.Object y)
-    // Offset: 0x12E81B4
+    // Offset: 0x187C494
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object x, System.Object y)
     // Base method: System.Boolean IEqualityComparer::Equals(System.Object x, System.Object y)
@@ -68,7 +68,7 @@ namespace System {
     // Maps to method: Equals
     bool System_Collections_IEqualityComparer_Equals(::Il2CppObject* x, ::Il2CppObject* y);
     // public System.Int32 GetHashCode(System.Object obj)
-    // Offset: 0x12E8284
+    // Offset: 0x187C564
     // Implemented from: System.Collections.IEqualityComparer
     // Base method: System.Int32 IEqualityComparer::GetHashCode(System.Object obj)
     int GetHashCode(::Il2CppObject* obj);
@@ -78,20 +78,20 @@ namespace System {
     // public System.Int32 Compare(System.String x, System.String y)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IComparer`1
-    // Base method: System.Int32 IComparer`1::Compare(System.String x, System.String y)
+    // Base method: System.Int32 IComparer_1::Compare(System.String x, System.String y)
     int Compare(::Il2CppString* x, ::Il2CppString* y);
     // public System.Boolean Equals(System.String x, System.String y)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IEqualityComparer`1
-    // Base method: System.Boolean IEqualityComparer`1::Equals(System.String x, System.String y)
+    // Base method: System.Boolean IEqualityComparer_1::Equals(System.String x, System.String y)
     bool Equals(::Il2CppString* x, ::Il2CppString* y);
     // public System.Int32 GetHashCode(System.String obj)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IEqualityComparer`1
-    // Base method: System.Int32 IEqualityComparer`1::GetHashCode(System.String obj)
+    // Base method: System.Int32 IEqualityComparer_1::GetHashCode(System.String obj)
     int GetHashCode(::Il2CppString* obj);
     // protected System.Void .ctor()
-    // Offset: 0x12E8350
+    // Offset: 0x187C630
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static StringComparer* New_ctor();

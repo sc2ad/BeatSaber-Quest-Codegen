@@ -151,7 +151,7 @@ namespace Zenject {
     // public System.Void Despawn(TValue element)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IDespawnableMemoryPool`1
-    // Base method: System.Void IDespawnableMemoryPool`1::Despawn(TValue element)
+    // Base method: System.Void IDespawnableMemoryPool_1::Despawn(TValue element)
     void Despawn(TValue element) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Despawn", element));
     }

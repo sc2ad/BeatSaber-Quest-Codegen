@@ -59,76 +59,76 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::LevelPackDetailViewController::$OpenLevelPackProductStoreAsync$d__18
     struct $OpenLevelPackProductStoreAsync$d__18;
     // private UnityEngine.GameObject _detailWrapper
-    // Offset: 0x68
+    // Offset: 0x70
     UnityEngine::GameObject* detailWrapper;
     // private HMUI.ImageView _packImage
-    // Offset: 0x70
+    // Offset: 0x78
     HMUI::ImageView* packImage;
     // private UnityEngine.UI.Button _buyButton
-    // Offset: 0x78
+    // Offset: 0x80
     UnityEngine::UI::Button* buyButton;
     // private UnityEngine.GameObject _buyContainer
-    // Offset: 0x80
+    // Offset: 0x88
     UnityEngine::GameObject* buyContainer;
     // private LoadingControl _loadingControl
-    // Offset: 0x88
+    // Offset: 0x90
     GlobalNamespace::LoadingControl* loadingControl;
     // private UnityEngine.GameObject _requireInternetContainer
-    // Offset: 0x90
+    // Offset: 0x98
     UnityEngine::GameObject* requireInternetContainer;
     // private KawaseBlurRendererSO _kawaseBlurRenderer
-    // Offset: 0x98
+    // Offset: 0xA0
     GlobalNamespace::KawaseBlurRendererSO* kawaseBlurRenderer;
     // private AdditionalContentModel _additionalContentModel
-    // Offset: 0xA0
+    // Offset: 0xA8
     GlobalNamespace::AdditionalContentModel* additionalContentModel;
     // private EventBinder _eventBinder
-    // Offset: 0xA8
+    // Offset: 0xB0
     GlobalNamespace::EventBinder* eventBinder;
     // private System.Threading.CancellationTokenSource _cancellationTokenSource
-    // Offset: 0xB0
+    // Offset: 0xB8
     System::Threading::CancellationTokenSource* cancellationTokenSource;
     // private IBeatmapLevelPack _pack
-    // Offset: 0xB8
+    // Offset: 0xC0
     GlobalNamespace::IBeatmapLevelPack* pack;
     // private UnityEngine.Sprite _blurredPackArtwork
-    // Offset: 0xC0
+    // Offset: 0xC8
     UnityEngine::Sprite* blurredPackArtwork;
     // public System.Void SetData(IBeatmapLevelPack pack)
-    // Offset: 0xBF4AE8
+    // Offset: 0x101FF0C
     void SetData(GlobalNamespace::IBeatmapLevelPack* pack);
     // private System.Void RefreshAvailabilityAsync()
-    // Offset: 0xBF4DC0
+    // Offset: 0x1028090
     void RefreshAvailabilityAsync();
     // private System.Void OpenLevelPackProductStoreAsync()
-    // Offset: 0xBF5224
+    // Offset: 0x10284F4
     void OpenLevelPackProductStoreAsync();
     // private System.Void ShowContent(LevelPackDetailViewController/ContentType contentType, System.String errorText)
-    // Offset: 0xBF5300
+    // Offset: 0x10285D0
     void ShowContent(GlobalNamespace::LevelPackDetailViewController::ContentType contentType, ::Il2CppString* errorText);
     // private System.Void HandleAdditionalContentModelDidInvalidateData()
-    // Offset: 0xBF5664
+    // Offset: 0x1028800
     void HandleAdditionalContentModelDidInvalidateData();
     // private System.Void <DidActivate>b__14_0()
-    // Offset: 0xBF56DC
+    // Offset: 0x1028878
     void $DidActivate$b__14_0();
-    // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xBF4E9C
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0x102816C
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
-    // protected override System.Void DidDeactivate(HMUI.ViewController/DeactivationType deactivationType)
-    // Offset: 0xBF505C
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    // Offset: 0x102832C
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidDeactivate(HMUI.ViewController/DeactivationType deactivationType)
-    void DidDeactivate(HMUI::ViewController::DeactivationType deactivationType);
+    // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0xBF5108
+    // Offset: 0x10283D8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0xBF5668
+    // Offset: 0x1028804
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

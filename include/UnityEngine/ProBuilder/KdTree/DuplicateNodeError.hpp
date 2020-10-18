@@ -14,7 +14,7 @@ namespace UnityEngine::ProBuilder::KdTree {
   class DuplicateNodeError : public System::Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0x19837C0
+    // Offset: 0x222DB70
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()

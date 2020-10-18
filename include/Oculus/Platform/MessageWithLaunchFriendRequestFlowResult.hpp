@@ -25,16 +25,16 @@ namespace Oculus::Platform {
   class MessageWithLaunchFriendRequestFlowResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::LaunchFriendRequestFlowResult*> {
     public:
     // protected Oculus.Platform.Models.LaunchFriendRequestFlowResult GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xEA3EDC
+    // Offset: 0x13645D8
     Oculus::Platform::Models::LaunchFriendRequestFlowResult* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE9F350
+    // Offset: 0x135FA4C
     // Implemented from: Oculus.Platform.Message`1
-    // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
+    // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithLaunchFriendRequestFlowResult* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.LaunchFriendRequestFlowResult GetLaunchFriendRequestFlowResult()
-    // Offset: 0xEA3E98
+    // Offset: 0x1364594
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.LaunchFriendRequestFlowResult Message::GetLaunchFriendRequestFlowResult()
     Oculus::Platform::Models::LaunchFriendRequestFlowResult* GetLaunchFriendRequestFlowResult();

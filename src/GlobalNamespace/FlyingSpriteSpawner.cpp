@@ -8,6 +8,12 @@
 #include "UnityEngine/Sprite.hpp"
 // Including type: UnityEngine.Material
 #include "UnityEngine/Material.hpp"
+// Including type: UnityEngine.Vector3
+#include "UnityEngine/Vector3.hpp"
+// Including type: UnityEngine.Quaternion
+#include "UnityEngine/Quaternion.hpp"
+// Including type: FlyingObjectEffect
+#include "GlobalNamespace/FlyingObjectEffect.hpp"
 // Including type: FlyingSpriteEffect/Pool
 #include "GlobalNamespace/FlyingSpriteEffect_Pool.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

@@ -36,8 +36,8 @@ namespace Zenject {
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPool`1
-    // Base method: System.Void MemoryPool`1::.ctor()
-    // Base method: System.Void MemoryPoolBase`1::.ctor()
+    // Base method: System.Void MemoryPool_1::.ctor()
+    // Base method: System.Void MemoryPoolBase_1::.ctor()
     // Base method: System.Void Object::.ctor()
     static MonoMemoryPool_1<TValue>* New_ctor() {
       return THROW_UNLESS(il2cpp_utils::New<MonoMemoryPool_1<TValue>*>());
@@ -45,28 +45,28 @@ namespace Zenject {
     // protected override System.Void OnCreated(TValue item)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPoolBase`1
-    // Base method: System.Void MemoryPoolBase`1::OnCreated(TValue item)
+    // Base method: System.Void MemoryPoolBase_1::OnCreated(TValue item)
     void OnCreated(TValue item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnCreated", item));
     }
     // protected override System.Void OnDestroyed(TValue item)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPoolBase`1
-    // Base method: System.Void MemoryPoolBase`1::OnDestroyed(TValue item)
+    // Base method: System.Void MemoryPoolBase_1::OnDestroyed(TValue item)
     void OnDestroyed(TValue item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnDestroyed", item));
     }
     // protected override System.Void OnSpawned(TValue item)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPoolBase`1
-    // Base method: System.Void MemoryPoolBase`1::OnSpawned(TValue item)
+    // Base method: System.Void MemoryPoolBase_1::OnSpawned(TValue item)
     void OnSpawned(TValue item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnSpawned", item));
     }
     // protected override System.Void OnDespawned(TValue item)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPoolBase`1
-    // Base method: System.Void MemoryPoolBase`1::OnDespawned(TValue item)
+    // Base method: System.Void MemoryPoolBase_1::OnDespawned(TValue item)
     void OnDespawned(TValue item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnDespawned", item));
     }

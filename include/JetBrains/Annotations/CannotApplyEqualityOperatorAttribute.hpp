@@ -14,7 +14,7 @@ namespace JetBrains::Annotations {
   class CannotApplyEqualityOperatorAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1961188
+    // Offset: 0x220C010
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

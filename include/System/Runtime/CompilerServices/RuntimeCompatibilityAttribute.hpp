@@ -21,10 +21,10 @@ namespace System::Runtime::CompilerServices {
       return m_wrapNonExceptionThrows;
     }
     // public System.Void set_WrapNonExceptionThrows(System.Boolean value)
-    // Offset: 0x1166B48
+    // Offset: 0x12910B4
     void set_WrapNonExceptionThrows(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1166B40
+    // Offset: 0x12910AC
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -90,10 +90,15 @@ namespace System::Linq {
       bool MoveNext() {
         return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "MoveNext"));
       }
+      // Creating proxy method: System_Collections_IEnumerator_MoveNext
+      // Maps to method: MoveNext
+      bool System_Collections_IEnumerator_MoveNext() {
+        return MoveNext();
+      }
       // private TElement System.Collections.Generic.IEnumerator<TElement>.get_Current()
       // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.IEnumerator`1
-      // Base method: T IEnumerator`1::get_Current()
+      // Base method: T IEnumerator_1::get_Current()
       TElement System_Collections_Generic_IEnumerator_1_get_Current() {
         return THROW_UNLESS((il2cpp_utils::RunMethod<TElement>(this, "System.Collections.Generic.IEnumerator<TElement>.get_Current")));
       }
@@ -139,7 +144,7 @@ namespace System::Linq {
     // private System.Linq.IOrderedEnumerable`1<TElement> System.Linq.IOrderedEnumerable<TElement>.CreateOrderedEnumerable(System.Func`2<TElement,TKey> keySelector, System.Collections.Generic.IComparer`1<TKey> comparer, System.Boolean descending)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Linq.IOrderedEnumerable`1
-    // Base method: System.Linq.IOrderedEnumerable`1<TElement> IOrderedEnumerable`1::CreateOrderedEnumerable(System.Func`2<TElement,TKey> keySelector, System.Collections.Generic.IComparer`1<TKey> comparer, System.Boolean descending)
+    // Base method: System.Linq.IOrderedEnumerable`1<TElement> IOrderedEnumerable_1::CreateOrderedEnumerable(System.Func`2<TElement,TKey> keySelector, System.Collections.Generic.IComparer`1<TKey> comparer, System.Boolean descending)
     template<class TKey>
     System::Linq::IOrderedEnumerable_1<TElement>* System_Linq_IOrderedEnumerable_1_CreateOrderedEnumerable(System::Func_2<TElement, TKey>* keySelector, System::Collections::Generic::IComparer_1<TKey>* comparer, bool descending) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Linq::IOrderedEnumerable_1<TElement>*>(this, "System.Linq.IOrderedEnumerable<TElement>.CreateOrderedEnumerable", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get()}, keySelector, comparer, descending)));

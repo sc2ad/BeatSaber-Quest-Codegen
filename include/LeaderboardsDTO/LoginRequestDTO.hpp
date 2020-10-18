@@ -30,7 +30,7 @@ namespace LeaderboardsDTO {
     // Offset: 0x38
     ::Il2CppString* buildVersion;
     // public System.Void .ctor()
-    // Offset: 0xB48250
+    // Offset: 0x101D05C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LoginRequestDTO* New_ctor();

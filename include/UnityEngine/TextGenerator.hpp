@@ -85,101 +85,101 @@ namespace UnityEngine {
     // Offset: 0xA2
     bool m_CachedLines;
     // public System.Void .ctor(System.Int32 initialCapacity)
-    // Offset: 0x1969134
+    // Offset: 0x2216D1C
     static TextGenerator* New_ctor(int initialCapacity);
     // public System.Int32 get_characterCountVisible()
-    // Offset: 0x196944C
+    // Offset: 0x2217034
     int get_characterCountVisible();
     // private UnityEngine.TextGenerationSettings ValidatedSettings(UnityEngine.TextGenerationSettings settings)
-    // Offset: 0x19694D4
+    // Offset: 0x22170BC
     UnityEngine::TextGenerationSettings ValidatedSettings(UnityEngine::TextGenerationSettings settings);
     // public System.Void Invalidate()
-    // Offset: 0x19697B4
+    // Offset: 0x221739C
     void Invalidate();
     // public System.Void GetCharacters(System.Collections.Generic.List`1<UnityEngine.UICharInfo> characters)
-    // Offset: 0x19697BC
+    // Offset: 0x22173A4
     void GetCharacters(System::Collections::Generic::List_1<UnityEngine::UICharInfo>* characters);
     // public System.Void GetLines(System.Collections.Generic.List`1<UnityEngine.UILineInfo> lines)
-    // Offset: 0x196985C
+    // Offset: 0x2217444
     void GetLines(System::Collections::Generic::List_1<UnityEngine::UILineInfo>* lines);
     // public System.Void GetVertices(System.Collections.Generic.List`1<UnityEngine.UIVertex> vertices)
-    // Offset: 0x19698FC
+    // Offset: 0x22174E4
     void GetVertices(System::Collections::Generic::List_1<UnityEngine::UIVertex>* vertices);
     // public System.Single GetPreferredWidth(System.String str, UnityEngine.TextGenerationSettings settings)
-    // Offset: 0x196999C
+    // Offset: 0x2217584
     float GetPreferredWidth(::Il2CppString* str, UnityEngine::TextGenerationSettings settings);
     // public System.Single GetPreferredHeight(System.String str, UnityEngine.TextGenerationSettings settings)
-    // Offset: 0x1969AC4
+    // Offset: 0x22176AC
     float GetPreferredHeight(::Il2CppString* str, UnityEngine::TextGenerationSettings settings);
     // public System.Boolean PopulateWithErrors(System.String str, UnityEngine.TextGenerationSettings settings, UnityEngine.GameObject context)
-    // Offset: 0x1969B38
+    // Offset: 0x2217720
     bool PopulateWithErrors(::Il2CppString* str, UnityEngine::TextGenerationSettings settings, UnityEngine::GameObject* context);
     // public System.Boolean Populate(System.String str, UnityEngine.TextGenerationSettings settings)
-    // Offset: 0x1969A14
+    // Offset: 0x22175FC
     bool Populate(::Il2CppString* str, UnityEngine::TextGenerationSettings settings);
     // private UnityEngine.TextGenerationError PopulateWithError(System.String str, UnityEngine.TextGenerationSettings settings)
-    // Offset: 0x1969D0C
+    // Offset: 0x22178F4
     UnityEngine::TextGenerationError PopulateWithError(::Il2CppString* str, UnityEngine::TextGenerationSettings settings);
     // private UnityEngine.TextGenerationError PopulateAlways(System.String str, UnityEngine.TextGenerationSettings settings)
-    // Offset: 0x1969DA8
+    // Offset: 0x2217990
     UnityEngine::TextGenerationError PopulateAlways(::Il2CppString* str, UnityEngine::TextGenerationSettings settings);
     // public System.Collections.Generic.IList`1<UnityEngine.UIVertex> get_verts()
-    // Offset: 0x196A098
+    // Offset: 0x2217C80
     System::Collections::Generic::IList_1<UnityEngine::UIVertex>* get_verts();
     // public System.Collections.Generic.IList`1<UnityEngine.UICharInfo> get_characters()
-    // Offset: 0x196A100
+    // Offset: 0x2217CE8
     System::Collections::Generic::IList_1<UnityEngine::UICharInfo>* get_characters();
     // public System.Collections.Generic.IList`1<UnityEngine.UILineInfo> get_lines()
-    // Offset: 0x196A168
+    // Offset: 0x2217D50
     System::Collections::Generic::IList_1<UnityEngine::UILineInfo>* get_lines();
     // public UnityEngine.Rect get_rectExtents()
-    // Offset: 0x1969A68
+    // Offset: 0x2217650
     UnityEngine::Rect get_rectExtents();
     // public System.Int32 get_characterCount()
-    // Offset: 0x1969494
+    // Offset: 0x221707C
     int get_characterCount();
     // public System.Int32 get_lineCount()
-    // Offset: 0x196A220
+    // Offset: 0x2217E08
     int get_lineCount();
     // static private System.IntPtr Internal_Create()
-    // Offset: 0x196925C
+    // Offset: 0x2216E44
     static System::IntPtr Internal_Create();
     // static private System.Void Internal_Destroy(System.IntPtr ptr)
-    // Offset: 0x196940C
+    // Offset: 0x2216FF4
     static void Internal_Destroy(System::IntPtr ptr);
     // System.Boolean Populate_Internal(System.String str, UnityEngine.Font font, UnityEngine.Color color, System.Int32 fontSize, System.Single scaleFactor, System.Single lineSpacing, UnityEngine.FontStyle style, System.Boolean richText, System.Boolean resizeTextForBestFit, System.Int32 resizeTextMinSize, System.Int32 resizeTextMaxSize, System.Int32 verticalOverFlow, System.Int32 horizontalOverflow, System.Boolean updateBounds, UnityEngine.TextAnchor anchor, System.Single extentsX, System.Single extentsY, System.Single pivotX, System.Single pivotY, System.Boolean generateOutOfBounds, System.Boolean alignByGeometry, out System.UInt32 error)
-    // Offset: 0x196A260
+    // Offset: 0x2217E48
     bool Populate_Internal(::Il2CppString* str, UnityEngine::Font* font, UnityEngine::Color color, int fontSize, float scaleFactor, float lineSpacing, UnityEngine::FontStyle style, bool richText, bool resizeTextForBestFit, int resizeTextMinSize, int resizeTextMaxSize, int verticalOverFlow, int horizontalOverflow, bool updateBounds, UnityEngine::TextAnchor anchor, float extentsX, float extentsY, float pivotX, float pivotY, bool generateOutOfBounds, bool alignByGeometry, uint& error);
     // System.Boolean Populate_Internal(System.String str, UnityEngine.Font font, UnityEngine.Color color, System.Int32 fontSize, System.Single scaleFactor, System.Single lineSpacing, UnityEngine.FontStyle style, System.Boolean richText, System.Boolean resizeTextForBestFit, System.Int32 resizeTextMinSize, System.Int32 resizeTextMaxSize, UnityEngine.VerticalWrapMode verticalOverFlow, UnityEngine.HorizontalWrapMode horizontalOverflow, System.Boolean updateBounds, UnityEngine.TextAnchor anchor, UnityEngine.Vector2 extents, UnityEngine.Vector2 pivot, System.Boolean generateOutOfBounds, System.Boolean alignByGeometry, out UnityEngine.TextGenerationError error)
-    // Offset: 0x1969EE0
+    // Offset: 0x2217AC8
     bool Populate_Internal(::Il2CppString* str, UnityEngine::Font* font, UnityEngine::Color color, int fontSize, float scaleFactor, float lineSpacing, UnityEngine::FontStyle style, bool richText, bool resizeTextForBestFit, int resizeTextMinSize, int resizeTextMaxSize, UnityEngine::VerticalWrapMode verticalOverFlow, UnityEngine::HorizontalWrapMode horizontalOverflow, bool updateBounds, UnityEngine::TextAnchor anchor, UnityEngine::Vector2 extents, UnityEngine::Vector2 pivot, bool generateOutOfBounds, bool alignByGeometry, UnityEngine::TextGenerationError& error);
     // private System.Void GetVerticesInternal(System.Object vertices)
-    // Offset: 0x196994C
+    // Offset: 0x2217534
     void GetVerticesInternal(::Il2CppObject* vertices);
     // private System.Void GetCharactersInternal(System.Object characters)
-    // Offset: 0x196980C
+    // Offset: 0x22173F4
     void GetCharactersInternal(::Il2CppObject* characters);
     // private System.Void GetLinesInternal(System.Object lines)
-    // Offset: 0x19698AC
+    // Offset: 0x2217494
     void GetLinesInternal(::Il2CppObject* lines);
     // private System.Void get_rectExtents_Injected(out UnityEngine.Rect ret)
-    // Offset: 0x196A1D0
+    // Offset: 0x2217DB8
     void get_rectExtents_Injected(UnityEngine::Rect& ret);
     // private System.Boolean Populate_Internal_Injected(System.String str, UnityEngine.Font font, ref UnityEngine.Color color, System.Int32 fontSize, System.Single scaleFactor, System.Single lineSpacing, UnityEngine.FontStyle style, System.Boolean richText, System.Boolean resizeTextForBestFit, System.Int32 resizeTextMinSize, System.Int32 resizeTextMaxSize, System.Int32 verticalOverFlow, System.Int32 horizontalOverflow, System.Boolean updateBounds, UnityEngine.TextAnchor anchor, System.Single extentsX, System.Single extentsY, System.Single pivotX, System.Single pivotY, System.Boolean generateOutOfBounds, System.Boolean alignByGeometry, out System.UInt32 error)
-    // Offset: 0x196A3B0
+    // Offset: 0x2217F98
     bool Populate_Internal_Injected(::Il2CppString* str, UnityEngine::Font* font, UnityEngine::Color& color, int fontSize, float scaleFactor, float lineSpacing, UnityEngine::FontStyle style, bool richText, bool resizeTextForBestFit, int resizeTextMinSize, int resizeTextMaxSize, int verticalOverFlow, int horizontalOverflow, bool updateBounds, UnityEngine::TextAnchor anchor, float extentsX, float extentsY, float pivotX, float pivotY, bool generateOutOfBounds, bool alignByGeometry, uint& error);
     // public System.Void .ctor()
-    // Offset: 0x196912C
+    // Offset: 0x2216D14
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TextGenerator* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x1969290
+    // Offset: 0x2216E78
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1969380
+    // Offset: 0x2216F68
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();

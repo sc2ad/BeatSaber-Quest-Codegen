@@ -41,16 +41,16 @@ namespace TMPro {
     // Set static field: static public System.Func`2<TMPro.TMP_SpriteCharacter,System.UInt32> <>9__33_0
     static void _set_$$9__33_0(System::Func_2<TMPro::TMP_SpriteCharacter*, uint>* value);
     // static private System.Void .cctor()
-    // Offset: 0xBB5B54
+    // Offset: 0xF916FC
     static void _cctor();
     // System.UInt32 <SortGlyphTable>b__32_0(TMPro.TMP_SpriteGlyph item)
-    // Offset: 0xBB5BC4
+    // Offset: 0xF9176C
     uint $SortGlyphTable$b__32_0(TMPro::TMP_SpriteGlyph* item);
     // System.UInt32 <SortCharacterTable>b__33_0(TMPro.TMP_SpriteCharacter c)
-    // Offset: 0xBB5BE0
+    // Offset: 0xF91788
     uint $SortCharacterTable$b__33_0(TMPro::TMP_SpriteCharacter* c);
     // public System.Void .ctor()
-    // Offset: 0xBB5BBC
+    // Offset: 0xF91764
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TMP_SpriteAsset::$$c* New_ctor();

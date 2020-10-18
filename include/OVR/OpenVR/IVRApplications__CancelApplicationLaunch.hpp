@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRApplications::_CancelApplicationLaunch : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xED355C
+    // Offset: 0x1383438
     static IVRApplications::_CancelApplicationLaunch* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.String pchAppKey)
-    // Offset: 0xEC4CAC
+    // Offset: 0x1374B88
     bool Invoke(::Il2CppString* pchAppKey);
     // public System.IAsyncResult BeginInvoke(System.String pchAppKey, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xED3570
+    // Offset: 0x138344C
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchAppKey, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0xED3594
+    // Offset: 0x1383470
     bool EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRApplications/_CancelApplicationLaunch
 }

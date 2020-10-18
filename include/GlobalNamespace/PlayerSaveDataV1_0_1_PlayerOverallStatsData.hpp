@@ -47,10 +47,10 @@ namespace GlobalNamespace {
     // Offset: 0x40
     int64_t cummulativeCutScoreWithoutMultiplier;
     // public System.Void .ctor(System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCutsCount, System.Int64 totalScore, System.Int32 playedLevelsCount, System.Int32 cleardLevelsCount, System.Int32 failedLevelsCount, System.Int32 fullComboCount, System.Single timePlayed, System.Int32 handDistanceTravelled, System.Int64 cummulativeCutScoreWithoutMultiplier)
-    // Offset: 0xC1B64C
+    // Offset: 0xFE2BD4
     static PlayerSaveDataV1_0_1::PlayerOverallStatsData* New_ctor(int goodCutsCount, int badCutsCount, int missedCutsCount, int64_t totalScore, int playedLevelsCount, int cleardLevelsCount, int failedLevelsCount, int fullComboCount, float timePlayed, int handDistanceTravelled, int64_t cummulativeCutScoreWithoutMultiplier);
     // public System.Void .ctor()
-    // Offset: 0xC1B5D0
+    // Offset: 0xFE2B58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerSaveDataV1_0_1::PlayerOverallStatsData* New_ctor();

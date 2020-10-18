@@ -14,10 +14,10 @@ namespace GlobalNamespace {
   class ListSettingsController : public GlobalNamespace::IncDecSettingsController {
     public:
     // private System.Int32 _idx
-    // Offset: 0x30
+    // Offset: 0x20
     int idx;
     // private System.Int32 _numberOfElements
-    // Offset: 0x34
+    // Offset: 0x24
     int numberOfElements;
     // protected System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     // Offset: 0xFFFFFFFF
@@ -28,29 +28,27 @@ namespace GlobalNamespace {
     // protected System.String TextForValue(System.Int32 idx)
     // Offset: 0xFFFFFFFF
     ::Il2CppString* TextForValue(int idx);
+    // protected System.Void OnEnable()
+    // Offset: 0x102F1C4
+    void OnEnable();
     // private System.Void RefreshUI()
-    // Offset: 0xBFADC8
+    // Offset: 0x102F208
     void RefreshUI();
     // public System.Void Refresh(System.Boolean applyValue)
-    // Offset: 0xBFAE34
+    // Offset: 0x102F274
     void Refresh(bool applyValue);
-    // protected override System.Void OnEnable()
-    // Offset: 0xBFAD64
-    // Implemented from: IncDecSettingsController
-    // Base method: System.Void IncDecSettingsController::OnEnable()
-    void OnEnable();
-    // public override System.Void IncButtonPressed()
-    // Offset: 0xBFAE94
+    // protected override System.Void IncButtonPressed()
+    // Offset: 0x102F2D4
     // Implemented from: IncDecSettingsController
     // Base method: System.Void IncDecSettingsController::IncButtonPressed()
     void IncButtonPressed();
-    // public override System.Void DecButtonPressed()
-    // Offset: 0xBFAEE0
+    // protected override System.Void DecButtonPressed()
+    // Offset: 0x102F320
     // Implemented from: IncDecSettingsController
     // Base method: System.Void IncDecSettingsController::DecButtonPressed()
     void DecButtonPressed();
     // protected System.Void .ctor()
-    // Offset: 0xBFAF24
+    // Offset: 0x102F364
     // Implemented from: IncDecSettingsController
     // Base method: System.Void IncDecSettingsController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

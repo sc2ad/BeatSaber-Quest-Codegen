@@ -25,13 +25,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x18
     System::Reflection::Assembly* assembly;
     // System.Void .ctor(System.String assemblyString)
-    // Offset: 0xE25A4C
+    // Offset: 0x150A974
     static BinaryAssemblyInfo* New_ctor(::Il2CppString* assemblyString);
     // System.Void .ctor(System.String assemblyString, System.Reflection.Assembly assembly)
-    // Offset: 0xE25A80
+    // Offset: 0x150A9A8
     static BinaryAssemblyInfo* New_ctor(::Il2CppString* assemblyString, System::Reflection::Assembly* assembly);
     // System.Reflection.Assembly GetAssembly()
-    // Offset: 0xE25AD0
+    // Offset: 0x150A9F8
     System::Reflection::Assembly* GetAssembly();
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo
 }

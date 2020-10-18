@@ -29,7 +29,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x14
     Oculus::Platform::SystemVoipStatus Status;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xEA9360
+    // Offset: 0x1369A5C
     static SystemVoipState* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.SystemVoipState
 }

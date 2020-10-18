@@ -27,8 +27,8 @@ namespace GlobalNamespace {
   class GameEnergyCounter;
   // Forward declaring type: GameSongController
   class GameSongController;
-  // Forward declaring type: BeatmapData
-  class BeatmapData;
+  // Forward declaring type: IReadonlyBeatmapData
+  class IReadonlyBeatmapData;
   // Forward declaring type: AudioTimeSyncController
   class AudioTimeSyncController;
   // Forward declaring type: GameplayModifiers
@@ -61,9 +61,9 @@ namespace GlobalNamespace {
     // private GameSongController _gameSongController
     // Offset: 0x48
     GlobalNamespace::GameSongController* gameSongController;
-    // private BeatmapData _beatmapData
+    // private IReadonlyBeatmapData _beatmapData
     // Offset: 0x50
-    GlobalNamespace::BeatmapData* beatmapData;
+    GlobalNamespace::IReadonlyBeatmapData* beatmapData;
     // private AudioTimeSyncController _audioTimeSyncController
     // Offset: 0x58
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
@@ -73,10 +73,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public LevelCompletionResults FillLevelCompletionResults(LevelCompletionResults/LevelEndStateType levelEndStateType, LevelCompletionResults/LevelEndAction levelEndAction)
-    // Offset: 0xC1E04C
+    // Offset: 0xF71054
     GlobalNamespace::LevelCompletionResults* FillLevelCompletionResults(GlobalNamespace::LevelCompletionResults::LevelEndStateType levelEndStateType, GlobalNamespace::LevelCompletionResults::LevelEndAction levelEndAction);
     // public System.Void .ctor()
-    // Offset: 0xC1E2B0
+    // Offset: 0xF712F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

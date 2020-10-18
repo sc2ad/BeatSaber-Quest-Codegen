@@ -80,9 +80,9 @@ namespace GlobalNamespace {
     // public GameScenesManager/SceneDismissType dismissType
     // Offset: 0x50
     GlobalNamespace::GameScenesManager::SceneDismissType dismissType;
-    // public System.Action finishCallback
+    // public System.Action`1<Zenject.DiContainer> finishCallback
     // Offset: 0x58
-    System::Action* finishCallback;
+    System::Action_1<Zenject::DiContainer*>* finishCallback;
     // private UnityEngine.EventSystems.EventSystem <eventSystem>5__2
     // Offset: 0x60
     UnityEngine::EventSystems::EventSystem* $eventSystem$5__2;
@@ -102,36 +102,39 @@ namespace GlobalNamespace {
     // Offset: 0x88
     typename System::Collections::Generic::List_1<::Il2CppString*>::Enumerator $$7__wrap6;
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0xCB3D90
+    // Offset: 0x1099ABC
     static GameScenesManager::$ScenesTransitionCoroutine$d__36* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()
-    // Offset: 0xCB5190
+    // Offset: 0x109B03C
     void $$m__Finally1();
     // private System.Void <>m__Finally2()
-    // Offset: 0xCB51E8
+    // Offset: 0x109B094
     void $$m__Finally2();
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0xCB5158
+    // Offset: 0x109B004
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0xCB5240
+    // Offset: 0x109B0EC
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
+    // Creating proxy method: System_Collections_IEnumerator_MoveNext
+    // Maps to method: MoveNext
+    bool System_Collections_IEnumerator_MoveNext();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0xCB5CFC
+    // Offset: 0x109BC04
     // Implemented from: System.Collections.Generic.IEnumerator`1
-    // Base method: T IEnumerator`1::get_Current()
+    // Base method: T IEnumerator_1::get_Current()
     ::Il2CppObject* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0xCB5D04
+    // Offset: 0x109BC0C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0xCB5D64
+    // Offset: 0x109BC6C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();

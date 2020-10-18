@@ -49,31 +49,31 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static private System.Int64 m_nextId
     static void _set_m_nextId(int64_t value);
     // public System.Void OnStart(System.String providerName, System.String activityName, System.Int32 task, ref System.Guid activityId, ref System.Guid relatedActivityId, System.Diagnostics.Tracing.EventActivityOptions options)
-    // Offset: 0xC9808C
+    // Offset: 0x1477D60
     void OnStart(::Il2CppString* providerName, ::Il2CppString* activityName, int task, System::Guid& activityId, System::Guid& relatedActivityId, System::Diagnostics::Tracing::EventActivityOptions options);
     // public System.Void OnStop(System.String providerName, System.String activityName, System.Int32 task, ref System.Guid activityId)
-    // Offset: 0xC986F8
+    // Offset: 0x14783CC
     void OnStop(::Il2CppString* providerName, ::Il2CppString* activityName, int task, System::Guid& activityId);
     // public System.Void Enable()
-    // Offset: 0xC98448
+    // Offset: 0x147811C
     void Enable();
     // static public System.Diagnostics.Tracing.ActivityTracker get_Instance()
-    // Offset: 0xC98AAC
+    // Offset: 0x1478780
     static System::Diagnostics::Tracing::ActivityTracker* get_Instance();
     // private System.Diagnostics.Tracing.ActivityTracker/ActivityInfo FindActiveActivity(System.String name, System.Diagnostics.Tracing.ActivityTracker/ActivityInfo startLocation)
-    // Offset: 0xC986AC
+    // Offset: 0x1478380
     System::Diagnostics::Tracing::ActivityTracker::ActivityInfo* FindActiveActivity(::Il2CppString* name, System::Diagnostics::Tracing::ActivityTracker::ActivityInfo* startLocation);
     // private System.String NormalizeActivityName(System.String providerName, System.String activityName, System.Int32 task)
-    // Offset: 0xC98514
+    // Offset: 0x14781E8
     ::Il2CppString* NormalizeActivityName(::Il2CppString* providerName, ::Il2CppString* activityName, int task);
     // private System.Void ActivityChanging(System.Threading.AsyncLocalValueChangedArgs`1<System.Diagnostics.Tracing.ActivityTracker/ActivityInfo> args)
-    // Offset: 0xC98B14
+    // Offset: 0x14787E8
     void ActivityChanging(System::Threading::AsyncLocalValueChangedArgs_1<System::Diagnostics::Tracing::ActivityTracker::ActivityInfo*> args);
     // static private System.Void .cctor()
-    // Offset: 0xC98E04
+    // Offset: 0x1478AD8
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0xC98DFC
+    // Offset: 0x1478AD0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ActivityTracker* New_ctor();

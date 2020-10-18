@@ -32,10 +32,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     Oculus::Platform::Request* oculusRequest;
     // System.Void <AddOculusRequest>b__0(HMAsyncRequest request)
-    // Offset: 0xC3D214
+    // Offset: 0x100A254
     void $AddOculusRequest$b__0(GlobalNamespace::HMAsyncRequest* request);
     // public System.Void .ctor()
-    // Offset: 0xC3CDF8
+    // Offset: 0x1009E38
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0* New_ctor();

@@ -67,162 +67,156 @@ namespace UnityEngine::Networking {
     // Offset: 0x3A
     bool disposeUploadHandlerOnDispose;
     // static private System.String GetWebErrorString(UnityEngine.Networking.UnityWebRequest/UnityWebRequestError err)
-    // Offset: 0x1948524
+    // Offset: 0x21FBC44
     static ::Il2CppString* GetWebErrorString(UnityEngine::Networking::UnityWebRequest::UnityWebRequestError err);
     // static System.String GetHTTPStatusString(System.Int64 responseCode)
-    // Offset: 0x1948564
+    // Offset: 0x21FBC84
     static ::Il2CppString* GetHTTPStatusString(int64_t responseCode);
     // public System.Boolean get_disposeCertificateHandlerOnDispose()
-    // Offset: 0x19485A4
+    // Offset: 0x21FBCC4
     bool get_disposeCertificateHandlerOnDispose();
     // public System.Void set_disposeCertificateHandlerOnDispose(System.Boolean value)
-    // Offset: 0x19485AC
+    // Offset: 0x21FBCCC
     void set_disposeCertificateHandlerOnDispose(bool value);
     // public System.Boolean get_disposeDownloadHandlerOnDispose()
-    // Offset: 0x19485B8
+    // Offset: 0x21FBCD8
     bool get_disposeDownloadHandlerOnDispose();
     // public System.Void set_disposeDownloadHandlerOnDispose(System.Boolean value)
-    // Offset: 0x19485C0
+    // Offset: 0x21FBCE0
     void set_disposeDownloadHandlerOnDispose(bool value);
     // public System.Boolean get_disposeUploadHandlerOnDispose()
-    // Offset: 0x19485CC
+    // Offset: 0x21FBCEC
     bool get_disposeUploadHandlerOnDispose();
     // public System.Void set_disposeUploadHandlerOnDispose(System.Boolean value)
-    // Offset: 0x19485D4
+    // Offset: 0x21FBCF4
     void set_disposeUploadHandlerOnDispose(bool value);
     // static System.IntPtr Create()
-    // Offset: 0x19485E0
+    // Offset: 0x21FBD00
     static System::IntPtr Create();
     // private System.Void Release()
-    // Offset: 0x1948614
+    // Offset: 0x21FBD34
     void Release();
     // System.Void InternalDestroy()
-    // Offset: 0x1948654
+    // Offset: 0x21FBD74
     void InternalDestroy();
     // private System.Void InternalSetDefaults()
-    // Offset: 0x194873C
+    // Offset: 0x21FBE5C
     void InternalSetDefaults();
     // public System.Void .ctor(System.String url, System.String method)
-    // Offset: 0x1948750
+    // Offset: 0x21FBE70
     static UnityWebRequest* New_ctor(::Il2CppString* url, ::Il2CppString* method);
     // public System.Void .ctor(System.String url, System.String method, UnityEngine.Networking.DownloadHandler downloadHandler, UnityEngine.Networking.UploadHandler uploadHandler)
-    // Offset: 0x19489C0
+    // Offset: 0x21FC0E0
     static UnityWebRequest* New_ctor(::Il2CppString* url, ::Il2CppString* method, UnityEngine::Networking::DownloadHandler* downloadHandler, UnityEngine::Networking::UploadHandler* uploadHandler);
     // private System.Void DisposeHandlers()
-    // Offset: 0x1948D38
+    // Offset: 0x21FC458
     void DisposeHandlers();
     // UnityEngine.Networking.UnityWebRequestAsyncOperation BeginWebRequest()
-    // Offset: 0x1948EA8
+    // Offset: 0x21FC5C8
     UnityEngine::Networking::UnityWebRequestAsyncOperation* BeginWebRequest();
     // public UnityEngine.Networking.UnityWebRequestAsyncOperation SendWebRequest()
-    // Offset: 0x1948EE8
+    // Offset: 0x21FC608
     UnityEngine::Networking::UnityWebRequestAsyncOperation* SendWebRequest();
     // public System.Void Abort()
-    // Offset: 0x19486FC
+    // Offset: 0x21FBE1C
     void Abort();
     // private UnityEngine.Networking.UnityWebRequest/UnityWebRequestError SetMethod(UnityEngine.Networking.UnityWebRequest/UnityWebRequestMethod methodType)
-    // Offset: 0x1948F48
+    // Offset: 0x21FC668
     UnityEngine::Networking::UnityWebRequest::UnityWebRequestError SetMethod(UnityEngine::Networking::UnityWebRequest::UnityWebRequestMethod methodType);
     // System.Void InternalSetMethod(UnityEngine.Networking.UnityWebRequest/UnityWebRequestMethod methodType)
-    // Offset: 0x1948F98
+    // Offset: 0x21FC6B8
     void InternalSetMethod(UnityEngine::Networking::UnityWebRequest::UnityWebRequestMethod methodType);
     // private UnityEngine.Networking.UnityWebRequest/UnityWebRequestError SetCustomMethod(System.String customMethodName)
-    // Offset: 0x19490FC
+    // Offset: 0x21FC81C
     UnityEngine::Networking::UnityWebRequest::UnityWebRequestError SetCustomMethod(::Il2CppString* customMethodName);
     // System.Void InternalSetCustomMethod(System.String customMethodName)
-    // Offset: 0x194914C
+    // Offset: 0x21FC86C
     void InternalSetCustomMethod(::Il2CppString* customMethodName);
     // public System.Void set_method(System.String value)
-    // Offset: 0x194885C
+    // Offset: 0x21FBF7C
     void set_method(::Il2CppString* value);
     // private UnityEngine.Networking.UnityWebRequest/UnityWebRequestError GetError()
-    // Offset: 0x1949270
+    // Offset: 0x21FC990
     UnityEngine::Networking::UnityWebRequest::UnityWebRequestError GetError();
     // public System.String get_error()
-    // Offset: 0x19492B0
+    // Offset: 0x21FC9D0
     ::Il2CppString* get_error();
     // public System.Void set_url(System.String value)
-    // Offset: 0x19487D0
+    // Offset: 0x21FBEF0
     void set_url(::Il2CppString* value);
     // private UnityEngine.Networking.UnityWebRequest/UnityWebRequestError SetUrl(System.String url)
-    // Offset: 0x1949A14
+    // Offset: 0x21FD134
     UnityEngine::Networking::UnityWebRequest::UnityWebRequestError SetUrl(::Il2CppString* url);
     // private System.Void InternalSetUrl(System.String url)
-    // Offset: 0x19498F0
+    // Offset: 0x21FD010
     void InternalSetUrl(::Il2CppString* url);
     // public System.Int64 get_responseCode()
-    // Offset: 0x1949528
+    // Offset: 0x21FCC48
     int64_t get_responseCode();
     // private System.Boolean IsExecuting()
-    // Offset: 0x1949A64
+    // Offset: 0x21FD184
     bool IsExecuting();
     // public System.Boolean get_isModifiable()
-    // Offset: 0x19490BC
+    // Offset: 0x21FC7DC
     bool get_isModifiable();
     // public System.Boolean get_isDone()
-    // Offset: 0x1949AA4
+    // Offset: 0x21FD1C4
     bool get_isDone();
     // public System.Boolean get_isNetworkError()
-    // Offset: 0x19494A8
+    // Offset: 0x21FCBC8
     bool get_isNetworkError();
     // public System.Boolean get_isHttpError()
-    // Offset: 0x19494E8
+    // Offset: 0x21FCC08
     bool get_isHttpError();
     // private System.Single GetDownloadProgress()
-    // Offset: 0x1949AE4
+    // Offset: 0x21FD204
     float GetDownloadProgress();
     // public System.Single get_downloadProgress()
-    // Offset: 0x1949B24
+    // Offset: 0x21FD244
     float get_downloadProgress();
     // UnityEngine.Networking.UnityWebRequest/UnityWebRequestError InternalSetRequestHeader(System.String name, System.String value)
-    // Offset: 0x1949BCC
+    // Offset: 0x21FD2EC
     UnityEngine::Networking::UnityWebRequest::UnityWebRequestError InternalSetRequestHeader(::Il2CppString* name, ::Il2CppString* value);
     // public System.Void SetRequestHeader(System.String name, System.String value)
-    // Offset: 0x1949C24
+    // Offset: 0x21FD344
     void SetRequestHeader(::Il2CppString* name, ::Il2CppString* value);
     // private UnityEngine.Networking.UnityWebRequest/UnityWebRequestError SetUploadHandler(UnityEngine.Networking.UploadHandler uh)
-    // Offset: 0x1949DAC
+    // Offset: 0x21FD4CC
     UnityEngine::Networking::UnityWebRequest::UnityWebRequestError SetUploadHandler(UnityEngine::Networking::UploadHandler* uh);
     // public UnityEngine.Networking.UploadHandler get_uploadHandler()
-    // Offset: 0x1948E18
+    // Offset: 0x21FC538
     UnityEngine::Networking::UploadHandler* get_uploadHandler();
     // public System.Void set_uploadHandler(UnityEngine.Networking.UploadHandler value)
-    // Offset: 0x1948B98
+    // Offset: 0x21FC2B8
     void set_uploadHandler(UnityEngine::Networking::UploadHandler* value);
     // private UnityEngine.Networking.UnityWebRequest/UnityWebRequestError SetDownloadHandler(UnityEngine.Networking.DownloadHandler dh)
-    // Offset: 0x1949DFC
+    // Offset: 0x21FD51C
     UnityEngine::Networking::UnityWebRequest::UnityWebRequestError SetDownloadHandler(UnityEngine::Networking::DownloadHandler* dh);
     // public UnityEngine.Networking.DownloadHandler get_downloadHandler()
-    // Offset: 0x1948E10
+    // Offset: 0x21FC530
     UnityEngine::Networking::DownloadHandler* get_downloadHandler();
     // public System.Void set_downloadHandler(UnityEngine.Networking.DownloadHandler value)
-    // Offset: 0x1948A68
+    // Offset: 0x21FC188
     void set_downloadHandler(UnityEngine::Networking::DownloadHandler* value);
     // public UnityEngine.Networking.CertificateHandler get_certificateHandler()
-    // Offset: 0x1948EA0
+    // Offset: 0x21FC5C0
     UnityEngine::Networking::CertificateHandler* get_certificateHandler();
     // static public UnityEngine.Networking.UnityWebRequest Get(System.String uri)
-    // Offset: 0x1949E4C
+    // Offset: 0x21FD56C
     static UnityEngine::Networking::UnityWebRequest* Get(::Il2CppString* uri);
-    // static public UnityEngine.Networking.UnityWebRequest Post(System.String uri, System.String postData)
-    // Offset: 0x1949EE0
-    static UnityEngine::Networking::UnityWebRequest* Post(::Il2CppString* uri, ::Il2CppString* postData);
-    // static private System.Void SetupPost(UnityEngine.Networking.UnityWebRequest request, System.String postData)
-    // Offset: 0x1949F64
-    static void SetupPost(UnityEngine::Networking::UnityWebRequest* request, ::Il2CppString* postData);
     // static public System.String EscapeURL(System.String s)
-    // Offset: 0x194A250
+    // Offset: 0x21FD600
     static ::Il2CppString* EscapeURL(::Il2CppString* s);
     // static public System.String EscapeURL(System.String s, System.Text.Encoding e)
-    // Offset: 0x194A27C
+    // Offset: 0x21FD62C
     static ::Il2CppString* EscapeURL(::Il2CppString* s, System::Text::Encoding* e);
     // protected override System.Void Finalize()
-    // Offset: 0x1948CC8
+    // Offset: 0x21FC3E8
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public System.Void Dispose()
-    // Offset: 0x1948D98
+    // Offset: 0x21FC4B8
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

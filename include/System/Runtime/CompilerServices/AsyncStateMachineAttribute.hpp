@@ -21,7 +21,7 @@ namespace System::Runtime::CompilerServices {
   class AsyncStateMachineAttribute : public System::Runtime::CompilerServices::StateMachineAttribute {
     public:
     // public System.Void .ctor(System.Type stateMachineType)
-    // Offset: 0x1166118
+    // Offset: 0x1290480
     // Implemented from: System.Runtime.CompilerServices.StateMachineAttribute
     // Base method: System.Void StateMachineAttribute::.ctor(System.Type stateMachineType)
     static AsyncStateMachineAttribute* New_ctor(System::Type* stateMachineType);

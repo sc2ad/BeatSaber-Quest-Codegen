@@ -42,40 +42,40 @@ namespace UnityEngine {
   class Animator : public UnityEngine::Behaviour {
     public:
     // public System.Boolean get_isHuman()
-    // Offset: 0x1940B9C
+    // Offset: 0x21E8958
     bool get_isHuman();
     // public System.Boolean get_hasRootMotion()
-    // Offset: 0x1940BDC
+    // Offset: 0x21E8998
     bool get_hasRootMotion();
     // public System.Single get_humanScale()
-    // Offset: 0x1940C1C
+    // Offset: 0x21E89D8
     float get_humanScale();
     // public System.Boolean GetBool(System.Int32 id)
-    // Offset: 0x1940C5C
+    // Offset: 0x21E8A18
     bool GetBool(int id);
     // public System.Void SetBool(System.String name, System.Boolean value)
-    // Offset: 0x1940CFC
+    // Offset: 0x21E8AB8
     void SetBool(::Il2CppString* name, bool value);
     // public System.Void SetBool(System.Int32 id, System.Boolean value)
-    // Offset: 0x1940DAC
+    // Offset: 0x21E8B68
     void SetBool(int id, bool value);
     // public System.Void SetTrigger(System.String name)
-    // Offset: 0x1940E5C
+    // Offset: 0x21E8C18
     void SetTrigger(::Il2CppString* name);
     // public System.Void SetTrigger(System.Int32 id)
-    // Offset: 0x1940EFC
+    // Offset: 0x21E8CB8
     void SetTrigger(int id);
     // public System.Void ResetTrigger(System.String name)
-    // Offset: 0x1940F9C
+    // Offset: 0x21E8D58
     void ResetTrigger(::Il2CppString* name);
     // public System.Void set_applyRootMotion(System.Boolean value)
-    // Offset: 0x194103C
+    // Offset: 0x21E8DF8
     void set_applyRootMotion(bool value);
     // public UnityEngine.AnimatorUpdateMode get_updateMode()
-    // Offset: 0x194108C
+    // Offset: 0x21E8E48
     UnityEngine::AnimatorUpdateMode get_updateMode();
     // public System.Void set_updateMode(UnityEngine.AnimatorUpdateMode value)
-    // Offset: 0x19410CC
+    // Offset: 0x21E8E88
     void set_updateMode(UnityEngine::AnimatorUpdateMode value);
     // static private T[] ConvertStateMachineBehaviour(UnityEngine.ScriptableObject[] rawObjects)
     // Offset: 0xFFFFFFFF
@@ -92,70 +92,70 @@ namespace UnityEngine {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>(this, "GetBehaviours", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // UnityEngine.ScriptableObject[] InternalGetBehaviours(System.Type type)
-    // Offset: 0x194111C
+    // Offset: 0x21E8ED8
     ::Array<UnityEngine::ScriptableObject*>* InternalGetBehaviours(System::Type* type);
     // public System.Void CrossFade(System.String stateName, System.Single normalizedTransitionDuration, System.Int32 layer, System.Single normalizedTimeOffset)
-    // Offset: 0x194116C
+    // Offset: 0x21E8F28
     void CrossFade(::Il2CppString* stateName, float normalizedTransitionDuration, int layer, float normalizedTimeOffset);
     // public System.Void CrossFade(System.String stateName, System.Single normalizedTransitionDuration, System.Int32 layer)
-    // Offset: 0x1941220
+    // Offset: 0x21E8FDC
     void CrossFade(::Il2CppString* stateName, float normalizedTransitionDuration, int layer);
     // public System.Void CrossFade(System.String stateName, System.Single normalizedTransitionDuration, System.Int32 layer, System.Single normalizedTimeOffset, System.Single normalizedTransitionTime)
-    // Offset: 0x1941174
+    // Offset: 0x21E8F30
     void CrossFade(::Il2CppString* stateName, float normalizedTransitionDuration, int layer, float normalizedTimeOffset, float normalizedTransitionTime);
     // public System.Void CrossFade(System.Int32 stateHashName, System.Single normalizedTransitionDuration, System.Int32 layer, System.Single normalizedTimeOffset, System.Single normalizedTransitionTime)
-    // Offset: 0x1941270
+    // Offset: 0x21E902C
     void CrossFade(int stateHashName, float normalizedTransitionDuration, int layer, float normalizedTimeOffset, float normalizedTransitionTime);
     // public System.Void Play(System.String stateName, System.Int32 layer, System.Single normalizedTime)
-    // Offset: 0x19412F0
+    // Offset: 0x21E90AC
     void Play(::Il2CppString* stateName, int layer, float normalizedTime);
     // public System.Void Play(System.Int32 stateNameHash, System.Int32 layer, System.Single normalizedTime)
-    // Offset: 0x1941384
+    // Offset: 0x21E9140
     void Play(int stateNameHash, int layer, float normalizedTime);
     // public UnityEngine.Transform GetBoneTransform(UnityEngine.HumanBodyBones humanBoneId)
-    // Offset: 0x19413EC
+    // Offset: 0x21E91A8
     UnityEngine::Transform* GetBoneTransform(UnityEngine::HumanBodyBones humanBoneId);
     // UnityEngine.Transform GetBoneTransformInternal(System.Int32 humanBoneId)
-    // Offset: 0x1941548
+    // Offset: 0x21E9304
     UnityEngine::Transform* GetBoneTransformInternal(int humanBoneId);
     // public System.Void set_cullingMode(UnityEngine.AnimatorCullingMode value)
-    // Offset: 0x1941598
+    // Offset: 0x21E9354
     void set_cullingMode(UnityEngine::AnimatorCullingMode value);
     // public UnityEngine.RuntimeAnimatorController get_runtimeAnimatorController()
-    // Offset: 0x19415E8
+    // Offset: 0x21E93A4
     UnityEngine::RuntimeAnimatorController* get_runtimeAnimatorController();
     // public System.Boolean get_hasBoundPlayables()
-    // Offset: 0x1941628
+    // Offset: 0x21E93E4
     bool get_hasBoundPlayables();
     // static public System.Int32 StringToHash(System.String name)
-    // Offset: 0x1941230
+    // Offset: 0x21E8FEC
     static int StringToHash(::Il2CppString* name);
     // public UnityEngine.Avatar get_avatar()
-    // Offset: 0x1941668
+    // Offset: 0x21E9424
     UnityEngine::Avatar* get_avatar();
     // private System.Void SetBoolString(System.String name, System.Boolean value)
-    // Offset: 0x1940D54
+    // Offset: 0x21E8B10
     void SetBoolString(::Il2CppString* name, bool value);
     // private System.Void SetBoolID(System.Int32 id, System.Boolean value)
-    // Offset: 0x1940E04
+    // Offset: 0x21E8BC0
     void SetBoolID(int id, bool value);
     // private System.Boolean GetBoolID(System.Int32 id)
-    // Offset: 0x1940CAC
+    // Offset: 0x21E8A68
     bool GetBoolID(int id);
     // private System.Void SetTriggerString(System.String name)
-    // Offset: 0x1940EAC
+    // Offset: 0x21E8C68
     void SetTriggerString(::Il2CppString* name);
     // private System.Void SetTriggerID(System.Int32 id)
-    // Offset: 0x1940F4C
+    // Offset: 0x21E8D08
     void SetTriggerID(int id);
     // private System.Void ResetTriggerString(System.String name)
-    // Offset: 0x1940FEC
+    // Offset: 0x21E8DA8
     void ResetTriggerString(::Il2CppString* name);
     // public System.Void set_keepAnimatorControllerStateOnDisable(System.Boolean value)
-    // Offset: 0x19416A8
+    // Offset: 0x21E9464
     void set_keepAnimatorControllerStateOnDisable(bool value);
     // public System.Void .ctor()
-    // Offset: 0x19416F8
+    // Offset: 0x21E94B4
     // Implemented from: UnityEngine.Behaviour
     // Base method: System.Void Behaviour::.ctor()
     // Base method: System.Void Component::.ctor()

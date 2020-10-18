@@ -12,7 +12,7 @@ namespace System::Reflection::Emit {
   class UnmanagedMarshal : public ::Il2CppObject {
     public:
     // System.Void .ctor()
-    // Offset: 0x136EB54
+    // Offset: 0x18CB7F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UnmanagedMarshal* New_ctor();

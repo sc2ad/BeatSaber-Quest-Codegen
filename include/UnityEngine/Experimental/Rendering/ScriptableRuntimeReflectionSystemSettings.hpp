@@ -25,16 +25,16 @@ namespace UnityEngine::Experimental::Rendering {
     // Set static field: static private UnityEngine.Experimental.Rendering.ScriptableRuntimeReflectionSystemWrapper s_Instance
     static void _set_s_Instance(UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* value);
     // static private System.Void set_Internal_ScriptableRuntimeReflectionSystemSettings_system(UnityEngine.Experimental.Rendering.IScriptableRuntimeReflectionSystem value)
-    // Offset: 0x1312CF0
+    // Offset: 0x19EDF60
     static void set_Internal_ScriptableRuntimeReflectionSystemSettings_system(UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
     // static private UnityEngine.Experimental.Rendering.ScriptableRuntimeReflectionSystemWrapper get_Internal_ScriptableRuntimeReflectionSystemSettings_instance()
-    // Offset: 0x1312E68
+    // Offset: 0x19EE0D8
     static UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* get_Internal_ScriptableRuntimeReflectionSystemSettings_instance();
     // static private System.Void ScriptingDirtyReflectionSystemInstance()
-    // Offset: 0x1312ED0
+    // Offset: 0x19EE140
     static void ScriptingDirtyReflectionSystemInstance();
     // static private System.Void .cctor()
-    // Offset: 0x1312F04
+    // Offset: 0x19EE174
     static void _cctor();
   }; // UnityEngine.Experimental.Rendering.ScriptableRuntimeReflectionSystemSettings
 }

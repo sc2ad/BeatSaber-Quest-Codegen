@@ -33,16 +33,16 @@ namespace Valve::VR {
   class IVRCompositor::_SetSkyboxOverride : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x160991C
+    // Offset: 0x1E33B9C
     static IVRCompositor::_SetSkyboxOverride* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRCompositorError Invoke(in Valve.VR.Texture_t[] pTextures, System.UInt32 unTextureCount)
-    // Offset: 0x1609930
+    // Offset: 0x1E33BB0
     Valve::VR::EVRCompositorError Invoke(::Array<Valve::VR::Texture_t>*& pTextures, uint unTextureCount);
     // public System.IAsyncResult BeginInvoke(in Valve.VR.Texture_t[] pTextures, System.UInt32 unTextureCount, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1609BA4
+    // Offset: 0x1E33E24
     System::IAsyncResult* BeginInvoke(::Array<Valve::VR::Texture_t>*& pTextures, uint unTextureCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRCompositorError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1609C40
+    // Offset: 0x1E33EC0
     Valve::VR::EVRCompositorError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_SetSkyboxOverride
 }

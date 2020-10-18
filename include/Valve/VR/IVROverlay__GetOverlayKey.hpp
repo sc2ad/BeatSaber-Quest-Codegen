@@ -36,16 +36,16 @@ namespace Valve::VR {
   class IVROverlay::_GetOverlayKey : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1611840
+    // Offset: 0x1E3BAC0
     static IVROverlay::_GetOverlayKey* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.UInt64 ulOverlayHandle, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, ref Valve.VR.EVROverlayError pError)
-    // Offset: 0x1611854
+    // Offset: 0x1E3BAD4
     uint Invoke(uint64_t ulOverlayHandle, System::Text::StringBuilder* pchValue, uint unBufferSize, Valve::VR::EVROverlayError& pError);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, ref Valve.VR.EVROverlayError pError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1611B04
+    // Offset: 0x1E3BD84
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, System::Text::StringBuilder* pchValue, uint unBufferSize, Valve::VR::EVROverlayError& pError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(ref Valve.VR.EVROverlayError pError, System.IAsyncResult result)
-    // Offset: 0x1611BDC
+    // Offset: 0x1E3BE5C
     uint EndInvoke(Valve::VR::EVROverlayError& pError, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_GetOverlayKey
 }

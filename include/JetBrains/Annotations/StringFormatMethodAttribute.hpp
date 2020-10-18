@@ -21,13 +21,13 @@ namespace JetBrains::Annotations {
       return FormatParameterName;
     }
     // public System.Void .ctor(System.String formatParameterName)
-    // Offset: 0x19617F4
+    // Offset: 0x220C67C
     static StringFormatMethodAttribute* New_ctor(::Il2CppString* formatParameterName);
     // public System.String get_FormatParameterName()
-    // Offset: 0x1961828
+    // Offset: 0x220C6B0
     ::Il2CppString* get_FormatParameterName();
     // private System.Void set_FormatParameterName(System.String value)
-    // Offset: 0x1961830
+    // Offset: 0x220C6B8
     void set_FormatParameterName(::Il2CppString* value);
   }; // JetBrains.Annotations.StringFormatMethodAttribute
 }

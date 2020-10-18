@@ -29,19 +29,19 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::Material* material;
     // public System.Void .ctor(UnityEngine.Mesh mesh, UnityEngine.Material material)
-    // Offset: 0xD92904
+    // Offset: 0x1242F54
     static SteamVR_RenderModel::RenderModel* New_ctor(UnityEngine::Mesh* mesh, UnityEngine::Material* material);
     // public UnityEngine.Mesh get_mesh()
-    // Offset: 0xD93B70
+    // Offset: 0x12441C0
     UnityEngine::Mesh* get_mesh();
     // private System.Void set_mesh(UnityEngine.Mesh value)
-    // Offset: 0xD93B78
+    // Offset: 0x12441C8
     void set_mesh(UnityEngine::Mesh* value);
     // public UnityEngine.Material get_material()
-    // Offset: 0xD93B80
+    // Offset: 0x12441D0
     UnityEngine::Material* get_material();
     // private System.Void set_material(UnityEngine.Material value)
-    // Offset: 0xD93B88
+    // Offset: 0x12441D8
     void set_material(UnityEngine::Material* value);
   }; // SteamVR_RenderModel/RenderModel
 }

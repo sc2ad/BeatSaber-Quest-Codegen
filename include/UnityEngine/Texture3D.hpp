@@ -32,43 +32,43 @@ namespace UnityEngine {
   class Texture3D : public UnityEngine::Texture {
     public:
     // static private System.Boolean Internal_CreateImpl(UnityEngine.Texture3D mono, System.Int32 w, System.Int32 h, System.Int32 d, System.Int32 mipCount, UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags)
-    // Offset: 0x13967E8
+    // Offset: 0x1994214
     static bool Internal_CreateImpl(UnityEngine::Texture3D* mono, int w, int h, int d, int mipCount, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
     // static private System.Void Internal_Create(UnityEngine.Texture3D mono, System.Int32 w, System.Int32 h, System.Int32 d, System.Int32 mipCount, UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags)
-    // Offset: 0x1396870
+    // Offset: 0x199429C
     static void Internal_Create(UnityEngine::Texture3D* mono, int w, int h, int d, int mipCount, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
     // private System.Void ApplyImpl(System.Boolean updateMipmaps, System.Boolean makeNoLongerReadable)
-    // Offset: 0x139695C
+    // Offset: 0x1994388
     void ApplyImpl(bool updateMipmaps, bool makeNoLongerReadable);
     // public System.Void SetPixels32(UnityEngine.Color32[] colors, System.Int32 miplevel)
-    // Offset: 0x13969B4
+    // Offset: 0x19943E0
     void SetPixels32(::Array<UnityEngine::Color32>* colors, int miplevel);
     // public System.Void SetPixels32(UnityEngine.Color32[] colors)
-    // Offset: 0x1396A0C
+    // Offset: 0x1994438
     void SetPixels32(::Array<UnityEngine::Color32>* colors);
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.Experimental.Rendering.DefaultFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags)
-    // Offset: 0x1396A60
+    // Offset: 0x199448C
     static Texture3D* New_ctor(int width, int height, int depth, UnityEngine::Experimental::Rendering::DefaultFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags)
-    // Offset: 0x1396AE8
+    // Offset: 0x1994514
     static Texture3D* New_ctor(int width, int height, int depth, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags, System.Int32 mipCount)
-    // Offset: 0x1396B98
+    // Offset: 0x19945C4
     static Texture3D* New_ctor(int width, int height, int depth, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int mipCount);
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.TextureFormat textureFormat, System.Int32 mipCount)
-    // Offset: 0x1396C78
+    // Offset: 0x19946A4
     static Texture3D* New_ctor(int width, int height, int depth, UnityEngine::TextureFormat textureFormat, int mipCount);
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.TextureFormat textureFormat, System.Boolean mipChain)
-    // Offset: 0x1396D80
+    // Offset: 0x19947AC
     static Texture3D* New_ctor(int width, int height, int depth, UnityEngine::TextureFormat textureFormat, bool mipChain);
     // public System.Void Apply(System.Boolean updateMipmaps, System.Boolean makeNoLongerReadable)
-    // Offset: 0x1396DA0
+    // Offset: 0x19947CC
     void Apply(bool updateMipmaps, bool makeNoLongerReadable);
     // public System.Void Apply()
-    // Offset: 0x1396E48
+    // Offset: 0x1994874
     void Apply();
     // public override System.Boolean get_isReadable()
-    // Offset: 0x13967A8
+    // Offset: 0x19941D4
     // Implemented from: UnityEngine.Texture
     // Base method: System.Boolean Texture::get_isReadable()
     bool get_isReadable();

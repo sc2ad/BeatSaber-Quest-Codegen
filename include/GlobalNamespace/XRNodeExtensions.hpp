@@ -21,10 +21,10 @@ namespace GlobalNamespace {
   class XRNodeExtensions : public ::Il2CppObject {
     public:
     // static public OVRPlugin/Node OculusNode(UnityEngine.XR.XRNode node)
-    // Offset: 0xCC05F8
+    // Offset: 0x21EF730
     static GlobalNamespace::OVRPlugin::Node OculusNode(UnityEngine::XR::XRNode node);
     // static public System.Int32 PSMoveDeviceIndex(UnityEngine.XR.XRNode node)
-    // Offset: 0xCC0BA4
+    // Offset: 0x21EF800
     static int PSMoveDeviceIndex(UnityEngine::XR::XRNode node);
   }; // XRNodeExtensions
 }

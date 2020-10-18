@@ -46,16 +46,16 @@ namespace RootMotion::FinalIK {
     // Offset: 0x29
     bool fixYAxis;
     // public UnityEngine.Vector3 get_offset3D()
-    // Offset: 0x12313DC
+    // Offset: 0x18E5514
     UnityEngine::Vector3 get_offset3D();
     // public UnityEngine.Vector3 get_direction3D()
-    // Offset: 0x1231418
+    // Offset: 0x18E5550
     UnityEngine::Vector3 get_direction3D();
     // public System.Boolean IsInRange(UnityEngine.Transform character, UnityEngine.Transform trigger, out System.Single error)
-    // Offset: 0x1231510
+    // Offset: 0x18E5648
     bool IsInRange(UnityEngine::Transform* character, UnityEngine::Transform* trigger, float& error);
     // public System.Void .ctor()
-    // Offset: 0x1231B8C
+    // Offset: 0x18E5CC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InteractionTrigger::CharacterPosition* New_ctor();

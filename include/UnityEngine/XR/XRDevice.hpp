@@ -31,22 +31,22 @@ namespace UnityEngine::XR {
     // Set static field: static private System.Action`1<System.String> deviceLoaded
     static void _set_deviceLoaded(System::Action_1<::Il2CppString*>* value);
     // static public System.Boolean get_isPresent()
-    // Offset: 0x197E670
+    // Offset: 0x2228474
     static bool get_isPresent();
     // static public System.String get_model()
-    // Offset: 0x197E6A4
+    // Offset: 0x22284A8
     static ::Il2CppString* get_model();
     // static public System.IntPtr GetNativePtr()
-    // Offset: 0x197E6D8
+    // Offset: 0x22284DC
     static System::IntPtr GetNativePtr();
     // static public System.Boolean SetTrackingSpaceType(UnityEngine.XR.TrackingSpaceType trackingSpaceType)
-    // Offset: 0x197E70C
+    // Offset: 0x2228510
     static bool SetTrackingSpaceType(UnityEngine::XR::TrackingSpaceType trackingSpaceType);
     // static private System.Void InvokeDeviceLoaded(System.String loadedDeviceName)
-    // Offset: 0x197E74C
+    // Offset: 0x2228550
     static void InvokeDeviceLoaded(::Il2CppString* loadedDeviceName);
     // static private System.Void .cctor()
-    // Offset: 0x197E804
+    // Offset: 0x2228608
     static void _cctor();
   }; // UnityEngine.XR.XRDevice
 }

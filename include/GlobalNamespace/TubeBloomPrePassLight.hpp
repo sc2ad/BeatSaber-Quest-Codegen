@@ -57,59 +57,100 @@ namespace GlobalNamespace {
     // private System.Single _bloomFogIntensityMultiplier
     // Offset: 0x58
     float bloomFogIntensityMultiplier;
-    // private System.Single _minAlpha
+    // private System.Boolean _forceUseBakedGlow
     // Offset: 0x5C
+    bool forceUseBakedGlow;
+    // private System.Single _lightWidthMultiplier
+    // Offset: 0x60
+    float lightWidthMultiplier;
+    // private System.Boolean _addWidthToLength
+    // Offset: 0x64
+    bool addWidthToLength;
+    // private System.Boolean _limitAlpha
+    // Offset: 0x65
+    bool limitAlpha;
+    // private System.Single _minAlpha
+    // Offset: 0x68
     float minAlpha;
     // private System.Single _maxAlpha
-    // Offset: 0x60
+    // Offset: 0x6C
     float maxAlpha;
-    // private System.Boolean _forceUseBakedGlow
-    // Offset: 0x64
-    bool forceUseBakedGlow;
+    // private System.Single _startAlpha
+    // Offset: 0x70
+    float startAlpha;
+    // private System.Single _endAlpha
+    // Offset: 0x74
+    float endAlpha;
     // private ParametricBoxController _parametricBoxController
-    // Offset: 0x68
+    // Offset: 0x78
     GlobalNamespace::ParametricBoxController* parametricBoxController;
     // private Parametric3SliceSpriteController _dynamic3SliceSprite
-    // Offset: 0x70
+    // Offset: 0x80
     GlobalNamespace::Parametric3SliceSpriteController* dynamic3SliceSprite;
     // private UnityEngine.Transform _transform
-    // Offset: 0x78
+    // Offset: 0x88
     UnityEngine::Transform* transform;
+    // public System.Single get_length()
+    // Offset: 0x1FB2CFC
+    float get_length();
+    // public System.Void set_length(System.Single value)
+    // Offset: 0x1FB2D04
+    void set_length(float value);
+    // public System.Single get_width()
+    // Offset: 0x1FB2FC4
+    float get_width();
+    // public System.Void set_width(System.Single value)
+    // Offset: 0x1FB2FCC
+    void set_width(float value);
+    // public System.Single get_lightWidthMultiplier()
+    // Offset: 0x1FB2FD4
+    float get_lightWidthMultiplier();
+    // public System.Void set_lightWidthMultiplier(System.Single value)
+    // Offset: 0x1FB2FDC
+    void set_lightWidthMultiplier(float value);
+    // public System.Single get_bloomFogIntensityMultiplier()
+    // Offset: 0x1FB2FE4
+    float get_bloomFogIntensityMultiplier();
+    // public System.Void set_bloomFogIntensityMultiplier(System.Single value)
+    // Offset: 0x1FB2FEC
+    void set_bloomFogIntensityMultiplier(float value);
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x183008C
+    // Offset: 0x1FB2FF4
     void set_color(UnityEngine::Color value);
     // public UnityEngine.Color get_color()
-    // Offset: 0x1830208
+    // Offset: 0x1FB3170
     UnityEngine::Color get_color();
-    // protected System.Void Awake()
-    // Offset: 0x1830270
-    void Awake();
-    // private System.Void Refresh()
-    // Offset: 0x18302C4
+    // public System.Void Refresh()
+    // Offset: 0x1FB2D0C
     void Refresh();
     // private System.Void ClipPoints(ref UnityEngine.Vector4 fromPointClipPos, ref UnityEngine.Vector4 toPointClipPos, ref UnityEngine.Vector3 fromPointViewPos, ref UnityEngine.Vector3 toPointViewPos, System.Boolean fromPointInside, System.Single t)
-    // Offset: 0x18311E0
+    // Offset: 0x1FB3F74
     void ClipPoints(UnityEngine::Vector4& fromPointClipPos, UnityEngine::Vector4& toPointClipPos, UnityEngine::Vector3& fromPointViewPos, UnityEngine::Vector3& toPointViewPos, bool fromPointInside, float t);
     // protected System.Void OnDrawGizmos()
-    // Offset: 0x183145C
+    // Offset: 0x1FB41F0
     void OnDrawGizmos();
     // static protected System.Void NoDomainReloadInit()
-    // Offset: 0x1830214
+    // Offset: 0x1FB317C
     // Implemented from: BloomPrePassLight
     // Base method: System.Void BloomPrePassLight::NoDomainReloadInit()
     static void NoDomainReloadInit();
     // protected override System.Void OnEnable()
-    // Offset: 0x18302A0
+    // Offset: 0x1FB31D8
     // Implemented from: BloomPrePassLight
     // Base method: System.Void BloomPrePassLight::OnEnable()
     void OnEnable();
+    // protected override System.Void DidRegisterLight()
+    // Offset: 0x1FB3208
+    // Implemented from: BloomPrePassLight
+    // Base method: System.Void BloomPrePassLight::DidRegisterLight()
+    void DidRegisterLight();
     // public override System.Void FillMeshData(System.Int32 lightNum, UnityEngine.Vector3[] vertices, UnityEngine.Color[] colors, UnityEngine.Vector4[] viewPos, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix, System.Single lineWidth)
-    // Offset: 0x1830514
+    // Offset: 0x1FB3238
     // Implemented from: BloomPrePassLight
     // Base method: System.Void BloomPrePassLight::FillMeshData(System.Int32 lightNum, UnityEngine.Vector3[] vertices, UnityEngine.Color[] colors, UnityEngine.Vector4[] viewPos, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix, System.Single lineWidth)
     void FillMeshData(int lightNum, ::Array<UnityEngine::Vector3>* vertices, ::Array<UnityEngine::Color>* colors, ::Array<UnityEngine::Vector4>* viewPos, UnityEngine::Matrix4x4 viewMatrix, UnityEngine::Matrix4x4 projectionMatrix, float lineWidth);
     // public System.Void .ctor()
-    // Offset: 0x1831630
+    // Offset: 0x1FB43C4
     // Implemented from: BloomPrePassLight
     // Base method: System.Void BloomPrePassLight::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

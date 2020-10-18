@@ -72,48 +72,48 @@ namespace GlobalNamespace {
       static void _set_Back(GlobalNamespace::SoloModeSelectionViewController::MenuType value);
     }; // SoloModeSelectionViewController/MenuType
     // private UnityEngine.UI.Button _freePlayModeButton
-    // Offset: 0x68
+    // Offset: 0x70
     UnityEngine::UI::Button* freePlayModeButton;
     // private UnityEngine.UI.Button _oneSaberModeButton
-    // Offset: 0x70
+    // Offset: 0x78
     UnityEngine::UI::Button* oneSaberModeButton;
     // private UnityEngine.UI.Button _noArrowsModeButton
-    // Offset: 0x78
+    // Offset: 0x80
     UnityEngine::UI::Button* noArrowsModeButton;
     // private UnityEngine.UI.Button _dismissButton
-    // Offset: 0x80
+    // Offset: 0x88
     UnityEngine::UI::Button* dismissButton;
     // private System.Action`2<SoloModeSelectionViewController,SoloModeSelectionViewController/MenuType> didFinishEvent
-    // Offset: 0x88
+    // Offset: 0x90
     System::Action_2<GlobalNamespace::SoloModeSelectionViewController*, GlobalNamespace::SoloModeSelectionViewController::MenuType>* didFinishEvent;
     // public System.Void add_didFinishEvent(System.Action`2<SoloModeSelectionViewController,SoloModeSelectionViewController/MenuType> value)
-    // Offset: 0xB9BFEC
+    // Offset: 0xEF1CAC
     void add_didFinishEvent(System::Action_2<GlobalNamespace::SoloModeSelectionViewController*, GlobalNamespace::SoloModeSelectionViewController::MenuType>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<SoloModeSelectionViewController,SoloModeSelectionViewController/MenuType> value)
-    // Offset: 0xB9C090
+    // Offset: 0xEF1D50
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::SoloModeSelectionViewController*, GlobalNamespace::SoloModeSelectionViewController::MenuType>* value);
     // private System.Void HandleMenuButton(SoloModeSelectionViewController/MenuType subMenuType)
-    // Offset: 0xB9C2B8
+    // Offset: 0xEF1F78
     void HandleMenuButton(GlobalNamespace::SoloModeSelectionViewController::MenuType subMenuType);
     // private System.Void <DidActivate>b__8_0()
-    // Offset: 0xB9C338
+    // Offset: 0xEF1FF8
     void $DidActivate$b__8_0();
     // private System.Void <DidActivate>b__8_1()
-    // Offset: 0xB9C340
+    // Offset: 0xEF2000
     void $DidActivate$b__8_1();
     // private System.Void <DidActivate>b__8_2()
-    // Offset: 0xB9C348
+    // Offset: 0xEF2008
     void $DidActivate$b__8_2();
     // private System.Void <DidActivate>b__8_3()
-    // Offset: 0xB9C350
+    // Offset: 0xEF2010
     void $DidActivate$b__8_3();
-    // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xB9C134
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0xEF1DF4
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xB9C330
+    // Offset: 0xEF1FF0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

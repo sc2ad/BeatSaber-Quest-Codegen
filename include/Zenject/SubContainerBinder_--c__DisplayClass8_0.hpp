@@ -38,10 +38,10 @@ namespace Zenject {
       return subContainerGetter;
     }
     // Zenject.ISubContainerCreator <ByInstanceGetter>b__0(Zenject.DiContainer _)
-    // Offset: 0xFD1160
+    // Offset: 0x151F0FC
     Zenject::ISubContainerCreator* $ByInstanceGetter$b__0(Zenject::DiContainer* _);
     // public System.Void .ctor()
-    // Offset: 0xFCF564
+    // Offset: 0x151D500
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SubContainerBinder::$$c__DisplayClass8_0* New_ctor();

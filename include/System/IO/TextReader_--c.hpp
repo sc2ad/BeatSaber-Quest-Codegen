@@ -18,16 +18,16 @@ namespace System::IO {
     // Set static field: static public readonly System.IO.TextReader/<>c <>9
     static void _set_$$9(System::IO::TextReader::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x100F7E8
+    // Offset: 0x1594F28
     static void _cctor();
     // System.String <.cctor>b__22_0(System.Object state)
-    // Offset: 0x100F858
+    // Offset: 0x1594F98
     ::Il2CppString* $_cctor$b__22_0(::Il2CppObject* state);
     // System.Int32 <.cctor>b__22_1(System.Object state)
-    // Offset: 0x100F910
+    // Offset: 0x1595050
     int $_cctor$b__22_1(::Il2CppObject* state);
     // public System.Void .ctor()
-    // Offset: 0x100F850
+    // Offset: 0x1594F90
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TextReader::$$c* New_ctor();

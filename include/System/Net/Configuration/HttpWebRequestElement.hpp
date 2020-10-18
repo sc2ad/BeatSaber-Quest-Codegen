@@ -21,12 +21,12 @@ namespace System::Net::Configuration {
   class HttpWebRequestElement : public System::Configuration::ConfigurationElement {
     public:
     // public System.Void .ctor()
-    // Offset: 0xF6CDA8
+    // Offset: 0x14D7C38
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HttpWebRequestElement* New_ctor();
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0xF6CDE8
+    // Offset: 0x14D7C78
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     System::Configuration::ConfigurationPropertyCollection* get_Properties();

@@ -33,16 +33,16 @@ namespace UnityEngine::EventSystems {
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // public System.Void .ctor(UnityEngine.EventSystems.EventSystem eventSystem)
-    // Offset: 0xDFA708
+    // Offset: 0x1279278
     static BaseEventData* New_ctor(UnityEngine::EventSystems::EventSystem* eventSystem);
     // public UnityEngine.EventSystems.BaseInputModule get_currentInputModule()
-    // Offset: 0xDFA73C
+    // Offset: 0x12792AC
     UnityEngine::EventSystems::BaseInputModule* get_currentInputModule();
     // public UnityEngine.GameObject get_selectedObject()
-    // Offset: 0xDFA758
+    // Offset: 0x12792C8
     UnityEngine::GameObject* get_selectedObject();
     // public System.Void set_selectedObject(UnityEngine.GameObject value)
-    // Offset: 0xDFA774
+    // Offset: 0x12792E4
     void set_selectedObject(UnityEngine::GameObject* value);
   }; // UnityEngine.EventSystems.BaseEventData
 }

@@ -33,31 +33,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Camera get_camera()
-    // Offset: 0xBFD07C
+    // Offset: 0x1043700
     UnityEngine::Camera* get_camera();
     // public System.Void set_enableCamera(System.Boolean value)
-    // Offset: 0xBFD084
+    // Offset: 0x1043708
     void set_enableCamera(bool value);
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0xBFD0B8
+    // Offset: 0x104373C
     UnityEngine::Vector3 get_position();
     // public UnityEngine.Quaternion get_rotation()
-    // Offset: 0xBFD0D4
+    // Offset: 0x1043758
     UnityEngine::Quaternion get_rotation();
     // protected System.Void Awake()
-    // Offset: 0xBFD0F0
+    // Offset: 0x1043774
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0xBFD16C
+    // Offset: 0x10437F0
     void OnEnable();
     // protected System.Void Update()
-    // Offset: 0xBFD170
+    // Offset: 0x10437F4
     void Update();
     // protected System.Void OnDisable()
-    // Offset: 0xBFD174
+    // Offset: 0x10437F8
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0xBFD178
+    // Offset: 0x10437FC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -48,38 +48,41 @@ namespace GlobalNamespace {
     // private System.Single _bloomIntensity
     // Offset: 0x38
     float bloomIntensity;
-    // private System.Single _pyramidWeightsParam
+    // private System.Single _downBloomIntensityOffset
     // Offset: 0x3C
+    float downBloomIntensityOffset;
+    // private System.Single _pyramidWeightsParam
+    // Offset: 0x40
     float pyramidWeightsParam;
     // private System.Single _alphaWeights
-    // Offset: 0x40
+    // Offset: 0x44
     float alphaWeights;
     // private PyramidBloomRendererSO/Pass _preFilterPass
-    // Offset: 0x44
+    // Offset: 0x48
     GlobalNamespace::PyramidBloomRendererSO::Pass preFilterPass;
     // private PyramidBloomRendererSO/Pass _downsamplePass
-    // Offset: 0x48
+    // Offset: 0x4C
     GlobalNamespace::PyramidBloomRendererSO::Pass downsamplePass;
     // private PyramidBloomRendererSO/Pass _upsamplePass
-    // Offset: 0x4C
+    // Offset: 0x50
     GlobalNamespace::PyramidBloomRendererSO::Pass upsamplePass;
     // private PyramidBloomRendererSO/Pass _finalUpsamplePass
-    // Offset: 0x50
+    // Offset: 0x54
     GlobalNamespace::PyramidBloomRendererSO::Pass finalUpsamplePass;
     // private System.Int32 _bloomTextureWidth
-    // Offset: 0x54
+    // Offset: 0x58
     int bloomTextureWidth;
     // private System.Single _baseColorBoost
-    // Offset: 0x58
+    // Offset: 0x5C
     float baseColorBoost;
     // private System.Single _baseColorBoostThreshold
-    // Offset: 0x5C
+    // Offset: 0x60
     float baseColorBoostThreshold;
     // private UnityEngine.Material _fadeMaterial
-    // Offset: 0x60
+    // Offset: 0x68
     UnityEngine::Material* fadeMaterial;
     // private UnityEngine.Material _mainEffectMaterial
-    // Offset: 0x68
+    // Offset: 0x70
     UnityEngine::Material* mainEffectMaterial;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
@@ -92,33 +95,33 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _bloomIntensityID
     static void _set__bloomIntensityID(int value);
     // protected System.Void OnDisable()
-    // Offset: 0x1914830
+    // Offset: 0x21A446C
     void OnDisable();
     // private System.Void LazyInitializeMaterials()
-    // Offset: 0x19146CC
+    // Offset: 0x21A4308
     void LazyInitializeMaterials();
     // public override System.Boolean get_hasPostProcessEffect()
-    // Offset: 0x191469C
+    // Offset: 0x21A42D8
     // Implemented from: MainEffectSO
     // Base method: System.Boolean MainEffectSO::get_hasPostProcessEffect()
     bool get_hasPostProcessEffect();
     // protected override System.Void OnEnable()
-    // Offset: 0x19146A4
+    // Offset: 0x21A42E0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public override System.Void PreRender()
-    // Offset: 0x1914884
+    // Offset: 0x21A44C0
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::PreRender()
     void PreRender();
     // public override System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single fade)
-    // Offset: 0x19148F8
+    // Offset: 0x21A4534
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single fade)
     void Render(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest, float fade);
     // public System.Void .ctor()
-    // Offset: 0x1914B7C
+    // Offset: 0x21A47BC
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -127,7 +130,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PyramidBloomMainEffectSO* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1914BB0
+    // Offset: 0x21A47F8
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

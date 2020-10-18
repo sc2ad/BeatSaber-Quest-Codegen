@@ -28,7 +28,7 @@ namespace System {
       return m_loadedAssembly;
     }
     // public System.Void .ctor(System.Reflection.Assembly loadedAssembly)
-    // Offset: 0x1330620
+    // Offset: 0x15C0FD8
     static AssemblyLoadEventArgs* New_ctor(System::Reflection::Assembly* loadedAssembly);
   }; // System.AssemblyLoadEventArgs
 }

@@ -29,12 +29,12 @@ namespace UnityEngine::XR {
   class XRMeshSubsystem : public UnityEngine::IntegratedSubsystem_1<UnityEngine::XR::XRMeshSubsystemDescriptor*> {
     public:
     // private System.Void InvokeMeshReadyDelegate(UnityEngine.XR.MeshGenerationResult result, System.Action`1<UnityEngine.XR.MeshGenerationResult> onMeshGenerationComplete)
-    // Offset: 0x19682FC
+    // Offset: 0x220EC60
     void InvokeMeshReadyDelegate(UnityEngine::XR::MeshGenerationResult result, System::Action_1<UnityEngine::XR::MeshGenerationResult>* onMeshGenerationComplete);
     // public System.Void .ctor()
-    // Offset: 0x1968388
+    // Offset: 0x220ECEC
     // Implemented from: UnityEngine.IntegratedSubsystem`1
-    // Base method: System.Void IntegratedSubsystem`1::.ctor()
+    // Base method: System.Void IntegratedSubsystem_1::.ctor()
     // Base method: System.Void IntegratedSubsystem::.ctor()
     // Base method: System.Void Object::.ctor()
     static XRMeshSubsystem* New_ctor();

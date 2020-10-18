@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_GetOverlayTexelAspect : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1529358
+    // Offset: 0x1D6CC60
     static IVROverlay::_GetOverlayTexelAspect* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, ref System.Single pfTexelAspect)
-    // Offset: 0x152936C
+    // Offset: 0x1D6CC74
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, float& pfTexelAspect);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, ref System.Single pfTexelAspect, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x15295F0
+    // Offset: 0x1D6CEF8
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, float& pfTexelAspect, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(ref System.Single pfTexelAspect, System.IAsyncResult result)
-    // Offset: 0x15296A0
+    // Offset: 0x1D6CFA8
     OVR::OpenVR::EVROverlayError EndInvoke(float& pfTexelAspect, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetOverlayTexelAspect
 }

@@ -42,16 +42,16 @@ namespace UnityEngine::UI {
     // Set static field: static public System.Func`2<UnityEngine.UI.Toggle,System.Boolean> <>9__13_0
     static void _set_$$9__13_0(System::Func_2<UnityEngine::UI::Toggle*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x19378F8
+    // Offset: 0x21DD1DC
     static void _cctor();
     // System.Boolean <AnyTogglesOn>b__12_0(UnityEngine.UI.Toggle x)
-    // Offset: 0x1937968
+    // Offset: 0x21DD24C
     bool $AnyTogglesOn$b__12_0(UnityEngine::UI::Toggle* x);
     // System.Boolean <ActiveToggles>b__13_0(UnityEngine.UI.Toggle x)
-    // Offset: 0x1937980
+    // Offset: 0x21DD264
     bool $ActiveToggles$b__13_0(UnityEngine::UI::Toggle* x);
     // public System.Void .ctor()
-    // Offset: 0x1937960
+    // Offset: 0x21DD244
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ToggleGroup::$$c* New_ctor();

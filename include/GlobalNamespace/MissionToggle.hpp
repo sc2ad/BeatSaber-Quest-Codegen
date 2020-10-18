@@ -112,71 +112,71 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_selectionDidChangeEvent(System.Action`1<MissionToggle> value)
-    // Offset: 0xC0A630
+    // Offset: 0xFBF4C0
     void add_selectionDidChangeEvent(System::Action_1<GlobalNamespace::MissionToggle*>* value);
     // public System.Void remove_selectionDidChangeEvent(System.Action`1<MissionToggle> value)
-    // Offset: 0xC0A818
+    // Offset: 0xFBF564
     void remove_selectionDidChangeEvent(System::Action_1<GlobalNamespace::MissionToggle*>* value);
     // public System.Void set_missionCleared(System.Boolean value)
-    // Offset: 0xC0F460
+    // Offset: 0xFBF608
     void set_missionCleared(bool value);
     // public System.Boolean get_selected()
-    // Offset: 0xC0F46C
+    // Offset: 0xFBF614
     bool get_selected();
     // public System.Void set_selected(System.Boolean value)
-    // Offset: 0xC0A518
+    // Offset: 0xFBF61C
     void set_selected(bool value);
     // public System.Boolean get_interactable()
-    // Offset: 0xC0F474
+    // Offset: 0xFBF6E8
     bool get_interactable();
     // public System.Void set_interactable(System.Boolean value)
-    // Offset: 0xC0A6D4
+    // Offset: 0xFBF6F0
     void set_interactable(bool value);
     // public System.Boolean get_highlighted()
-    // Offset: 0xC0F79C
+    // Offset: 0xFBFA1C
     bool get_highlighted();
     // public System.Void ChangeSelection(System.Boolean value, System.Boolean callSelectionDidChange, System.Boolean ignoreCurrentValue)
-    // Offset: 0xC0A950
+    // Offset: 0xFBF62C
     void ChangeSelection(bool value, bool callSelectionDidChange, bool ignoreCurrentValue);
     // public System.Void ChangeHighlight(System.Boolean value, System.Boolean ignoreCurrentValue)
-    // Offset: 0xC0F7CC
+    // Offset: 0xFBFA4C
     void ChangeHighlight(bool value, bool ignoreCurrentValue);
     // public System.Void SetText(System.String text)
-    // Offset: 0xC0A8BC
+    // Offset: 0xFBFA74
     void SetText(::Il2CppString* text);
     // private System.Void InternalToggle()
-    // Offset: 0xC0F7F4
+    // Offset: 0xFBFA90
     void InternalToggle();
     // private System.Void RefreshUI()
-    // Offset: 0xC0F47C
+    // Offset: 0xFBF6FC
     void RefreshUI();
     // protected override System.Void Start()
-    // Offset: 0xC0F7A4
+    // Offset: 0xFBFA24
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::Start()
     void Start();
     // public System.Void OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0xC0F830
+    // Offset: 0xFBFACC
     // Implemented from: UnityEngine.EventSystems.IPointerClickHandler
     // Base method: System.Void IPointerClickHandler::OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerClick(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnSubmit(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0xC0F8F4
+    // Offset: 0xFBFB90
     // Implemented from: UnityEngine.EventSystems.ISubmitHandler
     // Base method: System.Void ISubmitHandler::OnSubmit(UnityEngine.EventSystems.BaseEventData eventData)
     void OnSubmit(UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0xC0F99C
+    // Offset: 0xFBFC38
     // Implemented from: UnityEngine.EventSystems.IPointerEnterHandler
     // Base method: System.Void IPointerEnterHandler::OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0xC0F9BC
+    // Offset: 0xFBFC58
     // Implemented from: UnityEngine.EventSystems.IPointerExitHandler
     // Base method: System.Void IPointerExitHandler::OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerExit(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0xC0F9D8
+    // Offset: 0xFBFC74
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

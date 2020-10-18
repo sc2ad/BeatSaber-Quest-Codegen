@@ -34,16 +34,16 @@ namespace Mono {
       return handle;
     }
     // System.Void .ctor(System.IntPtr ptr)
-    // Offset: 0xA40948
+    // Offset: 0xDBB710
     SafeGPtrArrayHandle(System::IntPtr ptr);
     // System.Int32 get_Length()
-    // Offset: 0xA4099C
+    // Offset: 0xDBB764
     int get_Length();
     // System.IntPtr get_Item(System.Int32 i)
-    // Offset: 0xA409B8
+    // Offset: 0xDBB780
     System::IntPtr get_Item(int i);
     // public System.Void Dispose()
-    // Offset: 0xA40974
+    // Offset: 0xDBB73C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

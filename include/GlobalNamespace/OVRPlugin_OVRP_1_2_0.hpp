@@ -25,13 +25,13 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static public OVRPlugin/Bool ovrp_SetSystemVSyncCount(System.Int32 vsyncCount)
-    // Offset: 0xF47584
+    // Offset: 0x1492398
     static GlobalNamespace::OVRPlugin::Bool ovrp_SetSystemVSyncCount(int vsyncCount);
     // static public OVRPlugin/Bool ovrpi_SetTrackingCalibratedOrigin()
-    // Offset: 0xF47604
+    // Offset: 0x1492418
     static GlobalNamespace::OVRPlugin::Bool ovrpi_SetTrackingCalibratedOrigin();
     // static private System.Void .cctor()
-    // Offset: 0xF47678
+    // Offset: 0x149248C
     static void _cctor();
   }; // OVRPlugin/OVRP_1_2_0
 }

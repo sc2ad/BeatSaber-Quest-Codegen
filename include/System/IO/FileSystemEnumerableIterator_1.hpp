@@ -132,23 +132,28 @@ namespace System::IO {
     // protected override System.IO.Iterator`1<TSource> Clone()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.IO.Iterator`1
-    // Base method: System.IO.Iterator`1<TSource> Iterator`1::Clone()
+    // Base method: System.IO.Iterator`1<TSource> Iterator_1::Clone()
     System::IO::Iterator_1<TSource>* Clone() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::IO::Iterator_1<TSource>*>(this, "Clone"));
     }
     // protected override System.Void Dispose(System.Boolean disposing)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.IO.Iterator`1
-    // Base method: System.Void Iterator`1::Dispose(System.Boolean disposing)
+    // Base method: System.Void Iterator_1::Dispose(System.Boolean disposing)
     void Dispose(bool disposing) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose", disposing));
     }
     // public override System.Boolean MoveNext()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.IO.Iterator`1
-    // Base method: System.Boolean Iterator`1::MoveNext()
+    // Base method: System.Boolean Iterator_1::MoveNext()
     bool MoveNext() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "MoveNext"));
+    }
+    // Creating proxy method: System_Collections_IEnumerator_MoveNext
+    // Maps to method: MoveNext
+    bool System_Collections_IEnumerator_MoveNext() {
+      return MoveNext();
     }
   }; // System.IO.FileSystemEnumerableIterator`1
 }

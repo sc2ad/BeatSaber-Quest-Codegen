@@ -22,10 +22,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Il2CppString* achievementId;
     // System.Void <UnlockAchievement>b__0(PlatformAchievementsModelSO/UnlockAchievementResult result)
-    // Offset: 0xB842A4
+    // Offset: 0xFAB4F0
     void $UnlockAchievement$b__0(GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementResult result);
     // public System.Void .ctor()
-    // Offset: 0xB84164
+    // Offset: 0xFAB3B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AchievementsModelSO::$$c__DisplayClass4_0* New_ctor();

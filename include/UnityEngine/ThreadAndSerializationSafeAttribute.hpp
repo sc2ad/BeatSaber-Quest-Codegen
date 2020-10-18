@@ -14,7 +14,7 @@ namespace UnityEngine {
   class ThreadAndSerializationSafeAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1975558
+    // Offset: 0x22242B0
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -14,7 +14,7 @@ namespace UnityEngine {
   class RuntimeAnimatorController : public UnityEngine::Object {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x19422BC
+    // Offset: 0x21EA078
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()

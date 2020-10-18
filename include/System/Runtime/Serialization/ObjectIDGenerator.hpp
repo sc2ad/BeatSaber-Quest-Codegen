@@ -28,22 +28,22 @@ namespace System::Runtime::Serialization {
     // Set static field: static private readonly System.Int32[] sizes
     static void _set_sizes(::Array<int>* value);
     // private System.Int32 FindElement(System.Object obj, out System.Boolean found)
-    // Offset: 0xFFC02C
+    // Offset: 0x14D11C0
     int FindElement(::Il2CppObject* obj, bool& found);
     // public System.Int64 GetId(System.Object obj, out System.Boolean firstTime)
-    // Offset: 0xFFC104
+    // Offset: 0x14D1298
     int64_t GetId(::Il2CppObject* obj, bool& firstTime);
     // public System.Int64 HasId(System.Object obj, out System.Boolean firstTime)
-    // Offset: 0xFFC5DC
+    // Offset: 0x14D1774
     int64_t HasId(::Il2CppObject* obj, bool& firstTime);
     // private System.Void Rehash()
-    // Offset: 0xFFC2D4
+    // Offset: 0x14D1468
     void Rehash();
     // static private System.Void .cctor()
-    // Offset: 0xFFC6F0
+    // Offset: 0x14D1888
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0xFECE78
+    // Offset: 0x14C559C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ObjectIDGenerator* New_ctor();

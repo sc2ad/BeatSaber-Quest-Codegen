@@ -16,6 +16,8 @@ namespace GlobalNamespace {
 namespace UnityEngine {
   // Forward declaring type: GameObject
   class GameObject;
+  // Forward declaring type: CanvasGroup
+  class CanvasGroup;
 }
 // Completed forward declares
 // Type namespace: 
@@ -37,16 +39,22 @@ namespace GlobalNamespace {
     // private UnityEngine.GameObject _energyPanelGO
     // Offset: 0x30
     UnityEngine::GameObject* energyPanelGO;
-    // private CoreGameHUDController/InitData _initData
+    // private UnityEngine.CanvasGroup _canvasGroup
     // Offset: 0x38
+    UnityEngine::CanvasGroup* canvasGroup;
+    // private readonly CoreGameHUDController/InitData _initData
+    // Offset: 0x40
     GlobalNamespace::CoreGameHUDController::InitData* initData;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // public System.Void set_alpha(System.Single value)
+    // Offset: 0xF288D8
+    void set_alpha(float value);
     // protected System.Void Start()
-    // Offset: 0xBE2C18
+    // Offset: 0xF288F4
     void Start();
     // public System.Void .ctor()
-    // Offset: 0xBE2CA4
+    // Offset: 0xF289A0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

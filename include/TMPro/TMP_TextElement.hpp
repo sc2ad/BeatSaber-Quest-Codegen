@@ -36,34 +36,34 @@ namespace TMPro {
     // Offset: 0x24
     float m_Scale;
     // public TMPro.TextElementType get_elementType()
-    // Offset: 0xDC2BF8
+    // Offset: 0x126102C
     TMPro::TextElementType get_elementType();
     // public System.UInt32 get_unicode()
-    // Offset: 0xDC2C00
+    // Offset: 0x1261034
     uint get_unicode();
     // public System.Void set_unicode(System.UInt32 value)
-    // Offset: 0xDC2C08
+    // Offset: 0x126103C
     void set_unicode(uint value);
     // public UnityEngine.TextCore.Glyph get_glyph()
-    // Offset: 0xDC2C10
+    // Offset: 0x1261044
     UnityEngine::TextCore::Glyph* get_glyph();
     // public System.Void set_glyph(UnityEngine.TextCore.Glyph value)
-    // Offset: 0xDC2C18
+    // Offset: 0x126104C
     void set_glyph(UnityEngine::TextCore::Glyph* value);
     // public System.UInt32 get_glyphIndex()
-    // Offset: 0xDC2C20
+    // Offset: 0x1261054
     uint get_glyphIndex();
     // public System.Void set_glyphIndex(System.UInt32 value)
-    // Offset: 0xDC2C28
+    // Offset: 0x126105C
     void set_glyphIndex(uint value);
     // public System.Single get_scale()
-    // Offset: 0xDC2C30
+    // Offset: 0x1261064
     float get_scale();
     // public System.Void set_scale(System.Single value)
-    // Offset: 0xDC2C38
+    // Offset: 0x126106C
     void set_scale(float value);
     // public System.Void .ctor()
-    // Offset: 0xDC2C40
+    // Offset: 0x1261074
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TMP_TextElement* New_ctor();

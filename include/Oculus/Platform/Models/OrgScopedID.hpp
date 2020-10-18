@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
       return ID;
     }
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xEA6B4C
+    // Offset: 0x1367248
     static OrgScopedID* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.OrgScopedID
 }

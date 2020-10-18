@@ -4,8 +4,8 @@
 // Begin includes
 // Including type: VRRenderingParamsSetup
 #include "GlobalNamespace/VRRenderingParamsSetup.hpp"
-// Including type: VRPlatformHelper
-#include "GlobalNamespace/VRPlatformHelper.hpp"
+// Including type: IVRPlatformHelper
+#include "GlobalNamespace/IVRPlatformHelper.hpp"
 // Including type: FloatSO
 #include "GlobalNamespace/FloatSO.hpp"
 // Including type: BoolSO

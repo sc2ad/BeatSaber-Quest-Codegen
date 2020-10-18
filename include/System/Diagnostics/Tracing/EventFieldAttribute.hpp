@@ -27,13 +27,13 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x20
     System::Diagnostics::Tracing::EventFieldFormat Format;
     // public System.Diagnostics.Tracing.EventFieldTags get_Tags()
-    // Offset: 0xC9B8B4
+    // Offset: 0x147B58C
     System::Diagnostics::Tracing::EventFieldTags get_Tags();
     // System.String get_Name()
-    // Offset: 0xC9B8BC
+    // Offset: 0x147B594
     ::Il2CppString* get_Name();
     // public System.Diagnostics.Tracing.EventFieldFormat get_Format()
-    // Offset: 0xC9B8C4
+    // Offset: 0x147B59C
     System::Diagnostics::Tracing::EventFieldFormat get_Format();
   }; // System.Diagnostics.Tracing.EventFieldAttribute
 }

@@ -14,7 +14,7 @@ namespace JetBrains::Annotations {
   class NotNullAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1302A48
+    // Offset: 0x19DDB24
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

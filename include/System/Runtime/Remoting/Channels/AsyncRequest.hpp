@@ -27,7 +27,7 @@ namespace System::Runtime::Remoting::Channels {
     // Offset: 0x18
     System::Runtime::Remoting::Messaging::IMessage* MsgRequest;
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMessage msgRequest, System.Runtime.Remoting.Messaging.IMessageSink replySink)
-    // Offset: 0x1055F2C
+    // Offset: 0x1297E7C
     static AsyncRequest* New_ctor(System::Runtime::Remoting::Messaging::IMessage* msgRequest, System::Runtime::Remoting::Messaging::IMessageSink* replySink);
   }; // System.Runtime.Remoting.Channels.AsyncRequest
 }

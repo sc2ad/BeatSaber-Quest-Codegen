@@ -14,6 +14,11 @@ namespace System {
   // Forward declaring type: Action
   class Action;
 }
+// Forward declaring namespace: HMUI
+namespace HMUI {
+  // Forward declaring type: ViewController
+  class ViewController;
+}
 // Completed forward declares
 // Type namespace: HMUI
 namespace HMUI {
@@ -29,11 +34,14 @@ namespace HMUI {
     // public System.Action finishedCallback
     // Offset: 0x20
     System::Action* finishedCallback;
+    // public HMUI.ViewController newTopViewController
+    // Offset: 0x28
+    HMUI::ViewController* newTopViewController;
     // System.Void <DismissViewController>b__0()
-    // Offset: 0xEDCAE8
+    // Offset: 0x11B82C8
     void $DismissViewController$b__0();
     // public System.Void .ctor()
-    // Offset: 0xEDBEF8
+    // Offset: 0x11B73E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FlowCoordinator::$$c__DisplayClass39_0* New_ctor();

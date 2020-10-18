@@ -36,10 +36,10 @@ namespace NUnit::Framework::Internal {
     // Set static field: static private NUnit.Framework.Internal.InternalTraceWriter traceWriter
     static void _set_traceWriter(NUnit::Framework::Internal::InternalTraceWriter* value);
     // static public NUnit.Framework.Internal.Logger GetLogger(System.String name)
-    // Offset: 0x18EF3E0
+    // Offset: 0x2173700
     static NUnit::Framework::Internal::Logger* GetLogger(::Il2CppString* name);
     // static public NUnit.Framework.Internal.Logger GetLogger(System.Type type)
-    // Offset: 0x18EF528
+    // Offset: 0x2173848
     static NUnit::Framework::Internal::Logger* GetLogger(System::Type* type);
   }; // NUnit.Framework.Internal.InternalTrace
 }

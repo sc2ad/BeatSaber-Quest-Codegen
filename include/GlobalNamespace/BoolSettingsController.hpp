@@ -21,34 +21,22 @@ namespace GlobalNamespace {
   class BoolSettingsController : public GlobalNamespace::SwitchSettingsController {
     public:
     // private BoolSO _settingsValue
-    // Offset: 0x38
+    // Offset: 0x28
     GlobalNamespace::BoolSO* settingsValue;
-    // private System.String _onLocalizedKey
-    // Offset: 0x40
-    ::Il2CppString* onLocalizedKey;
-    // private System.String _offLocalizedKey
-    // Offset: 0x48
-    ::Il2CppString* offLocalizedKey;
     // protected override System.Boolean GetInitValue()
-    // Offset: 0xB7D020
+    // Offset: 0xF1B640
     // Implemented from: SwitchSettingsController
     // Base method: System.Boolean SwitchSettingsController::GetInitValue()
     bool GetInitValue();
     // protected override System.Void ApplyValue(System.Boolean value)
-    // Offset: 0xB7D070
+    // Offset: 0xF1B690
     // Implemented from: SwitchSettingsController
     // Base method: System.Void SwitchSettingsController::ApplyValue(System.Boolean value)
     void ApplyValue(bool value);
-    // protected override System.String TextForValue(System.Boolean value)
-    // Offset: 0xB7D0D8
-    // Implemented from: SwitchSettingsController
-    // Base method: System.String SwitchSettingsController::TextForValue(System.Boolean value)
-    ::Il2CppString* TextForValue(bool value);
     // public System.Void .ctor()
-    // Offset: 0xB7D0F4
+    // Offset: 0xF1B6F8
     // Implemented from: SwitchSettingsController
     // Base method: System.Void SwitchSettingsController::.ctor()
-    // Base method: System.Void IncDecSettingsController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
     // Base method: System.Void Component::.ctor()

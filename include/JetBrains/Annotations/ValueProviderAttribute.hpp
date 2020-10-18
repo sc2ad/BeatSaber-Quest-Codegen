@@ -21,13 +21,13 @@ namespace JetBrains::Annotations {
       return Name;
     }
     // public System.Void .ctor(System.String name)
-    // Offset: 0x1961928
+    // Offset: 0x220C7B0
     static ValueProviderAttribute* New_ctor(::Il2CppString* name);
     // public System.String get_Name()
-    // Offset: 0x196195C
+    // Offset: 0x220C7E4
     ::Il2CppString* get_Name();
     // private System.Void set_Name(System.String value)
-    // Offset: 0x1961964
+    // Offset: 0x220C7EC
     void set_Name(::Il2CppString* value);
   }; // JetBrains.Annotations.ValueProviderAttribute
 }

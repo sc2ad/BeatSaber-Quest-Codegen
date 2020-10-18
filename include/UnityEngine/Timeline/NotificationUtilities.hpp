@@ -45,10 +45,10 @@ namespace UnityEngine::Timeline {
   class NotificationUtilities : public ::Il2CppObject {
     public:
     // static public UnityEngine.Playables.ScriptPlayable`1<UnityEngine.Timeline.TimeNotificationBehaviour> CreateNotificationsPlayable(UnityEngine.Playables.PlayableGraph graph, System.Collections.Generic.IEnumerable`1<UnityEngine.Timeline.IMarker> markers, UnityEngine.GameObject go)
-    // Offset: 0x109CB74
+    // Offset: 0x1620BFC
     static UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::TimeNotificationBehaviour*> CreateNotificationsPlayable(UnityEngine::Playables::PlayableGraph graph, System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::IMarker*>* markers, UnityEngine::GameObject* go);
     // static public System.Boolean TrackTypeSupportsNotifications(System.Type type)
-    // Offset: 0x109D3C4
+    // Offset: 0x162144C
     static bool TrackTypeSupportsNotifications(System::Type* type);
   }; // UnityEngine.Timeline.NotificationUtilities
 }

@@ -48,40 +48,37 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x28
     bool ownProperties;
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodMessage message)
-    // Offset: 0x1068718
+    // Offset: 0x14F0FC4
     static MessageDictionary* New_ctor(System::Runtime::Remoting::Messaging::IMethodMessage* message);
     // System.Boolean HasUserData()
-    // Offset: 0x1065110
+    // Offset: 0x14F1218
     bool HasUserData();
     // System.Collections.IDictionary get_InternalDictionary()
-    // Offset: 0x1065220
+    // Offset: 0x14F1328
     System::Collections::IDictionary* get_InternalDictionary();
     // public System.Void set_MethodKeys(System.String[] value)
-    // Offset: 0x106B8EC
+    // Offset: 0x14F13C4
     void set_MethodKeys(::Array<::Il2CppString*>* value);
     // protected System.Collections.IDictionary AllocInternalProperties()
-    // Offset: 0x106B8F4
+    // Offset: 0x14F13CC
     System::Collections::IDictionary* AllocInternalProperties();
     // public System.Collections.IDictionary GetInternalProperties()
-    // Offset: 0x1067A10
+    // Offset: 0x14F1434
     System::Collections::IDictionary* GetInternalProperties();
     // private System.Boolean IsOverridenKey(System.String key)
-    // Offset: 0x106B95C
+    // Offset: 0x14F1484
     bool IsOverridenKey(::Il2CppString* key);
     // protected System.Object GetMethodProperty(System.String key)
-    // Offset: 0x1068B38
+    // Offset: 0x14F1804
     ::Il2CppObject* GetMethodProperty(::Il2CppString* key);
     // protected System.Void SetMethodProperty(System.String key, System.Object value)
-    // Offset: 0x1069324
+    // Offset: 0x14F1DC0
     void SetMethodProperty(::Il2CppString* key, ::Il2CppObject* value);
     // public System.Collections.ICollection get_Values()
-    // Offset: 0x106C094
+    // Offset: 0x14F2400
     System::Collections::ICollection* get_Values();
-    // public System.Void Add(System.Object key, System.Object value)
-    // Offset: 0x106BB50
-    void Add(::Il2CppObject* key, ::Il2CppObject* value);
     // public System.Object get_Item(System.Object key)
-    // Offset: 0x106B9F4
+    // Offset: 0x14F151C
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Object IDictionary::get_Item(System.Object key)
     ::Il2CppObject* get_Item(::Il2CppObject* key);
@@ -89,7 +86,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Maps to method: get_Item
     ::Il2CppObject* System_Collections_IDictionary_get_Item(::Il2CppObject* key);
     // public System.Void set_Item(System.Object key, System.Object value)
-    // Offset: 0x106BB4C
+    // Offset: 0x14F1674
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Void IDictionary::set_Item(System.Object key, System.Object value)
     void set_Item(::Il2CppObject* key, ::Il2CppObject* value);
@@ -97,15 +94,23 @@ namespace System::Runtime::Remoting::Messaging {
     // Maps to method: set_Item
     void System_Collections_IDictionary_set_Item(::Il2CppObject* key, ::Il2CppObject* value);
     // public System.Collections.ICollection get_Keys()
-    // Offset: 0x106BCD8
+    // Offset: 0x14F2044
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Collections.ICollection IDictionary::get_Keys()
     System::Collections::ICollection* get_Keys();
     // Creating proxy method: System_Collections_IDictionary_get_Keys
     // Maps to method: get_Keys
     System::Collections::ICollection* System_Collections_IDictionary_get_Keys();
+    // public System.Void Add(System.Object key, System.Object value)
+    // Offset: 0x14F1678
+    // Implemented from: System.Collections.IDictionary
+    // Base method: System.Void IDictionary::Add(System.Object key, System.Object value)
+    void Add(::Il2CppObject* key, ::Il2CppObject* value);
+    // Creating proxy method: System_Collections_IDictionary_Add
+    // Maps to method: Add
+    void System_Collections_IDictionary_Add(::Il2CppObject* key, ::Il2CppObject* value);
     // public System.Boolean Contains(System.Object key)
-    // Offset: 0x106C434
+    // Offset: 0x14F27A0
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Boolean IDictionary::Contains(System.Object key)
     bool Contains(::Il2CppObject* key);
@@ -113,7 +118,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Maps to method: Contains
     bool System_Collections_IDictionary_Contains(::Il2CppObject* key);
     // public System.Int32 get_Count()
-    // Offset: 0x106C588
+    // Offset: 0x14F28F4
     // Implemented from: System.Collections.ICollection
     // Base method: System.Int32 ICollection::get_Count()
     int get_Count();
@@ -121,7 +126,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Maps to method: get_Count
     int System_Collections_ICollection_get_Count();
     // public System.Void CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x106C660
+    // Offset: 0x14F29CC
     // Implemented from: System.Collections.ICollection
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
     void CopyTo(System::Array* array, int index);
@@ -129,12 +134,12 @@ namespace System::Runtime::Remoting::Messaging {
     // Maps to method: CopyTo
     void System_Collections_ICollection_CopyTo(System::Array* array, int index);
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x106C730
+    // Offset: 0x14F2A9C
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public System.Collections.IDictionaryEnumerator GetEnumerator()
-    // Offset: 0x106C8AC
+    // Offset: 0x14F2C18
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Collections.IDictionaryEnumerator IDictionary::GetEnumerator()
     System::Collections::IDictionaryEnumerator* GetEnumerator();

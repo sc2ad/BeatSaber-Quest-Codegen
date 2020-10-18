@@ -37,26 +37,26 @@ namespace UnityEngine::Audio {
       return m_Handle;
     }
     // static public UnityEngine.Audio.AudioMixerPlayable Create(UnityEngine.Playables.PlayableGraph graph, System.Int32 inputCount, System.Boolean normalizeInputVolumes)
-    // Offset: 0x195C91C
+    // Offset: 0x2208764
     static UnityEngine::Audio::AudioMixerPlayable Create(UnityEngine::Playables::PlayableGraph graph, int inputCount, bool normalizeInputVolumes);
     // static private UnityEngine.Playables.PlayableHandle CreateHandle(UnityEngine.Playables.PlayableGraph graph, System.Int32 inputCount, System.Boolean normalizeInputVolumes)
-    // Offset: 0x195C95C
+    // Offset: 0x22087A4
     static UnityEngine::Playables::PlayableHandle CreateHandle(UnityEngine::Playables::PlayableGraph graph, int inputCount, bool normalizeInputVolumes);
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0xA5EAE8
+    // Offset: 0xDDDC34
     // ABORTED: conflicts with another method.  AudioMixerPlayable(UnityEngine::Playables::PlayableHandle handle);
     // static private System.Boolean CreateAudioMixerPlayableInternal(ref UnityEngine.Playables.PlayableGraph graph, System.Boolean normalizeInputVolumes, ref UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0x195CB08
+    // Offset: 0x2208950
     static bool CreateAudioMixerPlayableInternal(UnityEngine::Playables::PlayableGraph& graph, bool normalizeInputVolumes, UnityEngine::Playables::PlayableHandle& handle);
     // public UnityEngine.Playables.PlayableHandle GetHandle()
-    // Offset: 0xA5EAF0
+    // Offset: 0xDDDC3C
     // Implemented from: UnityEngine.Playables.IPlayable
     // Base method: UnityEngine.Playables.PlayableHandle IPlayable::GetHandle()
     UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Audio.AudioMixerPlayable other)
-    // Offset: 0xA5EAFC
+    // Offset: 0xDDDC48
     // Implemented from: System.IEquatable`1
-    // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Audio.AudioMixerPlayable other)
+    // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Audio.AudioMixerPlayable other)
     bool Equals(UnityEngine::Audio::AudioMixerPlayable other);
   }; // UnityEngine.Audio.AudioMixerPlayable
 }

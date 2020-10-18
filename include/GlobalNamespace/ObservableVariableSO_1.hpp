@@ -52,14 +52,14 @@ namespace GlobalNamespace {
     // public System.Void set_value(T value)
     // Offset: 0xFFFFFFFF
     // Implemented from: IValue`1
-    // Base method: System.Void IValue`1::set_value(T value)
+    // Base method: System.Void IValue_1::set_value(T value)
     void set_value(T value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_value", value));
     }
     // public T get_value()
     // Offset: 0xFFFFFFFF
     // Implemented from: IValue`1
-    // Base method: T IValue`1::get_value()
+    // Base method: T IValue_1::get_value()
     T get_value() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "get_value"));
     }

@@ -25,18 +25,12 @@ namespace GlobalNamespace {
     // public readonly System.Single noteJumpStartBeatOffset
     // Offset: 0x1C
     float noteJumpStartBeatOffset;
-    // public readonly System.Boolean disappearingArrows
-    // Offset: 0x20
-    bool disappearingArrows;
-    // public readonly System.Boolean ghostNotes
-    // Offset: 0x21
-    bool ghostNotes;
     // public readonly System.Single jumpOffsetY
-    // Offset: 0x24
+    // Offset: 0x20
     float jumpOffsetY;
-    // public System.Void .ctor(System.Single beatsPerMinute, System.Int32 noteLinesCount, System.Single noteJumpMovementSpeed, System.Single noteJumpStartBeatOffset, System.Boolean disappearingArrows, System.Boolean ghostNotes, System.Single jumpOffsetY)
-    // Offset: 0xB7A880
-    static BeatmapObjectSpawnController::InitData* New_ctor(float beatsPerMinute, int noteLinesCount, float noteJumpMovementSpeed, float noteJumpStartBeatOffset, bool disappearingArrows, bool ghostNotes, float jumpOffsetY);
+    // public System.Void .ctor(System.Single beatsPerMinute, System.Int32 noteLinesCount, System.Single noteJumpMovementSpeed, System.Single noteJumpStartBeatOffset, System.Single jumpOffsetY)
+    // Offset: 0xF18048
+    static BeatmapObjectSpawnController::InitData* New_ctor(float beatsPerMinute, int noteLinesCount, float noteJumpMovementSpeed, float noteJumpStartBeatOffset, float jumpOffsetY);
   }; // BeatmapObjectSpawnController/InitData
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

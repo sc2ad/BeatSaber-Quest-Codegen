@@ -31,13 +31,13 @@ namespace UnityEngine {
     // Set static field: static public System.UnhandledExceptionEventHandler <>9__0_0
     static void _set_$$9__0_0(System::UnhandledExceptionEventHandler* value);
     // static private System.Void .cctor()
-    // Offset: 0x139A544
+    // Offset: 0x19980B8
     static void _cctor();
     // System.Void <RegisterUECatcher>b__0_0(System.Object sender, System.UnhandledExceptionEventArgs e)
-    // Offset: 0x139A5B4
+    // Offset: 0x1998128
     void $RegisterUECatcher$b__0_0(::Il2CppObject* sender, System::UnhandledExceptionEventArgs* e);
     // public System.Void .ctor()
-    // Offset: 0x139A5AC
+    // Offset: 0x1998120
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UnhandledExceptionHandler::$$c* New_ctor();

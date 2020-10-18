@@ -36,22 +36,22 @@ namespace System::Globalization {
     // Offset: 0x2C
     int initial_n;
     // public System.Void .ctor(System.Char delimiter, System.Int32 baseNum, System.Int32 tmin, System.Int32 tmax, System.Int32 skew, System.Int32 damp, System.Int32 initialBias, System.Int32 initialN)
-    // Offset: 0xDAA058
+    // Offset: 0x1259BAC
     static Bootstring* New_ctor(::Il2CppChar delimiter, int baseNum, int tmin, int tmax, int skew, int damp, int initialBias, int initialN);
     // public System.String Encode(System.String s, System.Int32 offset)
-    // Offset: 0xDAA0D0
+    // Offset: 0x1259C24
     ::Il2CppString* Encode(::Il2CppString* s, int offset);
     // private System.Char EncodeDigit(System.Int32 d)
-    // Offset: 0xDAA430
+    // Offset: 0x1259F84
     ::Il2CppChar EncodeDigit(int d);
     // private System.Int32 DecodeDigit(System.Char c)
-    // Offset: 0xDAA4C0
+    // Offset: 0x125A014
     int DecodeDigit(::Il2CppChar c);
     // private System.Int32 Adapt(System.Int32 delta, System.Int32 numPoints, System.Boolean firstTime)
-    // Offset: 0xDAA448
+    // Offset: 0x1259F9C
     int Adapt(int delta, int numPoints, bool firstTime);
     // public System.String Decode(System.String s, System.Int32 offset)
-    // Offset: 0xDAA500
+    // Offset: 0x125A054
     ::Il2CppString* Decode(::Il2CppString* s, int offset);
   }; // System.Globalization.Bootstring
 }

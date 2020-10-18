@@ -105,64 +105,64 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public OVRGrabbable get_grabbedObject()
-    // Offset: 0xE68DB0
+    // Offset: 0x1307150
     GlobalNamespace::OVRGrabbable* get_grabbedObject();
     // public System.Void ForceRelease(OVRGrabbable grabbable)
-    // Offset: 0xE68CD8
+    // Offset: 0x1307078
     void ForceRelease(GlobalNamespace::OVRGrabbable* grabbable);
     // protected System.Void Awake()
-    // Offset: 0xE6903C
+    // Offset: 0x13073DC
     void Awake();
     // protected System.Void Start()
-    // Offset: 0xE69178
+    // Offset: 0x1307518
     void Start();
     // public System.Void Update()
-    // Offset: 0xE6950C
+    // Offset: 0x13078AC
     void Update();
     // public System.Void FixedUpdate()
-    // Offset: 0xE69514
+    // Offset: 0x13078B4
     void FixedUpdate();
     // private System.Void OnUpdatedAnchors()
-    // Offset: 0xE69524
+    // Offset: 0x13078C4
     void OnUpdatedAnchors();
     // private System.Void OnDestroy()
-    // Offset: 0xE69824
+    // Offset: 0x1307BC4
     void OnDestroy();
     // private System.Void OnTriggerEnter(UnityEngine.Collider otherCollider)
-    // Offset: 0xE698AC
+    // Offset: 0x1307C4C
     void OnTriggerEnter(UnityEngine::Collider* otherCollider);
     // private System.Void OnTriggerExit(UnityEngine.Collider otherCollider)
-    // Offset: 0xE699B4
+    // Offset: 0x1307D54
     void OnTriggerExit(UnityEngine::Collider* otherCollider);
     // protected System.Void CheckForGrabOrRelease(System.Single prevFlex)
-    // Offset: 0xE697E4
+    // Offset: 0x1307B84
     void CheckForGrabOrRelease(float prevFlex);
     // protected System.Void GrabBegin()
-    // Offset: 0xE69AE4
+    // Offset: 0x1307E84
     void GrabBegin();
     // protected System.Void MoveGrabbedObject(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot, System.Boolean forceTeleport)
-    // Offset: 0xE6A240
+    // Offset: 0x13085E0
     void MoveGrabbedObject(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot, bool forceTeleport);
     // protected System.Void GrabEnd()
-    // Offset: 0xE68DB8
+    // Offset: 0x1307158
     void GrabEnd();
     // protected System.Void GrabbableRelease(UnityEngine.Vector3 linearVelocity, UnityEngine.Vector3 angularVelocity)
-    // Offset: 0xE6B02C
+    // Offset: 0x13093CC
     void GrabbableRelease(UnityEngine::Vector3 linearVelocity, UnityEngine::Vector3 angularVelocity);
     // protected System.Void GrabVolumeEnable(System.Boolean enabled)
-    // Offset: 0xE6B0B8
+    // Offset: 0x1309458
     void GrabVolumeEnable(bool enabled);
     // protected System.Void OffhandGrabbed(OVRGrabbable grabbable)
-    // Offset: 0xE6B1A0
+    // Offset: 0x1309540
     void OffhandGrabbed(GlobalNamespace::OVRGrabbable* grabbable);
     // protected System.Void SetPlayerIgnoreCollision(UnityEngine.GameObject grabbable, System.Boolean ignore)
-    // Offset: 0xE693A8
+    // Offset: 0x1307748
     void SetPlayerIgnoreCollision(UnityEngine::GameObject* grabbable, bool ignore);
     // private System.Void <Awake>b__24_0(OVRCameraRig r)
-    // Offset: 0xE6B340
+    // Offset: 0x13096E0
     void $Awake$b__24_0(GlobalNamespace::OVRCameraRig* r);
     // public System.Void .ctor()
-    // Offset: 0xE6B2A4
+    // Offset: 0x1309644
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

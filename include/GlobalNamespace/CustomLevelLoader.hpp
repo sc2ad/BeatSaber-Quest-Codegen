@@ -20,8 +20,8 @@ namespace GlobalNamespace {
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Forward declaring type: Texture2D
-  class Texture2D;
+  // Forward declaring type: Sprite
+  class Sprite;
 }
 // Completed forward declares
 // Type namespace: 
@@ -32,22 +32,22 @@ namespace GlobalNamespace {
     // private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
     // Offset: 0x18
     GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection;
-    // private EnvironmentInfoSO _defaultEnviromentInfo
+    // private EnvironmentInfoSO _defaultEnvironmentInfo
     // Offset: 0x20
-    GlobalNamespace::EnvironmentInfoSO* defaultEnviromentInfo;
+    GlobalNamespace::EnvironmentInfoSO* defaultEnvironmentInfo;
     // private EnvironmentInfoSO _defaultAllDirectionsEnvironmentInfo
     // Offset: 0x28
     GlobalNamespace::EnvironmentInfoSO* defaultAllDirectionsEnvironmentInfo;
-    // private EnvironmentsListSO _enviromentSceneInfoColection
+    // private EnvironmentsListSO _environmentSceneInfoCollection
     // Offset: 0x30
-    GlobalNamespace::EnvironmentsListSO* enviromentSceneInfoColection;
-    // private UnityEngine.Texture2D _defaultPackCoverTexture2D
+    GlobalNamespace::EnvironmentsListSO* environmentSceneInfoCollection;
+    // private UnityEngine.Sprite _defaultPackCover
     // Offset: 0x38
-    UnityEngine::Texture2D* defaultPackCoverTexture2D;
+    UnityEngine::Sprite* defaultPackCover;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void .ctor()
-    // Offset: 0xBE38D8
+    // Offset: 0xF5B954
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -22,7 +22,7 @@ namespace NetEase::Docker {
       return LogoutCode;
     }
     // public System.Void set_LogoutCode(System.Int32 value)
-    // Offset: 0xA6069C
+    // Offset: 0xDDF5CC
     void set_LogoutCode(int value);
   }; // NetEase.Docker.LogoutData
 }

@@ -26,7 +26,7 @@ namespace UnityEngine::SceneManagement {
     // Creating value type constructor for type: LoadSceneParameters
     constexpr LoadSceneParameters(UnityEngine::SceneManagement::LoadSceneMode m_LoadSceneMode_ = {}, UnityEngine::SceneManagement::LocalPhysicsMode m_LocalPhysicsMode_ = {}) noexcept : m_LoadSceneMode{m_LoadSceneMode_}, m_LocalPhysicsMode{m_LocalPhysicsMode_} {}
     // public System.Void .ctor(UnityEngine.SceneManagement.LoadSceneMode mode)
-    // Offset: 0xA47378
+    // Offset: 0xDBEE90
     LoadSceneParameters(UnityEngine::SceneManagement::LoadSceneMode mode);
   }; // UnityEngine.SceneManagement.LoadSceneParameters
 }

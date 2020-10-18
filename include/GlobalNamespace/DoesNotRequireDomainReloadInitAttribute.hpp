@@ -14,7 +14,7 @@ namespace GlobalNamespace {
   class DoesNotRequireDomainReloadInitAttribute : public UnityEngine::PropertyAttribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0xCAF82C
+    // Offset: 0x109417C
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

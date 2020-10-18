@@ -47,13 +47,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x3C
     System::Runtime::Serialization::Formatters::Binary::MessageEnum messageEnum;
     // System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0xE27BE8
+    // Offset: 0x150C454
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // System.Void Dump()
-    // Offset: 0xE27EC0
+    // Offset: 0x150C5BC
     void Dump();
     // public System.Void .ctor()
-    // Offset: 0xE27EC4
+    // Offset: 0x150C5C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BinaryMethodCall* New_ctor();

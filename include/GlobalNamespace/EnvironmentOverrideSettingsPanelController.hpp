@@ -15,8 +15,6 @@
 namespace GlobalNamespace {
   // Forward declaring type: EnvironmentsListSO
   class EnvironmentsListSO;
-  // Forward declaring type: EnvironmentsTableViewDataSource
-  class EnvironmentsTableViewDataSource;
   // Forward declaring type: OverrideEnvironmentSettings
   class OverrideEnvironmentSettings;
 }
@@ -45,6 +43,8 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements
     class Elements;
+    // Nested type: GlobalNamespace::EnvironmentOverrideSettingsPanelController::$$c
+    class $$c;
     // private UnityEngine.UI.Toggle _overrideEnvironmentsToggle
     // Offset: 0x18
     UnityEngine::UI::Toggle* overrideEnvironmentsToggle;
@@ -63,42 +63,42 @@ namespace GlobalNamespace {
     // private EnvironmentsListSO _allEnvironments
     // Offset: 0x40
     GlobalNamespace::EnvironmentsListSO* allEnvironments;
-    // private EnvironmentsTableViewDataSource _environmentsTableViewDataSourceTemplate
-    // Offset: 0x48
-    GlobalNamespace::EnvironmentsTableViewDataSource* environmentsTableViewDataSourceTemplate;
     // private OverrideEnvironmentSettings _overrideEnvironmentSettings
-    // Offset: 0x50
+    // Offset: 0x48
     GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings;
     // private System.Boolean _initialized
-    // Offset: 0x58
+    // Offset: 0x50
     bool initialized;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public OverrideEnvironmentSettings get_overrideEnvironmentSettings()
-    // Offset: 0xBEA748
+    // Offset: 0xF65F64
     GlobalNamespace::OverrideEnvironmentSettings* get_overrideEnvironmentSettings();
     // public System.Void SetData(OverrideEnvironmentSettings overrideEnvironmentSettings)
-    // Offset: 0xBEA750
+    // Offset: 0xF65F6C
     void SetData(GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings);
     // protected System.Void OnDestroy()
-    // Offset: 0xBEAB08
+    // Offset: 0xF66318
     void OnDestroy();
     // private System.Void HandleDropDownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropDownWithTableView, System.Int32 idx)
-    // Offset: 0xBEAE84
+    // Offset: 0xF66608
     void HandleDropDownDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropDownWithTableView, int idx);
     // private System.Void HandleOverrideEnvironmentsToggleValueChanged(System.Boolean isOn)
-    // Offset: 0xBEB04C
+    // Offset: 0xF66744
     void HandleOverrideEnvironmentsToggleValueChanged(bool isOn);
-    // private System.Void <HandleOverrideEnvironmentsToggleValueChanged>b__16_0()
-    // Offset: 0xBEB168
-    void $HandleOverrideEnvironmentsToggleValueChanged$b__16_0();
+    // private System.Void <HandleOverrideEnvironmentsToggleValueChanged>b__15_0()
+    // Offset: 0xF66860
+    void $HandleOverrideEnvironmentsToggleValueChanged$b__15_0();
     // public System.Void Refresh()
-    // Offset: 0xBEAC90
+    // Offset: 0xF664A0
     // Implemented from: IRefreshable
     // Base method: System.Void IRefreshable::Refresh()
     void Refresh();
+    // Creating proxy method: GlobalNamespace_IRefreshable_Refresh
+    // Maps to method: Refresh
+    void GlobalNamespace_IRefreshable_Refresh();
     // public System.Void .ctor()
-    // Offset: 0xBEB160
+    // Offset: 0xF66858
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

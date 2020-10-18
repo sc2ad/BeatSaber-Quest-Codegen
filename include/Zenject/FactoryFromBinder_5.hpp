@@ -25,8 +25,8 @@ namespace Zenject {
   // Forward declaring type: IFactory`5<TParam1, TParam2, TParam3, TParam4, TValue>
   template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TValue>
   class IFactory_5;
-  // Forward declaring type: FactorySubContainerBinder`5<TContract, TParam1, TParam2, TParam3, TParam4>
-  template<typename TContract, typename TParam1, typename TParam2, typename TParam3, typename TParam4>
+  // Forward declaring type: FactorySubContainerBinder`5<TParam1, TParam2, TParam3, TParam4, TContract>
+  template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract>
   class FactorySubContainerBinder_5;
   // Forward declaring type: IProvider
   class IProvider;

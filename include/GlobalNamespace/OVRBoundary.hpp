@@ -52,31 +52,31 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single[] cachedGeometryManagedBuffer
     static void _set_cachedGeometryManagedBuffer(::Array<float>* value);
     // public System.Boolean GetConfigured()
-    // Offset: 0xCC887C
+    // Offset: 0x113127C
     bool GetConfigured();
     // public OVRBoundary/BoundaryTestResult TestNode(OVRBoundary/Node node, OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0xCC8920
+    // Offset: 0x1131320
     GlobalNamespace::OVRBoundary::BoundaryTestResult TestNode(GlobalNamespace::OVRBoundary::Node node, GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public OVRBoundary/BoundaryTestResult TestPoint(UnityEngine.Vector3 point, OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0xCC89FC
+    // Offset: 0x11313FC
     GlobalNamespace::OVRBoundary::BoundaryTestResult TestPoint(UnityEngine::Vector3 point, GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public UnityEngine.Vector3[] GetGeometry(OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0xCC8AFC
+    // Offset: 0x11314FC
     ::Array<UnityEngine::Vector3>* GetGeometry(GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public UnityEngine.Vector3 GetDimensions(OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0xCC8F1C
+    // Offset: 0x113191C
     UnityEngine::Vector3 GetDimensions(GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public System.Boolean GetVisible()
-    // Offset: 0xCC9020
+    // Offset: 0x1131A20
     bool GetVisible();
     // public System.Void SetVisible(System.Boolean value)
-    // Offset: 0xCC90C4
+    // Offset: 0x1131AC4
     void SetVisible(bool value);
     // static private System.Void .cctor()
-    // Offset: 0xCC91F0
+    // Offset: 0x1131BF0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0xCC9174
+    // Offset: 0x1131B74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRBoundary* New_ctor();

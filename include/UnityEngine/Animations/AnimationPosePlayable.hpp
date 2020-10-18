@@ -32,20 +32,20 @@ namespace UnityEngine::Animations {
     // Set static field: static private readonly UnityEngine.Animations.AnimationPosePlayable m_NullPlayable
     static void _set_m_NullPlayable(UnityEngine::Animations::AnimationPosePlayable value);
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0xA5DC64
+    // Offset: 0xDDCBD0
     // ABORTED: conflicts with another method.  AnimationPosePlayable(UnityEngine::Playables::PlayableHandle handle);
     // static private System.Void .cctor()
-    // Offset: 0x194017C
+    // Offset: 0x21E7F38
     static void _cctor();
     // public UnityEngine.Playables.PlayableHandle GetHandle()
-    // Offset: 0xA5DC6C
+    // Offset: 0xDDCBD8
     // Implemented from: UnityEngine.Playables.IPlayable
     // Base method: UnityEngine.Playables.PlayableHandle IPlayable::GetHandle()
     UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Animations.AnimationPosePlayable other)
-    // Offset: 0xA5DC78
+    // Offset: 0xDDCBE4
     // Implemented from: System.IEquatable`1
-    // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Animations.AnimationPosePlayable other)
+    // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Animations.AnimationPosePlayable other)
     bool Equals(UnityEngine::Animations::AnimationPosePlayable other);
   }; // UnityEngine.Animations.AnimationPosePlayable
 }

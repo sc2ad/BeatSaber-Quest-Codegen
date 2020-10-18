@@ -37,13 +37,13 @@ namespace System {
     // Set static field: static public readonly System.Int32 NumberBufferBytes
     static void _set_NumberBufferBytes(int value);
     // public System.Void .ctor(System.Byte* stackBuffer)
-    // Offset: 0xA46AD4
+    // Offset: 0xDC3838
     NumberBuffer(uint8_t* stackBuffer);
     // public System.Byte* PackForNative()
-    // Offset: 0xA46AE8
+    // Offset: 0xDC384C
     uint8_t* PackForNative();
     // static private System.Void .cctor()
-    // Offset: 0x135D780
+    // Offset: 0x1AADD50
     static void _cctor();
   }; // System.Number/NumberBuffer
 }

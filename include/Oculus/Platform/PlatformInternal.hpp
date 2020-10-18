@@ -38,13 +38,13 @@ namespace Oculus::Platform {
     // Nested type: Oculus::Platform::PlatformInternal::Users
     class Users;
     // static public System.Void CrashApplication()
-    // Offset: 0xEACD44
+    // Offset: 0x136D440
     static void CrashApplication();
     // static Oculus.Platform.Message ParseMessageHandle(System.IntPtr messageHandle, Oculus.Platform.Message/MessageType messageType)
-    // Offset: 0xEA0130
+    // Offset: 0x136082C
     static Oculus::Platform::Message* ParseMessageHandle(System::IntPtr messageHandle, Oculus::Platform::Message::MessageType messageType);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.PlatformInitialize> InitializeStandaloneAsync(System.UInt64 appID, System.String accessToken)
-    // Offset: 0xEACDA4
+    // Offset: 0x136D4A0
     static Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize*>* InitializeStandaloneAsync(uint64_t appID, ::Il2CppString* accessToken);
   }; // Oculus.Platform.PlatformInternal
 }

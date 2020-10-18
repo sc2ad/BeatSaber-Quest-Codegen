@@ -49,10 +49,10 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: VRControllerState_t_Packed
     constexpr VRControllerState_t_Packed(uint unPacketNum_ = {}, uint64_t ulButtonPressed_ = {}, uint64_t ulButtonTouched_ = {}, OVR::OpenVR::VRControllerAxis_t rAxis0_ = {}, OVR::OpenVR::VRControllerAxis_t rAxis1_ = {}, OVR::OpenVR::VRControllerAxis_t rAxis2_ = {}, OVR::OpenVR::VRControllerAxis_t rAxis3_ = {}, OVR::OpenVR::VRControllerAxis_t rAxis4_ = {}) noexcept : unPacketNum{unPacketNum_}, ulButtonPressed{ulButtonPressed_}, ulButtonTouched{ulButtonTouched_}, rAxis0{rAxis0_}, rAxis1{rAxis1_}, rAxis2{rAxis2_}, rAxis3{rAxis3_}, rAxis4{rAxis4_} {}
     // public System.Void .ctor(OVR.OpenVR.VRControllerState_t unpacked)
-    // Offset: 0xA2DB94
+    // Offset: 0xDA37D8
     VRControllerState_t_Packed(OVR::OpenVR::VRControllerState_t unpacked);
     // public System.Void Unpack(ref OVR.OpenVR.VRControllerState_t unpacked)
-    // Offset: 0xA2DBC0
+    // Offset: 0xDA3804
     void Unpack(OVR::OpenVR::VRControllerState_t& unpacked);
   }; // OVR.OpenVR.VRControllerState_t_Packed
 }

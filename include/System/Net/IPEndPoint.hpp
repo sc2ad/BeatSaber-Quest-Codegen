@@ -62,44 +62,44 @@ namespace System::Net {
     // Set static field: static System.Net.IPEndPoint IPv6Any
     static void _set_IPv6Any(System::Net::IPEndPoint* value);
     // public System.Void .ctor(System.Net.IPAddress address, System.Int32 port)
-    // Offset: 0xF6F41C
+    // Offset: 0x14712C4
     static IPEndPoint* New_ctor(System::Net::IPAddress* address, int port);
     // public System.Net.IPAddress get_Address()
-    // Offset: 0xF6F524
+    // Offset: 0x14713CC
     System::Net::IPAddress* get_Address();
     // public System.Int32 get_Port()
-    // Offset: 0xF6F52C
+    // Offset: 0x14713D4
     int get_Port();
     // static private System.Void .cctor()
-    // Offset: 0xF6FC0C
+    // Offset: 0x1471964
     static void _cctor();
     // public override System.Net.Sockets.AddressFamily get_AddressFamily()
-    // Offset: 0xF6F400
+    // Offset: 0x14712A8
     // Implemented from: System.Net.EndPoint
     // Base method: System.Net.Sockets.AddressFamily EndPoint::get_AddressFamily()
     System::Net::Sockets::AddressFamily get_AddressFamily();
     // public override System.String ToString()
-    // Offset: 0xF6F534
+    // Offset: 0x14713DC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public override System.Net.SocketAddress Serialize()
-    // Offset: 0xF6F5F0
+    // Offset: 0x1471498
     // Implemented from: System.Net.EndPoint
     // Base method: System.Net.SocketAddress EndPoint::Serialize()
     System::Net::SocketAddress* Serialize();
     // public override System.Net.EndPoint Create(System.Net.SocketAddress socketAddress)
-    // Offset: 0xF6F6CC
+    // Offset: 0x1471510
     // Implemented from: System.Net.EndPoint
     // Base method: System.Net.EndPoint EndPoint::Create(System.Net.SocketAddress socketAddress)
     System::Net::EndPoint* Create(System::Net::SocketAddress* socketAddress);
     // public override System.Boolean Equals(System.Object comparand)
-    // Offset: 0xF6FAE0
+    // Offset: 0x1471838
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object comparand)
     bool Equals(::Il2CppObject* comparand);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xF6FBD0
+    // Offset: 0x1471928
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

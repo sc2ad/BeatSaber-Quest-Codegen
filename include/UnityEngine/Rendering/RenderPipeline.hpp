@@ -34,19 +34,19 @@ namespace UnityEngine::Rendering {
     // Offset: 0xFFFFFFFF
     void Render(UnityEngine::Rendering::ScriptableRenderContext context, ::Array<UnityEngine::Camera*>* cameras);
     // System.Void InternalRender(UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras)
-    // Offset: 0x138DAE0
+    // Offset: 0x198B440
     void InternalRender(UnityEngine::Rendering::ScriptableRenderContext context, ::Array<UnityEngine::Camera*>* cameras);
     // public System.Boolean get_disposed()
-    // Offset: 0x138DBA0
+    // Offset: 0x198B500
     bool get_disposed();
     // private System.Void set_disposed(System.Boolean value)
-    // Offset: 0x138DBA8
+    // Offset: 0x198B508
     void set_disposed(bool value);
     // System.Void Dispose()
-    // Offset: 0x138DBB4
+    // Offset: 0x198B514
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x138DC3C
+    // Offset: 0x198B59C
     void Dispose(bool disposing);
   }; // UnityEngine.Rendering.RenderPipeline
 }

@@ -25,16 +25,16 @@ namespace Oculus::Platform {
   class MessageWithShareMediaResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::ShareMediaResult*> {
     public:
     // protected Oculus.Platform.Models.ShareMediaResult GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xEA8ED4
+    // Offset: 0x13695D0
     Oculus::Platform::Models::ShareMediaResult* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE9FCB0
+    // Offset: 0x13603AC
     // Implemented from: Oculus.Platform.Message`1
-    // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
+    // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithShareMediaResult* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.ShareMediaResult GetShareMediaResult()
-    // Offset: 0xEA8E90
+    // Offset: 0x136958C
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.ShareMediaResult Message::GetShareMediaResult()
     Oculus::Platform::Models::ShareMediaResult* GetShareMediaResult();

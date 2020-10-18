@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
   class NetSyncSessionList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::NetSyncSession*> {
     public:
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0xEA63BC
+    // Offset: 0x1366AB8
     static NetSyncSessionList* New_ctor(System::IntPtr a);
   }; // Oculus.Platform.Models.NetSyncSessionList
 }

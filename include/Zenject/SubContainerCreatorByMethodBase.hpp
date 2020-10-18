@@ -37,10 +37,10 @@ namespace Zenject {
     // Offset: 0x18
     Zenject::SubContainerCreatorBindInfo* containerBindInfo;
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.SubContainerCreatorBindInfo containerBindInfo)
-    // Offset: 0xFD20D0
+    // Offset: 0x152006C
     static SubContainerCreatorByMethodBase* New_ctor(Zenject::DiContainer* container, Zenject::SubContainerCreatorBindInfo* containerBindInfo);
     // protected Zenject.DiContainer CreateEmptySubContainer()
-    // Offset: 0xFD21C4
+    // Offset: 0x1520160
     Zenject::DiContainer* CreateEmptySubContainer();
     // public Zenject.DiContainer CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext context)
     // Offset: 0xFFFFFFFF

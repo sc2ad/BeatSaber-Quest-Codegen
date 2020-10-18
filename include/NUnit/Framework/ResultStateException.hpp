@@ -31,12 +31,12 @@ namespace NUnit::Framework {
     // Offset: 0xFFFFFFFF
     NUnit::Framework::Interfaces::ResultState* get_ResultState();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x18FCE48
+    // Offset: 0x21811C4
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     static ResultStateException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x18FCEC0
+    // Offset: 0x218123C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static ResultStateException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);

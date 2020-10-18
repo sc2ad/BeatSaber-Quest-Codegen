@@ -118,64 +118,64 @@ namespace RootMotion::FinalIK {
     // Offset: 0x138
     UnityEngine::Rigidbody* characterRootRigidbody;
     // private System.Boolean IsReadyToInitiate()
-    // Offset: 0x13790F4
+    // Offset: 0x1A98844
     bool IsReadyToInitiate();
     // private System.Boolean IsReadyToInitiateLegs(RootMotion.FinalIK.IK[] ikComponents)
-    // Offset: 0x1379224
+    // Offset: 0x1A98974
     bool IsReadyToInitiateLegs(::Array<RootMotion::FinalIK::IK*>* ikComponents);
     // private System.Void OnDisable()
-    // Offset: 0x13793E4
+    // Offset: 0x1A98B34
     void OnDisable();
     // private System.Void Update()
-    // Offset: 0x137944C
+    // Offset: 0x1A98B9C
     void Update();
     // private System.Void Initiate()
-    // Offset: 0x1379504
+    // Offset: 0x1A98C54
     void Initiate();
     // private UnityEngine.Transform[] InitiateFeet(RootMotion.FinalIK.IK[] ikComponents, ref RootMotion.FinalIK.GrounderQuadruped/Foot[] f, System.Int32 indexOffset)
-    // Offset: 0x1379838
+    // Offset: 0x1A98F88
     ::Array<UnityEngine::Transform*>* InitiateFeet(::Array<RootMotion::FinalIK::IK*>* ikComponents, ::Array<RootMotion::FinalIK::GrounderQuadruped::Foot>*& f, int indexOffset);
     // private System.Void LateUpdate()
-    // Offset: 0x1379C10
+    // Offset: 0x1A99360
     void LateUpdate();
     // private System.Void RootRotation()
-    // Offset: 0x1379D5C
+    // Offset: 0x1A994AC
     void RootRotation();
     // private System.Void OnSolverUpdate()
-    // Offset: 0x137A200
+    // Offset: 0x1A99950
     void OnSolverUpdate();
     // private System.Void UpdateForefeetRoot()
-    // Offset: 0x137A9F0
+    // Offset: 0x1A9A140
     void UpdateForefeetRoot();
     // private System.Void SetFootIK(RootMotion.FinalIK.GrounderQuadruped/Foot foot, System.Single maxOffset)
-    // Offset: 0x137ACB0
+    // Offset: 0x1A9A400
     void SetFootIK(RootMotion::FinalIK::GrounderQuadruped::Foot foot, float maxOffset);
     // private System.Void OnPostSolverUpdate()
-    // Offset: 0x137AE10
+    // Offset: 0x1A9A560
     void OnPostSolverUpdate();
     // private System.Void OnDestroy()
-    // Offset: 0x137B0EC
+    // Offset: 0x1A9A83C
     void OnDestroy();
     // private System.Void DestroyLegs(RootMotion.FinalIK.IK[] ikComponents)
-    // Offset: 0x137B124
+    // Offset: 0x1A9A874
     void DestroyLegs(::Array<RootMotion::FinalIK::IK*>* ikComponents);
     // protected override System.Void OpenUserManual()
-    // Offset: 0x1379028
+    // Offset: 0x1A98778
     // Implemented from: RootMotion.FinalIK.Grounder
     // Base method: System.Void Grounder::OpenUserManual()
     void OpenUserManual();
     // protected override System.Void OpenScriptReference()
-    // Offset: 0x1379074
+    // Offset: 0x1A987C4
     // Implemented from: RootMotion.FinalIK.Grounder
     // Base method: System.Void Grounder::OpenScriptReference()
     void OpenScriptReference();
     // public override System.Void ResetPosition()
-    // Offset: 0x13790C0
+    // Offset: 0x1A98810
     // Implemented from: RootMotion.FinalIK.Grounder
     // Base method: System.Void Grounder::ResetPosition()
     void ResetPosition();
     // public System.Void .ctor()
-    // Offset: 0x137B308
+    // Offset: 0x1A9AA58
     // Implemented from: RootMotion.FinalIK.Grounder
     // Base method: System.Void Grounder::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

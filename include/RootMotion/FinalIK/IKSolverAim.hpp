@@ -65,45 +65,45 @@ namespace RootMotion::FinalIK {
     // Offset: 0xE8
     UnityEngine::Transform* lastTransform;
     // public System.Single GetAngle()
-    // Offset: 0x1343B44
+    // Offset: 0x1A79ABC
     float GetAngle();
     // public UnityEngine.Vector3 get_transformAxis()
-    // Offset: 0x1343C44
+    // Offset: 0x1A79BBC
     UnityEngine::Vector3 get_transformAxis();
     // public UnityEngine.Vector3 get_transformPoleAxis()
-    // Offset: 0x1343D10
+    // Offset: 0x1A79C88
     UnityEngine::Vector3 get_transformPoleAxis();
     // private System.Void Solve()
-    // Offset: 0x13449F4
+    // Offset: 0x1A7A96C
     void Solve();
     // private UnityEngine.Vector3 GetClampedIKPosition()
-    // Offset: 0x134461C
+    // Offset: 0x1A7A594
     UnityEngine::Vector3 GetClampedIKPosition();
     // private System.Void RotateToTarget(UnityEngine.Vector3 targetPosition, RootMotion.FinalIK.IKSolver/Bone bone, System.Single weight)
-    // Offset: 0x1344AB0
+    // Offset: 0x1A7AA28
     void RotateToTarget(UnityEngine::Vector3 targetPosition, RootMotion::FinalIK::IKSolver::Bone* bone, float weight);
     // protected override System.Void OnInitiate()
-    // Offset: 0x1343DDC
+    // Offset: 0x1A79D54
     // Implemented from: RootMotion.FinalIK.IKSolverHeuristic
     // Base method: System.Void IKSolverHeuristic::OnInitiate()
     void OnInitiate();
     // protected override System.Void OnUpdate()
-    // Offset: 0x1344064
+    // Offset: 0x1A79FDC
     // Implemented from: RootMotion.FinalIK.IKSolverHeuristic
     // Base method: System.Void IKSolverHeuristic::OnUpdate()
     void OnUpdate();
     // protected override System.Int32 get_minBones()
-    // Offset: 0x1344AA8
+    // Offset: 0x1A7AA20
     // Implemented from: RootMotion.FinalIK.IKSolverHeuristic
     // Base method: System.Int32 IKSolverHeuristic::get_minBones()
     int get_minBones();
     // protected override UnityEngine.Vector3 get_localDirection()
-    // Offset: 0x1345054
+    // Offset: 0x1A7AFCC
     // Implemented from: RootMotion.FinalIK.IKSolverHeuristic
     // Base method: UnityEngine.Vector3 IKSolverHeuristic::get_localDirection()
     UnityEngine::Vector3 get_localDirection();
     // public System.Void .ctor()
-    // Offset: 0x13450C8
+    // Offset: 0x1A7B040
     // Implemented from: RootMotion.FinalIK.IKSolverHeuristic
     // Base method: System.Void IKSolverHeuristic::.ctor()
     // Base method: System.Void IKSolver::.ctor()

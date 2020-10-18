@@ -21,7 +21,7 @@ namespace UnityEngine::Timeline {
       return ussStyle;
     }
     // public System.Void .ctor(System.String ussStyle)
-    // Offset: 0x1099964
+    // Offset: 0x161D9EC
     static CustomStyleAttribute* New_ctor(::Il2CppString* ussStyle);
   }; // UnityEngine.Timeline.CustomStyleAttribute
 }

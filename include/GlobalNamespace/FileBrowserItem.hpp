@@ -21,25 +21,25 @@ namespace GlobalNamespace {
     // Offset: 0x20
     bool isDirectory;
     // public System.String get_displayName()
-    // Offset: 0xBED080
+    // Offset: 0xF687BC
     ::Il2CppString* get_displayName();
     // private System.Void set_displayName(System.String value)
-    // Offset: 0xBED088
+    // Offset: 0xF687C4
     void set_displayName(::Il2CppString* value);
     // public System.String get_fullPath()
-    // Offset: 0xBED090
+    // Offset: 0xF687CC
     ::Il2CppString* get_fullPath();
     // private System.Void set_fullPath(System.String value)
-    // Offset: 0xBED098
+    // Offset: 0xF687D4
     void set_fullPath(::Il2CppString* value);
     // public System.Boolean get_isDirectory()
-    // Offset: 0xBED0A0
+    // Offset: 0xF687DC
     bool get_isDirectory();
     // private System.Void set_isDirectory(System.Boolean value)
-    // Offset: 0xBED0A8
+    // Offset: 0xF687E4
     void set_isDirectory(bool value);
     // public System.Void .ctor(System.String displayName, System.String fullPath, System.Boolean isDirectory)
-    // Offset: 0xBED0B4
+    // Offset: 0xF687F0
     static FileBrowserItem* New_ctor(::Il2CppString* displayName, ::Il2CppString* fullPath, bool isDirectory);
   }; // FileBrowserItem
 }

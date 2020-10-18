@@ -30,18 +30,18 @@ namespace System::Collections {
       return m_compareInfo;
     }
     // public System.Void .ctor(System.Globalization.CultureInfo culture)
-    // Offset: 0x133A378
+    // Offset: 0x15D4124
     static CaseInsensitiveComparer* New_ctor(System::Globalization::CultureInfo* culture);
     // static public System.Collections.CaseInsensitiveComparer get_Default()
-    // Offset: 0x133A42C
+    // Offset: 0x15D41D4
     static System::Collections::CaseInsensitiveComparer* get_Default();
     // public System.Void .ctor()
-    // Offset: 0x133A2E4
+    // Offset: 0x15D4090
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CaseInsensitiveComparer* New_ctor();
     // public System.Int32 Compare(System.Object a, System.Object b)
-    // Offset: 0x133A4B8
+    // Offset: 0x15D4260
     // Implemented from: System.Collections.IComparer
     // Base method: System.Int32 IComparer::Compare(System.Object a, System.Object b)
     int Compare(::Il2CppObject* a, ::Il2CppObject* b);

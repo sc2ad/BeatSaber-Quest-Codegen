@@ -13,8 +13,12 @@
 namespace GlobalNamespace {
   // Forward declaring type: FullVRControllersRecorder
   class FullVRControllersRecorder;
-  // Forward declaring type: PlayerController
-  class PlayerController;
+  // Forward declaring type: PlayerTransforms
+  class PlayerTransforms;
+  // Forward declaring type: SaberManager
+  class SaberManager;
+  // Forward declaring type: PlayerVRControllersManager
+  class PlayerVRControllersManager;
   // Forward declaring type: VRController
   class VRController;
 }
@@ -27,22 +31,28 @@ namespace GlobalNamespace {
     // private FullVRControllersRecorder _fullVRControllersRecorder
     // Offset: 0x18
     GlobalNamespace::FullVRControllersRecorder* fullVRControllersRecorder;
-    // private PlayerController _playerController
+    // private readonly PlayerTransforms _playerTransforms
     // Offset: 0x20
-    GlobalNamespace::PlayerController* playerController;
+    GlobalNamespace::PlayerTransforms* playerTransforms;
+    // private readonly SaberManager _saberManager
+    // Offset: 0x28
+    GlobalNamespace::SaberManager* saberManager;
+    // private readonly PlayerVRControllersManager _playerVRControllersManager
+    // Offset: 0x30
+    GlobalNamespace::PlayerVRControllersManager* playerVRControllersManager;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xBD0318
+    // Offset: 0x1014E54
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xBD03AC
+    // Offset: 0x1014EF8
     void OnDestroy();
     // private System.Void HandleFullVRControllersRecorderDidSetControllerTransform(VRController controller)
-    // Offset: 0xBD0488
+    // Offset: 0x1014FD4
     void HandleFullVRControllersRecorderDidSetControllerTransform(GlobalNamespace::VRController* controller);
     // public System.Void .ctor()
-    // Offset: 0xBD05A8
+    // Offset: 0x10150EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

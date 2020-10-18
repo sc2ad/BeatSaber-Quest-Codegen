@@ -36,18 +36,18 @@ namespace System::Reflection {
     // Offset: 0x18
     System::RuntimeType* ptrType;
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1156970
+    // Offset: 0x18D4A4C
     static Pointer* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // static public System.Object Box(System.Void* ptr, System.Type type)
-    // Offset: 0x1156AD8
+    // Offset: 0x18D4BB4
     static ::Il2CppObject* Box(void* ptr, System::Type* type);
     // private System.Void .ctor()
-    // Offset: 0x1156968
+    // Offset: 0x18D4A44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Pointer* New_ctor();
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1156CA4
+    // Offset: 0x18D4D80
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);

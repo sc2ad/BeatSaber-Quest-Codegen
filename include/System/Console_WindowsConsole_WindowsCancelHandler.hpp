@@ -26,16 +26,16 @@ namespace System {
   class Console::WindowsConsole::WindowsCancelHandler : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x10C4E3C
+    // Offset: 0x17ED974
     static Console::WindowsConsole::WindowsCancelHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.Int32 keyCode)
-    // Offset: 0x10C4E50
+    // Offset: 0x17ED988
     bool Invoke(int keyCode);
     // public System.IAsyncResult BeginInvoke(System.Int32 keyCode, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x10C50C8
+    // Offset: 0x17EDC00
     System::IAsyncResult* BeginInvoke(int keyCode, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x10C5154
+    // Offset: 0x17EDC8C
     bool EndInvoke(System::IAsyncResult* result);
   }; // System.Console/WindowsConsole/WindowsCancelHandler
 }

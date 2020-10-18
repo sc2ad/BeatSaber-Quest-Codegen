@@ -27,14 +27,14 @@ namespace Zenject {
     // public System.Void .ctor(System.Action`1<TValue> onDespawnedMethod)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.StaticMemoryPoolBaseBase`1
-    // Base method: System.Void StaticMemoryPoolBaseBase`1::.ctor(System.Action`1<TValue> onDespawnedMethod)
+    // Base method: System.Void StaticMemoryPoolBaseBase_1::.ctor(System.Action`1<TValue> onDespawnedMethod)
     static StaticMemoryPoolBase_1<TValue>* New_ctor(System::Action_1<TValue>* onDespawnedMethod) {
       return THROW_UNLESS(il2cpp_utils::New<StaticMemoryPoolBase_1<TValue>*>(onDespawnedMethod));
     }
     // protected override TValue Alloc()
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.StaticMemoryPoolBaseBase`1
-    // Base method: TValue StaticMemoryPoolBaseBase`1::Alloc()
+    // Base method: TValue StaticMemoryPoolBaseBase_1::Alloc()
     TValue Alloc() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<TValue>(this, "Alloc"));
     }

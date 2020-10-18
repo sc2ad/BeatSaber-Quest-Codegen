@@ -64,7 +64,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x9C
     float pelvisRotationWeight;
     // public System.Void .ctor()
-    // Offset: 0x1240FF4
+    // Offset: 0x18F512C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static VRIKCalibrator::Settings* New_ctor();

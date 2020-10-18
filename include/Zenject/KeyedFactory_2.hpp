@@ -37,14 +37,14 @@ namespace Zenject {
     // protected override System.Collections.Generic.IEnumerable`1<System.Type> get_ProvidedTypes()
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.KeyedFactoryBase`2
-    // Base method: System.Collections.Generic.IEnumerable`1<System.Type> KeyedFactoryBase`2::get_ProvidedTypes()
+    // Base method: System.Collections.Generic.IEnumerable`1<System.Type> KeyedFactoryBase_2::get_ProvidedTypes()
     System::Collections::Generic::IEnumerable_1<System::Type*>* get_ProvidedTypes() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerable_1<System::Type*>*>(this, "get_ProvidedTypes"));
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.KeyedFactoryBase`2
-    // Base method: System.Void KeyedFactoryBase`2::.ctor()
+    // Base method: System.Void KeyedFactoryBase_2::.ctor()
     // Base method: System.Void Object::.ctor()
     static KeyedFactory_2<TBase, TKey>* New_ctor() {
       return THROW_UNLESS((il2cpp_utils::New<KeyedFactory_2<TBase, TKey>*>()));

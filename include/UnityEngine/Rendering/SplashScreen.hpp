@@ -12,7 +12,7 @@ namespace UnityEngine::Rendering {
   class SplashScreen : public ::Il2CppObject {
     public:
     // static public System.Boolean get_isFinished()
-    // Offset: 0x138F60C
+    // Offset: 0x198CF6C
     static bool get_isFinished();
   }; // UnityEngine.Rendering.SplashScreen
 }

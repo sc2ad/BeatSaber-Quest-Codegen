@@ -6,6 +6,8 @@
 #include "HMUI/FlowCoordinator_--c__DisplayClass45_0.hpp"
 // Including type: System.Action
 #include "System/Action.hpp"
+// Including type: HMUI.NavigationController
+#include "HMUI/NavigationController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

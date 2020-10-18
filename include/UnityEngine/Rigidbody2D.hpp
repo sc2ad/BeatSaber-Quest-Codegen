@@ -21,25 +21,25 @@ namespace UnityEngine {
   class Rigidbody2D : public UnityEngine::Component {
     public:
     // public UnityEngine.Vector2 get_position()
-    // Offset: 0x1973968
+    // Offset: 0x2222954
     UnityEngine::Vector2 get_position();
     // public UnityEngine.Vector2 get_velocity()
-    // Offset: 0x1973A10
+    // Offset: 0x22229FC
     UnityEngine::Vector2 get_velocity();
     // public System.Void set_velocity(UnityEngine.Vector2 value)
-    // Offset: 0x1973AB8
+    // Offset: 0x2222AA4
     void set_velocity(UnityEngine::Vector2 value);
     // public System.Void Sleep()
-    // Offset: 0x1973B5C
+    // Offset: 0x2222B48
     void Sleep();
     // private System.Void get_position_Injected(out UnityEngine.Vector2 ret)
-    // Offset: 0x19739C0
+    // Offset: 0x22229AC
     void get_position_Injected(UnityEngine::Vector2& ret);
     // private System.Void get_velocity_Injected(out UnityEngine.Vector2 ret)
-    // Offset: 0x1973A68
+    // Offset: 0x2222A54
     void get_velocity_Injected(UnityEngine::Vector2& ret);
     // private System.Void set_velocity_Injected(ref UnityEngine.Vector2 value)
-    // Offset: 0x1973B0C
+    // Offset: 0x2222AF8
     void set_velocity_Injected(UnityEngine::Vector2& value);
   }; // UnityEngine.Rigidbody2D
 }

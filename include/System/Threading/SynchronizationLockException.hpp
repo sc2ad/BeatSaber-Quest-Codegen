@@ -23,20 +23,20 @@ namespace System::Threading {
   class SynchronizationLockException : public System::SystemException {
     public:
     // public System.Void .ctor()
-    // Offset: 0xCDE8F0
+    // Offset: 0x16DA2BC
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static SynchronizationLockException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0xCDE524
+    // Offset: 0x16D9EE8
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static SynchronizationLockException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xCDE964
+    // Offset: 0x16DA330
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

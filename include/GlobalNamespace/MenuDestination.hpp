@@ -12,7 +12,7 @@ namespace GlobalNamespace {
   class MenuDestination : public ::Il2CppObject {
     public:
     // protected System.Void .ctor()
-    // Offset: 0xC0163C
+    // Offset: 0xED8BB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MenuDestination* New_ctor();

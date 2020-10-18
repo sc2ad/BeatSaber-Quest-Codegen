@@ -31,7 +31,7 @@ namespace System::IO {
     // Offset: 0x28
     System::DateTime LastWriteTime;
     // public System.Void .ctor()
-    // Offset: 0xF67C0C
+    // Offset: 0x1733CFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FileData* New_ctor();

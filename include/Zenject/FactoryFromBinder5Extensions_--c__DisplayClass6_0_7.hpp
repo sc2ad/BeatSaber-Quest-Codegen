@@ -20,8 +20,8 @@ namespace Zenject {
   class IPoolable_6;
   // Forward declaring type: IMemoryPool
   class IMemoryPool;
-  // Forward declaring type: MemoryPool`7<TValue, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>
-  template<typename TValue, typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6>
+  // Forward declaring type: MemoryPool`7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>
+  template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
   class MemoryPool_7;
   // Forward declaring type: IProvider
   class IProvider;

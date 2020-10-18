@@ -27,6 +27,8 @@
 #include "GlobalNamespace/PlayerSaveData_OverrideEnvironmentSettings.hpp"
 // Including type: PlayerSaveData/GuestPlayer
 #include "GlobalNamespace/PlayerSaveData_GuestPlayer.hpp"
+// Including type: PlayerSaveData/MultiplayerModeSettings
+#include "GlobalNamespace/PlayerSaveData_MultiplayerModeSettings.hpp"
 // Including type: PlayerSaveData/LocalPlayer
 #include "GlobalNamespace/PlayerSaveData_LocalPlayer.hpp"
 // Including type: System.Collections.Generic.List`1

@@ -28,21 +28,21 @@ namespace Zenject {
     // public TValue Spawn()
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IMemoryPool`1
-    // Base method: TValue IMemoryPool`1::Spawn()
+    // Base method: TValue IMemoryPool_1::Spawn()
     TValue Spawn() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<TValue>(this, "Spawn"));
     }
     // private TValue Zenject.IFactory<TValue>.Create()
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IFactory`1
-    // Base method: TValue IFactory`1::Create()
+    // Base method: TValue IFactory_1::Create()
     TValue Zenject_IFactory_1_Create() {
       return THROW_UNLESS((il2cpp_utils::RunMethod<TValue>(this, "Zenject.IFactory<TValue>.Create")));
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPoolBase`1
-    // Base method: System.Void MemoryPoolBase`1::.ctor()
+    // Base method: System.Void MemoryPoolBase_1::.ctor()
     // Base method: System.Void Object::.ctor()
     static MemoryPool_1<TValue>* New_ctor() {
       return THROW_UNLESS(il2cpp_utils::New<MemoryPool_1<TValue>*>());

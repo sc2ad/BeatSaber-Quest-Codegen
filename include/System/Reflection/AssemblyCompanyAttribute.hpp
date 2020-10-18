@@ -21,7 +21,7 @@ namespace System::Reflection {
       return m_company;
     }
     // public System.Void .ctor(System.String company)
-    // Offset: 0x1368908
+    // Offset: 0x1AB8CE0
     static AssemblyCompanyAttribute* New_ctor(::Il2CppString* company);
   }; // System.Reflection.AssemblyCompanyAttribute
 }

@@ -42,13 +42,13 @@ namespace UnityEngine::Playables {
   class PlayableAsset : public UnityEngine::ScriptableObject, public UnityEngine::Playables::IPlayableAsset {
     public:
     // public System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> get_outputs()
-    // Offset: 0x141A8A8
+    // Offset: 0x1B9D1E4
     System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* get_outputs();
     // static System.Void Internal_CreatePlayable(UnityEngine.Playables.PlayableAsset asset, UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go, System.IntPtr ptr)
-    // Offset: 0x141A910
+    // Offset: 0x1B9D24C
     static void Internal_CreatePlayable(UnityEngine::Playables::PlayableAsset* asset, UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go, System::IntPtr ptr);
     // static System.Void Internal_GetPlayableAssetDuration(UnityEngine.Playables.PlayableAsset asset, System.IntPtr ptrToDouble)
-    // Offset: 0x141A9F0
+    // Offset: 0x1B9D32C
     static void Internal_GetPlayableAssetDuration(UnityEngine::Playables::PlayableAsset* asset, System::IntPtr ptrToDouble);
     // public UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject owner)
     // Offset: 0xFFFFFFFF
@@ -56,12 +56,12 @@ namespace UnityEngine::Playables {
     // Base method: UnityEngine.Playables.Playable IPlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject owner)
     UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* owner);
     // public System.Double get_duration()
-    // Offset: 0x141A840
+    // Offset: 0x1B9D17C
     // Implemented from: UnityEngine.Playables.IPlayableAsset
     // Base method: System.Double IPlayableAsset::get_duration()
     double get_duration();
     // protected System.Void .ctor()
-    // Offset: 0x141AA24
+    // Offset: 0x1B9D360
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

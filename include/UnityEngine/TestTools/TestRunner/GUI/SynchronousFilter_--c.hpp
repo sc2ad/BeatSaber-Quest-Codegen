@@ -39,16 +39,16 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     // Set static field: static public System.Func`2<System.Reflection.MethodInfo,System.Boolean> <>9__2_1
     static void _set_$$9__2_1(System::Func_2<System::Reflection::MethodInfo*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0xE47F90
+    // Offset: 0x12C4CF0
     static void _cctor();
     // System.Boolean <Pass>b__2_0(System.Reflection.MethodInfo mi)
-    // Offset: 0xE48000
+    // Offset: 0x12C4D60
     bool $Pass$b__2_0(System::Reflection::MethodInfo* mi);
     // System.Boolean <Pass>b__2_1(System.Reflection.MethodInfo mi)
-    // Offset: 0xE480A8
+    // Offset: 0x12C4E08
     bool $Pass$b__2_1(System::Reflection::MethodInfo* mi);
     // public System.Void .ctor()
-    // Offset: 0xE47FF8
+    // Offset: 0x12C4D58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SynchronousFilter::$$c* New_ctor();

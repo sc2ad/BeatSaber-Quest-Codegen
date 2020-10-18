@@ -30,10 +30,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0x20
     System::Func_2<UnityEngine::ProBuilder::Triangle, bool>* $$9__0;
     // System.Boolean <CollectFaceGroups>b__0(UnityEngine.ProBuilder.Triangle x)
-    // Offset: 0x1023640
+    // Offset: 0x1577B74
     bool $CollectFaceGroups$b__0(UnityEngine::ProBuilder::Triangle x);
     // public System.Void .ctor()
-    // Offset: 0x102234C
+    // Offset: 0x1576880
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MeshValidation::$$c__DisplayClass5_0* New_ctor();

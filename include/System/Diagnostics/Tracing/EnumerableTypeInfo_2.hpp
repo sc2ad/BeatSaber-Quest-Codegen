@@ -51,7 +51,7 @@ namespace System::Diagnostics::Tracing {
     // public override System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref IterableType value)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo`1
-    // Base method: System.Void TraceLoggingTypeInfo`1::WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref IterableType value)
+    // Base method: System.Void TraceLoggingTypeInfo_1::WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref IterableType value)
     void WriteData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, IterableType& value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "WriteData", collector, value));
     }

@@ -136,20 +136,26 @@ namespace GlobalNamespace {
     // public BoolSO oculusMRCEnabled
     // Offset: 0x118
     GlobalNamespace::BoolSO* oculusMRCEnabled;
-    // public BoolSO depthTextureEnabled
+    // public BoolSO openVrThreadedHaptics
     // Offset: 0x120
+    GlobalNamespace::BoolSO* openVrThreadedHaptics;
+    // public IntSO languageSettings
+    // Offset: 0x128
+    GlobalNamespace::IntSO* languageSettings;
+    // public BoolSO depthTextureEnabled
+    // Offset: 0x130
     GlobalNamespace::BoolSO* depthTextureEnabled;
     // private System.Boolean <createScreenshotDuringTheGame>k__BackingField
-    // Offset: 0x128
+    // Offset: 0x138
     bool createScreenshotDuringTheGame;
     // private System.Boolean <playingForTheFirstTime>k__BackingField
-    // Offset: 0x129
+    // Offset: 0x139
     bool playingForTheFirstTime;
     // private System.Boolean _playingForTheFirstTimeChecked
-    // Offset: 0x12A
+    // Offset: 0x13A
     bool playingForTheFirstTimeChecked;
     // private System.Boolean _isLoaded
-    // Offset: 0x12B
+    // Offset: 0x13B
     bool isLoaded;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
@@ -184,7 +190,7 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kBackupFileName
     static void _set_kBackupFileName(::Il2CppString* value);
     // static field const value: static private System.String kCurrentVersion
-    static constexpr const char* kCurrentVersion = "1.5.0";
+    static constexpr const char* kCurrentVersion = "1.6.0";
     // Get static field: static private System.String kCurrentVersion
     static ::Il2CppString* _get_kCurrentVersion();
     // Set static field: static private System.String kCurrentVersion
@@ -202,36 +208,36 @@ namespace GlobalNamespace {
     // Set static field: static public System.Single kControllersRotationOffsetLimit
     static void _set_kControllersRotationOffsetLimit(float value);
     // public System.Boolean get_createScreenshotDuringTheGame()
-    // Offset: 0xC004FC
+    // Offset: 0xED654C
     bool get_createScreenshotDuringTheGame();
     // private System.Void set_createScreenshotDuringTheGame(System.Boolean value)
-    // Offset: 0xC00504
+    // Offset: 0xED6554
     void set_createScreenshotDuringTheGame(bool value);
     // public System.Boolean get_playingForTheFirstTime()
-    // Offset: 0xC00510
+    // Offset: 0xED6560
     bool get_playingForTheFirstTime();
     // private System.Void set_playingForTheFirstTime(System.Boolean value)
-    // Offset: 0xC00518
+    // Offset: 0xED6568
     void set_playingForTheFirstTime(bool value);
     // public System.Void Save()
-    // Offset: 0xBFE1C8
+    // Offset: 0xED6574
     void Save();
     // public System.Void Load(System.Boolean forced)
-    // Offset: 0xC005E8
+    // Offset: 0xED6A5C
     void Load(bool forced);
     // public System.Void __DeleteSettingsFiles()
-    // Offset: 0xC00BE4
+    // Offset: 0xED7080
     void __DeleteSettingsFiles();
     // protected System.Void OnDisable()
-    // Offset: 0xC00DB0
+    // Offset: 0xED724C
     void OnDisable();
     // protected override System.Void OnEnable()
-    // Offset: 0xC00D1C
+    // Offset: 0xED71B8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0xC00DB4
+    // Offset: 0xED7250
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

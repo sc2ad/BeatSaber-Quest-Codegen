@@ -28,49 +28,49 @@ namespace UnityEngine {
   class StateMachineBehaviour : public UnityEngine::ScriptableObject {
     public:
     // public System.Void OnStateEnter(UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex)
-    // Offset: 0x1942324
+    // Offset: 0x21EA0E0
     void OnStateEnter(UnityEngine::Animator* animator, UnityEngine::AnimatorStateInfo stateInfo, int layerIndex);
     // public System.Void OnStateUpdate(UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex)
-    // Offset: 0x1942328
+    // Offset: 0x21EA0E4
     void OnStateUpdate(UnityEngine::Animator* animator, UnityEngine::AnimatorStateInfo stateInfo, int layerIndex);
     // public System.Void OnStateExit(UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex)
-    // Offset: 0x194232C
+    // Offset: 0x21EA0E8
     void OnStateExit(UnityEngine::Animator* animator, UnityEngine::AnimatorStateInfo stateInfo, int layerIndex);
     // public System.Void OnStateMove(UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex)
-    // Offset: 0x1942330
+    // Offset: 0x21EA0EC
     void OnStateMove(UnityEngine::Animator* animator, UnityEngine::AnimatorStateInfo stateInfo, int layerIndex);
     // public System.Void OnStateIK(UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex)
-    // Offset: 0x1942334
+    // Offset: 0x21EA0F0
     void OnStateIK(UnityEngine::Animator* animator, UnityEngine::AnimatorStateInfo stateInfo, int layerIndex);
     // public System.Void OnStateMachineEnter(UnityEngine.Animator animator, System.Int32 stateMachinePathHash)
-    // Offset: 0x1942338
+    // Offset: 0x21EA0F4
     void OnStateMachineEnter(UnityEngine::Animator* animator, int stateMachinePathHash);
     // public System.Void OnStateMachineExit(UnityEngine.Animator animator, System.Int32 stateMachinePathHash)
-    // Offset: 0x194233C
+    // Offset: 0x21EA0F8
     void OnStateMachineExit(UnityEngine::Animator* animator, int stateMachinePathHash);
     // public System.Void OnStateEnter(UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex, UnityEngine.Animations.AnimatorControllerPlayable controller)
-    // Offset: 0x1942340
+    // Offset: 0x21EA0FC
     void OnStateEnter(UnityEngine::Animator* animator, UnityEngine::AnimatorStateInfo stateInfo, int layerIndex, UnityEngine::Animations::AnimatorControllerPlayable controller);
     // public System.Void OnStateUpdate(UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex, UnityEngine.Animations.AnimatorControllerPlayable controller)
-    // Offset: 0x1942344
+    // Offset: 0x21EA100
     void OnStateUpdate(UnityEngine::Animator* animator, UnityEngine::AnimatorStateInfo stateInfo, int layerIndex, UnityEngine::Animations::AnimatorControllerPlayable controller);
     // public System.Void OnStateExit(UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex, UnityEngine.Animations.AnimatorControllerPlayable controller)
-    // Offset: 0x1942348
+    // Offset: 0x21EA104
     void OnStateExit(UnityEngine::Animator* animator, UnityEngine::AnimatorStateInfo stateInfo, int layerIndex, UnityEngine::Animations::AnimatorControllerPlayable controller);
     // public System.Void OnStateMove(UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex, UnityEngine.Animations.AnimatorControllerPlayable controller)
-    // Offset: 0x194234C
+    // Offset: 0x21EA108
     void OnStateMove(UnityEngine::Animator* animator, UnityEngine::AnimatorStateInfo stateInfo, int layerIndex, UnityEngine::Animations::AnimatorControllerPlayable controller);
     // public System.Void OnStateIK(UnityEngine.Animator animator, UnityEngine.AnimatorStateInfo stateInfo, System.Int32 layerIndex, UnityEngine.Animations.AnimatorControllerPlayable controller)
-    // Offset: 0x1942350
+    // Offset: 0x21EA10C
     void OnStateIK(UnityEngine::Animator* animator, UnityEngine::AnimatorStateInfo stateInfo, int layerIndex, UnityEngine::Animations::AnimatorControllerPlayable controller);
     // public System.Void OnStateMachineEnter(UnityEngine.Animator animator, System.Int32 stateMachinePathHash, UnityEngine.Animations.AnimatorControllerPlayable controller)
-    // Offset: 0x1942354
+    // Offset: 0x21EA110
     void OnStateMachineEnter(UnityEngine::Animator* animator, int stateMachinePathHash, UnityEngine::Animations::AnimatorControllerPlayable controller);
     // public System.Void OnStateMachineExit(UnityEngine.Animator animator, System.Int32 stateMachinePathHash, UnityEngine.Animations.AnimatorControllerPlayable controller)
-    // Offset: 0x1942358
+    // Offset: 0x21EA114
     void OnStateMachineExit(UnityEngine::Animator* animator, int stateMachinePathHash, UnityEngine::Animations::AnimatorControllerPlayable controller);
     // protected System.Void .ctor()
-    // Offset: 0x194235C
+    // Offset: 0x21EA118
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

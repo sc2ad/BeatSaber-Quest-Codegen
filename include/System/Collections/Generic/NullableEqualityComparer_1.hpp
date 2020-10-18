@@ -65,7 +65,7 @@ namespace System::Collections::Generic {
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.EqualityComparer`1
-    // Base method: System.Void EqualityComparer`1::.ctor()
+    // Base method: System.Void EqualityComparer_1::.ctor()
     // Base method: System.Void Object::.ctor()
     static NullableEqualityComparer_1<T>* New_ctor() {
       return THROW_UNLESS(il2cpp_utils::New<NullableEqualityComparer_1<T>*>());

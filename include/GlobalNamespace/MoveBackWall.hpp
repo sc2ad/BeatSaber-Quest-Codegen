@@ -18,8 +18,8 @@ namespace UnityEngine {
 }
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: PlayerController
-  class PlayerController;
+  // Forward declaring type: PlayerTransforms
+  class PlayerTransforms;
 }
 // Completed forward declares
 // Type namespace: 
@@ -33,9 +33,9 @@ namespace GlobalNamespace {
     // private UnityEngine.MeshRenderer _meshRenderer
     // Offset: 0x20
     UnityEngine::MeshRenderer* meshRenderer;
-    // private PlayerController _playerController
+    // private readonly PlayerTransforms _playerTransforms
     // Offset: 0x28
-    GlobalNamespace::PlayerController* playerController;
+    GlobalNamespace::PlayerTransforms* playerTransforms;
     // private System.Single _thisZ
     // Offset: 0x30
     float thisZ;
@@ -48,13 +48,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xC0FF78
+    // Offset: 0xFC76D8
     void Start();
     // protected System.Void Update()
-    // Offset: 0xC0FFE0
+    // Offset: 0xFC7740
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xC10110
+    // Offset: 0xFC7870
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -35,48 +35,60 @@ namespace HMUI {
     public:
     // Nested type: HMUI::IconSegmentedControl::DataItem
     class DataItem;
+    // private System.Single _iconSize
+    // Offset: 0x58
+    float iconSize;
+    // private System.Boolean _overrideCellSize
+    // Offset: 0x5C
+    bool overrideCellSize;
+    // private System.Single _padding
+    // Offset: 0x60
+    float padding;
+    // private System.Boolean _hideCellBackground
+    // Offset: 0x64
+    bool hideCellBackground;
     // private HMUI.IconSegmentedControlCell _firstCellPrefab
-    // Offset: 0x50
+    // Offset: 0x68
     HMUI::IconSegmentedControlCell* firstCellPrefab;
     // private HMUI.IconSegmentedControlCell _lastCellPrefab
-    // Offset: 0x58
+    // Offset: 0x70
     HMUI::IconSegmentedControlCell* lastCellPrefab;
     // private HMUI.IconSegmentedControlCell _middleCellPrefab
-    // Offset: 0x60
+    // Offset: 0x78
     HMUI::IconSegmentedControlCell* middleCellPrefab;
     // private HMUI.IconSegmentedControlCell _singleCellPrefab
-    // Offset: 0x68
+    // Offset: 0x80
     HMUI::IconSegmentedControlCell* singleCellPrefab;
     // private Zenject.DiContainer _container
-    // Offset: 0x70
+    // Offset: 0x88
     Zenject::DiContainer* container;
     // private HMUI.IconSegmentedControl/DataItem[] _dataItems
-    // Offset: 0x78
+    // Offset: 0x90
     ::Array<HMUI::IconSegmentedControl::DataItem*>* dataItems;
     // private System.Boolean _isInitialized
-    // Offset: 0x80
+    // Offset: 0x98
     bool isInitialized;
     // protected System.Void Init()
-    // Offset: 0xEE3794
+    // Offset: 0x11BE0EC
     void Init();
     // public System.Void SetData(HMUI.IconSegmentedControl/DataItem[] dataItems)
-    // Offset: 0xEE37B4
+    // Offset: 0x11BE10C
     void SetData(::Array<HMUI::IconSegmentedControl::DataItem*>* dataItems);
     // private HMUI.IconSegmentedControlCell InstantiateCell(UnityEngine.Object prefab)
-    // Offset: 0xEE391C
+    // Offset: 0x11BE32C
     HMUI::IconSegmentedControlCell* InstantiateCell(UnityEngine::Object* prefab);
     // public System.Int32 NumberOfCells()
-    // Offset: 0xEE380C
+    // Offset: 0x11BE164
     // Implemented from: HMUI.SegmentedControl/IDataSource
     // Base method: System.Int32 IDataSource::NumberOfCells()
     int NumberOfCells();
     // public HMUI.SegmentedControlCell CellForCellNumber(System.Int32 cellNumber)
-    // Offset: 0xEE3824
+    // Offset: 0x11BE17C
     // Implemented from: HMUI.SegmentedControl/IDataSource
     // Base method: HMUI.SegmentedControlCell IDataSource::CellForCellNumber(System.Int32 cellNumber)
     HMUI::SegmentedControlCell* CellForCellNumber(int cellNumber);
     // public System.Void .ctor()
-    // Offset: 0xEE3AB0
+    // Offset: 0x11BE5DC
     // Implemented from: HMUI.SegmentedControl
     // Base method: System.Void SegmentedControl::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

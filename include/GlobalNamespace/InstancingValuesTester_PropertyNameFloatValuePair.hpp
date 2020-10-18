@@ -20,7 +20,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     float value;
     // public System.Void .ctor()
-    // Offset: 0x1829A6C
+    // Offset: 0x1FAC17C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InstancingValuesTester::PropertyNameFloatValuePair* New_ctor();

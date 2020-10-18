@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 // Completed includes
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
@@ -12,11 +13,33 @@ namespace System::Security::Cryptography {
   class CryptoConfig : public ::Il2CppObject {
     public:
     // static public System.Byte[] EncodeOID(System.String str)
-    // Offset: 0xDEBB30
+    // Offset: 0x16B1F94
     static ::Array<uint8_t>* EncodeOID(::Il2CppString* str);
     // static private System.Byte[] EncodeLongNumber(System.Int64 x)
-    // Offset: 0xDEBF88
+    // Offset: 0x16B2394
     static ::Array<uint8_t>* EncodeLongNumber(int64_t x);
+    // static public System.Boolean get_AllowOnlyFipsAlgorithms()
+    // Offset: 0x16B253C
+    static bool get_AllowOnlyFipsAlgorithms();
+    // static public System.Object CreateFromName(System.String name)
+    // Offset: 0x16B2544
+    static ::Il2CppObject* CreateFromName(::Il2CppString* name);
+    // static public System.Object CreateFromName(System.String name, params System.Object[] args)
+    // Offset: 0x16B2548
+    static ::Il2CppObject* CreateFromName(::Il2CppString* name, ::Array<::Il2CppObject*>* args);
+    // Creating initializer_list -> params proxy for: System.Object CreateFromName(System.String name, params System.Object[] args)
+    static ::Il2CppObject* CreateFromName(::Il2CppString* name, std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.Object CreateFromName(System.String name, params System.Object[] args)
+    template<class ...TParams>
+    static ::Il2CppObject* CreateFromName(::Il2CppString* name, TParams&&... args) {
+      return CreateFromName(name, {args...});
+    }
+    // static System.String MapNameToOID(System.String name, System.Object arg)
+    // Offset: 0x16B38F8
+    static ::Il2CppString* MapNameToOID(::Il2CppString* name, ::Il2CppObject* arg);
+    // static public System.String MapNameToOID(System.String name)
+    // Offset: 0x16B38FC
+    static ::Il2CppString* MapNameToOID(::Il2CppString* name);
   }; // System.Security.Cryptography.CryptoConfig
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

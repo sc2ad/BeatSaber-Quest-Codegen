@@ -7,8 +7,6 @@
 #include "GlobalNamespace/LeaderboardTableCell.hpp"
 // Including type: TMPro.TextMeshProUGUI
 #include "TMPro/TextMeshProUGUI.hpp"
-// Including type: TMPro.TMP_FontAsset
-#include "TMPro/TMP_FontAsset.hpp"
 // Including type: UnityEngine.UI.Image
 #include "UnityEngine/UI/Image.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

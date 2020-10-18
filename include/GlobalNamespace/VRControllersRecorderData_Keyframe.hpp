@@ -20,7 +20,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     float time;
     // public System.Void .ctor(VRControllersRecorderData/PositionAndRotation[] positionAndRotations, System.Single time)
-    // Offset: 0xC52220
+    // Offset: 0x12EDC08
     static VRControllersRecorderData::Keyframe* New_ctor(::Array<GlobalNamespace::VRControllersRecorderData::PositionAndRotation>* positionAndRotations, float time);
   }; // VRControllersRecorderData/Keyframe
 }

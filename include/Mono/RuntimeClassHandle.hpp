@@ -34,27 +34,27 @@ namespace Mono {
       return value;
     }
     // System.Void .ctor(Mono.RuntimeStructs/MonoClass* value)
-    // Offset: 0xA407AC
+    // Offset: 0xDBB574
     // ABORTED: conflicts with another method.  RuntimeClassHandle(Mono::RuntimeStructs::MonoClass* value);
     // System.Void .ctor(System.IntPtr ptr)
-    // Offset: 0xA407B4
+    // Offset: 0xDBB57C
     RuntimeClassHandle(System::IntPtr ptr);
     // Mono.RuntimeStructs/MonoClass* get_Value()
-    // Offset: 0xA407E0
+    // Offset: 0xDBB5A8
     Mono::RuntimeStructs::MonoClass* get_Value();
     // static System.IntPtr GetTypeFromClass(Mono.RuntimeStructs/MonoClass* klass)
-    // Offset: 0x10B94A4
+    // Offset: 0x17E11F0
     static System::IntPtr GetTypeFromClass(Mono::RuntimeStructs::MonoClass* klass);
     // System.RuntimeTypeHandle GetTypeHandle()
-    // Offset: 0xA40824
+    // Offset: 0xDBB5EC
     System::RuntimeTypeHandle GetTypeHandle();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA407E8
+    // Offset: 0xDBB5B0
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA407F0
+    // Offset: 0xDBB5B8
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

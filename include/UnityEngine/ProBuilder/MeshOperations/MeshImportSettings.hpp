@@ -21,30 +21,30 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0x14
     float m_SmoothingThreshold;
     // public System.Boolean get_quads()
-    // Offset: 0x101E9D4
+    // Offset: 0x1572DE4
     bool get_quads();
     // public System.Void set_quads(System.Boolean value)
-    // Offset: 0x101E9DC
+    // Offset: 0x1572DEC
     void set_quads(bool value);
     // public System.Boolean get_smoothing()
-    // Offset: 0x101E9E8
+    // Offset: 0x1572DF8
     bool get_smoothing();
     // public System.Void set_smoothing(System.Boolean value)
-    // Offset: 0x101E9F0
+    // Offset: 0x1572E00
     void set_smoothing(bool value);
     // public System.Single get_smoothingAngle()
-    // Offset: 0x101E9FC
+    // Offset: 0x1572E0C
     float get_smoothingAngle();
     // public System.Void set_smoothingAngle(System.Single value)
-    // Offset: 0x101EA04
+    // Offset: 0x1572E14
     void set_smoothingAngle(float value);
     // public override System.String ToString()
-    // Offset: 0x101EA0C
+    // Offset: 0x1572E1C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public System.Void .ctor()
-    // Offset: 0x101EAD4
+    // Offset: 0x1572EE4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MeshImportSettings* New_ctor();

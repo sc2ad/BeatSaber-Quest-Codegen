@@ -21,10 +21,10 @@ namespace UnityEngine {
       return mJavaStackTrace;
     }
     // System.Void .ctor(System.String message, System.String javaStackTrace)
-    // Offset: 0x1921928
+    // Offset: 0x21B10E4
     static AndroidJavaException* New_ctor(::Il2CppString* message, ::Il2CppString* javaStackTrace);
     // public override System.String get_StackTrace()
-    // Offset: 0x19252C0
+    // Offset: 0x21B4A7C
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_StackTrace()
     ::Il2CppString* get_StackTrace();

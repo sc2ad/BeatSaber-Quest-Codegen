@@ -181,10 +181,10 @@ namespace GlobalNamespace {
     // Set static field: static public System.Int32 kDefaultPauseButtonPressDurationLevel
     static void _set_kDefaultPauseButtonPressDurationLevel(int value);
     // static public System.Void SetFixedDefaultValues(MainSettingsModelSO mainSettingsModel)
-    // Offset: 0xBFFDE0
+    // Offset: 0xED5F3C
     static void SetFixedDefaultValues(GlobalNamespace::MainSettingsModelSO* mainSettingsModel);
     // public System.Void .ctor()
-    // Offset: 0xBFFF38
+    // Offset: 0xED6094
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MainSettingsDefaultValues* New_ctor();

@@ -25,16 +25,16 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Set static field: static public System.Double EPSILON
     static void _set_EPSILON(double value);
     // static public System.Boolean SmartIncircle(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pa, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pb, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pc, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pd)
-    // Offset: 0x1931534
+    // Offset: 0x21C5FD4
     static bool SmartIncircle(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pa, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pb, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pc, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pd);
     // static public System.Boolean InScanArea(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pa, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pb, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pc, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pd)
-    // Offset: 0x1930944
+    // Offset: 0x21C53E4
     static bool InScanArea(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pa, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pb, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pc, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pd);
     // static public UnityEngine.ProBuilder.Poly2Tri.Orientation Orient2d(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pa, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pb, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pc)
-    // Offset: 0x192EC6C
+    // Offset: 0x21C370C
     static UnityEngine::ProBuilder::Poly2Tri::Orientation Orient2d(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pa, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pb, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pc);
     // static private System.Void .cctor()
-    // Offset: 0x1933C9C
+    // Offset: 0x21C873C
     static void _cctor();
   }; // UnityEngine.ProBuilder.Poly2Tri.TriangulationUtil
 }

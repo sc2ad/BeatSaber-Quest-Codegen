@@ -22,19 +22,19 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Offset: 0x20
     ::Array<uint8_t>* data;
     // public System.Guid get_id()
-    // Offset: 0xE46B98
+    // Offset: 0x12C38F8
     System::Guid get_id();
     // public System.Void set_id(System.Guid value)
-    // Offset: 0xE46BA4
+    // Offset: 0x12C3904
     void set_id(System::Guid value);
     // public System.Byte[] get_data()
-    // Offset: 0xE46BAC
+    // Offset: 0x12C390C
     ::Array<uint8_t>* get_data();
     // public System.Void set_data(System.Byte[] value)
-    // Offset: 0xE46BB4
+    // Offset: 0x12C3914
     void set_data(::Array<uint8_t>* value);
     // public System.Void .ctor()
-    // Offset: 0xE46040
+    // Offset: 0x12C2DA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static RemoteTestResultSender::QueueData* New_ctor();

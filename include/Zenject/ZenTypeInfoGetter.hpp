@@ -29,16 +29,16 @@ namespace Zenject {
   class ZenTypeInfoGetter : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1943958
+    // Offset: 0x21EB714
     static ZenTypeInfoGetter* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Zenject.InjectTypeInfo Invoke()
-    // Offset: 0x1942D44
+    // Offset: 0x21EAB00
     Zenject::InjectTypeInfo* Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x194396C
+    // Offset: 0x21EB728
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Zenject.InjectTypeInfo EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1943998
+    // Offset: 0x21EB754
     Zenject::InjectTypeInfo* EndInvoke(System::IAsyncResult* result);
   }; // Zenject.ZenTypeInfoGetter
 }

@@ -51,12 +51,12 @@ namespace GlobalNamespace {
     // Offset: 0x48
     GlobalNamespace::KawaseBlurRendererSO* kawaseBlurRenderer;
     // public override System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x190FBA0
+    // Offset: 0x219F7C0
     // Implemented from: TextureEffectSO
     // Base method: System.Void TextureEffectSO::Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
     void Render(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);
     // public System.Void .ctor()
-    // Offset: 0x190FBD8
+    // Offset: 0x219F7F8
     // Implemented from: BloomPrePassEffectSO
     // Base method: System.Void BloomPrePassEffectSO::.ctor()
     // Base method: System.Void TextureEffectSO::.ctor()

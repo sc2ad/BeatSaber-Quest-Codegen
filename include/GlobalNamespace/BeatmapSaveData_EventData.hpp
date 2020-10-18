@@ -9,8 +9,8 @@
 #include "GlobalNamespace/BeatmapSaveData.hpp"
 // Including type: BeatmapSaveData/ITime
 #include "GlobalNamespace/BeatmapSaveData_ITime.hpp"
-// Including type: BeatmapEventType
-#include "GlobalNamespace/BeatmapEventType.hpp"
+// Including type: BeatmapSaveData/BeatmapEventType
+#include "GlobalNamespace/BeatmapSaveData_BeatmapEventType.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -20,28 +20,28 @@ namespace GlobalNamespace {
     // private System.Single _time
     // Offset: 0x10
     float time;
-    // private BeatmapEventType _type
+    // private BeatmapSaveData/BeatmapEventType _type
     // Offset: 0x14
-    GlobalNamespace::BeatmapEventType type;
+    GlobalNamespace::BeatmapSaveData::BeatmapEventType type;
     // private System.Int32 _value
     // Offset: 0x18
     int value;
-    // public BeatmapEventType get_type()
-    // Offset: 0xB7B26C
-    GlobalNamespace::BeatmapEventType get_type();
+    // public BeatmapSaveData/BeatmapEventType get_type()
+    // Offset: 0xF18C58
+    GlobalNamespace::BeatmapSaveData::BeatmapEventType get_type();
     // public System.Int32 get_value()
-    // Offset: 0xB7B274
+    // Offset: 0xF18C60
     int get_value();
-    // public System.Void .ctor(System.Single time, BeatmapEventType type, System.Int32 value)
-    // Offset: 0xB7B27C
-    static BeatmapSaveData::EventData* New_ctor(float time, GlobalNamespace::BeatmapEventType type, int value);
+    // public System.Void .ctor(System.Single time, BeatmapSaveData/BeatmapEventType type, System.Int32 value)
+    // Offset: 0xF18C68
+    static BeatmapSaveData::EventData* New_ctor(float time, GlobalNamespace::BeatmapSaveData::BeatmapEventType type, int value);
     // public System.Single get_time()
-    // Offset: 0xB7B264
+    // Offset: 0xF18C50
     // Implemented from: BeatmapSaveData/ITime
     // Base method: System.Single ITime::get_time()
     float get_time();
     // public System.Void MoveTime(System.Single offset)
-    // Offset: 0xB7B2C4
+    // Offset: 0xF18CB0
     // Implemented from: BeatmapSaveData/ITime
     // Base method: System.Void ITime::MoveTime(System.Single offset)
     void MoveTime(float offset);

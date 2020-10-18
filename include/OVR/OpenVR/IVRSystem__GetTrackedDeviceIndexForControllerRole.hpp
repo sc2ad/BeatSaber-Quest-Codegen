@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_GetTrackedDeviceIndexForControllerRole : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16C19E4
+    // Offset: 0x1F4678C
     static IVRSystem::_GetTrackedDeviceIndexForControllerRole* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(OVR.OpenVR.ETrackedControllerRole unDeviceType)
-    // Offset: 0x16C19F8
+    // Offset: 0x1F467A0
     uint Invoke(OVR::OpenVR::ETrackedControllerRole unDeviceType);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.ETrackedControllerRole unDeviceType, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16C1C6C
+    // Offset: 0x1F46A14
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::ETrackedControllerRole unDeviceType, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16C1CF8
+    // Offset: 0x1F46AA0
     uint EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_GetTrackedDeviceIndexForControllerRole
 }

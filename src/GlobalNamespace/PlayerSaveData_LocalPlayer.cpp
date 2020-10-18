@@ -23,6 +23,8 @@
 #include "GlobalNamespace/PlayerSaveData_ColorSchemesSettings.hpp"
 // Including type: PlayerSaveData/OverrideEnvironmentSettings
 #include "GlobalNamespace/PlayerSaveData_OverrideEnvironmentSettings.hpp"
+// Including type: PlayerSaveData/MultiplayerModeSettings
+#include "GlobalNamespace/PlayerSaveData_MultiplayerModeSettings.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

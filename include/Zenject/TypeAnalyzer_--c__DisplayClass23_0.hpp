@@ -32,13 +32,13 @@ namespace Zenject {
       return type;
     }
     // Zenject.InjectTypeInfo/InjectMemberInfo <CreateTypeInfoFromReflection>b__0(Zenject.Internal.ReflectionTypeInfo/InjectFieldInfo x)
-    // Offset: 0x19432FC
+    // Offset: 0x21EB0B8
     Zenject::InjectTypeInfo::InjectMemberInfo* $CreateTypeInfoFromReflection$b__0(Zenject::Internal::ReflectionTypeInfo::InjectFieldInfo* x);
     // Zenject.InjectTypeInfo/InjectMemberInfo <CreateTypeInfoFromReflection>b__1(Zenject.Internal.ReflectionTypeInfo/InjectPropertyInfo x)
-    // Offset: 0x1943308
+    // Offset: 0x21EB0C4
     Zenject::InjectTypeInfo::InjectMemberInfo* $CreateTypeInfoFromReflection$b__1(Zenject::Internal::ReflectionTypeInfo::InjectPropertyInfo* x);
     // public System.Void .ctor()
-    // Offset: 0x1943244
+    // Offset: 0x21EB000
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TypeAnalyzer::$$c__DisplayClass23_0* New_ctor();

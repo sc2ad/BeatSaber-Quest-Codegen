@@ -39,10 +39,10 @@ namespace System::Reflection {
     // Offset: 0x30
     int max_stack;
     // public System.Byte[] GetILAsByteArray()
-    // Offset: 0x1371D68
+    // Offset: 0x18CF02C
     ::Array<uint8_t>* GetILAsByteArray();
     // protected System.Void .ctor()
-    // Offset: 0x1371D64
+    // Offset: 0x18CF024
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MethodBody* New_ctor();

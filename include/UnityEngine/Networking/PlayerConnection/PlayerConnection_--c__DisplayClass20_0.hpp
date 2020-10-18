@@ -28,10 +28,10 @@ namespace UnityEngine::Networking::PlayerConnection {
       return msgReceived;
     }
     // System.Void <BlockUntilRecvMsg>b__0(UnityEngine.Networking.PlayerConnection.MessageEventArgs args)
-    // Offset: 0x14184B8
+    // Offset: 0x1B9ADF4
     void $BlockUntilRecvMsg$b__0(UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
     // public System.Void .ctor()
-    // Offset: 0x1417AE4
+    // Offset: 0x1B9A420
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerConnection::$$c__DisplayClass20_0* New_ctor();

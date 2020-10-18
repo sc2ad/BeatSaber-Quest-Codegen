@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_SetOverlayTextureBounds : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16AB938
+    // Offset: 0x1F306E0
     static IVROverlay::_SetOverlayTextureBounds* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.VRTextureBounds_t pOverlayTextureBounds)
-    // Offset: 0x16AB94C
+    // Offset: 0x1F306F4
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, OVR::OpenVR::VRTextureBounds_t& pOverlayTextureBounds);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.VRTextureBounds_t pOverlayTextureBounds, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16ABBD0
+    // Offset: 0x1F30978
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, OVR::OpenVR::VRTextureBounds_t& pOverlayTextureBounds, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(ref OVR.OpenVR.VRTextureBounds_t pOverlayTextureBounds, System.IAsyncResult result)
-    // Offset: 0x16ABC80
+    // Offset: 0x1F30A28
     OVR::OpenVR::EVROverlayError EndInvoke(OVR::OpenVR::VRTextureBounds_t& pOverlayTextureBounds, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_SetOverlayTextureBounds
 }

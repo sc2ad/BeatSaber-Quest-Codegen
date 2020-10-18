@@ -64,31 +64,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Single get_volume()
-    // Offset: 0xB9C4BC
+    // Offset: 0xEF2D54
     float get_volume();
     // public System.Void set_volume(System.Single value)
-    // Offset: 0xB9C4C4
+    // Offset: 0xEF2D5C
     void set_volume(float value);
     // protected System.Void OnEnable()
-    // Offset: 0xB9C4CC
+    // Offset: 0xEF2D64
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xB9C8D0
+    // Offset: 0xEF3168
     void OnDisable();
     // protected System.Void Update()
-    // Offset: 0xB9C9FC
+    // Offset: 0xEF3294
     void Update();
     // public System.Void CrossfadeTo(UnityEngine.AudioClip audioClip, System.Single startTime, System.Single duration, System.Single volumeScale)
-    // Offset: 0xB9C748
+    // Offset: 0xEF2FE0
     void CrossfadeTo(UnityEngine::AudioClip* audioClip, float startTime, float duration, float volumeScale);
     // public System.Void FadeOut()
-    // Offset: 0xB9CBC8
+    // Offset: 0xEF3460
     void FadeOut();
     // public System.Void CrossfadeToDefault()
-    // Offset: 0xB9CBE0
+    // Offset: 0xEF3478
     void CrossfadeToDefault();
     // public System.Void .ctor()
-    // Offset: 0xB9CD40
+    // Offset: 0xEF35D8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

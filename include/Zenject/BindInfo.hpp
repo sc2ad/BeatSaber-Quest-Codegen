@@ -101,18 +101,18 @@ namespace Zenject {
     // Offset: 0x78
     System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* InstantiatedCallback;
     // public System.Void SetContextInfo(System.String contextInfo)
-    // Offset: 0xD68BAC
+    // Offset: 0x11F4184
     void SetContextInfo(::Il2CppString* contextInfo);
     // public System.Void Reset()
-    // Offset: 0xD68A44
+    // Offset: 0x11F401C
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0xD68960
+    // Offset: 0x11F3F38
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BindInfo* New_ctor();
     // public System.Void Dispose()
-    // Offset: 0xD68B44
+    // Offset: 0x11F411C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

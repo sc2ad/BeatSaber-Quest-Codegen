@@ -11,8 +11,8 @@
 // Begin forward declares
 // Forward declaring namespace: LeaderboardsDTO
 namespace LeaderboardsDTO {
-  // Forward declaring type: GameplayModifiersDTO
-  struct GameplayModifiersDTO;
+  // Forward declaring type: GameplayModifiersDto
+  struct GameplayModifiersDto;
 }
 // Completed forward declares
 // Type namespace: LeaderboardsDTO
@@ -38,11 +38,11 @@ namespace LeaderboardsDTO {
     // public System.String platformUserId
     // Offset: 0x30
     ::Il2CppString* platformUserId;
-    // public LeaderboardsDTO.GameplayModifiersDTO[] gameplayModifiers
+    // public LeaderboardsDTO.GameplayModifiersDto[] gameplayModifiers
     // Offset: 0x38
-    ::Array<LeaderboardsDTO::GameplayModifiersDTO>* gameplayModifiers;
+    ::Array<LeaderboardsDTO::GameplayModifiersDto>* gameplayModifiers;
     // public System.Void .ctor()
-    // Offset: 0xB48248
+    // Offset: 0x101D044
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LeaderboardEntryDTO* New_ctor();

@@ -20,7 +20,7 @@ namespace GlobalNamespace {
     // Offset: 0x14
     int cellIdx;
     // public System.Void .ctor(System.Char character, System.Int32 cellIdx)
-    // Offset: 0xCAD8A4
+    // Offset: 0x1091580
     static AlphabetScrollInfo::Data* New_ctor(::Il2CppChar character, int cellIdx);
   }; // AlphabetScrollInfo/Data
 }

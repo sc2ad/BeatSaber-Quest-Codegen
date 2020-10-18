@@ -28,7 +28,7 @@ namespace TMPro {
     // Offset: 0x18
     System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>* followingCharacters;
     // public System.Void .ctor()
-    // Offset: 0xBB3414
+    // Offset: 0xF8EFBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TMP_Settings::LineBreakingTable* New_ctor();

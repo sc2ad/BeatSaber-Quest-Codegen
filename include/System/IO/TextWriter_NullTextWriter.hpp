@@ -21,34 +21,34 @@ namespace System::IO {
   class TextWriter::NullTextWriter : public System::IO::TextWriter {
     public:
     // System.Void .ctor()
-    // Offset: 0x1010720
+    // Offset: 0x1595ED8
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::.ctor()
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
     static TextWriter::NullTextWriter* New_ctor();
     // public override System.Text.Encoding get_Encoding()
-    // Offset: 0x1010C88
+    // Offset: 0x1596440
     // Implemented from: System.IO.TextWriter
     // Base method: System.Text.Encoding TextWriter::get_Encoding()
     System::Text::Encoding* get_Encoding();
     // public override System.Void Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1010C90
+    // Offset: 0x1596448
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
     void Write(::Array<::Il2CppChar>* buffer, int index, int count);
     // public override System.Void Write(System.String value)
-    // Offset: 0x1010C94
+    // Offset: 0x159644C
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.String value)
     void Write(::Il2CppString* value);
     // public override System.Void WriteLine()
-    // Offset: 0x1010C98
+    // Offset: 0x1596450
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::WriteLine()
     void WriteLine();
     // public override System.Void WriteLine(System.String value)
-    // Offset: 0x1010C9C
+    // Offset: 0x1596454
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::WriteLine(System.String value)
     void WriteLine(::Il2CppString* value);

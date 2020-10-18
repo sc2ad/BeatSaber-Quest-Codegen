@@ -16,9 +16,9 @@ namespace TMPro {
   class TMP_Dropdown::DropdownEvent : public UnityEngine::Events::UnityEvent_1<int> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xB57B5C
+    // Offset: 0xF45664
     // Implemented from: UnityEngine.Events.UnityEvent`1
-    // Base method: System.Void UnityEvent`1::.ctor()
+    // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()
     // Base method: System.Void Object::.ctor()
     static TMP_Dropdown::DropdownEvent* New_ctor();

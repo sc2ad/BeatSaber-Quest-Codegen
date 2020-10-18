@@ -13,6 +13,10 @@
 namespace System {
   // Forward declaring type: TimeZoneInfo
   class TimeZoneInfo;
+  // Forward declaring type: TimeSpan
+  struct TimeSpan;
+  // Forward declaring type: DateTime
+  struct DateTime;
 }
 // Completed forward declares
 // Type namespace: System
@@ -28,14 +32,19 @@ namespace System {
       return LocalTimeZone;
     }
     // static public System.Boolean GetTimeZoneData(System.Int32 year, out System.Int64[] data, out System.String[] names, out System.Boolean daylight_inverted)
-    // Offset: 0x10CF4AC
+    // Offset: 0x17F82FC
     static bool GetTimeZoneData(int year, ::Array<int64_t>*& data, ::Array<::Il2CppString*>*& names, bool& daylight_inverted);
     // System.Void .ctor()
-    // Offset: 0x10CF42C
+    // Offset: 0x17F81AC
     // Implemented from: System.TimeZone
     // Base method: System.Void TimeZone::.ctor()
     // Base method: System.Void Object::.ctor()
     static CurrentSystemTimeZone* New_ctor();
+    // public override System.TimeSpan GetUtcOffset(System.DateTime dateTime)
+    // Offset: 0x17F822C
+    // Implemented from: System.TimeZone
+    // Base method: System.TimeSpan TimeZone::GetUtcOffset(System.DateTime dateTime)
+    System::TimeSpan GetUtcOffset(System::DateTime dateTime);
   }; // System.CurrentSystemTimeZone
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

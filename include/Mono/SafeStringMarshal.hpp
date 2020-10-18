@@ -28,19 +28,19 @@ namespace Mono {
     // Creating value type constructor for type: SafeStringMarshal
     constexpr SafeStringMarshal(::Il2CppString* str_ = {}, System::IntPtr marshaled_string_ = {}) noexcept : str{str_}, marshaled_string{marshaled_string_} {}
     // static public System.IntPtr StringToUtf8(System.String str)
-    // Offset: 0x10B9D9C
+    // Offset: 0x17E1AAC
     static System::IntPtr StringToUtf8(::Il2CppString* str);
     // static public System.Void GFree(System.IntPtr ptr)
-    // Offset: 0x10B9DA0
+    // Offset: 0x17E1AB0
     static void GFree(System::IntPtr ptr);
     // public System.Void .ctor(System.String str)
-    // Offset: 0xA40A5C
+    // Offset: 0xDBB824
     SafeStringMarshal(::Il2CppString* str);
     // public System.IntPtr get_Value()
-    // Offset: 0xA40A64
+    // Offset: 0xDBB82C
     System::IntPtr get_Value();
     // public System.Void Dispose()
-    // Offset: 0xA40A6C
+    // Offset: 0xDBB834
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

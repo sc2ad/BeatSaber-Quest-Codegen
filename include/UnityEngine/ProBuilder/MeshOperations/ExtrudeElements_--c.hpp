@@ -41,16 +41,16 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Int32> <>9__4_0
     static void _set_$$9__4_0(System::Func_2<UnityEngine::ProBuilder::Face*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0xF18E2C
+    // Offset: 0x13FB554
     static void _cctor();
     // UnityEngine.ProBuilder.Face <DetachFaces>b__3_0(UnityEngine.ProBuilder.FaceRebuildData x)
-    // Offset: 0xF18E9C
+    // Offset: 0x13FB5C4
     UnityEngine::ProBuilder::Face* $DetachFaces$b__3_0(UnityEngine::ProBuilder::FaceRebuildData* x);
     // System.Int32 <ExtrudePerFace>b__4_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0xF18EB4
+    // Offset: 0x13FB5DC
     int $ExtrudePerFace$b__4_0(UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0xF18E94
+    // Offset: 0x13FB5BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ExtrudeElements::$$c* New_ctor();

@@ -29,37 +29,37 @@ namespace GlobalNamespace {
     // Set static field: static public System.Single kDelayBeforeStart
     static void _set_kDelayBeforeStart(float value);
     // public System.Single get_startSongTime()
-    // Offset: 0xC1D554
+    // Offset: 0xF705AC
     float get_startSongTime();
     // public System.Void set_startSongTime(System.Single value)
-    // Offset: 0xC1D55C
+    // Offset: 0xF705B4
     void set_startSongTime(float value);
     // public System.Single get_songSpeedMul()
-    // Offset: 0xC1D564
+    // Offset: 0xF705BC
     float get_songSpeedMul();
     // public System.Void set_songSpeedMul(System.Single value)
-    // Offset: 0xC1D56C
+    // Offset: 0xF705C4
     void set_songSpeedMul(float value);
     // public System.Boolean get_startInAdvanceAndClearNotes()
-    // Offset: 0xC1D574
+    // Offset: 0xF705CC
     bool get_startInAdvanceAndClearNotes();
     // public System.Void set_startInAdvanceAndClearNotes(System.Boolean value)
-    // Offset: 0xC1D57C
+    // Offset: 0xF705D4
     void set_startInAdvanceAndClearNotes(bool value);
     // static public PracticeSettings get_defaultPracticeSettings()
-    // Offset: 0xC1D588
+    // Offset: 0xF705E0
     static GlobalNamespace::PracticeSettings* get_defaultPracticeSettings();
     // public System.Void .ctor(PracticeSettings practiceSettings)
-    // Offset: 0xC1D650
+    // Offset: 0xF706A8
     static PracticeSettings* New_ctor(GlobalNamespace::PracticeSettings* practiceSettings);
     // public System.Void .ctor(System.Single startSongTime, System.Single songSpeedMul)
-    // Offset: 0xC1D6A4
+    // Offset: 0xF706FC
     static PracticeSettings* New_ctor(float startSongTime, float songSpeedMul);
     // public System.Void ResetToDefault()
-    // Offset: 0xC1D638
+    // Offset: 0xF70690
     void ResetToDefault();
     // public System.Void .ctor()
-    // Offset: 0xC1D5FC
+    // Offset: 0xF70654
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PracticeSettings* New_ctor();

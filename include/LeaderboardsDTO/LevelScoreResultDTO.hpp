@@ -9,8 +9,8 @@
 // Begin forward declares
 // Forward declaring namespace: LeaderboardsDTO
 namespace LeaderboardsDTO {
-  // Forward declaring type: GameplayModifiersDTO
-  struct GameplayModifiersDTO;
+  // Forward declaring type: GameplayModifiersDto
+  struct GameplayModifiersDto;
 }
 // Completed forward declares
 // Type namespace: LeaderboardsDTO
@@ -48,9 +48,9 @@ namespace LeaderboardsDTO {
     // public System.Int32 maxCombo
     // Offset: 0x40
     int maxCombo;
-    // public LeaderboardsDTO.GameplayModifiersDTO[] gameplayModifiers
+    // public LeaderboardsDTO.GameplayModifiersDto[] gameplayModifiers
     // Offset: 0x48
-    ::Array<LeaderboardsDTO::GameplayModifiersDTO>* gameplayModifiers;
+    ::Array<LeaderboardsDTO::GameplayModifiersDto>* gameplayModifiers;
     // public System.String leaderboardId
     // Offset: 0x50
     ::Il2CppString* leaderboardId;
@@ -61,7 +61,7 @@ namespace LeaderboardsDTO {
     // Offset: 0x60
     ::Il2CppString* extraDataBase64;
     // public System.Void .ctor()
-    // Offset: 0xB43630
+    // Offset: 0x101D054
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LevelScoreResultDTO* New_ctor();

@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OnlineServices.API.HTTPAdminLeaderboardsHelper/<ServerStatus>d__7
 #include "OnlineServices/API/HTTPAdminLeaderboardsHelper_-ServerStatus-d__7.hpp"
-// Including type: OnlineServices.API.HTTPAdminLeaderboardsHelper/ServerStatusResultDto
-#include "OnlineServices/API/HTTPAdminLeaderboardsHelper_ServerStatusResultDto.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

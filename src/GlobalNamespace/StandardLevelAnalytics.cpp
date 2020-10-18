@@ -6,8 +6,6 @@
 #include "GlobalNamespace/StandardLevelAnalytics.hpp"
 // Including type: StandardLevelScenesTransitionSetupDataSO
 #include "GlobalNamespace/StandardLevelScenesTransitionSetupDataSO.hpp"
-// Including type: IDifficultyBeatmap
-#include "GlobalNamespace/IDifficultyBeatmap.hpp"
 // Including type: IAnalyticsModel
 #include "GlobalNamespace/IAnalyticsModel.hpp"
 // Including type: LevelCompletionResults

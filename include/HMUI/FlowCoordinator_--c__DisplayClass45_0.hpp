@@ -14,6 +14,11 @@ namespace System {
   // Forward declaring type: Action
   class Action;
 }
+// Forward declaring namespace: HMUI
+namespace HMUI {
+  // Forward declaring type: NavigationController
+  class NavigationController;
+}
 // Completed forward declares
 // Type namespace: HMUI
 namespace HMUI {
@@ -29,11 +34,14 @@ namespace HMUI {
     // public System.Action finishedCallback
     // Offset: 0x20
     System::Action* finishedCallback;
+    // public HMUI.NavigationController navigationController
+    // Offset: 0x28
+    HMUI::NavigationController* navigationController;
     // System.Void <PopViewControllerFromNavigationController>b__0()
-    // Offset: 0xEDCBC0
+    // Offset: 0x11B8460
     void $PopViewControllerFromNavigationController$b__0();
     // public System.Void .ctor()
-    // Offset: 0xEDC228
+    // Offset: 0x11B77AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FlowCoordinator::$$c__DisplayClass45_0* New_ctor();

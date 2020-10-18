@@ -14,7 +14,7 @@ namespace System {
   class UriTypeConverter : public System::ComponentModel::TypeConverter {
     public:
     // public System.Void .ctor()
-    // Offset: 0x195836C
+    // Offset: 0x21F4AE8
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Void TypeConverter::.ctor()
     // Base method: System.Void Object::.ctor()

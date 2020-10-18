@@ -27,7 +27,7 @@ namespace Zenject {
     // Offset: 0x18
     int Priority;
     // public System.Void .ctor(Zenject.IGuiRenderable renderable, System.Int32 priority)
-    // Offset: 0xF3B0E4
+    // Offset: 0x1453774
     static GuiRenderableManager::RenderableInfo* New_ctor(Zenject::IGuiRenderable* renderable, int priority);
   }; // Zenject.GuiRenderableManager/RenderableInfo
 }

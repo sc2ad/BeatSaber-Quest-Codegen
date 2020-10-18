@@ -26,16 +26,16 @@ namespace UnityEngine {
   class RectTransform::ReapplyDrivenProperties : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x142387C
+    // Offset: 0x1BA6A04
     static RectTransform::ReapplyDrivenProperties* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(UnityEngine.RectTransform driven)
-    // Offset: 0x14234C4
+    // Offset: 0x1BA664C
     void Invoke(UnityEngine::RectTransform* driven);
     // public System.IAsyncResult BeginInvoke(UnityEngine.RectTransform driven, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1423890
+    // Offset: 0x1BA6A18
     System::IAsyncResult* BeginInvoke(UnityEngine::RectTransform* driven, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x14238B4
+    // Offset: 0x1BA6A3C
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.RectTransform/ReapplyDrivenProperties
 }

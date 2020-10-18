@@ -26,16 +26,16 @@ namespace GlobalNamespace {
   class EnterPlayerGuestNameViewController::FinishDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xBEA3A4
+    // Offset: 0xF65AB0
     static EnterPlayerGuestNameViewController::FinishDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(EnterPlayerGuestNameViewController viewController, System.String playerName)
-    // Offset: 0xBE9E54
+    // Offset: 0xF65548
     void Invoke(GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::Il2CppString* playerName);
     // public System.IAsyncResult BeginInvoke(EnterPlayerGuestNameViewController viewController, System.String playerName, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xBEA3B8
+    // Offset: 0xF65AC4
     System::IAsyncResult* BeginInvoke(GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::Il2CppString* playerName, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xBEA3E8
+    // Offset: 0xF65AF4
     void EndInvoke(System::IAsyncResult* result);
   }; // EnterPlayerGuestNameViewController/FinishDelegate
 }

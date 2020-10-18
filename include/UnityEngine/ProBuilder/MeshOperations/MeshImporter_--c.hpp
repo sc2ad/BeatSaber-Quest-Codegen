@@ -32,18 +32,18 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     static UnityEngine::ProBuilder::MeshOperations::MeshImporter::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.ProBuilder.MeshOperations.MeshImporter/<>c <>9
     static void _set_$$9(UnityEngine::ProBuilder::MeshOperations::MeshImporter::$$c* value);
-    // Get static field: static public System.Func`2<UnityEngine.ProBuilder.Vertex,UnityEngine.Vector3> <>9__5_0
-    static System::Func_2<UnityEngine::ProBuilder::Vertex*, UnityEngine::Vector3>* _get_$$9__5_0();
-    // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Vertex,UnityEngine.Vector3> <>9__5_0
-    static void _set_$$9__5_0(System::Func_2<UnityEngine::ProBuilder::Vertex*, UnityEngine::Vector3>* value);
+    // Get static field: static public System.Func`2<UnityEngine.ProBuilder.Vertex,UnityEngine.Vector3> <>9__9_0
+    static System::Func_2<UnityEngine::ProBuilder::Vertex*, UnityEngine::Vector3>* _get_$$9__9_0();
+    // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Vertex,UnityEngine.Vector3> <>9__9_0
+    static void _set_$$9__9_0(System::Func_2<UnityEngine::ProBuilder::Vertex*, UnityEngine::Vector3>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1020AF8
+    // Offset: 0x157502C
     static void _cctor();
-    // UnityEngine.Vector3 <Import>b__5_0(UnityEngine.ProBuilder.Vertex x)
-    // Offset: 0x1020B68
-    UnityEngine::Vector3 $Import$b__5_0(UnityEngine::ProBuilder::Vertex* x);
+    // UnityEngine.Vector3 <Import>b__9_0(UnityEngine.ProBuilder.Vertex x)
+    // Offset: 0x157509C
+    UnityEngine::Vector3 $Import$b__9_0(UnityEngine::ProBuilder::Vertex* x);
     // public System.Void .ctor()
-    // Offset: 0x1020B60
+    // Offset: 0x1575094
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MeshImporter::$$c* New_ctor();

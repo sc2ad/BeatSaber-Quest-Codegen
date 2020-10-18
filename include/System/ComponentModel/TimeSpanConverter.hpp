@@ -14,7 +14,7 @@ namespace System::ComponentModel {
   class TimeSpanConverter : public System::ComponentModel::TypeConverter {
     public:
     // public System.Void .ctor()
-    // Offset: 0xF5E534
+    // Offset: 0x1727194
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Void TypeConverter::.ctor()
     // Base method: System.Void Object::.ctor()

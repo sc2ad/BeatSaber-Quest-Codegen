@@ -11,6 +11,10 @@
 namespace System::Text {
   // Forward declaring type: Encoding
   class Encoding;
+  // Forward declaring type: EncoderFallback
+  class EncoderFallback;
+  // Forward declaring type: DecoderFallback
+  class DecoderFallback;
 }
 // Completed forward declares
 // Type namespace: System.Text
@@ -32,14 +36,20 @@ namespace System::Text {
     // public System.Text.Encoding GetEncoding(System.Int32 codepage)
     // Offset: 0xFFFFFFFF
     System::Text::Encoding* GetEncoding(int codepage);
+    // public System.Text.Encoding GetEncoding(System.Int32 codepage, System.Text.EncoderFallback encoderFallback, System.Text.DecoderFallback decoderFallback)
+    // Offset: 0x188F5A4
+    System::Text::Encoding* GetEncoding(int codepage, System::Text::EncoderFallback* encoderFallback, System::Text::DecoderFallback* decoderFallback);
     // static System.Text.Encoding GetEncodingFromProvider(System.Int32 codepage)
-    // Offset: 0x12F6354
+    // Offset: 0x188A634
     static System::Text::Encoding* GetEncodingFromProvider(int codepage);
     // static System.Text.Encoding GetEncodingFromProvider(System.String encodingName)
-    // Offset: 0x12F6FD8
+    // Offset: 0x188B6B8
     static System::Text::Encoding* GetEncodingFromProvider(::Il2CppString* encodingName);
+    // static System.Text.Encoding GetEncodingFromProvider(System.Int32 codepage, System.Text.EncoderFallback enc, System.Text.DecoderFallback dec)
+    // Offset: 0x188B318
+    static System::Text::Encoding* GetEncodingFromProvider(int codepage, System::Text::EncoderFallback* enc, System::Text::DecoderFallback* dec);
     // static private System.Void .cctor()
-    // Offset: 0x12FB0A4
+    // Offset: 0x188F6A8
     static void _cctor();
   }; // System.Text.EncodingProvider
 }

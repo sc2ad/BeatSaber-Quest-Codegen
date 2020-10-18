@@ -4,10 +4,10 @@
 // Begin includes
 // Including type: StandardLevelFinishedController
 #include "GlobalNamespace/StandardLevelFinishedController.hpp"
-// Including type: PrepareLevelCompletionResults
-#include "GlobalNamespace/PrepareLevelCompletionResults.hpp"
 // Including type: StandardLevelScenesTransitionSetupDataSO
 #include "GlobalNamespace/StandardLevelScenesTransitionSetupDataSO.hpp"
+// Including type: PrepareLevelCompletionResults
+#include "GlobalNamespace/PrepareLevelCompletionResults.hpp"
 // Including type: ILevelEndActions
 #include "GlobalNamespace/ILevelEndActions.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

@@ -32,7 +32,7 @@ namespace System {
     // Offset: 0x38
     ::Il2CppString* RemoteUrl;
     // public System.Void .ctor()
-    // Offset: 0x15083E8
+    // Offset: 0x21F08D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Uri::MoreInfo* New_ctor();

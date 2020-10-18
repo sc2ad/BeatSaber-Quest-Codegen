@@ -27,10 +27,10 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Offset: 0x18
     UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0* CS$$$8__locals1;
     // System.Void <ExecuteEnumerable>b__0()
-    // Offset: 0xE38918
+    // Offset: 0x12B5778
     void $ExecuteEnumerable$b__0();
     // public System.Void .ctor()
-    // Offset: 0xE38910
+    // Offset: 0x12B5770
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1* New_ctor();

@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
   class IVRInput::_GetDigitalActionData : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x151F750
+    // Offset: 0x1D63058
     static IVRInput::_GetDigitalActionData* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRInputError Invoke(System.UInt64 action, ref OVR.OpenVR.InputDigitalActionData_t pActionData, System.UInt32 unActionDataSize, System.UInt64 ulRestrictToDevice)
-    // Offset: 0x151F764
+    // Offset: 0x1D6306C
     OVR::OpenVR::EVRInputError Invoke(uint64_t action, OVR::OpenVR::InputDigitalActionData_t& pActionData, uint unActionDataSize, uint64_t ulRestrictToDevice);
     // public System.IAsyncResult BeginInvoke(System.UInt64 action, ref OVR.OpenVR.InputDigitalActionData_t pActionData, System.UInt32 unActionDataSize, System.UInt64 ulRestrictToDevice, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x151FA14
+    // Offset: 0x1D6331C
     System::IAsyncResult* BeginInvoke(uint64_t action, OVR::OpenVR::InputDigitalActionData_t& pActionData, uint unActionDataSize, uint64_t ulRestrictToDevice, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRInputError EndInvoke(ref OVR.OpenVR.InputDigitalActionData_t pActionData, System.IAsyncResult result)
-    // Offset: 0x151FB00
+    // Offset: 0x1D63408
     OVR::OpenVR::EVRInputError EndInvoke(OVR::OpenVR::InputDigitalActionData_t& pActionData, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRInput/_GetDigitalActionData
 }

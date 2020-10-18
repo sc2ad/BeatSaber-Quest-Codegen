@@ -64,16 +64,16 @@ namespace System::IO {
     // Set static field: static private System.Threading.ContextCallback s_invokeAsyncCallback
     static void _set_s_invokeAsyncCallback(System::Threading::ContextCallback* value);
     // System.Void ClearBeginState()
-    // Offset: 0x100AB5C
+    // Offset: 0x158FC9C
     void ClearBeginState();
     // public System.Void .ctor(System.Boolean isRead, System.Func`2<System.Object,System.Int32> function, System.Object state, System.IO.Stream stream, System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback callback)
-    // Offset: 0x1009880
+    // Offset: 0x158E434
     static Stream::ReadWriteTask* New_ctor(bool isRead, System::Func_2<::Il2CppObject*, int>* function, ::Il2CppObject* state, System::IO::Stream* stream, ::Array<uint8_t>* buffer, int offset, int count, System::AsyncCallback* callback);
     // static private System.Void InvokeAsyncCallback(System.Object completedTask)
-    // Offset: 0x100AFB4
+    // Offset: 0x1590650
     static void InvokeAsyncCallback(::Il2CppObject* completedTask);
     // private System.Void System.Threading.Tasks.ITaskCompletionAction.Invoke(System.Threading.Tasks.Task completingTask)
-    // Offset: 0x100B040
+    // Offset: 0x15906DC
     // Implemented from: System.Threading.Tasks.ITaskCompletionAction
     // Base method: System.Void ITaskCompletionAction::Invoke(System.Threading.Tasks.Task completingTask)
     void System_Threading_Tasks_ITaskCompletionAction_Invoke(System::Threading::Tasks::Task* completingTask);

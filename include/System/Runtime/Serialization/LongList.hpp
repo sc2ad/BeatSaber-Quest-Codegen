@@ -24,31 +24,31 @@ namespace System::Runtime::Serialization {
     // Offset: 0x20
     int m_currentItem;
     // System.Void .ctor(System.Int32 startingSize)
-    // Offset: 0xFFA424
+    // Offset: 0x14CF728
     static LongList* New_ctor(int startingSize);
     // System.Void Add(System.Int64 value)
-    // Offset: 0xFFA4A0
+    // Offset: 0x14CF7A4
     void Add(int64_t value);
     // System.Int32 get_Count()
-    // Offset: 0xFFA5D0
+    // Offset: 0x14CF8D4
     int get_Count();
     // System.Void StartEnumeration()
-    // Offset: 0xFFA5D8
+    // Offset: 0x14CF8DC
     void StartEnumeration();
     // System.Boolean MoveNext()
-    // Offset: 0xFFA5E4
+    // Offset: 0x14CF8E8
     bool MoveNext();
     // System.Int64 get_Current()
-    // Offset: 0xFFA64C
+    // Offset: 0x14CF950
     int64_t get_Current();
     // System.Boolean RemoveElement(System.Int64 value)
-    // Offset: 0xFFA68C
+    // Offset: 0x14CF990
     bool RemoveElement(int64_t value);
     // private System.Void EnlargeArray()
-    // Offset: 0xFFA52C
+    // Offset: 0x14CF830
     void EnlargeArray();
     // System.Void .ctor()
-    // Offset: 0xFFA41C
+    // Offset: 0x14CF720
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LongList* New_ctor();

@@ -14,7 +14,7 @@ namespace Zenject::Internal {
   class PreserveAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x19619C0
+    // Offset: 0x220C848
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -33,12 +33,12 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   class PlaymodeWorkItemFactory : public UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory {
     public:
     // protected override UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem Create(NUnit.Framework.Internal.TestMethod method, NUnit.Framework.Interfaces.ITestFilter filter, NUnit.Framework.Interfaces.ITest loadedTest)
-    // Offset: 0xE36844
+    // Offset: 0x12B36A4
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.WorkItemFactory
     // Base method: UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem WorkItemFactory::Create(NUnit.Framework.Internal.TestMethod method, NUnit.Framework.Interfaces.ITestFilter filter, NUnit.Framework.Interfaces.ITest loadedTest)
     UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* Create(NUnit::Framework::Internal::TestMethod* method, NUnit::Framework::Interfaces::ITestFilter* filter, NUnit::Framework::Interfaces::ITest* loadedTest);
     // public System.Void .ctor()
-    // Offset: 0xE368B4
+    // Offset: 0x12B3714
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.WorkItemFactory
     // Base method: System.Void WorkItemFactory::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -18,7 +18,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Offset: 0x18
     ::Array<uint8_t>* data;
     // public System.Void .ctor()
-    // Offset: 0x141690C
+    // Offset: 0x1B99248
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MessageEventArgs* New_ctor();

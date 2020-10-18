@@ -47,40 +47,40 @@ namespace System::Net::Sockets {
     // Offset: 0x2C
     bool m_CleanedUp;
     // public System.Void .ctor(System.Net.Sockets.AddressFamily family)
-    // Offset: 0x1219208
+    // Offset: 0x13B5598
     static TcpClient* New_ctor(System::Net::Sockets::AddressFamily family);
     // System.Void .ctor(System.Net.Sockets.Socket acceptedSocket)
-    // Offset: 0x12193A8
+    // Offset: 0x13B5738
     static TcpClient* New_ctor(System::Net::Sockets::Socket* acceptedSocket);
     // public System.Net.Sockets.Socket get_Client()
-    // Offset: 0x1219420
+    // Offset: 0x13B57B0
     System::Net::Sockets::Socket* get_Client();
     // public System.Void set_Client(System.Net.Sockets.Socket value)
-    // Offset: 0x1219428
+    // Offset: 0x13B57B8
     void set_Client(System::Net::Sockets::Socket* value);
     // public System.Boolean get_Connected()
-    // Offset: 0x1219430
+    // Offset: 0x13B57C0
     bool get_Connected();
     // public System.IAsyncResult BeginConnect(System.String host, System.Int32 port, System.AsyncCallback requestCallback, System.Object state)
-    // Offset: 0x121944C
+    // Offset: 0x13B57DC
     System::IAsyncResult* BeginConnect(::Il2CppString* host, int port, System::AsyncCallback* requestCallback, ::Il2CppObject* state);
     // public System.Void EndConnect(System.IAsyncResult asyncResult)
-    // Offset: 0x12194CC
+    // Offset: 0x13B585C
     void EndConnect(System::IAsyncResult* asyncResult);
     // public System.Net.Sockets.NetworkStream GetStream()
-    // Offset: 0x1219538
+    // Offset: 0x13B58C8
     System::Net::Sockets::NetworkStream* GetStream();
     // public System.Void Close()
-    // Offset: 0x1219680
+    // Offset: 0x13B5A10
     void Close();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1219724
+    // Offset: 0x13B5AB4
     void Dispose(bool disposing);
     // private System.Void initialize()
-    // Offset: 0x1219320
+    // Offset: 0x13B56B0
     void initialize();
     // public System.Void Dispose()
-    // Offset: 0x121989C
+    // Offset: 0x13B5C2C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -88,7 +88,7 @@ namespace System::Net::Sockets {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0x12198AC
+    // Offset: 0x13B5C3C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

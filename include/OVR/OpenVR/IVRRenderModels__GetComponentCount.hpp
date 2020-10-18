@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRRenderModels::_GetComponentCount : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16AF51C
+    // Offset: 0x1F342C4
     static IVRRenderModels::_GetComponentCount* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.String pchRenderModelName)
-    // Offset: 0x16AF530
+    // Offset: 0x1F342D8
     uint Invoke(::Il2CppString* pchRenderModelName);
     // public System.IAsyncResult BeginInvoke(System.String pchRenderModelName, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16AF8F0
+    // Offset: 0x1F34698
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchRenderModelName, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16AF914
+    // Offset: 0x1F346BC
     uint EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRRenderModels/_GetComponentCount
 }

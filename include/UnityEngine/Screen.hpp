@@ -19,22 +19,22 @@ namespace UnityEngine {
   class Screen : public ::Il2CppObject {
     public:
     // static public System.Int32 get_width()
-    // Offset: 0x13915D4
+    // Offset: 0x198EF34
     static int get_width();
     // static public System.Int32 get_height()
-    // Offset: 0x1391608
+    // Offset: 0x198EF68
     static int get_height();
     // static public System.Single get_dpi()
-    // Offset: 0x139163C
+    // Offset: 0x198EF9C
     static float get_dpi();
     // static public System.Boolean get_fullScreen()
-    // Offset: 0x1391670
+    // Offset: 0x198EFD0
     static bool get_fullScreen();
     // static public System.Void set_fullScreen(System.Boolean value)
-    // Offset: 0x13916A4
+    // Offset: 0x198F004
     static void set_fullScreen(bool value);
     // static public UnityEngine.Resolution[] get_resolutions()
-    // Offset: 0x13916E4
+    // Offset: 0x198F044
     static ::Array<UnityEngine::Resolution>* get_resolutions();
   }; // UnityEngine.Screen
 }

@@ -30,8 +30,8 @@ namespace Zenject {
   // Forward declaring type: MemoryPoolInitialSizeMaxSizeBinder`1<TContract>
   template<typename TContract>
   class MemoryPoolInitialSizeMaxSizeBinder_1;
-  // Forward declaring type: MemoryPool`3<TValue, TParam1, TParam2>
-  template<typename TValue, typename TParam1, typename TParam2>
+  // Forward declaring type: MemoryPool`3<TParam1, TParam2, TValue>
+  template<typename TParam1, typename TParam2, typename TValue>
   class MemoryPool_3;
 }
 // Forward declaring namespace: System

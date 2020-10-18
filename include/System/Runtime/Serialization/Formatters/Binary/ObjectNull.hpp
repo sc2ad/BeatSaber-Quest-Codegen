@@ -30,19 +30,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
       return nullCount;
     }
     // System.Void SetNullCount(System.Int32 nullCount)
-    // Offset: 0xE2BBC4
+    // Offset: 0x14BF720
     void SetNullCount(int nullCount);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0xE2BBCC
+    // Offset: 0x14BF728
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input, System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum)
-    // Offset: 0xE2BC58
+    // Offset: 0x14BF7D8
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input, System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
     // public System.Void Dump()
-    // Offset: 0xE2BCC4
+    // Offset: 0x14BF858
     void Dump();
     // System.Void .ctor()
-    // Offset: 0xE2BBBC
+    // Offset: 0x14BF718
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ObjectNull* New_ctor();

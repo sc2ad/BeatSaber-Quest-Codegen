@@ -47,25 +47,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public SceneInfo get_sceneInfo()
-    // Offset: 0xBEA6DC
+    // Offset: 0xF65EF8
     GlobalNamespace::SceneInfo* get_sceneInfo();
     // public System.String get_environmentName()
-    // Offset: 0xBEA6E4
+    // Offset: 0xF65F00
     ::Il2CppString* get_environmentName();
     // public ColorSchemeSO get_colorScheme()
-    // Offset: 0xBEA6EC
+    // Offset: 0xF65F08
     GlobalNamespace::ColorSchemeSO* get_colorScheme();
     // public System.String get_serializedName()
-    // Offset: 0xBEA6F4
+    // Offset: 0xF65F10
     ::Il2CppString* get_serializedName();
     // public EnvironmentTypeSO get_environmentType()
-    // Offset: 0xBEA6FC
+    // Offset: 0xF65F18
     GlobalNamespace::EnvironmentTypeSO* get_environmentType();
     // public EnvironmentSizeData get_environmentSizeData()
-    // Offset: 0xBEA704
+    // Offset: 0xF65F20
     GlobalNamespace::EnvironmentSizeData* get_environmentSizeData();
     // public System.Void .ctor()
-    // Offset: 0xBEA70C
+    // Offset: 0xF65F28
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

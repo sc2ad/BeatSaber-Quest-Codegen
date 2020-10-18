@@ -26,16 +26,16 @@ namespace UnityEngine::UI {
   class InputField::OnValidateInput : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x11FF408
+    // Offset: 0x1833EDC
     static InputField::OnValidateInput* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Char Invoke(System.String text, System.Int32 charIndex, System.Char addedChar)
-    // Offset: 0x11FF41C
+    // Offset: 0x1833EF0
     ::Il2CppChar Invoke(::Il2CppString* text, int charIndex, ::Il2CppChar addedChar);
     // public System.IAsyncResult BeginInvoke(System.String text, System.Int32 charIndex, System.Char addedChar, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x11FF874
+    // Offset: 0x1834348
     System::IAsyncResult* BeginInvoke(::Il2CppString* text, int charIndex, ::Il2CppChar addedChar, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Char EndInvoke(System.IAsyncResult result)
-    // Offset: 0x11FF930
+    // Offset: 0x1834404
     ::Il2CppChar EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.UI.InputField/OnValidateInput
 }

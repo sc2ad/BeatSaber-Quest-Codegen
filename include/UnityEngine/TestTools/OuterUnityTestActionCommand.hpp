@@ -46,23 +46,23 @@ namespace UnityEngine::TestTools {
   class OuterUnityTestActionCommand : public UnityEngine::TestTools::BeforeAfterTestCommandBase_1<UnityEngine::TestTools::IOuterUnityTestAction*> {
     public:
     // static private UnityEngine.TestTools.IOuterUnityTestAction[] GetUnityTestActionsFromMethod(System.Reflection.MethodInfo method)
-    // Offset: 0xE44010
+    // Offset: 0x12C0D50
     static ::Array<UnityEngine::TestTools::IOuterUnityTestAction*>* GetUnityTestActionsFromMethod(System::Reflection::MethodInfo* method);
     // protected System.Collections.IEnumerator InvokeBefore(UnityEngine.TestTools.IOuterUnityTestAction action, NUnit.Framework.Internal.Test test, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0xE44148
+    // Offset: 0x12C0E88
     System::Collections::IEnumerator* InvokeBefore(UnityEngine::TestTools::IOuterUnityTestAction* action, NUnit::Framework::Internal::Test* test, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
     // protected System.Collections.IEnumerator InvokeAfter(UnityEngine.TestTools.IOuterUnityTestAction action, NUnit.Framework.Internal.Test test, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0xE44204
+    // Offset: 0x12C0F44
     System::Collections::IEnumerator* InvokeAfter(UnityEngine::TestTools::IOuterUnityTestAction* action, NUnit::Framework::Internal::Test* test, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
     // public System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
-    // Offset: 0xE376B0
+    // Offset: 0x12B4510
     // Implemented from: NUnit.Framework.Internal.Commands.DelegatingTestCommand
     // Base method: System.Void DelegatingTestCommand::.ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
     static OuterUnityTestActionCommand* New_ctor(NUnit::Framework::Internal::Commands::TestCommand* innerCommand);
     // protected override UnityEngine.TestTools.BeforeAfterTestCommandState GetState(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0xE442C4
+    // Offset: 0x12C1004
     // Implemented from: UnityEngine.TestTools.BeforeAfterTestCommandBase`1
-    // Base method: UnityEngine.TestTools.BeforeAfterTestCommandState BeforeAfterTestCommandBase`1::GetState(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
+    // Base method: UnityEngine.TestTools.BeforeAfterTestCommandState BeforeAfterTestCommandBase_1::GetState(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
     UnityEngine::TestTools::BeforeAfterTestCommandState* GetState(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
   }; // UnityEngine.TestTools.OuterUnityTestActionCommand
 }

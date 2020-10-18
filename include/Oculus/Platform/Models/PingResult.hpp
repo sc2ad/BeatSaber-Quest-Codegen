@@ -20,19 +20,19 @@ namespace Oculus::Platform::Models {
     // Offset: 0x18
     System::Nullable_1<uint64_t> pingTimeUsec;
     // public System.Void .ctor(System.UInt64 id, System.Nullable`1<System.UInt64> pingTimeUsec)
-    // Offset: 0xEA7858
+    // Offset: 0x1367F54
     static PingResult* New_ctor(uint64_t id, System::Nullable_1<uint64_t> pingTimeUsec);
     // public System.UInt64 get_ID()
-    // Offset: 0xEAAE7C
+    // Offset: 0x136B578
     uint64_t get_ID();
     // private System.Void set_ID(System.UInt64 value)
-    // Offset: 0xEAAE84
+    // Offset: 0x136B580
     void set_ID(uint64_t value);
     // public System.UInt64 get_PingTimeUsec()
-    // Offset: 0xEAAE8C
+    // Offset: 0x136B588
     uint64_t get_PingTimeUsec();
     // public System.Boolean get_IsTimeout()
-    // Offset: 0xEAAEF4
+    // Offset: 0x136B5F0
     bool get_IsTimeout();
   }; // Oculus.Platform.Models.PingResult
 }

@@ -38,20 +38,20 @@ namespace UnityEngine::TestTools::TestRunner {
     // Offset: 0x18
     UnityEngine::TestTools::TestRunner::TestStartedEvent* m_TestStartedEvent;
     // public System.Void .ctor(UnityEngine.TestTools.TestRunner.TestStartedEvent testStartedEvent, UnityEngine.TestTools.TestRunner.TestFinishedEvent testFinishedEvent)
-    // Offset: 0xE495E4
+    // Offset: 0x12C6344
     static TestListenerWrapper* New_ctor(UnityEngine::TestTools::TestRunner::TestStartedEvent* testStartedEvent, UnityEngine::TestTools::TestRunner::TestFinishedEvent* testFinishedEvent);
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xE49F34
+    // Offset: 0x12C6C94
     // Implemented from: NUnit.Framework.Interfaces.ITestListener
     // Base method: System.Void ITestListener::TestStarted(NUnit.Framework.Interfaces.ITest test)
     void TestStarted(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0xE49F9C
+    // Offset: 0x12C6CFC
     // Implemented from: NUnit.Framework.Interfaces.ITestListener
     // Base method: System.Void ITestListener::TestFinished(NUnit.Framework.Interfaces.ITestResult result)
     void TestFinished(NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Void TestOutput(NUnit.Framework.Interfaces.TestOutput output)
-    // Offset: 0xE4A004
+    // Offset: 0x12C6D64
     // Implemented from: NUnit.Framework.Interfaces.ITestListener
     // Base method: System.Void ITestListener::TestOutput(NUnit.Framework.Interfaces.TestOutput output)
     void TestOutput(NUnit::Framework::Interfaces::TestOutput* output);

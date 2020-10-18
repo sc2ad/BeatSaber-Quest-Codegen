@@ -29,16 +29,16 @@ namespace System::IO {
   class ErrorEventHandler : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xF67C80
+    // Offset: 0x1733D70
     static ErrorEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Object sender, System.IO.ErrorEventArgs e)
-    // Offset: 0xF67C94
+    // Offset: 0x1733D84
     void Invoke(::Il2CppObject* sender, System::IO::ErrorEventArgs* e);
     // public System.IAsyncResult BeginInvoke(System.Object sender, System.IO.ErrorEventArgs e, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xF68098
+    // Offset: 0x1734188
     System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, System::IO::ErrorEventArgs* e, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xF680C8
+    // Offset: 0x17341B8
     void EndInvoke(System::IAsyncResult* result);
   }; // System.IO.ErrorEventHandler
 }

@@ -16,13 +16,12 @@ namespace GlobalNamespace {
     // public readonly System.Single volumeOffset
     // Offset: 0x10
     float volumeOffset;
-    // Creating conversion operator: operator float
-    constexpr operator float() const noexcept {
-      return volumeOffset;
-    }
-    // public System.Void .ctor(System.Single volumeOffset)
-    // Offset: 0xB8B5E4
-    static AutomaticSFXVolume::InitData* New_ctor(float volumeOffset);
+    // public readonly System.Boolean adaptiveSfx
+    // Offset: 0x14
+    bool adaptiveSfx;
+    // public System.Void .ctor(System.Single volumeOffset, System.Boolean adaptiveSfx)
+    // Offset: 0xFB2F1C
+    static AutomaticSFXVolume::InitData* New_ctor(float volumeOffset, bool adaptiveSfx);
   }; // AutomaticSFXVolume/InitData
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

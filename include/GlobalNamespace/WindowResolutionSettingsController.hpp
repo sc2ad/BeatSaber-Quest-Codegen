@@ -26,28 +26,28 @@ namespace GlobalNamespace {
   class WindowResolutionSettingsController : public GlobalNamespace::ListSettingsController {
     public:
     // private Vector2IntSO _windowResolution
-    // Offset: 0x38
+    // Offset: 0x28
     GlobalNamespace::Vector2IntSO* windowResolution;
     // private UnityEngine.Vector2Int[] _windowResolutions
-    // Offset: 0x40
+    // Offset: 0x30
     ::Array<UnityEngine::Vector2Int>* windowResolutions;
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0xC56144
+    // Offset: 0x12F1B4C
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(int& idx, int& numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0xC563E4
+    // Offset: 0x12F1DEC
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0xC56470
+    // Offset: 0x12F1E78
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::Il2CppString* TextForValue(int idx);
     // public System.Void .ctor()
-    // Offset: 0xC56570
+    // Offset: 0x12F1F78
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()

@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
+// Including type: HMUI.SelectableCell
+#include "HMUI/SelectableCell.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -26,12 +28,18 @@ namespace System {
   // Forward declaring type: Action`2<T1, T2>
   template<typename T1, typename T2>
   class Action_2;
+  // Forward declaring type: Action`1<T>
+  template<typename T>
+  class Action_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
   template<typename T>
   class List_1;
+  // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
+  class Dictionary_2;
 }
 // Completed forward declares
 // Type namespace: HMUI
@@ -50,10 +58,10 @@ namespace HMUI {
     // private System.Int32 _numberOfCells
     // Offset: 0x28
     int numberOfCells;
-    // private System.Collections.Generic.List`1<HMUI.SegmentedControlCell> _cells
+    // private readonly System.Collections.Generic.List`1<HMUI.SegmentedControlCell> _cells
     // Offset: 0x30
     System::Collections::Generic::List_1<HMUI::SegmentedControlCell*>* cells;
-    // private System.Collections.Generic.List`1<UnityEngine.GameObject> _separators
+    // private readonly System.Collections.Generic.List`1<UnityEngine.GameObject> _separators
     // Offset: 0x38
     System::Collections::Generic::List_1<UnityEngine::GameObject*>* separators;
     // private HMUI.SegmentedControl/IDataSource _dataSource
@@ -62,37 +70,43 @@ namespace HMUI {
     // private System.Int32 _selectedCellNumber
     // Offset: 0x48
     int selectedCellNumber;
+    // private System.Collections.Generic.Dictionary`2<System.Int32,System.Action`1<System.Int32>> _callbacks
+    // Offset: 0x50
+    System::Collections::Generic::Dictionary_2<int, System::Action_1<int>*>* callbacks;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didSelectCellEvent(System.Action`2<HMUI.SegmentedControl,System.Int32> value)
-    // Offset: 0x10E4760
+    // Offset: 0x1179AEC
     void add_didSelectCellEvent(System::Action_2<HMUI::SegmentedControl*, int>* value);
     // public System.Void remove_didSelectCellEvent(System.Action`2<HMUI.SegmentedControl,System.Int32> value)
-    // Offset: 0x10E4804
+    // Offset: 0x1179B90
     void remove_didSelectCellEvent(System::Action_2<HMUI::SegmentedControl*, int>* value);
     // public HMUI.SegmentedControl/IDataSource get_dataSource()
-    // Offset: 0x10E48A8
+    // Offset: 0x1179C34
     HMUI::SegmentedControl::IDataSource* get_dataSource();
     // public System.Void set_dataSource(HMUI.SegmentedControl/IDataSource value)
-    // Offset: 0x10E48B0
+    // Offset: 0x1179C3C
     void set_dataSource(HMUI::SegmentedControl::IDataSource* value);
     // public System.Int32 get_selectedCellNumber()
-    // Offset: 0x10E4BFC
+    // Offset: 0x1179F88
     int get_selectedCellNumber();
     // private System.Void CreateCells()
-    // Offset: 0x10E4C04
+    // Offset: 0x1179F90
     void CreateCells();
-    // public System.Void CellSelectionStateDidChange(HMUI.SegmentedControlCell changedCell)
-    // Offset: 0x10E50C8
-    void CellSelectionStateDidChange(HMUI::SegmentedControlCell* changedCell);
+    // private System.Void HandleCellSelectionDidChange(HMUI.SelectableCell selectableCell, HMUI.SelectableCell/TransitionType transitionType, System.Object changeOwner)
+    // Offset: 0x117A5C4
+    void HandleCellSelectionDidChange(HMUI::SelectableCell* selectableCell, HMUI::SelectableCell::TransitionType transitionType, ::Il2CppObject* changeOwner);
+    // public System.Void SetCallbackForCell(System.Int32 cellNumber, System.Action`1<System.Int32> callback)
+    // Offset: 0x117A71C
+    void SetCallbackForCell(int cellNumber, System::Action_1<int>* callback);
     // public System.Void ReloadData()
-    // Offset: 0x10E48D8
+    // Offset: 0x1179C64
     void ReloadData();
     // public System.Void SelectCellWithNumber(System.Int32 selectCellNumber)
-    // Offset: 0x10E51A0
+    // Offset: 0x117A78C
     void SelectCellWithNumber(int selectCellNumber);
     // public System.Void .ctor()
-    // Offset: 0x10E5280
+    // Offset: 0x117A848
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

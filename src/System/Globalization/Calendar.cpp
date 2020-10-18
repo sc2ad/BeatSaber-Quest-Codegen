@@ -506,3 +506,6 @@ System::Globalization::Calendar* System::Globalization::Calendar::New_ctor() {
 ::Il2CppObject* System::Globalization::Calendar::Clone() {
   return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(this, "Clone"));
 }
+::Il2CppObject* System::Globalization::Calendar::System_ICloneable_Clone() {
+  return System::Globalization::Calendar::Clone();
+}

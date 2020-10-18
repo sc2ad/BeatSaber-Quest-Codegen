@@ -33,7 +33,7 @@ namespace Zenject {
     // Nested type: Zenject::ValidationUtil::$$c
     class $$c;
     // static public System.Collections.Generic.List`1<Zenject.TypeValuePair> CreateDefaultArgs(params System.Type[] argTypes)
-    // Offset: 0x19433F4
+    // Offset: 0x21EB1B0
     static System::Collections::Generic::List_1<Zenject::TypeValuePair>* CreateDefaultArgs(::Array<System::Type*>* argTypes);
     // Creating initializer_list -> params proxy for: System.Collections.Generic.List`1<Zenject.TypeValuePair> CreateDefaultArgs(params System.Type[] argTypes)
     static System::Collections::Generic::List_1<Zenject::TypeValuePair>* CreateDefaultArgs(std::initializer_list<System::Type*> argTypes);

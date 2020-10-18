@@ -20,27 +20,30 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x18
     ::Array<int>* negObjects;
     // private System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.IntSizedArray sizedArray)
-    // Offset: 0xE2A7D4
+    // Offset: 0x14BD6DC
     static IntSizedArray* New_ctor(System::Runtime::Serialization::Formatters::Binary::IntSizedArray* sizedArray);
     // System.Int32 get_Item(System.Int32 index)
-    // Offset: 0xE2A958
+    // Offset: 0x14BD860
     int get_Item(int index);
     // System.Void set_Item(System.Int32 index, System.Int32 value)
-    // Offset: 0xE2A9DC
+    // Offset: 0x14BD8E4
     void set_Item(int index, int value);
     // System.Void IncreaseCapacity(System.Int32 index)
-    // Offset: 0xE2AA9C
+    // Offset: 0x14BD9A4
     void IncreaseCapacity(int index);
     // public System.Void .ctor()
-    // Offset: 0xE2A74C
+    // Offset: 0x14BD654
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static IntSizedArray* New_ctor();
     // public System.Object Clone()
-    // Offset: 0xE2A8F8
+    // Offset: 0x14BD800
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();
+    // Creating proxy method: System_ICloneable_Clone
+    // Maps to method: Clone
+    ::Il2CppObject* System_ICloneable_Clone();
   }; // System.Runtime.Serialization.Formatters.Binary.IntSizedArray
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

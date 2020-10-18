@@ -56,10 +56,10 @@ namespace System::Reflection {
     // Creating value type constructor for type: MonoEventInfo
     constexpr MonoEventInfo(System::Type* declaring_type_ = {}, System::Type* reflected_type_ = {}, ::Il2CppString* name_ = {}, System::Reflection::MethodInfo* add_method_ = {}, System::Reflection::MethodInfo* remove_method_ = {}, System::Reflection::MethodInfo* raise_method_ = {}, System::Reflection::EventAttributes attrs_ = {}, ::Array<System::Reflection::MethodInfo*>* other_methods_ = {}) noexcept : declaring_type{declaring_type_}, reflected_type{reflected_type_}, name{name_}, add_method{add_method_}, remove_method{remove_method_}, raise_method{raise_method_}, attrs{attrs_}, other_methods{other_methods_} {}
     // static private System.Void get_event_info(System.Reflection.MonoEvent ev, out System.Reflection.MonoEventInfo info)
-    // Offset: 0x1152E54
+    // Offset: 0x18D0F94
     static void get_event_info(System::Reflection::MonoEvent* ev, System::Reflection::MonoEventInfo& info);
     // static System.Reflection.MonoEventInfo GetEventInfo(System.Reflection.MonoEvent ev)
-    // Offset: 0x1152A64
+    // Offset: 0x18D0B8C
     static System::Reflection::MonoEventInfo GetEventInfo(System::Reflection::MonoEvent* ev);
   }; // System.Reflection.MonoEventInfo
 }

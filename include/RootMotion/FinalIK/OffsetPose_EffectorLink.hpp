@@ -42,10 +42,10 @@ namespace RootMotion::FinalIK {
     // Offset: 0x2C
     UnityEngine::Vector3 pinWeight;
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight, UnityEngine.Quaternion rotation)
-    // Offset: 0x1233E18
+    // Offset: 0x18E7F50
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight, UnityEngine::Quaternion rotation);
     // public System.Void .ctor()
-    // Offset: 0x1234274
+    // Offset: 0x18E83AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OffsetPose::EffectorLink* New_ctor();

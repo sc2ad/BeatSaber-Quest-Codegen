@@ -5,6 +5,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: LeaderboardScoreUploader/UploadScoreCallback
 #include "GlobalNamespace/LeaderboardScoreUploader_UploadScoreCallback.hpp"
+// Including type: System.IntPtr
+#include "System/IntPtr.hpp"
 // Including type: HMAsyncRequest
 #include "GlobalNamespace/HMAsyncRequest.hpp"
 // Including type: System.IAsyncResult

@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRSystem::_GetOutputDevice : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16D7734
+    // Offset: 0x1F5C4DC
     static IVRSystem::_GetOutputDevice* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(ref System.UInt64 pnDevice, Valve.VR.ETextureType textureType, System.IntPtr pInstance)
-    // Offset: 0x16D7748
+    // Offset: 0x1F5C4F0
     void Invoke(uint64_t& pnDevice, Valve::VR::ETextureType textureType, System::IntPtr pInstance);
     // public System.IAsyncResult BeginInvoke(ref System.UInt64 pnDevice, Valve.VR.ETextureType textureType, System.IntPtr pInstance, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16D79CC
+    // Offset: 0x1F5C774
     System::IAsyncResult* BeginInvoke(uint64_t& pnDevice, Valve::VR::ETextureType textureType, System::IntPtr pInstance, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(ref System.UInt64 pnDevice, System.IAsyncResult result)
-    // Offset: 0x16D7A9C
+    // Offset: 0x1F5C844
     void EndInvoke(uint64_t& pnDevice, System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetOutputDevice
 }

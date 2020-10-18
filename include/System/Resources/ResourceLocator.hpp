@@ -31,19 +31,19 @@ namespace System::Resources {
     // Creating value type constructor for type: ResourceLocator
     constexpr ResourceLocator(::Il2CppObject* value_ = {}, int dataPos_ = {}) noexcept : value{value_}, dataPos{dataPos_} {}
     // System.Void .ctor(System.Int32 dataPos, System.Object value)
-    // Offset: 0xA42150
+    // Offset: 0xDBD5EC
     ResourceLocator(int dataPos, ::Il2CppObject* value);
     // System.Int32 get_DataPosition()
-    // Offset: 0xA42160
+    // Offset: 0xDBD5FC
     int get_DataPosition();
     // System.Object get_Value()
-    // Offset: 0xA42168
+    // Offset: 0xDBD604
     ::Il2CppObject* get_Value();
     // System.Void set_Value(System.Object value)
-    // Offset: 0xA42170
+    // Offset: 0xDBD60C
     void set_Value(::Il2CppObject* value);
     // static System.Boolean CanCache(System.Resources.ResourceTypeCode value)
-    // Offset: 0x115D224
+    // Offset: 0x18DB1BC
     static bool CanCache(System::Resources::ResourceTypeCode value);
   }; // System.Resources.ResourceLocator
 }

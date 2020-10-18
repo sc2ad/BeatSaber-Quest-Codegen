@@ -6,10 +6,10 @@
 #include "GlobalNamespace/NoteFloorMovement.hpp"
 // Including type: UnityEngine.Transform
 #include "UnityEngine/Transform.hpp"
-// Including type: PlayerController
-#include "GlobalNamespace/PlayerController.hpp"
-// Including type: AudioTimeSyncController
-#include "GlobalNamespace/AudioTimeSyncController.hpp"
+// Including type: PlayerTransforms
+#include "GlobalNamespace/PlayerTransforms.hpp"
+// Including type: IAudioTimeSource
+#include "GlobalNamespace/IAudioTimeSource.hpp"
 // Including type: System.Action
 #include "System/Action.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

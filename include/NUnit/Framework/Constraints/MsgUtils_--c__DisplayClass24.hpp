@@ -28,10 +28,10 @@ namespace NUnit::Framework::Constraints {
       return next;
     }
     // public System.String <.cctor>b__6(System.Object val)
-    // Offset: 0x107BDCC
+    // Offset: 0x15E5D1C
     ::Il2CppString* $_cctor$b__6(::Il2CppObject* val);
     // public System.Void .ctor()
-    // Offset: 0x107B708
+    // Offset: 0x15E5658
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MsgUtils::$$c__DisplayClass24* New_ctor();

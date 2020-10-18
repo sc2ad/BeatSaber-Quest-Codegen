@@ -79,64 +79,64 @@ namespace GlobalNamespace {
     // Set static field: static public System.String kCurrentVersion
     static void _set_kCurrentVersion(::Il2CppString* value);
     // public System.String get_version()
-    // Offset: 0xBA51DC
+    // Offset: 0xF2B2C8
     ::Il2CppString* get_version();
     // public System.String get_songName()
-    // Offset: 0xBA51E4
+    // Offset: 0xF2B2D0
     ::Il2CppString* get_songName();
     // public System.String get_songSubName()
-    // Offset: 0xBA51EC
+    // Offset: 0xF2B2D8
     ::Il2CppString* get_songSubName();
     // public System.String get_songAuthorName()
-    // Offset: 0xBA51F4
+    // Offset: 0xF2B2E0
     ::Il2CppString* get_songAuthorName();
     // public System.String get_levelAuthorName()
-    // Offset: 0xBA51FC
+    // Offset: 0xF2B2E8
     ::Il2CppString* get_levelAuthorName();
     // public System.Single get_beatsPerMinute()
-    // Offset: 0xBA5204
+    // Offset: 0xF2B2F0
     float get_beatsPerMinute();
     // public System.Single get_songTimeOffset()
-    // Offset: 0xBA520C
+    // Offset: 0xF2B2F8
     float get_songTimeOffset();
     // public System.Single get_shuffle()
-    // Offset: 0xBA5214
+    // Offset: 0xF2B300
     float get_shuffle();
     // public System.Single get_shufflePeriod()
-    // Offset: 0xBA521C
+    // Offset: 0xF2B308
     float get_shufflePeriod();
     // public System.Single get_previewStartTime()
-    // Offset: 0xBA5224
+    // Offset: 0xF2B310
     float get_previewStartTime();
     // public System.Single get_previewDuration()
-    // Offset: 0xBA522C
+    // Offset: 0xF2B318
     float get_previewDuration();
     // public System.String get_songFilename()
-    // Offset: 0xBA5234
+    // Offset: 0xF2B320
     ::Il2CppString* get_songFilename();
     // public System.String get_coverImageFilename()
-    // Offset: 0xBA523C
+    // Offset: 0xF2B328
     ::Il2CppString* get_coverImageFilename();
     // public System.String get_environmentName()
-    // Offset: 0xBA5244
+    // Offset: 0xF2B330
     ::Il2CppString* get_environmentName();
     // public StandardLevelInfoSaveData_V100/DifficultyBeatmap[] get_difficultyBeatmaps()
-    // Offset: 0xBA524C
+    // Offset: 0xF2B338
     ::Array<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*>* get_difficultyBeatmaps();
     // public System.Void .ctor(System.String songName, System.String songSubName, System.String songAuthorName, System.String levelAuthorName, System.Single beatsPerMinute, System.Single songTimeOffset, System.Single shuffle, System.Single shufflePeriod, System.Single previewStartTime, System.Single previewDuration, System.String songFilename, System.String coverImageFilename, System.String environmentName, StandardLevelInfoSaveData_V100/DifficultyBeatmap[] difficultyBeatmaps)
-    // Offset: 0xBA5254
+    // Offset: 0xF2B340
     static StandardLevelInfoSaveData_V100* New_ctor(::Il2CppString* songName, ::Il2CppString* songSubName, ::Il2CppString* songAuthorName, ::Il2CppString* levelAuthorName, float beatsPerMinute, float songTimeOffset, float shuffle, float shufflePeriod, float previewStartTime, float previewDuration, ::Il2CppString* songFilename, ::Il2CppString* coverImageFilename, ::Il2CppString* environmentName, ::Array<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*>* difficultyBeatmaps);
     // public System.Boolean get_hasAllData()
-    // Offset: 0xBA53B0
+    // Offset: 0xF2B49C
     bool get_hasAllData();
     // public System.Void SetSongFilename(System.String songFilename)
-    // Offset: 0xBA5414
+    // Offset: 0xF2B500
     void SetSongFilename(::Il2CppString* songFilename);
     // public System.String SerializeToJSONString()
-    // Offset: 0xBA541C
+    // Offset: 0xF2B508
     ::Il2CppString* SerializeToJSONString();
     // static public StandardLevelInfoSaveData DeserializeFromJSONString(System.String stringData)
-    // Offset: 0xBA5424
+    // Offset: 0xF2B510
     static GlobalNamespace::StandardLevelInfoSaveData* DeserializeFromJSONString(::Il2CppString* stringData);
   }; // StandardLevelInfoSaveData_V100
 }

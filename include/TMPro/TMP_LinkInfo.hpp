@@ -44,13 +44,13 @@ namespace TMPro {
     // Creating value type constructor for type: TMP_LinkInfo
     constexpr TMP_LinkInfo(TMPro::TMP_Text* textComponent_ = {}, int hashCode_ = {}, int linkIdFirstCharacterIndex_ = {}, int linkIdLength_ = {}, int linkTextfirstCharacterIndex_ = {}, int linkTextLength_ = {}, ::Array<::Il2CppChar>* linkID_ = {}) noexcept : textComponent{textComponent_}, hashCode{hashCode_}, linkIdFirstCharacterIndex{linkIdFirstCharacterIndex_}, linkIdLength{linkIdLength_}, linkTextfirstCharacterIndex{linkTextfirstCharacterIndex_}, linkTextLength{linkTextLength_}, linkID{linkID_} {}
     // System.Void SetLinkID(System.Char[] text, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0xA2C008
+    // Offset: 0xDA1F8C
     void SetLinkID(::Array<::Il2CppChar>* text, int startIndex, int length);
     // public System.String GetLinkText()
-    // Offset: 0xA2C010
+    // Offset: 0xDA1F94
     ::Il2CppString* GetLinkText();
     // public System.String GetLinkID()
-    // Offset: 0xA2C018
+    // Offset: 0xDA1F9C
     ::Il2CppString* GetLinkID();
   }; // TMPro.TMP_LinkInfo
 }

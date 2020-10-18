@@ -30,10 +30,10 @@ namespace Zenject {
     // Offset: 0x20
     Zenject::SubContainerCreatorBindInfo* subContainerBindInfo;
     // public System.Void .ctor(Zenject.SubContainerCreatorBindInfo subContainerBindInfo, Zenject.BindInfo bindInfo)
-    // Offset: 0x194363C
+    // Offset: 0x21EB3F8
     static WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, Zenject::BindInfo* bindInfo);
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder WithKernel()
-    // Offset: 0x1943674
+    // Offset: 0x21EB430
     Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel();
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder WithKernel()
     // Offset: 0xFFFFFFFF

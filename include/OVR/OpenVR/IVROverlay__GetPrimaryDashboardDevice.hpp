@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_GetPrimaryDashboardDevice : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x152BC3C
+    // Offset: 0x1D6F544
     static IVROverlay::_GetPrimaryDashboardDevice* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke()
-    // Offset: 0x152BC50
+    // Offset: 0x1D6F558
     uint Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x152BE64
+    // Offset: 0x1D6F76C
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x152BE90
+    // Offset: 0x1D6F798
     uint EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetPrimaryDashboardDevice
 }
