@@ -26,10 +26,10 @@ namespace Zenject {
     // Deleting conversion operator: operator Zenject::DiContainer*
     constexpr operator Zenject::DiContainer*() const noexcept = delete;
     // public System.Void .ctor(System.String name)
-    // Offset: 0x11FC324
+    // Offset: 0xFF7BC0
     static DefaultGameObjectParentInstaller* New_ctor(::Il2CppString* name);
     // public override System.Void InstallBindings()
-    // Offset: 0x11FC390
+    // Offset: 0xFF7C2C
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();

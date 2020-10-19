@@ -119,54 +119,54 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0xEDE89C
+    // Offset: 0x1FC8464
     void Awake();
     // private System.Collections.IEnumerator Start()
-    // Offset: 0xEDE8A4
+    // Offset: 0x1FC846C
     System::Collections::IEnumerator* Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xEDE94C
+    // Offset: 0x1FC8514
     void OnDestroy();
     // private System.Void HandleGameEnergyDidReach0()
-    // Offset: 0xEDECA4
+    // Offset: 0x1FC886C
     void HandleGameEnergyDidReach0();
     // private System.Void HandleMissionObjectiveCheckersManagerObjectiveDidFail()
-    // Offset: 0xEDECD4
+    // Offset: 0x1FC889C
     void HandleMissionObjectiveCheckersManagerObjectiveDidFail();
     // private System.Void HandleSongDidFinish()
-    // Offset: 0xEDED04
+    // Offset: 0x1FC88CC
     void HandleSongDidFinish();
     // private System.Void HandlePauseControllerCanPause(System.Action`1<System.Boolean> canPause)
-    // Offset: 0xEDED34
+    // Offset: 0x1FC88FC
     void HandlePauseControllerCanPause(System::Action_1<bool>* canPause);
     // private System.Void HandlePauseControllerDidPause()
-    // Offset: 0xEDEDB0
+    // Offset: 0x1FC8978
     void HandlePauseControllerDidPause();
     // private System.Void HandlePauseControllerDidResume()
-    // Offset: 0xEDEDC8
+    // Offset: 0x1FC8990
     void HandlePauseControllerDidResume();
     // public System.Void add_levelFailedEvent(System.Action value)
-    // Offset: 0xEDE60C
+    // Offset: 0x1FC81D4
     // Implemented from: ILevelEndActions
     // Base method: System.Void ILevelEndActions::add_levelFailedEvent(System.Action value)
     void add_levelFailedEvent(System::Action* value);
     // public System.Void remove_levelFailedEvent(System.Action value)
-    // Offset: 0xEDE6B0
+    // Offset: 0x1FC8278
     // Implemented from: ILevelEndActions
     // Base method: System.Void ILevelEndActions::remove_levelFailedEvent(System.Action value)
     void remove_levelFailedEvent(System::Action* value);
     // public System.Void add_levelFinishedEvent(System.Action value)
-    // Offset: 0xEDE754
+    // Offset: 0x1FC831C
     // Implemented from: ILevelEndActions
     // Base method: System.Void ILevelEndActions::add_levelFinishedEvent(System.Action value)
     void add_levelFinishedEvent(System::Action* value);
     // public System.Void remove_levelFinishedEvent(System.Action value)
-    // Offset: 0xEDE7F8
+    // Offset: 0x1FC83C0
     // Implemented from: ILevelEndActions
     // Base method: System.Void ILevelEndActions::remove_levelFinishedEvent(System.Action value)
     void remove_levelFinishedEvent(System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0xEDEDE0
+    // Offset: 0x1FC89A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

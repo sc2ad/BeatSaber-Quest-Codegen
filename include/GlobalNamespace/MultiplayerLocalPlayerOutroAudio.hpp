@@ -66,22 +66,22 @@ namespace GlobalNamespace {
     // Set static field: static public System.Single kFadeOutDuration
     static void _set_kFadeOutDuration(float value);
     // protected System.Void OnDestroy()
-    // Offset: 0x224048C
+    // Offset: 0x204EA9C
     void OnDestroy();
     // public System.Void PlayOutroMusicSample(System.Single maxDuration, System.Single volume)
-    // Offset: 0x223DE60
+    // Offset: 0x204C470
     void PlayOutroMusicSample(float maxDuration, float volume);
     // private System.Collections.IEnumerator PlayOutroMusicSampleCoroutine(System.Single maxDuration, System.Single volume)
-    // Offset: 0x2240524
+    // Offset: 0x204EB34
     System::Collections::IEnumerator* PlayOutroMusicSampleCoroutine(float maxDuration, float volume);
     // private System.Void <PlayOutroMusicSampleCoroutine>b__9_0(System.Single val)
-    // Offset: 0x22405E8
+    // Offset: 0x204EBF8
     void $PlayOutroMusicSampleCoroutine$b__9_0(float val);
     // private System.Void <PlayOutroMusicSampleCoroutine>b__9_1()
-    // Offset: 0x2240604
+    // Offset: 0x204EC14
     void $PlayOutroMusicSampleCoroutine$b__9_1();
     // public System.Void .ctor()
-    // Offset: 0x22405E0
+    // Offset: 0x204EBF0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

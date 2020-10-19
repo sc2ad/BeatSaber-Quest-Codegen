@@ -43,10 +43,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void SetColors(UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color environment0Color, UnityEngine.Color environment1Color, UnityEngine.Color obstacleColor)
-    // Offset: 0xF25DD0
+    // Offset: 0x1FB97CC
     void SetColors(UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environment0Color, UnityEngine::Color environment1Color, UnityEngine::Color obstacleColor);
     // public System.Void .ctor()
-    // Offset: 0xF25FA0
+    // Offset: 0x1FB999C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

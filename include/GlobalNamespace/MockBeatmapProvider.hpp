@@ -29,22 +29,17 @@ namespace GlobalNamespace {
   class MockBeatmapProvider : public ::Il2CppObject, public GlobalNamespace::IServerBeatmapProvider {
     public:
     // public System.Boolean VerifyBeatmapForConfiguration(BeatmapIdentifierNetSerializable beatmapId, GameplayServerConfiguration configuration)
-    // Offset: 0xFBFCE8
+    // Offset: 0x205486C
     // Implemented from: IServerBeatmapProvider
     // Base method: System.Boolean IServerBeatmapProvider::VerifyBeatmapForConfiguration(BeatmapIdentifierNetSerializable beatmapId, GameplayServerConfiguration configuration)
     bool VerifyBeatmapForConfiguration(GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, GlobalNamespace::GameplayServerConfiguration configuration);
-    // public BeatmapIdentifierNetSerializable GetRandomBeatmapForConfigurationAndOwnedSongPacks(GameplayServerConfiguration configuration, System.Collections.Generic.Dictionary`2<System.String,SongPackMask> ownedSongPacks)
-    // Offset: 0xFBFCF0
+    // public BeatmapIdentifierNetSerializable SelectBeatmapFromSuggestionsConfigurationAndOwnedSongPacks(System.Collections.Generic.Dictionary`2<System.String,BeatmapIdentifierNetSerializable> suggestedBeatmaps, GameplayServerConfiguration configuration, System.Collections.Generic.Dictionary`2<System.String,SongPackMask> ownedSongPacks)
+    // Offset: 0x2054874
     // Implemented from: IServerBeatmapProvider
-    // Base method: BeatmapIdentifierNetSerializable IServerBeatmapProvider::GetRandomBeatmapForConfigurationAndOwnedSongPacks(GameplayServerConfiguration configuration, System.Collections.Generic.Dictionary`2<System.String,SongPackMask> ownedSongPacks)
-    GlobalNamespace::BeatmapIdentifierNetSerializable* GetRandomBeatmapForConfigurationAndOwnedSongPacks(GlobalNamespace::GameplayServerConfiguration configuration, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SongPackMask>* ownedSongPacks);
-    // public BeatmapIdentifierNetSerializable GetRandomBeatmapForConfiguration(GameplayServerConfiguration configuration)
-    // Offset: 0xFBFCF4
-    // Implemented from: IServerBeatmapProvider
-    // Base method: BeatmapIdentifierNetSerializable IServerBeatmapProvider::GetRandomBeatmapForConfiguration(GameplayServerConfiguration configuration)
-    GlobalNamespace::BeatmapIdentifierNetSerializable* GetRandomBeatmapForConfiguration(GlobalNamespace::GameplayServerConfiguration configuration);
+    // Base method: BeatmapIdentifierNetSerializable IServerBeatmapProvider::SelectBeatmapFromSuggestionsConfigurationAndOwnedSongPacks(System.Collections.Generic.Dictionary`2<System.String,BeatmapIdentifierNetSerializable> suggestedBeatmaps, GameplayServerConfiguration configuration, System.Collections.Generic.Dictionary`2<System.String,SongPackMask> ownedSongPacks)
+    GlobalNamespace::BeatmapIdentifierNetSerializable* SelectBeatmapFromSuggestionsConfigurationAndOwnedSongPacks(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>* suggestedBeatmaps, GlobalNamespace::GameplayServerConfiguration configuration, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SongPackMask>* ownedSongPacks);
     // public System.Void Dispose()
-    // Offset: 0xFBFD6C
+    // Offset: 0x20548EC
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -52,7 +47,7 @@ namespace GlobalNamespace {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // public System.Void .ctor()
-    // Offset: 0xFBFD70
+    // Offset: 0x20548F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MockBeatmapProvider* New_ctor();

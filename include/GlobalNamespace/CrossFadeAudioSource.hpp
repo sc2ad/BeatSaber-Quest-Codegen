@@ -74,58 +74,58 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.AudioClip get_clip()
-    // Offset: 0xF5AE20
+    // Offset: 0x1FBD62C
     UnityEngine::AudioClip* get_clip();
     // public System.Void set_clip(UnityEngine.AudioClip value)
-    // Offset: 0xF5AE3C
+    // Offset: 0x1FBD648
     void set_clip(UnityEngine::AudioClip* value);
     // public System.Void set_pitch(System.Single value)
-    // Offset: 0xF5AE80
+    // Offset: 0x1FBD68C
     void set_pitch(float value);
     // public System.Void set_time(System.Single value)
-    // Offset: 0xF5AECC
+    // Offset: 0x1FBD6D8
     void set_time(float value);
     // public System.Boolean get_isPlaying()
-    // Offset: 0xF5AF18
+    // Offset: 0x1FBD724
     bool get_isPlaying();
     // protected System.Void Awake()
-    // Offset: 0xF5AF34
+    // Offset: 0x1FBD740
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xF5B0EC
+    // Offset: 0x1FBD8F8
     void OnDestroy();
     // public System.Void PlayPitchGainEffect(System.Single volumeScale)
-    // Offset: 0xF5B184
+    // Offset: 0x1FBD990
     void PlayPitchGainEffect(float volumeScale);
     // public System.Void InterruptLastPitchGainEffect()
-    // Offset: 0xF5B1A4
+    // Offset: 0x1FBD9B0
     void InterruptLastPitchGainEffect();
     // public System.Void CrossFade(System.Single toSongTime, System.Single toVolume)
-    // Offset: 0xF5B1C0
+    // Offset: 0x1FBD9CC
     void CrossFade(float toSongTime, float toVolume);
     // public System.Void Play()
-    // Offset: 0xF5B3B4
+    // Offset: 0x1FBDBC0
     void Play();
     // public System.Void Stop()
-    // Offset: 0xF5B3D0
+    // Offset: 0x1FBDBDC
     void Stop();
     // private System.Void <Awake>b__21_0(System.Single val)
-    // Offset: 0xF5B440
+    // Offset: 0x1FBDC4C
     void $Awake$b__21_0(float val);
     // private System.Void <Awake>b__21_1(System.Single val)
-    // Offset: 0xF5B45C
+    // Offset: 0x1FBDC68
     void $Awake$b__21_1(float val);
     // private System.Void <CrossFade>b__25_0(System.Single val)
-    // Offset: 0xF5B478
+    // Offset: 0x1FBDC84
     void $CrossFade$b__25_0(float val);
     // private System.Void <CrossFade>b__25_1(System.Single val)
-    // Offset: 0xF5B494
+    // Offset: 0x1FBDCA0
     void $CrossFade$b__25_1(float val);
     // private System.Void <CrossFade>b__25_2()
-    // Offset: 0xF5B4B0
+    // Offset: 0x1FBDCBC
     void $CrossFade$b__25_2();
     // public System.Void .ctor()
-    // Offset: 0xF5B42C
+    // Offset: 0x1FBDC38
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -50,7 +50,7 @@ namespace GlobalNamespace {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("", "SerializationHelpers", "SerializeObjectToFile", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, filePath, serializableObject));
     }
     // public System.Void .ctor()
-    // Offset: 0x10A442C
+    // Offset: 0x211B370
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SerializationHelpers* New_ctor();

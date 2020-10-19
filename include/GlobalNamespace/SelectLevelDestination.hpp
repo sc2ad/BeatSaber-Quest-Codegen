@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic;
     // public System.Void .ctor(IBeatmapLevelPack beatmapLevelPack, IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0xEE9184
+    // Offset: 0x1FE9F0C
     static SelectLevelDestination* New_ctor(GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
   }; // SelectLevelDestination
 }

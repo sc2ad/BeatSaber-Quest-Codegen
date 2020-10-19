@@ -46,10 +46,10 @@ namespace NetEase::Docker {
     // Creating value type constructor for type: UploadScoreData
     constexpr UploadScoreData(::Il2CppString* Track_ = {}, int Difficulty_ = {}, int Score_ = {}, int64_t TimeStamp_ = {}, bool PlayedUntilEnd_ = {}, float AccuracyPercentage_ = {}, int NoOfHits_ = {}, int NoOfMisses_ = {}, int NoOfBombsHit_ = {}) noexcept : Track{Track_}, Difficulty{Difficulty_}, Score{Score_}, TimeStamp{TimeStamp_}, PlayedUntilEnd{PlayedUntilEnd_}, AccuracyPercentage{AccuracyPercentage_}, NoOfHits{NoOfHits_}, NoOfMisses{NoOfMisses_}, NoOfBombsHit{NoOfBombsHit_} {}
     // public System.Void set_Track(System.String value)
-    // Offset: 0xDDF910
+    // Offset: 0xC8CFA0
     void set_Track(::Il2CppString* value);
     // public System.Void set_Score(System.Int32 value)
-    // Offset: 0xDDF918
+    // Offset: 0xC8CFA8
     void set_Score(int value);
   }; // NetEase.Docker.UploadScoreData
 }

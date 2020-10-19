@@ -14,7 +14,7 @@ namespace UnityEngine {
   class DisallowMultipleComponent : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x19E9400
+    // Offset: 0x178F824
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

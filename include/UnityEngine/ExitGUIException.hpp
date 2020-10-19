@@ -14,7 +14,7 @@ namespace UnityEngine {
   class ExitGUIException : public System::Exception {
     public:
     // System.Void .ctor(System.String message)
-    // Offset: 0x19003E8
+    // Offset: 0x16A680C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     static ExitGUIException* New_ctor(::Il2CppString* message);

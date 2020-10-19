@@ -19,7 +19,7 @@ namespace GlobalNamespace {
       return version;
     }
     // public System.Void .ctor()
-    // Offset: 0x12F15D0
+    // Offset: 0x21EE3A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static VersionSaveData* New_ctor();

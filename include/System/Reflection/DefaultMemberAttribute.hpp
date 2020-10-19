@@ -21,10 +21,10 @@ namespace System::Reflection {
       return m_memberName;
     }
     // public System.Void .ctor(System.String memberName)
-    // Offset: 0x1ABBE90
+    // Offset: 0x185C084
     static DefaultMemberAttribute* New_ctor(::Il2CppString* memberName);
     // public System.String get_MemberName()
-    // Offset: 0x1ABBEC4
+    // Offset: 0x185C0B8
     ::Il2CppString* get_MemberName();
   }; // System.Reflection.DefaultMemberAttribute
 }

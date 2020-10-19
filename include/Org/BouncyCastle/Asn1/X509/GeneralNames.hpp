@@ -37,27 +37,27 @@ namespace Org::BouncyCastle::Asn1::X509 {
       return names;
     }
     // static private Org.BouncyCastle.Asn1.X509.GeneralName[] Copy(Org.BouncyCastle.Asn1.X509.GeneralName[] names)
-    // Offset: 0x1866AD0
+    // Offset: 0x160CEF4
     static ::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>* Copy(::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>* names);
     // static public Org.BouncyCastle.Asn1.X509.GeneralNames GetInstance(System.Object obj)
-    // Offset: 0x18622D0
+    // Offset: 0x16086F4
     static Org::BouncyCastle::Asn1::X509::GeneralNames* GetInstance(::Il2CppObject* obj);
     // static public Org.BouncyCastle.Asn1.X509.GeneralNames GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean explicitly)
-    // Offset: 0x1865710
+    // Offset: 0x160BB34
     static Org::BouncyCastle::Asn1::X509::GeneralNames* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1866B50
+    // Offset: 0x160CF74
     static GeneralNames* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public Org.BouncyCastle.Asn1.X509.GeneralName[] GetNames()
-    // Offset: 0x1866C94
+    // Offset: 0x160D0B8
     ::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>* GetNames();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1866C9C
+    // Offset: 0x160D0C0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // public override System.String ToString()
-    // Offset: 0x1866D04
+    // Offset: 0x160D128
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

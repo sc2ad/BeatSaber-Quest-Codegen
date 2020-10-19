@@ -37,13 +37,13 @@ namespace RootMotion::FinalIK {
     // Offset: 0x24
     UnityEngine::Vector3 current;
     // public System.Void Apply(RootMotion.FinalIK.VRIK ik, UnityEngine.Vector3 offset, System.Single crossFader)
-    // Offset: 0x1AA092C
+    // Offset: 0x183FB20
     void Apply(RootMotion::FinalIK::VRIK* ik, UnityEngine::Vector3 offset, float crossFader);
     // public System.Void CrossFadeStart()
-    // Offset: 0x1AA06E8
+    // Offset: 0x183F8DC
     void CrossFadeStart();
     // public System.Void .ctor()
-    // Offset: 0x1AA0A48
+    // Offset: 0x183FC3C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HitReactionVRIK::PositionOffset::PositionOffsetLink* New_ctor();

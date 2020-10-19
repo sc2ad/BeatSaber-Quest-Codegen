@@ -63,34 +63,34 @@ namespace UnityEngine::UI {
     // Set static field: static public System.Func`2<UnityEngine.UI.ILayoutElement,System.Single> <>9__8_0
     static void _set_$$9__8_0(System::Func_2<UnityEngine::UI::ILayoutElement*, float>* value);
     // static private System.Void .cctor()
-    // Offset: 0x18380F4
+    // Offset: 0x15DF518
     static void _cctor();
     // System.Single <GetMinWidth>b__3_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1838164
+    // Offset: 0x15DF588
     float $GetMinWidth$b__3_0(UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetPreferredWidth>b__4_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1838214
+    // Offset: 0x15DF638
     float $GetPreferredWidth$b__4_0(UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetPreferredWidth>b__4_1(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x18382C4
+    // Offset: 0x15DF6E8
     float $GetPreferredWidth$b__4_1(UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetFlexibleWidth>b__5_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1838374
+    // Offset: 0x15DF798
     float $GetFlexibleWidth$b__5_0(UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetMinHeight>b__6_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1838424
+    // Offset: 0x15DF848
     float $GetMinHeight$b__6_0(UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetPreferredHeight>b__7_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x18384D4
+    // Offset: 0x15DF8F8
     float $GetPreferredHeight$b__7_0(UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetPreferredHeight>b__7_1(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1838584
+    // Offset: 0x15DF9A8
     float $GetPreferredHeight$b__7_1(UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetFlexibleHeight>b__8_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1838634
+    // Offset: 0x15DFA58
     float $GetFlexibleHeight$b__8_0(UnityEngine::UI::ILayoutElement* e);
     // public System.Void .ctor()
-    // Offset: 0x183815C
+    // Offset: 0x15DF580
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LayoutUtility::$$c* New_ctor();

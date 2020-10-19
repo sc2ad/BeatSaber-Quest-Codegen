@@ -19,16 +19,16 @@ namespace UnityEngine {
   class ImageConversion : public ::Il2CppObject {
     public:
     // static public System.Byte[] EncodeToPNG(UnityEngine.Texture2D tex)
-    // Offset: 0x222E008
+    // Offset: 0x1F7DD10
     static ::Array<uint8_t>* EncodeToPNG(UnityEngine::Texture2D* tex);
     // static public System.Byte[] EncodeToJPG(UnityEngine.Texture2D tex, System.Int32 quality)
-    // Offset: 0x222E048
+    // Offset: 0x1F7DD50
     static ::Array<uint8_t>* EncodeToJPG(UnityEngine::Texture2D* tex, int quality);
     // static public System.Byte[] EncodeToJPG(UnityEngine.Texture2D tex)
-    // Offset: 0x222E098
+    // Offset: 0x1F7DDA0
     static ::Array<uint8_t>* EncodeToJPG(UnityEngine::Texture2D* tex);
     // static public System.Boolean LoadImage(UnityEngine.Texture2D tex, System.Byte[] data, System.Boolean markNonReadable)
-    // Offset: 0x222E0DC
+    // Offset: 0x1F7DDE4
     static bool LoadImage(UnityEngine::Texture2D* tex, ::Array<uint8_t>* data, bool markNonReadable);
   }; // UnityEngine.ImageConversion
 }

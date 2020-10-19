@@ -14,7 +14,7 @@ namespace UnityEngine::Timeline {
   class NotKeyableAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1620BF4
+    // Offset: 0x13F741C
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -34,18 +34,18 @@ namespace GlobalNamespace {
     // Offset: 0x48
     float lightAmount;
     // public System.Void SetLightAmount(System.Single amount)
-    // Offset: 0xEF4504
+    // Offset: 0x1FF5458
     void SetLightAmount(float amount);
     // private System.Void UpdateLights()
-    // Offset: 0xEF4474
+    // Offset: 0x1FF53C8
     void UpdateLights();
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0xEF4468
+    // Offset: 0x1FF53BC
     // Implemented from: LightWithId
     // Base method: System.Void LightWithId::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0xEF450C
+    // Offset: 0x1FF5460
     // Implemented from: LightWithId
     // Base method: System.Void LightWithId::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

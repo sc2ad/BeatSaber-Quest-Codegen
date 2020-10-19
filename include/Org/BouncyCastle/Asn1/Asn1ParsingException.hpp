@@ -20,7 +20,7 @@ namespace Org::BouncyCastle::Asn1 {
   class Asn1ParsingException : public System::InvalidOperationException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x153F78C
+    // Offset: 0x1316FB4
     // Implemented from: System.InvalidOperationException
     // Base method: System.Void InvalidOperationException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -28,14 +28,14 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Void Object::.ctor()
     static Asn1ParsingException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x153F794
+    // Offset: 0x1316FBC
     // Implemented from: System.InvalidOperationException
     // Base method: System.Void InvalidOperationException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static Asn1ParsingException* New_ctor(::Il2CppString* message);
     // public System.Void .ctor(System.String message, System.Exception exception)
-    // Offset: 0x153F79C
+    // Offset: 0x1316FC4
     // Implemented from: System.InvalidOperationException
     // Base method: System.Void InvalidOperationException::.ctor(System.String message, System.Exception exception)
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception exception)

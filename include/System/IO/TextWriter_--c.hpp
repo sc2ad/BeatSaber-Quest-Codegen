@@ -18,31 +18,31 @@ namespace System::IO {
     // Set static field: static public readonly System.IO.TextWriter/<>c <>9
     static void _set_$$9(System::IO::TextWriter::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x1595F70
+    // Offset: 0x136C798
     static void _cctor();
     // System.Void <.cctor>b__73_0(System.Object state)
-    // Offset: 0x1595FE0
+    // Offset: 0x136C808
     void $_cctor$b__73_0(::Il2CppObject* state);
     // System.Void <.cctor>b__73_1(System.Object state)
-    // Offset: 0x1596078
+    // Offset: 0x136C8A0
     void $_cctor$b__73_1(::Il2CppObject* state);
     // System.Void <.cctor>b__73_2(System.Object state)
-    // Offset: 0x1596114
+    // Offset: 0x136C93C
     void $_cctor$b__73_2(::Il2CppObject* state);
     // System.Void <.cctor>b__73_3(System.Object state)
-    // Offset: 0x15961B4
+    // Offset: 0x136C9DC
     void $_cctor$b__73_3(::Il2CppObject* state);
     // System.Void <.cctor>b__73_4(System.Object state)
-    // Offset: 0x1596250
+    // Offset: 0x136CA78
     void $_cctor$b__73_4(::Il2CppObject* state);
     // System.Void <.cctor>b__73_5(System.Object state)
-    // Offset: 0x15962EC
+    // Offset: 0x136CB14
     void $_cctor$b__73_5(::Il2CppObject* state);
     // System.Void <.cctor>b__73_6(System.Object state)
-    // Offset: 0x159638C
+    // Offset: 0x136CBB4
     void $_cctor$b__73_6(::Il2CppObject* state);
     // public System.Void .ctor()
-    // Offset: 0x1595FD8
+    // Offset: 0x136C800
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TextWriter::$$c* New_ctor();

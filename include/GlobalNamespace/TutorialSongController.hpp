@@ -123,58 +123,58 @@ namespace GlobalNamespace {
     // Offset: 0xC8
     ::Array<GlobalNamespace::TutorialSongController::TutorialObjectSpawnData*>* normalModeTutorialObjectsSpawnData;
     // protected System.Void Awake()
-    // Offset: 0xF3AF7C
+    // Offset: 0x1FA14AC
     void Awake();
     // protected System.Void Start()
-    // Offset: 0xF3B6F4
+    // Offset: 0x1FA1C24
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF3B874
+    // Offset: 0x1FA1DA4
     void OnDestroy();
     // public System.Void StartSong(System.Single startTimeOffset)
-    // Offset: 0xF39258
+    // Offset: 0x1F9F7AC
     void StartSong(float startTimeOffset);
     // private System.Void HandleNoteWasCut(NoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0xF3BC50
+    // Offset: 0x1FA2180
     void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // private System.Void HandleNoteWasMissed(NoteController noteController)
-    // Offset: 0xF3BD30
+    // Offset: 0x1FA2260
     void HandleNoteWasMissed(GlobalNamespace::NoteController* noteController);
     // private System.Void HandleObstacleDidPassThreeQuartersOfMove2(ObstacleController obstacleController)
-    // Offset: 0xF3BD98
+    // Offset: 0x1FA22C8
     void HandleObstacleDidPassThreeQuartersOfMove2(GlobalNamespace::ObstacleController* obstacleController);
     // private System.Void UpdateBeatmapData(System.Single noteTime)
-    // Offset: 0xF3B9A0
+    // Offset: 0x1FA1ED0
     void UpdateBeatmapData(float noteTime);
     // private System.Single GetNextBeatmapObjectTime(System.Int32 beatOffset)
-    // Offset: 0xF3BDAC
+    // Offset: 0x1FA22DC
     float GetNextBeatmapObjectTime(int beatOffset);
     // private ObstacleData CreateObstacleData(System.Single time, TutorialSongController/TutorialObstacleSpawnData tutorialObstacleSpawnData)
-    // Offset: 0xF3BE44
+    // Offset: 0x1FA2374
     GlobalNamespace::ObstacleData* CreateObstacleData(float time, GlobalNamespace::TutorialSongController::TutorialObstacleSpawnData* tutorialObstacleSpawnData);
     // private NoteData CreateBasicNoteData(System.Single time, TutorialSongController/TutorialBasicNoteSpawnData tutorialBasicNoteSpawnData)
-    // Offset: 0xF3BE04
+    // Offset: 0x1FA2334
     GlobalNamespace::NoteData* CreateBasicNoteData(float time, GlobalNamespace::TutorialSongController::TutorialBasicNoteSpawnData* tutorialBasicNoteSpawnData);
     // private NoteData CreateBombNoteData(System.Single time, TutorialSongController/TutorialBombNoteSpawnData tutorialBombNoteSpawnData)
-    // Offset: 0xF3BE28
+    // Offset: 0x1FA2358
     GlobalNamespace::NoteData* CreateBombNoteData(float time, GlobalNamespace::TutorialSongController::TutorialBombNoteSpawnData* tutorialBombNoteSpawnData);
     // public override System.Void StopSong()
-    // Offset: 0xF3BBCC
+    // Offset: 0x1FA20FC
     // Implemented from: SongController
     // Base method: System.Void SongController::StopSong()
     void StopSong();
     // public override System.Void PauseSong()
-    // Offset: 0xF3BC00
+    // Offset: 0x1FA2130
     // Implemented from: SongController
     // Base method: System.Void SongController::PauseSong()
     void PauseSong();
     // public override System.Void ResumeSong()
-    // Offset: 0xF3BC34
+    // Offset: 0x1FA2164
     // Implemented from: SongController
     // Base method: System.Void SongController::ResumeSong()
     void ResumeSong();
     // public System.Void .ctor()
-    // Offset: 0xF3BF00
+    // Offset: 0x1FA2430
     // Implemented from: SongController
     // Base method: System.Void SongController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

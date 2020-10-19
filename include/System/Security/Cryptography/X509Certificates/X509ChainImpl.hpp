@@ -43,10 +43,10 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0xFFFFFFFF
     void Reset();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x16C1554
+    // Offset: 0x147C128
     void Dispose(bool disposing);
     // public System.Void Dispose()
-    // Offset: 0x16C070C
+    // Offset: 0x147B2E0
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -54,12 +54,12 @@ namespace System::Security::Cryptography::X509Certificates {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0x16C1558
+    // Offset: 0x147C12C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected System.Void .ctor()
-    // Offset: 0x16C15CC
+    // Offset: 0x147C1A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static X509ChainImpl* New_ctor();

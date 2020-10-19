@@ -35,16 +35,16 @@ namespace OVR::OpenVR {
   class IVRTrackedCamera::_GetCameraIntrinsics : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x112C3C8
+    // Offset: 0xF68560
     static IVRTrackedCamera::_GetCameraIntrinsics* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRTrackedCameraError Invoke(System.UInt32 nDeviceIndex, OVR.OpenVR.EVRTrackedCameraFrameType eFrameType, ref OVR.OpenVR.HmdVector2_t pFocalLength, ref OVR.OpenVR.HmdVector2_t pCenter)
-    // Offset: 0x112C3DC
+    // Offset: 0xF68574
     OVR::OpenVR::EVRTrackedCameraError Invoke(uint nDeviceIndex, OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, OVR::OpenVR::HmdVector2_t& pFocalLength, OVR::OpenVR::HmdVector2_t& pCenter);
     // public System.IAsyncResult BeginInvoke(System.UInt32 nDeviceIndex, OVR.OpenVR.EVRTrackedCameraFrameType eFrameType, ref OVR.OpenVR.HmdVector2_t pFocalLength, ref OVR.OpenVR.HmdVector2_t pCenter, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x112C6A4
+    // Offset: 0xF6883C
     System::IAsyncResult* BeginInvoke(uint nDeviceIndex, OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, OVR::OpenVR::HmdVector2_t& pFocalLength, OVR::OpenVR::HmdVector2_t& pCenter, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRTrackedCameraError EndInvoke(ref OVR.OpenVR.HmdVector2_t pFocalLength, ref OVR.OpenVR.HmdVector2_t pCenter, System.IAsyncResult result)
-    // Offset: 0x112C78C
+    // Offset: 0xF68924
     OVR::OpenVR::EVRTrackedCameraError EndInvoke(OVR::OpenVR::HmdVector2_t& pFocalLength, OVR::OpenVR::HmdVector2_t& pCenter, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRTrackedCamera/_GetCameraIntrinsics
 }

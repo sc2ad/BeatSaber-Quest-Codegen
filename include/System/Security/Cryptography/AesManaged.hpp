@@ -32,99 +32,99 @@ namespace System::Security::Cryptography {
       return m_rijndael;
     }
     // public System.Void .ctor()
-    // Offset: 0x21D2DE0
+    // Offset: 0x1F27A44
     // Implemented from: System.Security.Cryptography.Aes
     // Base method: System.Void Aes::.ctor()
     // Base method: System.Void SymmetricAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()
     static AesManaged* New_ctor();
     // public override System.Int32 get_FeedbackSize()
-    // Offset: 0x21D2F30
+    // Offset: 0x1F27B94
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Int32 SymmetricAlgorithm::get_FeedbackSize()
     int get_FeedbackSize();
     // public override System.Byte[] get_IV()
-    // Offset: 0x21D2F50
+    // Offset: 0x1F27BB4
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Byte[] SymmetricAlgorithm::get_IV()
     ::Array<uint8_t>* get_IV();
     // public override System.Void set_IV(System.Byte[] value)
-    // Offset: 0x21D2F70
+    // Offset: 0x1F27BD4
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::set_IV(System.Byte[] value)
     void set_IV(::Array<uint8_t>* value);
     // public override System.Byte[] get_Key()
-    // Offset: 0x21D2F90
+    // Offset: 0x1F27BF4
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Byte[] SymmetricAlgorithm::get_Key()
     ::Array<uint8_t>* get_Key();
     // public override System.Void set_Key(System.Byte[] value)
-    // Offset: 0x21D2FB0
+    // Offset: 0x1F27C14
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::set_Key(System.Byte[] value)
     void set_Key(::Array<uint8_t>* value);
     // public override System.Int32 get_KeySize()
-    // Offset: 0x21D2FD0
+    // Offset: 0x1F27C34
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Int32 SymmetricAlgorithm::get_KeySize()
     int get_KeySize();
     // public override System.Void set_KeySize(System.Int32 value)
-    // Offset: 0x21D2FF4
+    // Offset: 0x1F27C58
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::set_KeySize(System.Int32 value)
     void set_KeySize(int value);
     // public override System.Security.Cryptography.CipherMode get_Mode()
-    // Offset: 0x21D3018
+    // Offset: 0x1F27C7C
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Security.Cryptography.CipherMode SymmetricAlgorithm::get_Mode()
     System::Security::Cryptography::CipherMode get_Mode();
     // public override System.Void set_Mode(System.Security.Cryptography.CipherMode value)
-    // Offset: 0x21D303C
+    // Offset: 0x1F27CA0
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::set_Mode(System.Security.Cryptography.CipherMode value)
     void set_Mode(System::Security::Cryptography::CipherMode value);
     // public override System.Security.Cryptography.PaddingMode get_Padding()
-    // Offset: 0x21D30F0
+    // Offset: 0x1F27D54
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Security.Cryptography.PaddingMode SymmetricAlgorithm::get_Padding()
     System::Security::Cryptography::PaddingMode get_Padding();
     // public override System.Void set_Padding(System.Security.Cryptography.PaddingMode value)
-    // Offset: 0x21D3114
+    // Offset: 0x1F27D78
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::set_Padding(System.Security.Cryptography.PaddingMode value)
     void set_Padding(System::Security::Cryptography::PaddingMode value);
     // public override System.Security.Cryptography.ICryptoTransform CreateDecryptor()
-    // Offset: 0x21D3138
+    // Offset: 0x1F27D9C
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Security.Cryptography.ICryptoTransform SymmetricAlgorithm::CreateDecryptor()
     System::Security::Cryptography::ICryptoTransform* CreateDecryptor();
     // public override System.Security.Cryptography.ICryptoTransform CreateDecryptor(System.Byte[] key, System.Byte[] iv)
-    // Offset: 0x21D315C
+    // Offset: 0x1F27DC0
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Security.Cryptography.ICryptoTransform SymmetricAlgorithm::CreateDecryptor(System.Byte[] key, System.Byte[] iv)
     System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::Array<uint8_t>* key, ::Array<uint8_t>* iv);
     // public override System.Security.Cryptography.ICryptoTransform CreateEncryptor()
-    // Offset: 0x21D32B0
+    // Offset: 0x1F27F14
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Security.Cryptography.ICryptoTransform SymmetricAlgorithm::CreateEncryptor()
     System::Security::Cryptography::ICryptoTransform* CreateEncryptor();
     // public override System.Security.Cryptography.ICryptoTransform CreateEncryptor(System.Byte[] key, System.Byte[] iv)
-    // Offset: 0x21D32D4
+    // Offset: 0x1F27F38
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Security.Cryptography.ICryptoTransform SymmetricAlgorithm::CreateEncryptor(System.Byte[] key, System.Byte[] iv)
     System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::Array<uint8_t>* key, ::Array<uint8_t>* iv);
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x21D3428
+    // Offset: 0x1F2808C
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Void GenerateIV()
-    // Offset: 0x21D3540
+    // Offset: 0x1F281A4
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::GenerateIV()
     void GenerateIV();
     // public override System.Void GenerateKey()
-    // Offset: 0x21D3564
+    // Offset: 0x1F281C8
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::GenerateKey()
     void GenerateKey();

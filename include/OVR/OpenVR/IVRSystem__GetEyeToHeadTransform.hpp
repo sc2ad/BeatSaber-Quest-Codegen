@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_GetEyeToHeadTransform : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F42B20
+    // Offset: 0x1C94784
     static IVRSystem::_GetEyeToHeadTransform* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.HmdMatrix34_t Invoke(OVR.OpenVR.EVREye eEye)
-    // Offset: 0x1F42B34
+    // Offset: 0x1C94798
     OVR::OpenVR::HmdMatrix34_t Invoke(OVR::OpenVR::EVREye eEye);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.EVREye eEye, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F42DE4
+    // Offset: 0x1C94A48
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::EVREye eEye, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.HmdMatrix34_t EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1F42E70
+    // Offset: 0x1C94AD4
     OVR::OpenVR::HmdMatrix34_t EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_GetEyeToHeadTransform
 }

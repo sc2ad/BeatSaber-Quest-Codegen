@@ -71,13 +71,13 @@ namespace GlobalNamespace {
       return cache;
     }
     // public UnityEngine.Texture2D GetLastScreenshot(ScreenCaptureCache/ScreenshotType screenshotType)
-    // Offset: 0x21A5244
+    // Offset: 0x1EF6EA8
     UnityEngine::Texture2D* GetLastScreenshot(GlobalNamespace::ScreenCaptureCache::ScreenshotType screenshotType);
     // public System.Void StoreScreenshot(ScreenCaptureCache/ScreenshotType screenshotType, UnityEngine.Texture2D texture)
-    // Offset: 0x21A4EE4
+    // Offset: 0x1EF6B48
     void StoreScreenshot(GlobalNamespace::ScreenCaptureCache::ScreenshotType screenshotType, UnityEngine::Texture2D* texture);
     // public System.Void .ctor()
-    // Offset: 0x21A52C4
+    // Offset: 0x1EF6F28
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ScreenCaptureCache* New_ctor();

@@ -45,22 +45,22 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x20
     bool scalar;
     // public System.Void AddScalar(System.Int32 size)
-    // Offset: 0x124FC0C
+    // Offset: 0x104A4A8
     void AddScalar(int size);
     // public System.Void AddNonscalar()
-    // Offset: 0x124FCB4
+    // Offset: 0x104A550
     void AddNonscalar();
     // public System.Void BeginBuffered()
-    // Offset: 0x124FDF0
+    // Offset: 0x104A68C
     void BeginBuffered();
     // public System.Void EndBuffered()
-    // Offset: 0x124FED4
+    // Offset: 0x104A770
     void EndBuffered();
     // public System.Int32 Encode(System.Byte[] metadata)
-    // Offset: 0x124FEE4
+    // Offset: 0x104A780
     int Encode(::Array<uint8_t>* metadata);
     // public System.Void .ctor()
-    // Offset: 0x124F9A4
+    // Offset: 0x104A240
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TraceLoggingMetadataCollector::Impl* New_ctor();

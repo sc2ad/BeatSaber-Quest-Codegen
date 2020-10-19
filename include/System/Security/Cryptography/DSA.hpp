@@ -21,7 +21,7 @@ namespace System::Security::Cryptography {
   class DSA : public System::Security::Cryptography::AsymmetricAlgorithm {
     public:
     // static public System.Security.Cryptography.DSA Create()
-    // Offset: 0x19CECD0
+    // Offset: 0x17750F4
     static System::Security::Cryptography::DSA* Create();
     // public System.Boolean VerifySignature(System.Byte[] rgbHash, System.Byte[] rgbSignature)
     // Offset: 0xFFFFFFFF
@@ -33,18 +33,18 @@ namespace System::Security::Cryptography {
     // Offset: 0xFFFFFFFF
     void ImportParameters(System::Security::Cryptography::DSAParameters parameters);
     // protected System.Void .ctor()
-    // Offset: 0x19CECC8
+    // Offset: 0x17750EC
     // Implemented from: System.Security.Cryptography.AsymmetricAlgorithm
     // Base method: System.Void AsymmetricAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()
     static DSA* New_ctor();
     // public override System.Void FromXmlString(System.String xmlString)
-    // Offset: 0x19CED7C
+    // Offset: 0x17751A0
     // Implemented from: System.Security.Cryptography.AsymmetricAlgorithm
     // Base method: System.Void AsymmetricAlgorithm::FromXmlString(System.String xmlString)
     void FromXmlString(::Il2CppString* xmlString);
     // public override System.String ToXmlString(System.Boolean includePrivateParameters)
-    // Offset: 0x19CF320
+    // Offset: 0x1775744
     // Implemented from: System.Security.Cryptography.AsymmetricAlgorithm
     // Base method: System.String AsymmetricAlgorithm::ToXmlString(System.Boolean includePrivateParameters)
     ::Il2CppString* ToXmlString(bool includePrivateParameters);

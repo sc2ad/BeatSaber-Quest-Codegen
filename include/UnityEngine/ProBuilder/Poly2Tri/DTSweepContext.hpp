@@ -58,67 +58,67 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Offset: 0x70
     UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator* comparator;
     // public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint get_Head()
-    // Offset: 0x21C64C8
+    // Offset: 0x1F1A12C
     UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* get_Head();
     // public System.Void set_Head(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint value)
-    // Offset: 0x21C64D0
+    // Offset: 0x1F1A134
     void set_Head(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
     // public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint get_Tail()
-    // Offset: 0x21C64D8
+    // Offset: 0x1F1A13C
     UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* get_Tail();
     // public System.Void set_Tail(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint value)
-    // Offset: 0x21C64E0
+    // Offset: 0x1F1A144
     void set_Tail(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
     // public System.Void RemoveFromList(UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle triangle)
-    // Offset: 0x21C3308
+    // Offset: 0x1F16F6C
     void RemoveFromList(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* triangle);
     // public System.Void MeshClean(UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle triangle)
-    // Offset: 0x21C3990
+    // Offset: 0x1F175F4
     void MeshClean(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* triangle);
     // private System.Void MeshCleanReq(UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle triangle)
-    // Offset: 0x21C6694
+    // Offset: 0x1F1A2F8
     void MeshCleanReq(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* triangle);
     // public System.Void AddNode(UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode node)
-    // Offset: 0x21C3B3C
+    // Offset: 0x1F177A0
     void AddNode(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
     // public System.Void RemoveNode(UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode node)
-    // Offset: 0x21C5E74
+    // Offset: 0x1F19AD8
     void RemoveNode(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
     // public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode LocateNode(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint point)
-    // Offset: 0x21C3994
+    // Offset: 0x1F175F8
     UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* LocateNode(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
     // public System.Void CreateAdvancingFront()
-    // Offset: 0x21C1F94
+    // Offset: 0x1F15BF8
     void CreateAdvancingFront();
     // public System.Void MapTriangleToNodes(UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle t)
-    // Offset: 0x21C3228
+    // Offset: 0x1F16E8C
     void MapTriangleToNodes(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t);
     // public System.Void FinalizeTriangulation()
-    // Offset: 0x21C35C8
+    // Offset: 0x1F1722C
     void FinalizeTriangulation();
     // public System.Void .ctor()
-    // Offset: 0x21C64E8
+    // Offset: 0x1F1A14C
     // Implemented from: UnityEngine.ProBuilder.Poly2Tri.TriangulationContext
     // Base method: System.Void TriangulationContext::.ctor()
     // Base method: System.Void Object::.ctor()
     static DTSweepContext* New_ctor();
     // public override System.Boolean get_IsDebugEnabled()
-    // Offset: 0x21C668C
+    // Offset: 0x1F1A2F0
     // Implemented from: UnityEngine.ProBuilder.Poly2Tri.TriangulationContext
     // Base method: System.Boolean TriangulationContext::get_IsDebugEnabled()
     bool get_IsDebugEnabled();
     // public override System.Void Clear()
-    // Offset: 0x21C67C4
+    // Offset: 0x1F1A428
     // Implemented from: UnityEngine.ProBuilder.Poly2Tri.TriangulationContext
     // Base method: System.Void TriangulationContext::Clear()
     void Clear();
     // public override System.Void PrepareTriangulation(UnityEngine.ProBuilder.Poly2Tri.Triangulatable t)
-    // Offset: 0x21C6898
+    // Offset: 0x1F1A4FC
     // Implemented from: UnityEngine.ProBuilder.Poly2Tri.TriangulationContext
     // Base method: System.Void TriangulationContext::PrepareTriangulation(UnityEngine.ProBuilder.Poly2Tri.Triangulatable t)
     void PrepareTriangulation(UnityEngine::ProBuilder::Poly2Tri::Triangulatable* t);
     // public override UnityEngine.ProBuilder.Poly2Tri.TriangulationConstraint NewConstraint(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint a, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint b)
-    // Offset: 0x21C6C4C
+    // Offset: 0x1F1A8B0
     // Implemented from: UnityEngine.ProBuilder.Poly2Tri.TriangulationContext
     // Base method: UnityEngine.ProBuilder.Poly2Tri.TriangulationConstraint TriangulationContext::NewConstraint(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint a, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint b)
     UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint* NewConstraint(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* a, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* b);

@@ -33,16 +33,16 @@ namespace Valve::VR {
   class IVRCompositor::_GetLastPoseForTrackedDeviceIndex : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1E30B34
+    // Offset: 0x1B83798
     static IVRCompositor::_GetLastPoseForTrackedDeviceIndex* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRCompositorError Invoke(System.UInt32 unDeviceIndex, ref Valve.VR.TrackedDevicePose_t pOutputPose, ref Valve.VR.TrackedDevicePose_t pOutputGamePose)
-    // Offset: 0x1E30B48
+    // Offset: 0x1B837AC
     Valve::VR::EVRCompositorError Invoke(uint unDeviceIndex, Valve::VR::TrackedDevicePose_t& pOutputPose, Valve::VR::TrackedDevicePose_t& pOutputGamePose);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unDeviceIndex, ref Valve.VR.TrackedDevicePose_t pOutputPose, ref Valve.VR.TrackedDevicePose_t pOutputGamePose, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1E30DF4
+    // Offset: 0x1B83A58
     System::IAsyncResult* BeginInvoke(uint unDeviceIndex, Valve::VR::TrackedDevicePose_t& pOutputPose, Valve::VR::TrackedDevicePose_t& pOutputGamePose, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRCompositorError EndInvoke(ref Valve.VR.TrackedDevicePose_t pOutputPose, ref Valve.VR.TrackedDevicePose_t pOutputGamePose, System.IAsyncResult result)
-    // Offset: 0x1E30EC0
+    // Offset: 0x1B83B24
     Valve::VR::EVRCompositorError EndInvoke(Valve::VR::TrackedDevicePose_t& pOutputPose, Valve::VR::TrackedDevicePose_t& pOutputGamePose, System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_GetLastPoseForTrackedDeviceIndex
 }

@@ -26,19 +26,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   class MessageEnd : public ::Il2CppObject {
     public:
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x14BE1F0
+    // Offset: 0x1293A18
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0x14BE21C
+    // Offset: 0x1293A44
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0x14BE220
+    // Offset: 0x1293A48
     void Dump();
     // public System.Void Dump(System.IO.Stream sout)
-    // Offset: 0x14BE224
+    // Offset: 0x1293A4C
     void Dump(System::IO::Stream* sout);
     // System.Void .ctor()
-    // Offset: 0x14BE1E8
+    // Offset: 0x1293A10
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MessageEnd* New_ctor();

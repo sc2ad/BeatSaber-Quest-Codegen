@@ -21,10 +21,10 @@ namespace UnityEngine {
       return height;
     }
     // public System.Void .ctor(System.Single height)
-    // Offset: 0x198FFF4
+    // Offset: 0x1736418
     static SpaceAttribute* New_ctor(float height);
     // public System.Void .ctor()
-    // Offset: 0x198FFC8
+    // Offset: 0x17363EC
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

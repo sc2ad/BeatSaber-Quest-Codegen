@@ -30,7 +30,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x18
     double MyCurrentThreshold;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x13659F0
+    // Offset: 0x113B12C
     static MatchmakingAdminSnapshot* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.MatchmakingAdminSnapshot
 }

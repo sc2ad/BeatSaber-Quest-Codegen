@@ -29,15 +29,15 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::TubeBloomPrePassLight* tubeBloomPrePassLight;
     // public UnityEngine.Color get_color()
-    // Offset: 0x1FB4480
+    // Offset: 0x1D050E4
     UnityEngine::Color get_color();
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1FB44A0
+    // Offset: 0x1D05104
     // Implemented from: LightWithId
     // Base method: System.Void LightWithId::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1FB44B8
+    // Offset: 0x1D0511C
     // Implemented from: LightWithId
     // Base method: System.Void LightWithId::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

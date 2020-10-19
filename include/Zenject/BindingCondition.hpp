@@ -29,16 +29,16 @@ namespace Zenject {
   class BindingCondition : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x11F467C
+    // Offset: 0xFEFF18
     static BindingCondition* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(Zenject.InjectContext c)
-    // Offset: 0x11F4690
+    // Offset: 0xFEFF2C
     bool Invoke(Zenject::InjectContext* c);
     // public System.IAsyncResult BeginInvoke(Zenject.InjectContext c, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x11F4A54
+    // Offset: 0xFF02F0
     System::IAsyncResult* BeginInvoke(Zenject::InjectContext* c, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x11F4A78
+    // Offset: 0xFF0314
     bool EndInvoke(System::IAsyncResult* result);
   }; // Zenject.BindingCondition
 }

@@ -57,138 +57,138 @@ namespace System {
     // Set static field: static private System.String enumSeperator
     static void _set_enumSeperator(::Il2CppString* value);
     // static private System.Enum/ValuesAndNames GetCachedValuesAndNames(System.RuntimeType enumType, System.Boolean getNames)
-    // Offset: 0x1252510
+    // Offset: 0x104CDAC
     static System::Enum::ValuesAndNames* GetCachedValuesAndNames(System::RuntimeType* enumType, bool getNames);
     // static private System.String InternalFormattedHexString(System.Object value)
-    // Offset: 0x12526C4
+    // Offset: 0x104CF60
     static ::Il2CppString* InternalFormattedHexString(::Il2CppObject* value);
     // static private System.String InternalFormat(System.RuntimeType eT, System.Object value)
-    // Offset: 0x1252AD0
+    // Offset: 0x104D36C
     static ::Il2CppString* InternalFormat(System::RuntimeType* eT, ::Il2CppObject* value);
     // static private System.String InternalFlagsFormat(System.RuntimeType eT, System.Object value)
-    // Offset: 0x1252CD0
+    // Offset: 0x104D56C
     static ::Il2CppString* InternalFlagsFormat(System::RuntimeType* eT, ::Il2CppObject* value);
     // static System.UInt64 ToUInt64(System.Object value)
-    // Offset: 0x1252EC8
+    // Offset: 0x104D764
     static uint64_t ToUInt64(::Il2CppObject* value);
     // static private System.Int32 InternalCompareTo(System.Object o1, System.Object o2)
-    // Offset: 0x1253050
+    // Offset: 0x104D8EC
     static int InternalCompareTo(::Il2CppObject* o1, ::Il2CppObject* o2);
     // static System.RuntimeType InternalGetUnderlyingType(System.RuntimeType enumType)
-    // Offset: 0x1253054
+    // Offset: 0x104D8F0
     static System::RuntimeType* InternalGetUnderlyingType(System::RuntimeType* enumType);
     // static private System.Boolean GetEnumValuesAndNames(System.RuntimeType enumType, out System.UInt64[] values, out System.String[] names)
-    // Offset: 0x1252670
+    // Offset: 0x104CF0C
     static bool GetEnumValuesAndNames(System::RuntimeType* enumType, ::Array<uint64_t>*& values, ::Array<::Il2CppString*>*& names);
     // static private System.Object InternalBoxEnum(System.RuntimeType enumType, System.Int64 value)
-    // Offset: 0x1253058
+    // Offset: 0x104D8F4
     static ::Il2CppObject* InternalBoxEnum(System::RuntimeType* enumType, int64_t value);
     // static public System.Object Parse(System.Type enumType, System.String value)
-    // Offset: 0x125305C
+    // Offset: 0x104D8F8
     static ::Il2CppObject* Parse(System::Type* enumType, ::Il2CppString* value);
     // static public System.Object Parse(System.Type enumType, System.String value, System.Boolean ignoreCase)
-    // Offset: 0x12530D4
+    // Offset: 0x104D970
     static ::Il2CppObject* Parse(System::Type* enumType, ::Il2CppString* value, bool ignoreCase);
     // static private System.Boolean TryParseEnum(System.Type enumType, System.String value, System.Boolean ignoreCase, ref System.Enum/EnumResult parseResult)
-    // Offset: 0x1253214
+    // Offset: 0x104DAB0
     static bool TryParseEnum(System::Type* enumType, ::Il2CppString* value, bool ignoreCase, System::Enum::EnumResult& parseResult);
     // static public System.Type GetUnderlyingType(System.Type enumType)
-    // Offset: 0x124A684
+    // Offset: 0x1044F20
     static System::Type* GetUnderlyingType(System::Type* enumType);
     // static public System.Array GetValues(System.Type enumType)
-    // Offset: 0x1254238
+    // Offset: 0x104EAD4
     static System::Array* GetValues(System::Type* enumType);
     // static System.UInt64[] InternalGetValues(System.RuntimeType enumType)
-    // Offset: 0x1254300
+    // Offset: 0x104EB9C
     static ::Array<uint64_t>* InternalGetValues(System::RuntimeType* enumType);
     // static public System.String GetName(System.Type enumType, System.Object value)
-    // Offset: 0x1252BF8
+    // Offset: 0x104D494
     static ::Il2CppString* GetName(System::Type* enumType, ::Il2CppObject* value);
     // static public System.String[] GetNames(System.Type enumType)
-    // Offset: 0x1254378
+    // Offset: 0x104EC14
     static ::Array<::Il2CppString*>* GetNames(System::Type* enumType);
     // static System.String[] InternalGetNames(System.RuntimeType enumType)
-    // Offset: 0x1254440
+    // Offset: 0x104ECDC
     static ::Array<::Il2CppString*>* InternalGetNames(System::RuntimeType* enumType);
     // static public System.Object ToObject(System.Type enumType, System.Object value)
-    // Offset: 0x1253B6C
+    // Offset: 0x104E408
     static ::Il2CppObject* ToObject(System::Type* enumType, ::Il2CppObject* value);
     // static public System.Boolean IsDefined(System.Type enumType, System.Object value)
-    // Offset: 0x125547C
+    // Offset: 0x104FD18
     static bool IsDefined(System::Type* enumType, ::Il2CppObject* value);
     // private System.Object get_value()
-    // Offset: 0x1255554
+    // Offset: 0x104FDF0
     ::Il2CppObject* get_value();
     // System.Object GetValue()
-    // Offset: 0x1255558
+    // Offset: 0x104FDF4
     ::Il2CppObject* GetValue();
     // private System.Boolean InternalHasFlag(System.Enum flags)
-    // Offset: 0x125555C
+    // Offset: 0x104FDF8
     bool InternalHasFlag(System::Enum* flags);
     // private System.Int32 get_hashcode()
-    // Offset: 0x1255560
+    // Offset: 0x104FDFC
     int get_hashcode();
     // public System.String ToString(System.String format)
-    // Offset: 0x1255644
+    // Offset: 0x104FEE0
     ::Il2CppString* ToString(::Il2CppString* format);
     // public System.Boolean HasFlag(System.Enum flag)
-    // Offset: 0x1255AA4
+    // Offset: 0x1050340
     bool HasFlag(System::Enum* flag);
     // static public System.Object ToObject(System.Type enumType, System.SByte value)
-    // Offset: 0x1254678
+    // Offset: 0x104EF14
     static ::Il2CppObject* ToObject(System::Type* enumType, int8_t value);
     // static public System.Object ToObject(System.Type enumType, System.Int16 value)
-    // Offset: 0x1254838
+    // Offset: 0x104F0D4
     static ::Il2CppObject* ToObject(System::Type* enumType, int16_t value);
     // static public System.Object ToObject(System.Type enumType, System.Int32 value)
-    // Offset: 0x12544B8
+    // Offset: 0x104ED54
     static ::Il2CppObject* ToObject(System::Type* enumType, int value);
     // static public System.Object ToObject(System.Type enumType, System.Byte value)
-    // Offset: 0x1254D78
+    // Offset: 0x104F614
     static ::Il2CppObject* ToObject(System::Type* enumType, uint8_t value);
     // static public System.Object ToObject(System.Type enumType, System.UInt16 value)
-    // Offset: 0x1254F38
+    // Offset: 0x104F7D4
     static ::Il2CppObject* ToObject(System::Type* enumType, uint16_t value);
     // static public System.Object ToObject(System.Type enumType, System.UInt32 value)
-    // Offset: 0x1254BB8
+    // Offset: 0x104F454
     static ::Il2CppObject* ToObject(System::Type* enumType, uint value);
     // static public System.Object ToObject(System.Type enumType, System.Int64 value)
-    // Offset: 0x12549F8
+    // Offset: 0x104F294
     static ::Il2CppObject* ToObject(System::Type* enumType, int64_t value);
     // static public System.Object ToObject(System.Type enumType, System.UInt64 value)
-    // Offset: 0x1254078
+    // Offset: 0x104E914
     static ::Il2CppObject* ToObject(System::Type* enumType, uint64_t value);
     // static private System.Object ToObject(System.Type enumType, System.Char value)
-    // Offset: 0x12550F8
+    // Offset: 0x104F994
     static ::Il2CppObject* ToObject(System::Type* enumType, ::Il2CppChar value);
     // static private System.Object ToObject(System.Type enumType, System.Boolean value)
-    // Offset: 0x12552B8
+    // Offset: 0x104FB54
     static ::Il2CppObject* ToObject(System::Type* enumType, bool value);
     // static private System.Void .cctor()
-    // Offset: 0x1256A48
+    // Offset: 0x10512E4
     static void _cctor();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1255564
+    // Offset: 0x104FE00
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x125556C
+    // Offset: 0x104FE08
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1255570
+    // Offset: 0x104FE0C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public System.String ToString(System.String format, System.IFormatProvider provider)
-    // Offset: 0x1255640
+    // Offset: 0x104FEDC
     // Implemented from: System.IFormattable
     // Base method: System.String IFormattable::ToString(System.String format, System.IFormatProvider provider)
     ::Il2CppString* ToString(::Il2CppString* format, System::IFormatProvider* provider);
     // public System.Int32 CompareTo(System.Object target)
-    // Offset: 0x125586C
+    // Offset: 0x1050108
     // Implemented from: System.IComparable
     // Base method: System.Int32 IComparable::CompareTo(System.Object target)
     int CompareTo(::Il2CppObject* target);
@@ -196,92 +196,92 @@ namespace System {
     // Maps to method: CompareTo
     int System_IComparable_CompareTo(::Il2CppObject* target);
     // public System.String ToString(System.IFormatProvider provider)
-    // Offset: 0x1255A98
+    // Offset: 0x1050334
     // Implemented from: System.IConvertible
     // Base method: System.String IConvertible::ToString(System.IFormatProvider provider)
     ::Il2CppString* ToString(System::IFormatProvider* provider);
     // public System.TypeCode GetTypeCode()
-    // Offset: 0x1255C50
+    // Offset: 0x10504EC
     // Implemented from: System.IConvertible
     // Base method: System.TypeCode IConvertible::GetTypeCode()
     System::TypeCode GetTypeCode();
     // private System.Boolean System.IConvertible.ToBoolean(System.IFormatProvider provider)
-    // Offset: 0x1256018
+    // Offset: 0x10508B4
     // Implemented from: System.IConvertible
     // Base method: System.Boolean IConvertible::ToBoolean(System.IFormatProvider provider)
     bool System_IConvertible_ToBoolean(System::IFormatProvider* provider);
     // private System.Char System.IConvertible.ToChar(System.IFormatProvider provider)
-    // Offset: 0x12560C4
+    // Offset: 0x1050960
     // Implemented from: System.IConvertible
     // Base method: System.Char IConvertible::ToChar(System.IFormatProvider provider)
     ::Il2CppChar System_IConvertible_ToChar(System::IFormatProvider* provider);
     // private System.SByte System.IConvertible.ToSByte(System.IFormatProvider provider)
-    // Offset: 0x1256170
+    // Offset: 0x1050A0C
     // Implemented from: System.IConvertible
     // Base method: System.SByte IConvertible::ToSByte(System.IFormatProvider provider)
     int8_t System_IConvertible_ToSByte(System::IFormatProvider* provider);
     // private System.Byte System.IConvertible.ToByte(System.IFormatProvider provider)
-    // Offset: 0x125621C
+    // Offset: 0x1050AB8
     // Implemented from: System.IConvertible
     // Base method: System.Byte IConvertible::ToByte(System.IFormatProvider provider)
     uint8_t System_IConvertible_ToByte(System::IFormatProvider* provider);
     // private System.Int16 System.IConvertible.ToInt16(System.IFormatProvider provider)
-    // Offset: 0x12562C8
+    // Offset: 0x1050B64
     // Implemented from: System.IConvertible
     // Base method: System.Int16 IConvertible::ToInt16(System.IFormatProvider provider)
     int16_t System_IConvertible_ToInt16(System::IFormatProvider* provider);
     // private System.UInt16 System.IConvertible.ToUInt16(System.IFormatProvider provider)
-    // Offset: 0x1256374
+    // Offset: 0x1050C10
     // Implemented from: System.IConvertible
     // Base method: System.UInt16 IConvertible::ToUInt16(System.IFormatProvider provider)
     uint16_t System_IConvertible_ToUInt16(System::IFormatProvider* provider);
     // private System.Int32 System.IConvertible.ToInt32(System.IFormatProvider provider)
-    // Offset: 0x1256420
+    // Offset: 0x1050CBC
     // Implemented from: System.IConvertible
     // Base method: System.Int32 IConvertible::ToInt32(System.IFormatProvider provider)
     int System_IConvertible_ToInt32(System::IFormatProvider* provider);
     // private System.UInt32 System.IConvertible.ToUInt32(System.IFormatProvider provider)
-    // Offset: 0x12564CC
+    // Offset: 0x1050D68
     // Implemented from: System.IConvertible
     // Base method: System.UInt32 IConvertible::ToUInt32(System.IFormatProvider provider)
     uint System_IConvertible_ToUInt32(System::IFormatProvider* provider);
     // private System.Int64 System.IConvertible.ToInt64(System.IFormatProvider provider)
-    // Offset: 0x1256578
+    // Offset: 0x1050E14
     // Implemented from: System.IConvertible
     // Base method: System.Int64 IConvertible::ToInt64(System.IFormatProvider provider)
     int64_t System_IConvertible_ToInt64(System::IFormatProvider* provider);
     // private System.UInt64 System.IConvertible.ToUInt64(System.IFormatProvider provider)
-    // Offset: 0x1256624
+    // Offset: 0x1050EC0
     // Implemented from: System.IConvertible
     // Base method: System.UInt64 IConvertible::ToUInt64(System.IFormatProvider provider)
     uint64_t System_IConvertible_ToUInt64(System::IFormatProvider* provider);
     // private System.Single System.IConvertible.ToSingle(System.IFormatProvider provider)
-    // Offset: 0x12566D0
+    // Offset: 0x1050F6C
     // Implemented from: System.IConvertible
     // Base method: System.Single IConvertible::ToSingle(System.IFormatProvider provider)
     float System_IConvertible_ToSingle(System::IFormatProvider* provider);
     // private System.Double System.IConvertible.ToDouble(System.IFormatProvider provider)
-    // Offset: 0x125677C
+    // Offset: 0x1051018
     // Implemented from: System.IConvertible
     // Base method: System.Double IConvertible::ToDouble(System.IFormatProvider provider)
     double System_IConvertible_ToDouble(System::IFormatProvider* provider);
     // private System.Decimal System.IConvertible.ToDecimal(System.IFormatProvider provider)
-    // Offset: 0x1256828
+    // Offset: 0x10510C4
     // Implemented from: System.IConvertible
     // Base method: System.Decimal IConvertible::ToDecimal(System.IFormatProvider provider)
     System::Decimal System_IConvertible_ToDecimal(System::IFormatProvider* provider);
     // private System.DateTime System.IConvertible.ToDateTime(System.IFormatProvider provider)
-    // Offset: 0x12568D4
+    // Offset: 0x1051170
     // Implemented from: System.IConvertible
     // Base method: System.DateTime IConvertible::ToDateTime(System.IFormatProvider provider)
     System::DateTime System_IConvertible_ToDateTime(System::IFormatProvider* provider);
     // private System.Object System.IConvertible.ToType(System.Type type, System.IFormatProvider provider)
-    // Offset: 0x12569C0
+    // Offset: 0x105125C
     // Implemented from: System.IConvertible
     // Base method: System.Object IConvertible::ToType(System.Type type, System.IFormatProvider provider)
     ::Il2CppObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
     // protected System.Void .ctor()
-    // Offset: 0x1256A40
+    // Offset: 0x10512DC
     // Implemented from: System.ValueType
     // Base method: System.Void ValueType::.ctor()
     // Base method: System.Void Object::.ctor()

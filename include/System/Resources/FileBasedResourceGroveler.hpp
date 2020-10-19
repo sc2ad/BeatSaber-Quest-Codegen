@@ -46,16 +46,16 @@ namespace System::Resources {
       return mediator;
     }
     // public System.Void .ctor(System.Resources.ResourceManager/ResourceManagerMediator mediator)
-    // Offset: 0x18D7DD0
+    // Offset: 0x167E1F4
     static FileBasedResourceGroveler* New_ctor(System::Resources::ResourceManager::ResourceManagerMediator* mediator);
     // private System.String FindResourceFile(System.Globalization.CultureInfo culture, System.String fileName)
-    // Offset: 0x18D81C4
+    // Offset: 0x167E5E8
     ::Il2CppString* FindResourceFile(System::Globalization::CultureInfo* culture, ::Il2CppString* fileName);
     // private System.Resources.ResourceSet CreateResourceSet(System.String file)
-    // Offset: 0x18D82F4
+    // Offset: 0x167E718
     System::Resources::ResourceSet* CreateResourceSet(::Il2CppString* file);
     // public System.Resources.ResourceSet GrovelForResourceSet(System.Globalization.CultureInfo culture, System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceSet> localResourceSets, System.Boolean tryParents, System.Boolean createIfNotExists, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x18D7E04
+    // Offset: 0x167E228
     // Implemented from: System.Resources.IResourceGroveler
     // Base method: System.Resources.ResourceSet IResourceGroveler::GrovelForResourceSet(System.Globalization.CultureInfo culture, System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceSet> localResourceSets, System.Boolean tryParents, System.Boolean createIfNotExists, ref System.Threading.StackCrawlMark stackMark)
     System::Resources::ResourceSet* GrovelForResourceSet(System::Globalization::CultureInfo* culture, System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceSet*>* localResourceSets, bool tryParents, bool createIfNotExists, System::Threading::StackCrawlMark& stackMark);

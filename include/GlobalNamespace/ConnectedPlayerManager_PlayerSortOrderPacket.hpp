@@ -39,13 +39,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     int sortIndex;
     // static public PacketPool`1<ConnectedPlayerManager/PlayerSortOrderPacket> get_pool()
-    // Offset: 0x115EAAC
+    // Offset: 0x2159494
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket*>* get_pool();
     // public ConnectedPlayerManager/PlayerSortOrderPacket Init(System.String userId, System.Int32 sortIndex)
-    // Offset: 0x1161514
+    // Offset: 0x215BEFC
     GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket* Init(::Il2CppString* userId, int sortIndex);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x116190C
+    // Offset: 0x215C2F4
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1161950
+    // Offset: 0x215C338
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -61,12 +61,12 @@ namespace GlobalNamespace {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x1160F64
+    // Offset: 0x215B94C
     // Implemented from: IPoolablePacket
     // Base method: System.Void IPoolablePacket::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x11619A4
+    // Offset: 0x215C38C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConnectedPlayerManager::PlayerSortOrderPacket* New_ctor();

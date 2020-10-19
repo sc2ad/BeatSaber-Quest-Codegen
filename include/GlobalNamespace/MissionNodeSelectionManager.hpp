@@ -45,28 +45,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didSelectMissionNodeEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0xEE1044
+    // Offset: 0x1FCAC0C
     void add_didSelectMissionNodeEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void remove_didSelectMissionNodeEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0xEE10E8
+    // Offset: 0x1FCACB0
     void remove_didSelectMissionNodeEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void DeselectSelectedNode()
-    // Offset: 0xEE118C
+    // Offset: 0x1FCAD54
     void DeselectSelectedNode();
     // protected System.Void Start()
-    // Offset: 0xEE1258
+    // Offset: 0x1FCAE20
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xEE14E8
+    // Offset: 0x1FCB0B0
     void OnDestroy();
     // private System.Void HandleNodeWasSelect(MissionNodeVisualController missionNode)
-    // Offset: 0xEE1794
+    // Offset: 0x1FCB35C
     void HandleNodeWasSelect(GlobalNamespace::MissionNodeVisualController* missionNode);
     // private System.Void HandleNodeWasDisplayed(MissionNodeVisualController missionNode)
-    // Offset: 0xEE1868
+    // Offset: 0x1FCB430
     void HandleNodeWasDisplayed(GlobalNamespace::MissionNodeVisualController* missionNode);
     // public System.Void .ctor()
-    // Offset: 0xEE18F8
+    // Offset: 0x1FCB4C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

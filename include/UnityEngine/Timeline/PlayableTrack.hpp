@@ -21,12 +21,12 @@ namespace UnityEngine::Timeline {
   class PlayableTrack : public UnityEngine::Timeline::TrackAsset {
     public:
     // protected override System.Void OnCreateClip(UnityEngine.Timeline.TimelineClip clip)
-    // Offset: 0x1621B14
+    // Offset: 0x13F833C
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: System.Void TrackAsset::OnCreateClip(UnityEngine.Timeline.TimelineClip clip)
     void OnCreateClip(UnityEngine::Timeline::TimelineClip* clip);
     // public System.Void .ctor()
-    // Offset: 0x1621BCC
+    // Offset: 0x13F83F4
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: System.Void TrackAsset::.ctor()
     // Base method: System.Void PlayableAsset::.ctor()

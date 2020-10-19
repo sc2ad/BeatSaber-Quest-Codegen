@@ -51,26 +51,26 @@ namespace GlobalNamespace {
     // Offset: 0x80
     System::Threading::CancellationTokenSource* cancellationTokenSource;
     // public System.Void set_text(System.String value)
-    // Offset: 0xFD41CC
+    // Offset: 0x1F8F738
     void set_text(::Il2CppString* value);
     // public System.String get_text()
-    // Offset: 0xFD41E8
+    // Offset: 0x1F8F754
     ::Il2CppString* get_text();
     // private System.Void RefreshVisuals()
-    // Offset: 0xFD4208
+    // Offset: 0x1F8F774
     void RefreshVisuals();
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0xFD4204
+    // Offset: 0x1F8F770
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0xFD4298
+    // Offset: 0x1F8F804
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0xFD429C
+    // Offset: 0x1F8F808
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

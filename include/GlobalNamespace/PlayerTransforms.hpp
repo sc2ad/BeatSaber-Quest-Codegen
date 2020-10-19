@@ -35,37 +35,40 @@ namespace GlobalNamespace {
     // private UnityEngine.Quaternion _headRot
     // Offset: 0x3C
     UnityEngine::Quaternion headRot;
-    // private UnityEngine.Quaternion _worldToLocalRot
+    // private UnityEngine.Vector3 _headLocalPos
     // Offset: 0x4C
-    UnityEngine::Quaternion worldToLocalRot;
+    UnityEngine::Vector3 headLocalPos;
+    // private UnityEngine.Quaternion _headLocalRot
+    // Offset: 0x58
+    UnityEngine::Quaternion headLocalRot;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Vector3 get_headPos()
-    // Offset: 0xF6F3E8
+    // Offset: 0x208F1F0
     UnityEngine::Vector3 get_headPos();
     // public UnityEngine.Quaternion get_headRot()
-    // Offset: 0xF6F3F4
+    // Offset: 0x208F1FC
     UnityEngine::Quaternion get_headRot();
-    // public UnityEngine.Quaternion get_worldToLocalRot()
-    // Offset: 0xF6F400
-    UnityEngine::Quaternion get_worldToLocalRot();
+    // public UnityEngine.Vector3 get_headLocalPos()
+    // Offset: 0x208F208
+    UnityEngine::Vector3 get_headLocalPos();
+    // public UnityEngine.Quaternion get_headLocalRot()
+    // Offset: 0x208F214
+    UnityEngine::Quaternion get_headLocalRot();
     // public System.Void OverrideHeadPos(UnityEngine.Vector3 pos)
-    // Offset: 0xF6F40C
+    // Offset: 0x208F220
     void OverrideHeadPos(UnityEngine::Vector3 pos);
-    // protected System.Void Start()
-    // Offset: 0xF6F420
-    void Start();
     // protected System.Void Update()
-    // Offset: 0xF6F4DC
+    // Offset: 0x208F23C
     void Update();
     // public System.Single MoveTowardsHead(System.Single start, System.Single end, UnityEngine.Quaternion noteInverseWorldRotation, System.Single t)
-    // Offset: 0xF6F534
+    // Offset: 0x208F2C4
     float MoveTowardsHead(float start, float end, UnityEngine::Quaternion noteInverseWorldRotation, float t);
     // public System.Single HeadOffsetZ(UnityEngine.Quaternion noteInverseWorldRotation)
-    // Offset: 0xF6F610
+    // Offset: 0x208F3A0
     float HeadOffsetZ(UnityEngine::Quaternion noteInverseWorldRotation);
     // public System.Void .ctor()
-    // Offset: 0xF6F6D0
+    // Offset: 0x208F460
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -43,34 +43,34 @@ namespace Mono::Net {
     // Offset: 0x18
     bool userSpecified;
     // static private System.Uri GetProxyUri(Mono.Net.CFProxy proxy, out System.Net.NetworkCredential credentials)
-    // Offset: 0x14168DC
+    // Offset: 0x11ED018
     static System::Uri* GetProxyUri(Mono::Net::CFProxy* proxy, System::Net::NetworkCredential*& credentials);
     // static private System.Uri GetProxyUriFromScript(System.IntPtr script, System.Uri targetUri, out System.Net.NetworkCredential credentials)
-    // Offset: 0x1416E68
+    // Offset: 0x11ED5A4
     static System::Uri* GetProxyUriFromScript(System::IntPtr script, System::Uri* targetUri, System::Net::NetworkCredential*& credentials);
     // static private System.Uri ExecuteProxyAutoConfigurationURL(System.IntPtr proxyAutoConfigURL, System.Uri targetUri, out System.Net.NetworkCredential credentials)
-    // Offset: 0x1416FD4
+    // Offset: 0x11ED710
     static System::Uri* ExecuteProxyAutoConfigurationURL(System::IntPtr proxyAutoConfigURL, System::Uri* targetUri, System::Net::NetworkCredential*& credentials);
     // static private System.Uri SelectProxy(Mono.Net.CFProxy[] proxies, System.Uri targetUri, out System.Net.NetworkCredential credentials)
-    // Offset: 0x1416EEC
+    // Offset: 0x11ED628
     static System::Uri* SelectProxy(::Array<Mono::Net::CFProxy*>* proxies, System::Uri* targetUri, System::Net::NetworkCredential*& credentials);
     // public System.Void .ctor()
-    // Offset: 0x1416324
+    // Offset: 0x11ECA60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CFNetwork::CFWebProxy* New_ctor();
     // public System.Net.ICredentials get_Credentials()
-    // Offset: 0x14168D4
+    // Offset: 0x11ED010
     // Implemented from: System.Net.IWebProxy
     // Base method: System.Net.ICredentials IWebProxy::get_Credentials()
     System::Net::ICredentials* get_Credentials();
     // public System.Uri GetProxy(System.Uri targetUri)
-    // Offset: 0x1417058
+    // Offset: 0x11ED794
     // Implemented from: System.Net.IWebProxy
     // Base method: System.Uri IWebProxy::GetProxy(System.Uri targetUri)
     System::Uri* GetProxy(System::Uri* targetUri);
     // public System.Boolean IsBypassed(System.Uri targetUri)
-    // Offset: 0x1417524
+    // Offset: 0x11EDC60
     // Implemented from: System.Net.IWebProxy
     // Base method: System.Boolean IWebProxy::IsBypassed(System.Uri targetUri)
     bool IsBypassed(System::Uri* targetUri);

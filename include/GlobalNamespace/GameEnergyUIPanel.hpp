@@ -55,22 +55,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xEBFC58
+    // Offset: 0x1FFEC4C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xEC02C4
+    // Offset: 0x1FFF2B8
     void OnDestroy();
     // private System.Void Cleanup()
-    // Offset: 0xEBFD7C
+    // Offset: 0x1FFED70
     void Cleanup();
     // private System.Void HandleGameEnergyDidChange(System.Single energy)
-    // Offset: 0xEC0154
+    // Offset: 0x1FFF148
     void HandleGameEnergyDidChange(float energy);
     // public System.Void CreateUIForBatteryEnergyType(System.Int32 batteryLives)
-    // Offset: 0xEBFE54
+    // Offset: 0x1FFEE48
     void CreateUIForBatteryEnergyType(int batteryLives);
     // public System.Void .ctor()
-    // Offset: 0xEC02C8
+    // Offset: 0x1FFF2BC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

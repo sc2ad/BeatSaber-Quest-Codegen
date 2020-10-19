@@ -39,10 +39,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xEEABD8
+    // Offset: 0x1FEB960
     void Start();
     // public System.Void .ctor()
-    // Offset: 0xEEAC6C
+    // Offset: 0x1FEB9F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

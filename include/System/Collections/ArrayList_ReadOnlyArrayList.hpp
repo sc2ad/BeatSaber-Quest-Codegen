@@ -37,10 +37,10 @@ namespace System::Collections {
       return list;
     }
     // System.Void .ctor(System.Collections.ArrayList l)
-    // Offset: 0x15D2D14
+    // Offset: 0x13A953C
     static ArrayList::ReadOnlyArrayList* New_ctor(System::Collections::ArrayList* l);
     // public override System.Int32 get_Count()
-    // Offset: 0x15D38C0
+    // Offset: 0x13AA0E8
     // Implemented from: System.Collections.ArrayList
     // Base method: System.Int32 ArrayList::get_Count()
     int get_Count();
@@ -48,7 +48,7 @@ namespace System::Collections {
     // Maps to method: get_Count
     int System_Collections_ICollection_get_Count();
     // public override System.Boolean get_IsReadOnly()
-    // Offset: 0x15D38E4
+    // Offset: 0x13AA10C
     // Implemented from: System.Collections.ArrayList
     // Base method: System.Boolean ArrayList::get_IsReadOnly()
     bool get_IsReadOnly();
@@ -56,7 +56,7 @@ namespace System::Collections {
     // Maps to method: get_IsReadOnly
     bool System_Collections_IList_get_IsReadOnly();
     // public override System.Object get_Item(System.Int32 index)
-    // Offset: 0x15D38EC
+    // Offset: 0x13AA114
     // Implemented from: System.Collections.ArrayList
     // Base method: System.Object ArrayList::get_Item(System.Int32 index)
     ::Il2CppObject* get_Item(int index);
@@ -64,7 +64,7 @@ namespace System::Collections {
     // Maps to method: get_Item
     ::Il2CppObject* System_Collections_IList_get_Item(int index);
     // public override System.Void set_Item(System.Int32 index, System.Object value)
-    // Offset: 0x15D3910
+    // Offset: 0x13AA138
     // Implemented from: System.Collections.ArrayList
     // Base method: System.Void ArrayList::set_Item(System.Int32 index, System.Object value)
     void set_Item(int index, ::Il2CppObject* value);
@@ -72,12 +72,12 @@ namespace System::Collections {
     // Maps to method: set_Item
     void System_Collections_IList_set_Item(int index, ::Il2CppObject* value);
     // public override System.Object get_SyncRoot()
-    // Offset: 0x15D3990
+    // Offset: 0x13AA1B8
     // Implemented from: System.Collections.ArrayList
     // Base method: System.Object ArrayList::get_SyncRoot()
     ::Il2CppObject* get_SyncRoot();
     // public override System.Int32 Add(System.Object obj)
-    // Offset: 0x15D39B4
+    // Offset: 0x13AA1DC
     // Implemented from: System.Collections.ArrayList
     // Base method: System.Int32 ArrayList::Add(System.Object obj)
     int Add(::Il2CppObject* obj);
@@ -85,17 +85,17 @@ namespace System::Collections {
     // Maps to method: Add
     int System_Collections_IList_Add(::Il2CppObject* obj);
     // public override System.Void AddRange(System.Collections.ICollection c)
-    // Offset: 0x15D3A34
+    // Offset: 0x13AA25C
     // Implemented from: System.Collections.ArrayList
     // Base method: System.Void ArrayList::AddRange(System.Collections.ICollection c)
     void AddRange(System::Collections::ICollection* c);
     // public override System.Void set_Capacity(System.Int32 value)
-    // Offset: 0x15D3AB4
+    // Offset: 0x13AA2DC
     // Implemented from: System.Collections.ArrayList
     // Base method: System.Void ArrayList::set_Capacity(System.Int32 value)
     void set_Capacity(int value);
     // public override System.Void Clear()
-    // Offset: 0x15D3B34
+    // Offset: 0x13AA35C
     // Implemented from: System.Collections.ArrayList
     // Base method: System.Void ArrayList::Clear()
     void Clear();
@@ -103,7 +103,7 @@ namespace System::Collections {
     // Maps to method: Clear
     void System_Collections_IList_Clear();
     // public override System.Object Clone()
-    // Offset: 0x15D3BB4
+    // Offset: 0x13AA3DC
     // Implemented from: System.Collections.ArrayList
     // Base method: System.Object ArrayList::Clone()
     ::Il2CppObject* Clone();
@@ -111,7 +111,7 @@ namespace System::Collections {
     // Maps to method: Clone
     ::Il2CppObject* System_ICloneable_Clone();
     // public override System.Boolean Contains(System.Object obj)
-    // Offset: 0x15D3C94
+    // Offset: 0x13AA4BC
     // Implemented from: System.Collections.ArrayList
     // Base method: System.Boolean ArrayList::Contains(System.Object obj)
     bool Contains(::Il2CppObject* obj);
@@ -119,7 +119,7 @@ namespace System::Collections {
     // Maps to method: Contains
     bool System_Collections_IList_Contains(::Il2CppObject* obj);
     // public override System.Void CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x15D3CB8
+    // Offset: 0x13AA4E0
     // Implemented from: System.Collections.ArrayList
     // Base method: System.Void ArrayList::CopyTo(System.Array array, System.Int32 index)
     void CopyTo(System::Array* array, int index);
@@ -127,12 +127,12 @@ namespace System::Collections {
     // Maps to method: CopyTo
     void System_Collections_ICollection_CopyTo(System::Array* array, int index);
     // public override System.Void CopyTo(System.Int32 index, System.Array array, System.Int32 arrayIndex, System.Int32 count)
-    // Offset: 0x15D3CDC
+    // Offset: 0x13AA504
     // Implemented from: System.Collections.ArrayList
     // Base method: System.Void ArrayList::CopyTo(System.Int32 index, System.Array array, System.Int32 arrayIndex, System.Int32 count)
     void CopyTo(int index, System::Array* array, int arrayIndex, int count);
     // public override System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x15D3D00
+    // Offset: 0x13AA528
     // Implemented from: System.Collections.ArrayList
     // Base method: System.Collections.IEnumerator ArrayList::GetEnumerator()
     System::Collections::IEnumerator* GetEnumerator();
@@ -140,7 +140,7 @@ namespace System::Collections {
     // Maps to method: GetEnumerator
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public override System.Int32 IndexOf(System.Object value)
-    // Offset: 0x15D3D24
+    // Offset: 0x13AA54C
     // Implemented from: System.Collections.ArrayList
     // Base method: System.Int32 ArrayList::IndexOf(System.Object value)
     int IndexOf(::Il2CppObject* value);
@@ -148,7 +148,7 @@ namespace System::Collections {
     // Maps to method: IndexOf
     int System_Collections_IList_IndexOf(::Il2CppObject* value);
     // public override System.Void Insert(System.Int32 index, System.Object obj)
-    // Offset: 0x15D3D48
+    // Offset: 0x13AA570
     // Implemented from: System.Collections.ArrayList
     // Base method: System.Void ArrayList::Insert(System.Int32 index, System.Object obj)
     void Insert(int index, ::Il2CppObject* obj);
@@ -156,12 +156,12 @@ namespace System::Collections {
     // Maps to method: Insert
     void System_Collections_IList_Insert(int index, ::Il2CppObject* obj);
     // public override System.Void InsertRange(System.Int32 index, System.Collections.ICollection c)
-    // Offset: 0x15D3DC8
+    // Offset: 0x13AA5F0
     // Implemented from: System.Collections.ArrayList
     // Base method: System.Void ArrayList::InsertRange(System.Int32 index, System.Collections.ICollection c)
     void InsertRange(int index, System::Collections::ICollection* c);
     // public override System.Void Remove(System.Object value)
-    // Offset: 0x15D3E48
+    // Offset: 0x13AA670
     // Implemented from: System.Collections.ArrayList
     // Base method: System.Void ArrayList::Remove(System.Object value)
     void Remove(::Il2CppObject* value);
@@ -169,7 +169,7 @@ namespace System::Collections {
     // Maps to method: Remove
     void System_Collections_IList_Remove(::Il2CppObject* value);
     // public override System.Void RemoveAt(System.Int32 index)
-    // Offset: 0x15D3EC8
+    // Offset: 0x13AA6F0
     // Implemented from: System.Collections.ArrayList
     // Base method: System.Void ArrayList::RemoveAt(System.Int32 index)
     void RemoveAt(int index);
@@ -177,22 +177,22 @@ namespace System::Collections {
     // Maps to method: RemoveAt
     void System_Collections_IList_RemoveAt(int index);
     // public override System.Void RemoveRange(System.Int32 index, System.Int32 count)
-    // Offset: 0x15D3F48
+    // Offset: 0x13AA770
     // Implemented from: System.Collections.ArrayList
     // Base method: System.Void ArrayList::RemoveRange(System.Int32 index, System.Int32 count)
     void RemoveRange(int index, int count);
     // public override System.Void Reverse(System.Int32 index, System.Int32 count)
-    // Offset: 0x15D3FC8
+    // Offset: 0x13AA7F0
     // Implemented from: System.Collections.ArrayList
     // Base method: System.Void ArrayList::Reverse(System.Int32 index, System.Int32 count)
     void Reverse(int index, int count);
     // public override System.Object[] ToArray()
-    // Offset: 0x15D4048
+    // Offset: 0x13AA870
     // Implemented from: System.Collections.ArrayList
     // Base method: System.Object[] ArrayList::ToArray()
     ::Array<::Il2CppObject*>* ToArray();
     // public override System.Array ToArray(System.Type type)
-    // Offset: 0x15D406C
+    // Offset: 0x13AA894
     // Implemented from: System.Collections.ArrayList
     // Base method: System.Array ArrayList::ToArray(System.Type type)
     System::Array* ToArray(System::Type* type);

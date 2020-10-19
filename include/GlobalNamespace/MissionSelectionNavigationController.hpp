@@ -42,35 +42,35 @@ namespace GlobalNamespace {
     // Offset: 0xA8
     System::Action_1<GlobalNamespace::MissionSelectionNavigationController*>* didPressPlayButtonEvent;
     // public System.Void add_didPressPlayButtonEvent(System.Action`1<MissionSelectionNavigationController> value)
-    // Offset: 0xEE5444
+    // Offset: 0x1FCF00C
     void add_didPressPlayButtonEvent(System::Action_1<GlobalNamespace::MissionSelectionNavigationController*>* value);
     // public System.Void remove_didPressPlayButtonEvent(System.Action`1<MissionSelectionNavigationController> value)
-    // Offset: 0xEE54E8
+    // Offset: 0x1FCF0B0
     void remove_didPressPlayButtonEvent(System::Action_1<GlobalNamespace::MissionSelectionNavigationController*>* value);
     // public MissionNode get_selectedMissionNode()
-    // Offset: 0xEE558C
+    // Offset: 0x1FCF154
     GlobalNamespace::MissionNode* get_selectedMissionNode();
     // private System.Void HandleMissionSelectionMapViewControllerDidSelectMissionLevel(MissionSelectionMapViewController viewController, MissionNode _missionNode)
-    // Offset: 0xEE5800
+    // Offset: 0x1FCF3C8
     void HandleMissionSelectionMapViewControllerDidSelectMissionLevel(GlobalNamespace::MissionSelectionMapViewController* viewController, GlobalNamespace::MissionNode* _missionNode);
     // private System.Void HandleMissionLevelDetailViewControllerDidPressPlayButton(MissionLevelDetailViewController viewController)
-    // Offset: 0xEE5864
+    // Offset: 0x1FCF42C
     void HandleMissionLevelDetailViewControllerDidPressPlayButton(GlobalNamespace::MissionLevelDetailViewController* viewController);
     // public System.Void PresentMissionClearedIfNeeded(System.Action`1<System.Boolean> finishedCallback)
-    // Offset: 0xEE58C8
+    // Offset: 0x1FCF490
     void PresentMissionClearedIfNeeded(System::Action_1<bool>* finishedCallback);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xEE55A8
+    // Offset: 0x1FCF170
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0xEE5710
+    // Offset: 0x1FCF2D8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0xEE59F0
+    // Offset: 0x1FCF5B8
     // Implemented from: HMUI.NavigationController
     // Base method: System.Void NavigationController::.ctor()
     // Base method: System.Void ContainerViewController::.ctor()

@@ -39,15 +39,15 @@ namespace GlobalNamespace {
     // Offset: 0x1E
     ::Il2CppChar $$3__c;
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1C3FF70
+    // Offset: 0x21FA108
     static ProfanityFilter::$GetLookalikeLetters$d__4* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1C40010
+    // Offset: 0x21FA1A8
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1C40014
+    // Offset: 0x21FA1AC
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -55,27 +55,27 @@ namespace GlobalNamespace {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // private System.Char System.Collections.Generic.IEnumerator<System.Char>.get_Current()
-    // Offset: 0x1C400B4
+    // Offset: 0x21FA24C
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator_1::get_Current()
     ::Il2CppChar System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1C400BC
+    // Offset: 0x21FA254
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1C4011C
+    // Offset: 0x21FA2B4
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // private System.Collections.Generic.IEnumerator`1<System.Char> System.Collections.Generic.IEnumerable<System.Char>.GetEnumerator()
-    // Offset: 0x1C40180
+    // Offset: 0x21FA318
     // Implemented from: System.Collections.Generic.IEnumerable`1
     // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable_1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<::Il2CppChar>* System_Collections_Generic_IEnumerable_1_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1C4022C
+    // Offset: 0x21FA3C4
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();

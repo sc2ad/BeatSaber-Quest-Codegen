@@ -25,16 +25,16 @@ namespace Oculus::Platform {
   class MessageWithNetworkingPeer : public Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer*> {
     public:
     // protected Oculus.Platform.Models.NetworkingPeer GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x136706C
+    // Offset: 0x113C7A8
     Oculus::Platform::Models::NetworkingPeer* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x136064C
+    // Offset: 0x1135D88
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithNetworkingPeer* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.NetworkingPeer GetNetworkingPeer()
-    // Offset: 0x1367028
+    // Offset: 0x113C764
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.NetworkingPeer Message::GetNetworkingPeer()
     Oculus::Platform::Models::NetworkingPeer* GetNetworkingPeer();

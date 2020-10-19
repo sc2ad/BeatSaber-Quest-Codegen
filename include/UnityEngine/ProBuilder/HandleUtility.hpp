@@ -59,61 +59,61 @@ namespace UnityEngine::ProBuilder {
   class HandleUtility : public ::Il2CppObject {
     public:
     // static UnityEngine.Vector3 ScreenToGuiPoint(UnityEngine.Camera camera, UnityEngine.Vector3 point, System.Single pixelsPerPoint)
-    // Offset: 0x193D540
+    // Offset: 0x16E3964
     static UnityEngine::Vector3 ScreenToGuiPoint(UnityEngine::Camera* camera, UnityEngine::Vector3 point, float pixelsPerPoint);
     // static System.Boolean FaceRaycast(UnityEngine.Ray worldRay, UnityEngine.ProBuilder.ProBuilderMesh mesh, out UnityEngine.ProBuilder.RaycastHit hit, System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> ignore)
-    // Offset: 0x193D5B8
+    // Offset: 0x16E39DC
     static bool FaceRaycast(UnityEngine::Ray worldRay, UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::RaycastHit*& hit, System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* ignore);
     // static System.Boolean FaceRaycast(UnityEngine.Ray worldRay, UnityEngine.ProBuilder.ProBuilderMesh mesh, out UnityEngine.ProBuilder.RaycastHit hit, System.Single distance, UnityEngine.ProBuilder.CullingMode cullingMode, System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> ignore)
-    // Offset: 0x193D5FC
+    // Offset: 0x16E3A20
     static bool FaceRaycast(UnityEngine::Ray worldRay, UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::RaycastHit*& hit, float distance, UnityEngine::ProBuilder::CullingMode cullingMode, System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* ignore);
     // static System.Boolean FaceRaycastBothCullModes(UnityEngine.Ray worldRay, UnityEngine.ProBuilder.ProBuilderMesh mesh, ref UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.Face,UnityEngine.Vector3> back, ref UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.Face,UnityEngine.Vector3> front)
-    // Offset: 0x193DFE8
+    // Offset: 0x16E440C
     static bool FaceRaycastBothCullModes(UnityEngine::Ray worldRay, UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::Face*, UnityEngine::Vector3>& back, UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::Face*, UnityEngine::Vector3>& front);
     // static System.Boolean FaceRaycast(UnityEngine.Ray InWorldRay, UnityEngine.ProBuilder.ProBuilderMesh mesh, out System.Collections.Generic.List`1<UnityEngine.ProBuilder.RaycastHit> hits, UnityEngine.ProBuilder.CullingMode cullingMode, System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> ignore)
-    // Offset: 0x193E5A4
+    // Offset: 0x16E49C8
     static bool FaceRaycast(UnityEngine::Ray InWorldRay, UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::List_1<UnityEngine::ProBuilder::RaycastHit*>*& hits, UnityEngine::ProBuilder::CullingMode cullingMode, System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* ignore);
     // static UnityEngine.Ray InverseTransformRay(UnityEngine.Transform transform, UnityEngine.Ray InWorldRay)
-    // Offset: 0x193EBD4
+    // Offset: 0x16E4FF8
     static UnityEngine::Ray InverseTransformRay(UnityEngine::Transform* transform, UnityEngine::Ray InWorldRay);
     // static System.Boolean MeshRaycast(UnityEngine.Ray InWorldRay, UnityEngine.GameObject gameObject, out UnityEngine.ProBuilder.RaycastHit hit, System.Single distance)
-    // Offset: 0x193EDF4
+    // Offset: 0x16E5218
     static bool MeshRaycast(UnityEngine::Ray InWorldRay, UnityEngine::GameObject* gameObject, UnityEngine::ProBuilder::RaycastHit*& hit, float distance);
     // static System.Boolean MeshRaycast(UnityEngine.Ray InRay, UnityEngine.Vector3[] mesh, System.Int32[] triangles, out UnityEngine.ProBuilder.RaycastHit hit, System.Single distance)
-    // Offset: 0x193EF84
+    // Offset: 0x16E53A8
     static bool MeshRaycast(UnityEngine::Ray InRay, ::Array<UnityEngine::Vector3>* mesh, ::Array<int>* triangles, UnityEngine::ProBuilder::RaycastHit*& hit, float distance);
     // static System.Boolean PointIsOccluded(UnityEngine.Camera cam, UnityEngine.ProBuilder.ProBuilderMesh pb, UnityEngine.Vector3 worldPoint)
-    // Offset: 0x193F5AC
+    // Offset: 0x16E59D0
     static bool PointIsOccluded(UnityEngine::Camera* cam, UnityEngine::ProBuilder::ProBuilderMesh* pb, UnityEngine::Vector3 worldPoint);
     // static public UnityEngine.Quaternion GetRotation(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<System.Int32> indices)
-    // Offset: 0x193F764
+    // Offset: 0x16E5B88
     static UnityEngine::Quaternion GetRotation(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<int>* indices);
     // static public UnityEngine.Quaternion GetFaceRotation(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.HandleOrientation orientation, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces)
-    // Offset: 0x193FD90
+    // Offset: 0x16E61B4
     static UnityEngine::Quaternion GetFaceRotation(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::HandleOrientation orientation, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces);
     // static public UnityEngine.Quaternion GetFaceRotation(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face face)
-    // Offset: 0x193FEA0
+    // Offset: 0x16E62C4
     static UnityEngine::Quaternion GetFaceRotation(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Face* face);
     // static public UnityEngine.Quaternion GetEdgeRotation(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.HandleOrientation orientation, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> edges)
-    // Offset: 0x1940614
+    // Offset: 0x16E6A38
     static UnityEngine::Quaternion GetEdgeRotation(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::HandleOrientation orientation, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* edges);
     // static public UnityEngine.Quaternion GetEdgeRotation(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Edge edge)
-    // Offset: 0x1940724
+    // Offset: 0x16E6B48
     static UnityEngine::Quaternion GetEdgeRotation(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Edge edge);
     // static public UnityEngine.Quaternion GetVertexRotation(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.HandleOrientation orientation, System.Collections.Generic.IEnumerable`1<System.Int32> vertices)
-    // Offset: 0x19407EC
+    // Offset: 0x16E6C10
     static UnityEngine::Quaternion GetVertexRotation(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::HandleOrientation orientation, System::Collections::Generic::IEnumerable_1<int>* vertices);
     // static public UnityEngine.Quaternion GetVertexRotation(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32 vertex)
-    // Offset: 0x1940900
+    // Offset: 0x16E6D24
     static UnityEngine::Quaternion GetVertexRotation(UnityEngine::ProBuilder::ProBuilderMesh* mesh, int vertex);
     // static UnityEngine.Vector3 GetActiveElementPosition(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces)
-    // Offset: 0x1940A1C
+    // Offset: 0x16E6E40
     static UnityEngine::Vector3 GetActiveElementPosition(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces);
     // static UnityEngine.Vector3 GetActiveElementPosition(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> edges)
-    // Offset: 0x19412C4
+    // Offset: 0x16E76E8
     static UnityEngine::Vector3 GetActiveElementPosition(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* edges);
     // static UnityEngine.Vector3 GetActiveElementPosition(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<System.Int32> vertices)
-    // Offset: 0x19413D4
+    // Offset: 0x16E77F8
     static UnityEngine::Vector3 GetActiveElementPosition(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<int>* vertices);
   }; // UnityEngine.ProBuilder.HandleUtility
 }

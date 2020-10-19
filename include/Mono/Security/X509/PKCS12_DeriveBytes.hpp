@@ -38,37 +38,37 @@ namespace Mono::Security::X509 {
     // Set static field: static private System.Byte[] macDiversifier
     static void _set_macDiversifier(::Array<uint8_t>* value);
     // public System.Void set_HashName(System.String value)
-    // Offset: 0x21DE5A0
+    // Offset: 0x1F33204
     void set_HashName(::Il2CppString* value);
     // public System.Void set_IterationCount(System.Int32 value)
-    // Offset: 0x21DE5A8
+    // Offset: 0x1F3320C
     void set_IterationCount(int value);
     // public System.Void set_Password(System.Byte[] value)
-    // Offset: 0x21DE5B0
+    // Offset: 0x1F33214
     void set_Password(::Array<uint8_t>* value);
     // public System.Void set_Salt(System.Byte[] value)
-    // Offset: 0x21DE668
+    // Offset: 0x1F332CC
     void set_Salt(::Array<uint8_t>* value);
     // private System.Void Adjust(System.Byte[] a, System.Int32 aOff, System.Byte[] b)
-    // Offset: 0x21DE710
+    // Offset: 0x1F33374
     void Adjust(::Array<uint8_t>* a, int aOff, ::Array<uint8_t>* b);
     // private System.Byte[] Derive(System.Byte[] diversifier, System.Int32 n)
-    // Offset: 0x21DE7F8
+    // Offset: 0x1F3345C
     ::Array<uint8_t>* Derive(::Array<uint8_t>* diversifier, int n);
     // public System.Byte[] DeriveKey(System.Int32 size)
-    // Offset: 0x21DEC44
+    // Offset: 0x1F338A8
     ::Array<uint8_t>* DeriveKey(int size);
     // public System.Byte[] DeriveIV(System.Int32 size)
-    // Offset: 0x21DECC4
+    // Offset: 0x1F33928
     ::Array<uint8_t>* DeriveIV(int size);
     // public System.Byte[] DeriveMAC(System.Int32 size)
-    // Offset: 0x21DED44
+    // Offset: 0x1F339A8
     ::Array<uint8_t>* DeriveMAC(int size);
     // static private System.Void .cctor()
-    // Offset: 0x21DEDC4
+    // Offset: 0x1F33A28
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x21DE598
+    // Offset: 0x1F331FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PKCS12::DeriveBytes* New_ctor();

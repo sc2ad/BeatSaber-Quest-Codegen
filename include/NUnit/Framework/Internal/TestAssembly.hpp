@@ -28,22 +28,22 @@ namespace NUnit::Framework::Internal {
       return Assembly;
     }
     // public System.Void .ctor(System.Reflection.Assembly assembly, System.String path)
-    // Offset: 0x2177BD0
+    // Offset: 0x1ECC834
     static TestAssembly* New_ctor(System::Reflection::Assembly* assembly, ::Il2CppString* path);
     // public System.Reflection.Assembly get_Assembly()
-    // Offset: 0x2177DD0
+    // Offset: 0x1ECCA34
     System::Reflection::Assembly* get_Assembly();
     // private System.Void set_Assembly(System.Reflection.Assembly value)
-    // Offset: 0x2177DD8
+    // Offset: 0x1ECCA3C
     void set_Assembly(System::Reflection::Assembly* value);
     // public System.Void .ctor(System.String path)
-    // Offset: 0x2177D40
+    // Offset: 0x1ECC9A4
     // Implemented from: NUnit.Framework.Internal.TestSuite
     // Base method: System.Void TestSuite::.ctor(System.String path)
     // Base method: System.Void Test::.ctor(System.String path)
     static TestAssembly* New_ctor(::Il2CppString* path);
     // public override System.String get_TestType()
-    // Offset: 0x2177DE0
+    // Offset: 0x1ECCA44
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_TestType()
     ::Il2CppString* get_TestType();

@@ -34,10 +34,10 @@ namespace GlobalNamespace {
       return playerIds;
     }
     // System.Boolean <SaveConnectedPlayersContainedIn>b__0(IConnectedPlayer p)
-    // Offset: 0x1C3F074
+    // Offset: 0x21F920C
     bool $SaveConnectedPlayersContainedIn$b__0(GlobalNamespace::IConnectedPlayer* p);
     // public System.Void .ctor()
-    // Offset: 0x1C3EC70
+    // Offset: 0x21F8E08
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayersAtGameStartModel::$$c__DisplayClass8_0* New_ctor();

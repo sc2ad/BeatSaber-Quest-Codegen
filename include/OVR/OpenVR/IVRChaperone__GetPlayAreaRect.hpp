@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRChaperone::_GetPlayAreaRect : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1384AD8
+    // Offset: 0x115A214
     static IVRChaperone::_GetPlayAreaRect* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(ref OVR.OpenVR.HmdQuad_t rect)
-    // Offset: 0x1379E68
+    // Offset: 0x114F5A4
     bool Invoke(OVR::OpenVR::HmdQuad_t& rect);
     // public System.IAsyncResult BeginInvoke(ref OVR.OpenVR.HmdQuad_t rect, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1384AEC
+    // Offset: 0x115A228
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::HmdQuad_t& rect, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(ref OVR.OpenVR.HmdQuad_t rect, System.IAsyncResult result)
-    // Offset: 0x1384B80
+    // Offset: 0x115A2BC
     bool EndInvoke(OVR::OpenVR::HmdQuad_t& rect, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRChaperone/_GetPlayAreaRect
 }

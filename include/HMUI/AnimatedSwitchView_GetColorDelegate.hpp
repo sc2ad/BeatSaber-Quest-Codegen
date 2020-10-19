@@ -31,16 +31,16 @@ namespace HMUI {
   class AnimatedSwitchView::GetColorDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x11AF82C
+    // Offset: 0x217EC74
     static AnimatedSwitchView::GetColorDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public UnityEngine.Color Invoke(HMUI.AnimatedSwitchView/ColorBlock colorBlock)
-    // Offset: 0x11AFA0C
+    // Offset: 0x217EE54
     UnityEngine::Color Invoke(HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
     // public System.IAsyncResult BeginInvoke(HMUI.AnimatedSwitchView/ColorBlock colorBlock, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x11B00B8
+    // Offset: 0x217F500
     System::IAsyncResult* BeginInvoke(HMUI::AnimatedSwitchView::ColorBlock* colorBlock, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public UnityEngine.Color EndInvoke(System.IAsyncResult result)
-    // Offset: 0x11B00DC
+    // Offset: 0x217F524
     UnityEngine::Color EndInvoke(System::IAsyncResult* result);
   }; // HMUI.AnimatedSwitchView/GetColorDelegate
 }

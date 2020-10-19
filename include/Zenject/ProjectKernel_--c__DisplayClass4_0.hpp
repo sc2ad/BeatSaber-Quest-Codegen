@@ -41,10 +41,10 @@ namespace Zenject {
     // Offset: 0x18
     System::Func_2<Zenject::SceneContext*, int>* $$9__0;
     // System.Int32 <ForceUnloadAllScenes>b__0(Zenject.SceneContext x)
-    // Offset: 0x1517ED8
+    // Offset: 0x12EE700
     int $ForceUnloadAllScenes$b__0(Zenject::SceneContext* x);
     // public System.Void .ctor()
-    // Offset: 0x1517E70
+    // Offset: 0x12EE698
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ProjectKernel::$$c__DisplayClass4_0* New_ctor();

@@ -34,36 +34,36 @@ namespace System::Security::Cryptography::X509Certificates {
       return impl;
     }
     // System.Security.Cryptography.X509Certificates.X509ChainImpl get_Impl()
-    // Offset: 0x16C0468
+    // Offset: 0x147B03C
     System::Security::Cryptography::X509Certificates::X509ChainImpl* get_Impl();
     // public System.Void .ctor(System.Boolean useMachineContext)
-    // Offset: 0x16C0504
+    // Offset: 0x147B0D8
     static X509Chain* New_ctor(bool useMachineContext);
     // public System.Security.Cryptography.X509Certificates.X509ChainElementCollection get_ChainElements()
-    // Offset: 0x16C05A0
+    // Offset: 0x147B174
     System::Security::Cryptography::X509Certificates::X509ChainElementCollection* get_ChainElements();
     // public System.Security.Cryptography.X509Certificates.X509ChainPolicy get_ChainPolicy()
-    // Offset: 0x16C05D8
+    // Offset: 0x147B1AC
     System::Security::Cryptography::X509Certificates::X509ChainPolicy* get_ChainPolicy();
     // public System.Void set_ChainPolicy(System.Security.Cryptography.X509Certificates.X509ChainPolicy value)
-    // Offset: 0x16C0610
+    // Offset: 0x147B1E4
     void set_ChainPolicy(System::Security::Cryptography::X509Certificates::X509ChainPolicy* value);
     // public System.Boolean Build(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x16BF6D8
+    // Offset: 0x147A2AC
     bool Build(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // static public System.Security.Cryptography.X509Certificates.X509Chain Create()
-    // Offset: 0x16BF67C
+    // Offset: 0x147A250
     static System::Security::Cryptography::X509Certificates::X509Chain* Create();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x16C06CC
+    // Offset: 0x147B2A0
     void Dispose(bool disposing);
     // public System.Void .ctor()
-    // Offset: 0x16C04FC
+    // Offset: 0x147B0D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static X509Chain* New_ctor();
     // public System.Void Dispose()
-    // Offset: 0x16C0650
+    // Offset: 0x147B224
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -71,7 +71,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0x16C0788
+    // Offset: 0x147B35C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

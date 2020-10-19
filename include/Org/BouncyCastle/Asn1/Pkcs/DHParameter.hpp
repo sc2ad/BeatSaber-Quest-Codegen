@@ -39,19 +39,19 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Offset: 0x20
     Org::BouncyCastle::Asn1::DerInteger* l;
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1631558
+    // Offset: 0x1407D80
     static DHParameter* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public Org.BouncyCastle.Math.BigInteger get_P()
-    // Offset: 0x1631910
+    // Offset: 0x1408138
     Org::BouncyCastle::Math::BigInteger* get_P();
     // public Org.BouncyCastle.Math.BigInteger get_G()
-    // Offset: 0x163192C
+    // Offset: 0x1408154
     Org::BouncyCastle::Math::BigInteger* get_G();
     // public Org.BouncyCastle.Math.BigInteger get_L()
-    // Offset: 0x1631948
+    // Offset: 0x1408170
     Org::BouncyCastle::Math::BigInteger* get_L();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x163195C
+    // Offset: 0x1408184
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

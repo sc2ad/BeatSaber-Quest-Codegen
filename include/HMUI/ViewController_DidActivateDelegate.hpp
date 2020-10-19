@@ -26,16 +26,16 @@ namespace HMUI {
   class ViewController::DidActivateDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x218DABC
+    // Offset: 0x1EE1720
     static ViewController::DidActivateDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x218C818
+    // Offset: 0x1EE047C
     void Invoke(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.IAsyncResult BeginInvoke(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x218DAD0
+    // Offset: 0x1EE1734
     System::IAsyncResult* BeginInvoke(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x218DB98
+    // Offset: 0x1EE17FC
     void EndInvoke(System::IAsyncResult* result);
   }; // HMUI.ViewController/DidActivateDelegate
 }

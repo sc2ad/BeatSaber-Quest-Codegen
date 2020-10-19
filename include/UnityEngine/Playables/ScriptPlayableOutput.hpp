@@ -38,16 +38,16 @@ namespace UnityEngine::Playables {
       return m_Handle;
     }
     // static public UnityEngine.Playables.ScriptPlayableOutput Create(UnityEngine.Playables.PlayableGraph graph, System.String name)
-    // Offset: 0x1BA054C
+    // Offset: 0x1942740
     static UnityEngine::Playables::ScriptPlayableOutput Create(UnityEngine::Playables::PlayableGraph graph, ::Il2CppString* name);
     // System.Void .ctor(UnityEngine.Playables.PlayableOutputHandle handle)
-    // Offset: 0xDC67FC
+    // Offset: 0xC7BC68
     // ABORTED: conflicts with another method.  ScriptPlayableOutput(UnityEngine::Playables::PlayableOutputHandle handle);
     // static public UnityEngine.Playables.ScriptPlayableOutput get_Null()
-    // Offset: 0x1BA05CC
+    // Offset: 0x19427C0
     static UnityEngine::Playables::ScriptPlayableOutput get_Null();
     // public UnityEngine.Playables.PlayableOutputHandle GetHandle()
-    // Offset: 0xDC6804
+    // Offset: 0xC7BC70
     // Implemented from: UnityEngine.Playables.IPlayableOutput
     // Base method: UnityEngine.Playables.PlayableOutputHandle IPlayableOutput::GetHandle()
     UnityEngine::Playables::PlayableOutputHandle GetHandle();

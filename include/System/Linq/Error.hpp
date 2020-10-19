@@ -19,25 +19,25 @@ namespace System::Linq {
   class Error : public ::Il2CppObject {
     public:
     // static System.Exception ArgumentNull(System.String s)
-    // Offset: 0x21D1748
+    // Offset: 0x1F263AC
     static System::Exception* ArgumentNull(::Il2CppString* s);
     // static System.Exception ArgumentOutOfRange(System.String s)
-    // Offset: 0x21D20A0
+    // Offset: 0x1F26D04
     static System::Exception* ArgumentOutOfRange(::Il2CppString* s);
     // static System.Exception MoreThanOneElement()
-    // Offset: 0x21D2104
+    // Offset: 0x1F26D68
     static System::Exception* MoreThanOneElement();
     // static System.Exception MoreThanOneMatch()
-    // Offset: 0x21D216C
+    // Offset: 0x1F26DD0
     static System::Exception* MoreThanOneMatch();
     // static System.Exception NoElements()
-    // Offset: 0x21D1A84
+    // Offset: 0x1F266E8
     static System::Exception* NoElements();
     // static System.Exception NoMatch()
-    // Offset: 0x21D21D4
+    // Offset: 0x1F26E38
     static System::Exception* NoMatch();
     // static System.Exception NotSupported()
-    // Offset: 0x21D223C
+    // Offset: 0x1F26EA0
     static System::Exception* NotSupported();
   }; // System.Linq.Error
 }

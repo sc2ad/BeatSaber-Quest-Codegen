@@ -27,13 +27,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Array<GlobalNamespace::BeatmapDifficulty>* beatmapDifficulties;
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0xF71E84
+    // Offset: 0x2091B3C
     GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public BeatmapDifficulty[] get_beatmapDifficulties()
-    // Offset: 0xF71E8C
+    // Offset: 0x2091B44
     ::Array<GlobalNamespace::BeatmapDifficulty>* get_beatmapDifficulties();
     // public System.Void .ctor(BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty[] beatmapDifficulties)
-    // Offset: 0xF71E94
+    // Offset: 0x2091B4C
     static PreviewDifficultyBeatmapSet* New_ctor(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::Array<GlobalNamespace::BeatmapDifficulty>* beatmapDifficulties);
   }; // PreviewDifficultyBeatmapSet
 }

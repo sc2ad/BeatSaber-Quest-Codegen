@@ -134,49 +134,49 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kEndFadeLength
     static void _set_kEndFadeLength(float value);
     // public System.Void add_didFinishEvent(System.Action`1<NoteCutSoundEffect> value)
-    // Offset: 0x10A8170
+    // Offset: 0x20F4188
     void add_didFinishEvent(System::Action_1<GlobalNamespace::NoteCutSoundEffect*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<NoteCutSoundEffect> value)
-    // Offset: 0x10A8214
+    // Offset: 0x20F422C
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::NoteCutSoundEffect*>* value);
     // public System.Void set_volumeMultiplier(System.Single value)
-    // Offset: 0x10A82B8
+    // Offset: 0x20F42D0
     void set_volumeMultiplier(float value);
     // public System.Single get_volumeMultiplier()
-    // Offset: 0x10A82C0
+    // Offset: 0x20F42D8
     float get_volumeMultiplier();
     // public System.Single get_time()
-    // Offset: 0x10A82C8
+    // Offset: 0x20F42E0
     float get_time();
     // protected System.Void Awake()
-    // Offset: 0x10A82F0
+    // Offset: 0x20F4308
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x10A8378
+    // Offset: 0x20F4390
     void Start();
     // public System.Void Init(UnityEngine.AudioClip audioClip, NoteController noteController, System.Double noteDSPTime, System.Single aheadTime, System.Single missedTimeOffset, System.Single timeToPrevNote, System.Single timeToNextNote, Saber saber, System.Boolean handleWrongSaberTypeAsGood, System.Single volumeMultiplier, System.Boolean ignoreSaberSpeed, System.Boolean ignoreBadCuts)
-    // Offset: 0x10A8398
+    // Offset: 0x20F43B0
     void Init(UnityEngine::AudioClip* audioClip, GlobalNamespace::NoteController* noteController, double noteDSPTime, float aheadTime, float missedTimeOffset, float timeToPrevNote, float timeToNextNote, GlobalNamespace::Saber* saber, bool handleWrongSaberTypeAsGood, float volumeMultiplier, bool ignoreSaberSpeed, bool ignoreBadCuts);
     // private System.Void ComputeDSPTimes(System.Double noteDSPTime, System.Single aheadTime, System.Single timeToPrevNote, System.Single timeToNextNote)
-    // Offset: 0x10A853C
+    // Offset: 0x20F4554
     void ComputeDSPTimes(double noteDSPTime, float aheadTime, float timeToPrevNote, float timeToNextNote);
     // protected System.Void LateUpdate()
-    // Offset: 0x10A862C
+    // Offset: 0x20F4644
     void LateUpdate();
     // public System.Void StopPlayingAndFinish()
-    // Offset: 0x10A8860
+    // Offset: 0x20F4878
     void StopPlayingAndFinish();
     // public System.Void PausePlaying()
-    // Offset: 0x10A88EC
+    // Offset: 0x20F4904
     void PausePlaying();
     // public System.Void ResumePlaying(System.Double noteDSPTime)
-    // Offset: 0x10A8940
+    // Offset: 0x20F4958
     void ResumePlaying(double noteDSPTime);
     // public System.Void NoteWasCut(NoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0x10A89B0
+    // Offset: 0x20F49C8
     void NoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // public System.Void .ctor()
-    // Offset: 0x10A8C00
+    // Offset: 0x20F4C18
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

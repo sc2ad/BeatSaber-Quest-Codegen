@@ -36,36 +36,36 @@ namespace System::Net::Http::Headers {
     // Offset: 0x18
     System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>* parameters;
     // protected System.Void .ctor(System.Net.Http.Headers.ContentDispositionHeaderValue source)
-    // Offset: 0x139EF30
+    // Offset: 0x117466C
     static ContentDispositionHeaderValue* New_ctor(System::Net::Http::Headers::ContentDispositionHeaderValue* source);
     // public System.Collections.Generic.ICollection`1<System.Net.Http.Headers.NameValueHeaderValue> get_Parameters()
-    // Offset: 0x139F130
+    // Offset: 0x117486C
     System::Collections::Generic::ICollection_1<System::Net::Http::Headers::NameValueHeaderValue*>* get_Parameters();
     // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.ContentDispositionHeaderValue parsedValue)
-    // Offset: 0x139F410
+    // Offset: 0x1174B4C
     static bool TryParse(::Il2CppString* input, System::Net::Http::Headers::ContentDispositionHeaderValue*& parsedValue);
     // private System.Void .ctor()
-    // Offset: 0x139EF28
+    // Offset: 0x1174664
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ContentDispositionHeaderValue* New_ctor();
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x139F1FC
+    // Offset: 0x1174938
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* System_ICloneable_Clone();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x139F25C
+    // Offset: 0x1174998
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x139F32C
+    // Offset: 0x1174A68
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x139F3B0
+    // Offset: 0x1174AEC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

@@ -36,17 +36,17 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public override UnityEngine.Vector3 get_positionOffset()
-    // Offset: 0x12EEA00
+    // Offset: 0x21EB7AC
     // Implemented from: VRControllerTransformOffset
     // Base method: UnityEngine.Vector3 VRControllerTransformOffset::get_positionOffset()
     UnityEngine::Vector3 get_positionOffset();
     // public override UnityEngine.Vector3 get_rotationOffset()
-    // Offset: 0x12EEA64
+    // Offset: 0x21EB810
     // Implemented from: VRControllerTransformOffset
     // Base method: UnityEngine.Vector3 VRControllerTransformOffset::get_rotationOffset()
     UnityEngine::Vector3 get_rotationOffset();
     // public System.Void .ctor()
-    // Offset: 0x12EEAC8
+    // Offset: 0x21EB874
     // Implemented from: VRControllerTransformOffset
     // Base method: System.Void VRControllerTransformOffset::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

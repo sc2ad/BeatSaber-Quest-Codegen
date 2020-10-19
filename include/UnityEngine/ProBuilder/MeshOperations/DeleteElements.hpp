@@ -39,22 +39,22 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Nested type: UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c
     class $$c;
     // static public System.Void DeleteVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<System.Int32> distinctIndexes)
-    // Offset: 0x13F2274
+    // Offset: 0x11C79B0
     static void DeleteVertices(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<int>* distinctIndexes);
     // static public System.Int32[] DeleteFace(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face face)
-    // Offset: 0x13F26E4
+    // Offset: 0x11C7E20
     static ::Array<int>* DeleteFace(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Face* face);
     // static public System.Int32[] DeleteFaces(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces)
-    // Offset: 0x13EA740
+    // Offset: 0x11BFE7C
     static ::Array<int>* DeleteFaces(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces);
     // static public System.Int32[] DeleteFaces(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IList`1<System.Int32> faceIndexes)
-    // Offset: 0x13F27A8
+    // Offset: 0x11C7EE4
     static ::Array<int>* DeleteFaces(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IList_1<int>* faceIndexes);
     // static public System.Int32[] RemoveDegenerateTriangles(UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x13F2D2C
+    // Offset: 0x11C8468
     static ::Array<int>* RemoveDegenerateTriangles(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // static public System.Int32[] RemoveUnusedVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x13F2DB8
+    // Offset: 0x11C84F4
     static ::Array<int>* RemoveUnusedVertices(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
   }; // UnityEngine.ProBuilder.MeshOperations.DeleteElements
 }

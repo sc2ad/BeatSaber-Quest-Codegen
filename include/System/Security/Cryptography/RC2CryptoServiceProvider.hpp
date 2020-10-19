@@ -32,39 +32,39 @@ namespace System::Security::Cryptography {
     // Set static field: static private System.Security.Cryptography.KeySizes[] s_legalKeySizes
     static void _set_s_legalKeySizes(::Array<System::Security::Cryptography::KeySizes*>* value);
     // public System.Void .ctor()
-    // Offset: 0x19D3C54
+    // Offset: 0x177A078
     // Implemented from: System.Security.Cryptography.RC2
     // Base method: System.Void RC2::.ctor()
     // Base method: System.Void SymmetricAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()
     static RC2CryptoServiceProvider* New_ctor();
     // public override System.Int32 get_EffectiveKeySize()
-    // Offset: 0x19D3F24
+    // Offset: 0x177A348
     // Implemented from: System.Security.Cryptography.RC2
     // Base method: System.Int32 RC2::get_EffectiveKeySize()
     int get_EffectiveKeySize();
     // public override System.Security.Cryptography.ICryptoTransform CreateEncryptor(System.Byte[] rgbKey, System.Byte[] rgbIV)
-    // Offset: 0x19D3F2C
+    // Offset: 0x177A350
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Security.Cryptography.ICryptoTransform SymmetricAlgorithm::CreateEncryptor(System.Byte[] rgbKey, System.Byte[] rgbIV)
     System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::Array<uint8_t>* rgbKey, ::Array<uint8_t>* rgbIV);
     // public override System.Security.Cryptography.ICryptoTransform CreateDecryptor(System.Byte[] rgbKey, System.Byte[] rgbIV)
-    // Offset: 0x19D45B0
+    // Offset: 0x177A9D4
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Security.Cryptography.ICryptoTransform SymmetricAlgorithm::CreateDecryptor(System.Byte[] rgbKey, System.Byte[] rgbIV)
     System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::Array<uint8_t>* rgbKey, ::Array<uint8_t>* rgbIV);
     // public override System.Void GenerateKey()
-    // Offset: 0x19D4670
+    // Offset: 0x177AA94
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::GenerateKey()
     void GenerateKey();
     // public override System.Void GenerateIV()
-    // Offset: 0x19D4704
+    // Offset: 0x177AB28
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::GenerateIV()
     void GenerateIV();
     // static private System.Void .cctor()
-    // Offset: 0x19D4784
+    // Offset: 0x177ABA8
     // Implemented from: System.Security.Cryptography.RC2
     // Base method: System.Void RC2::.cctor()
     static void _cctor();

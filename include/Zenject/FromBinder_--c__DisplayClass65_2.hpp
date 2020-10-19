@@ -33,10 +33,10 @@ namespace Zenject {
       return ctx;
     }
     // System.Boolean <FromComponentInHierarchy>b__3(UnityEngine.Component x)
-    // Offset: 0x1451584
+    // Offset: 0x1227CC0
     bool $FromComponentInHierarchy$b__3(UnityEngine::Component* x);
     // public System.Void .ctor()
-    // Offset: 0x1451548
+    // Offset: 0x1227C84
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FromBinder::$$c__DisplayClass65_2* New_ctor();

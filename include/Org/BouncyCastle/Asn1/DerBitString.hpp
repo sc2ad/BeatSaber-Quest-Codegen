@@ -34,49 +34,49 @@ namespace Org::BouncyCastle::Asn1 {
     // Set static field: static private readonly System.Char[] table
     static void _set_table(::Array<::Il2CppChar>* value);
     // static public Org.BouncyCastle.Asn1.DerBitString GetInstance(System.Object obj)
-    // Offset: 0x1549D34
+    // Offset: 0x132155C
     static Org::BouncyCastle::Asn1::DerBitString* GetInstance(::Il2CppObject* obj);
     // static public Org.BouncyCastle.Asn1.DerBitString GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean isExplicit)
-    // Offset: 0x1549F44
+    // Offset: 0x132176C
     static Org::BouncyCastle::Asn1::DerBitString* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
     // public System.Void .ctor(System.Byte[] data, System.Int32 padBits)
-    // Offset: 0x1542AD4
+    // Offset: 0x131A2FC
     static DerBitString* New_ctor(::Array<uint8_t>* data, int padBits);
     // public System.Void .ctor(System.Byte[] data)
-    // Offset: 0x154A0BC
+    // Offset: 0x13218E4
     static DerBitString* New_ctor(::Array<uint8_t>* data);
     // public System.Byte[] GetOctets()
-    // Offset: 0x154A0C4
+    // Offset: 0x13218EC
     ::Array<uint8_t>* GetOctets();
     // public System.Byte[] GetBytes()
-    // Offset: 0x154A174
+    // Offset: 0x132199C
     ::Array<uint8_t>* GetBytes();
     // public System.Int32 get_PadBits()
-    // Offset: 0x154A22C
+    // Offset: 0x1321A54
     int get_PadBits();
     // static Org.BouncyCastle.Asn1.DerBitString FromAsn1Octets(System.Byte[] octets)
-    // Offset: 0x153E24C
+    // Offset: 0x1315A74
     static Org::BouncyCastle::Asn1::DerBitString* FromAsn1Octets(::Array<uint8_t>* octets);
     // static private System.Void .cctor()
-    // Offset: 0x154A580
+    // Offset: 0x1321DA8
     static void _cctor();
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x1542D88
+    // Offset: 0x131A5B0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x154A294
+    // Offset: 0x1321ABC
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.Int32 DerStringBase::Asn1GetHashCode()
     int Asn1GetHashCode();
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x154A32C
+    // Offset: 0x1321B54
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // public override System.String GetString()
-    // Offset: 0x154A414
+    // Offset: 0x1321C3C
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::GetString()
     ::Il2CppString* GetString();

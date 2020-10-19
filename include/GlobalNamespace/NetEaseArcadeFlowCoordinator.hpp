@@ -80,72 +80,72 @@ namespace GlobalNamespace {
     // Offset: 0x150
     GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper;
     // private System.Void ProcessScore(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap, GameplayModifiers gameplayModifiers, System.Boolean practice)
-    // Offset: 0xF097BC
+    // Offset: 0x1FDE670
     void ProcessScore(GlobalNamespace::LevelCompletionResults* levelCompletionResults, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::GameplayModifiers* gameplayModifiers, bool practice);
     // private System.Void AddScoreToLeaderboards(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap, GameplayModifiers gameplayModifiers, System.Boolean practice)
-    // Offset: 0xF09998
+    // Offset: 0x1FDE84C
     void AddScoreToLeaderboards(GlobalNamespace::LevelCompletionResults* levelCompletionResults, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::GameplayModifiers* gameplayModifiers, bool practice);
     // private System.Void LogoutAsync()
-    // Offset: 0xF09C00
+    // Offset: 0x1FDEAB4
     void LogoutAsync();
     // private System.Void HandleHowToPlayViewControllerDidFinish(HowToPlayViewController/HowToPlayOptions howToPlayOptions)
-    // Offset: 0xF09CDC
+    // Offset: 0x1FDEB90
     void HandleHowToPlayViewControllerDidFinish(GlobalNamespace::HowToPlayViewController::HowToPlayOptions howToPlayOptions);
     // private System.Void HandleHowToPlayTabSelected()
-    // Offset: 0xF09D04
+    // Offset: 0x1FDEBB8
     void HandleHowToPlayTabSelected();
     // private System.Void HandleLogoutTabWasSelected()
-    // Offset: 0xF09DB4
+    // Offset: 0x1FDEC68
     void HandleLogoutTabWasSelected();
     // private System.Void HandleResultsViewControllerContinueButtonPressed(ResultsViewController viewController)
-    // Offset: 0xF09DB8
+    // Offset: 0x1FDEC6C
     void HandleResultsViewControllerContinueButtonPressed(GlobalNamespace::ResultsViewController* viewController);
     // private System.Void HandleResultsViewControllerRestartButtonPressed(ResultsViewController resultsViewController)
-    // Offset: 0xF09E00
+    // Offset: 0x1FDECB4
     void HandleResultsViewControllerRestartButtonPressed(GlobalNamespace::ResultsViewController* resultsViewController);
     // private System.Void <SinglePlayerLevelSelectionFlowCoordinatorDidActivate>b__17_0()
-    // Offset: 0xF09EE8
+    // Offset: 0x1FDED9C
     void $SinglePlayerLevelSelectionFlowCoordinatorDidActivate$b__17_0();
     // private System.Void <HandleHowToPlayTabSelected>b__24_0()
-    // Offset: 0xF09EF8
+    // Offset: 0x1FDEDAC
     void $HandleHowToPlayTabSelected$b__24_0();
     // protected override System.String get_gameMode()
-    // Offset: 0xF090F4
+    // Offset: 0x1FDDFA8
     // Implemented from: SinglePlayerLevelSelectionFlowCoordinator
     // Base method: System.String SinglePlayerLevelSelectionFlowCoordinator::get_gameMode()
     ::Il2CppString* get_gameMode();
     // protected override LeaderboardViewController get_leaderboardViewController()
-    // Offset: 0xF0913C
+    // Offset: 0x1FDDFF0
     // Implemented from: SinglePlayerLevelSelectionFlowCoordinator
     // Base method: LeaderboardViewController SinglePlayerLevelSelectionFlowCoordinator::get_leaderboardViewController()
     GlobalNamespace::LeaderboardViewController* get_leaderboardViewController();
     // protected override HMUI.ViewController get_initialTopScreenViewController()
-    // Offset: 0xF0917C
+    // Offset: 0x1FDE030
     // Implemented from: SinglePlayerLevelSelectionFlowCoordinator
     // Base method: HMUI.ViewController SinglePlayerLevelSelectionFlowCoordinator::get_initialTopScreenViewController()
     HMUI::ViewController* get_initialTopScreenViewController();
     // protected override System.Boolean get_showPlayerStatsInDetailView()
-    // Offset: 0xF09184
+    // Offset: 0x1FDE038
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.Boolean LevelSelectionFlowCoordinator::get_showPlayerStatsInDetailView()
     bool get_showPlayerStatsInDetailView();
     // protected override System.Void SinglePlayerLevelSelectionFlowCoordinatorDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
-    // Offset: 0xF0918C
+    // Offset: 0x1FDE040
     // Implemented from: SinglePlayerLevelSelectionFlowCoordinator
     // Base method: System.Void SinglePlayerLevelSelectionFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
     void SinglePlayerLevelSelectionFlowCoordinatorDidActivate(bool firstActivation, bool addedToHierarchy);
     // protected override System.Void SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate(System.Boolean removedFromHierarchy)
-    // Offset: 0xF0951C
+    // Offset: 0x1FDE3D0
     // Implemented from: SinglePlayerLevelSelectionFlowCoordinator
     // Base method: System.Void SinglePlayerLevelSelectionFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate(System.Boolean removedFromHierarchy)
     void SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate(bool removedFromHierarchy);
     // protected override System.Void ProcessLevelCompletionResultsAfterLevelDidFinish(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap, GameplayModifiers gameplayModifiers, System.Boolean practice)
-    // Offset: 0xF09704
+    // Offset: 0x1FDE5B8
     // Implemented from: SinglePlayerLevelSelectionFlowCoordinator
     // Base method: System.Void SinglePlayerLevelSelectionFlowCoordinator::ProcessLevelCompletionResultsAfterLevelDidFinish(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap, GameplayModifiers gameplayModifiers, System.Boolean practice)
     void ProcessLevelCompletionResultsAfterLevelDidFinish(GlobalNamespace::LevelCompletionResults* levelCompletionResults, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::GameplayModifiers* gameplayModifiers, bool practice);
     // public System.Void .ctor()
-    // Offset: 0xF09EE0
+    // Offset: 0x1FDED94
     // Implemented from: SinglePlayerLevelSelectionFlowCoordinator
     // Base method: System.Void SinglePlayerLevelSelectionFlowCoordinator::.ctor()
     // Base method: System.Void LevelSelectionFlowCoordinator::.ctor()

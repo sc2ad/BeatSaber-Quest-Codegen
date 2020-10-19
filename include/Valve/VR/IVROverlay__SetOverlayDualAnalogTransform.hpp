@@ -33,16 +33,16 @@ namespace Valve::VR {
   class IVROverlay::_SetOverlayDualAnalogTransform : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1E43830
+    // Offset: 0x1B96494
     static IVROverlay::_SetOverlayDualAnalogTransform* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlay, Valve.VR.EDualAnalogWhich eWhich, System.IntPtr vCenter, System.Single fRadius)
-    // Offset: 0x1E43844
+    // Offset: 0x1B964A8
     Valve::VR::EVROverlayError Invoke(uint64_t ulOverlay, Valve::VR::EDualAnalogWhich eWhich, System::IntPtr vCenter, float fRadius);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlay, Valve.VR.EDualAnalogWhich eWhich, System.IntPtr vCenter, System.Single fRadius, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1E43AFC
+    // Offset: 0x1B96760
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlay, Valve::VR::EDualAnalogWhich eWhich, System::IntPtr vCenter, float fRadius, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1E43BE8
+    // Offset: 0x1B9684C
     Valve::VR::EVROverlayError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_SetOverlayDualAnalogTransform
 }

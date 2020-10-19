@@ -183,115 +183,115 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kAutoRefreshRate
     static void _set_kAutoRefreshRate(float value);
     // protected OculusConnectionManager get_oculusConnectionManager()
-    // Offset: 0x1003028
+    // Offset: 0x2104BA8
     GlobalNamespace::OculusConnectionManager* get_oculusConnectionManager();
     // private OculusNetworkPlayerModel/OculusNetworkPlayer GetPlayer(System.UInt64 id)
-    // Offset: 0x10033AC
+    // Offset: 0x2104F2C
     GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer* GetPlayer(uint64_t id);
     // private OculusNetworkPlayerModel/OculusNetworkPlayer GetPlayer(System.String userId)
-    // Offset: 0x10034DC
+    // Offset: 0x210505C
     GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer* GetPlayer(::Il2CppString* userId);
     // private System.Void TryCreateRoom()
-    // Offset: 0x100361C
+    // Offset: 0x210519C
     void TryCreateRoom();
     // public System.String GetUserName(System.UInt64 id)
-    // Offset: 0x1003840
+    // Offset: 0x2103030
     ::Il2CppString* GetUserName(uint64_t id);
     // private System.Threading.Tasks.Task`1<System.String> GetUserNameAsync(System.UInt64 id)
-    // Offset: 0x100385C
+    // Offset: 0x21053C0
     System::Threading::Tasks::Task_1<::Il2CppString*>* GetUserNameAsync(uint64_t id);
     // private System.Void HandleRoomInviteReceived(Oculus.Platform.Message`1<Oculus.Platform.Models.RoomInviteNotification> message)
-    // Offset: 0x100397C
+    // Offset: 0x21054E0
     void HandleRoomInviteReceived(Oculus::Platform::Message_1<Oculus::Platform::Models::RoomInviteNotification*>* message);
     // private System.Void HandleRoomInviteAccepted(Oculus.Platform.Message`1<System.String> message)
-    // Offset: 0x1003A68
+    // Offset: 0x21055CC
     void HandleRoomInviteAccepted(Oculus::Platform::Message_1<::Il2CppString*>* message);
     // private System.Void HandleRoomUpdate(Oculus.Platform.Message`1<Oculus.Platform.Models.Room> message)
-    // Offset: 0x1003A6C
+    // Offset: 0x21055D0
     void HandleRoomUpdate(Oculus::Platform::Message_1<Oculus::Platform::Models::Room*>* message);
     // private System.Void HandlePlayersChanged()
-    // Offset: 0x1003F10
+    // Offset: 0x2105A78
     void HandlePlayersChanged();
     // public System.Void Refresh()
-    // Offset: 0x10031D0
+    // Offset: 0x2104D50
     void Refresh();
     // private System.Void UpdateRoomDataStore()
-    // Offset: 0x1004778
+    // Offset: 0x21061E4
     void UpdateRoomDataStore();
     // private System.Void TryLeaveRoom()
-    // Offset: 0x10041D8
+    // Offset: 0x2105C44
     void TryLeaveRoom();
     // private System.Void TryConnectToServer()
-    // Offset: 0x10040A4
+    // Offset: 0x2105B10
     void TryConnectToServer();
     // public System.Threading.Tasks.Task`1<System.Boolean> ShouldAcceptConnectionFromPlayer(System.UInt64 userId)
-    // Offset: 0x10047A0
+    // Offset: 0x2103560
     System::Threading::Tasks::Task_1<bool>* ShouldAcceptConnectionFromPlayer(uint64_t userId);
     // private System.Void <TryCreateRoom>b__43_0(Oculus.Platform.Message`1<Oculus.Platform.Models.Room> result)
-    // Offset: 0x1004A74
+    // Offset: 0x2106300
     void $TryCreateRoom$b__43_0(Oculus::Platform::Message_1<Oculus::Platform::Models::Room*>* result);
     // public override System.Boolean get_localPlayerIsPartyOwner()
-    // Offset: 0x1002BBC
+    // Offset: 0x210475C
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Boolean BaseNetworkPlayerModel::get_localPlayerIsPartyOwner()
     bool get_localPlayerIsPartyOwner();
     // public override INetworkPlayer get_localPlayer()
-    // Offset: 0x1002BF8
+    // Offset: 0x2104778
     // Implemented from: BaseNetworkPlayerModel
     // Base method: INetworkPlayer BaseNetworkPlayerModel::get_localPlayer()
     GlobalNamespace::INetworkPlayer* get_localPlayer();
     // public override System.Int32 get_currentPartySize()
-    // Offset: 0x1002C00
+    // Offset: 0x2104780
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Int32 BaseNetworkPlayerModel::get_currentPartySize()
     int get_currentPartySize();
     // public override System.Void add_partySizeChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x1002C50
+    // Offset: 0x21047D0
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::add_partySizeChangedEvent(System.Action`1<System.Int32> value)
     void add_partySizeChangedEvent(System::Action_1<int>* value);
     // public override System.Void remove_partySizeChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x1002CF4
+    // Offset: 0x2104874
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::remove_partySizeChangedEvent(System.Action`1<System.Int32> value)
     void remove_partySizeChangedEvent(System::Action_1<int>* value);
     // public override System.Void add_partyChangedEvent(System.Action`1<INetworkPlayerModel> value)
-    // Offset: 0x1002D98
+    // Offset: 0x2104918
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::add_partyChangedEvent(System.Action`1<INetworkPlayerModel> value)
     void add_partyChangedEvent(System::Action_1<GlobalNamespace::INetworkPlayerModel*>* value);
     // public override System.Void remove_partyChangedEvent(System.Action`1<INetworkPlayerModel> value)
-    // Offset: 0x1002E3C
+    // Offset: 0x21049BC
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::remove_partyChangedEvent(System.Action`1<INetworkPlayerModel> value)
     void remove_partyChangedEvent(System::Action_1<GlobalNamespace::INetworkPlayerModel*>* value);
     // public override System.Void add_inviteRequestedEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0x1002EE0
+    // Offset: 0x2104A60
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::add_inviteRequestedEvent(System.Action`1<INetworkPlayer> value)
     void add_inviteRequestedEvent(System::Action_1<GlobalNamespace::INetworkPlayer*>* value);
     // public override System.Void remove_inviteRequestedEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0x1002F84
+    // Offset: 0x2104B04
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::remove_inviteRequestedEvent(System.Action`1<INetworkPlayer> value)
     void remove_inviteRequestedEvent(System::Action_1<GlobalNamespace::INetworkPlayer*>* value);
     // protected override System.Void Start()
-    // Offset: 0x1003080
+    // Offset: 0x2104C00
     // Implemented from: StandaloneMonobehavior
     // Base method: System.Void StandaloneMonobehavior::Start()
     void Start();
     // protected override System.Void Update()
-    // Offset: 0x100315C
+    // Offset: 0x2104CDC
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::Update()
     void Update();
     // protected override System.Collections.Generic.IEnumerable`1<INetworkPlayer> GetPartyPlayers()
-    // Offset: 0x100339C
+    // Offset: 0x2104F1C
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Collections.Generic.IEnumerable`1<INetworkPlayer> BaseNetworkPlayerModel::GetPartyPlayers()
     System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* GetPartyPlayers();
     // protected override System.Collections.Generic.IEnumerable`1<INetworkPlayer> GetOtherPlayers()
-    // Offset: 0x10033A4
+    // Offset: 0x2104F24
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Collections.Generic.IEnumerable`1<INetworkPlayer> BaseNetworkPlayerModel::GetOtherPlayers()
     System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* GetOtherPlayers();
@@ -305,37 +305,37 @@ namespace GlobalNamespace {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>(this, "CreateParty", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, createConfig)));
     }
     // public override System.Void DestroyParty()
-    // Offset: 0x1004178
+    // Offset: 0x2105BE4
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::DestroyParty()
     void DestroyParty();
     // public override System.Void Disconnect()
-    // Offset: 0x10041B0
+    // Offset: 0x2105C1C
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::Disconnect()
     void Disconnect();
     // protected override System.Void ConnectionFailed(ConnectionFailedReason reason)
-    // Offset: 0x100438C
+    // Offset: 0x2105DF8
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::ConnectionFailed(ConnectionFailedReason reason)
     void ConnectionFailed(GlobalNamespace::ConnectionFailedReason reason);
     // protected override System.Void PlayerConnected(IConnectedPlayer connectedPlayer)
-    // Offset: 0x100439C
+    // Offset: 0x2105E08
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::PlayerConnected(IConnectedPlayer connectedPlayer)
     void PlayerConnected(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // protected override System.Void PlayerDisconnected(IConnectedPlayer connectedPlayer)
-    // Offset: 0x10045EC
+    // Offset: 0x2106058
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::PlayerDisconnected(IConnectedPlayer connectedPlayer)
     void PlayerDisconnected(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // protected override System.Void PartySizeChanged(System.Int32 currentPartySize)
-    // Offset: 0x10046D0
+    // Offset: 0x210613C
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::PartySizeChanged(System.Int32 currentPartySize)
     void PartySizeChanged(int currentPartySize);
     // public System.Void .ctor()
-    // Offset: 0x1004988
+    // Offset: 0x2106214
     // Implemented from: PlatformNetworkPlayerModel
     // Base method: System.Void PlatformNetworkPlayerModel::.ctor()
     // Base method: System.Void BaseNetworkPlayerModel::.ctor()

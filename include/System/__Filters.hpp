@@ -23,19 +23,19 @@ namespace System {
     // Set static field: static readonly System.__Filters Instance
     static void _set_Instance(System::__Filters* value);
     // System.Boolean FilterAttribute(System.Reflection.MemberInfo m, System.Object filterCriteria)
-    // Offset: 0x2200994
+    // Offset: 0x1F513A4
     bool FilterAttribute(System::Reflection::MemberInfo* m, ::Il2CppObject* filterCriteria);
     // System.Boolean FilterName(System.Reflection.MemberInfo m, System.Object filterCriteria)
-    // Offset: 0x2200CEC
+    // Offset: 0x1F516FC
     bool FilterName(System::Reflection::MemberInfo* m, ::Il2CppObject* filterCriteria);
     // System.Boolean FilterIgnoreCase(System.Reflection.MemberInfo m, System.Object filterCriteria)
-    // Offset: 0x2200E84
+    // Offset: 0x1F51894
     bool FilterIgnoreCase(System::Reflection::MemberInfo* m, ::Il2CppObject* filterCriteria);
     // static private System.Void .cctor()
-    // Offset: 0x2201034
+    // Offset: 0x1F51A44
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x220102C
+    // Offset: 0x1F51A3C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static __Filters* New_ctor();

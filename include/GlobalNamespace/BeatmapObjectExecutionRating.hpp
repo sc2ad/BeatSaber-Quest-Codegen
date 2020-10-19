@@ -59,19 +59,19 @@ namespace GlobalNamespace {
     // Offset: 0x14
     float time;
     // public BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType get_beatmapObjectRatingType()
-    // Offset: 0x105B654
+    // Offset: 0x20D60D4
     GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType get_beatmapObjectRatingType();
     // public System.Void set_beatmapObjectRatingType(BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType value)
-    // Offset: 0x105B65C
+    // Offset: 0x20D60DC
     void set_beatmapObjectRatingType(GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType value);
     // public System.Single get_time()
-    // Offset: 0x105B664
+    // Offset: 0x20D60E4
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0x105B66C
+    // Offset: 0x20D60EC
     void set_time(float value);
     // public System.Void .ctor()
-    // Offset: 0x105B674
+    // Offset: 0x20D60F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BeatmapObjectExecutionRating* New_ctor();

@@ -36,16 +36,16 @@ namespace OVR::OpenVR {
   class IVRRenderModels::_GetRenderModelOriginalPath : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F3665C
+    // Offset: 0x1C882C0
     static IVRRenderModels::_GetRenderModelOriginalPath* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.String pchRenderModelName, System.Text.StringBuilder pchOriginalPath, System.UInt32 unOriginalPathLen, ref OVR.OpenVR.EVRRenderModelError peError)
-    // Offset: 0x1F36670
+    // Offset: 0x1C882D4
     uint Invoke(::Il2CppString* pchRenderModelName, System::Text::StringBuilder* pchOriginalPath, uint unOriginalPathLen, OVR::OpenVR::EVRRenderModelError& peError);
     // public System.IAsyncResult BeginInvoke(System.String pchRenderModelName, System.Text.StringBuilder pchOriginalPath, System.UInt32 unOriginalPathLen, ref OVR.OpenVR.EVRRenderModelError peError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F36AC4
+    // Offset: 0x1C88728
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchRenderModelName, System::Text::StringBuilder* pchOriginalPath, uint unOriginalPathLen, OVR::OpenVR::EVRRenderModelError& peError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(ref OVR.OpenVR.EVRRenderModelError peError, System.IAsyncResult result)
-    // Offset: 0x1F36B8C
+    // Offset: 0x1C887F0
     uint EndInvoke(OVR::OpenVR::EVRRenderModelError& peError, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRRenderModels/_GetRenderModelOriginalPath
 }

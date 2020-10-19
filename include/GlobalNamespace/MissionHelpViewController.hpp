@@ -46,27 +46,27 @@ namespace GlobalNamespace {
     // Offset: 0x88
     GlobalNamespace::MissionHelpSO* missionHelp;
     // public System.Void add_didFinishEvent(System.Action`1<MissionHelpViewController> value)
-    // Offset: 0xEDCE70
+    // Offset: 0x1FC6A38
     void add_didFinishEvent(System::Action_1<GlobalNamespace::MissionHelpViewController*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<MissionHelpViewController> value)
-    // Offset: 0xEDCF14
+    // Offset: 0x1FC6ADC
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::MissionHelpViewController*>* value);
     // public System.Void Setup(MissionHelpSO missionHelp)
-    // Offset: 0xEDCFB8
+    // Offset: 0x1FC6B80
     void Setup(GlobalNamespace::MissionHelpSO* missionHelp);
     // public System.Void RefreshContent()
-    // Offset: 0xEDCFFC
+    // Offset: 0x1FC6BC4
     void RefreshContent();
     // private System.Void OkButtonPressed()
-    // Offset: 0xEDD190
+    // Offset: 0x1FC6D58
     void OkButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xEDD0EC
+    // Offset: 0x1FC6CB4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xEDD1F4
+    // Offset: 0x1FC6DBC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -21,10 +21,10 @@ namespace NUnit::Framework {
   class Is : public ::Il2CppObject {
     public:
     // static public NUnit.Framework.Constraints.TrueConstraint get_True()
-    // Offset: 0x2180F04
+    // Offset: 0x1ED5B68
     static NUnit::Framework::Constraints::TrueConstraint* get_True();
     // static public NUnit.Framework.Constraints.EqualConstraint EqualTo(System.Object expected)
-    // Offset: 0x2180F60
+    // Offset: 0x1ED5BC4
     static NUnit::Framework::Constraints::EqualConstraint* EqualTo(::Il2CppObject* expected);
   }; // NUnit.Framework.Is
 }

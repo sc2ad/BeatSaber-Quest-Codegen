@@ -19,28 +19,28 @@ namespace Org::BouncyCastle::Math::Raw {
   class Nat320 : public ::Il2CppObject {
     public:
     // static public System.Void Copy64(System.UInt64[] x, System.UInt64[] z)
-    // Offset: 0x11A10D0
+    // Offset: 0xFB3E9C
     static void Copy64(::Array<uint64_t>* x, ::Array<uint64_t>* z);
     // static public System.Void Copy64(System.UInt64[] x, System.Int32 xOff, System.UInt64[] z, System.Int32 zOff)
-    // Offset: 0x11A1180
+    // Offset: 0xFB3F4C
     static void Copy64(::Array<uint64_t>* x, int xOff, ::Array<uint64_t>* z, int zOff);
     // static public System.UInt64[] Create64()
-    // Offset: 0x11A1290
+    // Offset: 0xFB405C
     static ::Array<uint64_t>* Create64();
     // static public System.UInt64[] CreateExt64()
-    // Offset: 0x11A12DC
+    // Offset: 0xFB40A8
     static ::Array<uint64_t>* CreateExt64();
     // static public System.Boolean Eq64(System.UInt64[] x, System.UInt64[] y)
-    // Offset: 0x11A1328
+    // Offset: 0xFB40F4
     static bool Eq64(::Array<uint64_t>* x, ::Array<uint64_t>* y);
     // static public System.Boolean IsOne64(System.UInt64[] x)
-    // Offset: 0x11A1398
+    // Offset: 0xFB4164
     static bool IsOne64(::Array<uint64_t>* x);
     // static public System.Boolean IsZero64(System.UInt64[] x)
-    // Offset: 0x11A1404
+    // Offset: 0xFB41D0
     static bool IsZero64(::Array<uint64_t>* x);
     // static public Org.BouncyCastle.Math.BigInteger ToBigInteger64(System.UInt64[] x)
-    // Offset: 0x11A1464
+    // Offset: 0xFB4230
     static Org::BouncyCastle::Math::BigInteger* ToBigInteger64(::Array<uint64_t>* x);
   }; // Org.BouncyCastle.Math.Raw.Nat320
 }

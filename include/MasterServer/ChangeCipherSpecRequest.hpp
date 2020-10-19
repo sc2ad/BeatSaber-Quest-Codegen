@@ -24,15 +24,15 @@ namespace MasterServer {
   class ChangeCipherSpecRequest : public GlobalNamespace::BaseMasterServerReliableResponse, public MasterServer::IHandshakeServerToClientMessage {
     public:
     // static public PacketPool`1<MasterServer.ChangeCipherSpecRequest> get_pool()
-    // Offset: 0x10BBCF4
+    // Offset: 0x211D85C
     static GlobalNamespace::PacketPool_1<MasterServer::ChangeCipherSpecRequest*>* get_pool();
     // public override System.Void Release()
-    // Offset: 0x10BBD3C
+    // Offset: 0x211D8A4
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x10BBD98
+    // Offset: 0x211D900
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()

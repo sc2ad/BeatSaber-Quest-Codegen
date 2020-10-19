@@ -23,13 +23,13 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Globalization.NumberFormatInfo _numberFormatInfo
     static void _set__numberFormatInfo(System::Globalization::NumberFormatInfo* value);
     // static private System.Void .cctor()
-    // Offset: 0xEE6B24
+    // Offset: 0x207E090
     static void _cctor();
     // static public System.String Format(System.Int32 score)
-    // Offset: 0xEE6C14
+    // Offset: 0x206F7F8
     static ::Il2CppString* Format(int score);
     // public System.Void .ctor()
-    // Offset: 0xEE6C98
+    // Offset: 0x207E180
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ScoreFormatter* New_ctor();

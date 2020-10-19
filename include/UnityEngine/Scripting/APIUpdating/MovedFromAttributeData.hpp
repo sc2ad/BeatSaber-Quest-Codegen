@@ -39,7 +39,7 @@ namespace UnityEngine::Scripting::APIUpdating {
     // Creating value type constructor for type: MovedFromAttributeData
     constexpr MovedFromAttributeData(::Il2CppString* className_ = {}, ::Il2CppString* nameSpace_ = {}, ::Il2CppString* assembly_ = {}, bool classHasChanged_ = {}, bool nameSpaceHasChanged_ = {}, bool assemblyHasChanged_ = {}, bool autoUdpateAPI_ = {}) noexcept : className{className_}, nameSpace{nameSpace_}, assembly{assembly_}, classHasChanged{classHasChanged_}, nameSpaceHasChanged{nameSpaceHasChanged_}, assemblyHasChanged{assemblyHasChanged_}, autoUdpateAPI{autoUdpateAPI_} {}
     // public System.Void Set(System.Boolean autoUpdateAPI, System.String sourceNamespace, System.String sourceAssembly, System.String sourceClassName)
-    // Offset: 0xDBF128
+    // Offset: 0xC75548
     void Set(bool autoUpdateAPI, ::Il2CppString* sourceNamespace, ::Il2CppString* sourceAssembly, ::Il2CppString* sourceClassName);
   }; // UnityEngine.Scripting.APIUpdating.MovedFromAttributeData
 }

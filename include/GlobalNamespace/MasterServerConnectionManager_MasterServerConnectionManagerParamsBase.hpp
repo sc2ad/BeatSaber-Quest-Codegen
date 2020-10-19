@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     ::Il2CppString* userName;
     // protected System.Void .ctor()
-    // Offset: 0x10CE950
+    // Offset: 0x21304B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MasterServerConnectionManager::MasterServerConnectionManagerParamsBase* New_ctor();

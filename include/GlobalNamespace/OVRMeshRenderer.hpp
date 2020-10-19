@@ -128,43 +128,43 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_IsInitialized()
-    // Offset: 0x13CDFB0
+    // Offset: 0x11A36EC
     bool get_IsInitialized();
     // private System.Void set_IsInitialized(System.Boolean value)
-    // Offset: 0x13CDFB8
+    // Offset: 0x11A36F4
     void set_IsInitialized(bool value);
     // public System.Boolean get_IsDataValid()
-    // Offset: 0x13CDFC4
+    // Offset: 0x11A3700
     bool get_IsDataValid();
     // private System.Void set_IsDataValid(System.Boolean value)
-    // Offset: 0x13CDFCC
+    // Offset: 0x11A3708
     void set_IsDataValid(bool value);
     // public System.Boolean get_IsDataHighConfidence()
-    // Offset: 0x13CDFD8
+    // Offset: 0x11A3714
     bool get_IsDataHighConfidence();
     // private System.Void set_IsDataHighConfidence(System.Boolean value)
-    // Offset: 0x13CDFE0
+    // Offset: 0x11A371C
     void set_IsDataHighConfidence(bool value);
     // public System.Boolean get_ShouldUseSystemGestureMaterial()
-    // Offset: 0x13CDFEC
+    // Offset: 0x11A3728
     bool get_ShouldUseSystemGestureMaterial();
     // private System.Void set_ShouldUseSystemGestureMaterial(System.Boolean value)
-    // Offset: 0x13CDFF4
+    // Offset: 0x11A3730
     void set_ShouldUseSystemGestureMaterial(bool value);
     // private System.Void Awake()
-    // Offset: 0x13CE000
+    // Offset: 0x11A373C
     void Awake();
     // private System.Void Start()
-    // Offset: 0x13CE13C
+    // Offset: 0x11A3878
     void Start();
     // private System.Void Initialize()
-    // Offset: 0x13CE1D0
+    // Offset: 0x11A390C
     void Initialize();
     // private System.Void Update()
-    // Offset: 0x13CE69C
+    // Offset: 0x11A3DD8
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x13CE978
+    // Offset: 0x11A40B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

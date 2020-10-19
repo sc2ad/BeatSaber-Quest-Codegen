@@ -25,37 +25,37 @@ namespace GlobalNamespace {
     // Offset: 0x2E
     bool isInLobby;
     // public System.Boolean get_isActive()
-    // Offset: 0x103436C
+    // Offset: 0x209B254
     // Implemented from: ILobbyPlayerDataModel
     // Base method: System.Boolean ILobbyPlayerDataModel::get_isActive()
     bool get_isActive();
     // public System.Void set_isActive(System.Boolean value)
-    // Offset: 0x1034374
+    // Offset: 0x209B25C
     // Implemented from: ILobbyPlayerDataModel
     // Base method: System.Void ILobbyPlayerDataModel::set_isActive(System.Boolean value)
     void set_isActive(bool value);
     // public System.Boolean get_isReady()
-    // Offset: 0x1034380
+    // Offset: 0x209B268
     // Implemented from: ILobbyPlayerDataModel
     // Base method: System.Boolean ILobbyPlayerDataModel::get_isReady()
     bool get_isReady();
     // public System.Void set_isReady(System.Boolean value)
-    // Offset: 0x1034388
+    // Offset: 0x209B270
     // Implemented from: ILobbyPlayerDataModel
     // Base method: System.Void ILobbyPlayerDataModel::set_isReady(System.Boolean value)
     void set_isReady(bool value);
     // public System.Boolean get_isInLobby()
-    // Offset: 0x1034394
+    // Offset: 0x209B27C
     // Implemented from: ILobbyPlayerDataModel
     // Base method: System.Boolean ILobbyPlayerDataModel::get_isInLobby()
     bool get_isInLobby();
     // public System.Void set_isInLobby(System.Boolean value)
-    // Offset: 0x103439C
+    // Offset: 0x209B284
     // Implemented from: ILobbyPlayerDataModel
     // Base method: System.Void ILobbyPlayerDataModel::set_isInLobby(System.Boolean value)
     void set_isInLobby(bool value);
     // public System.Void .ctor()
-    // Offset: 0x10343A8
+    // Offset: 0x209B290
     // Implemented from: LevelGameplaySetupData
     // Base method: System.Void LevelGameplaySetupData::.ctor()
     // Base method: System.Void Object::.ctor()

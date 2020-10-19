@@ -14,7 +14,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   class PolygonPoint : public UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint {
     public:
     // public System.Void .ctor(System.Double x, System.Double y, System.Int32 index)
-    // Offset: 0x21C84B0
+    // Offset: 0x1F1C114
     // Implemented from: UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint
     // Base method: System.Void TriangulationPoint::.ctor(System.Double x, System.Double y, System.Int32 index)
     static PolygonPoint* New_ctor(double x, double y, int index);

@@ -33,51 +33,51 @@ namespace Oculus::Platform {
       return Handle;
     }
     // public System.Void SetApiName(System.String value)
-    // Offset: 0x136E350
+    // Offset: 0x1143A8C
     void SetApiName(::Il2CppString* value);
     // public System.Void SetArgs(System.String key, System.String value)
-    // Offset: 0x136E3CC
+    // Offset: 0x1143B08
     void SetArgs(::Il2CppString* key, ::Il2CppString* value);
     // public System.Void ClearArgs()
-    // Offset: 0x136E450
+    // Offset: 0x1143B8C
     void ClearArgs();
     // public System.Void SetCurrentCapacity(System.UInt32 value)
-    // Offset: 0x136E4BC
+    // Offset: 0x1143BF8
     void SetCurrentCapacity(uint value);
     // public System.Void SetDeeplinkMessageOverride(System.String value)
-    // Offset: 0x136E538
+    // Offset: 0x1143C74
     void SetDeeplinkMessageOverride(::Il2CppString* value);
     // public System.Void SetEndTime(System.DateTime value)
-    // Offset: 0x136E5B4
+    // Offset: 0x1143CF0
     void SetEndTime(System::DateTime value);
     // public System.Void SetExtraContext(Oculus.Platform.RichPresenceExtraContext value)
-    // Offset: 0x136E630
+    // Offset: 0x1143D6C
     void SetExtraContext(Oculus::Platform::RichPresenceExtraContext value);
     // public System.Void SetIsIdle(System.Boolean value)
-    // Offset: 0x136E6AC
+    // Offset: 0x1143DE8
     void SetIsIdle(bool value);
     // public System.Void SetIsJoinable(System.Boolean value)
-    // Offset: 0x136E728
+    // Offset: 0x1143E64
     void SetIsJoinable(bool value);
     // public System.Void SetJoinableId(System.String value)
-    // Offset: 0x136E7A4
+    // Offset: 0x1143EE0
     void SetJoinableId(::Il2CppString* value);
     // public System.Void SetMaxCapacity(System.UInt32 value)
-    // Offset: 0x136E820
+    // Offset: 0x1143F5C
     void SetMaxCapacity(uint value);
     // public System.Void SetStartTime(System.DateTime value)
-    // Offset: 0x136E89C
+    // Offset: 0x1143FD8
     void SetStartTime(System::DateTime value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.RichPresenceOptions options)
-    // Offset: 0x136E10C
+    // Offset: 0x1143848
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x136E2D8
+    // Offset: 0x1143A14
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static RichPresenceOptions* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x136E918
+    // Offset: 0x1144054
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

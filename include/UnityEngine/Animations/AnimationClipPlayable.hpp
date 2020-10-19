@@ -42,51 +42,51 @@ namespace UnityEngine::Animations {
       return m_Handle;
     }
     // static public UnityEngine.Animations.AnimationClipPlayable Create(UnityEngine.Playables.PlayableGraph graph, UnityEngine.AnimationClip clip)
-    // Offset: 0x21E5B38
+    // Offset: 0x1F3A79C
     static UnityEngine::Animations::AnimationClipPlayable Create(UnityEngine::Playables::PlayableGraph graph, UnityEngine::AnimationClip* clip);
     // static private UnityEngine.Playables.PlayableHandle CreateHandle(UnityEngine.Playables.PlayableGraph graph, UnityEngine.AnimationClip clip)
-    // Offset: 0x21E5B74
+    // Offset: 0x1F3A7D8
     static UnityEngine::Playables::PlayableHandle CreateHandle(UnityEngine::Playables::PlayableGraph graph, UnityEngine::AnimationClip* clip);
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0xDDC94C
+    // Offset: 0xC89FE4
     // ABORTED: conflicts with another method.  AnimationClipPlayable(UnityEngine::Playables::PlayableHandle handle);
     // public System.Void SetApplyFootIK(System.Boolean value)
-    // Offset: 0xDDC968
+    // Offset: 0xC8A000
     void SetApplyFootIK(bool value);
     // System.Void SetRemoveStartOffset(System.Boolean value)
-    // Offset: 0xDDC9B8
+    // Offset: 0xC8A050
     void SetRemoveStartOffset(bool value);
     // System.Void SetOverrideLoopTime(System.Boolean value)
-    // Offset: 0xDDCA08
+    // Offset: 0xC8A0A0
     void SetOverrideLoopTime(bool value);
     // System.Void SetLoopTime(System.Boolean value)
-    // Offset: 0xDDCA58
+    // Offset: 0xC8A0F0
     void SetLoopTime(bool value);
     // static private System.Boolean CreateHandleInternal(UnityEngine.Playables.PlayableGraph graph, UnityEngine.AnimationClip clip, ref UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0x21E5CF4
+    // Offset: 0x1F3A958
     static bool CreateHandleInternal(UnityEngine::Playables::PlayableGraph graph, UnityEngine::AnimationClip* clip, UnityEngine::Playables::PlayableHandle& handle);
     // static private System.Void SetApplyFootIKInternal(ref UnityEngine.Playables.PlayableHandle handle, System.Boolean value)
-    // Offset: 0x21E5E74
+    // Offset: 0x1F3AAD8
     static void SetApplyFootIKInternal(UnityEngine::Playables::PlayableHandle& handle, bool value);
     // static private System.Void SetRemoveStartOffsetInternal(ref UnityEngine.Playables.PlayableHandle handle, System.Boolean value)
-    // Offset: 0x21E5F14
+    // Offset: 0x1F3AB78
     static void SetRemoveStartOffsetInternal(UnityEngine::Playables::PlayableHandle& handle, bool value);
     // static private System.Void SetOverrideLoopTimeInternal(ref UnityEngine.Playables.PlayableHandle handle, System.Boolean value)
-    // Offset: 0x21E5FB4
+    // Offset: 0x1F3AC18
     static void SetOverrideLoopTimeInternal(UnityEngine::Playables::PlayableHandle& handle, bool value);
     // static private System.Void SetLoopTimeInternal(ref UnityEngine.Playables.PlayableHandle handle, System.Boolean value)
-    // Offset: 0x21E6054
+    // Offset: 0x1F3ACB8
     static void SetLoopTimeInternal(UnityEngine::Playables::PlayableHandle& handle, bool value);
     // static private System.Boolean CreateHandleInternal_Injected(ref UnityEngine.Playables.PlayableGraph graph, UnityEngine.AnimationClip clip, ref UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0x21E60A4
+    // Offset: 0x1F3AD08
     static bool CreateHandleInternal_Injected(UnityEngine::Playables::PlayableGraph& graph, UnityEngine::AnimationClip* clip, UnityEngine::Playables::PlayableHandle& handle);
     // public UnityEngine.Playables.PlayableHandle GetHandle()
-    // Offset: 0xDDC954
+    // Offset: 0xC89FEC
     // Implemented from: UnityEngine.Playables.IPlayable
     // Base method: UnityEngine.Playables.PlayableHandle IPlayable::GetHandle()
     UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Animations.AnimationClipPlayable other)
-    // Offset: 0xDDC960
+    // Offset: 0xC89FF8
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Animations.AnimationClipPlayable other)
     bool Equals(UnityEngine::Animations::AnimationClipPlayable other);

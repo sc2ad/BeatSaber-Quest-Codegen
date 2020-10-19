@@ -37,10 +37,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::LevelCompletionResults* levelCompletionResults;
     // System.Void <HandleMainGameSceneDidFinish>b__0(Zenject.DiContainer container)
-    // Offset: 0xEDB51C
+    // Offset: 0x1FC50E4
     void $HandleMainGameSceneDidFinish$b__0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0xEDAD50
+    // Offset: 0x1FC4918
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MenuTransitionsHelper::$$c__DisplayClass22_0* New_ctor();

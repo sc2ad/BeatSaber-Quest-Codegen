@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_CloseMessageOverlay : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1D66F08
+    // Offset: 0x1AB8B6C
     static IVROverlay::_CloseMessageOverlay* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x1D66F1C
+    // Offset: 0x1AB8B80
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1D67128
+    // Offset: 0x1AB8D8C
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1D67154
+    // Offset: 0x1AB8DB8
     void EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_CloseMessageOverlay
 }

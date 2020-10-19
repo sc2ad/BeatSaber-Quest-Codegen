@@ -24,19 +24,19 @@ namespace GlobalNamespace {
     // Offset: 0x24
     int length;
     // public System.Single get_currentAverage()
-    // Offset: 0x1C40604
+    // Offset: 0x21FA79C
     float get_currentAverage();
     // public System.Boolean get_hasValue()
-    // Offset: 0x1C4060C
+    // Offset: 0x21FA7A4
     bool get_hasValue();
     // public System.Void .ctor(System.Int32 window)
-    // Offset: 0x1C4061C
+    // Offset: 0x21FA7B4
     static RollingAverage* New_ctor(int window);
     // public System.Void Update(System.Single value)
-    // Offset: 0x1C40694
+    // Offset: 0x21FA82C
     void Update(float value);
     // public System.Void Reset()
-    // Offset: 0x1C407C0
+    // Offset: 0x21FA958
     void Reset();
   }; // RollingAverage
 }

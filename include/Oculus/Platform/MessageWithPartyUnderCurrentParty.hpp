@@ -25,16 +25,16 @@ namespace Oculus::Platform {
   class MessageWithPartyUnderCurrentParty : public Oculus::Platform::Message_1<Oculus::Platform::Models::Party*> {
     public:
     // protected Oculus.Platform.Models.Party GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x13678B8
+    // Offset: 0x113CFF4
     Oculus::Platform::Models::Party* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x135FECC
+    // Offset: 0x1135608
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithPartyUnderCurrentParty* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.Party GetParty()
-    // Offset: 0x1367874
+    // Offset: 0x113CFB0
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.Party Message::GetParty()
     Oculus::Platform::Models::Party* GetParty();

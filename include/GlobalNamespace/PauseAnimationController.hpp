@@ -34,28 +34,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_resumeFromPauseAnimationDidFinishEvent(System.Action value)
-    // Offset: 0xFD6888
+    // Offset: 0x208155C
     void add_resumeFromPauseAnimationDidFinishEvent(System::Action* value);
     // public System.Void remove_resumeFromPauseAnimationDidFinishEvent(System.Action value)
-    // Offset: 0xFD692C
+    // Offset: 0x2081600
     void remove_resumeFromPauseAnimationDidFinishEvent(System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0xFD69D0
+    // Offset: 0x20816A4
     void Awake();
     // public System.Void StartEnterPauseAnimation()
-    // Offset: 0xFD6A0C
+    // Offset: 0x20816E0
     void StartEnterPauseAnimation();
     // public System.Void StartResumeFromPauseAnimation()
-    // Offset: 0xFD6A8C
+    // Offset: 0x2081760
     void StartResumeFromPauseAnimation();
     // public System.Void EnterPauseAnimationDidFinish()
-    // Offset: 0xFD6B0C
+    // Offset: 0x20817E0
     void EnterPauseAnimationDidFinish();
     // public System.Void ResumeFromPauseAnimationDidFinish()
-    // Offset: 0xFD6B48
+    // Offset: 0x208181C
     void ResumeFromPauseAnimationDidFinish();
     // public System.Void .ctor()
-    // Offset: 0xFD6BA0
+    // Offset: 0x2081874
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

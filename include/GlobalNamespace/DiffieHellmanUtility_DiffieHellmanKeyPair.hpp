@@ -40,15 +40,15 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Array<uint8_t>* publicKey;
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Parameters.DHPrivateKeyParameters privateKeyParameters, System.Byte[] publicKey)
-    // Offset: 0x1161E74
+    // Offset: 0x215C85C
     static DiffieHellmanUtility::DiffieHellmanKeyPair* New_ctor(Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* privateKeyParameters, ::Array<uint8_t>* publicKey);
     // public System.Byte[] get_publicKey()
-    // Offset: 0x1162434
+    // Offset: 0x215CE1C
     // Implemented from: IDiffieHellmanKeyPair
     // Base method: System.Byte[] IDiffieHellmanKeyPair::get_publicKey()
     ::Array<uint8_t>* get_publicKey();
     // public System.Threading.Tasks.Task`1<System.Byte[]> GetPreMasterSecretAsync(System.Byte[] clientPublicKey)
-    // Offset: 0x116243C
+    // Offset: 0x215CE24
     // Implemented from: IDiffieHellmanKeyPair
     // Base method: System.Threading.Tasks.Task`1<System.Byte[]> IDiffieHellmanKeyPair::GetPreMasterSecretAsync(System.Byte[] clientPublicKey)
     System::Threading::Tasks::Task_1<::Array<uint8_t>*>* GetPreMasterSecretAsync(::Array<uint8_t>* clientPublicKey);

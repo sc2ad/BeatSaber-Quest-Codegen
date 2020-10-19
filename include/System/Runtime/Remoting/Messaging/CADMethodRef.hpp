@@ -44,13 +44,13 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x30
     ::Array<::Il2CppString*>* generic_arg_names;
     // private System.Type[] GetTypes(System.String[] typeArray)
-    // Offset: 0x12A7F68
+    // Offset: 0x10A3804
     ::Array<System::Type*>* GetTypes(::Array<::Il2CppString*>* typeArray);
     // public System.Reflection.MethodBase Resolve()
-    // Offset: 0x12A5FC0
+    // Offset: 0x10A185C
     System::Reflection::MethodBase* Resolve();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodMessage msg)
-    // Offset: 0x12A5C10
+    // Offset: 0x10A14AC
     static CADMethodRef* New_ctor(System::Runtime::Remoting::Messaging::IMethodMessage* msg);
   }; // System.Runtime.Remoting.Messaging.CADMethodRef
 }

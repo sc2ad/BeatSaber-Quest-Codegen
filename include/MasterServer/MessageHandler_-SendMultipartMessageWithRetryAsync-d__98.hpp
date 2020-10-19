@@ -96,12 +96,12 @@ namespace MasterServer {
     // Creating value type constructor for type: $SendMultipartMessageWithRetryAsync$d__98
     constexpr $SendMultipartMessageWithRetryAsync$d__98(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder $$t__builder_ = {}, MasterServer::MessageHandler* $$4__this_ = {}, uint protocolVersion_ = {}, System::Net::IPEndPoint* remoteEndPoint_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, MasterServer::IMasterServerReliableRequest* message_ = {}, LiteNetLib::Utils::NetDataWriter* data_ = {}, System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task*>* onSendFailed_ = {}, MasterServer::MessageHandler::$$c__DisplayClass98_0* $$8__1_ = {}, bool $shouldReleaseMessage$5__2_ = {}, ::Il2CppObject* $$7__wrap2_ = {}, int $$7__wrap3_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, protocolVersion{protocolVersion_}, remoteEndPoint{remoteEndPoint_}, cancellationToken{cancellationToken_}, message{message_}, data{data_}, onSendFailed{onSendFailed_}, $$8__1{$$8__1_}, $shouldReleaseMessage$5__2{$shouldReleaseMessage$5__2_}, $$7__wrap2{$$7__wrap2_}, $$7__wrap3{$$7__wrap3_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
-    // Offset: 0xDA2FA8
+    // Offset: 0xE4EB30
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDA2FB0
+    // Offset: 0xE4EB38
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

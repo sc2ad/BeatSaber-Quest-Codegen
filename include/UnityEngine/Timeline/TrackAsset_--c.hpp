@@ -35,13 +35,13 @@ namespace UnityEngine::Timeline {
     // Set static field: static public System.Comparison`1<UnityEngine.Timeline.TimelineClip> <>9__120_0
     static void _set_$$9__120_0(System::Comparison_1<UnityEngine::Timeline::TimelineClip*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x219882C
+    // Offset: 0x1EEC490
     static void _cctor();
     // System.Int32 <SortClips>b__120_0(UnityEngine.Timeline.TimelineClip clip1, UnityEngine.Timeline.TimelineClip clip2)
-    // Offset: 0x219889C
+    // Offset: 0x1EEC500
     int $SortClips$b__120_0(UnityEngine::Timeline::TimelineClip* clip1, UnityEngine::Timeline::TimelineClip* clip2);
     // public System.Void .ctor()
-    // Offset: 0x2198894
+    // Offset: 0x1EEC4F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TrackAsset::$$c* New_ctor();

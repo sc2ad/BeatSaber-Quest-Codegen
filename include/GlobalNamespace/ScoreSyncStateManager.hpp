@@ -29,38 +29,38 @@ namespace GlobalNamespace {
   class ScoreSyncStateManager : public GlobalNamespace::MultiplayerSyncStateManager_4<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int, GlobalNamespace::StandardScoreSyncStateNetSerializable*>, public GlobalNamespace::IScoreSyncStateManager {
     public:
     // protected IPacketPool`1<StandardScoreSyncStateNetSerializable> get_serializablePool()
-    // Offset: 0xEE77D8
+    // Offset: 0x207EB30
     GlobalNamespace::IPacketPool_1<GlobalNamespace::StandardScoreSyncStateNetSerializable*>* get_serializablePool();
     // protected System.Int32 Interpolate(System.Int32 prev, System.Single prevTime, System.Int32 curr, System.Single currTime, System.Single time)
-    // Offset: 0xEE7848
+    // Offset: 0x207EBA0
     int Interpolate(int prev, float prevTime, int curr, float currTime, float time);
     // protected override System.Single get_unreliableUpdateFrequency()
-    // Offset: 0xEE77B4
+    // Offset: 0x207EB0C
     // Implemented from: MultiplayerSyncStateManager`4
     // Base method: System.Single MultiplayerSyncStateManager_4::get_unreliableUpdateFrequency()
     float get_unreliableUpdateFrequency();
     // protected override System.Single get_reliableUpdateFrequency()
-    // Offset: 0xEE77C0
+    // Offset: 0x207EB18
     // Implemented from: MultiplayerSyncStateManager`4
     // Base method: System.Single MultiplayerSyncStateManager_4::get_reliableUpdateFrequency()
     float get_reliableUpdateFrequency();
     // protected override System.Int32 get_localBufferSize()
-    // Offset: 0xEE77C8
+    // Offset: 0x207EB20
     // Implemented from: MultiplayerSyncStateManager`4
     // Base method: System.Int32 MultiplayerSyncStateManager_4::get_localBufferSize()
     int get_localBufferSize();
     // protected override System.Int32 get_remoteBufferSize()
-    // Offset: 0xEE77D0
+    // Offset: 0x207EB28
     // Implemented from: MultiplayerSyncStateManager`4
     // Base method: System.Int32 MultiplayerSyncStateManager_4::get_remoteBufferSize()
     int get_remoteBufferSize();
     // protected override MultiplayerSessionManager/MessageType get_messageType()
-    // Offset: 0xEE7840
+    // Offset: 0x207EB98
     // Implemented from: MultiplayerSyncStateManager`4
     // Base method: MultiplayerSessionManager/MessageType MultiplayerSyncStateManager_4::get_messageType()
     GlobalNamespace::MultiplayerSessionManager_MessageType get_messageType();
     // public System.Void .ctor()
-    // Offset: 0xEE795C
+    // Offset: 0x207ECB4
     // Implemented from: MultiplayerSyncStateManager`4
     // Base method: System.Void MultiplayerSyncStateManager_4::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

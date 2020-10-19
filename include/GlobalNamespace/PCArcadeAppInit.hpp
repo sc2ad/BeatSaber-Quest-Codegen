@@ -44,27 +44,27 @@ namespace GlobalNamespace {
     // Offset: 0x58
     GlobalNamespace::VRsenalLogger* vrsenalLoggerPrefab;
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0x10152EC
+    // Offset: 0x1F8D948
     // Implemented from: AppInit
     // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
     void AppStartAndMultiSceneEditorSetup();
     // protected override System.Void RepeatableSetup()
-    // Offset: 0x1015358
+    // Offset: 0x1F8D9B4
     // Implemented from: AppInit
     // Base method: System.Void AppInit::RepeatableSetup()
     void RepeatableSetup();
     // protected override System.Void TransitionToNextScene()
-    // Offset: 0x10153A4
+    // Offset: 0x1F8DA00
     // Implemented from: AppInit
     // Base method: System.Void AppInit::TransitionToNextScene()
     void TransitionToNextScene();
     // public override System.Void InstallBindings()
-    // Offset: 0x10153E0
+    // Offset: 0x1F8DA3C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x10154C4
+    // Offset: 0x1F8DB20
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     // Base method: System.Void MonoInstaller::.ctor()

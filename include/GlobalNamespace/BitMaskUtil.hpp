@@ -12,10 +12,10 @@ namespace GlobalNamespace {
   class BitMaskUtil : public ::Il2CppObject {
     public:
     // static public System.UInt32 NumberOfSetBits(System.UInt64 i)
-    // Offset: 0x22200BC
+    // Offset: 0x2241BD0
     static uint NumberOfSetBits(uint64_t i);
     // static public System.UInt32 NumberOfSetBits(System.UInt32 i)
-    // Offset: 0x221FC30
+    // Offset: 0x2241744
     static uint NumberOfSetBits(uint i);
   }; // BitMaskUtil
 }

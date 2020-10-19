@@ -47,70 +47,70 @@ namespace Zenject {
     // Offset: 0x18
     Zenject::DiContainer* sceneContainer;
     // public System.Void .ctor(Zenject.SceneContext sceneRoot, Zenject.ProjectKernel projectKernel)
-    // Offset: 0x21EBB0C
+    // Offset: 0x1F40770
     static ZenjectSceneLoader* New_ctor(Zenject::SceneContext* sceneRoot, Zenject::ProjectKernel* projectKernel);
     // public System.Void LoadScene(System.String sceneName)
-    // Offset: 0x21EBBD4
+    // Offset: 0x1F40838
     void LoadScene(::Il2CppString* sceneName);
     // public System.Void LoadScene(System.String sceneName, UnityEngine.SceneManagement.LoadSceneMode loadMode)
-    // Offset: 0x21EBBE8
+    // Offset: 0x1F4084C
     void LoadScene(::Il2CppString* sceneName, UnityEngine::SceneManagement::LoadSceneMode loadMode);
     // public System.Void LoadScene(System.String sceneName, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Action`1<Zenject.DiContainer> extraBindings)
-    // Offset: 0x21EBBF8
+    // Offset: 0x1F4085C
     void LoadScene(::Il2CppString* sceneName, UnityEngine::SceneManagement::LoadSceneMode loadMode, System::Action_1<Zenject::DiContainer*>* extraBindings);
     // public System.Void LoadScene(System.String sceneName, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Action`1<Zenject.DiContainer> extraBindings, Zenject.LoadSceneRelationship containerMode)
-    // Offset: 0x21EBC04
+    // Offset: 0x1F40868
     void LoadScene(::Il2CppString* sceneName, UnityEngine::SceneManagement::LoadSceneMode loadMode, System::Action_1<Zenject::DiContainer*>* extraBindings, Zenject::LoadSceneRelationship containerMode);
     // public System.Void LoadScene(System.String sceneName, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Action`1<Zenject.DiContainer> extraBindings, Zenject.LoadSceneRelationship containerMode, System.Action`1<Zenject.DiContainer> extraBindingsLate)
-    // Offset: 0x21EBC0C
+    // Offset: 0x1F40870
     void LoadScene(::Il2CppString* sceneName, UnityEngine::SceneManagement::LoadSceneMode loadMode, System::Action_1<Zenject::DiContainer*>* extraBindings, Zenject::LoadSceneRelationship containerMode, System::Action_1<Zenject::DiContainer*>* extraBindingsLate);
     // public UnityEngine.AsyncOperation LoadSceneAsync(System.String sceneName)
-    // Offset: 0x21EBF10
+    // Offset: 0x1F40B74
     UnityEngine::AsyncOperation* LoadSceneAsync(::Il2CppString* sceneName);
     // public UnityEngine.AsyncOperation LoadSceneAsync(System.String sceneName, UnityEngine.SceneManagement.LoadSceneMode loadMode)
-    // Offset: 0x21EBF28
+    // Offset: 0x1F40B8C
     UnityEngine::AsyncOperation* LoadSceneAsync(::Il2CppString* sceneName, UnityEngine::SceneManagement::LoadSceneMode loadMode);
     // public UnityEngine.AsyncOperation LoadSceneAsync(System.String sceneName, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Action`1<Zenject.DiContainer> extraBindings)
-    // Offset: 0x21EBF3C
+    // Offset: 0x1F40BA0
     UnityEngine::AsyncOperation* LoadSceneAsync(::Il2CppString* sceneName, UnityEngine::SceneManagement::LoadSceneMode loadMode, System::Action_1<Zenject::DiContainer*>* extraBindings);
     // public UnityEngine.AsyncOperation LoadSceneAsync(System.String sceneName, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Action`1<Zenject.DiContainer> extraBindings, Zenject.LoadSceneRelationship containerMode)
-    // Offset: 0x21EBF50
+    // Offset: 0x1F40BB4
     UnityEngine::AsyncOperation* LoadSceneAsync(::Il2CppString* sceneName, UnityEngine::SceneManagement::LoadSceneMode loadMode, System::Action_1<Zenject::DiContainer*>* extraBindings, Zenject::LoadSceneRelationship containerMode);
     // public UnityEngine.AsyncOperation LoadSceneAsync(System.String sceneName, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Action`1<Zenject.DiContainer> extraBindingsEarly, System.Action`1<Zenject.DiContainer> extraBindings, Zenject.LoadSceneRelationship containerMode, System.Action`1<Zenject.DiContainer> extraBindingsLate)
-    // Offset: 0x21EBF64
+    // Offset: 0x1F40BC8
     UnityEngine::AsyncOperation* LoadSceneAsync(::Il2CppString* sceneName, UnityEngine::SceneManagement::LoadSceneMode loadMode, System::Action_1<Zenject::DiContainer*>* extraBindingsEarly, System::Action_1<Zenject::DiContainer*>* extraBindings, Zenject::LoadSceneRelationship containerMode, System::Action_1<Zenject::DiContainer*>* extraBindingsLate);
     // private System.Void PrepareForLoadScene(UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Action`1<Zenject.DiContainer> extraBindingsEarly, System.Action`1<Zenject.DiContainer> extraBindings, System.Action`1<Zenject.DiContainer> extraBindingsLate, Zenject.LoadSceneRelationship containerMode)
-    // Offset: 0x21EBCC8
+    // Offset: 0x1F4092C
     void PrepareForLoadScene(UnityEngine::SceneManagement::LoadSceneMode loadMode, System::Action_1<Zenject::DiContainer*>* extraBindingsEarly, System::Action_1<Zenject::DiContainer*>* extraBindings, System::Action_1<Zenject::DiContainer*>* extraBindingsLate, Zenject::LoadSceneRelationship containerMode);
     // public System.Void LoadScene(System.Int32 sceneIndex)
-    // Offset: 0x21EC024
+    // Offset: 0x1F40C88
     void LoadScene(int sceneIndex);
     // public System.Void LoadScene(System.Int32 sceneIndex, UnityEngine.SceneManagement.LoadSceneMode loadMode)
-    // Offset: 0x21EC038
+    // Offset: 0x1F40C9C
     void LoadScene(int sceneIndex, UnityEngine::SceneManagement::LoadSceneMode loadMode);
     // public System.Void LoadScene(System.Int32 sceneIndex, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Action`1<Zenject.DiContainer> extraBindings)
-    // Offset: 0x21EC048
+    // Offset: 0x1F40CAC
     void LoadScene(int sceneIndex, UnityEngine::SceneManagement::LoadSceneMode loadMode, System::Action_1<Zenject::DiContainer*>* extraBindings);
     // public System.Void LoadScene(System.Int32 sceneIndex, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Action`1<Zenject.DiContainer> extraBindings, Zenject.LoadSceneRelationship containerMode)
-    // Offset: 0x21EC054
+    // Offset: 0x1F40CB8
     void LoadScene(int sceneIndex, UnityEngine::SceneManagement::LoadSceneMode loadMode, System::Action_1<Zenject::DiContainer*>* extraBindings, Zenject::LoadSceneRelationship containerMode);
     // public System.Void LoadScene(System.Int32 sceneIndex, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Action`1<Zenject.DiContainer> extraBindings, Zenject.LoadSceneRelationship containerMode, System.Action`1<Zenject.DiContainer> extraBindingsLate)
-    // Offset: 0x21EC05C
+    // Offset: 0x1F40CC0
     void LoadScene(int sceneIndex, UnityEngine::SceneManagement::LoadSceneMode loadMode, System::Action_1<Zenject::DiContainer*>* extraBindings, Zenject::LoadSceneRelationship containerMode, System::Action_1<Zenject::DiContainer*>* extraBindingsLate);
     // public UnityEngine.AsyncOperation LoadSceneAsync(System.Int32 sceneIndex)
-    // Offset: 0x21EC138
+    // Offset: 0x1F40D9C
     UnityEngine::AsyncOperation* LoadSceneAsync(int sceneIndex);
     // public UnityEngine.AsyncOperation LoadSceneAsync(System.Int32 sceneIndex, UnityEngine.SceneManagement.LoadSceneMode loadMode)
-    // Offset: 0x21EC14C
+    // Offset: 0x1F40DB0
     UnityEngine::AsyncOperation* LoadSceneAsync(int sceneIndex, UnityEngine::SceneManagement::LoadSceneMode loadMode);
     // public UnityEngine.AsyncOperation LoadSceneAsync(System.Int32 sceneIndex, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Action`1<Zenject.DiContainer> extraBindings)
-    // Offset: 0x21EC15C
+    // Offset: 0x1F40DC0
     UnityEngine::AsyncOperation* LoadSceneAsync(int sceneIndex, UnityEngine::SceneManagement::LoadSceneMode loadMode, System::Action_1<Zenject::DiContainer*>* extraBindings);
     // public UnityEngine.AsyncOperation LoadSceneAsync(System.Int32 sceneIndex, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Action`1<Zenject.DiContainer> extraBindings, Zenject.LoadSceneRelationship containerMode)
-    // Offset: 0x21EC168
+    // Offset: 0x1F40DCC
     UnityEngine::AsyncOperation* LoadSceneAsync(int sceneIndex, UnityEngine::SceneManagement::LoadSceneMode loadMode, System::Action_1<Zenject::DiContainer*>* extraBindings, Zenject::LoadSceneRelationship containerMode);
     // public UnityEngine.AsyncOperation LoadSceneAsync(System.Int32 sceneIndex, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Action`1<Zenject.DiContainer> extraBindings, Zenject.LoadSceneRelationship containerMode, System.Action`1<Zenject.DiContainer> extraBindingsLate)
-    // Offset: 0x21EC170
+    // Offset: 0x1F40DD4
     UnityEngine::AsyncOperation* LoadSceneAsync(int sceneIndex, UnityEngine::SceneManagement::LoadSceneMode loadMode, System::Action_1<Zenject::DiContainer*>* extraBindings, Zenject::LoadSceneRelationship containerMode, System::Action_1<Zenject::DiContainer*>* extraBindingsLate);
   }; // Zenject.ZenjectSceneLoader
 }

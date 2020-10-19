@@ -22,19 +22,19 @@ namespace System::Text::RegularExpressions {
     // Set static field: static System.Text.RegularExpressions.RegexPrefix _empty
     static void _set__empty(System::Text::RegularExpressions::RegexPrefix* value);
     // System.Void .ctor(System.String prefix, System.Boolean ci)
-    // Offset: 0x1800710
+    // Offset: 0x15A7B34
     static RegexPrefix* New_ctor(::Il2CppString* prefix, bool ci);
     // System.String get_Prefix()
-    // Offset: 0x180A4A4
+    // Offset: 0x15B18C8
     ::Il2CppString* get_Prefix();
     // System.Boolean get_CaseInsensitive()
-    // Offset: 0x180A4AC
+    // Offset: 0x15B18D0
     bool get_CaseInsensitive();
     // static System.Text.RegularExpressions.RegexPrefix get_Empty()
-    // Offset: 0x180A4B4
+    // Offset: 0x15B18D8
     static System::Text::RegularExpressions::RegexPrefix* get_Empty();
     // static private System.Void .cctor()
-    // Offset: 0x180A51C
+    // Offset: 0x15B1940
     static void _cctor();
   }; // System.Text.RegularExpressions.RegexPrefix
 }

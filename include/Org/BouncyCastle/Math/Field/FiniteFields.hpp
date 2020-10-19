@@ -34,13 +34,13 @@ namespace Org::BouncyCastle::Math::Field {
     // Set static field: static readonly Org.BouncyCastle.Math.Field.IFiniteField GF_3
     static void _set_GF_3(Org::BouncyCastle::Math::Field::IFiniteField* value);
     // static public Org.BouncyCastle.Math.Field.IPolynomialExtensionField GetBinaryExtensionField(System.Int32[] exponents)
-    // Offset: 0x1B61984
+    // Offset: 0x1902B78
     static Org::BouncyCastle::Math::Field::IPolynomialExtensionField* GetBinaryExtensionField(::Array<int>* exponents);
     // static public Org.BouncyCastle.Math.Field.IFiniteField GetPrimeField(Org.BouncyCastle.Math.BigInteger characteristic)
-    // Offset: 0x1B61BD0
+    // Offset: 0x1902DC4
     static Org::BouncyCastle::Math::Field::IFiniteField* GetPrimeField(Org::BouncyCastle::Math::BigInteger* characteristic);
     // static private System.Void .cctor()
-    // Offset: 0x1B61D88
+    // Offset: 0x1902F7C
     static void _cctor();
   }; // Org.BouncyCastle.Math.Field.FiniteFields
 }

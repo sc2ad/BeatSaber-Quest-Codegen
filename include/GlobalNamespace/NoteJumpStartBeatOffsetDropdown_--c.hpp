@@ -33,13 +33,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Tuple`2<System.Single,System.String>,System.String> <>9__7_0
     static void _set_$$9__7_0(System::Func_2<System::Tuple_2<float, ::Il2CppString*>*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x10ADE88
+    // Offset: 0x20F9EAC
     static void _cctor();
     // System.String <Start>b__7_0(System.Tuple`2<System.Single,System.String> x)
-    // Offset: 0x10ADEF8
+    // Offset: 0x20F9F1C
     ::Il2CppString* $Start$b__7_0(System::Tuple_2<float, ::Il2CppString*>* x);
     // public System.Void .ctor()
-    // Offset: 0x10ADEF0
+    // Offset: 0x20F9F14
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NoteJumpStartBeatOffsetDropdown::$$c* New_ctor();

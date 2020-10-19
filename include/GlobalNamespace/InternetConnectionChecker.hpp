@@ -30,10 +30,10 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::InternetConnectionChecker::$IsConnectedToInternetAsync$d__0
     struct $IsConnectedToInternetAsync$d__0;
     // static public System.Threading.Tasks.Task`1<System.Boolean> IsConnectedToInternetAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x21F89A8
+    // Offset: 0x1F4A3B8
     static System::Threading::Tasks::Task_1<bool>* IsConnectedToInternetAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x21F8AB4
+    // Offset: 0x1F4A4C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InternetConnectionChecker* New_ctor();

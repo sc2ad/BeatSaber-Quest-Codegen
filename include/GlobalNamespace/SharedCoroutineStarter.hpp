@@ -14,12 +14,12 @@ namespace GlobalNamespace {
   class SharedCoroutineStarter : public GlobalNamespace::PersistentSingleton_1<GlobalNamespace::SharedCoroutineStarter*> {
     public:
     // static protected System.Void NoDomainReloadInit()
-    // Offset: 0x10A4434
+    // Offset: 0x211B378
     // Implemented from: PersistentSingleton`1
     // Base method: System.Void PersistentSingleton_1::NoDomainReloadInit()
     static void NoDomainReloadInit();
     // public System.Void .ctor()
-    // Offset: 0x10A449C
+    // Offset: 0x211B3E0
     // Implemented from: PersistentSingleton`1
     // Base method: System.Void PersistentSingleton_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

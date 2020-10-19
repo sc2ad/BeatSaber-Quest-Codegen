@@ -25,17 +25,17 @@ namespace System::Runtime::Remoting::Messaging {
   class ObjRefSurrogate : public ::Il2CppObject, public System::Runtime::Serialization::ISerializationSurrogate {
     public:
     // public System.Void GetObjectData(System.Object obj, System.Runtime.Serialization.SerializationInfo si, System.Runtime.Serialization.StreamingContext sc)
-    // Offset: 0x14F7864
+    // Offset: 0x12CE08C
     // Implemented from: System.Runtime.Serialization.ISerializationSurrogate
     // Base method: System.Void ISerializationSurrogate::GetObjectData(System.Object obj, System.Runtime.Serialization.SerializationInfo si, System.Runtime.Serialization.StreamingContext sc)
     void GetObjectData(::Il2CppObject* obj, System::Runtime::Serialization::SerializationInfo* si, System::Runtime::Serialization::StreamingContext sc);
     // public System.Object SetObjectData(System.Object obj, System.Runtime.Serialization.SerializationInfo si, System.Runtime.Serialization.StreamingContext sc, System.Runtime.Serialization.ISurrogateSelector selector)
-    // Offset: 0x14F7968
+    // Offset: 0x12CE190
     // Implemented from: System.Runtime.Serialization.ISerializationSurrogate
     // Base method: System.Object ISerializationSurrogate::SetObjectData(System.Object obj, System.Runtime.Serialization.SerializationInfo si, System.Runtime.Serialization.StreamingContext sc, System.Runtime.Serialization.ISurrogateSelector selector)
     ::Il2CppObject* SetObjectData(::Il2CppObject* obj, System::Runtime::Serialization::SerializationInfo* si, System::Runtime::Serialization::StreamingContext sc, System::Runtime::Serialization::ISurrogateSelector* selector);
     // public System.Void .ctor()
-    // Offset: 0x14F79D4
+    // Offset: 0x12CE1FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ObjRefSurrogate* New_ctor();

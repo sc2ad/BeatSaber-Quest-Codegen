@@ -28,55 +28,55 @@ namespace Mono::Security {
     // Offset: 0x20
     System::Collections::ArrayList* elist;
     // public System.Void .ctor(System.Byte tag)
-    // Offset: 0x1B7D968
+    // Offset: 0x191FB5C
     static ASN1* New_ctor(uint8_t tag);
     // public System.Void .ctor(System.Byte tag, System.Byte[] data)
-    // Offset: 0x1B7D9A0
+    // Offset: 0x191FB94
     static ASN1* New_ctor(uint8_t tag, ::Array<uint8_t>* data);
     // public System.Void .ctor(System.Byte[] data)
-    // Offset: 0x1B7D9E4
+    // Offset: 0x191FBD8
     static ASN1* New_ctor(::Array<uint8_t>* data);
     // public System.Int32 get_Count()
-    // Offset: 0x1B7DCAC
+    // Offset: 0x191FEA0
     int get_Count();
     // public System.Byte get_Tag()
-    // Offset: 0x1B7DCC8
+    // Offset: 0x191FEBC
     uint8_t get_Tag();
     // public System.Int32 get_Length()
-    // Offset: 0x1B7DCD0
+    // Offset: 0x191FEC4
     int get_Length();
     // public System.Byte[] get_Value()
-    // Offset: 0x1B7DCE8
+    // Offset: 0x191FEDC
     ::Array<uint8_t>* get_Value();
     // public System.Void set_Value(System.Byte[] value)
-    // Offset: 0x1B7DD80
+    // Offset: 0x191FF74
     void set_Value(::Array<uint8_t>* value);
     // private System.Boolean CompareArray(System.Byte[] array1, System.Byte[] array2)
-    // Offset: 0x1B7DE28
+    // Offset: 0x192001C
     bool CompareArray(::Array<uint8_t>* array1, ::Array<uint8_t>* array2);
     // public System.Boolean CompareValue(System.Byte[] value)
-    // Offset: 0x1B7DEA4
+    // Offset: 0x1920098
     bool CompareValue(::Array<uint8_t>* value);
     // public Mono.Security.ASN1 Add(Mono.Security.ASN1 asn1)
-    // Offset: 0x1B7DEB4
+    // Offset: 0x19200A8
     Mono::Security::ASN1* Add(Mono::Security::ASN1* asn1);
     // public System.Byte[] GetBytes()
-    // Offset: 0x1B7DF5C
+    // Offset: 0x1920150
     ::Array<uint8_t>* GetBytes();
     // protected System.Void Decode(System.Byte[] asn1, ref System.Int32 anPos, System.Int32 anLength)
-    // Offset: 0x1B7DB74
+    // Offset: 0x191FD68
     void Decode(::Array<uint8_t>* asn1, int& anPos, int anLength);
     // protected System.Void DecodeTLV(System.Byte[] asn1, ref System.Int32 pos, out System.Byte tag, out System.Int32 length, out System.Byte[] content)
-    // Offset: 0x1B7E584
+    // Offset: 0x1920778
     void DecodeTLV(::Array<uint8_t>* asn1, int& pos, uint8_t& tag, int& length, ::Array<uint8_t>*& content);
     // public Mono.Security.ASN1 get_Item(System.Int32 index)
-    // Offset: 0x1B7E6D0
+    // Offset: 0x19208C4
     Mono::Security::ASN1* get_Item(int index);
     // public Mono.Security.ASN1 Element(System.Int32 index, System.Byte anTag)
-    // Offset: 0x1B7E810
+    // Offset: 0x1920A04
     Mono::Security::ASN1* Element(int index, uint8_t anTag);
     // public override System.String ToString()
-    // Offset: 0x1B7E96C
+    // Offset: 0x1920B60
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

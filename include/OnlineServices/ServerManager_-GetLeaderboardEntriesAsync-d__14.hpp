@@ -60,12 +60,12 @@ namespace OnlineServices {
     // Creating value type constructor for type: $GetLeaderboardEntriesAsync$d__14
     constexpr $GetLeaderboardEntriesAsync$d__14(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<OnlineServices::LeaderboardEntriesResult*> $$t__builder_ = {}, OnlineServices::ServerManager* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, OnlineServices::GetLeaderboardFilterData leaderboardFilterData_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::PlatformServicesAvailabilityInfo*> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::GetLeaderboardEntriesResult> $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, leaderboardFilterData{leaderboardFilterData_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
     // private System.Void MoveNext()
-    // Offset: 0xDA2748
+    // Offset: 0xE4D89C
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDA2750
+    // Offset: 0xE4D8A4
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

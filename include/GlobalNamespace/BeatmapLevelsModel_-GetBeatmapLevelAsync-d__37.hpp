@@ -51,12 +51,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: $GetBeatmapLevelAsync$d__37
     constexpr $GetBeatmapLevelAsync$d__37(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelResult> $$t__builder_ = {}, GlobalNamespace::BeatmapLevelsModel* $$4__this_ = {}, ::Il2CppString* levelID_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult> $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, levelID{levelID_}, cancellationToken{cancellationToken_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
     // private System.Void MoveNext()
-    // Offset: 0xDA2C80
+    // Offset: 0xE4E91C
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDA2C88
+    // Offset: 0xE4E924
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

@@ -26,25 +26,25 @@ namespace Mono::Security::Cryptography {
     // Offset: 0x28
     ::Array<uint8_t>* data;
     // public System.Void .ctor(System.Byte[] data)
-    // Offset: 0x1B83B98
+    // Offset: 0x1925D8C
     static PKCS8::EncryptedPrivateKeyInfo* New_ctor(::Array<uint8_t>* data);
     // public System.String get_Algorithm()
-    // Offset: 0x1B83E68
+    // Offset: 0x192605C
     ::Il2CppString* get_Algorithm();
     // public System.Byte[] get_EncryptedData()
-    // Offset: 0x1B83E70
+    // Offset: 0x1926064
     ::Array<uint8_t>* get_EncryptedData();
     // public System.Byte[] get_Salt()
-    // Offset: 0x1B83EEC
+    // Offset: 0x19260E0
     ::Array<uint8_t>* get_Salt();
     // public System.Int32 get_IterationCount()
-    // Offset: 0x1B83FBC
+    // Offset: 0x19261B0
     int get_IterationCount();
     // private System.Void Decode(System.Byte[] data)
-    // Offset: 0x1B83BC8
+    // Offset: 0x1925DBC
     void Decode(::Array<uint8_t>* data);
     // public System.Void .ctor()
-    // Offset: 0x1B83B90
+    // Offset: 0x1925D84
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PKCS8::EncryptedPrivateKeyInfo* New_ctor();

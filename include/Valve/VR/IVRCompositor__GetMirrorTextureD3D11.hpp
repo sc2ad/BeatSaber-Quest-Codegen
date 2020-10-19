@@ -33,16 +33,16 @@ namespace Valve::VR {
   class IVRCompositor::_GetMirrorTextureD3D11 : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1E3128C
+    // Offset: 0x1B83EF0
     static IVRCompositor::_GetMirrorTextureD3D11* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRCompositorError Invoke(Valve.VR.EVREye eEye, System.IntPtr pD3D11DeviceOrResource, ref System.IntPtr ppD3D11ShaderResourceView)
-    // Offset: 0x1E312A0
+    // Offset: 0x1B83F04
     Valve::VR::EVRCompositorError Invoke(Valve::VR::EVREye eEye, System::IntPtr pD3D11DeviceOrResource, System::IntPtr& ppD3D11ShaderResourceView);
     // public System.IAsyncResult BeginInvoke(Valve.VR.EVREye eEye, System.IntPtr pD3D11DeviceOrResource, ref System.IntPtr ppD3D11ShaderResourceView, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1E3154C
+    // Offset: 0x1B841B0
     System::IAsyncResult* BeginInvoke(Valve::VR::EVREye eEye, System::IntPtr pD3D11DeviceOrResource, System::IntPtr& ppD3D11ShaderResourceView, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRCompositorError EndInvoke(ref System.IntPtr ppD3D11ShaderResourceView, System.IAsyncResult result)
-    // Offset: 0x1E31614
+    // Offset: 0x1B84278
     Valve::VR::EVRCompositorError EndInvoke(System::IntPtr& ppD3D11ShaderResourceView, System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_GetMirrorTextureD3D11
 }

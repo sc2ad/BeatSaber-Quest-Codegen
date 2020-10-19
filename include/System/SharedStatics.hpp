@@ -25,16 +25,16 @@ namespace System {
     // Set static field: static private readonly System.SharedStatics _sharedStatics
     static void _set__sharedStatics(System::SharedStatics* value);
     // static public System.Security.Util.Tokenizer/StringMaker GetSharedStringMaker()
-    // Offset: 0x1437F0C
+    // Offset: 0x120E648
     static System::Security::Util::Tokenizer::StringMaker* GetSharedStringMaker();
     // static public System.Void ReleaseSharedStringMaker(ref System.Security.Util.Tokenizer/StringMaker maker)
-    // Offset: 0x1438358
+    // Offset: 0x120EA94
     static void ReleaseSharedStringMaker(System::Security::Util::Tokenizer::StringMaker*& maker);
     // static private System.Void .cctor()
-    // Offset: 0x143D6D4
+    // Offset: 0x1213E10
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x143D6CC
+    // Offset: 0x1213E08
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SharedStatics* New_ctor();

@@ -60,16 +60,16 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Offset: 0x20
     UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::ConnectionChangeEvent* disconnectionEvent;
     // public System.Void InvokeMessageIdSubscribers(System.Guid messageId, System.Byte[] data, System.Int32 playerId)
-    // Offset: 0x1B9A5F4
+    // Offset: 0x193C7E8
     void InvokeMessageIdSubscribers(System::Guid messageId, ::Array<uint8_t>* data, int playerId);
     // public UnityEngine.Events.UnityEvent`1<UnityEngine.Networking.PlayerConnection.MessageEventArgs> AddAndCreate(System.Guid messageId)
-    // Offset: 0x1B99884
+    // Offset: 0x193BA78
     UnityEngine::Events::UnityEvent_1<UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* AddAndCreate(System::Guid messageId);
     // public System.Void UnregisterManagedCallback(System.Guid messageId, UnityEngine.Events.UnityAction`1<UnityEngine.Networking.PlayerConnection.MessageEventArgs> callback)
-    // Offset: 0x1B99B8C
+    // Offset: 0x193BD80
     void UnregisterManagedCallback(System::Guid messageId, UnityEngine::Events::UnityAction_1<UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* callback);
     // public System.Void .ctor()
-    // Offset: 0x1B9AB90
+    // Offset: 0x193CD84
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerEditorConnectionEvents* New_ctor();

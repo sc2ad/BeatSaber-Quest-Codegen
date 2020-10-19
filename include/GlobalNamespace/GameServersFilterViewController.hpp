@@ -78,35 +78,35 @@ namespace GlobalNamespace {
     // Offset: 0xD0
     bool showInternetGames;
     // public GameServersFilter get_gameServersFilter()
-    // Offset: 0xEC61D0
+    // Offset: 0x20051C4
     GlobalNamespace::GameServersFilter* get_gameServersFilter();
     // public System.Void SetupGameServersFilter(GameServersFilter gameServersFilter)
-    // Offset: 0xEC63C4
+    // Offset: 0x20053B8
     void SetupGameServersFilter(GlobalNamespace::GameServersFilter* gameServersFilter);
     // private System.Void Refresh(GameServersFilter currentFilter)
-    // Offset: 0xEC63C8
+    // Offset: 0x20053BC
     void Refresh(GlobalNamespace::GameServersFilter* currentFilter);
     // private System.Void <DidActivate>b__16_0(System.Boolean isOn)
-    // Offset: 0xEC66FC
+    // Offset: 0x20056F0
     void $DidActivate$b__16_0(bool isOn);
     // private System.Void <DidActivate>b__16_1(System.Boolean isOn)
-    // Offset: 0xEC671C
+    // Offset: 0x2005710
     void $DidActivate$b__16_1(bool isOn);
     // private System.Void <DidActivate>b__16_2(System.Boolean isOn)
-    // Offset: 0xEC673C
+    // Offset: 0x2005730
     void $DidActivate$b__16_2(bool isOn);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xEC64D0
+    // Offset: 0x20054C4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0xEC6618
+    // Offset: 0x200560C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0xEC6688
+    // Offset: 0x200567C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

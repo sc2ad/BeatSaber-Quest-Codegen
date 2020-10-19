@@ -18,13 +18,13 @@ namespace DataModels::PlayerAvatar {
     // Offset: 0x18
     ::Array<int>* colorIndices;
     // public System.Int32 get_totalIndices()
-    // Offset: 0xF5E458
+    // Offset: 0x2016598
     int get_totalIndices();
     // public System.Int32[] get_colorIndices()
-    // Offset: 0xF5E460
+    // Offset: 0x20165A0
     ::Array<int>* get_colorIndices();
     // public System.Void .ctor(System.Int32 headTopPrimaryColorIndex, System.Int32 headTopSecondaryColorIndex, System.Int32 glassesColorIndex, System.Int32 facialHairColorIndex, System.Int32 handsColorIndex, System.Int32 clothesPrimaryColorIndex, System.Int32 clothesSecondaryColorIndex, System.Int32 clothesDetailColorIndex)
-    // Offset: 0xF5DE18
+    // Offset: 0x2015F58
     static RandomizeAvatarColorMap* New_ctor(int headTopPrimaryColorIndex, int headTopSecondaryColorIndex, int glassesColorIndex, int facialHairColorIndex, int handsColorIndex, int clothesPrimaryColorIndex, int clothesSecondaryColorIndex, int clothesDetailColorIndex);
   }; // DataModels.PlayerAvatar.RandomizeAvatarColorMap
 }

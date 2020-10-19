@@ -45,12 +45,12 @@ namespace MasterServer {
     // Creating value type constructor for type: $GetAuthenticationRequest$d__28
     constexpr $GetAuthenticationRequest$d__28(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<MasterServer::IMasterServerAuthenticateRequest*> $$t__builder_ = {}, MasterServer::UserMessageHandler* $$4__this_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AuthenticationToken> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
-    // Offset: 0xDA3154
+    // Offset: 0xE4ECDC
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDA315C
+    // Offset: 0xE4ECE4
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

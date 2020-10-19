@@ -21,7 +21,7 @@ namespace OnlineServices::API {
       return exist;
     }
     // public System.Void .ctor()
-    // Offset: 0x100DF6C
+    // Offset: 0x1F865C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto* New_ctor();

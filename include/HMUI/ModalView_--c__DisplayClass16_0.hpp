@@ -27,10 +27,10 @@ namespace HMUI {
     // Offset: 0x18
     System::Action* finishedCallback;
     // System.Void <Hide>b__0()
-    // Offset: 0x11726E8
+    // Offset: 0x216C0D0
     void $Hide$b__0();
     // public System.Void .ctor()
-    // Offset: 0x1171D1C
+    // Offset: 0x216B704
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ModalView::$$c__DisplayClass16_0* New_ctor();

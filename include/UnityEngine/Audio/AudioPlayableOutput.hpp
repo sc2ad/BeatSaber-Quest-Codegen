@@ -43,31 +43,31 @@ namespace UnityEngine::Audio {
       return m_Handle;
     }
     // static public UnityEngine.Audio.AudioPlayableOutput Create(UnityEngine.Playables.PlayableGraph graph, System.String name, UnityEngine.AudioSource target)
-    // Offset: 0x2208BD4
+    // Offset: 0x1F595E4
     static UnityEngine::Audio::AudioPlayableOutput Create(UnityEngine::Playables::PlayableGraph graph, ::Il2CppString* name, UnityEngine::AudioSource* target);
     // System.Void .ctor(UnityEngine.Playables.PlayableOutputHandle handle)
-    // Offset: 0xDDDC50
+    // Offset: 0xC8B2E0
     // ABORTED: conflicts with another method.  AudioPlayableOutput(UnityEngine::Playables::PlayableOutputHandle handle);
     // static public UnityEngine.Audio.AudioPlayableOutput get_Null()
-    // Offset: 0x2208D14
+    // Offset: 0x1F59724
     static UnityEngine::Audio::AudioPlayableOutput get_Null();
     // static public UnityEngine.Audio.AudioPlayableOutput op_Explicit(UnityEngine.Playables.PlayableOutput output)
-    // Offset: 0x2208EB4
+    // Offset: 0x1F598C4
     explicit AudioPlayableOutput(UnityEngine::Playables::PlayableOutput& output);
     // public System.Void SetTarget(UnityEngine.AudioSource value)
-    // Offset: 0xDDDC64
+    // Offset: 0xC8B2F4
     void SetTarget(UnityEngine::AudioSource* value);
     // public System.Void SetEvaluateOnSeek(System.Boolean value)
-    // Offset: 0xDDDCB4
+    // Offset: 0xC8B344
     void SetEvaluateOnSeek(bool value);
     // static private System.Void InternalSetTarget(ref UnityEngine.Playables.PlayableOutputHandle output, UnityEngine.AudioSource target)
-    // Offset: 0x2208EFC
+    // Offset: 0x1F5990C
     static void InternalSetTarget(UnityEngine::Playables::PlayableOutputHandle& output, UnityEngine::AudioSource* target);
     // static private System.Void InternalSetEvaluateOnSeek(ref UnityEngine.Playables.PlayableOutputHandle output, System.Boolean value)
-    // Offset: 0x2208F9C
+    // Offset: 0x1F599AC
     static void InternalSetEvaluateOnSeek(UnityEngine::Playables::PlayableOutputHandle& output, bool value);
     // public UnityEngine.Playables.PlayableOutputHandle GetHandle()
-    // Offset: 0xDDDC58
+    // Offset: 0xC8B2E8
     // Implemented from: UnityEngine.Playables.IPlayableOutput
     // Base method: UnityEngine.Playables.PlayableOutputHandle IPlayableOutput::GetHandle()
     UnityEngine::Playables::PlayableOutputHandle GetHandle();

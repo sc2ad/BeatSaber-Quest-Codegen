@@ -82,37 +82,37 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private readonly UnityEngine.Vector2 k_Billboard3
     static void _set_k_Billboard3(UnityEngine::Vector2 value);
     // static System.Void CreateFaceMesh(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.Mesh target)
-    // Offset: 0x1949E3C
+    // Offset: 0x16F0260
     static void CreateFaceMesh(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::Mesh* target);
     // static System.Void CreateEdgeMesh(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.Mesh target)
-    // Offset: 0x1949F9C
+    // Offset: 0x16F03C0
     static void CreateEdgeMesh(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::Mesh* target);
     // static System.Void CreateEdgeMesh(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.Mesh target, UnityEngine.ProBuilder.Edge[] edges)
-    // Offset: 0x194A31C
+    // Offset: 0x16F0740
     static void CreateEdgeMesh(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::Mesh* target, ::Array<UnityEngine::ProBuilder::Edge>* edges);
     // static System.Void CreateVertexMesh(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.Mesh target)
-    // Offset: 0x194A570
+    // Offset: 0x16F0994
     static void CreateVertexMesh(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::Mesh* target);
     // static System.Void CreateVertexMesh(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.Mesh target, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x194A714
+    // Offset: 0x16F0B38
     static void CreateVertexMesh(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::Mesh* target, System::Collections::Generic::IList_1<int>* indexes);
     // static private System.Void CreatePointMesh(UnityEngine.Vector3[] positions, System.Collections.Generic.IList`1<System.Int32> indexes, UnityEngine.Mesh target)
-    // Offset: 0x194A7F8
+    // Offset: 0x16F0C1C
     static void CreatePointMesh(::Array<UnityEngine::Vector3>* positions, System::Collections::Generic::IList_1<int>* indexes, UnityEngine::Mesh* target);
     // static System.Void CreatePointBillboardMesh(System.Collections.Generic.IList`1<UnityEngine.Vector3> positions, UnityEngine.Mesh target)
-    // Offset: 0x194B008
+    // Offset: 0x16F142C
     static void CreatePointBillboardMesh(System::Collections::Generic::IList_1<UnityEngine::Vector3>* positions, UnityEngine::Mesh* target);
     // static private System.Void CreatePointBillboardMesh(System.Collections.Generic.IList`1<UnityEngine.Vector3> positions, System.Collections.Generic.IList`1<System.Int32> indexes, UnityEngine.Mesh target)
-    // Offset: 0x194A988
+    // Offset: 0x16F0DAC
     static void CreatePointBillboardMesh(System::Collections::Generic::IList_1<UnityEngine::Vector3>* positions, System::Collections::Generic::IList_1<int>* indexes, UnityEngine::Mesh* target);
     // static System.Void CreateEdgeBillboardMesh(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.Mesh target)
-    // Offset: 0x194B604
+    // Offset: 0x16F1A28
     static void CreateEdgeBillboardMesh(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::Mesh* target);
     // static System.Void CreateEdgeBillboardMesh(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.Mesh target, System.Collections.Generic.ICollection`1<UnityEngine.ProBuilder.Edge> edges)
-    // Offset: 0x194BC10
+    // Offset: 0x16F2034
     static void CreateEdgeBillboardMesh(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::Mesh* target, System::Collections::Generic::ICollection_1<UnityEngine::ProBuilder::Edge>* edges);
     // static private System.Void .cctor()
-    // Offset: 0x194C494
+    // Offset: 0x16F28B8
     static void _cctor();
   }; // UnityEngine.ProBuilder.MeshHandles
 }

@@ -25,25 +25,25 @@ namespace Org::BouncyCastle::Utilities::Encoders {
     // Offset: 0x18
     ::Array<uint8_t>* decodingTable;
     // protected System.Void InitialiseDecodingTable()
-    // Offset: 0x1DE26E4
+    // Offset: 0x1B36348
     void InitialiseDecodingTable();
     // public System.Int32 Encode(System.Byte[] inBuf, System.Int32 inOff, System.Int32 inLen, System.Byte[] outBuf, System.Int32 outOff)
-    // Offset: 0x1DE2860
+    // Offset: 0x1B364C4
     int Encode(::Array<uint8_t>* inBuf, int inOff, int inLen, ::Array<uint8_t>* outBuf, int outOff);
     // public System.Int32 Encode(System.Byte[] buf, System.Int32 off, System.Int32 len, System.IO.Stream outStream)
-    // Offset: 0x1DE1E14
+    // Offset: 0x1B35A78
     int Encode(::Array<uint8_t>* buf, int off, int len, System::IO::Stream* outStream);
     // static private System.Boolean Ignore(System.Char c)
-    // Offset: 0x1DE2944
+    // Offset: 0x1B365A8
     static bool Ignore(::Il2CppChar c);
     // public System.Int32 DecodeString(System.String data, System.IO.Stream outStream)
-    // Offset: 0x1DE1FFC
+    // Offset: 0x1B35C60
     int DecodeString(::Il2CppString* data, System::IO::Stream* outStream);
     // System.Byte[] DecodeStrict(System.String str, System.Int32 off, System.Int32 len)
-    // Offset: 0x1DE239C
+    // Offset: 0x1B36000
     ::Array<uint8_t>* DecodeStrict(::Il2CppString* str, int off, int len);
     // public System.Void .ctor()
-    // Offset: 0x1DE2634
+    // Offset: 0x1B36298
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HexEncoder* New_ctor();

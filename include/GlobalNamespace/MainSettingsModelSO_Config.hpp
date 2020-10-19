@@ -157,7 +157,7 @@ namespace GlobalNamespace {
     // Offset: 0xC0
     int languageSettings;
     // public System.Void .ctor()
-    // Offset: 0xED6998
+    // Offset: 0x1FC0560
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MainSettingsModelSO::Config* New_ctor();

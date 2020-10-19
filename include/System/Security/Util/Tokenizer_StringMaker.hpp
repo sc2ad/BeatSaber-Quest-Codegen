@@ -39,19 +39,19 @@ namespace System::Security::Util {
     // Offset: 0x30
     int outIndex;
     // static private System.UInt32 HashString(System.String str)
-    // Offset: 0x143D374
+    // Offset: 0x1213AB0
     static uint HashString(::Il2CppString* str);
     // static private System.UInt32 HashCharArray(System.Char[] a, System.Int32 l)
-    // Offset: 0x143D3E0
+    // Offset: 0x1213B1C
     static uint HashCharArray(::Array<::Il2CppChar>* a, int l);
     // private System.Boolean CompareStringAndChars(System.String str, System.Char[] a, System.Int32 l)
-    // Offset: 0x143D4E4
+    // Offset: 0x1213C20
     bool CompareStringAndChars(::Il2CppString* str, ::Array<::Il2CppChar>* a, int l);
     // public System.String MakeString()
-    // Offset: 0x14380AC
+    // Offset: 0x120E7E8
     ::Il2CppString* MakeString();
     // public System.Void .ctor()
-    // Offset: 0x143D448
+    // Offset: 0x1213B84
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Tokenizer::StringMaker* New_ctor();

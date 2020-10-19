@@ -27,13 +27,13 @@ namespace System::IO {
     // Offset: 0x11
     bool includeDirs;
     // System.Void .ctor(System.Boolean includeFiles, System.Boolean includeDirs)
-    // Offset: 0x15940D0
+    // Offset: 0x136A8F8
     static StringResultHandler* New_ctor(bool includeFiles, bool includeDirs);
     // System.String CreateObject(System.IO.SearchResult result)
-    // Offset: 0x15941B4
+    // Offset: 0x136A9DC
     ::Il2CppString* CreateObject(System::IO::SearchResult* result);
     // override System.Boolean IsResultIncluded(System.IO.SearchResult result)
-    // Offset: 0x1594144
+    // Offset: 0x136A96C
     // Implemented from: System.IO.SearchResultHandler`1
     // Base method: System.Boolean SearchResultHandler_1::IsResultIncluded(System.IO.SearchResult result)
     bool IsResultIncluded(System::IO::SearchResult* result);

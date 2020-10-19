@@ -25,13 +25,13 @@ namespace Mono::Security::X509 {
     // Offset: 0x18
     Mono::Security::ASN1* asn1;
     // public System.Void .ctor(System.String bagOID, Mono.Security.ASN1 asn1)
-    // Offset: 0x21DEEBC
+    // Offset: 0x1F33B20
     static SafeBag* New_ctor(::Il2CppString* bagOID, Mono::Security::ASN1* asn1);
     // public System.String get_BagOID()
-    // Offset: 0x21DEF0C
+    // Offset: 0x1F33B70
     ::Il2CppString* get_BagOID();
     // public Mono.Security.ASN1 get_ASN1()
-    // Offset: 0x21DEF14
+    // Offset: 0x1F33B78
     Mono::Security::ASN1* get_ASN1();
   }; // Mono.Security.X509.SafeBag
 }

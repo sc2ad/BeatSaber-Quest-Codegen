@@ -35,27 +35,27 @@ namespace HMUI {
     // Nested type: HMUI::StackedController::$$c__DisplayClass5_0
     class $$c__DisplayClass5_0;
     // public HMUI.ViewController get_topStackedViewController()
-    // Offset: 0x117CC1C
+    // Offset: 0x2176604
     HMUI::ViewController* get_topStackedViewController();
     // public System.Void PushViewController(HMUI.ViewController viewController, System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x117CE28
+    // Offset: 0x2176810
     void PushViewController(HMUI::ViewController* viewController, System::Action* finishedCallback, bool immediately);
     // public System.Void PopViewController(System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x117CEFC
+    // Offset: 0x21768E4
     void PopViewController(System::Action* finishedCallback, bool immediately);
     // public System.Void PopViewControllers(System.Int32 numberOfViewControllersToPop, System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x117CF10
+    // Offset: 0x21768F8
     void PopViewControllers(int numberOfViewControllersToPop, System::Action* finishedCallback, bool immediately);
     // static private System.Void SetupViewControllerRect(HMUI.ViewController viewController, System.Int32 index)
-    // Offset: 0x117CDD0
+    // Offset: 0x21767B8
     static void SetupViewControllerRect(HMUI::ViewController* viewController, int index);
     // protected override System.Void LayoutViewControllers(System.Collections.Generic.List`1<HMUI.ViewController> viewControllers)
-    // Offset: 0x117CC88
+    // Offset: 0x2176670
     // Implemented from: HMUI.ContainerViewController
     // Base method: System.Void ContainerViewController::LayoutViewControllers(System.Collections.Generic.List`1<HMUI.ViewController> viewControllers)
     void LayoutViewControllers(System::Collections::Generic::List_1<HMUI::ViewController*>* viewControllers);
     // public System.Void .ctor()
-    // Offset: 0x117D0BC
+    // Offset: 0x2176AA4
     // Implemented from: HMUI.ContainerViewController
     // Base method: System.Void ContainerViewController::.ctor()
     // Base method: System.Void ViewController::.ctor()

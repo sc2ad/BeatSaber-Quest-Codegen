@@ -38,15 +38,15 @@ namespace System::Resources {
     // Offset: 0x30
     bool $reachedNeutralResourcesCulture$5__2;
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x18DAED0
+    // Offset: 0x16812F4
     static ResourceFallbackManager::$GetEnumerator$d__5* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x18DAEFC
+    // Offset: 0x1681320
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x18DAF00
+    // Offset: 0x1681324
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -54,17 +54,17 @@ namespace System::Resources {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // private System.Globalization.CultureInfo System.Collections.Generic.IEnumerator<System.Globalization.CultureInfo>.get_Current()
-    // Offset: 0x18DB124
+    // Offset: 0x1681548
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator_1::get_Current()
     System::Globalization::CultureInfo* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x18DB12C
+    // Offset: 0x1681550
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x18DB18C
+    // Offset: 0x16815B0
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();

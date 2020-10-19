@@ -33,16 +33,16 @@ namespace Valve::VR {
   class IVRSystem::_GetUint64TrackedDeviceProperty : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F5F1D0
+    // Offset: 0x1CB0E34
     static IVRSystem::_GetUint64TrackedDeviceProperty* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt64 Invoke(System.UInt32 unDeviceIndex, Valve.VR.ETrackedDeviceProperty prop, ref Valve.VR.ETrackedPropertyError pError)
-    // Offset: 0x1F5F1E4
+    // Offset: 0x1CB0E48
     uint64_t Invoke(uint unDeviceIndex, Valve::VR::ETrackedDeviceProperty prop, Valve::VR::ETrackedPropertyError& pError);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unDeviceIndex, Valve.VR.ETrackedDeviceProperty prop, ref Valve.VR.ETrackedPropertyError pError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F5F490
+    // Offset: 0x1CB10F4
     System::IAsyncResult* BeginInvoke(uint unDeviceIndex, Valve::VR::ETrackedDeviceProperty prop, Valve::VR::ETrackedPropertyError& pError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt64 EndInvoke(ref Valve.VR.ETrackedPropertyError pError, System.IAsyncResult result)
-    // Offset: 0x1F5F564
+    // Offset: 0x1CB11C8
     uint64_t EndInvoke(Valve::VR::ETrackedPropertyError& pError, System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetUint64TrackedDeviceProperty
 }

@@ -116,25 +116,25 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Start()
-    // Offset: 0x1ACB6B8
+    // Offset: 0x186B8AC
     void Start();
     // private System.Void LateUpdate()
-    // Offset: 0x1ACB904
+    // Offset: 0x186BAF8
     void LateUpdate();
     // private UnityEngine.Vector3 get_pivot()
-    // Offset: 0x1ACB7B8
+    // Offset: 0x186B9AC
     UnityEngine::Vector3 get_pivot();
     // private System.Void ApplyMinDistance()
-    // Offset: 0x1ACC048
+    // Offset: 0x186C23C
     void ApplyMinDistance();
     // private System.Void RootRotation()
-    // Offset: 0x1ACC1E4
+    // Offset: 0x186C3D8
     void RootRotation();
     // private System.Collections.IEnumerator TurnToTarget()
-    // Offset: 0x1ACC554
+    // Offset: 0x186C748
     System::Collections::IEnumerator* TurnToTarget();
     // public System.Void .ctor()
-    // Offset: 0x1ACC5FC
+    // Offset: 0x186C7F0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

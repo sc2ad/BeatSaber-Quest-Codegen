@@ -23,28 +23,28 @@ namespace System::Security::Cryptography {
     // Offset: 0x20
     System::Security::Cryptography::OidGroup m_group;
     // public System.Void .ctor(System.String oid)
-    // Offset: 0x16B6D3C
+    // Offset: 0x1471910
     static Oid* New_ctor(::Il2CppString* oid);
     // System.Void .ctor(System.String oid, System.Security.Cryptography.OidGroup group, System.Boolean lookupFriendlyName)
-    // Offset: 0x16B6D48
+    // Offset: 0x147191C
     static Oid* New_ctor(::Il2CppString* oid, System::Security::Cryptography::OidGroup group, bool lookupFriendlyName);
     // public System.Void .ctor(System.String value, System.String friendlyName)
-    // Offset: 0x16B6E18
+    // Offset: 0x14719EC
     static Oid* New_ctor(::Il2CppString* value, ::Il2CppString* friendlyName);
     // public System.Void .ctor(System.Security.Cryptography.Oid oid)
-    // Offset: 0x16B6E68
+    // Offset: 0x1471A3C
     static Oid* New_ctor(System::Security::Cryptography::Oid* oid);
     // public System.String get_Value()
-    // Offset: 0x16B6F28
+    // Offset: 0x1471AFC
     ::Il2CppString* get_Value();
     // public System.Void set_Value(System.String value)
-    // Offset: 0x16B6F30
+    // Offset: 0x1471B04
     void set_Value(::Il2CppString* value);
     // public System.String get_FriendlyName()
-    // Offset: 0x16B6F38
+    // Offset: 0x1471B0C
     ::Il2CppString* get_FriendlyName();
     // public System.Void .ctor()
-    // Offset: 0x16B6D34
+    // Offset: 0x1471908
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Oid* New_ctor();

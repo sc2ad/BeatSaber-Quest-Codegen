@@ -41,12 +41,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: $ProcessDestinationRequest$d__8
     constexpr $ProcessDestinationRequest$d__8(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, GlobalNamespace::MainMenuDestinationRequestControler* $$4__this_ = {}, System::Threading::CancellationToken $cancellationToken$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $cancellationToken$5__2{$cancellationToken$5__2_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
-    // Offset: 0xDA1084
+    // Offset: 0xE4DC34
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDA108C
+    // Offset: 0xE4DC3C
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

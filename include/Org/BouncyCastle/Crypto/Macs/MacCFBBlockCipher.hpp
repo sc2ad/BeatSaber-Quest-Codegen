@@ -36,38 +36,38 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Offset: 0x30
     Org::BouncyCastle::Crypto::IBlockCipher* cipher;
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher, System.Int32 bitBlockSize)
-    // Offset: 0x16F720C
+    // Offset: 0x14B1DE0
     static MacCFBBlockCipher* New_ctor(Org::BouncyCastle::Crypto::IBlockCipher* cipher, int bitBlockSize);
     // public System.Void GetMacBlock(System.Byte[] mac)
-    // Offset: 0x16F7BC8
+    // Offset: 0x14B279C
     void GetMacBlock(::Array<uint8_t>* mac);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x16F74AC
+    // Offset: 0x14B2080
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Void IBlockCipher::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.String get_AlgorithmName()
-    // Offset: 0x16FA8C8
+    // Offset: 0x14B549C
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.String IBlockCipher::get_AlgorithmName()
     ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x16FA9C4
+    // Offset: 0x14B5598
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Boolean IBlockCipher::get_IsPartialBlockOkay()
     bool get_IsPartialBlockOkay();
     // public System.Int32 GetBlockSize()
-    // Offset: 0x16FA9CC
+    // Offset: 0x14B55A0
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Int32 IBlockCipher::GetBlockSize()
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x16F7694
+    // Offset: 0x14B2268
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Int32 IBlockCipher::ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
     int ProcessBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* outBytes, int outOff);
     // public System.Void Reset()
-    // Offset: 0x16F7C9C
+    // Offset: 0x14B2870
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Void IBlockCipher::Reset()
     void Reset();

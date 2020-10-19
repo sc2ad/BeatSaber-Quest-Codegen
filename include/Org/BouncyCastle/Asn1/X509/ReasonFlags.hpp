@@ -14,7 +14,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   class ReasonFlags : public Org::BouncyCastle::Asn1::DerBitString {
     public:
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerBitString reasons)
-    // Offset: 0x1865664
+    // Offset: 0x160BA88
     static ReasonFlags* New_ctor(Org::BouncyCastle::Asn1::DerBitString* reasons);
   }; // Org.BouncyCastle.Asn1.X509.ReasonFlags
 }

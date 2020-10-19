@@ -60,13 +60,13 @@ namespace System::Net {
     // Offset: 0x50
     System::Exception* Error;
     // public System.Void Complete(System.Exception e)
-    // Offset: 0x1468F98
+    // Offset: 0x123F7C0
     void Complete(System::Exception* e);
     // public System.Void Complete()
-    // Offset: 0x1468FC0
+    // Offset: 0x123F7E8
     void Complete();
     // public System.Object get_AsyncState()
-    // Offset: 0x14690B8
+    // Offset: 0x123F8E0
     // Implemented from: System.IAsyncResult
     // Base method: System.Object IAsyncResult::get_AsyncState()
     ::Il2CppObject* get_AsyncState();
@@ -74,7 +74,7 @@ namespace System::Net {
     // Maps to method: get_AsyncState
     ::Il2CppObject* System_IAsyncResult_get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x14690C0
+    // Offset: 0x123F8E8
     // Implemented from: System.IAsyncResult
     // Base method: System.Threading.WaitHandle IAsyncResult::get_AsyncWaitHandle()
     System::Threading::WaitHandle* get_AsyncWaitHandle();
@@ -82,7 +82,7 @@ namespace System::Net {
     // Maps to method: get_AsyncWaitHandle
     System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x14691C8
+    // Offset: 0x123F9F0
     // Implemented from: System.IAsyncResult
     // Base method: System.Boolean IAsyncResult::get_CompletedSynchronously()
     bool get_CompletedSynchronously();
@@ -90,7 +90,7 @@ namespace System::Net {
     // Maps to method: get_CompletedSynchronously
     bool System_IAsyncResult_get_CompletedSynchronously();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x14691DC
+    // Offset: 0x123FA04
     // Implemented from: System.IAsyncResult
     // Base method: System.Boolean IAsyncResult::get_IsCompleted()
     bool get_IsCompleted();
@@ -98,7 +98,7 @@ namespace System::Net {
     // Maps to method: get_IsCompleted
     bool System_IAsyncResult_get_IsCompleted();
     // public System.Void .ctor()
-    // Offset: 0x1469288
+    // Offset: 0x123FAB0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HttpStreamAsyncResult* New_ctor();

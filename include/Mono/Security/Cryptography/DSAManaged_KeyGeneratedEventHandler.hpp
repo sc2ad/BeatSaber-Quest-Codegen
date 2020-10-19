@@ -28,16 +28,16 @@ namespace Mono::Security::Cryptography {
   class DSAManaged::KeyGeneratedEventHandler : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x189ACF8
+    // Offset: 0x164111C
     static DSAManaged::KeyGeneratedEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Object sender, System.EventArgs e)
-    // Offset: 0x1899768
+    // Offset: 0x163FB8C
     void Invoke(::Il2CppObject* sender, System::EventArgs* e);
     // public System.IAsyncResult BeginInvoke(System.Object sender, System.EventArgs e, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x189AD0C
+    // Offset: 0x1641130
     System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, System::EventArgs* e, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x189AD3C
+    // Offset: 0x1641160
     void EndInvoke(System::IAsyncResult* result);
   }; // Mono.Security.Cryptography.DSAManaged/KeyGeneratedEventHandler
 }

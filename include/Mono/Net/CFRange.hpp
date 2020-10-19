@@ -23,7 +23,7 @@ namespace Mono::Net {
     // Creating value type constructor for type: CFRange
     constexpr CFRange(System::IntPtr Location_ = {}, System::IntPtr Length_ = {}) noexcept : Location{Location_}, Length{Length_} {}
     // public System.Void .ctor(System.Int32 loc, System.Int32 len)
-    // Offset: 0xDB30FC
+    // Offset: 0xC6951C
     CFRange(int loc, int len);
   }; // Mono.Net.CFRange
 }

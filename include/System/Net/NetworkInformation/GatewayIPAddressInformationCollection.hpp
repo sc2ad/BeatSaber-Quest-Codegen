@@ -45,21 +45,21 @@ namespace System::Net::NetworkInformation {
       return addresses;
     }
     // public System.Void CopyTo(System.Net.NetworkInformation.GatewayIPAddressInformation[] array, System.Int32 offset)
-    // Offset: 0x12C8204
+    // Offset: 0x10C3AA0
     void CopyTo(::Array<System::Net::NetworkInformation::GatewayIPAddressInformation*>* array, int offset);
     // System.Void InternalAdd(System.Net.NetworkInformation.GatewayIPAddressInformation address)
-    // Offset: 0x12C8354
+    // Offset: 0x10C3BF0
     void InternalAdd(System::Net::NetworkInformation::GatewayIPAddressInformation* address);
     // public System.Collections.Generic.IEnumerator`1<System.Net.NetworkInformation.GatewayIPAddressInformation> GetEnumerator()
-    // Offset: 0x12C8424
+    // Offset: 0x10C3CC0
     System::Collections::Generic::IEnumerator_1<System::Net::NetworkInformation::GatewayIPAddressInformation*>* GetEnumerator();
     // protected internal System.Void .ctor()
-    // Offset: 0x12C8188
+    // Offset: 0x10C3A24
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GatewayIPAddressInformationCollection* New_ctor();
     // public System.Int32 get_Count()
-    // Offset: 0x12C8274
+    // Offset: 0x10C3B10
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Int32 ICollection_1::get_Count()
     int get_Count();
@@ -67,7 +67,7 @@ namespace System::Net::NetworkInformation {
     // Maps to method: get_Count
     int System_Collections_Generic_ICollection_1_get_Count();
     // public System.Boolean get_IsReadOnly()
-    // Offset: 0x12C82CC
+    // Offset: 0x10C3B68
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection_1::get_IsReadOnly()
     bool get_IsReadOnly();
@@ -75,7 +75,7 @@ namespace System::Net::NetworkInformation {
     // Maps to method: get_IsReadOnly
     bool System_Collections_Generic_ICollection_1_get_IsReadOnly();
     // public System.Void Add(System.Net.NetworkInformation.GatewayIPAddressInformation address)
-    // Offset: 0x12C82D4
+    // Offset: 0x10C3B70
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection_1::Add(System.Net.NetworkInformation.GatewayIPAddressInformation address)
     void Add(System::Net::NetworkInformation::GatewayIPAddressInformation* address);
@@ -83,7 +83,7 @@ namespace System::Net::NetworkInformation {
     // Maps to method: Add
     void System_Collections_Generic_ICollection_1_Add(System::Net::NetworkInformation::GatewayIPAddressInformation* address);
     // public System.Boolean Contains(System.Net.NetworkInformation.GatewayIPAddressInformation address)
-    // Offset: 0x12C83BC
+    // Offset: 0x10C3C58
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection_1::Contains(System.Net.NetworkInformation.GatewayIPAddressInformation address)
     bool Contains(System::Net::NetworkInformation::GatewayIPAddressInformation* address);
@@ -91,12 +91,12 @@ namespace System::Net::NetworkInformation {
     // Maps to method: Contains
     bool System_Collections_Generic_ICollection_1_Contains(System::Net::NetworkInformation::GatewayIPAddressInformation* address);
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x12C847C
+    // Offset: 0x10C3D18
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public System.Boolean Remove(System.Net.NetworkInformation.GatewayIPAddressInformation address)
-    // Offset: 0x12C848C
+    // Offset: 0x10C3D28
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection_1::Remove(System.Net.NetworkInformation.GatewayIPAddressInformation address)
     bool Remove(System::Net::NetworkInformation::GatewayIPAddressInformation* address);
@@ -104,7 +104,7 @@ namespace System::Net::NetworkInformation {
     // Maps to method: Remove
     bool System_Collections_Generic_ICollection_1_Remove(System::Net::NetworkInformation::GatewayIPAddressInformation* address);
     // public System.Void Clear()
-    // Offset: 0x12C850C
+    // Offset: 0x10C3DA8
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection_1::Clear()
     void Clear();

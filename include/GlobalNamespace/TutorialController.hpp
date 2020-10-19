@@ -73,31 +73,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xF38E58
+    // Offset: 0x1F9F3AC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF38FF8
+    // Offset: 0x1F9F54C
     void OnDestroy();
     // private System.Void HandleIntroTutorialDidFinishEvent()
-    // Offset: 0xF3923C
+    // Offset: 0x1F9F790
     void HandleIntroTutorialDidFinishEvent();
     // private System.Void HandleTutorialSongControllerSongDidFinishEvent()
-    // Offset: 0xF392B4
+    // Offset: 0x1F9F808
     void HandleTutorialSongControllerSongDidFinishEvent();
     // private System.Collections.IEnumerator OutroCoroutine()
-    // Offset: 0xF39300
+    // Offset: 0x1F9F854
     System::Collections::IEnumerator* OutroCoroutine();
     // private System.Void HandlePauseControllerCanPause(System.Action`1<System.Boolean> canPause)
-    // Offset: 0xF393A8
+    // Offset: 0x1F9F8FC
     void HandlePauseControllerCanPause(System::Action_1<bool>* canPause);
     // private System.Void HandlePauseControllerDidPause()
-    // Offset: 0xF39434
+    // Offset: 0x1F9F988
     void HandlePauseControllerDidPause();
     // private System.Void HandlePauseControllerDidResume()
-    // Offset: 0xF39440
+    // Offset: 0x1F9F994
     void HandlePauseControllerDidResume();
     // public System.Void .ctor()
-    // Offset: 0xF39448
+    // Offset: 0x1F9F99C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -33,7 +33,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x20
     System::Runtime::Serialization::Formatters::Binary::SerStack* oiPool;
     // public System.Void .ctor()
-    // Offset: 0x14C03D4
+    // Offset: 0x1295BFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SerObjectInfoInit* New_ctor();

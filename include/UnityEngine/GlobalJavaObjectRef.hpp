@@ -20,13 +20,13 @@ namespace UnityEngine {
     // Offset: 0x18
     System::IntPtr m_jobject;
     // public System.Void .ctor(System.IntPtr jobject)
-    // Offset: 0x21B48C4
+    // Offset: 0x1F07528
     static GlobalJavaObjectRef* New_ctor(System::IntPtr jobject);
     // public System.Void Dispose()
-    // Offset: 0x21B5970
+    // Offset: 0x1F085D4
     void Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0x21B8740
+    // Offset: 0x1F0B3A4
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

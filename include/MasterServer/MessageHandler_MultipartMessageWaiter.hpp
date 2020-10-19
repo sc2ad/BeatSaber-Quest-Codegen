@@ -52,22 +52,22 @@ namespace MasterServer {
     // Offset: 0x31
     bool isDisposed;
     // public System.Void .ctor(SmallBufferPool bufferPool)
-    // Offset: 0x10C56FC
+    // Offset: 0x2127264
     static MessageHandler::MultipartMessageWaiter* New_ctor(GlobalNamespace::SmallBufferPool* bufferPool);
     // public System.Void Append(MasterServer.IMasterServerMultipartMessage packet)
-    // Offset: 0x10C57F4
+    // Offset: 0x212735C
     void Append(MasterServer::IMasterServerMultipartMessage* packet);
     // public System.Boolean get_isWaiting()
-    // Offset: 0x10C6290
+    // Offset: 0x2127DF8
     bool get_isWaiting();
     // public System.Byte[] get_data()
-    // Offset: 0x10C62B0
+    // Offset: 0x2127E18
     ::Array<uint8_t>* get_data();
     // public System.Int32 get_length()
-    // Offset: 0x10C62B8
+    // Offset: 0x2127E20
     int get_length();
     // public override System.Void Dispose()
-    // Offset: 0x10C579C
+    // Offset: 0x2127304
     // Implemented from: MasterServer.MessageHandler/RequestWaiter
     // Base method: System.Void RequestWaiter::Dispose()
     void Dispose();

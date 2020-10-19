@@ -171,94 +171,94 @@ namespace MasterServer {
     // Set static field: static private System.Int64 kKeepaliveRequestInterval
     static void _set_kKeepaliveRequestInterval(int64_t value);
     // public System.Void add_connectToClientEvent(MasterServer.UserMessageHandler/ConnectToClientDelegate value)
-    // Offset: 0x10C7D80
+    // Offset: 0x21298E8
     void add_connectToClientEvent(MasterServer::UserMessageHandler::ConnectToClientDelegate* value);
     // public System.Void remove_connectToClientEvent(MasterServer.UserMessageHandler/ConnectToClientDelegate value)
-    // Offset: 0x10C7E24
+    // Offset: 0x212998C
     void remove_connectToClientEvent(MasterServer::UserMessageHandler::ConnectToClientDelegate* value);
     // public System.Void add_broadcastingStoppedEvent(System.Action value)
-    // Offset: 0x10C7EC8
+    // Offset: 0x2129A30
     void add_broadcastingStoppedEvent(System::Action* value);
     // public System.Void remove_broadcastingStoppedEvent(System.Action value)
-    // Offset: 0x10C7F6C
+    // Offset: 0x2129AD4
     void remove_broadcastingStoppedEvent(System::Action* value);
     // public IAuthenticationTokenProvider get_authenticationTokenProvider()
-    // Offset: 0x10C8010
+    // Offset: 0x2129B78
     GlobalNamespace::IAuthenticationTokenProvider* get_authenticationTokenProvider();
     // public System.Void .ctor(MasterServer.MessageHandler/IMessageSender sender, PacketEncryptionLayer encryptionLayer, MasterServerEndPoint endPoint, IAuthenticationTokenProvider authenticationTokenProvider)
-    // Offset: 0x10C8018
+    // Offset: 0x2129B80
     static UserMessageHandler* New_ctor(MasterServer::MessageHandler::IMessageSender* sender, GlobalNamespace::PacketEncryptionLayer* encryptionLayer, GlobalNamespace::MasterServerEndPoint* endPoint, GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider);
     // private System.Void UpdateServerHeartbeat()
-    // Offset: 0x10C8084
+    // Offset: 0x2129BEC
     void UpdateServerHeartbeat();
     // private System.Void UpdateKeepalive()
-    // Offset: 0x10C826C
+    // Offset: 0x2129DD4
     void UpdateKeepalive();
     // public System.Void SetCurrentPlayerCount(System.Int32 currentPlayerCount)
-    // Offset: 0x10C8724
+    // Offset: 0x212A28C
     void SetCurrentPlayerCount(int currentPlayerCount);
     // public System.Void StartBroadcastingServer(System.String serverName, System.String userId, System.String userName, System.String secret, System.String password, System.Int32 currentPlayerCount, System.Int32 maxPlayerCount, DiscoveryPolicy discoveryPolicy, InvitePolicy invitePolicy, GameplayServerConfiguration configuration, System.Action`2<System.Net.IPEndPoint,System.String> onSuccess, System.Action`1<ConnectionFailedReason> onBroadcastFailed, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x10C8738
+    // Offset: 0x212A2A0
     void StartBroadcastingServer(::Il2CppString* serverName, ::Il2CppString* userId, ::Il2CppString* userName, ::Il2CppString* secret, ::Il2CppString* password, int currentPlayerCount, int maxPlayerCount, GlobalNamespace::DiscoveryPolicy discoveryPolicy, GlobalNamespace::InvitePolicy invitePolicy, GlobalNamespace::GameplayServerConfiguration configuration, System::Action_2<System::Net::IPEndPoint*, ::Il2CppString*>* onSuccess, System::Action_1<GlobalNamespace::ConnectionFailedReason>* onBroadcastFailed, System::Threading::CancellationToken cancellationToken);
     // public System.Void StopBroadcastingServer()
-    // Offset: 0x10C8A38
+    // Offset: 0x212A5A0
     void StopBroadcastingServer();
     // public System.Void ConnectToServer(System.String userId, System.String userName, System.String secret, System.String code, System.String password, System.Boolean useRelay, MasterServer.UserMessageHandler/ConnectToServerDelegate onSuccess, System.Action`1<ConnectionFailedReason> onConnectionFailed, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x10C8B40
+    // Offset: 0x212A6A8
     void ConnectToServer(::Il2CppString* userId, ::Il2CppString* userName, ::Il2CppString* secret, ::Il2CppString* code, ::Il2CppString* password, bool useRelay, MasterServer::UserMessageHandler::ConnectToServerDelegate* onSuccess, System::Action_1<GlobalNamespace::ConnectionFailedReason>* onConnectionFailed, System::Threading::CancellationToken cancellationToken);
     // public System.Void ConnectToMatchmaking(System.String userId, System.String userName, GameplayServerConfiguration configuration, System.String secret, MasterServer.UserMessageHandler/ConnectToServerDelegate onSuccess, System.Action`1<ConnectionFailedReason> onConnectionFailed, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x10C8D34
+    // Offset: 0x212A89C
     void ConnectToMatchmaking(::Il2CppString* userId, ::Il2CppString* userName, GlobalNamespace::GameplayServerConfiguration configuration, ::Il2CppString* secret, MasterServer::UserMessageHandler::ConnectToServerDelegate* onSuccess, System::Action_1<GlobalNamespace::ConnectionFailedReason>* onConnectionFailed, System::Threading::CancellationToken cancellationToken);
     // private System.Void SendConnectToServerRequest(MasterServer.BaseConnectToServerRequest request, MasterServer.UserMessageHandler/ConnectToServerDelegate onSuccess, System.Action`1<ConnectionFailedReason> onConnectionFailed, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x10C8C1C
+    // Offset: 0x212A784
     void SendConnectToServerRequest(MasterServer::BaseConnectToServerRequest* request, MasterServer::UserMessageHandler::ConnectToServerDelegate* onSuccess, System::Action_1<GlobalNamespace::ConnectionFailedReason>* onConnectionFailed, System::Threading::CancellationToken cancellationToken);
     // public System.Void GetPublicServers(System.String userId, System.String userName, System.Int32 offset, System.Int32 count, GameplayServerFilter filter, System.Action`1<System.Collections.Generic.IReadOnlyList`1<PublicServerInfo>> onSuccess, System.Action`1<ConnectionFailedReason> onFailure, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x10C8E30
+    // Offset: 0x212A998
     void GetPublicServers(::Il2CppString* userId, ::Il2CppString* userName, int offset, int count, GlobalNamespace::GameplayServerFilter filter, System::Action_1<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PublicServerInfo>*>* onSuccess, System::Action_1<GlobalNamespace::ConnectionFailedReason>* onFailure, System::Threading::CancellationToken cancellationToken);
     // private System.Void WithFailureHandler(System.Action`1<ConnectionFailedReason> onFailure, System.Func`1<System.Threading.Tasks.Task> performTask)
-    // Offset: 0x10C893C
+    // Offset: 0x212A4A4
     void WithFailureHandler(System::Action_1<GlobalNamespace::ConnectionFailedReason>* onFailure, System::Func_1<System::Threading::Tasks::Task*>* performTask);
     // private System.Byte[] GetServerRandom()
-    // Offset: 0x10C8FA0
+    // Offset: 0x212AB08
     ::Array<uint8_t>* GetServerRandom();
     // private System.Threading.Tasks.Task`1<IDiffieHellmanKeyPair> GetServerKeys(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x10C902C
+    // Offset: 0x212AB94
     System::Threading::Tasks::Task_1<GlobalNamespace::IDiffieHellmanKeyPair*>* GetServerKeys(System::Threading::CancellationToken cancellationToken);
     // private System.Void ValidateCertificateChainInternal(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, System.Byte[][] certificateChain)
-    // Offset: 0x10C90E8
+    // Offset: 0x212AC50
     void ValidateCertificateChainInternal(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, ::Array<::Array<uint8_t>*>* certificateChain);
     // public override System.Void PollUpdate()
-    // Offset: 0x10C8058
+    // Offset: 0x2129BC0
     // Implemented from: MasterServer.MessageHandler
     // Base method: System.Void MessageHandler::PollUpdate()
     void PollUpdate();
     // protected override System.Boolean ShouldHandleUserMessage(MasterServer.IUserMessage packet, MasterServer.MessageHandler/MessageOrigin origin)
-    // Offset: 0x10C8394
+    // Offset: 0x2129EFC
     // Implemented from: MasterServer.MessageHandler
     // Base method: System.Boolean MessageHandler::ShouldHandleUserMessage(MasterServer.IUserMessage packet, MasterServer.MessageHandler/MessageOrigin origin)
     bool ShouldHandleUserMessage(MasterServer::IUserMessage* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // protected override System.Threading.Tasks.Task`1<MasterServer.IMasterServerAuthenticateRequest> GetAuthenticationRequest()
-    // Offset: 0x10C83F0
+    // Offset: 0x2129F58
     // Implemented from: MasterServer.BaseClientMessageHandler
     // Base method: System.Threading.Tasks.Task`1<MasterServer.IMasterServerAuthenticateRequest> BaseClientMessageHandler::GetAuthenticationRequest()
     System::Threading::Tasks::Task_1<MasterServer::IMasterServerAuthenticateRequest*>* GetAuthenticationRequest();
     // protected override System.Void HandleBroadcastServerHeartbeatResponse(MasterServer.BroadcastServerHeartbeatResponse packet, MasterServer.MessageHandler/MessageOrigin origin)
-    // Offset: 0x10C8508
+    // Offset: 0x212A070
     // Implemented from: MasterServer.MessageHandler
     // Base method: System.Void MessageHandler::HandleBroadcastServerHeartbeatResponse(MasterServer.BroadcastServerHeartbeatResponse packet, MasterServer.MessageHandler/MessageOrigin origin)
     void HandleBroadcastServerHeartbeatResponse(MasterServer::BroadcastServerHeartbeatResponse* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // protected override System.Void HandlePrepareForConnectionRequest(MasterServer.PrepareForConnectionRequest packet, MasterServer.MessageHandler/MessageOrigin origin)
-    // Offset: 0x10C85C0
+    // Offset: 0x212A128
     // Implemented from: MasterServer.MessageHandler
     // Base method: System.Void MessageHandler::HandlePrepareForConnectionRequest(MasterServer.PrepareForConnectionRequest packet, MasterServer.MessageHandler/MessageOrigin origin)
     void HandlePrepareForConnectionRequest(MasterServer::PrepareForConnectionRequest* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // protected override System.Void ValidateCertificateChain(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, System.Byte[][] certificateChain)
-    // Offset: 0x10C90E4
+    // Offset: 0x212AC4C
     // Implemented from: MasterServer.BaseClientMessageHandler
     // Base method: System.Void BaseClientMessageHandler::ValidateCertificateChain(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, System.Byte[][] certificateChain)
     void ValidateCertificateChain(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, ::Array<::Array<uint8_t>*>* certificateChain);
     // private System.Void HandshakeLog(System.String message)
-    // Offset: 0x10C927C
+    // Offset: 0x212ADE4
     // Implemented from: MasterServer.BaseClientMessageHandler
     // Base method: System.Void BaseClientMessageHandler::HandshakeLog(System.String message)
     void HandshakeLog(::Il2CppString* message);

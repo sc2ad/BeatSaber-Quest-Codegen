@@ -120,34 +120,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Start()
-    // Offset: 0xFCE6A0
+    // Offset: 0x20631D8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xFCE7D4
+    // Offset: 0x206330C
     void OnDestroy();
     // public System.Void SetHorizontalPositionRelativeToLocalPlayer(MultiplayerConnectedPlayerScoreDiffText/HorizontalPosition relativePosition)
-    // Offset: 0xFCE8F4
+    // Offset: 0x206342C
     void SetHorizontalPositionRelativeToLocalPlayer(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::HorizontalPosition relativePosition);
     // public System.Void AnimateScoreDiff(System.Int32 scoreDiff)
-    // Offset: 0xFCEA0C
+    // Offset: 0x2063544
     void AnimateScoreDiff(int scoreDiff);
     // public System.Void AnimateHide()
-    // Offset: 0xFCEBCC
+    // Offset: 0x2063704
     void AnimateHide();
     // private System.Void HandleNewLeaderWasSelected(System.String userId)
-    // Offset: 0xFCECC8
+    // Offset: 0x2063800
     void HandleNewLeaderWasSelected(::Il2CppString* userId);
     // private System.Void <Start>b__13_0(System.Single val)
-    // Offset: 0xFCEE58
+    // Offset: 0x2063990
     void $Start$b__13_0(float val);
     // private System.Void <AnimateScoreDiff>b__16_0()
-    // Offset: 0xFCEEDC
+    // Offset: 0x2063A14
     void $AnimateScoreDiff$b__16_0();
     // private System.Void <AnimateHide>b__17_0()
-    // Offset: 0xFCEEE8
+    // Offset: 0x2063A20
     void $AnimateHide$b__17_0();
     // public System.Void .ctor()
-    // Offset: 0xFCEE04
+    // Offset: 0x206393C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

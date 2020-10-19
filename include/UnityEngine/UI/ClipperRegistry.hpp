@@ -36,19 +36,19 @@ namespace UnityEngine::UI {
     // Set static field: static private UnityEngine.UI.ClipperRegistry s_Instance
     static void _set_s_Instance(UnityEngine::UI::ClipperRegistry* value);
     // static public UnityEngine.UI.ClipperRegistry get_instance()
-    // Offset: 0x1287088
+    // Offset: 0x1081924
     static UnityEngine::UI::ClipperRegistry* get_instance();
     // public System.Void Cull()
-    // Offset: 0x128710C
+    // Offset: 0x10819A8
     void Cull();
     // static public System.Void Register(UnityEngine.UI.IClipper c)
-    // Offset: 0x1287CB0
+    // Offset: 0x108254C
     static void Register(UnityEngine::UI::IClipper* c);
     // static public System.Void Unregister(UnityEngine.UI.IClipper c)
-    // Offset: 0x1287D24
+    // Offset: 0x10825C0
     static void Unregister(UnityEngine::UI::IClipper* c);
     // protected System.Void .ctor()
-    // Offset: 0x1287C34
+    // Offset: 0x10824D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ClipperRegistry* New_ctor();

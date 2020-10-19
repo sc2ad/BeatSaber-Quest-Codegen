@@ -73,10 +73,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public LevelCompletionResults FillLevelCompletionResults(LevelCompletionResults/LevelEndStateType levelEndStateType, LevelCompletionResults/LevelEndAction levelEndAction)
-    // Offset: 0xF71054
+    // Offset: 0x2090D64
     GlobalNamespace::LevelCompletionResults* FillLevelCompletionResults(GlobalNamespace::LevelCompletionResults::LevelEndStateType levelEndStateType, GlobalNamespace::LevelCompletionResults::LevelEndAction levelEndAction);
     // public System.Void .ctor()
-    // Offset: 0xF712F4
+    // Offset: 0x2090FAC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -23,29 +23,29 @@ namespace Mono::Security::Protocol::Ntlm {
     // Offset: 0x28
     ::Array<uint8_t>* targetInfo;
     // public System.Void .ctor(System.Byte[] message)
-    // Offset: 0x1B8ABA4
+    // Offset: 0x192CD98
     static Type2Message* New_ctor(::Array<uint8_t>* message);
     // public System.Byte[] get_Nonce()
-    // Offset: 0x1B89B78
+    // Offset: 0x192BD6C
     ::Array<uint8_t>* get_Nonce();
     // public System.String get_TargetName()
-    // Offset: 0x1B8ACD4
+    // Offset: 0x192CEC8
     ::Il2CppString* get_TargetName();
     // public System.Byte[] get_TargetInfo()
-    // Offset: 0x1B89AF8
+    // Offset: 0x192BCEC
     ::Array<uint8_t>* get_TargetInfo();
     // protected override System.Void Finalize()
-    // Offset: 0x1B8AC58
+    // Offset: 0x192CE4C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected override System.Void Decode(System.Byte[] message)
-    // Offset: 0x1B8ACDC
+    // Offset: 0x192CED0
     // Implemented from: Mono.Security.Protocol.Ntlm.MessageBase
     // Base method: System.Void MessageBase::Decode(System.Byte[] message)
     void Decode(::Array<uint8_t>* message);
     // public override System.Byte[] GetBytes()
-    // Offset: 0x1B8AE7C
+    // Offset: 0x192D070
     // Implemented from: Mono.Security.Protocol.Ntlm.MessageBase
     // Base method: System.Byte[] MessageBase::GetBytes()
     ::Array<uint8_t>* GetBytes();

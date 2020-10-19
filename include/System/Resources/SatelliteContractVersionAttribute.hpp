@@ -21,10 +21,10 @@ namespace System::Resources {
       return version;
     }
     // public System.Void .ctor(System.String version)
-    // Offset: 0x18E3024
+    // Offset: 0x1689448
     static SatelliteContractVersionAttribute* New_ctor(::Il2CppString* version);
     // public System.String get_Version()
-    // Offset: 0x18E30C8
+    // Offset: 0x16894EC
     ::Il2CppString* get_Version();
   }; // System.Resources.SatelliteContractVersionAttribute
 }

@@ -18,19 +18,19 @@ namespace System::Runtime::Remoting {
     // Offset: 0x18
     ::Il2CppString* type_name;
     // public System.String get_AssemblyName()
-    // Offset: 0x15067F0
+    // Offset: 0x12DD018
     ::Il2CppString* get_AssemblyName();
     // public System.Void set_AssemblyName(System.String value)
-    // Offset: 0x15067F8
+    // Offset: 0x12DD020
     void set_AssemblyName(::Il2CppString* value);
     // public System.String get_TypeName()
-    // Offset: 0x1506800
+    // Offset: 0x12DD028
     ::Il2CppString* get_TypeName();
     // public System.Void set_TypeName(System.String value)
-    // Offset: 0x1506808
+    // Offset: 0x12DD030
     void set_TypeName(::Il2CppString* value);
     // protected System.Void .ctor()
-    // Offset: 0x15067E8
+    // Offset: 0x12DD010
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TypeEntry* New_ctor();

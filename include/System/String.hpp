@@ -115,7 +115,7 @@ namespace System {
     // Set static field: static private System.Int32 alignConst
     static void _set_alignConst(int value);
     // static public System.String Join(System.String separator, params System.String[] value)
-    // Offset: 0x143E578
+    // Offset: 0x1214CB4
     static ::Il2CppString* Join(::Il2CppString* separator, ::Array<::Il2CppString*>* value);
     // Creating initializer_list -> params proxy for: System.String Join(System.String separator, params System.String[] value)
     static ::Il2CppString* Join(::Il2CppString* separator, std::initializer_list<::Il2CppString*> value);
@@ -131,49 +131,49 @@ namespace System {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Il2CppString*>("System", "String", "Join", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, separator, values)));
     }
     // static public System.String Join(System.String separator, System.Collections.Generic.IEnumerable`1<System.String> values)
-    // Offset: 0x143E8B4
+    // Offset: 0x1214FF0
     static ::Il2CppString* Join(::Il2CppString* separator, System::Collections::Generic::IEnumerable_1<::Il2CppString*>* values);
     // static public System.String Join(System.String separator, System.String[] value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x143E614
+    // Offset: 0x1214D50
     static ::Il2CppString* Join(::Il2CppString* separator, ::Array<::Il2CppString*>* value, int startIndex, int count);
     // static private System.Int32 CompareOrdinalIgnoreCaseHelper(System.String strA, System.String strB)
-    // Offset: 0x143EDC0
+    // Offset: 0x12154FC
     static int CompareOrdinalIgnoreCaseHelper(::Il2CppString* strA, ::Il2CppString* strB);
     // static private System.Boolean EqualsHelper(System.String strA, System.String strB)
-    // Offset: 0x143EEAC
+    // Offset: 0x12155E8
     static bool EqualsHelper(::Il2CppString* strA, ::Il2CppString* strB);
     // static private System.Int32 CompareOrdinalHelper(System.String strA, System.String strB)
-    // Offset: 0x143EFF8
+    // Offset: 0x1215734
     static int CompareOrdinalHelper(::Il2CppString* strA, ::Il2CppString* strB);
     // public System.Boolean Equals(System.String value, System.StringComparison comparisonType)
-    // Offset: 0x143F268
+    // Offset: 0x12159A4
     bool Equals(::Il2CppString* value, System::StringComparison comparisonType);
     // static public System.Boolean Equals(System.String a, System.String b)
-    // Offset: 0x143F55C
+    // Offset: 0x1215C98
     static bool Equals(::Il2CppString* a, ::Il2CppString* b);
     // static public System.Boolean Equals(System.String a, System.String b, System.StringComparison comparisonType)
-    // Offset: 0x143F598
+    // Offset: 0x1215CD4
     static bool Equals(::Il2CppString* a, ::Il2CppString* b, System::StringComparison comparisonType);
     // public System.Char get_Chars(System.Int32 index)
-    // Offset: 0x143359C
+    // Offset: 0x1209CD8
     ::Il2CppChar get_Chars(int index);
     // public System.Void CopyTo(System.Int32 sourceIndex, System.Char[] destination, System.Int32 destinationIndex, System.Int32 count)
-    // Offset: 0x143F854
+    // Offset: 0x1215F90
     void CopyTo(int sourceIndex, ::Array<::Il2CppChar>* destination, int destinationIndex, int count);
     // public System.Char[] ToCharArray()
-    // Offset: 0x143FA40
+    // Offset: 0x121617C
     ::Array<::Il2CppChar>* ToCharArray();
     // static public System.Boolean IsNullOrEmpty(System.String value)
-    // Offset: 0x143FAD8
+    // Offset: 0x1216214
     static bool IsNullOrEmpty(::Il2CppString* value);
     // static public System.Boolean IsNullOrWhiteSpace(System.String value)
-    // Offset: 0x143FAF4
+    // Offset: 0x1216230
     static bool IsNullOrWhiteSpace(::Il2CppString* value);
     // System.Int32 GetLegacyNonRandomizedHashCode()
-    // Offset: 0x143FC28
+    // Offset: 0x1216364
     int GetLegacyNonRandomizedHashCode();
     // public System.String[] Split(params System.Char[] separator)
-    // Offset: 0x143FCA0
+    // Offset: 0x12163DC
     ::Array<::Il2CppString*>* Split(::Array<::Il2CppChar>* separator);
     // Creating initializer_list -> params proxy for: System.String[] Split(params System.Char[] separator)
     ::Array<::Il2CppString*>* Split(std::initializer_list<::Il2CppChar> separator);
@@ -183,43 +183,43 @@ namespace System {
       return Split({separator...});
     }
     // public System.String[] Split(System.Char[] separator, System.Int32 count)
-    // Offset: 0x143FF18
+    // Offset: 0x1216654
     ::Array<::Il2CppString*>* Split(::Array<::Il2CppChar>* separator, int count);
     // public System.String[] Split(System.Char[] separator, System.StringSplitOptions options)
-    // Offset: 0x143FF20
+    // Offset: 0x121665C
     ::Array<::Il2CppString*>* Split(::Array<::Il2CppChar>* separator, System::StringSplitOptions options);
     // System.String[] SplitInternal(System.Char[] separator, System.Int32 count, System.StringSplitOptions options)
-    // Offset: 0x143FCAC
+    // Offset: 0x12163E8
     ::Array<::Il2CppString*>* SplitInternal(::Array<::Il2CppChar>* separator, int count, System::StringSplitOptions options);
     // public System.String[] Split(System.String[] separator, System.StringSplitOptions options)
-    // Offset: 0x1440648
+    // Offset: 0x1216D84
     ::Array<::Il2CppString*>* Split(::Array<::Il2CppString*>* separator, System::StringSplitOptions options);
     // public System.String[] Split(System.String[] separator, System.Int32 count, System.StringSplitOptions options)
-    // Offset: 0x1440654
+    // Offset: 0x1216D90
     ::Array<::Il2CppString*>* Split(::Array<::Il2CppString*>* separator, int count, System::StringSplitOptions options);
     // private System.String[] InternalSplitKeepEmptyEntries(System.Int32[] sepList, System.Int32[] lengthList, System.Int32 numReplaces, System.Int32 count)
-    // Offset: 0x144040C
+    // Offset: 0x1216B48
     ::Array<::Il2CppString*>* InternalSplitKeepEmptyEntries(::Array<int>* sepList, ::Array<int>* lengthList, int numReplaces, int count);
     // private System.String[] InternalSplitOmitEmptyEntries(System.Int32[] sepList, System.Int32[] lengthList, System.Int32 numReplaces, System.Int32 count)
-    // Offset: 0x14400F8
+    // Offset: 0x1216834
     ::Array<::Il2CppString*>* InternalSplitOmitEmptyEntries(::Array<int>* sepList, ::Array<int>* lengthList, int numReplaces, int count);
     // private System.Int32 MakeSeparatorList(System.Char[] separator, ref System.Int32[] sepList)
-    // Offset: 0x143FF2C
+    // Offset: 0x1216668
     int MakeSeparatorList(::Array<::Il2CppChar>* separator, ::Array<int>*& sepList);
     // private System.Int32 MakeSeparatorList(System.String[] separators, ref System.Int32[] sepList, ref System.Int32[] lengthList)
-    // Offset: 0x14408F4
+    // Offset: 0x1217030
     int MakeSeparatorList(::Array<::Il2CppString*>* separators, ::Array<int>*& sepList, ::Array<int>*& lengthList);
     // public System.String Substring(System.Int32 startIndex)
-    // Offset: 0x1440A98
+    // Offset: 0x12171D4
     ::Il2CppString* Substring(int startIndex);
     // public System.String Substring(System.Int32 startIndex, System.Int32 length)
-    // Offset: 0x1435920
+    // Offset: 0x120C05C
     ::Il2CppString* Substring(int startIndex, int length);
     // private System.String InternalSubString(System.Int32 startIndex, System.Int32 length)
-    // Offset: 0x1440AD0
+    // Offset: 0x121720C
     ::Il2CppString* InternalSubString(int startIndex, int length);
     // public System.String Trim(params System.Char[] trimChars)
-    // Offset: 0x1440B2C
+    // Offset: 0x1217268
     ::Il2CppString* Trim(::Array<::Il2CppChar>* trimChars);
     // Creating initializer_list -> params proxy for: System.String Trim(params System.Char[] trimChars)
     ::Il2CppString* Trim(std::initializer_list<::Il2CppChar> trimChars);
@@ -229,7 +229,7 @@ namespace System {
       return Trim({trimChars...});
     }
     // public System.String TrimStart(params System.Char[] trimChars)
-    // Offset: 0x1440DF8
+    // Offset: 0x1217534
     ::Il2CppString* TrimStart(::Array<::Il2CppChar>* trimChars);
     // Creating initializer_list -> params proxy for: System.String TrimStart(params System.Char[] trimChars)
     ::Il2CppString* TrimStart(std::initializer_list<::Il2CppChar> trimChars);
@@ -239,7 +239,7 @@ namespace System {
       return TrimStart({trimChars...});
     }
     // public System.String TrimEnd(params System.Char[] trimChars)
-    // Offset: 0x1440E14
+    // Offset: 0x1217550
     ::Il2CppString* TrimEnd(::Array<::Il2CppChar>* trimChars);
     // Creating initializer_list -> params proxy for: System.String TrimEnd(params System.Char[] trimChars)
     ::Il2CppString* TrimEnd(std::initializer_list<::Il2CppChar> trimChars);
@@ -249,211 +249,211 @@ namespace System {
       return TrimEnd({trimChars...});
     }
     // public System.Void .ctor(System.Char* value)
-    // Offset: 0x1440E30
+    // Offset: 0x121756C
     static ::Il2CppString* New_ctor(::Il2CppChar* value);
     // public System.Void .ctor(System.Char* value, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0x1440E34
+    // Offset: 0x1217570
     static ::Il2CppString* New_ctor(::Il2CppChar* value, int startIndex, int length);
     // public System.Void .ctor(System.SByte* value, System.Int32 startIndex, System.Int32 length, System.Text.Encoding enc)
-    // Offset: 0x1440E38
+    // Offset: 0x1217574
     static ::Il2CppString* New_ctor(int8_t* value, int startIndex, int length, System::Text::Encoding* enc);
     // static System.String CreateStringFromEncoding(System.Byte* bytes, System.Int32 byteLength, System.Text.Encoding encoding)
-    // Offset: 0x1440E3C
+    // Offset: 0x1217578
     static ::Il2CppString* CreateStringFromEncoding(uint8_t* bytes, int byteLength, System::Text::Encoding* encoding);
     // public System.String Normalize(System.Text.NormalizationForm normalizationForm)
-    // Offset: 0x1440F14
+    // Offset: 0x1217650
     ::Il2CppString* Normalize(System::Text::NormalizationForm normalizationForm);
     // static System.String FastAllocateString(System.Int32 length)
-    // Offset: 0x143EDBC
+    // Offset: 0x12154F8
     static ::Il2CppString* FastAllocateString(int length);
     // static private System.Void FillStringChecked(System.String dest, System.Int32 destPos, System.String src)
-    // Offset: 0x1440FEC
+    // Offset: 0x1217728
     static void FillStringChecked(::Il2CppString* dest, int destPos, ::Il2CppString* src);
     // public System.Void .ctor(System.Char[] value, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0x14410A0
+    // Offset: 0x12177DC
     static ::Il2CppString* New_ctor(::Array<::Il2CppChar>* value, int startIndex, int length);
     // public System.Void .ctor(System.Char[] value)
-    // Offset: 0x14410A4
+    // Offset: 0x12177E0
     static ::Il2CppString* New_ctor(::Array<::Il2CppChar>* value);
     // static System.Void wstrcpy(System.Char* dmem, System.Char* smem, System.Int32 charCount)
-    // Offset: 0x143FA34
+    // Offset: 0x1216170
     static void wstrcpy(::Il2CppChar* dmem, ::Il2CppChar* smem, int charCount);
     // private System.String CtorCharArray(System.Char[] value)
-    // Offset: 0x14410A8
+    // Offset: 0x12177E4
     ::Il2CppString* CtorCharArray(::Array<::Il2CppChar>* value);
     // private System.String CtorCharArrayStartLength(System.Char[] value, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0x144114C
+    // Offset: 0x1217888
     ::Il2CppString* CtorCharArrayStartLength(::Array<::Il2CppChar>* value, int startIndex, int length);
     // static private System.Int32 wcslen(System.Char* ptr)
-    // Offset: 0x14412FC
+    // Offset: 0x1217A38
     static int wcslen(::Il2CppChar* ptr);
     // private System.String CtorCharPtr(System.Char* ptr)
-    // Offset: 0x1441374
+    // Offset: 0x1217AB0
     ::Il2CppString* CtorCharPtr(::Il2CppChar* ptr);
     // private System.String CtorCharPtrStartLength(System.Char* ptr, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0x1441528
+    // Offset: 0x1217C64
     ::Il2CppString* CtorCharPtrStartLength(::Il2CppChar* ptr, int startIndex, int length);
     // public System.Void .ctor(System.Char c, System.Int32 count)
-    // Offset: 0x1441758
+    // Offset: 0x1217E94
     static ::Il2CppString* New_ctor(::Il2CppChar c, int count);
     // static public System.Int32 Compare(System.String strA, System.String strB)
-    // Offset: 0x144175C
+    // Offset: 0x1217E98
     static int Compare(::Il2CppString* strA, ::Il2CppString* strB);
     // static public System.Int32 Compare(System.String strA, System.String strB, System.Boolean ignoreCase)
-    // Offset: 0x14417FC
+    // Offset: 0x1217F38
     static int Compare(::Il2CppString* strA, ::Il2CppString* strB, bool ignoreCase);
     // static public System.Int32 Compare(System.String strA, System.String strB, System.StringComparison comparisonType)
-    // Offset: 0x143C1B4
+    // Offset: 0x12128F0
     static int Compare(::Il2CppString* strA, ::Il2CppString* strB, System::StringComparison comparisonType);
     // static public System.Int32 Compare(System.String strA, System.String strB, System.Boolean ignoreCase, System.Globalization.CultureInfo culture)
-    // Offset: 0x14418E4
+    // Offset: 0x1218020
     static int Compare(::Il2CppString* strA, ::Il2CppString* strB, bool ignoreCase, System::Globalization::CultureInfo* culture);
     // static public System.Int32 Compare(System.String strA, System.Int32 indexA, System.String strB, System.Int32 indexB, System.Int32 length)
-    // Offset: 0x14419AC
+    // Offset: 0x12180E8
     static int Compare(::Il2CppString* strA, int indexA, ::Il2CppString* strB, int indexB, int length);
     // static public System.Int32 Compare(System.String strA, System.Int32 indexA, System.String strB, System.Int32 indexB, System.Int32 length, System.Globalization.CultureInfo culture, System.Globalization.CompareOptions options)
-    // Offset: 0x1441AAC
+    // Offset: 0x12181E8
     static int Compare(::Il2CppString* strA, int indexA, ::Il2CppString* strB, int indexB, int length, System::Globalization::CultureInfo* culture, System::Globalization::CompareOptions options);
     // static public System.Int32 Compare(System.String strA, System.Int32 indexA, System.String strB, System.Int32 indexB, System.Int32 length, System.StringComparison comparisonType)
-    // Offset: 0x143CDD0
+    // Offset: 0x121350C
     static int Compare(::Il2CppString* strA, int indexA, ::Il2CppString* strB, int indexB, int length, System::StringComparison comparisonType);
     // static public System.Int32 CompareOrdinal(System.String strA, System.String strB)
-    // Offset: 0x1441ED8
+    // Offset: 0x1218614
     static int CompareOrdinal(::Il2CppString* strA, ::Il2CppString* strB);
     // static public System.Int32 CompareOrdinal(System.String strA, System.Int32 indexA, System.String strB, System.Int32 indexB, System.Int32 length)
-    // Offset: 0x1440AA4
+    // Offset: 0x12171E0
     static int CompareOrdinal(::Il2CppString* strA, int indexA, ::Il2CppString* strB, int indexB, int length);
     // public System.Boolean Contains(System.String value)
-    // Offset: 0x1441F20
+    // Offset: 0x121865C
     bool Contains(::Il2CppString* value);
     // public System.Boolean EndsWith(System.String value)
-    // Offset: 0x1441F58
+    // Offset: 0x1218694
     bool EndsWith(::Il2CppString* value);
     // public System.Boolean EndsWith(System.String value, System.StringComparison comparisonType)
-    // Offset: 0x143A688
+    // Offset: 0x1210DC4
     bool EndsWith(::Il2CppString* value, System::StringComparison comparisonType);
     // System.Boolean EndsWith(System.Char value)
-    // Offset: 0x1441F60
+    // Offset: 0x121869C
     bool EndsWith(::Il2CppChar value);
     // public System.Int32 IndexOf(System.Char value)
-    // Offset: 0x1441FA4
+    // Offset: 0x12186E0
     int IndexOf(::Il2CppChar value);
     // public System.Int32 IndexOf(System.Char value, System.Int32 startIndex)
-    // Offset: 0x14420F8
+    // Offset: 0x1218834
     int IndexOf(::Il2CppChar value, int startIndex);
     // public System.Int32 IndexOfAny(System.Char[] anyOf)
-    // Offset: 0x1439980
+    // Offset: 0x12100BC
     int IndexOfAny(::Array<::Il2CppChar>* anyOf);
     // public System.Int32 IndexOfAny(System.Char[] anyOf, System.Int32 startIndex)
-    // Offset: 0x144221C
+    // Offset: 0x1218958
     int IndexOfAny(::Array<::Il2CppChar>* anyOf, int startIndex);
     // public System.Int32 IndexOf(System.String value)
-    // Offset: 0x1435900
+    // Offset: 0x120C03C
     int IndexOf(::Il2CppString* value);
     // public System.Int32 IndexOf(System.String value, System.Int32 startIndex)
-    // Offset: 0x1435910
+    // Offset: 0x120C04C
     int IndexOf(::Il2CppString* value, int startIndex);
     // public System.Int32 IndexOf(System.String value, System.StringComparison comparisonType)
-    // Offset: 0x1441F48
+    // Offset: 0x1218684
     int IndexOf(::Il2CppString* value, System::StringComparison comparisonType);
     // public System.Int32 IndexOf(System.String value, System.Int32 startIndex, System.StringComparison comparisonType)
-    // Offset: 0x1442228
+    // Offset: 0x1218964
     int IndexOf(::Il2CppString* value, int startIndex, System::StringComparison comparisonType);
     // public System.Int32 IndexOf(System.String value, System.Int32 startIndex, System.Int32 count, System.StringComparison comparisonType)
-    // Offset: 0x1442238
+    // Offset: 0x1218974
     int IndexOf(::Il2CppString* value, int startIndex, int count, System::StringComparison comparisonType);
     // public System.Int32 LastIndexOf(System.Char value)
-    // Offset: 0x14425DC
+    // Offset: 0x1218D18
     int LastIndexOf(::Il2CppChar value);
     // public System.Int32 LastIndexOf(System.Char value, System.Int32 startIndex)
-    // Offset: 0x1442730
+    // Offset: 0x1218E6C
     int LastIndexOf(::Il2CppChar value, int startIndex);
     // public System.Int32 LastIndexOfAny(System.Char[] anyOf)
-    // Offset: 0x1442738
+    // Offset: 0x1218E74
     int LastIndexOfAny(::Array<::Il2CppChar>* anyOf);
     // public System.Int32 LastIndexOfAny(System.Char[] anyOf, System.Int32 startIndex)
-    // Offset: 0x14428A8
+    // Offset: 0x1218FE4
     int LastIndexOfAny(::Array<::Il2CppChar>* anyOf, int startIndex);
     // public System.Int32 LastIndexOf(System.String value)
-    // Offset: 0x14428B0
+    // Offset: 0x1218FEC
     int LastIndexOf(::Il2CppString* value);
     // public System.Int32 LastIndexOf(System.String value, System.StringComparison comparisonType)
-    // Offset: 0x1442CDC
+    // Offset: 0x1219418
     int LastIndexOf(::Il2CppString* value, System::StringComparison comparisonType);
     // public System.Int32 LastIndexOf(System.String value, System.Int32 startIndex, System.Int32 count, System.StringComparison comparisonType)
-    // Offset: 0x14428C0
+    // Offset: 0x1218FFC
     int LastIndexOf(::Il2CppString* value, int startIndex, int count, System::StringComparison comparisonType);
     // public System.String PadLeft(System.Int32 totalWidth, System.Char paddingChar)
-    // Offset: 0x1442CEC
+    // Offset: 0x1219428
     ::Il2CppString* PadLeft(int totalWidth, ::Il2CppChar paddingChar);
     // public System.String PadRight(System.Int32 totalWidth, System.Char paddingChar)
-    // Offset: 0x1442E44
+    // Offset: 0x1219580
     ::Il2CppString* PadRight(int totalWidth, ::Il2CppChar paddingChar);
     // public System.Boolean StartsWith(System.String value)
-    // Offset: 0x1442E4C
+    // Offset: 0x1219588
     bool StartsWith(::Il2CppString* value);
     // public System.Boolean StartsWith(System.String value, System.StringComparison comparisonType)
-    // Offset: 0x1442EE4
+    // Offset: 0x1219620
     bool StartsWith(::Il2CppString* value, System::StringComparison comparisonType);
     // public System.String ToLower()
-    // Offset: 0x1443180
+    // Offset: 0x12198BC
     ::Il2CppString* ToLower();
     // public System.String ToLower(System.Globalization.CultureInfo culture)
-    // Offset: 0x14431F0
+    // Offset: 0x121992C
     ::Il2CppString* ToLower(System::Globalization::CultureInfo* culture);
     // public System.String ToLowerInvariant()
-    // Offset: 0x14432A0
+    // Offset: 0x12199DC
     ::Il2CppString* ToLowerInvariant();
     // public System.String ToUpper()
-    // Offset: 0x1443310
+    // Offset: 0x1219A4C
     ::Il2CppString* ToUpper();
     // public System.String ToUpper(System.Globalization.CultureInfo culture)
-    // Offset: 0x1443380
+    // Offset: 0x1219ABC
     ::Il2CppString* ToUpper(System::Globalization::CultureInfo* culture);
     // public System.String ToUpperInvariant()
-    // Offset: 0x1443430
+    // Offset: 0x1219B6C
     ::Il2CppString* ToUpperInvariant();
     // static private System.Boolean IsBOMWhitespace(System.Char c)
-    // Offset: 0x14434AC
+    // Offset: 0x1219BE8
     static bool IsBOMWhitespace(::Il2CppChar c);
     // public System.String Trim()
-    // Offset: 0x143DD24
+    // Offset: 0x1214460
     ::Il2CppString* Trim();
     // private System.String TrimHelper(System.Int32 trimType)
-    // Offset: 0x1440B48
+    // Offset: 0x1217284
     ::Il2CppString* TrimHelper(int trimType);
     // private System.String TrimHelper(System.Char[] trimChars, System.Int32 trimType)
-    // Offset: 0x1440CAC
+    // Offset: 0x12173E8
     ::Il2CppString* TrimHelper(::Array<::Il2CppChar>* trimChars, int trimType);
     // private System.String CreateTrimmedString(System.Int32 start, System.Int32 end)
-    // Offset: 0x14434B4
+    // Offset: 0x1219BF0
     ::Il2CppString* CreateTrimmedString(int start, int end);
     // public System.String Insert(System.Int32 startIndex, System.String value)
-    // Offset: 0x144354C
+    // Offset: 0x1219C88
     ::Il2CppString* Insert(int startIndex, ::Il2CppString* value);
     // public System.String Replace(System.Char oldChar, System.Char newChar)
-    // Offset: 0x14436AC
+    // Offset: 0x1219DE8
     ::Il2CppString* Replace(::Il2CppChar oldChar, ::Il2CppChar newChar);
     // public System.String Replace(System.String oldValue, System.String newValue)
-    // Offset: 0x14437A0
+    // Offset: 0x1219EDC
     ::Il2CppString* Replace(::Il2CppString* oldValue, ::Il2CppString* newValue);
     // public System.String Remove(System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x1443940
+    // Offset: 0x121A07C
     ::Il2CppString* Remove(int startIndex, int count);
     // public System.String Remove(System.Int32 startIndex)
-    // Offset: 0x1443AC0
+    // Offset: 0x121A1FC
     ::Il2CppString* Remove(int startIndex);
     // static public System.String Format(System.String format, System.Object arg0)
-    // Offset: 0x14358B0
+    // Offset: 0x120BFEC
     static ::Il2CppString* Format(::Il2CppString* format, ::Il2CppObject* arg0);
     // static public System.String Format(System.String format, System.Object arg0, System.Object arg1)
-    // Offset: 0x143D66C
+    // Offset: 0x1213DA8
     static ::Il2CppString* Format(::Il2CppString* format, ::Il2CppObject* arg0, ::Il2CppObject* arg1);
     // static public System.String Format(System.String format, System.Object arg0, System.Object arg1, System.Object arg2)
-    // Offset: 0x1443C78
+    // Offset: 0x121A3B4
     static ::Il2CppString* Format(::Il2CppString* format, ::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2);
     // static public System.String Format(System.String format, params System.Object[] args)
-    // Offset: 0x1443CC8
+    // Offset: 0x121A404
     static ::Il2CppString* Format(::Il2CppString* format, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.String Format(System.String format, params System.Object[] args)
     static ::Il2CppString* Format(::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
@@ -463,16 +463,16 @@ namespace System {
       return Format(format, {args...});
     }
     // static public System.String Format(System.IFormatProvider provider, System.String format, System.Object arg0)
-    // Offset: 0x1443DA0
+    // Offset: 0x121A4DC
     static ::Il2CppString* Format(System::IFormatProvider* provider, ::Il2CppString* format, ::Il2CppObject* arg0);
     // static public System.String Format(System.IFormatProvider provider, System.String format, System.Object arg0, System.Object arg1)
-    // Offset: 0x1443DF8
+    // Offset: 0x121A534
     static ::Il2CppString* Format(System::IFormatProvider* provider, ::Il2CppString* format, ::Il2CppObject* arg0, ::Il2CppObject* arg1);
     // static public System.String Format(System.IFormatProvider provider, System.String format, System.Object arg0, System.Object arg1, System.Object arg2)
-    // Offset: 0x1443E54
+    // Offset: 0x121A590
     static ::Il2CppString* Format(System::IFormatProvider* provider, ::Il2CppString* format, ::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2);
     // static public System.String Format(System.IFormatProvider provider, System.String format, params System.Object[] args)
-    // Offset: 0x1443EB4
+    // Offset: 0x121A5F0
     static ::Il2CppString* Format(System::IFormatProvider* provider, ::Il2CppString* format, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.String Format(System.IFormatProvider provider, System.String format, params System.Object[] args)
     static ::Il2CppString* Format(System::IFormatProvider* provider, ::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
@@ -482,22 +482,22 @@ namespace System {
       return Format(provider, format, {args...});
     }
     // static private System.String FormatHelper(System.IFormatProvider provider, System.String format, System.ParamsArray args)
-    // Offset: 0x1443B90
+    // Offset: 0x121A2CC
     static ::Il2CppString* FormatHelper(System::IFormatProvider* provider, ::Il2CppString* format, System::ParamsArray args);
     // static public System.String Copy(System.String str)
-    // Offset: 0x1443F90
+    // Offset: 0x121A6CC
     static ::Il2CppString* Copy(::Il2CppString* str);
     // static public System.String Concat(System.Object arg0)
-    // Offset: 0x1444048
+    // Offset: 0x121A784
     static ::Il2CppString* Concat(::Il2CppObject* arg0);
     // static public System.String Concat(System.Object arg0, System.Object arg1)
-    // Offset: 0x14440B8
+    // Offset: 0x121A7F4
     static ::Il2CppString* Concat(::Il2CppObject* arg0, ::Il2CppObject* arg1);
     // static public System.String Concat(System.Object arg0, System.Object arg1, System.Object arg2)
-    // Offset: 0x144417C
+    // Offset: 0x121A8B8
     static ::Il2CppString* Concat(::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2);
     // static public System.String Concat(params System.Object[] args)
-    // Offset: 0x144427C
+    // Offset: 0x121A9B8
     static ::Il2CppString* Concat(::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.String Concat(params System.Object[] args)
     static ::Il2CppString* Concat(std::initializer_list<::Il2CppObject*> args);
@@ -507,162 +507,162 @@ namespace System {
       return Concat({args...});
     }
     // static public System.String Concat(System.String str0, System.String str1)
-    // Offset: 0x1439548
+    // Offset: 0x120FC84
     static ::Il2CppString* Concat(::Il2CppString* str0, ::Il2CppString* str1);
     // static public System.String Concat(System.String str0, System.String str1, System.String str2)
-    // Offset: 0x1438BB0
+    // Offset: 0x120F2EC
     static ::Il2CppString* Concat(::Il2CppString* str0, ::Il2CppString* str1, ::Il2CppString* str2);
     // static public System.String Concat(System.String str0, System.String str1, System.String str2, System.String str3)
-    // Offset: 0x1444534
+    // Offset: 0x121AC70
     static ::Il2CppString* Concat(::Il2CppString* str0, ::Il2CppString* str1, ::Il2CppString* str2, ::Il2CppString* str3);
     // static private System.String ConcatArray(System.String[] values, System.Int32 totalLength)
-    // Offset: 0x144448C
+    // Offset: 0x121ABC8
     static ::Il2CppString* ConcatArray(::Array<::Il2CppString*>* values, int totalLength);
     // static public System.String Concat(params System.String[] values)
-    // Offset: 0x14446A0
+    // Offset: 0x121ADDC
     static ::Il2CppString* Concat(::Array<::Il2CppString*>* values);
     // Creating initializer_list -> params proxy for: System.String Concat(params System.String[] values)
     static ::Il2CppString* Concat(std::initializer_list<::Il2CppString*> values);
     // static public System.String IsInterned(System.String str)
-    // Offset: 0x1444848
+    // Offset: 0x121AF84
     static ::Il2CppString* IsInterned(::Il2CppString* str);
     // public System.Int32 get_Length()
-    // Offset: 0x14450B0
+    // Offset: 0x121B7EC
     int get_Length();
     // static System.Int32 CompareOrdinalUnchecked(System.String strA, System.Int32 indexA, System.Int32 lenA, System.String strB, System.Int32 indexB, System.Int32 lenB)
-    // Offset: 0x14450B8
+    // Offset: 0x121B7F4
     static int CompareOrdinalUnchecked(::Il2CppString* strA, int indexA, int lenA, ::Il2CppString* strB, int indexB, int lenB);
     // public System.Int32 IndexOf(System.Char value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x1441FB0
+    // Offset: 0x12186EC
     int IndexOf(::Il2CppChar value, int startIndex, int count);
     // System.Int32 IndexOfUnchecked(System.Char value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x144523C
+    // Offset: 0x121B978
     int IndexOfUnchecked(::Il2CppChar value, int startIndex, int count);
     // System.Int32 IndexOfUnchecked(System.String value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x14453F8
+    // Offset: 0x121BB34
     int IndexOfUnchecked(::Il2CppString* value, int startIndex, int count);
     // public System.Int32 IndexOfAny(System.Char[] anyOf, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x1442104
+    // Offset: 0x1218840
     int IndexOfAny(::Array<::Il2CppChar>* anyOf, int startIndex, int count);
     // private System.Int32 IndexOfAnyUnchecked(System.Char[] anyOf, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x1445518
+    // Offset: 0x121BC54
     int IndexOfAnyUnchecked(::Array<::Il2CppChar>* anyOf, int startIndex, int count);
     // public System.Int32 LastIndexOf(System.Char value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x14425E8
+    // Offset: 0x1218D24
     int LastIndexOf(::Il2CppChar value, int startIndex, int count);
     // System.Int32 LastIndexOfUnchecked(System.Char value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x1445608
+    // Offset: 0x121BD44
     int LastIndexOfUnchecked(::Il2CppChar value, int startIndex, int count);
     // public System.Int32 LastIndexOfAny(System.Char[] anyOf, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x1442744
+    // Offset: 0x1218E80
     int LastIndexOfAny(::Array<::Il2CppChar>* anyOf, int startIndex, int count);
     // private System.Int32 LastIndexOfAnyUnchecked(System.Char[] anyOf, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x14457CC
+    // Offset: 0x121BF08
     int LastIndexOfAnyUnchecked(::Array<::Il2CppChar>* anyOf, int startIndex, int count);
     // static System.Int32 nativeCompareOrdinalEx(System.String strA, System.Int32 indexA, System.String strB, System.Int32 indexB, System.Int32 count)
-    // Offset: 0x1441BD4
+    // Offset: 0x1218310
     static int nativeCompareOrdinalEx(::Il2CppString* strA, int indexA, ::Il2CppString* strB, int indexB, int count);
     // private System.String ReplaceInternal(System.Char oldChar, System.Char newChar)
-    // Offset: 0x14436B0
+    // Offset: 0x1219DEC
     ::Il2CppString* ReplaceInternal(::Il2CppChar oldChar, ::Il2CppChar newChar);
     // System.String ReplaceInternal(System.String oldValue, System.String newValue)
-    // Offset: 0x144383C
+    // Offset: 0x1219F78
     ::Il2CppString* ReplaceInternal(::Il2CppString* oldValue, ::Il2CppString* newValue);
     // private System.String ReplaceUnchecked(System.String oldValue, System.String newValue)
-    // Offset: 0x14458B8
+    // Offset: 0x121BFF4
     ::Il2CppString* ReplaceUnchecked(::Il2CppString* oldValue, ::Il2CppString* newValue);
     // private System.String ReplaceFallback(System.String oldValue, System.String newValue, System.Int32 testedCount)
-    // Offset: 0x1445C44
+    // Offset: 0x121C380
     ::Il2CppString* ReplaceFallback(::Il2CppString* oldValue, ::Il2CppString* newValue, int testedCount);
     // private System.String PadHelper(System.Int32 totalWidth, System.Char paddingChar, System.Boolean isRightPadded)
-    // Offset: 0x1442CF4
+    // Offset: 0x1219430
     ::Il2CppString* PadHelper(int totalWidth, ::Il2CppChar paddingChar, bool isRightPadded);
     // System.Boolean StartsWithOrdinalUnchecked(System.String value)
-    // Offset: 0x1445D98
+    // Offset: 0x121C4D4
     bool StartsWithOrdinalUnchecked(::Il2CppString* value);
     // System.Boolean IsAscii()
-    // Offset: 0x143F51C
+    // Offset: 0x1215C58
     bool IsAscii();
     // static private System.String InternalIsInterned(System.String str)
-    // Offset: 0x14448CC
+    // Offset: 0x121B008
     static ::Il2CppString* InternalIsInterned(::Il2CppString* str);
     // static System.Void CharCopy(System.Char* dest, System.Char* src, System.Int32 count)
-    // Offset: 0x1445870
+    // Offset: 0x121BFAC
     static void CharCopy(::Il2CppChar* dest, ::Il2CppChar* src, int count);
     // static private System.Void memset(System.Byte* dest, System.Int32 val, System.Int32 len)
-    // Offset: 0x1445DE4
+    // Offset: 0x121C520
     static void memset(uint8_t* dest, int val, int len);
     // static private System.Void memcpy(System.Byte* dest, System.Byte* src, System.Int32 size)
-    // Offset: 0x1445EA0
+    // Offset: 0x121C5DC
     static void memcpy(uint8_t* dest, uint8_t* src, int size);
     // static System.Void bzero(System.Byte* dest, System.Int32 len)
-    // Offset: 0x1445EA8
+    // Offset: 0x121C5E4
     static void bzero_(uint8_t* dest, int len);
     // static System.Void bzero_aligned_1(System.Byte* dest, System.Int32 len)
-    // Offset: 0x1445EB4
+    // Offset: 0x121C5F0
     static void bzero_aligned_1(uint8_t* dest, int len);
     // static System.Void bzero_aligned_2(System.Byte* dest, System.Int32 len)
-    // Offset: 0x1445EBC
+    // Offset: 0x121C5F8
     static void bzero_aligned_2(uint8_t* dest, int len);
     // static System.Void bzero_aligned_4(System.Byte* dest, System.Int32 len)
-    // Offset: 0x1445EC4
+    // Offset: 0x121C600
     static void bzero_aligned_4(uint8_t* dest, int len);
     // static System.Void bzero_aligned_8(System.Byte* dest, System.Int32 len)
-    // Offset: 0x1445ECC
+    // Offset: 0x121C608
     static void bzero_aligned_8(uint8_t* dest, int len);
     // static System.Void memcpy_aligned_1(System.Byte* dest, System.Byte* src, System.Int32 size)
-    // Offset: 0x1445ED4
+    // Offset: 0x121C610
     static void memcpy_aligned_1(uint8_t* dest, uint8_t* src, int size);
     // static System.Void memcpy_aligned_2(System.Byte* dest, System.Byte* src, System.Int32 size)
-    // Offset: 0x1445EE0
+    // Offset: 0x121C61C
     static void memcpy_aligned_2(uint8_t* dest, uint8_t* src, int size);
     // static System.Void memcpy_aligned_4(System.Byte* dest, System.Byte* src, System.Int32 size)
-    // Offset: 0x1445EEC
+    // Offset: 0x121C628
     static void memcpy_aligned_4(uint8_t* dest, uint8_t* src, int size);
     // static System.Void memcpy_aligned_8(System.Byte* dest, System.Byte* src, System.Int32 size)
-    // Offset: 0x1445EF8
+    // Offset: 0x121C634
     static void memcpy_aligned_8(uint8_t* dest, uint8_t* src, int size);
     // private System.String CreateString(System.SByte* value)
-    // Offset: 0x1445F04
+    // Offset: 0x121C640
     ::Il2CppString* CreateString(int8_t* value);
     // private System.String CreateString(System.SByte* value, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0x144626C
+    // Offset: 0x121C9A8
     ::Il2CppString* CreateString(int8_t* value, int startIndex, int length);
     // private System.String CreateString(System.Char* value)
-    // Offset: 0x1446274
+    // Offset: 0x121C9B0
     ::Il2CppString* CreateString(::Il2CppChar* value);
     // private System.String CreateString(System.Char* value, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0x1446278
+    // Offset: 0x121C9B4
     ::Il2CppString* CreateString(::Il2CppChar* value, int startIndex, int length);
     // private System.String CreateString(System.Char[] val, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0x143D588
+    // Offset: 0x1213CC4
     ::Il2CppString* CreateString(::Array<::Il2CppChar>* val, int startIndex, int length);
     // private System.String CreateString(System.Char[] val)
-    // Offset: 0x1433630
+    // Offset: 0x1209D6C
     ::Il2CppString* CreateString(::Array<::Il2CppChar>* val);
     // private System.String CreateString(System.Char c, System.Int32 count)
-    // Offset: 0x143CB94
+    // Offset: 0x12132D0
     ::Il2CppString* CreateString(::Il2CppChar c, int count);
     // private System.String CreateString(System.SByte* value, System.Int32 startIndex, System.Int32 length, System.Text.Encoding enc)
-    // Offset: 0x1445F98
+    // Offset: 0x121C6D4
     ::Il2CppString* CreateString(int8_t* value, int startIndex, int length, System::Text::Encoding* enc);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x143F188
+    // Offset: 0x12158C4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(System.String value)
-    // Offset: 0x143A5C8
+    // Offset: 0x1210D04
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(System.String value)
     bool Equals(::Il2CppString* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x143FBB0
+    // Offset: 0x12162EC
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public System.Int32 CompareTo(System.Object value)
-    // Offset: 0x1441D48
+    // Offset: 0x1218484
     // Implemented from: System.IComparable
     // Base method: System.Int32 IComparable::CompareTo(System.Object value)
     int CompareTo(::Il2CppObject* value);
@@ -670,22 +670,22 @@ namespace System {
     // Maps to method: CompareTo
     int System_IComparable_CompareTo(::Il2CppObject* value);
     // public System.Int32 CompareTo(System.String strB)
-    // Offset: 0x1441E20
+    // Offset: 0x121855C
     // Implemented from: System.IComparable`1
     // Base method: System.Int32 IComparable_1::CompareTo(System.String strB)
     int CompareTo(::Il2CppString* strB);
     // public override System.String ToString()
-    // Offset: 0x14434A0
+    // Offset: 0x1219BDC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public System.String ToString(System.IFormatProvider provider)
-    // Offset: 0x14434A4
+    // Offset: 0x1219BE0
     // Implemented from: System.IConvertible
     // Base method: System.String IConvertible::ToString(System.IFormatProvider provider)
     ::Il2CppString* ToString(System::IFormatProvider* provider);
     // public System.Object Clone()
-    // Offset: 0x14434A8
+    // Offset: 0x1219BE4
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();
@@ -693,101 +693,101 @@ namespace System {
     // Maps to method: Clone
     ::Il2CppObject* System_ICloneable_Clone();
     // public System.TypeCode GetTypeCode()
-    // Offset: 0x14448D0
+    // Offset: 0x121B00C
     // Implemented from: System.IConvertible
     // Base method: System.TypeCode IConvertible::GetTypeCode()
     System::TypeCode GetTypeCode();
     // private System.Boolean System.IConvertible.ToBoolean(System.IFormatProvider provider)
-    // Offset: 0x14448D8
+    // Offset: 0x121B014
     // Implemented from: System.IConvertible
     // Base method: System.Boolean IConvertible::ToBoolean(System.IFormatProvider provider)
     bool System_IConvertible_ToBoolean(System::IFormatProvider* provider);
     // private System.Char System.IConvertible.ToChar(System.IFormatProvider provider)
-    // Offset: 0x1444950
+    // Offset: 0x121B08C
     // Implemented from: System.IConvertible
     // Base method: System.Char IConvertible::ToChar(System.IFormatProvider provider)
     ::Il2CppChar System_IConvertible_ToChar(System::IFormatProvider* provider);
     // private System.SByte System.IConvertible.ToSByte(System.IFormatProvider provider)
-    // Offset: 0x14449C8
+    // Offset: 0x121B104
     // Implemented from: System.IConvertible
     // Base method: System.SByte IConvertible::ToSByte(System.IFormatProvider provider)
     int8_t System_IConvertible_ToSByte(System::IFormatProvider* provider);
     // private System.Byte System.IConvertible.ToByte(System.IFormatProvider provider)
-    // Offset: 0x1444A40
+    // Offset: 0x121B17C
     // Implemented from: System.IConvertible
     // Base method: System.Byte IConvertible::ToByte(System.IFormatProvider provider)
     uint8_t System_IConvertible_ToByte(System::IFormatProvider* provider);
     // private System.Int16 System.IConvertible.ToInt16(System.IFormatProvider provider)
-    // Offset: 0x1444AB8
+    // Offset: 0x121B1F4
     // Implemented from: System.IConvertible
     // Base method: System.Int16 IConvertible::ToInt16(System.IFormatProvider provider)
     int16_t System_IConvertible_ToInt16(System::IFormatProvider* provider);
     // private System.UInt16 System.IConvertible.ToUInt16(System.IFormatProvider provider)
-    // Offset: 0x1444B30
+    // Offset: 0x121B26C
     // Implemented from: System.IConvertible
     // Base method: System.UInt16 IConvertible::ToUInt16(System.IFormatProvider provider)
     uint16_t System_IConvertible_ToUInt16(System::IFormatProvider* provider);
     // private System.Int32 System.IConvertible.ToInt32(System.IFormatProvider provider)
-    // Offset: 0x1444BA8
+    // Offset: 0x121B2E4
     // Implemented from: System.IConvertible
     // Base method: System.Int32 IConvertible::ToInt32(System.IFormatProvider provider)
     int System_IConvertible_ToInt32(System::IFormatProvider* provider);
     // private System.UInt32 System.IConvertible.ToUInt32(System.IFormatProvider provider)
-    // Offset: 0x1444C20
+    // Offset: 0x121B35C
     // Implemented from: System.IConvertible
     // Base method: System.UInt32 IConvertible::ToUInt32(System.IFormatProvider provider)
     uint System_IConvertible_ToUInt32(System::IFormatProvider* provider);
     // private System.Int64 System.IConvertible.ToInt64(System.IFormatProvider provider)
-    // Offset: 0x1444C98
+    // Offset: 0x121B3D4
     // Implemented from: System.IConvertible
     // Base method: System.Int64 IConvertible::ToInt64(System.IFormatProvider provider)
     int64_t System_IConvertible_ToInt64(System::IFormatProvider* provider);
     // private System.UInt64 System.IConvertible.ToUInt64(System.IFormatProvider provider)
-    // Offset: 0x1444D10
+    // Offset: 0x121B44C
     // Implemented from: System.IConvertible
     // Base method: System.UInt64 IConvertible::ToUInt64(System.IFormatProvider provider)
     uint64_t System_IConvertible_ToUInt64(System::IFormatProvider* provider);
     // private System.Single System.IConvertible.ToSingle(System.IFormatProvider provider)
-    // Offset: 0x1444D88
+    // Offset: 0x121B4C4
     // Implemented from: System.IConvertible
     // Base method: System.Single IConvertible::ToSingle(System.IFormatProvider provider)
     float System_IConvertible_ToSingle(System::IFormatProvider* provider);
     // private System.Double System.IConvertible.ToDouble(System.IFormatProvider provider)
-    // Offset: 0x1444E00
+    // Offset: 0x121B53C
     // Implemented from: System.IConvertible
     // Base method: System.Double IConvertible::ToDouble(System.IFormatProvider provider)
     double System_IConvertible_ToDouble(System::IFormatProvider* provider);
     // private System.Decimal System.IConvertible.ToDecimal(System.IFormatProvider provider)
-    // Offset: 0x1444E78
+    // Offset: 0x121B5B4
     // Implemented from: System.IConvertible
     // Base method: System.Decimal IConvertible::ToDecimal(System.IFormatProvider provider)
     System::Decimal System_IConvertible_ToDecimal(System::IFormatProvider* provider);
     // private System.DateTime System.IConvertible.ToDateTime(System.IFormatProvider provider)
-    // Offset: 0x1444EF0
+    // Offset: 0x121B62C
     // Implemented from: System.IConvertible
     // Base method: System.DateTime IConvertible::ToDateTime(System.IFormatProvider provider)
     System::DateTime System_IConvertible_ToDateTime(System::IFormatProvider* provider);
     // private System.Object System.IConvertible.ToType(System.Type type, System.IFormatProvider provider)
-    // Offset: 0x1444F68
+    // Offset: 0x121B6A4
     // Implemented from: System.IConvertible
     // Base method: System.Object IConvertible::ToType(System.Type type, System.IFormatProvider provider)
     ::Il2CppObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
     // private System.Collections.Generic.IEnumerator`1<System.Char> System.Collections.Generic.IEnumerable<System.Char>.GetEnumerator()
-    // Offset: 0x1444FE8
+    // Offset: 0x121B724
     // Implemented from: System.Collections.Generic.IEnumerable`1
     // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable_1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<::Il2CppChar>* System_Collections_Generic_IEnumerable_1_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x144504C
+    // Offset: 0x121B788
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.String
   // static public System.Boolean op_Equality(System.String a, System.String b)
-  // Offset: 0x1435728
+  // Offset: 0x120BE64
   bool operator ==(::Il2CppString* a, ::Il2CppString& b);
   // static public System.Boolean op_Inequality(System.String a, System.String b)
-  // Offset: 0x1436FB0
+  // Offset: 0x120D6EC
   bool operator !=(::Il2CppString* a, ::Il2CppString& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::String*, "System", "String");

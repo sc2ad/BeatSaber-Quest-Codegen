@@ -37,13 +37,13 @@ namespace UnityEngine::TestTools::Utils {
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.TestTools.Utils.IAssemblyWrapper> m_LoadedAssemblies
     static void _set_m_LoadedAssemblies(System::Collections::Generic::List_1<UnityEngine::TestTools::Utils::IAssemblyWrapper*>* value);
     // System.Void .ctor(UnityEngine.TestTools.Utils.IAssemblyLoadProxy assemblyLoadProxy, System.Collections.Generic.List`1<System.String> assembliesToLoad)
-    // Offset: 0x22230CC
+    // Offset: 0x1F73480
     static PlayerTestAssemblyProvider* New_ctor(UnityEngine::TestTools::Utils::IAssemblyLoadProxy* assemblyLoadProxy, System::Collections::Generic::List_1<::Il2CppString*>* assembliesToLoad);
     // public System.Collections.Generic.List`1<UnityEngine.TestTools.Utils.IAssemblyWrapper> GetUserAssemblies()
-    // Offset: 0x22233B8
+    // Offset: 0x1F7376C
     System::Collections::Generic::List_1<UnityEngine::TestTools::Utils::IAssemblyWrapper*>* GetUserAssemblies();
     // private System.Void LoadAssemblies()
-    // Offset: 0x2223124
+    // Offset: 0x1F734D8
     void LoadAssemblies();
   }; // UnityEngine.TestTools.Utils.PlayerTestAssemblyProvider
 }

@@ -22,19 +22,19 @@ namespace Mono::Net {
     // Set static field: static private readonly System.IntPtr ValueCallbacks
     static void _set_ValueCallbacks(System::IntPtr value);
     // static private System.Void .cctor()
-    // Offset: 0x1414908
+    // Offset: 0x11EB044
     static void _cctor();
     // static private System.IntPtr CFDictionaryGetValue(System.IntPtr handle, System.IntPtr key)
-    // Offset: 0x1414A48
+    // Offset: 0x11EB184
     static System::IntPtr CFDictionaryGetValue(System::IntPtr handle, System::IntPtr key);
     // public System.IntPtr GetValue(System.IntPtr key)
-    // Offset: 0x1414AD8
+    // Offset: 0x11EB214
     System::IntPtr GetValue(System::IntPtr key);
     // public System.IntPtr get_Item(System.IntPtr key)
-    // Offset: 0x1414B50
+    // Offset: 0x11EB28C
     System::IntPtr get_Item(System::IntPtr key);
     // public System.Void .ctor(System.IntPtr handle, System.Boolean own)
-    // Offset: 0x14149F8
+    // Offset: 0x11EB134
     // Implemented from: Mono.Net.CFObject
     // Base method: System.Void CFObject::.ctor(System.IntPtr handle, System.Boolean own)
     static CFDictionary* New_ctor(System::IntPtr handle, bool own);

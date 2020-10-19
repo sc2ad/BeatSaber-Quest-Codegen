@@ -57,27 +57,27 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kAssetsDir
     static void _set_kAssetsDir(::Il2CppString* value);
     // public System.Void add_levelDataAssetDownloadUpdateEvent(System.Action`1<LevelDataAssetDownloadUpdate> value)
-    // Offset: 0xF31068
+    // Offset: 0x1F982DC
     // Implemented from: IBeatmapDataAssetFileModel
     // Base method: System.Void IBeatmapDataAssetFileModel::add_levelDataAssetDownloadUpdateEvent(System.Action`1<LevelDataAssetDownloadUpdate> value)
     void add_levelDataAssetDownloadUpdateEvent(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
     // public System.Void remove_levelDataAssetDownloadUpdateEvent(System.Action`1<LevelDataAssetDownloadUpdate> value)
-    // Offset: 0xF3110C
+    // Offset: 0x1F98380
     // Implemented from: IBeatmapDataAssetFileModel
     // Base method: System.Void IBeatmapDataAssetFileModel::remove_levelDataAssetDownloadUpdateEvent(System.Action`1<LevelDataAssetDownloadUpdate> value)
     void remove_levelDataAssetDownloadUpdateEvent(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
     // public System.Threading.Tasks.Task`1<GetAssetBundleFileResult> GetAssetBundleFileForPreviewLevelAsync(IPreviewBeatmapLevel previewBeatmapLevel, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xF311B0
+    // Offset: 0x1F98424
     // Implemented from: IBeatmapDataAssetFileModel
     // Base method: System.Threading.Tasks.Task`1<GetAssetBundleFileResult> IBeatmapDataAssetFileModel::GetAssetBundleFileForPreviewLevelAsync(IPreviewBeatmapLevel previewBeatmapLevel, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<GlobalNamespace::GetAssetBundleFileResult>* GetAssetBundleFileForPreviewLevelAsync(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<System.Boolean> TryDeleteAssetBundleFileForPreviewLevelAsync(IPreviewBeatmapLevel previewBeatmapLevel, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xF31304
+    // Offset: 0x1F98578
     // Implemented from: IBeatmapDataAssetFileModel
     // Base method: System.Threading.Tasks.Task`1<System.Boolean> IBeatmapDataAssetFileModel::TryDeleteAssetBundleFileForPreviewLevelAsync(IPreviewBeatmapLevel previewBeatmapLevel, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<bool>* TryDeleteAssetBundleFileForPreviewLevelAsync(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0xF31410
+    // Offset: 0x1F98684
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TestBeatmapDataAssetFileModel* New_ctor();

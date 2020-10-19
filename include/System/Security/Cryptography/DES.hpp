@@ -29,36 +29,36 @@ namespace System::Security::Cryptography {
     // Set static field: static private System.Security.Cryptography.KeySizes[] s_legalKeySizes
     static void _set_s_legalKeySizes(::Array<System::Security::Cryptography::KeySizes*>* value);
     // static public System.Security.Cryptography.DES Create()
-    // Offset: 0x19CD17C
+    // Offset: 0x17735A0
     static System::Security::Cryptography::DES* Create();
     // static public System.Boolean IsWeakKey(System.Byte[] rgbKey)
-    // Offset: 0x19CCC30
+    // Offset: 0x1773054
     static bool IsWeakKey(::Array<uint8_t>* rgbKey);
     // static public System.Boolean IsSemiWeakKey(System.Byte[] rgbKey)
-    // Offset: 0x19CCD68
+    // Offset: 0x177318C
     static bool IsSemiWeakKey(::Array<uint8_t>* rgbKey);
     // static private System.Boolean IsLegalKeySize(System.Byte[] rgbKey)
-    // Offset: 0x19CD2A4
+    // Offset: 0x17736C8
     static bool IsLegalKeySize(::Array<uint8_t>* rgbKey);
     // static private System.UInt64 QuadWordFromBigEndian(System.Byte[] block)
-    // Offset: 0x19CD2C4
+    // Offset: 0x17736E8
     static uint64_t QuadWordFromBigEndian(::Array<uint8_t>* block);
     // static private System.Void .cctor()
-    // Offset: 0x19CD368
+    // Offset: 0x177378C
     static void _cctor();
     // protected System.Void .ctor()
-    // Offset: 0x19CCA8C
+    // Offset: 0x1772EB0
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()
     static DES* New_ctor();
     // public override System.Byte[] get_Key()
-    // Offset: 0x19CCB34
+    // Offset: 0x1772F58
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Byte[] SymmetricAlgorithm::get_Key()
     ::Array<uint8_t>* get_Key();
     // public override System.Void set_Key(System.Byte[] value)
-    // Offset: 0x19CCF8C
+    // Offset: 0x17733B0
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::set_Key(System.Byte[] value)
     void set_Key(::Array<uint8_t>* value);

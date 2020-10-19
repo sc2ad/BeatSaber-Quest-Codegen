@@ -25,16 +25,16 @@ namespace Oculus::Platform {
   class MessageWithNetSyncSessionsChangedNotification : public Oculus::Platform::Message_1<Oculus::Platform::Models::NetSyncSessionsChangedNotification*> {
     public:
     // protected Oculus.Platform.Models.NetSyncSessionsChangedNotification GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x1366CD4
+    // Offset: 0x113C410
     Oculus::Platform::Models::NetSyncSessionsChangedNotification* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x135FE0C
+    // Offset: 0x1135548
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithNetSyncSessionsChangedNotification* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.NetSyncSessionsChangedNotification GetNetSyncSessionsChangedNotification()
-    // Offset: 0x1366C90
+    // Offset: 0x113C3CC
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.NetSyncSessionsChangedNotification Message::GetNetSyncSessionsChangedNotification()
     Oculus::Platform::Models::NetSyncSessionsChangedNotification* GetNetSyncSessionsChangedNotification();

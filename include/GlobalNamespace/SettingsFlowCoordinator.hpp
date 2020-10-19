@@ -82,35 +82,35 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 _selectedSettingsSubMenuInfoIdx
     static void _set__selectedSettingsSubMenuInfoIdx(int value);
     // public System.Void add_didFinishEvent(System.Action`2<SettingsFlowCoordinator,SettingsFlowCoordinator/FinishAction> value)
-    // Offset: 0xEEB3B8
+    // Offset: 0x1FEC140
     void add_didFinishEvent(System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<SettingsFlowCoordinator,SettingsFlowCoordinator/FinishAction> value)
-    // Offset: 0xEEB45C
+    // Offset: 0x1FEC1E4
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>* value);
     // private System.Void HandleDidSelectSettingsSubMenu(SettingsSubMenuInfo settingsSubMenuInfo, System.Int32 idx)
-    // Offset: 0xEEB9F0
+    // Offset: 0x1FEC778
     void HandleDidSelectSettingsSubMenu(GlobalNamespace::SettingsSubMenuInfo* settingsSubMenuInfo, int idx);
     // private System.Void HandleSettingsNavigationControllerDidFinish(SettingsNavigationController/FinishAction finishAction)
-    // Offset: 0xEEBAB8
+    // Offset: 0x1FEC840
     void HandleSettingsNavigationControllerDidFinish(GlobalNamespace::SettingsNavigationController::FinishAction finishAction);
     // private System.Void ApplySettings()
-    // Offset: 0xEEBB94
+    // Offset: 0x1FEC91C
     void ApplySettings();
     // private System.Void CancelSettings()
-    // Offset: 0xEEBBD4
+    // Offset: 0x1FEC95C
     void CancelSettings();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xEEB500
+    // Offset: 0x1FEC288
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0xEEB858
+    // Offset: 0x1FEC5E0
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0xEEBBF4
+    // Offset: 0x1FEC97C
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -120,7 +120,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SettingsFlowCoordinator* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xEEBBFC
+    // Offset: 0x1FEC984
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

@@ -54,13 +54,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void LateUpdate()
-    // Offset: 0x1237CA4
+    // Offset: 0x1032540
     void LateUpdate();
     // static public System.Boolean Solve(UnityEngine.Vector3 start, UnityEngine.Vector3 end, UnityEngine.Vector3 poleVector, System.Single jointDist, System.Single targetDist, ref UnityEngine.Vector3 result, out UnityEngine.Vector3 forward, out UnityEngine.Vector3 up)
-    // Offset: 0x123868C
+    // Offset: 0x1032F28
     static bool Solve(UnityEngine::Vector3 start, UnityEngine::Vector3 end, UnityEngine::Vector3 poleVector, float jointDist, float targetDist, UnityEngine::Vector3& result, UnityEngine::Vector3& forward, UnityEngine::Vector3& up);
     // public System.Void .ctor()
-    // Offset: 0x1238BA4
+    // Offset: 0x1033440
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

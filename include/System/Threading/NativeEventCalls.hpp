@@ -24,22 +24,22 @@ namespace System::Threading {
   class NativeEventCalls : public ::Il2CppObject {
     public:
     // static public System.IntPtr CreateEvent_internal(System.Boolean manual, System.Boolean initial, System.String name, out System.Int32 errorCode)
-    // Offset: 0x1A1AC7C
+    // Offset: 0x17C10A0
     static System::IntPtr CreateEvent_internal(bool manual, bool initial, ::Il2CppString* name, int& errorCode);
     // static public System.Boolean SetEvent(Microsoft.Win32.SafeHandles.SafeWaitHandle handle)
-    // Offset: 0x1A1ADCC
+    // Offset: 0x17C11F0
     static bool SetEvent(Microsoft::Win32::SafeHandles::SafeWaitHandle* handle);
     // static private System.Boolean SetEvent_internal(System.IntPtr handle)
-    // Offset: 0x1A1DF98
+    // Offset: 0x17C43BC
     static bool SetEvent_internal(System::IntPtr handle);
     // static public System.Boolean ResetEvent(Microsoft.Win32.SafeHandles.SafeWaitHandle handle)
-    // Offset: 0x1A1AD10
+    // Offset: 0x17C1134
     static bool ResetEvent(Microsoft::Win32::SafeHandles::SafeWaitHandle* handle);
     // static private System.Boolean ResetEvent_internal(System.IntPtr handle)
-    // Offset: 0x1A1DF9C
+    // Offset: 0x17C43C0
     static bool ResetEvent_internal(System::IntPtr handle);
     // static public System.Void CloseEvent_internal(System.IntPtr handle)
-    // Offset: 0x1A1DFA0
+    // Offset: 0x17C43C4
     static void CloseEvent_internal(System::IntPtr handle);
   }; // System.Threading.NativeEventCalls
 }

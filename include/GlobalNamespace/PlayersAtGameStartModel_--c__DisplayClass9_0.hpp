@@ -28,10 +28,10 @@ namespace GlobalNamespace {
       return player;
     }
     // System.Boolean <SaveFromNetSerializable>b__0(IConnectedPlayer p)
-    // Offset: 0x1C3F174
+    // Offset: 0x21F930C
     bool $SaveFromNetSerializable$b__0(GlobalNamespace::IConnectedPlayer* p);
     // public System.Void .ctor()
-    // Offset: 0x1C3F06C
+    // Offset: 0x21F9204
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayersAtGameStartModel::$$c__DisplayClass9_0* New_ctor();

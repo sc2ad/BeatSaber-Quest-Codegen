@@ -65,52 +65,52 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_textKeyWasPressedEvent(System.Action`1<System.Char> value)
-    // Offset: 0x12E2400
+    // Offset: 0x1FA3DB0
     void add_textKeyWasPressedEvent(System::Action_1<::Il2CppChar>* value);
     // public System.Void remove_textKeyWasPressedEvent(System.Action`1<System.Char> value)
-    // Offset: 0x12E24A4
+    // Offset: 0x1FA3E54
     void remove_textKeyWasPressedEvent(System::Action_1<::Il2CppChar>* value);
     // public System.Void add_deleteButtonWasPressedEvent(System.Action value)
-    // Offset: 0x12E2548
+    // Offset: 0x1FA3EF8
     void add_deleteButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_deleteButtonWasPressedEvent(System.Action value)
-    // Offset: 0x12E25EC
+    // Offset: 0x1FA3F9C
     void remove_deleteButtonWasPressedEvent(System::Action* value);
     // public System.Void add_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x12E2690
+    // Offset: 0x1FA4040
     void add_okButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x12E2734
+    // Offset: 0x1FA40E4
     void remove_okButtonWasPressedEvent(System::Action* value);
     // public System.Void add_cancelButtonWasPressedEvent(System.Action value)
-    // Offset: 0x12E27D8
+    // Offset: 0x1FA4188
     void add_cancelButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_cancelButtonWasPressedEvent(System.Action value)
-    // Offset: 0x12E287C
+    // Offset: 0x1FA422C
     void remove_cancelButtonWasPressedEvent(System::Action* value);
     // public System.Void set_enableOkButtonInteractivity(System.Boolean value)
-    // Offset: 0x12E2920
+    // Offset: 0x1FA42D0
     void set_enableOkButtonInteractivity(bool value);
     // public System.Void set_hideCancelButton(System.Boolean value)
-    // Offset: 0x12E29D0
+    // Offset: 0x1FA4380
     void set_hideCancelButton(bool value);
     // protected System.Void Awake()
-    // Offset: 0x12E2A90
+    // Offset: 0x1FA4440
     void Awake();
     // private System.Void <Awake>b__21_0()
-    // Offset: 0x12E3788
+    // Offset: 0x1FA5138
     void $Awake$b__21_0();
     // private System.Void <Awake>b__21_1()
-    // Offset: 0x12E379C
+    // Offset: 0x1FA514C
     void $Awake$b__21_1();
     // private System.Void <Awake>b__21_2()
-    // Offset: 0x12E37B8
+    // Offset: 0x1FA5168
     void $Awake$b__21_2();
     // private System.Void <Awake>b__21_3()
-    // Offset: 0x12E37D4
+    // Offset: 0x1FA5184
     void $Awake$b__21_3();
     // public System.Void .ctor()
-    // Offset: 0x12E3780
+    // Offset: 0x1FA5130
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

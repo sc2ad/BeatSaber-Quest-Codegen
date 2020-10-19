@@ -31,10 +31,10 @@ namespace MasterServer {
   class DedicatedServerHeartbeatResponse : public ::Il2CppObject, public MasterServer::IMasterServerUnreliableMessage, public MasterServer::IDedicatedServerServerToClientMessage {
     public:
     // static public PacketPool`1<MasterServer.DedicatedServerHeartbeatResponse> get_pool()
-    // Offset: 0x10BD084
+    // Offset: 0x211EBEC
     static GlobalNamespace::PacketPool_1<MasterServer::DedicatedServerHeartbeatResponse*>* get_pool();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x10BD0CC
+    // Offset: 0x211EC34
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -42,7 +42,7 @@ namespace MasterServer {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x10BD0D0
+    // Offset: 0x211EC38
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -50,12 +50,12 @@ namespace MasterServer {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x10BD0D4
+    // Offset: 0x211EC3C
     // Implemented from: IPoolablePacket
     // Base method: System.Void IPoolablePacket::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x10BD130
+    // Offset: 0x211EC98
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DedicatedServerHeartbeatResponse* New_ctor();

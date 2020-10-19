@@ -88,58 +88,58 @@ namespace GlobalNamespace {
     // Offset: 0x70
     GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic;
     // public System.Void add_didFinishEvent(System.Action`3<MultiplayerLevelScenesTransitionSetupDataSO,LevelCompletionResults,System.Collections.Generic.Dictionary`2<System.String,LevelCompletionResults>> value)
-    // Offset: 0x22327EC
+    // Offset: 0x2040DFC
     void add_didFinishEvent(System::Action_3<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelCompletionResults*>*>* value);
     // public System.Void remove_didFinishEvent(System.Action`3<MultiplayerLevelScenesTransitionSetupDataSO,LevelCompletionResults,System.Collections.Generic.Dictionary`2<System.String,LevelCompletionResults>> value)
-    // Offset: 0x2232920
+    // Offset: 0x2040F30
     void remove_didFinishEvent(System::Action_3<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelCompletionResults*>*>* value);
     // public System.Void add_didDisconnectEvent(System.Action`2<MultiplayerLevelScenesTransitionSetupDataSO,DisconnectedReason> value)
-    // Offset: 0x2234948
+    // Offset: 0x2042F58
     void add_didDisconnectEvent(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::DisconnectedReason>* value);
     // public System.Void remove_didDisconnectEvent(System.Action`2<MultiplayerLevelScenesTransitionSetupDataSO,DisconnectedReason> value)
-    // Offset: 0x22349EC
+    // Offset: 0x2042FFC
     void remove_didDisconnectEvent(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::DisconnectedReason>* value);
     // public System.String get_gameMode()
-    // Offset: 0x2234A90
+    // Offset: 0x20430A0
     ::Il2CppString* get_gameMode();
     // private System.Void set_gameMode(System.String value)
-    // Offset: 0x2234A98
+    // Offset: 0x20430A8
     void set_gameMode(::Il2CppString* value);
     // public IPreviewBeatmapLevel get_previewBeatmapLevel()
-    // Offset: 0x2234AA0
+    // Offset: 0x20430B0
     GlobalNamespace::IPreviewBeatmapLevel* get_previewBeatmapLevel();
     // private System.Void set_previewBeatmapLevel(IPreviewBeatmapLevel value)
-    // Offset: 0x2234AA8
+    // Offset: 0x20430B8
     void set_previewBeatmapLevel(GlobalNamespace::IPreviewBeatmapLevel* value);
     // public BeatmapDifficulty get_beatmapDifficulty()
-    // Offset: 0x2234AB0
+    // Offset: 0x20430C0
     GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
     // private System.Void set_beatmapDifficulty(BeatmapDifficulty value)
-    // Offset: 0x2234AB8
+    // Offset: 0x20430C8
     void set_beatmapDifficulty(GlobalNamespace::BeatmapDifficulty value);
     // public IDifficultyBeatmap get_difficultyBeatmap()
-    // Offset: 0x2234AC0
+    // Offset: 0x20430D0
     GlobalNamespace::IDifficultyBeatmap* get_difficultyBeatmap();
     // private System.Void set_difficultyBeatmap(IDifficultyBeatmap value)
-    // Offset: 0x2234AC8
+    // Offset: 0x20430D8
     void set_difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0x2234AD0
+    // Offset: 0x20430E0
     GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // private System.Void set_beatmapCharacteristic(BeatmapCharacteristicSO value)
-    // Offset: 0x2234AD8
+    // Offset: 0x20430E8
     void set_beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
     // public System.Void Init(System.String gameMode, IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, IDifficultyBeatmap difficultyBeatmap, ColorScheme overrideColorScheme, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, PracticeSettings practiceSettings, System.Boolean useTestNoteCutSoundEffects)
-    // Offset: 0x2234548
+    // Offset: 0x2042B58
     void Init(::Il2CppString* gameMode, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::ColorScheme* overrideColorScheme, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, GlobalNamespace::PracticeSettings* practiceSettings, bool useTestNoteCutSoundEffects);
     // public System.Void Finish(LevelCompletionResults levelCompletionResults, System.Collections.Generic.Dictionary`2<System.String,LevelCompletionResults> otherPlayersLevelCompletionResults)
-    // Offset: 0x2234AE0
+    // Offset: 0x20430F0
     void Finish(GlobalNamespace::LevelCompletionResults* levelCompletionResults, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelCompletionResults*>* otherPlayersLevelCompletionResults);
     // public System.Void FinishWithDisconnect(DisconnectedReason disconnectedReason)
-    // Offset: 0x2234B60
+    // Offset: 0x2043170
     void FinishWithDisconnect(GlobalNamespace::DisconnectedReason disconnectedReason);
     // public System.Void .ctor()
-    // Offset: 0x2234BD8
+    // Offset: 0x20431E8
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

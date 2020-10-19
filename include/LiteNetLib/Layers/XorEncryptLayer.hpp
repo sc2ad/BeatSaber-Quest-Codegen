@@ -26,29 +26,29 @@ namespace LiteNetLib::Layers {
     // Deleting conversion operator: operator int
     constexpr operator int() const noexcept = delete;
     // public System.Void .ctor(System.Byte[] key)
-    // Offset: 0x1A67254
+    // Offset: 0x1805448
     static XorEncryptLayer* New_ctor(::Array<uint8_t>* key);
     // public System.Void .ctor(System.String key)
-    // Offset: 0x1A67338
+    // Offset: 0x180552C
     static XorEncryptLayer* New_ctor(::Il2CppString* key);
     // public System.Void SetKey(System.String key)
-    // Offset: 0x1A6736C
+    // Offset: 0x1805560
     void SetKey(::Il2CppString* key);
     // public System.Void SetKey(System.Byte[] key)
-    // Offset: 0x1A67288
+    // Offset: 0x180547C
     void SetKey(::Array<uint8_t>* key);
     // public System.Void .ctor()
-    // Offset: 0x1A6722C
+    // Offset: 0x1805420
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static XorEncryptLayer* New_ctor();
     // public override System.Void ProcessInboundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x1A673BC
+    // Offset: 0x18055B0
     // Implemented from: LiteNetLib.Layers.PacketLayerBase
     // Base method: System.Void PacketLayerBase::ProcessInboundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
     void ProcessInboundPacket(System::Net::IPEndPoint* remoteEndPoint, ::Array<uint8_t>*& data, int& offset, int& length);
     // public override System.Void ProcessOutBoundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x1A67458
+    // Offset: 0x180564C
     // Implemented from: LiteNetLib.Layers.PacketLayerBase
     // Base method: System.Void PacketLayerBase::ProcessOutBoundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
     void ProcessOutBoundPacket(System::Net::IPEndPoint* remoteEndPoint, ::Array<uint8_t>*& data, int& offset, int& length);

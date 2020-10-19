@@ -36,27 +36,27 @@ namespace System::Security::Cryptography {
     // Set static field: static private System.Security.Cryptography.KeySizes[] s_legalKeySizes
     static void _set_s_legalKeySizes(::Array<System::Security::Cryptography::KeySizes*>* value);
     // public System.Int32 get_EffectiveKeySize()
-    // Offset: 0x19D3B2C
+    // Offset: 0x1779F50
     int get_EffectiveKeySize();
     // static public System.Security.Cryptography.RC2 Create()
-    // Offset: 0x19D3BFC
+    // Offset: 0x177A020
     static System::Security::Cryptography::RC2* Create();
     // static private System.Void .cctor()
-    // Offset: 0x19D3DA8
+    // Offset: 0x177A1CC
     static void _cctor();
     // protected System.Void .ctor()
-    // Offset: 0x19D3A84
+    // Offset: 0x1779EA8
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()
     static RC2* New_ctor();
     // public override System.Int32 get_KeySize()
-    // Offset: 0x19D3B44
+    // Offset: 0x1779F68
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Int32 SymmetricAlgorithm::get_KeySize()
     int get_KeySize();
     // public override System.Void set_KeySize(System.Int32 value)
-    // Offset: 0x19D3B4C
+    // Offset: 0x1779F70
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::set_KeySize(System.Int32 value)
     void set_KeySize(int value);

@@ -35,13 +35,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<IConnectedPlayer,System.Int32> <>9__95_0
     static void _set_$$9__95_0(System::Func_2<GlobalNamespace::IConnectedPlayer*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1C37A24
+    // Offset: 0x21F1BBC
     static void _cctor();
     // System.Int32 <TryUpdateConnectedPlayer>b__95_0(IConnectedPlayer p)
-    // Offset: 0x1C37A94
+    // Offset: 0x21F1C2C
     int $TryUpdateConnectedPlayer$b__95_0(GlobalNamespace::IConnectedPlayer* p);
     // public System.Void .ctor()
-    // Offset: 0x1C37A8C
+    // Offset: 0x21F1C24
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MultiplayerSessionManager::$$c* New_ctor();

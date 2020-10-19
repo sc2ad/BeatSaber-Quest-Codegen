@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRDriverManager::_GetDriverName : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1D5F828
+    // Offset: 0x1AB148C
     static IVRDriverManager::_GetDriverName* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.UInt32 nDriver, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize)
-    // Offset: 0x1D5F83C
+    // Offset: 0x1AB14A0
     uint Invoke(uint nDriver, System::Text::StringBuilder* pchValue, uint unBufferSize);
     // public System.IAsyncResult BeginInvoke(System.UInt32 nDriver, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1D5FAE8
+    // Offset: 0x1AB174C
     System::IAsyncResult* BeginInvoke(uint nDriver, System::Text::StringBuilder* pchValue, uint unBufferSize, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1D5FB98
+    // Offset: 0x1AB17FC
     uint EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRDriverManager/_GetDriverName
 }

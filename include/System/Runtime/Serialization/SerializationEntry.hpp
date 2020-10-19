@@ -35,13 +35,13 @@ namespace System::Runtime::Serialization {
     // Creating value type constructor for type: SerializationEntry
     constexpr SerializationEntry(System::Type* m_type_ = {}, ::Il2CppObject* m_value_ = {}, ::Il2CppString* m_name_ = {}) noexcept : m_type{m_type_}, m_value{m_value_}, m_name{m_name_} {}
     // public System.Object get_Value()
-    // Offset: 0xDBA08C
+    // Offset: 0xC704AC
     ::Il2CppObject* get_Value();
     // public System.String get_Name()
-    // Offset: 0xDBA094
+    // Offset: 0xC704B4
     ::Il2CppString* get_Name();
     // System.Void .ctor(System.String entryName, System.Object entryValue, System.Type entryType)
-    // Offset: 0xDBA09C
+    // Offset: 0xC704BC
     SerializationEntry(::Il2CppString* entryName, ::Il2CppObject* entryValue, System::Type* entryType);
   }; // System.Runtime.Serialization.SerializationEntry
 }

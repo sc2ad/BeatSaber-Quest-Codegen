@@ -14,7 +14,7 @@ namespace GlobalNamespace {
   class MissionDataExtensions : public ::Il2CppObject {
     public:
     // static public System.String Name(MissionObjective/ReferenceValueComparisonType comparisonType)
-    // Offset: 0xEDC9A0
+    // Offset: 0x1FC6568
     static ::Il2CppString* Name(GlobalNamespace::MissionObjective::ReferenceValueComparisonType comparisonType);
   }; // MissionDataExtensions
 }

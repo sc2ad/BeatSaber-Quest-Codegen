@@ -19,40 +19,40 @@ namespace System::IO {
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // System.Void .ctor(System.IO.TextReader t)
-    // Offset: 0x1594D00
+    // Offset: 0x136B528
     static TextReader::SyncTextReader* New_ctor(System::IO::TextReader* t);
     // public override System.Void Close()
-    // Offset: 0x15950FC
+    // Offset: 0x136B924
     // Implemented from: System.IO.TextReader
     // Base method: System.Void TextReader::Close()
     void Close();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x159511C
+    // Offset: 0x136B944
     // Implemented from: System.IO.TextReader
     // Base method: System.Void TextReader::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Int32 Peek()
-    // Offset: 0x15951EC
+    // Offset: 0x136BA14
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Peek()
     int Peek();
     // public override System.Int32 Read()
-    // Offset: 0x159520C
+    // Offset: 0x136BA34
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Read()
     int Read();
     // public override System.Int32 Read(in System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x159522C
+    // Offset: 0x136BA54
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Read(in System.Char[] buffer, System.Int32 index, System.Int32 count)
     int Read(::Array<::Il2CppChar>*& buffer, int index, int count);
     // public override System.String ReadLine()
-    // Offset: 0x159524C
+    // Offset: 0x136BA74
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadLine()
     ::Il2CppString* ReadLine();
     // public override System.String ReadToEnd()
-    // Offset: 0x1595270
+    // Offset: 0x136BA98
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadToEnd()
     ::Il2CppString* ReadToEnd();

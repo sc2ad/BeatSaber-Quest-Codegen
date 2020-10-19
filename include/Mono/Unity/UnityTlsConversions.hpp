@@ -30,19 +30,19 @@ namespace Mono::Unity {
   class UnityTlsConversions : public ::Il2CppObject {
     public:
     // static public Mono.Unity.UnityTls/unitytls_protocol GetMinProtocol(System.Security.Authentication.SslProtocols protocols)
-    // Offset: 0x171F530
+    // Offset: 0x14DB104
     static Mono::Unity::UnityTls::unitytls_protocol GetMinProtocol(System::Security::Authentication::SslProtocols protocols);
     // static public Mono.Unity.UnityTls/unitytls_protocol GetMaxProtocol(System.Security.Authentication.SslProtocols protocols)
-    // Offset: 0x171F654
+    // Offset: 0x14DB228
     static Mono::Unity::UnityTls::unitytls_protocol GetMaxProtocol(System::Security::Authentication::SslProtocols protocols);
     // static public Mono.Security.Interface.TlsProtocols ConvertProtocolVersion(Mono.Unity.UnityTls/unitytls_protocol protocol)
-    // Offset: 0x171F778
+    // Offset: 0x14DB34C
     static Mono::Security::Interface::TlsProtocols ConvertProtocolVersion(Mono::Unity::UnityTls::unitytls_protocol protocol);
     // static public Mono.Security.Interface.AlertDescription VerifyResultToAlertDescription(Mono.Unity.UnityTls/unitytls_x509verify_result verifyResult, Mono.Security.Interface.AlertDescription defaultAlert)
-    // Offset: 0x171F798
+    // Offset: 0x14DB36C
     static Mono::Security::Interface::AlertDescription VerifyResultToAlertDescription(Mono::Unity::UnityTls::unitytls_x509verify_result verifyResult, Mono::Security::Interface::AlertDescription defaultAlert);
     // static public Mono.Security.Interface.MonoSslPolicyErrors VerifyResultToPolicyErrror(Mono.Unity.UnityTls/unitytls_x509verify_result verifyResult)
-    // Offset: 0x171FB70
+    // Offset: 0x14DB744
     static Mono::Security::Interface::MonoSslPolicyErrors VerifyResultToPolicyErrror(Mono::Unity::UnityTls::unitytls_x509verify_result verifyResult);
   }; // Mono.Unity.UnityTlsConversions
 }

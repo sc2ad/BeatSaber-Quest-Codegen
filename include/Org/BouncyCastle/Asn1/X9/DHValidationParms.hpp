@@ -33,19 +33,19 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Offset: 0x18
     Org::BouncyCastle::Asn1::DerInteger* pgenCounter;
     // static public Org.BouncyCastle.Asn1.X9.DHValidationParms GetInstance(System.Object obj)
-    // Offset: 0x186F9D8
+    // Offset: 0x1615DFC
     static Org::BouncyCastle::Asn1::X9::DHValidationParms* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x186FFB0
+    // Offset: 0x16163D4
     static DHValidationParms* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public Org.BouncyCastle.Asn1.DerBitString get_Seed()
-    // Offset: 0x1870134
+    // Offset: 0x1616558
     Org::BouncyCastle::Asn1::DerBitString* get_Seed();
     // public Org.BouncyCastle.Asn1.DerInteger get_PgenCounter()
-    // Offset: 0x187013C
+    // Offset: 0x1616560
     Org::BouncyCastle::Asn1::DerInteger* get_PgenCounter();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1870144
+    // Offset: 0x1616568
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

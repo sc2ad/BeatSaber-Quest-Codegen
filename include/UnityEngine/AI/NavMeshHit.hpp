@@ -33,7 +33,7 @@ namespace UnityEngine::AI {
     // Creating value type constructor for type: NavMeshHit
     constexpr NavMeshHit(UnityEngine::Vector3 m_Position_ = {}, UnityEngine::Vector3 m_Normal_ = {}, float m_Distance_ = {}, int m_Mask_ = {}, int m_Hit_ = {}) noexcept : m_Position{m_Position_}, m_Normal{m_Normal_}, m_Distance{m_Distance_}, m_Mask{m_Mask_}, m_Hit{m_Hit_} {}
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0xDE24E4
+    // Offset: 0xC8FB74
     UnityEngine::Vector3 get_position();
   }; // UnityEngine.AI.NavMeshHit
 }

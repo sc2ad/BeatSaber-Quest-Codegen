@@ -62,25 +62,25 @@ namespace Org::BouncyCastle::Crypto::Generators {
     // Offset: 0x28
     Org::BouncyCastle::Security::SecureRandom* random;
     // public System.Void .ctor(System.String algorithm)
-    // Offset: 0x16F2454
+    // Offset: 0x14AD028
     static ECKeyPairGenerator* New_ctor(::Il2CppString* algorithm);
     // public System.Void Init(Org.BouncyCastle.Crypto.KeyGenerationParameters parameters)
-    // Offset: 0x16F2524
+    // Offset: 0x14AD0F8
     void Init(Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
     // public Org.BouncyCastle.Crypto.AsymmetricCipherKeyPair GenerateKeyPair()
-    // Offset: 0x16F28D4
+    // Offset: 0x14AD4A8
     Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
     // protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier CreateBasePointMultiplier()
-    // Offset: 0x16F2B8C
+    // Offset: 0x14AD760
     Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier();
     // static Org.BouncyCastle.Asn1.X9.X9ECParameters FindECCurveByOid(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x16F2850
+    // Offset: 0x14AD424
     static Org::BouncyCastle::Asn1::X9::X9ECParameters* FindECCurveByOid(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // static Org.BouncyCastle.Crypto.Parameters.ECPublicKeyParameters GetCorrespondingPublicKey(Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters privKey)
-    // Offset: 0x16F2BE8
+    // Offset: 0x14AD7BC
     static Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* GetCorrespondingPublicKey(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privKey);
     // public System.Void .ctor()
-    // Offset: 0x16F2404
+    // Offset: 0x14ACFD8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ECKeyPairGenerator* New_ctor();

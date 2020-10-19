@@ -64,12 +64,12 @@ namespace GlobalNamespace {
     // Offset: 0x60
     GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
     // public override System.Void InstallBindings()
-    // Offset: 0xEC71FC
+    // Offset: 0x20061F0
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xEC833C
+    // Offset: 0x200730C
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

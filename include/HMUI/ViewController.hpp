@@ -114,115 +114,115 @@ namespace HMUI {
     // Set static field: static private System.Single kTransitionMoveOffset
     static void _set_kTransitionMoveOffset(float value);
     // public HMUI.ContainerViewController get_containerViewController()
-    // Offset: 0x218BB98
+    // Offset: 0x1EDF7FC
     HMUI::ContainerViewController* get_containerViewController();
     // public HMUI.Screen get_screen()
-    // Offset: 0x218BBA0
+    // Offset: 0x1EDF804
     HMUI::Screen* get_screen();
     // public HMUI.ViewController get_parentViewController()
-    // Offset: 0x218BBA8
+    // Offset: 0x1EDF80C
     HMUI::ViewController* get_parentViewController();
     // public HMUI.ViewController get_childViewController()
-    // Offset: 0x218BBB0
+    // Offset: 0x1EDF814
     HMUI::ViewController* get_childViewController();
     // public System.Boolean get_isInViewControllerHierarchy()
-    // Offset: 0x218BBB8
+    // Offset: 0x1EDF81C
     bool get_isInViewControllerHierarchy();
     // public System.Boolean get_isActivated()
-    // Offset: 0x218BC28
+    // Offset: 0x1EDF88C
     bool get_isActivated();
     // public System.Boolean get_wasActivatedBefore()
-    // Offset: 0x218BC30
+    // Offset: 0x1EDF894
     bool get_wasActivatedBefore();
     // public System.Boolean get_isInTransition()
-    // Offset: 0x218BC38
+    // Offset: 0x1EDF89C
     bool get_isInTransition();
     // public System.Void set_isInTransition(System.Boolean value)
-    // Offset: 0x218BC40
+    // Offset: 0x1EDF8A4
     void set_isInTransition(bool value);
     // public System.Boolean get_enableUserInteractions()
-    // Offset: 0x218BC4C
+    // Offset: 0x1EDF8B0
     bool get_enableUserInteractions();
     // public System.Void set_enableUserInteractions(System.Boolean value)
-    // Offset: 0x218BD18
+    // Offset: 0x1EDF97C
     void set_enableUserInteractions(bool value);
     // public System.Void add_didActivateEvent(HMUI.ViewController/DidActivateDelegate value)
-    // Offset: 0x218BD48
+    // Offset: 0x1EDF9AC
     void add_didActivateEvent(HMUI::ViewController::DidActivateDelegate* value);
     // public System.Void remove_didActivateEvent(HMUI.ViewController/DidActivateDelegate value)
-    // Offset: 0x218BDEC
+    // Offset: 0x1EDFA50
     void remove_didActivateEvent(HMUI::ViewController::DidActivateDelegate* value);
     // public System.Void add_didDeactivateEvent(HMUI.ViewController/DidDeactivateDelegate value)
-    // Offset: 0x218BE90
+    // Offset: 0x1EDFAF4
     void add_didDeactivateEvent(HMUI::ViewController::DidDeactivateDelegate* value);
     // public System.Void remove_didDeactivateEvent(HMUI.ViewController/DidDeactivateDelegate value)
-    // Offset: 0x218BF34
+    // Offset: 0x1EDFB98
     void remove_didDeactivateEvent(HMUI::ViewController::DidDeactivateDelegate* value);
     // protected HMUI.ButtonBinder get_buttonBinder()
-    // Offset: 0x218BFD8
+    // Offset: 0x1EDFC3C
     HMUI::ButtonBinder* get_buttonBinder();
     // private System.Void set_buttonBinder(HMUI.ButtonBinder value)
-    // Offset: 0x218BFE0
+    // Offset: 0x1EDFC44
     void set_buttonBinder(HMUI::ButtonBinder* value);
     // public UnityEngine.RectTransform get_rectTransform()
-    // Offset: 0x218BFE8
+    // Offset: 0x1EDFC4C
     UnityEngine::RectTransform* get_rectTransform();
     // public UnityEngine.CanvasGroup get_canvasGroup()
-    // Offset: 0x218C094
+    // Offset: 0x1EDFCF8
     UnityEngine::CanvasGroup* get_canvasGroup();
     // private UnityEngine.EventSystems.BaseRaycaster get_graphicRaycaster()
-    // Offset: 0x218BC6C
+    // Offset: 0x1EDF8D0
     UnityEngine::EventSystems::BaseRaycaster* get_graphicRaycaster();
     // protected System.Void OnDestroy()
-    // Offset: 0x218C140
+    // Offset: 0x1EDFDA4
     void OnDestroy();
     // protected System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x218C198
+    // Offset: 0x1EDFDFC
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x218C19C
+    // Offset: 0x1EDFE00
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void __Init(HMUI.Screen screen, HMUI.ViewController parentViewController, HMUI.ContainerViewController containerViewController)
-    // Offset: 0x218C1A0
+    // Offset: 0x1EDFE04
     void __Init(HMUI::Screen* screen, HMUI::ViewController* parentViewController, HMUI::ContainerViewController* containerViewController);
     // public System.Void __ResetViewController()
-    // Offset: 0x218C2F4
+    // Offset: 0x1EDFF58
     void __ResetViewController();
     // public System.Void __PresentViewController(HMUI.ViewController viewController, System.Action finishedCallback, HMUI.ViewController/AnimationDirection animationDirection, System.Boolean immediately)
-    // Offset: 0x218C404
+    // Offset: 0x1EE0068
     void __PresentViewController(HMUI::ViewController* viewController, System::Action* finishedCallback, HMUI::ViewController::AnimationDirection animationDirection, bool immediately);
     // private System.Collections.IEnumerator PresentViewControllerCoroutine(HMUI.ViewController newViewController, System.Action finishedCallback, HMUI.ViewController/AnimationDirection animationDirection, System.Boolean immediately)
-    // Offset: 0x218C434
+    // Offset: 0x1EE0098
     System::Collections::IEnumerator* PresentViewControllerCoroutine(HMUI::ViewController* newViewController, System::Action* finishedCallback, HMUI::ViewController::AnimationDirection animationDirection, bool immediately);
     // public System.Void __ReplaceViewController(HMUI.ViewController viewController, System.Action finishedCallback, HMUI.ViewController/AnimationType animationType, HMUI.ViewController/AnimationDirection animationDirection)
-    // Offset: 0x218C528
+    // Offset: 0x1EE018C
     void __ReplaceViewController(HMUI::ViewController* viewController, System::Action* finishedCallback, HMUI::ViewController::AnimationType animationType, HMUI::ViewController::AnimationDirection animationDirection);
     // private System.Collections.IEnumerator ReplaceViewControllerCoroutine(HMUI.ViewController newViewController, System.Action finishedCallback, HMUI.ViewController/AnimationType animationType, HMUI.ViewController/AnimationDirection animationDirection)
-    // Offset: 0x218C554
+    // Offset: 0x1EE01B8
     System::Collections::IEnumerator* ReplaceViewControllerCoroutine(HMUI::ViewController* newViewController, System::Action* finishedCallback, HMUI::ViewController::AnimationType animationType, HMUI::ViewController::AnimationDirection animationDirection);
     // public System.Void __DismissViewController(System.Action finishedCallback, HMUI.ViewController/AnimationDirection animationDirection, System.Boolean immediately)
-    // Offset: 0x218C640
+    // Offset: 0x1EE02A4
     void __DismissViewController(System::Action* finishedCallback, HMUI::ViewController::AnimationDirection animationDirection, bool immediately);
     // private System.Collections.IEnumerator DismissViewControllerCoroutine(System.Action finishedCallback, HMUI.ViewController/AnimationDirection animationDirection, System.Boolean immediately)
-    // Offset: 0x218C670
+    // Offset: 0x1EE02D4
     System::Collections::IEnumerator* DismissViewControllerCoroutine(System::Action* finishedCallback, HMUI::ViewController::AnimationDirection animationDirection, bool immediately);
     // public System.Void __Activate(System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x218C750
+    // Offset: 0x1EE03B4
     void __Activate(bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void __Deactivate(System.Boolean removedFromHierarchy, System.Boolean deactivateGameObject, System.Boolean screenSystemDisabling)
-    // Offset: 0x218CAD4
+    // Offset: 0x1EE0738
     void __Deactivate(bool removedFromHierarchy, bool deactivateGameObject, bool screenSystemDisabling);
     // public System.Void DeactivateGameObject()
-    // Offset: 0x218CE20
+    // Offset: 0x1EE0A84
     void DeactivateGameObject();
     // public System.Boolean IsViewControllerInHierarchy(HMUI.ViewController viewController)
-    // Offset: 0x218CE7C
+    // Offset: 0x1EE0AE0
     bool IsViewControllerInHierarchy(HMUI::ViewController* viewController);
     // static public System.Void Log(System.String message)
-    // Offset: 0x218D004
+    // Offset: 0x1EE0C68
     static void Log(::Il2CppString* message);
     // public System.Void .ctor()
-    // Offset: 0x218D06C
+    // Offset: 0x1EE0CD0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

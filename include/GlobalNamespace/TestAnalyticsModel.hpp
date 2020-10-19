@@ -27,22 +27,22 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::TestAnalyticsModel::$$c
     class $$c;
     // public System.Boolean get_supportsOpenDataPrivacyPage()
-    // Offset: 0xF30E08
+    // Offset: 0x1F9807C
     // Implemented from: IAnalyticsModel
     // Base method: System.Boolean IAnalyticsModel::get_supportsOpenDataPrivacyPage()
     bool get_supportsOpenDataPrivacyPage();
     // public System.Void OpenDataPrivacyPage()
-    // Offset: 0xF30E10
+    // Offset: 0x1F98084
     // Implemented from: IAnalyticsModel
     // Base method: System.Void IAnalyticsModel::OpenDataPrivacyPage()
     void OpenDataPrivacyPage();
     // public System.Void LogEvent(System.String eventType, System.Collections.Generic.Dictionary`2<System.String,System.String> eventData)
-    // Offset: 0xF30E14
+    // Offset: 0x1F98088
     // Implemented from: IAnalyticsModel
     // Base method: System.Void IAnalyticsModel::LogEvent(System.String eventType, System.Collections.Generic.Dictionary`2<System.String,System.String> eventData)
     void LogEvent(::Il2CppString* eventType, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* eventData);
     // public System.Void .ctor()
-    // Offset: 0xF30F80
+    // Offset: 0x1F981F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TestAnalyticsModel* New_ctor();

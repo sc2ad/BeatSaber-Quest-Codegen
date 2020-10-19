@@ -36,38 +36,38 @@ namespace UnityEngine::Rendering {
       return m_Ptr;
     }
     // private System.Int32 GetNumberOfCameras_Internal()
-    // Offset: 0xDBECF8
+    // Offset: 0xC75118
     int GetNumberOfCameras_Internal();
     // private UnityEngine.Camera GetCamera_Internal(System.Int32 index)
-    // Offset: 0xDBED38
+    // Offset: 0xC75158
     UnityEngine::Camera* GetCamera_Internal(int index);
     // System.Void .ctor(System.IntPtr ptr)
-    // Offset: 0xDBED88
+    // Offset: 0xC751A8
     // ABORTED: conflicts with another method.  ScriptableRenderContext(System::IntPtr ptr);
     // System.Int32 GetNumberOfCameras()
-    // Offset: 0xDBED90
+    // Offset: 0xC751B0
     int GetNumberOfCameras();
     // UnityEngine.Camera GetCamera(System.Int32 index)
-    // Offset: 0xDBEDD0
+    // Offset: 0xC751F0
     UnityEngine::Camera* GetCamera(int index);
     // static private System.Int32 GetNumberOfCameras_Internal_Injected(ref UnityEngine.Rendering.ScriptableRenderContext _unity_self)
-    // Offset: 0x198CD80
+    // Offset: 0x17331A4
     static int GetNumberOfCameras_Internal_Injected(UnityEngine::Rendering::ScriptableRenderContext& _unity_self);
     // static private UnityEngine.Camera GetCamera_Internal_Injected(ref UnityEngine.Rendering.ScriptableRenderContext _unity_self, System.Int32 index)
-    // Offset: 0x198CE10
+    // Offset: 0x1733234
     static UnityEngine::Camera* GetCamera_Internal_Injected(UnityEngine::Rendering::ScriptableRenderContext& _unity_self, int index);
     // public System.Boolean Equals(UnityEngine.Rendering.ScriptableRenderContext other)
-    // Offset: 0xDBEE20
+    // Offset: 0xC75240
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Rendering.ScriptableRenderContext other)
     bool Equals(UnityEngine::Rendering::ScriptableRenderContext other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xDBEE28
+    // Offset: 0xC75248
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xDBEE30
+    // Offset: 0xC75250
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

@@ -43,10 +43,10 @@ namespace RootMotion::FinalIK {
     // Offset: 0x30
     ::Array<RootMotion::FinalIK::InteractionTrigger::Range::Interaction*>* interactions;
     // public System.Boolean IsInRange(UnityEngine.Transform character, UnityEngine.Transform raycastFrom, UnityEngine.RaycastHit raycastHit, UnityEngine.Transform trigger, out System.Single maxError)
-    // Offset: 0x18E4E70
+    // Offset: 0x168B294
     bool IsInRange(UnityEngine::Transform* character, UnityEngine::Transform* raycastFrom, UnityEngine::RaycastHit raycastHit, UnityEngine::Transform* trigger, float& maxError);
     // public System.Void .ctor()
-    // Offset: 0x18E5CD8
+    // Offset: 0x168C0FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InteractionTrigger::Range* New_ctor();

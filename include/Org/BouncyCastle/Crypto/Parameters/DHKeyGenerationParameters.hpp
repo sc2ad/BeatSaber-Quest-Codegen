@@ -33,13 +33,13 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return parameters;
     }
     // public System.Void .ctor(Org.BouncyCastle.Security.SecureRandom random, Org.BouncyCastle.Crypto.Parameters.DHParameters parameters)
-    // Offset: 0x10EC0AC
+    // Offset: 0xF46D3C
     static DHKeyGenerationParameters* New_ctor(Org::BouncyCastle::Security::SecureRandom* random, Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
     // public Org.BouncyCastle.Crypto.Parameters.DHParameters get_Parameters()
-    // Offset: 0x10EC134
+    // Offset: 0xF46DC4
     Org::BouncyCastle::Crypto::Parameters::DHParameters* get_Parameters();
     // static System.Int32 GetStrength(Org.BouncyCastle.Crypto.Parameters.DHParameters parameters)
-    // Offset: 0x10EC100
+    // Offset: 0xF46D90
     static int GetStrength(Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
   }; // Org.BouncyCastle.Crypto.Parameters.DHKeyGenerationParameters
 }

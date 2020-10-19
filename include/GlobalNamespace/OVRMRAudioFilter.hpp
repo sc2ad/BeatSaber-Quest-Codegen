@@ -29,13 +29,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Start()
-    // Offset: 0x1318B54
+    // Offset: 0x10EE290
     void Start();
     // private System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
-    // Offset: 0x1318B60
+    // Offset: 0x10EE29C
     void OnAudioFilterRead(::Array<float>* data, int channels);
     // public System.Void .ctor()
-    // Offset: 0x1318B7C
+    // Offset: 0x10EE2B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

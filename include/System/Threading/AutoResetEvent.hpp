@@ -14,7 +14,7 @@ namespace System::Threading {
   class AutoResetEvent : public System::Threading::EventWaitHandle {
     public:
     // public System.Void .ctor(System.Boolean initialState)
-    // Offset: 0x1A17D3C
+    // Offset: 0x17BE160
     static AutoResetEvent* New_ctor(bool initialState);
   }; // System.Threading.AutoResetEvent
 }

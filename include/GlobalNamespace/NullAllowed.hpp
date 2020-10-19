@@ -58,13 +58,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::Il2CppObject* ifNotValue;
     // public System.Void .ctor(NullAllowed/Context context)
-    // Offset: 0x222E15C
+    // Offset: 0x1F7DE64
     static NullAllowed* New_ctor(GlobalNamespace::NullAllowed::Context context);
     // public System.Void .ctor(System.String propertyName, System.Object ifNotValue)
-    // Offset: 0x222E188
+    // Offset: 0x1F7DE90
     static NullAllowed* New_ctor(::Il2CppString* propertyName, ::Il2CppObject* ifNotValue);
     // public System.Void .ctor()
-    // Offset: 0x222E134
+    // Offset: 0x1F7DE3C
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

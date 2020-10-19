@@ -48,32 +48,32 @@ namespace UnityEngine::XR {
     // Creating value type constructor for type: MeshGenerationResult
     constexpr MeshGenerationResult(UnityEngine::XR::MeshId MeshId_ = {}, UnityEngine::Mesh* Mesh_ = {}, UnityEngine::MeshCollider* MeshCollider_ = {}, UnityEngine::XR::MeshGenerationStatus Status_ = {}, UnityEngine::XR::MeshVertexAttributes Attributes_ = {}) noexcept : MeshId{MeshId_}, Mesh{Mesh_}, MeshCollider{MeshCollider_}, Status{Status_}, Attributes{Attributes_} {}
     // public UnityEngine.XR.MeshId get_MeshId()
-    // Offset: 0xDDE01C
+    // Offset: 0xC8B6AC
     UnityEngine::XR::MeshId get_MeshId();
     // public UnityEngine.Mesh get_Mesh()
-    // Offset: 0xDDE028
+    // Offset: 0xC8B6B8
     UnityEngine::Mesh* get_Mesh();
     // public UnityEngine.MeshCollider get_MeshCollider()
-    // Offset: 0xDDE030
+    // Offset: 0xC8B6C0
     UnityEngine::MeshCollider* get_MeshCollider();
     // public UnityEngine.XR.MeshGenerationStatus get_Status()
-    // Offset: 0xDDE038
+    // Offset: 0xC8B6C8
     UnityEngine::XR::MeshGenerationStatus get_Status();
     // public UnityEngine.XR.MeshVertexAttributes get_Attributes()
-    // Offset: 0xDDE040
+    // Offset: 0xC8B6D0
     UnityEngine::XR::MeshVertexAttributes get_Attributes();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xDDE048
+    // Offset: 0xC8B6D8
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(UnityEngine.XR.MeshGenerationResult other)
-    // Offset: 0xDDE050
+    // Offset: 0xC8B6E0
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.XR.MeshGenerationResult other)
     bool Equals(UnityEngine::XR::MeshGenerationResult other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xDDE088
+    // Offset: 0xC8B718
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

@@ -14,7 +14,7 @@ namespace UnityEngine::Timeline {
   class ControlTrack : public UnityEngine::Timeline::TrackAsset {
     public:
     // public System.Void .ctor()
-    // Offset: 0x161D97C
+    // Offset: 0x13F41A4
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: System.Void TrackAsset::.ctor()
     // Base method: System.Void PlayableAsset::.ctor()

@@ -126,79 +126,79 @@ namespace TMPro {
     // Set static field: static private TMPro.TMP_Dropdown/OptionData s_NoOptionData
     static void _set_s_NoOptionData(TMPro::TMP_Dropdown::OptionData* value);
     // public UnityEngine.RectTransform get_template()
-    // Offset: 0xF45288
+    // Offset: 0xEBFBBC
     UnityEngine::RectTransform* get_template();
     // public System.Void set_template(UnityEngine.RectTransform value)
-    // Offset: 0xF44ED8
+    // Offset: 0xEBF80C
     void set_template(UnityEngine::RectTransform* value);
     // public TMPro.TMP_Text get_captionText()
-    // Offset: 0xF45290
+    // Offset: 0xEBFBC4
     TMPro::TMP_Text* get_captionText();
     // public System.Void set_captionText(TMPro.TMP_Text value)
-    // Offset: 0xF44F00
+    // Offset: 0xEBF834
     void set_captionText(TMPro::TMP_Text* value);
     // public UnityEngine.UI.Image get_captionImage()
-    // Offset: 0xF45298
+    // Offset: 0xEBFBCC
     UnityEngine::UI::Image* get_captionImage();
     // public System.Void set_captionImage(UnityEngine.UI.Image value)
-    // Offset: 0xF452A0
+    // Offset: 0xEBFBD4
     void set_captionImage(UnityEngine::UI::Image* value);
     // public TMPro.TMP_Text get_itemText()
-    // Offset: 0xF452CC
+    // Offset: 0xEBFC00
     TMPro::TMP_Text* get_itemText();
     // public System.Void set_itemText(TMPro.TMP_Text value)
-    // Offset: 0xF44F28
+    // Offset: 0xEBF85C
     void set_itemText(TMPro::TMP_Text* value);
     // public UnityEngine.UI.Image get_itemImage()
-    // Offset: 0xF452D4
+    // Offset: 0xEBFC08
     UnityEngine::UI::Image* get_itemImage();
     // public System.Void set_itemImage(UnityEngine.UI.Image value)
-    // Offset: 0xF452DC
+    // Offset: 0xEBFC10
     void set_itemImage(UnityEngine::UI::Image* value);
     // public System.Collections.Generic.List`1<TMPro.TMP_Dropdown/OptionData> get_options()
-    // Offset: 0xF44F54
+    // Offset: 0xEBF888
     System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>* get_options();
     // public System.Void set_options(System.Collections.Generic.List`1<TMPro.TMP_Dropdown/OptionData> value)
-    // Offset: 0xF45308
+    // Offset: 0xEBFC3C
     void set_options(System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>* value);
     // public TMPro.TMP_Dropdown/DropdownEvent get_onValueChanged()
-    // Offset: 0xF4533C
+    // Offset: 0xEBFC70
     TMPro::TMP_Dropdown::DropdownEvent* get_onValueChanged();
     // public System.Void set_onValueChanged(TMPro.TMP_Dropdown/DropdownEvent value)
-    // Offset: 0xF45344
+    // Offset: 0xEBFC78
     void set_onValueChanged(TMPro::TMP_Dropdown::DropdownEvent* value);
     // public System.Int32 get_value()
-    // Offset: 0xF45354
+    // Offset: 0xEBFC88
     int get_value();
     // public System.Void set_value(System.Int32 value)
-    // Offset: 0xF4535C
+    // Offset: 0xEBFC90
     void set_value(int value);
     // public System.Void SetValueWithoutNotify(System.Int32 input)
-    // Offset: 0xF45484
+    // Offset: 0xEBFDB8
     void SetValueWithoutNotify(int input);
     // private System.Void SetValue(System.Int32 value, System.Boolean sendCallback)
-    // Offset: 0xF45364
+    // Offset: 0xEBFC98
     void SetValue(int value, bool sendCallback);
     // public System.Boolean get_IsExpanded()
-    // Offset: 0xF4548C
+    // Offset: 0xEBFDC0
     bool get_IsExpanded();
     // public System.Void RefreshShownValue()
-    // Offset: 0xF44F78
+    // Offset: 0xEBF8AC
     void RefreshShownValue();
     // public System.Void AddOptions(System.Collections.Generic.List`1<TMPro.TMP_Dropdown/OptionData> options)
-    // Offset: 0xF45A60
+    // Offset: 0xEC0394
     void AddOptions(System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>* options);
     // public System.Void AddOptions(System.Collections.Generic.List`1<System.String> options)
-    // Offset: 0xF45AD8
+    // Offset: 0xEC040C
     void AddOptions(System::Collections::Generic::List_1<::Il2CppString*>* options);
     // public System.Void AddOptions(System.Collections.Generic.List`1<UnityEngine.Sprite> options)
-    // Offset: 0xF45C04
+    // Offset: 0xEC0538
     void AddOptions(System::Collections::Generic::List_1<UnityEngine::Sprite*>* options);
     // public System.Void ClearOptions()
-    // Offset: 0xF45D30
+    // Offset: 0xEC0664
     void ClearOptions();
     // private System.Void SetupTemplate()
-    // Offset: 0xF45D9C
+    // Offset: 0xEC06D0
     void SetupTemplate();
     // static private T GetOrAddComponent(UnityEngine.GameObject go)
     // Offset: 0xFFFFFFFF
@@ -208,52 +208,52 @@ namespace TMPro {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("TMPro", "TMP_Dropdown", "GetOrAddComponent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, go)));
     }
     // public System.Void Show()
-    // Offset: 0xF4626C
+    // Offset: 0xEC0BA0
     void Show();
     // protected UnityEngine.GameObject CreateBlocker(UnityEngine.Canvas rootCanvas)
-    // Offset: 0xF474C4
+    // Offset: 0xEC1DF8
     UnityEngine::GameObject* CreateBlocker(UnityEngine::Canvas* rootCanvas);
     // protected System.Void DestroyBlocker(UnityEngine.GameObject blocker)
-    // Offset: 0xF4775C
+    // Offset: 0xEC2090
     void DestroyBlocker(UnityEngine::GameObject* blocker);
     // protected UnityEngine.GameObject CreateDropdownList(UnityEngine.GameObject template)
-    // Offset: 0xF477C4
+    // Offset: 0xEC20F8
     UnityEngine::GameObject* CreateDropdownList(UnityEngine::GameObject* _template);
     // protected System.Void DestroyDropdownList(UnityEngine.GameObject dropdownList)
-    // Offset: 0xF47834
+    // Offset: 0xEC2168
     void DestroyDropdownList(UnityEngine::GameObject* dropdownList);
     // protected TMPro.TMP_Dropdown/DropdownItem CreateItem(TMPro.TMP_Dropdown/DropdownItem itemTemplate)
-    // Offset: 0xF4789C
+    // Offset: 0xEC21D0
     TMPro::TMP_Dropdown::DropdownItem* CreateItem(TMPro::TMP_Dropdown::DropdownItem* itemTemplate);
     // protected System.Void DestroyItem(TMPro.TMP_Dropdown/DropdownItem item)
-    // Offset: 0xF4790C
+    // Offset: 0xEC2240
     void DestroyItem(TMPro::TMP_Dropdown::DropdownItem* item);
     // private TMPro.TMP_Dropdown/DropdownItem AddItem(TMPro.TMP_Dropdown/OptionData data, System.Boolean selected, TMPro.TMP_Dropdown/DropdownItem itemTemplate, System.Collections.Generic.List`1<TMPro.TMP_Dropdown/DropdownItem> items)
-    // Offset: 0xF47114
+    // Offset: 0xEC1A48
     TMPro::TMP_Dropdown::DropdownItem* AddItem(TMPro::TMP_Dropdown::OptionData* data, bool selected, TMPro::TMP_Dropdown::DropdownItem* itemTemplate, System::Collections::Generic::List_1<TMPro::TMP_Dropdown::DropdownItem*>* items);
     // private System.Void AlphaFadeList(System.Single duration, System.Single alpha)
-    // Offset: 0xF47910
+    // Offset: 0xEC2244
     void AlphaFadeList(float duration, float alpha);
     // private System.Void AlphaFadeList(System.Single duration, System.Single start, System.Single end)
-    // Offset: 0xF473AC
+    // Offset: 0xEC1CE0
     void AlphaFadeList(float duration, float start, float end);
     // private System.Void SetAlpha(System.Single alpha)
-    // Offset: 0xF47998
+    // Offset: 0xEC22CC
     void SetAlpha(float alpha);
     // public System.Void Hide()
-    // Offset: 0xF46FD0
+    // Offset: 0xEC1904
     void Hide();
     // private System.Collections.IEnumerator DelayedDestroyDropdownList(System.Single delay)
-    // Offset: 0xF47A50
+    // Offset: 0xEC2384
     System::Collections::IEnumerator* DelayedDestroyDropdownList(float delay);
     // private System.Void ImmediateDestroyDropdownList()
-    // Offset: 0xF458F0
+    // Offset: 0xEC0224
     void ImmediateDestroyDropdownList();
     // private System.Void OnSelectItem(UnityEngine.UI.Toggle toggle)
-    // Offset: 0xF47B08
+    // Offset: 0xEC243C
     void OnSelectItem(UnityEngine::UI::Toggle* toggle);
     // protected System.Void .ctor()
-    // Offset: 0xF454FC
+    // Offset: 0xEBFE30
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -264,37 +264,37 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     static TMP_Dropdown* New_ctor();
     // protected override System.Void Awake()
-    // Offset: 0xF456B4
+    // Offset: 0xEBFFE8
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::Awake()
     void Awake();
     // protected override System.Void Start()
-    // Offset: 0xF45818
+    // Offset: 0xEC014C
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::Start()
     void Start();
     // protected override System.Void OnDisable()
-    // Offset: 0xF45840
+    // Offset: 0xEC0174
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::OnDisable()
     void OnDisable();
     // public System.Void OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0xF46268
+    // Offset: 0xEC0B9C
     // Implemented from: UnityEngine.EventSystems.IPointerClickHandler
     // Base method: System.Void IPointerClickHandler::OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerClick(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnSubmit(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0xF46FC8
+    // Offset: 0xEC18FC
     // Implemented from: UnityEngine.EventSystems.ISubmitHandler
     // Base method: System.Void ISubmitHandler::OnSubmit(UnityEngine.EventSystems.BaseEventData eventData)
     void OnSubmit(UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void OnCancel(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0xF46FCC
+    // Offset: 0xEC1900
     // Implemented from: UnityEngine.EventSystems.ICancelHandler
     // Base method: System.Void ICancelHandler::OnCancel(UnityEngine.EventSystems.BaseEventData eventData)
     void OnCancel(UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void .cctor()
-    // Offset: 0xF47C4C
+    // Offset: 0xEC2580
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::.cctor()
     // Base method: System.Void Object::.cctor()

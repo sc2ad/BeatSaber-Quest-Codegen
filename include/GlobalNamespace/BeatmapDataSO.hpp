@@ -46,22 +46,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public BeatmapData get_beatmapData()
-    // Offset: 0x104E6E8
+    // Offset: 0x20C9168
     GlobalNamespace::BeatmapData* get_beatmapData();
     // public System.Void set_beatmapData(BeatmapData value)
-    // Offset: 0x104E770
+    // Offset: 0x20C91F0
     void set_beatmapData(GlobalNamespace::BeatmapData* value);
     // public System.Void SetJsonData(System.String jsonData)
-    // Offset: 0x104E778
+    // Offset: 0x20C91F8
     void SetJsonData(::Il2CppString* jsonData);
     // public System.Void SetRequiredDataForLoad(System.Single beatsPerMinute, System.Single shuffle, System.Single shufflePeriod)
-    // Offset: 0x104E780
+    // Offset: 0x20C9200
     void SetRequiredDataForLoad(float beatsPerMinute, float shuffle, float shufflePeriod);
     // public System.Void Load()
-    // Offset: 0x104E718
+    // Offset: 0x20C9198
     void Load();
     // public System.Void .ctor()
-    // Offset: 0x104E794
+    // Offset: 0x20C9214
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

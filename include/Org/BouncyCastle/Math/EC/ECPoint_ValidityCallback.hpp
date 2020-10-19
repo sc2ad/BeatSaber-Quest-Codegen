@@ -32,10 +32,10 @@ namespace Org::BouncyCastle::Math::EC {
     // Offset: 0x19
     bool m_checkOrder;
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECPoint outer, System.Boolean decompressed, System.Boolean checkOrder)
-    // Offset: 0x201ABD8
+    // Offset: 0x1D6A83C
     static ECPoint::ValidityCallback* New_ctor(Org::BouncyCastle::Math::EC::ECPoint* outer, bool decompressed, bool checkOrder);
     // public Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
-    // Offset: 0x201B4F0
+    // Offset: 0x1D6B154
     // Implemented from: Org.BouncyCastle.Math.EC.Multiplier.IPreCompCallback
     // Base method: Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo IPreCompCallback::Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
     Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);

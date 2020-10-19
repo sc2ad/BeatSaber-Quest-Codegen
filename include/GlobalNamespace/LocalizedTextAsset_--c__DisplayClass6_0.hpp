@@ -23,10 +23,10 @@ namespace GlobalNamespace {
       return language;
     }
     // System.Boolean <get_localizedText>b__0(LocalizedTextAsset/TextInfo t)
-    // Offset: 0x10434EC
+    // Offset: 0x20AA3D4
     bool $get_localizedText$b__0(GlobalNamespace::LocalizedTextAsset::TextInfo* t);
     // public System.Void .ctor()
-    // Offset: 0x10434DC
+    // Offset: 0x20AA3C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LocalizedTextAsset::$$c__DisplayClass6_0* New_ctor();

@@ -29,10 +29,10 @@ namespace UnityEngine::TestRunner::NUnitExtensions {
   class TestResultExtensions : public ::Il2CppObject {
     public:
     // static public System.Void RecordPrefixedException(NUnit.Framework.Internal.TestResult testResult, System.String prefix, System.Exception ex, NUnit.Framework.Interfaces.ResultState resultState)
-    // Offset: 0x12B8DB0
+    // Offset: 0x10B464C
     static void RecordPrefixedException(NUnit::Framework::Internal::TestResult* testResult, ::Il2CppString* prefix, System::Exception* ex, NUnit::Framework::Interfaces::ResultState* resultState);
     // static public System.Void RecordPrefixedError(NUnit.Framework.Internal.TestResult testResult, System.String prefix, System.String error, NUnit.Framework.Interfaces.ResultState resultState)
-    // Offset: 0x12B922C
+    // Offset: 0x10B4AC8
     static void RecordPrefixedError(NUnit::Framework::Internal::TestResult* testResult, ::Il2CppString* prefix, ::Il2CppString* error, NUnit::Framework::Interfaces::ResultState* resultState);
   }; // UnityEngine.TestRunner.NUnitExtensions.TestResultExtensions
 }

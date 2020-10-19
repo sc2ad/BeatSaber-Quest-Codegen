@@ -23,30 +23,30 @@ namespace System::Security {
     // Offset: 0x18
     ::Array<uint8_t>* data;
     // public System.Void .ctor(System.Char* value, System.Int32 length)
-    // Offset: 0x14374DC
+    // Offset: 0x120DC18
     static SecureString* New_ctor(::Il2CppChar* value, int length);
     // public System.Int32 get_Length()
-    // Offset: 0x1437644
+    // Offset: 0x120DD80
     int get_Length();
     // private System.Void Encrypt()
-    // Offset: 0x1437640
+    // Offset: 0x120DD7C
     void Encrypt();
     // private System.Void Decrypt()
-    // Offset: 0x1437720
+    // Offset: 0x120DE5C
     void Decrypt();
     // private System.Void Alloc(System.Int32 length, System.Boolean realloc)
-    // Offset: 0x1437350
+    // Offset: 0x120DA8C
     void Alloc(int length, bool realloc);
     // System.Byte[] GetBuffer()
-    // Offset: 0x1437724
+    // Offset: 0x120DE60
     ::Array<uint8_t>* GetBuffer();
     // public System.Void .ctor()
-    // Offset: 0x1437320
+    // Offset: 0x120DA5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SecureString* New_ctor();
     // public System.Void Dispose()
-    // Offset: 0x14376CC
+    // Offset: 0x120DE08
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

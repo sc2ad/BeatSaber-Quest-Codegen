@@ -112,40 +112,40 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kMaxTimeOutBeforeFail
     static void _set_kMaxTimeOutBeforeFail(float value);
     // public System.Void .ctor(OculusLevelProductsModelSO oculusLevelProductsModel)
-    // Offset: 0x10B5C90
+    // Offset: 0x20FEC84
     static OculusBeatmapDataAssetFileModel* New_ctor(GlobalNamespace::OculusLevelProductsModelSO* oculusLevelProductsModel);
     // private System.Threading.Tasks.Task`1<System.Boolean> ReloadAssetDetailsForAllLevelsAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x10B60E0
+    // Offset: 0x20FF0D4
     System::Threading::Tasks::Task_1<bool>* ReloadAssetDetailsForAllLevelsAsync(System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<GetAssetBundleFileResult> GetDownloadAssetBundleFileAsync(System.String levelId, Oculus.Platform.Models.AssetDetails assetDetails, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x10B622C
+    // Offset: 0x20FF220
     System::Threading::Tasks::Task_1<GlobalNamespace::GetAssetBundleFileResult>* GetDownloadAssetBundleFileAsync(::Il2CppString* levelId, Oculus::Platform::Models::AssetDetails* assetDetails, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.TaskCompletionSource`1<GetAssetBundleFileResult> GetTaskCompletionSourceForDownload(System.String levelId, Oculus.Platform.Models.AssetDetails assetDetail)
-    // Offset: 0x10B6390
+    // Offset: 0x20FF384
     System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>* GetTaskCompletionSourceForDownload(::Il2CppString* levelId, Oculus::Platform::Models::AssetDetails* assetDetail);
     // private System.Void HandleAssetFileDownloadUpdate(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetFileDownloadUpdate> msg)
-    // Offset: 0x10B6534
+    // Offset: 0x20FF528
     void HandleAssetFileDownloadUpdate(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDownloadUpdate*>* msg);
     // private System.Void <.ctor>b__12_0(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetFileDownloadUpdate> msg)
-    // Offset: 0x10B68B8
+    // Offset: 0x20FF8AC
     void $_ctor$b__12_0(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDownloadUpdate*>* msg);
     // public System.Void add_levelDataAssetDownloadUpdateEvent(System.Action`1<LevelDataAssetDownloadUpdate> value)
-    // Offset: 0x10B5B48
+    // Offset: 0x20FEB3C
     // Implemented from: IBeatmapDataAssetFileModel
     // Base method: System.Void IBeatmapDataAssetFileModel::add_levelDataAssetDownloadUpdateEvent(System.Action`1<LevelDataAssetDownloadUpdate> value)
     void add_levelDataAssetDownloadUpdateEvent(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
     // public System.Void remove_levelDataAssetDownloadUpdateEvent(System.Action`1<LevelDataAssetDownloadUpdate> value)
-    // Offset: 0x10B5BEC
+    // Offset: 0x20FEBE0
     // Implemented from: IBeatmapDataAssetFileModel
     // Base method: System.Void IBeatmapDataAssetFileModel::remove_levelDataAssetDownloadUpdateEvent(System.Action`1<LevelDataAssetDownloadUpdate> value)
     void remove_levelDataAssetDownloadUpdateEvent(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
     // public System.Threading.Tasks.Task`1<System.Boolean> TryDeleteAssetBundleFileForPreviewLevelAsync(IPreviewBeatmapLevel previewBeatmapLevel, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x10B5E38
+    // Offset: 0x20FEE2C
     // Implemented from: IBeatmapDataAssetFileModel
     // Base method: System.Threading.Tasks.Task`1<System.Boolean> IBeatmapDataAssetFileModel::TryDeleteAssetBundleFileForPreviewLevelAsync(IPreviewBeatmapLevel previewBeatmapLevel, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<bool>* TryDeleteAssetBundleFileForPreviewLevelAsync(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<GetAssetBundleFileResult> GetAssetBundleFileForPreviewLevelAsync(IPreviewBeatmapLevel previewBeatmapLevel, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x10B5F8C
+    // Offset: 0x20FEF80
     // Implemented from: IBeatmapDataAssetFileModel
     // Base method: System.Threading.Tasks.Task`1<GetAssetBundleFileResult> IBeatmapDataAssetFileModel::GetAssetBundleFileForPreviewLevelAsync(IPreviewBeatmapLevel previewBeatmapLevel, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<GlobalNamespace::GetAssetBundleFileResult>* GetAssetBundleFileForPreviewLevelAsync(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, System::Threading::CancellationToken cancellationToken);

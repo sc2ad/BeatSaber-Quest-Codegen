@@ -20,18 +20,18 @@ namespace GlobalNamespace {
   class DynamicBonePlaneCollider : public GlobalNamespace::DynamicBoneColliderBase {
     public:
     // private System.Void OnValidate()
-    // Offset: 0x2204E64
+    // Offset: 0x1F55874
     void OnValidate();
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0x2205054
+    // Offset: 0x1F55A64
     void OnDrawGizmosSelected();
     // public override System.Void Collide(ref UnityEngine.Vector3 particlePosition, System.Single particleRadius)
-    // Offset: 0x2204E68
+    // Offset: 0x1F55878
     // Implemented from: DynamicBoneColliderBase
     // Base method: System.Void DynamicBoneColliderBase::Collide(ref UnityEngine.Vector3 particlePosition, System.Single particleRadius)
     void Collide(UnityEngine::Vector3& particlePosition, float particleRadius);
     // public System.Void .ctor()
-    // Offset: 0x2205218
+    // Offset: 0x1F55C28
     // Implemented from: DynamicBoneColliderBase
     // Base method: System.Void DynamicBoneColliderBase::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

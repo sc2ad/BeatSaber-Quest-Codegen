@@ -67,19 +67,19 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x50
     Org::BouncyCastle::Asn1::X509::X509Extensions* extensions;
     // static public Org.BouncyCastle.Asn1.X509.AttributeCertificateInfo GetInstance(System.Object obj)
-    // Offset: 0x18629AC
+    // Offset: 0x1608DD0
     static Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1862C7C
+    // Offset: 0x16090A0
     static AttributeCertificateInfo* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public Org.BouncyCastle.Asn1.X509.AttCertValidityPeriod get_AttrCertValidityPeriod()
-    // Offset: 0x1863440
+    // Offset: 0x1609864
     Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod* get_AttrCertValidityPeriod();
     // public Org.BouncyCastle.Asn1.X509.X509Extensions get_Extensions()
-    // Offset: 0x1863448
+    // Offset: 0x160986C
     Org::BouncyCastle::Asn1::X509::X509Extensions* get_Extensions();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1863450
+    // Offset: 0x1609874
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

@@ -59,12 +59,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: $SetOwnedSongPacks$d__42
     constexpr $SetOwnedSongPacks$d__42(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, GlobalNamespace::LobbyPlayersDataModel* $$4__this_ = {}, GlobalNamespace::SongPackMask $songPackMask$5__2_ = {}, ::Array<GlobalNamespace::IBeatmapLevelPack*>* $$7__wrap2_ = {}, int $$7__wrap3_ = {}, GlobalNamespace::IBeatmapLevelPack* $dlcSongPack$5__5_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $songPackMask$5__2{$songPackMask$5__2_}, $$7__wrap2{$$7__wrap2_}, $$7__wrap3{$$7__wrap3_}, $dlcSongPack$5__5{$dlcSongPack$5__5_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
-    // Offset: 0xDA29E8
+    // Offset: 0xE4E438
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDA29F0
+    // Offset: 0xE4E440
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

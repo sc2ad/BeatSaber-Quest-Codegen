@@ -24,12 +24,12 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::SpawnRotationChevron* spawnRotationChevronPrefab;
     // public override System.Void InstallBindings()
-    // Offset: 0xEF418C
+    // Offset: 0x1FF50E0
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xEF420C
+    // Offset: 0x1FF5160
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

@@ -44,33 +44,33 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GameplayServerConfiguration
     constexpr GameplayServerConfiguration(GlobalNamespace::BeatmapDifficultyMask difficulties_ = {}, GlobalNamespace::GameplayModifierMask modifiers_ = {}, GlobalNamespace::SongPackMask songPacks_ = {}) noexcept : difficulties{difficulties_}, modifiers{modifiers_}, songPacks{songPacks_} {}
     // public System.Void .ctor(BeatmapDifficultyMask difficulties, GameplayModifierMask modifiers, SongPackMask songPacks)
-    // Offset: 0xDA3A54
+    // Offset: 0xE4EE70
     // ABORTED: conflicts with another method.  GameplayServerConfiguration(GlobalNamespace::BeatmapDifficultyMask difficulties, GlobalNamespace::GameplayModifierMask modifiers, GlobalNamespace::SongPackMask songPacks);
     // static public GameplayServerConfiguration Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1164F6C
+    // Offset: 0x215F954
     static GlobalNamespace::GameplayServerConfiguration Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xDA3A64
+    // Offset: 0xE4EE80
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(GameplayServerConfiguration other)
-    // Offset: 0xDA3A6C
+    // Offset: 0xE4EE88
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(GameplayServerConfiguration other)
     bool Equals(GlobalNamespace::GameplayServerConfiguration other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xDA3AA4
+    // Offset: 0xE4EEC0
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xDA3AD8
+    // Offset: 0xE4EEF4
     // Implemented from: LiteNetLib.Utils.INetImmutableSerializable`1
     // Base method: System.Void INetImmutableSerializable_1::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public GameplayServerConfiguration CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xDA3AE0
+    // Offset: 0xE4EEFC
     // Implemented from: LiteNetLib.Utils.INetImmutableSerializable`1
     // Base method: T INetImmutableSerializable_1::CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
     GlobalNamespace::GameplayServerConfiguration CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
@@ -79,10 +79,10 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayServerConfiguration LiteNetLib_Utils_INetImmutableSerializable_1_CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
   }; // GameplayServerConfiguration
   // static public System.Boolean op_Equality(GameplayServerConfiguration l, GameplayServerConfiguration r)
-  // Offset: 0x1164FD4
+  // Offset: 0x215F9BC
   bool operator ==(const GlobalNamespace::GameplayServerConfiguration& l, const GlobalNamespace::GameplayServerConfiguration& r);
   // static public System.Boolean op_Inequality(GameplayServerConfiguration l, GameplayServerConfiguration r)
-  // Offset: 0x1165014
+  // Offset: 0x215F9FC
   bool operator !=(const GlobalNamespace::GameplayServerConfiguration& l, const GlobalNamespace::GameplayServerConfiguration& r);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -153,88 +153,88 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_TransformUpdated(System.Action`1<UnityEngine.Transform> value)
-    // Offset: 0x13DA3BC
+    // Offset: 0x11AFAF8
     void add_TransformUpdated(System::Action_1<UnityEngine::Transform*>* value);
     // public System.Void remove_TransformUpdated(System.Action`1<UnityEngine.Transform> value)
-    // Offset: 0x13DA460
+    // Offset: 0x11AFB9C
     void remove_TransformUpdated(System::Action_1<UnityEngine::Transform*>* value);
     // public System.Void add_CameraUpdated(System.Action value)
-    // Offset: 0x13DA504
+    // Offset: 0x11AFC40
     void add_CameraUpdated(System::Action* value);
     // public System.Void remove_CameraUpdated(System.Action value)
-    // Offset: 0x13DA5A8
+    // Offset: 0x11AFCE4
     void remove_CameraUpdated(System::Action* value);
     // public System.Void add_PreCharacterMove(System.Action value)
-    // Offset: 0x13DA64C
+    // Offset: 0x11AFD88
     void add_PreCharacterMove(System::Action* value);
     // public System.Void remove_PreCharacterMove(System.Action value)
-    // Offset: 0x13DA6F0
+    // Offset: 0x11AFE2C
     void remove_PreCharacterMove(System::Action* value);
     // public System.Single get_InitialYRotation()
-    // Offset: 0x13DA794
+    // Offset: 0x11AFED0
     float get_InitialYRotation();
     // private System.Void set_InitialYRotation(System.Single value)
-    // Offset: 0x13DA79C
+    // Offset: 0x11AFED8
     void set_InitialYRotation(float value);
     // private System.Void Start()
-    // Offset: 0x13DA7A4
+    // Offset: 0x11AFEE0
     void Start();
     // private System.Void Awake()
-    // Offset: 0x13DA878
+    // Offset: 0x11AFFB4
     void Awake();
     // private System.Void OnEnable()
-    // Offset: 0x13DAA50
+    // Offset: 0x11B018C
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x13DAA54
+    // Offset: 0x11B0190
     void OnDisable();
     // private System.Void Update()
-    // Offset: 0x13DABD8
+    // Offset: 0x11B0314
     void Update();
     // protected System.Void UpdateController()
-    // Offset: 0x13DADC4
+    // Offset: 0x11B0500
     void UpdateController();
     // public System.Void UpdateMovement()
-    // Offset: 0x13DB650
+    // Offset: 0x11B0D8C
     void UpdateMovement();
     // public System.Void UpdateTransform(OVRCameraRig rig)
-    // Offset: 0x13DC5E4
+    // Offset: 0x11B1D20
     void UpdateTransform(GlobalNamespace::OVRCameraRig* rig);
     // public System.Boolean Jump()
-    // Offset: 0x13DC790
+    // Offset: 0x11B1ECC
     bool Jump();
     // public System.Void Stop()
-    // Offset: 0x13DC894
+    // Offset: 0x11B1FD0
     void Stop();
     // public System.Void GetMoveScaleMultiplier(ref System.Single moveScaleMultiplier)
-    // Offset: 0x13DC928
+    // Offset: 0x11B2064
     void GetMoveScaleMultiplier(float& moveScaleMultiplier);
     // public System.Void SetMoveScaleMultiplier(System.Single moveScaleMultiplier)
-    // Offset: 0x13DC934
+    // Offset: 0x11B2070
     void SetMoveScaleMultiplier(float moveScaleMultiplier);
     // public System.Void GetRotationScaleMultiplier(ref System.Single rotationScaleMultiplier)
-    // Offset: 0x13DC93C
+    // Offset: 0x11B2078
     void GetRotationScaleMultiplier(float& rotationScaleMultiplier);
     // public System.Void SetRotationScaleMultiplier(System.Single rotationScaleMultiplier)
-    // Offset: 0x13DC948
+    // Offset: 0x11B2084
     void SetRotationScaleMultiplier(float rotationScaleMultiplier);
     // public System.Void GetSkipMouseRotation(ref System.Boolean skipMouseRotation)
-    // Offset: 0x13DC950
+    // Offset: 0x11B208C
     void GetSkipMouseRotation(bool& skipMouseRotation);
     // public System.Void SetSkipMouseRotation(System.Boolean skipMouseRotation)
-    // Offset: 0x13DC95C
+    // Offset: 0x11B2098
     void SetSkipMouseRotation(bool skipMouseRotation);
     // public System.Void GetHaltUpdateMovement(ref System.Boolean haltUpdateMovement)
-    // Offset: 0x13DC968
+    // Offset: 0x11B20A4
     void GetHaltUpdateMovement(bool& haltUpdateMovement);
     // public System.Void SetHaltUpdateMovement(System.Boolean haltUpdateMovement)
-    // Offset: 0x13DC974
+    // Offset: 0x11B20B0
     void SetHaltUpdateMovement(bool haltUpdateMovement);
     // public System.Void ResetOrientation()
-    // Offset: 0x13DC980
+    // Offset: 0x11B20BC
     void ResetOrientation();
     // public System.Void .ctor()
-    // Offset: 0x13DCA80
+    // Offset: 0x11B21BC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -36,16 +36,16 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x18
     Org::BouncyCastle::Asn1::Asn1Object* choiceObj;
     // static public Org.BouncyCastle.Asn1.X509.AttCertIssuer GetInstance(System.Object obj)
-    // Offset: 0x1861E98
+    // Offset: 0x16082BC
     static Org::BouncyCastle::Asn1::X509::AttCertIssuer* GetInstance(::Il2CppObject* obj);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.GeneralNames names)
-    // Offset: 0x186224C
+    // Offset: 0x1608670
     static AttCertIssuer* New_ctor(Org::BouncyCastle::Asn1::X509::GeneralNames* names);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.V2Form v2Form)
-    // Offset: 0x18621AC
+    // Offset: 0x16085D0
     static AttCertIssuer* New_ctor(Org::BouncyCastle::Asn1::X509::V2Form* v2Form);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1862374
+    // Offset: 0x1608798
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

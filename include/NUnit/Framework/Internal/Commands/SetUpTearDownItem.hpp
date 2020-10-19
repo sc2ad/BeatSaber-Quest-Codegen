@@ -39,22 +39,22 @@ namespace NUnit::Framework::Internal::Commands {
     // Offset: 0x20
     bool setUpWasRun;
     // public System.Void .ctor(System.Collections.Generic.IList`1<System.Reflection.MethodInfo> setUpMethods, System.Collections.Generic.IList`1<System.Reflection.MethodInfo> tearDownMethods)
-    // Offset: 0x15F3210
+    // Offset: 0x13C9A38
     static SetUpTearDownItem* New_ctor(System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>* setUpMethods, System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>* tearDownMethods);
     // public System.Boolean get_HasMethods()
-    // Offset: 0x15F3260
+    // Offset: 0x13C9A88
     bool get_HasMethods();
     // public System.Void RunSetUp(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x15F25A8
+    // Offset: 0x13C8DD0
     void RunSetUp(NUnit::Framework::Internal::ITestExecutionContext* context);
     // public System.Void RunTearDown(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x15F2EEC
+    // Offset: 0x13C9714
     void RunTearDown(NUnit::Framework::Internal::ITestExecutionContext* context);
     // private System.Void RunSetUpOrTearDownMethod(NUnit.Framework.Internal.ITestExecutionContext context, System.Reflection.MethodInfo method)
-    // Offset: 0x15F339C
+    // Offset: 0x13C9BC4
     void RunSetUpOrTearDownMethod(NUnit::Framework::Internal::ITestExecutionContext* context, System::Reflection::MethodInfo* method);
     // private System.Object RunNonAsyncMethod(System.Reflection.MethodInfo method, NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x15F33AC
+    // Offset: 0x13C9BD4
     ::Il2CppObject* RunNonAsyncMethod(System::Reflection::MethodInfo* method, NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // NUnit.Framework.Internal.Commands.SetUpTearDownItem
 }

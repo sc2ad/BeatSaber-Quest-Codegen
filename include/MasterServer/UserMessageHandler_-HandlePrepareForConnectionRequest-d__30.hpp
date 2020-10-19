@@ -58,12 +58,12 @@ namespace MasterServer {
     // Creating value type constructor for type: $HandlePrepareForConnectionRequest$d__30
     constexpr $HandlePrepareForConnectionRequest$d__30(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, MasterServer::UserMessageHandler* $$4__this_ = {}, MasterServer::PrepareForConnectionRequest* packet_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IDiffieHellmanKeyPair*> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Array<uint8_t>*> $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, packet{packet_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
     // private System.Void MoveNext()
-    // Offset: 0xDA3164
+    // Offset: 0xE4ECEC
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDA316C
+    // Offset: 0xE4ECF4
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

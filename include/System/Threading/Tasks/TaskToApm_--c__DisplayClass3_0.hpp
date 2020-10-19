@@ -29,10 +29,10 @@ namespace System::Threading::Tasks {
     // Offset: 0x18
     System::IAsyncResult* asyncResult;
     // System.Void <InvokeCallbackWhenTaskCompletes>b__0()
-    // Offset: 0x16E6734
+    // Offset: 0x14A1308
     void $InvokeCallbackWhenTaskCompletes$b__0();
     // public System.Void .ctor()
-    // Offset: 0x16E672C
+    // Offset: 0x14A1300
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TaskToApm::$$c__DisplayClass3_0* New_ctor();

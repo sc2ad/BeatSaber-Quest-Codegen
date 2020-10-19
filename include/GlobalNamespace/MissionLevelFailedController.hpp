@@ -73,19 +73,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xEDDC98
+    // Offset: 0x1FC7860
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xEDDD80
+    // Offset: 0x1FC7948
     void OnDestroy();
     // private System.Void HandleLevelFailed()
-    // Offset: 0xEDDE78
+    // Offset: 0x1FC7A40
     void HandleLevelFailed();
     // private System.Collections.IEnumerator LevelFailedCoroutine()
-    // Offset: 0xEDDEA4
+    // Offset: 0x1FC7A6C
     System::Collections::IEnumerator* LevelFailedCoroutine();
     // public System.Void .ctor()
-    // Offset: 0xEDDF4C
+    // Offset: 0x1FC7B14
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

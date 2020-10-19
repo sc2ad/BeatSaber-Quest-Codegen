@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_ShowKeyboard : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F323EC
+    // Offset: 0x1C84050
     static IVROverlay::_ShowKeyboard* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.Int32 eInputMode, System.Int32 eLineInputMode, System.String pchDescription, System.UInt32 unCharMax, System.String pchExistingText, System.Boolean bUseMinimalMode, System.UInt64 uUserValue)
-    // Offset: 0x1F32400
+    // Offset: 0x1C84064
     OVR::OpenVR::EVROverlayError Invoke(int eInputMode, int eLineInputMode, ::Il2CppString* pchDescription, uint unCharMax, ::Il2CppString* pchExistingText, bool bUseMinimalMode, uint64_t uUserValue);
     // public System.IAsyncResult BeginInvoke(System.Int32 eInputMode, System.Int32 eLineInputMode, System.String pchDescription, System.UInt32 unCharMax, System.String pchExistingText, System.Boolean bUseMinimalMode, System.UInt64 uUserValue, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F32738
+    // Offset: 0x1C8439C
     System::IAsyncResult* BeginInvoke(int eInputMode, int eLineInputMode, ::Il2CppString* pchDescription, uint unCharMax, ::Il2CppString* pchExistingText, bool bUseMinimalMode, uint64_t uUserValue, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1F32848
+    // Offset: 0x1C844AC
     OVR::OpenVR::EVROverlayError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_ShowKeyboard
 }

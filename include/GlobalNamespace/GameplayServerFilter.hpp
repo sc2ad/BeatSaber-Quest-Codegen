@@ -75,51 +75,51 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GameplayServerFilter
     constexpr GameplayServerFilter(bool includePasswordProtected_ = {}, bool includeEmpty_ = {}, bool includeFull_ = {}, bool filterNames_ = {}, ::Il2CppString* nameFilter_ = {}, bool filterDifficulties_ = {}, GlobalNamespace::BeatmapDifficultyMask difficultyFilter_ = {}, bool filterModifiers_ = {}, GlobalNamespace::GameplayModifierMask modifierFilter_ = {}, bool filterSongPacks_ = {}, GlobalNamespace::SongPackMask songPackFilter_ = {}) noexcept : includePasswordProtected{includePasswordProtected_}, includeEmpty{includeEmpty_}, includeFull{includeFull_}, filterNames{filterNames_}, nameFilter{nameFilter_}, filterDifficulties{filterDifficulties_}, difficultyFilter{difficultyFilter_}, filterModifiers{filterModifiers_}, modifierFilter{modifierFilter_}, filterSongPacks{filterSongPacks_}, songPackFilter{songPackFilter_} {}
     // public System.Void .ctor(System.Boolean includePasswordProtected, System.Boolean includeEmpty, System.Boolean includeFull, System.Boolean filterNames, System.String nameFilter, System.Boolean filterDifficulties, BeatmapDifficultyMask difficultyFilter, System.Boolean filterModifiers, GameplayModifierMask modifierFilter, System.Boolean filterSongPacks, SongPackMask songPackFilter)
-    // Offset: 0xDA3C4C
+    // Offset: 0xE4F068
     // ABORTED: conflicts with another method.  GameplayServerFilter(bool includePasswordProtected, bool includeEmpty, bool includeFull, bool filterNames, ::Il2CppString* nameFilter, bool filterDifficulties, GlobalNamespace::BeatmapDifficultyMask difficultyFilter, bool filterModifiers, GlobalNamespace::GameplayModifierMask modifierFilter, bool filterSongPacks, GlobalNamespace::SongPackMask songPackFilter);
     // static public GameplayServerFilter get_defaultFilter()
-    // Offset: 0x116510C
+    // Offset: 0x215FAF4
     static GlobalNamespace::GameplayServerFilter get_defaultFilter();
     // public System.Boolean Equals(ref GameplayServerFilter other)
-    // Offset: 0xDA3C90
+    // Offset: 0xE4F0AC
     bool Equals(GlobalNamespace::GameplayServerFilter& other);
     // static public GameplayServerFilter Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x11654A0
+    // Offset: 0x215FE88
     static GlobalNamespace::GameplayServerFilter Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean IncludesServerName(System.String lowerInvariantName)
-    // Offset: 0xDA3CF0
+    // Offset: 0xE4F10C
     bool IncludesServerName(::Il2CppString* lowerInvariantName);
     // public System.Boolean IncludesPassword(System.String password)
-    // Offset: 0xDA3D20
+    // Offset: 0xE4F13C
     bool IncludesPassword(::Il2CppString* password);
     // public System.Boolean IncludesPlayerCount(System.Int32 currentPlayerCount, System.Int32 maxPlayerCount)
-    // Offset: 0xDA3D3C
+    // Offset: 0xE4F158
     bool IncludesPlayerCount(int currentPlayerCount, int maxPlayerCount);
     // public System.Boolean IncludesConfiguration(GameplayServerConfiguration configuration)
-    // Offset: 0xDA3D70
+    // Offset: 0xE4F18C
     bool IncludesConfiguration(GlobalNamespace::GameplayServerConfiguration configuration);
     // public System.Boolean Equals(GameplayServerFilter other)
-    // Offset: 0xDA3C98
+    // Offset: 0xE4F0B4
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(GameplayServerFilter other)
     bool Equals(GlobalNamespace::GameplayServerFilter other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xDA3CD0
+    // Offset: 0xE4F0EC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xDA3CD8
+    // Offset: 0xE4F0F4
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xDA3CE0
+    // Offset: 0xE4F0FC
     // Implemented from: LiteNetLib.Utils.INetImmutableSerializable`1
     // Base method: System.Void INetImmutableSerializable_1::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public GameplayServerFilter CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xDA3CE8
+    // Offset: 0xE4F104
     // Implemented from: LiteNetLib.Utils.INetImmutableSerializable`1
     // Base method: T INetImmutableSerializable_1::CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
     GlobalNamespace::GameplayServerFilter CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);

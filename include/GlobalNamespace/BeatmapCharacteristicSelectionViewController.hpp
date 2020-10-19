@@ -48,32 +48,32 @@ namespace GlobalNamespace {
     // Offset: 0x88
     GlobalNamespace::BeatmapCharacteristicSO* selectedBeatmapCharacteristic;
     // public System.Void add_didSelectBeatmapCharacteristicEvent(System.Action`2<BeatmapCharacteristicSelectionViewController,BeatmapCharacteristicSO> value)
-    // Offset: 0x1049F9C
+    // Offset: 0x20C4CB8
     void add_didSelectBeatmapCharacteristicEvent(System::Action_2<GlobalNamespace::BeatmapCharacteristicSelectionViewController*, GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void remove_didSelectBeatmapCharacteristicEvent(System.Action`2<BeatmapCharacteristicSelectionViewController,BeatmapCharacteristicSO> value)
-    // Offset: 0x104A040
+    // Offset: 0x20C4D5C
     void remove_didSelectBeatmapCharacteristicEvent(System::Action_2<GlobalNamespace::BeatmapCharacteristicSelectionViewController*, GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public BeatmapCharacteristicSO get_selectedBeatmapCharacteristic()
-    // Offset: 0x104A0E4
+    // Offset: 0x20C4E00
     GlobalNamespace::BeatmapCharacteristicSO* get_selectedBeatmapCharacteristic();
     // public System.Void Init()
-    // Offset: 0x104A0EC
+    // Offset: 0x20C4E08
     void Init();
     // private System.Void HandleBeatmapCharacteristicSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellNumber)
-    // Offset: 0x104A3EC
+    // Offset: 0x20C5108
     void HandleBeatmapCharacteristicSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellNumber);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x104A150
+    // Offset: 0x20C4E6C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x104A340
+    // Offset: 0x20C505C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0x104A494
+    // Offset: 0x20C51B0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

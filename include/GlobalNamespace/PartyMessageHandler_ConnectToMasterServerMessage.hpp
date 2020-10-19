@@ -74,13 +74,13 @@ namespace GlobalNamespace {
     // Offset: 0x50
     GlobalNamespace::GameplayServerConfiguration configuration;
     // static public PacketPool`1<PartyMessageHandler/ConnectToMasterServerMessage> get_pool()
-    // Offset: 0x1C3CE30
+    // Offset: 0x21F6FC8
     static GlobalNamespace::PacketPool_1<GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage*>* get_pool();
     // public PartyMessageHandler/ConnectToMasterServerMessage Init(System.Net.IPEndPoint endPoint, System.String serverName, System.String password, System.String secret, System.String userId, System.String userName, DiscoveryPolicy discoveryPolicy, InvitePolicy invitePolicy, System.Int32 maxPlayerCount, GameplayServerConfiguration configuration)
-    // Offset: 0x1C3DA94
+    // Offset: 0x21F7C2C
     GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage* Init(System::Net::IPEndPoint* endPoint, ::Il2CppString* serverName, ::Il2CppString* password, ::Il2CppString* secret, ::Il2CppString* userId, ::Il2CppString* userName, GlobalNamespace::DiscoveryPolicy discoveryPolicy, GlobalNamespace::InvitePolicy invitePolicy, int maxPlayerCount, GlobalNamespace::GameplayServerConfiguration configuration);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1C3E414
+    // Offset: 0x21F85AC
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -88,7 +88,7 @@ namespace GlobalNamespace {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1C3E4F4
+    // Offset: 0x21F868C
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -96,12 +96,12 @@ namespace GlobalNamespace {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x1C3E274
+    // Offset: 0x21F840C
     // Implemented from: IPoolablePacket
     // Base method: System.Void IPoolablePacket::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x1C3E634
+    // Offset: 0x21F87CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PartyMessageHandler::ConnectToMasterServerMessage* New_ctor();

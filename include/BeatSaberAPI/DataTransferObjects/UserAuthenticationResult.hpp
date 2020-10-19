@@ -27,7 +27,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Offset: 0x18
     BeatSaberAPI::DataTransferObjects::AccessToken* accessToken;
     // public System.Void .ctor()
-    // Offset: 0x1046808
+    // Offset: 0x20C1548
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UserAuthenticationResult* New_ctor();

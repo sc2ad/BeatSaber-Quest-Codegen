@@ -61,19 +61,19 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kMultiplayerUnavailableUnknown
     static void _set_kMultiplayerUnavailableUnknown(::Il2CppString* value);
     // static public System.String LocalizedKey(MultiplayerUnavailableReason multiplayerUnavailableReason)
-    // Offset: 0xF07158
+    // Offset: 0x1FDC00C
     static ::Il2CppString* LocalizedKey(GlobalNamespace::MultiplayerUnavailableReason multiplayerUnavailableReason);
     // static public System.String ErrorCode(MultiplayerUnavailableReason multiplayerUnavailableReason)
-    // Offset: 0xF071C0
+    // Offset: 0x1FDC074
     static ::Il2CppString* ErrorCode(GlobalNamespace::MultiplayerUnavailableReason multiplayerUnavailableReason);
     // static public System.Boolean TryGetMultiplayerUnavailableReason(MasterServerAvailabilityData data, out MultiplayerUnavailableReason reason)
-    // Offset: 0xF0723C
+    // Offset: 0x1FDC0F0
     static bool TryGetMultiplayerUnavailableReason(GlobalNamespace::MasterServerAvailabilityData* data, GlobalNamespace::MultiplayerUnavailableReason& reason);
     // static public System.String GetLocalizedMessage(MasterServerAvailabilityData data, Polyglot.Language language)
-    // Offset: 0xF07600
+    // Offset: 0x1FDC4B4
     static ::Il2CppString* GetLocalizedMessage(GlobalNamespace::MasterServerAvailabilityData* data, Polyglot::Language language);
     // static private System.Boolean VersionLessThan(System.String currentVersion, System.String minVersion)
-    // Offset: 0xF0735C
+    // Offset: 0x1FDC210
     static bool VersionLessThan(::Il2CppString* currentVersion, ::Il2CppString* minVersion);
   }; // MultiplayerUnavailableReasonMethods
 }

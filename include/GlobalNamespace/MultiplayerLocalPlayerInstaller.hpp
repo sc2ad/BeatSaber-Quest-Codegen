@@ -34,12 +34,12 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::MultiplayerPlayerStartState startState;
     // public override System.Void InstallBindings()
-    // Offset: 0x224029C
+    // Offset: 0x204E8AC
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x2240484
+    // Offset: 0x204EA94
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

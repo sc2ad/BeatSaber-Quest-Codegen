@@ -28,10 +28,10 @@ namespace GlobalNamespace {
       return userId;
     }
     // System.Boolean <GetConnectedPlayerByUserId>b__0(MockPlayer player)
-    // Offset: 0xFC2648
+    // Offset: 0x20571C8
     bool $GetConnectedPlayerByUserId$b__0(GlobalNamespace::MockPlayer* player);
     // public System.Void .ctor()
-    // Offset: 0xFC16EC
+    // Offset: 0x205626C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MockMultiplayerSessionManager::$$c__DisplayClass56_0* New_ctor();

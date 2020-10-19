@@ -34,19 +34,19 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x18
     Org::BouncyCastle::Math::BigInteger* publicExponent;
     // static public Org.BouncyCastle.Asn1.X509.RsaPublicKeyStructure GetInstance(System.Object obj)
-    // Offset: 0x1868804
+    // Offset: 0x160EC28
     static Org::BouncyCastle::Asn1::X509::RsaPublicKeyStructure* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1868978
+    // Offset: 0x160ED9C
     static RsaPublicKeyStructure* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public Org.BouncyCastle.Math.BigInteger get_Modulus()
-    // Offset: 0x1868ADC
+    // Offset: 0x160EF00
     Org::BouncyCastle::Math::BigInteger* get_Modulus();
     // public Org.BouncyCastle.Math.BigInteger get_PublicExponent()
-    // Offset: 0x1868AE4
+    // Offset: 0x160EF08
     Org::BouncyCastle::Math::BigInteger* get_PublicExponent();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1868AEC
+    // Offset: 0x160EF10
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

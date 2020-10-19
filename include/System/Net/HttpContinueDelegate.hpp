@@ -29,16 +29,16 @@ namespace System::Net {
   class HttpContinueDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1461C58
+    // Offset: 0x1238480
     static HttpContinueDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Int32 StatusCode, System.Net.WebHeaderCollection httpHeaders)
-    // Offset: 0x1461C6C
+    // Offset: 0x1238494
     void Invoke(int StatusCode, System::Net::WebHeaderCollection* httpHeaders);
     // public System.IAsyncResult BeginInvoke(System.Int32 StatusCode, System.Net.WebHeaderCollection httpHeaders, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1461EF4
+    // Offset: 0x123871C
     System::IAsyncResult* BeginInvoke(int StatusCode, System::Net::WebHeaderCollection* httpHeaders, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1461F8C
+    // Offset: 0x12387B4
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Net.HttpContinueDelegate
 }

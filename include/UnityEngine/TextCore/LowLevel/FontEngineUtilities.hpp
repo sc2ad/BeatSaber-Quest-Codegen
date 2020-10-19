@@ -15,7 +15,7 @@ namespace UnityEngine::TextCore::LowLevel {
     // Creating value type constructor for type: FontEngineUtilities
     constexpr FontEngineUtilities() noexcept {}
     // static System.Int32 MaxValue(System.Int32 a, System.Int32 b, System.Int32 c)
-    // Offset: 0x2207748
+    // Offset: 0x1F58158
     static int MaxValue(int a, int b, int c);
   }; // UnityEngine.TextCore.LowLevel.FontEngineUtilities
 }

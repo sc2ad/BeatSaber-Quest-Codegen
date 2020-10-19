@@ -25,16 +25,16 @@ namespace Oculus::Platform {
   class MessageWithApplicationVersion : public Oculus::Platform::Message_1<Oculus::Platform::Models::ApplicationVersion*> {
     public:
     // protected Oculus.Platform.Models.ApplicationVersion GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x1361DF0
+    // Offset: 0x113752C
     Oculus::Platform::Models::ApplicationVersion* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x135F4AC
+    // Offset: 0x1134BE8
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithApplicationVersion* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.ApplicationVersion GetApplicationVersion()
-    // Offset: 0x1361DAC
+    // Offset: 0x11374E8
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.ApplicationVersion Message::GetApplicationVersion()
     Oculus::Platform::Models::ApplicationVersion* GetApplicationVersion();

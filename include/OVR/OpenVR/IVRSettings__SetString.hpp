@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRSettings::_SetString : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F3DB40
+    // Offset: 0x1C8F7A4
     static IVRSettings::_SetString* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.String pchSection, System.String pchSettingsKey, System.String pchValue, ref OVR.OpenVR.EVRSettingsError peError)
-    // Offset: 0x1F3DB54
+    // Offset: 0x1C8F7B8
     void Invoke(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, ::Il2CppString* pchValue, OVR::OpenVR::EVRSettingsError& peError);
     // public System.IAsyncResult BeginInvoke(System.String pchSection, System.String pchSettingsKey, System.String pchValue, ref OVR.OpenVR.EVRSettingsError peError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F3DFA0
+    // Offset: 0x1C8FC04
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, ::Il2CppString* pchValue, OVR::OpenVR::EVRSettingsError& peError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(ref OVR.OpenVR.EVRSettingsError peError, System.IAsyncResult result)
-    // Offset: 0x1F3E050
+    // Offset: 0x1C8FCB4
     void EndInvoke(OVR::OpenVR::EVRSettingsError& peError, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSettings/_SetString
 }

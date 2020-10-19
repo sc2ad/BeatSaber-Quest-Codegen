@@ -25,7 +25,7 @@ namespace System::Net {
     // Set static field: static private System.String[] m_Strings
     static void _set_m_Strings(::Array<::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x13B71B8
+    // Offset: 0x118B8F4
     static void _cctor();
   }; // System.Net.UnsafeNclNativeMethods/HttpApi
 }

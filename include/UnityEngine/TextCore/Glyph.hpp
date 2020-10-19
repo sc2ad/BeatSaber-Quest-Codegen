@@ -38,43 +38,43 @@ namespace UnityEngine::TextCore {
     // Offset: 0x3C
     int m_AtlasIndex;
     // public System.UInt32 get_index()
-    // Offset: 0x220532C
+    // Offset: 0x1F55D3C
     uint get_index();
     // public System.Void set_index(System.UInt32 value)
-    // Offset: 0x2205334
+    // Offset: 0x1F55D44
     void set_index(uint value);
     // public UnityEngine.TextCore.GlyphMetrics get_metrics()
-    // Offset: 0x220533C
+    // Offset: 0x1F55D4C
     UnityEngine::TextCore::GlyphMetrics get_metrics();
     // public System.Void set_metrics(UnityEngine.TextCore.GlyphMetrics value)
-    // Offset: 0x2205350
+    // Offset: 0x1F55D60
     void set_metrics(UnityEngine::TextCore::GlyphMetrics value);
     // public UnityEngine.TextCore.GlyphRect get_glyphRect()
-    // Offset: 0x2205364
+    // Offset: 0x1F55D74
     UnityEngine::TextCore::GlyphRect get_glyphRect();
     // public System.Void set_glyphRect(UnityEngine.TextCore.GlyphRect value)
-    // Offset: 0x2205370
+    // Offset: 0x1F55D80
     void set_glyphRect(UnityEngine::TextCore::GlyphRect value);
     // public System.Single get_scale()
-    // Offset: 0x2205378
+    // Offset: 0x1F55D88
     float get_scale();
     // public System.Void set_scale(System.Single value)
-    // Offset: 0x2205380
+    // Offset: 0x1F55D90
     void set_scale(float value);
     // public System.Int32 get_atlasIndex()
-    // Offset: 0x2205388
+    // Offset: 0x1F55D98
     int get_atlasIndex();
     // public System.Void set_atlasIndex(System.Int32 value)
-    // Offset: 0x2205390
+    // Offset: 0x1F55DA0
     void set_atlasIndex(int value);
     // System.Void .ctor(UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct glyphStruct)
-    // Offset: 0x22053CC
+    // Offset: 0x1F55DDC
     static Glyph* New_ctor(UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct glyphStruct);
     // public System.Void .ctor(System.UInt32 index, UnityEngine.TextCore.GlyphMetrics metrics, UnityEngine.TextCore.GlyphRect glyphRect, System.Single scale, System.Int32 atlasIndex)
-    // Offset: 0x220543C
+    // Offset: 0x1F55E4C
     static Glyph* New_ctor(uint index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float scale, int atlasIndex);
     // public System.Void .ctor()
-    // Offset: 0x2205398
+    // Offset: 0x1F55DA8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Glyph* New_ctor();

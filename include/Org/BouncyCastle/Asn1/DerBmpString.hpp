@@ -29,20 +29,20 @@ namespace Org::BouncyCastle::Asn1 {
       return str;
     }
     // System.Void .ctor(System.Char[] str)
-    // Offset: 0x153DC64
+    // Offset: 0x131548C
     static DerBmpString* New_ctor(::Array<::Il2CppChar>* str);
     // public override System.String GetString()
-    // Offset: 0x154A600
+    // Offset: 0x1321E28
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::GetString()
     ::Il2CppString* GetString();
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x154A608
+    // Offset: 0x1321E30
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x154A6BC
+    // Offset: 0x1321EE4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);

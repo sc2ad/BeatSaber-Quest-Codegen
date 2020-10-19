@@ -28,25 +28,25 @@ namespace Zenject {
     // Offset: 0x20
     System::Type* KernelType;
     // public System.String get_DefaultParentName()
-    // Offset: 0x151F9B4
+    // Offset: 0x12F61DC
     ::Il2CppString* get_DefaultParentName();
     // public System.Void set_DefaultParentName(System.String value)
-    // Offset: 0x151F9BC
+    // Offset: 0x12F61E4
     void set_DefaultParentName(::Il2CppString* value);
     // public System.Boolean get_CreateKernel()
-    // Offset: 0x151F9C4
+    // Offset: 0x12F61EC
     bool get_CreateKernel();
     // public System.Void set_CreateKernel(System.Boolean value)
-    // Offset: 0x151F9CC
+    // Offset: 0x12F61F4
     void set_CreateKernel(bool value);
     // public System.Type get_KernelType()
-    // Offset: 0x151F9D8
+    // Offset: 0x12F6200
     System::Type* get_KernelType();
     // public System.Void set_KernelType(System.Type value)
-    // Offset: 0x151F9E0
+    // Offset: 0x12F6208
     void set_KernelType(System::Type* value);
     // public System.Void .ctor()
-    // Offset: 0x151D6D4
+    // Offset: 0x12F3EFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SubContainerCreatorBindInfo* New_ctor();

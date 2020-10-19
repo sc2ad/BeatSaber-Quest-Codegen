@@ -34,13 +34,13 @@ namespace System::Net::NetworkInformation {
     // Offset: 0x50
     System::Net::IPAddress* ipv4Mask;
     // public System.Void .ctor(System.Net.NetworkInformation.Win32_IP_ADAPTER_UNICAST_ADDRESS info)
-    // Offset: 0x12CD070
+    // Offset: 0x10C890C
     static Win32UnicastIPAddressInformation* New_ctor(System::Net::NetworkInformation::Win32_IP_ADAPTER_UNICAST_ADDRESS info);
     // static private System.Net.IPAddress PrefixLengthToSubnetMask(System.Byte prefixLength, System.Net.Sockets.AddressFamily family)
-    // Offset: 0x12CD2CC
+    // Offset: 0x10C8B68
     static System::Net::IPAddress* PrefixLengthToSubnetMask(uint8_t prefixLength, System::Net::Sockets::AddressFamily family);
     // public override System.Net.IPAddress get_Address()
-    // Offset: 0x12CD3B8
+    // Offset: 0x10C8C54
     // Implemented from: System.Net.NetworkInformation.IPAddressInformation
     // Base method: System.Net.IPAddress IPAddressInformation::get_Address()
     System::Net::IPAddress* get_Address();

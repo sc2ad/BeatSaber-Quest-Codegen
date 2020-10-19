@@ -23,10 +23,10 @@ namespace Org::BouncyCastle::Asn1::X509 {
       return e;
     }
     // System.Void .ctor(System.Collections.IEnumerator e)
-    // Offset: 0x18696B0
+    // Offset: 0x160FAD4
     static TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator* New_ctor(System::Collections::IEnumerator* e);
     // public System.Boolean MoveNext()
-    // Offset: 0x18696E4
+    // Offset: 0x160FB08
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -34,7 +34,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1869794
+    // Offset: 0x160FBB8
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();
@@ -42,7 +42,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
     // public System.Object get_Current()
-    // Offset: 0x1869848
+    // Offset: 0x160FC6C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* get_Current();

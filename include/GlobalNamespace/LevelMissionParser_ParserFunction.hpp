@@ -26,16 +26,16 @@ namespace GlobalNamespace {
   class LevelMissionParser::ParserFunction : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1027FB4
+    // Offset: 0x20BD6E8
     static LevelMissionParser::ParserFunction* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.Single[] functionParams, System.Int32 paramCount)
-    // Offset: 0x1027B7C
+    // Offset: 0x20BD2B0
     bool Invoke(::Array<float>* functionParams, int paramCount);
     // public System.IAsyncResult BeginInvoke(System.Single[] functionParams, System.Int32 paramCount, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1027FC8
+    // Offset: 0x20BD6FC
     System::IAsyncResult* BeginInvoke(::Array<float>* functionParams, int paramCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1028064
+    // Offset: 0x20BD798
     bool EndInvoke(System::IAsyncResult* result);
   }; // LevelMissionParser/ParserFunction
 }

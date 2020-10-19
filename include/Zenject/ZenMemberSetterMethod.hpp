@@ -24,16 +24,16 @@ namespace Zenject {
   class ZenMemberSetterMethod : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x220D4FC
+    // Offset: 0x1F5DF0C
     static ZenMemberSetterMethod* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Object obj, System.Object value)
-    // Offset: 0x220D510
+    // Offset: 0x1F5DF20
     void Invoke(::Il2CppObject* obj, ::Il2CppObject* value);
     // public System.IAsyncResult BeginInvoke(System.Object obj, System.Object value, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x220D914
+    // Offset: 0x1F5E324
     System::IAsyncResult* BeginInvoke(::Il2CppObject* obj, ::Il2CppObject* value, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x220D944
+    // Offset: 0x1F5E354
     void EndInvoke(System::IAsyncResult* result);
   }; // Zenject.ZenMemberSetterMethod
 }

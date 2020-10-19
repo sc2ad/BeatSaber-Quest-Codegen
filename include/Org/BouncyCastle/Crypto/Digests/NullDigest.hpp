@@ -28,42 +28,42 @@ namespace Org::BouncyCastle::Crypto::Digests {
       return bOut;
     }
     // public System.String get_AlgorithmName()
-    // Offset: 0x1B06BE8
+    // Offset: 0x18A6DDC
     // Implemented from: Org.BouncyCastle.Crypto.IDigest
     // Base method: System.String IDigest::get_AlgorithmName()
     ::Il2CppString* get_AlgorithmName();
     // public System.Int32 GetByteLength()
-    // Offset: 0x1B06C30
+    // Offset: 0x18A6E24
     // Implemented from: Org.BouncyCastle.Crypto.IDigest
     // Base method: System.Int32 IDigest::GetByteLength()
     int GetByteLength();
     // public System.Int32 GetDigestSize()
-    // Offset: 0x1B06C38
+    // Offset: 0x18A6E2C
     // Implemented from: Org.BouncyCastle.Crypto.IDigest
     // Base method: System.Int32 IDigest::GetDigestSize()
     int GetDigestSize();
     // public System.Void Update(System.Byte b)
-    // Offset: 0x1B06C60
+    // Offset: 0x18A6E54
     // Implemented from: Org.BouncyCastle.Crypto.IDigest
     // Base method: System.Void IDigest::Update(System.Byte b)
     void Update(uint8_t b);
     // public System.Void BlockUpdate(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x1B06C84
+    // Offset: 0x18A6E78
     // Implemented from: Org.BouncyCastle.Crypto.IDigest
     // Base method: System.Void IDigest::BlockUpdate(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len)
     void BlockUpdate(::Array<uint8_t>* inBytes, int inOff, int len);
     // public System.Int32 DoFinal(System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1B06CA8
+    // Offset: 0x18A6E9C
     // Implemented from: Org.BouncyCastle.Crypto.IDigest
     // Base method: System.Int32 IDigest::DoFinal(System.Byte[] outBytes, System.Int32 outOff)
     int DoFinal(::Array<uint8_t>* outBytes, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1B06D44
+    // Offset: 0x18A6F38
     // Implemented from: Org.BouncyCastle.Crypto.IDigest
     // Base method: System.Void IDigest::Reset()
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x1B06D6C
+    // Offset: 0x18A6F60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NullDigest* New_ctor();

@@ -14,7 +14,7 @@ namespace GlobalNamespace {
   class DoubleSO : public GlobalNamespace::ObservableVariableSO_1<double> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1094184
+    // Offset: 0x210B0C8
     // Implemented from: ObservableVariableSO`1
     // Base method: System.Void ObservableVariableSO_1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

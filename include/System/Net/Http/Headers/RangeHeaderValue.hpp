@@ -36,39 +36,39 @@ namespace System::Net::Http::Headers {
     // Offset: 0x18
     ::Il2CppString* unit;
     // private System.Void .ctor(System.Net.Http.Headers.RangeHeaderValue source)
-    // Offset: 0x13A8740
+    // Offset: 0x117DE7C
     static RangeHeaderValue* New_ctor(System::Net::Http::Headers::RangeHeaderValue* source);
     // public System.Collections.Generic.ICollection`1<System.Net.Http.Headers.RangeItemHeaderValue> get_Ranges()
-    // Offset: 0x13A88D0
+    // Offset: 0x117E00C
     System::Collections::Generic::ICollection_1<System::Net::Http::Headers::RangeItemHeaderValue*>* get_Ranges();
     // public System.String get_Unit()
-    // Offset: 0x13A8950
+    // Offset: 0x117E08C
     ::Il2CppString* get_Unit();
     // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.RangeHeaderValue parsedValue)
-    // Offset: 0x13A8B0C
+    // Offset: 0x117E248
     static bool TryParse(::Il2CppString* input, System::Net::Http::Headers::RangeHeaderValue*& parsedValue);
     // public System.Void .ctor()
-    // Offset: 0x13A86E0
+    // Offset: 0x117DE1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static RangeHeaderValue* New_ctor();
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x13A8958
+    // Offset: 0x117E094
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* System_ICloneable_Clone();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x13A89B8
+    // Offset: 0x117E0F4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x13A8A88
+    // Offset: 0x117E1C4
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x13A9158
+    // Offset: 0x117E894
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

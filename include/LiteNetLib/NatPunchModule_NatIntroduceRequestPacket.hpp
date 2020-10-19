@@ -27,19 +27,19 @@ namespace LiteNetLib {
     // Offset: 0x18
     ::Il2CppString* Token;
     // public System.Net.IPEndPoint get_Internal()
-    // Offset: 0x1A68950
+    // Offset: 0x1806B44
     System::Net::IPEndPoint* get_Internal();
     // public System.Void set_Internal(System.Net.IPEndPoint value)
-    // Offset: 0x1A68958
+    // Offset: 0x1806B4C
     void set_Internal(System::Net::IPEndPoint* value);
     // public System.String get_Token()
-    // Offset: 0x1A68960
+    // Offset: 0x1806B54
     ::Il2CppString* get_Token();
     // public System.Void set_Token(System.String value)
-    // Offset: 0x1A68968
+    // Offset: 0x1806B5C
     void set_Token(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1A6815C
+    // Offset: 0x1806350
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NatPunchModule::NatIntroduceRequestPacket* New_ctor();

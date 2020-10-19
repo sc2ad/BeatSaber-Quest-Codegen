@@ -58,12 +58,12 @@ namespace Mono::Net::Security {
     // Creating value type constructor for type: $StartOperation$d__58
     constexpr $StartOperation$d__58(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int> $$t__builder_ = {}, Mono::Net::Security::MobileAuthenticatedStream* $$4__this_ = {}, Mono::Net::Security::MobileAuthenticatedStream::OperationType type_ = {}, Mono::Net::Security::AsyncProtocolRequest* asyncRequest_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<Mono::Net::Security::AsyncProtocolResult*>::ConfiguredTaskAwaiter $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, type{type_}, asyncRequest{asyncRequest_}, cancellationToken{cancellationToken_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
-    // Offset: 0xDB31A8
+    // Offset: 0xC695C8
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDB31B0
+    // Offset: 0xC695D0
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

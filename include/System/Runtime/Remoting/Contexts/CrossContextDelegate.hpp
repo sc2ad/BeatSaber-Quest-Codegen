@@ -24,16 +24,16 @@ namespace System::Runtime::Remoting::Contexts {
   class CrossContextDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x12A2798
+    // Offset: 0x109E034
     static CrossContextDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x12A27AC
+    // Offset: 0x109E048
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x12A29B8
+    // Offset: 0x109E254
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x12A29E4
+    // Offset: 0x109E280
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Runtime.Remoting.Contexts.CrossContextDelegate
 }

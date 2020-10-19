@@ -13,7 +13,7 @@ namespace UnityEngine {
   class UnityString : public ::Il2CppObject {
     public:
     // static public System.String Format(System.String fmt, params System.Object[] args)
-    // Offset: 0x22242C0
+    // Offset: 0x1F74674
     static ::Il2CppString* Format(::Il2CppString* fmt, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.String Format(System.String fmt, params System.Object[] args)
     static ::Il2CppString* Format(::Il2CppString* fmt, std::initializer_list<::Il2CppObject*> args);

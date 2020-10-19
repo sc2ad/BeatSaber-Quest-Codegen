@@ -43,16 +43,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x1014E54
+    // Offset: 0x1F8D4B0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1014EF8
+    // Offset: 0x1F8D554
     void OnDestroy();
     // private System.Void HandleFullVRControllersRecorderDidSetControllerTransform(VRController controller)
-    // Offset: 0x1014FD4
+    // Offset: 0x1F8D630
     void HandleFullVRControllersRecorderDidSetControllerTransform(GlobalNamespace::VRController* controller);
     // public System.Void .ctor()
-    // Offset: 0x10150EC
+    // Offset: 0x1F8D748
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

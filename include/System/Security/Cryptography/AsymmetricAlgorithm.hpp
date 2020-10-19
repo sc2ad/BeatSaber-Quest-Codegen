@@ -27,30 +27,30 @@ namespace System::Security::Cryptography {
     // Offset: 0x18
     ::Array<System::Security::Cryptography::KeySizes*>* LegalKeySizesValue;
     // public System.Void Clear()
-    // Offset: 0x16B1D20
+    // Offset: 0x146C8F4
     void Clear();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x16B1D9C
+    // Offset: 0x146C970
     void Dispose(bool disposing);
     // public System.Int32 get_KeySize()
-    // Offset: 0x16B1DA0
+    // Offset: 0x146C974
     int get_KeySize();
     // public System.Void set_KeySize(System.Int32 value)
-    // Offset: 0x16B1DA8
+    // Offset: 0x146C97C
     void set_KeySize(int value);
     // public System.Void FromXmlString(System.String xmlString)
-    // Offset: 0x16B1EC4
+    // Offset: 0x146CA98
     void FromXmlString(::Il2CppString* xmlString);
     // public System.String ToXmlString(System.Boolean includePrivateParameters)
-    // Offset: 0x16B1F24
+    // Offset: 0x146CAF8
     ::Il2CppString* ToXmlString(bool includePrivateParameters);
     // protected System.Void .ctor()
-    // Offset: 0x16B1D14
+    // Offset: 0x146C8E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AsymmetricAlgorithm* New_ctor();
     // public System.Void Dispose()
-    // Offset: 0x16B1D1C
+    // Offset: 0x146C8F0
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

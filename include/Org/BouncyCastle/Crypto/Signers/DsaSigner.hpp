@@ -50,28 +50,28 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Offset: 0x20
     Org::BouncyCastle::Security::SecureRandom* random;
     // protected Org.BouncyCastle.Math.BigInteger CalculateE(Org.BouncyCastle.Math.BigInteger n, System.Byte[] message)
-    // Offset: 0x10F5D28
+    // Offset: 0xF509B8
     Org::BouncyCastle::Math::BigInteger* CalculateE(Org::BouncyCastle::Math::BigInteger* n, ::Array<uint8_t>* message);
     // protected Org.BouncyCastle.Security.SecureRandom InitSecureRandom(System.Boolean needed, Org.BouncyCastle.Security.SecureRandom provided)
-    // Offset: 0x10F5F70
+    // Offset: 0xF50C00
     Org::BouncyCastle::Security::SecureRandom* InitSecureRandom(bool needed, Org::BouncyCastle::Security::SecureRandom* provided);
     // public System.Void .ctor()
-    // Offset: 0x10F532C
+    // Offset: 0xF4FFBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DsaSigner* New_ctor();
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x10F53C8
+    // Offset: 0xF50058
     // Implemented from: Org.BouncyCastle.Crypto.IDsa
     // Base method: System.Void IDsa::Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public Org.BouncyCastle.Math.BigInteger get_Order()
-    // Offset: 0x10F5604
+    // Offset: 0xF50294
     // Implemented from: Org.BouncyCastle.Crypto.IDsaExt
     // Base method: Org.BouncyCastle.Math.BigInteger IDsaExt::get_Order()
     Org::BouncyCastle::Math::BigInteger* get_Order();
     // public Org.BouncyCastle.Math.BigInteger[] GenerateSignature(System.Byte[] message)
-    // Offset: 0x10F562C
+    // Offset: 0xF502BC
     // Implemented from: Org.BouncyCastle.Crypto.IDsa
     // Base method: Org.BouncyCastle.Math.BigInteger[] IDsa::GenerateSignature(System.Byte[] message)
     ::Array<Org::BouncyCastle::Math::BigInteger*>* GenerateSignature(::Array<uint8_t>* message);

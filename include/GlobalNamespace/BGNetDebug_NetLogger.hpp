@@ -17,7 +17,7 @@ namespace GlobalNamespace {
   class BGNetDebug::NetLogger : public ::Il2CppObject, public LiteNetLib::INetLogger {
     public:
     // public System.Void WriteNet(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
-    // Offset: 0x115AAEC
+    // Offset: 0x21554DC
     // Implemented from: LiteNetLib.INetLogger
     // Base method: System.Void INetLogger::WriteNet(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
     void WriteNet(LiteNetLib::NetLogLevel level, ::Il2CppString* str, ::Array<::Il2CppObject*>* args);
@@ -29,7 +29,7 @@ namespace GlobalNamespace {
       WriteNet(level, str, {args...});
     }
     // public System.Void .ctor()
-    // Offset: 0x115A6AC
+    // Offset: 0x21550C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BGNetDebug::NetLogger* New_ctor();

@@ -33,40 +33,40 @@ namespace GlobalNamespace {
     // Offset: 0x20
     int headIndex;
     // public System.Int32 get_capacity()
-    // Offset: 0xF36678
+    // Offset: 0x1F9D054
     int get_capacity();
     // public TrailElement get_head()
-    // Offset: 0xF36680
+    // Offset: 0x1F9D05C
     GlobalNamespace::TrailElement* get_head();
     // public TrailElement get_Item(System.Int32 index)
-    // Offset: 0xF366C0
+    // Offset: 0x1F9D09C
     GlobalNamespace::TrailElement* get_Item(int index);
     // public System.Void .ctor(System.Int32 capacity, UnityEngine.Vector3 defaultStartPosition, UnityEngine.Vector3 defaultEndPosition, System.Single time)
-    // Offset: 0xF36724
+    // Offset: 0x1F9D100
     static TrailElementCollection* New_ctor(int capacity, UnityEngine::Vector3 defaultStartPosition, UnityEngine::Vector3 defaultEndPosition, float time);
     // public System.Void InitSnapshots(UnityEngine.Vector3 defaultStartPosition, UnityEngine.Vector3 defaultEndPosition, System.Single time)
-    // Offset: 0xF368C4
+    // Offset: 0x1F9D2A0
     void InitSnapshots(UnityEngine::Vector3 defaultStartPosition, UnityEngine::Vector3 defaultEndPosition, float time);
     // public System.Void MoveTailToHead()
-    // Offset: 0xF3698C
+    // Offset: 0x1F9D368
     void MoveTailToHead();
     // public System.Void UpdateDistances()
-    // Offset: 0xF369AC
+    // Offset: 0x1F9D388
     void UpdateDistances();
     // public UnityEngine.Vector3 InterpolateByLen(System.Single tl)
-    // Offset: 0xF36B0C
+    // Offset: 0x1F9D4E8
     UnityEngine::Vector3 InterpolateByLen(float tl);
     // public UnityEngine.Vector3 InterpolateNormalByLen(System.Single tl)
-    // Offset: 0xF36E24
+    // Offset: 0x1F9D800
     UnityEngine::Vector3 InterpolateNormalByLen(float tl);
     // public System.Single InterpolateTimeByLen(System.Single tl)
-    // Offset: 0xF36F6C
+    // Offset: 0x1F9D948
     float InterpolateTimeByLen(float tl);
     // private System.Int32 LenToSegment(System.Single t, out System.Single localF)
-    // Offset: 0xF36C54
+    // Offset: 0x1F9D630
     int LenToSegment(float t, float& localF);
     // private TrailElement GetElementWithinBoundary(System.Int32 index)
-    // Offset: 0xF36D98
+    // Offset: 0x1F9D774
     GlobalNamespace::TrailElement* GetElementWithinBoundary(int index);
   }; // TrailElementCollection
 }

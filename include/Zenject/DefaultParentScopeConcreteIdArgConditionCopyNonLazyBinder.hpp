@@ -26,16 +26,16 @@ namespace Zenject {
     // Offset: 0x20
     Zenject::SubContainerCreatorBindInfo* SubContainerCreatorBindInfo;
     // public System.Void .ctor(Zenject.SubContainerCreatorBindInfo subContainerBindInfo, Zenject.BindInfo bindInfo)
-    // Offset: 0x11FC590
+    // Offset: 0xFF7E2C
     static DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, Zenject::BindInfo* bindInfo);
     // protected Zenject.SubContainerCreatorBindInfo get_SubContainerCreatorBindInfo()
-    // Offset: 0x11FC5C8
+    // Offset: 0xFF7E64
     Zenject::SubContainerCreatorBindInfo* get_SubContainerCreatorBindInfo();
     // private System.Void set_SubContainerCreatorBindInfo(Zenject.SubContainerCreatorBindInfo value)
-    // Offset: 0x11FC5D0
+    // Offset: 0xFF7E6C
     void set_SubContainerCreatorBindInfo(Zenject::SubContainerCreatorBindInfo* value);
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder WithDefaultGameObjectParent(System.String defaultParentName)
-    // Offset: 0x11FC5D8
+    // Offset: 0xFF7E74
     Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithDefaultGameObjectParent(::Il2CppString* defaultParentName);
   }; // Zenject.DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder
 }

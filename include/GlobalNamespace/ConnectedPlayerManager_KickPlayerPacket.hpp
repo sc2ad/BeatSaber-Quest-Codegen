@@ -42,13 +42,13 @@ namespace GlobalNamespace {
       return disconnectedReason;
     }
     // static public PacketPool`1<ConnectedPlayerManager/KickPlayerPacket> get_pool()
-    // Offset: 0x115EAF4
+    // Offset: 0x21594DC
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket*>* get_pool();
     // public ConnectedPlayerManager/KickPlayerPacket Init(DisconnectedReason disconnectedReason)
-    // Offset: 0x115F944
+    // Offset: 0x215A32C
     GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket* Init(GlobalNamespace::DisconnectedReason disconnectedReason);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1161768
+    // Offset: 0x215C150
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x116177C
+    // Offset: 0x215C164
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -64,12 +64,12 @@ namespace GlobalNamespace {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x1160DC8
+    // Offset: 0x215B7B0
     // Implemented from: IPoolablePacket
     // Base method: System.Void IPoolablePacket::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x11617A8
+    // Offset: 0x215C190
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConnectedPlayerManager::KickPlayerPacket* New_ctor();

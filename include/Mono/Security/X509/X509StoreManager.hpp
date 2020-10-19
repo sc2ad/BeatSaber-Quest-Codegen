@@ -35,16 +35,16 @@ namespace Mono::Security::X509 {
     // Set static field: static private Mono.Security.X509.X509Stores _machineStore
     static void _set__machineStore(Mono::Security::X509::X509Stores* value);
     // static System.String get_CurrentUserPath()
-    // Offset: 0x21E4A54
+    // Offset: 0x1F396B8
     static ::Il2CppString* get_CurrentUserPath();
     // static System.String get_LocalMachinePath()
-    // Offset: 0x21E4B50
+    // Offset: 0x1F397B4
     static ::Il2CppString* get_LocalMachinePath();
     // static public Mono.Security.X509.X509Stores get_CurrentUser()
-    // Offset: 0x21E4C4C
+    // Offset: 0x1F398B0
     static Mono::Security::X509::X509Stores* get_CurrentUser();
     // static public Mono.Security.X509.X509Stores get_LocalMachine()
-    // Offset: 0x21E4D50
+    // Offset: 0x1F399B4
     static Mono::Security::X509::X509Stores* get_LocalMachine();
   }; // Mono.Security.X509.X509StoreManager
 }

@@ -23,49 +23,49 @@ namespace UnityEngine {
   class Gizmos : public ::Il2CppObject {
     public:
     // static public System.Void DrawLine(UnityEngine.Vector3 from, UnityEngine.Vector3 to)
-    // Offset: 0x19EEFDC
+    // Offset: 0x1795400
     static void DrawLine(UnityEngine::Vector3 from, UnityEngine::Vector3 to);
     // static public System.Void DrawWireSphere(UnityEngine.Vector3 center, System.Single radius)
-    // Offset: 0x19EF088
+    // Offset: 0x17954AC
     static void DrawWireSphere(UnityEngine::Vector3 center, float radius);
     // static public System.Void DrawSphere(UnityEngine.Vector3 center, System.Single radius)
-    // Offset: 0x19EF138
+    // Offset: 0x179555C
     static void DrawSphere(UnityEngine::Vector3 center, float radius);
     // static public System.Void DrawWireCube(UnityEngine.Vector3 center, UnityEngine.Vector3 size)
-    // Offset: 0x19EF1E8
+    // Offset: 0x179560C
     static void DrawWireCube(UnityEngine::Vector3 center, UnityEngine::Vector3 size);
     // static public System.Void DrawCube(UnityEngine.Vector3 center, UnityEngine.Vector3 size)
-    // Offset: 0x19EF294
+    // Offset: 0x17956B8
     static void DrawCube(UnityEngine::Vector3 center, UnityEngine::Vector3 size);
     // static public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x19EF340
+    // Offset: 0x1795764
     static void set_color(UnityEngine::Color value);
     // static public System.Void set_matrix(UnityEngine.Matrix4x4 value)
-    // Offset: 0x19EF3D0
+    // Offset: 0x17957F4
     static void set_matrix(UnityEngine::Matrix4x4 value);
     // static public System.Void DrawRay(UnityEngine.Vector3 from, UnityEngine.Vector3 direction)
-    // Offset: 0x19EF450
+    // Offset: 0x1795874
     static void DrawRay(UnityEngine::Vector3 from, UnityEngine::Vector3 direction);
     // static private System.Void DrawLine_Injected(ref UnityEngine.Vector3 from, ref UnityEngine.Vector3 to)
-    // Offset: 0x19EF038
+    // Offset: 0x179545C
     static void DrawLine_Injected(UnityEngine::Vector3& from, UnityEngine::Vector3& to);
     // static private System.Void DrawWireSphere_Injected(ref UnityEngine.Vector3 center, System.Single radius)
-    // Offset: 0x19EF0E8
+    // Offset: 0x179550C
     static void DrawWireSphere_Injected(UnityEngine::Vector3& center, float radius);
     // static private System.Void DrawSphere_Injected(ref UnityEngine.Vector3 center, System.Single radius)
-    // Offset: 0x19EF198
+    // Offset: 0x17955BC
     static void DrawSphere_Injected(UnityEngine::Vector3& center, float radius);
     // static private System.Void DrawWireCube_Injected(ref UnityEngine.Vector3 center, ref UnityEngine.Vector3 size)
-    // Offset: 0x19EF244
+    // Offset: 0x1795668
     static void DrawWireCube_Injected(UnityEngine::Vector3& center, UnityEngine::Vector3& size);
     // static private System.Void DrawCube_Injected(ref UnityEngine.Vector3 center, ref UnityEngine.Vector3 size)
-    // Offset: 0x19EF2F0
+    // Offset: 0x1795714
     static void DrawCube_Injected(UnityEngine::Vector3& center, UnityEngine::Vector3& size);
     // static private System.Void set_color_Injected(ref UnityEngine.Color value)
-    // Offset: 0x19EF390
+    // Offset: 0x17957B4
     static void set_color_Injected(UnityEngine::Color& value);
     // static private System.Void set_matrix_Injected(ref UnityEngine.Matrix4x4 value)
-    // Offset: 0x19EF410
+    // Offset: 0x1795834
     static void set_matrix_Injected(UnityEngine::Matrix4x4& value);
   }; // UnityEngine.Gizmos
 }

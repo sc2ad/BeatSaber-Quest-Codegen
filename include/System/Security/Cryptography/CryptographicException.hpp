@@ -27,29 +27,29 @@ namespace System::Security::Cryptography {
   class CryptographicException : public System::SystemException {
     public:
     // public System.Void .ctor(System.String format, System.String insert)
-    // Offset: 0x19CC768
+    // Offset: 0x1772B8C
     static CryptographicException* New_ctor(::Il2CppString* format, ::Il2CppString* insert);
     // public System.Void .ctor()
-    // Offset: 0x19CC6C0
+    // Offset: 0x1772AE4
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static CryptographicException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x19CC734
+    // Offset: 0x1772B58
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static CryptographicException* New_ctor(::Il2CppString* message);
     // public System.Void .ctor(System.String message, System.Exception inner)
-    // Offset: 0x19CC810
+    // Offset: 0x1772C34
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception inner)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception inner)
     static CryptographicException* New_ctor(::Il2CppString* message, System::Exception* inner);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x19CC844
+    // Offset: 0x1772C68
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

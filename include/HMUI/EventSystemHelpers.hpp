@@ -12,7 +12,7 @@ namespace HMUI {
   class EventSystemHelpers : public ::Il2CppObject {
     public:
     // static public System.Boolean IsInputFieldSelected()
-    // Offset: 0x11B5418
+    // Offset: 0x2184860
     static bool IsInputFieldSelected();
   }; // HMUI.EventSystemHelpers
 }

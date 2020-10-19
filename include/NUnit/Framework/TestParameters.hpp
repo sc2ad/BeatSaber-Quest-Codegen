@@ -36,16 +36,16 @@ namespace NUnit::Framework {
     // Set static field: static private readonly System.IFormatProvider MODIFIED_INVARIANT_CULTURE
     static void _set_MODIFIED_INVARIANT_CULTURE(System::IFormatProvider* value);
     // System.Void Add(System.String name, System.String value)
-    // Offset: 0x2181AB0
+    // Offset: 0x1ED6714
     void Add(::Il2CppString* name, ::Il2CppString* value);
     // static private System.IFormatProvider CreateModifiedInvariantCulture()
-    // Offset: 0x2181B20
+    // Offset: 0x1ED6784
     static System::IFormatProvider* CreateModifiedInvariantCulture();
     // static private System.Void .cctor()
-    // Offset: 0x2181C64
+    // Offset: 0x1ED68C8
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x2181768
+    // Offset: 0x1ED63CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TestParameters* New_ctor();

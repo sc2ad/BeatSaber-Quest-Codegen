@@ -57,24 +57,24 @@ namespace GlobalNamespace {
     // Offset: 0x98
     GlobalNamespace::EulaViewController::InitData* initData;
     // public System.Void add_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0xF67200
+    // Offset: 0x201F340
     void add_didFinishEvent(System::Action_1<bool>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0xF672A4
+    // Offset: 0x201F3E4
     void remove_didFinishEvent(System::Action_1<bool>* value);
     // private System.Void <DidActivate>b__9_0()
-    // Offset: 0xF6749C
+    // Offset: 0x201F5DC
     void $DidActivate$b__9_0();
     // private System.Void <DidActivate>b__9_1()
-    // Offset: 0xF67500
+    // Offset: 0x201F640
     void $DidActivate$b__9_1();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF67348
+    // Offset: 0x201F488
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xF67494
+    // Offset: 0x201F5D4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

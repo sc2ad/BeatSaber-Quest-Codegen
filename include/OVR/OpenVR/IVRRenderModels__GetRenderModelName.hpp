@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRRenderModels::_GetRenderModelName : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F362C0
+    // Offset: 0x1C87F24
     static IVRRenderModels::_GetRenderModelName* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.UInt32 unRenderModelIndex, System.Text.StringBuilder pchRenderModelName, System.UInt32 unRenderModelNameLen)
-    // Offset: 0x1F362D4
+    // Offset: 0x1C87F38
     uint Invoke(uint unRenderModelIndex, System::Text::StringBuilder* pchRenderModelName, uint unRenderModelNameLen);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unRenderModelIndex, System.Text.StringBuilder pchRenderModelName, System.UInt32 unRenderModelNameLen, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F36580
+    // Offset: 0x1C881E4
     System::IAsyncResult* BeginInvoke(uint unRenderModelIndex, System::Text::StringBuilder* pchRenderModelName, uint unRenderModelNameLen, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1F36630
+    // Offset: 0x1C88294
     uint EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRRenderModels/_GetRenderModelName
 }

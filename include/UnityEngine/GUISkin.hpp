@@ -130,181 +130,181 @@ namespace UnityEngine {
     // Set static field: static UnityEngine.GUISkin current
     static void _set_current(UnityEngine::GUISkin* value);
     // System.Void OnEnable()
-    // Offset: 0x1911D90
+    // Offset: 0x16B81B4
     void OnEnable();
     // static System.Void CleanupRoots()
-    // Offset: 0x1911E14
+    // Offset: 0x16B8238
     static void CleanupRoots();
     // public UnityEngine.Font get_font()
-    // Offset: 0x1904C78
+    // Offset: 0x16AB09C
     UnityEngine::Font* get_font();
     // public System.Void set_font(UnityEngine.Font value)
-    // Offset: 0x1911E7C
+    // Offset: 0x16B82A0
     void set_font(UnityEngine::Font* value);
     // public UnityEngine.GUIStyle get_box()
-    // Offset: 0x190A1A4
+    // Offset: 0x16B05C8
     UnityEngine::GUIStyle* get_box();
     // public System.Void set_box(UnityEngine.GUIStyle value)
-    // Offset: 0x1911FB4
+    // Offset: 0x16B83D8
     void set_box(UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_label()
-    // Offset: 0x1909F14
+    // Offset: 0x16B0338
     UnityEngine::GUIStyle* get_label();
     // public System.Void set_label(UnityEngine.GUIStyle value)
-    // Offset: 0x1911FDC
+    // Offset: 0x16B8400
     void set_label(UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_textField()
-    // Offset: 0x190A4A4
+    // Offset: 0x16B08C8
     UnityEngine::GUIStyle* get_textField();
     // public System.Void set_textField(UnityEngine.GUIStyle value)
-    // Offset: 0x1912004
+    // Offset: 0x16B8428
     void set_textField(UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_textArea()
-    // Offset: 0x191202C
+    // Offset: 0x16B8450
     UnityEngine::GUIStyle* get_textArea();
     // public System.Void set_textArea(UnityEngine.GUIStyle value)
-    // Offset: 0x1912034
+    // Offset: 0x16B8458
     void set_textArea(UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_button()
-    // Offset: 0x190A338
+    // Offset: 0x16B075C
     UnityEngine::GUIStyle* get_button();
     // public System.Void set_button(UnityEngine.GUIStyle value)
-    // Offset: 0x191205C
+    // Offset: 0x16B8480
     void set_button(UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_toggle()
-    // Offset: 0x190A7DC
+    // Offset: 0x16B0C00
     UnityEngine::GUIStyle* get_toggle();
     // public System.Void set_toggle(UnityEngine.GUIStyle value)
-    // Offset: 0x1912084
+    // Offset: 0x16B84A8
     void set_toggle(UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_window()
-    // Offset: 0x19120AC
+    // Offset: 0x16B84D0
     UnityEngine::GUIStyle* get_window();
     // public System.Void set_window(UnityEngine.GUIStyle value)
-    // Offset: 0x19120B4
+    // Offset: 0x16B84D8
     void set_window(UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_horizontalSlider()
-    // Offset: 0x190A978
+    // Offset: 0x16B0D9C
     UnityEngine::GUIStyle* get_horizontalSlider();
     // public System.Void set_horizontalSlider(UnityEngine.GUIStyle value)
-    // Offset: 0x19120DC
+    // Offset: 0x16B8500
     void set_horizontalSlider(UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_horizontalSliderThumb()
-    // Offset: 0x190A980
+    // Offset: 0x16B0DA4
     UnityEngine::GUIStyle* get_horizontalSliderThumb();
     // public System.Void set_horizontalSliderThumb(UnityEngine.GUIStyle value)
-    // Offset: 0x1912104
+    // Offset: 0x16B8528
     void set_horizontalSliderThumb(UnityEngine::GUIStyle* value);
     // UnityEngine.GUIStyle get_horizontalSliderThumbExtent()
-    // Offset: 0x191212C
+    // Offset: 0x16B8550
     UnityEngine::GUIStyle* get_horizontalSliderThumbExtent();
     // System.Void set_horizontalSliderThumbExtent(UnityEngine.GUIStyle value)
-    // Offset: 0x1912134
+    // Offset: 0x16B8558
     void set_horizontalSliderThumbExtent(UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_verticalSlider()
-    // Offset: 0x191215C
+    // Offset: 0x16B8580
     UnityEngine::GUIStyle* get_verticalSlider();
     // public System.Void set_verticalSlider(UnityEngine.GUIStyle value)
-    // Offset: 0x1912164
+    // Offset: 0x16B8588
     void set_verticalSlider(UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_verticalSliderThumb()
-    // Offset: 0x191218C
+    // Offset: 0x16B85B0
     UnityEngine::GUIStyle* get_verticalSliderThumb();
     // public System.Void set_verticalSliderThumb(UnityEngine.GUIStyle value)
-    // Offset: 0x1912194
+    // Offset: 0x16B85B8
     void set_verticalSliderThumb(UnityEngine::GUIStyle* value);
     // UnityEngine.GUIStyle get_verticalSliderThumbExtent()
-    // Offset: 0x19121BC
+    // Offset: 0x16B85E0
     UnityEngine::GUIStyle* get_verticalSliderThumbExtent();
     // System.Void set_verticalSliderThumbExtent(UnityEngine.GUIStyle value)
-    // Offset: 0x19121C4
+    // Offset: 0x16B85E8
     void set_verticalSliderThumbExtent(UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_horizontalScrollbar()
-    // Offset: 0x190C498
+    // Offset: 0x16B28BC
     UnityEngine::GUIStyle* get_horizontalScrollbar();
     // public System.Void set_horizontalScrollbar(UnityEngine.GUIStyle value)
-    // Offset: 0x19121EC
+    // Offset: 0x16B8610
     void set_horizontalScrollbar(UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_horizontalScrollbarThumb()
-    // Offset: 0x1912214
+    // Offset: 0x16B8638
     UnityEngine::GUIStyle* get_horizontalScrollbarThumb();
     // public System.Void set_horizontalScrollbarThumb(UnityEngine.GUIStyle value)
-    // Offset: 0x191221C
+    // Offset: 0x16B8640
     void set_horizontalScrollbarThumb(UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_horizontalScrollbarLeftButton()
-    // Offset: 0x1912244
+    // Offset: 0x16B8668
     UnityEngine::GUIStyle* get_horizontalScrollbarLeftButton();
     // public System.Void set_horizontalScrollbarLeftButton(UnityEngine.GUIStyle value)
-    // Offset: 0x191224C
+    // Offset: 0x16B8670
     void set_horizontalScrollbarLeftButton(UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_horizontalScrollbarRightButton()
-    // Offset: 0x1912274
+    // Offset: 0x16B8698
     UnityEngine::GUIStyle* get_horizontalScrollbarRightButton();
     // public System.Void set_horizontalScrollbarRightButton(UnityEngine.GUIStyle value)
-    // Offset: 0x191227C
+    // Offset: 0x16B86A0
     void set_horizontalScrollbarRightButton(UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_verticalScrollbar()
-    // Offset: 0x190C4A0
+    // Offset: 0x16B28C4
     UnityEngine::GUIStyle* get_verticalScrollbar();
     // public System.Void set_verticalScrollbar(UnityEngine.GUIStyle value)
-    // Offset: 0x19122A4
+    // Offset: 0x16B86C8
     void set_verticalScrollbar(UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_verticalScrollbarThumb()
-    // Offset: 0x19122CC
+    // Offset: 0x16B86F0
     UnityEngine::GUIStyle* get_verticalScrollbarThumb();
     // public System.Void set_verticalScrollbarThumb(UnityEngine.GUIStyle value)
-    // Offset: 0x19122D4
+    // Offset: 0x16B86F8
     void set_verticalScrollbarThumb(UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_verticalScrollbarUpButton()
-    // Offset: 0x19122FC
+    // Offset: 0x16B8720
     UnityEngine::GUIStyle* get_verticalScrollbarUpButton();
     // public System.Void set_verticalScrollbarUpButton(UnityEngine.GUIStyle value)
-    // Offset: 0x1912304
+    // Offset: 0x16B8728
     void set_verticalScrollbarUpButton(UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_verticalScrollbarDownButton()
-    // Offset: 0x191232C
+    // Offset: 0x16B8750
     UnityEngine::GUIStyle* get_verticalScrollbarDownButton();
     // public System.Void set_verticalScrollbarDownButton(UnityEngine.GUIStyle value)
-    // Offset: 0x1912334
+    // Offset: 0x16B8758
     void set_verticalScrollbarDownButton(UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_scrollView()
-    // Offset: 0x190C4A8
+    // Offset: 0x16B28CC
     UnityEngine::GUIStyle* get_scrollView();
     // public System.Void set_scrollView(UnityEngine.GUIStyle value)
-    // Offset: 0x191235C
+    // Offset: 0x16B8780
     void set_scrollView(UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle[] get_customStyles()
-    // Offset: 0x1912384
+    // Offset: 0x16B87A8
     ::Array<UnityEngine::GUIStyle*>* get_customStyles();
     // public System.Void set_customStyles(UnityEngine.GUIStyle[] value)
-    // Offset: 0x191238C
+    // Offset: 0x16B87B0
     void set_customStyles(::Array<UnityEngine::GUIStyle*>* value);
     // public UnityEngine.GUISettings get_settings()
-    // Offset: 0x1904728
+    // Offset: 0x16AAB4C
     UnityEngine::GUISettings* get_settings();
     // static UnityEngine.GUIStyle get_error()
-    // Offset: 0x19123B4
+    // Offset: 0x16B87D8
     static UnityEngine::GUIStyle* get_error();
     // System.Void Apply()
-    // Offset: 0x1911D94
+    // Offset: 0x16B81B8
     void Apply();
     // private System.Void BuildStyleCache()
-    // Offset: 0x19124BC
+    // Offset: 0x16B88E0
     void BuildStyleCache();
     // public UnityEngine.GUIStyle GetStyle(System.String styleName)
-    // Offset: 0x1905F68
+    // Offset: 0x16AC38C
     UnityEngine::GUIStyle* GetStyle(::Il2CppString* styleName);
     // public UnityEngine.GUIStyle FindStyle(System.String styleName)
-    // Offset: 0x1913118
+    // Offset: 0x16B953C
     UnityEngine::GUIStyle* FindStyle(::Il2CppString* styleName);
     // System.Void MakeCurrent()
-    // Offset: 0x1900F28
+    // Offset: 0x16A734C
     void MakeCurrent();
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x19133B4
+    // Offset: 0x16B97D8
     System::Collections::IEnumerator* GetEnumerator();
     // public System.Void .ctor()
-    // Offset: 0x1911CEC
+    // Offset: 0x16B8110
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -77,31 +77,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Collections.Generic.List`1<BeatmapObjectExecutionRating> get_beatmapObjectExecutionRatings()
-    // Offset: 0x105B67C
+    // Offset: 0x20D60FC
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectExecutionRating*>* get_beatmapObjectExecutionRatings();
     // protected System.Void Start()
-    // Offset: 0x105B684
+    // Offset: 0x20D6104
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x105B868
+    // Offset: 0x20D63E8
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x105B9DC
+    // Offset: 0x20D65FC
     void Update();
     // private System.Void HandleCutScoreHandlerDidFinish(BeatmapObjectExecutionRatingsRecorder/CutScoreHandler cutScoreHandler)
-    // Offset: 0x105BBF8
+    // Offset: 0x20D6818
     void HandleCutScoreHandlerDidFinish(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler* cutScoreHandler);
     // private System.Void HandleScoreControllerNoteWasCut(NoteData noteData, NoteCutInfo noteCutInfo, System.Int32 multiplier)
-    // Offset: 0x105BC7C
+    // Offset: 0x20D689C
     void HandleScoreControllerNoteWasCut(GlobalNamespace::NoteData* noteData, GlobalNamespace::NoteCutInfo* noteCutInfo, int multiplier);
     // private System.Void HandleScoreControllerNoteWasMissed(NoteData noteData, System.Int32 multiplier)
-    // Offset: 0x105BE9C
+    // Offset: 0x20D6BEC
     void HandleScoreControllerNoteWasMissed(GlobalNamespace::NoteData* noteData, int multiplier);
     // private System.Void HandleObstacleDidPassAvoidedMark(ObstacleController obstacleController)
-    // Offset: 0x105BF78
+    // Offset: 0x20D6CC8
     void HandleObstacleDidPassAvoidedMark(GlobalNamespace::ObstacleController* obstacleController);
     // public System.Void .ctor()
-    // Offset: 0x105C06C
+    // Offset: 0x20D6DBC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

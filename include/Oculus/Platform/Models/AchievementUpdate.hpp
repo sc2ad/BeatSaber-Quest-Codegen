@@ -25,7 +25,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x18
     ::Il2CppString* Name;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1361D08
+    // Offset: 0x1137444
     static AchievementUpdate* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.AchievementUpdate
 }

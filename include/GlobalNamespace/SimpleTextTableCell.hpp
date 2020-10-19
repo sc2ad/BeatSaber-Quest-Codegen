@@ -24,13 +24,13 @@ namespace GlobalNamespace {
     // Offset: 0x50
     TMPro::TextMeshProUGUI* text;
     // public System.Void set_text(System.String value)
-    // Offset: 0x218EC58
+    // Offset: 0x1EE28BC
     void set_text(::Il2CppString* value);
     // public System.String get_text()
-    // Offset: 0x218EC74
+    // Offset: 0x1EE28D8
     ::Il2CppString* get_text();
     // public System.Void .ctor()
-    // Offset: 0x218EC90
+    // Offset: 0x1EE28F4
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

@@ -23,22 +23,22 @@ namespace UnityEngine::ProBuilder {
   class ColliderBehaviour : public UnityEngine::ProBuilder::EntityBehaviour {
     public:
     // public override System.Void Initialize()
-    // Offset: 0x1D93D18
+    // Offset: 0x1AE697C
     // Implemented from: UnityEngine.ProBuilder.EntityBehaviour
     // Base method: System.Void EntityBehaviour::Initialize()
     void Initialize();
     // public override System.Void OnEnterPlayMode()
-    // Offset: 0x1D93E90
+    // Offset: 0x1AE6AF4
     // Implemented from: UnityEngine.ProBuilder.EntityBehaviour
     // Base method: System.Void EntityBehaviour::OnEnterPlayMode()
     void OnEnterPlayMode();
     // public override System.Void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
-    // Offset: 0x1D93F40
+    // Offset: 0x1AE6BA4
     // Implemented from: UnityEngine.ProBuilder.EntityBehaviour
     // Base method: System.Void EntityBehaviour::OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
     void OnSceneLoaded(UnityEngine::SceneManagement::Scene scene, UnityEngine::SceneManagement::LoadSceneMode mode);
     // public System.Void .ctor()
-    // Offset: 0x1D93FF0
+    // Offset: 0x1AE6C54
     // Implemented from: UnityEngine.ProBuilder.EntityBehaviour
     // Base method: System.Void EntityBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

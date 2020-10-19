@@ -65,69 +65,69 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Set static field: static readonly System.UInt64[] K
     static void _set_K(::Array<uint64_t>* value);
     // System.Void .ctor(Org.BouncyCastle.Crypto.Digests.LongDigest t)
-    // Offset: 0x1B036BC
+    // Offset: 0x18A38B0
     static LongDigest* New_ctor(Org::BouncyCastle::Crypto::Digests::LongDigest* t);
     // protected System.Void CopyIn(Org.BouncyCastle.Crypto.Digests.LongDigest t)
-    // Offset: 0x1B0377C
+    // Offset: 0x18A3970
     void CopyIn(Org::BouncyCastle::Crypto::Digests::LongDigest* t);
     // public System.Void Finish()
-    // Offset: 0x1B03A80
+    // Offset: 0x18A3C74
     void Finish();
     // System.Void ProcessWord(System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x1B038CC
+    // Offset: 0x18A3AC0
     void ProcessWord(::Array<uint8_t>* input, int inOff);
     // private System.Void AdjustByteCounts()
-    // Offset: 0x1B03AF8
+    // Offset: 0x18A3CEC
     void AdjustByteCounts();
     // System.Void ProcessLength(System.Int64 lowW, System.Int64 hiW)
-    // Offset: 0x1B03B1C
+    // Offset: 0x18A3D10
     void ProcessLength(int64_t lowW, int64_t hiW);
     // System.Void ProcessBlock()
-    // Offset: 0x1B03B9C
+    // Offset: 0x18A3D90
     void ProcessBlock();
     // static private System.UInt64 Ch(System.UInt64 x, System.UInt64 y, System.UInt64 z)
-    // Offset: 0x1B04220
+    // Offset: 0x18A4414
     static uint64_t Ch(uint64_t x, uint64_t y, uint64_t z);
     // static private System.UInt64 Maj(System.UInt64 x, System.UInt64 y, System.UInt64 z)
-    // Offset: 0x1B04240
+    // Offset: 0x18A4434
     static uint64_t Maj(uint64_t x, uint64_t y, uint64_t z);
     // static private System.UInt64 Sum0(System.UInt64 x)
-    // Offset: 0x1B04230
+    // Offset: 0x18A4424
     static uint64_t Sum0(uint64_t x);
     // static private System.UInt64 Sum1(System.UInt64 x)
-    // Offset: 0x1B04210
+    // Offset: 0x18A4404
     static uint64_t Sum1(uint64_t x);
     // static private System.UInt64 Sigma0(System.UInt64 x)
-    // Offset: 0x1B04200
+    // Offset: 0x18A43F4
     static uint64_t Sigma0(uint64_t x);
     // static private System.UInt64 Sigma1(System.UInt64 x)
-    // Offset: 0x1B041F0
+    // Offset: 0x18A43E4
     static uint64_t Sigma1(uint64_t x);
     // static private System.Void .cctor()
-    // Offset: 0x1B0425C
+    // Offset: 0x18A4450
     static void _cctor();
     // System.Void .ctor()
-    // Offset: 0x1B03610
+    // Offset: 0x18A3804
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LongDigest* New_ctor();
     // public System.Void Update(System.Byte input)
-    // Offset: 0x1B03844
+    // Offset: 0x18A3A38
     // Implemented from: Org.BouncyCastle.Crypto.IDigest
     // Base method: System.Void IDigest::Update(System.Byte input)
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x1B03958
+    // Offset: 0x18A3B4C
     // Implemented from: Org.BouncyCastle.Crypto.IDigest
     // Base method: System.Void IDigest::BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
     void BlockUpdate(::Array<uint8_t>* input, int inOff, int length);
     // public System.Void Reset()
-    // Offset: 0x1B04178
+    // Offset: 0x18A436C
     // Implemented from: Org.BouncyCastle.Crypto.IDigest
     // Base method: System.Void IDigest::Reset()
     void Reset();
     // public System.Int32 GetByteLength()
-    // Offset: 0x1B04254
+    // Offset: 0x18A4448
     // Implemented from: Org.BouncyCastle.Crypto.IDigest
     // Base method: System.Int32 IDigest::GetByteLength()
     int GetByteLength();

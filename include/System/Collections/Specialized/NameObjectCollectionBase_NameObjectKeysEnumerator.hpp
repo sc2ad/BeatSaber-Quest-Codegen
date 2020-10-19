@@ -25,10 +25,10 @@ namespace System::Collections::Specialized {
     // Offset: 0x20
     int version;
     // System.Void .ctor(System.Collections.Specialized.NameObjectCollectionBase coll)
-    // Offset: 0x1724158
+    // Offset: 0x14DFD2C
     static NameObjectCollectionBase::NameObjectKeysEnumerator* New_ctor(System::Collections::Specialized::NameObjectCollectionBase* coll);
     // public System.Boolean MoveNext()
-    // Offset: 0x17245A4
+    // Offset: 0x14E0178
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -36,7 +36,7 @@ namespace System::Collections::Specialized {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // public System.Void Reset()
-    // Offset: 0x172468C
+    // Offset: 0x14E0260
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();
@@ -44,7 +44,7 @@ namespace System::Collections::Specialized {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
     // public System.Object get_Current()
-    // Offset: 0x1724730
+    // Offset: 0x14E0304
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* get_Current();

@@ -35,16 +35,16 @@ namespace Valve::VR {
   class IVRTrackedCamera::_GetCameraIntrinsics : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F62474
+    // Offset: 0x1CB40D8
     static IVRTrackedCamera::_GetCameraIntrinsics* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRTrackedCameraError Invoke(System.UInt32 nDeviceIndex, Valve.VR.EVRTrackedCameraFrameType eFrameType, ref Valve.VR.HmdVector2_t pFocalLength, ref Valve.VR.HmdVector2_t pCenter)
-    // Offset: 0x1F62488
+    // Offset: 0x1CB40EC
     Valve::VR::EVRTrackedCameraError Invoke(uint nDeviceIndex, Valve::VR::EVRTrackedCameraFrameType eFrameType, Valve::VR::HmdVector2_t& pFocalLength, Valve::VR::HmdVector2_t& pCenter);
     // public System.IAsyncResult BeginInvoke(System.UInt32 nDeviceIndex, Valve.VR.EVRTrackedCameraFrameType eFrameType, ref Valve.VR.HmdVector2_t pFocalLength, ref Valve.VR.HmdVector2_t pCenter, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F62750
+    // Offset: 0x1CB43B4
     System::IAsyncResult* BeginInvoke(uint nDeviceIndex, Valve::VR::EVRTrackedCameraFrameType eFrameType, Valve::VR::HmdVector2_t& pFocalLength, Valve::VR::HmdVector2_t& pCenter, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRTrackedCameraError EndInvoke(ref Valve.VR.HmdVector2_t pFocalLength, ref Valve.VR.HmdVector2_t pCenter, System.IAsyncResult result)
-    // Offset: 0x1F62838
+    // Offset: 0x1CB449C
     Valve::VR::EVRTrackedCameraError EndInvoke(Valve::VR::HmdVector2_t& pFocalLength, Valve::VR::HmdVector2_t& pCenter, System::IAsyncResult* result);
   }; // Valve.VR.IVRTrackedCamera/_GetCameraIntrinsics
 }

@@ -44,12 +44,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: $GetUserNamesForUserIds$d__5
     constexpr $GetUserNamesForUserIds$d__5(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*> $$t__builder_ = {}, System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* userIds_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, userIds{userIds_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
-    // Offset: 0xDA2420
+    // Offset: 0xE4D574
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDA2428
+    // Offset: 0xE4D57C
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

@@ -26,16 +26,16 @@ namespace GlobalNamespace {
   class OVRHandTest::BoolMonitor::BoolGenerator : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x130A9C8
+    // Offset: 0x10E0104
     static OVRHandTest::BoolMonitor::BoolGenerator* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke()
-    // Offset: 0x130BC8C
+    // Offset: 0x10E13C8
     bool Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x130BEA4
+    // Offset: 0x10E15E0
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x130BED0
+    // Offset: 0x10E160C
     bool EndInvoke(System::IAsyncResult* result);
   }; // OVRHandTest/BoolMonitor/BoolGenerator
 }

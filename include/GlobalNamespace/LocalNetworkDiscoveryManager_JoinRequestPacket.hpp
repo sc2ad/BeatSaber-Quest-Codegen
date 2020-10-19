@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     uint8_t flags;
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x103ED20
+    // Offset: 0x20A5C08
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x103ED74
+    // Offset: 0x20A5C5C
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void .ctor()
-    // Offset: 0x103C904
+    // Offset: 0x20A37EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LocalNetworkDiscoveryManager::JoinRequestPacket* New_ctor();

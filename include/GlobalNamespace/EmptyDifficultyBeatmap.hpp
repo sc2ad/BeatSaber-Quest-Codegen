@@ -48,42 +48,42 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::BeatmapData* beatmapData;
     // public IBeatmapLevel get_level()
-    // Offset: 0xF64D48
+    // Offset: 0x201CE88
     // Implemented from: IDifficultyBeatmap
     // Base method: IBeatmapLevel IDifficultyBeatmap::get_level()
     GlobalNamespace::IBeatmapLevel* get_level();
     // public IDifficultyBeatmapSet get_parentDifficultyBeatmapSet()
-    // Offset: 0xF64D50
+    // Offset: 0x201CE90
     // Implemented from: IDifficultyBeatmap
     // Base method: IDifficultyBeatmapSet IDifficultyBeatmap::get_parentDifficultyBeatmapSet()
     GlobalNamespace::IDifficultyBeatmapSet* get_parentDifficultyBeatmapSet();
     // public BeatmapDifficulty get_difficulty()
-    // Offset: 0xF64D58
+    // Offset: 0x201CE98
     // Implemented from: IDifficultyBeatmap
     // Base method: BeatmapDifficulty IDifficultyBeatmap::get_difficulty()
     GlobalNamespace::BeatmapDifficulty get_difficulty();
     // public System.Int32 get_difficultyRank()
-    // Offset: 0xF64D60
+    // Offset: 0x201CEA0
     // Implemented from: IDifficultyBeatmap
     // Base method: System.Int32 IDifficultyBeatmap::get_difficultyRank()
     int get_difficultyRank();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0xF64D68
+    // Offset: 0x201CEA8
     // Implemented from: IDifficultyBeatmap
     // Base method: System.Single IDifficultyBeatmap::get_noteJumpMovementSpeed()
     float get_noteJumpMovementSpeed();
     // public System.Single get_noteJumpStartBeatOffset()
-    // Offset: 0xF64D70
+    // Offset: 0x201CEB0
     // Implemented from: IDifficultyBeatmap
     // Base method: System.Single IDifficultyBeatmap::get_noteJumpStartBeatOffset()
     float get_noteJumpStartBeatOffset();
     // public BeatmapData get_beatmapData()
-    // Offset: 0xF64D78
+    // Offset: 0x201CEB8
     // Implemented from: IDifficultyBeatmap
     // Base method: BeatmapData IDifficultyBeatmap::get_beatmapData()
     GlobalNamespace::BeatmapData* get_beatmapData();
     // public System.Void .ctor()
-    // Offset: 0xF64D80
+    // Offset: 0x201CEC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EmptyDifficultyBeatmap* New_ctor();

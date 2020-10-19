@@ -14,7 +14,7 @@ namespace Zenject {
   class PoolExceededFixedSizeException : public System::Exception {
     public:
     // public System.Void .ctor(System.String errorMessage)
-    // Offset: 0x1512E9C
+    // Offset: 0x12E96C4
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String errorMessage)
     static PoolExceededFixedSizeException* New_ctor(::Il2CppString* errorMessage);

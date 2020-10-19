@@ -160,7 +160,7 @@ namespace MasterServer {
     // Set static field: static private System.String kMessageCategoryMessage
     static void _set_kMessageCategoryMessage(::Il2CppString* value);
     // protected System.Collections.Generic.IEnumerable`1<MasterServer.BaseAnalyticsManager/IMetric> GetMetrics()
-    // Offset: 0x11696F0
+    // Offset: 0x21640D8
     System::Collections::Generic::IEnumerable_1<MasterServer::BaseAnalyticsManager::IMetric*>* GetMetrics();
     // public System.Void PollUpdate()
     // Offset: 0xFFFFFFFF
@@ -176,62 +176,62 @@ namespace MasterServer {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // public System.Void UpdateState(System.String metricName, System.Int64 state)
-    // Offset: 0x11696F8
+    // Offset: 0x21640E0
     // Implemented from: MasterServer.IAnalyticsManager
     // Base method: System.Void IAnalyticsManager::UpdateState(System.String metricName, System.Int64 state)
     void UpdateState(::Il2CppString* metricName, int64_t state);
     // public System.Void UpdateAverage(System.String metricName, System.Double value, MasterServer.AnalyticsMetricUnit unit)
-    // Offset: 0x11697F8
+    // Offset: 0x21641E0
     // Implemented from: MasterServer.IAnalyticsManager
     // Base method: System.Void IAnalyticsManager::UpdateAverage(System.String metricName, System.Double value, MasterServer.AnalyticsMetricUnit unit)
     void UpdateAverage(::Il2CppString* metricName, double value, MasterServer::AnalyticsMetricUnit unit);
     // public System.Void IncrementCounter(System.String metricName)
-    // Offset: 0x116994C
+    // Offset: 0x2164334
     // Implemented from: MasterServer.IAnalyticsManager
     // Base method: System.Void IAnalyticsManager::IncrementCounter(System.String metricName)
     void IncrementCounter(::Il2CppString* metricName);
     // public System.Void ReceivedReliableRequestEvent(MasterServer.IMasterServerReliableRequest request)
-    // Offset: 0x1169A54
+    // Offset: 0x216443C
     // Implemented from: MasterServer.IAnalyticsManager
     // Base method: System.Void IAnalyticsManager::ReceivedReliableRequestEvent(MasterServer.IMasterServerReliableRequest request)
     void ReceivedReliableRequestEvent(MasterServer::IMasterServerReliableRequest* request);
     // public System.Void SentReliableRequestEvent(MasterServer.IMasterServerReliableRequest request)
-    // Offset: 0x1169C28
+    // Offset: 0x2164610
     // Implemented from: MasterServer.IAnalyticsManager
     // Base method: System.Void IAnalyticsManager::SentReliableRequestEvent(MasterServer.IMasterServerReliableRequest request)
     void SentReliableRequestEvent(MasterServer::IMasterServerReliableRequest* request);
     // public System.Void ReceivedReliableResponseEvent(MasterServer.IMasterServerReliableResponse response)
-    // Offset: 0x1169DFC
+    // Offset: 0x21647E4
     // Implemented from: MasterServer.IAnalyticsManager
     // Base method: System.Void IAnalyticsManager::ReceivedReliableResponseEvent(MasterServer.IMasterServerReliableResponse response)
     void ReceivedReliableResponseEvent(MasterServer::IMasterServerReliableResponse* response);
     // public System.Void SentReliableResponseEvent(MasterServer.IMasterServerReliableResponse response)
-    // Offset: 0x116A1A0
+    // Offset: 0x2164B88
     // Implemented from: MasterServer.IAnalyticsManager
     // Base method: System.Void IAnalyticsManager::SentReliableResponseEvent(MasterServer.IMasterServerReliableResponse response)
     void SentReliableResponseEvent(MasterServer::IMasterServerReliableResponse* response);
     // public System.Void ReceivedUnreliableMessageEvent(MasterServer.IMasterServerUnreliableMessage message)
-    // Offset: 0x116A544
+    // Offset: 0x2164F2C
     // Implemented from: MasterServer.IAnalyticsManager
     // Base method: System.Void IAnalyticsManager::ReceivedUnreliableMessageEvent(MasterServer.IMasterServerUnreliableMessage message)
     void ReceivedUnreliableMessageEvent(MasterServer::IMasterServerUnreliableMessage* message);
     // public System.Void SentUnreliableMessageEvent(MasterServer.IMasterServerUnreliableMessage message)
-    // Offset: 0x116A718
+    // Offset: 0x2165100
     // Implemented from: MasterServer.IAnalyticsManager
     // Base method: System.Void IAnalyticsManager::SentUnreliableMessageEvent(MasterServer.IMasterServerUnreliableMessage message)
     void SentUnreliableMessageEvent(MasterServer::IMasterServerUnreliableMessage* message);
     // public System.Void ReceivedUnreliableResponseEvent(MasterServer.IMasterServerResponse response)
-    // Offset: 0x116A8EC
+    // Offset: 0x21652D4
     // Implemented from: MasterServer.IAnalyticsManager
     // Base method: System.Void IAnalyticsManager::ReceivedUnreliableResponseEvent(MasterServer.IMasterServerResponse response)
     void ReceivedUnreliableResponseEvent(MasterServer::IMasterServerResponse* response);
     // public System.Void SentUnreliableResponseEvent(MasterServer.IMasterServerResponse response)
-    // Offset: 0x116AC90
+    // Offset: 0x2165678
     // Implemented from: MasterServer.IAnalyticsManager
     // Base method: System.Void IAnalyticsManager::SentUnreliableResponseEvent(MasterServer.IMasterServerResponse response)
     void SentUnreliableResponseEvent(MasterServer::IMasterServerResponse* response);
     // protected System.Void .ctor()
-    // Offset: 0x116B034
+    // Offset: 0x2165A1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BaseAnalyticsManager* New_ctor();

@@ -32,40 +32,40 @@ namespace System::Text {
     // Offset: 0x18
     System::Text::DecoderFallbackBuffer* m_fallbackBuffer;
     // System.Void SerializeDecoder(System.Runtime.Serialization.SerializationInfo info)
-    // Offset: 0x1884624
+    // Offset: 0x162AA48
     void SerializeDecoder(System::Runtime::Serialization::SerializationInfo* info);
     // public System.Text.DecoderFallback get_Fallback()
-    // Offset: 0x1884698
+    // Offset: 0x162AABC
     System::Text::DecoderFallback* get_Fallback();
     // public System.Text.DecoderFallbackBuffer get_FallbackBuffer()
-    // Offset: 0x1883EE0
+    // Offset: 0x162A304
     System::Text::DecoderFallbackBuffer* get_FallbackBuffer();
     // System.Boolean get_InternalHasFallbackBuffer()
-    // Offset: 0x18846A0
+    // Offset: 0x162AAC4
     bool get_InternalHasFallbackBuffer();
     // public System.Void Reset()
-    // Offset: 0x18846B0
+    // Offset: 0x162AAD4
     void Reset();
     // public System.Int32 GetCharCount(System.Byte[] bytes, System.Int32 index, System.Int32 count)
     // Offset: 0xFFFFFFFF
     int GetCharCount(::Array<uint8_t>* bytes, int index, int count);
     // public System.Int32 GetCharCount(System.Byte[] bytes, System.Int32 index, System.Int32 count, System.Boolean flush)
-    // Offset: 0x1884784
+    // Offset: 0x162ABA8
     int GetCharCount(::Array<uint8_t>* bytes, int index, int count, bool flush);
     // public System.Int32 GetCharCount(System.Byte* bytes, System.Int32 count, System.Boolean flush)
-    // Offset: 0x1884790
+    // Offset: 0x162ABB4
     int GetCharCount(uint8_t* bytes, int count, bool flush);
     // public System.Int32 GetChars(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex)
     // Offset: 0xFFFFFFFF
     int GetChars(::Array<uint8_t>* bytes, int byteIndex, int byteCount, ::Array<::Il2CppChar>* chars, int charIndex);
     // public System.Int32 GetChars(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex, System.Boolean flush)
-    // Offset: 0x1884900
+    // Offset: 0x162AD24
     int GetChars(::Array<uint8_t>* bytes, int byteIndex, int byteCount, ::Array<::Il2CppChar>* chars, int charIndex, bool flush);
     // public System.Int32 GetChars(System.Byte* bytes, System.Int32 byteCount, System.Char* chars, System.Int32 charCount, System.Boolean flush)
-    // Offset: 0x188490C
+    // Offset: 0x162AD30
     int GetChars(uint8_t* bytes, int byteCount, ::Il2CppChar* chars, int charCount, bool flush);
     // protected System.Void .ctor()
-    // Offset: 0x1884690
+    // Offset: 0x162AAB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Decoder* New_ctor();

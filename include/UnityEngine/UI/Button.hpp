@@ -42,19 +42,19 @@ namespace UnityEngine::UI {
     // Offset: 0xF0
     UnityEngine::UI::Button::ButtonClickedEvent* m_OnClick;
     // public UnityEngine.UI.Button/ButtonClickedEvent get_onClick()
-    // Offset: 0x1285630
+    // Offset: 0x107FECC
     UnityEngine::UI::Button::ButtonClickedEvent* get_onClick();
     // public System.Void set_onClick(UnityEngine.UI.Button/ButtonClickedEvent value)
-    // Offset: 0x1285638
+    // Offset: 0x107FED4
     void set_onClick(UnityEngine::UI::Button::ButtonClickedEvent* value);
     // private System.Void Press()
-    // Offset: 0x1285640
+    // Offset: 0x107FEDC
     void Press();
     // private System.Collections.IEnumerator OnFinishSubmit()
-    // Offset: 0x1285788
+    // Offset: 0x1080024
     System::Collections::IEnumerator* OnFinishSubmit();
     // protected System.Void .ctor()
-    // Offset: 0x1285594
+    // Offset: 0x107FE30
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -65,12 +65,12 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static Button* New_ctor();
     // public System.Void OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x12856E0
+    // Offset: 0x107FF7C
     // Implemented from: UnityEngine.EventSystems.IPointerClickHandler
     // Base method: System.Void IPointerClickHandler::OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerClick(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnSubmit(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x1285700
+    // Offset: 0x107FF9C
     // Implemented from: UnityEngine.EventSystems.ISubmitHandler
     // Base method: System.Void ISubmitHandler::OnSubmit(UnityEngine.EventSystems.BaseEventData eventData)
     void OnSubmit(UnityEngine::EventSystems::BaseEventData* eventData);

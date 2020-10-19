@@ -26,16 +26,16 @@ namespace System::Security::Cryptography {
     // Creating value type constructor for type: HopToThreadPoolAwaitable
     constexpr HopToThreadPoolAwaitable() noexcept {}
     // public System.Security.Cryptography.CryptoStream/HopToThreadPoolAwaitable GetAwaiter()
-    // Offset: 0xDC0F8C
+    // Offset: 0xC773AC
     System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable GetAwaiter();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0xDC0F94
+    // Offset: 0xC773B4
     bool get_IsCompleted();
     // public System.Void GetResult()
-    // Offset: 0xDC0FA0
+    // Offset: 0xC773C0
     void GetResult();
     // public System.Void OnCompleted(System.Action continuation)
-    // Offset: 0xDC0F9C
+    // Offset: 0xC773BC
     // Implemented from: System.Runtime.CompilerServices.INotifyCompletion
     // Base method: System.Void INotifyCompletion::OnCompleted(System.Action continuation)
     void OnCompleted(System::Action* continuation);

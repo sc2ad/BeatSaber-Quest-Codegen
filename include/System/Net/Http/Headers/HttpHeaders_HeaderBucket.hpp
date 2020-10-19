@@ -37,19 +37,19 @@ namespace System::Net::Http::Headers {
     // Offset: 0x20
     System::Func_2<::Il2CppObject*, ::Il2CppString*>* CustomToString;
     // public System.Void .ctor(System.Object parsed, System.Func`2<System.Object,System.String> converter)
-    // Offset: 0x13A2F1C
+    // Offset: 0x1178658
     static HttpHeaders::HeaderBucket* New_ctor(::Il2CppObject* parsed, System::Func_2<::Il2CppObject*, ::Il2CppString*>* converter);
     // public System.Boolean get_HasStringValues()
-    // Offset: 0x13A3B6C
+    // Offset: 0x11792A8
     bool get_HasStringValues();
     // public System.Collections.Generic.List`1<System.String> get_Values()
-    // Offset: 0x13A2F6C
+    // Offset: 0x11786A8
     System::Collections::Generic::List_1<::Il2CppString*>* get_Values();
     // public System.Void set_Values(System.Collections.Generic.List`1<System.String> value)
-    // Offset: 0x13A4070
+    // Offset: 0x11797AC
     void set_Values(System::Collections::Generic::List_1<::Il2CppString*>* value);
     // public System.String ParsedToString()
-    // Offset: 0x13A3AE8
+    // Offset: 0x1179224
     ::Il2CppString* ParsedToString();
   }; // System.Net.Http.Headers.HttpHeaders/HeaderBucket
 }

@@ -29,13 +29,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Il2CppString* operationName;
     // private System.Void .ctor(System.String operationName)
-    // Offset: 0x1162734
+    // Offset: 0x215D11C
     static DiffieHellmanUtility::OperationTimer* New_ctor(::Il2CppString* operationName);
     // static public DiffieHellmanUtility/OperationTimer Time(System.String operation)
-    // Offset: 0x1161E6C
+    // Offset: 0x215C854
     static GlobalNamespace::DiffieHellmanUtility::OperationTimer* Time(::Il2CppString* operation);
     // public System.Void Dispose()
-    // Offset: 0x11627D8
+    // Offset: 0x215D1C0
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

@@ -39,15 +39,15 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static void _set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock* value);
     // public UnityEngine.Color get_color()
-    // Offset: 0x1FAFB34
+    // Offset: 0x1D00798
     UnityEngine::Color get_color();
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1FAFB40
+    // Offset: 0x1D007A4
     // Implemented from: LightWithId
     // Base method: System.Void LightWithId::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1FAFC88
+    // Offset: 0x1D008EC
     // Implemented from: LightWithId
     // Base method: System.Void LightWithId::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MaterialLightWithId* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1FAFC98
+    // Offset: 0x1D008FC
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

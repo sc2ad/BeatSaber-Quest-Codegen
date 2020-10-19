@@ -94,28 +94,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnDestroy()
-    // Offset: 0x223D678
+    // Offset: 0x204BC88
     void OnDestroy();
     // public System.Void SetBeforeIntroValues()
-    // Offset: 0x222EEC4
+    // Offset: 0x203D4D4
     void SetBeforeIntroValues();
     // public System.Collections.IEnumerator AnimateCoroutine(System.Single animationDurationMultiplier, System.Int32 order)
-    // Offset: 0x22304F4
+    // Offset: 0x203EB04
     System::Collections::IEnumerator* AnimateCoroutine(float animationDurationMultiplier, int order);
     // public System.Void TransitionToAfterIntroAnimationState()
-    // Offset: 0x222F4E8
+    // Offset: 0x203DAF8
     void TransitionToAfterIntroAnimationState();
     // private System.Void <AnimateCoroutine>b__17_0(UnityEngine.Vector3 val)
-    // Offset: 0x223D83C
+    // Offset: 0x204BE4C
     void $AnimateCoroutine$b__17_0(UnityEngine::Vector3 val);
     // private System.Void <AnimateCoroutine>b__17_1(UnityEngine.Vector3 val)
-    // Offset: 0x223D858
+    // Offset: 0x204BE68
     void $AnimateCoroutine$b__17_1(UnityEngine::Vector3 val);
     // private System.Void <AnimateCoroutine>b__17_2(System.Single f)
-    // Offset: 0x223D874
+    // Offset: 0x204BE84
     void $AnimateCoroutine$b__17_2(float f);
     // public System.Void .ctor()
-    // Offset: 0x223D73C
+    // Offset: 0x204BD4C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

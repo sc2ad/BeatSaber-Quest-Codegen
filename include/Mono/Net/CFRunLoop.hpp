@@ -25,37 +25,37 @@ namespace Mono::Net {
   class CFRunLoop : public Mono::Net::CFObject {
     public:
     // static private System.Void CFRunLoopAddSource(System.IntPtr rl, System.IntPtr source, System.IntPtr mode)
-    // Offset: 0x141814C
+    // Offset: 0x11EE888
     static void CFRunLoopAddSource(System::IntPtr rl, System::IntPtr source, System::IntPtr mode);
     // static private System.Void CFRunLoopRemoveSource(System.IntPtr rl, System.IntPtr source, System.IntPtr mode)
-    // Offset: 0x14181E4
+    // Offset: 0x11EE920
     static void CFRunLoopRemoveSource(System::IntPtr rl, System::IntPtr source, System::IntPtr mode);
     // static private System.Int32 CFRunLoopRunInMode(System.IntPtr mode, System.Double seconds, System.Boolean returnAfterSourceHandled)
-    // Offset: 0x141827C
+    // Offset: 0x11EE9B8
     static int CFRunLoopRunInMode(System::IntPtr mode, double seconds, bool returnAfterSourceHandled);
     // static private System.IntPtr CFRunLoopGetCurrent()
-    // Offset: 0x141831C
+    // Offset: 0x11EEA58
     static System::IntPtr CFRunLoopGetCurrent();
     // static private System.Void CFRunLoopStop(System.IntPtr rl)
-    // Offset: 0x1418390
+    // Offset: 0x11EEACC
     static void CFRunLoopStop(System::IntPtr rl);
     // static public Mono.Net.CFRunLoop get_CurrentRunLoop()
-    // Offset: 0x1415B00
+    // Offset: 0x11EC23C
     static Mono::Net::CFRunLoop* get_CurrentRunLoop();
     // public System.Void AddSource(System.IntPtr source, Mono.Net.CFString mode)
-    // Offset: 0x1415C50
+    // Offset: 0x11EC38C
     void AddSource(System::IntPtr source, Mono::Net::CFString* mode);
     // public System.Void RemoveSource(System.IntPtr source, Mono.Net.CFString mode)
-    // Offset: 0x1415C88
+    // Offset: 0x11EC3C4
     void RemoveSource(System::IntPtr source, Mono::Net::CFString* mode);
     // public System.Int32 RunInMode(Mono.Net.CFString mode, System.Double seconds, System.Boolean returnAfterSourceHandled)
-    // Offset: 0x1415C6C
+    // Offset: 0x11EC3A8
     int RunInMode(Mono::Net::CFString* mode, double seconds, bool returnAfterSourceHandled);
     // public System.Void Stop()
-    // Offset: 0x1416578
+    // Offset: 0x11ECCB4
     void Stop();
     // public System.Void .ctor(System.IntPtr handle, System.Boolean own)
-    // Offset: 0x1418410
+    // Offset: 0x11EEB4C
     // Implemented from: Mono.Net.CFObject
     // Base method: System.Void CFObject::.ctor(System.IntPtr handle, System.Boolean own)
     static CFRunLoop* New_ctor(System::IntPtr handle, bool own);

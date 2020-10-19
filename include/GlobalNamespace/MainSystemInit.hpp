@@ -287,22 +287,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Init()
-    // Offset: 0xED7258
+    // Offset: 0x1FC0E20
     void Init();
     // public System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0xED763C
+    // Offset: 0x1FC1204
     void InstallBindings(Zenject::DiContainer* container);
     // private System.Void InstallRichPresence(Zenject.DiContainer container)
-    // Offset: 0xED82D4
+    // Offset: 0x1FC1E9C
     void InstallRichPresence(Zenject::DiContainer* container);
     // private System.Void InstallOculusDestinationBindings(Zenject.DiContainer container)
-    // Offset: 0xED81F8
+    // Offset: 0x1FC1DC0
     void InstallOculusDestinationBindings(Zenject::DiContainer* container);
     // private System.Void InstallPlatformLeaderboardsModel(Zenject.DiContainer container)
-    // Offset: 0xED8394
+    // Offset: 0x1FC1F5C
     void InstallPlatformLeaderboardsModel(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0xED84D8
+    // Offset: 0x1FC20A0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

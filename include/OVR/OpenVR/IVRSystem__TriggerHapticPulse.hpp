@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_TriggerHapticPulse : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x112B538
+    // Offset: 0xF676D0
     static IVRSystem::_TriggerHapticPulse* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.UInt32 unControllerDeviceIndex, System.UInt32 unAxisId, System.UInt16 usDurationMicroSec)
-    // Offset: 0x112B54C
+    // Offset: 0xF676E4
     void Invoke(uint unControllerDeviceIndex, uint unAxisId, uint16_t usDurationMicroSec);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unControllerDeviceIndex, System.UInt32 unAxisId, System.UInt16 usDurationMicroSec, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x112B7F0
+    // Offset: 0xF67988
     System::IAsyncResult* BeginInvoke(uint unControllerDeviceIndex, uint unAxisId, uint16_t usDurationMicroSec, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x112B8B4
+    // Offset: 0xF67A4C
     void EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_TriggerHapticPulse
 }

@@ -14,17 +14,17 @@ namespace GlobalNamespace {
   class GameServerBrowserStackedController : public HMUI::StackedController {
     public:
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xEC146C
+    // Offset: 0x2000460
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0xEC1470
+    // Offset: 0x2000464
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0xEC1474
+    // Offset: 0x2000468
     // Implemented from: HMUI.StackedController
     // Base method: System.Void StackedController::.ctor()
     // Base method: System.Void ContainerViewController::.ctor()

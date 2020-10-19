@@ -20,13 +20,13 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x18
     ::Array<uint8_t>* sBox;
     // public System.Void .ctor(Org.BouncyCastle.Crypto.ICipherParameters parameters, System.Byte[] sBox)
-    // Offset: 0x10F28A4
+    // Offset: 0xF4D534
     static ParametersWithSBox* New_ctor(Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::Array<uint8_t>* sBox);
     // public System.Byte[] GetSBox()
-    // Offset: 0x10F28F4
+    // Offset: 0xF4D584
     ::Array<uint8_t>* GetSBox();
     // public Org.BouncyCastle.Crypto.ICipherParameters get_Parameters()
-    // Offset: 0x10F28FC
+    // Offset: 0xF4D58C
     Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
   }; // Org.BouncyCastle.Crypto.Parameters.ParametersWithSBox
 }

@@ -17,13 +17,13 @@ namespace System::Security::Cryptography {
     // Offset: 0x61
     bool m_useLegacyBlockSize;
     // public System.Void .ctor(System.Byte[] key)
-    // Offset: 0x19D16B8
+    // Offset: 0x1777ADC
     static HMACSHA512* New_ctor(::Array<uint8_t>* key);
     // private System.Int32 get_BlockSize()
-    // Offset: 0x19D17BC
+    // Offset: 0x1777BE0
     int get_BlockSize();
     // public System.Void .ctor()
-    // Offset: 0x19D1688
+    // Offset: 0x1777AAC
     // Implemented from: System.Security.Cryptography.HMAC
     // Base method: System.Void HMAC::.ctor()
     // Base method: System.Void KeyedHashAlgorithm::.ctor()

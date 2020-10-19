@@ -109,58 +109,58 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kCellId
     static void _set_kCellId(::Il2CppString* value);
     // public System.Void add_selectSuggestedLevelEvent(System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> value)
-    // Offset: 0xEC4C7C
+    // Offset: 0x2003C70
     void add_selectSuggestedLevelEvent(System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>* value);
     // public System.Void remove_selectSuggestedLevelEvent(System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> value)
-    // Offset: 0xEC4D20
+    // Offset: 0x2003D14
     void remove_selectSuggestedLevelEvent(System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>* value);
     // public System.Void add_selectSuggestedGameplayModifiersEvent(System.Action`1<GameplayModifiers> value)
-    // Offset: 0xEC4DC4
+    // Offset: 0x2003DB8
     void add_selectSuggestedGameplayModifiersEvent(System::Action_1<GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void remove_selectSuggestedGameplayModifiersEvent(System.Action`1<GameplayModifiers> value)
-    // Offset: 0xEC4E68
+    // Offset: 0x2003E5C
     void remove_selectSuggestedGameplayModifiersEvent(System::Action_1<GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void add_kickPlayerEvent(System.Action`1<System.String> value)
-    // Offset: 0xEC4F0C
+    // Offset: 0x2003F00
     void add_kickPlayerEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_kickPlayerEvent(System.Action`1<System.String> value)
-    // Offset: 0xEC4FB0
+    // Offset: 0x2003FA4
     void remove_kickPlayerEvent(System::Action_1<::Il2CppString*>* value);
     // private System.Boolean TryGetLobbyPlayerData(System.Int32 idx, out IConnectedPlayer player, out ILobbyPlayerDataModel playerDataModel)
-    // Offset: 0xEC5520
+    // Offset: 0x2004514
     bool TryGetLobbyPlayerData(int idx, GlobalNamespace::IConnectedPlayer*& player, GlobalNamespace::ILobbyPlayerDataModel*& playerDataModel);
     // private System.Void HandleCellUseBeatmap(System.Int32 idx)
-    // Offset: 0xEC56C0
+    // Offset: 0x20046B4
     void HandleCellUseBeatmap(int idx);
     // private System.Void HandleCellUseModifiers(System.Int32 idx)
-    // Offset: 0xEC5A6C
+    // Offset: 0x2004A60
     void HandleCellUseModifiers(int idx);
     // private System.Void HandleCellKickPlayer(System.Int32 idx)
-    // Offset: 0xEC5BFC
+    // Offset: 0x2004BF0
     void HandleCellKickPlayer(int idx);
     // public System.Void SetData(System.Collections.Generic.List`1<IConnectedPlayer> sortedPlayers, ILobbyPlayersDataModel lobbyPlayersDataModel, System.Boolean isHost, System.Boolean clearSelection)
-    // Offset: 0xEC5D10
+    // Offset: 0x2004D04
     void SetData(System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* sortedPlayers, GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel, bool isHost, bool clearSelection);
     // private System.Void Init()
-    // Offset: 0xEC5D98
+    // Offset: 0x2004D8C
     void Init();
     // public System.Single CellSize()
-    // Offset: 0xEC5054
+    // Offset: 0x2004048
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: System.Single IDataSource::CellSize()
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0xEC5060
+    // Offset: 0x2004054
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: System.Int32 IDataSource::NumberOfCells()
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0xEC50B0
+    // Offset: 0x20040A4
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: HMUI.TableCell IDataSource::CellForIdx(HMUI.TableView tableView, System.Int32 idx)
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int idx);
     // public System.Void .ctor()
-    // Offset: 0xEC5DD0
+    // Offset: 0x2004DC4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

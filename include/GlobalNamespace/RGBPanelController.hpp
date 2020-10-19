@@ -48,34 +48,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0xF76F4C
+    // Offset: 0x206E0DC
     void add_colorDidChangeEvent(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void remove_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0xF76FF0
+    // Offset: 0x206E180
     void remove_colorDidChangeEvent(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
     // public UnityEngine.Color get_color()
-    // Offset: 0xF77094
+    // Offset: 0x206E224
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0xF770A0
+    // Offset: 0x206E230
     void set_color(UnityEngine::Color value);
     // protected System.Void Awake()
-    // Offset: 0xF772A0
+    // Offset: 0x206E430
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xF773A4
+    // Offset: 0x206E534
     void OnDestroy();
     // private System.Void HandleSliderColorDidChange(HMUI.ColorGradientSlider slider, UnityEngine.Color color, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0xF77578
+    // Offset: 0x206E708
     void HandleSliderColorDidChange(HMUI::ColorGradientSlider* slider, UnityEngine::Color color, GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void RefreshSlidersValues()
-    // Offset: 0xF77248
+    // Offset: 0x206E3D8
     void RefreshSlidersValues();
     // private System.Void RefreshSlidersColors()
-    // Offset: 0xF770CC
+    // Offset: 0x206E25C
     void RefreshSlidersColors();
     // public System.Void .ctor()
-    // Offset: 0xF7761C
+    // Offset: 0x206E7AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

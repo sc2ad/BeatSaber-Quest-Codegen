@@ -27,7 +27,7 @@ namespace System::Threading::Tasks {
     // Offset: 0x18
     bool m_observed;
     // public System.Void .ctor(System.AggregateException exception)
-    // Offset: 0x16E4BE4
+    // Offset: 0x149F7B8
     static UnobservedTaskExceptionEventArgs* New_ctor(System::AggregateException* exception);
   }; // System.Threading.Tasks.UnobservedTaskExceptionEventArgs
 }

@@ -85,7 +85,7 @@ namespace ModestTree {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("ModestTree", "TypeExtensions", "DerivesFrom", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, a)));
     }
     // static public System.Boolean DerivesFrom(System.Type a, System.Type b)
-    // Offset: 0x11EBCC0
+    // Offset: 0xFE755C
     static bool DerivesFrom(System::Type* a, System::Type* b);
     // static public System.Boolean DerivesFromOrEqual(System.Type a)
     // Offset: 0xFFFFFFFF
@@ -94,73 +94,73 @@ namespace ModestTree {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("ModestTree", "TypeExtensions", "DerivesFromOrEqual", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, a)));
     }
     // static public System.Boolean DerivesFromOrEqual(System.Type a, System.Type b)
-    // Offset: 0x11EBF38
+    // Offset: 0xFE77D4
     static bool DerivesFromOrEqual(System::Type* a, System::Type* b);
     // static public System.Boolean IsAssignableToGenericType(System.Type givenType, System.Type genericType)
-    // Offset: 0x11EE230
+    // Offset: 0xFE9ACC
     static bool IsAssignableToGenericType(System::Type* givenType, System::Type* genericType);
     // static public System.Boolean IsEnum(System.Type type)
-    // Offset: 0x11EE548
+    // Offset: 0xFE9DE4
     static bool IsEnum(System::Type* type);
     // static public System.Boolean IsValueType(System.Type type)
-    // Offset: 0x11EE568
+    // Offset: 0xFE9E04
     static bool IsValueType(System::Type* type);
     // static public System.Reflection.MethodInfo[] DeclaredInstanceMethods(System.Type type)
-    // Offset: 0x11EE664
+    // Offset: 0xFE9F00
     static ::Array<System::Reflection::MethodInfo*>* DeclaredInstanceMethods(System::Type* type);
     // static public System.Reflection.PropertyInfo[] DeclaredInstanceProperties(System.Type type)
-    // Offset: 0x11EE688
+    // Offset: 0xFE9F24
     static ::Array<System::Reflection::PropertyInfo*>* DeclaredInstanceProperties(System::Type* type);
     // static public System.Reflection.FieldInfo[] DeclaredInstanceFields(System.Type type)
-    // Offset: 0x11EE6AC
+    // Offset: 0xFE9F48
     static ::Array<System::Reflection::FieldInfo*>* DeclaredInstanceFields(System::Type* type);
     // static public System.Type BaseType(System.Type type)
-    // Offset: 0x11EE6D0
+    // Offset: 0xFE9F6C
     static System::Type* BaseType(System::Type* type);
     // static public System.Boolean IsGenericType(System.Type type)
-    // Offset: 0x11EE6F0
+    // Offset: 0xFE9F8C
     static bool IsGenericType(System::Type* type);
     // static public System.Boolean IsGenericTypeDefinition(System.Type type)
-    // Offset: 0x11EE710
+    // Offset: 0xFE9FAC
     static bool IsGenericTypeDefinition(System::Type* type);
     // static public System.Boolean IsPrimitive(System.Type type)
-    // Offset: 0x11EE730
+    // Offset: 0xFE9FCC
     static bool IsPrimitive(System::Type* type);
     // static public System.Boolean IsInterface(System.Type type)
-    // Offset: 0x11EE748
+    // Offset: 0xFE9FE4
     static bool IsInterface(System::Type* type);
     // static public System.Boolean ContainsGenericParameters(System.Type type)
-    // Offset: 0x11EE760
+    // Offset: 0xFE9FFC
     static bool ContainsGenericParameters(System::Type* type);
     // static public System.Boolean IsAbstract(System.Type type)
-    // Offset: 0x11EE780
+    // Offset: 0xFEA01C
     static bool IsAbstract(System::Type* type);
     // static public System.Boolean IsSealed(System.Type type)
-    // Offset: 0x11EE798
+    // Offset: 0xFEA034
     static bool IsSealed(System::Type* type);
     // static public System.Reflection.MethodInfo Method(System.Delegate del)
-    // Offset: 0x11EE7B0
+    // Offset: 0xFEA04C
     static System::Reflection::MethodInfo* Method(System::Delegate* del);
     // static public System.Type[] GenericArguments(System.Type type)
-    // Offset: 0x11EE7C8
+    // Offset: 0xFEA064
     static ::Array<System::Type*>* GenericArguments(System::Type* type);
     // static public System.Type[] Interfaces(System.Type type)
-    // Offset: 0x11EE448
+    // Offset: 0xFE9CE4
     static ::Array<System::Type*>* Interfaces(System::Type* type);
     // static public System.Reflection.ConstructorInfo[] Constructors(System.Type type)
-    // Offset: 0x11EE7E8
+    // Offset: 0xFEA084
     static ::Array<System::Reflection::ConstructorInfo*>* Constructors(System::Type* type);
     // static public System.Object GetDefaultValue(System.Type type)
-    // Offset: 0x11EE80C
+    // Offset: 0xFEA0A8
     static ::Il2CppObject* GetDefaultValue(System::Type* type);
     // static public System.Boolean IsClosedGenericType(System.Type type)
-    // Offset: 0x11EE890
+    // Offset: 0xFEA12C
     static bool IsClosedGenericType(System::Type* type);
     // static public System.Collections.Generic.IEnumerable`1<System.Type> GetParentTypes(System.Type type)
-    // Offset: 0x11EEA00
+    // Offset: 0xFEA29C
     static System::Collections::Generic::IEnumerable_1<System::Type*>* GetParentTypes(System::Type* type);
     // static public System.Boolean IsOpenGenericType(System.Type type)
-    // Offset: 0x11EEAC4
+    // Offset: 0xFEA360
     static bool IsOpenGenericType(System::Type* type);
     // static public T GetAttribute(System.Reflection.MemberInfo provider)
     // Offset: 0xFFFFFFFF
@@ -177,7 +177,7 @@ namespace ModestTree {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("ModestTree", "TypeExtensions", "TryGetAttribute", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, provider)));
     }
     // static public System.Boolean HasAttribute(System.Reflection.MemberInfo provider, params System.Type[] attributeTypes)
-    // Offset: 0x11EEC34
+    // Offset: 0xFEA4D0
     static bool HasAttribute(System::Reflection::MemberInfo* provider, ::Array<System::Type*>* attributeTypes);
     // Creating initializer_list -> params proxy for: System.Boolean HasAttribute(System.Reflection.MemberInfo provider, params System.Type[] attributeTypes)
     static bool HasAttribute(System::Reflection::MemberInfo* provider, std::initializer_list<System::Type*> attributeTypes);
@@ -201,7 +201,7 @@ namespace ModestTree {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::IEnumerable_1<T>*>("ModestTree", "TypeExtensions", "AllAttributes", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, provider)));
     }
     // static public System.Collections.Generic.IEnumerable`1<System.Attribute> AllAttributes(System.Reflection.MemberInfo provider, params System.Type[] attributeTypes)
-    // Offset: 0x11EECB8
+    // Offset: 0xFEA554
     static System::Collections::Generic::IEnumerable_1<System::Attribute*>* AllAttributes(System::Reflection::MemberInfo* provider, ::Array<System::Type*>* attributeTypes);
     // Creating initializer_list -> params proxy for: System.Collections.Generic.IEnumerable`1<System.Attribute> AllAttributes(System.Reflection.MemberInfo provider, params System.Type[] attributeTypes)
     static System::Collections::Generic::IEnumerable_1<System::Attribute*>* AllAttributes(System::Reflection::MemberInfo* provider, std::initializer_list<System::Type*> attributeTypes);
@@ -211,7 +211,7 @@ namespace ModestTree {
       return AllAttributes(provider, {attributeTypes...});
     }
     // static public System.Boolean HasAttribute(System.Reflection.ParameterInfo provider, params System.Type[] attributeTypes)
-    // Offset: 0x11EEE00
+    // Offset: 0xFEA69C
     static bool HasAttribute(System::Reflection::ParameterInfo* provider, ::Array<System::Type*>* attributeTypes);
     // Creating initializer_list -> params proxy for: System.Boolean HasAttribute(System.Reflection.ParameterInfo provider, params System.Type[] attributeTypes)
     static bool HasAttribute(System::Reflection::ParameterInfo* provider, std::initializer_list<System::Type*> attributeTypes);
@@ -235,7 +235,7 @@ namespace ModestTree {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::IEnumerable_1<T>*>("ModestTree", "TypeExtensions", "AllAttributes", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, provider)));
     }
     // static public System.Collections.Generic.IEnumerable`1<System.Attribute> AllAttributes(System.Reflection.ParameterInfo provider, params System.Type[] attributeTypes)
-    // Offset: 0x11EEE84
+    // Offset: 0xFEA720
     static System::Collections::Generic::IEnumerable_1<System::Attribute*>* AllAttributes(System::Reflection::ParameterInfo* provider, ::Array<System::Type*>* attributeTypes);
     // Creating initializer_list -> params proxy for: System.Collections.Generic.IEnumerable`1<System.Attribute> AllAttributes(System.Reflection.ParameterInfo provider, params System.Type[] attributeTypes)
     static System::Collections::Generic::IEnumerable_1<System::Attribute*>* AllAttributes(System::Reflection::ParameterInfo* provider, std::initializer_list<System::Type*> attributeTypes);
@@ -245,7 +245,7 @@ namespace ModestTree {
       return AllAttributes(provider, {attributeTypes...});
     }
     // static private System.Void .cctor()
-    // Offset: 0x11EEFCC
+    // Offset: 0xFEA868
     static void _cctor();
   }; // ModestTree.TypeExtensions
 }

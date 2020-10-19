@@ -39,41 +39,41 @@ namespace TMPro {
     // Creating value type constructor for type: TMP_GlyphValueRecord
     constexpr TMP_GlyphValueRecord(float m_XPlacement_ = {}, float m_YPlacement_ = {}, float m_XAdvance_ = {}, float m_YAdvance_ = {}) noexcept : m_XPlacement{m_XPlacement_}, m_YPlacement{m_YPlacement_}, m_XAdvance{m_XAdvance_}, m_YAdvance{m_YAdvance_} {}
     // public System.Single get_xPlacement()
-    // Offset: 0xDA1CAC
+    // Offset: 0xC58C64
     float get_xPlacement();
     // public System.Void set_xPlacement(System.Single value)
-    // Offset: 0xDA1CB4
+    // Offset: 0xC58C6C
     void set_xPlacement(float value);
     // public System.Single get_yPlacement()
-    // Offset: 0xDA1CBC
+    // Offset: 0xC58C74
     float get_yPlacement();
     // public System.Void set_yPlacement(System.Single value)
-    // Offset: 0xDA1CC4
+    // Offset: 0xC58C7C
     void set_yPlacement(float value);
     // public System.Single get_xAdvance()
-    // Offset: 0xDA1CCC
+    // Offset: 0xC58C84
     float get_xAdvance();
     // public System.Void set_xAdvance(System.Single value)
-    // Offset: 0xDA1CD4
+    // Offset: 0xC58C8C
     void set_xAdvance(float value);
     // public System.Single get_yAdvance()
-    // Offset: 0xDA1CDC
+    // Offset: 0xC58C94
     float get_yAdvance();
     // public System.Void set_yAdvance(System.Single value)
-    // Offset: 0xDA1CE4
+    // Offset: 0xC58C9C
     void set_yAdvance(float value);
     // public System.Void .ctor(System.Single xPlacement, System.Single yPlacement, System.Single xAdvance, System.Single yAdvance)
-    // Offset: 0xDA1CEC
+    // Offset: 0xC58CA4
     // ABORTED: conflicts with another method.  TMP_GlyphValueRecord(float xPlacement, float yPlacement, float xAdvance, float yAdvance);
     // System.Void .ctor(TMPro.GlyphValueRecord_Legacy valueRecord)
-    // Offset: 0xDA1CF8
+    // Offset: 0xC58CB0
     TMP_GlyphValueRecord(TMPro::GlyphValueRecord_Legacy valueRecord);
     // System.Void .ctor(UnityEngine.TextCore.LowLevel.GlyphValueRecord valueRecord)
-    // Offset: 0xDA1D04
+    // Offset: 0xC58CBC
     TMP_GlyphValueRecord(UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord);
   }; // TMPro.TMP_GlyphValueRecord
   // static public TMPro.TMP_GlyphValueRecord op_Addition(TMPro.TMP_GlyphValueRecord a, TMPro.TMP_GlyphValueRecord b)
-  // Offset: 0xF4F0E8
+  // Offset: 0xEC9A1C
   TMPro::TMP_GlyphValueRecord operator+(const TMPro::TMP_GlyphValueRecord& a, const TMPro::TMP_GlyphValueRecord& b);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

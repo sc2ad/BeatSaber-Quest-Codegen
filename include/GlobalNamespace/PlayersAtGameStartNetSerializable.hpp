@@ -41,21 +41,21 @@ namespace GlobalNamespace {
       return playersAtGameStart;
     }
     // public System.Collections.Generic.List`1<IConnectedPlayer> get_playersAtGameStart()
-    // Offset: 0x1C3F2B0
+    // Offset: 0x21F9448
     System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* get_playersAtGameStart();
     // private System.Void set_playersAtGameStart(System.Collections.Generic.List`1<IConnectedPlayer> value)
-    // Offset: 0x1C3F2B8
+    // Offset: 0x21F9450
     void set_playersAtGameStart(System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void .ctor(System.Collections.Generic.List`1<IConnectedPlayer> playersAtGameStart)
-    // Offset: 0x1C3EC78
+    // Offset: 0x21F8E10
     static PlayersAtGameStartNetSerializable* New_ctor(System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* playersAtGameStart);
     // public System.Void .ctor()
-    // Offset: 0x1C3E960
+    // Offset: 0x21F8AF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayersAtGameStartNetSerializable* New_ctor();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1C3F2C0
+    // Offset: 0x21F9458
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1C3F4DC
+    // Offset: 0x21F9674
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);

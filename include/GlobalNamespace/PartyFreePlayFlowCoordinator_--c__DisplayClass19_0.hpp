@@ -40,10 +40,10 @@ namespace GlobalNamespace {
     // Offset: 0x30
     bool practice;
     // System.Void <ProcessLevelCompletionResultsAfterLevelDidFinish>b__0(EnterPlayerGuestNameViewController viewController, System.String playerName)
-    // Offset: 0xFD5228
+    // Offset: 0x1F9070C
     void $ProcessLevelCompletionResultsAfterLevelDidFinish$b__0(GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::Il2CppString* playerName);
     // public System.Void .ctor()
-    // Offset: 0xFD4F28
+    // Offset: 0x1F9049C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PartyFreePlayFlowCoordinator::$$c__DisplayClass19_0* New_ctor();

@@ -43,33 +43,33 @@ namespace UnityEngine::ProBuilder {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Color get_current()
-    // Offset: 0x1D93FF8
+    // Offset: 0x1AE6C5C
     UnityEngine::Color get_current();
     // public System.Void set_current(UnityEngine.Color value)
-    // Offset: 0x1D94004
+    // Offset: 0x1AE6C68
     void set_current(UnityEngine::Color value);
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color> get_colors()
-    // Offset: 0x1D94010
+    // Offset: 0x1AE6C74
     System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::Color>* get_colors();
     // public System.Void SetColors(System.Collections.Generic.IEnumerable`1<UnityEngine.Color> colors)
-    // Offset: 0x1D94080
+    // Offset: 0x1AE6CE4
     void SetColors(System::Collections::Generic::IEnumerable_1<UnityEngine::Color>* colors);
     // public UnityEngine.Color get_Item(System.Int32 i)
-    // Offset: 0x1D94598
+    // Offset: 0x1AE71FC
     UnityEngine::Color get_Item(int i);
     // public System.Void set_Item(System.Int32 i, UnityEngine.Color value)
-    // Offset: 0x1D94614
+    // Offset: 0x1AE7278
     void set_Item(int i, UnityEngine::Color value);
     // public System.Int32 get_Count()
-    // Offset: 0x1D946AC
+    // Offset: 0x1AE7310
     int get_Count();
     // public System.Void SetDefaultValues()
-    // Offset: 0x1D9412C
+    // Offset: 0x1AE6D90
     // Implemented from: UnityEngine.ProBuilder.IHasDefault
     // Base method: System.Void IHasDefault::SetDefaultValues()
     void SetDefaultValues();
     // public System.Void .ctor()
-    // Offset: 0x1D946FC
+    // Offset: 0x1AE7360
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

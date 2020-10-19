@@ -48,25 +48,25 @@ namespace Zenject {
     // Offset: 0x20
     bool matchSingle;
     // public System.Void .ctor(System.Type componentType, UnityEngine.GameObject gameObject, System.Boolean matchSingle)
-    // Offset: 0x144AF2C
+    // Offset: 0x1221668
     static GetFromGameObjectComponentProvider* New_ctor(System::Type* componentType, UnityEngine::GameObject* gameObject, bool matchSingle);
     // public System.Boolean get_IsCached()
-    // Offset: 0x1452CF4
+    // Offset: 0x1229430
     // Implemented from: Zenject.IProvider
     // Base method: System.Boolean IProvider::get_IsCached()
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0x1452CFC
+    // Offset: 0x1229438
     // Implemented from: Zenject.IProvider
     // Base method: System.Boolean IProvider::get_TypeVariesBasedOnMemberType()
     bool get_TypeVariesBasedOnMemberType();
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0x1452D04
+    // Offset: 0x1229440
     // Implemented from: Zenject.IProvider
     // Base method: System.Type IProvider::GetInstanceType(Zenject.InjectContext context)
     System::Type* GetInstanceType(Zenject::InjectContext* context);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x1452D0C
+    // Offset: 0x1229448
     // Implemented from: Zenject.IProvider
     // Base method: System.Void IProvider::GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
     void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer);

@@ -72,10 +72,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void ManualInstallBindings(Zenject.DiContainer container, System.Boolean shortBeatEffect)
-    // Offset: 0xF64918
+    // Offset: 0x201CA58
     void ManualInstallBindings(Zenject::DiContainer* container, bool shortBeatEffect);
     // public System.Void .ctor()
-    // Offset: 0xF64B50
+    // Offset: 0x201CC90
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

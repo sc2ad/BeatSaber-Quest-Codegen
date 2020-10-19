@@ -42,22 +42,22 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // public System.Collections.Generic.List`1<IConnectedPlayer> get_playersAtGameStart()
-    // Offset: 0x1C3E8A8
+    // Offset: 0x21F8A40
     System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* get_playersAtGameStart();
     // public PlayersAtGameStartNetSerializable get_playersAtGameStartNetSerializable()
-    // Offset: 0x1C3E8C4
+    // Offset: 0x21F8A5C
     GlobalNamespace::PlayersAtGameStartNetSerializable* get_playersAtGameStartNetSerializable();
     // private System.Void set_playersAtGameStartNetSerializable(PlayersAtGameStartNetSerializable value)
-    // Offset: 0x1C3E8CC
+    // Offset: 0x21F8A64
     void set_playersAtGameStartNetSerializable(GlobalNamespace::PlayersAtGameStartNetSerializable* value);
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager)
-    // Offset: 0x1C3E8D4
+    // Offset: 0x21F8A6C
     static PlayersAtGameStartModel* New_ctor(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
     // public System.Void SaveConnectedPlayersContainedIn(System.Collections.Generic.HashSet`1<System.String> playerIds)
-    // Offset: 0x1C3E9DC
+    // Offset: 0x21F8B74
     void SaveConnectedPlayersContainedIn(System::Collections::Generic::HashSet_1<::Il2CppString*>* playerIds);
     // public System.Void SaveFromNetSerializable(PlayersAtGameStartNetSerializable playersAtGameStartNetSerializable)
-    // Offset: 0x1C3ECAC
+    // Offset: 0x21F8E44
     void SaveFromNetSerializable(GlobalNamespace::PlayersAtGameStartNetSerializable* playersAtGameStartNetSerializable);
   }; // PlayersAtGameStartModel
 }

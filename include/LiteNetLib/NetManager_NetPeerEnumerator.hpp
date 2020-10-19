@@ -33,10 +33,10 @@ namespace LiteNetLib {
     // Creating value type constructor for type: NetPeerEnumerator
     constexpr NetPeerEnumerator(LiteNetLib::NetPeer* initialPeer_ = {}, LiteNetLib::NetPeer* p_ = {}) noexcept : initialPeer{initialPeer_}, p{p_} {}
     // public System.Void .ctor(LiteNetLib.NetPeer p)
-    // Offset: 0xDC3610
+    // Offset: 0xC78A7C
     NetPeerEnumerator(LiteNetLib::NetPeer* p);
     // public System.Void Dispose()
-    // Offset: 0xDC3640
+    // Offset: 0xC78AAC
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -44,7 +44,7 @@ namespace LiteNetLib {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // public System.Boolean MoveNext()
-    // Offset: 0xDC3644
+    // Offset: 0xC78AB0
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -52,7 +52,7 @@ namespace LiteNetLib {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // public System.Void Reset()
-    // Offset: 0xDC364C
+    // Offset: 0xC78AB8
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();
@@ -60,7 +60,7 @@ namespace LiteNetLib {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
     // public LiteNetLib.NetPeer get_Current()
-    // Offset: 0xDC3658
+    // Offset: 0xC78AC4
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator_1::get_Current()
     LiteNetLib::NetPeer* get_Current();
@@ -68,7 +68,7 @@ namespace LiteNetLib {
     // Maps to method: get_Current
     LiteNetLib::NetPeer* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0xDC3660
+    // Offset: 0xC78ACC
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();

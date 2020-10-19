@@ -35,13 +35,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::UnifiedNetworkPlayerModel* $$4__this;
     // System.Void <Refresh>b__0(System.Collections.Generic.IReadOnlyList`1<PublicServerInfo> servers)
-    // Offset: 0x12E79F0
+    // Offset: 0x21E45DC
     void $Refresh$b__0(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PublicServerInfo>* servers);
     // System.Void <Refresh>b__1(ConnectionFailedReason reason)
-    // Offset: 0x12E7D80
+    // Offset: 0x21E4970
     void $Refresh$b__1(GlobalNamespace::ConnectionFailedReason reason);
     // public System.Void .ctor()
-    // Offset: 0x12E57B4
+    // Offset: 0x21E45D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UnifiedNetworkPlayerModel::$$c__DisplayClass94_0* New_ctor();

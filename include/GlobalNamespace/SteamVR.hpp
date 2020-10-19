@@ -96,164 +96,164 @@ namespace GlobalNamespace {
     // Set static field: static public System.Boolean[] connected
     static void _set_connected(::Array<bool>* value);
     // static public System.Boolean get_active()
-    // Offset: 0x122D900
+    // Offset: 0x102819C
     static bool get_active();
     // static public System.Boolean get_enabled()
-    // Offset: 0x122D970
+    // Offset: 0x102820C
     static bool get_enabled();
     // static public System.Void set_enabled(System.Boolean value)
-    // Offset: 0x122DA0C
+    // Offset: 0x10282A8
     static void set_enabled(bool value);
     // static public SteamVR get_instance()
-    // Offset: 0x122DB50
+    // Offset: 0x10283EC
     static GlobalNamespace::SteamVR* get_instance();
     // static public System.Boolean get_usingNativeSupport()
-    // Offset: 0x122DE90
+    // Offset: 0x102872C
     static bool get_usingNativeSupport();
     // static private SteamVR CreateInstance()
-    // Offset: 0x122DC68
+    // Offset: 0x1028504
     static GlobalNamespace::SteamVR* CreateInstance();
     // static private System.Void ReportError(Valve.VR.EVRInitError error)
-    // Offset: 0x122DEFC
+    // Offset: 0x1028798
     static void ReportError(Valve::VR::EVRInitError error);
     // public Valve.VR.CVRSystem get_hmd()
-    // Offset: 0x122E8A8
+    // Offset: 0x1029144
     Valve::VR::CVRSystem* get_hmd();
     // private System.Void set_hmd(Valve.VR.CVRSystem value)
-    // Offset: 0x122E8B0
+    // Offset: 0x102914C
     void set_hmd(Valve::VR::CVRSystem* value);
     // public Valve.VR.CVRCompositor get_compositor()
-    // Offset: 0x122E8B8
+    // Offset: 0x1029154
     Valve::VR::CVRCompositor* get_compositor();
     // private System.Void set_compositor(Valve.VR.CVRCompositor value)
-    // Offset: 0x122E8C0
+    // Offset: 0x102915C
     void set_compositor(Valve::VR::CVRCompositor* value);
     // public Valve.VR.CVROverlay get_overlay()
-    // Offset: 0x122E8C8
+    // Offset: 0x1029164
     Valve::VR::CVROverlay* get_overlay();
     // private System.Void set_overlay(Valve.VR.CVROverlay value)
-    // Offset: 0x122E8D0
+    // Offset: 0x102916C
     void set_overlay(Valve::VR::CVROverlay* value);
     // static public System.Boolean get_initializing()
-    // Offset: 0x122E8D8
+    // Offset: 0x1029174
     static bool get_initializing();
     // static private System.Void set_initializing(System.Boolean value)
-    // Offset: 0x122E940
+    // Offset: 0x10291DC
     static void set_initializing(bool value);
     // static public System.Boolean get_calibrating()
-    // Offset: 0x122E9B0
+    // Offset: 0x102924C
     static bool get_calibrating();
     // static private System.Void set_calibrating(System.Boolean value)
-    // Offset: 0x122EA18
+    // Offset: 0x10292B4
     static void set_calibrating(bool value);
     // static public System.Boolean get_outOfRange()
-    // Offset: 0x122EA88
+    // Offset: 0x1029324
     static bool get_outOfRange();
     // static private System.Void set_outOfRange(System.Boolean value)
-    // Offset: 0x122EAF0
+    // Offset: 0x102938C
     static void set_outOfRange(bool value);
     // public System.Single get_sceneWidth()
-    // Offset: 0x122EB60
+    // Offset: 0x10293FC
     float get_sceneWidth();
     // private System.Void set_sceneWidth(System.Single value)
-    // Offset: 0x122EB68
+    // Offset: 0x1029404
     void set_sceneWidth(float value);
     // public System.Single get_sceneHeight()
-    // Offset: 0x122EB70
+    // Offset: 0x102940C
     float get_sceneHeight();
     // private System.Void set_sceneHeight(System.Single value)
-    // Offset: 0x122EB78
+    // Offset: 0x1029414
     void set_sceneHeight(float value);
     // public System.Single get_aspect()
-    // Offset: 0x122EB80
+    // Offset: 0x102941C
     float get_aspect();
     // private System.Void set_aspect(System.Single value)
-    // Offset: 0x122EB88
+    // Offset: 0x1029424
     void set_aspect(float value);
     // public System.Single get_fieldOfView()
-    // Offset: 0x122EB90
+    // Offset: 0x102942C
     float get_fieldOfView();
     // private System.Void set_fieldOfView(System.Single value)
-    // Offset: 0x122EB98
+    // Offset: 0x1029434
     void set_fieldOfView(float value);
     // public UnityEngine.Vector2 get_tanHalfFov()
-    // Offset: 0x122EBA0
+    // Offset: 0x102943C
     UnityEngine::Vector2 get_tanHalfFov();
     // private System.Void set_tanHalfFov(UnityEngine.Vector2 value)
-    // Offset: 0x122EBA8
+    // Offset: 0x1029444
     void set_tanHalfFov(UnityEngine::Vector2 value);
     // public Valve.VR.VRTextureBounds_t[] get_textureBounds()
-    // Offset: 0x122EBB0
+    // Offset: 0x102944C
     ::Array<Valve::VR::VRTextureBounds_t>* get_textureBounds();
     // private System.Void set_textureBounds(Valve.VR.VRTextureBounds_t[] value)
-    // Offset: 0x122EBB8
+    // Offset: 0x1029454
     void set_textureBounds(::Array<Valve::VR::VRTextureBounds_t>* value);
     // public SteamVR_Utils/RigidTransform[] get_eyes()
-    // Offset: 0x122EBC0
+    // Offset: 0x102945C
     ::Array<GlobalNamespace::SteamVR_Utils::RigidTransform>* get_eyes();
     // private System.Void set_eyes(SteamVR_Utils/RigidTransform[] value)
-    // Offset: 0x122EBC8
+    // Offset: 0x1029464
     void set_eyes(::Array<GlobalNamespace::SteamVR_Utils::RigidTransform>* value);
     // public System.String get_hmd_TrackingSystemName()
-    // Offset: 0x122EBD0
+    // Offset: 0x102946C
     ::Il2CppString* get_hmd_TrackingSystemName();
     // public System.String get_hmd_ModelNumber()
-    // Offset: 0x122ED24
+    // Offset: 0x10295C0
     ::Il2CppString* get_hmd_ModelNumber();
     // public System.String get_hmd_SerialNumber()
-    // Offset: 0x122ED30
+    // Offset: 0x10295CC
     ::Il2CppString* get_hmd_SerialNumber();
     // public System.Single get_hmd_SecondsFromVsyncToPhotons()
-    // Offset: 0x122ED3C
+    // Offset: 0x10295D8
     float get_hmd_SecondsFromVsyncToPhotons();
     // public System.Single get_hmd_DisplayFrequency()
-    // Offset: 0x122ED88
+    // Offset: 0x1029624
     float get_hmd_DisplayFrequency();
     // public System.String GetTrackedDeviceString(System.UInt32 deviceId)
-    // Offset: 0x122ED94
+    // Offset: 0x1029630
     ::Il2CppString* GetTrackedDeviceString(uint deviceId);
     // public System.String GetStringProperty(Valve.VR.ETrackedDeviceProperty prop, System.UInt32 deviceId)
-    // Offset: 0x122EBDC
+    // Offset: 0x1029478
     ::Il2CppString* GetStringProperty(Valve::VR::ETrackedDeviceProperty prop, uint deviceId);
     // public System.Single GetFloatProperty(Valve.VR.ETrackedDeviceProperty prop, System.UInt32 deviceId)
-    // Offset: 0x122ED48
+    // Offset: 0x10295E4
     float GetFloatProperty(Valve::VR::ETrackedDeviceProperty prop, uint deviceId);
     // private System.Void OnInitializing(System.Boolean initializing)
-    // Offset: 0x122EE7C
+    // Offset: 0x1029718
     void OnInitializing(bool initializing);
     // private System.Void OnCalibrating(System.Boolean calibrating)
-    // Offset: 0x122EF30
+    // Offset: 0x10297CC
     void OnCalibrating(bool calibrating);
     // private System.Void OnOutOfRange(System.Boolean outOfRange)
-    // Offset: 0x122EFE4
+    // Offset: 0x1029880
     void OnOutOfRange(bool outOfRange);
     // private System.Void OnDeviceConnected(System.Int32 i, System.Boolean connected)
-    // Offset: 0x122F098
+    // Offset: 0x1029934
     void OnDeviceConnected(int i, bool connected);
     // private System.Void OnNewPoses(Valve.VR.TrackedDevicePose_t[] poses)
-    // Offset: 0x122F13C
+    // Offset: 0x10299D8
     void OnNewPoses(::Array<Valve::VR::TrackedDevicePose_t>* poses);
     // private System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x122F654
+    // Offset: 0x1029EF0
     void Dispose(bool disposing);
     // static public System.Void SafeDispose()
-    // Offset: 0x122DAAC
+    // Offset: 0x1028348
     static void SafeDispose();
     // static private System.Void .cctor()
-    // Offset: 0x122F910
+    // Offset: 0x102A1AC
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x122E050
+    // Offset: 0x10288EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SteamVR* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x122F5E8
+    // Offset: 0x1029E84
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public System.Void Dispose()
-    // Offset: 0x122F89C
+    // Offset: 0x102A138
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

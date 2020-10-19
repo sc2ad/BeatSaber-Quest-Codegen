@@ -33,13 +33,13 @@ namespace System::Net {
     // Offset: 0x20
     System::Type* creatorType;
     // public System.Net.IWebRequestCreate get_Creator()
-    // Offset: 0x13C8244
+    // Offset: 0x119C980
     System::Net::IWebRequestCreate* get_Creator();
     // public System.Void set_Creator(System.Net.IWebRequestCreate value)
-    // Offset: 0x13C9DDC
+    // Offset: 0x119E518
     void set_Creator(System::Net::IWebRequestCreate* value);
     // public System.Void .ctor(System.String P, System.Net.IWebRequestCreate C)
-    // Offset: 0x13C8680
+    // Offset: 0x119CDBC
     static WebRequestPrefixElement* New_ctor(::Il2CppString* P, System::Net::IWebRequestCreate* C);
   }; // System.Net.WebRequestPrefixElement
 }

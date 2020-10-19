@@ -28,54 +28,54 @@ namespace Microsoft::Win32 {
   class UnixRegistryApi : public ::Il2CppObject, public Microsoft::Win32::IRegistryApi {
     public:
     // static private System.String ToUnix(System.String keyname)
-    // Offset: 0x17D0E60
+    // Offset: 0x1578284
     static ::Il2CppString* ToUnix(::Il2CppString* keyname);
     // static private System.Boolean IsWellKnownKey(System.String parentKeyName, System.String keyname)
-    // Offset: 0x17D0EBC
+    // Offset: 0x15782E0
     static bool IsWellKnownKey(::Il2CppString* parentKeyName, ::Il2CppString* keyname);
     // private Microsoft.Win32.RegistryKey CreateSubKey(Microsoft.Win32.RegistryKey rkey, System.String keyname, System.Boolean writable)
-    // Offset: 0x17D10C8
+    // Offset: 0x15784EC
     Microsoft::Win32::RegistryKey* CreateSubKey(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* keyname, bool writable);
     // private Microsoft.Win32.RegistryKey CreateSubKey(Microsoft.Win32.RegistryKey rkey, System.String keyname, System.Boolean writable, System.Boolean is_volatile)
-    // Offset: 0x17D1300
+    // Offset: 0x1578724
     Microsoft::Win32::RegistryKey* CreateSubKey(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* keyname, bool writable, bool is_volatile);
     // public Microsoft.Win32.RegistryKey OpenSubKey(Microsoft.Win32.RegistryKey rkey, System.String keyname, System.Boolean writable)
-    // Offset: 0x17D0FE8
+    // Offset: 0x157840C
     // Implemented from: Microsoft.Win32.IRegistryApi
     // Base method: Microsoft.Win32.RegistryKey IRegistryApi::OpenSubKey(Microsoft.Win32.RegistryKey rkey, System.String keyname, System.Boolean writable)
     Microsoft::Win32::RegistryKey* OpenSubKey(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* keyname, bool writable);
     // public System.Void Flush(Microsoft.Win32.RegistryKey rkey)
-    // Offset: 0x17D10D4
+    // Offset: 0x15784F8
     // Implemented from: Microsoft.Win32.IRegistryApi
     // Base method: System.Void IRegistryApi::Flush(Microsoft.Win32.RegistryKey rkey)
     void Flush(Microsoft::Win32::RegistryKey* rkey);
     // public System.Void Close(Microsoft.Win32.RegistryKey rkey)
-    // Offset: 0x17D1150
+    // Offset: 0x1578574
     // Implemented from: Microsoft.Win32.IRegistryApi
     // Base method: System.Void IRegistryApi::Close(Microsoft.Win32.RegistryKey rkey)
     void Close(Microsoft::Win32::RegistryKey* rkey);
     // public System.Object GetValue(Microsoft.Win32.RegistryKey rkey, System.String name, System.Object default_value, Microsoft.Win32.RegistryValueOptions options)
-    // Offset: 0x17D11B4
+    // Offset: 0x15785D8
     // Implemented from: Microsoft.Win32.IRegistryApi
     // Base method: System.Object IRegistryApi::GetValue(Microsoft.Win32.RegistryKey rkey, System.String name, System.Object default_value, Microsoft.Win32.RegistryValueOptions options)
     ::Il2CppObject* GetValue(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* name, ::Il2CppObject* default_value, Microsoft::Win32::RegistryValueOptions options);
     // public System.String[] GetSubKeyNames(Microsoft.Win32.RegistryKey rkey)
-    // Offset: 0x17D1274
+    // Offset: 0x1578698
     // Implemented from: Microsoft.Win32.IRegistryApi
     // Base method: System.String[] IRegistryApi::GetSubKeyNames(Microsoft.Win32.RegistryKey rkey)
     ::Array<::Il2CppString*>* GetSubKeyNames(Microsoft::Win32::RegistryKey* rkey);
     // public System.String ToString(Microsoft.Win32.RegistryKey rkey)
-    // Offset: 0x17D12E8
+    // Offset: 0x157870C
     // Implemented from: Microsoft.Win32.IRegistryApi
     // Base method: System.String IRegistryApi::ToString(Microsoft.Win32.RegistryKey rkey)
     ::Il2CppString* ToString(Microsoft::Win32::RegistryKey* rkey);
     // public System.IntPtr GetHandle(Microsoft.Win32.RegistryKey key)
-    // Offset: 0x17D1438
+    // Offset: 0x157885C
     // Implemented from: Microsoft.Win32.IRegistryApi
     // Base method: System.IntPtr IRegistryApi::GetHandle(Microsoft.Win32.RegistryKey key)
     System::IntPtr GetHandle(Microsoft::Win32::RegistryKey* key);
     // public System.Void .ctor()
-    // Offset: 0x17CFDD0
+    // Offset: 0x15771F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UnixRegistryApi* New_ctor();

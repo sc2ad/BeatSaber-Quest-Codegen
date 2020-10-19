@@ -25,10 +25,10 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static public OVRPlugin/Result ovrp_GetAdaptiveGpuPerformanceScale2(ref System.Single adaptiveGpuPerformanceScale)
-    // Offset: 0x1494038
+    // Offset: 0x1269860
     static GlobalNamespace::OVRPlugin::Result ovrp_GetAdaptiveGpuPerformanceScale2(float& adaptiveGpuPerformanceScale);
     // static private System.Void .cctor()
-    // Offset: 0x14940B8
+    // Offset: 0x12698E0
     static void _cctor();
   }; // OVRPlugin/OVRP_1_42_0
 }

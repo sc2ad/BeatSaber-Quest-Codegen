@@ -33,16 +33,16 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x18
     float b;
     // public System.Void .ctor(System.Single L, System.Single a, System.Single b)
-    // Offset: 0x1D93184
+    // Offset: 0x1AE5DE8
     static CIELabColor* New_ctor(float L, float a, float b);
     // static public UnityEngine.ProBuilder.CIELabColor FromXYZ(UnityEngine.ProBuilder.XYZColor xyz)
-    // Offset: 0x1D931CC
+    // Offset: 0x1AE5E30
     static UnityEngine::ProBuilder::CIELabColor* FromXYZ(UnityEngine::ProBuilder::XYZColor* xyz);
     // static public UnityEngine.ProBuilder.CIELabColor FromRGB(UnityEngine.Color col)
-    // Offset: 0x1D93424
+    // Offset: 0x1AE6088
     static UnityEngine::ProBuilder::CIELabColor* FromRGB(UnityEngine::Color col);
     // public override System.String ToString()
-    // Offset: 0x1D934C4
+    // Offset: 0x1AE6128
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

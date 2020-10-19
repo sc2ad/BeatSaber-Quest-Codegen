@@ -42,18 +42,18 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void LoadAudioFile(System.String filePath, System.Action`1<UnityEngine.AudioClip> finishCallback)
-    // Offset: 0xFB076C
+    // Offset: 0x202EE1C
     void LoadAudioFile(::Il2CppString* filePath, System::Action_1<UnityEngine::AudioClip*>* finishCallback);
     // public System.Collections.IEnumerator LoadAudioFileCoroutine(System.String filePath, System.Action`1<UnityEngine.AudioClip> finishCallback)
-    // Offset: 0xFB082C
+    // Offset: 0x202EEDC
     System::Collections::IEnumerator* LoadAudioFileCoroutine(::Il2CppString* filePath, System::Action_1<UnityEngine::AudioClip*>* finishCallback);
     // protected override System.Void OnEnable()
-    // Offset: 0xFB0744
+    // Offset: 0x202EDF4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0xFB0904
+    // Offset: 0x202EFB4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

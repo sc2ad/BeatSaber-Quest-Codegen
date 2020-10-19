@@ -25,20 +25,20 @@ namespace System::Diagnostics::Tracing {
   class StringTypeInfo : public System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<::Il2CppString*> {
     public:
     // public System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref System.String value)
-    // Offset: 0x124E318
+    // Offset: 0x1048BB4
     void WriteData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, ::Il2CppString*& value);
     // public override System.Void WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
-    // Offset: 0x124E188
+    // Offset: 0x1048A24
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo
     // Base method: System.Void TraceLoggingTypeInfo::WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
     void WriteMetadata(System::Diagnostics::Tracing::TraceLoggingMetadataCollector* collector, ::Il2CppString* name, System::Diagnostics::Tracing::EventFieldFormat format);
     // public override System.Object GetData(System.Object value)
-    // Offset: 0x124E3A4
+    // Offset: 0x1048C40
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo
     // Base method: System.Object TraceLoggingTypeInfo::GetData(System.Object value)
     ::Il2CppObject* GetData(::Il2CppObject* value);
     // public System.Void .ctor()
-    // Offset: 0x124E400
+    // Offset: 0x1048C9C
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo`1
     // Base method: System.Void TraceLoggingTypeInfo_1::.ctor()
     // Base method: System.Void Object::.ctor()

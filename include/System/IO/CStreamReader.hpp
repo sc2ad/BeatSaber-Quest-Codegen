@@ -34,32 +34,32 @@ namespace System::IO {
     // Offset: 0x68
     System::TermInfoDriver* driver;
     // public System.Void .ctor(System.IO.Stream stream, System.Text.Encoding encoding)
-    // Offset: 0x168E818
+    // Offset: 0x14483EC
     // Implemented from: System.IO.StreamReader
     // Base method: System.Void StreamReader::.ctor(System.IO.Stream stream, System.Text.Encoding encoding)
     static CStreamReader* New_ctor(System::IO::Stream* stream, System::Text::Encoding* encoding);
     // public override System.Int32 Peek()
-    // Offset: 0x168E914
+    // Offset: 0x14484E8
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Peek()
     int Peek();
     // public override System.Int32 Read()
-    // Offset: 0x168E9D4
+    // Offset: 0x14485A8
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Read()
     int Read();
     // public override System.Int32 Read(in System.Char[] dest, System.Int32 index, System.Int32 count)
-    // Offset: 0x168EAB4
+    // Offset: 0x1448688
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Read(in System.Char[] dest, System.Int32 index, System.Int32 count)
     int Read(::Array<::Il2CppChar>*& dest, int index, int count);
     // public override System.String ReadLine()
-    // Offset: 0x168EC80
+    // Offset: 0x1448854
     // Implemented from: System.IO.StreamReader
     // Base method: System.String StreamReader::ReadLine()
     ::Il2CppString* ReadLine();
     // public override System.String ReadToEnd()
-    // Offset: 0x168ED4C
+    // Offset: 0x1448920
     // Implemented from: System.IO.StreamReader
     // Base method: System.String StreamReader::ReadToEnd()
     ::Il2CppString* ReadToEnd();

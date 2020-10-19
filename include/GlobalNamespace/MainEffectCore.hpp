@@ -20,13 +20,13 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _baseColorBoostThresholdID
     static void _set__baseColorBoostThresholdID(int value);
     // static public System.Void SetGlobalShaderValues(System.Single baseColorBoost, System.Single baseColorBoostThreshold)
-    // Offset: 0x21A1174
+    // Offset: 0x1EF2DD8
     static void SetGlobalShaderValues(float baseColorBoost, float baseColorBoostThreshold);
     // static private System.Void .cctor()
-    // Offset: 0x21A1DB4
+    // Offset: 0x1EF3A18
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x21A1DAC
+    // Offset: 0x1EF3A10
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MainEffectCore* New_ctor();

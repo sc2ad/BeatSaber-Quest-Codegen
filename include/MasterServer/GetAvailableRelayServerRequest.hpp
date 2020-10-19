@@ -36,13 +36,13 @@ namespace MasterServer {
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
     // static public PacketPool`1<MasterServer.GetAvailableRelayServerRequest> get_pool()
-    // Offset: 0x10BE074
+    // Offset: 0x211FBDC
     static GlobalNamespace::PacketPool_1<MasterServer::GetAvailableRelayServerRequest*>* get_pool();
     // public MasterServer.GetAvailableRelayServerRequest Init(System.String secret)
-    // Offset: 0x10BE19C
+    // Offset: 0x211FD04
     MasterServer::GetAvailableRelayServerRequest* Init(::Il2CppString* secret);
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x10BE0BC
+    // Offset: 0x211FC24
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -50,7 +50,7 @@ namespace MasterServer {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x10BE0F8
+    // Offset: 0x211FC60
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -58,12 +58,12 @@ namespace MasterServer {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x10BE140
+    // Offset: 0x211FCA8
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x10BE1C4
+    // Offset: 0x211FD2C
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -14,7 +14,7 @@ namespace JetBrains::Annotations {
   class AssertionMethodAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x220BFBC
+    // Offset: 0x1F5C9CC
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

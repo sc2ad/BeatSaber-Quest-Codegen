@@ -42,10 +42,10 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xFFFFFFFF
     void OnSceneLoaded(UnityEngine::SceneManagement::Scene scene, UnityEngine::SceneManagement::LoadSceneMode mode);
     // protected System.Void SetMaterial(UnityEngine.Material material)
-    // Offset: 0x193AB74
+    // Offset: 0x16E0F98
     void SetMaterial(UnityEngine::Material* material);
     // protected System.Void .ctor()
-    // Offset: 0x193AC50
+    // Offset: 0x16E1074
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

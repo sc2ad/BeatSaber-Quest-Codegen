@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRApplications::_GetApplicationAutoLaunch : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x138349C
+    // Offset: 0x1158BD8
     static IVRApplications::_GetApplicationAutoLaunch* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.String pchAppKey)
-    // Offset: 0x1376AF4
+    // Offset: 0x114C230
     bool Invoke(::Il2CppString* pchAppKey);
     // public System.IAsyncResult BeginInvoke(System.String pchAppKey, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x13834B0
+    // Offset: 0x1158BEC
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchAppKey, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x13834D4
+    // Offset: 0x1158C10
     bool EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRApplications/_GetApplicationAutoLaunch
 }

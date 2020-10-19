@@ -40,10 +40,10 @@ namespace UnityEngine::TestTools {
     // Set static field: static private System.Collections.IEnumerator m_TestEnumerator
     static void _set_m_TestEnumerator(System::Collections::IEnumerator* value);
     // public System.Void .ctor(NUnit.Framework.Internal.ITestExecutionContext context, System.Collections.IEnumerator testEnumerator)
-    // Offset: 0x12BEBBC
+    // Offset: 0x10BA458
     static TestEnumerator* New_ctor(NUnit::Framework::Internal::ITestExecutionContext* context, System::Collections::IEnumerator* testEnumerator);
     // public System.Collections.IEnumerator Execute()
-    // Offset: 0x12BEC40
+    // Offset: 0x10BA4DC
     System::Collections::IEnumerator* Execute();
   }; // UnityEngine.TestTools.TestEnumerator
 }

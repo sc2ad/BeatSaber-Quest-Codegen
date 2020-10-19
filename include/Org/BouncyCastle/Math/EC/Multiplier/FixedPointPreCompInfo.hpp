@@ -32,25 +32,25 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Offset: 0x20
     int m_width;
     // public Org.BouncyCastle.Math.EC.ECLookupTable get_LookupTable()
-    // Offset: 0x1B539C4
+    // Offset: 0x18F4BB8
     Org::BouncyCastle::Math::EC::ECLookupTable* get_LookupTable();
     // public System.Void set_LookupTable(Org.BouncyCastle.Math.EC.ECLookupTable value)
-    // Offset: 0x1B539CC
+    // Offset: 0x18F4BC0
     void set_LookupTable(Org::BouncyCastle::Math::EC::ECLookupTable* value);
     // public Org.BouncyCastle.Math.EC.ECPoint get_Offset()
-    // Offset: 0x1B539D4
+    // Offset: 0x18F4BC8
     Org::BouncyCastle::Math::EC::ECPoint* get_Offset();
     // public System.Void set_Offset(Org.BouncyCastle.Math.EC.ECPoint value)
-    // Offset: 0x1B539DC
+    // Offset: 0x18F4BD0
     void set_Offset(Org::BouncyCastle::Math::EC::ECPoint* value);
     // public System.Int32 get_Width()
-    // Offset: 0x1B539E4
+    // Offset: 0x18F4BD8
     int get_Width();
     // public System.Void set_Width(System.Int32 value)
-    // Offset: 0x1B539EC
+    // Offset: 0x18F4BE0
     void set_Width(int value);
     // public System.Void .ctor()
-    // Offset: 0x1B539F4
+    // Offset: 0x18F4BE8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FixedPointPreCompInfo* New_ctor();

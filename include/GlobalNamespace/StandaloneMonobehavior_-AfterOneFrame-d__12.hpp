@@ -35,15 +35,15 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Action* action;
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1C43D9C
+    // Offset: 0x21FDF34
     static StandaloneMonobehavior::$AfterOneFrame$d__12* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1C43F3C
+    // Offset: 0x21FE0D4
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1C43F40
+    // Offset: 0x21FE0D8
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -51,17 +51,17 @@ namespace GlobalNamespace {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1C43FC0
+    // Offset: 0x21FE158
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator_1::get_Current()
     ::Il2CppObject* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1C43FC8
+    // Offset: 0x21FE160
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1C44028
+    // Offset: 0x21FE1C0
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();

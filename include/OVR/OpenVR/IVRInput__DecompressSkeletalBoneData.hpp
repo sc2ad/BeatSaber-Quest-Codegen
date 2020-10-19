@@ -35,16 +35,16 @@ namespace OVR::OpenVR {
   class IVRInput::_DecompressSkeletalBoneData : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1D61ACC
+    // Offset: 0x1AB3730
     static IVRInput::_DecompressSkeletalBoneData* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRInputError Invoke(System.IntPtr pvCompressedBuffer, System.UInt32 unCompressedBufferSize, ref OVR.OpenVR.EVRSkeletalTransformSpace peTransformSpace, in OVR.OpenVR.VRBoneTransform_t[] pTransformArray, System.UInt32 unTransformArrayCount)
-    // Offset: 0x1D61AE0
+    // Offset: 0x1AB3744
     OVR::OpenVR::EVRInputError Invoke(System::IntPtr pvCompressedBuffer, uint unCompressedBufferSize, OVR::OpenVR::EVRSkeletalTransformSpace& peTransformSpace, ::Array<OVR::OpenVR::VRBoneTransform_t>*& pTransformArray, uint unTransformArrayCount);
     // public System.IAsyncResult BeginInvoke(System.IntPtr pvCompressedBuffer, System.UInt32 unCompressedBufferSize, ref OVR.OpenVR.EVRSkeletalTransformSpace peTransformSpace, in OVR.OpenVR.VRBoneTransform_t[] pTransformArray, System.UInt32 unTransformArrayCount, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1D61DA8
+    // Offset: 0x1AB3A0C
     System::IAsyncResult* BeginInvoke(System::IntPtr pvCompressedBuffer, uint unCompressedBufferSize, OVR::OpenVR::EVRSkeletalTransformSpace& peTransformSpace, ::Array<OVR::OpenVR::VRBoneTransform_t>*& pTransformArray, uint unTransformArrayCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRInputError EndInvoke(ref OVR.OpenVR.EVRSkeletalTransformSpace peTransformSpace, System.IAsyncResult result)
-    // Offset: 0x1D61E94
+    // Offset: 0x1AB3AF8
     OVR::OpenVR::EVRInputError EndInvoke(OVR::OpenVR::EVRSkeletalTransformSpace& peTransformSpace, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRInput/_DecompressSkeletalBoneData
 }

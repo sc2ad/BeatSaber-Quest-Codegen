@@ -47,10 +47,10 @@ namespace GlobalNamespace {
       // Creating value type constructor for type: WorkRequest
       constexpr WorkRequest(System::Threading::SendOrPostCallback* callback_ = {}, ::Il2CppObject* state_ = {}, System::Threading::ManualResetEvent* waitHandle_ = {}) noexcept : callback{callback_}, state{state_}, waitHandle{waitHandle_} {}
       // public System.Void .ctor(System.Threading.SendOrPostCallback callback, System.Object state, System.Threading.ManualResetEvent waitHandle)
-      // Offset: 0xDC727C
+      // Offset: 0xE508FC
       // ABORTED: conflicts with another method.  WorkRequest(System::Threading::SendOrPostCallback* callback, ::Il2CppObject* state, System::Threading::ManualResetEvent* waitHandle);
       // public System.Void Invoke()
-      // Offset: 0xDC7284
+      // Offset: 0xE50904
       void Invoke();
     }; // StandaloneThreadContext/StandaloneSynchronizationContext/WorkRequest
     // private readonly System.Collections.Concurrent.BlockingCollection`1<StandaloneThreadContext/StandaloneSynchronizationContext/WorkRequest> _workQueue
@@ -62,29 +62,29 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::Threading::SynchronizationContextProperties
     constexpr operator System::Threading::SynchronizationContextProperties() const noexcept = delete;
     // private System.Void .ctor(System.Int32 threadId)
-    // Offset: 0x1C44690
+    // Offset: 0x21FE828
     static StandaloneThreadContext::StandaloneSynchronizationContext* New_ctor(int threadId);
     // public System.Void ExecuteNext()
-    // Offset: 0x1C44590
+    // Offset: 0x21FE728
     void ExecuteNext();
     // public System.Void .ctor()
-    // Offset: 0x1C44554
+    // Offset: 0x21FE6EC
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::.ctor()
     // Base method: System.Void Object::.ctor()
     static StandaloneThreadContext::StandaloneSynchronizationContext* New_ctor();
     // public override System.Void Send(System.Threading.SendOrPostCallback callback, System.Object state)
-    // Offset: 0x1C44720
+    // Offset: 0x21FE8B8
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::Send(System.Threading.SendOrPostCallback callback, System.Object state)
     void Send(System::Threading::SendOrPostCallback* callback, ::Il2CppObject* state);
     // public override System.Void Post(System.Threading.SendOrPostCallback callback, System.Object state)
-    // Offset: 0x1C44948
+    // Offset: 0x21FEAE0
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::Post(System.Threading.SendOrPostCallback callback, System.Object state)
     void Post(System::Threading::SendOrPostCallback* callback, ::Il2CppObject* state);
     // public override System.Threading.SynchronizationContext CreateCopy()
-    // Offset: 0x1C449F0
+    // Offset: 0x21FEB88
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Threading.SynchronizationContext SynchronizationContext::CreateCopy()
     System::Threading::SynchronizationContext* CreateCopy();

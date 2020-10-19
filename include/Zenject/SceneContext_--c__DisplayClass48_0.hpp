@@ -34,13 +34,13 @@ namespace Zenject {
     // Offset: 0x18
     System::Func_2<::Il2CppString*, bool>* $$9__4;
     // System.Boolean <GetParentContainers>b__2(Zenject.SceneContext sceneContext)
-    // Offset: 0x151B56C
+    // Offset: 0x12F1D94
     bool $GetParentContainers$b__2(Zenject::SceneContext* sceneContext);
     // System.Boolean <GetParentContainers>b__4(System.String x)
-    // Offset: 0x151B638
+    // Offset: 0x12F1E60
     bool $GetParentContainers$b__4(::Il2CppString* x);
     // public System.Void .ctor()
-    // Offset: 0x151A624
+    // Offset: 0x12F0E4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SceneContext::$$c__DisplayClass48_0* New_ctor();

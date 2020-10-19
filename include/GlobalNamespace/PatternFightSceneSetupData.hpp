@@ -28,7 +28,7 @@ namespace GlobalNamespace {
       return playerSpecificSettings;
     }
     // public System.Void .ctor(PlayerSpecificSettings playerSpecificSettings)
-    // Offset: 0xFD5CD8
+    // Offset: 0x1F911BC
     static PatternFightSceneSetupData* New_ctor(GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
   }; // PatternFightSceneSetupData
 }

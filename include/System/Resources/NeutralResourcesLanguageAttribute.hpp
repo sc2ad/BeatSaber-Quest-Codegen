@@ -22,13 +22,13 @@ namespace System::Resources {
     // Offset: 0x18
     System::Resources::UltimateResourceFallbackLocation fallbackLoc;
     // public System.Void .ctor(System.String cultureName)
-    // Offset: 0x18DACC8
+    // Offset: 0x16810EC
     static NeutralResourcesLanguageAttribute* New_ctor(::Il2CppString* cultureName);
     // public System.String get_CultureName()
-    // Offset: 0x18DAD74
+    // Offset: 0x1681198
     ::Il2CppString* get_CultureName();
     // public System.Resources.UltimateResourceFallbackLocation get_Location()
-    // Offset: 0x18DAD7C
+    // Offset: 0x16811A0
     System::Resources::UltimateResourceFallbackLocation get_Location();
   }; // System.Resources.NeutralResourcesLanguageAttribute
 }

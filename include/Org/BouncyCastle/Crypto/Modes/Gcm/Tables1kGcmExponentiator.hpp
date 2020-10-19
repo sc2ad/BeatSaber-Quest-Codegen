@@ -28,20 +28,20 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
       return lookupPowX2;
     }
     // private System.Void EnsureAvailable(System.Int32 bit)
-    // Offset: 0x1704CCC
+    // Offset: 0x14BF8A0
     void EnsureAvailable(int bit);
     // public System.Void Init(System.Byte[] x)
-    // Offset: 0x17048EC
+    // Offset: 0x14BF4C0
     // Implemented from: Org.BouncyCastle.Crypto.Modes.Gcm.IGcmExponentiator
     // Base method: System.Void IGcmExponentiator::Init(System.Byte[] x)
     void Init(::Array<uint8_t>* x);
     // public System.Void ExponentiateX(System.Int64 pow, System.Byte[] output)
-    // Offset: 0x1704B0C
+    // Offset: 0x14BF6E0
     // Implemented from: Org.BouncyCastle.Crypto.Modes.Gcm.IGcmExponentiator
     // Base method: System.Void IGcmExponentiator::ExponentiateX(System.Int64 pow, System.Byte[] output)
     void ExponentiateX(int64_t pow, ::Array<uint8_t>* output);
     // public System.Void .ctor()
-    // Offset: 0x1704F34
+    // Offset: 0x14BFB08
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Tables1kGcmExponentiator* New_ctor();

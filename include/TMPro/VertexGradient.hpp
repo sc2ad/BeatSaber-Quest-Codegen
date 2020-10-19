@@ -29,10 +29,10 @@ namespace TMPro {
     // Creating value type constructor for type: VertexGradient
     constexpr VertexGradient(UnityEngine::Color topLeft_ = {}, UnityEngine::Color topRight_ = {}, UnityEngine::Color bottomLeft_ = {}, UnityEngine::Color bottomRight_ = {}) noexcept : topLeft{topLeft_}, topRight{topRight_}, bottomLeft{bottomLeft_}, bottomRight{bottomRight_} {}
     // public System.Void .ctor(UnityEngine.Color color)
-    // Offset: 0xDC34B0
+    // Offset: 0xC7891C
     VertexGradient(UnityEngine::Color color);
     // public System.Void .ctor(UnityEngine.Color color0, UnityEngine.Color color1, UnityEngine.Color color2, UnityEngine.Color color3)
-    // Offset: 0xDC34D4
+    // Offset: 0xC78940
     // ABORTED: conflicts with another method.  VertexGradient(UnityEngine::Color color0, UnityEngine::Color color1, UnityEngine::Color color2, UnityEngine::Color color3);
   }; // TMPro.VertexGradient
 }

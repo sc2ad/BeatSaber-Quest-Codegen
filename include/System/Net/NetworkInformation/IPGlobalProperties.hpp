@@ -16,19 +16,19 @@ namespace System::Net::NetworkInformation {
     // Set static field: static private readonly System.Boolean <PlatformNeedsLibCWorkaround>k__BackingField
     static void _set_$PlatformNeedsLibCWorkaround$k__BackingField(bool value);
     // static private System.Boolean get_PlatformNeedsLibCWorkaround()
-    // Offset: 0x12C8998
+    // Offset: 0x10C4234
     static bool get_PlatformNeedsLibCWorkaround();
     // static public System.Net.NetworkInformation.IPGlobalProperties GetIPGlobalProperties()
-    // Offset: 0x12C89E8
+    // Offset: 0x10C4284
     static System::Net::NetworkInformation::IPGlobalProperties* GetIPGlobalProperties();
     // static System.Net.NetworkInformation.IPGlobalProperties InternalGetIPGlobalProperties()
-    // Offset: 0x12C8BFC
+    // Offset: 0x10C4498
     static System::Net::NetworkInformation::IPGlobalProperties* InternalGetIPGlobalProperties();
     // public System.String get_DomainName()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_DomainName();
     // protected System.Void .ctor()
-    // Offset: 0x12C8C00
+    // Offset: 0x10C449C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static IPGlobalProperties* New_ctor();

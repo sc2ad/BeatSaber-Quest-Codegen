@@ -23,12 +23,12 @@ namespace System::Net::NetworkInformation {
   class NetworkInterfaceFactory::MacOsNetworkInterfaceAPI : public System::Net::NetworkInformation::NetworkInterfaceFactory::UnixNetworkInterfaceAPI {
     public:
     // public override System.Net.NetworkInformation.NetworkInterface[] GetAllNetworkInterfaces()
-    // Offset: 0x12CB1AC
+    // Offset: 0x10C6A48
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory
     // Base method: System.Net.NetworkInformation.NetworkInterface[] NetworkInterfaceFactory::GetAllNetworkInterfaces()
     ::Array<System::Net::NetworkInformation::NetworkInterface*>* GetAllNetworkInterfaces();
     // public System.Void .ctor()
-    // Offset: 0x12CA690
+    // Offset: 0x10C5F2C
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory/UnixNetworkInterfaceAPI
     // Base method: System.Void UnixNetworkInterfaceAPI::.ctor()
     // Base method: System.Void NetworkInterfaceFactory::.ctor()

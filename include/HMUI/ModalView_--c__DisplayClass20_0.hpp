@@ -20,10 +20,10 @@ namespace HMUI {
     // Offset: 0x18
     bool prevAnimateParentCanvas;
     // System.Void <HandleParentViewControllerDidDeactivate>b__0()
-    // Offset: 0x1172740
+    // Offset: 0x216C128
     void $HandleParentViewControllerDidDeactivate$b__0();
     // public System.Void .ctor()
-    // Offset: 0x11726D0
+    // Offset: 0x216C0B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ModalView::$$c__DisplayClass20_0* New_ctor();

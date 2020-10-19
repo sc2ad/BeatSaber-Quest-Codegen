@@ -44,10 +44,10 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Offset: 0x20
     Org::BouncyCastle::Asn1::DerBitString* sigBits;
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x16307B8
+    // Offset: 0x1406FE0
     static CertificationRequest* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x16309C8
+    // Offset: 0x14071F0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

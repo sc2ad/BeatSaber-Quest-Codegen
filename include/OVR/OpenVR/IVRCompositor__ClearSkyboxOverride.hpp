@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRCompositor::_ClearSkyboxOverride : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1D57520
+    // Offset: 0x1AA9184
     static IVRCompositor::_ClearSkyboxOverride* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x1D57534
+    // Offset: 0x1AA9198
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1D57740
+    // Offset: 0x1AA93A4
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1D5776C
+    // Offset: 0x1AA93D0
     void EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_ClearSkyboxOverride
 }

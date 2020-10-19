@@ -35,13 +35,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<BeatSaberAPI.DataTransferObjects.LeaderboardEntry,System.String> <>9__10_0
     static void _set_$$9__10_0(System::Func_2<BeatSaberAPI::DataTransferObjects::LeaderboardEntry*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xECD044
+    // Offset: 0x200C014
     static void _cctor();
     // System.String <GetLeaderboardEntriesAsync>b__10_0(BeatSaberAPI.DataTransferObjects.LeaderboardEntry x)
-    // Offset: 0xECD0B4
+    // Offset: 0x200C084
     ::Il2CppString* $GetLeaderboardEntriesAsync$b__10_0(BeatSaberAPI::DataTransferObjects::LeaderboardEntry* x);
     // public System.Void .ctor()
-    // Offset: 0xECD0AC
+    // Offset: 0x200C07C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HTTPLeaderboardsModel::$$c* New_ctor();

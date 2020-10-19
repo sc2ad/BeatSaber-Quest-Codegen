@@ -38,13 +38,13 @@ namespace Org::BouncyCastle::Math::EC {
     // Offset: 0x28
     Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* multiplier;
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve outer, System.Int32 coord, Org.BouncyCastle.Math.EC.Endo.ECEndomorphism endomorphism, Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier multiplier)
-    // Offset: 0x2018088
+    // Offset: 0x1D67CEC
     static ECCurve::Config* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* outer, int coord, Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism, Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* multiplier);
     // public Org.BouncyCastle.Math.EC.ECCurve/Config SetEndomorphism(Org.BouncyCastle.Math.EC.Endo.ECEndomorphism endomorphism)
-    // Offset: 0x20197EC
+    // Offset: 0x1D69450
     Org::BouncyCastle::Math::EC::ECCurve::Config* SetEndomorphism(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism);
     // public Org.BouncyCastle.Math.EC.ECCurve Create()
-    // Offset: 0x2019814
+    // Offset: 0x1D69478
     Org::BouncyCastle::Math::EC::ECCurve* Create();
   }; // Org.BouncyCastle.Math.EC.ECCurve/Config
 }

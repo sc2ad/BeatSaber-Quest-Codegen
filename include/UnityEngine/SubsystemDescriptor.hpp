@@ -21,10 +21,10 @@ namespace UnityEngine {
       return id;
     }
     // public System.String get_id()
-    // Offset: 0x2227A9C
+    // Offset: 0x1F77E50
     ::Il2CppString* get_id();
     // protected System.Void .ctor()
-    // Offset: 0x2227AA4
+    // Offset: 0x1F77E58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SubsystemDescriptor* New_ctor();

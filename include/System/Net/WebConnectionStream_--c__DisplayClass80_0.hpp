@@ -43,13 +43,13 @@ namespace System::Net {
     // Offset: 0x30
     System::AsyncCallback* $$9__1;
     // System.Void <WriteRequestAsync>b__0(System.Net.SimpleAsyncResult inner)
-    // Offset: 0x13C3C04
+    // Offset: 0x1198340
     void $WriteRequestAsync$b__0(System::Net::SimpleAsyncResult* inner);
     // System.Void <WriteRequestAsync>b__1(System.IAsyncResult r)
-    // Offset: 0x13C3DA0
+    // Offset: 0x11984DC
     void $WriteRequestAsync$b__1(System::IAsyncResult* r);
     // public System.Void .ctor()
-    // Offset: 0x13C33B0
+    // Offset: 0x1197AEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static WebConnectionStream::$$c__DisplayClass80_0* New_ctor();

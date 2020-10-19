@@ -33,16 +33,16 @@ namespace Valve::VR {
   class IVRSystem::_GetDeviceToAbsoluteTrackingPose : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F5AB28
+    // Offset: 0x1CAC78C
     static IVRSystem::_GetDeviceToAbsoluteTrackingPose* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(Valve.VR.ETrackingUniverseOrigin eOrigin, System.Single fPredictedSecondsToPhotonsFromNow, in Valve.VR.TrackedDevicePose_t[] pTrackedDevicePoseArray, System.UInt32 unTrackedDevicePoseArrayCount)
-    // Offset: 0x1F5AB3C
+    // Offset: 0x1CAC7A0
     void Invoke(Valve::VR::ETrackingUniverseOrigin eOrigin, float fPredictedSecondsToPhotonsFromNow, ::Array<Valve::VR::TrackedDevicePose_t>*& pTrackedDevicePoseArray, uint unTrackedDevicePoseArrayCount);
     // public System.IAsyncResult BeginInvoke(Valve.VR.ETrackingUniverseOrigin eOrigin, System.Single fPredictedSecondsToPhotonsFromNow, in Valve.VR.TrackedDevicePose_t[] pTrackedDevicePoseArray, System.UInt32 unTrackedDevicePoseArrayCount, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F5AE00
+    // Offset: 0x1CACA64
     System::IAsyncResult* BeginInvoke(Valve::VR::ETrackingUniverseOrigin eOrigin, float fPredictedSecondsToPhotonsFromNow, ::Array<Valve::VR::TrackedDevicePose_t>*& pTrackedDevicePoseArray, uint unTrackedDevicePoseArrayCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1F5AED8
+    // Offset: 0x1CACB3C
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetDeviceToAbsoluteTrackingPose
 }

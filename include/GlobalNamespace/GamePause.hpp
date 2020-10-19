@@ -63,37 +63,37 @@ namespace GlobalNamespace {
     // Offset: 0x50
     bool pause;
     // public System.Void add_didPauseEvent(System.Action value)
-    // Offset: 0xEC1054
+    // Offset: 0x2000048
     // Implemented from: IGamePause
     // Base method: System.Void IGamePause::add_didPauseEvent(System.Action value)
     void add_didPauseEvent(System::Action* value);
     // public System.Void remove_didPauseEvent(System.Action value)
-    // Offset: 0xEC10F8
+    // Offset: 0x20000EC
     // Implemented from: IGamePause
     // Base method: System.Void IGamePause::remove_didPauseEvent(System.Action value)
     void remove_didPauseEvent(System::Action* value);
     // public System.Void add_didResumeEvent(System.Action value)
-    // Offset: 0xEC119C
+    // Offset: 0x2000190
     // Implemented from: IGamePause
     // Base method: System.Void IGamePause::add_didResumeEvent(System.Action value)
     void add_didResumeEvent(System::Action* value);
     // public System.Void remove_didResumeEvent(System.Action value)
-    // Offset: 0xEC1240
+    // Offset: 0x2000234
     // Implemented from: IGamePause
     // Base method: System.Void IGamePause::remove_didResumeEvent(System.Action value)
     void remove_didResumeEvent(System::Action* value);
     // public System.Void Pause()
-    // Offset: 0xEC12E4
+    // Offset: 0x20002D8
     // Implemented from: IGamePause
     // Base method: System.Void IGamePause::Pause()
     void Pause();
     // public System.Void Resume()
-    // Offset: 0xEC13A0
+    // Offset: 0x2000394
     // Implemented from: IGamePause
     // Base method: System.Void IGamePause::Resume()
     void Resume();
     // public System.Void .ctor()
-    // Offset: 0xEC1458
+    // Offset: 0x200044C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GamePause* New_ctor();

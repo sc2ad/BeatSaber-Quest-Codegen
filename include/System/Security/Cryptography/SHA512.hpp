@@ -14,10 +14,10 @@ namespace System::Security::Cryptography {
   class SHA512 : public System::Security::Cryptography::HashAlgorithm {
     public:
     // static public System.Security.Cryptography.SHA512 Create()
-    // Offset: 0x142FE08
+    // Offset: 0x1206544
     static System::Security::Cryptography::SHA512* Create();
     // protected System.Void .ctor()
-    // Offset: 0x142FDDC
+    // Offset: 0x1206518
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()

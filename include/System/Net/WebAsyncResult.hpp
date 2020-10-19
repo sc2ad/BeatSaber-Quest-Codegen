@@ -64,55 +64,55 @@ namespace System::Net {
     // Offset: 0x80
     System::Net::HttpWebRequest* AsyncObject;
     // public System.Void .ctor(System.Net.HttpWebRequest request, System.AsyncCallback cb, System.Object state)
-    // Offset: 0x13B8964
+    // Offset: 0x118D0A0
     static WebAsyncResult* New_ctor(System::Net::HttpWebRequest* request, System::AsyncCallback* cb, ::Il2CppObject* state);
     // public System.Void .ctor(System.AsyncCallback cb, System.Object state, System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x13B89A0
+    // Offset: 0x118D0DC
     static WebAsyncResult* New_ctor(System::AsyncCallback* cb, ::Il2CppObject* state, ::Array<uint8_t>* buffer, int offset, int size);
     // System.Void Reset()
-    // Offset: 0x13B89EC
+    // Offset: 0x118D128
     void Reset();
     // System.Void SetCompleted(System.Boolean synch, System.Int32 nbytes)
-    // Offset: 0x13B8A34
+    // Offset: 0x118D170
     void SetCompleted(bool synch, int nbytes);
     // System.Void SetCompleted(System.Boolean synch, System.IO.Stream writeStream)
-    // Offset: 0x13B8A44
+    // Offset: 0x118D180
     void SetCompleted(bool synch, System::IO::Stream* writeStream);
     // System.Void SetCompleted(System.Boolean synch, System.Net.HttpWebResponse response)
-    // Offset: 0x13B8A7C
+    // Offset: 0x118D1B8
     void SetCompleted(bool synch, System::Net::HttpWebResponse* response);
     // System.Void DoCallback()
-    // Offset: 0x13B8AB4
+    // Offset: 0x118D1F0
     void DoCallback();
     // System.Int32 get_NBytes()
-    // Offset: 0x13B8ABC
+    // Offset: 0x118D1F8
     int get_NBytes();
     // System.Void set_NBytes(System.Int32 value)
-    // Offset: 0x13B8AC4
+    // Offset: 0x118D200
     void set_NBytes(int value);
     // System.IAsyncResult get_InnerAsyncResult()
-    // Offset: 0x13B8ACC
+    // Offset: 0x118D208
     System::IAsyncResult* get_InnerAsyncResult();
     // System.Void set_InnerAsyncResult(System.IAsyncResult value)
-    // Offset: 0x13B8AD4
+    // Offset: 0x118D210
     void set_InnerAsyncResult(System::IAsyncResult* value);
     // System.IO.Stream get_WriteStream()
-    // Offset: 0x13B8ADC
+    // Offset: 0x118D218
     System::IO::Stream* get_WriteStream();
     // System.Net.HttpWebResponse get_Response()
-    // Offset: 0x13B8AE4
+    // Offset: 0x118D220
     System::Net::HttpWebResponse* get_Response();
     // System.Byte[] get_Buffer()
-    // Offset: 0x13B8AEC
+    // Offset: 0x118D228
     ::Array<uint8_t>* get_Buffer();
     // System.Int32 get_Offset()
-    // Offset: 0x13B8AF4
+    // Offset: 0x118D230
     int get_Offset();
     // System.Int32 get_Size()
-    // Offset: 0x13B8AFC
+    // Offset: 0x118D238
     int get_Size();
     // public System.Void .ctor(System.AsyncCallback cb, System.Object state)
-    // Offset: 0x13B895C
+    // Offset: 0x118D098
     // Implemented from: System.Net.SimpleAsyncResult
     // Base method: System.Void SimpleAsyncResult::.ctor(System.AsyncCallback cb, System.Object state)
     static WebAsyncResult* New_ctor(System::AsyncCallback* cb, ::Il2CppObject* state);

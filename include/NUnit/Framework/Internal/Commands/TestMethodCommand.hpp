@@ -33,16 +33,16 @@ namespace NUnit::Framework::Internal::Commands {
     // Deleting conversion operator: operator NUnit::Framework::Internal::Test*
     constexpr operator NUnit::Framework::Internal::Test*() const noexcept = delete;
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod testMethod)
-    // Offset: 0x15F38F4
+    // Offset: 0x13CA11C
     static TestMethodCommand* New_ctor(NUnit::Framework::Internal::TestMethod* testMethod);
     // private System.Object RunTestMethod(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x15F3AF8
+    // Offset: 0x13CA320
     ::Il2CppObject* RunTestMethod(NUnit::Framework::Internal::ITestExecutionContext* context);
     // private System.Object RunNonAsyncTestMethod(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x15F3AFC
+    // Offset: 0x13CA324
     ::Il2CppObject* RunNonAsyncTestMethod(NUnit::Framework::Internal::ITestExecutionContext* context);
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x15F395C
+    // Offset: 0x13CA184
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);

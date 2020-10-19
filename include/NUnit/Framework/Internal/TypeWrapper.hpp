@@ -49,88 +49,88 @@ namespace NUnit::Framework::Internal {
       return Type;
     }
     // public System.Void .ctor(System.Type type)
-    // Offset: 0x2173F84
+    // Offset: 0x1EC8BE8
     static TypeWrapper* New_ctor(System::Type* type);
     // private System.Void set_Type(System.Type value)
-    // Offset: 0x21806E8
+    // Offset: 0x1ED534C
     void set_Type(System::Type* value);
     // public System.Type get_Type()
-    // Offset: 0x21806E0
+    // Offset: 0x1ED5344
     // Implemented from: NUnit.Framework.Interfaces.ITypeInfo
     // Base method: System.Type ITypeInfo::get_Type()
     System::Type* get_Type();
     // public NUnit.Framework.Interfaces.ITypeInfo get_BaseType()
-    // Offset: 0x21806F0
+    // Offset: 0x1ED5354
     // Implemented from: NUnit.Framework.Interfaces.ITypeInfo
     // Base method: NUnit.Framework.Interfaces.ITypeInfo ITypeInfo::get_BaseType()
     NUnit::Framework::Interfaces::ITypeInfo* get_BaseType();
     // public System.String get_FullName()
-    // Offset: 0x2180784
+    // Offset: 0x1ED53E8
     // Implemented from: NUnit.Framework.Interfaces.ITypeInfo
     // Base method: System.String ITypeInfo::get_FullName()
     ::Il2CppString* get_FullName();
     // public System.Reflection.Assembly get_Assembly()
-    // Offset: 0x21807A8
+    // Offset: 0x1ED540C
     // Implemented from: NUnit.Framework.Interfaces.ITypeInfo
     // Base method: System.Reflection.Assembly ITypeInfo::get_Assembly()
     System::Reflection::Assembly* get_Assembly();
     // public System.String get_Namespace()
-    // Offset: 0x21807D8
+    // Offset: 0x1ED543C
     // Implemented from: NUnit.Framework.Interfaces.ITypeInfo
     // Base method: System.String ITypeInfo::get_Namespace()
     ::Il2CppString* get_Namespace();
     // public System.Boolean get_IsAbstract()
-    // Offset: 0x21807FC
+    // Offset: 0x1ED5460
     // Implemented from: NUnit.Framework.Interfaces.ITypeInfo
     // Base method: System.Boolean ITypeInfo::get_IsAbstract()
     bool get_IsAbstract();
     // public System.Boolean get_IsGenericType()
-    // Offset: 0x2180824
+    // Offset: 0x1ED5488
     // Implemented from: NUnit.Framework.Interfaces.ITypeInfo
     // Base method: System.Boolean ITypeInfo::get_IsGenericType()
     bool get_IsGenericType();
     // public System.Boolean IsType(System.Type type)
-    // Offset: 0x2180854
+    // Offset: 0x1ED54B8
     // Implemented from: NUnit.Framework.Interfaces.ITypeInfo
     // Base method: System.Boolean ITypeInfo::IsType(System.Type type)
     bool IsType(System::Type* type);
     // public System.Boolean get_ContainsGenericParameters()
-    // Offset: 0x2180864
+    // Offset: 0x1ED54C8
     // Implemented from: NUnit.Framework.Interfaces.ITypeInfo
     // Base method: System.Boolean ITypeInfo::get_ContainsGenericParameters()
     bool get_ContainsGenericParameters();
     // public System.Boolean get_IsGenericTypeDefinition()
-    // Offset: 0x2180894
+    // Offset: 0x1ED54F8
     // Implemented from: NUnit.Framework.Interfaces.ITypeInfo
     // Base method: System.Boolean ITypeInfo::get_IsGenericTypeDefinition()
     bool get_IsGenericTypeDefinition();
     // public System.Boolean get_IsSealed()
-    // Offset: 0x21808C4
+    // Offset: 0x1ED5528
     // Implemented from: NUnit.Framework.Interfaces.ITypeInfo
     // Base method: System.Boolean ITypeInfo::get_IsSealed()
     bool get_IsSealed();
     // public System.Boolean get_IsStaticClass()
-    // Offset: 0x21808EC
+    // Offset: 0x1ED5550
     // Implemented from: NUnit.Framework.Interfaces.ITypeInfo
     // Base method: System.Boolean ITypeInfo::get_IsStaticClass()
     bool get_IsStaticClass();
     // public System.String GetDisplayName()
-    // Offset: 0x218094C
+    // Offset: 0x1ED55B0
     // Implemented from: NUnit.Framework.Interfaces.ITypeInfo
     // Base method: System.String ITypeInfo::GetDisplayName()
     ::Il2CppString* GetDisplayName();
     // public System.String GetDisplayName(System.Object[] args)
-    // Offset: 0x21809B4
+    // Offset: 0x1ED5618
     // Implemented from: NUnit.Framework.Interfaces.ITypeInfo
     // Base method: System.String ITypeInfo::GetDisplayName(System.Object[] args)
     ::Il2CppString* GetDisplayName(::Array<::Il2CppObject*>* args);
     // public NUnit.Framework.Interfaces.ITypeInfo MakeGenericType(System.Type[] typeArgs)
-    // Offset: 0x2180A2C
+    // Offset: 0x1ED5690
     // Implemented from: NUnit.Framework.Interfaces.ITypeInfo
     // Base method: NUnit.Framework.Interfaces.ITypeInfo ITypeInfo::MakeGenericType(System.Type[] typeArgs)
     NUnit::Framework::Interfaces::ITypeInfo* MakeGenericType(::Array<System::Type*>* typeArgs);
     // public System.Type GetGenericTypeDefinition()
-    // Offset: 0x2180AC0
+    // Offset: 0x1ED5724
     // Implemented from: NUnit.Framework.Interfaces.ITypeInfo
     // Base method: System.Type ITypeInfo::GetGenericTypeDefinition()
     System::Type* GetGenericTypeDefinition();
@@ -151,32 +151,32 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>(this, "IsDefined", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, inherit)));
     }
     // public System.Boolean HasMethodWithAttribute(System.Type attributeType)
-    // Offset: 0x2180AE4
+    // Offset: 0x1ED5748
     // Implemented from: NUnit.Framework.Interfaces.ITypeInfo
     // Base method: System.Boolean ITypeInfo::HasMethodWithAttribute(System.Type attributeType)
     bool HasMethodWithAttribute(System::Type* attributeType);
     // public NUnit.Framework.Interfaces.IMethodInfo[] GetMethods(System.Reflection.BindingFlags flags)
-    // Offset: 0x2180B5C
+    // Offset: 0x1ED57C0
     // Implemented from: NUnit.Framework.Interfaces.ITypeInfo
     // Base method: NUnit.Framework.Interfaces.IMethodInfo[] ITypeInfo::GetMethods(System.Reflection.BindingFlags flags)
     ::Array<NUnit::Framework::Interfaces::IMethodInfo*>* GetMethods(System::Reflection::BindingFlags flags);
     // public System.Reflection.ConstructorInfo GetConstructor(System.Type[] argTypes)
-    // Offset: 0x2180CB8
+    // Offset: 0x1ED591C
     // Implemented from: NUnit.Framework.Interfaces.ITypeInfo
     // Base method: System.Reflection.ConstructorInfo ITypeInfo::GetConstructor(System.Type[] argTypes)
     System::Reflection::ConstructorInfo* GetConstructor(::Array<System::Type*>* argTypes);
     // public System.Boolean HasConstructor(System.Type[] argTypes)
-    // Offset: 0x2180DB0
+    // Offset: 0x1ED5A14
     // Implemented from: NUnit.Framework.Interfaces.ITypeInfo
     // Base method: System.Boolean ITypeInfo::HasConstructor(System.Type[] argTypes)
     bool HasConstructor(::Array<System::Type*>* argTypes);
     // public System.Object Construct(System.Object[] args)
-    // Offset: 0x2180DCC
+    // Offset: 0x1ED5A30
     // Implemented from: NUnit.Framework.Interfaces.ITypeInfo
     // Base method: System.Object ITypeInfo::Construct(System.Object[] args)
     ::Il2CppObject* Construct(::Array<::Il2CppObject*>* args);
     // public override System.String ToString()
-    // Offset: 0x2180E44
+    // Offset: 0x1ED5AA8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

@@ -45,13 +45,13 @@ namespace System::Xml {
     // Creating value type constructor for type: ElementScope
     constexpr ElementScope(int prevNSTop_ = {}, ::Il2CppString* prefix_ = {}, ::Il2CppString* localName_ = {}, ::Il2CppString* namespaceUri_ = {}, System::Xml::XmlSpace xmlSpace_ = {}, ::Il2CppString* xmlLang_ = {}) noexcept : prevNSTop{prevNSTop_}, prefix{prefix_}, localName{localName_}, namespaceUri{namespaceUri_}, xmlSpace{xmlSpace_}, xmlLang{xmlLang_} {}
     // System.Void Set(System.String prefix, System.String localName, System.String namespaceUri, System.Int32 prevNSTop)
-    // Offset: 0xDDD2A0
+    // Offset: 0xC8A930
     void Set(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* namespaceUri, int prevNSTop);
     // System.Void WriteEndElement(System.Xml.XmlRawWriter rawWriter)
-    // Offset: 0xDDD2A8
+    // Offset: 0xC8A938
     void WriteEndElement(System::Xml::XmlRawWriter* rawWriter);
     // System.Void WriteFullEndElement(System.Xml.XmlRawWriter rawWriter)
-    // Offset: 0xDDD2B0
+    // Offset: 0xC8A940
     void WriteFullEndElement(System::Xml::XmlRawWriter* rawWriter);
   }; // System.Xml.XmlWellFormedWriter/ElementScope
 }

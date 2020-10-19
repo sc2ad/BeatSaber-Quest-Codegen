@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     System::Action* action;
     // public System.Void .ctor(System.String title, System.Action action)
-    // Offset: 0xF30DB8
+    // Offset: 0x1F9802C
     static TabBarViewController::TabBarItem* New_ctor(::Il2CppString* title, System::Action* action);
   }; // TabBarViewController/TabBarItem
 }

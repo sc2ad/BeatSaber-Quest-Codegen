@@ -23,10 +23,10 @@ namespace GlobalNamespace {
   class BeatmapDataTransformHelper : public ::Il2CppObject {
     public:
     // static public IReadonlyBeatmapData CreateTransformedBeatmapData(IReadonlyBeatmapData beatmapData, GameplayModifiers gameplayModifiers, PracticeSettings practiceSettings, System.Boolean leftHanded, System.Boolean staticLights)
-    // Offset: 0x104EBE8
+    // Offset: 0x20C9668
     static GlobalNamespace::IReadonlyBeatmapData* CreateTransformedBeatmapData(GlobalNamespace::IReadonlyBeatmapData* beatmapData, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PracticeSettings* practiceSettings, bool leftHanded, bool staticLights);
     // public System.Void .ctor()
-    // Offset: 0x104ED18
+    // Offset: 0x20C9798
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BeatmapDataTransformHelper* New_ctor();

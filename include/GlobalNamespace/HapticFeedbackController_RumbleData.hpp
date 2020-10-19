@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     // Offset: 0x1C
     float frequency;
     // public System.Void .ctor()
-    // Offset: 0x109D7BC
+    // Offset: 0x2114700
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HapticFeedbackController::RumbleData* New_ctor();

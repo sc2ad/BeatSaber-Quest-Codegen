@@ -31,10 +31,10 @@ namespace Zenject {
       return type;
     }
     // System.Boolean <ShouldIncludeType>b__0(System.Func`2<System.Type,System.Boolean> predicate)
-    // Offset: 0x11FAC84
+    // Offset: 0xFF6520
     bool $ShouldIncludeType$b__0(System::Func_2<System::Type*, bool>* predicate);
     // public System.Void .ctor()
-    // Offset: 0x11FAA98
+    // Offset: 0xFF6334
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConventionBindInfo::$$c__DisplayClass7_0* New_ctor();

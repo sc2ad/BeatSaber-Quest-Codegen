@@ -61,22 +61,22 @@ namespace Mono::Net::Security {
     // Offset: 0x3C
     bool CertificateValidationFailed;
     // System.Net.HttpWebRequest get_Request()
-    // Offset: 0x1420094
+    // Offset: 0x11F67D0
     System::Net::HttpWebRequest* get_Request();
     // System.Net.WebExceptionStatus get_ExceptionStatus()
-    // Offset: 0x142009C
+    // Offset: 0x11F67D8
     System::Net::WebExceptionStatus get_ExceptionStatus();
     // System.Boolean get_CertificateValidationFailed()
-    // Offset: 0x14200A4
+    // Offset: 0x11F67E0
     bool get_CertificateValidationFailed();
     // System.Void set_CertificateValidationFailed(System.Boolean value)
-    // Offset: 0x14200AC
+    // Offset: 0x11F67E8
     void set_CertificateValidationFailed(bool value);
     // public System.Void .ctor(System.Net.HttpWebRequest request, System.Net.Sockets.NetworkStream networkStream)
-    // Offset: 0x14200B8
+    // Offset: 0x11F67F4
     static MonoTlsStream* New_ctor(System::Net::HttpWebRequest* request, System::Net::Sockets::NetworkStream* networkStream);
     // System.IO.Stream CreateStream(System.Byte[] buffer)
-    // Offset: 0x14201A4
+    // Offset: 0x11F68E0
     System::IO::Stream* CreateStream(::Array<uint8_t>* buffer);
   }; // Mono.Net.Security.MonoTlsStream
 }

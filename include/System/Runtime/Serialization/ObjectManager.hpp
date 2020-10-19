@@ -71,91 +71,91 @@ namespace System::Runtime::Serialization {
     // Offset: 0x48
     System::Runtime::Serialization::StreamingContext m_context;
     // System.Void .ctor(System.Runtime.Serialization.ISurrogateSelector selector, System.Runtime.Serialization.StreamingContext context, System.Boolean checkSecurity, System.Boolean isCrossAppDomain)
-    // Offset: 0x14C0328
+    // Offset: 0x1295B50
     static ObjectManager* New_ctor(System::Runtime::Serialization::ISurrogateSelector* selector, System::Runtime::Serialization::StreamingContext context, bool checkSecurity, bool isCrossAppDomain);
     // private System.Boolean CanCallGetType(System.Object obj)
-    // Offset: 0x14D1908
+    // Offset: 0x12A7130
     bool CanCallGetType(::Il2CppObject* obj);
     // System.Void set_TopObject(System.Object value)
-    // Offset: 0x14D1910
+    // Offset: 0x12A7138
     void set_TopObject(::Il2CppObject* value);
     // System.Object get_TopObject()
-    // Offset: 0x14D1918
+    // Offset: 0x12A7140
     ::Il2CppObject* get_TopObject();
     // System.Runtime.Serialization.ObjectHolderList get_SpecialFixupObjects()
-    // Offset: 0x14D1920
+    // Offset: 0x12A7148
     System::Runtime::Serialization::ObjectHolderList* get_SpecialFixupObjects();
     // System.Runtime.Serialization.ObjectHolder FindObjectHolder(System.Int64 objectID)
-    // Offset: 0x14D1998
+    // Offset: 0x12A71C0
     System::Runtime::Serialization::ObjectHolder* FindObjectHolder(int64_t objectID);
     // System.Runtime.Serialization.ObjectHolder FindOrCreateObjectHolder(System.Int64 objectID)
-    // Offset: 0x14D0158
+    // Offset: 0x12A5980
     System::Runtime::Serialization::ObjectHolder* FindOrCreateObjectHolder(int64_t objectID);
     // private System.Void AddObjectHolder(System.Runtime.Serialization.ObjectHolder holder)
-    // Offset: 0x14D19FC
+    // Offset: 0x12A7224
     void AddObjectHolder(System::Runtime::Serialization::ObjectHolder* holder);
     // private System.Boolean GetCompletionInfo(System.Runtime.Serialization.FixupHolder fixup, out System.Runtime.Serialization.ObjectHolder holder, out System.Object member, System.Boolean bThrowIfMissing)
-    // Offset: 0x14D1B60
+    // Offset: 0x12A7388
     bool GetCompletionInfo(System::Runtime::Serialization::FixupHolder* fixup, System::Runtime::Serialization::ObjectHolder*& holder, ::Il2CppObject*& member, bool bThrowIfMissing);
     // private System.Void FixupSpecialObject(System.Runtime.Serialization.ObjectHolder holder)
-    // Offset: 0x14D1E34
+    // Offset: 0x12A765C
     void FixupSpecialObject(System::Runtime::Serialization::ObjectHolder* holder);
     // private System.Boolean ResolveObjectReference(System.Runtime.Serialization.ObjectHolder holder)
-    // Offset: 0x14D2988
+    // Offset: 0x12A81B0
     bool ResolveObjectReference(System::Runtime::Serialization::ObjectHolder* holder);
     // private System.Boolean DoValueTypeFixup(System.Reflection.FieldInfo memberToFix, System.Runtime.Serialization.ObjectHolder holder, System.Object value)
-    // Offset: 0x14D2334
+    // Offset: 0x12A7B5C
     bool DoValueTypeFixup(System::Reflection::FieldInfo* memberToFix, System::Runtime::Serialization::ObjectHolder* holder, ::Il2CppObject* value);
     // System.Void CompleteObject(System.Runtime.Serialization.ObjectHolder holder, System.Boolean bObjectFullyComplete)
-    // Offset: 0x14D0708
+    // Offset: 0x12A5F30
     void CompleteObject(System::Runtime::Serialization::ObjectHolder* holder, bool bObjectFullyComplete);
     // private System.Void DoNewlyRegisteredObjectFixups(System.Runtime.Serialization.ObjectHolder holder)
-    // Offset: 0x14D28AC
+    // Offset: 0x12A80D4
     void DoNewlyRegisteredObjectFixups(System::Runtime::Serialization::ObjectHolder* holder);
     // public System.Object GetObject(System.Int64 objectID)
-    // Offset: 0x14D2C0C
+    // Offset: 0x12A8434
     ::Il2CppObject* GetObject(int64_t objectID);
     // System.Void RegisterString(System.String obj, System.Int64 objectID, System.Runtime.Serialization.SerializationInfo info, System.Int64 idOfContainingObj, System.Reflection.MemberInfo member)
-    // Offset: 0x14C3F80
+    // Offset: 0x12997A8
     void RegisterString(::Il2CppString* obj, int64_t objectID, System::Runtime::Serialization::SerializationInfo* info, int64_t idOfContainingObj, System::Reflection::MemberInfo* member);
     // public System.Void RegisterObject(System.Object obj, System.Int64 objectID, System.Runtime.Serialization.SerializationInfo info, System.Int64 idOfContainingObj, System.Reflection.MemberInfo member, System.Int32[] arrayIndex)
-    // Offset: 0x14C4074
+    // Offset: 0x129989C
     void RegisterObject(::Il2CppObject* obj, int64_t objectID, System::Runtime::Serialization::SerializationInfo* info, int64_t idOfContainingObj, System::Reflection::MemberInfo* member, ::Array<int>* arrayIndex);
     // System.Void CompleteISerializableObject(System.Object obj, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x14D20C0
+    // Offset: 0x12A78E8
     void CompleteISerializableObject(::Il2CppObject* obj, System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // static System.Reflection.RuntimeConstructorInfo GetConstructor(System.RuntimeType t)
-    // Offset: 0x14D2CF4
+    // Offset: 0x12A851C
     static System::Reflection::RuntimeConstructorInfo* GetConstructor(System::RuntimeType* t);
     // public System.Void DoFixups()
-    // Offset: 0x14D2E38
+    // Offset: 0x12A8660
     void DoFixups();
     // private System.Void RegisterFixup(System.Runtime.Serialization.FixupHolder fixup, System.Int64 objectToBeFixed, System.Int64 objectRequired)
-    // Offset: 0x14D312C
+    // Offset: 0x12A8954
     void RegisterFixup(System::Runtime::Serialization::FixupHolder* fixup, int64_t objectToBeFixed, int64_t objectRequired);
     // public System.Void RecordFixup(System.Int64 objectToBeFixed, System.Reflection.MemberInfo member, System.Int64 objectRequired)
-    // Offset: 0x14D323C
+    // Offset: 0x12A8A64
     void RecordFixup(int64_t objectToBeFixed, System::Reflection::MemberInfo* member, int64_t objectRequired);
     // public System.Void RecordDelayedFixup(System.Int64 objectToBeFixed, System.String memberName, System.Int64 objectRequired)
-    // Offset: 0x14D34AC
+    // Offset: 0x12A8CD4
     void RecordDelayedFixup(int64_t objectToBeFixed, ::Il2CppString* memberName, int64_t objectRequired);
     // public System.Void RecordArrayElementFixup(System.Int64 arrayToBeFixed, System.Int32[] indices, System.Int64 objectRequired)
-    // Offset: 0x14D3600
+    // Offset: 0x12A8E28
     void RecordArrayElementFixup(int64_t arrayToBeFixed, ::Array<int>* indices, int64_t objectRequired);
     // public System.Void RaiseDeserializationEvent()
-    // Offset: 0x14D3754
+    // Offset: 0x12A8F7C
     void RaiseDeserializationEvent();
     // System.Void AddOnDeserialization(System.Runtime.Serialization.DeserializationEventHandler handler)
-    // Offset: 0x14D37A0
+    // Offset: 0x12A8FC8
     void AddOnDeserialization(System::Runtime::Serialization::DeserializationEventHandler* handler);
     // System.Void AddOnDeserialized(System.Object obj)
-    // Offset: 0x14D3830
+    // Offset: 0x12A9058
     void AddOnDeserialized(::Il2CppObject* obj);
     // System.Void RaiseOnDeserializedEvent(System.Object obj)
-    // Offset: 0x14D38E4
+    // Offset: 0x12A910C
     void RaiseOnDeserializedEvent(::Il2CppObject* obj);
     // public System.Void RaiseOnDeserializingEvent(System.Object obj)
-    // Offset: 0x14C26D4
+    // Offset: 0x1297EFC
     void RaiseOnDeserializingEvent(::Il2CppObject* obj);
   }; // System.Runtime.Serialization.ObjectManager
 }

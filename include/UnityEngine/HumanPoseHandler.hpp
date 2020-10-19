@@ -38,22 +38,22 @@ namespace UnityEngine {
       return m_Ptr;
     }
     // static private System.IntPtr Internal_Create(UnityEngine.Avatar avatar, UnityEngine.Transform root)
-    // Offset: 0x21E9B84
+    // Offset: 0x1F3E7E8
     static System::IntPtr Internal_Create(UnityEngine::Avatar* avatar, UnityEngine::Transform* root);
     // static private System.Void Internal_Destroy(System.IntPtr ptr)
-    // Offset: 0x21E9BD4
+    // Offset: 0x1F3E838
     static void Internal_Destroy(System::IntPtr ptr);
     // private System.Void GetHumanPose(out UnityEngine.Vector3 bodyPosition, out UnityEngine.Quaternion bodyRotation, out System.Single[] muscles)
-    // Offset: 0x21E9C14
+    // Offset: 0x1F3E878
     void GetHumanPose(UnityEngine::Vector3& bodyPosition, UnityEngine::Quaternion& bodyRotation, ::Array<float>*& muscles);
     // public System.Void .ctor(UnityEngine.Avatar avatar, UnityEngine.Transform root)
-    // Offset: 0x21E9D30
+    // Offset: 0x1F3E994
     static HumanPoseHandler* New_ctor(UnityEngine::Avatar* avatar, UnityEngine::Transform* root);
     // public System.Void GetHumanPose(ref UnityEngine.HumanPose humanPose)
-    // Offset: 0x21E9F20
+    // Offset: 0x1F3EB84
     void GetHumanPose(UnityEngine::HumanPose& humanPose);
     // public System.Void Dispose()
-    // Offset: 0x21E9C7C
+    // Offset: 0x1F3E8E0
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

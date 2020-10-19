@@ -21,7 +21,7 @@ namespace System::Reflection {
       return m_product;
     }
     // public System.Void .ctor(System.String product)
-    // Offset: 0x1ABA048
+    // Offset: 0x185A23C
     static AssemblyProductAttribute* New_ctor(::Il2CppString* product);
   }; // System.Reflection.AssemblyProductAttribute
 }

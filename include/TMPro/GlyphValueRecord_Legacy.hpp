@@ -34,11 +34,11 @@ namespace TMPro {
     // Creating value type constructor for type: GlyphValueRecord_Legacy
     constexpr GlyphValueRecord_Legacy(float xPlacement_ = {}, float yPlacement_ = {}, float xAdvance_ = {}, float yAdvance_ = {}) noexcept : xPlacement{xPlacement_}, yPlacement{yPlacement_}, xAdvance{xAdvance_}, yAdvance{yAdvance_} {}
     // System.Void .ctor(UnityEngine.TextCore.LowLevel.GlyphValueRecord valueRecord)
-    // Offset: 0xDA19F4
+    // Offset: 0xC589AC
     GlyphValueRecord_Legacy(UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord);
   }; // TMPro.GlyphValueRecord_Legacy
   // static public TMPro.GlyphValueRecord_Legacy op_Addition(TMPro.GlyphValueRecord_Legacy a, TMPro.GlyphValueRecord_Legacy b)
-  // Offset: 0xF3E678
+  // Offset: 0xEB8FAC
   TMPro::GlyphValueRecord_Legacy operator+(const TMPro::GlyphValueRecord_Legacy& a, const TMPro::GlyphValueRecord_Legacy& b);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

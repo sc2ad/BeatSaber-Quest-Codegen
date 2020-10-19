@@ -32,25 +32,25 @@ namespace HMUI {
     // Offset: 0x50
     UnityEngine::GameObject* backgroundGameObject;
     // public System.Void set_text(System.String value)
-    // Offset: 0x1181C1C
+    // Offset: 0x217B604
     void set_text(::Il2CppString* value);
     // public System.String get_text()
-    // Offset: 0x1181C90
+    // Offset: 0x217B678
     ::Il2CppString* get_text();
     // public System.Void set_fontSize(System.Single value)
-    // Offset: 0x1181C00
+    // Offset: 0x217B5E8
     void set_fontSize(float value);
     // public System.Single get_fontSize()
-    // Offset: 0x1181CAC
+    // Offset: 0x217B694
     float get_fontSize();
     // public System.Void set_hideBackgroundImage(System.Boolean value)
-    // Offset: 0x1181C38
+    // Offset: 0x217B620
     void set_hideBackgroundImage(bool value);
     // public System.Single get_preferredWidth()
-    // Offset: 0x1181C5C
+    // Offset: 0x217B644
     float get_preferredWidth();
     // public System.Void .ctor()
-    // Offset: 0x1181CC8
+    // Offset: 0x217B6B0
     // Implemented from: HMUI.SegmentedControlCell
     // Base method: System.Void SegmentedControlCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

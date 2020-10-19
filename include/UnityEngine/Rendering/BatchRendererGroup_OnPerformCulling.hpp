@@ -36,16 +36,16 @@ namespace UnityEngine::Rendering {
   class BatchRendererGroup::OnPerformCulling : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1989888
+    // Offset: 0x172FCAC
     static BatchRendererGroup::OnPerformCulling* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Unity.Jobs.JobHandle Invoke(UnityEngine.Rendering.BatchRendererGroup rendererGroup, UnityEngine.Rendering.BatchCullingContext cullingContext)
-    // Offset: 0x19892E0
+    // Offset: 0x172F704
     Unity::Jobs::JobHandle Invoke(UnityEngine::Rendering::BatchRendererGroup* rendererGroup, UnityEngine::Rendering::BatchCullingContext cullingContext);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Rendering.BatchRendererGroup rendererGroup, UnityEngine.Rendering.BatchCullingContext cullingContext, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x198989C
+    // Offset: 0x172FCC0
     System::IAsyncResult* BeginInvoke(UnityEngine::Rendering::BatchRendererGroup* rendererGroup, UnityEngine::Rendering::BatchCullingContext cullingContext, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Unity.Jobs.JobHandle EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1989938
+    // Offset: 0x172FD5C
     Unity::Jobs::JobHandle EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Rendering.BatchRendererGroup/OnPerformCulling
 }

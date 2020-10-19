@@ -39,36 +39,36 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x50
     Org::BouncyCastle::Math::BigInteger* qInv;
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger modulus, Org.BouncyCastle.Math.BigInteger publicExponent, Org.BouncyCastle.Math.BigInteger privateExponent, Org.BouncyCastle.Math.BigInteger p, Org.BouncyCastle.Math.BigInteger q, Org.BouncyCastle.Math.BigInteger dP, Org.BouncyCastle.Math.BigInteger dQ, Org.BouncyCastle.Math.BigInteger qInv)
-    // Offset: 0x10F349C
+    // Offset: 0xF4E12C
     static RsaPrivateCrtKeyParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* modulus, Org::BouncyCastle::Math::BigInteger* publicExponent, Org::BouncyCastle::Math::BigInteger* privateExponent, Org::BouncyCastle::Math::BigInteger* p, Org::BouncyCastle::Math::BigInteger* q, Org::BouncyCastle::Math::BigInteger* dP, Org::BouncyCastle::Math::BigInteger* dQ, Org::BouncyCastle::Math::BigInteger* qInv);
     // public Org.BouncyCastle.Math.BigInteger get_PublicExponent()
-    // Offset: 0x10F3758
+    // Offset: 0xF4E3E8
     Org::BouncyCastle::Math::BigInteger* get_PublicExponent();
     // public Org.BouncyCastle.Math.BigInteger get_P()
-    // Offset: 0x10F3760
+    // Offset: 0xF4E3F0
     Org::BouncyCastle::Math::BigInteger* get_P();
     // public Org.BouncyCastle.Math.BigInteger get_Q()
-    // Offset: 0x10F3768
+    // Offset: 0xF4E3F8
     Org::BouncyCastle::Math::BigInteger* get_Q();
     // public Org.BouncyCastle.Math.BigInteger get_DP()
-    // Offset: 0x10F3770
+    // Offset: 0xF4E400
     Org::BouncyCastle::Math::BigInteger* get_DP();
     // public Org.BouncyCastle.Math.BigInteger get_DQ()
-    // Offset: 0x10F3778
+    // Offset: 0xF4E408
     Org::BouncyCastle::Math::BigInteger* get_DQ();
     // public Org.BouncyCastle.Math.BigInteger get_QInv()
-    // Offset: 0x10F3780
+    // Offset: 0xF4E410
     Org::BouncyCastle::Math::BigInteger* get_QInv();
     // static private System.Void ValidateValue(Org.BouncyCastle.Math.BigInteger x, System.String name, System.String desc)
-    // Offset: 0x10F366C
+    // Offset: 0xF4E2FC
     static void ValidateValue(Org::BouncyCastle::Math::BigInteger* x, ::Il2CppString* name, ::Il2CppString* desc);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x10F3788
+    // Offset: 0xF4E418
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters
     // Base method: System.Boolean RsaKeyParameters::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x10F3914
+    // Offset: 0xF4E5A4
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters
     // Base method: System.Int32 RsaKeyParameters::GetHashCode()
     int GetHashCode();

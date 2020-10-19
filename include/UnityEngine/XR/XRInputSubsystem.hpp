@@ -34,13 +34,13 @@ namespace UnityEngine::XR {
     // Offset: 0x28
     System::Action_1<UnityEngine::XR::XRInputSubsystem*>* boundaryChanged;
     // static private System.Void InvokeTrackingOriginUpdatedEvent(System.IntPtr internalPtr)
-    // Offset: 0x220EA30
+    // Offset: 0x1F5F440
     static void InvokeTrackingOriginUpdatedEvent(System::IntPtr internalPtr);
     // static private System.Void InvokeBoundaryChangedEvent(System.IntPtr internalPtr)
-    // Offset: 0x220EAF8
+    // Offset: 0x1F5F508
     static void InvokeBoundaryChangedEvent(System::IntPtr internalPtr);
     // public System.Void .ctor()
-    // Offset: 0x220EBC0
+    // Offset: 0x1F5F5D0
     // Implemented from: UnityEngine.IntegratedSubsystem`1
     // Base method: System.Void IntegratedSubsystem_1::.ctor()
     // Base method: System.Void IntegratedSubsystem::.ctor()

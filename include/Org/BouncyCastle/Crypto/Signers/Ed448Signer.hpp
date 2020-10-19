@@ -48,23 +48,23 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Offset: 0x30
     Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters* publicKey;
     // public System.Void .ctor(System.Byte[] context)
-    // Offset: 0x10F85DC
+    // Offset: 0xF5326C
     static Ed448Signer* New_ctor(::Array<uint8_t>* context);
     // public System.Void Reset()
-    // Offset: 0x10F89A8
+    // Offset: 0xF53638
     void Reset();
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x10F86A0
+    // Offset: 0xF53330
     // Implemented from: Org.BouncyCastle.Crypto.ISigner
     // Base method: System.Void ISigner::Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void BlockUpdate(System.Byte[] buf, System.Int32 off, System.Int32 len)
-    // Offset: 0x10F8788
+    // Offset: 0xF53418
     // Implemented from: Org.BouncyCastle.Crypto.ISigner
     // Base method: System.Void ISigner::BlockUpdate(System.Byte[] buf, System.Int32 off, System.Int32 len)
     void BlockUpdate(::Array<uint8_t>* buf, int off, int len);
     // public System.Byte[] GenerateSignature()
-    // Offset: 0x10F87AC
+    // Offset: 0xF5343C
     // Implemented from: Org.BouncyCastle.Crypto.ISigner
     // Base method: System.Byte[] ISigner::GenerateSignature()
     ::Array<uint8_t>* GenerateSignature();

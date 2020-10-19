@@ -103,44 +103,44 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kMinValueChangeToInstantPlayPreview
     static void _set_kMinValueChangeToInstantPlayPreview(float value);
     // public System.Void add_didPressPlayButtonEvent(System.Action value)
-    // Offset: 0xF70740
+    // Offset: 0x2090450
     void add_didPressPlayButtonEvent(System::Action* value);
     // public System.Void remove_didPressPlayButtonEvent(System.Action value)
-    // Offset: 0xF707E4
+    // Offset: 0x20904F4
     void remove_didPressPlayButtonEvent(System::Action* value);
     // public PracticeSettings get_practiceSettings()
-    // Offset: 0xF70888
+    // Offset: 0x2090598
     GlobalNamespace::PracticeSettings* get_practiceSettings();
     // public System.Void Init(IBeatmapLevel level, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
-    // Offset: 0xF70890
+    // Offset: 0x20905A0
     void Init(GlobalNamespace::IBeatmapLevel* level, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
     // private System.Void PlayPreview()
-    // Offset: 0xF70D78
+    // Offset: 0x2090A88
     void PlayPreview();
     // private System.Void RefreshUI()
-    // Offset: 0xF70C30
+    // Offset: 0x2090940
     void RefreshUI();
     // private System.Void HandleSpeedSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0xF70EE0
+    // Offset: 0x2090BF0
     void HandleSpeedSliderValueDidChange(HMUI::RangeValuesTextSlider* slider, float value);
     // private System.Void HandleSongStartSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0xF70EFC
+    // Offset: 0x2090C0C
     void HandleSongStartSliderValueDidChange(HMUI::RangeValuesTextSlider* slider, float value);
     // private System.Void PlayButtonPressed()
-    // Offset: 0xF70FA0
+    // Offset: 0x2090CB0
     void PlayButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF70AC8
+    // Offset: 0x20907D8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0xF70C84
+    // Offset: 0x2090994
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0xF7104C
+    // Offset: 0x2090D5C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

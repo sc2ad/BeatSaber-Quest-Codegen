@@ -26,34 +26,34 @@ namespace System::Security {
       return m_data;
     }
     // public System.Void .ctor(System.Int32 numData)
-    // Offset: 0x14377D8
+    // Offset: 0x120DF14
     static SecurityDocument* New_ctor(int numData);
     // public System.Void GuaranteeSize(System.Int32 size)
-    // Offset: 0x1437850
+    // Offset: 0x120DF8C
     void GuaranteeSize(int size);
     // public System.Void AddString(System.String str, ref System.Int32 position)
-    // Offset: 0x143791C
+    // Offset: 0x120E058
     void AddString(::Il2CppString* str, int& position);
     // public System.Void AppendString(System.String str, ref System.Int32 position)
-    // Offset: 0x1437A74
+    // Offset: 0x120E1B0
     void AppendString(::Il2CppString* str, int& position);
     // static public System.Int32 EncodedStringSize(System.String str)
-    // Offset: 0x1437B5C
+    // Offset: 0x120E298
     static int EncodedStringSize(::Il2CppString* str);
     // public System.String GetString(ref System.Int32 position, System.Boolean bCreate)
-    // Offset: 0x1437B7C
+    // Offset: 0x120E2B8
     ::Il2CppString* GetString(int& position, bool bCreate);
     // public System.Void AddToken(System.Byte b, ref System.Int32 position)
-    // Offset: 0x1438494
+    // Offset: 0x120EBD0
     void AddToken(uint8_t b, int& position);
     // public System.Security.SecurityElement GetRootElement()
-    // Offset: 0x1438504
+    // Offset: 0x120EC40
     System::Security::SecurityElement* GetRootElement();
     // public System.Security.SecurityElement GetElement(System.Int32 position, System.Boolean bCreate)
-    // Offset: 0x143852C
+    // Offset: 0x120EC68
     System::Security::SecurityElement* GetElement(int position, bool bCreate);
     // System.Security.SecurityElement InternalGetElement(ref System.Int32 position, System.Boolean bCreate)
-    // Offset: 0x1438554
+    // Offset: 0x120EC90
     System::Security::SecurityElement* InternalGetElement(int& position, bool bCreate);
   }; // System.Security.SecurityDocument
 }

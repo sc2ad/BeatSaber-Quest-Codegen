@@ -39,16 +39,16 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Int32> <>9__9_0
     static void _set_$$9__9_0(System::Func_2<UnityEngine::ProBuilder::Face*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x212333C
+    // Offset: 0x1E75FA0
     static void _cctor();
     // System.Int32 <GetUnusedSmoothingGroup>b__5_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x21233AC
+    // Offset: 0x1E76010
     int $GetUnusedSmoothingGroup$b__5_0(UnityEngine::ProBuilder::Face* x);
     // System.Int32 <ApplySmoothingGroups>b__9_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x21233C4
+    // Offset: 0x1E76028
     int $ApplySmoothingGroups$b__9_0(UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0x21233A4
+    // Offset: 0x1E76008
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Smoothing::$$c* New_ctor();

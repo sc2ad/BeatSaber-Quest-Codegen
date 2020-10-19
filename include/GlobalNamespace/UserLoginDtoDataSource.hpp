@@ -61,22 +61,22 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kVersion
     static void _set_kVersion(::Il2CppString* value);
     // public System.Threading.Tasks.Task`1<System.String> GetPlatformUserIdAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x12E9F50
+    // Offset: 0x21E6CFC
     // Implemented from: OnlineServices.API.IUserLoginDtoDataSource
     // Base method: System.Threading.Tasks.Task`1<System.String> IUserLoginDtoDataSource::GetPlatformUserIdAsync(System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<::Il2CppString*>* GetPlatformUserIdAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<BeatSaberAPI.DataTransferObjects.UserAuthenticationData> UserAuthenticationDataAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x12EA068
+    // Offset: 0x21E6E14
     // Implemented from: OnlineServices.API.IUserLoginDtoDataSource
     // Base method: System.Threading.Tasks.Task`1<BeatSaberAPI.DataTransferObjects.UserAuthenticationData> IUserLoginDtoDataSource::UserAuthenticationDataAsync(System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<BeatSaberAPI::DataTransferObjects::UserAuthenticationData*>* UserAuthenticationDataAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<System.String[]> GetUserFriendsUserIds(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x12EA184
+    // Offset: 0x21E6F30
     // Implemented from: OnlineServices.API.IUserLoginDtoDataSource
     // Base method: System.Threading.Tasks.Task`1<System.String[]> IUserLoginDtoDataSource::GetUserFriendsUserIds(System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<::Array<::Il2CppString*>*>* GetUserFriendsUserIds(System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x12EA29C
+    // Offset: 0x21E7048
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UserLoginDtoDataSource* New_ctor();

@@ -33,13 +33,13 @@ namespace Org::BouncyCastle::Crypto::Generators {
       return param;
     }
     // public System.Void Init(Org.BouncyCastle.Crypto.KeyGenerationParameters parameters)
-    // Offset: 0x16F1FA8
+    // Offset: 0x14ACB7C
     void Init(Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
     // public Org.BouncyCastle.Crypto.AsymmetricCipherKeyPair GenerateKeyPair()
-    // Offset: 0x16F2040
+    // Offset: 0x14ACC14
     Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
     // public System.Void .ctor()
-    // Offset: 0x16F238C
+    // Offset: 0x14ACF60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DHBasicKeyPairGenerator* New_ctor();

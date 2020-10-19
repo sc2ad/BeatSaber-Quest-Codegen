@@ -68,105 +68,105 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Update()
-    // Offset: 0x1093F84
+    // Offset: 0x210AEC8
     void Update();
     // public System.Void add_inputFocusWasCapturedEvent(System.Action value)
-    // Offset: 0x10937BC
+    // Offset: 0x210A700
     // Implemented from: IVRPlatformHelper
     // Base method: System.Void IVRPlatformHelper::add_inputFocusWasCapturedEvent(System.Action value)
     void add_inputFocusWasCapturedEvent(System::Action* value);
     // public System.Void remove_inputFocusWasCapturedEvent(System.Action value)
-    // Offset: 0x1093860
+    // Offset: 0x210A7A4
     // Implemented from: IVRPlatformHelper
     // Base method: System.Void IVRPlatformHelper::remove_inputFocusWasCapturedEvent(System.Action value)
     void remove_inputFocusWasCapturedEvent(System::Action* value);
     // public System.Void add_inputFocusWasReleasedEvent(System.Action value)
-    // Offset: 0x1093904
+    // Offset: 0x210A848
     // Implemented from: IVRPlatformHelper
     // Base method: System.Void IVRPlatformHelper::add_inputFocusWasReleasedEvent(System.Action value)
     void add_inputFocusWasReleasedEvent(System::Action* value);
     // public System.Void remove_inputFocusWasReleasedEvent(System.Action value)
-    // Offset: 0x10939A8
+    // Offset: 0x210A8EC
     // Implemented from: IVRPlatformHelper
     // Base method: System.Void IVRPlatformHelper::remove_inputFocusWasReleasedEvent(System.Action value)
     void remove_inputFocusWasReleasedEvent(System::Action* value);
     // public System.Void add_hmdUnmountedEvent(System.Action value)
-    // Offset: 0x1093A4C
+    // Offset: 0x210A990
     // Implemented from: IVRPlatformHelper
     // Base method: System.Void IVRPlatformHelper::add_hmdUnmountedEvent(System.Action value)
     void add_hmdUnmountedEvent(System::Action* value);
     // public System.Void remove_hmdUnmountedEvent(System.Action value)
-    // Offset: 0x1093AF0
+    // Offset: 0x210AA34
     // Implemented from: IVRPlatformHelper
     // Base method: System.Void IVRPlatformHelper::remove_hmdUnmountedEvent(System.Action value)
     void remove_hmdUnmountedEvent(System::Action* value);
     // public System.Void add_hmdMountedEvent(System.Action value)
-    // Offset: 0x1093B94
+    // Offset: 0x210AAD8
     // Implemented from: IVRPlatformHelper
     // Base method: System.Void IVRPlatformHelper::add_hmdMountedEvent(System.Action value)
     void add_hmdMountedEvent(System::Action* value);
     // public System.Void remove_hmdMountedEvent(System.Action value)
-    // Offset: 0x1093C38
+    // Offset: 0x210AB7C
     // Implemented from: IVRPlatformHelper
     // Base method: System.Void IVRPlatformHelper::remove_hmdMountedEvent(System.Action value)
     void remove_hmdMountedEvent(System::Action* value);
     // public System.Void add_joystickWasCenteredThisFrameEvent(System.Action value)
-    // Offset: 0x1093CDC
+    // Offset: 0x210AC20
     // Implemented from: IVRPlatformHelper
     // Base method: System.Void IVRPlatformHelper::add_joystickWasCenteredThisFrameEvent(System.Action value)
     void add_joystickWasCenteredThisFrameEvent(System::Action* value);
     // public System.Void remove_joystickWasCenteredThisFrameEvent(System.Action value)
-    // Offset: 0x1093D80
+    // Offset: 0x210ACC4
     // Implemented from: IVRPlatformHelper
     // Base method: System.Void IVRPlatformHelper::remove_joystickWasCenteredThisFrameEvent(System.Action value)
     void remove_joystickWasCenteredThisFrameEvent(System::Action* value);
     // public System.Void add_joystickWasNotCenteredThisFrameEvent(System.Action`1<UnityEngine.Vector2> value)
-    // Offset: 0x1093E24
+    // Offset: 0x210AD68
     // Implemented from: IVRPlatformHelper
     // Base method: System.Void IVRPlatformHelper::add_joystickWasNotCenteredThisFrameEvent(System.Action`1<UnityEngine.Vector2> value)
     void add_joystickWasNotCenteredThisFrameEvent(System::Action_1<UnityEngine::Vector2>* value);
     // public System.Void remove_joystickWasNotCenteredThisFrameEvent(System.Action`1<UnityEngine.Vector2> value)
-    // Offset: 0x1093EC8
+    // Offset: 0x210AE0C
     // Implemented from: IVRPlatformHelper
     // Base method: System.Void IVRPlatformHelper::remove_joystickWasNotCenteredThisFrameEvent(System.Action`1<UnityEngine.Vector2> value)
     void remove_joystickWasNotCenteredThisFrameEvent(System::Action_1<UnityEngine::Vector2>* value);
     // public System.Boolean get_isAlwaysWireless()
-    // Offset: 0x1093F6C
+    // Offset: 0x210AEB0
     // Implemented from: IVRPlatformHelper
     // Base method: System.Boolean IVRPlatformHelper::get_isAlwaysWireless()
     bool get_isAlwaysWireless();
     // public VRPlatformSDK get_vrPlatformSDK()
-    // Offset: 0x1093F74
+    // Offset: 0x210AEB8
     // Implemented from: IVRPlatformHelper
     // Base method: VRPlatformSDK IVRPlatformHelper::get_vrPlatformSDK()
     GlobalNamespace::VRPlatformSDK get_vrPlatformSDK();
     // public XRDeviceModel get_currentXRDeviceModel()
-    // Offset: 0x1093F7C
+    // Offset: 0x210AEC0
     // Implemented from: IVRPlatformHelper
     // Base method: XRDeviceModel IVRPlatformHelper::get_currentXRDeviceModel()
     GlobalNamespace::XRDeviceModel get_currentXRDeviceModel();
     // public System.Void TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single duration, System.Single strength, System.Single frequency)
-    // Offset: 0x1094098
+    // Offset: 0x210AFDC
     // Implemented from: IVRPlatformHelper
     // Base method: System.Void IVRPlatformHelper::TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single duration, System.Single strength, System.Single frequency)
     void TriggerHapticPulse(UnityEngine::XR::XRNode node, float duration, float strength, float frequency);
     // public System.Void StopHaptics(UnityEngine.XR.XRNode node)
-    // Offset: 0x109409C
+    // Offset: 0x210AFE0
     // Implemented from: IVRPlatformHelper
     // Base method: System.Void IVRPlatformHelper::StopHaptics(UnityEngine.XR.XRNode node)
     void StopHaptics(UnityEngine::XR::XRNode node);
     // public System.Void AdjustControllerTransform(UnityEngine.XR.XRNode node, UnityEngine.Transform transform, UnityEngine.Vector3 position, UnityEngine.Vector3 rotation)
-    // Offset: 0x10940A0
+    // Offset: 0x210AFE4
     // Implemented from: IVRPlatformHelper
     // Base method: System.Void IVRPlatformHelper::AdjustControllerTransform(UnityEngine.XR.XRNode node, UnityEngine.Transform transform, UnityEngine.Vector3 position, UnityEngine.Vector3 rotation)
     void AdjustControllerTransform(UnityEngine::XR::XRNode node, UnityEngine::Transform* transform, UnityEngine::Vector3 position, UnityEngine::Vector3 rotation);
     // public System.Boolean GetNodePose(UnityEngine.XR.XRNode nodeType, System.Int32 idx, out UnityEngine.Vector3 pos, out UnityEngine.Quaternion rot)
-    // Offset: 0x10940A4
+    // Offset: 0x210AFE8
     // Implemented from: IVRPlatformHelper
     // Base method: System.Boolean IVRPlatformHelper::GetNodePose(UnityEngine.XR.XRNode nodeType, System.Int32 idx, out UnityEngine.Vector3 pos, out UnityEngine.Quaternion rot)
     bool GetNodePose(UnityEngine::XR::XRNode nodeType, int idx, UnityEngine::Vector3& pos, UnityEngine::Quaternion& rot);
     // public System.Void .ctor()
-    // Offset: 0x1094154
+    // Offset: 0x210B098
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

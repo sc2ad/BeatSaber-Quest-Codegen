@@ -36,16 +36,16 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Type,System.String> <>9__8_0
     static void _set_$$9__8_0(System::Func_2<System::Type*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1518BE8
+    // Offset: 0x12EF410
     static void _cctor();
     // System.String <GetScope>b__7_0(System.Type x)
-    // Offset: 0x1518C58
+    // Offset: 0x12EF480
     ::Il2CppString* $GetScope$b__7_0(System::Type* x);
     // System.String <FinalizeBinding>b__8_0(System.Type x)
-    // Offset: 0x1518CC0
+    // Offset: 0x12EF4E8
     ::Il2CppString* $FinalizeBinding$b__8_0(System::Type* x);
     // public System.Void .ctor()
-    // Offset: 0x1518C50
+    // Offset: 0x12EF478
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ProviderBindingFinalizer::$$c* New_ctor();

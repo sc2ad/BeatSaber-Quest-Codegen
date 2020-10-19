@@ -14,7 +14,7 @@ namespace JetBrains::Annotations {
   class InvokerParameterNameAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x220C198
+    // Offset: 0x1F5CBA8
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

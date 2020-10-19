@@ -50,22 +50,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private MissionNode get__rootMissionNode()
-    // Offset: 0xEDC258
+    // Offset: 0x1FC5E20
     GlobalNamespace::MissionNode* get__rootMissionNode();
     // private System.Void CreateNodeConnections()
-    // Offset: 0xEDC274
+    // Offset: 0x1FC5E3C
     void CreateNodeConnections();
     // private System.Void RemoveOldConnections()
-    // Offset: 0xEDC308
+    // Offset: 0x1FC5ED0
     void RemoveOldConnections();
     // private System.Void CreateConnections(MissionNode missionNode, System.Collections.Generic.List`1<MissionNode> visitedNodes)
-    // Offset: 0xEDC6C4
+    // Offset: 0x1FC628C
     void CreateConnections(GlobalNamespace::MissionNode* missionNode, System::Collections::Generic::List_1<GlobalNamespace::MissionNode*>* visitedNodes);
     // private MissionNodeConnection CreateConnectionBetweenNodes(MissionNode parentMissionNode, MissionNode childMissionNode)
-    // Offset: 0xEDC85C
+    // Offset: 0x1FC6424
     GlobalNamespace::MissionNodeConnection* CreateConnectionBetweenNodes(GlobalNamespace::MissionNode* parentMissionNode, GlobalNamespace::MissionNode* childMissionNode);
     // public System.Void .ctor()
-    // Offset: 0xEDC998
+    // Offset: 0x1FC6560
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -75,25 +75,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xF7E9AC
+    // Offset: 0x2075C08
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF7EEB4
+    // Offset: 0x2076110
     void OnDestroy();
     // protected System.Void OnEnable()
-    // Offset: 0xF7EFC0
+    // Offset: 0x207621C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xF7F0B0
+    // Offset: 0x207630C
     void OnDisable();
     // private System.Boolean GetBurnMarkPos(UnityEngine.Vector3 bladeBottomPos, UnityEngine.Vector3 bladeTopPos, out UnityEngine.Vector3 burnMarkPos)
-    // Offset: 0xF7F1A0
+    // Offset: 0x20763FC
     bool GetBurnMarkPos(UnityEngine::Vector3 bladeBottomPos, UnityEngine::Vector3 bladeTopPos, UnityEngine::Vector3& burnMarkPos);
     // protected System.Void LateUpdate()
-    // Offset: 0xF7F438
+    // Offset: 0x2076694
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0xF7F8C8
+    // Offset: 0x2076B24
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

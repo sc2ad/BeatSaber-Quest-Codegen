@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_GetDeviceToAbsoluteTrackingPose : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F42424
+    // Offset: 0x1C94088
     static IVRSystem::_GetDeviceToAbsoluteTrackingPose* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(OVR.OpenVR.ETrackingUniverseOrigin eOrigin, System.Single fPredictedSecondsToPhotonsFromNow, in OVR.OpenVR.TrackedDevicePose_t[] pTrackedDevicePoseArray, System.UInt32 unTrackedDevicePoseArrayCount)
-    // Offset: 0x1F42438
+    // Offset: 0x1C9409C
     void Invoke(OVR::OpenVR::ETrackingUniverseOrigin eOrigin, float fPredictedSecondsToPhotonsFromNow, ::Array<OVR::OpenVR::TrackedDevicePose_t>*& pTrackedDevicePoseArray, uint unTrackedDevicePoseArrayCount);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.ETrackingUniverseOrigin eOrigin, System.Single fPredictedSecondsToPhotonsFromNow, in OVR.OpenVR.TrackedDevicePose_t[] pTrackedDevicePoseArray, System.UInt32 unTrackedDevicePoseArrayCount, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F426FC
+    // Offset: 0x1C94360
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::ETrackingUniverseOrigin eOrigin, float fPredictedSecondsToPhotonsFromNow, ::Array<OVR::OpenVR::TrackedDevicePose_t>*& pTrackedDevicePoseArray, uint unTrackedDevicePoseArrayCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1F427D4
+    // Offset: 0x1C94438
     void EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_GetDeviceToAbsoluteTrackingPose
 }

@@ -65,46 +65,46 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didSelectCharacteristic(System.Action`1<BeatmapCharacteristicSO> value)
-    // Offset: 0x104ABC0
+    // Offset: 0x20C58DC
     void add_didSelectCharacteristic(System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void remove_didSelectCharacteristic(System.Action`1<BeatmapCharacteristicSO> value)
-    // Offset: 0x104AC64
+    // Offset: 0x20C5980
     void remove_didSelectCharacteristic(System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // private System.Void Init()
-    // Offset: 0x104AD08
+    // Offset: 0x20C5A24
     void Init();
     // public System.Void SetData(BeatmapCharacteristicCollectionSO beatmapCharacteristicCollection)
-    // Offset: 0x104ADD4
+    // Offset: 0x20C5AF0
     void SetData(GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection);
     // protected System.Void OnDestroy()
-    // Offset: 0x104AE44
+    // Offset: 0x20C5B60
     void OnDestroy();
     // private System.Void HandleDidSelectColumnEvent(HMUI.TableView tableView, System.Int32 column)
-    // Offset: 0x104B0D8
+    // Offset: 0x20C5DF4
     void HandleDidSelectColumnEvent(HMUI::TableView* tableView, int column);
     // private System.Void HandleAdditionalContentModelDidInvalidateData()
-    // Offset: 0x104B180
+    // Offset: 0x20C5E9C
     void HandleAdditionalContentModelDidInvalidateData();
     // public System.Void SelectCellWithIdx(System.Int32 idx)
-    // Offset: 0x104B240
+    // Offset: 0x20C5F5C
     void SelectCellWithIdx(int idx);
     // public System.Single CellSize()
-    // Offset: 0x104AED8
+    // Offset: 0x20C5BF4
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: System.Single IDataSource::CellSize()
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x104AEE0
+    // Offset: 0x20C5BFC
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: System.Int32 IDataSource::NumberOfCells()
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x104AF78
+    // Offset: 0x20C5C94
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: HMUI.TableCell IDataSource::CellForIdx(HMUI.TableView tableView, System.Int32 idx)
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int idx);
     // public System.Void .ctor()
-    // Offset: 0x104B260
+    // Offset: 0x20C5F7C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

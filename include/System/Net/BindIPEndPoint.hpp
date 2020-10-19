@@ -31,16 +31,16 @@ namespace System::Net {
   class BindIPEndPoint : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x14D6208
+    // Offset: 0x12ABA30
     static BindIPEndPoint* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Net.IPEndPoint Invoke(System.Net.ServicePoint servicePoint, System.Net.IPEndPoint remoteEndPoint, System.Int32 retryCount)
-    // Offset: 0x14D621C
+    // Offset: 0x12ABA44
     System::Net::IPEndPoint* Invoke(System::Net::ServicePoint* servicePoint, System::Net::IPEndPoint* remoteEndPoint, int retryCount);
     // public System.IAsyncResult BeginInvoke(System.Net.ServicePoint servicePoint, System.Net.IPEndPoint remoteEndPoint, System.Int32 retryCount, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x14D664C
+    // Offset: 0x12ABE74
     System::IAsyncResult* BeginInvoke(System::Net::ServicePoint* servicePoint, System::Net::IPEndPoint* remoteEndPoint, int retryCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Net.IPEndPoint EndInvoke(System.IAsyncResult result)
-    // Offset: 0x14D66EC
+    // Offset: 0x12ABF14
     System::Net::IPEndPoint* EndInvoke(System::IAsyncResult* result);
   }; // System.Net.BindIPEndPoint
 }

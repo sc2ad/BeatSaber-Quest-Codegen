@@ -31,157 +31,157 @@ namespace UnityEngine {
   class Physics : public ::Il2CppObject {
     public:
     // static public UnityEngine.Vector3 get_gravity()
-    // Offset: 0x220FBB4
+    // Offset: 0x1F605C4
     static UnityEngine::Vector3 get_gravity();
     // static public UnityEngine.PhysicsScene get_defaultPhysicsScene()
-    // Offset: 0x220FC4C
+    // Offset: 0x1F6065C
     static UnityEngine::PhysicsScene get_defaultPhysicsScene();
     // static public System.Void IgnoreCollision(UnityEngine.Collider collider1, UnityEngine.Collider collider2, System.Boolean ignore)
-    // Offset: 0x220FCD4
+    // Offset: 0x1F606E4
     static void IgnoreCollision(UnityEngine::Collider* collider1, UnityEngine::Collider* collider2, bool ignore);
     // static public System.Void IgnoreCollision(UnityEngine.Collider collider1, UnityEngine.Collider collider2)
-    // Offset: 0x220FD2C
+    // Offset: 0x1F6073C
     static void IgnoreCollision(UnityEngine::Collider* collider1, UnityEngine::Collider* collider2);
     // static public System.Boolean Raycast(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, System.Single maxDistance, System.Int32 layerMask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
-    // Offset: 0x220FD80
+    // Offset: 0x1F60790
     static bool Raycast(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, float maxDistance, int layerMask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
     // static public System.Boolean Raycast(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, System.Single maxDistance, System.Int32 layerMask)
-    // Offset: 0x220FFCC
+    // Offset: 0x1F609DC
     static bool Raycast(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, float maxDistance, int layerMask);
     // static public System.Boolean Raycast(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, System.Single maxDistance)
-    // Offset: 0x2210094
+    // Offset: 0x1F60AA4
     static bool Raycast(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, float maxDistance);
     // static public System.Boolean Raycast(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction)
-    // Offset: 0x2210158
+    // Offset: 0x1F60B68
     static bool Raycast(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction);
     // static public System.Boolean Raycast(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, out UnityEngine.RaycastHit hitInfo, System.Single maxDistance, System.Int32 layerMask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
-    // Offset: 0x2210214
+    // Offset: 0x1F60C24
     static bool Raycast(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, UnityEngine::RaycastHit& hitInfo, float maxDistance, int layerMask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
     // static public System.Boolean Raycast(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, out UnityEngine.RaycastHit hitInfo, System.Single maxDistance, System.Int32 layerMask)
-    // Offset: 0x2210484
+    // Offset: 0x1F60E94
     static bool Raycast(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, UnityEngine::RaycastHit& hitInfo, float maxDistance, int layerMask);
     // static public System.Boolean Raycast(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, out UnityEngine.RaycastHit hitInfo, System.Single maxDistance)
-    // Offset: 0x221055C
+    // Offset: 0x1F60F6C
     static bool Raycast(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, UnityEngine::RaycastHit& hitInfo, float maxDistance);
     // static public System.Boolean Raycast(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, out UnityEngine.RaycastHit hitInfo)
-    // Offset: 0x2210628
+    // Offset: 0x1F61038
     static bool Raycast(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, UnityEngine::RaycastHit& hitInfo);
     // static public System.Boolean Raycast(UnityEngine.Ray ray, System.Single maxDistance, System.Int32 layerMask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
-    // Offset: 0x22106EC
+    // Offset: 0x1F610FC
     static bool Raycast(UnityEngine::Ray ray, float maxDistance, int layerMask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
     // static public System.Boolean Raycast(UnityEngine.Ray ray, System.Single maxDistance, System.Int32 layerMask)
-    // Offset: 0x22107C0
+    // Offset: 0x1F611D0
     static bool Raycast(UnityEngine::Ray ray, float maxDistance, int layerMask);
     // static public System.Boolean Raycast(UnityEngine.Ray ray, System.Single maxDistance)
-    // Offset: 0x2210890
+    // Offset: 0x1F612A0
     static bool Raycast(UnityEngine::Ray ray, float maxDistance);
     // static public System.Boolean Raycast(UnityEngine.Ray ray)
-    // Offset: 0x2210954
+    // Offset: 0x1F61364
     static bool Raycast(UnityEngine::Ray ray);
     // static public System.Boolean Raycast(UnityEngine.Ray ray, out UnityEngine.RaycastHit hitInfo, System.Single maxDistance, System.Int32 layerMask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
-    // Offset: 0x2210A18
+    // Offset: 0x1F61428
     static bool Raycast(UnityEngine::Ray ray, UnityEngine::RaycastHit& hitInfo, float maxDistance, int layerMask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
     // static public System.Boolean Raycast(UnityEngine.Ray ray, out UnityEngine.RaycastHit hitInfo, System.Single maxDistance, System.Int32 layerMask)
-    // Offset: 0x2210AFC
+    // Offset: 0x1F6150C
     static bool Raycast(UnityEngine::Ray ray, UnityEngine::RaycastHit& hitInfo, float maxDistance, int layerMask);
     // static public System.Boolean Raycast(UnityEngine.Ray ray, out UnityEngine.RaycastHit hitInfo, System.Single maxDistance)
-    // Offset: 0x2210B84
+    // Offset: 0x1F61594
     static bool Raycast(UnityEngine::Ray ray, UnityEngine::RaycastHit& hitInfo, float maxDistance);
     // static public System.Boolean Raycast(UnityEngine.Ray ray, out UnityEngine.RaycastHit hitInfo)
-    // Offset: 0x2210C58
+    // Offset: 0x1F61668
     static bool Raycast(UnityEngine::Ray ray, UnityEngine::RaycastHit& hitInfo);
     // static public System.Boolean CapsuleCast(UnityEngine.Vector3 point1, UnityEngine.Vector3 point2, System.Single radius, UnityEngine.Vector3 direction, out UnityEngine.RaycastHit hitInfo, System.Single maxDistance, System.Int32 layerMask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
-    // Offset: 0x2210D2C
+    // Offset: 0x1F6173C
     static bool CapsuleCast(UnityEngine::Vector3 point1, UnityEngine::Vector3 point2, float radius, UnityEngine::Vector3 direction, UnityEngine::RaycastHit& hitInfo, float maxDistance, int layerMask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
     // static public System.Boolean CapsuleCast(UnityEngine.Vector3 point1, UnityEngine.Vector3 point2, System.Single radius, UnityEngine.Vector3 direction, out UnityEngine.RaycastHit hitInfo, System.Single maxDistance, System.Int32 layerMask)
-    // Offset: 0x2210E2C
+    // Offset: 0x1F6183C
     static bool CapsuleCast(UnityEngine::Vector3 point1, UnityEngine::Vector3 point2, float radius, UnityEngine::Vector3 direction, UnityEngine::RaycastHit& hitInfo, float maxDistance, int layerMask);
     // static public System.Boolean SphereCast(UnityEngine.Vector3 origin, System.Single radius, UnityEngine.Vector3 direction, out UnityEngine.RaycastHit hitInfo, System.Single maxDistance, System.Int32 layerMask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
-    // Offset: 0x2210E4C
+    // Offset: 0x1F6185C
     static bool SphereCast(UnityEngine::Vector3 origin, float radius, UnityEngine::Vector3 direction, UnityEngine::RaycastHit& hitInfo, float maxDistance, int layerMask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
     // static public System.Boolean SphereCast(UnityEngine.Vector3 origin, System.Single radius, UnityEngine.Vector3 direction, out UnityEngine.RaycastHit hitInfo, System.Single maxDistance, System.Int32 layerMask)
-    // Offset: 0x2210F2C
+    // Offset: 0x1F6193C
     static bool SphereCast(UnityEngine::Vector3 origin, float radius, UnityEngine::Vector3 direction, UnityEngine::RaycastHit& hitInfo, float maxDistance, int layerMask);
     // static private UnityEngine.RaycastHit[] Internal_RaycastAll(UnityEngine.PhysicsScene physicsScene, UnityEngine.Ray ray, System.Single maxDistance, System.Int32 mask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
-    // Offset: 0x2210F34
+    // Offset: 0x1F61944
     static ::Array<UnityEngine::RaycastHit>* Internal_RaycastAll(UnityEngine::PhysicsScene physicsScene, UnityEngine::Ray ray, float maxDistance, int mask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
     // static public UnityEngine.RaycastHit[] RaycastAll(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, System.Single maxDistance, System.Int32 layerMask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
-    // Offset: 0x2211020
+    // Offset: 0x1F61A30
     static ::Array<UnityEngine::RaycastHit>* RaycastAll(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, float maxDistance, int layerMask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
     // static public UnityEngine.RaycastHit[] RaycastAll(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, System.Single maxDistance, System.Int32 layerMask)
-    // Offset: 0x22111CC
+    // Offset: 0x1F61BDC
     static ::Array<UnityEngine::RaycastHit>* RaycastAll(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, float maxDistance, int layerMask);
     // static public UnityEngine.RaycastHit[] RaycastAll(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, System.Single maxDistance)
-    // Offset: 0x22111D4
+    // Offset: 0x1F61BE4
     static ::Array<UnityEngine::RaycastHit>* RaycastAll(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, float maxDistance);
     // static public UnityEngine.RaycastHit[] RaycastAll(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction)
-    // Offset: 0x22111E0
+    // Offset: 0x1F61BF0
     static ::Array<UnityEngine::RaycastHit>* RaycastAll(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction);
     // static public UnityEngine.RaycastHit[] RaycastAll(UnityEngine.Ray ray, System.Single maxDistance, System.Int32 layerMask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
-    // Offset: 0x22111F4
+    // Offset: 0x1F61C04
     static ::Array<UnityEngine::RaycastHit>* RaycastAll(UnityEngine::Ray ray, float maxDistance, int layerMask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
     // static public UnityEngine.RaycastHit[] RaycastAll(UnityEngine.Ray ray, System.Single maxDistance, System.Int32 layerMask)
-    // Offset: 0x2211278
+    // Offset: 0x1F61C88
     static ::Array<UnityEngine::RaycastHit>* RaycastAll(UnityEngine::Ray ray, float maxDistance, int layerMask);
     // static public UnityEngine.RaycastHit[] RaycastAll(UnityEngine.Ray ray, System.Single maxDistance)
-    // Offset: 0x22112F0
+    // Offset: 0x1F61D00
     static ::Array<UnityEngine::RaycastHit>* RaycastAll(UnityEngine::Ray ray, float maxDistance);
     // static public UnityEngine.RaycastHit[] RaycastAll(UnityEngine.Ray ray)
-    // Offset: 0x2211364
+    // Offset: 0x1F61D74
     static ::Array<UnityEngine::RaycastHit>* RaycastAll(UnityEngine::Ray ray);
     // static public System.Int32 RaycastNonAlloc(UnityEngine.Ray ray, UnityEngine.RaycastHit[] results, System.Single maxDistance, System.Int32 layerMask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
-    // Offset: 0x22113D8
+    // Offset: 0x1F61DE8
     static int RaycastNonAlloc(UnityEngine::Ray ray, ::Array<UnityEngine::RaycastHit>* results, float maxDistance, int layerMask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
     // static public System.Int32 RaycastNonAlloc(UnityEngine.Ray ray, UnityEngine.RaycastHit[] results, System.Single maxDistance, System.Int32 layerMask)
-    // Offset: 0x22115C8
+    // Offset: 0x1F61FD8
     static int RaycastNonAlloc(UnityEngine::Ray ray, ::Array<UnityEngine::RaycastHit>* results, float maxDistance, int layerMask);
     // static public System.Int32 RaycastNonAlloc(UnityEngine.Ray ray, UnityEngine.RaycastHit[] results, System.Single maxDistance)
-    // Offset: 0x221169C
+    // Offset: 0x1F620AC
     static int RaycastNonAlloc(UnityEngine::Ray ray, ::Array<UnityEngine::RaycastHit>* results, float maxDistance);
     // static public System.Int32 RaycastNonAlloc(UnityEngine.Ray ray, UnityEngine.RaycastHit[] results)
-    // Offset: 0x221176C
+    // Offset: 0x1F6217C
     static int RaycastNonAlloc(UnityEngine::Ray ray, ::Array<UnityEngine::RaycastHit>* results);
     // static public System.Int32 RaycastNonAlloc(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, UnityEngine.RaycastHit[] results, System.Single maxDistance, System.Int32 layerMask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
-    // Offset: 0x221183C
+    // Offset: 0x1F6224C
     static int RaycastNonAlloc(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, ::Array<UnityEngine::RaycastHit>* results, float maxDistance, int layerMask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
     // static public System.Int32 RaycastNonAlloc(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, UnityEngine.RaycastHit[] results, System.Single maxDistance, System.Int32 layerMask)
-    // Offset: 0x2211914
+    // Offset: 0x1F62324
     static int RaycastNonAlloc(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, ::Array<UnityEngine::RaycastHit>* results, float maxDistance, int layerMask);
     // static public System.Int32 RaycastNonAlloc(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, UnityEngine.RaycastHit[] results, System.Single maxDistance)
-    // Offset: 0x22119E8
+    // Offset: 0x1F623F8
     static int RaycastNonAlloc(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, ::Array<UnityEngine::RaycastHit>* results, float maxDistance);
     // static public System.Int32 RaycastNonAlloc(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, UnityEngine.RaycastHit[] results)
-    // Offset: 0x2211AB0
+    // Offset: 0x1F624C0
     static int RaycastNonAlloc(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, ::Array<UnityEngine::RaycastHit>* results);
     // static private UnityEngine.RaycastHit[] Query_SphereCastAll(UnityEngine.PhysicsScene physicsScene, UnityEngine.Vector3 origin, System.Single radius, UnityEngine.Vector3 direction, System.Single maxDistance, System.Int32 mask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
-    // Offset: 0x2211B70
+    // Offset: 0x1F62580
     static ::Array<UnityEngine::RaycastHit>* Query_SphereCastAll(UnityEngine::PhysicsScene physicsScene, UnityEngine::Vector3 origin, float radius, UnityEngine::Vector3 direction, float maxDistance, int mask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
     // static public UnityEngine.RaycastHit[] SphereCastAll(UnityEngine.Vector3 origin, System.Single radius, UnityEngine.Vector3 direction, System.Single maxDistance, System.Int32 layerMask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
-    // Offset: 0x2211C8C
+    // Offset: 0x1F6269C
     static ::Array<UnityEngine::RaycastHit>* SphereCastAll(UnityEngine::Vector3 origin, float radius, UnityEngine::Vector3 direction, float maxDistance, int layerMask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
     // static public UnityEngine.RaycastHit[] SphereCastAll(UnityEngine.Ray ray, System.Single radius, System.Single maxDistance, System.Int32 layerMask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
-    // Offset: 0x2211E00
+    // Offset: 0x1F62810
     static ::Array<UnityEngine::RaycastHit>* SphereCastAll(UnityEngine::Ray ray, float radius, float maxDistance, int layerMask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
     // static public UnityEngine.RaycastHit[] SphereCastAll(UnityEngine.Ray ray, System.Single radius, System.Single maxDistance, System.Int32 layerMask)
-    // Offset: 0x2211E94
+    // Offset: 0x1F628A4
     static ::Array<UnityEngine::RaycastHit>* SphereCastAll(UnityEngine::Ray ray, float radius, float maxDistance, int layerMask);
     // static public System.Int32 OverlapBoxNonAlloc(UnityEngine.Vector3 center, UnityEngine.Vector3 halfExtents, UnityEngine.Collider[] results, UnityEngine.Quaternion orientation, System.Int32 mask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
-    // Offset: 0x2211EC8
+    // Offset: 0x1F628D8
     static int OverlapBoxNonAlloc(UnityEngine::Vector3 center, UnityEngine::Vector3 halfExtents, ::Array<UnityEngine::Collider*>* results, UnityEngine::Quaternion orientation, int mask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
     // static public System.Int32 OverlapBoxNonAlloc(UnityEngine.Vector3 center, UnityEngine.Vector3 halfExtents, UnityEngine.Collider[] results, UnityEngine.Quaternion orientation, System.Int32 mask)
-    // Offset: 0x2211FB0
+    // Offset: 0x1F629C0
     static int OverlapBoxNonAlloc(UnityEngine::Vector3 center, UnityEngine::Vector3 halfExtents, ::Array<UnityEngine::Collider*>* results, UnityEngine::Quaternion orientation, int mask);
     // static private System.Void get_gravity_Injected(out UnityEngine.Vector3 ret)
-    // Offset: 0x220FC0C
+    // Offset: 0x1F6061C
     static void get_gravity_Injected(UnityEngine::Vector3& ret);
     // static private System.Void get_defaultPhysicsScene_Injected(out UnityEngine.PhysicsScene ret)
-    // Offset: 0x220FC94
+    // Offset: 0x1F606A4
     static void get_defaultPhysicsScene_Injected(UnityEngine::PhysicsScene& ret);
     // static private UnityEngine.RaycastHit[] Internal_RaycastAll_Injected(ref UnityEngine.PhysicsScene physicsScene, ref UnityEngine.Ray ray, System.Single maxDistance, System.Int32 mask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
-    // Offset: 0x2210FA8
+    // Offset: 0x1F619B8
     static ::Array<UnityEngine::RaycastHit>* Internal_RaycastAll_Injected(UnityEngine::PhysicsScene& physicsScene, UnityEngine::Ray& ray, float maxDistance, int mask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
     // static private UnityEngine.RaycastHit[] Query_SphereCastAll_Injected(ref UnityEngine.PhysicsScene physicsScene, ref UnityEngine.Vector3 origin, System.Single radius, ref UnityEngine.Vector3 direction, System.Single maxDistance, System.Int32 mask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
-    // Offset: 0x2211C04
+    // Offset: 0x1F62614
     static ::Array<UnityEngine::RaycastHit>* Query_SphereCastAll_Injected(UnityEngine::PhysicsScene& physicsScene, UnityEngine::Vector3& origin, float radius, UnityEngine::Vector3& direction, float maxDistance, int mask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
   }; // UnityEngine.Physics
 }

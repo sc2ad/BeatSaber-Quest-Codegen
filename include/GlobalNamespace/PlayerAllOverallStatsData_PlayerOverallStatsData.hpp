@@ -54,88 +54,88 @@ namespace GlobalNamespace {
     // Offset: 0x40
     int64_t cummulativeCutScoreWithoutMultiplier;
     // public System.Int32 get_goodCutsCount()
-    // Offset: 0xFDC61C
+    // Offset: 0x2087388
     int get_goodCutsCount();
     // private System.Void set_goodCutsCount(System.Int32 value)
-    // Offset: 0xFDC624
+    // Offset: 0x2087390
     void set_goodCutsCount(int value);
     // public System.Int32 get_badCutsCount()
-    // Offset: 0xFDC62C
+    // Offset: 0x2087398
     int get_badCutsCount();
     // private System.Void set_badCutsCount(System.Int32 value)
-    // Offset: 0xFDC634
+    // Offset: 0x20873A0
     void set_badCutsCount(int value);
     // public System.Int32 get_missedCutsCount()
-    // Offset: 0xFDC63C
+    // Offset: 0x20873A8
     int get_missedCutsCount();
     // private System.Void set_missedCutsCount(System.Int32 value)
-    // Offset: 0xFDC644
+    // Offset: 0x20873B0
     void set_missedCutsCount(int value);
     // public System.Int64 get_totalScore()
-    // Offset: 0xFDC64C
+    // Offset: 0x20873B8
     int64_t get_totalScore();
     // private System.Void set_totalScore(System.Int64 value)
-    // Offset: 0xFDC654
+    // Offset: 0x20873C0
     void set_totalScore(int64_t value);
     // public System.Int32 get_playedLevelsCount()
-    // Offset: 0xFDC65C
+    // Offset: 0x20873C8
     int get_playedLevelsCount();
     // private System.Void set_playedLevelsCount(System.Int32 value)
-    // Offset: 0xFDC664
+    // Offset: 0x20873D0
     void set_playedLevelsCount(int value);
     // public System.Int32 get_cleardLevelsCount()
-    // Offset: 0xFDC66C
+    // Offset: 0x20873D8
     int get_cleardLevelsCount();
     // private System.Void set_cleardLevelsCount(System.Int32 value)
-    // Offset: 0xFDC674
+    // Offset: 0x20873E0
     void set_cleardLevelsCount(int value);
     // public System.Int32 get_failedLevelsCount()
-    // Offset: 0xFDC67C
+    // Offset: 0x20873E8
     int get_failedLevelsCount();
     // private System.Void set_failedLevelsCount(System.Int32 value)
-    // Offset: 0xFDC684
+    // Offset: 0x20873F0
     void set_failedLevelsCount(int value);
     // public System.Int32 get_fullComboCount()
-    // Offset: 0xFDC68C
+    // Offset: 0x20873F8
     int get_fullComboCount();
     // private System.Void set_fullComboCount(System.Int32 value)
-    // Offset: 0xFDC694
+    // Offset: 0x2087400
     void set_fullComboCount(int value);
     // public System.Single get_timePlayed()
-    // Offset: 0xFDC69C
+    // Offset: 0x2087408
     float get_timePlayed();
     // private System.Void set_timePlayed(System.Single value)
-    // Offset: 0xFDC6A4
+    // Offset: 0x2087410
     void set_timePlayed(float value);
     // public System.Int32 get_handDistanceTravelled()
-    // Offset: 0xFDC6AC
+    // Offset: 0x2087418
     int get_handDistanceTravelled();
     // private System.Void set_handDistanceTravelled(System.Int32 value)
-    // Offset: 0xFDC6B4
+    // Offset: 0x2087420
     void set_handDistanceTravelled(int value);
     // public System.Int64 get_cummulativeCutScoreWithoutMultiplier()
-    // Offset: 0xFDC6BC
+    // Offset: 0x2087428
     int64_t get_cummulativeCutScoreWithoutMultiplier();
     // private System.Void set_cummulativeCutScoreWithoutMultiplier(System.Int64 value)
-    // Offset: 0xFDC6C4
+    // Offset: 0x2087430
     void set_cummulativeCutScoreWithoutMultiplier(int64_t value);
     // public System.Int32 get_averageCutScore()
-    // Offset: 0xFDC6CC
+    // Offset: 0x2087438
     int get_averageCutScore();
     // public System.Void .ctor(System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCutsCount, System.Int64 totalScore, System.Int32 playedLevelsCount, System.Int32 cleardLevelsCount, System.Int32 failedLevelsCount, System.Int32 fullComboCount, System.Single timePlayed, System.Int32 handDistanceTravelled, System.Int64 cummulativeCutScoreWithoutMultiplier)
-    // Offset: 0xFDC6EC
+    // Offset: 0x2087458
     static PlayerAllOverallStatsData::PlayerOverallStatsData* New_ctor(int goodCutsCount, int badCutsCount, int missedCutsCount, int64_t totalScore, int playedLevelsCount, int cleardLevelsCount, int failedLevelsCount, int fullComboCount, float timePlayed, int handDistanceTravelled, int64_t cummulativeCutScoreWithoutMultiplier);
     // public System.Void UpdateWithLevelCompletionResults(LevelCompletionResults levelCompletionResults)
-    // Offset: 0xFDC478
+    // Offset: 0x2087154
     void UpdateWithLevelCompletionResults(GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0xFDC37C
+    // Offset: 0x2087058
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerAllOverallStatsData::PlayerOverallStatsData* New_ctor();
   }; // PlayerAllOverallStatsData/PlayerOverallStatsData
   // static public PlayerAllOverallStatsData/PlayerOverallStatsData op_Addition(PlayerAllOverallStatsData/PlayerOverallStatsData a, PlayerAllOverallStatsData/PlayerOverallStatsData b)
-  // Offset: 0xFDBD84
+  // Offset: 0x2086A60
   GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* operator+(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* a, GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData& b);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -69,40 +69,40 @@ namespace Mono::Security::X509 {
     // Offset: 0x58
     ::Array<uint8_t>* hash_value;
     // public System.Void .ctor(System.Byte[] crl)
-    // Offset: 0x21E2404
+    // Offset: 0x1F37068
     static X509Crl* New_ctor(::Array<uint8_t>* crl);
     // private System.Void Parse(System.Byte[] crl)
-    // Offset: 0x21E24EC
+    // Offset: 0x1F37150
     void Parse(::Array<uint8_t>* crl);
     // public Mono.Security.X509.X509ExtensionCollection get_Extensions()
-    // Offset: 0x21E2CB8
+    // Offset: 0x1F3791C
     Mono::Security::X509::X509ExtensionCollection* get_Extensions();
     // public System.Byte[] get_Hash()
-    // Offset: 0x21E2CC0
+    // Offset: 0x1F37924
     ::Array<uint8_t>* get_Hash();
     // public System.String get_IssuerName()
-    // Offset: 0x21E2E78
+    // Offset: 0x1F37ADC
     ::Il2CppString* get_IssuerName();
     // public System.DateTime get_NextUpdate()
-    // Offset: 0x21E2E80
+    // Offset: 0x1F37AE4
     System::DateTime get_NextUpdate();
     // private System.Boolean Compare(System.Byte[] array1, System.Byte[] array2)
-    // Offset: 0x21E2E88
+    // Offset: 0x1F37AEC
     bool Compare(::Array<uint8_t>* array1, ::Array<uint8_t>* array2);
     // public Mono.Security.X509.X509Crl/X509CrlEntry GetCrlEntry(Mono.Security.X509.X509Certificate x509)
-    // Offset: 0x21E2F08
+    // Offset: 0x1F37B6C
     Mono::Security::X509::X509Crl::X509CrlEntry* GetCrlEntry(Mono::Security::X509::X509Certificate* x509);
     // public Mono.Security.X509.X509Crl/X509CrlEntry GetCrlEntry(System.Byte[] serialNumber)
-    // Offset: 0x21E2FB0
+    // Offset: 0x1F37C14
     Mono::Security::X509::X509Crl::X509CrlEntry* GetCrlEntry(::Array<uint8_t>* serialNumber);
     // System.Boolean VerifySignature(System.Security.Cryptography.DSA dsa)
-    // Offset: 0x21E3178
+    // Offset: 0x1F37DDC
     bool VerifySignature(System::Security::Cryptography::DSA* dsa);
     // System.Boolean VerifySignature(System.Security.Cryptography.RSA rsa)
-    // Offset: 0x21E3414
+    // Offset: 0x1F38078
     bool VerifySignature(System::Security::Cryptography::RSA* rsa);
     // public System.Boolean VerifySignature(System.Security.Cryptography.AsymmetricAlgorithm aa)
-    // Offset: 0x21E34EC
+    // Offset: 0x1F38150
     bool VerifySignature(System::Security::Cryptography::AsymmetricAlgorithm* aa);
   }; // Mono.Security.X509.X509Crl
 }

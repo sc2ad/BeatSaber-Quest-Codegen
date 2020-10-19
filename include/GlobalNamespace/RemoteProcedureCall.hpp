@@ -36,39 +36,39 @@ namespace GlobalNamespace {
       return syncTime;
     }
     // public System.Void set_syncTime(System.Single value)
-    // Offset: 0x1C4043C
+    // Offset: 0x21FA5D4
     void set_syncTime(float value);
     // protected System.Void SerializeData(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1C40444
+    // Offset: 0x21FA5DC
     void SerializeData(LiteNetLib::Utils::NetDataWriter* writer);
     // protected System.Void DeserializeData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1C40448
+    // Offset: 0x21FA5E0
     void DeserializeData(LiteNetLib::Utils::NetDataReader* reader);
     // public IRemoteProcedureCall Init(System.Single syncTime)
-    // Offset: 0x1C405FC
+    // Offset: 0x21FA794
     GlobalNamespace::IRemoteProcedureCall* Init(float syncTime);
     // public System.Single get_syncTime()
-    // Offset: 0x1C40434
+    // Offset: 0x21FA5CC
     // Implemented from: IRemoteProcedureCall
     // Base method: System.Single IRemoteProcedureCall::get_syncTime()
     float get_syncTime();
     // private System.Void LiteNetLib.Utils.INetSerializable.Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1C4044C
+    // Offset: 0x21FA5E4
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // private System.Void LiteNetLib.Utils.INetSerializable.Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1C40494
+    // Offset: 0x21FA62C
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x1C404DC
+    // Offset: 0x21FA674
     // Implemented from: IPoolablePacket
     // Base method: System.Void IPoolablePacket::Release()
     void Release();
     // protected System.Void .ctor()
-    // Offset: 0x1C34BC0
+    // Offset: 0x21EED58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static RemoteProcedureCall* New_ctor();

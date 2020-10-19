@@ -30,30 +30,30 @@ namespace Mono::Net {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static private System.IntPtr CFStringCreateWithCharacters(System.IntPtr alloc, System.IntPtr chars, System.IntPtr length)
-    // Offset: 0x14184B0
+    // Offset: 0x11EEBEC
     static System::IntPtr CFStringCreateWithCharacters(System::IntPtr alloc, System::IntPtr chars, System::IntPtr length);
     // static public Mono.Net.CFString Create(System.String value)
-    // Offset: 0x1415B88
+    // Offset: 0x11EC2C4
     static Mono::Net::CFString* Create(::Il2CppString* value);
     // static private System.IntPtr CFStringGetLength(System.IntPtr handle)
-    // Offset: 0x1418548
+    // Offset: 0x11EEC84
     static System::IntPtr CFStringGetLength(System::IntPtr handle);
     // static private System.IntPtr CFStringGetCharactersPtr(System.IntPtr handle)
-    // Offset: 0x14185C8
+    // Offset: 0x11EED04
     static System::IntPtr CFStringGetCharactersPtr(System::IntPtr handle);
     // static private System.IntPtr CFStringGetCharacters(System.IntPtr handle, Mono.Net.CFRange range, System.IntPtr buffer)
-    // Offset: 0x1418648
+    // Offset: 0x11EED84
     static System::IntPtr CFStringGetCharacters(System::IntPtr handle, Mono::Net::CFRange range, System::IntPtr buffer);
     // static public System.String AsString(System.IntPtr handle)
-    // Offset: 0x1417E54
+    // Offset: 0x11EE590
     static ::Il2CppString* AsString(System::IntPtr handle);
     // public System.Void .ctor(System.IntPtr handle, System.Boolean own)
-    // Offset: 0x1418460
+    // Offset: 0x11EEB9C
     // Implemented from: Mono.Net.CFObject
     // Base method: System.Void CFObject::.ctor(System.IntPtr handle, System.Boolean own)
     static CFString* New_ctor(System::IntPtr handle, bool own);
     // public override System.String ToString()
-    // Offset: 0x14186F0
+    // Offset: 0x11EEE2C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

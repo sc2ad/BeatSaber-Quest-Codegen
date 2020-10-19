@@ -57,12 +57,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: $HandleRoomInviteReceived$d__46
     constexpr $HandleRoomInviteReceived$d__46(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, GlobalNamespace::OculusNetworkPlayerModel* $$4__this_ = {}, Oculus::Platform::Message_1<Oculus::Platform::Models::RoomInviteNotification*>* message_ = {}, GlobalNamespace::OculusNetworkPlayerModel::$$c__DisplayClass46_0* $$8__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, message{message_}, $$8__1{$$8__1_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
-    // Offset: 0xDA2348
+    // Offset: 0xE4EAE0
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDA2350
+    // Offset: 0xE4EAE8
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

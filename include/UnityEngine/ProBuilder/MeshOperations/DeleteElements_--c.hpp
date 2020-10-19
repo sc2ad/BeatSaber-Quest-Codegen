@@ -41,13 +41,13 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__3_0
     static void _set_$$9__3_0(System::Func_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::IEnumerable_1<int>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x13F2E44
+    // Offset: 0x11C8580
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<System.Int32> <DeleteFaces>b__3_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x13F2EB4
+    // Offset: 0x11C85F0
     System::Collections::Generic::IEnumerable_1<int>* $DeleteFaces$b__3_0(UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0x13F2EAC
+    // Offset: 0x11C85E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DeleteElements::$$c* New_ctor();

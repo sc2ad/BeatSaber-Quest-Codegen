@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_SetOverlayNeighbor : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F2EDC8
+    // Offset: 0x1C80A2C
     static IVROverlay::_SetOverlayNeighbor* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(OVR.OpenVR.EOverlayDirection eDirection, System.UInt64 ulFrom, System.UInt64 ulTo)
-    // Offset: 0x1F2EDDC
+    // Offset: 0x1C80A40
     OVR::OpenVR::EVROverlayError Invoke(OVR::OpenVR::EOverlayDirection eDirection, uint64_t ulFrom, uint64_t ulTo);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.EOverlayDirection eDirection, System.UInt64 ulFrom, System.UInt64 ulTo, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F2F088
+    // Offset: 0x1C80CEC
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::EOverlayDirection eDirection, uint64_t ulFrom, uint64_t ulTo, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1F2F148
+    // Offset: 0x1C80DAC
     OVR::OpenVR::EVROverlayError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_SetOverlayNeighbor
 }

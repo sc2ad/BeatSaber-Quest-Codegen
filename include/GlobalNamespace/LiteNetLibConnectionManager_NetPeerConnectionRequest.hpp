@@ -40,22 +40,22 @@ namespace GlobalNamespace {
     // Offset: 0x28
     LiteNetLib::ConnectionRequest* request;
     // public System.String get_userId()
-    // Offset: 0x1168E70
+    // Offset: 0x2163858
     ::Il2CppString* get_userId();
     // public System.String get_userName()
-    // Offset: 0x1168E78
+    // Offset: 0x2163860
     ::Il2CppString* get_userName();
     // public System.Boolean get_isConnectionOwner()
-    // Offset: 0x1168E80
+    // Offset: 0x2163868
     bool get_isConnectionOwner();
     // public System.Net.IPEndPoint get_endPoint()
-    // Offset: 0x1168E88
+    // Offset: 0x2163870
     System::Net::IPEndPoint* get_endPoint();
     // public System.Void .ctor(LiteNetLib.ConnectionRequest request, System.String userId, System.String userName, System.Boolean isConnectionOwner)
-    // Offset: 0x1168184
+    // Offset: 0x2162B6C
     static LiteNetLibConnectionManager::NetPeerConnectionRequest* New_ctor(LiteNetLib::ConnectionRequest* request, ::Il2CppString* userId, ::Il2CppString* userName, bool isConnectionOwner);
     // public LiteNetLib.NetPeer Accept()
-    // Offset: 0x1168168
+    // Offset: 0x2162B50
     LiteNetLib::NetPeer* Accept();
   }; // LiteNetLibConnectionManager/NetPeerConnectionRequest
 }

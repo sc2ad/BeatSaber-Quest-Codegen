@@ -27,10 +27,10 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType
     struct GameStateType;
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, GameplayServerConfiguration configuration, IServerBeatmapProvider beatmapProvider)
-    // Offset: 0x116566C
+    // Offset: 0x2160054
     static GameplayServerFiniteStateMachine* New_ctor(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, GlobalNamespace::GameplayServerConfiguration configuration, GlobalNamespace::IServerBeatmapProvider* beatmapProvider);
     // public System.Void Dispose()
-    // Offset: 0x1165674
+    // Offset: 0x216005C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

@@ -30,19 +30,19 @@ namespace System {
     // Offset: 0x18
     System::Collections::Hashtable* starts;
     // public System.Void AddMapping(System.TermInfoStrings key, System.Byte[] val)
-    // Offset: 0x15CEADC
+    // Offset: 0x13A5304
     void AddMapping(System::TermInfoStrings key, ::Array<uint8_t>* val);
     // public System.Void Sort()
-    // Offset: 0x15CEBF4
+    // Offset: 0x13A541C
     void Sort();
     // public System.Boolean StartsWith(System.Int32 c)
-    // Offset: 0x15CEBF8
+    // Offset: 0x13A5420
     bool StartsWith(int c);
     // public System.TermInfoStrings Match(System.Char[] buffer, System.Int32 offset, System.Int32 length, out System.Int32 used)
-    // Offset: 0x15CEC88
+    // Offset: 0x13A54B0
     System::TermInfoStrings Match(::Array<::Il2CppChar>* buffer, int offset, int length, int& used);
     // public System.Void .ctor()
-    // Offset: 0x15CF0BC
+    // Offset: 0x13A58E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ByteMatcher* New_ctor();

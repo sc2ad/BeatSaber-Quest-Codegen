@@ -44,58 +44,58 @@ namespace UnityEngine {
   class SystemInfo : public ::Il2CppObject {
     public:
     // static public UnityEngine.OperatingSystemFamily get_operatingSystemFamily()
-    // Offset: 0x1991C70
+    // Offset: 0x1738094
     static UnityEngine::OperatingSystemFamily get_operatingSystemFamily();
     // static public UnityEngine.DeviceType get_deviceType()
-    // Offset: 0x1991CD8
+    // Offset: 0x17380FC
     static UnityEngine::DeviceType get_deviceType();
     // static public UnityEngine.Rendering.GraphicsDeviceType get_graphicsDeviceType()
-    // Offset: 0x1991D40
+    // Offset: 0x1738164
     static UnityEngine::Rendering::GraphicsDeviceType get_graphicsDeviceType();
     // static public System.String get_graphicsDeviceVersion()
-    // Offset: 0x1991DA8
+    // Offset: 0x17381CC
     static ::Il2CppString* get_graphicsDeviceVersion();
     // static public System.Boolean get_supportsInstancing()
-    // Offset: 0x1991E10
+    // Offset: 0x1738234
     static bool get_supportsInstancing();
     // static private System.Boolean IsValidEnumValue(System.Enum value)
-    // Offset: 0x1991E78
+    // Offset: 0x173829C
     static bool IsValidEnumValue(System::Enum* value);
     // static public System.Boolean SupportsRenderTextureFormat(UnityEngine.RenderTextureFormat format)
-    // Offset: 0x1991F00
+    // Offset: 0x1738324
     static bool SupportsRenderTextureFormat(UnityEngine::RenderTextureFormat format);
     // static public System.Boolean SupportsTextureFormat(UnityEngine.TextureFormat format)
-    // Offset: 0x1992010
+    // Offset: 0x1738434
     static bool SupportsTextureFormat(UnityEngine::TextureFormat format);
     // static private UnityEngine.OperatingSystemFamily GetOperatingSystemFamily()
-    // Offset: 0x1991CA4
+    // Offset: 0x17380C8
     static UnityEngine::OperatingSystemFamily GetOperatingSystemFamily();
     // static private UnityEngine.DeviceType GetDeviceType()
-    // Offset: 0x1991D0C
+    // Offset: 0x1738130
     static UnityEngine::DeviceType GetDeviceType();
     // static private UnityEngine.Rendering.GraphicsDeviceType GetGraphicsDeviceType()
-    // Offset: 0x1991D74
+    // Offset: 0x1738198
     static UnityEngine::Rendering::GraphicsDeviceType GetGraphicsDeviceType();
     // static private System.String GetGraphicsDeviceVersion()
-    // Offset: 0x1991DDC
+    // Offset: 0x1738200
     static ::Il2CppString* GetGraphicsDeviceVersion();
     // static private System.Boolean SupportsInstancing()
-    // Offset: 0x1991E44
+    // Offset: 0x1738268
     static bool SupportsInstancing();
     // static private System.Boolean HasRenderTextureNative(UnityEngine.RenderTextureFormat format)
-    // Offset: 0x1991FD0
+    // Offset: 0x17383F4
     static bool HasRenderTextureNative(UnityEngine::RenderTextureFormat format);
     // static private System.Boolean SupportsTextureFormatNative(UnityEngine.TextureFormat format)
-    // Offset: 0x19920E0
+    // Offset: 0x1738504
     static bool SupportsTextureFormatNative(UnityEngine::TextureFormat format);
     // static public System.Boolean IsFormatSupported(UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.FormatUsage usage)
-    // Offset: 0x1992120
+    // Offset: 0x1738544
     static bool IsFormatSupported(UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::FormatUsage usage);
     // static public UnityEngine.Experimental.Rendering.GraphicsFormat GetCompatibleFormat(UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.FormatUsage usage)
-    // Offset: 0x19882D4
+    // Offset: 0x172E6F8
     static UnityEngine::Experimental::Rendering::GraphicsFormat GetCompatibleFormat(UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::FormatUsage usage);
     // static public UnityEngine.Experimental.Rendering.GraphicsFormat GetGraphicsFormat(UnityEngine.Experimental.Rendering.DefaultFormat format)
-    // Offset: 0x1992170
+    // Offset: 0x1738594
     static UnityEngine::Experimental::Rendering::GraphicsFormat GetGraphicsFormat(UnityEngine::Experimental::Rendering::DefaultFormat format);
   }; // UnityEngine.SystemInfo
 }

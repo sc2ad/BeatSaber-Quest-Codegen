@@ -14,13 +14,13 @@ namespace GlobalNamespace {
   class DisableGCWhileEnabled : public UnityEngine::MonoBehaviour {
     public:
     // protected System.Void OnEnable()
-    // Offset: 0x109415C
+    // Offset: 0x210B0A0
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1094168
+    // Offset: 0x210B0AC
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x1094174
+    // Offset: 0x210B0B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

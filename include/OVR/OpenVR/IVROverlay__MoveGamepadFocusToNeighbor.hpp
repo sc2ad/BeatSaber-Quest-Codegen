@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_MoveGamepadFocusToNeighbor : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1D70D80
+    // Offset: 0x1AC29E4
     static IVROverlay::_MoveGamepadFocusToNeighbor* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(OVR.OpenVR.EOverlayDirection eDirection, System.UInt64 ulFrom)
-    // Offset: 0x1D70D94
+    // Offset: 0x1AC29F8
     OVR::OpenVR::EVROverlayError Invoke(OVR::OpenVR::EOverlayDirection eDirection, uint64_t ulFrom);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.EOverlayDirection eDirection, System.UInt64 ulFrom, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1D71024
+    // Offset: 0x1AC2C88
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::EOverlayDirection eDirection, uint64_t ulFrom, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1D710D0
+    // Offset: 0x1AC2D34
     OVR::OpenVR::EVROverlayError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_MoveGamepadFocusToNeighbor
 }

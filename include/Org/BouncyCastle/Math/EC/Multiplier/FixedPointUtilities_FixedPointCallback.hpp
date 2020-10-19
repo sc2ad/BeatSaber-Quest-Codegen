@@ -39,16 +39,16 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
       return m_p;
     }
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECPoint p)
-    // Offset: 0x1B53A3C
+    // Offset: 0x18F4C30
     static FixedPointUtilities::FixedPointCallback* New_ctor(Org::BouncyCastle::Math::EC::ECPoint* p);
     // private System.Boolean CheckExisting(Org.BouncyCastle.Math.EC.Multiplier.FixedPointPreCompInfo existingFP, System.Int32 n)
-    // Offset: 0x1B53F44
+    // Offset: 0x18F5138
     bool CheckExisting(Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo* existingFP, int n);
     // private System.Boolean CheckTable(Org.BouncyCastle.Math.EC.ECLookupTable table, System.Int32 n)
-    // Offset: 0x1B53F88
+    // Offset: 0x18F517C
     bool CheckTable(Org::BouncyCastle::Math::EC::ECLookupTable* table, int n);
     // public Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
-    // Offset: 0x1B53ACC
+    // Offset: 0x18F4CC0
     // Implemented from: Org.BouncyCastle.Math.EC.Multiplier.IPreCompCallback
     // Base method: Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo IPreCompCallback::Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
     Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);

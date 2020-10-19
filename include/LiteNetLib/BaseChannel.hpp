@@ -36,13 +36,13 @@ namespace LiteNetLib {
     // Offset: 0x20
     System::Collections::Generic::Queue_1<LiteNetLib::NetPacket*>* OutgoingQueue;
     // protected System.Void .ctor(LiteNetLib.NetPeer peer)
-    // Offset: 0x1A622B8
+    // Offset: 0x18004AC
     static BaseChannel* New_ctor(LiteNetLib::NetPeer* peer);
     // public System.Int32 get_PacketsInQueue()
-    // Offset: 0x1A62354
+    // Offset: 0x1800548
     int get_PacketsInQueue();
     // public System.Void AddToQueue(LiteNetLib.NetPacket packet)
-    // Offset: 0x1A623A4
+    // Offset: 0x1800598
     void AddToQueue(LiteNetLib::NetPacket* packet);
     // public System.Void SendNextPackets()
     // Offset: 0xFFFFFFFF

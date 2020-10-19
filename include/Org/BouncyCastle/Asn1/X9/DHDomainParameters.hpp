@@ -50,31 +50,31 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Offset: 0x30
     Org::BouncyCastle::Asn1::X9::DHValidationParms* validationParms;
     // static public Org.BouncyCastle.Asn1.X9.DHDomainParameters GetInstance(System.Object obj)
-    // Offset: 0x186F4D0
+    // Offset: 0x16158F4
     static Org::BouncyCastle::Asn1::X9::DHDomainParameters* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x186F650
+    // Offset: 0x1615A74
     static DHDomainParameters* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // static private Org.BouncyCastle.Asn1.Asn1Encodable GetNext(System.Collections.IEnumerator e)
-    // Offset: 0x186F87C
+    // Offset: 0x1615CA0
     static Org::BouncyCastle::Asn1::Asn1Encodable* GetNext(System::Collections::IEnumerator* e);
     // public Org.BouncyCastle.Asn1.DerInteger get_P()
-    // Offset: 0x186FB58
+    // Offset: 0x1615F7C
     Org::BouncyCastle::Asn1::DerInteger* get_P();
     // public Org.BouncyCastle.Asn1.DerInteger get_G()
-    // Offset: 0x186FB60
+    // Offset: 0x1615F84
     Org::BouncyCastle::Asn1::DerInteger* get_G();
     // public Org.BouncyCastle.Asn1.DerInteger get_Q()
-    // Offset: 0x186FB68
+    // Offset: 0x1615F8C
     Org::BouncyCastle::Asn1::DerInteger* get_Q();
     // public Org.BouncyCastle.Asn1.DerInteger get_J()
-    // Offset: 0x186FB70
+    // Offset: 0x1615F94
     Org::BouncyCastle::Asn1::DerInteger* get_J();
     // public Org.BouncyCastle.Asn1.X9.DHValidationParms get_ValidationParms()
-    // Offset: 0x186FB78
+    // Offset: 0x1615F9C
     Org::BouncyCastle::Asn1::X9::DHValidationParms* get_ValidationParms();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x186FB80
+    // Offset: 0x1615FA4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

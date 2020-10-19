@@ -31,25 +31,25 @@ namespace Oculus::Platform {
   class IAP : public ::Il2CppObject {
     public:
     // static public Oculus.Platform.Request ConsumePurchase(System.String sku)
-    // Offset: 0x135A23C
+    // Offset: 0x112F978
     static Oculus::Platform::Request* ConsumePurchase(::Il2CppString* sku);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.ProductList> GetProductsBySKU(System.String[] skus)
-    // Offset: 0x135A350
+    // Offset: 0x112FA8C
     static Oculus::Platform::Request_1<Oculus::Platform::Models::ProductList*>* GetProductsBySKU(::Array<::Il2CppString*>* skus);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.PurchaseList> GetViewerPurchases()
-    // Offset: 0x135A480
+    // Offset: 0x112FBBC
     static Oculus::Platform::Request_1<Oculus::Platform::Models::PurchaseList*>* GetViewerPurchases();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.PurchaseList> GetViewerPurchasesDurableCache()
-    // Offset: 0x135A58C
+    // Offset: 0x112FCC8
     static Oculus::Platform::Request_1<Oculus::Platform::Models::PurchaseList*>* GetViewerPurchasesDurableCache();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Purchase> LaunchCheckoutFlow(System.String sku)
-    // Offset: 0x135A698
+    // Offset: 0x112FDD4
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Purchase*>* LaunchCheckoutFlow(::Il2CppString* sku);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.ProductList> GetNextProductListPage(Oculus.Platform.Models.ProductList list)
-    // Offset: 0x135A7FC
+    // Offset: 0x112FF38
     static Oculus::Platform::Request_1<Oculus::Platform::Models::ProductList*>* GetNextProductListPage(Oculus::Platform::Models::ProductList* list);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.PurchaseList> GetNextPurchaseListPage(Oculus.Platform.Models.PurchaseList list)
-    // Offset: 0x135A978
+    // Offset: 0x11300B4
     static Oculus::Platform::Request_1<Oculus::Platform::Models::PurchaseList*>* GetNextPurchaseListPage(Oculus::Platform::Models::PurchaseList* list);
   }; // Oculus.Platform.IAP
 }

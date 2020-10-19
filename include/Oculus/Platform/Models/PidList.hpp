@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
   class PidList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::Pid*> {
     public:
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x1367C1C
+    // Offset: 0x113D358
     static PidList* New_ctor(System::IntPtr a);
   }; // Oculus.Platform.Models.PidList
 }

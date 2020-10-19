@@ -91,66 +91,66 @@ namespace GlobalNamespace {
     // Offset: 0x88
     UnityEngine::Transform* transform;
     // public System.Single get_length()
-    // Offset: 0x1FB2CFC
+    // Offset: 0x1D03960
     float get_length();
     // public System.Void set_length(System.Single value)
-    // Offset: 0x1FB2D04
+    // Offset: 0x1D03968
     void set_length(float value);
     // public System.Single get_width()
-    // Offset: 0x1FB2FC4
+    // Offset: 0x1D03C28
     float get_width();
     // public System.Void set_width(System.Single value)
-    // Offset: 0x1FB2FCC
+    // Offset: 0x1D03C30
     void set_width(float value);
     // public System.Single get_lightWidthMultiplier()
-    // Offset: 0x1FB2FD4
+    // Offset: 0x1D03C38
     float get_lightWidthMultiplier();
     // public System.Void set_lightWidthMultiplier(System.Single value)
-    // Offset: 0x1FB2FDC
+    // Offset: 0x1D03C40
     void set_lightWidthMultiplier(float value);
     // public System.Single get_bloomFogIntensityMultiplier()
-    // Offset: 0x1FB2FE4
+    // Offset: 0x1D03C48
     float get_bloomFogIntensityMultiplier();
     // public System.Void set_bloomFogIntensityMultiplier(System.Single value)
-    // Offset: 0x1FB2FEC
+    // Offset: 0x1D03C50
     void set_bloomFogIntensityMultiplier(float value);
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x1FB2FF4
+    // Offset: 0x1D03C58
     void set_color(UnityEngine::Color value);
     // public UnityEngine.Color get_color()
-    // Offset: 0x1FB3170
+    // Offset: 0x1D03DD4
     UnityEngine::Color get_color();
     // public System.Void Refresh()
-    // Offset: 0x1FB2D0C
+    // Offset: 0x1D03970
     void Refresh();
     // private System.Void ClipPoints(ref UnityEngine.Vector4 fromPointClipPos, ref UnityEngine.Vector4 toPointClipPos, ref UnityEngine.Vector3 fromPointViewPos, ref UnityEngine.Vector3 toPointViewPos, System.Boolean fromPointInside, System.Single t)
-    // Offset: 0x1FB3F74
+    // Offset: 0x1D04BD8
     void ClipPoints(UnityEngine::Vector4& fromPointClipPos, UnityEngine::Vector4& toPointClipPos, UnityEngine::Vector3& fromPointViewPos, UnityEngine::Vector3& toPointViewPos, bool fromPointInside, float t);
     // protected System.Void OnDrawGizmos()
-    // Offset: 0x1FB41F0
+    // Offset: 0x1D04E54
     void OnDrawGizmos();
     // static protected System.Void NoDomainReloadInit()
-    // Offset: 0x1FB317C
+    // Offset: 0x1D03DE0
     // Implemented from: BloomPrePassLight
     // Base method: System.Void BloomPrePassLight::NoDomainReloadInit()
     static void NoDomainReloadInit();
     // protected override System.Void OnEnable()
-    // Offset: 0x1FB31D8
+    // Offset: 0x1D03E3C
     // Implemented from: BloomPrePassLight
     // Base method: System.Void BloomPrePassLight::OnEnable()
     void OnEnable();
     // protected override System.Void DidRegisterLight()
-    // Offset: 0x1FB3208
+    // Offset: 0x1D03E6C
     // Implemented from: BloomPrePassLight
     // Base method: System.Void BloomPrePassLight::DidRegisterLight()
     void DidRegisterLight();
     // public override System.Void FillMeshData(System.Int32 lightNum, UnityEngine.Vector3[] vertices, UnityEngine.Color[] colors, UnityEngine.Vector4[] viewPos, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix, System.Single lineWidth)
-    // Offset: 0x1FB3238
+    // Offset: 0x1D03E9C
     // Implemented from: BloomPrePassLight
     // Base method: System.Void BloomPrePassLight::FillMeshData(System.Int32 lightNum, UnityEngine.Vector3[] vertices, UnityEngine.Color[] colors, UnityEngine.Vector4[] viewPos, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix, System.Single lineWidth)
     void FillMeshData(int lightNum, ::Array<UnityEngine::Vector3>* vertices, ::Array<UnityEngine::Color>* colors, ::Array<UnityEngine::Vector4>* viewPos, UnityEngine::Matrix4x4 viewMatrix, UnityEngine::Matrix4x4 projectionMatrix, float lineWidth);
     // public System.Void .ctor()
-    // Offset: 0x1FB43C4
+    // Offset: 0x1D05028
     // Implemented from: BloomPrePassLight
     // Base method: System.Void BloomPrePassLight::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

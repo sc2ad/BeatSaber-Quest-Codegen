@@ -25,10 +25,10 @@ namespace Polyglot {
     // Nested type: Polyglot::CsvReader::ParsingMode
     struct ParsingMode;
     // static public System.Collections.Generic.List`1<System.Collections.Generic.List`1<System.String>> Parse(System.String src)
-    // Offset: 0x219A630
+    // Offset: 0x1EED294
     static System::Collections::Generic::List_1<System::Collections::Generic::List_1<::Il2CppString*>*>* Parse(::Il2CppString* src);
     // public System.Void .ctor()
-    // Offset: 0x219AB6C
+    // Offset: 0x1EED7D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CsvReader* New_ctor();

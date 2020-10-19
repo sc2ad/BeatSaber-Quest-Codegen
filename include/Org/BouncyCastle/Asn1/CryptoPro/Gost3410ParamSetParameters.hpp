@@ -40,19 +40,19 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
     // Offset: 0x28
     Org::BouncyCastle::Asn1::DerInteger* a;
     // public System.Void .ctor(System.Int32 keySize, Org.BouncyCastle.Math.BigInteger p, Org.BouncyCastle.Math.BigInteger q, Org.BouncyCastle.Math.BigInteger a)
-    // Offset: 0x1548A84
+    // Offset: 0x13202AC
     static Gost3410ParamSetParameters* New_ctor(int keySize, Org::BouncyCastle::Math::BigInteger* p, Org::BouncyCastle::Math::BigInteger* q, Org::BouncyCastle::Math::BigInteger* a);
     // public Org.BouncyCastle.Math.BigInteger get_P()
-    // Offset: 0x1548D38
+    // Offset: 0x1320560
     Org::BouncyCastle::Math::BigInteger* get_P();
     // public Org.BouncyCastle.Math.BigInteger get_Q()
-    // Offset: 0x1548DBC
+    // Offset: 0x13205E4
     Org::BouncyCastle::Math::BigInteger* get_Q();
     // public Org.BouncyCastle.Math.BigInteger get_A()
-    // Offset: 0x1548DD4
+    // Offset: 0x13205FC
     Org::BouncyCastle::Math::BigInteger* get_A();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1548DEC
+    // Offset: 0x1320614
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

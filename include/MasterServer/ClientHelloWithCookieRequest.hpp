@@ -44,13 +44,13 @@ namespace MasterServer {
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
     // static public PacketPool`1<MasterServer.ClientHelloWithCookieRequest> get_pool()
-    // Offset: 0x10BBF74
+    // Offset: 0x211DADC
     static GlobalNamespace::PacketPool_1<MasterServer::ClientHelloWithCookieRequest*>* get_pool();
     // public MasterServer.ClientHelloWithCookieRequest Init(System.UInt32 certificateResponseId, System.Byte[] random, System.Byte[] cookie)
-    // Offset: 0x10BBFBC
+    // Offset: 0x211DB24
     MasterServer::ClientHelloWithCookieRequest* Init(uint certificateResponseId, ::Array<uint8_t>* random, ::Array<uint8_t>* cookie);
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x10BC010
+    // Offset: 0x211DB78
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -58,7 +58,7 @@ namespace MasterServer {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x10BC074
+    // Offset: 0x211DBDC
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -66,12 +66,12 @@ namespace MasterServer {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x10BC0DC
+    // Offset: 0x211DC44
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x10BC158
+    // Offset: 0x211DCC0
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()

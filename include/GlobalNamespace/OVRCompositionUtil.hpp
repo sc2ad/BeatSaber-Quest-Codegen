@@ -30,28 +30,28 @@ namespace GlobalNamespace {
   class OVRCompositionUtil : public ::Il2CppObject {
     public:
     // static public System.Void SafeDestroy(UnityEngine.GameObject obj)
-    // Offset: 0x1134A5C
+    // Offset: 0xF70BF4
     static void SafeDestroy(UnityEngine::GameObject* obj);
     // static public System.Void SafeDestroy(ref UnityEngine.GameObject obj)
-    // Offset: 0x1134AFC
+    // Offset: 0xF70C94
     static void SafeDestroy(UnityEngine::GameObject*& obj);
     // static public OVRPlugin/CameraDevice ConvertCameraDevice(OVRManager/CameraDevice cameraDevice)
-    // Offset: 0x1134B94
+    // Offset: 0xF70D2C
     static GlobalNamespace::OVRPlugin::CameraDevice ConvertCameraDevice(GlobalNamespace::OVRManager::CameraDevice cameraDevice);
     // static public OVRBoundary/BoundaryType ToBoundaryType(OVRManager/VirtualGreenScreenType type)
-    // Offset: 0x1134BC0
+    // Offset: 0xF70D58
     static GlobalNamespace::OVRBoundary::BoundaryType ToBoundaryType(GlobalNamespace::OVRManager::VirtualGreenScreenType type);
     // static public UnityEngine.Vector3 GetWorldPosition(UnityEngine.Vector3 trackingSpacePosition)
-    // Offset: 0x1134C54
+    // Offset: 0xF70DEC
     static UnityEngine::Vector3 GetWorldPosition(UnityEngine::Vector3 trackingSpacePosition);
     // static public System.Single GetMaximumBoundaryDistance(UnityEngine.Camera camera, OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0x1134D00
+    // Offset: 0xF70E98
     static float GetMaximumBoundaryDistance(UnityEngine::Camera* camera, GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // static public UnityEngine.Mesh BuildBoundaryMesh(OVRBoundary/BoundaryType boundaryType, System.Single topY, System.Single bottomY)
-    // Offset: 0x1134F40
+    // Offset: 0xF710D8
     static UnityEngine::Mesh* BuildBoundaryMesh(GlobalNamespace::OVRBoundary::BoundaryType boundaryType, float topY, float bottomY);
     // public System.Void .ctor()
-    // Offset: 0x11353E8
+    // Offset: 0xF71580
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRCompositionUtil* New_ctor();

@@ -20,19 +20,19 @@ namespace JetBrains::Annotations {
     // Offset: 0x18
     ::Il2CppString* FieldName;
     // public System.Void .ctor(System.String type, System.String fieldName)
-    // Offset: 0x220C530
+    // Offset: 0x1F5CF40
     static RazorInjectionAttribute* New_ctor(::Il2CppString* type, ::Il2CppString* fieldName);
     // public System.String get_Type()
-    // Offset: 0x220C580
+    // Offset: 0x1F5CF90
     ::Il2CppString* get_Type();
     // private System.Void set_Type(System.String value)
-    // Offset: 0x220C588
+    // Offset: 0x1F5CF98
     void set_Type(::Il2CppString* value);
     // public System.String get_FieldName()
-    // Offset: 0x220C590
+    // Offset: 0x1F5CFA0
     ::Il2CppString* get_FieldName();
     // private System.Void set_FieldName(System.String value)
-    // Offset: 0x220C598
+    // Offset: 0x1F5CFA8
     void set_FieldName(::Il2CppString* value);
   }; // JetBrains.Annotations.RazorInjectionAttribute
 }

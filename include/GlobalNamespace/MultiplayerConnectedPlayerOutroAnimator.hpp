@@ -59,18 +59,18 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnDestroy()
-    // Offset: 0xFCE408
+    // Offset: 0x2062F40
     void OnDestroy();
     // private System.Void <Animate>b__7_0(UnityEngine.Color color)
-    // Offset: 0xFCE684
+    // Offset: 0x20631BC
     void $Animate$b__7_0(UnityEngine::Color color);
     // public System.Void Animate(System.Single duration)
-    // Offset: 0xFCE4A0
+    // Offset: 0x2062FD8
     // Implemented from: IMultiplayerConnectedPlayerOutroAnimator
     // Base method: System.Void IMultiplayerConnectedPlayerOutroAnimator::Animate(System.Single duration)
     void Animate(float duration);
     // public System.Void .ctor()
-    // Offset: 0xFCE67C
+    // Offset: 0x20631B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

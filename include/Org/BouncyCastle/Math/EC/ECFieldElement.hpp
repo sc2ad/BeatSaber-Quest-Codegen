@@ -52,52 +52,52 @@ namespace Org::BouncyCastle::Math::EC {
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Math::EC::ECFieldElement* Sqrt();
     // public System.Int32 get_BitLength()
-    // Offset: 0x2019D24
+    // Offset: 0x1D69988
     int get_BitLength();
     // public System.Boolean get_IsOne()
-    // Offset: 0x2019D4C
+    // Offset: 0x1D699B0
     bool get_IsOne();
     // public System.Boolean get_IsZero()
-    // Offset: 0x2019D74
+    // Offset: 0x1D699D8
     bool get_IsZero();
     // public Org.BouncyCastle.Math.EC.ECFieldElement MultiplyMinusProduct(Org.BouncyCastle.Math.EC.ECFieldElement b, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y)
-    // Offset: 0x2019DA4
+    // Offset: 0x1D69A08
     Org::BouncyCastle::Math::EC::ECFieldElement* MultiplyMinusProduct(Org::BouncyCastle::Math::EC::ECFieldElement* b, Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y);
     // public Org.BouncyCastle.Math.EC.ECFieldElement MultiplyPlusProduct(Org.BouncyCastle.Math.EC.ECFieldElement b, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y)
-    // Offset: 0x2019E0C
+    // Offset: 0x1D69A70
     Org::BouncyCastle::Math::EC::ECFieldElement* MultiplyPlusProduct(Org::BouncyCastle::Math::EC::ECFieldElement* b, Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y);
     // public Org.BouncyCastle.Math.EC.ECFieldElement SquarePlusProduct(Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y)
-    // Offset: 0x2019E74
+    // Offset: 0x1D69AD8
     Org::BouncyCastle::Math::EC::ECFieldElement* SquarePlusProduct(Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y);
     // public Org.BouncyCastle.Math.EC.ECFieldElement SquarePow(System.Int32 pow)
-    // Offset: 0x2019EE0
+    // Offset: 0x1D69B44
     Org::BouncyCastle::Math::EC::ECFieldElement* SquarePow(int pow);
     // public System.Boolean TestBitZero()
-    // Offset: 0x2019F28
+    // Offset: 0x1D69B8C
     bool TestBitZero();
     // public System.Boolean Equals(Org.BouncyCastle.Math.EC.ECFieldElement other)
-    // Offset: 0x2019FF0
+    // Offset: 0x1D69C54
     bool Equals(Org::BouncyCastle::Math::EC::ECFieldElement* other);
     // public System.Byte[] GetEncoded()
-    // Offset: 0x201A0C0
+    // Offset: 0x1D69D24
     ::Array<uint8_t>* GetEncoded();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x2019F54
+    // Offset: 0x1D69BB8
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x201A068
+    // Offset: 0x1D69CCC
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x201A094
+    // Offset: 0x1D69CF8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // protected System.Void .ctor()
-    // Offset: 0x201A11C
+    // Offset: 0x1D69D80
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ECFieldElement* New_ctor();

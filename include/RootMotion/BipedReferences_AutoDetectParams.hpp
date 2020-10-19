@@ -24,10 +24,10 @@ namespace RootMotion {
     // Creating value type constructor for type: AutoDetectParams
     constexpr AutoDetectParams(bool legsParentInSpine_ = {}, bool includeEyes_ = {}) noexcept : legsParentInSpine{legsParentInSpine_}, includeEyes{includeEyes_} {}
     // public System.Void .ctor(System.Boolean legsParentInSpine, System.Boolean includeEyes)
-    // Offset: 0xDC3C2C
+    // Offset: 0xC79098
     // ABORTED: conflicts with another method.  AutoDetectParams(bool legsParentInSpine, bool includeEyes);
     // static public RootMotion.BipedReferences/AutoDetectParams get_Default()
-    // Offset: 0x1ACAADC
+    // Offset: 0x186ACD0
     static RootMotion::BipedReferences::AutoDetectParams get_Default();
   }; // RootMotion.BipedReferences/AutoDetectParams
 }

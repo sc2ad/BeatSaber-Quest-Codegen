@@ -21,10 +21,10 @@ namespace GlobalNamespace {
   class AvatarSpritePartSO : public GlobalNamespace::AvatarPartSO_1<UnityEngine::Sprite*> {
     public:
     // public UnityEngine.Sprite get_sprite()
-    // Offset: 0xFB6964
+    // Offset: 0x2035014
     UnityEngine::Sprite* get_sprite();
     // public System.Void .ctor()
-    // Offset: 0xFB69A8
+    // Offset: 0x2035058
     // Implemented from: AvatarPartSO`1
     // Base method: System.Void AvatarPartSO_1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

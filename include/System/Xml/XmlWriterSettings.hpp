@@ -120,106 +120,106 @@ namespace System::Xml {
     // Offset: 0x85
     bool isReadOnly;
     // public System.Boolean get_Async()
-    // Offset: 0x21F6A34
+    // Offset: 0x1F48444
     bool get_Async();
     // public System.Text.Encoding get_Encoding()
-    // Offset: 0x21F6A3C
+    // Offset: 0x1F4844C
     System::Text::Encoding* get_Encoding();
     // public System.Boolean get_OmitXmlDeclaration()
-    // Offset: 0x21F6A44
+    // Offset: 0x1F48454
     bool get_OmitXmlDeclaration();
     // public System.Xml.NewLineHandling get_NewLineHandling()
-    // Offset: 0x21F6A4C
+    // Offset: 0x1F4845C
     System::Xml::NewLineHandling get_NewLineHandling();
     // public System.String get_NewLineChars()
-    // Offset: 0x21F6A54
+    // Offset: 0x1F48464
     ::Il2CppString* get_NewLineChars();
     // public System.Boolean get_Indent()
-    // Offset: 0x21F6A5C
+    // Offset: 0x1F4846C
     bool get_Indent();
     // public System.Void set_Indent(System.Boolean value)
-    // Offset: 0x21F6A6C
+    // Offset: 0x1F4847C
     void set_Indent(bool value);
     // public System.String get_IndentChars()
-    // Offset: 0x21F6BB4
+    // Offset: 0x1F485C4
     ::Il2CppString* get_IndentChars();
     // public System.Boolean get_NewLineOnAttributes()
-    // Offset: 0x21F6BBC
+    // Offset: 0x1F485CC
     bool get_NewLineOnAttributes();
     // public System.Boolean get_CloseOutput()
-    // Offset: 0x21F6BC4
+    // Offset: 0x1F485D4
     bool get_CloseOutput();
     // public System.Xml.ConformanceLevel get_ConformanceLevel()
-    // Offset: 0x21F6BCC
+    // Offset: 0x1F485DC
     System::Xml::ConformanceLevel get_ConformanceLevel();
     // public System.Void set_ConformanceLevel(System.Xml.ConformanceLevel value)
-    // Offset: 0x21F6BD4
+    // Offset: 0x1F485E4
     void set_ConformanceLevel(System::Xml::ConformanceLevel value);
     // public System.Boolean get_CheckCharacters()
-    // Offset: 0x21F6C7C
+    // Offset: 0x1F4868C
     bool get_CheckCharacters();
     // public System.Xml.NamespaceHandling get_NamespaceHandling()
-    // Offset: 0x21F6C84
+    // Offset: 0x1F48694
     System::Xml::NamespaceHandling get_NamespaceHandling();
     // public System.Boolean get_WriteEndDocumentOnClose()
-    // Offset: 0x21F6C8C
+    // Offset: 0x1F4869C
     bool get_WriteEndDocumentOnClose();
     // public System.Xml.XmlOutputMethod get_OutputMethod()
-    // Offset: 0x21F6C94
+    // Offset: 0x1F486A4
     System::Xml::XmlOutputMethod get_OutputMethod();
     // System.Void set_OutputMethod(System.Xml.XmlOutputMethod value)
-    // Offset: 0x21F6C9C
+    // Offset: 0x1F486AC
     void set_OutputMethod(System::Xml::XmlOutputMethod value);
     // public System.Xml.XmlWriterSettings Clone()
-    // Offset: 0x21F6CA4
+    // Offset: 0x1F486B4
     System::Xml::XmlWriterSettings* Clone();
     // System.Collections.Generic.List`1<System.Xml.XmlQualifiedName> get_CDataSectionElements()
-    // Offset: 0x21F6D68
+    // Offset: 0x1F48778
     System::Collections::Generic::List_1<System::Xml::XmlQualifiedName*>* get_CDataSectionElements();
     // public System.Boolean get_DoNotEscapeUriAttributes()
-    // Offset: 0x21F6D70
+    // Offset: 0x1F48780
     bool get_DoNotEscapeUriAttributes();
     // System.Boolean get_MergeCDataSections()
-    // Offset: 0x21F6D78
+    // Offset: 0x1F48788
     bool get_MergeCDataSections();
     // System.String get_MediaType()
-    // Offset: 0x21F6D80
+    // Offset: 0x1F48790
     ::Il2CppString* get_MediaType();
     // System.String get_DocTypeSystem()
-    // Offset: 0x21F6D88
+    // Offset: 0x1F48798
     ::Il2CppString* get_DocTypeSystem();
     // System.String get_DocTypePublic()
-    // Offset: 0x21F6D90
+    // Offset: 0x1F487A0
     ::Il2CppString* get_DocTypePublic();
     // System.Xml.XmlStandalone get_Standalone()
-    // Offset: 0x21F6D98
+    // Offset: 0x1F487A8
     System::Xml::XmlStandalone get_Standalone();
     // System.Boolean get_AutoXmlDeclaration()
-    // Offset: 0x21F6DA0
+    // Offset: 0x1F487B0
     bool get_AutoXmlDeclaration();
     // System.Xml.TriState get_IndentInternal()
-    // Offset: 0x21F6DA8
+    // Offset: 0x1F487B8
     System::Xml::TriState get_IndentInternal();
     // System.Boolean get_IsQuerySpecific()
-    // Offset: 0x21F6DB0
+    // Offset: 0x1F487C0
     bool get_IsQuerySpecific();
     // System.Xml.XmlWriter CreateWriter(System.IO.Stream output)
-    // Offset: 0x21F624C
+    // Offset: 0x1F47C5C
     System::Xml::XmlWriter* CreateWriter(System::IO::Stream* output);
     // System.Xml.XmlWriter CreateWriter(System.IO.TextWriter output)
-    // Offset: 0x21F6684
+    // Offset: 0x1F48094
     System::Xml::XmlWriter* CreateWriter(System::IO::TextWriter* output);
     // System.Void set_ReadOnly(System.Boolean value)
-    // Offset: 0x21F6E28
+    // Offset: 0x1F48838
     void set_ReadOnly(bool value);
     // private System.Void CheckReadOnly(System.String propertyName)
-    // Offset: 0x21F6ADC
+    // Offset: 0x1F484EC
     void CheckReadOnly(::Il2CppString* propertyName);
     // private System.Void Initialize()
-    // Offset: 0x21F691C
+    // Offset: 0x1F4832C
     void Initialize();
     // public System.Void .ctor()
-    // Offset: 0x21F61C8
+    // Offset: 0x1F47BD8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static XmlWriterSettings* New_ctor();

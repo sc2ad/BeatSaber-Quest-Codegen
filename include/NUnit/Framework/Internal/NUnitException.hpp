@@ -23,18 +23,18 @@ namespace NUnit::Framework::Internal {
   class NUnitException : public System::Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0x217472C
+    // Offset: 0x1EC9390
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static NUnitException* New_ctor();
     // public System.Void .ctor(System.String message, System.Exception inner)
-    // Offset: 0x2174794
+    // Offset: 0x1EC93F8
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception inner)
     static NUnitException* New_ctor(::Il2CppString* message, System::Exception* inner);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x2174814
+    // Offset: 0x1EC9478
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static NUnitException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);

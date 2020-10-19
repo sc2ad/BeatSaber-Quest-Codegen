@@ -25,13 +25,13 @@ namespace GlobalNamespace {
       return appInitOverrideStartType;
     }
     // public AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType get_appInitOverrideStartType()
-    // Offset: 0xFAFB6C
+    // Offset: 0x202E21C
     GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType get_appInitOverrideStartType();
     // private System.Void set_appInitOverrideStartType(AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType value)
-    // Offset: 0xFAFB74
+    // Offset: 0x202E224
     void set_appInitOverrideStartType(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType value);
     // public System.Void .ctor(AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType appInitOverrideStartType)
-    // Offset: 0xFAF740
+    // Offset: 0x202DDF0
     static AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData* New_ctor(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType appInitOverrideStartType);
   }; // AppInitScenesTransitionSetupDataSO/AppInitSceneSetupData
 }

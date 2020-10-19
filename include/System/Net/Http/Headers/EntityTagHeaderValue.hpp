@@ -39,51 +39,51 @@ namespace System::Net::Http::Headers {
     // Set static field: static private readonly System.Net.Http.Headers.EntityTagHeaderValue any
     static void _set_any(System::Net::Http::Headers::EntityTagHeaderValue* value);
     // public System.Boolean get_IsWeak()
-    // Offset: 0x13A02D8
+    // Offset: 0x1175A14
     bool get_IsWeak();
     // System.Void set_IsWeak(System.Boolean value)
-    // Offset: 0x13A02E0
+    // Offset: 0x1175A1C
     void set_IsWeak(bool value);
     // public System.String get_Tag()
-    // Offset: 0x13A02EC
+    // Offset: 0x1175A28
     ::Il2CppString* get_Tag();
     // System.Void set_Tag(System.String value)
-    // Offset: 0x13A02F4
+    // Offset: 0x1175A30
     void set_Tag(::Il2CppString* value);
     // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.EntityTagHeaderValue parsedValue)
-    // Offset: 0x13A0420
+    // Offset: 0x1175B5C
     static bool TryParse(::Il2CppString* input, System::Net::Http::Headers::EntityTagHeaderValue*& parsedValue);
     // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.EntityTagHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x13A0524
+    // Offset: 0x1175C60
     static bool TryParseElement(System::Net::Http::Headers::Lexer* lexer, System::Net::Http::Headers::EntityTagHeaderValue*& parsedValue, System::Net::Http::Headers::Token& t);
     // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.EntityTagHeaderValue> result)
-    // Offset: 0x13A0790
+    // Offset: 0x1175ECC
     static bool TryParse(::Il2CppString* input, int minimalCount, System::Collections::Generic::List_1<System::Net::Http::Headers::EntityTagHeaderValue*>*& result);
     // static private System.Void .cctor()
-    // Offset: 0x13A089C
+    // Offset: 0x1175FD8
     static void _cctor();
     // System.Void .ctor()
-    // Offset: 0x13A02D0
+    // Offset: 0x1175A0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EntityTagHeaderValue* New_ctor();
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x13A02FC
+    // Offset: 0x1175A38
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* System_ICloneable_Clone();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x13A0304
+    // Offset: 0x1175A40
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x13A03CC
+    // Offset: 0x1175B08
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x13A0830
+    // Offset: 0x1175F6C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

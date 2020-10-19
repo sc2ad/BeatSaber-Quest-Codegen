@@ -28,16 +28,16 @@ namespace Mono::Unity {
   class UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_certificate_callback_t : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1424FEC
+    // Offset: 0x11FB728
     static UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_certificate_callback_t* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(Mono.Unity.UnityTls/unitytls_tlsctx* ctx, Mono.Unity.UnityTls/unitytls_tlsctx_certificate_callback cb, System.Void* userData, Mono.Unity.UnityTls/unitytls_errorstate* errorState)
-    // Offset: 0x1425000
+    // Offset: 0x11FB73C
     void Invoke(Mono::Unity::UnityTls::unitytls_tlsctx* ctx, Mono::Unity::UnityTls::unitytls_tlsctx_certificate_callback* cb, void* userData, Mono::Unity::UnityTls::unitytls_errorstate* errorState);
     // public System.IAsyncResult BeginInvoke(Mono.Unity.UnityTls/unitytls_tlsctx* ctx, Mono.Unity.UnityTls/unitytls_tlsctx_certificate_callback cb, System.Void* userData, Mono.Unity.UnityTls/unitytls_errorstate* errorState, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1425298
+    // Offset: 0x11FB9D4
     System::IAsyncResult* BeginInvoke(Mono::Unity::UnityTls::unitytls_tlsctx* ctx, Mono::Unity::UnityTls::unitytls_tlsctx_certificate_callback* cb, void* userData, Mono::Unity::UnityTls::unitytls_errorstate* errorState, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x14252CC
+    // Offset: 0x11FBA08
     void EndInvoke(System::IAsyncResult* result);
   }; // Mono.Unity.UnityTls/unitytls_interface_struct/unitytls_tlsctx_set_certificate_callback_t
 }

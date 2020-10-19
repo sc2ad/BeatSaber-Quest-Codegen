@@ -76,28 +76,28 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kMusicPitchShifterWet
     static void _set_kMusicPitchShifterWet(::Il2CppString* value);
     // public System.Single get_sfxLatency()
-    // Offset: 0xFB161C
+    // Offset: 0x202FCCC
     float get_sfxLatency();
     // public System.Void Init()
-    // Offset: 0xFB1684
+    // Offset: 0x202FD34
     void Init();
     // public System.Void set_mainVolume(System.Single value)
-    // Offset: 0xFB1728
+    // Offset: 0x202FDD8
     void set_mainVolume(float value);
     // public System.Void set_sfxVolume(System.Single value)
-    // Offset: 0xFB1794
+    // Offset: 0x202FE44
     void set_sfxVolume(float value);
     // public System.Boolean get_sfxEnabled()
-    // Offset: 0xFB1820
+    // Offset: 0x202FED0
     bool get_sfxEnabled();
     // public System.Void set_sfxEnabled(System.Boolean value)
-    // Offset: 0xFB1828
+    // Offset: 0x202FED8
     void set_sfxEnabled(bool value);
     // public System.Void set_musicPitch(System.Single value)
-    // Offset: 0xFB1848
+    // Offset: 0x202FEF8
     void set_musicPitch(float value);
     // public System.Void .ctor()
-    // Offset: 0xFB1918
+    // Offset: 0x202FFC8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -44,49 +44,49 @@ namespace GlobalNamespace {
     // Offset: 0x38
     bool songDidFinish;
     // public System.Single get_songLength()
-    // Offset: 0xEC6F94
+    // Offset: 0x2005F88
     float get_songLength();
     // protected System.Void LateUpdate()
-    // Offset: 0xEC6FCC
+    // Offset: 0x2005FC0
     void LateUpdate();
     // public System.Void FailStopSong()
-    // Offset: 0xEC70BC
+    // Offset: 0x20060B0
     void FailStopSong();
     // private System.Void <FailStopSong>b__13_0()
-    // Offset: 0xEC71E0
+    // Offset: 0x20061D4
     void $FailStopSong$b__13_0();
     // public UnityEngine.WaitUntil get_waitUntilIsReadyToStartTheSong()
-    // Offset: 0xEC6FB0
+    // Offset: 0x2005FA4
     // Implemented from: IStartSeekSongController
     // Base method: UnityEngine.WaitUntil IStartSeekSongController::get_waitUntilIsReadyToStartTheSong()
     UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();
     // public System.Void StartSong(System.Single songTimeOffset)
-    // Offset: 0xEC7044
+    // Offset: 0x2006038
     // Implemented from: IStartSeekSongController
     // Base method: System.Void IStartSeekSongController::StartSong(System.Single songTimeOffset)
     void StartSong(float songTimeOffset);
     // public override System.Void StopSong()
-    // Offset: 0xEC7068
+    // Offset: 0x200605C
     // Implemented from: SongController
     // Base method: System.Void SongController::StopSong()
     void StopSong();
     // public override System.Void PauseSong()
-    // Offset: 0xEC7084
+    // Offset: 0x2006078
     // Implemented from: SongController
     // Base method: System.Void SongController::PauseSong()
     void PauseSong();
     // public override System.Void ResumeSong()
-    // Offset: 0xEC70A0
+    // Offset: 0x2006094
     // Implemented from: SongController
     // Base method: System.Void SongController::ResumeSong()
     void ResumeSong();
     // public System.Void SeekTo(System.Single songTime)
-    // Offset: 0xEC71BC
+    // Offset: 0x20061B0
     // Implemented from: IStartSeekSongController
     // Base method: System.Void IStartSeekSongController::SeekTo(System.Single songTime)
     void SeekTo(float songTime);
     // public System.Void .ctor()
-    // Offset: 0xEC71D8
+    // Offset: 0x20061CC
     // Implemented from: SongController
     // Base method: System.Void SongController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

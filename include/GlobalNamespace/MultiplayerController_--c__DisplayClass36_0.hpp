@@ -20,10 +20,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     float introAnimationStartSyncTime;
     // System.Void <HandleSongStartSyncControllerSyncStartSuccess>b__0()
-    // Offset: 0xFD1A90
+    // Offset: 0x20665C8
     void $HandleSongStartSyncControllerSyncStartSuccess$b__0();
     // public System.Void .ctor()
-    // Offset: 0xFD0950
+    // Offset: 0x2065488
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MultiplayerController::$$c__DisplayClass36_0* New_ctor();

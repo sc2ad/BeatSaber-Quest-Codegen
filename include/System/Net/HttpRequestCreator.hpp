@@ -26,12 +26,12 @@ namespace System::Net {
   class HttpRequestCreator : public ::Il2CppObject, public System::Net::IWebRequestCreate {
     public:
     // System.Void .ctor()
-    // Offset: 0x1468D54
+    // Offset: 0x123F57C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HttpRequestCreator* New_ctor();
     // public System.Net.WebRequest Create(System.Uri uri)
-    // Offset: 0x1468D5C
+    // Offset: 0x123F584
     // Implemented from: System.Net.IWebRequestCreate
     // Base method: System.Net.WebRequest IWebRequestCreate::Create(System.Uri uri)
     System::Net::WebRequest* Create(System::Uri* uri);

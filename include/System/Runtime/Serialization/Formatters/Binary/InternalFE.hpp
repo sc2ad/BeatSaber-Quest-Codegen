@@ -32,7 +32,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x1C
     System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE FEserializerTypeEnum;
     // public System.Void .ctor()
-    // Offset: 0x14BDBFC
+    // Offset: 0x1293424
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InternalFE* New_ctor();

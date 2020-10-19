@@ -40,16 +40,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x10A7ECC
+    // Offset: 0x20F3EE4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10A7F60
+    // Offset: 0x20F3F78
     void OnDestroy();
     // private System.Void HandleNoteWasCut(NoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0x10A8000
+    // Offset: 0x20F4018
     void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // public System.Void .ctor()
-    // Offset: 0x10A8168
+    // Offset: 0x20F4180
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

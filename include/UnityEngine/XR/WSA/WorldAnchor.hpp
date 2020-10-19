@@ -26,7 +26,7 @@ namespace UnityEngine::XR::WSA {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static private System.Void Internal_TriggerEventOnTrackingLost(UnityEngine.XR.WSA.WorldAnchor worldAnchor, System.Boolean located)
-    // Offset: 0x2227EC4
+    // Offset: 0x1F78278
     static void Internal_TriggerEventOnTrackingLost(UnityEngine::XR::WSA::WorldAnchor* worldAnchor, bool located);
   }; // UnityEngine.XR.WSA.WorldAnchor
 }

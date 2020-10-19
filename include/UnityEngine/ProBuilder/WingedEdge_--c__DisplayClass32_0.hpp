@@ -29,10 +29,10 @@ namespace UnityEngine::ProBuilder {
       return common;
     }
     // System.Boolean <SortCommonIndexesByAdjacency>b__0(UnityEngine.ProBuilder.WingedEdge x)
-    // Offset: 0x212F480
+    // Offset: 0x1E820E4
     bool $SortCommonIndexesByAdjacency$b__0(UnityEngine::ProBuilder::WingedEdge* x);
     // public System.Void .ctor()
-    // Offset: 0x212F27C
+    // Offset: 0x1E81EE0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static WingedEdge::$$c__DisplayClass32_0* New_ctor();

@@ -34,10 +34,10 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Offset: 0x18
     int m_confWidth;
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, System.Int32 confWidth)
-    // Offset: 0x1B54F28
+    // Offset: 0x18F611C
     static WNafUtilities::ConfigureBasepointCallback* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, int confWidth);
     // public Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
-    // Offset: 0x1B55CA0
+    // Offset: 0x18F6E94
     // Implemented from: Org.BouncyCastle.Math.EC.Multiplier.IPreCompCallback
     // Base method: Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo IPreCompCallback::Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
     Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);

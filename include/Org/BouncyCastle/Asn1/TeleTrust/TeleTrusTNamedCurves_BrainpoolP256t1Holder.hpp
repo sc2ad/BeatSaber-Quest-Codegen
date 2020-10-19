@@ -27,16 +27,16 @@ namespace Org::BouncyCastle::Asn1::TeleTrust {
     // Set static field: static readonly Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance
     static void _set_Instance(Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
     // static private System.Void .cctor()
-    // Offset: 0x1640BB4
+    // Offset: 0x14173DC
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x1640A38
+    // Offset: 0x1417260
     // Implemented from: Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
     // Base method: System.Void X9ECParametersHolder::.ctor()
     // Base method: System.Void Object::.ctor()
     static TeleTrusTNamedCurves::BrainpoolP256t1Holder* New_ctor();
     // protected override Org.BouncyCastle.Asn1.X9.X9ECParameters CreateParameters()
-    // Offset: 0x1640A40
+    // Offset: 0x1417268
     // Implemented from: Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
     // Base method: Org.BouncyCastle.Asn1.X9.X9ECParameters X9ECParametersHolder::CreateParameters()
     Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();

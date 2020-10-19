@@ -35,23 +35,23 @@ namespace System::Reflection {
     // Offset: 0x90
     ::Array<System::Exception*>* exceptions;
     // public System.Void .ctor(System.Type[] classes, System.Exception[] exceptions)
-    // Offset: 0x18D51B8
+    // Offset: 0x167B5DC
     static ReflectionTypeLoadException* New_ctor(::Array<System::Type*>* classes, ::Array<System::Exception*>* exceptions);
     // private System.Void .ctor()
-    // Offset: 0x18D5144
+    // Offset: 0x167B568
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static ReflectionTypeLoadException* New_ctor();
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x18D5220
+    // Offset: 0x167B644
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static ReflectionTypeLoadException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x18D539C
+    // Offset: 0x167B7C0
     // Implemented from: System.Exception
     // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);

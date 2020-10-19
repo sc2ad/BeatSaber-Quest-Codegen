@@ -41,10 +41,10 @@ namespace Zenject {
     // Offset: 0x28
     Zenject::InjectContext* context;
     // System.Void <GetAllInstancesWithInjectSplit>b__0()
-    // Offset: 0x11F2B58
+    // Offset: 0xFEE3F4
     void $GetAllInstancesWithInjectSplit$b__0();
     // public System.Void .ctor()
-    // Offset: 0x11F2B50
+    // Offset: 0xFEE3EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AddToCurrentGameObjectComponentProvider::$$c__DisplayClass15_0* New_ctor();

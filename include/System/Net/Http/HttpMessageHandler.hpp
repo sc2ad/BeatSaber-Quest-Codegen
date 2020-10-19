@@ -34,13 +34,13 @@ namespace System::Net::Http {
   class HttpMessageHandler : public ::Il2CppObject, public System::IDisposable {
     public:
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x13AD7C8
+    // Offset: 0x1182F04
     void Dispose(bool disposing);
     // protected internal System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> SendAsync(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
     System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* SendAsync(System::Net::Http::HttpRequestMessage* request, System::Threading::CancellationToken cancellationToken);
     // public System.Void Dispose()
-    // Offset: 0x13B05EC
+    // Offset: 0x1185D28
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -48,7 +48,7 @@ namespace System::Net::Http {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // protected System.Void .ctor()
-    // Offset: 0x13AD6A0
+    // Offset: 0x1182DDC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HttpMessageHandler* New_ctor();

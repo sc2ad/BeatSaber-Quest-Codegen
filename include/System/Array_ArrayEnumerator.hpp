@@ -27,10 +27,10 @@ namespace System {
     // Offset: 0x1C
     int endIndex;
     // System.Void .ctor(System.Array array)
-    // Offset: 0x15C6A40
+    // Offset: 0x139D268
     static Array::ArrayEnumerator* New_ctor(System::Array* array);
     // public System.Boolean MoveNext()
-    // Offset: 0x15C7484
+    // Offset: 0x139DCAC
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -38,7 +38,7 @@ namespace System {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // public System.Void Reset()
-    // Offset: 0x15C74AC
+    // Offset: 0x139DCD4
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();
@@ -46,7 +46,7 @@ namespace System {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
     // public System.Object Clone()
-    // Offset: 0x15C74B8
+    // Offset: 0x139DCE0
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();
@@ -54,7 +54,7 @@ namespace System {
     // Maps to method: Clone
     ::Il2CppObject* System_ICloneable_Clone();
     // public System.Object get_Current()
-    // Offset: 0x15C74C0
+    // Offset: 0x139DCE8
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* get_Current();

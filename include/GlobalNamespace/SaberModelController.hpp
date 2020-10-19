@@ -58,10 +58,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Init(UnityEngine.Transform parent, Saber saber)
-    // Offset: 0xF80990
+    // Offset: 0x2077BEC
     void Init(UnityEngine::Transform* parent, GlobalNamespace::Saber* saber);
     // public System.Void .ctor()
-    // Offset: 0xF80C50
+    // Offset: 0x2077EAC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

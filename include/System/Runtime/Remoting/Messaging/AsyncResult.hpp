@@ -96,57 +96,57 @@ namespace System::Runtime::Remoting::Messaging {
     // Set static field: static System.Threading.ContextCallback ccb
     static void _set_ccb(System::Threading::ContextCallback* value);
     // System.Void .ctor(System.Threading.WaitCallback cb, System.Object state, System.Boolean capture_context)
-    // Offset: 0x12A543C
+    // Offset: 0x10A0CD8
     static AsyncResult* New_ctor(System::Threading::WaitCallback* cb, ::Il2CppObject* state, bool capture_context);
     // static private System.Void WaitCallback_Context(System.Object state)
-    // Offset: 0x12A554C
+    // Offset: 0x10A0DE8
     static void WaitCallback_Context(::Il2CppObject* state);
     // public System.Boolean get_EndInvokeCalled()
-    // Offset: 0x12A5704
+    // Offset: 0x10A0FA0
     bool get_EndInvokeCalled();
     // public System.Void set_EndInvokeCalled(System.Boolean value)
-    // Offset: 0x12A570C
+    // Offset: 0x10A0FA8
     void set_EndInvokeCalled(bool value);
     // public System.Object get_AsyncDelegate()
-    // Offset: 0x12A5718
+    // Offset: 0x10A0FB4
     ::Il2CppObject* get_AsyncDelegate();
     // public System.Runtime.Remoting.Messaging.IMessageSink get_NextSink()
-    // Offset: 0x12A5720
+    // Offset: 0x10A0FBC
     System::Runtime::Remoting::Messaging::IMessageSink* get_NextSink();
     // public System.Runtime.Remoting.Messaging.IMessage GetReplyMessage()
-    // Offset: 0x12A5788
+    // Offset: 0x10A1024
     System::Runtime::Remoting::Messaging::IMessage* GetReplyMessage();
     // public System.Void SetMessageCtrl(System.Runtime.Remoting.Messaging.IMessageCtrl mc)
-    // Offset: 0x12A5790
+    // Offset: 0x10A102C
     void SetMessageCtrl(System::Runtime::Remoting::Messaging::IMessageCtrl* mc);
     // System.Void SetCompletedSynchronously(System.Boolean completed)
-    // Offset: 0x12A5798
+    // Offset: 0x10A1034
     void SetCompletedSynchronously(bool completed);
     // System.Runtime.Remoting.Messaging.IMessage EndInvoke()
-    // Offset: 0x12A57A4
+    // Offset: 0x10A1040
     System::Runtime::Remoting::Messaging::IMessage* EndInvoke();
     // System.Runtime.Remoting.Messaging.MonoMethodMessage get_CallMessage()
-    // Offset: 0x12A59F8
+    // Offset: 0x10A1294
     System::Runtime::Remoting::Messaging::MonoMethodMessage* get_CallMessage();
     // System.Void set_CallMessage(System.Runtime.Remoting.Messaging.MonoMethodMessage value)
-    // Offset: 0x12A5A00
+    // Offset: 0x10A129C
     void set_CallMessage(System::Runtime::Remoting::Messaging::MonoMethodMessage* value);
     // System.Object Invoke()
-    // Offset: 0x12A5A0C
+    // Offset: 0x10A12A8
     ::Il2CppObject* Invoke();
     // static private System.Void .cctor()
-    // Offset: 0x12A5A14
+    // Offset: 0x10A12B0
     static void _cctor();
     // private System.Void <.ctor>b__17_0(System.Object <p0>)
-    // Offset: 0x12A5A94
+    // Offset: 0x10A1330
     void $_ctor$b__17_0(::Il2CppObject* $p0$);
     // System.Void .ctor()
-    // Offset: 0x12A5434
+    // Offset: 0x10A0CD0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AsyncResult* New_ctor();
     // public System.Object get_AsyncState()
-    // Offset: 0x12A55E0
+    // Offset: 0x10A0E7C
     // Implemented from: System.IAsyncResult
     // Base method: System.Object IAsyncResult::get_AsyncState()
     ::Il2CppObject* get_AsyncState();
@@ -154,7 +154,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Maps to method: get_AsyncState
     ::Il2CppObject* System_IAsyncResult_get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x12A55E8
+    // Offset: 0x10A0E84
     // Implemented from: System.IAsyncResult
     // Base method: System.Threading.WaitHandle IAsyncResult::get_AsyncWaitHandle()
     System::Threading::WaitHandle* get_AsyncWaitHandle();
@@ -162,7 +162,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Maps to method: get_AsyncWaitHandle
     System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x12A56F4
+    // Offset: 0x10A0F90
     // Implemented from: System.IAsyncResult
     // Base method: System.Boolean IAsyncResult::get_CompletedSynchronously()
     bool get_CompletedSynchronously();
@@ -170,7 +170,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Maps to method: get_CompletedSynchronously
     bool System_IAsyncResult_get_CompletedSynchronously();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x12A56FC
+    // Offset: 0x10A0F98
     // Implemented from: System.IAsyncResult
     // Base method: System.Boolean IAsyncResult::get_IsCompleted()
     bool get_IsCompleted();
@@ -178,22 +178,22 @@ namespace System::Runtime::Remoting::Messaging {
     // Maps to method: get_IsCompleted
     bool System_IAsyncResult_get_IsCompleted();
     // public System.Runtime.Remoting.Messaging.IMessageCtrl AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
-    // Offset: 0x12A5728
+    // Offset: 0x10A0FC4
     // Implemented from: System.Runtime.Remoting.Messaging.IMessageSink
     // Base method: System.Runtime.Remoting.Messaging.IMessageCtrl IMessageSink::AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
     System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg, System::Runtime::Remoting::Messaging::IMessageSink* replySink);
     // public System.Runtime.Remoting.Messaging.IMessage SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0x12A58AC
+    // Offset: 0x10A1148
     // Implemented from: System.Runtime.Remoting.Messaging.IMessageSink
     // Base method: System.Runtime.Remoting.Messaging.IMessage IMessageSink::SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
     System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg);
     // private System.Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
-    // Offset: 0x12A5A08
+    // Offset: 0x10A12A4
     // Implemented from: System.Threading.IThreadPoolWorkItem
     // Base method: System.Void IThreadPoolWorkItem::ExecuteWorkItem()
     void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
     // private System.Void System.Threading.IThreadPoolWorkItem.MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0x12A5A10
+    // Offset: 0x10A12AC
     // Implemented from: System.Threading.IThreadPoolWorkItem
     // Base method: System.Void IThreadPoolWorkItem::MarkAborted(System.Threading.ThreadAbortException tae)
     void System_Threading_IThreadPoolWorkItem_MarkAborted(System::Threading::ThreadAbortException* tae);

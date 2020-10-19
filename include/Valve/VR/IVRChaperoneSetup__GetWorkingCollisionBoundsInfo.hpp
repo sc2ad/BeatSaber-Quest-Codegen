@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1E2A7C0
+    // Offset: 0x1B7D424
     static IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(in Valve.VR.HmdQuad_t[] pQuadsBuffer, ref System.UInt32 punQuadsCount)
-    // Offset: 0x1E2A7D4
+    // Offset: 0x1B7D438
     bool Invoke(::Array<Valve::VR::HmdQuad_t>*& pQuadsBuffer, uint& punQuadsCount);
     // public System.IAsyncResult BeginInvoke(in Valve.VR.HmdQuad_t[] pQuadsBuffer, ref System.UInt32 punQuadsCount, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1E2AA4C
+    // Offset: 0x1B7D6B0
     System::IAsyncResult* BeginInvoke(::Array<Valve::VR::HmdQuad_t>*& pQuadsBuffer, uint& punQuadsCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(ref System.UInt32 punQuadsCount, System.IAsyncResult result)
-    // Offset: 0x1E2AAE8
+    // Offset: 0x1B7D74C
     bool EndInvoke(uint& punQuadsCount, System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperoneSetup/_GetWorkingCollisionBoundsInfo
 }

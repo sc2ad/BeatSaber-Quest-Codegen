@@ -132,36 +132,36 @@ namespace GlobalNamespace {
     // Offset: 0x74
     bool stillDownloadingCalled;
     // public System.Void add_stillDownloadingSongEvent(System.Action value)
-    // Offset: 0x2233C4C
+    // Offset: 0x204225C
     void add_stillDownloadingSongEvent(System::Action* value);
     // public System.Void remove_stillDownloadingSongEvent(System.Action value)
-    // Offset: 0x2233CF0
+    // Offset: 0x2042300
     void remove_stillDownloadingSongEvent(System::Action* value);
     // public System.Void add_countdownFinishedEvent(System.Action`5<IPreviewBeatmapLevel,BeatmapDifficulty,BeatmapCharacteristicSO,IDifficultyBeatmap,GameplayModifiers> value)
-    // Offset: 0x2233D94
+    // Offset: 0x20423A4
     void add_countdownFinishedEvent(System::Action_5<GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::BeatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void remove_countdownFinishedEvent(System.Action`5<IPreviewBeatmapLevel,BeatmapDifficulty,BeatmapCharacteristicSO,IDifficultyBeatmap,GameplayModifiers> value)
-    // Offset: 0x2233E38
+    // Offset: 0x2042448
     void remove_countdownFinishedEvent(System::Action_5<GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::BeatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void LoadLevel(BeatmapIdentifierNetSerializable beatmapId, GameplayModifiers gameplayModifiers, System.Single initialStartTime)
-    // Offset: 0x2233EDC
+    // Offset: 0x20424EC
     void LoadLevel(GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, GlobalNamespace::GameplayModifiers* gameplayModifiers, float initialStartTime);
     // public System.Void SetNewStartTime(System.Single newStartTime)
-    // Offset: 0x223410C
+    // Offset: 0x204271C
     void SetNewStartTime(float newStartTime);
     // public System.Void ClearLoading()
-    // Offset: 0x2234114
+    // Offset: 0x2042724
     void ClearLoading();
     // private System.Boolean <LoadLevel>b__19_0(PreviewDifficultyBeatmapSet set)
-    // Offset: 0x2234450
+    // Offset: 0x2042A60
     bool $LoadLevel$b__19_0(GlobalNamespace::PreviewDifficultyBeatmapSet* set);
     // public System.Void Tick()
-    // Offset: 0x22341BC
+    // Offset: 0x20427CC
     // Implemented from: Zenject.ITickable
     // Base method: System.Void ITickable::Tick()
     void Tick();
     // public System.Void .ctor()
-    // Offset: 0x2234448
+    // Offset: 0x2042A58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MultiplayerLevelLoader* New_ctor();

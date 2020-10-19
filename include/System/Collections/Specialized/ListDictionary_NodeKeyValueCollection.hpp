@@ -39,20 +39,20 @@ namespace System::Collections::Specialized {
     // Offset: 0x18
     bool isKeys;
     // public System.Void .ctor(System.Collections.Specialized.ListDictionary list, System.Boolean isKeys)
-    // Offset: 0x17220E8
+    // Offset: 0x14DDCBC
     static ListDictionary::NodeKeyValueCollection* New_ctor(System::Collections::Specialized::ListDictionary* list, bool isKeys);
     // private System.Void System.Collections.ICollection.CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x17225AC
+    // Offset: 0x14DE180
     // Implemented from: System.Collections.ICollection
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
     void System_Collections_ICollection_CopyTo(System::Array* array, int index);
     // private System.Int32 System.Collections.ICollection.get_Count()
-    // Offset: 0x17226DC
+    // Offset: 0x14DE2B0
     // Implemented from: System.Collections.ICollection
     // Base method: System.Int32 ICollection::get_Count()
     int System_Collections_ICollection_get_Count();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1722714
+    // Offset: 0x14DE2E8
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();

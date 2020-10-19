@@ -55,31 +55,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0xF35D0C
+    // Offset: 0x1F9C6E8
     void Awake();
     // protected System.Void Start()
-    // Offset: 0xF35E40
+    // Offset: 0x1F9C81C
     void Start();
     // protected System.Void FixedUpdate()
-    // Offset: 0xF35EEC
+    // Offset: 0x1F9C8C8
     void FixedUpdate();
     // public System.Void AddRingRotationEffect(System.Single angle, System.Single step, System.Int32 propagationSpeed, System.Single flexySpeed)
-    // Offset: 0xF35E50
+    // Offset: 0x1F9C82C
     void AddRingRotationEffect(float angle, float step, int propagationSpeed, float flexySpeed);
     // public System.Single GetFirstRingRotationAngle()
-    // Offset: 0xF36170
+    // Offset: 0x1F9CB4C
     float GetFirstRingRotationAngle();
     // public System.Single GetFirstRingDestinationRotationAngle()
-    // Offset: 0xF361B4
+    // Offset: 0x1F9CB90
     float GetFirstRingDestinationRotationAngle();
     // private TrackLaneRingsRotationEffect/RingRotationEffect SpawnRingRotationEffect()
-    // Offset: 0xF360D8
+    // Offset: 0x1F9CAB4
     GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect* SpawnRingRotationEffect();
     // private System.Void RecycleRingRotationEffect(TrackLaneRingsRotationEffect/RingRotationEffect ringRotationEffect)
-    // Offset: 0xF36070
+    // Offset: 0x1F9CA4C
     void RecycleRingRotationEffect(GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect* ringRotationEffect);
     // public System.Void .ctor()
-    // Offset: 0xF361F8
+    // Offset: 0x1F9CBD4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

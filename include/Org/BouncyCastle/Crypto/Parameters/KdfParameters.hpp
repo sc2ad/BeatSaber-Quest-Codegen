@@ -20,13 +20,13 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x18
     ::Array<uint8_t>* shared;
     // public System.Void .ctor(System.Byte[] shared, System.Byte[] iv)
-    // Offset: 0x10F2684
+    // Offset: 0xF4D314
     static KdfParameters* New_ctor(::Array<uint8_t>* shared, ::Array<uint8_t>* iv);
     // public System.Byte[] GetSharedSecret()
-    // Offset: 0x10F26D4
+    // Offset: 0xF4D364
     ::Array<uint8_t>* GetSharedSecret();
     // public System.Byte[] GetIV()
-    // Offset: 0x10F26DC
+    // Offset: 0xF4D36C
     ::Array<uint8_t>* GetIV();
   }; // Org.BouncyCastle.Crypto.Parameters.KdfParameters
 }

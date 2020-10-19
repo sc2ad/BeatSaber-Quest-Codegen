@@ -39,16 +39,16 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<MissionNodeConnection,System.Single> <>9__15_1
     static void _set_$$9__15_1(System::Func_2<GlobalNamespace::MissionNodeConnection*, float>* value);
     // static private System.Void .cctor()
-    // Offset: 0xEDFE5C
+    // Offset: 0x1FC9A24
     static void _cctor();
     // System.Single <UpdateNodesAndConnectionCoroutine>b__15_0(MissionNodeConnection connection)
-    // Offset: 0xEDFECC
+    // Offset: 0x1FC9A94
     float $UpdateNodesAndConnectionCoroutine$b__15_0(GlobalNamespace::MissionNodeConnection* connection);
     // System.Single <UpdateNodesAndConnectionCoroutine>b__15_1(MissionNodeConnection connection)
-    // Offset: 0xEDFF94
+    // Offset: 0x1FC9B5C
     float $UpdateNodesAndConnectionCoroutine$b__15_1(GlobalNamespace::MissionNodeConnection* connection);
     // public System.Void .ctor()
-    // Offset: 0xEDFEC4
+    // Offset: 0x1FC9A8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MissionMapAnimationController::$$c* New_ctor();

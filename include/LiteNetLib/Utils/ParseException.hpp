@@ -14,7 +14,7 @@ namespace LiteNetLib::Utils {
   class ParseException : public System::Exception {
     public:
     // public System.Void .ctor(System.String message)
-    // Offset: 0x221464C
+    // Offset: 0x1F6405C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     static ParseException* New_ctor(::Il2CppString* message);

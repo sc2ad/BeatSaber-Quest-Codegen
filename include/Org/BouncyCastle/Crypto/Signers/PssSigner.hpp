@@ -72,44 +72,44 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Offset: 0x68
     uint8_t trailer;
     // static public Org.BouncyCastle.Crypto.Signers.PssSigner CreateRawSigner(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher, Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x10FB414
+    // Offset: 0xF560A4
     static Org::BouncyCastle::Crypto::Signers::PssSigner* CreateRawSigner(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, Org::BouncyCastle::Crypto::IDigest* digest);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher, Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x10FB760
+    // Offset: 0xF563F0
     static PssSigner* New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, Org::BouncyCastle::Crypto::IDigest* digest);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher, Org.BouncyCastle.Crypto.IDigest digest, System.Int32 saltLen)
-    // Offset: 0x10FB850
+    // Offset: 0xF564E0
     static PssSigner* New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, Org::BouncyCastle::Crypto::IDigest* digest, int saltLen);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher, Org.BouncyCastle.Crypto.IDigest digest, System.Int32 saltLen, System.Byte trailer)
-    // Offset: 0x10FB880
+    // Offset: 0xF56510
     static PssSigner* New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, Org::BouncyCastle::Crypto::IDigest* digest, int saltLen, uint8_t trailer);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher, Org.BouncyCastle.Crypto.IDigest contentDigest, Org.BouncyCastle.Crypto.IDigest mgfDigest, System.Int32 saltLen, System.Byte trailer)
-    // Offset: 0x10FB8B0
+    // Offset: 0xF56540
     static PssSigner* New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, Org::BouncyCastle::Crypto::IDigest* contentDigest, Org::BouncyCastle::Crypto::IDigest* mgfDigest, int saltLen, uint8_t trailer);
     // private System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher, Org.BouncyCastle.Crypto.IDigest contentDigest1, Org.BouncyCastle.Crypto.IDigest contentDigest2, Org.BouncyCastle.Crypto.IDigest mgfDigest, System.Int32 saltLen, System.Byte[] salt, System.Byte trailer)
-    // Offset: 0x10FB540
+    // Offset: 0xF561D0
     static PssSigner* New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, Org::BouncyCastle::Crypto::IDigest* contentDigest1, Org::BouncyCastle::Crypto::IDigest* contentDigest2, Org::BouncyCastle::Crypto::IDigest* mgfDigest, int saltLen, ::Array<uint8_t>* salt, uint8_t trailer);
     // private System.Void ClearBlock(System.Byte[] block)
-    // Offset: 0x10FBB3C
+    // Offset: 0xF567CC
     void ClearBlock(::Array<uint8_t>* block);
     // private System.Void ItoOSP(System.Int32 i, System.Byte[] sp)
-    // Offset: 0x10FC530
+    // Offset: 0xF571C0
     void ItoOSP(int i, ::Array<uint8_t>* sp);
     // private System.Byte[] MaskGeneratorFunction1(System.Byte[] Z, System.Int32 zOff, System.Int32 zLen, System.Int32 length)
-    // Offset: 0x10FC090
+    // Offset: 0xF56D20
     ::Array<uint8_t>* MaskGeneratorFunction1(::Array<uint8_t>* Z, int zOff, int zLen, int length);
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x10FB8E0
+    // Offset: 0xF56570
     // Implemented from: Org.BouncyCastle.Crypto.ISigner
     // Base method: System.Void ISigner::Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x10FBB60
+    // Offset: 0xF567F0
     // Implemented from: Org.BouncyCastle.Crypto.ISigner
     // Base method: System.Void ISigner::BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
     void BlockUpdate(::Array<uint8_t>* input, int inOff, int length);
     // public System.Byte[] GenerateSignature()
-    // Offset: 0x10FBC3C
+    // Offset: 0xF568CC
     // Implemented from: Org.BouncyCastle.Crypto.ISigner
     // Base method: System.Byte[] ISigner::GenerateSignature()
     ::Array<uint8_t>* GenerateSignature();

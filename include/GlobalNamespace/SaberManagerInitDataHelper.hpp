@@ -21,7 +21,7 @@ namespace GlobalNamespace {
   class SaberManagerInitDataHelper : public ::Il2CppObject {
     public:
     // static public SaberManager/InitData CreateInitData(GameplayCoreSceneSetupData _sceneSetupData)
-    // Offset: 0xF806D4
+    // Offset: 0x2077930
     static GlobalNamespace::SaberManager::InitData* CreateInitData(GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData);
   }; // SaberManagerInitDataHelper
 }

@@ -65,31 +65,31 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<System.Boolean,System.Boolean> <>9__3_0
     static void _set_$$9__3_0(System::Func_2<bool, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1571C24
+    // Offset: 0x134944C
     static void _cctor();
     // UnityEngine.Vector3[] <CreateMeshWithTransform>b__1_0(UnityEngine.Mesh x)
-    // Offset: 0x1571C94
+    // Offset: 0x13494BC
     ::Array<UnityEngine::Vector3>* $CreateMeshWithTransform$b__1_0(UnityEngine::Mesh* x);
     // UnityEngine.Color[] <CreateMeshWithTransform>b__1_1(UnityEngine.Mesh x)
-    // Offset: 0x1571CB0
+    // Offset: 0x13494D8
     ::Array<UnityEngine::Color>* $CreateMeshWithTransform$b__1_1(UnityEngine::Mesh* x);
     // UnityEngine.Vector2[] <CreateMeshWithTransform>b__1_2(UnityEngine.Mesh x)
-    // Offset: 0x1571CCC
+    // Offset: 0x13494F4
     ::Array<UnityEngine::Vector2>* $CreateMeshWithTransform$b__1_2(UnityEngine::Mesh* x);
     // UnityEngine.Vector3[] <ResetPbObjectWithMeshFilter>b__2_0(UnityEngine.Mesh x)
-    // Offset: 0x1571CE8
+    // Offset: 0x1349510
     ::Array<UnityEngine::Vector3>* $ResetPbObjectWithMeshFilter$b__2_0(UnityEngine::Mesh* x);
     // UnityEngine.Color[] <ResetPbObjectWithMeshFilter>b__2_1(UnityEngine.Mesh x)
-    // Offset: 0x1571D04
+    // Offset: 0x134952C
     ::Array<UnityEngine::Color>* $ResetPbObjectWithMeshFilter$b__2_1(UnityEngine::Mesh* x);
     // UnityEngine.Vector2[] <ResetPbObjectWithMeshFilter>b__2_2(UnityEngine.Mesh x)
-    // Offset: 0x1571D20
+    // Offset: 0x1349548
     ::Array<UnityEngine::Vector2>* $ResetPbObjectWithMeshFilter$b__2_2(UnityEngine::Mesh* x);
     // System.Boolean <FilterUnusedSubmeshIndexes>b__3_0(System.Boolean x)
-    // Offset: 0x1571D3C
+    // Offset: 0x1349564
     bool $FilterUnusedSubmeshIndexes$b__3_0(bool x);
     // public System.Void .ctor()
-    // Offset: 0x1571C8C
+    // Offset: 0x13494B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InternalMeshUtility::$$c* New_ctor();

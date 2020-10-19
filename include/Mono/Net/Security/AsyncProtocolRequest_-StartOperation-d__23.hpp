@@ -48,12 +48,12 @@ namespace Mono::Net::Security {
     // Creating value type constructor for type: $StartOperation$d__23
     constexpr $StartOperation$d__23(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<Mono::Net::Security::AsyncProtocolResult*> $$t__builder_ = {}, Mono::Net::Security::AsyncProtocolRequest* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
-    // Offset: 0xDB3160
+    // Offset: 0xC69580
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDB3168
+    // Offset: 0xC69588
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

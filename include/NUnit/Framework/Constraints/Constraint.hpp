@@ -42,7 +42,7 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x28
     NUnit::Framework::Constraints::ConstraintBuilder* Builder;
     // protected System.Void .ctor(params System.Object[] args)
-    // Offset: 0x15DFF58
+    // Offset: 0x13B6780
     static Constraint* New_ctor(::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void .ctor(params System.Object[] args)
     static Constraint* New_ctor(std::initializer_list<::Il2CppObject*> args);
@@ -52,36 +52,36 @@ namespace NUnit::Framework::Constraints {
       return New_ctor({args...});
     }
     // public System.String get_DisplayName()
-    // Offset: 0x15E0030
+    // Offset: 0x13B6858
     ::Il2CppString* get_DisplayName();
     // protected System.Void set_Description(System.String value)
-    // Offset: 0x15E0090
+    // Offset: 0x13B68B8
     void set_Description(::Il2CppString* value);
     // public System.Object[] get_Arguments()
-    // Offset: 0x15E0098
+    // Offset: 0x13B68C0
     ::Array<::Il2CppObject*>* get_Arguments();
     // private System.Void set_Arguments(System.Object[] value)
-    // Offset: 0x15E00A0
+    // Offset: 0x13B68C8
     void set_Arguments(::Array<::Il2CppObject*>* value);
     // public NUnit.Framework.Constraints.ConstraintBuilder get_Builder()
-    // Offset: 0x15E00A8
+    // Offset: 0x13B68D0
     NUnit::Framework::Constraints::ConstraintBuilder* get_Builder();
     // protected System.String GetStringRepresentation()
-    // Offset: 0x15E0138
+    // Offset: 0x13B6960
     ::Il2CppString* GetStringRepresentation();
     // static private System.String _displayable(System.Object o)
-    // Offset: 0x15E028C
+    // Offset: 0x13B6AB4
     static ::Il2CppString* _displayable(::Il2CppObject* o);
     // private System.String <.ctor>b__0()
-    // Offset: 0x15E04A0
+    // Offset: 0x13B6CC8
     ::Il2CppString* $_ctor$b__0();
     // public System.String get_Description()
-    // Offset: 0x15E0088
+    // Offset: 0x13B68B0
     // Implemented from: NUnit.Framework.Constraints.IConstraint
     // Base method: System.String IConstraint::get_Description()
     ::Il2CppString* get_Description();
     // public System.Void set_Builder(NUnit.Framework.Constraints.ConstraintBuilder value)
-    // Offset: 0x15E00B0
+    // Offset: 0x13B68D8
     // Implemented from: NUnit.Framework.Constraints.IConstraint
     // Base method: System.Void IConstraint::set_Builder(NUnit.Framework.Constraints.ConstraintBuilder value)
     void set_Builder(NUnit::Framework::Constraints::ConstraintBuilder* value);
@@ -91,12 +91,12 @@ namespace NUnit::Framework::Constraints {
     // Base method: NUnit.Framework.Constraints.ConstraintResult IConstraint::ApplyTo(System.Object actual)
     NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::Il2CppObject* actual);
     // public override System.String ToString()
-    // Offset: 0x15E00B8
+    // Offset: 0x13B68E0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // private NUnit.Framework.Constraints.IConstraint NUnit.Framework.Constraints.IResolveConstraint.Resolve()
-    // Offset: 0x15E03C4
+    // Offset: 0x13B6BEC
     // Implemented from: NUnit.Framework.Constraints.IResolveConstraint
     // Base method: NUnit.Framework.Constraints.IConstraint IResolveConstraint::Resolve()
     NUnit::Framework::Constraints::IConstraint* NUnit_Framework_Constraints_IResolveConstraint_Resolve();

@@ -50,16 +50,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xF35AD4
+    // Offset: 0x1F9C4B0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF35B68
+    // Offset: 0x1F9C544
     void OnDestroy();
     // public System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0xF35C44
+    // Offset: 0x1F9C620
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0xF35CF0
+    // Offset: 0x1F9C6CC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

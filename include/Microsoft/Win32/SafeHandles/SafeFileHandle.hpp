@@ -20,12 +20,12 @@ namespace Microsoft::Win32::SafeHandles {
   class SafeFileHandle : public Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
     public:
     // public System.Void .ctor(System.IntPtr preexistingHandle, System.Boolean ownsHandle)
-    // Offset: 0x17D0C00
+    // Offset: 0x1578024
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Void SafeHandle::.ctor(System.IntPtr preexistingHandle, System.Boolean ownsHandle)
     static SafeFileHandle* New_ctor(System::IntPtr preexistingHandle, bool ownsHandle);
     // protected override System.Boolean ReleaseHandle()
-    // Offset: 0x17D0C88
+    // Offset: 0x15780AC
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Boolean SafeHandle::ReleaseHandle()
     bool ReleaseHandle();

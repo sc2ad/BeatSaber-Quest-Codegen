@@ -53,13 +53,13 @@ namespace System::Net::NetworkInformation {
     // Set static field: static private System.Text.RegularExpressions.Regex search
     static void _set_search(System::Text::RegularExpressions::Regex* value);
     // public System.Void .ctor(System.Net.NetworkInformation.UnixNetworkInterface iface, System.Collections.Generic.List`1<System.Net.IPAddress> addresses)
-    // Offset: 0x12C8C94
+    // Offset: 0x10C4530
     static UnixIPInterfaceProperties* New_ctor(System::Net::NetworkInformation::UnixNetworkInterface* iface, System::Collections::Generic::List_1<System::Net::IPAddress*>* addresses);
     // static private System.Void .cctor()
-    // Offset: 0x12CC77C
+    // Offset: 0x10C8018
     static void _cctor();
     // public override System.Net.NetworkInformation.UnicastIPAddressInformationCollection get_UnicastAddresses()
-    // Offset: 0x12CC55C
+    // Offset: 0x10C7DF8
     // Implemented from: System.Net.NetworkInformation.IPInterfaceProperties
     // Base method: System.Net.NetworkInformation.UnicastIPAddressInformationCollection IPInterfaceProperties::get_UnicastAddresses()
     System::Net::NetworkInformation::UnicastIPAddressInformationCollection* get_UnicastAddresses();

@@ -27,10 +27,10 @@ namespace System::Net {
     // Offset: 0x18
     bool setInternalLength;
     // System.Boolean <SetHeadersAsync>b__0(System.Net.SimpleAsyncResult r)
-    // Offset: 0x13C39B8
+    // Offset: 0x11980F4
     bool $SetHeadersAsync$b__0(System::Net::SimpleAsyncResult* r);
     // public System.Void .ctor()
-    // Offset: 0x13C2EA8
+    // Offset: 0x11975E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static WebConnectionStream::$$c__DisplayClass75_0* New_ctor();

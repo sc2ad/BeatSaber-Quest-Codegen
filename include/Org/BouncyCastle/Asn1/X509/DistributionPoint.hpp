@@ -46,21 +46,21 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x20
     Org::BouncyCastle::Asn1::X509::GeneralNames* cRLIssuer;
     // static public Org.BouncyCastle.Asn1.X509.DistributionPoint GetInstance(System.Object obj)
-    // Offset: 0x1864714
+    // Offset: 0x160AB38
     static Org::BouncyCastle::Asn1::X509::DistributionPoint* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x18654A8
+    // Offset: 0x160B8CC
     static DistributionPoint* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // private System.Void appendObject(System.Text.StringBuilder buf, System.String sep, System.String name, System.String val)
-    // Offset: 0x186597C
+    // Offset: 0x160BDA0
     void appendObject(System::Text::StringBuilder* buf, ::Il2CppString* sep, ::Il2CppString* name, ::Il2CppString* val);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x186572C
+    // Offset: 0x160BB50
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // public override System.String ToString()
-    // Offset: 0x18657FC
+    // Offset: 0x160BC20
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

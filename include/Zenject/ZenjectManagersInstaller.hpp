@@ -14,12 +14,12 @@ namespace Zenject {
   class ZenjectManagersInstaller : public Zenject::Installer_1<Zenject::ZenjectManagersInstaller*> {
     public:
     // public override System.Void InstallBindings()
-    // Offset: 0x21EB8FC
+    // Offset: 0x1F40560
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x21EBABC
+    // Offset: 0x1F40720
     // Implemented from: Zenject.Installer`1
     // Base method: System.Void Installer_1::.ctor()
     // Base method: System.Void InstallerBase::.ctor()

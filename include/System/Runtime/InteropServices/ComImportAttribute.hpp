@@ -14,7 +14,7 @@ namespace System::Runtime::InteropServices {
   class ComImportAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x12922F0
+    // Offset: 0x108DB8C
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

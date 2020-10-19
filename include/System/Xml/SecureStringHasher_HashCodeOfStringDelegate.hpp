@@ -26,16 +26,16 @@ namespace System::Xml {
   class SecureStringHasher::HashCodeOfStringDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x178D45C
+    // Offset: 0x154A030
     static SecureStringHasher::HashCodeOfStringDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Int32 Invoke(System.String s, System.Int32 sLen, System.Int64 additionalEntropy)
-    // Offset: 0x178CF8C
+    // Offset: 0x1549B60
     int Invoke(::Il2CppString* s, int sLen, int64_t additionalEntropy);
     // public System.IAsyncResult BeginInvoke(System.String s, System.Int32 sLen, System.Int64 additionalEntropy, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x178D470
+    // Offset: 0x154A044
     System::IAsyncResult* BeginInvoke(::Il2CppString* s, int sLen, int64_t additionalEntropy, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Int32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x178D528
+    // Offset: 0x154A0FC
     int EndInvoke(System::IAsyncResult* result);
   }; // System.Xml.SecureStringHasher/HashCodeOfStringDelegate
 }

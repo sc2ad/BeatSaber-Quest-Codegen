@@ -100,50 +100,50 @@ namespace GlobalNamespace {
     // Offset: 0xD0
     GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevelToBeSelected;
     // public System.Void add_didSelectLevelEvent(System.Action`2<LevelCollectionViewController,IPreviewBeatmapLevel> value)
-    // Offset: 0x101F6B0
+    // Offset: 0x20B4D70
     void add_didSelectLevelEvent(System::Action_2<GlobalNamespace::LevelCollectionViewController*, GlobalNamespace::IPreviewBeatmapLevel*>* value);
     // public System.Void remove_didSelectLevelEvent(System.Action`2<LevelCollectionViewController,IPreviewBeatmapLevel> value)
-    // Offset: 0x101FABC
+    // Offset: 0x20B517C
     void remove_didSelectLevelEvent(System::Action_2<GlobalNamespace::LevelCollectionViewController*, GlobalNamespace::IPreviewBeatmapLevel*>* value);
     // public System.Void add_didSelectHeaderEvent(System.Action`1<LevelCollectionViewController> value)
-    // Offset: 0x101F754
+    // Offset: 0x20B4E14
     void add_didSelectHeaderEvent(System::Action_1<GlobalNamespace::LevelCollectionViewController*>* value);
     // public System.Void remove_didSelectHeaderEvent(System.Action`1<LevelCollectionViewController> value)
-    // Offset: 0x101FB60
+    // Offset: 0x20B5220
     void remove_didSelectHeaderEvent(System::Action_1<GlobalNamespace::LevelCollectionViewController*>* value);
     // public System.Void SetData(IBeatmapLevelCollection beatmapLevelCollection, System.String headerText, UnityEngine.Sprite headerSprite, System.Boolean sortLevels, UnityEngine.GameObject noDataInfoPrefab)
-    // Offset: 0x101FC04
+    // Offset: 0x20B52C4
     void SetData(GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection, ::Il2CppString* headerText, UnityEngine::Sprite* headerSprite, bool sortLevels, UnityEngine::GameObject* noDataInfoPrefab);
     // public System.Void SelectLevel(IPreviewBeatmapLevel beatmapLevel)
-    // Offset: 0x101F1DC
+    // Offset: 0x20B489C
     void SelectLevel(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
     // public System.Void RefreshFavorites()
-    // Offset: 0x10209FC
+    // Offset: 0x20B60BC
     void RefreshFavorites();
     // private System.Void HandleLevelCollectionTableViewDidSelectLevel(LevelCollectionTableView tableView, IPreviewBeatmapLevel level)
-    // Offset: 0x1022778
+    // Offset: 0x20B7E38
     void HandleLevelCollectionTableViewDidSelectLevel(GlobalNamespace::LevelCollectionTableView* tableView, GlobalNamespace::IPreviewBeatmapLevel* level);
     // private System.Void SongPlayerCrossfadeToLevelAsync(IPreviewBeatmapLevel level)
-    // Offset: 0x102280C
+    // Offset: 0x20B7ECC
     void SongPlayerCrossfadeToLevelAsync(GlobalNamespace::IPreviewBeatmapLevel* level);
     // private System.Void HandleLevelCollectionTableViewDidSelectPack(LevelCollectionTableView tableView)
-    // Offset: 0x10228F8
+    // Offset: 0x20B7FB8
     void HandleLevelCollectionTableViewDidSelectPack(GlobalNamespace::LevelCollectionTableView* tableView);
     // private System.Void HandleAdditionalContentModelDidInvalidateData()
-    // Offset: 0x1022970
+    // Offset: 0x20B8030
     void HandleAdditionalContentModelDidInvalidateData();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1022494
+    // Offset: 0x20B7B54
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1022618
+    // Offset: 0x20B7CD8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0x1022988
+    // Offset: 0x20B8048
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

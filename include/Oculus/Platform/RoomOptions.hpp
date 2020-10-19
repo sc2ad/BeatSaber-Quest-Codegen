@@ -30,39 +30,39 @@ namespace Oculus::Platform {
       return Handle;
     }
     // public System.Void SetDataStore(System.String key, System.String value)
-    // Offset: 0x136EA48
+    // Offset: 0x1144184
     void SetDataStore(::Il2CppString* key, ::Il2CppString* value);
     // public System.Void ClearDataStore()
-    // Offset: 0x136EACC
+    // Offset: 0x1144208
     void ClearDataStore();
     // public System.Void SetExcludeRecentlyMet(System.Boolean value)
-    // Offset: 0x136EB38
+    // Offset: 0x1144274
     void SetExcludeRecentlyMet(bool value);
     // public System.Void SetMaxUserResults(System.UInt32 value)
-    // Offset: 0x136EBB4
+    // Offset: 0x11442F0
     void SetMaxUserResults(uint value);
     // public System.Void SetOrdering(Oculus.Platform.UserOrdering value)
-    // Offset: 0x136EC30
+    // Offset: 0x114436C
     void SetOrdering(Oculus::Platform::UserOrdering value);
     // public System.Void SetRecentlyMetTimeWindow(Oculus.Platform.TimeWindow value)
-    // Offset: 0x136ECAC
+    // Offset: 0x11443E8
     void SetRecentlyMetTimeWindow(Oculus::Platform::TimeWindow value);
     // public System.Void SetRoomId(System.UInt64 value)
-    // Offset: 0x136ED28
+    // Offset: 0x1144464
     void SetRoomId(uint64_t value);
     // public System.Void SetTurnOffUpdates(System.Boolean value)
-    // Offset: 0x136EDA4
+    // Offset: 0x11444E0
     void SetTurnOffUpdates(bool value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.RoomOptions options)
-    // Offset: 0x136EE20
+    // Offset: 0x114455C
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x136E9D0
+    // Offset: 0x114410C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static RoomOptions* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x136EE70
+    // Offset: 0x11445AC
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

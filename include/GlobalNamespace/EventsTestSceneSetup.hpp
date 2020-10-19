@@ -14,12 +14,12 @@ namespace GlobalNamespace {
   class EventsTestSceneSetup : public Zenject::MonoInstaller {
     public:
     // public override System.Void InstallBindings()
-    // Offset: 0xF67A5C
+    // Offset: 0x201FB9C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xF67E44
+    // Offset: 0x201FF84
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

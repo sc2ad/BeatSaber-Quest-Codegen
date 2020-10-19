@@ -33,19 +33,19 @@ namespace System {
       return identity;
     }
     // System.Runtime.Remoting.ServerIdentity get_ObjectIdentity()
-    // Offset: 0x159D104
+    // Offset: 0x137392C
     System::Runtime::Remoting::ServerIdentity* get_ObjectIdentity();
     // System.Void set_ObjectIdentity(System.Runtime.Remoting.ServerIdentity value)
-    // Offset: 0x159D164
+    // Offset: 0x137398C
     void set_ObjectIdentity(System::Runtime::Remoting::ServerIdentity* value);
     // public System.Runtime.Remoting.ObjRef CreateObjRef(System.Type requestedType)
-    // Offset: 0x159D1C4
+    // Offset: 0x13739EC
     System::Runtime::Remoting::ObjRef* CreateObjRef(System::Type* requestedType);
     // public System.Object InitializeLifetimeService()
-    // Offset: 0x159D224
+    // Offset: 0x1373A4C
     ::Il2CppObject* InitializeLifetimeService();
     // protected System.Void .ctor()
-    // Offset: 0x158F9D0
+    // Offset: 0x13661F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MarshalByRefObject* New_ctor();

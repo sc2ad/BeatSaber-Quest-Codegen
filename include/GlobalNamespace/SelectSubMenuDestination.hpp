@@ -80,7 +80,7 @@ namespace GlobalNamespace {
       return menuDestination;
     }
     // public System.Void .ctor(SelectSubMenuDestination/Destination menuDestination)
-    // Offset: 0xEE931C
+    // Offset: 0x1FEA0A4
     static SelectSubMenuDestination* New_ctor(GlobalNamespace::SelectSubMenuDestination::Destination menuDestination);
   }; // SelectSubMenuDestination
 }

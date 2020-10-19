@@ -18,7 +18,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Offset: 0x18
     ::Il2CppString* publicPlatformDisplayName;
     // public System.Void .ctor()
-    // Offset: 0x1046810
+    // Offset: 0x20C1550
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UserInfo* New_ctor();

@@ -6,8 +6,6 @@
 #include "GlobalNamespace/CuttingManager.hpp"
 // Including type: SaberManager
 #include "GlobalNamespace/SaberManager.hpp"
-// Including type: NoteRibbonCutter
-#include "GlobalNamespace/NoteRibbonCutter.hpp"
 // Including type: NoteCutter
 #include "GlobalNamespace/NoteCutter.hpp"
 // Including type: Saber

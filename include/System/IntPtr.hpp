@@ -42,76 +42,76 @@ namespace System {
     // Set static field: static public readonly System.IntPtr Zero
     static void _set_Zero(System::IntPtr value);
     // public System.Void .ctor(System.Int32 value)
-    // Offset: 0xDB8254
+    // Offset: 0xC6E674
     IntPtr(int value);
     // public System.Void .ctor(System.Int64 value)
-    // Offset: 0xDB8260
+    // Offset: 0xC6E680
     IntPtr(int64_t value);
     // public System.Void .ctor(System.Void* value)
-    // Offset: 0xDB8268
+    // Offset: 0xC6E688
     // ABORTED: conflicts with another method.  IntPtr(void* value);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xDB8270
+    // Offset: 0xC6E690
     IntPtr(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // static public System.Int32 get_Size()
-    // Offset: 0x159B73C
+    // Offset: 0x1371F64
     static int get_Size();
     // public System.Int64 ToInt64()
-    // Offset: 0xDB8290
+    // Offset: 0xC6E6B0
     int64_t ToInt64();
     // public System.Void* ToPointer()
-    // Offset: 0xDB8298
+    // Offset: 0xC6E6B8
     void* ToPointer();
     // public System.String ToString(System.String format)
-    // Offset: 0xDB82D8
+    // Offset: 0xC6E6F8
     ::Il2CppString* ToString(::Il2CppString* format);
     // static public System.IntPtr op_Explicit(System.Int32 value)
-    // Offset: 0x159B914
+    // Offset: 0x137213C
     explicit IntPtr(int& value);
     // static public System.IntPtr op_Explicit(System.Int64 value)
-    // Offset: 0x159B91C
+    // Offset: 0x1372144
     explicit IntPtr(int64_t& value);
     // static public System.IntPtr op_Explicit(System.Void* value)
-    // Offset: 0x159B920
+    // Offset: 0x1372148
     // ABORTED: conflicts with another method.  explicit IntPtr(void* value);
     // static public System.Int32 op_Explicit(System.IntPtr value)
-    // Offset: 0x159B924
+    // Offset: 0x137214C
     explicit operator int();
     // static public System.Int64 op_Explicit(System.IntPtr value)
-    // Offset: 0x159B928
+    // Offset: 0x1372150
     explicit operator int64_t();
     // static public System.Void* op_Explicit(System.IntPtr value)
-    // Offset: 0x159B92C
+    // Offset: 0x1372154
     // ABORTED: conflicts with another method.  explicit operator void*();
     // System.Boolean IsNull()
-    // Offset: 0xDB8314
+    // Offset: 0xC6E734
     bool IsNull();
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xDB8278
+    // Offset: 0xC6E698
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xDB8280
+    // Offset: 0xC6E6A0
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xDB8288
+    // Offset: 0xC6E6A8
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0xDB82A0
+    // Offset: 0xC6E6C0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // System.IntPtr
   // static public System.Boolean op_Equality(System.IntPtr value1, System.IntPtr value2)
-  // Offset: 0x159B8FC
+  // Offset: 0x1372124
   bool operator ==(const System::IntPtr& value1, const System::IntPtr& value2);
   // static public System.Boolean op_Inequality(System.IntPtr value1, System.IntPtr value2)
-  // Offset: 0x159B908
+  // Offset: 0x1372130
   bool operator !=(const System::IntPtr& value1, const System::IntPtr& value2);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

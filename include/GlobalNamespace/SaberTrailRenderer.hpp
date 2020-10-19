@@ -76,34 +76,34 @@ namespace GlobalNamespace {
     // Set static field: static private readonly UnityEngine.Bounds _bounds
     static void _set__bounds(UnityEngine::Bounds value);
     // public System.Void Init(System.Single trailWidth, System.Single trailDuration, System.Int32 granularity, System.Single whiteSectionMaxDuration)
-    // Offset: 0xF83040
+    // Offset: 0x207A29C
     void Init(float trailWidth, float trailDuration, int granularity, float whiteSectionMaxDuration);
     // protected System.Void OnDestroy()
-    // Offset: 0xF8339C
+    // Offset: 0x207A5F8
     void OnDestroy();
     // private System.Void OnValidate()
-    // Offset: 0xF833A8
+    // Offset: 0x207A604
     void OnValidate();
     // protected System.Void OnEnable()
-    // Offset: 0xF834B4
+    // Offset: 0x207A710
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xF83548
+    // Offset: 0x207A7A4
     void OnDisable();
     // public System.Void SetTrailWidth(System.Single width)
-    // Offset: 0xF835DC
+    // Offset: 0x207A838
     void SetTrailWidth(float width);
     // public System.Void UpdateMesh(TrailElementCollection trailElementCollection, UnityEngine.Color color)
-    // Offset: 0xF82AC4
+    // Offset: 0x2079D20
     void UpdateMesh(GlobalNamespace::TrailElementCollection* trailElementCollection, UnityEngine::Color color);
     // protected System.Void UpdateVertices(TrailElementCollection trailElementCollection, UnityEngine.Color color)
-    // Offset: 0xF835E4
+    // Offset: 0x207A840
     void UpdateVertices(GlobalNamespace::TrailElementCollection* trailElementCollection, UnityEngine::Color color);
     // private System.Void UpdateIndices()
-    // Offset: 0xF831B4
+    // Offset: 0x207A410
     void UpdateIndices();
     // public System.Void .ctor()
-    // Offset: 0xF83A00
+    // Offset: 0x207AC5C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -112,7 +112,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SaberTrailRenderer* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xF83A08
+    // Offset: 0x207AC64
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

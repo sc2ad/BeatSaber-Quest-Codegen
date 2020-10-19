@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_GetOverlayInputMethod : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1D6B2F0
+    // Offset: 0x1ABCF54
     static IVROverlay::_GetOverlayInputMethod* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.VROverlayInputMethod peInputMethod)
-    // Offset: 0x1D6B304
+    // Offset: 0x1ABCF68
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, OVR::OpenVR::VROverlayInputMethod& peInputMethod);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.VROverlayInputMethod peInputMethod, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1D6B588
+    // Offset: 0x1ABD1EC
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, OVR::OpenVR::VROverlayInputMethod& peInputMethod, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(ref OVR.OpenVR.VROverlayInputMethod peInputMethod, System.IAsyncResult result)
-    // Offset: 0x1D6B638
+    // Offset: 0x1ABD29C
     OVR::OpenVR::EVROverlayError EndInvoke(OVR::OpenVR::VROverlayInputMethod& peInputMethod, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetOverlayInputMethod
 }

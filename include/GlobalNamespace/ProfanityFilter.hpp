@@ -34,16 +34,16 @@ namespace GlobalNamespace {
       return trie;
     }
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<System.String> wordList)
-    // Offset: 0x1C3F618
+    // Offset: 0x21F97B0
     static ProfanityFilter* New_ctor(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* wordList);
     // public System.Boolean IsProfane(System.String word)
-    // Offset: 0x1C3FD04
+    // Offset: 0x21F9E9C
     bool IsProfane(::Il2CppString* word);
     // static private System.Collections.Generic.IEnumerable`1<System.Char> GetLookalikeLetters(System.Char c)
-    // Offset: 0x1C3FEF0
+    // Offset: 0x21FA088
     static System::Collections::Generic::IEnumerable_1<::Il2CppChar>* GetLookalikeLetters(::Il2CppChar c);
     // static private System.Char GetLeetEquivalent(System.Char c)
-    // Offset: 0x1C3FFA8
+    // Offset: 0x21FA140
     static ::Il2CppChar GetLeetEquivalent(::Il2CppChar c);
   }; // ProfanityFilter
 }

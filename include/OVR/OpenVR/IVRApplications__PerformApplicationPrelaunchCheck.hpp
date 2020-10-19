@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRApplications::_PerformApplicationPrelaunchCheck : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1384610
+    // Offset: 0x1159D4C
     static IVRApplications::_PerformApplicationPrelaunchCheck* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRApplicationError Invoke(System.String pchAppKey)
-    // Offset: 0x1378910
+    // Offset: 0x114E04C
     OVR::OpenVR::EVRApplicationError Invoke(::Il2CppString* pchAppKey);
     // public System.IAsyncResult BeginInvoke(System.String pchAppKey, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1384624
+    // Offset: 0x1159D60
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchAppKey, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRApplicationError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1384648
+    // Offset: 0x1159D84
     OVR::OpenVR::EVRApplicationError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRApplications/_PerformApplicationPrelaunchCheck
 }

@@ -47,34 +47,34 @@ namespace GlobalNamespace {
     // Offset: 0x88
     bool initialized;
     // private System.Void InitializeIfNeeded()
-    // Offset: 0x223A890
+    // Offset: 0x2048EA0
     void InitializeIfNeeded();
     // private System.Void TransitionIntoFailedState()
-    // Offset: 0x223AB30
+    // Offset: 0x2049140
     void TransitionIntoFailedState();
     // private System.Void HandlePlayerDidFinish(LevelCompletionResults levelCompletionResults)
-    // Offset: 0x223AD50
+    // Offset: 0x2049360
     void HandlePlayerDidFinish(GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // private System.Void <InitializeIfNeeded>b__6_0(System.Single f)
-    // Offset: 0x223AD88
+    // Offset: 0x2049398
     void $InitializeIfNeeded$b__6_0(float f);
     // protected override System.Void OnDestroy()
-    // Offset: 0x223A788
+    // Offset: 0x2048D98
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::OnDestroy()
     void OnDestroy();
     // protected override System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x223A96C
+    // Offset: 0x2048F7C
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::HandleStateChanged(MultiplayerController/State state)
     void HandleStateChanged(GlobalNamespace::MultiplayerController::State state);
     // protected override System.Void AnimateNewLeaderSelected(System.Boolean isLeading)
-    // Offset: 0x223AC58
+    // Offset: 0x2049268
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::AnimateNewLeaderSelected(System.Boolean isLeading)
     void AnimateNewLeaderSelected(bool isLeading);
     // public System.Void .ctor()
-    // Offset: 0x223AD74
+    // Offset: 0x2049384
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -39,40 +39,40 @@ namespace System::Net::Http::Headers {
       return parameters;
     }
     // protected System.Void .ctor(System.Net.Http.Headers.NameValueWithParametersHeaderValue source)
-    // Offset: 0x13A652C
+    // Offset: 0x117BC68
     static NameValueWithParametersHeaderValue* New_ctor(System::Net::Http::Headers::NameValueWithParametersHeaderValue* source);
     // public System.Collections.Generic.ICollection`1<System.Net.Http.Headers.NameValueHeaderValue> get_Parameters()
-    // Offset: 0x13A66C0
+    // Offset: 0x117BDFC
     System::Collections::Generic::ICollection_1<System::Net::Http::Headers::NameValueHeaderValue*>* get_Parameters();
     // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueWithParametersHeaderValue> result)
-    // Offset: 0x13A6968
+    // Offset: 0x117C0A4
     static bool TryParse(::Il2CppString* input, int minimalCount, System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueWithParametersHeaderValue*>*& result);
     // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.NameValueWithParametersHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x13A6A08
+    // Offset: 0x117C144
     static bool TryParseElement(System::Net::Http::Headers::Lexer* lexer, System::Net::Http::Headers::NameValueWithParametersHeaderValue*& parsedValue, System::Net::Http::Headers::Token& t);
     // private System.Void .ctor()
-    // Offset: 0x13A6740
+    // Offset: 0x117BE7C
     // Implemented from: System.Net.Http.Headers.NameValueHeaderValue
     // Base method: System.Void NameValueHeaderValue::.ctor()
     // Base method: System.Void Object::.ctor()
     static NameValueWithParametersHeaderValue* New_ctor();
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x13A6748
+    // Offset: 0x117BE84
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* System_ICloneable_Clone();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x13A67A8
+    // Offset: 0x117BEE4
     // Implemented from: System.Net.Http.Headers.NameValueHeaderValue
     // Base method: System.Boolean NameValueHeaderValue::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x13A6870
+    // Offset: 0x117BFAC
     // Implemented from: System.Net.Http.Headers.NameValueHeaderValue
     // Base method: System.Int32 NameValueHeaderValue::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x13A68D8
+    // Offset: 0x117C014
     // Implemented from: System.Net.Http.Headers.NameValueHeaderValue
     // Base method: System.String NameValueHeaderValue::ToString()
     ::Il2CppString* ToString();

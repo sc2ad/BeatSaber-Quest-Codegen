@@ -114,124 +114,124 @@ namespace System::Net {
     // Set static field: static private System.Boolean s_DefaultWebProxyInitialized
     static void _set_s_DefaultWebProxyInitialized(bool value);
     // static private System.Object get_InternalSyncObject()
-    // Offset: 0x13C7D68
+    // Offset: 0x119C4A4
     static ::Il2CppObject* get_InternalSyncObject();
     // static private System.Net.WebRequest Create(System.Uri requestUri, System.Boolean useUriBase)
-    // Offset: 0x13C7E48
+    // Offset: 0x119C584
     static System::Net::WebRequest* Create(System::Uri* requestUri, bool useUriBase);
     // static public System.Net.WebRequest Create(System.String requestUriString)
-    // Offset: 0x13B9D7C
+    // Offset: 0x118E4B8
     static System::Net::WebRequest* Create(::Il2CppString* requestUriString);
     // static public System.Net.WebRequest Create(System.Uri requestUri)
-    // Offset: 0x13C8400
+    // Offset: 0x119CB3C
     static System::Net::WebRequest* Create(System::Uri* requestUri);
     // static System.Collections.ArrayList get_PrefixList()
-    // Offset: 0x13C80A0
+    // Offset: 0x119C7DC
     static System::Collections::ArrayList* get_PrefixList();
     // static private System.Collections.ArrayList PopulatePrefixList()
-    // Offset: 0x13C84D8
+    // Offset: 0x119CC14
     static System::Collections::ArrayList* PopulatePrefixList();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x13C8700
+    // Offset: 0x119CE3C
     static WebRequest* New_ctor(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // protected System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x13C8714
+    // Offset: 0x119CE50
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // public System.String get_Method()
-    // Offset: 0x13C8718
+    // Offset: 0x119CE54
     ::Il2CppString* get_Method();
     // public System.Void set_Method(System.String value)
-    // Offset: 0x13C8760
+    // Offset: 0x119CE9C
     void set_Method(::Il2CppString* value);
     // public System.Uri get_RequestUri()
-    // Offset: 0x13C87A8
+    // Offset: 0x119CEE4
     System::Uri* get_RequestUri();
     // public System.Void set_ConnectionGroupName(System.String value)
-    // Offset: 0x13C87F0
+    // Offset: 0x119CF2C
     void set_ConnectionGroupName(::Il2CppString* value);
     // public System.Net.WebHeaderCollection get_Headers()
-    // Offset: 0x13C8838
+    // Offset: 0x119CF74
     System::Net::WebHeaderCollection* get_Headers();
     // public System.Int64 get_ContentLength()
-    // Offset: 0x13C8880
+    // Offset: 0x119CFBC
     int64_t get_ContentLength();
     // public System.Void set_ContentLength(System.Int64 value)
-    // Offset: 0x13C88C8
+    // Offset: 0x119D004
     void set_ContentLength(int64_t value);
     // public System.Net.ICredentials get_Credentials()
-    // Offset: 0x13C8910
+    // Offset: 0x119D04C
     System::Net::ICredentials* get_Credentials();
     // public System.Void set_Credentials(System.Net.ICredentials value)
-    // Offset: 0x13C8958
+    // Offset: 0x119D094
     void set_Credentials(System::Net::ICredentials* value);
     // public System.Boolean get_UseDefaultCredentials()
-    // Offset: 0x13C89A0
+    // Offset: 0x119D0DC
     bool get_UseDefaultCredentials();
     // public System.Void set_UseDefaultCredentials(System.Boolean value)
-    // Offset: 0x13C89E8
+    // Offset: 0x119D124
     void set_UseDefaultCredentials(bool value);
     // public System.Net.IWebProxy get_Proxy()
-    // Offset: 0x13C8A30
+    // Offset: 0x119D16C
     System::Net::IWebProxy* get_Proxy();
     // public System.Void set_Proxy(System.Net.IWebProxy value)
-    // Offset: 0x13C8A78
+    // Offset: 0x119D1B4
     void set_Proxy(System::Net::IWebProxy* value);
     // public System.Void set_PreAuthenticate(System.Boolean value)
-    // Offset: 0x13C8AC0
+    // Offset: 0x119D1FC
     void set_PreAuthenticate(bool value);
     // public System.Int32 get_Timeout()
-    // Offset: 0x13C8B08
+    // Offset: 0x119D244
     int get_Timeout();
     // public System.Net.WebResponse GetResponse()
-    // Offset: 0x13C8B50
+    // Offset: 0x119D28C
     System::Net::WebResponse* GetResponse();
     // public System.IAsyncResult BeginGetResponse(System.AsyncCallback callback, System.Object state)
-    // Offset: 0x13C8B98
+    // Offset: 0x119D2D4
     System::IAsyncResult* BeginGetResponse(System::AsyncCallback* callback, ::Il2CppObject* state);
     // public System.Net.WebResponse EndGetResponse(System.IAsyncResult asyncResult)
-    // Offset: 0x13C8BE0
+    // Offset: 0x119D31C
     System::Net::WebResponse* EndGetResponse(System::IAsyncResult* asyncResult);
     // public System.IAsyncResult BeginGetRequestStream(System.AsyncCallback callback, System.Object state)
-    // Offset: 0x13C8C28
+    // Offset: 0x119D364
     System::IAsyncResult* BeginGetRequestStream(System::AsyncCallback* callback, ::Il2CppObject* state);
     // public System.IO.Stream EndGetRequestStream(System.IAsyncResult asyncResult)
-    // Offset: 0x13C8C70
+    // Offset: 0x119D3AC
     System::IO::Stream* EndGetRequestStream(System::IAsyncResult* asyncResult);
     // public System.Threading.Tasks.Task`1<System.IO.Stream> GetRequestStreamAsync()
-    // Offset: 0x13C8CB8
+    // Offset: 0x119D3F4
     System::Threading::Tasks::Task_1<System::IO::Stream*>* GetRequestStreamAsync();
     // public System.Threading.Tasks.Task`1<System.Net.WebResponse> GetResponseAsync()
-    // Offset: 0x13C8FA0
+    // Offset: 0x119D6DC
     System::Threading::Tasks::Task_1<System::Net::WebResponse*>* GetResponseAsync();
     // private System.Security.Principal.WindowsIdentity SafeCaptureIdenity()
-    // Offset: 0x13C8F40
+    // Offset: 0x119D67C
     System::Security::Principal::WindowsIdentity* SafeCaptureIdenity();
     // public System.Void Abort()
-    // Offset: 0x13C9228
+    // Offset: 0x119D964
     void Abort();
     // static System.Net.IWebProxy get_InternalDefaultWebProxy()
-    // Offset: 0x13C9270
+    // Offset: 0x119D9AC
     static System::Net::IWebProxy* get_InternalDefaultWebProxy();
     // static public System.Net.IWebProxy get_DefaultWebProxy()
-    // Offset: 0x13C945C
+    // Offset: 0x119DB98
     static System::Net::IWebProxy* get_DefaultWebProxy();
     // static private System.Void .cctor()
-    // Offset: 0x13C94B8
+    // Offset: 0x119DBF4
     static void _cctor();
     // private System.Threading.Tasks.Task`1<System.IO.Stream> <GetRequestStreamAsync>b__78_0()
-    // Offset: 0x13C9574
+    // Offset: 0x119DCB0
     System::Threading::Tasks::Task_1<System::IO::Stream*>* $GetRequestStreamAsync$b__78_0();
     // private System.Threading.Tasks.Task`1<System.Net.WebResponse> <GetResponseAsync>b__79_0()
-    // Offset: 0x13C967C
+    // Offset: 0x119DDB8
     System::Threading::Tasks::Task_1<System::Net::WebResponse*>* $GetResponseAsync$b__79_0();
     // protected System.Void .ctor()
-    // Offset: 0x13C86D0
+    // Offset: 0x119CE0C
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
     static WebRequest* New_ctor();
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x13C8708
+    // Offset: 0x119CE44
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);

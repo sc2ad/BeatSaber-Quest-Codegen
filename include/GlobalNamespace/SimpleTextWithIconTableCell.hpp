@@ -32,19 +32,19 @@ namespace GlobalNamespace {
     // Offset: 0x58
     UnityEngine::UI::Image* icon;
     // public System.Void set_icon(UnityEngine.UI.Image value)
-    // Offset: 0x218EC98
+    // Offset: 0x1EE28FC
     void set_icon(UnityEngine::UI::Image* value);
     // public UnityEngine.UI.Image get_icon()
-    // Offset: 0x218ECA0
+    // Offset: 0x1EE2904
     UnityEngine::UI::Image* get_icon();
     // public System.Void set_text(System.String value)
-    // Offset: 0x218ECA8
+    // Offset: 0x1EE290C
     void set_text(::Il2CppString* value);
     // public System.String get_text()
-    // Offset: 0x218ECC4
+    // Offset: 0x1EE2928
     ::Il2CppString* get_text();
     // public System.Void .ctor()
-    // Offset: 0x218ECE0
+    // Offset: 0x1EE2944
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

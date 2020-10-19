@@ -26,16 +26,16 @@ namespace System::Net {
   class ExceptionHelper : public ::Il2CppObject {
     public:
     // static System.NotImplementedException get_MethodNotImplementedException()
-    // Offset: 0x14E3190
+    // Offset: 0x12B89B8
     static System::NotImplementedException* get_MethodNotImplementedException();
     // static System.NotImplementedException get_PropertyNotImplementedException()
-    // Offset: 0x14E30D0
+    // Offset: 0x12B88F8
     static System::NotImplementedException* get_PropertyNotImplementedException();
     // static System.NotSupportedException get_PropertyNotSupportedException()
-    // Offset: 0x14E63DC
+    // Offset: 0x12BBC04
     static System::NotSupportedException* get_PropertyNotSupportedException();
     // static System.Net.WebException get_RequestAbortedException()
-    // Offset: 0x14E6458
+    // Offset: 0x12BBC80
     static System::Net::WebException* get_RequestAbortedException();
   }; // System.Net.ExceptionHelper
 }

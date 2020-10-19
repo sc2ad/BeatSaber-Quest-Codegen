@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRCompositor::_ShouldAppRenderWithLowResources : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1E34204
+    // Offset: 0x1B86E68
     static IVRCompositor::_ShouldAppRenderWithLowResources* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke()
-    // Offset: 0x1E34218
+    // Offset: 0x1B86E7C
     bool Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1E34430
+    // Offset: 0x1B87094
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1E3445C
+    // Offset: 0x1B870C0
     bool EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_ShouldAppRenderWithLowResources
 }

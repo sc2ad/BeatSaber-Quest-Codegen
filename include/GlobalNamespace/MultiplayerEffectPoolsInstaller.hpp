@@ -32,12 +32,12 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::NoteDebris* noteDebrisLWPrefab;
     // public override System.Void InstallBindings()
-    // Offset: 0xFD2B64
+    // Offset: 0x206769C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xFD2C14
+    // Offset: 0x206774C
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

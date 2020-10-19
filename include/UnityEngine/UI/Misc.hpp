@@ -19,10 +19,10 @@ namespace UnityEngine::UI {
   class Misc : public ::Il2CppObject {
     public:
     // static public System.Void Destroy(UnityEngine.Object obj)
-    // Offset: 0x183AFFC
+    // Offset: 0x15E2420
     static void Destroy(UnityEngine::Object* obj);
     // static public System.Void DestroyImmediate(UnityEngine.Object obj)
-    // Offset: 0x183B110
+    // Offset: 0x15E2534
     static void DestroyImmediate(UnityEngine::Object* obj);
   }; // UnityEngine.UI.Misc
 }

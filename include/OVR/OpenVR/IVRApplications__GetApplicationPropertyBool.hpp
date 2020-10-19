@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
   class IVRApplications::_GetApplicationPropertyBool : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x13838A0
+    // Offset: 0x1158FDC
     static IVRApplications::_GetApplicationPropertyBool* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.String pchAppKey, OVR.OpenVR.EVRApplicationProperty eProperty, ref OVR.OpenVR.EVRApplicationError peError)
-    // Offset: 0x1375DA4
+    // Offset: 0x114B4E0
     bool Invoke(::Il2CppString* pchAppKey, OVR::OpenVR::EVRApplicationProperty eProperty, OVR::OpenVR::EVRApplicationError& peError);
     // public System.IAsyncResult BeginInvoke(System.String pchAppKey, OVR.OpenVR.EVRApplicationProperty eProperty, ref OVR.OpenVR.EVRApplicationError peError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x13838B4
+    // Offset: 0x1158FF0
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchAppKey, OVR::OpenVR::EVRApplicationProperty eProperty, OVR::OpenVR::EVRApplicationError& peError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(ref OVR.OpenVR.EVRApplicationError peError, System.IAsyncResult result)
-    // Offset: 0x1383970
+    // Offset: 0x11590AC
     bool EndInvoke(OVR::OpenVR::EVRApplicationError& peError, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRApplications/_GetApplicationPropertyBool
 }

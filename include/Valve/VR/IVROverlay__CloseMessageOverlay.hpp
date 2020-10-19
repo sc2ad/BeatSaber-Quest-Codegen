@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVROverlay::_CloseMessageOverlay : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1E37358
+    // Offset: 0x1B89FBC
     static IVROverlay::_CloseMessageOverlay* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x1E3736C
+    // Offset: 0x1B89FD0
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1E37578
+    // Offset: 0x1B8A1DC
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1E375A4
+    // Offset: 0x1B8A208
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_CloseMessageOverlay
 }

@@ -33,7 +33,7 @@ namespace Oculus::Platform::Models {
       return TotalCount;
     }
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x1364C6C
+    // Offset: 0x113A3A8
     static LeaderboardEntryList* New_ctor(System::IntPtr a);
   }; // Oculus.Platform.Models.LeaderboardEntryList
 }

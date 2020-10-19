@@ -27,79 +27,79 @@ namespace UnityEngine {
   class Shader : public UnityEngine::Object {
     public:
     // static public UnityEngine.Shader Find(System.String name)
-    // Offset: 0x198F648
+    // Offset: 0x1735A6C
     static UnityEngine::Shader* Find(::Il2CppString* name);
     // public System.Boolean get_isSupported()
-    // Offset: 0x198F688
+    // Offset: 0x1735AAC
     bool get_isSupported();
     // static public System.Void EnableKeyword(System.String keyword)
-    // Offset: 0x198F6C8
+    // Offset: 0x1735AEC
     static void EnableKeyword(::Il2CppString* keyword);
     // static public System.Void DisableKeyword(System.String keyword)
-    // Offset: 0x198F708
+    // Offset: 0x1735B2C
     static void DisableKeyword(::Il2CppString* keyword);
     // static public System.Int32 PropertyToID(System.String name)
-    // Offset: 0x198AD38
+    // Offset: 0x173115C
     static int PropertyToID(::Il2CppString* name);
     // static private System.Void SetGlobalFloatImpl(System.Int32 name, System.Single value)
-    // Offset: 0x198F748
+    // Offset: 0x1735B6C
     static void SetGlobalFloatImpl(int name, float value);
     // static private System.Void SetGlobalVectorImpl(System.Int32 name, UnityEngine.Vector4 value)
-    // Offset: 0x198F798
+    // Offset: 0x1735BBC
     static void SetGlobalVectorImpl(int name, UnityEngine::Vector4 value);
     // static private System.Void SetGlobalMatrixImpl(System.Int32 name, UnityEngine.Matrix4x4 value)
-    // Offset: 0x198F840
+    // Offset: 0x1735C64
     static void SetGlobalMatrixImpl(int name, UnityEngine::Matrix4x4 value);
     // static private System.Void SetGlobalTextureImpl(System.Int32 name, UnityEngine.Texture value)
-    // Offset: 0x198F8E0
+    // Offset: 0x1735D04
     static void SetGlobalTextureImpl(int name, UnityEngine::Texture* value);
     // static private System.Void SetGlobalFloatArrayImpl(System.Int32 name, System.Single[] values, System.Int32 count)
-    // Offset: 0x198F930
+    // Offset: 0x1735D54
     static void SetGlobalFloatArrayImpl(int name, ::Array<float>* values, int count);
     // static private System.Void SetGlobalVectorArrayImpl(System.Int32 name, UnityEngine.Vector4[] values, System.Int32 count)
-    // Offset: 0x198F988
+    // Offset: 0x1735DAC
     static void SetGlobalVectorArrayImpl(int name, ::Array<UnityEngine::Vector4>* values, int count);
     // static private System.Void SetGlobalFloatArray(System.Int32 name, System.Single[] values, System.Int32 count)
-    // Offset: 0x198F9E0
+    // Offset: 0x1735E04
     static void SetGlobalFloatArray(int name, ::Array<float>* values, int count);
     // static private System.Void SetGlobalVectorArray(System.Int32 name, UnityEngine.Vector4[] values, System.Int32 count)
-    // Offset: 0x198FAF4
+    // Offset: 0x1735F18
     static void SetGlobalVectorArray(int name, ::Array<UnityEngine::Vector4>* values, int count);
     // static public System.Void SetGlobalFloat(System.Int32 nameID, System.Single value)
-    // Offset: 0x198FC08
+    // Offset: 0x173602C
     static void SetGlobalFloat(int nameID, float value);
     // static public System.Void SetGlobalInt(System.Int32 nameID, System.Int32 value)
-    // Offset: 0x198FC58
+    // Offset: 0x173607C
     static void SetGlobalInt(int nameID, int value);
     // static public System.Void SetGlobalVector(System.Int32 nameID, UnityEngine.Vector4 value)
-    // Offset: 0x198FCA8
+    // Offset: 0x17360CC
     static void SetGlobalVector(int nameID, UnityEngine::Vector4 value);
     // static public System.Void SetGlobalColor(System.Int32 nameID, UnityEngine.Color value)
-    // Offset: 0x198FCAC
+    // Offset: 0x17360D0
     static void SetGlobalColor(int nameID, UnityEngine::Color value);
     // static public System.Void SetGlobalMatrix(System.Int32 nameID, UnityEngine.Matrix4x4 value)
-    // Offset: 0x198FCD4
+    // Offset: 0x17360F8
     static void SetGlobalMatrix(int nameID, UnityEngine::Matrix4x4 value);
     // static public System.Void SetGlobalTexture(System.String name, UnityEngine.Texture value)
-    // Offset: 0x198FD34
+    // Offset: 0x1736158
     static void SetGlobalTexture(::Il2CppString* name, UnityEngine::Texture* value);
     // static public System.Void SetGlobalTexture(System.Int32 nameID, UnityEngine.Texture value)
-    // Offset: 0x198FDB0
+    // Offset: 0x17361D4
     static void SetGlobalTexture(int nameID, UnityEngine::Texture* value);
     // static public System.Void SetGlobalFloatArray(System.Int32 nameID, System.Single[] values)
-    // Offset: 0x198FE00
+    // Offset: 0x1736224
     static void SetGlobalFloatArray(int nameID, ::Array<float>* values);
     // static public System.Void SetGlobalVectorArray(System.Int32 nameID, UnityEngine.Vector4[] values)
-    // Offset: 0x198FE18
+    // Offset: 0x173623C
     static void SetGlobalVectorArray(int nameID, ::Array<UnityEngine::Vector4>* values);
     // static private System.Void SetGlobalVectorImpl_Injected(System.Int32 name, ref UnityEngine.Vector4 value)
-    // Offset: 0x198F7F0
+    // Offset: 0x1735C14
     static void SetGlobalVectorImpl_Injected(int name, UnityEngine::Vector4& value);
     // static private System.Void SetGlobalMatrixImpl_Injected(System.Int32 name, ref UnityEngine.Matrix4x4 value)
-    // Offset: 0x198F890
+    // Offset: 0x1735CB4
     static void SetGlobalMatrixImpl_Injected(int name, UnityEngine::Matrix4x4& value);
     // private System.Void .ctor()
-    // Offset: 0x198FE30
+    // Offset: 0x1736254
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()

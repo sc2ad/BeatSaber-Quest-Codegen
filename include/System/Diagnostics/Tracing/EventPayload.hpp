@@ -42,32 +42,32 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x18
     System::Collections::Generic::List_1<::Il2CppObject*>* m_values;
     // System.Void .ctor(System.Collections.Generic.List`1<System.String> payloadNames, System.Collections.Generic.List`1<System.Object> payloadValues)
-    // Offset: 0x147C128
+    // Offset: 0x1252950
     static EventPayload* New_ctor(System::Collections::Generic::List_1<::Il2CppString*>* payloadNames, System::Collections::Generic::List_1<::Il2CppObject*>* payloadValues);
     // public System.Collections.Generic.ICollection`1<System.String> get_Keys()
-    // Offset: 0x147C178
+    // Offset: 0x12529A0
     System::Collections::Generic::ICollection_1<::Il2CppString*>* get_Keys();
     // public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>> GetEnumerator()
-    // Offset: 0x147C6B0
+    // Offset: 0x1252ED8
     System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, ::Il2CppObject*>>* GetEnumerator();
     // public System.Void CopyTo(System.Collections.Generic.KeyValuePair`2<System.String,System.Object>[] payloadEntries, System.Int32 count)
-    // Offset: 0x147C7FC
+    // Offset: 0x1253024
     void CopyTo(::Array<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, ::Il2CppObject*>>* payloadEntries, int count);
     // public System.Boolean TryGetValue(System.String key, out System.Object value)
-    // Offset: 0x147C91C
+    // Offset: 0x1253144
     bool TryGetValue(::Il2CppString* key, ::Il2CppObject*& value);
     // public System.Object get_Item(System.String key)
-    // Offset: 0x147C180
+    // Offset: 0x12529A8
     // Implemented from: System.Collections.Generic.IDictionary`2
     // Base method: TValue IDictionary_2::get_Item(System.String key)
     ::Il2CppObject* get_Item(::Il2CppString* key);
     // public System.Void set_Item(System.String key, System.Object value)
-    // Offset: 0x147C338
+    // Offset: 0x1252B60
     // Implemented from: System.Collections.Generic.IDictionary`2
     // Base method: System.Void IDictionary_2::set_Item(System.String key, System.Object value)
     void set_Item(::Il2CppString* key, ::Il2CppObject* value);
     // public System.Void Add(System.String key, System.Object value)
-    // Offset: 0x147C398
+    // Offset: 0x1252BC0
     // Implemented from: System.Collections.Generic.IDictionary`2
     // Base method: System.Void IDictionary_2::Add(System.String key, System.Object value)
     void Add(::Il2CppString* key, ::Il2CppObject* value);
@@ -75,7 +75,7 @@ namespace System::Diagnostics::Tracing {
     // Maps to method: Add
     void System_Collections_Generic_IDictionary_2_Add(::Il2CppString* key, ::Il2CppObject* value);
     // public System.Void Add(System.Collections.Generic.KeyValuePair`2<System.String,System.Object> payloadEntry)
-    // Offset: 0x147C3F8
+    // Offset: 0x1252C20
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection_1::Add(System.Collections.Generic.KeyValuePair`2<System.String,System.Object> payloadEntry)
     void Add(System::Collections::Generic::KeyValuePair_2<::Il2CppString*, ::Il2CppObject*> payloadEntry);
@@ -83,7 +83,7 @@ namespace System::Diagnostics::Tracing {
     // Maps to method: Add
     void System_Collections_Generic_ICollection_1_Add(System::Collections::Generic::KeyValuePair_2<::Il2CppString*, ::Il2CppObject*> payloadEntry);
     // public System.Void Clear()
-    // Offset: 0x147C458
+    // Offset: 0x1252C80
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection_1::Clear()
     void Clear();
@@ -91,7 +91,7 @@ namespace System::Diagnostics::Tracing {
     // Maps to method: Clear
     void System_Collections_Generic_ICollection_1_Clear();
     // public System.Boolean Contains(System.Collections.Generic.KeyValuePair`2<System.String,System.Object> entry)
-    // Offset: 0x147C4B8
+    // Offset: 0x1252CE0
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection_1::Contains(System.Collections.Generic.KeyValuePair`2<System.String,System.Object> entry)
     bool Contains(System::Collections::Generic::KeyValuePair_2<::Il2CppString*, ::Il2CppObject*> entry);
@@ -99,12 +99,12 @@ namespace System::Diagnostics::Tracing {
     // Maps to method: Contains
     bool System_Collections_Generic_ICollection_1_Contains(System::Collections::Generic::KeyValuePair_2<::Il2CppString*, ::Il2CppObject*> entry);
     // public System.Boolean ContainsKey(System.String key)
-    // Offset: 0x147C50C
+    // Offset: 0x1252D34
     // Implemented from: System.Collections.Generic.IDictionary`2
     // Base method: System.Boolean IDictionary_2::ContainsKey(System.String key)
     bool ContainsKey(::Il2CppString* key);
     // public System.Int32 get_Count()
-    // Offset: 0x147C658
+    // Offset: 0x1252E80
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Int32 ICollection_1::get_Count()
     int get_Count();
@@ -112,7 +112,7 @@ namespace System::Diagnostics::Tracing {
     // Maps to method: get_Count
     int System_Collections_Generic_ICollection_1_get_Count();
     // public System.Boolean get_IsReadOnly()
-    // Offset: 0x147C6A8
+    // Offset: 0x1252ED0
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection_1::get_IsReadOnly()
     bool get_IsReadOnly();
@@ -120,12 +120,12 @@ namespace System::Diagnostics::Tracing {
     // Maps to method: get_IsReadOnly
     bool System_Collections_Generic_ICollection_1_get_IsReadOnly();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x147C758
+    // Offset: 0x1252F80
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public System.Boolean Remove(System.String key)
-    // Offset: 0x147C85C
+    // Offset: 0x1253084
     // Implemented from: System.Collections.Generic.IDictionary`2
     // Base method: System.Boolean IDictionary_2::Remove(System.String key)
     bool Remove(::Il2CppString* key);
@@ -133,7 +133,7 @@ namespace System::Diagnostics::Tracing {
     // Maps to method: Remove
     bool System_Collections_Generic_IDictionary_2_Remove(::Il2CppString* key);
     // public System.Boolean Remove(System.Collections.Generic.KeyValuePair`2<System.String,System.Object> entry)
-    // Offset: 0x147C8BC
+    // Offset: 0x12530E4
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection_1::Remove(System.Collections.Generic.KeyValuePair`2<System.String,System.Object> entry)
     bool Remove(System::Collections::Generic::KeyValuePair_2<::Il2CppString*, ::Il2CppObject*> entry);

@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRCompositor::_CompositorDumpImages : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1D579D0
+    // Offset: 0x1AA9634
     static IVRCompositor::_CompositorDumpImages* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x1D579E4
+    // Offset: 0x1AA9648
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1D57BF0
+    // Offset: 0x1AA9854
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1D57C1C
+    // Offset: 0x1AA9880
     void EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_CompositorDumpImages
 }

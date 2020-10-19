@@ -24,10 +24,10 @@ namespace GlobalNamespace {
     // Offset: 0x60
     GlobalNamespace::GameNoteController* gameNoteController;
     // protected GameNoteController get_gameNoteController()
-    // Offset: 0xF607AC
+    // Offset: 0x20188EC
     GlobalNamespace::GameNoteController* get_gameNoteController();
     // public System.Void .ctor()
-    // Offset: 0xF607B4
+    // Offset: 0x20188F4
     // Implemented from: DisappearingArrowControllerBase`1
     // Base method: System.Void DisappearingArrowControllerBase_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

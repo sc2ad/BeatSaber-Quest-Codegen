@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_ResetSeatedZeroPose : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x112AA80
+    // Offset: 0xF66C18
     static IVRSystem::_ResetSeatedZeroPose* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x112AA94
+    // Offset: 0xF66C2C
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x112ACA0
+    // Offset: 0xF66E38
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x112ACCC
+    // Offset: 0xF66E64
     void EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_ResetSeatedZeroPose
 }

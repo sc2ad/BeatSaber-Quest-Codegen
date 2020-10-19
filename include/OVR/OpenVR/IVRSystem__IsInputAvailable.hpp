@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_IsInputAvailable : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F4711C
+    // Offset: 0x1C98D80
     static IVRSystem::_IsInputAvailable* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke()
-    // Offset: 0x1F47130
+    // Offset: 0x1C98D94
     bool Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F47348
+    // Offset: 0x1C98FAC
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1F47374
+    // Offset: 0x1C98FD8
     bool EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_IsInputAvailable
 }

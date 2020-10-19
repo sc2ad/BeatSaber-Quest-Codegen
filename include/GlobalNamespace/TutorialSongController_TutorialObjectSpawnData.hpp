@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     int lineIndex;
     // protected System.Void .ctor(Signal signal, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex)
-    // Offset: 0xF3BF80
+    // Offset: 0x1FA24B0
     static TutorialSongController::TutorialObjectSpawnData* New_ctor(GlobalNamespace::Signal* signal, int firstTimeBeatOffset, int beatOffset, int lineIndex);
   }; // TutorialSongController/TutorialObjectSpawnData
 }

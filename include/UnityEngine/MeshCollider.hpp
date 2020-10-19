@@ -21,10 +21,10 @@ namespace UnityEngine {
   class MeshCollider : public UnityEngine::Collider {
     public:
     // public System.Void set_sharedMesh(UnityEngine.Mesh value)
-    // Offset: 0x220FB14
+    // Offset: 0x1F60524
     void set_sharedMesh(UnityEngine::Mesh* value);
     // public System.Void set_convex(System.Boolean value)
-    // Offset: 0x220FB64
+    // Offset: 0x1F60574
     void set_convex(bool value);
   }; // UnityEngine.MeshCollider
 }

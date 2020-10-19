@@ -55,13 +55,13 @@ namespace System::IO {
     // Offset: 0x40
     System::AsyncCallback* realcb;
     // public System.Void .ctor(System.AsyncCallback cb, System.Object state)
-    // Offset: 0x16986A8
+    // Offset: 0x145227C
     static FileStreamAsyncResult* New_ctor(System::AsyncCallback* cb, ::Il2CppObject* state);
     // static private System.Void CBWrapper(System.IAsyncResult ares)
-    // Offset: 0x1699E64
+    // Offset: 0x1453A38
     static void CBWrapper(System::IAsyncResult* ares);
     // public System.Object get_AsyncState()
-    // Offset: 0x1699F00
+    // Offset: 0x1453AD4
     // Implemented from: System.IAsyncResult
     // Base method: System.Object IAsyncResult::get_AsyncState()
     ::Il2CppObject* get_AsyncState();
@@ -69,7 +69,7 @@ namespace System::IO {
     // Maps to method: get_AsyncState
     ::Il2CppObject* System_IAsyncResult_get_AsyncState();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x1699F08
+    // Offset: 0x1453ADC
     // Implemented from: System.IAsyncResult
     // Base method: System.Boolean IAsyncResult::get_CompletedSynchronously()
     bool get_CompletedSynchronously();
@@ -77,7 +77,7 @@ namespace System::IO {
     // Maps to method: get_CompletedSynchronously
     bool System_IAsyncResult_get_CompletedSynchronously();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x1699F10
+    // Offset: 0x1453AE4
     // Implemented from: System.IAsyncResult
     // Base method: System.Threading.WaitHandle IAsyncResult::get_AsyncWaitHandle()
     System::Threading::WaitHandle* get_AsyncWaitHandle();
@@ -85,7 +85,7 @@ namespace System::IO {
     // Maps to method: get_AsyncWaitHandle
     System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x1699F18
+    // Offset: 0x1453AEC
     // Implemented from: System.IAsyncResult
     // Base method: System.Boolean IAsyncResult::get_IsCompleted()
     bool get_IsCompleted();

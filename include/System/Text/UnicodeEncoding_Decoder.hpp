@@ -31,25 +31,25 @@ namespace System::Text {
     // Offset: 0x34
     ::Il2CppChar lastChar;
     // public System.Void .ctor(System.Text.UnicodeEncoding encoding)
-    // Offset: 0x1A16F24
+    // Offset: 0x17BD348
     static UnicodeEncoding::Decoder* New_ctor(System::Text::UnicodeEncoding* encoding);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1A174C0
+    // Offset: 0x17BD8E4
     // Implemented from: System.Text.DecoderNLS
     // Base method: System.Void DecoderNLS::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static UnicodeEncoding::Decoder* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1A178B4
+    // Offset: 0x17BDCD8
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Void Reset()
-    // Offset: 0x1A17A0C
+    // Offset: 0x17BDE30
     // Implemented from: System.Text.DecoderNLS
     // Base method: System.Void DecoderNLS::Reset()
     void Reset();
     // override System.Boolean get_HasState()
-    // Offset: 0x1A17A34
+    // Offset: 0x17BDE58
     // Implemented from: System.Text.DecoderNLS
     // Base method: System.Boolean DecoderNLS::get_HasState()
     bool get_HasState();

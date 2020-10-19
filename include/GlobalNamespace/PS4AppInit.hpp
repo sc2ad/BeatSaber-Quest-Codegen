@@ -49,27 +49,27 @@ namespace GlobalNamespace {
     // Offset: 0x60
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0x1015890
+    // Offset: 0x1F8DEEC
     // Implemented from: AppInit
     // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
     void AppStartAndMultiSceneEditorSetup();
     // protected override System.Void RepeatableSetup()
-    // Offset: 0x10158FC
+    // Offset: 0x1F8DF58
     // Implemented from: AppInit
     // Base method: System.Void AppInit::RepeatableSetup()
     void RepeatableSetup();
     // protected override System.Void TransitionToNextScene()
-    // Offset: 0x1015948
+    // Offset: 0x1F8DFA4
     // Implemented from: AppInit
     // Base method: System.Void AppInit::TransitionToNextScene()
     void TransitionToNextScene();
     // public override System.Void InstallBindings()
-    // Offset: 0x1015984
+    // Offset: 0x1F8DFE0
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x1015A54
+    // Offset: 0x1F8E0B0
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     // Base method: System.Void MonoInstaller::.ctor()

@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
   class IVRIOBuffer::_Open : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1D60A30
+    // Offset: 0x1AB2694
     static IVRIOBuffer::_Open* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EIOBufferError Invoke(System.String pchPath, OVR.OpenVR.EIOBufferMode mode, System.UInt32 unElementSize, System.UInt32 unElements, ref System.UInt64 pulBuffer)
-    // Offset: 0x1D60A44
+    // Offset: 0x1AB26A8
     OVR::OpenVR::EIOBufferError Invoke(::Il2CppString* pchPath, OVR::OpenVR::EIOBufferMode mode, uint unElementSize, uint unElements, uint64_t& pulBuffer);
     // public System.IAsyncResult BeginInvoke(System.String pchPath, OVR.OpenVR.EIOBufferMode mode, System.UInt32 unElementSize, System.UInt32 unElements, ref System.UInt64 pulBuffer, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1D60EE8
+    // Offset: 0x1AB2B4C
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchPath, OVR::OpenVR::EIOBufferMode mode, uint unElementSize, uint unElements, uint64_t& pulBuffer, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EIOBufferError EndInvoke(ref System.UInt64 pulBuffer, System.IAsyncResult result)
-    // Offset: 0x1D60FD8
+    // Offset: 0x1AB2C3C
     OVR::OpenVR::EIOBufferError EndInvoke(uint64_t& pulBuffer, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRIOBuffer/_Open
 }

@@ -37,13 +37,13 @@ namespace MasterServer {
     // Offset: 0x50
     ::Il2CppString* secret;
     // static public PacketPool`1<MasterServer.ConnectToMatchmakingRequest> get_pool()
-    // Offset: 0x10BC404
+    // Offset: 0x211DF6C
     static GlobalNamespace::PacketPool_1<MasterServer::ConnectToMatchmakingRequest*>* get_pool();
     // public MasterServer.ConnectToMatchmakingRequest Init(System.String userId, System.String userName, GameplayServerConfiguration configuration, System.String secret)
-    // Offset: 0x10BC44C
+    // Offset: 0x211DFB4
     MasterServer::ConnectToMatchmakingRequest* Init(::Il2CppString* userId, ::Il2CppString* userName, GlobalNamespace::GameplayServerConfiguration configuration, ::Il2CppString* secret);
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x10BC4B8
+    // Offset: 0x211E020
     // Implemented from: MasterServer.BaseConnectToServerRequest
     // Base method: System.Void BaseConnectToServerRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -51,7 +51,7 @@ namespace MasterServer {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x10BC504
+    // Offset: 0x211E06C
     // Implemented from: MasterServer.BaseConnectToServerRequest
     // Base method: System.Void BaseConnectToServerRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -59,12 +59,12 @@ namespace MasterServer {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x10BC578
+    // Offset: 0x211E0E0
     // Implemented from: MasterServer.BaseConnectToServerRequest
     // Base method: System.Void BaseConnectToServerRequest::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x10BC5E0
+    // Offset: 0x211E148
     // Implemented from: MasterServer.BaseConnectToServerRequest
     // Base method: System.Void BaseConnectToServerRequest::.ctor()
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()

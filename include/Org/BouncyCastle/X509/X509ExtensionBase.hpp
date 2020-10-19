@@ -29,10 +29,10 @@ namespace Org::BouncyCastle::X509 {
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
     // public Org.BouncyCastle.Asn1.Asn1OctetString GetExtensionValue(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x1DE9F64
+    // Offset: 0x1B3DBC8
     Org::BouncyCastle::Asn1::Asn1OctetString* GetExtensionValue(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // protected System.Void .ctor()
-    // Offset: 0x1DE5640
+    // Offset: 0x1B392A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static X509ExtensionBase* New_ctor();

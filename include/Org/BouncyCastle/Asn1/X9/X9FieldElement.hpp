@@ -33,10 +33,10 @@ namespace Org::BouncyCastle::Asn1::X9 {
       return f;
     }
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECFieldElement f)
-    // Offset: 0x1875624
+    // Offset: 0x161BA48
     static X9FieldElement* New_ctor(Org::BouncyCastle::Math::EC::ECFieldElement* f);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x18764B0
+    // Offset: 0x161C8D4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

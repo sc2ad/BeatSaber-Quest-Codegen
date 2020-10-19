@@ -24,22 +24,22 @@ namespace Mono::Security {
   class ASN1Convert : public ::Il2CppObject {
     public:
     // static public Mono.Security.ASN1 FromInt32(System.Int32 value)
-    // Offset: 0x1B7EBF8
+    // Offset: 0x1920DEC
     static Mono::Security::ASN1* FromInt32(int value);
     // static public Mono.Security.ASN1 FromOid(System.String oid)
-    // Offset: 0x1B7ED9C
+    // Offset: 0x1920F90
     static Mono::Security::ASN1* FromOid(::Il2CppString* oid);
     // static public Mono.Security.ASN1 FromUnsignedBigInteger(System.Byte[] big)
-    // Offset: 0x1B7EE50
+    // Offset: 0x1921044
     static Mono::Security::ASN1* FromUnsignedBigInteger(::Array<uint8_t>* big);
     // static public System.Int32 ToInt32(Mono.Security.ASN1 asn1)
-    // Offset: 0x1B7EF64
+    // Offset: 0x1921158
     static int ToInt32(Mono::Security::ASN1* asn1);
     // static public System.String ToOid(Mono.Security.ASN1 asn1)
-    // Offset: 0x1B7F090
+    // Offset: 0x1921284
     static ::Il2CppString* ToOid(Mono::Security::ASN1* asn1);
     // static public System.DateTime ToDateTime(Mono.Security.ASN1 time)
-    // Offset: 0x1B7F318
+    // Offset: 0x192150C
     static System::DateTime ToDateTime(Mono::Security::ASN1* time);
   }; // Mono.Security.ASN1Convert
 }

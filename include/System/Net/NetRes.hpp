@@ -19,10 +19,10 @@ namespace System::Net {
   class NetRes : public ::Il2CppObject {
     public:
     // static public System.String GetWebStatusString(System.String Res, System.Net.WebExceptionStatus Status)
-    // Offset: 0x1474E94
+    // Offset: 0x124B6BC
     static ::Il2CppString* GetWebStatusString(::Il2CppString* Res, System::Net::WebExceptionStatus Status);
     // static public System.String GetWebStatusString(System.Net.WebExceptionStatus Status)
-    // Offset: 0x1474F60
+    // Offset: 0x124B788
     static ::Il2CppString* GetWebStatusString(System::Net::WebExceptionStatus Status);
   }; // System.Net.NetRes
 }

@@ -71,62 +71,62 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public IDifficultyBeatmap get_difficultyBeatmap()
-    // Offset: 0xEC83EC
+    // Offset: 0x20073BC
     GlobalNamespace::IDifficultyBeatmap* get_difficultyBeatmap();
     // public System.Boolean get_isInitialized()
-    // Offset: 0xEC842C
+    // Offset: 0x20073FC
     bool get_isInitialized();
     // public System.Single get_moveDuration()
-    // Offset: 0xEC8448
+    // Offset: 0x2007418
     float get_moveDuration();
     // public System.Single get_jumpDuration()
-    // Offset: 0xEC8464
+    // Offset: 0x2007434
     float get_jumpDuration();
     // public System.Void add_didInitEvent(System.Action value)
-    // Offset: 0xEC8480
+    // Offset: 0x2007450
     void add_didInitEvent(System::Action* value);
     // public System.Void remove_didInitEvent(System.Action value)
-    // Offset: 0xEC849C
+    // Offset: 0x200746C
     void remove_didInitEvent(System::Action* value);
     // public System.Collections.Generic.List`1<System.Single> get_ProcessedSamples()
-    // Offset: 0xEC84B8
+    // Offset: 0x2007488
     System::Collections::Generic::List_1<float>* get_ProcessedSamples();
     // public Saber get_leftSaber()
-    // Offset: 0xEC84D4
+    // Offset: 0x20074A4
     GlobalNamespace::Saber* get_leftSaber();
     // public Saber get_rightSaber()
-    // Offset: 0xEC84F0
+    // Offset: 0x20074C0
     GlobalNamespace::Saber* get_rightSaber();
     // public System.Void add_beatmapEventDidTriggerEvent(System.Action`1<BeatmapEventData> value)
-    // Offset: 0xEC850C
+    // Offset: 0x20074DC
     void add_beatmapEventDidTriggerEvent(System::Action_1<GlobalNamespace::BeatmapEventData*>* value);
     // public System.Void remove_beatmapEventDidTriggerEvent(System.Action`1<BeatmapEventData> value)
-    // Offset: 0xEC8528
+    // Offset: 0x20074F8
     void remove_beatmapEventDidTriggerEvent(System::Action_1<GlobalNamespace::BeatmapEventData*>* value);
     // public BeatmapObjectCallbackController/BeatmapObjectCallbackData AddBeatmapObjectCallback(BeatmapObjectCallbackController/BeatmapObjectCallback callback, System.Single aheadTime)
-    // Offset: 0xEC8544
+    // Offset: 0x2007514
     GlobalNamespace::BeatmapObjectCallbackController::BeatmapObjectCallbackData* AddBeatmapObjectCallback(GlobalNamespace::BeatmapObjectCallbackController::BeatmapObjectCallback* callback, float aheadTime);
     // public System.Void RemoveBeatmapObjectCallback(BeatmapObjectCallbackController/BeatmapObjectCallbackData callbackData)
-    // Offset: 0xEC8560
+    // Offset: 0x2007530
     void RemoveBeatmapObjectCallback(GlobalNamespace::BeatmapObjectCallbackController::BeatmapObjectCallbackData* callbackData);
     // public BeatmapObjectCallbackController/BeatmapEventCallbackData AddBeatmapEventCallback(BeatmapObjectCallbackController/BeatmapEventCallback callback, System.Single aheadTime)
-    // Offset: 0xEC857C
+    // Offset: 0x200754C
     GlobalNamespace::BeatmapObjectCallbackController::BeatmapEventCallbackData* AddBeatmapEventCallback(GlobalNamespace::BeatmapObjectCallbackController::BeatmapEventCallback* callback, float aheadTime);
     // public System.Void RemoveBeatmapEventCallback(BeatmapObjectCallbackController/BeatmapEventCallbackData callbackData)
-    // Offset: 0xEC8598
+    // Offset: 0x2007568
     void RemoveBeatmapEventCallback(GlobalNamespace::BeatmapObjectCallbackController::BeatmapEventCallbackData* callbackData);
     // public System.Single get_songTime()
-    // Offset: 0xEC83F4
+    // Offset: 0x20073C4
     // Implemented from: IAudioTimeSource
     // Base method: System.Single IAudioTimeSource::get_songTime()
     float get_songTime();
     // public System.Single get_songEndTime()
-    // Offset: 0xEC8410
+    // Offset: 0x20073E0
     // Implemented from: IAudioTimeSource
     // Base method: System.Single IAudioTimeSource::get_songEndTime()
     float get_songEndTime();
     // public System.Void .ctor()
-    // Offset: 0xEC85B4
+    // Offset: 0x2007584
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

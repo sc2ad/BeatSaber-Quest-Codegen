@@ -33,13 +33,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     System::Collections::Generic::Dictionary_2<GlobalNamespace::EnvironmentTypeSO*, GlobalNamespace::EnvironmentInfoSO*>* data;
     // public System.Void SetEnvironmentInfoForType(EnvironmentTypeSO environmentType, EnvironmentInfoSO environmentInfo)
-    // Offset: 0x1014CE8
+    // Offset: 0x1F8D344
     void SetEnvironmentInfoForType(GlobalNamespace::EnvironmentTypeSO* environmentType, GlobalNamespace::EnvironmentInfoSO* environmentInfo);
     // public EnvironmentInfoSO GetOverrideEnvironmentInfoForType(EnvironmentTypeSO environmentType)
-    // Offset: 0x1014D58
+    // Offset: 0x1F8D3B4
     GlobalNamespace::EnvironmentInfoSO* GetOverrideEnvironmentInfoForType(GlobalNamespace::EnvironmentTypeSO* environmentType);
     // public System.Void .ctor()
-    // Offset: 0x1014DD8
+    // Offset: 0x1F8D434
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OverrideEnvironmentSettings* New_ctor();

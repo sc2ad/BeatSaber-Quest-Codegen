@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Offset: 0x50
     ::Il2CppString* secret;
     // public System.Void .ctor()
-    // Offset: 0x12E9B04
+    // Offset: 0x21E6870
     // Implemented from: BaseNetworkPlayerModel/PartyConfig
     // Base method: System.Void PartyConfig::.ctor()
     // Base method: System.Void Object::.ctor()

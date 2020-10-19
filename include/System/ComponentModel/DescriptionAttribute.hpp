@@ -25,30 +25,30 @@ namespace System::ComponentModel {
     // Set static field: static public readonly System.ComponentModel.DescriptionAttribute Default
     static void _set_Default(System::ComponentModel::DescriptionAttribute* value);
     // public System.Void .ctor(System.String description)
-    // Offset: 0x17266A8
+    // Offset: 0x14E227C
     static DescriptionAttribute* New_ctor(::Il2CppString* description);
     // public System.String get_Description()
-    // Offset: 0x17266DC
+    // Offset: 0x14E22B0
     ::Il2CppString* get_Description();
     // protected System.String get_DescriptionValue()
-    // Offset: 0x17266E4
+    // Offset: 0x14E22B8
     ::Il2CppString* get_DescriptionValue();
     // static private System.Void .cctor()
-    // Offset: 0x17267F8
+    // Offset: 0x14E23CC
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x172663C
+    // Offset: 0x14E2210
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()
     static DescriptionAttribute* New_ctor();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x17266EC
+    // Offset: 0x14E22C0
     // Implemented from: System.Attribute
     // Base method: System.Boolean Attribute::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x17267CC
+    // Offset: 0x14E23A0
     // Implemented from: System.Attribute
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();

@@ -28,13 +28,13 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x20
     int locked;
     // System.Object Get()
-    // Offset: 0x16C7C18
+    // Offset: 0x14827EC
     ::Il2CppObject* Get();
     // System.Void Release(System.Object obj)
-    // Offset: 0x16C7C7C
+    // Offset: 0x1482850
     void Release(::Il2CppObject* obj);
     // public System.Void .ctor()
-    // Offset: 0x16C7DA0
+    // Offset: 0x1482974
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ExclusiveReference* New_ctor();

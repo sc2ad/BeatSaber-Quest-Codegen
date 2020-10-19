@@ -72,55 +72,55 @@ namespace GlobalNamespace {
     // Offset: 0x48
     bool isDataValid;
     // private System.Threading.Tasks.Task`1<System.Boolean> DataIsValidAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xF2CD04
+    // Offset: 0x1F93F78
     System::Threading::Tasks::Task_1<bool>* DataIsValidAsync(System::Threading::CancellationToken cancellationToken);
     // private System.Void OpenProductStore(System.UInt32 appId)
-    // Offset: 0xF2D0E4
+    // Offset: 0x1F94358
     void OpenProductStore(uint appId);
     // private System.Void OpenBundleUrl(System.UInt32 bundleId)
-    // Offset: 0xF2D0EC
+    // Offset: 0x1F94360
     void OpenBundleUrl(uint bundleId);
     // private System.Threading.Tasks.Task`1<AdditionalContentModel/UpdateEntitlementsResult> CheckForNewEntitlementsAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xF2D160
+    // Offset: 0x1F943D4
     System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult>* CheckForNewEntitlementsAsync(System::Threading::CancellationToken cancellationToken);
     // private System.Boolean HasLevelEntitlement(System.String levelId)
-    // Offset: 0xF2D26C
+    // Offset: 0x1F944E0
     bool HasLevelEntitlement(::Il2CppString* levelId);
     // private System.Boolean HasLevelPackEntitlement(System.String levelPackId)
-    // Offset: 0xF2D2FC
+    // Offset: 0x1F94570
     bool HasLevelPackEntitlement(::Il2CppString* levelPackId);
     // protected override System.Void InvalidateDataInternal()
-    // Offset: 0xF2CA34
+    // Offset: 0x1F93CA8
     // Implemented from: AdditionalContentModel
     // Base method: System.Void AdditionalContentModel::InvalidateDataInternal()
     void InvalidateDataInternal();
     // protected override System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> GetLevelEntitlementStatusInternalAsync(System.String levelId, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xF2CA3C
+    // Offset: 0x1F93CB0
     // Implemented from: AdditionalContentModel
     // Base method: System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> AdditionalContentModel::GetLevelEntitlementStatusInternalAsync(System.String levelId, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* GetLevelEntitlementStatusInternalAsync(::Il2CppString* levelId, System::Threading::CancellationToken cancellationToken);
     // protected override System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> GetPackEntitlementStatusInternalAsync(System.String packId, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xF2CBA0
+    // Offset: 0x1F93E14
     // Implemented from: AdditionalContentModel
     // Base method: System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> AdditionalContentModel::GetPackEntitlementStatusInternalAsync(System.String packId, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* GetPackEntitlementStatusInternalAsync(::Il2CppString* packId, System::Threading::CancellationToken cancellationToken);
     // public override System.Threading.Tasks.Task`1<AdditionalContentModel/OpenProductStoreResult> OpenLevelProductStoreAsync(System.String levelId, System.Threading.CancellationToken token)
-    // Offset: 0xF2CE44
+    // Offset: 0x1F940B8
     // Implemented from: AdditionalContentModel
     // Base method: System.Threading.Tasks.Task`1<AdditionalContentModel/OpenProductStoreResult> AdditionalContentModel::OpenLevelProductStoreAsync(System.String levelId, System.Threading.CancellationToken token)
     System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>* OpenLevelProductStoreAsync(::Il2CppString* levelId, System::Threading::CancellationToken token);
     // public override System.Threading.Tasks.Task`1<AdditionalContentModel/OpenProductStoreResult> OpenLevelPackProductStoreAsync(System.String levelPackId, System.Threading.CancellationToken token)
-    // Offset: 0xF2CF94
+    // Offset: 0x1F94208
     // Implemented from: AdditionalContentModel
     // Base method: System.Threading.Tasks.Task`1<AdditionalContentModel/OpenProductStoreResult> AdditionalContentModel::OpenLevelPackProductStoreAsync(System.String levelPackId, System.Threading.CancellationToken token)
     System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>* OpenLevelPackProductStoreAsync(::Il2CppString* levelPackId, System::Threading::CancellationToken token);
     // public override System.Threading.Tasks.Task`1<AdditionalContentModel/IsPackBetterBuyThanLevelResult> IsPackBetterBuyThanLevelAsync(System.String levelPackId, System.Threading.CancellationToken token)
-    // Offset: 0xF2D0F4
+    // Offset: 0x1F94368
     // Implemented from: AdditionalContentModel
     // Base method: System.Threading.Tasks.Task`1<AdditionalContentModel/IsPackBetterBuyThanLevelResult> AdditionalContentModel::IsPackBetterBuyThanLevelAsync(System.String levelPackId, System.Threading.CancellationToken token)
     System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::IsPackBetterBuyThanLevelResult>* IsPackBetterBuyThanLevelAsync(::Il2CppString* levelPackId, System::Threading::CancellationToken token);
     // public System.Void .ctor()
-    // Offset: 0xF2D3D4
+    // Offset: 0x1F94648
     // Implemented from: AdditionalContentModel
     // Base method: System.Void AdditionalContentModel::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

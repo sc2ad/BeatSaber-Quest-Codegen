@@ -21,21 +21,21 @@ namespace Org::BouncyCastle::Crypto {
       return privateKey;
     }
     // protected System.Void .ctor(System.Boolean privateKey)
-    // Offset: 0x18787B0
+    // Offset: 0x161EBD4
     static AsymmetricKeyParameter* New_ctor(bool privateKey);
     // public System.Boolean get_IsPrivate()
-    // Offset: 0x18787E0
+    // Offset: 0x161EC04
     bool get_IsPrivate();
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.AsymmetricKeyParameter other)
-    // Offset: 0x187889C
+    // Offset: 0x161ECC0
     bool Equals(Org::BouncyCastle::Crypto::AsymmetricKeyParameter* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x18787E8
+    // Offset: 0x161EC0C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x18788CC
+    // Offset: 0x161ECF0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

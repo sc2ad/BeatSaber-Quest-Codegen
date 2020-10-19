@@ -36,25 +36,25 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x18
     Org::BouncyCastle::Asn1::DerBitString* keyData;
     // static public Org.BouncyCastle.Asn1.X509.SubjectPublicKeyInfo GetInstance(System.Object obj)
-    // Offset: 0x1868C40
+    // Offset: 0x160F064
     static Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* GetInstance(::Il2CppObject* obj);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algID, System.Byte[] publicKey)
-    // Offset: 0x1868E64
+    // Offset: 0x160F288
     static SubjectPublicKeyInfo* New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::Array<uint8_t>* publicKey);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1868CE4
+    // Offset: 0x160F108
     static SubjectPublicKeyInfo* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier get_AlgorithmID()
-    // Offset: 0x1868EFC
+    // Offset: 0x160F320
     Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_AlgorithmID();
     // public Org.BouncyCastle.Asn1.Asn1Object ParsePublicKey()
-    // Offset: 0x1868F04
+    // Offset: 0x160F328
     Org::BouncyCastle::Asn1::Asn1Object* ParsePublicKey();
     // public Org.BouncyCastle.Asn1.DerBitString get_PublicKeyData()
-    // Offset: 0x1868F30
+    // Offset: 0x160F354
     Org::BouncyCastle::Asn1::DerBitString* get_PublicKeyData();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1868F38
+    // Offset: 0x160F35C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

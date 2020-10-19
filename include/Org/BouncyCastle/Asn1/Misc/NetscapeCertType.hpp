@@ -14,10 +14,10 @@ namespace Org::BouncyCastle::Asn1::Misc {
   class NetscapeCertType : public Org::BouncyCastle::Asn1::DerBitString {
     public:
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerBitString usage)
-    // Offset: 0x162DF80
+    // Offset: 0x14047A8
     static NetscapeCertType* New_ctor(Org::BouncyCastle::Asn1::DerBitString* usage);
     // public override System.String ToString()
-    // Offset: 0x162E02C
+    // Offset: 0x1404854
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::ToString()
     ::Il2CppString* ToString();

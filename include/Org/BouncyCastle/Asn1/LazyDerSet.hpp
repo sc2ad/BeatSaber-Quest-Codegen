@@ -32,18 +32,18 @@ namespace Org::BouncyCastle::Asn1 {
     // Deleting conversion operator: operator ::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>*
     constexpr operator ::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>*() const noexcept = delete;
     // System.Void .ctor(System.Byte[] encoded)
-    // Offset: 0x162CF50
+    // Offset: 0x1403778
     static LazyDerSet* New_ctor(::Array<uint8_t>* encoded);
     // private System.Void Parse()
-    // Offset: 0x162D278
+    // Offset: 0x1403AA0
     void Parse();
     // public override Org.BouncyCastle.Asn1.Asn1Encodable get_Item(System.Int32 index)
-    // Offset: 0x162D3F8
+    // Offset: 0x1403C20
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Set
     // Base method: Org.BouncyCastle.Asn1.Asn1Encodable Asn1Set::get_Item(System.Int32 index)
     Org::BouncyCastle::Asn1::Asn1Encodable* get_Item(int index);
     // public override System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x162D428
+    // Offset: 0x1403C50
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Set
     // Base method: System.Collections.IEnumerator Asn1Set::GetEnumerator()
     System::Collections::IEnumerator* GetEnumerator();
@@ -51,12 +51,12 @@ namespace Org::BouncyCastle::Asn1 {
     // Maps to method: GetEnumerator
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public override System.Int32 get_Count()
-    // Offset: 0x162D450
+    // Offset: 0x1403C78
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Set
     // Base method: System.Int32 Asn1Set::get_Count()
     int get_Count();
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x162D478
+    // Offset: 0x1403CA0
     // Implemented from: Org.BouncyCastle.Asn1.DerSet
     // Base method: System.Void DerSet::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);

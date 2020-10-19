@@ -16,76 +16,76 @@ namespace Org::BouncyCastle::Math::EC::Rfc7748 {
     // Set static field: static private readonly System.Int32[] RootNegOne
     static void _set_RootNegOne(::Array<int>* value);
     // static public System.Void Add(System.Int32[] x, System.Int32[] y, System.Int32[] z)
-    // Offset: 0x1B575EC
+    // Offset: 0x18F87E0
     static void Add(::Array<int>* x, ::Array<int>* y, ::Array<int>* z);
     // static public System.Void AddOne(System.Int32[] z)
-    // Offset: 0x1B5766C
+    // Offset: 0x18F8860
     static void AddOne(::Array<int>* z);
     // static public System.Void Apm(System.Int32[] x, System.Int32[] y, System.Int32[] zp, System.Int32[] zm)
-    // Offset: 0x1B576A4
+    // Offset: 0x18F8898
     static void Apm(::Array<int>* x, ::Array<int>* y, ::Array<int>* zp, ::Array<int>* zm);
     // static public System.Void Carry(System.Int32[] z)
-    // Offset: 0x1B57740
+    // Offset: 0x18F8934
     static void Carry(::Array<int>* z);
     // static public System.Void CMov(System.Int32 cond, System.Int32[] x, System.Int32 xOff, System.Int32[] z, System.Int32 zOff)
-    // Offset: 0x1B57858
+    // Offset: 0x18F8A4C
     static void CMov(int cond, ::Array<int>* x, int xOff, ::Array<int>* z, int zOff);
     // static public System.Void CNegate(System.Int32 negate, System.Int32[] z)
-    // Offset: 0x1B578E4
+    // Offset: 0x18F8AD8
     static void CNegate(int negate, ::Array<int>* z);
     // static public System.Void Copy(System.Int32[] x, System.Int32 xOff, System.Int32[] z, System.Int32 zOff)
-    // Offset: 0x1B57940
+    // Offset: 0x18F8B34
     static void Copy(::Array<int>* x, int xOff, ::Array<int>* z, int zOff);
     // static public System.Int32[] Create()
-    // Offset: 0x1B579BC
+    // Offset: 0x18F8BB0
     static ::Array<int>* Create();
     // static public System.Void CSwap(System.Int32 swap, System.Int32[] a, System.Int32[] b)
-    // Offset: 0x1B57A08
+    // Offset: 0x18F8BFC
     static void CSwap(int swap, ::Array<int>* a, ::Array<int>* b);
     // static public System.Void Encode(System.Int32[] x, System.Byte[] z, System.Int32 zOff)
-    // Offset: 0x1B57A94
+    // Offset: 0x18F8C88
     static void Encode(::Array<int>* x, ::Array<uint8_t>* z, int zOff);
     // static private System.Void Encode128(System.Int32[] x, System.Int32 xOff, System.Byte[] bs, System.Int32 off)
-    // Offset: 0x1B57B28
+    // Offset: 0x18F8D1C
     static void Encode128(::Array<int>* x, int xOff, ::Array<uint8_t>* bs, int off);
     // static private System.Void Encode32(System.UInt32 n, System.Byte[] bs, System.Int32 off)
-    // Offset: 0x1B57C70
+    // Offset: 0x18F8E64
     static void Encode32(uint n, ::Array<uint8_t>* bs, int off);
     // static public System.Void Inv(System.Int32[] x, System.Int32[] z)
-    // Offset: 0x1B57CFC
+    // Offset: 0x18F8EF0
     static void Inv(::Array<int>* x, ::Array<int>* z);
     // static public System.Int32 IsZero(System.Int32[] x)
-    // Offset: 0x1B5859C
+    // Offset: 0x18F9790
     static int IsZero(::Array<int>* x);
     // static public System.Void Mul(System.Int32[] x, System.Int32[] y, System.Int32[] z)
-    // Offset: 0x1B58040
+    // Offset: 0x18F9234
     static void Mul(::Array<int>* x, ::Array<int>* y, ::Array<int>* z);
     // static public System.Void Normalize(System.Int32[] z)
-    // Offset: 0x1B585FC
+    // Offset: 0x18F97F0
     static void Normalize(::Array<int>* z);
     // static public System.Void One(System.Int32[] z)
-    // Offset: 0x1B58760
+    // Offset: 0x18F9954
     static void One(::Array<int>* z);
     // static private System.Void PowPm5d8(System.Int32[] x, System.Int32[] rx2, System.Int32[] rz)
-    // Offset: 0x1B57DA4
+    // Offset: 0x18F8F98
     static void PowPm5d8(::Array<int>* x, ::Array<int>* rx2, ::Array<int>* rz);
     // static private System.Void Reduce(System.Int32[] z, System.Int32 x)
-    // Offset: 0x1B58698
+    // Offset: 0x18F988C
     static void Reduce(::Array<int>* z, int x);
     // static public System.Void Sqr(System.Int32[] x, System.Int32[] z)
-    // Offset: 0x1B587BC
+    // Offset: 0x18F99B0
     static void Sqr(::Array<int>* x, ::Array<int>* z);
     // static public System.Void Sqr(System.Int32[] x, System.Int32 n, System.Int32[] z)
-    // Offset: 0x1B57F88
+    // Offset: 0x18F917C
     static void Sqr(::Array<int>* x, int n, ::Array<int>* z);
     // static public System.Void Sub(System.Int32[] x, System.Int32[] y, System.Int32[] z)
-    // Offset: 0x1B58B40
+    // Offset: 0x18F9D34
     static void Sub(::Array<int>* x, ::Array<int>* y, ::Array<int>* z);
     // static public System.Void Zero(System.Int32[] z)
-    // Offset: 0x1B58BC0
+    // Offset: 0x18F9DB4
     static void Zero(::Array<int>* z);
     // static private System.Void .cctor()
-    // Offset: 0x1B58C0C
+    // Offset: 0x18F9E00
     static void _cctor();
   }; // Org.BouncyCastle.Math.EC.Rfc7748.X25519Field
 }

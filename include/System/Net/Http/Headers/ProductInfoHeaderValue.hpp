@@ -35,48 +35,48 @@ namespace System::Net::Http::Headers {
     // Offset: 0x18
     System::Net::Http::Headers::ProductHeaderValue* Product;
     // public System.Void .ctor(System.Net.Http.Headers.ProductHeaderValue product)
-    // Offset: 0x13A7ABC
+    // Offset: 0x117D1F8
     static ProductInfoHeaderValue* New_ctor(System::Net::Http::Headers::ProductHeaderValue* product);
     // public System.String get_Comment()
-    // Offset: 0x13A7B5C
+    // Offset: 0x117D298
     ::Il2CppString* get_Comment();
     // private System.Void set_Comment(System.String value)
-    // Offset: 0x13A7B64
+    // Offset: 0x117D2A0
     void set_Comment(::Il2CppString* value);
     // public System.Net.Http.Headers.ProductHeaderValue get_Product()
-    // Offset: 0x13A7B6C
+    // Offset: 0x117D2A8
     System::Net::Http::Headers::ProductHeaderValue* get_Product();
     // private System.Void set_Product(System.Net.Http.Headers.ProductHeaderValue value)
-    // Offset: 0x13A7B74
+    // Offset: 0x117D2B0
     void set_Product(System::Net::Http::Headers::ProductHeaderValue* value);
     // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.ProductInfoHeaderValue> result)
-    // Offset: 0x13A7C88
+    // Offset: 0x117D3C4
     static bool TryParse(::Il2CppString* input, int minimalCount, System::Collections::Generic::List_1<System::Net::Http::Headers::ProductInfoHeaderValue*>*& result);
     // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.ProductInfoHeaderValue parsedValue)
-    // Offset: 0x13A7DEC
+    // Offset: 0x117D528
     static bool TryParseElement(System::Net::Http::Headers::Lexer* lexer, System::Net::Http::Headers::ProductInfoHeaderValue*& parsedValue);
     // private System.Void .ctor()
-    // Offset: 0x13A7B54
+    // Offset: 0x117D290
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ProductInfoHeaderValue* New_ctor();
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x13A7B7C
+    // Offset: 0x117D2B8
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* System_ICloneable_Clone();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x13A7B84
+    // Offset: 0x117D2C0
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x13A7C5C
+    // Offset: 0x117D398
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x13A8030
+    // Offset: 0x117D76C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

@@ -25,16 +25,16 @@ namespace GlobalNamespace {
     // Offset: 0x24
     float whiteBoost;
     // public UnityEngine.Color get_defaultColor()
-    // Offset: 0xFC8040
+    // Offset: 0x205CBC0
     UnityEngine::Color get_defaultColor();
     // public System.Single get_darkerColorMultiplier()
-    // Offset: 0xFC804C
+    // Offset: 0x205CBCC
     float get_darkerColorMultiplier();
     // public System.Single get_whiteBoost()
-    // Offset: 0xFC8054
+    // Offset: 0x205CBD4
     float get_whiteBoost();
     // public System.Void .ctor()
-    // Offset: 0xFC805C
+    // Offset: 0x205CBDC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MulticolorAvatarPartPropertyBlockSetter::ColorData* New_ctor();

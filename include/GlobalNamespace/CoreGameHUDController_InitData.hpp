@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Offset: 0x12
     bool advancedHUD;
     // public System.Void .ctor(System.Boolean hide, System.Boolean showEnergyPanel, System.Boolean advancedHUD)
-    // Offset: 0xF289A8
+    // Offset: 0x1FBC3A4
     static CoreGameHUDController::InitData* New_ctor(bool hide, bool showEnergyPanel, bool advancedHUD);
   }; // CoreGameHUDController/InitData
 }

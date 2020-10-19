@@ -28,21 +28,21 @@ namespace Oculus::Platform {
       return Handle;
     }
     // public System.Void SetPreventPeopleChooser(System.Boolean value)
-    // Offset: 0x1DBF8E4
+    // Offset: 0x1B13548
     void SetPreventPeopleChooser(bool value);
     // public System.Void SetReportType(Oculus.Platform.AbuseReportType value)
-    // Offset: 0x1DBF9EC
+    // Offset: 0x1B13650
     void SetReportType(Oculus::Platform::AbuseReportType value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.AbuseReportOptions options)
-    // Offset: 0x1DBFAF4
+    // Offset: 0x1B13758
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x1DBF7FC
+    // Offset: 0x1B13460
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AbuseReportOptions* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x1DBFB44
+    // Offset: 0x1B137A8
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

@@ -49,25 +49,25 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x30
     Mono::Security::X509::X509Store* store;
     // public System.Void .ctor(System.Security.Cryptography.X509Certificates.StoreName storeName, System.Security.Cryptography.X509Certificates.StoreLocation storeLocation)
-    // Offset: 0x16C26C4
+    // Offset: 0x147D298
     static X509Store* New_ctor(System::Security::Cryptography::X509Certificates::StoreName storeName, System::Security::Cryptography::X509Certificates::StoreLocation storeLocation);
     // public System.Security.Cryptography.X509Certificates.X509Certificate2Collection get_Certificates()
-    // Offset: 0x16C2358
+    // Offset: 0x147CF2C
     System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_Certificates();
     // private Mono.Security.X509.X509Stores get_Factory()
-    // Offset: 0x16C6AAC
+    // Offset: 0x1481680
     Mono::Security::X509::X509Stores* get_Factory();
     // Mono.Security.X509.X509Store get_Store()
-    // Offset: 0x16C6AC8
+    // Offset: 0x148169C
     Mono::Security::X509::X509Store* get_Store();
     // public System.Void Close()
-    // Offset: 0x16C2038
+    // Offset: 0x147CC0C
     void Close();
     // public System.Void Open(System.Security.Cryptography.X509Certificates.OpenFlags flags)
-    // Offset: 0x16C2810
+    // Offset: 0x147D3E4
     void Open(System::Security::Cryptography::X509Certificates::OpenFlags flags);
     // public System.Void Dispose()
-    // Offset: 0x16C6AD0
+    // Offset: 0x14816A4
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

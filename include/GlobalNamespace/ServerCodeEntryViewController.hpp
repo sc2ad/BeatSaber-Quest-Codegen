@@ -54,37 +54,37 @@ namespace GlobalNamespace {
     // Offset: 0x98
     HMUI::InputFieldViewChangeBinder* inputFieldViewChangeBinder;
     // public System.Void add_didFinishEvent(System.Action`2<System.Boolean,System.String> value)
-    // Offset: 0xEE9348
+    // Offset: 0x1FEA0D0
     void add_didFinishEvent(System::Action_2<bool, ::Il2CppString*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<System.Boolean,System.String> value)
-    // Offset: 0xEE93EC
+    // Offset: 0x1FEA174
     void remove_didFinishEvent(System::Action_2<bool, ::Il2CppString*>* value);
     // private System.Void HandleInputFieldChanged(HMUI.InputFieldView obj)
-    // Offset: 0xEE964C
+    // Offset: 0x1FEA3D4
     void HandleInputFieldChanged(HMUI::InputFieldView* obj);
     // private System.Void HandleJoinButtonPressed()
-    // Offset: 0xEE96BC
+    // Offset: 0x1FEA444
     void HandleJoinButtonPressed();
     // private System.Void HandleCancelButtonPressed()
-    // Offset: 0xEE9730
+    // Offset: 0x1FEA4B8
     void HandleCancelButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xEE9490
+    // Offset: 0x1FEA218
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0xEE9620
+    // Offset: 0x1FEA3A8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0xEE9688
+    // Offset: 0x1FEA410
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0xEE9798
+    // Offset: 0x1FEA520
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

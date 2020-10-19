@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRChaperoneSetup::_RevertWorkingCopy : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1385900
+    // Offset: 0x115B03C
     static IVRChaperoneSetup::_RevertWorkingCopy* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x137B0E8
+    // Offset: 0x1150824
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1385914
+    // Offset: 0x115B050
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1385940
+    // Offset: 0x115B07C
     void EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRChaperoneSetup/_RevertWorkingCopy
 }

@@ -40,31 +40,31 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     // Offset: 0x40
     int m_bits;
     // static private System.Void CheckVector(Org.BouncyCastle.Math.BigInteger[] v, System.String name)
-    // Offset: 0x201C294
+    // Offset: 0x1D6BEF8
     static void CheckVector(::Array<Org::BouncyCastle::Math::BigInteger*>* v, ::Il2CppString* name);
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger[] v1, Org.BouncyCastle.Math.BigInteger[] v2, Org.BouncyCastle.Math.BigInteger g1, Org.BouncyCastle.Math.BigInteger g2, System.Int32 bits)
-    // Offset: 0x201C340
+    // Offset: 0x1D6BFA4
     static ScalarSplitParameters* New_ctor(::Array<Org::BouncyCastle::Math::BigInteger*>* v1, ::Array<Org::BouncyCastle::Math::BigInteger*>* v2, Org::BouncyCastle::Math::BigInteger* g1, Org::BouncyCastle::Math::BigInteger* g2, int bits);
     // public Org.BouncyCastle.Math.BigInteger get_V1A()
-    // Offset: 0x201C484
+    // Offset: 0x1D6C0E8
     Org::BouncyCastle::Math::BigInteger* get_V1A();
     // public Org.BouncyCastle.Math.BigInteger get_V1B()
-    // Offset: 0x201C48C
+    // Offset: 0x1D6C0F0
     Org::BouncyCastle::Math::BigInteger* get_V1B();
     // public Org.BouncyCastle.Math.BigInteger get_V2A()
-    // Offset: 0x201C494
+    // Offset: 0x1D6C0F8
     Org::BouncyCastle::Math::BigInteger* get_V2A();
     // public Org.BouncyCastle.Math.BigInteger get_V2B()
-    // Offset: 0x201C49C
+    // Offset: 0x1D6C100
     Org::BouncyCastle::Math::BigInteger* get_V2B();
     // public Org.BouncyCastle.Math.BigInteger get_G1()
-    // Offset: 0x201C4A4
+    // Offset: 0x1D6C108
     Org::BouncyCastle::Math::BigInteger* get_G1();
     // public Org.BouncyCastle.Math.BigInteger get_G2()
-    // Offset: 0x201C4AC
+    // Offset: 0x1D6C110
     Org::BouncyCastle::Math::BigInteger* get_G2();
     // public System.Int32 get_Bits()
-    // Offset: 0x201C4B4
+    // Offset: 0x1D6C118
     int get_Bits();
   }; // Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters
 }

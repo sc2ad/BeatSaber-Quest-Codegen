@@ -42,13 +42,13 @@ namespace MasterServer {
       return authenticationToken;
     }
     // static public PacketPool`1<MasterServer.AuthenticateUserRequest> get_pool()
-    // Offset: 0x11693BC
+    // Offset: 0x2163DA4
     static GlobalNamespace::PacketPool_1<MasterServer::AuthenticateUserRequest*>* get_pool();
     // public MasterServer.AuthenticateUserRequest Init(AuthenticationToken authenticationToken)
-    // Offset: 0x1169404
+    // Offset: 0x2163DEC
     MasterServer::AuthenticateUserRequest* Init(GlobalNamespace::AuthenticationToken authenticationToken);
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x116943C
+    // Offset: 0x2163E24
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -56,7 +56,7 @@ namespace MasterServer {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1169468
+    // Offset: 0x2163E50
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -64,12 +64,12 @@ namespace MasterServer {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x11694B8
+    // Offset: 0x2163EA0
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x1169514
+    // Offset: 0x2163EFC
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()

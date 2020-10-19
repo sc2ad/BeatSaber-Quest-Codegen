@@ -34,16 +34,16 @@ namespace LiteNetLib {
     // Offset: 0x38
     LiteNetLib::NetEvent* evt;
     // System.Void .ctor(LiteNetLib.NetManager manager, LiteNetLib.NetEvent evt)
-    // Offset: 0x1A69730
+    // Offset: 0x1807924
     static NetPacketReader* New_ctor(LiteNetLib::NetManager* manager, LiteNetLib::NetEvent* evt);
     // System.Void SetSource(LiteNetLib.NetPacket packet)
-    // Offset: 0x1A6AFD4
+    // Offset: 0x18091C8
     void SetSource(LiteNetLib::NetPacket* packet);
     // System.Void RecycleInternal()
-    // Offset: 0x1A6B6C8
+    // Offset: 0x18098BC
     void RecycleInternal();
     // public System.Void Recycle()
-    // Offset: 0x1A7028C
+    // Offset: 0x180E480
     void Recycle();
   }; // LiteNetLib.NetPacketReader
 }

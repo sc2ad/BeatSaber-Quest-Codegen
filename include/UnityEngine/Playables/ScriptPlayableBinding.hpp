@@ -33,10 +33,10 @@ namespace UnityEngine::Playables {
   class ScriptPlayableBinding : public ::Il2CppObject {
     public:
     // static public UnityEngine.Playables.PlayableBinding Create(System.String name, UnityEngine.Object key, System.Type type)
-    // Offset: 0x1BA0464
+    // Offset: 0x1942658
     static UnityEngine::Playables::PlayableBinding Create(::Il2CppString* name, UnityEngine::Object* key, System::Type* type);
     // static private UnityEngine.Playables.PlayableOutput CreateScriptOutput(UnityEngine.Playables.PlayableGraph graph, System.String name)
-    // Offset: 0x1BA0548
+    // Offset: 0x194273C
     static UnityEngine::Playables::PlayableOutput CreateScriptOutput(UnityEngine::Playables::PlayableGraph graph, ::Il2CppString* name);
   }; // UnityEngine.Playables.ScriptPlayableBinding
 }

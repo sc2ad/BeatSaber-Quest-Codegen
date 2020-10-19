@@ -75,31 +75,31 @@ namespace System::Net::Http::Headers {
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.String,System.Net.Http.Headers.HeaderInfo> known_headers
     static void _set_known_headers(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Net::Http::Headers::HeaderInfo*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x13A0C74
+    // Offset: 0x11763B0
     static void _cctor();
     // System.Void .ctor(System.Net.Http.Headers.HttpHeaderKind headerKind)
-    // Offset: 0x13A0A74
+    // Offset: 0x11761B0
     static HttpHeaders* New_ctor(System::Net::Http::Headers::HttpHeaderKind headerKind);
     // private System.Boolean AddInternal(System.String name, System.Collections.Generic.IEnumerable`1<System.String> values, System.Net.Http.Headers.HeaderInfo headerInfo, System.Boolean ignoreInvalid)
-    // Offset: 0x13A2A18
+    // Offset: 0x1178154
     bool AddInternal(::Il2CppString* name, System::Collections::Generic::IEnumerable_1<::Il2CppString*>* values, System::Net::Http::Headers::HeaderInfo* headerInfo, bool ignoreInvalid);
     // public System.Boolean TryAddWithoutValidation(System.String name, System.Collections.Generic.IEnumerable`1<System.String> values)
-    // Offset: 0x13A2FEC
+    // Offset: 0x1178728
     bool TryAddWithoutValidation(::Il2CppString* name, System::Collections::Generic::IEnumerable_1<::Il2CppString*>* values);
     // private System.Boolean TryCheckName(System.String name, out System.Net.Http.Headers.HeaderInfo headerInfo)
-    // Offset: 0x13A30C4
+    // Offset: 0x1178800
     bool TryCheckName(::Il2CppString* name, System::Net::Http::Headers::HeaderInfo*& headerInfo);
     // public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IEnumerable`1<System.String>>> GetEnumerator()
-    // Offset: 0x13A3228
+    // Offset: 0x1178964
     System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>>* GetEnumerator();
     // static System.String GetSingleHeaderString(System.String key, System.Collections.Generic.IEnumerable`1<System.String> values)
-    // Offset: 0x13A32D4
+    // Offset: 0x1178A10
     static ::Il2CppString* GetSingleHeaderString(::Il2CppString* key, System::Collections::Generic::IEnumerable_1<::Il2CppString*>* values);
     // private System.Collections.Generic.List`1<System.String> GetAllHeaderValues(System.Net.Http.Headers.HttpHeaders/HeaderBucket bucket, System.Net.Http.Headers.HeaderInfo headerInfo)
-    // Offset: 0x13A3968
+    // Offset: 0x11790A4
     System::Collections::Generic::List_1<::Il2CppString*>* GetAllHeaderValues(System::Net::Http::Headers::HttpHeaders::HeaderBucket* bucket, System::Net::Http::Headers::HeaderInfo* headerInfo);
     // static System.Net.Http.Headers.HttpHeaderKind GetKnownHeaderKind(System.String name)
-    // Offset: 0x13A3BC8
+    // Offset: 0x1179304
     static System::Net::Http::Headers::HttpHeaderKind GetKnownHeaderKind(::Il2CppString* name);
     // T GetValue(System.String name)
     // Offset: 0xFFFFFFFF
@@ -120,17 +120,17 @@ namespace System::Net::Http::Headers {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "SetValue", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, name, value, toStringConverter));
     }
     // protected System.Void .ctor()
-    // Offset: 0x13A2928
+    // Offset: 0x1178064
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HttpHeaders* New_ctor();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x13A32D0
+    // Offset: 0x1178A0C
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public override System.String ToString()
-    // Offset: 0x13A3690
+    // Offset: 0x1178DCC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

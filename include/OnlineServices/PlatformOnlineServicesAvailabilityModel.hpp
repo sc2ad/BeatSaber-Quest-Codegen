@@ -45,16 +45,16 @@ namespace OnlineServices {
       return platformServicesAvailabilityInfoChangedEvent;
     }
     // public System.Void add_platformServicesAvailabilityInfoChangedEvent(System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> value)
-    // Offset: 0x1012D54
+    // Offset: 0x1F8B3B0
     void add_platformServicesAvailabilityInfoChangedEvent(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>* value);
     // public System.Void remove_platformServicesAvailabilityInfoChangedEvent(System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> value)
-    // Offset: 0x1012DF8
+    // Offset: 0x1F8B454
     void remove_platformServicesAvailabilityInfoChangedEvent(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>* value);
     // public System.Threading.Tasks.Task`1<OnlineServices.PlatformServicesAvailabilityInfo> GetPlatformServicesAvailabilityInfo(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1012C3C
+    // Offset: 0x1F8B298
     System::Threading::Tasks::Task_1<OnlineServices::PlatformServicesAvailabilityInfo*>* GetPlatformServicesAvailabilityInfo(System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x1012E9C
+    // Offset: 0x1F8B4F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlatformOnlineServicesAvailabilityModel* New_ctor();

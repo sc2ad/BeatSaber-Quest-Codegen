@@ -46,18 +46,18 @@ namespace OVRSimpleJSON {
     // Offset: 0x30
     typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator $$7__wrap1;
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x14A3D04
+    // Offset: 0x127952C
     static JSONObject::$get_Children$d__23* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()
-    // Offset: 0x14A409C
+    // Offset: 0x12798C4
     void $$m__Finally1();
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x14A4080
+    // Offset: 0x12798A8
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x14A40F4
+    // Offset: 0x127991C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -65,27 +65,27 @@ namespace OVRSimpleJSON {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // private OVRSimpleJSON.JSONNode System.Collections.Generic.IEnumerator<OVRSimpleJSON.JSONNode>.get_Current()
-    // Offset: 0x14A4264
+    // Offset: 0x1279A8C
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator_1::get_Current()
     OVRSimpleJSON::JSONNode* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x14A426C
+    // Offset: 0x1279A94
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x14A42CC
+    // Offset: 0x1279AF4
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // private System.Collections.Generic.IEnumerator`1<OVRSimpleJSON.JSONNode> System.Collections.Generic.IEnumerable<OVRSimpleJSON.JSONNode>.GetEnumerator()
-    // Offset: 0x14A42D4
+    // Offset: 0x1279AFC
     // Implemented from: System.Collections.Generic.IEnumerable`1
     // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable_1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<OVRSimpleJSON::JSONNode*>* System_Collections_Generic_IEnumerable_1_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x14A4388
+    // Offset: 0x1279BB0
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();

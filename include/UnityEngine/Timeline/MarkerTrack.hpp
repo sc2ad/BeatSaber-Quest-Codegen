@@ -22,12 +22,12 @@ namespace UnityEngine::Timeline {
   class MarkerTrack : public UnityEngine::Timeline::TrackAsset {
     public:
     // public override System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> get_outputs()
-    // Offset: 0x1620894
+    // Offset: 0x13F70BC
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> TrackAsset::get_outputs()
     System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* get_outputs();
     // public System.Void .ctor()
-    // Offset: 0x1620A00
+    // Offset: 0x13F7228
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: System.Void TrackAsset::.ctor()
     // Base method: System.Void PlayableAsset::.ctor()

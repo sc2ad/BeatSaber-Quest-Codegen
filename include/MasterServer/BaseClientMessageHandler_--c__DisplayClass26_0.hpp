@@ -34,10 +34,10 @@ namespace MasterServer {
       return serverPublicKey;
     }
     // System.Threading.Tasks.Task`1<System.Byte[]> <AuthenticateWithMasterServerAsyncInternal>b__0(System.Threading.Tasks.Task`1<IDiffieHellmanKeyPair> result)
-    // Offset: 0x116BF54
+    // Offset: 0x216693C
     System::Threading::Tasks::Task_1<::Array<uint8_t>*>* $AuthenticateWithMasterServerAsyncInternal$b__0(System::Threading::Tasks::Task_1<GlobalNamespace::IDiffieHellmanKeyPair*>* result);
     // public System.Void .ctor()
-    // Offset: 0x116BF4C
+    // Offset: 0x2166934
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BaseClientMessageHandler::$$c__DisplayClass26_0* New_ctor();

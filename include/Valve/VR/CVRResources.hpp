@@ -33,13 +33,13 @@ namespace Valve::VR {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x1535788
+    // Offset: 0x130BFB0
     static CVRResources* New_ctor(System::IntPtr pInterface);
     // public System.UInt32 LoadSharedResource(System.String pchResourceName, System.String pchBuffer, System.UInt32 unBufferLen)
-    // Offset: 0x1535890
+    // Offset: 0x130C0B8
     uint LoadSharedResource(::Il2CppString* pchResourceName, ::Il2CppString* pchBuffer, uint unBufferLen);
     // public System.UInt32 GetResourceFullPath(System.String pchResourceName, System.String pchResourceTypeDirectory, System.Text.StringBuilder pchPathBuffer, System.UInt32 unBufferLen)
-    // Offset: 0x15358AC
+    // Offset: 0x130C0D4
     uint GetResourceFullPath(::Il2CppString* pchResourceName, ::Il2CppString* pchResourceTypeDirectory, System::Text::StringBuilder* pchPathBuffer, uint unBufferLen);
   }; // Valve.VR.CVRResources
 }

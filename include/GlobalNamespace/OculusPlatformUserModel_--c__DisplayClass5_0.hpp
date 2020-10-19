@@ -40,10 +40,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     System::Threading::Tasks::TaskCompletionSource_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>* tcs;
     // System.Void <GetUserNamesForUserIds>g__Fetch|0(System.Int32 index, System.UInt64 platformId)
-    // Offset: 0x100AFDC
+    // Offset: 0x1F83638
     void $GetUserNamesForUserIds$g__Fetch_0(int index, uint64_t platformId);
     // public System.Void .ctor()
-    // Offset: 0x100AFD4
+    // Offset: 0x1F83630
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusPlatformUserModel::$$c__DisplayClass5_0* New_ctor();

@@ -33,16 +33,16 @@ namespace Valve::VR {
   class IVROverlay::_GetOverlayTransformTrackedDeviceRelative : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1E3EEDC
+    // Offset: 0x1B91B40
     static IVROverlay::_GetOverlayTransformTrackedDeviceRelative* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, ref System.UInt32 punTrackedDevice, ref Valve.VR.HmdMatrix34_t pmatTrackedDeviceToOverlayTransform)
-    // Offset: 0x1E3EEF0
+    // Offset: 0x1B91B54
     Valve::VR::EVROverlayError Invoke(uint64_t ulOverlayHandle, uint& punTrackedDevice, Valve::VR::HmdMatrix34_t& pmatTrackedDeviceToOverlayTransform);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, ref System.UInt32 punTrackedDevice, ref Valve.VR.HmdMatrix34_t pmatTrackedDeviceToOverlayTransform, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1E3F188
+    // Offset: 0x1B91DEC
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint& punTrackedDevice, Valve::VR::HmdMatrix34_t& pmatTrackedDeviceToOverlayTransform, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(ref System.UInt32 punTrackedDevice, ref Valve.VR.HmdMatrix34_t pmatTrackedDeviceToOverlayTransform, System.IAsyncResult result)
-    // Offset: 0x1E3F25C
+    // Offset: 0x1B91EC0
     Valve::VR::EVROverlayError EndInvoke(uint& punTrackedDevice, Valve::VR::HmdMatrix34_t& pmatTrackedDeviceToOverlayTransform, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_GetOverlayTransformTrackedDeviceRelative
 }

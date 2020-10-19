@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::GameObject* gameObject;
     // public System.Void .ctor()
-    // Offset: 0xEDD1FC
+    // Offset: 0x1FC6DC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MissionHelpViewController::MissionHelpGameObjectPair* New_ctor();

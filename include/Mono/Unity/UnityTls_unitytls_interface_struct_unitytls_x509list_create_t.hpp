@@ -28,16 +28,16 @@ namespace Mono::Unity {
   class UnityTls::unitytls_interface_struct::unitytls_x509list_create_t : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x142649C
+    // Offset: 0x11FCBD8
     static UnityTls::unitytls_interface_struct::unitytls_x509list_create_t* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Mono.Unity.UnityTls/unitytls_x509list* Invoke(Mono.Unity.UnityTls/unitytls_errorstate* errorState)
-    // Offset: 0x14264B0
+    // Offset: 0x11FCBEC
     Mono::Unity::UnityTls::unitytls_x509list* Invoke(Mono::Unity::UnityTls::unitytls_errorstate* errorState);
     // public System.IAsyncResult BeginInvoke(Mono.Unity.UnityTls/unitytls_errorstate* errorState, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1426708
+    // Offset: 0x11FCE44
     System::IAsyncResult* BeginInvoke(Mono::Unity::UnityTls::unitytls_errorstate* errorState, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Mono.Unity.UnityTls/unitytls_x509list* EndInvoke(System.IAsyncResult result)
-    // Offset: 0x142672C
+    // Offset: 0x11FCE68
     Mono::Unity::UnityTls::unitytls_x509list* EndInvoke(System::IAsyncResult* result);
   }; // Mono.Unity.UnityTls/unitytls_interface_struct/unitytls_x509list_create_t
 }

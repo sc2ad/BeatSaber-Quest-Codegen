@@ -28,20 +28,20 @@ namespace System::Net {
     // Offset: 0x20
     int m_version;
     // System.Void .ctor(System.Net.CookieCollection cookies)
-    // Offset: 0x14DB470
+    // Offset: 0x12B0C98
     static CookieCollection::CookieCollectionEnumerator* New_ctor(System::Net::CookieCollection* cookies);
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x14DB4DC
+    // Offset: 0x12B0D04
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // private System.Boolean System.Collections.IEnumerator.MoveNext()
-    // Offset: 0x14DB5A8
+    // Offset: 0x12B0DD0
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool System_Collections_IEnumerator_MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x14DB66C
+    // Offset: 0x12B0E94
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();

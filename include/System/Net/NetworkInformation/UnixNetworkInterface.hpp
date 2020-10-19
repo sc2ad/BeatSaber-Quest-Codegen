@@ -49,21 +49,21 @@ namespace System::Net::NetworkInformation {
     // Offset: 0x30
     System::Net::NetworkInformation::NetworkInterfaceType type;
     // System.Void .ctor(System.String name)
-    // Offset: 0x12C9540
+    // Offset: 0x10C4DDC
     static UnixNetworkInterface* New_ctor(::Il2CppString* name);
     // System.Void AddAddress(System.Net.IPAddress address)
-    // Offset: 0x12CB108
+    // Offset: 0x10C69A4
     void AddAddress(System::Net::IPAddress* address);
     // System.Void SetLinkLayerInfo(System.Int32 index, System.Byte[] macAddress, System.Net.NetworkInformation.NetworkInterfaceType type)
-    // Offset: 0x12CB170
+    // Offset: 0x10C6A0C
     void SetLinkLayerInfo(int index, ::Array<uint8_t>* macAddress, System::Net::NetworkInformation::NetworkInterfaceType type);
     // public override System.String get_Name()
-    // Offset: 0x12CC834
+    // Offset: 0x10C80D0
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.String NetworkInterface::get_Name()
     ::Il2CppString* get_Name();
     // public override System.Net.NetworkInformation.NetworkInterfaceType get_NetworkInterfaceType()
-    // Offset: 0x12CC83C
+    // Offset: 0x10C80D8
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.NetworkInterfaceType NetworkInterface::get_NetworkInterfaceType()
     System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();

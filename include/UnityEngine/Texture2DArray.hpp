@@ -30,34 +30,34 @@ namespace UnityEngine {
   class Texture2DArray : public UnityEngine::Texture {
     public:
     // static public System.Int32 get_allSlices()
-    // Offset: 0x198AB14
+    // Offset: 0x1730F38
     static int get_allSlices();
     // static private System.Boolean Internal_CreateImpl(UnityEngine.Texture2DArray mono, System.Int32 w, System.Int32 h, System.Int32 d, System.Int32 mipCount, UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags)
-    // Offset: 0x1993CF0
+    // Offset: 0x173A114
     static bool Internal_CreateImpl(UnityEngine::Texture2DArray* mono, int w, int h, int d, int mipCount, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
     // static private System.Void Internal_Create(UnityEngine.Texture2DArray mono, System.Int32 w, System.Int32 h, System.Int32 d, System.Int32 mipCount, UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags)
-    // Offset: 0x1993D78
+    // Offset: 0x173A19C
     static void Internal_Create(UnityEngine::Texture2DArray* mono, int w, int h, int d, int mipCount, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.Experimental.Rendering.DefaultFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags)
-    // Offset: 0x1993E64
+    // Offset: 0x173A288
     static Texture2DArray* New_ctor(int width, int height, int depth, UnityEngine::Experimental::Rendering::DefaultFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags)
-    // Offset: 0x1993EEC
+    // Offset: 0x173A310
     static Texture2DArray* New_ctor(int width, int height, int depth, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags, System.Int32 mipCount)
-    // Offset: 0x1993F9C
+    // Offset: 0x173A3C0
     static Texture2DArray* New_ctor(int width, int height, int depth, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int mipCount);
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.TextureFormat textureFormat, System.Int32 mipCount, System.Boolean linear)
-    // Offset: 0x199407C
+    // Offset: 0x173A4A0
     static Texture2DArray* New_ctor(int width, int height, int depth, UnityEngine::TextureFormat textureFormat, int mipCount, bool linear);
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.TextureFormat textureFormat, System.Boolean mipChain, System.Boolean linear)
-    // Offset: 0x199418C
+    // Offset: 0x173A5B0
     static Texture2DArray* New_ctor(int width, int height, int depth, UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear);
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.TextureFormat textureFormat, System.Boolean mipChain)
-    // Offset: 0x19941B0
+    // Offset: 0x173A5D4
     static Texture2DArray* New_ctor(int width, int height, int depth, UnityEngine::TextureFormat textureFormat, bool mipChain);
     // public override System.Boolean get_isReadable()
-    // Offset: 0x1993CB0
+    // Offset: 0x173A0D4
     // Implemented from: UnityEngine.Texture
     // Base method: System.Boolean Texture::get_isReadable()
     bool get_isReadable();

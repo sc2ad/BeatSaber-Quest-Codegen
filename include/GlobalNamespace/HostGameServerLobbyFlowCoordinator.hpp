@@ -123,127 +123,127 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kNotReadyCountdown
     static void _set_kNotReadyCountdown(float value);
     // public System.Void add_didFinishedEvent(System.Action`1<HostGameServerLobbyFlowCoordinator> value)
-    // Offset: 0xECFFFC
+    // Offset: 0x200EFCC
     void add_didFinishedEvent(System::Action_1<GlobalNamespace::HostGameServerLobbyFlowCoordinator*>* value);
     // public System.Void remove_didFinishedEvent(System.Action`1<HostGameServerLobbyFlowCoordinator> value)
-    // Offset: 0xED00A4
+    // Offset: 0x200F074
     void remove_didFinishedEvent(System::Action_1<GlobalNamespace::HostGameServerLobbyFlowCoordinator*>* value);
     // private System.Void HandleLobbyPlayersDataModelDidChange(System.String userId)
-    // Offset: 0xED241C
+    // Offset: 0x20113EC
     void HandleLobbyPlayersDataModelDidChange(::Il2CppString* userId);
     // private System.Void SetLobbyPlayerDataToViews(System.String userId)
-    // Offset: 0xED1138
+    // Offset: 0x2010108
     void SetLobbyPlayerDataToViews(::Il2CppString* userId);
     // private System.Void HandleMenuRpcManagerSetIsReadyOnCountdown(System.String userId, System.Boolean isReady)
-    // Offset: 0xED2794
+    // Offset: 0x2011764
     void HandleMenuRpcManagerSetIsReadyOnCountdown(::Il2CppString* userId, bool isReady);
     // private System.Void HandleMenuRpcManagerSetIsInLobby(System.String userId, System.Boolean backInLobby)
-    // Offset: 0xED2C30
+    // Offset: 0x2011C00
     void HandleMenuRpcManagerSetIsInLobby(::Il2CppString* userId, bool backInLobby);
     // private System.Void HandleLobbyStateDataModelPlayerConnected(IConnectedPlayer connectedPlayer)
-    // Offset: 0xED2C34
+    // Offset: 0x2011C04
     void HandleLobbyStateDataModelPlayerConnected(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // private System.Void HandleLobbyStateDataModelPlayerDisconnected(IConnectedPlayer connectedPlayer)
-    // Offset: 0xED2C38
+    // Offset: 0x2011C08
     void HandleLobbyStateDataModelPlayerDisconnected(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // private System.Void HandleServerPlayerListControllerSelectSuggestedBeatmap(System.String levelId, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
-    // Offset: 0xED2C3C
+    // Offset: 0x2011C0C
     void HandleServerPlayerListControllerSelectSuggestedBeatmap(::Il2CppString* levelId, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
     // private System.Void HandleServerPlayerListControllerSelectSuggestedGameplayModifiers(GameplayModifiers modifiers)
-    // Offset: 0xED2D20
+    // Offset: 0x2011CF0
     void HandleServerPlayerListControllerSelectSuggestedGameplayModifiers(GlobalNamespace::GameplayModifiers* modifiers);
     // private System.Void HandleServerPlayerListControllerKickPlayer(System.String userId)
-    // Offset: 0xED2DE4
+    // Offset: 0x2011DB4
     void HandleServerPlayerListControllerKickPlayer(::Il2CppString* userId);
     // private System.Void HandleHostLobbySetupViewControllerStartGame()
-    // Offset: 0xED313C
+    // Offset: 0x201210C
     void HandleHostLobbySetupViewControllerStartGame();
     // private System.Void HandleLobbyGameStateControllerStartTimeChanged()
-    // Offset: 0xED34E8
+    // Offset: 0x20124B8
     void HandleLobbyGameStateControllerStartTimeChanged();
     // private System.Void HandleLobbyGameStateControllerSongStillDownloading()
-    // Offset: 0xED35B0
+    // Offset: 0x2012580
     void HandleLobbyGameStateControllerSongStillDownloading();
     // private System.Void HandleHostLobbySetupViewControllerPlayerActiveStateChanged(System.Boolean isActive)
-    // Offset: 0xED35B4
+    // Offset: 0x2012584
     void HandleHostLobbySetupViewControllerPlayerActiveStateChanged(bool isActive);
     // private System.Void HandleHostLobbySetupViewControllerCancelStartGame()
-    // Offset: 0xED3600
+    // Offset: 0x20125D0
     void HandleHostLobbySetupViewControllerCancelStartGame();
     // private System.Void HandleLobbyGameBeforeSceneSwitchCallback()
-    // Offset: 0xED37A4
+    // Offset: 0x2012774
     void HandleLobbyGameBeforeSceneSwitchCallback();
     // private System.Void UpdateGameStartTime()
-    // Offset: 0xED29F8
+    // Offset: 0x20119C8
     void UpdateGameStartTime();
     // private System.Void UpdateStartGameEnabledState()
-    // Offset: 0xED0C24
+    // Offset: 0x200FBF4
     void UpdateStartGameEnabledState();
     // private System.Void UpdateMissingEntitlementsAsync(System.String levelId)
-    // Offset: 0xED3A04
+    // Offset: 0x20129D4
     void UpdateMissingEntitlementsAsync(::Il2CppString* levelId);
     // private System.Void DismissViewControllersAndCoordinators()
-    // Offset: 0xED22D8
+    // Offset: 0x20112A8
     void DismissViewControllersAndCoordinators();
     // private System.Void DismissStartGameIfAllPlayersSpectating()
-    // Offset: 0xED2508
+    // Offset: 0x20114D8
     void DismissStartGameIfAllPlayersSpectating();
     // private HostLobbySetupViewController/CannotStartGameReason ResolveCannotStartGameReason(System.Boolean allPlayersInLobby, System.Boolean somePlayersActive)
-    // Offset: 0xED39E8
+    // Offset: 0x20129B8
     GlobalNamespace::HostLobbySetupViewController::CannotStartGameReason ResolveCannotStartGameReason(bool allPlayersInLobby, bool somePlayersActive);
     // private System.Boolean CheckIfAllPlayersAreReady()
-    // Offset: 0xED27C8
+    // Offset: 0x2011798
     bool CheckIfAllPlayersAreReady();
     // private System.Boolean <DismissStartGameIfAllPlayersSpectating>b__42_0(System.Boolean current, IConnectedPlayer player)
-    // Offset: 0xED3B74
+    // Offset: 0x2012B44
     bool $DismissStartGameIfAllPlayersSpectating$b__42_0(bool current, GlobalNamespace::IConnectedPlayer* player);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xED014C
+    // Offset: 0x200F11C
     // Implemented from: GameServerLobbyFlowCoordinator
     // Base method: System.Void GameServerLobbyFlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0xED1330
+    // Offset: 0x2010300
     // Implemented from: GameServerLobbyFlowCoordinator
     // Base method: System.Void GameServerLobbyFlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
-    // Offset: 0xED1C74
+    // Offset: 0x2010C44
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
     void TopViewControllerWillChange(HMUI::ViewController* oldViewController, HMUI::ViewController* newViewController, HMUI::ViewController::AnimationType animationType);
     // protected override System.Void BackButtonWasPressed(HMUI.ViewController topViewController)
-    // Offset: 0xED1DB4
+    // Offset: 0x2010D84
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::BackButtonWasPressed(HMUI.ViewController topViewController)
     void BackButtonWasPressed(HMUI::ViewController* topViewController);
     // protected override System.Void HandleLobbySetupViewControllerSelectBeatmap()
-    // Offset: 0xED1F30
+    // Offset: 0x2010F00
     // Implemented from: GameServerLobbyFlowCoordinator
     // Base method: System.Void GameServerLobbyFlowCoordinator::HandleLobbySetupViewControllerSelectBeatmap()
     void HandleLobbySetupViewControllerSelectBeatmap();
     // protected override System.Void HandleMultiplayerLevelSelectionFlowCoordinatorDidSelectLevel(LevelSelectionFlowCoordinator/State state)
-    // Offset: 0xED2104
+    // Offset: 0x20110D4
     // Implemented from: GameServerLobbyFlowCoordinator
     // Base method: System.Void GameServerLobbyFlowCoordinator::HandleMultiplayerLevelSelectionFlowCoordinatorDidSelectLevel(LevelSelectionFlowCoordinator/State state)
     void HandleMultiplayerLevelSelectionFlowCoordinatorDidSelectLevel(GlobalNamespace::LevelSelectionFlowCoordinator::State* state);
     // protected override System.Void Finish(System.Action finishedCallback, System.Boolean withFadeOut)
-    // Offset: 0xED2128
+    // Offset: 0x20110F8
     // Implemented from: GameServerLobbyFlowCoordinator
     // Base method: System.Void GameServerLobbyFlowCoordinator::Finish(System.Action finishedCallback, System.Boolean withFadeOut)
     void Finish(System::Action* finishedCallback, bool withFadeOut);
     // protected override System.Void HandleBackToLobbyPressed(MultiplayerResultsViewController viewController)
-    // Offset: 0xED23E8
+    // Offset: 0x20113B8
     // Implemented from: GameServerLobbyFlowCoordinator
     // Base method: System.Void GameServerLobbyFlowCoordinator::HandleBackToLobbyPressed(MultiplayerResultsViewController viewController)
     void HandleBackToLobbyPressed(GlobalNamespace::MultiplayerResultsViewController* viewController);
     // protected override System.Void HandleLobbyGameStateControllerLevelFinished(MultiplayerLevelScenesTransitionSetupDataSO multiplayerLevelScenesTransitionSetupData, LevelCompletionResults myCompletionResults, System.Collections.Generic.Dictionary`2<System.String,LevelCompletionResults> othersCompletionResults)
-    // Offset: 0xED35DC
+    // Offset: 0x20125AC
     // Implemented from: GameServerLobbyFlowCoordinator
     // Base method: System.Void GameServerLobbyFlowCoordinator::HandleLobbyGameStateControllerLevelFinished(MultiplayerLevelScenesTransitionSetupDataSO multiplayerLevelScenesTransitionSetupData, LevelCompletionResults myCompletionResults, System.Collections.Generic.Dictionary`2<System.String,LevelCompletionResults> othersCompletionResults)
     void HandleLobbyGameStateControllerLevelFinished(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData, GlobalNamespace::LevelCompletionResults* myCompletionResults, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelCompletionResults*>* othersCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0xED3B00
+    // Offset: 0x2012AD0
     // Implemented from: GameServerLobbyFlowCoordinator
     // Base method: System.Void GameServerLobbyFlowCoordinator::.ctor()
     // Base method: System.Void FlowCoordinator::.ctor()

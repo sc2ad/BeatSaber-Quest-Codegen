@@ -30,13 +30,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Predicate`1<LiteNetLibConnectionManager/NetPeerConnection> <>9__62_0
     static void _set_$$9__62_0(System::Predicate_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1168550
+    // Offset: 0x2162F38
     static void _cctor();
     // System.Boolean <get_hasConnectionOwner>b__62_0(LiteNetLibConnectionManager/NetPeerConnection c)
-    // Offset: 0x11685C0
+    // Offset: 0x2162FA8
     bool $get_hasConnectionOwner$b__62_0(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection* c);
     // public System.Void .ctor()
-    // Offset: 0x11685B8
+    // Offset: 0x2162FA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LiteNetLibConnectionManager::$$c* New_ctor();

@@ -60,31 +60,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0xF04034
+    // Offset: 0x1FD8EE8
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xF04210
+    // Offset: 0x1FD90C4
     void OnDestroy();
     // public System.Void SetPositionAndRotation(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0xF042A8
+    // Offset: 0x1FD915C
     void SetPositionAndRotation(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation);
     // public System.Void AnimateColors(UnityEngine.Color nameColor, UnityEngine.Color scoreColor, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0xF04324
+    // Offset: 0x1FD91D8
     void AnimateColors(UnityEngine::Color nameColor, UnityEngine::Color scoreColor, float duration, Tweening::EaseType easeType);
     // public System.Void SetName(System.String text)
-    // Offset: 0xF04454
+    // Offset: 0x1FD9308
     void SetName(::Il2CppString* text);
     // public System.Void SetScore(System.String text)
-    // Offset: 0xF04470
+    // Offset: 0x1FD9324
     void SetScore(::Il2CppString* text);
     // private System.Void <Awake>b__6_0(UnityEngine.Color val)
-    // Offset: 0xF04494
+    // Offset: 0x1FD9348
     void $Awake$b__6_0(UnityEngine::Color val);
     // private System.Void <Awake>b__6_1(UnityEngine.Color val)
-    // Offset: 0xF044B8
+    // Offset: 0x1FD936C
     void $Awake$b__6_1(UnityEngine::Color val);
     // public System.Void .ctor()
-    // Offset: 0xF0448C
+    // Offset: 0x1FD9340
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -47,22 +47,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didFinishEvent(System.Action`1<BombCutSoundEffect> value)
-    // Offset: 0xF1A368
+    // Offset: 0x1FAD9BC
     void add_didFinishEvent(System::Action_1<GlobalNamespace::BombCutSoundEffect*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<BombCutSoundEffect> value)
-    // Offset: 0xF1A40C
+    // Offset: 0x1FADA60
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::BombCutSoundEffect*>* value);
     // public System.Void Init(UnityEngine.AudioClip audioClip, Saber saber, System.Single volume)
-    // Offset: 0xF1A4B0
+    // Offset: 0x1FADB04
     void Init(UnityEngine::AudioClip* audioClip, GlobalNamespace::Saber* saber, float volume);
     // protected System.Void LateUpdate()
-    // Offset: 0xF1A540
+    // Offset: 0x1FADB94
     void LateUpdate();
     // private System.Void StopPlayingAndFinish()
-    // Offset: 0xF1A5D4
+    // Offset: 0x1FADC28
     void StopPlayingAndFinish();
     // public System.Void .ctor()
-    // Offset: 0xF1A65C
+    // Offset: 0x1FADCB0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

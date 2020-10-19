@@ -65,40 +65,40 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kKeyboardTopOffset
     static void _set_kKeyboardTopOffset(float value);
     // public HMUI.UIKeyboard get_keyboard()
-    // Offset: 0x12E38C0
+    // Offset: 0x1FA5270
     HMUI::UIKeyboard* get_keyboard();
     // protected System.Void Start()
-    // Offset: 0x12E38C8
+    // Offset: 0x1FA5278
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x12E395C
+    // Offset: 0x1FA530C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x12E39E8
+    // Offset: 0x1FA5398
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0x12E3A74
+    // Offset: 0x1FA5424
     void OnDestroy();
     // public System.Void OpenKeyboardFor(HMUI.InputFieldView input)
-    // Offset: 0x12E3B4C
+    // Offset: 0x1FA54FC
     void OpenKeyboardFor(HMUI::InputFieldView* input);
     // public System.Void CloseKeyboard()
-    // Offset: 0x12E3DEC
+    // Offset: 0x1FA579C
     void CloseKeyboard();
     // private System.Void TransferKeyboardTo(HMUI.InputFieldView nextInput)
-    // Offset: 0x12E3EAC
+    // Offset: 0x1FA585C
     void TransferKeyboardTo(HMUI::InputFieldView* nextInput);
     // private System.Boolean ShouldCloseKeyboard(UnityEngine.GameObject root)
-    // Offset: 0x12E3F50
+    // Offset: 0x1FA5900
     bool ShouldCloseKeyboard(UnityEngine::GameObject* root);
     // private System.Void ProcessMousePress(UnityEngine.GameObject currentOverGo)
-    // Offset: 0x12E3FB4
+    // Offset: 0x1FA5964
     void ProcessMousePress(UnityEngine::GameObject* currentOverGo);
     // private System.Void HandleKeyboardOkButton()
-    // Offset: 0x12E414C
+    // Offset: 0x1FA5AFC
     void HandleKeyboardOkButton();
     // public System.Void .ctor()
-    // Offset: 0x12E42D0
+    // Offset: 0x1FA5C80
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

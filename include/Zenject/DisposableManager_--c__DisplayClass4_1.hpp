@@ -39,10 +39,10 @@ namespace Zenject {
       return lateDisposable;
     }
     // System.Boolean <.ctor>b__2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1448FF0
+    // Offset: 0x121F72C
     bool $_ctor$b__2(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // public System.Void .ctor()
-    // Offset: 0x14483A4
+    // Offset: 0x121EAE0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DisposableManager::$$c__DisplayClass4_1* New_ctor();

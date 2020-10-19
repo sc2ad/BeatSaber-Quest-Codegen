@@ -33,10 +33,10 @@ namespace System::Net::Http::Headers {
     // Set static field: static public readonly System.Func`2<System.Object,System.String> ToString
     static void _set_ToString(System::Func_2<::Il2CppObject*, ::Il2CppString*>* value);
     // static public System.Boolean TryParse(System.String input, out System.DateTimeOffset result)
-    // Offset: 0x13A6C3C
+    // Offset: 0x117C378
     static bool TryParse(::Il2CppString* input, System::DateTimeOffset& result);
     // static private System.Void .cctor()
-    // Offset: 0x13A6CB0
+    // Offset: 0x117C3EC
     static void _cctor();
   }; // System.Net.Http.Headers.Parser/DateTime
 }

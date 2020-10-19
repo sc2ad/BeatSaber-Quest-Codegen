@@ -35,15 +35,15 @@ namespace GlobalNamespace {
     // Offset: 0x28
     UnityEngine::WaitForSeconds* $waitYieldInstruction$5__2;
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0xFB6FA4
+    // Offset: 0x2035654
     static AvatarTweenController::$AppearAnimation$d__53* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0xFB7EE0
+    // Offset: 0x2036590
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0xFB7EE4
+    // Offset: 0x2036594
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -51,17 +51,17 @@ namespace GlobalNamespace {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0xFB814C
+    // Offset: 0x20367FC
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator_1::get_Current()
     ::Il2CppObject* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0xFB8154
+    // Offset: 0x2036804
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0xFB81B4
+    // Offset: 0x2036864
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();

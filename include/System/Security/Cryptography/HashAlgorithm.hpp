@@ -26,25 +26,25 @@ namespace System::Security::Cryptography {
     // Offset: 0x24
     bool m_bDisposed;
     // public System.Int32 get_HashSize()
-    // Offset: 0x19D17DC
+    // Offset: 0x1777C00
     int get_HashSize();
     // public System.Byte[] get_Hash()
-    // Offset: 0x19D17E4
+    // Offset: 0x1777C08
     ::Array<uint8_t>* get_Hash();
     // static public System.Security.Cryptography.HashAlgorithm Create(System.String hashName)
-    // Offset: 0x19D18F4
+    // Offset: 0x1777D18
     static System::Security::Cryptography::HashAlgorithm* Create(::Il2CppString* hashName);
     // public System.Byte[] ComputeHash(System.Byte[] buffer)
-    // Offset: 0x19D0410
+    // Offset: 0x1776834
     ::Array<uint8_t>* ComputeHash(::Array<uint8_t>* buffer);
     // public System.Byte[] ComputeHash(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x19D197C
+    // Offset: 0x1777DA0
     ::Array<uint8_t>* ComputeHash(::Array<uint8_t>* buffer, int offset, int count);
     // public System.Void Clear()
-    // Offset: 0x19D1C44
+    // Offset: 0x1778068
     void Clear();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x19D1CE8
+    // Offset: 0x177810C
     void Dispose(bool disposing);
     // public System.Void Initialize()
     // Offset: 0xFFFFFFFF
@@ -56,37 +56,37 @@ namespace System::Security::Cryptography {
     // Offset: 0xFFFFFFFF
     ::Array<uint8_t>* HashFinal();
     // protected System.Void .ctor()
-    // Offset: 0x19D17D4
+    // Offset: 0x1777BF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HashAlgorithm* New_ctor();
     // public System.Int32 get_InputBlockSize()
-    // Offset: 0x19D1BAC
+    // Offset: 0x1777FD0
     // Implemented from: System.Security.Cryptography.ICryptoTransform
     // Base method: System.Int32 ICryptoTransform::get_InputBlockSize()
     int get_InputBlockSize();
     // public System.Int32 get_OutputBlockSize()
-    // Offset: 0x19D1BB4
+    // Offset: 0x1777FD8
     // Implemented from: System.Security.Cryptography.ICryptoTransform
     // Base method: System.Int32 ICryptoTransform::get_OutputBlockSize()
     int get_OutputBlockSize();
     // public System.Boolean get_CanTransformMultipleBlocks()
-    // Offset: 0x19D1BBC
+    // Offset: 0x1777FE0
     // Implemented from: System.Security.Cryptography.ICryptoTransform
     // Base method: System.Boolean ICryptoTransform::get_CanTransformMultipleBlocks()
     bool get_CanTransformMultipleBlocks();
     // public System.Int32 TransformBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, System.Byte[] outputBuffer, System.Int32 outputOffset)
-    // Offset: 0x19D0810
+    // Offset: 0x1776C34
     // Implemented from: System.Security.Cryptography.ICryptoTransform
     // Base method: System.Int32 ICryptoTransform::TransformBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, System.Byte[] outputBuffer, System.Int32 outputOffset)
     int TransformBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount, ::Array<uint8_t>* outputBuffer, int outputOffset);
     // public System.Byte[] TransformFinalBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x19D0B50
+    // Offset: 0x1776F74
     // Implemented from: System.Security.Cryptography.ICryptoTransform
     // Base method: System.Byte[] ICryptoTransform::TransformFinalBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
     ::Array<uint8_t>* TransformFinalBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);
     // public System.Void Dispose()
-    // Offset: 0x19D1BC4
+    // Offset: 0x1777FE8
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

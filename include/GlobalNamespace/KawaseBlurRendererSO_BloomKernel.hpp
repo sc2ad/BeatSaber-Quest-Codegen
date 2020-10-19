@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Offset: 0x14
     int sharedPartWithNext;
     // public System.Void .ctor()
-    // Offset: 0x1FAC7B0
+    // Offset: 0x1CFD414
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static KawaseBlurRendererSO::BloomKernel* New_ctor();

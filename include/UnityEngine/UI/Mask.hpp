@@ -53,25 +53,25 @@ namespace UnityEngine::UI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.RectTransform get_rectTransform()
-    // Offset: 0x18386E4
+    // Offset: 0x15DFB08
     UnityEngine::RectTransform* get_rectTransform();
     // public System.Boolean get_showMaskGraphic()
-    // Offset: 0x1838764
+    // Offset: 0x15DFB88
     bool get_showMaskGraphic();
     // public System.Void set_showMaskGraphic(System.Boolean value)
-    // Offset: 0x183876C
+    // Offset: 0x15DFB90
     void set_showMaskGraphic(bool value);
     // public UnityEngine.UI.Graphic get_graphic()
-    // Offset: 0x1838844
+    // Offset: 0x15DFC68
     UnityEngine::UI::Graphic* get_graphic();
     // public System.Boolean MaskEnabled()
-    // Offset: 0x18388D4
+    // Offset: 0x15DFCF8
     bool MaskEnabled();
     // public System.Void OnSiblingGraphicEnabledDisabled()
-    // Offset: 0x1838974
+    // Offset: 0x15DFD98
     void OnSiblingGraphicEnabledDisabled();
     // protected System.Void .ctor()
-    // Offset: 0x18388C4
+    // Offset: 0x15DFCE8
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -81,22 +81,22 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static Mask* New_ctor();
     // protected override System.Void OnEnable()
-    // Offset: 0x1838978
+    // Offset: 0x15DFD9C
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0x1838D48
+    // Offset: 0x15E016C
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDisable()
     void OnDisable();
     // public System.Boolean IsRaycastLocationValid(UnityEngine.Vector2 sp, UnityEngine.Camera eventCamera)
-    // Offset: 0x1838F34
+    // Offset: 0x15E0358
     // Implemented from: UnityEngine.ICanvasRaycastFilter
     // Base method: System.Boolean ICanvasRaycastFilter::IsRaycastLocationValid(UnityEngine.Vector2 sp, UnityEngine.Camera eventCamera)
     bool IsRaycastLocationValid(UnityEngine::Vector2 sp, UnityEngine::Camera* eventCamera);
     // public UnityEngine.Material GetModifiedMaterial(UnityEngine.Material baseMaterial)
-    // Offset: 0x1838FFC
+    // Offset: 0x15E0420
     // Implemented from: UnityEngine.UI.IMaterialModifier
     // Base method: UnityEngine.Material IMaterialModifier::GetModifiedMaterial(UnityEngine.Material baseMaterial)
     UnityEngine::Material* GetModifiedMaterial(UnityEngine::Material* baseMaterial);

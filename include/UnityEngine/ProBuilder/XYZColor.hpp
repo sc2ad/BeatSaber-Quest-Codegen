@@ -28,16 +28,16 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x18
     float z;
     // public System.Void .ctor(System.Single x, System.Single y, System.Single z)
-    // Offset: 0x212F56C
+    // Offset: 0x1E821D0
     static XYZColor* New_ctor(float x, float y, float z);
     // static public UnityEngine.ProBuilder.XYZColor FromRGB(UnityEngine.Color col)
-    // Offset: 0x212F5B4
+    // Offset: 0x1E82218
     static UnityEngine::ProBuilder::XYZColor* FromRGB(UnityEngine::Color col);
     // static public UnityEngine.ProBuilder.XYZColor FromRGB(System.Single R, System.Single G, System.Single B)
-    // Offset: 0x212F644
+    // Offset: 0x1E822A8
     static UnityEngine::ProBuilder::XYZColor* FromRGB(float R, float G, float B);
     // public override System.String ToString()
-    // Offset: 0x212F6CC
+    // Offset: 0x1E82330
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

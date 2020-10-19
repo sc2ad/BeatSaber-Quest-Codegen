@@ -14,7 +14,7 @@ namespace System {
   class ThreadStaticAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1A17A58
+    // Offset: 0x17BDE7C
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

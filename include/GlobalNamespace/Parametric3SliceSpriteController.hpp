@@ -107,34 +107,34 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 _instanceCount
     static void _set__instanceCount(int value);
     // static private System.Void RuntimeInit()
-    // Offset: 0x1FB024C
+    // Offset: 0x1D00EB0
     static void RuntimeInit();
     // protected System.Void Awake()
-    // Offset: 0x1FB02D4
+    // Offset: 0x1D00F38
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1FB0A08
+    // Offset: 0x1D0166C
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1FB0A88
+    // Offset: 0x1D016EC
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1FB0D68
+    // Offset: 0x1D019CC
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0x1FB0E24
+    // Offset: 0x1D01A88
     void OnDestroy();
     // private System.Void Init()
-    // Offset: 0x1FB0460
+    // Offset: 0x1D010C4
     void Init();
     // private UnityEngine.Mesh CreateMesh()
-    // Offset: 0x1FB0500
+    // Offset: 0x1D01164
     UnityEngine::Mesh* CreateMesh();
     // public System.Void Refresh()
-    // Offset: 0x1FB0B1C
+    // Offset: 0x1D01780
     void Refresh();
     // public System.Void .ctor()
-    // Offset: 0x1FB0EC4
+    // Offset: 0x1D01B28
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -143,7 +143,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static Parametric3SliceSpriteController* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1FB0EE8
+    // Offset: 0x1D01B4C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

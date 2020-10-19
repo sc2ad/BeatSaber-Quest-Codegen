@@ -40,15 +40,15 @@ namespace UnityEngine::TestTools {
     // Offset: 0x20
     int repeatCount;
     // public System.Void .ctor(NUnit.Framework.RepeatAttribute/RepeatedTestCommand commandToReplace)
-    // Offset: 0x12B471C
+    // Offset: 0x10AFFB8
     static EnumerableRepeatedTestCommand* New_ctor(NUnit::Framework::RepeatAttribute::RepeatedTestCommand* commandToReplace);
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x12BCA30
+    // Offset: 0x10B82CC
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
     // public System.Collections.IEnumerable ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x12BCA9C
+    // Offset: 0x10B8338
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.IEnumerableTestMethodCommand
     // Base method: System.Collections.IEnumerable IEnumerableTestMethodCommand::ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
     System::Collections::IEnumerable* ExecuteEnumerable(NUnit::Framework::Internal::ITestExecutionContext* context);

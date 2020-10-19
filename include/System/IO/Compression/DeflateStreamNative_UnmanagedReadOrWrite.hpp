@@ -26,16 +26,16 @@ namespace System::IO::Compression {
   class DeflateStreamNative::UnmanagedReadOrWrite : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x173018C
+    // Offset: 0x14EBD60
     static DeflateStreamNative::UnmanagedReadOrWrite* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Int32 Invoke(System.IntPtr buffer, System.Int32 length, System.IntPtr data)
-    // Offset: 0x1730844
+    // Offset: 0x14EC418
     int Invoke(System::IntPtr buffer, int length, System::IntPtr data);
     // public System.IAsyncResult BeginInvoke(System.IntPtr buffer, System.Int32 length, System.IntPtr data, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1730ADC
+    // Offset: 0x14EC6B0
     System::IAsyncResult* BeginInvoke(System::IntPtr buffer, int length, System::IntPtr data, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Int32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1730BA0
+    // Offset: 0x14EC774
     int EndInvoke(System::IAsyncResult* result);
   }; // System.IO.Compression.DeflateStreamNative/UnmanagedReadOrWrite
 }

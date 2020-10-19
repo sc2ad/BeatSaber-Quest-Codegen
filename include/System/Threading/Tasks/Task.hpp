@@ -325,340 +325,340 @@ namespace System::Threading::Tasks {
     // Set static field: static private readonly System.Predicate`1<System.Object> s_IsTaskContinuationNullPredicate
     static void _set_s_IsTaskContinuationNullPredicate(System::Predicate_1<::Il2CppObject*>* value);
     // static System.Boolean AddToActiveTasks(System.Threading.Tasks.Task task)
-    // Offset: 0x16DB97C
+    // Offset: 0x1496550
     static bool AddToActiveTasks(System::Threading::Tasks::Task* task);
     // static System.Void RemoveFromActiveTasks(System.Int32 taskId)
-    // Offset: 0x16DC768
+    // Offset: 0x149733C
     static void RemoveFromActiveTasks(int taskId);
     // System.Void .ctor(System.Boolean canceled, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.CancellationToken ct)
-    // Offset: 0x16DC88C
+    // Offset: 0x1497460
     static Task* New_ctor(bool canceled, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::CancellationToken ct);
     // System.Void .ctor(System.Object state, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Boolean promiseStyle)
-    // Offset: 0x16DC9D8
+    // Offset: 0x14975AC
     static Task* New_ctor(::Il2CppObject* state, System::Threading::Tasks::TaskCreationOptions creationOptions, bool promiseStyle);
     // System.Void .ctor(System.Delegate action, System.Object state, System.Threading.Tasks.Task parent, System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.InternalTaskOptions internalOptions, System.Threading.Tasks.TaskScheduler scheduler)
-    // Offset: 0x16DA58C
+    // Offset: 0x1495160
     static Task* New_ctor(System::Delegate* action, ::Il2CppObject* state, System::Threading::Tasks::Task* parent, System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::InternalTaskOptions internalOptions, System::Threading::Tasks::TaskScheduler* scheduler);
     // System.Void TaskConstructorCore(System.Object action, System.Object state, System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.InternalTaskOptions internalOptions, System.Threading.Tasks.TaskScheduler scheduler)
-    // Offset: 0x16DCB18
+    // Offset: 0x14976EC
     void TaskConstructorCore(::Il2CppObject* action, ::Il2CppObject* state, System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::InternalTaskOptions internalOptions, System::Threading::Tasks::TaskScheduler* scheduler);
     // private System.Void AssignCancellationToken(System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.Task antecedent, System.Threading.Tasks.TaskContinuation continuation)
-    // Offset: 0x16DCD7C
+    // Offset: 0x1497950
     void AssignCancellationToken(System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::Task* antecedent, System::Threading::Tasks::TaskContinuation* continuation);
     // static private System.Void TaskCancelCallback(System.Object o)
-    // Offset: 0x16DD160
+    // Offset: 0x1497D34
     static void TaskCancelCallback(::Il2CppObject* o);
     // System.Void PossiblyCaptureContext(ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x16DB604
+    // Offset: 0x14961D8
     void PossiblyCaptureContext(System::Threading::StackCrawlMark& stackMark);
     // System.Threading.Tasks.TaskCreationOptions get_Options()
-    // Offset: 0x16DD0A4
+    // Offset: 0x1497C78
     System::Threading::Tasks::TaskCreationOptions get_Options();
     // static System.Threading.Tasks.TaskCreationOptions OptionsMethod(System.Int32 flags)
-    // Offset: 0x16DD480
+    // Offset: 0x1498054
     static System::Threading::Tasks::TaskCreationOptions OptionsMethod(int flags);
     // System.Boolean AtomicStateUpdate(System.Int32 newBits, System.Int32 illegalBits)
-    // Offset: 0x16DD488
+    // Offset: 0x149805C
     bool AtomicStateUpdate(int newBits, int illegalBits);
     // System.Boolean AtomicStateUpdate(System.Int32 newBits, System.Int32 illegalBits, ref System.Int32 oldFlags)
-    // Offset: 0x16DD518
+    // Offset: 0x14980EC
     bool AtomicStateUpdate(int newBits, int illegalBits, int& oldFlags);
     // System.Void SetNotificationForWaitCompletion(System.Boolean enabled)
-    // Offset: 0x16DD5B8
+    // Offset: 0x149818C
     void SetNotificationForWaitCompletion(bool enabled);
     // System.Boolean NotifyDebuggerOfWaitCompletionIfNecessary()
-    // Offset: 0x16DB764
+    // Offset: 0x1496338
     bool NotifyDebuggerOfWaitCompletionIfNecessary();
     // static System.Boolean AnyTaskRequiresNotifyDebuggerOfWaitCompletion(System.Threading.Tasks.Task[] tasks)
-    // Offset: 0x16DD688
+    // Offset: 0x149825C
     static bool AnyTaskRequiresNotifyDebuggerOfWaitCompletion(::Array<System::Threading::Tasks::Task*>* tasks);
     // System.Boolean get_IsWaitNotificationEnabledOrNotRanToCompletion()
-    // Offset: 0x16DD72C
+    // Offset: 0x1498300
     bool get_IsWaitNotificationEnabledOrNotRanToCompletion();
     // System.Boolean get_ShouldNotifyDebuggerOfWaitCompletion()
-    // Offset: 0x16DD760
+    // Offset: 0x1498334
     bool get_ShouldNotifyDebuggerOfWaitCompletion();
     // System.Boolean get_IsWaitNotificationEnabled()
-    // Offset: 0x16DD638
+    // Offset: 0x149820C
     bool get_IsWaitNotificationEnabled();
     // private System.Void NotifyDebuggerOfWaitCompletion()
-    // Offset: 0x16DD65C
+    // Offset: 0x1498230
     void NotifyDebuggerOfWaitCompletion();
     // System.Boolean MarkStarted()
-    // Offset: 0x16DD784
+    // Offset: 0x1498358
     bool MarkStarted();
     // System.Boolean FireTaskScheduledIfNeeded(System.Threading.Tasks.TaskScheduler ts)
-    // Offset: 0x16DD790
+    // Offset: 0x1498364
     bool FireTaskScheduledIfNeeded(System::Threading::Tasks::TaskScheduler* ts);
     // System.Void AddNewChild()
-    // Offset: 0x16DCCDC
+    // Offset: 0x14978B0
     void AddNewChild();
     // System.Void DisregardChild()
-    // Offset: 0x16DD110
+    // Offset: 0x1497CE4
     void DisregardChild();
     // static System.Threading.Tasks.Task InternalStartNew(System.Threading.Tasks.Task creatingTask, System.Delegate action, System.Object state, System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskScheduler scheduler, System.Threading.Tasks.TaskCreationOptions options, System.Threading.Tasks.InternalTaskOptions internalOptions, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x16DD7BC
+    // Offset: 0x1498390
     static System::Threading::Tasks::Task* InternalStartNew(System::Threading::Tasks::Task* creatingTask, System::Delegate* action, ::Il2CppObject* state, System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskScheduler* scheduler, System::Threading::Tasks::TaskCreationOptions options, System::Threading::Tasks::InternalTaskOptions internalOptions, System::Threading::StackCrawlMark& stackMark);
     // static System.Int32 NewId()
-    // Offset: 0x16DD8D8
+    // Offset: 0x14984AC
     static int NewId();
     // public System.Int32 get_Id()
-    // Offset: 0x16DB8E4
+    // Offset: 0x14964B8
     int get_Id();
     // static System.Threading.Tasks.Task get_InternalCurrent()
-    // Offset: 0x16DD948
+    // Offset: 0x149851C
     static System::Threading::Tasks::Task* get_InternalCurrent();
     // static System.Threading.Tasks.Task InternalCurrentIfAttached(System.Threading.Tasks.TaskCreationOptions creationOptions)
-    // Offset: 0x16DB550
+    // Offset: 0x1496124
     static System::Threading::Tasks::Task* InternalCurrentIfAttached(System::Threading::Tasks::TaskCreationOptions creationOptions);
     // static System.Threading.Tasks.StackGuard get_CurrentStackGuard()
-    // Offset: 0x16DD9B0
+    // Offset: 0x1498584
     static System::Threading::Tasks::StackGuard* get_CurrentStackGuard();
     // public System.AggregateException get_Exception()
-    // Offset: 0x16DDA68
+    // Offset: 0x149863C
     System::AggregateException* get_Exception();
     // public System.Threading.Tasks.TaskStatus get_Status()
-    // Offset: 0x16DDC20
+    // Offset: 0x14987F4
     System::Threading::Tasks::TaskStatus get_Status();
     // public System.Boolean get_IsCanceled()
-    // Offset: 0x16DBC8C
+    // Offset: 0x1496860
     bool get_IsCanceled();
     // System.Boolean get_IsCancellationRequested()
-    // Offset: 0x16DDC8C
+    // Offset: 0x1498860
     bool get_IsCancellationRequested();
     // System.Threading.Tasks.Task/ContingentProperties EnsureContingentPropertiesInitialized(System.Boolean needsProtection)
-    // Offset: 0x16DD054
+    // Offset: 0x1497C28
     System::Threading::Tasks::Task::ContingentProperties* EnsureContingentPropertiesInitialized(bool needsProtection);
     // private System.Threading.Tasks.Task/ContingentProperties EnsureContingentPropertiesInitializedCore(System.Boolean needsProtection)
-    // Offset: 0x16DDCE0
+    // Offset: 0x14988B4
     System::Threading::Tasks::Task::ContingentProperties* EnsureContingentPropertiesInitializedCore(bool needsProtection);
     // System.Threading.CancellationToken get_CancellationToken()
-    // Offset: 0x16DDDC4
+    // Offset: 0x1498998
     System::Threading::CancellationToken get_CancellationToken();
     // System.Boolean get_IsCancellationAcknowledged()
-    // Offset: 0x16DDDF4
+    // Offset: 0x14989C8
     bool get_IsCancellationAcknowledged();
     // static private System.Boolean IsCompletedMethod(System.Int32 flags)
-    // Offset: 0x16DDE8C
+    // Offset: 0x1498A60
     static bool IsCompletedMethod(int flags);
     // System.Boolean get_IsRanToCompletion()
-    // Offset: 0x16DBC58
+    // Offset: 0x149682C
     bool get_IsRanToCompletion();
     // public System.Threading.Tasks.TaskCreationOptions get_CreationOptions()
-    // Offset: 0x16DCCC4
+    // Offset: 0x1497898
     System::Threading::Tasks::TaskCreationOptions get_CreationOptions();
     // System.Threading.Tasks.TaskScheduler get_ExecutingTaskScheduler()
-    // Offset: 0x16DE060
+    // Offset: 0x1498C34
     System::Threading::Tasks::TaskScheduler* get_ExecutingTaskScheduler();
     // static public System.Threading.Tasks.TaskFactory get_Factory()
-    // Offset: 0x16DE068
+    // Offset: 0x1498C3C
     static System::Threading::Tasks::TaskFactory* get_Factory();
     // static public System.Threading.Tasks.Task get_CompletedTask()
-    // Offset: 0x16DE0D0
+    // Offset: 0x1498CA4
     static System::Threading::Tasks::Task* get_CompletedTask();
     // System.Threading.ManualResetEventSlim get_CompletedEvent()
-    // Offset: 0x16DDF50
+    // Offset: 0x1498B24
     System::Threading::ManualResetEventSlim* get_CompletedEvent();
     // System.Boolean get_IsSelfReplicatingRoot()
-    // Offset: 0x16DD798
+    // Offset: 0x149836C
     bool get_IsSelfReplicatingRoot();
     // System.Boolean get_IsChildReplica()
-    // Offset: 0x16DE184
+    // Offset: 0x1498D58
     bool get_IsChildReplica();
     // System.Boolean get_ExceptionRecorded()
-    // Offset: 0x16DE19C
+    // Offset: 0x1498D70
     bool get_ExceptionRecorded();
     // public System.Boolean get_IsFaulted()
-    // Offset: 0x16DDAA8
+    // Offset: 0x149867C
     bool get_IsFaulted();
     // System.Threading.ExecutionContext get_CapturedContext()
-    // Offset: 0x16DE21C
+    // Offset: 0x1498DF0
     System::Threading::ExecutionContext* get_CapturedContext();
     // System.Void set_CapturedContext(System.Threading.ExecutionContext value)
-    // Offset: 0x16DA690
+    // Offset: 0x1495264
     void set_CapturedContext(System::Threading::ExecutionContext* value);
     // static private System.Threading.ExecutionContext CopyExecutionContext(System.Threading.ExecutionContext capturedContext)
-    // Offset: 0x16DE2EC
+    // Offset: 0x1498EC0
     static System::Threading::ExecutionContext* CopyExecutionContext(System::Threading::ExecutionContext* capturedContext);
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x16DE440
+    // Offset: 0x1499014
     void Dispose(bool disposing);
     // System.Void ScheduleAndStart(System.Boolean needsProtection)
-    // Offset: 0x16DBE54
+    // Offset: 0x1496A28
     void ScheduleAndStart(bool needsProtection);
     // System.Void AddException(System.Object exceptionObject)
-    // Offset: 0x16DE57C
+    // Offset: 0x1499150
     void AddException(::Il2CppObject* exceptionObject);
     // System.Void AddException(System.Object exceptionObject, System.Boolean representsCancellation)
-    // Offset: 0x16DE8B8
+    // Offset: 0x149948C
     void AddException(::Il2CppObject* exceptionObject, bool representsCancellation);
     // private System.AggregateException GetExceptions(System.Boolean includeTaskCanceledExceptions)
-    // Offset: 0x16DDACC
+    // Offset: 0x14986A0
     System::AggregateException* GetExceptions(bool includeTaskCanceledExceptions);
     // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Runtime.ExceptionServices.ExceptionDispatchInfo> GetExceptionDispatchInfos()
-    // Offset: 0x16DED20
+    // Offset: 0x14998F4
     System::Collections::ObjectModel::ReadOnlyCollection_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* GetExceptionDispatchInfos();
     // System.Runtime.ExceptionServices.ExceptionDispatchInfo GetCancellationExceptionDispatchInfo()
-    // Offset: 0x16DEE6C
+    // Offset: 0x1499A40
     System::Runtime::ExceptionServices::ExceptionDispatchInfo* GetCancellationExceptionDispatchInfo();
     // System.Void ThrowIfExceptional(System.Boolean includeTaskCanceledExceptions)
-    // Offset: 0x16DEEA8
+    // Offset: 0x1499A7C
     void ThrowIfExceptional(bool includeTaskCanceledExceptions);
     // System.Void UpdateExceptionObservedStatus()
-    // Offset: 0x16DEF24
+    // Offset: 0x1499AF8
     void UpdateExceptionObservedStatus();
     // System.Boolean get_IsExceptionObservedByParent()
-    // Offset: 0x16DF01C
+    // Offset: 0x1499BF0
     bool get_IsExceptionObservedByParent();
     // System.Boolean get_IsDelegateInvoked()
-    // Offset: 0x16DF040
+    // Offset: 0x1499C14
     bool get_IsDelegateInvoked();
     // System.Void Finish(System.Boolean bUserDelegateExecuted)
-    // Offset: 0x16DE69C
+    // Offset: 0x1499270
     void Finish(bool bUserDelegateExecuted);
     // System.Void FinishStageTwo()
-    // Offset: 0x16DF064
+    // Offset: 0x1499C38
     void FinishStageTwo();
     // System.Void FinishStageThree()
-    // Offset: 0x16DF594
+    // Offset: 0x149A168
     void FinishStageThree();
     // System.Void ProcessChildCompletion(System.Threading.Tasks.Task childTask)
-    // Offset: 0x16DF5F8
+    // Offset: 0x149A1CC
     void ProcessChildCompletion(System::Threading::Tasks::Task* childTask);
     // System.Void AddExceptionsFromChildren()
-    // Offset: 0x16DF25C
+    // Offset: 0x1499E30
     void AddExceptionsFromChildren();
     // System.Void FinishThreadAbortedTask(System.Boolean bTAEAddedToExceptionHolder, System.Boolean delegateRan)
-    // Offset: 0x16DE584
+    // Offset: 0x1499158
     void FinishThreadAbortedTask(bool bTAEAddedToExceptionHolder, bool delegateRan);
     // private System.Void Execute()
-    // Offset: 0x16DFCD8
+    // Offset: 0x149A8AC
     void Execute();
     // System.Boolean ShouldReplicate()
-    // Offset: 0x16E0074
+    // Offset: 0x149AC48
     bool ShouldReplicate();
     // System.Threading.Tasks.Task CreateReplicaTask(System.Action`1<System.Object> taskReplicaDelegate, System.Object stateObject, System.Threading.Tasks.Task parentTask, System.Threading.Tasks.TaskScheduler taskScheduler, System.Threading.Tasks.TaskCreationOptions creationOptionsForReplica, System.Threading.Tasks.InternalTaskOptions internalOptionsForReplica)
-    // Offset: 0x16E007C
+    // Offset: 0x149AC50
     System::Threading::Tasks::Task* CreateReplicaTask(System::Action_1<::Il2CppObject*>* taskReplicaDelegate, ::Il2CppObject* stateObject, System::Threading::Tasks::Task* parentTask, System::Threading::Tasks::TaskScheduler* taskScheduler, System::Threading::Tasks::TaskCreationOptions creationOptionsForReplica, System::Threading::Tasks::InternalTaskOptions internalOptionsForReplica);
     // System.Object get_SavedStateForNextReplica()
-    // Offset: 0x16E0130
+    // Offset: 0x149AD04
     ::Il2CppObject* get_SavedStateForNextReplica();
     // System.Void set_SavedStateFromPreviousReplica(System.Object value)
-    // Offset: 0x16E0138
+    // Offset: 0x149AD0C
     void set_SavedStateFromPreviousReplica(::Il2CppObject* value);
     // System.Threading.Tasks.Task get_HandedOverChildReplica()
-    // Offset: 0x16E013C
+    // Offset: 0x149AD10
     System::Threading::Tasks::Task* get_HandedOverChildReplica();
     // System.Void set_HandedOverChildReplica(System.Threading.Tasks.Task value)
-    // Offset: 0x16E0144
+    // Offset: 0x149AD18
     void set_HandedOverChildReplica(System::Threading::Tasks::Task* value);
     // static private System.Void ExecuteSelfReplicating(System.Threading.Tasks.Task root)
-    // Offset: 0x16DFE58
+    // Offset: 0x149AA2C
     static void ExecuteSelfReplicating(System::Threading::Tasks::Task* root);
     // System.Boolean ExecuteEntry(System.Boolean bPreventDoubleExecution)
-    // Offset: 0x16E0158
+    // Offset: 0x149AD2C
     bool ExecuteEntry(bool bPreventDoubleExecution);
     // private System.Void ExecuteWithThreadLocal(ref System.Threading.Tasks.Task currentTaskSlot)
-    // Offset: 0x16E02E4
+    // Offset: 0x149AEB8
     void ExecuteWithThreadLocal(System::Threading::Tasks::Task*& currentTaskSlot);
     // static private System.Void ExecutionContextCallback(System.Object obj)
-    // Offset: 0x16E0600
+    // Offset: 0x149B1D4
     static void ExecutionContextCallback(::Il2CppObject* obj);
     // System.Void InnerInvoke()
-    // Offset: 0x16E0680
+    // Offset: 0x149B254
     void InnerInvoke();
     // System.Void InnerInvokeWithArg(System.Threading.Tasks.Task childTask)
-    // Offset: 0x16E072C
+    // Offset: 0x149B300
     void InnerInvokeWithArg(System::Threading::Tasks::Task* childTask);
     // private System.Void HandleException(System.Exception unhandledException)
-    // Offset: 0x16DFF68
+    // Offset: 0x149AB3C
     void HandleException(System::Exception* unhandledException);
     // public System.Runtime.CompilerServices.TaskAwaiter GetAwaiter()
-    // Offset: 0x16E078C
+    // Offset: 0x149B360
     System::Runtime::CompilerServices::TaskAwaiter GetAwaiter();
     // public System.Runtime.CompilerServices.ConfiguredTaskAwaitable ConfigureAwait(System.Boolean continueOnCapturedContext)
-    // Offset: 0x16E07B8
+    // Offset: 0x149B38C
     System::Runtime::CompilerServices::ConfiguredTaskAwaitable ConfigureAwait(bool continueOnCapturedContext);
     // System.Void SetContinuationForAwait(System.Action continuationAction, System.Boolean continueOnCapturedContext, System.Boolean flowExecutionContext, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x16E07F0
+    // Offset: 0x149B3C4
     void SetContinuationForAwait(System::Action* continuationAction, bool continueOnCapturedContext, bool flowExecutionContext, System::Threading::StackCrawlMark& stackMark);
     // static public System.Runtime.CompilerServices.YieldAwaitable Yield()
-    // Offset: 0x16E0B1C
+    // Offset: 0x149B6F0
     static System::Runtime::CompilerServices::YieldAwaitable Yield();
     // public System.Void Wait()
-    // Offset: 0x16E0B24
+    // Offset: 0x149B6F8
     void Wait();
     // public System.Boolean Wait(System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x16E0B30
+    // Offset: 0x149B704
     bool Wait(int millisecondsTimeout, System::Threading::CancellationToken cancellationToken);
     // private System.Boolean WrappedTryRunInline()
-    // Offset: 0x16E0EE8
+    // Offset: 0x149BABC
     bool WrappedTryRunInline();
     // System.Boolean InternalWait(System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x16E0C68
+    // Offset: 0x149B83C
     bool InternalWait(int millisecondsTimeout, System::Threading::CancellationToken cancellationToken);
     // private System.Boolean SpinThenBlockingWait(System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x16E11CC
+    // Offset: 0x149BDA0
     bool SpinThenBlockingWait(int millisecondsTimeout, System::Threading::CancellationToken cancellationToken);
     // private System.Boolean SpinWait(System.Int32 millisecondsTimeout)
-    // Offset: 0x16E1398
+    // Offset: 0x149BF6C
     bool SpinWait(int millisecondsTimeout);
     // System.Boolean InternalCancel(System.Boolean bCancelNonExecutingOnly)
-    // Offset: 0x16DC070
+    // Offset: 0x1496C44
     bool InternalCancel(bool bCancelNonExecutingOnly);
     // System.Void RecordInternalCancellationRequest()
-    // Offset: 0x16E15C0
+    // Offset: 0x149C194
     void RecordInternalCancellationRequest();
     // System.Void RecordInternalCancellationRequest(System.Threading.CancellationToken tokenToRecord)
-    // Offset: 0x16E160C
+    // Offset: 0x149C1E0
     void RecordInternalCancellationRequest(System::Threading::CancellationToken tokenToRecord);
     // System.Void RecordInternalCancellationRequest(System.Threading.CancellationToken tokenToRecord, System.Object cancellationException)
-    // Offset: 0x16E16C0
+    // Offset: 0x149C294
     void RecordInternalCancellationRequest(System::Threading::CancellationToken tokenToRecord, ::Il2CppObject* cancellationException);
     // System.Void CancellationCleanupLogic()
-    // Offset: 0x16E0508
+    // Offset: 0x149B0DC
     void CancellationCleanupLogic();
     // private System.Void SetCancellationAcknowledged()
-    // Offset: 0x16E075C
+    // Offset: 0x149B330
     void SetCancellationAcknowledged();
     // System.Void FinishContinuations()
-    // Offset: 0x16DF778
+    // Offset: 0x149A34C
     void FinishContinuations();
     // private System.Void LogFinishCompletionNotification()
-    // Offset: 0x16E1730
+    // Offset: 0x149C304
     void LogFinishCompletionNotification();
     // public System.Threading.Tasks.Task ContinueWith(System.Action`1<System.Threading.Tasks.Task> continuationAction)
-    // Offset: 0x16E1734
+    // Offset: 0x149C308
     System::Threading::Tasks::Task* ContinueWith(System::Action_1<System::Threading::Tasks::Task*>* continuationAction);
     // private System.Threading.Tasks.Task ContinueWith(System.Action`1<System.Threading.Tasks.Task> continuationAction, System.Threading.Tasks.TaskScheduler scheduler, System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskContinuationOptions continuationOptions, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x16E188C
+    // Offset: 0x149C460
     System::Threading::Tasks::Task* ContinueWith(System::Action_1<System::Threading::Tasks::Task*>* continuationAction, System::Threading::Tasks::TaskScheduler* scheduler, System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskContinuationOptions continuationOptions, System::Threading::StackCrawlMark& stackMark);
     // public System.Threading.Tasks.Task ContinueWith(System.Action`2<System.Threading.Tasks.Task,System.Object> continuationAction, System.Object state, System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskContinuationOptions continuationOptions, System.Threading.Tasks.TaskScheduler scheduler)
-    // Offset: 0x16E1C4C
+    // Offset: 0x149C820
     System::Threading::Tasks::Task* ContinueWith(System::Action_2<System::Threading::Tasks::Task*, ::Il2CppObject*>* continuationAction, ::Il2CppObject* state, System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskContinuationOptions continuationOptions, System::Threading::Tasks::TaskScheduler* scheduler);
     // private System.Threading.Tasks.Task ContinueWith(System.Action`2<System.Threading.Tasks.Task,System.Object> continuationAction, System.Object state, System.Threading.Tasks.TaskScheduler scheduler, System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskContinuationOptions continuationOptions, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x16E1C84
+    // Offset: 0x149C858
     System::Threading::Tasks::Task* ContinueWith(System::Action_2<System::Threading::Tasks::Task*, ::Il2CppObject*>* continuationAction, ::Il2CppObject* state, System::Threading::Tasks::TaskScheduler* scheduler, System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskContinuationOptions continuationOptions, System::Threading::StackCrawlMark& stackMark);
     // static System.Void CreationOptionsFromContinuationOptions(System.Threading.Tasks.TaskContinuationOptions continuationOptions, out System.Threading.Tasks.TaskCreationOptions creationOptions, out System.Threading.Tasks.InternalTaskOptions internalOptions)
-    // Offset: 0x16E19E4
+    // Offset: 0x149C5B8
     static void CreationOptionsFromContinuationOptions(System::Threading::Tasks::TaskContinuationOptions continuationOptions, System::Threading::Tasks::TaskCreationOptions& creationOptions, System::Threading::Tasks::InternalTaskOptions& internalOptions);
     // System.Void ContinueWithCore(System.Threading.Tasks.Task continuationTask, System.Threading.Tasks.TaskScheduler scheduler, System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskContinuationOptions options)
-    // Offset: 0x16E1B24
+    // Offset: 0x149C6F8
     void ContinueWithCore(System::Threading::Tasks::Task* continuationTask, System::Threading::Tasks::TaskScheduler* scheduler, System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskContinuationOptions options);
     // System.Void AddCompletionAction(System.Threading.Tasks.ITaskCompletionAction action)
-    // Offset: 0x16E1DE8
+    // Offset: 0x149C9BC
     void AddCompletionAction(System::Threading::Tasks::ITaskCompletionAction* action);
     // private System.Void AddCompletionAction(System.Threading.Tasks.ITaskCompletionAction action, System.Boolean addBeforeOthers)
-    // Offset: 0x16E14DC
+    // Offset: 0x149C0B0
     void AddCompletionAction(System::Threading::Tasks::ITaskCompletionAction* action, bool addBeforeOthers);
     // private System.Boolean AddTaskContinuationComplex(System.Object tc, System.Boolean addBeforeOthers)
-    // Offset: 0x16E1DF0
+    // Offset: 0x149C9C4
     bool AddTaskContinuationComplex(::Il2CppObject* tc, bool addBeforeOthers);
     // private System.Boolean AddTaskContinuation(System.Object tc, System.Boolean addBeforeOthers)
-    // Offset: 0x16E0A88
+    // Offset: 0x149B65C
     bool AddTaskContinuation(::Il2CppObject* tc, bool addBeforeOthers);
     // System.Void RemoveContinuation(System.Object continuationObject)
-    // Offset: 0x16DD228
+    // Offset: 0x1497DFC
     void RemoveContinuation(::Il2CppObject* continuationObject);
     // static public System.Threading.Tasks.Task`1<TResult> FromResult(TResult result)
     // Offset: 0xFFFFFFFF
@@ -667,7 +667,7 @@ namespace System::Threading::Tasks {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Threading::Tasks::Task_1<TResult>*>("System.Threading.Tasks", "Task", "FromResult", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, result)));
     }
     // static public System.Threading.Tasks.Task FromException(System.Exception exception)
-    // Offset: 0x16E2110
+    // Offset: 0x149CCE4
     static System::Threading::Tasks::Task* FromException(System::Exception* exception);
     // static public System.Threading.Tasks.Task`1<TResult> FromException(System.Exception exception)
     // Offset: 0xFFFFFFFF
@@ -676,7 +676,7 @@ namespace System::Threading::Tasks {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Threading::Tasks::Task_1<TResult>*>("System.Threading.Tasks", "Task", "FromException", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, exception)));
     }
     // static System.Threading.Tasks.Task FromCancellation(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x16E2180
+    // Offset: 0x149CD54
     static System::Threading::Tasks::Task* FromCancellation(System::Threading::CancellationToken cancellationToken);
     // static System.Threading.Tasks.Task`1<TResult> FromCancellation(System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
@@ -691,7 +691,7 @@ namespace System::Threading::Tasks {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Threading::Tasks::Task_1<TResult>*>("System.Threading.Tasks", "Task", "FromCancellation", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, exception)));
     }
     // static public System.Threading.Tasks.Task Run(System.Action action)
-    // Offset: 0x16E2240
+    // Offset: 0x149CE14
     static System::Threading::Tasks::Task* Run(System::Action* action);
     // static public System.Threading.Tasks.Task`1<TResult> Run(System.Func`1<TResult> function)
     // Offset: 0xFFFFFFFF
@@ -700,10 +700,10 @@ namespace System::Threading::Tasks {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Threading::Tasks::Task_1<TResult>*>("System.Threading.Tasks", "Task", "Run", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, function)));
     }
     // static public System.Threading.Tasks.Task Run(System.Func`1<System.Threading.Tasks.Task> function)
-    // Offset: 0x16E2348
+    // Offset: 0x149CF1C
     static System::Threading::Tasks::Task* Run(System::Func_1<System::Threading::Tasks::Task*>* function);
     // static public System.Threading.Tasks.Task Run(System.Func`1<System.Threading.Tasks.Task> function, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x16E23B0
+    // Offset: 0x149CF84
     static System::Threading::Tasks::Task* Run(System::Func_1<System::Threading::Tasks::Task*>* function, System::Threading::CancellationToken cancellationToken);
     // static public System.Threading.Tasks.Task`1<TResult> Run(System.Func`1<System.Threading.Tasks.Task`1<TResult>> function)
     // Offset: 0xFFFFFFFF
@@ -718,22 +718,22 @@ namespace System::Threading::Tasks {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Threading::Tasks::Task_1<TResult>*>("System.Threading.Tasks", "Task", "Run", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, function, cancellationToken)));
     }
     // static public System.Threading.Tasks.Task Delay(System.TimeSpan delay)
-    // Offset: 0x16E25B0
+    // Offset: 0x149D184
     static System::Threading::Tasks::Task* Delay(System::TimeSpan delay);
     // static public System.Threading.Tasks.Task Delay(System.TimeSpan delay, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x16E2618
+    // Offset: 0x149D1EC
     static System::Threading::Tasks::Task* Delay(System::TimeSpan delay, System::Threading::CancellationToken cancellationToken);
     // static public System.Threading.Tasks.Task Delay(System.Int32 millisecondsDelay)
-    // Offset: 0x16E270C
+    // Offset: 0x149D2E0
     static System::Threading::Tasks::Task* Delay(int millisecondsDelay);
     // static public System.Threading.Tasks.Task Delay(System.Int32 millisecondsDelay, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x16D8D10
+    // Offset: 0x14938E4
     static System::Threading::Tasks::Task* Delay(int millisecondsDelay, System::Threading::CancellationToken cancellationToken);
     // static public System.Threading.Tasks.Task WhenAll(System.Collections.Generic.IEnumerable`1<System.Threading.Tasks.Task> tasks)
-    // Offset: 0x16E28CC
+    // Offset: 0x149D4A0
     static System::Threading::Tasks::Task* WhenAll(System::Collections::Generic::IEnumerable_1<System::Threading::Tasks::Task*>* tasks);
     // static public System.Threading.Tasks.Task WhenAll(params System.Threading.Tasks.Task[] tasks)
-    // Offset: 0x16E3084
+    // Offset: 0x149DC58
     static System::Threading::Tasks::Task* WhenAll(::Array<System::Threading::Tasks::Task*>* tasks);
     // Creating initializer_list -> params proxy for: System.Threading.Tasks.Task WhenAll(params System.Threading.Tasks.Task[] tasks)
     static System::Threading::Tasks::Task* WhenAll(std::initializer_list<System::Threading::Tasks::Task*> tasks);
@@ -743,7 +743,7 @@ namespace System::Threading::Tasks {
       return WhenAll({tasks...});
     }
     // static private System.Threading.Tasks.Task InternalWhenAll(System.Threading.Tasks.Task[] tasks)
-    // Offset: 0x16E3270
+    // Offset: 0x149DE44
     static System::Threading::Tasks::Task* InternalWhenAll(::Array<System::Threading::Tasks::Task*>* tasks);
     // static public System.Threading.Tasks.Task`1<TResult[]> WhenAll(System.Collections.Generic.IEnumerable`1<System.Threading.Tasks.Task`1<TResult>> tasks)
     // Offset: 0xFFFFFFFF
@@ -774,7 +774,7 @@ namespace System::Threading::Tasks {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Threading::Tasks::Task_1<::Array<TResult>*>*>("System.Threading.Tasks", "Task", "InternalWhenAll", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, tasks)));
     }
     // static public System.Threading.Tasks.Task`1<System.Threading.Tasks.Task> WhenAny(params System.Threading.Tasks.Task[] tasks)
-    // Offset: 0x16D9038
+    // Offset: 0x1493C0C
     static System::Threading::Tasks::Task_1<System::Threading::Tasks::Task*>* WhenAny(::Array<System::Threading::Tasks::Task*>* tasks);
     // Creating initializer_list -> params proxy for: System.Threading.Tasks.Task`1<System.Threading.Tasks.Task> WhenAny(params System.Threading.Tasks.Task[] tasks)
     static System::Threading::Tasks::Task_1<System::Threading::Tasks::Task*>* WhenAny(std::initializer_list<System::Threading::Tasks::Task*> tasks);
@@ -790,15 +790,15 @@ namespace System::Threading::Tasks {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Threading::Tasks::Task_1<TResult>*>("System.Threading.Tasks", "Task", "CreateUnwrapPromise", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, outerTask, lookForOce)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x16E36A8
+    // Offset: 0x149E27C
     static void _cctor();
     // System.Void .ctor()
-    // Offset: 0x16DC9A4
+    // Offset: 0x1497578
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Task* New_ctor();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x16DDE18
+    // Offset: 0x14989EC
     // Implemented from: System.IAsyncResult
     // Base method: System.Boolean IAsyncResult::get_IsCompleted()
     bool get_IsCompleted();
@@ -806,12 +806,12 @@ namespace System::Threading::Tasks {
     // Maps to method: get_IsCompleted
     bool System_IAsyncResult_get_IsCompleted();
     // private System.Threading.WaitHandle System.IAsyncResult.get_AsyncWaitHandle()
-    // Offset: 0x16DDE9C
+    // Offset: 0x1498A70
     // Implemented from: System.IAsyncResult
     // Base method: System.Threading.WaitHandle IAsyncResult::get_AsyncWaitHandle()
     System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();
     // public System.Object get_AsyncState()
-    // Offset: 0x16DE050
+    // Offset: 0x1498C24
     // Implemented from: System.IAsyncResult
     // Base method: System.Object IAsyncResult::get_AsyncState()
     ::Il2CppObject* get_AsyncState();
@@ -819,12 +819,12 @@ namespace System::Threading::Tasks {
     // Maps to method: get_AsyncState
     ::Il2CppObject* System_IAsyncResult_get_AsyncState();
     // private System.Boolean System.IAsyncResult.get_CompletedSynchronously()
-    // Offset: 0x16DE058
+    // Offset: 0x1498C2C
     // Implemented from: System.IAsyncResult
     // Base method: System.Boolean IAsyncResult::get_CompletedSynchronously()
     bool System_IAsyncResult_get_CompletedSynchronously();
     // public System.Void Dispose()
-    // Offset: 0x16DE3C4
+    // Offset: 0x1498F98
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -832,12 +832,12 @@ namespace System::Threading::Tasks {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // private System.Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
-    // Offset: 0x16E0150
+    // Offset: 0x149AD24
     // Implemented from: System.Threading.IThreadPoolWorkItem
     // Base method: System.Void IThreadPoolWorkItem::ExecuteWorkItem()
     void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
     // private System.Void System.Threading.IThreadPoolWorkItem.MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0x16E0298
+    // Offset: 0x149AE6C
     // Implemented from: System.Threading.IThreadPoolWorkItem
     // Base method: System.Void IThreadPoolWorkItem::MarkAborted(System.Threading.ThreadAbortException tae)
     void System_Threading_IThreadPoolWorkItem_MarkAborted(System::Threading::ThreadAbortException* tae);

@@ -31,16 +31,16 @@ namespace GlobalNamespace {
   class LocalNetworkDiscoveryManager::InviteRequestedDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x103EA8C
+    // Offset: 0x20A5974
     static LocalNetworkDiscoveryManager::InviteRequestedDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.String userId, System.Net.IPAddress remoteEndPoint, System.String userName, System.String secret, System.Int32 multiplayerPort, System.Byte flags)
-    // Offset: 0x103DF0C
+    // Offset: 0x20A4DF4
     void Invoke(::Il2CppString* userId, System::Net::IPAddress* remoteEndPoint, ::Il2CppString* userName, ::Il2CppString* secret, int multiplayerPort, uint8_t flags);
     // public System.IAsyncResult BeginInvoke(System.String userId, System.Net.IPAddress remoteEndPoint, System.String userName, System.String secret, System.Int32 multiplayerPort, System.Byte flags, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x103EAA0
+    // Offset: 0x20A5988
     System::IAsyncResult* BeginInvoke(::Il2CppString* userId, System::Net::IPAddress* remoteEndPoint, ::Il2CppString* userName, ::Il2CppString* secret, int multiplayerPort, uint8_t flags, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x103EB78
+    // Offset: 0x20A5A60
     void EndInvoke(System::IAsyncResult* result);
   }; // LocalNetworkDiscoveryManager/InviteRequestedDelegate
 }

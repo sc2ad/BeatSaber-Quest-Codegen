@@ -28,16 +28,16 @@ namespace Mono::Unity {
   class UnityTls::unitytls_interface_struct::unitytls_key_get_ref_t : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1422440
+    // Offset: 0x11F8B7C
     static UnityTls::unitytls_interface_struct::unitytls_key_get_ref_t* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Mono.Unity.UnityTls/unitytls_key_ref Invoke(Mono.Unity.UnityTls/unitytls_key* key, Mono.Unity.UnityTls/unitytls_errorstate* errorState)
-    // Offset: 0x1422454
+    // Offset: 0x11F8B90
     Mono::Unity::UnityTls::unitytls_key_ref Invoke(Mono::Unity::UnityTls::unitytls_key* key, Mono::Unity::UnityTls::unitytls_errorstate* errorState);
     // public System.IAsyncResult BeginInvoke(Mono.Unity.UnityTls/unitytls_key* key, Mono.Unity.UnityTls/unitytls_errorstate* errorState, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x14226C8
+    // Offset: 0x11F8E04
     System::IAsyncResult* BeginInvoke(Mono::Unity::UnityTls::unitytls_key* key, Mono::Unity::UnityTls::unitytls_errorstate* errorState, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Mono.Unity.UnityTls/unitytls_key_ref EndInvoke(System.IAsyncResult result)
-    // Offset: 0x14226F8
+    // Offset: 0x11F8E34
     Mono::Unity::UnityTls::unitytls_key_ref EndInvoke(System::IAsyncResult* result);
   }; // Mono.Unity.UnityTls/unitytls_interface_struct/unitytls_key_get_ref_t
 }

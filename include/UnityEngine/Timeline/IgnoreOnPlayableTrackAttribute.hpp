@@ -14,7 +14,7 @@ namespace UnityEngine::Timeline {
   class IgnoreOnPlayableTrackAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x161F944
+    // Offset: 0x13F616C
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

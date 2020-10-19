@@ -14,7 +14,7 @@ namespace System::ComponentModel {
   class BaseNumberConverter : public System::ComponentModel::TypeConverter {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x1725844
+    // Offset: 0x14E1418
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Void TypeConverter::.ctor()
     // Base method: System.Void Object::.ctor()

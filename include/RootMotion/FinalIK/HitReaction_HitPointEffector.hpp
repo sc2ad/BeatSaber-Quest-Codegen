@@ -39,22 +39,22 @@ namespace RootMotion::FinalIK {
     // Offset: 0x60
     ::Array<RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink*>* effectorLinks;
     // protected override System.Single GetLength()
-    // Offset: 0x1A9F93C
+    // Offset: 0x183EB30
     // Implemented from: RootMotion.FinalIK.HitReaction/HitPoint
     // Base method: System.Single HitPoint::GetLength()
     float GetLength();
     // protected override System.Void CrossFadeStart()
-    // Offset: 0x1A9FAB4
+    // Offset: 0x183ECA8
     // Implemented from: RootMotion.FinalIK.HitReaction/HitPoint
     // Base method: System.Void HitPoint::CrossFadeStart()
     void CrossFadeStart();
     // protected override System.Void OnApply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
-    // Offset: 0x1A9FB34
+    // Offset: 0x183ED28
     // Implemented from: RootMotion.FinalIK.HitReaction/HitPoint
     // Base method: System.Void HitPoint::OnApply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
     void OnApply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight);
     // public System.Void .ctor()
-    // Offset: 0x1A9FE54
+    // Offset: 0x183F048
     // Implemented from: RootMotion.FinalIK.HitReaction/HitPoint
     // Base method: System.Void HitPoint::.ctor()
     // Base method: System.Void Object::.ctor()

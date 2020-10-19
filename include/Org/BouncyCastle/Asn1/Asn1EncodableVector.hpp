@@ -40,10 +40,10 @@ namespace Org::BouncyCastle::Asn1 {
     // Set static field: static readonly Org.BouncyCastle.Asn1.Asn1Encodable[] EmptyElements
     static void _set_EmptyElements(::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>* value);
     // public System.Void .ctor(System.Int32 initialCapacity)
-    // Offset: 0x153A4D8
+    // Offset: 0x1311D00
     static Asn1EncodableVector* New_ctor(int initialCapacity);
     // public System.Void .ctor(params Org.BouncyCastle.Asn1.Asn1Encodable[] v)
-    // Offset: 0x153A5E4
+    // Offset: 0x1311E0C
     static Asn1EncodableVector* New_ctor(::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>* v);
     // Creating initializer_list -> params proxy for: System.Void .ctor(params Org.BouncyCastle.Asn1.Asn1Encodable[] v)
     static Asn1EncodableVector* New_ctor(std::initializer_list<Org::BouncyCastle::Asn1::Asn1Encodable*> v);
@@ -53,10 +53,10 @@ namespace Org::BouncyCastle::Asn1 {
       return New_ctor({v...});
     }
     // public System.Void Add(Org.BouncyCastle.Asn1.Asn1Encodable element)
-    // Offset: 0x153A68C
+    // Offset: 0x1311EB4
     void Add(Org::BouncyCastle::Asn1::Asn1Encodable* element);
     // public System.Void Add(params Org.BouncyCastle.Asn1.Asn1Encodable[] objs)
-    // Offset: 0x153A614
+    // Offset: 0x1311E3C
     void Add(::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>* objs);
     // Creating initializer_list -> params proxy for: System.Void Add(params Org.BouncyCastle.Asn1.Asn1Encodable[] objs)
     void Add(std::initializer_list<Org::BouncyCastle::Asn1::Asn1Encodable*> objs);
@@ -66,7 +66,7 @@ namespace Org::BouncyCastle::Asn1 {
       Add({objs...});
     }
     // public System.Void AddOptional(params Org.BouncyCastle.Asn1.Asn1Encodable[] objs)
-    // Offset: 0x153A88C
+    // Offset: 0x13120B4
     void AddOptional(::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>* objs);
     // Creating initializer_list -> params proxy for: System.Void AddOptional(params Org.BouncyCastle.Asn1.Asn1Encodable[] objs)
     void AddOptional(std::initializer_list<Org::BouncyCastle::Asn1::Asn1Encodable*> objs);
@@ -76,36 +76,36 @@ namespace Org::BouncyCastle::Asn1 {
       AddOptional({objs...});
     }
     // public System.Void AddOptionalTagged(System.Boolean isExplicit, System.Int32 tagNo, Org.BouncyCastle.Asn1.Asn1Encodable obj)
-    // Offset: 0x153A904
+    // Offset: 0x131212C
     void AddOptionalTagged(bool isExplicit, int tagNo, Org::BouncyCastle::Asn1::Asn1Encodable* obj);
     // public Org.BouncyCastle.Asn1.Asn1Encodable get_Item(System.Int32 index)
-    // Offset: 0x153A9AC
+    // Offset: 0x13121D4
     Org::BouncyCastle::Asn1::Asn1Encodable* get_Item(int index);
     // public System.Int32 get_Count()
-    // Offset: 0x153AAB8
+    // Offset: 0x13122E0
     int get_Count();
     // Org.BouncyCastle.Asn1.Asn1Encodable[] CopyElements()
-    // Offset: 0x153AAE0
+    // Offset: 0x1312308
     ::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>* CopyElements();
     // Org.BouncyCastle.Asn1.Asn1Encodable[] TakeElements()
-    // Offset: 0x153AB90
+    // Offset: 0x13123B8
     ::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>* TakeElements();
     // private System.Void Reallocate(System.Int32 minCapacity)
-    // Offset: 0x153A7AC
+    // Offset: 0x1311FD4
     void Reallocate(int minCapacity);
     // static Org.BouncyCastle.Asn1.Asn1Encodable[] CloneElements(Org.BouncyCastle.Asn1.Asn1Encodable[] elements)
-    // Offset: 0x153AC64
+    // Offset: 0x131248C
     static ::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>* CloneElements(::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>* elements);
     // static private System.Void .cctor()
-    // Offset: 0x153AD1C
+    // Offset: 0x1312544
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x153A4D0
+    // Offset: 0x1311CF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Asn1EncodableVector* New_ctor();
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x153AAC0
+    // Offset: 0x13122E8
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* GetEnumerator();

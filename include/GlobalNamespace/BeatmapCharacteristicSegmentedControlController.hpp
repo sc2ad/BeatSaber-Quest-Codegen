@@ -58,28 +58,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didSelectBeatmapCharacteristicEvent(System.Action`2<BeatmapCharacteristicSegmentedControlController,BeatmapCharacteristicSO> value)
-    // Offset: 0x1049680
+    // Offset: 0x20C439C
     void add_didSelectBeatmapCharacteristicEvent(System::Action_2<GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void remove_didSelectBeatmapCharacteristicEvent(System.Action`2<BeatmapCharacteristicSegmentedControlController,BeatmapCharacteristicSO> value)
-    // Offset: 0x1049724
+    // Offset: 0x20C4440
     void remove_didSelectBeatmapCharacteristicEvent(System::Action_2<GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public BeatmapCharacteristicSO get_selectedBeatmapCharacteristic()
-    // Offset: 0x10497C8
+    // Offset: 0x20C44E4
     GlobalNamespace::BeatmapCharacteristicSO* get_selectedBeatmapCharacteristic();
     // protected System.Void Awake()
-    // Offset: 0x10497D0
+    // Offset: 0x20C44EC
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1049864
+    // Offset: 0x20C4580
     void OnDestroy();
     // public System.Void SetData(IDifficultyBeatmapSet[] difficultyBeatmapSets, BeatmapCharacteristicSO selectedBeatmapCharacteristic)
-    // Offset: 0x1049940
+    // Offset: 0x20C465C
     void SetData(::Array<GlobalNamespace::IDifficultyBeatmapSet*>* difficultyBeatmapSets, GlobalNamespace::BeatmapCharacteristicSO* selectedBeatmapCharacteristic);
     // private System.Void HandleDifficultySegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
-    // Offset: 0x1049CB4
+    // Offset: 0x20C49D0
     void HandleDifficultySegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellIdx);
     // public System.Void .ctor()
-    // Offset: 0x1049D68
+    // Offset: 0x20C4A84
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

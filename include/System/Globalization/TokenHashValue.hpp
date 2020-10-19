@@ -23,7 +23,7 @@ namespace System::Globalization {
     // Offset: 0x1C
     int tokenValue;
     // System.Void .ctor(System.String tokenString, System.TokenType tokenType, System.Int32 tokenValue)
-    // Offset: 0x1688A64
+    // Offset: 0x1442638
     static TokenHashValue* New_ctor(::Il2CppString* tokenString, System::TokenType tokenType, int tokenValue);
   }; // System.Globalization.TokenHashValue
 }

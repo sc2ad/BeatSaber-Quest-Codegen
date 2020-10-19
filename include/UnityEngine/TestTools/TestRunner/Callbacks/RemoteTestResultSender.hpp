@@ -68,34 +68,34 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Set static field: static private System.Int32 k_aliveMessageFrequency
     static void _set_k_aliveMessageFrequency(int value);
     // public System.Void Start()
-    // Offset: 0x12C2AEC
+    // Offset: 0x10BE388
     void Start();
     // private System.Byte[] SerializeObject(System.Object objectToSerialize)
-    // Offset: 0x12C2B94
+    // Offset: 0x10BE430
     ::Array<uint8_t>* SerializeObject(::Il2CppObject* objectToSerialize);
     // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
-    // Offset: 0x12C2BE4
+    // Offset: 0x10BE480
     void RunStarted(NUnit::Framework::Interfaces::ITest* testsToRun);
     // public System.Void RunFinished(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0x12C2DA8
+    // Offset: 0x10BE644
     void RunFinished(NUnit::Framework::Interfaces::ITestResult* testResults);
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x12C2F60
+    // Offset: 0x10BE7FC
     void TestStarted(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x12C311C
+    // Offset: 0x10BE9B8
     void TestFinished(NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Collections.IEnumerator SendDataRoutine()
-    // Offset: 0x12C2B18
+    // Offset: 0x10BE3B4
     System::Collections::IEnumerator* SendDataRoutine();
     // private System.Void SendAliveMessageIfNeeded()
-    // Offset: 0x12C3300
+    // Offset: 0x10BEB9C
     void SendAliveMessageIfNeeded();
     // private System.Void ResetNextPlayerAliveMessageTime()
-    // Offset: 0x12C3400
+    // Offset: 0x10BEC9C
     void ResetNextPlayerAliveMessageTime();
     // public System.Void .ctor()
-    // Offset: 0x12C3434
+    // Offset: 0x10BECD0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

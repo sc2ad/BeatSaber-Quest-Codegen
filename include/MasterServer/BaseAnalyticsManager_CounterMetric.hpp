@@ -31,13 +31,13 @@ namespace MasterServer {
       return count;
     }
     // public System.Void .ctor(System.String metricName, System.Collections.Generic.IReadOnlyDictionary`2<System.String,System.String> tags)
-    // Offset: 0x1169A3C
+    // Offset: 0x2164424
     static BaseAnalyticsManager::CounterMetric* New_ctor(::Il2CppString* metricName, System::Collections::Generic::IReadOnlyDictionary_2<::Il2CppString*, ::Il2CppString*>* tags);
     // public System.Void Increment()
-    // Offset: 0x1169A44
+    // Offset: 0x216442C
     void Increment();
     // public override System.Double GetValueAndReset()
-    // Offset: 0x116B320
+    // Offset: 0x2165D08
     // Implemented from: MasterServer.BaseAnalyticsManager/AnalyticsMetric
     // Base method: System.Double AnalyticsMetric::GetValueAndReset()
     double GetValueAndReset();

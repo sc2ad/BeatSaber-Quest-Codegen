@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_ComputeOverlayIntersection : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1D67160
+    // Offset: 0x1AB8DC4
     static IVROverlay::_ComputeOverlayIntersection* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.VROverlayIntersectionParams_t pParams, ref OVR.OpenVR.VROverlayIntersectionResults_t pResults)
-    // Offset: 0x1D67174
+    // Offset: 0x1AB8DD8
     bool Invoke(uint64_t ulOverlayHandle, OVR::OpenVR::VROverlayIntersectionParams_t& pParams, OVR::OpenVR::VROverlayIntersectionResults_t& pResults);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.VROverlayIntersectionParams_t pParams, ref OVR.OpenVR.VROverlayIntersectionResults_t pResults, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1D67410
+    // Offset: 0x1AB9074
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, OVR::OpenVR::VROverlayIntersectionParams_t& pParams, OVR::OpenVR::VROverlayIntersectionResults_t& pResults, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(ref OVR.OpenVR.VROverlayIntersectionParams_t pParams, ref OVR.OpenVR.VROverlayIntersectionResults_t pResults, System.IAsyncResult result)
-    // Offset: 0x1D674E4
+    // Offset: 0x1AB9148
     bool EndInvoke(OVR::OpenVR::VROverlayIntersectionParams_t& pParams, OVR::OpenVR::VROverlayIntersectionResults_t& pResults, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_ComputeOverlayIntersection
 }

@@ -109,28 +109,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Single get_textAppearDuration()
-    // Offset: 0x22305F0
+    // Offset: 0x203EC00
     float get_textAppearDuration();
     // protected System.Void Awake()
-    // Offset: 0x22305F8
+    // Offset: 0x203EC08
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x2230720
+    // Offset: 0x203ED30
     void OnDestroy();
     // public System.Void StartCountdown(System.Single seconds, System.Single delay, System.Single durationMultiplier)
-    // Offset: 0x22303D8
+    // Offset: 0x203E9E8
     void StartCountdown(float seconds, float delay, float durationMultiplier);
     // private System.Collections.IEnumerator CountdownRoutine(System.Single seconds, System.Single delay, System.Single durationMultiplier)
-    // Offset: 0x22307B8
+    // Offset: 0x203EDC8
     System::Collections::IEnumerator* CountdownRoutine(float seconds, float delay, float durationMultiplier);
     // private System.Collections.IEnumerator PlayDelayed(UnityEngine.AudioClip audioClip, System.Single delay)
-    // Offset: 0x2230884
+    // Offset: 0x203EE94
     System::Collections::IEnumerator* PlayDelayed(UnityEngine::AudioClip* audioClip, float delay);
     // private System.Collections.IEnumerator PhaseRoutine(System.String text, System.Single appearDuration, System.Single disappearDuration)
-    // Offset: 0x2230958
+    // Offset: 0x203EF68
     System::Collections::IEnumerator* PhaseRoutine(::Il2CppString* text, float appearDuration, float disappearDuration);
     // public System.Void .ctor()
-    // Offset: 0x2230A30
+    // Offset: 0x203F040
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

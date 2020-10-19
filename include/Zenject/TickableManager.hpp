@@ -87,64 +87,64 @@ namespace Zenject {
     // Offset: 0x58
     bool isPaused;
     // public System.Collections.Generic.IEnumerable`1<Zenject.ITickable> get_Tickables()
-    // Offset: 0x1521FB8
+    // Offset: 0x12F87E0
     System::Collections::Generic::IEnumerable_1<Zenject::ITickable*>* get_Tickables();
     // public System.Boolean get_IsPaused()
-    // Offset: 0x1521FC0
+    // Offset: 0x12F87E8
     bool get_IsPaused();
     // public System.Void set_IsPaused(System.Boolean value)
-    // Offset: 0x1521FC8
+    // Offset: 0x12F87F0
     void set_IsPaused(bool value);
     // public System.Void Initialize()
-    // Offset: 0x1521FD4
+    // Offset: 0x12F87FC
     void Initialize();
     // private System.Void InitFixedTickables()
-    // Offset: 0x1522698
+    // Offset: 0x12F8EC0
     void InitFixedTickables();
     // private System.Void InitTickables()
-    // Offset: 0x1522000
+    // Offset: 0x12F8828
     void InitTickables();
     // private System.Void InitLateTickables()
-    // Offset: 0x1522D30
+    // Offset: 0x12F9558
     void InitLateTickables();
     // public System.Void Add(Zenject.ITickable tickable, System.Int32 priority)
-    // Offset: 0x15233E0
+    // Offset: 0x12F9C08
     void Add(Zenject::ITickable* tickable, int priority);
     // public System.Void Add(Zenject.ITickable tickable)
-    // Offset: 0x1523450
+    // Offset: 0x12F9C78
     void Add(Zenject::ITickable* tickable);
     // public System.Void AddLate(Zenject.ILateTickable tickable, System.Int32 priority)
-    // Offset: 0x1523458
+    // Offset: 0x12F9C80
     void AddLate(Zenject::ILateTickable* tickable, int priority);
     // public System.Void AddLate(Zenject.ILateTickable tickable)
-    // Offset: 0x15234C8
+    // Offset: 0x12F9CF0
     void AddLate(Zenject::ILateTickable* tickable);
     // public System.Void AddFixed(Zenject.IFixedTickable tickable, System.Int32 priority)
-    // Offset: 0x15234D0
+    // Offset: 0x12F9CF8
     void AddFixed(Zenject::IFixedTickable* tickable, int priority);
     // public System.Void AddFixed(Zenject.IFixedTickable tickable)
-    // Offset: 0x1523540
+    // Offset: 0x12F9D68
     void AddFixed(Zenject::IFixedTickable* tickable);
     // public System.Void Remove(Zenject.ITickable tickable)
-    // Offset: 0x15235AC
+    // Offset: 0x12F9DD4
     void Remove(Zenject::ITickable* tickable);
     // public System.Void RemoveLate(Zenject.ILateTickable tickable)
-    // Offset: 0x1523614
+    // Offset: 0x12F9E3C
     void RemoveLate(Zenject::ILateTickable* tickable);
     // public System.Void RemoveFixed(Zenject.IFixedTickable tickable)
-    // Offset: 0x152367C
+    // Offset: 0x12F9EA4
     void RemoveFixed(Zenject::IFixedTickable* tickable);
     // public System.Void Update()
-    // Offset: 0x1511644
+    // Offset: 0x12E7E6C
     void Update();
     // public System.Void FixedUpdate()
-    // Offset: 0x151177C
+    // Offset: 0x12E7FA4
     void FixedUpdate();
     // public System.Void LateUpdate()
-    // Offset: 0x15116E0
+    // Offset: 0x12E7F08
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x1521EA4
+    // Offset: 0x12F86CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TickableManager* New_ctor();

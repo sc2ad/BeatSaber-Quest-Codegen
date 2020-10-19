@@ -42,16 +42,16 @@ namespace System::Net::Http {
     // Offset: 0x18
     bool disposeHandler;
     // public System.Void .ctor(System.Net.Http.HttpMessageHandler handler, System.Boolean disposeHandler)
-    // Offset: 0x13ABE98
+    // Offset: 0x11815D4
     static HttpMessageInvoker* New_ctor(System::Net::Http::HttpMessageHandler* handler, bool disposeHandler);
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x13ABFA4
+    // Offset: 0x11816E0
     void Dispose(bool disposing);
     // public System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> SendAsync(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x13AC95C
+    // Offset: 0x1182098
     System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* SendAsync(System::Net::Http::HttpRequestMessage* request, System::Threading::CancellationToken cancellationToken);
     // public System.Void Dispose()
-    // Offset: 0x13B05FC
+    // Offset: 0x1185D38
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

@@ -31,19 +31,19 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x18
     Org::BouncyCastle::Asn1::DerGeneralizedTime* notAfterTime;
     // static public Org.BouncyCastle.Asn1.X509.AttCertValidityPeriod GetInstance(System.Object obj)
-    // Offset: 0x186237C
+    // Offset: 0x16087A0
     static Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x18624FC
+    // Offset: 0x1608920
     static AttCertValidityPeriod* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public Org.BouncyCastle.Asn1.DerGeneralizedTime get_NotBeforeTime()
-    // Offset: 0x1862648
+    // Offset: 0x1608A6C
     Org::BouncyCastle::Asn1::DerGeneralizedTime* get_NotBeforeTime();
     // public Org.BouncyCastle.Asn1.DerGeneralizedTime get_NotAfterTime()
-    // Offset: 0x1862650
+    // Offset: 0x1608A74
     Org::BouncyCastle::Asn1::DerGeneralizedTime* get_NotAfterTime();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1862658
+    // Offset: 0x1608A7C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

@@ -58,34 +58,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0xEF26C4
+    // Offset: 0x1FF3504
     void add_didSelectCellWithIdxEvent(System::Action_1<int>* value);
     // public System.Void remove_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0xEF2768
+    // Offset: 0x1FF35A8
     void remove_didSelectCellWithIdxEvent(System::Action_1<int>* value);
     // private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<SongPackMask,System.String>> get_songPacks()
-    // Offset: 0xEF280C
+    // Offset: 0x1FF364C
     System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::SongPackMask, ::Il2CppString*>*>* get_songPacks();
     // protected System.Void Start()
-    // Offset: 0xEF2828
+    // Offset: 0x1FF3668
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xEF29A8
+    // Offset: 0x1FF37E8
     void OnDestroy();
     // public SongPackMask GetSelectedSongPackMask()
-    // Offset: 0xEE871C
+    // Offset: 0x1FF38C4
     GlobalNamespace::SongPackMask GetSelectedSongPackMask();
     // public System.Void SelectCellWithSongPackMask(SongPackMask songPackMask)
-    // Offset: 0xEE8924
+    // Offset: 0x1FF399C
     void SelectCellWithSongPackMask(GlobalNamespace::SongPackMask songPackMask);
     // private System.Int32 GetIdxForSongPackMask(SongPackMask songPackMask)
-    // Offset: 0xEF2A84
+    // Offset: 0x1FF39D8
     int GetIdxForSongPackMask(GlobalNamespace::SongPackMask songPackMask);
     // private System.Void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0xEF2C1C
+    // Offset: 0x1FF3B70
     void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
     // public System.Void .ctor()
-    // Offset: 0xEF2C90
+    // Offset: 0x1FF3BE4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

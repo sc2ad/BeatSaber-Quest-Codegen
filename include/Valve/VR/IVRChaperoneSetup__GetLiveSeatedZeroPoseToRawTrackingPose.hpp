@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRChaperoneSetup::_GetLiveSeatedZeroPoseToRawTrackingPose : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1E2A484
+    // Offset: 0x1B7D0E8
     static IVRChaperoneSetup::_GetLiveSeatedZeroPoseToRawTrackingPose* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(ref Valve.VR.HmdMatrix34_t pmatSeatedZeroPoseToRawTrackingPose)
-    // Offset: 0x1E2A498
+    // Offset: 0x1B7D0FC
     bool Invoke(Valve::VR::HmdMatrix34_t& pmatSeatedZeroPoseToRawTrackingPose);
     // public System.IAsyncResult BeginInvoke(ref Valve.VR.HmdMatrix34_t pmatSeatedZeroPoseToRawTrackingPose, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1E2A6F4
+    // Offset: 0x1B7D358
     System::IAsyncResult* BeginInvoke(Valve::VR::HmdMatrix34_t& pmatSeatedZeroPoseToRawTrackingPose, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(ref Valve.VR.HmdMatrix34_t pmatSeatedZeroPoseToRawTrackingPose, System.IAsyncResult result)
-    // Offset: 0x1E2A788
+    // Offset: 0x1B7D3EC
     bool EndInvoke(Valve::VR::HmdMatrix34_t& pmatSeatedZeroPoseToRawTrackingPose, System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperoneSetup/_GetLiveSeatedZeroPoseToRawTrackingPose
 }

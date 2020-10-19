@@ -24,72 +24,72 @@ namespace Org::BouncyCastle::Math::EC {
   class FpPoint : public Org::BouncyCastle::Math::EC::AbstractFpPoint {
     public:
     // protected Org.BouncyCastle.Math.EC.ECFieldElement Two(Org.BouncyCastle.Math.EC.ECFieldElement x)
-    // Offset: 0x2024F40
+    // Offset: 0x1D74BA4
     Org::BouncyCastle::Math::EC::ECFieldElement* Two(Org::BouncyCastle::Math::EC::ECFieldElement* x);
     // protected Org.BouncyCastle.Math.EC.ECFieldElement Three(Org.BouncyCastle.Math.EC.ECFieldElement x)
-    // Offset: 0x2024F60
+    // Offset: 0x1D74BC4
     Org::BouncyCastle::Math::EC::ECFieldElement* Three(Org::BouncyCastle::Math::EC::ECFieldElement* x);
     // protected Org.BouncyCastle.Math.EC.ECFieldElement Four(Org.BouncyCastle.Math.EC.ECFieldElement x)
-    // Offset: 0x2024FA0
+    // Offset: 0x1D74C04
     Org::BouncyCastle::Math::EC::ECFieldElement* Four(Org::BouncyCastle::Math::EC::ECFieldElement* x);
     // protected Org.BouncyCastle.Math.EC.ECFieldElement Eight(Org.BouncyCastle.Math.EC.ECFieldElement x)
-    // Offset: 0x2024FE0
+    // Offset: 0x1D74C44
     Org::BouncyCastle::Math::EC::ECFieldElement* Eight(Org::BouncyCastle::Math::EC::ECFieldElement* x);
     // protected Org.BouncyCastle.Math.EC.ECFieldElement CalculateJacobianModifiedW(Org.BouncyCastle.Math.EC.ECFieldElement Z, Org.BouncyCastle.Math.EC.ECFieldElement ZSquared)
-    // Offset: 0x2025140
+    // Offset: 0x1D74DA4
     Org::BouncyCastle::Math::EC::ECFieldElement* CalculateJacobianModifiedW(Org::BouncyCastle::Math::EC::ECFieldElement* Z, Org::BouncyCastle::Math::EC::ECFieldElement* ZSquared);
     // protected Org.BouncyCastle.Math.EC.ECFieldElement GetJacobianModifiedW()
-    // Offset: 0x2025290
+    // Offset: 0x1D74EF4
     Org::BouncyCastle::Math::EC::ECFieldElement* GetJacobianModifiedW();
     // protected Org.BouncyCastle.Math.EC.FpPoint TwiceJacobianModified(System.Boolean calculateW)
-    // Offset: 0x2025340
+    // Offset: 0x1D74FA4
     Org::BouncyCastle::Math::EC::FpPoint* TwiceJacobianModified(bool calculateW);
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, System.Boolean withCompression)
-    // Offset: 0x202033C
+    // Offset: 0x1D6FFA0
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractFpPoint
     // Base method: System.Void AbstractFpPoint::.ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, System.Boolean withCompression)
     // Base method: System.Void ECPointBase::.ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, System.Boolean withCompression)
     // Base method: System.Void ECPoint::.ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, System.Boolean withCompression)
     static FpPoint* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Boolean withCompression)
-    // Offset: 0x2020898
+    // Offset: 0x1D704FC
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractFpPoint
     // Base method: System.Void AbstractFpPoint::.ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Boolean withCompression)
     // Base method: System.Void ECPointBase::.ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Boolean withCompression)
     // Base method: System.Void ECPoint::.ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Boolean withCompression)
     static FpPoint* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y, ::Array<Org::BouncyCastle::Math::EC::ECFieldElement*>* zs, bool withCompression);
     // public override Org.BouncyCastle.Math.EC.ECFieldElement GetZCoord(System.Int32 index)
-    // Offset: 0x2022878
+    // Offset: 0x1D724DC
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint
     // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECPoint::GetZCoord(System.Int32 index)
     Org::BouncyCastle::Math::EC::ECFieldElement* GetZCoord(int index);
     // public override Org.BouncyCastle.Math.EC.ECPoint Add(Org.BouncyCastle.Math.EC.ECPoint b)
-    // Offset: 0x20228DC
+    // Offset: 0x1D72540
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECPoint::Add(Org.BouncyCastle.Math.EC.ECPoint b)
     Org::BouncyCastle::Math::EC::ECPoint* Add(Org::BouncyCastle::Math::EC::ECPoint* b);
     // public override Org.BouncyCastle.Math.EC.ECPoint Twice()
-    // Offset: 0x2023474
+    // Offset: 0x1D730D8
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECPoint::Twice()
     Org::BouncyCastle::Math::EC::ECPoint* Twice();
     // public override Org.BouncyCastle.Math.EC.ECPoint TwicePlus(Org.BouncyCastle.Math.EC.ECPoint b)
-    // Offset: 0x2023EF8
+    // Offset: 0x1D73B5C
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECPoint::TwicePlus(Org.BouncyCastle.Math.EC.ECPoint b)
     Org::BouncyCastle::Math::EC::ECPoint* TwicePlus(Org::BouncyCastle::Math::EC::ECPoint* b);
     // public override Org.BouncyCastle.Math.EC.ECPoint ThreeTimes()
-    // Offset: 0x2024374
+    // Offset: 0x1D73FD8
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECPoint::ThreeTimes()
     Org::BouncyCastle::Math::EC::ECPoint* ThreeTimes();
     // public override Org.BouncyCastle.Math.EC.ECPoint TimesPow2(System.Int32 e)
-    // Offset: 0x202475C
+    // Offset: 0x1D743C0
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECPoint::TimesPow2(System.Int32 e)
     Org::BouncyCastle::Math::EC::ECPoint* TimesPow2(int e);
     // public override Org.BouncyCastle.Math.EC.ECPoint Negate()
-    // Offset: 0x2025020
+    // Offset: 0x1D74C84
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECPoint::Negate()
     Org::BouncyCastle::Math::EC::ECPoint* Negate();

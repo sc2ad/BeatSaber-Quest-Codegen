@@ -52,41 +52,41 @@ namespace RootMotion {
     // Offset: 0xA8
     int rootChildIndex;
     // private System.Void Awake()
-    // Offset: 0x18F5B34
+    // Offset: 0x169BF58
     void Awake();
     // private System.Boolean IsIgnored(UnityEngine.Transform t)
-    // Offset: 0x18F5D64
+    // Offset: 0x169C188
     bool IsIgnored(UnityEngine::Transform* t);
     // private System.Boolean BakePosition(UnityEngine.Transform t)
-    // Offset: 0x18F5E3C
+    // Offset: 0x169C260
     bool BakePosition(UnityEngine::Transform* t);
     // protected override UnityEngine.Transform GetCharacterRoot()
-    // Offset: 0x18F5F14
+    // Offset: 0x169C338
     // Implemented from: RootMotion.Baker
     // Base method: UnityEngine.Transform Baker::GetCharacterRoot()
     UnityEngine::Transform* GetCharacterRoot();
     // protected override System.Void OnStartBaking()
-    // Offset: 0x18F5F1C
+    // Offset: 0x169C340
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnStartBaking()
     void OnStartBaking();
     // protected override System.Void OnSetLoopFrame(System.Single time)
-    // Offset: 0x18F602C
+    // Offset: 0x169C450
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetLoopFrame(System.Single time)
     void OnSetLoopFrame(float time);
     // protected override System.Void OnSetCurves(ref UnityEngine.AnimationClip clip)
-    // Offset: 0x18F60A8
+    // Offset: 0x169C4CC
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetCurves(ref UnityEngine.AnimationClip clip)
     void OnSetCurves(UnityEngine::AnimationClip*& clip);
     // protected override System.Void OnSetKeyframes(System.Single time, System.Boolean lastFrame)
-    // Offset: 0x18F6124
+    // Offset: 0x169C548
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetKeyframes(System.Single time, System.Boolean lastFrame)
     void OnSetKeyframes(float time, bool lastFrame);
     // public System.Void .ctor()
-    // Offset: 0x18F61A0
+    // Offset: 0x169C5C4
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

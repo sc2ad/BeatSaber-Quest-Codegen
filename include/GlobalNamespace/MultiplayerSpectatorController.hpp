@@ -72,46 +72,46 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_spectatingSpotDidChangeEvent(System.Action`1<IMultiplayerSpectatingSpot> value)
-    // Offset: 0xF06570
+    // Offset: 0x1FDB424
     void add_spectatingSpotDidChangeEvent(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
     // public System.Void remove_spectatingSpotDidChangeEvent(System.Action`1<IMultiplayerSpectatingSpot> value)
-    // Offset: 0xF0679C
+    // Offset: 0x1FDB650
     void remove_spectatingSpotDidChangeEvent(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
     // public IMultiplayerSpectatingSpot get_currentSpot()
-    // Offset: 0xF06914
+    // Offset: 0x1FDB7C8
     GlobalNamespace::IMultiplayerSpectatingSpot* get_currentSpot();
     // protected System.Void Awake()
-    // Offset: 0xF0691C
+    // Offset: 0x1FDB7D0
     void Awake();
     // protected System.Void Start()
-    // Offset: 0xF0694C
+    // Offset: 0x1FDB800
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF069E0
+    // Offset: 0x1FDB894
     void OnDestroy();
     // public System.Void SwitchToDefaultSpot()
-    // Offset: 0xF00894
+    // Offset: 0x1FD5748
     void SwitchToDefaultSpot();
     // public System.Void SwitchToPrev()
-    // Offset: 0xF068C0
+    // Offset: 0x1FDB774
     void SwitchToPrev();
     // public System.Void SwitchToNext()
-    // Offset: 0xF0685C
+    // Offset: 0x1FDB710
     void SwitchToNext();
     // private System.Collections.IEnumerator SwitchToDefaultSpotWithFadeCoroutine()
-    // Offset: 0xF06DB4
+    // Offset: 0x1FDBC68
     System::Collections::IEnumerator* SwitchToDefaultSpotWithFadeCoroutine();
     // private System.Collections.IEnumerator SwitchToDefaultSpotCoroutine()
-    // Offset: 0xF06ABC
+    // Offset: 0x1FDB970
     System::Collections::IEnumerator* SwitchToDefaultSpotCoroutine();
     // private System.Void SwitchToSpectatingSpot(IMultiplayerSpectatingSpot spectatingSpot)
-    // Offset: 0xF06B38
+    // Offset: 0x1FDB9EC
     void SwitchToSpectatingSpot(GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
     // private System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0xF06E88
+    // Offset: 0x1FDBD3C
     void HandleStateChanged(GlobalNamespace::MultiplayerController::State state);
     // public System.Void .ctor()
-    // Offset: 0xF06EC0
+    // Offset: 0x1FDBD74
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

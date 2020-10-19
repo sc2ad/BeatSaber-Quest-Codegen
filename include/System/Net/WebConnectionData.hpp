@@ -60,22 +60,22 @@ namespace System::Net {
     // Offset: 0x50
     System::Net::ReadState readState;
     // public System.Void .ctor(System.Net.HttpWebRequest request)
-    // Offset: 0x13BCDC4
+    // Offset: 0x1191500
     static WebConnectionData* New_ctor(System::Net::HttpWebRequest* request);
     // public System.Net.HttpWebRequest get_request()
-    // Offset: 0x13BF7DC
+    // Offset: 0x1193F18
     System::Net::HttpWebRequest* get_request();
     // public System.Void set_request(System.Net.HttpWebRequest value)
-    // Offset: 0x13BF7E4
+    // Offset: 0x1193F20
     void set_request(System::Net::HttpWebRequest* value);
     // public System.Net.ReadState get_ReadState()
-    // Offset: 0x13BF7EC
+    // Offset: 0x1193F28
     System::Net::ReadState get_ReadState();
     // public System.Void set_ReadState(System.Net.ReadState value)
-    // Offset: 0x13BC0F4
+    // Offset: 0x1190830
     void set_ReadState(System::Net::ReadState value);
     // public System.Void .ctor()
-    // Offset: 0x13B8D08
+    // Offset: 0x118D444
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static WebConnectionData* New_ctor();

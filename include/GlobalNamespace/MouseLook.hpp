@@ -54,25 +54,25 @@ namespace GlobalNamespace {
     // Offset: 0x50
     bool cursorIsLocked;
     // public System.Void Init(UnityEngine.Transform character, UnityEngine.Transform camera)
-    // Offset: 0xFC71AC
+    // Offset: 0x205BD2C
     void Init(UnityEngine::Transform* character, UnityEngine::Transform* camera);
     // public System.Void LookRotation(UnityEngine.Transform character, UnityEngine.Transform camera)
-    // Offset: 0xFC7244
+    // Offset: 0x205BDC4
     void LookRotation(UnityEngine::Transform* character, UnityEngine::Transform* camera);
     // public System.Void SetCursorLock(System.Boolean value)
-    // Offset: 0xFC75F4
+    // Offset: 0x205C174
     void SetCursorLock(bool value);
     // public System.Void UpdateCursorLock()
-    // Offset: 0xFC75E4
+    // Offset: 0x205C164
     void UpdateCursorLock();
     // private System.Void InternalLockUpdate()
-    // Offset: 0xFC7628
+    // Offset: 0x205C1A8
     void InternalLockUpdate();
     // private UnityEngine.Quaternion ClampRotationAroundXAxis(UnityEngine.Quaternion q)
-    // Offset: 0xFC751C
+    // Offset: 0x205C09C
     UnityEngine::Quaternion ClampRotationAroundXAxis(UnityEngine::Quaternion q);
     // public System.Void .ctor()
-    // Offset: 0xFC76A4
+    // Offset: 0x205C224
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MouseLook* New_ctor();

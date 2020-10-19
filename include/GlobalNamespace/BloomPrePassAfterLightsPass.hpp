@@ -33,22 +33,22 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.List`1<BloomPrePassAfterLightsPass> _bloomPrePassAfterLightsPassList
     static void _set__bloomPrePassAfterLightsPassList(System::Collections::Generic::List_1<GlobalNamespace::BloomPrePassAfterLightsPass*>* value);
     // static public System.Collections.Generic.List`1<BloomPrePassAfterLightsPass> get_bloomPrePassAfterLightsPassList()
-    // Offset: 0x1FA81EC
+    // Offset: 0x1CF8E50
     static System::Collections::Generic::List_1<GlobalNamespace::BloomPrePassAfterLightsPass*>* get_bloomPrePassAfterLightsPassList();
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x1FA8254
+    // Offset: 0x1CF8EB8
     static void NoDomainReloadInit();
     // protected System.Void OnEnable()
-    // Offset: 0x1FA82E4
+    // Offset: 0x1CF8F48
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1FA8368
+    // Offset: 0x1CF8FCC
     void OnDisable();
     // public System.Void Render(UnityEngine.RenderTexture dest, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix)
     // Offset: 0xFFFFFFFF
     void Render(UnityEngine::RenderTexture* dest, UnityEngine::Matrix4x4 viewMatrix, UnityEngine::Matrix4x4 projectionMatrix);
     // protected System.Void .ctor()
-    // Offset: 0x1FA83EC
+    // Offset: 0x1CF9050
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BloomPrePassAfterLightsPass* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1FA83F4
+    // Offset: 0x1CF9058
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

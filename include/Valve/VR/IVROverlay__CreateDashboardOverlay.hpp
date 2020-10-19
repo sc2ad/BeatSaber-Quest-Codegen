@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVROverlay::_CreateDashboardOverlay : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1E3796C
+    // Offset: 0x1B8A5D0
     static IVROverlay::_CreateDashboardOverlay* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(System.String pchOverlayKey, System.String pchOverlayFriendlyName, ref System.UInt64 pMainHandle, ref System.UInt64 pThumbnailHandle)
-    // Offset: 0x1E37980
+    // Offset: 0x1B8A5E4
     Valve::VR::EVROverlayError Invoke(::Il2CppString* pchOverlayKey, ::Il2CppString* pchOverlayFriendlyName, uint64_t& pMainHandle, uint64_t& pThumbnailHandle);
     // public System.IAsyncResult BeginInvoke(System.String pchOverlayKey, System.String pchOverlayFriendlyName, ref System.UInt64 pMainHandle, ref System.UInt64 pThumbnailHandle, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1E37DD4
+    // Offset: 0x1B8AA38
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchOverlayKey, ::Il2CppString* pchOverlayFriendlyName, uint64_t& pMainHandle, uint64_t& pThumbnailHandle, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(ref System.UInt64 pMainHandle, ref System.UInt64 pThumbnailHandle, System.IAsyncResult result)
-    // Offset: 0x1E37E94
+    // Offset: 0x1B8AAF8
     Valve::VR::EVROverlayError EndInvoke(uint64_t& pMainHandle, uint64_t& pThumbnailHandle, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_CreateDashboardOverlay
 }

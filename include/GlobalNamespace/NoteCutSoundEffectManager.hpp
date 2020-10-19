@@ -128,34 +128,34 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kDenseNotesVolumeMul
     static void _set_kDenseNotesVolumeMul(float value);
     // public System.Boolean get_handleWrongSaberTypeAsGood()
-    // Offset: 0x10A8C60
+    // Offset: 0x20F4C78
     bool get_handleWrongSaberTypeAsGood();
     // public System.Void set_handleWrongSaberTypeAsGood(System.Boolean value)
-    // Offset: 0x10A8C68
+    // Offset: 0x20F4C80
     void set_handleWrongSaberTypeAsGood(bool value);
     // protected System.Void Start()
-    // Offset: 0x10A8C74
+    // Offset: 0x20F4C8C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10A8EB0
+    // Offset: 0x20F4EC8
     void OnDestroy();
     // private System.Void HandleNoteWasSpawned(NoteController noteController)
-    // Offset: 0x10A8FA0
+    // Offset: 0x20F4FB8
     void HandleNoteWasSpawned(GlobalNamespace::NoteController* noteController);
     // private System.Void HandleNoteWasCut(NoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0x10A9430
+    // Offset: 0x20F5448
     void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // private System.Void HandleCutSoundEffectDidFinish(NoteCutSoundEffect cutSoundEffect)
-    // Offset: 0x10A954C
+    // Offset: 0x20F5564
     void HandleCutSoundEffectDidFinish(GlobalNamespace::NoteCutSoundEffect* cutSoundEffect);
     // public System.Void Pause()
-    // Offset: 0x10A95F8
+    // Offset: 0x20F5610
     void Pause();
     // public System.Void Resume()
-    // Offset: 0x10A96F4
+    // Offset: 0x20F570C
     void Resume();
     // public System.Void .ctor()
-    // Offset: 0x10A983C
+    // Offset: 0x20F5854
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

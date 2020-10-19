@@ -95,57 +95,57 @@ namespace GlobalNamespace {
     // Offset: 0x110
     bool showCredits;
     // public System.Void add_didFinishEvent(System.Action`1<CampaignFlowCoordinator> value)
-    // Offset: 0xF1BA3C
+    // Offset: 0x1FAF098
     void add_didFinishEvent(System::Action_1<GlobalNamespace::CampaignFlowCoordinator*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<CampaignFlowCoordinator> value)
-    // Offset: 0xF1BAE4
+    // Offset: 0x1FAF140
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::CampaignFlowCoordinator*>* value);
     // private System.Void HandleMissionSelectionNavigationControllerDidPressPlayButton(MissionSelectionNavigationController viewController)
-    // Offset: 0xF1C028
+    // Offset: 0x1FAF684
     void HandleMissionSelectionNavigationControllerDidPressPlayButton(GlobalNamespace::MissionSelectionNavigationController* viewController);
     // private System.Void HandleMissionHelpViewControllerDidFinish(MissionHelpViewController viewController)
-    // Offset: 0xF1C2E8
+    // Offset: 0x1FAF944
     void HandleMissionHelpViewControllerDidFinish(GlobalNamespace::MissionHelpViewController* viewController);
     // private System.Void HandleMissionResultsViewControllerContinueButtonPressed(MissionResultsViewController viewController)
-    // Offset: 0xF1C3B4
+    // Offset: 0x1FAFA10
     void HandleMissionResultsViewControllerContinueButtonPressed(GlobalNamespace::MissionResultsViewController* viewController);
     // private System.Void HandleMissionResultsViewControllerRetryButtonPressed(MissionResultsViewController viewController)
-    // Offset: 0xF1C460
+    // Offset: 0x1FAFABC
     void HandleMissionResultsViewControllerRetryButtonPressed(GlobalNamespace::MissionResultsViewController* viewController);
     // private System.Void StartLevel(System.Action beforeSceneSwitchCallback)
-    // Offset: 0xF1C164
+    // Offset: 0x1FAF7C0
     void StartLevel(System::Action* beforeSceneSwitchCallback);
     // private System.Void HandleMissionLevelSceneDidFinish(MissionLevelScenesTransitionSetupDataSO missionLevelScenesTransitionSetupData, MissionCompletionResults missionCompletionResults)
-    // Offset: 0xF1C540
+    // Offset: 0x1FAFB9C
     void HandleMissionLevelSceneDidFinish(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData, GlobalNamespace::MissionCompletionResults* missionCompletionResults);
     // private System.Void <HandleMissionResultsViewControllerContinueButtonPressed>b__21_0()
-    // Offset: 0xF1C7D8
+    // Offset: 0x1FAFE34
     void $HandleMissionResultsViewControllerContinueButtonPressed$b__21_0();
     // private System.Void <HandleMissionResultsViewControllerContinueButtonPressed>b__21_1(System.Boolean presented)
-    // Offset: 0xF1C86C
+    // Offset: 0x1FAFEC8
     void $HandleMissionResultsViewControllerContinueButtonPressed$b__21_1(bool presented);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF1BB8C
+    // Offset: 0x1FAF1E8
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0xF1BDA0
+    // Offset: 0x1FAF3FC
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
-    // Offset: 0xF1BF2C
+    // Offset: 0x1FAF588
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
     void TopViewControllerWillChange(HMUI::ViewController* oldViewController, HMUI::ViewController* newViewController, HMUI::ViewController::AnimationType animationType);
     // protected override System.Void BackButtonWasPressed(HMUI.ViewController topViewController)
-    // Offset: 0xF1C724
+    // Offset: 0x1FAFD80
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::BackButtonWasPressed(HMUI.ViewController topViewController)
     void BackButtonWasPressed(HMUI::ViewController* topViewController);
     // public System.Void .ctor()
-    // Offset: 0xF1C7D0
+    // Offset: 0x1FAFE2C
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

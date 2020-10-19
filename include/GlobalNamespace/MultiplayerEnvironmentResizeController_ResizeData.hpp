@@ -40,19 +40,19 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::Array<UnityEngine::Transform*>* otherTransforms;
     // public MultiplayerEnvironmentResizeController/ResizeType get_resizeType()
-    // Offset: 0x222E1DC
+    // Offset: 0x203C7EC
     GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeType get_resizeType();
     // public System.Single get_offset()
-    // Offset: 0x222E1E4
+    // Offset: 0x203C7F4
     float get_offset();
     // public TubeBloomPrePassLight[] get_lights()
-    // Offset: 0x222E1EC
+    // Offset: 0x203C7FC
     ::Array<GlobalNamespace::TubeBloomPrePassLight*>* get_lights();
     // public UnityEngine.Transform[] get_otherTransforms()
-    // Offset: 0x222E1F4
+    // Offset: 0x203C804
     ::Array<UnityEngine::Transform*>* get_otherTransforms();
     // public System.Void .ctor()
-    // Offset: 0x222E1FC
+    // Offset: 0x203C80C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MultiplayerEnvironmentResizeController::ResizeData* New_ctor();

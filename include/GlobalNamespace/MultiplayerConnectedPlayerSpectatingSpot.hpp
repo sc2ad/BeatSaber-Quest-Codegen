@@ -63,55 +63,55 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_isObservedChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0xFCBAD4
+    // Offset: 0x206060C
     void add_isObservedChangedEvent(System::Action_1<bool>* value);
     // public System.Void remove_isObservedChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0xFCBD70
+    // Offset: 0x20608A8
     void remove_isObservedChangedEvent(System::Action_1<bool>* value);
     // private System.Void set_observable(IMultiplayerObservable value)
-    // Offset: 0xFCF23C
+    // Offset: 0x2063D74
     void set_observable(GlobalNamespace::IMultiplayerObservable* value);
     // protected System.Void Start()
-    // Offset: 0xFCF300
+    // Offset: 0x2063E38
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xFCF460
+    // Offset: 0x2063F98
     void OnDestroy();
     // private System.Void HandlePlayerStateChanged(IConnectedPlayer connectedPlayer)
-    // Offset: 0xFCF5C8
+    // Offset: 0x2064100
     void HandlePlayerStateChanged(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // public System.Void add_hasBeenRemovedEvent(System.Action`1<IMultiplayerSpectatingSpot> value)
-    // Offset: 0xFCF0EC
+    // Offset: 0x2063C24
     // Implemented from: IMultiplayerSpectatingSpot
     // Base method: System.Void IMultiplayerSpectatingSpot::add_hasBeenRemovedEvent(System.Action`1<IMultiplayerSpectatingSpot> value)
     void add_hasBeenRemovedEvent(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
     // public System.Void remove_hasBeenRemovedEvent(System.Action`1<IMultiplayerSpectatingSpot> value)
-    // Offset: 0xFCF190
+    // Offset: 0x2063CC8
     // Implemented from: IMultiplayerSpectatingSpot
     // Base method: System.Void IMultiplayerSpectatingSpot::remove_hasBeenRemovedEvent(System.Action`1<IMultiplayerSpectatingSpot> value)
     void remove_hasBeenRemovedEvent(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
     // public IMultiplayerObservable get_observable()
-    // Offset: 0xFCF234
+    // Offset: 0x2063D6C
     // Implemented from: IMultiplayerSpectatingSpot
     // Base method: IMultiplayerObservable IMultiplayerSpectatingSpot::get_observable()
     GlobalNamespace::IMultiplayerObservable* get_observable();
     // public System.String get_spotName()
-    // Offset: 0xFCF244
+    // Offset: 0x2063D7C
     // Implemented from: IMultiplayerSpectatingSpot
     // Base method: System.String IMultiplayerSpectatingSpot::get_spotName()
     ::Il2CppString* get_spotName();
     // public System.Boolean get_isMain()
-    // Offset: 0xFCF2F8
+    // Offset: 0x2063E30
     // Implemented from: IMultiplayerSpectatingSpot
     // Base method: System.Boolean IMultiplayerSpectatingSpot::get_isMain()
     bool get_isMain();
     // public System.Void SetIsObserved(System.Boolean isObserved)
-    // Offset: 0xFCF554
+    // Offset: 0x206408C
     // Implemented from: IMultiplayerSpectatingSpot
     // Base method: System.Void IMultiplayerSpectatingSpot::SetIsObserved(System.Boolean isObserved)
     void SetIsObserved(bool isObserved);
     // public System.Void .ctor()
-    // Offset: 0xFCF760
+    // Offset: 0x2064298
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -120,7 +120,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerConnectedPlayerSpectatingSpot* New_ctor();
     // private UnityEngine.Transform IMultiplayerSpectatingSpot.get_transform()
-    // Offset: 0xFCF768
+    // Offset: 0x20642A0
     // Implemented from: IMultiplayerSpectatingSpot
     // Base method: UnityEngine.Transform IMultiplayerSpectatingSpot::get_transform()
     UnityEngine::Transform* GlobalNamespace_IMultiplayerSpectatingSpot_get_transform();

@@ -26,16 +26,16 @@ namespace Oculus::Platform {
   class Message::ExtraMessageTypesHandler : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1361108
+    // Offset: 0x1136844
     static Message::ExtraMessageTypesHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Oculus.Platform.Message Invoke(System.IntPtr messageHandle, Oculus.Platform.Message/MessageType message_type)
-    // Offset: 0x136111C
+    // Offset: 0x1136858
     Oculus::Platform::Message* Invoke(System::IntPtr messageHandle, Oculus::Platform::Message::MessageType message_type);
     // public System.IAsyncResult BeginInvoke(System.IntPtr messageHandle, Oculus.Platform.Message/MessageType message_type, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x13613A0
+    // Offset: 0x1136ADC
     System::IAsyncResult* BeginInvoke(System::IntPtr messageHandle, Oculus::Platform::Message::MessageType message_type, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Oculus.Platform.Message EndInvoke(System.IAsyncResult result)
-    // Offset: 0x136144C
+    // Offset: 0x1136B88
     Oculus::Platform::Message* EndInvoke(System::IAsyncResult* result);
   }; // Oculus.Platform.Message/ExtraMessageTypesHandler
 }

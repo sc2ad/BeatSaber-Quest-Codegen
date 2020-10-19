@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRSystem::_GetTrackedDeviceIndexForControllerRole : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F5EE90
+    // Offset: 0x1CB0AF4
     static IVRSystem::_GetTrackedDeviceIndexForControllerRole* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(Valve.VR.ETrackedControllerRole unDeviceType)
-    // Offset: 0x1F5EEA4
+    // Offset: 0x1CB0B08
     uint Invoke(Valve::VR::ETrackedControllerRole unDeviceType);
     // public System.IAsyncResult BeginInvoke(Valve.VR.ETrackedControllerRole unDeviceType, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F5F118
+    // Offset: 0x1CB0D7C
     System::IAsyncResult* BeginInvoke(Valve::VR::ETrackedControllerRole unDeviceType, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1F5F1A4
+    // Offset: 0x1CB0E08
     uint EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetTrackedDeviceIndexForControllerRole
 }

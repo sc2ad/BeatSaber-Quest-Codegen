@@ -44,10 +44,10 @@ namespace Zenject {
       return installMethod;
     }
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.SubContainerCreatorBindInfo containerBindInfo, System.Action`1<Zenject.DiContainer> installMethod)
-    // Offset: 0x151E838
+    // Offset: 0x12F5060
     static SubContainerCreatorByMethod* New_ctor(Zenject::DiContainer* container, Zenject::SubContainerCreatorBindInfo* containerBindInfo, System::Action_1<Zenject::DiContainer*>* installMethod);
     // public override Zenject.DiContainer CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext context)
-    // Offset: 0x15200BC
+    // Offset: 0x12F68E4
     // Implemented from: Zenject.SubContainerCreatorByMethodBase
     // Base method: Zenject.DiContainer SubContainerCreatorByMethodBase::CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext context)
     Zenject::DiContainer* CreateSubContainer(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::InjectContext* context);

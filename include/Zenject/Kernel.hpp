@@ -44,12 +44,12 @@ namespace Zenject {
     // Offset: 0x20
     Zenject::DisposableManager* disposablesManager;
     // public System.Void Initialize()
-    // Offset: 0x15115D8
+    // Offset: 0x12E7E00
     // Implemented from: Zenject.IInitializable
     // Base method: System.Void IInitializable::Initialize()
     void Initialize();
     // public System.Void Dispose()
-    // Offset: 0x15115F4
+    // Offset: 0x12E7E1C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -57,27 +57,27 @@ namespace Zenject {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // public System.Void LateDispose()
-    // Offset: 0x1511610
+    // Offset: 0x12E7E38
     // Implemented from: Zenject.ILateDisposable
     // Base method: System.Void ILateDisposable::LateDispose()
     void LateDispose();
     // public System.Void Tick()
-    // Offset: 0x151162C
+    // Offset: 0x12E7E54
     // Implemented from: Zenject.ITickable
     // Base method: System.Void ITickable::Tick()
     void Tick();
     // public System.Void LateTick()
-    // Offset: 0x15116C8
+    // Offset: 0x12E7EF0
     // Implemented from: Zenject.ILateTickable
     // Base method: System.Void ILateTickable::LateTick()
     void LateTick();
     // public System.Void FixedTick()
-    // Offset: 0x1511764
+    // Offset: 0x12E7F8C
     // Implemented from: Zenject.IFixedTickable
     // Base method: System.Void IFixedTickable::FixedTick()
     void FixedTick();
     // public System.Void .ctor()
-    // Offset: 0x1511800
+    // Offset: 0x12E8028
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Kernel* New_ctor();

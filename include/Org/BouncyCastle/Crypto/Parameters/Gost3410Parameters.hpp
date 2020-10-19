@@ -38,30 +38,30 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x28
     Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters* validation;
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger p, Org.BouncyCastle.Math.BigInteger q, Org.BouncyCastle.Math.BigInteger a)
-    // Offset: 0x10F2194
+    // Offset: 0xF4CE24
     static Gost3410Parameters* New_ctor(Org::BouncyCastle::Math::BigInteger* p, Org::BouncyCastle::Math::BigInteger* q, Org::BouncyCastle::Math::BigInteger* a);
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger p, Org.BouncyCastle.Math.BigInteger q, Org.BouncyCastle.Math.BigInteger a, Org.BouncyCastle.Crypto.Parameters.Gost3410ValidationParameters validation)
-    // Offset: 0x10F219C
+    // Offset: 0xF4CE2C
     static Gost3410Parameters* New_ctor(Org::BouncyCastle::Math::BigInteger* p, Org::BouncyCastle::Math::BigInteger* q, Org::BouncyCastle::Math::BigInteger* a, Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters* validation);
     // public Org.BouncyCastle.Math.BigInteger get_P()
-    // Offset: 0x10F22C4
+    // Offset: 0xF4CF54
     Org::BouncyCastle::Math::BigInteger* get_P();
     // public Org.BouncyCastle.Math.BigInteger get_Q()
-    // Offset: 0x10F22CC
+    // Offset: 0xF4CF5C
     Org::BouncyCastle::Math::BigInteger* get_Q();
     // public Org.BouncyCastle.Math.BigInteger get_A()
-    // Offset: 0x10F22D4
+    // Offset: 0xF4CF64
     Org::BouncyCastle::Math::BigInteger* get_A();
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.Gost3410Parameters other)
-    // Offset: 0x10F238C
+    // Offset: 0xF4D01C
     bool Equals(Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x10F22DC
+    // Offset: 0xF4CF6C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x10F2410
+    // Offset: 0xF4D0A0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

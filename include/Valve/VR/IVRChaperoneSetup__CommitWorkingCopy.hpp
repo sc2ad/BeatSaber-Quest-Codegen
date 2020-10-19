@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRChaperoneSetup::_CommitWorkingCopy : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x15392A0
+    // Offset: 0x130FAC8
     static IVRChaperoneSetup::_CommitWorkingCopy* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(Valve.VR.EChaperoneConfigFile configFile)
-    // Offset: 0x1532530
+    // Offset: 0x1308D58
     bool Invoke(Valve::VR::EChaperoneConfigFile configFile);
     // public System.IAsyncResult BeginInvoke(Valve.VR.EChaperoneConfigFile configFile, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x15392B4
+    // Offset: 0x130FADC
     System::IAsyncResult* BeginInvoke(Valve::VR::EChaperoneConfigFile configFile, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1539340
+    // Offset: 0x130FB68
     bool EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperoneSetup/_CommitWorkingCopy
 }

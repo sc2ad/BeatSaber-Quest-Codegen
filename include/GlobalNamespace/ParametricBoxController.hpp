@@ -87,22 +87,22 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _widthEndID
     static void _set__widthEndID(int value);
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x1FB0FB4
+    // Offset: 0x1D01C18
     static void NoDomainReloadInit();
     // protected System.Void Awake()
-    // Offset: 0x1FB1020
+    // Offset: 0x1D01C84
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x1FB1040
+    // Offset: 0x1D01CA4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1FB1358
+    // Offset: 0x1D01FBC
     void OnDisable();
     // public System.Void Refresh()
-    // Offset: 0x1FB1074
+    // Offset: 0x1D01CD8
     void Refresh();
     // public System.Void .ctor()
-    // Offset: 0x1FB1378
+    // Offset: 0x1D01FDC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -111,7 +111,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ParametricBoxController* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1FB139C
+    // Offset: 0x1D02000
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

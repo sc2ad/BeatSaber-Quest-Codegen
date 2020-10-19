@@ -35,16 +35,16 @@ namespace Valve::VR {
   class IVROverlay::_SetOverlayTransformAbsolute : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F4AAE4
+    // Offset: 0x1C9C748
     static IVROverlay::_SetOverlayTransformAbsolute* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, Valve.VR.ETrackingUniverseOrigin eTrackingOrigin, ref Valve.VR.HmdMatrix34_t pmatTrackingOriginToOverlayTransform)
-    // Offset: 0x1F4AAF8
+    // Offset: 0x1C9C75C
     Valve::VR::EVROverlayError Invoke(uint64_t ulOverlayHandle, Valve::VR::ETrackingUniverseOrigin eTrackingOrigin, Valve::VR::HmdMatrix34_t& pmatTrackingOriginToOverlayTransform);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, Valve.VR.ETrackingUniverseOrigin eTrackingOrigin, ref Valve.VR.HmdMatrix34_t pmatTrackingOriginToOverlayTransform, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F4AD90
+    // Offset: 0x1C9C9F4
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, Valve::VR::ETrackingUniverseOrigin eTrackingOrigin, Valve::VR::HmdMatrix34_t& pmatTrackingOriginToOverlayTransform, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(ref Valve.VR.HmdMatrix34_t pmatTrackingOriginToOverlayTransform, System.IAsyncResult result)
-    // Offset: 0x1F4AE64
+    // Offset: 0x1C9CAC8
     Valve::VR::EVROverlayError EndInvoke(Valve::VR::HmdMatrix34_t& pmatTrackingOriginToOverlayTransform, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_SetOverlayTransformAbsolute
 }

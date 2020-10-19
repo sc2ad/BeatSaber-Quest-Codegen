@@ -45,15 +45,15 @@ namespace GlobalNamespace {
     // Offset: 0x90
     UnityEngine::Color color;
     // public System.Void InitAndPresent(System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion rotation, UnityEngine.Sprite sprite, UnityEngine.Material material, UnityEngine.Color color, System.Boolean shake)
-    // Offset: 0xF6D970
+    // Offset: 0x2025AB0
     void InitAndPresent(float duration, UnityEngine::Vector3 targetPos, UnityEngine::Quaternion rotation, UnityEngine::Sprite* sprite, UnityEngine::Material* material, UnityEngine::Color color, bool shake);
     // protected override System.Void ManualUpdate(System.Single t)
-    // Offset: 0xF6DA34
+    // Offset: 0x2025B74
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::ManualUpdate(System.Single t)
     void ManualUpdate(float t);
     // public System.Void .ctor()
-    // Offset: 0xF6DAA8
+    // Offset: 0x2025BE8
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

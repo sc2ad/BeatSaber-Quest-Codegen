@@ -112,40 +112,40 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnEnable()
-    // Offset: 0x223E7E8
+    // Offset: 0x204CDF8
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x223E914
+    // Offset: 0x204CF24
     void OnDisable();
     // protected System.Void Start()
-    // Offset: 0x223E9C8
+    // Offset: 0x204CFD8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x223EAD0
+    // Offset: 0x204D0E0
     void OnDestroy();
     // private System.Void DisconnectButtonPressed()
-    // Offset: 0x223EC00
+    // Offset: 0x204D210
     void DisconnectButtonPressed();
     // private System.Void DetailsToggleValueChanged(System.Boolean isOn)
-    // Offset: 0x223EC40
+    // Offset: 0x204D250
     void DetailsToggleValueChanged(bool isOn);
     // private System.Void HandleDisconnectPromptViewDidViewFinish(System.Boolean disconnect)
-    // Offset: 0x223EC60
+    // Offset: 0x204D270
     void HandleDisconnectPromptViewDidViewFinish(bool disconnect);
     // private System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x223ED1C
+    // Offset: 0x204D32C
     void HandleStateChanged(GlobalNamespace::MultiplayerController::State state);
     // private System.Void <HandleDisconnectPromptViewDidViewFinish>b__22_0()
-    // Offset: 0x223EF50
+    // Offset: 0x204D560
     void $HandleDisconnectPromptViewDidViewFinish$b__22_0();
     // private System.Void <HandleStateChanged>b__23_0(System.Single val)
-    // Offset: 0x223EF70
+    // Offset: 0x204D580
     void $HandleStateChanged$b__23_0(float val);
     // private System.Void <HandleStateChanged>b__23_1()
-    // Offset: 0x223EF8C
+    // Offset: 0x204D59C
     void $HandleStateChanged$b__23_1();
     // public System.Void .ctor()
-    // Offset: 0x223EEB0
+    // Offset: 0x204D4C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -34,47 +34,47 @@ namespace Mono::Security::Protocol::Ntlm {
     // Set static field: static private System.Byte[] nullEncMagic
     static void _set_nullEncMagic(::Array<uint8_t>* value);
     // public System.Void .ctor(System.String password, System.Byte[] challenge)
-    // Offset: 0x1B87C80
+    // Offset: 0x1929E74
     static ChallengeResponse* New_ctor(::Il2CppString* password, ::Array<uint8_t>* challenge);
     // public System.Void set_Password(System.String value)
-    // Offset: 0x1B87CC4
+    // Offset: 0x1929EB8
     void set_Password(::Il2CppString* value);
     // public System.Void set_Challenge(System.Byte[] value)
-    // Offset: 0x1B880F0
+    // Offset: 0x192A2E4
     void set_Challenge(::Array<uint8_t>* value);
     // public System.Byte[] get_LM()
-    // Offset: 0x1B8842C
+    // Offset: 0x192A620
     ::Array<uint8_t>* get_LM();
     // public System.Byte[] get_NT()
-    // Offset: 0x1B887AC
+    // Offset: 0x192A9A0
     ::Array<uint8_t>* get_NT();
     // private System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1B88838
+    // Offset: 0x192AA2C
     void Dispose(bool disposing);
     // private System.Byte[] GetResponse(System.Byte[] pwd)
-    // Offset: 0x1B884B8
+    // Offset: 0x192A6AC
     ::Array<uint8_t>* GetResponse(::Array<uint8_t>* pwd);
     // private System.Byte[] PrepareDESKey(System.Byte[] key56bits, System.Int32 position)
-    // Offset: 0x1B888B0
+    // Offset: 0x192AAA4
     ::Array<uint8_t>* PrepareDESKey(::Array<uint8_t>* key56bits, int position);
     // private System.Byte[] PasswordToKey(System.String password, System.Int32 position)
-    // Offset: 0x1B882E0
+    // Offset: 0x192A4D4
     ::Array<uint8_t>* PasswordToKey(::Il2CppString* password, int position);
     // static private System.Void .cctor()
-    // Offset: 0x1B88AB8
+    // Offset: 0x192ACAC
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1B87BF4
+    // Offset: 0x1929DE8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ChallengeResponse* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x1B881F8
+    // Offset: 0x192A3EC
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public System.Void Dispose()
-    // Offset: 0x1B8826C
+    // Offset: 0x192A460
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

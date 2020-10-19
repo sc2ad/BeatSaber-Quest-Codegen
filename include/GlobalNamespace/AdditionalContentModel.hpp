@@ -146,22 +146,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didInvalidateDataEvent(System.Action value)
-    // Offset: 0xFAB574
+    // Offset: 0x2029C24
     void add_didInvalidateDataEvent(System::Action* value);
     // public System.Void remove_didInvalidateDataEvent(System.Action value)
-    // Offset: 0xFAB618
+    // Offset: 0x2029CC8
     void remove_didInvalidateDataEvent(System::Action* value);
     // protected System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0xFAB6BC
+    // Offset: 0x2029D6C
     void OnApplicationFocus(bool hasFocus);
     // protected System.Void InvalidateData()
-    // Offset: 0xFAB6F8
+    // Offset: 0x2029DA8
     void InvalidateData();
     // public System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> GetLevelEntitlementStatusAsync(System.String levelId, System.Threading.CancellationToken token)
-    // Offset: 0xFAB738
+    // Offset: 0x2029DE8
     System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* GetLevelEntitlementStatusAsync(::Il2CppString* levelId, System::Threading::CancellationToken token);
     // public System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> GetPackEntitlementStatusAsync(System.String levelPackId, System.Threading.CancellationToken token)
-    // Offset: 0xFAB89C
+    // Offset: 0x2029F4C
     System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* GetPackEntitlementStatusAsync(::Il2CppString* levelPackId, System::Threading::CancellationToken token);
     // protected System.Void InvalidateDataInternal()
     // Offset: 0xFFFFFFFF
@@ -182,7 +182,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>* OpenLevelPackProductStoreAsync(::Il2CppString* levelPackId, System::Threading::CancellationToken token);
     // protected System.Void .ctor()
-    // Offset: 0xFABA00
+    // Offset: 0x202A0B0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

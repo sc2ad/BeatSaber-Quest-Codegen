@@ -30,18 +30,18 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x40
     ::Il2CppString* descriptionText;
     // protected System.Void .ctor(System.String expected)
-    // Offset: 0x15E9C84
+    // Offset: 0x13C04AC
     static StringConstraint* New_ctor(::Il2CppString* expected);
     // protected System.Boolean Matches(System.String actual)
     // Offset: 0xFFFFFFFF
     bool Matches(::Il2CppString* actual);
     // public override System.String get_Description()
-    // Offset: 0x15EA280
+    // Offset: 0x13C0AA8
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: System.String Constraint::get_Description()
     ::Il2CppString* get_Description();
     // public override NUnit.Framework.Constraints.ConstraintResult ApplyTo(System.Object actual)
-    // Offset: 0x15EA340
+    // Offset: 0x13C0B68
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: NUnit.Framework.Constraints.ConstraintResult Constraint::ApplyTo(System.Object actual)
     NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::Il2CppObject* actual);

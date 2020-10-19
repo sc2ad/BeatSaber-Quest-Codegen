@@ -87,33 +87,33 @@ namespace GlobalNamespace {
     // Offset: 0x90
     System::Action_2<GlobalNamespace::SoloModeSelectionViewController*, GlobalNamespace::SoloModeSelectionViewController::MenuType>* didFinishEvent;
     // public System.Void add_didFinishEvent(System.Action`2<SoloModeSelectionViewController,SoloModeSelectionViewController/MenuType> value)
-    // Offset: 0xEF1CAC
+    // Offset: 0x1FF2AEC
     void add_didFinishEvent(System::Action_2<GlobalNamespace::SoloModeSelectionViewController*, GlobalNamespace::SoloModeSelectionViewController::MenuType>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<SoloModeSelectionViewController,SoloModeSelectionViewController/MenuType> value)
-    // Offset: 0xEF1D50
+    // Offset: 0x1FF2B90
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::SoloModeSelectionViewController*, GlobalNamespace::SoloModeSelectionViewController::MenuType>* value);
     // private System.Void HandleMenuButton(SoloModeSelectionViewController/MenuType subMenuType)
-    // Offset: 0xEF1F78
+    // Offset: 0x1FF2DB8
     void HandleMenuButton(GlobalNamespace::SoloModeSelectionViewController::MenuType subMenuType);
     // private System.Void <DidActivate>b__8_0()
-    // Offset: 0xEF1FF8
+    // Offset: 0x1FF2E38
     void $DidActivate$b__8_0();
     // private System.Void <DidActivate>b__8_1()
-    // Offset: 0xEF2000
+    // Offset: 0x1FF2E40
     void $DidActivate$b__8_1();
     // private System.Void <DidActivate>b__8_2()
-    // Offset: 0xEF2008
+    // Offset: 0x1FF2E48
     void $DidActivate$b__8_2();
     // private System.Void <DidActivate>b__8_3()
-    // Offset: 0xEF2010
+    // Offset: 0x1FF2E50
     void $DidActivate$b__8_3();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xEF1DF4
+    // Offset: 0x1FF2C34
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xEF1FF0
+    // Offset: 0x1FF2E30
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

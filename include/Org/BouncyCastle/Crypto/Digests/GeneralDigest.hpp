@@ -25,13 +25,13 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Offset: 0x20
     int64_t byteCount;
     // System.Void .ctor(Org.BouncyCastle.Crypto.Digests.GeneralDigest t)
-    // Offset: 0x1AFDE58
+    // Offset: 0x189E04C
     static GeneralDigest* New_ctor(Org::BouncyCastle::Crypto::Digests::GeneralDigest* t);
     // protected System.Void CopyIn(Org.BouncyCastle.Crypto.Digests.GeneralDigest t)
-    // Offset: 0x1AFDEEC
+    // Offset: 0x189E0E0
     void CopyIn(Org::BouncyCastle::Crypto::Digests::GeneralDigest* t);
     // public System.Void Finish()
-    // Offset: 0x1AFE1BC
+    // Offset: 0x189E3B0
     void Finish();
     // System.Void ProcessWord(System.Byte[] input, System.Int32 inOff)
     // Offset: 0xFFFFFFFF
@@ -43,27 +43,27 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Offset: 0xFFFFFFFF
     void ProcessBlock();
     // System.Void .ctor()
-    // Offset: 0x1AFDDEC
+    // Offset: 0x189DFE0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GeneralDigest* New_ctor();
     // public System.Void Update(System.Byte input)
-    // Offset: 0x1AFDF44
+    // Offset: 0x189E138
     // Implemented from: Org.BouncyCastle.Crypto.IDigest
     // Base method: System.Void IDigest::Update(System.Byte input)
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x1AFDFD8
+    // Offset: 0x189E1CC
     // Implemented from: Org.BouncyCastle.Crypto.IDigest
     // Base method: System.Void IDigest::BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
     void BlockUpdate(::Array<uint8_t>* input, int inOff, int length);
     // public System.Void Reset()
-    // Offset: 0x1AFE224
+    // Offset: 0x189E418
     // Implemented from: Org.BouncyCastle.Crypto.IDigest
     // Base method: System.Void IDigest::Reset()
     void Reset();
     // public System.Int32 GetByteLength()
-    // Offset: 0x1AFE254
+    // Offset: 0x189E448
     // Implemented from: Org.BouncyCastle.Crypto.IDigest
     // Base method: System.Int32 IDigest::GetByteLength()
     int GetByteLength();

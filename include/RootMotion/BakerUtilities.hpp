@@ -23,19 +23,19 @@ namespace RootMotion {
   class BakerUtilities : public ::Il2CppObject {
     public:
     // static public System.Void ReduceKeyframes(UnityEngine.AnimationCurve curve, System.Single maxError)
-    // Offset: 0x1AC1EC8
+    // Offset: 0x18620BC
     static void ReduceKeyframes(UnityEngine::AnimationCurve* curve, float maxError);
     // static public UnityEngine.Keyframe[] GetReducedKeyframes(UnityEngine.AnimationCurve curve, System.Single maxError)
-    // Offset: 0x1AC3414
+    // Offset: 0x1863608
     static ::Array<UnityEngine::Keyframe>* GetReducedKeyframes(UnityEngine::AnimationCurve* curve, float maxError);
     // static public System.Void SetLoopFrame(System.Single time, UnityEngine.AnimationCurve curve)
-    // Offset: 0x1AC18DC
+    // Offset: 0x1861AD0
     static void SetLoopFrame(float time, UnityEngine::AnimationCurve* curve);
     // static public System.Void SetTangentMode(UnityEngine.AnimationCurve curve)
-    // Offset: 0x1AC1F10
+    // Offset: 0x1862104
     static void SetTangentMode(UnityEngine::AnimationCurve* curve);
     // static public UnityEngine.Quaternion EnsureQuaternionContinuity(UnityEngine.Quaternion lastQ, UnityEngine.Quaternion q)
-    // Offset: 0x1AC1414
+    // Offset: 0x1861608
     static UnityEngine::Quaternion EnsureQuaternionContinuity(UnityEngine::Quaternion lastQ, UnityEngine::Quaternion q);
   }; // RootMotion.BakerUtilities
 }

@@ -14,7 +14,7 @@ namespace System::Net::Http::Headers {
   class Parser::Long : public ::Il2CppObject {
     public:
     // static public System.Boolean TryParse(System.String input, out System.Int64 result)
-    // Offset: 0x13A70F0
+    // Offset: 0x117C82C
     static bool TryParse(::Il2CppString* input, int64_t& result);
   }; // System.Net.Http.Headers.Parser/Long
 }

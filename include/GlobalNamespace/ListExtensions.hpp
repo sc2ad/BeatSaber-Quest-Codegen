@@ -46,7 +46,7 @@ namespace GlobalNamespace {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("", "ListExtensions", "ShuffleInPlace", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list));
     }
     // static private System.Void .cctor()
-    // Offset: 0x102F154
+    // Offset: 0x209603C
     static void _cctor();
   }; // ListExtensions
 }

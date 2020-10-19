@@ -40,23 +40,23 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Offset: 0x28
     bool forSigning;
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDsa signer, Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x10F8FDC
+    // Offset: 0xF53C6C
     static Gost3410DigestSigner* New_ctor(Org::BouncyCastle::Crypto::IDsa* signer, Org::BouncyCastle::Crypto::IDigest* digest);
     // public System.Void Reset()
-    // Offset: 0x10F977C
+    // Offset: 0xF5440C
     void Reset();
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x10F90D4
+    // Offset: 0xF53D64
     // Implemented from: Org.BouncyCastle.Crypto.ISigner
     // Base method: System.Void ISigner::Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x10F92DC
+    // Offset: 0xF53F6C
     // Implemented from: Org.BouncyCastle.Crypto.ISigner
     // Base method: System.Void ISigner::BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
     void BlockUpdate(::Array<uint8_t>* input, int inOff, int length);
     // public System.Byte[] GenerateSignature()
-    // Offset: 0x10F93B8
+    // Offset: 0xF54048
     // Implemented from: Org.BouncyCastle.Crypto.ISigner
     // Base method: System.Byte[] ISigner::GenerateSignature()
     ::Array<uint8_t>* GenerateSignature();

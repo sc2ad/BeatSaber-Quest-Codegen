@@ -32,28 +32,28 @@ namespace UnityEngine::Timeline {
     // Set static field: static private readonly System.Int64 kIntervalEnd
     static void _set_kIntervalEnd(int64_t value);
     // public System.Void .ctor(UnityEngine.Playables.Playable playable)
-    // Offset: 0x1617D68
+    // Offset: 0x13EE590
     static InfiniteRuntimeClip* New_ctor(UnityEngine::Playables::Playable playable);
     // static private System.Void .cctor()
-    // Offset: 0x161FAA0
+    // Offset: 0x13F62C8
     static void _cctor();
     // public override System.Int64 get_intervalStart()
-    // Offset: 0x161F954
+    // Offset: 0x13F617C
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Int64 RuntimeElement::get_intervalStart()
     int64_t get_intervalStart();
     // public override System.Int64 get_intervalEnd()
-    // Offset: 0x161F95C
+    // Offset: 0x13F6184
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Int64 RuntimeElement::get_intervalEnd()
     int64_t get_intervalEnd();
     // public override System.Void set_enable(System.Boolean value)
-    // Offset: 0x161F9C4
+    // Offset: 0x13F61EC
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::set_enable(System.Boolean value)
     void set_enable(bool value);
     // public override System.Void EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
-    // Offset: 0x161FA40
+    // Offset: 0x13F6268
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
     void EvaluateAt(double localTime, UnityEngine::Playables::FrameData frameData);

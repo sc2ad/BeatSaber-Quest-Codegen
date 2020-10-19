@@ -49,46 +49,46 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x20
     Org::BouncyCastle::Asn1::DerBitString* sig;
     // static public Org.BouncyCastle.Asn1.X509.X509CertificateStructure GetInstance(System.Object obj)
-    // Offset: 0x186A864
+    // Offset: 0x1610C88
     static Org::BouncyCastle::Asn1::X509::X509CertificateStructure* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x186A908
+    // Offset: 0x1610D2C
     static X509CertificateStructure* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public Org.BouncyCastle.Asn1.X509.TbsCertificateStructure get_TbsCertificate()
-    // Offset: 0x186AA70
+    // Offset: 0x1610E94
     Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* get_TbsCertificate();
     // public System.Int32 get_Version()
-    // Offset: 0x186AA78
+    // Offset: 0x1610E9C
     int get_Version();
     // public Org.BouncyCastle.Asn1.DerInteger get_SerialNumber()
-    // Offset: 0x186AA90
+    // Offset: 0x1610EB4
     Org::BouncyCastle::Asn1::DerInteger* get_SerialNumber();
     // public Org.BouncyCastle.Asn1.X509.X509Name get_Issuer()
-    // Offset: 0x186AAAC
+    // Offset: 0x1610ED0
     Org::BouncyCastle::Asn1::X509::X509Name* get_Issuer();
     // public Org.BouncyCastle.Asn1.X509.Time get_StartDate()
-    // Offset: 0x186AAC8
+    // Offset: 0x1610EEC
     Org::BouncyCastle::Asn1::X509::Time* get_StartDate();
     // public Org.BouncyCastle.Asn1.X509.Time get_EndDate()
-    // Offset: 0x186AAE4
+    // Offset: 0x1610F08
     Org::BouncyCastle::Asn1::X509::Time* get_EndDate();
     // public Org.BouncyCastle.Asn1.X509.X509Name get_Subject()
-    // Offset: 0x186AB00
+    // Offset: 0x1610F24
     Org::BouncyCastle::Asn1::X509::X509Name* get_Subject();
     // public Org.BouncyCastle.Asn1.X509.SubjectPublicKeyInfo get_SubjectPublicKeyInfo()
-    // Offset: 0x186AB1C
+    // Offset: 0x1610F40
     Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* get_SubjectPublicKeyInfo();
     // public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier get_SignatureAlgorithm()
-    // Offset: 0x186AB38
+    // Offset: 0x1610F5C
     Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_SignatureAlgorithm();
     // public Org.BouncyCastle.Asn1.DerBitString get_Signature()
-    // Offset: 0x186AB40
+    // Offset: 0x1610F64
     Org::BouncyCastle::Asn1::DerBitString* get_Signature();
     // public System.Byte[] GetSignatureOctets()
-    // Offset: 0x186AB48
+    // Offset: 0x1610F6C
     ::Array<uint8_t>* GetSignatureOctets();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x186AB68
+    // Offset: 0x1610F8C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

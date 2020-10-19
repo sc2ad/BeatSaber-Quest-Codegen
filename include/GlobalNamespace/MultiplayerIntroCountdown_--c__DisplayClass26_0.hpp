@@ -32,22 +32,22 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::MultiplayerIntroCountdown* $$4__this;
     // System.Void <PhaseRoutine>b__0(System.Single val)
-    // Offset: 0x2230ACC
+    // Offset: 0x203F0DC
     void $PhaseRoutine$b__0(float val);
     // System.Void <PhaseRoutine>b__1(System.Single val)
-    // Offset: 0x2230B60
+    // Offset: 0x203F170
     void $PhaseRoutine$b__1(float val);
     // System.Void <PhaseRoutine>b__2(UnityEngine.Vector3 pos)
-    // Offset: 0x2230C54
+    // Offset: 0x203F264
     void $PhaseRoutine$b__2(UnityEngine::Vector3 pos);
     // System.Void <PhaseRoutine>b__3(System.Single f)
-    // Offset: 0x2230CA8
+    // Offset: 0x203F2B8
     void $PhaseRoutine$b__3(float f);
     // System.Void <PhaseRoutine>b__4(System.Single val)
-    // Offset: 0x2230D9C
+    // Offset: 0x203F3AC
     void $PhaseRoutine$b__4(float val);
     // public System.Void .ctor()
-    // Offset: 0x2230AC4
+    // Offset: 0x203F0D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MultiplayerIntroCountdown::$$c__DisplayClass26_0* New_ctor();

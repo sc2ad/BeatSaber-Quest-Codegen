@@ -20,15 +20,15 @@ namespace System::Net {
     // Set static field: static readonly System.Net.PathList/PathListComparer StaticInstance
     static void _set_StaticInstance(System::Net::PathList::PathListComparer* value);
     // static private System.Void .cctor()
-    // Offset: 0x12CDCEC
+    // Offset: 0x10C9588
     static void _cctor();
     // private System.Int32 System.Collections.IComparer.Compare(System.Object ol, System.Object or)
-    // Offset: 0x12CDB68
+    // Offset: 0x10C9404
     // Implemented from: System.Collections.IComparer
     // Base method: System.Int32 IComparer::Compare(System.Object ol, System.Object or)
     int System_Collections_IComparer_Compare(::Il2CppObject* ol, ::Il2CppObject* _or);
     // public System.Void .ctor()
-    // Offset: 0x12CDCE4
+    // Offset: 0x10C9580
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PathList::PathListComparer* New_ctor();

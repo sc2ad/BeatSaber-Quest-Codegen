@@ -40,118 +40,118 @@ namespace LiteNetLib::Utils {
     // Set static field: static private readonly System.DateTime Epoch
     static void _set_Epoch(System::DateTime value);
     // public System.Byte[] get_Bytes()
-    // Offset: 0x2214C10
+    // Offset: 0x1F64620
     ::Array<uint8_t>* get_Bytes();
     // private System.Void set_Bytes(System.Byte[] value)
-    // Offset: 0x2214C18
+    // Offset: 0x1F64628
     void set_Bytes(::Array<uint8_t>* value);
     // public LiteNetLib.Utils.NtpLeapIndicator get_LeapIndicator()
-    // Offset: 0x2214C20
+    // Offset: 0x1F64630
     LiteNetLib::Utils::NtpLeapIndicator get_LeapIndicator();
     // public System.Int32 get_VersionNumber()
-    // Offset: 0x2214C58
+    // Offset: 0x1F64668
     int get_VersionNumber();
     // private System.Void set_VersionNumber(System.Int32 value)
-    // Offset: 0x2214C90
+    // Offset: 0x1F646A0
     void set_VersionNumber(int value);
     // public LiteNetLib.Utils.NtpMode get_Mode()
-    // Offset: 0x2214CD0
+    // Offset: 0x1F646E0
     LiteNetLib::Utils::NtpMode get_Mode();
     // private System.Void set_Mode(LiteNetLib.Utils.NtpMode value)
-    // Offset: 0x2214D08
+    // Offset: 0x1F64718
     void set_Mode(LiteNetLib::Utils::NtpMode value);
     // public System.Int32 get_Stratum()
-    // Offset: 0x2214D48
+    // Offset: 0x1F64758
     int get_Stratum();
     // public System.Int32 get_Poll()
-    // Offset: 0x2214D80
+    // Offset: 0x1F64790
     int get_Poll();
     // public System.Int32 get_Precision()
-    // Offset: 0x2214DB8
+    // Offset: 0x1F647C8
     int get_Precision();
     // public System.TimeSpan get_RootDelay()
-    // Offset: 0x2214DF0
+    // Offset: 0x1F64800
     System::TimeSpan get_RootDelay();
     // public System.TimeSpan get_RootDispersion()
-    // Offset: 0x2214E8C
+    // Offset: 0x1F6489C
     System::TimeSpan get_RootDispersion();
     // public System.UInt32 get_ReferenceId()
-    // Offset: 0x2214E94
+    // Offset: 0x1F648A4
     uint get_ReferenceId();
     // public System.Nullable`1<System.DateTime> get_ReferenceTimestamp()
-    // Offset: 0x2214F48
+    // Offset: 0x1F64958
     System::Nullable_1<System::DateTime> get_ReferenceTimestamp();
     // public System.Nullable`1<System.DateTime> get_OriginTimestamp()
-    // Offset: 0x2215074
+    // Offset: 0x1F64A84
     System::Nullable_1<System::DateTime> get_OriginTimestamp();
     // public System.Nullable`1<System.DateTime> get_ReceiveTimestamp()
-    // Offset: 0x221507C
+    // Offset: 0x1F64A8C
     System::Nullable_1<System::DateTime> get_ReceiveTimestamp();
     // public System.Nullable`1<System.DateTime> get_TransmitTimestamp()
-    // Offset: 0x2215084
+    // Offset: 0x1F64A94
     System::Nullable_1<System::DateTime> get_TransmitTimestamp();
     // private System.Void set_TransmitTimestamp(System.Nullable`1<System.DateTime> value)
-    // Offset: 0x221508C
+    // Offset: 0x1F64A9C
     void set_TransmitTimestamp(System::Nullable_1<System::DateTime> value);
     // public System.Nullable`1<System.DateTime> get_DestinationTimestamp()
-    // Offset: 0x22151D0
+    // Offset: 0x1F64BE0
     System::Nullable_1<System::DateTime> get_DestinationTimestamp();
     // private System.Void set_DestinationTimestamp(System.Nullable`1<System.DateTime> value)
-    // Offset: 0x22151DC
+    // Offset: 0x1F64BEC
     void set_DestinationTimestamp(System::Nullable_1<System::DateTime> value);
     // public System.TimeSpan get_RoundTripTime()
-    // Offset: 0x22151E4
+    // Offset: 0x1F64BF4
     System::TimeSpan get_RoundTripTime();
     // public System.TimeSpan get_CorrectionOffset()
-    // Offset: 0x2215458
+    // Offset: 0x1F64E68
     System::TimeSpan get_CorrectionOffset();
     // System.Void .ctor(System.Byte[] bytes)
-    // Offset: 0x22156A0
+    // Offset: 0x1F650B0
     static NtpPacket* New_ctor(::Array<uint8_t>* bytes);
     // static public LiteNetLib.Utils.NtpPacket FromServerResponse(System.Byte[] bytes, System.DateTime destinationTimestamp)
-    // Offset: 0x2215760
+    // Offset: 0x1F65170
     static LiteNetLib::Utils::NtpPacket* FromServerResponse(::Array<uint8_t>* bytes, System::DateTime destinationTimestamp);
     // System.Void ValidateRequest()
-    // Offset: 0x2215800
+    // Offset: 0x1F65210
     void ValidateRequest();
     // System.Void ValidateReply()
-    // Offset: 0x22158E4
+    // Offset: 0x1F652F4
     void ValidateReply();
     // private System.Void CheckTimestamps()
-    // Offset: 0x2215344
+    // Offset: 0x1F64D54
     void CheckTimestamps();
     // private System.Nullable`1<System.DateTime> GetDateTime64(System.Int32 offset)
-    // Offset: 0x2214F50
+    // Offset: 0x1F64960
     System::Nullable_1<System::DateTime> GetDateTime64(int offset);
     // private System.Void SetDateTime64(System.Int32 offset, System.Nullable`1<System.DateTime> value)
-    // Offset: 0x221509C
+    // Offset: 0x1F64AAC
     void SetDateTime64(int offset, System::Nullable_1<System::DateTime> value);
     // private System.TimeSpan GetTimeSpan32(System.Int32 offset)
-    // Offset: 0x2214DF8
+    // Offset: 0x1F64808
     System::TimeSpan GetTimeSpan32(int offset);
     // private System.UInt64 GetUInt64BE(System.Int32 offset)
-    // Offset: 0x2215A58
+    // Offset: 0x1F65468
     uint64_t GetUInt64BE(int offset);
     // private System.Void SetUInt64BE(System.Int32 offset, System.UInt64 value)
-    // Offset: 0x2215B04
+    // Offset: 0x1F65514
     void SetUInt64BE(int offset, uint64_t value);
     // private System.Int32 GetInt32BE(System.Int32 offset)
-    // Offset: 0x2215B90
+    // Offset: 0x1F655A0
     int GetInt32BE(int offset);
     // private System.UInt32 GetUInt32BE(System.Int32 offset)
-    // Offset: 0x2214E9C
+    // Offset: 0x1F648AC
     uint GetUInt32BE(int offset);
     // static private System.UInt32 SwapEndianness(System.UInt32 x)
-    // Offset: 0x2215C04
+    // Offset: 0x1F65614
     static uint SwapEndianness(uint x);
     // static private System.UInt64 SwapEndianness(System.UInt64 x)
-    // Offset: 0x2215B94
+    // Offset: 0x1F655A4
     static uint64_t SwapEndianness(uint64_t x);
     // static private System.Void .cctor()
-    // Offset: 0x2215C0C
+    // Offset: 0x1F6561C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x22155CC
+    // Offset: 0x1F64FDC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NtpPacket* New_ctor();

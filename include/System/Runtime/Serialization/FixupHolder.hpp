@@ -21,7 +21,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0x20
     int m_fixupType;
     // System.Void .ctor(System.Int64 id, System.Object fixupInfo, System.Int32 fixupType)
-    // Offset: 0x1507360
+    // Offset: 0x12DDB88
     static FixupHolder* New_ctor(int64_t id, ::Il2CppObject* fixupInfo, int fixupType);
   }; // System.Runtime.Serialization.FixupHolder
 }

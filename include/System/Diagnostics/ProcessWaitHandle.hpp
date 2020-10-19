@@ -21,7 +21,7 @@ namespace System::Diagnostics {
   class ProcessWaitHandle : public System::Threading::WaitHandle {
     public:
     // System.Void .ctor(Microsoft.Win32.SafeHandles.SafeProcessHandle processHandle)
-    // Offset: 0x172A0C8
+    // Offset: 0x14E5C9C
     static ProcessWaitHandle* New_ctor(Microsoft::Win32::SafeHandles::SafeProcessHandle* processHandle);
   }; // System.Diagnostics.ProcessWaitHandle
 }

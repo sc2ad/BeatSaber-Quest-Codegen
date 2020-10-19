@@ -25,19 +25,19 @@ namespace System::Runtime::Remoting::Messaging {
       return m_ctx;
     }
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.LogicalCallContext ctx)
-    // Offset: 0xDB5A8C
+    // Offset: 0xC6BEAC
     // ABORTED: conflicts with another method.  Reader(System::Runtime::Remoting::Messaging::LogicalCallContext* ctx);
     // public System.Boolean get_IsNull()
-    // Offset: 0xDB5A94
+    // Offset: 0xC6BEB4
     bool get_IsNull();
     // public System.Boolean get_HasInfo()
-    // Offset: 0xDB5AA4
+    // Offset: 0xC6BEC4
     bool get_HasInfo();
     // public System.Runtime.Remoting.Messaging.LogicalCallContext Clone()
-    // Offset: 0xDB5AB8
+    // Offset: 0xC6BED8
     System::Runtime::Remoting::Messaging::LogicalCallContext* Clone();
     // public System.Object GetData(System.String name)
-    // Offset: 0xDB5AC0
+    // Offset: 0xC6BEE0
     ::Il2CppObject* GetData(::Il2CppString* name);
   }; // System.Runtime.Remoting.Messaging.LogicalCallContext/Reader
 }

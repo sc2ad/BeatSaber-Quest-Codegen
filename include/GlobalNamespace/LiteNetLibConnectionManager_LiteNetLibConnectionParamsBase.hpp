@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Offset: 0x2E
     bool enableBackgroundSentry;
     // protected System.Void .ctor()
-    // Offset: 0x1168CCC
+    // Offset: 0x21636B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase* New_ctor();

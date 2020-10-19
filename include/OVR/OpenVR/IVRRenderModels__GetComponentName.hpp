@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRRenderModels::_GetComponentName : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F346E8
+    // Offset: 0x1C8634C
     static IVRRenderModels::_GetComponentName* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.String pchRenderModelName, System.UInt32 unComponentIndex, System.Text.StringBuilder pchComponentName, System.UInt32 unComponentNameLen)
-    // Offset: 0x1F346FC
+    // Offset: 0x1C86360
     uint Invoke(::Il2CppString* pchRenderModelName, uint unComponentIndex, System::Text::StringBuilder* pchComponentName, uint unComponentNameLen);
     // public System.IAsyncResult BeginInvoke(System.String pchRenderModelName, System.UInt32 unComponentIndex, System.Text.StringBuilder pchComponentName, System.UInt32 unComponentNameLen, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F34B78
+    // Offset: 0x1C867DC
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchRenderModelName, uint unComponentIndex, System::Text::StringBuilder* pchComponentName, uint unComponentNameLen, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1F34C2C
+    // Offset: 0x1C86890
     uint EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRRenderModels/_GetComponentName
 }

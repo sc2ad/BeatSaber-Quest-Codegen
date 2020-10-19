@@ -60,34 +60,34 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Offset: 0x38
     ::Array<uint8_t>* seed;
     // static public Org.BouncyCastle.Asn1.X9.X9ECParameters GetInstance(System.Object obj)
-    // Offset: 0x1875658
+    // Offset: 0x161BA7C
     static Org::BouncyCastle::Asn1::X9::X9ECParameters* GetInstance(::Il2CppObject* obj);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x18756FC
+    // Offset: 0x161BB20
     static X9ECParameters* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Asn1.X9.X9ECPoint g, Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger h)
-    // Offset: 0x1871D08
+    // Offset: 0x161812C
     static X9ECParameters* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Asn1::X9::X9ECPoint* g, Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* h);
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Asn1.X9.X9ECPoint g, Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger h, System.Byte[] seed)
-    // Offset: 0x1871780
+    // Offset: 0x1617BA4
     static X9ECParameters* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Asn1::X9::X9ECPoint* g, Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* h, ::Array<uint8_t>* seed);
     // public Org.BouncyCastle.Math.EC.ECCurve get_Curve()
-    // Offset: 0x1876100
+    // Offset: 0x161C524
     Org::BouncyCastle::Math::EC::ECCurve* get_Curve();
     // public Org.BouncyCastle.Math.EC.ECPoint get_G()
-    // Offset: 0x1876108
+    // Offset: 0x161C52C
     Org::BouncyCastle::Math::EC::ECPoint* get_G();
     // public Org.BouncyCastle.Math.BigInteger get_N()
-    // Offset: 0x1876120
+    // Offset: 0x161C544
     Org::BouncyCastle::Math::BigInteger* get_N();
     // public Org.BouncyCastle.Math.BigInteger get_H()
-    // Offset: 0x1876128
+    // Offset: 0x161C54C
     Org::BouncyCastle::Math::BigInteger* get_H();
     // public System.Byte[] GetSeed()
-    // Offset: 0x1876130
+    // Offset: 0x161C554
     ::Array<uint8_t>* GetSeed();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1876138
+    // Offset: 0x161C55C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

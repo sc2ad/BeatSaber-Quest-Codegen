@@ -21,10 +21,10 @@ namespace Org::BouncyCastle::Utilities::Date {
       return dt;
     }
     // public System.Void .ctor(System.DateTime dt)
-    // Offset: 0x1DE1904
+    // Offset: 0x1B35568
     static DateTimeObject* New_ctor(System::DateTime dt);
     // public override System.String ToString()
-    // Offset: 0x1DE1930
+    // Offset: 0x1B35594
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

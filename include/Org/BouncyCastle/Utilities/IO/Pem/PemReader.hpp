@@ -31,13 +31,13 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
       return reader;
     }
     // public System.Void .ctor(System.IO.TextReader reader)
-    // Offset: 0x1DE3754
+    // Offset: 0x1B373B8
     static PemReader* New_ctor(System::IO::TextReader* reader);
     // public Org.BouncyCastle.Utilities.IO.Pem.PemObject ReadPemObject()
-    // Offset: 0x1DE37F8
+    // Offset: 0x1B3745C
     Org::BouncyCastle::Utilities::IO::Pem::PemObject* ReadPemObject();
     // private Org.BouncyCastle.Utilities.IO.Pem.PemObject LoadObject(System.String type)
-    // Offset: 0x1DE3A6C
+    // Offset: 0x1B376D0
     Org::BouncyCastle::Utilities::IO::Pem::PemObject* LoadObject(::Il2CppString* type);
   }; // Org.BouncyCastle.Utilities.IO.Pem.PemReader
 }

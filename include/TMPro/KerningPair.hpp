@@ -36,40 +36,40 @@ namespace TMPro {
     // Set static field: static TMPro.KerningPair empty
     static void _set_empty(TMPro::KerningPair* value);
     // public System.UInt32 get_firstGlyph()
-    // Offset: 0xF3E68C
+    // Offset: 0xEB8FC0
     uint get_firstGlyph();
     // public System.Void set_firstGlyph(System.UInt32 value)
-    // Offset: 0xF3E694
+    // Offset: 0xEB8FC8
     void set_firstGlyph(uint value);
     // public TMPro.GlyphValueRecord_Legacy get_firstGlyphAdjustments()
-    // Offset: 0xF3E69C
+    // Offset: 0xEB8FD0
     TMPro::GlyphValueRecord_Legacy get_firstGlyphAdjustments();
     // public System.UInt32 get_secondGlyph()
-    // Offset: 0xF3E6A8
+    // Offset: 0xEB8FDC
     uint get_secondGlyph();
     // public System.Void set_secondGlyph(System.UInt32 value)
-    // Offset: 0xF3E6B0
+    // Offset: 0xEB8FE4
     void set_secondGlyph(uint value);
     // public TMPro.GlyphValueRecord_Legacy get_secondGlyphAdjustments()
-    // Offset: 0xF3E6B8
+    // Offset: 0xEB8FEC
     TMPro::GlyphValueRecord_Legacy get_secondGlyphAdjustments();
     // public System.Boolean get_ignoreSpacingAdjustments()
-    // Offset: 0xF3E6C4
+    // Offset: 0xEB8FF8
     bool get_ignoreSpacingAdjustments();
     // public System.Void .ctor(System.UInt32 left, System.UInt32 right, System.Single offset)
-    // Offset: 0xF3E6FC
+    // Offset: 0xEB9030
     static KerningPair* New_ctor(uint left, uint right, float offset);
     // public System.Void .ctor(System.UInt32 firstGlyph, TMPro.GlyphValueRecord_Legacy firstGlyphAdjustments, System.UInt32 secondGlyph, TMPro.GlyphValueRecord_Legacy secondGlyphAdjustments)
-    // Offset: 0xF3E748
+    // Offset: 0xEB907C
     static KerningPair* New_ctor(uint firstGlyph, TMPro::GlyphValueRecord_Legacy firstGlyphAdjustments, uint secondGlyph, TMPro::GlyphValueRecord_Legacy secondGlyphAdjustments);
     // System.Void ConvertLegacyKerningData()
-    // Offset: 0xF3E7D4
+    // Offset: 0xEB9108
     void ConvertLegacyKerningData();
     // static private System.Void .cctor()
-    // Offset: 0xF3E7E0
+    // Offset: 0xEB9114
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0xF3E6CC
+    // Offset: 0xEB9000
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static KerningPair* New_ctor();

@@ -139,46 +139,46 @@ namespace UnityEngine::UI {
     // Offset: 0x74
     int m_ConstraintCount;
     // public UnityEngine.UI.GridLayoutGroup/Corner get_startCorner()
-    // Offset: 0x1754E9C
+    // Offset: 0x1510A70
     UnityEngine::UI::GridLayoutGroup::Corner get_startCorner();
     // public System.Void set_startCorner(UnityEngine.UI.GridLayoutGroup/Corner value)
-    // Offset: 0x1754EA4
+    // Offset: 0x1510A78
     void set_startCorner(UnityEngine::UI::GridLayoutGroup::Corner value);
     // public UnityEngine.UI.GridLayoutGroup/Axis get_startAxis()
-    // Offset: 0x1754F08
+    // Offset: 0x1510ADC
     UnityEngine::UI::GridLayoutGroup::Axis get_startAxis();
     // public System.Void set_startAxis(UnityEngine.UI.GridLayoutGroup/Axis value)
-    // Offset: 0x1754F10
+    // Offset: 0x1510AE4
     void set_startAxis(UnityEngine::UI::GridLayoutGroup::Axis value);
     // public UnityEngine.Vector2 get_cellSize()
-    // Offset: 0x1754F74
+    // Offset: 0x1510B48
     UnityEngine::Vector2 get_cellSize();
     // public System.Void set_cellSize(UnityEngine.Vector2 value)
-    // Offset: 0x1754F7C
+    // Offset: 0x1510B50
     void set_cellSize(UnityEngine::Vector2 value);
     // public UnityEngine.Vector2 get_spacing()
-    // Offset: 0x1754FE8
+    // Offset: 0x1510BBC
     UnityEngine::Vector2 get_spacing();
     // public System.Void set_spacing(UnityEngine.Vector2 value)
-    // Offset: 0x1754FF0
+    // Offset: 0x1510BC4
     void set_spacing(UnityEngine::Vector2 value);
     // public UnityEngine.UI.GridLayoutGroup/Constraint get_constraint()
-    // Offset: 0x175505C
+    // Offset: 0x1510C30
     UnityEngine::UI::GridLayoutGroup::Constraint get_constraint();
     // public System.Void set_constraint(UnityEngine.UI.GridLayoutGroup/Constraint value)
-    // Offset: 0x1755064
+    // Offset: 0x1510C38
     void set_constraint(UnityEngine::UI::GridLayoutGroup::Constraint value);
     // public System.Int32 get_constraintCount()
-    // Offset: 0x17550C8
+    // Offset: 0x1510C9C
     int get_constraintCount();
     // public System.Void set_constraintCount(System.Int32 value)
-    // Offset: 0x17550D0
+    // Offset: 0x1510CA4
     void set_constraintCount(int value);
     // private System.Void SetCellsAlongAxis(System.Int32 axis)
-    // Offset: 0x175559C
+    // Offset: 0x1511170
     void SetCellsAlongAxis(int axis);
     // protected System.Void .ctor()
-    // Offset: 0x1755168
+    // Offset: 0x1510D3C
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -189,22 +189,22 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static GridLayoutGroup* New_ctor();
     // public override System.Void CalculateLayoutInputHorizontal()
-    // Offset: 0x1755214
+    // Offset: 0x1510DE8
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::CalculateLayoutInputHorizontal()
     void CalculateLayoutInputHorizontal();
     // public override System.Void CalculateLayoutInputVertical()
-    // Offset: 0x17553B0
+    // Offset: 0x1510F84
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::CalculateLayoutInputVertical()
     void CalculateLayoutInputVertical();
     // public override System.Void SetLayoutHorizontal()
-    // Offset: 0x1755594
+    // Offset: 0x1511168
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::SetLayoutHorizontal()
     void SetLayoutHorizontal();
     // public override System.Void SetLayoutVertical()
-    // Offset: 0x1755C2C
+    // Offset: 0x1511800
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::SetLayoutVertical()
     void SetLayoutVertical();

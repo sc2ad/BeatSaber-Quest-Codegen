@@ -34,10 +34,10 @@ namespace GlobalNamespace {
       return endPoint;
     }
     // System.Int32 <GetPotentialPendingEncryptionStates>b__0(System.Collections.Generic.KeyValuePair`2<System.Int32,PacketEncryptionLayer/EncryptionState> kvp)
-    // Offset: 0x1C3C784
+    // Offset: 0x21F691C
     int $GetPotentialPendingEncryptionStates$b__0(System::Collections::Generic::KeyValuePair_2<int, GlobalNamespace::PacketEncryptionLayer::EncryptionState*> kvp);
     // public System.Void .ctor()
-    // Offset: 0x1C3A580
+    // Offset: 0x21F4718
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PacketEncryptionLayer::$$c__DisplayClass42_0* New_ctor();

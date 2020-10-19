@@ -30,18 +30,18 @@ namespace LiteNetLib {
     // Offset: 0x38
     uint64_t SequencedPacketLoss;
     // public System.UInt64 get_PacketLossPercent()
-    // Offset: 0x1A72ECC
+    // Offset: 0x18110C0
     uint64_t get_PacketLossPercent();
     // public System.Void Reset()
-    // Offset: 0x1A72EF0
+    // Offset: 0x18110E4
     void Reset();
     // public override System.String ToString()
-    // Offset: 0x1A72F00
+    // Offset: 0x18110F4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public System.Void .ctor()
-    // Offset: 0x1A6A26C
+    // Offset: 0x1808460
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NetStatistics* New_ctor();

@@ -34,13 +34,13 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // protected System.Void .ctor(System.Boolean isPrivate, Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet)
-    // Offset: 0x10F1FEC
+    // Offset: 0xF4CC7C
     static Gost3410KeyParameters* New_ctor(bool isPrivate, Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
     // public Org.BouncyCastle.Crypto.Parameters.Gost3410Parameters get_Parameters()
-    // Offset: 0x10F218C
+    // Offset: 0xF4CE1C
     Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* get_Parameters();
     // static private Org.BouncyCastle.Crypto.Parameters.Gost3410Parameters LookupParameters(Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet)
-    // Offset: 0x10F203C
+    // Offset: 0xF4CCCC
     static Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* LookupParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
   }; // Org.BouncyCastle.Crypto.Parameters.Gost3410KeyParameters
 }

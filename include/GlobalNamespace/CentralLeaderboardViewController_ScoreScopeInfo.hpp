@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     int playerScorePos;
     // public System.Void .ctor(OnlineServices.ScoresScope scoreScope, UnityEngine.Sprite icon, System.String localizedTitle)
-    // Offset: 0xF1E550
+    // Offset: 0x1FB1BAC
     static CentralLeaderboardViewController::ScoreScopeInfo* New_ctor(OnlineServices::ScoresScope scoreScope, UnityEngine::Sprite* icon, ::Il2CppString* localizedTitle);
   }; // CentralLeaderboardViewController/ScoreScopeInfo
 }

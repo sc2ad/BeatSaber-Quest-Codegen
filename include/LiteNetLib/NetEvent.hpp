@@ -135,7 +135,7 @@ namespace LiteNetLib {
     // Offset: 0x50
     LiteNetLib::NetPacketReader* DataReader;
     // public System.Void .ctor(LiteNetLib.NetManager manager)
-    // Offset: 0x1A696AC
+    // Offset: 0x18078A0
     static NetEvent* New_ctor(LiteNetLib::NetManager* manager);
   }; // LiteNetLib.NetEvent
 }

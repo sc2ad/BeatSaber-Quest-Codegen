@@ -28,25 +28,25 @@ namespace Org::BouncyCastle::Math::Field {
       return characteristic;
     }
     // System.Void .ctor(Org.BouncyCastle.Math.BigInteger characteristic)
-    // Offset: 0x1B61D54
+    // Offset: 0x1902F48
     static PrimeField* New_ctor(Org::BouncyCastle::Math::BigInteger* characteristic);
     // public Org.BouncyCastle.Math.BigInteger get_Characteristic()
-    // Offset: 0x1B623BC
+    // Offset: 0x19035B0
     // Implemented from: Org.BouncyCastle.Math.Field.IFiniteField
     // Base method: Org.BouncyCastle.Math.BigInteger IFiniteField::get_Characteristic()
     Org::BouncyCastle::Math::BigInteger* get_Characteristic();
     // public System.Int32 get_Dimension()
-    // Offset: 0x1B623C4
+    // Offset: 0x19035B8
     // Implemented from: Org.BouncyCastle.Math.Field.IFiniteField
     // Base method: System.Int32 IFiniteField::get_Dimension()
     int get_Dimension();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1B623CC
+    // Offset: 0x19035C0
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1B62494
+    // Offset: 0x1903688
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

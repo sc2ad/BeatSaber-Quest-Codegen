@@ -24,12 +24,12 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::SimpleDialogPromptViewController* simpleDialogPromptViewControllerPrefab;
     // public override System.Void InstallBindings()
-    // Offset: 0xFBB1BC
+    // Offset: 0x203986C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xFBB230
+    // Offset: 0x20398E0
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

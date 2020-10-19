@@ -79,49 +79,49 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kNumberOfPreallocatedSwingRatingCounters
     static void _set_kNumberOfPreallocatedSwingRatingCounters(int value);
     // public SaberType get_saberType()
-    // Offset: 0xF7B134
+    // Offset: 0x2072358
     GlobalNamespace::SaberType get_saberType();
     // public UnityEngine.Vector3 get_saberBladeTopPos()
-    // Offset: 0xF7B150
+    // Offset: 0x2072374
     UnityEngine::Vector3 get_saberBladeTopPos();
     // public UnityEngine.Vector3 get_saberBladeBottomPos()
-    // Offset: 0xF7B15C
+    // Offset: 0x2072380
     UnityEngine::Vector3 get_saberBladeBottomPos();
     // public UnityEngine.Vector3 get_handlePos()
-    // Offset: 0xF7B168
+    // Offset: 0x207238C
     UnityEngine::Vector3 get_handlePos();
     // public UnityEngine.Quaternion get_handleRot()
-    // Offset: 0xF7B184
+    // Offset: 0x20723A8
     UnityEngine::Quaternion get_handleRot();
     // public System.Single get_bladeSpeed()
-    // Offset: 0xF7B1A0
+    // Offset: 0x20723C4
     float get_bladeSpeed();
     // public SaberMovementData get_movementData()
-    // Offset: 0xF7B1BC
+    // Offset: 0x20723E0
     GlobalNamespace::SaberMovementData* get_movementData();
     // public System.Boolean get_disableCutting()
-    // Offset: 0xF7B1C4
+    // Offset: 0x20723E8
     bool get_disableCutting();
     // public System.Void set_disableCutting(System.Boolean value)
-    // Offset: 0xF7B1CC
+    // Offset: 0x20723F0
     void set_disableCutting(bool value);
     // protected System.Void Start()
-    // Offset: 0xF7B1D8
+    // Offset: 0x20723FC
     void Start();
     // public System.Void ManualUpdate()
-    // Offset: 0xF7B2DC
+    // Offset: 0x2072500
     void ManualUpdate();
     // public SaberSwingRatingCounter CreateSwingRatingCounter(UnityEngine.Transform noteTransform)
-    // Offset: 0xF7BA8C
+    // Offset: 0x2072CB0
     GlobalNamespace::SaberSwingRatingCounter* CreateSwingRatingCounter(UnityEngine::Transform* noteTransform);
     // protected System.Void OnDrawGizmos()
-    // Offset: 0xF7BC6C
+    // Offset: 0x2072E90
     void OnDrawGizmos();
     // public System.Void OverridePositionAndRotation(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
-    // Offset: 0xF7C044
+    // Offset: 0x2073268
     void OverridePositionAndRotation(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot);
     // public System.Void .ctor()
-    // Offset: 0xF7C0C0
+    // Offset: 0x20732E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -28,10 +28,10 @@ namespace UnityEngine::Timeline {
       return name;
     }
     // System.Boolean <GenerateUniqueActorName>b__0(UnityEngine.ScriptableObject x)
-    // Offset: 0x2190494
+    // Offset: 0x1EE40F8
     bool $GenerateUniqueActorName$b__0(UnityEngine::ScriptableObject* x);
     // public System.Void .ctor()
-    // Offset: 0x218FC10
+    // Offset: 0x1EE3874
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TimelineCreateUtilities::$$c__DisplayClass0_0* New_ctor();

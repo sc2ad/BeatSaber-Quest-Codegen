@@ -82,18 +82,18 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerAvatarData
     constexpr MultiplayerAvatarData(::Il2CppString* headTopId_ = {}, UnityEngine::Color32 headTopPrimaryColor_ = {}, UnityEngine::Color32 headTopSecondaryColor_ = {}, ::Il2CppString* glassesId_ = {}, UnityEngine::Color32 glassesColor_ = {}, ::Il2CppString* facialHairId_ = {}, UnityEngine::Color32 facialHairColor_ = {}, ::Il2CppString* handsId_ = {}, UnityEngine::Color32 handsColor_ = {}, ::Il2CppString* clothesId_ = {}, UnityEngine::Color32 clothesPrimaryColor_ = {}, UnityEngine::Color32 clothesSecondaryColor_ = {}, UnityEngine::Color32 clothesDetailColor_ = {}, ::Il2CppString* skinColorId_ = {}, ::Il2CppString* eyesId_ = {}, ::Il2CppString* mouthId_ = {}) noexcept : headTopId{headTopId_}, headTopPrimaryColor{headTopPrimaryColor_}, headTopSecondaryColor{headTopSecondaryColor_}, glassesId{glassesId_}, glassesColor{glassesColor_}, facialHairId{facialHairId_}, facialHairColor{facialHairColor_}, handsId{handsId_}, handsColor{handsColor_}, clothesId{clothesId_}, clothesPrimaryColor{clothesPrimaryColor_}, clothesSecondaryColor{clothesSecondaryColor_}, clothesDetailColor{clothesDetailColor_}, skinColorId{skinColorId_}, eyesId{eyesId_}, mouthId{mouthId_} {}
     // public System.Void .ctor(System.String headTopId, UnityEngine.Color32 headTopPrimaryColor, UnityEngine.Color32 headTopSecondaryColor, System.String glassesId, UnityEngine.Color32 glassesColor, System.String facialHairId, UnityEngine.Color32 facialHairColor, System.String handsId, UnityEngine.Color32 handsColor, System.String clothesId, UnityEngine.Color32 clothesPrimaryColor, UnityEngine.Color32 clothesSecondaryColor, UnityEngine.Color32 clothesDetailColor, System.String skinColorId, System.String eyesId, System.String mouthId)
-    // Offset: 0xDDC140
+    // Offset: 0xC897D8
     // ABORTED: conflicts with another method.  MultiplayerAvatarData(::Il2CppString* headTopId, UnityEngine::Color32 headTopPrimaryColor, UnityEngine::Color32 headTopSecondaryColor, ::Il2CppString* glassesId, UnityEngine::Color32 glassesColor, ::Il2CppString* facialHairId, UnityEngine::Color32 facialHairColor, ::Il2CppString* handsId, UnityEngine::Color32 handsColor, ::Il2CppString* clothesId, UnityEngine::Color32 clothesPrimaryColor, UnityEngine::Color32 clothesSecondaryColor, UnityEngine::Color32 clothesDetailColor, ::Il2CppString* skinColorId, ::Il2CppString* eyesId, ::Il2CppString* mouthId);
     // static public MultiplayerAvatarData Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x21BBB14
+    // Offset: 0x1F0E778
     static GlobalNamespace::MultiplayerAvatarData Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xDDC190
+    // Offset: 0xC89828
     // Implemented from: LiteNetLib.Utils.INetImmutableSerializable`1
     // Base method: System.Void INetImmutableSerializable_1::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public MultiplayerAvatarData CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xDDC198
+    // Offset: 0xC89830
     // Implemented from: LiteNetLib.Utils.INetImmutableSerializable`1
     // Base method: T INetImmutableSerializable_1::CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
     GlobalNamespace::MultiplayerAvatarData CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
@@ -101,17 +101,17 @@ namespace GlobalNamespace {
     // Maps to method: CreateFromSerializedData
     GlobalNamespace::MultiplayerAvatarData LiteNetLib_Utils_INetImmutableSerializable_1_CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(MultiplayerAvatarData other)
-    // Offset: 0xDDC1A0
+    // Offset: 0xC89838
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(MultiplayerAvatarData other)
     bool Equals(GlobalNamespace::MultiplayerAvatarData other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xDDC1E0
+    // Offset: 0xC89878
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xDDC1E8
+    // Offset: 0xC89880
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

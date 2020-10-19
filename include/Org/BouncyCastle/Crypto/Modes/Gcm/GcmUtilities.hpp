@@ -16,55 +16,55 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
     // Set static field: static private readonly System.UInt32[] LOOKUP
     static void _set_LOOKUP(::Array<uint>* value);
     // static private System.UInt32[] GenerateLookup()
-    // Offset: 0x1703D84
+    // Offset: 0x14BE958
     static ::Array<uint>* GenerateLookup();
     // static System.UInt32[] OneAsUints()
-    // Offset: 0x1703E74
+    // Offset: 0x14BEA48
     static ::Array<uint>* OneAsUints();
     // static System.Void AsBytes(System.UInt32[] x, System.Byte[] z)
-    // Offset: 0x1703EE8
+    // Offset: 0x14BEABC
     static void AsBytes(::Array<uint>* x, ::Array<uint8_t>* z);
     // static System.UInt32[] AsUints(System.Byte[] bs)
-    // Offset: 0x1703EF4
+    // Offset: 0x14BEAC8
     static ::Array<uint>* AsUints(::Array<uint8_t>* bs);
     // static System.Void Multiply(System.Byte[] x, System.Byte[] y)
-    // Offset: 0x1703F64
+    // Offset: 0x14BEB38
     static void Multiply(::Array<uint8_t>* x, ::Array<uint8_t>* y);
     // static System.Void Multiply(System.UInt32[] x, System.UInt32[] y)
-    // Offset: 0x1704000
+    // Offset: 0x14BEBD4
     static void Multiply(::Array<uint>* x, ::Array<uint>* y);
     // static System.Void MultiplyP(System.UInt32[] x)
-    // Offset: 0x17040D8
+    // Offset: 0x14BECAC
     static void MultiplyP(::Array<uint>* x);
     // static System.Void MultiplyP8(System.UInt32[] x)
-    // Offset: 0x17041F0
+    // Offset: 0x14BEDC4
     static void MultiplyP8(::Array<uint>* x);
     // static System.UInt32 ShiftRight(System.UInt32[] x)
-    // Offset: 0x1704174
+    // Offset: 0x14BED48
     static uint ShiftRight(::Array<uint>* x);
     // static System.UInt32 ShiftRightN(System.UInt32[] x, System.Int32 n)
-    // Offset: 0x17042AC
+    // Offset: 0x14BEE80
     static uint ShiftRightN(::Array<uint>* x, int n);
     // static System.Void Xor(System.Byte[] x, System.Byte[] y)
-    // Offset: 0x170434C
+    // Offset: 0x14BEF20
     static void Xor(::Array<uint8_t>* x, ::Array<uint8_t>* y);
     // static System.Void Xor(System.Byte[] x, System.Byte[] y, System.Int32 yOff)
-    // Offset: 0x1704444
+    // Offset: 0x14BF018
     static void Xor(::Array<uint8_t>* x, ::Array<uint8_t>* y, int yOff);
     // static System.Void Xor(System.Byte[] x, System.Int32 xOff, System.Byte[] y, System.Int32 yOff, System.Byte[] z, System.Int32 zOff)
-    // Offset: 0x170455C
+    // Offset: 0x14BF130
     static void Xor(::Array<uint8_t>* x, int xOff, ::Array<uint8_t>* y, int yOff, ::Array<uint8_t>* z, int zOff);
     // static System.Void Xor(System.Byte[] x, System.Byte[] y, System.Int32 yOff, System.Int32 yLen)
-    // Offset: 0x17046F8
+    // Offset: 0x14BF2CC
     static void Xor(::Array<uint8_t>* x, ::Array<uint8_t>* y, int yOff, int yLen);
     // static System.Void Xor(System.Byte[] x, System.Int32 xOff, System.Byte[] y, System.Int32 yOff, System.Int32 len)
-    // Offset: 0x170476C
+    // Offset: 0x14BF340
     static void Xor(::Array<uint8_t>* x, int xOff, ::Array<uint8_t>* y, int yOff, int len);
     // static System.Void Xor(System.UInt32[] x, System.UInt32[] y)
-    // Offset: 0x17047DC
+    // Offset: 0x14BF3B0
     static void Xor(::Array<uint>* x, ::Array<uint>* y);
     // static private System.Void .cctor()
-    // Offset: 0x1704890
+    // Offset: 0x14BF464
     static void _cctor();
   }; // Org.BouncyCastle.Crypto.Modes.Gcm.GcmUtilities
 }

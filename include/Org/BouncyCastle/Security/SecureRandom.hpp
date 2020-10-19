@@ -42,49 +42,49 @@ namespace Org::BouncyCastle::Security {
     // Set static field: static private readonly System.Double DoubleScale
     static void _set_DoubleScale(double value);
     // static private System.Int64 NextCounterValue()
-    // Offset: 0x11DC4E4
+    // Offset: 0xFD7D80
     static int64_t NextCounterValue();
     // static private Org.BouncyCastle.Security.SecureRandom get_Master()
-    // Offset: 0x11DC54C
+    // Offset: 0xFD7DE8
     static Org::BouncyCastle::Security::SecureRandom* get_Master();
     // static private Org.BouncyCastle.Crypto.Prng.DigestRandomGenerator CreatePrng(System.String digestName, System.Boolean autoSeed)
-    // Offset: 0x11DC5B4
+    // Offset: 0xFD7E50
     static Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator* CreatePrng(::Il2CppString* digestName, bool autoSeed);
     // static public System.Byte[] GetNextBytes(Org.BouncyCastle.Security.SecureRandom secureRandom, System.Int32 length)
-    // Offset: 0x11DC76C
+    // Offset: 0xFD8008
     static ::Array<uint8_t>* GetNextBytes(Org::BouncyCastle::Security::SecureRandom* secureRandom, int length);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Prng.IRandomGenerator generator)
-    // Offset: 0x11DC884
+    // Offset: 0xFD8120
     static SecureRandom* New_ctor(Org::BouncyCastle::Crypto::Prng::IRandomGenerator* generator);
     // public System.Int32 NextInt()
-    // Offset: 0x11DCB84
+    // Offset: 0xFD8420
     int NextInt();
     // static private System.Void .cctor()
-    // Offset: 0x11DCBF8
+    // Offset: 0xFD8494
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x11DC7F0
+    // Offset: 0xFD808C
     // Implemented from: System.Random
     // Base method: System.Void Random::.ctor()
     // Base method: System.Void Object::.ctor()
     static SecureRandom* New_ctor();
     // public override System.Int32 Next()
-    // Offset: 0x11DC8BC
+    // Offset: 0xFD8158
     // Implemented from: System.Random
     // Base method: System.Int32 Random::Next()
     int Next();
     // public override System.Int32 Next(System.Int32 maxValue)
-    // Offset: 0x11DC8DC
+    // Offset: 0xFD8178
     // Implemented from: System.Random
     // Base method: System.Int32 Random::Next(System.Int32 maxValue)
     int Next(int maxValue);
     // public override System.Int32 Next(System.Int32 minValue, System.Int32 maxValue)
-    // Offset: 0x11DC9E0
+    // Offset: 0xFD827C
     // Implemented from: System.Random
     // Base method: System.Int32 Random::Next(System.Int32 minValue, System.Int32 maxValue)
     int Next(int minValue, int maxValue);
     // public override System.Void NextBytes(System.Byte[] buf)
-    // Offset: 0x11DCAC4
+    // Offset: 0xFD8360
     // Implemented from: System.Random
     // Base method: System.Void Random::NextBytes(System.Byte[] buf)
     void NextBytes(::Array<uint8_t>* buf);

@@ -32,24 +32,24 @@ namespace System::Runtime::Remoting::Metadata {
     // Offset: 0x50
     ::Il2CppString* _namespace;
     // public System.Void .ctor()
-    // Offset: 0x14FA6E0
+    // Offset: 0x12D0F08
     // Implemented from: System.Runtime.Remoting.Metadata.SoapAttribute
     // Base method: System.Void SoapAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()
     static SoapMethodAttribute* New_ctor();
     // public override System.Boolean get_UseAttribute()
-    // Offset: 0x14FA6E8
+    // Offset: 0x12D0F10
     // Implemented from: System.Runtime.Remoting.Metadata.SoapAttribute
     // Base method: System.Boolean SoapAttribute::get_UseAttribute()
     bool get_UseAttribute();
     // public override System.String get_XmlNamespace()
-    // Offset: 0x14FA6F0
+    // Offset: 0x12D0F18
     // Implemented from: System.Runtime.Remoting.Metadata.SoapAttribute
     // Base method: System.String SoapAttribute::get_XmlNamespace()
     ::Il2CppString* get_XmlNamespace();
     // override System.Void SetReflectionObject(System.Object reflectionObject)
-    // Offset: 0x14FA6F8
+    // Offset: 0x12D0F20
     // Implemented from: System.Runtime.Remoting.Metadata.SoapAttribute
     // Base method: System.Void SoapAttribute::SetReflectionObject(System.Object reflectionObject)
     void SetReflectionObject(::Il2CppObject* reflectionObject);

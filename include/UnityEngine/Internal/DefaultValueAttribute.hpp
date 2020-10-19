@@ -21,18 +21,18 @@ namespace UnityEngine::Internal {
       return DefaultValue;
     }
     // public System.Void .ctor(System.String value)
-    // Offset: 0x19F157C
+    // Offset: 0x17979A0
     static DefaultValueAttribute* New_ctor(::Il2CppString* value);
     // public System.Object get_Value()
-    // Offset: 0x19F15B0
+    // Offset: 0x17979D4
     ::Il2CppObject* get_Value();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x19F15B8
+    // Offset: 0x17979DC
     // Implemented from: System.Attribute
     // Base method: System.Boolean Attribute::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x19F1684
+    // Offset: 0x1797AA8
     // Implemented from: System.Attribute
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();

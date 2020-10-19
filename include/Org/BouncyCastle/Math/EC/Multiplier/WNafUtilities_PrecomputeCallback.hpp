@@ -39,16 +39,16 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Offset: 0x1C
     bool m_includeNegated;
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECPoint p, System.Int32 minWidth, System.Boolean includeNegated)
-    // Offset: 0x1B55934
+    // Offset: 0x18F6B28
     static WNafUtilities::PrecomputeCallback* New_ctor(Org::BouncyCastle::Math::EC::ECPoint* p, int minWidth, bool includeNegated);
     // private System.Boolean CheckExisting(Org.BouncyCastle.Math.EC.Multiplier.WNafPreCompInfo existingWNaf, System.Int32 width, System.Int32 reqPreCompLen, System.Boolean includeNegated)
-    // Offset: 0x1B566B0
+    // Offset: 0x18F78A4
     bool CheckExisting(Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* existingWNaf, int width, int reqPreCompLen, bool includeNegated);
     // private System.Boolean CheckTable(Org.BouncyCastle.Math.EC.ECPoint[] table, System.Int32 reqLen)
-    // Offset: 0x1B567C8
+    // Offset: 0x18F79BC
     bool CheckTable(::Array<Org::BouncyCastle::Math::EC::ECPoint*>* table, int reqLen);
     // public Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
-    // Offset: 0x1B55E3C
+    // Offset: 0x18F7030
     // Implemented from: Org.BouncyCastle.Math.EC.Multiplier.IPreCompCallback
     // Base method: Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo IPreCompCallback::Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
     Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);

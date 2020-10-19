@@ -53,28 +53,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public MultiplayerConnectedPlayerIntroAnimator get_introAnimator()
-    // Offset: 0xFCB650
+    // Offset: 0x2060188
     GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator* get_introAnimator();
     // public IMultiplayerConnectedPlayerOutroAnimator get_outroAnimator()
-    // Offset: 0xFCB658
+    // Offset: 0x2060190
     GlobalNamespace::IMultiplayerConnectedPlayerOutroAnimator* get_outroAnimator();
     // public MultiplayerConnectedPlayerScoreDiffText get_scoreDiffText()
-    // Offset: 0xFCB660
+    // Offset: 0x2060198
     GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText* get_scoreDiffText();
     // public System.Void SetSongStartSyncTime(System.Single songStartSyncTime)
-    // Offset: 0xFCB668
+    // Offset: 0x20601A0
     void SetSongStartSyncTime(float songStartSyncTime);
     // public System.Void PauseSpawning()
-    // Offset: 0xFCB7A0
+    // Offset: 0x20602D8
     void PauseSpawning();
     // public System.Void ResumeSpawning()
-    // Offset: 0xFCB7BC
+    // Offset: 0x20602F4
     void ResumeSpawning();
     // public System.Void __ForceStopSong()
-    // Offset: 0xFCB7D8
+    // Offset: 0x2060310
     void __ForceStopSong();
     // public System.Void .ctor()
-    // Offset: 0xFCB82C
+    // Offset: 0x2060364
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

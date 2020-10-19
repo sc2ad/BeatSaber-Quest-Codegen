@@ -35,10 +35,10 @@ namespace Mono::Http {
       return message;
     }
     // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1413E54
+    // Offset: 0x11EA590
     System::Net::Authorization* Authenticate(::Il2CppString* challenge, System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.Void .ctor()
-    // Offset: 0x141445C
+    // Offset: 0x11EAB98
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NtlmSession* New_ctor();

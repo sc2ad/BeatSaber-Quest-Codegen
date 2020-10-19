@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRInput::_TriggerHapticVibrationAction : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1D65C80
+    // Offset: 0x1AB78E4
     static IVRInput::_TriggerHapticVibrationAction* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRInputError Invoke(System.UInt64 action, System.Single fStartSecondsFromNow, System.Single fDurationSeconds, System.Single fFrequency, System.Single fAmplitude, System.UInt64 ulRestrictToDevice)
-    // Offset: 0x1D65C94
+    // Offset: 0x1AB78F8
     OVR::OpenVR::EVRInputError Invoke(uint64_t action, float fStartSecondsFromNow, float fDurationSeconds, float fFrequency, float fAmplitude, uint64_t ulRestrictToDevice);
     // public System.IAsyncResult BeginInvoke(System.UInt64 action, System.Single fStartSecondsFromNow, System.Single fDurationSeconds, System.Single fFrequency, System.Single fAmplitude, System.UInt64 ulRestrictToDevice, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1D65F78
+    // Offset: 0x1AB7BDC
     System::IAsyncResult* BeginInvoke(uint64_t action, float fStartSecondsFromNow, float fDurationSeconds, float fFrequency, float fAmplitude, uint64_t ulRestrictToDevice, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRInputError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1D66088
+    // Offset: 0x1AB7CEC
     OVR::OpenVR::EVRInputError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRInput/_TriggerHapticVibrationAction
 }

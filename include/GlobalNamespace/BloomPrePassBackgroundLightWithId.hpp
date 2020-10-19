@@ -29,15 +29,15 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::BloomPrePassBackgroundColor* bloomPrePassBackgroundColor;
     // public UnityEngine.Color get_color()
-    // Offset: 0x1FA8CB0
+    // Offset: 0x1CF9914
     UnityEngine::Color get_color();
     // public override System.Void ColorWasSet(UnityEngine.Color newColor)
-    // Offset: 0x1FA8CD0
+    // Offset: 0x1CF9934
     // Implemented from: LightWithId
     // Base method: System.Void LightWithId::ColorWasSet(UnityEngine.Color newColor)
     void ColorWasSet(UnityEngine::Color newColor);
     // public System.Void .ctor()
-    // Offset: 0x1FA8CF0
+    // Offset: 0x1CF9954
     // Implemented from: LightWithId
     // Base method: System.Void LightWithId::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

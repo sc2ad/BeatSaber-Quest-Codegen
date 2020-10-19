@@ -19,7 +19,7 @@ namespace GlobalNamespace {
   class StandardLevelLoader : public ::Il2CppObject {
     public:
     // static public StandardLevelInfoSaveData LoadStandardLevelSaveData(System.String levelInfoFilenamePath)
-    // Offset: 0xF2B72C
+    // Offset: 0x1F92924
     static GlobalNamespace::StandardLevelInfoSaveData* LoadStandardLevelSaveData(::Il2CppString* levelInfoFilenamePath);
   }; // StandardLevelLoader
 }

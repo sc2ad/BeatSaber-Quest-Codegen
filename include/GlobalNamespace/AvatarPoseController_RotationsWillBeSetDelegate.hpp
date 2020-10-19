@@ -31,16 +31,16 @@ namespace GlobalNamespace {
   class AvatarPoseController::RotationsWillBeSetDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xFB5B8C
+    // Offset: 0x203423C
     static AvatarPoseController::RotationsWillBeSetDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(UnityEngine.Quaternion headRotation, UnityEngine.Quaternion leftHandRotation, UnityEngine.Quaternion rightHandRotation, out UnityEngine.Quaternion newHeadRotation, out UnityEngine.Quaternion newLeftHandRotation, out UnityEngine.Quaternion newRightHandRotation)
-    // Offset: 0xFB5120
+    // Offset: 0x20337D0
     void Invoke(UnityEngine::Quaternion headRotation, UnityEngine::Quaternion leftHandRotation, UnityEngine::Quaternion rightHandRotation, UnityEngine::Quaternion& newHeadRotation, UnityEngine::Quaternion& newLeftHandRotation, UnityEngine::Quaternion& newRightHandRotation);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Quaternion headRotation, UnityEngine.Quaternion leftHandRotation, UnityEngine.Quaternion rightHandRotation, out UnityEngine.Quaternion newHeadRotation, out UnityEngine.Quaternion newLeftHandRotation, out UnityEngine.Quaternion newRightHandRotation, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xFB5BA0
+    // Offset: 0x2034250
     System::IAsyncResult* BeginInvoke(UnityEngine::Quaternion headRotation, UnityEngine::Quaternion leftHandRotation, UnityEngine::Quaternion rightHandRotation, UnityEngine::Quaternion& newHeadRotation, UnityEngine::Quaternion& newLeftHandRotation, UnityEngine::Quaternion& newRightHandRotation, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(out UnityEngine.Quaternion newHeadRotation, out UnityEngine.Quaternion newLeftHandRotation, out UnityEngine.Quaternion newRightHandRotation, System.IAsyncResult result)
-    // Offset: 0xFB5CC0
+    // Offset: 0x2034370
     void EndInvoke(UnityEngine::Quaternion& newHeadRotation, UnityEngine::Quaternion& newLeftHandRotation, UnityEngine::Quaternion& newRightHandRotation, System::IAsyncResult* result);
   }; // AvatarPoseController/RotationsWillBeSetDelegate
 }

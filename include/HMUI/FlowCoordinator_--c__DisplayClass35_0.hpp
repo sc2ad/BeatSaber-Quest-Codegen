@@ -30,13 +30,13 @@ namespace HMUI {
     // Offset: 0x20
     HMUI::FlowCoordinator* $$4__this;
     // System.Void <PresentFlowCoordinator>b__1()
-    // Offset: 0x11B7FDC
+    // Offset: 0x2187424
     void $PresentFlowCoordinator$b__1();
     // System.Void <PresentFlowCoordinator>b__0()
-    // Offset: 0x11B805C
+    // Offset: 0x21874A4
     void $PresentFlowCoordinator$b__0();
     // public System.Void .ctor()
-    // Offset: 0x11B68A4
+    // Offset: 0x2185CEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FlowCoordinator::$$c__DisplayClass35_0* New_ctor();

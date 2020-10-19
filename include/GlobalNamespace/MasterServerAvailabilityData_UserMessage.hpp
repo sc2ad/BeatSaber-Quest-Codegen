@@ -28,7 +28,7 @@ namespace GlobalNamespace {
       return localizations;
     }
     // public System.Void .ctor()
-    // Offset: 0xED84E8
+    // Offset: 0x1FC20B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MasterServerAvailabilityData::UserMessage* New_ctor();

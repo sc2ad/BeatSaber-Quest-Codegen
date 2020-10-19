@@ -10,8 +10,6 @@
 #include "GlobalNamespace/BombNoteController.hpp"
 // Including type: ObstacleController
 #include "GlobalNamespace/ObstacleController.hpp"
-// Including type: NoteRibbonController
-#include "GlobalNamespace/NoteRibbonController.hpp"
 // Including type: NoteLineConnectionController
 #include "GlobalNamespace/NoteLineConnectionController.hpp"
 // Including type: BeatLine

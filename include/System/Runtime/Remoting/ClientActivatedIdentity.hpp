@@ -39,26 +39,26 @@ namespace System::Runtime::Remoting {
       return targetThis;
     }
     // public System.Void .ctor(System.String objectUri, System.Type objectType)
-    // Offset: 0x129C208
+    // Offset: 0x1097AA4
     static ClientActivatedIdentity* New_ctor(::Il2CppString* objectUri, System::Type* objectType);
     // public System.MarshalByRefObject GetServerObject()
-    // Offset: 0x129C218
+    // Offset: 0x1097AB4
     System::MarshalByRefObject* GetServerObject();
     // public System.Void SetClientProxy(System.MarshalByRefObject obj)
-    // Offset: 0x129C220
+    // Offset: 0x1097ABC
     void SetClientProxy(System::MarshalByRefObject* obj);
     // public override System.Void OnLifetimeExpired()
-    // Offset: 0x129C228
+    // Offset: 0x1097AC4
     // Implemented from: System.Runtime.Remoting.ServerIdentity
     // Base method: System.Void ServerIdentity::OnLifetimeExpired()
     void OnLifetimeExpired();
     // public override System.Runtime.Remoting.Messaging.IMessage SyncObjectProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0x129C29C
+    // Offset: 0x1097B38
     // Implemented from: System.Runtime.Remoting.ServerIdentity
     // Base method: System.Runtime.Remoting.Messaging.IMessage ServerIdentity::SyncObjectProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
     System::Runtime::Remoting::Messaging::IMessage* SyncObjectProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg);
     // public override System.Runtime.Remoting.Messaging.IMessageCtrl AsyncObjectProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
-    // Offset: 0x129C538
+    // Offset: 0x1097DD4
     // Implemented from: System.Runtime.Remoting.ServerIdentity
     // Base method: System.Runtime.Remoting.Messaging.IMessageCtrl ServerIdentity::AsyncObjectProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
     System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncObjectProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg, System::Runtime::Remoting::Messaging::IMessageSink* replySink);

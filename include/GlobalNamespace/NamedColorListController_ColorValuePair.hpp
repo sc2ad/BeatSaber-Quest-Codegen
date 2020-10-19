@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     int value;
     // public System.Void .ctor()
-    // Offset: 0xF08554
+    // Offset: 0x1FDD408
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NamedColorListController::ColorValuePair* New_ctor();

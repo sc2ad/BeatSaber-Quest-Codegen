@@ -96,12 +96,12 @@ namespace MasterServer {
     // Creating value type constructor for type: $SendMessageWithRetryAsyncInternal$d__99
     constexpr $SendMessageWithRetryAsyncInternal$d__99(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder $$t__builder_ = {}, MasterServer::MessageHandler* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Net::IPEndPoint* remoteEndPoint_ = {}, MasterServer::IMasterServerReliableRequest* message_ = {}, uint protocolVersion_ = {}, System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task*>* onSendFailed_ = {}, MasterServer::MessageHandler::SentRequestWaiter* $sentRequest$5__2_ = {}, bool $shouldReleaseMessage$5__3_ = {}, ::Il2CppObject* $$7__wrap3_ = {}, int $$7__wrap4_ = {}, int $i$5__6_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<System::Threading::Tasks::Task*> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, remoteEndPoint{remoteEndPoint_}, message{message_}, protocolVersion{protocolVersion_}, onSendFailed{onSendFailed_}, $sentRequest$5__2{$sentRequest$5__2_}, $shouldReleaseMessage$5__3{$shouldReleaseMessage$5__3_}, $$7__wrap3{$$7__wrap3_}, $$7__wrap4{$$7__wrap4_}, $i$5__6{$i$5__6_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
     // private System.Void MoveNext()
-    // Offset: 0xDA2F94
+    // Offset: 0xE4EB1C
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDA2F9C
+    // Offset: 0xE4EB24
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

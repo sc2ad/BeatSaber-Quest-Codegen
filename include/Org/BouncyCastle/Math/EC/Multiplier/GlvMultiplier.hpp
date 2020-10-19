@@ -39,10 +39,10 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Offset: 0x18
     Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism;
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.Endo.GlvEndomorphism glvEndomorphism)
-    // Offset: 0x1B54050
+    // Offset: 0x18F5244
     static GlvMultiplier* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism);
     // protected override Org.BouncyCastle.Math.EC.ECPoint MultiplyPositive(Org.BouncyCastle.Math.EC.ECPoint p, Org.BouncyCastle.Math.BigInteger k)
-    // Offset: 0x1B5412C
+    // Offset: 0x18F5320
     // Implemented from: Org.BouncyCastle.Math.EC.Multiplier.AbstractECMultiplier
     // Base method: Org.BouncyCastle.Math.EC.ECPoint AbstractECMultiplier::MultiplyPositive(Org.BouncyCastle.Math.EC.ECPoint p, Org.BouncyCastle.Math.BigInteger k)
     Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(Org::BouncyCastle::Math::EC::ECPoint* p, Org::BouncyCastle::Math::BigInteger* k);

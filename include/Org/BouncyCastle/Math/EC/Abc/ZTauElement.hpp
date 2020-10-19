@@ -25,7 +25,7 @@ namespace Org::BouncyCastle::Math::EC::Abc {
     // Offset: 0x18
     Org::BouncyCastle::Math::BigInteger* v;
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger u, Org.BouncyCastle.Math.BigInteger v)
-    // Offset: 0x1B25AFC
+    // Offset: 0x18C6CF0
     static ZTauElement* New_ctor(Org::BouncyCastle::Math::BigInteger* u, Org::BouncyCastle::Math::BigInteger* v);
   }; // Org.BouncyCastle.Math.EC.Abc.ZTauElement
 }

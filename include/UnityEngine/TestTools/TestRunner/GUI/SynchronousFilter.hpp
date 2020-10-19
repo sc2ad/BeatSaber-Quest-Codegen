@@ -28,27 +28,27 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     // Nested type: UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c
     class $$c;
     // public NUnit.Framework.Interfaces.TNode ToXml(System.Boolean recursive)
-    // Offset: 0x12C43B8
+    // Offset: 0x10BFC54
     // Implemented from: NUnit.Framework.Interfaces.IXmlNodeBuilder
     // Base method: NUnit.Framework.Interfaces.TNode IXmlNodeBuilder::ToXml(System.Boolean recursive)
     NUnit::Framework::Interfaces::TNode* ToXml(bool recursive);
     // public NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
-    // Offset: 0x12C4420
+    // Offset: 0x10BFCBC
     // Implemented from: NUnit.Framework.Interfaces.IXmlNodeBuilder
     // Base method: NUnit.Framework.Interfaces.TNode IXmlNodeBuilder::AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
     // public System.Boolean Pass(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x12C447C
+    // Offset: 0x10BFD18
     // Implemented from: NUnit.Framework.Interfaces.ITestFilter
     // Base method: System.Boolean ITestFilter::Pass(NUnit.Framework.Interfaces.ITest test)
     bool Pass(NUnit::Framework::Interfaces::ITest* test);
     // public System.Boolean IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x12C4CE4
+    // Offset: 0x10C0580
     // Implemented from: NUnit.Framework.Interfaces.ITestFilter
     // Base method: System.Boolean ITestFilter::IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
     bool IsExplicitMatch(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void .ctor()
-    // Offset: 0x12C4CE8
+    // Offset: 0x10C0584
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SynchronousFilter* New_ctor();

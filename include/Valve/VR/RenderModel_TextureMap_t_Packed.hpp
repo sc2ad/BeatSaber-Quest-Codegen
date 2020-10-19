@@ -34,10 +34,10 @@ namespace Valve::VR {
     // Creating value type constructor for type: RenderModel_TextureMap_t_Packed
     constexpr RenderModel_TextureMap_t_Packed(::Il2CppChar unWidth_ = {}, ::Il2CppChar unHeight_ = {}, System::IntPtr rubTextureMapData_ = {}) noexcept : unWidth{unWidth_}, unHeight{unHeight_}, rubTextureMapData{rubTextureMapData_} {}
     // public System.Void .ctor(Valve.VR.RenderModel_TextureMap_t unpacked)
-    // Offset: 0xDDC680
+    // Offset: 0xC89D18
     RenderModel_TextureMap_t_Packed(Valve::VR::RenderModel_TextureMap_t unpacked);
     // public System.Void Unpack(ref Valve.VR.RenderModel_TextureMap_t unpacked)
-    // Offset: 0xDDC694
+    // Offset: 0xC89D2C
     void Unpack(Valve::VR::RenderModel_TextureMap_t& unpacked);
   }; // Valve.VR.RenderModel_TextureMap_t_Packed
 }

@@ -21,23 +21,23 @@ namespace UnityEngine {
       return m_Ptr;
     }
     // protected System.Void .ctor()
-    // Offset: 0x19956D8
+    // Offset: 0x173BAFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TrackedReference* New_ctor();
     // public override System.Boolean Equals(System.Object o)
-    // Offset: 0x1995778
+    // Offset: 0x173BB9C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1995808
+    // Offset: 0x173BC2C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.TrackedReference
   // static public System.Boolean op_Equality(UnityEngine.TrackedReference x, UnityEngine.TrackedReference y)
-  // Offset: 0x19956E0
+  // Offset: 0x173BB04
   bool operator ==(UnityEngine::TrackedReference* x, UnityEngine::TrackedReference& y);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

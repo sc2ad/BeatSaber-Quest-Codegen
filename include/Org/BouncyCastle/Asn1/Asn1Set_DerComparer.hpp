@@ -16,7 +16,7 @@ namespace Org::BouncyCastle::Asn1 {
   class Asn1Set::DerComparer : public ::Il2CppObject, public System::Collections::IComparer {
     public:
     // public System.Int32 Compare(System.Object x, System.Object y)
-    // Offset: 0x1540ED8
+    // Offset: 0x1318700
     // Implemented from: System.Collections.IComparer
     // Base method: System.Int32 IComparer::Compare(System.Object x, System.Object y)
     int Compare(::Il2CppObject* x, ::Il2CppObject* y);
@@ -24,7 +24,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Maps to method: Compare
     int System_Collections_IComparer_Compare(::Il2CppObject* x, ::Il2CppObject* y);
     // public System.Void .ctor()
-    // Offset: 0x1540EC4
+    // Offset: 0x13186EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Asn1Set::DerComparer* New_ctor();

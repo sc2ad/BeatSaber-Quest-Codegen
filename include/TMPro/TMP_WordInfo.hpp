@@ -37,7 +37,7 @@ namespace TMPro {
     // Creating value type constructor for type: TMP_WordInfo
     constexpr TMP_WordInfo(TMPro::TMP_Text* textComponent_ = {}, int firstCharacterIndex_ = {}, int lastCharacterIndex_ = {}, int characterCount_ = {}) noexcept : textComponent{textComponent_}, firstCharacterIndex{firstCharacterIndex_}, lastCharacterIndex{lastCharacterIndex_}, characterCount{characterCount_} {}
     // public System.String GetWord()
-    // Offset: 0xDA7C58
+    // Offset: 0xC5D488
     ::Il2CppString* GetWord();
   }; // TMPro.TMP_WordInfo
 }

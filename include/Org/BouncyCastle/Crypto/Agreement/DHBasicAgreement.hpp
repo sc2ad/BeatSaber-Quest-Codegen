@@ -39,22 +39,22 @@ namespace Org::BouncyCastle::Crypto::Agreement {
     // Offset: 0x18
     Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams;
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x18777C0
+    // Offset: 0x161DBE4
     // Implemented from: Org.BouncyCastle.Crypto.IBasicAgreement
     // Base method: System.Void IBasicAgreement::Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetFieldSize()
-    // Offset: 0x18778E8
+    // Offset: 0x161DD0C
     // Implemented from: Org.BouncyCastle.Crypto.IBasicAgreement
     // Base method: System.Int32 IBasicAgreement::GetFieldSize()
     int GetFieldSize();
     // public Org.BouncyCastle.Math.BigInteger CalculateAgreement(Org.BouncyCastle.Crypto.ICipherParameters pubKey)
-    // Offset: 0x1877930
+    // Offset: 0x161DD54
     // Implemented from: Org.BouncyCastle.Crypto.IBasicAgreement
     // Base method: Org.BouncyCastle.Math.BigInteger IBasicAgreement::CalculateAgreement(Org.BouncyCastle.Crypto.ICipherParameters pubKey)
     Org::BouncyCastle::Math::BigInteger* CalculateAgreement(Org::BouncyCastle::Crypto::ICipherParameters* pubKey);
     // public System.Void .ctor()
-    // Offset: 0x1877B94
+    // Offset: 0x161DFB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DHBasicAgreement* New_ctor();

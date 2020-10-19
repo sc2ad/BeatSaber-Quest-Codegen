@@ -24,15 +24,15 @@ namespace MasterServer {
   class DedicatedServerMessageReceivedAcknowledge : public GlobalNamespace::BaseMasterServerAcknowledgeMessage, public MasterServer::IDedicatedServerMessage {
     public:
     // static public PacketPool`1<MasterServer.DedicatedServerMessageReceivedAcknowledge> get_pool()
-    // Offset: 0x10BD138
+    // Offset: 0x211ECA0
     static GlobalNamespace::PacketPool_1<MasterServer::DedicatedServerMessageReceivedAcknowledge*>* get_pool();
     // public override System.Void Release()
-    // Offset: 0x10BD180
+    // Offset: 0x211ECE8
     // Implemented from: BaseMasterServerResponse
     // Base method: System.Void BaseMasterServerResponse::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x10BD1DC
+    // Offset: 0x211ED44
     // Implemented from: BaseMasterServerAcknowledgeMessage
     // Base method: System.Void BaseMasterServerAcknowledgeMessage::.ctor()
     // Base method: System.Void BaseMasterServerResponse::.ctor()

@@ -46,15 +46,15 @@ namespace HMUI {
     // Offset: 0x38
     System::Action* finishedCallback;
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x218C4FC
+    // Offset: 0x1EE0160
     static ViewController::$PresentViewControllerCoroutine$d__58* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x218D474
+    // Offset: 0x1EE10D8
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x218D478
+    // Offset: 0x1EE10DC
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -62,17 +62,17 @@ namespace HMUI {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x218D760
+    // Offset: 0x1EE13C4
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator_1::get_Current()
     ::Il2CppObject* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x218D768
+    // Offset: 0x1EE13CC
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x218D7C8
+    // Offset: 0x1EE142C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();

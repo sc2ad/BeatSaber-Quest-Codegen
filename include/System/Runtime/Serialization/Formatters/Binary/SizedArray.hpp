@@ -20,27 +20,27 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x18
     ::Array<::Il2CppObject*>* negObjects;
     // System.Void .ctor(System.Int32 length)
-    // Offset: 0x14CA13C
+    // Offset: 0x129F964
     static SizedArray* New_ctor(int length);
     // private System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.SizedArray sizedArray)
-    // Offset: 0x14CA1D0
+    // Offset: 0x129F9F8
     static SizedArray* New_ctor(System::Runtime::Serialization::Formatters::Binary::SizedArray* sizedArray);
     // System.Object get_Item(System.Int32 index)
-    // Offset: 0x14BF200
+    // Offset: 0x1294A28
     ::Il2CppObject* get_Item(int index);
     // System.Void set_Item(System.Int32 index, System.Object value)
-    // Offset: 0x14CA310
+    // Offset: 0x129FB38
     void set_Item(int index, ::Il2CppObject* value);
     // System.Void IncreaseCapacity(System.Int32 index)
-    // Offset: 0x14CA430
+    // Offset: 0x129FC58
     void IncreaseCapacity(int index);
     // System.Void .ctor()
-    // Offset: 0x14CA0B4
+    // Offset: 0x129F8DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SizedArray* New_ctor();
     // public System.Object Clone()
-    // Offset: 0x14CA2B0
+    // Offset: 0x129FAD8
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();

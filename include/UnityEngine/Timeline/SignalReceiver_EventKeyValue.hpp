@@ -38,25 +38,25 @@ namespace UnityEngine::Timeline {
     // Offset: 0x18
     System::Collections::Generic::List_1<UnityEngine::Events::UnityEvent*>* m_Events;
     // public System.Boolean TryGetValue(UnityEngine.Timeline.SignalAsset key, out UnityEngine.Events.UnityEvent value)
-    // Offset: 0x16237F8
+    // Offset: 0x13FA020
     bool TryGetValue(UnityEngine::Timeline::SignalAsset* key, UnityEngine::Events::UnityEvent*& value);
     // public System.Void Append(UnityEngine.Timeline.SignalAsset key, UnityEngine.Events.UnityEvent value)
-    // Offset: 0x16239EC
+    // Offset: 0x13FA214
     void Append(UnityEngine::Timeline::SignalAsset* key, UnityEngine::Events::UnityEvent* value);
     // public System.Void Remove(System.Int32 idx)
-    // Offset: 0x1623FEC
+    // Offset: 0x13FA814
     void Remove(int idx);
     // public System.Void Remove(UnityEngine.Timeline.SignalAsset key)
-    // Offset: 0x1623BB0
+    // Offset: 0x13FA3D8
     void Remove(UnityEngine::Timeline::SignalAsset* key);
     // public System.Collections.Generic.List`1<UnityEngine.Timeline.SignalAsset> get_signals()
-    // Offset: 0x16243E8
+    // Offset: 0x13FAC10
     System::Collections::Generic::List_1<UnityEngine::Timeline::SignalAsset*>* get_signals();
     // public System.Collections.Generic.List`1<UnityEngine.Events.UnityEvent> get_events()
-    // Offset: 0x16243F0
+    // Offset: 0x13FAC18
     System::Collections::Generic::List_1<UnityEngine::Events::UnityEvent*>* get_events();
     // public System.Void .ctor()
-    // Offset: 0x1624338
+    // Offset: 0x13FAB60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SignalReceiver::EventKeyValue* New_ctor();

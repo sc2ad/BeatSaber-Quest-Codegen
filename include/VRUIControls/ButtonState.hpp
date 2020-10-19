@@ -30,25 +30,25 @@ namespace VRUIControls {
     // Offset: 0x20
     float pressedValue;
     // public VRUIControls.MouseButtonEventData get_eventData()
-    // Offset: 0x21A5C48
+    // Offset: 0x1EF88AC
     VRUIControls::MouseButtonEventData* get_eventData();
     // public System.Void set_eventData(VRUIControls.MouseButtonEventData value)
-    // Offset: 0x21A5C50
+    // Offset: 0x1EF88B4
     void set_eventData(VRUIControls::MouseButtonEventData* value);
     // public UnityEngine.EventSystems.PointerEventData/InputButton get_button()
-    // Offset: 0x21A5C58
+    // Offset: 0x1EF88BC
     UnityEngine::EventSystems::PointerEventData::InputButton get_button();
     // public System.Void set_button(UnityEngine.EventSystems.PointerEventData/InputButton value)
-    // Offset: 0x21A5C60
+    // Offset: 0x1EF88C4
     void set_button(UnityEngine::EventSystems::PointerEventData::InputButton value);
     // public System.Single get_pressedValue()
-    // Offset: 0x21A5C68
+    // Offset: 0x1EF88CC
     float get_pressedValue();
     // public System.Void set_pressedValue(System.Single value)
-    // Offset: 0x21A5C70
+    // Offset: 0x1EF88D4
     void set_pressedValue(float value);
     // public System.Void .ctor()
-    // Offset: 0x21A5C78
+    // Offset: 0x1EF88DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ButtonState* New_ctor();

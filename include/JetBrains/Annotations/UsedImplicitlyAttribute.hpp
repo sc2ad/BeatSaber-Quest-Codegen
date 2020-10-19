@@ -24,10 +24,10 @@ namespace JetBrains::Annotations {
     // Offset: 0x14
     JetBrains::Annotations::ImplicitUseTargetFlags TargetFlags;
     // public System.Void .ctor(JetBrains.Annotations.ImplicitUseKindFlags useKindFlags, JetBrains.Annotations.ImplicitUseTargetFlags targetFlags)
-    // Offset: 0x19DDB5C
+    // Offset: 0x1783F80
     static UsedImplicitlyAttribute* New_ctor(JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
     // public System.Void .ctor()
-    // Offset: 0x19DDB2C
+    // Offset: 0x1783F50
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

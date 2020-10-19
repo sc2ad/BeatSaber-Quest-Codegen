@@ -25,16 +25,16 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x18
     ::Il2CppString* m_ReleaseNotes;
     // public UnityEngine.ProBuilder.SemVer get_versionInfo()
-    // Offset: 0x1D93A10
+    // Offset: 0x1AE6674
     UnityEngine::ProBuilder::SemVer* get_versionInfo();
     // public System.String get_releaseNotes()
-    // Offset: 0x1D93A18
+    // Offset: 0x1AE667C
     ::Il2CppString* get_releaseNotes();
     // public System.Void .ctor(UnityEngine.ProBuilder.SemVer version, System.String releaseNotes)
-    // Offset: 0x1D939C0
+    // Offset: 0x1AE6624
     static ChangelogEntry* New_ctor(UnityEngine::ProBuilder::SemVer* version, ::Il2CppString* releaseNotes);
     // public override System.String ToString()
-    // Offset: 0x1D93A20
+    // Offset: 0x1AE6684
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

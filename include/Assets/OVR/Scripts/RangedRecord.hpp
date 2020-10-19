@@ -23,7 +23,7 @@ namespace Assets::OVR::Scripts {
     // Offset: 0x28
     float max;
     // public System.Void .ctor(System.String cat, System.String msg, System.Single val, System.Single minVal, System.Single maxVal)
-    // Offset: 0x13725F8
+    // Offset: 0x1147D34
     static RangedRecord* New_ctor(::Il2CppString* cat, ::Il2CppString* msg, float val, float minVal, float maxVal);
   }; // Assets.OVR.Scripts.RangedRecord
 }

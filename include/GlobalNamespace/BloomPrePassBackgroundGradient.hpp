@@ -71,15 +71,15 @@ namespace GlobalNamespace {
     // Set static field: static private System.Boolean _initialized
     static void _set__initialized(bool value);
     // private System.Void InitIfNeeded()
-    // Offset: 0x1FA8834
+    // Offset: 0x1CF9498
     void InitIfNeeded();
     // public override System.Void Render(UnityEngine.RenderTexture dest, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix)
-    // Offset: 0x1FA8990
+    // Offset: 0x1CF95F4
     // Implemented from: BloomPrePassAfterLightsPass
     // Base method: System.Void BloomPrePassAfterLightsPass::Render(UnityEngine.RenderTexture dest, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix)
     void Render(UnityEngine::RenderTexture* dest, UnityEngine::Matrix4x4 viewMatrix, UnityEngine::Matrix4x4 projectionMatrix);
     // public System.Void .ctor()
-    // Offset: 0x1FA8B64
+    // Offset: 0x1CF97C8
     // Implemented from: BloomPrePassAfterLightsPass
     // Base method: System.Void BloomPrePassAfterLightsPass::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -89,7 +89,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BloomPrePassBackgroundGradient* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1FA8BCC
+    // Offset: 0x1CF9830
     // Implemented from: BloomPrePassAfterLightsPass
     // Base method: System.Void BloomPrePassAfterLightsPass::.cctor()
     // Base method: System.Void Object::.cctor()

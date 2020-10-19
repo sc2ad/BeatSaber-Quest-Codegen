@@ -22,40 +22,40 @@ namespace System {
   class Object {
     public:
     // public System.Boolean Equals(System.Object obj)
-    // Offset: 0x1AB2E5C
+    // Offset: 0x1853050
     bool Equals(::Il2CppObject* obj);
     // static public System.Boolean Equals(System.Object objA, System.Object objB)
-    // Offset: 0x1AB2E68
+    // Offset: 0x185305C
     static bool Equals(::Il2CppObject* objA, ::Il2CppObject* objB);
     // public System.Void .ctor()
-    // Offset: 0x1AAA588
+    // Offset: 0x184A77C
     static ::Il2CppObject* New_ctor();
     // protected System.Void Finalize()
-    // Offset: 0x1AB2E94
+    // Offset: 0x1853088
     void Finalize();
     // public System.Int32 GetHashCode()
-    // Offset: 0x1AB2E98
+    // Offset: 0x185308C
     int GetHashCode();
     // public System.Type GetType()
-    // Offset: 0x1AB2EA0
+    // Offset: 0x1853094
     System::Type* GetType();
     // protected System.Object MemberwiseClone()
-    // Offset: 0x1AB2D70
+    // Offset: 0x1852F64
     ::Il2CppObject* MemberwiseClone();
     // public System.String ToString()
-    // Offset: 0x1AB2EA4
+    // Offset: 0x1853098
     ::Il2CppString* ToString();
     // static public System.Boolean ReferenceEquals(System.Object objA, System.Object objB)
-    // Offset: 0x1AB2EC8
+    // Offset: 0x18530BC
     static bool ReferenceEquals(::Il2CppObject* objA, ::Il2CppObject* objB);
     // static System.Int32 InternalGetHashCode(System.Object o)
-    // Offset: 0x1AB2E9C
+    // Offset: 0x1853090
     static int InternalGetHashCode(::Il2CppObject* o);
     // private System.Void FieldGetter(System.String typeName, System.String fieldName, ref System.Object val)
-    // Offset: 0x1AB2ED4
+    // Offset: 0x18530C8
     void FieldGetter(::Il2CppString* typeName, ::Il2CppString* fieldName, ::Il2CppObject*& val);
     // private System.Void FieldSetter(System.String typeName, System.String fieldName, System.Object val)
-    // Offset: 0x1AB2ED8
+    // Offset: 0x18530CC
     void FieldSetter(::Il2CppString* typeName, ::Il2CppString* fieldName, ::Il2CppObject* val);
   }; // System.Object
 }

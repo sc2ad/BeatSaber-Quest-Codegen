@@ -36,37 +36,37 @@ namespace GlobalNamespace {
     // Offset: 0x20
     System::Threading::Tasks::Task_1<System::Net::IPEndPoint*>* getEndPointTask;
     // public System.Net.IPEndPoint get_endPoint()
-    // Offset: 0x10C86AC
+    // Offset: 0x212A214
     System::Net::IPEndPoint* get_endPoint();
     // public System.Void .ctor(System.String hostName, System.Int32 port)
-    // Offset: 0x10CE970
+    // Offset: 0x21304D8
     static MasterServerEndPoint* New_ctor(::Il2CppString* hostName, int port);
     // public System.Threading.Tasks.Task`1<System.Net.IPEndPoint> GetEndPointAsync()
-    // Offset: 0x10CE9B8
+    // Offset: 0x2130520
     System::Threading::Tasks::Task_1<System::Net::IPEndPoint*>* GetEndPointAsync();
     // public System.Net.IPEndPoint GetEndPoint()
-    // Offset: 0x10CEA94
+    // Offset: 0x21305DC
     System::Net::IPEndPoint* GetEndPoint();
     // private System.Net.IPEndPoint GetEndPointInternal()
-    // Offset: 0x10CEB38
+    // Offset: 0x2130680
     System::Net::IPEndPoint* GetEndPointInternal();
     // public override System.String ToString()
-    // Offset: 0x10CEBFC
+    // Offset: 0x2130744
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x10CEC84
+    // Offset: 0x21307CC
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(MasterServerEndPoint other)
-    // Offset: 0x10CD18C
+    // Offset: 0x212ECF4
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(MasterServerEndPoint other)
     bool Equals(GlobalNamespace::MasterServerEndPoint* other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x10CED34
+    // Offset: 0x213087C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

@@ -42,39 +42,39 @@ namespace System::Net {
   class WebResponse : public System::MarshalByRefObject, public System::Runtime::Serialization::ISerializable, public System::IDisposable {
     public:
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x13C9DEC
+    // Offset: 0x119E528
     static WebResponse* New_ctor(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // protected System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x13C9E00
+    // Offset: 0x119E53C
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // public System.Void Close()
-    // Offset: 0x13C9E04
+    // Offset: 0x119E540
     void Close();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x13C9E84
+    // Offset: 0x119E5C0
     void Dispose(bool disposing);
     // public System.IO.Stream GetResponseStream()
-    // Offset: 0x13C9F5C
+    // Offset: 0x119E698
     System::IO::Stream* GetResponseStream();
     // public System.Uri get_ResponseUri()
-    // Offset: 0x13C9FA4
+    // Offset: 0x119E6E0
     System::Uri* get_ResponseUri();
     // public System.Net.WebHeaderCollection get_Headers()
-    // Offset: 0x13C9FEC
+    // Offset: 0x119E728
     System::Net::WebHeaderCollection* get_Headers();
     // protected System.Void .ctor()
-    // Offset: 0x13C9DE4
+    // Offset: 0x119E520
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
     static WebResponse* New_ctor();
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x13C9DF4
+    // Offset: 0x119E530
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // public System.Void Dispose()
-    // Offset: 0x13C9E08
+    // Offset: 0x119E544
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

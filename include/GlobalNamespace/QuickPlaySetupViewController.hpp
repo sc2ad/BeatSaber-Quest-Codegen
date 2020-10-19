@@ -71,54 +71,54 @@ namespace GlobalNamespace {
     // Offset: 0xAC
     bool isReady;
     // public System.Void add_suggestBeatmapEvent(System.Action value)
-    // Offset: 0xF737B4
+    // Offset: 0x206A6C4
     void add_suggestBeatmapEvent(System::Action* value);
     // public System.Void remove_suggestBeatmapEvent(System.Action value)
-    // Offset: 0xF7442C
+    // Offset: 0x206B3D0
     void remove_suggestBeatmapEvent(System::Action* value);
     // public System.Void add_deleteSuggestedBeatmapEvent(System.Action value)
-    // Offset: 0xF73858
+    // Offset: 0x206A768
     void add_deleteSuggestedBeatmapEvent(System::Action* value);
     // public System.Void remove_deleteSuggestedBeatmapEvent(System.Action value)
-    // Offset: 0xF744D0
+    // Offset: 0x206B474
     void remove_deleteSuggestedBeatmapEvent(System::Action* value);
     // public System.Void add_setPlayerReadyEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0xF73710
+    // Offset: 0x206A620
     void add_setPlayerReadyEvent(System::Action_1<bool>* value);
     // public System.Void remove_setPlayerReadyEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0xF74388
+    // Offset: 0x206B32C
     void remove_setPlayerReadyEvent(System::Action_1<bool>* value);
     // public System.Void SetLocalPlayerData(ILobbyPlayerDataModel lobbyPlayerData)
-    // Offset: 0xF766F8
+    // Offset: 0x206D888
     void SetLocalPlayerData(GlobalNamespace::ILobbyPlayerDataModel* lobbyPlayerData);
     // public System.Void SetGameServerSettings(BeatmapDifficultyMask beatmapDifficultyMask, SongPackMask songPackMask)
-    // Offset: 0xF76928
+    // Offset: 0x206DAB8
     void SetGameServerSettings(GlobalNamespace::BeatmapDifficultyMask beatmapDifficultyMask, GlobalNamespace::SongPackMask songPackMask);
     // public System.Void SetLobbyState(MultiplayerLobbyState lobbyState)
-    // Offset: 0xF73B6C
+    // Offset: 0x206AA7C
     void SetLobbyState(GlobalNamespace::MultiplayerLobbyState lobbyState);
     // private System.Void SetReadyButtonsState()
-    // Offset: 0xF76C10
+    // Offset: 0x206DDA0
     void SetReadyButtonsState();
     // private System.Void <DidActivate>b__18_0()
-    // Offset: 0xF76E5C
+    // Offset: 0x206DFEC
     void $DidActivate$b__18_0();
     // private System.Void <DidActivate>b__18_1()
-    // Offset: 0xF76E70
+    // Offset: 0x206E000
     void $DidActivate$b__18_1();
     // private System.Void <DidActivate>b__18_2()
-    // Offset: 0xF76E84
+    // Offset: 0x206E014
     void $DidActivate$b__18_2();
     // private System.Void <DidActivate>b__18_3()
-    // Offset: 0xF76EE8
+    // Offset: 0x206E078
     void $DidActivate$b__18_3();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF76CA0
+    // Offset: 0x206DE30
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xF76E54
+    // Offset: 0x206DFE4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

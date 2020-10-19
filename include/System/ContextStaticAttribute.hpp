@@ -14,7 +14,7 @@ namespace System {
   class ContextStaticAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x17EE154
+    // Offset: 0x1595578
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

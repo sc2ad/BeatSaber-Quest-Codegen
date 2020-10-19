@@ -26,12 +26,12 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   class FixedPointCombMultiplier : public Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
     public:
     // protected override Org.BouncyCastle.Math.EC.ECPoint MultiplyPositive(Org.BouncyCastle.Math.EC.ECPoint p, Org.BouncyCastle.Math.BigInteger k)
-    // Offset: 0x1B53584
+    // Offset: 0x18F4778
     // Implemented from: Org.BouncyCastle.Math.EC.Multiplier.AbstractECMultiplier
     // Base method: Org.BouncyCastle.Math.EC.ECPoint AbstractECMultiplier::MultiplyPositive(Org.BouncyCastle.Math.EC.ECPoint p, Org.BouncyCastle.Math.BigInteger k)
     Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(Org::BouncyCastle::Math::EC::ECPoint* p, Org::BouncyCastle::Math::BigInteger* k);
     // public System.Void .ctor()
-    // Offset: 0x1B539BC
+    // Offset: 0x18F4BB0
     // Implemented from: Org.BouncyCastle.Math.EC.Multiplier.AbstractECMultiplier
     // Base method: System.Void AbstractECMultiplier::.ctor()
     // Base method: System.Void Object::.ctor()

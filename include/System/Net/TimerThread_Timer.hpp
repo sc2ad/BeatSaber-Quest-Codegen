@@ -22,13 +22,13 @@ namespace System::Net {
     // Offset: 0x14
     int m_DurationMilliseconds;
     // System.Void .ctor(System.Int32 durationMilliseconds)
-    // Offset: 0x13B6F80
+    // Offset: 0x118B6BC
     static TimerThread::Timer* New_ctor(int durationMilliseconds);
     // System.Boolean Cancel()
     // Offset: 0xFFFFFFFF
     bool Cancel();
     // public System.Void Dispose()
-    // Offset: 0x13B6FB8
+    // Offset: 0x118B6F4
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

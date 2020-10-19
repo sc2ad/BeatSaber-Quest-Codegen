@@ -40,13 +40,13 @@ namespace MasterServer {
       return cookie;
     }
     // static public PacketPool`1<MasterServer.HelloVerifyRequest> get_pool()
-    // Offset: 0x10BF024
+    // Offset: 0x2120B8C
     static GlobalNamespace::PacketPool_1<MasterServer::HelloVerifyRequest*>* get_pool();
     // public MasterServer.HelloVerifyRequest Init(System.Byte[] cookie)
-    // Offset: 0x10BF06C
+    // Offset: 0x2120BD4
     MasterServer::HelloVerifyRequest* Init(::Array<uint8_t>* cookie);
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x10BF0A0
+    // Offset: 0x2120C08
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -54,7 +54,7 @@ namespace MasterServer {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x10BF0DC
+    // Offset: 0x2120C44
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -62,12 +62,12 @@ namespace MasterServer {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x10BF118
+    // Offset: 0x2120C80
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x10BF184
+    // Offset: 0x2120CEC
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()

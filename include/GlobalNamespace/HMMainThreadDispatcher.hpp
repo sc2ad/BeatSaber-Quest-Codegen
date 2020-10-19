@@ -43,24 +43,24 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.Queue`1<System.Action> _mainThreadExecutionQueue
     static void _set__mainThreadExecutionQueue(System::Collections::Generic::Queue_1<System::Action*>* value);
     // protected System.Void Update()
-    // Offset: 0x109C7E4
+    // Offset: 0x2113728
     void Update();
     // public System.Void Enqueue(System.Collections.IEnumerator action)
-    // Offset: 0x109C95C
+    // Offset: 0x21138A0
     void Enqueue(System::Collections::IEnumerator* action);
     // public System.Void Enqueue(System.Action action)
-    // Offset: 0x109CB08
+    // Offset: 0x2113A4C
     void Enqueue(System::Action* action);
     // private System.Collections.IEnumerator ActionCoroutine(System.Action action)
-    // Offset: 0x109CB30
+    // Offset: 0x2113A74
     System::Collections::IEnumerator* ActionCoroutine(System::Action* action);
     // static protected System.Void NoDomainReloadInit()
-    // Offset: 0x109C724
+    // Offset: 0x2113668
     // Implemented from: PersistentSingleton`1
     // Base method: System.Void PersistentSingleton_1::NoDomainReloadInit()
     static void NoDomainReloadInit();
     // public System.Void .ctor()
-    // Offset: 0x109CBD8
+    // Offset: 0x2113B1C
     // Implemented from: PersistentSingleton`1
     // Base method: System.Void PersistentSingleton_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static HMMainThreadDispatcher* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x109CC48
+    // Offset: 0x2113B8C
     // Implemented from: PersistentSingleton`1
     // Base method: System.Void PersistentSingleton_1::.cctor()
     // Base method: System.Void Object::.cctor()

@@ -60,20 +60,20 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void ClearCache()
-    // Offset: 0x21F80B4
+    // Offset: 0x1F49AC4
     void ClearCache();
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> LoadAudioClipAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x21F812C
+    // Offset: 0x1F49B3C
     // Implemented from: IAudioClipAsyncLoader
     // Base method: System.Threading.Tasks.Task`1<UnityEngine.AudioClip> IAudioClipAsyncLoader::LoadAudioClipAsync(System.String path, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* LoadAudioClipAsync(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> LoadSpriteAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x21F8290
+    // Offset: 0x1F49CA0
     // Implemented from: ISpriteAsyncLoader
     // Base method: System.Threading.Tasks.Task`1<UnityEngine.Sprite> ISpriteAsyncLoader::LoadSpriteAsync(System.String path, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* LoadSpriteAsync(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x21F83F4
+    // Offset: 0x1F49E04
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

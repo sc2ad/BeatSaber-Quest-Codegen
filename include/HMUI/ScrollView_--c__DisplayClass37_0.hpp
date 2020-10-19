@@ -21,10 +21,10 @@ namespace HMUI {
       return threshold;
     }
     // System.Boolean <PageDownButtonPressed>b__0(System.Single posy)
-    // Offset: 0x11777C8
+    // Offset: 0x21711B0
     bool $PageDownButtonPressed$b__0(float posy);
     // public System.Void .ctor()
-    // Offset: 0x1176F38
+    // Offset: 0x2170920
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ScrollView::$$c__DisplayClass37_0* New_ctor();

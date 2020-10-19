@@ -36,10 +36,10 @@ namespace System::Runtime::Remoting {
     // Offset: 0x30
     System::Collections::IList* CustomData;
     // public System.Void CopyFrom(System.Runtime.Remoting.ProviderData other)
-    // Offset: 0x14FBFB8
+    // Offset: 0x12D27E0
     void CopyFrom(System::Runtime::Remoting::ProviderData* other);
     // public System.Void .ctor()
-    // Offset: 0x14FC614
+    // Offset: 0x12D2E3C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ProviderData* New_ctor();

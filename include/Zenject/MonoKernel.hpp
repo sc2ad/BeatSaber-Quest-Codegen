@@ -42,28 +42,28 @@ namespace Zenject {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Boolean get_IsDestroyed()
-    // Offset: 0x151261C
+    // Offset: 0x12E8E44
     bool get_IsDestroyed();
     // public System.Void Start()
-    // Offset: 0x1512624
+    // Offset: 0x12E8E4C
     void Start();
     // public System.Void Initialize()
-    // Offset: 0x1512628
+    // Offset: 0x12E8E50
     void Initialize();
     // public System.Void Update()
-    // Offset: 0x151265C
+    // Offset: 0x12E8E84
     void Update();
     // public System.Void FixedUpdate()
-    // Offset: 0x151266C
+    // Offset: 0x12E8E94
     void FixedUpdate();
     // public System.Void LateUpdate()
-    // Offset: 0x151267C
+    // Offset: 0x12E8EA4
     void LateUpdate();
     // public System.Void OnDestroy()
-    // Offset: 0x151268C
+    // Offset: 0x12E8EB4
     void OnDestroy();
     // protected System.Void .ctor()
-    // Offset: 0x15126F8
+    // Offset: 0x12E8F20
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

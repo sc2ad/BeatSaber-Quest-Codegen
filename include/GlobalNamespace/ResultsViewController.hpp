@@ -124,47 +124,47 @@ namespace GlobalNamespace {
     // Offset: 0x109
     bool practice;
     // public System.Void add_continueButtonPressedEvent(System.Action`1<ResultsViewController> value)
-    // Offset: 0xF78938
+    // Offset: 0x206FB54
     void add_continueButtonPressedEvent(System::Action_1<GlobalNamespace::ResultsViewController*>* value);
     // public System.Void remove_continueButtonPressedEvent(System.Action`1<ResultsViewController> value)
-    // Offset: 0xF789DC
+    // Offset: 0x206FBF8
     void remove_continueButtonPressedEvent(System::Action_1<GlobalNamespace::ResultsViewController*>* value);
     // public System.Void add_restartButtonPressedEvent(System.Action`1<ResultsViewController> value)
-    // Offset: 0xF78A80
+    // Offset: 0x206FC9C
     void add_restartButtonPressedEvent(System::Action_1<GlobalNamespace::ResultsViewController*>* value);
     // public System.Void remove_restartButtonPressedEvent(System.Action`1<ResultsViewController> value)
-    // Offset: 0xF78B24
+    // Offset: 0x206FD40
     void remove_restartButtonPressedEvent(System::Action_1<GlobalNamespace::ResultsViewController*>* value);
     // public System.Boolean get_practice()
-    // Offset: 0xF78BC8
+    // Offset: 0x206FDE4
     bool get_practice();
     // public System.Void Init(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap, System.Boolean practice, System.Boolean newHighScore)
-    // Offset: 0xF78BD0
+    // Offset: 0x206FDEC
     void Init(GlobalNamespace::LevelCompletionResults* levelCompletionResults, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, bool practice, bool newHighScore);
     // private System.Collections.IEnumerator StartFireworksAfterDelay(System.Single delay)
-    // Offset: 0xF792FC
+    // Offset: 0x2070514
     System::Collections::IEnumerator* StartFireworksAfterDelay(float delay);
     // private System.Void SetDataToUI()
-    // Offset: 0xF78DB8
+    // Offset: 0x206FFD4
     void SetDataToUI();
     // private System.Void ContinueButtonPressed()
-    // Offset: 0xF79474
+    // Offset: 0x207068C
     void ContinueButtonPressed();
     // private System.Void RestartButtonPressed()
-    // Offset: 0xF794D8
+    // Offset: 0x20706F0
     void RestartButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF78C28
+    // Offset: 0x206FE44
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0xF79388
+    // Offset: 0x20705A0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0xF7953C
+    // Offset: 0x2070754
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

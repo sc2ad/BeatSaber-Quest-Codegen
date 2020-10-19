@@ -39,10 +39,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::OculusConnectionManager::OculusConnection* $$4__this;
     // System.Void <Ping>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.PingResult> result)
-    // Offset: 0x10BA70C
+    // Offset: 0x2103924
     void $Ping$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::PingResult*>* result);
     // public System.Void .ctor()
-    // Offset: 0x10BA508
+    // Offset: 0x2103720
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusConnectionManager::OculusConnection::$$c__DisplayClass15_0* New_ctor();

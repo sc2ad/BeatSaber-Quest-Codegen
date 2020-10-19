@@ -21,10 +21,10 @@ namespace GlobalNamespace {
   class GeometryTools : public ::Il2CppObject {
     public:
     // static public System.Boolean ThreePointsToBox(UnityEngine.Vector3 p0, UnityEngine.Vector3 p1, UnityEngine.Vector3 p2, out UnityEngine.Vector3 center, out UnityEngine.Vector3 halfSize, out UnityEngine.Quaternion orientation)
-    // Offset: 0x109BC94
+    // Offset: 0x2112BD8
     static bool ThreePointsToBox(UnityEngine::Vector3 p0, UnityEngine::Vector3 p1, UnityEngine::Vector3 p2, UnityEngine::Vector3& center, UnityEngine::Vector3& halfSize, UnityEngine::Quaternion& orientation);
     // public System.Void .ctor()
-    // Offset: 0x109C078
+    // Offset: 0x2112FBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GeometryTools* New_ctor();

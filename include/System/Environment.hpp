@@ -53,10 +53,10 @@ namespace System {
     // Set static field: static private System.OperatingSystem os
     static void _set_os(System::OperatingSystem* value);
     // static System.String GetResourceString(System.String key)
-    // Offset: 0x1246CD0
+    // Offset: 0x104156C
     static ::Il2CppString* GetResourceString(::Il2CppString* key);
     // static System.String GetResourceString(System.String key, params System.Object[] values)
-    // Offset: 0x1248938
+    // Offset: 0x10431D4
     static ::Il2CppString* GetResourceString(::Il2CppString* key, ::Array<::Il2CppObject*>* values);
     // Creating initializer_list -> params proxy for: System.String GetResourceString(System.String key, params System.Object[] values)
     static ::Il2CppString* GetResourceString(::Il2CppString* key, std::initializer_list<::Il2CppObject*> values);
@@ -66,124 +66,124 @@ namespace System {
       return GetResourceString(key, {values...});
     }
     // static System.String GetResourceStringEncodingName(System.Int32 codePage)
-    // Offset: 0x1256AD4
+    // Offset: 0x1051370
     static ::Il2CppString* GetResourceStringEncodingName(int codePage);
     // static public System.String get_CurrentDirectory()
-    // Offset: 0x1256C14
+    // Offset: 0x10514B0
     static ::Il2CppString* get_CurrentDirectory();
     // static public System.Int32 get_CurrentManagedThreadId()
-    // Offset: 0x1256C1C
+    // Offset: 0x10514B8
     static int get_CurrentManagedThreadId();
     // static public System.Boolean get_HasShutdownStarted()
-    // Offset: 0x1256C40
+    // Offset: 0x10514DC
     static bool get_HasShutdownStarted();
     // static public System.String get_MachineName()
-    // Offset: 0x1256C44
+    // Offset: 0x10514E0
     static ::Il2CppString* get_MachineName();
     // static private System.String GetNewLine()
-    // Offset: 0x1256C48
+    // Offset: 0x10514E4
     static ::Il2CppString* GetNewLine();
     // static public System.String get_NewLine()
-    // Offset: 0x1256C4C
+    // Offset: 0x10514E8
     static ::Il2CppString* get_NewLine();
     // static private System.PlatformID get_Platform()
-    // Offset: 0x1256CC8
+    // Offset: 0x1051564
     static System::PlatformID get_Platform();
     // static System.String GetOSVersionString()
-    // Offset: 0x1256CCC
+    // Offset: 0x1051568
     static ::Il2CppString* GetOSVersionString();
     // static public System.OperatingSystem get_OSVersion()
-    // Offset: 0x1256CD0
+    // Offset: 0x105156C
     static System::OperatingSystem* get_OSVersion();
     // static System.Version CreateVersionFromString(System.String info)
-    // Offset: 0x1256D90
+    // Offset: 0x105162C
     static System::Version* CreateVersionFromString(::Il2CppString* info);
     // static public System.String get_StackTrace()
-    // Offset: 0x1256FA4
+    // Offset: 0x1051840
     static ::Il2CppString* get_StackTrace();
     // static public System.Int32 get_TickCount()
-    // Offset: 0x1257018
+    // Offset: 0x10518B4
     static int get_TickCount();
     // static public System.String get_UserDomainName()
-    // Offset: 0x125701C
+    // Offset: 0x10518B8
     static ::Il2CppString* get_UserDomainName();
     // static public System.String get_UserName()
-    // Offset: 0x1257020
+    // Offset: 0x10518BC
     static ::Il2CppString* get_UserName();
     // static public System.Void Exit(System.Int32 exitCode)
-    // Offset: 0x1257024
+    // Offset: 0x10518C0
     static void Exit(int exitCode);
     // static public System.String ExpandEnvironmentVariables(System.String name)
-    // Offset: 0x1257028
+    // Offset: 0x10518C4
     static ::Il2CppString* ExpandEnvironmentVariables(::Il2CppString* name);
     // static public System.String[] GetCommandLineArgs()
-    // Offset: 0x1257404
+    // Offset: 0x1051CA0
     static ::Array<::Il2CppString*>* GetCommandLineArgs();
     // static System.String internalGetEnvironmentVariable_native(System.IntPtr variable)
-    // Offset: 0x1257408
+    // Offset: 0x1051CA4
     static ::Il2CppString* internalGetEnvironmentVariable_native(System::IntPtr variable);
     // static System.String internalGetEnvironmentVariable(System.String variable)
-    // Offset: 0x125740C
+    // Offset: 0x1051CA8
     static ::Il2CppString* internalGetEnvironmentVariable(::Il2CppString* variable);
     // static public System.String GetEnvironmentVariable(System.String variable)
-    // Offset: 0x12572DC
+    // Offset: 0x1051B78
     static ::Il2CppString* GetEnvironmentVariable(::Il2CppString* variable);
     // static private System.Collections.Hashtable GetEnvironmentVariablesNoCase()
-    // Offset: 0x12572FC
+    // Offset: 0x1051B98
     static System::Collections::Hashtable* GetEnvironmentVariablesNoCase();
     // static public System.String GetFolderPath(System.Environment/SpecialFolder folder)
-    // Offset: 0x12574AC
+    // Offset: 0x1051D48
     static ::Il2CppString* GetFolderPath(System::Environment::SpecialFolder folder);
     // static private System.String GetWindowsFolderPath(System.Int32 folder)
-    // Offset: 0x12574F8
+    // Offset: 0x1051D94
     static ::Il2CppString* GetWindowsFolderPath(int folder);
     // static public System.String GetFolderPath(System.Environment/SpecialFolder folder, System.Environment/SpecialFolderOption option)
-    // Offset: 0x12574B4
+    // Offset: 0x1051D50
     static ::Il2CppString* GetFolderPath(System::Environment::SpecialFolder folder, System::Environment::SpecialFolderOption option);
     // static private System.String ReadXdgUserDir(System.String config_dir, System.String home_dir, System.String key, System.String fallback)
-    // Offset: 0x1257908
+    // Offset: 0x10521A4
     static ::Il2CppString* ReadXdgUserDir(::Il2CppString* config_dir, ::Il2CppString* home_dir, ::Il2CppString* key, ::Il2CppString* fallback);
     // static System.String UnixGetFolderPath(System.Environment/SpecialFolder folder, System.Environment/SpecialFolderOption option)
-    // Offset: 0x12574FC
+    // Offset: 0x1051D98
     static ::Il2CppString* UnixGetFolderPath(System::Environment::SpecialFolder folder, System::Environment::SpecialFolderOption option);
     // static public System.String[] GetLogicalDrives()
-    // Offset: 0x1257D5C
+    // Offset: 0x10525F8
     static ::Array<::Il2CppString*>* GetLogicalDrives();
     // static public System.Void FailFast(System.String message)
-    // Offset: 0x1257D64
+    // Offset: 0x1052600
     static void FailFast(::Il2CppString* message);
     // static public System.Void FailFast(System.String message, System.Exception exception)
-    // Offset: 0x1257DC4
+    // Offset: 0x1052660
     static void FailFast(::Il2CppString* message, System::Exception* exception);
     // static public System.Boolean get_Is64BitProcess()
-    // Offset: 0x1257E64
+    // Offset: 0x1052700
     static bool get_Is64BitProcess();
     // static public System.Int32 get_ProcessorCount()
-    // Offset: 0x1257E84
+    // Offset: 0x1052720
     static int get_ProcessorCount();
     // static System.Boolean get_IsRunningOnWindows()
-    // Offset: 0x12572E0
+    // Offset: 0x1051B7C
     static bool get_IsRunningOnWindows();
     // static private System.String[] GetLogicalDrivesInternal()
-    // Offset: 0x1257D60
+    // Offset: 0x10525FC
     static ::Array<::Il2CppString*>* GetLogicalDrivesInternal();
     // static private System.String[] GetEnvironmentVariableNames()
-    // Offset: 0x12574A8
+    // Offset: 0x1051D44
     static ::Array<::Il2CppString*>* GetEnvironmentVariableNames();
     // static System.String GetMachineConfigPath()
-    // Offset: 0x1257E88
+    // Offset: 0x1052724
     static ::Il2CppString* GetMachineConfigPath();
     // static System.String internalGetHome()
-    // Offset: 0x1257D58
+    // Offset: 0x10525F4
     static ::Il2CppString* internalGetHome();
     // static System.Int32 GetPageSize()
-    // Offset: 0x1257E8C
+    // Offset: 0x1052728
     static int GetPageSize();
     // static System.Boolean get_IsUnix()
-    // Offset: 0x1257E90
+    // Offset: 0x105272C
     static bool get_IsUnix();
     // static System.String GetStackTrace(System.Exception e, System.Boolean needFileInfo)
-    // Offset: 0x1257ECC
+    // Offset: 0x1052768
     static ::Il2CppString* GetStackTrace(System::Exception* e, bool needFileInfo);
   }; // System.Environment
 }

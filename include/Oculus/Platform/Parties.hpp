@@ -29,10 +29,10 @@ namespace Oculus::Platform {
   class Parties : public ::Il2CppObject {
     public:
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Party> GetCurrent()
-    // Offset: 0x136D2BC
+    // Offset: 0x11429F8
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Party*>* GetCurrent();
     // static public System.Void SetPartyUpdateNotificationCallback(Oculus.Platform.Message`1/Callback<Oculus.Platform.Models.PartyUpdateNotification> callback)
-    // Offset: 0x136D3C8
+    // Offset: 0x1142B04
     static void SetPartyUpdateNotificationCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::PartyUpdateNotification*>::Callback* callback);
   }; // Oculus.Platform.Parties
 }

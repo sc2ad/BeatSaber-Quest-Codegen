@@ -31,19 +31,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xF180A0
+    // Offset: 0x1FAB7F4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF18180
+    // Offset: 0x1FAB8D4
     void OnDestroy();
     // private System.Void HandlePlayerHeightDidChange(System.Single playerHeight)
-    // Offset: 0xF18154
+    // Offset: 0x1FAB8A8
     void HandlePlayerHeightDidChange(float playerHeight);
     // static public System.Single JumpOffsetYForPlayerHeight(System.Single playerHeight)
-    // Offset: 0xF1825C
+    // Offset: 0x1FAB9B0
     static float JumpOffsetYForPlayerHeight(float playerHeight);
     // public System.Void .ctor()
-    // Offset: 0xF182EC
+    // Offset: 0x1FABA40
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

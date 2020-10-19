@@ -84,7 +84,7 @@ namespace GlobalNamespace {
     // Offset: 0x88
     GlobalNamespace::PlayerSaveData::MultiplayerModeSettings* multiplayerModeSettings;
     // public System.Void .ctor()
-    // Offset: 0xFDEAB0
+    // Offset: 0x2089868
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerSaveData::LocalPlayer* New_ctor();

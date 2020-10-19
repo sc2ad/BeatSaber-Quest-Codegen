@@ -31,7 +31,7 @@ namespace TMPro::SpriteAssetUtilities {
       return frames;
     }
     // public System.Void .ctor()
-    // Offset: 0xF42A08
+    // Offset: 0xEBD33C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TexturePacker::SpriteDataObject* New_ctor();

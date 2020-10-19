@@ -58,16 +58,16 @@ namespace Zenject {
     // Deleting conversion operator: operator Zenject::BindInfo*
     constexpr operator Zenject::BindInfo*() const noexcept = delete;
     // public System.Void .ctor(Zenject.BindInfo bindInfo, System.Object subIdentifier, System.Boolean resolveAll, System.Func`2<Zenject.DiContainer,Zenject.ISubContainerCreator> subContainerCreatorFactory)
-    // Offset: 0x151D9D0
+    // Offset: 0x12F41F8
     static SubContainerPrefabBindingFinalizer* New_ctor(Zenject::BindInfo* bindInfo, ::Il2CppObject* subIdentifier, bool resolveAll, System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>* subContainerCreatorFactory);
     // private System.Void FinalizeBindingConcrete(Zenject.DiContainer container, System.Collections.Generic.List`1<System.Type> concreteTypes)
-    // Offset: 0x15219CC
+    // Offset: 0x12F81F4
     void FinalizeBindingConcrete(Zenject::DiContainer* container, System::Collections::Generic::List_1<System::Type*>* concreteTypes);
     // private System.Void FinalizeBindingSelf(Zenject.DiContainer container)
-    // Offset: 0x15217DC
+    // Offset: 0x12F8004
     void FinalizeBindingSelf(Zenject::DiContainer* container);
     // protected override System.Void OnFinalizeBinding(Zenject.DiContainer container)
-    // Offset: 0x1521744
+    // Offset: 0x12F7F6C
     // Implemented from: Zenject.ProviderBindingFinalizer
     // Base method: System.Void ProviderBindingFinalizer::OnFinalizeBinding(Zenject.DiContainer container)
     void OnFinalizeBinding(Zenject::DiContainer* container);

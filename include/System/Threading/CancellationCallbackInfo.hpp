@@ -50,13 +50,13 @@ namespace System::Threading {
     // Set static field: static private System.Threading.ContextCallback s_executionContextCallback
     static void _set_s_executionContextCallback(System::Threading::ContextCallback* value);
     // System.Void .ctor(System.Action`1<System.Object> callback, System.Object stateForCallback, System.Threading.SynchronizationContext targetSyncContext, System.Threading.ExecutionContext targetExecutionContext, System.Threading.CancellationTokenSource cancellationTokenSource)
-    // Offset: 0x1A17D84
+    // Offset: 0x17BE1A8
     static CancellationCallbackInfo* New_ctor(System::Action_1<::Il2CppObject*>* callback, ::Il2CppObject* stateForCallback, System::Threading::SynchronizationContext* targetSyncContext, System::Threading::ExecutionContext* targetExecutionContext, System::Threading::CancellationTokenSource* cancellationTokenSource);
     // System.Void ExecuteCallback()
-    // Offset: 0x1A17E18
+    // Offset: 0x17BE23C
     void ExecuteCallback();
     // static private System.Void ExecutionContextCallback(System.Object obj)
-    // Offset: 0x1A18014
+    // Offset: 0x17BE438
     static void ExecutionContextCallback(::Il2CppObject* obj);
   }; // System.Threading.CancellationCallbackInfo
 }

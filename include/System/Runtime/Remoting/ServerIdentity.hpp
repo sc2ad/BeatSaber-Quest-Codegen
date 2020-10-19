@@ -64,28 +64,28 @@ namespace System::Runtime::Remoting {
     // Offset: 0x68
     System::Runtime::Remoting::Lifetime::Lease* lease;
     // public System.Void .ctor(System.String objectUri, System.Runtime.Remoting.Contexts.Context context, System.Type objectType)
-    // Offset: 0x1504AB4
+    // Offset: 0x12DB2DC
     static ServerIdentity* New_ctor(::Il2CppString* objectUri, System::Runtime::Remoting::Contexts::Context* context, System::Type* objectType);
     // public System.Type get_ObjectType()
-    // Offset: 0x1504B04
+    // Offset: 0x12DB32C
     System::Type* get_ObjectType();
     // public System.Void StartTrackingLifetime(System.Runtime.Remoting.Lifetime.ILease lease)
-    // Offset: 0x1503174
+    // Offset: 0x12D999C
     void StartTrackingLifetime(System::Runtime::Remoting::Lifetime::ILease* lease);
     // public System.Void OnLifetimeExpired()
-    // Offset: 0x1504B0C
+    // Offset: 0x12DB334
     void OnLifetimeExpired();
     // public System.Void AttachServerObject(System.MarshalByRefObject serverObject, System.Runtime.Remoting.Contexts.Context context)
-    // Offset: 0x1504560
+    // Offset: 0x12DAD88
     void AttachServerObject(System::MarshalByRefObject* serverObject, System::Runtime::Remoting::Contexts::Context* context);
     // public System.Runtime.Remoting.Lifetime.Lease get_Lease()
-    // Offset: 0x1504D6C
+    // Offset: 0x12DB594
     System::Runtime::Remoting::Lifetime::Lease* get_Lease();
     // public System.Runtime.Remoting.Contexts.Context get_Context()
-    // Offset: 0x1504D74
+    // Offset: 0x12DB59C
     System::Runtime::Remoting::Contexts::Context* get_Context();
     // public System.Void set_Context(System.Runtime.Remoting.Contexts.Context value)
-    // Offset: 0x1504D7C
+    // Offset: 0x12DB5A4
     void set_Context(System::Runtime::Remoting::Contexts::Context* value);
     // public System.Runtime.Remoting.Messaging.IMessage SyncObjectProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
     // Offset: 0xFFFFFFFF
@@ -94,10 +94,10 @@ namespace System::Runtime::Remoting {
     // Offset: 0xFFFFFFFF
     System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncObjectProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg, System::Runtime::Remoting::Messaging::IMessageSink* replySink);
     // protected System.Void DisposeServerObject()
-    // Offset: 0x1504B10
+    // Offset: 0x12DB338
     void DisposeServerObject();
     // public override System.Runtime.Remoting.ObjRef CreateObjRef(System.Type requestedType)
-    // Offset: 0x1504BC8
+    // Offset: 0x12DB3F0
     // Implemented from: System.Runtime.Remoting.Identity
     // Base method: System.Runtime.Remoting.ObjRef Identity::CreateObjRef(System.Type requestedType)
     System::Runtime::Remoting::ObjRef* CreateObjRef(System::Type* requestedType);

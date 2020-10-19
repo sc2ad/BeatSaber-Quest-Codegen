@@ -36,7 +36,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x20
     ::Il2CppString* Name;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x136B990
+    // Offset: 0x11410CC
     static Team* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.Team
 }

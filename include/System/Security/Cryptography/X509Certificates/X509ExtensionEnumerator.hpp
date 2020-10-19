@@ -33,18 +33,18 @@ namespace System::Security::Cryptography::X509Certificates {
       return enumerator;
     }
     // System.Void .ctor(System.Collections.ArrayList list)
-    // Offset: 0x16C5C44
+    // Offset: 0x1480818
     static X509ExtensionEnumerator* New_ctor(System::Collections::ArrayList* list);
     // public System.Security.Cryptography.X509Certificates.X509Extension get_Current()
-    // Offset: 0x16C3C28
+    // Offset: 0x147E7FC
     System::Security::Cryptography::X509Certificates::X509Extension* get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x16C5D64
+    // Offset: 0x1480938
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Boolean MoveNext()
-    // Offset: 0x16C3D1C
+    // Offset: 0x147E8F0
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -52,7 +52,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // public System.Void Reset()
-    // Offset: 0x16C5E18
+    // Offset: 0x14809EC
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();

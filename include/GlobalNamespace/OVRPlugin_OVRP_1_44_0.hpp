@@ -27,37 +27,37 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static public OVRPlugin/Result ovrp_GetHandTrackingEnabled(ref OVRPlugin/Bool handTrackingEnabled)
-    // Offset: 0x14941B0
+    // Offset: 0x12699D8
     static GlobalNamespace::OVRPlugin::Result ovrp_GetHandTrackingEnabled(GlobalNamespace::OVRPlugin::Bool& handTrackingEnabled);
     // static public OVRPlugin/Result ovrp_GetHandState(OVRPlugin/Step stepId, OVRPlugin/Hand hand, out OVRPlugin/HandStateInternal handState)
-    // Offset: 0x1494230
+    // Offset: 0x1269A58
     static GlobalNamespace::OVRPlugin::Result ovrp_GetHandState(GlobalNamespace::OVRPlugin::Step stepId, GlobalNamespace::OVRPlugin::Hand hand, GlobalNamespace::OVRPlugin::HandStateInternal& handState);
     // static public OVRPlugin/Result ovrp_GetSkeleton(OVRPlugin/SkeletonType skeletonType, out OVRPlugin/Skeleton skeleton)
-    // Offset: 0x14942C8
+    // Offset: 0x1269AF0
     static GlobalNamespace::OVRPlugin::Result ovrp_GetSkeleton(GlobalNamespace::OVRPlugin::SkeletonType skeletonType, GlobalNamespace::OVRPlugin::Skeleton& skeleton);
     // static public OVRPlugin/Result ovrp_GetMesh(OVRPlugin/MeshType meshType, System.IntPtr meshPtr)
-    // Offset: 0x14943C0
+    // Offset: 0x1269BE8
     static GlobalNamespace::OVRPlugin::Result ovrp_GetMesh(GlobalNamespace::OVRPlugin::MeshType meshType, System::IntPtr meshPtr);
     // static public OVRPlugin/Result ovrp_OverrideExternalCameraFov(System.Int32 cameraId, OVRPlugin/Bool useOverriddenFov, ref OVRPlugin/Fovf fov)
-    // Offset: 0x149444C
+    // Offset: 0x1269C74
     static GlobalNamespace::OVRPlugin::Result ovrp_OverrideExternalCameraFov(int cameraId, GlobalNamespace::OVRPlugin::Bool useOverriddenFov, GlobalNamespace::OVRPlugin::Fovf& fov);
     // static public OVRPlugin/Result ovrp_GetUseOverriddenExternalCameraFov(System.Int32 cameraId, out OVRPlugin/Bool useOverriddenFov)
-    // Offset: 0x14944E4
+    // Offset: 0x1269D0C
     static GlobalNamespace::OVRPlugin::Result ovrp_GetUseOverriddenExternalCameraFov(int cameraId, GlobalNamespace::OVRPlugin::Bool& useOverriddenFov);
     // static public OVRPlugin/Result ovrp_OverrideExternalCameraStaticPose(System.Int32 cameraId, OVRPlugin/Bool useOverriddenPose, ref OVRPlugin/Posef pose)
-    // Offset: 0x1494574
+    // Offset: 0x1269D9C
     static GlobalNamespace::OVRPlugin::Result ovrp_OverrideExternalCameraStaticPose(int cameraId, GlobalNamespace::OVRPlugin::Bool useOverriddenPose, GlobalNamespace::OVRPlugin::Posef& pose);
     // static public OVRPlugin/Result ovrp_GetUseOverriddenExternalCameraStaticPose(System.Int32 cameraId, out OVRPlugin/Bool useOverriddenStaticPose)
-    // Offset: 0x149460C
+    // Offset: 0x1269E34
     static GlobalNamespace::OVRPlugin::Result ovrp_GetUseOverriddenExternalCameraStaticPose(int cameraId, GlobalNamespace::OVRPlugin::Bool& useOverriddenStaticPose);
     // static public OVRPlugin/Result ovrp_ResetDefaultExternalCamera()
-    // Offset: 0x149469C
+    // Offset: 0x1269EC4
     static GlobalNamespace::OVRPlugin::Result ovrp_ResetDefaultExternalCamera();
     // static public OVRPlugin/Result ovrp_SetDefaultExternalCamera(System.String cameraName, ref OVRPlugin/CameraIntrinsics cameraIntrinsics, ref OVRPlugin/CameraExtrinsics cameraExtrinsics)
-    // Offset: 0x1494710
+    // Offset: 0x1269F38
     static GlobalNamespace::OVRPlugin::Result ovrp_SetDefaultExternalCamera(::Il2CppString* cameraName, GlobalNamespace::OVRPlugin::CameraIntrinsics& cameraIntrinsics, GlobalNamespace::OVRPlugin::CameraExtrinsics& cameraExtrinsics);
     // static private System.Void .cctor()
-    // Offset: 0x14947C0
+    // Offset: 0x1269FE8
     static void _cctor();
   }; // OVRPlugin/OVRP_1_44_0
 }

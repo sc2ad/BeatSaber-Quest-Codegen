@@ -23,7 +23,7 @@ namespace System::Net::NetworkInformation {
   class NetworkInformationException : public System::ComponentModel::Win32Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0x12CA0E8
+    // Offset: 0x10C5984
     // Implemented from: System.ComponentModel.Win32Exception
     // Base method: System.Void Win32Exception::.ctor()
     // Base method: System.Void ExternalException::.ctor()
@@ -32,12 +32,12 @@ namespace System::Net::NetworkInformation {
     // Base method: System.Void Object::.ctor()
     static NetworkInformationException* New_ctor();
     // public System.Void .ctor(System.Int32 errorCode)
-    // Offset: 0x12CA184
+    // Offset: 0x10C5A20
     // Implemented from: System.ComponentModel.Win32Exception
     // Base method: System.Void Win32Exception::.ctor(System.Int32 errorCode)
     static NetworkInformationException* New_ctor(int errorCode);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x12CA1FC
+    // Offset: 0x10C5A98
     // Implemented from: System.ComponentModel.Win32Exception
     // Base method: System.Void Win32Exception::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     // Base method: System.Void ExternalException::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)

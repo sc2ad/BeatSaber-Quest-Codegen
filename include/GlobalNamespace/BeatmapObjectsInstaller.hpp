@@ -17,8 +17,6 @@ namespace GlobalNamespace {
   class BombNoteController;
   // Forward declaring type: ObstacleController
   class ObstacleController;
-  // Forward declaring type: NoteRibbonController
-  class NoteRibbonController;
   // Forward declaring type: NoteLineConnectionController
   class NoteLineConnectionController;
   // Forward declaring type: BeatLine
@@ -39,22 +37,19 @@ namespace GlobalNamespace {
     // private ObstacleController _obstaclePrefab
     // Offset: 0x30
     GlobalNamespace::ObstacleController* obstaclePrefab;
-    // private NoteRibbonController _noteRibbonPrefab
-    // Offset: 0x38
-    GlobalNamespace::NoteRibbonController* noteRibbonPrefab;
     // private NoteLineConnectionController _noteLineConnectionControllerPrefab
-    // Offset: 0x40
+    // Offset: 0x38
     GlobalNamespace::NoteLineConnectionController* noteLineConnectionControllerPrefab;
     // private BeatLine _beatLinePrefab
-    // Offset: 0x48
+    // Offset: 0x40
     GlobalNamespace::BeatLine* beatLinePrefab;
     // public override System.Void InstallBindings()
-    // Offset: 0xF185F0
+    // Offset: 0x1FABD44
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xF187B0
+    // Offset: 0x1FABEC4
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

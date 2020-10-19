@@ -29,12 +29,12 @@ namespace GlobalNamespace {
     // Offset: 0x50
     UnityEngine::GameObject* separator;
     // public override System.Void TableViewSetup(HMUI.ITableCellOwner tableCellOwner, System.Int32 idx)
-    // Offset: 0x218ECE8
+    // Offset: 0x1EE294C
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::TableViewSetup(HMUI.ITableCellOwner tableCellOwner, System.Int32 idx)
     void TableViewSetup(HMUI::ITableCellOwner* tableCellOwner, int idx);
     // public System.Void .ctor()
-    // Offset: 0x218EDDC
+    // Offset: 0x1EE2A40
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

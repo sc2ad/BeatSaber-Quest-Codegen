@@ -28,16 +28,16 @@ namespace Mono::Unity {
   class UnityTls::unitytls_interface_struct::unitytls_tlsctx_create_server_t : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1423658
+    // Offset: 0x11F9D94
     static UnityTls::unitytls_interface_struct::unitytls_tlsctx_create_server_t* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Mono.Unity.UnityTls/unitytls_tlsctx* Invoke(Mono.Unity.UnityTls/unitytls_tlsctx_protocolrange supportedProtocols, Mono.Unity.UnityTls/unitytls_tlsctx_callbacks callbacks, System.UInt64 certChain, System.UInt64 leafCertificateKey, Mono.Unity.UnityTls/unitytls_errorstate* errorState)
-    // Offset: 0x142366C
+    // Offset: 0x11F9DA8
     Mono::Unity::UnityTls::unitytls_tlsctx* Invoke(Mono::Unity::UnityTls::unitytls_tlsctx_protocolrange supportedProtocols, Mono::Unity::UnityTls::unitytls_tlsctx_callbacks callbacks, uint64_t certChain, uint64_t leafCertificateKey, Mono::Unity::UnityTls::unitytls_errorstate* errorState);
     // public System.IAsyncResult BeginInvoke(Mono.Unity.UnityTls/unitytls_tlsctx_protocolrange supportedProtocols, Mono.Unity.UnityTls/unitytls_tlsctx_callbacks callbacks, System.UInt64 certChain, System.UInt64 leafCertificateKey, Mono.Unity.UnityTls/unitytls_errorstate* errorState, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1423A2C
+    // Offset: 0x11FA168
     System::IAsyncResult* BeginInvoke(Mono::Unity::UnityTls::unitytls_tlsctx_protocolrange supportedProtocols, Mono::Unity::UnityTls::unitytls_tlsctx_callbacks callbacks, uint64_t certChain, uint64_t leafCertificateKey, Mono::Unity::UnityTls::unitytls_errorstate* errorState, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Mono.Unity.UnityTls/unitytls_tlsctx* EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1423B18
+    // Offset: 0x11FA254
     Mono::Unity::UnityTls::unitytls_tlsctx* EndInvoke(System::IAsyncResult* result);
   }; // Mono.Unity.UnityTls/unitytls_interface_struct/unitytls_tlsctx_create_server_t
 }

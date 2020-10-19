@@ -32,17 +32,17 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Array<GlobalNamespace::IDifficultyBeatmapSet*>* difficultyBeatmapSets;
     // public UnityEngine.AudioClip get_audioClip()
-    // Offset: 0xF64D38
+    // Offset: 0x201CE78
     // Implemented from: IBeatmapLevelData
     // Base method: UnityEngine.AudioClip IBeatmapLevelData::get_audioClip()
     UnityEngine::AudioClip* get_audioClip();
     // public IDifficultyBeatmapSet[] get_difficultyBeatmapSets()
-    // Offset: 0xF64D40
+    // Offset: 0x201CE80
     // Implemented from: IBeatmapLevelData
     // Base method: IDifficultyBeatmapSet[] IBeatmapLevelData::get_difficultyBeatmapSets()
     ::Array<GlobalNamespace::IDifficultyBeatmapSet*>* get_difficultyBeatmapSets();
     // public System.Void .ctor()
-    // Offset: 0xF64D30
+    // Offset: 0x201CE70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EmptyBeatmapLevelData* New_ctor();

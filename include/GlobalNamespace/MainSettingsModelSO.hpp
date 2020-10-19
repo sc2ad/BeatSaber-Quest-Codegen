@@ -208,36 +208,36 @@ namespace GlobalNamespace {
     // Set static field: static public System.Single kControllersRotationOffsetLimit
     static void _set_kControllersRotationOffsetLimit(float value);
     // public System.Boolean get_createScreenshotDuringTheGame()
-    // Offset: 0xED654C
+    // Offset: 0x1FC0114
     bool get_createScreenshotDuringTheGame();
     // private System.Void set_createScreenshotDuringTheGame(System.Boolean value)
-    // Offset: 0xED6554
+    // Offset: 0x1FC011C
     void set_createScreenshotDuringTheGame(bool value);
     // public System.Boolean get_playingForTheFirstTime()
-    // Offset: 0xED6560
+    // Offset: 0x1FC0128
     bool get_playingForTheFirstTime();
     // private System.Void set_playingForTheFirstTime(System.Boolean value)
-    // Offset: 0xED6568
+    // Offset: 0x1FC0130
     void set_playingForTheFirstTime(bool value);
     // public System.Void Save()
-    // Offset: 0xED6574
+    // Offset: 0x1FC013C
     void Save();
     // public System.Void Load(System.Boolean forced)
-    // Offset: 0xED6A5C
+    // Offset: 0x1FC0624
     void Load(bool forced);
     // public System.Void __DeleteSettingsFiles()
-    // Offset: 0xED7080
+    // Offset: 0x1FC0C48
     void __DeleteSettingsFiles();
     // protected System.Void OnDisable()
-    // Offset: 0xED724C
+    // Offset: 0x1FC0E14
     void OnDisable();
     // protected override System.Void OnEnable()
-    // Offset: 0xED71B8
+    // Offset: 0x1FC0D80
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0xED7250
+    // Offset: 0x1FC0E18
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

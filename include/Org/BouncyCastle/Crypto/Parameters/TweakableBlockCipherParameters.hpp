@@ -27,10 +27,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x18
     Org::BouncyCastle::Crypto::Parameters::KeyParameter* key;
     // public Org.BouncyCastle.Crypto.Parameters.KeyParameter get_Key()
-    // Offset: 0x10F3A40
+    // Offset: 0xF4E6D0
     Org::BouncyCastle::Crypto::Parameters::KeyParameter* get_Key();
     // public System.Byte[] get_Tweak()
-    // Offset: 0x10F3A48
+    // Offset: 0xF4E6D8
     ::Array<uint8_t>* get_Tweak();
   }; // Org.BouncyCastle.Crypto.Parameters.TweakableBlockCipherParameters
 }

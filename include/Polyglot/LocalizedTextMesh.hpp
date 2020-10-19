@@ -38,30 +38,30 @@ namespace Polyglot {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String get_Key()
-    // Offset: 0x219DD8C
+    // Offset: 0x1EF09F0
     ::Il2CppString* get_Key();
     // public System.Void Reset()
-    // Offset: 0x219DD94
+    // Offset: 0x1EF09F8
     void Reset();
     // public System.Void Start()
-    // Offset: 0x219DDF4
+    // Offset: 0x1EF0A58
     void Start();
     // private System.Boolean IsOppositeDirection(UnityEngine.TextAlignment alignment, Polyglot.LanguageDirection direction)
-    // Offset: 0x219DF24
+    // Offset: 0x1EF0B88
     bool IsOppositeDirection(UnityEngine::TextAlignment alignment, Polyglot::LanguageDirection direction);
     // private System.Boolean IsAlignmentRight(UnityEngine.TextAlignment alignment)
-    // Offset: 0x219DF50
+    // Offset: 0x1EF0BB4
     bool IsAlignmentRight(UnityEngine::TextAlignment alignment);
     // private System.Boolean IsAlignmentLeft(UnityEngine.TextAlignment alignment)
-    // Offset: 0x219DF5C
+    // Offset: 0x1EF0BC0
     bool IsAlignmentLeft(UnityEngine::TextAlignment alignment);
     // public System.Void OnLocalize()
-    // Offset: 0x219DE20
+    // Offset: 0x1EF0A84
     // Implemented from: Polyglot.ILocalize
     // Base method: System.Void ILocalize::OnLocalize()
     void OnLocalize();
     // public System.Void .ctor()
-    // Offset: 0x219DF68
+    // Offset: 0x1EF0BCC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

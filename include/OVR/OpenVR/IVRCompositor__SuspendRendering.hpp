@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRCompositor::_SuspendRendering : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1D5E7B8
+    // Offset: 0x1AB041C
     static IVRCompositor::_SuspendRendering* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Boolean bSuspend)
-    // Offset: 0x1D5E7CC
+    // Offset: 0x1AB0430
     void Invoke(bool bSuspend);
     // public System.IAsyncResult BeginInvoke(System.Boolean bSuspend, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1D5EA48
+    // Offset: 0x1AB06AC
     System::IAsyncResult* BeginInvoke(bool bSuspend, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1D5EAD8
+    // Offset: 0x1AB073C
     void EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_SuspendRendering
 }

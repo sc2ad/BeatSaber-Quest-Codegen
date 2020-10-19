@@ -26,13 +26,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public ShaderVariantsSO/ShaderVariant[] get_shaderVariants()
-    // Offset: 0x21A5340
+    // Offset: 0x1EF6FA4
     ::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant*>* get_shaderVariants();
     // public System.Void Init(ShaderVariantsSO/ShaderVariant[] shaderVariants)
-    // Offset: 0x21A5348
+    // Offset: 0x1EF6FAC
     void Init(::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant*>* shaderVariants);
     // public System.Void .ctor()
-    // Offset: 0x21A5350
+    // Offset: 0x1EF6FB4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

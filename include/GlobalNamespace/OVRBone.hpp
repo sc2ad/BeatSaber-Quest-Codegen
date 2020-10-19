@@ -30,25 +30,25 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::Transform* Transform;
     // public OVRSkeleton/BoneId get_Id()
-    // Offset: 0x1131178
+    // Offset: 0xF6D310
     GlobalNamespace::OVRSkeleton::BoneId get_Id();
     // private System.Void set_Id(OVRSkeleton/BoneId value)
-    // Offset: 0x1131180
+    // Offset: 0xF6D318
     void set_Id(GlobalNamespace::OVRSkeleton::BoneId value);
     // public System.Int16 get_ParentBoneIndex()
-    // Offset: 0x1131188
+    // Offset: 0xF6D320
     int16_t get_ParentBoneIndex();
     // private System.Void set_ParentBoneIndex(System.Int16 value)
-    // Offset: 0x1131190
+    // Offset: 0xF6D328
     void set_ParentBoneIndex(int16_t value);
     // public UnityEngine.Transform get_Transform()
-    // Offset: 0x1131198
+    // Offset: 0xF6D330
     UnityEngine::Transform* get_Transform();
     // private System.Void set_Transform(UnityEngine.Transform value)
-    // Offset: 0x11311A0
+    // Offset: 0xF6D338
     void set_Transform(UnityEngine::Transform* value);
     // public System.Void .ctor(OVRSkeleton/BoneId id, System.Int16 parentBoneIndex, UnityEngine.Transform trans)
-    // Offset: 0x11311A8
+    // Offset: 0xF6D340
     static OVRBone* New_ctor(GlobalNamespace::OVRSkeleton::BoneId id, int16_t parentBoneIndex, UnityEngine::Transform* trans);
   }; // OVRBone
 }

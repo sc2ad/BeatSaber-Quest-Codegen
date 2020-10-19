@@ -33,16 +33,16 @@ namespace GlobalNamespace {
   class AvatarPoseController::LatePositionsWillBeSetDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xFB5890
+    // Offset: 0x2033F40
     static AvatarPoseController::LatePositionsWillBeSetDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(UnityEngine.Quaternion headRotation, UnityEngine.Vector3 headPosition, UnityEngine.Vector3 leftHandPosition, UnityEngine.Vector3 rightHandPosition, out UnityEngine.Vector3 newHeadPosition, out UnityEngine.Vector3 newLeftHandPosition, out UnityEngine.Vector3 newRightHandPosition)
-    // Offset: 0xFB54BC
+    // Offset: 0x2033B6C
     void Invoke(UnityEngine::Quaternion headRotation, UnityEngine::Vector3 headPosition, UnityEngine::Vector3 leftHandPosition, UnityEngine::Vector3 rightHandPosition, UnityEngine::Vector3& newHeadPosition, UnityEngine::Vector3& newLeftHandPosition, UnityEngine::Vector3& newRightHandPosition);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Quaternion headRotation, UnityEngine.Vector3 headPosition, UnityEngine.Vector3 leftHandPosition, UnityEngine.Vector3 rightHandPosition, out UnityEngine.Vector3 newHeadPosition, out UnityEngine.Vector3 newLeftHandPosition, out UnityEngine.Vector3 newRightHandPosition, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xFB58A4
+    // Offset: 0x2033F54
     System::IAsyncResult* BeginInvoke(UnityEngine::Quaternion headRotation, UnityEngine::Vector3 headPosition, UnityEngine::Vector3 leftHandPosition, UnityEngine::Vector3 rightHandPosition, UnityEngine::Vector3& newHeadPosition, UnityEngine::Vector3& newLeftHandPosition, UnityEngine::Vector3& newRightHandPosition, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(out UnityEngine.Vector3 newHeadPosition, out UnityEngine.Vector3 newLeftHandPosition, out UnityEngine.Vector3 newRightHandPosition, System.IAsyncResult result)
-    // Offset: 0xFB59F8
+    // Offset: 0x20340A8
     void EndInvoke(UnityEngine::Vector3& newHeadPosition, UnityEngine::Vector3& newLeftHandPosition, UnityEngine::Vector3& newRightHandPosition, System::IAsyncResult* result);
   }; // AvatarPoseController/LatePositionsWillBeSetDelegate
 }

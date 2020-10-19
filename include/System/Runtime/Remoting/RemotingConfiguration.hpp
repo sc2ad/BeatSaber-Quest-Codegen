@@ -93,58 +93,58 @@ namespace System::Runtime::Remoting {
     // Set static field: static private System.Collections.Hashtable serverProviderTemplates
     static void _set_serverProviderTemplates(System::Collections::Hashtable* value);
     // static public System.String get_ApplicationName()
-    // Offset: 0x14FFA6C
+    // Offset: 0x12D6294
     static ::Il2CppString* get_ApplicationName();
     // static public System.Void set_ApplicationName(System.String value)
-    // Offset: 0x14FFAD4
+    // Offset: 0x12D62FC
     static void set_ApplicationName(::Il2CppString* value);
     // static public System.String get_ProcessId()
-    // Offset: 0x14FFB44
+    // Offset: 0x12D636C
     static ::Il2CppString* get_ProcessId();
     // static System.Void LoadDefaultDelayedChannels()
-    // Offset: 0x14FFC10
+    // Offset: 0x12D6438
     static void LoadDefaultDelayedChannels();
     // static public System.Runtime.Remoting.ActivatedClientTypeEntry IsRemotelyActivatedClientType(System.Type svrType)
-    // Offset: 0x14FFF14
+    // Offset: 0x12D673C
     static System::Runtime::Remoting::ActivatedClientTypeEntry* IsRemotelyActivatedClientType(System::Type* svrType);
     // static public System.Runtime.Remoting.WellKnownClientTypeEntry IsWellKnownClientType(System.Type svrType)
-    // Offset: 0x1500094
+    // Offset: 0x12D68BC
     static System::Runtime::Remoting::WellKnownClientTypeEntry* IsWellKnownClientType(System::Type* svrType);
     // static public System.Void RegisterActivatedClientType(System.Runtime.Remoting.ActivatedClientTypeEntry entry)
-    // Offset: 0x1500214
+    // Offset: 0x12D6A3C
     static void RegisterActivatedClientType(System::Runtime::Remoting::ActivatedClientTypeEntry* entry);
     // static public System.Void RegisterActivatedServiceType(System.Runtime.Remoting.ActivatedServiceTypeEntry entry)
-    // Offset: 0x1500480
+    // Offset: 0x12D6CA8
     static void RegisterActivatedServiceType(System::Runtime::Remoting::ActivatedServiceTypeEntry* entry);
     // static public System.Void RegisterWellKnownClientType(System.Runtime.Remoting.WellKnownClientTypeEntry entry)
-    // Offset: 0x15005B4
+    // Offset: 0x12D6DDC
     static void RegisterWellKnownClientType(System::Runtime::Remoting::WellKnownClientTypeEntry* entry);
     // static public System.Void RegisterWellKnownServiceType(System.Runtime.Remoting.WellKnownServiceTypeEntry entry)
-    // Offset: 0x1500820
+    // Offset: 0x12D7048
     static void RegisterWellKnownServiceType(System::Runtime::Remoting::WellKnownServiceTypeEntry* entry);
     // static System.Void RegisterChannelTemplate(System.Runtime.Remoting.ChannelData channel)
-    // Offset: 0x1500A94
+    // Offset: 0x12D72BC
     static void RegisterChannelTemplate(System::Runtime::Remoting::ChannelData* channel);
     // static System.Void RegisterClientProviderTemplate(System.Runtime.Remoting.ProviderData prov)
-    // Offset: 0x1500B20
+    // Offset: 0x12D7348
     static void RegisterClientProviderTemplate(System::Runtime::Remoting::ProviderData* prov);
     // static System.Void RegisterServerProviderTemplate(System.Runtime.Remoting.ProviderData prov)
-    // Offset: 0x1500BAC
+    // Offset: 0x12D73D4
     static void RegisterServerProviderTemplate(System::Runtime::Remoting::ProviderData* prov);
     // static System.Void RegisterChannels(System.Collections.ArrayList channels, System.Boolean onlyDelayed)
-    // Offset: 0x1500C38
+    // Offset: 0x12D7460
     static void RegisterChannels(System::Collections::ArrayList* channels, bool onlyDelayed);
     // static System.Void RegisterTypes(System.Collections.ArrayList types)
-    // Offset: 0x15017F0
+    // Offset: 0x12D8018
     static void RegisterTypes(System::Collections::ArrayList* types);
     // static public System.Boolean CustomErrorsEnabled(System.Boolean isLocalRequest)
-    // Offset: 0x1501C8C
+    // Offset: 0x12D84B4
     static bool CustomErrorsEnabled(bool isLocalRequest);
     // static System.Void SetCustomErrorsMode(System.String mode)
-    // Offset: 0x1501D58
+    // Offset: 0x12D8580
     static void SetCustomErrorsMode(::Il2CppString* mode);
     // static private System.Void .cctor()
-    // Offset: 0x1501EB4
+    // Offset: 0x12D86DC
     static void _cctor();
   }; // System.Runtime.Remoting.RemotingConfiguration
 }

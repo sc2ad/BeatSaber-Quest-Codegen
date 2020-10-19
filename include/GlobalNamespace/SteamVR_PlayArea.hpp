@@ -102,28 +102,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static public System.Boolean GetBounds(SteamVR_PlayArea/Size size, ref Valve.VR.HmdQuad_t pRect)
-    // Offset: 0x123DDEC
+    // Offset: 0x1038688
     static bool GetBounds(GlobalNamespace::SteamVR_PlayArea::Size size, Valve::VR::HmdQuad_t& pRect);
     // public System.Void BuildMesh()
-    // Offset: 0x123E170
+    // Offset: 0x1038A0C
     void BuildMesh();
     // private System.Void OnDrawGizmos()
-    // Offset: 0x123E9C8
+    // Offset: 0x1039264
     void OnDrawGizmos();
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0x123EC5C
+    // Offset: 0x10394F8
     void OnDrawGizmosSelected();
     // public System.Void DrawWireframe()
-    // Offset: 0x123E9D8
+    // Offset: 0x1039274
     void DrawWireframe();
     // public System.Void OnEnable()
-    // Offset: 0x123EC6C
+    // Offset: 0x1039508
     void OnEnable();
     // private System.Collections.IEnumerator UpdateBounds()
-    // Offset: 0x123ED20
+    // Offset: 0x10395BC
     System::Collections::IEnumerator* UpdateBounds();
     // public System.Void .ctor()
-    // Offset: 0x123EDC8
+    // Offset: 0x1039664
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

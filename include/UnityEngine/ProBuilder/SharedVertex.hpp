@@ -53,62 +53,62 @@ namespace UnityEngine::ProBuilder {
       return m_Vertices;
     }
     // System.Int32[] get_arrayInternal()
-    // Offset: 0x2120328
+    // Offset: 0x1E72F8C
     ::Array<int>* get_arrayInternal();
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<System.Int32> indexes)
-    // Offset: 0x2120330
+    // Offset: 0x1E72F94
     static SharedVertex* New_ctor(System::Collections::Generic::IEnumerable_1<int>* indexes);
     // public System.Void .ctor(UnityEngine.ProBuilder.SharedVertex sharedVertex)
-    // Offset: 0x21203E8
+    // Offset: 0x1E7304C
     static SharedVertex* New_ctor(UnityEngine::ProBuilder::SharedVertex* sharedVertex);
     // public System.Int32 get_Item(System.Int32 i)
-    // Offset: 0x21204E0
+    // Offset: 0x1E73144
     int get_Item(int i);
     // public System.Void set_Item(System.Int32 i, System.Int32 value)
-    // Offset: 0x212051C
+    // Offset: 0x1E73180
     void set_Item(int i, int value);
     // public System.Collections.Generic.IEnumerator`1<System.Int32> GetEnumerator()
-    // Offset: 0x2120558
+    // Offset: 0x1E731BC
     System::Collections::Generic::IEnumerator_1<int>* GetEnumerator();
     // public System.Void CopyTo(System.Int32[] array, System.Int32 arrayIndex)
-    // Offset: 0x21207A4
+    // Offset: 0x1E73408
     void CopyTo(::Array<int>* array, int arrayIndex);
     // static public System.Void GetSharedVertexLookup(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.SharedVertex> sharedVertices, System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup)
-    // Offset: 0x2120878
+    // Offset: 0x1E734DC
     static void GetSharedVertexLookup(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::SharedVertex*>* sharedVertices, System::Collections::Generic::Dictionary_2<int, int>* lookup);
     // System.Void ShiftIndexes(System.Int32 offset)
-    // Offset: 0x2120C04
+    // Offset: 0x1E73868
     void ShiftIndexes(int offset);
     // static UnityEngine.ProBuilder.SharedVertex[] ToSharedVertices(System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>> lookup)
-    // Offset: 0x2120C70
+    // Offset: 0x1E738D4
     static ::Array<UnityEngine::ProBuilder::SharedVertex*>* ToSharedVertices(System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<int, int>>* lookup);
     // static private UnityEngine.ProBuilder.SharedVertex[] ToSharedVertices(System.Collections.Generic.List`1<System.Collections.Generic.List`1<System.Int32>> list)
-    // Offset: 0x21210D4
+    // Offset: 0x1E73D38
     static ::Array<UnityEngine::ProBuilder::SharedVertex*>* ToSharedVertices(System::Collections::Generic::List_1<System::Collections::Generic::List_1<int>*>* list);
     // static public UnityEngine.ProBuilder.SharedVertex[] GetSharedVerticesWithPositions(System.Collections.Generic.IList`1<UnityEngine.Vector3> positions)
-    // Offset: 0x2121230
+    // Offset: 0x1E73E94
     static ::Array<UnityEngine::ProBuilder::SharedVertex*>* GetSharedVerticesWithPositions(System::Collections::Generic::IList_1<UnityEngine::Vector3>* positions);
     // static UnityEngine.ProBuilder.SharedVertex[] RemoveAndShift(System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup, System.Collections.Generic.IEnumerable`1<System.Int32> remove)
-    // Offset: 0x2121694
+    // Offset: 0x1E742F8
     static ::Array<UnityEngine::ProBuilder::SharedVertex*>* RemoveAndShift(System::Collections::Generic::Dictionary_2<int, int>* lookup, System::Collections::Generic::IEnumerable_1<int>* remove);
     // static UnityEngine.ProBuilder.SharedVertex[] SortedRemoveAndShift(System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup, System.Collections.Generic.List`1<System.Int32> remove)
-    // Offset: 0x212172C
+    // Offset: 0x1E74390
     static ::Array<UnityEngine::ProBuilder::SharedVertex*>* SortedRemoveAndShift(System::Collections::Generic::Dictionary_2<int, int>* lookup, System::Collections::Generic::List_1<int>* remove);
     // static System.Void SetCoincident(ref System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup, System.Collections.Generic.IEnumerable`1<System.Int32> vertices)
-    // Offset: 0x2121A1C
+    // Offset: 0x1E74680
     static void SetCoincident(System::Collections::Generic::Dictionary_2<int, int>*& lookup, System::Collections::Generic::IEnumerable_1<int>* vertices);
     // public override System.String ToString()
-    // Offset: 0x2120608
+    // Offset: 0x1E7326C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x2120664
+    // Offset: 0x1E732C8
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public System.Void Add(System.Int32 item)
-    // Offset: 0x2120668
+    // Offset: 0x1E732CC
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection_1::Add(System.Int32 item)
     void Add(int item);
@@ -116,7 +116,7 @@ namespace UnityEngine::ProBuilder {
     // Maps to method: Add
     void System_Collections_Generic_ICollection_1_Add(int item);
     // public System.Void Clear()
-    // Offset: 0x21206D8
+    // Offset: 0x1E7333C
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection_1::Clear()
     void Clear();
@@ -124,7 +124,7 @@ namespace UnityEngine::ProBuilder {
     // Maps to method: Clear
     void System_Collections_Generic_ICollection_1_Clear();
     // public System.Boolean Contains(System.Int32 item)
-    // Offset: 0x2120738
+    // Offset: 0x1E7339C
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection_1::Contains(System.Int32 item)
     bool Contains(int item);
@@ -132,7 +132,7 @@ namespace UnityEngine::ProBuilder {
     // Maps to method: Contains
     bool System_Collections_Generic_ICollection_1_Contains(int item);
     // public System.Boolean Remove(System.Int32 item)
-    // Offset: 0x21207C0
+    // Offset: 0x1E73424
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection_1::Remove(System.Int32 item)
     bool Remove(int item);
@@ -140,7 +140,7 @@ namespace UnityEngine::ProBuilder {
     // Maps to method: Remove
     bool System_Collections_Generic_ICollection_1_Remove(int item);
     // public System.Int32 get_Count()
-    // Offset: 0x21204C4
+    // Offset: 0x1E73128
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Int32 ICollection_1::get_Count()
     int get_Count();
@@ -148,7 +148,7 @@ namespace UnityEngine::ProBuilder {
     // Maps to method: get_Count
     int System_Collections_Generic_ICollection_1_get_Count();
     // public System.Boolean get_IsReadOnly()
-    // Offset: 0x212085C
+    // Offset: 0x1E734C0
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection_1::get_IsReadOnly()
     bool get_IsReadOnly();

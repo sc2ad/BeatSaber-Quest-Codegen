@@ -37,28 +37,28 @@ namespace GlobalNamespace {
     // Set static field: static public TestDeeplinkManager instance
     static void _set_instance(GlobalNamespace::TestDeeplinkManager* value);
     // public System.Void set_currentDeeplink(Deeplink value)
-    // Offset: 0xF31EC4
+    // Offset: 0x1F99138
     void set_currentDeeplink(GlobalNamespace::Deeplink* value);
     // static private System.Void .cctor()
-    // Offset: 0xF31F94
+    // Offset: 0x1F99208
     static void _cctor();
     // public System.Void add_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
-    // Offset: 0xF31D74
+    // Offset: 0x1F98FE8
     // Implemented from: IDeeplinkManager
     // Base method: System.Void IDeeplinkManager::add_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
     void add_didReceiveDeeplinkEvent(System::Action_1<GlobalNamespace::Deeplink*>* value);
     // public System.Void remove_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
-    // Offset: 0xF31E18
+    // Offset: 0x1F9908C
     // Implemented from: IDeeplinkManager
     // Base method: System.Void IDeeplinkManager::remove_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
     void remove_didReceiveDeeplinkEvent(System::Action_1<GlobalNamespace::Deeplink*>* value);
     // public Deeplink get_currentDeeplink()
-    // Offset: 0xF31EBC
+    // Offset: 0x1F99130
     // Implemented from: IDeeplinkManager
     // Base method: Deeplink IDeeplinkManager::get_currentDeeplink()
     GlobalNamespace::Deeplink* get_currentDeeplink();
     // public System.Void .ctor()
-    // Offset: 0xF31F8C
+    // Offset: 0x1F99200
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TestDeeplinkManager* New_ctor();

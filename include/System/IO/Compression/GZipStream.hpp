@@ -51,114 +51,114 @@ namespace System::IO::Compression {
     // Offset: 0x28
     System::IO::Compression::DeflateStream* deflateStream;
     // public System.Void .ctor(System.IO.Stream stream, System.IO.Compression.CompressionMode mode)
-    // Offset: 0x1730BCC
+    // Offset: 0x14EC7A0
     static GZipStream* New_ctor(System::IO::Stream* stream, System::IO::Compression::CompressionMode mode);
     // public System.Void .ctor(System.IO.Stream stream, System.IO.Compression.CompressionMode mode, System.Boolean leaveOpen)
-    // Offset: 0x1730BD4
+    // Offset: 0x14EC7A8
     static GZipStream* New_ctor(System::IO::Stream* stream, System::IO::Compression::CompressionMode mode, bool leaveOpen);
     // private System.Void CheckDeflateStream()
-    // Offset: 0x1730E40
+    // Offset: 0x14ECA14
     void CheckDeflateStream();
     // static private System.Void ThrowStreamClosedException()
-    // Offset: 0x1731294
+    // Offset: 0x14ECE68
     static void ThrowStreamClosedException();
     // public override System.Boolean get_CanRead()
-    // Offset: 0x1730C90
+    // Offset: 0x14EC864
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanRead()
     bool get_CanRead();
     // public override System.Boolean get_CanWrite()
-    // Offset: 0x1730CA8
+    // Offset: 0x14EC87C
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanWrite()
     bool get_CanWrite();
     // public override System.Boolean get_CanSeek()
-    // Offset: 0x1730CC0
+    // Offset: 0x14EC894
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanSeek()
     bool get_CanSeek();
     // public override System.Int64 get_Length()
-    // Offset: 0x1730CD8
+    // Offset: 0x14EC8AC
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::get_Length()
     int64_t get_Length();
     // public override System.Int64 get_Position()
-    // Offset: 0x1730D44
+    // Offset: 0x14EC918
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::get_Position()
     int64_t get_Position();
     // public override System.Void set_Position(System.Int64 value)
-    // Offset: 0x1730DB0
+    // Offset: 0x14EC984
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::set_Position(System.Int64 value)
     void set_Position(int64_t value);
     // public override System.Void Flush()
-    // Offset: 0x1730E1C
+    // Offset: 0x14EC9F0
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Flush()
     void Flush();
     // public override System.Int64 Seek(System.Int64 offset, System.IO.SeekOrigin origin)
-    // Offset: 0x1730E58
+    // Offset: 0x14ECA2C
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::Seek(System.Int64 offset, System.IO.SeekOrigin origin)
     int64_t Seek(int64_t offset, System::IO::SeekOrigin origin);
     // public override System.Void SetLength(System.Int64 value)
-    // Offset: 0x1730EC4
+    // Offset: 0x14ECA98
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::SetLength(System.Int64 value)
     void SetLength(int64_t value);
     // public override System.Int32 ReadByte()
-    // Offset: 0x1730F30
+    // Offset: 0x14ECB04
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::ReadByte()
     int ReadByte();
     // public override System.IAsyncResult BeginRead(System.Byte[] array, System.Int32 offset, System.Int32 count, System.AsyncCallback asyncCallback, System.Object asyncState)
-    // Offset: 0x1730F54
+    // Offset: 0x14ECB28
     // Implemented from: System.IO.Stream
     // Base method: System.IAsyncResult Stream::BeginRead(System.Byte[] array, System.Int32 offset, System.Int32 count, System.AsyncCallback asyncCallback, System.Object asyncState)
     System::IAsyncResult* BeginRead(::Array<uint8_t>* array, int offset, int count, System::AsyncCallback* asyncCallback, ::Il2CppObject* asyncState);
     // public override System.Int32 EndRead(System.IAsyncResult asyncResult)
-    // Offset: 0x1731018
+    // Offset: 0x14ECBEC
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::EndRead(System.IAsyncResult asyncResult)
     int EndRead(System::IAsyncResult* asyncResult);
     // public override System.Int32 Read(System.Byte[] array, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1731068
+    // Offset: 0x14ECC3C
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::Read(System.Byte[] array, System.Int32 offset, System.Int32 count)
     int Read(::Array<uint8_t>* array, int offset, int count);
     // public override System.IAsyncResult BeginWrite(System.Byte[] array, System.Int32 offset, System.Int32 count, System.AsyncCallback asyncCallback, System.Object asyncState)
-    // Offset: 0x173108C
+    // Offset: 0x14ECC60
     // Implemented from: System.IO.Stream
     // Base method: System.IAsyncResult Stream::BeginWrite(System.Byte[] array, System.Int32 offset, System.Int32 count, System.AsyncCallback asyncCallback, System.Object asyncState)
     System::IAsyncResult* BeginWrite(::Array<uint8_t>* array, int offset, int count, System::AsyncCallback* asyncCallback, ::Il2CppObject* asyncState);
     // public override System.Void EndWrite(System.IAsyncResult asyncResult)
-    // Offset: 0x1731150
+    // Offset: 0x14ECD24
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::EndWrite(System.IAsyncResult asyncResult)
     void EndWrite(System::IAsyncResult* asyncResult);
     // public override System.Void Write(System.Byte[] array, System.Int32 offset, System.Int32 count)
-    // Offset: 0x173115C
+    // Offset: 0x14ECD30
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Write(System.Byte[] array, System.Int32 offset, System.Int32 count)
     void Write(::Array<uint8_t>* array, int offset, int count);
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1731180
+    // Offset: 0x14ECD54
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Threading.Tasks.Task`1<System.Int32> ReadAsync(System.Byte[] array, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1731228
+    // Offset: 0x14ECDFC
     // Implemented from: System.IO.Stream
     // Base method: System.Threading.Tasks.Task`1<System.Int32> Stream::ReadAsync(System.Byte[] array, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<int>* ReadAsync(::Array<uint8_t>* array, int offset, int count, System::Threading::CancellationToken cancellationToken);
     // public override System.Threading.Tasks.Task WriteAsync(System.Byte[] array, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x173124C
+    // Offset: 0x14ECE20
     // Implemented from: System.IO.Stream
     // Base method: System.Threading.Tasks.Task Stream::WriteAsync(System.Byte[] array, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task* WriteAsync(::Array<uint8_t>* array, int offset, int count, System::Threading::CancellationToken cancellationToken);
     // public override System.Threading.Tasks.Task CopyToAsync(System.IO.Stream destination, System.Int32 bufferSize, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1731270
+    // Offset: 0x14ECE44
     // Implemented from: System.IO.Stream
     // Base method: System.Threading.Tasks.Task Stream::CopyToAsync(System.IO.Stream destination, System.Int32 bufferSize, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task* CopyToAsync(System::IO::Stream* destination, int bufferSize, System::Threading::CancellationToken cancellationToken);

@@ -30,22 +30,22 @@ namespace RootMotion::FinalIK {
     // Offset: 0xFFFFFFFF
     void OpenScriptReference();
     // protected override System.Void UpdateSolver()
-    // Offset: 0x1AA1088
+    // Offset: 0x184027C
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::UpdateSolver()
     void UpdateSolver();
     // protected override System.Void InitiateSolver()
-    // Offset: 0x1AA117C
+    // Offset: 0x1840370
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::InitiateSolver()
     void InitiateSolver();
     // protected override System.Void FixTransforms()
-    // Offset: 0x1AA134C
+    // Offset: 0x1840540
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::FixTransforms()
     void FixTransforms();
     // protected System.Void .ctor()
-    // Offset: 0x1A939B8
+    // Offset: 0x1832BAC
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

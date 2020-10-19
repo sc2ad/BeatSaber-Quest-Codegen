@@ -33,16 +33,16 @@ namespace UnityEngine::UI {
   class ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x183E5EC
+    // Offset: 0x15E5A10
     static ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Int32 Invoke(UnityEngine.Ray r, UnityEngine.RaycastHit2D[] results, System.Single f, System.Int32 i)
-    // Offset: 0x183E600
+    // Offset: 0x15E5A24
     int Invoke(UnityEngine::Ray r, ::Array<UnityEngine::RaycastHit2D>* results, float f, int i);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Ray r, UnityEngine.RaycastHit2D[] results, System.Single f, System.Int32 i, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x183E980
+    // Offset: 0x15E5DA4
     System::IAsyncResult* BeginInvoke(UnityEngine::Ray r, ::Array<UnityEngine::RaycastHit2D>* results, float f, int i, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Int32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x183EA58
+    // Offset: 0x15E5E7C
     int EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.UI.ReflectionMethodsCache/GetRayIntersectionAllNonAllocCallback
 }

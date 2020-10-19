@@ -21,10 +21,10 @@ namespace System::Runtime::Remoting::Contexts {
   class ContextCallbackObject : public System::ContextBoundObject {
     public:
     // public System.Void DoCallBack(System.Runtime.Remoting.Contexts.CrossContextDelegate deleg)
-    // Offset: 0x12A1B48
+    // Offset: 0x109D3E4
     void DoCallBack(System::Runtime::Remoting::Contexts::CrossContextDelegate* deleg);
     // public System.Void .ctor()
-    // Offset: 0x12A1B40
+    // Offset: 0x109D3DC
     // Implemented from: System.ContextBoundObject
     // Base method: System.Void ContextBoundObject::.ctor()
     // Base method: System.Void MarshalByRefObject::.ctor()

@@ -53,34 +53,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnDestroy()
-    // Offset: 0xF84694
+    // Offset: 0x207B8F0
     void OnDestroy();
     // private System.Void InitIfNeeded()
-    // Offset: 0xF8472C
+    // Offset: 0x207B988
     void InitIfNeeded();
     // public System.Void SetPositionAndRotation(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0xF84904
+    // Offset: 0x207BB60
     void SetPositionAndRotation(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation);
     // public System.Void HideInstant()
-    // Offset: 0xF84980
+    // Offset: 0x207BBDC
     void HideInstant();
     // public System.Void ShowInstant()
-    // Offset: 0xF84A44
+    // Offset: 0x207BCA0
     void ShowInstant();
     // public System.Void Animate(System.Boolean show, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0xF84AEC
+    // Offset: 0x207BD48
     void Animate(bool show, float duration, Tweening::EaseType easeType);
     // private System.Void <InitIfNeeded>b__7_0(System.Single val)
-    // Offset: 0xF84CEC
+    // Offset: 0x207BF48
     void $InitIfNeeded$b__7_0(float val);
     // private System.Void <InitIfNeeded>b__7_1(System.Single val)
-    // Offset: 0xF84D48
+    // Offset: 0x207BFA4
     void $InitIfNeeded$b__7_1(float val);
     // private System.Void <InitIfNeeded>b__7_2()
-    // Offset: 0xF84DA4
+    // Offset: 0x207C000
     void $InitIfNeeded$b__7_2();
     // public System.Void .ctor()
-    // Offset: 0xF84CDC
+    // Offset: 0x207BF38
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

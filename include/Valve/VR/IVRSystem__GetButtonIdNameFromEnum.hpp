@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRSystem::_GetButtonIdNameFromEnum : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F593C4
+    // Offset: 0x1CAB028
     static IVRSystem::_GetButtonIdNameFromEnum* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.IntPtr Invoke(Valve.VR.EVRButtonId eButtonId)
-    // Offset: 0x1F593D8
+    // Offset: 0x1CAB03C
     System::IntPtr Invoke(Valve::VR::EVRButtonId eButtonId);
     // public System.IAsyncResult BeginInvoke(Valve.VR.EVRButtonId eButtonId, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F5964C
+    // Offset: 0x1CAB2B0
     System::IAsyncResult* BeginInvoke(Valve::VR::EVRButtonId eButtonId, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.IntPtr EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1F596D8
+    // Offset: 0x1CAB33C
     System::IntPtr EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetButtonIdNameFromEnum
 }

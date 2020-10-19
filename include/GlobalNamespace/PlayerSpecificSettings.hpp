@@ -62,55 +62,55 @@ namespace GlobalNamespace {
     // Offset: 0x31
     bool adaptiveSfx;
     // public System.Boolean get_staticLights()
-    // Offset: 0xFE3670
+    // Offset: 0x208E550
     bool get_staticLights();
     // public System.Boolean get_leftHanded()
-    // Offset: 0xFE3678
+    // Offset: 0x208E558
     bool get_leftHanded();
     // public System.Single get_playerHeight()
-    // Offset: 0xFE3680
+    // Offset: 0x208E560
     float get_playerHeight();
     // public System.Boolean get_automaticPlayerHeight()
-    // Offset: 0xFE3688
+    // Offset: 0x208E568
     bool get_automaticPlayerHeight();
     // public System.Single get_sfxVolume()
-    // Offset: 0xFE3690
+    // Offset: 0x208E570
     float get_sfxVolume();
     // public System.Boolean get_reduceDebris()
-    // Offset: 0xFE3698
+    // Offset: 0x208E578
     bool get_reduceDebris();
     // public System.Boolean get_noTextsAndHuds()
-    // Offset: 0xFE36A0
+    // Offset: 0x208E580
     bool get_noTextsAndHuds();
     // public System.Boolean get_noFailEffects()
-    // Offset: 0xFE36A8
+    // Offset: 0x208E588
     bool get_noFailEffects();
     // public System.Boolean get_advancedHud()
-    // Offset: 0xFE36B0
+    // Offset: 0x208E590
     bool get_advancedHud();
     // public System.Boolean get_autoRestart()
-    // Offset: 0xFE36B8
+    // Offset: 0x208E598
     bool get_autoRestart();
     // public System.Single get_saberTrailIntensity()
-    // Offset: 0xFE36C0
+    // Offset: 0x208E5A0
     float get_saberTrailIntensity();
     // public System.Single get_noteJumpStartBeatOffset()
-    // Offset: 0xFE36C8
+    // Offset: 0x208E5A8
     float get_noteJumpStartBeatOffset();
     // public System.Boolean get_hideNoteSpawnEffect()
-    // Offset: 0xFE36D0
+    // Offset: 0x208E5B0
     bool get_hideNoteSpawnEffect();
     // public System.Boolean get_adaptiveSfx()
-    // Offset: 0xFE36D8
+    // Offset: 0x208E5B8
     bool get_adaptiveSfx();
     // public System.Void .ctor(System.Boolean staticLights, System.Boolean leftHanded, System.Single playerHeight, System.Boolean automaticPlayerHeight, System.Single sfxVolume, System.Boolean reduceDebris, System.Boolean noTextsAndHuds, System.Boolean noFailEffects, System.Boolean advancedHud, System.Boolean autoRestart, System.Single saberTrailIntensity, System.Single noteJumpStartBeatOffset, System.Boolean hideNoteSpawnEffect, System.Boolean adaptiveSfx)
-    // Offset: 0xFE0540
+    // Offset: 0x208B30C
     static PlayerSpecificSettings* New_ctor(bool staticLights, bool leftHanded, float playerHeight, bool automaticPlayerHeight, float sfxVolume, bool reduceDebris, bool noTextsAndHuds, bool noFailEffects, bool advancedHud, bool autoRestart, float saberTrailIntensity, float noteJumpStartBeatOffset, bool hideNoteSpawnEffect, bool adaptiveSfx);
     // public PlayerSpecificSettings CopyWith(System.Nullable`1<System.Boolean> staticLights, System.Nullable`1<System.Boolean> leftHanded, System.Nullable`1<System.Single> playerHeight, System.Nullable`1<System.Boolean> automaticPlayerHeight, System.Nullable`1<System.Single> sfxVolume, System.Nullable`1<System.Boolean> reduceDebris, System.Nullable`1<System.Boolean> noTextsAndHuds, System.Nullable`1<System.Boolean> noFailEffects, System.Nullable`1<System.Boolean> advancedHud, System.Nullable`1<System.Boolean> autoRestart, System.Nullable`1<System.Single> saberTrailIntensity, System.Nullable`1<System.Single> noteJumpStartBeatOffset, System.Nullable`1<System.Boolean> hideNoteSpawnEffect, System.Nullable`1<System.Boolean> adaptiveSfx)
-    // Offset: 0xFE091C
+    // Offset: 0x208B72C
     GlobalNamespace::PlayerSpecificSettings* CopyWith(System::Nullable_1<bool> staticLights, System::Nullable_1<bool> leftHanded, System::Nullable_1<float> playerHeight, System::Nullable_1<bool> automaticPlayerHeight, System::Nullable_1<float> sfxVolume, System::Nullable_1<bool> reduceDebris, System::Nullable_1<bool> noTextsAndHuds, System::Nullable_1<bool> noFailEffects, System::Nullable_1<bool> advancedHud, System::Nullable_1<bool> autoRestart, System::Nullable_1<float> saberTrailIntensity, System::Nullable_1<float> noteJumpStartBeatOffset, System::Nullable_1<bool> hideNoteSpawnEffect, System::Nullable_1<bool> adaptiveSfx);
     // public System.Void .ctor()
-    // Offset: 0xFDCD80
+    // Offset: 0x2087AFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerSpecificSettings* New_ctor();

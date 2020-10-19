@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRRenderModels::_GetRenderModelCount : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F35D00
+    // Offset: 0x1C87964
     static IVRRenderModels::_GetRenderModelCount* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke()
-    // Offset: 0x1F35D14
+    // Offset: 0x1C87978
     uint Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F35F28
+    // Offset: 0x1C87B8C
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1F35F54
+    // Offset: 0x1C87BB8
     uint EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRRenderModels/_GetRenderModelCount
 }

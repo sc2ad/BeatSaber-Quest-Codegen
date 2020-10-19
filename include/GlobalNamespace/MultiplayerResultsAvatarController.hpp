@@ -33,13 +33,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void SetScale(System.Single scale)
-    // Offset: 0xF01B90
+    // Offset: 0x1FD6A44
     void SetScale(float scale);
     // public System.Void Setup(IConnectedPlayer connectedPlayer)
-    // Offset: 0xF01C04
+    // Offset: 0x1FD6AB8
     void Setup(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // public System.Void .ctor()
-    // Offset: 0xF01D54
+    // Offset: 0x1FD6C08
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

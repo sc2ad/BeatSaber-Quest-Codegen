@@ -88,34 +88,34 @@ namespace System::IO {
     // Set static field: static public System.Func`3<System.IO.Stream,System.IAsyncResult,System.Threading.Tasks.VoidTaskResult> <>9__53_1
     static void _set_$$9__53_1(System::Func_3<System::IO::Stream*, System::IAsyncResult*, System::Threading::Tasks::VoidTaskResult>* value);
     // static private System.Void .cctor()
-    // Offset: 0x158FAAC
+    // Offset: 0x13662D4
     static void _cctor();
     // System.Threading.SemaphoreSlim <EnsureAsyncActiveSemaphoreInitialized>b__4_0()
-    // Offset: 0x158FB1C
+    // Offset: 0x1366344
     System::Threading::SemaphoreSlim* $EnsureAsyncActiveSemaphoreInitialized$b__4_0();
     // System.Int32 <BeginReadInternal>b__39_0(System.Object <p0>)
-    // Offset: 0x158FB80
+    // Offset: 0x13663A8
     int $BeginReadInternal$b__39_0(::Il2CppObject* $p0$);
     // System.IAsyncResult <BeginEndReadAsync>b__43_0(System.IO.Stream stream, System.IO.Stream/ReadWriteParameters args, System.AsyncCallback callback, System.Object state)
-    // Offset: 0x158FCD0
+    // Offset: 0x13664F8
     System::IAsyncResult* $BeginEndReadAsync$b__43_0(System::IO::Stream* stream, System::IO::Stream::ReadWriteParameters args, System::AsyncCallback* callback, ::Il2CppObject* state);
     // System.Int32 <BeginEndReadAsync>b__43_1(System.IO.Stream stream, System.IAsyncResult asyncResult)
-    // Offset: 0x158FD04
+    // Offset: 0x136652C
     int $BeginEndReadAsync$b__43_1(System::IO::Stream* stream, System::IAsyncResult* asyncResult);
     // System.Int32 <BeginWriteInternal>b__46_0(System.Object <p0>)
-    // Offset: 0x158FD30
+    // Offset: 0x1366558
     int $BeginWriteInternal$b__46_0(::Il2CppObject* $p0$);
     // System.Void <RunReadWriteTaskWhenReady>b__47_0(System.Threading.Tasks.Task t, System.Object state)
-    // Offset: 0x158FE48
+    // Offset: 0x1366670
     void $RunReadWriteTaskWhenReady$b__47_0(System::Threading::Tasks::Task* t, ::Il2CppObject* state);
     // System.IAsyncResult <BeginEndWriteAsync>b__53_0(System.IO.Stream stream, System.IO.Stream/ReadWriteParameters args, System.AsyncCallback callback, System.Object state)
-    // Offset: 0x158FED8
+    // Offset: 0x1366700
     System::IAsyncResult* $BeginEndWriteAsync$b__53_0(System::IO::Stream* stream, System::IO::Stream::ReadWriteParameters args, System::AsyncCallback* callback, ::Il2CppObject* state);
     // System.Threading.Tasks.VoidTaskResult <BeginEndWriteAsync>b__53_1(System.IO.Stream stream, System.IAsyncResult asyncResult)
-    // Offset: 0x158FF0C
+    // Offset: 0x1366734
     System::Threading::Tasks::VoidTaskResult $BeginEndWriteAsync$b__53_1(System::IO::Stream* stream, System::IAsyncResult* asyncResult);
     // public System.Void .ctor()
-    // Offset: 0x158FB14
+    // Offset: 0x136633C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Stream::$$c* New_ctor();

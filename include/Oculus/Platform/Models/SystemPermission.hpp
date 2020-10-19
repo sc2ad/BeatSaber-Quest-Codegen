@@ -27,7 +27,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x14
     Oculus::Platform::PermissionGrantStatus PermissionGrantStatus;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x13698E0
+    // Offset: 0x113F01C
     static SystemPermission* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.SystemPermission
 }

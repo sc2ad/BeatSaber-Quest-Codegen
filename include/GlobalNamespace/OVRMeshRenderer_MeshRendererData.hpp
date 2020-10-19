@@ -26,22 +26,22 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MeshRendererData
     constexpr MeshRendererData(bool IsDataValid_ = {}, bool IsDataHighConfidence_ = {}, bool ShouldUseSystemGestureMaterial_ = {}) noexcept : IsDataValid{IsDataValid_}, IsDataHighConfidence{IsDataHighConfidence_}, ShouldUseSystemGestureMaterial{ShouldUseSystemGestureMaterial_} {}
     // public System.Boolean get_IsDataValid()
-    // Offset: 0xDB1054
+    // Offset: 0xC67474
     bool get_IsDataValid();
     // public System.Void set_IsDataValid(System.Boolean value)
-    // Offset: 0xDB105C
+    // Offset: 0xC6747C
     void set_IsDataValid(bool value);
     // public System.Boolean get_IsDataHighConfidence()
-    // Offset: 0xDB1068
+    // Offset: 0xC67488
     bool get_IsDataHighConfidence();
     // public System.Void set_IsDataHighConfidence(System.Boolean value)
-    // Offset: 0xDB1070
+    // Offset: 0xC67490
     void set_IsDataHighConfidence(bool value);
     // public System.Boolean get_ShouldUseSystemGestureMaterial()
-    // Offset: 0xDB107C
+    // Offset: 0xC6749C
     bool get_ShouldUseSystemGestureMaterial();
     // public System.Void set_ShouldUseSystemGestureMaterial(System.Boolean value)
-    // Offset: 0xDB1084
+    // Offset: 0xC674A4
     void set_ShouldUseSystemGestureMaterial(bool value);
   }; // OVRMeshRenderer/MeshRendererData
 }

@@ -28,16 +28,16 @@ namespace Mono::Unity {
   class UnityTls::unitytls_interface_struct::unitytls_key_parse_pem_t : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1422ABC
+    // Offset: 0x11F91F8
     static UnityTls::unitytls_interface_struct::unitytls_key_parse_pem_t* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Mono.Unity.UnityTls/unitytls_key* Invoke(System.Byte* buffer, System.IntPtr bufferLen, System.Byte* password, System.IntPtr passwordLen, Mono.Unity.UnityTls/unitytls_errorstate* errorState)
-    // Offset: 0x1422AD0
+    // Offset: 0x11F920C
     Mono::Unity::UnityTls::unitytls_key* Invoke(uint8_t* buffer, System::IntPtr bufferLen, uint8_t* password, System::IntPtr passwordLen, Mono::Unity::UnityTls::unitytls_errorstate* errorState);
     // public System.IAsyncResult BeginInvoke(System.Byte* buffer, System.IntPtr bufferLen, System.Byte* password, System.IntPtr passwordLen, Mono.Unity.UnityTls/unitytls_errorstate* errorState, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1422D88
+    // Offset: 0x11F94C4
     System::IAsyncResult* BeginInvoke(uint8_t* buffer, System::IntPtr bufferLen, uint8_t* password, System::IntPtr passwordLen, Mono::Unity::UnityTls::unitytls_errorstate* errorState, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Mono.Unity.UnityTls/unitytls_key* EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1422E48
+    // Offset: 0x11F9584
     Mono::Unity::UnityTls::unitytls_key* EndInvoke(System::IAsyncResult* result);
   }; // Mono.Unity.UnityTls/unitytls_interface_struct/unitytls_key_parse_pem_t
 }

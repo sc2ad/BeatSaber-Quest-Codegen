@@ -24,13 +24,13 @@ namespace System::Threading {
     // Creating value type constructor for type: TimeoutTracker
     constexpr TimeoutTracker(int m_total_ = {}, int m_start_ = {}) noexcept : m_total{m_total_}, m_start{m_start_} {}
     // public System.Void .ctor(System.Int32 millisecondsTimeout)
-    // Offset: 0xDDC834
+    // Offset: 0xC89ECC
     TimeoutTracker(int millisecondsTimeout);
     // public System.Int32 get_RemainingMilliseconds()
-    // Offset: 0xDDC83C
+    // Offset: 0xC89ED4
     int get_RemainingMilliseconds();
     // public System.Boolean get_IsExpired()
-    // Offset: 0xDDC844
+    // Offset: 0xC89EDC
     bool get_IsExpired();
   }; // System.Threading.ReaderWriterLockSlim/TimeoutTracker
 }

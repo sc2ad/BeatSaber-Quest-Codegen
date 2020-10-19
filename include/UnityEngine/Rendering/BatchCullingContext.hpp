@@ -36,7 +36,7 @@ namespace UnityEngine::Rendering {
     // Creating value type constructor for type: BatchCullingContext
     constexpr BatchCullingContext(Unity::Collections::NativeArray_1<UnityEngine::Plane> cullingPlanes_ = {}, Unity::Collections::NativeArray_1<UnityEngine::Rendering::BatchVisibility> batchVisibility_ = {}, Unity::Collections::NativeArray_1<int> visibleIndices_ = {}, UnityEngine::Rendering::LODParameters lodParameters_ = {}) noexcept : cullingPlanes{cullingPlanes_}, batchVisibility{batchVisibility_}, visibleIndices{visibleIndices_}, lodParameters{lodParameters_} {}
     // public System.Void .ctor(Unity.Collections.NativeArray`1<UnityEngine.Plane> inCullingPlanes, Unity.Collections.NativeArray`1<UnityEngine.Rendering.BatchVisibility> inOutBatchVisibility, Unity.Collections.NativeArray`1<System.Int32> outVisibleIndices, UnityEngine.Rendering.LODParameters inLodParameters)
-    // Offset: 0xDBEA34
+    // Offset: 0xC74E54
     // ABORTED: conflicts with another method.  BatchCullingContext(Unity::Collections::NativeArray_1<UnityEngine::Plane> inCullingPlanes, Unity::Collections::NativeArray_1<UnityEngine::Rendering::BatchVisibility> inOutBatchVisibility, Unity::Collections::NativeArray_1<int> outVisibleIndices, UnityEngine::Rendering::LODParameters inLodParameters);
   }; // UnityEngine.Rendering.BatchCullingContext
 }

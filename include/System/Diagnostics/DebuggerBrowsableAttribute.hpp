@@ -23,7 +23,7 @@ namespace System::Diagnostics {
       return state;
     }
     // public System.Void .ctor(System.Diagnostics.DebuggerBrowsableState state)
-    // Offset: 0x19C8BD4
+    // Offset: 0x176EFF8
     static DebuggerBrowsableAttribute* New_ctor(System::Diagnostics::DebuggerBrowsableState state);
   }; // System.Diagnostics.DebuggerBrowsableAttribute
 }

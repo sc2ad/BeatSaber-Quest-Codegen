@@ -28,10 +28,10 @@ namespace System::Net {
       return Connection;
     }
     // public System.Void Abort(System.Object sender, System.EventArgs args)
-    // Offset: 0x13BF738
+    // Offset: 0x1193E74
     void Abort(::Il2CppObject* sender, System::EventArgs* args);
     // public System.Void .ctor()
-    // Offset: 0x13B8D30
+    // Offset: 0x118D46C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static WebConnection::AbortHelper* New_ctor();

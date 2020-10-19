@@ -88,148 +88,148 @@ namespace Valve::VR {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x1535D84
+    // Offset: 0x130C5AC
     static CVRSystem* New_ctor(System::IntPtr pInterface);
     // public System.Void GetRecommendedRenderTargetSize(ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)
-    // Offset: 0x1535E98
+    // Offset: 0x130C6C0
     void GetRecommendedRenderTargetSize(uint& pnWidth, uint& pnHeight);
     // public Valve.VR.HmdMatrix44_t GetProjectionMatrix(Valve.VR.EVREye eEye, System.Single fNearZ, System.Single fFarZ)
-    // Offset: 0x1535EBC
+    // Offset: 0x130C6E4
     Valve::VR::HmdMatrix44_t GetProjectionMatrix(Valve::VR::EVREye eEye, float fNearZ, float fFarZ);
     // public System.Void GetProjectionRaw(Valve.VR.EVREye eEye, ref System.Single pfLeft, ref System.Single pfRight, ref System.Single pfTop, ref System.Single pfBottom)
-    // Offset: 0x1535ED8
+    // Offset: 0x130C700
     void GetProjectionRaw(Valve::VR::EVREye eEye, float& pfLeft, float& pfRight, float& pfTop, float& pfBottom);
     // public System.Boolean ComputeDistortion(Valve.VR.EVREye eEye, System.Single fU, System.Single fV, ref Valve.VR.DistortionCoordinates_t pDistortionCoordinates)
-    // Offset: 0x1535F04
+    // Offset: 0x130C72C
     bool ComputeDistortion(Valve::VR::EVREye eEye, float fU, float fV, Valve::VR::DistortionCoordinates_t& pDistortionCoordinates);
     // public Valve.VR.HmdMatrix34_t GetEyeToHeadTransform(Valve.VR.EVREye eEye)
-    // Offset: 0x1535F20
+    // Offset: 0x130C748
     Valve::VR::HmdMatrix34_t GetEyeToHeadTransform(Valve::VR::EVREye eEye);
     // public System.Boolean GetTimeSinceLastVsync(ref System.Single pfSecondsSinceLastVsync, ref System.UInt64 pulFrameCounter)
-    // Offset: 0x1535F3C
+    // Offset: 0x130C764
     bool GetTimeSinceLastVsync(float& pfSecondsSinceLastVsync, uint64_t& pulFrameCounter);
     // public System.Int32 GetD3D9AdapterIndex()
-    // Offset: 0x1535F60
+    // Offset: 0x130C788
     int GetD3D9AdapterIndex();
     // public System.Void GetDXGIOutputInfo(ref System.Int32 pnAdapterIndex)
-    // Offset: 0x1535F7C
+    // Offset: 0x130C7A4
     void GetDXGIOutputInfo(int& pnAdapterIndex);
     // public System.Void GetOutputDevice(ref System.UInt64 pnDevice, Valve.VR.ETextureType textureType, System.IntPtr pInstance)
-    // Offset: 0x1535F9C
+    // Offset: 0x130C7C4
     void GetOutputDevice(uint64_t& pnDevice, Valve::VR::ETextureType textureType, System::IntPtr pInstance);
     // public System.Boolean IsDisplayOnDesktop()
-    // Offset: 0x1535FBC
+    // Offset: 0x130C7E4
     bool IsDisplayOnDesktop();
     // public System.Boolean SetDisplayVisibility(System.Boolean bIsVisibleOnDesktop)
-    // Offset: 0x1535FD8
+    // Offset: 0x130C800
     bool SetDisplayVisibility(bool bIsVisibleOnDesktop);
     // public System.Void GetDeviceToAbsoluteTrackingPose(Valve.VR.ETrackingUniverseOrigin eOrigin, System.Single fPredictedSecondsToPhotonsFromNow, Valve.VR.TrackedDevicePose_t[] pTrackedDevicePoseArray)
-    // Offset: 0x1535FF8
+    // Offset: 0x130C820
     void GetDeviceToAbsoluteTrackingPose(Valve::VR::ETrackingUniverseOrigin eOrigin, float fPredictedSecondsToPhotonsFromNow, ::Array<Valve::VR::TrackedDevicePose_t>* pTrackedDevicePoseArray);
     // public System.Void ResetSeatedZeroPose()
-    // Offset: 0x1536020
+    // Offset: 0x130C848
     void ResetSeatedZeroPose();
     // public Valve.VR.HmdMatrix34_t GetSeatedZeroPoseToStandingAbsoluteTrackingPose()
-    // Offset: 0x153603C
+    // Offset: 0x130C864
     Valve::VR::HmdMatrix34_t GetSeatedZeroPoseToStandingAbsoluteTrackingPose();
     // public Valve.VR.HmdMatrix34_t GetRawZeroPoseToStandingAbsoluteTrackingPose()
-    // Offset: 0x1536058
+    // Offset: 0x130C880
     Valve::VR::HmdMatrix34_t GetRawZeroPoseToStandingAbsoluteTrackingPose();
     // public System.UInt32 GetSortedTrackedDeviceIndicesOfClass(Valve.VR.ETrackedDeviceClass eTrackedDeviceClass, System.UInt32[] punTrackedDeviceIndexArray, System.UInt32 unRelativeToTrackedDeviceIndex)
-    // Offset: 0x1536074
+    // Offset: 0x130C89C
     uint GetSortedTrackedDeviceIndicesOfClass(Valve::VR::ETrackedDeviceClass eTrackedDeviceClass, ::Array<uint>* punTrackedDeviceIndexArray, uint unRelativeToTrackedDeviceIndex);
     // public Valve.VR.EDeviceActivityLevel GetTrackedDeviceActivityLevel(System.UInt32 unDeviceId)
-    // Offset: 0x15360A0
+    // Offset: 0x130C8C8
     Valve::VR::EDeviceActivityLevel GetTrackedDeviceActivityLevel(uint unDeviceId);
     // public System.Void ApplyTransform(ref Valve.VR.TrackedDevicePose_t pOutputPose, ref Valve.VR.TrackedDevicePose_t pTrackedDevicePose, ref Valve.VR.HmdMatrix34_t pTransform)
-    // Offset: 0x15360BC
+    // Offset: 0x130C8E4
     void ApplyTransform(Valve::VR::TrackedDevicePose_t& pOutputPose, Valve::VR::TrackedDevicePose_t& pTrackedDevicePose, Valve::VR::HmdMatrix34_t& pTransform);
     // public System.UInt32 GetTrackedDeviceIndexForControllerRole(Valve.VR.ETrackedControllerRole unDeviceType)
-    // Offset: 0x15360D8
+    // Offset: 0x130C900
     uint GetTrackedDeviceIndexForControllerRole(Valve::VR::ETrackedControllerRole unDeviceType);
     // public Valve.VR.ETrackedControllerRole GetControllerRoleForTrackedDeviceIndex(System.UInt32 unDeviceIndex)
-    // Offset: 0x15360F4
+    // Offset: 0x130C91C
     Valve::VR::ETrackedControllerRole GetControllerRoleForTrackedDeviceIndex(uint unDeviceIndex);
     // public Valve.VR.ETrackedDeviceClass GetTrackedDeviceClass(System.UInt32 unDeviceIndex)
-    // Offset: 0x1536110
+    // Offset: 0x130C938
     Valve::VR::ETrackedDeviceClass GetTrackedDeviceClass(uint unDeviceIndex);
     // public System.Boolean IsTrackedDeviceConnected(System.UInt32 unDeviceIndex)
-    // Offset: 0x153612C
+    // Offset: 0x130C954
     bool IsTrackedDeviceConnected(uint unDeviceIndex);
     // public System.Boolean GetBoolTrackedDeviceProperty(System.UInt32 unDeviceIndex, Valve.VR.ETrackedDeviceProperty prop, ref Valve.VR.ETrackedPropertyError pError)
-    // Offset: 0x1536148
+    // Offset: 0x130C970
     bool GetBoolTrackedDeviceProperty(uint unDeviceIndex, Valve::VR::ETrackedDeviceProperty prop, Valve::VR::ETrackedPropertyError& pError);
     // public System.Single GetFloatTrackedDeviceProperty(System.UInt32 unDeviceIndex, Valve.VR.ETrackedDeviceProperty prop, ref Valve.VR.ETrackedPropertyError pError)
-    // Offset: 0x1536164
+    // Offset: 0x130C98C
     float GetFloatTrackedDeviceProperty(uint unDeviceIndex, Valve::VR::ETrackedDeviceProperty prop, Valve::VR::ETrackedPropertyError& pError);
     // public System.Int32 GetInt32TrackedDeviceProperty(System.UInt32 unDeviceIndex, Valve.VR.ETrackedDeviceProperty prop, ref Valve.VR.ETrackedPropertyError pError)
-    // Offset: 0x1536180
+    // Offset: 0x130C9A8
     int GetInt32TrackedDeviceProperty(uint unDeviceIndex, Valve::VR::ETrackedDeviceProperty prop, Valve::VR::ETrackedPropertyError& pError);
     // public System.UInt64 GetUint64TrackedDeviceProperty(System.UInt32 unDeviceIndex, Valve.VR.ETrackedDeviceProperty prop, ref Valve.VR.ETrackedPropertyError pError)
-    // Offset: 0x153619C
+    // Offset: 0x130C9C4
     uint64_t GetUint64TrackedDeviceProperty(uint unDeviceIndex, Valve::VR::ETrackedDeviceProperty prop, Valve::VR::ETrackedPropertyError& pError);
     // public Valve.VR.HmdMatrix34_t GetMatrix34TrackedDeviceProperty(System.UInt32 unDeviceIndex, Valve.VR.ETrackedDeviceProperty prop, ref Valve.VR.ETrackedPropertyError pError)
-    // Offset: 0x15361B8
+    // Offset: 0x130C9E0
     Valve::VR::HmdMatrix34_t GetMatrix34TrackedDeviceProperty(uint unDeviceIndex, Valve::VR::ETrackedDeviceProperty prop, Valve::VR::ETrackedPropertyError& pError);
     // public System.UInt32 GetArrayTrackedDeviceProperty(System.UInt32 unDeviceIndex, Valve.VR.ETrackedDeviceProperty prop, System.UInt32 propType, System.IntPtr pBuffer, System.UInt32 unBufferSize, ref Valve.VR.ETrackedPropertyError pError)
-    // Offset: 0x15361D4
+    // Offset: 0x130C9FC
     uint GetArrayTrackedDeviceProperty(uint unDeviceIndex, Valve::VR::ETrackedDeviceProperty prop, uint propType, System::IntPtr pBuffer, uint unBufferSize, Valve::VR::ETrackedPropertyError& pError);
     // public System.UInt32 GetStringTrackedDeviceProperty(System.UInt32 unDeviceIndex, Valve.VR.ETrackedDeviceProperty prop, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, ref Valve.VR.ETrackedPropertyError pError)
-    // Offset: 0x15361F0
+    // Offset: 0x130CA18
     uint GetStringTrackedDeviceProperty(uint unDeviceIndex, Valve::VR::ETrackedDeviceProperty prop, System::Text::StringBuilder* pchValue, uint unBufferSize, Valve::VR::ETrackedPropertyError& pError);
     // public System.String GetPropErrorNameFromEnum(Valve.VR.ETrackedPropertyError error)
-    // Offset: 0x153620C
+    // Offset: 0x130CA34
     ::Il2CppString* GetPropErrorNameFromEnum(Valve::VR::ETrackedPropertyError error);
     // public System.Boolean PollNextEvent(ref Valve.VR.VREvent_t pEvent, System.UInt32 uncbVREvent)
-    // Offset: 0x15362A0
+    // Offset: 0x130CAC8
     bool PollNextEvent(Valve::VR::VREvent_t& pEvent, uint uncbVREvent);
     // public System.Boolean PollNextEventWithPose(Valve.VR.ETrackingUniverseOrigin eOrigin, ref Valve.VR.VREvent_t pEvent, System.UInt32 uncbVREvent, ref Valve.VR.TrackedDevicePose_t pTrackedDevicePose)
-    // Offset: 0x15366AC
+    // Offset: 0x130CED4
     bool PollNextEventWithPose(Valve::VR::ETrackingUniverseOrigin eOrigin, Valve::VR::VREvent_t& pEvent, uint uncbVREvent, Valve::VR::TrackedDevicePose_t& pTrackedDevicePose);
     // public System.String GetEventTypeNameFromEnum(Valve.VR.EVREventType eType)
-    // Offset: 0x15366C8
+    // Offset: 0x130CEF0
     ::Il2CppString* GetEventTypeNameFromEnum(Valve::VR::EVREventType eType);
     // public Valve.VR.HiddenAreaMesh_t GetHiddenAreaMesh(Valve.VR.EVREye eEye, Valve.VR.EHiddenAreaMeshType type)
-    // Offset: 0x153675C
+    // Offset: 0x130CF84
     Valve::VR::HiddenAreaMesh_t GetHiddenAreaMesh(Valve::VR::EVREye eEye, Valve::VR::EHiddenAreaMeshType type);
     // public System.Boolean GetControllerState(System.UInt32 unControllerDeviceIndex, ref Valve.VR.VRControllerState_t pControllerState, System.UInt32 unControllerStateSize)
-    // Offset: 0x1536778
+    // Offset: 0x130CFA0
     bool GetControllerState(uint unControllerDeviceIndex, Valve::VR::VRControllerState_t& pControllerState, uint unControllerStateSize);
     // public System.Boolean GetControllerStateWithPose(Valve.VR.ETrackingUniverseOrigin eOrigin, System.UInt32 unControllerDeviceIndex, ref Valve.VR.VRControllerState_t pControllerState, System.UInt32 unControllerStateSize, ref Valve.VR.TrackedDevicePose_t pTrackedDevicePose)
-    // Offset: 0x1536BDC
+    // Offset: 0x130D404
     bool GetControllerStateWithPose(Valve::VR::ETrackingUniverseOrigin eOrigin, uint unControllerDeviceIndex, Valve::VR::VRControllerState_t& pControllerState, uint unControllerStateSize, Valve::VR::TrackedDevicePose_t& pTrackedDevicePose);
     // public System.Void TriggerHapticPulse(System.UInt32 unControllerDeviceIndex, System.UInt32 unAxisId, System.Char usDurationMicroSec)
-    // Offset: 0x1537098
+    // Offset: 0x130D8C0
     void TriggerHapticPulse(uint unControllerDeviceIndex, uint unAxisId, ::Il2CppChar usDurationMicroSec);
     // public System.String GetButtonIdNameFromEnum(Valve.VR.EVRButtonId eButtonId)
-    // Offset: 0x15370B4
+    // Offset: 0x130D8DC
     ::Il2CppString* GetButtonIdNameFromEnum(Valve::VR::EVRButtonId eButtonId);
     // public System.String GetControllerAxisTypeNameFromEnum(Valve.VR.EVRControllerAxisType eAxisType)
-    // Offset: 0x1537148
+    // Offset: 0x130D970
     ::Il2CppString* GetControllerAxisTypeNameFromEnum(Valve::VR::EVRControllerAxisType eAxisType);
     // public System.Boolean IsInputAvailable()
-    // Offset: 0x15371DC
+    // Offset: 0x130DA04
     bool IsInputAvailable();
     // public System.Boolean IsSteamVRDrawingControllers()
-    // Offset: 0x15371F8
+    // Offset: 0x130DA20
     bool IsSteamVRDrawingControllers();
     // public System.Boolean ShouldApplicationPause()
-    // Offset: 0x1537214
+    // Offset: 0x130DA3C
     bool ShouldApplicationPause();
     // public System.Boolean ShouldApplicationReduceRenderingWork()
-    // Offset: 0x1537230
+    // Offset: 0x130DA58
     bool ShouldApplicationReduceRenderingWork();
     // public System.UInt32 DriverDebugRequest(System.UInt32 unDeviceIndex, System.String pchRequest, System.Text.StringBuilder pchResponseBuffer, System.UInt32 unResponseBufferSize)
-    // Offset: 0x153724C
+    // Offset: 0x130DA74
     uint DriverDebugRequest(uint unDeviceIndex, ::Il2CppString* pchRequest, System::Text::StringBuilder* pchResponseBuffer, uint unResponseBufferSize);
     // public Valve.VR.EVRFirmwareError PerformFirmwareUpdate(System.UInt32 unDeviceIndex)
-    // Offset: 0x1537268
+    // Offset: 0x130DA90
     Valve::VR::EVRFirmwareError PerformFirmwareUpdate(uint unDeviceIndex);
     // public System.Void AcknowledgeQuit_Exiting()
-    // Offset: 0x1537284
+    // Offset: 0x130DAAC
     void AcknowledgeQuit_Exiting();
     // public System.Void AcknowledgeQuit_UserPrompt()
-    // Offset: 0x15372A0
+    // Offset: 0x130DAC8
     void AcknowledgeQuit_UserPrompt();
   }; // Valve.VR.CVRSystem
 }

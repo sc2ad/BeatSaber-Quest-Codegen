@@ -14,7 +14,7 @@ namespace GlobalNamespace {
   class IPAPluginsDirDeleter : public UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x101943C
+    // Offset: 0x20AEAFC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

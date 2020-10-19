@@ -32,23 +32,23 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     // Offset: 0x20
     int m_size;
     // System.Void .ctor(Org.BouncyCastle.Math.EC.Custom.Sec.SecP160R1Curve outer, System.UInt32[] table, System.Int32 size)
-    // Offset: 0x1B37358
+    // Offset: 0x18D854C
     static SecP160R1Curve::SecP160R1LookupTable* New_ctor(Org::BouncyCastle::Math::EC::Custom::Sec::SecP160R1Curve* outer, ::Array<uint>* table, int size);
     // private Org.BouncyCastle.Math.EC.ECPoint CreatePoint(System.UInt32[] x, System.UInt32[] y)
-    // Offset: 0x1B37790
+    // Offset: 0x18D8984
     Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::Array<uint>* x, ::Array<uint>* y);
     // public override System.Int32 get_Size()
-    // Offset: 0x1B3765C
+    // Offset: 0x18D8850
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractECLookupTable
     // Base method: System.Int32 AbstractECLookupTable::get_Size()
     int get_Size();
     // public override Org.BouncyCastle.Math.EC.ECPoint Lookup(System.Int32 index)
-    // Offset: 0x1B37664
+    // Offset: 0x18D8858
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractECLookupTable
     // Base method: Org.BouncyCastle.Math.EC.ECPoint AbstractECLookupTable::Lookup(System.Int32 index)
     Org::BouncyCastle::Math::EC::ECPoint* Lookup(int index);
     // public override Org.BouncyCastle.Math.EC.ECPoint LookupVar(System.Int32 index)
-    // Offset: 0x1B3788C
+    // Offset: 0x18D8A80
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractECLookupTable
     // Base method: Org.BouncyCastle.Math.EC.ECPoint AbstractECLookupTable::LookupVar(System.Int32 index)
     Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int index);

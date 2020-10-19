@@ -88,40 +88,40 @@ namespace UnityEngine::UI {
     // Creating value type constructor for type: Navigation
     constexpr Navigation(UnityEngine::UI::Navigation::Mode m_Mode_ = {}, UnityEngine::UI::Selectable* m_SelectOnUp_ = {}, UnityEngine::UI::Selectable* m_SelectOnDown_ = {}, UnityEngine::UI::Selectable* m_SelectOnLeft_ = {}, UnityEngine::UI::Selectable* m_SelectOnRight_ = {}) noexcept : m_Mode{m_Mode_}, m_SelectOnUp{m_SelectOnUp_}, m_SelectOnDown{m_SelectOnDown_}, m_SelectOnLeft{m_SelectOnLeft_}, m_SelectOnRight{m_SelectOnRight_} {}
     // public UnityEngine.UI.Navigation/Mode get_mode()
-    // Offset: 0xDBC0FC
+    // Offset: 0xC7251C
     UnityEngine::UI::Navigation::Mode get_mode();
     // public System.Void set_mode(UnityEngine.UI.Navigation/Mode value)
-    // Offset: 0xDBC104
+    // Offset: 0xC72524
     void set_mode(UnityEngine::UI::Navigation::Mode value);
     // public UnityEngine.UI.Selectable get_selectOnUp()
-    // Offset: 0xDBC10C
+    // Offset: 0xC7252C
     UnityEngine::UI::Selectable* get_selectOnUp();
     // public System.Void set_selectOnUp(UnityEngine.UI.Selectable value)
-    // Offset: 0xDBC114
+    // Offset: 0xC72534
     void set_selectOnUp(UnityEngine::UI::Selectable* value);
     // public UnityEngine.UI.Selectable get_selectOnDown()
-    // Offset: 0xDBC11C
+    // Offset: 0xC7253C
     UnityEngine::UI::Selectable* get_selectOnDown();
     // public System.Void set_selectOnDown(UnityEngine.UI.Selectable value)
-    // Offset: 0xDBC124
+    // Offset: 0xC72544
     void set_selectOnDown(UnityEngine::UI::Selectable* value);
     // public UnityEngine.UI.Selectable get_selectOnLeft()
-    // Offset: 0xDBC12C
+    // Offset: 0xC7254C
     UnityEngine::UI::Selectable* get_selectOnLeft();
     // public System.Void set_selectOnLeft(UnityEngine.UI.Selectable value)
-    // Offset: 0xDBC134
+    // Offset: 0xC72554
     void set_selectOnLeft(UnityEngine::UI::Selectable* value);
     // public UnityEngine.UI.Selectable get_selectOnRight()
-    // Offset: 0xDBC13C
+    // Offset: 0xC7255C
     UnityEngine::UI::Selectable* get_selectOnRight();
     // public System.Void set_selectOnRight(UnityEngine.UI.Selectable value)
-    // Offset: 0xDBC144
+    // Offset: 0xC72564
     void set_selectOnRight(UnityEngine::UI::Selectable* value);
     // static public UnityEngine.UI.Navigation get_defaultNavigation()
-    // Offset: 0x183B3F0
+    // Offset: 0x15E2814
     static UnityEngine::UI::Navigation get_defaultNavigation();
     // public System.Boolean Equals(UnityEngine.UI.Navigation other)
-    // Offset: 0xDBC14C
+    // Offset: 0xC7256C
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.UI.Navigation other)
     bool Equals(UnityEngine::UI::Navigation other);

@@ -41,13 +41,13 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__9_0
     static void _set_$$9__9_0(System::Func_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::IEnumerable_1<int>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x194C690
+    // Offset: 0x16F2AB4
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<System.Int32> <CreateFaceMesh>b__9_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x194C700
+    // Offset: 0x16F2B24
     System::Collections::Generic::IEnumerable_1<int>* $CreateFaceMesh$b__9_0(UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0x194C6F8
+    // Offset: 0x16F2B1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MeshHandles::$$c* New_ctor();

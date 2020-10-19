@@ -33,7 +33,7 @@ namespace LiteNetLib {
     // Offset: 0x20
     uint8_t ChannelId;
     // public System.Void .ctor()
-    // Offset: 0x1A71818
+    // Offset: 0x180FA0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NetPeer::IncomingFragments* New_ctor();

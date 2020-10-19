@@ -44,19 +44,19 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x20
     ::Array<System::Text::RegularExpressions::Group*>* groups;
     // System.Void .ctor(System.Text.RegularExpressions.Match match, System.Collections.Hashtable caps)
-    // Offset: 0x16C7F88
+    // Offset: 0x1482B5C
     static GroupCollection* New_ctor(System::Text::RegularExpressions::Match* match, System::Collections::Hashtable* caps);
     // public System.Text.RegularExpressions.Group get_Item(System.Int32 groupnum)
-    // Offset: 0x16C8000
+    // Offset: 0x1482BD4
     System::Text::RegularExpressions::Group* get_Item(int groupnum);
     // System.Text.RegularExpressions.Group GetGroup(System.Int32 groupnum)
-    // Offset: 0x16C8004
+    // Offset: 0x1482BD8
     System::Text::RegularExpressions::Group* GetGroup(int groupnum);
     // System.Text.RegularExpressions.Group GetGroupImpl(System.Int32 groupnum)
-    // Offset: 0x16C8130
+    // Offset: 0x1482D04
     System::Text::RegularExpressions::Group* GetGroupImpl(int groupnum);
     // public System.Int32 get_Count()
-    // Offset: 0x16C7FD8
+    // Offset: 0x1482BAC
     // Implemented from: System.Collections.ICollection
     // Base method: System.Int32 ICollection::get_Count()
     int get_Count();
@@ -64,7 +64,7 @@ namespace System::Text::RegularExpressions {
     // Maps to method: get_Count
     int System_Collections_ICollection_get_Count();
     // public System.Void CopyTo(System.Array array, System.Int32 arrayIndex)
-    // Offset: 0x16C84A0
+    // Offset: 0x1483074
     // Implemented from: System.Collections.ICollection
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 arrayIndex)
     void CopyTo(System::Array* array, int arrayIndex);
@@ -72,7 +72,7 @@ namespace System::Text::RegularExpressions {
     // Maps to method: CopyTo
     void System_Collections_ICollection_CopyTo(System::Array* array, int arrayIndex);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x16C8584
+    // Offset: 0x1483158
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* GetEnumerator();
@@ -80,7 +80,7 @@ namespace System::Text::RegularExpressions {
     // Maps to method: GetEnumerator
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // System.Void .ctor()
-    // Offset: 0x16C8638
+    // Offset: 0x148320C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GroupCollection* New_ctor();

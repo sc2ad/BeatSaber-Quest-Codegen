@@ -115,10 +115,10 @@ namespace GlobalNamespace {
     // Offset: 0x90
     GlobalNamespace::OVRInput::RawButton Right;
     // public OVRInput/RawButton ToRawMask(OVRInput/Button virtualMask)
-    // Offset: 0x131487C
+    // Offset: 0x10E9FB8
     GlobalNamespace::OVRInput::RawButton ToRawMask(GlobalNamespace::OVRInput::Button virtualMask);
     // public System.Void .ctor()
-    // Offset: 0x1313D44
+    // Offset: 0x10E9480
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRInput::OVRControllerBase::VirtualButtonMap* New_ctor();

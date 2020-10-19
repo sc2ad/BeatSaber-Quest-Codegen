@@ -166,145 +166,145 @@ namespace UnityEngine::UI {
     // Set static field: static protected System.Int32 s_SelectableCount
     static void _set_s_SelectableCount(int value);
     // static public UnityEngine.UI.Selectable[] get_allSelectablesArray()
-    // Offset: 0x184646C
+    // Offset: 0x15ED890
     static ::Array<UnityEngine::UI::Selectable*>* get_allSelectablesArray();
     // static public System.Int32 get_allSelectableCount()
-    // Offset: 0x184650C
+    // Offset: 0x15ED930
     static int get_allSelectableCount();
     // static public System.Collections.Generic.List`1<UnityEngine.UI.Selectable> get_allSelectables()
-    // Offset: 0x1846574
+    // Offset: 0x15ED998
     static System::Collections::Generic::List_1<UnityEngine::UI::Selectable*>* get_allSelectables();
     // static public System.Int32 AllSelectablesNoAlloc(UnityEngine.UI.Selectable[] selectables)
-    // Offset: 0x1846608
+    // Offset: 0x15EDA2C
     static int AllSelectablesNoAlloc(::Array<UnityEngine::UI::Selectable*>* selectables);
     // public UnityEngine.UI.Navigation get_navigation()
-    // Offset: 0x18466EC
+    // Offset: 0x15EDB10
     UnityEngine::UI::Navigation get_navigation();
     // public System.Void set_navigation(UnityEngine.UI.Navigation value)
-    // Offset: 0x1846704
+    // Offset: 0x15EDB28
     void set_navigation(UnityEngine::UI::Navigation value);
     // public UnityEngine.UI.Selectable/Transition get_transition()
-    // Offset: 0x1846808
+    // Offset: 0x15EDC2C
     UnityEngine::UI::Selectable::Transition get_transition();
     // public System.Void set_transition(UnityEngine.UI.Selectable/Transition value)
-    // Offset: 0x1846810
+    // Offset: 0x15EDC34
     void set_transition(UnityEngine::UI::Selectable::Transition value);
     // public UnityEngine.UI.ColorBlock get_colors()
-    // Offset: 0x184688C
+    // Offset: 0x15EDCB0
     UnityEngine::UI::ColorBlock get_colors();
     // public System.Void set_colors(UnityEngine.UI.ColorBlock value)
-    // Offset: 0x184689C
+    // Offset: 0x15EDCC0
     void set_colors(UnityEngine::UI::ColorBlock value);
     // public UnityEngine.UI.SpriteState get_spriteState()
-    // Offset: 0x184693C
+    // Offset: 0x15EDD60
     UnityEngine::UI::SpriteState get_spriteState();
     // public System.Void set_spriteState(UnityEngine.UI.SpriteState value)
-    // Offset: 0x1846948
+    // Offset: 0x15EDD6C
     void set_spriteState(UnityEngine::UI::SpriteState value);
     // public UnityEngine.UI.AnimationTriggers get_animationTriggers()
-    // Offset: 0x18469D0
+    // Offset: 0x15EDDF4
     UnityEngine::UI::AnimationTriggers* get_animationTriggers();
     // public System.Void set_animationTriggers(UnityEngine.UI.AnimationTriggers value)
-    // Offset: 0x18469D8
+    // Offset: 0x15EDDFC
     void set_animationTriggers(UnityEngine::UI::AnimationTriggers* value);
     // public UnityEngine.UI.Graphic get_targetGraphic()
-    // Offset: 0x1846A54
+    // Offset: 0x15EDE78
     UnityEngine::UI::Graphic* get_targetGraphic();
     // public System.Void set_targetGraphic(UnityEngine.UI.Graphic value)
-    // Offset: 0x1846A5C
+    // Offset: 0x15EDE80
     void set_targetGraphic(UnityEngine::UI::Graphic* value);
     // public System.Boolean get_interactable()
-    // Offset: 0x1846AD8
+    // Offset: 0x15EDEFC
     bool get_interactable();
     // public System.Void set_interactable(System.Boolean value)
-    // Offset: 0x1846AE0
+    // Offset: 0x15EDF04
     void set_interactable(bool value);
     // private System.Boolean get_isPointerInside()
-    // Offset: 0x1846C68
+    // Offset: 0x15EE08C
     bool get_isPointerInside();
     // private System.Void set_isPointerInside(System.Boolean value)
-    // Offset: 0x1846C70
+    // Offset: 0x15EE094
     void set_isPointerInside(bool value);
     // private System.Boolean get_isPointerDown()
-    // Offset: 0x1846C7C
+    // Offset: 0x15EE0A0
     bool get_isPointerDown();
     // private System.Void set_isPointerDown(System.Boolean value)
-    // Offset: 0x1846C84
+    // Offset: 0x15EE0A8
     void set_isPointerDown(bool value);
     // private System.Boolean get_hasSelection()
-    // Offset: 0x1846C90
+    // Offset: 0x15EE0B4
     bool get_hasSelection();
     // private System.Void set_hasSelection(System.Boolean value)
-    // Offset: 0x1846C98
+    // Offset: 0x15EE0BC
     void set_hasSelection(bool value);
     // public UnityEngine.UI.Image get_image()
-    // Offset: 0x1846CA4
+    // Offset: 0x15EE0C8
     UnityEngine::UI::Image* get_image();
     // public System.Void set_image(UnityEngine.UI.Image value)
-    // Offset: 0x1846D28
+    // Offset: 0x15EE14C
     void set_image(UnityEngine::UI::Image* value);
     // public UnityEngine.Animator get_animator()
-    // Offset: 0x1846D30
+    // Offset: 0x15EE154
     UnityEngine::Animator* get_animator();
     // public System.Boolean IsInteractable()
-    // Offset: 0x1846FE8
+    // Offset: 0x15EE40C
     bool IsInteractable();
     // private System.Void OnSetProperty()
-    // Offset: 0x1846798
+    // Offset: 0x15EDBBC
     void OnSetProperty();
     // protected UnityEngine.UI.Selectable/SelectionState get_currentSelectionState()
-    // Offset: 0x184700C
+    // Offset: 0x15EE430
     UnityEngine::UI::Selectable::SelectionState get_currentSelectionState();
     // protected System.Void InstantClearState()
-    // Offset: 0x184709C
+    // Offset: 0x15EE4C0
     void InstantClearState();
     // protected System.Void DoStateTransition(UnityEngine.UI.Selectable/SelectionState state, System.Boolean instant)
-    // Offset: 0x1847480
+    // Offset: 0x15EE8A4
     void DoStateTransition(UnityEngine::UI::Selectable::SelectionState state, bool instant);
     // public UnityEngine.UI.Selectable FindSelectable(UnityEngine.Vector3 dir)
-    // Offset: 0x1847624
+    // Offset: 0x15EEA48
     UnityEngine::UI::Selectable* FindSelectable(UnityEngine::Vector3 dir);
     // static private UnityEngine.Vector3 GetPointOnRectEdge(UnityEngine.RectTransform rect, UnityEngine.Vector2 dir)
-    // Offset: 0x1847AA8
+    // Offset: 0x15EEECC
     static UnityEngine::Vector3 GetPointOnRectEdge(UnityEngine::RectTransform* rect, UnityEngine::Vector2 dir);
     // private System.Void Navigate(UnityEngine.EventSystems.AxisEventData eventData, UnityEngine.UI.Selectable sel)
-    // Offset: 0x1847CDC
+    // Offset: 0x15EF100
     void Navigate(UnityEngine::EventSystems::AxisEventData* eventData, UnityEngine::UI::Selectable* sel);
     // public UnityEngine.UI.Selectable FindSelectableOnLeft()
-    // Offset: 0x1845B28
+    // Offset: 0x15ECF4C
     UnityEngine::UI::Selectable* FindSelectableOnLeft();
     // public UnityEngine.UI.Selectable FindSelectableOnRight()
-    // Offset: 0x1845C8C
+    // Offset: 0x15ED0B0
     UnityEngine::UI::Selectable* FindSelectableOnRight();
     // public UnityEngine.UI.Selectable FindSelectableOnUp()
-    // Offset: 0x1845DF0
+    // Offset: 0x15ED214
     UnityEngine::UI::Selectable* FindSelectableOnUp();
     // public UnityEngine.UI.Selectable FindSelectableOnDown()
-    // Offset: 0x1845F54
+    // Offset: 0x15ED378
     UnityEngine::UI::Selectable* FindSelectableOnDown();
     // private System.Void StartColorTween(UnityEngine.Color targetColor, System.Boolean instant)
-    // Offset: 0x184712C
+    // Offset: 0x15EE550
     void StartColorTween(UnityEngine::Color targetColor, bool instant);
     // private System.Void DoSpriteSwap(UnityEngine.Sprite newSprite)
-    // Offset: 0x1847224
+    // Offset: 0x15EE648
     void DoSpriteSwap(UnityEngine::Sprite* newSprite);
     // private System.Void TriggerAnimation(System.String triggername)
-    // Offset: 0x18472DC
+    // Offset: 0x15EE700
     void TriggerAnimation(::Il2CppString* triggername);
     // protected System.Boolean IsHighlighted()
-    // Offset: 0x1847DA4
+    // Offset: 0x15EF1C8
     bool IsHighlighted();
     // protected System.Boolean IsPressed()
-    // Offset: 0x1847E0C
+    // Offset: 0x15EF230
     bool IsPressed();
     // private System.Void EvaluateAndTransitionToSelectionState()
-    // Offset: 0x1847E64
+    // Offset: 0x15EF288
     void EvaluateAndTransitionToSelectionState();
     // public System.Void Select()
-    // Offset: 0x1847F34
+    // Offset: 0x15EF358
     void Select();
     // protected System.Void .ctor()
-    // Offset: 0x1844534
+    // Offset: 0x15EB958
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -314,72 +314,72 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static Selectable* New_ctor();
     // protected override System.Void Awake()
-    // Offset: 0x1846D80
+    // Offset: 0x15EE1A4
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::Awake()
     void Awake();
     // protected override System.Void OnCanvasGroupChanged()
-    // Offset: 0x1846E34
+    // Offset: 0x15EE258
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnCanvasGroupChanged()
     void OnCanvasGroupChanged();
     // protected override System.Void OnDidApplyAnimationProperties()
-    // Offset: 0x1847008
+    // Offset: 0x15EE42C
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDidApplyAnimationProperties()
     void OnDidApplyAnimationProperties();
     // protected override System.Void OnEnable()
-    // Offset: 0x1844954
+    // Offset: 0x15EBD78
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnEnable()
     void OnEnable();
     // protected override System.Void OnTransformParentChanged()
-    // Offset: 0x1847068
+    // Offset: 0x15EE48C
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnTransformParentChanged()
     void OnTransformParentChanged();
     // protected override System.Void OnDisable()
-    // Offset: 0x1844B7C
+    // Offset: 0x15EBFA0
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDisable()
     void OnDisable();
     // public System.Void OnMove(UnityEngine.EventSystems.AxisEventData eventData)
-    // Offset: 0x1845A6C
+    // Offset: 0x15ECE90
     // Implemented from: UnityEngine.EventSystems.IMoveHandler
     // Base method: System.Void IMoveHandler::OnMove(UnityEngine.EventSystems.AxisEventData eventData)
     void OnMove(UnityEngine::EventSystems::AxisEventData* eventData);
     // public System.Void OnPointerDown(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1845528
+    // Offset: 0x15EC94C
     // Implemented from: UnityEngine.EventSystems.IPointerDownHandler
     // Base method: System.Void IPointerDownHandler::OnPointerDown(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerDown(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerUp(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x18457B4
+    // Offset: 0x15ECBD8
     // Implemented from: UnityEngine.EventSystems.IPointerUpHandler
     // Base method: System.Void IPointerUpHandler::OnPointerUp(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerUp(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1847F0C
+    // Offset: 0x15EF330
     // Implemented from: UnityEngine.EventSystems.IPointerEnterHandler
     // Base method: System.Void IPointerEnterHandler::OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1847F18
+    // Offset: 0x15EF33C
     // Implemented from: UnityEngine.EventSystems.IPointerExitHandler
     // Base method: System.Void IPointerExitHandler::OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerExit(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnSelect(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x1847F20
+    // Offset: 0x15EF344
     // Implemented from: UnityEngine.EventSystems.ISelectHandler
     // Base method: System.Void ISelectHandler::OnSelect(UnityEngine.EventSystems.BaseEventData eventData)
     void OnSelect(UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void OnDeselect(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x1847F2C
+    // Offset: 0x15EF350
     // Implemented from: UnityEngine.EventSystems.IDeselectHandler
     // Base method: System.Void IDeselectHandler::OnDeselect(UnityEngine.EventSystems.BaseEventData eventData)
     void OnDeselect(UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void .cctor()
-    // Offset: 0x1848060
+    // Offset: 0x15EF484
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

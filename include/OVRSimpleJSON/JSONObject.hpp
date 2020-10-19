@@ -47,87 +47,87 @@ namespace OVRSimpleJSON {
     // Offset: 0x18
     bool _inline;
     // public override System.Boolean get_Inline()
-    // Offset: 0x14A332C
+    // Offset: 0x1278B54
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Boolean JSONNode::get_Inline()
     bool get_Inline();
     // public override System.Void set_Inline(System.Boolean value)
-    // Offset: 0x14A3334
+    // Offset: 0x1278B5C
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Void JSONNode::set_Inline(System.Boolean value)
     void set_Inline(bool value);
     // public override OVRSimpleJSON.JSONNodeType get_Tag()
-    // Offset: 0x14A3340
+    // Offset: 0x1278B68
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: OVRSimpleJSON.JSONNodeType JSONNode::get_Tag()
     OVRSimpleJSON::JSONNodeType get_Tag();
     // public override System.Boolean get_IsObject()
-    // Offset: 0x14A3348
+    // Offset: 0x1278B70
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Boolean JSONNode::get_IsObject()
     bool get_IsObject();
     // public override OVRSimpleJSON.JSONNode/Enumerator GetEnumerator()
-    // Offset: 0x14A3350
+    // Offset: 0x1278B78
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: OVRSimpleJSON.JSONNode/Enumerator JSONNode::GetEnumerator()
     OVRSimpleJSON::JSONNode::Enumerator GetEnumerator();
     // public override OVRSimpleJSON.JSONNode get_Item(System.String aKey)
-    // Offset: 0x14A3408
+    // Offset: 0x1278C30
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: OVRSimpleJSON.JSONNode JSONNode::get_Item(System.String aKey)
     OVRSimpleJSON::JSONNode* get_Item(::Il2CppString* aKey);
     // public override System.Void set_Item(System.String aKey, OVRSimpleJSON.JSONNode value)
-    // Offset: 0x14A34C4
+    // Offset: 0x1278CEC
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Void JSONNode::set_Item(System.String aKey, OVRSimpleJSON.JSONNode value)
     void set_Item(::Il2CppString* aKey, OVRSimpleJSON::JSONNode* value);
     // public override OVRSimpleJSON.JSONNode get_Item(System.Int32 aIndex)
-    // Offset: 0x14A35D8
+    // Offset: 0x1278E00
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: OVRSimpleJSON.JSONNode JSONNode::get_Item(System.Int32 aIndex)
     OVRSimpleJSON::JSONNode* get_Item(int aIndex);
     // public override System.Void set_Item(System.Int32 aIndex, OVRSimpleJSON.JSONNode value)
-    // Offset: 0x14A3670
+    // Offset: 0x1278E98
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Void JSONNode::set_Item(System.Int32 aIndex, OVRSimpleJSON.JSONNode value)
     void set_Item(int aIndex, OVRSimpleJSON::JSONNode* value);
     // public override System.Int32 get_Count()
-    // Offset: 0x14A378C
+    // Offset: 0x1278FB4
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Int32 JSONNode::get_Count()
     int get_Count();
     // public override System.Void Add(System.String aKey, OVRSimpleJSON.JSONNode aItem)
-    // Offset: 0x14A37E4
+    // Offset: 0x127900C
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Void JSONNode::Add(System.String aKey, OVRSimpleJSON.JSONNode aItem)
     void Add(::Il2CppString* aKey, OVRSimpleJSON::JSONNode* aItem);
     // public override OVRSimpleJSON.JSONNode Remove(System.String aKey)
-    // Offset: 0x14A3968
+    // Offset: 0x1279190
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: OVRSimpleJSON.JSONNode JSONNode::Remove(System.String aKey)
     OVRSimpleJSON::JSONNode* Remove(::Il2CppString* aKey);
     // public override OVRSimpleJSON.JSONNode Remove(System.Int32 aIndex)
-    // Offset: 0x14A3A24
+    // Offset: 0x127924C
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: OVRSimpleJSON.JSONNode JSONNode::Remove(System.Int32 aIndex)
     OVRSimpleJSON::JSONNode* Remove(int aIndex);
     // public override OVRSimpleJSON.JSONNode Remove(OVRSimpleJSON.JSONNode aNode)
-    // Offset: 0x14A3AE0
+    // Offset: 0x1279308
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: OVRSimpleJSON.JSONNode JSONNode::Remove(OVRSimpleJSON.JSONNode aNode)
     OVRSimpleJSON::JSONNode* Remove(OVRSimpleJSON::JSONNode* aNode);
     // public override System.Collections.Generic.IEnumerable`1<OVRSimpleJSON.JSONNode> get_Children()
-    // Offset: 0x14A3C78
+    // Offset: 0x12794A0
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Collections.Generic.IEnumerable`1<OVRSimpleJSON.JSONNode> JSONNode::get_Children()
     System::Collections::Generic::IEnumerable_1<OVRSimpleJSON::JSONNode*>* get_Children();
     // override System.Void WriteToStringBuilder(System.Text.StringBuilder aSB, System.Int32 aIndent, System.Int32 aIndentInc, OVRSimpleJSON.JSONTextMode aMode)
-    // Offset: 0x14A3D3C
+    // Offset: 0x1279564
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Void JSONNode::WriteToStringBuilder(System.Text.StringBuilder aSB, System.Int32 aIndent, System.Int32 aIndentInc, OVRSimpleJSON.JSONTextMode aMode)
     void WriteToStringBuilder(System::Text::StringBuilder* aSB, int aIndent, int aIndentInc, OVRSimpleJSON::JSONTextMode aMode);
     // public System.Void .ctor()
-    // Offset: 0x149D780
+    // Offset: 0x1272FA8
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Void JSONNode::.ctor()
     // Base method: System.Void Object::.ctor()

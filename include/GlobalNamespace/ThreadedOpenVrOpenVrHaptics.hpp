@@ -41,7 +41,7 @@ namespace GlobalNamespace {
       // Creating value type constructor for type: OpenVrHapticData
       constexpr OpenVrHapticData(float endTime_ = {}, float strength_ = {}) noexcept : endTime{endTime_}, strength{strength_} {}
       // public System.Void .ctor(System.Single endTime, System.Single strength)
-      // Offset: 0xDDD054
+      // Offset: 0xE5742C
       // ABORTED: conflicts with another method.  OpenVrHapticData(float endTime, float strength);
     }; // ThreadedOpenVrOpenVrHaptics/OpenVrHapticData
     // private System.Single _currentTime
@@ -57,23 +57,23 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData rightHandHaptics;
     // private System.Void UpdateHaptics()
-    // Offset: 0x21ECD24
+    // Offset: 0x223E984
     void UpdateHaptics();
     // private System.Void UpdateHandHaptics(UnityEngine.XR.XRNode node)
-    // Offset: 0x21ECDEC
+    // Offset: 0x223EA4C
     void UpdateHandHaptics(UnityEngine::XR::XRNode node);
     // public System.Void .ctor()
-    // Offset: 0x21ECC24
+    // Offset: 0x223E884
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ThreadedOpenVrOpenVrHaptics* New_ctor();
     // public System.Void TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single duration, System.Single strength, System.Single frequency)
-    // Offset: 0x21ECCF0
+    // Offset: 0x223E950
     // Implemented from: IOpenVRHaptics
     // Base method: System.Void IOpenVRHaptics::TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single duration, System.Single strength, System.Single frequency)
     void TriggerHapticPulse(UnityEngine::XR::XRNode node, float duration, float strength, float frequency);
     // public System.Void Destroy()
-    // Offset: 0x21ECF30
+    // Offset: 0x223EB90
     // Implemented from: IOpenVRHaptics
     // Base method: System.Void IOpenVRHaptics::Destroy()
     void Destroy();

@@ -74,21 +74,21 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _alphaWeightsID
     static void _set__alphaWeightsID(int value);
     // protected System.Void OnDisable()
-    // Offset: 0x1FB217C
+    // Offset: 0x1D02DE0
     void OnDisable();
     // public System.Void RenderBloom(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single radius, System.Boolean alphaWeights, System.Boolean betterQuality, System.Boolean gammaCorrection)
-    // Offset: 0x1FB21B4
+    // Offset: 0x1D02E18
     void RenderBloom(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest, float radius, bool alphaWeights, bool betterQuality, bool gammaCorrection);
     // public System.Void RenderBloom(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single radius, System.Single intensity, System.Single downIntensityOffset, System.Boolean uniformPyramidWeights, System.Boolean downsampleOnFirstPass, System.Single pyramidWeightsParam, System.Single alphaWeights, PyramidBloomRendererSO/Pass preFilterPass, PyramidBloomRendererSO/Pass downsamplePass, PyramidBloomRendererSO/Pass upsamplePass, PyramidBloomRendererSO/Pass finalUpsamplePass)
-    // Offset: 0x1FB2228
+    // Offset: 0x1D02E8C
     void RenderBloom(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest, float radius, float intensity, float downIntensityOffset, bool uniformPyramidWeights, bool downsampleOnFirstPass, float pyramidWeightsParam, float alphaWeights, GlobalNamespace::PyramidBloomRendererSO::Pass preFilterPass, GlobalNamespace::PyramidBloomRendererSO::Pass downsamplePass, GlobalNamespace::PyramidBloomRendererSO::Pass upsamplePass, GlobalNamespace::PyramidBloomRendererSO::Pass finalUpsamplePass);
     // protected override System.Void OnEnable()
-    // Offset: 0x1FB201C
+    // Offset: 0x1D02C80
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x1FB2A14
+    // Offset: 0x1D03678
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -96,7 +96,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PyramidBloomRendererSO* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1FB2A1C
+    // Offset: 0x1D03680
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

@@ -46,16 +46,16 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* randomObjectPicker;
     // public System.Void Init(AudioClipQueue audioClipQueue)
-    // Offset: 0xFDBA68
+    // Offset: 0x2086744
     void Init(GlobalNamespace::AudioClipQueue* audioClipQueue);
     // public System.Void Deinit()
-    // Offset: 0xFDBBB4
+    // Offset: 0x2086890
     void Deinit();
     // private System.Void HandleGameEvent()
-    // Offset: 0xFDBC48
+    // Offset: 0x2086924
     void HandleGameEvent();
     // public System.Void .ctor()
-    // Offset: 0xFDBCFC
+    // Offset: 0x20869D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayAudioOnGameEventController::EventAudioBinding* New_ctor();

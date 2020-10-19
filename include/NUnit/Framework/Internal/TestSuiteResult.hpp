@@ -49,38 +49,38 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x70
     System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestResult*>* children;
     // public System.Void .ctor(NUnit.Framework.Internal.TestSuite suite)
-    // Offset: 0x217D824
+    // Offset: 0x1ED2488
     static TestSuiteResult* New_ctor(NUnit::Framework::Internal::TestSuite* suite);
     // public System.Void AddResult(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x217DD7C
+    // Offset: 0x1ED29E0
     void AddResult(NUnit::Framework::Interfaces::ITestResult* result);
     // public override System.Int32 get_FailCount()
-    // Offset: 0x217DCFC
+    // Offset: 0x1ED2960
     // Implemented from: NUnit.Framework.Internal.TestResult
     // Base method: System.Int32 TestResult::get_FailCount()
     int get_FailCount();
     // public override System.Int32 get_PassCount()
-    // Offset: 0x217DD04
+    // Offset: 0x1ED2968
     // Implemented from: NUnit.Framework.Internal.TestResult
     // Base method: System.Int32 TestResult::get_PassCount()
     int get_PassCount();
     // public override System.Int32 get_SkipCount()
-    // Offset: 0x217DD0C
+    // Offset: 0x1ED2970
     // Implemented from: NUnit.Framework.Internal.TestResult
     // Base method: System.Int32 TestResult::get_SkipCount()
     int get_SkipCount();
     // public override System.Int32 get_InconclusiveCount()
-    // Offset: 0x217DD14
+    // Offset: 0x1ED2978
     // Implemented from: NUnit.Framework.Internal.TestResult
     // Base method: System.Int32 TestResult::get_InconclusiveCount()
     int get_InconclusiveCount();
     // public override System.Boolean get_HasChildren()
-    // Offset: 0x217DD1C
+    // Offset: 0x1ED2980
     // Implemented from: NUnit.Framework.Internal.TestResult
     // Base method: System.Boolean TestResult::get_HasChildren()
     bool get_HasChildren();
     // public override System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.ITestResult> get_Children()
-    // Offset: 0x217DD74
+    // Offset: 0x1ED29D8
     // Implemented from: NUnit.Framework.Internal.TestResult
     // Base method: System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.ITestResult> TestResult::get_Children()
     System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestResult*>* get_Children();

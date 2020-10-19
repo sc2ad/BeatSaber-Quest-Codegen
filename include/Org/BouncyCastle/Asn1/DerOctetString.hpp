@@ -22,15 +22,15 @@ namespace Org::BouncyCastle::Asn1 {
   class DerOctetString : public Org::BouncyCastle::Asn1::Asn1OctetString {
     public:
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Encodable obj)
-    // Offset: 0x154EB08
+    // Offset: 0x1326330
     static DerOctetString* New_ctor(Org::BouncyCastle::Asn1::Asn1Encodable* obj);
     // public System.Void .ctor(System.Byte[] str)
-    // Offset: 0x153E620
+    // Offset: 0x1315E48
     // Implemented from: Org.BouncyCastle.Asn1.Asn1OctetString
     // Base method: System.Void Asn1OctetString::.ctor(System.Byte[] str)
     static DerOctetString* New_ctor(::Array<uint8_t>* str);
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x1543578
+    // Offset: 0x131ADA0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);

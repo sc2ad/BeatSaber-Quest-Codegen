@@ -30,13 +30,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<MultiplayerScoreProvider/RankedPlayer,System.Boolean> <>9__16_0
     static void _set_$$9__16_0(System::Func_2<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0xF03D88
+    // Offset: 0x1FD8C3C
     static void _cctor();
     // System.Boolean <Update>b__16_0(MultiplayerScoreProvider/RankedPlayer p)
-    // Offset: 0xF03DF8
+    // Offset: 0x1FD8CAC
     bool $Update$b__16_0(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* p);
     // public System.Void .ctor()
-    // Offset: 0xF03DF0
+    // Offset: 0x1FD8CA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MultiplayerScoreProvider::$$c* New_ctor();

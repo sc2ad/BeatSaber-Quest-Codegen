@@ -30,13 +30,13 @@ namespace HMUI {
     // Set static field: static public System.Func`2<System.Single,System.Single> <>9__25_1
     static void _set_$$9__25_1(System::Func_2<float, float>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1177744
+    // Offset: 0x217112C
     static void _cctor();
     // System.Single <Awake>b__25_1(System.Single i)
-    // Offset: 0x11777B4
+    // Offset: 0x217119C
     float $Awake$b__25_1(float i);
     // public System.Void .ctor()
-    // Offset: 0x11777AC
+    // Offset: 0x2171194
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ScrollView::$$c* New_ctor();

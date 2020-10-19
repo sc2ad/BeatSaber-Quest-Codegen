@@ -32,10 +32,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     Valve::VR::CVRRenderModels* instance;
     // public Valve.VR.CVRRenderModels get_instance()
-    // Offset: 0x1241A3C
+    // Offset: 0x103C2D8
     Valve::VR::CVRRenderModels* get_instance();
     // public System.Void Dispose()
-    // Offset: 0x12441E0
+    // Offset: 0x103EA7C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // public System.Void .ctor()
-    // Offset: 0x1241378
+    // Offset: 0x103BC14
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SteamVR_RenderModel::RenderModelInterfaceHolder* New_ctor();

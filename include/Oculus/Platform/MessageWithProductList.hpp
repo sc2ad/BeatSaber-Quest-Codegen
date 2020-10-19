@@ -25,16 +25,16 @@ namespace Oculus::Platform {
   class MessageWithProductList : public Oculus::Platform::Message_1<Oculus::Platform::Models::ProductList*> {
     public:
     // protected Oculus.Platform.Models.ProductList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x1368140
+    // Offset: 0x113D87C
     Oculus::Platform::Models::ProductList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x135FFEC
+    // Offset: 0x1135728
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithProductList* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.ProductList GetProductList()
-    // Offset: 0x13680FC
+    // Offset: 0x113D838
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.ProductList Message::GetProductList()
     Oculus::Platform::Models::ProductList* GetProductList();

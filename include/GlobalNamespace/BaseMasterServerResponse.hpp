@@ -30,25 +30,25 @@ namespace GlobalNamespace {
       return responseId;
     }
     // private System.Void set_responseId(System.UInt32 value)
-    // Offset: 0x115B2EC
+    // Offset: 0x2155CDC
     void set_responseId(uint value);
     // public System.UInt32 get_responseId()
-    // Offset: 0x115B2E4
+    // Offset: 0x2155CD4
     // Implemented from: MasterServer.IMasterServerResponse
     // Base method: System.UInt32 IMasterServerResponse::get_responseId()
     uint get_responseId();
     // public System.Byte get_resultCode()
-    // Offset: 0x115B2F4
+    // Offset: 0x2155CE4
     // Implemented from: MasterServer.IMasterServerResponse
     // Base method: System.Byte IMasterServerResponse::get_resultCode()
     uint8_t get_resultCode();
     // public System.String get_resultCodeString()
-    // Offset: 0x115B2FC
+    // Offset: 0x2155CEC
     // Implemented from: MasterServer.IMasterServerResponse
     // Base method: System.String IMasterServerResponse::get_resultCodeString()
     ::Il2CppString* get_resultCodeString();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x115B09C
+    // Offset: 0x2155A8C
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x115B10C
+    // Offset: 0x2155AFC
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -69,12 +69,12 @@ namespace GlobalNamespace {
     // Base method: System.Void IPoolablePacket::Release()
     void Release();
     // private MasterServer.IMasterServerResponse MasterServer.IMasterServerResponse.WithResponseId(System.UInt32 responseId)
-    // Offset: 0x115B344
+    // Offset: 0x2155D34
     // Implemented from: MasterServer.IMasterServerResponse
     // Base method: MasterServer.IMasterServerResponse IMasterServerResponse::WithResponseId(System.UInt32 responseId)
     MasterServer::IMasterServerResponse* MasterServer_IMasterServerResponse_WithResponseId(uint responseId);
     // protected System.Void .ctor()
-    // Offset: 0x115B148
+    // Offset: 0x2155B38
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BaseMasterServerResponse* New_ctor();

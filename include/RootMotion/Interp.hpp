@@ -24,97 +24,97 @@ namespace RootMotion {
   class Interp : public ::Il2CppObject {
     public:
     // static public System.Single Float(System.Single t, RootMotion.InterpolationMode mode)
-    // Offset: 0x18F7FA0
+    // Offset: 0x169E3C4
     static float Float(float t, RootMotion::InterpolationMode mode);
     // static public UnityEngine.Vector3 V3(UnityEngine.Vector3 v1, UnityEngine.Vector3 v2, System.Single t, RootMotion.InterpolationMode mode)
-    // Offset: 0x18F8A08
+    // Offset: 0x169EE2C
     static UnityEngine::Vector3 V3(UnityEngine::Vector3 v1, UnityEngine::Vector3 v2, float t, RootMotion::InterpolationMode mode);
     // static public System.Single LerpValue(System.Single value, System.Single target, System.Single increaseSpeed, System.Single decreaseSpeed)
-    // Offset: 0x18F8B10
+    // Offset: 0x169EF34
     static float LerpValue(float value, float target, float increaseSpeed, float decreaseSpeed);
     // static private System.Single None(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x18F830C
+    // Offset: 0x169E730
     static float None(float t, float b, float c);
     // static private System.Single InOutCubic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x18F8318
+    // Offset: 0x169E73C
     static float InOutCubic(float t, float b, float c);
     // static private System.Single InOutQuintic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x18F833C
+    // Offset: 0x169E760
     static float InOutQuintic(float t, float b, float c);
     // static private System.Single InQuintic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x18F8378
+    // Offset: 0x169E79C
     static float InQuintic(float t, float b, float c);
     // static private System.Single InQuartic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x18F8390
+    // Offset: 0x169E7B4
     static float InQuartic(float t, float b, float c);
     // static private System.Single InCubic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x18F83A4
+    // Offset: 0x169E7C8
     static float InCubic(float t, float b, float c);
     // static private System.Single InQuadratic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x18F83B8
+    // Offset: 0x169E7DC
     static float InQuadratic(float t, float b, float c);
     // static private System.Single OutQuintic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x18F83C8
+    // Offset: 0x169E7EC
     static float OutQuintic(float t, float b, float c);
     // static private System.Single OutQuartic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x18F8410
+    // Offset: 0x169E834
     static float OutQuartic(float t, float b, float c);
     // static private System.Single OutCubic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x18F8448
+    // Offset: 0x169E86C
     static float OutCubic(float t, float b, float c);
     // static private System.Single OutInCubic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x18F8470
+    // Offset: 0x169E894
     static float OutInCubic(float t, float b, float c);
     // static private System.Single OutInQuartic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x18F8C0C
+    // Offset: 0x169F030
     static float OutInQuartic(float t, float b, float c);
     // static private System.Single BackInCubic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x18F84A4
+    // Offset: 0x169E8C8
     static float BackInCubic(float t, float b, float c);
     // static private System.Single BackInQuartic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x18F84CC
+    // Offset: 0x169E8F0
     static float BackInQuartic(float t, float b, float c);
     // static private System.Single OutBackCubic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x18F84FC
+    // Offset: 0x169E920
     static float OutBackCubic(float t, float b, float c);
     // static private System.Single OutBackQuartic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x18F8530
+    // Offset: 0x169E954
     static float OutBackQuartic(float t, float b, float c);
     // static private System.Single OutElasticSmall(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x18F8574
+    // Offset: 0x169E998
     static float OutElasticSmall(float t, float b, float c);
     // static private System.Single OutElasticBig(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x18F85D8
+    // Offset: 0x169E9FC
     static float OutElasticBig(float t, float b, float c);
     // static private System.Single InElasticSmall(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x18F863C
+    // Offset: 0x169EA60
     static float InElasticSmall(float t, float b, float c);
     // static private System.Single InElasticBig(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x18F8690
+    // Offset: 0x169EAB4
     static float InElasticBig(float t, float b, float c);
     // static private System.Single InSine(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x18F86E4
+    // Offset: 0x169EB08
     static float InSine(float t, float b, float c);
     // static private System.Single OutSine(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x18F877C
+    // Offset: 0x169EBA0
     static float OutSine(float t, float b, float c);
     // static private System.Single InOutSine(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x18F8810
+    // Offset: 0x169EC34
     static float InOutSine(float t, float b, float c);
     // static private System.Single InElastic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x18F8C40
+    // Offset: 0x169F064
     static float InElastic(float t, float b, float c);
     // static private System.Single OutElastic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x18F88B4
+    // Offset: 0x169ECD8
     static float OutElastic(float t, float b, float c);
     // static private System.Single InBack(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x18F8998
+    // Offset: 0x169EDBC
     static float InBack(float t, float b, float c);
     // static private System.Single OutBack(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x18F89C8
+    // Offset: 0x169EDEC
     static float OutBack(float t, float b, float c);
     // public System.Void .ctor()
-    // Offset: 0x18F8D28
+    // Offset: 0x169F14C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Interp* New_ctor();

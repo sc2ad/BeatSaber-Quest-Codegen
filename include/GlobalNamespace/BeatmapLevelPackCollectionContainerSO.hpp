@@ -26,10 +26,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public BeatmapLevelPackCollectionSO get_beatmapLevelPackCollection()
-    // Offset: 0x1055FB0
+    // Offset: 0x20D0A30
     GlobalNamespace::BeatmapLevelPackCollectionSO* get_beatmapLevelPackCollection();
     // public System.Void .ctor()
-    // Offset: 0x1055FB8
+    // Offset: 0x20D0A38
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

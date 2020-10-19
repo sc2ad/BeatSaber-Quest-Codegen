@@ -32,16 +32,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::TextFadeTransitions* textFadeTransitions;
     // public System.Void Init(TextFadeTransitions textFadeTransitions)
-    // Offset: 0xEEC278
+    // Offset: 0x1FED000
     void Init(GlobalNamespace::TextFadeTransitions* textFadeTransitions);
     // public System.Void Deinit()
-    // Offset: 0xEEC380
+    // Offset: 0x1FED108
     void Deinit();
     // private System.Void HandleGameEvent()
-    // Offset: 0xEEC414
+    // Offset: 0x1FED19C
     void HandleGameEvent();
     // public System.Void .ctor()
-    // Offset: 0xEEC450
+    // Offset: 0x1FED1D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ShowTextOnGameEventController::EventTextBinding* New_ctor();

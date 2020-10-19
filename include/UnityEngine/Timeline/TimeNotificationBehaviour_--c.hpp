@@ -30,13 +30,13 @@ namespace UnityEngine::Timeline {
     // Set static field: static public System.Comparison`1<UnityEngine.Timeline.TimeNotificationBehaviour/NotificationEntry> <>9__12_0
     static void _set_$$9__12_0(System::Comparison_1<UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1625260
+    // Offset: 0x13FBA88
     static void _cctor();
     // System.Int32 <SortNotifications>b__12_0(UnityEngine.Timeline.TimeNotificationBehaviour/NotificationEntry x, UnityEngine.Timeline.TimeNotificationBehaviour/NotificationEntry y)
-    // Offset: 0x16252D0
+    // Offset: 0x13FBAF8
     int $SortNotifications$b__12_0(UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry x, UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry y);
     // public System.Void .ctor()
-    // Offset: 0x16252C8
+    // Offset: 0x13FBAF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TimeNotificationBehaviour::$$c* New_ctor();

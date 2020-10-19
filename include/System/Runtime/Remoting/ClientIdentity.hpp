@@ -37,19 +37,19 @@ namespace System::Runtime::Remoting {
       return proxyReference;
     }
     // public System.Void .ctor(System.String objectUri, System.Runtime.Remoting.ObjRef objRef)
-    // Offset: 0x129C64C
+    // Offset: 0x1097EE8
     static ClientIdentity* New_ctor(::Il2CppString* objectUri, System::Runtime::Remoting::ObjRef* objRef);
     // public System.MarshalByRefObject get_ClientProxy()
-    // Offset: 0x129C7C4
+    // Offset: 0x1098060
     System::MarshalByRefObject* get_ClientProxy();
     // public System.Void set_ClientProxy(System.MarshalByRefObject value)
-    // Offset: 0x129C858
+    // Offset: 0x10980F4
     void set_ClientProxy(System::MarshalByRefObject* value);
     // public System.String get_TargetUri()
-    // Offset: 0x129C8D8
+    // Offset: 0x1098174
     ::Il2CppString* get_TargetUri();
     // public override System.Runtime.Remoting.ObjRef CreateObjRef(System.Type requestedType)
-    // Offset: 0x129C8D0
+    // Offset: 0x109816C
     // Implemented from: System.Runtime.Remoting.Identity
     // Base method: System.Runtime.Remoting.ObjRef Identity::CreateObjRef(System.Type requestedType)
     System::Runtime::Remoting::ObjRef* CreateObjRef(System::Type* requestedType);

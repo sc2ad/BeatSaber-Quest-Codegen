@@ -30,12 +30,12 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public IPreviewBeatmapLevel[] get_beatmapLevels()
-    // Offset: 0xF714C4
+    // Offset: 0x209117C
     // Implemented from: IBeatmapLevelCollection
     // Base method: IPreviewBeatmapLevel[] IBeatmapLevelCollection::get_beatmapLevels()
     ::Array<GlobalNamespace::IPreviewBeatmapLevel*>* get_beatmapLevels();
     // public System.Void .ctor()
-    // Offset: 0xF714CC
+    // Offset: 0x2091184
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRChaperoneSetup::_GetLiveCollisionBoundsInfo : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1384F60
+    // Offset: 0x115A69C
     static IVRChaperoneSetup::_GetLiveCollisionBoundsInfo* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(in OVR.OpenVR.HmdQuad_t[] pQuadsBuffer, ref System.UInt32 punQuadsCount)
-    // Offset: 0x137BBC0
+    // Offset: 0x11512FC
     bool Invoke(::Array<OVR::OpenVR::HmdQuad_t>*& pQuadsBuffer, uint& punQuadsCount);
     // public System.IAsyncResult BeginInvoke(in OVR.OpenVR.HmdQuad_t[] pQuadsBuffer, ref System.UInt32 punQuadsCount, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1384F74
+    // Offset: 0x115A6B0
     System::IAsyncResult* BeginInvoke(::Array<OVR::OpenVR::HmdQuad_t>*& pQuadsBuffer, uint& punQuadsCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(ref System.UInt32 punQuadsCount, System.IAsyncResult result)
-    // Offset: 0x1385010
+    // Offset: 0x115A74C
     bool EndInvoke(uint& punQuadsCount, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRChaperoneSetup/_GetLiveCollisionBoundsInfo
 }

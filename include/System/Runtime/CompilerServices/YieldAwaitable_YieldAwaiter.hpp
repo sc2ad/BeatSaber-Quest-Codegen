@@ -42,27 +42,27 @@ namespace System::Runtime::CompilerServices {
     // Set static field: static private readonly System.Threading.SendOrPostCallback s_sendOrPostCallbackRunAction
     static void _set_s_sendOrPostCallbackRunAction(System::Threading::SendOrPostCallback* value);
     // public System.Boolean get_IsCompleted()
-    // Offset: 0xDA8410
+    // Offset: 0xC5DC40
     bool get_IsCompleted();
     // static private System.Void QueueContinuation(System.Action continuation, System.Boolean flowContext)
-    // Offset: 0x12918F4
+    // Offset: 0x108D190
     static void QueueContinuation(System::Action* continuation, bool flowContext);
     // static private System.Void RunAction(System.Object state)
-    // Offset: 0x1291C30
+    // Offset: 0x108D4CC
     static void RunAction(::Il2CppObject* state);
     // public System.Void GetResult()
-    // Offset: 0xDA8420
+    // Offset: 0xC5DC50
     void GetResult();
     // static private System.Void .cctor()
-    // Offset: 0x1291CA0
+    // Offset: 0x108D53C
     static void _cctor();
     // public System.Void OnCompleted(System.Action continuation)
-    // Offset: 0xDA8418
+    // Offset: 0xC5DC48
     // Implemented from: System.Runtime.CompilerServices.INotifyCompletion
     // Base method: System.Void INotifyCompletion::OnCompleted(System.Action continuation)
     void OnCompleted(System::Action* continuation);
     // public System.Void UnsafeOnCompleted(System.Action continuation)
-    // Offset: 0xDA841C
+    // Offset: 0xC5DC4C
     // Implemented from: System.Runtime.CompilerServices.ICriticalNotifyCompletion
     // Base method: System.Void ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action continuation)
     void UnsafeOnCompleted(System::Action* continuation);

@@ -14,7 +14,7 @@ namespace System::Net {
   class InternalException : public System::SystemException {
     public:
     // System.Void .ctor()
-    // Offset: 0x1471BBC
+    // Offset: 0x12483E4
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()

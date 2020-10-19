@@ -50,34 +50,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0x1049628
+    // Offset: 0x20C4344
     UnityEngine::Sprite* get_icon();
     // public System.String get_descriptionLocalizationKey()
-    // Offset: 0x1049630
+    // Offset: 0x20C434C
     ::Il2CppString* get_descriptionLocalizationKey();
     // public System.String get_characteristicNameLocalizationKey()
-    // Offset: 0x1049638
+    // Offset: 0x20C4354
     ::Il2CppString* get_characteristicNameLocalizationKey();
     // public System.String get_serializedName()
-    // Offset: 0x1049640
+    // Offset: 0x20C435C
     ::Il2CppString* get_serializedName();
     // public System.String get_compoundIdPartName()
-    // Offset: 0x1049648
+    // Offset: 0x20C4364
     ::Il2CppString* get_compoundIdPartName();
     // public System.Int32 get_sortingOrder()
-    // Offset: 0x1049650
+    // Offset: 0x20C436C
     int get_sortingOrder();
     // public System.Boolean get_containsRotationEvents()
-    // Offset: 0x1049658
+    // Offset: 0x20C4374
     bool get_containsRotationEvents();
     // public System.Boolean get_requires360Movement()
-    // Offset: 0x1049660
+    // Offset: 0x20C437C
     bool get_requires360Movement();
     // public System.Int32 get_numberOfColors()
-    // Offset: 0x1049668
+    // Offset: 0x20C4384
     int get_numberOfColors();
     // public System.Void .ctor()
-    // Offset: 0x1049670
+    // Offset: 0x20C438C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

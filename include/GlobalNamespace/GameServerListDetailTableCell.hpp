@@ -40,21 +40,21 @@ namespace GlobalNamespace {
     // Offset: 0x60
     HMUI::ButtonBinder* buttonBinder;
     // public System.Void add_joinServerButtonWasPressedEvent(System.Action value)
-    // Offset: 0xEC1484
+    // Offset: 0x2000478
     void add_joinServerButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_joinServerButtonWasPressedEvent(System.Action value)
-    // Offset: 0xEC1528
+    // Offset: 0x200051C
     void remove_joinServerButtonWasPressedEvent(System::Action* value);
     // private System.Void <Start>b__5_0()
-    // Offset: 0xEC16E0
+    // Offset: 0x20006D4
     void $Start$b__5_0();
     // protected override System.Void Start()
-    // Offset: 0xEC15CC
+    // Offset: 0x20005C0
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::Start()
     void Start();
     // public System.Void .ctor()
-    // Offset: 0xEC166C
+    // Offset: 0x2000660
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

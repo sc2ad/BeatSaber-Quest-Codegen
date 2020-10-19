@@ -40,16 +40,16 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kTimeoutLengthMs
     static void _set_kTimeoutLengthMs(int value);
     // public System.Void .ctor(System.Int32 port)
-    // Offset: 0x1165678
+    // Offset: 0x2160060
     static HealthCheckService* New_ctor(int port);
     // public System.Void PollUpdate()
-    // Offset: 0x116578C
+    // Offset: 0x2160174
     void PollUpdate();
     // private System.Void Run()
-    // Offset: 0x1165854
+    // Offset: 0x216023C
     void Run();
     // public System.Void Dispose()
-    // Offset: 0x1165770
+    // Offset: 0x2160158
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

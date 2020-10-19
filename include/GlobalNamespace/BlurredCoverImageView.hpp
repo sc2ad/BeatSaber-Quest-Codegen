@@ -57,13 +57,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnDestroy()
-    // Offset: 0xF1990C
+    // Offset: 0x1FACF60
     void OnDestroy();
     // public System.Void SetTextureAsync(IPreviewBeatmapLevel level)
-    // Offset: 0xF199E4
+    // Offset: 0x1FAD038
     void SetTextureAsync(GlobalNamespace::IPreviewBeatmapLevel* level);
     // public System.Void .ctor()
-    // Offset: 0xF19AD0
+    // Offset: 0x1FAD124
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

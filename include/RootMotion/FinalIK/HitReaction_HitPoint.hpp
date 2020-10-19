@@ -58,37 +58,37 @@ namespace RootMotion::FinalIK {
     // Offset: 0x4C
     float lastTime;
     // public System.Boolean get_inProgress()
-    // Offset: 0x1A9EDB8
+    // Offset: 0x183DFAC
     bool get_inProgress();
     // protected System.Single get_crossFader()
-    // Offset: 0x1A9F360
+    // Offset: 0x183E554
     float get_crossFader();
     // private System.Void set_crossFader(System.Single value)
-    // Offset: 0x1A9F368
+    // Offset: 0x183E55C
     void set_crossFader(float value);
     // protected System.Single get_timer()
-    // Offset: 0x1A9F370
+    // Offset: 0x183E564
     float get_timer();
     // private System.Void set_timer(System.Single value)
-    // Offset: 0x1A9F378
+    // Offset: 0x183E56C
     void set_timer(float value);
     // protected UnityEngine.Vector3 get_force()
-    // Offset: 0x1A9F380
+    // Offset: 0x183E574
     UnityEngine::Vector3 get_force();
     // private System.Void set_force(UnityEngine.Vector3 value)
-    // Offset: 0x1A9F38C
+    // Offset: 0x183E580
     void set_force(UnityEngine::Vector3 value);
     // protected UnityEngine.Vector3 get_point()
-    // Offset: 0x1A9F398
+    // Offset: 0x183E58C
     UnityEngine::Vector3 get_point();
     // private System.Void set_point(UnityEngine.Vector3 value)
-    // Offset: 0x1A9F3A4
+    // Offset: 0x183E598
     void set_point(UnityEngine::Vector3 value);
     // public System.Void Hit(UnityEngine.Vector3 force, UnityEngine.Vector3 point)
-    // Offset: 0x1A9F22C
+    // Offset: 0x183E420
     void Hit(UnityEngine::Vector3 force, UnityEngine::Vector3 point);
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
-    // Offset: 0x1A9EEA0
+    // Offset: 0x183E094
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight);
     // protected System.Single GetLength()
     // Offset: 0xFFFFFFFF
@@ -100,7 +100,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0xFFFFFFFF
     void OnApply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight);
     // protected System.Void .ctor()
-    // Offset: 0x1A9F3B0
+    // Offset: 0x183E5A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HitReaction::HitPoint* New_ctor();

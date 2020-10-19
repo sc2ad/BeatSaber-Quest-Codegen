@@ -26,16 +26,16 @@ namespace RootMotion {
   class Warning::Logger : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x18FC030
+    // Offset: 0x16A2454
     static Warning::Logger* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.String message)
-    // Offset: 0x18FBC78
+    // Offset: 0x16A209C
     void Invoke(::Il2CppString* message);
     // public System.IAsyncResult BeginInvoke(System.String message, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x18FC044
+    // Offset: 0x16A2468
     System::IAsyncResult* BeginInvoke(::Il2CppString* message, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x18FC068
+    // Offset: 0x16A248C
     void EndInvoke(System::IAsyncResult* result);
   }; // RootMotion.Warning/Logger
 }

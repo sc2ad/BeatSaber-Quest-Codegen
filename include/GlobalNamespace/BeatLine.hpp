@@ -78,27 +78,27 @@ namespace GlobalNamespace {
     // Offset: 0x68
     float rotation;
     // public System.Boolean get_isFinished()
-    // Offset: 0xFBD940
+    // Offset: 0x203BBA0
     bool get_isFinished();
     // public System.Single get_rotation()
-    // Offset: 0xFBD998
+    // Offset: 0x203BBF8
     float get_rotation();
     // public System.Void Init(UnityEngine.Vector3 position, System.Single rotation)
-    // Offset: 0xFBD9A0
+    // Offset: 0x203BC00
     void Init(UnityEngine::Vector3 position, float rotation);
     // public System.Void AddHighlight(System.Single startTime, System.Single arriveDuration, System.Single jumpDuration)
-    // Offset: 0xFBDAB8
+    // Offset: 0x203BD18
     void AddHighlight(float startTime, float arriveDuration, float jumpDuration);
     // public System.Void ManualUpdate(System.Single songTime)
-    // Offset: 0xFBDB3C
+    // Offset: 0x203BD9C
     void ManualUpdate(float songTime);
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0xFBDAAC
+    // Offset: 0x203BD0C
     // Implemented from: LightWithId
     // Base method: System.Void LightWithId::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0xFBDCB0
+    // Offset: 0x203BF10
     // Implemented from: LightWithId
     // Base method: System.Void LightWithId::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

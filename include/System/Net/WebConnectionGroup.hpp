@@ -63,40 +63,40 @@ namespace System::Net {
     // Offset: 0x38
     System::EventHandler* ConnectionClosed;
     // public System.Void .ctor(System.Net.ServicePoint sPoint, System.String name)
-    // Offset: 0x13BF7F4
+    // Offset: 0x1193F30
     static WebConnectionGroup* New_ctor(System::Net::ServicePoint* sPoint, ::Il2CppString* name);
     // public System.Void add_ConnectionClosed(System.EventHandler value)
-    // Offset: 0x13BF8CC
+    // Offset: 0x1194008
     void add_ConnectionClosed(System::EventHandler* value);
     // public System.Void remove_ConnectionClosed(System.EventHandler value)
-    // Offset: 0x13BF970
+    // Offset: 0x11940AC
     void remove_ConnectionClosed(System::EventHandler* value);
     // private System.Void OnConnectionClosed()
-    // Offset: 0x13BFA14
+    // Offset: 0x1194150
     void OnConnectionClosed();
     // public System.Void Close()
-    // Offset: 0x13BFA30
+    // Offset: 0x119416C
     void Close();
     // public System.Net.WebConnection GetConnection(System.Net.HttpWebRequest request, out System.Boolean created)
-    // Offset: 0x13BFCDC
+    // Offset: 0x1194418
     System::Net::WebConnection* GetConnection(System::Net::HttpWebRequest* request, bool& created);
     // static private System.Void PrepareSharingNtlm(System.Net.WebConnection cnc, System.Net.HttpWebRequest request)
-    // Offset: 0x13BFECC
+    // Offset: 0x1194608
     static void PrepareSharingNtlm(System::Net::WebConnection* cnc, System::Net::HttpWebRequest* request);
     // private System.Net.WebConnectionGroup/ConnectionState FindIdleConnection()
-    // Offset: 0x13C0218
+    // Offset: 0x1194954
     System::Net::WebConnectionGroup::ConnectionState* FindIdleConnection();
     // private System.Net.WebConnection CreateOrReuseConnection(System.Net.HttpWebRequest request, out System.Boolean created)
-    // Offset: 0x13BFD9C
+    // Offset: 0x11944D8
     System::Net::WebConnection* CreateOrReuseConnection(System::Net::HttpWebRequest* request, bool& created);
     // public System.String get_Name()
-    // Offset: 0x13C0440
+    // Offset: 0x1194B7C
     ::Il2CppString* get_Name();
     // System.Collections.Queue get_Queue()
-    // Offset: 0x13C0448
+    // Offset: 0x1194B84
     System::Collections::Queue* get_Queue();
     // System.Boolean TryRecycle(System.TimeSpan maxIdleTime, ref System.DateTime idleSince)
-    // Offset: 0x13C0450
+    // Offset: 0x1194B8C
     bool TryRecycle(System::TimeSpan maxIdleTime, System::DateTime& idleSince);
   }; // System.Net.WebConnectionGroup
 }

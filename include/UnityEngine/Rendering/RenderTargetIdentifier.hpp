@@ -52,31 +52,31 @@ namespace UnityEngine::Rendering {
     // Creating value type constructor for type: RenderTargetIdentifier
     constexpr RenderTargetIdentifier(UnityEngine::Rendering::BuiltinRenderTextureType m_Type_ = {}, int m_NameID_ = {}, int m_InstanceID_ = {}, System::IntPtr m_BufferPointer_ = {}, int m_MipLevel_ = {}, UnityEngine::CubemapFace m_CubeFace_ = {}, int m_DepthSlice_ = {}) noexcept : m_Type{m_Type_}, m_NameID{m_NameID_}, m_InstanceID{m_InstanceID_}, m_BufferPointer{m_BufferPointer_}, m_MipLevel{m_MipLevel_}, m_CubeFace{m_CubeFace_}, m_DepthSlice{m_DepthSlice_} {}
     // public System.Void .ctor(UnityEngine.Rendering.BuiltinRenderTextureType type)
-    // Offset: 0xDBEBD0
+    // Offset: 0xC74FF0
     RenderTargetIdentifier(UnityEngine::Rendering::BuiltinRenderTextureType type);
     // public System.Void .ctor(System.Int32 nameID)
-    // Offset: 0xDBEC38
+    // Offset: 0xC75058
     RenderTargetIdentifier(int nameID);
     // public System.Void .ctor(UnityEngine.Texture tex)
-    // Offset: 0xDBECA0
+    // Offset: 0xC750C0
     RenderTargetIdentifier(UnityEngine::Texture* tex);
     // public override System.String ToString()
-    // Offset: 0xDBECA8
+    // Offset: 0xC750C8
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Int32 GetHashCode()
-    // Offset: 0xDBECB0
+    // Offset: 0xC750D0
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public System.Boolean Equals(UnityEngine.Rendering.RenderTargetIdentifier rhs)
-    // Offset: 0xDBECB8
+    // Offset: 0xC750D8
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Rendering.RenderTargetIdentifier rhs)
     bool Equals(UnityEngine::Rendering::RenderTargetIdentifier rhs);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xDBECF0
+    // Offset: 0xC75110
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

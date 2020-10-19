@@ -35,34 +35,34 @@ namespace Org::BouncyCastle::Asn1 {
       return str;
     }
     // static public Org.BouncyCastle.Asn1.Asn1OctetString GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean isExplicit)
-    // Offset: 0x153EBEC
+    // Offset: 0x1316414
     static Org::BouncyCastle::Asn1::Asn1OctetString* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
     // static public Org.BouncyCastle.Asn1.Asn1OctetString GetInstance(System.Object obj)
-    // Offset: 0x153ECE8
+    // Offset: 0x1316510
     static Org::BouncyCastle::Asn1::Asn1OctetString* GetInstance(::Il2CppObject* obj);
     // System.Void .ctor(System.Byte[] str)
-    // Offset: 0x153F470
+    // Offset: 0x1316C98
     static Asn1OctetString* New_ctor(::Array<uint8_t>* str);
     // public System.Byte[] GetOctets()
-    // Offset: 0x153F580
+    // Offset: 0x1316DA8
     ::Array<uint8_t>* GetOctets();
     // public System.IO.Stream GetOctetStream()
-    // Offset: 0x153F514
+    // Offset: 0x1316D3C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1OctetStringParser
     // Base method: System.IO.Stream Asn1OctetStringParser::GetOctetStream()
     System::IO::Stream* GetOctetStream();
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x153F588
+    // Offset: 0x1316DB0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x153F608
+    // Offset: 0x1316E30
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // public override System.String ToString()
-    // Offset: 0x153F704
+    // Offset: 0x1316F2C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

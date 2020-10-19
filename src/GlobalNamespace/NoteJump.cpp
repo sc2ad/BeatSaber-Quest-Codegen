@@ -9,6 +9,8 @@
 #include "UnityEngine/Transform.hpp"
 // Including type: PlayerTransforms
 #include "GlobalNamespace/PlayerTransforms.hpp"
+// Including type: PlayerSpaceConvertor
+#include "GlobalNamespace/PlayerSpaceConvertor.hpp"
 // Including type: IAudioTimeSource
 #include "GlobalNamespace/IAudioTimeSource.hpp"
 // Including type: System.Action

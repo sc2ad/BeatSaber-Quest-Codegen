@@ -43,25 +43,25 @@ namespace Zenject {
       return prefabCreator;
     }
     // public System.Void .ctor(Zenject.IPrefabInstantiator prefabCreator)
-    // Offset: 0x1514D28
+    // Offset: 0x12EB550
     static PrefabGameObjectProvider* New_ctor(Zenject::IPrefabInstantiator* prefabCreator);
     // public System.Boolean get_IsCached()
-    // Offset: 0x1514D5C
+    // Offset: 0x12EB584
     // Implemented from: Zenject.IProvider
     // Base method: System.Boolean IProvider::get_IsCached()
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0x1514D64
+    // Offset: 0x12EB58C
     // Implemented from: Zenject.IProvider
     // Base method: System.Boolean IProvider::get_TypeVariesBasedOnMemberType()
     bool get_TypeVariesBasedOnMemberType();
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0x1514D6C
+    // Offset: 0x12EB594
     // Implemented from: Zenject.IProvider
     // Base method: System.Type IProvider::GetInstanceType(Zenject.InjectContext context)
     System::Type* GetInstanceType(Zenject::InjectContext* context);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x1514DDC
+    // Offset: 0x12EB604
     // Implemented from: Zenject.IProvider
     // Base method: System.Void IProvider::GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
     void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer);

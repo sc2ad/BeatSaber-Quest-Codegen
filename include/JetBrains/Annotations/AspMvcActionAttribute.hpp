@@ -21,16 +21,16 @@ namespace JetBrains::Annotations {
       return AnonymousProperty;
     }
     // public System.Void .ctor(System.String anonymousProperty)
-    // Offset: 0x220BC2C
+    // Offset: 0x1F5C63C
     static AspMvcActionAttribute* New_ctor(::Il2CppString* anonymousProperty);
     // public System.String get_AnonymousProperty()
-    // Offset: 0x220BC60
+    // Offset: 0x1F5C670
     ::Il2CppString* get_AnonymousProperty();
     // private System.Void set_AnonymousProperty(System.String value)
-    // Offset: 0x220BC68
+    // Offset: 0x1F5C678
     void set_AnonymousProperty(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x220BC24
+    // Offset: 0x1F5C634
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

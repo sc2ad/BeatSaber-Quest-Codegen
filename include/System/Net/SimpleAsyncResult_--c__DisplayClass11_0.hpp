@@ -36,13 +36,13 @@ namespace System::Net {
     // Offset: 0x20
     System::Net::SimpleAsyncCallback* callback;
     // System.Boolean <RunWithLock>b__0(System.Net.SimpleAsyncResult inner)
-    // Offset: 0x12D5230
+    // Offset: 0x10D0ACC
     bool $RunWithLock$b__0(System::Net::SimpleAsyncResult* inner);
     // System.Void <RunWithLock>b__1(System.Net.SimpleAsyncResult inner)
-    // Offset: 0x12D52B8
+    // Offset: 0x10D0B54
     void $RunWithLock$b__1(System::Net::SimpleAsyncResult* inner);
     // public System.Void .ctor()
-    // Offset: 0x12D4D10
+    // Offset: 0x10D05AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SimpleAsyncResult::$$c__DisplayClass11_0* New_ctor();

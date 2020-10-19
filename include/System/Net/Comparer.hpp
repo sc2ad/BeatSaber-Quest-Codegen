@@ -14,12 +14,12 @@ namespace System::Net {
   class Comparer : public ::Il2CppObject, public System::Collections::IComparer {
     public:
     // private System.Int32 System.Collections.IComparer.Compare(System.Object ol, System.Object or)
-    // Offset: 0x14D77D4
+    // Offset: 0x12ACFFC
     // Implemented from: System.Collections.IComparer
     // Base method: System.Int32 IComparer::Compare(System.Object ol, System.Object or)
     int System_Collections_IComparer_Compare(::Il2CppObject* ol, ::Il2CppObject* _or);
     // public System.Void .ctor()
-    // Offset: 0x14D78B8
+    // Offset: 0x12AD0E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Comparer* New_ctor();

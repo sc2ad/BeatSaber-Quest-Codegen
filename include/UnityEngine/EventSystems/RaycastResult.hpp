@@ -65,19 +65,19 @@ namespace UnityEngine::EventSystems {
     // Creating value type constructor for type: RaycastResult
     constexpr RaycastResult(UnityEngine::GameObject* m_GameObject_ = {}, UnityEngine::EventSystems::BaseRaycaster* module_ = {}, float distance_ = {}, float index_ = {}, int depth_ = {}, int sortingLayer_ = {}, int sortingOrder_ = {}, UnityEngine::Vector3 worldPosition_ = {}, UnityEngine::Vector3 worldNormal_ = {}, UnityEngine::Vector2 screenPosition_ = {}, int displayIndex_ = {}) noexcept : m_GameObject{m_GameObject_}, module{module_}, distance{distance_}, index{index_}, depth{depth_}, sortingLayer{sortingLayer_}, sortingOrder{sortingOrder_}, worldPosition{worldPosition_}, worldNormal{worldNormal_}, screenPosition{screenPosition_}, displayIndex{displayIndex_} {}
     // public UnityEngine.GameObject get_gameObject()
-    // Offset: 0xDA7C9C
+    // Offset: 0xC5D4CC
     UnityEngine::GameObject* get_gameObject();
     // public System.Void set_gameObject(UnityEngine.GameObject value)
-    // Offset: 0xDA7CA4
+    // Offset: 0xC5D4D4
     void set_gameObject(UnityEngine::GameObject* value);
     // public System.Boolean get_isValid()
-    // Offset: 0xDA7CAC
+    // Offset: 0xC5D4DC
     bool get_isValid();
     // public System.Void Clear()
-    // Offset: 0xDA7CB4
+    // Offset: 0xC5D4E4
     void Clear();
     // public override System.String ToString()
-    // Offset: 0xDA7CBC
+    // Offset: 0xC5D4EC
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

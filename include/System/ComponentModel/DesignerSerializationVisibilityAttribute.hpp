@@ -39,21 +39,21 @@ namespace System::ComponentModel {
     // Set static field: static public readonly System.ComponentModel.DesignerSerializationVisibilityAttribute Default
     static void _set_Default(System::ComponentModel::DesignerSerializationVisibilityAttribute* value);
     // public System.Void .ctor(System.ComponentModel.DesignerSerializationVisibility visibility)
-    // Offset: 0x1726E30
+    // Offset: 0x14E2A04
     static DesignerSerializationVisibilityAttribute* New_ctor(System::ComponentModel::DesignerSerializationVisibility visibility);
     // public System.ComponentModel.DesignerSerializationVisibility get_Visibility()
-    // Offset: 0x1726E5C
+    // Offset: 0x14E2A30
     System::ComponentModel::DesignerSerializationVisibility get_Visibility();
     // static private System.Void .cctor()
-    // Offset: 0x1726F08
+    // Offset: 0x14E2ADC
     static void _cctor();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1726E64
+    // Offset: 0x14E2A38
     // Implemented from: System.Attribute
     // Base method: System.Boolean Attribute::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1726F00
+    // Offset: 0x14E2AD4
     // Implemented from: System.Attribute
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();

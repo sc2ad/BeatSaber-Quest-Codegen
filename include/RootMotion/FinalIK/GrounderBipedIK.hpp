@@ -56,46 +56,46 @@ namespace RootMotion::FinalIK {
     // Offset: 0x84
     float lastWeight;
     // private System.Boolean IsReadyToInitiate()
-    // Offset: 0x1A94B64
+    // Offset: 0x1833D58
     bool IsReadyToInitiate();
     // private System.Void Update()
-    // Offset: 0x1A94C14
+    // Offset: 0x1833E08
     void Update();
     // private System.Void Initiate()
-    // Offset: 0x1A94CC8
+    // Offset: 0x1833EBC
     void Initiate();
     // private System.Void OnDisable()
-    // Offset: 0x1A95290
+    // Offset: 0x1834484
     void OnDisable();
     // private System.Void OnSolverUpdate()
-    // Offset: 0x1A952E4
+    // Offset: 0x18344D8
     void OnSolverUpdate();
     // private System.Void SetLegIK(RootMotion.FinalIK.IKSolverLimb limb, System.Int32 index)
-    // Offset: 0x1A95A98
+    // Offset: 0x1834C8C
     void SetLegIK(RootMotion::FinalIK::IKSolverLimb* limb, int index);
     // private System.Void OnPostSolverUpdate()
-    // Offset: 0x1A95BF8
+    // Offset: 0x1834DEC
     void OnPostSolverUpdate();
     // private System.Void OnDestroy()
-    // Offset: 0x1A95D88
+    // Offset: 0x1834F7C
     void OnDestroy();
     // protected override System.Void OpenUserManual()
-    // Offset: 0x1A949C8
+    // Offset: 0x1833BBC
     // Implemented from: RootMotion.FinalIK.Grounder
     // Base method: System.Void Grounder::OpenUserManual()
     void OpenUserManual();
     // protected override System.Void OpenScriptReference()
-    // Offset: 0x1A94A14
+    // Offset: 0x1833C08
     // Implemented from: RootMotion.FinalIK.Grounder
     // Base method: System.Void Grounder::OpenScriptReference()
     void OpenScriptReference();
     // public override System.Void ResetPosition()
-    // Offset: 0x1A94A60
+    // Offset: 0x1833C54
     // Implemented from: RootMotion.FinalIK.Grounder
     // Base method: System.Void Grounder::ResetPosition()
     void ResetPosition();
     // public System.Void .ctor()
-    // Offset: 0x1A95F2C
+    // Offset: 0x1835120
     // Implemented from: RootMotion.FinalIK.Grounder
     // Base method: System.Void Grounder::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

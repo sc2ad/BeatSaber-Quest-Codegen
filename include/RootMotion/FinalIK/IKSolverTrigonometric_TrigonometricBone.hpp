@@ -22,16 +22,16 @@ namespace RootMotion::FinalIK {
     // Offset: 0x84
     UnityEngine::Vector3 defaultLocalBendNormal;
     // public System.Void Initiate(UnityEngine.Vector3 childPosition, UnityEngine.Vector3 bendNormal)
-    // Offset: 0x1A8CEF4
+    // Offset: 0x182B0E8
     void Initiate(UnityEngine::Vector3 childPosition, UnityEngine::Vector3 bendNormal);
     // public UnityEngine.Quaternion GetRotation(UnityEngine.Vector3 direction, UnityEngine.Vector3 bendNormal)
-    // Offset: 0x1A8DAAC
+    // Offset: 0x182BCA0
     UnityEngine::Quaternion GetRotation(UnityEngine::Vector3 direction, UnityEngine::Vector3 bendNormal);
     // public UnityEngine.Vector3 GetBendNormalFromCurrentRotation()
-    // Offset: 0x1A878A8
+    // Offset: 0x1825A9C
     UnityEngine::Vector3 GetBendNormalFromCurrentRotation();
     // public System.Void .ctor()
-    // Offset: 0x1A8DB74
+    // Offset: 0x182BD68
     // Implemented from: RootMotion.FinalIK.IKSolver/Bone
     // Base method: System.Void Bone::.ctor()
     // Base method: System.Void Point::.ctor()

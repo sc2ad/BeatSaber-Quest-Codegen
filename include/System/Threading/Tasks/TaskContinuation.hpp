@@ -22,10 +22,10 @@ namespace System::Threading::Tasks {
     // Offset: 0xFFFFFFFF
     void Run(System::Threading::Tasks::Task* completedTask, bool bCanInlineContinuationTask);
     // static protected System.Void InlineIfPossibleOrElseQueue(System.Threading.Tasks.Task task, System.Boolean needsProtection)
-    // Offset: 0x16DBCB8
+    // Offset: 0x149688C
     static void InlineIfPossibleOrElseQueue(System::Threading::Tasks::Task* task, bool needsProtection);
     // protected System.Void .ctor()
-    // Offset: 0x16DA420
+    // Offset: 0x1494FF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TaskContinuation* New_ctor();

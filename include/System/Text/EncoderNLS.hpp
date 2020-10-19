@@ -45,66 +45,66 @@ namespace System::Text {
     // Offset: 0x34
     int m_charsUsed;
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1887EEC
+    // Offset: 0x162E310
     static EncoderNLS* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // System.Void .ctor(System.Text.Encoding encoding)
-    // Offset: 0x18845B8
+    // Offset: 0x162A9DC
     static EncoderNLS* New_ctor(System::Text::Encoding* encoding);
     // public System.Text.Encoding get_Encoding()
-    // Offset: 0x1888D50
+    // Offset: 0x162F174
     System::Text::Encoding* get_Encoding();
     // public System.Boolean get_MustFlush()
-    // Offset: 0x1888D58
+    // Offset: 0x162F17C
     bool get_MustFlush();
     // System.Boolean get_HasState()
-    // Offset: 0x1888D60
+    // Offset: 0x162F184
     bool get_HasState();
     // System.Void ClearMustFlush()
-    // Offset: 0x1888D70
+    // Offset: 0x162F194
     void ClearMustFlush();
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1887FD4
+    // Offset: 0x162E3F8
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // System.Void .ctor()
-    // Offset: 0x18880B0
+    // Offset: 0x162E4D4
     // Implemented from: System.Text.Encoder
     // Base method: System.Void Encoder::.ctor()
     // Base method: System.Void Object::.ctor()
     static EncoderNLS* New_ctor();
     // public override System.Void Reset()
-    // Offset: 0x18880F0
+    // Offset: 0x162E514
     // Implemented from: System.Text.Encoder
     // Base method: System.Void Encoder::Reset()
     void Reset();
     // public override System.Int32 GetByteCount(System.Char[] chars, System.Int32 index, System.Int32 count, System.Boolean flush)
-    // Offset: 0x1888110
+    // Offset: 0x162E534
     // Implemented from: System.Text.Encoder
     // Base method: System.Int32 Encoder::GetByteCount(System.Char[] chars, System.Int32 index, System.Int32 count, System.Boolean flush)
     int GetByteCount(::Array<::Il2CppChar>* chars, int index, int count, bool flush);
     // public override System.Int32 GetByteCount(System.Char* chars, System.Int32 count, System.Boolean flush)
-    // Offset: 0x18882F0
+    // Offset: 0x162E714
     // Implemented from: System.Text.Encoder
     // Base method: System.Int32 Encoder::GetByteCount(System.Char* chars, System.Int32 count, System.Boolean flush)
     int GetByteCount(::Il2CppChar* chars, int count, bool flush);
     // public override System.Int32 GetBytes(System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex, System.Boolean flush)
-    // Offset: 0x1888430
+    // Offset: 0x162E854
     // Implemented from: System.Text.Encoder
     // Base method: System.Int32 Encoder::GetBytes(System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex, System.Boolean flush)
     int GetBytes(::Array<::Il2CppChar>* chars, int charIndex, int charCount, ::Array<uint8_t>* bytes, int byteIndex, bool flush);
     // public override System.Int32 GetBytes(System.Char* chars, System.Int32 charCount, System.Byte* bytes, System.Int32 byteCount, System.Boolean flush)
-    // Offset: 0x18886D4
+    // Offset: 0x162EAF8
     // Implemented from: System.Text.Encoder
     // Base method: System.Int32 Encoder::GetBytes(System.Char* chars, System.Int32 charCount, System.Byte* bytes, System.Int32 byteCount, System.Boolean flush)
     int GetBytes(::Il2CppChar* chars, int charCount, uint8_t* bytes, int byteCount, bool flush);
     // public override System.Void Convert(System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Boolean flush, out System.Int32 charsUsed, out System.Int32 bytesUsed, out System.Boolean completed)
-    // Offset: 0x188885C
+    // Offset: 0x162EC80
     // Implemented from: System.Text.Encoder
     // Base method: System.Void Encoder::Convert(System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Boolean flush, out System.Int32 charsUsed, out System.Int32 bytesUsed, out System.Boolean completed)
     void Convert(::Array<::Il2CppChar>* chars, int charIndex, int charCount, ::Array<uint8_t>* bytes, int byteIndex, int byteCount, bool flush, int& charsUsed, int& bytesUsed, bool& completed);
     // public override System.Void Convert(System.Char* chars, System.Int32 charCount, System.Byte* bytes, System.Int32 byteCount, System.Boolean flush, out System.Int32 charsUsed, out System.Int32 bytesUsed, out System.Boolean completed)
-    // Offset: 0x1888B54
+    // Offset: 0x162EF78
     // Implemented from: System.Text.Encoder
     // Base method: System.Void Encoder::Convert(System.Char* chars, System.Int32 charCount, System.Byte* bytes, System.Int32 byteCount, System.Boolean flush, out System.Int32 charsUsed, out System.Int32 bytesUsed, out System.Boolean completed)
     void Convert(::Il2CppChar* chars, int charCount, uint8_t* bytes, int byteCount, bool flush, int& charsUsed, int& bytesUsed, bool& completed);

@@ -20,7 +20,7 @@ namespace GlobalNamespace {
     // Offset: 0x11
     bool ghostNotes;
     // public System.Void .ctor(System.Boolean disappearingArrows, System.Boolean ghostNotes)
-    // Offset: 0xFBC4A4
+    // Offset: 0x203A704
     static BasicBeatmapObjectManager::InitData* New_ctor(bool disappearingArrows, bool ghostNotes);
   }; // BasicBeatmapObjectManager/InitData
 }

@@ -49,12 +49,12 @@ namespace Mono::Net::Security {
     // Creating value type constructor for type: $InnerRead$d__25
     constexpr $InnerRead$d__25(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Nullable_1<int>> $$t__builder_ = {}, Mono::Net::Security::AsyncProtocolRequest* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, int $requestedSize$5__1_ = {}, System::Nullable_1<int> $totalRead$5__2_ = {}, typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, $requestedSize$5__1{$requestedSize$5__1_}, $totalRead$5__2{$totalRead$5__2_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
-    // Offset: 0xDB313C
+    // Offset: 0xC6955C
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDB3144
+    // Offset: 0xC69564
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

@@ -81,22 +81,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0xF34C2C
+    // Offset: 0x1F9B608
     void Awake();
     // protected System.Void Update()
-    // Offset: 0xF34D90
+    // Offset: 0x1F9B76C
     void Update();
     // private System.Void RefreshState()
-    // Offset: 0xF34D94
+    // Offset: 0x1F9B770
     void RefreshState();
     // private System.Void RefreshTextAlpha()
-    // Offset: 0xF34CA8
+    // Offset: 0x1F9B684
     void RefreshTextAlpha();
     // public System.Void ShowText(System.String text)
-    // Offset: 0xF34F30
+    // Offset: 0x1F9B90C
     void ShowText(::Il2CppString* text);
     // public System.Void .ctor()
-    // Offset: 0xF34FB8
+    // Offset: 0x1F9B994
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

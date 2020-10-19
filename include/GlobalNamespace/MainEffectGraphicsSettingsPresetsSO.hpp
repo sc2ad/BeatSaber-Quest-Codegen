@@ -28,15 +28,15 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public MainEffectGraphicsSettingsPresetsSO/Preset[] get_presets()
-    // Offset: 0x1043804
+    // Offset: 0x20AA6EC
     ::Array<GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*>* get_presets();
     // public override NamedPreset[] get_namedPresets()
-    // Offset: 0x104380C
+    // Offset: 0x20AA6F4
     // Implemented from: NamedPresetsSO
     // Base method: NamedPreset[] NamedPresetsSO::get_namedPresets()
     ::Array<GlobalNamespace::NamedPreset*>* get_namedPresets();
     // public System.Void .ctor()
-    // Offset: 0x1043814
+    // Offset: 0x20AA6FC
     // Implemented from: NamedPresetsSO
     // Base method: System.Void NamedPresetsSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

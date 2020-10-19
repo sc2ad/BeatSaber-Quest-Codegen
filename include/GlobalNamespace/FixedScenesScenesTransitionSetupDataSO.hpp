@@ -24,10 +24,10 @@ namespace GlobalNamespace {
     // Offset: 0x28
     ::Array<GlobalNamespace::SceneInfo*>* sceneInfos;
     // public System.Void Init()
-    // Offset: 0x1097AF0
+    // Offset: 0x210EA34
     void Init();
     // public System.Void .ctor()
-    // Offset: 0x1097B5C
+    // Offset: 0x210EAA0
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

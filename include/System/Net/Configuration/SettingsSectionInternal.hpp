@@ -24,16 +24,16 @@ namespace System::Net::Configuration {
     // Set static field: static private readonly System.Net.Configuration.SettingsSectionInternal instance
     static void _set_instance(System::Net::Configuration::SettingsSectionInternal* value);
     // static System.Net.Configuration.SettingsSectionInternal get_Section()
-    // Offset: 0x14D7F78
+    // Offset: 0x12AD7A0
     static System::Net::Configuration::SettingsSectionInternal* get_Section();
     // System.Boolean get_Ipv6Enabled()
-    // Offset: 0x14D7FE0
+    // Offset: 0x12AD808
     bool get_Ipv6Enabled();
     // static private System.Void .cctor()
-    // Offset: 0x14D8000
+    // Offset: 0x12AD828
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x14D7FE8
+    // Offset: 0x12AD810
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SettingsSectionInternal* New_ctor();

@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRCompositor::_FadeToColor : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1E2E9E0
+    // Offset: 0x1B81644
     static IVRCompositor::_FadeToColor* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Single fSeconds, System.Single fRed, System.Single fGreen, System.Single fBlue, System.Single fAlpha, System.Boolean bBackground)
-    // Offset: 0x1E2E9F4
+    // Offset: 0x1B81658
     void Invoke(float fSeconds, float fRed, float fGreen, float fBlue, float fAlpha, bool bBackground);
     // public System.IAsyncResult BeginInvoke(System.Single fSeconds, System.Single fRed, System.Single fGreen, System.Single fBlue, System.Single fAlpha, System.Boolean bBackground, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1E2ECF0
+    // Offset: 0x1B81954
     System::IAsyncResult* BeginInvoke(float fSeconds, float fRed, float fGreen, float fBlue, float fAlpha, bool bBackground, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1E2EDF8
+    // Offset: 0x1B81A5C
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_FadeToColor
 }

@@ -48,38 +48,38 @@ namespace GlobalNamespace {
     // Offset: 0x90
     bool shouldReloadData;
     // public System.Void set_sizeToFit(System.Boolean value)
-    // Offset: 0xF30978
+    // Offset: 0x1F97BEC
     void set_sizeToFit(bool value);
     // public System.Boolean get_sizeToFit()
-    // Offset: 0xF30998
+    // Offset: 0x1F97C0C
     bool get_sizeToFit();
     // public System.Int32 get_selectedCellNumber()
-    // Offset: 0xF309B4
+    // Offset: 0x1F97C28
     int get_selectedCellNumber();
     // public System.Void Setup(TabBarViewController/TabBarItem[] items)
-    // Offset: 0xF309D0
+    // Offset: 0x1F97C44
     void Setup(::Array<GlobalNamespace::TabBarViewController::TabBarItem*>* items);
     // public System.Void SelectItem(System.Int32 index)
-    // Offset: 0xF30B30
+    // Offset: 0x1F97DA4
     void SelectItem(int index);
     // public System.Void Clear()
-    // Offset: 0xF30B4C
+    // Offset: 0x1F97DC0
     void Clear();
     // private System.Void HandleDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellNumber)
-    // Offset: 0xF30D5C
+    // Offset: 0x1F97FD0
     void HandleDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellNumber);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF30BA8
+    // Offset: 0x1F97E1C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0xF30C78
+    // Offset: 0x1F97EEC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0xF30DB0
+    // Offset: 0x1F98024
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

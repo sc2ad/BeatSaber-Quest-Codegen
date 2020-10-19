@@ -22,22 +22,22 @@ namespace GlobalNamespace {
     // Set static field: static private System.Byte[] _nameEncryptionIv
     static void _set__nameEncryptionIv(::Array<uint8_t>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1C37C0C
+    // Offset: 0x21F1DA4
     static void _cctor();
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x1C37C10
+    // Offset: 0x21F1DA8
     static void NoDomainReloadInit();
     // static public System.String GetHashedUserId(System.String userId, AuthenticationToken/Platform platform)
-    // Offset: 0x1C37CE8
+    // Offset: 0x21F1E80
     static ::Il2CppString* GetHashedUserId(::Il2CppString* userId, GlobalNamespace::AuthenticationToken::Platform platform);
     // static public System.String EncryptName(System.String text)
-    // Offset: 0x1C37EB8
+    // Offset: 0x21F2050
     static ::Il2CppString* EncryptName(::Il2CppString* text);
     // static public System.String DecryptName(System.String text)
-    // Offset: 0x1C381F8
+    // Offset: 0x21F2390
     static ::Il2CppString* DecryptName(::Il2CppString* text);
     // static public System.String GenerateId()
-    // Offset: 0x1C3853C
+    // Offset: 0x21F26D4
     static ::Il2CppString* GenerateId();
   }; // NetworkUtility
 }

@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRCompositor::_ForceInterleavedReprojectionOn : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1D58858
+    // Offset: 0x1AAA4BC
     static IVRCompositor::_ForceInterleavedReprojectionOn* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Boolean bOverride)
-    // Offset: 0x1D5886C
+    // Offset: 0x1AAA4D0
     void Invoke(bool bOverride);
     // public System.IAsyncResult BeginInvoke(System.Boolean bOverride, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1D58AE8
+    // Offset: 0x1AAA74C
     System::IAsyncResult* BeginInvoke(bool bOverride, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1D58B78
+    // Offset: 0x1AAA7DC
     void EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_ForceInterleavedReprojectionOn
 }

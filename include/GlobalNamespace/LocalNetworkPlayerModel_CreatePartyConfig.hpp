@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x39
     bool otherPlayersCanInvite;
     // public System.Void .ctor()
-    // Offset: 0x1042990
+    // Offset: 0x20A9878
     // Implemented from: BaseNetworkPlayerModel/PartyConfig
     // Base method: System.Void PartyConfig::.ctor()
     // Base method: System.Void Object::.ctor()

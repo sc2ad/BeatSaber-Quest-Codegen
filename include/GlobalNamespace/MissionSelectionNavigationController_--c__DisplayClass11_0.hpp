@@ -33,13 +33,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     System::Action* $$9__1;
     // System.Void <PresentMissionClearedIfNeeded>b__0()
-    // Offset: 0xEE59F8
+    // Offset: 0x1FCF5C0
     void $PresentMissionClearedIfNeeded$b__0();
     // System.Void <PresentMissionClearedIfNeeded>b__1()
-    // Offset: 0xEE5AC0
+    // Offset: 0x1FCF688
     void $PresentMissionClearedIfNeeded$b__1();
     // public System.Void .ctor()
-    // Offset: 0xEE59E8
+    // Offset: 0x1FCF5B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MissionSelectionNavigationController::$$c__DisplayClass11_0* New_ctor();

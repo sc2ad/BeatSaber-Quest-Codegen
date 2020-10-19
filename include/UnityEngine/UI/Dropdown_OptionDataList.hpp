@@ -29,13 +29,13 @@ namespace UnityEngine::UI {
       return m_Options;
     }
     // public System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData> get_options()
-    // Offset: 0x174F954
+    // Offset: 0x150B528
     System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>* get_options();
     // public System.Void set_options(System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData> value)
-    // Offset: 0x174F95C
+    // Offset: 0x150B530
     void set_options(System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>* value);
     // public System.Void .ctor()
-    // Offset: 0x174F964
+    // Offset: 0x150B538
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Dropdown::OptionDataList* New_ctor();

@@ -38,16 +38,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_GetStringTrackedDeviceProperty : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F45978
+    // Offset: 0x1C975DC
     static IVRSystem::_GetStringTrackedDeviceProperty* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.UInt32 unDeviceIndex, OVR.OpenVR.ETrackedDeviceProperty prop, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, ref OVR.OpenVR.ETrackedPropertyError pError)
-    // Offset: 0x1F4598C
+    // Offset: 0x1C975F0
     uint Invoke(uint unDeviceIndex, OVR::OpenVR::ETrackedDeviceProperty prop, System::Text::StringBuilder* pchValue, uint unBufferSize, OVR::OpenVR::ETrackedPropertyError& pError);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unDeviceIndex, OVR.OpenVR.ETrackedDeviceProperty prop, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, ref OVR.OpenVR.ETrackedPropertyError pError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F45C70
+    // Offset: 0x1C978D4
     System::IAsyncResult* BeginInvoke(uint unDeviceIndex, OVR::OpenVR::ETrackedDeviceProperty prop, System::Text::StringBuilder* pchValue, uint unBufferSize, OVR::OpenVR::ETrackedPropertyError& pError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(ref OVR.OpenVR.ETrackedPropertyError pError, System.IAsyncResult result)
-    // Offset: 0x1F45D5C
+    // Offset: 0x1C979C0
     uint EndInvoke(OVR::OpenVR::ETrackedPropertyError& pError, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_GetStringTrackedDeviceProperty
 }

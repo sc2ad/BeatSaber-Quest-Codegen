@@ -27,7 +27,7 @@ namespace System::Net::NetworkInformation {
     // Offset: 0xFFFFFFFF
     System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
     // protected System.Void .ctor()
-    // Offset: 0x12C8C08
+    // Offset: 0x10C44A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static IPInterfaceProperties* New_ctor();

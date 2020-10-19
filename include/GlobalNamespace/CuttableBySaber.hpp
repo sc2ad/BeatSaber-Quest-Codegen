@@ -33,13 +33,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_wasCutBySaberEvent(CuttableBySaber/WasCutBySaberDelegate value)
-    // Offset: 0xF5CF80
+    // Offset: 0x20150FC
     void add_wasCutBySaberEvent(GlobalNamespace::CuttableBySaber::WasCutBySaberDelegate* value);
     // public System.Void remove_wasCutBySaberEvent(CuttableBySaber/WasCutBySaberDelegate value)
-    // Offset: 0xF5D024
+    // Offset: 0x20151A0
     void remove_wasCutBySaberEvent(GlobalNamespace::CuttableBySaber::WasCutBySaberDelegate* value);
     // protected System.Void CallWasCutBySaberEvent(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0xF5D0C8
+    // Offset: 0x2015244
     void CallWasCutBySaberEvent(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
     // public System.Boolean get_canBeCut()
     // Offset: 0xFFFFFFFF
@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void Cut(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
     // protected System.Void .ctor()
-    // Offset: 0xF5D69C
+    // Offset: 0x2015818
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

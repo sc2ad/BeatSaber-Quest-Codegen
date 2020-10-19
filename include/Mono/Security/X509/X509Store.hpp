@@ -43,31 +43,31 @@ namespace Mono::Security::X509 {
     // Offset: 0x29
     bool newFormat;
     // System.Void .ctor(System.String path, System.Boolean crl, System.Boolean newFormat)
-    // Offset: 0x21E41F0
+    // Offset: 0x1F38E54
     static X509Store* New_ctor(::Il2CppString* path, bool crl, bool newFormat);
     // public Mono.Security.X509.X509CertificateCollection get_Certificates()
-    // Offset: 0x21E4248
+    // Offset: 0x1F38EAC
     Mono::Security::X509::X509CertificateCollection* get_Certificates();
     // public System.Collections.ArrayList get_Crls()
-    // Offset: 0x21E4460
+    // Offset: 0x1F390C4
     System::Collections::ArrayList* get_Crls();
     // private System.Byte[] Load(System.String filename)
-    // Offset: 0x21E46D8
+    // Offset: 0x1F3933C
     ::Array<uint8_t>* Load(::Il2CppString* filename);
     // private Mono.Security.X509.X509Certificate LoadCertificate(System.String filename)
-    // Offset: 0x21E4860
+    // Offset: 0x1F394C4
     Mono::Security::X509::X509Certificate* LoadCertificate(::Il2CppString* filename);
     // private Mono.Security.X509.X509Crl LoadCrl(System.String filename)
-    // Offset: 0x21E48D0
+    // Offset: 0x1F39534
     Mono::Security::X509::X509Crl* LoadCrl(::Il2CppString* filename);
     // private System.Boolean CheckStore(System.String path, System.Boolean throwException)
-    // Offset: 0x21E4940
+    // Offset: 0x1F395A4
     bool CheckStore(::Il2CppString* path, bool throwException);
     // private Mono.Security.X509.X509CertificateCollection BuildCertificatesCollection(System.String storeName)
-    // Offset: 0x21E4290
+    // Offset: 0x1F38EF4
     Mono::Security::X509::X509CertificateCollection* BuildCertificatesCollection(::Il2CppString* storeName);
     // private System.Collections.ArrayList BuildCrlsCollection(System.String storeName)
-    // Offset: 0x21E4510
+    // Offset: 0x1F39174
     System::Collections::ArrayList* BuildCrlsCollection(::Il2CppString* storeName);
   }; // Mono.Security.X509.X509Store
 }

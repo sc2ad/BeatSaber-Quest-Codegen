@@ -35,16 +35,16 @@ namespace GlobalNamespace {
   class PartyMessageHandler::ServerStatusUpdatedDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C3E780
+    // Offset: 0x21F8918
     static PartyMessageHandler::ServerStatusUpdatedDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.String serverName, System.String password, DiscoveryPolicy discoveryPolicy, InvitePolicy invitePolicy, System.Int32 maxPlayerCount, GameplayServerConfiguration configuration)
-    // Offset: 0x1C3D1C4
+    // Offset: 0x21F735C
     void Invoke(::Il2CppString* serverName, ::Il2CppString* password, GlobalNamespace::DiscoveryPolicy discoveryPolicy, GlobalNamespace::InvitePolicy invitePolicy, int maxPlayerCount, GlobalNamespace::GameplayServerConfiguration configuration);
     // public System.IAsyncResult BeginInvoke(System.String serverName, System.String password, DiscoveryPolicy discoveryPolicy, InvitePolicy invitePolicy, System.Int32 maxPlayerCount, GameplayServerConfiguration configuration, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C3E794
+    // Offset: 0x21F892C
     System::IAsyncResult* BeginInvoke(::Il2CppString* serverName, ::Il2CppString* password, GlobalNamespace::DiscoveryPolicy discoveryPolicy, GlobalNamespace::InvitePolicy invitePolicy, int maxPlayerCount, GlobalNamespace::GameplayServerConfiguration configuration, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1C3E89C
+    // Offset: 0x21F8A34
     void EndInvoke(System::IAsyncResult* result);
   }; // PartyMessageHandler/ServerStatusUpdatedDelegate
 }

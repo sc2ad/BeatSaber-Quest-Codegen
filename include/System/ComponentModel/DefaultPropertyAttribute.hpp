@@ -25,21 +25,21 @@ namespace System::ComponentModel {
     // Set static field: static public readonly System.ComponentModel.DefaultPropertyAttribute Default
     static void _set_Default(System::ComponentModel::DefaultPropertyAttribute* value);
     // public System.Void .ctor(System.String name)
-    // Offset: 0x17262D4
+    // Offset: 0x14E1EA8
     static DefaultPropertyAttribute* New_ctor(::Il2CppString* name);
     // public System.String get_Name()
-    // Offset: 0x1726308
+    // Offset: 0x14E1EDC
     ::Il2CppString* get_Name();
     // static private System.Void .cctor()
-    // Offset: 0x17263AC
+    // Offset: 0x14E1F80
     static void _cctor();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1726310
+    // Offset: 0x14E1EE4
     // Implemented from: System.Attribute
     // Base method: System.Boolean Attribute::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x17263A4
+    // Offset: 0x14E1F78
     // Implemented from: System.Attribute
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();

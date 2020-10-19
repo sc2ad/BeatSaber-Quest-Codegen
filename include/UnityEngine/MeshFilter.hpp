@@ -21,19 +21,19 @@ namespace UnityEngine {
   class MeshFilter : public UnityEngine::Component {
     public:
     // private System.Void DontStripMeshFilter()
-    // Offset: 0x1B984E4
+    // Offset: 0x193A6D8
     void DontStripMeshFilter();
     // public UnityEngine.Mesh get_sharedMesh()
-    // Offset: 0x1B984E8
+    // Offset: 0x193A6DC
     UnityEngine::Mesh* get_sharedMesh();
     // public System.Void set_sharedMesh(UnityEngine.Mesh value)
-    // Offset: 0x1B98528
+    // Offset: 0x193A71C
     void set_sharedMesh(UnityEngine::Mesh* value);
     // public UnityEngine.Mesh get_mesh()
-    // Offset: 0x1B98578
+    // Offset: 0x193A76C
     UnityEngine::Mesh* get_mesh();
     // public System.Void set_mesh(UnityEngine.Mesh value)
-    // Offset: 0x1B985B8
+    // Offset: 0x193A7AC
     void set_mesh(UnityEngine::Mesh* value);
   }; // UnityEngine.MeshFilter
 }

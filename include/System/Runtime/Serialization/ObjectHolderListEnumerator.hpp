@@ -33,13 +33,13 @@ namespace System::Runtime::Serialization {
     // Offset: 0x24
     int m_currPos;
     // System.Void .ctor(System.Runtime.Serialization.ObjectHolderList list, System.Boolean isFixupEnumerator)
-    // Offset: 0x14D104C
+    // Offset: 0x12A6874
     static ObjectHolderListEnumerator* New_ctor(System::Runtime::Serialization::ObjectHolderList* list, bool isFixupEnumerator);
     // System.Boolean MoveNext()
-    // Offset: 0x14D10C4
+    // Offset: 0x12A68EC
     bool MoveNext();
     // System.Runtime.Serialization.ObjectHolder get_Current()
-    // Offset: 0x14D1178
+    // Offset: 0x12A69A0
     System::Runtime::Serialization::ObjectHolder* get_Current();
   }; // System.Runtime.Serialization.ObjectHolderListEnumerator
 }

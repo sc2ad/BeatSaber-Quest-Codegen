@@ -23,14 +23,14 @@ namespace System {
   class ArrayTypeMismatchException : public System::SystemException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x15C7290
+    // Offset: 0x139DAB8
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static ArrayTypeMismatchException* New_ctor();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x15C95C0
+    // Offset: 0x139FDE8
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

@@ -33,22 +33,22 @@ namespace GlobalNamespace {
     // Offset: 0x18
     Zenject::DiContainer* container;
     // public System.Collections.Generic.List`1<System.String> get_sceneNames()
-    // Offset: 0x109BC74
+    // Offset: 0x2112BB8
     System::Collections::Generic::List_1<::Il2CppString*>* get_sceneNames();
     // private System.Void set_sceneNames(System.Collections.Generic.List`1<System.String> value)
-    // Offset: 0x109BC7C
+    // Offset: 0x2112BC0
     void set_sceneNames(System::Collections::Generic::List_1<::Il2CppString*>* value);
     // public Zenject.DiContainer get_container()
-    // Offset: 0x109BC84
+    // Offset: 0x2112BC8
     Zenject::DiContainer* get_container();
     // private System.Void set_container(Zenject.DiContainer value)
-    // Offset: 0x109BC8C
+    // Offset: 0x2112BD0
     void set_container(Zenject::DiContainer* value);
     // public System.Void .ctor(System.Collections.Generic.List`1<System.String> sceneNames)
-    // Offset: 0x1098FD4
+    // Offset: 0x210FF18
     static GameScenesManager::ScenesStackData* New_ctor(System::Collections::Generic::List_1<::Il2CppString*>* sceneNames);
     // public System.Void SetDiContainer(Zenject.DiContainer container)
-    // Offset: 0x109A6F4
+    // Offset: 0x2111638
     void SetDiContainer(Zenject::DiContainer* container);
   }; // GameScenesManager/ScenesStackData
 }

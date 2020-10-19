@@ -46,25 +46,25 @@ namespace Zenject {
     // Offset: 0x20
     System::Collections::Generic::List_1<Zenject::TypeValuePair>* Arguments;
     // public System.Void .ctor(System.Type factoryType)
-    // Offset: 0x1449A00
+    // Offset: 0x122013C
     static FactoryBindInfo* New_ctor(System::Type* factoryType);
     // public System.Type get_FactoryType()
-    // Offset: 0x1449A98
+    // Offset: 0x12201D4
     System::Type* get_FactoryType();
     // private System.Void set_FactoryType(System.Type value)
-    // Offset: 0x1449AA0
+    // Offset: 0x12201DC
     void set_FactoryType(System::Type* value);
     // public System.Func`2<Zenject.DiContainer,Zenject.IProvider> get_ProviderFunc()
-    // Offset: 0x1449AA8
+    // Offset: 0x12201E4
     System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>* get_ProviderFunc();
     // public System.Void set_ProviderFunc(System.Func`2<Zenject.DiContainer,Zenject.IProvider> value)
-    // Offset: 0x1449AB0
+    // Offset: 0x12201EC
     void set_ProviderFunc(System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>* value);
     // public System.Collections.Generic.List`1<Zenject.TypeValuePair> get_Arguments()
-    // Offset: 0x1449AB8
+    // Offset: 0x12201F4
     System::Collections::Generic::List_1<Zenject::TypeValuePair>* get_Arguments();
     // public System.Void set_Arguments(System.Collections.Generic.List`1<Zenject.TypeValuePair> value)
-    // Offset: 0x1449AC0
+    // Offset: 0x12201FC
     void set_Arguments(System::Collections::Generic::List_1<Zenject::TypeValuePair>* value);
   }; // Zenject.FactoryBindInfo
 }

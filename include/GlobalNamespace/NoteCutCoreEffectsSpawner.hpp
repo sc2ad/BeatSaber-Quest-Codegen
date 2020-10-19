@@ -72,22 +72,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x10A6D7C
+    // Offset: 0x20F2D94
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10A6E10
+    // Offset: 0x20F2E28
     void OnDestroy();
     // private System.Void HandleNoteWasCut(NoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0x10A6EB0
+    // Offset: 0x20F2EC8
     void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // private System.Void SpawnNoteCutEffect(UnityEngine.Vector3 pos, NoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0x10A6F9C
+    // Offset: 0x20F2FB4
     void SpawnNoteCutEffect(UnityEngine::Vector3 pos, GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // private System.Void SpawnBombCutEffect(UnityEngine.Vector3 pos, NoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0x10A6F44
+    // Offset: 0x20F2F5C
     void SpawnBombCutEffect(UnityEngine::Vector3 pos, GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // public System.Void .ctor()
-    // Offset: 0x10A7D58
+    // Offset: 0x20F3D70
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

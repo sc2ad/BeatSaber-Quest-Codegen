@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_ComputeDistortion : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F3FCCC
+    // Offset: 0x1C91930
     static IVRSystem::_ComputeDistortion* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(OVR.OpenVR.EVREye eEye, System.Single fU, System.Single fV, ref OVR.OpenVR.DistortionCoordinates_t pDistortionCoordinates)
-    // Offset: 0x1F3FCE0
+    // Offset: 0x1C91944
     bool Invoke(OVR::OpenVR::EVREye eEye, float fU, float fV, OVR::OpenVR::DistortionCoordinates_t& pDistortionCoordinates);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.EVREye eEye, System.Single fU, System.Single fV, ref OVR.OpenVR.DistortionCoordinates_t pDistortionCoordinates, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F3FFAC
+    // Offset: 0x1C91C10
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::EVREye eEye, float fU, float fV, OVR::OpenVR::DistortionCoordinates_t& pDistortionCoordinates, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(ref OVR.OpenVR.DistortionCoordinates_t pDistortionCoordinates, System.IAsyncResult result)
-    // Offset: 0x1F40098
+    // Offset: 0x1C91CFC
     bool EndInvoke(OVR::OpenVR::DistortionCoordinates_t& pDistortionCoordinates, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_ComputeDistortion
 }

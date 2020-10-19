@@ -58,25 +58,25 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static void _set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock* value);
     // protected System.Void Awake()
-    // Offset: 0xFB65F0
+    // Offset: 0x2034CA0
     void Awake();
     // protected System.Void OnValidate()
-    // Offset: 0xFB6628
+    // Offset: 0x2034CD8
     void OnValidate();
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0xFB66F8
+    // Offset: 0x2034DA8
     void SetColor(UnityEngine::Color color);
     // private System.Void SetColors(UnityEngine.Color mainColor, UnityEngine.Color rimLightColor)
-    // Offset: 0xFB6798
+    // Offset: 0x2034E48
     void SetColors(UnityEngine::Color mainColor, UnityEngine::Color rimLightColor);
     // public System.Void SetHighlight(System.Boolean highlighted, System.Int32 uvSegment)
-    // Offset: 0xFB6918
+    // Offset: 0x2034FC8
     void SetHighlight(bool highlighted, int uvSegment);
     // private System.Void UpdateRenderer()
-    // Offset: 0xFB67AC
+    // Offset: 0x2034E5C
     void UpdateRenderer();
     // public System.Void .ctor()
-    // Offset: 0xFB6924
+    // Offset: 0x2034FD4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

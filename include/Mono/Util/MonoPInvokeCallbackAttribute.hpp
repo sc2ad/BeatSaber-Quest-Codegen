@@ -21,7 +21,7 @@ namespace Mono::Util {
   class MonoPInvokeCallbackAttribute : public System::Attribute {
     public:
     // public System.Void .ctor(System.Type t)
-    // Offset: 0x17204E0
+    // Offset: 0x14DC0B4
     static MonoPInvokeCallbackAttribute* New_ctor(System::Type* t);
   }; // Mono.Util.MonoPInvokeCallbackAttribute
 }

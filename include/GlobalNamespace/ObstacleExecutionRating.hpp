@@ -54,13 +54,13 @@ namespace GlobalNamespace {
       return rating;
     }
     // public ObstacleExecutionRating/Rating get_rating()
-    // Offset: 0x10B4150
+    // Offset: 0x20FD144
     GlobalNamespace::ObstacleExecutionRating::Rating get_rating();
     // public System.Void set_rating(ObstacleExecutionRating/Rating value)
-    // Offset: 0x10B4158
+    // Offset: 0x20FD14C
     void set_rating(GlobalNamespace::ObstacleExecutionRating::Rating value);
     // public System.Void .ctor(System.Single time, ObstacleExecutionRating/Rating rating)
-    // Offset: 0x10B4160
+    // Offset: 0x20FD154
     static ObstacleExecutionRating* New_ctor(float time, GlobalNamespace::ObstacleExecutionRating::Rating rating);
   }; // ObstacleExecutionRating
 }

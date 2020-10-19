@@ -28,18 +28,18 @@ namespace System::Security::Authentication::ExtendedProtection {
   class ExtendedProtectionPolicy : public ::Il2CppObject, public System::Runtime::Serialization::ISerializable {
     public:
     // public System.Void .ctor(System.Security.Authentication.ExtendedProtection.PolicyEnforcement policyEnforcement)
-    // Offset: 0x13CB2BC
+    // Offset: 0x119F9F8
     static ExtendedProtectionPolicy* New_ctor(System::Security::Authentication::ExtendedProtection::PolicyEnforcement policyEnforcement);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x13CB2C4
+    // Offset: 0x119FA00
     static ExtendedProtectionPolicy* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.String ToString()
-    // Offset: 0x13CB334
+    // Offset: 0x119FA70
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x13CB33C
+    // Offset: 0x119FA78
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);

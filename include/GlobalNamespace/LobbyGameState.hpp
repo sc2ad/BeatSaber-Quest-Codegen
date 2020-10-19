@@ -28,22 +28,22 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::MultiplayerGameState gameState;
     // public MultiplayerGameState get_gameState()
-    // Offset: 0x10300A0
+    // Offset: 0x2096F88
     GlobalNamespace::MultiplayerGameState get_gameState();
     // public System.Void add_gameStateDidChangeEvent(System.Action`1<MultiplayerGameState> value)
-    // Offset: 0x10300A8
+    // Offset: 0x2096F90
     void add_gameStateDidChangeEvent(System::Action_1<GlobalNamespace::MultiplayerGameState>* value);
     // public System.Void remove_gameStateDidChangeEvent(System.Action`1<MultiplayerGameState> value)
-    // Offset: 0x103014C
+    // Offset: 0x2097034
     void remove_gameStateDidChangeEvent(System::Action_1<GlobalNamespace::MultiplayerGameState>* value);
     // public System.Void SetGameState(MultiplayerGameState newGameState)
-    // Offset: 0x10301F0
+    // Offset: 0x20970D8
     void SetGameState(GlobalNamespace::MultiplayerGameState newGameState);
     // public System.Void SetGameStateWithoutNotification(MultiplayerGameState newGameState)
-    // Offset: 0x1030274
+    // Offset: 0x209715C
     void SetGameStateWithoutNotification(GlobalNamespace::MultiplayerGameState newGameState);
     // public System.Void .ctor()
-    // Offset: 0x103027C
+    // Offset: 0x2097164
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LobbyGameState* New_ctor();

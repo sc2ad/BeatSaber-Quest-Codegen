@@ -21,12 +21,12 @@ namespace NUnit::Framework::Constraints {
   class TrueConstraint : public NUnit::Framework::Constraints::Constraint {
     public:
     // public System.Void .ctor()
-    // Offset: 0x15EA498
+    // Offset: 0x13C0CC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TrueConstraint* New_ctor();
     // public override NUnit.Framework.Constraints.ConstraintResult ApplyTo(System.Object actual)
-    // Offset: 0x15EA510
+    // Offset: 0x13C0D38
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: NUnit.Framework.Constraints.ConstraintResult Constraint::ApplyTo(System.Object actual)
     NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::Il2CppObject* actual);

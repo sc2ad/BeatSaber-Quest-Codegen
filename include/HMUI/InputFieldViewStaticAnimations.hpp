@@ -46,22 +46,22 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x1171180
+    // Offset: 0x216AB68
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1171210
+    // Offset: 0x216ABF8
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x117134C
+    // Offset: 0x216AD34
     void OnEnable();
     // protected System.Void OnDestroy()
-    // Offset: 0x1171368
+    // Offset: 0x216AD50
     void OnDestroy();
     // private System.Void HandleInputFieldViewSelectionStateDidChange(HMUI.InputFieldView/SelectionState state)
-    // Offset: 0x1171234
+    // Offset: 0x216AC1C
     void HandleInputFieldViewSelectionStateDidChange(HMUI::InputFieldView::SelectionState state);
     // public System.Void .ctor()
-    // Offset: 0x1171440
+    // Offset: 0x216AE28
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

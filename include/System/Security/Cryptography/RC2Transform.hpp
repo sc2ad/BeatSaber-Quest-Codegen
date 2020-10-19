@@ -43,13 +43,13 @@ namespace System::Security::Cryptography {
     // Set static field: static private readonly System.Byte[] pitable
     static void _set_pitable(::Array<uint8_t>* value);
     // public System.Void .ctor(System.Security.Cryptography.RC2 rc2Algo, System.Boolean encryption, System.Byte[] key, System.Byte[] iv)
-    // Offset: 0x19D3FEC
+    // Offset: 0x177A410
     static RC2Transform* New_ctor(System::Security::Cryptography::RC2* rc2Algo, bool encryption, ::Array<uint8_t>* key, ::Array<uint8_t>* iv);
     // static private System.Void .cctor()
-    // Offset: 0x19D51B0
+    // Offset: 0x177B5D4
     static void _cctor();
     // protected override System.Void ECB(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x19D4874
+    // Offset: 0x177AC98
     // Implemented from: Mono.Security.Cryptography.SymmetricTransform
     // Base method: System.Void SymmetricTransform::ECB(System.Byte[] input, System.Byte[] output)
     void ECB(::Array<uint8_t>* input, ::Array<uint8_t>* output);

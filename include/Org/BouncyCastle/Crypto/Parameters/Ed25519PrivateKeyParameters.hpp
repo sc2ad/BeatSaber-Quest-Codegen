@@ -39,16 +39,16 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set static field: static public readonly System.Int32 SignatureSize
     static void _set_SignatureSize(int value);
     // public System.Void .ctor(System.Byte[] buf, System.Int32 off)
-    // Offset: 0x10F09B8
+    // Offset: 0xF4B648
     static Ed25519PrivateKeyParameters* New_ctor(::Array<uint8_t>* buf, int off);
     // public Org.BouncyCastle.Crypto.Parameters.Ed25519PublicKeyParameters GeneratePublicKey()
-    // Offset: 0x10F0A90
+    // Offset: 0xF4B720
     Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* GeneratePublicKey();
     // public System.Void Sign(Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Algorithm algorithm, System.Byte[] ctx, System.Byte[] msg, System.Int32 msgOff, System.Int32 msgLen, System.Byte[] sig, System.Int32 sigOff)
-    // Offset: 0x10F0CAC
+    // Offset: 0xF4B93C
     void Sign(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Algorithm algorithm, ::Array<uint8_t>* ctx, ::Array<uint8_t>* msg, int msgOff, int msgLen, ::Array<uint8_t>* sig, int sigOff);
     // static private System.Void .cctor()
-    // Offset: 0x10F0FD4
+    // Offset: 0xF4BC64
     static void _cctor();
   }; // Org.BouncyCastle.Crypto.Parameters.Ed25519PrivateKeyParameters
 }

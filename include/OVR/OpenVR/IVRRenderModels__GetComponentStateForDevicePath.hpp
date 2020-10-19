@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
   class IVRRenderModels::_GetComponentStateForDevicePath : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F35754
+    // Offset: 0x1C873B8
     static IVRRenderModels::_GetComponentStateForDevicePath* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.String pchRenderModelName, System.String pchComponentName, System.UInt64 devicePath, ref OVR.OpenVR.RenderModel_ControllerMode_State_t pState, ref OVR.OpenVR.RenderModel_ComponentState_t pComponentState)
-    // Offset: 0x1F35768
+    // Offset: 0x1C873CC
     bool Invoke(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName, uint64_t devicePath, OVR::OpenVR::RenderModel_ControllerMode_State_t& pState, OVR::OpenVR::RenderModel_ComponentState_t& pComponentState);
     // public System.IAsyncResult BeginInvoke(System.String pchRenderModelName, System.String pchComponentName, System.UInt64 devicePath, ref OVR.OpenVR.RenderModel_ControllerMode_State_t pState, ref OVR.OpenVR.RenderModel_ComponentState_t pComponentState, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F35BE0
+    // Offset: 0x1C87844
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName, uint64_t devicePath, OVR::OpenVR::RenderModel_ControllerMode_State_t& pState, OVR::OpenVR::RenderModel_ComponentState_t& pComponentState, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(ref OVR.OpenVR.RenderModel_ControllerMode_State_t pState, ref OVR.OpenVR.RenderModel_ComponentState_t pComponentState, System.IAsyncResult result)
-    // Offset: 0x1F35CC8
+    // Offset: 0x1C8792C
     bool EndInvoke(OVR::OpenVR::RenderModel_ControllerMode_State_t& pState, OVR::OpenVR::RenderModel_ComponentState_t& pComponentState, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRRenderModels/_GetComponentStateForDevicePath
 }

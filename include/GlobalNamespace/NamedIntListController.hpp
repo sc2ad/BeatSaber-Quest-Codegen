@@ -38,34 +38,34 @@ namespace GlobalNamespace {
     // Offset: 0x38
     System::Action_1<int>* valueChangedEvent;
     // public System.Void add_valueChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0xF0855C
+    // Offset: 0x1FDD410
     void add_valueChangedEvent(System::Action_1<int>* value);
     // public System.Void remove_valueChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0xF08600
+    // Offset: 0x1FDD4B4
     void remove_valueChangedEvent(System::Action_1<int>* value);
     // public System.Void InitValues(NamedIntListController/TextValuePair[] values)
-    // Offset: 0xF086A4
+    // Offset: 0x1FDD558
     void InitValues(::Array<GlobalNamespace::NamedIntListController::TextValuePair*>* values);
     // public System.Void SetValue(System.Int32 value)
-    // Offset: 0xF086D4
+    // Offset: 0x1FDD588
     void SetValue(int value);
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0xF086E4
+    // Offset: 0x1FDD598
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(int& idx, int& numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0xF08780
+    // Offset: 0x1FDD634
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0xF087F8
+    // Offset: 0x1FDD6AC
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::Il2CppString* TextForValue(int idx);
     // public System.Void .ctor()
-    // Offset: 0xF0884C
+    // Offset: 0x1FDD700
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()

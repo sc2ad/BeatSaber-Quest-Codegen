@@ -37,29 +37,29 @@ namespace MasterServer {
     // Offset: 0x18
     int64_t dedicatedServerCreationTime;
     // static public PacketPool`1<MasterServer.DedicatedServerShutDownRequest> get_pool()
-    // Offset: 0x10BD818
+    // Offset: 0x211F380
     static GlobalNamespace::PacketPool_1<MasterServer::DedicatedServerShutDownRequest*>* get_pool();
     // private System.Void set_dedicatedServerId(System.String value)
-    // Offset: 0x10BD868
+    // Offset: 0x211F3D0
     void set_dedicatedServerId(::Il2CppString* value);
     // private System.Void set_dedicatedServerCreationTime(System.Int64 value)
-    // Offset: 0x10BD878
+    // Offset: 0x211F3E0
     void set_dedicatedServerCreationTime(int64_t value);
     // public MasterServer.DedicatedServerShutDownRequest Init(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime)
-    // Offset: 0x10BD880
+    // Offset: 0x211F3E8
     MasterServer::DedicatedServerShutDownRequest* Init(::Il2CppString* dedicatedServerId, int64_t dedicatedServerCreationTime);
     // public System.String get_dedicatedServerId()
-    // Offset: 0x10BD860
+    // Offset: 0x211F3C8
     // Implemented from: MasterServer.IDedicatedServerClientToServerMessage
     // Base method: System.String IDedicatedServerClientToServerMessage::get_dedicatedServerId()
     ::Il2CppString* get_dedicatedServerId();
     // public System.Int64 get_dedicatedServerCreationTime()
-    // Offset: 0x10BD870
+    // Offset: 0x211F3D8
     // Implemented from: MasterServer.IDedicatedServerClientToServerMessage
     // Base method: System.Int64 IDedicatedServerClientToServerMessage::get_dedicatedServerCreationTime()
     int64_t get_dedicatedServerCreationTime();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x10BD8B0
+    // Offset: 0x211F418
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -67,7 +67,7 @@ namespace MasterServer {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x10BD8F4
+    // Offset: 0x211F45C
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -75,12 +75,12 @@ namespace MasterServer {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x10BD948
+    // Offset: 0x211F4B0
     // Implemented from: IPoolablePacket
     // Base method: System.Void IPoolablePacket::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x10BD9A4
+    // Offset: 0x211F50C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DedicatedServerShutDownRequest* New_ctor();

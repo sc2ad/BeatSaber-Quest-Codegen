@@ -75,37 +75,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didPressRefreshButtonEvent(System.Action value)
-    // Offset: 0x102F36C
+    // Offset: 0x2096254
     void add_didPressRefreshButtonEvent(System::Action* value);
     // public System.Void remove_didPressRefreshButtonEvent(System.Action value)
-    // Offset: 0x102F410
+    // Offset: 0x20962F8
     void remove_didPressRefreshButtonEvent(System::Action* value);
     // public System.Boolean get_isLoading()
-    // Offset: 0x102F4B4
+    // Offset: 0x209639C
     bool get_isLoading();
     // protected System.Void Awake()
-    // Offset: 0x102F4D0
+    // Offset: 0x20963B8
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x102F594
+    // Offset: 0x209647C
     void OnDestroy();
     // public System.Void ShowLoading(System.String text)
-    // Offset: 0x102F5B0
+    // Offset: 0x2096498
     void ShowLoading(::Il2CppString* text);
     // public System.Void ShowText(System.String text, System.Boolean showRefreshButton)
-    // Offset: 0x102F638
+    // Offset: 0x2096520
     void ShowText(::Il2CppString* text, bool showRefreshButton);
     // public System.Void ShowDownloadingProgress(System.String text, System.Single downloadingProgress)
-    // Offset: 0x102F6EC
+    // Offset: 0x20965D4
     void ShowDownloadingProgress(::Il2CppString* text, float downloadingProgress);
     // public System.Void Hide()
-    // Offset: 0x102F794
+    // Offset: 0x209667C
     void Hide();
     // private System.Void <Awake>b__14_0()
-    // Offset: 0x102F7C4
+    // Offset: 0x20966AC
     void $Awake$b__14_0();
     // public System.Void .ctor()
-    // Offset: 0x102F7BC
+    // Offset: 0x20966A4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

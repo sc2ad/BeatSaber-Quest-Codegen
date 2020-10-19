@@ -93,72 +93,72 @@ namespace HMUI {
     // Offset: 0x39
     bool selected;
     // public System.Void add_selectionDidChangeEvent(System.Action`3<HMUI.SelectableCell,HMUI.SelectableCell/TransitionType,System.Object> value)
-    // Offset: 0x117A448
+    // Offset: 0x2173E30
     void add_selectionDidChangeEvent(System::Action_3<HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType, ::Il2CppObject*>* value);
     // public System.Void remove_selectionDidChangeEvent(System.Action`3<HMUI.SelectableCell,HMUI.SelectableCell/TransitionType,System.Object> value)
-    // Offset: 0x117A3A4
+    // Offset: 0x2173D8C
     void remove_selectionDidChangeEvent(System::Action_3<HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType, ::Il2CppObject*>* value);
     // public System.Void add_highlightDidChangeEvent(System.Action`2<HMUI.SelectableCell,HMUI.SelectableCell/TransitionType> value)
-    // Offset: 0x117A984
+    // Offset: 0x217436C
     void add_highlightDidChangeEvent(System::Action_2<HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType>* value);
     // public System.Void remove_highlightDidChangeEvent(System.Action`2<HMUI.SelectableCell,HMUI.SelectableCell/TransitionType> value)
-    // Offset: 0x117AA28
+    // Offset: 0x2174410
     void remove_highlightDidChangeEvent(System::Action_2<HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType>* value);
     // public System.Boolean get_highlighted()
-    // Offset: 0x117AACC
+    // Offset: 0x21744B4
     bool get_highlighted();
     // private System.Void set_highlighted(System.Boolean value)
-    // Offset: 0x117AAD4
+    // Offset: 0x21744BC
     void set_highlighted(bool value);
     // public System.Boolean get_selected()
-    // Offset: 0x117AAE0
+    // Offset: 0x21744C8
     bool get_selected();
     // private System.Void set_selected(System.Boolean value)
-    // Offset: 0x117AAE8
+    // Offset: 0x21744D0
     void set_selected(bool value);
     // protected System.Void Start()
-    // Offset: 0x117AAF4
+    // Offset: 0x21744DC
     void Start();
     // public System.Void SetSelected(System.Boolean value, HMUI.SelectableCell/TransitionType transitionType, System.Object changeOwner, System.Boolean ignoreCurrentValue)
-    // Offset: 0x117A4EC
+    // Offset: 0x2173ED4
     void SetSelected(bool value, HMUI::SelectableCell::TransitionType transitionType, ::Il2CppObject* changeOwner, bool ignoreCurrentValue);
     // public System.Void ClearHighlight(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x117A5B4
+    // Offset: 0x2173F9C
     void ClearHighlight(HMUI::SelectableCell::TransitionType transitionType);
     // private System.Void SetHighlight(System.Boolean value, HMUI.SelectableCell/TransitionType transitionType, System.Boolean ignoreCurrentValue)
-    // Offset: 0x117AB30
+    // Offset: 0x2174518
     void SetHighlight(bool value, HMUI::SelectableCell::TransitionType transitionType, bool ignoreCurrentValue);
     // protected System.Void InternalToggle()
     // Offset: 0xFFFFFFFF
     void InternalToggle();
     // protected System.Void SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x117ABF0
+    // Offset: 0x21745D8
     void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected System.Void HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x117ABF4
+    // Offset: 0x21745DC
     void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // public System.Void OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x117ABF8
+    // Offset: 0x21745E0
     // Implemented from: UnityEngine.EventSystems.IPointerClickHandler
     // Base method: System.Void IPointerClickHandler::OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerClick(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnSubmit(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x117ACC4
+    // Offset: 0x21746AC
     // Implemented from: UnityEngine.EventSystems.ISubmitHandler
     // Base method: System.Void ISubmitHandler::OnSubmit(UnityEngine.EventSystems.BaseEventData eventData)
     void OnSubmit(UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x117AD74
+    // Offset: 0x217475C
     // Implemented from: UnityEngine.EventSystems.IPointerEnterHandler
     // Base method: System.Void IPointerEnterHandler::OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x117AD84
+    // Offset: 0x217476C
     // Implemented from: UnityEngine.EventSystems.IPointerExitHandler
     // Base method: System.Void IPointerExitHandler::OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerExit(UnityEngine::EventSystems::PointerEventData* eventData);
     // protected System.Void .ctor()
-    // Offset: 0x117A974
+    // Offset: 0x217435C
     // Implemented from: HMUI.Interactable
     // Base method: System.Void Interactable::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

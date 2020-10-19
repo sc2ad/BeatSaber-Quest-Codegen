@@ -26,18 +26,18 @@ namespace GlobalNamespace {
     // Offset: 0x70
     GlobalNamespace::GameplayModifiersPanelController* gameplayModifiersPanelController;
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0xEE922C
+    // Offset: 0x1FE9FB4
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public System.Void Setup(GameplayModifiers gameplayModifiers)
-    // Offset: 0xEE9248
+    // Offset: 0x1FE9FD0
     void Setup(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xEE9264
+    // Offset: 0x1FE9FEC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xEE9314
+    // Offset: 0x1FEA09C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

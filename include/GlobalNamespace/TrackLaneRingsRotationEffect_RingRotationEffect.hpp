@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     int progressPos;
     // public System.Void .ctor()
-    // Offset: 0xF35E38
+    // Offset: 0x1F9C814
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TrackLaneRingsRotationEffect::RingRotationEffect* New_ctor();

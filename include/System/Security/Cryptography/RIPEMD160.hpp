@@ -14,10 +14,10 @@ namespace System::Security::Cryptography {
   class RIPEMD160 : public System::Security::Cryptography::HashAlgorithm {
     public:
     // static public System.Security.Cryptography.RIPEMD160 Create()
-    // Offset: 0x19D525C
+    // Offset: 0x177B680
     static System::Security::Cryptography::RIPEMD160* Create();
     // protected System.Void .ctor()
-    // Offset: 0x19D5230
+    // Offset: 0x177B654
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()

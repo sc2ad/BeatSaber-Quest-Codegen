@@ -20,20 +20,20 @@ namespace System::Runtime::Remoting::Metadata {
     // Offset: 0x30
     bool isElement;
     // public System.String get_XmlElementName()
-    // Offset: 0x14FA608
+    // Offset: 0x12D0E30
     ::Il2CppString* get_XmlElementName();
     // public System.Boolean IsInteropXmlElement()
-    // Offset: 0x14FA610
+    // Offset: 0x12D0E38
     bool IsInteropXmlElement();
     // public System.Void .ctor()
-    // Offset: 0x14FA600
+    // Offset: 0x12D0E28
     // Implemented from: System.Runtime.Remoting.Metadata.SoapAttribute
     // Base method: System.Void SoapAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()
     static SoapFieldAttribute* New_ctor();
     // override System.Void SetReflectionObject(System.Object reflectionObject)
-    // Offset: 0x14FA618
+    // Offset: 0x12D0E40
     // Implemented from: System.Runtime.Remoting.Metadata.SoapAttribute
     // Base method: System.Void SoapAttribute::SetReflectionObject(System.Object reflectionObject)
     void SetReflectionObject(::Il2CppObject* reflectionObject);

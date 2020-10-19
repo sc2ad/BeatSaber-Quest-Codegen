@@ -27,10 +27,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set static field: static public readonly System.Int32 SecretSize
     static void _set_SecretSize(int value);
     // public System.Void .ctor(System.Byte[] buf, System.Int32 off)
-    // Offset: 0x10F3A50
+    // Offset: 0xF4E6E0
     static X25519PrivateKeyParameters* New_ctor(::Array<uint8_t>* buf, int off);
     // static private System.Void .cctor()
-    // Offset: 0x10F3B28
+    // Offset: 0xF4E7B8
     static void _cctor();
   }; // Org.BouncyCastle.Crypto.Parameters.X25519PrivateKeyParameters
 }

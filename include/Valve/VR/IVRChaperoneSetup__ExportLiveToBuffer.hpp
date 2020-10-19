@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRChaperoneSetup::_ExportLiveToBuffer : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x153936C
+    // Offset: 0x130FB94
     static IVRChaperoneSetup::_ExportLiveToBuffer* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.Text.StringBuilder pBuffer, ref System.UInt32 pnBufferLength)
-    // Offset: 0x1532E7C
+    // Offset: 0x13096A4
     bool Invoke(System::Text::StringBuilder* pBuffer, uint& pnBufferLength);
     // public System.IAsyncResult BeginInvoke(System.Text.StringBuilder pBuffer, ref System.UInt32 pnBufferLength, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1539380
+    // Offset: 0x130FBA8
     System::IAsyncResult* BeginInvoke(System::Text::StringBuilder* pBuffer, uint& pnBufferLength, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(ref System.UInt32 pnBufferLength, System.IAsyncResult result)
-    // Offset: 0x153941C
+    // Offset: 0x130FC44
     bool EndInvoke(uint& pnBufferLength, System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperoneSetup/_ExportLiveToBuffer
 }

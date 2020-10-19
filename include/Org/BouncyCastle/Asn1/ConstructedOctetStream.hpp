@@ -36,18 +36,18 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x40
     System::IO::Stream* currentStream;
     // System.Void .ctor(Org.BouncyCastle.Asn1.Asn1StreamParser parser)
-    // Offset: 0x1543844
+    // Offset: 0x131B06C
     static ConstructedOctetStream* New_ctor(Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
     // private Org.BouncyCastle.Asn1.Asn1OctetStringParser GetNextParser()
-    // Offset: 0x1545C7C
+    // Offset: 0x131D4A4
     Org::BouncyCastle::Asn1::Asn1OctetStringParser* GetNextParser();
     // public override System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1545A6C
+    // Offset: 0x131D294
     // Implemented from: Org.BouncyCastle.Utilities.IO.BaseInputStream
     // Base method: System.Int32 BaseInputStream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     int Read(::Array<uint8_t>* buffer, int offset, int count);
     // public override System.Int32 ReadByte()
-    // Offset: 0x1545D94
+    // Offset: 0x131D5BC
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::ReadByte()
     int ReadByte();

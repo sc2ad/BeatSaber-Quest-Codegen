@@ -31,10 +31,10 @@ namespace System::Text {
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
     // public System.Void .ctor(System.String message, System.Byte[] bytesUnknown, System.Int32 index)
-    // Offset: 0x1884FC8
+    // Offset: 0x162B3EC
     static DecoderFallbackException* New_ctor(::Il2CppString* message, ::Array<uint8_t>* bytesUnknown, int index);
     // public System.Void .ctor()
-    // Offset: 0x18857CC
+    // Offset: 0x162BBF0
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -42,7 +42,7 @@ namespace System::Text {
     // Base method: System.Void Object::.ctor()
     static DecoderFallbackException* New_ctor();
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1885840
+    // Offset: 0x162BC64
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

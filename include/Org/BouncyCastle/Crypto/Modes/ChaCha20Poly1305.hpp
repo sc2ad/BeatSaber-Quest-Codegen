@@ -140,73 +140,73 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Set static field: static private readonly System.Byte[] Zeroes
     static void _set_Zeroes(::Array<uint8_t>* value);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IMac poly1305)
-    // Offset: 0x16FF64C
+    // Offset: 0x14BA220
     static ChaCha20Poly1305* New_ctor(Org::BouncyCastle::Crypto::IMac* poly1305);
     // public System.Void ProcessAadBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x16FFFE8
+    // Offset: 0x14BABBC
     void ProcessAadBytes(::Array<uint8_t>* inBytes, int inOff, int len);
     // private System.Void CheckAad()
-    // Offset: 0x17001BC
+    // Offset: 0x14BAD90
     void CheckAad();
     // private System.Void CheckData()
-    // Offset: 0x1700820
+    // Offset: 0x14BB3F4
     void CheckData();
     // private System.Void FinishAad(Org.BouncyCastle.Crypto.Modes.ChaCha20Poly1305/State nextState)
-    // Offset: 0x1700F28
+    // Offset: 0x14BBAFC
     void FinishAad(Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::State nextState);
     // private System.Void FinishData(Org.BouncyCastle.Crypto.Modes.ChaCha20Poly1305/State nextState)
-    // Offset: 0x1700D78
+    // Offset: 0x14BB94C
     void FinishData(Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::State nextState);
     // private System.UInt64 IncrementCount(System.UInt64 count, System.UInt32 increment, System.UInt64 limit)
-    // Offset: 0x170028C
+    // Offset: 0x14BAE60
     uint64_t IncrementCount(uint64_t count, uint increment, uint64_t limit);
     // private System.Void InitMac()
-    // Offset: 0x1701070
+    // Offset: 0x14BBC44
     void InitMac();
     // private System.Void PadMac(System.UInt64 count)
-    // Offset: 0x1700F58
+    // Offset: 0x14BBB2C
     void PadMac(uint64_t count);
     // private System.Void ProcessData(System.Byte[] inBytes, System.Int32 inOff, System.Int32 inLen, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1700908
+    // Offset: 0x14BB4DC
     void ProcessData(::Array<uint8_t>* inBytes, int inOff, int inLen, ::Array<uint8_t>* outBytes, int outOff);
     // private System.Void Reset(System.Boolean clearMac, System.Boolean resetCipher)
-    // Offset: 0x16FFC78
+    // Offset: 0x14BA84C
     void Reset(bool clearMac, bool resetCipher);
     // static private System.Void .cctor()
-    // Offset: 0x1701200
+    // Offset: 0x14BBDD4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x16FF5EC
+    // Offset: 0x14BA1C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ChaCha20Poly1305* New_ctor();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x16FF844
+    // Offset: 0x14BA418
     // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadCipher
     // Base method: System.Void IAeadCipher::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetOutputSize(System.Int32 len)
-    // Offset: 0x16FFDDC
+    // Offset: 0x14BA9B0
     // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadCipher
     // Base method: System.Int32 IAeadCipher::GetOutputSize(System.Int32 len)
     int GetOutputSize(int len);
     // public System.Int32 GetUpdateOutputSize(System.Int32 len)
-    // Offset: 0x16FFEE0
+    // Offset: 0x14BAAB4
     // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadCipher
     // Base method: System.Int32 IAeadCipher::GetUpdateOutputSize(System.Int32 len)
     int GetUpdateOutputSize(int len);
     // public System.Int32 ProcessBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x170032C
+    // Offset: 0x14BAF00
     // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadCipher
     // Base method: System.Int32 IAeadCipher::ProcessBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len, System.Byte[] outBytes, System.Int32 outOff)
     int ProcessBytes(::Array<uint8_t>* inBytes, int inOff, int len, ::Array<uint8_t>* outBytes, int outOff);
     // public System.Int32 DoFinal(System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x17009D4
+    // Offset: 0x14BB5A8
     // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadCipher
     // Base method: System.Int32 IAeadCipher::DoFinal(System.Byte[] outBytes, System.Int32 outOff)
     int DoFinal(::Array<uint8_t>* outBytes, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1700F1C
+    // Offset: 0x14BBAF0
     // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadCipher
     // Base method: System.Void IAeadCipher::Reset()
     void Reset();

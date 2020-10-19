@@ -31,28 +31,28 @@ namespace GlobalNamespace {
     // Offset: 0x18
     System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>* playersLayoutWasCalculatedEvent;
     // public MultiplayerPlayerLayout get_layout()
-    // Offset: 0x2231938
+    // Offset: 0x203FF48
     GlobalNamespace::MultiplayerPlayerLayout get_layout();
     // private System.Void set_layout(MultiplayerPlayerLayout value)
-    // Offset: 0x2231940
+    // Offset: 0x203FF50
     void set_layout(GlobalNamespace::MultiplayerPlayerLayout value);
     // public System.Int32 get_activePlayerSpotsCount()
-    // Offset: 0x2231948
+    // Offset: 0x203FF58
     int get_activePlayerSpotsCount();
     // private System.Void set_activePlayerSpotsCount(System.Int32 value)
-    // Offset: 0x2231950
+    // Offset: 0x203FF60
     void set_activePlayerSpotsCount(int value);
     // public System.Void add_playersLayoutWasCalculatedEvent(System.Action`2<MultiplayerPlayerLayout,System.Int32> value)
-    // Offset: 0x2231958
+    // Offset: 0x203FF68
     void add_playersLayoutWasCalculatedEvent(System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>* value);
     // public System.Void remove_playersLayoutWasCalculatedEvent(System.Action`2<MultiplayerPlayerLayout,System.Int32> value)
-    // Offset: 0x22319FC
+    // Offset: 0x204000C
     void remove_playersLayoutWasCalculatedEvent(System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>* value);
     // public MultiplayerPlayerLayout CalculateLayout(System.Int32 activePlayersCount)
-    // Offset: 0x2231AA0
+    // Offset: 0x20400B0
     GlobalNamespace::MultiplayerPlayerLayout CalculateLayout(int activePlayersCount);
     // public System.Void .ctor()
-    // Offset: 0x2231B3C
+    // Offset: 0x204014C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MultiplayerLayoutProvider* New_ctor();

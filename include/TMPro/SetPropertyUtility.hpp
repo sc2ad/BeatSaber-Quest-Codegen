@@ -29,7 +29,7 @@ namespace TMPro {
   class SetPropertyUtility : public ::Il2CppObject {
     public:
     // static public System.Boolean SetColor(ref UnityEngine.Color currentValue, UnityEngine.Color newValue)
-    // Offset: 0xF40378
+    // Offset: 0xEBACAC
     static bool SetColor(UnityEngine::Color& currentValue, UnityEngine::Color newValue);
     // static public System.Boolean SetEquatableStruct(ref T currentValue, T newValue)
     // Offset: 0xFFFFFFFF

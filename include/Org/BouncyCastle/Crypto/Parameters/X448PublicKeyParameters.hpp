@@ -23,10 +23,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set static field: static public readonly System.Int32 KeySize
     static void _set_KeySize(int value);
     // public System.Void .ctor(System.Byte[] buf, System.Int32 off)
-    // Offset: 0x10F3DEC
+    // Offset: 0xF4EA7C
     static X448PublicKeyParameters* New_ctor(::Array<uint8_t>* buf, int off);
     // static private System.Void .cctor()
-    // Offset: 0x10F3EC4
+    // Offset: 0xF4EB54
     static void _cctor();
   }; // Org.BouncyCastle.Crypto.Parameters.X448PublicKeyParameters
 }

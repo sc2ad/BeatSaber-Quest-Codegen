@@ -20,16 +20,16 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x18
     ::Array<uint8_t>* iv;
     // public System.Void .ctor(Org.BouncyCastle.Crypto.ICipherParameters parameters, System.Byte[] iv)
-    // Offset: 0x10F2774
+    // Offset: 0xF4D404
     static ParametersWithIV* New_ctor(Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::Array<uint8_t>* iv);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.ICipherParameters parameters, System.Byte[] iv, System.Int32 ivOff, System.Int32 ivLen)
-    // Offset: 0x10F2790
+    // Offset: 0xF4D420
     static ParametersWithIV* New_ctor(Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::Array<uint8_t>* iv, int ivOff, int ivLen);
     // public System.Byte[] GetIV()
-    // Offset: 0x10EA3E0
+    // Offset: 0xF45070
     ::Array<uint8_t>* GetIV();
     // public Org.BouncyCastle.Crypto.ICipherParameters get_Parameters()
-    // Offset: 0x10F288C
+    // Offset: 0xF4D51C
     Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
   }; // Org.BouncyCastle.Crypto.Parameters.ParametersWithIV
 }

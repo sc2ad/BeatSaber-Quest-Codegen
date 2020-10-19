@@ -15,8 +15,6 @@
 #include "GlobalNamespace/BombNoteController.hpp"
 // Including type: ObstacleController
 #include "GlobalNamespace/ObstacleController.hpp"
-// Including type: NoteRibbonController
-#include "GlobalNamespace/NoteRibbonController.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -24,11 +22,11 @@ namespace GlobalNamespace {
   // Forward declaring type: MonoMemoryPoolContainer`1<T>
   template<typename T>
   class MonoMemoryPoolContainer_1;
-  // Forward declaring type: NoteData
-  class NoteData;
   // Skipping declaration: NoteController because it is already included!
   // Forward declaring type: ObstacleData
   class ObstacleData;
+  // Forward declaring type: NoteData
+  class NoteData;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
@@ -59,69 +57,51 @@ namespace GlobalNamespace {
     // private readonly MonoMemoryPoolContainer`1<ObstacleController> _obstaclePoolContainer
     // Offset: 0x70
     GlobalNamespace::MonoMemoryPoolContainer_1<GlobalNamespace::ObstacleController*>* obstaclePoolContainer;
-    // private readonly MonoMemoryPoolContainer`1<NoteRibbonController> _noteRibbonPoolContainer
-    // Offset: 0x78
-    GlobalNamespace::MonoMemoryPoolContainer_1<GlobalNamespace::NoteRibbonController*>* noteRibbonPoolContainer;
-    // private System.Void .ctor(BasicBeatmapObjectManager/InitData initData, GameNoteController/Pool gameNotePool, BombNoteController/Pool bombNotePool, ObstacleController/Pool obstaclePool, NoteRibbonController/Pool noteRibbonPool)
-    // Offset: 0xFBB2D8
-    static BasicBeatmapObjectManager* New_ctor(GlobalNamespace::BasicBeatmapObjectManager::InitData* initData, GlobalNamespace::GameNoteController::Pool* gameNotePool, GlobalNamespace::BombNoteController::Pool* bombNotePool, GlobalNamespace::ObstacleController::Pool* obstaclePool, GlobalNamespace::NoteRibbonController::Pool* noteRibbonPool);
+    // private System.Void .ctor(BasicBeatmapObjectManager/InitData initData, GameNoteController/Pool gameNotePool, BombNoteController/Pool bombNotePool, ObstacleController/Pool obstaclePool)
+    // Offset: 0x2039938
+    static BasicBeatmapObjectManager* New_ctor(GlobalNamespace::BasicBeatmapObjectManager::InitData* initData, GlobalNamespace::GameNoteController::Pool* gameNotePool, GlobalNamespace::BombNoteController::Pool* bombNotePool, GlobalNamespace::ObstacleController::Pool* obstaclePool);
     // public override System.Collections.Generic.HashSet`1<ObstacleController> get_activeObstacleControllers()
-    // Offset: 0xFBB238
+    // Offset: 0x20398E8
     // Implemented from: BeatmapObjectManager
     // Base method: System.Collections.Generic.HashSet`1<ObstacleController> BeatmapObjectManager::get_activeObstacleControllers()
     System::Collections::Generic::HashSet_1<GlobalNamespace::ObstacleController*>* get_activeObstacleControllers();
-    // public override System.Collections.Generic.HashSet`1<NoteRibbonController> get_activeNoteRibbonControllers()
-    // Offset: 0xFBB288
-    // Implemented from: BeatmapObjectManager
-    // Base method: System.Collections.Generic.HashSet`1<NoteRibbonController> BeatmapObjectManager::get_activeNoteRibbonControllers()
-    System::Collections::Generic::HashSet_1<GlobalNamespace::NoteRibbonController*>* get_activeNoteRibbonControllers();
     // protected override ObstacleController SpawnObstacleInternal(ObstacleData obstacleData, BeatmapObjectSpawnMovementData/ObstacleSpawnData obstacleSpawnData, System.Single rotation)
-    // Offset: 0xFBB43C
+    // Offset: 0x2039A58
     // Implemented from: BeatmapObjectManager
     // Base method: ObstacleController BeatmapObjectManager::SpawnObstacleInternal(ObstacleData obstacleData, BeatmapObjectSpawnMovementData/ObstacleSpawnData obstacleSpawnData, System.Single rotation)
     GlobalNamespace::ObstacleController* SpawnObstacleInternal(GlobalNamespace::ObstacleData* obstacleData, GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData obstacleSpawnData, float rotation);
     // protected override NoteController SpawnBombNoteInternal(NoteData bombNoteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation)
-    // Offset: 0xFBB50C
+    // Offset: 0x2039B28
     // Implemented from: BeatmapObjectManager
     // Base method: NoteController BeatmapObjectManager::SpawnBombNoteInternal(NoteData bombNoteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation)
     GlobalNamespace::NoteController* SpawnBombNoteInternal(GlobalNamespace::NoteData* bombNoteData, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData, float rotation);
     // protected override NoteController SpawnBasicNoteInternal(NoteData noteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation, System.Single cutDirectionAngleOffset)
-    // Offset: 0xFBB5D4
+    // Offset: 0x2039BF0
     // Implemented from: BeatmapObjectManager
     // Base method: NoteController BeatmapObjectManager::SpawnBasicNoteInternal(NoteData noteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation, System.Single cutDirectionAngleOffset)
     GlobalNamespace::NoteController* SpawnBasicNoteInternal(GlobalNamespace::NoteData* noteData, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData, float rotation, float cutDirectionAngleOffset);
-    // protected override NoteRibbonController SpawnNoteRibbonInternal(NoteData noteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, NoteController parentNoteController, System.Single rotation, System.Single cutDirectionAngleOffset)
-    // Offset: 0xFBB724
-    // Implemented from: BeatmapObjectManager
-    // Base method: NoteRibbonController BeatmapObjectManager::SpawnNoteRibbonInternal(NoteData noteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, NoteController parentNoteController, System.Single rotation, System.Single cutDirectionAngleOffset)
-    GlobalNamespace::NoteRibbonController* SpawnNoteRibbonInternal(GlobalNamespace::NoteData* noteData, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData, GlobalNamespace::NoteController* parentNoteController, float rotation, float cutDirectionAngleOffset);
     // protected override System.Void DespawnInternal(NoteController noteController)
-    // Offset: 0xFBB804
+    // Offset: 0x2039D40
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::DespawnInternal(NoteController noteController)
     void DespawnInternal(GlobalNamespace::NoteController* noteController);
     // protected override System.Void DespawnInternal(ObstacleController obstacleController)
-    // Offset: 0xFBB8F8
+    // Offset: 0x2039E34
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::DespawnInternal(ObstacleController obstacleController)
     void DespawnInternal(GlobalNamespace::ObstacleController* obstacleController);
-    // protected override System.Void DespawnInternal(NoteRibbonController noteRibbonController)
-    // Offset: 0xFBB960
-    // Implemented from: BeatmapObjectManager
-    // Base method: System.Void BeatmapObjectManager::DespawnInternal(NoteRibbonController noteRibbonController)
-    void DespawnInternal(GlobalNamespace::NoteRibbonController* noteRibbonController);
     // public override System.Void DissolveAllObjects()
-    // Offset: 0xFBB9C8
+    // Offset: 0x2039E9C
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::DissolveAllObjects()
     void DissolveAllObjects();
     // public override System.Void HideAllBeatmapObjects(System.Boolean hide)
-    // Offset: 0xFBBD64
+    // Offset: 0x203A16C
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::HideAllBeatmapObjects(System.Boolean hide)
     void HideAllBeatmapObjects(bool hide);
     // public override System.Void PauseAllBeatmapObjects(System.Boolean pause)
-    // Offset: 0xFBC104
+    // Offset: 0x203A438
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::PauseAllBeatmapObjects(System.Boolean pause)
     void PauseAllBeatmapObjects(bool pause);

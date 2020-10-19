@@ -34,10 +34,10 @@ namespace Zenject {
     // Offset: 0x18
     UnityEngine::GameObject* gameObject;
     // Zenject.IProvider <FromComponentOn>b__0(Zenject.DiContainer container)
-    // Offset: 0x144AEA8
+    // Offset: 0x12215E4
     Zenject::IProvider* $FromComponentOn$b__0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x144A008
+    // Offset: 0x1220744
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FactoryFromBinderBase::$$c__DisplayClass23_0* New_ctor();

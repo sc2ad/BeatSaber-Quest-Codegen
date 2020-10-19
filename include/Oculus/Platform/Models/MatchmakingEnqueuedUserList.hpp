@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
   class MatchmakingEnqueuedUserList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::MatchmakingEnqueuedUser*> {
     public:
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x136B21C
+    // Offset: 0x1140958
     static MatchmakingEnqueuedUserList* New_ctor(System::IntPtr a);
   }; // Oculus.Platform.Models.MatchmakingEnqueuedUserList
 }

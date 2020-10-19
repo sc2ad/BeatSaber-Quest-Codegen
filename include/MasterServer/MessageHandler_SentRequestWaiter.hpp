@@ -42,22 +42,22 @@ namespace MasterServer {
     // Offset: 0x30
     System::Threading::CancellationTokenRegistration requestCancellationTokenRegistration;
     // public System.Void .ctor(System.Threading.CancellationToken disposedCancellationToken, System.Threading.CancellationToken requestCancellationToken)
-    // Offset: 0x10C4C5C
+    // Offset: 0x21267C4
     static MessageHandler::SentRequestWaiter* New_ctor(System::Threading::CancellationToken disposedCancellationToken, System::Threading::CancellationToken requestCancellationToken);
     // public System.Void Complete(System.Boolean handled)
-    // Offset: 0x10C23F8
+    // Offset: 0x2123F60
     void Complete(bool handled);
     // public System.Void Cancel()
-    // Offset: 0x10C4E5C
+    // Offset: 0x21269C4
     void Cancel();
     // public System.Threading.Tasks.Task get_task()
-    // Offset: 0x10C4D9C
+    // Offset: 0x2126904
     System::Threading::Tasks::Task* get_task();
     // public System.Boolean get_isWaiting()
-    // Offset: 0x10C4DEC
+    // Offset: 0x2126954
     bool get_isWaiting();
     // public override System.Void Dispose()
-    // Offset: 0x10C6770
+    // Offset: 0x21282D8
     // Implemented from: MasterServer.MessageHandler/RequestWaiter
     // Base method: System.Void RequestWaiter::Dispose()
     void Dispose();

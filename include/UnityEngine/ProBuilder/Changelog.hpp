@@ -61,13 +61,13 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private System.String k_VersionDatePattern
     static void _set_k_VersionDatePattern(::Il2CppString* value);
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.ProBuilder.ChangelogEntry> get_entries()
-    // Offset: 0x1D93584
+    // Offset: 0x1AE61E8
     System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::ProBuilder::ChangelogEntry*>* get_entries();
     // public System.Void .ctor(System.String log)
-    // Offset: 0x1D935F4
+    // Offset: 0x1AE6258
     static Changelog* New_ctor(::Il2CppString* log);
     // private UnityEngine.ProBuilder.ChangelogEntry CreateEntry(System.String version, System.String contents)
-    // Offset: 0x1D93878
+    // Offset: 0x1AE64DC
     UnityEngine::ProBuilder::ChangelogEntry* CreateEntry(::Il2CppString* version, ::Il2CppString* contents);
   }; // UnityEngine.ProBuilder.Changelog
 }

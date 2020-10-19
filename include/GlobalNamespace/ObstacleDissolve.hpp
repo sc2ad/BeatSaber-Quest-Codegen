@@ -31,19 +31,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x10B3F10
+    // Offset: 0x20FCF04
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x10B3FE8
+    // Offset: 0x20FCFDC
     void OnDestroy();
     // private System.Void HandleObstacleDidInitEvent(ObstacleController obstacleController)
-    // Offset: 0x10B4104
+    // Offset: 0x20FD0F8
     void HandleObstacleDidInitEvent(GlobalNamespace::ObstacleController* obstacleController);
     // private System.Void HandleObcstacleDidStartDissolvingEvent(ObstacleController obstacleController, System.Single duration)
-    // Offset: 0x10B4120
+    // Offset: 0x20FD114
     void HandleObcstacleDidStartDissolvingEvent(GlobalNamespace::ObstacleController* obstacleController, float duration);
     // public System.Void .ctor()
-    // Offset: 0x10B4148
+    // Offset: 0x20FD13C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

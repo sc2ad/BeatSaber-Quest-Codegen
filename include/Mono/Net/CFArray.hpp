@@ -18,22 +18,22 @@ namespace Mono::Net {
     // Set static field: static private readonly System.IntPtr kCFTypeArrayCallbacks
     static void _set_kCFTypeArrayCallbacks(System::IntPtr value);
     // static private System.Void .cctor()
-    // Offset: 0x1414504
+    // Offset: 0x11EAC40
     static void _cctor();
     // static private System.IntPtr CFArrayGetCount(System.IntPtr handle)
-    // Offset: 0x14146FC
+    // Offset: 0x11EAE38
     static System::IntPtr CFArrayGetCount(System::IntPtr handle);
     // public System.Int32 get_Count()
-    // Offset: 0x141477C
+    // Offset: 0x11EAEB8
     int get_Count();
     // static private System.IntPtr CFArrayGetValueAtIndex(System.IntPtr handle, System.IntPtr index)
-    // Offset: 0x14147EC
+    // Offset: 0x11EAF28
     static System::IntPtr CFArrayGetValueAtIndex(System::IntPtr handle, System::IntPtr index);
     // public System.IntPtr get_Item(System.Int32 index)
-    // Offset: 0x141487C
+    // Offset: 0x11EAFB8
     System::IntPtr get_Item(int index);
     // public System.Void .ctor(System.IntPtr handle, System.Boolean own)
-    // Offset: 0x1414464
+    // Offset: 0x11EABA0
     // Implemented from: Mono.Net.CFObject
     // Base method: System.Void CFObject::.ctor(System.IntPtr handle, System.Boolean own)
     static CFArray* New_ctor(System::IntPtr handle, bool own);

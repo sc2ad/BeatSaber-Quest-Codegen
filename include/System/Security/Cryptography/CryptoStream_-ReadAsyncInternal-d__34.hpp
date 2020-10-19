@@ -86,12 +86,12 @@ namespace System::Security::Cryptography {
     // Creating value type constructor for type: $ReadAsyncInternal$d__34
     constexpr $ReadAsyncInternal$d__34(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int> $$t__builder_ = {}, System::Security::Cryptography::CryptoStream* $$4__this_ = {}, int count_ = {}, int offset_ = {}, ::Array<uint8_t>* buffer_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, ::Array<uint8_t>* $tempInputBuffer$5__1_ = {}, int $currentOutputIndex$5__2_ = {}, int $bytesToDeliver$5__3_ = {}, System::Threading::SemaphoreSlim* $sem$5__4_ = {}, System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable $$u__1_ = {}, System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter $$u__2_ = {}, int $$7__wrap1_ = {}, typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter $$u__3_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, count{count_}, offset{offset_}, buffer{buffer_}, cancellationToken{cancellationToken_}, $tempInputBuffer$5__1{$tempInputBuffer$5__1_}, $currentOutputIndex$5__2{$currentOutputIndex$5__2_}, $bytesToDeliver$5__3{$bytesToDeliver$5__3_}, $sem$5__4{$sem$5__4_}, $$u__1{$$u__1_}, $$u__2{$$u__2_}, $$7__wrap1{$$7__wrap1_}, $$u__3{$$u__3_} {}
     // private System.Void MoveNext()
-    // Offset: 0xDC0F68
+    // Offset: 0xC77388
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDC0F70
+    // Offset: 0xC77390
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

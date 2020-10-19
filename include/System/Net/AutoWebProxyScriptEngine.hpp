@@ -25,10 +25,10 @@ namespace System::Net {
   class AutoWebProxyScriptEngine : public ::Il2CppObject {
     public:
     // public System.Boolean GetProxies(System.Uri destination, out System.Collections.Generic.IList`1<System.String> proxyList)
-    // Offset: 0x14D5C5C
+    // Offset: 0x12AB484
     bool GetProxies(System::Uri* destination, System::Collections::Generic::IList_1<::Il2CppString*>*& proxyList);
     // public System.Boolean GetProxies(System.Uri destination, out System.Collections.Generic.IList`1<System.String> proxyList, ref System.Int32 syncStatus)
-    // Offset: 0x14D5C80
+    // Offset: 0x12AB4A8
     bool GetProxies(System::Uri* destination, System::Collections::Generic::IList_1<::Il2CppString*>*& proxyList, int& syncStatus);
   }; // System.Net.AutoWebProxyScriptEngine
 }

@@ -27,10 +27,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x18
     Org::BouncyCastle::Security::SecureRandom* random;
     // public Org.BouncyCastle.Security.SecureRandom get_Random()
-    // Offset: 0x10F2894
+    // Offset: 0xF4D524
     Org::BouncyCastle::Security::SecureRandom* get_Random();
     // public Org.BouncyCastle.Crypto.ICipherParameters get_Parameters()
-    // Offset: 0x10F289C
+    // Offset: 0xF4D52C
     Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
   }; // Org.BouncyCastle.Crypto.Parameters.ParametersWithRandom
 }

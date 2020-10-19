@@ -28,27 +28,27 @@ namespace System::Reflection {
   class MonoAssembly : public System::Reflection::RuntimeAssembly {
     public:
     // public override System.Type GetType(System.String name, System.Boolean throwOnError, System.Boolean ignoreCase)
-    // Offset: 0x18CFA10
+    // Offset: 0x1675E34
     // Implemented from: System.Reflection.Assembly
     // Base method: System.Type Assembly::GetType(System.String name, System.Boolean throwOnError, System.Boolean ignoreCase)
     System::Type* GetType(::Il2CppString* name, bool throwOnError, bool ignoreCase);
     // public override System.Reflection.Module GetModule(System.String name)
-    // Offset: 0x18CFAFC
+    // Offset: 0x1675F20
     // Implemented from: System.Reflection.Assembly
     // Base method: System.Reflection.Module Assembly::GetModule(System.String name)
     System::Reflection::Module* GetModule(::Il2CppString* name);
     // public override System.Reflection.AssemblyName[] GetReferencedAssemblies()
-    // Offset: 0x18CFC48
+    // Offset: 0x167606C
     // Implemented from: System.Reflection.Assembly
     // Base method: System.Reflection.AssemblyName[] Assembly::GetReferencedAssemblies()
     ::Array<System::Reflection::AssemblyName*>* GetReferencedAssemblies();
     // public override System.Reflection.Module[] GetModules(System.Boolean getResourceModules)
-    // Offset: 0x18CFC50
+    // Offset: 0x1676074
     // Implemented from: System.Reflection.Assembly
     // Base method: System.Reflection.Module[] Assembly::GetModules(System.Boolean getResourceModules)
     ::Array<System::Reflection::Module*>* GetModules(bool getResourceModules);
     // public System.Void .ctor()
-    // Offset: 0x18CFD80
+    // Offset: 0x16761A4
     // Implemented from: System.Reflection.RuntimeAssembly
     // Base method: System.Void RuntimeAssembly::.ctor()
     // Base method: System.Void Assembly::.ctor()

@@ -51,43 +51,43 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.XR.XRNode get_node()
-    // Offset: 0x21EE5F4
+    // Offset: 0x2240254
     UnityEngine::XR::XRNode get_node();
     // public System.Void set_node(UnityEngine.XR.XRNode value)
-    // Offset: 0x21EE5FC
+    // Offset: 0x224025C
     void set_node(UnityEngine::XR::XRNode value);
     // public System.Int32 get_nodeIdx()
-    // Offset: 0x21EE604
+    // Offset: 0x2240264
     int get_nodeIdx();
     // public System.Void set_nodeIdx(System.Int32 value)
-    // Offset: 0x21EE60C
+    // Offset: 0x224026C
     void set_nodeIdx(int value);
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0x21EE614
+    // Offset: 0x2240274
     UnityEngine::Vector3 get_position();
     // public UnityEngine.Quaternion get_rotation()
-    // Offset: 0x21EE638
+    // Offset: 0x2240298
     UnityEngine::Quaternion get_rotation();
     // public UnityEngine.Vector3 get_forward()
-    // Offset: 0x21EE65C
+    // Offset: 0x22402BC
     UnityEngine::Vector3 get_forward();
     // public System.Single get_triggerValue()
-    // Offset: 0x21EE680
+    // Offset: 0x22402E0
     float get_triggerValue();
     // public System.Single get_verticalAxisValue()
-    // Offset: 0x21EE824
+    // Offset: 0x2240484
     float get_verticalAxisValue();
     // public System.Single get_horizontalAxisValue()
-    // Offset: 0x21EE8BC
+    // Offset: 0x224051C
     float get_horizontalAxisValue();
     // public System.Boolean get_active()
-    // Offset: 0x21EE954
+    // Offset: 0x22405B4
     bool get_active();
     // protected System.Void Update()
-    // Offset: 0x21EE978
+    // Offset: 0x22405D8
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x21EED24
+    // Offset: 0x2240984
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

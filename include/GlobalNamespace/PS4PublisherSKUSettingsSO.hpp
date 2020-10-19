@@ -31,22 +31,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String get_skuName()
-    // Offset: 0xFD419C
+    // Offset: 0x1F8F708
     ::Il2CppString* get_skuName();
     // public System.String get_contentId()
-    // Offset: 0xFD41A4
+    // Offset: 0x1F8F710
     ::Il2CppString* get_contentId();
     // public System.Int32 get_parentalLockLevel()
-    // Offset: 0xFD41AC
+    // Offset: 0x1F8F718
     int get_parentalLockLevel();
     // public System.String get_npTitleFilenamePath()
-    // Offset: 0xFD41B4
+    // Offset: 0x1F8F720
     ::Il2CppString* get_npTitleFilenamePath();
     // public System.Int32 get_defaultAgeRestriction()
-    // Offset: 0xFD41BC
+    // Offset: 0x1F8F728
     int get_defaultAgeRestriction();
     // public System.Void .ctor()
-    // Offset: 0xFD41C4
+    // Offset: 0x1F8F730
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

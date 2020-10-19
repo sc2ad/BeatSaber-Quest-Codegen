@@ -59,79 +59,79 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set static field: static private readonly System.UInt32[] SBOX3_3033
     static void _set_SBOX3_3033(::Array<uint>* value);
     // static private System.UInt32 rightRotate(System.UInt32 x, System.Int32 s)
-    // Offset: 0x1BC27E4
+    // Offset: 0x19639D8
     static uint rightRotate(uint x, int s);
     // static private System.UInt32 leftRotate(System.UInt32 x, System.Int32 s)
-    // Offset: 0x1BC27F8
+    // Offset: 0x19639EC
     static uint leftRotate(uint x, int s);
     // static private System.Void roldq(System.Int32 rot, System.UInt32[] ki, System.Int32 ioff, System.UInt32[] ko, System.Int32 ooff)
-    // Offset: 0x1BC280C
+    // Offset: 0x1963A00
     static void roldq(int rot, ::Array<uint>* ki, int ioff, ::Array<uint>* ko, int ooff);
     // static private System.Void decroldq(System.Int32 rot, System.UInt32[] ki, System.Int32 ioff, System.UInt32[] ko, System.Int32 ooff)
-    // Offset: 0x1BC29DC
+    // Offset: 0x1963BD0
     static void decroldq(int rot, ::Array<uint>* ki, int ioff, ::Array<uint>* ko, int ooff);
     // static private System.Void roldqo32(System.Int32 rot, System.UInt32[] ki, System.Int32 ioff, System.UInt32[] ko, System.Int32 ooff)
-    // Offset: 0x1BC2BAC
+    // Offset: 0x1963DA0
     static void roldqo32(int rot, ::Array<uint>* ki, int ioff, ::Array<uint>* ko, int ooff);
     // static private System.Void decroldqo32(System.Int32 rot, System.UInt32[] ki, System.Int32 ioff, System.UInt32[] ko, System.Int32 ooff)
-    // Offset: 0x1BC2D80
+    // Offset: 0x1963F74
     static void decroldqo32(int rot, ::Array<uint>* ki, int ioff, ::Array<uint>* ko, int ooff);
     // static private System.UInt32 bytes2uint(System.Byte[] src, System.Int32 offset)
-    // Offset: 0x1BC2F54
+    // Offset: 0x1964148
     static uint bytes2uint(::Array<uint8_t>* src, int offset);
     // static private System.Void uint2bytes(System.UInt32 word, System.Byte[] dst, System.Int32 offset)
-    // Offset: 0x1BC2FC4
+    // Offset: 0x19641B8
     static void uint2bytes(uint word, ::Array<uint8_t>* dst, int offset);
     // static private System.Void camelliaF2(System.UInt32[] s, System.UInt32[] skey, System.Int32 keyoff)
-    // Offset: 0x1BC3018
+    // Offset: 0x196420C
     static void camelliaF2(::Array<uint>* s, ::Array<uint>* skey, int keyoff);
     // static private System.Void camelliaFLs(System.UInt32[] s, System.UInt32[] fkey, System.Int32 keyoff)
-    // Offset: 0x1BC3354
+    // Offset: 0x1964548
     static void camelliaFLs(::Array<uint>* s, ::Array<uint>* fkey, int keyoff);
     // private System.Void setKey(System.Boolean forEncryption, System.Byte[] key)
-    // Offset: 0x1BC34A8
+    // Offset: 0x196469C
     void setKey(bool forEncryption, ::Array<uint8_t>* key);
     // private System.Int32 processBlock128(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1BC46A8
+    // Offset: 0x196589C
     int processBlock128(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
     // private System.Int32 processBlock192or256(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1BC49E8
+    // Offset: 0x1965BDC
     int processBlock192or256(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
     // static private System.Void .cctor()
-    // Offset: 0x1BC5090
+    // Offset: 0x1966284
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1BC4D64
+    // Offset: 0x1965F58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CamelliaEngine* New_ctor();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1BC4E28
+    // Offset: 0x196601C
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Void IBlockCipher::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.String get_AlgorithmName()
-    // Offset: 0x1BC4F10
+    // Offset: 0x1966104
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.String IBlockCipher::get_AlgorithmName()
     ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x1BC4F58
+    // Offset: 0x196614C
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Boolean IBlockCipher::get_IsPartialBlockOkay()
     bool get_IsPartialBlockOkay();
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1BC4F60
+    // Offset: 0x1966154
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Int32 IBlockCipher::GetBlockSize()
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1BC4F68
+    // Offset: 0x196615C
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Int32 IBlockCipher::ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
     int ProcessBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1BC508C
+    // Offset: 0x1966280
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Void IBlockCipher::Reset()
     void Reset();

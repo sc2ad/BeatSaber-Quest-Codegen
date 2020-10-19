@@ -25,22 +25,22 @@ namespace Zenject {
     // Offset: 0x18
     System::Type* MarkedType;
     // public System.Void .ctor(System.Type markedType, System.Boolean instantiateFailed)
-    // Offset: 0x21EB104
+    // Offset: 0x1F3FD68
     static ValidationMarker* New_ctor(System::Type* markedType, bool instantiateFailed);
     // public System.Void .ctor(System.Type markedType)
-    // Offset: 0x21EB150
+    // Offset: 0x1F3FDB4
     static ValidationMarker* New_ctor(System::Type* markedType);
     // public System.Boolean get_InstantiateFailed()
-    // Offset: 0x21EB18C
+    // Offset: 0x1F3FDF0
     bool get_InstantiateFailed();
     // private System.Void set_InstantiateFailed(System.Boolean value)
-    // Offset: 0x21EB194
+    // Offset: 0x1F3FDF8
     void set_InstantiateFailed(bool value);
     // public System.Type get_MarkedType()
-    // Offset: 0x21EB1A0
+    // Offset: 0x1F3FE04
     System::Type* get_MarkedType();
     // private System.Void set_MarkedType(System.Type value)
-    // Offset: 0x21EB1A8
+    // Offset: 0x1F3FE0C
     void set_MarkedType(System::Type* value);
   }; // Zenject.ValidationMarker
 }

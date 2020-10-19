@@ -63,43 +63,43 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x48
     System::DateTime vtime;
     // System.Void .ctor(System.Security.Cryptography.X509Certificates.X509CertificateCollection store)
-    // Offset: 0x16C4E6C
+    // Offset: 0x147FA40
     static X509ChainPolicy* New_ctor(System::Security::Cryptography::X509Certificates::X509CertificateCollection* store);
     // public System.Security.Cryptography.X509Certificates.X509Certificate2Collection get_ExtraStore()
-    // Offset: 0x16C2C34
+    // Offset: 0x147D808
     System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_ExtraStore();
     // public System.Security.Cryptography.X509Certificates.X509RevocationFlag get_RevocationFlag()
-    // Offset: 0x16C4EA8
+    // Offset: 0x147FA7C
     System::Security::Cryptography::X509Certificates::X509RevocationFlag get_RevocationFlag();
     // public System.Void set_RevocationFlag(System.Security.Cryptography.X509Certificates.X509RevocationFlag value)
-    // Offset: 0x16C4EB0
+    // Offset: 0x147FA84
     void set_RevocationFlag(System::Security::Cryptography::X509Certificates::X509RevocationFlag value);
     // public System.Security.Cryptography.X509Certificates.X509RevocationMode get_RevocationMode()
-    // Offset: 0x16C4F44
+    // Offset: 0x147FB18
     System::Security::Cryptography::X509Certificates::X509RevocationMode get_RevocationMode();
     // public System.Void set_RevocationMode(System.Security.Cryptography.X509Certificates.X509RevocationMode value)
-    // Offset: 0x16C4F4C
+    // Offset: 0x147FB20
     void set_RevocationMode(System::Security::Cryptography::X509Certificates::X509RevocationMode value);
     // public System.Void set_UrlRetrievalTimeout(System.TimeSpan value)
-    // Offset: 0x16C4FE0
+    // Offset: 0x147FBB4
     void set_UrlRetrievalTimeout(System::TimeSpan value);
     // public System.Security.Cryptography.X509Certificates.X509VerificationFlags get_VerificationFlags()
-    // Offset: 0x16C4FE8
+    // Offset: 0x147FBBC
     System::Security::Cryptography::X509Certificates::X509VerificationFlags get_VerificationFlags();
     // public System.Void set_VerificationFlags(System.Security.Cryptography.X509Certificates.X509VerificationFlags value)
-    // Offset: 0x16C4FF0
+    // Offset: 0x147FBC4
     void set_VerificationFlags(System::Security::Cryptography::X509Certificates::X509VerificationFlags value);
     // public System.DateTime get_VerificationTime()
-    // Offset: 0x16C5084
+    // Offset: 0x147FC58
     System::DateTime get_VerificationTime();
     // public System.Void set_VerificationTime(System.DateTime value)
-    // Offset: 0x16C508C
+    // Offset: 0x147FC60
     void set_VerificationTime(System::DateTime value);
     // public System.Void Reset()
-    // Offset: 0x16C4D5C
+    // Offset: 0x147F930
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x16C169C
+    // Offset: 0x147C270
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static X509ChainPolicy* New_ctor();

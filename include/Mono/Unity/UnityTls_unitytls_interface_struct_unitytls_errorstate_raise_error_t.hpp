@@ -28,16 +28,16 @@ namespace Mono::Unity {
   class UnityTls::unitytls_interface_struct::unitytls_errorstate_raise_error_t : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1421E84
+    // Offset: 0x11F85C0
     static UnityTls::unitytls_interface_struct::unitytls_errorstate_raise_error_t* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(Mono.Unity.UnityTls/unitytls_errorstate* errorState, Mono.Unity.UnityTls/unitytls_error_code errorCode)
-    // Offset: 0x1421E98
+    // Offset: 0x11F85D4
     void Invoke(Mono::Unity::UnityTls::unitytls_errorstate* errorState, Mono::Unity::UnityTls::unitytls_error_code errorCode);
     // public System.IAsyncResult BeginInvoke(Mono.Unity.UnityTls/unitytls_errorstate* errorState, Mono.Unity.UnityTls/unitytls_error_code errorCode, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1422104
+    // Offset: 0x11F8840
     System::IAsyncResult* BeginInvoke(Mono::Unity::UnityTls::unitytls_errorstate* errorState, Mono::Unity::UnityTls::unitytls_error_code errorCode, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x14221A0
+    // Offset: 0x11F88DC
     void EndInvoke(System::IAsyncResult* result);
   }; // Mono.Unity.UnityTls/unitytls_interface_struct/unitytls_errorstate_raise_error_t
 }

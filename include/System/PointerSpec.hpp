@@ -33,20 +33,20 @@ namespace System {
       return pointer_level;
     }
     // System.Void .ctor(System.Int32 pointer_level)
-    // Offset: 0x1AB69E4
+    // Offset: 0x1856BD8
     static PointerSpec* New_ctor(int pointer_level);
     // public System.Type Resolve(System.Type type)
-    // Offset: 0x1AB69EC
+    // Offset: 0x1856BE0
     // Implemented from: System.ModifierSpec
     // Base method: System.Type ModifierSpec::Resolve(System.Type type)
     System::Type* Resolve(System::Type* type);
     // public System.Text.StringBuilder Append(System.Text.StringBuilder sb)
-    // Offset: 0x1AB6A44
+    // Offset: 0x1856C38
     // Implemented from: System.ModifierSpec
     // Base method: System.Text.StringBuilder ModifierSpec::Append(System.Text.StringBuilder sb)
     System::Text::StringBuilder* Append(System::Text::StringBuilder* sb);
     // public override System.String ToString()
-    // Offset: 0x1AB6A6C
+    // Offset: 0x1856C60
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

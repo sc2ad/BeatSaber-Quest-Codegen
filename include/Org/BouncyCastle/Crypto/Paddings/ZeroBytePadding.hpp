@@ -21,22 +21,22 @@ namespace Org::BouncyCastle::Crypto::Paddings {
   class ZeroBytePadding : public ::Il2CppObject, public Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding {
     public:
     // public System.Void Init(Org.BouncyCastle.Security.SecureRandom random)
-    // Offset: 0x10EBFC4
+    // Offset: 0xF46C54
     // Implemented from: Org.BouncyCastle.Crypto.Paddings.IBlockCipherPadding
     // Base method: System.Void IBlockCipherPadding::Init(Org.BouncyCastle.Security.SecureRandom random)
     void Init(Org::BouncyCastle::Security::SecureRandom* random);
     // public System.Int32 AddPadding(System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x10EBFC8
+    // Offset: 0xF46C58
     // Implemented from: Org.BouncyCastle.Crypto.Paddings.IBlockCipherPadding
     // Base method: System.Int32 IBlockCipherPadding::AddPadding(System.Byte[] input, System.Int32 inOff)
     int AddPadding(::Array<uint8_t>* input, int inOff);
     // public System.Int32 PadCount(System.Byte[] input)
-    // Offset: 0x10EC024
+    // Offset: 0xF46CB4
     // Implemented from: Org.BouncyCastle.Crypto.Paddings.IBlockCipherPadding
     // Base method: System.Int32 IBlockCipherPadding::PadCount(System.Byte[] input)
     int PadCount(::Array<uint8_t>* input);
     // public System.Void .ctor()
-    // Offset: 0x10EC084
+    // Offset: 0xF46D14
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ZeroBytePadding* New_ctor();

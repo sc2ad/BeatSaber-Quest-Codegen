@@ -19,10 +19,10 @@ namespace GlobalNamespace {
   class MainSettingsBestGraphicsValues : public ::Il2CppObject {
     public:
     // static public System.Void ApplyValues(MainSettingsModelSO mainSettingsModel)
-    // Offset: 0xED5DF0
+    // Offset: 0x1FBF9B8
     static void ApplyValues(GlobalNamespace::MainSettingsModelSO* mainSettingsModel);
     // public System.Void .ctor()
-    // Offset: 0xED5F34
+    // Offset: 0x1FBFAFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MainSettingsBestGraphicsValues* New_ctor();

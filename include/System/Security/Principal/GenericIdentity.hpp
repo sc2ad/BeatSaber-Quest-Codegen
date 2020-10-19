@@ -38,42 +38,42 @@ namespace System::Security::Principal {
     // Offset: 0x80
     ::Il2CppString* m_type;
     // public System.Void .ctor(System.String name, System.String type)
-    // Offset: 0x143612C
+    // Offset: 0x120C868
     static GenericIdentity* New_ctor(::Il2CppString* name, ::Il2CppString* type);
     // protected System.Void .ctor(System.Security.Principal.GenericIdentity identity)
-    // Offset: 0x14362C8
+    // Offset: 0x120CA04
     static GenericIdentity* New_ctor(System::Security::Principal::GenericIdentity* identity);
     // private System.Void AddNameClaim()
-    // Offset: 0x143620C
+    // Offset: 0x120C948
     void AddNameClaim();
     // private System.Void .ctor()
-    // Offset: 0x14362C0
+    // Offset: 0x120C9FC
     // Implemented from: System.Security.Claims.ClaimsIdentity
     // Base method: System.Void ClaimsIdentity::.ctor()
     // Base method: System.Void Object::.ctor()
     static GenericIdentity* New_ctor();
     // public override System.Security.Claims.ClaimsIdentity Clone()
-    // Offset: 0x1436314
+    // Offset: 0x120CA50
     // Implemented from: System.Security.Claims.ClaimsIdentity
     // Base method: System.Security.Claims.ClaimsIdentity ClaimsIdentity::Clone()
     System::Security::Claims::ClaimsIdentity* Clone();
     // public override System.Collections.Generic.IEnumerable`1<System.Security.Claims.Claim> get_Claims()
-    // Offset: 0x1436374
+    // Offset: 0x120CAB0
     // Implemented from: System.Security.Claims.ClaimsIdentity
     // Base method: System.Collections.Generic.IEnumerable`1<System.Security.Claims.Claim> ClaimsIdentity::get_Claims()
     System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim*>* get_Claims();
     // public override System.String get_Name()
-    // Offset: 0x143637C
+    // Offset: 0x120CAB8
     // Implemented from: System.Security.Claims.ClaimsIdentity
     // Base method: System.String ClaimsIdentity::get_Name()
     ::Il2CppString* get_Name();
     // public override System.String get_AuthenticationType()
-    // Offset: 0x1436384
+    // Offset: 0x120CAC0
     // Implemented from: System.Security.Claims.ClaimsIdentity
     // Base method: System.String ClaimsIdentity::get_AuthenticationType()
     ::Il2CppString* get_AuthenticationType();
     // private System.Void OnDeserializedMethod(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x143638C
+    // Offset: 0x120CAC8
     // Implemented from: System.Security.Claims.ClaimsIdentity
     // Base method: System.Void ClaimsIdentity::OnDeserializedMethod(System.Runtime.Serialization.StreamingContext context)
     void OnDeserializedMethod(System::Runtime::Serialization::StreamingContext context);

@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRExtendedDisplay::_GetEyeOutputViewport : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1E360A0
+    // Offset: 0x1B88D04
     static IVRExtendedDisplay::_GetEyeOutputViewport* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(Valve.VR.EVREye eEye, ref System.UInt32 pnX, ref System.UInt32 pnY, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)
-    // Offset: 0x1E360B4
+    // Offset: 0x1B88D18
     void Invoke(Valve::VR::EVREye eEye, uint& pnX, uint& pnY, uint& pnWidth, uint& pnHeight);
     // public System.IAsyncResult BeginInvoke(Valve.VR.EVREye eEye, ref System.UInt32 pnX, ref System.UInt32 pnY, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1E36390
+    // Offset: 0x1B88FF4
     System::IAsyncResult* BeginInvoke(Valve::VR::EVREye eEye, uint& pnX, uint& pnY, uint& pnWidth, uint& pnHeight, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(ref System.UInt32 pnX, ref System.UInt32 pnY, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight, System.IAsyncResult result)
-    // Offset: 0x1E36494
+    // Offset: 0x1B890F8
     void EndInvoke(uint& pnX, uint& pnY, uint& pnWidth, uint& pnHeight, System::IAsyncResult* result);
   }; // Valve.VR.IVRExtendedDisplay/_GetEyeOutputViewport
 }

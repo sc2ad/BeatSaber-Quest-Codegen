@@ -21,16 +21,16 @@ namespace UnityEngine {
   class JsonUtility : public ::Il2CppObject {
     public:
     // static private System.String ToJsonInternal(System.Object obj, System.Boolean prettyPrint)
-    // Offset: 0x222D7B0
+    // Offset: 0x1F7D4B8
     static ::Il2CppString* ToJsonInternal(::Il2CppObject* obj, bool prettyPrint);
     // static private System.Object FromJsonInternal(System.String json, System.Object objectToOverwrite, System.Type type)
-    // Offset: 0x222D800
+    // Offset: 0x1F7D508
     static ::Il2CppObject* FromJsonInternal(::Il2CppString* json, ::Il2CppObject* objectToOverwrite, System::Type* type);
     // static public System.String ToJson(System.Object obj)
-    // Offset: 0x222D858
+    // Offset: 0x1F7D560
     static ::Il2CppString* ToJson(::Il2CppObject* obj);
     // static public System.String ToJson(System.Object obj, System.Boolean prettyPrint)
-    // Offset: 0x222D860
+    // Offset: 0x1F7D568
     static ::Il2CppString* ToJson(::Il2CppObject* obj, bool prettyPrint);
     // static public T FromJson(System.String json)
     // Offset: 0xFFFFFFFF
@@ -39,7 +39,7 @@ namespace UnityEngine {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("UnityEngine", "JsonUtility", "FromJson", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, json)));
     }
     // static public System.Object FromJson(System.String json, System.Type type)
-    // Offset: 0x222D9B4
+    // Offset: 0x1F7D6BC
     static ::Il2CppObject* FromJson(::Il2CppString* json, System::Type* type);
   }; // UnityEngine.JsonUtility
 }

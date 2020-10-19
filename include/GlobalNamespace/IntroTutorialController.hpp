@@ -84,40 +84,40 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_introTutorialDidFinishEvent(System.Action value)
-    // Offset: 0x1019FC8
+    // Offset: 0x20AF688
     void add_introTutorialDidFinishEvent(System::Action* value);
     // public System.Void remove_introTutorialDidFinishEvent(System.Action value)
-    // Offset: 0x101A06C
+    // Offset: 0x20AF72C
     void remove_introTutorialDidFinishEvent(System::Action* value);
     // protected System.Void Start()
-    // Offset: 0x101A110
+    // Offset: 0x20AF7D0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x101A294
+    // Offset: 0x20AF954
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x101A434
+    // Offset: 0x20AFAF4
     void Update();
     // private System.Void CleanUp()
-    // Offset: 0x101A298
+    // Offset: 0x20AF958
     void CleanUp();
     // private System.Void HandleGameDidPause()
-    // Offset: 0x101A584
+    // Offset: 0x20AFC44
     void HandleGameDidPause();
     // private System.Void HandlegameDidResume()
-    // Offset: 0x101A600
+    // Offset: 0x20AFCC0
     void HandlegameDidResume();
     // private System.Void ShowFinishAnimation()
-    // Offset: 0x101A4F8
+    // Offset: 0x20AFBB8
     void ShowFinishAnimation();
     // private System.Collections.IEnumerator ShowFinishAnimationCoroutine()
-    // Offset: 0x101A644
+    // Offset: 0x20AFD04
     System::Collections::IEnumerator* ShowFinishAnimationCoroutine();
     // private System.Void SetFinishAnimationParams(System.Single progress)
-    // Offset: 0x101A6EC
+    // Offset: 0x20AFDAC
     void SetFinishAnimationParams(float progress);
     // public System.Void .ctor()
-    // Offset: 0x101A794
+    // Offset: 0x20AFE54
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

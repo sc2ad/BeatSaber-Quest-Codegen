@@ -20,10 +20,10 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x18
     System::Diagnostics::Tracing::ManifestBuilder::$$c__DisplayClass22_0* CS$$$8__locals1;
     // System.Void <TranslateToManifestConvention>b__0(System.Char ch, System.String escape)
-    // Offset: 0x124CC44
+    // Offset: 0x10474E0
     void $TranslateToManifestConvention$b__0(::Il2CppChar ch, ::Il2CppString* escape);
     // public System.Void .ctor()
-    // Offset: 0x124CB00
+    // Offset: 0x104739C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ManifestBuilder::$$c__DisplayClass22_1* New_ctor();

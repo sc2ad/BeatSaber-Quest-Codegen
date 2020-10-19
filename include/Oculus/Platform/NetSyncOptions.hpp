@@ -28,24 +28,24 @@ namespace Oculus::Platform {
       return Handle;
     }
     // public System.Void SetVoipGroup(System.String value)
-    // Offset: 0x136C970
+    // Offset: 0x11420AC
     void SetVoipGroup(::Il2CppString* value);
     // public System.Void SetVoipStreamDefault(Oculus.Platform.NetSyncVoipStreamMode value)
-    // Offset: 0x136C9EC
+    // Offset: 0x1142128
     void SetVoipStreamDefault(Oculus::Platform::NetSyncVoipStreamMode value);
     // public System.Void SetZoneId(System.String value)
-    // Offset: 0x136CA68
+    // Offset: 0x11421A4
     void SetZoneId(::Il2CppString* value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.NetSyncOptions options)
-    // Offset: 0x136CAE4
+    // Offset: 0x1142220
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x136C8F8
+    // Offset: 0x1142034
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NetSyncOptions* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x136CB34
+    // Offset: 0x1142270
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

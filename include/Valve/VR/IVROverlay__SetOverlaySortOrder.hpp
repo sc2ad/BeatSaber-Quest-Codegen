@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVROverlay::_SetOverlaySortOrder : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F49990
+    // Offset: 0x1C9B5F4
     static IVROverlay::_SetOverlaySortOrder* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, System.UInt32 unSortOrder)
-    // Offset: 0x1F499A4
+    // Offset: 0x1C9B608
     Valve::VR::EVROverlayError Invoke(uint64_t ulOverlayHandle, uint unSortOrder);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.UInt32 unSortOrder, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F49C28
+    // Offset: 0x1C9B88C
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint unSortOrder, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1F49CD4
+    // Offset: 0x1C9B938
     Valve::VR::EVROverlayError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_SetOverlaySortOrder
 }

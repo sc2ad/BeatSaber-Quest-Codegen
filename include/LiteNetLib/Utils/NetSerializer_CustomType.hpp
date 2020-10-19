@@ -22,7 +22,7 @@ namespace LiteNetLib::Utils {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<LiteNetLib::Utils::NetSerializer::FastCall_1<T>*>(this, "Get", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // protected System.Void .ctor()
-    // Offset: 0x2214C08
+    // Offset: 0x1F64618
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NetSerializer::CustomType* New_ctor();

@@ -23,16 +23,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::Array<GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*>* levelProductsData;
     // public System.UInt32 get_bundleId()
-    // Offset: 0xF2C990
+    // Offset: 0x1F93C04
     uint get_bundleId();
     // public System.String get_levelPackId()
-    // Offset: 0xF2C998
+    // Offset: 0x1F93C0C
     ::Il2CppString* get_levelPackId();
     // public SteamLevelProductsModelSO/LevelProductData[] get_levelProductsData()
-    // Offset: 0xF2C9A0
+    // Offset: 0x1F93C14
     ::Array<GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*>* get_levelProductsData();
     // public System.Void .ctor()
-    // Offset: 0xF2C9A8
+    // Offset: 0x1F93C1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SteamLevelProductsModelSO::LevelPackProductData* New_ctor();

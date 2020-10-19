@@ -14,10 +14,10 @@ namespace System::IO {
   class FileSystemEnumerableHelpers : public ::Il2CppObject {
     public:
     // static System.Boolean IsDir(Microsoft.Win32.Win32Native/WIN32_FIND_DATA data)
-    // Offset: 0x1699F20
+    // Offset: 0x1453AF4
     static bool IsDir(Microsoft::Win32::Win32Native::WIN32_FIND_DATA* data);
     // static System.Boolean IsFile(Microsoft.Win32.Win32Native/WIN32_FIND_DATA data)
-    // Offset: 0x1699FBC
+    // Offset: 0x1453B90
     static bool IsFile(Microsoft::Win32::Win32Native::WIN32_FIND_DATA* data);
   }; // System.IO.FileSystemEnumerableHelpers
 }

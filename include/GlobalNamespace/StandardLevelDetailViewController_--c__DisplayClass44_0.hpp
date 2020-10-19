@@ -48,19 +48,19 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::StandardLevelDetailViewController* $$4__this;
     // System.Void <DidActivate>b__2()
-    // Offset: 0xEF9528
+    // Offset: 0x1FFA4AC
     void $DidActivate$b__2();
     // System.Void <DidActivate>b__3()
-    // Offset: 0xEF9558
+    // Offset: 0x1FFA4DC
     void $DidActivate$b__3();
     // System.Void <DidActivate>b__6()
-    // Offset: 0xEF9588
+    // Offset: 0x1FFA50C
     void $DidActivate$b__6();
     // System.Void <DidActivate>b__7()
-    // Offset: 0xEF95D4
+    // Offset: 0x1FFA558
     void $DidActivate$b__7();
     // public System.Void .ctor()
-    // Offset: 0xEF85A4
+    // Offset: 0x1FF9528
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static StandardLevelDetailViewController::$$c__DisplayClass44_0* New_ctor();

@@ -27,22 +27,22 @@ namespace GlobalNamespace {
     // Offset: 0x80
     bool hidden;
     // public override System.Void set_hide(System.Boolean value)
-    // Offset: 0xFCD894
+    // Offset: 0x20623CC
     // Implemented from: NoteController
     // Base method: System.Void NoteController::set_hide(System.Boolean value)
     void set_hide(bool value);
     // public override System.Boolean get_hide()
-    // Offset: 0xFCD8D8
+    // Offset: 0x2062410
     // Implemented from: NoteController
     // Base method: System.Boolean NoteController::get_hide()
     bool get_hide();
     // public override System.Void set_pause(System.Boolean value)
-    // Offset: 0xFCD8E0
+    // Offset: 0x2062418
     // Implemented from: NoteController
     // Base method: System.Void NoteController::set_pause(System.Boolean value)
     void set_pause(bool value);
     // public System.Void .ctor()
-    // Offset: 0xFCAF48
+    // Offset: 0x205FA80
     // Implemented from: NoteController
     // Base method: System.Void NoteController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

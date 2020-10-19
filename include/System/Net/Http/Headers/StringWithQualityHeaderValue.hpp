@@ -37,45 +37,45 @@ namespace System::Net::Http::Headers {
     // Offset: 0x20
     ::Il2CppString* Value;
     // public System.Nullable`1<System.Double> get_Quality()
-    // Offset: 0x13A9CDC
+    // Offset: 0x117F418
     System::Nullable_1<double> get_Quality();
     // private System.Void set_Quality(System.Nullable`1<System.Double> value)
-    // Offset: 0x13A9CE8
+    // Offset: 0x117F424
     void set_Quality(System::Nullable_1<double> value);
     // public System.String get_Value()
-    // Offset: 0x13A9CF0
+    // Offset: 0x117F42C
     ::Il2CppString* get_Value();
     // private System.Void set_Value(System.String value)
-    // Offset: 0x13A9CF8
+    // Offset: 0x117F434
     void set_Value(::Il2CppString* value);
     // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.StringWithQualityHeaderValue> result)
-    // Offset: 0x13A9E78
+    // Offset: 0x117F5B4
     static bool TryParse(::Il2CppString* input, int minimalCount, System::Collections::Generic::List_1<System::Net::Http::Headers::StringWithQualityHeaderValue*>*& result);
     // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.StringWithQualityHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x13A9F18
+    // Offset: 0x117F654
     static bool TryParseElement(System::Net::Http::Headers::Lexer* lexer, System::Net::Http::Headers::StringWithQualityHeaderValue*& parsedValue, System::Net::Http::Headers::Token& t);
     // private System.Void .ctor()
-    // Offset: 0x13A9CD4
+    // Offset: 0x117F410
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static StringWithQualityHeaderValue* New_ctor();
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x13A9D00
+    // Offset: 0x117F43C
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* System_ICloneable_Clone();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x13A9D08
+    // Offset: 0x117F444
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x13A9DE4
+    // Offset: 0x117F520
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x13AA19C
+    // Offset: 0x117F8D8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

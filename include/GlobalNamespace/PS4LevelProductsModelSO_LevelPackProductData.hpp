@@ -29,22 +29,22 @@ namespace GlobalNamespace {
     // Offset: 0x30
     ::Array<GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*>* levelProductsData;
     // public System.String get_productLabel()
-    // Offset: 0xFD3C60
+    // Offset: 0x1F8F1F0
     ::Il2CppString* get_productLabel();
     // public System.String get_categoryLabel()
-    // Offset: 0xFD3C68
+    // Offset: 0x1F8F1F8
     ::Il2CppString* get_categoryLabel();
     // public System.String get_levelPackId()
-    // Offset: 0xFD3C70
+    // Offset: 0x1F8F200
     ::Il2CppString* get_levelPackId();
     // public System.Single get_packLevelPriceDiscountMul()
-    // Offset: 0xFD3C78
+    // Offset: 0x1F8F208
     float get_packLevelPriceDiscountMul();
     // public PS4LevelProductsModelSO/LevelProductData[] get_levelProductsData()
-    // Offset: 0xFD3C80
+    // Offset: 0x1F8F210
     ::Array<GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*>* get_levelProductsData();
     // public System.Void .ctor()
-    // Offset: 0xFD3C88
+    // Offset: 0x1F8F218
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PS4LevelProductsModelSO::LevelPackProductData* New_ctor();

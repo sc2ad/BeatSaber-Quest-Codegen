@@ -53,37 +53,37 @@ namespace UnityEngine::Timeline {
     // Set static field: static private System.Single kUnsetTime
     static void _set_kUnsetTime(float value);
     // static public UnityEngine.Playables.ScriptPlayable`1<UnityEngine.Timeline.ParticleControlPlayable> Create(UnityEngine.Playables.PlayableGraph graph, UnityEngine.ParticleSystem component, System.UInt32 randomSeed)
-    // Offset: 0x161C198
+    // Offset: 0x13F29C0
     static UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::ParticleControlPlayable*> Create(UnityEngine::Playables::PlayableGraph graph, UnityEngine::ParticleSystem* component, uint randomSeed);
     // public UnityEngine.ParticleSystem get_particleSystem()
-    // Offset: 0x1621664
+    // Offset: 0x13F7E8C
     UnityEngine::ParticleSystem* get_particleSystem();
     // private System.Void set_particleSystem(UnityEngine.ParticleSystem value)
-    // Offset: 0x162166C
+    // Offset: 0x13F7E94
     void set_particleSystem(UnityEngine::ParticleSystem* value);
     // public System.Void Initialize(UnityEngine.ParticleSystem ps, System.UInt32 randomSeed)
-    // Offset: 0x16215C8
+    // Offset: 0x13F7DF0
     void Initialize(UnityEngine::ParticleSystem* ps, uint randomSeed);
     // private System.Void SetRandomSeed()
-    // Offset: 0x1621674
+    // Offset: 0x13F7E9C
     void SetRandomSeed();
     // public override System.Void PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData data)
-    // Offset: 0x162177C
+    // Offset: 0x13F7FA4
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData data)
     void PrepareFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData data);
     // public override System.Void OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x1621AE8
+    // Offset: 0x13F8310
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void OnBehaviourPlay(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public override System.Void OnBehaviourPause(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x1621AF4
+    // Offset: 0x13F831C
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnBehaviourPause(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void OnBehaviourPause(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public System.Void .ctor()
-    // Offset: 0x1621B00
+    // Offset: 0x13F8328
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()

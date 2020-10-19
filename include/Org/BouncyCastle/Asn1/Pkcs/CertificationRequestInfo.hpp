@@ -46,16 +46,16 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Offset: 0x28
     Org::BouncyCastle::Asn1::Asn1Set* attributes;
     // static public Org.BouncyCastle.Asn1.Pkcs.CertificationRequestInfo GetInstance(System.Object obj)
-    // Offset: 0x1630924
+    // Offset: 0x140714C
     static Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1630B10
+    // Offset: 0x1407338
     static CertificationRequestInfo* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // static private System.Void ValidateAttributes(Org.BouncyCastle.Asn1.Asn1Set attributes)
-    // Offset: 0x1630D7C
+    // Offset: 0x14075A4
     static void ValidateAttributes(Org::BouncyCastle::Asn1::Asn1Set* attributes);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x16310A8
+    // Offset: 0x14078D0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

@@ -28,16 +28,16 @@ namespace RootMotion {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void OnTriggerEnter(UnityEngine.Collider collider)
-    // Offset: 0x18FA8B0
+    // Offset: 0x16A0CD4
     void OnTriggerEnter(UnityEngine::Collider* collider);
     // private System.Void OnTriggerStay(UnityEngine.Collider collider)
-    // Offset: 0x18FA968
+    // Offset: 0x16A0D8C
     void OnTriggerStay(UnityEngine::Collider* collider);
     // private System.Void OnTriggerExit(UnityEngine.Collider collider)
-    // Offset: 0x18FAA20
+    // Offset: 0x16A0E44
     void OnTriggerExit(UnityEngine::Collider* collider);
     // public System.Void .ctor()
-    // Offset: 0x18FAAD8
+    // Offset: 0x16A0EFC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

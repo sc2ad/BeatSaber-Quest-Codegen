@@ -21,17 +21,17 @@ namespace GlobalNamespace {
   class SimpleOpenVrOpenVrHaptics : public ::Il2CppObject, public GlobalNamespace::IOpenVRHaptics {
     public:
     // public System.Void TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single duration, System.Single strength, System.Single frequency)
-    // Offset: 0x10A55B4
+    // Offset: 0x211C4F8
     // Implemented from: IOpenVRHaptics
     // Base method: System.Void IOpenVRHaptics::TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single duration, System.Single strength, System.Single frequency)
     void TriggerHapticPulse(UnityEngine::XR::XRNode node, float duration, float strength, float frequency);
     // public System.Void Destroy()
-    // Offset: 0x10A56BC
+    // Offset: 0x211C600
     // Implemented from: IOpenVRHaptics
     // Base method: System.Void IOpenVRHaptics::Destroy()
     void Destroy();
     // public System.Void .ctor()
-    // Offset: 0x10A56C0
+    // Offset: 0x211C604
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SimpleOpenVrOpenVrHaptics* New_ctor();

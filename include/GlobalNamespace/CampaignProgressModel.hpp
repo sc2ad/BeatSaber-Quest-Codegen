@@ -44,40 +44,40 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Int32 get_numberOfClearedMissions()
-    // Offset: 0xF1C958
+    // Offset: 0x1FAFFB4
     int get_numberOfClearedMissions();
     // protected System.Void Awake()
-    // Offset: 0xF1CAC0
+    // Offset: 0x1FB011C
     void Awake();
     // public System.Boolean IsMissionRegistered(System.String missionId)
-    // Offset: 0xF1CB30
+    // Offset: 0x1FB018C
     bool IsMissionRegistered(::Il2CppString* missionId);
     // public System.Void RegisterMissionId(System.String missionId)
-    // Offset: 0xF1CB98
+    // Offset: 0x1FB01F4
     void RegisterMissionId(::Il2CppString* missionId);
     // public System.Boolean IsMissionCleared(System.String missionId)
-    // Offset: 0xF1CC0C
+    // Offset: 0x1FB0268
     bool IsMissionCleared(::Il2CppString* missionId);
     // public System.Boolean IsMissionFinal(System.String missionId)
-    // Offset: 0xF1CC40
+    // Offset: 0x1FB029C
     bool IsMissionFinal(::Il2CppString* missionId);
     // public System.Void SetFinalMissionId(System.String missionId)
-    // Offset: 0xF1CC4C
+    // Offset: 0x1FB02A8
     void SetFinalMissionId(::Il2CppString* missionId);
     // public System.Boolean WillFinishGameAfterThisMission(System.String missionId)
-    // Offset: 0xF1C6D0
+    // Offset: 0x1FAFD2C
     bool WillFinishGameAfterThisMission(::Il2CppString* missionId);
     // public System.Void SetMissionCleared(System.String missionId)
-    // Offset: 0xF1C71C
+    // Offset: 0x1FAFD78
     void SetMissionCleared(::Il2CppString* missionId);
     // public System.Void __SetMissionCleared(System.String missionId, System.Boolean cleared)
-    // Offset: 0xF1CC54
+    // Offset: 0x1FB02B0
     void __SetMissionCleared(::Il2CppString* missionId, bool cleared);
     // private System.Int32 UpdateNumberOfClearedMissions()
-    // Offset: 0xF1C98C
+    // Offset: 0x1FAFFE8
     int UpdateNumberOfClearedMissions();
     // public System.Void .ctor()
-    // Offset: 0xF1CCA4
+    // Offset: 0x1FB0300
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

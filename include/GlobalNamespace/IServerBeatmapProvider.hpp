@@ -33,12 +33,9 @@ namespace GlobalNamespace {
     // public System.Boolean VerifyBeatmapForConfiguration(BeatmapIdentifierNetSerializable beatmapId, GameplayServerConfiguration configuration)
     // Offset: 0xFFFFFFFF
     bool VerifyBeatmapForConfiguration(GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, GlobalNamespace::GameplayServerConfiguration configuration);
-    // public BeatmapIdentifierNetSerializable GetRandomBeatmapForConfigurationAndOwnedSongPacks(GameplayServerConfiguration configuration, System.Collections.Generic.Dictionary`2<System.String,SongPackMask> ownedSongPacks)
+    // public BeatmapIdentifierNetSerializable SelectBeatmapFromSuggestionsConfigurationAndOwnedSongPacks(System.Collections.Generic.Dictionary`2<System.String,BeatmapIdentifierNetSerializable> beatmapsSuggestedByPlayers, GameplayServerConfiguration configuration, System.Collections.Generic.Dictionary`2<System.String,SongPackMask> playerOwnedSongPacks)
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::BeatmapIdentifierNetSerializable* GetRandomBeatmapForConfigurationAndOwnedSongPacks(GlobalNamespace::GameplayServerConfiguration configuration, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SongPackMask>* ownedSongPacks);
-    // public BeatmapIdentifierNetSerializable GetRandomBeatmapForConfiguration(GameplayServerConfiguration configuration)
-    // Offset: 0xFFFFFFFF
-    GlobalNamespace::BeatmapIdentifierNetSerializable* GetRandomBeatmapForConfiguration(GlobalNamespace::GameplayServerConfiguration configuration);
+    GlobalNamespace::BeatmapIdentifierNetSerializable* SelectBeatmapFromSuggestionsConfigurationAndOwnedSongPacks(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>* beatmapsSuggestedByPlayers, GlobalNamespace::GameplayServerConfiguration configuration, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SongPackMask>* playerOwnedSongPacks);
   }; // IServerBeatmapProvider
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

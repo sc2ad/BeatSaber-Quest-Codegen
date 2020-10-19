@@ -31,13 +31,13 @@ namespace Tweening {
   class FloatTween : public Tweening::Tween_1<float> {
     public:
     // public System.Void .ctor(System.Single fromValue, System.Single toValue, System.Action`1<System.Single> onUpdate, System.Single duration, Tweening.EaseType easeType, System.Single delay)
-    // Offset: 0xF3C358
+    // Offset: 0x1FA2888
     static FloatTween* New_ctor(float fromValue, float toValue, System::Action_1<float>* onUpdate, float duration, Tweening::EaseType easeType, float delay);
     // public System.Void .ctor(System.Single fromValue, System.Single toValue, System.Action`1<System.Single> onUpdate, System.Single duration, UnityEngine.AnimationCurve animationCurve, System.Single delay)
-    // Offset: 0xF3C3F0
+    // Offset: 0x1FA2920
     static FloatTween* New_ctor(float fromValue, float toValue, System::Action_1<float>* onUpdate, float duration, UnityEngine::AnimationCurve* animationCurve, float delay);
     // public System.Single GetValue(System.Single t)
-    // Offset: 0xF3C488
+    // Offset: 0x1FA29B8
     float GetValue(float t);
   }; // Tweening.FloatTween
 }

@@ -28,51 +28,51 @@ namespace System::Net::Http::Headers {
     // Offset: 0x38
     System::Nullable_1<int64_t> To;
     // public System.Nullable`1<System.Int64> get_From()
-    // Offset: 0x139F8C4
+    // Offset: 0x1175000
     System::Nullable_1<int64_t> get_From();
     // private System.Void set_From(System.Nullable`1<System.Int64> value)
-    // Offset: 0x139F8D0
+    // Offset: 0x117500C
     void set_From(System::Nullable_1<int64_t> value);
     // public System.Nullable`1<System.Int64> get_Length()
-    // Offset: 0x139F8D8
+    // Offset: 0x1175014
     System::Nullable_1<int64_t> get_Length();
     // private System.Void set_Length(System.Nullable`1<System.Int64> value)
-    // Offset: 0x139F8E4
+    // Offset: 0x1175020
     void set_Length(System::Nullable_1<int64_t> value);
     // public System.Nullable`1<System.Int64> get_To()
-    // Offset: 0x139F8EC
+    // Offset: 0x1175028
     System::Nullable_1<int64_t> get_To();
     // private System.Void set_To(System.Nullable`1<System.Int64> value)
-    // Offset: 0x139F8F8
+    // Offset: 0x1175034
     void set_To(System::Nullable_1<int64_t> value);
     // public System.String get_Unit()
-    // Offset: 0x139F900
+    // Offset: 0x117503C
     ::Il2CppString* get_Unit();
     // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.ContentRangeHeaderValue parsedValue)
-    // Offset: 0x139FB50
+    // Offset: 0x117528C
     static bool TryParse(::Il2CppString* input, System::Net::Http::Headers::ContentRangeHeaderValue*& parsedValue);
     // private System.Void .ctor()
-    // Offset: 0x139F864
+    // Offset: 0x1174FA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ContentRangeHeaderValue* New_ctor();
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x139F908
+    // Offset: 0x1175044
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* System_ICloneable_Clone();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x139F910
+    // Offset: 0x117504C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x139FA54
+    // Offset: 0x1175190
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x13A00A4
+    // Offset: 0x11757E0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

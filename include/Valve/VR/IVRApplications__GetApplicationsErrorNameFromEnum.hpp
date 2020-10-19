@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRApplications::_GetApplicationsErrorNameFromEnum : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x15381B8
+    // Offset: 0x130E9E0
     static IVRApplications::_GetApplicationsErrorNameFromEnum* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.IntPtr Invoke(Valve.VR.EVRApplicationError error)
-    // Offset: 0x152CD34
+    // Offset: 0x130355C
     System::IntPtr Invoke(Valve::VR::EVRApplicationError error);
     // public System.IAsyncResult BeginInvoke(Valve.VR.EVRApplicationError error, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x15381CC
+    // Offset: 0x130E9F4
     System::IAsyncResult* BeginInvoke(Valve::VR::EVRApplicationError error, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.IntPtr EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1538258
+    // Offset: 0x130EA80
     System::IntPtr EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRApplications/_GetApplicationsErrorNameFromEnum
 }

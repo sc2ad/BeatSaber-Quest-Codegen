@@ -38,16 +38,16 @@ namespace OVR::OpenVR {
   class IVRScreenshots::_GetScreenshotPropertyFilename : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F38FC0
+    // Offset: 0x1C8AC24
     static IVRScreenshots::_GetScreenshotPropertyFilename* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.UInt32 screenshotHandle, OVR.OpenVR.EVRScreenshotPropertyFilenames filenameType, System.Text.StringBuilder pchFilename, System.UInt32 cchFilename, ref OVR.OpenVR.EVRScreenshotError pError)
-    // Offset: 0x1F38FD4
+    // Offset: 0x1C8AC38
     uint Invoke(uint screenshotHandle, OVR::OpenVR::EVRScreenshotPropertyFilenames filenameType, System::Text::StringBuilder* pchFilename, uint cchFilename, OVR::OpenVR::EVRScreenshotError& pError);
     // public System.IAsyncResult BeginInvoke(System.UInt32 screenshotHandle, OVR.OpenVR.EVRScreenshotPropertyFilenames filenameType, System.Text.StringBuilder pchFilename, System.UInt32 cchFilename, ref OVR.OpenVR.EVRScreenshotError pError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F392B8
+    // Offset: 0x1C8AF1C
     System::IAsyncResult* BeginInvoke(uint screenshotHandle, OVR::OpenVR::EVRScreenshotPropertyFilenames filenameType, System::Text::StringBuilder* pchFilename, uint cchFilename, OVR::OpenVR::EVRScreenshotError& pError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(ref OVR.OpenVR.EVRScreenshotError pError, System.IAsyncResult result)
-    // Offset: 0x1F393A4
+    // Offset: 0x1C8B008
     uint EndInvoke(OVR::OpenVR::EVRScreenshotError& pError, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRScreenshots/_GetScreenshotPropertyFilename
 }

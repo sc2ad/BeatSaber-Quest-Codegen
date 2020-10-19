@@ -80,43 +80,43 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didFinishEvent(System.Action value)
-    // Offset: 0xF63C70
+    // Offset: 0x201BDB0
     void add_didFinishEvent(System::Action* value);
     // public System.Void remove_didFinishEvent(System.Action value)
-    // Offset: 0xF63D14
+    // Offset: 0x201BE54
     void remove_didFinishEvent(System::Action* value);
     // public System.Void add_didChangeColorSchemeEvent(System.Action`1<ColorScheme> value)
-    // Offset: 0xF63DB8
+    // Offset: 0x201BEF8
     void add_didChangeColorSchemeEvent(System::Action_1<GlobalNamespace::ColorScheme*>* value);
     // public System.Void remove_didChangeColorSchemeEvent(System.Action`1<ColorScheme> value)
-    // Offset: 0xF63E5C
+    // Offset: 0x201BF9C
     void remove_didChangeColorSchemeEvent(System::Action_1<GlobalNamespace::ColorScheme*>* value);
     // public System.Void SetColorScheme(ColorScheme colorScheme)
-    // Offset: 0xF63F00
+    // Offset: 0x201C040
     void SetColorScheme(GlobalNamespace::ColorScheme* colorScheme);
     // protected System.Void Start()
-    // Offset: 0xF63F1C
+    // Offset: 0x201C05C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF6416C
+    // Offset: 0x201C2AC
     void OnDestroy();
     // private System.Void HandleColorSchemeColorsToggleGroupSelectedColorDidChange(UnityEngine.Color color)
-    // Offset: 0xF64340
+    // Offset: 0x201C480
     void HandleColorSchemeColorsToggleGroupSelectedColorDidChange(UnityEngine::Color color);
     // private System.Void HandleRGBPanelControllerColorDidChange(UnityEngine.Color color, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0xF643CC
+    // Offset: 0x201C50C
     void HandleRGBPanelControllerColorDidChange(UnityEngine::Color color, GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void HandleHSVPanelControllerColorDidChange(UnityEngine.Color color, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0xF644E8
+    // Offset: 0x201C628
     void HandleHSVPanelControllerColorDidChange(UnityEngine::Color color, GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void HandlePreviousColorPanelControllerColorWasSelected(UnityEngine.Color color)
-    // Offset: 0xF64604
+    // Offset: 0x201C744
     void HandlePreviousColorPanelControllerColorWasSelected(UnityEngine::Color color);
     // private System.Void <Start>b__13_0()
-    // Offset: 0xF64710
+    // Offset: 0x201C850
     void $Start$b__13_0();
     // public System.Void .ctor()
-    // Offset: 0xF64708
+    // Offset: 0x201C848
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

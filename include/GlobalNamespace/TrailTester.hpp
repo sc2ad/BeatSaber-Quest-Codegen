@@ -75,34 +75,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void set_lastAddedData(BladeMovementDataElement value)
-    // Offset: 0xF37078
+    // Offset: 0x1F9DA54
     void set_lastAddedData(GlobalNamespace::BladeMovementDataElement value);
     // private System.Void set_prevAddedData(BladeMovementDataElement value)
-    // Offset: 0xF370B0
+    // Offset: 0x1F9DA8C
     void set_prevAddedData(GlobalNamespace::BladeMovementDataElement value);
     // protected System.Void Awake()
-    // Offset: 0xF370D0
+    // Offset: 0x1F9DAAC
     void Awake();
     // protected System.Void Update()
-    // Offset: 0xF370F8
+    // Offset: 0x1F9DAD4
     void Update();
     // public System.Single get_bladeSpeed()
-    // Offset: 0xF37058
+    // Offset: 0x1F9DA34
     // Implemented from: IBladeMovementData
     // Base method: System.Single IBladeMovementData::get_bladeSpeed()
     float get_bladeSpeed();
     // public BladeMovementDataElement get_lastAddedData()
-    // Offset: 0xF37060
+    // Offset: 0x1F9DA3C
     // Implemented from: IBladeMovementData
     // Base method: BladeMovementDataElement IBladeMovementData::get_lastAddedData()
     GlobalNamespace::BladeMovementDataElement get_lastAddedData();
     // public BladeMovementDataElement get_prevAddedData()
-    // Offset: 0xF37098
+    // Offset: 0x1F9DA74
     // Implemented from: IBladeMovementData
     // Base method: BladeMovementDataElement IBladeMovementData::get_prevAddedData()
     GlobalNamespace::BladeMovementDataElement get_prevAddedData();
     // public System.Void .ctor()
-    // Offset: 0xF373E8
+    // Offset: 0x1F9DDC4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

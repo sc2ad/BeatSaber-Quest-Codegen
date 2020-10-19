@@ -45,10 +45,10 @@ namespace MasterServer {
     // Offset: 0x28
     System::Threading::CancellationToken cancellationToken;
     // System.Threading.Tasks.Task <SendMultipartMessageWithRetryAsync>b__0(MasterServer.IMasterServerReliableRequest mm)
-    // Offset: 0x10C3E88
+    // Offset: 0x21259F0
     System::Threading::Tasks::Task* $SendMultipartMessageWithRetryAsync$b__0(MasterServer::IMasterServerReliableRequest* mm);
     // public System.Void .ctor()
-    // Offset: 0x10C3E80
+    // Offset: 0x21259E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MessageHandler::$$c__DisplayClass98_0* New_ctor();

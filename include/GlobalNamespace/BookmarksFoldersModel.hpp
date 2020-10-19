@@ -31,10 +31,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public FileBrowserItem[] get_bookmarksFolders()
-    // Offset: 0xF1B1C8
+    // Offset: 0x1FAE824
     ::Array<GlobalNamespace::FileBrowserItem*>* get_bookmarksFolders();
     // public System.Void .ctor()
-    // Offset: 0xF1B5BC
+    // Offset: 0x1FAEC18
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

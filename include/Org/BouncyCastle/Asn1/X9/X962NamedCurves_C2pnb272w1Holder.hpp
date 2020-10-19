@@ -27,16 +27,16 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Set static field: static readonly Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance
     static void _set_Instance(Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
     // static private System.Void .cctor()
-    // Offset: 0x187248C
+    // Offset: 0x16188B0
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x1872310
+    // Offset: 0x1618734
     // Implemented from: Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
     // Base method: System.Void X9ECParametersHolder::.ctor()
     // Base method: System.Void Object::.ctor()
     static X962NamedCurves::C2pnb272w1Holder* New_ctor();
     // protected override Org.BouncyCastle.Asn1.X9.X9ECParameters CreateParameters()
-    // Offset: 0x1872318
+    // Offset: 0x161873C
     // Implemented from: Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
     // Base method: Org.BouncyCastle.Asn1.X9.X9ECParameters X9ECParametersHolder::CreateParameters()
     Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();

@@ -21,7 +21,7 @@ namespace System::Reflection {
       return m_copyright;
     }
     // public System.Void .ctor(System.String copyright)
-    // Offset: 0x1AB8D48
+    // Offset: 0x1858F3C
     static AssemblyCopyrightAttribute* New_ctor(::Il2CppString* copyright);
   }; // System.Reflection.AssemblyCopyrightAttribute
 }

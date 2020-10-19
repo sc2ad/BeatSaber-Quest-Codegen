@@ -31,12 +31,12 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public override System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0xF39E04
+    // Offset: 0x1FA0334
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::InstallBindings(Zenject.DiContainer container)
     void InstallBindings(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0xF3A078
+    // Offset: 0x1FA05A8
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -31,13 +31,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public LocalizedTextAsset/TextInfo[] get_textInfos()
-    // Offset: 0x10433A8
+    // Offset: 0x20AA290
     ::Array<GlobalNamespace::LocalizedTextAsset::TextInfo*>* get_textInfos();
     // public System.String get_localizedText()
-    // Offset: 0x10433B0
+    // Offset: 0x20AA298
     ::Il2CppString* get_localizedText();
     // public System.Void .ctor()
-    // Offset: 0x10434E4
+    // Offset: 0x20AA3CC
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -67,28 +67,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public MissionNodeVisualController get_parentMissionNode()
-    // Offset: 0xEE0CF8
+    // Offset: 0x1FCA8C0
     GlobalNamespace::MissionNodeVisualController* get_parentMissionNode();
     // public MissionNodeVisualController get_childMissionNode()
-    // Offset: 0xEE0D00
+    // Offset: 0x1FCA8C8
     GlobalNamespace::MissionNodeVisualController* get_childMissionNode();
     // public System.Boolean get_isActive()
-    // Offset: 0xEE0D08
+    // Offset: 0x1FCA8D0
     bool get_isActive();
     // public System.Void Setup(MissionNodeVisualController parentMissionNode, MissionNodeVisualController childMissionNode)
-    // Offset: 0xEDC95C
+    // Offset: 0x1FC6524
     void Setup(GlobalNamespace::MissionNodeVisualController* parentMissionNode, GlobalNamespace::MissionNodeVisualController* childMissionNode);
     // public System.Void UpdateConnectionRectTransform()
-    // Offset: 0xEE0D10
+    // Offset: 0x1FCA8D8
     void UpdateConnectionRectTransform();
     // public System.Void SetActive(System.Boolean animated)
-    // Offset: 0xEE0884
+    // Offset: 0x1FCA44C
     void SetActive(bool animated);
     // public System.Void MissionConnectionEnabledDidFinish()
-    // Offset: 0xEE1000
+    // Offset: 0x1FCABC8
     void MissionConnectionEnabledDidFinish();
     // public System.Void .ctor()
-    // Offset: 0xEE1020
+    // Offset: 0x1FCABE8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

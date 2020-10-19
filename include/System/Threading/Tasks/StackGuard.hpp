@@ -27,16 +27,16 @@ namespace System::Threading::Tasks {
     // Set static field: static private System.Int32 MAX_UNCHECKED_INLINING_DEPTH
     static void _set_MAX_UNCHECKED_INLINING_DEPTH(int value);
     // System.Boolean TryBeginInliningScope()
-    // Offset: 0x16DB7B8
+    // Offset: 0x149638C
     bool TryBeginInliningScope();
     // System.Void EndInliningScope()
-    // Offset: 0x16DB7D8
+    // Offset: 0x14963AC
     void EndInliningScope();
     // private System.Boolean CheckForSufficientStack()
-    // Offset: 0x16DB7D0
+    // Offset: 0x14963A4
     bool CheckForSufficientStack();
     // public System.Void .ctor()
-    // Offset: 0x16DB7EC
+    // Offset: 0x14963C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static StackGuard* New_ctor();

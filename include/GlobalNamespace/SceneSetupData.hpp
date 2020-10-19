@@ -12,7 +12,7 @@ namespace GlobalNamespace {
   class SceneSetupData : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x10A3D30
+    // Offset: 0x211AC74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SceneSetupData* New_ctor();

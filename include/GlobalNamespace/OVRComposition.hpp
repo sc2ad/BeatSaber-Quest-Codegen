@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Offset: 0x24
     GlobalNamespace::OVRPose lastAttachedNodePose;
     // protected System.Void .ctor(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera)
-    // Offset: 0x1134218
+    // Offset: 0xF703B0
     static OVRComposition* New_ctor(UnityEngine::GameObject* parentObject, UnityEngine::Camera* mainCamera);
     // public OVRManager/CompositionMethod CompositionMethod()
     // Offset: 0xFFFFFFFF
@@ -60,16 +60,16 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void Cleanup();
     // public System.Void RecenterPose()
-    // Offset: 0x1134410
+    // Offset: 0xF705A8
     void RecenterPose();
     // public System.Void RefreshCameraRig(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera)
-    // Offset: 0x1134258
+    // Offset: 0xF703F0
     void RefreshCameraRig(UnityEngine::GameObject* parentObject, UnityEngine::Camera* mainCamera);
     // public OVRPose ComputeCameraWorldSpacePose(OVRPlugin/CameraExtrinsics extrinsics, OVRPlugin/Posef calibrationRawPose)
-    // Offset: 0x1134414
+    // Offset: 0xF705AC
     GlobalNamespace::OVRPose ComputeCameraWorldSpacePose(GlobalNamespace::OVRPlugin::CameraExtrinsics extrinsics, GlobalNamespace::OVRPlugin::Posef calibrationRawPose);
     // public OVRPose ComputeCameraTrackingSpacePose(OVRPlugin/CameraExtrinsics extrinsics, OVRPlugin/Posef calibrationRawPose)
-    // Offset: 0x113447C
+    // Offset: 0xF70614
     GlobalNamespace::OVRPose ComputeCameraTrackingSpacePose(GlobalNamespace::OVRPlugin::CameraExtrinsics extrinsics, GlobalNamespace::OVRPlugin::Posef calibrationRawPose);
   }; // OVRComposition
 }

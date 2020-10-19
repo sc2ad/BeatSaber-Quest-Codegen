@@ -24,13 +24,13 @@ namespace UnityEngine {
       return m_ParticleSystem;
     }
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
-    // Offset: 0xDDE7DC
+    // Offset: 0xC8BE6C
     // ABORTED: conflicts with another method.  ForceOverLifetimeModule(UnityEngine::ParticleSystem* particleSystem);
     // public System.Void set_enabled(System.Boolean value)
-    // Offset: 0xDDE7E4
+    // Offset: 0xC8BE74
     void set_enabled(bool value);
     // static private System.Void set_enabled_Injected(ref UnityEngine.ParticleSystem/ForceOverLifetimeModule _unity_self, System.Boolean value)
-    // Offset: 0x221EE60
+    // Offset: 0x1F70870
     static void set_enabled_Injected(UnityEngine::ParticleSystem::ForceOverLifetimeModule& _unity_self, bool value);
   }; // UnityEngine.ParticleSystem/ForceOverLifetimeModule
 }

@@ -31,16 +31,16 @@ namespace GlobalNamespace {
   class BeatmapCallbackItemDataList::SpawnObstacleCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1049460
+    // Offset: 0x20C417C
     static BeatmapCallbackItemDataList::SpawnObstacleCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(ObstacleData obstacleData)
-    // Offset: 0x10482EC
+    // Offset: 0x20C3008
     void Invoke(GlobalNamespace::ObstacleData* obstacleData);
     // public System.IAsyncResult BeginInvoke(ObstacleData obstacleData, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1049474
+    // Offset: 0x20C4190
     System::IAsyncResult* BeginInvoke(GlobalNamespace::ObstacleData* obstacleData, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1049498
+    // Offset: 0x20C41B4
     void EndInvoke(System::IAsyncResult* result);
   }; // BeatmapCallbackItemDataList/SpawnObstacleCallback
 }

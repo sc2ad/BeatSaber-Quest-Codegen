@@ -37,16 +37,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void OnTriggerEnter(UnityEngine.Collider other)
-    // Offset: 0x21EDAA4
+    // Offset: 0x223F704
     void OnTriggerEnter(UnityEngine::Collider* other);
     // private System.Void OnTriggerExit(UnityEngine.Collider other)
-    // Offset: 0x21EDAB8
+    // Offset: 0x223F718
     void OnTriggerExit(UnityEngine::Collider* other);
     // private System.Void OnTriggerStay(UnityEngine.Collider other)
-    // Offset: 0x21EDACC
+    // Offset: 0x223F72C
     void OnTriggerStay(UnityEngine::Collider* other);
     // public System.Void .ctor()
-    // Offset: 0x21EDAE0
+    // Offset: 0x223F740
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

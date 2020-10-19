@@ -28,28 +28,28 @@ namespace RootMotion {
   class AxisTools : public ::Il2CppObject {
     public:
     // static public UnityEngine.Vector3 ToVector3(RootMotion.Axis axis)
-    // Offset: 0x1AC035C
+    // Offset: 0x1860550
     static UnityEngine::Vector3 ToVector3(RootMotion::Axis axis);
     // static public RootMotion.Axis ToAxis(UnityEngine.Vector3 v)
-    // Offset: 0x1AC0414
+    // Offset: 0x1860608
     static RootMotion::Axis ToAxis(UnityEngine::Vector3 v);
     // static public RootMotion.Axis GetAxisToPoint(UnityEngine.Transform t, UnityEngine.Vector3 worldPosition)
-    // Offset: 0x1AC04C0
+    // Offset: 0x18606B4
     static RootMotion::Axis GetAxisToPoint(UnityEngine::Transform* t, UnityEngine::Vector3 worldPosition);
     // static public RootMotion.Axis GetAxisToDirection(UnityEngine.Transform t, UnityEngine.Vector3 direction)
-    // Offset: 0x1AC06A4
+    // Offset: 0x1860898
     static RootMotion::Axis GetAxisToDirection(UnityEngine::Transform* t, UnityEngine::Vector3 direction);
     // static public UnityEngine.Vector3 GetAxisVectorToPoint(UnityEngine.Transform t, UnityEngine.Vector3 worldPosition)
-    // Offset: 0x1AC05DC
+    // Offset: 0x18607D0
     static UnityEngine::Vector3 GetAxisVectorToPoint(UnityEngine::Transform* t, UnityEngine::Vector3 worldPosition);
     // static public UnityEngine.Vector3 GetAxisVectorToDirection(UnityEngine.Transform t, UnityEngine.Vector3 direction)
-    // Offset: 0x1AC07C0
+    // Offset: 0x18609B4
     static UnityEngine::Vector3 GetAxisVectorToDirection(UnityEngine::Transform* t, UnityEngine::Vector3 direction);
     // static public UnityEngine.Vector3 GetAxisVectorToDirection(UnityEngine.Quaternion r, UnityEngine.Vector3 direction)
-    // Offset: 0x1AC0808
+    // Offset: 0x18609FC
     static UnityEngine::Vector3 GetAxisVectorToDirection(UnityEngine::Quaternion r, UnityEngine::Vector3 direction);
     // public System.Void .ctor()
-    // Offset: 0x1AC0AD0
+    // Offset: 0x1860CC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AxisTools* New_ctor();

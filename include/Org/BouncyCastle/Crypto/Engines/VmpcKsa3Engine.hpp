@@ -14,12 +14,12 @@ namespace Org::BouncyCastle::Crypto::Engines {
   class VmpcKsa3Engine : public Org::BouncyCastle::Crypto::Engines::VmpcEngine {
     public:
     // protected override System.Void InitKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
-    // Offset: 0x16F0EB8
+    // Offset: 0x14ABA8C
     // Implemented from: Org.BouncyCastle.Crypto.Engines.VmpcEngine
     // Base method: System.Void VmpcEngine::InitKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
     void InitKey(::Array<uint8_t>* keyBytes, ::Array<uint8_t>* ivBytes);
     // public System.Void .ctor()
-    // Offset: 0x16F11A8
+    // Offset: 0x14ABD7C
     // Implemented from: Org.BouncyCastle.Crypto.Engines.VmpcEngine
     // Base method: System.Void VmpcEngine::.ctor()
     // Base method: System.Void Object::.ctor()

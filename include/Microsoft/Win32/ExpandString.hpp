@@ -19,13 +19,13 @@ namespace Microsoft::Win32 {
       return value;
     }
     // public System.Void .ctor(System.String s)
-    // Offset: 0x17CB2A0
+    // Offset: 0x15726C4
     static ExpandString* New_ctor(::Il2CppString* s);
     // public System.String Expand()
-    // Offset: 0x17CB2DC
+    // Offset: 0x1572700
     ::Il2CppString* Expand();
     // public override System.String ToString()
-    // Offset: 0x17CB2D4
+    // Offset: 0x15726F8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

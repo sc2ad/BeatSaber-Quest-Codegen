@@ -47,45 +47,45 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x38
     Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* validation;
     // static private System.Int32 GetDefaultMParam(System.Int32 lParam)
-    // Offset: 0x10EC40C
+    // Offset: 0xF4709C
     static int GetDefaultMParam(int lParam);
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger p, Org.BouncyCastle.Math.BigInteger g, Org.BouncyCastle.Math.BigInteger q)
-    // Offset: 0x10EC48C
+    // Offset: 0xF4711C
     static DHParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* p, Org::BouncyCastle::Math::BigInteger* g, Org::BouncyCastle::Math::BigInteger* q);
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger p, Org.BouncyCastle.Math.BigInteger g, Org.BouncyCastle.Math.BigInteger q, System.Int32 l)
-    // Offset: 0x10EC514
+    // Offset: 0xF471A4
     static DHParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* p, Org::BouncyCastle::Math::BigInteger* g, Org::BouncyCastle::Math::BigInteger* q, int l);
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger p, Org.BouncyCastle.Math.BigInteger g, Org.BouncyCastle.Math.BigInteger q, Org.BouncyCastle.Math.BigInteger j, Org.BouncyCastle.Crypto.Parameters.DHValidationParameters validation)
-    // Offset: 0x10EC8CC
+    // Offset: 0xF4755C
     static DHParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* p, Org::BouncyCastle::Math::BigInteger* g, Org::BouncyCastle::Math::BigInteger* q, Org::BouncyCastle::Math::BigInteger* j, Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* validation);
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger p, Org.BouncyCastle.Math.BigInteger g, Org.BouncyCastle.Math.BigInteger q, System.Int32 m, System.Int32 l, Org.BouncyCastle.Math.BigInteger j, Org.BouncyCastle.Crypto.Parameters.DHValidationParameters validation)
-    // Offset: 0x10EC584
+    // Offset: 0xF47214
     static DHParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* p, Org::BouncyCastle::Math::BigInteger* g, Org::BouncyCastle::Math::BigInteger* q, int m, int l, Org::BouncyCastle::Math::BigInteger* j, Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* validation);
     // public Org.BouncyCastle.Math.BigInteger get_P()
-    // Offset: 0x10ECC4C
+    // Offset: 0xF478DC
     Org::BouncyCastle::Math::BigInteger* get_P();
     // public Org.BouncyCastle.Math.BigInteger get_G()
-    // Offset: 0x10ECC54
+    // Offset: 0xF478E4
     Org::BouncyCastle::Math::BigInteger* get_G();
     // public Org.BouncyCastle.Math.BigInteger get_Q()
-    // Offset: 0x10ECC5C
+    // Offset: 0xF478EC
     Org::BouncyCastle::Math::BigInteger* get_Q();
     // public System.Int32 get_M()
-    // Offset: 0x10ECC64
+    // Offset: 0xF478F4
     int get_M();
     // public System.Int32 get_L()
-    // Offset: 0x10ECC6C
+    // Offset: 0xF478FC
     int get_L();
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.DHParameters other)
-    // Offset: 0x10ECD2C
+    // Offset: 0xF479BC
     bool Equals(Org::BouncyCastle::Crypto::Parameters::DHParameters* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x10ECC74
+    // Offset: 0xF47904
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x10ECDA8
+    // Offset: 0xF47A38
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

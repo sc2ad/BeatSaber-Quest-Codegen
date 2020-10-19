@@ -36,16 +36,16 @@ namespace OVR::OpenVR {
   class IVRInput::_GetOriginLocalizedName : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1D63934
+    // Offset: 0x1AB5598
     static IVRInput::_GetOriginLocalizedName* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRInputError Invoke(System.UInt64 origin, System.Text.StringBuilder pchNameArray, System.UInt32 unNameArraySize)
-    // Offset: 0x1D63948
+    // Offset: 0x1AB55AC
     OVR::OpenVR::EVRInputError Invoke(uint64_t origin, System::Text::StringBuilder* pchNameArray, uint unNameArraySize);
     // public System.IAsyncResult BeginInvoke(System.UInt64 origin, System.Text.StringBuilder pchNameArray, System.UInt32 unNameArraySize, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1D63BE0
+    // Offset: 0x1AB5844
     System::IAsyncResult* BeginInvoke(uint64_t origin, System::Text::StringBuilder* pchNameArray, uint unNameArraySize, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRInputError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1D63C98
+    // Offset: 0x1AB58FC
     OVR::OpenVR::EVRInputError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRInput/_GetOriginLocalizedName
 }

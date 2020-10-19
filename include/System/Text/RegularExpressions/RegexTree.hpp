@@ -47,7 +47,7 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x3C
     int captop;
     // System.Void .ctor(System.Text.RegularExpressions.RegexNode root, System.Collections.Hashtable caps, System.Int32[] capnumlist, System.Int32 captop, System.Collections.Hashtable capnames, System.String[] capslist, System.Text.RegularExpressions.RegexOptions opts)
-    // Offset: 0x1805DC4
+    // Offset: 0x15AD1E8
     static RegexTree* New_ctor(System::Text::RegularExpressions::RegexNode* root, System::Collections::Hashtable* caps, ::Array<int>* capnumlist, int captop, System::Collections::Hashtable* capnames, ::Array<::Il2CppString*>* capslist, System::Text::RegularExpressions::RegexOptions opts);
   }; // System.Text.RegularExpressions.RegexTree
 }

@@ -37,10 +37,10 @@ namespace Valve::VR {
     // Creating value type constructor for type: VREvent_t_Packed
     constexpr VREvent_t_Packed(uint eventType_ = {}, uint trackedDeviceIndex_ = {}, float eventAgeSeconds_ = {}, Valve::VR::VREvent_Data_t data_ = {}) noexcept : eventType{eventType_}, trackedDeviceIndex{trackedDeviceIndex_}, eventAgeSeconds{eventAgeSeconds_}, data{data_} {}
     // public System.Void .ctor(Valve.VR.VREvent_t unpacked)
-    // Offset: 0xDDC730
+    // Offset: 0xC89DC8
     VREvent_t_Packed(Valve::VR::VREvent_t unpacked);
     // public System.Void Unpack(ref Valve.VR.VREvent_t unpacked)
-    // Offset: 0xDDC780
+    // Offset: 0xC89E18
     void Unpack(Valve::VR::VREvent_t& unpacked);
   }; // Valve.VR.VREvent_t_Packed
 }

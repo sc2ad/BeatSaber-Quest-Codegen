@@ -139,145 +139,145 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0xA8
     System::Runtime::Serialization::Formatters::Binary::BinaryAssembly* binaryAssembly;
     // System.Void .ctor(System.IO.Stream sout, System.Runtime.Serialization.Formatters.Binary.ObjectWriter objectWriter, System.Runtime.Serialization.Formatters.FormatterTypeStyle formatterTypeStyle)
-    // Offset: 0x14CF090
+    // Offset: 0x12A48B8
     static __BinaryWriter* New_ctor(System::IO::Stream* sout, System::Runtime::Serialization::Formatters::Binary::ObjectWriter* objectWriter, System::Runtime::Serialization::Formatters::FormatterTypeStyle formatterTypeStyle);
     // System.Void WriteBegin()
-    // Offset: 0x14C53A8
+    // Offset: 0x129ABD0
     void WriteBegin();
     // System.Void WriteEnd()
-    // Offset: 0x14C557C
+    // Offset: 0x129ADA4
     void WriteEnd();
     // System.Void WriteBoolean(System.Boolean value)
-    // Offset: 0x14CF168
+    // Offset: 0x12A4990
     void WriteBoolean(bool value);
     // System.Void WriteByte(System.Byte value)
-    // Offset: 0x14BCCE0
+    // Offset: 0x1292508
     void WriteByte(uint8_t value);
     // private System.Void WriteBytes(System.Byte[] value)
-    // Offset: 0x14CF18C
+    // Offset: 0x12A49B4
     void WriteBytes(::Array<uint8_t>* value);
     // private System.Void WriteBytes(System.Byte[] byteA, System.Int32 offset, System.Int32 size)
-    // Offset: 0x14CF1AC
+    // Offset: 0x12A49D4
     void WriteBytes(::Array<uint8_t>* byteA, int offset, int size);
     // System.Void WriteChar(System.Char value)
-    // Offset: 0x14CF1CC
+    // Offset: 0x12A49F4
     void WriteChar(::Il2CppChar value);
     // System.Void WriteChars(System.Char[] value)
-    // Offset: 0x14CF1EC
+    // Offset: 0x12A4A14
     void WriteChars(::Array<::Il2CppChar>* value);
     // System.Void WriteDecimal(System.Decimal value)
-    // Offset: 0x14CF20C
+    // Offset: 0x12A4A34
     void WriteDecimal(System::Decimal value);
     // System.Void WriteSingle(System.Single value)
-    // Offset: 0x14CF2B4
+    // Offset: 0x12A4ADC
     void WriteSingle(float value);
     // System.Void WriteDouble(System.Double value)
-    // Offset: 0x14CF2D8
+    // Offset: 0x12A4B00
     void WriteDouble(double value);
     // System.Void WriteInt16(System.Int16 value)
-    // Offset: 0x14CF2FC
+    // Offset: 0x12A4B24
     void WriteInt16(int16_t value);
     // System.Void WriteInt32(System.Int32 value)
-    // Offset: 0x14BE15C
+    // Offset: 0x1293984
     void WriteInt32(int value);
     // System.Void WriteInt64(System.Int64 value)
-    // Offset: 0x14CF320
+    // Offset: 0x12A4B48
     void WriteInt64(int64_t value);
     // System.Void WriteSByte(System.SByte value)
-    // Offset: 0x14CF344
+    // Offset: 0x12A4B6C
     void WriteSByte(int8_t value);
     // System.Void WriteString(System.String value)
-    // Offset: 0x14BCD00
+    // Offset: 0x1292528
     void WriteString(::Il2CppString* value);
     // System.Void WriteTimeSpan(System.TimeSpan value)
-    // Offset: 0x14CF364
+    // Offset: 0x12A4B8C
     void WriteTimeSpan(System::TimeSpan value);
     // System.Void WriteDateTime(System.DateTime value)
-    // Offset: 0x14CF388
+    // Offset: 0x12A4BB0
     void WriteDateTime(System::DateTime value);
     // System.Void WriteUInt16(System.UInt16 value)
-    // Offset: 0x14CF3AC
+    // Offset: 0x12A4BD4
     void WriteUInt16(uint16_t value);
     // System.Void WriteUInt32(System.UInt32 value)
-    // Offset: 0x14CF3D0
+    // Offset: 0x12A4BF8
     void WriteUInt32(uint value);
     // System.Void WriteUInt64(System.UInt64 value)
-    // Offset: 0x14CF3F4
+    // Offset: 0x12A4C1C
     void WriteUInt64(uint64_t value);
     // System.Void WriteObjectEnd(System.Runtime.Serialization.Formatters.Binary.NameInfo memberNameInfo, System.Runtime.Serialization.Formatters.Binary.NameInfo typeNameInfo)
-    // Offset: 0x14C731C
+    // Offset: 0x129CB44
     void WriteObjectEnd(System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo* typeNameInfo);
     // System.Void WriteSerializationHeaderEnd()
-    // Offset: 0x14C5514
+    // Offset: 0x129AD3C
     void WriteSerializationHeaderEnd();
     // System.Void WriteSerializationHeader(System.Int32 topId, System.Int32 headerId, System.Int32 minorVersion, System.Int32 majorVersion)
-    // Offset: 0x14C8A10
+    // Offset: 0x129E238
     void WriteSerializationHeader(int topId, int headerId, int minorVersion, int majorVersion);
     // System.Void WriteMethodCall()
-    // Offset: 0x14C53CC
+    // Offset: 0x129ABF4
     void WriteMethodCall();
     // System.Void WriteMethodReturn()
-    // Offset: 0x14C5470
+    // Offset: 0x129AC98
     void WriteMethodReturn();
     // System.Void WriteObject(System.Runtime.Serialization.Formatters.Binary.NameInfo nameInfo, System.Runtime.Serialization.Formatters.Binary.NameInfo typeNameInfo, System.Int32 numMembers, System.String[] memberNames, System.Type[] memberTypes, System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo[] memberObjectInfos)
-    // Offset: 0x14C6CB8
+    // Offset: 0x129C4E0
     void WriteObject(System::Runtime::Serialization::Formatters::Binary::NameInfo* nameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo* typeNameInfo, int numMembers, ::Array<::Il2CppString*>* memberNames, ::Array<System::Type*>* memberTypes, ::Array<System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*>* memberObjectInfos);
     // System.Void WriteObjectString(System.Int32 objectId, System.String value)
-    // Offset: 0x14C5FBC
+    // Offset: 0x129B7E4
     void WriteObjectString(int objectId, ::Il2CppString* value);
     // System.Void WriteSingleArray(System.Runtime.Serialization.Formatters.Binary.NameInfo memberNameInfo, System.Runtime.Serialization.Formatters.Binary.NameInfo arrayNameInfo, System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo objectInfo, System.Runtime.Serialization.Formatters.Binary.NameInfo arrayElemTypeNameInfo, System.Int32 length, System.Int32 lowerBound, System.Array array)
-    // Offset: 0x14C7A18
+    // Offset: 0x129D240
     void WriteSingleArray(System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo* arrayNameInfo, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo* arrayElemTypeNameInfo, int length, int lowerBound, System::Array* array);
     // private System.Void WriteArrayAsBytes(System.Array array, System.Int32 typeLength)
-    // Offset: 0x14CF4CC
+    // Offset: 0x12A4CF4
     void WriteArrayAsBytes(System::Array* array, int typeLength);
     // System.Void WriteJaggedArray(System.Runtime.Serialization.Formatters.Binary.NameInfo memberNameInfo, System.Runtime.Serialization.Formatters.Binary.NameInfo arrayNameInfo, System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo objectInfo, System.Runtime.Serialization.Formatters.Binary.NameInfo arrayElemTypeNameInfo, System.Int32 length, System.Int32 lowerBound)
-    // Offset: 0x14C7FB4
+    // Offset: 0x129D7DC
     void WriteJaggedArray(System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo* arrayNameInfo, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo* arrayElemTypeNameInfo, int length, int lowerBound);
     // System.Void WriteRectangleArray(System.Runtime.Serialization.Formatters.Binary.NameInfo memberNameInfo, System.Runtime.Serialization.Formatters.Binary.NameInfo arrayNameInfo, System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo objectInfo, System.Runtime.Serialization.Formatters.Binary.NameInfo arrayElemTypeNameInfo, System.Int32 rank, System.Int32[] lengthA, System.Int32[] lowerBoundA)
-    // Offset: 0x14C816C
+    // Offset: 0x129D994
     void WriteRectangleArray(System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo* arrayNameInfo, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo* arrayElemTypeNameInfo, int rank, ::Array<int>* lengthA, ::Array<int>* lowerBoundA);
     // System.Void WriteObjectByteArray(System.Runtime.Serialization.Formatters.Binary.NameInfo memberNameInfo, System.Runtime.Serialization.Formatters.Binary.NameInfo arrayNameInfo, System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo objectInfo, System.Runtime.Serialization.Formatters.Binary.NameInfo arrayElemTypeNameInfo, System.Int32 length, System.Int32 lowerBound, System.Byte[] byteA)
-    // Offset: 0x14C79AC
+    // Offset: 0x129D1D4
     void WriteObjectByteArray(System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo* arrayNameInfo, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo* arrayElemTypeNameInfo, int length, int lowerBound, ::Array<uint8_t>* byteA);
     // System.Void WriteMember(System.Runtime.Serialization.Formatters.Binary.NameInfo memberNameInfo, System.Runtime.Serialization.Formatters.Binary.NameInfo typeNameInfo, System.Object value)
-    // Offset: 0x14C86E8
+    // Offset: 0x129DF10
     void WriteMember(System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo* typeNameInfo, ::Il2CppObject* value);
     // System.Void WriteNullMember(System.Runtime.Serialization.Formatters.Binary.NameInfo memberNameInfo, System.Runtime.Serialization.Formatters.Binary.NameInfo typeNameInfo)
-    // Offset: 0x14C8950
+    // Offset: 0x129E178
     void WriteNullMember(System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo* typeNameInfo);
     // System.Void WriteMemberObjectRef(System.Runtime.Serialization.Formatters.Binary.NameInfo memberNameInfo, System.Int32 idRef)
-    // Offset: 0x14C882C
+    // Offset: 0x129E054
     void WriteMemberObjectRef(System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo, int idRef);
     // System.Void WriteMemberNested(System.Runtime.Serialization.Formatters.Binary.NameInfo memberNameInfo)
-    // Offset: 0x14C7890
+    // Offset: 0x129D0B8
     void WriteMemberNested(System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo);
     // System.Void WriteMemberString(System.Runtime.Serialization.Formatters.Binary.NameInfo memberNameInfo, System.Runtime.Serialization.Formatters.Binary.NameInfo typeNameInfo, System.String value)
-    // Offset: 0x14C88E4
+    // Offset: 0x129E10C
     void WriteMemberString(System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo* typeNameInfo, ::Il2CppString* value);
     // System.Void WriteItem(System.Runtime.Serialization.Formatters.Binary.NameInfo itemNameInfo, System.Runtime.Serialization.Formatters.Binary.NameInfo typeNameInfo, System.Object value)
-    // Offset: 0x14C86A4
+    // Offset: 0x129DECC
     void WriteItem(System::Runtime::Serialization::Formatters::Binary::NameInfo* itemNameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo* typeNameInfo, ::Il2CppObject* value);
     // System.Void WriteNullItem(System.Runtime.Serialization.Formatters.Binary.NameInfo itemNameInfo, System.Runtime.Serialization.Formatters.Binary.NameInfo typeNameInfo)
-    // Offset: 0x14C8940
+    // Offset: 0x129E168
     void WriteNullItem(System::Runtime::Serialization::Formatters::Binary::NameInfo* itemNameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo* typeNameInfo);
     // System.Void WriteDelayedNullItem()
-    // Offset: 0x14C8930
+    // Offset: 0x129E158
     void WriteDelayedNullItem();
     // System.Void WriteItemEnd()
-    // Offset: 0x14C7FB0
+    // Offset: 0x129D7D8
     void WriteItemEnd();
     // private System.Void InternalWriteItemNull()
-    // Offset: 0x14CF418
+    // Offset: 0x12A4C40
     void InternalWriteItemNull();
     // System.Void WriteItemObjectRef(System.Runtime.Serialization.Formatters.Binary.NameInfo nameInfo, System.Int32 idRef)
-    // Offset: 0x14C8568
+    // Offset: 0x129DD90
     void WriteItemObjectRef(System::Runtime::Serialization::Formatters::Binary::NameInfo* nameInfo, int idRef);
     // System.Void WriteAssembly(System.Type type, System.String assemblyString, System.Int32 assemId, System.Boolean isNew)
-    // Offset: 0x14C8CC8
+    // Offset: 0x129E4F0
     void WriteAssembly(System::Type* type, ::Il2CppString* assemblyString, int assemId, bool isNew);
     // System.Void WriteValue(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code, System.Object value)
-    // Offset: 0x14BCE60
+    // Offset: 0x1292688
     void WriteValue(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, ::Il2CppObject* value);
   }; // System.Runtime.Serialization.Formatters.Binary.__BinaryWriter
 }

@@ -34,13 +34,13 @@ namespace System {
   class Activator : public ::Il2CppObject {
     public:
     // static public System.Object CreateInstance(System.Type type, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture)
-    // Offset: 0x18B0168
+    // Offset: 0x165658C
     static ::Il2CppObject* CreateInstance(System::Type* type, System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder* binder, ::Array<::Il2CppObject*>* args, System::Globalization::CultureInfo* culture);
     // static public System.Object CreateInstance(System.Type type, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes)
-    // Offset: 0x18B0170
+    // Offset: 0x1656594
     static ::Il2CppObject* CreateInstance(System::Type* type, System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder* binder, ::Array<::Il2CppObject*>* args, System::Globalization::CultureInfo* culture, ::Array<::Il2CppObject*>* activationAttributes);
     // static public System.Object CreateInstance(System.Type type, params System.Object[] args)
-    // Offset: 0x18B0394
+    // Offset: 0x16567B8
     static ::Il2CppObject* CreateInstance(System::Type* type, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Object CreateInstance(System.Type type, params System.Object[] args)
     static ::Il2CppObject* CreateInstance(System::Type* type, std::initializer_list<::Il2CppObject*> args);
@@ -50,10 +50,10 @@ namespace System {
       return CreateInstance(type, {args...});
     }
     // static public System.Object CreateInstance(System.Type type)
-    // Offset: 0x189EB40
+    // Offset: 0x1644F64
     static ::Il2CppObject* CreateInstance(System::Type* type);
     // static public System.Object CreateInstance(System.Type type, System.Boolean nonPublic)
-    // Offset: 0x18B03AC
+    // Offset: 0x16567D0
     static ::Il2CppObject* CreateInstance(System::Type* type, bool nonPublic);
     // static public T CreateInstance()
     // Offset: 0xFFFFFFFF

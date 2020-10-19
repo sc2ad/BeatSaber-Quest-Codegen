@@ -86,52 +86,52 @@ namespace System::Net {
     // Offset: 0x50
     System::Collections::Generic::Dictionary_2<System::Net::HttpConnection*, System::Net::HttpConnection*>* unregistered;
     // public System.Void .ctor(System.Net.HttpListener listener, System.Net.IPAddress addr, System.Int32 port, System.Boolean secure)
-    // Offset: 0x14E3258
+    // Offset: 0x12B8A80
     static EndPointListener* New_ctor(System::Net::HttpListener* listener, System::Net::IPAddress* addr, int port, bool secure);
     // System.Net.HttpListener get_Listener()
-    // Offset: 0x14E3640
+    // Offset: 0x12B8E68
     System::Net::HttpListener* get_Listener();
     // static private System.Void Accept(System.Net.Sockets.Socket socket, System.Net.Sockets.SocketAsyncEventArgs e, ref System.Net.Sockets.Socket accepted)
-    // Offset: 0x14E34A4
+    // Offset: 0x12B8CCC
     static void Accept(System::Net::Sockets::Socket* socket, System::Net::Sockets::SocketAsyncEventArgs* e, System::Net::Sockets::Socket*& accepted);
     // static private System.Void ProcessAccept(System.Net.Sockets.SocketAsyncEventArgs args)
-    // Offset: 0x14E3648
+    // Offset: 0x12B8E70
     static void ProcessAccept(System::Net::Sockets::SocketAsyncEventArgs* args);
     // static private System.Void OnAccept(System.Object sender, System.Net.Sockets.SocketAsyncEventArgs e)
-    // Offset: 0x14E388C
+    // Offset: 0x12B90B4
     static void OnAccept(::Il2CppObject* sender, System::Net::Sockets::SocketAsyncEventArgs* e);
     // System.Void RemoveConnection(System.Net.HttpConnection conn)
-    // Offset: 0x14E3894
+    // Offset: 0x12B90BC
     void RemoveConnection(System::Net::HttpConnection* conn);
     // public System.Boolean BindContext(System.Net.HttpListenerContext context)
-    // Offset: 0x14E3970
+    // Offset: 0x12B9198
     bool BindContext(System::Net::HttpListenerContext* context);
     // public System.Void UnbindContext(System.Net.HttpListenerContext context)
-    // Offset: 0x14E3F74
+    // Offset: 0x12B979C
     void UnbindContext(System::Net::HttpListenerContext* context);
     // private System.Net.HttpListener SearchListener(System.Uri uri, out System.Net.ListenerPrefix prefix)
-    // Offset: 0x14E39D8
+    // Offset: 0x12B9200
     System::Net::HttpListener* SearchListener(System::Uri* uri, System::Net::ListenerPrefix*& prefix);
     // private System.Net.HttpListener MatchFromList(System.String host, System.String path, System.Collections.ArrayList list, out System.Net.ListenerPrefix prefix)
-    // Offset: 0x14E3FA0
+    // Offset: 0x12B97C8
     System::Net::HttpListener* MatchFromList(::Il2CppString* host, ::Il2CppString* path, System::Collections::ArrayList* list, System::Net::ListenerPrefix*& prefix);
     // private System.Void AddSpecial(System.Collections.ArrayList coll, System.Net.ListenerPrefix prefix)
-    // Offset: 0x14E4274
+    // Offset: 0x12B9A9C
     void AddSpecial(System::Collections::ArrayList* coll, System::Net::ListenerPrefix* prefix);
     // private System.Boolean RemoveSpecial(System.Collections.ArrayList coll, System.Net.ListenerPrefix prefix)
-    // Offset: 0x14E4538
+    // Offset: 0x12B9D60
     bool RemoveSpecial(System::Collections::ArrayList* coll, System::Net::ListenerPrefix* prefix);
     // private System.Void CheckIfRemove()
-    // Offset: 0x14E4638
+    // Offset: 0x12B9E60
     void CheckIfRemove();
     // public System.Void Close()
-    // Offset: 0x14E4958
+    // Offset: 0x12BA180
     void Close();
     // public System.Void AddPrefix(System.Net.ListenerPrefix prefix, System.Net.HttpListener listener)
-    // Offset: 0x14E4BB8
+    // Offset: 0x12BA3E0
     void AddPrefix(System::Net::ListenerPrefix* prefix, System::Net::HttpListener* listener);
     // public System.Void RemovePrefix(System.Net.ListenerPrefix prefix, System.Net.HttpListener listener)
-    // Offset: 0x14E4F14
+    // Offset: 0x12BA73C
     void RemovePrefix(System::Net::ListenerPrefix* prefix, System::Net::HttpListener* listener);
   }; // System.Net.EndPointListener
 }

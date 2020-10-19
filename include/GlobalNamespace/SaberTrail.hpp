@@ -96,37 +96,37 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kScaleCheckFramesInterval
     static void _set_kScaleCheckFramesInterval(int value);
     // private System.Void Awake()
-    // Offset: 0xF820F0
+    // Offset: 0x207934C
     void Awake();
     // public System.Void Setup(UnityEngine.Color color, IBladeMovementData movementData)
-    // Offset: 0xF80C40
+    // Offset: 0x2077E9C
     void Setup(UnityEngine::Color color, GlobalNamespace::IBladeMovementData* movementData);
     // private System.Void Init()
-    // Offset: 0xF8221C
+    // Offset: 0x2079478
     void Init();
     // private System.Void ResetTrailData()
-    // Offset: 0xF82558
+    // Offset: 0x20797B4
     void ResetTrailData();
     // protected System.Void LateUpdate()
-    // Offset: 0xF82640
+    // Offset: 0x207989C
     void LateUpdate();
     // protected System.Void OnEnable()
-    // Offset: 0xF82C10
+    // Offset: 0x2079E6C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xF82CD8
+    // Offset: 0x2079F34
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0xF82D6C
+    // Offset: 0x2079FC8
     void OnDestroy();
     // private System.Single GetTrailWidth(BladeMovementDataElement lastAddedData)
-    // Offset: 0xF82490
+    // Offset: 0x20796EC
     float GetTrailWidth(GlobalNamespace::BladeMovementDataElement lastAddedData);
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0xF82E38
+    // Offset: 0x207A094
     void OnDrawGizmosSelected();
     // public System.Void .ctor()
-    // Offset: 0xF83014
+    // Offset: 0x207A270
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

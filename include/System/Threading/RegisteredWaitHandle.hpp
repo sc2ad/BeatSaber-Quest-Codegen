@@ -56,16 +56,16 @@ namespace System::Threading {
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // System.Void .ctor(System.Threading.WaitHandle waitObject, System.Threading.WaitOrTimerCallback callback, System.Object state, System.TimeSpan timeout, System.Boolean executeOnlyOnce)
-    // Offset: 0x16D5FD8
+    // Offset: 0x1490BAC
     static RegisteredWaitHandle* New_ctor(System::Threading::WaitHandle* waitObject, System::Threading::WaitOrTimerCallback* callback, ::Il2CppObject* state, System::TimeSpan timeout, bool executeOnlyOnce);
     // System.Void Wait(System.Object state)
-    // Offset: 0x16D60D4
+    // Offset: 0x1490CA8
     void Wait(::Il2CppObject* state);
     // private System.Void DoCallBack(System.Object timedOut)
-    // Offset: 0x16D6870
+    // Offset: 0x1491444
     void DoCallBack(::Il2CppObject* timedOut);
     // public System.Boolean Unregister(System.Threading.WaitHandle waitObject)
-    // Offset: 0x16D6E68
+    // Offset: 0x1491A3C
     bool Unregister(System::Threading::WaitHandle* waitObject);
   }; // System.Threading.RegisteredWaitHandle
 }

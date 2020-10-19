@@ -19,8 +19,6 @@ namespace GlobalNamespace {
   class NoteController;
   // Forward declaring type: NoteData
   class NoteData;
-  // Forward declaring type: NoteRibbonController
-  class NoteRibbonController;
 }
 // Completed forward declares
 // Type namespace: 
@@ -37,9 +35,6 @@ namespace GlobalNamespace {
     // public NoteController SpawnBasicNote(NoteData noteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation, System.Single cutDirectionAngleOffset)
     // Offset: 0xFFFFFFFF
     GlobalNamespace::NoteController* SpawnBasicNote(GlobalNamespace::NoteData* noteData, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData, float rotation, float cutDirectionAngleOffset);
-    // public NoteRibbonController SpawnNoteRibbon(NoteData noteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, NoteController parentNoteController, System.Single rotation, System.Single cutDirectionAngleOffset)
-    // Offset: 0xFFFFFFFF
-    GlobalNamespace::NoteRibbonController* SpawnNoteRibbon(GlobalNamespace::NoteData* noteData, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData, GlobalNamespace::NoteController* parentNoteController, float rotation, float cutDirectionAngleOffset);
   }; // IBeatmapObjectSpawner
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

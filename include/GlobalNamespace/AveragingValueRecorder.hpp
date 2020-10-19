@@ -35,19 +35,19 @@ namespace GlobalNamespace {
       // Creating value type constructor for type: AverageValueData
       constexpr AverageValueData(float value_ = {}, float time_ = {}) noexcept : value{value_}, time{time_} {}
       // public System.Single get_value()
-      // Offset: 0xDA2124
+      // Offset: 0xE4E034
       float get_value();
       // private System.Void set_value(System.Single value)
-      // Offset: 0xDA212C
+      // Offset: 0xE4E03C
       void set_value(float value);
       // public System.Single get_time()
-      // Offset: 0xDA2134
+      // Offset: 0xE4E044
       float get_time();
       // private System.Void set_time(System.Single value)
-      // Offset: 0xDA213C
+      // Offset: 0xE4E04C
       void set_time(float value);
       // public System.Void .ctor(System.Single value, System.Single time)
-      // Offset: 0xDA2144
+      // Offset: 0xE4E054
       // ABORTED: conflicts with another method.  AverageValueData(float value, float time);
     }; // AveragingValueRecorder/AverageValueData
     // private System.Single _averageWindowDuration
@@ -81,19 +81,19 @@ namespace GlobalNamespace {
     // Offset: 0x40
     float lastValue;
     // public System.Void .ctor(System.Single averageWindowDuration, System.Single historyWindowDuration, System.Single historyValuesPerSecond)
-    // Offset: 0xFB94D8
+    // Offset: 0x2037B88
     static AveragingValueRecorder* New_ctor(float averageWindowDuration, float historyWindowDuration, float historyValuesPerSecond);
     // public System.Void Update(System.Single value, System.Single deltaTime)
-    // Offset: 0xFB95F8
+    // Offset: 0x2037CA8
     void Update(float value, float deltaTime);
     // public System.Single GetAverageValue()
-    // Offset: 0xFB982C
+    // Offset: 0x2037EDC
     float GetAverageValue();
     // public System.Single GetLastValue()
-    // Offset: 0xFB9834
+    // Offset: 0x2037EE4
     float GetLastValue();
     // public System.Collections.Generic.Queue`1<System.Single> GetHistoryValues()
-    // Offset: 0xFB983C
+    // Offset: 0x2037EEC
     System::Collections::Generic::Queue_1<float>* GetHistoryValues();
   }; // AveragingValueRecorder
 }

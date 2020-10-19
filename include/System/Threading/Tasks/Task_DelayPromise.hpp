@@ -38,10 +38,10 @@ namespace System::Threading::Tasks {
     // Offset: 0x78
     System::Threading::Timer* Timer;
     // System.Void .ctor(System.Threading.CancellationToken token)
-    // Offset: 0x16E2774
+    // Offset: 0x149D348
     static Task::DelayPromise* New_ctor(System::Threading::CancellationToken token);
     // System.Void Complete()
-    // Offset: 0x16E3A0C
+    // Offset: 0x149E5E0
     void Complete();
   }; // System.Threading.Tasks.Task/DelayPromise
 }

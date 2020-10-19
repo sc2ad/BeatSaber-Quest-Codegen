@@ -37,15 +37,15 @@ namespace GlobalNamespace {
     // Offset: 0x38
     GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass26_0* $$8__1;
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x2230A04
+    // Offset: 0x203F014
     static MultiplayerIntroCountdown::$PhaseRoutine$d__26* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x2231188
+    // Offset: 0x203F798
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x223118C
+    // Offset: 0x203F79C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -53,17 +53,17 @@ namespace GlobalNamespace {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x2231778
+    // Offset: 0x203FD88
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator_1::get_Current()
     ::Il2CppObject* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x2231780
+    // Offset: 0x203FD90
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x22317E0
+    // Offset: 0x203FDF0
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();

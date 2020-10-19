@@ -51,34 +51,34 @@ namespace UnityEngine {
     // Set static field: static private readonly UnityEngine.Vector2Int s_Right
     static void _set_s_Right(UnityEngine::Vector2Int value);
     // public System.Int32 get_x()
-    // Offset: 0xDBF36C
+    // Offset: 0xC7578C
     int get_x();
     // public System.Int32 get_y()
-    // Offset: 0xDBF374
+    // Offset: 0xC75794
     int get_y();
     // public System.Void .ctor(System.Int32 x, System.Int32 y)
-    // Offset: 0xDBF37C
+    // Offset: 0xC7579C
     // ABORTED: conflicts with another method.  Vector2Int(int x, int y);
     // static private System.Void .cctor()
-    // Offset: 0x199A0E4
+    // Offset: 0x1740508
     static void _cctor();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0xDBF384
+    // Offset: 0xC757A4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
     // public System.Boolean Equals(UnityEngine.Vector2Int other)
-    // Offset: 0xDBF38C
+    // Offset: 0xC757AC
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Vector2Int other)
     bool Equals(UnityEngine::Vector2Int other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xDBF394
+    // Offset: 0xC757B4
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0xDBF39C
+    // Offset: 0xC757BC
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

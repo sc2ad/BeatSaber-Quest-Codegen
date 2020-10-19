@@ -25,31 +25,31 @@ namespace Zenject {
     // Set static field: static private System.Text.RegularExpressions.Regex <ProfilePattern>k__BackingField
     static void _set_$ProfilePattern$k__BackingField(System::Text::RegularExpressions::Regex* value);
     // private System.Void .ctor(System.String sampleName, System.Boolean rootBlock)
-    // Offset: 0x1516600
+    // Offset: 0x12ECE28
     static ProfileBlock* New_ctor(::Il2CppString* sampleName, bool rootBlock);
     // private System.Void .ctor(System.String sampleName)
-    // Offset: 0x1516608
+    // Offset: 0x12ECE30
     static ProfileBlock* New_ctor(::Il2CppString* sampleName);
     // static public System.Text.RegularExpressions.Regex get_ProfilePattern()
-    // Offset: 0x1516610
+    // Offset: 0x12ECE38
     static System::Text::RegularExpressions::Regex* get_ProfilePattern();
     // static public System.Void set_ProfilePattern(System.Text.RegularExpressions.Regex value)
-    // Offset: 0x1516660
+    // Offset: 0x12ECE88
     static void set_ProfilePattern(System::Text::RegularExpressions::Regex* value);
     // static public Zenject.ProfileBlock Start()
-    // Offset: 0x15166B8
+    // Offset: 0x12ECEE0
     static Zenject::ProfileBlock* Start();
     // static public Zenject.ProfileBlock Start(System.String sampleNameFormat, System.Object obj1, System.Object obj2)
-    // Offset: 0x15166C0
+    // Offset: 0x12ECEE8
     static Zenject::ProfileBlock* Start(::Il2CppString* sampleNameFormat, ::Il2CppObject* obj1, ::Il2CppObject* obj2);
     // static public Zenject.ProfileBlock Start(System.String sampleNameFormat, System.Object obj)
-    // Offset: 0x15166C8
+    // Offset: 0x12ECEF0
     static Zenject::ProfileBlock* Start(::Il2CppString* sampleNameFormat, ::Il2CppObject* obj);
     // static public Zenject.ProfileBlock Start(System.String sampleName)
-    // Offset: 0x15166D0
+    // Offset: 0x12ECEF8
     static Zenject::ProfileBlock* Start(::Il2CppString* sampleName);
     // public System.Void Dispose()
-    // Offset: 0x15166D8
+    // Offset: 0x12ECF00
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

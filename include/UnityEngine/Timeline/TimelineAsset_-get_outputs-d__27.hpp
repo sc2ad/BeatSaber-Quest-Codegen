@@ -49,21 +49,21 @@ namespace UnityEngine::Timeline {
     // Offset: 0x50
     System::Collections::Generic::IEnumerator_1<UnityEngine::Playables::PlayableBinding>* $$7__wrap2;
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1626CDC
+    // Offset: 0x13FD504
     static TimelineAsset::$get_outputs$d__27* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()
-    // Offset: 0x1629740
+    // Offset: 0x13FFF68
     void $$m__Finally1();
     // private System.Void <>m__Finally2()
-    // Offset: 0x1629680
+    // Offset: 0x13FFEA8
     void $$m__Finally2();
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1629608
+    // Offset: 0x13FFE30
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1629800
+    // Offset: 0x1400028
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -71,27 +71,27 @@ namespace UnityEngine::Timeline {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // private UnityEngine.Playables.PlayableBinding System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current()
-    // Offset: 0x1629C68
+    // Offset: 0x1400490
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator_1::get_Current()
     UnityEngine::Playables::PlayableBinding System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1629C78
+    // Offset: 0x14004A0
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1629CD8
+    // Offset: 0x1400500
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // private System.Collections.Generic.IEnumerator`1<UnityEngine.Playables.PlayableBinding> System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator()
-    // Offset: 0x1629D40
+    // Offset: 0x1400568
     // Implemented from: System.Collections.Generic.IEnumerable`1
     // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable_1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<UnityEngine::Playables::PlayableBinding>* System_Collections_Generic_IEnumerable_1_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1629DF4
+    // Offset: 0x140061C
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();

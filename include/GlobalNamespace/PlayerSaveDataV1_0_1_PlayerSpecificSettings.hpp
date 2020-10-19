@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Offset: 0x1B
     bool noTextsAndHuds;
     // public System.Void .ctor()
-    // Offset: 0xFE2C8C
+    // Offset: 0x208DA9C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerSaveDataV1_0_1::PlayerSpecificSettings* New_ctor();

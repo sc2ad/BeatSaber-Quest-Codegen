@@ -13,8 +13,6 @@
 namespace GlobalNamespace {
   // Forward declaring type: SaberManager
   class SaberManager;
-  // Forward declaring type: NoteRibbonCutter
-  class NoteRibbonCutter;
   // Forward declaring type: NoteCutter
   class NoteCutter;
   // Forward declaring type: Saber
@@ -29,25 +27,22 @@ namespace GlobalNamespace {
     // private SaberManager _saberManager
     // Offset: 0x18
     GlobalNamespace::SaberManager* saberManager;
-    // private readonly NoteRibbonCutter _noteRibbonCutter
-    // Offset: 0x20
-    GlobalNamespace::NoteRibbonCutter* noteRibbonCutter;
     // private readonly NoteCutter _noteCutter
-    // Offset: 0x28
+    // Offset: 0x20
     GlobalNamespace::NoteCutter* noteCutter;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnEnable()
-    // Offset: 0xF5D7AC
+    // Offset: 0x2015928
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xF5D840
+    // Offset: 0x20159BC
     void OnDisable();
     // private System.Void HandleSaberManagerDidUpdateSaberPositions(Saber leftSaber, Saber rightSaber)
-    // Offset: 0xF5D8D4
+    // Offset: 0x2015A50
     void HandleSaberManagerDidUpdateSaberPositions(GlobalNamespace::Saber* leftSaber, GlobalNamespace::Saber* rightSaber);
     // public System.Void .ctor()
-    // Offset: 0xF5D960
+    // Offset: 0x2015AA0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

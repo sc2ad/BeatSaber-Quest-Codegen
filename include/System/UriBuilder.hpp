@@ -52,55 +52,55 @@ namespace System {
     // Offset: 0x60
     ::Il2CppString* username;
     // public System.Void .ctor(System.String uri)
-    // Offset: 0x21F0A2C
+    // Offset: 0x1F4243C
     static UriBuilder* New_ctor(::Il2CppString* uri);
     // private System.Void Init(System.Uri uri)
-    // Offset: 0x21F0C0C
+    // Offset: 0x1F4261C
     void Init(System::Uri* uri);
     // public System.Void .ctor(System.String schemeName, System.String hostName)
-    // Offset: 0x21F0FE4
+    // Offset: 0x1F429F4
     static UriBuilder* New_ctor(::Il2CppString* schemeName, ::Il2CppString* hostName);
     // public System.Void .ctor(System.String scheme, System.String host, System.Int32 portNumber)
-    // Offset: 0x21F138C
+    // Offset: 0x1F42D9C
     static UriBuilder* New_ctor(::Il2CppString* scheme, ::Il2CppString* host, int portNumber);
     // public System.Void set_Host(System.String value)
-    // Offset: 0x21F129C
+    // Offset: 0x1F42CAC
     void set_Host(::Il2CppString* value);
     // public System.Void set_Path(System.String value)
-    // Offset: 0x21F1458
+    // Offset: 0x1F42E68
     void set_Path(::Il2CppString* value);
     // public System.Void set_Port(System.Int32 value)
-    // Offset: 0x21F13B8
+    // Offset: 0x1F42DC8
     void set_Port(int value);
     // public System.Void set_Query(System.String value)
-    // Offset: 0x21F1524
+    // Offset: 0x1F42F34
     void set_Query(::Il2CppString* value);
     // public System.Void set_Scheme(System.String value)
-    // Offset: 0x21F1154
+    // Offset: 0x1F42B64
     void set_Scheme(::Il2CppString* value);
     // public System.Uri get_Uri()
-    // Offset: 0x21F15EC
+    // Offset: 0x1F42FFC
     System::Uri* get_Uri();
     // private System.Void SetFieldsFromUri(System.Uri uri)
-    // Offset: 0x21F0DFC
+    // Offset: 0x1F4280C
     void SetFieldsFromUri(System::Uri* uri);
     // public System.Void .ctor()
-    // Offset: 0x21F08E4
+    // Offset: 0x1F422F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UriBuilder* New_ctor();
     // public override System.Boolean Equals(System.Object rparam)
-    // Offset: 0x21F16A4
+    // Offset: 0x1F430B4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object rparam)
     bool Equals(::Il2CppObject* rparam);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x21F1704
+    // Offset: 0x1F43114
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x21F1728
+    // Offset: 0x1F43138
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

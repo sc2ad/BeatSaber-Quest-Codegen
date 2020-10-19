@@ -31,10 +31,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::LevelCompletionResults* levelCompletionResults;
     // public System.Void .ctor(IConnectedPlayer connectedPlayer, LevelCompletionResults levelCompletionResults)
-    // Offset: 0xEFE414
+    // Offset: 0x1FD32C8
     static MultiplayerResultsTableView::Data* New_ctor(GlobalNamespace::IConnectedPlayer* connectedPlayer, GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // public System.Int32 CompareTo(System.Object obj)
-    // Offset: 0xF02CB0
+    // Offset: 0x1FD7B64
     // Implemented from: System.IComparable
     // Base method: System.Int32 IComparable::CompareTo(System.Object obj)
     int CompareTo(::Il2CppObject* obj);

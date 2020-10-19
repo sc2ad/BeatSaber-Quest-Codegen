@@ -54,12 +54,12 @@ namespace System::Net::Http {
     // Creating value type constructor for type: $GetStringAsync$d__52
     constexpr $GetStringAsync$d__52(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppString*> $$t__builder_ = {}, System::Net::Http::HttpClient* $$4__this_ = {}, ::Il2CppString* requestUri_ = {}, System::Net::Http::HttpResponseMessage* $resp$5__1_ = {}, typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<System::Net::Http::HttpResponseMessage*>::ConfiguredTaskAwaiter $$u__1_ = {}, typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::Il2CppString*>::ConfiguredTaskAwaiter $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, requestUri{requestUri_}, $resp$5__1{$resp$5__1_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
     // private System.Void MoveNext()
-    // Offset: 0xDB0F70
+    // Offset: 0xC67390
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDB0F78
+    // Offset: 0xC67398
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

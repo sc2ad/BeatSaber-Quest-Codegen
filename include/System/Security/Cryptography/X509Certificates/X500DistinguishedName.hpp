@@ -27,25 +27,25 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x28
     ::Array<uint8_t>* canonEncoding;
     // public System.Void .ctor(System.Byte[] encodedDistinguishedName)
-    // Offset: 0x16B83BC
+    // Offset: 0x1472F90
     static X500DistinguishedName* New_ctor(::Array<uint8_t>* encodedDistinguishedName);
     // public System.String Decode(System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags flag)
-    // Offset: 0x16B85AC
+    // Offset: 0x1473180
     ::Il2CppString* Decode(System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags flag);
     // static private System.String GetSeparator(System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags flag)
-    // Offset: 0x16B86E8
+    // Offset: 0x14732BC
     static ::Il2CppString* GetSeparator(System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags flag);
     // private System.Void DecodeRawData()
-    // Offset: 0x16B84C8
+    // Offset: 0x147309C
     void DecodeRawData();
     // static private System.String Canonize(System.String s)
-    // Offset: 0x16B87CC
+    // Offset: 0x14733A0
     static ::Il2CppString* Canonize(::Il2CppString* s);
     // static System.Boolean AreEqual(System.Security.Cryptography.X509Certificates.X500DistinguishedName name1, System.Security.Cryptography.X509Certificates.X500DistinguishedName name2)
-    // Offset: 0x16B8A50
+    // Offset: 0x1473624
     static bool AreEqual(System::Security::Cryptography::X509Certificates::X500DistinguishedName* name1, System::Security::Cryptography::X509Certificates::X500DistinguishedName* name2);
     // public override System.String Format(System.Boolean multiLine)
-    // Offset: 0x16B875C
+    // Offset: 0x1473330
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.String AsnEncodedData::Format(System.Boolean multiLine)
     ::Il2CppString* Format(bool multiLine);

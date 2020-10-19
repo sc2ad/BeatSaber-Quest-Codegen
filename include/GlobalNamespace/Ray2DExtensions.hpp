@@ -21,7 +21,7 @@ namespace GlobalNamespace {
   class Ray2DExtensions : public ::Il2CppObject {
     public:
     // static public System.Int32 CircleIntersections(UnityEngine.Ray2D ray, UnityEngine.Vector2 circleCenter, System.Single radius, System.Single[] distances)
-    // Offset: 0x10A323C
+    // Offset: 0x211A180
     static int CircleIntersections(UnityEngine::Ray2D ray, UnityEngine::Vector2 circleCenter, float radius, ::Array<float>* distances);
   }; // Ray2DExtensions
 }

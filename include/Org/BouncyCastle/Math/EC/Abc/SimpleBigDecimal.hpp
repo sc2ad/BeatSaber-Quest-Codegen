@@ -25,50 +25,50 @@ namespace Org::BouncyCastle::Math::EC::Abc {
     // Offset: 0x18
     int scale;
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger bigInt, System.Int32 scale)
-    // Offset: 0x1B24C74
+    // Offset: 0x18C5E68
     static SimpleBigDecimal* New_ctor(Org::BouncyCastle::Math::BigInteger* bigInt, int scale);
     // private System.Void CheckScale(Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal b)
-    // Offset: 0x1B24D24
+    // Offset: 0x18C5F18
     void CheckScale(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* b);
     // public Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal AdjustScale(System.Int32 newScale)
-    // Offset: 0x1B24DC4
+    // Offset: 0x18C5FB8
     Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* AdjustScale(int newScale);
     // public Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal Add(Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal b)
-    // Offset: 0x1B24EA0
+    // Offset: 0x18C6094
     Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* Add(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* b);
     // public Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal Negate()
-    // Offset: 0x1B24F44
+    // Offset: 0x18C6138
     Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* Negate();
     // public Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal Subtract(Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal b)
-    // Offset: 0x1B24FD0
+    // Offset: 0x18C61C4
     Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* Subtract(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* b);
     // public Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal Subtract(Org.BouncyCastle.Math.BigInteger b)
-    // Offset: 0x1B25004
+    // Offset: 0x18C61F8
     Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* Subtract(Org::BouncyCastle::Math::BigInteger* b);
     // public System.Int32 CompareTo(Org.BouncyCastle.Math.BigInteger val)
-    // Offset: 0x1B250B0
+    // Offset: 0x18C62A4
     int CompareTo(Org::BouncyCastle::Math::BigInteger* val);
     // public Org.BouncyCastle.Math.BigInteger Floor()
-    // Offset: 0x1B250F8
+    // Offset: 0x18C62EC
     Org::BouncyCastle::Math::BigInteger* Floor();
     // public Org.BouncyCastle.Math.BigInteger Round()
-    // Offset: 0x1B2511C
+    // Offset: 0x18C6310
     Org::BouncyCastle::Math::BigInteger* Round();
     // public System.Int32 get_Scale()
-    // Offset: 0x1B251D4
+    // Offset: 0x18C63C8
     int get_Scale();
     // public override System.String ToString()
-    // Offset: 0x1B251DC
+    // Offset: 0x18C63D0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1B254E4
+    // Offset: 0x18C66D8
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1B255B8
+    // Offset: 0x18C67AC
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

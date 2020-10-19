@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRCompositor::_CanRenderScene : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1E2D5F0
+    // Offset: 0x1B80254
     static IVRCompositor::_CanRenderScene* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke()
-    // Offset: 0x1E2D604
+    // Offset: 0x1B80268
     bool Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1E2D81C
+    // Offset: 0x1B80480
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1E2D848
+    // Offset: 0x1B804AC
     bool EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_CanRenderScene
 }

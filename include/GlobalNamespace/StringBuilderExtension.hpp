@@ -23,16 +23,16 @@ namespace GlobalNamespace {
     // Set static field: static private System.Char[] charToInt
     static void _set_charToInt(::Array<::Il2CppChar>* value);
     // static public System.Void Swap(System.Text.StringBuilder sb, System.Int32 startIndex, System.Int32 endIndex)
-    // Offset: 0x21EC6F0
+    // Offset: 0x223E350
     static void Swap(System::Text::StringBuilder* sb, int startIndex, int endIndex);
     // static public System.Void AppendNumber(System.Text.StringBuilder sb, System.Int32 number)
-    // Offset: 0x21EC7A8
+    // Offset: 0x223E408
     static void AppendNumber(System::Text::StringBuilder* sb, int number);
     // static public System.Void AppendNumber(System.Text.StringBuilder sb, System.UInt32 unumber)
-    // Offset: 0x21EC8F0
+    // Offset: 0x223E550
     static void AppendNumber(System::Text::StringBuilder* sb, uint unumber);
     // static private System.Void .cctor()
-    // Offset: 0x21ECA1C
+    // Offset: 0x223E67C
     static void _cctor();
   }; // StringBuilderExtension
 }

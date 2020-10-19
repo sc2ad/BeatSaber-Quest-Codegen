@@ -39,19 +39,19 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // Set static field: static private UnityEngine.Experimental.GlobalIllumination.Lightmapping/RequestLightsDelegate s_RequestLightsDelegate
     static void _set_s_RequestLightsDelegate(UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLightsDelegate* value);
     // static public System.Void SetDelegate(UnityEngine.Experimental.GlobalIllumination.Lightmapping/RequestLightsDelegate del)
-    // Offset: 0x19ECF00
+    // Offset: 0x1793324
     static void SetDelegate(UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLightsDelegate* del);
     // static public UnityEngine.Experimental.GlobalIllumination.Lightmapping/RequestLightsDelegate GetDelegate()
-    // Offset: 0x19ECF94
+    // Offset: 0x17933B8
     static UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLightsDelegate* GetDelegate();
     // static public System.Void ResetDelegate()
-    // Offset: 0x19ECFFC
+    // Offset: 0x1793420
     static void ResetDelegate();
     // static System.Void RequestLights(UnityEngine.Light[] lights, System.IntPtr outLightsPtr, System.Int32 outLightsCount)
-    // Offset: 0x19ED068
+    // Offset: 0x179348C
     static void RequestLights(::Array<UnityEngine::Light*>* lights, System::IntPtr outLightsPtr, int outLightsCount);
     // static private System.Void .cctor()
-    // Offset: 0x19ED564
+    // Offset: 0x1793988
     static void _cctor();
   }; // UnityEngine.Experimental.GlobalIllumination.Lightmapping
 }

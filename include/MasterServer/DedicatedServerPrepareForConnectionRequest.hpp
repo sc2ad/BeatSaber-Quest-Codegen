@@ -58,13 +58,13 @@ namespace MasterServer {
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
     // static public PacketPool`1<MasterServer.DedicatedServerPrepareForConnectionRequest> get_pool()
-    // Offset: 0x10BD448
+    // Offset: 0x211EFB0
     static GlobalNamespace::PacketPool_1<MasterServer::DedicatedServerPrepareForConnectionRequest*>* get_pool();
     // public MasterServer.DedicatedServerPrepareForConnectionRequest Init(System.String id, System.String userId, System.String userName, System.Net.IPEndPoint remoteEndPoint, System.Byte[] random, System.Byte[] publicKey)
-    // Offset: 0x10BD490
+    // Offset: 0x211EFF8
     MasterServer::DedicatedServerPrepareForConnectionRequest* Init(::Il2CppString* id, ::Il2CppString* userId, ::Il2CppString* userName, System::Net::IPEndPoint* remoteEndPoint, ::Array<uint8_t>* random, ::Array<uint8_t>* publicKey);
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x10BD53C
+    // Offset: 0x211F0A4
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -72,7 +72,7 @@ namespace MasterServer {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x10BD604
+    // Offset: 0x211F16C
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -80,12 +80,12 @@ namespace MasterServer {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x10BD6D4
+    // Offset: 0x211F23C
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x10BD750
+    // Offset: 0x211F2B8
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()

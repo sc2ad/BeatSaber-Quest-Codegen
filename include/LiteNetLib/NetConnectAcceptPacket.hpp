@@ -36,13 +36,13 @@ namespace LiteNetLib {
     // Set static field: static public System.Int32 Size
     static void _set_Size(int value);
     // private System.Void .ctor(System.Int64 connectionId, System.Byte connectionNumber, System.Boolean isReusedPeer)
-    // Offset: 0x1A689C4
+    // Offset: 0x1806BB8
     static NetConnectAcceptPacket* New_ctor(int64_t connectionId, uint8_t connectionNumber, bool isReusedPeer);
     // static public LiteNetLib.NetConnectAcceptPacket FromData(LiteNetLib.NetPacket packet)
-    // Offset: 0x1A68A0C
+    // Offset: 0x1806C00
     static LiteNetLib::NetConnectAcceptPacket* FromData(LiteNetLib::NetPacket* packet);
     // static public LiteNetLib.NetPacket Make(System.Int64 connectId, System.Byte connectNum, System.Boolean reusedPeer)
-    // Offset: 0x1A68B1C
+    // Offset: 0x1806D10
     static LiteNetLib::NetPacket* Make(int64_t connectId, uint8_t connectNum, bool reusedPeer);
   }; // LiteNetLib.NetConnectAcceptPacket
 }

@@ -32,10 +32,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Collections.Generic.List`1<AchievementSO> get_achievementsIds()
-    // Offset: 0xFAA11C
+    // Offset: 0x20287CC
     System::Collections::Generic::List_1<GlobalNamespace::AchievementSO*>* get_achievementsIds();
     // public System.Void .ctor()
-    // Offset: 0xFAA124
+    // Offset: 0x20287D4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

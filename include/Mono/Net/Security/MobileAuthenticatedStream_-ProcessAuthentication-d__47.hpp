@@ -73,12 +73,12 @@ namespace Mono::Net::Security {
     // Creating value type constructor for type: $ProcessAuthentication$d__47
     constexpr $ProcessAuthentication$d__47(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder $$t__builder_ = {}, bool serverMode_ = {}, System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate_ = {}, ::Il2CppString* targetHost_ = {}, Mono::Net::Security::MobileAuthenticatedStream* $$4__this_ = {}, bool runSynchronously_ = {}, System::Security::Authentication::SslProtocols enabledProtocols_ = {}, System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates_ = {}, bool clientCertRequired_ = {}, typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<Mono::Net::Security::AsyncProtocolResult*>::ConfiguredTaskAwaiter $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, serverMode{serverMode_}, serverCertificate{serverCertificate_}, targetHost{targetHost_}, $$4__this{$$4__this_}, runSynchronously{runSynchronously_}, enabledProtocols{enabledProtocols_}, clientCertificates{clientCertificates_}, clientCertRequired{clientCertRequired_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
-    // Offset: 0xDB3194
+    // Offset: 0xC695B4
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDB319C
+    // Offset: 0xC695BC
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

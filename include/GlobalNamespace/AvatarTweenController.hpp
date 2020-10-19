@@ -170,94 +170,94 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0xFB69F8
+    // Offset: 0x20350A8
     void Awake();
     // protected System.Void OnDisable()
-    // Offset: 0xFB6A50
+    // Offset: 0x2035100
     void OnDisable();
     // public System.Void PresentAvatar()
-    // Offset: 0xFB6AF8
+    // Offset: 0x20351A8
     void PresentAvatar();
     // public System.Void HideAvatar()
-    // Offset: 0xFB6BA8
+    // Offset: 0x2035258
     void HideAvatar();
     // public System.Void PopAll()
-    // Offset: 0xFB6C58
+    // Offset: 0x2035308
     void PopAll();
     // public System.Void PopHead()
-    // Offset: 0xFB6E68
+    // Offset: 0x2035518
     void PopHead();
     // public System.Void PopHands()
-    // Offset: 0xFB6E70
+    // Offset: 0x2035520
     void PopHands();
     // public System.Void PopClothes()
-    // Offset: 0xFB6E78
+    // Offset: 0x2035528
     void PopClothes();
     // private System.Void PopHead(System.Single popAmount)
-    // Offset: 0xFB6C90
+    // Offset: 0x2035340
     void PopHead(float popAmount);
     // private System.Void PopHands(System.Single popAmount)
-    // Offset: 0xFB6D90
+    // Offset: 0x2035440
     void PopHands(float popAmount);
     // private System.Void PopClothes(System.Single popAmount)
-    // Offset: 0xFB6D10
+    // Offset: 0x20353C0
     void PopClothes(float popAmount);
     // private Tweening.Tween`1<System.Single> CreatePopTween(UnityEngine.Transform partTransform, System.Single popAmount)
-    // Offset: 0xFB6E80
+    // Offset: 0x2035530
     Tweening::Tween_1<float>* CreatePopTween(UnityEngine::Transform* partTransform, float popAmount);
     // private System.Collections.IEnumerator AppearAnimation()
-    // Offset: 0xFB6B2C
+    // Offset: 0x20351DC
     System::Collections::IEnumerator* AppearAnimation();
     // private System.Void AppearBody()
-    // Offset: 0xFB6FD0
+    // Offset: 0x2035680
     void AppearBody();
     // private System.Void AppearHead()
-    // Offset: 0xFB72DC
+    // Offset: 0x203598C
     void AppearHead();
     // private System.Void AppearLeftHand()
-    // Offset: 0xFB75E8
+    // Offset: 0x2035C98
     void AppearLeftHand();
     // private System.Void AppearRightHand()
-    // Offset: 0xFB78FC
+    // Offset: 0x2035FAC
     void AppearRightHand();
     // private System.Collections.IEnumerator DisappearAnimation()
-    // Offset: 0xFB6BDC
+    // Offset: 0x203528C
     System::Collections::IEnumerator* DisappearAnimation();
     // private System.Void StopAll()
-    // Offset: 0xFB6A54
+    // Offset: 0x2035104
     void StopAll();
     // private System.Void <AppearBody>b__54_0(UnityEngine.Vector3 val)
-    // Offset: 0xFB7D20
+    // Offset: 0x20363D0
     void $AppearBody$b__54_0(UnityEngine::Vector3 val);
     // private System.Void <AppearBody>b__54_1(UnityEngine.Vector3 val)
-    // Offset: 0xFB7D3C
+    // Offset: 0x20363EC
     void $AppearBody$b__54_1(UnityEngine::Vector3 val);
     // private System.Void <AppearHead>b__55_0(UnityEngine.Vector3 val)
-    // Offset: 0xFB7D58
+    // Offset: 0x2036408
     void $AppearHead$b__55_0(UnityEngine::Vector3 val);
     // private System.Void <AppearHead>b__55_1(UnityEngine.Vector3 val)
-    // Offset: 0xFB7D74
+    // Offset: 0x2036424
     void $AppearHead$b__55_1(UnityEngine::Vector3 val);
     // private System.Void <AppearLeftHand>b__56_0(UnityEngine.Vector3 val)
-    // Offset: 0xFB7D90
+    // Offset: 0x2036440
     void $AppearLeftHand$b__56_0(UnityEngine::Vector3 val);
     // private System.Void <AppearLeftHand>b__56_1(UnityEngine.Vector3 val)
-    // Offset: 0xFB7DAC
+    // Offset: 0x203645C
     void $AppearLeftHand$b__56_1(UnityEngine::Vector3 val);
     // private System.Void <AppearRightHand>b__57_0(UnityEngine.Vector3 val)
-    // Offset: 0xFB7DC8
+    // Offset: 0x2036478
     void $AppearRightHand$b__57_0(UnityEngine::Vector3 val);
     // private System.Void <AppearRightHand>b__57_1(UnityEngine.Vector3 val)
-    // Offset: 0xFB7DE4
+    // Offset: 0x2036494
     void $AppearRightHand$b__57_1(UnityEngine::Vector3 val);
     // private System.Void <DisappearAnimation>b__58_0(UnityEngine.Vector3 val)
-    // Offset: 0xFB7E00
+    // Offset: 0x20364B0
     void $DisappearAnimation$b__58_0(UnityEngine::Vector3 val);
     // private System.Void <DisappearAnimation>b__58_1(UnityEngine.Vector3 val)
-    // Offset: 0xFB7E1C
+    // Offset: 0x20364CC
     void $DisappearAnimation$b__58_1(UnityEngine::Vector3 val);
     // public System.Void .ctor()
-    // Offset: 0xFB7C3C
+    // Offset: 0x20362EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

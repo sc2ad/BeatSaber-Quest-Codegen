@@ -55,25 +55,25 @@ namespace System::Threading::Tasks {
     // Offset: 0x24
     System::Threading::Tasks::TaskContinuationOptions m_defaultContinuationOptions;
     // public System.Void .ctor(System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.TaskContinuationOptions continuationOptions, System.Threading.Tasks.TaskScheduler scheduler)
-    // Offset: 0x16E5480
+    // Offset: 0x14A0054
     static TaskFactory* New_ctor(System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::TaskContinuationOptions continuationOptions, System::Threading::Tasks::TaskScheduler* scheduler);
     // static System.Void CheckCreationOptions(System.Threading.Tasks.TaskCreationOptions creationOptions)
-    // Offset: 0x16E5604
+    // Offset: 0x14A01D8
     static void CheckCreationOptions(System::Threading::Tasks::TaskCreationOptions creationOptions);
     // public System.Threading.Tasks.Task StartNew(System.Action action, System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.TaskScheduler scheduler)
-    // Offset: 0x16E568C
+    // Offset: 0x14A0260
     System::Threading::Tasks::Task* StartNew(System::Action* action, System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::TaskScheduler* scheduler);
     // static System.Void CheckFromAsyncOptions(System.Threading.Tasks.TaskCreationOptions creationOptions, System.Boolean hasBeginMethod)
-    // Offset: 0x16E5740
+    // Offset: 0x14A0314
     static void CheckFromAsyncOptions(System::Threading::Tasks::TaskCreationOptions creationOptions, bool hasBeginMethod);
     // static System.Threading.Tasks.Task`1<System.Threading.Tasks.Task> CommonCWAnyLogic(System.Collections.Generic.IList`1<System.Threading.Tasks.Task> tasks)
-    // Offset: 0x16E3468
+    // Offset: 0x149E03C
     static System::Threading::Tasks::Task_1<System::Threading::Tasks::Task*>* CommonCWAnyLogic(System::Collections::Generic::IList_1<System::Threading::Tasks::Task*>* tasks);
     // static System.Void CheckMultiTaskContinuationOptions(System.Threading.Tasks.TaskContinuationOptions continuationOptions)
-    // Offset: 0x16E54F8
+    // Offset: 0x14A00CC
     static void CheckMultiTaskContinuationOptions(System::Threading::Tasks::TaskContinuationOptions continuationOptions);
     // public System.Void .ctor()
-    // Offset: 0x16E3920
+    // Offset: 0x149E4F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TaskFactory* New_ctor();

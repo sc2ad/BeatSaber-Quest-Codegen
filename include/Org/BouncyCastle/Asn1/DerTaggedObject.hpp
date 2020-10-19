@@ -22,17 +22,17 @@ namespace Org::BouncyCastle::Asn1 {
   class DerTaggedObject : public Org::BouncyCastle::Asn1::Asn1TaggedObject {
     public:
     // public System.Void .ctor(System.Int32 tagNo, Org.BouncyCastle.Asn1.Asn1Encodable obj)
-    // Offset: 0x1544824
+    // Offset: 0x131C04C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1TaggedObject
     // Base method: System.Void Asn1TaggedObject::.ctor(System.Int32 tagNo, Org.BouncyCastle.Asn1.Asn1Encodable obj)
     static DerTaggedObject* New_ctor(int tagNo, Org::BouncyCastle::Asn1::Asn1Encodable* obj);
     // public System.Void .ctor(System.Boolean explicitly, System.Int32 tagNo, Org.BouncyCastle.Asn1.Asn1Encodable obj)
-    // Offset: 0x153A9A4
+    // Offset: 0x13121CC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1TaggedObject
     // Base method: System.Void Asn1TaggedObject::.ctor(System.Boolean explicitly, System.Int32 tagNo, Org.BouncyCastle.Asn1.Asn1Encodable obj)
     static DerTaggedObject* New_ctor(bool explicitly, int tagNo, Org::BouncyCastle::Asn1::Asn1Encodable* obj);
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x1544E94
+    // Offset: 0x131C6BC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);

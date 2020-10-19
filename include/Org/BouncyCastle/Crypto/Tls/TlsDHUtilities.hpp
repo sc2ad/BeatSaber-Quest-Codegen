@@ -87,28 +87,28 @@ namespace Org::BouncyCastle::Crypto::Tls {
     // Set static field: static readonly Org.BouncyCastle.Crypto.Parameters.DHParameters draft_ffdhe8192
     static void _set_draft_ffdhe8192(Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
     // static private Org.BouncyCastle.Math.BigInteger FromHex(System.String hex)
-    // Offset: 0x10FFAB0
+    // Offset: 0xF5A740
     static Org::BouncyCastle::Math::BigInteger* FromHex(::Il2CppString* hex);
     // static private Org.BouncyCastle.Crypto.Parameters.DHParameters FromSafeP(System.String hexP)
-    // Offset: 0x10FFB48
+    // Offset: 0xF5A7D8
     static Org::BouncyCastle::Crypto::Parameters::DHParameters* FromSafeP(::Il2CppString* hexP);
     // static public System.Byte[] CalculateDHBasicAgreement(Org.BouncyCastle.Crypto.Parameters.DHPublicKeyParameters publicKey, Org.BouncyCastle.Crypto.Parameters.DHPrivateKeyParameters privateKey)
-    // Offset: 0x10FFC08
+    // Offset: 0xF5A898
     static ::Array<uint8_t>* CalculateDHBasicAgreement(Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters* publicKey, Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* privateKey);
     // static public Org.BouncyCastle.Crypto.AsymmetricCipherKeyPair GenerateDHKeyPair(Org.BouncyCastle.Security.SecureRandom random, Org.BouncyCastle.Crypto.Parameters.DHParameters dhParams)
-    // Offset: 0x10FFCA4
+    // Offset: 0xF5A934
     static Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateDHKeyPair(Org::BouncyCastle::Security::SecureRandom* random, Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams);
     // static public Org.BouncyCastle.Crypto.Parameters.DHPrivateKeyParameters GenerateEphemeralClientKeyExchange(Org.BouncyCastle.Security.SecureRandom random, Org.BouncyCastle.Crypto.Parameters.DHParameters dhParams, System.IO.Stream output)
-    // Offset: 0x10FFD54
+    // Offset: 0xF5A9E4
     static Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* GenerateEphemeralClientKeyExchange(Org::BouncyCastle::Security::SecureRandom* random, Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams, System::IO::Stream* output);
     // static public Org.BouncyCastle.Math.BigInteger ReadDHParameter(System.IO.Stream input)
-    // Offset: 0x10FFEF0
+    // Offset: 0xF5AB80
     static Org::BouncyCastle::Math::BigInteger* ReadDHParameter(System::IO::Stream* input);
     // static public System.Void WriteDHParameter(Org.BouncyCastle.Math.BigInteger x, System.IO.Stream output)
-    // Offset: 0x10FFE68
+    // Offset: 0xF5AAF8
     static void WriteDHParameter(Org::BouncyCastle::Math::BigInteger* x, System::IO::Stream* output);
     // static private System.Void .cctor()
-    // Offset: 0x11000B4
+    // Offset: 0xF5AD44
     static void _cctor();
   }; // Org.BouncyCastle.Crypto.Tls.TlsDHUtilities
 }

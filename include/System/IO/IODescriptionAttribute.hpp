@@ -14,12 +14,12 @@ namespace System::IO {
   class IODescriptionAttribute : public System::ComponentModel::DescriptionAttribute {
     public:
     // public System.Void .ctor(System.String description)
-    // Offset: 0x173543C
+    // Offset: 0x14F1010
     // Implemented from: System.ComponentModel.DescriptionAttribute
     // Base method: System.Void DescriptionAttribute::.ctor(System.String description)
     static IODescriptionAttribute* New_ctor(::Il2CppString* description);
     // public override System.String get_Description()
-    // Offset: 0x17354C0
+    // Offset: 0x14F1094
     // Implemented from: System.ComponentModel.DescriptionAttribute
     // Base method: System.String DescriptionAttribute::get_Description()
     ::Il2CppString* get_Description();

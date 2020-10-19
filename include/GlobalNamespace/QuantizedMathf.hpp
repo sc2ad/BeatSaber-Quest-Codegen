@@ -20,10 +20,10 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kEpsilon
     static void _set_kEpsilon(float value);
     // static public System.Boolean Approximately(System.Single a, System.Single b)
-    // Offset: 0x21BDC2C
+    // Offset: 0x1F10890
     static bool Approximately(float a, float b);
     // static public System.Boolean RoughlyApproximately(System.Single a, System.Single b)
-    // Offset: 0x21BDCAC
+    // Offset: 0x1F10910
     static bool RoughlyApproximately(float a, float b);
   }; // QuantizedMathf
 }

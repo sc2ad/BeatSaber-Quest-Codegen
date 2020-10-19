@@ -36,16 +36,16 @@ namespace TMPro {
     // Offset: 0x18
     System::Collections::Generic::Dictionary_2<int64_t, TMPro::TMP_GlyphPairAdjustmentRecord*>* m_GlyphPairAdjustmentRecordLookupDictionary;
     // System.Collections.Generic.List`1<TMPro.TMP_GlyphPairAdjustmentRecord> get_glyphPairAdjustmentRecords()
-    // Offset: 0xF4E630
+    // Offset: 0xEC8F64
     System::Collections::Generic::List_1<TMPro::TMP_GlyphPairAdjustmentRecord*>* get_glyphPairAdjustmentRecords();
     // System.Void set_glyphPairAdjustmentRecords(System.Collections.Generic.List`1<TMPro.TMP_GlyphPairAdjustmentRecord> value)
-    // Offset: 0xF4E638
+    // Offset: 0xEC8F6C
     void set_glyphPairAdjustmentRecords(System::Collections::Generic::List_1<TMPro::TMP_GlyphPairAdjustmentRecord*>* value);
     // public System.Void SortGlyphPairAdjustmentRecords()
-    // Offset: 0xF4E640
+    // Offset: 0xEC8F74
     void SortGlyphPairAdjustmentRecords();
     // public System.Void .ctor()
-    // Offset: 0xF4CF14
+    // Offset: 0xEC7848
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TMP_FontFeatureTable* New_ctor();

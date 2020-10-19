@@ -40,7 +40,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Offset: 0x38
     ::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>* gameplayModifiers;
     // public System.Void .ctor()
-    // Offset: 0x10467D0
+    // Offset: 0x20C1510
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LeaderboardEntry* New_ctor();

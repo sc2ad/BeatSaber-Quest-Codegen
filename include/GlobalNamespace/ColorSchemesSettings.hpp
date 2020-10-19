@@ -42,40 +42,40 @@ namespace GlobalNamespace {
     // Offset: 0x28
     ::Il2CppString* selectedColorSchemeId;
     // public System.Void set_selectedColorSchemeId(System.String value)
-    // Offset: 0xF25FA8
+    // Offset: 0x1FB99A4
     void set_selectedColorSchemeId(::Il2CppString* value);
     // public System.String get_selectedColorSchemeId()
-    // Offset: 0xF25FB0
+    // Offset: 0x1FB99AC
     ::Il2CppString* get_selectedColorSchemeId();
     // public System.Void .ctor(ColorScheme[] colorSchemes)
-    // Offset: 0xF25FB8
+    // Offset: 0x1FB99B4
     static ColorSchemesSettings* New_ctor(::Array<GlobalNamespace::ColorScheme*>* colorSchemes);
     // public System.Void .ctor(ColorSchemeSO[] colorSchemeSOs)
-    // Offset: 0xF26114
+    // Offset: 0x1FB9B10
     static ColorSchemesSettings* New_ctor(::Array<GlobalNamespace::ColorSchemeSO*>* colorSchemeSOs);
     // static private ColorScheme[] ConvertColorSchemeSOs(ColorSchemeSO[] colorSchemeSOs)
-    // Offset: 0xF26140
+    // Offset: 0x1FB9B3C
     static ::Array<GlobalNamespace::ColorScheme*>* ConvertColorSchemeSOs(::Array<GlobalNamespace::ColorSchemeSO*>* colorSchemeSOs);
     // public System.Int32 GetNumberOfColorSchemes()
-    // Offset: 0xF26270
+    // Offset: 0x1FB9C6C
     int GetNumberOfColorSchemes();
     // public ColorScheme GetColorSchemeForIdx(System.Int32 idx)
-    // Offset: 0xF262C0
+    // Offset: 0x1FB9CBC
     GlobalNamespace::ColorScheme* GetColorSchemeForIdx(int idx);
     // public ColorScheme GetColorSchemeForId(System.String id)
-    // Offset: 0xF26338
+    // Offset: 0x1FB9D34
     GlobalNamespace::ColorScheme* GetColorSchemeForId(::Il2CppString* id);
     // public System.Void SetColorSchemeForId(ColorScheme colorScheme)
-    // Offset: 0xF263A0
+    // Offset: 0x1FB9D9C
     void SetColorSchemeForId(GlobalNamespace::ColorScheme* colorScheme);
     // public ColorScheme GetSelectedColorScheme()
-    // Offset: 0xF2649C
+    // Offset: 0x1FB9E98
     GlobalNamespace::ColorScheme* GetSelectedColorScheme();
     // public System.Int32 GetSelectedColorSchemeIdx()
-    // Offset: 0xF264F8
+    // Offset: 0x1FB9EF4
     int GetSelectedColorSchemeIdx();
     // public ColorScheme GetOverrideColorScheme()
-    // Offset: 0xF1C52C
+    // Offset: 0x1FAFB88
     GlobalNamespace::ColorScheme* GetOverrideColorScheme();
   }; // ColorSchemesSettings
 }

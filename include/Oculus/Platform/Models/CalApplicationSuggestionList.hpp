@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
   class CalApplicationSuggestionList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::CalApplicationSuggestion*> {
     public:
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x1362F48
+    // Offset: 0x1138684
     static CalApplicationSuggestionList* New_ctor(System::IntPtr a);
   }; // Oculus.Platform.Models.CalApplicationSuggestionList
 }

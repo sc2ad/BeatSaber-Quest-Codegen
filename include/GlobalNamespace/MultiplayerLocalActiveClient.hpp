@@ -65,37 +65,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public BeatmapObjectManager get_beatmapObjectManager()
-    // Offset: 0x2238C2C
+    // Offset: 0x204723C
     GlobalNamespace::BeatmapObjectManager* get_beatmapObjectManager();
     // protected System.Void Start()
-    // Offset: 0x2238C34
+    // Offset: 0x2047244
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x22390F4
+    // Offset: 0x2047704
     void OnDestroy();
     // protected System.Void LateUpdate()
-    // Offset: 0x2239348
+    // Offset: 0x2047958
     void LateUpdate();
     // private System.Void HandleNoteWasMissed(NoteController noteController)
-    // Offset: 0x2239768
+    // Offset: 0x2047D78
     void HandleNoteWasMissed(GlobalNamespace::NoteController* noteController);
     // private System.Void HandleNoteWasCut(NoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0x223986C
+    // Offset: 0x2047E7C
     void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // private System.Void ScoreControllerHandleComboDidChange(System.Int32 combo)
-    // Offset: 0x2239A0C
+    // Offset: 0x204801C
     void ScoreControllerHandleComboDidChange(int combo);
     // private System.Void ScoreControllerHandleMultiplierDidChange(System.Int32 multiplier, System.Single multiplierProgress)
-    // Offset: 0x2239AF4
+    // Offset: 0x2048104
     void ScoreControllerHandleMultiplierDidChange(int multiplier, float multiplierProgress);
     // private System.Void ScoreControllerHandleImmediateMaxPossibleScoreDidChange(System.Int32 immediateMaxPossibleRawScore, System.Int32 immediateMaxPossibleModifiedScore)
-    // Offset: 0x2239BDC
+    // Offset: 0x20481EC
     void ScoreControllerHandleImmediateMaxPossibleScoreDidChange(int immediateMaxPossibleRawScore, int immediateMaxPossibleModifiedScore);
     // private System.Void ScoreControllerHandleScoreDidChange(System.Int32 rawScore, System.Int32 modifiedScore)
-    // Offset: 0x2239CC4
+    // Offset: 0x20482D4
     void ScoreControllerHandleScoreDidChange(int rawScore, int modifiedScore);
     // public System.Void .ctor()
-    // Offset: 0x2239E40
+    // Offset: 0x2048450
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

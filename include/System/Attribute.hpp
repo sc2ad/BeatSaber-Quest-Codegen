@@ -32,65 +32,65 @@ namespace System {
   class Attribute : public ::Il2CppObject {
     public:
     // static private System.Attribute[] InternalGetCustomAttributes(System.Reflection.PropertyInfo element, System.Type type, System.Boolean inherit)
-    // Offset: 0x15C9A14
+    // Offset: 0x13A023C
     static ::Array<System::Attribute*>* InternalGetCustomAttributes(System::Reflection::PropertyInfo* element, System::Type* type, bool inherit);
     // static private System.Attribute[] InternalGetCustomAttributes(System.Reflection.EventInfo element, System.Type type, System.Boolean inherit)
-    // Offset: 0x15C9AC4
+    // Offset: 0x13A02EC
     static ::Array<System::Attribute*>* InternalGetCustomAttributes(System::Reflection::EventInfo* element, System::Type* type, bool inherit);
     // static private System.Attribute[] InternalParamGetCustomAttributes(System.Reflection.ParameterInfo parameter, System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x15C9B74
+    // Offset: 0x13A039C
     static ::Array<System::Attribute*>* InternalParamGetCustomAttributes(System::Reflection::ParameterInfo* parameter, System::Type* attributeType, bool inherit);
     // static private System.Boolean InternalIsDefined(System.Reflection.PropertyInfo element, System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x15C9F58
+    // Offset: 0x13A0780
     static bool InternalIsDefined(System::Reflection::PropertyInfo* element, System::Type* attributeType, bool inherit);
     // static private System.Boolean InternalIsDefined(System.Reflection.EventInfo element, System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x15C9FD8
+    // Offset: 0x13A0800
     static bool InternalIsDefined(System::Reflection::EventInfo* element, System::Type* attributeType, bool inherit);
     // static public System.Attribute[] GetCustomAttributes(System.Reflection.MemberInfo element, System.Type type, System.Boolean inherit)
-    // Offset: 0x15CA058
+    // Offset: 0x13A0880
     static ::Array<System::Attribute*>* GetCustomAttributes(System::Reflection::MemberInfo* element, System::Type* type, bool inherit);
     // static public System.Boolean IsDefined(System.Reflection.MemberInfo element, System.Type attributeType)
-    // Offset: 0x15CA320
+    // Offset: 0x13A0B48
     static bool IsDefined(System::Reflection::MemberInfo* element, System::Type* attributeType);
     // static public System.Boolean IsDefined(System.Reflection.MemberInfo element, System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x15CA328
+    // Offset: 0x13A0B50
     static bool IsDefined(System::Reflection::MemberInfo* element, System::Type* attributeType, bool inherit);
     // static public System.Attribute GetCustomAttribute(System.Reflection.MemberInfo element, System.Type attributeType)
-    // Offset: 0x15CA5E0
+    // Offset: 0x13A0E08
     static System::Attribute* GetCustomAttribute(System::Reflection::MemberInfo* element, System::Type* attributeType);
     // static public System.Attribute GetCustomAttribute(System.Reflection.MemberInfo element, System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x15CA5E8
+    // Offset: 0x13A0E10
     static System::Attribute* GetCustomAttribute(System::Reflection::MemberInfo* element, System::Type* attributeType, bool inherit);
     // static public System.Attribute[] GetCustomAttributes(System.Reflection.ParameterInfo element, System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x15CA6B8
+    // Offset: 0x13A0EE0
     static ::Array<System::Attribute*>* GetCustomAttributes(System::Reflection::ParameterInfo* element, System::Type* attributeType, bool inherit);
     // static public System.Attribute[] GetCustomAttributes(System.Reflection.Assembly element, System.Type attributeType)
-    // Offset: 0x15CA954
+    // Offset: 0x13A117C
     static ::Array<System::Attribute*>* GetCustomAttributes(System::Reflection::Assembly* element, System::Type* attributeType);
     // static public System.Attribute[] GetCustomAttributes(System.Reflection.Assembly element, System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x15CA95C
+    // Offset: 0x13A1184
     static ::Array<System::Attribute*>* GetCustomAttributes(System::Reflection::Assembly* element, System::Type* attributeType, bool inherit);
     // static public System.Attribute GetCustomAttribute(System.Reflection.Assembly element, System.Type attributeType)
-    // Offset: 0x15CAB74
+    // Offset: 0x13A139C
     static System::Attribute* GetCustomAttribute(System::Reflection::Assembly* element, System::Type* attributeType);
     // static public System.Attribute GetCustomAttribute(System.Reflection.Assembly element, System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x15CAB7C
+    // Offset: 0x13A13A4
     static System::Attribute* GetCustomAttribute(System::Reflection::Assembly* element, System::Type* attributeType, bool inherit);
     // static private System.Boolean AreFieldValuesEqual(System.Object thisValue, System.Object thatValue)
-    // Offset: 0x15CAE9C
+    // Offset: 0x13A16C4
     static bool AreFieldValuesEqual(::Il2CppObject* thisValue, ::Il2CppObject* thatValue);
     // protected System.Void .ctor()
-    // Offset: 0x15CAC4C
+    // Offset: 0x13A1474
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Attribute* New_ctor();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x15CAC54
+    // Offset: 0x13A147C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x15CB064
+    // Offset: 0x13A188C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

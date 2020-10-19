@@ -44,132 +44,132 @@ namespace UnityEngine {
     // Set static field: static private UnityEngine.Event s_MasterEvent
     static void _set_s_MasterEvent(UnityEngine::Event* value);
     // public UnityEngine.EventType get_rawType()
-    // Offset: 0x18FD0F4
+    // Offset: 0x16A3518
     UnityEngine::EventType get_rawType();
     // public UnityEngine.Vector2 get_mousePosition()
-    // Offset: 0x18FD134
+    // Offset: 0x16A3558
     UnityEngine::Vector2 get_mousePosition();
     // public UnityEngine.Vector2 get_delta()
-    // Offset: 0x18FD1DC
+    // Offset: 0x16A3600
     UnityEngine::Vector2 get_delta();
     // public UnityEngine.PointerType get_pointerType()
-    // Offset: 0x18FD284
+    // Offset: 0x16A36A8
     UnityEngine::PointerType get_pointerType();
     // public UnityEngine.EventModifiers get_modifiers()
-    // Offset: 0x18FD2C4
+    // Offset: 0x16A36E8
     UnityEngine::EventModifiers get_modifiers();
     // public System.Void set_modifiers(UnityEngine.EventModifiers value)
-    // Offset: 0x18FD304
+    // Offset: 0x16A3728
     void set_modifiers(UnityEngine::EventModifiers value);
     // public System.Int32 get_clickCount()
-    // Offset: 0x18FD354
+    // Offset: 0x16A3778
     int get_clickCount();
     // public System.Char get_character()
-    // Offset: 0x18FD394
+    // Offset: 0x16A37B8
     ::Il2CppChar get_character();
     // public System.Void set_character(System.Char value)
-    // Offset: 0x18FD3D4
+    // Offset: 0x16A37F8
     void set_character(::Il2CppChar value);
     // public UnityEngine.KeyCode get_keyCode()
-    // Offset: 0x18FD424
+    // Offset: 0x16A3848
     UnityEngine::KeyCode get_keyCode();
     // public System.Void set_keyCode(UnityEngine.KeyCode value)
-    // Offset: 0x18FD464
+    // Offset: 0x16A3888
     void set_keyCode(UnityEngine::KeyCode value);
     // public System.Void set_displayIndex(System.Int32 value)
-    // Offset: 0x18FD4B4
+    // Offset: 0x16A38D8
     void set_displayIndex(int value);
     // public UnityEngine.EventType get_type()
-    // Offset: 0x18FD504
+    // Offset: 0x16A3928
     UnityEngine::EventType get_type();
     // public System.Void set_type(UnityEngine.EventType value)
-    // Offset: 0x18FD544
+    // Offset: 0x16A3968
     void set_type(UnityEngine::EventType value);
     // public System.String get_commandName()
-    // Offset: 0x18FD594
+    // Offset: 0x16A39B8
     ::Il2CppString* get_commandName();
     // private System.Void Internal_Use()
-    // Offset: 0x18FD5D4
+    // Offset: 0x16A39F8
     void Internal_Use();
     // static private System.IntPtr Internal_Create(System.Int32 displayIndex)
-    // Offset: 0x18FD614
+    // Offset: 0x16A3A38
     static System::IntPtr Internal_Create(int displayIndex);
     // static private System.Void Internal_Destroy(System.IntPtr ptr)
-    // Offset: 0x18FD654
+    // Offset: 0x16A3A78
     static void Internal_Destroy(System::IntPtr ptr);
     // public UnityEngine.EventType GetTypeForControl(System.Int32 controlID)
-    // Offset: 0x18FD694
+    // Offset: 0x16A3AB8
     UnityEngine::EventType GetTypeForControl(int controlID);
     // static public System.Boolean PopEvent(UnityEngine.Event outEvent)
-    // Offset: 0x18FD6E4
+    // Offset: 0x16A3B08
     static bool PopEvent(UnityEngine::Event* outEvent);
     // static private System.Void Internal_SetNativeEvent(System.IntPtr ptr)
-    // Offset: 0x18FD724
+    // Offset: 0x16A3B48
     static void Internal_SetNativeEvent(System::IntPtr ptr);
     // static System.Void Internal_MakeMasterEventCurrent(System.Int32 displayIndex)
-    // Offset: 0x18FD764
+    // Offset: 0x16A3B88
     static void Internal_MakeMasterEventCurrent(int displayIndex);
     // public System.Void .ctor(System.Int32 displayIndex)
-    // Offset: 0x18FD874
+    // Offset: 0x16A3C98
     static Event* New_ctor(int displayIndex);
     // public System.Boolean get_shift()
-    // Offset: 0x18FD9FC
+    // Offset: 0x16A3E20
     bool get_shift();
     // public System.Boolean get_control()
-    // Offset: 0x18FDA44
+    // Offset: 0x16A3E68
     bool get_control();
     // public System.Boolean get_alt()
-    // Offset: 0x18FDA8C
+    // Offset: 0x16A3EB0
     bool get_alt();
     // public System.Boolean get_command()
-    // Offset: 0x18FDAD4
+    // Offset: 0x16A3EF8
     bool get_command();
     // static public UnityEngine.Event get_current()
-    // Offset: 0x18FDB1C
+    // Offset: 0x16A3F40
     static UnityEngine::Event* get_current();
     // public System.Boolean get_isKey()
-    // Offset: 0x18FDB6C
+    // Offset: 0x16A3F90
     bool get_isKey();
     // public System.Boolean get_isMouse()
-    // Offset: 0x18FDBBC
+    // Offset: 0x16A3FE0
     bool get_isMouse();
     // System.Boolean get_isDirectManipulationDevice()
-    // Offset: 0x18FDC24
+    // Offset: 0x16A4048
     bool get_isDirectManipulationDevice();
     // static public UnityEngine.Event KeyboardEvent(System.String key)
-    // Offset: 0x18FDCA4
+    // Offset: 0x16A40C8
     static UnityEngine::Event* KeyboardEvent(::Il2CppString* key);
     // public System.Void Use()
-    // Offset: 0x1900224
+    // Offset: 0x16A6648
     void Use();
     // private System.Void get_mousePosition_Injected(out UnityEngine.Vector2 ret)
-    // Offset: 0x18FD18C
+    // Offset: 0x16A35B0
     void get_mousePosition_Injected(UnityEngine::Vector2& ret);
     // private System.Void get_delta_Injected(out UnityEngine.Vector2 ret)
-    // Offset: 0x18FD234
+    // Offset: 0x16A3658
     void get_delta_Injected(UnityEngine::Vector2& ret);
     // public System.Void .ctor()
-    // Offset: 0x18FD8D0
+    // Offset: 0x16A3CF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Event* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x18FD920
+    // Offset: 0x16A3D44
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x18FF608
+    // Offset: 0x16A5A2C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x18FF6F4
+    // Offset: 0x16A5B18
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.String ToString()
-    // Offset: 0x18FF970
+    // Offset: 0x16A5D94
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

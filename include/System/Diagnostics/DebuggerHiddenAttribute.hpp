@@ -14,7 +14,7 @@ namespace System::Diagnostics {
   class DebuggerHiddenAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x19C8D1C
+    // Offset: 0x176F140
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

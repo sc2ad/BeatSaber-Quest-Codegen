@@ -24,16 +24,16 @@ namespace UnityEngine::ProBuilder {
     // Creating value type constructor for type: SearchRange
     constexpr SearchRange(int begin_ = {}, int end_ = {}) noexcept : begin{begin_}, end{end_} {}
     // public System.Void .ctor(System.Int32 begin, System.Int32 end)
-    // Offset: 0xDCC120
+    // Offset: 0xC800A4
     // ABORTED: conflicts with another method.  SearchRange(int begin, int end);
     // public System.Boolean Valid()
-    // Offset: 0xDCC128
+    // Offset: 0xC800AC
     bool Valid();
     // public System.Int32 Center()
-    // Offset: 0xDCC13C
+    // Offset: 0xC800C0
     int Center();
     // public override System.String ToString()
-    // Offset: 0xDCC154
+    // Offset: 0xC800D8
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

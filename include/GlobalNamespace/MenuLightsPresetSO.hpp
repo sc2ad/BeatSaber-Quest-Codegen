@@ -34,16 +34,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public ColorSO get_playersPlaceNeonsColor()
-    // Offset: 0xED95B8
+    // Offset: 0x1FC3180
     GlobalNamespace::ColorSO* get_playersPlaceNeonsColor();
     // public System.Single get_playersPlaceNeonsIntensity()
-    // Offset: 0xED95C0
+    // Offset: 0x1FC3188
     float get_playersPlaceNeonsIntensity();
     // public MenuLightsPresetSO/LightIdColorPair[] get_lightIdColorPairs()
-    // Offset: 0xED95C8
+    // Offset: 0x1FC3190
     ::Array<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*>* get_lightIdColorPairs();
     // public System.Void .ctor()
-    // Offset: 0xED95D0
+    // Offset: 0x1FC3198
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

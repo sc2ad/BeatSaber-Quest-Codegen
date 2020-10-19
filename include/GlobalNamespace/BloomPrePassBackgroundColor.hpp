@@ -58,24 +58,24 @@ namespace GlobalNamespace {
     // Set static field: static private System.Boolean _initialized
     static void _set__initialized(bool value);
     // public UnityEngine.Color get_color()
-    // Offset: 0x1FA846C
+    // Offset: 0x1CF90D0
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x1FA8478
+    // Offset: 0x1CF90DC
     void set_color(UnityEngine::Color value);
     // private UnityEngine.Color get_bgColor()
-    // Offset: 0x1FA8484
+    // Offset: 0x1CF90E8
     UnityEngine::Color get_bgColor();
     // private System.Void InitIfNeeded()
-    // Offset: 0x1FA8510
+    // Offset: 0x1CF9174
     void InitIfNeeded();
     // public override System.Void Render(UnityEngine.RenderTexture dest, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix)
-    // Offset: 0x1FA866C
+    // Offset: 0x1CF92D0
     // Implemented from: BloomPrePassAfterLightsPass
     // Base method: System.Void BloomPrePassAfterLightsPass::Render(UnityEngine.RenderTexture dest, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix)
     void Render(UnityEngine::RenderTexture* dest, UnityEngine::Matrix4x4 viewMatrix, UnityEngine::Matrix4x4 projectionMatrix);
     // public System.Void .ctor()
-    // Offset: 0x1FA8754
+    // Offset: 0x1CF93B8
     // Implemented from: BloomPrePassAfterLightsPass
     // Base method: System.Void BloomPrePassAfterLightsPass::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -85,7 +85,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BloomPrePassBackgroundColor* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1FA87D0
+    // Offset: 0x1CF9434
     // Implemented from: BloomPrePassAfterLightsPass
     // Base method: System.Void BloomPrePassAfterLightsPass::.cctor()
     // Base method: System.Void Object::.cctor()

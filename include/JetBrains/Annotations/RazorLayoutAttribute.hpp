@@ -14,7 +14,7 @@ namespace JetBrains::Annotations {
   class RazorLayoutAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x220C5A0
+    // Offset: 0x1F5CFB0
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

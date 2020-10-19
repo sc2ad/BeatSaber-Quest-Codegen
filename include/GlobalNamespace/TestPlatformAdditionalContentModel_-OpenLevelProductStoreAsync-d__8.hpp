@@ -46,12 +46,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: $OpenLevelProductStoreAsync$d__8
     constexpr $OpenLevelProductStoreAsync$d__8(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult> $$t__builder_ = {}, System::Threading::CancellationToken token_ = {}, ::Il2CppString* levelId_ = {}, GlobalNamespace::TestPlatformAdditionalContentModel* $$4__this_ = {}, System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, token{token_}, levelId{levelId_}, $$4__this{$$4__this_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
-    // Offset: 0xDA15E4
+    // Offset: 0xE4DA70
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDA15EC
+    // Offset: 0xE4DA78
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

@@ -23,51 +23,51 @@ namespace Mono::Net {
       return Handle;
     }
     // static public System.IntPtr dlopen(System.String path, System.Int32 mode)
-    // Offset: 0x14145D0
+    // Offset: 0x11EAD0C
     static System::IntPtr dlopen(::Il2CppString* path, int mode);
     // static private System.IntPtr dlsym(System.IntPtr handle, System.String symbol)
-    // Offset: 0x1417764
+    // Offset: 0x11EDEA0
     static System::IntPtr dlsym(System::IntPtr handle, ::Il2CppString* symbol);
     // static public System.Void dlclose(System.IntPtr handle)
-    // Offset: 0x141467C
+    // Offset: 0x11EADB8
     static void dlclose(System::IntPtr handle);
     // static public System.IntPtr GetIndirect(System.IntPtr handle, System.String symbol)
-    // Offset: 0x1414678
+    // Offset: 0x11EADB4
     static System::IntPtr GetIndirect(System::IntPtr handle, ::Il2CppString* symbol);
     // static public System.IntPtr GetCFObjectHandle(System.IntPtr handle, System.String symbol)
-    // Offset: 0x1417810
+    // Offset: 0x11EDF4C
     static System::IntPtr GetCFObjectHandle(System::IntPtr handle, ::Il2CppString* symbol);
     // public System.Void .ctor(System.IntPtr handle, System.Boolean own)
-    // Offset: 0x14144B4
+    // Offset: 0x11EABF0
     static CFObject* New_ctor(System::IntPtr handle, bool own);
     // public System.IntPtr get_Handle()
-    // Offset: 0x1417934
+    // Offset: 0x11EE070
     System::IntPtr get_Handle();
     // private System.Void set_Handle(System.IntPtr value)
-    // Offset: 0x141793C
+    // Offset: 0x11EE078
     void set_Handle(System::IntPtr value);
     // static System.IntPtr CFRetain(System.IntPtr handle)
-    // Offset: 0x1417944
+    // Offset: 0x11EE080
     static System::IntPtr CFRetain(System::IntPtr handle);
     // private System.Void Retain()
-    // Offset: 0x14178B8
+    // Offset: 0x11EDFF4
     void Retain();
     // static System.Void CFRelease(System.IntPtr handle)
-    // Offset: 0x14179C0
+    // Offset: 0x11EE0FC
     static void CFRelease(System::IntPtr handle);
     // private System.Void Release()
-    // Offset: 0x1417A40
+    // Offset: 0x11EE17C
     void Release();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1417A48
+    // Offset: 0x11EE184
     void Dispose(bool disposing);
     // protected override System.Void Finalize()
-    // Offset: 0x14178C0
+    // Offset: 0x11EDFFC
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public System.Void Dispose()
-    // Offset: 0x14156AC
+    // Offset: 0x11EBDE8
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

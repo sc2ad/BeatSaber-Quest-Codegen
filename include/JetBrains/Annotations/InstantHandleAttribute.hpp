@@ -14,7 +14,7 @@ namespace JetBrains::Annotations {
   class InstantHandleAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x220C190
+    // Offset: 0x1F5CBA0
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

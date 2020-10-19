@@ -39,28 +39,28 @@ namespace UnityEngine::Events {
     // Offset: 0x30
     bool m_BoolArgument;
     // public UnityEngine.Object get_unityObjectArgument()
-    // Offset: 0x19E9F58
+    // Offset: 0x179037C
     UnityEngine::Object* get_unityObjectArgument();
     // public System.String get_unityObjectArgumentAssemblyTypeName()
-    // Offset: 0x19E9F60
+    // Offset: 0x1790384
     ::Il2CppString* get_unityObjectArgumentAssemblyTypeName();
     // public System.Int32 get_intArgument()
-    // Offset: 0x19E9F68
+    // Offset: 0x179038C
     int get_intArgument();
     // public System.Single get_floatArgument()
-    // Offset: 0x19E9F70
+    // Offset: 0x1790394
     float get_floatArgument();
     // public System.String get_stringArgument()
-    // Offset: 0x19E9F78
+    // Offset: 0x179039C
     ::Il2CppString* get_stringArgument();
     // public System.Boolean get_boolArgument()
-    // Offset: 0x19E9F80
+    // Offset: 0x17903A4
     bool get_boolArgument();
     // private System.Void TidyAssemblyTypeName()
-    // Offset: 0x19E9F88
+    // Offset: 0x17903AC
     void TidyAssemblyTypeName();
     // public System.Void OnBeforeSerialize()
-    // Offset: 0x19EA1C4
+    // Offset: 0x17905E8
     // Implemented from: UnityEngine.ISerializationCallbackReceiver
     // Base method: System.Void ISerializationCallbackReceiver::OnBeforeSerialize()
     void OnBeforeSerialize();
@@ -68,7 +68,7 @@ namespace UnityEngine::Events {
     // Maps to method: OnBeforeSerialize
     void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
     // public System.Void OnAfterDeserialize()
-    // Offset: 0x19EA1C8
+    // Offset: 0x17905EC
     // Implemented from: UnityEngine.ISerializationCallbackReceiver
     // Base method: System.Void ISerializationCallbackReceiver::OnAfterDeserialize()
     void OnAfterDeserialize();
@@ -76,7 +76,7 @@ namespace UnityEngine::Events {
     // Maps to method: OnAfterDeserialize
     void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
     // public System.Void .ctor()
-    // Offset: 0x19EA1CC
+    // Offset: 0x17905F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ArgumentCache* New_ctor();

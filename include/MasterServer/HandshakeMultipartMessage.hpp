@@ -24,15 +24,15 @@ namespace MasterServer {
   class HandshakeMultipartMessage : public MasterServer::BaseMasterServerMultipartMessage, public MasterServer::IHandshakeMessage {
     public:
     // static public PacketPool`1<MasterServer.HandshakeMultipartMessage> get_pool()
-    // Offset: 0x10BEF78
+    // Offset: 0x2120AE0
     static GlobalNamespace::PacketPool_1<MasterServer::HandshakeMultipartMessage*>* get_pool();
     // public override System.Void Release()
-    // Offset: 0x10BEFC0
+    // Offset: 0x2120B28
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x10BF01C
+    // Offset: 0x2120B84
     // Implemented from: MasterServer.BaseMasterServerMultipartMessage
     // Base method: System.Void BaseMasterServerMultipartMessage::.ctor()
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()

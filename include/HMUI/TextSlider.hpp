@@ -93,126 +93,126 @@ namespace HMUI {
     // Offset: 0x130
     UnityEngine::DrivenRectTransformTracker tracker;
     // public System.Void set_valueTextColor(UnityEngine.Color value)
-    // Offset: 0x1181CD8
+    // Offset: 0x217B6C0
     void set_valueTextColor(UnityEngine::Color value);
     // public UnityEngine.RectTransform get_handleRect()
-    // Offset: 0x1181CFC
+    // Offset: 0x217B6E4
     UnityEngine::RectTransform* get_handleRect();
     // public System.Void set_handleRect(UnityEngine.RectTransform value)
-    // Offset: 0x1181D04
+    // Offset: 0x217B6EC
     void set_handleRect(UnityEngine::RectTransform* value);
     // public System.Void set_handleColor(UnityEngine.Color value)
-    // Offset: 0x1181F08
+    // Offset: 0x217B8F0
     void set_handleColor(UnityEngine::Color value);
     // public System.Single get_handleSize()
-    // Offset: 0x1181FDC
+    // Offset: 0x217B9C4
     float get_handleSize();
     // public System.Void set_handleSize(System.Single value)
-    // Offset: 0x1181FE4
+    // Offset: 0x217B9CC
     void set_handleSize(float value);
     // public System.Single get_valueSize()
-    // Offset: 0x118206C
+    // Offset: 0x217BA54
     float get_valueSize();
     // public System.Void set_valueSize(System.Single value)
-    // Offset: 0x1182074
+    // Offset: 0x217BA5C
     void set_valueSize(float value);
     // public System.Single get_separatorSize()
-    // Offset: 0x11820FC
+    // Offset: 0x217BAE4
     float get_separatorSize();
     // public System.Void set_separatorSize(System.Single value)
-    // Offset: 0x1182104
+    // Offset: 0x217BAEC
     void set_separatorSize(float value);
     // public System.Int32 get_numberOfSteps()
-    // Offset: 0x118218C
+    // Offset: 0x217BB74
     int get_numberOfSteps();
     // public System.Void set_numberOfSteps(System.Int32 value)
-    // Offset: 0x1182194
+    // Offset: 0x217BB7C
     void set_numberOfSteps(int value);
     // public System.Single get_normalizedValue()
-    // Offset: 0x117424C
+    // Offset: 0x216DC34
     float get_normalizedValue();
     // public System.Void set_normalizedValue(System.Single value)
-    // Offset: 0x1174210
+    // Offset: 0x216DBF8
     void set_normalizedValue(float value);
     // public System.Void add_normalizedValueDidChangeEvent(System.Action`2<HMUI.TextSlider,System.Single> value)
-    // Offset: 0x1174694
+    // Offset: 0x216E07C
     void add_normalizedValueDidChangeEvent(System::Action_2<HMUI::TextSlider*, float>* value);
     // public System.Void remove_normalizedValueDidChangeEvent(System.Action`2<HMUI.TextSlider,System.Single> value)
-    // Offset: 0x11747D4
+    // Offset: 0x216E1BC
     void remove_normalizedValueDidChangeEvent(System::Action_2<HMUI::TextSlider*, float>* value);
     // private System.Void UpdateCachedReferences()
-    // Offset: 0x1181D94
+    // Offset: 0x217B77C
     void UpdateCachedReferences();
     // protected System.Void SetNormalizedValue(System.Single input)
-    // Offset: 0x1174A78
+    // Offset: 0x216E460
     void SetNormalizedValue(float input);
     // private System.Void SetNormalizedValue(System.Single input, System.Boolean sendCallback)
-    // Offset: 0x118222C
+    // Offset: 0x217BC14
     void SetNormalizedValue(float input, bool sendCallback);
     // protected System.Void UpdateVisuals()
-    // Offset: 0x11823F4
+    // Offset: 0x217BDDC
     void UpdateVisuals();
     // private System.Void UpdateDrag(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x11828B4
+    // Offset: 0x217C29C
     void UpdateDrag(UnityEngine::EventSystems::PointerEventData* eventData);
     // private System.Boolean MayDrag(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1182B94
+    // Offset: 0x217C59C
     bool MayDrag(UnityEngine::EventSystems::PointerEventData* eventData);
     // protected System.String TextForNormalizedValue(System.Single normalizedValue)
-    // Offset: 0x1182E28
+    // Offset: 0x217C830
     ::Il2CppString* TextForNormalizedValue(float normalizedValue);
     // public System.Void Rebuild(UnityEngine.UI.CanvasUpdate executing)
-    // Offset: 0x1182318
+    // Offset: 0x217BD00
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: System.Void ICanvasElement::Rebuild(UnityEngine.UI.CanvasUpdate executing)
     void Rebuild(UnityEngine::UI::CanvasUpdate executing);
     // public System.Void LayoutComplete()
-    // Offset: 0x118231C
+    // Offset: 0x217BD04
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: System.Void ICanvasElement::LayoutComplete()
     void LayoutComplete();
     // public System.Void GraphicUpdateComplete()
-    // Offset: 0x1182320
+    // Offset: 0x217BD08
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: System.Void ICanvasElement::GraphicUpdateComplete()
     void GraphicUpdateComplete();
     // protected override System.Void OnEnable()
-    // Offset: 0x1182324
+    // Offset: 0x217BD0C
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0x1182370
+    // Offset: 0x217BD58
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::OnDisable()
     void OnDisable();
     // protected override System.Void OnRectTransformDimensionsChange()
-    // Offset: 0x11823A0
+    // Offset: 0x217BD88
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnRectTransformDimensionsChange()
     void OnRectTransformDimensionsChange();
     // public System.Void OnBeginDrag(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1182BFC
+    // Offset: 0x217C604
     // Implemented from: UnityEngine.EventSystems.IBeginDragHandler
     // Base method: System.Void IBeginDragHandler::OnBeginDrag(UnityEngine.EventSystems.PointerEventData eventData)
     void OnBeginDrag(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnDrag(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1182CA0
+    // Offset: 0x217C6A8
     // Implemented from: UnityEngine.EventSystems.IDragHandler
     // Base method: System.Void IDragHandler::OnDrag(UnityEngine.EventSystems.PointerEventData eventData)
     void OnDrag(UnityEngine::EventSystems::PointerEventData* eventData);
     // public override System.Void OnPointerDown(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1182D54
+    // Offset: 0x217C75C
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::OnPointerDown(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerDown(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnInitializePotentialDrag(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1182E10
+    // Offset: 0x217C818
     // Implemented from: UnityEngine.EventSystems.IInitializePotentialDragHandler
     // Base method: System.Void IInitializePotentialDragHandler::OnInitializePotentialDrag(UnityEngine.EventSystems.PointerEventData eventData)
     void OnInitializePotentialDrag(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0x11749A0
+    // Offset: 0x216E388
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -223,7 +223,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static TextSlider* New_ctor();
     // private UnityEngine.Transform UnityEngine.UI.ICanvasElement.get_transform()
-    // Offset: 0x1182E50
+    // Offset: 0x217C858
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: UnityEngine.Transform ICanvasElement::get_transform()
     UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();

@@ -39,25 +39,25 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Single get_deltaTime()
-    // Offset: 0x18E7988
+    // Offset: 0x168DDAC
     float get_deltaTime();
     // protected System.Void OnModifyOffset()
     // Offset: 0xFFFFFFFF
     void OnModifyOffset();
     // protected System.Void Start()
-    // Offset: 0x18E79B4
+    // Offset: 0x168DDD8
     void Start();
     // private System.Collections.IEnumerator Initiate()
-    // Offset: 0x18E79E0
+    // Offset: 0x168DE04
     System::Collections::IEnumerator* Initiate();
     // private System.Void ModifyOffset()
-    // Offset: 0x18E7A88
+    // Offset: 0x168DEAC
     void ModifyOffset();
     // protected System.Void OnDestroy()
-    // Offset: 0x18E7B94
+    // Offset: 0x168DFB8
     void OnDestroy();
     // protected System.Void .ctor()
-    // Offset: 0x18E7CB0
+    // Offset: 0x168E0D4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

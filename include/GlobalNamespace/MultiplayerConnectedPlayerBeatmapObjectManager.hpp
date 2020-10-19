@@ -21,8 +21,6 @@
 namespace GlobalNamespace {
   // Forward declaring type: ObstacleController
   class ObstacleController;
-  // Forward declaring type: NoteRibbonController
-  class NoteRibbonController;
   // Forward declaring type: MonoMemoryPoolContainer`1<T>
   template<typename T>
   class MonoMemoryPoolContainer_1;
@@ -53,45 +51,37 @@ namespace GlobalNamespace {
     // private readonly System.Collections.Generic.HashSet`1<ObstacleController> _emptyObstaclesSet
     // Offset: 0x50
     System::Collections::Generic::HashSet_1<GlobalNamespace::ObstacleController*>* emptyObstaclesSet;
-    // private readonly System.Collections.Generic.HashSet`1<NoteRibbonController> _emptyNoteRibbonsSet
-    // Offset: 0x58
-    System::Collections::Generic::HashSet_1<GlobalNamespace::NoteRibbonController*>* emptyNoteRibbonsSet;
     // private System.Nullable`1<System.Single> _firstBasicNoteTime
-    // Offset: 0x60
+    // Offset: 0x58
     System::Nullable_1<float> firstBasicNoteTime;
     // private readonly MonoMemoryPoolContainer`1<MultiplayerConnectedPlayerGameNoteController> _gameNotePoolContainer
-    // Offset: 0x68
+    // Offset: 0x60
     GlobalNamespace::MonoMemoryPoolContainer_1<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* gameNotePoolContainer;
     // private readonly MonoMemoryPoolContainer`1<MultiplayerConnectedPlayerBombNoteController> _bombNotePoolContainer
-    // Offset: 0x70
+    // Offset: 0x68
     GlobalNamespace::MonoMemoryPoolContainer_1<GlobalNamespace::MultiplayerConnectedPlayerBombNoteController*>* bombNotePoolContainer;
     // private readonly IConnectedPlayerNoteEventManager _noteEventManager
-    // Offset: 0x78
+    // Offset: 0x70
     GlobalNamespace::IConnectedPlayerNoteEventManager* noteEventManager;
     // private readonly MultiplayerConnectedPlayerBeatmapObjectManager/InitData _initData
-    // Offset: 0x80
+    // Offset: 0x78
     GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData* initData;
     // private System.Void .ctor(MultiplayerConnectedPlayerBeatmapObjectManager/InitData initData, IConnectedPlayerNoteEventManager noteEventManager, MultiplayerConnectedPlayerGameNoteController/Pool gameNotePool, MultiplayerConnectedPlayerBombNoteController/Pool bombNotePool)
-    // Offset: 0xFC9EB8
+    // Offset: 0x205EA30
     static MultiplayerConnectedPlayerBeatmapObjectManager* New_ctor(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData* initData, GlobalNamespace::IConnectedPlayerNoteEventManager* noteEventManager, GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::Pool* gameNotePool, GlobalNamespace::MultiplayerConnectedPlayerBombNoteController::Pool* bombNotePool);
     // private System.Void HandleMultiplayerNoteEventManagerNoteWasCut(NoteCutInfoNetSerializable noteCutInfo)
-    // Offset: 0xFCABF8
+    // Offset: 0x205F730
     void HandleMultiplayerNoteEventManagerNoteWasCut(GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
     // static private System.Boolean AreNotesSame(NoteController noteController, NoteCutInfoNetSerializable noteCutInfo)
-    // Offset: 0xFCAE30
+    // Offset: 0x205F968
     static bool AreNotesSame(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
     // public override System.Collections.Generic.HashSet`1<ObstacleController> get_activeObstacleControllers()
-    // Offset: 0xFC9EA8
+    // Offset: 0x205EA28
     // Implemented from: BeatmapObjectManager
     // Base method: System.Collections.Generic.HashSet`1<ObstacleController> BeatmapObjectManager::get_activeObstacleControllers()
     System::Collections::Generic::HashSet_1<GlobalNamespace::ObstacleController*>* get_activeObstacleControllers();
-    // public override System.Collections.Generic.HashSet`1<NoteRibbonController> get_activeNoteRibbonControllers()
-    // Offset: 0xFC9EB0
-    // Implemented from: BeatmapObjectManager
-    // Base method: System.Collections.Generic.HashSet`1<NoteRibbonController> BeatmapObjectManager::get_activeNoteRibbonControllers()
-    System::Collections::Generic::HashSet_1<GlobalNamespace::NoteRibbonController*>* get_activeNoteRibbonControllers();
     // public System.Void Dispose()
-    // Offset: 0xFCA0C8
+    // Offset: 0x205EC0C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -99,52 +89,42 @@ namespace GlobalNamespace {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // protected override ObstacleController SpawnObstacleInternal(ObstacleData obstacleData, BeatmapObjectSpawnMovementData/ObstacleSpawnData obstacleSpawnData, System.Single rotation)
-    // Offset: 0xFCA1C8
+    // Offset: 0x205ED0C
     // Implemented from: BeatmapObjectManager
     // Base method: ObstacleController BeatmapObjectManager::SpawnObstacleInternal(ObstacleData obstacleData, BeatmapObjectSpawnMovementData/ObstacleSpawnData obstacleSpawnData, System.Single rotation)
     GlobalNamespace::ObstacleController* SpawnObstacleInternal(GlobalNamespace::ObstacleData* obstacleData, GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData obstacleSpawnData, float rotation);
     // protected override NoteController SpawnBombNoteInternal(NoteData bombNoteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation)
-    // Offset: 0xFCA1D0
+    // Offset: 0x205ED14
     // Implemented from: BeatmapObjectManager
     // Base method: NoteController BeatmapObjectManager::SpawnBombNoteInternal(NoteData bombNoteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation)
     GlobalNamespace::NoteController* SpawnBombNoteInternal(GlobalNamespace::NoteData* bombNoteData, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData, float rotation);
     // protected override NoteController SpawnBasicNoteInternal(NoteData noteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation, System.Single cutDirectionAngleOffset)
-    // Offset: 0xFCA2E8
+    // Offset: 0x205EE2C
     // Implemented from: BeatmapObjectManager
     // Base method: NoteController BeatmapObjectManager::SpawnBasicNoteInternal(NoteData noteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation, System.Single cutDirectionAngleOffset)
     GlobalNamespace::NoteController* SpawnBasicNoteInternal(GlobalNamespace::NoteData* noteData, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData, float rotation, float cutDirectionAngleOffset);
-    // protected override NoteRibbonController SpawnNoteRibbonInternal(NoteData noteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, NoteController parentNoteController, System.Single rotation, System.Single cutDirectionAngleOffset)
-    // Offset: 0xFCA564
-    // Implemented from: BeatmapObjectManager
-    // Base method: NoteRibbonController BeatmapObjectManager::SpawnNoteRibbonInternal(NoteData noteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, NoteController parentNoteController, System.Single rotation, System.Single cutDirectionAngleOffset)
-    GlobalNamespace::NoteRibbonController* SpawnNoteRibbonInternal(GlobalNamespace::NoteData* noteData, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData, GlobalNamespace::NoteController* parentNoteController, float rotation, float cutDirectionAngleOffset);
     // protected override System.Void DespawnInternal(NoteController noteController)
-    // Offset: 0xFCA56C
+    // Offset: 0x205F0A8
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::DespawnInternal(NoteController noteController)
     void DespawnInternal(GlobalNamespace::NoteController* noteController);
     // protected override System.Void DespawnInternal(ObstacleController obstacleController)
-    // Offset: 0xFCA660
+    // Offset: 0x205F19C
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::DespawnInternal(ObstacleController obstacleController)
     void DespawnInternal(GlobalNamespace::ObstacleController* obstacleController);
-    // protected override System.Void DespawnInternal(NoteRibbonController noteRibbonController)
-    // Offset: 0xFCA664
-    // Implemented from: BeatmapObjectManager
-    // Base method: System.Void BeatmapObjectManager::DespawnInternal(NoteRibbonController noteRibbonController)
-    void DespawnInternal(GlobalNamespace::NoteRibbonController* noteRibbonController);
     // public override System.Void DissolveAllObjects()
-    // Offset: 0xFCA668
+    // Offset: 0x205F1A0
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::DissolveAllObjects()
     void DissolveAllObjects();
     // public override System.Void HideAllBeatmapObjects(System.Boolean hide)
-    // Offset: 0xFCA840
+    // Offset: 0x205F378
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::HideAllBeatmapObjects(System.Boolean hide)
     void HideAllBeatmapObjects(bool hide);
     // public override System.Void PauseAllBeatmapObjects(System.Boolean pause)
-    // Offset: 0xFCAA1C
+    // Offset: 0x205F554
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::PauseAllBeatmapObjects(System.Boolean pause)
     void PauseAllBeatmapObjects(bool pause);

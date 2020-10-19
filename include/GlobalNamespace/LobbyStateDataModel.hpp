@@ -66,73 +66,73 @@ namespace GlobalNamespace {
     // Offset: 0x40
     System::Action_1<GlobalNamespace::IConnectedPlayer*>* playerDisconnectedEvent;
     // private System.Void HandleMultiplayerSessionManagerPlayerConnected(IConnectedPlayer player)
-    // Offset: 0x1039D70
+    // Offset: 0x20A0C58
     void HandleMultiplayerSessionManagerPlayerConnected(GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandleMultiplayerSessionManagerPlayerDisconnected(IConnectedPlayer player)
-    // Offset: 0x1039E98
+    // Offset: 0x20A0D80
     void HandleMultiplayerSessionManagerPlayerDisconnected(GlobalNamespace::IConnectedPlayer* player);
     // public System.Void add_playerConnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x1038F30
+    // Offset: 0x209FE18
     // Implemented from: ILobbyStateDataModel
     // Base method: System.Void ILobbyStateDataModel::add_playerConnectedEvent(System.Action`1<IConnectedPlayer> value)
     void add_playerConnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void remove_playerConnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x1038FD4
+    // Offset: 0x209FEBC
     // Implemented from: ILobbyStateDataModel
     // Base method: System.Void ILobbyStateDataModel::remove_playerConnectedEvent(System.Action`1<IConnectedPlayer> value)
     void remove_playerConnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void add_playerDisconnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x1039078
+    // Offset: 0x209FF60
     // Implemented from: ILobbyStateDataModel
     // Base method: System.Void ILobbyStateDataModel::add_playerDisconnectedEvent(System.Action`1<IConnectedPlayer> value)
     void add_playerDisconnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void remove_playerDisconnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x103911C
+    // Offset: 0x20A0004
     // Implemented from: ILobbyStateDataModel
     // Base method: System.Void ILobbyStateDataModel::remove_playerDisconnectedEvent(System.Action`1<IConnectedPlayer> value)
     void remove_playerDisconnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Boolean get_isConnected()
-    // Offset: 0x10391C0
+    // Offset: 0x20A00A8
     // Implemented from: ILobbyStateDataModel
     // Base method: System.Boolean ILobbyStateDataModel::get_isConnected()
     bool get_isConnected();
     // public IConnectedPlayer get_localPlayer()
-    // Offset: 0x1039274
+    // Offset: 0x20A015C
     // Implemented from: ILobbyStateDataModel
     // Base method: IConnectedPlayer ILobbyStateDataModel::get_localPlayer()
     GlobalNamespace::IConnectedPlayer* get_localPlayer();
     // public System.Collections.Generic.List`1<IConnectedPlayer> get_connectedPlayers()
-    // Offset: 0x1039324
+    // Offset: 0x20A020C
     // Implemented from: ILobbyStateDataModel
     // Base method: System.Collections.Generic.List`1<IConnectedPlayer> ILobbyStateDataModel::get_connectedPlayers()
     System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* get_connectedPlayers();
     // public System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> get_rawConnectedPlayers()
-    // Offset: 0x103932C
+    // Offset: 0x20A0214
     // Implemented from: ILobbyStateDataModel
     // Base method: System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> ILobbyStateDataModel::get_rawConnectedPlayers()
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* get_rawConnectedPlayers();
     // public System.Boolean get_isHost()
-    // Offset: 0x10393E0
+    // Offset: 0x20A02C8
     // Implemented from: ILobbyStateDataModel
     // Base method: System.Boolean ILobbyStateDataModel::get_isHost()
     bool get_isHost();
     // public System.Int32 get_maxPartySize()
-    // Offset: 0x10393E8
+    // Offset: 0x20A02D0
     // Implemented from: ILobbyStateDataModel
     // Base method: System.Int32 ILobbyStateDataModel::get_maxPartySize()
     int get_maxPartySize();
     // public System.Void Activate()
-    // Offset: 0x103949C
+    // Offset: 0x20A0384
     // Implemented from: ILobbyStateDataModel
     // Base method: System.Void ILobbyStateDataModel::Activate()
     void Activate();
     // public System.Void Deactivate()
-    // Offset: 0x1039B4C
+    // Offset: 0x20A0A34
     // Implemented from: ILobbyStateDataModel
     // Base method: System.Void ILobbyStateDataModel::Deactivate()
     void Deactivate();
     // public System.Void Dispose()
-    // Offset: 0x1039CDC
+    // Offset: 0x20A0BC4
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -140,12 +140,12 @@ namespace GlobalNamespace {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // public IConnectedPlayer GetPlayerById(System.String userId)
-    // Offset: 0x1039CE0
+    // Offset: 0x20A0BC8
     // Implemented from: ILobbyStateDataModel
     // Base method: IConnectedPlayer ILobbyStateDataModel::GetPlayerById(System.String userId)
     GlobalNamespace::IConnectedPlayer* GetPlayerById(::Il2CppString* userId);
     // public System.Void .ctor()
-    // Offset: 0x1039FBC
+    // Offset: 0x20A0EA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LobbyStateDataModel* New_ctor();

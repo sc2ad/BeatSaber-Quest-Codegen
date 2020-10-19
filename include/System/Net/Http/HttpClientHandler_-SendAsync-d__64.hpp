@@ -98,12 +98,12 @@ namespace System::Net::Http {
     // Creating value type constructor for type: $SendAsync$d__64
     constexpr $SendAsync$d__64(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Net::Http::HttpResponseMessage*> $$t__builder_ = {}, System::Net::Http::HttpClientHandler* $$4__this_ = {}, System::Net::Http::HttpRequestMessage* request_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Net::HttpWebRequest* $wrequest$5__1_ = {}, System::Net::Http::HttpContent* $content$5__2_ = {}, System::IO::Stream* $stream$5__3_ = {}, System::Net::HttpWebResponse* $wresponse$5__4_ = {}, System::Threading::CancellationTokenRegistration $$7__wrap1_ = {}, System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter $$u__1_ = {}, typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<System::IO::Stream*>::ConfiguredTaskAwaiter $$u__2_ = {}, typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<System::Net::WebResponse*>::ConfiguredTaskAwaiter $$u__3_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<System::Net::Http::HttpResponseMessage*> $$u__4_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, request{request_}, cancellationToken{cancellationToken_}, $wrequest$5__1{$wrequest$5__1_}, $content$5__2{$content$5__2_}, $stream$5__3{$stream$5__3_}, $wresponse$5__4{$wresponse$5__4_}, $$7__wrap1{$$7__wrap1_}, $$u__1{$$u__1_}, $$u__2{$$u__2_}, $$u__3{$$u__3_}, $$u__4{$$u__4_} {}
     // private System.Void MoveNext()
-    // Offset: 0xDB0F90
+    // Offset: 0xC673B0
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDB0F98
+    // Offset: 0xC673B8
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

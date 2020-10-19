@@ -26,16 +26,16 @@ namespace Mono::Unity {
   class UnityTls::unitytls_x509verify_callback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1428734
+    // Offset: 0x11FEE70
     static UnityTls::unitytls_x509verify_callback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Mono.Unity.UnityTls/unitytls_x509verify_result Invoke(System.Void* userData, Mono.Unity.UnityTls/unitytls_x509_ref cert, Mono.Unity.UnityTls/unitytls_x509verify_result result, Mono.Unity.UnityTls/unitytls_errorstate* errorState)
-    // Offset: 0x1428748
+    // Offset: 0x11FEE84
     Mono::Unity::UnityTls::unitytls_x509verify_result Invoke(void* userData, Mono::Unity::UnityTls::unitytls_x509_ref cert, Mono::Unity::UnityTls::unitytls_x509verify_result result, Mono::Unity::UnityTls::unitytls_errorstate* errorState);
     // public System.IAsyncResult BeginInvoke(System.Void* userData, Mono.Unity.UnityTls/unitytls_x509_ref cert, Mono.Unity.UnityTls/unitytls_x509verify_result result, Mono.Unity.UnityTls/unitytls_errorstate* errorState, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x14289E8
+    // Offset: 0x11FF124
     System::IAsyncResult* BeginInvoke(void* userData, Mono::Unity::UnityTls::unitytls_x509_ref cert, Mono::Unity::UnityTls::unitytls_x509verify_result result, Mono::Unity::UnityTls::unitytls_errorstate* errorState, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Mono.Unity.UnityTls/unitytls_x509verify_result EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1428AA8
+    // Offset: 0x11FF1E4
     Mono::Unity::UnityTls::unitytls_x509verify_result EndInvoke(System::IAsyncResult* result);
   }; // Mono.Unity.UnityTls/unitytls_x509verify_callback
 }

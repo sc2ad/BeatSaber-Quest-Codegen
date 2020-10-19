@@ -47,7 +47,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x40
     Oculus::Platform::Models::UserList* Users;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x136AB44
+    // Offset: 0x1140280
     static LaunchDetails* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.LaunchDetails
 }

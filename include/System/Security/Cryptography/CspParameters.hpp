@@ -34,22 +34,22 @@ namespace System::Security::Cryptography {
     // Offset: 0x2C
     int m_flags;
     // public System.Security.Cryptography.CspProviderFlags get_Flags()
-    // Offset: 0x19CC8D0
+    // Offset: 0x1772CF4
     System::Security::Cryptography::CspProviderFlags get_Flags();
     // public System.Void set_Flags(System.Security.Cryptography.CspProviderFlags value)
-    // Offset: 0x19CC8D8
+    // Offset: 0x1772CFC
     void set_Flags(System::Security::Cryptography::CspProviderFlags value);
     // public System.Void .ctor(System.Int32 dwTypeIn)
-    // Offset: 0x19CCA04
+    // Offset: 0x1772E28
     static CspParameters* New_ctor(int dwTypeIn);
     // public System.Void .ctor(System.Int32 dwTypeIn, System.String strProviderNameIn, System.String strContainerNameIn)
-    // Offset: 0x19CC9FC
+    // Offset: 0x1772E20
     static CspParameters* New_ctor(int dwTypeIn, ::Il2CppString* strProviderNameIn, ::Il2CppString* strContainerNameIn);
     // System.Void .ctor(System.Int32 providerType, System.String providerName, System.String keyContainerName, System.Security.Cryptography.CspProviderFlags flags)
-    // Offset: 0x19CCA14
+    // Offset: 0x1772E38
     static CspParameters* New_ctor(int providerType, ::Il2CppString* providerName, ::Il2CppString* keyContainerName, System::Security::Cryptography::CspProviderFlags flags);
     // public System.Void .ctor()
-    // Offset: 0x19CC9E8
+    // Offset: 0x1772E0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CspParameters* New_ctor();

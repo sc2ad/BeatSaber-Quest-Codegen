@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Offset: 0x31
     bool showLevelBar;
     // public System.Void .ctor(System.String backButtonText, IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, System.Boolean showRestartButton, System.Boolean showLevelBar)
-    // Offset: 0xFD8718
+    // Offset: 0x20833EC
     static PauseMenuManager::InitData* New_ctor(::Il2CppString* backButtonText, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, bool showRestartButton, bool showLevelBar);
   }; // PauseMenuManager/InitData
 }

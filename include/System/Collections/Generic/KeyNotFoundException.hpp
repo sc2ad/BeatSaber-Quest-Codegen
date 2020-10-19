@@ -23,20 +23,20 @@ namespace System::Collections::Generic {
   class KeyNotFoundException : public System::SystemException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x15D6BFC
+    // Offset: 0x13AD424
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static KeyNotFoundException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x15D6C70
+    // Offset: 0x13AD498
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static KeyNotFoundException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x15D6CA4
+    // Offset: 0x13AD4CC
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

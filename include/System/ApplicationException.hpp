@@ -23,23 +23,23 @@ namespace System {
   class ApplicationException : public System::Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0x15C2144
+    // Offset: 0x139896C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static ApplicationException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x15C21E0
+    // Offset: 0x1398A08
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     static ApplicationException* New_ctor(::Il2CppString* message);
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x15C226C
+    // Offset: 0x1398A94
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     static ApplicationException* New_ctor(::Il2CppString* message, System::Exception* innerException);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x15C2300
+    // Offset: 0x1398B28
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static ApplicationException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);

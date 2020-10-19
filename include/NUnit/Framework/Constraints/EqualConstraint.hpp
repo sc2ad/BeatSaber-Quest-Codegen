@@ -45,22 +45,22 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x48
     bool ClipStrings;
     // public System.Void .ctor(System.Object expected)
-    // Offset: 0x15E098C
+    // Offset: 0x13B71B4
     static EqualConstraint* New_ctor(::Il2CppObject* expected);
     // public NUnit.Framework.Constraints.Tolerance get_Tolerance()
-    // Offset: 0x15E0B44
+    // Offset: 0x13B736C
     NUnit::Framework::Constraints::Tolerance* get_Tolerance();
     // public System.Boolean get_CaseInsensitive()
-    // Offset: 0x15E0B4C
+    // Offset: 0x13B7374
     bool get_CaseInsensitive();
     // public System.Boolean get_ClipStrings()
-    // Offset: 0x15E0B70
+    // Offset: 0x13B7398
     bool get_ClipStrings();
     // private System.Void set_ClipStrings(System.Boolean value)
-    // Offset: 0x15E0B78
+    // Offset: 0x13B73A0
     void set_ClipStrings(bool value);
     // public System.Collections.Generic.IList`1<NUnit.Framework.Constraints.NUnitEqualityComparer/FailurePoint> get_FailurePoints()
-    // Offset: 0x15E0B84
+    // Offset: 0x13B73AC
     System::Collections::Generic::IList_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>* get_FailurePoints();
     // private System.Void AdjustArgumentIfNeeded(ref T arg)
     // Offset: 0xFFFFFFFF
@@ -69,12 +69,12 @@ namespace NUnit::Framework::Constraints {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "AdjustArgumentIfNeeded", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, arg));
     }
     // public override NUnit.Framework.Constraints.ConstraintResult ApplyTo(System.Object actual)
-    // Offset: 0x15E0BA8
+    // Offset: 0x13B73D0
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: NUnit.Framework.Constraints.ConstraintResult Constraint::ApplyTo(System.Object actual)
     NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::Il2CppObject* actual);
     // public override System.String get_Description()
-    // Offset: 0x15E0D1C
+    // Offset: 0x13B7544
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: System.String Constraint::get_Description()
     ::Il2CppString* get_Description();

@@ -29,28 +29,28 @@ namespace GlobalNamespace {
     // Offset: 0x70
     GlobalNamespace::MultiplayerConnectedPlayerLevelFailController* failController;
     // private System.Void TransitionIntoFailedState()
-    // Offset: 0xFD2808
+    // Offset: 0x2067340
     void TransitionIntoFailedState();
     // private System.Void HandlePlayerDidFail()
-    // Offset: 0xFD2B58
+    // Offset: 0x2067690
     void HandlePlayerDidFail();
     // protected override System.Void OnDestroy()
-    // Offset: 0xFD272C
+    // Offset: 0x2067264
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::OnDestroy()
     void OnDestroy();
     // protected override System.Void AnimateNewLeaderSelected(System.Boolean isLeading)
-    // Offset: 0xFD2954
+    // Offset: 0x206748C
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::AnimateNewLeaderSelected(System.Boolean isLeading)
     void AnimateNewLeaderSelected(bool isLeading);
     // protected override System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0xFD2A44
+    // Offset: 0x206757C
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::HandleStateChanged(MultiplayerController/State state)
     void HandleStateChanged(GlobalNamespace::MultiplayerController::State state);
     // public System.Void .ctor()
-    // Offset: 0xFD2B5C
+    // Offset: 0x2067694
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

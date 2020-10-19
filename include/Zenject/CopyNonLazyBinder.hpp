@@ -34,25 +34,25 @@ namespace Zenject {
     // Deleting conversion operator: operator Zenject::BindInfo*
     constexpr operator Zenject::BindInfo*() const noexcept = delete;
     // System.Void AddSecondaryCopyBindInfo(Zenject.BindInfo bindInfo)
-    // Offset: 0x11FC0D0
+    // Offset: 0xFF796C
     void AddSecondaryCopyBindInfo(Zenject::BindInfo* bindInfo);
     // public Zenject.NonLazyBinder CopyIntoAllSubContainers()
-    // Offset: 0x11FC174
+    // Offset: 0xFF7A10
     Zenject::NonLazyBinder* CopyIntoAllSubContainers();
     // public Zenject.NonLazyBinder CopyIntoDirectSubContainers()
-    // Offset: 0x11FC2A4
+    // Offset: 0xFF7B40
     Zenject::NonLazyBinder* CopyIntoDirectSubContainers();
     // public Zenject.NonLazyBinder MoveIntoAllSubContainers()
-    // Offset: 0x11FC2CC
+    // Offset: 0xFF7B68
     Zenject::NonLazyBinder* MoveIntoAllSubContainers();
     // public Zenject.NonLazyBinder MoveIntoDirectSubContainers()
-    // Offset: 0x11FC2F4
+    // Offset: 0xFF7B90
     Zenject::NonLazyBinder* MoveIntoDirectSubContainers();
     // private System.Void SetInheritanceMethod(Zenject.BindingInheritanceMethods method)
-    // Offset: 0x11FC19C
+    // Offset: 0xFF7A38
     void SetInheritanceMethod(Zenject::BindingInheritanceMethods method);
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0x11F828C
+    // Offset: 0xFF3B28
     // Implemented from: Zenject.NonLazyBinder
     // Base method: System.Void NonLazyBinder::.ctor(Zenject.BindInfo bindInfo)
     // Base method: System.Void IfNotBoundBinder::.ctor(Zenject.BindInfo bindInfo)

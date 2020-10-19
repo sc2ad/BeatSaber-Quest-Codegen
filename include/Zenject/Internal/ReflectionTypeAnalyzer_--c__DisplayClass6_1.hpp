@@ -33,10 +33,10 @@ namespace Zenject::Internal {
       return x;
     }
     // System.Boolean <GetFieldInfos>b__2(System.Type a)
-    // Offset: 0x1459D30
+    // Offset: 0x123046C
     bool $GetFieldInfos$b__2(System::Type* a);
     // public System.Void .ctor()
-    // Offset: 0x14596FC
+    // Offset: 0x122FE38
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ReflectionTypeAnalyzer::$$c__DisplayClass6_1* New_ctor();

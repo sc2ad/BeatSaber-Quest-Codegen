@@ -65,28 +65,28 @@ namespace System {
     // Offset: 0x48
     int m_unityType;
     // static System.Void GetUnitySerializationInfo(System.Runtime.Serialization.SerializationInfo info, System.Reflection.Missing missing)
-    // Offset: 0x19662E4
+    // Offset: 0x170D708
     static void GetUnitySerializationInfo(System::Runtime::Serialization::SerializationInfo* info, System::Reflection::Missing* missing);
     // static System.RuntimeType AddElementTypes(System.Runtime.Serialization.SerializationInfo info, System.RuntimeType type)
-    // Offset: 0x1966388
+    // Offset: 0x170D7AC
     static System::RuntimeType* AddElementTypes(System::Runtime::Serialization::SerializationInfo* info, System::RuntimeType* type);
     // System.Type MakeElementTypes(System.Type type)
-    // Offset: 0x19665D8
+    // Offset: 0x170D9FC
     System::Type* MakeElementTypes(System::Type* type);
     // static System.Void GetUnitySerializationInfo(System.Runtime.Serialization.SerializationInfo info, System.RuntimeType type)
-    // Offset: 0x19666D8
+    // Offset: 0x170DAFC
     static void GetUnitySerializationInfo(System::Runtime::Serialization::SerializationInfo* info, System::RuntimeType* type);
     // static System.Void GetUnitySerializationInfo(System.Runtime.Serialization.SerializationInfo info, System.Int32 unityType, System.String data, System.Reflection.RuntimeAssembly assembly)
-    // Offset: 0x19669E8
+    // Offset: 0x170DE0C
     static void GetUnitySerializationInfo(System::Runtime::Serialization::SerializationInfo* info, int unityType, ::Il2CppString* data, System::Reflection::RuntimeAssembly* assembly);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1966B34
+    // Offset: 0x170DF58
     static UnitySerializationHolder* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // private System.Void ThrowInsufficientInformation(System.String field)
-    // Offset: 0x1966E90
+    // Offset: 0x170E2B4
     void ThrowInsufficientInformation(::Il2CppString* field);
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1966F50
+    // Offset: 0x170E374
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -94,7 +94,7 @@ namespace System {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Object GetRealObject(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1966FD0
+    // Offset: 0x170E3F4
     // Implemented from: System.Runtime.Serialization.IObjectReference
     // Base method: System.Object IObjectReference::GetRealObject(System.Runtime.Serialization.StreamingContext context)
     ::Il2CppObject* GetRealObject(System::Runtime::Serialization::StreamingContext context);

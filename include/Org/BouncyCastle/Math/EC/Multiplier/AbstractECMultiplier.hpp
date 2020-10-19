@@ -29,15 +29,15 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(Org::BouncyCastle::Math::EC::ECPoint* p, Org::BouncyCastle::Math::BigInteger* k);
     // protected Org.BouncyCastle.Math.EC.ECPoint CheckResult(Org.BouncyCastle.Math.EC.ECPoint p)
-    // Offset: 0x1B53570
+    // Offset: 0x18F4764
     Org::BouncyCastle::Math::EC::ECPoint* CheckResult(Org::BouncyCastle::Math::EC::ECPoint* p);
     // public Org.BouncyCastle.Math.EC.ECPoint Multiply(Org.BouncyCastle.Math.EC.ECPoint p, Org.BouncyCastle.Math.BigInteger k)
-    // Offset: 0x1B53490
+    // Offset: 0x18F4684
     // Implemented from: Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECMultiplier::Multiply(Org.BouncyCastle.Math.EC.ECPoint p, Org.BouncyCastle.Math.BigInteger k)
     Org::BouncyCastle::Math::EC::ECPoint* Multiply(Org::BouncyCastle::Math::EC::ECPoint* p, Org::BouncyCastle::Math::BigInteger* k);
     // protected System.Void .ctor()
-    // Offset: 0x1B5357C
+    // Offset: 0x18F4770
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AbstractECMultiplier* New_ctor();

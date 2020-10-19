@@ -41,31 +41,31 @@ namespace GlobalNamespace {
     // Offset: 0x20
     int currentDataId;
     // public System.Boolean get_undoAvailable()
-    // Offset: 0xFB3F2C
+    // Offset: 0x20325DC
     bool get_undoAvailable();
     // public System.Boolean get_redoAvailable()
-    // Offset: 0xFB3F3C
+    // Offset: 0x20325EC
     bool get_redoAvailable();
     // public Menu.ViewControllers.EditAvatarHistorySnapshot get_currentSnapShot()
-    // Offset: 0xFB3F9C
+    // Offset: 0x203264C
     Menu::ViewControllers::EditAvatarHistorySnapshot* get_currentSnapShot();
     // public EditAvatarViewController/AvatarEditPart get_lastEditedPart()
-    // Offset: 0xFB400C
+    // Offset: 0x20326BC
     GlobalNamespace::EditAvatarViewController::AvatarEditPart get_lastEditedPart();
     // public System.Void Clear()
-    // Offset: 0xFB402C
+    // Offset: 0x20326DC
     void Clear();
     // public System.Void Undo()
-    // Offset: 0xFB408C
+    // Offset: 0x203273C
     void Undo();
     // public System.Void Redo()
-    // Offset: 0xFB40A8
+    // Offset: 0x2032758
     void Redo();
     // public System.Void UpdateEditHistory(AvatarData avatarData, EditAvatarViewController/AvatarEditPart avatarEditPart)
-    // Offset: 0xFB4118
+    // Offset: 0x20327C8
     void UpdateEditHistory(GlobalNamespace::AvatarData* avatarData, GlobalNamespace::EditAvatarViewController::AvatarEditPart avatarEditPart);
     // public System.Void .ctor()
-    // Offset: 0xFB4280
+    // Offset: 0x2032930
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AvatarEditHistory* New_ctor();

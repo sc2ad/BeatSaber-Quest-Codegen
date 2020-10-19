@@ -71,31 +71,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_colorsDidChangeEvent(System.Action value)
-    // Offset: 0xF23BC0
+    // Offset: 0x1FB75BC
     void add_colorsDidChangeEvent(System::Action* value);
     // public System.Void remove_colorsDidChangeEvent(System.Action value)
-    // Offset: 0xF23C64
+    // Offset: 0x1FB7660
     void remove_colorsDidChangeEvent(System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0xF23D08
+    // Offset: 0x1FB7704
     void Awake();
     // protected System.Void Start()
-    // Offset: 0xF23D38
+    // Offset: 0x1FB7734
     void Start();
     // public UnityEngine.Color ColorForType(ColorType type)
-    // Offset: 0xF23E54
+    // Offset: 0x1FB7850
     UnityEngine::Color ColorForType(GlobalNamespace::ColorType type);
     // public UnityEngine.Color ColorForSaberType(SaberType type)
-    // Offset: 0xF23EA4
+    // Offset: 0x1FB78A0
     UnityEngine::Color ColorForSaberType(GlobalNamespace::SaberType type);
     // public UnityEngine.Color EffectsColorForSaberType(SaberType type)
-    // Offset: 0xF23EF8
+    // Offset: 0x1FB78F4
     UnityEngine::Color EffectsColorForSaberType(GlobalNamespace::SaberType type);
     // public UnityEngine.Color GetObstacleEffectColor()
-    // Offset: 0xF23F90
+    // Offset: 0x1FB798C
     UnityEngine::Color GetObstacleEffectColor();
     // public System.Void .ctor()
-    // Offset: 0xF23FF4
+    // Offset: 0x1FB79F0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

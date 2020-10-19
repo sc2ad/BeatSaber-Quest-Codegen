@@ -30,10 +30,10 @@ namespace GlobalNamespace {
       return privateKey;
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Parameters.RsaPrivateCrtKeyParameters privateKey)
-    // Offset: 0x1C44E28
+    // Offset: 0x21FEFC0
     static X509CertificateUtility::RSACertificateEncryptionProvider* New_ctor(Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters* privateKey);
     // public System.Void Dispose()
-    // Offset: 0x1C45DF0
+    // Offset: 0x21FFF88
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // public System.Byte[] SignData(System.Byte[] data, System.Int32 offset, System.Int32 length)
-    // Offset: 0x1C45DF4
+    // Offset: 0x21FFF8C
     // Implemented from: ICertificateEncryptionProvider
     // Base method: System.Byte[] ICertificateEncryptionProvider::SignData(System.Byte[] data, System.Int32 offset, System.Int32 length)
     ::Array<uint8_t>* SignData(::Array<uint8_t>* data, int offset, int length);

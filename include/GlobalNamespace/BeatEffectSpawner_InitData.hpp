@@ -21,7 +21,7 @@ namespace GlobalNamespace {
       return hideNoteSpawnEffect;
     }
     // public System.Void .ctor(System.Boolean hideNoteSpawnEffect)
-    // Offset: 0xFBD910
+    // Offset: 0x203BB70
     static BeatEffectSpawner::InitData* New_ctor(bool hideNoteSpawnEffect);
   }; // BeatEffectSpawner/InitData
 }

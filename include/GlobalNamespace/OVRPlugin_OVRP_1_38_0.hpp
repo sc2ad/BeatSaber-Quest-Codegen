@@ -29,82 +29,82 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static public OVRPlugin/Result ovrp_GetTrackingTransformRelativePose(ref OVRPlugin/Posef trackingTransformRelativePose, OVRPlugin/TrackingOrigin trackingOrigin)
-    // Offset: 0x1492F18
+    // Offset: 0x1268740
     static GlobalNamespace::OVRPlugin::Result ovrp_GetTrackingTransformRelativePose(GlobalNamespace::OVRPlugin::Posef& trackingTransformRelativePose, GlobalNamespace::OVRPlugin::TrackingOrigin trackingOrigin);
     // static public OVRPlugin/Result ovrp_Media_Initialize()
-    // Offset: 0x1492FA8
+    // Offset: 0x12687D0
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_Initialize();
     // static public OVRPlugin/Result ovrp_Media_Shutdown()
-    // Offset: 0x149301C
+    // Offset: 0x1268844
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_Shutdown();
     // static public OVRPlugin/Result ovrp_Media_GetInitialized(out OVRPlugin/Bool initialized)
-    // Offset: 0x1493090
+    // Offset: 0x12688B8
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_GetInitialized(GlobalNamespace::OVRPlugin::Bool& initialized);
     // static public OVRPlugin/Result ovrp_Media_Update()
-    // Offset: 0x1493110
+    // Offset: 0x1268938
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_Update();
     // static public OVRPlugin/Result ovrp_Media_GetMrcActivationMode(out OVRPlugin/Media/MrcActivationMode activationMode)
-    // Offset: 0x1493184
+    // Offset: 0x12689AC
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_GetMrcActivationMode(GlobalNamespace::OVRPlugin::Media::MrcActivationMode& activationMode);
     // static public OVRPlugin/Result ovrp_Media_SetMrcActivationMode(OVRPlugin/Media/MrcActivationMode activationMode)
-    // Offset: 0x1493204
+    // Offset: 0x1268A2C
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_SetMrcActivationMode(GlobalNamespace::OVRPlugin::Media::MrcActivationMode activationMode);
     // static public OVRPlugin/Result ovrp_Media_IsMrcEnabled(out OVRPlugin/Bool mrcEnabled)
-    // Offset: 0x1493284
+    // Offset: 0x1268AAC
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_IsMrcEnabled(GlobalNamespace::OVRPlugin::Bool& mrcEnabled);
     // static public OVRPlugin/Result ovrp_Media_IsMrcActivated(out OVRPlugin/Bool mrcActivated)
-    // Offset: 0x1493304
+    // Offset: 0x1268B2C
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_IsMrcActivated(GlobalNamespace::OVRPlugin::Bool& mrcActivated);
     // static public OVRPlugin/Result ovrp_Media_UseMrcDebugCamera(out OVRPlugin/Bool useMrcDebugCamera)
-    // Offset: 0x1493384
+    // Offset: 0x1268BAC
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_UseMrcDebugCamera(GlobalNamespace::OVRPlugin::Bool& useMrcDebugCamera);
     // static public OVRPlugin/Result ovrp_Media_SetMrcInputVideoBufferType(OVRPlugin/Media/InputVideoBufferType inputVideoBufferType)
-    // Offset: 0x1493404
+    // Offset: 0x1268C2C
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_SetMrcInputVideoBufferType(GlobalNamespace::OVRPlugin::Media::InputVideoBufferType inputVideoBufferType);
     // static public OVRPlugin/Result ovrp_Media_GetMrcInputVideoBufferType(ref OVRPlugin/Media/InputVideoBufferType inputVideoBufferType)
-    // Offset: 0x1493484
+    // Offset: 0x1268CAC
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_GetMrcInputVideoBufferType(GlobalNamespace::OVRPlugin::Media::InputVideoBufferType& inputVideoBufferType);
     // static public OVRPlugin/Result ovrp_Media_SetMrcFrameSize(System.Int32 frameWidth, System.Int32 frameHeight)
-    // Offset: 0x1493504
+    // Offset: 0x1268D2C
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_SetMrcFrameSize(int frameWidth, int frameHeight);
     // static public OVRPlugin/Result ovrp_Media_GetMrcFrameSize(ref System.Int32 frameWidth, ref System.Int32 frameHeight)
-    // Offset: 0x1493594
+    // Offset: 0x1268DBC
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_GetMrcFrameSize(int& frameWidth, int& frameHeight);
     // static public OVRPlugin/Result ovrp_Media_SetMrcAudioSampleRate(System.Int32 sampleRate)
-    // Offset: 0x1493624
+    // Offset: 0x1268E4C
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_SetMrcAudioSampleRate(int sampleRate);
     // static public OVRPlugin/Result ovrp_Media_GetMrcAudioSampleRate(ref System.Int32 sampleRate)
-    // Offset: 0x14936A4
+    // Offset: 0x1268ECC
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_GetMrcAudioSampleRate(int& sampleRate);
     // static public OVRPlugin/Result ovrp_Media_SetMrcFrameImageFlipped(OVRPlugin/Bool flipped)
-    // Offset: 0x1493724
+    // Offset: 0x1268F4C
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_SetMrcFrameImageFlipped(GlobalNamespace::OVRPlugin::Bool flipped);
     // static public OVRPlugin/Result ovrp_Media_GetMrcFrameImageFlipped(ref OVRPlugin/Bool flipped)
-    // Offset: 0x14937A4
+    // Offset: 0x1268FCC
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_GetMrcFrameImageFlipped(GlobalNamespace::OVRPlugin::Bool& flipped);
     // static public OVRPlugin/Result ovrp_Media_EncodeMrcFrame(System.IntPtr rawBuffer, System.IntPtr audioDataPtr, System.Int32 audioDataLen, System.Int32 audioChannels, System.Double timestamp, ref System.Int32 outSyncId)
-    // Offset: 0x1493824
+    // Offset: 0x126904C
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_EncodeMrcFrame(System::IntPtr rawBuffer, System::IntPtr audioDataPtr, int audioDataLen, int audioChannels, double timestamp, int& outSyncId);
     // static public OVRPlugin/Result ovrp_Media_EncodeMrcFrameWithDualTextures(System.IntPtr backgroundTextureHandle, System.IntPtr foregroundTextureHandle, System.IntPtr audioData, System.Int32 audioDataLen, System.Int32 audioChannels, System.Double timestamp, ref System.Int32 outSyncId)
-    // Offset: 0x14938E4
+    // Offset: 0x126910C
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_EncodeMrcFrameWithDualTextures(System::IntPtr backgroundTextureHandle, System::IntPtr foregroundTextureHandle, System::IntPtr audioData, int audioDataLen, int audioChannels, double timestamp, int& outSyncId);
     // static public OVRPlugin/Result ovrp_Media_SyncMrcFrame(System.Int32 syncId)
-    // Offset: 0x14939B4
+    // Offset: 0x12691DC
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_SyncMrcFrame(int syncId);
     // static public OVRPlugin/Result ovrp_GetExternalCameraCalibrationRawPose(System.Int32 cameraId, out OVRPlugin/Posef rawPose)
-    // Offset: 0x1493A34
+    // Offset: 0x126925C
     static GlobalNamespace::OVRPlugin::Result ovrp_GetExternalCameraCalibrationRawPose(int cameraId, GlobalNamespace::OVRPlugin::Posef& rawPose);
     // static public OVRPlugin/Result ovrp_SetDeveloperMode(OVRPlugin/Bool active)
-    // Offset: 0x1493AC4
+    // Offset: 0x12692EC
     static GlobalNamespace::OVRPlugin::Result ovrp_SetDeveloperMode(GlobalNamespace::OVRPlugin::Bool active);
     // static public OVRPlugin/Result ovrp_GetNodeOrientationValid(OVRPlugin/Node nodeId, ref OVRPlugin/Bool nodeOrientationValid)
-    // Offset: 0x1493B44
+    // Offset: 0x126936C
     static GlobalNamespace::OVRPlugin::Result ovrp_GetNodeOrientationValid(GlobalNamespace::OVRPlugin::Node nodeId, GlobalNamespace::OVRPlugin::Bool& nodeOrientationValid);
     // static public OVRPlugin/Result ovrp_GetNodePositionValid(OVRPlugin/Node nodeId, ref OVRPlugin/Bool nodePositionValid)
-    // Offset: 0x1493BD4
+    // Offset: 0x12693FC
     static GlobalNamespace::OVRPlugin::Result ovrp_GetNodePositionValid(GlobalNamespace::OVRPlugin::Node nodeId, GlobalNamespace::OVRPlugin::Bool& nodePositionValid);
     // static private System.Void .cctor()
-    // Offset: 0x1493C64
+    // Offset: 0x126948C
     static void _cctor();
   }; // OVRPlugin/OVRP_1_38_0
 }

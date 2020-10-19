@@ -23,17 +23,17 @@ namespace System::Runtime::Remoting::Messaging {
   class ServerContextTerminatorSink : public ::Il2CppObject, public System::Runtime::Remoting::Messaging::IMessageSink {
     public:
     // public System.Runtime.Remoting.Messaging.IMessage SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0x14F87A0
+    // Offset: 0x12CEFC8
     // Implemented from: System.Runtime.Remoting.Messaging.IMessageSink
     // Base method: System.Runtime.Remoting.Messaging.IMessage IMessageSink::SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
     System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg);
     // public System.Runtime.Remoting.Messaging.IMessageCtrl AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
-    // Offset: 0x14F8BE4
+    // Offset: 0x12CF40C
     // Implemented from: System.Runtime.Remoting.Messaging.IMessageSink
     // Base method: System.Runtime.Remoting.Messaging.IMessageCtrl IMessageSink::AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
     System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg, System::Runtime::Remoting::Messaging::IMessageSink* replySink);
     // public System.Void .ctor()
-    // Offset: 0x14F8CCC
+    // Offset: 0x12CF4F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ServerContextTerminatorSink* New_ctor();

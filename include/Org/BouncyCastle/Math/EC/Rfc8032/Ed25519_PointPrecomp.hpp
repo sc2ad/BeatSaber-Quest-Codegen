@@ -23,7 +23,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     // Offset: 0x20
     ::Array<int>* xyd;
     // public System.Void .ctor()
-    // Offset: 0x1B5DD10
+    // Offset: 0x18FEF04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Ed25519::PointPrecomp* New_ctor();

@@ -97,36 +97,36 @@ namespace GlobalNamespace {
     // Offset: 0x98
     System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>* didFinishEvent;
     // public System.Void add_didFinishEvent(System.Action`2<MultiplayerModeSelectionViewController,MultiplayerModeSelectionViewController/MenuButton> value)
-    // Offset: 0xEFB838
+    // Offset: 0x1FD06EC
     void add_didFinishEvent(System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<MultiplayerModeSelectionViewController,MultiplayerModeSelectionViewController/MenuButton> value)
-    // Offset: 0xEFB8DC
+    // Offset: 0x1FD0790
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>* value);
     // public System.Void SetData(MasterServerAvailabilityData masterServerAvailabilityData)
-    // Offset: 0xEFBB04
+    // Offset: 0x1FD09B8
     void SetData(GlobalNamespace::MasterServerAvailabilityData* masterServerAvailabilityData);
     // private System.Void HandleMenuButton(MultiplayerModeSelectionViewController/MenuButton menuButton)
-    // Offset: 0xEFBD60
+    // Offset: 0x1FD0C14
     void HandleMenuButton(GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton menuButton);
     // private System.Void <DidActivate>b__9_0()
-    // Offset: 0xEFBDE0
+    // Offset: 0x1FD0C94
     void $DidActivate$b__9_0();
     // private System.Void <DidActivate>b__9_1()
-    // Offset: 0xEFBDE8
+    // Offset: 0x1FD0C9C
     void $DidActivate$b__9_1();
     // private System.Void <DidActivate>b__9_2()
-    // Offset: 0xEFBDF0
+    // Offset: 0x1FD0CA4
     void $DidActivate$b__9_2();
     // private System.Void <DidActivate>b__9_3()
-    // Offset: 0xEFBDF8
+    // Offset: 0x1FD0CAC
     void $DidActivate$b__9_3();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xEFB980
+    // Offset: 0x1FD0834
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xEFBDD8
+    // Offset: 0x1FD0C8C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -30,15 +30,15 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x30
     int $i$5__1;
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x147C72C
+    // Offset: 0x1252F54
     static EventPayload::$GetEnumerator$d__17* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x147CAE0
+    // Offset: 0x1253308
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x147CAE4
+    // Offset: 0x125330C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -46,17 +46,17 @@ namespace System::Diagnostics::Tracing {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // private System.Collections.Generic.KeyValuePair`2<System.String,System.Object> System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.get_Current()
-    // Offset: 0x147CCA4
+    // Offset: 0x12534CC
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator_1::get_Current()
     System::Collections::Generic::KeyValuePair_2<::Il2CppString*, ::Il2CppObject*> System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x147CCB0
+    // Offset: 0x12534D8
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x147CD10
+    // Offset: 0x1253538
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();

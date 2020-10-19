@@ -63,13 +63,13 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kLifeTimeOffset
     static void _set_kLifeTimeOffset(float value);
     // public System.Void SpawnDebris(UnityEngine.Vector3 cutPoint, UnityEngine.Vector3 cutNormal, System.Single saberSpeed, UnityEngine.Vector3 saberDir, UnityEngine.Vector3 notePos, UnityEngine.Quaternion noteRotation, ColorType colorType, System.Single timeToNextColorNote, UnityEngine.Vector3 moveVec)
-    // Offset: 0x10A762C
+    // Offset: 0x20F3644
     void SpawnDebris(UnityEngine::Vector3 cutPoint, UnityEngine::Vector3 cutNormal, float saberSpeed, UnityEngine::Vector3 saberDir, UnityEngine::Vector3 notePos, UnityEngine::Quaternion noteRotation, GlobalNamespace::ColorType colorType, float timeToNextColorNote, UnityEngine::Vector3 moveVec);
     // private System.Void HandleNoteDebrisDidFinish(NoteDebris noteDebris)
-    // Offset: 0x10AB460
+    // Offset: 0x20F7478
     void HandleNoteDebrisDidFinish(GlobalNamespace::NoteDebris* noteDebris);
     // public System.Void .ctor()
-    // Offset: 0x10AB50C
+    // Offset: 0x20F7524
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

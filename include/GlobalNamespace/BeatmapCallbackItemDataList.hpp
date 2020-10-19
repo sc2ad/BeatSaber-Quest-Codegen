@@ -55,68 +55,65 @@ namespace GlobalNamespace {
     // private readonly BeatmapCallbackItemDataList/SpawnBasicNoteCallback _spawnBasicNoteCallback
     // Offset: 0x10
     GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback* spawnBasicNoteCallback;
-    // private readonly BeatmapCallbackItemDataList/SpawnLongNoteCallback _spawnLongNoteCallback
-    // Offset: 0x18
-    GlobalNamespace::BeatmapCallbackItemDataList::SpawnLongNoteCallback* spawnLongNoteCallback;
     // private readonly BeatmapCallbackItemDataList/SpawnBombNoteCallback _spawnBombNoteCallback
-    // Offset: 0x20
+    // Offset: 0x18
     GlobalNamespace::BeatmapCallbackItemDataList::SpawnBombNoteCallback* spawnBombNoteCallback;
     // private readonly BeatmapCallbackItemDataList/SpawnObstacleCallback _spawnObstacleCallback
-    // Offset: 0x28
+    // Offset: 0x20
     GlobalNamespace::BeatmapCallbackItemDataList::SpawnObstacleCallback* spawnObstacleCallback;
     // private readonly BeatmapCallbackItemDataList/ProcessBeatmapEventCallback _processEarlyBeatmapEventCallback
-    // Offset: 0x30
+    // Offset: 0x28
     GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* processEarlyBeatmapEventCallback;
     // private readonly BeatmapCallbackItemDataList/ProcessBeatmapEventCallback _processLateBeatmapEventCallback
-    // Offset: 0x38
+    // Offset: 0x30
     GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* processLateBeatmapEventCallback;
     // private readonly System.Action _earlyEventsWereProcessedCallback
-    // Offset: 0x40
+    // Offset: 0x38
     System::Action* earlyEventsWereProcessedCallback;
     // private readonly BeatmapCallbackItemDataList/GetRelativeNoteOffsetCallback _getRelativeNoteOffsetCallback
-    // Offset: 0x48
+    // Offset: 0x40
     GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback* getRelativeNoteOffsetCallback;
     // private readonly System.Collections.Generic.List`1<BeatmapObjectData> _beatmapObjectDataList
-    // Offset: 0x50
+    // Offset: 0x48
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData*>* beatmapObjectDataList;
     // private readonly System.Collections.Generic.List`1<BeatmapEventData> _beatmapEventDataList
-    // Offset: 0x58
+    // Offset: 0x50
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData*>* beatmapEventDataList;
     // private readonly System.Collections.Generic.Dictionary`2<ColorType,System.Collections.Generic.List`1<NoteData>> _notesByColorType
-    // Offset: 0x60
+    // Offset: 0x58
     System::Collections::Generic::Dictionary_2<GlobalNamespace::ColorType, System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*>* notesByColorType;
     // private readonly System.Collections.Generic.List`1<NoteData> _bombNotes
-    // Offset: 0x68
+    // Offset: 0x60
     System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* bombNotes;
     // private readonly System.Collections.Generic.List`1<ObstacleData> _obstacles
-    // Offset: 0x70
+    // Offset: 0x68
     System::Collections::Generic::List_1<GlobalNamespace::ObstacleData*>* obstacles;
     // private readonly System.Collections.Generic.List`1<BeatmapEventData> _beatmapEarlyEvents
-    // Offset: 0x78
+    // Offset: 0x70
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData*>* beatmapEarlyEvents;
     // private readonly System.Collections.Generic.List`1<BeatmapEventData> _beatmapLateEvents
-    // Offset: 0x80
+    // Offset: 0x78
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData*>* beatmapLateEvents;
     // private System.Single _maxNotesAlignmentAngle
-    // Offset: 0x88
+    // Offset: 0x80
     float maxNotesAlignmentAngle;
-    // public System.Void .ctor(BeatmapCallbackItemDataList/SpawnBasicNoteCallback spawnBasicNoteCallback, BeatmapCallbackItemDataList/SpawnLongNoteCallback spawnLongNoteCallback, BeatmapCallbackItemDataList/SpawnBombNoteCallback spawnBombNoteCallback, BeatmapCallbackItemDataList/SpawnObstacleCallback spawnObstacleCallback, BeatmapCallbackItemDataList/ProcessBeatmapEventCallback processEarlyBeatmapEventCallback, BeatmapCallbackItemDataList/ProcessBeatmapEventCallback processLateBeatmapEventCallback, System.Action earlyEventsWereProcessedCallback, BeatmapCallbackItemDataList/GetRelativeNoteOffsetCallback getRelativeNoteOffsetCallback)
-    // Offset: 0x1046984
-    static BeatmapCallbackItemDataList* New_ctor(GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback* spawnBasicNoteCallback, GlobalNamespace::BeatmapCallbackItemDataList::SpawnLongNoteCallback* spawnLongNoteCallback, GlobalNamespace::BeatmapCallbackItemDataList::SpawnBombNoteCallback* spawnBombNoteCallback, GlobalNamespace::BeatmapCallbackItemDataList::SpawnObstacleCallback* spawnObstacleCallback, GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* processEarlyBeatmapEventCallback, GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* processLateBeatmapEventCallback, System::Action* earlyEventsWereProcessedCallback, GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback* getRelativeNoteOffsetCallback);
+    // public System.Void .ctor(BeatmapCallbackItemDataList/SpawnBasicNoteCallback spawnBasicNoteCallback, BeatmapCallbackItemDataList/SpawnBombNoteCallback spawnBombNoteCallback, BeatmapCallbackItemDataList/SpawnObstacleCallback spawnObstacleCallback, BeatmapCallbackItemDataList/ProcessBeatmapEventCallback processEarlyBeatmapEventCallback, BeatmapCallbackItemDataList/ProcessBeatmapEventCallback processLateBeatmapEventCallback, System.Action earlyEventsWereProcessedCallback, BeatmapCallbackItemDataList/GetRelativeNoteOffsetCallback getRelativeNoteOffsetCallback)
+    // Offset: 0x20C16C4
+    static BeatmapCallbackItemDataList* New_ctor(GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback* spawnBasicNoteCallback, GlobalNamespace::BeatmapCallbackItemDataList::SpawnBombNoteCallback* spawnBombNoteCallback, GlobalNamespace::BeatmapCallbackItemDataList::SpawnObstacleCallback* spawnObstacleCallback, GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* processEarlyBeatmapEventCallback, GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* processLateBeatmapEventCallback, System::Action* earlyEventsWereProcessedCallback, GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback* getRelativeNoteOffsetCallback);
     // public System.Void InsertBeatmapObjectData(BeatmapObjectData beatmapObjectData)
-    // Offset: 0x1046D24
+    // Offset: 0x20C1A48
     void InsertBeatmapObjectData(GlobalNamespace::BeatmapObjectData* beatmapObjectData);
     // public System.Void InsertBeatmapEventData(BeatmapEventData beatmapEventData)
-    // Offset: 0x1046E28
+    // Offset: 0x20C1B4C
     void InsertBeatmapEventData(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void ProcessData()
-    // Offset: 0x1046F2C
+    // Offset: 0x20C1C50
     void ProcessData();
     // private System.Boolean ProcessNotesByColorType(System.Collections.Generic.List`1<NoteData> notesWithTheSameColorTypeList)
-    // Offset: 0x1047CCC
+    // Offset: 0x20C29F0
     bool ProcessNotesByColorType(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* notesWithTheSameColorTypeList);
     // private System.Void SpawnNoteOrLongNote(NoteData noteData, System.Single cutDirectionAngleOffset)
-    // Offset: 0x1047EF8
+    // Offset: 0x20C2C1C
     void SpawnNoteOrLongNote(GlobalNamespace::NoteData* noteData, float cutDirectionAngleOffset);
   }; // BeatmapCallbackItemDataList
 }

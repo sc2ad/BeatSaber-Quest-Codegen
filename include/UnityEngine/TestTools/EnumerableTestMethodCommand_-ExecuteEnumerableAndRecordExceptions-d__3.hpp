@@ -39,15 +39,15 @@ namespace UnityEngine::TestTools {
     // Offset: 0x28
     NUnit::Framework::Internal::ITestExecutionContext* context;
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x12BE1B0
+    // Offset: 0x10B9A4C
     static EnumerableTestMethodCommand::$ExecuteEnumerableAndRecordExceptions$d__3* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x12BEDF4
+    // Offset: 0x10BA690
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x12BEDF8
+    // Offset: 0x10BA694
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -55,17 +55,17 @@ namespace UnityEngine::TestTools {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x12BF11C
+    // Offset: 0x10BA9B8
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator_1::get_Current()
     ::Il2CppObject* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x12BF124
+    // Offset: 0x10BA9C0
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x12BF184
+    // Offset: 0x10BAA20
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();

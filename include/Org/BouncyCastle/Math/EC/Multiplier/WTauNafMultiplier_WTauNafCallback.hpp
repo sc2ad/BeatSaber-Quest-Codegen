@@ -34,10 +34,10 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Offset: 0x18
     int8_t m_a;
     // System.Void .ctor(Org.BouncyCastle.Math.EC.AbstractF2mPoint p, System.SByte a)
-    // Offset: 0x1B5743C
+    // Offset: 0x18F8630
     static WTauNafMultiplier::WTauNafCallback* New_ctor(Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, int8_t a);
     // public Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
-    // Offset: 0x1B574E8
+    // Offset: 0x18F86DC
     // Implemented from: Org.BouncyCastle.Math.EC.Multiplier.IPreCompCallback
     // Base method: Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo IPreCompCallback::Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
     Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);

@@ -76,30 +76,30 @@ namespace GlobalNamespace {
     // Offset: 0xB0
     System::Action_1<GlobalNamespace::SettingsNavigationController::FinishAction>* didFinishEvent;
     // public System.Void add_didFinishEvent(System.Action`1<SettingsNavigationController/FinishAction> value)
-    // Offset: 0xEEB7B4
+    // Offset: 0x1FEC53C
     void add_didFinishEvent(System::Action_1<GlobalNamespace::SettingsNavigationController::FinishAction>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<SettingsNavigationController/FinishAction> value)
-    // Offset: 0xEEB94C
+    // Offset: 0x1FEC6D4
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::SettingsNavigationController::FinishAction>* value);
     // private System.Void HandleFinishButton(SettingsNavigationController/FinishAction finishAction)
-    // Offset: 0xEEBD40
+    // Offset: 0x1FECAC8
     void HandleFinishButton(GlobalNamespace::SettingsNavigationController::FinishAction finishAction);
     // private System.Void <DidActivate>b__7_0()
-    // Offset: 0xEEBDBC
+    // Offset: 0x1FECB44
     void $DidActivate$b__7_0();
     // private System.Void <DidActivate>b__7_1()
-    // Offset: 0xEEBDC4
+    // Offset: 0x1FECB4C
     void $DidActivate$b__7_1();
     // private System.Void <DidActivate>b__7_2()
-    // Offset: 0xEEBDCC
+    // Offset: 0x1FECB54
     void $DidActivate$b__7_2();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xEEBC00
+    // Offset: 0x1FEC988
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xEEBDB4
+    // Offset: 0x1FECB3C
     // Implemented from: HMUI.NavigationController
     // Base method: System.Void NavigationController::.ctor()
     // Base method: System.Void ContainerViewController::.ctor()

@@ -31,7 +31,7 @@ namespace UnityEngine {
     // Offset: 0x48
     bool apply;
     // public System.Void .ctor()
-    // Offset: 0x1916428
+    // Offset: 0x16BC84C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ScrollViewState* New_ctor();

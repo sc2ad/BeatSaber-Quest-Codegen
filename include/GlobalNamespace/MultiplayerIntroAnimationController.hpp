@@ -76,25 +76,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void SetBeforeIntroValue()
-    // Offset: 0x222EAB4
+    // Offset: 0x203D0C4
     void SetBeforeIntroValue();
     // public System.Void PlayIntroAnimation(System.Single maxDesiredIntroAnimationDuration, System.Action onCompleted)
-    // Offset: 0x222EFA0
+    // Offset: 0x203D5B0
     void PlayIntroAnimation(float maxDesiredIntroAnimationDuration, System::Action* onCompleted);
     // public System.Single GetFullIntroAnimationTime()
-    // Offset: 0x222F074
+    // Offset: 0x203D684
     float GetFullIntroAnimationTime();
     // private System.Collections.IEnumerator PlayIntroAnimationCoroutine(System.Single maxDesiredIntroAnimationDuration, System.Action onCompleted)
-    // Offset: 0x222EFCC
+    // Offset: 0x203D5DC
     System::Collections::IEnumerator* PlayIntroAnimationCoroutine(float maxDesiredIntroAnimationDuration, System::Action* onCompleted);
     // public System.Void TransitionToAfterIntroAnimationState()
-    // Offset: 0x222F0D8
+    // Offset: 0x203D6E8
     void TransitionToAfterIntroAnimationState();
     // private System.Collections.Generic.Queue`1<System.Int32> CalculatePlayerIndexSequence(System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> allActivePlayer)
-    // Offset: 0x222F5D8
+    // Offset: 0x203DBE8
     System::Collections::Generic::Queue_1<int>* CalculatePlayerIndexSequence(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* allActivePlayer);
     // public System.Void .ctor()
-    // Offset: 0x222FA80
+    // Offset: 0x203E090
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

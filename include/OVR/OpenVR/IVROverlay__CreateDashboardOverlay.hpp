@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_CreateDashboardOverlay : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1D6751C
+    // Offset: 0x1AB9180
     static IVROverlay::_CreateDashboardOverlay* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.String pchOverlayKey, System.String pchOverlayFriendlyName, ref System.UInt64 pMainHandle, ref System.UInt64 pThumbnailHandle)
-    // Offset: 0x1D67530
+    // Offset: 0x1AB9194
     OVR::OpenVR::EVROverlayError Invoke(::Il2CppString* pchOverlayKey, ::Il2CppString* pchOverlayFriendlyName, uint64_t& pMainHandle, uint64_t& pThumbnailHandle);
     // public System.IAsyncResult BeginInvoke(System.String pchOverlayKey, System.String pchOverlayFriendlyName, ref System.UInt64 pMainHandle, ref System.UInt64 pThumbnailHandle, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1D67984
+    // Offset: 0x1AB95E8
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchOverlayKey, ::Il2CppString* pchOverlayFriendlyName, uint64_t& pMainHandle, uint64_t& pThumbnailHandle, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(ref System.UInt64 pMainHandle, ref System.UInt64 pThumbnailHandle, System.IAsyncResult result)
-    // Offset: 0x1D67A44
+    // Offset: 0x1AB96A8
     OVR::OpenVR::EVROverlayError EndInvoke(uint64_t& pMainHandle, uint64_t& pThumbnailHandle, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_CreateDashboardOverlay
 }

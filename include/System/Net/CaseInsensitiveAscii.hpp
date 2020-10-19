@@ -24,13 +24,13 @@ namespace System::Net {
     // Set static field: static readonly System.Byte[] AsciiToLower
     static void _set_AsciiToLower(::Array<uint8_t>* value);
     // private System.Int32 FastGetHashCode(System.String myString)
-    // Offset: 0x14D69A0
+    // Offset: 0x12AC1C8
     int FastGetHashCode(::Il2CppString* myString);
     // static private System.Void .cctor()
-    // Offset: 0x14D6C3C
+    // Offset: 0x12AC464
     static void _cctor();
     // public System.Int32 GetHashCode(System.Object myObject)
-    // Offset: 0x14D66F8
+    // Offset: 0x12ABF20
     // Implemented from: System.Collections.IEqualityComparer
     // Base method: System.Int32 IEqualityComparer::GetHashCode(System.Object myObject)
     int GetHashCode(::Il2CppObject* myObject);
@@ -38,7 +38,7 @@ namespace System::Net {
     // Maps to method: GetHashCode
     int System_Collections_IEqualityComparer_GetHashCode(::Il2CppObject* myObject);
     // public System.Int32 Compare(System.Object firstObject, System.Object secondObject)
-    // Offset: 0x14D681C
+    // Offset: 0x12AC044
     // Implemented from: System.Collections.IComparer
     // Base method: System.Int32 IComparer::Compare(System.Object firstObject, System.Object secondObject)
     int Compare(::Il2CppObject* firstObject, ::Il2CppObject* secondObject);
@@ -46,7 +46,7 @@ namespace System::Net {
     // Maps to method: Compare
     int System_Collections_IComparer_Compare(::Il2CppObject* firstObject, ::Il2CppObject* secondObject);
     // public System.Boolean Equals(System.Object firstObject, System.Object secondObject)
-    // Offset: 0x14D6AA8
+    // Offset: 0x12AC2D0
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object firstObject, System.Object secondObject)
     // Base method: System.Boolean IEqualityComparer::Equals(System.Object firstObject, System.Object secondObject)
@@ -55,7 +55,7 @@ namespace System::Net {
     // Maps to method: Equals
     bool System_Collections_IEqualityComparer_Equals(::Il2CppObject* firstObject, ::Il2CppObject* secondObject);
     // public System.Void .ctor()
-    // Offset: 0x14D6C34
+    // Offset: 0x12AC45C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CaseInsensitiveAscii* New_ctor();

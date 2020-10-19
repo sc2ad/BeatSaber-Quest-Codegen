@@ -30,7 +30,7 @@ namespace HMUI {
     // Offset: 0x20
     System::Action* finishedCallback;
     // public System.Void .ctor()
-    // Offset: 0x11B7204
+    // Offset: 0x218664C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FlowCoordinator::$$c__DisplayClass38_0* New_ctor();

@@ -24,34 +24,34 @@ namespace UnityEngine {
   class Collider : public UnityEngine::Component {
     public:
     // public System.Boolean get_enabled()
-    // Offset: 0x220F674
+    // Offset: 0x1F60084
     bool get_enabled();
     // public System.Void set_enabled(System.Boolean value)
-    // Offset: 0x220F6B4
+    // Offset: 0x1F600C4
     void set_enabled(bool value);
     // public UnityEngine.Rigidbody get_attachedRigidbody()
-    // Offset: 0x220F704
+    // Offset: 0x1F60114
     UnityEngine::Rigidbody* get_attachedRigidbody();
     // public System.Boolean get_isTrigger()
-    // Offset: 0x220F744
+    // Offset: 0x1F60154
     bool get_isTrigger();
     // public System.Void set_isTrigger(System.Boolean value)
-    // Offset: 0x220F784
+    // Offset: 0x1F60194
     void set_isTrigger(bool value);
     // public UnityEngine.Bounds get_bounds()
-    // Offset: 0x220F7D4
+    // Offset: 0x1F601E4
     UnityEngine::Bounds get_bounds();
     // private System.Void Internal_ClosestPointOnBounds(UnityEngine.Vector3 point, ref UnityEngine.Vector3 outPos, ref System.Single distance)
-    // Offset: 0x220F890
+    // Offset: 0x1F602A0
     void Internal_ClosestPointOnBounds(UnityEngine::Vector3 point, UnityEngine::Vector3& outPos, float& distance);
     // public UnityEngine.Vector3 ClosestPointOnBounds(UnityEngine.Vector3 position)
-    // Offset: 0x220F968
+    // Offset: 0x1F60378
     UnityEngine::Vector3 ClosestPointOnBounds(UnityEngine::Vector3 position);
     // private System.Void get_bounds_Injected(out UnityEngine.Bounds ret)
-    // Offset: 0x220F840
+    // Offset: 0x1F60250
     void get_bounds_Injected(UnityEngine::Bounds& ret);
     // private System.Void Internal_ClosestPointOnBounds_Injected(ref UnityEngine.Vector3 point, ref UnityEngine.Vector3 outPos, ref System.Single distance)
-    // Offset: 0x220F900
+    // Offset: 0x1F60310
     void Internal_ClosestPointOnBounds_Injected(UnityEngine::Vector3& point, UnityEngine::Vector3& outPos, float& distance);
   }; // UnityEngine.Collider
 }

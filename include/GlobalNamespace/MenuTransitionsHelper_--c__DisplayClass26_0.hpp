@@ -29,10 +29,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::MenuTransitionsHelper* $$4__this;
     // System.Void <HandleTutorialSceneDidFinish>b__0(Zenject.DiContainer container)
-    // Offset: 0xEDB6E0
+    // Offset: 0x1FC52A8
     void $HandleTutorialSceneDidFinish$b__0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0xEDB358
+    // Offset: 0x1FC4F20
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MenuTransitionsHelper::$$c__DisplayClass26_0* New_ctor();

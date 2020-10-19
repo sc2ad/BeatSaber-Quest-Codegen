@@ -44,25 +44,25 @@ namespace Mono::Http {
     // Set static field: static private readonly System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Net.HttpWebRequest,Mono.Http.NtlmSession> cache
     static void _set_cache(System::Runtime::CompilerServices::ConditionalWeakTable_2<System::Net::HttpWebRequest*, Mono::Http::NtlmSession*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1414318
+    // Offset: 0x11EAA54
     static void _cctor();
     // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1413B18
+    // Offset: 0x11EA254
     // Implemented from: System.Net.IAuthenticationModule
     // Base method: System.Net.Authorization IAuthenticationModule::Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
     System::Net::Authorization* Authenticate(::Il2CppString* challenge, System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.Net.Authorization PreAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x14142C0
+    // Offset: 0x11EA9FC
     // Implemented from: System.Net.IAuthenticationModule
     // Base method: System.Net.Authorization IAuthenticationModule::PreAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
     System::Net::Authorization* PreAuthenticate(System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.String get_AuthenticationType()
-    // Offset: 0x14142C8
+    // Offset: 0x11EAA04
     // Implemented from: System.Net.IAuthenticationModule
     // Base method: System.String IAuthenticationModule::get_AuthenticationType()
     ::Il2CppString* get_AuthenticationType();
     // public System.Void .ctor()
-    // Offset: 0x1414310
+    // Offset: 0x11EAA4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NtlmClient* New_ctor();

@@ -54,64 +54,64 @@ namespace System::Globalization {
     // Set static field: static readonly System.Int32[] DaysToMonth366
     static void _set_DaysToMonth366(::Array<int>* value);
     // System.Int32 get_MaxYear()
-    // Offset: 0x1933654
+    // Offset: 0x16D9A78
     int get_MaxYear();
     // System.Void .ctor(System.Globalization.Calendar cal, System.Globalization.EraInfo[] eraInfo)
-    // Offset: 0x193365C
+    // Offset: 0x16D9A80
     static GregorianCalendarHelper* New_ctor(System::Globalization::Calendar* cal, ::Array<System::Globalization::EraInfo*>* eraInfo);
     // System.Int32 GetGregorianYear(System.Int32 year, System.Int32 era)
-    // Offset: 0x193371C
+    // Offset: 0x16D9B40
     int GetGregorianYear(int year, int era);
     // System.Boolean IsValidYear(System.Int32 year, System.Int32 era)
-    // Offset: 0x1933980
+    // Offset: 0x16D9DA4
     bool IsValidYear(int year, int era);
     // System.Int32 GetDatePart(System.Int64 ticks, System.Int32 part)
-    // Offset: 0x1933A38
+    // Offset: 0x16D9E5C
     int GetDatePart(int64_t ticks, int part);
     // static System.Int64 GetAbsoluteDate(System.Int32 year, System.Int32 month, System.Int32 day)
-    // Offset: 0x1933E50
+    // Offset: 0x16DA274
     static int64_t GetAbsoluteDate(int year, int month, int day);
     // static System.Int64 DateToTicks(System.Int32 year, System.Int32 month, System.Int32 day)
-    // Offset: 0x1934048
+    // Offset: 0x16DA46C
     static int64_t DateToTicks(int year, int month, int day);
     // static System.Int64 TimeToTicks(System.Int32 hour, System.Int32 minute, System.Int32 second, System.Int32 millisecond)
-    // Offset: 0x19340D8
+    // Offset: 0x16DA4FC
     static int64_t TimeToTicks(int hour, int minute, int second, int millisecond);
     // System.Void CheckTicksRange(System.Int64 ticks)
-    // Offset: 0x1933C84
+    // Offset: 0x16DA0A8
     void CheckTicksRange(int64_t ticks);
     // public System.Int32 GetDayOfMonth(System.DateTime time)
-    // Offset: 0x193429C
+    // Offset: 0x16DA6C0
     int GetDayOfMonth(System::DateTime time);
     // public System.DayOfWeek GetDayOfWeek(System.DateTime time)
-    // Offset: 0x19342E0
+    // Offset: 0x16DA704
     System::DayOfWeek GetDayOfWeek(System::DateTime time);
     // public System.Int32 GetDaysInMonth(System.Int32 year, System.Int32 month, System.Int32 era)
-    // Offset: 0x1934370
+    // Offset: 0x16DA794
     int GetDaysInMonth(int year, int month, int era);
     // public System.Int32 GetEra(System.DateTime time)
-    // Offset: 0x1934518
+    // Offset: 0x16DA93C
     int GetEra(System::DateTime time);
     // public System.Int32[] get_Eras()
-    // Offset: 0x1934618
+    // Offset: 0x16DAA3C
     ::Array<int>* get_Eras();
     // public System.Int32 GetMonth(System.DateTime time)
-    // Offset: 0x1934730
+    // Offset: 0x16DAB54
     int GetMonth(System::DateTime time);
     // public System.Int32 GetMonthsInYear(System.Int32 year, System.Int32 era)
-    // Offset: 0x1934774
+    // Offset: 0x16DAB98
     int GetMonthsInYear(int year, int era);
     // public System.Int32 GetYear(System.DateTime time)
-    // Offset: 0x193478C
+    // Offset: 0x16DABB0
     int GetYear(System::DateTime time);
     // public System.Boolean IsLeapYear(System.Int32 year, System.Int32 era)
-    // Offset: 0x19348AC
+    // Offset: 0x16DACD0
     bool IsLeapYear(int year, int era);
     // public System.DateTime ToDateTime(System.Int32 year, System.Int32 month, System.Int32 day, System.Int32 hour, System.Int32 minute, System.Int32 second, System.Int32 millisecond, System.Int32 era)
-    // Offset: 0x1934914
+    // Offset: 0x16DAD38
     System::DateTime ToDateTime(int year, int month, int day, int hour, int minute, int second, int millisecond, int era);
     // static private System.Void .cctor()
-    // Offset: 0x1934A24
+    // Offset: 0x16DAE48
     static void _cctor();
   }; // System.Globalization.GregorianCalendarHelper
 }

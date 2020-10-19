@@ -41,15 +41,15 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::MultiplayerMockSettings* $$4__this;
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x224103C
+    // Offset: 0x204F64C
     static MultiplayerMockSettings::$get_mockServers$d__21* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x224183C
+    // Offset: 0x204FE4C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x2241840
+    // Offset: 0x204FE50
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -57,27 +57,27 @@ namespace GlobalNamespace {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // private MockServer System.Collections.Generic.IEnumerator<MockServer>.get_Current()
-    // Offset: 0x22418A8
+    // Offset: 0x204FEB8
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator_1::get_Current()
     GlobalNamespace::MockServer* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x22418B0
+    // Offset: 0x204FEC0
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x2241910
+    // Offset: 0x204FF20
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // private System.Collections.Generic.IEnumerator`1<MockServer> System.Collections.Generic.IEnumerable<MockServer>.GetEnumerator()
-    // Offset: 0x2241918
+    // Offset: 0x204FF28
     // Implemented from: System.Collections.Generic.IEnumerable`1
     // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable_1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<GlobalNamespace::MockServer*>* System_Collections_Generic_IEnumerable_1_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x22419CC
+    // Offset: 0x204FFDC
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();

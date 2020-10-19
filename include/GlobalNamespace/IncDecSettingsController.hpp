@@ -26,19 +26,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void set_enableDec(System.Boolean value)
-    // Offset: 0x101995C
+    // Offset: 0x20AF01C
     void set_enableDec(bool value);
     // protected System.Void set_enableInc(System.Boolean value)
-    // Offset: 0x101997C
+    // Offset: 0x20AF03C
     void set_enableInc(bool value);
     // protected System.Void set_text(System.String value)
-    // Offset: 0x101999C
+    // Offset: 0x20AF05C
     void set_text(::Il2CppString* value);
     // protected System.Void Awake()
-    // Offset: 0x10199B8
+    // Offset: 0x20AF078
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1019A7C
+    // Offset: 0x20AF13C
     void OnDestroy();
     // protected System.Void IncButtonPressed()
     // Offset: 0xFFFFFFFF
@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void DecButtonPressed();
     // protected System.Void .ctor()
-    // Offset: 0x1019B84
+    // Offset: 0x20AF244
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -56,15 +56,15 @@ namespace NUnit::Framework {
     // Offset: 0x20
     NUnit::Framework::Interfaces::IParameterDataProvider* dataProvider;
     // protected System.Void .ctor(NUnit.Framework.Interfaces.ICombiningStrategy strategy, NUnit.Framework.Interfaces.IParameterDataProvider provider)
-    // Offset: 0x15DDE58
+    // Offset: 0x13B4680
     static CombiningStrategyAttribute* New_ctor(NUnit::Framework::Interfaces::ICombiningStrategy* strategy, NUnit::Framework::Interfaces::IParameterDataProvider* provider);
     // public System.Collections.Generic.IEnumerable`1<NUnit.Framework.Internal.TestMethod> BuildFrom(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test suite)
-    // Offset: 0x15DDFA4
+    // Offset: 0x13B47CC
     // Implemented from: NUnit.Framework.Interfaces.ITestBuilder
     // Base method: System.Collections.Generic.IEnumerable`1<NUnit.Framework.Internal.TestMethod> ITestBuilder::BuildFrom(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test suite)
     System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestMethod*>* BuildFrom(NUnit::Framework::Interfaces::IMethodInfo* method, NUnit::Framework::Internal::Test* suite);
     // public System.Void ApplyToTest(NUnit.Framework.Internal.Test test)
-    // Offset: 0x15DEA24
+    // Offset: 0x13B524C
     // Implemented from: NUnit.Framework.Interfaces.IApplyToTest
     // Base method: System.Void IApplyToTest::ApplyToTest(NUnit.Framework.Internal.Test test)
     void ApplyToTest(NUnit::Framework::Internal::Test* test);

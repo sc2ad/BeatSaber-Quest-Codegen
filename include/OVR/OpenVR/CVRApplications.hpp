@@ -44,100 +44,100 @@ namespace OVR::OpenVR {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x137263C
+    // Offset: 0x1147D78
     static CVRApplications* New_ctor(System::IntPtr pInterface);
     // public OVR.OpenVR.EVRApplicationError AddApplicationManifest(System.String pchApplicationManifestFullPath, System.Boolean bTemporary)
-    // Offset: 0x1372750
+    // Offset: 0x1147E8C
     OVR::OpenVR::EVRApplicationError AddApplicationManifest(::Il2CppString* pchApplicationManifestFullPath, bool bTemporary);
     // public OVR.OpenVR.EVRApplicationError RemoveApplicationManifest(System.String pchApplicationManifestFullPath)
-    // Offset: 0x1372BBC
+    // Offset: 0x11482F8
     OVR::OpenVR::EVRApplicationError RemoveApplicationManifest(::Il2CppString* pchApplicationManifestFullPath);
     // public System.Boolean IsApplicationInstalled(System.String pchAppKey)
-    // Offset: 0x1372F94
+    // Offset: 0x11486D0
     bool IsApplicationInstalled(::Il2CppString* pchAppKey);
     // public System.UInt32 GetApplicationCount()
-    // Offset: 0x1373370
+    // Offset: 0x1148AAC
     uint GetApplicationCount();
     // public OVR.OpenVR.EVRApplicationError GetApplicationKeyByIndex(System.UInt32 unApplicationIndex, System.Text.StringBuilder pchAppKeyBuffer, System.UInt32 unAppKeyBufferLen)
-    // Offset: 0x137359C
+    // Offset: 0x1148CD8
     OVR::OpenVR::EVRApplicationError GetApplicationKeyByIndex(uint unApplicationIndex, System::Text::StringBuilder* pchAppKeyBuffer, uint unAppKeyBufferLen);
     // public OVR.OpenVR.EVRApplicationError GetApplicationKeyByProcessId(System.UInt32 unProcessId, System.Text.StringBuilder pchAppKeyBuffer, System.UInt32 unAppKeyBufferLen)
-    // Offset: 0x1373860
+    // Offset: 0x1148F9C
     OVR::OpenVR::EVRApplicationError GetApplicationKeyByProcessId(uint unProcessId, System::Text::StringBuilder* pchAppKeyBuffer, uint unAppKeyBufferLen);
     // public OVR.OpenVR.EVRApplicationError LaunchApplication(System.String pchAppKey)
-    // Offset: 0x1373B24
+    // Offset: 0x1149260
     OVR::OpenVR::EVRApplicationError LaunchApplication(::Il2CppString* pchAppKey);
     // public OVR.OpenVR.EVRApplicationError LaunchTemplateApplication(System.String pchTemplateAppKey, System.String pchNewAppKey, OVR.OpenVR.AppOverrideKeys_t[] pKeys)
-    // Offset: 0x1373EFC
+    // Offset: 0x1149638
     OVR::OpenVR::EVRApplicationError LaunchTemplateApplication(::Il2CppString* pchTemplateAppKey, ::Il2CppString* pchNewAppKey, ::Array<OVR::OpenVR::AppOverrideKeys_t>* pKeys);
     // public OVR.OpenVR.EVRApplicationError LaunchApplicationFromMimeType(System.String pchMimeType, System.String pchArgs)
-    // Offset: 0x1374374
+    // Offset: 0x1149AB0
     OVR::OpenVR::EVRApplicationError LaunchApplicationFromMimeType(::Il2CppString* pchMimeType, ::Il2CppString* pchArgs);
     // public OVR.OpenVR.EVRApplicationError LaunchDashboardOverlay(System.String pchAppKey)
-    // Offset: 0x1374798
+    // Offset: 0x1149ED4
     OVR::OpenVR::EVRApplicationError LaunchDashboardOverlay(::Il2CppString* pchAppKey);
     // public System.Boolean CancelApplicationLaunch(System.String pchAppKey)
-    // Offset: 0x1374B70
+    // Offset: 0x114A2AC
     bool CancelApplicationLaunch(::Il2CppString* pchAppKey);
     // public OVR.OpenVR.EVRApplicationError IdentifyApplication(System.UInt32 unProcessId, System.String pchAppKey)
-    // Offset: 0x1374F4C
+    // Offset: 0x114A688
     OVR::OpenVR::EVRApplicationError IdentifyApplication(uint unProcessId, ::Il2CppString* pchAppKey);
     // public System.UInt32 GetApplicationProcessId(System.String pchAppKey)
-    // Offset: 0x13751F4
+    // Offset: 0x114A930
     uint GetApplicationProcessId(::Il2CppString* pchAppKey);
     // public System.String GetApplicationsErrorNameFromEnum(OVR.OpenVR.EVRApplicationError error)
-    // Offset: 0x13755CC
+    // Offset: 0x114AD08
     ::Il2CppString* GetApplicationsErrorNameFromEnum(OVR::OpenVR::EVRApplicationError error);
     // public System.UInt32 GetApplicationPropertyString(System.String pchAppKey, OVR.OpenVR.EVRApplicationProperty eProperty, System.Text.StringBuilder pchPropertyValueBuffer, System.UInt32 unPropertyValueBufferLen, ref OVR.OpenVR.EVRApplicationError peError)
-    // Offset: 0x13758D0
+    // Offset: 0x114B00C
     uint GetApplicationPropertyString(::Il2CppString* pchAppKey, OVR::OpenVR::EVRApplicationProperty eProperty, System::Text::StringBuilder* pchPropertyValueBuffer, uint unPropertyValueBufferLen, OVR::OpenVR::EVRApplicationError& peError);
     // public System.Boolean GetApplicationPropertyBool(System.String pchAppKey, OVR.OpenVR.EVRApplicationProperty eProperty, ref OVR.OpenVR.EVRApplicationError peError)
-    // Offset: 0x1375D8C
+    // Offset: 0x114B4C8
     bool GetApplicationPropertyBool(::Il2CppString* pchAppKey, OVR::OpenVR::EVRApplicationProperty eProperty, OVR::OpenVR::EVRApplicationError& peError);
     // public System.UInt64 GetApplicationPropertyUint64(System.String pchAppKey, OVR.OpenVR.EVRApplicationProperty eProperty, ref OVR.OpenVR.EVRApplicationError peError)
-    // Offset: 0x1376200
+    // Offset: 0x114B93C
     uint64_t GetApplicationPropertyUint64(::Il2CppString* pchAppKey, OVR::OpenVR::EVRApplicationProperty eProperty, OVR::OpenVR::EVRApplicationError& peError);
     // public OVR.OpenVR.EVRApplicationError SetApplicationAutoLaunch(System.String pchAppKey, System.Boolean bAutoLaunch)
-    // Offset: 0x1376670
+    // Offset: 0x114BDAC
     OVR::OpenVR::EVRApplicationError SetApplicationAutoLaunch(::Il2CppString* pchAppKey, bool bAutoLaunch);
     // public System.Boolean GetApplicationAutoLaunch(System.String pchAppKey)
-    // Offset: 0x1376ADC
+    // Offset: 0x114C218
     bool GetApplicationAutoLaunch(::Il2CppString* pchAppKey);
     // public OVR.OpenVR.EVRApplicationError SetDefaultApplicationForMimeType(System.String pchAppKey, System.String pchMimeType)
-    // Offset: 0x1376EB8
+    // Offset: 0x114C5F4
     OVR::OpenVR::EVRApplicationError SetDefaultApplicationForMimeType(::Il2CppString* pchAppKey, ::Il2CppString* pchMimeType);
     // public System.Boolean GetDefaultApplicationForMimeType(System.String pchMimeType, System.Text.StringBuilder pchAppKeyBuffer, System.UInt32 unAppKeyBufferLen)
-    // Offset: 0x13772DC
+    // Offset: 0x114CA18
     bool GetDefaultApplicationForMimeType(::Il2CppString* pchMimeType, System::Text::StringBuilder* pchAppKeyBuffer, uint unAppKeyBufferLen);
     // public System.Boolean GetApplicationSupportedMimeTypes(System.String pchAppKey, System.Text.StringBuilder pchMimeTypesBuffer, System.UInt32 unMimeTypesBuffer)
-    // Offset: 0x1377728
+    // Offset: 0x114CE64
     bool GetApplicationSupportedMimeTypes(::Il2CppString* pchAppKey, System::Text::StringBuilder* pchMimeTypesBuffer, uint unMimeTypesBuffer);
     // public System.UInt32 GetApplicationsThatSupportMimeType(System.String pchMimeType, System.Text.StringBuilder pchAppKeysThatSupportBuffer, System.UInt32 unAppKeysThatSupportBuffer)
-    // Offset: 0x1377B74
+    // Offset: 0x114D2B0
     uint GetApplicationsThatSupportMimeType(::Il2CppString* pchMimeType, System::Text::StringBuilder* pchAppKeysThatSupportBuffer, uint unAppKeysThatSupportBuffer);
     // public System.UInt32 GetApplicationLaunchArguments(System.UInt32 unHandle, System.Text.StringBuilder pchArgs, System.UInt32 unArgs)
-    // Offset: 0x1377FBC
+    // Offset: 0x114D6F8
     uint GetApplicationLaunchArguments(uint unHandle, System::Text::StringBuilder* pchArgs, uint unArgs);
     // public OVR.OpenVR.EVRApplicationError GetStartingApplication(System.Text.StringBuilder pchAppKeyBuffer, System.UInt32 unAppKeyBufferLen)
-    // Offset: 0x1378280
+    // Offset: 0x114D9BC
     OVR::OpenVR::EVRApplicationError GetStartingApplication(System::Text::StringBuilder* pchAppKeyBuffer, uint unAppKeyBufferLen);
     // public OVR.OpenVR.EVRApplicationTransitionState GetTransitionState()
-    // Offset: 0x13786CC
+    // Offset: 0x114DE08
     OVR::OpenVR::EVRApplicationTransitionState GetTransitionState();
     // public OVR.OpenVR.EVRApplicationError PerformApplicationPrelaunchCheck(System.String pchAppKey)
-    // Offset: 0x13788F8
+    // Offset: 0x114E034
     OVR::OpenVR::EVRApplicationError PerformApplicationPrelaunchCheck(::Il2CppString* pchAppKey);
     // public System.String GetApplicationsTransitionStateNameFromEnum(OVR.OpenVR.EVRApplicationTransitionState state)
-    // Offset: 0x1378CD0
+    // Offset: 0x114E40C
     ::Il2CppString* GetApplicationsTransitionStateNameFromEnum(OVR::OpenVR::EVRApplicationTransitionState state);
     // public System.Boolean IsQuitUserPromptRequested()
-    // Offset: 0x1378FD4
+    // Offset: 0x114E710
     bool IsQuitUserPromptRequested();
     // public OVR.OpenVR.EVRApplicationError LaunchInternalProcess(System.String pchBinaryPath, System.String pchArguments, System.String pchWorkingDirectory)
-    // Offset: 0x1379204
+    // Offset: 0x114E940
     OVR::OpenVR::EVRApplicationError LaunchInternalProcess(::Il2CppString* pchBinaryPath, ::Il2CppString* pchArguments, ::Il2CppString* pchWorkingDirectory);
     // public System.UInt32 GetCurrentSceneProcessId()
-    // Offset: 0x137964C
+    // Offset: 0x114ED88
     uint GetCurrentSceneProcessId();
   }; // OVR.OpenVR.CVRApplications
 }

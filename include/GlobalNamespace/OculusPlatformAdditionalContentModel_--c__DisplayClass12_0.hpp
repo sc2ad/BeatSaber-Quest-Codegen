@@ -47,13 +47,13 @@ namespace GlobalNamespace {
     // Offset: 0x28
     typename Oculus::Platform::Message_1<Oculus::Platform::Models::PurchaseList*>::Callback* $$9__1;
     // System.Void <CheckForNewEntitlementsAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetDetailsList> getListMsg)
-    // Offset: 0x1007B3C
+    // Offset: 0x1F80188
     void $CheckForNewEntitlementsAsync$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetDetailsList*>* getListMsg);
     // System.Void <CheckForNewEntitlementsAsync>b__1(Oculus.Platform.Message`1<Oculus.Platform.Models.PurchaseList> getPurchasesMsg)
-    // Offset: 0x1007F94
+    // Offset: 0x1F805E4
     void $CheckForNewEntitlementsAsync$b__1(Oculus::Platform::Message_1<Oculus::Platform::Models::PurchaseList*>* getPurchasesMsg);
     // public System.Void .ctor()
-    // Offset: 0x1007B34
+    // Offset: 0x1F80180
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusPlatformAdditionalContentModel::$$c__DisplayClass12_0* New_ctor();

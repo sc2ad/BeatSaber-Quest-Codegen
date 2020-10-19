@@ -42,10 +42,10 @@ namespace Zenject {
     // Offset: 0x20
     Zenject::DiContainer* container;
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.IPrefabProvider prefabProvider, Zenject.GameObjectCreationParameters gameObjectBindInfo)
-    // Offset: 0x151EF48
+    // Offset: 0x12F5770
     static SubContainerCreatorByNewPrefab* New_ctor(Zenject::DiContainer* container, Zenject::IPrefabProvider* prefabProvider, Zenject::GameObjectCreationParameters* gameObjectBindInfo);
     // public Zenject.DiContainer CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext parentContext)
-    // Offset: 0x1520584
+    // Offset: 0x12F6DAC
     // Implemented from: Zenject.ISubContainerCreator
     // Base method: Zenject.DiContainer ISubContainerCreator::CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext parentContext)
     Zenject::DiContainer* CreateSubContainer(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::InjectContext* parentContext);

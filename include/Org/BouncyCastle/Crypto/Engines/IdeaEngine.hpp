@@ -36,67 +36,67 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set static field: static private readonly System.Int32 BASE
     static void _set_BASE(int value);
     // private System.Int32 BytesToWord(System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x1BD09E8
+    // Offset: 0x1971BDC
     int BytesToWord(::Array<uint8_t>* input, int inOff);
     // private System.Void WordToBytes(System.Int32 word, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1BD0A34
+    // Offset: 0x1971C28
     void WordToBytes(int word, ::Array<uint8_t>* outBytes, int outOff);
     // private System.Int32 Mul(System.Int32 x, System.Int32 y)
-    // Offset: 0x1BD0A88
+    // Offset: 0x1971C7C
     int Mul(int x, int y);
     // private System.Void IdeaFunc(System.Int32[] workingKey, System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1BD070C
+    // Offset: 0x1971900
     void IdeaFunc(::Array<int>* workingKey, ::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* outBytes, int outOff);
     // private System.Int32[] ExpandKey(System.Byte[] uKey)
-    // Offset: 0x1BD0BAC
+    // Offset: 0x1971DA0
     ::Array<int>* ExpandKey(::Array<uint8_t>* uKey);
     // private System.Int32 MulInv(System.Int32 x)
-    // Offset: 0x1BD0DA8
+    // Offset: 0x1971F9C
     int MulInv(int x);
     // private System.Int32 AddInv(System.Int32 x)
-    // Offset: 0x1BD0EE8
+    // Offset: 0x19720DC
     int AddInv(int x);
     // private System.Int32[] InvertKey(System.Int32[] inKey)
-    // Offset: 0x1BD0F5C
+    // Offset: 0x1972150
     ::Array<int>* InvertKey(::Array<int>* inKey);
     // private System.Int32[] GenerateWorkingKey(System.Boolean forEncryption, System.Byte[] userKey)
-    // Offset: 0x1BD0578
+    // Offset: 0x197176C
     ::Array<int>* GenerateWorkingKey(bool forEncryption, ::Array<uint8_t>* userKey);
     // static private System.Void .cctor()
-    // Offset: 0x1BD1234
+    // Offset: 0x1972428
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1BD0438
+    // Offset: 0x197162C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static IdeaEngine* New_ctor();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1BD0440
+    // Offset: 0x1971634
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Void IBlockCipher::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.String get_AlgorithmName()
-    // Offset: 0x1BD05B0
+    // Offset: 0x19717A4
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.String IBlockCipher::get_AlgorithmName()
     ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x1BD05F8
+    // Offset: 0x19717EC
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Boolean IBlockCipher::get_IsPartialBlockOkay()
     bool get_IsPartialBlockOkay();
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1BD0600
+    // Offset: 0x19717F4
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Int32 IBlockCipher::GetBlockSize()
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1BD0608
+    // Offset: 0x19717FC
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Int32 IBlockCipher::ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
     int ProcessBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1BD09E4
+    // Offset: 0x1971BD8
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Void IBlockCipher::Reset()
     void Reset();

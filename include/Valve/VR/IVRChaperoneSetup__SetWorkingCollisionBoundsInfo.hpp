@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRChaperoneSetup::_SetWorkingCollisionBoundsInfo : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1E2C2C8
+    // Offset: 0x1B7EF2C
     static IVRChaperoneSetup::_SetWorkingCollisionBoundsInfo* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(in Valve.VR.HmdQuad_t[] pQuadsBuffer, System.UInt32 unQuadsCount)
-    // Offset: 0x1E2C2DC
+    // Offset: 0x1B7EF40
     void Invoke(::Array<Valve::VR::HmdQuad_t>*& pQuadsBuffer, uint unQuadsCount);
     // public System.IAsyncResult BeginInvoke(in Valve.VR.HmdQuad_t[] pQuadsBuffer, System.UInt32 unQuadsCount, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1E2C548
+    // Offset: 0x1B7F1AC
     System::IAsyncResult* BeginInvoke(::Array<Valve::VR::HmdQuad_t>*& pQuadsBuffer, uint unQuadsCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1E2C5E4
+    // Offset: 0x1B7F248
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperoneSetup/_SetWorkingCollisionBoundsInfo
 }

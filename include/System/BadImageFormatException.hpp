@@ -33,51 +33,51 @@ namespace System {
     // Offset: 0x90
     ::Il2CppString* fusionLog;
     // public System.Void .ctor(System.String message, System.String fileName)
-    // Offset: 0x15CB368
+    // Offset: 0x13A1B90
     static BadImageFormatException* New_ctor(::Il2CppString* message, ::Il2CppString* fileName);
     // private System.Void SetMessageField()
-    // Offset: 0x15CB3D4
+    // Offset: 0x13A1BFC
     void SetMessageField();
     // public System.String get_FusionLog()
-    // Offset: 0x15CB898
+    // Offset: 0x13A20C0
     ::Il2CppString* get_FusionLog();
     // public System.Void .ctor()
-    // Offset: 0x15CB28C
+    // Offset: 0x13A1AB4
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static BadImageFormatException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x15CB300
+    // Offset: 0x13A1B28
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static BadImageFormatException* New_ctor(::Il2CppString* message);
     // public System.Void .ctor(System.String message, System.Exception inner)
-    // Offset: 0x15CB334
+    // Offset: 0x13A1B5C
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception inner)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception inner)
     static BadImageFormatException* New_ctor(::Il2CppString* message, System::Exception* inner);
     // public override System.String get_Message()
-    // Offset: 0x15CB3B0
+    // Offset: 0x13A1BD8
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
     ::Il2CppString* get_Message();
     // public override System.String ToString()
-    // Offset: 0x15CB474
+    // Offset: 0x13A1C9C
     // Implemented from: System.Exception
     // Base method: System.String Exception::ToString()
     ::Il2CppString* ToString();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x15CB740
+    // Offset: 0x13A1F68
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static BadImageFormatException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x15CB8A0
+    // Offset: 0x13A20C8
     // Implemented from: System.Exception
     // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);

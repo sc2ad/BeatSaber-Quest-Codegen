@@ -31,10 +31,10 @@ namespace System::Diagnostics {
     // Offset: 0x28
     int64_t user;
     // public System.TimeSpan get_TotalProcessorTime()
-    // Offset: 0x172A7A4
+    // Offset: 0x14E6378
     System::TimeSpan get_TotalProcessorTime();
     // public System.Void .ctor()
-    // Offset: 0x172A580
+    // Offset: 0x14E6154
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ProcessThreadTimes* New_ctor();

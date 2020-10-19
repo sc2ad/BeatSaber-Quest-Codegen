@@ -50,13 +50,13 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0x28
     System::Func_2<int, int>* $$9__8;
     // System.Int32 <BevelEdges>b__7(System.Int32 x)
-    // Offset: 0x13EAADC
+    // Offset: 0x11C0218
     int $BevelEdges$b__7(int x);
     // System.Int32 <BevelEdges>b__8(System.Int32 x)
-    // Offset: 0x13EAB24
+    // Offset: 0x11C0260
     int $BevelEdges$b__8(int x);
     // public System.Void .ctor()
-    // Offset: 0x13E9D5C
+    // Offset: 0x11BF498
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Bevel::$$c__DisplayClass0_0* New_ctor();

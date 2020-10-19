@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Offset: 0x38
     ::Il2CppString* backButtonText;
     // public System.Void .ctor(MissionObjective[] missionObjectives, System.Boolean autoRestart, IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, System.String backButtonText)
-    // Offset: 0xEDCDC4
+    // Offset: 0x1FC698C
     static MissionGameplaySceneSetupData* New_ctor(::Array<GlobalNamespace::MissionObjective*>* missionObjectives, bool autoRestart, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::Il2CppString* backButtonText);
   }; // MissionGameplaySceneSetupData
 }

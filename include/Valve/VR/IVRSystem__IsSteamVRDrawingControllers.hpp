@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRSystem::_IsSteamVRDrawingControllers : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F5FAA4
+    // Offset: 0x1CB1708
     static IVRSystem::_IsSteamVRDrawingControllers* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke()
-    // Offset: 0x1F5FAB8
+    // Offset: 0x1CB171C
     bool Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F5FCD0
+    // Offset: 0x1CB1934
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1F5FCFC
+    // Offset: 0x1CB1960
     bool EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_IsSteamVRDrawingControllers
 }

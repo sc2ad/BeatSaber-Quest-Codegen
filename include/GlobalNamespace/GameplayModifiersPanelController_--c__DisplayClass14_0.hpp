@@ -27,10 +27,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::GameplayModifiersPanelController* $$4__this;
     // System.Void <Awake>b__0(System.Boolean on)
-    // Offset: 0xECB1D0
+    // Offset: 0x200A1A0
     void $Awake$b__0(bool on);
     // public System.Void .ctor()
-    // Offset: 0xECAE28
+    // Offset: 0x2009DF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GameplayModifiersPanelController::$$c__DisplayClass14_0* New_ctor();

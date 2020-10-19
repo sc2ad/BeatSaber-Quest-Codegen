@@ -23,16 +23,16 @@ namespace Org::BouncyCastle::Utilities {
   class Enums : public ::Il2CppObject {
     public:
     // static System.Enum GetEnumValue(System.Type enumType, System.String s)
-    // Offset: 0x1DE297C
+    // Offset: 0x1B365E0
     static System::Enum* GetEnumValue(System::Type* enumType, ::Il2CppString* s);
     // static System.Array GetEnumValues(System.Type enumType)
-    // Offset: 0x1DE2B74
+    // Offset: 0x1B367D8
     static System::Array* GetEnumValues(System::Type* enumType);
     // static System.Enum GetArbitraryValue(System.Type enumType)
-    // Offset: 0x1DE2C44
+    // Offset: 0x1B368A8
     static System::Enum* GetArbitraryValue(System::Type* enumType);
     // static System.Boolean IsEnumType(System.Type t)
-    // Offset: 0x1DE2B54
+    // Offset: 0x1B367B8
     static bool IsEnumType(System::Type* t);
   }; // Org.BouncyCastle.Utilities.Enums
 }

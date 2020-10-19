@@ -65,13 +65,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Start()
-    // Offset: 0xED8BBC
+    // Offset: 0x1FC2784
     void Start();
     // public System.Void ShowEnvironmentType(MenuEnvironmentManager/MenuEnvironmentType menuEnvironmentType)
-    // Offset: 0xED8BC4
+    // Offset: 0x1FC278C
     void ShowEnvironmentType(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType menuEnvironmentType);
     // public System.Void .ctor()
-    // Offset: 0xED8CBC
+    // Offset: 0x1FC2884
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -23,20 +23,20 @@ namespace System {
   class StackOverflowException : public System::SystemException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x143E4C8
+    // Offset: 0x1214C04
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static StackOverflowException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x143E53C
+    // Offset: 0x1214C78
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static StackOverflowException* New_ctor(::Il2CppString* message);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x143E570
+    // Offset: 0x1214CAC
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

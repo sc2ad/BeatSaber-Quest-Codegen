@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRSystem::_PerformFirmwareUpdate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F6006C
+    // Offset: 0x1CB1CD0
     static IVRSystem::_PerformFirmwareUpdate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRFirmwareError Invoke(System.UInt32 unDeviceIndex)
-    // Offset: 0x1F60080
+    // Offset: 0x1CB1CE4
     Valve::VR::EVRFirmwareError Invoke(uint unDeviceIndex);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unDeviceIndex, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F602F4
+    // Offset: 0x1CB1F58
     System::IAsyncResult* BeginInvoke(uint unDeviceIndex, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRFirmwareError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1F60380
+    // Offset: 0x1CB1FE4
     Valve::VR::EVRFirmwareError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_PerformFirmwareUpdate
 }

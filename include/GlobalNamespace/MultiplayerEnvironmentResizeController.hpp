@@ -63,34 +63,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_isResizingFinished()
-    // Offset: 0xFD2C1C
+    // Offset: 0x2067754
     bool get_isResizingFinished();
     // public System.Void add_resizingDidFinishEvent(System.Action value)
-    // Offset: 0xFD2C24
+    // Offset: 0x206775C
     void add_resizingDidFinishEvent(System::Action* value);
     // public System.Void remove_resizingDidFinishEvent(System.Action value)
-    // Offset: 0xFD2CC8
+    // Offset: 0x2067800
     void remove_resizingDidFinishEvent(System::Action* value);
     // protected System.Void Start()
-    // Offset: 0xFD2D6C
+    // Offset: 0x20678A4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xFD2ED8
+    // Offset: 0x2067A10
     void OnDestroy();
     // private System.Void HandleEdgeDistanceFromCenterWasCalculated(System.Single edgeDistanceFromCenter)
-    // Offset: 0xFD2EA8
+    // Offset: 0x20679E0
     void HandleEdgeDistanceFromCenterWasCalculated(float edgeDistanceFromCenter);
     // private System.Void HandleSpawnCenterDistanceWasFound(System.Single distance)
-    // Offset: 0xFD2EC0
+    // Offset: 0x20679F8
     void HandleSpawnCenterDistanceWasFound(float distance);
     // private System.Void TryResize()
-    // Offset: 0xFD302C
+    // Offset: 0x2067B64
     void TryResize();
     // private System.Void Resize()
-    // Offset: 0xFD3044
+    // Offset: 0x2067B7C
     void Resize();
     // public System.Void .ctor()
-    // Offset: 0xFD333C
+    // Offset: 0x2067E74
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

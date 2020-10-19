@@ -71,21 +71,21 @@ namespace HMUI {
     // Offset: 0x100
     HMUI::NoTransitionsButton::SelectionState selectionState;
     // public HMUI.NoTransitionsButton/SelectionState get_selectionState()
-    // Offset: 0x11736CC
+    // Offset: 0x216D0B4
     HMUI::NoTransitionsButton::SelectionState get_selectionState();
     // public System.Void add_selectionStateDidChangeEvent(System.Action`1<HMUI.NoTransitionsButton/SelectionState> value)
-    // Offset: 0x11736D4
+    // Offset: 0x216D0BC
     void add_selectionStateDidChangeEvent(System::Action_1<HMUI::NoTransitionsButton::SelectionState>* value);
     // public System.Void remove_selectionStateDidChangeEvent(System.Action`1<HMUI.NoTransitionsButton/SelectionState> value)
-    // Offset: 0x1173778
+    // Offset: 0x216D160
     void remove_selectionStateDidChangeEvent(System::Action_1<HMUI::NoTransitionsButton::SelectionState>* value);
     // protected override System.Void DoStateTransition(UnityEngine.UI.Selectable/SelectionState state, System.Boolean instant)
-    // Offset: 0x117381C
+    // Offset: 0x216D204
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::DoStateTransition(UnityEngine.UI.Selectable/SelectionState state, System.Boolean instant)
     void DoStateTransition(UnityEngine::UI::Selectable::SelectionState state, bool instant);
     // public System.Void .ctor()
-    // Offset: 0x11738B0
+    // Offset: 0x216D298
     // Implemented from: UnityEngine.UI.Button
     // Base method: System.Void Button::.ctor()
     // Base method: System.Void Selectable::.ctor()

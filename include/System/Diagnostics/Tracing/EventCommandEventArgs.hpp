@@ -70,19 +70,19 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x50
     System::Diagnostics::Tracing::EventCommandEventArgs* nextCommand;
     // public System.Diagnostics.Tracing.EventCommand get_Command()
-    // Offset: 0x147AFA0
+    // Offset: 0x12517C8
     System::Diagnostics::Tracing::EventCommand get_Command();
     // System.Void set_Command(System.Diagnostics.Tracing.EventCommand value)
-    // Offset: 0x147AFA8
+    // Offset: 0x12517D0
     void set_Command(System::Diagnostics::Tracing::EventCommand value);
     // public System.Collections.Generic.IDictionary`2<System.String,System.String> get_Arguments()
-    // Offset: 0x147AFB0
+    // Offset: 0x12517D8
     System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* get_Arguments();
     // System.Void set_Arguments(System.Collections.Generic.IDictionary`2<System.String,System.String> value)
-    // Offset: 0x147AFB8
+    // Offset: 0x12517E0
     void set_Arguments(System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* value);
     // System.Void .ctor(System.Diagnostics.Tracing.EventCommand command, System.Collections.Generic.IDictionary`2<System.String,System.String> arguments, System.Diagnostics.Tracing.EventSource eventSource, System.Diagnostics.Tracing.EventListener listener, System.Int32 perEventSourceSessionId, System.Int32 etwSessionId, System.Boolean enable, System.Diagnostics.Tracing.EventLevel level, System.Diagnostics.Tracing.EventKeywords matchAnyKeyword)
-    // Offset: 0x147AFC0
+    // Offset: 0x12517E8
     static EventCommandEventArgs* New_ctor(System::Diagnostics::Tracing::EventCommand command, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* arguments, System::Diagnostics::Tracing::EventSource* eventSource, System::Diagnostics::Tracing::EventListener* listener, int perEventSourceSessionId, int etwSessionId, bool enable, System::Diagnostics::Tracing::EventLevel level, System::Diagnostics::Tracing::EventKeywords matchAnyKeyword);
   }; // System.Diagnostics.Tracing.EventCommandEventArgs
 }

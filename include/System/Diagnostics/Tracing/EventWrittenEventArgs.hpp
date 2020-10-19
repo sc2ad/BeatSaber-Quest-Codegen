@@ -50,25 +50,25 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x48
     System::Collections::ObjectModel::ReadOnlyCollection_1<::Il2CppString*>* m_payloadNames;
     // System.Void set_EventName(System.String value)
-    // Offset: 0x148D04C
+    // Offset: 0x1263874
     void set_EventName(::Il2CppString* value);
     // System.Void set_EventId(System.Int32 value)
-    // Offset: 0x148D054
+    // Offset: 0x126387C
     void set_EventId(int value);
     // System.Void set_RelatedActivityId(System.Guid value)
-    // Offset: 0x148D05C
+    // Offset: 0x1263884
     void set_RelatedActivityId(System::Guid value);
     // System.Void set_Payload(System.Collections.ObjectModel.ReadOnlyCollection`1<System.Object> value)
-    // Offset: 0x148D068
+    // Offset: 0x1263890
     void set_Payload(System::Collections::ObjectModel::ReadOnlyCollection_1<::Il2CppObject*>* value);
     // System.Void set_PayloadNames(System.Collections.ObjectModel.ReadOnlyCollection`1<System.String> value)
-    // Offset: 0x148D070
+    // Offset: 0x1263898
     void set_PayloadNames(System::Collections::ObjectModel::ReadOnlyCollection_1<::Il2CppString*>* value);
     // System.Void set_Message(System.String value)
-    // Offset: 0x148D078
+    // Offset: 0x12638A0
     void set_Message(::Il2CppString* value);
     // System.Void .ctor(System.Diagnostics.Tracing.EventSource eventSource)
-    // Offset: 0x1485EB0
+    // Offset: 0x125C6D8
     static EventWrittenEventArgs* New_ctor(System::Diagnostics::Tracing::EventSource* eventSource);
   }; // System.Diagnostics.Tracing.EventWrittenEventArgs
 }

@@ -131,7 +131,7 @@ namespace Org::BouncyCastle::Asn1::TeleTrust {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier BrainpoolP512T1
     static void _set_BrainpoolP512T1(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
-    // Offset: 0x1641774
+    // Offset: 0x1417F9C
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.TeleTrust.TeleTrusTObjectIdentifiers
 }

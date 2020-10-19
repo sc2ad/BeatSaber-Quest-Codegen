@@ -14,12 +14,12 @@ namespace NUnit::Compatibility {
   class LongLivedMarshalByRefObject : public System::MarshalByRefObject {
     public:
     // public override System.Object InitializeLifetimeService()
-    // Offset: 0x15DBD08
+    // Offset: 0x13B2530
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Object MarshalByRefObject::InitializeLifetimeService()
     ::Il2CppObject* InitializeLifetimeService();
     // public System.Void .ctor()
-    // Offset: 0x15DBD10
+    // Offset: 0x13B2538
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()

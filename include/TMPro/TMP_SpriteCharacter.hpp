@@ -27,19 +27,19 @@ namespace TMPro {
     // Offset: 0x30
     int m_HashCode;
     // public System.String get_name()
-    // Offset: 0xF917A0
+    // Offset: 0xEDFB70
     ::Il2CppString* get_name();
     // public System.Void set_name(System.String value)
-    // Offset: 0xF915A4
+    // Offset: 0xEDF974
     void set_name(::Il2CppString* value);
     // public System.Int32 get_hashCode()
-    // Offset: 0xF917A8
+    // Offset: 0xEDFB78
     int get_hashCode();
     // public System.Void .ctor(System.UInt32 unicode, TMPro.TMP_SpriteGlyph glyph)
-    // Offset: 0xF91534
+    // Offset: 0xEDF904
     static TMP_SpriteCharacter* New_ctor(uint unicode, TMPro::TMP_SpriteGlyph* glyph);
     // public System.Void .ctor()
-    // Offset: 0xF917B0
+    // Offset: 0xEDFB80
     // Implemented from: TMPro.TMP_TextElement
     // Base method: System.Void TMP_TextElement::.ctor()
     // Base method: System.Void Object::.ctor()

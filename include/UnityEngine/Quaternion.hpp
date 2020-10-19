@@ -49,151 +49,151 @@ namespace UnityEngine {
     // Set static field: static public System.Single kEpsilon
     static void _set_kEpsilon(float value);
     // static public UnityEngine.Quaternion FromToRotation(UnityEngine.Vector3 fromDirection, UnityEngine.Vector3 toDirection)
-    // Offset: 0x1BA221C
+    // Offset: 0x1944410
     static UnityEngine::Quaternion FromToRotation(UnityEngine::Vector3 fromDirection, UnityEngine::Vector3 toDirection);
     // static public UnityEngine.Quaternion Inverse(UnityEngine.Quaternion rotation)
-    // Offset: 0x1BA2324
+    // Offset: 0x1944518
     static UnityEngine::Quaternion Inverse(UnityEngine::Quaternion rotation);
     // static public UnityEngine.Quaternion Slerp(UnityEngine.Quaternion a, UnityEngine.Quaternion b, System.Single t)
-    // Offset: 0x1BA2418
+    // Offset: 0x194460C
     static UnityEngine::Quaternion Slerp(UnityEngine::Quaternion a, UnityEngine::Quaternion b, float t);
     // static public UnityEngine.Quaternion SlerpUnclamped(UnityEngine.Quaternion a, UnityEngine.Quaternion b, System.Single t)
-    // Offset: 0x1BA2540
+    // Offset: 0x1944734
     static UnityEngine::Quaternion SlerpUnclamped(UnityEngine::Quaternion a, UnityEngine::Quaternion b, float t);
     // static public UnityEngine.Quaternion Lerp(UnityEngine.Quaternion a, UnityEngine.Quaternion b, System.Single t)
-    // Offset: 0x1BA2668
+    // Offset: 0x194485C
     static UnityEngine::Quaternion Lerp(UnityEngine::Quaternion a, UnityEngine::Quaternion b, float t);
     // static private UnityEngine.Quaternion Internal_FromEulerRad(UnityEngine.Vector3 euler)
-    // Offset: 0x1BA2790
+    // Offset: 0x1944984
     static UnityEngine::Quaternion Internal_FromEulerRad(UnityEngine::Vector3 euler);
     // static private UnityEngine.Vector3 Internal_ToEulerRad(UnityEngine.Quaternion rotation)
-    // Offset: 0x1BA2884
+    // Offset: 0x1944A78
     static UnityEngine::Vector3 Internal_ToEulerRad(UnityEngine::Quaternion rotation);
     // static private System.Void Internal_ToAxisAngleRad(UnityEngine.Quaternion q, out UnityEngine.Vector3 axis, out System.Single angle)
-    // Offset: 0x1BA297C
+    // Offset: 0x1944B70
     static void Internal_ToAxisAngleRad(UnityEngine::Quaternion q, UnityEngine::Vector3& axis, float& angle);
     // static public UnityEngine.Quaternion AngleAxis(System.Single angle, UnityEngine.Vector3 axis)
-    // Offset: 0x1BA2A80
+    // Offset: 0x1944C74
     static UnityEngine::Quaternion AngleAxis(float angle, UnityEngine::Vector3 axis);
     // static public UnityEngine.Quaternion LookRotation(UnityEngine.Vector3 forward, UnityEngine.Vector3 upwards)
-    // Offset: 0x1BA2B94
+    // Offset: 0x1944D88
     static UnityEngine::Quaternion LookRotation(UnityEngine::Vector3 forward, UnityEngine::Vector3 upwards);
     // static public UnityEngine.Quaternion LookRotation(UnityEngine.Vector3 forward)
-    // Offset: 0x1BA2C9C
+    // Offset: 0x1944E90
     static UnityEngine::Quaternion LookRotation(UnityEngine::Vector3 forward);
     // public System.Void .ctor(System.Single x, System.Single y, System.Single z, System.Single w)
-    // Offset: 0xDC695C
+    // Offset: 0xC7BDC8
     // ABORTED: conflicts with another method.  Quaternion(float x, float y, float z, float w);
     // static public UnityEngine.Quaternion get_identity()
-    // Offset: 0x1BA196C
+    // Offset: 0x1943B60
     static UnityEngine::Quaternion get_identity();
     // static private System.Boolean IsEqualUsingDot(System.Single dot)
-    // Offset: 0x1BA2DE8
+    // Offset: 0x1944FDC
     static bool IsEqualUsingDot(float dot);
     // static public System.Single Dot(UnityEngine.Quaternion a, UnityEngine.Quaternion b)
-    // Offset: 0x1BA2DFC
+    // Offset: 0x1944FF0
     static float Dot(UnityEngine::Quaternion a, UnityEngine::Quaternion b);
     // public System.Void SetLookRotation(UnityEngine.Vector3 view)
-    // Offset: 0xDC6968
+    // Offset: 0xC7BDD4
     void SetLookRotation(UnityEngine::Vector3 view);
     // public System.Void SetLookRotation(UnityEngine.Vector3 view, UnityEngine.Vector3 up)
-    // Offset: 0xDC6970
+    // Offset: 0xC7BDDC
     void SetLookRotation(UnityEngine::Vector3 view, UnityEngine::Vector3 up);
     // static public System.Single Angle(UnityEngine.Quaternion a, UnityEngine.Quaternion b)
-    // Offset: 0x1BA3038
+    // Offset: 0x194522C
     static float Angle(UnityEngine::Quaternion a, UnityEngine::Quaternion b);
     // static private UnityEngine.Vector3 Internal_MakePositive(UnityEngine.Vector3 euler)
-    // Offset: 0x1BA3144
+    // Offset: 0x1945338
     static UnityEngine::Vector3 Internal_MakePositive(UnityEngine::Vector3 euler);
     // public UnityEngine.Vector3 get_eulerAngles()
-    // Offset: 0xDC6978
+    // Offset: 0xC7BDE4
     UnityEngine::Vector3 get_eulerAngles();
     // public System.Void set_eulerAngles(UnityEngine.Vector3 value)
-    // Offset: 0xDC6980
+    // Offset: 0xC7BDEC
     void set_eulerAngles(UnityEngine::Vector3 value);
     // static public UnityEngine.Quaternion Euler(System.Single x, System.Single y, System.Single z)
-    // Offset: 0x1BA3390
+    // Offset: 0x1945584
     static UnityEngine::Quaternion Euler(float x, float y, float z);
     // static public UnityEngine.Quaternion Euler(UnityEngine.Vector3 euler)
-    // Offset: 0x1BA3484
+    // Offset: 0x1945678
     static UnityEngine::Quaternion Euler(UnityEngine::Vector3 euler);
     // public System.Void ToAngleAxis(out System.Single angle, out UnityEngine.Vector3 axis)
-    // Offset: 0xDC6988
+    // Offset: 0xC7BDF4
     void ToAngleAxis(float& angle, UnityEngine::Vector3& axis);
     // static public UnityEngine.Quaternion RotateTowards(UnityEngine.Quaternion from, UnityEngine.Quaternion to, System.Single maxDegreesDelta)
-    // Offset: 0x1BA3608
+    // Offset: 0x19457FC
     static UnityEngine::Quaternion RotateTowards(UnityEngine::Quaternion from, UnityEngine::Quaternion to, float maxDegreesDelta);
     // static public UnityEngine.Quaternion Normalize(UnityEngine.Quaternion q)
-    // Offset: 0x1BA3770
+    // Offset: 0x1945964
     static UnityEngine::Quaternion Normalize(UnityEngine::Quaternion q);
     // public System.Void Normalize()
-    // Offset: 0xDC6990
+    // Offset: 0xC7BDFC
     void Normalize();
     // static private System.Void .cctor()
-    // Offset: 0x1BA3A40
+    // Offset: 0x1945C34
     static void _cctor();
     // static private System.Void FromToRotation_Injected(ref UnityEngine.Vector3 fromDirection, ref UnityEngine.Vector3 toDirection, out UnityEngine.Quaternion ret)
-    // Offset: 0x1BA22CC
+    // Offset: 0x19444C0
     static void FromToRotation_Injected(UnityEngine::Vector3& fromDirection, UnityEngine::Vector3& toDirection, UnityEngine::Quaternion& ret);
     // static private System.Void Inverse_Injected(ref UnityEngine.Quaternion rotation, out UnityEngine.Quaternion ret)
-    // Offset: 0x1BA23C8
+    // Offset: 0x19445BC
     static void Inverse_Injected(UnityEngine::Quaternion& rotation, UnityEngine::Quaternion& ret);
     // static private System.Void Slerp_Injected(ref UnityEngine.Quaternion a, ref UnityEngine.Quaternion b, System.Single t, out UnityEngine.Quaternion ret)
-    // Offset: 0x1BA24D8
+    // Offset: 0x19446CC
     static void Slerp_Injected(UnityEngine::Quaternion& a, UnityEngine::Quaternion& b, float t, UnityEngine::Quaternion& ret);
     // static private System.Void SlerpUnclamped_Injected(ref UnityEngine.Quaternion a, ref UnityEngine.Quaternion b, System.Single t, out UnityEngine.Quaternion ret)
-    // Offset: 0x1BA2600
+    // Offset: 0x19447F4
     static void SlerpUnclamped_Injected(UnityEngine::Quaternion& a, UnityEngine::Quaternion& b, float t, UnityEngine::Quaternion& ret);
     // static private System.Void Lerp_Injected(ref UnityEngine.Quaternion a, ref UnityEngine.Quaternion b, System.Single t, out UnityEngine.Quaternion ret)
-    // Offset: 0x1BA2728
+    // Offset: 0x194491C
     static void Lerp_Injected(UnityEngine::Quaternion& a, UnityEngine::Quaternion& b, float t, UnityEngine::Quaternion& ret);
     // static private System.Void Internal_FromEulerRad_Injected(ref UnityEngine.Vector3 euler, out UnityEngine.Quaternion ret)
-    // Offset: 0x1BA2834
+    // Offset: 0x1944A28
     static void Internal_FromEulerRad_Injected(UnityEngine::Vector3& euler, UnityEngine::Quaternion& ret);
     // static private System.Void Internal_ToEulerRad_Injected(ref UnityEngine.Quaternion rotation, out UnityEngine.Vector3 ret)
-    // Offset: 0x1BA292C
+    // Offset: 0x1944B20
     static void Internal_ToEulerRad_Injected(UnityEngine::Quaternion& rotation, UnityEngine::Vector3& ret);
     // static private System.Void Internal_ToAxisAngleRad_Injected(ref UnityEngine.Quaternion q, out UnityEngine.Vector3 axis, out System.Single angle)
-    // Offset: 0x1BA2A28
+    // Offset: 0x1944C1C
     static void Internal_ToAxisAngleRad_Injected(UnityEngine::Quaternion& q, UnityEngine::Vector3& axis, float& angle);
     // static private System.Void AngleAxis_Injected(System.Single angle, ref UnityEngine.Vector3 axis, out UnityEngine.Quaternion ret)
-    // Offset: 0x1BA2B34
+    // Offset: 0x1944D28
     static void AngleAxis_Injected(float angle, UnityEngine::Vector3& axis, UnityEngine::Quaternion& ret);
     // static private System.Void LookRotation_Injected(ref UnityEngine.Vector3 forward, ref UnityEngine.Vector3 upwards, out UnityEngine.Quaternion ret)
-    // Offset: 0x1BA2C44
+    // Offset: 0x1944E38
     static void LookRotation_Injected(UnityEngine::Vector3& forward, UnityEngine::Vector3& upwards, UnityEngine::Quaternion& ret);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xDC6998
+    // Offset: 0xC7BE04
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0xDC69A0
+    // Offset: 0xC7BE0C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
     // public System.Boolean Equals(UnityEngine.Quaternion other)
-    // Offset: 0xDC69A8
+    // Offset: 0xC7BE14
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Quaternion other)
     bool Equals(UnityEngine::Quaternion other);
     // public override System.String ToString()
-    // Offset: 0xDC69B0
+    // Offset: 0xC7BE1C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.Quaternion
   // static public UnityEngine.Quaternion op_Multiply(UnityEngine.Quaternion lhs, UnityEngine.Quaternion rhs)
-  // Offset: 0x1BA2D74
+  // Offset: 0x1944F68
   UnityEngine::Quaternion operator*(const UnityEngine::Quaternion& lhs, const UnityEngine::Quaternion& rhs);
   // static public UnityEngine.Vector3 op_Multiply(UnityEngine.Quaternion rotation, UnityEngine.Vector3 point)
-  // Offset: 0x1BA14CC
+  // Offset: 0x19436C0
   UnityEngine::Vector3 operator*(const UnityEngine::Quaternion& rotation, const UnityEngine::Vector3& point);
   // static public System.Boolean op_Equality(UnityEngine.Quaternion lhs, UnityEngine.Quaternion rhs)
-  // Offset: 0x1BA1744
+  // Offset: 0x1943938
   bool operator ==(const UnityEngine::Quaternion& lhs, const UnityEngine::Quaternion& rhs);
   // static public System.Boolean op_Inequality(UnityEngine.Quaternion lhs, UnityEngine.Quaternion rhs)
-  // Offset: 0x1BA2E1C
+  // Offset: 0x1945010
   bool operator !=(const UnityEngine::Quaternion& lhs, const UnityEngine::Quaternion& rhs);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

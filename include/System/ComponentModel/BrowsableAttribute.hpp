@@ -33,21 +33,21 @@ namespace System::ComponentModel {
     // Set static field: static public readonly System.ComponentModel.BrowsableAttribute Default
     static void _set_Default(System::ComponentModel::BrowsableAttribute* value);
     // public System.Void .ctor(System.Boolean browsable)
-    // Offset: 0x172585C
+    // Offset: 0x14E1430
     static BrowsableAttribute* New_ctor(bool browsable);
     // public System.Boolean get_Browsable()
-    // Offset: 0x1725894
+    // Offset: 0x14E1468
     bool get_Browsable();
     // static private System.Void .cctor()
-    // Offset: 0x1725950
+    // Offset: 0x14E1524
     static void _cctor();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x172589C
+    // Offset: 0x14E1470
     // Implemented from: System.Attribute
     // Base method: System.Boolean Attribute::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1725944
+    // Offset: 0x14E1518
     // Implemented from: System.Attribute
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();

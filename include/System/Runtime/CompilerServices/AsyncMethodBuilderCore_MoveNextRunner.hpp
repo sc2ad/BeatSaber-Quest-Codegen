@@ -38,13 +38,13 @@ namespace System::Runtime::CompilerServices {
     // Set static field: static private System.Threading.ContextCallback s_invokeMoveNext
     static void _set_s_invokeMoveNext(System::Threading::ContextCallback* value);
     // System.Void .ctor(System.Threading.ExecutionContext context, System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1290178
+    // Offset: 0x108BA14
     static AsyncMethodBuilderCore::MoveNextRunner* New_ctor(System::Threading::ExecutionContext* context, System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
     // System.Void Run()
-    // Offset: 0x12901C8
+    // Offset: 0x108BA64
     void Run();
     // static private System.Void InvokeMoveNext(System.Object stateMachine)
-    // Offset: 0x1290388
+    // Offset: 0x108BC24
     static void InvokeMoveNext(::Il2CppObject* stateMachine);
   }; // System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner
 }

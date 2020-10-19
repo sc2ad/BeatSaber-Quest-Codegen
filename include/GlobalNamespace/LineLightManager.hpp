@@ -63,10 +63,10 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _lineLightColorsID
     static void _set__lineLightColorsID(int value);
     // protected System.Void Update()
-    // Offset: 0x1FAF5AC
+    // Offset: 0x1D00210
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1FAF988
+    // Offset: 0x1D005EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LineLightManager* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1FAFA50
+    // Offset: 0x1D006B4
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

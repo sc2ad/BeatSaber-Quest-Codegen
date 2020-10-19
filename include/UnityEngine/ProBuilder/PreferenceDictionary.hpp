@@ -94,7 +94,7 @@ namespace UnityEngine::ProBuilder {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean HasKey(System.String key)
-    // Offset: 0x1587418
+    // Offset: 0x135EC40
     bool HasKey(::Il2CppString* key);
     // public System.Boolean HasKey(System.String key)
     // Offset: 0xFFFFFFFF
@@ -103,7 +103,7 @@ namespace UnityEngine::ProBuilder {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>(this, "HasKey", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, key)));
     }
     // public System.Void DeleteKey(System.String key)
-    // Offset: 0x1587534
+    // Offset: 0x135ED5C
     void DeleteKey(::Il2CppString* key);
     // public T Get(System.String key, T fallback)
     // Offset: 0xFFFFFFFF
@@ -118,64 +118,64 @@ namespace UnityEngine::ProBuilder {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "Set", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, key, value));
     }
     // public System.Boolean GetBool(System.String key, System.Boolean fallback)
-    // Offset: 0x15876F8
+    // Offset: 0x135EF20
     bool GetBool(::Il2CppString* key, bool fallback);
     // public System.Int32 GetInt(System.String key, System.Int32 fallback)
-    // Offset: 0x1587790
+    // Offset: 0x135EFB8
     int GetInt(::Il2CppString* key, int fallback);
     // public System.Single GetFloat(System.String key, System.Single fallback)
-    // Offset: 0x158781C
+    // Offset: 0x135F044
     float GetFloat(::Il2CppString* key, float fallback);
     // public System.String GetString(System.String key, System.String fallback)
-    // Offset: 0x15878B0
+    // Offset: 0x135F0D8
     ::Il2CppString* GetString(::Il2CppString* key, ::Il2CppString* fallback);
     // public UnityEngine.Color GetColor(System.String key, UnityEngine.Color fallback)
-    // Offset: 0x158793C
+    // Offset: 0x135F164
     UnityEngine::Color GetColor(::Il2CppString* key, UnityEngine::Color fallback);
     // public UnityEngine.Material GetMaterial(System.String key, UnityEngine.Material fallback)
-    // Offset: 0x15879F4
+    // Offset: 0x135F21C
     UnityEngine::Material* GetMaterial(::Il2CppString* key, UnityEngine::Material* fallback);
     // public System.Void SetBool(System.String key, System.Boolean value)
-    // Offset: 0x1587A80
+    // Offset: 0x135F2A8
     void SetBool(::Il2CppString* key, bool value);
     // public System.Void SetInt(System.String key, System.Int32 value)
-    // Offset: 0x1587B3C
+    // Offset: 0x135F364
     void SetInt(::Il2CppString* key, int value);
     // public System.Void SetFloat(System.String key, System.Single value)
-    // Offset: 0x1587BF8
+    // Offset: 0x135F420
     void SetFloat(::Il2CppString* key, float value);
     // public System.Void SetString(System.String key, System.String value)
-    // Offset: 0x1587CC0
+    // Offset: 0x135F4E8
     void SetString(::Il2CppString* key, ::Il2CppString* value);
     // public System.Void SetColor(System.String key, UnityEngine.Color value)
-    // Offset: 0x1587D7C
+    // Offset: 0x135F5A4
     void SetColor(::Il2CppString* key, UnityEngine::Color value);
     // public System.Void SetMaterial(System.String key, UnityEngine.Material value)
-    // Offset: 0x1587E74
+    // Offset: 0x135F69C
     void SetMaterial(::Il2CppString* key, UnityEngine::Material* value);
     // public System.Collections.Generic.Dictionary`2<System.String,System.Boolean> GetBoolDictionary()
-    // Offset: 0x1587F30
+    // Offset: 0x135F758
     System::Collections::Generic::Dictionary_2<::Il2CppString*, bool>* GetBoolDictionary();
     // public System.Collections.Generic.Dictionary`2<System.String,System.Int32> GetIntDictionary()
-    // Offset: 0x1587F38
+    // Offset: 0x135F760
     System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* GetIntDictionary();
     // public System.Collections.Generic.Dictionary`2<System.String,System.Single> GetFloatDictionary()
-    // Offset: 0x1587F40
+    // Offset: 0x135F768
     System::Collections::Generic::Dictionary_2<::Il2CppString*, float>* GetFloatDictionary();
     // public System.Collections.Generic.Dictionary`2<System.String,System.String> GetStringDictionary()
-    // Offset: 0x1587F48
+    // Offset: 0x135F770
     System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* GetStringDictionary();
     // public System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Color> GetColorDictionary()
-    // Offset: 0x1587F50
+    // Offset: 0x135F778
     System::Collections::Generic::Dictionary_2<::Il2CppString*, UnityEngine::Color>* GetColorDictionary();
     // public System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Material> GetMaterialDictionary()
-    // Offset: 0x1587F58
+    // Offset: 0x135F780
     System::Collections::Generic::Dictionary_2<::Il2CppString*, UnityEngine::Material*>* GetMaterialDictionary();
     // public System.Void Clear()
-    // Offset: 0x1587F60
+    // Offset: 0x135F788
     void Clear();
     // public System.Void OnBeforeSerialize()
-    // Offset: 0x1586CA8
+    // Offset: 0x135E4D0
     // Implemented from: UnityEngine.ISerializationCallbackReceiver
     // Base method: System.Void ISerializationCallbackReceiver::OnBeforeSerialize()
     void OnBeforeSerialize();
@@ -183,7 +183,7 @@ namespace UnityEngine::ProBuilder {
     // Maps to method: OnBeforeSerialize
     void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
     // public System.Void OnAfterDeserialize()
-    // Offset: 0x1586F8C
+    // Offset: 0x135E7B4
     // Implemented from: UnityEngine.ISerializationCallbackReceiver
     // Base method: System.Void ISerializationCallbackReceiver::OnAfterDeserialize()
     void OnAfterDeserialize();
@@ -191,12 +191,12 @@ namespace UnityEngine::ProBuilder {
     // Maps to method: OnAfterDeserialize
     void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
     // public System.Void SetDefaultValues()
-    // Offset: 0x1587348
+    // Offset: 0x135EB70
     // Implemented from: UnityEngine.ProBuilder.IHasDefault
     // Base method: System.Void IHasDefault::SetDefaultValues()
     void SetDefaultValues();
     // public System.Void .ctor()
-    // Offset: 0x1588018
+    // Offset: 0x135F840
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

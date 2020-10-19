@@ -21,7 +21,7 @@ namespace System::Net {
       return m_DurationMilliseconds;
     }
     // System.Void .ctor(System.Int32 durationMilliseconds)
-    // Offset: 0x13B6F54
+    // Offset: 0x118B690
     static TimerThread::Queue* New_ctor(int durationMilliseconds);
   }; // System.Net.TimerThread/Queue
 }

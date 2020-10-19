@@ -28,16 +28,16 @@ namespace Mono::Unity {
   class UnityTls::unitytls_interface_struct::unitytls_x509verify_default_ca_t : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1426DA4
+    // Offset: 0x11FD4E0
     static UnityTls::unitytls_interface_struct::unitytls_x509verify_default_ca_t* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Mono.Unity.UnityTls/unitytls_x509verify_result Invoke(Mono.Unity.UnityTls/unitytls_x509list_ref chain, System.Byte* cn, System.IntPtr cnLen, Mono.Unity.UnityTls/unitytls_x509verify_callback cb, System.Void* userData, Mono.Unity.UnityTls/unitytls_errorstate* errorState)
-    // Offset: 0x1426DB8
+    // Offset: 0x11FD4F4
     Mono::Unity::UnityTls::unitytls_x509verify_result Invoke(Mono::Unity::UnityTls::unitytls_x509list_ref chain, uint8_t* cn, System::IntPtr cnLen, Mono::Unity::UnityTls::unitytls_x509verify_callback* cb, void* userData, Mono::Unity::UnityTls::unitytls_errorstate* errorState);
     // public System.IAsyncResult BeginInvoke(Mono.Unity.UnityTls/unitytls_x509list_ref chain, System.Byte* cn, System.IntPtr cnLen, Mono.Unity.UnityTls/unitytls_x509verify_callback cb, System.Void* userData, Mono.Unity.UnityTls/unitytls_errorstate* errorState, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1427094
+    // Offset: 0x11FD7D0
     System::IAsyncResult* BeginInvoke(Mono::Unity::UnityTls::unitytls_x509list_ref chain, uint8_t* cn, System::IntPtr cnLen, Mono::Unity::UnityTls::unitytls_x509verify_callback* cb, void* userData, Mono::Unity::UnityTls::unitytls_errorstate* errorState, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Mono.Unity.UnityTls/unitytls_x509verify_result EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1427160
+    // Offset: 0x11FD89C
     Mono::Unity::UnityTls::unitytls_x509verify_result EndInvoke(System::IAsyncResult* result);
   }; // Mono.Unity.UnityTls/unitytls_interface_struct/unitytls_x509verify_default_ca_t
 }

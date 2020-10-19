@@ -25,27 +25,27 @@ namespace Mono::Security::Interface {
     // Offset: 0x18
     ::Il2CppString* PeerDomainName;
     // public Mono.Security.Interface.CipherSuiteCode get_CipherSuiteCode()
-    // Offset: 0x1B86DAC
+    // Offset: 0x1928FA0
     Mono::Security::Interface::CipherSuiteCode get_CipherSuiteCode();
     // public System.Void set_CipherSuiteCode(Mono.Security.Interface.CipherSuiteCode value)
-    // Offset: 0x1B86DB4
+    // Offset: 0x1928FA8
     void set_CipherSuiteCode(Mono::Security::Interface::CipherSuiteCode value);
     // public Mono.Security.Interface.TlsProtocols get_ProtocolVersion()
-    // Offset: 0x1B86DBC
+    // Offset: 0x1928FB0
     Mono::Security::Interface::TlsProtocols get_ProtocolVersion();
     // public System.Void set_ProtocolVersion(Mono.Security.Interface.TlsProtocols value)
-    // Offset: 0x1B86DC4
+    // Offset: 0x1928FB8
     void set_ProtocolVersion(Mono::Security::Interface::TlsProtocols value);
     // public System.Void set_PeerDomainName(System.String value)
-    // Offset: 0x1B86DCC
+    // Offset: 0x1928FC0
     void set_PeerDomainName(::Il2CppString* value);
     // public override System.String ToString()
-    // Offset: 0x1B86DD4
+    // Offset: 0x1928FC8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public System.Void .ctor()
-    // Offset: 0x1B86E78
+    // Offset: 0x192906C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MonoTlsConnectionInfo* New_ctor();

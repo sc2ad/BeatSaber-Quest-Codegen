@@ -37,33 +37,33 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnDisable()
-    // Offset: 0x21A3B90
+    // Offset: 0x1EF57F4
     void OnDisable();
     // public System.Void DrawFadeQuad(System.Single alpha)
-    // Offset: 0x21A3C1C
+    // Offset: 0x1EF5880
     void DrawFadeQuad(float alpha);
     // public override System.Boolean get_hasPostProcessEffect()
-    // Offset: 0x21A3AEC
+    // Offset: 0x1EF5750
     // Implemented from: MainEffectSO
     // Base method: System.Boolean MainEffectSO::get_hasPostProcessEffect()
     bool get_hasPostProcessEffect();
     // protected override System.Void OnEnable()
-    // Offset: 0x21A3AF4
+    // Offset: 0x1EF5758
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public override System.Void PreRender()
-    // Offset: 0x21A3B9C
+    // Offset: 0x1EF5800
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::PreRender()
     void PreRender();
     // public override System.Void PostRender(System.Single fade)
-    // Offset: 0x21A3C10
+    // Offset: 0x1EF5874
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::PostRender(System.Single fade)
     void PostRender(float fade);
     // public System.Void .ctor()
-    // Offset: 0x21A3D30
+    // Offset: 0x1EF5994
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

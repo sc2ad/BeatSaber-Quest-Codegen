@@ -14,7 +14,7 @@ namespace System::Globalization {
   class CharUnicodeInfo::Debug : public ::Il2CppObject {
     public:
     // static System.Void Assert(System.Boolean condition, System.String message)
-    // Offset: 0x125CBDC
+    // Offset: 0x1057478
     static void Assert_(bool condition, ::Il2CppString* message);
   }; // System.Globalization.CharUnicodeInfo/Debug
 }

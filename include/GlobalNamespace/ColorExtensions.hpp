@@ -19,22 +19,22 @@ namespace GlobalNamespace {
   class ColorExtensions : public ::Il2CppObject {
     public:
     // static public UnityEngine.Color SaturatedColor(UnityEngine.Color color, System.Single saturation)
-    // Offset: 0x1092700
+    // Offset: 0x2109644
     static UnityEngine::Color SaturatedColor(UnityEngine::Color color, float saturation);
     // static public UnityEngine.Color ColorWithAlpha(UnityEngine.Color color, System.Single alpha)
-    // Offset: 0x1092758
+    // Offset: 0x210969C
     static UnityEngine::Color ColorWithAlpha(UnityEngine::Color color, float alpha);
     // static public UnityEngine.Color ColorWithR(UnityEngine.Color color, System.Single r)
-    // Offset: 0x1092760
+    // Offset: 0x21096A4
     static UnityEngine::Color ColorWithR(UnityEngine::Color color, float r);
     // static public UnityEngine.Color ColorWithG(UnityEngine.Color color, System.Single g)
-    // Offset: 0x1092768
+    // Offset: 0x21096AC
     static UnityEngine::Color ColorWithG(UnityEngine::Color color, float g);
     // static public UnityEngine.Color ColorWithB(UnityEngine.Color color, System.Single b)
-    // Offset: 0x1092770
+    // Offset: 0x21096B4
     static UnityEngine::Color ColorWithB(UnityEngine::Color color, float b);
     // static public UnityEngine.Color ColorWithValue(UnityEngine.Color color, System.Single value)
-    // Offset: 0x1092778
+    // Offset: 0x21096BC
     static UnityEngine::Color ColorWithValue(UnityEngine::Color color, float value);
   }; // ColorExtensions
 }

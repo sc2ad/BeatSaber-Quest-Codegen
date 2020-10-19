@@ -73,34 +73,34 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kScoresToUploadFileName
     static void _set_kScoresToUploadFileName(::Il2CppString* value);
     // public System.Void add_allScoresDidUploadEvent(System.Action value)
-    // Offset: 0x101B91C
+    // Offset: 0x20B0FDC
     void add_allScoresDidUploadEvent(System::Action* value);
     // public System.Void remove_allScoresDidUploadEvent(System.Action value)
-    // Offset: 0x101B9C0
+    // Offset: 0x20B1080
     void remove_allScoresDidUploadEvent(System::Action* value);
     // public System.Void Init(LeaderboardScoreUploader/UploadScoreCallback uploadScoreCallback, System.String playerId)
-    // Offset: 0x101BA64
+    // Offset: 0x20B1124
     void Init(GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback* uploadScoreCallback, ::Il2CppString* playerId);
     // private System.Void OnApplicationQuit()
-    // Offset: 0x101BB40
+    // Offset: 0x20B1200
     void OnApplicationQuit();
     // private System.Collections.IEnumerator UploadScoresCoroutine()
-    // Offset: 0x101BAC4
+    // Offset: 0x20B1184
     System::Collections::IEnumerator* UploadScoresCoroutine();
     // private System.Void LoadScoresToUploadFromFile()
-    // Offset: 0x101BB70
+    // Offset: 0x20B1230
     void LoadScoresToUploadFromFile();
     // private System.Void SaveScoresToUploadToFile()
-    // Offset: 0x101BD78
+    // Offset: 0x20B1438
     void SaveScoresToUploadToFile();
     // public System.Void AddScore(LeaderboardScoreUploader/ScoreData scoreData)
-    // Offset: 0x101BE8C
+    // Offset: 0x20B154C
     void AddScore(GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData);
     // private System.Boolean <UploadScoresCoroutine>b__14_1()
-    // Offset: 0x101C008
+    // Offset: 0x20B16C8
     bool $UploadScoresCoroutine$b__14_1();
     // public System.Void .ctor()
-    // Offset: 0x101BF60
+    // Offset: 0x20B1620
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

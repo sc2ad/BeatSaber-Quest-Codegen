@@ -29,58 +29,58 @@ namespace Org::BouncyCastle::Math::EC::Custom::Djb {
   class Curve25519Point : public Org::BouncyCastle::Math::EC::AbstractFpPoint {
     public:
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y)
-    // Offset: 0x1B29C9C
+    // Offset: 0x18CAE90
     static Curve25519Point* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y);
     // protected Org.BouncyCastle.Math.EC.Custom.Djb.Curve25519FieldElement CalculateJacobianModifiedW(Org.BouncyCastle.Math.EC.Custom.Djb.Curve25519FieldElement Z, System.UInt32[] ZSquared)
-    // Offset: 0x1B2D318
+    // Offset: 0x18CE50C
     Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519FieldElement* CalculateJacobianModifiedW(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519FieldElement* Z, ::Array<uint>* ZSquared);
     // protected Org.BouncyCastle.Math.EC.Custom.Djb.Curve25519FieldElement GetJacobianModifiedW()
-    // Offset: 0x1B2D490
+    // Offset: 0x18CE684
     Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519FieldElement* GetJacobianModifiedW();
     // protected Org.BouncyCastle.Math.EC.Custom.Djb.Curve25519Point TwiceJacobianModified(System.Boolean calculateW)
-    // Offset: 0x1B2D5E0
+    // Offset: 0x18CE7D4
     Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point* TwiceJacobianModified(bool calculateW);
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, System.Boolean withCompression)
-    // Offset: 0x1B29F88
+    // Offset: 0x18CB17C
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractFpPoint
     // Base method: System.Void AbstractFpPoint::.ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, System.Boolean withCompression)
     // Base method: System.Void ECPointBase::.ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, System.Boolean withCompression)
     // Base method: System.Void ECPoint::.ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, System.Boolean withCompression)
     static Curve25519Point* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Boolean withCompression)
-    // Offset: 0x1B2A0EC
+    // Offset: 0x18CB2E0
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractFpPoint
     // Base method: System.Void AbstractFpPoint::.ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Boolean withCompression)
     // Base method: System.Void ECPointBase::.ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Boolean withCompression)
     // Base method: System.Void ECPoint::.ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Boolean withCompression)
     static Curve25519Point* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y, ::Array<Org::BouncyCastle::Math::EC::ECFieldElement*>* zs, bool withCompression);
     // public override Org.BouncyCastle.Math.EC.ECFieldElement GetZCoord(System.Int32 index)
-    // Offset: 0x1B2C8A4
+    // Offset: 0x18CDA98
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint
     // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECPoint::GetZCoord(System.Int32 index)
     Org::BouncyCastle::Math::EC::ECFieldElement* GetZCoord(int index);
     // public override Org.BouncyCastle.Math.EC.ECPoint Add(Org.BouncyCastle.Math.EC.ECPoint b)
-    // Offset: 0x1B2C8C4
+    // Offset: 0x18CDAB8
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECPoint::Add(Org.BouncyCastle.Math.EC.ECPoint b)
     Org::BouncyCastle::Math::EC::ECPoint* Add(Org::BouncyCastle::Math::EC::ECPoint* b);
     // public override Org.BouncyCastle.Math.EC.ECPoint Twice()
-    // Offset: 0x1B2D048
+    // Offset: 0x18CE23C
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECPoint::Twice()
     Org::BouncyCastle::Math::EC::ECPoint* Twice();
     // public override Org.BouncyCastle.Math.EC.ECPoint TwicePlus(Org.BouncyCastle.Math.EC.ECPoint b)
-    // Offset: 0x1B2D0E8
+    // Offset: 0x18CE2DC
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECPoint::TwicePlus(Org.BouncyCastle.Math.EC.ECPoint b)
     Org::BouncyCastle::Math::EC::ECPoint* TwicePlus(Org::BouncyCastle::Math::EC::ECPoint* b);
     // public override Org.BouncyCastle.Math.EC.ECPoint ThreeTimes()
-    // Offset: 0x1B2D1BC
+    // Offset: 0x18CE3B0
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECPoint::ThreeTimes()
     Org::BouncyCastle::Math::EC::ECPoint* ThreeTimes();
     // public override Org.BouncyCastle.Math.EC.ECPoint Negate()
-    // Offset: 0x1B2D240
+    // Offset: 0x18CE434
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECPoint::Negate()
     Org::BouncyCastle::Math::EC::ECPoint* Negate();

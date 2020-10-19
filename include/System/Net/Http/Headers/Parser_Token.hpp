@@ -14,10 +14,10 @@ namespace System::Net::Http::Headers {
   class Parser::Token : public ::Il2CppObject {
     public:
     // static public System.Void Check(System.String s)
-    // Offset: 0x13A7518
+    // Offset: 0x117CC54
     static void Check(::Il2CppString* s);
     // static public System.Boolean TryCheck(System.String s)
-    // Offset: 0x13A31B0
+    // Offset: 0x11788EC
     static bool TryCheck(::Il2CppString* s);
   }; // System.Net.Http.Headers.Parser/Token
 }

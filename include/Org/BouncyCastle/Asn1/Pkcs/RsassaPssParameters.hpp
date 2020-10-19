@@ -58,22 +58,22 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerInteger DefaultTrailerField
     static void _set_DefaultTrailerField(Org::BouncyCastle::Asn1::DerInteger* value);
     // static public Org.BouncyCastle.Asn1.Pkcs.RsassaPssParameters GetInstance(System.Object obj)
-    // Offset: 0x16368A8
+    // Offset: 0x140D0D0
     static Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* GetInstance(::Il2CppObject* obj);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier hashAlgorithm, Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier maskGenAlgorithm, Org.BouncyCastle.Asn1.DerInteger saltLength, Org.BouncyCastle.Asn1.DerInteger trailerField)
-    // Offset: 0x1636C74
+    // Offset: 0x140D49C
     static RsassaPssParameters* New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* maskGenAlgorithm, Org::BouncyCastle::Asn1::DerInteger* saltLength, Org::BouncyCastle::Asn1::DerInteger* trailerField);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1636A28
+    // Offset: 0x140D250
     static RsassaPssParameters* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier get_HashAlgorithm()
-    // Offset: 0x1636CF4
+    // Offset: 0x140D51C
     Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
     // static private System.Void .cctor()
-    // Offset: 0x1636F88
+    // Offset: 0x140D7B0
     static void _cctor();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1636CFC
+    // Offset: 0x140D524
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

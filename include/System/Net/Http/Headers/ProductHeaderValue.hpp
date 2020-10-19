@@ -35,45 +35,45 @@ namespace System::Net::Http::Headers {
     // Offset: 0x18
     ::Il2CppString* Version;
     // public System.String get_Name()
-    // Offset: 0x13A7698
+    // Offset: 0x117CDD4
     ::Il2CppString* get_Name();
     // System.Void set_Name(System.String value)
-    // Offset: 0x13A76A0
+    // Offset: 0x117CDDC
     void set_Name(::Il2CppString* value);
     // public System.String get_Version()
-    // Offset: 0x13A76A8
+    // Offset: 0x117CDE4
     ::Il2CppString* get_Version();
     // System.Void set_Version(System.String value)
-    // Offset: 0x13A76B0
+    // Offset: 0x117CDEC
     void set_Version(::Il2CppString* value);
     // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.ProductHeaderValue> result)
-    // Offset: 0x13A77FC
+    // Offset: 0x117CF38
     static bool TryParse(::Il2CppString* input, int minimalCount, System::Collections::Generic::List_1<System::Net::Http::Headers::ProductHeaderValue*>*& result);
     // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.ProductHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x13A789C
+    // Offset: 0x117CFD8
     static bool TryParseElement(System::Net::Http::Headers::Lexer* lexer, System::Net::Http::Headers::ProductHeaderValue*& parsedValue, System::Net::Http::Headers::Token& t);
     // System.Void .ctor()
-    // Offset: 0x13A7690
+    // Offset: 0x117CDCC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ProductHeaderValue* New_ctor();
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x13A76B8
+    // Offset: 0x117CDF4
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* System_ICloneable_Clone();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x13A76C0
+    // Offset: 0x117CDFC
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x13A778C
+    // Offset: 0x117CEC8
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x13A7A58
+    // Offset: 0x117D194
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

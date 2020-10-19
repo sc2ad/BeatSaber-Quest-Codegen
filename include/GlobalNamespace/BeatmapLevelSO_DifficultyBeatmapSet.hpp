@@ -33,18 +33,18 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Array<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*>* difficultyBeatmaps;
     // public System.Void .ctor(BeatmapCharacteristicSO beatmapCharacteristic, BeatmapLevelSO/DifficultyBeatmap[] difficultyBeatmaps)
-    // Offset: 0x105771C
+    // Offset: 0x20D219C
     static BeatmapLevelSO::DifficultyBeatmapSet* New_ctor(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::Array<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*>* difficultyBeatmaps);
     // public System.Void SetParentLevel(IBeatmapLevel level)
-    // Offset: 0x1056540
+    // Offset: 0x20D0FC0
     void SetParentLevel(GlobalNamespace::IBeatmapLevel* level);
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0x105770C
+    // Offset: 0x20D218C
     // Implemented from: IDifficultyBeatmapSet
     // Base method: BeatmapCharacteristicSO IDifficultyBeatmapSet::get_beatmapCharacteristic()
     GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public IDifficultyBeatmap[] get_difficultyBeatmaps()
-    // Offset: 0x1057714
+    // Offset: 0x20D2194
     // Implemented from: IDifficultyBeatmapSet
     // Base method: IDifficultyBeatmap[] IDifficultyBeatmapSet::get_difficultyBeatmaps()
     ::Array<GlobalNamespace::IDifficultyBeatmap*>* get_difficultyBeatmaps();

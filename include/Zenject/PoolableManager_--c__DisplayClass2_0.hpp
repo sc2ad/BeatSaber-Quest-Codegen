@@ -44,10 +44,10 @@ namespace Zenject {
     // Offset: 0x18
     System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* priorities;
     // Zenject.PoolableManager/PoolableInfo <.ctor>b__0(Zenject.IPoolable x)
-    // Offset: 0x15136DC
+    // Offset: 0x12E9F04
     Zenject::PoolableManager::PoolableInfo $_ctor$b__0(Zenject::IPoolable* x);
     // public System.Void .ctor()
-    // Offset: 0x1513198
+    // Offset: 0x12E99C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PoolableManager::$$c__DisplayClass2_0* New_ctor();

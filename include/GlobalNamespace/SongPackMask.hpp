@@ -55,45 +55,45 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kToStringSuffix
     static void _set_kToStringSuffix(::Il2CppString* value);
     // public System.Void .ctor(System.String packId)
-    // Offset: 0xDDC33C
+    // Offset: 0xC899D4
     SongPackMask(::Il2CppString* packId);
     // public System.Void .ctor(BloomFilter bloomFilter)
-    // Offset: 0xDDC374
+    // Offset: 0xC89A0C
     // ABORTED: conflicts with another method.  SongPackMask(GlobalNamespace::BloomFilter bloomFilter);
     // static public SongPackMask get_all()
-    // Offset: 0x21BE0DC
+    // Offset: 0x1F10D40
     static GlobalNamespace::SongPackMask get_all();
     // public System.Boolean Contains(SongPackMask other)
-    // Offset: 0xDDC37C
+    // Offset: 0xC89A14
     bool Contains(GlobalNamespace::SongPackMask other);
     // public System.Int32 DifferenceFrom(SongPackMask other)
-    // Offset: 0xDDC398
+    // Offset: 0xC89A30
     int DifferenceFrom(GlobalNamespace::SongPackMask other);
     // static public SongPackMask Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x21BE1D4
+    // Offset: 0x1F10E38
     static GlobalNamespace::SongPackMask Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.String ToShortString()
-    // Offset: 0xDDC400
+    // Offset: 0xC89A98
     ::Il2CppString* ToShortString();
     // public System.Byte[] ToBytes()
-    // Offset: 0xDDC408
+    // Offset: 0xC89AA0
     ::Array<uint8_t>* ToBytes();
     // static public System.Boolean TryParse(System.String stringSerializedMask, out SongPackMask songPackMask)
-    // Offset: 0x21BE370
+    // Offset: 0x1F10FD4
     static bool TryParse(::Il2CppString* stringSerializedMask, GlobalNamespace::SongPackMask& songPackMask);
     // static public SongPackMask Parse(System.String stringSerializedMask)
-    // Offset: 0x21BE478
+    // Offset: 0x1F110DC
     static GlobalNamespace::SongPackMask Parse(::Il2CppString* stringSerializedMask);
     // static public SongPackMask FromBytes(System.Byte[] bytes, System.Int32 offset)
-    // Offset: 0x21BE52C
+    // Offset: 0x1F11190
     static GlobalNamespace::SongPackMask FromBytes(::Array<uint8_t>* bytes, int offset);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xDDC3E8
+    // Offset: 0xC89A80
     // Implemented from: LiteNetLib.Utils.INetImmutableSerializable`1
     // Base method: System.Void INetImmutableSerializable_1::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public SongPackMask CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xDDC3F0
+    // Offset: 0xC89A88
     // Implemented from: LiteNetLib.Utils.INetImmutableSerializable`1
     // Base method: T INetImmutableSerializable_1::CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
     GlobalNamespace::SongPackMask CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
@@ -101,37 +101,37 @@ namespace GlobalNamespace {
     // Maps to method: CreateFromSerializedData
     GlobalNamespace::SongPackMask LiteNetLib_Utils_INetImmutableSerializable_1_CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.String ToString()
-    // Offset: 0xDDC3F8
+    // Offset: 0xC89A90
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Int32 GetHashCode()
-    // Offset: 0xDDC410
+    // Offset: 0xC89AA8
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public System.Boolean Equals(SongPackMask other)
-    // Offset: 0xDDC464
+    // Offset: 0xC89AFC
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(SongPackMask other)
     bool Equals(GlobalNamespace::SongPackMask other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xDDC480
+    // Offset: 0xC89B18
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
   }; // SongPackMask
   // static public SongPackMask op_BitwiseOr(SongPackMask a, SongPackMask b)
-  // Offset: 0x21BE0E8
+  // Offset: 0x1F10D4C
   GlobalNamespace::SongPackMask operator|(const GlobalNamespace::SongPackMask& a, const GlobalNamespace::SongPackMask& b);
   // static public SongPackMask op_BitwiseAnd(SongPackMask a, SongPackMask b)
-  // Offset: 0x21BE0F4
+  // Offset: 0x1F10D58
   GlobalNamespace::SongPackMask operator&(const GlobalNamespace::SongPackMask& a, const GlobalNamespace::SongPackMask& b);
   // static public System.Boolean op_Equality(SongPackMask a, SongPackMask b)
-  // Offset: 0x21BE100
+  // Offset: 0x1F10D64
   bool operator ==(const GlobalNamespace::SongPackMask& a, const GlobalNamespace::SongPackMask& b);
   // static public System.Boolean op_Inequality(SongPackMask a, SongPackMask b)
-  // Offset: 0x21BE118
+  // Offset: 0x1F10D7C
   bool operator !=(const GlobalNamespace::SongPackMask& a, const GlobalNamespace::SongPackMask& b);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

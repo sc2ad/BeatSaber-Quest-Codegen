@@ -14,10 +14,10 @@ namespace GlobalNamespace {
   class SteamVR_GameView : public UnityEngine::MonoBehaviour {
     public:
     // private System.Void Awake()
-    // Offset: 0x1237C00
+    // Offset: 0x103249C
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x1237C9C
+    // Offset: 0x1032538
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

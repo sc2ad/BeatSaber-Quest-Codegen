@@ -54,19 +54,19 @@ namespace System::Threading::Tasks {
     // Set static field: static private System.Threading.ContextCallback s_postActionCallback
     static void _set_s_postActionCallback(System::Threading::ContextCallback* value);
     // System.Void .ctor(System.Threading.SynchronizationContext context, System.Action action, System.Boolean flowExecutionContext, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x16DC298
+    // Offset: 0x1496E6C
     static SynchronizationContextAwaitTaskContinuation* New_ctor(System::Threading::SynchronizationContext* context, System::Action* action, bool flowExecutionContext, System::Threading::StackCrawlMark& stackMark);
     // static private System.Void PostAction(System.Object state)
-    // Offset: 0x16DC460
+    // Offset: 0x1497034
     static void PostAction(::Il2CppObject* state);
     // static private System.Threading.ContextCallback GetPostActionCallback()
-    // Offset: 0x16DC50C
+    // Offset: 0x14970E0
     static System::Threading::ContextCallback* GetPostActionCallback();
     // static private System.Void .cctor()
-    // Offset: 0x16DC5D4
+    // Offset: 0x14971A8
     static void _cctor();
     // override System.Void Run(System.Threading.Tasks.Task task, System.Boolean canInlineContinuationTask)
-    // Offset: 0x16DC2D8
+    // Offset: 0x1496EAC
     // Implemented from: System.Threading.Tasks.AwaitTaskContinuation
     // Base method: System.Void AwaitTaskContinuation::Run(System.Threading.Tasks.Task task, System.Boolean canInlineContinuationTask)
     void Run(System::Threading::Tasks::Task* task, bool canInlineContinuationTask);

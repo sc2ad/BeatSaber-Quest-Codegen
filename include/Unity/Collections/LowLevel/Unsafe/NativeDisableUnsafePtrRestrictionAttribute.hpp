@@ -14,7 +14,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
   class NativeDisableUnsafePtrRestrictionAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x19DDBB4
+    // Offset: 0x1783FD8
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

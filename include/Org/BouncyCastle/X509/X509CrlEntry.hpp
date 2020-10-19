@@ -53,37 +53,37 @@ namespace Org::BouncyCastle::X509 {
     // Offset: 0x34
     int hashValue;
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.CrlEntry c, System.Boolean isIndirect, Org.BouncyCastle.Asn1.X509.X509Name previousCertificateIssuer)
-    // Offset: 0x1DE798C
+    // Offset: 0x1B3B5F0
     static X509CrlEntry* New_ctor(Org::BouncyCastle::Asn1::X509::CrlEntry* c, bool isIndirect, Org::BouncyCastle::Asn1::X509::X509Name* previousCertificateIssuer);
     // private Org.BouncyCastle.Asn1.X509.X509Name loadCertificateIssuer()
-    // Offset: 0x1DE8C68
+    // Offset: 0x1B3C8CC
     Org::BouncyCastle::Asn1::X509::X509Name* loadCertificateIssuer();
     // public Org.BouncyCastle.Asn1.X509.X509Name GetCertificateIssuer()
-    // Offset: 0x1DE8E2C
+    // Offset: 0x1B3CA90
     Org::BouncyCastle::Asn1::X509::X509Name* GetCertificateIssuer();
     // public Org.BouncyCastle.Math.BigInteger get_SerialNumber()
-    // Offset: 0x1DE8E50
+    // Offset: 0x1B3CAB4
     Org::BouncyCastle::Math::BigInteger* get_SerialNumber();
     // public System.DateTime get_RevocationDate()
-    // Offset: 0x1DE8E78
+    // Offset: 0x1B3CADC
     System::DateTime get_RevocationDate();
     // protected override Org.BouncyCastle.Asn1.X509.X509Extensions GetX509Extensions()
-    // Offset: 0x1DE8E34
+    // Offset: 0x1B3CA98
     // Implemented from: Org.BouncyCastle.X509.X509ExtensionBase
     // Base method: Org.BouncyCastle.Asn1.X509.X509Extensions X509ExtensionBase::GetX509Extensions()
     Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0x1DE8EA0
+    // Offset: 0x1B3CB04
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1DE8F9C
+    // Offset: 0x1B3CC00
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1DE9004
+    // Offset: 0x1B3CC68
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

@@ -22,36 +22,36 @@ namespace Org::BouncyCastle::Crypto::Digests {
   class ShakeDigest : public Org::BouncyCastle::Crypto::Digests::KeccakDigest, public Org::BouncyCastle::Crypto::IXof {
     public:
     // static private System.Int32 CheckBitLength(System.Int32 bitLength)
-    // Offset: 0x170FEB0
+    // Offset: 0x14CBA84
     static int CheckBitLength(int bitLength);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.ShakeDigest source)
-    // Offset: 0x1710008
+    // Offset: 0x14CBBDC
     static ShakeDigest* New_ctor(Org::BouncyCastle::Crypto::Digests::ShakeDigest* source);
     // public System.Int32 DoOutput(System.Byte[] output, System.Int32 outOff, System.Int32 outLen)
-    // Offset: 0x17101A4
+    // Offset: 0x14CBD78
     int DoOutput(::Array<uint8_t>* output, int outOff, int outLen);
     // public System.Void .ctor(System.Int32 bitLength)
-    // Offset: 0x170FF80
+    // Offset: 0x14CBB54
     // Implemented from: Org.BouncyCastle.Crypto.Digests.KeccakDigest
     // Base method: System.Void KeccakDigest::.ctor(System.Int32 bitLength)
     static ShakeDigest* New_ctor(int bitLength);
     // public override System.String get_AlgorithmName()
-    // Offset: 0x1710080
+    // Offset: 0x14CBC54
     // Implemented from: Org.BouncyCastle.Crypto.Digests.KeccakDigest
     // Base method: System.String KeccakDigest::get_AlgorithmName()
     ::Il2CppString* get_AlgorithmName();
     // public override System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1710100
+    // Offset: 0x14CBCD4
     // Implemented from: Org.BouncyCastle.Crypto.Digests.KeccakDigest
     // Base method: System.Int32 KeccakDigest::DoFinal(System.Byte[] output, System.Int32 outOff)
     int DoFinal(::Array<uint8_t>* output, int outOff);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff, System.Int32 outLen)
-    // Offset: 0x171015C
+    // Offset: 0x14CBD30
     // Implemented from: Org.BouncyCastle.Crypto.IXof
     // Base method: System.Int32 IXof::DoFinal(System.Byte[] output, System.Int32 outOff, System.Int32 outLen)
     int DoFinal(::Array<uint8_t>* output, int outOff, int outLen);
     // public override Org.BouncyCastle.Utilities.IMemoable Copy()
-    // Offset: 0x171020C
+    // Offset: 0x14CBDE0
     // Implemented from: Org.BouncyCastle.Crypto.Digests.KeccakDigest
     // Base method: Org.BouncyCastle.Utilities.IMemoable KeccakDigest::Copy()
     Org::BouncyCastle::Utilities::IMemoable* Copy();

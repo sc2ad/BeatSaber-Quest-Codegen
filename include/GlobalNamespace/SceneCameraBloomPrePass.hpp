@@ -43,17 +43,17 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void OnCameraPreRender(UnityEngine.Camera camera)
-    // Offset: 0x1FB2B74
+    // Offset: 0x1D037D8
     // Implemented from: CameraRenderCallbacksManager/ICameraRenderCallbacks
     // Base method: System.Void ICameraRenderCallbacks::OnCameraPreRender(UnityEngine.Camera camera)
     void OnCameraPreRender(UnityEngine::Camera* camera);
     // public System.Void OnCameraPostRender(UnityEngine.Camera camera)
-    // Offset: 0x1FB2B78
+    // Offset: 0x1D037DC
     // Implemented from: CameraRenderCallbacksManager/ICameraRenderCallbacks
     // Base method: System.Void ICameraRenderCallbacks::OnCameraPostRender(UnityEngine.Camera camera)
     void OnCameraPostRender(UnityEngine::Camera* camera);
     // public System.Void .ctor()
-    // Offset: 0x1FB2B7C
+    // Offset: 0x1D037E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

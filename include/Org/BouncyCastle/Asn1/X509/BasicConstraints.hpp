@@ -33,21 +33,21 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x18
     Org::BouncyCastle::Asn1::DerInteger* pathLenConstraint;
     // static public Org.BouncyCastle.Asn1.X509.BasicConstraints GetInstance(System.Object obj)
-    // Offset: 0x186372C
+    // Offset: 0x1609B50
     static Org::BouncyCastle::Asn1::X509::BasicConstraints* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1863944
+    // Offset: 0x1609D68
     static BasicConstraints* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public System.Boolean IsCA()
-    // Offset: 0x1863B28
+    // Offset: 0x1609F4C
     bool IsCA();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1863B3C
+    // Offset: 0x1609F60
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // public override System.String ToString()
-    // Offset: 0x1863C80
+    // Offset: 0x160A0A4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

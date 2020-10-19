@@ -25,7 +25,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Offset: 0x18
     bool Right;
     // public System.Void .ctor()
-    // Offset: 0x21C65CC
+    // Offset: 0x1F1A230
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DTSweepEdgeEvent* New_ctor();

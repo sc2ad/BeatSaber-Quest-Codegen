@@ -23,20 +23,20 @@ namespace Org::BouncyCastle::Utilities::IO {
     // Offset: 0x30
     int buf;
     // public System.Void Unread(System.Int32 b)
-    // Offset: 0x1DE3FA0
+    // Offset: 0x1B37C04
     void Unread(int b);
     // public System.Void .ctor(System.IO.Stream s)
-    // Offset: 0x1DE3EDC
+    // Offset: 0x1B37B40
     // Implemented from: Org.BouncyCastle.Utilities.IO.FilterStream
     // Base method: System.Void FilterStream::.ctor(System.IO.Stream s)
     static PushbackStream* New_ctor(System::IO::Stream* s);
     // public override System.Int32 ReadByte()
-    // Offset: 0x1DE3EE8
+    // Offset: 0x1B37B4C
     // Implemented from: Org.BouncyCastle.Utilities.IO.FilterStream
     // Base method: System.Int32 FilterStream::ReadByte()
     int ReadByte();
     // public override System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1DE3F28
+    // Offset: 0x1B37B8C
     // Implemented from: Org.BouncyCastle.Utilities.IO.FilterStream
     // Base method: System.Int32 FilterStream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     int Read(::Array<uint8_t>* buffer, int offset, int count);

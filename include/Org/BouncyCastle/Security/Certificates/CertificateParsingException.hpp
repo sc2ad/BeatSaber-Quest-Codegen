@@ -14,7 +14,7 @@ namespace Org::BouncyCastle::Security::Certificates {
   class CertificateParsingException : public Org::BouncyCastle::Security::Certificates::CertificateException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x11A9C78
+    // Offset: 0xFBCA44
     // Implemented from: Org.BouncyCastle.Security.Certificates.CertificateException
     // Base method: System.Void CertificateException::.ctor()
     // Base method: System.Void GeneralSecurityException::.ctor()
@@ -22,7 +22,7 @@ namespace Org::BouncyCastle::Security::Certificates {
     // Base method: System.Void Object::.ctor()
     static CertificateParsingException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x11A9C80
+    // Offset: 0xFBCA4C
     // Implemented from: Org.BouncyCastle.Security.Certificates.CertificateException
     // Base method: System.Void CertificateException::.ctor(System.String message)
     // Base method: System.Void GeneralSecurityException::.ctor(System.String message)

@@ -36,16 +36,16 @@ namespace Org::BouncyCastle::Asn1::Oiw {
     // Offset: 0x18
     Org::BouncyCastle::Asn1::DerInteger* g;
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x162FEF0
+    // Offset: 0x1406718
     static ElGamalParameter* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public Org.BouncyCastle.Math.BigInteger get_P()
-    // Offset: 0x1630004
+    // Offset: 0x140682C
     Org::BouncyCastle::Math::BigInteger* get_P();
     // public Org.BouncyCastle.Math.BigInteger get_G()
-    // Offset: 0x1630020
+    // Offset: 0x1406848
     Org::BouncyCastle::Math::BigInteger* get_G();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x163003C
+    // Offset: 0x1406864
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

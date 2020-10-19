@@ -23,28 +23,28 @@ namespace System::Security::Cryptography::X509Certificates {
     // Nested type: System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator
     class X509CertificateEnumerator;
     // public System.Void .ctor(System.Security.Cryptography.X509Certificates.X509CertificateCollection value)
-    // Offset: 0x16BF850
+    // Offset: 0x147A424
     static X509CertificateCollection* New_ctor(System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
     // public System.Security.Cryptography.X509Certificates.X509Certificate get_Item(System.Int32 index)
-    // Offset: 0x16BF988
+    // Offset: 0x147A55C
     System::Security::Cryptography::X509Certificates::X509Certificate* get_Item(int index);
     // public System.Int32 Add(System.Security.Cryptography.X509Certificates.X509Certificate value)
-    // Offset: 0x16BFA38
+    // Offset: 0x147A60C
     int Add(System::Security::Cryptography::X509Certificates::X509Certificate* value);
     // public System.Void AddRange(System.Security.Cryptography.X509Certificates.X509CertificateCollection value)
-    // Offset: 0x16BF880
+    // Offset: 0x147A454
     void AddRange(System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
     // public System.Security.Cryptography.X509Certificates.X509CertificateCollection/X509CertificateEnumerator GetEnumerator()
-    // Offset: 0x16BFAE8
+    // Offset: 0x147A6BC
     System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator* GetEnumerator();
     // public System.Void .ctor()
-    // Offset: 0x16BA81C
+    // Offset: 0x14753F0
     // Implemented from: System.Collections.CollectionBase
     // Base method: System.Void CollectionBase::.ctor()
     // Base method: System.Void Object::.ctor()
     static X509CertificateCollection* New_ctor();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x16BFC1C
+    // Offset: 0x147A7F0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

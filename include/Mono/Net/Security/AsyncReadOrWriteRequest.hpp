@@ -29,19 +29,19 @@ namespace Mono::Net::Security {
     // Offset: 0x40
     int CurrentSize;
     // protected Mono.Net.Security.BufferOffsetSize get_UserBuffer()
-    // Offset: 0x1419F28
+    // Offset: 0x11F0664
     Mono::Net::Security::BufferOffsetSize* get_UserBuffer();
     // protected System.Int32 get_CurrentSize()
-    // Offset: 0x1419F30
+    // Offset: 0x11F066C
     int get_CurrentSize();
     // protected System.Void set_CurrentSize(System.Int32 value)
-    // Offset: 0x1419F38
+    // Offset: 0x11F0674
     void set_CurrentSize(int value);
     // public System.Void .ctor(Mono.Net.Security.MobileAuthenticatedStream parent, System.Boolean sync, System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x1419F40
+    // Offset: 0x11F067C
     static AsyncReadOrWriteRequest* New_ctor(Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync, ::Array<uint8_t>* buffer, int offset, int size);
     // public override System.String ToString()
-    // Offset: 0x141A10C
+    // Offset: 0x11F0848
     // Implemented from: Mono.Net.Security.AsyncProtocolRequest
     // Base method: System.String AsyncProtocolRequest::ToString()
     ::Il2CppString* ToString();

@@ -26,16 +26,16 @@ namespace TMPro {
   class TMP_InputField::OnValidateInput : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xF88284
+    // Offset: 0xED6654
     static TMP_InputField::OnValidateInput* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Char Invoke(System.String text, System.Int32 charIndex, System.Char addedChar)
-    // Offset: 0xF88298
+    // Offset: 0xED6668
     ::Il2CppChar Invoke(::Il2CppString* text, int charIndex, ::Il2CppChar addedChar);
     // public System.IAsyncResult BeginInvoke(System.String text, System.Int32 charIndex, System.Char addedChar, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xF886F0
+    // Offset: 0xED6AC0
     System::IAsyncResult* BeginInvoke(::Il2CppString* text, int charIndex, ::Il2CppChar addedChar, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Char EndInvoke(System.IAsyncResult result)
-    // Offset: 0xF887AC
+    // Offset: 0xED6B7C
     ::Il2CppChar EndInvoke(System::IAsyncResult* result);
   }; // TMPro.TMP_InputField/OnValidateInput
 }

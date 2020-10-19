@@ -29,16 +29,16 @@ namespace Assets::OVR::Scripts {
   class FixMethodDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1371FE0
+    // Offset: 0x114771C
     static FixMethodDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(UnityEngine.Object obj, System.Boolean isLastInSet, System.Int32 selectedIndex)
-    // Offset: 0x1371FF4
+    // Offset: 0x1147730
     void Invoke(UnityEngine::Object* obj, bool isLastInSet, int selectedIndex);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Object obj, System.Boolean isLastInSet, System.Int32 selectedIndex, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1372460
+    // Offset: 0x1147B9C
     System::IAsyncResult* BeginInvoke(UnityEngine::Object* obj, bool isLastInSet, int selectedIndex, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1372520
+    // Offset: 0x1147C5C
     void EndInvoke(System::IAsyncResult* result);
   }; // Assets.OVR.Scripts.FixMethodDelegate
 }

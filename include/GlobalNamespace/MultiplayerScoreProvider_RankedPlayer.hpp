@@ -32,40 +32,40 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::MultiplayerScoreProvider* scoreSyncManager;
     // public System.Single get_offsetSyncTime()
-    // Offset: 0xF03B98
+    // Offset: 0x1FD8A4C
     float get_offsetSyncTime();
     // public System.Single get_lastScoreTime()
-    // Offset: 0xF03E54
+    // Offset: 0x1FD8D08
     float get_lastScoreTime();
     // public System.Int32 get_score()
-    // Offset: 0xEFCB64
+    // Offset: 0x1FD1A18
     int get_score();
     // public System.Boolean get_isConnected()
-    // Offset: 0xF03A54
+    // Offset: 0x1FD8908
     bool get_isConnected();
     // public System.Boolean get_isActiveOrFinished()
-    // Offset: 0xF03EAC
+    // Offset: 0x1FD8D60
     bool get_isActiveOrFinished();
     // public System.Boolean get_isFailed()
-    // Offset: 0xEFCC5C
+    // Offset: 0x1FD1B10
     bool get_isFailed();
     // public System.Boolean get_wasActiveAtLevelStart()
-    // Offset: 0xF03B1C
+    // Offset: 0x1FD89D0
     bool get_wasActiveAtLevelStart();
     // public System.Boolean get_isMe()
-    // Offset: 0xEFCB98
+    // Offset: 0x1FD1A4C
     bool get_isMe();
     // public System.String get_userId()
-    // Offset: 0xEFCC88
+    // Offset: 0x1FD1B3C
     ::Il2CppString* get_userId();
     // public System.String get_userName()
-    // Offset: 0xF03ED8
+    // Offset: 0x1FD8D8C
     ::Il2CppString* get_userName();
     // public System.Void .ctor(MultiplayerSyncState`3<StandardScoreSyncState,StandardScoreSyncState/Score,System.Int32> multiplayerSyncState, MultiplayerScoreProvider scoreSyncManager)
-    // Offset: 0xF03B48
+    // Offset: 0x1FD89FC
     static MultiplayerScoreProvider::RankedPlayer* New_ctor(GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>* multiplayerSyncState, GlobalNamespace::MultiplayerScoreProvider* scoreSyncManager);
     // public System.Int32 CompareTo(MultiplayerScoreProvider/RankedPlayer other)
-    // Offset: 0xF03FA0
+    // Offset: 0x1FD8E54
     // Implemented from: System.IComparable`1
     // Base method: System.Int32 IComparable_1::CompareTo(MultiplayerScoreProvider/RankedPlayer other)
     int CompareTo(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* other);

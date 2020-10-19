@@ -28,16 +28,16 @@ namespace Mono::Unity {
   class UnityTls::unitytls_interface_struct::unitytls_key_free_t : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x14221AC
+    // Offset: 0x11F88E8
     static UnityTls::unitytls_interface_struct::unitytls_key_free_t* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(Mono.Unity.UnityTls/unitytls_key* key)
-    // Offset: 0x14221C0
+    // Offset: 0x11F88FC
     void Invoke(Mono::Unity::UnityTls::unitytls_key* key);
     // public System.IAsyncResult BeginInvoke(Mono.Unity.UnityTls/unitytls_key* key, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1422410
+    // Offset: 0x11F8B4C
     System::IAsyncResult* BeginInvoke(Mono::Unity::UnityTls::unitytls_key* key, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1422434
+    // Offset: 0x11F8B70
     void EndInvoke(System::IAsyncResult* result);
   }; // Mono.Unity.UnityTls/unitytls_interface_struct/unitytls_key_free_t
 }

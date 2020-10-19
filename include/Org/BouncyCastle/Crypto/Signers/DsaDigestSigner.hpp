@@ -49,29 +49,29 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Offset: 0x28
     bool forSigning;
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDsa dsa, Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x10F49F4
+    // Offset: 0xF4F684
     static DsaDigestSigner* New_ctor(Org::BouncyCastle::Crypto::IDsa* dsa, Org::BouncyCastle::Crypto::IDigest* digest);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDsaExt dsa, Org.BouncyCastle.Crypto.IDigest digest, Org.BouncyCastle.Crypto.Signers.IDsaEncoding encoding)
-    // Offset: 0x10F4AA4
+    // Offset: 0xF4F734
     static DsaDigestSigner* New_ctor(Org::BouncyCastle::Crypto::IDsaExt* dsa, Org::BouncyCastle::Crypto::IDigest* digest, Org::BouncyCastle::Crypto::Signers::IDsaEncoding* encoding);
     // public System.Void Reset()
-    // Offset: 0x10F515C
+    // Offset: 0xF4FDEC
     void Reset();
     // protected Org.BouncyCastle.Math.BigInteger GetOrder()
-    // Offset: 0x10F5210
+    // Offset: 0xF4FEA0
     Org::BouncyCastle::Math::BigInteger* GetOrder();
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x10F4B08
+    // Offset: 0xF4F798
     // Implemented from: Org.BouncyCastle.Crypto.ISigner
     // Base method: System.Void ISigner::Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x10F4D10
+    // Offset: 0xF4F9A0
     // Implemented from: Org.BouncyCastle.Crypto.ISigner
     // Base method: System.Void ISigner::BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
     void BlockUpdate(::Array<uint8_t>* input, int inOff, int length);
     // public System.Byte[] GenerateSignature()
-    // Offset: 0x10F4DEC
+    // Offset: 0xF4FA7C
     // Implemented from: Org.BouncyCastle.Crypto.ISigner
     // Base method: System.Byte[] ISigner::GenerateSignature()
     ::Array<uint8_t>* GenerateSignature();

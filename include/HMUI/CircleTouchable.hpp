@@ -34,26 +34,26 @@ namespace HMUI {
     // Offset: 0x98
     UnityEngine::RectTransform* containerRect;
     // private System.Void UpdateCachedReferences()
-    // Offset: 0x11B1768
+    // Offset: 0x2180BB0
     void UpdateCachedReferences();
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0x11B18B8
+    // Offset: 0x2180D00
     void OnDrawGizmosSelected();
     // private System.Void DrawGizmoCircle(UnityEngine.Vector3 center, System.Single radius, System.Int32 steps)
-    // Offset: 0x11B1A38
+    // Offset: 0x2180E80
     void DrawGizmoCircle(UnityEngine::Vector3 center, float radius, int steps);
     // protected override System.Void OnEnable()
-    // Offset: 0x11B1740
+    // Offset: 0x2180B88
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnEnable()
     void OnEnable();
     // public override System.Boolean Raycast(UnityEngine.Vector2 sp, UnityEngine.Camera eventCamera)
-    // Offset: 0x11B17E0
+    // Offset: 0x2180C28
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Boolean Graphic::Raycast(UnityEngine.Vector2 sp, UnityEngine.Camera eventCamera)
     bool Raycast(UnityEngine::Vector2 sp, UnityEngine::Camera* eventCamera);
     // public System.Void .ctor()
-    // Offset: 0x11B1C14
+    // Offset: 0x218105C
     // Implemented from: HMUI.Touchable
     // Base method: System.Void Touchable::.ctor()
     // Base method: System.Void Graphic::.ctor()

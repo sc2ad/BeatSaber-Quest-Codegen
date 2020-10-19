@@ -29,22 +29,22 @@ namespace GlobalNamespace {
     // Offset: 0x2C
     int noteJumpStartBeatOffset;
     // public System.String get_difficulty()
-    // Offset: 0xF2B678
+    // Offset: 0x1F92870
     ::Il2CppString* get_difficulty();
     // public System.Int32 get_difficultyRank()
-    // Offset: 0xF2B680
+    // Offset: 0x1F92878
     int get_difficultyRank();
     // public System.String get_beatmapFilename()
-    // Offset: 0xF2B688
+    // Offset: 0x1F92880
     ::Il2CppString* get_beatmapFilename();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0xF2B690
+    // Offset: 0x1F92888
     float get_noteJumpMovementSpeed();
     // public System.Int32 get_noteJumpStartBeatOffset()
-    // Offset: 0xF2B698
+    // Offset: 0x1F92890
     int get_noteJumpStartBeatOffset();
     // public System.Void .ctor(System.String difficultyName, System.Int32 difficultyRank, System.String beatmapFilename, System.Single noteJumpMovementSpeed, System.Int32 noteJumpStartBeatOffset)
-    // Offset: 0xF2B6A0
+    // Offset: 0x1F92898
     static StandardLevelInfoSaveData_V100::DifficultyBeatmap* New_ctor(::Il2CppString* difficultyName, int difficultyRank, ::Il2CppString* beatmapFilename, float noteJumpMovementSpeed, int noteJumpStartBeatOffset);
   }; // StandardLevelInfoSaveData_V100/DifficultyBeatmap
 }

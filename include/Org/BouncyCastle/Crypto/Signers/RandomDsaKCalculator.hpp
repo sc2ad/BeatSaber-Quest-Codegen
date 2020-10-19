@@ -32,27 +32,27 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Offset: 0x18
     Org::BouncyCastle::Security::SecureRandom* random;
     // public System.Boolean get_IsDeterministic()
-    // Offset: 0x10FC590
+    // Offset: 0xF57220
     // Implemented from: Org.BouncyCastle.Crypto.Signers.IDsaKCalculator
     // Base method: System.Boolean IDsaKCalculator::get_IsDeterministic()
     bool get_IsDeterministic();
     // public System.Void Init(Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Security.SecureRandom random)
-    // Offset: 0x10FC598
+    // Offset: 0xF57228
     // Implemented from: Org.BouncyCastle.Crypto.Signers.IDsaKCalculator
     // Base method: System.Void IDsaKCalculator::Init(Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Security.SecureRandom random)
     void Init(Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Security::SecureRandom* random);
     // public System.Void Init(Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger d, System.Byte[] message)
-    // Offset: 0x10FC5CC
+    // Offset: 0xF5725C
     // Implemented from: Org.BouncyCastle.Crypto.Signers.IDsaKCalculator
     // Base method: System.Void IDsaKCalculator::Init(Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger d, System.Byte[] message)
     void Init(Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* d, ::Array<uint8_t>* message);
     // public Org.BouncyCastle.Math.BigInteger NextK()
-    // Offset: 0x10FC638
+    // Offset: 0xF572C8
     // Implemented from: Org.BouncyCastle.Crypto.Signers.IDsaKCalculator
     // Base method: Org.BouncyCastle.Math.BigInteger IDsaKCalculator::NextK()
     Org::BouncyCastle::Math::BigInteger* NextK();
     // public System.Void .ctor()
-    // Offset: 0x10F53C0
+    // Offset: 0xF50050
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static RandomDsaKCalculator* New_ctor();

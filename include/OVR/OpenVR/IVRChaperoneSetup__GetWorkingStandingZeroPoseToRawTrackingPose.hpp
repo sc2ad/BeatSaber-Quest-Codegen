@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRChaperoneSetup::_GetWorkingStandingZeroPoseToRawTrackingPose : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1385698
+    // Offset: 0x115ADD4
     static IVRChaperoneSetup::_GetWorkingStandingZeroPoseToRawTrackingPose* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(ref OVR.OpenVR.HmdMatrix34_t pmatStandingZeroPoseToRawTrackingPose)
-    // Offset: 0x137C0C4
+    // Offset: 0x1151800
     bool Invoke(OVR::OpenVR::HmdMatrix34_t& pmatStandingZeroPoseToRawTrackingPose);
     // public System.IAsyncResult BeginInvoke(ref OVR.OpenVR.HmdMatrix34_t pmatStandingZeroPoseToRawTrackingPose, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x13856AC
+    // Offset: 0x115ADE8
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::HmdMatrix34_t& pmatStandingZeroPoseToRawTrackingPose, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(ref OVR.OpenVR.HmdMatrix34_t pmatStandingZeroPoseToRawTrackingPose, System.IAsyncResult result)
-    // Offset: 0x1385740
+    // Offset: 0x115AE7C
     bool EndInvoke(OVR::OpenVR::HmdMatrix34_t& pmatStandingZeroPoseToRawTrackingPose, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRChaperoneSetup/_GetWorkingStandingZeroPoseToRawTrackingPose
 }

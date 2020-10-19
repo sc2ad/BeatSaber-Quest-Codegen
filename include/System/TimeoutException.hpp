@@ -23,20 +23,20 @@ namespace System {
   class TimeoutException : public System::SystemException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x195CBF8
+    // Offset: 0x170401C
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static TimeoutException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x195CC6C
+    // Offset: 0x1704090
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static TimeoutException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x195CCA0
+    // Offset: 0x17040C4
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

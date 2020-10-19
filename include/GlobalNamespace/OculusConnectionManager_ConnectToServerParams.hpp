@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     uint64_t serverId;
     // public System.Void .ctor()
-    // Offset: 0x10BA4E0
+    // Offset: 0x21036F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusConnectionManager::ConnectToServerParams* New_ctor();

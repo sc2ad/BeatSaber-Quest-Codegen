@@ -28,25 +28,25 @@ namespace GlobalNamespace {
   class MissionNodesHelper : public ::Il2CppObject {
     public:
     // static public System.Collections.Generic.HashSet`1<MissionNode> GetAllNodesFromRoot(MissionNode root)
-    // Offset: 0xEE1C7C
+    // Offset: 0x1FCB844
     static System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>* GetAllNodesFromRoot(GlobalNamespace::MissionNode* root);
     // static private System.Void VisitAllTree(MissionNode node, System.Collections.Generic.HashSet`1<MissionNode> visitedNodes)
-    // Offset: 0xEE1CF0
+    // Offset: 0x1FCB8B8
     static void VisitAllTree(GlobalNamespace::MissionNode* node, System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>* visitedNodes);
     // static public System.Boolean CycleDetection(MissionNode node)
-    // Offset: 0xEE1DCC
+    // Offset: 0x1FCB994
     static bool CycleDetection(GlobalNamespace::MissionNode* node);
     // static private System.Boolean CycleDetection(MissionNode node, System.Int32 layer, System.Collections.Generic.Dictionary`2<MissionNode,System.Int32> layers)
-    // Offset: 0xEE1E3C
+    // Offset: 0x1FCBA04
     static bool CycleDetection(GlobalNamespace::MissionNode* node, int layer, System::Collections::Generic::Dictionary_2<GlobalNamespace::MissionNode*, int>* layers);
     // static public System.Boolean FinalNodeIsFinal(MissionNode finalNode, MissionNode rootNode)
-    // Offset: 0xEE1F7C
+    // Offset: 0x1FCBB44
     static bool FinalNodeIsFinal(GlobalNamespace::MissionNode* finalNode, GlobalNamespace::MissionNode* rootNode);
     // static private System.Boolean FinalNodeIsFinal(MissionNode finalNode, MissionNode node, System.Collections.Generic.HashSet`1<MissionNode> visitedNodes)
-    // Offset: 0xEE1FF8
+    // Offset: 0x1FCBBC0
     static bool FinalNodeIsFinal(GlobalNamespace::MissionNode* finalNode, GlobalNamespace::MissionNode* node, System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>* visitedNodes);
     // public System.Void .ctor()
-    // Offset: 0xEE2120
+    // Offset: 0x1FCBCE8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MissionNodesHelper* New_ctor();

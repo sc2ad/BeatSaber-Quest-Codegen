@@ -98,49 +98,49 @@ namespace System::Security::Cryptography {
     // Set static field: static private readonly System.Int32[] s_iTF
     static void _set_s_iTF(::Array<int>* value);
     // System.Void .ctor(System.Byte[] rgbKey, System.Security.Cryptography.CipherMode mode, System.Byte[] rgbIV, System.Int32 blockSize, System.Int32 feedbackSize, System.Security.Cryptography.PaddingMode PaddingValue, System.Security.Cryptography.RijndaelManagedTransformMode transformMode)
-    // Offset: 0x19D9BAC
+    // Offset: 0x177FFD0
     static RijndaelManagedTransform* New_ctor(::Array<uint8_t>* rgbKey, System::Security::Cryptography::CipherMode mode, ::Array<uint8_t>* rgbIV, int blockSize, int feedbackSize, System::Security::Cryptography::PaddingMode PaddingValue, System::Security::Cryptography::RijndaelManagedTransformMode transformMode);
     // private System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x19DA7DC
+    // Offset: 0x1780C00
     void Dispose(bool disposing);
     // public System.Void Reset()
-    // Offset: 0x19DC450
+    // Offset: 0x1782874
     void Reset();
     // private System.Int32 EncryptData(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, ref System.Byte[] outputBuffer, System.Int32 outputOffset, System.Security.Cryptography.PaddingMode paddingMode, System.Boolean fLast)
-    // Offset: 0x19DABEC
+    // Offset: 0x1781010
     int EncryptData(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount, ::Array<uint8_t>*& outputBuffer, int outputOffset, System::Security::Cryptography::PaddingMode paddingMode, bool fLast);
     // private System.Int32 DecryptData(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, ref System.Byte[] outputBuffer, System.Int32 outputOffset, System.Security.Cryptography.PaddingMode paddingMode, System.Boolean fLast)
-    // Offset: 0x19DB718
+    // Offset: 0x1781B3C
     int DecryptData(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount, ::Array<uint8_t>*& outputBuffer, int outputOffset, System::Security::Cryptography::PaddingMode paddingMode, bool fLast);
     // private System.Void Enc(System.Int32* encryptindex, System.Int32* encryptKeyExpansion, System.Int32* T, System.Int32* TF, System.Int32* work, System.Int32* temp)
-    // Offset: 0x19DC4D8
+    // Offset: 0x17828FC
     void Enc(int* encryptindex, int* encryptKeyExpansion, int* T, int* TF, int* work, int* temp);
     // private System.Void Dec(System.Int32* decryptindex, System.Int32* decryptKeyExpansion, System.Int32* iT, System.Int32* iTF, System.Int32* work, System.Int32* temp)
-    // Offset: 0x19DC694
+    // Offset: 0x1782AB8
     void Dec(int* decryptindex, int* decryptKeyExpansion, int* iT, int* iTF, int* work, int* temp);
     // private System.Void GenerateKeyExpansion(System.Byte[] rgbKey)
-    // Offset: 0x19DA1FC
+    // Offset: 0x1780620
     void GenerateKeyExpansion(::Array<uint8_t>* rgbKey);
     // static private System.Int32 rot1(System.Int32 val)
-    // Offset: 0x19DC974
+    // Offset: 0x1782D98
     static int rot1(int val);
     // static private System.Int32 rot2(System.Int32 val)
-    // Offset: 0x19DC96C
+    // Offset: 0x1782D90
     static int rot2(int val);
     // static private System.Int32 rot3(System.Int32 val)
-    // Offset: 0x19DC864
+    // Offset: 0x1782C88
     static int rot3(int val);
     // static private System.Int32 SubWord(System.Int32 a)
-    // Offset: 0x19DC86C
+    // Offset: 0x1782C90
     static int SubWord(int a);
     // static private System.Int32 MulX(System.Int32 x)
-    // Offset: 0x19DC948
+    // Offset: 0x1782D6C
     static int MulX(int x);
     // static private System.Void .cctor()
-    // Offset: 0x19DC97C
+    // Offset: 0x1782DA0
     static void _cctor();
     // public System.Void Dispose()
-    // Offset: 0x19DA7D4
+    // Offset: 0x1780BF8
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -148,27 +148,27 @@ namespace System::Security::Cryptography {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // public System.Int32 get_InputBlockSize()
-    // Offset: 0x19DA908
+    // Offset: 0x1780D2C
     // Implemented from: System.Security.Cryptography.ICryptoTransform
     // Base method: System.Int32 ICryptoTransform::get_InputBlockSize()
     int get_InputBlockSize();
     // public System.Int32 get_OutputBlockSize()
-    // Offset: 0x19DA910
+    // Offset: 0x1780D34
     // Implemented from: System.Security.Cryptography.ICryptoTransform
     // Base method: System.Int32 ICryptoTransform::get_OutputBlockSize()
     int get_OutputBlockSize();
     // public System.Boolean get_CanTransformMultipleBlocks()
-    // Offset: 0x19DA918
+    // Offset: 0x1780D3C
     // Implemented from: System.Security.Cryptography.ICryptoTransform
     // Base method: System.Boolean ICryptoTransform::get_CanTransformMultipleBlocks()
     bool get_CanTransformMultipleBlocks();
     // public System.Int32 TransformBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, System.Byte[] outputBuffer, System.Int32 outputOffset)
-    // Offset: 0x19DA920
+    // Offset: 0x1780D44
     // Implemented from: System.Security.Cryptography.ICryptoTransform
     // Base method: System.Int32 ICryptoTransform::TransformBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, System.Byte[] outputBuffer, System.Int32 outputOffset)
     int TransformBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount, ::Array<uint8_t>* outputBuffer, int outputOffset);
     // public System.Byte[] TransformFinalBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x19DC188
+    // Offset: 0x17825AC
     // Implemented from: System.Security.Cryptography.ICryptoTransform
     // Base method: System.Byte[] ICryptoTransform::TransformFinalBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
     ::Array<uint8_t>* TransformFinalBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);

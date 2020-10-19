@@ -50,16 +50,16 @@ namespace Zenject::Internal {
     // Set static field: static public System.Func`2<UnityEngine.GameObject,System.Boolean> <>9__10_0
     static void _set_$$9__10_0(System::Func_2<UnityEngine::GameObject*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1510D68
+    // Offset: 0x12E7590
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<Zenject.SceneContext> <GetAllSceneContexts>b__3_0(UnityEngine.GameObject root)
-    // Offset: 0x1510DD8
+    // Offset: 0x12E7600
     System::Collections::Generic::IEnumerable_1<Zenject::SceneContext*>* $GetAllSceneContexts$b__3_0(UnityEngine::GameObject* root);
     // System.Boolean <GetRootGameObjects>b__10_0(UnityEngine.GameObject x)
-    // Offset: 0x1510E30
+    // Offset: 0x12E7658
     bool $GetRootGameObjects$b__10_0(UnityEngine::GameObject* x);
     // public System.Void .ctor()
-    // Offset: 0x1510DD0
+    // Offset: 0x12E75F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ZenUtilInternal::$$c* New_ctor();

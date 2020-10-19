@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRRenderModels::_GetRenderModelErrorNameFromEnum : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F4F6E8
+    // Offset: 0x1CA134C
     static IVRRenderModels::_GetRenderModelErrorNameFromEnum* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.IntPtr Invoke(Valve.VR.EVRRenderModelError error)
-    // Offset: 0x1F4F6FC
+    // Offset: 0x1CA1360
     System::IntPtr Invoke(Valve::VR::EVRRenderModelError error);
     // public System.IAsyncResult BeginInvoke(Valve.VR.EVRRenderModelError error, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F4F970
+    // Offset: 0x1CA15D4
     System::IAsyncResult* BeginInvoke(Valve::VR::EVRRenderModelError error, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.IntPtr EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1F4F9FC
+    // Offset: 0x1CA1660
     System::IntPtr EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRRenderModels/_GetRenderModelErrorNameFromEnum
 }

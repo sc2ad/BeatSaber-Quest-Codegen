@@ -30,46 +30,46 @@ namespace System::Diagnostics {
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // protected System.Void .ctor(System.String name)
-    // Offset: 0x1728D8C
+    // Offset: 0x14E4960
     static TraceListener* New_ctor(::Il2CppString* name);
     // public System.Boolean get_IsThreadSafe()
-    // Offset: 0x172C640
+    // Offset: 0x14E8214
     bool get_IsThreadSafe();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x172C6C4
+    // Offset: 0x14E8298
     void Dispose(bool disposing);
     // public System.Void Flush()
-    // Offset: 0x172C6C8
+    // Offset: 0x14E829C
     void Flush();
     // public System.Void set_IndentLevel(System.Int32 value)
-    // Offset: 0x172BA30
+    // Offset: 0x14E7604
     void set_IndentLevel(int value);
     // public System.Void set_IndentSize(System.Int32 value)
-    // Offset: 0x172BA4C
+    // Offset: 0x14E7620
     void set_IndentSize(int value);
     // protected System.Boolean get_NeedIndent()
-    // Offset: 0x172C6CC
+    // Offset: 0x14E82A0
     bool get_NeedIndent();
     // protected System.Void set_NeedIndent(System.Boolean value)
-    // Offset: 0x172C6D4
+    // Offset: 0x14E82A8
     void set_NeedIndent(bool value);
     // public System.Void Fail(System.String message)
-    // Offset: 0x1728DE8
+    // Offset: 0x14E49BC
     void Fail(::Il2CppString* message);
     // public System.Void Fail(System.String message, System.String detailMessage)
-    // Offset: 0x1728EA0
+    // Offset: 0x14E4A74
     void Fail(::Il2CppString* message, ::Il2CppString* detailMessage);
     // public System.Void Write(System.String message)
     // Offset: 0xFFFFFFFF
     void Write(::Il2CppString* message);
     // protected System.Void WriteIndent()
-    // Offset: 0x172C6E0
+    // Offset: 0x14E82B4
     void WriteIndent();
     // public System.Void WriteLine(System.String message)
     // Offset: 0xFFFFFFFF
     void WriteLine(::Il2CppString* message);
     // public System.Void Dispose()
-    // Offset: 0x172C648
+    // Offset: 0x14E821C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

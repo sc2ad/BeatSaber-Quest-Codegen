@@ -124,184 +124,184 @@ namespace System::IO {
     // Set static field: static private readonly System.Object buf_recycle_lock
     static void _set_buf_recycle_lock(::Il2CppObject* value);
     // System.Void .ctor(System.IntPtr handle, System.IO.FileAccess access, System.Boolean ownsHandle, System.Int32 bufferSize, System.Boolean isAsync, System.Boolean isConsoleWrapper)
-    // Offset: 0x169570C
+    // Offset: 0x144F2E0
     static FileStream* New_ctor(System::IntPtr handle, System::IO::FileAccess access, bool ownsHandle, int bufferSize, bool isAsync, bool isConsoleWrapper);
     // public System.Void .ctor(System.String path, System.IO.FileMode mode)
-    // Offset: 0x1695B94
+    // Offset: 0x144F768
     static FileStream* New_ctor(::Il2CppString* path, System::IO::FileMode mode);
     // public System.Void .ctor(System.String path, System.IO.FileMode mode, System.IO.FileAccess access)
-    // Offset: 0x1696304
+    // Offset: 0x144FED8
     static FileStream* New_ctor(::Il2CppString* path, System::IO::FileMode mode, System::IO::FileAccess access);
     // public System.Void .ctor(System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share)
-    // Offset: 0x1692C30
+    // Offset: 0x144C804
     static FileStream* New_ctor(::Il2CppString* path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share);
     // public System.Void .ctor(System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize)
-    // Offset: 0x1692534
+    // Offset: 0x144C108
     static FileStream* New_ctor(::Il2CppString* path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int bufferSize);
     // public System.Void .ctor(System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean useAsync)
-    // Offset: 0x1696364
+    // Offset: 0x144FF38
     static FileStream* New_ctor(::Il2CppString* path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int bufferSize, bool useAsync);
     // public System.Void .ctor(System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options)
-    // Offset: 0x1696398
+    // Offset: 0x144FF6C
     static FileStream* New_ctor(::Il2CppString* path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int bufferSize, System::IO::FileOptions options);
     // System.Void .ctor(System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options, System.String msgPath, System.Boolean bFromProxy, System.Boolean useLongPath, System.Boolean checkHost)
-    // Offset: 0x16963BC
+    // Offset: 0x144FF90
     static FileStream* New_ctor(::Il2CppString* path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int bufferSize, System::IO::FileOptions options, ::Il2CppString* msgPath, bool bFromProxy, bool useLongPath, bool checkHost);
     // System.Void .ctor(System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean isAsync, System.Boolean anonymous)
-    // Offset: 0x169633C
+    // Offset: 0x144FF10
     static FileStream* New_ctor(::Il2CppString* path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int bufferSize, bool isAsync, bool anonymous);
     // System.Void .ctor(System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options)
-    // Offset: 0x1695BD4
+    // Offset: 0x144F7A8
     static FileStream* New_ctor(::Il2CppString* path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int bufferSize, bool anonymous, System::IO::FileOptions options);
     // private System.Void Init(Microsoft.Win32.SafeHandles.SafeFileHandle safeHandle, System.IO.FileAccess access, System.Boolean ownsHandle, System.Int32 bufferSize, System.Boolean isAsync, System.Boolean isConsoleWrapper)
-    // Offset: 0x1695898
+    // Offset: 0x144F46C
     void Init(Microsoft::Win32::SafeHandles::SafeFileHandle* safeHandle, System::IO::FileAccess access, bool ownsHandle, int bufferSize, bool isAsync, bool isConsoleWrapper);
     // public Microsoft.Win32.SafeHandles.SafeFileHandle get_SafeFileHandle()
-    // Offset: 0x1696FE8
+    // Offset: 0x1450BBC
     Microsoft::Win32::SafeHandles::SafeFileHandle* get_SafeFileHandle();
     // private System.Void ExposeHandle()
-    // Offset: 0x169698C
+    // Offset: 0x1450560
     void ExposeHandle();
     // private System.Int32 ReadInternal(System.Byte[] dest, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1697878
+    // Offset: 0x145144C
     int ReadInternal(::Array<uint8_t>* dest, int offset, int count);
     // private System.Void WriteInternal(System.Byte[] src, System.Int32 offset, System.Int32 count)
-    // Offset: 0x16980A0
+    // Offset: 0x1451C74
     void WriteInternal(::Array<uint8_t>* src, int offset, int count);
     // private System.Int32 ReadSegment(System.Byte[] dest, System.Int32 dest_offset, System.Int32 count)
-    // Offset: 0x1697920
+    // Offset: 0x14514F4
     int ReadSegment(::Array<uint8_t>* dest, int dest_offset, int count);
     // private System.Int32 WriteSegment(System.Byte[] src, System.Int32 src_offset, System.Int32 count)
-    // Offset: 0x16983A4
+    // Offset: 0x1451F78
     int WriteSegment(::Array<uint8_t>* src, int src_offset, int count);
     // private System.Void FlushBuffer()
-    // Offset: 0x1697030
+    // Offset: 0x1450C04
     void FlushBuffer();
     // private System.Void FlushBufferIfDirty()
-    // Offset: 0x1696C84
+    // Offset: 0x1450858
     void FlushBufferIfDirty();
     // private System.Void RefillBuffer()
-    // Offset: 0x169747C
+    // Offset: 0x1451050
     void RefillBuffer();
     // private System.Int32 ReadData(System.Runtime.InteropServices.SafeHandle safeHandle, System.Byte[] buf, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1697340
+    // Offset: 0x1450F14
     int ReadData(System::Runtime::InteropServices::SafeHandle* safeHandle, ::Array<uint8_t>* buf, int offset, int count);
     // private System.Void InitBuffer(System.Int32 size, System.Boolean isZeroSize)
-    // Offset: 0x1696700
+    // Offset: 0x14502D4
     void InitBuffer(int size, bool isZeroSize);
     // private System.String GetSecureFileName(System.String filename)
-    // Offset: 0x169654C
+    // Offset: 0x1450120
     ::Il2CppString* GetSecureFileName(::Il2CppString* filename);
     // private System.String GetSecureFileName(System.String filename, System.Boolean full)
-    // Offset: 0x16963C8
+    // Offset: 0x144FF9C
     ::Il2CppString* GetSecureFileName(::Il2CppString* filename, bool full);
     // public override System.Boolean get_CanRead()
-    // Offset: 0x1696AE0
+    // Offset: 0x14506B4
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanRead()
     bool get_CanRead();
     // public override System.Boolean get_CanWrite()
-    // Offset: 0x1696AF4
+    // Offset: 0x14506C8
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanWrite()
     bool get_CanWrite();
     // public override System.Boolean get_CanSeek()
-    // Offset: 0x1696B08
+    // Offset: 0x14506DC
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanSeek()
     bool get_CanSeek();
     // public override System.Int64 get_Length()
-    // Offset: 0x1696B10
+    // Offset: 0x14506E4
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::get_Length()
     int64_t get_Length();
     // public override System.Int64 get_Position()
-    // Offset: 0x1696DA4
+    // Offset: 0x1450978
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::get_Position()
     int64_t get_Position();
     // public override System.Void set_Position(System.Int64 value)
-    // Offset: 0x1696F24
+    // Offset: 0x1450AF8
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::set_Position(System.Int64 value)
     void set_Position(int64_t value);
     // public override System.Int32 ReadByte()
-    // Offset: 0x16971DC
+    // Offset: 0x1450DB0
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::ReadByte()
     int ReadByte();
     // public override System.Void WriteByte(System.Byte value)
-    // Offset: 0x16974B8
+    // Offset: 0x145108C
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::WriteByte(System.Byte value)
     void WriteByte(uint8_t value);
     // public override System.Int32 Read(in System.Byte[] array, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1697634
+    // Offset: 0x1451208
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::Read(in System.Byte[] array, System.Int32 offset, System.Int32 count)
     int Read(::Array<uint8_t>*& array, int offset, int count);
     // public override System.IAsyncResult BeginRead(System.Byte[] array, System.Int32 offset, System.Int32 numBytes, System.AsyncCallback userCallback, System.Object stateObject)
-    // Offset: 0x16979E8
+    // Offset: 0x14515BC
     // Implemented from: System.IO.Stream
     // Base method: System.IAsyncResult Stream::BeginRead(System.Byte[] array, System.Int32 offset, System.Int32 numBytes, System.AsyncCallback userCallback, System.Object stateObject)
     System::IAsyncResult* BeginRead(::Array<uint8_t>* array, int offset, int numBytes, System::AsyncCallback* userCallback, ::Il2CppObject* stateObject);
     // public override System.Int32 EndRead(System.IAsyncResult asyncResult)
-    // Offset: 0x1697D08
+    // Offset: 0x14518DC
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::EndRead(System.IAsyncResult asyncResult)
     int EndRead(System::IAsyncResult* asyncResult);
     // public override System.Void Write(System.Byte[] array, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1697E80
+    // Offset: 0x1451A54
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Write(System.Byte[] array, System.Int32 offset, System.Int32 count)
     void Write(::Array<uint8_t>* array, int offset, int count);
     // public override System.IAsyncResult BeginWrite(System.Byte[] array, System.Int32 offset, System.Int32 numBytes, System.AsyncCallback userCallback, System.Object stateObject)
-    // Offset: 0x1698420
+    // Offset: 0x1451FF4
     // Implemented from: System.IO.Stream
     // Base method: System.IAsyncResult Stream::BeginWrite(System.Byte[] array, System.Int32 offset, System.Int32 numBytes, System.AsyncCallback userCallback, System.Object stateObject)
     System::IAsyncResult* BeginWrite(::Array<uint8_t>* array, int offset, int numBytes, System::AsyncCallback* userCallback, ::Il2CppObject* stateObject);
     // public override System.Void EndWrite(System.IAsyncResult asyncResult)
-    // Offset: 0x1698860
+    // Offset: 0x1452434
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::EndWrite(System.IAsyncResult asyncResult)
     void EndWrite(System::IAsyncResult* asyncResult);
     // public override System.Int64 Seek(System.Int64 offset, System.IO.SeekOrigin origin)
-    // Offset: 0x16989BC
+    // Offset: 0x1452590
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::Seek(System.Int64 offset, System.IO.SeekOrigin origin)
     int64_t Seek(int64_t offset, System::IO::SeekOrigin origin);
     // public override System.Void SetLength(System.Int64 value)
-    // Offset: 0x1698C04
+    // Offset: 0x14527D8
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::SetLength(System.Int64 value)
     void SetLength(int64_t value);
     // public override System.Void Flush()
-    // Offset: 0x1698F24
+    // Offset: 0x1452AF8
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Flush()
     void Flush();
     // protected override System.Void Finalize()
-    // Offset: 0x1698FBC
+    // Offset: 0x1452B90
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1699034
+    // Offset: 0x1452C08
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Threading.Tasks.Task`1<System.Int32> ReadAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1699398
+    // Offset: 0x1452F6C
     // Implemented from: System.IO.Stream
     // Base method: System.Threading.Tasks.Task`1<System.Int32> Stream::ReadAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<int>* ReadAsync(::Array<uint8_t>* buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
     // public override System.Threading.Tasks.Task WriteAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x16993A0
+    // Offset: 0x1452F74
     // Implemented from: System.IO.Stream
     // Base method: System.Threading.Tasks.Task Stream::WriteAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task* WriteAsync(::Array<uint8_t>* buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
     // static private System.Void .cctor()
-    // Offset: 0x169954C
+    // Offset: 0x1453120
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::.cctor()
     static void _cctor();

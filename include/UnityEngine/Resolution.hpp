@@ -27,13 +27,13 @@ namespace UnityEngine {
     // Creating value type constructor for type: Resolution
     constexpr Resolution(int m_Width_ = {}, int m_Height_ = {}, int m_RefreshRate_ = {}) noexcept : m_Width{m_Width_}, m_Height{m_Height_}, m_RefreshRate{m_RefreshRate_} {}
     // public System.Int32 get_width()
-    // Offset: 0xDBEE3C
+    // Offset: 0xC7525C
     int get_width();
     // public System.Int32 get_height()
-    // Offset: 0xDBEE44
+    // Offset: 0xC75264
     int get_height();
     // public override System.String ToString()
-    // Offset: 0xDBEE4C
+    // Offset: 0xC7526C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

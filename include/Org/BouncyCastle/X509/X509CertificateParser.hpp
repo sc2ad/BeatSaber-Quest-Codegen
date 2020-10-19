@@ -56,34 +56,34 @@ namespace Org::BouncyCastle::X509 {
     // Set static field: static private readonly Org.BouncyCastle.X509.PemParser PemCertParser
     static void _set_PemCertParser(Org::BouncyCastle::X509::PemParser* value);
     // private Org.BouncyCastle.X509.X509Certificate ReadDerCertificate(Org.BouncyCastle.Asn1.Asn1InputStream dIn)
-    // Offset: 0x1DE690C
+    // Offset: 0x1B3A570
     Org::BouncyCastle::X509::X509Certificate* ReadDerCertificate(Org::BouncyCastle::Asn1::Asn1InputStream* dIn);
     // private Org.BouncyCastle.X509.X509Certificate GetCertificate()
-    // Offset: 0x1DE6B18
+    // Offset: 0x1B3A77C
     Org::BouncyCastle::X509::X509Certificate* GetCertificate();
     // private Org.BouncyCastle.X509.X509Certificate ReadPemCertificate(System.IO.Stream inStream)
-    // Offset: 0x1DE6C10
+    // Offset: 0x1B3A874
     Org::BouncyCastle::X509::X509Certificate* ReadPemCertificate(System::IO::Stream* inStream);
     // protected Org.BouncyCastle.X509.X509Certificate CreateX509Certificate(Org.BouncyCastle.Asn1.X509.X509CertificateStructure c)
-    // Offset: 0x1DE6CC4
+    // Offset: 0x1B3A928
     Org::BouncyCastle::X509::X509Certificate* CreateX509Certificate(Org::BouncyCastle::Asn1::X509::X509CertificateStructure* c);
     // public Org.BouncyCastle.X509.X509Certificate ReadCertificate(System.Byte[] input)
-    // Offset: 0x1DE6D24
+    // Offset: 0x1B3A988
     Org::BouncyCastle::X509::X509Certificate* ReadCertificate(::Array<uint8_t>* input);
     // public System.Collections.ICollection ReadCertificates(System.Byte[] input)
-    // Offset: 0x1DE706C
+    // Offset: 0x1B3ACD0
     System::Collections::ICollection* ReadCertificates(::Array<uint8_t>* input);
     // public Org.BouncyCastle.X509.X509Certificate ReadCertificate(System.IO.Stream inStream)
-    // Offset: 0x1DE6D9C
+    // Offset: 0x1B3AA00
     Org::BouncyCastle::X509::X509Certificate* ReadCertificate(System::IO::Stream* inStream);
     // public System.Collections.ICollection ReadCertificates(System.IO.Stream inStream)
-    // Offset: 0x1DE70E4
+    // Offset: 0x1B3AD48
     System::Collections::ICollection* ReadCertificates(System::IO::Stream* inStream);
     // static private System.Void .cctor()
-    // Offset: 0x1DE7204
+    // Offset: 0x1B3AE68
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1DE727C
+    // Offset: 0x1B3AEE0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static X509CertificateParser* New_ctor();

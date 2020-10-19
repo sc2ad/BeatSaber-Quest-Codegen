@@ -28,10 +28,10 @@ namespace Org::BouncyCastle::Asn1 {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.BerSequence Empty
     static void _set_Empty(Org::BouncyCastle::Asn1::BerSequence* value);
     // static public Org.BouncyCastle.Asn1.BerSequence FromVector(Org.BouncyCastle.Asn1.Asn1EncodableVector elementVector)
-    // Offset: 0x15412E8
+    // Offset: 0x1318B10
     static Org::BouncyCastle::Asn1::BerSequence* FromVector(Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
     // public System.Void .ctor()
-    // Offset: 0x15438F4
+    // Offset: 0x131B11C
     // Implemented from: Org.BouncyCastle.Asn1.DerSequence
     // Base method: System.Void DerSequence::.ctor()
     // Base method: System.Void Asn1Sequence::.ctor()
@@ -40,24 +40,24 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Void Object::.ctor()
     static BerSequence* New_ctor();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Encodable element)
-    // Offset: 0x153F9E8
+    // Offset: 0x1317210
     // Implemented from: Org.BouncyCastle.Asn1.DerSequence
     // Base method: System.Void DerSequence::.ctor(Org.BouncyCastle.Asn1.Asn1Encodable element)
     // Base method: System.Void Asn1Sequence::.ctor(Org.BouncyCastle.Asn1.Asn1Encodable element)
     static BerSequence* New_ctor(Org::BouncyCastle::Asn1::Asn1Encodable* element);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1EncodableVector elementVector)
-    // Offset: 0x1543880
+    // Offset: 0x131B0A8
     // Implemented from: Org.BouncyCastle.Asn1.DerSequence
     // Base method: System.Void DerSequence::.ctor(Org.BouncyCastle.Asn1.Asn1EncodableVector elementVector)
     // Base method: System.Void Asn1Sequence::.ctor(Org.BouncyCastle.Asn1.Asn1EncodableVector elementVector)
     static BerSequence* New_ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x1543960
+    // Offset: 0x131B188
     // Implemented from: Org.BouncyCastle.Asn1.DerSequence
     // Base method: System.Void DerSequence::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // static private System.Void .cctor()
-    // Offset: 0x1543FB8
+    // Offset: 0x131B7E0
     // Implemented from: Org.BouncyCastle.Asn1.DerSequence
     // Base method: System.Void DerSequence::.cctor()
     static void _cctor();

@@ -27,10 +27,10 @@ namespace TMPro {
     // Offset: 0x14
     uint second;
     // System.Boolean <AddGlyphPairAdjustmentRecord>b__0(TMPro.KerningPair item)
-    // Offset: 0xF3F114
+    // Offset: 0xEB9A48
     bool $AddGlyphPairAdjustmentRecord$b__0(TMPro::KerningPair* item);
     // public System.Void .ctor()
-    // Offset: 0xF3ECC8
+    // Offset: 0xEB95FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static KerningTable::$$c__DisplayClass4_0* New_ctor();

@@ -44,18 +44,18 @@ namespace GlobalNamespace {
     // Offset: 0x40
     ::Array<::Il2CppString*>* $renderModelNames$5__4;
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1240D48
+    // Offset: 0x103B5E4
     static SteamVR_RenderModel::$SetModelAsync$d__21* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()
-    // Offset: 0x1243734
+    // Offset: 0x103DFD0
     void $$m__Finally1();
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1243718
+    // Offset: 0x103DFB4
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x12437F4
+    // Offset: 0x103E090
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -63,17 +63,17 @@ namespace GlobalNamespace {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1244150
+    // Offset: 0x103E9EC
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator_1::get_Current()
     ::Il2CppObject* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1244158
+    // Offset: 0x103E9F4
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x12441B8
+    // Offset: 0x103EA54
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();

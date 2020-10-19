@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_DestroyOverlay : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1D67FA0
+    // Offset: 0x1AB9C04
     static IVROverlay::_DestroyOverlay* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle)
-    // Offset: 0x1D67FB4
+    // Offset: 0x1AB9C18
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1D6821C
+    // Offset: 0x1AB9E80
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1D682A8
+    // Offset: 0x1AB9F0C
     OVR::OpenVR::EVROverlayError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_DestroyOverlay
 }

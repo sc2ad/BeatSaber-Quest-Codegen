@@ -26,37 +26,37 @@ namespace GlobalNamespace {
     // Offset: 0x2C
     float time;
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0xF36518
+    // Offset: 0x1F9CEF4
     UnityEngine::Vector3 get_position();
     // private System.Void set_position(UnityEngine.Vector3 value)
-    // Offset: 0xF36524
+    // Offset: 0x1F9CF00
     void set_position(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_normal()
-    // Offset: 0xF36530
+    // Offset: 0x1F9CF0C
     UnityEngine::Vector3 get_normal();
     // private System.Void set_normal(UnityEngine.Vector3 value)
-    // Offset: 0xF3653C
+    // Offset: 0x1F9CF18
     void set_normal(UnityEngine::Vector3 value);
     // public System.Single get_distance()
-    // Offset: 0xF36548
+    // Offset: 0x1F9CF24
     float get_distance();
     // private System.Void set_distance(System.Single value)
-    // Offset: 0xF36550
+    // Offset: 0x1F9CF2C
     void set_distance(float value);
     // public System.Single get_time()
-    // Offset: 0xF36558
+    // Offset: 0x1F9CF34
     float get_time();
     // private System.Void set_time(System.Single value)
-    // Offset: 0xF36560
+    // Offset: 0x1F9CF3C
     void set_time(float value);
     // public System.Void SetData(UnityEngine.Vector3 start, UnityEngine.Vector3 end, System.Single time)
-    // Offset: 0xF36568
+    // Offset: 0x1F9CF44
     void SetData(UnityEngine::Vector3 start, UnityEngine::Vector3 end, float time);
     // public System.Void SetDistance(System.Single value)
-    // Offset: 0xF36668
+    // Offset: 0x1F9D044
     void SetDistance(float value);
     // public System.Void .ctor()
-    // Offset: 0xF36670
+    // Offset: 0x1F9D04C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TrailElement* New_ctor();

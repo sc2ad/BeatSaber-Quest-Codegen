@@ -38,13 +38,13 @@ namespace GlobalNamespace {
       return v;
     }
     // public System.Void .ctor(UnityEngine.Vector3 v)
-    // Offset: 0xDDC510
+    // Offset: 0xC89BA8
     // ABORTED: conflicts with another method.  Vector3Serializable(UnityEngine::Vector3 v);
     // public System.Void .ctor(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xDDC51C
+    // Offset: 0xC89BB4
     Vector3Serializable(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xDDC4D8
+    // Offset: 0xC89B70
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xDDC4E0
+    // Offset: 0xC89B78
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -60,22 +60,22 @@ namespace GlobalNamespace {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(Vector3Serializable other)
-    // Offset: 0xDDC4E8
+    // Offset: 0xC89B80
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(Vector3Serializable other)
     bool Equals(GlobalNamespace::Vector3Serializable other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xDDC4F0
+    // Offset: 0xC89B88
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xDDC4F8
+    // Offset: 0xC89B90
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0xDDC504
+    // Offset: 0xC89B9C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

@@ -96,18 +96,18 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: AuthenticationToken
     constexpr AuthenticationToken(GlobalNamespace::AuthenticationToken::Platform platform_ = {}, ::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, ::Array<uint8_t>* sessionToken_ = {}) noexcept : platform{platform_}, userId{userId_}, userName{userName_}, sessionToken{sessionToken_} {}
     // public System.Void .ctor(AuthenticationToken/Platform platform, System.String userId, System.String userName, System.Byte[] sessionToken)
-    // Offset: 0xDA3A3C
+    // Offset: 0xE4EE58
     // ABORTED: conflicts with another method.  AuthenticationToken(GlobalNamespace::AuthenticationToken::Platform platform, ::Il2CppString* userId, ::Il2CppString* userName, ::Array<uint8_t>* sessionToken);
     // static public AuthenticationToken Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x115A538
+    // Offset: 0x2154F50
     static GlobalNamespace::AuthenticationToken Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xDA3A44
+    // Offset: 0xE4EE60
     // Implemented from: LiteNetLib.Utils.INetImmutableSerializable`1
     // Base method: System.Void INetImmutableSerializable_1::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public AuthenticationToken CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xDA3A4C
+    // Offset: 0xE4EE68
     // Implemented from: LiteNetLib.Utils.INetImmutableSerializable`1
     // Base method: T INetImmutableSerializable_1::CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
     GlobalNamespace::AuthenticationToken CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);

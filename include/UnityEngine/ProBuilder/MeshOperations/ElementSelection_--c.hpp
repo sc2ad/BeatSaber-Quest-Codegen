@@ -93,40 +93,40 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Comparison`1<UnityEngine.ProBuilder.SimpleTuple`2<System.Int32,System.Int32>> <>9__23_0
     static void _set_$$9__23_0(System::Comparison_1<UnityEngine::ProBuilder::SimpleTuple_2<int, int>>* value);
     // static private System.Void .cctor()
-    // Offset: 0x13F71BC
+    // Offset: 0x11CC8F8
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> <GetPerimeterEdges>b__4_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x13F722C
+    // Offset: 0x11CC968
     System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* $GetPerimeterEdges$b__4_0(UnityEngine::ProBuilder::Face* x);
     // System.Boolean <GetPerimeterEdges>b__4_1(System.Collections.Generic.KeyValuePair`2<UnityEngine.ProBuilder.Edge,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge>> x)
-    // Offset: 0x13F7248
+    // Offset: 0x11CC984
     bool $GetPerimeterEdges$b__4_1(System::Collections::Generic::KeyValuePair_2<UnityEngine::ProBuilder::Edge, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge>*> x);
     // UnityEngine.ProBuilder.Edge <GetPerimeterEdges>b__4_2(System.Collections.Generic.KeyValuePair`2<UnityEngine.ProBuilder.Edge,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge>> x)
-    // Offset: 0x13F729C
+    // Offset: 0x11CC9D8
     UnityEngine::ProBuilder::Edge $GetPerimeterEdges$b__4_2(System::Collections::Generic::KeyValuePair_2<UnityEngine::ProBuilder::Edge, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge>*> x);
     // System.Boolean <GetPerimeterFaces>b__6_0(System.Collections.Generic.KeyValuePair`2<UnityEngine.ProBuilder.Edge,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face>> x)
-    // Offset: 0x13F72FC
+    // Offset: 0x11CCA38
     bool $GetPerimeterFaces$b__6_0(System::Collections::Generic::KeyValuePair_2<UnityEngine::ProBuilder::Edge, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>*> x);
     // UnityEngine.ProBuilder.Face <GetPerimeterFaces>b__6_1(System.Collections.Generic.KeyValuePair`2<UnityEngine.ProBuilder.Edge,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face>> x)
-    // Offset: 0x13F7350
+    // Offset: 0x11CCA8C
     UnityEngine::ProBuilder::Face* $GetPerimeterFaces$b__6_1(System::Collections::Generic::KeyValuePair_2<UnityEngine::ProBuilder::Edge, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>*> x);
     // UnityEngine.ProBuilder.Edge <GetEdgeRing>b__9_0(UnityEngine.ProBuilder.EdgeLookup x)
-    // Offset: 0x13F73B0
+    // Offset: 0x11CCAEC
     UnityEngine::ProBuilder::Edge $GetEdgeRing$b__9_0(UnityEngine::ProBuilder::EdgeLookup x);
     // UnityEngine.ProBuilder.Edge <GetEdgeLoop>b__10_0(UnityEngine.ProBuilder.EdgeLookup x)
-    // Offset: 0x13F73B8
+    // Offset: 0x11CCAF4
     UnityEngine::ProBuilder::Edge $GetEdgeLoop$b__10_0(UnityEngine::ProBuilder::EdgeLookup x);
     // UnityEngine.ProBuilder.Edge <GetEdgeLoopInternal>b__11_0(UnityEngine.ProBuilder.WingedEdge x)
-    // Offset: 0x13F73C0
+    // Offset: 0x11CCAFC
     UnityEngine::ProBuilder::Edge $GetEdgeLoopInternal$b__11_0(UnityEngine::ProBuilder::WingedEdge* x);
     // UnityEngine.ProBuilder.Edge <FindHoles>b__22_0(UnityEngine.ProBuilder.WingedEdge x)
-    // Offset: 0x13F73D8
+    // Offset: 0x11CCB14
     UnityEngine::ProBuilder::Edge $FindHoles$b__22_0(UnityEngine::ProBuilder::WingedEdge* x);
     // System.Int32 <FindHoles>b__23_0(UnityEngine.ProBuilder.SimpleTuple`2<System.Int32,System.Int32> x, UnityEngine.ProBuilder.SimpleTuple`2<System.Int32,System.Int32> y)
-    // Offset: 0x13F73F0
+    // Offset: 0x11CCB2C
     int $FindHoles$b__23_0(UnityEngine::ProBuilder::SimpleTuple_2<int, int> x, UnityEngine::ProBuilder::SimpleTuple_2<int, int> y);
     // public System.Void .ctor()
-    // Offset: 0x13F7224
+    // Offset: 0x11CC960
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ElementSelection::$$c* New_ctor();

@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     bool lastCellInParty;
     // public System.Void .ctor()
-    // Offset: 0xF10E0C
+    // Offset: 0x1FE5CC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NetworkPlayersTableView::CellInfo* New_ctor();

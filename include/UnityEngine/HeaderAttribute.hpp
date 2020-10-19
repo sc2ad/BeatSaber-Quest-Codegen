@@ -21,7 +21,7 @@ namespace UnityEngine {
       return header;
     }
     // public System.Void .ctor(System.String header)
-    // Offset: 0x19F14FC
+    // Offset: 0x1797920
     static HeaderAttribute* New_ctor(::Il2CppString* header);
   }; // UnityEngine.HeaderAttribute
 }

@@ -28,13 +28,13 @@ namespace MasterServer {
     // Offset: 0x30
     int sampleCount;
     // public System.Void .ctor(System.String metricName, MasterServer.AnalyticsMetricUnit unit)
-    // Offset: 0x1169914
+    // Offset: 0x21642FC
     static BaseAnalyticsManager::AverageMetric* New_ctor(::Il2CppString* metricName, MasterServer::AnalyticsMetricUnit unit);
     // public System.Void AddSample(System.Double sample)
-    // Offset: 0x1169920
+    // Offset: 0x2164308
     void AddSample(double sample);
     // public override System.Double GetValueAndReset()
-    // Offset: 0x116B310
+    // Offset: 0x2165CF8
     // Implemented from: MasterServer.BaseAnalyticsManager/AnalyticsMetric
     // Base method: System.Double AnalyticsMetric::GetValueAndReset()
     double GetValueAndReset();

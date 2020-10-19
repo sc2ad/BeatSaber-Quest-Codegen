@@ -24,18 +24,18 @@ namespace System {
     // Offset: 0x18
     ::Il2CppString* internal_name;
     // System.Void .ctor(System.String displayName)
-    // Offset: 0x1960B14
+    // Offset: 0x1707F38
     static TypeIdentifiers::Display* New_ctor(::Il2CppString* displayName);
     // private System.String GetInternalName()
-    // Offset: 0x1960BAC
+    // Offset: 0x1707FD0
     ::Il2CppString* GetInternalName();
     // public override System.String get_DisplayName()
-    // Offset: 0x1960B60
+    // Offset: 0x1707F84
     // Implemented from: System.TypeNames/ATypeName
     // Base method: System.String ATypeName::get_DisplayName()
     ::Il2CppString* get_DisplayName();
     // public System.String get_InternalName()
-    // Offset: 0x1960B68
+    // Offset: 0x1707F8C
     // Implemented from: System.TypeIdentifier
     // Base method: System.String TypeIdentifier::get_InternalName()
     ::Il2CppString* get_InternalName();

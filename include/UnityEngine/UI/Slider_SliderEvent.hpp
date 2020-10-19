@@ -16,7 +16,7 @@ namespace UnityEngine::UI {
   class Slider::SliderEvent : public UnityEngine::Events::UnityEvent_1<float> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x21D95E0
+    // Offset: 0x1F2E244
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

@@ -76,37 +76,37 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didSelectCellEvent(System.Action`2<HMUI.SegmentedControl,System.Int32> value)
-    // Offset: 0x1179AEC
+    // Offset: 0x21734D4
     void add_didSelectCellEvent(System::Action_2<HMUI::SegmentedControl*, int>* value);
     // public System.Void remove_didSelectCellEvent(System.Action`2<HMUI.SegmentedControl,System.Int32> value)
-    // Offset: 0x1179B90
+    // Offset: 0x2173578
     void remove_didSelectCellEvent(System::Action_2<HMUI::SegmentedControl*, int>* value);
     // public HMUI.SegmentedControl/IDataSource get_dataSource()
-    // Offset: 0x1179C34
+    // Offset: 0x217361C
     HMUI::SegmentedControl::IDataSource* get_dataSource();
     // public System.Void set_dataSource(HMUI.SegmentedControl/IDataSource value)
-    // Offset: 0x1179C3C
+    // Offset: 0x2173624
     void set_dataSource(HMUI::SegmentedControl::IDataSource* value);
     // public System.Int32 get_selectedCellNumber()
-    // Offset: 0x1179F88
+    // Offset: 0x2173970
     int get_selectedCellNumber();
     // private System.Void CreateCells()
-    // Offset: 0x1179F90
+    // Offset: 0x2173978
     void CreateCells();
     // private System.Void HandleCellSelectionDidChange(HMUI.SelectableCell selectableCell, HMUI.SelectableCell/TransitionType transitionType, System.Object changeOwner)
-    // Offset: 0x117A5C4
+    // Offset: 0x2173FAC
     void HandleCellSelectionDidChange(HMUI::SelectableCell* selectableCell, HMUI::SelectableCell::TransitionType transitionType, ::Il2CppObject* changeOwner);
     // public System.Void SetCallbackForCell(System.Int32 cellNumber, System.Action`1<System.Int32> callback)
-    // Offset: 0x117A71C
+    // Offset: 0x2174104
     void SetCallbackForCell(int cellNumber, System::Action_1<int>* callback);
     // public System.Void ReloadData()
-    // Offset: 0x1179C64
+    // Offset: 0x217364C
     void ReloadData();
     // public System.Void SelectCellWithNumber(System.Int32 selectCellNumber)
-    // Offset: 0x117A78C
+    // Offset: 0x2174174
     void SelectCellWithNumber(int selectCellNumber);
     // public System.Void .ctor()
-    // Offset: 0x117A848
+    // Offset: 0x2174230
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

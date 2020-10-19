@@ -21,18 +21,18 @@ namespace Oculus::Platform {
       return Handle;
     }
     // public System.Void SetDeeplinkMessage(System.String value)
-    // Offset: 0x1DC1670
+    // Offset: 0x1B152D4
     void SetDeeplinkMessage(::Il2CppString* value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.ApplicationOptions options)
-    // Offset: 0x1DC1330
+    // Offset: 0x1B14F94
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x1DC1588
+    // Offset: 0x1B151EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ApplicationOptions* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x1DC1794
+    // Offset: 0x1B153F8
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

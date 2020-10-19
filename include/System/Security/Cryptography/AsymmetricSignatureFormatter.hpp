@@ -12,7 +12,7 @@ namespace System::Security::Cryptography {
   class AsymmetricSignatureFormatter : public ::Il2CppObject {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x16B1F8C
+    // Offset: 0x146CB60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AsymmetricSignatureFormatter* New_ctor();

@@ -12,13 +12,13 @@ namespace NUnit::Framework {
   class Guard : public ::Il2CppObject {
     public:
     // static public System.Void ArgumentNotNull(System.Object value, System.String name)
-    // Offset: 0x15EA66C
+    // Offset: 0x13C0E94
     static void ArgumentNotNull(::Il2CppObject* value, ::Il2CppString* name);
     // static public System.Void ArgumentNotNullOrEmpty(System.String value, System.String name)
-    // Offset: 0x15EA720
+    // Offset: 0x13C0F48
     static void ArgumentNotNullOrEmpty(::Il2CppString* value, ::Il2CppString* name);
     // static public System.Void ArgumentValid(System.Boolean condition, System.String message, System.String paramName)
-    // Offset: 0x15EA800
+    // Offset: 0x13C1028
     static void ArgumentValid(bool condition, ::Il2CppString* message, ::Il2CppString* paramName);
   }; // NUnit.Framework.Guard
 }

@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_ReleaseNativeOverlayHandle : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1D714B8
+    // Offset: 0x1AC311C
     static IVROverlay::_ReleaseNativeOverlayHandle* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, System.IntPtr pNativeTextureHandle)
-    // Offset: 0x1D714CC
+    // Offset: 0x1AC3130
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, System::IntPtr pNativeTextureHandle);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.IntPtr pNativeTextureHandle, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1D71750
+    // Offset: 0x1AC33B4
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, System::IntPtr pNativeTextureHandle, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1D717F8
+    // Offset: 0x1AC345C
     OVR::OpenVR::EVROverlayError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_ReleaseNativeOverlayHandle
 }

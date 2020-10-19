@@ -41,10 +41,10 @@ namespace GlobalNamespace {
       return color;
     }
     // public System.Void .ctor(UnityEngine.Color color)
-    // Offset: 0xDDBEA4
+    // Offset: 0xC8953C
     // ABORTED: conflicts with another method.  ColorSerializable(UnityEngine::Color color);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xDDBEB0
+    // Offset: 0xC89548
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xDDBEB8
+    // Offset: 0xC89550
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -60,22 +60,22 @@ namespace GlobalNamespace {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(ColorSerializable other)
-    // Offset: 0xDDBEC0
+    // Offset: 0xC89558
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(ColorSerializable other)
     bool Equals(GlobalNamespace::ColorSerializable other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xDDBEC8
+    // Offset: 0xC89560
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xDDBED0
+    // Offset: 0xC89568
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0xDDBEDC
+    // Offset: 0xC89574
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

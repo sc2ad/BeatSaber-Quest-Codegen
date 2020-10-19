@@ -31,22 +31,22 @@ namespace Mono::Security::Authenticode {
     // Offset: 0x24
     int keyType;
     // public System.Void .ctor(System.Byte[] data, System.String password)
-    // Offset: 0x1B7F8A4
+    // Offset: 0x1921A98
     static PrivateKey* New_ctor(::Array<uint8_t>* data, ::Il2CppString* password);
     // public System.Security.Cryptography.RSA get_RSA()
-    // Offset: 0x1B7FE38
+    // Offset: 0x192202C
     System::Security::Cryptography::RSA* get_RSA();
     // private System.Byte[] DeriveKey(System.Byte[] salt, System.String password)
-    // Offset: 0x1B7FE40
+    // Offset: 0x1922034
     ::Array<uint8_t>* DeriveKey(::Array<uint8_t>* salt, ::Il2CppString* password);
     // private System.Boolean Decode(System.Byte[] pvk, System.String password)
-    // Offset: 0x1B7F994
+    // Offset: 0x1921B88
     bool Decode(::Array<uint8_t>* pvk, ::Il2CppString* password);
     // static public Mono.Security.Authenticode.PrivateKey CreateFromFile(System.String filename)
-    // Offset: 0x1B80028
+    // Offset: 0x192221C
     static Mono::Security::Authenticode::PrivateKey* CreateFromFile(::Il2CppString* filename);
     // static public Mono.Security.Authenticode.PrivateKey CreateFromFile(System.String filename, System.String password)
-    // Offset: 0x1B80030
+    // Offset: 0x1922224
     static Mono::Security::Authenticode::PrivateKey* CreateFromFile(::Il2CppString* filename, ::Il2CppString* password);
   }; // Mono.Security.Authenticode.PrivateKey
 }

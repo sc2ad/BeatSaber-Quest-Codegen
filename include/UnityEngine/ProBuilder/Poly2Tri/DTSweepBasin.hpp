@@ -34,7 +34,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Offset: 0x30
     bool leftHighest;
     // public System.Void .ctor()
-    // Offset: 0x21C6354
+    // Offset: 0x1F19FB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DTSweepBasin* New_ctor();

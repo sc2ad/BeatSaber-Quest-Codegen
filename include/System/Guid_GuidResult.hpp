@@ -50,22 +50,22 @@ namespace System {
     // Creating value type constructor for type: GuidResult
     constexpr GuidResult(System::Guid parsedGuid_ = {}, System::Guid::GuidParseThrowStyle throwStyle_ = {}, System::Guid::ParseFailureKind m_failure_ = {}, ::Il2CppString* m_failureMessageID_ = {}, ::Il2CppObject* m_failureMessageFormatArgument_ = {}, ::Il2CppString* m_failureArgumentName_ = {}, System::Exception* m_innerException_ = {}) noexcept : parsedGuid{parsedGuid_}, throwStyle{throwStyle_}, m_failure{m_failure_}, m_failureMessageID{m_failureMessageID_}, m_failureMessageFormatArgument{m_failureMessageFormatArgument_}, m_failureArgumentName{m_failureArgumentName_}, m_innerException{m_innerException_} {}
     // System.Void Init(System.Guid/GuidParseThrowStyle canThrow)
-    // Offset: 0xDB9FC4
+    // Offset: 0xC703E4
     void Init(System::Guid::GuidParseThrowStyle canThrow);
     // System.Void SetFailure(System.Exception nativeException)
-    // Offset: 0xDB9FCC
+    // Offset: 0xC703EC
     void SetFailure(System::Exception* nativeException);
     // System.Void SetFailure(System.Guid/ParseFailureKind failure, System.String failureMessageID)
-    // Offset: 0xDB9FDC
+    // Offset: 0xC703FC
     void SetFailure(System::Guid::ParseFailureKind failure, ::Il2CppString* failureMessageID);
     // System.Void SetFailure(System.Guid/ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument)
-    // Offset: 0xDB9FF0
+    // Offset: 0xC70410
     void SetFailure(System::Guid::ParseFailureKind failure, ::Il2CppString* failureMessageID, ::Il2CppObject* failureMessageFormatArgument);
     // System.Void SetFailure(System.Guid/ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument, System.String failureArgumentName, System.Exception innerException)
-    // Offset: 0xDBA000
+    // Offset: 0xC70420
     void SetFailure(System::Guid::ParseFailureKind failure, ::Il2CppString* failureMessageID, ::Il2CppObject* failureMessageFormatArgument, ::Il2CppString* failureArgumentName, System::Exception* innerException);
     // System.Exception GetGuidParseException()
-    // Offset: 0xDBA008
+    // Offset: 0xC70428
     System::Exception* GetGuidParseException();
   }; // System.Guid/GuidResult
 }

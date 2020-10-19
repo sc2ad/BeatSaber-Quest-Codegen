@@ -35,17 +35,17 @@ namespace Org::BouncyCastle::Utilities::Collections {
       return impl;
     }
     // public System.Void .ctor()
-    // Offset: 0x11EA574
+    // Offset: 0xFE5E10
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HashSet* New_ctor();
     // public System.Void Add(System.Object o)
-    // Offset: 0x11EA5F4
+    // Offset: 0xFE5E90
     // Implemented from: Org.BouncyCastle.Utilities.Collections.ISet
     // Base method: System.Void ISet::Add(System.Object o)
     void Add(::Il2CppObject* o);
     // public System.Void CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x11EA6BC
+    // Offset: 0xFE5F58
     // Implemented from: System.Collections.ICollection
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
     void CopyTo(System::Array* array, int index);
@@ -53,7 +53,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Maps to method: CopyTo
     void System_Collections_ICollection_CopyTo(System::Array* array, int index);
     // public System.Int32 get_Count()
-    // Offset: 0x11EA7F8
+    // Offset: 0xFE6094
     // Implemented from: System.Collections.ICollection
     // Base method: System.Int32 ICollection::get_Count()
     int get_Count();
@@ -61,7 +61,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Maps to method: get_Count
     int System_Collections_ICollection_get_Count();
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x11EA8AC
+    // Offset: 0xFE6148
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* GetEnumerator();

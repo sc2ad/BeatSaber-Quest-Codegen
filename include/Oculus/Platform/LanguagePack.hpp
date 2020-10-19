@@ -27,10 +27,10 @@ namespace Oculus::Platform {
   class LanguagePack : public ::Il2CppObject {
     public:
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AssetDetails> GetCurrent()
-    // Offset: 0x135AAF4
+    // Offset: 0x1130230
     static Oculus::Platform::Request_1<Oculus::Platform::Models::AssetDetails*>* GetCurrent();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AssetFileDownloadResult> SetCurrent(System.String tag)
-    // Offset: 0x135AC00
+    // Offset: 0x113033C
     static Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDownloadResult*>* SetCurrent(::Il2CppString* tag);
   }; // Oculus.Platform.LanguagePack
 }

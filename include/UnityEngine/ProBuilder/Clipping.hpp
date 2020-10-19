@@ -24,10 +24,10 @@ namespace UnityEngine::ProBuilder {
     // Nested type: UnityEngine::ProBuilder::Clipping::OutCode
     struct OutCode;
     // static private UnityEngine.ProBuilder.Clipping/OutCode ComputeOutCode(UnityEngine.Rect rect, System.Single x, System.Single y)
-    // Offset: 0x1D93A8C
+    // Offset: 0x1AE66F0
     static UnityEngine::ProBuilder::Clipping::OutCode ComputeOutCode(UnityEngine::Rect rect, float x, float y);
     // static System.Boolean RectContainsLineSegment(UnityEngine.Rect rect, System.Single x0, System.Single y0, System.Single x1, System.Single y1)
-    // Offset: 0x1D93B34
+    // Offset: 0x1AE6798
     static bool RectContainsLineSegment(UnityEngine::Rect rect, float x0, float y0, float x1, float y1);
   }; // UnityEngine.ProBuilder.Clipping
 }

@@ -70,35 +70,35 @@ namespace GlobalNamespace {
     // Offset: 0x1C
     int referenceValue;
     // public MissionObjectiveTypeSO get_type()
-    // Offset: 0xEE27B8
+    // Offset: 0x1FCC380
     GlobalNamespace::MissionObjectiveTypeSO* get_type();
     // public MissionObjective/ReferenceValueComparisonType get_referenceValueComparisonType()
-    // Offset: 0xEE27C0
+    // Offset: 0x1FCC388
     GlobalNamespace::MissionObjective::ReferenceValueComparisonType get_referenceValueComparisonType();
     // public System.Int32 get_referenceValue()
-    // Offset: 0xEE27C8
+    // Offset: 0x1FCC390
     int get_referenceValue();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xEE28B8
+    // Offset: 0x1FCC480
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xEE29C8
+    // Offset: 0x1FCC590
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public System.Void .ctor()
-    // Offset: 0xEE2A38
+    // Offset: 0x1FCC600
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MissionObjective* New_ctor();
   }; // MissionObjective
   // static public System.Boolean op_Equality(MissionObjective obj1, MissionObjective obj2)
-  // Offset: 0xEE27D0
+  // Offset: 0x1FCC398
   bool operator ==(GlobalNamespace::MissionObjective* obj1, GlobalNamespace::MissionObjective& obj2);
   // static public System.Boolean op_Inequality(MissionObjective obj1, MissionObjective obj2)
-  // Offset: 0xEE289C
+  // Offset: 0x1FCC464
   bool operator !=(GlobalNamespace::MissionObjective* obj1, GlobalNamespace::MissionObjective& obj2);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

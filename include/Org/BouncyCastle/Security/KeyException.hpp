@@ -14,14 +14,14 @@ namespace Org::BouncyCastle::Security {
   class KeyException : public Org::BouncyCastle::Security::GeneralSecurityException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x11CDE94
+    // Offset: 0xFC9730
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static KeyException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x11CDE9C
+    // Offset: 0xFC9738
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)

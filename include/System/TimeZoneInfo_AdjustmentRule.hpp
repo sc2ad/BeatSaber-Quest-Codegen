@@ -53,54 +53,54 @@ namespace System {
     // Offset: 0x58
     System::TimeSpan m_baseUtcOffsetDelta;
     // public System.DateTime get_DateStart()
-    // Offset: 0x195B8F8
+    // Offset: 0x1702D1C
     System::DateTime get_DateStart();
     // public System.DateTime get_DateEnd()
-    // Offset: 0x195B900
+    // Offset: 0x1702D24
     System::DateTime get_DateEnd();
     // public System.TimeSpan get_DaylightDelta()
-    // Offset: 0x195B908
+    // Offset: 0x1702D2C
     System::TimeSpan get_DaylightDelta();
     // public System.TimeZoneInfo/TransitionTime get_DaylightTransitionStart()
-    // Offset: 0x195B910
+    // Offset: 0x1702D34
     System::TimeZoneInfo::TransitionTime get_DaylightTransitionStart();
     // public System.TimeZoneInfo/TransitionTime get_DaylightTransitionEnd()
-    // Offset: 0x195B924
+    // Offset: 0x1702D48
     System::TimeZoneInfo::TransitionTime get_DaylightTransitionEnd();
     // static public System.TimeZoneInfo/AdjustmentRule CreateAdjustmentRule(System.DateTime dateStart, System.DateTime dateEnd, System.TimeSpan daylightDelta, System.TimeZoneInfo/TransitionTime daylightTransitionStart, System.TimeZoneInfo/TransitionTime daylightTransitionEnd)
-    // Offset: 0x19535BC
+    // Offset: 0x16FA9E0
     static System::TimeZoneInfo::AdjustmentRule* CreateAdjustmentRule(System::DateTime dateStart, System::DateTime dateEnd, System::TimeSpan daylightDelta, System::TimeZoneInfo::TransitionTime daylightTransitionStart, System::TimeZoneInfo::TransitionTime daylightTransitionEnd);
     // static System.TimeZoneInfo/AdjustmentRule CreateAdjustmentRule(System.DateTime dateStart, System.DateTime dateEnd, System.TimeSpan daylightDelta, System.TimeZoneInfo/TransitionTime daylightTransitionStart, System.TimeZoneInfo/TransitionTime daylightTransitionEnd, System.TimeSpan baseUtcOffsetDelta)
-    // Offset: 0x1954344
+    // Offset: 0x16FB768
     static System::TimeZoneInfo::AdjustmentRule* CreateAdjustmentRule(System::DateTime dateStart, System::DateTime dateEnd, System::TimeSpan daylightDelta, System::TimeZoneInfo::TransitionTime daylightTransitionStart, System::TimeZoneInfo::TransitionTime daylightTransitionEnd, System::TimeSpan baseUtcOffsetDelta);
     // static private System.Void ValidateAdjustmentRule(System.DateTime dateStart, System.DateTime dateEnd, System.TimeSpan daylightDelta, System.TimeZoneInfo/TransitionTime daylightTransitionStart, System.TimeZoneInfo/TransitionTime daylightTransitionEnd)
-    // Offset: 0x195B94C
+    // Offset: 0x1702D70
     static void ValidateAdjustmentRule(System::DateTime dateStart, System::DateTime dateEnd, System::TimeSpan daylightDelta, System::TimeZoneInfo::TransitionTime daylightTransitionStart, System::TimeZoneInfo::TransitionTime daylightTransitionEnd);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x195BF9C
+    // Offset: 0x17033C0
     static TimeZoneInfo::AdjustmentRule* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Boolean Equals(System.TimeZoneInfo/AdjustmentRule other)
-    // Offset: 0x19596D8
+    // Offset: 0x1700AFC
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(System.TimeZoneInfo/AdjustmentRule other)
     bool Equals(System::TimeZoneInfo::AdjustmentRule* other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x195B938
+    // Offset: 0x1702D5C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // private System.Void .ctor()
-    // Offset: 0x195B944
+    // Offset: 0x1702D68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TimeZoneInfo::AdjustmentRule* New_ctor();
     // private System.Void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object sender)
-    // Offset: 0x195BCAC
+    // Offset: 0x17030D0
     // Implemented from: System.Runtime.Serialization.IDeserializationCallback
     // Base method: System.Void IDeserializationCallback::OnDeserialization(System.Object sender)
     void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::Il2CppObject* sender);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x195BDF0
+    // Offset: 0x1703214
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);

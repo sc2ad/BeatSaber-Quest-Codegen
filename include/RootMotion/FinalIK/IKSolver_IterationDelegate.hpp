@@ -26,16 +26,16 @@ namespace RootMotion::FinalIK {
   class IKSolver::IterationDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1AA9EE0
+    // Offset: 0x18490D4
     static IKSolver::IterationDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Int32 i)
-    // Offset: 0x1AA9EF4
+    // Offset: 0x18490E8
     void Invoke(int i);
     // public System.IAsyncResult BeginInvoke(System.Int32 i, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1AAA160
+    // Offset: 0x1849354
     System::IAsyncResult* BeginInvoke(int i, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1AAA1EC
+    // Offset: 0x18493E0
     void EndInvoke(System::IAsyncResult* result);
   }; // RootMotion.FinalIK.IKSolver/IterationDelegate
 }

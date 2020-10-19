@@ -29,31 +29,31 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set static field: static private System.String[] newline_split
     static void _set_newline_split(::Array<::Il2CppString*>* value);
     // public System.Void .ctor(System.Security.Cryptography.X509Certificates.X509Certificate2Collection certificates)
-    // Offset: 0x16BA824
+    // Offset: 0x14753F8
     static X509Certificate2Collection* New_ctor(System::Security::Cryptography::X509Certificates::X509Certificate2Collection* certificates);
     // public System.Security.Cryptography.X509Certificates.X509Certificate2 get_Item(System.Int32 index)
-    // Offset: 0x16BA904
+    // Offset: 0x14754D8
     System::Security::Cryptography::X509Certificates::X509Certificate2* get_Item(int index);
     // public System.Int32 Add(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x16BAA38
+    // Offset: 0x147560C
     int Add(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // public System.Void AddRange(System.Security.Cryptography.X509Certificates.X509Certificate2Collection certificates)
-    // Offset: 0x16BA854
+    // Offset: 0x1475428
     void AddRange(System::Security::Cryptography::X509Certificates::X509Certificate2Collection* certificates);
     // public System.Boolean Contains(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x16BAAE8
+    // Offset: 0x14756BC
     bool Contains(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // public System.Security.Cryptography.X509Certificates.X509Certificate2Collection Find(System.Security.Cryptography.X509Certificates.X509FindType findType, System.Object findValue, System.Boolean validOnly)
-    // Offset: 0x16BAE24
+    // Offset: 0x14759F8
     System::Security::Cryptography::X509Certificates::X509Certificate2Collection* Find(System::Security::Cryptography::X509Certificates::X509FindType findType, ::Il2CppObject* findValue, bool validOnly);
     // public System.Security.Cryptography.X509Certificates.X509Certificate2Enumerator GetEnumerator()
-    // Offset: 0x16BC294
+    // Offset: 0x1476E68
     System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator* GetEnumerator();
     // static private System.Void .cctor()
-    // Offset: 0x16BC3C8
+    // Offset: 0x1476F9C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x16BA814
+    // Offset: 0x14753E8
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateCollection
     // Base method: System.Void X509CertificateCollection::.ctor()
     // Base method: System.Void CollectionBase::.ctor()

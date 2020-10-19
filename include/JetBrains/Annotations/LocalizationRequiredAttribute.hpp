@@ -21,16 +21,16 @@ namespace JetBrains::Annotations {
       return Required;
     }
     // public System.Void .ctor(System.Boolean required)
-    // Offset: 0x220C1E4
+    // Offset: 0x1F5CBF4
     static LocalizationRequiredAttribute* New_ctor(bool required);
     // public System.Boolean get_Required()
-    // Offset: 0x220C214
+    // Offset: 0x1F5CC24
     bool get_Required();
     // private System.Void set_Required(System.Boolean value)
-    // Offset: 0x220C21C
+    // Offset: 0x1F5CC2C
     void set_Required(bool value);
     // public System.Void .ctor()
-    // Offset: 0x220C1B8
+    // Offset: 0x1F5CBC8
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -25,38 +25,38 @@ namespace GlobalNamespace {
     // Offset: 0x110
     float minMoveMagnitude;
     // public System.Void .ctor()
-    // Offset: 0x130F5FC
+    // Offset: 0x10E4D38
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::.ctor()
     // Base method: System.Void Object::.ctor()
     static OVRInput::OVRControllerTouchpad* New_ctor();
     // public override OVRInput/Controller Update()
-    // Offset: 0x1318610
+    // Offset: 0x10EDD4C
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: OVRInput/Controller OVRControllerBase::Update()
     GlobalNamespace::OVRInput::Controller Update();
     // public override System.Void ConfigureButtonMap()
-    // Offset: 0x13187CC
+    // Offset: 0x10EDF08
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureButtonMap()
     void ConfigureButtonMap();
     // public override System.Void ConfigureTouchMap()
-    // Offset: 0x13189A0
+    // Offset: 0x10EE0DC
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureTouchMap()
     void ConfigureTouchMap();
     // public override System.Void ConfigureNearTouchMap()
-    // Offset: 0x1318A58
+    // Offset: 0x10EE194
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureNearTouchMap()
     void ConfigureNearTouchMap();
     // public override System.Void ConfigureAxis1DMap()
-    // Offset: 0x1318AA8
+    // Offset: 0x10EE1E4
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureAxis1DMap()
     void ConfigureAxis1DMap();
     // public override System.Void ConfigureAxis2DMap()
-    // Offset: 0x1318AF8
+    // Offset: 0x10EE234
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureAxis2DMap()
     void ConfigureAxis2DMap();

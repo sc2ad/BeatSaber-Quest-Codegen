@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRApplications::_GetApplicationSupportedMimeTypes : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1383BE4
+    // Offset: 0x1159320
     static IVRApplications::_GetApplicationSupportedMimeTypes* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.String pchAppKey, System.Text.StringBuilder pchMimeTypesBuffer, System.UInt32 unMimeTypesBuffer)
-    // Offset: 0x1377740
+    // Offset: 0x114CE7C
     bool Invoke(::Il2CppString* pchAppKey, System::Text::StringBuilder* pchMimeTypesBuffer, uint unMimeTypesBuffer);
     // public System.IAsyncResult BeginInvoke(System.String pchAppKey, System.Text.StringBuilder pchMimeTypesBuffer, System.UInt32 unMimeTypesBuffer, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1383BF8
+    // Offset: 0x1159334
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchAppKey, System::Text::StringBuilder* pchMimeTypesBuffer, uint unMimeTypesBuffer, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1383C98
+    // Offset: 0x11593D4
     bool EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRApplications/_GetApplicationSupportedMimeTypes
 }

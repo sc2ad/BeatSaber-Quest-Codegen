@@ -21,10 +21,10 @@ namespace Zenject {
   class FixedTickablesTaskUpdater : public Zenject::TaskUpdater_1<Zenject::IFixedTickable*> {
     public:
     // protected System.Void UpdateItem(Zenject.IFixedTickable task)
-    // Offset: 0x144BF10
+    // Offset: 0x122264C
     void UpdateItem(Zenject::IFixedTickable* task);
     // public System.Void .ctor()
-    // Offset: 0x144BFBC
+    // Offset: 0x12226F8
     // Implemented from: Zenject.TaskUpdater`1
     // Base method: System.Void TaskUpdater_1::.ctor()
     // Base method: System.Void Object::.ctor()

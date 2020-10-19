@@ -33,22 +33,22 @@ namespace System::Net {
       return m_credentials;
     }
     // public System.Void .ctor()
-    // Offset: 0x14E306C
+    // Offset: 0x12B8894
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EmptyWebProxy* New_ctor();
     // public System.Uri GetProxy(System.Uri uri)
-    // Offset: 0x14E3074
+    // Offset: 0x12B889C
     // Implemented from: System.Net.IWebProxy
     // Base method: System.Uri IWebProxy::GetProxy(System.Uri uri)
     System::Uri* GetProxy(System::Uri* uri);
     // public System.Boolean IsBypassed(System.Uri uri)
-    // Offset: 0x14E307C
+    // Offset: 0x12B88A4
     // Implemented from: System.Net.IWebProxy
     // Base method: System.Boolean IWebProxy::IsBypassed(System.Uri uri)
     bool IsBypassed(System::Uri* uri);
     // public System.Net.ICredentials get_Credentials()
-    // Offset: 0x14E3084
+    // Offset: 0x12B88AC
     // Implemented from: System.Net.IWebProxy
     // Base method: System.Net.ICredentials IWebProxy::get_Credentials()
     System::Net::ICredentials* get_Credentials();

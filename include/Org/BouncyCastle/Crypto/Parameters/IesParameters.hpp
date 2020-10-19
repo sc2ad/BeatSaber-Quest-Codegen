@@ -23,13 +23,13 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x20
     int macKeySize;
     // public System.Byte[] GetDerivationV()
-    // Offset: 0x10F265C
+    // Offset: 0xF4D2EC
     ::Array<uint8_t>* GetDerivationV();
     // public System.Byte[] GetEncodingV()
-    // Offset: 0x10F2664
+    // Offset: 0xF4D2F4
     ::Array<uint8_t>* GetEncodingV();
     // public System.Int32 get_MacKeySize()
-    // Offset: 0x10F266C
+    // Offset: 0xF4D2FC
     int get_MacKeySize();
   }; // Org.BouncyCastle.Crypto.Parameters.IesParameters
 }

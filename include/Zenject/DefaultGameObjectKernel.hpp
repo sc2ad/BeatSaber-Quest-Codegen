@@ -14,7 +14,7 @@ namespace Zenject {
   class DefaultGameObjectKernel : public Zenject::MonoKernel {
     public:
     // public System.Void .ctor()
-    // Offset: 0x11FC31C
+    // Offset: 0xFF7BB8
     // Implemented from: Zenject.MonoKernel
     // Base method: System.Void MonoKernel::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -47,22 +47,22 @@ namespace System::Net::Http::Headers {
     // Set static field: static public System.Predicate`1<System.Net.Http.Headers.TransferCodingHeaderValue> <>9__71_0
     static void _set_$$9__71_0(System::Predicate_1<System::Net::Http::Headers::TransferCodingHeaderValue*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x13A4934
+    // Offset: 0x117A070
     static void _cctor();
     // System.Boolean <get_ConnectionClose>b__19_0(System.String l)
-    // Offset: 0x13A49A4
+    // Offset: 0x117A0E0
     bool $get_ConnectionClose$b__19_0(::Il2CppString* l);
     // System.Boolean <get_ConnectionKeepAlive>b__22_0(System.String l)
-    // Offset: 0x13A49FC
+    // Offset: 0x117A138
     bool $get_ConnectionKeepAlive$b__22_0(::Il2CppString* l);
     // System.Boolean <get_ExpectContinue>b__29_0(System.Net.Http.Headers.TransferCodingHeaderValue l)
-    // Offset: 0x13A4A54
+    // Offset: 0x117A190
     bool $get_ExpectContinue$b__29_0(System::Net::Http::Headers::TransferCodingHeaderValue* l);
     // System.Boolean <get_TransferEncodingChunked>b__71_0(System.Net.Http.Headers.TransferCodingHeaderValue l)
-    // Offset: 0x13A4AB4
+    // Offset: 0x117A1F0
     bool $get_TransferEncodingChunked$b__71_0(System::Net::Http::Headers::TransferCodingHeaderValue* l);
     // public System.Void .ctor()
-    // Offset: 0x13A499C
+    // Offset: 0x117A0D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HttpRequestHeaders::$$c* New_ctor();

@@ -14,10 +14,10 @@ namespace UnityEngine {
   class AudioLowPassFilter : public UnityEngine::Behaviour {
     public:
     // public System.Single get_cutoffFrequency()
-    // Offset: 0x220A2AC
+    // Offset: 0x1F5ACBC
     float get_cutoffFrequency();
     // public System.Void set_cutoffFrequency(System.Single value)
-    // Offset: 0x220A2EC
+    // Offset: 0x1F5ACFC
     void set_cutoffFrequency(float value);
   }; // UnityEngine.AudioLowPassFilter
 }

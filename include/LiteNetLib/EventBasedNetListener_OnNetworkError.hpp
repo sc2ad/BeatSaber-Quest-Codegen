@@ -36,16 +36,16 @@ namespace LiteNetLib {
   class EventBasedNetListener::OnNetworkError : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1A666B8
+    // Offset: 0x18048AC
     static EventBasedNetListener::OnNetworkError* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Net.IPEndPoint endPoint, System.Net.Sockets.SocketError socketError)
-    // Offset: 0x1A64D68
+    // Offset: 0x1802F5C
     void Invoke(System::Net::IPEndPoint* endPoint, System::Net::Sockets::SocketError socketError);
     // public System.IAsyncResult BeginInvoke(System.Net.IPEndPoint endPoint, System.Net.Sockets.SocketError socketError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1A666CC
+    // Offset: 0x18048C0
     System::IAsyncResult* BeginInvoke(System::Net::IPEndPoint* endPoint, System::Net::Sockets::SocketError socketError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1A66768
+    // Offset: 0x180495C
     void EndInvoke(System::IAsyncResult* result);
   }; // LiteNetLib.EventBasedNetListener/OnNetworkError
 }

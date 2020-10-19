@@ -17,10 +17,10 @@ namespace GlobalNamespace {
     // Offset: 0x4C
     float darkMultiplier;
     // protected System.Void LateUpdate()
-    // Offset: 0x1FA6A44
+    // Offset: 0x1CF76A8
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x1FA6B3C
+    // Offset: 0x1CF77A0
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

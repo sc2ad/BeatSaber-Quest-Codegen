@@ -41,18 +41,18 @@ namespace MasterServer {
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
     // static public PacketPool`1<MasterServer.GetAvailableMatchmakingServerRequest> get_pool()
-    // Offset: 0x10BD9AC
+    // Offset: 0x211F514
     static GlobalNamespace::PacketPool_1<MasterServer::GetAvailableMatchmakingServerRequest*>* get_pool();
     // public MasterServer.GetAvailableMatchmakingServerRequest Init(System.String secret, GameplayServerConfiguration configuration)
-    // Offset: 0x10BDB10
+    // Offset: 0x211F678
     MasterServer::GetAvailableMatchmakingServerRequest* Init(::Il2CppString* secret, GlobalNamespace::GameplayServerConfiguration configuration);
     // public override System.Void Release()
-    // Offset: 0x10BD9F4
+    // Offset: 0x211F55C
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Release()
     void Release();
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x10BDA50
+    // Offset: 0x211F5B8
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -60,7 +60,7 @@ namespace MasterServer {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x10BDA9C
+    // Offset: 0x211F604
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -68,7 +68,7 @@ namespace MasterServer {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void .ctor()
-    // Offset: 0x10BDB4C
+    // Offset: 0x211F6B4
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()

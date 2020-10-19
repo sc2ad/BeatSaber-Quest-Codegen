@@ -48,15 +48,15 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::AuthenticationToken::Platform platform;
     // public System.Void .ctor(IPlatformUserModel platformUserModel, UserInfo userInfo)
-    // Offset: 0xFD8FC8
+    // Offset: 0x2083C9C
     static PlatformAuthenticationTokenProvider* New_ctor(GlobalNamespace::IPlatformUserModel* platformUserModel, GlobalNamespace::UserInfo* userInfo);
     // public System.String get_hashedUserId()
-    // Offset: 0xFD8FC0
+    // Offset: 0x2083C94
     // Implemented from: IAuthenticationTokenProvider
     // Base method: System.String IAuthenticationTokenProvider::get_hashedUserId()
     ::Il2CppString* get_hashedUserId();
     // public System.Threading.Tasks.Task`1<AuthenticationToken> GetAuthenticationToken()
-    // Offset: 0xFD90B4
+    // Offset: 0x2083D88
     // Implemented from: IAuthenticationTokenProvider
     // Base method: System.Threading.Tasks.Task`1<AuthenticationToken> IAuthenticationTokenProvider::GetAuthenticationToken()
     System::Threading::Tasks::Task_1<GlobalNamespace::AuthenticationToken>* GetAuthenticationToken();

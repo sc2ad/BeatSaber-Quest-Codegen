@@ -42,21 +42,21 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Set static field: static readonly System.String PRECOMP_NAME
     static void _set_PRECOMP_NAME(::Il2CppString* value);
     // private Org.BouncyCastle.Math.EC.AbstractF2mPoint MultiplyWTnaf(Org.BouncyCastle.Math.EC.AbstractF2mPoint p, Org.BouncyCastle.Math.EC.Abc.ZTauElement lambda, System.SByte a, System.SByte mu)
-    // Offset: 0x1B56E80
+    // Offset: 0x18F8074
     Org::BouncyCastle::Math::EC::AbstractF2mPoint* MultiplyWTnaf(Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, Org::BouncyCastle::Math::EC::Abc::ZTauElement* lambda, int8_t a, int8_t mu);
     // static private Org.BouncyCastle.Math.EC.AbstractF2mPoint MultiplyFromWTnaf(Org.BouncyCastle.Math.EC.AbstractF2mPoint p, System.SByte[] u)
-    // Offset: 0x1B56FDC
+    // Offset: 0x18F81D0
     static Org::BouncyCastle::Math::EC::AbstractF2mPoint* MultiplyFromWTnaf(Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, ::Array<int8_t>* u);
     // static private System.Void .cctor()
-    // Offset: 0x1B57484
+    // Offset: 0x18F8678
     static void _cctor();
     // protected override Org.BouncyCastle.Math.EC.ECPoint MultiplyPositive(Org.BouncyCastle.Math.EC.ECPoint point, Org.BouncyCastle.Math.BigInteger k)
-    // Offset: 0x1B56CA4
+    // Offset: 0x18F7E98
     // Implemented from: Org.BouncyCastle.Math.EC.Multiplier.AbstractECMultiplier
     // Base method: Org.BouncyCastle.Math.EC.ECPoint AbstractECMultiplier::MultiplyPositive(Org.BouncyCastle.Math.EC.ECPoint point, Org.BouncyCastle.Math.BigInteger k)
     Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(Org::BouncyCastle::Math::EC::ECPoint* point, Org::BouncyCastle::Math::BigInteger* k);
     // public System.Void .ctor()
-    // Offset: 0x1B574E0
+    // Offset: 0x18F86D4
     // Implemented from: Org.BouncyCastle.Math.EC.Multiplier.AbstractECMultiplier
     // Base method: System.Void AbstractECMultiplier::.ctor()
     // Base method: System.Void Object::.ctor()

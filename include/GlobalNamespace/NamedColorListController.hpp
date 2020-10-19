@@ -43,34 +43,34 @@ namespace GlobalNamespace {
     // Offset: 0x38
     System::Action_1<int>* valueChangedEvent;
     // public System.Void add_valueChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0xF08264
+    // Offset: 0x1FDD118
     void add_valueChangedEvent(System::Action_1<int>* value);
     // public System.Void remove_valueChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0xF08308
+    // Offset: 0x1FDD1BC
     void remove_valueChangedEvent(System::Action_1<int>* value);
     // public System.Void Init(NamedColorListController/ColorValuePair[] values, System.Int32 value)
-    // Offset: 0xF083AC
+    // Offset: 0x1FDD260
     void Init(::Array<GlobalNamespace::NamedColorListController::ColorValuePair*>* values, int value);
     // public System.Void SetValue(System.Int32 value)
-    // Offset: 0xF083E0
+    // Offset: 0x1FDD294
     void SetValue(int value);
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0xF083F0
+    // Offset: 0x1FDD2A4
     // Implemented from: ListColorController
     // Base method: System.Boolean ListColorController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(int& idx, int& numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0xF0848C
+    // Offset: 0x1FDD340
     // Implemented from: ListColorController
     // Base method: System.Void ListColorController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override UnityEngine.Color ColorForValue(System.Int32 idx)
-    // Offset: 0xF08504
+    // Offset: 0x1FDD3B8
     // Implemented from: ListColorController
     // Base method: UnityEngine.Color ListColorController::ColorForValue(System.Int32 idx)
     UnityEngine::Color ColorForValue(int idx);
     // public System.Void .ctor()
-    // Offset: 0xF0854C
+    // Offset: 0x1FDD400
     // Implemented from: ListColorController
     // Base method: System.Void ListColorController::.ctor()
     // Base method: System.Void IncDecColorController::.ctor()

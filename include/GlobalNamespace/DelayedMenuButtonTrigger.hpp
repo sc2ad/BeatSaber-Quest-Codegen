@@ -43,22 +43,22 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::VRControllersInputManager* vrControllersInputManager;
     // public System.Void add_menuButtonTriggeredEvent(System.Action value)
-    // Offset: 0xF5EE2C
+    // Offset: 0x2016F6C
     // Implemented from: IMenuButtonTrigger
     // Base method: System.Void IMenuButtonTrigger::add_menuButtonTriggeredEvent(System.Action value)
     void add_menuButtonTriggeredEvent(System::Action* value);
     // public System.Void remove_menuButtonTriggeredEvent(System.Action value)
-    // Offset: 0xF5EED0
+    // Offset: 0x2017010
     // Implemented from: IMenuButtonTrigger
     // Base method: System.Void IMenuButtonTrigger::remove_menuButtonTriggeredEvent(System.Action value)
     void remove_menuButtonTriggeredEvent(System::Action* value);
     // public System.Void Tick()
-    // Offset: 0xF5EF74
+    // Offset: 0x20170B4
     // Implemented from: Zenject.ITickable
     // Base method: System.Void ITickable::Tick()
     void Tick();
     // public System.Void .ctor()
-    // Offset: 0xF5F004
+    // Offset: 0x2017144
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DelayedMenuButtonTrigger* New_ctor();

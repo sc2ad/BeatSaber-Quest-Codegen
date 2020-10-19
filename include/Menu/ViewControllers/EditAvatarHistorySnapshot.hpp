@@ -27,13 +27,13 @@ namespace Menu::ViewControllers {
     // Offset: 0x18
     GlobalNamespace::AvatarData* avatarData;
     // public EditAvatarViewController/AvatarEditPart get_avatarEditPart()
-    // Offset: 0xED8B5C
+    // Offset: 0x1FC2724
     GlobalNamespace::EditAvatarViewController::AvatarEditPart get_avatarEditPart();
     // public AvatarData get_avatarData()
-    // Offset: 0xED8B64
+    // Offset: 0x1FC272C
     GlobalNamespace::AvatarData* get_avatarData();
     // public System.Void .ctor(AvatarData avatarData, EditAvatarViewController/AvatarEditPart avatarEditPart)
-    // Offset: 0xED8B6C
+    // Offset: 0x1FC2734
     static EditAvatarHistorySnapshot* New_ctor(GlobalNamespace::AvatarData* avatarData, GlobalNamespace::EditAvatarViewController::AvatarEditPart avatarEditPart);
   }; // Menu.ViewControllers.EditAvatarHistorySnapshot
 }

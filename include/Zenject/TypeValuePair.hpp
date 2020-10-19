@@ -31,7 +31,7 @@ namespace Zenject {
     // Creating value type constructor for type: TypeValuePair
     constexpr TypeValuePair(System::Type* Type_ = {}, ::Il2CppObject* Value_ = {}) noexcept : Type{Type_}, Value{Value_} {}
     // public System.Void .ctor(System.Type type, System.Object value)
-    // Offset: 0xDDD020
+    // Offset: 0xC8A6B8
     // ABORTED: conflicts with another method.  TypeValuePair(System::Type* type, ::Il2CppObject* value);
   }; // Zenject.TypeValuePair
 }

@@ -33,16 +33,16 @@ namespace Valve::VR {
   class IVROverlay::_GetOverlayTextureBounds : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1E3D8F8
+    // Offset: 0x1B9055C
     static IVROverlay::_GetOverlayTextureBounds* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, ref Valve.VR.VRTextureBounds_t pOverlayTextureBounds)
-    // Offset: 0x1E3D90C
+    // Offset: 0x1B90570
     Valve::VR::EVROverlayError Invoke(uint64_t ulOverlayHandle, Valve::VR::VRTextureBounds_t& pOverlayTextureBounds);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, ref Valve.VR.VRTextureBounds_t pOverlayTextureBounds, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1E3DB90
+    // Offset: 0x1B907F4
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, Valve::VR::VRTextureBounds_t& pOverlayTextureBounds, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(ref Valve.VR.VRTextureBounds_t pOverlayTextureBounds, System.IAsyncResult result)
-    // Offset: 0x1E3DC40
+    // Offset: 0x1B908A4
     Valve::VR::EVROverlayError EndInvoke(Valve::VR::VRTextureBounds_t& pOverlayTextureBounds, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_GetOverlayTextureBounds
 }

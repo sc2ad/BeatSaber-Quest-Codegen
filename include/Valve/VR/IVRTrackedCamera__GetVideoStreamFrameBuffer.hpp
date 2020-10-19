@@ -35,16 +35,16 @@ namespace Valve::VR {
   class IVRTrackedCamera::_GetVideoStreamFrameBuffer : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F62CA8
+    // Offset: 0x1CB490C
     static IVRTrackedCamera::_GetVideoStreamFrameBuffer* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRTrackedCameraError Invoke(System.UInt64 hTrackedCamera, Valve.VR.EVRTrackedCameraFrameType eFrameType, System.IntPtr pFrameBuffer, System.UInt32 nFrameBufferSize, ref Valve.VR.CameraVideoStreamFrameHeader_t pFrameHeader, System.UInt32 nFrameHeaderSize)
-    // Offset: 0x1F62CBC
+    // Offset: 0x1CB4920
     Valve::VR::EVRTrackedCameraError Invoke(uint64_t hTrackedCamera, Valve::VR::EVRTrackedCameraFrameType eFrameType, System::IntPtr pFrameBuffer, uint nFrameBufferSize, Valve::VR::CameraVideoStreamFrameHeader_t& pFrameHeader, uint nFrameHeaderSize);
     // public System.IAsyncResult BeginInvoke(System.UInt64 hTrackedCamera, Valve.VR.EVRTrackedCameraFrameType eFrameType, System.IntPtr pFrameBuffer, System.UInt32 nFrameBufferSize, ref Valve.VR.CameraVideoStreamFrameHeader_t pFrameHeader, System.UInt32 nFrameHeaderSize, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F62F98
+    // Offset: 0x1CB4BFC
     System::IAsyncResult* BeginInvoke(uint64_t hTrackedCamera, Valve::VR::EVRTrackedCameraFrameType eFrameType, System::IntPtr pFrameBuffer, uint nFrameBufferSize, Valve::VR::CameraVideoStreamFrameHeader_t& pFrameHeader, uint nFrameHeaderSize, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRTrackedCameraError EndInvoke(ref Valve.VR.CameraVideoStreamFrameHeader_t pFrameHeader, System.IAsyncResult result)
-    // Offset: 0x1F630C0
+    // Offset: 0x1CB4D24
     Valve::VR::EVRTrackedCameraError EndInvoke(Valve::VR::CameraVideoStreamFrameHeader_t& pFrameHeader, System::IAsyncResult* result);
   }; // Valve.VR.IVRTrackedCamera/_GetVideoStreamFrameBuffer
 }

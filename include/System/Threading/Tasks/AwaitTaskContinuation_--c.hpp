@@ -29,13 +29,13 @@ namespace System::Threading::Tasks {
     // Set static field: static public System.Threading.WaitCallback <>9__17_0
     static void _set_$$9__17_0(System::Threading::WaitCallback* value);
     // static private System.Void .cctor()
-    // Offset: 0x16DB28C
+    // Offset: 0x1495E60
     static void _cctor();
     // System.Void <ThrowAsyncIfNecessary>b__17_0(System.Object s)
-    // Offset: 0x16DB2FC
+    // Offset: 0x1495ED0
     void $ThrowAsyncIfNecessary$b__17_0(::Il2CppObject* s);
     // public System.Void .ctor()
-    // Offset: 0x16DB2F4
+    // Offset: 0x1495EC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AwaitTaskContinuation::$$c* New_ctor();

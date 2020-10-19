@@ -134,28 +134,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnEnable()
-    // Offset: 0x10A3D58
+    // Offset: 0x211AC9C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x10A3F18
+    // Offset: 0x211AE5C
     void OnDisable();
     // protected System.Void LateUpdate()
-    // Offset: 0x10A3FEC
+    // Offset: 0x211AF30
     void LateUpdate();
     // private System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0x10A4150
+    // Offset: 0x211B094
     void OnApplicationFocus(bool hasFocus);
     // private System.Void SaveCameraScreenshot()
-    // Offset: 0x10A40BC
+    // Offset: 0x211B000
     void SaveCameraScreenshot();
     // private System.Void SaveTextureScreenshot(UnityEngine.Texture2D tex)
-    // Offset: 0x10A428C
+    // Offset: 0x211B1D0
     void SaveTextureScreenshot(UnityEngine::Texture2D* tex);
     // private UnityEngine.Texture2D ConvertRenderTexture(UnityEngine.RenderTexture renderTexture)
-    // Offset: 0x10A4168
+    // Offset: 0x211B0AC
     UnityEngine::Texture2D* ConvertRenderTexture(UnityEngine::RenderTexture* renderTexture);
     // public System.Void .ctor()
-    // Offset: 0x10A439C
+    // Offset: 0x211B2E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

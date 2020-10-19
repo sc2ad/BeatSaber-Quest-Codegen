@@ -44,25 +44,25 @@ namespace TMPro {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Awake()
-    // Offset: 0xF8F0EC
+    // Offset: 0xEDD4BC
     void Awake();
     // private System.Void OnEnable()
-    // Offset: 0xF8F14C
+    // Offset: 0xEDD51C
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0xF8F150
+    // Offset: 0xEDD520
     void OnDisable();
     // public System.Void StopAllAnimations()
-    // Offset: 0xF8F154
+    // Offset: 0xEDD524
     void StopAllAnimations();
     // public System.Void DoSpriteAnimation(System.Int32 currentCharacter, TMPro.TMP_SpriteAsset spriteAsset, System.Int32 start, System.Int32 end, System.Int32 framerate)
-    // Offset: 0xF8F1B8
+    // Offset: 0xEDD588
     void DoSpriteAnimation(int currentCharacter, TMPro::TMP_SpriteAsset* spriteAsset, int start, int end, int framerate);
     // private System.Collections.IEnumerator DoSpriteAnimationInternal(System.Int32 currentCharacter, TMPro.TMP_SpriteAsset spriteAsset, System.Int32 start, System.Int32 end, System.Int32 framerate)
-    // Offset: 0xF8F29C
+    // Offset: 0xEDD66C
     System::Collections::IEnumerator* DoSpriteAnimationInternal(int currentCharacter, TMPro::TMP_SpriteAsset* spriteAsset, int start, int end, int framerate);
     // public System.Void .ctor()
-    // Offset: 0xF8F38C
+    // Offset: 0xEDD75C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

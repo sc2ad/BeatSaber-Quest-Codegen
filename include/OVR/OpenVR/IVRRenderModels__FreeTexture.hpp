@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRRenderModels::_FreeTexture : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F33830
+    // Offset: 0x1C85494
     static IVRRenderModels::_FreeTexture* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.IntPtr pTexture)
-    // Offset: 0x1F33844
+    // Offset: 0x1C854A8
     void Invoke(System::IntPtr pTexture);
     // public System.IAsyncResult BeginInvoke(System.IntPtr pTexture, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F33AA4
+    // Offset: 0x1C85708
     System::IAsyncResult* BeginInvoke(System::IntPtr pTexture, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1F33B30
+    // Offset: 0x1C85794
     void EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRRenderModels/_FreeTexture
 }

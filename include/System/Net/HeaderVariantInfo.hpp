@@ -24,13 +24,13 @@ namespace System::Net {
     // Creating value type constructor for type: HeaderVariantInfo
     constexpr HeaderVariantInfo(::Il2CppString* m_name_ = {}, System::Net::CookieVariant m_variant_ = {}) noexcept : m_name{m_name_}, m_variant{m_variant_} {}
     // System.Void .ctor(System.String name, System.Net.CookieVariant variant)
-    // Offset: 0xDB4548
+    // Offset: 0xC6A968
     // ABORTED: conflicts with another method.  HeaderVariantInfo(::Il2CppString* name, System::Net::CookieVariant variant);
     // System.String get_Name()
-    // Offset: 0xDB4578
+    // Offset: 0xC6A998
     ::Il2CppString* get_Name();
     // System.Net.CookieVariant get_Variant()
-    // Offset: 0xDB4580
+    // Offset: 0xC6A9A0
     System::Net::CookieVariant get_Variant();
   }; // System.Net.HeaderVariantInfo
 }

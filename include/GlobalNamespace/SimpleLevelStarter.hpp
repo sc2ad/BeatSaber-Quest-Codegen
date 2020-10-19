@@ -98,28 +98,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0xEED758
+    // Offset: 0x1FEE4E0
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xEED81C
+    // Offset: 0x1FEE5A4
     void OnDestroy();
     // private System.Void StartLevel()
-    // Offset: 0xEED838
+    // Offset: 0x1FEE5C0
     void StartLevel();
     // private System.Void InstallEarlyBindings(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer container)
-    // Offset: 0xEEDA08
+    // Offset: 0x1FEE790
     void InstallEarlyBindings(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, Zenject::DiContainer* container);
     // private System.Void ButtonPressed()
-    // Offset: 0xEEDB54
+    // Offset: 0x1FEE8DC
     void ButtonPressed();
     // private System.Void HandleLevelDidFinish(StandardLevelScenesTransitionSetupDataSO standardLevelSceneSetupData, LevelCompletionResults levelCompletionResults)
-    // Offset: 0xEEDB58
+    // Offset: 0x1FEE8E0
     void HandleLevelDidFinish(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData, GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // private System.Void <StartLevel>g__AfterSceneSwitchCallback|14_0(Zenject.DiContainer container)
-    // Offset: 0xEEDC50
+    // Offset: 0x1FEE9D8
     void $StartLevel$g__AfterSceneSwitchCallback_14_0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0xEEDB7C
+    // Offset: 0x1FEE904
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

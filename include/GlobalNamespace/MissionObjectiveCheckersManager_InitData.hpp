@@ -28,7 +28,7 @@ namespace GlobalNamespace {
       return missionObjectives;
     }
     // public System.Void .ctor(MissionObjective[] missionObjectives)
-    // Offset: 0xEDCD58
+    // Offset: 0x1FC6920
     static MissionObjectiveCheckersManager::InitData* New_ctor(::Array<GlobalNamespace::MissionObjective*>* missionObjectives);
   }; // MissionObjectiveCheckersManager/InitData
 }

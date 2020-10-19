@@ -37,52 +37,52 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x24
     System::Diagnostics::Tracing::EventFieldTags Tags;
     // private System.Void .ctor(System.Diagnostics.Tracing.TraceLoggingMetadataCollector other, System.Diagnostics.Tracing.FieldMetadata group)
-    // Offset: 0x124FA20
+    // Offset: 0x104A2BC
     static TraceLoggingMetadataCollector* New_ctor(System::Diagnostics::Tracing::TraceLoggingMetadataCollector* other, System::Diagnostics::Tracing::FieldMetadata* group);
     // System.Diagnostics.Tracing.EventFieldTags get_Tags()
-    // Offset: 0x124FA80
+    // Offset: 0x104A31C
     System::Diagnostics::Tracing::EventFieldTags get_Tags();
     // System.Void set_Tags(System.Diagnostics.Tracing.EventFieldTags value)
-    // Offset: 0x124FA88
+    // Offset: 0x104A324
     void set_Tags(System::Diagnostics::Tracing::EventFieldTags value);
     // System.Int32 get_ScratchSize()
-    // Offset: 0x124F860
+    // Offset: 0x104A0FC
     int get_ScratchSize();
     // System.Int32 get_DataCount()
-    // Offset: 0x124F87C
+    // Offset: 0x104A118
     int get_DataCount();
     // System.Int32 get_PinCount()
-    // Offset: 0x124F898
+    // Offset: 0x104A134
     int get_PinCount();
     // private System.Boolean get_BeginningBufferedArray()
-    // Offset: 0x124FA90
+    // Offset: 0x104A32C
     bool get_BeginningBufferedArray();
     // public System.Diagnostics.Tracing.TraceLoggingMetadataCollector AddGroup(System.String name)
-    // Offset: 0x124FAA0
+    // Offset: 0x104A33C
     System::Diagnostics::Tracing::TraceLoggingMetadataCollector* AddGroup(::Il2CppString* name);
     // public System.Void AddScalar(System.String name, System.Diagnostics.Tracing.TraceLoggingDataType type)
-    // Offset: 0x1247328
+    // Offset: 0x1041BC4
     void AddScalar(::Il2CppString* name, System::Diagnostics::Tracing::TraceLoggingDataType type);
     // public System.Void AddBinary(System.String name, System.Diagnostics.Tracing.TraceLoggingDataType type)
-    // Offset: 0x124E210
+    // Offset: 0x1048AAC
     void AddBinary(::Il2CppString* name, System::Diagnostics::Tracing::TraceLoggingDataType type);
     // public System.Void AddArray(System.String name, System.Diagnostics.Tracing.TraceLoggingDataType type)
-    // Offset: 0x1247064
+    // Offset: 0x1041900
     void AddArray(::Il2CppString* name, System::Diagnostics::Tracing::TraceLoggingDataType type);
     // public System.Void BeginBufferedArray()
-    // Offset: 0x124FD3C
+    // Offset: 0x104A5D8
     void BeginBufferedArray();
     // public System.Void EndBufferedArray()
-    // Offset: 0x124FE28
+    // Offset: 0x104A6C4
     void EndBufferedArray();
     // System.Byte[] GetMetadata()
-    // Offset: 0x124F7D8
+    // Offset: 0x104A074
     ::Array<uint8_t>* GetMetadata();
     // private System.Void AddField(System.Diagnostics.Tracing.FieldMetadata fieldMetadata)
-    // Offset: 0x124FB74
+    // Offset: 0x104A410
     void AddField(System::Diagnostics::Tracing::FieldMetadata* fieldMetadata);
     // System.Void .ctor()
-    // Offset: 0x124F760
+    // Offset: 0x1049FFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TraceLoggingMetadataCollector* New_ctor();

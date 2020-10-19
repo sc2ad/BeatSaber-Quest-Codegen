@@ -31,13 +31,13 @@ namespace NUnit::Framework::Internal::Execution {
     // Offset: 0x20
     System::Threading::ManualResetEvent* event;
     // public System.Void .ctor(System.Int32 initialCount)
-    // Offset: 0x15F5430
+    // Offset: 0x13CBC58
     static CountdownEvent* New_ctor(int initialCount);
     // public System.Int32 get_CurrentCount()
-    // Offset: 0x15F54E8
+    // Offset: 0x13CBD10
     int get_CurrentCount();
     // public System.Void Signal()
-    // Offset: 0x15F54F0
+    // Offset: 0x13CBD18
     void Signal();
   }; // NUnit.Framework.Internal.Execution.CountdownEvent
 }

@@ -27,19 +27,19 @@ namespace JetBrains::Annotations {
     // Offset: 0x18
     System::Type* ControlType;
     // public System.Void .ctor(System.String tagName, System.Type controlType)
-    // Offset: 0x220BB9C
+    // Offset: 0x1F5C5AC
     static AspChildControlTypeAttribute* New_ctor(::Il2CppString* tagName, System::Type* controlType);
     // public System.String get_TagName()
-    // Offset: 0x220BBEC
+    // Offset: 0x1F5C5FC
     ::Il2CppString* get_TagName();
     // private System.Void set_TagName(System.String value)
-    // Offset: 0x220BBF4
+    // Offset: 0x1F5C604
     void set_TagName(::Il2CppString* value);
     // public System.Type get_ControlType()
-    // Offset: 0x220BBFC
+    // Offset: 0x1F5C60C
     System::Type* get_ControlType();
     // private System.Void set_ControlType(System.Type value)
-    // Offset: 0x220BC04
+    // Offset: 0x1F5C614
     void set_ControlType(System::Type* value);
   }; // JetBrains.Annotations.AspChildControlTypeAttribute
 }

@@ -14,33 +14,33 @@ namespace System::Text {
   class EncoderExceptionFallbackBuffer : public System::Text::EncoderFallbackBuffer {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1887110
+    // Offset: 0x162D534
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Void EncoderFallbackBuffer::.ctor()
     // Base method: System.Void Object::.ctor()
     static EncoderExceptionFallbackBuffer* New_ctor();
     // public override System.Boolean Fallback(System.Char charUnknown, System.Int32 index)
-    // Offset: 0x1887194
+    // Offset: 0x162D5B8
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Boolean EncoderFallbackBuffer::Fallback(System.Char charUnknown, System.Int32 index)
     bool Fallback(::Il2CppChar charUnknown, int index);
     // public override System.Boolean Fallback(System.Char charUnknownHigh, System.Char charUnknownLow, System.Int32 index)
-    // Offset: 0x18872FC
+    // Offset: 0x162D720
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Boolean EncoderFallbackBuffer::Fallback(System.Char charUnknownHigh, System.Char charUnknownLow, System.Int32 index)
     bool Fallback(::Il2CppChar charUnknownHigh, ::Il2CppChar charUnknownLow, int index);
     // public override System.Char GetNextChar()
-    // Offset: 0x188792C
+    // Offset: 0x162DD50
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Char EncoderFallbackBuffer::GetNextChar()
     ::Il2CppChar GetNextChar();
     // public override System.Boolean MovePrevious()
-    // Offset: 0x1887934
+    // Offset: 0x162DD58
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Boolean EncoderFallbackBuffer::MovePrevious()
     bool MovePrevious();
     // public override System.Int32 get_Remaining()
-    // Offset: 0x188793C
+    // Offset: 0x162DD60
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Int32 EncoderFallbackBuffer::get_Remaining()
     int get_Remaining();

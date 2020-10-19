@@ -70,39 +70,39 @@ namespace GlobalNamespace {
     // Offset: 0x70
     System::Security::Cryptography::HMAC* sendMac;
     // public System.Boolean Verify(System.UInt32 protocolVersion, System.String userId, System.String userName)
-    // Offset: 0x1C395AC
+    // Offset: 0x21F3744
     bool Verify(uint protocolVersion, ::Il2CppString* userId, ::Il2CppString* userName);
     // public System.Boolean HasTimedOut(System.Int64 timeout)
-    // Offset: 0x1C39E18
+    // Offset: 0x21F3FB0
     bool HasTimedOut(int64_t timeout);
     // public System.Boolean IsValidSequenceNum(System.UInt32 sequenceNum)
-    // Offset: 0x1C3B7FC
+    // Offset: 0x21F5994
     bool IsValidSequenceNum(uint sequenceNum);
     // public System.Boolean PutSequenceNum(System.UInt32 sequenceNum)
-    // Offset: 0x1C3B8B0
+    // Offset: 0x21F5A48
     bool PutSequenceNum(uint sequenceNum);
     // public System.UInt32 GetNextSentSequenceNum()
-    // Offset: 0x1C3C3C0
+    // Offset: 0x21F6558
     uint GetNextSentSequenceNum();
     // public System.Void .ctor(System.UInt32 protocolVersion, System.Byte[] preMasterSecret, System.Byte[] serverSeed, System.Byte[] clientSeed, System.Boolean isClient)
-    // Offset: 0x1C38A90
+    // Offset: 0x21F2C28
     static PacketEncryptionLayer::EncryptionState* New_ctor(uint protocolVersion, ::Array<uint8_t>* preMasterSecret, ::Array<uint8_t>* serverSeed, ::Array<uint8_t>* clientSeed, bool isClient);
     // private System.Byte[] MakeSeed(System.Byte[] baseSeed, System.Byte[] serverSeed, System.Byte[] clientSeed)
-    // Offset: 0x1C3C808
+    // Offset: 0x21F69A0
     ::Array<uint8_t>* MakeSeed(::Array<uint8_t>* baseSeed, ::Array<uint8_t>* serverSeed, ::Array<uint8_t>* clientSeed);
     // static private System.Byte[] PRF(System.Byte[] key, System.Byte[] seed, System.Int32 length)
-    // Offset: 0x1C3C8F0
+    // Offset: 0x21F6A88
     static ::Array<uint8_t>* PRF(::Array<uint8_t>* key, ::Array<uint8_t>* seed, int length);
     // static private System.Void PRF_Hash(System.Byte[] key, System.Byte[] seed, ref System.Int32 length)
-    // Offset: 0x1C3C9E0
+    // Offset: 0x21F6B78
     static void PRF_Hash(::Array<uint8_t>* key, ::Array<uint8_t>* seed, int& length);
     // public System.Boolean SetIdentity(System.String userId, System.String userNmae)
-    // Offset: 0x1C38D94
+    // Offset: 0x21F2F2C
     // Implemented from: PacketEncryptionLayer/IEncryptionState
     // Base method: System.Boolean IEncryptionState::SetIdentity(System.String userId, System.String userNmae)
     bool SetIdentity(::Il2CppString* userId, ::Il2CppString* userNmae);
     // public System.Void Dispose()
-    // Offset: 0x1C3CBA8
+    // Offset: 0x21F6D40
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

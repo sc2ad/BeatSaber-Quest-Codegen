@@ -32,25 +32,25 @@ namespace UnityEngine::XR {
     // Set static field: static private UnityEngine.XR.MeshId s_InvalidId
     static void _set_s_InvalidId(UnityEngine::XR::MeshId value);
     // static private System.Void .cctor()
-    // Offset: 0x220E8CC
+    // Offset: 0x1F5F2DC
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0xDDE090
+    // Offset: 0xC8B720
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Int32 GetHashCode()
-    // Offset: 0xDDE098
+    // Offset: 0xC8B728
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xDDE0D4
+    // Offset: 0xC8B764
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(UnityEngine.XR.MeshId other)
-    // Offset: 0xDDE0DC
+    // Offset: 0xC8B76C
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.XR.MeshId other)
     bool Equals(UnityEngine::XR::MeshId other);

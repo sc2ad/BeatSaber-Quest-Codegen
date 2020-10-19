@@ -45,13 +45,13 @@ namespace GlobalNamespace {
     // Offset: 0x38
     System::Action_1<UnityEngine::Color>* $$9__1;
     // System.Void <SetupColorButton>b__0()
-    // Offset: 0xF63590
+    // Offset: 0x201B6D0
     void $SetupColorButton$b__0();
     // System.Void <SetupColorButton>b__1(UnityEngine.Color c)
-    // Offset: 0xF63680
+    // Offset: 0x201B7C0
     void $SetupColorButton$b__1(UnityEngine::Color c);
     // public System.Void .ctor()
-    // Offset: 0xF6328C
+    // Offset: 0x201B3CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EditAvatarViewController::$$c__DisplayClass56_0* New_ctor();

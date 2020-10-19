@@ -74,21 +74,21 @@ namespace HMUI {
     // Offset: 0x118
     System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>* stateDidChangeEvent;
     // public System.Void add_stateDidChangeEvent(System.Action`1<HMUI.ToggleWithCallbacks/SelectionState> value)
-    // Offset: 0x117D3F4
+    // Offset: 0x2176DDC
     void add_stateDidChangeEvent(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>* value);
     // public System.Void remove_stateDidChangeEvent(System.Action`1<HMUI.ToggleWithCallbacks/SelectionState> value)
-    // Offset: 0x117D6AC
+    // Offset: 0x2177094
     void remove_stateDidChangeEvent(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>* value);
     // public HMUI.ToggleWithCallbacks/SelectionState get_selectionState()
-    // Offset: 0x117D75C
+    // Offset: 0x2177144
     HMUI::ToggleWithCallbacks::SelectionState get_selectionState();
     // protected override System.Void DoStateTransition(UnityEngine.UI.Selectable/SelectionState state, System.Boolean instant)
-    // Offset: 0x1183794
+    // Offset: 0x217D19C
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::DoStateTransition(UnityEngine.UI.Selectable/SelectionState state, System.Boolean instant)
     void DoStateTransition(UnityEngine::UI::Selectable::SelectionState state, bool instant);
     // public System.Void .ctor()
-    // Offset: 0x1183820
+    // Offset: 0x217D228
     // Implemented from: UnityEngine.UI.Toggle
     // Base method: System.Void Toggle::.ctor()
     // Base method: System.Void Selectable::.ctor()

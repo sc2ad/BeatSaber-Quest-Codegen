@@ -32,18 +32,18 @@ namespace UnityEngine::Animations {
     // Set static field: static private readonly UnityEngine.Animations.AnimationScriptPlayable m_NullPlayable
     static void _set_m_NullPlayable(UnityEngine::Animations::AnimationScriptPlayable value);
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0xDDCC08
+    // Offset: 0xC8A2A0
     // ABORTED: conflicts with another method.  AnimationScriptPlayable(UnityEngine::Playables::PlayableHandle handle);
     // static private System.Void .cctor()
-    // Offset: 0x21E8608
+    // Offset: 0x1F3D26C
     static void _cctor();
     // public UnityEngine.Playables.PlayableHandle GetHandle()
-    // Offset: 0xDDCC10
+    // Offset: 0xC8A2A8
     // Implemented from: UnityEngine.Playables.IPlayable
     // Base method: UnityEngine.Playables.PlayableHandle IPlayable::GetHandle()
     UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Animations.AnimationScriptPlayable other)
-    // Offset: 0xDDCC1C
+    // Offset: 0xC8A2B4
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Animations.AnimationScriptPlayable other)
     bool Equals(UnityEngine::Animations::AnimationScriptPlayable other);

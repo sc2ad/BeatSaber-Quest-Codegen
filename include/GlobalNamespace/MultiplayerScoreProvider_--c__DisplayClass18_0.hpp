@@ -21,10 +21,10 @@ namespace GlobalNamespace {
       return userId;
     }
     // System.Boolean <GetPositionOfPlayer>b__0(MultiplayerScoreProvider/RankedPlayer p)
-    // Offset: 0xF03E20
+    // Offset: 0x1FD8CD4
     bool $GetPositionOfPlayer$b__0(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* p);
     // public System.Void .ctor()
-    // Offset: 0xF03CD0
+    // Offset: 0x1FD8B84
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MultiplayerScoreProvider::$$c__DisplayClass18_0* New_ctor();

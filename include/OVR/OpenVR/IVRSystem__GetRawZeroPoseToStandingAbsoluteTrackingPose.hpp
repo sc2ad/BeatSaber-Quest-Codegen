@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F44CC8
+    // Offset: 0x1C9692C
     static IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.HmdMatrix34_t Invoke()
-    // Offset: 0x1F44CDC
+    // Offset: 0x1C96940
     OVR::OpenVR::HmdMatrix34_t Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F44F1C
+    // Offset: 0x1C96B80
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.HmdMatrix34_t EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1F44F48
+    // Offset: 0x1C96BAC
     OVR::OpenVR::HmdMatrix34_t EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_GetRawZeroPoseToStandingAbsoluteTrackingPose
 }

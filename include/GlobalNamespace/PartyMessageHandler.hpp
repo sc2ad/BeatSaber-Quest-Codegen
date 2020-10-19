@@ -86,34 +86,34 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate* connectToMasterServerEvent;
     // public System.Void .ctor(ConnectedPlayerManager connectedPlayerManager)
-    // Offset: 0x1C3CBE4
+    // Offset: 0x21F6D7C
     static PartyMessageHandler* New_ctor(GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager);
     // public System.Void add_serverStatusUpdatedEvent(PartyMessageHandler/ServerStatusUpdatedDelegate value)
-    // Offset: 0x1C3CEA0
+    // Offset: 0x21F7038
     void add_serverStatusUpdatedEvent(GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate* value);
     // public System.Void remove_serverStatusUpdatedEvent(PartyMessageHandler/ServerStatusUpdatedDelegate value)
-    // Offset: 0x1C3CF44
+    // Offset: 0x21F70DC
     void remove_serverStatusUpdatedEvent(GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate* value);
     // public System.Void SetServerStatus(System.String serverName, System.String password, DiscoveryPolicy discoveryPolicy, InvitePolicy invitePolicy, System.Int32 maxPlayerCount, GameplayServerConfiguration configuration)
-    // Offset: 0x1C3CFE8
+    // Offset: 0x21F7180
     void SetServerStatus(::Il2CppString* serverName, ::Il2CppString* password, GlobalNamespace::DiscoveryPolicy discoveryPolicy, GlobalNamespace::InvitePolicy invitePolicy, int maxPlayerCount, GlobalNamespace::GameplayServerConfiguration configuration);
     // private System.Void HandleServerStatusUpdate(PartyMessageHandler/ServerStatusUpdateMessage packet)
-    // Offset: 0x1C3D160
+    // Offset: 0x21F72F8
     void HandleServerStatusUpdate(GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage* packet);
     // public System.Void add_connectToMasterServerEvent(PartyMessageHandler/ConnectToMasterServerDelegate value)
-    // Offset: 0x1C3D828
+    // Offset: 0x21F79C0
     void add_connectToMasterServerEvent(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate* value);
     // public System.Void remove_connectToMasterServerEvent(PartyMessageHandler/ConnectToMasterServerDelegate value)
-    // Offset: 0x1C3D8CC
+    // Offset: 0x21F7A64
     void remove_connectToMasterServerEvent(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate* value);
     // public System.Void ConnectToMasterServer(System.Net.IPEndPoint endPoint, System.String serverName, System.String password, System.String secret, System.String userId, System.String userName, DiscoveryPolicy discoveryPolicy, InvitePolicy invitePolicy, System.Int32 maxPlayerCount, GameplayServerConfiguration configuration)
-    // Offset: 0x1C3D970
+    // Offset: 0x21F7B08
     void ConnectToMasterServer(System::Net::IPEndPoint* endPoint, ::Il2CppString* serverName, ::Il2CppString* password, ::Il2CppString* secret, ::Il2CppString* userId, ::Il2CppString* userName, GlobalNamespace::DiscoveryPolicy discoveryPolicy, GlobalNamespace::InvitePolicy invitePolicy, int maxPlayerCount, GlobalNamespace::GameplayServerConfiguration configuration);
     // private System.Void HandleConnectToMasterServer(PartyMessageHandler/ConnectToMasterServerMessage packet)
-    // Offset: 0x1C3DB68
+    // Offset: 0x21F7D00
     void HandleConnectToMasterServer(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage* packet);
     // public System.Void Dispose()
-    // Offset: 0x1C3CE78
+    // Offset: 0x21F7010
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

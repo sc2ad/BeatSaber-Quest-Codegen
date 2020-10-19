@@ -30,10 +30,10 @@ namespace System::Net::NetworkInformation {
     // Offset: 0xFFFFFFFF
     ::Array<System::Net::NetworkInformation::NetworkInterface*>* GetAllNetworkInterfaces();
     // static public System.Net.NetworkInformation.NetworkInterfaceFactory Create()
-    // Offset: 0x12CA578
+    // Offset: 0x10C5E14
     static System::Net::NetworkInformation::NetworkInterfaceFactory* Create();
     // protected System.Void .ctor()
-    // Offset: 0x12CA6A8
+    // Offset: 0x10C5F44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NetworkInterfaceFactory* New_ctor();

@@ -29,10 +29,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::Vector3 originalScale;
     // System.Void <CreatePopTween>b__0(System.Single val)
-    // Offset: 0xFB7E38
+    // Offset: 0x20364E8
     void $CreatePopTween$b__0(float val);
     // public System.Void .ctor()
-    // Offset: 0xFB6F9C
+    // Offset: 0x203564C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AvatarTweenController::$$c__DisplayClass52_0* New_ctor();

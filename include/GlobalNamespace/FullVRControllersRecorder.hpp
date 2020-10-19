@@ -101,31 +101,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didSetControllerTransformEvent(System.Action`1<VRController> value)
-    // Offset: 0xEBE25C
+    // Offset: 0x20276B8
     void add_didSetControllerTransformEvent(System::Action_1<GlobalNamespace::VRController*>* value);
     // public System.Void remove_didSetControllerTransformEvent(System.Action`1<VRController> value)
-    // Offset: 0xEBE300
+    // Offset: 0x202775C
     void remove_didSetControllerTransformEvent(System::Action_1<GlobalNamespace::VRController*>* value);
     // protected System.Void Start()
-    // Offset: 0xEBE3A4
+    // Offset: 0x2027800
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xEBE7BC
+    // Offset: 0x2027C18
     void OnDestroy();
     // private System.Void PlaybackTick()
-    // Offset: 0xEBE868
+    // Offset: 0x2027CC4
     void PlaybackTick();
     // private System.Void RecordTick()
-    // Offset: 0xEBEC48
+    // Offset: 0x20280A4
     void RecordTick();
     // protected System.Void Update()
-    // Offset: 0xEBEDF0
+    // Offset: 0x202824C
     void Update();
     // protected System.Void LateUpdate()
-    // Offset: 0xEBEE40
+    // Offset: 0x202829C
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0xEBEE50
+    // Offset: 0x20282AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -33,7 +33,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x28
     uint64_t Target;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x136A678
+    // Offset: 0x113FDB4
     static AchievementDefinition* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.AchievementDefinition
 }

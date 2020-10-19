@@ -48,42 +48,42 @@ namespace System::Net::Http::Headers {
     // Offset: 0x18
     ::Il2CppString* media_type;
     // protected System.Void .ctor(System.Net.Http.Headers.MediaTypeHeaderValue source)
-    // Offset: 0x13A5450
+    // Offset: 0x117AB8C
     static MediaTypeHeaderValue* New_ctor(System::Net::Http::Headers::MediaTypeHeaderValue* source);
     // public System.String get_CharSet()
-    // Offset: 0x13A56D8
+    // Offset: 0x117AE14
     ::Il2CppString* get_CharSet();
     // public System.Collections.Generic.ICollection`1<System.Net.Http.Headers.NameValueHeaderValue> get_Parameters()
-    // Offset: 0x13A5650
+    // Offset: 0x117AD8C
     System::Collections::Generic::ICollection_1<System::Net::Http::Headers::NameValueHeaderValue*>* get_Parameters();
     // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.MediaTypeHeaderValue parsedValue)
-    // Offset: 0x13A5A10
+    // Offset: 0x117B14C
     static bool TryParse(::Il2CppString* input, System::Net::Http::Headers::MediaTypeHeaderValue*& parsedValue);
     // static System.Nullable`1<System.Net.Http.Headers.Token> TryParseMediaType(System.Net.Http.Headers.Lexer lexer, out System.String media)
-    // Offset: 0x13A5B90
+    // Offset: 0x117B2CC
     static System::Nullable_1<System::Net::Http::Headers::Token> TryParseMediaType(System::Net::Http::Headers::Lexer* lexer, ::Il2CppString*& media);
     // System.Void .ctor()
-    // Offset: 0x13A56D0
+    // Offset: 0x117AE0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MediaTypeHeaderValue* New_ctor();
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x13A57E8
+    // Offset: 0x117AF24
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* System_ICloneable_Clone();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x13A5848
+    // Offset: 0x117AF84
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x13A5918
+    // Offset: 0x117B054
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x13A599C
+    // Offset: 0x117B0D8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

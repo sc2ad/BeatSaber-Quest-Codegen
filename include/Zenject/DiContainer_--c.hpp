@@ -72,31 +72,31 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Type,System.Boolean> <>9__198_0
     static void _set_$$9__198_0(System::Func_2<System::Type*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x144727C
+    // Offset: 0x121D9B8
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<Zenject.DiContainer/ProviderInfo> <get_AllProviders>b__33_0(System.Collections.Generic.List`1<Zenject.DiContainer/ProviderInfo> x)
-    // Offset: 0x14472EC
+    // Offset: 0x121DA28
     System::Collections::Generic::IEnumerable_1<Zenject::DiContainer::ProviderInfo*>* $get_AllProviders$b__33_0(System::Collections::Generic::List_1<Zenject::DiContainer::ProviderInfo*>* x);
     // Zenject.IProvider <get_AllProviders>b__33_1(Zenject.DiContainer/ProviderInfo x)
-    // Offset: 0x14472F4
+    // Offset: 0x121DA30
     Zenject::IProvider* $get_AllProviders$b__33_1(Zenject::DiContainer::ProviderInfo* x);
     // System.Boolean <ResolveTypeAll>b__86_1(System.Type x)
-    // Offset: 0x144730C
+    // Offset: 0x121DA48
     bool $ResolveTypeAll$b__86_1(System::Type* x);
     // System.String <InstantiateInternal>b__97_0(Zenject.TypeValuePair x)
-    // Offset: 0x1447378
+    // Offset: 0x121DAB4
     ::Il2CppString* $InstantiateInternal$b__97_0(Zenject::TypeValuePair x);
     // System.String <InjectExplicitInternal>b__102_0(Zenject.TypeValuePair x)
-    // Offset: 0x14473E0
+    // Offset: 0x121DB1C
     ::Il2CppString* $InjectExplicitInternal$b__102_0(Zenject::TypeValuePair x);
     // System.Boolean <BindInternal>b__197_0(System.Type x)
-    // Offset: 0x1447448
+    // Offset: 0x121DB84
     bool $BindInternal$b__197_0(System::Type* x);
     // System.Boolean <Bind>b__198_0(System.Type x)
-    // Offset: 0x14474C4
+    // Offset: 0x121DC00
     bool $Bind$b__198_0(System::Type* x);
     // public System.Void .ctor()
-    // Offset: 0x14472E4
+    // Offset: 0x121DA20
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DiContainer::$$c* New_ctor();

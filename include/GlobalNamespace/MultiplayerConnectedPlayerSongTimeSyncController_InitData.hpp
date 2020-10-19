@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     float timeScale;
     // public System.Void .ctor(System.Single startSongTime, System.Single songTimeOffset, System.Single timeScale)
-    // Offset: 0xFCCE9C
+    // Offset: 0x20619D4
     static MultiplayerConnectedPlayerSongTimeSyncController::InitData* New_ctor(float startSongTime, float songTimeOffset, float timeScale);
   }; // MultiplayerConnectedPlayerSongTimeSyncController/InitData
 }

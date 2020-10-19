@@ -28,16 +28,16 @@ namespace Mono::Unity {
   class UnityTls::unitytls_interface_struct::unitytls_tlsctx_create_client_t : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1423198
+    // Offset: 0x11F98D4
     static UnityTls::unitytls_interface_struct::unitytls_tlsctx_create_client_t* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Mono.Unity.UnityTls/unitytls_tlsctx* Invoke(Mono.Unity.UnityTls/unitytls_tlsctx_protocolrange supportedProtocols, Mono.Unity.UnityTls/unitytls_tlsctx_callbacks callbacks, System.Byte* cn, System.IntPtr cnLen, Mono.Unity.UnityTls/unitytls_errorstate* errorState)
-    // Offset: 0x14231AC
+    // Offset: 0x11F98E8
     Mono::Unity::UnityTls::unitytls_tlsctx* Invoke(Mono::Unity::UnityTls::unitytls_tlsctx_protocolrange supportedProtocols, Mono::Unity::UnityTls::unitytls_tlsctx_callbacks callbacks, uint8_t* cn, System::IntPtr cnLen, Mono::Unity::UnityTls::unitytls_errorstate* errorState);
     // public System.IAsyncResult BeginInvoke(Mono.Unity.UnityTls/unitytls_tlsctx_protocolrange supportedProtocols, Mono.Unity.UnityTls/unitytls_tlsctx_callbacks callbacks, System.Byte* cn, System.IntPtr cnLen, Mono.Unity.UnityTls/unitytls_errorstate* errorState, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x142356C
+    // Offset: 0x11F9CA8
     System::IAsyncResult* BeginInvoke(Mono::Unity::UnityTls::unitytls_tlsctx_protocolrange supportedProtocols, Mono::Unity::UnityTls::unitytls_tlsctx_callbacks callbacks, uint8_t* cn, System::IntPtr cnLen, Mono::Unity::UnityTls::unitytls_errorstate* errorState, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Mono.Unity.UnityTls/unitytls_tlsctx* EndInvoke(System.IAsyncResult result)
-    // Offset: 0x142364C
+    // Offset: 0x11F9D88
     Mono::Unity::UnityTls::unitytls_tlsctx* EndInvoke(System::IAsyncResult* result);
   }; // Mono.Unity.UnityTls/unitytls_interface_struct/unitytls_tlsctx_create_client_t
 }

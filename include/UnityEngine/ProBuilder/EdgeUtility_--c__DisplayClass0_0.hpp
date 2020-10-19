@@ -30,10 +30,10 @@ namespace UnityEngine::ProBuilder {
       return mesh;
     }
     // UnityEngine.ProBuilder.Edge <GetSharedVertexHandleEdges>b__0(UnityEngine.ProBuilder.Edge x)
-    // Offset: 0x193AA94
+    // Offset: 0x16E0EB8
     UnityEngine::ProBuilder::Edge $GetSharedVertexHandleEdges$b__0(UnityEngine::ProBuilder::Edge x);
     // public System.Void .ctor()
-    // Offset: 0x193A1B8
+    // Offset: 0x16E05DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EdgeUtility::$$c__DisplayClass0_0* New_ctor();

@@ -30,16 +30,16 @@ namespace System::Reflection {
     // Offset: 0x20
     System::Reflection::ResourceLocation resourceLocation;
     // public System.Void .ctor(System.Reflection.Assembly containingAssembly, System.String containingFileName, System.Reflection.ResourceLocation resourceLocation)
-    // Offset: 0x18CC998
+    // Offset: 0x1672DBC
     static ManifestResourceInfo* New_ctor(System::Reflection::Assembly* containingAssembly, ::Il2CppString* containingFileName, System::Reflection::ResourceLocation resourceLocation);
     // public System.Reflection.Assembly get_ReferencedAssembly()
-    // Offset: 0x18CC9F4
+    // Offset: 0x1672E18
     System::Reflection::Assembly* get_ReferencedAssembly();
     // public System.String get_FileName()
-    // Offset: 0x18CC9FC
+    // Offset: 0x1672E20
     ::Il2CppString* get_FileName();
     // public System.Reflection.ResourceLocation get_ResourceLocation()
-    // Offset: 0x18CCA04
+    // Offset: 0x1672E28
     System::Reflection::ResourceLocation get_ResourceLocation();
   }; // System.Reflection.ManifestResourceInfo
 }

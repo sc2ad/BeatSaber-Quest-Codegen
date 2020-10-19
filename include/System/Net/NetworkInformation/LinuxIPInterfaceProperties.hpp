@@ -36,13 +36,13 @@ namespace System::Net::NetworkInformation {
   class LinuxIPInterfaceProperties : public System::Net::NetworkInformation::UnixIPInterfaceProperties {
     public:
     // public System.Void .ctor(System.Net.NetworkInformation.LinuxNetworkInterface iface, System.Collections.Generic.List`1<System.Net.IPAddress> addresses)
-    // Offset: 0x12C8C18
+    // Offset: 0x10C44B4
     static LinuxIPInterfaceProperties* New_ctor(System::Net::NetworkInformation::LinuxNetworkInterface* iface, System::Collections::Generic::List_1<System::Net::IPAddress*>* addresses);
     // private System.Net.NetworkInformation.IPAddressCollection ParseRouteInfo(System.String iface)
-    // Offset: 0x12C8CE4
+    // Offset: 0x10C4580
     System::Net::NetworkInformation::IPAddressCollection* ParseRouteInfo(::Il2CppString* iface);
     // public override System.Net.NetworkInformation.GatewayIPAddressInformationCollection get_GatewayAddresses()
-    // Offset: 0x12C91A8
+    // Offset: 0x10C4A44
     // Implemented from: System.Net.NetworkInformation.IPInterfaceProperties
     // Base method: System.Net.NetworkInformation.GatewayIPAddressInformationCollection IPInterfaceProperties::get_GatewayAddresses()
     System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();

@@ -50,25 +50,25 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Offset: 0x20
     bool forSigning;
     // protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier CreateBasePointMultiplier()
-    // Offset: 0x10F71CC
+    // Offset: 0xF51E5C
     Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier();
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x10F6A90
+    // Offset: 0xF51720
     // Implemented from: Org.BouncyCastle.Crypto.IDsa
     // Base method: System.Void IDsa::Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public Org.BouncyCastle.Math.BigInteger get_Order()
-    // Offset: 0x10F6C40
+    // Offset: 0xF518D0
     // Implemented from: Org.BouncyCastle.Crypto.IDsaExt
     // Base method: Org.BouncyCastle.Math.BigInteger IDsaExt::get_Order()
     Org::BouncyCastle::Math::BigInteger* get_Order();
     // public Org.BouncyCastle.Math.BigInteger[] GenerateSignature(System.Byte[] message)
-    // Offset: 0x10F6C68
+    // Offset: 0xF518F8
     // Implemented from: Org.BouncyCastle.Crypto.IDsa
     // Base method: Org.BouncyCastle.Math.BigInteger[] IDsa::GenerateSignature(System.Byte[] message)
     ::Array<Org::BouncyCastle::Math::BigInteger*>* GenerateSignature(::Array<uint8_t>* message);
     // public System.Void .ctor()
-    // Offset: 0x10F7228
+    // Offset: 0xF51EB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ECGost3410Signer* New_ctor();

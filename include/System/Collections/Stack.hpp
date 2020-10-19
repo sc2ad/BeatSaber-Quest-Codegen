@@ -41,27 +41,27 @@ namespace System::Collections {
     // Offset: 0x1C
     int version;
     // public System.Void .ctor(System.Int32 initialCapacity)
-    // Offset: 0x17EB3E4
+    // Offset: 0x1592808
     static Stack* New_ctor(int initialCapacity);
     // public System.Void Clear()
-    // Offset: 0x17EB4D4
+    // Offset: 0x15928F8
     void Clear();
     // public System.Object Peek()
-    // Offset: 0x17EB938
+    // Offset: 0x1592D5C
     ::Il2CppObject* Peek();
     // public System.Object Pop()
-    // Offset: 0x17EBA00
+    // Offset: 0x1592E24
     ::Il2CppObject* Pop();
     // public System.Void Push(System.Object obj)
-    // Offset: 0x17EBAE4
+    // Offset: 0x1592F08
     void Push(::Il2CppObject* obj);
     // public System.Void .ctor()
-    // Offset: 0x17EB370
+    // Offset: 0x1592794
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Stack* New_ctor();
     // public System.Int32 get_Count()
-    // Offset: 0x17EB4CC
+    // Offset: 0x15928F0
     // Implemented from: System.Collections.ICollection
     // Base method: System.Int32 ICollection::get_Count()
     int get_Count();
@@ -69,7 +69,7 @@ namespace System::Collections {
     // Maps to method: get_Count
     int System_Collections_ICollection_get_Count();
     // public System.Object Clone()
-    // Offset: 0x17EB510
+    // Offset: 0x1592934
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();
@@ -77,7 +77,7 @@ namespace System::Collections {
     // Maps to method: Clone
     ::Il2CppObject* System_ICloneable_Clone();
     // public System.Void CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x17EB5B0
+    // Offset: 0x15929D4
     // Implemented from: System.Collections.ICollection
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
     void CopyTo(System::Array* array, int index);
@@ -85,7 +85,7 @@ namespace System::Collections {
     // Maps to method: CopyTo
     void System_Collections_ICollection_CopyTo(System::Array* array, int index);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x17EB870
+    // Offset: 0x1592C94
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* GetEnumerator();

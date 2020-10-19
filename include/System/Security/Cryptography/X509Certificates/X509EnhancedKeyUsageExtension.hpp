@@ -32,18 +32,18 @@ namespace System::Security::Cryptography::X509Certificates {
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // public System.Void .ctor(System.Security.Cryptography.AsnEncodedData encodedEnhancedKeyUsages, System.Boolean critical)
-    // Offset: 0x16C50AC
+    // Offset: 0x147FC80
     static X509EnhancedKeyUsageExtension* New_ctor(System::Security::Cryptography::AsnEncodedData* encodedEnhancedKeyUsages, bool critical);
     // System.Security.Cryptography.AsnDecodeStatus Decode(System.Byte[] extension)
-    // Offset: 0x16C517C
+    // Offset: 0x147FD50
     System::Security::Cryptography::AsnDecodeStatus Decode(::Array<uint8_t>* extension);
     // public override System.Void CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
-    // Offset: 0x16C53DC
+    // Offset: 0x147FFB0
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Extension
     // Base method: System.Void X509Extension::CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
     void CopyFrom(System::Security::Cryptography::AsnEncodedData* asnEncodedData);
     // override System.String ToString(System.Boolean multiLine)
-    // Offset: 0x16C557C
+    // Offset: 0x1480150
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.String AsnEncodedData::ToString(System.Boolean multiLine)
     ::Il2CppString* ToString(bool multiLine);

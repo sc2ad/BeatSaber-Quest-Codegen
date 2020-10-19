@@ -14,7 +14,7 @@ namespace Zenject {
   class InjectAttribute : public Zenject::InjectAttributeBase {
     public:
     // public System.Void .ctor()
-    // Offset: 0x220C804
+    // Offset: 0x1F5D214
     // Implemented from: Zenject.InjectAttributeBase
     // Base method: System.Void InjectAttributeBase::.ctor()
     // Base method: System.Void PreserveAttribute::.ctor()

@@ -26,13 +26,13 @@ namespace Org::BouncyCastle::Security {
   class PrivateKeyFactory : public ::Il2CppObject {
     public:
     // static public Org.BouncyCastle.Crypto.AsymmetricKeyParameter CreateKey(Org.BouncyCastle.Asn1.Pkcs.PrivateKeyInfo keyInfo)
-    // Offset: 0x11D9834
+    // Offset: 0xFD50D0
     static Org::BouncyCastle::Crypto::AsymmetricKeyParameter* CreateKey(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* keyInfo);
     // static private System.Byte[] GetRawKey(Org.BouncyCastle.Asn1.Pkcs.PrivateKeyInfo keyInfo, System.Int32 expectedSize)
-    // Offset: 0x11DAC90
+    // Offset: 0xFD652C
     static ::Array<uint8_t>* GetRawKey(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* keyInfo, int expectedSize);
     // static public Org.BouncyCastle.Crypto.AsymmetricKeyParameter DecryptKey(System.Char[] passPhrase, Org.BouncyCastle.Asn1.Pkcs.EncryptedPrivateKeyInfo encInfo)
-    // Offset: 0x11DAD54
+    // Offset: 0xFD65F0
     static Org::BouncyCastle::Crypto::AsymmetricKeyParameter* DecryptKey(::Array<::Il2CppChar>* passPhrase, Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* encInfo);
   }; // Org.BouncyCastle.Security.PrivateKeyFactory
 }

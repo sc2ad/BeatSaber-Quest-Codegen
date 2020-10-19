@@ -23,13 +23,13 @@ namespace MasterServer {
       return state;
     }
     // public System.Void .ctor(System.String metricName)
-    // Offset: 0x11697EC
+    // Offset: 0x21641D4
     static BaseAnalyticsManager::StateMetric* New_ctor(::Il2CppString* metricName);
     // public System.Void SetState(System.Int64 state)
-    // Offset: 0x116B330
+    // Offset: 0x2165D18
     void SetState(int64_t state);
     // public override System.Double GetValueAndReset()
-    // Offset: 0x116B338
+    // Offset: 0x2165D20
     // Implemented from: MasterServer.BaseAnalyticsManager/AnalyticsMetric
     // Base method: System.Double AnalyticsMetric::GetValueAndReset()
     double GetValueAndReset();

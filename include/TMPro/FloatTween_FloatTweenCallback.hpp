@@ -16,7 +16,7 @@ namespace TMPro {
   class FloatTween::FloatTweenCallback : public UnityEngine::Events::UnityEvent_1<float> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xF3E444
+    // Offset: 0xEB8D78
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

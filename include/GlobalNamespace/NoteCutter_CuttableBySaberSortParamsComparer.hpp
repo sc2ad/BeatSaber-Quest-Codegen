@@ -16,7 +16,7 @@ namespace GlobalNamespace {
   class NoteCutter::CuttableBySaberSortParamsComparer : public ::Il2CppObject, public System::Collections::IComparer {
     public:
     // public System.Int32 Compare(System.Object p0, System.Object p1)
-    // Offset: 0x10AA14C
+    // Offset: 0x20F6164
     // Implemented from: System.Collections.IComparer
     // Base method: System.Int32 IComparer::Compare(System.Object p0, System.Object p1)
     int Compare(::Il2CppObject* p0, ::Il2CppObject* p1);
@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Maps to method: Compare
     int System_Collections_IComparer_Compare(::Il2CppObject* p0, ::Il2CppObject* p1);
     // public System.Void .ctor()
-    // Offset: 0x10A9A70
+    // Offset: 0x20F5A88
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NoteCutter::CuttableBySaberSortParamsComparer* New_ctor();

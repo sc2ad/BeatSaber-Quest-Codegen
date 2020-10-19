@@ -80,253 +80,253 @@ namespace OVR::OpenVR {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x137F550
+    // Offset: 0x1154C8C
     static CVROverlay* New_ctor(System::IntPtr pInterface);
     // public OVR.OpenVR.EVROverlayError FindOverlay(System.String pchOverlayKey, ref System.UInt64 pOverlayHandle)
-    // Offset: 0x137F664
+    // Offset: 0x1154DA0
     OVR::OpenVR::EVROverlayError FindOverlay(::Il2CppString* pchOverlayKey, uint64_t& pOverlayHandle);
     // public OVR.OpenVR.EVROverlayError CreateOverlay(System.String pchOverlayKey, System.String pchOverlayName, ref System.UInt64 pOverlayHandle)
-    // Offset: 0x137F684
+    // Offset: 0x1154DC0
     OVR::OpenVR::EVROverlayError CreateOverlay(::Il2CppString* pchOverlayKey, ::Il2CppString* pchOverlayName, uint64_t& pOverlayHandle);
     // public OVR.OpenVR.EVROverlayError DestroyOverlay(System.UInt64 ulOverlayHandle)
-    // Offset: 0x137F6A4
+    // Offset: 0x1154DE0
     OVR::OpenVR::EVROverlayError DestroyOverlay(uint64_t ulOverlayHandle);
     // public OVR.OpenVR.EVROverlayError SetHighQualityOverlay(System.UInt64 ulOverlayHandle)
-    // Offset: 0x137F6C0
+    // Offset: 0x1154DFC
     OVR::OpenVR::EVROverlayError SetHighQualityOverlay(uint64_t ulOverlayHandle);
     // public System.UInt64 GetHighQualityOverlay()
-    // Offset: 0x137F6DC
+    // Offset: 0x1154E18
     uint64_t GetHighQualityOverlay();
     // public System.UInt32 GetOverlayKey(System.UInt64 ulOverlayHandle, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, ref OVR.OpenVR.EVROverlayError pError)
-    // Offset: 0x137F6F8
+    // Offset: 0x1154E34
     uint GetOverlayKey(uint64_t ulOverlayHandle, System::Text::StringBuilder* pchValue, uint unBufferSize, OVR::OpenVR::EVROverlayError& pError);
     // public System.UInt32 GetOverlayName(System.UInt64 ulOverlayHandle, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, ref OVR.OpenVR.EVROverlayError pError)
-    // Offset: 0x137F714
+    // Offset: 0x1154E50
     uint GetOverlayName(uint64_t ulOverlayHandle, System::Text::StringBuilder* pchValue, uint unBufferSize, OVR::OpenVR::EVROverlayError& pError);
     // public OVR.OpenVR.EVROverlayError SetOverlayName(System.UInt64 ulOverlayHandle, System.String pchName)
-    // Offset: 0x137F730
+    // Offset: 0x1154E6C
     OVR::OpenVR::EVROverlayError SetOverlayName(uint64_t ulOverlayHandle, ::Il2CppString* pchName);
     // public OVR.OpenVR.EVROverlayError GetOverlayImageData(System.UInt64 ulOverlayHandle, System.IntPtr pvBuffer, System.UInt32 unBufferSize, ref System.UInt32 punWidth, ref System.UInt32 punHeight)
-    // Offset: 0x137F74C
+    // Offset: 0x1154E88
     OVR::OpenVR::EVROverlayError GetOverlayImageData(uint64_t ulOverlayHandle, System::IntPtr pvBuffer, uint unBufferSize, uint& punWidth, uint& punHeight);
     // public System.String GetOverlayErrorNameFromEnum(OVR.OpenVR.EVROverlayError error)
-    // Offset: 0x137F770
+    // Offset: 0x1154EAC
     ::Il2CppString* GetOverlayErrorNameFromEnum(OVR::OpenVR::EVROverlayError error);
     // public OVR.OpenVR.EVROverlayError SetOverlayRenderingPid(System.UInt64 ulOverlayHandle, System.UInt32 unPID)
-    // Offset: 0x137F804
+    // Offset: 0x1154F40
     OVR::OpenVR::EVROverlayError SetOverlayRenderingPid(uint64_t ulOverlayHandle, uint unPID);
     // public System.UInt32 GetOverlayRenderingPid(System.UInt64 ulOverlayHandle)
-    // Offset: 0x137F820
+    // Offset: 0x1154F5C
     uint GetOverlayRenderingPid(uint64_t ulOverlayHandle);
     // public OVR.OpenVR.EVROverlayError SetOverlayFlag(System.UInt64 ulOverlayHandle, OVR.OpenVR.VROverlayFlags eOverlayFlag, System.Boolean bEnabled)
-    // Offset: 0x137F83C
+    // Offset: 0x1154F78
     OVR::OpenVR::EVROverlayError SetOverlayFlag(uint64_t ulOverlayHandle, OVR::OpenVR::VROverlayFlags eOverlayFlag, bool bEnabled);
     // public OVR.OpenVR.EVROverlayError GetOverlayFlag(System.UInt64 ulOverlayHandle, OVR.OpenVR.VROverlayFlags eOverlayFlag, ref System.Boolean pbEnabled)
-    // Offset: 0x137F85C
+    // Offset: 0x1154F98
     OVR::OpenVR::EVROverlayError GetOverlayFlag(uint64_t ulOverlayHandle, OVR::OpenVR::VROverlayFlags eOverlayFlag, bool& pbEnabled);
     // public OVR.OpenVR.EVROverlayError SetOverlayColor(System.UInt64 ulOverlayHandle, System.Single fRed, System.Single fGreen, System.Single fBlue)
-    // Offset: 0x137F87C
+    // Offset: 0x1154FB8
     OVR::OpenVR::EVROverlayError SetOverlayColor(uint64_t ulOverlayHandle, float fRed, float fGreen, float fBlue);
     // public OVR.OpenVR.EVROverlayError GetOverlayColor(System.UInt64 ulOverlayHandle, ref System.Single pfRed, ref System.Single pfGreen, ref System.Single pfBlue)
-    // Offset: 0x137F898
+    // Offset: 0x1154FD4
     OVR::OpenVR::EVROverlayError GetOverlayColor(uint64_t ulOverlayHandle, float& pfRed, float& pfGreen, float& pfBlue);
     // public OVR.OpenVR.EVROverlayError SetOverlayAlpha(System.UInt64 ulOverlayHandle, System.Single fAlpha)
-    // Offset: 0x137F8C0
+    // Offset: 0x1154FFC
     OVR::OpenVR::EVROverlayError SetOverlayAlpha(uint64_t ulOverlayHandle, float fAlpha);
     // public OVR.OpenVR.EVROverlayError GetOverlayAlpha(System.UInt64 ulOverlayHandle, ref System.Single pfAlpha)
-    // Offset: 0x137F8DC
+    // Offset: 0x1155018
     OVR::OpenVR::EVROverlayError GetOverlayAlpha(uint64_t ulOverlayHandle, float& pfAlpha);
     // public OVR.OpenVR.EVROverlayError SetOverlayTexelAspect(System.UInt64 ulOverlayHandle, System.Single fTexelAspect)
-    // Offset: 0x137F8FC
+    // Offset: 0x1155038
     OVR::OpenVR::EVROverlayError SetOverlayTexelAspect(uint64_t ulOverlayHandle, float fTexelAspect);
     // public OVR.OpenVR.EVROverlayError GetOverlayTexelAspect(System.UInt64 ulOverlayHandle, ref System.Single pfTexelAspect)
-    // Offset: 0x137F918
+    // Offset: 0x1155054
     OVR::OpenVR::EVROverlayError GetOverlayTexelAspect(uint64_t ulOverlayHandle, float& pfTexelAspect);
     // public OVR.OpenVR.EVROverlayError SetOverlaySortOrder(System.UInt64 ulOverlayHandle, System.UInt32 unSortOrder)
-    // Offset: 0x137F938
+    // Offset: 0x1155074
     OVR::OpenVR::EVROverlayError SetOverlaySortOrder(uint64_t ulOverlayHandle, uint unSortOrder);
     // public OVR.OpenVR.EVROverlayError GetOverlaySortOrder(System.UInt64 ulOverlayHandle, ref System.UInt32 punSortOrder)
-    // Offset: 0x137F954
+    // Offset: 0x1155090
     OVR::OpenVR::EVROverlayError GetOverlaySortOrder(uint64_t ulOverlayHandle, uint& punSortOrder);
     // public OVR.OpenVR.EVROverlayError SetOverlayWidthInMeters(System.UInt64 ulOverlayHandle, System.Single fWidthInMeters)
-    // Offset: 0x137F974
+    // Offset: 0x11550B0
     OVR::OpenVR::EVROverlayError SetOverlayWidthInMeters(uint64_t ulOverlayHandle, float fWidthInMeters);
     // public OVR.OpenVR.EVROverlayError GetOverlayWidthInMeters(System.UInt64 ulOverlayHandle, ref System.Single pfWidthInMeters)
-    // Offset: 0x137F990
+    // Offset: 0x11550CC
     OVR::OpenVR::EVROverlayError GetOverlayWidthInMeters(uint64_t ulOverlayHandle, float& pfWidthInMeters);
     // public OVR.OpenVR.EVROverlayError SetOverlayAutoCurveDistanceRangeInMeters(System.UInt64 ulOverlayHandle, System.Single fMinDistanceInMeters, System.Single fMaxDistanceInMeters)
-    // Offset: 0x137F9B0
+    // Offset: 0x11550EC
     OVR::OpenVR::EVROverlayError SetOverlayAutoCurveDistanceRangeInMeters(uint64_t ulOverlayHandle, float fMinDistanceInMeters, float fMaxDistanceInMeters);
     // public OVR.OpenVR.EVROverlayError GetOverlayAutoCurveDistanceRangeInMeters(System.UInt64 ulOverlayHandle, ref System.Single pfMinDistanceInMeters, ref System.Single pfMaxDistanceInMeters)
-    // Offset: 0x137F9CC
+    // Offset: 0x1155108
     OVR::OpenVR::EVROverlayError GetOverlayAutoCurveDistanceRangeInMeters(uint64_t ulOverlayHandle, float& pfMinDistanceInMeters, float& pfMaxDistanceInMeters);
     // public OVR.OpenVR.EVROverlayError SetOverlayTextureColorSpace(System.UInt64 ulOverlayHandle, OVR.OpenVR.EColorSpace eTextureColorSpace)
-    // Offset: 0x137F9F0
+    // Offset: 0x115512C
     OVR::OpenVR::EVROverlayError SetOverlayTextureColorSpace(uint64_t ulOverlayHandle, OVR::OpenVR::EColorSpace eTextureColorSpace);
     // public OVR.OpenVR.EVROverlayError GetOverlayTextureColorSpace(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.EColorSpace peTextureColorSpace)
-    // Offset: 0x137FA0C
+    // Offset: 0x1155148
     OVR::OpenVR::EVROverlayError GetOverlayTextureColorSpace(uint64_t ulOverlayHandle, OVR::OpenVR::EColorSpace& peTextureColorSpace);
     // public OVR.OpenVR.EVROverlayError SetOverlayTextureBounds(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.VRTextureBounds_t pOverlayTextureBounds)
-    // Offset: 0x137FA28
+    // Offset: 0x1155164
     OVR::OpenVR::EVROverlayError SetOverlayTextureBounds(uint64_t ulOverlayHandle, OVR::OpenVR::VRTextureBounds_t& pOverlayTextureBounds);
     // public OVR.OpenVR.EVROverlayError GetOverlayTextureBounds(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.VRTextureBounds_t pOverlayTextureBounds)
-    // Offset: 0x137FA44
+    // Offset: 0x1155180
     OVR::OpenVR::EVROverlayError GetOverlayTextureBounds(uint64_t ulOverlayHandle, OVR::OpenVR::VRTextureBounds_t& pOverlayTextureBounds);
     // public System.UInt32 GetOverlayRenderModel(System.UInt64 ulOverlayHandle, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, ref OVR.OpenVR.HmdColor_t pColor, ref OVR.OpenVR.EVROverlayError pError)
-    // Offset: 0x137FA60
+    // Offset: 0x115519C
     uint GetOverlayRenderModel(uint64_t ulOverlayHandle, System::Text::StringBuilder* pchValue, uint unBufferSize, OVR::OpenVR::HmdColor_t& pColor, OVR::OpenVR::EVROverlayError& pError);
     // public OVR.OpenVR.EVROverlayError SetOverlayRenderModel(System.UInt64 ulOverlayHandle, System.String pchRenderModel, ref OVR.OpenVR.HmdColor_t pColor)
-    // Offset: 0x137FA7C
+    // Offset: 0x11551B8
     OVR::OpenVR::EVROverlayError SetOverlayRenderModel(uint64_t ulOverlayHandle, ::Il2CppString* pchRenderModel, OVR::OpenVR::HmdColor_t& pColor);
     // public OVR.OpenVR.EVROverlayError GetOverlayTransformType(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.VROverlayTransformType peTransformType)
-    // Offset: 0x137FA98
+    // Offset: 0x11551D4
     OVR::OpenVR::EVROverlayError GetOverlayTransformType(uint64_t ulOverlayHandle, OVR::OpenVR::VROverlayTransformType& peTransformType);
     // public OVR.OpenVR.EVROverlayError SetOverlayTransformAbsolute(System.UInt64 ulOverlayHandle, OVR.OpenVR.ETrackingUniverseOrigin eTrackingOrigin, ref OVR.OpenVR.HmdMatrix34_t pmatTrackingOriginToOverlayTransform)
-    // Offset: 0x137FAB4
+    // Offset: 0x11551F0
     OVR::OpenVR::EVROverlayError SetOverlayTransformAbsolute(uint64_t ulOverlayHandle, OVR::OpenVR::ETrackingUniverseOrigin eTrackingOrigin, OVR::OpenVR::HmdMatrix34_t& pmatTrackingOriginToOverlayTransform);
     // public OVR.OpenVR.EVROverlayError GetOverlayTransformAbsolute(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.ETrackingUniverseOrigin peTrackingOrigin, ref OVR.OpenVR.HmdMatrix34_t pmatTrackingOriginToOverlayTransform)
-    // Offset: 0x137FAD0
+    // Offset: 0x115520C
     OVR::OpenVR::EVROverlayError GetOverlayTransformAbsolute(uint64_t ulOverlayHandle, OVR::OpenVR::ETrackingUniverseOrigin& peTrackingOrigin, OVR::OpenVR::HmdMatrix34_t& pmatTrackingOriginToOverlayTransform);
     // public OVR.OpenVR.EVROverlayError SetOverlayTransformTrackedDeviceRelative(System.UInt64 ulOverlayHandle, System.UInt32 unTrackedDevice, ref OVR.OpenVR.HmdMatrix34_t pmatTrackedDeviceToOverlayTransform)
-    // Offset: 0x137FAEC
+    // Offset: 0x1155228
     OVR::OpenVR::EVROverlayError SetOverlayTransformTrackedDeviceRelative(uint64_t ulOverlayHandle, uint unTrackedDevice, OVR::OpenVR::HmdMatrix34_t& pmatTrackedDeviceToOverlayTransform);
     // public OVR.OpenVR.EVROverlayError GetOverlayTransformTrackedDeviceRelative(System.UInt64 ulOverlayHandle, ref System.UInt32 punTrackedDevice, ref OVR.OpenVR.HmdMatrix34_t pmatTrackedDeviceToOverlayTransform)
-    // Offset: 0x137FB08
+    // Offset: 0x1155244
     OVR::OpenVR::EVROverlayError GetOverlayTransformTrackedDeviceRelative(uint64_t ulOverlayHandle, uint& punTrackedDevice, OVR::OpenVR::HmdMatrix34_t& pmatTrackedDeviceToOverlayTransform);
     // public OVR.OpenVR.EVROverlayError SetOverlayTransformTrackedDeviceComponent(System.UInt64 ulOverlayHandle, System.UInt32 unDeviceIndex, System.String pchComponentName)
-    // Offset: 0x137FB28
+    // Offset: 0x1155264
     OVR::OpenVR::EVROverlayError SetOverlayTransformTrackedDeviceComponent(uint64_t ulOverlayHandle, uint unDeviceIndex, ::Il2CppString* pchComponentName);
     // public OVR.OpenVR.EVROverlayError GetOverlayTransformTrackedDeviceComponent(System.UInt64 ulOverlayHandle, ref System.UInt32 punDeviceIndex, System.Text.StringBuilder pchComponentName, System.UInt32 unComponentNameSize)
-    // Offset: 0x137FB44
+    // Offset: 0x1155280
     OVR::OpenVR::EVROverlayError GetOverlayTransformTrackedDeviceComponent(uint64_t ulOverlayHandle, uint& punDeviceIndex, System::Text::StringBuilder* pchComponentName, uint unComponentNameSize);
     // public OVR.OpenVR.EVROverlayError GetOverlayTransformOverlayRelative(System.UInt64 ulOverlayHandle, ref System.UInt64 ulOverlayHandleParent, ref OVR.OpenVR.HmdMatrix34_t pmatParentOverlayToOverlayTransform)
-    // Offset: 0x137FB64
+    // Offset: 0x11552A0
     OVR::OpenVR::EVROverlayError GetOverlayTransformOverlayRelative(uint64_t ulOverlayHandle, uint64_t& ulOverlayHandleParent, OVR::OpenVR::HmdMatrix34_t& pmatParentOverlayToOverlayTransform);
     // public OVR.OpenVR.EVROverlayError SetOverlayTransformOverlayRelative(System.UInt64 ulOverlayHandle, System.UInt64 ulOverlayHandleParent, ref OVR.OpenVR.HmdMatrix34_t pmatParentOverlayToOverlayTransform)
-    // Offset: 0x137FB84
+    // Offset: 0x11552C0
     OVR::OpenVR::EVROverlayError SetOverlayTransformOverlayRelative(uint64_t ulOverlayHandle, uint64_t ulOverlayHandleParent, OVR::OpenVR::HmdMatrix34_t& pmatParentOverlayToOverlayTransform);
     // public OVR.OpenVR.EVROverlayError ShowOverlay(System.UInt64 ulOverlayHandle)
-    // Offset: 0x137FBA0
+    // Offset: 0x11552DC
     OVR::OpenVR::EVROverlayError ShowOverlay(uint64_t ulOverlayHandle);
     // public OVR.OpenVR.EVROverlayError HideOverlay(System.UInt64 ulOverlayHandle)
-    // Offset: 0x137FBBC
+    // Offset: 0x11552F8
     OVR::OpenVR::EVROverlayError HideOverlay(uint64_t ulOverlayHandle);
     // public System.Boolean IsOverlayVisible(System.UInt64 ulOverlayHandle)
-    // Offset: 0x137FBD8
+    // Offset: 0x1155314
     bool IsOverlayVisible(uint64_t ulOverlayHandle);
     // public OVR.OpenVR.EVROverlayError GetTransformForOverlayCoordinates(System.UInt64 ulOverlayHandle, OVR.OpenVR.ETrackingUniverseOrigin eTrackingOrigin, OVR.OpenVR.HmdVector2_t coordinatesInOverlay, ref OVR.OpenVR.HmdMatrix34_t pmatTransform)
-    // Offset: 0x137FBF4
+    // Offset: 0x1155330
     OVR::OpenVR::EVROverlayError GetTransformForOverlayCoordinates(uint64_t ulOverlayHandle, OVR::OpenVR::ETrackingUniverseOrigin eTrackingOrigin, OVR::OpenVR::HmdVector2_t coordinatesInOverlay, OVR::OpenVR::HmdMatrix34_t& pmatTransform);
     // public System.Boolean PollNextOverlayEvent(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.VREvent_t pEvent, System.UInt32 uncbVREvent)
-    // Offset: 0x137FC10
+    // Offset: 0x115534C
     bool PollNextOverlayEvent(uint64_t ulOverlayHandle, OVR::OpenVR::VREvent_t& pEvent, uint uncbVREvent);
     // public OVR.OpenVR.EVROverlayError GetOverlayInputMethod(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.VROverlayInputMethod peInputMethod)
-    // Offset: 0x138004C
+    // Offset: 0x1155788
     OVR::OpenVR::EVROverlayError GetOverlayInputMethod(uint64_t ulOverlayHandle, OVR::OpenVR::VROverlayInputMethod& peInputMethod);
     // public OVR.OpenVR.EVROverlayError SetOverlayInputMethod(System.UInt64 ulOverlayHandle, OVR.OpenVR.VROverlayInputMethod eInputMethod)
-    // Offset: 0x1380068
+    // Offset: 0x11557A4
     OVR::OpenVR::EVROverlayError SetOverlayInputMethod(uint64_t ulOverlayHandle, OVR::OpenVR::VROverlayInputMethod eInputMethod);
     // public OVR.OpenVR.EVROverlayError GetOverlayMouseScale(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.HmdVector2_t pvecMouseScale)
-    // Offset: 0x1380084
+    // Offset: 0x11557C0
     OVR::OpenVR::EVROverlayError GetOverlayMouseScale(uint64_t ulOverlayHandle, OVR::OpenVR::HmdVector2_t& pvecMouseScale);
     // public OVR.OpenVR.EVROverlayError SetOverlayMouseScale(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.HmdVector2_t pvecMouseScale)
-    // Offset: 0x13800A0
+    // Offset: 0x11557DC
     OVR::OpenVR::EVROverlayError SetOverlayMouseScale(uint64_t ulOverlayHandle, OVR::OpenVR::HmdVector2_t& pvecMouseScale);
     // public System.Boolean ComputeOverlayIntersection(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.VROverlayIntersectionParams_t pParams, ref OVR.OpenVR.VROverlayIntersectionResults_t pResults)
-    // Offset: 0x13800BC
+    // Offset: 0x11557F8
     bool ComputeOverlayIntersection(uint64_t ulOverlayHandle, OVR::OpenVR::VROverlayIntersectionParams_t& pParams, OVR::OpenVR::VROverlayIntersectionResults_t& pResults);
     // public System.Boolean IsHoverTargetOverlay(System.UInt64 ulOverlayHandle)
-    // Offset: 0x13800D8
+    // Offset: 0x1155814
     bool IsHoverTargetOverlay(uint64_t ulOverlayHandle);
     // public System.UInt64 GetGamepadFocusOverlay()
-    // Offset: 0x13800F4
+    // Offset: 0x1155830
     uint64_t GetGamepadFocusOverlay();
     // public OVR.OpenVR.EVROverlayError SetGamepadFocusOverlay(System.UInt64 ulNewFocusOverlay)
-    // Offset: 0x1380110
+    // Offset: 0x115584C
     OVR::OpenVR::EVROverlayError SetGamepadFocusOverlay(uint64_t ulNewFocusOverlay);
     // public OVR.OpenVR.EVROverlayError SetOverlayNeighbor(OVR.OpenVR.EOverlayDirection eDirection, System.UInt64 ulFrom, System.UInt64 ulTo)
-    // Offset: 0x138012C
+    // Offset: 0x1155868
     OVR::OpenVR::EVROverlayError SetOverlayNeighbor(OVR::OpenVR::EOverlayDirection eDirection, uint64_t ulFrom, uint64_t ulTo);
     // public OVR.OpenVR.EVROverlayError MoveGamepadFocusToNeighbor(OVR.OpenVR.EOverlayDirection eDirection, System.UInt64 ulFrom)
-    // Offset: 0x1380148
+    // Offset: 0x1155884
     OVR::OpenVR::EVROverlayError MoveGamepadFocusToNeighbor(OVR::OpenVR::EOverlayDirection eDirection, uint64_t ulFrom);
     // public OVR.OpenVR.EVROverlayError SetOverlayDualAnalogTransform(System.UInt64 ulOverlay, OVR.OpenVR.EDualAnalogWhich eWhich, System.IntPtr vCenter, System.Single fRadius)
-    // Offset: 0x1380164
+    // Offset: 0x11558A0
     OVR::OpenVR::EVROverlayError SetOverlayDualAnalogTransform(uint64_t ulOverlay, OVR::OpenVR::EDualAnalogWhich eWhich, System::IntPtr vCenter, float fRadius);
     // public OVR.OpenVR.EVROverlayError GetOverlayDualAnalogTransform(System.UInt64 ulOverlay, OVR.OpenVR.EDualAnalogWhich eWhich, ref OVR.OpenVR.HmdVector2_t pvCenter, ref System.Single pfRadius)
-    // Offset: 0x1380180
+    // Offset: 0x11558BC
     OVR::OpenVR::EVROverlayError GetOverlayDualAnalogTransform(uint64_t ulOverlay, OVR::OpenVR::EDualAnalogWhich eWhich, OVR::OpenVR::HmdVector2_t& pvCenter, float& pfRadius);
     // public OVR.OpenVR.EVROverlayError SetOverlayTexture(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.Texture_t pTexture)
-    // Offset: 0x13801A0
+    // Offset: 0x11558DC
     OVR::OpenVR::EVROverlayError SetOverlayTexture(uint64_t ulOverlayHandle, OVR::OpenVR::Texture_t& pTexture);
     // public OVR.OpenVR.EVROverlayError ClearOverlayTexture(System.UInt64 ulOverlayHandle)
-    // Offset: 0x13801BC
+    // Offset: 0x11558F8
     OVR::OpenVR::EVROverlayError ClearOverlayTexture(uint64_t ulOverlayHandle);
     // public OVR.OpenVR.EVROverlayError SetOverlayRaw(System.UInt64 ulOverlayHandle, System.IntPtr pvBuffer, System.UInt32 unWidth, System.UInt32 unHeight, System.UInt32 unDepth)
-    // Offset: 0x13801D8
+    // Offset: 0x1155914
     OVR::OpenVR::EVROverlayError SetOverlayRaw(uint64_t ulOverlayHandle, System::IntPtr pvBuffer, uint unWidth, uint unHeight, uint unDepth);
     // public OVR.OpenVR.EVROverlayError SetOverlayFromFile(System.UInt64 ulOverlayHandle, System.String pchFilePath)
-    // Offset: 0x13801F4
+    // Offset: 0x1155930
     OVR::OpenVR::EVROverlayError SetOverlayFromFile(uint64_t ulOverlayHandle, ::Il2CppString* pchFilePath);
     // public OVR.OpenVR.EVROverlayError GetOverlayTexture(System.UInt64 ulOverlayHandle, ref System.IntPtr pNativeTextureHandle, System.IntPtr pNativeTextureRef, ref System.UInt32 pWidth, ref System.UInt32 pHeight, ref System.UInt32 pNativeFormat, ref OVR.OpenVR.ETextureType pAPIType, ref OVR.OpenVR.EColorSpace pColorSpace, ref OVR.OpenVR.VRTextureBounds_t pTextureBounds)
-    // Offset: 0x1380210
+    // Offset: 0x115594C
     OVR::OpenVR::EVROverlayError GetOverlayTexture(uint64_t ulOverlayHandle, System::IntPtr& pNativeTextureHandle, System::IntPtr pNativeTextureRef, uint& pWidth, uint& pHeight, uint& pNativeFormat, OVR::OpenVR::ETextureType& pAPIType, OVR::OpenVR::EColorSpace& pColorSpace, OVR::OpenVR::VRTextureBounds_t& pTextureBounds);
     // public OVR.OpenVR.EVROverlayError ReleaseNativeOverlayHandle(System.UInt64 ulOverlayHandle, System.IntPtr pNativeTextureHandle)
-    // Offset: 0x1380244
+    // Offset: 0x1155980
     OVR::OpenVR::EVROverlayError ReleaseNativeOverlayHandle(uint64_t ulOverlayHandle, System::IntPtr pNativeTextureHandle);
     // public OVR.OpenVR.EVROverlayError GetOverlayTextureSize(System.UInt64 ulOverlayHandle, ref System.UInt32 pWidth, ref System.UInt32 pHeight)
-    // Offset: 0x1380260
+    // Offset: 0x115599C
     OVR::OpenVR::EVROverlayError GetOverlayTextureSize(uint64_t ulOverlayHandle, uint& pWidth, uint& pHeight);
     // public OVR.OpenVR.EVROverlayError CreateDashboardOverlay(System.String pchOverlayKey, System.String pchOverlayFriendlyName, ref System.UInt64 pMainHandle, ref System.UInt64 pThumbnailHandle)
-    // Offset: 0x1380284
+    // Offset: 0x11559C0
     OVR::OpenVR::EVROverlayError CreateDashboardOverlay(::Il2CppString* pchOverlayKey, ::Il2CppString* pchOverlayFriendlyName, uint64_t& pMainHandle, uint64_t& pThumbnailHandle);
     // public System.Boolean IsDashboardVisible()
-    // Offset: 0x13802A8
+    // Offset: 0x11559E4
     bool IsDashboardVisible();
     // public System.Boolean IsActiveDashboardOverlay(System.UInt64 ulOverlayHandle)
-    // Offset: 0x13802C4
+    // Offset: 0x1155A00
     bool IsActiveDashboardOverlay(uint64_t ulOverlayHandle);
     // public OVR.OpenVR.EVROverlayError SetDashboardOverlaySceneProcess(System.UInt64 ulOverlayHandle, System.UInt32 unProcessId)
-    // Offset: 0x13802E0
+    // Offset: 0x1155A1C
     OVR::OpenVR::EVROverlayError SetDashboardOverlaySceneProcess(uint64_t ulOverlayHandle, uint unProcessId);
     // public OVR.OpenVR.EVROverlayError GetDashboardOverlaySceneProcess(System.UInt64 ulOverlayHandle, ref System.UInt32 punProcessId)
-    // Offset: 0x13802FC
+    // Offset: 0x1155A38
     OVR::OpenVR::EVROverlayError GetDashboardOverlaySceneProcess(uint64_t ulOverlayHandle, uint& punProcessId);
     // public System.Void ShowDashboard(System.String pchOverlayToShow)
-    // Offset: 0x138031C
+    // Offset: 0x1155A58
     void ShowDashboard(::Il2CppString* pchOverlayToShow);
     // public System.UInt32 GetPrimaryDashboardDevice()
-    // Offset: 0x1380338
+    // Offset: 0x1155A74
     uint GetPrimaryDashboardDevice();
     // public OVR.OpenVR.EVROverlayError ShowKeyboard(System.Int32 eInputMode, System.Int32 eLineInputMode, System.String pchDescription, System.UInt32 unCharMax, System.String pchExistingText, System.Boolean bUseMinimalMode, System.UInt64 uUserValue)
-    // Offset: 0x1380354
+    // Offset: 0x1155A90
     OVR::OpenVR::EVROverlayError ShowKeyboard(int eInputMode, int eLineInputMode, ::Il2CppString* pchDescription, uint unCharMax, ::Il2CppString* pchExistingText, bool bUseMinimalMode, uint64_t uUserValue);
     // public OVR.OpenVR.EVROverlayError ShowKeyboardForOverlay(System.UInt64 ulOverlayHandle, System.Int32 eInputMode, System.Int32 eLineInputMode, System.String pchDescription, System.UInt32 unCharMax, System.String pchExistingText, System.Boolean bUseMinimalMode, System.UInt64 uUserValue)
-    // Offset: 0x1380378
+    // Offset: 0x1155AB4
     OVR::OpenVR::EVROverlayError ShowKeyboardForOverlay(uint64_t ulOverlayHandle, int eInputMode, int eLineInputMode, ::Il2CppString* pchDescription, uint unCharMax, ::Il2CppString* pchExistingText, bool bUseMinimalMode, uint64_t uUserValue);
     // public System.UInt32 GetKeyboardText(System.Text.StringBuilder pchText, System.UInt32 cchText)
-    // Offset: 0x13803A0
+    // Offset: 0x1155ADC
     uint GetKeyboardText(System::Text::StringBuilder* pchText, uint cchText);
     // public System.Void HideKeyboard()
-    // Offset: 0x13803BC
+    // Offset: 0x1155AF8
     void HideKeyboard();
     // public System.Void SetKeyboardTransformAbsolute(OVR.OpenVR.ETrackingUniverseOrigin eTrackingOrigin, ref OVR.OpenVR.HmdMatrix34_t pmatTrackingOriginToKeyboardTransform)
-    // Offset: 0x13803D8
+    // Offset: 0x1155B14
     void SetKeyboardTransformAbsolute(OVR::OpenVR::ETrackingUniverseOrigin eTrackingOrigin, OVR::OpenVR::HmdMatrix34_t& pmatTrackingOriginToKeyboardTransform);
     // public System.Void SetKeyboardPositionForOverlay(System.UInt64 ulOverlayHandle, OVR.OpenVR.HmdRect2_t avoidRect)
-    // Offset: 0x13803F4
+    // Offset: 0x1155B30
     void SetKeyboardPositionForOverlay(uint64_t ulOverlayHandle, OVR::OpenVR::HmdRect2_t avoidRect);
     // public OVR.OpenVR.EVROverlayError SetOverlayIntersectionMask(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.VROverlayIntersectionMaskPrimitive_t pMaskPrimitives, System.UInt32 unNumMaskPrimitives, System.UInt32 unPrimitiveSize)
-    // Offset: 0x1380410
+    // Offset: 0x1155B4C
     OVR::OpenVR::EVROverlayError SetOverlayIntersectionMask(uint64_t ulOverlayHandle, OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t& pMaskPrimitives, uint unNumMaskPrimitives, uint unPrimitiveSize);
     // public OVR.OpenVR.EVROverlayError GetOverlayFlags(System.UInt64 ulOverlayHandle, ref System.UInt32 pFlags)
-    // Offset: 0x138042C
+    // Offset: 0x1155B68
     OVR::OpenVR::EVROverlayError GetOverlayFlags(uint64_t ulOverlayHandle, uint& pFlags);
     // public OVR.OpenVR.VRMessageOverlayResponse ShowMessageOverlay(System.String pchText, System.String pchCaption, System.String pchButton0Text, System.String pchButton1Text, System.String pchButton2Text, System.String pchButton3Text)
-    // Offset: 0x138044C
+    // Offset: 0x1155B88
     OVR::OpenVR::VRMessageOverlayResponse ShowMessageOverlay(::Il2CppString* pchText, ::Il2CppString* pchCaption, ::Il2CppString* pchButton0Text, ::Il2CppString* pchButton1Text, ::Il2CppString* pchButton2Text, ::Il2CppString* pchButton3Text);
     // public System.Void CloseMessageOverlay()
-    // Offset: 0x1380468
+    // Offset: 0x1155BA4
     void CloseMessageOverlay();
   }; // OVR.OpenVR.CVROverlay
 }

@@ -81,13 +81,13 @@ namespace GlobalNamespace {
     // Offset: 0x14
     GlobalNamespace::EnvironmentSizeData::CeilingType ceilingType;
     // public EnvironmentSizeData/FloorType get_floorType()
-    // Offset: 0xF66A1C
+    // Offset: 0x201EB5C
     GlobalNamespace::EnvironmentSizeData::FloorType get_floorType();
     // public EnvironmentSizeData/CeilingType get_ceilingType()
-    // Offset: 0xF66A24
+    // Offset: 0x201EB64
     GlobalNamespace::EnvironmentSizeData::CeilingType get_ceilingType();
     // public System.Void .ctor()
-    // Offset: 0xF66A2C
+    // Offset: 0x201EB6C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EnvironmentSizeData* New_ctor();

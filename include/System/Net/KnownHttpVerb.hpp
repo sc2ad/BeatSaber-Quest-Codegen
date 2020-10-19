@@ -62,13 +62,13 @@ namespace System::Net {
     // Set static field: static System.Net.KnownHttpVerb MkCol
     static void _set_MkCol(System::Net::KnownHttpVerb* value);
     // System.Void .ctor(System.String name, System.Boolean requireContentBody, System.Boolean contentBodyNotAllowed, System.Boolean connectRequest, System.Boolean expectNoContentResponse)
-    // Offset: 0x1471BC4
+    // Offset: 0x12483EC
     static KnownHttpVerb* New_ctor(::Il2CppString* name, bool requireContentBody, bool contentBodyNotAllowed, bool connectRequest, bool expectNoContentResponse);
     // static private System.Void .cctor()
-    // Offset: 0x1471C3C
+    // Offset: 0x1248464
     static void _cctor();
     // static public System.Net.KnownHttpVerb Parse(System.String name)
-    // Offset: 0x1471F84
+    // Offset: 0x12487AC
     static System::Net::KnownHttpVerb* Parse(::Il2CppString* name);
   }; // System.Net.KnownHttpVerb
 }

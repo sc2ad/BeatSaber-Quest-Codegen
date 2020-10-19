@@ -30,39 +30,39 @@ namespace HMUI {
     // Offset: 0x48
     HMUI::ITableCellOwner* tableCellOwner;
     // public System.String get_reuseIdentifier()
-    // Offset: 0x117D7C4
+    // Offset: 0x21771AC
     ::Il2CppString* get_reuseIdentifier();
     // public System.Void set_reuseIdentifier(System.String value)
-    // Offset: 0x117D7CC
+    // Offset: 0x21771B4
     void set_reuseIdentifier(::Il2CppString* value);
     // public System.Int32 get_idx()
-    // Offset: 0x117D7D4
+    // Offset: 0x21771BC
     int get_idx();
     // private System.Void set_idx(System.Int32 value)
-    // Offset: 0x117D7DC
+    // Offset: 0x21771C4
     void set_idx(int value);
     // protected HMUI.ITableCellOwner get_tableCellOwner()
-    // Offset: 0x117D7E4
+    // Offset: 0x21771CC
     HMUI::ITableCellOwner* get_tableCellOwner();
     // public System.Void TableViewSetup(HMUI.ITableCellOwner tableCellOwner, System.Int32 idx)
-    // Offset: 0x117D7EC
+    // Offset: 0x21771D4
     void TableViewSetup(HMUI::ITableCellOwner* tableCellOwner, int idx);
     // public System.Void MoveIdx(System.Int32 offset)
-    // Offset: 0x117D81C
+    // Offset: 0x2177204
     void MoveIdx(int offset);
     // public System.Void __WasPreparedForReuse()
-    // Offset: 0x117DA1C
+    // Offset: 0x2177404
     void __WasPreparedForReuse();
     // protected System.Void WasPreparedForReuse()
-    // Offset: 0x117DA2C
+    // Offset: 0x2177414
     void WasPreparedForReuse();
     // protected override System.Void InternalToggle()
-    // Offset: 0x117D82C
+    // Offset: 0x2177214
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::InternalToggle()
     void InternalToggle();
     // public System.Void .ctor()
-    // Offset: 0x117DA30
+    // Offset: 0x2177418
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::.ctor()
     // Base method: System.Void Interactable::.ctor()

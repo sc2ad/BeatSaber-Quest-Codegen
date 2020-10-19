@@ -26,7 +26,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return publicKey;
     }
     // public Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters get_PublicKey()
-    // Offset: 0x10F2978
+    // Offset: 0xF4D608
     Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* get_PublicKey();
   }; // Org.BouncyCastle.Crypto.Parameters.RsaBlindingParameters
 }

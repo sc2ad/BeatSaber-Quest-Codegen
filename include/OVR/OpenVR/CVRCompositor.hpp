@@ -58,136 +58,136 @@ namespace OVR::OpenVR {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x137E5F4
+    // Offset: 0x1153D30
     static CVRCompositor* New_ctor(System::IntPtr pInterface);
     // public System.Void SetTrackingSpace(OVR.OpenVR.ETrackingUniverseOrigin eOrigin)
-    // Offset: 0x137E708
+    // Offset: 0x1153E44
     void SetTrackingSpace(OVR::OpenVR::ETrackingUniverseOrigin eOrigin);
     // public OVR.OpenVR.ETrackingUniverseOrigin GetTrackingSpace()
-    // Offset: 0x137E724
+    // Offset: 0x1153E60
     OVR::OpenVR::ETrackingUniverseOrigin GetTrackingSpace();
     // public OVR.OpenVR.EVRCompositorError WaitGetPoses(OVR.OpenVR.TrackedDevicePose_t[] pRenderPoseArray, OVR.OpenVR.TrackedDevicePose_t[] pGamePoseArray)
-    // Offset: 0x137E740
+    // Offset: 0x1153E7C
     OVR::OpenVR::EVRCompositorError WaitGetPoses(::Array<OVR::OpenVR::TrackedDevicePose_t>* pRenderPoseArray, ::Array<OVR::OpenVR::TrackedDevicePose_t>* pGamePoseArray);
     // public OVR.OpenVR.EVRCompositorError GetLastPoses(OVR.OpenVR.TrackedDevicePose_t[] pRenderPoseArray, OVR.OpenVR.TrackedDevicePose_t[] pGamePoseArray)
-    // Offset: 0x137E774
+    // Offset: 0x1153EB0
     OVR::OpenVR::EVRCompositorError GetLastPoses(::Array<OVR::OpenVR::TrackedDevicePose_t>* pRenderPoseArray, ::Array<OVR::OpenVR::TrackedDevicePose_t>* pGamePoseArray);
     // public OVR.OpenVR.EVRCompositorError GetLastPoseForTrackedDeviceIndex(System.UInt32 unDeviceIndex, ref OVR.OpenVR.TrackedDevicePose_t pOutputPose, ref OVR.OpenVR.TrackedDevicePose_t pOutputGamePose)
-    // Offset: 0x137E7A8
+    // Offset: 0x1153EE4
     OVR::OpenVR::EVRCompositorError GetLastPoseForTrackedDeviceIndex(uint unDeviceIndex, OVR::OpenVR::TrackedDevicePose_t& pOutputPose, OVR::OpenVR::TrackedDevicePose_t& pOutputGamePose);
     // public OVR.OpenVR.EVRCompositorError Submit(OVR.OpenVR.EVREye eEye, ref OVR.OpenVR.Texture_t pTexture, ref OVR.OpenVR.VRTextureBounds_t pBounds, OVR.OpenVR.EVRSubmitFlags nSubmitFlags)
-    // Offset: 0x137E7C4
+    // Offset: 0x1153F00
     OVR::OpenVR::EVRCompositorError Submit(OVR::OpenVR::EVREye eEye, OVR::OpenVR::Texture_t& pTexture, OVR::OpenVR::VRTextureBounds_t& pBounds, OVR::OpenVR::EVRSubmitFlags nSubmitFlags);
     // public System.Void ClearLastSubmittedFrame()
-    // Offset: 0x137E7E0
+    // Offset: 0x1153F1C
     void ClearLastSubmittedFrame();
     // public System.Void PostPresentHandoff()
-    // Offset: 0x137E7FC
+    // Offset: 0x1153F38
     void PostPresentHandoff();
     // public System.Boolean GetFrameTiming(ref OVR.OpenVR.Compositor_FrameTiming pTiming, System.UInt32 unFramesAgo)
-    // Offset: 0x137E818
+    // Offset: 0x1153F54
     bool GetFrameTiming(OVR::OpenVR::Compositor_FrameTiming& pTiming, uint unFramesAgo);
     // public System.UInt32 GetFrameTimings(ref OVR.OpenVR.Compositor_FrameTiming pTiming, System.UInt32 nFrames)
-    // Offset: 0x137E834
+    // Offset: 0x1153F70
     uint GetFrameTimings(OVR::OpenVR::Compositor_FrameTiming& pTiming, uint nFrames);
     // public System.Single GetFrameTimeRemaining()
-    // Offset: 0x137E850
+    // Offset: 0x1153F8C
     float GetFrameTimeRemaining();
     // public System.Void GetCumulativeStats(ref OVR.OpenVR.Compositor_CumulativeStats pStats, System.UInt32 nStatsSizeInBytes)
-    // Offset: 0x137E86C
+    // Offset: 0x1153FA8
     void GetCumulativeStats(OVR::OpenVR::Compositor_CumulativeStats& pStats, uint nStatsSizeInBytes);
     // public System.Void FadeToColor(System.Single fSeconds, System.Single fRed, System.Single fGreen, System.Single fBlue, System.Single fAlpha, System.Boolean bBackground)
-    // Offset: 0x137E888
+    // Offset: 0x1153FC4
     void FadeToColor(float fSeconds, float fRed, float fGreen, float fBlue, float fAlpha, bool bBackground);
     // public OVR.OpenVR.HmdColor_t GetCurrentFadeColor(System.Boolean bBackground)
-    // Offset: 0x137E8A8
+    // Offset: 0x1153FE4
     OVR::OpenVR::HmdColor_t GetCurrentFadeColor(bool bBackground);
     // public System.Void FadeGrid(System.Single fSeconds, System.Boolean bFadeIn)
-    // Offset: 0x137E8C8
+    // Offset: 0x1154004
     void FadeGrid(float fSeconds, bool bFadeIn);
     // public System.Single GetCurrentGridAlpha()
-    // Offset: 0x137E8E8
+    // Offset: 0x1154024
     float GetCurrentGridAlpha();
     // public OVR.OpenVR.EVRCompositorError SetSkyboxOverride(OVR.OpenVR.Texture_t[] pTextures)
-    // Offset: 0x137E904
+    // Offset: 0x1154040
     OVR::OpenVR::EVRCompositorError SetSkyboxOverride(::Array<OVR::OpenVR::Texture_t>* pTextures);
     // public System.Void ClearSkyboxOverride()
-    // Offset: 0x137E92C
+    // Offset: 0x1154068
     void ClearSkyboxOverride();
     // public System.Void CompositorBringToFront()
-    // Offset: 0x137E948
+    // Offset: 0x1154084
     void CompositorBringToFront();
     // public System.Void CompositorGoToBack()
-    // Offset: 0x137E964
+    // Offset: 0x11540A0
     void CompositorGoToBack();
     // public System.Void CompositorQuit()
-    // Offset: 0x137E980
+    // Offset: 0x11540BC
     void CompositorQuit();
     // public System.Boolean IsFullscreen()
-    // Offset: 0x137E99C
+    // Offset: 0x11540D8
     bool IsFullscreen();
     // public System.UInt32 GetCurrentSceneFocusProcess()
-    // Offset: 0x137E9B8
+    // Offset: 0x11540F4
     uint GetCurrentSceneFocusProcess();
     // public System.UInt32 GetLastFrameRenderer()
-    // Offset: 0x137E9D4
+    // Offset: 0x1154110
     uint GetLastFrameRenderer();
     // public System.Boolean CanRenderScene()
-    // Offset: 0x137E9F0
+    // Offset: 0x115412C
     bool CanRenderScene();
     // public System.Void ShowMirrorWindow()
-    // Offset: 0x137EA0C
+    // Offset: 0x1154148
     void ShowMirrorWindow();
     // public System.Void HideMirrorWindow()
-    // Offset: 0x137EA28
+    // Offset: 0x1154164
     void HideMirrorWindow();
     // public System.Boolean IsMirrorWindowVisible()
-    // Offset: 0x137EA44
+    // Offset: 0x1154180
     bool IsMirrorWindowVisible();
     // public System.Void CompositorDumpImages()
-    // Offset: 0x137EA60
+    // Offset: 0x115419C
     void CompositorDumpImages();
     // public System.Boolean ShouldAppRenderWithLowResources()
-    // Offset: 0x137EA7C
+    // Offset: 0x11541B8
     bool ShouldAppRenderWithLowResources();
     // public System.Void ForceInterleavedReprojectionOn(System.Boolean bOverride)
-    // Offset: 0x137EA98
+    // Offset: 0x11541D4
     void ForceInterleavedReprojectionOn(bool bOverride);
     // public System.Void ForceReconnectProcess()
-    // Offset: 0x137EAB8
+    // Offset: 0x11541F4
     void ForceReconnectProcess();
     // public System.Void SuspendRendering(System.Boolean bSuspend)
-    // Offset: 0x137EAD4
+    // Offset: 0x1154210
     void SuspendRendering(bool bSuspend);
     // public OVR.OpenVR.EVRCompositorError GetMirrorTextureD3D11(OVR.OpenVR.EVREye eEye, System.IntPtr pD3D11DeviceOrResource, ref System.IntPtr ppD3D11ShaderResourceView)
-    // Offset: 0x137EAF4
+    // Offset: 0x1154230
     OVR::OpenVR::EVRCompositorError GetMirrorTextureD3D11(OVR::OpenVR::EVREye eEye, System::IntPtr pD3D11DeviceOrResource, System::IntPtr& ppD3D11ShaderResourceView);
     // public System.Void ReleaseMirrorTextureD3D11(System.IntPtr pD3D11ShaderResourceView)
-    // Offset: 0x137EB10
+    // Offset: 0x115424C
     void ReleaseMirrorTextureD3D11(System::IntPtr pD3D11ShaderResourceView);
     // public OVR.OpenVR.EVRCompositorError GetMirrorTextureGL(OVR.OpenVR.EVREye eEye, ref System.UInt32 pglTextureId, System.IntPtr pglSharedTextureHandle)
-    // Offset: 0x137EB2C
+    // Offset: 0x1154268
     OVR::OpenVR::EVRCompositorError GetMirrorTextureGL(OVR::OpenVR::EVREye eEye, uint& pglTextureId, System::IntPtr pglSharedTextureHandle);
     // public System.Boolean ReleaseSharedGLTexture(System.UInt32 glTextureId, System.IntPtr glSharedTextureHandle)
-    // Offset: 0x137EB4C
+    // Offset: 0x1154288
     bool ReleaseSharedGLTexture(uint glTextureId, System::IntPtr glSharedTextureHandle);
     // public System.Void LockGLSharedTextureForAccess(System.IntPtr glSharedTextureHandle)
-    // Offset: 0x137EB68
+    // Offset: 0x11542A4
     void LockGLSharedTextureForAccess(System::IntPtr glSharedTextureHandle);
     // public System.Void UnlockGLSharedTextureForAccess(System.IntPtr glSharedTextureHandle)
-    // Offset: 0x137EB84
+    // Offset: 0x11542C0
     void UnlockGLSharedTextureForAccess(System::IntPtr glSharedTextureHandle);
     // public System.UInt32 GetVulkanInstanceExtensionsRequired(System.Text.StringBuilder pchValue, System.UInt32 unBufferSize)
-    // Offset: 0x137EBA0
+    // Offset: 0x11542DC
     uint GetVulkanInstanceExtensionsRequired(System::Text::StringBuilder* pchValue, uint unBufferSize);
     // public System.UInt32 GetVulkanDeviceExtensionsRequired(System.IntPtr pPhysicalDevice, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize)
-    // Offset: 0x137EBBC
+    // Offset: 0x11542F8
     uint GetVulkanDeviceExtensionsRequired(System::IntPtr pPhysicalDevice, System::Text::StringBuilder* pchValue, uint unBufferSize);
     // public System.Void SetExplicitTimingMode(OVR.OpenVR.EVRCompositorTimingMode eTimingMode)
-    // Offset: 0x137EBD8
+    // Offset: 0x1154314
     void SetExplicitTimingMode(OVR::OpenVR::EVRCompositorTimingMode eTimingMode);
     // public OVR.OpenVR.EVRCompositorError SubmitExplicitTimingData()
-    // Offset: 0x137EBF4
+    // Offset: 0x1154330
     OVR::OpenVR::EVRCompositorError SubmitExplicitTimingData();
   }; // OVR.OpenVR.CVRCompositor
 }

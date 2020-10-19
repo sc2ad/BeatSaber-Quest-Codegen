@@ -21,7 +21,7 @@ namespace System::Runtime::InteropServices {
       return val;
     }
     // public System.Void .ctor(System.Int32 dispId)
-    // Offset: 0x1292354
+    // Offset: 0x108DBF0
     static DispIdAttribute* New_ctor(int dispId);
   }; // System.Runtime.InteropServices.DispIdAttribute
 }

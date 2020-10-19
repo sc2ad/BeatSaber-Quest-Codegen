@@ -25,16 +25,16 @@ namespace Oculus::Platform {
   class MessageWithAchievementDefinitions : public Oculus::Platform::Message_1<Oculus::Platform::Models::AchievementDefinitionList*> {
     public:
     // protected Oculus.Platform.Models.AchievementDefinitionList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x136166C
+    // Offset: 0x1136DA8
     Oculus::Platform::Models::AchievementDefinitionList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x135F38C
+    // Offset: 0x1134AC8
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithAchievementDefinitions* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.AchievementDefinitionList GetAchievementDefinitions()
-    // Offset: 0x1361628
+    // Offset: 0x1136D64
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.AchievementDefinitionList Message::GetAchievementDefinitions()
     Oculus::Platform::Models::AchievementDefinitionList* GetAchievementDefinitions();

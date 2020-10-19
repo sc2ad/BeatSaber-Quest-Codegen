@@ -24,13 +24,13 @@ namespace UnityEngine::Timeline {
   class TimelineUndo : public ::Il2CppObject {
     public:
     // static public System.Void PushDestroyUndo(UnityEngine.Timeline.TimelineAsset timeline, UnityEngine.Object thingToDirty, UnityEngine.Object objectToDestroy, System.String operation)
-    // Offset: 0x219267C
+    // Offset: 0x1EE62E0
     static void PushDestroyUndo(UnityEngine::Timeline::TimelineAsset* timeline, UnityEngine::Object* thingToDirty, UnityEngine::Object* objectToDestroy, ::Il2CppString* operation);
     // static public System.Void PushUndo(UnityEngine.Object thingToDirty, System.String operation)
-    // Offset: 0x219271C
+    // Offset: 0x1EE6380
     static void PushUndo(UnityEngine::Object* thingToDirty, ::Il2CppString* operation);
     // static public System.Void RegisterCreatedObjectUndo(UnityEngine.Object thingCreated, System.String operation)
-    // Offset: 0x2192720
+    // Offset: 0x1EE6384
     static void RegisterCreatedObjectUndo(UnityEngine::Object* thingCreated, ::Il2CppString* operation);
   }; // UnityEngine.Timeline.TimelineUndo
 }

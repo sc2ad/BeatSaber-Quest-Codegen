@@ -40,21 +40,21 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public SteamLevelProductsModelSO/LevelPackProductData[] get_levelPackProductsData()
-    // Offset: 0xF2C65C
+    // Offset: 0x1F938D0
     ::Array<GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>* get_levelPackProductsData();
     // public SteamLevelProductsModelSO/LevelProductData GetLevelProductData(System.String levelId)
-    // Offset: 0xF2C7BC
+    // Offset: 0x1F93A30
     GlobalNamespace::SteamLevelProductsModelSO::LevelProductData* GetLevelProductData(::Il2CppString* levelId);
     // public SteamLevelProductsModelSO/LevelPackProductData GetLevelPackProductData(System.String levelPackId)
-    // Offset: 0xF2C83C
+    // Offset: 0x1F93AB0
     GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData* GetLevelPackProductData(::Il2CppString* levelPackId);
     // protected override System.Void OnEnable()
-    // Offset: 0xF2C664
+    // Offset: 0x1F938D8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0xF2C8BC
+    // Offset: 0x1F93B30
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

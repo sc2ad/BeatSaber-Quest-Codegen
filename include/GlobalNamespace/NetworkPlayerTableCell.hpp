@@ -66,32 +66,32 @@ namespace GlobalNamespace {
     // Offset: 0xB8
     bool isMe;
     // public System.Boolean get_showSeparator()
-    // Offset: 0xF0FE90
+    // Offset: 0x1FE4D44
     bool get_showSeparator();
     // public System.Void set_showSeparator(System.Boolean value)
-    // Offset: 0xF0FEAC
+    // Offset: 0x1FE4D60
     void set_showSeparator(bool value);
     // public System.Void SetData(System.String userName, System.Boolean isOpenParty, System.Boolean wantsToPlayNextLevel, System.Boolean isMyPartyOwner, System.Boolean isMe)
-    // Offset: 0xF10104
+    // Offset: 0x1FE4FB8
     void SetData(::Il2CppString* userName, bool isOpenParty, bool wantsToPlayNextLevel, bool isMyPartyOwner, bool isMe);
     // private System.Void RefreshVisuals()
-    // Offset: 0xF0FEE4
+    // Offset: 0x1FE4D98
     void RefreshVisuals();
     // private UnityEngine.Color get_activeColor()
-    // Offset: 0xF101AC
+    // Offset: 0x1FE5060
     UnityEngine::Color get_activeColor();
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0xF101A4
+    // Offset: 0x1FE5058
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0xF101A8
+    // Offset: 0x1FE505C
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0xF10208
+    // Offset: 0x1FE50BC
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

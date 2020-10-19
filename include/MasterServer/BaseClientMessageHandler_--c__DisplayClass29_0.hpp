@@ -32,10 +32,10 @@ namespace MasterServer {
     // Offset: 0x38
     ::Array<uint8_t>* signature;
     // System.Boolean <VerifySignature>b__0()
-    // Offset: 0x116C034
+    // Offset: 0x2166A1C
     bool $VerifySignature$b__0();
     // public System.Void .ctor()
-    // Offset: 0x116BEC0
+    // Offset: 0x21668A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BaseClientMessageHandler::$$c__DisplayClass29_0* New_ctor();

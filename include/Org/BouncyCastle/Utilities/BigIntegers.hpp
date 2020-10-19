@@ -24,19 +24,19 @@ namespace Org::BouncyCastle::Utilities {
   class BigIntegers : public ::Il2CppObject {
     public:
     // static public System.Byte[] AsUnsignedByteArray(Org.BouncyCastle.Math.BigInteger n)
-    // Offset: 0x11E99B4
+    // Offset: 0xFE5250
     static ::Array<uint8_t>* AsUnsignedByteArray(Org::BouncyCastle::Math::BigInteger* n);
     // static public System.Byte[] AsUnsignedByteArray(System.Int32 length, Org.BouncyCastle.Math.BigInteger n)
-    // Offset: 0x11E99CC
+    // Offset: 0xFE5268
     static ::Array<uint8_t>* AsUnsignedByteArray(int length, Org::BouncyCastle::Math::BigInteger* n);
     // static public Org.BouncyCastle.Math.BigInteger CreateRandomBigInteger(System.Int32 bitLength, Org.BouncyCastle.Security.SecureRandom secureRandom)
-    // Offset: 0x11E9AD0
+    // Offset: 0xFE536C
     static Org::BouncyCastle::Math::BigInteger* CreateRandomBigInteger(int bitLength, Org::BouncyCastle::Security::SecureRandom* secureRandom);
     // static public Org.BouncyCastle.Math.BigInteger CreateRandomInRange(Org.BouncyCastle.Math.BigInteger min, Org.BouncyCastle.Math.BigInteger max, Org.BouncyCastle.Security.SecureRandom random)
-    // Offset: 0x11E9B44
+    // Offset: 0xFE53E0
     static Org::BouncyCastle::Math::BigInteger* CreateRandomInRange(Org::BouncyCastle::Math::BigInteger* min, Org::BouncyCastle::Math::BigInteger* max, Org::BouncyCastle::Security::SecureRandom* random);
     // static public System.Int32 GetUnsignedByteLength(Org.BouncyCastle.Math.BigInteger n)
-    // Offset: 0x11E9D70
+    // Offset: 0xFE560C
     static int GetUnsignedByteLength(Org::BouncyCastle::Math::BigInteger* n);
   }; // Org.BouncyCastle.Utilities.BigIntegers
 }

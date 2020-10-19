@@ -38,7 +38,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x28
     System::Diagnostics::Tracing::EventFieldAttribute* fieldAttribute;
     // public System.Void .ctor(System.String name, System.Reflection.MethodInfo getterInfo, System.Diagnostics.Tracing.TraceLoggingTypeInfo typeInfo, System.Diagnostics.Tracing.EventFieldAttribute fieldAttribute)
-    // Offset: 0x124D1F8
+    // Offset: 0x1047A94
     static PropertyAnalysis* New_ctor(::Il2CppString* name, System::Reflection::MethodInfo* getterInfo, System::Diagnostics::Tracing::TraceLoggingTypeInfo* typeInfo, System::Diagnostics::Tracing::EventFieldAttribute* fieldAttribute);
   }; // System.Diagnostics.Tracing.PropertyAnalysis
 }

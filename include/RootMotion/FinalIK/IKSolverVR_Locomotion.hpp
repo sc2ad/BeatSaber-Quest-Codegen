@@ -118,49 +118,49 @@ namespace RootMotion::FinalIK {
     // Offset: 0xB4
     int rightFootIndex;
     // public UnityEngine.Vector3 get_centerOfMass()
-    // Offset: 0x1BF18E8
+    // Offset: 0x1992ADC
     UnityEngine::Vector3 get_centerOfMass();
     // private System.Void set_centerOfMass(UnityEngine.Vector3 value)
-    // Offset: 0x1BF18F4
+    // Offset: 0x1992AE8
     void set_centerOfMass(UnityEngine::Vector3 value);
     // public System.Void Initiate(UnityEngine.Vector3[] positions, UnityEngine.Quaternion[] rotations, System.Boolean hasToes)
-    // Offset: 0x1BF1900
+    // Offset: 0x1992AF4
     void Initiate(::Array<UnityEngine::Vector3>* positions, ::Array<UnityEngine::Quaternion>* rotations, bool hasToes);
     // public System.Void Reset(UnityEngine.Vector3[] positions, UnityEngine.Quaternion[] rotations)
-    // Offset: 0x1BF1C18
+    // Offset: 0x1992E0C
     void Reset(::Array<UnityEngine::Vector3>* positions, ::Array<UnityEngine::Quaternion>* rotations);
     // public System.Void AddDeltaRotation(UnityEngine.Quaternion delta, UnityEngine.Vector3 pivot)
-    // Offset: 0x1BF1E8C
+    // Offset: 0x1993080
     void AddDeltaRotation(UnityEngine::Quaternion delta, UnityEngine::Vector3 pivot);
     // public System.Void AddDeltaPosition(UnityEngine.Vector3 delta)
-    // Offset: 0x1BF2264
+    // Offset: 0x1993458
     void AddDeltaPosition(UnityEngine::Vector3 delta);
     // public System.Void Solve(RootMotion.FinalIK.IKSolverVR/VirtualBone rootBone, RootMotion.FinalIK.IKSolverVR/Spine spine, RootMotion.FinalIK.IKSolverVR/Leg leftLeg, RootMotion.FinalIK.IKSolverVR/Leg rightLeg, RootMotion.FinalIK.IKSolverVR/Arm leftArm, RootMotion.FinalIK.IKSolverVR/Arm rightArm, System.Int32 supportLegIndex, out UnityEngine.Vector3 leftFootPosition, out UnityEngine.Vector3 rightFootPosition, out UnityEngine.Quaternion leftFootRotation, out UnityEngine.Quaternion rightFootRotation, out System.Single leftFootOffset, out System.Single rightFootOffset, out System.Single leftHeelOffset, out System.Single rightHeelOffset)
-    // Offset: 0x1BF2414
+    // Offset: 0x1993608
     void Solve(RootMotion::FinalIK::IKSolverVR::VirtualBone* rootBone, RootMotion::FinalIK::IKSolverVR::Spine* spine, RootMotion::FinalIK::IKSolverVR::Leg* leftLeg, RootMotion::FinalIK::IKSolverVR::Leg* rightLeg, RootMotion::FinalIK::IKSolverVR::Arm* leftArm, RootMotion::FinalIK::IKSolverVR::Arm* rightArm, int supportLegIndex, UnityEngine::Vector3& leftFootPosition, UnityEngine::Vector3& rightFootPosition, UnityEngine::Quaternion& leftFootRotation, UnityEngine::Quaternion& rightFootRotation, float& leftFootOffset, float& rightFootOffset, float& leftHeelOffset, float& rightHeelOffset);
     // public UnityEngine.Vector3 get_leftFootstepPosition()
-    // Offset: 0x1BF3DF0
+    // Offset: 0x1994FE4
     UnityEngine::Vector3 get_leftFootstepPosition();
     // public UnityEngine.Vector3 get_rightFootstepPosition()
-    // Offset: 0x1BF3E30
+    // Offset: 0x1995024
     UnityEngine::Vector3 get_rightFootstepPosition();
     // public UnityEngine.Quaternion get_leftFootstepRotation()
-    // Offset: 0x1BF3E74
+    // Offset: 0x1995068
     UnityEngine::Quaternion get_leftFootstepRotation();
     // public UnityEngine.Quaternion get_rightFootstepRotation()
-    // Offset: 0x1BF3EB4
+    // Offset: 0x19950A8
     UnityEngine::Quaternion get_rightFootstepRotation();
     // private System.Boolean StepBlocked(UnityEngine.Vector3 fromPosition, UnityEngine.Vector3 toPosition, UnityEngine.Vector3 rootPosition)
-    // Offset: 0x1BF39FC
+    // Offset: 0x1994BF0
     bool StepBlocked(UnityEngine::Vector3 fromPosition, UnityEngine::Vector3 toPosition, UnityEngine::Vector3 rootPosition);
     // private System.Boolean CanStep()
-    // Offset: 0x1BF3BA0
+    // Offset: 0x1994D94
     bool CanStep();
     // static private System.Boolean GetLineSphereCollision(UnityEngine.Vector3 lineStart, UnityEngine.Vector3 lineEnd, UnityEngine.Vector3 sphereCenter, System.Single sphereRadius)
-    // Offset: 0x1BF3C24
+    // Offset: 0x1994E18
     static bool GetLineSphereCollision(UnityEngine::Vector3 lineStart, UnityEngine::Vector3 lineEnd, UnityEngine::Vector3 sphereCenter, float sphereRadius);
     // public System.Void .ctor()
-    // Offset: 0x1BF3EF8
+    // Offset: 0x19950EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static IKSolverVR::Locomotion* New_ctor();

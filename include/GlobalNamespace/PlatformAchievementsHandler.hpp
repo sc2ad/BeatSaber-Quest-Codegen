@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     GlobalNamespace::HMAsyncRequest* GetUnlockedAchievements(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler* completionHandler);
     // protected System.Void .ctor()
-    // Offset: 0xFD87B0
+    // Offset: 0x2083484
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlatformAchievementsHandler* New_ctor();

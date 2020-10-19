@@ -37,31 +37,31 @@ namespace RootMotion::FinalIK {
     // Offset: 0x3C
     float lastTime;
     // public UnityEngine.Vector3 get_IKOffset()
-    // Offset: 0x1A9E514
+    // Offset: 0x183D708
     UnityEngine::Vector3 get_IKOffset();
     // private System.Void set_IKOffset(UnityEngine.Vector3 value)
-    // Offset: 0x1A9E520
+    // Offset: 0x183D714
     void set_IKOffset(UnityEngine::Vector3 value);
     // public System.Single get_heightOffset()
-    // Offset: 0x1A9E52C
+    // Offset: 0x183D720
     float get_heightOffset();
     // private System.Void set_heightOffset(System.Single value)
-    // Offset: 0x1A9E534
+    // Offset: 0x183D728
     void set_heightOffset(float value);
     // public System.Void Initiate(RootMotion.FinalIK.Grounding grounding)
-    // Offset: 0x1A9C058
+    // Offset: 0x183B24C
     void Initiate(RootMotion::FinalIK::Grounding* grounding);
     // public System.Void Reset()
-    // Offset: 0x1A9CBE0
+    // Offset: 0x183BDD4
     void Reset();
     // public System.Void OnEnable()
-    // Offset: 0x1A9E53C
+    // Offset: 0x183D730
     void OnEnable();
     // public System.Void Process(System.Single lowestOffset, System.Single highestOffset, System.Boolean isGrounded)
-    // Offset: 0x1A9C974
+    // Offset: 0x183BB68
     void Process(float lowestOffset, float highestOffset, bool isGrounded);
     // public System.Void .ctor()
-    // Offset: 0x1A9BF54
+    // Offset: 0x183B148
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Grounding::Pelvis* New_ctor();

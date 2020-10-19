@@ -62,13 +62,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void SpawnFlyingSprite(UnityEngine.Vector3 pos, UnityEngine.Quaternion rotation, UnityEngine.Quaternion inverseRotation)
-    // Offset: 0xF6DB40
+    // Offset: 0x2025C80
     void SpawnFlyingSprite(UnityEngine::Vector3 pos, UnityEngine::Quaternion rotation, UnityEngine::Quaternion inverseRotation);
     // private System.Void HandleFlyingSpriteEffectDidFinish(FlyingObjectEffect flyingObjectEffect)
-    // Offset: 0xF6DD78
+    // Offset: 0x2025EB8
     void HandleFlyingSpriteEffectDidFinish(GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
     // public System.Void .ctor()
-    // Offset: 0xF6DE5C
+    // Offset: 0x2025F9C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

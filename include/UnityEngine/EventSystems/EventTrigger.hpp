@@ -76,22 +76,22 @@ namespace UnityEngine::EventSystems {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry> get_delegates()
-    // Offset: 0x127BE54
+    // Offset: 0x10766F0
     System::Collections::Generic::List_1<UnityEngine::EventSystems::EventTrigger::Entry*>* get_delegates();
     // public System.Void set_delegates(System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry> value)
-    // Offset: 0x127BED8
+    // Offset: 0x1076774
     void set_delegates(System::Collections::Generic::List_1<UnityEngine::EventSystems::EventTrigger::Entry*>* value);
     // public System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry> get_triggers()
-    // Offset: 0x127BE58
+    // Offset: 0x10766F4
     System::Collections::Generic::List_1<UnityEngine::EventSystems::EventTrigger::Entry*>* get_triggers();
     // public System.Void set_triggers(System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry> value)
-    // Offset: 0x127BEE8
+    // Offset: 0x1076784
     void set_triggers(System::Collections::Generic::List_1<UnityEngine::EventSystems::EventTrigger::Entry*>* value);
     // private System.Void Execute(UnityEngine.EventSystems.EventTriggerType id, UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x127BEF0
+    // Offset: 0x107678C
     void Execute(UnityEngine::EventSystems::EventTriggerType id, UnityEngine::EventSystems::BaseEventData* eventData);
     // protected System.Void .ctor()
-    // Offset: 0x127BEE0
+    // Offset: 0x107677C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -100,87 +100,87 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void Object::.ctor()
     static EventTrigger* New_ctor();
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x127BFD8
+    // Offset: 0x1076874
     // Implemented from: UnityEngine.EventSystems.IPointerEnterHandler
     // Base method: System.Void IPointerEnterHandler::OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x127BFE4
+    // Offset: 0x1076880
     // Implemented from: UnityEngine.EventSystems.IPointerExitHandler
     // Base method: System.Void IPointerExitHandler::OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerExit(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnDrag(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x127BFF0
+    // Offset: 0x107688C
     // Implemented from: UnityEngine.EventSystems.IDragHandler
     // Base method: System.Void IDragHandler::OnDrag(UnityEngine.EventSystems.PointerEventData eventData)
     void OnDrag(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnDrop(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x127BFFC
+    // Offset: 0x1076898
     // Implemented from: UnityEngine.EventSystems.IDropHandler
     // Base method: System.Void IDropHandler::OnDrop(UnityEngine.EventSystems.PointerEventData eventData)
     void OnDrop(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerDown(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x127C008
+    // Offset: 0x10768A4
     // Implemented from: UnityEngine.EventSystems.IPointerDownHandler
     // Base method: System.Void IPointerDownHandler::OnPointerDown(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerDown(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerUp(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x127C014
+    // Offset: 0x10768B0
     // Implemented from: UnityEngine.EventSystems.IPointerUpHandler
     // Base method: System.Void IPointerUpHandler::OnPointerUp(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerUp(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x127C020
+    // Offset: 0x10768BC
     // Implemented from: UnityEngine.EventSystems.IPointerClickHandler
     // Base method: System.Void IPointerClickHandler::OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerClick(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnSelect(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x127C02C
+    // Offset: 0x10768C8
     // Implemented from: UnityEngine.EventSystems.ISelectHandler
     // Base method: System.Void ISelectHandler::OnSelect(UnityEngine.EventSystems.BaseEventData eventData)
     void OnSelect(UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void OnDeselect(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x127C038
+    // Offset: 0x10768D4
     // Implemented from: UnityEngine.EventSystems.IDeselectHandler
     // Base method: System.Void IDeselectHandler::OnDeselect(UnityEngine.EventSystems.BaseEventData eventData)
     void OnDeselect(UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void OnScroll(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x127C044
+    // Offset: 0x10768E0
     // Implemented from: UnityEngine.EventSystems.IScrollHandler
     // Base method: System.Void IScrollHandler::OnScroll(UnityEngine.EventSystems.PointerEventData eventData)
     void OnScroll(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnMove(UnityEngine.EventSystems.AxisEventData eventData)
-    // Offset: 0x127C050
+    // Offset: 0x10768EC
     // Implemented from: UnityEngine.EventSystems.IMoveHandler
     // Base method: System.Void IMoveHandler::OnMove(UnityEngine.EventSystems.AxisEventData eventData)
     void OnMove(UnityEngine::EventSystems::AxisEventData* eventData);
     // public System.Void OnUpdateSelected(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x127C05C
+    // Offset: 0x10768F8
     // Implemented from: UnityEngine.EventSystems.IUpdateSelectedHandler
     // Base method: System.Void IUpdateSelectedHandler::OnUpdateSelected(UnityEngine.EventSystems.BaseEventData eventData)
     void OnUpdateSelected(UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void OnInitializePotentialDrag(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x127C068
+    // Offset: 0x1076904
     // Implemented from: UnityEngine.EventSystems.IInitializePotentialDragHandler
     // Base method: System.Void IInitializePotentialDragHandler::OnInitializePotentialDrag(UnityEngine.EventSystems.PointerEventData eventData)
     void OnInitializePotentialDrag(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnBeginDrag(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x127C074
+    // Offset: 0x1076910
     // Implemented from: UnityEngine.EventSystems.IBeginDragHandler
     // Base method: System.Void IBeginDragHandler::OnBeginDrag(UnityEngine.EventSystems.PointerEventData eventData)
     void OnBeginDrag(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnEndDrag(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x127C080
+    // Offset: 0x107691C
     // Implemented from: UnityEngine.EventSystems.IEndDragHandler
     // Base method: System.Void IEndDragHandler::OnEndDrag(UnityEngine.EventSystems.PointerEventData eventData)
     void OnEndDrag(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnSubmit(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x127C08C
+    // Offset: 0x1076928
     // Implemented from: UnityEngine.EventSystems.ISubmitHandler
     // Base method: System.Void ISubmitHandler::OnSubmit(UnityEngine.EventSystems.BaseEventData eventData)
     void OnSubmit(UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void OnCancel(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x127C098
+    // Offset: 0x1076934
     // Implemented from: UnityEngine.EventSystems.ICancelHandler
     // Base method: System.Void ICancelHandler::OnCancel(UnityEngine.EventSystems.BaseEventData eventData)
     void OnCancel(UnityEngine::EventSystems::BaseEventData* eventData);

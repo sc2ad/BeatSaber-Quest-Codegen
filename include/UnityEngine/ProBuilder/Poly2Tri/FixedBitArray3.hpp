@@ -44,22 +44,22 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Creating value type constructor for type: FixedBitArray3
     constexpr FixedBitArray3(bool _0_ = {}, bool _1_ = {}, bool _2_ = {}) noexcept : _0{_0_}, _1{_1_}, _2{_2_} {}
     // public System.Boolean get_Item(System.Int32 index)
-    // Offset: 0xDDC7FC
+    // Offset: 0xC89E94
     bool get_Item(int index);
     // public System.Void set_Item(System.Int32 index, System.Boolean value)
-    // Offset: 0xDDC804
+    // Offset: 0xC89E9C
     void set_Item(int index, bool value);
     // public System.Void Clear()
-    // Offset: 0xDDC810
+    // Offset: 0xC89EA8
     void Clear();
     // private System.Collections.Generic.IEnumerable`1<System.Boolean> Enumerate()
-    // Offset: 0xDDC81C
+    // Offset: 0xC89EB4
     System::Collections::Generic::IEnumerable_1<bool>* Enumerate();
     // public System.Collections.Generic.IEnumerator`1<System.Boolean> GetEnumerator()
-    // Offset: 0xDDC824
+    // Offset: 0xC89EBC
     System::Collections::Generic::IEnumerator_1<bool>* GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0xDDC82C
+    // Offset: 0xC89EC4
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();

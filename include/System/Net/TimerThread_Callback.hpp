@@ -26,16 +26,16 @@ namespace System::Net {
   class TimerThread::Callback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x13B6A44
+    // Offset: 0x118B180
     static TimerThread::Callback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Net.TimerThread/Timer timer, System.Int32 timeNoticed, System.Object context)
-    // Offset: 0x13B6A58
+    // Offset: 0x118B194
     void Invoke(System::Net::TimerThread::Timer* timer, int timeNoticed, ::Il2CppObject* context);
     // public System.IAsyncResult BeginInvoke(System.Net.TimerThread/Timer timer, System.Int32 timeNoticed, System.Object context, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x13B6EA8
+    // Offset: 0x118B5E4
     System::IAsyncResult* BeginInvoke(System::Net::TimerThread::Timer* timer, int timeNoticed, ::Il2CppObject* context, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x13B6F48
+    // Offset: 0x118B684
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Net.TimerThread/Callback
 }

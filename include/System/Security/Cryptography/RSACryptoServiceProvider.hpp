@@ -67,85 +67,85 @@ namespace System::Security::Cryptography {
     // Set static field: static private System.Security.Cryptography.CspProviderFlags s_UseMachineKeyStore
     static void _set_s_UseMachineKeyStore(System::Security::Cryptography::CspProviderFlags value);
     // static public System.Boolean get_UseMachineKeyStore()
-    // Offset: 0x19D7FD8
+    // Offset: 0x177E3FC
     static bool get_UseMachineKeyStore();
     // static private System.Int32 GetAlgorithmId(System.Security.Cryptography.HashAlgorithmName hashAlgorithm)
-    // Offset: 0x19D807C
+    // Offset: 0x177E4A0
     static int GetAlgorithmId(System::Security::Cryptography::HashAlgorithmName hashAlgorithm);
     // static private System.Exception PaddingModeNotSupported()
-    // Offset: 0x19D843C
+    // Offset: 0x177E860
     static System::Exception* PaddingModeNotSupported();
     // public System.Void .ctor(System.Security.Cryptography.CspParameters parameters)
-    // Offset: 0x19D85A8
+    // Offset: 0x177E9CC
     static RSACryptoServiceProvider* New_ctor(System::Security::Cryptography::CspParameters* parameters);
     // public System.Void .ctor(System.Int32 dwKeySize)
-    // Offset: 0x19D856C
+    // Offset: 0x177E990
     static RSACryptoServiceProvider* New_ctor(int dwKeySize);
     // public System.Void .ctor(System.Int32 dwKeySize, System.Security.Cryptography.CspParameters parameters)
-    // Offset: 0x19D85B4
+    // Offset: 0x177E9D8
     static RSACryptoServiceProvider* New_ctor(int dwKeySize, System::Security::Cryptography::CspParameters* parameters);
     // private System.Void Common(System.Int32 dwKeySize, System.Boolean parameters)
-    // Offset: 0x19D8620
+    // Offset: 0x177EA44
     void Common(int dwKeySize, bool parameters);
     // private System.Void Common(System.Security.Cryptography.CspParameters p)
-    // Offset: 0x19D8854
+    // Offset: 0x177EC78
     void Common(System::Security::Cryptography::CspParameters* p);
     // public System.Boolean get_PublicOnly()
-    // Offset: 0x19D8A10
+    // Offset: 0x177EE34
     bool get_PublicOnly();
     // static private System.Security.Cryptography.HashAlgorithm InternalHashToHashAlgorithm(System.Int32 calgHash)
-    // Offset: 0x19D8C34
+    // Offset: 0x177F058
     static System::Security::Cryptography::HashAlgorithm* InternalHashToHashAlgorithm(int calgHash);
     // private System.Boolean VerifyHash(System.Byte[] rgbHash, System.Int32 calgHash, System.Byte[] rgbSignature)
-    // Offset: 0x19D84CC
+    // Offset: 0x177E8F0
     bool VerifyHash(::Array<uint8_t>* rgbHash, int calgHash, ::Array<uint8_t>* rgbSignature);
     // private System.Void OnKeyGenerated(System.Object sender, System.EventArgs e)
-    // Offset: 0x19D8D80
+    // Offset: 0x177F1A4
     void OnKeyGenerated(::Il2CppObject* sender, System::EventArgs* e);
     // protected override System.Byte[] HashData(System.Byte[] data, System.Int32 offset, System.Int32 count, System.Security.Cryptography.HashAlgorithmName hashAlgorithm)
-    // Offset: 0x19D8034
+    // Offset: 0x177E458
     // Implemented from: System.Security.Cryptography.RSA
     // Base method: System.Byte[] RSA::HashData(System.Byte[] data, System.Int32 offset, System.Int32 count, System.Security.Cryptography.HashAlgorithmName hashAlgorithm)
     ::Array<uint8_t>* HashData(::Array<uint8_t>* data, int offset, int count, System::Security::Cryptography::HashAlgorithmName hashAlgorithm);
     // public override System.Boolean VerifyHash(System.Byte[] hash, System.Byte[] signature, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, System.Security.Cryptography.RSASignaturePadding padding)
-    // Offset: 0x19D81F4
+    // Offset: 0x177E618
     // Implemented from: System.Security.Cryptography.RSA
     // Base method: System.Boolean RSA::VerifyHash(System.Byte[] hash, System.Byte[] signature, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, System.Security.Cryptography.RSASignaturePadding padding)
     bool VerifyHash(::Array<uint8_t>* hash, ::Array<uint8_t>* signature, System::Security::Cryptography::HashAlgorithmName hashAlgorithm, System::Security::Cryptography::RSASignaturePadding* padding);
     // public System.Void .ctor()
-    // Offset: 0x19D734C
+    // Offset: 0x177D770
     // Implemented from: System.Security.Cryptography.RSA
     // Base method: System.Void RSA::.ctor()
     // Base method: System.Void AsymmetricAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()
     static RSACryptoServiceProvider* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x19D897C
+    // Offset: 0x177EDA0
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public override System.Int32 get_KeySize()
-    // Offset: 0x19D89F0
+    // Offset: 0x177EE14
     // Implemented from: System.Security.Cryptography.AsymmetricAlgorithm
     // Base method: System.Int32 AsymmetricAlgorithm::get_KeySize()
     int get_KeySize();
     // public override System.Byte[] EncryptValue(System.Byte[] rgb)
-    // Offset: 0x19D8A2C
+    // Offset: 0x177EE50
     // Implemented from: System.Security.Cryptography.RSA
     // Base method: System.Byte[] RSA::EncryptValue(System.Byte[] rgb)
     ::Array<uint8_t>* EncryptValue(::Array<uint8_t>* rgb);
     // public override System.Security.Cryptography.RSAParameters ExportParameters(System.Boolean includePrivateParameters)
-    // Offset: 0x19D8A50
+    // Offset: 0x177EE74
     // Implemented from: System.Security.Cryptography.RSA
     // Base method: System.Security.Cryptography.RSAParameters RSA::ExportParameters(System.Boolean includePrivateParameters)
     System::Security::Cryptography::RSAParameters ExportParameters(bool includePrivateParameters);
     // public override System.Void ImportParameters(System.Security.Cryptography.RSAParameters parameters)
-    // Offset: 0x19D8BDC
+    // Offset: 0x177F000
     // Implemented from: System.Security.Cryptography.RSA
     // Base method: System.Void RSA::ImportParameters(System.Security.Cryptography.RSAParameters parameters)
     void ImportParameters(System::Security::Cryptography::RSAParameters parameters);
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x19D8D20
+    // Offset: 0x177F144
     // Implemented from: System.Security.Cryptography.AsymmetricAlgorithm
     // Base method: System.Void AsymmetricAlgorithm::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);

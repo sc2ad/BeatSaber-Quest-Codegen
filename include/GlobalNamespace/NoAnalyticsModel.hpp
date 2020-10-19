@@ -22,22 +22,22 @@ namespace GlobalNamespace {
   class NoAnalyticsModel : public ::Il2CppObject, public GlobalNamespace::IAnalyticsModel {
     public:
     // public System.Boolean get_supportsOpenDataPrivacyPage()
-    // Offset: 0xF11E2C
+    // Offset: 0x1FE6CE0
     // Implemented from: IAnalyticsModel
     // Base method: System.Boolean IAnalyticsModel::get_supportsOpenDataPrivacyPage()
     bool get_supportsOpenDataPrivacyPage();
     // public System.Void OpenDataPrivacyPage()
-    // Offset: 0xF11E34
+    // Offset: 0x1FE6CE8
     // Implemented from: IAnalyticsModel
     // Base method: System.Void IAnalyticsModel::OpenDataPrivacyPage()
     void OpenDataPrivacyPage();
     // public System.Void LogEvent(System.String eventType, System.Collections.Generic.Dictionary`2<System.String,System.String> eventData)
-    // Offset: 0xF11E38
+    // Offset: 0x1FE6CEC
     // Implemented from: IAnalyticsModel
     // Base method: System.Void IAnalyticsModel::LogEvent(System.String eventType, System.Collections.Generic.Dictionary`2<System.String,System.String> eventData)
     void LogEvent(::Il2CppString* eventType, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* eventData);
     // public System.Void .ctor()
-    // Offset: 0xF11E3C
+    // Offset: 0x1FE6CF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NoAnalyticsModel* New_ctor();

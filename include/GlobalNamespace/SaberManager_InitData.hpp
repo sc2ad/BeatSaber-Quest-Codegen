@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Offset: 0x14
     GlobalNamespace::SaberType oneSaberType;
     // public System.Void .ctor(System.Boolean oneSaberMode, SaberType oneSaberType)
-    // Offset: 0xF80694
+    // Offset: 0x20778F0
     static SaberManager::InitData* New_ctor(bool oneSaberMode, GlobalNamespace::SaberType oneSaberType);
   }; // SaberManager/InitData
 }

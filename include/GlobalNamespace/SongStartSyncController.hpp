@@ -79,49 +79,49 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kAudioLoadTimeout
     static void _set_kAudioLoadTimeout(float value);
     // public System.Boolean get_isSongStarted()
-    // Offset: 0xEF3944
+    // Offset: 0x1FF4898
     bool get_isSongStarted();
     // public System.Single get_songStartSyncTime()
-    // Offset: 0xEF394C
+    // Offset: 0x1FF48A0
     float get_songStartSyncTime();
     // public System.Void add_syncStartFailedEvent(System.Action value)
-    // Offset: 0xEF3968
+    // Offset: 0x1FF48BC
     void add_syncStartFailedEvent(System::Action* value);
     // public System.Void remove_syncStartFailedEvent(System.Action value)
-    // Offset: 0xEF3A0C
+    // Offset: 0x1FF4960
     void remove_syncStartFailedEvent(System::Action* value);
     // public System.Void add_syncStartSuccessEvent(System.Action`1<System.Single> value)
-    // Offset: 0xEF3AB0
+    // Offset: 0x1FF4A04
     void add_syncStartSuccessEvent(System::Action_1<float>* value);
     // public System.Void remove_syncStartSuccessEvent(System.Action`1<System.Single> value)
-    // Offset: 0xEF3B54
+    // Offset: 0x1FF4AA8
     void remove_syncStartSuccessEvent(System::Action_1<float>* value);
     // public System.Void add_syncResumeEvent(System.Action`1<System.Single> value)
-    // Offset: 0xEF3BF8
+    // Offset: 0x1FF4B4C
     void add_syncResumeEvent(System::Action_1<float>* value);
     // public System.Void remove_syncResumeEvent(System.Action`1<System.Single> value)
-    // Offset: 0xEF3C9C
+    // Offset: 0x1FF4BF0
     void remove_syncResumeEvent(System::Action_1<float>* value);
     // protected System.Void Start()
-    // Offset: 0xEF3D40
+    // Offset: 0x1FF4C94
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xEF3D4C
+    // Offset: 0x1FF4CA0
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xEF3D60
+    // Offset: 0x1FF4CB4
     void Update();
     // protected System.Void OnApplicationPause(System.Boolean pauseStatus)
-    // Offset: 0xEF3E94
+    // Offset: 0x1FF4DE8
     void OnApplicationPause(bool pauseStatus);
     // public System.Void StartSong()
-    // Offset: 0xEF3F20
+    // Offset: 0x1FF4E74
     void StartSong();
     // private System.Void HandleSetSongStartSyncTime(System.Single songStartSyncTime)
-    // Offset: 0xEF4078
+    // Offset: 0x1FF4FCC
     void HandleSetSongStartSyncTime(float songStartSyncTime);
     // public System.Void .ctor()
-    // Offset: 0xEF40FC
+    // Offset: 0x1FF5050
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

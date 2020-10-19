@@ -28,10 +28,10 @@ namespace GlobalNamespace {
       return levelId;
     }
     // System.Boolean <GetLevelPreviewForLevelId>b__1(IPreviewBeatmapLevel beatmapLevel)
-    // Offset: 0x1058D98
+    // Offset: 0x20D3818
     bool $GetLevelPreviewForLevelId$b__1(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
     // public System.Void .ctor()
-    // Offset: 0x105860C
+    // Offset: 0x20D308C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BeatmapLevelsModel::$$c__DisplayClass34_0* New_ctor();

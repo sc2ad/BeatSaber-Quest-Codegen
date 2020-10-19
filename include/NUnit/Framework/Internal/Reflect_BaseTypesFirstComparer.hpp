@@ -23,12 +23,12 @@ namespace NUnit::Framework::Internal {
   class Reflect::BaseTypesFirstComparer : public ::Il2CppObject, public System::Collections::Generic::IComparer_1<System::Reflection::MethodInfo*> {
     public:
     // public System.Int32 Compare(System.Reflection.MethodInfo m1, System.Reflection.MethodInfo m2)
-    // Offset: 0x217676C
+    // Offset: 0x1ECB3D0
     // Implemented from: System.Collections.Generic.IComparer`1
     // Base method: System.Int32 IComparer_1::Compare(System.Reflection.MethodInfo m1, System.Reflection.MethodInfo m2)
     int Compare(System::Reflection::MethodInfo* m1, System::Reflection::MethodInfo* m2);
     // public System.Void .ctor()
-    // Offset: 0x2175FAC
+    // Offset: 0x1ECAC10
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Reflect::BaseTypesFirstComparer* New_ctor();

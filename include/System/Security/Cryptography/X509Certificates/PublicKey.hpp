@@ -48,31 +48,31 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set static field: static private System.Byte[] Empty
     static void _set_Empty(::Array<uint8_t>* value);
     // System.Void .ctor(Mono.Security.X509.X509Certificate certificate)
-    // Offset: 0x16B7418
+    // Offset: 0x1471FEC
     static PublicKey* New_ctor(Mono::Security::X509::X509Certificate* certificate);
     // public System.Security.Cryptography.AsnEncodedData get_EncodedKeyValue()
-    // Offset: 0x16B7850
+    // Offset: 0x1472424
     System::Security::Cryptography::AsnEncodedData* get_EncodedKeyValue();
     // public System.Security.Cryptography.AsnEncodedData get_EncodedParameters()
-    // Offset: 0x16B7858
+    // Offset: 0x147242C
     System::Security::Cryptography::AsnEncodedData* get_EncodedParameters();
     // public System.Security.Cryptography.AsymmetricAlgorithm get_Key()
-    // Offset: 0x16B7860
+    // Offset: 0x1472434
     System::Security::Cryptography::AsymmetricAlgorithm* get_Key();
     // public System.Security.Cryptography.Oid get_Oid()
-    // Offset: 0x16B829C
+    // Offset: 0x1472E70
     System::Security::Cryptography::Oid* get_Oid();
     // static private System.Byte[] GetUnsignedBigInteger(System.Byte[] integer)
-    // Offset: 0x16B82A4
+    // Offset: 0x1472E78
     static ::Array<uint8_t>* GetUnsignedBigInteger(::Array<uint8_t>* integer);
     // static System.Security.Cryptography.DSA DecodeDSA(System.Byte[] rawPublicKey, System.Byte[] rawParameters)
-    // Offset: 0x16B7DE0
+    // Offset: 0x14729B4
     static System::Security::Cryptography::DSA* DecodeDSA(::Array<uint8_t>* rawPublicKey, ::Array<uint8_t>* rawParameters);
     // static System.Security.Cryptography.RSA DecodeRSA(System.Byte[] rawPublicKey)
-    // Offset: 0x16B7A2C
+    // Offset: 0x1472600
     static System::Security::Cryptography::RSA* DecodeRSA(::Array<uint8_t>* rawPublicKey);
     // static private System.Void .cctor()
-    // Offset: 0x16B8350
+    // Offset: 0x1472F24
     static void _cctor();
   }; // System.Security.Cryptography.X509Certificates.PublicKey
 }

@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRApplications::_GetApplicationsThatSupportMimeType : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1538284
+    // Offset: 0x130EAAC
     static IVRApplications::_GetApplicationsThatSupportMimeType* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.String pchMimeType, System.Text.StringBuilder pchAppKeysThatSupportBuffer, System.UInt32 unAppKeysThatSupportBuffer)
-    // Offset: 0x152F264
+    // Offset: 0x1305A8C
     uint Invoke(::Il2CppString* pchMimeType, System::Text::StringBuilder* pchAppKeysThatSupportBuffer, uint unAppKeysThatSupportBuffer);
     // public System.IAsyncResult BeginInvoke(System.String pchMimeType, System.Text.StringBuilder pchAppKeysThatSupportBuffer, System.UInt32 unAppKeysThatSupportBuffer, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1538298
+    // Offset: 0x130EAC0
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchMimeType, System::Text::StringBuilder* pchAppKeysThatSupportBuffer, uint unAppKeysThatSupportBuffer, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1538338
+    // Offset: 0x130EB60
     uint EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRApplications/_GetApplicationsThatSupportMimeType
 }

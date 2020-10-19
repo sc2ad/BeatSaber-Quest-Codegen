@@ -33,16 +33,16 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x28
     int macSize;
     // public Org.BouncyCastle.Crypto.Parameters.KeyParameter get_Key()
-    // Offset: 0x10EC08C
+    // Offset: 0xF46D1C
     Org::BouncyCastle::Crypto::Parameters::KeyParameter* get_Key();
     // public System.Int32 get_MacSize()
-    // Offset: 0x10EC094
+    // Offset: 0xF46D24
     int get_MacSize();
     // public System.Byte[] GetAssociatedText()
-    // Offset: 0x10EC09C
+    // Offset: 0xF46D2C
     ::Array<uint8_t>* GetAssociatedText();
     // public System.Byte[] GetNonce()
-    // Offset: 0x10EC0A4
+    // Offset: 0xF46D34
     ::Array<uint8_t>* GetNonce();
   }; // Org.BouncyCastle.Crypto.Parameters.AeadParameters
 }

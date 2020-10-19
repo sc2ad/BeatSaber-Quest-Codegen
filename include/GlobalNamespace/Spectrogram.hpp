@@ -44,16 +44,16 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static void _set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock* value);
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0xEF58B0
+    // Offset: 0x1FF6804
     static void NoDomainReloadInit();
     // protected System.Void Awake()
-    // Offset: 0xEF591C
+    // Offset: 0x1FF6870
     void Awake();
     // protected System.Void Update()
-    // Offset: 0xEF59D8
+    // Offset: 0x1FF692C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xEF5AF8
+    // Offset: 0x1FF6A4C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static Spectrogram* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xEF5B00
+    // Offset: 0x1FF6A54
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

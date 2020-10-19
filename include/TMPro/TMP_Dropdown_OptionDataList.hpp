@@ -29,13 +29,13 @@ namespace TMPro {
       return m_Options;
     }
     // public System.Collections.Generic.List`1<TMPro.TMP_Dropdown/OptionData> get_options()
-    // Offset: 0xF47FFC
+    // Offset: 0xEC2930
     System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>* get_options();
     // public System.Void set_options(System.Collections.Generic.List`1<TMPro.TMP_Dropdown/OptionData> value)
-    // Offset: 0xF48004
+    // Offset: 0xEC2938
     void set_options(System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>* value);
     // public System.Void .ctor()
-    // Offset: 0xF455E8
+    // Offset: 0xEBFF1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TMP_Dropdown::OptionDataList* New_ctor();

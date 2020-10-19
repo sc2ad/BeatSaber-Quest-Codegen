@@ -70,37 +70,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didFinishEvent(System.Action`1<AutoSetupData> value)
-    // Offset: 0xFB2650
+    // Offset: 0x2030D00
     void add_didFinishEvent(System::Action_1<GlobalNamespace::AutoSetupData*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<AutoSetupData> value)
-    // Offset: 0xFB26F4
+    // Offset: 0x2030DA4
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::AutoSetupData*>* value);
     // public System.Void Setup(AutoSetupData autoSetupData)
-    // Offset: 0xFB2798
+    // Offset: 0x2030E48
     void Setup(GlobalNamespace::AutoSetupData* autoSetupData);
     // protected System.Void OnEnable()
-    // Offset: 0xFB27A0
+    // Offset: 0x2030E50
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xFB295C
+    // Offset: 0x203100C
     void OnDisable();
     // private System.Void <OnEnable>b__12_0()
-    // Offset: 0xFB2A4C
+    // Offset: 0x20310FC
     void $OnEnable$b__12_0();
     // private System.Void <OnEnable>b__12_1(System.Boolean isOn)
-    // Offset: 0xFB2AB0
+    // Offset: 0x2031160
     void $OnEnable$b__12_1(bool isOn);
     // private System.Void <OnEnable>b__12_2(System.Boolean isOn)
-    // Offset: 0xFB2AD0
+    // Offset: 0x2031180
     void $OnEnable$b__12_2(bool isOn);
     // private System.Void <OnEnable>b__12_3(System.Boolean isOn)
-    // Offset: 0xFB2AF0
+    // Offset: 0x20311A0
     void $OnEnable$b__12_3(bool isOn);
     // private System.Void <OnEnable>b__12_4(System.Boolean isOn)
-    // Offset: 0xFB2B10
+    // Offset: 0x20311C0
     void $OnEnable$b__12_4(bool isOn);
     // public System.Void .ctor()
-    // Offset: 0xFB2978
+    // Offset: 0x2031028
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

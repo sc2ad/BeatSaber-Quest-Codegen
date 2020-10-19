@@ -21,25 +21,25 @@ namespace Mono::Security::X509::Extensions {
       return aki;
     }
     // public System.Byte[] get_Identifier()
-    // Offset: 0x1B8BE80
+    // Offset: 0x192E074
     ::Array<uint8_t>* get_Identifier();
     // public System.Void .ctor(Mono.Security.X509.X509Extension extension)
-    // Offset: 0x1B8BC00
+    // Offset: 0x192DDF4
     // Implemented from: Mono.Security.X509.X509Extension
     // Base method: System.Void X509Extension::.ctor(Mono.Security.X509.X509Extension extension)
     static AuthorityKeyIdentifierExtension* New_ctor(Mono::Security::X509::X509Extension* extension);
     // protected override System.Void Decode()
-    // Offset: 0x1B8BC08
+    // Offset: 0x192DDFC
     // Implemented from: Mono.Security.X509.X509Extension
     // Base method: System.Void X509Extension::Decode()
     void Decode();
     // protected override System.Void Encode()
-    // Offset: 0x1B8BD30
+    // Offset: 0x192DF24
     // Implemented from: Mono.Security.X509.X509Extension
     // Base method: System.Void X509Extension::Encode()
     void Encode();
     // public override System.String ToString()
-    // Offset: 0x1B8BEFC
+    // Offset: 0x192E0F0
     // Implemented from: Mono.Security.X509.X509Extension
     // Base method: System.String X509Extension::ToString()
     ::Il2CppString* ToString();

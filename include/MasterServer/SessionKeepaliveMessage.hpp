@@ -31,10 +31,10 @@ namespace MasterServer {
   class SessionKeepaliveMessage : public ::Il2CppObject, public MasterServer::IMasterServerUnreliableMessage, public MasterServer::IUserMessage {
     public:
     // static public PacketPool`1<MasterServer.SessionKeepaliveMessage> get_pool()
-    // Offset: 0x10C0CC0
+    // Offset: 0x2122828
     static GlobalNamespace::PacketPool_1<MasterServer::SessionKeepaliveMessage*>* get_pool();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x10C7D70
+    // Offset: 0x21298D8
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -42,7 +42,7 @@ namespace MasterServer {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x10C7D74
+    // Offset: 0x21298DC
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -50,12 +50,12 @@ namespace MasterServer {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x10C0E10
+    // Offset: 0x2122978
     // Implemented from: IPoolablePacket
     // Base method: System.Void IPoolablePacket::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x10C7D78
+    // Offset: 0x21298E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SessionKeepaliveMessage* New_ctor();

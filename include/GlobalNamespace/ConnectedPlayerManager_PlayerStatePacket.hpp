@@ -43,13 +43,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::MultiplayerAvatarData playerAvatar;
     // static public PacketPool`1<ConnectedPlayerManager/PlayerStatePacket> get_pool()
-    // Offset: 0x115E9D4
+    // Offset: 0x21593BC
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket*>* get_pool();
     // public ConnectedPlayerManager/PlayerStatePacket Init(BloomFilter states, MultiplayerAvatarData avatar)
-    // Offset: 0x11614D0
+    // Offset: 0x215BEB8
     GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket* Init(GlobalNamespace::BloomFilter states, GlobalNamespace::MultiplayerAvatarData avatar);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x11619AC
+    // Offset: 0x215C394
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x11619E4
+    // Offset: 0x215C3CC
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -65,12 +65,12 @@ namespace GlobalNamespace {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x1161A4C
+    // Offset: 0x215C434
     // Implemented from: IPoolablePacket
     // Base method: System.Void IPoolablePacket::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x1161AA8
+    // Offset: 0x215C490
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConnectedPlayerManager::PlayerStatePacket* New_ctor();

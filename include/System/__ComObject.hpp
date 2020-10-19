@@ -12,7 +12,7 @@ namespace System {
   class __ComObject : public ::Il2CppObject {
     public:
     // private System.Void .ctor()
-    // Offset: 0x21FF57C
+    // Offset: 0x1F4FF8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static __ComObject* New_ctor();

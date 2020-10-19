@@ -77,55 +77,55 @@ namespace System::Net {
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // System.Void .ctor(System.Net.FtpWebRequest request, System.Uri uri, System.String method, System.Boolean keepAlive)
-    // Offset: 0x145B8FC
+    // Offset: 0x1232124
     static FtpWebResponse* New_ctor(System::Net::FtpWebRequest* request, System::Uri* uri, ::Il2CppString* method, bool keepAlive);
     // System.Void .ctor(System.Net.FtpWebRequest request, System.Uri uri, System.String method, System.Net.FtpStatusCode statusCode, System.String statusDescription)
-    // Offset: 0x145BA18
+    // Offset: 0x1232240
     static FtpWebResponse* New_ctor(System::Net::FtpWebRequest* request, System::Uri* uri, ::Il2CppString* method, System::Net::FtpStatusCode statusCode, ::Il2CppString* statusDescription);
     // System.Void .ctor(System.Net.FtpWebRequest request, System.Uri uri, System.String method, System.Net.FtpStatus status)
-    // Offset: 0x145BB58
+    // Offset: 0x1232380
     static FtpWebResponse* New_ctor(System::Net::FtpWebRequest* request, System::Uri* uri, ::Il2CppString* method, System::Net::FtpStatus* status);
     // System.Void set_LastModified(System.DateTime value)
-    // Offset: 0x145BBDC
+    // Offset: 0x1232404
     void set_LastModified(System::DateTime value);
     // System.Void set_BannerMessage(System.String value)
-    // Offset: 0x145BBE4
+    // Offset: 0x123240C
     void set_BannerMessage(::Il2CppString* value);
     // System.Void set_WelcomeMessage(System.String value)
-    // Offset: 0x145BBEC
+    // Offset: 0x1232414
     void set_WelcomeMessage(::Il2CppString* value);
     // System.Void set_StatusCode(System.Net.FtpStatusCode value)
-    // Offset: 0x145BBF4
+    // Offset: 0x123241C
     void set_StatusCode(System::Net::FtpStatusCode value);
     // System.Void set_Stream(System.IO.Stream value)
-    // Offset: 0x145BE40
+    // Offset: 0x1232668
     void set_Stream(System::IO::Stream* value);
     // System.Void UpdateStatus(System.Net.FtpStatus status)
-    // Offset: 0x145BE48
+    // Offset: 0x1232670
     void UpdateStatus(System::Net::FtpStatus* status);
     // private System.Void CheckDisposed()
-    // Offset: 0x145BD94
+    // Offset: 0x12325BC
     void CheckDisposed();
     // System.Boolean IsFinal()
-    // Offset: 0x145BE74
+    // Offset: 0x123269C
     bool IsFinal();
     // public override System.Net.WebHeaderCollection get_Headers()
-    // Offset: 0x145BB78
+    // Offset: 0x12323A0
     // Implemented from: System.Net.WebResponse
     // Base method: System.Net.WebHeaderCollection WebResponse::get_Headers()
     System::Net::WebHeaderCollection* get_Headers();
     // public override System.Uri get_ResponseUri()
-    // Offset: 0x145BBD4
+    // Offset: 0x12323FC
     // Implemented from: System.Net.WebResponse
     // Base method: System.Uri WebResponse::get_ResponseUri()
     System::Uri* get_ResponseUri();
     // public override System.Void Close()
-    // Offset: 0x145BBFC
+    // Offset: 0x1232424
     // Implemented from: System.Net.WebResponse
     // Base method: System.Void WebResponse::Close()
     void Close();
     // public override System.IO.Stream GetResponseStream()
-    // Offset: 0x145BCD8
+    // Offset: 0x1232500
     // Implemented from: System.Net.WebResponse
     // Base method: System.IO.Stream WebResponse::GetResponseStream()
     System::IO::Stream* GetResponseStream();

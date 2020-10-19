@@ -43,24 +43,24 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public OculusLevelProductsModelSO/LevelPackProductData[] get_levelPackProductsData()
-    // Offset: 0x1002708
+    // Offset: 0x2104328
     ::Array<GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*>* get_levelPackProductsData();
     // public OculusLevelProductsModelSO/LevelProductData GetLevelProductData(System.String levelId)
-    // Offset: 0x1002890
+    // Offset: 0x2100700
     GlobalNamespace::OculusLevelProductsModelSO::LevelProductData* GetLevelProductData(::Il2CppString* levelId);
     // public OculusLevelProductsModelSO/LevelPackProductData GetLevelPackProductData(System.String levelPackId)
-    // Offset: 0x1002910
+    // Offset: 0x21044B0
     GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData* GetLevelPackProductData(::Il2CppString* levelPackId);
     // public System.String GetLevelSku(System.String assetFile)
-    // Offset: 0x1002990
+    // Offset: 0x2104530
     ::Il2CppString* GetLevelSku(::Il2CppString* assetFile);
     // protected override System.Void OnEnable()
-    // Offset: 0x1002710
+    // Offset: 0x2104330
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x1002A10
+    // Offset: 0x21045B0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

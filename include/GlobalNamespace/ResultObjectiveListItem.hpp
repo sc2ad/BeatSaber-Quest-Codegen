@@ -50,31 +50,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_iconColor(UnityEngine.Color value)
-    // Offset: 0xF781B8
+    // Offset: 0x206F354
     void set_iconColor(UnityEngine::Color value);
     // public System.Void set_icon(UnityEngine.Sprite value)
-    // Offset: 0xF781DC
+    // Offset: 0x206F378
     void set_icon(UnityEngine::Sprite* value);
     // public System.Void set_iconGlow(UnityEngine.Sprite value)
-    // Offset: 0xF781F8
+    // Offset: 0x206F394
     void set_iconGlow(UnityEngine::Sprite* value);
     // public System.Void set_title(System.String value)
-    // Offset: 0xF78214
+    // Offset: 0x206F3B0
     void set_title(::Il2CppString* value);
     // public System.Void set_conditionText(System.String value)
-    // Offset: 0xF78230
+    // Offset: 0x206F3CC
     void set_conditionText(::Il2CppString* value);
     // public System.Void set_hideConditionText(System.Boolean value)
-    // Offset: 0xF7824C
+    // Offset: 0x206F3E8
     void set_hideConditionText(bool value);
     // public System.Void set_valueText(System.String value)
-    // Offset: 0xF7828C
+    // Offset: 0x206F428
     void set_valueText(::Il2CppString* value);
     // public System.Void set_hideValueText(System.Boolean value)
-    // Offset: 0xF782A8
+    // Offset: 0x206F444
     void set_hideValueText(bool value);
     // public System.Void .ctor()
-    // Offset: 0xF782E8
+    // Offset: 0x206F484
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

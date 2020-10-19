@@ -28,10 +28,10 @@ namespace System::Net::NetworkInformation {
       return address;
     }
     // public System.Void .ctor(System.Net.IPAddress address)
-    // Offset: 0x12C9AF4
+    // Offset: 0x10C5390
     static LinuxUnicastIPAddressInformation* New_ctor(System::Net::IPAddress* address);
     // public override System.Net.IPAddress get_Address()
-    // Offset: 0x12C9B30
+    // Offset: 0x10C53CC
     // Implemented from: System.Net.NetworkInformation.IPAddressInformation
     // Base method: System.Net.IPAddress IPAddressInformation::get_Address()
     System::Net::IPAddress* get_Address();

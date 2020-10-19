@@ -14,7 +14,7 @@ namespace System::Runtime::CompilerServices {
   class CompilerGeneratedAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1290C90
+    // Offset: 0x108C52C
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

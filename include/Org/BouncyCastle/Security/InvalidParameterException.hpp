@@ -14,7 +14,7 @@ namespace Org::BouncyCastle::Security {
   class InvalidParameterException : public Org::BouncyCastle::Security::KeyException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x11CDEA0
+    // Offset: 0xFC973C
     // Implemented from: Org.BouncyCastle.Security.KeyException
     // Base method: System.Void KeyException::.ctor()
     // Base method: System.Void GeneralSecurityException::.ctor()
@@ -22,7 +22,7 @@ namespace Org::BouncyCastle::Security {
     // Base method: System.Void Object::.ctor()
     static InvalidParameterException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x11CDEA4
+    // Offset: 0xFC9740
     // Implemented from: Org.BouncyCastle.Security.KeyException
     // Base method: System.Void KeyException::.ctor(System.String message)
     // Base method: System.Void GeneralSecurityException::.ctor(System.String message)

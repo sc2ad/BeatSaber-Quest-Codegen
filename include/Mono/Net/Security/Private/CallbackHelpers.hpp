@@ -37,13 +37,13 @@ namespace Mono::Net::Security::Private {
     // Nested type: Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass8_0
     class $$c__DisplayClass8_0;
     // static Mono.Security.Interface.MonoRemoteCertificateValidationCallback PublicToMono(System.Net.Security.RemoteCertificateValidationCallback callback)
-    // Offset: 0x1420898
+    // Offset: 0x11F6FD4
     static Mono::Security::Interface::MonoRemoteCertificateValidationCallback* PublicToMono(System::Net::Security::RemoteCertificateValidationCallback* callback);
     // static System.Net.Security.RemoteCertificateValidationCallback MonoToPublic(Mono.Security.Interface.MonoRemoteCertificateValidationCallback callback)
-    // Offset: 0x141AC88
+    // Offset: 0x11F13C4
     static System::Net::Security::RemoteCertificateValidationCallback* MonoToPublic(Mono::Security::Interface::MonoRemoteCertificateValidationCallback* callback);
     // static System.Net.Security.LocalCertSelectionCallback MonoToInternal(Mono.Security.Interface.MonoLocalCertificateSelectionCallback callback)
-    // Offset: 0x141AD48
+    // Offset: 0x11F1484
     static System::Net::Security::LocalCertSelectionCallback* MonoToInternal(Mono::Security::Interface::MonoLocalCertificateSelectionCallback* callback);
   }; // Mono.Net.Security.Private.CallbackHelpers
 }

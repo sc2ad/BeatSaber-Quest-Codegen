@@ -20,14 +20,14 @@ namespace Org::BouncyCastle::Security {
   class SignatureException : public Org::BouncyCastle::Security::GeneralSecurityException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x11DCD78
+    // Offset: 0xFD8614
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static SignatureException* New_ctor();
     // public System.Void .ctor(System.String message, System.Exception exception)
-    // Offset: 0x11DCD7C
+    // Offset: 0xFD8618
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor(System.String message, System.Exception exception)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception exception)

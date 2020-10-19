@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRCompositor::_LockGLSharedTextureForAccess : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1E32C94
+    // Offset: 0x1B858F8
     static IVRCompositor::_LockGLSharedTextureForAccess* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.IntPtr glSharedTextureHandle)
-    // Offset: 0x1E32CA8
+    // Offset: 0x1B8590C
     void Invoke(System::IntPtr glSharedTextureHandle);
     // public System.IAsyncResult BeginInvoke(System.IntPtr glSharedTextureHandle, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1E32F08
+    // Offset: 0x1B85B6C
     System::IAsyncResult* BeginInvoke(System::IntPtr glSharedTextureHandle, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1E32F94
+    // Offset: 0x1B85BF8
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_LockGLSharedTextureForAccess
 }

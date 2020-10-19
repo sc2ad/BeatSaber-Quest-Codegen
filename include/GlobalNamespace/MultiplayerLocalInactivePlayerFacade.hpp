@@ -65,51 +65,51 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public MultiplayerSpectatorController get_spectatorController()
-    // Offset: 0x223E400
+    // Offset: 0x204CA10
     GlobalNamespace::MultiplayerSpectatorController* get_spectatorController();
     // public MultiplayerLocalInactivePlayerIntroAnimator get_introAnimator()
-    // Offset: 0x223E408
+    // Offset: 0x204CA18
     GlobalNamespace::MultiplayerLocalInactivePlayerIntroAnimator* get_introAnimator();
     // public MultiplayerLocalInactivePlayerOutroAnimator get_outroAnimator()
-    // Offset: 0x223E410
+    // Offset: 0x204CA20
     GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator* get_outroAnimator();
     // public IStartSeekSongController get_songController()
-    // Offset: 0x223E3F8
+    // Offset: 0x204CA08
     // Implemented from: IStartSeekSongControllerProvider
     // Base method: IStartSeekSongController IStartSeekSongControllerProvider::get_songController()
     GlobalNamespace::IStartSeekSongController* get_songController();
     // public System.Void add_playerDidFinishEvent(System.Action`1<LevelCompletionResults> value)
-    // Offset: 0x223E418
+    // Offset: 0x204CA28
     // Implemented from: IMultiplayerLevelEndActionsPublisher
     // Base method: System.Void IMultiplayerLevelEndActionsPublisher::add_playerDidFinishEvent(System.Action`1<LevelCompletionResults> value)
     void add_playerDidFinishEvent(System::Action_1<GlobalNamespace::LevelCompletionResults*>* value);
     // public System.Void remove_playerDidFinishEvent(System.Action`1<LevelCompletionResults> value)
-    // Offset: 0x223E4BC
+    // Offset: 0x204CACC
     // Implemented from: IMultiplayerLevelEndActionsPublisher
     // Base method: System.Void IMultiplayerLevelEndActionsPublisher::remove_playerDidFinishEvent(System.Action`1<LevelCompletionResults> value)
     void remove_playerDidFinishEvent(System::Action_1<GlobalNamespace::LevelCompletionResults*>* value);
     // public System.Void add_playerNetworkDidFailedEvent(System.Action`1<PlayerNetworkFailReason> value)
-    // Offset: 0x223E560
+    // Offset: 0x204CB70
     // Implemented from: IMultiplayerLevelEndActionsPublisher
     // Base method: System.Void IMultiplayerLevelEndActionsPublisher::add_playerNetworkDidFailedEvent(System.Action`1<PlayerNetworkFailReason> value)
     void add_playerNetworkDidFailedEvent(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* value);
     // public System.Void remove_playerNetworkDidFailedEvent(System.Action`1<PlayerNetworkFailReason> value)
-    // Offset: 0x223E604
+    // Offset: 0x204CC14
     // Implemented from: IMultiplayerLevelEndActionsPublisher
     // Base method: System.Void IMultiplayerLevelEndActionsPublisher::remove_playerNetworkDidFailedEvent(System.Action`1<PlayerNetworkFailReason> value)
     void remove_playerNetworkDidFailedEvent(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* value);
     // public System.Void ReportPlayerDidFinish(LevelCompletionResults results)
-    // Offset: 0x223E6A8
+    // Offset: 0x204CCB8
     // Implemented from: IMultiplayerLevelEndActionsListener
     // Base method: System.Void IMultiplayerLevelEndActionsListener::ReportPlayerDidFinish(LevelCompletionResults results)
     void ReportPlayerDidFinish(GlobalNamespace::LevelCompletionResults* results);
     // public System.Void ReportPlayerNetworkDidFailed(PlayerNetworkFailReason failReason)
-    // Offset: 0x223E71C
+    // Offset: 0x204CD2C
     // Implemented from: IMultiplayerLevelEndActionsListener
     // Base method: System.Void IMultiplayerLevelEndActionsListener::ReportPlayerNetworkDidFailed(PlayerNetworkFailReason failReason)
     void ReportPlayerNetworkDidFailed(GlobalNamespace::PlayerNetworkFailReason failReason);
     // public System.Void .ctor()
-    // Offset: 0x223E790
+    // Offset: 0x204CDA0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

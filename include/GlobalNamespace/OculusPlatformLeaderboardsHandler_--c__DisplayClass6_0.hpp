@@ -30,10 +30,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* completionHandler;
     // System.Void <UploadScore>b__0(Oculus.Platform.Message`1<System.Boolean> messsage)
-    // Offset: 0x100A5B8
+    // Offset: 0x1F82C14
     void $UploadScore$b__0(Oculus::Platform::Message_1<bool>* messsage);
     // public System.Void .ctor()
-    // Offset: 0x100A1D8
+    // Offset: 0x1F82834
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusPlatformLeaderboardsHandler::$$c__DisplayClass6_0* New_ctor();

@@ -36,16 +36,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_connectedPlayer(IConnectedPlayer value)
-    // Offset: 0xFC842C
+    // Offset: 0x205CFAC
     void set_connectedPlayer(GlobalNamespace::IConnectedPlayer* value);
     // protected System.Void Start()
-    // Offset: 0xFC8434
+    // Offset: 0x205CFB4
     void Start();
     // protected System.Void Update()
-    // Offset: 0xFC844C
+    // Offset: 0x205CFCC
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xFC878C
+    // Offset: 0x205D30C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -34,19 +34,19 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: StatsScopeData
     constexpr StatsScopeData(::Il2CppString* text_ = {}, System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* playerOverallStatsDataFunc_ = {}) noexcept : text{text_}, playerOverallStatsDataFunc{playerOverallStatsDataFunc_} {}
     // public System.String get_text()
-    // Offset: 0xDA1E14
+    // Offset: 0xE4E3C4
     ::Il2CppString* get_text();
     // private System.Void set_text(System.String value)
-    // Offset: 0xDA1E1C
+    // Offset: 0xE4E3CC
     void set_text(::Il2CppString* value);
     // public System.Func`1<PlayerAllOverallStatsData/PlayerOverallStatsData> get_playerOverallStatsDataFunc()
-    // Offset: 0xDA1E24
+    // Offset: 0xE4E3D4
     System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* get_playerOverallStatsDataFunc();
     // private System.Void set_playerOverallStatsDataFunc(System.Func`1<PlayerAllOverallStatsData/PlayerOverallStatsData> value)
-    // Offset: 0xDA1E2C
+    // Offset: 0xE4E3DC
     void set_playerOverallStatsDataFunc(System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* value);
     // public System.Void .ctor(System.String text, System.Func`1<PlayerAllOverallStatsData/PlayerOverallStatsData> playerOverallStatsDataFunc)
-    // Offset: 0xDA1E34
+    // Offset: 0xE4E3E4
     // ABORTED: conflicts with another method.  StatsScopeData(::Il2CppString* text, System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* playerOverallStatsDataFunc);
   }; // PlayerStatisticsViewController/StatsScopeData
 }

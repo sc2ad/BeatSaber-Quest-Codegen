@@ -39,16 +39,16 @@ namespace LiteNetLib {
     // Creating value type constructor for type: PendingPacket
     constexpr PendingPacket(LiteNetLib::NetPacket* packet_ = {}, int64_t timeStamp_ = {}, bool isSent_ = {}) noexcept : packet{packet_}, timeStamp{timeStamp_}, isSent{isSent_} {}
     // public System.Void Init(LiteNetLib.NetPacket packet)
-    // Offset: 0xDC36AC
+    // Offset: 0xC78B18
     void Init(LiteNetLib::NetPacket* packet);
     // public System.Void TrySend(System.Int64 currentTime, LiteNetLib.NetPeer peer)
-    // Offset: 0xDC36D8
+    // Offset: 0xC78B44
     void TrySend(int64_t currentTime, LiteNetLib::NetPeer* peer);
     // public System.Boolean Clear(LiteNetLib.NetPeer peer)
-    // Offset: 0xDC36E0
+    // Offset: 0xC78B4C
     bool Clear(LiteNetLib::NetPeer* peer);
     // public override System.String ToString()
-    // Offset: 0xDC36A4
+    // Offset: 0xC78B10
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

@@ -29,41 +29,41 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x18
     Org::BouncyCastle::Asn1::Asn1Encodable* obj;
     // static public Org.BouncyCastle.Asn1.Asn1TaggedObject GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean explicitly)
-    // Offset: 0x1541A3C
+    // Offset: 0x1319264
     static Org::BouncyCastle::Asn1::Asn1TaggedObject* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
     // static public Org.BouncyCastle.Asn1.Asn1TaggedObject GetInstance(System.Object obj)
-    // Offset: 0x1541AE4
+    // Offset: 0x131930C
     static Org::BouncyCastle::Asn1::Asn1TaggedObject* GetInstance(::Il2CppObject* obj);
     // protected System.Void .ctor(System.Int32 tagNo, Org.BouncyCastle.Asn1.Asn1Encodable obj)
-    // Offset: 0x1541BF0
+    // Offset: 0x1319418
     static Asn1TaggedObject* New_ctor(int tagNo, Org::BouncyCastle::Asn1::Asn1Encodable* obj);
     // protected System.Void .ctor(System.Boolean explicitly, System.Int32 tagNo, Org.BouncyCastle.Asn1.Asn1Encodable obj)
-    // Offset: 0x1541C40
+    // Offset: 0x1319468
     static Asn1TaggedObject* New_ctor(bool explicitly, int tagNo, Org::BouncyCastle::Asn1::Asn1Encodable* obj);
     // public System.Int32 get_TagNo()
-    // Offset: 0x1541E44
+    // Offset: 0x131966C
     int get_TagNo();
     // public System.Boolean IsExplicit()
-    // Offset: 0x1541E4C
+    // Offset: 0x1319674
     bool IsExplicit();
     // public System.Boolean IsEmpty()
-    // Offset: 0x1541E54
+    // Offset: 0x131967C
     bool IsEmpty();
     // public Org.BouncyCastle.Asn1.Asn1Object GetObject()
-    // Offset: 0x153ECD0
+    // Offset: 0x13164F8
     Org::BouncyCastle::Asn1::Asn1Object* GetObject();
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x1541CE4
+    // Offset: 0x131950C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x1541E00
+    // Offset: 0x1319628
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1541E5C
+    // Offset: 0x1319684
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

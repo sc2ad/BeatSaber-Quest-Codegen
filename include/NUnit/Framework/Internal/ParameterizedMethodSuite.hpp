@@ -28,12 +28,12 @@ namespace NUnit::Framework::Internal {
       return isTheory;
     }
     // public System.Void .ctor(NUnit.Framework.Interfaces.IMethodInfo method)
-    // Offset: 0x2174BD0
+    // Offset: 0x1EC9834
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.Void Test::.ctor(NUnit.Framework.Interfaces.IMethodInfo method)
     static ParameterizedMethodSuite* New_ctor(NUnit::Framework::Interfaces::IMethodInfo* method);
     // public override System.String get_TestType()
-    // Offset: 0x2174E64
+    // Offset: 0x1EC9AC8
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_TestType()
     ::Il2CppString* get_TestType();

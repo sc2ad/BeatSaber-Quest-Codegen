@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
   class MatchmakingAdminSnapshotCandidateList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::MatchmakingAdminSnapshotCandidate*> {
     public:
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x136AE60
+    // Offset: 0x114059C
     static MatchmakingAdminSnapshotCandidateList* New_ctor(System::IntPtr a);
   }; // Oculus.Platform.Models.MatchmakingAdminSnapshotCandidateList
 }

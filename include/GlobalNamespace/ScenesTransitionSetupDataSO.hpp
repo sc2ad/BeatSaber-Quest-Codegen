@@ -38,22 +38,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public SceneInfo[] get_scenes()
-    // Offset: 0x10A3D38
+    // Offset: 0x211AC7C
     ::Array<GlobalNamespace::SceneInfo*>* get_scenes();
     // private System.Void set_scenes(SceneInfo[] value)
-    // Offset: 0x10A3D40
+    // Offset: 0x211AC84
     void set_scenes(::Array<GlobalNamespace::SceneInfo*>* value);
     // public SceneSetupData[] get_sceneSetupDataArray()
-    // Offset: 0x10A3D48
+    // Offset: 0x211AC8C
     ::Array<GlobalNamespace::SceneSetupData*>* get_sceneSetupDataArray();
     // private System.Void set_sceneSetupDataArray(SceneSetupData[] value)
-    // Offset: 0x10A3D50
+    // Offset: 0x211AC94
     void set_sceneSetupDataArray(::Array<GlobalNamespace::SceneSetupData*>* value);
     // protected System.Void Init(SceneInfo[] scenes, SceneSetupData[] sceneSetupData)
-    // Offset: 0x1097B28
+    // Offset: 0x210EA6C
     void Init(::Array<GlobalNamespace::SceneInfo*>* scenes, ::Array<GlobalNamespace::SceneSetupData*>* sceneSetupData);
     // public System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x109A6FC
+    // Offset: 0x2111640
     void InstallBindings(Zenject::DiContainer* container);
     // public T Get()
     // Offset: 0xFFFFFFFF
@@ -63,7 +63,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>(this, "Get", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // protected System.Void .ctor()
-    // Offset: 0x1097B64
+    // Offset: 0x210EAA8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

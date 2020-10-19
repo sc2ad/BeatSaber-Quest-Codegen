@@ -48,26 +48,26 @@ namespace System::Net::Http {
     // Offset: 0x48
     bool contentCopied;
     // public System.Void .ctor(System.IO.Stream content)
-    // Offset: 0x13B12AC
+    // Offset: 0x11869E8
     static StreamContent* New_ctor(System::IO::Stream* content);
     // public System.Void .ctor(System.IO.Stream content, System.Int32 bufferSize)
-    // Offset: 0x13B12B4
+    // Offset: 0x11869F0
     static StreamContent* New_ctor(System::IO::Stream* content, int bufferSize);
     // System.Void .ctor(System.IO.Stream content, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x13AE130
+    // Offset: 0x118386C
     static StreamContent* New_ctor(System::IO::Stream* content, System::Threading::CancellationToken cancellationToken);
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x13B13C4
+    // Offset: 0x1186B00
     // Implemented from: System.Net.Http.HttpContent
     // Base method: System.Void HttpContent::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // protected internal override System.Threading.Tasks.Task SerializeToStreamAsync(System.IO.Stream stream, System.Net.TransportContext context)
-    // Offset: 0x13B1420
+    // Offset: 0x1186B5C
     // Implemented from: System.Net.Http.HttpContent
     // Base method: System.Threading.Tasks.Task HttpContent::SerializeToStreamAsync(System.IO.Stream stream, System.Net.TransportContext context)
     System::Threading::Tasks::Task* SerializeToStreamAsync(System::IO::Stream* stream, System::Net::TransportContext* context);
     // protected internal override System.Boolean TryComputeLength(out System.Int64 length)
-    // Offset: 0x13B1520
+    // Offset: 0x1186C5C
     // Implemented from: System.Net.Http.HttpContent
     // Base method: System.Boolean HttpContent::TryComputeLength(out System.Int64 length)
     bool TryComputeLength(int64_t& length);

@@ -34,26 +34,26 @@ namespace System::Reflection {
     // Creating value type constructor for type: CustomAttributeNamedArgument
     constexpr CustomAttributeNamedArgument(System::Reflection::CustomAttributeTypedArgument typedArgument_ = {}, System::Reflection::MemberInfo* memberInfo_ = {}) noexcept : typedArgument{typedArgument_}, memberInfo{memberInfo_} {}
     // public System.Void .ctor(System.Reflection.MemberInfo memberInfo, System.Object value)
-    // Offset: 0xDC3B1C
+    // Offset: 0xC78F88
     CustomAttributeNamedArgument(System::Reflection::MemberInfo* memberInfo, ::Il2CppObject* value);
     // public System.Reflection.MemberInfo get_MemberInfo()
-    // Offset: 0xDC3B24
+    // Offset: 0xC78F90
     System::Reflection::MemberInfo* get_MemberInfo();
     // public System.Reflection.CustomAttributeTypedArgument get_TypedValue()
-    // Offset: 0xDC3B2C
+    // Offset: 0xC78F98
     System::Reflection::CustomAttributeTypedArgument get_TypedValue();
     // public override System.String ToString()
-    // Offset: 0xDC3B38
+    // Offset: 0xC78FA4
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xDC3B40
+    // Offset: 0xC78FAC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xDC3B48
+    // Offset: 0xC78FB4
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

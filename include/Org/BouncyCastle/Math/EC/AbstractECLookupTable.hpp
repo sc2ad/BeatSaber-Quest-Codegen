@@ -31,12 +31,12 @@ namespace Org::BouncyCastle::Math::EC {
     // Base method: System.Int32 ECLookupTable::get_Size()
     int get_Size();
     // public Org.BouncyCastle.Math.EC.ECPoint LookupVar(System.Int32 index)
-    // Offset: 0x1B276F8
+    // Offset: 0x18C88EC
     // Implemented from: Org.BouncyCastle.Math.EC.ECLookupTable
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECLookupTable::LookupVar(System.Int32 index)
     Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int index);
     // protected System.Void .ctor()
-    // Offset: 0x1B27704
+    // Offset: 0x18C88F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AbstractECLookupTable* New_ctor();

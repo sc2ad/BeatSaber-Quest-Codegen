@@ -31,16 +31,16 @@ namespace Mono::Security::Interface {
   class MonoLocalCertificateSelectionCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1B863BC
+    // Offset: 0x19285B0
     static MonoLocalCertificateSelectionCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Security.Cryptography.X509Certificates.X509Certificate Invoke(System.String targetHost, System.Security.Cryptography.X509Certificates.X509CertificateCollection localCertificates, System.Security.Cryptography.X509Certificates.X509Certificate remoteCertificate, System.String[] acceptableIssuers)
-    // Offset: 0x1B863D0
+    // Offset: 0x19285C4
     System::Security::Cryptography::X509Certificates::X509Certificate* Invoke(::Il2CppString* targetHost, System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates, System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::Array<::Il2CppString*>* acceptableIssuers);
     // public System.IAsyncResult BeginInvoke(System.String targetHost, System.Security.Cryptography.X509Certificates.X509CertificateCollection localCertificates, System.Security.Cryptography.X509Certificates.X509Certificate remoteCertificate, System.String[] acceptableIssuers, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1B86824
+    // Offset: 0x1928A18
     System::IAsyncResult* BeginInvoke(::Il2CppString* targetHost, System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates, System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::Array<::Il2CppString*>* acceptableIssuers, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Security.Cryptography.X509Certificates.X509Certificate EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1B86858
+    // Offset: 0x1928A4C
     System::Security::Cryptography::X509Certificates::X509Certificate* EndInvoke(System::IAsyncResult* result);
   }; // Mono.Security.Interface.MonoLocalCertificateSelectionCallback
 }

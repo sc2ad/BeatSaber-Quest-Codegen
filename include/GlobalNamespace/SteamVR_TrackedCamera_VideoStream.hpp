@@ -26,25 +26,25 @@ namespace GlobalNamespace {
     // Offset: 0x28
     uint64_t refCount;
     // public System.Void .ctor(System.UInt32 deviceIndex)
-    // Offset: 0x1525548
+    // Offset: 0x12FBD70
     static SteamVR_TrackedCamera::VideoStream* New_ctor(uint deviceIndex);
     // public System.UInt32 get_deviceIndex()
-    // Offset: 0x1525610
+    // Offset: 0x12FBE38
     uint get_deviceIndex();
     // private System.Void set_deviceIndex(System.UInt32 value)
-    // Offset: 0x1525618
+    // Offset: 0x12FBE40
     void set_deviceIndex(uint value);
     // public System.UInt64 get_handle()
-    // Offset: 0x1525620
+    // Offset: 0x12FBE48
     uint64_t get_handle();
     // public System.Boolean get_hasCamera()
-    // Offset: 0x1525628
+    // Offset: 0x12FBE50
     bool get_hasCamera();
     // public System.UInt64 Acquire()
-    // Offset: 0x1525630
+    // Offset: 0x12FBE58
     uint64_t Acquire();
     // public System.UInt64 Release()
-    // Offset: 0x15256EC
+    // Offset: 0x12FBF14
     uint64_t Release();
   }; // SteamVR_TrackedCamera/VideoStream
 }

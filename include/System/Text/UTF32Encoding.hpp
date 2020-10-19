@@ -38,138 +38,138 @@ namespace System::Text {
     // Offset: 0x3A
     bool bigEndian;
     // public System.Void .ctor(System.Boolean bigEndian, System.Boolean byteOrderMark)
-    // Offset: 0x1A0A804
+    // Offset: 0x17B0C28
     static UTF32Encoding* New_ctor(bool bigEndian, bool byteOrderMark);
     // public System.Void .ctor(System.Boolean bigEndian, System.Boolean byteOrderMark, System.Boolean throwOnInvalidCharacters)
-    // Offset: 0x1A0A780
+    // Offset: 0x17B0BA4
     static UTF32Encoding* New_ctor(bool bigEndian, bool byteOrderMark, bool throwOnInvalidCharacters);
     // private System.UInt32 GetSurrogate(System.Char cHigh, System.Char cLow)
-    // Offset: 0x1A0C370
+    // Offset: 0x17B2794
     uint GetSurrogate(::Il2CppChar cHigh, ::Il2CppChar cLow);
     // private System.Char GetHighSurrogate(System.UInt32 iChar)
-    // Offset: 0x1A0CB48
+    // Offset: 0x17B2F6C
     ::Il2CppChar GetHighSurrogate(uint iChar);
     // private System.Char GetLowSurrogate(System.UInt32 iChar)
-    // Offset: 0x1A0CB5C
+    // Offset: 0x17B2F80
     ::Il2CppChar GetLowSurrogate(uint iChar);
     // public System.Void .ctor()
-    // Offset: 0x1A0A744
+    // Offset: 0x17B0B68
     // Implemented from: System.Text.Encoding
     // Base method: System.Void Encoding::.ctor()
     // Base method: System.Void Object::.ctor()
     static UTF32Encoding* New_ctor();
     // override System.Void SetDefaultFallbacks()
-    // Offset: 0x1A0A814
+    // Offset: 0x17B0C38
     // Implemented from: System.Text.Encoding
     // Base method: System.Void Encoding::SetDefaultFallbacks()
     void SetDefaultFallbacks();
     // public override System.Int32 GetByteCount(System.Char[] chars, System.Int32 index, System.Int32 count)
-    // Offset: 0x1A0A8F8
+    // Offset: 0x17B0D1C
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetByteCount(System.Char[] chars, System.Int32 index, System.Int32 count)
     int GetByteCount(::Array<::Il2CppChar>* chars, int index, int count);
     // public override System.Int32 GetByteCount(System.String s)
-    // Offset: 0x1A0AACC
+    // Offset: 0x17B0EF0
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetByteCount(System.String s)
     int GetByteCount(::Il2CppString* s);
     // public override System.Int32 GetByteCount(System.Char* chars, System.Int32 count)
-    // Offset: 0x1A0AB7C
+    // Offset: 0x17B0FA0
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetByteCount(System.Char* chars, System.Int32 count)
     int GetByteCount(::Il2CppChar* chars, int count);
     // public override System.Int32 GetBytes(System.String s, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex)
-    // Offset: 0x1A0AC98
+    // Offset: 0x17B10BC
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetBytes(System.String s, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex)
     int GetBytes(::Il2CppString* s, int charIndex, int charCount, ::Array<uint8_t>* bytes, int byteIndex);
     // public override System.Int32 GetBytes(System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex)
-    // Offset: 0x1A0AF08
+    // Offset: 0x17B132C
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetBytes(System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex)
     int GetBytes(::Array<::Il2CppChar>* chars, int charIndex, int charCount, ::Array<uint8_t>* bytes, int byteIndex);
     // public override System.Int32 GetBytes(System.Char* chars, System.Int32 charCount, System.Byte* bytes, System.Int32 byteCount)
-    // Offset: 0x1A0B1A8
+    // Offset: 0x17B15CC
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetBytes(System.Char* chars, System.Int32 charCount, System.Byte* bytes, System.Int32 byteCount)
     int GetBytes(::Il2CppChar* chars, int charCount, uint8_t* bytes, int byteCount);
     // public override System.Int32 GetCharCount(System.Byte[] bytes, System.Int32 index, System.Int32 count)
-    // Offset: 0x1A0B30C
+    // Offset: 0x17B1730
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetCharCount(System.Byte[] bytes, System.Int32 index, System.Int32 count)
     int GetCharCount(::Array<uint8_t>* bytes, int index, int count);
     // public override System.Int32 GetCharCount(System.Byte* bytes, System.Int32 count)
-    // Offset: 0x1A0B4E0
+    // Offset: 0x17B1904
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetCharCount(System.Byte* bytes, System.Int32 count)
     int GetCharCount(uint8_t* bytes, int count);
     // public override System.Int32 GetChars(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex)
-    // Offset: 0x1A0B5FC
+    // Offset: 0x17B1A20
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetChars(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex)
     int GetChars(::Array<uint8_t>* bytes, int byteIndex, int byteCount, ::Array<::Il2CppChar>* chars, int charIndex);
     // public override System.Int32 GetChars(System.Byte* bytes, System.Int32 byteCount, System.Char* chars, System.Int32 charCount)
-    // Offset: 0x1A0B89C
+    // Offset: 0x17B1CC0
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetChars(System.Byte* bytes, System.Int32 byteCount, System.Char* chars, System.Int32 charCount)
     int GetChars(uint8_t* bytes, int byteCount, ::Il2CppChar* chars, int charCount);
     // public override System.String GetString(System.Byte[] bytes, System.Int32 index, System.Int32 count)
-    // Offset: 0x1A0BA00
+    // Offset: 0x17B1E24
     // Implemented from: System.Text.Encoding
     // Base method: System.String Encoding::GetString(System.Byte[] bytes, System.Int32 index, System.Int32 count)
     ::Il2CppString* GetString(::Array<uint8_t>* bytes, int index, int count);
     // override System.Int32 GetByteCount(System.Char* chars, System.Int32 count, System.Text.EncoderNLS encoder)
-    // Offset: 0x1A0BBD8
+    // Offset: 0x17B1FFC
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetByteCount(System.Char* chars, System.Int32 count, System.Text.EncoderNLS encoder)
     int GetByteCount(::Il2CppChar* chars, int count, System::Text::EncoderNLS* encoder);
     // override System.Int32 GetBytes(System.Char* chars, System.Int32 charCount, System.Byte* bytes, System.Int32 byteCount, System.Text.EncoderNLS encoder)
-    // Offset: 0x1A0BF10
+    // Offset: 0x17B2334
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetBytes(System.Char* chars, System.Int32 charCount, System.Byte* bytes, System.Int32 byteCount, System.Text.EncoderNLS encoder)
     int GetBytes(::Il2CppChar* chars, int charCount, uint8_t* bytes, int byteCount, System::Text::EncoderNLS* encoder);
     // override System.Int32 GetCharCount(System.Byte* bytes, System.Int32 count, System.Text.DecoderNLS baseDecoder)
-    // Offset: 0x1A0C38C
+    // Offset: 0x17B27B0
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetCharCount(System.Byte* bytes, System.Int32 count, System.Text.DecoderNLS baseDecoder)
     int GetCharCount(uint8_t* bytes, int count, System::Text::DecoderNLS* baseDecoder);
     // override System.Int32 GetChars(System.Byte* bytes, System.Int32 byteCount, System.Char* chars, System.Int32 charCount, System.Text.DecoderNLS baseDecoder)
-    // Offset: 0x1A0C714
+    // Offset: 0x17B2B38
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetChars(System.Byte* bytes, System.Int32 byteCount, System.Char* chars, System.Int32 charCount, System.Text.DecoderNLS baseDecoder)
     int GetChars(uint8_t* bytes, int byteCount, ::Il2CppChar* chars, int charCount, System::Text::DecoderNLS* baseDecoder);
     // public override System.Text.Decoder GetDecoder()
-    // Offset: 0x1A0CB68
+    // Offset: 0x17B2F8C
     // Implemented from: System.Text.Encoding
     // Base method: System.Text.Decoder Encoding::GetDecoder()
     System::Text::Decoder* GetDecoder();
     // public override System.Text.Encoder GetEncoder()
-    // Offset: 0x1A0CBD4
+    // Offset: 0x17B2FF8
     // Implemented from: System.Text.Encoding
     // Base method: System.Text.Encoder Encoding::GetEncoder()
     System::Text::Encoder* GetEncoder();
     // public override System.Int32 GetMaxByteCount(System.Int32 charCount)
-    // Offset: 0x1A0CC38
+    // Offset: 0x17B305C
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetMaxByteCount(System.Int32 charCount)
     int GetMaxByteCount(int charCount);
     // public override System.Int32 GetMaxCharCount(System.Int32 byteCount)
-    // Offset: 0x1A0CD44
+    // Offset: 0x17B3168
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetMaxCharCount(System.Int32 byteCount)
     int GetMaxCharCount(int byteCount);
     // public override System.Byte[] GetPreamble()
-    // Offset: 0x1A0CE40
+    // Offset: 0x17B3264
     // Implemented from: System.Text.Encoding
     // Base method: System.Byte[] Encoding::GetPreamble()
     ::Array<uint8_t>* GetPreamble();
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0x1A0CF2C
+    // Offset: 0x17B3350
     // Implemented from: System.Text.Encoding
     // Base method: System.Boolean Encoding::Equals(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1A0D024
+    // Offset: 0x17B3448
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetHashCode()
     int GetHashCode();

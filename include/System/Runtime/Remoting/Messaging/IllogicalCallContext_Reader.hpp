@@ -25,13 +25,13 @@ namespace System::Runtime::Remoting::Messaging {
       return m_ctx;
     }
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IllogicalCallContext ctx)
-    // Offset: 0xDA8778
+    // Offset: 0xC5DFA8
     // ABORTED: conflicts with another method.  Reader(System::Runtime::Remoting::Messaging::IllogicalCallContext* ctx);
     // public System.Boolean get_IsNull()
-    // Offset: 0xDA8780
+    // Offset: 0xC5DFB0
     bool get_IsNull();
     // public System.Object GetData(System.String name)
-    // Offset: 0xDA8790
+    // Offset: 0xC5DFC0
     ::Il2CppObject* GetData(::Il2CppString* name);
   }; // System.Runtime.Remoting.Messaging.IllogicalCallContext/Reader
 }

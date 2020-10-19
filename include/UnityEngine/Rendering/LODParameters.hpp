@@ -35,17 +35,17 @@ namespace UnityEngine::Rendering {
     // Creating value type constructor for type: LODParameters
     constexpr LODParameters(int m_IsOrthographic_ = {}, UnityEngine::Vector3 m_CameraPosition_ = {}, float m_FieldOfView_ = {}, float m_OrthoSize_ = {}, int m_CameraPixelHeight_ = {}) noexcept : m_IsOrthographic{m_IsOrthographic_}, m_CameraPosition{m_CameraPosition_}, m_FieldOfView{m_FieldOfView_}, m_OrthoSize{m_OrthoSize_}, m_CameraPixelHeight{m_CameraPixelHeight_} {}
     // public System.Boolean Equals(UnityEngine.Rendering.LODParameters other)
-    // Offset: 0xDBEB88
+    // Offset: 0xC74FA8
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Rendering.LODParameters other)
     bool Equals(UnityEngine::Rendering::LODParameters other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xDBEBC0
+    // Offset: 0xC74FE0
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xDBEBC8
+    // Offset: 0xC74FE8
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

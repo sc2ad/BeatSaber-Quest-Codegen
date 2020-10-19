@@ -14,12 +14,12 @@ namespace GlobalNamespace {
   class MultiplayerMenuInstaller : public Zenject::MonoInstaller {
     public:
     // public override System.Void InstallBindings()
-    // Offset: 0x2240DF4
+    // Offset: 0x204F404
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x2240E7C
+    // Offset: 0x204F48C
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

@@ -40,19 +40,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.UI.Button get_buyLevelButton()
-    // Offset: 0xEF64D4
+    // Offset: 0x1FF7458
     UnityEngine::UI::Button* get_buyLevelButton();
     // public UnityEngine.UI.Button get_openPackButton()
-    // Offset: 0xEF64DC
+    // Offset: 0x1FF7460
     UnityEngine::UI::Button* get_openPackButton();
     // public UnityEngine.UI.Button get_buyPackButton()
-    // Offset: 0xEF64E4
+    // Offset: 0x1FF7468
     UnityEngine::UI::Button* get_buyPackButton();
     // public System.Void RefreshView(System.String infoText, System.Boolean canBuyPack)
-    // Offset: 0xEF64EC
+    // Offset: 0x1FF7470
     void RefreshView(::Il2CppString* infoText, bool canBuyPack);
     // public System.Void .ctor()
-    // Offset: 0xEF6560
+    // Offset: 0x1FF74E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

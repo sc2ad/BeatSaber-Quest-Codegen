@@ -34,32 +34,32 @@ namespace System::Security {
       return permissionState;
     }
     // public System.Void .ctor()
-    // Offset: 0x143AAA8
+    // Offset: 0x12111E4
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static SecurityException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1437154
+    // Offset: 0x120D890
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static SecurityException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x143AB18
+    // Offset: 0x1211254
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static SecurityException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Void .ctor(System.String message, System.Exception inner)
-    // Offset: 0x143AC38
+    // Offset: 0x1211374
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception inner)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception inner)
     static SecurityException* New_ctor(::Il2CppString* message, System::Exception* inner);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x143AC68
+    // Offset: 0x12113A4
     // Implemented from: System.Exception
     // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -67,7 +67,7 @@ namespace System::Security {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.String ToString()
-    // Offset: 0x143AD7C
+    // Offset: 0x12114B8
     // Implemented from: System.Exception
     // Base method: System.String Exception::ToString()
     ::Il2CppString* ToString();

@@ -43,22 +43,22 @@ namespace UnityEngine::UI {
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry> m_List
     static void _set_m_List(System::Collections::Generic::List_1<UnityEngine::UI::StencilMaterial::MatEntry*>* value);
     // static public UnityEngine.Material Add(UnityEngine.Material baseMat, System.Int32 stencilID)
-    // Offset: 0x21D97AC
+    // Offset: 0x1F2E410
     static UnityEngine::Material* Add(UnityEngine::Material* baseMat, int stencilID);
     // static public UnityEngine.Material Add(UnityEngine.Material baseMat, System.Int32 stencilID, UnityEngine.Rendering.StencilOp operation, UnityEngine.Rendering.CompareFunction compareFunction, UnityEngine.Rendering.ColorWriteMask colorWriteMask)
-    // Offset: 0x21D97B4
+    // Offset: 0x1F2E418
     static UnityEngine::Material* Add(UnityEngine::Material* baseMat, int stencilID, UnityEngine::Rendering::StencilOp operation, UnityEngine::Rendering::CompareFunction compareFunction, UnityEngine::Rendering::ColorWriteMask colorWriteMask);
     // static public UnityEngine.Material Add(UnityEngine.Material baseMat, System.Int32 stencilID, UnityEngine.Rendering.StencilOp operation, UnityEngine.Rendering.CompareFunction compareFunction, UnityEngine.Rendering.ColorWriteMask colorWriteMask, System.Int32 readMask, System.Int32 writeMask)
-    // Offset: 0x21D9850
+    // Offset: 0x1F2E4B4
     static UnityEngine::Material* Add(UnityEngine::Material* baseMat, int stencilID, UnityEngine::Rendering::StencilOp operation, UnityEngine::Rendering::CompareFunction compareFunction, UnityEngine::Rendering::ColorWriteMask colorWriteMask, int readMask, int writeMask);
     // static public System.Void Remove(UnityEngine.Material customMat)
-    // Offset: 0x21DA108
+    // Offset: 0x1F2ED6C
     static void Remove(UnityEngine::Material* customMat);
     // static public System.Void ClearAll()
-    // Offset: 0x21DA2CC
+    // Offset: 0x1F2EF30
     static void ClearAll();
     // static private System.Void .cctor()
-    // Offset: 0x21DA3F0
+    // Offset: 0x1F2F054
     static void _cctor();
   }; // UnityEngine.UI.StencilMaterial
 }

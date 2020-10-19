@@ -21,7 +21,7 @@ namespace GlobalNamespace {
       return hideBranding;
     }
     // public System.Void .ctor(System.Boolean hideBranding)
-    // Offset: 0xF669EC
+    // Offset: 0x201EB2C
     static EnvironmentSceneSetupData* New_ctor(bool hideBranding);
   }; // EnvironmentSceneSetupData
 }

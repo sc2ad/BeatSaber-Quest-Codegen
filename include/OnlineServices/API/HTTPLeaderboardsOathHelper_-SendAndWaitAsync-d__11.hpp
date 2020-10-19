@@ -56,12 +56,12 @@ namespace OnlineServices::API {
     // Creating value type constructor for type: $SendAndWaitAsync$d__11
     constexpr $SendAndWaitAsync$d__11(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder $$t__builder_ = {}, UnityEngine::Networking::UnityWebRequest* webRequest_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, UnityEngine::AsyncOperation* $asyncOperation$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, webRequest{webRequest_}, cancellationToken{cancellationToken_}, $asyncOperation$5__2{$asyncOperation$5__2_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
-    // Offset: 0xDA24F0
+    // Offset: 0xE4D644
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDA24F8
+    // Offset: 0xE4D64C
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

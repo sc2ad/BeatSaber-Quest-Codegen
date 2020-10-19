@@ -23,34 +23,34 @@ namespace System::Diagnostics::Tracing {
       return m_mask;
     }
     // public System.Void .ctor(System.UInt32 mask)
-    // Offset: 0xDA78CC
+    // Offset: 0xC5D0FC
     // ABORTED: conflicts with another method.  SessionMask(uint mask);
     // public System.Boolean IsEqualOrSupersetOf(System.Diagnostics.Tracing.SessionMask m)
-    // Offset: 0xDA78D8
+    // Offset: 0xC5D108
     bool IsEqualOrSupersetOf(System::Diagnostics::Tracing::SessionMask m);
     // static public System.Diagnostics.Tracing.SessionMask get_All()
-    // Offset: 0x124D60C
+    // Offset: 0x1047EA8
     static System::Diagnostics::Tracing::SessionMask get_All();
     // static public System.Diagnostics.Tracing.SessionMask FromId(System.Int32 perEventSourceSessionId)
-    // Offset: 0x124D614
+    // Offset: 0x1047EB0
     static System::Diagnostics::Tracing::SessionMask FromId(int perEventSourceSessionId);
     // public System.UInt64 ToEventKeywords()
-    // Offset: 0xDA78EC
+    // Offset: 0xC5D11C
     uint64_t ToEventKeywords();
     // static public System.Diagnostics.Tracing.SessionMask FromEventKeywords(System.UInt64 m)
-    // Offset: 0x124D630
+    // Offset: 0x1047ECC
     static System::Diagnostics::Tracing::SessionMask FromEventKeywords(uint64_t m);
     // public System.Boolean get_Item(System.Int32 perEventSourceSessionId)
-    // Offset: 0xDA78F8
+    // Offset: 0xC5D128
     bool get_Item(int perEventSourceSessionId);
     // public System.Void set_Item(System.Int32 perEventSourceSessionId, System.Boolean value)
-    // Offset: 0xDA7914
+    // Offset: 0xC5D144
     void set_Item(int perEventSourceSessionId, bool value);
     // static public System.UInt64 op_Explicit(System.Diagnostics.Tracing.SessionMask m)
-    // Offset: 0x124D678
+    // Offset: 0x1047F14
     explicit operator uint64_t();
     // static public System.UInt32 op_Explicit(System.Diagnostics.Tracing.SessionMask m)
-    // Offset: 0x124D680
+    // Offset: 0x1047F1C
     // ABORTED: conflicts with another method.  explicit operator uint();
   }; // System.Diagnostics.Tracing.SessionMask
 }

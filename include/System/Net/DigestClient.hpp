@@ -34,31 +34,31 @@ namespace System::Net {
     // Set static field: static private readonly System.Collections.Hashtable cache
     static void _set_cache(System::Collections::Hashtable* value);
     // static private System.Collections.Hashtable get_Cache()
-    // Offset: 0x14E0370
+    // Offset: 0x12B5B98
     static System::Collections::Hashtable* get_Cache();
     // static private System.Void CheckExpired(System.Int32 count)
-    // Offset: 0x14E04D8
+    // Offset: 0x12B5D00
     static void CheckExpired(int count);
     // static private System.Void .cctor()
-    // Offset: 0x14E174C
+    // Offset: 0x12B6F74
     static void _cctor();
     // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x14E0C8C
+    // Offset: 0x12B64B4
     // Implemented from: System.Net.IAuthenticationModule
     // Base method: System.Net.Authorization IAuthenticationModule::Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
     System::Net::Authorization* Authenticate(::Il2CppString* challenge, System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.Net.Authorization PreAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x14E1584
+    // Offset: 0x12B6DAC
     // Implemented from: System.Net.IAuthenticationModule
     // Base method: System.Net.Authorization IAuthenticationModule::PreAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
     System::Net::Authorization* PreAuthenticate(System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.String get_AuthenticationType()
-    // Offset: 0x14E1704
+    // Offset: 0x12B6F2C
     // Implemented from: System.Net.IAuthenticationModule
     // Base method: System.String IAuthenticationModule::get_AuthenticationType()
     ::Il2CppString* get_AuthenticationType();
     // public System.Void .ctor()
-    // Offset: 0x14D4BE8
+    // Offset: 0x12AA410
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DigestClient* New_ctor();

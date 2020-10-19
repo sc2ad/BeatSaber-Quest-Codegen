@@ -45,37 +45,37 @@ namespace System::Security::Util {
     // Offset: 0x48
     int m_indexStrings;
     // System.Void AddToken(System.Int16 token)
-    // Offset: 0x143CCB8
+    // Offset: 0x12133F4
     void AddToken(int16_t token);
     // System.Void AddString(System.String str)
-    // Offset: 0x143D200
+    // Offset: 0x121393C
     void AddString(::Il2CppString* str);
     // System.Void Reset()
-    // Offset: 0x143C824
+    // Offset: 0x1212F60
     void Reset();
     // System.Int16 GetNextFullToken()
-    // Offset: 0x143C878
+    // Offset: 0x1212FB4
     int16_t GetNextFullToken();
     // System.Int16 GetNextToken()
-    // Offset: 0x143B274
+    // Offset: 0x12119B0
     int16_t GetNextToken();
     // System.String GetNextString()
-    // Offset: 0x143B310
+    // Offset: 0x1211A4C
     ::Il2CppString* GetNextString();
     // System.Void ThrowAwayNextString()
-    // Offset: 0x143B28C
+    // Offset: 0x12119C8
     void ThrowAwayNextString();
     // System.Void TagLastToken(System.Int16 tag)
-    // Offset: 0x143B290
+    // Offset: 0x12119CC
     void TagLastToken(int16_t tag);
     // System.Int32 GetTokenCount()
-    // Offset: 0x143D664
+    // Offset: 0x1213DA0
     int GetTokenCount();
     // System.Void GoToPosition(System.Int32 position)
-    // Offset: 0x143BF34
+    // Offset: 0x1212670
     void GoToPosition(int position);
     // System.Void .ctor()
-    // Offset: 0x143C780
+    // Offset: 0x1212EBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TokenizerStream* New_ctor();

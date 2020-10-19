@@ -27,7 +27,7 @@ namespace System::Net {
     // Set static field: static public readonly System.Version Version11
     static void _set_Version11(System::Version* value);
     // static private System.Void .cctor()
-    // Offset: 0x14692FC
+    // Offset: 0x123FB24
     static void _cctor();
   }; // System.Net.HttpVersion
 }

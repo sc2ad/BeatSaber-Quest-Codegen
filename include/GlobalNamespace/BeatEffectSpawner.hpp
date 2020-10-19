@@ -73,25 +73,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Init(BeatEffect/Pool beatEffectPool)
-    // Offset: 0xFBD128
+    // Offset: 0x203B388
     void Init(GlobalNamespace::BeatEffect::Pool* beatEffectPool);
     // protected System.Void Start()
-    // Offset: 0xFBD1A8
+    // Offset: 0x203B408
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xFBD23C
+    // Offset: 0x203B49C
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xFBD2DC
+    // Offset: 0x203B53C
     void Update();
     // private System.Void HandleNoteDidStartJump(NoteController noteController)
-    // Offset: 0xFBD4CC
+    // Offset: 0x203B72C
     void HandleNoteDidStartJump(GlobalNamespace::NoteController* noteController);
     // private System.Void HandleBeatEffectDidFinish(BeatEffect beatEffect)
-    // Offset: 0xFBD7A4
+    // Offset: 0x203BA04
     void HandleBeatEffectDidFinish(GlobalNamespace::BeatEffect* beatEffect);
     // public System.Void .ctor()
-    // Offset: 0xFBD850
+    // Offset: 0x203BAB0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

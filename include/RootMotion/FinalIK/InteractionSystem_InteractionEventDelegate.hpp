@@ -33,16 +33,16 @@ namespace RootMotion::FinalIK {
   class InteractionSystem::InteractionEventDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C013C8
+    // Offset: 0x19A25BC
     static InteractionSystem::InteractionEventDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(RootMotion.FinalIK.FullBodyBipedEffector effectorType, RootMotion.FinalIK.InteractionObject interactionObject, RootMotion.FinalIK.InteractionObject/InteractionEvent interactionEvent)
-    // Offset: 0x1BFB938
+    // Offset: 0x199CB2C
     void Invoke(RootMotion::FinalIK::FullBodyBipedEffector effectorType, RootMotion::FinalIK::InteractionObject* interactionObject, RootMotion::FinalIK::InteractionObject::InteractionEvent* interactionEvent);
     // public System.IAsyncResult BeginInvoke(RootMotion.FinalIK.FullBodyBipedEffector effectorType, RootMotion.FinalIK.InteractionObject interactionObject, RootMotion.FinalIK.InteractionObject/InteractionEvent interactionEvent, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C013DC
+    // Offset: 0x19A25D0
     System::IAsyncResult* BeginInvoke(RootMotion::FinalIK::FullBodyBipedEffector effectorType, RootMotion::FinalIK::InteractionObject* interactionObject, RootMotion::FinalIK::InteractionObject::InteractionEvent* interactionEvent, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1C0147C
+    // Offset: 0x19A2670
     void EndInvoke(System::IAsyncResult* result);
   }; // RootMotion.FinalIK.InteractionSystem/InteractionEventDelegate
 }

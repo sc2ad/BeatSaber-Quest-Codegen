@@ -46,13 +46,13 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     // Set static field: static public UnityEngine.TestTools.TestRunner.GUI.TestRunnerFilter empty
     static void _set_empty(UnityEngine::TestTools::TestRunner::GUI::TestRunnerFilter* value);
     // public NUnit.Framework.Interfaces.ITestFilter BuildNUnitFilter()
-    // Offset: 0x12C4EB0
+    // Offset: 0x10C074C
     NUnit::Framework::Interfaces::ITestFilter* BuildNUnitFilter();
     // static private System.Void .cctor()
-    // Offset: 0x12C5448
+    // Offset: 0x10C0CE4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x12C5438
+    // Offset: 0x10C0CD4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TestRunnerFilter* New_ctor();

@@ -66,25 +66,25 @@ namespace UnityEngine::TestTools::Utils {
     // Offset: 0x30
     System::Collections::IEnumerator* m_TestCoroutine;
     // public System.Void .ctor(UnityEngine.MonoBehaviour playmodeTestsController, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x12B242C
+    // Offset: 0x10ADCC8
     static CoroutineRunner* New_ctor(UnityEngine::MonoBehaviour* playmodeTestsController, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
     // public System.Collections.IEnumerator HandleEnumerableTest(System.Collections.IEnumerator testEnumerator)
-    // Offset: 0x12B247C
+    // Offset: 0x10ADD18
     System::Collections::IEnumerator* HandleEnumerableTest(System::Collections::IEnumerator* testEnumerator);
     // private System.Void StopAllRunningCoroutines()
-    // Offset: 0x12C6FB0
+    // Offset: 0x10C284C
     void StopAllRunningCoroutines();
     // private System.Collections.IEnumerator ExMethod(System.Collections.IEnumerator e, System.Int32 timeout)
-    // Offset: 0x12C7008
+    // Offset: 0x10C28A4
     System::Collections::IEnumerator* ExMethod(System::Collections::IEnumerator* e, int timeout);
     // private System.Collections.IEnumerator StartTimer(System.Collections.IEnumerator coroutineToBeKilled, System.Int32 timeout, System.Action onTimeout)
-    // Offset: 0x12C70A8
+    // Offset: 0x10C2944
     System::Collections::IEnumerator* StartTimer(System::Collections::IEnumerator* coroutineToBeKilled, int timeout, System::Action* onTimeout);
     // public System.Boolean HasFailedWithTimeout()
-    // Offset: 0x12C7164
+    // Offset: 0x10C2A00
     bool HasFailedWithTimeout();
     // private System.Void <ExMethod>b__11_0()
-    // Offset: 0x12C716C
+    // Offset: 0x10C2A08
     void $ExMethod$b__11_0();
   }; // UnityEngine.TestTools.Utils.CoroutineRunner
 }

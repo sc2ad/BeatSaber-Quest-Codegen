@@ -26,12 +26,12 @@ namespace System::Net {
   class FtpRequestCreator : public ::Il2CppObject, public System::Net::IWebRequestCreate {
     public:
     // public System.Net.WebRequest Create(System.Uri uri)
-    // Offset: 0x14EBBC0
+    // Offset: 0x12C13E8
     // Implemented from: System.Net.IWebRequestCreate
     // Base method: System.Net.WebRequest IWebRequestCreate::Create(System.Uri uri)
     System::Net::WebRequest* Create(System::Uri* uri);
     // public System.Void .ctor()
-    // Offset: 0x14EBD30
+    // Offset: 0x12C1558
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FtpRequestCreator* New_ctor();

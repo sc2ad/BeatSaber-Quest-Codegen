@@ -21,12 +21,12 @@ namespace System::Net::Configuration {
   class ServicePointManagerElement : public System::Configuration::ConfigurationElement {
     public:
     // public System.Void .ctor()
-    // Offset: 0x14D7E78
+    // Offset: 0x12AD6A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ServicePointManagerElement* New_ctor();
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0x14D7EB8
+    // Offset: 0x12AD6E0
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     System::Configuration::ConfigurationPropertyCollection* get_Properties();

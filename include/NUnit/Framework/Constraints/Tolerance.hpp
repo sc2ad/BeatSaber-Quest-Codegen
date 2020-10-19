@@ -20,25 +20,25 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x18
     ::Il2CppObject* amount;
     // static public NUnit.Framework.Constraints.Tolerance get_Default()
-    // Offset: 0x15DEEF0
+    // Offset: 0x13B5718
     static NUnit::Framework::Constraints::Tolerance* get_Default();
     // static public NUnit.Framework.Constraints.Tolerance get_Exact()
-    // Offset: 0x15E6C94
+    // Offset: 0x13BD4BC
     static NUnit::Framework::Constraints::Tolerance* get_Exact();
     // public System.Void .ctor(System.Object amount)
-    // Offset: 0x15E9BA4
+    // Offset: 0x13C03CC
     static Tolerance* New_ctor(::Il2CppObject* amount);
     // private System.Void .ctor(System.Object amount, NUnit.Framework.Constraints.ToleranceMode mode)
-    // Offset: 0x15EA450
+    // Offset: 0x13C0C78
     static Tolerance* New_ctor(::Il2CppObject* amount, NUnit::Framework::Constraints::ToleranceMode mode);
     // public NUnit.Framework.Constraints.ToleranceMode get_Mode()
-    // Offset: 0x15E1044
+    // Offset: 0x13B786C
     NUnit::Framework::Constraints::ToleranceMode get_Mode();
     // public System.Object get_Value()
-    // Offset: 0x15E103C
+    // Offset: 0x13B7864
     ::Il2CppObject* get_Value();
     // public System.Boolean get_IsUnsetOrDefault()
-    // Offset: 0x15E102C
+    // Offset: 0x13B7854
     bool get_IsUnsetOrDefault();
   }; // NUnit.Framework.Constraints.Tolerance
 }

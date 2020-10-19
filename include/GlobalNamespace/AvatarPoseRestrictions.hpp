@@ -51,16 +51,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xFB5F88
+    // Offset: 0x2034638
     void Start();
     // private System.Void HandleAvatarPoseControllerPositionsWillBeSet(UnityEngine.Quaternion headRotation, UnityEngine.Vector3 headPosition, UnityEngine.Vector3 leftHandPosition, UnityEngine.Vector3 rightHandPosition, out UnityEngine.Vector3 newHeadPosition, out UnityEngine.Vector3 newLeftHandPosition, out UnityEngine.Vector3 newRightHandPosition)
-    // Offset: 0xFB6020
+    // Offset: 0x20346D0
     void HandleAvatarPoseControllerPositionsWillBeSet(UnityEngine::Quaternion headRotation, UnityEngine::Vector3 headPosition, UnityEngine::Vector3 leftHandPosition, UnityEngine::Vector3 rightHandPosition, UnityEngine::Vector3& newHeadPosition, UnityEngine::Vector3& newLeftHandPosition, UnityEngine::Vector3& newRightHandPosition);
     // private UnityEngine.Vector3 LimitHandPositionRelativeToHead(UnityEngine.Vector3 handPosition, UnityEngine.Vector3 headCenter)
-    // Offset: 0xFB63D0
+    // Offset: 0x2034A80
     UnityEngine::Vector3 LimitHandPositionRelativeToHead(UnityEngine::Vector3 handPosition, UnityEngine::Vector3 headCenter);
     // public System.Void .ctor()
-    // Offset: 0xFB6578
+    // Offset: 0x2034C28
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

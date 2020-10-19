@@ -35,13 +35,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Comparison`1<IConnectedPlayer> <>9__4_0
     static void _set_$$9__4_0(System::Comparison_1<GlobalNamespace::IConnectedPlayer*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xEFF820
+    // Offset: 0x1FD46D4
     static void _cctor();
     // System.Int32 <SortPlayers>b__4_0(IConnectedPlayer p1, IConnectedPlayer p2)
-    // Offset: 0xEFF890
+    // Offset: 0x1FD4744
     int $SortPlayers$b__4_0(GlobalNamespace::IConnectedPlayer* p1, GlobalNamespace::IConnectedPlayer* p2);
     // public System.Void .ctor()
-    // Offset: 0xEFF888
+    // Offset: 0x1FD473C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MultiplayerPlayerPlacement::$$c* New_ctor();

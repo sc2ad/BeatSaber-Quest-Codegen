@@ -33,10 +33,10 @@ namespace GlobalNamespace {
   class ConnectedPlayerManager::PlayerDisconnectedPacket : public ::Il2CppObject, public LiteNetLib::Utils::INetSerializable, public GlobalNamespace::IPoolablePacket {
     public:
     // static public PacketPool`1<ConnectedPlayerManager/PlayerDisconnectedPacket> get_pool()
-    // Offset: 0x115EA64
+    // Offset: 0x215944C
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerDisconnectedPacket*>* get_pool();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x11618A0
+    // Offset: 0x215C288
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x11618A4
+    // Offset: 0x215C28C
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -52,12 +52,12 @@ namespace GlobalNamespace {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x1160C7C
+    // Offset: 0x215B664
     // Implemented from: IPoolablePacket
     // Base method: System.Void IPoolablePacket::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x11618A8
+    // Offset: 0x215C290
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConnectedPlayerManager::PlayerDisconnectedPacket* New_ctor();

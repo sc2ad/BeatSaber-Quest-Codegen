@@ -38,10 +38,10 @@ namespace System::Net {
     // Offset: 0x18
     System::Net::WebRequest* $$4__this;
     // System.Threading.Tasks.Task`1<System.Net.WebResponse> <GetResponseAsync>b__1()
-    // Offset: 0x13C9A54
+    // Offset: 0x119E190
     System::Threading::Tasks::Task_1<System::Net::WebResponse*>* $GetResponseAsync$b__1();
     // public System.Void .ctor()
-    // Offset: 0x13C9220
+    // Offset: 0x119D95C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static WebRequest::$$c__DisplayClass79_0* New_ctor();

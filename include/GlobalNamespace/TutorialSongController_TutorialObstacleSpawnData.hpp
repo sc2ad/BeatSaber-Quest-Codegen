@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::ObstacleType obstacleType;
     // public System.Void .ctor(Signal signal, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex, System.Int32 width, ObstacleType obstacleType)
-    // Offset: 0xF3B684
+    // Offset: 0x1FA1BB4
     static TutorialSongController::TutorialObstacleSpawnData* New_ctor(GlobalNamespace::Signal* signal, int firstTimeBeatOffset, int beatOffset, int lineIndex, int width, GlobalNamespace::ObstacleType obstacleType);
   }; // TutorialSongController/TutorialObstacleSpawnData
 }

@@ -56,12 +56,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: $$UpdateMissingEntitlementsAsync$b__40_2$d
     constexpr $$UpdateMissingEntitlementsAsync$b__40_2$d(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Collections::Generic::KeyValuePair_2<GlobalNamespace::IConnectedPlayer*, GlobalNamespace::EntitlementsStatus>> $$t__builder_ = {}, System::Collections::Generic::KeyValuePair_2<GlobalNamespace::IConnectedPlayer*, System::Threading::Tasks::Task_1<GlobalNamespace::EntitlementsStatus>*> pair_ = {}, GlobalNamespace::IConnectedPlayer* $$7__wrap1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EntitlementsStatus> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, pair{pair_}, $$7__wrap1{$$7__wrap1_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
-    // Offset: 0xDA278C
+    // Offset: 0xE4DF40
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDA2794
+    // Offset: 0xE4DF48
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

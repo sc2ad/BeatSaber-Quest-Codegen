@@ -40,55 +40,55 @@ namespace System::IO {
     // Set static field: static private System.Text.UnicodeEncoding m_encoding
     static void _set_m_encoding(System::Text::UnicodeEncoding* value);
     // public System.Void .ctor(System.Text.StringBuilder sb)
-    // Offset: 0x15943C4
+    // Offset: 0x136ABEC
     static StringWriter* New_ctor(System::Text::StringBuilder* sb);
     // public System.Void .ctor(System.Text.StringBuilder sb, System.IFormatProvider formatProvider)
-    // Offset: 0x159425C
+    // Offset: 0x136AA84
     static StringWriter* New_ctor(System::Text::StringBuilder* sb, System::IFormatProvider* formatProvider);
     // public System.Void .ctor()
-    // Offset: 0x15941CC
+    // Offset: 0x136A9F4
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::.ctor()
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
     static StringWriter* New_ctor();
     // public System.Void .ctor(System.IFormatProvider formatProvider)
-    // Offset: 0x1594350
+    // Offset: 0x136AB78
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::.ctor(System.IFormatProvider formatProvider)
     static StringWriter* New_ctor(System::IFormatProvider* formatProvider);
     // public override System.Void Close()
-    // Offset: 0x1594444
+    // Offset: 0x136AC6C
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Close()
     void Close();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1594454
+    // Offset: 0x136AC7C
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Text.Encoding get_Encoding()
-    // Offset: 0x159445C
+    // Offset: 0x136AC84
     // Implemented from: System.IO.TextWriter
     // Base method: System.Text.Encoding TextWriter::get_Encoding()
     System::Text::Encoding* get_Encoding();
     // public override System.Void Write(System.Char value)
-    // Offset: 0x1594504
+    // Offset: 0x136AD2C
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char value)
     void Write(::Il2CppChar value);
     // public override System.Void Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1594530
+    // Offset: 0x136AD58
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
     void Write(::Array<::Il2CppChar>* buffer, int index, int count);
     // public override System.Void Write(System.String value)
-    // Offset: 0x15946F0
+    // Offset: 0x136AF18
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.String value)
     void Write(::Il2CppString* value);
     // public override System.String ToString()
-    // Offset: 0x1594728
+    // Offset: 0x136AF50
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

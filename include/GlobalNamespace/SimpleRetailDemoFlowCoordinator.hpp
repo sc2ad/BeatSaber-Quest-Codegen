@@ -115,35 +115,35 @@ namespace GlobalNamespace {
     // Offset: 0x130
     GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // private System.Void HandleSimpleDemoViewControllerDidFinish(SimpleRetailDemoViewController viewController, SimpleRetailDemoViewController/MenuButton menuButton)
-    // Offset: 0xEEE1C0
+    // Offset: 0x1FEEF48
     void HandleSimpleDemoViewControllerDidFinish(GlobalNamespace::SimpleRetailDemoViewController* viewController, GlobalNamespace::SimpleRetailDemoViewController::MenuButton menuButton);
     // private System.Void HandleResultsViewControllerContinueButtonPressed(ResultsViewController resultsViewController)
-    // Offset: 0xEEE388
+    // Offset: 0x1FEF110
     void HandleResultsViewControllerContinueButtonPressed(GlobalNamespace::ResultsViewController* resultsViewController);
     // private System.Collections.IEnumerator QuitApplicationCoroutine()
-    // Offset: 0xEEE3C8
+    // Offset: 0x1FEF150
     System::Collections::IEnumerator* QuitApplicationCoroutine();
     // private System.Void HandleResultsViewControllerRestartButtonPressed(ResultsViewController resultsViewController)
-    // Offset: 0xEEE470
+    // Offset: 0x1FEF1F8
     void HandleResultsViewControllerRestartButtonPressed(GlobalNamespace::ResultsViewController* resultsViewController);
     // private System.Void StartLevel(System.Action beforeSceneSwitchCallback)
-    // Offset: 0xEEE268
+    // Offset: 0x1FEEFF0
     void StartLevel(System::Action* beforeSceneSwitchCallback);
     // private System.Void HandleLevelDidFinish(StandardLevelScenesTransitionSetupDataSO standardLevelSceneSetupData, LevelCompletionResults levelCompletionResults)
-    // Offset: 0xEEE53C
+    // Offset: 0x1FEF2C4
     void HandleLevelDidFinish(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData, GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xEEDD80
+    // Offset: 0x1FEEB08
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0xEEDFFC
+    // Offset: 0x1FEED84
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0xEEE5D8
+    // Offset: 0x1FEF360
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

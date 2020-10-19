@@ -31,16 +31,16 @@ namespace UnityEngineInternal::Input {
   class NativeUpdateCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x222CD68
+    // Offset: 0x1F7CA70
     static NativeUpdateCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(UnityEngineInternal.Input.NativeInputUpdateType updateType, UnityEngineInternal.Input.NativeInputEventBuffer* buffer)
-    // Offset: 0x222C9A0
+    // Offset: 0x1F7C6A8
     void Invoke(UnityEngineInternal::Input::NativeInputUpdateType updateType, UnityEngineInternal::Input::NativeInputEventBuffer* buffer);
     // public System.IAsyncResult BeginInvoke(UnityEngineInternal.Input.NativeInputUpdateType updateType, UnityEngineInternal.Input.NativeInputEventBuffer* buffer, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x222CD7C
+    // Offset: 0x1F7CA84
     System::IAsyncResult* BeginInvoke(UnityEngineInternal::Input::NativeInputUpdateType updateType, UnityEngineInternal::Input::NativeInputEventBuffer* buffer, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x222CE14
+    // Offset: 0x1F7CB1C
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngineInternal.Input.NativeUpdateCallback
 }

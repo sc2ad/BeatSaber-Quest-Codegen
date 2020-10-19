@@ -33,16 +33,16 @@ namespace Valve::VR {
   class IVRCompositor::_GetMirrorTextureGL : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1E3164C
+    // Offset: 0x1B842B0
     static IVRCompositor::_GetMirrorTextureGL* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRCompositorError Invoke(Valve.VR.EVREye eEye, ref System.UInt32 pglTextureId, System.IntPtr pglSharedTextureHandle)
-    // Offset: 0x1E31660
+    // Offset: 0x1B842C4
     Valve::VR::EVRCompositorError Invoke(Valve::VR::EVREye eEye, uint& pglTextureId, System::IntPtr pglSharedTextureHandle);
     // public System.IAsyncResult BeginInvoke(Valve.VR.EVREye eEye, ref System.UInt32 pglTextureId, System.IntPtr pglSharedTextureHandle, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1E3190C
+    // Offset: 0x1B84570
     System::IAsyncResult* BeginInvoke(Valve::VR::EVREye eEye, uint& pglTextureId, System::IntPtr pglSharedTextureHandle, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRCompositorError EndInvoke(ref System.UInt32 pglTextureId, System.IAsyncResult result)
-    // Offset: 0x1E319DC
+    // Offset: 0x1B84640
     Valve::VR::EVRCompositorError EndInvoke(uint& pglTextureId, System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_GetMirrorTextureGL
 }

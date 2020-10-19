@@ -37,13 +37,13 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager;
     // public System.Void Activate()
-    // Offset: 0x102FCEC
+    // Offset: 0x2096BD4
     void Activate();
     // public System.Void Deactivate()
-    // Offset: 0x102FEFC
+    // Offset: 0x2096DE4
     void Deactivate();
     // public System.Void .ctor()
-    // Offset: 0x1030098
+    // Offset: 0x2096F80
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LobbyDataModelsManager* New_ctor();

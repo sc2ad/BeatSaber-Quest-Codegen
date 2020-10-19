@@ -73,37 +73,37 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _colorId
     static void _set__colorId(int value);
     // public System.Void add_didInitEvent(System.Action`2<ColorNoteVisuals,NoteController> value)
-    // Offset: 0xF23FFC
+    // Offset: 0x1FB79F8
     void add_didInitEvent(System::Action_2<GlobalNamespace::ColorNoteVisuals*, GlobalNamespace::NoteController*>* value);
     // public System.Void remove_didInitEvent(System.Action`2<ColorNoteVisuals,NoteController> value)
-    // Offset: 0xF240A0
+    // Offset: 0x1FB7A9C
     void remove_didInitEvent(System::Action_2<GlobalNamespace::ColorNoteVisuals*, GlobalNamespace::NoteController*>* value);
     // public UnityEngine.Color get_noteColor()
-    // Offset: 0xF24144
+    // Offset: 0x1FB7B40
     UnityEngine::Color get_noteColor();
     // private System.Void set_showArrow(System.Boolean value)
-    // Offset: 0xF24150
+    // Offset: 0x1FB7B4C
     void set_showArrow(bool value);
     // private System.Void set_showCircle(System.Boolean value)
-    // Offset: 0xF24198
+    // Offset: 0x1FB7B94
     void set_showCircle(bool value);
     // protected System.Void Awake()
-    // Offset: 0xF241B8
+    // Offset: 0x1FB7BB4
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xF242DC
+    // Offset: 0x1FB7CD8
     void OnDestroy();
     // private System.Void HandleNoteControllerDidInit(NoteController noteController)
-    // Offset: 0xF243FC
+    // Offset: 0x1FB7DF8
     void HandleNoteControllerDidInit(GlobalNamespace::NoteController* noteController);
     // private System.Void HandleNoteControllerNoteDidPassJumpThreeQuarters(NoteController noteController)
-    // Offset: 0xF24600
+    // Offset: 0x1FB7FFC
     void HandleNoteControllerNoteDidPassJumpThreeQuarters(GlobalNamespace::NoteController* noteController);
     // private System.Void HandleNoteDidStartDissolving(NoteController noteController, System.Single duration)
-    // Offset: 0xF24638
+    // Offset: 0x1FB8034
     void HandleNoteDidStartDissolving(GlobalNamespace::NoteController* noteController, float duration);
     // public System.Void .ctor()
-    // Offset: 0xF2467C
+    // Offset: 0x1FB8078
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -112,7 +112,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ColorNoteVisuals* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xF24690
+    // Offset: 0x1FB808C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

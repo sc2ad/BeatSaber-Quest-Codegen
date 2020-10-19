@@ -57,27 +57,27 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::UserInfo* userInfo;
     // public System.Threading.Tasks.Task`1<UserInfo> GetUserInfo()
-    // Offset: 0x100A660
+    // Offset: 0x1F82CBC
     // Implemented from: IPlatformUserModel
     // Base method: System.Threading.Tasks.Task`1<UserInfo> IPlatformUserModel::GetUserInfo()
     System::Threading::Tasks::Task_1<GlobalNamespace::UserInfo*>* GetUserInfo();
     // public System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<System.String>> GetUserFriendsUserIds(System.Boolean cached)
-    // Offset: 0x100A780
+    // Offset: 0x1F82DDC
     // Implemented from: IPlatformUserModel
     // Base method: System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<System.String>> IPlatformUserModel::GetUserFriendsUserIds(System.Boolean cached)
     System::Threading::Tasks::Task_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>* GetUserFriendsUserIds(bool cached);
     // public System.Threading.Tasks.Task`1<System.String> GetUserAuthToken()
-    // Offset: 0x100A8C4
+    // Offset: 0x1F82F20
     // Implemented from: IPlatformUserModel
     // Base method: System.Threading.Tasks.Task`1<System.String> IPlatformUserModel::GetUserAuthToken()
     System::Threading::Tasks::Task_1<::Il2CppString*>* GetUserAuthToken();
     // public System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<System.String>> GetUserNamesForUserIds(System.Collections.Generic.IReadOnlyList`1<System.String> userIds)
-    // Offset: 0x100A9D0
+    // Offset: 0x1F8302C
     // Implemented from: IPlatformUserModel
     // Base method: System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<System.String>> IPlatformUserModel::GetUserNamesForUserIds(System.Collections.Generic.IReadOnlyList`1<System.String> userIds)
     System::Threading::Tasks::Task_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>* GetUserNamesForUserIds(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* userIds);
     // public System.Void .ctor()
-    // Offset: 0x100AAE8
+    // Offset: 0x1F83144
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusPlatformUserModel* New_ctor();

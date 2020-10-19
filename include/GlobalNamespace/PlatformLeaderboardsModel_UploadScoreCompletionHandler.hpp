@@ -26,16 +26,16 @@ namespace GlobalNamespace {
   class PlatformLeaderboardsModel::UploadScoreCompletionHandler : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xFDB92C
+    // Offset: 0x2086600
     static PlatformLeaderboardsModel::UploadScoreCompletionHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(PlatformLeaderboardsModel/UploadScoreResult result)
-    // Offset: 0xFDAD10
+    // Offset: 0x20859E4
     void Invoke(GlobalNamespace::PlatformLeaderboardsModel::UploadScoreResult result);
     // public System.IAsyncResult BeginInvoke(PlatformLeaderboardsModel/UploadScoreResult result, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xFDB940
+    // Offset: 0x2086614
     System::IAsyncResult* BeginInvoke(GlobalNamespace::PlatformLeaderboardsModel::UploadScoreResult result, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xFDB9CC
+    // Offset: 0x20866A0
     void EndInvoke(System::IAsyncResult* result);
   }; // PlatformLeaderboardsModel/UploadScoreCompletionHandler
 }

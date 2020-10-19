@@ -52,18 +52,18 @@ namespace GlobalNamespace {
     // Offset: 0x38
     UnityEngine::Networking::UnityWebRequest* $uwr$5__2;
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0xEEEC70
+    // Offset: 0x1FEF9F8
     static SimpleTextureLoader::$LoadTextureCoroutine$d__3* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()
-    // Offset: 0xEEED34
+    // Offset: 0x1FEFABC
     void $$m__Finally1();
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0xEEED18
+    // Offset: 0x1FEFAA0
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0xEEEDF4
+    // Offset: 0x1FEFB7C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -71,17 +71,17 @@ namespace GlobalNamespace {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0xEEF0E8
+    // Offset: 0x1FEFE70
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator_1::get_Current()
     ::Il2CppObject* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0xEEF0F0
+    // Offset: 0x1FEFE78
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0xEEF150
+    // Offset: 0x1FEFED8
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();

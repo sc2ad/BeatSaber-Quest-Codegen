@@ -86,85 +86,85 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didInitEvent(System.Action`1<NoteController> value)
-    // Offset: 0xF123D0
+    // Offset: 0x1FE7284
     void add_didInitEvent(System::Action_1<GlobalNamespace::NoteController*>* value);
     // public System.Void remove_didInitEvent(System.Action`1<NoteController> value)
-    // Offset: 0xF12474
+    // Offset: 0x1FE7328
     void remove_didInitEvent(System::Action_1<GlobalNamespace::NoteController*>* value);
     // public System.Void add_noteDidStartJumpEvent(System.Action`1<NoteController> value)
-    // Offset: 0xF12518
+    // Offset: 0x1FE73CC
     void add_noteDidStartJumpEvent(System::Action_1<GlobalNamespace::NoteController*>* value);
     // public System.Void remove_noteDidStartJumpEvent(System.Action`1<NoteController> value)
-    // Offset: 0xF125BC
+    // Offset: 0x1FE7470
     void remove_noteDidStartJumpEvent(System::Action_1<GlobalNamespace::NoteController*>* value);
     // public System.Void add_noteDidFinishJumpEvent(System.Action`1<NoteController> value)
-    // Offset: 0xF12660
+    // Offset: 0x1FE7514
     void add_noteDidFinishJumpEvent(System::Action_1<GlobalNamespace::NoteController*>* value);
     // public System.Void remove_noteDidFinishJumpEvent(System.Action`1<NoteController> value)
-    // Offset: 0xF12704
+    // Offset: 0x1FE75B8
     void remove_noteDidFinishJumpEvent(System::Action_1<GlobalNamespace::NoteController*>* value);
     // public System.Void add_noteDidPassJumpThreeQuartersEvent(System.Action`1<NoteController> value)
-    // Offset: 0xF127A8
+    // Offset: 0x1FE765C
     void add_noteDidPassJumpThreeQuartersEvent(System::Action_1<GlobalNamespace::NoteController*>* value);
     // public System.Void remove_noteDidPassJumpThreeQuartersEvent(System.Action`1<NoteController> value)
-    // Offset: 0xF1284C
+    // Offset: 0x1FE7700
     void remove_noteDidPassJumpThreeQuartersEvent(System::Action_1<GlobalNamespace::NoteController*>* value);
     // public System.Void add_noteWasCutEvent(System.Action`2<NoteController,NoteCutInfo> value)
-    // Offset: 0xF128F0
+    // Offset: 0x1FE77A4
     void add_noteWasCutEvent(System::Action_2<GlobalNamespace::NoteController*, GlobalNamespace::NoteCutInfo*>* value);
     // public System.Void remove_noteWasCutEvent(System.Action`2<NoteController,NoteCutInfo> value)
-    // Offset: 0xF12994
+    // Offset: 0x1FE7848
     void remove_noteWasCutEvent(System::Action_2<GlobalNamespace::NoteController*, GlobalNamespace::NoteCutInfo*>* value);
     // public System.Void add_noteWasMissedEvent(System.Action`1<NoteController> value)
-    // Offset: 0xF12A38
+    // Offset: 0x1FE78EC
     void add_noteWasMissedEvent(System::Action_1<GlobalNamespace::NoteController*>* value);
     // public System.Void remove_noteWasMissedEvent(System.Action`1<NoteController> value)
-    // Offset: 0xF12ADC
+    // Offset: 0x1FE7990
     void remove_noteWasMissedEvent(System::Action_1<GlobalNamespace::NoteController*>* value);
     // public System.Void add_noteDidStartDissolvingEvent(System.Action`2<NoteController,System.Single> value)
-    // Offset: 0xF12B80
+    // Offset: 0x1FE7A34
     void add_noteDidStartDissolvingEvent(System::Action_2<GlobalNamespace::NoteController*, float>* value);
     // public System.Void remove_noteDidStartDissolvingEvent(System.Action`2<NoteController,System.Single> value)
-    // Offset: 0xF12C24
+    // Offset: 0x1FE7AD8
     void remove_noteDidStartDissolvingEvent(System::Action_2<GlobalNamespace::NoteController*, float>* value);
     // public System.Void add_noteDidDissolveEvent(System.Action`1<NoteController> value)
-    // Offset: 0xF12CC8
+    // Offset: 0x1FE7B7C
     void add_noteDidDissolveEvent(System::Action_1<GlobalNamespace::NoteController*>* value);
     // public System.Void remove_noteDidDissolveEvent(System.Action`1<NoteController> value)
-    // Offset: 0xF12D6C
+    // Offset: 0x1FE7C20
     void remove_noteDidDissolveEvent(System::Action_1<GlobalNamespace::NoteController*>* value);
     // public UnityEngine.Transform get_noteTransform()
-    // Offset: 0xF12E10
+    // Offset: 0x1FE7CC4
     UnityEngine::Transform* get_noteTransform();
     // public UnityEngine.Quaternion get_worldRotation()
-    // Offset: 0xF12E18
+    // Offset: 0x1FE7CCC
     UnityEngine::Quaternion get_worldRotation();
     // public UnityEngine.Quaternion get_inverseWorldRotation()
-    // Offset: 0xF12E34
+    // Offset: 0x1FE7CE8
     UnityEngine::Quaternion get_inverseWorldRotation();
     // public System.Single get_moveStartTime()
-    // Offset: 0xF12E50
+    // Offset: 0x1FE7D04
     float get_moveStartTime();
     // public System.Single get_moveDuration()
-    // Offset: 0xF12E6C
+    // Offset: 0x1FE7D20
     float get_moveDuration();
     // public System.Single get_jumpDuration()
-    // Offset: 0xF12E88
+    // Offset: 0x1FE7D3C
     float get_jumpDuration();
     // public UnityEngine.Vector3 get_jumpMoveVec()
-    // Offset: 0xF12EA4
+    // Offset: 0x1FE7D58
     UnityEngine::Vector3 get_jumpMoveVec();
     // public UnityEngine.Vector3 get_beatPos()
-    // Offset: 0xF12EC0
+    // Offset: 0x1FE7D74
     UnityEngine::Vector3 get_beatPos();
     // public UnityEngine.Vector3 get_jumpStartPos()
-    // Offset: 0xF12EDC
+    // Offset: 0x1FE7D90
     UnityEngine::Vector3 get_jumpStartPos();
     // public NoteData get_noteData()
-    // Offset: 0xF12EF8
+    // Offset: 0x1FE7DAC
     GlobalNamespace::NoteData* get_noteData();
     // public UnityEngine.Vector3 get_moveVec()
-    // Offset: 0xF12F00
+    // Offset: 0x1FE7DB4
     UnityEngine::Vector3 get_moveVec();
     // public System.Void set_hide(System.Boolean value)
     // Offset: 0xFFFFFFFF
@@ -176,61 +176,61 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void set_pause(bool value);
     // protected System.Void Awake()
-    // Offset: 0xF12FE0
+    // Offset: 0x1FE7E94
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xF13130
+    // Offset: 0x1FE7FE4
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xF132C8
+    // Offset: 0x1FE817C
     void Update();
     // public System.Void ManualUpdate()
-    // Offset: 0xF132D4
+    // Offset: 0x1FE8188
     void ManualUpdate();
     // private System.Void HandleNoteDidStartJump()
-    // Offset: 0xF132F0
+    // Offset: 0x1FE81A4
     void HandleNoteDidStartJump();
     // private System.Void HandleNoteDidFinishJump()
-    // Offset: 0xF13364
+    // Offset: 0x1FE8218
     void HandleNoteDidFinishJump();
     // private System.Void HandleNoteDidPassJumpThreeQuarters(NoteMovement noteMovement)
-    // Offset: 0xF133E0
+    // Offset: 0x1FE8294
     void HandleNoteDidPassJumpThreeQuarters(GlobalNamespace::NoteMovement* noteMovement);
     // private System.Void HandleNoteDidPassMissedMarkerEvent()
-    // Offset: 0xF13470
+    // Offset: 0x1FE8324
     void HandleNoteDidPassMissedMarkerEvent();
     // protected System.Void NoteDidStartJump()
-    // Offset: 0xF1348C
+    // Offset: 0x1FE8340
     void NoteDidStartJump();
     // protected System.Void NoteDidFinishJump()
-    // Offset: 0xF13490
+    // Offset: 0x1FE8344
     void NoteDidFinishJump();
     // protected System.Void NoteDidPassJumpThreeQuarters(NoteMovement noteMovement)
-    // Offset: 0xF13494
+    // Offset: 0x1FE8348
     void NoteDidPassJumpThreeQuarters(GlobalNamespace::NoteMovement* noteMovement);
     // protected System.Void NoteDidPassMissedMarker()
-    // Offset: 0xF13498
+    // Offset: 0x1FE834C
     void NoteDidPassMissedMarker();
     // protected System.Void NoteDidStartDissolving()
-    // Offset: 0xF1349C
+    // Offset: 0x1FE8350
     void NoteDidStartDissolving();
     // protected System.Void SendNoteWasMissedEvent()
-    // Offset: 0xF134A0
+    // Offset: 0x1FE8354
     void SendNoteWasMissedEvent();
     // protected System.Void SendNoteWasCutEvent(NoteCutInfo noteCutInfo)
-    // Offset: 0xF13504
+    // Offset: 0x1FE83B8
     void SendNoteWasCutEvent(GlobalNamespace::NoteCutInfo* noteCutInfo);
     // protected System.Void Init(NoteData noteData, System.Single worldRotation, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single moveDuration, System.Single jumpDuration, System.Single jumpGravity, System.Single endRotation)
-    // Offset: 0xF1357C
+    // Offset: 0x1FE8430
     void Init(GlobalNamespace::NoteData* noteData, float worldRotation, UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float moveDuration, float jumpDuration, float jumpGravity, float endRotation);
     // private System.Collections.IEnumerator DissolveCoroutine(System.Single duration)
-    // Offset: 0xF13740
+    // Offset: 0x1FE85F4
     System::Collections::IEnumerator* DissolveCoroutine(float duration);
     // public System.Void Dissolve(System.Single duration)
-    // Offset: 0xF137CC
+    // Offset: 0x1FE8680
     void Dissolve(float duration);
     // protected System.Void .ctor()
-    // Offset: 0xF13830
+    // Offset: 0x1FE86E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

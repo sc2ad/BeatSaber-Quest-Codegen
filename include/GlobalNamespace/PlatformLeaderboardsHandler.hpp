@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     GlobalNamespace::HMAsyncRequest* UploadScore(GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData, GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* completionHandler);
     // protected System.Void .ctor()
-    // Offset: 0xFDABF4
+    // Offset: 0x20858C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlatformLeaderboardsHandler* New_ctor();

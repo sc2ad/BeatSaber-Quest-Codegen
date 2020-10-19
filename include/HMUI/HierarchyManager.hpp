@@ -46,22 +46,22 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x11BCA48
+    // Offset: 0x218BE90
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x11BCC04
+    // Offset: 0x218C04C
     void OnDestroy();
     // private System.Void HandleSceneTransitionDidFinish(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer container)
-    // Offset: 0x11BCB48
+    // Offset: 0x218BF90
     void HandleSceneTransitionDidFinish(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, Zenject::DiContainer* container);
     // private System.Void HandleBeforeDismissingScenes()
-    // Offset: 0x11BCCDC
+    // Offset: 0x218C124
     void HandleBeforeDismissingScenes();
     // public System.Void StartWithFlowCoordinator(HMUI.FlowCoordinator flowCoordinator)
-    // Offset: 0x11BCD98
+    // Offset: 0x218C1E0
     void StartWithFlowCoordinator(HMUI::FlowCoordinator* flowCoordinator);
     // public System.Void .ctor()
-    // Offset: 0x11BCDD0
+    // Offset: 0x218C218
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

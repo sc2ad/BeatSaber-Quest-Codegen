@@ -34,13 +34,13 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x98
     System::TimeSpan matchTimeout;
     // public System.Void .ctor(System.String regexInput, System.String regexPattern, System.TimeSpan matchTimeout)
-    // Offset: 0x1803B90
+    // Offset: 0x15AAFB4
     static RegexMatchTimeoutException* New_ctor(::Il2CppString* regexInput, ::Il2CppString* regexPattern, System::TimeSpan matchTimeout);
     // private System.Void Init(System.String input, System.String pattern, System.TimeSpan timeout)
-    // Offset: 0x1803C64
+    // Offset: 0x15AB088
     void Init(::Il2CppString* input, ::Il2CppString* pattern, System::TimeSpan timeout);
     // public System.Void .ctor()
-    // Offset: 0x1803CAC
+    // Offset: 0x15AB0D0
     // Implemented from: System.TimeoutException
     // Base method: System.Void TimeoutException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -48,19 +48,19 @@ namespace System::Text::RegularExpressions {
     // Base method: System.Void Object::.ctor()
     static RegexMatchTimeoutException* New_ctor();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1803DD4
+    // Offset: 0x15AB1F8
     // Implemented from: System.TimeoutException
     // Base method: System.Void TimeoutException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static RegexMatchTimeoutException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo si, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1803F00
+    // Offset: 0x15AB324
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo si, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* si, System::Runtime::Serialization::StreamingContext context);
     // private System.Void Init()
-    // Offset: 0x1803D2C
+    // Offset: 0x15AB150
     // Implemented from: System.Exception
     // Base method: System.Void Exception::Init()
     void Init();

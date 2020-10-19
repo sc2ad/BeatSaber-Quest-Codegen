@@ -35,13 +35,13 @@ namespace System::Resources {
     // Offset: 0x20
     int dataPosition;
     // System.Void .ctor(System.Resources.ResourceReader reader)
-    // Offset: 0x18DDF20
+    // Offset: 0x1684344
     static ResourceReader::ResourceEnumerator* New_ctor(System::Resources::ResourceReader* reader);
     // System.Int32 get_DataPosition()
-    // Offset: 0x18E1660
+    // Offset: 0x1687A84
     int get_DataPosition();
     // public System.Boolean MoveNext()
-    // Offset: 0x18E11C0
+    // Offset: 0x16875E4
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -49,7 +49,7 @@ namespace System::Resources {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // public System.Object get_Key()
-    // Offset: 0x18E121C
+    // Offset: 0x1687640
     // Implemented from: System.Collections.IDictionaryEnumerator
     // Base method: System.Object IDictionaryEnumerator::get_Key()
     ::Il2CppObject* get_Key();
@@ -57,7 +57,7 @@ namespace System::Resources {
     // Maps to method: get_Key
     ::Il2CppObject* System_Collections_IDictionaryEnumerator_get_Key();
     // public System.Object get_Current()
-    // Offset: 0x18E12F4
+    // Offset: 0x1687718
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* get_Current();
@@ -65,7 +65,7 @@ namespace System::Resources {
     // Maps to method: get_Current
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Collections.DictionaryEntry get_Entry()
-    // Offset: 0x18E1360
+    // Offset: 0x1687784
     // Implemented from: System.Collections.IDictionaryEnumerator
     // Base method: System.Collections.DictionaryEntry IDictionaryEnumerator::get_Entry()
     System::Collections::DictionaryEntry get_Entry();
@@ -73,7 +73,7 @@ namespace System::Resources {
     // Maps to method: get_Entry
     System::Collections::DictionaryEntry System_Collections_IDictionaryEnumerator_get_Entry();
     // public System.Object get_Value()
-    // Offset: 0x18E1668
+    // Offset: 0x1687A8C
     // Implemented from: System.Collections.IDictionaryEnumerator
     // Base method: System.Object IDictionaryEnumerator::get_Value()
     ::Il2CppObject* get_Value();
@@ -81,7 +81,7 @@ namespace System::Resources {
     // Maps to method: get_Value
     ::Il2CppObject* System_Collections_IDictionaryEnumerator_get_Value();
     // public System.Void Reset()
-    // Offset: 0x18E173C
+    // Offset: 0x1687B60
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();

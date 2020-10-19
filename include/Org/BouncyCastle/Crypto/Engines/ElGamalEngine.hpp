@@ -43,27 +43,27 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Offset: 0x24
     int bitSize;
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1BCD61C
+    // Offset: 0x196E810
     // Implemented from: Org.BouncyCastle.Crypto.IAsymmetricBlockCipher
     // Base method: System.Void IAsymmetricBlockCipher::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetInputBlockSize()
-    // Offset: 0x1BCD880
+    // Offset: 0x196EA74
     // Implemented from: Org.BouncyCastle.Crypto.IAsymmetricBlockCipher
     // Base method: System.Int32 IAsymmetricBlockCipher::GetInputBlockSize()
     int GetInputBlockSize();
     // public System.Int32 GetOutputBlockSize()
-    // Offset: 0x1BCD8C0
+    // Offset: 0x196EAB4
     // Implemented from: Org.BouncyCastle.Crypto.IAsymmetricBlockCipher
     // Base method: System.Int32 IAsymmetricBlockCipher::GetOutputBlockSize()
     int GetOutputBlockSize();
     // public System.Byte[] ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x1BCD900
+    // Offset: 0x196EAF4
     // Implemented from: Org.BouncyCastle.Crypto.IAsymmetricBlockCipher
     // Base method: System.Byte[] IAsymmetricBlockCipher::ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Int32 length)
     ::Array<uint8_t>* ProcessBlock(::Array<uint8_t>* input, int inOff, int length);
     // public System.Void .ctor()
-    // Offset: 0x1BCDDDC
+    // Offset: 0x196EFD0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ElGamalEngine* New_ctor();

@@ -34,30 +34,30 @@ namespace System::Security::Cryptography::X509Certificates {
       return list;
     }
     // private System.Void .ctor(System.Security.Cryptography.X509Certificates.X509CertificateImplCollection other)
-    // Offset: 0x16C0000
+    // Offset: 0x147ABD4
     static X509CertificateImplCollection* New_ctor(System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* other);
     // public System.Int32 get_Count()
-    // Offset: 0x16C0178
+    // Offset: 0x147AD4C
     int get_Count();
     // public System.Security.Cryptography.X509Certificates.X509CertificateImpl get_Item(System.Int32 index)
-    // Offset: 0x16C01C8
+    // Offset: 0x147AD9C
     System::Security::Cryptography::X509Certificates::X509CertificateImpl* get_Item(int index);
     // public System.Void Add(System.Security.Cryptography.X509Certificates.X509CertificateImpl impl, System.Boolean takeOwnership)
-    // Offset: 0x16BEA1C
+    // Offset: 0x14795F0
     void Add(System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl, bool takeOwnership);
     // public System.Security.Cryptography.X509Certificates.X509CertificateImplCollection Clone()
-    // Offset: 0x16BC8FC
+    // Offset: 0x14774D0
     System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* Clone();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x16C0240
+    // Offset: 0x147AE14
     void Dispose(bool disposing);
     // public System.Void .ctor()
-    // Offset: 0x16BE9A0
+    // Offset: 0x1479574
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static X509CertificateImplCollection* New_ctor();
     // public System.Void Dispose()
-    // Offset: 0x16BEDC4
+    // Offset: 0x1479998
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -65,7 +65,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0x16C03F4
+    // Offset: 0x147AFC8
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

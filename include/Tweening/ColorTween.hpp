@@ -33,13 +33,13 @@ namespace Tweening {
   class ColorTween : public Tweening::Tween_1<UnityEngine::Color> {
     public:
     // public System.Void .ctor(UnityEngine.Color fromValue, UnityEngine.Color toValue, System.Action`1<UnityEngine.Color> onUpdate, System.Single duration, Tweening.EaseType easeType, System.Single delay)
-    // Offset: 0xF3BFDC
+    // Offset: 0x1FA250C
     static ColorTween* New_ctor(UnityEngine::Color fromValue, UnityEngine::Color toValue, System::Action_1<UnityEngine::Color>* onUpdate, float duration, Tweening::EaseType easeType, float delay);
     // public System.Void .ctor(UnityEngine.Color fromValue, UnityEngine.Color toValue, System.Action`1<UnityEngine.Color> onUpdate, System.Single duration, UnityEngine.AnimationCurve animationCurve, System.Single delay)
-    // Offset: 0xF3C0B4
+    // Offset: 0x1FA25E4
     static ColorTween* New_ctor(UnityEngine::Color fromValue, UnityEngine::Color toValue, System::Action_1<UnityEngine::Color>* onUpdate, float duration, UnityEngine::AnimationCurve* animationCurve, float delay);
     // public UnityEngine.Color GetValue(System.Single t)
-    // Offset: 0xF3C18C
+    // Offset: 0x1FA26BC
     UnityEngine::Color GetValue(float t);
   }; // Tweening.ColorTween
 }

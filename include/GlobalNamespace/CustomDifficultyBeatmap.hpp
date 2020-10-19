@@ -48,40 +48,40 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::BeatmapData* beatmapData;
     // public System.Void .ctor(IBeatmapLevel level, IDifficultyBeatmapSet parentDifficultyBeatmapSet, BeatmapDifficulty difficulty, System.Int32 difficultyRank, System.Single noteJumpMovementSpeed, System.Single noteJumpStartBeatOffset, BeatmapData beatmapData)
-    // Offset: 0xF5B87C
+    // Offset: 0x1FBE088
     static CustomDifficultyBeatmap* New_ctor(GlobalNamespace::IBeatmapLevel* level, GlobalNamespace::IDifficultyBeatmapSet* parentDifficultyBeatmapSet, GlobalNamespace::BeatmapDifficulty difficulty, int difficultyRank, float noteJumpMovementSpeed, float noteJumpStartBeatOffset, GlobalNamespace::BeatmapData* beatmapData);
     // public IBeatmapLevel get_level()
-    // Offset: 0xF5B844
+    // Offset: 0x1FBE050
     // Implemented from: IDifficultyBeatmap
     // Base method: IBeatmapLevel IDifficultyBeatmap::get_level()
     GlobalNamespace::IBeatmapLevel* get_level();
     // public IDifficultyBeatmapSet get_parentDifficultyBeatmapSet()
-    // Offset: 0xF5B84C
+    // Offset: 0x1FBE058
     // Implemented from: IDifficultyBeatmap
     // Base method: IDifficultyBeatmapSet IDifficultyBeatmap::get_parentDifficultyBeatmapSet()
     GlobalNamespace::IDifficultyBeatmapSet* get_parentDifficultyBeatmapSet();
     // public BeatmapDifficulty get_difficulty()
-    // Offset: 0xF5B854
+    // Offset: 0x1FBE060
     // Implemented from: IDifficultyBeatmap
     // Base method: BeatmapDifficulty IDifficultyBeatmap::get_difficulty()
     GlobalNamespace::BeatmapDifficulty get_difficulty();
     // public System.Int32 get_difficultyRank()
-    // Offset: 0xF5B85C
+    // Offset: 0x1FBE068
     // Implemented from: IDifficultyBeatmap
     // Base method: System.Int32 IDifficultyBeatmap::get_difficultyRank()
     int get_difficultyRank();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0xF5B864
+    // Offset: 0x1FBE070
     // Implemented from: IDifficultyBeatmap
     // Base method: System.Single IDifficultyBeatmap::get_noteJumpMovementSpeed()
     float get_noteJumpMovementSpeed();
     // public System.Single get_noteJumpStartBeatOffset()
-    // Offset: 0xF5B86C
+    // Offset: 0x1FBE078
     // Implemented from: IDifficultyBeatmap
     // Base method: System.Single IDifficultyBeatmap::get_noteJumpStartBeatOffset()
     float get_noteJumpStartBeatOffset();
     // public BeatmapData get_beatmapData()
-    // Offset: 0xF5B874
+    // Offset: 0x1FBE080
     // Implemented from: IDifficultyBeatmap
     // Base method: BeatmapData IDifficultyBeatmap::get_beatmapData()
     GlobalNamespace::BeatmapData* get_beatmapData();

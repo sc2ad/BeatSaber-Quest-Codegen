@@ -30,7 +30,7 @@ namespace GlobalNamespace {
       return oculusNetworkPlayerModel;
     }
     // public System.Void .ctor()
-    // Offset: 0x10BA7D8
+    // Offset: 0x21039F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusConnectionManager::StartServerParams* New_ctor();

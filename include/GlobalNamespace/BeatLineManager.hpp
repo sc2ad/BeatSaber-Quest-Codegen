@@ -67,28 +67,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_isMidRotationValid()
-    // Offset: 0x1046008
+    // Offset: 0x203C044
     bool get_isMidRotationValid();
     // public System.Single get_midRotation()
-    // Offset: 0x1046010
+    // Offset: 0x203C04C
     float get_midRotation();
     // public System.Single get_rotationRange()
-    // Offset: 0x1046018
+    // Offset: 0x203C054
     float get_rotationRange();
     // protected System.Void Start()
-    // Offset: 0x1046020
+    // Offset: 0x203C05C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10460B4
+    // Offset: 0x203C0F0
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x1046148
+    // Offset: 0x203C184
     void Update();
     // private System.Void HandleNoteWasSpawned(NoteController noteController)
-    // Offset: 0x1046504
+    // Offset: 0x203C538
     void HandleNoteWasSpawned(GlobalNamespace::NoteController* noteController);
     // public System.Void .ctor()
-    // Offset: 0x1046708
+    // Offset: 0x203C734
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

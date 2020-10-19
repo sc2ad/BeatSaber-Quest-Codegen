@@ -14,21 +14,21 @@ namespace UnityEngine::Experimental::Rendering {
   class BuiltinRuntimeReflectionSystem : public ::Il2CppObject, public UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem {
     public:
     // private System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x19EDCD8
+    // Offset: 0x17940FC
     void Dispose(bool disposing);
     // static private System.Boolean BuiltinUpdate()
-    // Offset: 0x19EDCA0
+    // Offset: 0x17940C4
     static bool BuiltinUpdate();
     // static private UnityEngine.Experimental.Rendering.BuiltinRuntimeReflectionSystem Internal_BuiltinRuntimeReflectionSystem_New()
-    // Offset: 0x19EDCDC
+    // Offset: 0x1794100
     static UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem* Internal_BuiltinRuntimeReflectionSystem_New();
     // public System.Boolean TickRealtimeProbes()
-    // Offset: 0x19EDC6C
+    // Offset: 0x1794090
     // Implemented from: UnityEngine.Experimental.Rendering.IScriptableRuntimeReflectionSystem
     // Base method: System.Boolean IScriptableRuntimeReflectionSystem::TickRealtimeProbes()
     bool TickRealtimeProbes();
     // public System.Void Dispose()
-    // Offset: 0x19EDCD4
+    // Offset: 0x17940F8
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -36,7 +36,7 @@ namespace UnityEngine::Experimental::Rendering {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // public System.Void .ctor()
-    // Offset: 0x19EDD38
+    // Offset: 0x179415C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BuiltinRuntimeReflectionSystem* New_ctor();

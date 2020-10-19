@@ -80,16 +80,16 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x7C
     int timeoutChecksToSkip;
     // protected internal System.Text.RegularExpressions.Match Scan(System.Text.RegularExpressions.Regex regex, System.String text, System.Int32 textbeg, System.Int32 textend, System.Int32 textstart, System.Int32 prevlen, System.Boolean quick, System.TimeSpan timeout)
-    // Offset: 0x180A9A4
+    // Offset: 0x15B1DC8
     System::Text::RegularExpressions::Match* Scan(System::Text::RegularExpressions::Regex* regex, ::Il2CppString* text, int textbeg, int textend, int textstart, int prevlen, bool quick, System::TimeSpan timeout);
     // private System.Void StartTimeoutWatch()
-    // Offset: 0x180AD08
+    // Offset: 0x15B212C
     void StartTimeoutWatch();
     // protected System.Void CheckTimeout()
-    // Offset: 0x18036D8
+    // Offset: 0x15AAAFC
     void CheckTimeout();
     // private System.Void DoCheckTimeout()
-    // Offset: 0x180AFB4
+    // Offset: 0x15B23D8
     void DoCheckTimeout();
     // protected System.Void Go()
     // Offset: 0xFFFFFFFF
@@ -101,58 +101,58 @@ namespace System::Text::RegularExpressions {
     // Offset: 0xFFFFFFFF
     void InitTrackCount();
     // private System.Void InitMatch()
-    // Offset: 0x180AD4C
+    // Offset: 0x15B2170
     void InitMatch();
     // private System.Text.RegularExpressions.Match TidyMatch(System.Boolean quick)
-    // Offset: 0x180AF5C
+    // Offset: 0x15B2380
     System::Text::RegularExpressions::Match* TidyMatch(bool quick);
     // protected System.Void EnsureStorage()
-    // Offset: 0x18015A4
+    // Offset: 0x15A89C8
     void EnsureStorage();
     // protected System.Boolean IsBoundary(System.Int32 index, System.Int32 startpos, System.Int32 endpos)
-    // Offset: 0x1803910
+    // Offset: 0x15AAD34
     bool IsBoundary(int index, int startpos, int endpos);
     // protected System.Boolean IsECMABoundary(System.Int32 index, System.Int32 startpos, System.Int32 endpos)
-    // Offset: 0x1803A30
+    // Offset: 0x15AAE54
     bool IsECMABoundary(int index, int startpos, int endpos);
     // protected System.Void DoubleTrack()
-    // Offset: 0x180B15C
+    // Offset: 0x15B2580
     void DoubleTrack();
     // protected System.Void DoubleStack()
-    // Offset: 0x180B0A0
+    // Offset: 0x15B24C4
     void DoubleStack();
     // protected System.Void DoubleCrawl()
-    // Offset: 0x180B218
+    // Offset: 0x15B263C
     void DoubleCrawl();
     // protected System.Void Crawl(System.Int32 i)
-    // Offset: 0x180B2D4
+    // Offset: 0x15B26F8
     void Crawl(int i);
     // protected System.Int32 Popcrawl()
-    // Offset: 0x180B33C
+    // Offset: 0x15B2760
     int Popcrawl();
     // protected System.Int32 Crawlpos()
-    // Offset: 0x18038EC
+    // Offset: 0x15AAD10
     int Crawlpos();
     // protected System.Void Capture(System.Int32 capnum, System.Int32 start, System.Int32 end)
-    // Offset: 0x1803844
+    // Offset: 0x15AAC68
     void Capture(int capnum, int start, int end);
     // protected System.Void TransferCapture(System.Int32 capnum, System.Int32 uncapnum, System.Int32 start, System.Int32 end)
-    // Offset: 0x1803720
+    // Offset: 0x15AAB44
     void TransferCapture(int capnum, int uncapnum, int start, int end);
     // protected System.Void Uncapture()
-    // Offset: 0x18038B0
+    // Offset: 0x15AACD4
     void Uncapture();
     // protected System.Boolean IsMatched(System.Int32 cap)
-    // Offset: 0x1803700
+    // Offset: 0x15AAB24
     bool IsMatched(int cap);
     // protected System.Int32 MatchIndex(System.Int32 cap)
-    // Offset: 0x1803B50
+    // Offset: 0x15AAF74
     int MatchIndex(int cap);
     // protected System.Int32 MatchLength(System.Int32 cap)
-    // Offset: 0x1803B70
+    // Offset: 0x15AAF94
     int MatchLength(int cap);
     // protected internal System.Void .ctor()
-    // Offset: 0x180146C
+    // Offset: 0x15A8890
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static RegexRunner* New_ctor();

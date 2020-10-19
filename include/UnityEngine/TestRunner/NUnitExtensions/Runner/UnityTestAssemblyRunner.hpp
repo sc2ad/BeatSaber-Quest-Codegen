@@ -78,46 +78,46 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Offset: 0x38
     UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* TopLevelWorkItem;
     // protected UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext get_Context()
-    // Offset: 0x12B6334
+    // Offset: 0x10B1BD0
     UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* get_Context();
     // protected System.Void set_Context(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext value)
-    // Offset: 0x12B633C
+    // Offset: 0x10B1BD8
     void set_Context(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* value);
     // protected System.Void set_Settings(System.Collections.Generic.IDictionary`2<System.String,System.Object> value)
-    // Offset: 0x12B6344
+    // Offset: 0x10B1BE0
     void set_Settings(System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* value);
     // public NUnit.Framework.Interfaces.ITest get_LoadedTest()
-    // Offset: 0x12B634C
+    // Offset: 0x10B1BE8
     NUnit::Framework::Interfaces::ITest* get_LoadedTest();
     // protected System.Void set_LoadedTest(NUnit.Framework.Interfaces.ITest value)
-    // Offset: 0x12B6354
+    // Offset: 0x10B1BF0
     void set_LoadedTest(NUnit::Framework::Interfaces::ITest* value);
     // public NUnit.Framework.Interfaces.ITestResult get_Result()
-    // Offset: 0x12B635C
+    // Offset: 0x10B1BF8
     NUnit::Framework::Interfaces::ITestResult* get_Result();
     // public System.Boolean get_IsTestRunning()
-    // Offset: 0x12B6374
+    // Offset: 0x10B1C10
     bool get_IsTestRunning();
     // public System.Boolean get_IsTestComplete()
-    // Offset: 0x12B6394
+    // Offset: 0x10B1C30
     bool get_IsTestComplete();
     // public System.Void .ctor(UnityEngine.TestTools.NUnitExtensions.UnityTestAssemblyBuilder builder, UnityEngine.TestRunner.NUnitExtensions.Runner.WorkItemFactory factory)
-    // Offset: 0x12B63B4
+    // Offset: 0x10B1C50
     static UnityTestAssemblyRunner* New_ctor(UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder* builder, UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory* factory);
     // public NUnit.Framework.Interfaces.ITest Load(System.Reflection.Assembly[] assemblies, UnityEngine.TestTools.TestPlatform testPlatform, System.Collections.Generic.IDictionary`2<System.String,System.Object> settings)
-    // Offset: 0x12B6510
+    // Offset: 0x10B1DAC
     NUnit::Framework::Interfaces::ITest* Load(::Array<System::Reflection::Assembly*>* assemblies, UnityEngine::TestTools::TestPlatform testPlatform, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* settings);
     // public System.Collections.IEnumerable Run(NUnit.Framework.Interfaces.ITestListener listener, NUnit.Framework.Interfaces.ITestFilter filter)
-    // Offset: 0x12B6884
+    // Offset: 0x10B2120
     System::Collections::IEnumerable* Run(NUnit::Framework::Interfaces::ITestListener* listener, NUnit::Framework::Interfaces::ITestFilter* filter);
     // public UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem get_TopLevelWorkItem()
-    // Offset: 0x12B6954
+    // Offset: 0x10B21F0
     UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* get_TopLevelWorkItem();
     // public System.Void set_TopLevelWorkItem(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem value)
-    // Offset: 0x12B695C
+    // Offset: 0x10B21F8
     void set_TopLevelWorkItem(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* value);
     // public System.Void StopRun()
-    // Offset: 0x12B6964
+    // Offset: 0x10B2200
     void StopRun();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestAssemblyRunner
 }

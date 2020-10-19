@@ -56,24 +56,24 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x30
     Org::BouncyCastle::Asn1::Asn1Sequence* seq;
     // static public Org.BouncyCastle.Asn1.X509.IssuingDistributionPoint GetInstance(System.Object obj)
-    // Offset: 0x186780C
+    // Offset: 0x160DC30
     static Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x186798C
+    // Offset: 0x160DDB0
     static IssuingDistributionPoint* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public System.Boolean get_IsIndirectCrl()
-    // Offset: 0x1867C60
+    // Offset: 0x160E084
     bool get_IsIndirectCrl();
     // private System.Void appendObject(System.Text.StringBuilder buf, System.String sep, System.String name, System.String val)
-    // Offset: 0x1867EA8
+    // Offset: 0x160E2CC
     void appendObject(System::Text::StringBuilder* buf, ::Il2CppString* sep, ::Il2CppString* name, ::Il2CppString* val);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1867C68
+    // Offset: 0x160E08C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // public override System.String ToString()
-    // Offset: 0x1867C70
+    // Offset: 0x160E094
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

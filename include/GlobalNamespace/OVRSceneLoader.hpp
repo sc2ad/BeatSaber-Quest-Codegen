@@ -67,7 +67,7 @@ namespace GlobalNamespace {
       // Creating value type constructor for type: SceneInfo
       constexpr SceneInfo(System::Collections::Generic::List_1<::Il2CppString*>* scenes_ = {}, int64_t version_ = {}) noexcept : scenes{scenes_}, version{version_} {}
       // public System.Void .ctor(System.Collections.Generic.List`1<System.String> sceneList, System.Int64 currentSceneEpochVersion)
-      // Offset: 0xDB515C
+      // Offset: 0xC6B57C
       // ABORTED: conflicts with another method.  SceneInfo(System::Collections::Generic::List_1<::Il2CppString*>* sceneList, int64_t currentSceneEpochVersion);
     }; // OVRSceneLoader/SceneInfo
     // public System.Single sceneCheckIntervalSeconds
@@ -130,37 +130,37 @@ namespace GlobalNamespace {
     // Set static field: static public System.String resourceBundleName
     static void _set_resourceBundleName(::Il2CppString* value);
     // private System.Void Awake()
-    // Offset: 0x1499070
+    // Offset: 0x126E898
     void Awake();
     // private System.Void Start()
-    // Offset: 0x14990EC
+    // Offset: 0x126E914
     void Start();
     // private System.Void LoadScene(OVRSceneLoader/SceneInfo sceneInfo)
-    // Offset: 0x14994EC
+    // Offset: 0x126ED14
     void LoadScene(GlobalNamespace::OVRSceneLoader::SceneInfo sceneInfo);
     // private System.Void LoadSceneOperation_completed(UnityEngine.AsyncOperation obj)
-    // Offset: 0x1499D80
+    // Offset: 0x126F5A8
     void LoadSceneOperation_completed(UnityEngine::AsyncOperation* obj);
     // public System.Void Update()
-    // Offset: 0x1499EE8
+    // Offset: 0x126F710
     void Update();
     // private System.Void UpdateCanvasPosition()
-    // Offset: 0x149A120
+    // Offset: 0x126F948
     void UpdateCanvasPosition();
     // private OVRSceneLoader/SceneInfo GetSceneInfo()
-    // Offset: 0x14992C4
+    // Offset: 0x126EAEC
     GlobalNamespace::OVRSceneLoader::SceneInfo GetSceneInfo();
     // private System.Collections.IEnumerator DelayCanvasPosUpdate()
-    // Offset: 0x1499248
+    // Offset: 0x126EA70
     System::Collections::IEnumerator* DelayCanvasPosUpdate();
     // private System.Collections.IEnumerator onCheckSceneCoroutine()
-    // Offset: 0x1499E6C
+    // Offset: 0x126F694
     System::Collections::IEnumerator* onCheckSceneCoroutine();
     // private System.Void DestroyAllGameObjects()
-    // Offset: 0x149A3E4
+    // Offset: 0x126FC0C
     void DestroyAllGameObjects();
     // public System.Void .ctor()
-    // Offset: 0x149A4F8
+    // Offset: 0x126FD20
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

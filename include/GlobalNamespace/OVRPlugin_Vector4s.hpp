@@ -34,10 +34,10 @@ namespace GlobalNamespace {
     // Set static field: static public readonly OVRPlugin/Vector4s zero
     static void _set_zero(GlobalNamespace::OVRPlugin::Vector4s value);
     // static private System.Void .cctor()
-    // Offset: 0x1496884
+    // Offset: 0x126C0AC
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0xDB5034
+    // Offset: 0xC6B454
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

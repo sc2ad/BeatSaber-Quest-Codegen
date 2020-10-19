@@ -38,22 +38,22 @@ namespace System::Threading {
     // Offset: 0x24
     System::Threading::SpinLock m_foreignLock;
     // public System.Void LocalPush(System.Threading.IThreadPoolWorkItem obj)
-    // Offset: 0x16E8E04
+    // Offset: 0x14A39D8
     void LocalPush(System::Threading::IThreadPoolWorkItem* obj);
     // public System.Boolean LocalFindAndPop(System.Threading.IThreadPoolWorkItem obj)
-    // Offset: 0x16E9370
+    // Offset: 0x14A3F44
     bool LocalFindAndPop(System::Threading::IThreadPoolWorkItem* obj);
     // public System.Boolean LocalPop(out System.Threading.IThreadPoolWorkItem obj)
-    // Offset: 0x16E9818
+    // Offset: 0x14A43EC
     bool LocalPop(System::Threading::IThreadPoolWorkItem*& obj);
     // public System.Boolean TrySteal(out System.Threading.IThreadPoolWorkItem obj, ref System.Boolean missedSteal)
-    // Offset: 0x16E9C7C
+    // Offset: 0x14A4850
     bool TrySteal(System::Threading::IThreadPoolWorkItem*& obj, bool& missedSteal);
     // private System.Boolean TrySteal(out System.Threading.IThreadPoolWorkItem obj, ref System.Boolean missedSteal, System.Int32 millisecondsTimeout)
-    // Offset: 0x16EA3E0
+    // Offset: 0x14A4FB4
     bool TrySteal(System::Threading::IThreadPoolWorkItem*& obj, bool& missedSteal, int millisecondsTimeout);
     // public System.Void .ctor()
-    // Offset: 0x16EA6C0
+    // Offset: 0x14A5294
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ThreadPoolWorkQueue::WorkStealingQueue* New_ctor();

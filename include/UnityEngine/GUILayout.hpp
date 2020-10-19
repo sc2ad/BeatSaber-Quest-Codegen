@@ -30,7 +30,7 @@ namespace UnityEngine {
   class GUILayout : public ::Il2CppObject {
     public:
     // static public System.Void Label(System.String text, params UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x1909E60
+    // Offset: 0x16B0284
     static void Label(::Il2CppString* text, ::Array<UnityEngine::GUILayoutOption*>* options);
     // Creating initializer_list -> params proxy for: System.Void Label(System.String text, params UnityEngine.GUILayoutOption[] options)
     static void Label(::Il2CppString* text, std::initializer_list<UnityEngine::GUILayoutOption*> options);
@@ -40,7 +40,7 @@ namespace UnityEngine {
       Label(text, {options...});
     }
     // static public System.Void Label(System.String text, UnityEngine.GUIStyle style, params UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x1909FF4
+    // Offset: 0x16B0418
     static void Label(::Il2CppString* text, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
     // Creating initializer_list -> params proxy for: System.Void Label(System.String text, UnityEngine.GUIStyle style, params UnityEngine.GUILayoutOption[] options)
     static void Label(::Il2CppString* text, UnityEngine::GUIStyle* style, std::initializer_list<UnityEngine::GUILayoutOption*> options);
@@ -50,10 +50,10 @@ namespace UnityEngine {
       Label(text, style, {options...});
     }
     // static private System.Void DoLabel(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x1909F1C
+    // Offset: 0x16B0340
     static void DoLabel(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
     // static public System.Void Box(UnityEngine.Texture image, params UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x190A0F0
+    // Offset: 0x16B0514
     static void Box(UnityEngine::Texture* image, ::Array<UnityEngine::GUILayoutOption*>* options);
     // Creating initializer_list -> params proxy for: System.Void Box(UnityEngine.Texture image, params UnityEngine.GUILayoutOption[] options)
     static void Box(UnityEngine::Texture* image, std::initializer_list<UnityEngine::GUILayoutOption*> options);
@@ -63,10 +63,10 @@ namespace UnityEngine {
       Box(image, {options...});
     }
     // static private System.Void DoBox(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x190A1AC
+    // Offset: 0x16B05D0
     static void DoBox(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
     // static public System.Boolean Button(System.String text, params UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x190A284
+    // Offset: 0x16B06A8
     static bool Button(::Il2CppString* text, ::Array<UnityEngine::GUILayoutOption*>* options);
     // Creating initializer_list -> params proxy for: System.Boolean Button(System.String text, params UnityEngine.GUILayoutOption[] options)
     static bool Button(::Il2CppString* text, std::initializer_list<UnityEngine::GUILayoutOption*> options);
@@ -76,10 +76,10 @@ namespace UnityEngine {
       return Button(text, {options...});
     }
     // static private System.Boolean DoButton(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x190A340
+    // Offset: 0x16B0764
     static bool DoButton(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
     // static public System.String TextField(System.String text, params UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x190A418
+    // Offset: 0x16B083C
     static ::Il2CppString* TextField(::Il2CppString* text, ::Array<UnityEngine::GUILayoutOption*>* options);
     // Creating initializer_list -> params proxy for: System.String TextField(System.String text, params UnityEngine.GUILayoutOption[] options)
     static ::Il2CppString* TextField(::Il2CppString* text, std::initializer_list<UnityEngine::GUILayoutOption*> options);
@@ -89,7 +89,7 @@ namespace UnityEngine {
       return TextField(text, {options...});
     }
     // static public System.String TextArea(System.String text, UnityEngine.GUIStyle style, params UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x190A700
+    // Offset: 0x16B0B24
     static ::Il2CppString* TextArea(::Il2CppString* text, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
     // Creating initializer_list -> params proxy for: System.String TextArea(System.String text, UnityEngine.GUIStyle style, params UnityEngine.GUILayoutOption[] options)
     static ::Il2CppString* TextArea(::Il2CppString* text, UnityEngine::GUIStyle* style, std::initializer_list<UnityEngine::GUILayoutOption*> options);
@@ -99,10 +99,10 @@ namespace UnityEngine {
       return TextArea(text, style, {options...});
     }
     // static private System.String DoTextField(System.String text, System.Int32 maxLength, System.Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x190A4AC
+    // Offset: 0x16B08D0
     static ::Il2CppString* DoTextField(::Il2CppString* text, int maxLength, bool multiline, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
     // static public System.Boolean Toggle(System.Boolean value, System.String text, params UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x190A720
+    // Offset: 0x16B0B44
     static bool Toggle(bool value, ::Il2CppString* text, ::Array<UnityEngine::GUILayoutOption*>* options);
     // Creating initializer_list -> params proxy for: System.Boolean Toggle(System.Boolean value, System.String text, params UnityEngine.GUILayoutOption[] options)
     static bool Toggle(bool value, ::Il2CppString* text, std::initializer_list<UnityEngine::GUILayoutOption*> options);
@@ -112,10 +112,10 @@ namespace UnityEngine {
       return Toggle(value, text, {options...});
     }
     // static private System.Boolean DoToggle(System.Boolean value, UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x190A7E4
+    // Offset: 0x16B0C08
     static bool DoToggle(bool value, UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
     // static public System.Single HorizontalSlider(System.Single value, System.Single leftValue, System.Single rightValue, params UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x190A8CC
+    // Offset: 0x16B0CF0
     static float HorizontalSlider(float value, float leftValue, float rightValue, ::Array<UnityEngine::GUILayoutOption*>* options);
     // Creating initializer_list -> params proxy for: System.Single HorizontalSlider(System.Single value, System.Single leftValue, System.Single rightValue, params UnityEngine.GUILayoutOption[] options)
     static float HorizontalSlider(float value, float leftValue, float rightValue, std::initializer_list<UnityEngine::GUILayoutOption*> options);
@@ -125,16 +125,16 @@ namespace UnityEngine {
       return HorizontalSlider(value, leftValue, rightValue, {options...});
     }
     // static private System.Single DoHorizontalSlider(System.Single value, System.Single leftValue, System.Single rightValue, UnityEngine.GUIStyle slider, UnityEngine.GUIStyle thumb, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x190A988
+    // Offset: 0x16B0DAC
     static float DoHorizontalSlider(float value, float leftValue, float rightValue, UnityEngine::GUIStyle* slider, UnityEngine::GUIStyle* thumb, ::Array<UnityEngine::GUILayoutOption*>* options);
     // static public System.Void Space(System.Single pixels)
-    // Offset: 0x190AAC0
+    // Offset: 0x16B0EE4
     static void Space(float pixels);
     // static public System.Void FlexibleSpace()
-    // Offset: 0x190AEF8
+    // Offset: 0x16B131C
     static void FlexibleSpace();
     // static public System.Void BeginHorizontal(params UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x190B280
+    // Offset: 0x16B16A4
     static void BeginHorizontal(::Array<UnityEngine::GUILayoutOption*>* options);
     // Creating initializer_list -> params proxy for: System.Void BeginHorizontal(params UnityEngine.GUILayoutOption[] options)
     static void BeginHorizontal(std::initializer_list<UnityEngine::GUILayoutOption*> options);
@@ -144,7 +144,7 @@ namespace UnityEngine {
       BeginHorizontal({options...});
     }
     // static public System.Void BeginHorizontal(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, params UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x190B320
+    // Offset: 0x16B1744
     static void BeginHorizontal(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
     // Creating initializer_list -> params proxy for: System.Void BeginHorizontal(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, params UnityEngine.GUILayoutOption[] options)
     static void BeginHorizontal(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, std::initializer_list<UnityEngine::GUILayoutOption*> options);
@@ -154,10 +154,10 @@ namespace UnityEngine {
       BeginHorizontal(content, style, {options...});
     }
     // static public System.Void EndHorizontal()
-    // Offset: 0x190B798
+    // Offset: 0x16B1BBC
     static void EndHorizontal();
     // static public System.Void BeginVertical(params UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x190BA04
+    // Offset: 0x16B1E28
     static void BeginVertical(::Array<UnityEngine::GUILayoutOption*>* options);
     // Creating initializer_list -> params proxy for: System.Void BeginVertical(params UnityEngine.GUILayoutOption[] options)
     static void BeginVertical(std::initializer_list<UnityEngine::GUILayoutOption*> options);
@@ -167,7 +167,7 @@ namespace UnityEngine {
       BeginVertical({options...});
     }
     // static public System.Void BeginVertical(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, params UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x190BAA4
+    // Offset: 0x16B1EC8
     static void BeginVertical(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
     // Creating initializer_list -> params proxy for: System.Void BeginVertical(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, params UnityEngine.GUILayoutOption[] options)
     static void BeginVertical(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, std::initializer_list<UnityEngine::GUILayoutOption*> options);
@@ -177,19 +177,19 @@ namespace UnityEngine {
       BeginVertical(content, style, {options...});
     }
     // static public System.Void EndVertical()
-    // Offset: 0x190BC40
+    // Offset: 0x16B2064
     static void EndVertical();
     // static public System.Void BeginArea(UnityEngine.Rect screenRect)
-    // Offset: 0x190BC9C
+    // Offset: 0x16B20C0
     static void BeginArea(UnityEngine::Rect screenRect);
     // static public System.Void BeginArea(UnityEngine.Rect screenRect, UnityEngine.GUIContent content, UnityEngine.GUIStyle style)
-    // Offset: 0x190BD64
+    // Offset: 0x16B2188
     static void BeginArea(UnityEngine::Rect screenRect, UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style);
     // static public System.Void EndArea()
-    // Offset: 0x190C23C
+    // Offset: 0x16B2660
     static void EndArea();
     // static public UnityEngine.Vector2 BeginScrollView(UnityEngine.Vector2 scrollPosition, params UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x190C3DC
+    // Offset: 0x16B2800
     static UnityEngine::Vector2 BeginScrollView(UnityEngine::Vector2 scrollPosition, ::Array<UnityEngine::GUILayoutOption*>* options);
     // Creating initializer_list -> params proxy for: UnityEngine.Vector2 BeginScrollView(UnityEngine.Vector2 scrollPosition, params UnityEngine.GUILayoutOption[] options)
     static UnityEngine::Vector2 BeginScrollView(UnityEngine::Vector2 scrollPosition, std::initializer_list<UnityEngine::GUILayoutOption*> options);
@@ -199,7 +199,7 @@ namespace UnityEngine {
       return BeginScrollView(scrollPosition, {options...});
     }
     // static public UnityEngine.Vector2 BeginScrollView(UnityEngine.Vector2 scrollPosition, System.Boolean alwaysShowHorizontal, System.Boolean alwaysShowVertical, UnityEngine.GUIStyle horizontalScrollbar, UnityEngine.GUIStyle verticalScrollbar, UnityEngine.GUIStyle background, params UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x190C4B0
+    // Offset: 0x16B28D4
     static UnityEngine::Vector2 BeginScrollView(UnityEngine::Vector2 scrollPosition, bool alwaysShowHorizontal, bool alwaysShowVertical, UnityEngine::GUIStyle* horizontalScrollbar, UnityEngine::GUIStyle* verticalScrollbar, UnityEngine::GUIStyle* background, ::Array<UnityEngine::GUILayoutOption*>* options);
     // Creating initializer_list -> params proxy for: UnityEngine.Vector2 BeginScrollView(UnityEngine.Vector2 scrollPosition, System.Boolean alwaysShowHorizontal, System.Boolean alwaysShowVertical, UnityEngine.GUIStyle horizontalScrollbar, UnityEngine.GUIStyle verticalScrollbar, UnityEngine.GUIStyle background, params UnityEngine.GUILayoutOption[] options)
     static UnityEngine::Vector2 BeginScrollView(UnityEngine::Vector2 scrollPosition, bool alwaysShowHorizontal, bool alwaysShowVertical, UnityEngine::GUIStyle* horizontalScrollbar, UnityEngine::GUIStyle* verticalScrollbar, UnityEngine::GUIStyle* background, std::initializer_list<UnityEngine::GUILayoutOption*> options);
@@ -209,22 +209,22 @@ namespace UnityEngine {
       return BeginScrollView(scrollPosition, alwaysShowHorizontal, alwaysShowVertical, horizontalScrollbar, verticalScrollbar, background, {options...});
     }
     // static public System.Void EndScrollView()
-    // Offset: 0x190C748
+    // Offset: 0x16B2B6C
     static void EndScrollView();
     // static System.Void EndScrollView(System.Boolean handleScrollWheel)
-    // Offset: 0x190C750
+    // Offset: 0x16B2B74
     static void EndScrollView(bool handleScrollWheel);
     // static public UnityEngine.GUILayoutOption Width(System.Single width)
-    // Offset: 0x1908D70
+    // Offset: 0x16AF194
     static UnityEngine::GUILayoutOption* Width(float width);
     // static public UnityEngine.GUILayoutOption Height(System.Single height)
-    // Offset: 0x1908E0C
+    // Offset: 0x16AF230
     static UnityEngine::GUILayoutOption* Height(float height);
     // static public UnityEngine.GUILayoutOption ExpandWidth(System.Boolean expand)
-    // Offset: 0x190B1DC
+    // Offset: 0x16B1600
     static UnityEngine::GUILayoutOption* ExpandWidth(bool expand);
     // static public UnityEngine.GUILayoutOption ExpandHeight(System.Boolean expand)
-    // Offset: 0x190B138
+    // Offset: 0x16B155C
     static UnityEngine::GUILayoutOption* ExpandHeight(bool expand);
   }; // UnityEngine.GUILayout
 }

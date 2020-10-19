@@ -41,7 +41,7 @@ namespace UnityEngine::TextCore::LowLevel {
     // Creating value type constructor for type: GlyphMarshallingStruct
     constexpr GlyphMarshallingStruct(uint index_ = {}, UnityEngine::TextCore::GlyphMetrics metrics_ = {}, UnityEngine::TextCore::GlyphRect glyphRect_ = {}, float scale_ = {}, int atlasIndex_ = {}) noexcept : index{index_}, metrics{metrics_}, glyphRect{glyphRect_}, scale{scale_}, atlasIndex{atlasIndex_} {}
     // public System.Void .ctor(UnityEngine.TextCore.Glyph glyph)
-    // Offset: 0xDDDBA8
+    // Offset: 0xC8B238
     GlyphMarshallingStruct(UnityEngine::TextCore::Glyph* glyph);
   }; // UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct
 }

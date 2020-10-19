@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRChaperone::_GetPlayAreaSize : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x15390AC
+    // Offset: 0x130F8D4
     static IVRChaperone::_GetPlayAreaSize* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(ref System.Single pSizeX, ref System.Single pSizeZ)
-    // Offset: 0x15312B0
+    // Offset: 0x1307AD8
     bool Invoke(float& pSizeX, float& pSizeZ);
     // public System.IAsyncResult BeginInvoke(ref System.Single pSizeX, ref System.Single pSizeZ, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x15390C0
+    // Offset: 0x130F8E8
     System::IAsyncResult* BeginInvoke(float& pSizeX, float& pSizeZ, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(ref System.Single pSizeX, ref System.Single pSizeZ, System.IAsyncResult result)
-    // Offset: 0x153916C
+    // Offset: 0x130F994
     bool EndInvoke(float& pSizeX, float& pSizeZ, System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperone/_GetPlayAreaSize
 }

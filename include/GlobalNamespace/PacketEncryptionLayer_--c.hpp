@@ -32,13 +32,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Int32,PacketEncryptionLayer/EncryptionState>,PacketEncryptionLayer/EncryptionState> <>9__42_1
     static void _set_$$9__42_1(System::Func_2<System::Collections::Generic::KeyValuePair_2<int, GlobalNamespace::PacketEncryptionLayer::EncryptionState*>, GlobalNamespace::PacketEncryptionLayer::EncryptionState*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1C3C6D0
+    // Offset: 0x21F6868
     static void _cctor();
     // PacketEncryptionLayer/EncryptionState <GetPotentialPendingEncryptionStates>b__42_1(System.Collections.Generic.KeyValuePair`2<System.Int32,PacketEncryptionLayer/EncryptionState> kvp)
-    // Offset: 0x1C3C740
+    // Offset: 0x21F68D8
     GlobalNamespace::PacketEncryptionLayer::EncryptionState* $GetPotentialPendingEncryptionStates$b__42_1(System::Collections::Generic::KeyValuePair_2<int, GlobalNamespace::PacketEncryptionLayer::EncryptionState*> kvp);
     // public System.Void .ctor()
-    // Offset: 0x1C3C738
+    // Offset: 0x21F68D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PacketEncryptionLayer::$$c* New_ctor();

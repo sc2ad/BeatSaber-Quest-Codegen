@@ -25,19 +25,19 @@ namespace System::Runtime::ExceptionServices {
     // Offset: 0x18
     ::Il2CppObject* m_stackTrace;
     // private System.Void .ctor(System.Exception exception)
-    // Offset: 0x1291DA8
+    // Offset: 0x108D644
     static ExceptionDispatchInfo* New_ctor(System::Exception* exception);
     // System.Object get_BinaryStackTraceArray()
-    // Offset: 0x1291EF0
+    // Offset: 0x108D78C
     ::Il2CppObject* get_BinaryStackTraceArray();
     // static public System.Runtime.ExceptionServices.ExceptionDispatchInfo Capture(System.Exception source)
-    // Offset: 0x1291EF8
+    // Offset: 0x108D794
     static System::Runtime::ExceptionServices::ExceptionDispatchInfo* Capture(System::Exception* source);
     // public System.Exception get_SourceException()
-    // Offset: 0x1291FB8
+    // Offset: 0x108D854
     System::Exception* get_SourceException();
     // public System.Void Throw()
-    // Offset: 0x128FFBC
+    // Offset: 0x108B858
     void Throw();
   }; // System.Runtime.ExceptionServices.ExceptionDispatchInfo
 }

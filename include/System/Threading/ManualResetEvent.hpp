@@ -14,7 +14,7 @@ namespace System::Threading {
   class ManualResetEvent : public System::Threading::EventWaitHandle {
     public:
     // public System.Void .ctor(System.Boolean initialState)
-    // Offset: 0x1A1C8FC
+    // Offset: 0x17C2D20
     static ManualResetEvent* New_ctor(bool initialState);
   }; // System.Threading.ManualResetEvent
 }

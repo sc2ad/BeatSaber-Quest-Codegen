@@ -53,10 +53,10 @@ namespace MasterServer {
     // Offset: 0x30
     System::Action_1<GlobalNamespace::ConnectionFailedReason>* onConnectionFailed;
     // System.Threading.Tasks.Task <SendConnectToServerRequest>b__0()
-    // Offset: 0x10C9B14
+    // Offset: 0x212B67C
     System::Threading::Tasks::Task* $SendConnectToServerRequest$b__0();
     // public System.Void .ctor()
-    // Offset: 0x10C8E28
+    // Offset: 0x212A990
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UserMessageHandler::$$c__DisplayClass38_0* New_ctor();

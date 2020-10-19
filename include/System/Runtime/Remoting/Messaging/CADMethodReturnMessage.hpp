@@ -46,25 +46,25 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x48
     ::Array<System::Type*>* sig;
     // static System.Runtime.Remoting.Messaging.CADMethodReturnMessage Create(System.Runtime.Remoting.Messaging.IMessage callMsg)
-    // Offset: 0x12A80D0
+    // Offset: 0x10A396C
     static System::Runtime::Remoting::Messaging::CADMethodReturnMessage* Create(System::Runtime::Remoting::Messaging::IMessage* callMsg);
     // System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodReturnMessage retMsg)
-    // Offset: 0x12A8154
+    // Offset: 0x10A39F0
     static CADMethodReturnMessage* New_ctor(System::Runtime::Remoting::Messaging::IMethodReturnMessage* retMsg);
     // System.Collections.ArrayList GetArguments()
-    // Offset: 0x12A8510
+    // Offset: 0x10A3DAC
     System::Collections::ArrayList* GetArguments();
     // System.Object[] GetArgs(System.Collections.ArrayList args)
-    // Offset: 0x12A85F8
+    // Offset: 0x10A3E94
     ::Array<::Il2CppObject*>* GetArgs(System::Collections::ArrayList* args);
     // System.Object GetReturnValue(System.Collections.ArrayList args)
-    // Offset: 0x12A8608
+    // Offset: 0x10A3EA4
     ::Il2CppObject* GetReturnValue(System::Collections::ArrayList* args);
     // System.Exception GetException(System.Collections.ArrayList args)
-    // Offset: 0x12A8618
+    // Offset: 0x10A3EB4
     System::Exception* GetException(System::Collections::ArrayList* args);
     // System.Int32 get_PropertiesCount()
-    // Offset: 0x12A86CC
+    // Offset: 0x10A3F68
     int get_PropertiesCount();
   }; // System.Runtime.Remoting.Messaging.CADMethodReturnMessage
 }

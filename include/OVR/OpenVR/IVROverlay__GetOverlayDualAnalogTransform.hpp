@@ -35,16 +35,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_GetOverlayDualAnalogTransform : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1D6A070
+    // Offset: 0x1ABBCD4
     static IVROverlay::_GetOverlayDualAnalogTransform* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlay, OVR.OpenVR.EDualAnalogWhich eWhich, ref OVR.OpenVR.HmdVector2_t pvCenter, ref System.Single pfRadius)
-    // Offset: 0x1D6A084
+    // Offset: 0x1ABBCE8
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlay, OVR::OpenVR::EDualAnalogWhich eWhich, OVR::OpenVR::HmdVector2_t& pvCenter, float& pfRadius);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlay, OVR.OpenVR.EDualAnalogWhich eWhich, ref OVR.OpenVR.HmdVector2_t pvCenter, ref System.Single pfRadius, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1D6A334
+    // Offset: 0x1ABBF98
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlay, OVR::OpenVR::EDualAnalogWhich eWhich, OVR::OpenVR::HmdVector2_t& pvCenter, float& pfRadius, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(ref OVR.OpenVR.HmdVector2_t pvCenter, ref System.Single pfRadius, System.IAsyncResult result)
-    // Offset: 0x1D6A428
+    // Offset: 0x1ABC08C
     OVR::OpenVR::EVROverlayError EndInvoke(OVR::OpenVR::HmdVector2_t& pvCenter, float& pfRadius, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetOverlayDualAnalogTransform
 }

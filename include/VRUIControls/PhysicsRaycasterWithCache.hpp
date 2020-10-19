@@ -48,7 +48,7 @@ namespace VRUIControls {
       // Creating value type constructor for type: CachedRaycast
       constexpr CachedRaycast(bool wasHit_ = {}, UnityEngine::Ray ray_ = {}, UnityEngine::RaycastHit hitInfo_ = {}, float maxDistance_ = {}, int layerMask_ = {}) noexcept : wasHit{wasHit_}, ray{ray_}, hitInfo{hitInfo_}, maxDistance{maxDistance_}, layerMask{layerMask_} {}
       // public System.Void .ctor(System.Boolean wasHit, UnityEngine.Ray ray, UnityEngine.RaycastHit hitInfo, System.Single maxDistance, System.Int32 layerMask)
-      // Offset: 0xDDBB5C
+      // Offset: 0xC891F4
       // ABORTED: conflicts with another method.  CachedRaycast(bool wasHit, UnityEngine::Ray ray, UnityEngine::RaycastHit hitInfo, float maxDistance, int layerMask);
     }; // VRUIControls.PhysicsRaycasterWithCache/CachedRaycast
     // private readonly System.Collections.Generic.List`1<VRUIControls.PhysicsRaycasterWithCache/CachedRaycast> _cachedRaycasts
@@ -58,10 +58,10 @@ namespace VRUIControls {
     // Offset: 0x18
     int lastFrameCount;
     // public System.Boolean Raycast(UnityEngine.Ray ray, out UnityEngine.RaycastHit hitInfo, System.Single maxDistance, System.Int32 layerMask)
-    // Offset: 0x21A6024
+    // Offset: 0x1EF8C88
     bool Raycast(UnityEngine::Ray ray, UnityEngine::RaycastHit& hitInfo, float maxDistance, int layerMask);
     // public System.Void .ctor()
-    // Offset: 0x21A64C8
+    // Offset: 0x1EF912C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PhysicsRaycasterWithCache* New_ctor();

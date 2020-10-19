@@ -124,46 +124,46 @@ namespace GlobalNamespace {
     // Offset: 0xAC
     UnityEngine::Vector3 forwardVec;
     // public System.Single get_spawnAheadTime()
-    // Offset: 0xF182F4
+    // Offset: 0x1FABA48
     float get_spawnAheadTime();
     // public System.Single get_moveDuration()
-    // Offset: 0xF182FC
+    // Offset: 0x1FABA50
     float get_moveDuration();
     // public System.Single get_jumpDuration()
-    // Offset: 0xF18304
+    // Offset: 0x1FABA58
     float get_jumpDuration();
     // public System.Single get_noteLinesDistance()
-    // Offset: 0xF1830C
+    // Offset: 0x1FABA60
     float get_noteLinesDistance();
     // public System.Void Init(System.Int32 noteLinesCount, System.Single startNoteJumpMovementSpeed, System.Single startBpm, System.Single noteJumpStartBeatOffset, System.Single jumpOffsetY, UnityEngine.Vector3 rightVec, UnityEngine.Vector3 forwardVec)
-    // Offset: 0xF170A0
+    // Offset: 0x1FAAA10
     void Init(int noteLinesCount, float startNoteJumpMovementSpeed, float startBpm, float noteJumpStartBeatOffset, float jumpOffsetY, UnityEngine::Vector3 rightVec, UnityEngine::Vector3 forwardVec);
     // public System.Void Update(System.Single bpm, System.Single jumpOffsetY)
-    // Offset: 0xF17C2C
+    // Offset: 0x1FAB380
     void Update(float bpm, float jumpOffsetY);
     // public BeatmapObjectSpawnMovementData/ObstacleSpawnData GetObstacleSpawnData(ObstacleData obstacleData)
-    // Offset: 0xF17344
+    // Offset: 0x1FAACB4
     GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData GetObstacleSpawnData(GlobalNamespace::ObstacleData* obstacleData);
     // public BeatmapObjectSpawnMovementData/NoteSpawnData GetJumpingNoteSpawnData(NoteData noteData)
-    // Offset: 0xF17628
+    // Offset: 0x1FAAF98
     GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData GetJumpingNoteSpawnData(GlobalNamespace::NoteData* noteData);
     // public UnityEngine.Vector3 GetNoteOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0xF18314
+    // Offset: 0x1FABA68
     UnityEngine::Vector3 GetNoteOffset(int noteLineIndex, GlobalNamespace::NoteLineLayer noteLineLayer);
     // public UnityEngine.Vector2 Get2DNoteOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0xF1854C
+    // Offset: 0x1FABCA0
     UnityEngine::Vector2 Get2DNoteOffset(int noteLineIndex, GlobalNamespace::NoteLineLayer noteLineLayer);
     // private System.Single HighestJumpPosYForLineLayer(NoteLineLayer lineLayer)
-    // Offset: 0xF185C0
+    // Offset: 0x1FABD14
     float HighestJumpPosYForLineLayer(GlobalNamespace::NoteLineLayer lineLayer);
     // private System.Single LineYPosForLineLayer(NoteLineLayer lineLayer)
-    // Offset: 0xF18524
+    // Offset: 0x1FABC78
     float LineYPosForLineLayer(GlobalNamespace::NoteLineLayer lineLayer);
     // private System.Single NoteJumpGravityForLineLayer(NoteLineLayer lineLayer, NoteLineLayer startLineLayer)
-    // Offset: 0xF18480
+    // Offset: 0x1FABBD4
     float NoteJumpGravityForLineLayer(GlobalNamespace::NoteLineLayer lineLayer, GlobalNamespace::NoteLineLayer startLineLayer);
     // public System.Void .ctor()
-    // Offset: 0xF17FA8
+    // Offset: 0x1FAB6FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BeatmapObjectSpawnMovementData* New_ctor();

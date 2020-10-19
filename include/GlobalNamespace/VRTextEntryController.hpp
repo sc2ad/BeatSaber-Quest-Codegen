@@ -70,58 +70,58 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_textDidChangeEvent(System.Action`1<System.String> value)
-    // Offset: 0x12EEAD0
+    // Offset: 0x21EB87C
     void add_textDidChangeEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_textDidChangeEvent(System.Action`1<System.String> value)
-    // Offset: 0x12EEB74
+    // Offset: 0x21EB920
     void remove_textDidChangeEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void add_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x12EEC18
+    // Offset: 0x21EB9C4
     void add_okButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x12EECBC
+    // Offset: 0x21EBA68
     void remove_okButtonWasPressedEvent(System::Action* value);
     // public System.Void add_cancelButtonWasPressedEvent(System.Action value)
-    // Offset: 0x12EED60
+    // Offset: 0x21EBB0C
     void add_cancelButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_cancelButtonWasPressedEvent(System.Action value)
-    // Offset: 0x12EEE04
+    // Offset: 0x21EBBB0
     void remove_cancelButtonWasPressedEvent(System::Action* value);
     // public System.Void set_hideCancelButton(System.Boolean value)
-    // Offset: 0x12EEEA8
+    // Offset: 0x21EBC54
     void set_hideCancelButton(bool value);
     // public System.String get_text()
-    // Offset: 0x12EEEC4
+    // Offset: 0x21EBC74
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x12EEEE0
+    // Offset: 0x21EBC90
     void set_text(::Il2CppString* value);
     // protected System.Void Awake()
-    // Offset: 0x12EEFA4
+    // Offset: 0x21EBD58
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x12EF0F4
+    // Offset: 0x21EBEBC
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x12EF1A0
+    // Offset: 0x21EBF68
     void OnDisable();
     // private System.Collections.IEnumerator BlinkCursor()
-    // Offset: 0x12EF124
+    // Offset: 0x21EBEEC
     System::Collections::IEnumerator* BlinkCursor();
     // private System.Void HandleUIKeyboardTextKeyWasPressed(System.Char key)
-    // Offset: 0x12EF1D8
+    // Offset: 0x21EBFA0
     void HandleUIKeyboardTextKeyWasPressed(::Il2CppChar key);
     // private System.Void HandleUIKeyboardDeleteButtonWasPressed()
-    // Offset: 0x12EF2B4
+    // Offset: 0x21EC080
     void HandleUIKeyboardDeleteButtonWasPressed();
     // private System.Void <Awake>b__20_0()
-    // Offset: 0x12EF398
+    // Offset: 0x21EC168
     void $Awake$b__20_0();
     // private System.Void <Awake>b__20_1()
-    // Offset: 0x12EF3AC
+    // Offset: 0x21EC17C
     void $Awake$b__20_1();
     // public System.Void .ctor()
-    // Offset: 0x12EF388
+    // Offset: 0x21EC158
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -33,23 +33,23 @@ namespace Org::BouncyCastle::Asn1 {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerNull Instance
     static void _set_Instance(Org::BouncyCastle::Asn1::DerNull* value);
     // protected internal System.Void .ctor(System.Int32 dummy)
-    // Offset: 0x154D61C
+    // Offset: 0x1324E44
     static DerNull* New_ctor(int dummy);
     // static private System.Void .cctor()
-    // Offset: 0x154D734
+    // Offset: 0x1324F5C
     static void _cctor();
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x154D688
+    // Offset: 0x1324EB0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x154D6AC
+    // Offset: 0x1324ED4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x154D72C
+    // Offset: 0x1324F54
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();

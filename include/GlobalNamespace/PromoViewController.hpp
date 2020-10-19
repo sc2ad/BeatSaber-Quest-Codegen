@@ -39,18 +39,18 @@ namespace GlobalNamespace {
     // Offset: 0x78
     System::Action_3<GlobalNamespace::PromoViewController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::IPreviewBeatmapLevel*>* promoButtonWasPressedEvent;
     // public System.Void add_promoButtonWasPressedEvent(System.Action`3<PromoViewController,IAnnotatedBeatmapLevelCollection,IPreviewBeatmapLevel> value)
-    // Offset: 0xF723F0
+    // Offset: 0x2069270
     void add_promoButtonWasPressedEvent(System::Action_3<GlobalNamespace::PromoViewController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::IPreviewBeatmapLevel*>* value);
     // public System.Void remove_promoButtonWasPressedEvent(System.Action`3<PromoViewController,IAnnotatedBeatmapLevelCollection,IPreviewBeatmapLevel> value)
-    // Offset: 0xF72494
+    // Offset: 0x2069314
     void remove_promoButtonWasPressedEvent(System::Action_3<GlobalNamespace::PromoViewController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::IPreviewBeatmapLevel*>* value);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF72538
+    // Offset: 0x20693B8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xF72688
+    // Offset: 0x2069508
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

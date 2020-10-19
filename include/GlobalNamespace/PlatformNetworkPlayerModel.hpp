@@ -29,10 +29,10 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::PlatformNetworkPlayerModel::CreatePartyConfig
     class CreatePartyConfig;
     // public System.Collections.Generic.IEnumerable`1<INetworkPlayer> get_friends()
-    // Offset: 0xFDB9D8
+    // Offset: 0x20866AC
     System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* get_friends();
     // protected System.Void .ctor()
-    // Offset: 0xFD3D1C
+    // Offset: 0x20866BC
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::.ctor()
     // Base method: System.Void StandaloneMonobehavior::.ctor()

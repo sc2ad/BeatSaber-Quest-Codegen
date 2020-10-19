@@ -27,15 +27,15 @@ namespace Zenject::Internal {
     // Offset: 0x18
     Zenject::BindingId BindingId;
     // public System.Void .ctor(Zenject.IProvider provider, Zenject.BindingId bindingId)
-    // Offset: 0x1456DFC
+    // Offset: 0x122D538
     static LookupId* New_ctor(Zenject::IProvider* provider, Zenject::BindingId bindingId);
     // public System.Void .ctor()
-    // Offset: 0x1456DF4
+    // Offset: 0x122D530
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LookupId* New_ctor();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1456EBC
+    // Offset: 0x122D5F8
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

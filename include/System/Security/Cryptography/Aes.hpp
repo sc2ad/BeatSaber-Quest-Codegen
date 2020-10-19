@@ -29,10 +29,10 @@ namespace System::Security::Cryptography {
     // Set static field: static private System.Security.Cryptography.KeySizes[] s_legalKeySizes
     static void _set_s_legalKeySizes(::Array<System::Security::Cryptography::KeySizes*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x16B1BA0
+    // Offset: 0x146C774
     static void _cctor();
     // protected System.Void .ctor()
-    // Offset: 0x16B1AEC
+    // Offset: 0x146C6C0
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()

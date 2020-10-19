@@ -80,40 +80,40 @@ namespace Mono::Net::Security {
     // Offset: 0x48
     System::Net::HttpWebRequest* request;
     // static Mono.Security.Interface.ICertificateValidator GetInternalValidator(Mono.Security.Interface.MonoTlsProvider provider, Mono.Security.Interface.MonoTlsSettings settings)
-    // Offset: 0x141A7BC
+    // Offset: 0x11F0EF8
     static Mono::Security::Interface::ICertificateValidator* GetInternalValidator(Mono::Security::Interface::MonoTlsProvider* provider, Mono::Security::Interface::MonoTlsSettings* settings);
     // static Mono.Net.Security.ChainValidationHelper Create(Mono.Security.Interface.MonoTlsProvider provider, ref Mono.Security.Interface.MonoTlsSettings settings, Mono.Net.Security.MonoTlsStream stream)
-    // Offset: 0x141AB44
+    // Offset: 0x11F1280
     static Mono::Net::Security::ChainValidationHelper* Create(Mono::Security::Interface::MonoTlsProvider* provider, Mono::Security::Interface::MonoTlsSettings*& settings, Mono::Net::Security::MonoTlsStream* stream);
     // private System.Void .ctor(Mono.Security.Interface.MonoTlsProvider provider, Mono.Security.Interface.MonoTlsSettings settings, System.Boolean cloneSettings, Mono.Net.Security.MonoTlsStream stream, Mono.Net.Security.ServerCertValidationCallbackWrapper callbackWrapper)
-    // Offset: 0x141A864
+    // Offset: 0x11F0FA0
     static ChainValidationHelper* New_ctor(Mono::Security::Interface::MonoTlsProvider* provider, Mono::Security::Interface::MonoTlsSettings* settings, bool cloneSettings, Mono::Net::Security::MonoTlsStream* stream, Mono::Net::Security::ServerCertValidationCallbackWrapper* callbackWrapper);
     // static private System.Security.Cryptography.X509Certificates.X509Certificate DefaultSelectionCallback(System.String targetHost, System.Security.Cryptography.X509Certificates.X509CertificateCollection localCertificates, System.Security.Cryptography.X509Certificates.X509Certificate remoteCertificate, System.String[] acceptableIssuers)
-    // Offset: 0x141AE08
+    // Offset: 0x11F1544
     static System::Security::Cryptography::X509Certificates::X509Certificate* DefaultSelectionCallback(::Il2CppString* targetHost, System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates, System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::Array<::Il2CppString*>* acceptableIssuers);
     // private Mono.Security.Interface.ValidationResult ValidateChain(System.String host, System.Boolean server, System.Security.Cryptography.X509Certificates.X509Certificate leaf, System.Security.Cryptography.X509Certificates.X509Chain chain, System.Security.Cryptography.X509Certificates.X509CertificateCollection certs, System.Net.Security.SslPolicyErrors errors)
-    // Offset: 0x141B018
+    // Offset: 0x11F1754
     Mono::Security::Interface::ValidationResult* ValidateChain(::Il2CppString* host, bool server, System::Security::Cryptography::X509Certificates::X509Certificate* leaf, System::Security::Cryptography::X509Certificates::X509Chain* chain, System::Security::Cryptography::X509Certificates::X509CertificateCollection* certs, System::Net::Security::SslPolicyErrors errors);
     // private Mono.Security.Interface.ValidationResult ValidateChain(System.String host, System.Boolean server, System.Security.Cryptography.X509Certificates.X509Certificate leaf, ref System.Security.Cryptography.X509Certificates.X509Chain chain, System.Security.Cryptography.X509Certificates.X509CertificateCollection certs, System.Net.Security.SslPolicyErrors errors)
-    // Offset: 0x141B20C
+    // Offset: 0x11F1948
     Mono::Security::Interface::ValidationResult* ValidateChain(::Il2CppString* host, bool server, System::Security::Cryptography::X509Certificates::X509Certificate* leaf, System::Security::Cryptography::X509Certificates::X509Chain*& chain, System::Security::Cryptography::X509Certificates::X509CertificateCollection* certs, System::Net::Security::SslPolicyErrors errors);
     // public Mono.Security.Interface.MonoTlsSettings get_Settings()
-    // Offset: 0x141AE54
+    // Offset: 0x11F1590
     // Implemented from: Mono.Security.Interface.ICertificateValidator
     // Base method: Mono.Security.Interface.MonoTlsSettings ICertificateValidator::get_Settings()
     Mono::Security::Interface::MonoTlsSettings* get_Settings();
     // public System.Boolean SelectClientCertificate(System.String targetHost, System.Security.Cryptography.X509Certificates.X509CertificateCollection localCertificates, System.Security.Cryptography.X509Certificates.X509Certificate remoteCertificate, System.String[] acceptableIssuers, out System.Security.Cryptography.X509Certificates.X509Certificate clientCertificate)
-    // Offset: 0x141AE5C
+    // Offset: 0x11F1598
     // Implemented from: Mono.Security.Interface.ICertificateValidator
     // Base method: System.Boolean ICertificateValidator::SelectClientCertificate(System.String targetHost, System.Security.Cryptography.X509Certificates.X509CertificateCollection localCertificates, System.Security.Cryptography.X509Certificates.X509Certificate remoteCertificate, System.String[] acceptableIssuers, out System.Security.Cryptography.X509Certificates.X509Certificate clientCertificate)
     bool SelectClientCertificate(::Il2CppString* targetHost, System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates, System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::Array<::Il2CppString*>* acceptableIssuers, System::Security::Cryptography::X509Certificates::X509Certificate*& clientCertificate);
     // public Mono.Security.Interface.ValidationResult ValidateCertificate(System.String host, System.Boolean serverMode, System.Security.Cryptography.X509Certificates.X509CertificateCollection certs)
-    // Offset: 0x141AEB4
+    // Offset: 0x11F15F0
     // Implemented from: Mono.Security.Interface.ICertificateValidator
     // Base method: Mono.Security.Interface.ValidationResult ICertificateValidator::ValidateCertificate(System.String host, System.Boolean serverMode, System.Security.Cryptography.X509Certificates.X509CertificateCollection certs)
     Mono::Security::Interface::ValidationResult* ValidateCertificate(::Il2CppString* host, bool serverMode, System::Security::Cryptography::X509Certificates::X509CertificateCollection* certs);
     // public Mono.Security.Interface.ValidationResult ValidateCertificate(System.String host, System.Boolean serverMode, System.Security.Cryptography.X509Certificates.X509Certificate leaf, System.Security.Cryptography.X509Certificates.X509Chain chain)
-    // Offset: 0x141B0D8
+    // Offset: 0x11F1814
     // Implemented from: Mono.Security.Interface.ICertificateValidator2
     // Base method: Mono.Security.Interface.ValidationResult ICertificateValidator2::ValidateCertificate(System.String host, System.Boolean serverMode, System.Security.Cryptography.X509Certificates.X509Certificate leaf, System.Security.Cryptography.X509Certificates.X509Chain chain)
     Mono::Security::Interface::ValidationResult* ValidateCertificate(::Il2CppString* host, bool serverMode, System::Security::Cryptography::X509Certificates::X509Certificate* leaf, System::Security::Cryptography::X509Certificates::X509Chain* chain);

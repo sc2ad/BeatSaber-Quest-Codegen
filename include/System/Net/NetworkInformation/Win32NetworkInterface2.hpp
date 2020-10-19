@@ -44,28 +44,28 @@ namespace System::Net::NetworkInformation {
     // Offset: 0x200
     System::Net::NetworkInformation::IPInterfaceProperties* ip_if_props;
     // static private System.Int32 GetIfEntry(ref System.Net.NetworkInformation.Win32_MIB_IFROW row)
-    // Offset: 0x12CD1C4
+    // Offset: 0x10C8A60
     static int GetIfEntry(System::Net::NetworkInformation::Win32_MIB_IFROW& row);
     // System.Void .ctor(System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES addr)
-    // Offset: 0x12CBF20
+    // Offset: 0x10C77BC
     static Win32NetworkInterface2* New_ctor(System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES addr);
     // public override System.Net.NetworkInformation.IPInterfaceProperties GetIPProperties()
-    // Offset: 0x12CD2AC
+    // Offset: 0x10C8B48
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.IPInterfaceProperties NetworkInterface::GetIPProperties()
     System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
     // public override System.String get_Name()
-    // Offset: 0x12CD2B4
+    // Offset: 0x10C8B50
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.String NetworkInterface::get_Name()
     ::Il2CppString* get_Name();
     // public override System.Net.NetworkInformation.NetworkInterfaceType get_NetworkInterfaceType()
-    // Offset: 0x12CD2BC
+    // Offset: 0x10C8B58
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.NetworkInterfaceType NetworkInterface::get_NetworkInterfaceType()
     System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();
     // public override System.Net.NetworkInformation.OperationalStatus get_OperationalStatus()
-    // Offset: 0x12CD2C4
+    // Offset: 0x10C8B60
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.OperationalStatus NetworkInterface::get_OperationalStatus()
     System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();

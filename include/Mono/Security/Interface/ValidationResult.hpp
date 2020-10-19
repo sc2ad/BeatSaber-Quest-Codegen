@@ -28,13 +28,13 @@ namespace Mono::Security::Interface {
     // Offset: 0x18
     System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> policy_errors;
     // public System.Void .ctor(System.Boolean trusted, System.Boolean user_denied, System.Int32 error_code, System.Nullable`1<Mono.Security.Interface.MonoSslPolicyErrors> policy_errors)
-    // Offset: 0x1B87404
+    // Offset: 0x19295F8
     static ValidationResult* New_ctor(bool trusted, bool user_denied, int error_code, System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> policy_errors);
     // public System.Boolean get_Trusted()
-    // Offset: 0x1B87460
+    // Offset: 0x1929654
     bool get_Trusted();
     // public System.Boolean get_UserDenied()
-    // Offset: 0x1B87468
+    // Offset: 0x192965C
     bool get_UserDenied();
   }; // Mono.Security.Interface.ValidationResult
 }

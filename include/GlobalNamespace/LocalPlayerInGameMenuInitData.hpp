@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     bool hasSong;
     // public System.Void .ctor(IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, System.Boolean hasSong)
-    // Offset: 0x10432C4
+    // Offset: 0x20AA1AC
     static LocalPlayerInGameMenuInitData* New_ctor(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, bool hasSong);
   }; // LocalPlayerInGameMenuInitData
 }

@@ -39,19 +39,19 @@ namespace Mono {
       return value;
     }
     // System.Void .ctor(System.IntPtr ptr)
-    // Offset: 0xDBB670
+    // Offset: 0xC71A90
     RuntimeGenericParamInfoHandle(System::IntPtr ptr);
     // System.Type[] get_Constraints()
-    // Offset: 0xDBB69C
+    // Offset: 0xC71ABC
     ::Array<System::Type*>* get_Constraints();
     // System.Reflection.GenericParameterAttributes get_Attributes()
-    // Offset: 0xDBB6A4
+    // Offset: 0xC71AC4
     System::Reflection::GenericParameterAttributes get_Attributes();
     // private System.Type[] GetConstraints()
-    // Offset: 0xDBB6C0
+    // Offset: 0xC71AE0
     ::Array<System::Type*>* GetConstraints();
     // private System.Int32 GetConstraintsCount()
-    // Offset: 0xDBB6C8
+    // Offset: 0xC71AE8
     int GetConstraintsCount();
   }; // Mono.RuntimeGenericParamInfoHandle
 }

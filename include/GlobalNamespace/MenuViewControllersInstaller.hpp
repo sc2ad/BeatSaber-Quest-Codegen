@@ -27,12 +27,12 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::ServerPlayerListController* quickPlayServerPlayerListController;
     // public override System.Void InstallBindings()
-    // Offset: 0xEDB70C
+    // Offset: 0x1FC52D4
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xEDB7CC
+    // Offset: 0x1FC5394
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

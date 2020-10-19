@@ -28,69 +28,69 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::MultiplayerAvatarData multiplayerAvatarData;
     // public System.Boolean get_isFailed()
-    // Offset: 0x11628BC
+    // Offset: 0x215D2A4
     bool get_isFailed();
     // private System.Void set_userId(System.String value)
-    // Offset: 0x11628D4
+    // Offset: 0x215D2BC
     void set_userId(::Il2CppString* value);
     // private System.Void set_userName(System.String value)
-    // Offset: 0x11628E4
+    // Offset: 0x215D2CC
     void set_userName(::Il2CppString* value);
     // public System.Void .ctor(System.String userId, System.String userName, System.Int32 sortIndex)
-    // Offset: 0x116292C
+    // Offset: 0x215D314
     static DisconnectedPlayer* New_ctor(::Il2CppString* userId, ::Il2CppString* userName, int sortIndex);
     // public System.Single get_offsetSyncTime()
-    // Offset: 0x11628B4
+    // Offset: 0x215D29C
     // Implemented from: IConnectedPlayer
     // Base method: System.Single IConnectedPlayer::get_offsetSyncTime()
     float get_offsetSyncTime();
     // public System.Boolean get_isMe()
-    // Offset: 0x11628C4
+    // Offset: 0x215D2AC
     // Implemented from: IConnectedPlayer
     // Base method: System.Boolean IConnectedPlayer::get_isMe()
     bool get_isMe();
     // public System.String get_userId()
-    // Offset: 0x11628CC
+    // Offset: 0x215D2B4
     // Implemented from: IConnectedPlayer
     // Base method: System.String IConnectedPlayer::get_userId()
     ::Il2CppString* get_userId();
     // public System.String get_userName()
-    // Offset: 0x11628DC
+    // Offset: 0x215D2C4
     // Implemented from: IConnectedPlayer
     // Base method: System.String IConnectedPlayer::get_userName()
     ::Il2CppString* get_userName();
     // public System.Single get_currentLatency()
-    // Offset: 0x11628EC
+    // Offset: 0x215D2D4
     // Implemented from: IConnectedPlayer
     // Base method: System.Single IConnectedPlayer::get_currentLatency()
     float get_currentLatency();
     // public System.Boolean get_isConnected()
-    // Offset: 0x11628F4
+    // Offset: 0x215D2DC
     // Implemented from: IConnectedPlayer
     // Base method: System.Boolean IConnectedPlayer::get_isConnected()
     bool get_isConnected();
     // public System.Boolean get_isConnectionOwner()
-    // Offset: 0x11628FC
+    // Offset: 0x215D2E4
     // Implemented from: IConnectedPlayer
     // Base method: System.Boolean IConnectedPlayer::get_isConnectionOwner()
     bool get_isConnectionOwner();
     // public System.Int32 get_sortIndex()
-    // Offset: 0x1162904
+    // Offset: 0x215D2EC
     // Implemented from: IConnectedPlayer
     // Base method: System.Int32 IConnectedPlayer::get_sortIndex()
     int get_sortIndex();
     // public MultiplayerAvatarData get_multiplayerAvatarData()
-    // Offset: 0x116290C
+    // Offset: 0x215D2F4
     // Implemented from: IConnectedPlayer
     // Base method: MultiplayerAvatarData IConnectedPlayer::get_multiplayerAvatarData()
     GlobalNamespace::MultiplayerAvatarData get_multiplayerAvatarData();
     // public System.Boolean get_isKicked()
-    // Offset: 0x116291C
+    // Offset: 0x215D304
     // Implemented from: IConnectedPlayer
     // Base method: System.Boolean IConnectedPlayer::get_isKicked()
     bool get_isKicked();
     // public System.Boolean HasState(System.String state)
-    // Offset: 0x1162924
+    // Offset: 0x215D30C
     // Implemented from: IConnectedPlayer
     // Base method: System.Boolean IConnectedPlayer::HasState(System.String state)
     bool HasState(::Il2CppString* state);

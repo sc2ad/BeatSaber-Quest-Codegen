@@ -30,25 +30,25 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::CapsuleCollider* CapsuleCollider;
     // public System.Int16 get_BoneIndex()
-    // Offset: 0x11311F4
+    // Offset: 0xF6D38C
     int16_t get_BoneIndex();
     // private System.Void set_BoneIndex(System.Int16 value)
-    // Offset: 0x11311FC
+    // Offset: 0xF6D394
     void set_BoneIndex(int16_t value);
     // public UnityEngine.Rigidbody get_CapsuleRigidbody()
-    // Offset: 0x1131204
+    // Offset: 0xF6D39C
     UnityEngine::Rigidbody* get_CapsuleRigidbody();
     // private System.Void set_CapsuleRigidbody(UnityEngine.Rigidbody value)
-    // Offset: 0x113120C
+    // Offset: 0xF6D3A4
     void set_CapsuleRigidbody(UnityEngine::Rigidbody* value);
     // public UnityEngine.CapsuleCollider get_CapsuleCollider()
-    // Offset: 0x1131214
+    // Offset: 0xF6D3AC
     UnityEngine::CapsuleCollider* get_CapsuleCollider();
     // private System.Void set_CapsuleCollider(UnityEngine.CapsuleCollider value)
-    // Offset: 0x113121C
+    // Offset: 0xF6D3B4
     void set_CapsuleCollider(UnityEngine::CapsuleCollider* value);
     // public System.Void .ctor(System.Int16 boneIndex, UnityEngine.Rigidbody capsuleRigidBody, UnityEngine.CapsuleCollider capsuleCollider)
-    // Offset: 0x1131224
+    // Offset: 0xF6D3BC
     static OVRBoneCapsule* New_ctor(int16_t boneIndex, UnityEngine::Rigidbody* capsuleRigidBody, UnityEngine::CapsuleCollider* capsuleCollider);
   }; // OVRBoneCapsule
 }

@@ -33,10 +33,10 @@ namespace Zenject {
     // Deleting conversion operator: operator Zenject::DiContainer*
     constexpr operator Zenject::DiContainer*() const noexcept = delete;
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.GameObjectCreationParameters gameObjectBindInfo)
-    // Offset: 0x15201A8
+    // Offset: 0x12F69D0
     static SubContainerCreatorByNewGameObjectDynamicContext* New_ctor(Zenject::DiContainer* container, Zenject::GameObjectCreationParameters* gameObjectBindInfo);
     // protected override UnityEngine.GameObject CreateGameObject(out System.Boolean shouldMakeActive)
-    // Offset: 0x152022C
+    // Offset: 0x12F6A54
     // Implemented from: Zenject.SubContainerCreatorDynamicContext
     // Base method: UnityEngine.GameObject SubContainerCreatorDynamicContext::CreateGameObject(out System.Boolean shouldMakeActive)
     UnityEngine::GameObject* CreateGameObject(bool& shouldMakeActive);

@@ -35,25 +35,25 @@ namespace UnityEngine::UI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected UnityEngine.UI.Graphic get_graphic()
-    // Offset: 0x1285188
+    // Offset: 0x107FA24
     UnityEngine::UI::Graphic* get_graphic();
     // protected override System.Void OnEnable()
-    // Offset: 0x1285234
+    // Offset: 0x107FAD0
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0x12852E0
+    // Offset: 0x107FB7C
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDisable()
     void OnDisable();
     // protected override System.Void OnDidApplyAnimationProperties()
-    // Offset: 0x128538C
+    // Offset: 0x107FC28
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDidApplyAnimationProperties()
     void OnDidApplyAnimationProperties();
     // public System.Void ModifyMesh(UnityEngine.Mesh mesh)
-    // Offset: 0x1285438
+    // Offset: 0x107FCD4
     // Implemented from: UnityEngine.UI.IMeshModifier
     // Base method: System.Void IMeshModifier::ModifyMesh(UnityEngine.Mesh mesh)
     void ModifyMesh(UnityEngine::Mesh* mesh);
@@ -63,7 +63,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void IMeshModifier::ModifyMesh(UnityEngine.UI.VertexHelper vh)
     void ModifyMesh(UnityEngine::UI::VertexHelper* vh);
     // protected System.Void .ctor()
-    // Offset: 0x1285584
+    // Offset: 0x107FE20
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

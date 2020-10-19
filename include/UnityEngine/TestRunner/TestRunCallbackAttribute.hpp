@@ -33,7 +33,7 @@ namespace UnityEngine::TestRunner {
       return m_Type;
     }
     // UnityEngine.TestRunner.ITestRunCallback ConstructCallback()
-    // Offset: 0x12BB3F0
+    // Offset: 0x10B6C8C
     UnityEngine::TestRunner::ITestRunCallback* ConstructCallback();
   }; // UnityEngine.TestRunner.TestRunCallbackAttribute
 }

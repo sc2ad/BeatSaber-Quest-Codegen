@@ -37,15 +37,15 @@ namespace System::Reflection {
     // Offset: 0x28
     ::Array<uint8_t>* keyPairArray;
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x18D6970
+    // Offset: 0x167CD94
     static StrongNameKeyPair* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x18D6B14
+    // Offset: 0x167CF38
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // private System.Void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object sender)
-    // Offset: 0x18D6C30
+    // Offset: 0x167D054
     // Implemented from: System.Runtime.Serialization.IDeserializationCallback
     // Base method: System.Void IDeserializationCallback::OnDeserialization(System.Object sender)
     void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::Il2CppObject* sender);

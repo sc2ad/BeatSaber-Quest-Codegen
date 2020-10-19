@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRCompositor::_GetCurrentFadeColor : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1E2F6E4
+    // Offset: 0x1B82348
     static IVRCompositor::_GetCurrentFadeColor* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.HmdColor_t Invoke(System.Boolean bBackground)
-    // Offset: 0x1E2F6F8
+    // Offset: 0x1B8235C
     Valve::VR::HmdColor_t Invoke(bool bBackground);
     // public System.IAsyncResult BeginInvoke(System.Boolean bBackground, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1E2F988
+    // Offset: 0x1B825EC
     System::IAsyncResult* BeginInvoke(bool bBackground, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.HmdColor_t EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1E2FA18
+    // Offset: 0x1B8267C
     Valve::VR::HmdColor_t EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_GetCurrentFadeColor
 }

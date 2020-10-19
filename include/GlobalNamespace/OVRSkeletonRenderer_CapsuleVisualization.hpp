@@ -50,10 +50,10 @@ namespace GlobalNamespace {
     // Offset: 0x40
     UnityEngine::Material* SystemGestureMaterial;
     // public System.Void .ctor(UnityEngine.GameObject rootGO, UnityEngine.Material renderMat, UnityEngine.Material systemGestureMat, System.Single scale, OVRBoneCapsule boneCapsule)
-    // Offset: 0x21837AC
+    // Offset: 0x1ED8410
     static OVRSkeletonRenderer::CapsuleVisualization* New_ctor(UnityEngine::GameObject* rootGO, UnityEngine::Material* renderMat, UnityEngine::Material* systemGestureMat, float scale, GlobalNamespace::OVRBoneCapsule* boneCapsule);
     // public System.Void Update(System.Single scale, System.Boolean shouldRender, System.Boolean shouldUseSystemGestureMaterial, OVRSkeletonRenderer/ConfidenceBehavior confidenceBehavior, OVRSkeletonRenderer/SystemGestureBehavior systemGestureBehavior)
-    // Offset: 0x2183D64
+    // Offset: 0x1ED89C8
     void Update(float scale, bool shouldRender, bool shouldUseSystemGestureMaterial, GlobalNamespace::OVRSkeletonRenderer::ConfidenceBehavior confidenceBehavior, GlobalNamespace::OVRSkeletonRenderer::SystemGestureBehavior systemGestureBehavior);
   }; // OVRSkeletonRenderer/CapsuleVisualization
 }

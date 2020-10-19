@@ -57,40 +57,40 @@ namespace UnityEngine::UI {
     // Set static field: static private UnityEngine.UI.ObjectPool`1<UnityEngine.UI.LayoutRebuilder> s_Rebuilders
     static void _set_s_Rebuilders(UnityEngine::UI::ObjectPool_1<UnityEngine::UI::LayoutRebuilder*>* value);
     // private System.Void Initialize(UnityEngine.RectTransform controller)
-    // Offset: 0x1835FFC
+    // Offset: 0x15DD420
     void Initialize(UnityEngine::RectTransform* controller);
     // private System.Void Clear()
-    // Offset: 0x1836040
+    // Offset: 0x15DD464
     void Clear();
     // static private System.Void .cctor()
-    // Offset: 0x1836070
+    // Offset: 0x15DD494
     static void _cctor();
     // static private System.Void ReapplyDrivenProperties(UnityEngine.RectTransform driven)
-    // Offset: 0x1836188
+    // Offset: 0x15DD5AC
     static void ReapplyDrivenProperties(UnityEngine::RectTransform* driven);
     // static private System.Void StripDisabledBehavioursFromList(System.Collections.Generic.List`1<UnityEngine.Component> components)
-    // Offset: 0x1836264
+    // Offset: 0x15DD688
     static void StripDisabledBehavioursFromList(System::Collections::Generic::List_1<UnityEngine::Component*>* components);
     // static public System.Void ForceRebuildLayoutImmediate(UnityEngine.RectTransform layoutRoot)
-    // Offset: 0x1836360
+    // Offset: 0x15DD784
     static void ForceRebuildLayoutImmediate(UnityEngine::RectTransform* layoutRoot);
     // private System.Void PerformLayoutControl(UnityEngine.RectTransform rect, UnityEngine.Events.UnityAction`1<UnityEngine.Component> action)
-    // Offset: 0x18369F8
+    // Offset: 0x15DDE1C
     void PerformLayoutControl(UnityEngine::RectTransform* rect, UnityEngine::Events::UnityAction_1<UnityEngine::Component*>* action);
     // private System.Void PerformLayoutCalculation(UnityEngine.RectTransform rect, UnityEngine.Events.UnityAction`1<UnityEngine.Component> action)
-    // Offset: 0x183672C
+    // Offset: 0x15DDB50
     void PerformLayoutCalculation(UnityEngine::RectTransform* rect, UnityEngine::Events::UnityAction_1<UnityEngine::Component*>* action);
     // static public System.Void MarkLayoutForRebuild(UnityEngine.RectTransform rect)
-    // Offset: 0x18349E4
+    // Offset: 0x15DBE08
     static void MarkLayoutForRebuild(UnityEngine::RectTransform* rect);
     // static private System.Boolean ValidController(UnityEngine.RectTransform layoutRoot, System.Collections.Generic.List`1<UnityEngine.Component> comps)
-    // Offset: 0x1836CFC
+    // Offset: 0x15DE120
     static bool ValidController(UnityEngine::RectTransform* layoutRoot, System::Collections::Generic::List_1<UnityEngine::Component*>* comps);
     // static private System.Void MarkLayoutRootForRebuild(UnityEngine.RectTransform controller)
-    // Offset: 0x1836ED8
+    // Offset: 0x15DE2FC
     static void MarkLayoutRootForRebuild(UnityEngine::RectTransform* controller);
     // public UnityEngine.Transform get_transform()
-    // Offset: 0x18361EC
+    // Offset: 0x15DD610
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: UnityEngine.Transform ICanvasElement::get_transform()
     UnityEngine::Transform* get_transform();
@@ -98,42 +98,42 @@ namespace UnityEngine::UI {
     // Maps to method: get_transform
     UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();
     // public System.Boolean IsDestroyed()
-    // Offset: 0x18361F4
+    // Offset: 0x15DD618
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: System.Boolean ICanvasElement::IsDestroyed()
     bool IsDestroyed();
     // public System.Void Rebuild(UnityEngine.UI.CanvasUpdate executing)
-    // Offset: 0x1836428
+    // Offset: 0x15DD84C
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: System.Void ICanvasElement::Rebuild(UnityEngine.UI.CanvasUpdate executing)
     void Rebuild(UnityEngine::UI::CanvasUpdate executing);
     // public System.Void LayoutComplete()
-    // Offset: 0x1837020
+    // Offset: 0x15DE444
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: System.Void ICanvasElement::LayoutComplete()
     void LayoutComplete();
     // public System.Void GraphicUpdateComplete()
-    // Offset: 0x18370A4
+    // Offset: 0x15DE4C8
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: System.Void ICanvasElement::GraphicUpdateComplete()
     void GraphicUpdateComplete();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x18370A8
+    // Offset: 0x15DE4CC
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x18370B0
+    // Offset: 0x15DE4D4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.String ToString()
-    // Offset: 0x1837104
+    // Offset: 0x15DE528
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public System.Void .ctor()
-    // Offset: 0x1837158
+    // Offset: 0x15DE57C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LayoutRebuilder* New_ctor();

@@ -71,34 +71,34 @@ namespace System::Reflection {
     // Offset: 0x20
     System::Type* reftype;
     // static System.String get_name(System.Reflection.MethodBase method)
-    // Offset: 0x18D0730
+    // Offset: 0x1676B54
     static ::Il2CppString* get_name(System::Reflection::MethodBase* method);
     // static System.Reflection.MonoMethod get_base_method(System.Reflection.MonoMethod method, System.Boolean definition)
-    // Offset: 0x18D1790
+    // Offset: 0x1677BB4
     static System::Reflection::MonoMethod* get_base_method(System::Reflection::MonoMethod* method, bool definition);
     // System.Object InternalInvoke(System.Object obj, System.Object[] parameters, out System.Exception exc)
-    // Offset: 0x18D1900
+    // Offset: 0x1677D24
     ::Il2CppObject* InternalInvoke(::Il2CppObject* obj, ::Array<::Il2CppObject*>* parameters, System::Exception*& exc);
     // static System.Void ConvertValues(System.Reflection.Binder binder, System.Object[] args, System.Reflection.ParameterInfo[] pinfo, System.Globalization.CultureInfo culture, System.Reflection.BindingFlags invokeAttr)
-    // Offset: 0x18D0148
+    // Offset: 0x167656C
     static void ConvertValues(System::Reflection::Binder* binder, ::Array<::Il2CppObject*>* args, ::Array<System::Reflection::ParameterInfo*>* pinfo, System::Globalization::CultureInfo* culture, System::Reflection::BindingFlags invokeAttr);
     // System.Void GetPInvoke(out System.Reflection.PInvokeAttributes flags, out System.String entryPoint, out System.String dllName)
-    // Offset: 0x18D1DBC
+    // Offset: 0x16781E0
     void GetPInvoke(System::Reflection::PInvokeAttributes& flags, ::Il2CppString*& entryPoint, ::Il2CppString*& dllName);
     // System.Object[] GetPseudoCustomAttributes()
-    // Offset: 0x18D1DC0
+    // Offset: 0x16781E4
     ::Array<::Il2CppObject*>* GetPseudoCustomAttributes();
     // private System.Reflection.MethodInfo MakeGenericMethod_impl(System.Type[] types)
-    // Offset: 0x18D22CC
+    // Offset: 0x16786F0
     System::Reflection::MethodInfo* MakeGenericMethod_impl(::Array<System::Type*>* types);
     // private System.Reflection.MethodInfo GetGenericMethodDefinition_impl()
-    // Offset: 0x18D22D4
+    // Offset: 0x16786F8
     System::Reflection::MethodInfo* GetGenericMethodDefinition_impl();
     // static private System.Int32 get_core_clr_security_level()
-    // Offset: 0x18D2478
+    // Offset: 0x167889C
     static int get_core_clr_security_level();
     // System.Void .ctor()
-    // Offset: 0x18D1780
+    // Offset: 0x1677BA4
     // Implemented from: System.Reflection.RuntimeMethodInfo
     // Base method: System.Void RuntimeMethodInfo::.ctor()
     // Base method: System.Void MethodInfo::.ctor()
@@ -107,92 +107,92 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     static MonoMethod* New_ctor();
     // public override System.Reflection.MethodInfo GetBaseDefinition()
-    // Offset: 0x18D1798
+    // Offset: 0x1677BBC
     // Implemented from: System.Reflection.MethodInfo
     // Base method: System.Reflection.MethodInfo MethodInfo::GetBaseDefinition()
     System::Reflection::MethodInfo* GetBaseDefinition();
     // override System.Reflection.MethodInfo GetBaseMethod()
-    // Offset: 0x18D17A0
+    // Offset: 0x1677BC4
     // Implemented from: System.Reflection.MethodInfo
     // Base method: System.Reflection.MethodInfo MethodInfo::GetBaseMethod()
     System::Reflection::MethodInfo* GetBaseMethod();
     // public override System.Type get_ReturnType()
-    // Offset: 0x18D17A8
+    // Offset: 0x1677BCC
     // Implemented from: System.Reflection.MethodInfo
     // Base method: System.Type MethodInfo::get_ReturnType()
     System::Type* get_ReturnType();
     // public override System.Reflection.MethodImplAttributes GetMethodImplementationFlags()
-    // Offset: 0x18D1804
+    // Offset: 0x1677C28
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Reflection.MethodImplAttributes MethodBase::GetMethodImplementationFlags()
     System::Reflection::MethodImplAttributes GetMethodImplementationFlags();
     // public override System.Reflection.ParameterInfo[] GetParameters()
-    // Offset: 0x18D1834
+    // Offset: 0x1677C58
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Reflection.ParameterInfo[] MethodBase::GetParameters()
     ::Array<System::Reflection::ParameterInfo*>* GetParameters();
     // override System.Reflection.ParameterInfo[] GetParametersInternal()
-    // Offset: 0x18D18CC
+    // Offset: 0x1677CF0
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Reflection.ParameterInfo[] MethodBase::GetParametersInternal()
     ::Array<System::Reflection::ParameterInfo*>* GetParametersInternal();
     // override System.Int32 GetParametersCount()
-    // Offset: 0x18D18D8
+    // Offset: 0x1677CFC
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Int32 MethodBase::GetParametersCount()
     int GetParametersCount();
     // public override System.Object Invoke(System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture)
-    // Offset: 0x18D1904
+    // Offset: 0x1677D28
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Object MethodBase::Invoke(System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture)
     ::Il2CppObject* Invoke(::Il2CppObject* obj, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::Array<::Il2CppObject*>* parameters, System::Globalization::CultureInfo* culture);
     // public override System.RuntimeMethodHandle get_MethodHandle()
-    // Offset: 0x18D1BA4
+    // Offset: 0x1677FC8
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.RuntimeMethodHandle MethodBase::get_MethodHandle()
     System::RuntimeMethodHandle get_MethodHandle();
     // public override System.Reflection.MethodAttributes get_Attributes()
-    // Offset: 0x18D1BAC
+    // Offset: 0x1677FD0
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Reflection.MethodAttributes MethodBase::get_Attributes()
     System::Reflection::MethodAttributes get_Attributes();
     // public override System.Reflection.CallingConventions get_CallingConvention()
-    // Offset: 0x18D1BB4
+    // Offset: 0x1677FD8
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Reflection.CallingConventions MethodBase::get_CallingConvention()
     System::Reflection::CallingConventions get_CallingConvention();
     // public override System.Type get_ReflectedType()
-    // Offset: 0x18D1BE4
+    // Offset: 0x1678008
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Type MemberInfo::get_ReflectedType()
     System::Type* get_ReflectedType();
     // public override System.Type get_DeclaringType()
-    // Offset: 0x18D1BEC
+    // Offset: 0x1678010
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Type MemberInfo::get_DeclaringType()
     System::Type* get_DeclaringType();
     // public override System.String get_Name()
-    // Offset: 0x18D1C1C
+    // Offset: 0x1678040
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.String MemberInfo::get_Name()
     ::Il2CppString* get_Name();
     // public override System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x18D1C44
+    // Offset: 0x1678068
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Boolean MemberInfo::IsDefined(System.Type attributeType, System.Boolean inherit)
     bool IsDefined(System::Type* attributeType, bool inherit);
     // public override System.Object[] GetCustomAttributes(System.Boolean inherit)
-    // Offset: 0x18D1CC4
+    // Offset: 0x16780E8
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Boolean inherit)
     ::Array<::Il2CppObject*>* GetCustomAttributes(bool inherit);
     // public override System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x18D1D3C
+    // Offset: 0x1678160
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
     ::Array<::Il2CppObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
     // public override System.Reflection.MethodInfo MakeGenericMethod(params System.Type[] methodInstantiation)
-    // Offset: 0x18D1F8C
+    // Offset: 0x16783B0
     // Implemented from: System.Reflection.MethodInfo
     // Base method: System.Reflection.MethodInfo MethodInfo::MakeGenericMethod(params System.Type[] methodInstantiation)
     System::Reflection::MethodInfo* MakeGenericMethod(::Array<System::Type*>* methodInstantiation);
@@ -204,42 +204,42 @@ namespace System::Reflection {
       return MakeGenericMethod({methodInstantiation...});
     }
     // public override System.Type[] GetGenericArguments()
-    // Offset: 0x18D22D0
+    // Offset: 0x16786F4
     // Implemented from: System.Reflection.MethodInfo
     // Base method: System.Type[] MethodInfo::GetGenericArguments()
     ::Array<System::Type*>* GetGenericArguments();
     // public override System.Reflection.MethodInfo GetGenericMethodDefinition()
-    // Offset: 0x18D22D8
+    // Offset: 0x16786FC
     // Implemented from: System.Reflection.MethodInfo
     // Base method: System.Reflection.MethodInfo MethodInfo::GetGenericMethodDefinition()
     System::Reflection::MethodInfo* GetGenericMethodDefinition();
     // public override System.Boolean get_IsGenericMethodDefinition()
-    // Offset: 0x18D2380
+    // Offset: 0x16787A4
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Boolean MethodBase::get_IsGenericMethodDefinition()
     bool get_IsGenericMethodDefinition();
     // public override System.Boolean get_IsGenericMethod()
-    // Offset: 0x18D2384
+    // Offset: 0x16787A8
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Boolean MethodBase::get_IsGenericMethod()
     bool get_IsGenericMethod();
     // public override System.Boolean get_ContainsGenericParameters()
-    // Offset: 0x18D2388
+    // Offset: 0x16787AC
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Boolean MethodBase::get_ContainsGenericParameters()
     bool get_ContainsGenericParameters();
     // public override System.Reflection.MethodBody GetMethodBody()
-    // Offset: 0x18D2468
+    // Offset: 0x167888C
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Reflection.MethodBody MethodBase::GetMethodBody()
     System::Reflection::MethodBody* GetMethodBody();
     // public override System.Collections.Generic.IList`1<System.Reflection.CustomAttributeData> GetCustomAttributesData()
-    // Offset: 0x18D2470
+    // Offset: 0x1678894
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Collections.Generic.IList`1<System.Reflection.CustomAttributeData> MemberInfo::GetCustomAttributesData()
     System::Collections::Generic::IList_1<System::Reflection::CustomAttributeData*>* GetCustomAttributesData();
     // public override System.Boolean get_IsSecurityCritical()
-    // Offset: 0x18D2480
+    // Offset: 0x16788A4
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Boolean MethodBase::get_IsSecurityCritical()
     bool get_IsSecurityCritical();

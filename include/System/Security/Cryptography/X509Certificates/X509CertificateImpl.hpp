@@ -31,7 +31,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0xFFFFFFFF
     bool get_IsValid();
     // protected System.Void ThrowIfContextInvalid()
-    // Offset: 0x1434820
+    // Offset: 0x120AF5C
     void ThrowIfContextInvalid();
     // public System.Security.Cryptography.X509Certificates.X509CertificateImpl Clone()
     // Offset: 0xFFFFFFFF
@@ -52,7 +52,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0xFFFFFFFF
     System::DateTime GetValidUntil();
     // public System.Byte[] GetCertHash()
-    // Offset: 0x1433ED8
+    // Offset: 0x120A614
     ::Array<uint8_t>* GetCertHash();
     // protected System.Byte[] GetCertHash(System.Boolean lazy)
     // Offset: 0xFFFFFFFF
@@ -67,20 +67,20 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0xFFFFFFFF
     ::Il2CppString* ToString(bool full);
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1434B14
+    // Offset: 0x120B250
     void Dispose(bool disposing);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1434904
+    // Offset: 0x120B040
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1434984
+    // Offset: 0x120B0C0
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Void Dispose()
-    // Offset: 0x14347A0
+    // Offset: 0x120AEDC
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -88,12 +88,12 @@ namespace System::Security::Cryptography::X509Certificates {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0x1434B20
+    // Offset: 0x120B25C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected System.Void .ctor()
-    // Offset: 0x1434B98
+    // Offset: 0x120B2D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static X509CertificateImpl* New_ctor();

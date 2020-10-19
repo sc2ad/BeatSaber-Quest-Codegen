@@ -61,16 +61,16 @@ namespace UnityEngine::Playables {
     // Set static field: static public readonly System.Double DefaultDuration
     static void _set_DefaultDuration(double value);
     // public UnityEngine.Object get_sourceObject()
-    // Offset: 0xDC6338
+    // Offset: 0xC7B7A4
     UnityEngine::Object* get_sourceObject();
     // UnityEngine.Playables.PlayableOutput CreateOutput(UnityEngine.Playables.PlayableGraph graph)
-    // Offset: 0xDC6340
+    // Offset: 0xC7B7AC
     UnityEngine::Playables::PlayableOutput CreateOutput(UnityEngine::Playables::PlayableGraph graph);
     // static UnityEngine.Playables.PlayableBinding CreateInternal(System.String name, UnityEngine.Object sourceObject, System.Type sourceType, UnityEngine.Playables.PlayableBinding/CreateOutputMethod createFunction)
-    // Offset: 0x1B9D73C
+    // Offset: 0x193F930
     static UnityEngine::Playables::PlayableBinding CreateInternal(::Il2CppString* name, UnityEngine::Object* sourceObject, System::Type* sourceType, UnityEngine::Playables::PlayableBinding::CreateOutputMethod* createFunction);
     // static private System.Void .cctor()
-    // Offset: 0x1B9D7D4
+    // Offset: 0x193F9C8
     static void _cctor();
   }; // UnityEngine.Playables.PlayableBinding
 }

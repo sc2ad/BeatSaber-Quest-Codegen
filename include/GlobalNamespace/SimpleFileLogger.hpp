@@ -39,22 +39,22 @@ namespace GlobalNamespace {
     // Set static field: static private SimpleFileLogger/MonoLogger _monoLogger
     static void _set__monoLogger(GlobalNamespace::SimpleFileLogger::MonoLogger* value);
     // static protected System.Void NoDomainReloadInit()
-    // Offset: 0x10A4FB0
+    // Offset: 0x211BEF4
     static void NoDomainReloadInit();
     // static private SimpleFileLogger/MonoLogger get_monoLogger()
-    // Offset: 0x10A5004
+    // Offset: 0x211BF48
     static GlobalNamespace::SimpleFileLogger::MonoLogger* get_monoLogger();
     // static public System.Void Log(System.String text)
-    // Offset: 0x10A50F0
+    // Offset: 0x211C034
     static void Log(::Il2CppString* text);
     // static public System.Void LogVector(System.String description, UnityEngine.Vector3 vec)
-    // Offset: 0x10A5184
+    // Offset: 0x211C0C8
     static void LogVector(::Il2CppString* description, UnityEngine::Vector3 vec);
     // static public System.Void Clear()
-    // Offset: 0x10A5454
+    // Offset: 0x211C398
     static void Clear();
     // public System.Void .ctor()
-    // Offset: 0x10A54DC
+    // Offset: 0x211C420
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SimpleFileLogger* New_ctor();

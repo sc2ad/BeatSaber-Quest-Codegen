@@ -39,16 +39,16 @@ namespace UnityEngine::Experimental::GlobalIllumination {
   class Lightmapping::RequestLightsDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x19ED630
+    // Offset: 0x1793A54
     static Lightmapping::RequestLightsDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(UnityEngine.Light[] requests, Unity.Collections.NativeArray`1<UnityEngine.Experimental.GlobalIllumination.LightDataGI> lightsOutput)
-    // Offset: 0x19ED124
+    // Offset: 0x1793548
     void Invoke(::Array<UnityEngine::Light*>* requests, Unity::Collections::NativeArray_1<UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Light[] requests, Unity.Collections.NativeArray`1<UnityEngine.Experimental.GlobalIllumination.LightDataGI> lightsOutput, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x19ED9E8
+    // Offset: 0x1793E0C
     System::IAsyncResult* BeginInvoke(::Array<UnityEngine::Light*>* requests, Unity::Collections::NativeArray_1<UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x19EDA84
+    // Offset: 0x1793EA8
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Experimental.GlobalIllumination.Lightmapping/RequestLightsDelegate
 }

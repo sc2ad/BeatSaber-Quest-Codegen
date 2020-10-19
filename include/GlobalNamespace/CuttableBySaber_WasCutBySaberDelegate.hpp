@@ -38,16 +38,16 @@ namespace GlobalNamespace {
   class CuttableBySaber::WasCutBySaberDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xF5D6A4
+    // Offset: 0x2015820
     static CuttableBySaber::WasCutBySaberDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0xF5D0E8
+    // Offset: 0x2015264
     void Invoke(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
     // public System.IAsyncResult BeginInvoke(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xF5D6B8
+    // Offset: 0x2015834
     System::IAsyncResult* BeginInvoke(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xF5D7A0
+    // Offset: 0x201591C
     void EndInvoke(System::IAsyncResult* result);
   }; // CuttableBySaber/WasCutBySaberDelegate
 }

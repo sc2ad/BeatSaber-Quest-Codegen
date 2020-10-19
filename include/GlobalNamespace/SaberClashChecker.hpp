@@ -50,16 +50,16 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kIgnoredTime
     static void _set_kIgnoredTime(float value);
     // private System.Void Init(SaberManager saberManager)
-    // Offset: 0xF7F8D0
+    // Offset: 0x2076B2C
     void Init(GlobalNamespace::SaberManager* saberManager);
     // public System.Boolean AreSabersClashing(out UnityEngine.Vector3 clashingPoint)
-    // Offset: 0xF7F914
+    // Offset: 0x2076B70
     bool AreSabersClashing(UnityEngine::Vector3& clashingPoint);
     // private System.Single SegmentToSegmentDist(UnityEngine.Vector3 fromA, UnityEngine.Vector3 toA, UnityEngine.Vector3 fromB, UnityEngine.Vector3 toB, out UnityEngine.Vector3 inbetweenPoint)
-    // Offset: 0xF7FAEC
+    // Offset: 0x2076D48
     float SegmentToSegmentDist(UnityEngine::Vector3 fromA, UnityEngine::Vector3 toA, UnityEngine::Vector3 fromB, UnityEngine::Vector3 toB, UnityEngine::Vector3& inbetweenPoint);
     // public System.Void .ctor()
-    // Offset: 0xF7FF98
+    // Offset: 0x20771F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SaberClashChecker* New_ctor();

@@ -24,32 +24,32 @@ namespace System::Security::Cryptography {
   class RijndaelManaged : public System::Security::Cryptography::Rijndael {
     public:
     // private System.Security.Cryptography.ICryptoTransform NewEncryptor(System.Byte[] rgbKey, System.Security.Cryptography.CipherMode mode, System.Byte[] rgbIV, System.Int32 feedbackSize, System.Security.Cryptography.RijndaelManagedTransformMode encryptMode)
-    // Offset: 0x19D9A08
+    // Offset: 0x177FE2C
     System::Security::Cryptography::ICryptoTransform* NewEncryptor(::Array<uint8_t>* rgbKey, System::Security::Cryptography::CipherMode mode, ::Array<uint8_t>* rgbIV, int feedbackSize, System::Security::Cryptography::RijndaelManagedTransformMode encryptMode);
     // public System.Void .ctor()
-    // Offset: 0x19D9930
+    // Offset: 0x177FD54
     // Implemented from: System.Security.Cryptography.Rijndael
     // Base method: System.Void Rijndael::.ctor()
     // Base method: System.Void SymmetricAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()
     static RijndaelManaged* New_ctor();
     // public override System.Security.Cryptography.ICryptoTransform CreateEncryptor(System.Byte[] rgbKey, System.Byte[] rgbIV)
-    // Offset: 0x19D99F4
+    // Offset: 0x177FE18
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Security.Cryptography.ICryptoTransform SymmetricAlgorithm::CreateEncryptor(System.Byte[] rgbKey, System.Byte[] rgbIV)
     System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::Array<uint8_t>* rgbKey, ::Array<uint8_t>* rgbIV);
     // public override System.Security.Cryptography.ICryptoTransform CreateDecryptor(System.Byte[] rgbKey, System.Byte[] rgbIV)
-    // Offset: 0x19D9B10
+    // Offset: 0x177FF34
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Security.Cryptography.ICryptoTransform SymmetricAlgorithm::CreateDecryptor(System.Byte[] rgbKey, System.Byte[] rgbIV)
     System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::Array<uint8_t>* rgbKey, ::Array<uint8_t>* rgbIV);
     // public override System.Void GenerateKey()
-    // Offset: 0x19D9B24
+    // Offset: 0x177FF48
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::GenerateKey()
     void GenerateKey();
     // public override System.Void GenerateIV()
-    // Offset: 0x19D9B68
+    // Offset: 0x177FF8C
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::GenerateIV()
     void GenerateIV();

@@ -25,40 +25,40 @@ namespace System::IO {
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // public System.Void .ctor(System.String s)
-    // Offset: 0x1593BF0
+    // Offset: 0x136A418
     static StringReader* New_ctor(::Il2CppString* s);
     // public override System.Void Close()
-    // Offset: 0x1593CC8
+    // Offset: 0x136A4F0
     // Implemented from: System.IO.TextReader
     // Base method: System.Void TextReader::Close()
     void Close();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1593CD8
+    // Offset: 0x136A500
     // Implemented from: System.IO.TextReader
     // Base method: System.Void TextReader::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Int32 Peek()
-    // Offset: 0x1593D08
+    // Offset: 0x136A530
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Peek()
     int Peek();
     // public override System.Int32 Read()
-    // Offset: 0x1593D48
+    // Offset: 0x136A570
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Read()
     int Read();
     // public override System.Int32 Read(in System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1593D90
+    // Offset: 0x136A5B8
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Read(in System.Char[] buffer, System.Int32 index, System.Int32 count)
     int Read(::Array<::Il2CppChar>*& buffer, int index, int count);
     // public override System.String ReadToEnd()
-    // Offset: 0x1593F70
+    // Offset: 0x136A798
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadToEnd()
     ::Il2CppString* ReadToEnd();
     // public override System.String ReadLine()
-    // Offset: 0x1593FB8
+    // Offset: 0x136A7E0
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadLine()
     ::Il2CppString* ReadLine();

@@ -43,10 +43,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void SetGameplayModifiers(GameplayModifiers gameplayModifiers)
-    // Offset: 0xFC6F60
+    // Offset: 0x205BAE0
     void SetGameplayModifiers(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Void .ctor()
-    // Offset: 0xFC70C8
+    // Offset: 0x205BC48
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

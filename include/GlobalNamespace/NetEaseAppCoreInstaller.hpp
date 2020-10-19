@@ -24,12 +24,12 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::NetEaseManager* netEaseManagerPrefab;
     // public override System.Void InstallBindings()
-    // Offset: 0xF08EE0
+    // Offset: 0x1FDDD94
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xF08F54
+    // Offset: 0x1FDDE08
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

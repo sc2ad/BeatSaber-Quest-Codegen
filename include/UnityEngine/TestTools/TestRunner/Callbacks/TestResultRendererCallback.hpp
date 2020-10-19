@@ -33,22 +33,22 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
-    // Offset: 0x12C429C
+    // Offset: 0x10BFB38
     void RunStarted(NUnit::Framework::Interfaces::ITest* testsToRun);
     // public System.Void RunFinished(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0x12C42A0
+    // Offset: 0x10BFB3C
     void RunFinished(NUnit::Framework::Interfaces::ITestResult* testResults);
     // public System.Void OnGUI()
-    // Offset: 0x12C4398
+    // Offset: 0x10BFC34
     void OnGUI();
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x12C43A8
+    // Offset: 0x10BFC44
     void TestStarted(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x12C43AC
+    // Offset: 0x10BFC48
     void TestFinished(NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Void .ctor()
-    // Offset: 0x12C43B0
+    // Offset: 0x10BFC4C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

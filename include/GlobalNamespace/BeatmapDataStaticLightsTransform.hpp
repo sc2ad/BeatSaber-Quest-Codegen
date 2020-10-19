@@ -21,10 +21,10 @@ namespace GlobalNamespace {
   class BeatmapDataStaticLightsTransform : public ::Il2CppObject {
     public:
     // static public BeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData)
-    // Offset: 0x104E808
+    // Offset: 0x20C9288
     static GlobalNamespace::BeatmapData* CreateTransformedData(GlobalNamespace::IReadonlyBeatmapData* beatmapData);
     // public System.Void .ctor()
-    // Offset: 0x104EBE0
+    // Offset: 0x20C9660
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BeatmapDataStaticLightsTransform* New_ctor();

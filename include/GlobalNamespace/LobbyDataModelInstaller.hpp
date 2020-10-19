@@ -14,12 +14,12 @@ namespace GlobalNamespace {
   class LobbyDataModelInstaller : public Zenject::MonoInstaller {
     public:
     // public override System.Void InstallBindings()
-    // Offset: 0x102F83C
+    // Offset: 0x2096724
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x102FCE4
+    // Offset: 0x2096BCC
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

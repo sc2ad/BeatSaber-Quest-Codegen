@@ -26,16 +26,16 @@ namespace Zenject {
       return BindInfo;
     }
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0x1454420
+    // Offset: 0x122AB5C
     static IfNotBoundBinder* New_ctor(Zenject::BindInfo* bindInfo);
     // public Zenject.BindInfo get_BindInfo()
-    // Offset: 0x1454454
+    // Offset: 0x122AB90
     Zenject::BindInfo* get_BindInfo();
     // private System.Void set_BindInfo(Zenject.BindInfo value)
-    // Offset: 0x145445C
+    // Offset: 0x122AB98
     void set_BindInfo(Zenject::BindInfo* value);
     // public System.Void IfNotBound()
-    // Offset: 0x1454464
+    // Offset: 0x122ABA0
     void IfNotBound();
   }; // Zenject.IfNotBoundBinder
 }

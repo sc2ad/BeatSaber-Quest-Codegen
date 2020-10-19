@@ -22,7 +22,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x14
     float multiplier;
     // public System.Void .ctor()
-    // Offset: 0x18E4A78
+    // Offset: 0x168AE9C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InteractionTarget::Multiplier* New_ctor();

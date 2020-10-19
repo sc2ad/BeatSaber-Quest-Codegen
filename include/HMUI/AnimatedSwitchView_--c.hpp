@@ -49,28 +49,28 @@ namespace HMUI {
     // Set static field: static public HMUI.AnimatedSwitchView/GetColorDelegate <>9__31_5
     static void _set_$$9__31_5(HMUI::AnimatedSwitchView::GetColorDelegate* value);
     // static private System.Void .cctor()
-    // Offset: 0x11AFF1C
+    // Offset: 0x217F364
     static void _cctor();
     // UnityEngine.Color <LerpColors>b__31_0(HMUI.AnimatedSwitchView/ColorBlock colorBlock)
-    // Offset: 0x11AFF8C
+    // Offset: 0x217F3D4
     UnityEngine::Color $LerpColors$b__31_0(HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
     // UnityEngine.Color <LerpColors>b__31_1(HMUI.AnimatedSwitchView/ColorBlock colorBlock)
-    // Offset: 0x11AFFA8
+    // Offset: 0x217F3F0
     UnityEngine::Color $LerpColors$b__31_1(HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
     // UnityEngine.Color <LerpColors>b__31_2(HMUI.AnimatedSwitchView/ColorBlock colorBlock)
-    // Offset: 0x11AFFC4
+    // Offset: 0x217F40C
     UnityEngine::Color $LerpColors$b__31_2(HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
     // UnityEngine.Color <LerpColors>b__31_3(HMUI.AnimatedSwitchView/ColorBlock colorBlock)
-    // Offset: 0x11AFFE0
+    // Offset: 0x217F428
     UnityEngine::Color $LerpColors$b__31_3(HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
     // UnityEngine.Color <LerpColors>b__31_4(HMUI.AnimatedSwitchView/ColorBlock colorBlock)
-    // Offset: 0x11AFFFC
+    // Offset: 0x217F444
     UnityEngine::Color $LerpColors$b__31_4(HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
     // UnityEngine.Color <LerpColors>b__31_5(HMUI.AnimatedSwitchView/ColorBlock colorBlock)
-    // Offset: 0x11B0018
+    // Offset: 0x217F460
     UnityEngine::Color $LerpColors$b__31_5(HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
     // public System.Void .ctor()
-    // Offset: 0x11AFF84
+    // Offset: 0x217F3CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AnimatedSwitchView::$$c* New_ctor();

@@ -64,22 +64,22 @@ namespace OnlineServices::API {
     // Offset: 0x18
     System::UriBuilder* uriBuilder;
     // public System.Void .ctor(System.String uri, System.String secret)
-    // Offset: 0x100C5E0
+    // Offset: 0x1F84C3C
     static HTTPAdminLeaderboardsHelper* New_ctor(::Il2CppString* uri, ::Il2CppString* secret);
     // public System.Threading.Tasks.Task`1<System.String> ServerStatus(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x100C678
+    // Offset: 0x1F84CD4
     System::Threading::Tasks::Task_1<::Il2CppString*>* ServerStatus(System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<OnlineServices.API.HTTPAdminLeaderboardsHelper/LeaderboardsInfoResultDto> LeaderboardsExist(System.String[] leaderboardIds, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x100C7C8
+    // Offset: 0x1F84E24
     System::Threading::Tasks::Task_1<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoResultDto*>* LeaderboardsExist(::Array<::Il2CppString*>* leaderboardIds, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<System.Boolean> CreateOrUpdateLeaderboards(System.String[] leaderboardIds, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x100C92C
+    // Offset: 0x1F84F88
     System::Threading::Tasks::Task_1<bool>* CreateOrUpdateLeaderboards(::Array<::Il2CppString*>* leaderboardIds, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<System.String> SendWebRequestAsync(System.String uri, System.String method, System.String bodyData, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x100CA90
+    // Offset: 0x1F850EC
     System::Threading::Tasks::Task_1<::Il2CppString*>* SendWebRequestAsync(::Il2CppString* uri, ::Il2CppString* method, ::Il2CppString* bodyData, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task SendAndWaitAsync(UnityEngine.Networking.UnityWebRequest webRequest, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x100CC14
+    // Offset: 0x1F85270
     System::Threading::Tasks::Task* SendAndWaitAsync(UnityEngine::Networking::UnityWebRequest* webRequest, System::Threading::CancellationToken cancellationToken);
   }; // OnlineServices.API.HTTPAdminLeaderboardsHelper
 }

@@ -14,16 +14,16 @@ namespace Org::BouncyCastle::Math::EC {
   class AbstractF2mFieldElement : public Org::BouncyCastle::Math::EC::ECFieldElement {
     public:
     // public Org.BouncyCastle.Math.EC.ECFieldElement HalfTrace()
-    // Offset: 0x1B28238
+    // Offset: 0x18C942C
     Org::BouncyCastle::Math::EC::ECFieldElement* HalfTrace();
     // public System.Boolean get_HasFastTrace()
-    // Offset: 0x1B28390
+    // Offset: 0x18C9584
     bool get_HasFastTrace();
     // public System.Int32 Trace()
-    // Offset: 0x1B28398
+    // Offset: 0x18C958C
     int Trace();
     // protected System.Void .ctor()
-    // Offset: 0x1B28504
+    // Offset: 0x18C96F8
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
     // Base method: System.Void ECFieldElement::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -56,31 +56,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Single get_objectLifeTime()
-    // Offset: 0x1C43C50
+    // Offset: 0x21FDDE8
     float get_objectLifeTime();
     // public System.Single get_deltaTime()
-    // Offset: 0x1C43C7C
+    // Offset: 0x21FDE14
     float get_deltaTime();
     // protected System.Void Awake()
-    // Offset: 0x1C43C84
+    // Offset: 0x21FDE1C
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1C43CAC
+    // Offset: 0x21FDE44
     void Start();
     // protected System.Void Update()
-    // Offset: 0x1C43CB0
+    // Offset: 0x21FDE48
     void Update();
     // protected System.Void OnDestroy()
-    // Offset: 0x1C43CB4
+    // Offset: 0x21FDE4C
     void OnDestroy();
     // protected System.Void OnApplicationPause(System.Boolean pauseStatus)
-    // Offset: 0x1C43CB8
+    // Offset: 0x21FDE50
     void OnApplicationPause(bool pauseStatus);
     // public System.Void WhenReady(System.Action action)
-    // Offset: 0x1C43CBC
+    // Offset: 0x21FDE54
     void WhenReady(System::Action* action);
     // private System.Collections.IEnumerator AfterOneFrame(System.Action action)
-    // Offset: 0x1C43D04
+    // Offset: 0x21FDE9C
     System::Collections::IEnumerator* AfterOneFrame(System::Action* action);
     // static public T Create()
     // Offset: 0xFFFFFFFF
@@ -90,13 +90,13 @@ namespace GlobalNamespace {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("", "StandaloneMonobehavior", "Create", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // public System.Threading.Tasks.Task RunAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1C43DC8
+    // Offset: 0x21FDF60
     System::Threading::Tasks::Task* RunAsync(System::Threading::CancellationToken cancellationToken);
     // private System.Collections.IEnumerator RunAsyncCoroutine(System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> tcs, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1C43E64
+    // Offset: 0x21FDFFC
     System::Collections::IEnumerator* RunAsyncCoroutine(System::Threading::Tasks::TaskCompletionSource_1<bool>* tcs, System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x1C37A1C
+    // Offset: 0x21F1BB4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

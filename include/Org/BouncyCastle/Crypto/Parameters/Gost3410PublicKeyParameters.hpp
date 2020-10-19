@@ -29,7 +29,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x28
     Org::BouncyCastle::Math::BigInteger* y;
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger y, Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet)
-    // Offset: 0x10F257C
+    // Offset: 0xF4D20C
     static Gost3410PublicKeyParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* y, Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
   }; // Org.BouncyCastle.Crypto.Parameters.Gost3410PublicKeyParameters
 }

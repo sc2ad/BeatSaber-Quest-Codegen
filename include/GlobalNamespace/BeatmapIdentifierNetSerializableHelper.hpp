@@ -21,10 +21,10 @@ namespace GlobalNamespace {
   class BeatmapIdentifierNetSerializableHelper : public ::Il2CppObject {
     public:
     // static public BeatmapIdentifierNetSerializable GetIdentifier(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x10502C0
+    // Offset: 0x20CAD40
     static GlobalNamespace::BeatmapIdentifierNetSerializable* GetIdentifier(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // static public System.Boolean HasIdentifier(IDifficultyBeatmap difficultyBeatmap, BeatmapIdentifierNetSerializable beatmapId)
-    // Offset: 0x1050560
+    // Offset: 0x20CAFE0
     static bool HasIdentifier(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId);
   }; // BeatmapIdentifierNetSerializableHelper
 }

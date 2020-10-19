@@ -172,74 +172,74 @@ namespace GlobalNamespace {
     // Offset: 0x28
     bool noArrows;
     // public GameplayModifiers/EnergyType get_energyType()
-    // Offset: 0x21BA8E4
+    // Offset: 0x1F0D548
     GlobalNamespace::GameplayModifiers::EnergyType get_energyType();
     // public System.Boolean get_noFail()
-    // Offset: 0x21BA8EC
+    // Offset: 0x1F0D550
     bool get_noFail();
     // public System.Boolean get_demoNoFail()
-    // Offset: 0x21BA8F4
+    // Offset: 0x1F0D558
     bool get_demoNoFail();
     // public System.Boolean get_instaFail()
-    // Offset: 0x21BA8FC
+    // Offset: 0x1F0D560
     bool get_instaFail();
     // public System.Boolean get_failOnSaberClash()
-    // Offset: 0x21BA904
+    // Offset: 0x1F0D568
     bool get_failOnSaberClash();
     // public GameplayModifiers/EnabledObstacleType get_enabledObstacleType()
-    // Offset: 0x21BA90C
+    // Offset: 0x1F0D570
     GlobalNamespace::GameplayModifiers::EnabledObstacleType get_enabledObstacleType();
     // public System.Boolean get_demoNoObstacles()
-    // Offset: 0x21BA914
+    // Offset: 0x1F0D578
     bool get_demoNoObstacles();
     // public System.Boolean get_fastNotes()
-    // Offset: 0x21BA91C
+    // Offset: 0x1F0D580
     bool get_fastNotes();
     // public System.Boolean get_strictAngles()
-    // Offset: 0x21BA924
+    // Offset: 0x1F0D588
     bool get_strictAngles();
     // public System.Boolean get_disappearingArrows()
-    // Offset: 0x21BA92C
+    // Offset: 0x1F0D590
     bool get_disappearingArrows();
     // public System.Boolean get_ghostNotes()
-    // Offset: 0x21BA934
+    // Offset: 0x1F0D598
     bool get_ghostNotes();
     // public System.Boolean get_noBombs()
-    // Offset: 0x21BA93C
+    // Offset: 0x1F0D5A0
     bool get_noBombs();
     // public GameplayModifiers/SongSpeed get_songSpeed()
-    // Offset: 0x21BA944
+    // Offset: 0x1F0D5A8
     GlobalNamespace::GameplayModifiers::SongSpeed get_songSpeed();
     // public System.Boolean get_noArrows()
-    // Offset: 0x21BA94C
+    // Offset: 0x1F0D5B0
     bool get_noArrows();
     // public System.Single get_songSpeedMul()
-    // Offset: 0x21BA954
+    // Offset: 0x1F0D5B8
     float get_songSpeedMul();
     // public System.Void .ctor(System.Boolean demoNoFail, System.Boolean demoNoObstacles, GameplayModifiers/EnergyType energyType, System.Boolean noFail, System.Boolean instaFail, System.Boolean failOnSaberClash, GameplayModifiers/EnabledObstacleType enabledObstacleType, System.Boolean noBombs, System.Boolean fastNotes, System.Boolean strictAngles, System.Boolean disappearingArrows, GameplayModifiers/SongSpeed songSpeed, System.Boolean noArrows, System.Boolean ghostNotes)
-    // Offset: 0x21BA9AC
+    // Offset: 0x1F0D610
     static GameplayModifiers* New_ctor(bool demoNoFail, bool demoNoObstacles, GlobalNamespace::GameplayModifiers::EnergyType energyType, bool noFail, bool instaFail, bool failOnSaberClash, GlobalNamespace::GameplayModifiers::EnabledObstacleType enabledObstacleType, bool noBombs, bool fastNotes, bool strictAngles, bool disappearingArrows, GlobalNamespace::GameplayModifiers::SongSpeed songSpeed, bool noArrows, bool ghostNotes);
     // public GameplayModifiers CopyWith(System.Nullable`1<System.Boolean> demoNoFail, System.Nullable`1<System.Boolean> demoNoObstacles, System.Nullable`1<GameplayModifiers/EnergyType> energyType, System.Nullable`1<System.Boolean> noFail, System.Nullable`1<System.Boolean> instaFail, System.Nullable`1<System.Boolean> failOnSaberClash, System.Nullable`1<GameplayModifiers/EnabledObstacleType> enabledObstacleType, System.Nullable`1<System.Boolean> noBombs, System.Nullable`1<System.Boolean> fastNotes, System.Nullable`1<System.Boolean> strictAngles, System.Nullable`1<System.Boolean> disappearingArrows, System.Nullable`1<GameplayModifiers/SongSpeed> songSpeed, System.Nullable`1<System.Boolean> noArrows, System.Nullable`1<System.Boolean> ghostNotes)
-    // Offset: 0x21BAAAC
+    // Offset: 0x1F0D710
     GlobalNamespace::GameplayModifiers* CopyWith(System::Nullable_1<bool> demoNoFail, System::Nullable_1<bool> demoNoObstacles, System::Nullable_1<GlobalNamespace::GameplayModifiers::EnergyType> energyType, System::Nullable_1<bool> noFail, System::Nullable_1<bool> instaFail, System::Nullable_1<bool> failOnSaberClash, System::Nullable_1<GlobalNamespace::GameplayModifiers::EnabledObstacleType> enabledObstacleType, System::Nullable_1<bool> noBombs, System::Nullable_1<bool> fastNotes, System::Nullable_1<bool> strictAngles, System::Nullable_1<bool> disappearingArrows, System::Nullable_1<GlobalNamespace::GameplayModifiers::SongSpeed> songSpeed, System::Nullable_1<bool> noArrows, System::Nullable_1<bool> ghostNotes);
     // public System.Boolean IsWithoutModifiers()
-    // Offset: 0x21BACC0
+    // Offset: 0x1F0D924
     bool IsWithoutModifiers();
     // static public GameplayModifiers CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x21BAE5C
+    // Offset: 0x1F0DAC0
     static GlobalNamespace::GameplayModifiers* CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void .ctor()
-    // Offset: 0x21BA978
+    // Offset: 0x1F0D5DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GameplayModifiers* New_ctor();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x21BAD40
+    // Offset: 0x1F0D9A4
     // Implemented from: LiteNetLib.Utils.INetImmutableSerializable`1
     // Base method: System.Void INetImmutableSerializable_1::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // private GameplayModifiers LiteNetLib.Utils.INetImmutableSerializable<GameplayModifiers>.CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x21BAE54
+    // Offset: 0x1F0DAB8
     // Implemented from: LiteNetLib.Utils.INetImmutableSerializable`1
     // Base method: T INetImmutableSerializable_1::CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
     GlobalNamespace::GameplayModifiers* LiteNetLib_Utils_INetImmutableSerializable_1_CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);

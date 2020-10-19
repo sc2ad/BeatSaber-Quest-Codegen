@@ -58,34 +58,34 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _spawnRotationID
     static void _set__spawnRotationID(int value);
     // public System.Void add_didRotateEvent(System.Action`1<UnityEngine.Quaternion> value)
-    // Offset: 0xF66A34
+    // Offset: 0x201EB74
     void add_didRotateEvent(System::Action_1<UnityEngine::Quaternion>* value);
     // public System.Void remove_didRotateEvent(System.Action`1<UnityEngine.Quaternion> value)
-    // Offset: 0xF66AD8
+    // Offset: 0x201EC18
     void remove_didRotateEvent(System::Action_1<UnityEngine::Quaternion>* value);
     // public System.Single get_targetRotation()
-    // Offset: 0xF66B7C
+    // Offset: 0x201ECBC
     float get_targetRotation();
     // public System.Single get_currentRotation()
-    // Offset: 0xF66B98
+    // Offset: 0x201ECD8
     float get_currentRotation();
     // protected System.Void Awake()
-    // Offset: 0xF66BA0
+    // Offset: 0x201ECE0
     void Awake();
     // protected System.Void Start()
-    // Offset: 0xF66BC0
+    // Offset: 0x201ED00
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF66D04
+    // Offset: 0x201EE44
     void OnDestroy();
     // private System.Void BeatmapEventAtNoteSpawnCallback(BeatmapEventData beatmapEventData)
-    // Offset: 0xF66D28
+    // Offset: 0x201EE68
     void BeatmapEventAtNoteSpawnCallback(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // protected System.Void Update()
-    // Offset: 0xF66E20
+    // Offset: 0x201EF60
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xF67004
+    // Offset: 0x201F144
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -94,7 +94,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static EnvironmentSpawnRotation* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xF67078
+    // Offset: 0x201F1B8
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

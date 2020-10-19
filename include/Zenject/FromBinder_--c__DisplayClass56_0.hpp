@@ -37,10 +37,10 @@ namespace Zenject {
     // Offset: 0x20
     bool createNew;
     // Zenject.IProvider <FromScriptableObjectResourceInternal>b__0(Zenject.DiContainer container, System.Type type)
-    // Offset: 0x144FAC8
+    // Offset: 0x1226204
     Zenject::IProvider* $FromScriptableObjectResourceInternal$b__0(Zenject::DiContainer* container, System::Type* type);
     // public System.Void .ctor()
-    // Offset: 0x144DFA8
+    // Offset: 0x12246E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FromBinder::$$c__DisplayClass56_0* New_ctor();

@@ -21,29 +21,29 @@ namespace System::Security::Cryptography {
   class DESCryptoServiceProvider : public System::Security::Cryptography::DES {
     public:
     // public System.Void .ctor()
-    // Offset: 0x19CD1D4
+    // Offset: 0x17735F8
     // Implemented from: System.Security.Cryptography.DES
     // Base method: System.Void DES::.ctor()
     // Base method: System.Void SymmetricAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()
     static DESCryptoServiceProvider* New_ctor();
     // public override System.Security.Cryptography.ICryptoTransform CreateEncryptor(System.Byte[] rgbKey, System.Byte[] rgbIV)
-    // Offset: 0x19CD51C
+    // Offset: 0x1773940
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Security.Cryptography.ICryptoTransform SymmetricAlgorithm::CreateEncryptor(System.Byte[] rgbKey, System.Byte[] rgbIV)
     System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::Array<uint8_t>* rgbKey, ::Array<uint8_t>* rgbIV);
     // public override System.Security.Cryptography.ICryptoTransform CreateDecryptor(System.Byte[] rgbKey, System.Byte[] rgbIV)
-    // Offset: 0x19CD898
+    // Offset: 0x1773CBC
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Security.Cryptography.ICryptoTransform SymmetricAlgorithm::CreateDecryptor(System.Byte[] rgbKey, System.Byte[] rgbIV)
     System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::Array<uint8_t>* rgbKey, ::Array<uint8_t>* rgbIV);
     // public override System.Void GenerateKey()
-    // Offset: 0x19CD9C8
+    // Offset: 0x1773DEC
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::GenerateKey()
     void GenerateKey();
     // public override System.Void GenerateIV()
-    // Offset: 0x19CDACC
+    // Offset: 0x1773EF0
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::GenerateIV()
     void GenerateIV();

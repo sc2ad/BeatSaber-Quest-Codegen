@@ -32,10 +32,10 @@ namespace Zenject {
     // Deleting conversion operator: operator Zenject::DiContainer*
     constexpr operator Zenject::DiContainer*() const noexcept = delete;
     // public System.Void .ctor(System.Action`1<Zenject.DiContainer> installMethod)
-    // Offset: 0x11F2650
+    // Offset: 0xFEDEEC
     static ActionInstaller* New_ctor(System::Action_1<Zenject::DiContainer*>* installMethod);
     // public override System.Void InstallBindings()
-    // Offset: 0x11F26BC
+    // Offset: 0xFEDF58
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();

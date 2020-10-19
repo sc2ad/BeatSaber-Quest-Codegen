@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRCompositor::_GetCurrentSceneFocusProcess : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1E2FCC8
+    // Offset: 0x1B8292C
     static IVRCompositor::_GetCurrentSceneFocusProcess* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke()
-    // Offset: 0x1E2FCDC
+    // Offset: 0x1B82940
     uint Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1E2FEF0
+    // Offset: 0x1B82B54
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1E2FF1C
+    // Offset: 0x1B82B80
     uint EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_GetCurrentSceneFocusProcess
 }

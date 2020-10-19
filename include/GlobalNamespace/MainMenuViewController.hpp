@@ -129,45 +129,45 @@ namespace GlobalNamespace {
     // Offset: 0xB0
     System::Action_2<GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton>* didFinishEvent;
     // public System.Void add_didFinishEvent(System.Action`2<MainMenuViewController,MainMenuViewController/MenuButton> value)
-    // Offset: 0xED5934
+    // Offset: 0x1FBF4FC
     void add_didFinishEvent(System::Action_2<GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<MainMenuViewController,MainMenuViewController/MenuButton> value)
-    // Offset: 0xED59D8
+    // Offset: 0x1FBF5A0
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton>* value);
     // private System.Void HandleMenuButton(MainMenuViewController/MenuButton menuButton)
-    // Offset: 0xED5D30
+    // Offset: 0x1FBF8F8
     void HandleMenuButton(GlobalNamespace::MainMenuViewController::MenuButton menuButton);
     // private System.Void <DidActivate>b__12_0()
-    // Offset: 0xED5DB0
+    // Offset: 0x1FBF978
     void $DidActivate$b__12_0();
     // private System.Void <DidActivate>b__12_1()
-    // Offset: 0xED5DB8
+    // Offset: 0x1FBF980
     void $DidActivate$b__12_1();
     // private System.Void <DidActivate>b__12_2()
-    // Offset: 0xED5DC0
+    // Offset: 0x1FBF988
     void $DidActivate$b__12_2();
     // private System.Void <DidActivate>b__12_3()
-    // Offset: 0xED5DC8
+    // Offset: 0x1FBF990
     void $DidActivate$b__12_3();
     // private System.Void <DidActivate>b__12_4()
-    // Offset: 0xED5DD0
+    // Offset: 0x1FBF998
     void $DidActivate$b__12_4();
     // private System.Void <DidActivate>b__12_5()
-    // Offset: 0xED5DD8
+    // Offset: 0x1FBF9A0
     void $DidActivate$b__12_5();
     // private System.Void <DidActivate>b__12_6()
-    // Offset: 0xED5DE0
+    // Offset: 0x1FBF9A8
     void $DidActivate$b__12_6();
     // private System.Void <DidActivate>b__12_7()
-    // Offset: 0xED5DE8
+    // Offset: 0x1FBF9B0
     void $DidActivate$b__12_7();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xED5A7C
+    // Offset: 0x1FBF644
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xED5DA8
+    // Offset: 0x1FBF970
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

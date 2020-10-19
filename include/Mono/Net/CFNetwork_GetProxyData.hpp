@@ -40,7 +40,7 @@ namespace Mono::Net {
     // Offset: 0x30
     System::Threading::ManualResetEvent* evt;
     // public System.Void Dispose()
-    // Offset: 0x1417618
+    // Offset: 0x11EDD54
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -48,7 +48,7 @@ namespace Mono::Net {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // public System.Void .ctor()
-    // Offset: 0x1415314
+    // Offset: 0x11EBA50
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CFNetwork::GetProxyData* New_ctor();

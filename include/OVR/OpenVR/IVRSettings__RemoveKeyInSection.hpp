@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRSettings::_RemoveKeyInSection : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F3C15C
+    // Offset: 0x1C8DDC0
     static IVRSettings::_RemoveKeyInSection* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.String pchSection, System.String pchSettingsKey, ref OVR.OpenVR.EVRSettingsError peError)
-    // Offset: 0x1F3C170
+    // Offset: 0x1C8DDD4
     void Invoke(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, OVR::OpenVR::EVRSettingsError& peError);
     // public System.IAsyncResult BeginInvoke(System.String pchSection, System.String pchSettingsKey, ref OVR.OpenVR.EVRSettingsError peError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F3C598
+    // Offset: 0x1C8E1FC
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, OVR::OpenVR::EVRSettingsError& peError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(ref OVR.OpenVR.EVRSettingsError peError, System.IAsyncResult result)
-    // Offset: 0x1F3C640
+    // Offset: 0x1C8E2A4
     void EndInvoke(OVR::OpenVR::EVRSettingsError& peError, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSettings/_RemoveKeyInSection
 }

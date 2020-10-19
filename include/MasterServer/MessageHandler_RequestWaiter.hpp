@@ -24,7 +24,7 @@ namespace MasterServer {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // protected System.Void .ctor()
-    // Offset: 0x10C5794
+    // Offset: 0x21272FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MessageHandler::RequestWaiter* New_ctor();

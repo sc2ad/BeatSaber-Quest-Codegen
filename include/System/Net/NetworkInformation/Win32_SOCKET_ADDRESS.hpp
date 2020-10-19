@@ -30,7 +30,7 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: Win32_SOCKET_ADDRESS
     constexpr Win32_SOCKET_ADDRESS(System::IntPtr Sockaddr_ = {}, int SockaddrLength_ = {}) noexcept : Sockaddr{Sockaddr_}, SockaddrLength{SockaddrLength_} {}
     // public System.Net.IPAddress GetIPAddress()
-    // Offset: 0xDA96F4
+    // Offset: 0xC5EF24
     System::Net::IPAddress* GetIPAddress();
   }; // System.Net.NetworkInformation.Win32_SOCKET_ADDRESS
 }

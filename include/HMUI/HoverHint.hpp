@@ -47,32 +47,32 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String get_text()
-    // Offset: 0x11BCDD8
+    // Offset: 0x218C220
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x11BCDE0
+    // Offset: 0x218C228
     void set_text(::Il2CppString* value);
     // public UnityEngine.Vector2 get_size()
-    // Offset: 0x11BCDE8
+    // Offset: 0x218C230
     UnityEngine::Vector2 get_size();
     // public UnityEngine.Vector3 get_worldCenter()
-    // Offset: 0x11BCE80
+    // Offset: 0x218C2C8
     UnityEngine::Vector3 get_worldCenter();
     // protected System.Void OnDisable()
-    // Offset: 0x11BD224
+    // Offset: 0x218C66C
     void OnDisable();
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x11BD008
+    // Offset: 0x218C450
     // Implemented from: UnityEngine.EventSystems.IPointerEnterHandler
     // Base method: System.Void IPointerEnterHandler::OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x11BD0BC
+    // Offset: 0x218C504
     // Implemented from: UnityEngine.EventSystems.IPointerExitHandler
     // Base method: System.Void IPointerExitHandler::OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerExit(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0x11BD2B4
+    // Offset: 0x218C6FC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

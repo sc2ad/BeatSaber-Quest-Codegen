@@ -275,31 +275,31 @@ namespace TMPro {
     // Set static field: static private UnityEngine.Shader k_ShaderRef_MobileBitmap
     static void _set_k_ShaderRef_MobileBitmap(UnityEngine::Shader* value);
     // static UnityEngine.Shader get_ShaderRef_MobileSDF()
-    // Offset: 0xF403C0
+    // Offset: 0xEBACF4
     static UnityEngine::Shader* get_ShaderRef_MobileSDF();
     // static UnityEngine.Shader get_ShaderRef_MobileBitmap()
-    // Offset: 0xF404D0
+    // Offset: 0xEBAE04
     static UnityEngine::Shader* get_ShaderRef_MobileBitmap();
     // static private System.Void .cctor()
-    // Offset: 0xF405E0
+    // Offset: 0xEBAF14
     static void _cctor();
     // static public System.Void GetShaderPropertyIDs()
-    // Offset: 0xF40760
+    // Offset: 0xEBB094
     static void GetShaderPropertyIDs();
     // static public System.Void UpdateShaderRatios(UnityEngine.Material mat)
-    // Offset: 0xF40F54
+    // Offset: 0xEBB888
     static void UpdateShaderRatios(UnityEngine::Material* mat);
     // static public UnityEngine.Vector4 GetFontExtent(UnityEngine.Material material)
-    // Offset: 0xF41488
+    // Offset: 0xEBBDBC
     static UnityEngine::Vector4 GetFontExtent(UnityEngine::Material* material);
     // static public System.Boolean IsMaskingEnabled(UnityEngine.Material material)
-    // Offset: 0xF414E8
+    // Offset: 0xEBBE1C
     static bool IsMaskingEnabled(UnityEngine::Material* material);
     // static public System.Single GetPadding(UnityEngine.Material material, System.Boolean enableExtraPadding, System.Boolean isBold)
-    // Offset: 0xF4169C
+    // Offset: 0xEBBFD0
     static float GetPadding(UnityEngine::Material* material, bool enableExtraPadding, bool isBold);
     // static public System.Single GetPadding(UnityEngine.Material[] materials, System.Boolean enableExtraPadding, System.Boolean isBold)
-    // Offset: 0xF41F50
+    // Offset: 0xEBC884
     static float GetPadding(::Array<UnityEngine::Material*>* materials, bool enableExtraPadding, bool isBold);
   }; // TMPro.ShaderUtilities
 }

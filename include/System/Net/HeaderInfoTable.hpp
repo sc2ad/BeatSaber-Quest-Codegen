@@ -42,19 +42,19 @@ namespace System::Net {
     // Set static field: static private System.Net.HeaderParser MultiParser
     static void _set_MultiParser(System::Net::HeaderParser* value);
     // static private System.String[] ParseSingleValue(System.String value)
-    // Offset: 0x145C018
+    // Offset: 0x1232840
     static ::Array<::Il2CppString*>* ParseSingleValue(::Il2CppString* value);
     // static private System.String[] ParseMultiValue(System.String value)
-    // Offset: 0x145C0C4
+    // Offset: 0x12328EC
     static ::Array<::Il2CppString*>* ParseMultiValue(::Il2CppString* value);
     // static private System.Void .cctor()
-    // Offset: 0x145C2C0
+    // Offset: 0x1232AE8
     static void _cctor();
     // System.Net.HeaderInfo get_Item(System.String name)
-    // Offset: 0x145DB04
+    // Offset: 0x123432C
     System::Net::HeaderInfo* get_Item(::Il2CppString* name);
     // public System.Void .ctor()
-    // Offset: 0x145DBEC
+    // Offset: 0x1234414
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HeaderInfoTable* New_ctor();

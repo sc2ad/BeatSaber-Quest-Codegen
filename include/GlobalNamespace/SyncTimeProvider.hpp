@@ -28,12 +28,12 @@ namespace GlobalNamespace {
       return multiplayerSessionManager;
     }
     // public System.Single get_time()
-    // Offset: 0xF308BC
+    // Offset: 0x1F97B30
     // Implemented from: ITimeProvider
     // Base method: System.Single ITimeProvider::get_time()
     float get_time();
     // public System.Void .ctor()
-    // Offset: 0xF30970
+    // Offset: 0x1F97BE4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SyncTimeProvider* New_ctor();

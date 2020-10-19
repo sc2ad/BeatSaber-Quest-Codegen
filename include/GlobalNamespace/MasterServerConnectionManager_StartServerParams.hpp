@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Offset: 0x58
     GlobalNamespace::GameplayServerConfiguration configuration;
     // public System.Void .ctor()
-    // Offset: 0x10CE968
+    // Offset: 0x21304D0
     // Implemented from: MasterServerConnectionManager/MasterServerConnectionManagerParamsBase
     // Base method: System.Void MasterServerConnectionManagerParamsBase::.ctor()
     // Base method: System.Void Object::.ctor()

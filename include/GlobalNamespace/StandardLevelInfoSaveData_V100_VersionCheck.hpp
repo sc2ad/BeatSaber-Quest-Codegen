@@ -21,10 +21,10 @@ namespace GlobalNamespace {
       return version;
     }
     // public System.String get_version()
-    // Offset: 0xF2B71C
+    // Offset: 0x1F92914
     ::Il2CppString* get_version();
     // public System.Void .ctor()
-    // Offset: 0xF2B724
+    // Offset: 0x1F9291C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static StandardLevelInfoSaveData_V100::VersionCheck* New_ctor();

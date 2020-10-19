@@ -47,19 +47,19 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void ExecuteAnimation(UnityEngine.GameObject go)
-    // Offset: 0x1173F18
+    // Offset: 0x216D900
     void ExecuteAnimation(UnityEngine::GameObject* go);
     // public System.Void ExecuteAnimation(UnityEngine.GameObject go, System.Action finishedCallback)
-    // Offset: 0x1173F28
+    // Offset: 0x216D910
     void ExecuteAnimation(UnityEngine::GameObject* go, System::Action* finishedCallback);
     // public System.Void ExecuteAnimation(UnityEngine.GameObject go, UnityEngine.CanvasGroup parentCanvasGroup, System.Action finishedCallback)
-    // Offset: 0x1173F38
+    // Offset: 0x216D920
     void ExecuteAnimation(UnityEngine::GameObject* go, UnityEngine::CanvasGroup* parentCanvasGroup, System::Action* finishedCallback);
     // public System.Void ExecuteAnimation(UnityEngine.GameObject go, UnityEngine.CanvasGroup parentCanvasGroup, System.Boolean instant, System.Action finishedCallback)
-    // Offset: 0x1171D24
+    // Offset: 0x216B70C
     void ExecuteAnimation(UnityEngine::GameObject* go, UnityEngine::CanvasGroup* parentCanvasGroup, bool instant, System::Action* finishedCallback);
     // public System.Void .ctor()
-    // Offset: 0x1173F44
+    // Offset: 0x216D92C
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

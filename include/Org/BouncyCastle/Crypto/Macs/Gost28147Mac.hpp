@@ -42,55 +42,55 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Offset: 0x40
     ::Array<uint8_t>* S;
     // static private System.Int32[] GenerateWorkingKey(System.Byte[] userKey)
-    // Offset: 0x16F7E4C
+    // Offset: 0x14B2A20
     static ::Array<int>* GenerateWorkingKey(::Array<uint8_t>* userKey);
     // private System.Int32 gost28147_mainStep(System.Int32 n1, System.Int32 key)
-    // Offset: 0x16F82D0
+    // Offset: 0x14B2EA4
     int gost28147_mainStep(int n1, int key);
     // private System.Void gost28147MacFunc(System.Int32[] workingKey, System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x16F83C4
+    // Offset: 0x14B2F98
     void gost28147MacFunc(::Array<int>* workingKey, ::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
     // static private System.Int32 bytesToint(System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x16F7F50
+    // Offset: 0x14B2B24
     static int bytesToint(::Array<uint8_t>* input, int inOff);
     // static private System.Void intTobytes(System.Int32 num, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x16F84B4
+    // Offset: 0x14B3088
     static void intTobytes(int num, ::Array<uint8_t>* output, int outOff);
     // static private System.Byte[] CM5func(System.Byte[] buf, System.Int32 bufOff, System.Byte[] mac)
-    // Offset: 0x16F8540
+    // Offset: 0x14B3114
     static ::Array<uint8_t>* CM5func(::Array<uint8_t>* buf, int bufOff, ::Array<uint8_t>* mac);
     // public System.Void .ctor()
-    // Offset: 0x16F7D68
+    // Offset: 0x14B293C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Gost28147Mac* New_ctor();
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x16F7FD0
+    // Offset: 0x14B2BA4
     // Implemented from: Org.BouncyCastle.Crypto.IMac
     // Base method: System.Void IMac::Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetMacSize()
-    // Offset: 0x16F82C8
+    // Offset: 0x14B2E9C
     // Implemented from: Org.BouncyCastle.Crypto.IMac
     // Base method: System.Int32 IMac::GetMacSize()
     int GetMacSize();
     // public System.Void Update(System.Byte input)
-    // Offset: 0x16F8634
+    // Offset: 0x14B3208
     // Implemented from: Org.BouncyCastle.Crypto.IMac
     // Base method: System.Void IMac::Update(System.Byte input)
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x16F875C
+    // Offset: 0x14B3330
     // Implemented from: Org.BouncyCastle.Crypto.IMac
     // Base method: System.Void IMac::BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
     void BlockUpdate(::Array<uint8_t>* input, int inOff, int len);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x16F896C
+    // Offset: 0x14B3540
     // Implemented from: Org.BouncyCastle.Crypto.IMac
     // Base method: System.Int32 IMac::DoFinal(System.Byte[] output, System.Int32 outOff)
     int DoFinal(::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x16F8284
+    // Offset: 0x14B2E58
     // Implemented from: Org.BouncyCastle.Crypto.IMac
     // Base method: System.Void IMac::Reset()
     void Reset();

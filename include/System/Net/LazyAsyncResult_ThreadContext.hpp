@@ -21,7 +21,7 @@ namespace System::Net {
       return m_NestedIOCount;
     }
     // public System.Void .ctor()
-    // Offset: 0x14720EC
+    // Offset: 0x1248914
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LazyAsyncResult::ThreadContext* New_ctor();

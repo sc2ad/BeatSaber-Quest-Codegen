@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_GetDashboardOverlaySceneProcess : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1D687C8
+    // Offset: 0x1ABA42C
     static IVROverlay::_GetDashboardOverlaySceneProcess* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, ref System.UInt32 punProcessId)
-    // Offset: 0x1D687DC
+    // Offset: 0x1ABA440
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, uint& punProcessId);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, ref System.UInt32 punProcessId, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1D68A60
+    // Offset: 0x1ABA6C4
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint& punProcessId, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(ref System.UInt32 punProcessId, System.IAsyncResult result)
-    // Offset: 0x1D68B10
+    // Offset: 0x1ABA774
     OVR::OpenVR::EVROverlayError EndInvoke(uint& punProcessId, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetDashboardOverlaySceneProcess
 }

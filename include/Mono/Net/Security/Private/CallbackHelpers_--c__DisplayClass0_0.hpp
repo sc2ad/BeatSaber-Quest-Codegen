@@ -40,10 +40,10 @@ namespace Mono::Net::Security::Private {
       return callback;
     }
     // System.Boolean <PublicToMono>b__0(System.String h, System.Security.Cryptography.X509Certificates.X509Certificate c, System.Security.Cryptography.X509Certificates.X509Chain ch, Mono.Security.Interface.MonoSslPolicyErrors e)
-    // Offset: 0x1420970
+    // Offset: 0x11F70AC
     bool $PublicToMono$b__0(::Il2CppString* h, System::Security::Cryptography::X509Certificates::X509Certificate* c, System::Security::Cryptography::X509Certificates::X509Chain* ch, Mono::Security::Interface::MonoSslPolicyErrors e);
     // public System.Void .ctor()
-    // Offset: 0x1420958
+    // Offset: 0x11F7094
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CallbackHelpers::$$c__DisplayClass0_0* New_ctor();

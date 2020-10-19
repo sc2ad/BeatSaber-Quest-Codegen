@@ -41,10 +41,10 @@ namespace UnityEngine::TestTools::TestRunner {
     // Offset: 0x28
     ::Il2CppString* bootstrapScene;
     // NUnit.Framework.Interfaces.ITestFilter BuildNUnitFilter()
-    // Offset: 0x12C6394
+    // Offset: 0x10C1C30
     NUnit::Framework::Interfaces::ITestFilter* BuildNUnitFilter();
     // public System.Void .ctor()
-    // Offset: 0x12C5DF4
+    // Offset: 0x10C1690
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlaymodeTestsControllerSettings* New_ctor();

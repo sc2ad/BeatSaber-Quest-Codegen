@@ -71,30 +71,30 @@ namespace GlobalNamespace {
     // Offset: 0xA8
     GlobalNamespace::MissionNode* missionNode;
     // public System.Void add_didPressPlayButtonEvent(System.Action`1<MissionLevelDetailViewController> value)
-    // Offset: 0xEDD51C
+    // Offset: 0x1FC70E4
     void add_didPressPlayButtonEvent(System::Action_1<GlobalNamespace::MissionLevelDetailViewController*>* value);
     // public System.Void remove_didPressPlayButtonEvent(System.Action`1<MissionLevelDetailViewController> value)
-    // Offset: 0xEDD5C0
+    // Offset: 0x1FC7188
     void remove_didPressPlayButtonEvent(System::Action_1<GlobalNamespace::MissionLevelDetailViewController*>* value);
     // public MissionNode get_missionNode()
-    // Offset: 0xEDD664
+    // Offset: 0x1FC722C
     GlobalNamespace::MissionNode* get_missionNode();
     // public System.Void Setup(MissionNode missionNode)
-    // Offset: 0xEDD66C
+    // Offset: 0x1FC7234
     void Setup(GlobalNamespace::MissionNode* missionNode);
     // public System.Void RefreshContent()
-    // Offset: 0xEDD6B0
+    // Offset: 0x1FC7278
     void RefreshContent();
     // private System.Void PlayButtonPressed()
-    // Offset: 0xEDD920
+    // Offset: 0x1FC74E8
     void PlayButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xEDD874
+    // Offset: 0x1FC743C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xEDD984
+    // Offset: 0x1FC754C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

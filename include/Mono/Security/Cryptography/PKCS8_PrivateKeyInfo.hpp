@@ -44,37 +44,37 @@ namespace Mono::Security::Cryptography {
     // Offset: 0x28
     System::Collections::ArrayList* list;
     // public System.Void .ctor(System.Byte[] data)
-    // Offset: 0x1B8403C
+    // Offset: 0x1926230
     static PKCS8::PrivateKeyInfo* New_ctor(::Array<uint8_t>* data);
     // public System.Byte[] get_PrivateKey()
-    // Offset: 0x1B842B4
+    // Offset: 0x19264A8
     ::Array<uint8_t>* get_PrivateKey();
     // private System.Void Decode(System.Byte[] data)
-    // Offset: 0x1B84068
+    // Offset: 0x192625C
     void Decode(::Array<uint8_t>* data);
     // static private System.Byte[] RemoveLeadingZero(System.Byte[] bigInt)
-    // Offset: 0x1B84330
+    // Offset: 0x1926524
     static ::Array<uint8_t>* RemoveLeadingZero(::Array<uint8_t>* bigInt);
     // static private System.Byte[] Normalize(System.Byte[] bigInt, System.Int32 length)
-    // Offset: 0x1B843DC
+    // Offset: 0x19265D0
     static ::Array<uint8_t>* Normalize(::Array<uint8_t>* bigInt, int length);
     // static public System.Security.Cryptography.RSA DecodeRSA(System.Byte[] keypair)
-    // Offset: 0x1B84490
+    // Offset: 0x1926684
     static System::Security::Cryptography::RSA* DecodeRSA(::Array<uint8_t>* keypair);
     // static public System.Byte[] Encode(System.Security.Cryptography.RSA rsa)
-    // Offset: 0x1B848B0
+    // Offset: 0x1926AA4
     static ::Array<uint8_t>* Encode(System::Security::Cryptography::RSA* rsa);
     // static public System.Security.Cryptography.DSA DecodeDSA(System.Byte[] privateKey, System.Security.Cryptography.DSAParameters dsaParameters)
-    // Offset: 0x1B84A8C
+    // Offset: 0x1926C80
     static System::Security::Cryptography::DSA* DecodeDSA(::Array<uint8_t>* privateKey, System::Security::Cryptography::DSAParameters dsaParameters);
     // static public System.Byte[] Encode(System.Security.Cryptography.DSA dsa)
-    // Offset: 0x1B84BB4
+    // Offset: 0x1926DA8
     static ::Array<uint8_t>* Encode(System::Security::Cryptography::DSA* dsa);
     // static public System.Byte[] Encode(System.Security.Cryptography.AsymmetricAlgorithm aa)
-    // Offset: 0x1B84C00
+    // Offset: 0x1926DF4
     static ::Array<uint8_t>* Encode(System::Security::Cryptography::AsymmetricAlgorithm* aa);
     // public System.Void .ctor()
-    // Offset: 0x1B83FC4
+    // Offset: 0x19261B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PKCS8::PrivateKeyInfo* New_ctor();

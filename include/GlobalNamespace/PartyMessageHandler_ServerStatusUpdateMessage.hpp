@@ -57,13 +57,13 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::GameplayServerConfiguration configuration;
     // static public PacketPool`1<PartyMessageHandler/ServerStatusUpdateMessage> get_pool()
-    // Offset: 0x1C3CDE8
+    // Offset: 0x21F6F80
     static GlobalNamespace::PacketPool_1<GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage*>* get_pool();
     // public PartyMessageHandler/ServerStatusUpdateMessage Init(System.String serverName, System.String password, DiscoveryPolicy discoveryPolicy, InvitePolicy invitePolicy, System.Int32 maxPlayerCount, GameplayServerConfiguration configuration)
-    // Offset: 0x1C3D0EC
+    // Offset: 0x21F7284
     GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage* Init(::Il2CppString* serverName, ::Il2CppString* password, GlobalNamespace::DiscoveryPolicy discoveryPolicy, GlobalNamespace::InvitePolicy invitePolicy, int maxPlayerCount, GlobalNamespace::GameplayServerConfiguration configuration);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1C3E63C
+    // Offset: 0x21F87D4
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -71,7 +71,7 @@ namespace GlobalNamespace {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1C3E6C0
+    // Offset: 0x21F8858
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -79,12 +79,12 @@ namespace GlobalNamespace {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x1C3D7CC
+    // Offset: 0x21F7964
     // Implemented from: IPoolablePacket
     // Base method: System.Void IPoolablePacket::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x1C3E778
+    // Offset: 0x21F8910
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PartyMessageHandler::ServerStatusUpdateMessage* New_ctor();

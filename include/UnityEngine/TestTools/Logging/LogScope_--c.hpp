@@ -35,13 +35,13 @@ namespace UnityEngine::TestTools::Logging {
     // Set static field: static public System.Func`2<UnityEngine.TestTools.Logging.LogEvent,System.Boolean> <>9__53_0
     static void _set_$$9__53_0(System::Func_2<UnityEngine::TestTools::Logging::LogEvent*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x12C0718
+    // Offset: 0x10BBFB4
     static void _cctor();
     // System.Boolean <NoUnexpectedReceived>b__53_0(UnityEngine.TestTools.Logging.LogEvent x)
-    // Offset: 0x12C0788
+    // Offset: 0x10BC024
     bool $NoUnexpectedReceived$b__53_0(UnityEngine::TestTools::Logging::LogEvent* x);
     // public System.Void .ctor()
-    // Offset: 0x12C0780
+    // Offset: 0x10BC01C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LogScope::$$c* New_ctor();

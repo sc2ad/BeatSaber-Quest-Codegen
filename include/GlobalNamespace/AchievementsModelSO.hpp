@@ -42,16 +42,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Initialize()
-    // Offset: 0xFAA310
+    // Offset: 0x20289C0
     void Initialize();
     // public System.Void UnlockAchievement(AchievementSO achievement)
-    // Offset: 0xFAB288
+    // Offset: 0x2029938
     void UnlockAchievement(GlobalNamespace::AchievementSO* achievement);
     // private System.Void <Initialize>b__3_0(PlatformAchievementsModelSO/GetUnlockedAchievementsResult result, System.String[] achievementIds)
-    // Offset: 0xFAB434
+    // Offset: 0x2029AE4
     void $Initialize$b__3_0(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult result, ::Array<::Il2CppString*>* achievementIds);
     // public System.Void .ctor()
-    // Offset: 0xFAB3B8
+    // Offset: 0x2029A68
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -67,43 +67,43 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public HMUI.TitleViewController get_titleViewController()
-    // Offset: 0x1175AA4
+    // Offset: 0x216F48C
     HMUI::TitleViewController* get_titleViewController();
     // public HMUI.Screen get_mainScreen()
-    // Offset: 0x1175AAC
+    // Offset: 0x216F494
     HMUI::Screen* get_mainScreen();
     // public HMUI.Screen get_leftScreen()
-    // Offset: 0x1175AB4
+    // Offset: 0x216F49C
     HMUI::Screen* get_leftScreen();
     // public HMUI.Screen get_rightScreen()
-    // Offset: 0x1175ABC
+    // Offset: 0x216F4A4
     HMUI::Screen* get_rightScreen();
     // public HMUI.Screen get_bottomScreen()
-    // Offset: 0x1175AC4
+    // Offset: 0x216F4AC
     HMUI::Screen* get_bottomScreen();
     // public HMUI.Screen get_topScreen()
-    // Offset: 0x1175ACC
+    // Offset: 0x216F4B4
     HMUI::Screen* get_topScreen();
     // public System.Void add_backButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1175AD4
+    // Offset: 0x216F4BC
     void add_backButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_backButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1175B78
+    // Offset: 0x216F560
     void remove_backButtonWasPressedEvent(System::Action* value);
     // private System.Void Awake()
-    // Offset: 0x1175C1C
+    // Offset: 0x216F604
     void Awake();
     // private System.Void OnDestroy()
-    // Offset: 0x1175CE0
+    // Offset: 0x216F6C8
     void OnDestroy();
     // public System.Void SetBackButton(System.Boolean visible, System.Boolean animated)
-    // Offset: 0x1175CFC
+    // Offset: 0x216F6E4
     void SetBackButton(bool visible, bool animated);
     // private System.Void <Awake>b__24_0()
-    // Offset: 0x1175D40
+    // Offset: 0x216F728
     void $Awake$b__24_0();
     // public System.Void .ctor()
-    // Offset: 0x1175D38
+    // Offset: 0x216F720
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

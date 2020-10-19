@@ -33,10 +33,10 @@ namespace Zenject {
       return context;
     }
     // System.Type <ResolveTypeAll>b__0(Zenject.DiContainer/ProviderInfo x)
-    // Offset: 0x14476C4
+    // Offset: 0x121DE00
     System::Type* $ResolveTypeAll$b__0(Zenject::DiContainer::ProviderInfo* x);
     // public System.Void .ctor()
-    // Offset: 0x14476BC
+    // Offset: 0x121DDF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DiContainer::$$c__DisplayClass86_0* New_ctor();

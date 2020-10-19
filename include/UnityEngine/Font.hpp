@@ -38,34 +38,34 @@ namespace UnityEngine {
     // Set static field: static private System.Action`1<UnityEngine.Font> textureRebuilt
     static void _set_textureRebuilt(System::Action_1<UnityEngine::Font*>* value);
     // static public System.Void add_textureRebuilt(System.Action`1<UnityEngine.Font> value)
-    // Offset: 0x2216218
+    // Offset: 0x1F66C28
     static void add_textureRebuilt(System::Action_1<UnityEngine::Font*>* value);
     // static public System.Void remove_textureRebuilt(System.Action`1<UnityEngine.Font> value)
-    // Offset: 0x22162CC
+    // Offset: 0x1F66CDC
     static void remove_textureRebuilt(System::Action_1<UnityEngine::Font*>* value);
     // public UnityEngine.Material get_material()
-    // Offset: 0x2216380
+    // Offset: 0x1F66D90
     UnityEngine::Material* get_material();
     // public System.Boolean get_dynamic()
-    // Offset: 0x22163C0
+    // Offset: 0x1F66DD0
     bool get_dynamic();
     // public System.Int32 get_fontSize()
-    // Offset: 0x2216400
+    // Offset: 0x1F66E10
     int get_fontSize();
     // static System.Void InvokeTextureRebuilt_Internal(UnityEngine.Font font)
-    // Offset: 0x2216524
+    // Offset: 0x1F66F34
     static void InvokeTextureRebuilt_Internal(UnityEngine::Font* font);
     // public System.Boolean HasCharacter(System.Char c)
-    // Offset: 0x22167B8
+    // Offset: 0x1F671C8
     bool HasCharacter(::Il2CppChar c);
     // private System.Boolean HasCharacter(System.Int32 c)
-    // Offset: 0x2216808
+    // Offset: 0x1F67218
     bool HasCharacter(int c);
     // static private System.Void Internal_CreateFont(UnityEngine.Font self, System.String name)
-    // Offset: 0x22164D4
+    // Offset: 0x1F66EE4
     static void Internal_CreateFont(UnityEngine::Font* self, ::Il2CppString* name);
     // public System.Void .ctor()
-    // Offset: 0x2216440
+    // Offset: 0x1F66E50
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -25,12 +25,12 @@ namespace System::Security::Cryptography::X509Certificates {
   class X509Helper2::MyNativeHelper : public ::Il2CppObject, public System::Security::Cryptography::X509Certificates::INativeCertificateHelper {
     public:
     // public System.Security.Cryptography.X509Certificates.X509CertificateImpl Import(System.Security.Cryptography.X509Certificates.X509Certificate cert)
-    // Offset: 0x16C5FC4
+    // Offset: 0x1480B98
     // Implemented from: System.Security.Cryptography.X509Certificates.INativeCertificateHelper
     // Base method: System.Security.Cryptography.X509Certificates.X509CertificateImpl INativeCertificateHelper::Import(System.Security.Cryptography.X509Certificates.X509Certificate cert)
     System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(System::Security::Cryptography::X509Certificates::X509Certificate* cert);
     // public System.Void .ctor()
-    // Offset: 0x16C5F2C
+    // Offset: 0x1480B00
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static X509Helper2::MyNativeHelper* New_ctor();

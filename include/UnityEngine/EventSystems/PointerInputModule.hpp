@@ -74,56 +74,56 @@ namespace UnityEngine::EventSystems {
     // Set static field: static public System.Int32 kFakeTouchesId
     static void _set_kFakeTouchesId(int value);
     // protected System.Boolean GetPointerData(System.Int32 id, out UnityEngine.EventSystems.PointerEventData data, System.Boolean create)
-    // Offset: 0x127FFEC
+    // Offset: 0x107A888
     bool GetPointerData(int id, UnityEngine::EventSystems::PointerEventData*& data, bool create);
     // protected System.Void RemovePointerData(UnityEngine.EventSystems.PointerEventData data)
-    // Offset: 0x12800D8
+    // Offset: 0x107A974
     void RemovePointerData(UnityEngine::EventSystems::PointerEventData* data);
     // protected UnityEngine.EventSystems.PointerEventData GetTouchPointerEventData(UnityEngine.Touch input, out System.Boolean pressed, out System.Boolean released)
-    // Offset: 0x1280144
+    // Offset: 0x107A9E0
     UnityEngine::EventSystems::PointerEventData* GetTouchPointerEventData(UnityEngine::Touch input, bool& pressed, bool& released);
     // protected System.Void CopyFromTo(UnityEngine.EventSystems.PointerEventData from, UnityEngine.EventSystems.PointerEventData to)
-    // Offset: 0x1280404
+    // Offset: 0x107ACA0
     void CopyFromTo(UnityEngine::EventSystems::PointerEventData* from, UnityEngine::EventSystems::PointerEventData* to);
     // protected UnityEngine.EventSystems.PointerEventData/FramePressState StateForMouseButton(System.Int32 buttonId)
-    // Offset: 0x128047C
+    // Offset: 0x107AD18
     UnityEngine::EventSystems::PointerEventData::FramePressState StateForMouseButton(int buttonId);
     // protected UnityEngine.EventSystems.PointerInputModule/MouseState GetMousePointerEventData()
-    // Offset: 0x1280504
+    // Offset: 0x107ADA0
     UnityEngine::EventSystems::PointerInputModule::MouseState* GetMousePointerEventData();
     // protected UnityEngine.EventSystems.PointerInputModule/MouseState GetMousePointerEventData(System.Int32 id)
-    // Offset: 0x1280518
+    // Offset: 0x107ADB4
     UnityEngine::EventSystems::PointerInputModule::MouseState* GetMousePointerEventData(int id);
     // protected UnityEngine.EventSystems.PointerEventData GetLastPointerEventData(System.Int32 id)
-    // Offset: 0x1280894
+    // Offset: 0x107B130
     UnityEngine::EventSystems::PointerEventData* GetLastPointerEventData(int id);
     // static private System.Boolean ShouldStartDrag(UnityEngine.Vector2 pressPos, UnityEngine.Vector2 currentPos, System.Single threshold, System.Boolean useDragThreshold)
-    // Offset: 0x12808C0
+    // Offset: 0x107B15C
     static bool ShouldStartDrag(UnityEngine::Vector2 pressPos, UnityEngine::Vector2 currentPos, float threshold, bool useDragThreshold);
     // protected System.Void ProcessMove(UnityEngine.EventSystems.PointerEventData pointerEvent)
-    // Offset: 0x1280990
+    // Offset: 0x107B22C
     void ProcessMove(UnityEngine::EventSystems::PointerEventData* pointerEvent);
     // protected System.Void ProcessDrag(UnityEngine.EventSystems.PointerEventData pointerEvent)
-    // Offset: 0x12809D0
+    // Offset: 0x107B26C
     void ProcessDrag(UnityEngine::EventSystems::PointerEventData* pointerEvent);
     // protected System.Void ClearSelection()
-    // Offset: 0x1280D5C
+    // Offset: 0x107B5F8
     void ClearSelection();
     // protected System.Void DeselectIfSelectionChanged(UnityEngine.GameObject currentOverGo, UnityEngine.EventSystems.BaseEventData pointerEvent)
-    // Offset: 0x1281090
+    // Offset: 0x107B92C
     void DeselectIfSelectionChanged(UnityEngine::GameObject* currentOverGo, UnityEngine::EventSystems::BaseEventData* pointerEvent);
     // public override System.Boolean IsPointerOverGameObject(System.Int32 pointerId)
-    // Offset: 0x1280CB0
+    // Offset: 0x107B54C
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Boolean BaseInputModule::IsPointerOverGameObject(System.Int32 pointerId)
     bool IsPointerOverGameObject(int pointerId);
     // public override System.String ToString()
-    // Offset: 0x1280EAC
+    // Offset: 0x107B748
     // Implemented from: UnityEngine.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // protected System.Void .ctor()
-    // Offset: 0x128117C
+    // Offset: 0x107BA18
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Void BaseInputModule::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()

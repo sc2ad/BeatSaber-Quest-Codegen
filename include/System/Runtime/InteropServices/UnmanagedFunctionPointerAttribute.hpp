@@ -33,7 +33,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x1A
     bool SetLastError;
     // public System.Void .ctor(System.Runtime.InteropServices.CallingConvention callingConvention)
-    // Offset: 0x12941BC
+    // Offset: 0x108FA58
     static UnmanagedFunctionPointerAttribute* New_ctor(System::Runtime::InteropServices::CallingConvention callingConvention);
   }; // System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute
 }

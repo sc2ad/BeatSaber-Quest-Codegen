@@ -63,12 +63,12 @@ namespace MasterServer {
     // Creating value type constructor for type: $$SendConnectToServerRequest$b__0$d
     constexpr $$SendConnectToServerRequest$b__0$d(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder $$t__builder_ = {}, MasterServer::UserMessageHandler::$$c__DisplayClass38_0* $$4__this_ = {}, GlobalNamespace::IDiffieHellmanKeyPair* $clientKeys$5__2_ = {}, ::Array<uint8_t>* $random$5__3_ = {}, MasterServer::ConnectToServerResponse* $response$5__4_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IDiffieHellmanKeyPair*> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::ConnectToServerResponse*> $$u__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Array<uint8_t>*> $$u__3_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $clientKeys$5__2{$clientKeys$5__2_}, $random$5__3{$random$5__3_}, $response$5__4{$response$5__4_}, $$u__1{$$u__1_}, $$u__2{$$u__2_}, $$u__3{$$u__3_} {}
     // private System.Void MoveNext()
-    // Offset: 0xDA312C
+    // Offset: 0xE4ECB4
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDA3134
+    // Offset: 0xE4ECBC
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

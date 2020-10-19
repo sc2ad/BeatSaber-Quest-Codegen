@@ -52,24 +52,24 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel;
     // private System.Void AddOculusRequest(Oculus.Platform.Request oculusRequest, HMAsyncRequest asyncRequest)
-    // Offset: 0x1009D24
+    // Offset: 0x1F82380
     void AddOculusRequest(Oculus::Platform::Request* oculusRequest, GlobalNamespace::HMAsyncRequest* asyncRequest);
     // private System.Boolean CheckMessageForValidRequest(Oculus.Platform.Message message)
-    // Offset: 0x1009E40
+    // Offset: 0x1F8249C
     bool CheckMessageForValidRequest(Oculus::Platform::Message* message);
     // public System.Void .ctor()
-    // Offset: 0x1009BF8
+    // Offset: 0x1F82254
     // Implemented from: PlatformLeaderboardsHandler
     // Base method: System.Void PlatformLeaderboardsHandler::.ctor()
     // Base method: System.Void Object::.ctor()
     static OculusPlatformLeaderboardsHandler* New_ctor();
     // public override HMAsyncRequest GetScores(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, PlatformLeaderboardsModel/ScoresScope scope, System.String referencePlayerId, PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler)
-    // Offset: 0x1009EDC
+    // Offset: 0x1F82538
     // Implemented from: PlatformLeaderboardsHandler
     // Base method: HMAsyncRequest PlatformLeaderboardsHandler::GetScores(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, PlatformLeaderboardsModel/ScoresScope scope, System.String referencePlayerId, PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* GetScores(GlobalNamespace::IDifficultyBeatmap* beatmap, int count, int fromRank, GlobalNamespace::PlatformLeaderboardsModel::ScoresScope scope, ::Il2CppString* referencePlayerId, GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler* completionHandler);
     // public override HMAsyncRequest UploadScore(LeaderboardScoreUploader/ScoreData scoreData, PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler)
-    // Offset: 0x100A090
+    // Offset: 0x1F826EC
     // Implemented from: PlatformLeaderboardsHandler
     // Base method: HMAsyncRequest PlatformLeaderboardsHandler::UploadScore(LeaderboardScoreUploader/ScoreData scoreData, PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* UploadScore(GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData, GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* completionHandler);

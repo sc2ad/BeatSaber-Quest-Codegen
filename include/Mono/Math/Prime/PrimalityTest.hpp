@@ -34,16 +34,16 @@ namespace Mono::Math::Prime {
   class PrimalityTest : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1B7CC20
+    // Offset: 0x191EE14
     static PrimalityTest* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(Mono.Math.BigInteger bi, Mono.Math.Prime.ConfidenceFactor confidence)
-    // Offset: 0x1B7CFD4
+    // Offset: 0x191F1C8
     bool Invoke(Mono::Math::BigInteger* bi, Mono::Math::Prime::ConfidenceFactor confidence);
     // public System.IAsyncResult BeginInvoke(Mono.Math.BigInteger bi, Mono.Math.Prime.ConfidenceFactor confidence, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1B7D414
+    // Offset: 0x191F608
     System::IAsyncResult* BeginInvoke(Mono::Math::BigInteger* bi, Mono::Math::Prime::ConfidenceFactor confidence, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1B7D4B0
+    // Offset: 0x191F6A4
     bool EndInvoke(System::IAsyncResult* result);
   }; // Mono.Math.Prime.PrimalityTest
 }

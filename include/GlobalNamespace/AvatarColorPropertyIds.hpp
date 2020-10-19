@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Int32 segmentToHighlightPropertyId
     static void _set_segmentToHighlightPropertyId(int value);
     // static private System.Void .cctor()
-    // Offset: 0xFB2FBC
+    // Offset: 0x203166C
     static void _cctor();
   }; // AvatarColorPropertyIds
 }

@@ -14,10 +14,10 @@ namespace System::Security::Cryptography {
   class MD5 : public System::Security::Cryptography::HashAlgorithm {
     public:
     // static public System.Security.Cryptography.MD5 Create()
-    // Offset: 0x19D26C4
+    // Offset: 0x1778AE8
     static System::Security::Cryptography::MD5* Create();
     // protected System.Void .ctor()
-    // Offset: 0x19D2698
+    // Offset: 0x1778ABC
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()

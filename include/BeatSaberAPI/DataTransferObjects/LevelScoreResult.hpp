@@ -52,7 +52,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Offset: 0x48
     ::Il2CppString* extraDataBase64;
     // public System.Void .ctor()
-    // Offset: 0x10467E0
+    // Offset: 0x20C1520
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LevelScoreResult* New_ctor();

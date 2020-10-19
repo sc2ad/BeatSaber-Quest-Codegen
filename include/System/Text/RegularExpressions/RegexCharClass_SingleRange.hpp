@@ -20,7 +20,7 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x12
     ::Il2CppChar last;
     // System.Void .ctor(System.Char first, System.Char last)
-    // Offset: 0x17FFEB0
+    // Offset: 0x15A72D4
     static RegexCharClass::SingleRange* New_ctor(::Il2CppChar first, ::Il2CppChar last);
   }; // System.Text.RegularExpressions.RegexCharClass/SingleRange
 }

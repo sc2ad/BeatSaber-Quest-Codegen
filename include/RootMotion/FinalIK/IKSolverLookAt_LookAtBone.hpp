@@ -30,23 +30,23 @@ namespace RootMotion::FinalIK {
       return baseForwardOffsetEuler;
     }
     // public System.Void Initiate(UnityEngine.Transform root)
-    // Offset: 0x1A8A5D4
+    // Offset: 0x18287C8
     void Initiate(UnityEngine::Transform* root);
     // public System.Void LookAt(UnityEngine.Vector3 direction, System.Single weight)
-    // Offset: 0x1A8B500
+    // Offset: 0x18296F4
     void LookAt(UnityEngine::Vector3 direction, float weight);
     // public UnityEngine.Vector3 get_forward()
-    // Offset: 0x1A8B0FC
+    // Offset: 0x18292F0
     UnityEngine::Vector3 get_forward();
     // public System.Void .ctor()
-    // Offset: 0x1A8B8A0
+    // Offset: 0x1829A94
     // Implemented from: RootMotion.FinalIK.IKSolver/Bone
     // Base method: System.Void Bone::.ctor()
     // Base method: System.Void Point::.ctor()
     // Base method: System.Void Object::.ctor()
     static IKSolverLookAt::LookAtBone* New_ctor();
     // public System.Void .ctor(UnityEngine.Transform transform)
-    // Offset: 0x1A8A24C
+    // Offset: 0x1828440
     // Implemented from: RootMotion.FinalIK.IKSolver/Bone
     // Base method: System.Void Bone::.ctor(UnityEngine.Transform transform)
     static IKSolverLookAt::LookAtBone* New_ctor(UnityEngine::Transform* transform);

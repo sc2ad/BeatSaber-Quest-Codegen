@@ -44,43 +44,43 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.GUIContent none
     static void _set_none(UnityEngine::GUIContent* value);
     // public System.String get_text()
-    // Offset: 0x1903608
+    // Offset: 0x16A9A2C
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x1903610
+    // Offset: 0x16A9A34
     void set_text(::Il2CppString* value);
     // public System.Void set_image(UnityEngine.Texture value)
-    // Offset: 0x190985C
+    // Offset: 0x16AFC80
     void set_image(UnityEngine::Texture* value);
     // public System.String get_tooltip()
-    // Offset: 0x1905914
+    // Offset: 0x16ABD38
     ::Il2CppString* get_tooltip();
     // public System.Void set_tooltip(System.String value)
-    // Offset: 0x1909864
+    // Offset: 0x16AFC88
     void set_tooltip(::Il2CppString* value);
     // public System.Void .ctor(System.String text)
-    // Offset: 0x19098EC
+    // Offset: 0x16AFD10
     static GUIContent* New_ctor(::Il2CppString* text);
     // public System.Void .ctor(System.String text, UnityEngine.Texture image, System.String tooltip)
-    // Offset: 0x1909958
+    // Offset: 0x16AFD7C
     static GUIContent* New_ctor(::Il2CppString* text, UnityEngine::Texture* image, ::Il2CppString* tooltip);
     // public System.Void .ctor(UnityEngine.GUIContent src)
-    // Offset: 0x1909A2C
+    // Offset: 0x16AFE50
     static GUIContent* New_ctor(UnityEngine::GUIContent* src);
     // static UnityEngine.GUIContent Temp(System.String t)
-    // Offset: 0x1909AF8
+    // Offset: 0x16AFF1C
     static UnityEngine::GUIContent* Temp(::Il2CppString* t);
     // static UnityEngine.GUIContent Temp(UnityEngine.Texture i)
-    // Offset: 0x1909BB0
+    // Offset: 0x16AFFD4
     static UnityEngine::GUIContent* Temp(UnityEngine::Texture* i);
     // static System.Void ClearStaticCache()
-    // Offset: 0x1909C68
+    // Offset: 0x16B008C
     static void ClearStaticCache();
     // static private System.Void .cctor()
-    // Offset: 0x1909D84
+    // Offset: 0x16B01A8
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x190986C
+    // Offset: 0x16AFC90
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GUIContent* New_ctor();

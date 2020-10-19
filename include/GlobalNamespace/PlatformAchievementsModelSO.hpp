@@ -46,22 +46,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private PlatformAchievementsHandler get_platformAchievementsHandler()
-    // Offset: 0xFD87B8
+    // Offset: 0x208348C
     GlobalNamespace::PlatformAchievementsHandler* get_platformAchievementsHandler();
     // public System.Void Initialize()
-    // Offset: 0xFD887C
+    // Offset: 0x2083550
     void Initialize();
     // private System.Void CreatePlatformAchievementsHandler()
-    // Offset: 0xFD87E8
+    // Offset: 0x20834BC
     void CreatePlatformAchievementsHandler();
     // public HMAsyncRequest UnlockAchievement(System.String achievementId, PlatformAchievementsModelSO/UnlockAchievementCompletionHandler completionHandler)
-    // Offset: 0xFD8880
+    // Offset: 0x2083554
     GlobalNamespace::HMAsyncRequest* UnlockAchievement(::Il2CppString* achievementId, GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler* completionHandler);
     // public HMAsyncRequest GetUnlockedAchievements(PlatformAchievementsModelSO/GetUnlockedAchievementsCompletionHandler completionHandler)
-    // Offset: 0xFD8B64
+    // Offset: 0x2083838
     GlobalNamespace::HMAsyncRequest* GetUnlockedAchievements(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler* completionHandler);
     // public System.Void .ctor()
-    // Offset: 0xFD8E54
+    // Offset: 0x2083B28
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -44,21 +44,21 @@ namespace System::Runtime::CompilerServices {
       // Creating value type constructor for type: ConfiguredTaskAwaiter
       constexpr ConfiguredTaskAwaiter(System::Threading::Tasks::Task* m_task_ = {}, bool m_continueOnCapturedContext_ = {}) noexcept : m_task{m_task_}, m_continueOnCapturedContext{m_continueOnCapturedContext_} {}
       // System.Void .ctor(System.Threading.Tasks.Task task, System.Boolean continueOnCapturedContext)
-      // Offset: 0xDA80DC
+      // Offset: 0xC5D90C
       // ABORTED: conflicts with another method.  ConfiguredTaskAwaiter(System::Threading::Tasks::Task* task, bool continueOnCapturedContext);
       // public System.Boolean get_IsCompleted()
-      // Offset: 0xDA8110
+      // Offset: 0xC5D940
       bool get_IsCompleted();
       // public System.Void GetResult()
-      // Offset: 0xDA8154
+      // Offset: 0xC5D984
       void GetResult();
       // public System.Void OnCompleted(System.Action continuation)
-      // Offset: 0xDA812C
+      // Offset: 0xC5D95C
       // Implemented from: System.Runtime.CompilerServices.INotifyCompletion
       // Base method: System.Void INotifyCompletion::OnCompleted(System.Action continuation)
       void OnCompleted(System::Action* continuation);
       // public System.Void UnsafeOnCompleted(System.Action continuation)
-      // Offset: 0xDA8140
+      // Offset: 0xC5D970
       // Implemented from: System.Runtime.CompilerServices.ICriticalNotifyCompletion
       // Base method: System.Void ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action continuation)
       void UnsafeOnCompleted(System::Action* continuation);
@@ -73,10 +73,10 @@ namespace System::Runtime::CompilerServices {
       return m_configuredTaskAwaiter;
     }
     // System.Void .ctor(System.Threading.Tasks.Task task, System.Boolean continueOnCapturedContext)
-    // Offset: 0xDA8088
+    // Offset: 0xC5D8B8
     ConfiguredTaskAwaitable(System::Threading::Tasks::Task* task, bool continueOnCapturedContext);
     // public System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter GetAwaiter()
-    // Offset: 0xDA8094
+    // Offset: 0xC5D8C4
     System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter GetAwaiter();
   }; // System.Runtime.CompilerServices.ConfiguredTaskAwaitable
 }

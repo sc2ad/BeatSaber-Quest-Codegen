@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRApplications::_SetDefaultApplicationForMimeType : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1538CAC
+    // Offset: 0x130F4D4
     static IVRApplications::_SetDefaultApplicationForMimeType* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRApplicationError Invoke(System.String pchAppKey, System.String pchMimeType)
-    // Offset: 0x152E5A8
+    // Offset: 0x1304DD0
     Valve::VR::EVRApplicationError Invoke(::Il2CppString* pchAppKey, ::Il2CppString* pchMimeType);
     // public System.IAsyncResult BeginInvoke(System.String pchAppKey, System.String pchMimeType, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1538CC0
+    // Offset: 0x130F4E8
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchAppKey, ::Il2CppString* pchMimeType, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRApplicationError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1538CF0
+    // Offset: 0x130F518
     Valve::VR::EVRApplicationError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRApplications/_SetDefaultApplicationForMimeType
 }

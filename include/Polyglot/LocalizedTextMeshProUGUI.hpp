@@ -27,22 +27,22 @@ namespace Polyglot {
   class LocalizedTextMeshProUGUI : public Polyglot::LocalizedTextComponent_1<TMPro::TextMeshProUGUI*> {
     public:
     // protected System.Void SetText(TMPro.TextMeshProUGUI text, System.String value)
-    // Offset: 0x219E160
+    // Offset: 0x1EF0DC4
     void SetText(TMPro::TextMeshProUGUI* text, ::Il2CppString* value);
     // protected System.Void UpdateAlignment(TMPro.TextMeshProUGUI text, Polyglot.LanguageDirection direction)
-    // Offset: 0x219E180
+    // Offset: 0x1EF0DE4
     void UpdateAlignment(TMPro::TextMeshProUGUI* text, Polyglot::LanguageDirection direction);
     // private System.Boolean IsOppositeDirection(TMPro.TextAlignmentOptions alignment, Polyglot.LanguageDirection direction)
-    // Offset: 0x219E258
+    // Offset: 0x1EF0EBC
     bool IsOppositeDirection(TMPro::TextAlignmentOptions alignment, Polyglot::LanguageDirection direction);
     // private System.Boolean IsAlignmentRight(TMPro.TextAlignmentOptions alignment)
-    // Offset: 0x219E2B0
+    // Offset: 0x1EF0F14
     bool IsAlignmentRight(TMPro::TextAlignmentOptions alignment);
     // private System.Boolean IsAlignmentLeft(TMPro.TextAlignmentOptions alignment)
-    // Offset: 0x219E2D8
+    // Offset: 0x1EF0F3C
     bool IsAlignmentLeft(TMPro::TextAlignmentOptions alignment);
     // public System.Void .ctor()
-    // Offset: 0x219E300
+    // Offset: 0x1EF0F64
     // Implemented from: Polyglot.LocalizedTextComponent`1
     // Base method: System.Void LocalizedTextComponent_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

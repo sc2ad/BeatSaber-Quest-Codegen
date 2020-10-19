@@ -27,10 +27,10 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x18
     UnityEngine::ProBuilder::WingedEdge* m_Current;
     // public System.Void .ctor(UnityEngine.ProBuilder.WingedEdge start)
-    // Offset: 0x2122FA8
+    // Offset: 0x1E75C0C
     static WingedEdgeEnumerator* New_ctor(UnityEngine::ProBuilder::WingedEdge* start);
     // public System.Boolean MoveNext()
-    // Offset: 0x21232CC
+    // Offset: 0x1E75F30
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -38,7 +38,7 @@ namespace UnityEngine::ProBuilder {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // public System.Void Reset()
-    // Offset: 0x212F518
+    // Offset: 0x1E8217C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();
@@ -46,7 +46,7 @@ namespace UnityEngine::ProBuilder {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
     // public UnityEngine.ProBuilder.WingedEdge get_Current()
-    // Offset: 0x2122FEC
+    // Offset: 0x1E75C50
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator_1::get_Current()
     UnityEngine::ProBuilder::WingedEdge* get_Current();
@@ -54,12 +54,12 @@ namespace UnityEngine::ProBuilder {
     // Maps to method: get_Current
     UnityEngine::ProBuilder::WingedEdge* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x212F524
+    // Offset: 0x1E82188
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void Dispose()
-    // Offset: 0x212F568
+    // Offset: 0x1E821CC
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

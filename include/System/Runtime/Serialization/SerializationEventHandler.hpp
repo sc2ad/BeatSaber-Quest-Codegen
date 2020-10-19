@@ -29,16 +29,16 @@ namespace System::Runtime::Serialization {
   class SerializationEventHandler : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x169DDF4
+    // Offset: 0x14589C8
     static SerializationEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x169DE08
+    // Offset: 0x14589DC
     void Invoke(System::Runtime::Serialization::StreamingContext context);
     // public System.IAsyncResult BeginInvoke(System.Runtime.Serialization.StreamingContext context, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x169E084
+    // Offset: 0x1458C58
     System::IAsyncResult* BeginInvoke(System::Runtime::Serialization::StreamingContext context, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x169E110
+    // Offset: 0x1458CE4
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Runtime.Serialization.SerializationEventHandler
 }

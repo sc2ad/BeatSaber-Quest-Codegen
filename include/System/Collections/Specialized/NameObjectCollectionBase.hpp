@@ -79,60 +79,60 @@ namespace System::Collections::Specialized {
     // Set static field: static private System.StringComparer defaultComparer
     static void _set_defaultComparer(System::StringComparer* value);
     // protected System.Void .ctor(System.Collections.IEqualityComparer equalityComparer)
-    // Offset: 0x1722A9C
+    // Offset: 0x14DE670
     static NameObjectCollectionBase* New_ctor(System::Collections::IEqualityComparer* equalityComparer);
     // protected System.Void .ctor(System.Int32 capacity, System.Collections.IEqualityComparer equalityComparer)
-    // Offset: 0x1722C0C
+    // Offset: 0x14DE7E0
     static NameObjectCollectionBase* New_ctor(int capacity, System::Collections::IEqualityComparer* equalityComparer);
     // protected System.Void .ctor(System.Int32 capacity)
-    // Offset: 0x1722D14
+    // Offset: 0x14DE8E8
     static NameObjectCollectionBase* New_ctor(int capacity);
     // System.Void .ctor(System.DBNull dummy)
-    // Offset: 0x1722DE8
+    // Offset: 0x14DE9BC
     static NameObjectCollectionBase* New_ctor(System::DBNull* dummy);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1722DF0
+    // Offset: 0x14DE9C4
     static NameObjectCollectionBase* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // private System.Void Reset()
-    // Offset: 0x1722B40
+    // Offset: 0x14DE714
     void Reset();
     // private System.Void Reset(System.Int32 capacity)
-    // Offset: 0x1722C3C
+    // Offset: 0x14DE810
     void Reset(int capacity);
     // private System.Collections.Specialized.NameObjectCollectionBase/NameObjectEntry FindEntry(System.String key)
-    // Offset: 0x1723B74
+    // Offset: 0x14DF748
     System::Collections::Specialized::NameObjectCollectionBase::NameObjectEntry* FindEntry(::Il2CppString* key);
     // protected System.Boolean get_IsReadOnly()
-    // Offset: 0x1723C3C
+    // Offset: 0x14DF810
     bool get_IsReadOnly();
     // protected System.Void BaseAdd(System.String name, System.Object value)
-    // Offset: 0x1723A14
+    // Offset: 0x14DF5E8
     void BaseAdd(::Il2CppString* name, ::Il2CppObject* value);
     // protected System.Void BaseRemove(System.String name)
-    // Offset: 0x1723C94
+    // Offset: 0x14DF868
     void BaseRemove(::Il2CppString* name);
     // protected System.Object BaseGet(System.String name)
-    // Offset: 0x1723F54
+    // Offset: 0x14DFB28
     ::Il2CppObject* BaseGet(::Il2CppString* name);
     // protected System.Void BaseSet(System.String name, System.Object value)
-    // Offset: 0x1723F70
+    // Offset: 0x14DFB44
     void BaseSet(::Il2CppString* name, ::Il2CppObject* value);
     // protected System.Object BaseGet(System.Int32 index)
-    // Offset: 0x172404C
+    // Offset: 0x14DFC20
     ::Il2CppObject* BaseGet(int index);
     // protected System.String BaseGetKey(System.Int32 index)
-    // Offset: 0x1723EA8
+    // Offset: 0x14DFA7C
     ::Il2CppString* BaseGetKey(int index);
     // static private System.Void .cctor()
-    // Offset: 0x17244EC
+    // Offset: 0x14E00C0
     static void _cctor();
     // protected System.Void .ctor()
-    // Offset: 0x1722A2C
+    // Offset: 0x14DE600
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NameObjectCollectionBase* New_ctor();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1722E24
+    // Offset: 0x14DE9F8
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -140,7 +140,7 @@ namespace System::Collections::Specialized {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Void OnDeserialization(System.Object sender)
-    // Offset: 0x172337C
+    // Offset: 0x14DEF50
     // Implemented from: System.Runtime.Serialization.IDeserializationCallback
     // Base method: System.Void IDeserializationCallback::OnDeserialization(System.Object sender)
     void OnDeserialization(::Il2CppObject* sender);
@@ -148,7 +148,7 @@ namespace System::Collections::Specialized {
     // Maps to method: OnDeserialization
     void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::Il2CppObject* sender);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x17240F8
+    // Offset: 0x14DFCCC
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* GetEnumerator();
@@ -156,7 +156,7 @@ namespace System::Collections::Specialized {
     // Maps to method: GetEnumerator
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public System.Int32 get_Count()
-    // Offset: 0x17241B8
+    // Offset: 0x14DFD8C
     // Implemented from: System.Collections.ICollection
     // Base method: System.Int32 ICollection::get_Count()
     int get_Count();
@@ -164,7 +164,7 @@ namespace System::Collections::Specialized {
     // Maps to method: get_Count
     int System_Collections_ICollection_get_Count();
     // private System.Void System.Collections.ICollection.CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x17241DC
+    // Offset: 0x14DFDB0
     // Implemented from: System.Collections.ICollection
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
     void System_Collections_ICollection_CopyTo(System::Array* array, int index);

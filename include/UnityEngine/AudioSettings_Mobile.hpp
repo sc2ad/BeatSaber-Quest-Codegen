@@ -34,25 +34,25 @@ namespace UnityEngine {
     // Set static field: static private System.Action`1<System.Boolean> OnMuteStateChanged
     static void _set_OnMuteStateChanged(System::Action_1<bool>* value);
     // static public System.Boolean get_muteState()
-    // Offset: 0x220A8AC
+    // Offset: 0x1F5B2BC
     static bool get_muteState();
     // static private System.Void set_muteState(System.Boolean value)
-    // Offset: 0x220A914
+    // Offset: 0x1F5B324
     static void set_muteState(bool value);
     // static public System.Boolean get_stopAudioOutputOnMute()
-    // Offset: 0x220A984
+    // Offset: 0x1F5B394
     static bool get_stopAudioOutputOnMute();
     // static System.Void InvokeOnMuteStateChanged(System.Boolean mute)
-    // Offset: 0x220A9EC
+    // Offset: 0x1F5B3FC
     static void InvokeOnMuteStateChanged(bool mute);
     // static public System.Void StartAudioOutput()
-    // Offset: 0x220AC94
+    // Offset: 0x1F5B6A4
     static void StartAudioOutput();
     // static public System.Void StopAudioOutput()
-    // Offset: 0x220AC60
+    // Offset: 0x1F5B670
     static void StopAudioOutput();
     // static private System.Void .cctor()
-    // Offset: 0x220ACC8
+    // Offset: 0x1F5B6D8
     static void _cctor();
   }; // UnityEngine.AudioSettings/Mobile
 }

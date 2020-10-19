@@ -26,25 +26,25 @@ namespace UnityEngine {
   class RenderSettings : public UnityEngine::Object {
     public:
     // static public System.Void set_ambientMode(UnityEngine.Rendering.AmbientMode value)
-    // Offset: 0x1BA6B44
+    // Offset: 0x1948D38
     static void set_ambientMode(UnityEngine::Rendering::AmbientMode value);
     // static public System.Void set_ambientSkyColor(UnityEngine.Color value)
-    // Offset: 0x1BA6B84
+    // Offset: 0x1948D78
     static void set_ambientSkyColor(UnityEngine::Color value);
     // static public System.Void set_ambientEquatorColor(UnityEngine.Color value)
-    // Offset: 0x1BA6C14
+    // Offset: 0x1948E08
     static void set_ambientEquatorColor(UnityEngine::Color value);
     // static public System.Void set_ambientGroundColor(UnityEngine.Color value)
-    // Offset: 0x1BA6CA4
+    // Offset: 0x1948E98
     static void set_ambientGroundColor(UnityEngine::Color value);
     // static private System.Void set_ambientSkyColor_Injected(ref UnityEngine.Color value)
-    // Offset: 0x1BA6BD4
+    // Offset: 0x1948DC8
     static void set_ambientSkyColor_Injected(UnityEngine::Color& value);
     // static private System.Void set_ambientEquatorColor_Injected(ref UnityEngine.Color value)
-    // Offset: 0x1BA6C64
+    // Offset: 0x1948E58
     static void set_ambientEquatorColor_Injected(UnityEngine::Color& value);
     // static private System.Void set_ambientGroundColor_Injected(ref UnityEngine.Color value)
-    // Offset: 0x1BA6CF4
+    // Offset: 0x1948EE8
     static void set_ambientGroundColor_Injected(UnityEngine::Color& value);
   }; // UnityEngine.RenderSettings
 }

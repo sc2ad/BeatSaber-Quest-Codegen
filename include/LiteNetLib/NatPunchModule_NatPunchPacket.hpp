@@ -20,19 +20,19 @@ namespace LiteNetLib {
     // Offset: 0x18
     bool IsExternal;
     // public System.String get_Token()
-    // Offset: 0x1A689A0
+    // Offset: 0x1806B94
     ::Il2CppString* get_Token();
     // public System.Void set_Token(System.String value)
-    // Offset: 0x1A689A8
+    // Offset: 0x1806B9C
     void set_Token(::Il2CppString* value);
     // public System.Boolean get_IsExternal()
-    // Offset: 0x1A689B0
+    // Offset: 0x1806BA4
     bool get_IsExternal();
     // public System.Void set_IsExternal(System.Boolean value)
-    // Offset: 0x1A689B8
+    // Offset: 0x1806BAC
     void set_IsExternal(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1A68434
+    // Offset: 0x1806628
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NatPunchModule::NatPunchPacket* New_ctor();

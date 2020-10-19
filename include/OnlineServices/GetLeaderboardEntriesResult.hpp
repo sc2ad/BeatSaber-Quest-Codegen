@@ -35,10 +35,10 @@ namespace OnlineServices {
     // Creating value type constructor for type: GetLeaderboardEntriesResult
     constexpr GetLeaderboardEntriesResult(bool isError_ = {}, ::Array<OnlineServices::LeaderboardEntryData*>* leaderboardEntries_ = {}, int referencePlayerScoreIndex_ = {}) noexcept : isError{isError_}, leaderboardEntries{leaderboardEntries_}, referencePlayerScoreIndex{referencePlayerScoreIndex_} {}
     // public System.Void .ctor(System.Boolean isError, OnlineServices.LeaderboardEntryData[] leaderboardEntries, System.Int32 referencePlayerScoreIndex)
-    // Offset: 0xDA2594
+    // Offset: 0xE4D6E8
     // ABORTED: conflicts with another method.  GetLeaderboardEntriesResult(bool isError, ::Array<OnlineServices::LeaderboardEntryData*>* leaderboardEntries, int referencePlayerScoreIndex);
     // static public OnlineServices.GetLeaderboardEntriesResult get_resultWithError()
-    // Offset: 0x1011828
+    // Offset: 0x1F89E84
     static OnlineServices::GetLeaderboardEntriesResult get_resultWithError();
   }; // OnlineServices.GetLeaderboardEntriesResult
 }

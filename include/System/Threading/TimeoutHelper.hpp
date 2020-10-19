@@ -12,10 +12,10 @@ namespace System::Threading {
   class TimeoutHelper : public ::Il2CppObject {
     public:
     // static public System.UInt32 GetTime()
-    // Offset: 0x16D7770
+    // Offset: 0x1492344
     static uint GetTime();
     // static public System.Int32 UpdateTimeOut(System.UInt32 startTime, System.Int32 originalWaitMillisecondsTimeout)
-    // Offset: 0x16D7C00
+    // Offset: 0x14927D4
     static int UpdateTimeOut(uint startTime, int originalWaitMillisecondsTimeout);
   }; // System.Threading.TimeoutHelper
 }

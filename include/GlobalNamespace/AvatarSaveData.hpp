@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     // Offset: 0xC0
     UnityEngine::Color clothesDetailColor;
     // public System.Void .ctor()
-    // Offset: 0xFB36EC
+    // Offset: 0x2031D9C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AvatarSaveData* New_ctor();

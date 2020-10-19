@@ -26,10 +26,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public SkinColorSO[] get_colors()
-    // Offset: 0xEF0D6C
+    // Offset: 0x1FF1BAC
     ::Array<GlobalNamespace::SkinColorSO*>* get_colors();
     // public System.Void .ctor()
-    // Offset: 0xEF0D74
+    // Offset: 0x1FF1BB4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

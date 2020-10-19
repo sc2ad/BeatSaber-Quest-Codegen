@@ -18,7 +18,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Offset: 0x18
     ::Il2CppString* expiration;
     // public System.Void .ctor()
-    // Offset: 0x10467C0
+    // Offset: 0x20C1500
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AccessToken* New_ctor();

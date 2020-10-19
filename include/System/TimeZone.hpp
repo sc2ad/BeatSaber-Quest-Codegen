@@ -33,16 +33,16 @@ namespace System {
     // Set static field: static private System.Int64 timezone_check
     static void _set_timezone_check(int64_t value);
     // static public System.TimeZone get_CurrentTimeZone()
-    // Offset: 0x1952B78
+    // Offset: 0x16F9F9C
     static System::TimeZone* get_CurrentTimeZone();
     // public System.TimeSpan GetUtcOffset(System.DateTime time)
     // Offset: 0xFFFFFFFF
     System::TimeSpan GetUtcOffset(System::DateTime time);
     // static private System.Void .cctor()
-    // Offset: 0x1952D88
+    // Offset: 0x16FA1AC
     static void _cctor();
     // protected System.Void .ctor()
-    // Offset: 0x1952B70
+    // Offset: 0x16F9F94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TimeZone* New_ctor();

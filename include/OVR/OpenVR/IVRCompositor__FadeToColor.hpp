@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRCompositor::_FadeToColor : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1D58434
+    // Offset: 0x1AAA098
     static IVRCompositor::_FadeToColor* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Single fSeconds, System.Single fRed, System.Single fGreen, System.Single fBlue, System.Single fAlpha, System.Boolean bBackground)
-    // Offset: 0x1D58448
+    // Offset: 0x1AAA0AC
     void Invoke(float fSeconds, float fRed, float fGreen, float fBlue, float fAlpha, bool bBackground);
     // public System.IAsyncResult BeginInvoke(System.Single fSeconds, System.Single fRed, System.Single fGreen, System.Single fBlue, System.Single fAlpha, System.Boolean bBackground, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1D58744
+    // Offset: 0x1AAA3A8
     System::IAsyncResult* BeginInvoke(float fSeconds, float fRed, float fGreen, float fBlue, float fAlpha, bool bBackground, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1D5884C
+    // Offset: 0x1AAA4B0
     void EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_FadeToColor
 }

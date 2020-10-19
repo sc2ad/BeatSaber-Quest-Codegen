@@ -27,12 +27,12 @@ namespace UnityEngine::ProBuilder {
   class SelectionPickerRenderer::SelectionPickerRendererStandard : public ::Il2CppObject, public UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer {
     public:
     // public UnityEngine.Texture2D RenderLookupTexture(UnityEngine.Camera camera, UnityEngine.Shader shader, System.String tag, System.Int32 width, System.Int32 height)
-    // Offset: 0x15B3EC4
+    // Offset: 0x138A6EC
     // Implemented from: UnityEngine.ProBuilder.SelectionPickerRenderer/ISelectionPickerRenderer
     // Base method: UnityEngine.Texture2D ISelectionPickerRenderer::RenderLookupTexture(UnityEngine.Camera camera, UnityEngine.Shader shader, System.String tag, System.Int32 width, System.Int32 height)
     UnityEngine::Texture2D* RenderLookupTexture(UnityEngine::Camera* camera, UnityEngine::Shader* shader, ::Il2CppString* tag, int width, int height);
     // public System.Void .ctor()
-    // Offset: 0x15B16FC
+    // Offset: 0x1387F24
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SelectionPickerRenderer::SelectionPickerRendererStandard* New_ctor();

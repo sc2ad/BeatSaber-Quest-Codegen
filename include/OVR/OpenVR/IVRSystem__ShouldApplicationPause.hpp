@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_ShouldApplicationPause : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x112B030
+    // Offset: 0xF671C8
     static IVRSystem::_ShouldApplicationPause* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke()
-    // Offset: 0x112B044
+    // Offset: 0xF671DC
     bool Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x112B25C
+    // Offset: 0xF673F4
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x112B288
+    // Offset: 0xF67420
     bool EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_ShouldApplicationPause
 }

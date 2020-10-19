@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRChaperoneSetup::_ReloadFromDisk : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1385854
+    // Offset: 0x115AF90
     static IVRChaperoneSetup::_ReloadFromDisk* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(OVR.OpenVR.EChaperoneConfigFile configFile)
-    // Offset: 0x137CD34
+    // Offset: 0x1152470
     void Invoke(OVR::OpenVR::EChaperoneConfigFile configFile);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.EChaperoneConfigFile configFile, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1385868
+    // Offset: 0x115AFA4
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::EChaperoneConfigFile configFile, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x13858F4
+    // Offset: 0x115B030
     void EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRChaperoneSetup/_ReloadFromDisk
 }

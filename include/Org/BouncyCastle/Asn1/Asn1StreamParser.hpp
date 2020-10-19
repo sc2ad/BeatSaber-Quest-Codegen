@@ -37,25 +37,25 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x20
     ::Array<::Array<uint8_t>*>* tmpBuffers;
     // public System.Void .ctor(System.IO.Stream inStream)
-    // Offset: 0x153B8EC
+    // Offset: 0x1313114
     static Asn1StreamParser* New_ctor(System::IO::Stream* inStream);
     // public System.Void .ctor(System.IO.Stream inStream, System.Int32 limit)
-    // Offset: 0x153CE90
+    // Offset: 0x13146B8
     static Asn1StreamParser* New_ctor(System::IO::Stream* inStream, int limit);
     // Org.BouncyCastle.Asn1.IAsn1Convertible ReadIndef(System.Int32 tagValue)
-    // Offset: 0x154106C
+    // Offset: 0x1318894
     Org::BouncyCastle::Asn1::IAsn1Convertible* ReadIndef(int tagValue);
     // Org.BouncyCastle.Asn1.Asn1Object ReadTaggedObject(System.Boolean constructed, System.Int32 tag)
-    // Offset: 0x153B920
+    // Offset: 0x1313148
     Org::BouncyCastle::Asn1::Asn1Object* ReadTaggedObject(bool constructed, int tag);
     // public Org.BouncyCastle.Asn1.IAsn1Convertible ReadObject()
-    // Offset: 0x1541388
+    // Offset: 0x1318BB0
     Org::BouncyCastle::Asn1::IAsn1Convertible* ReadObject();
     // private System.Void Set00Check(System.Boolean enabled)
-    // Offset: 0x1541900
+    // Offset: 0x1319128
     void Set00Check(bool enabled);
     // Org.BouncyCastle.Asn1.Asn1EncodableVector ReadVector()
-    // Offset: 0x15411BC
+    // Offset: 0x13189E4
     Org::BouncyCastle::Asn1::Asn1EncodableVector* ReadVector();
   }; // Org.BouncyCastle.Asn1.Asn1StreamParser
 }

@@ -20,28 +20,28 @@ namespace UnityEngine {
   class Avatar : public UnityEngine::Object {
     public:
     // public System.Boolean get_isValid()
-    // Offset: 0x21E979C
+    // Offset: 0x1F3E400
     bool get_isValid();
     // public System.Boolean get_isHuman()
-    // Offset: 0x21E97DC
+    // Offset: 0x1F3E440
     bool get_isHuman();
     // System.Single GetAxisLength(System.Int32 humanId)
-    // Offset: 0x21E981C
+    // Offset: 0x1F3E480
     float GetAxisLength(int humanId);
     // UnityEngine.Quaternion GetPostRotation(System.Int32 humanId)
-    // Offset: 0x21E98E8
+    // Offset: 0x1F3E54C
     UnityEngine::Quaternion GetPostRotation(int humanId);
     // System.Single Internal_GetAxisLength(System.Int32 humanId)
-    // Offset: 0x21E9898
+    // Offset: 0x1F3E4FC
     float Internal_GetAxisLength(int humanId);
     // UnityEngine.Quaternion Internal_GetPostRotation(System.Int32 humanId)
-    // Offset: 0x21E9940
+    // Offset: 0x1F3E5A4
     UnityEngine::Quaternion Internal_GetPostRotation(int humanId);
     // private System.Void Internal_GetPostRotation_Injected(System.Int32 humanId, out UnityEngine.Quaternion ret)
-    // Offset: 0x21E99AC
+    // Offset: 0x1F3E610
     void Internal_GetPostRotation_Injected(int humanId, UnityEngine::Quaternion& ret);
     // private System.Void .ctor()
-    // Offset: 0x21E9734
+    // Offset: 0x1F3E398
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()

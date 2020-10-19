@@ -25,7 +25,7 @@ namespace GlobalNamespace {
       return isPublic;
     }
     // public System.Void .ctor()
-    // Offset: 0xFDB9E8
+    // Offset: 0x20866C4
     // Implemented from: BaseNetworkPlayerModel/PartyConfig
     // Base method: System.Void PartyConfig::.ctor()
     // Base method: System.Void Object::.ctor()

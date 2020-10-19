@@ -46,19 +46,19 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kLowPassCutoffFrequency
     static void _set_kLowPassCutoffFrequency(int value);
     // protected System.Void Start()
-    // Offset: 0x1043528
+    // Offset: 0x20AA410
     void Start();
     // protected System.Void LateUpdate()
-    // Offset: 0x1043568
+    // Offset: 0x20AA450
     void LateUpdate();
     // public System.Void ResumeNormalSound()
-    // Offset: 0x1043674
+    // Offset: 0x20AA55C
     void ResumeNormalSound();
     // public System.Void TriggerLowPass()
-    // Offset: 0x10436A8
+    // Offset: 0x20AA590
     void TriggerLowPass();
     // public System.Void .ctor()
-    // Offset: 0x10436F0
+    // Offset: 0x20AA5D8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

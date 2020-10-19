@@ -185,166 +185,166 @@ namespace System::Globalization {
     // Set static field: static readonly System.Boolean IsTaiwanSku
     static void _set_IsTaiwanSku(bool value);
     // static public System.Globalization.CultureInfo get_InvariantCulture()
-    // Offset: 0x191C450
+    // Offset: 0x16C2874
     static System::Globalization::CultureInfo* get_InvariantCulture();
     // static public System.Globalization.CultureInfo get_CurrentCulture()
-    // Offset: 0x191C4C0
+    // Offset: 0x16C28E4
     static System::Globalization::CultureInfo* get_CurrentCulture();
     // static public System.Globalization.CultureInfo get_CurrentUICulture()
-    // Offset: 0x191C4E4
+    // Offset: 0x16C2908
     static System::Globalization::CultureInfo* get_CurrentUICulture();
     // static System.Globalization.CultureInfo ConstructCurrentCulture()
-    // Offset: 0x191C508
+    // Offset: 0x16C292C
     static System::Globalization::CultureInfo* ConstructCurrentCulture();
     // static System.Globalization.CultureInfo ConstructCurrentUICulture()
-    // Offset: 0x191C960
+    // Offset: 0x16C2D84
     static System::Globalization::CultureInfo* ConstructCurrentUICulture();
     // System.String get_Territory()
-    // Offset: 0x191C9BC
+    // Offset: 0x16C2DE0
     ::Il2CppString* get_Territory();
     // public System.Int32 get_LCID()
-    // Offset: 0x191C9C4
+    // Offset: 0x16C2DE8
     int get_LCID();
     // public System.String get_Name()
-    // Offset: 0x191C9CC
+    // Offset: 0x16C2DF0
     ::Il2CppString* get_Name();
     // public System.Globalization.Calendar get_Calendar()
-    // Offset: 0x191C9D4
+    // Offset: 0x16C2DF8
     System::Globalization::Calendar* get_Calendar();
     // public System.Globalization.CultureInfo get_Parent()
-    // Offset: 0x191CC98
+    // Offset: 0x16C30BC
     System::Globalization::CultureInfo* get_Parent();
     // public System.Globalization.TextInfo get_TextInfo()
-    // Offset: 0x191CF18
+    // Offset: 0x16C333C
     System::Globalization::TextInfo* get_TextInfo();
     // static public System.Globalization.CultureInfo[] GetCultures(System.Globalization.CultureTypes types)
-    // Offset: 0x191D454
+    // Offset: 0x16C3878
     static ::Array<System::Globalization::CultureInfo*>* GetCultures(System::Globalization::CultureTypes types);
     // private System.Globalization.CultureInfo/Data GetTextInfoData()
-    // Offset: 0x191D6D8
+    // Offset: 0x16C3AFC
     System::Globalization::CultureInfo::Data GetTextInfoData();
     // public System.Globalization.CompareInfo get_CompareInfo()
-    // Offset: 0x191D7A0
+    // Offset: 0x16C3BC4
     System::Globalization::CompareInfo* get_CompareInfo();
     // public System.Boolean get_IsNeutralCulture()
-    // Offset: 0x191D8DC
+    // Offset: 0x16C3D00
     bool get_IsNeutralCulture();
     // private System.Void CheckNeutral()
-    // Offset: 0x191D930
+    // Offset: 0x16C3D54
     void CheckNeutral();
     // public System.Globalization.NumberFormatInfo get_NumberFormat()
-    // Offset: 0x191D934
+    // Offset: 0x16C3D58
     System::Globalization::NumberFormatInfo* get_NumberFormat();
     // public System.Void set_NumberFormat(System.Globalization.NumberFormatInfo value)
-    // Offset: 0x191DF44
+    // Offset: 0x16C4368
     void set_NumberFormat(System::Globalization::NumberFormatInfo* value);
     // public System.Globalization.DateTimeFormatInfo get_DateTimeFormat()
-    // Offset: 0x191E030
+    // Offset: 0x16C4454
     System::Globalization::DateTimeFormatInfo* get_DateTimeFormat();
     // public System.Void set_DateTimeFormat(System.Globalization.DateTimeFormatInfo value)
-    // Offset: 0x191E184
+    // Offset: 0x16C45A8
     void set_DateTimeFormat(System::Globalization::DateTimeFormatInfo* value);
     // public System.String get_EnglishName()
-    // Offset: 0x191E270
+    // Offset: 0x16C4694
     ::Il2CppString* get_EnglishName();
     // public System.Boolean get_IsReadOnly()
-    // Offset: 0x191E2AC
+    // Offset: 0x16C46D0
     bool get_IsReadOnly();
     // private System.Void Construct()
-    // Offset: 0x191CA7C
+    // Offset: 0x16C2EA0
     void Construct();
     // private System.Boolean construct_internal_locale_from_lcid(System.Int32 lcid)
-    // Offset: 0x191E3BC
+    // Offset: 0x16C47E0
     bool construct_internal_locale_from_lcid(int lcid);
     // private System.Boolean construct_internal_locale_from_name(System.String name)
-    // Offset: 0x191E3C0
+    // Offset: 0x16C47E4
     bool construct_internal_locale_from_name(::Il2CppString* name);
     // static private System.String get_current_locale_name()
-    // Offset: 0x191C6B8
+    // Offset: 0x16C2ADC
     static ::Il2CppString* get_current_locale_name();
     // static private System.Globalization.CultureInfo[] internal_get_cultures(System.Boolean neutral, System.Boolean specific, System.Boolean installed)
-    // Offset: 0x191D6C8
+    // Offset: 0x16C3AEC
     static ::Array<System::Globalization::CultureInfo*>* internal_get_cultures(bool neutral, bool specific, bool installed);
     // private System.Void ConstructInvariant(System.Boolean read_only)
-    // Offset: 0x191E3C4
+    // Offset: 0x16C47E8
     void ConstructInvariant(bool read_only);
     // private System.Globalization.TextInfo CreateTextInfo(System.Boolean readOnly)
-    // Offset: 0x191D020
+    // Offset: 0x16C3444
     System::Globalization::TextInfo* CreateTextInfo(bool readOnly);
     // public System.Void .ctor(System.Int32 culture)
-    // Offset: 0x191CF0C
+    // Offset: 0x16C3330
     static CultureInfo* New_ctor(int culture);
     // public System.Void .ctor(System.Int32 culture, System.Boolean useUserOverride)
-    // Offset: 0x191E5F8
+    // Offset: 0x16C4A1C
     static CultureInfo* New_ctor(int culture, bool useUserOverride);
     // private System.Void .ctor(System.Int32 culture, System.Boolean useUserOverride, System.Boolean read_only)
-    // Offset: 0x191E604
+    // Offset: 0x16C4A28
     static CultureInfo* New_ctor(int culture, bool useUserOverride, bool read_only);
     // public System.Void .ctor(System.String name)
-    // Offset: 0x191CF00
+    // Offset: 0x16C3324
     static CultureInfo* New_ctor(::Il2CppString* name);
     // public System.Void .ctor(System.String name, System.Boolean useUserOverride)
-    // Offset: 0x191E8A0
+    // Offset: 0x16C4CC4
     static CultureInfo* New_ctor(::Il2CppString* name, bool useUserOverride);
     // private System.Void .ctor(System.String name, System.Boolean useUserOverride, System.Boolean read_only)
-    // Offset: 0x191E8AC
+    // Offset: 0x16C4CD0
     static CultureInfo* New_ctor(::Il2CppString* name, bool useUserOverride, bool read_only);
     // static private System.Void insert_into_shared_tables(System.Globalization.CultureInfo c)
-    // Offset: 0x191EBD0
+    // Offset: 0x16C4FF4
     static void insert_into_shared_tables(System::Globalization::CultureInfo* c);
     // static public System.Globalization.CultureInfo GetCultureInfo(System.Int32 culture)
-    // Offset: 0x191ED3C
+    // Offset: 0x16C5160
     static System::Globalization::CultureInfo* GetCultureInfo(int culture);
     // static public System.Globalization.CultureInfo GetCultureInfo(System.String name)
-    // Offset: 0x191EF70
+    // Offset: 0x16C5394
     static System::Globalization::CultureInfo* GetCultureInfo(::Il2CppString* name);
     // static System.Globalization.CultureInfo CreateCulture(System.String name, System.Boolean reference)
-    // Offset: 0x191F194
+    // Offset: 0x16C55B8
     static System::Globalization::CultureInfo* CreateCulture(::Il2CppString* name, bool reference);
     // static public System.Globalization.CultureInfo CreateSpecificCulture(System.String name)
-    // Offset: 0x191C6BC
+    // Offset: 0x16C2AE0
     static System::Globalization::CultureInfo* CreateSpecificCulture(::Il2CppString* name);
     // static private System.Globalization.CultureInfo CreateSpecificCultureFromNeutral(System.String name)
-    // Offset: 0x191F218
+    // Offset: 0x16C563C
     static System::Globalization::CultureInfo* CreateSpecificCultureFromNeutral(::Il2CppString* name);
     // System.Int32 get_CalendarType()
-    // Offset: 0x191D6F0
+    // Offset: 0x16C3B14
     int get_CalendarType();
     // static private System.Globalization.Calendar CreateCalendar(System.Int32 calendarType)
-    // Offset: 0x191CAA8
+    // Offset: 0x16C2ECC
     static System::Globalization::Calendar* CreateCalendar(int calendarType);
     // static private System.Exception CreateNotFoundException(System.String name)
-    // Offset: 0x191EB08
+    // Offset: 0x16C4F2C
     static System::Exception* CreateNotFoundException(::Il2CppString* name);
     // static public System.Globalization.CultureInfo get_DefaultThreadCurrentCulture()
-    // Offset: 0x1921414
+    // Offset: 0x16C7838
     static System::Globalization::CultureInfo* get_DefaultThreadCurrentCulture();
     // static public System.Globalization.CultureInfo get_DefaultThreadCurrentUICulture()
-    // Offset: 0x1921484
+    // Offset: 0x16C78A8
     static System::Globalization::CultureInfo* get_DefaultThreadCurrentUICulture();
     // System.String get_SortName()
-    // Offset: 0x19214F4
+    // Offset: 0x16C7918
     ::Il2CppString* get_SortName();
     // static System.Globalization.CultureInfo get_UserDefaultUICulture()
-    // Offset: 0x19214FC
+    // Offset: 0x16C7920
     static System::Globalization::CultureInfo* get_UserDefaultUICulture();
     // static System.Globalization.CultureInfo get_UserDefaultCulture()
-    // Offset: 0x1921558
+    // Offset: 0x16C797C
     static System::Globalization::CultureInfo* get_UserDefaultCulture();
     // static System.Void CheckDomainSafetyObject(System.Object obj, System.Object container)
-    // Offset: 0x19215B4
+    // Offset: 0x16C79D8
     static void CheckDomainSafetyObject(::Il2CppObject* obj, ::Il2CppObject* container);
     // System.Boolean get_HasInvariantCultureName()
-    // Offset: 0x1921754
+    // Offset: 0x16C7B78
     bool get_HasInvariantCultureName();
     // static System.Boolean VerifyCultureName(System.String cultureName, System.Boolean throwException)
-    // Offset: 0x19217F0
+    // Offset: 0x16C7C14
     static bool VerifyCultureName(::Il2CppString* cultureName, bool throwException);
     // static private System.Void .cctor()
-    // Offset: 0x1921964
+    // Offset: 0x16C7D88
     static void _cctor();
     // public System.Object Clone()
-    // Offset: 0x191D0A4
+    // Offset: 0x16C34C8
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();
@@ -352,27 +352,27 @@ namespace System::Globalization {
     // Maps to method: Clone
     ::Il2CppObject* System_ICloneable_Clone();
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0x191D394
+    // Offset: 0x16C37B8
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x191D78C
+    // Offset: 0x16C3BB0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x191D798
+    // Offset: 0x16C3BBC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public System.Object GetFormat(System.Type formatType)
-    // Offset: 0x191E2B4
+    // Offset: 0x16C46D8
     // Implemented from: System.IFormatProvider
     // Base method: System.Object IFormatProvider::GetFormat(System.Type formatType)
     ::Il2CppObject* GetFormat(System::Type* formatType);
     // private System.Void .ctor()
-    // Offset: 0x191EBA4
+    // Offset: 0x16C4FC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CultureInfo* New_ctor();

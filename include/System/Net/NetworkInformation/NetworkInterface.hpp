@@ -23,22 +23,22 @@ namespace System::Net::NetworkInformation {
   class NetworkInterface : public ::Il2CppObject {
     public:
     // static public System.Net.NetworkInformation.NetworkInterface[] GetAllNetworkInterfaces()
-    // Offset: 0x12CA28C
+    // Offset: 0x10C5B28
     static ::Array<System::Net::NetworkInformation::NetworkInterface*>* GetAllNetworkInterfaces();
     // public System.String get_Name()
-    // Offset: 0x12CA3F0
+    // Offset: 0x10C5C8C
     ::Il2CppString* get_Name();
     // public System.Net.NetworkInformation.IPInterfaceProperties GetIPProperties()
-    // Offset: 0x12CA450
+    // Offset: 0x10C5CEC
     System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
     // public System.Net.NetworkInformation.OperationalStatus get_OperationalStatus()
-    // Offset: 0x12CA4B0
+    // Offset: 0x10C5D4C
     System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
     // public System.Net.NetworkInformation.NetworkInterfaceType get_NetworkInterfaceType()
-    // Offset: 0x12CA510
+    // Offset: 0x10C5DAC
     System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();
     // protected System.Void .ctor()
-    // Offset: 0x12CA570
+    // Offset: 0x10C5E0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NetworkInterface* New_ctor();

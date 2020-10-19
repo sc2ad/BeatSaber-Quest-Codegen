@@ -54,34 +54,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x10AD5A4
+    // Offset: 0x20F95C8
     void add_didSelectCellWithIdxEvent(System::Action_1<int>* value);
     // public System.Void remove_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x10AD648
+    // Offset: 0x20F966C
     void remove_didSelectCellWithIdxEvent(System::Action_1<int>* value);
     // private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<System.Single,System.String>> get_noteJumpStartBeatOffsetData()
-    // Offset: 0x10AD6EC
+    // Offset: 0x20F9710
     System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<float, ::Il2CppString*>*>* get_noteJumpStartBeatOffsetData();
     // protected System.Void Start()
-    // Offset: 0x10AD844
+    // Offset: 0x20F9868
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10AD9CC
+    // Offset: 0x20F99F0
     void OnDestroy();
     // public System.Single GetSelectedOffset()
-    // Offset: 0x10ADAA8
+    // Offset: 0x20F9ACC
     float GetSelectedOffset();
     // public System.Void SelectCellWithOffset(System.Single offset)
-    // Offset: 0x10ADB7C
+    // Offset: 0x20F9BA0
     void SelectCellWithOffset(float offset);
     // private System.Int32 GetIdxForOffset(System.Single offset)
-    // Offset: 0x10ADBB8
+    // Offset: 0x20F9BDC
     int GetIdxForOffset(float offset);
     // private System.Void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0x10ADE0C
+    // Offset: 0x20F9E30
     void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
     // public System.Void .ctor()
-    // Offset: 0x10ADE80
+    // Offset: 0x20F9EA4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

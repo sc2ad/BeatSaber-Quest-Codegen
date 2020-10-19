@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRRenderModels::_LoadTexture_Async : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F514C4
+    // Offset: 0x1CA3128
     static IVRRenderModels::_LoadTexture_Async* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRRenderModelError Invoke(System.Int32 textureId, ref System.IntPtr ppTexture)
-    // Offset: 0x1F514D8
+    // Offset: 0x1CA313C
     Valve::VR::EVRRenderModelError Invoke(int textureId, System::IntPtr& ppTexture);
     // public System.IAsyncResult BeginInvoke(System.Int32 textureId, ref System.IntPtr ppTexture, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F51768
+    // Offset: 0x1CA33CC
     System::IAsyncResult* BeginInvoke(int textureId, System::IntPtr& ppTexture, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRRenderModelError EndInvoke(ref System.IntPtr ppTexture, System.IAsyncResult result)
-    // Offset: 0x1F5181C
+    // Offset: 0x1CA3480
     Valve::VR::EVRRenderModelError EndInvoke(System::IntPtr& ppTexture, System::IAsyncResult* result);
   }; // Valve.VR.IVRRenderModels/_LoadTexture_Async
 }

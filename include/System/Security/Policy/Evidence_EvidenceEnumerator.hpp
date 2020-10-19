@@ -25,10 +25,10 @@ namespace System::Security::Policy {
     // Offset: 0x20
     System::Collections::IEnumerator* assemblyEnum;
     // public System.Void .ctor(System.Collections.IEnumerator hostenum, System.Collections.IEnumerator assemblyenum)
-    // Offset: 0x1435D58
+    // Offset: 0x120C494
     static Evidence::EvidenceEnumerator* New_ctor(System::Collections::IEnumerator* hostenum, System::Collections::IEnumerator* assemblyenum);
     // public System.Boolean MoveNext()
-    // Offset: 0x1435DBC
+    // Offset: 0x120C4F8
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -36,7 +36,7 @@ namespace System::Security::Policy {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1435F20
+    // Offset: 0x120C65C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();
@@ -44,7 +44,7 @@ namespace System::Security::Policy {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
     // public System.Object get_Current()
-    // Offset: 0x1436078
+    // Offset: 0x120C7B4
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* get_Current();

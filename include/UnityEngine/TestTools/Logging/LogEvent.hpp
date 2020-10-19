@@ -26,36 +26,36 @@ namespace UnityEngine::TestTools::Logging {
     // Offset: 0x24
     bool IsHandled;
     // public System.String get_Message()
-    // Offset: 0x12BF590
+    // Offset: 0x10BAE2C
     ::Il2CppString* get_Message();
     // public System.Void set_Message(System.String value)
-    // Offset: 0x12BF598
+    // Offset: 0x10BAE34
     void set_Message(::Il2CppString* value);
     // public System.String get_StackTrace()
-    // Offset: 0x12BF5A0
+    // Offset: 0x10BAE3C
     ::Il2CppString* get_StackTrace();
     // public System.Void set_StackTrace(System.String value)
-    // Offset: 0x12BF5A8
+    // Offset: 0x10BAE44
     void set_StackTrace(::Il2CppString* value);
     // public UnityEngine.LogType get_LogType()
-    // Offset: 0x12BF5B0
+    // Offset: 0x10BAE4C
     UnityEngine::LogType get_LogType();
     // public System.Void set_LogType(UnityEngine.LogType value)
-    // Offset: 0x12BF5B8
+    // Offset: 0x10BAE54
     void set_LogType(UnityEngine::LogType value);
     // public System.Boolean get_IsHandled()
-    // Offset: 0x12BF5C0
+    // Offset: 0x10BAE5C
     bool get_IsHandled();
     // public System.Void set_IsHandled(System.Boolean value)
-    // Offset: 0x12BF5C8
+    // Offset: 0x10BAE64
     void set_IsHandled(bool value);
     // public override System.String ToString()
-    // Offset: 0x12BF5D4
+    // Offset: 0x10BAE70
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public System.Void .ctor()
-    // Offset: 0x12BF658
+    // Offset: 0x10BAEF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LogEvent* New_ctor();

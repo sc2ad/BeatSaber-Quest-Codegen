@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_SetOverlayDualAnalogTransform : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F2D4B0
+    // Offset: 0x1C7F114
     static IVROverlay::_SetOverlayDualAnalogTransform* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlay, OVR.OpenVR.EDualAnalogWhich eWhich, System.IntPtr vCenter, System.Single fRadius)
-    // Offset: 0x1F2D4C4
+    // Offset: 0x1C7F128
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlay, OVR::OpenVR::EDualAnalogWhich eWhich, System::IntPtr vCenter, float fRadius);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlay, OVR.OpenVR.EDualAnalogWhich eWhich, System.IntPtr vCenter, System.Single fRadius, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F2D77C
+    // Offset: 0x1C7F3E0
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlay, OVR::OpenVR::EDualAnalogWhich eWhich, System::IntPtr vCenter, float fRadius, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1F2D868
+    // Offset: 0x1C7F4CC
     OVR::OpenVR::EVROverlayError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_SetOverlayDualAnalogTransform
 }

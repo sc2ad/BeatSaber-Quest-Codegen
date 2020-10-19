@@ -35,13 +35,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<EnvironmentInfoSO,System.String> <>9__11_0
     static void _set_$$9__11_0(System::Func_2<GlobalNamespace::EnvironmentInfoSO*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xF66880
+    // Offset: 0x201E9C0
     static void _cctor();
     // System.String <SetData>b__11_0(EnvironmentInfoSO x)
-    // Offset: 0xF668F0
+    // Offset: 0x201EA30
     ::Il2CppString* $SetData$b__11_0(GlobalNamespace::EnvironmentInfoSO* x);
     // public System.Void .ctor()
-    // Offset: 0xF668E8
+    // Offset: 0x201EA28
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EnvironmentOverrideSettingsPanelController::$$c* New_ctor();

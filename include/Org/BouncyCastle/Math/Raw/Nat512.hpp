@@ -12,10 +12,10 @@ namespace Org::BouncyCastle::Math::Raw {
   class Nat512 : public ::Il2CppObject {
     public:
     // static public System.Void Mul(System.UInt32[] x, System.UInt32[] y, System.UInt32[] zz)
-    // Offset: 0x11A1C80
+    // Offset: 0xFB4A4C
     static void Mul(::Array<uint>* x, ::Array<uint>* y, ::Array<uint>* zz);
     // static public System.Void Square(System.UInt32[] x, System.UInt32[] zz)
-    // Offset: 0x11A1DBC
+    // Offset: 0xFB4B88
     static void Square(::Array<uint>* x, ::Array<uint>* zz);
   }; // Org.BouncyCastle.Math.Raw.Nat512
 }

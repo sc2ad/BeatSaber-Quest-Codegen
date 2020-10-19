@@ -56,34 +56,34 @@ namespace Zenject {
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Reflection.Assembly,System.Type[]> _assemblyTypeCache
     static void _set__assemblyTypeCache(System::Collections::Generic::Dictionary_2<System::Reflection::Assembly*, ::Array<System::Type*>*>* value);
     // public System.Void AddAssemblyFilter(System.Func`2<System.Reflection.Assembly,System.Boolean> predicate)
-    // Offset: 0x11FA6F8
+    // Offset: 0xFF5F94
     void AddAssemblyFilter(System::Func_2<System::Reflection::Assembly*, bool>* predicate);
     // public System.Void AddTypeFilter(System.Func`2<System.Type,System.Boolean> predicate)
-    // Offset: 0x11FA86C
+    // Offset: 0xFF6108
     void AddTypeFilter(System::Func_2<System::Type*, bool>* predicate);
     // private System.Collections.Generic.IEnumerable`1<System.Reflection.Assembly> GetAllAssemblies()
-    // Offset: 0x11FA8D4
+    // Offset: 0xFF6170
     System::Collections::Generic::IEnumerable_1<System::Reflection::Assembly*>* GetAllAssemblies();
     // private System.Boolean ShouldIncludeAssembly(System.Reflection.Assembly assembly)
-    // Offset: 0x11FA8F8
+    // Offset: 0xFF6194
     bool ShouldIncludeAssembly(System::Reflection::Assembly* assembly);
     // private System.Boolean ShouldIncludeType(System.Type type)
-    // Offset: 0x11FA9CC
+    // Offset: 0xFF6268
     bool ShouldIncludeType(System::Type* type);
     // private System.Type[] GetTypes(System.Reflection.Assembly assembly)
-    // Offset: 0x11FAAA0
+    // Offset: 0xFF633C
     ::Array<System::Type*>* GetTypes(System::Reflection::Assembly* assembly);
     // public System.Collections.Generic.List`1<System.Type> ResolveTypes()
-    // Offset: 0x11F7FE8
+    // Offset: 0xFF3884
     System::Collections::Generic::List_1<System::Type*>* ResolveTypes();
     // static private System.Void .cctor()
-    // Offset: 0x11FABA0
+    // Offset: 0xFF643C
     static void _cctor();
     // private System.Collections.Generic.IEnumerable`1<System.Type> <ResolveTypes>b__9_0(System.Reflection.Assembly assembly)
-    // Offset: 0x11FAC18
+    // Offset: 0xFF64B4
     System::Collections::Generic::IEnumerable_1<System::Type*>* $ResolveTypes$b__9_0(System::Reflection::Assembly* assembly);
     // public System.Void .ctor()
-    // Offset: 0x11F7F04
+    // Offset: 0xFF37A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConventionBindInfo* New_ctor();

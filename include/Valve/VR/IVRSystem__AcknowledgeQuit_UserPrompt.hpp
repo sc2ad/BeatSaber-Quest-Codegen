@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRSystem::_AcknowledgeQuit_UserPrompt : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F57DE0
+    // Offset: 0x1CA9A44
     static IVRSystem::_AcknowledgeQuit_UserPrompt* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x1F57DF4
+    // Offset: 0x1CA9A58
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F58000
+    // Offset: 0x1CA9C64
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1F5802C
+    // Offset: 0x1CA9C90
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_AcknowledgeQuit_UserPrompt
 }

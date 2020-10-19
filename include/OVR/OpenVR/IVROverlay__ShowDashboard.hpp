@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_ShowDashboard : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F31FF0
+    // Offset: 0x1C83C54
     static IVROverlay::_ShowDashboard* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.String pchOverlayToShow)
-    // Offset: 0x1F32004
+    // Offset: 0x1C83C68
     void Invoke(::Il2CppString* pchOverlayToShow);
     // public System.IAsyncResult BeginInvoke(System.String pchOverlayToShow, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F323BC
+    // Offset: 0x1C84020
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchOverlayToShow, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1F323E0
+    // Offset: 0x1C84044
     void EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_ShowDashboard
 }

@@ -50,70 +50,70 @@ namespace TMPro {
     // Set static field: static private TMPro.MaterialReferenceManager s_Instance
     static void _set_s_Instance(TMPro::MaterialReferenceManager* value);
     // static public TMPro.MaterialReferenceManager get_instance()
-    // Offset: 0xF3F6E0
+    // Offset: 0xEBA014
     static TMPro::MaterialReferenceManager* get_instance();
     // static public System.Void AddFontAsset(TMPro.TMP_FontAsset fontAsset)
-    // Offset: 0xF3F87C
+    // Offset: 0xEBA1B0
     static void AddFontAsset(TMPro::TMP_FontAsset* fontAsset);
     // private System.Void AddFontAssetInternal(TMPro.TMP_FontAsset fontAsset)
-    // Offset: 0xF3F8A8
+    // Offset: 0xEBA1DC
     void AddFontAssetInternal(TMPro::TMP_FontAsset* fontAsset);
     // static public System.Void AddSpriteAsset(TMPro.TMP_SpriteAsset spriteAsset)
-    // Offset: 0xF3F968
+    // Offset: 0xEBA29C
     static void AddSpriteAsset(TMPro::TMP_SpriteAsset* spriteAsset);
     // private System.Void AddSpriteAssetInternal(TMPro.TMP_SpriteAsset spriteAsset)
-    // Offset: 0xF3F994
+    // Offset: 0xEBA2C8
     void AddSpriteAssetInternal(TMPro::TMP_SpriteAsset* spriteAsset);
     // static public System.Void AddSpriteAsset(System.Int32 hashCode, TMPro.TMP_SpriteAsset spriteAsset)
-    // Offset: 0xF3FA54
+    // Offset: 0xEBA388
     static void AddSpriteAsset(int hashCode, TMPro::TMP_SpriteAsset* spriteAsset);
     // private System.Void AddSpriteAssetInternal(System.Int32 hashCode, TMPro.TMP_SpriteAsset spriteAsset)
-    // Offset: 0xF3FA88
+    // Offset: 0xEBA3BC
     void AddSpriteAssetInternal(int hashCode, TMPro::TMP_SpriteAsset* spriteAsset);
     // static public System.Void AddFontMaterial(System.Int32 hashCode, UnityEngine.Material material)
-    // Offset: 0xF3FB4C
+    // Offset: 0xEBA480
     static void AddFontMaterial(int hashCode, UnityEngine::Material* material);
     // private System.Void AddFontMaterialInternal(System.Int32 hashCode, UnityEngine.Material material)
-    // Offset: 0xF3FB80
+    // Offset: 0xEBA4B4
     void AddFontMaterialInternal(int hashCode, UnityEngine::Material* material);
     // static public System.Void AddColorGradientPreset(System.Int32 hashCode, TMPro.TMP_ColorGradient spriteAsset)
-    // Offset: 0xF3FBF0
+    // Offset: 0xEBA524
     static void AddColorGradientPreset(int hashCode, TMPro::TMP_ColorGradient* spriteAsset);
     // private System.Void AddColorGradientPreset_Internal(System.Int32 hashCode, TMPro.TMP_ColorGradient spriteAsset)
-    // Offset: 0xF3FC24
+    // Offset: 0xEBA558
     void AddColorGradientPreset_Internal(int hashCode, TMPro::TMP_ColorGradient* spriteAsset);
     // public System.Boolean Contains(TMPro.TMP_FontAsset font)
-    // Offset: 0xF3FCC4
+    // Offset: 0xEBA5F8
     bool Contains(TMPro::TMP_FontAsset* font);
     // public System.Boolean Contains(TMPro.TMP_SpriteAsset sprite)
-    // Offset: 0xF3FD30
+    // Offset: 0xEBA664
     bool Contains(TMPro::TMP_SpriteAsset* sprite);
     // static public System.Boolean TryGetFontAsset(System.Int32 hashCode, out TMPro.TMP_FontAsset fontAsset)
-    // Offset: 0xF3FD9C
+    // Offset: 0xEBA6D0
     static bool TryGetFontAsset(int hashCode, TMPro::TMP_FontAsset*& fontAsset);
     // private System.Boolean TryGetFontAssetInternal(System.Int32 hashCode, out TMPro.TMP_FontAsset fontAsset)
-    // Offset: 0xF3FDD0
+    // Offset: 0xEBA704
     bool TryGetFontAssetInternal(int hashCode, TMPro::TMP_FontAsset*& fontAsset);
     // static public System.Boolean TryGetSpriteAsset(System.Int32 hashCode, out TMPro.TMP_SpriteAsset spriteAsset)
-    // Offset: 0xF3FE50
+    // Offset: 0xEBA784
     static bool TryGetSpriteAsset(int hashCode, TMPro::TMP_SpriteAsset*& spriteAsset);
     // private System.Boolean TryGetSpriteAssetInternal(System.Int32 hashCode, out TMPro.TMP_SpriteAsset spriteAsset)
-    // Offset: 0xF3FE84
+    // Offset: 0xEBA7B8
     bool TryGetSpriteAssetInternal(int hashCode, TMPro::TMP_SpriteAsset*& spriteAsset);
     // static public System.Boolean TryGetColorGradientPreset(System.Int32 hashCode, out TMPro.TMP_ColorGradient gradientPreset)
-    // Offset: 0xF3FF04
+    // Offset: 0xEBA838
     static bool TryGetColorGradientPreset(int hashCode, TMPro::TMP_ColorGradient*& gradientPreset);
     // private System.Boolean TryGetColorGradientPresetInternal(System.Int32 hashCode, out TMPro.TMP_ColorGradient gradientPreset)
-    // Offset: 0xF3FF38
+    // Offset: 0xEBA86C
     bool TryGetColorGradientPresetInternal(int hashCode, TMPro::TMP_ColorGradient*& gradientPreset);
     // static public System.Boolean TryGetMaterial(System.Int32 hashCode, out UnityEngine.Material material)
-    // Offset: 0xF3FFB8
+    // Offset: 0xEBA8EC
     static bool TryGetMaterial(int hashCode, UnityEngine::Material*& material);
     // private System.Boolean TryGetMaterialInternal(System.Int32 hashCode, out UnityEngine.Material material)
-    // Offset: 0xF3FFEC
+    // Offset: 0xEBA920
     bool TryGetMaterialInternal(int hashCode, UnityEngine::Material*& material);
     // public System.Void .ctor()
-    // Offset: 0xF3F764
+    // Offset: 0xEBA098
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MaterialReferenceManager* New_ctor();

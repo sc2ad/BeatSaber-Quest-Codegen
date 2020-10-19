@@ -76,33 +76,33 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _bloomIntensityID
     static void _set__bloomIntensityID(int value);
     // protected System.Void OnDisable()
-    // Offset: 0x21A10AC
+    // Offset: 0x1EF2D10
     void OnDisable();
     // private System.Void LazyInitializeMaterials()
-    // Offset: 0x21A0F48
+    // Offset: 0x1EF2BAC
     void LazyInitializeMaterials();
     // public override System.Boolean get_hasPostProcessEffect()
-    // Offset: 0x21A0F18
+    // Offset: 0x1EF2B7C
     // Implemented from: MainEffectSO
     // Base method: System.Boolean MainEffectSO::get_hasPostProcessEffect()
     bool get_hasPostProcessEffect();
     // protected override System.Void OnEnable()
-    // Offset: 0x21A0F20
+    // Offset: 0x1EF2B84
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public override System.Void PreRender()
-    // Offset: 0x21A1100
+    // Offset: 0x1EF2D64
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::PreRender()
     void PreRender();
     // public override System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single fade)
-    // Offset: 0x21A120C
+    // Offset: 0x1EF2E70
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single fade)
     void Render(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest, float fade);
     // public System.Void .ctor()
-    // Offset: 0x21A1488
+    // Offset: 0x1EF30EC
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -111,7 +111,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static KawaseBloomMainEffectSO* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x21A14B8
+    // Offset: 0x1EF311C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

@@ -24,15 +24,15 @@ namespace MasterServer {
   class DedicatedServerMultipartMessage : public MasterServer::BaseMasterServerMultipartMessage, public MasterServer::IDedicatedServerMessage {
     public:
     // static public PacketPool`1<MasterServer.DedicatedServerMultipartMessage> get_pool()
-    // Offset: 0x10BD1E4
+    // Offset: 0x211ED4C
     static GlobalNamespace::PacketPool_1<MasterServer::DedicatedServerMultipartMessage*>* get_pool();
     // public override System.Void Release()
-    // Offset: 0x10BD22C
+    // Offset: 0x211ED94
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x10BD288
+    // Offset: 0x211EDF0
     // Implemented from: MasterServer.BaseMasterServerMultipartMessage
     // Base method: System.Void BaseMasterServerMultipartMessage::.ctor()
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()

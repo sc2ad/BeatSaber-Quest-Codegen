@@ -69,40 +69,40 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Single get_currentAlpha()
-    // Offset: 0x149B078
+    // Offset: 0x12708A0
     float get_currentAlpha();
     // private System.Void set_currentAlpha(System.Single value)
-    // Offset: 0x149B080
+    // Offset: 0x12708A8
     void set_currentAlpha(float value);
     // private System.Void Start()
-    // Offset: 0x149B088
+    // Offset: 0x12708B0
     void Start();
     // public System.Void FadeOut()
-    // Offset: 0x149B650
+    // Offset: 0x1270E78
     void FadeOut();
     // private System.Void OnLevelFinishedLoading(System.Int32 level)
-    // Offset: 0x149B684
+    // Offset: 0x1270EAC
     void OnLevelFinishedLoading(int level);
     // private System.Void OnEnable()
-    // Offset: 0x149B6B8
+    // Offset: 0x1270EE0
     void OnEnable();
     // private System.Void OnDestroy()
-    // Offset: 0x149B6CC
+    // Offset: 0x1270EF4
     void OnDestroy();
     // public System.Void SetUIFade(System.Single level)
-    // Offset: 0x149B830
+    // Offset: 0x1271058
     void SetUIFade(float level);
     // public System.Void SetFadeLevel(System.Single level)
-    // Offset: 0x149B5B8
+    // Offset: 0x1270DE0
     void SetFadeLevel(float level);
     // private System.Collections.IEnumerator Fade(System.Single startAlpha, System.Single endAlpha)
-    // Offset: 0x149B5C0
+    // Offset: 0x1270DE8
     System::Collections::IEnumerator* Fade(float startAlpha, float endAlpha);
     // private System.Void SetMaterialAlpha()
-    // Offset: 0x149B8B0
+    // Offset: 0x12710D8
     void SetMaterialAlpha();
     // public System.Void .ctor()
-    // Offset: 0x149BA30
+    // Offset: 0x1271258
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRRenderModels::_GetRenderModelErrorNameFromEnum : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F35F80
+    // Offset: 0x1C87BE4
     static IVRRenderModels::_GetRenderModelErrorNameFromEnum* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.IntPtr Invoke(OVR.OpenVR.EVRRenderModelError error)
-    // Offset: 0x1F35F94
+    // Offset: 0x1C87BF8
     System::IntPtr Invoke(OVR::OpenVR::EVRRenderModelError error);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.EVRRenderModelError error, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F36208
+    // Offset: 0x1C87E6C
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::EVRRenderModelError error, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.IntPtr EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1F36294
+    // Offset: 0x1C87EF8
     System::IntPtr EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRRenderModels/_GetRenderModelErrorNameFromEnum
 }

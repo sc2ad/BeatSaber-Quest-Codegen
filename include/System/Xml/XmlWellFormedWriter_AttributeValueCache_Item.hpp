@@ -22,10 +22,10 @@ namespace System::Xml {
     // Offset: 0x18
     ::Il2CppObject* data;
     // System.Void Set(System.Xml.XmlWellFormedWriter/AttributeValueCache/ItemType type, System.Object data)
-    // Offset: 0x21F5CAC
+    // Offset: 0x1F476BC
     void Set(System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType type, ::Il2CppObject* data);
     // System.Void .ctor()
-    // Offset: 0x21F5CA4
+    // Offset: 0x1F476B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static XmlWellFormedWriter::AttributeValueCache::Item* New_ctor();

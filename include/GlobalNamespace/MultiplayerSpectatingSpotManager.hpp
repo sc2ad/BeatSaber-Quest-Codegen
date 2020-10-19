@@ -39,28 +39,28 @@ namespace GlobalNamespace {
     // Offset: 0x18
     System::Collections::Generic::Dictionary_2<GlobalNamespace::IMultiplayerSpectatingSpot*, int>* spotIndexBySpot;
     // public System.Collections.Generic.IReadOnlyList`1<IMultiplayerSpectatingSpot> get_spectatingSpots()
-    // Offset: 0xF05B6C
+    // Offset: 0x1FDAA20
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* get_spectatingSpots();
     // public IMultiplayerSpectatingSpot get_defaultSpot()
-    // Offset: 0xF05B74
+    // Offset: 0x1FDAA28
     GlobalNamespace::IMultiplayerSpectatingSpot* get_defaultSpot();
     // public System.Void RegisterSpectatingSpot(IMultiplayerSpectatingSpot spectatingSpot)
-    // Offset: 0xF05CA4
+    // Offset: 0x1FDAB58
     void RegisterSpectatingSpot(GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
     // public IMultiplayerSpectatingSpot GetAdjacentSpot(IMultiplayerSpectatingSpot spectatingSpot, System.Int32 offset)
-    // Offset: 0xF05F34
+    // Offset: 0x1FDADE8
     GlobalNamespace::IMultiplayerSpectatingSpot* GetAdjacentSpot(GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot, int offset);
     // private System.Int32 GetIndexBySpot(IMultiplayerSpectatingSpot spectatingSpot)
-    // Offset: 0xF05FE4
+    // Offset: 0x1FDAE98
     int GetIndexBySpot(GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
     // private System.Void UpdateIndexBySpotDictionary()
-    // Offset: 0xF05DB8
+    // Offset: 0x1FDAC6C
     void UpdateIndexBySpotDictionary();
     // private System.Void SpotOnHasBeenRemoved(IMultiplayerSpectatingSpot spectatingSpot)
-    // Offset: 0xF06070
+    // Offset: 0x1FDAF24
     void SpotOnHasBeenRemoved(GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
     // public System.Void .ctor()
-    // Offset: 0xF06188
+    // Offset: 0x1FDB03C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MultiplayerSpectatingSpotManager* New_ctor();

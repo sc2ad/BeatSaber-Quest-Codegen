@@ -16,67 +16,67 @@ namespace System {
     // Set static field: static public readonly System.Boolean IsLittleEndian
     static void _set_IsLittleEndian(bool value);
     // static private System.Boolean AmILittleEndian()
-    // Offset: 0x15CBA44
+    // Offset: 0x13A226C
     static bool AmILittleEndian();
     // static public System.Byte[] GetBytes(System.Int16 value)
-    // Offset: 0x15CBA4C
+    // Offset: 0x13A2274
     static ::Array<uint8_t>* GetBytes(int16_t value);
     // static public System.Byte[] GetBytes(System.Int32 value)
-    // Offset: 0x15CBAC0
+    // Offset: 0x13A22E8
     static ::Array<uint8_t>* GetBytes(int value);
     // static public System.Byte[] GetBytes(System.Int64 value)
-    // Offset: 0x15CBB34
+    // Offset: 0x13A235C
     static ::Array<uint8_t>* GetBytes(int64_t value);
     // static public System.Byte[] GetBytes(System.UInt16 value)
-    // Offset: 0x15CBBA8
+    // Offset: 0x13A23D0
     static ::Array<uint8_t>* GetBytes(uint16_t value);
     // static public System.Byte[] GetBytes(System.UInt32 value)
-    // Offset: 0x15CBC0C
+    // Offset: 0x13A2434
     static ::Array<uint8_t>* GetBytes(uint value);
     // static public System.Char ToChar(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x15CBC70
+    // Offset: 0x13A2498
     static ::Il2CppChar ToChar(::Array<uint8_t>* value, int startIndex);
     // static public System.Int16 ToInt16(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x15CBD34
+    // Offset: 0x13A255C
     static int16_t ToInt16(::Array<uint8_t>* value, int startIndex);
     // static public System.Int32 ToInt32(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x15CBE44
+    // Offset: 0x13A266C
     static int ToInt32(::Array<uint8_t>* value, int startIndex);
     // static public System.Int64 ToInt64(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x15CBF70
+    // Offset: 0x13A2798
     static int64_t ToInt64(::Array<uint8_t>* value, int startIndex);
     // static public System.UInt16 ToUInt16(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x15CC0C8
+    // Offset: 0x13A28F0
     static uint16_t ToUInt16(::Array<uint8_t>* value, int startIndex);
     // static public System.UInt32 ToUInt32(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x15CC18C
+    // Offset: 0x13A29B4
     static uint ToUInt32(::Array<uint8_t>* value, int startIndex);
     // static public System.UInt64 ToUInt64(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x15CC250
+    // Offset: 0x13A2A78
     static uint64_t ToUInt64(::Array<uint8_t>* value, int startIndex);
     // static public System.Single ToSingle(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x15CC314
+    // Offset: 0x13A2B3C
     static float ToSingle(::Array<uint8_t>* value, int startIndex);
     // static public System.Double ToDouble(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x15CC3E0
+    // Offset: 0x13A2C08
     static double ToDouble(::Array<uint8_t>* value, int startIndex);
     // static private System.Char GetHexValue(System.Int32 i)
-    // Offset: 0x15CC4AC
+    // Offset: 0x13A2CD4
     static ::Il2CppChar GetHexValue(int i);
     // static public System.String ToString(System.Byte[] value, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0x15CC4C4
+    // Offset: 0x13A2CEC
     static ::Il2CppString* ToString(::Array<uint8_t>* value, int startIndex, int length);
     // static public System.String ToString(System.Byte[] value)
-    // Offset: 0x15CC830
+    // Offset: 0x13A3058
     static ::Il2CppString* ToString(::Array<uint8_t>* value);
     // static public System.Int64 DoubleToInt64Bits(System.Double value)
-    // Offset: 0x15CC8D8
+    // Offset: 0x13A3100
     static int64_t DoubleToInt64Bits(double value);
     // static public System.Double Int64BitsToDouble(System.Int64 value)
-    // Offset: 0x15CC8E0
+    // Offset: 0x13A3108
     static double Int64BitsToDouble(int64_t value);
     // static private System.Void .cctor()
-    // Offset: 0x15CC8E8
+    // Offset: 0x13A3110
     static void _cctor();
   }; // System.BitConverter
 }

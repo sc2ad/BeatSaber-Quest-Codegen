@@ -39,38 +39,38 @@ namespace System::Net {
     // Offset: 0x28
     System::DateTime idleSince;
     // public System.Net.WebConnection get_Connection()
-    // Offset: 0x13C0940
+    // Offset: 0x119507C
     System::Net::WebConnection* get_Connection();
     // private System.Void set_Connection(System.Net.WebConnection value)
-    // Offset: 0x13C0948
+    // Offset: 0x1195084
     void set_Connection(System::Net::WebConnection* value);
     // private System.Void set_Group(System.Net.WebConnectionGroup value)
-    // Offset: 0x13C0958
+    // Offset: 0x1195094
     void set_Group(System::Net::WebConnectionGroup* value);
     // public System.Net.ServicePoint get_ServicePoint()
-    // Offset: 0x13C0960
+    // Offset: 0x119509C
     System::Net::ServicePoint* get_ServicePoint();
     // public System.Boolean get_Busy()
-    // Offset: 0x13C097C
+    // Offset: 0x11950B8
     bool get_Busy();
     // public System.DateTime get_IdleSince()
-    // Offset: 0x13C0984
+    // Offset: 0x11950C0
     System::DateTime get_IdleSince();
     // public System.Void .ctor(System.Net.WebConnectionGroup group)
-    // Offset: 0x13C0374
+    // Offset: 0x1194AB0
     static WebConnectionGroup::ConnectionState* New_ctor(System::Net::WebConnectionGroup* group);
     // public System.Net.WebConnectionGroup get_Group()
-    // Offset: 0x13C0950
+    // Offset: 0x119508C
     // Implemented from: System.Net.IWebConnectionState
     // Base method: System.Net.WebConnectionGroup IWebConnectionState::get_Group()
     System::Net::WebConnectionGroup* get_Group();
     // public System.Boolean TrySetBusy()
-    // Offset: 0x13C098C
+    // Offset: 0x11950C8
     // Implemented from: System.Net.IWebConnectionState
     // Base method: System.Boolean IWebConnectionState::TrySetBusy()
     bool TrySetBusy();
     // public System.Void SetIdle()
-    // Offset: 0x13C0B30
+    // Offset: 0x119526C
     // Implemented from: System.Net.IWebConnectionState
     // Base method: System.Void IWebConnectionState::SetIdle()
     void SetIdle();

@@ -66,12 +66,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: $GetLeaderboardEntriesAsync$d__10
     constexpr $GetLeaderboardEntriesAsync$d__10(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<OnlineServices::GetLeaderboardEntriesResult> $$t__builder_ = {}, GlobalNamespace::HTTPLeaderboardsModel* $$4__this_ = {}, OnlineServices::GetLeaderboardFilterData leaderboardFilterData_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, ::Il2CppString* $leaderboardId$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Array<::Il2CppString*>*> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::ApiResponse_1<BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>> $$u__3_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, leaderboardFilterData{leaderboardFilterData_}, cancellationToken{cancellationToken_}, $leaderboardId$5__2{$leaderboardId$5__2_}, $$u__1{$$u__1_}, $$u__2{$$u__2_}, $$u__3{$$u__3_} {}
     // private System.Void MoveNext()
-    // Offset: 0xDA1064
+    // Offset: 0xE4DF20
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDA106C
+    // Offset: 0xE4DF28
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

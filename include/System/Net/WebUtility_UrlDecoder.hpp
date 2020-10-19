@@ -39,19 +39,19 @@ namespace System::Net {
     // Offset: 0x30
     System::Text::Encoding* encoding;
     // private System.Void FlushBytes()
-    // Offset: 0x13CAE00
+    // Offset: 0x119F53C
     void FlushBytes();
     // System.Void .ctor(System.Int32 bufferSize, System.Text.Encoding encoding)
-    // Offset: 0x13CAA18
+    // Offset: 0x119F154
     static WebUtility::UrlDecoder* New_ctor(int bufferSize, System::Text::Encoding* encoding);
     // System.Void AddChar(System.Char ch)
-    // Offset: 0x13CABBC
+    // Offset: 0x119F2F8
     void AddChar(::Il2CppChar ch);
     // System.Void AddByte(System.Byte b)
-    // Offset: 0x13CAAF8
+    // Offset: 0x119F234
     void AddByte(uint8_t b);
     // System.String GetString()
-    // Offset: 0x13CAC28
+    // Offset: 0x119F364
     ::Il2CppString* GetString();
   }; // System.Net.WebUtility/UrlDecoder
 }

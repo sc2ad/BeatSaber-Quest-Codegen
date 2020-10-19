@@ -28,18 +28,18 @@ namespace GlobalNamespace {
     // Offset: 0x48
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // protected System.Void OnDestroy()
-    // Offset: 0xFB9964
+    // Offset: 0x2038014
     void OnDestroy();
     // private System.Void HandleNoteWasCut(NoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0xFB9A04
+    // Offset: 0x20380B4
     void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // protected override System.Void Init()
-    // Offset: 0xFB9864
+    // Offset: 0x2037F14
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();
     // public System.Void .ctor()
-    // Offset: 0xFB9A6C
+    // Offset: 0x203811C
     // Implemented from: SimpleValueMissionObjectiveChecker
     // Base method: System.Void SimpleValueMissionObjectiveChecker::.ctor()
     // Base method: System.Void MissionObjectiveChecker::.ctor()

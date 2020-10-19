@@ -26,43 +26,43 @@ namespace System::Net::Http::Headers {
     // Offset: 0x28
     System::Nullable_1<System::TimeSpan> Delta;
     // public System.Void .ctor(System.DateTimeOffset date)
-    // Offset: 0x13A95F4
+    // Offset: 0x117ED30
     static RetryConditionHeaderValue* New_ctor(System::DateTimeOffset date);
     // public System.Void .ctor(System.TimeSpan delta)
-    // Offset: 0x13A968C
+    // Offset: 0x117EDC8
     static RetryConditionHeaderValue* New_ctor(System::TimeSpan delta);
     // public System.Nullable`1<System.DateTimeOffset> get_Date()
-    // Offset: 0x13A9760
+    // Offset: 0x117EE9C
     System::Nullable_1<System::DateTimeOffset> get_Date();
     // private System.Void set_Date(System.Nullable`1<System.DateTimeOffset> value)
-    // Offset: 0x13A9774
+    // Offset: 0x117EEB0
     void set_Date(System::Nullable_1<System::DateTimeOffset> value);
     // public System.Nullable`1<System.TimeSpan> get_Delta()
-    // Offset: 0x13A9788
+    // Offset: 0x117EEC4
     System::Nullable_1<System::TimeSpan> get_Delta();
     // private System.Void set_Delta(System.Nullable`1<System.TimeSpan> value)
-    // Offset: 0x13A9794
+    // Offset: 0x117EED0
     void set_Delta(System::Nullable_1<System::TimeSpan> value);
     // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.RetryConditionHeaderValue parsedValue)
-    // Offset: 0x13A99A8
+    // Offset: 0x117F0E4
     static bool TryParse(::Il2CppString* input, System::Net::Http::Headers::RetryConditionHeaderValue*& parsedValue);
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x13A979C
+    // Offset: 0x117EED8
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* System_ICloneable_Clone();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x13A97A4
+    // Offset: 0x117EEE0
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x13A9918
+    // Offset: 0x117F054
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x13A9B94
+    // Offset: 0x117F2D0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

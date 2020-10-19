@@ -60,12 +60,12 @@ namespace OnlineServices::API {
     // Creating value type constructor for type: $SendWebRequestAsync$d__10
     constexpr $SendWebRequestAsync$d__10(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppString*> $$t__builder_ = {}, ::Il2CppString* uri_ = {}, ::Il2CppString* method_ = {}, ::Il2CppString* bodyData_ = {}, OnlineServices::API::HTTPAdminLeaderboardsHelper* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, UnityEngine::Networking::UnityWebRequest* $webRequest$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, uri{uri_}, method{method_}, bodyData{bodyData_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, $webRequest$5__2{$webRequest$5__2_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
-    // Offset: 0xDA2464
+    // Offset: 0xE4D5B8
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDA246C
+    // Offset: 0xE4D5C0
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

@@ -29,12 +29,12 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::FireworkItemController* fireworkItemControllerPrefab;
     // public override System.Void InstallBindings()
-    // Offset: 0xEFBE40
+    // Offset: 0x1FD0CF4
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xEFBF00
+    // Offset: 0x1FD0DB4
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

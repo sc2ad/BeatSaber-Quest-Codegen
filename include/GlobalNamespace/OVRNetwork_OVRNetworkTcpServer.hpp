@@ -43,25 +43,25 @@ namespace GlobalNamespace {
     // Offset: 0x20
     System::Collections::Generic::List_1<System::Net::Sockets::TcpClient*>* clients;
     // public System.Void StartListening(System.Int32 listeningPort)
-    // Offset: 0x13D2B24
+    // Offset: 0x11A8260
     void StartListening(int listeningPort);
     // public System.Void StopListening()
-    // Offset: 0x13D3074
+    // Offset: 0x11A87B0
     void StopListening();
     // private System.Void DoAcceptTcpClientCallback(System.IAsyncResult ar)
-    // Offset: 0x13D31F0
+    // Offset: 0x11A892C
     void DoAcceptTcpClientCallback(System::IAsyncResult* ar);
     // public System.Boolean HasConnectedClient()
-    // Offset: 0x13D36F4
+    // Offset: 0x11A8E30
     bool HasConnectedClient();
     // public System.Void Broadcast(System.Int32 payloadType, System.Byte[] payload)
-    // Offset: 0x13D391C
+    // Offset: 0x11A9058
     void Broadcast(int payloadType, ::Array<uint8_t>* payload);
     // private System.Void DoWriteDataCallback(System.IAsyncResult ar)
-    // Offset: 0x13D3E94
+    // Offset: 0x11A95D0
     void DoWriteDataCallback(System::IAsyncResult* ar);
     // public System.Void .ctor()
-    // Offset: 0x13D3F8C
+    // Offset: 0x11A96C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRNetwork::OVRNetworkTcpServer* New_ctor();

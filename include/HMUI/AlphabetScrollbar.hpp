@@ -91,48 +91,48 @@ namespace HMUI {
     // Offset: 0x6C
     bool pointerIsDown;
     // protected System.Void Awake()
-    // Offset: 0x11ADDE8
+    // Offset: 0x217D230
     void Awake();
     // public System.Void SetData(AlphabetScrollInfo/Data[] characterScrollData)
-    // Offset: 0x11ADE08
+    // Offset: 0x217D250
     void SetData(::Array<GlobalNamespace::AlphabetScrollInfo::Data*>* characterScrollData);
     // private System.Void PrepareTransforms()
-    // Offset: 0x11AE090
+    // Offset: 0x217D4D8
     void PrepareTransforms();
     // private System.Void RefreshHighlight()
-    // Offset: 0x11AE6F8
+    // Offset: 0x217DB40
     void RefreshHighlight();
     // private System.Collections.IEnumerator PointerMoveInsideCoroutine(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x11AE630
+    // Offset: 0x217DA78
     System::Collections::IEnumerator* PointerMoveInsideCoroutine(UnityEngine::EventSystems::PointerEventData* eventData);
     // private System.Int32 GetPointerCharacterIndex(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x11AE478
+    // Offset: 0x217D8C0
     int GetPointerCharacterIndex(UnityEngine::EventSystems::PointerEventData* eventData);
     // private System.Void InitText(TMPro.TextMeshProUGUI text, System.Char character)
-    // Offset: 0x11ADF90
+    // Offset: 0x217D3D8
     void InitText(TMPro::TextMeshProUGUI* text, ::Il2CppChar character);
     // public System.Void OnPointerDown(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x11AE408
+    // Offset: 0x217D850
     // Implemented from: UnityEngine.EventSystems.IPointerDownHandler
     // Base method: System.Void IPointerDownHandler::OnPointerDown(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerDown(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerUp(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x11AE5FC
+    // Offset: 0x217DA44
     // Implemented from: UnityEngine.EventSystems.IPointerUpHandler
     // Base method: System.Void IPointerUpHandler::OnPointerUp(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerUp(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x11AE604
+    // Offset: 0x217DA4C
     // Implemented from: UnityEngine.EventSystems.IPointerEnterHandler
     // Base method: System.Void IPointerEnterHandler::OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x11AE6C8
+    // Offset: 0x217DB10
     // Implemented from: UnityEngine.EventSystems.IPointerExitHandler
     // Base method: System.Void IPointerExitHandler::OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerExit(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0x11AE814
+    // Offset: 0x217DC5C
     // Implemented from: HMUI.Interactable
     // Base method: System.Void Interactable::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -81,34 +81,34 @@ namespace System::Globalization {
     // Set static field: static System.Globalization.CalendarData Invariant
     static void _set_Invariant(System::Globalization::CalendarData* value);
     // static private System.Void .cctor()
-    // Offset: 0x125AAD4
+    // Offset: 0x1055370
     static void _cctor();
     // System.Void .ctor(System.String localeName, System.Int32 calendarId, System.Boolean bUseUserOverrides)
-    // Offset: 0x125BBA8
+    // Offset: 0x1056444
     static CalendarData* New_ctor(::Il2CppString* localeName, int calendarId, bool bUseUserOverrides);
     // private System.Void InitializeEraNames(System.String localeName, System.Int32 calendarId)
-    // Offset: 0x125C248
+    // Offset: 0x1056AE4
     void InitializeEraNames(::Il2CppString* localeName, int calendarId);
     // private System.Void InitializeAbbreviatedEraNames(System.String localeName, System.Int32 calendarId)
-    // Offset: 0x125C640
+    // Offset: 0x1056EDC
     void InitializeAbbreviatedEraNames(::Il2CppString* localeName, int calendarId);
     // static System.Globalization.CalendarData GetCalendarData(System.Int32 calendarId)
-    // Offset: 0x125A570
+    // Offset: 0x1054E0C
     static System::Globalization::CalendarData* GetCalendarData(int calendarId);
     // static private System.String CalendarIdToCultureName(System.Int32 calendarId)
-    // Offset: 0x125C964
+    // Offset: 0x1057200
     static ::Il2CppString* CalendarIdToCultureName(int calendarId);
     // static public System.Int32 nativeGetTwoDigitYearMax(System.Int32 calID)
-    // Offset: 0x125AABC
+    // Offset: 0x1055358
     static int nativeGetTwoDigitYearMax(int calID);
     // static private System.Boolean nativeGetCalendarData(System.Globalization.CalendarData data, System.String localeName, System.Int32 calendarId)
-    // Offset: 0x125C1FC
+    // Offset: 0x1056A98
     static bool nativeGetCalendarData(System::Globalization::CalendarData* data, ::Il2CppString* localeName, int calendarId);
     // private System.Boolean fill_calendar_data(System.String localeName, System.Int32 datetimeIndex)
-    // Offset: 0x125CB08
+    // Offset: 0x10573A4
     bool fill_calendar_data(::Il2CppString* localeName, int datetimeIndex);
     // private System.Void .ctor()
-    // Offset: 0x125AAC4
+    // Offset: 0x1055360
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CalendarData* New_ctor();

@@ -45,16 +45,16 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Vertex,UnityEngine.Vector3> <>9__3_0
     static void _set_$$9__3_0(System::Func_2<UnityEngine::ProBuilder::Vertex*, UnityEngine::Vector3>* value);
     // static private System.Void .cctor()
-    // Offset: 0x15795D8
+    // Offset: 0x1350E00
     static void _cctor();
     // UnityEngine.ProBuilder.Face <ToTriangles>b__0_0(UnityEngine.ProBuilder.FaceRebuildData x)
-    // Offset: 0x1579648
+    // Offset: 0x1350E70
     UnityEngine::ProBuilder::Face* $ToTriangles$b__0_0(UnityEngine::ProBuilder::FaceRebuildData* x);
     // UnityEngine.Vector3 <GetWindingOrder>b__3_0(UnityEngine.ProBuilder.Vertex x)
-    // Offset: 0x1579660
+    // Offset: 0x1350E88
     UnityEngine::Vector3 $GetWindingOrder$b__3_0(UnityEngine::ProBuilder::Vertex* x);
     // public System.Void .ctor()
-    // Offset: 0x1579640
+    // Offset: 0x1350E68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SurfaceTopology::$$c* New_ctor();

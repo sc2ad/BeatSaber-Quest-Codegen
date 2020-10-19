@@ -42,19 +42,19 @@ namespace System::Runtime::Remoting {
     // Offset: 0x40
     System::Collections::Hashtable* customProperties;
     // System.Collections.ArrayList get_ServerProviders()
-    // Offset: 0x1296EB8
+    // Offset: 0x1092754
     System::Collections::ArrayList* get_ServerProviders();
     // public System.Collections.ArrayList get_ClientProviders()
-    // Offset: 0x1296F30
+    // Offset: 0x10927CC
     System::Collections::ArrayList* get_ClientProviders();
     // public System.Collections.Hashtable get_CustomProperties()
-    // Offset: 0x1296FA8
+    // Offset: 0x1092844
     System::Collections::Hashtable* get_CustomProperties();
     // public System.Void CopyFrom(System.Runtime.Remoting.ChannelData other)
-    // Offset: 0x1297020
+    // Offset: 0x10928BC
     void CopyFrom(System::Runtime::Remoting::ChannelData* other);
     // public System.Void .ctor()
-    // Offset: 0x1297888
+    // Offset: 0x1093124
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ChannelData* New_ctor();

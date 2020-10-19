@@ -83,76 +83,76 @@ namespace RootMotion {
     // Offset: 0x90
     ::Array<UnityEngine::Transform*>* eyes;
     // public System.Boolean get_isFilled()
-    // Offset: 0x1AC73A8
+    // Offset: 0x186759C
     bool get_isFilled();
     // public System.Boolean get_isEmpty()
-    // Offset: 0x1AC7794
+    // Offset: 0x1867988
     bool get_isEmpty();
     // public System.Boolean IsEmpty(System.Boolean includeRoot)
-    // Offset: 0x1AC77A4
+    // Offset: 0x1867998
     bool IsEmpty(bool includeRoot);
     // public System.Boolean Contains(UnityEngine.Transform t, System.Boolean ignoreRoot)
-    // Offset: 0x1AC7BD0
+    // Offset: 0x1867DC4
     bool Contains(UnityEngine::Transform* t, bool ignoreRoot);
     // static public System.Boolean AutoDetectReferences(ref RootMotion.BipedReferences references, UnityEngine.Transform root, RootMotion.BipedReferences/AutoDetectParams autoDetectParams)
-    // Offset: 0x1AC8008
+    // Offset: 0x18681FC
     static bool AutoDetectReferences(RootMotion::BipedReferences*& references, UnityEngine::Transform* root, RootMotion::BipedReferences::AutoDetectParams autoDetectParams);
     // static public System.Void DetectReferencesByNaming(ref RootMotion.BipedReferences references, UnityEngine.Transform root, RootMotion.BipedReferences/AutoDetectParams autoDetectParams)
-    // Offset: 0x1AC8714
+    // Offset: 0x1868908
     static void DetectReferencesByNaming(RootMotion::BipedReferences*& references, UnityEngine::Transform* root, RootMotion::BipedReferences::AutoDetectParams autoDetectParams);
     // static public System.Void AssignHumanoidReferences(ref RootMotion.BipedReferences references, UnityEngine.Animator animator, RootMotion.BipedReferences/AutoDetectParams autoDetectParams)
-    // Offset: 0x1AC8284
+    // Offset: 0x1868478
     static void AssignHumanoidReferences(RootMotion::BipedReferences*& references, UnityEngine::Animator* animator, RootMotion::BipedReferences::AutoDetectParams autoDetectParams);
     // static public System.Boolean SetupError(RootMotion.BipedReferences references, ref System.String errorMessage)
-    // Offset: 0x1AC8F48
+    // Offset: 0x186913C
     static bool SetupError(RootMotion::BipedReferences* references, ::Il2CppString*& errorMessage);
     // static public System.Boolean SetupWarning(RootMotion.BipedReferences references, ref System.String warningMessage)
-    // Offset: 0x1AC9048
+    // Offset: 0x186923C
     static bool SetupWarning(RootMotion::BipedReferences* references, ::Il2CppString*& warningMessage);
     // static private System.Boolean IsNeckBone(UnityEngine.Transform bone, UnityEngine.Transform leftUpperArm)
-    // Offset: 0x1AC95FC
+    // Offset: 0x18697F0
     static bool IsNeckBone(UnityEngine::Transform* bone, UnityEngine::Transform* leftUpperArm);
     // static private System.Boolean AddBoneToEyes(UnityEngine.Transform bone, ref RootMotion.BipedReferences references, RootMotion.BipedReferences/AutoDetectParams autoDetectParams)
-    // Offset: 0x1AC93EC
+    // Offset: 0x18695E0
     static bool AddBoneToEyes(UnityEngine::Transform* bone, RootMotion::BipedReferences*& references, RootMotion::BipedReferences::AutoDetectParams autoDetectParams);
     // static private System.Boolean AddBoneToSpine(UnityEngine.Transform bone, ref RootMotion.BipedReferences references, RootMotion.BipedReferences/AutoDetectParams autoDetectParams)
-    // Offset: 0x1AC9264
+    // Offset: 0x1869458
     static bool AddBoneToSpine(UnityEngine::Transform* bone, RootMotion::BipedReferences*& references, RootMotion::BipedReferences::AutoDetectParams autoDetectParams);
     // static private System.Void DetectLimb(RootMotion.BipedNaming/BoneType boneType, RootMotion.BipedNaming/BoneSide boneSide, ref UnityEngine.Transform firstBone, ref UnityEngine.Transform secondBone, ref UnityEngine.Transform lastBone, UnityEngine.Transform[] transforms)
-    // Offset: 0x1AC90E8
+    // Offset: 0x18692DC
     static void DetectLimb(RootMotion::BipedNaming::BoneType boneType, RootMotion::BipedNaming::BoneSide boneSide, UnityEngine::Transform*& firstBone, UnityEngine::Transform*& secondBone, UnityEngine::Transform*& lastBone, ::Array<UnityEngine::Transform*>* transforms);
     // static private System.Void AddBoneToHierarchy(ref UnityEngine.Transform[] bones, UnityEngine.Transform transform)
-    // Offset: 0x1AC94F0
+    // Offset: 0x18696E4
     static void AddBoneToHierarchy(::Array<UnityEngine::Transform*>*& bones, UnityEngine::Transform* transform);
     // static private System.Boolean LimbError(UnityEngine.Transform bone1, UnityEngine.Transform bone2, UnityEngine.Transform bone3, ref System.String errorMessage)
-    // Offset: 0x1AC96F8
+    // Offset: 0x18698EC
     static bool LimbError(UnityEngine::Transform* bone1, UnityEngine::Transform* bone2, UnityEngine::Transform* bone3, ::Il2CppString*& errorMessage);
     // static private System.Boolean LimbWarning(UnityEngine.Transform bone1, UnityEngine.Transform bone2, UnityEngine.Transform bone3, ref System.String warningMessage)
-    // Offset: 0x1ACA25C
+    // Offset: 0x186A450
     static bool LimbWarning(UnityEngine::Transform* bone1, UnityEngine::Transform* bone2, UnityEngine::Transform* bone3, ::Il2CppString*& warningMessage);
     // static private System.Boolean SpineError(RootMotion.BipedReferences references, ref System.String errorMessage)
-    // Offset: 0x1AC9D28
+    // Offset: 0x1869F1C
     static bool SpineError(RootMotion::BipedReferences* references, ::Il2CppString*& errorMessage);
     // static private System.Boolean SpineWarning(RootMotion.BipedReferences references, ref System.String warningMessage)
-    // Offset: 0x1ACA5A4
+    // Offset: 0x186A798
     static bool SpineWarning(RootMotion::BipedReferences* references, ::Il2CppString*& warningMessage);
     // static private System.Boolean EyesError(RootMotion.BipedReferences references, ref System.String errorMessage)
-    // Offset: 0x1ACA074
+    // Offset: 0x186A268
     static bool EyesError(RootMotion::BipedReferences* references, ::Il2CppString*& errorMessage);
     // static private System.Boolean EyesWarning(RootMotion.BipedReferences references, ref System.String warningMessage)
-    // Offset: 0x1ACA5AC
+    // Offset: 0x186A7A0
     static bool EyesWarning(RootMotion::BipedReferences* references, ::Il2CppString*& warningMessage);
     // static private System.Boolean RootHeightWarning(RootMotion.BipedReferences references, ref System.String warningMessage)
-    // Offset: 0x1ACA5B4
+    // Offset: 0x186A7A8
     static bool RootHeightWarning(RootMotion::BipedReferences* references, ::Il2CppString*& warningMessage);
     // static private System.Boolean FacingAxisWarning(RootMotion.BipedReferences references, ref System.String warningMessage)
-    // Offset: 0x1ACA780
+    // Offset: 0x186A974
     static bool FacingAxisWarning(RootMotion::BipedReferences* references, ::Il2CppString*& warningMessage);
     // static private System.Single GetVerticalOffset(UnityEngine.Vector3 p1, UnityEngine.Vector3 p2, UnityEngine.Quaternion rotation)
-    // Offset: 0x1ACA9A4
+    // Offset: 0x186AB98
     static float GetVerticalOffset(UnityEngine::Vector3 p1, UnityEngine::Vector3 p2, UnityEngine::Quaternion rotation);
     // public System.Void .ctor()
-    // Offset: 0x1AC81FC
+    // Offset: 0x18683F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BipedReferences* New_ctor();

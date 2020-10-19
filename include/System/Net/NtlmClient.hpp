@@ -32,22 +32,22 @@ namespace System::Net {
       return authObject;
     }
     // public System.Void .ctor()
-    // Offset: 0x12CD3C0
+    // Offset: 0x10C8C5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NtlmClient* New_ctor();
     // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x12CD434
+    // Offset: 0x10C8CD0
     // Implemented from: System.Net.IAuthenticationModule
     // Base method: System.Net.Authorization IAuthenticationModule::Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
     System::Net::Authorization* Authenticate(::Il2CppString* challenge, System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.Net.Authorization PreAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x12CD520
+    // Offset: 0x10C8DBC
     // Implemented from: System.Net.IAuthenticationModule
     // Base method: System.Net.Authorization IAuthenticationModule::PreAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
     System::Net::Authorization* PreAuthenticate(System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.String get_AuthenticationType()
-    // Offset: 0x12CD528
+    // Offset: 0x10C8DC4
     // Implemented from: System.Net.IAuthenticationModule
     // Base method: System.String IAuthenticationModule::get_AuthenticationType()
     ::Il2CppString* get_AuthenticationType();

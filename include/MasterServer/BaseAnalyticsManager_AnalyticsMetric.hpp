@@ -35,20 +35,20 @@ namespace MasterServer {
     // Offset: 0x20
     MasterServer::AnalyticsMetricUnit unit;
     // protected System.Void .ctor(System.String metricName, System.Collections.Generic.IReadOnlyDictionary`2<System.String,System.String> tags, MasterServer.AnalyticsMetricUnit unit)
-    // Offset: 0x116B2B4
+    // Offset: 0x2165C9C
     static BaseAnalyticsManager::AnalyticsMetric* New_ctor(::Il2CppString* metricName, System::Collections::Generic::IReadOnlyDictionary_2<::Il2CppString*, ::Il2CppString*>* tags, MasterServer::AnalyticsMetricUnit unit);
     // public System.String get_metricName()
-    // Offset: 0x116B29C
+    // Offset: 0x2165C84
     // Implemented from: MasterServer.BaseAnalyticsManager/IMetric
     // Base method: System.String IMetric::get_metricName()
     ::Il2CppString* get_metricName();
     // public System.Collections.Generic.IReadOnlyDictionary`2<System.String,System.String> get_tags()
-    // Offset: 0x116B2A4
+    // Offset: 0x2165C8C
     // Implemented from: MasterServer.BaseAnalyticsManager/IMetric
     // Base method: System.Collections.Generic.IReadOnlyDictionary`2<System.String,System.String> IMetric::get_tags()
     System::Collections::Generic::IReadOnlyDictionary_2<::Il2CppString*, ::Il2CppString*>* get_tags();
     // public MasterServer.AnalyticsMetricUnit get_unit()
-    // Offset: 0x116B2AC
+    // Offset: 0x2165C94
     // Implemented from: MasterServer.BaseAnalyticsManager/IMetric
     // Base method: MasterServer.AnalyticsMetricUnit IMetric::get_unit()
     MasterServer::AnalyticsMetricUnit get_unit();

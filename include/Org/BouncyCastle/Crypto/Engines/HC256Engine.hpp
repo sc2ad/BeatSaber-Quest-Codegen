@@ -45,37 +45,37 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Offset: 0x48
     int idx;
     // private System.UInt32 Step()
-    // Offset: 0x1BCF90C
+    // Offset: 0x1970B00
     uint Step();
     // private System.Void Init()
-    // Offset: 0x1BCFB7C
+    // Offset: 0x1970D70
     void Init();
     // public System.String get_AlgorithmName()
-    // Offset: 0x1BCFF24
+    // Offset: 0x1971118
     ::Il2CppString* get_AlgorithmName();
     // private System.Byte GetByte()
-    // Offset: 0x1BD0160
+    // Offset: 0x1971354
     uint8_t GetByte();
     // static private System.UInt32 RotateRight(System.UInt32 x, System.Int32 bits)
-    // Offset: 0x1BCFB74
+    // Offset: 0x1970D68
     static uint RotateRight(uint x, int bits);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1BCFF6C
+    // Offset: 0x1971160
     // Implemented from: Org.BouncyCastle.Crypto.IStreamCipher
     // Base method: System.Void IStreamCipher::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1BD01E0
+    // Offset: 0x19713D4
     // Implemented from: Org.BouncyCastle.Crypto.IStreamCipher
     // Base method: System.Void IStreamCipher::ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
     void ProcessBytes(::Array<uint8_t>* input, int inOff, int len, ::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1BD0380
+    // Offset: 0x1971574
     // Implemented from: Org.BouncyCastle.Crypto.IStreamCipher
     // Base method: System.Void IStreamCipher::Reset()
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x1BD0384
+    // Offset: 0x1971578
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HC256Engine* New_ctor();

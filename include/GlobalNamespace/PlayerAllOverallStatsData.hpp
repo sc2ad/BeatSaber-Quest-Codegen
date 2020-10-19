@@ -51,58 +51,58 @@ namespace GlobalNamespace {
     // Offset: 0x38
     System::Action_2<GlobalNamespace::MissionCompletionResults*, GlobalNamespace::MissionNode*>* didUpdateCampaignOverallStatsDataEvent;
     // public PlayerAllOverallStatsData/PlayerOverallStatsData get_allOverallStatsData()
-    // Offset: 0xFDBD58
+    // Offset: 0x2086A34
     GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* get_allOverallStatsData();
     // public PlayerAllOverallStatsData/PlayerOverallStatsData get_campaignOverallStatsData()
-    // Offset: 0xFDBEB0
+    // Offset: 0x2086B8C
     GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* get_campaignOverallStatsData();
     // private System.Void set_campaignOverallStatsData(PlayerAllOverallStatsData/PlayerOverallStatsData value)
-    // Offset: 0xFDBEB8
+    // Offset: 0x2086B94
     void set_campaignOverallStatsData(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* value);
     // public PlayerAllOverallStatsData/PlayerOverallStatsData get_soloFreePlayOverallStatsData()
-    // Offset: 0xFDBEC0
+    // Offset: 0x2086B9C
     GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* get_soloFreePlayOverallStatsData();
     // private System.Void set_soloFreePlayOverallStatsData(PlayerAllOverallStatsData/PlayerOverallStatsData value)
-    // Offset: 0xFDBEC8
+    // Offset: 0x2086BA4
     void set_soloFreePlayOverallStatsData(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* value);
     // public PlayerAllOverallStatsData/PlayerOverallStatsData get_partyFreePlayOverallStatsData()
-    // Offset: 0xFDBED0
+    // Offset: 0x2086BAC
     GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* get_partyFreePlayOverallStatsData();
     // private System.Void set_partyFreePlayOverallStatsData(PlayerAllOverallStatsData/PlayerOverallStatsData value)
-    // Offset: 0xFDBED8
+    // Offset: 0x2086BB4
     void set_partyFreePlayOverallStatsData(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* value);
     // public System.Void add_didUpdateSoloFreePlayOverallStatsDataEvent(System.Action`2<LevelCompletionResults,IDifficultyBeatmap> value)
-    // Offset: 0xFDBEE0
+    // Offset: 0x2086BBC
     void add_didUpdateSoloFreePlayOverallStatsDataEvent(System::Action_2<GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void remove_didUpdateSoloFreePlayOverallStatsDataEvent(System.Action`2<LevelCompletionResults,IDifficultyBeatmap> value)
-    // Offset: 0xFDBF84
+    // Offset: 0x2086C60
     void remove_didUpdateSoloFreePlayOverallStatsDataEvent(System::Action_2<GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void add_didUpdatePartyFreePlayOverallStatsDataEvent(System.Action`2<LevelCompletionResults,IDifficultyBeatmap> value)
-    // Offset: 0xFDC028
+    // Offset: 0x2086D04
     void add_didUpdatePartyFreePlayOverallStatsDataEvent(System::Action_2<GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void remove_didUpdatePartyFreePlayOverallStatsDataEvent(System.Action`2<LevelCompletionResults,IDifficultyBeatmap> value)
-    // Offset: 0xFDC0CC
+    // Offset: 0x2086DA8
     void remove_didUpdatePartyFreePlayOverallStatsDataEvent(System::Action_2<GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void add_didUpdateCampaignOverallStatsDataEvent(System.Action`2<MissionCompletionResults,MissionNode> value)
-    // Offset: 0xFDC170
+    // Offset: 0x2086E4C
     void add_didUpdateCampaignOverallStatsDataEvent(System::Action_2<GlobalNamespace::MissionCompletionResults*, GlobalNamespace::MissionNode*>* value);
     // public System.Void remove_didUpdateCampaignOverallStatsDataEvent(System.Action`2<MissionCompletionResults,MissionNode> value)
-    // Offset: 0xFDC214
+    // Offset: 0x2086EF0
     void remove_didUpdateCampaignOverallStatsDataEvent(System::Action_2<GlobalNamespace::MissionCompletionResults*, GlobalNamespace::MissionNode*>* value);
     // public System.Void .ctor(PlayerAllOverallStatsData/PlayerOverallStatsData campaignOverallStatsData, PlayerAllOverallStatsData/PlayerOverallStatsData soloFreePlayOverallStatsData, PlayerAllOverallStatsData/PlayerOverallStatsData partyFreePlayOverallStatsData)
-    // Offset: 0xFDC384
+    // Offset: 0x2087060
     static PlayerAllOverallStatsData* New_ctor(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* campaignOverallStatsData, GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* soloFreePlayOverallStatsData, GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* partyFreePlayOverallStatsData);
     // public System.Void UpdateSoloFreePlayOverallStatsData(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0xFDC3E8
+    // Offset: 0x20870C4
     void UpdateSoloFreePlayOverallStatsData(GlobalNamespace::LevelCompletionResults* levelCompletionResults, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Void UpdatePartyFreePlayOverallStatsData(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0xFD4F30
+    // Offset: 0x2087264
     void UpdatePartyFreePlayOverallStatsData(GlobalNamespace::LevelCompletionResults* levelCompletionResults, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Void UpdateCampaignOverallStatsData(MissionCompletionResults missionCompletionResults, MissionNode missionNode)
-    // Offset: 0xFDC588
+    // Offset: 0x20872F4
     void UpdateCampaignOverallStatsData(GlobalNamespace::MissionCompletionResults* missionCompletionResults, GlobalNamespace::MissionNode* missionNode);
     // public System.Void .ctor()
-    // Offset: 0xFDC2B8
+    // Offset: 0x2086F94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerAllOverallStatsData* New_ctor();

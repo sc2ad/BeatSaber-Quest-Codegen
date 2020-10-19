@@ -24,16 +24,16 @@ namespace System::Net {
   class HeaderParser : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x145DAF0
+    // Offset: 0x1234318
     static HeaderParser* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.String[] Invoke(System.String value)
-    // Offset: 0x145DBF4
+    // Offset: 0x123441C
     ::Array<::Il2CppString*>* Invoke(::Il2CppString* value);
     // public System.IAsyncResult BeginInvoke(System.String value, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x145DFB4
+    // Offset: 0x12347DC
     System::IAsyncResult* BeginInvoke(::Il2CppString* value, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.String[] EndInvoke(System.IAsyncResult result)
-    // Offset: 0x145DFD8
+    // Offset: 0x1234800
     ::Array<::Il2CppString*>* EndInvoke(System::IAsyncResult* result);
   }; // System.Net.HeaderParser
 }

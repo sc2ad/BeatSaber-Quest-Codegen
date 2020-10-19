@@ -14,10 +14,10 @@ namespace GlobalNamespace {
   class SteamInit : public UnityEngine::MonoBehaviour {
     public:
     // public System.Void Init()
-    // Offset: 0xF2C650
+    // Offset: 0x1F938C4
     void Init();
     // public System.Void .ctor()
-    // Offset: 0xF2C654
+    // Offset: 0x1F938C8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

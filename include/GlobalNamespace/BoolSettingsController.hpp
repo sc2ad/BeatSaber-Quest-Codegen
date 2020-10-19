@@ -24,17 +24,17 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::BoolSO* settingsValue;
     // protected override System.Boolean GetInitValue()
-    // Offset: 0xF1B640
+    // Offset: 0x1FAEC9C
     // Implemented from: SwitchSettingsController
     // Base method: System.Boolean SwitchSettingsController::GetInitValue()
     bool GetInitValue();
     // protected override System.Void ApplyValue(System.Boolean value)
-    // Offset: 0xF1B690
+    // Offset: 0x1FAECEC
     // Implemented from: SwitchSettingsController
     // Base method: System.Void SwitchSettingsController::ApplyValue(System.Boolean value)
     void ApplyValue(bool value);
     // public System.Void .ctor()
-    // Offset: 0xF1B6F8
+    // Offset: 0x1FAED54
     // Implemented from: SwitchSettingsController
     // Base method: System.Void SwitchSettingsController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

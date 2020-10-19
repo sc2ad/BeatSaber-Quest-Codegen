@@ -74,12 +74,12 @@ namespace System::Net::Http {
     // Creating value type constructor for type: $SendAsyncWorker$d__47
     constexpr $SendAsyncWorker$d__47(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Net::Http::HttpResponseMessage*> $$t__builder_ = {}, System::Net::Http::HttpClient* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Net::Http::HttpRequestMessage* request_ = {}, System::Net::Http::HttpCompletionOption completionOption_ = {}, System::Net::Http::HttpResponseMessage* $response$5__1_ = {}, System::Threading::CancellationTokenSource* $lcts$5__2_ = {}, typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<System::Net::Http::HttpResponseMessage*>::ConfiguredTaskAwaiter $$u__1_ = {}, System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, request{request_}, completionOption{completionOption_}, $response$5__1{$response$5__1_}, $lcts$5__2{$lcts$5__2_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
     // private System.Void MoveNext()
-    // Offset: 0xDB0F80
+    // Offset: 0xC673A0
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDB0F88
+    // Offset: 0xC673A8
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

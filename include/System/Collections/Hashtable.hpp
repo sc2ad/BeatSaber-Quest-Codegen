@@ -157,93 +157,93 @@ namespace System::Collections {
     // Set static field: static private System.String KeyComparerName
     static void _set_KeyComparerName(::Il2CppString* value);
     // System.Void .ctor(System.Boolean trash)
-    // Offset: 0x15D731C
+    // Offset: 0x13ADB44
     static Hashtable* New_ctor(bool trash);
     // public System.Void .ctor(System.Int32 capacity)
-    // Offset: 0x15D75CC
+    // Offset: 0x13ADDF4
     static Hashtable* New_ctor(int capacity);
     // public System.Void .ctor(System.Int32 capacity, System.Single loadFactor)
-    // Offset: 0x15D7324
+    // Offset: 0x13ADB4C
     static Hashtable* New_ctor(int capacity, float loadFactor);
     // public System.Void .ctor(System.Int32 capacity, System.Single loadFactor, System.Collections.IHashCodeProvider hcp, System.Collections.IComparer comparer)
-    // Offset: 0x15D75D4
+    // Offset: 0x13ADDFC
     static Hashtable* New_ctor(int capacity, float loadFactor, System::Collections::IHashCodeProvider* hcp, System::Collections::IComparer* comparer);
     // public System.Void .ctor(System.Int32 capacity, System.Single loadFactor, System.Collections.IEqualityComparer equalityComparer)
-    // Offset: 0x15D7690
+    // Offset: 0x13ADEB8
     static Hashtable* New_ctor(int capacity, float loadFactor, System::Collections::IEqualityComparer* equalityComparer);
     // public System.Void .ctor(System.Collections.IHashCodeProvider hcp, System.Collections.IComparer comparer)
-    // Offset: 0x15D76C0
+    // Offset: 0x13ADEE8
     static Hashtable* New_ctor(System::Collections::IHashCodeProvider* hcp, System::Collections::IComparer* comparer);
     // public System.Void .ctor(System.Collections.IEqualityComparer equalityComparer)
-    // Offset: 0x15D76D4
+    // Offset: 0x13ADEFC
     static Hashtable* New_ctor(System::Collections::IEqualityComparer* equalityComparer);
     // public System.Void .ctor(System.Int32 capacity, System.Collections.IEqualityComparer equalityComparer)
-    // Offset: 0x15D770C
+    // Offset: 0x13ADF34
     static Hashtable* New_ctor(int capacity, System::Collections::IEqualityComparer* equalityComparer);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x15D7740
+    // Offset: 0x13ADF68
     static Hashtable* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // private System.UInt32 InitHash(System.Object key, System.Int32 hashsize, out System.UInt32 seed, out System.UInt32 incr)
-    // Offset: 0x15D77D8
+    // Offset: 0x13AE000
     uint InitHash(::Il2CppObject* key, int hashsize, uint& seed, uint& incr);
     // public System.Void Clear()
-    // Offset: 0x15D7D4C
+    // Offset: 0x13AE574
     void Clear();
     // public System.Boolean ContainsKey(System.Object key)
-    // Offset: 0x15D7FD8
+    // Offset: 0x13AE800
     bool ContainsKey(::Il2CppObject* key);
     // private System.Void CopyKeys(System.Array array, System.Int32 arrayIndex)
-    // Offset: 0x15D8174
+    // Offset: 0x13AE99C
     void CopyKeys(System::Array* array, int arrayIndex);
     // private System.Void CopyEntries(System.Array array, System.Int32 arrayIndex)
-    // Offset: 0x15D821C
+    // Offset: 0x13AEA44
     void CopyEntries(System::Array* array, int arrayIndex);
     // private System.Void CopyValues(System.Array array, System.Int32 arrayIndex)
-    // Offset: 0x15D84DC
+    // Offset: 0x13AED04
     void CopyValues(System::Array* array, int arrayIndex);
     // private System.Void expand()
-    // Offset: 0x15D87D4
+    // Offset: 0x13AEFFC
     void expand();
     // private System.Void rehash()
-    // Offset: 0x15D89CC
+    // Offset: 0x13AF1F4
     void rehash();
     // private System.Void UpdateVersion()
-    // Offset: 0x15D7E60
+    // Offset: 0x13AE688
     void UpdateVersion();
     // private System.Void rehash(System.Int32 newsize, System.Boolean forceNewHashCode)
-    // Offset: 0x15D8854
+    // Offset: 0x13AF07C
     void rehash(int newsize, bool forceNewHashCode);
     // protected System.Int32 GetHash(System.Object key)
-    // Offset: 0x15D8BD8
+    // Offset: 0x13AF400
     int GetHash(::Il2CppObject* key);
     // protected System.Boolean KeyEquals(System.Object item, System.Object key)
-    // Offset: 0x15D8CBC
+    // Offset: 0x13AF4E4
     bool KeyEquals(::Il2CppObject* item, ::Il2CppObject* key);
     // public System.Collections.ICollection get_Values()
-    // Offset: 0x15D8E5C
+    // Offset: 0x13AF684
     System::Collections::ICollection* get_Values();
     // private System.Void Insert(System.Object key, System.Object nvalue, System.Boolean add)
-    // Offset: 0x15D7840
+    // Offset: 0x13AE068
     void Insert(::Il2CppObject* key, ::Il2CppObject* nvalue, bool add);
     // private System.Void putEntry(System.Collections.Hashtable/bucket[] newBuckets, System.Object key, System.Object nvalue, System.Int32 hashcode)
-    // Offset: 0x15D89EC
+    // Offset: 0x13AF214
     void putEntry(::Array<System::Collections::Hashtable::bucket>* newBuckets, ::Il2CppObject* key, ::Il2CppObject* nvalue, int hashcode);
     // public System.Void Remove(System.Object key)
-    // Offset: 0x15D8EE4
+    // Offset: 0x13AF70C
     void Remove(::Il2CppObject* key);
     // public System.Object get_SyncRoot()
-    // Offset: 0x15D915C
+    // Offset: 0x13AF984
     ::Il2CppObject* get_SyncRoot();
     // static public System.Collections.Hashtable Synchronized(System.Collections.Hashtable table)
-    // Offset: 0x15D91DC
+    // Offset: 0x13AFA04
     static System::Collections::Hashtable* Synchronized(System::Collections::Hashtable* table);
     // public System.Void .ctor()
-    // Offset: 0x15CF170
+    // Offset: 0x13A5998
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Hashtable* New_ctor();
     // public System.Void Add(System.Object key, System.Object value)
-    // Offset: 0x15D7838
+    // Offset: 0x13AE060
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Void IDictionary::Add(System.Object key, System.Object value)
     void Add(::Il2CppObject* key, ::Il2CppObject* value);
@@ -251,7 +251,7 @@ namespace System::Collections {
     // Maps to method: Add
     void System_Collections_IDictionary_Add(::Il2CppObject* key, ::Il2CppObject* value);
     // public System.Object Clone()
-    // Offset: 0x15D7E90
+    // Offset: 0x13AE6B8
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();
@@ -259,7 +259,7 @@ namespace System::Collections {
     // Maps to method: Clone
     ::Il2CppObject* System_ICloneable_Clone();
     // public System.Boolean Contains(System.Object key)
-    // Offset: 0x15D7FC8
+    // Offset: 0x13AE7F0
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Boolean IDictionary::Contains(System.Object key)
     bool Contains(::Il2CppObject* key);
@@ -267,7 +267,7 @@ namespace System::Collections {
     // Maps to method: Contains
     bool System_Collections_IDictionary_Contains(::Il2CppObject* key);
     // public System.Void CopyTo(System.Array array, System.Int32 arrayIndex)
-    // Offset: 0x15D8354
+    // Offset: 0x13AEB7C
     // Implemented from: System.Collections.ICollection
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 arrayIndex)
     void CopyTo(System::Array* array, int arrayIndex);
@@ -275,7 +275,7 @@ namespace System::Collections {
     // Maps to method: CopyTo
     void System_Collections_ICollection_CopyTo(System::Array* array, int arrayIndex);
     // public System.Object get_Item(System.Object key)
-    // Offset: 0x15D8590
+    // Offset: 0x13AEDB8
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Object IDictionary::get_Item(System.Object key)
     ::Il2CppObject* get_Item(::Il2CppObject* key);
@@ -283,7 +283,7 @@ namespace System::Collections {
     // Maps to method: get_Item
     ::Il2CppObject* System_Collections_IDictionary_get_Item(::Il2CppObject* key);
     // public System.Void set_Item(System.Object key, System.Object value)
-    // Offset: 0x15D87CC
+    // Offset: 0x13AEFF4
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Void IDictionary::set_Item(System.Object key, System.Object value)
     void set_Item(::Il2CppObject* key, ::Il2CppObject* value);
@@ -291,12 +291,12 @@ namespace System::Collections {
     // Maps to method: set_Item
     void System_Collections_IDictionary_set_Item(::Il2CppObject* key, ::Il2CppObject* value);
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x15D8B08
+    // Offset: 0x13AF330
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public System.Collections.IDictionaryEnumerator GetEnumerator()
-    // Offset: 0x15D8B70
+    // Offset: 0x13AF398
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Collections.IDictionaryEnumerator IDictionary::GetEnumerator()
     System::Collections::IDictionaryEnumerator* GetEnumerator();
@@ -304,7 +304,7 @@ namespace System::Collections {
     // Maps to method: GetEnumerator
     System::Collections::IDictionaryEnumerator* System_Collections_IDictionary_GetEnumerator();
     // public System.Collections.ICollection get_Keys()
-    // Offset: 0x15D8DD4
+    // Offset: 0x13AF5FC
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Collections.ICollection IDictionary::get_Keys()
     System::Collections::ICollection* get_Keys();
@@ -312,7 +312,7 @@ namespace System::Collections {
     // Maps to method: get_Keys
     System::Collections::ICollection* System_Collections_IDictionary_get_Keys();
     // public System.Int32 get_Count()
-    // Offset: 0x15D91D4
+    // Offset: 0x13AF9FC
     // Implemented from: System.Collections.ICollection
     // Base method: System.Int32 ICollection::get_Count()
     int get_Count();
@@ -320,7 +320,7 @@ namespace System::Collections {
     // Maps to method: get_Count
     int System_Collections_ICollection_get_Count();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x15D927C
+    // Offset: 0x13AFAA4
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -328,7 +328,7 @@ namespace System::Collections {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Void OnDeserialization(System.Object sender)
-    // Offset: 0x15D9748
+    // Offset: 0x13AFF70
     // Implemented from: System.Runtime.Serialization.IDeserializationCallback
     // Base method: System.Void IDeserializationCallback::OnDeserialization(System.Object sender)
     void OnDeserialization(::Il2CppObject* sender);

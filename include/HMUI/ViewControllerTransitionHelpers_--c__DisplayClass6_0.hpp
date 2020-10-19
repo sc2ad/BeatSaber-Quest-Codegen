@@ -33,10 +33,10 @@ namespace HMUI {
     // Offset: 0x20
     HMUI::ViewController* toDismissViewController;
     // System.Void <DoVerticalTransition>b__0(System.Single t)
-    // Offset: 0x218E0A8
+    // Offset: 0x1EE1D0C
     void $DoVerticalTransition$b__0(float t);
     // public System.Void .ctor()
-    // Offset: 0x218E0A0
+    // Offset: 0x1EE1D04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ViewControllerTransitionHelpers::$$c__DisplayClass6_0* New_ctor();

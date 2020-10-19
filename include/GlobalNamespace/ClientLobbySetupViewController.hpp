@@ -88,78 +88,78 @@ namespace GlobalNamespace {
     // Offset: 0xD0
     HMUI::ToggleBinder* toggleBinder;
     // public System.Void add_suggestBeatmapEvent(System.Action value)
-    // Offset: 0xF202B4
+    // Offset: 0x1FB39A0
     void add_suggestBeatmapEvent(System::Action* value);
     // public System.Void remove_suggestBeatmapEvent(System.Action value)
-    // Offset: 0xF21210
+    // Offset: 0x1FB4990
     void remove_suggestBeatmapEvent(System::Action* value);
     // public System.Void add_clearSuggestedBeatmapEvent(System.Action value)
-    // Offset: 0xF20544
+    // Offset: 0x1FB3C30
     void add_clearSuggestedBeatmapEvent(System::Action* value);
     // public System.Void remove_clearSuggestedBeatmapEvent(System.Action value)
-    // Offset: 0xF214A0
+    // Offset: 0x1FB4C20
     void remove_clearSuggestedBeatmapEvent(System::Action* value);
     // public System.Void add_suggestModifiersEvent(System.Action value)
-    // Offset: 0xF20358
+    // Offset: 0x1FB3A44
     void add_suggestModifiersEvent(System::Action* value);
     // public System.Void remove_suggestModifiersEvent(System.Action value)
-    // Offset: 0xF212B4
+    // Offset: 0x1FB4A34
     void remove_suggestModifiersEvent(System::Action* value);
     // public System.Void add_clearSuggestedModifiersEvent(System.Action value)
-    // Offset: 0xF205E8
+    // Offset: 0x1FB3CD4
     void add_clearSuggestedModifiersEvent(System::Action* value);
     // public System.Void remove_clearSuggestedModifiersEvent(System.Action value)
-    // Offset: 0xF21544
+    // Offset: 0x1FB4CC4
     void remove_clearSuggestedModifiersEvent(System::Action* value);
     // public System.Void add_setPlayerReadyEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0xF203FC
+    // Offset: 0x1FB3AE8
     void add_setPlayerReadyEvent(System::Action_1<bool>* value);
     // public System.Void remove_setPlayerReadyEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0xF21358
+    // Offset: 0x1FB4AD8
     void remove_setPlayerReadyEvent(System::Action_1<bool>* value);
     // public System.Void add_playerActiveStateChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0xF204A0
+    // Offset: 0x1FB3B8C
     void add_playerActiveStateChangedEvent(System::Action_1<bool>* value);
     // public System.Void remove_playerActiveStateChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0xF213FC
+    // Offset: 0x1FB4B7C
     void remove_playerActiveStateChangedEvent(System::Action_1<bool>* value);
     // public System.Void SetLocalLobbyPlayerData(ILobbyPlayerDataModel lobbyPlayerData)
-    // Offset: 0xF22398
+    // Offset: 0x1FB5CC8
     void SetLocalLobbyPlayerData(GlobalNamespace::ILobbyPlayerDataModel* lobbyPlayerData);
     // public System.Void SetLobbyCode(System.String code)
-    // Offset: 0xF2237C
+    // Offset: 0x1FB5CAC
     void SetLobbyCode(::Il2CppString* code);
     // public System.Void SetLobbyState(MultiplayerLobbyState lobbyState)
-    // Offset: 0xF209DC
+    // Offset: 0x1FB40C8
     void SetLobbyState(GlobalNamespace::MultiplayerLobbyState lobbyState);
     // private System.Void HandleSpectateToggleValueChanged(System.Boolean value)
-    // Offset: 0xF235B0
+    // Offset: 0x1FB6FAC
     void HandleSpectateToggleValueChanged(bool value);
     // private System.Void <DidActivate>b__28_0()
-    // Offset: 0xF2369C
+    // Offset: 0x1FB7098
     void $DidActivate$b__28_0();
     // private System.Void <DidActivate>b__28_1()
-    // Offset: 0xF236B0
+    // Offset: 0x1FB70AC
     void $DidActivate$b__28_1();
     // private System.Void <DidActivate>b__28_2()
-    // Offset: 0xF236C4
+    // Offset: 0x1FB70C0
     void $DidActivate$b__28_2();
     // private System.Void <DidActivate>b__28_3()
-    // Offset: 0xF236D8
+    // Offset: 0x1FB70D4
     void $DidActivate$b__28_3();
     // private System.Void <DidActivate>b__28_4()
-    // Offset: 0xF236EC
+    // Offset: 0x1FB70E8
     void $DidActivate$b__28_4();
     // private System.Void <DidActivate>b__28_5()
-    // Offset: 0xF23750
+    // Offset: 0x1FB714C
     void $DidActivate$b__28_5();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF23310
+    // Offset: 0x1FB6D0C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xF23628
+    // Offset: 0x1FB7024
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

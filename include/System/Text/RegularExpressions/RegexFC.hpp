@@ -33,22 +33,22 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x19
     bool caseInsensitive;
     // System.Void .ctor(System.Boolean nullable)
-    // Offset: 0x1800094
+    // Offset: 0x15A74B8
     static RegexFC* New_ctor(bool nullable);
     // System.Void .ctor(System.Char ch, System.Boolean not, System.Boolean nullable, System.Boolean caseInsensitive)
-    // Offset: 0x1800120
+    // Offset: 0x15A7544
     static RegexFC* New_ctor(::Il2CppChar ch, bool _not, bool nullable, bool caseInsensitive);
     // System.Void .ctor(System.String charClass, System.Boolean nullable, System.Boolean caseInsensitive)
-    // Offset: 0x1800234
+    // Offset: 0x15A7658
     static RegexFC* New_ctor(::Il2CppString* charClass, bool nullable, bool caseInsensitive);
     // System.Boolean AddFC(System.Text.RegularExpressions.RegexFC fc, System.Boolean concatenate)
-    // Offset: 0x18002E8
+    // Offset: 0x15A770C
     bool AddFC(System::Text::RegularExpressions::RegexFC* fc, bool concatenate);
     // System.String GetFirstChars(System.Globalization.CultureInfo culture)
-    // Offset: 0x18003A0
+    // Offset: 0x15A77C4
     ::Il2CppString* GetFirstChars(System::Globalization::CultureInfo* culture);
     // System.Boolean IsCaseInsensitive()
-    // Offset: 0x18003E4
+    // Offset: 0x15A7808
     bool IsCaseInsensitive();
   }; // System.Text.RegularExpressions.RegexFC
 }

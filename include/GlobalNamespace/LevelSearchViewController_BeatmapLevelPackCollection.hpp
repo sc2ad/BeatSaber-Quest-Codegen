@@ -35,23 +35,23 @@ namespace GlobalNamespace {
       return beatmapLevelCollection;
     }
     // private System.Void set_beatmapLevelCollection(IBeatmapLevelCollection value)
-    // Offset: 0x102A1C8
+    // Offset: 0x20BF8FC
     void set_beatmapLevelCollection(GlobalNamespace::IBeatmapLevelCollection* value);
     // public System.Void .ctor(IBeatmapLevelCollection beatmapLevelCollection)
-    // Offset: 0x102A170
+    // Offset: 0x20BF8A4
     static LevelSearchViewController::BeatmapLevelPackCollection* New_ctor(GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection);
     // public System.String get_collectionName()
-    // Offset: 0x102A1B0
+    // Offset: 0x20BF8E4
     // Implemented from: IAnnotatedBeatmapLevelCollection
     // Base method: System.String IAnnotatedBeatmapLevelCollection::get_collectionName()
     ::Il2CppString* get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0x102A1B8
+    // Offset: 0x20BF8EC
     // Implemented from: IAnnotatedBeatmapLevelCollection
     // Base method: UnityEngine.Sprite IAnnotatedBeatmapLevelCollection::get_coverImage()
     UnityEngine::Sprite* get_coverImage();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0x102A1C0
+    // Offset: 0x20BF8F4
     // Implemented from: IAnnotatedBeatmapLevelCollection
     // Base method: IBeatmapLevelCollection IAnnotatedBeatmapLevelCollection::get_beatmapLevelCollection()
     GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();

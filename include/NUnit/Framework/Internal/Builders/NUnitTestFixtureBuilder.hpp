@@ -45,25 +45,25 @@ namespace NUnit::Framework::Internal::Builders {
     // Set static field: static private readonly System.String NO_TYPE_ARGS_MSG
     static void _set_NO_TYPE_ARGS_MSG(::Il2CppString* value);
     // public NUnit.Framework.Internal.TestSuite BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x15EDBAC
+    // Offset: 0x13C43D4
     NUnit::Framework::Internal::TestSuite* BuildFrom(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
     // public NUnit.Framework.Internal.TestSuite BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo, NUnit.Framework.Interfaces.ITestFixtureData testFixtureData)
-    // Offset: 0x15EFD20
+    // Offset: 0x13C6548
     NUnit::Framework::Internal::TestSuite* BuildFrom(NUnit::Framework::Interfaces::ITypeInfo* typeInfo, NUnit::Framework::Interfaces::ITestFixtureData* testFixtureData);
     // private System.Void AddTestCasesToFixture(NUnit.Framework.Internal.TestFixture fixture)
-    // Offset: 0x15EFA84
+    // Offset: 0x13C62AC
     void AddTestCasesToFixture(NUnit::Framework::Internal::TestFixture* fixture);
     // private NUnit.Framework.Internal.Test BuildTestCase(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.TestSuite suite)
-    // Offset: 0x15F0C74
+    // Offset: 0x13C749C
     NUnit::Framework::Internal::Test* BuildTestCase(NUnit::Framework::Interfaces::IMethodInfo* method, NUnit::Framework::Internal::TestSuite* suite);
     // static private System.Void CheckTestFixtureIsValid(NUnit.Framework.Internal.TestFixture fixture)
-    // Offset: 0x15EF6F8
+    // Offset: 0x13C5F20
     static void CheckTestFixtureIsValid(NUnit::Framework::Internal::TestFixture* fixture);
     // static private System.Void .cctor()
-    // Offset: 0x15F0DD4
+    // Offset: 0x13C75FC
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x15EDDA8
+    // Offset: 0x13C45D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NUnitTestFixtureBuilder* New_ctor();

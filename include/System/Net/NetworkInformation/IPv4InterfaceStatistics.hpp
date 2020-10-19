@@ -12,7 +12,7 @@ namespace System::Net::NetworkInformation {
   class IPv4InterfaceStatistics : public ::Il2CppObject {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x12C8C10
+    // Offset: 0x10C44AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static IPv4InterfaceStatistics* New_ctor();

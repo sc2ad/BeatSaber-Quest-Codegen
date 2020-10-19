@@ -26,16 +26,16 @@ namespace System::IO::Compression {
   class DeflateStream::WriteMethod : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x172F1AC
+    // Offset: 0x14EAD80
     static DeflateStream::WriteMethod* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Byte[] array, System.Int32 offset, System.Int32 count)
-    // Offset: 0x172FB9C
+    // Offset: 0x14EB770
     void Invoke(::Array<uint8_t>* array, int offset, int count);
     // public System.IAsyncResult BeginInvoke(System.Byte[] array, System.Int32 offset, System.Int32 count, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x172F1C0
+    // Offset: 0x14EAD94
     System::IAsyncResult* BeginInvoke(::Array<uint8_t>* array, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x172F4DC
+    // Offset: 0x14EB0B0
     void EndInvoke(System::IAsyncResult* result);
   }; // System.IO.Compression.DeflateStream/WriteMethod
 }

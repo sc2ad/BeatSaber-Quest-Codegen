@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Type,IPacketPool> _pools
     static void _set__pools(System::Collections::Generic::Dictionary_2<System::Type*, GlobalNamespace::IPacketPool*>* value);
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x1C407CC
+    // Offset: 0x21FA964
     static void NoDomainReloadInit();
     // static public T Obtain()
     // Offset: 0xFFFFFFFF
@@ -48,7 +48,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("", "RpcPool", "Obtain", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // static public System.Void Release(IRemoteProcedureCall t)
-    // Offset: 0x1C404E0
+    // Offset: 0x21FA678
     static void Release(GlobalNamespace::IRemoteProcedureCall* t);
   }; // RpcPool
 }

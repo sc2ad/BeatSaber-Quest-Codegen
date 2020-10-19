@@ -65,34 +65,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_scoresAvailable()
-    // Offset: 0xF0114C
+    // Offset: 0x1FD6000
     bool get_scoresAvailable();
     // public MultiplayerScoreProvider/RankedPlayer get_firstPlayer()
-    // Offset: 0xF03488
+    // Offset: 0x1FD833C
     GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* get_firstPlayer();
     // private System.Void set_firstPlayer(MultiplayerScoreProvider/RankedPlayer value)
-    // Offset: 0xF03490
+    // Offset: 0x1FD8344
     void set_firstPlayer(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* value);
     // public System.Void add_firstPlayerDidChangeEvent(System.Action`1<MultiplayerScoreProvider/RankedPlayer> value)
-    // Offset: 0xF01170
+    // Offset: 0x1FD6024
     void add_firstPlayerDidChangeEvent(System::Action_1<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* value);
     // public System.Void remove_firstPlayerDidChangeEvent(System.Action`1<MultiplayerScoreProvider/RankedPlayer> value)
-    // Offset: 0xF012FC
+    // Offset: 0x1FD61B0
     void remove_firstPlayerDidChangeEvent(System::Action_1<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* value);
     // public System.Collections.Generic.IReadOnlyList`1<MultiplayerScoreProvider/RankedPlayer> get_rankedPlayers()
-    // Offset: 0xF03498
+    // Offset: 0x1FD834C
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* get_rankedPlayers();
     // protected System.Void Update()
-    // Offset: 0xF034A0
+    // Offset: 0x1FD8354
     void Update();
     // public System.Boolean TryGetScore(System.String userId, out MultiplayerScoreProvider/RankedPlayer data)
-    // Offset: 0xF03C60
+    // Offset: 0x1FD8B14
     bool TryGetScore(::Il2CppString* userId, GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*& data);
     // public System.Int32 GetPositionOfPlayer(System.String userId)
-    // Offset: 0xF016B4
+    // Offset: 0x1FD6568
     int GetPositionOfPlayer(::Il2CppString* userId);
     // public System.Void .ctor()
-    // Offset: 0xF03CD8
+    // Offset: 0x1FD8B8C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

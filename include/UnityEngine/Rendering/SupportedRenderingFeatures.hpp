@@ -156,55 +156,55 @@ namespace UnityEngine::Rendering {
     // Set static field: static private UnityEngine.Rendering.SupportedRenderingFeatures s_Active
     static void _set_s_Active(UnityEngine::Rendering::SupportedRenderingFeatures* value);
     // static public UnityEngine.Rendering.SupportedRenderingFeatures get_active()
-    // Offset: 0x198CFA0
+    // Offset: 0x17333C4
     static UnityEngine::Rendering::SupportedRenderingFeatures* get_active();
     // static public System.Void set_active(UnityEngine.Rendering.SupportedRenderingFeatures value)
-    // Offset: 0x198BFAC
+    // Offset: 0x17323D0
     static void set_active(UnityEngine::Rendering::SupportedRenderingFeatures* value);
     // public UnityEngine.Rendering.SupportedRenderingFeatures/LightmapMixedBakeModes get_defaultMixedLightingModes()
-    // Offset: 0x198D0A0
+    // Offset: 0x17334C4
     UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes get_defaultMixedLightingModes();
     // public UnityEngine.Rendering.SupportedRenderingFeatures/LightmapMixedBakeModes get_mixedLightingModes()
-    // Offset: 0x198D0A8
+    // Offset: 0x17334CC
     UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes get_mixedLightingModes();
     // public UnityEngine.LightmapBakeType get_lightmapBakeTypes()
-    // Offset: 0x198D0B0
+    // Offset: 0x17334D4
     UnityEngine::LightmapBakeType get_lightmapBakeTypes();
     // public UnityEngine.LightmapsMode get_lightmapsModes()
-    // Offset: 0x198D0B8
+    // Offset: 0x17334DC
     UnityEngine::LightmapsMode get_lightmapsModes();
     // public System.Boolean get_enlighten()
-    // Offset: 0x198D0C0
+    // Offset: 0x17334E4
     bool get_enlighten();
     // static System.Void FallbackMixedLightingModeByRef(System.IntPtr fallbackModePtr)
-    // Offset: 0x198D0C8
+    // Offset: 0x17334EC
     static void FallbackMixedLightingModeByRef(System::IntPtr fallbackModePtr);
     // static System.Boolean IsMixedLightingModeSupported(UnityEngine.MixedLightingMode mixedMode)
-    // Offset: 0x198D22C
+    // Offset: 0x1733650
     static bool IsMixedLightingModeSupported(UnityEngine::MixedLightingMode mixedMode);
     // static System.Void IsMixedLightingModeSupportedByRef(UnityEngine.MixedLightingMode mixedMode, System.IntPtr isSupportedPtr)
-    // Offset: 0x198D2A8
+    // Offset: 0x17336CC
     static void IsMixedLightingModeSupportedByRef(UnityEngine::MixedLightingMode mixedMode, System::IntPtr isSupportedPtr);
     // static System.Boolean IsLightmapBakeTypeSupported(UnityEngine.LightmapBakeType bakeType)
-    // Offset: 0x198D3D8
+    // Offset: 0x17337FC
     static bool IsLightmapBakeTypeSupported(UnityEngine::LightmapBakeType bakeType);
     // static System.Void IsLightmapBakeTypeSupportedByRef(UnityEngine.LightmapBakeType bakeType, System.IntPtr isSupportedPtr)
-    // Offset: 0x198D454
+    // Offset: 0x1733878
     static void IsLightmapBakeTypeSupportedByRef(UnityEngine::LightmapBakeType bakeType, System::IntPtr isSupportedPtr);
     // static System.Void IsLightmapsModeSupportedByRef(UnityEngine.LightmapsMode mode, System.IntPtr isSupportedPtr)
-    // Offset: 0x198D5A4
+    // Offset: 0x17339C8
     static void IsLightmapsModeSupportedByRef(UnityEngine::LightmapsMode mode, System::IntPtr isSupportedPtr);
     // static System.Void IsLightmapperSupportedByRef(System.Int32 lightmapper, System.IntPtr isSupportedPtr)
-    // Offset: 0x198D640
+    // Offset: 0x1733A64
     static void IsLightmapperSupportedByRef(int lightmapper, System::IntPtr isSupportedPtr);
     // static System.Void FallbackLightmapperByRef(System.IntPtr lightmapperPtr)
-    // Offset: 0x198D708
+    // Offset: 0x1733B2C
     static void FallbackLightmapperByRef(System::IntPtr lightmapperPtr);
     // static private System.Void .cctor()
-    // Offset: 0x198D728
+    // Offset: 0x1733B4C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x198BF70
+    // Offset: 0x1732394
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SupportedRenderingFeatures* New_ctor();

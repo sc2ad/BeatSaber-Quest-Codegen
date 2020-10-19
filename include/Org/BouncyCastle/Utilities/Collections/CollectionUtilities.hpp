@@ -23,13 +23,13 @@ namespace Org::BouncyCastle::Utilities::Collections {
   class CollectionUtilities : public ::Il2CppObject {
     public:
     // static public System.Collections.IDictionary ReadOnly(System.Collections.IDictionary d)
-    // Offset: 0x11E9DA4
+    // Offset: 0xFE5640
     static System::Collections::IDictionary* ReadOnly(System::Collections::IDictionary* d);
     // static public System.Object RequireNext(System.Collections.IEnumerator e)
-    // Offset: 0x11E9E08
+    // Offset: 0xFE56A4
     static ::Il2CppObject* RequireNext(System::Collections::IEnumerator* e);
     // static public System.String ToString(System.Collections.IEnumerable c)
-    // Offset: 0x11E9F4C
+    // Offset: 0xFE57E8
     static ::Il2CppString* ToString(System::Collections::IEnumerable* c);
   }; // Org.BouncyCastle.Utilities.Collections.CollectionUtilities
 }

@@ -20,7 +20,7 @@ namespace System {
     // Offset: 0x18
     ::Array<::Il2CppString*>* Names;
     // public System.Void .ctor(System.UInt64[] values, System.String[] names)
-    // Offset: 0x1252674
+    // Offset: 0x104CF10
     static Enum::ValuesAndNames* New_ctor(::Array<uint64_t>* values, ::Array<::Il2CppString*>* names);
   }; // System.Enum/ValuesAndNames
 }

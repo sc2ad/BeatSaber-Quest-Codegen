@@ -33,16 +33,16 @@ namespace Valve::VR {
   class IVRSystem::_GetArrayTrackedDeviceProperty : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F58B90
+    // Offset: 0x1CAA7F4
     static IVRSystem::_GetArrayTrackedDeviceProperty* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.UInt32 unDeviceIndex, Valve.VR.ETrackedDeviceProperty prop, System.UInt32 propType, System.IntPtr pBuffer, System.UInt32 unBufferSize, ref Valve.VR.ETrackedPropertyError pError)
-    // Offset: 0x1F58BA4
+    // Offset: 0x1CAA808
     uint Invoke(uint unDeviceIndex, Valve::VR::ETrackedDeviceProperty prop, uint propType, System::IntPtr pBuffer, uint unBufferSize, Valve::VR::ETrackedPropertyError& pError);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unDeviceIndex, Valve.VR.ETrackedDeviceProperty prop, System.UInt32 propType, System.IntPtr pBuffer, System.UInt32 unBufferSize, ref Valve.VR.ETrackedPropertyError pError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F58E9C
+    // Offset: 0x1CAAB00
     System::IAsyncResult* BeginInvoke(uint unDeviceIndex, Valve::VR::ETrackedDeviceProperty prop, uint propType, System::IntPtr pBuffer, uint unBufferSize, Valve::VR::ETrackedPropertyError& pError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(ref Valve.VR.ETrackedPropertyError pError, System.IAsyncResult result)
-    // Offset: 0x1F58FBC
+    // Offset: 0x1CAAC20
     uint EndInvoke(Valve::VR::ETrackedPropertyError& pError, System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetArrayTrackedDeviceProperty
 }

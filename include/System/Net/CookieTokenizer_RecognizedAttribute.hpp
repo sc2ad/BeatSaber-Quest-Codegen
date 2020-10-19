@@ -26,13 +26,13 @@ namespace System::Net {
     // Creating value type constructor for type: RecognizedAttribute
     constexpr RecognizedAttribute(::Il2CppString* m_name_ = {}, System::Net::CookieToken m_token_ = {}) noexcept : m_name{m_name_}, m_token{m_token_} {}
     // System.Void .ctor(System.String name, System.Net.CookieToken token)
-    // Offset: 0xDB59B0
+    // Offset: 0xC6BDD0
     // ABORTED: conflicts with another method.  RecognizedAttribute(::Il2CppString* name, System::Net::CookieToken token);
     // System.Net.CookieToken get_Token()
-    // Offset: 0xDB59E0
+    // Offset: 0xC6BE00
     System::Net::CookieToken get_Token();
     // System.Boolean IsEqualTo(System.String value)
-    // Offset: 0xDB59E8
+    // Offset: 0xC6BE08
     bool IsEqualTo(::Il2CppString* value);
   }; // System.Net.CookieTokenizer/RecognizedAttribute
 }

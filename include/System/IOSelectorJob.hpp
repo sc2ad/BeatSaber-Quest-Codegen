@@ -39,18 +39,18 @@ namespace System {
     // Offset: 0x20
     System::IOAsyncResult* state;
     // public System.Void .ctor(System.IOOperation operation, System.IOAsyncCallback callback, System.IOAsyncResult state)
-    // Offset: 0x1736484
+    // Offset: 0x14F2058
     static IOSelectorJob* New_ctor(System::IOOperation operation, System::IOAsyncCallback* callback, System::IOAsyncResult* state);
     // public System.Void MarkDisposed()
-    // Offset: 0x1736500
+    // Offset: 0x14F20D4
     void MarkDisposed();
     // private System.Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
-    // Offset: 0x17364DC
+    // Offset: 0x14F20B0
     // Implemented from: System.Threading.IThreadPoolWorkItem
     // Base method: System.Void IThreadPoolWorkItem::ExecuteWorkItem()
     void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
     // private System.Void System.Threading.IThreadPoolWorkItem.MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0x17364FC
+    // Offset: 0x14F20D0
     // Implemented from: System.Threading.IThreadPoolWorkItem
     // Base method: System.Void IThreadPoolWorkItem::MarkAborted(System.Threading.ThreadAbortException tae)
     void System_Threading_IThreadPoolWorkItem_MarkAborted(System::Threading::ThreadAbortException* tae);

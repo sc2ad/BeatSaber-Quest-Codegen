@@ -36,16 +36,16 @@ namespace Valve::VR {
   class IVRApplications::_GetApplicationKeyByIndex : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1537A60
+    // Offset: 0x130E288
     static IVRApplications::_GetApplicationKeyByIndex* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRApplicationError Invoke(System.UInt32 unApplicationIndex, System.Text.StringBuilder pchAppKeyBuffer, System.UInt32 unAppKeyBufferLen)
-    // Offset: 0x152AC8C
+    // Offset: 0x13014B4
     Valve::VR::EVRApplicationError Invoke(uint unApplicationIndex, System::Text::StringBuilder* pchAppKeyBuffer, uint unAppKeyBufferLen);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unApplicationIndex, System.Text.StringBuilder pchAppKeyBuffer, System.UInt32 unAppKeyBufferLen, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1537A74
+    // Offset: 0x130E29C
     System::IAsyncResult* BeginInvoke(uint unApplicationIndex, System::Text::StringBuilder* pchAppKeyBuffer, uint unAppKeyBufferLen, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRApplicationError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1537B24
+    // Offset: 0x130E34C
     Valve::VR::EVRApplicationError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRApplications/_GetApplicationKeyByIndex
 }

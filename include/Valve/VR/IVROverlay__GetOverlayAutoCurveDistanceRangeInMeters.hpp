@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVROverlay::_GetOverlayAutoCurveDistanceRangeInMeters : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1E39D28
+    // Offset: 0x1B8C98C
     static IVROverlay::_GetOverlayAutoCurveDistanceRangeInMeters* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, ref System.Single pfMinDistanceInMeters, ref System.Single pfMaxDistanceInMeters)
-    // Offset: 0x1E39D3C
+    // Offset: 0x1B8C9A0
     Valve::VR::EVROverlayError Invoke(uint64_t ulOverlayHandle, float& pfMinDistanceInMeters, float& pfMaxDistanceInMeters);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, ref System.Single pfMinDistanceInMeters, ref System.Single pfMaxDistanceInMeters, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1E39FD4
+    // Offset: 0x1B8CC38
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, float& pfMinDistanceInMeters, float& pfMaxDistanceInMeters, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(ref System.Single pfMinDistanceInMeters, ref System.Single pfMaxDistanceInMeters, System.IAsyncResult result)
-    // Offset: 0x1E3A0A0
+    // Offset: 0x1B8CD04
     Valve::VR::EVROverlayError EndInvoke(float& pfMinDistanceInMeters, float& pfMaxDistanceInMeters, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_GetOverlayAutoCurveDistanceRangeInMeters
 }

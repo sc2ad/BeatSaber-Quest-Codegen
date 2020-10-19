@@ -78,70 +78,70 @@ namespace System::Threading {
     // Set static field: static private System.Action`1<System.Object> s_cancellationTokenCanceledEventHandler
     static void _set_s_cancellationTokenCanceledEventHandler(System::Action_1<::Il2CppObject*>* value);
     // public System.Int32 get_CurrentCount()
-    // Offset: 0x16D6FE0
+    // Offset: 0x1491BB4
     int get_CurrentCount();
     // public System.Void .ctor(System.Int32 initialCount)
-    // Offset: 0x16D7004
+    // Offset: 0x1491BD8
     static SemaphoreSlim* New_ctor(int initialCount);
     // public System.Void .ctor(System.Int32 initialCount, System.Int32 maxCount)
-    // Offset: 0x16D700C
+    // Offset: 0x1491BE0
     static SemaphoreSlim* New_ctor(int initialCount, int maxCount);
     // public System.Void Wait()
-    // Offset: 0x16D71D4
+    // Offset: 0x1491DA8
     void Wait();
     // public System.Boolean Wait(System.Int32 millisecondsTimeout)
-    // Offset: 0x16D76B0
+    // Offset: 0x1492284
     bool Wait(int millisecondsTimeout);
     // public System.Boolean Wait(System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x16D71E0
+    // Offset: 0x1491DB4
     bool Wait(int millisecondsTimeout, System::Threading::CancellationToken cancellationToken);
     // private System.Boolean WaitUntilCountOrTimeout(System.Int32 millisecondsTimeout, System.UInt32 startTime, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x16D7B68
+    // Offset: 0x149273C
     bool WaitUntilCountOrTimeout(int millisecondsTimeout, uint startTime, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task WaitAsync()
-    // Offset: 0x16D7C40
+    // Offset: 0x1492814
     System::Threading::Tasks::Task* WaitAsync();
     // public System.Threading.Tasks.Task WaitAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x16D7C4C
+    // Offset: 0x1492820
     System::Threading::Tasks::Task* WaitAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<System.Boolean> WaitAsync(System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x16D7884
+    // Offset: 0x1492458
     System::Threading::Tasks::Task_1<bool>* WaitAsync(int millisecondsTimeout, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.SemaphoreSlim/TaskNode CreateAndAddAsyncWaiter()
-    // Offset: 0x16D7C58
+    // Offset: 0x149282C
     System::Threading::SemaphoreSlim::TaskNode* CreateAndAddAsyncWaiter();
     // private System.Boolean RemoveAsyncWaiter(System.Threading.SemaphoreSlim/TaskNode task)
-    // Offset: 0x16D7EE8
+    // Offset: 0x1492ABC
     bool RemoveAsyncWaiter(System::Threading::SemaphoreSlim::TaskNode* task);
     // private System.Threading.Tasks.Task`1<System.Boolean> WaitUntilCountOrTimeoutAsync(System.Threading.SemaphoreSlim/TaskNode asyncWaiter, System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x16D7D10
+    // Offset: 0x14928E4
     System::Threading::Tasks::Task_1<bool>* WaitUntilCountOrTimeoutAsync(System::Threading::SemaphoreSlim::TaskNode* asyncWaiter, int millisecondsTimeout, System::Threading::CancellationToken cancellationToken);
     // public System.Int32 Release()
-    // Offset: 0x16D7FD4
+    // Offset: 0x1492BA8
     int Release();
     // public System.Int32 Release(System.Int32 releaseCount)
-    // Offset: 0x16D7FDC
+    // Offset: 0x1492BB0
     int Release(int releaseCount);
     // static private System.Void QueueWaiterTask(System.Threading.SemaphoreSlim/TaskNode waiterTask)
-    // Offset: 0x16D82B0
+    // Offset: 0x1492E84
     static void QueueWaiterTask(System::Threading::SemaphoreSlim::TaskNode* waiterTask);
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x16D83C0
+    // Offset: 0x1492F94
     void Dispose(bool disposing);
     // static private System.Void CancellationTokenCanceledEventHandler(System.Object obj)
-    // Offset: 0x16D846C
+    // Offset: 0x1493040
     static void CancellationTokenCanceledEventHandler(::Il2CppObject* obj);
     // private System.Void CheckDispose()
-    // Offset: 0x16D76B8
+    // Offset: 0x149228C
     void CheckDispose();
     // static private System.String GetResourceString(System.String str)
-    // Offset: 0x16D71CC
+    // Offset: 0x1491DA0
     static ::Il2CppString* GetResourceString(::Il2CppString* str);
     // static private System.Void .cctor()
-    // Offset: 0x16D8570
+    // Offset: 0x1493144
     static void _cctor();
     // public System.Void Dispose()
-    // Offset: 0x16D8344
+    // Offset: 0x1492F18
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

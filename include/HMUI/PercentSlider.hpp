@@ -14,12 +14,12 @@ namespace HMUI {
   class PercentSlider : public HMUI::RangeValuesTextSlider {
     public:
     // protected override System.String TextForValue(System.Single value)
-    // Offset: 0x1174014
+    // Offset: 0x216D9FC
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.String RangeValuesTextSlider::TextForValue(System.Single value)
     ::Il2CppString* TextForValue(float value);
     // public System.Void .ctor()
-    // Offset: 0x11740A4
+    // Offset: 0x216DA8C
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.Void RangeValuesTextSlider::.ctor()
     // Base method: System.Void TextSlider::.ctor()

@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRSettings::_GetSettingsErrorNameFromEnum : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F3B8A4
+    // Offset: 0x1C8D508
     static IVRSettings::_GetSettingsErrorNameFromEnum* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.IntPtr Invoke(OVR.OpenVR.EVRSettingsError eError)
-    // Offset: 0x1F3B8B8
+    // Offset: 0x1C8D51C
     System::IntPtr Invoke(OVR::OpenVR::EVRSettingsError eError);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.EVRSettingsError eError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F3BB2C
+    // Offset: 0x1C8D790
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::EVRSettingsError eError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.IntPtr EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1F3BBB8
+    // Offset: 0x1C8D81C
     System::IntPtr EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSettings/_GetSettingsErrorNameFromEnum
 }

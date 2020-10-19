@@ -120,130 +120,130 @@ namespace System::Runtime::Remoting {
     // Set static field: static private readonly System.Reflection.MethodInfo FieldGetterMethod
     static void _set_FieldGetterMethod(System::Reflection::MethodInfo* value);
     // static private System.Void .cctor()
-    // Offset: 0x1502084
+    // Offset: 0x12D88AC
     static void _cctor();
     // static System.Object InternalExecute(System.Reflection.MethodBase method, System.Object obj, System.Object[] parameters, out System.Object[] out_args)
-    // Offset: 0x15023C8
+    // Offset: 0x12D8BF0
     static ::Il2CppObject* InternalExecute(System::Reflection::MethodBase* method, ::Il2CppObject* obj, ::Array<::Il2CppObject*>* parameters, ::Array<::Il2CppObject*>*& out_args);
     // static System.Reflection.MethodBase GetVirtualMethod(System.Type type, System.Reflection.MethodBase method)
-    // Offset: 0x14F4D54
+    // Offset: 0x12CB57C
     static System::Reflection::MethodBase* GetVirtualMethod(System::Type* type, System::Reflection::MethodBase* method);
     // static public System.Boolean IsTransparentProxy(System.Object proxy)
-    // Offset: 0x14F7A74
+    // Offset: 0x12CE29C
     static bool IsTransparentProxy(::Il2CppObject* proxy);
     // static System.Runtime.Remoting.Messaging.IMethodReturnMessage InternalExecuteMessage(System.MarshalByRefObject target, System.Runtime.Remoting.Messaging.IMethodCallMessage reqMsg)
-    // Offset: 0x14F9754
+    // Offset: 0x12CFF7C
     static System::Runtime::Remoting::Messaging::IMethodReturnMessage* InternalExecuteMessage(System::MarshalByRefObject* target, System::Runtime::Remoting::Messaging::IMethodCallMessage* reqMsg);
     // static public System.Object Connect(System.Type classToProxy, System.String url)
-    // Offset: 0x15023CC
+    // Offset: 0x12D8BF4
     static ::Il2CppObject* Connect(System::Type* classToProxy, ::Il2CppString* url);
     // static public System.Object Connect(System.Type classToProxy, System.String url, System.Object data)
-    // Offset: 0x15024E8
+    // Offset: 0x12D8D10
     static ::Il2CppObject* Connect(System::Type* classToProxy, ::Il2CppString* url, ::Il2CppObject* data);
     // static public System.Type GetServerTypeForUri(System.String URI)
-    // Offset: 0x14F48FC
+    // Offset: 0x12CB124
     static System::Type* GetServerTypeForUri(::Il2CppString* URI);
     // static public System.Object Unmarshal(System.Runtime.Remoting.ObjRef objectRef)
-    // Offset: 0x14FBD9C
+    // Offset: 0x12D25C4
     static ::Il2CppObject* Unmarshal(System::Runtime::Remoting::ObjRef* objectRef);
     // static public System.Object Unmarshal(System.Runtime.Remoting.ObjRef objectRef, System.Boolean fRefine)
-    // Offset: 0x1502584
+    // Offset: 0x12D8DAC
     static ::Il2CppObject* Unmarshal(System::Runtime::Remoting::ObjRef* objectRef, bool fRefine);
     // static public System.Runtime.Remoting.ObjRef Marshal(System.MarshalByRefObject Obj)
-    // Offset: 0x1502B04
+    // Offset: 0x12D932C
     static System::Runtime::Remoting::ObjRef* Marshal(System::MarshalByRefObject* Obj);
     // static public System.Runtime.Remoting.ObjRef Marshal(System.MarshalByRefObject Obj, System.String ObjURI, System.Type RequestedType)
-    // Offset: 0x1502B70
+    // Offset: 0x12D9398
     static System::Runtime::Remoting::ObjRef* Marshal(System::MarshalByRefObject* Obj, ::Il2CppString* ObjURI, System::Type* RequestedType);
     // static private System.String NewUri()
-    // Offset: 0x1502BC4
+    // Offset: 0x12D93EC
     static ::Il2CppString* NewUri();
     // static public System.Runtime.Remoting.Proxies.RealProxy GetRealProxy(System.Object proxy)
-    // Offset: 0x14F7AD4
+    // Offset: 0x12CE2FC
     static System::Runtime::Remoting::Proxies::RealProxy* GetRealProxy(::Il2CppObject* proxy);
     // static public System.Reflection.MethodBase GetMethodBaseFromMethodMessage(System.Runtime.Remoting.Messaging.IMethodMessage msg)
-    // Offset: 0x14F4D58
+    // Offset: 0x12CB580
     static System::Reflection::MethodBase* GetMethodBaseFromMethodMessage(System::Runtime::Remoting::Messaging::IMethodMessage* msg);
     // static System.Reflection.MethodBase GetMethodBaseFromName(System.Type type, System.String methodName, System.Type[] signature)
-    // Offset: 0x14F4B74
+    // Offset: 0x12CB39C
     static System::Reflection::MethodBase* GetMethodBaseFromName(System::Type* type, ::Il2CppString* methodName, ::Array<System::Type*>* signature);
     // static private System.Reflection.MethodBase FindInterfaceMethod(System.Type type, System.String methodName, System.Type[] signature)
-    // Offset: 0x1503740
+    // Offset: 0x12D9F68
     static System::Reflection::MethodBase* FindInterfaceMethod(System::Type* type, ::Il2CppString* methodName, ::Array<System::Type*>* signature);
     // static public System.Void GetObjectData(System.Object obj, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x14F7B28
+    // Offset: 0x12CE350
     static void GetObjectData(::Il2CppObject* obj, System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // static public System.Boolean IsOneWay(System.Reflection.MethodBase method)
-    // Offset: 0x14F76BC
+    // Offset: 0x12CDEE4
     static bool IsOneWay(System::Reflection::MethodBase* method);
     // static System.Object CreateClientProxy(System.Runtime.Remoting.ActivatedClientTypeEntry entry, System.Object[] activationAttributes)
-    // Offset: 0x1503890
+    // Offset: 0x12DA0B8
     static ::Il2CppObject* CreateClientProxy(System::Runtime::Remoting::ActivatedClientTypeEntry* entry, ::Array<::Il2CppObject*>* activationAttributes);
     // static System.Object CreateClientProxy(System.Type objectType, System.String url, System.Object[] activationAttributes)
-    // Offset: 0x15039F4
+    // Offset: 0x12DA21C
     static ::Il2CppObject* CreateClientProxy(System::Type* objectType, ::Il2CppString* url, ::Array<::Il2CppObject*>* activationAttributes);
     // static System.Object CreateClientProxy(System.Runtime.Remoting.WellKnownClientTypeEntry entry)
-    // Offset: 0x1503BFC
+    // Offset: 0x12DA424
     static ::Il2CppObject* CreateClientProxy(System::Runtime::Remoting::WellKnownClientTypeEntry* entry);
     // static System.Object CreateClientProxyForContextBound(System.Type type, System.Object[] activationAttributes)
-    // Offset: 0x1503C74
+    // Offset: 0x12DA49C
     static ::Il2CppObject* CreateClientProxyForContextBound(System::Type* type, ::Array<::Il2CppObject*>* activationAttributes);
     // static System.Runtime.Remoting.Identity GetIdentityForUri(System.String uri)
-    // Offset: 0x14FDFF8
+    // Offset: 0x12D4820
     static System::Runtime::Remoting::Identity* GetIdentityForUri(::Il2CppString* uri);
     // static private System.String RemoveAppNameFromUri(System.String uri)
-    // Offset: 0x1503E58
+    // Offset: 0x12DA680
     static ::Il2CppString* RemoveAppNameFromUri(::Il2CppString* uri);
     // static System.Runtime.Remoting.ClientIdentity GetOrCreateClientIdentity(System.Runtime.Remoting.ObjRef objRef, System.Type proxyType, out System.Object clientProxy)
-    // Offset: 0x1503F68
+    // Offset: 0x12DA790
     static System::Runtime::Remoting::ClientIdentity* GetOrCreateClientIdentity(System::Runtime::Remoting::ObjRef* objRef, System::Type* proxyType, ::Il2CppObject*& clientProxy);
     // static private System.Runtime.Remoting.Messaging.IMessageSink GetClientChannelSinkChain(System.String url, System.Object channelData, out System.String objectUri)
-    // Offset: 0x1503B10
+    // Offset: 0x12DA338
     static System::Runtime::Remoting::Messaging::IMessageSink* GetClientChannelSinkChain(::Il2CppString* url, ::Il2CppObject* channelData, ::Il2CppString*& objectUri);
     // static System.Runtime.Remoting.ClientActivatedIdentity CreateContextBoundObjectIdentity(System.Type objectType)
-    // Offset: 0x1504474
+    // Offset: 0x12DAC9C
     static System::Runtime::Remoting::ClientActivatedIdentity* CreateContextBoundObjectIdentity(System::Type* objectType);
     // static System.Runtime.Remoting.ClientActivatedIdentity CreateClientActivatedServerIdentity(System.MarshalByRefObject realObject, System.Type objectType, System.String objectUri)
-    // Offset: 0x1503610
+    // Offset: 0x12D9E38
     static System::Runtime::Remoting::ClientActivatedIdentity* CreateClientActivatedServerIdentity(System::MarshalByRefObject* realObject, System::Type* objectType, ::Il2CppString* objectUri);
     // static System.Runtime.Remoting.ServerIdentity CreateWellKnownServerIdentity(System.Type objectType, System.String objectUri, System.Runtime.Remoting.WellKnownObjectMode mode)
-    // Offset: 0x1500998
+    // Offset: 0x12D71C0
     static System::Runtime::Remoting::ServerIdentity* CreateWellKnownServerIdentity(System::Type* objectType, ::Il2CppString* objectUri, System::Runtime::Remoting::WellKnownObjectMode mode);
     // static private System.Void RegisterServerIdentity(System.Runtime.Remoting.ServerIdentity identity)
-    // Offset: 0x1502F8C
+    // Offset: 0x12D97B4
     static void RegisterServerIdentity(System::Runtime::Remoting::ServerIdentity* identity);
     // static System.Object GetProxyForRemoteObject(System.Runtime.Remoting.ObjRef objref, System.Type classToProxy)
-    // Offset: 0x14FC838
+    // Offset: 0x12D3060
     static ::Il2CppObject* GetProxyForRemoteObject(System::Runtime::Remoting::ObjRef* objref, System::Type* classToProxy);
     // static System.Object GetRemoteObject(System.Runtime.Remoting.ObjRef objRef, System.Type proxyType)
-    // Offset: 0x1502464
+    // Offset: 0x12D8C8C
     static ::Il2CppObject* GetRemoteObject(System::Runtime::Remoting::ObjRef* objRef, System::Type* proxyType);
     // static System.Byte[] SerializeCallData(System.Object obj)
-    // Offset: 0x15045F4
+    // Offset: 0x12DAE1C
     static ::Array<uint8_t>* SerializeCallData(::Il2CppObject* obj);
     // static System.Object DeserializeCallData(System.Byte[] array)
-    // Offset: 0x1504768
+    // Offset: 0x12DAF90
     static ::Il2CppObject* DeserializeCallData(::Array<uint8_t>* array);
     // static System.Byte[] SerializeExceptionData(System.Exception ex)
-    // Offset: 0x15048D0
+    // Offset: 0x12DB0F8
     static ::Array<uint8_t>* SerializeExceptionData(System::Exception* ex);
     // static private System.Void RegisterInternalChannels()
-    // Offset: 0x1502368
+    // Offset: 0x12D8B90
     static void RegisterInternalChannels();
     // static System.Void DisposeIdentity(System.Runtime.Remoting.Identity ident)
-    // Offset: 0x14FF0A0
+    // Offset: 0x12D58C8
     static void DisposeIdentity(System::Runtime::Remoting::Identity* ident);
     // static System.Runtime.Remoting.Identity GetMessageTargetIdentity(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0x14F88C8
+    // Offset: 0x12CF0F0
     static System::Runtime::Remoting::Identity* GetMessageTargetIdentity(System::Runtime::Remoting::Messaging::IMessage* msg);
     // static System.Void SetMessageTargetIdentity(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Identity ident)
-    // Offset: 0x1504990
+    // Offset: 0x12DB1B8
     static void SetMessageTargetIdentity(System::Runtime::Remoting::Messaging::IMessage* msg, System::Runtime::Remoting::Identity* ident);
     // static System.Boolean UpdateOutArgObject(System.Reflection.ParameterInfo pi, System.Object local, System.Object remote)
-    // Offset: 0x14FE240
+    // Offset: 0x12D4A68
     static bool UpdateOutArgObject(System::Reflection::ParameterInfo* pi, ::Il2CppObject* local, ::Il2CppObject* remote);
     // static private System.String GetNormalizedUri(System.String uri)
-    // Offset: 0x1503DD8
+    // Offset: 0x12DA600
     static ::Il2CppString* GetNormalizedUri(::Il2CppString* uri);
   }; // System.Runtime.Remoting.RemotingServices
 }

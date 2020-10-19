@@ -29,33 +29,33 @@ namespace RootMotion::FinalIK {
     // Offset: 0x50
     ::Array<RootMotion::FinalIK::GenericPoser::Map*>* maps;
     // private System.Void StoreDefaultState()
-    // Offset: 0x1A93D0C
+    // Offset: 0x1832F00
     void StoreDefaultState();
     // private UnityEngine.Transform GetTargetNamed(System.String tName, UnityEngine.Transform[] array)
-    // Offset: 0x1A93C14
+    // Offset: 0x1832E08
     UnityEngine::Transform* GetTargetNamed(::Il2CppString* tName, ::Array<UnityEngine::Transform*>* array);
     // public override System.Void AutoMapping()
-    // Offset: 0x1A939C0
+    // Offset: 0x1832BB4
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::AutoMapping()
     void AutoMapping();
     // protected override System.Void InitiatePoser()
-    // Offset: 0x1A93D74
+    // Offset: 0x1832F68
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::InitiatePoser()
     void InitiatePoser();
     // protected override System.Void UpdatePoser()
-    // Offset: 0x1A93D78
+    // Offset: 0x1832F6C
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::UpdatePoser()
     void UpdatePoser();
     // protected override System.Void FixPoserTransforms()
-    // Offset: 0x1A94020
+    // Offset: 0x1833214
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::FixPoserTransforms()
     void FixPoserTransforms();
     // public System.Void .ctor()
-    // Offset: 0x1A94124
+    // Offset: 0x1833318
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::.ctor()
     // Base method: System.Void SolverManager::.ctor()

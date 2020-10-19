@@ -38,10 +38,10 @@ namespace HMUI {
     // Offset: 0x28
     HMUI::ViewController* newTopViewController;
     // System.Void <DismissViewController>b__0()
-    // Offset: 0x11B82C8
+    // Offset: 0x2187710
     void $DismissViewController$b__0();
     // public System.Void .ctor()
-    // Offset: 0x11B73E8
+    // Offset: 0x2186830
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FlowCoordinator::$$c__DisplayClass39_0* New_ctor();

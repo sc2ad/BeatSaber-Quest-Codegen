@@ -54,70 +54,70 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.Vector2> s_UVTransformProjectionBuffer
     static void _set_s_UVTransformProjectionBuffer(System::Collections::Generic::List_1<UnityEngine::Vector2>* value);
     // static System.Void SetAutoUV(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face[] faces, System.Boolean auto)
-    // Offset: 0x157B578
+    // Offset: 0x1352DA0
     static void SetAutoUV(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Array<UnityEngine::ProBuilder::Face*>* faces, bool _auto);
     // static System.Void SetAutoAndAlignUnwrapParamsToUVs(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> facesToConvert)
-    // Offset: 0x157B720
+    // Offset: 0x1352F48
     static void SetAutoAndAlignUnwrapParamsToUVs(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* facesToConvert);
     // static UnityEngine.ProBuilder.AutoUnwrapSettings GetAutoUnwrapSettings(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face face)
-    // Offset: 0x157BD98
+    // Offset: 0x13535C0
     static UnityEngine::ProBuilder::AutoUnwrapSettings GetAutoUnwrapSettings(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Face* face);
     // static UnityEngine.ProBuilder.MeshOperations.UVEditing/UVTransform GetUVTransform(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face face)
-    // Offset: 0x157BEEC
+    // Offset: 0x1353714
     static UnityEngine::ProBuilder::MeshOperations::UVEditing::UVTransform GetUVTransform(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Face* face);
     // static private System.Int32 GetIndex(System.Collections.Generic.IList`1<System.Int32> collection, System.Int32 index)
-    // Offset: 0x157BFE8
+    // Offset: 0x1353810
     static int GetIndex(System::Collections::Generic::IList_1<int>* collection, int index);
     // static UnityEngine.ProBuilder.MeshOperations.UVEditing/UVTransform CalculateDelta(System.Collections.Generic.IList`1<UnityEngine.Vector2> src, System.Collections.Generic.IList`1<System.Int32> srcIndices, System.Collections.Generic.IList`1<UnityEngine.Vector2> dst, System.Collections.Generic.IList`1<System.Int32> dstIndices)
-    // Offset: 0x157B948
+    // Offset: 0x1353170
     static UnityEngine::ProBuilder::MeshOperations::UVEditing::UVTransform CalculateDelta(System::Collections::Generic::IList_1<UnityEngine::Vector2>* src, System::Collections::Generic::IList_1<int>* srcIndices, System::Collections::Generic::IList_1<UnityEngine::Vector2>* dst, System::Collections::Generic::IList_1<int>* dstIndices);
     // static private UnityEngine.Vector2 GetRotatedSize(System.Collections.Generic.IList`1<UnityEngine.Vector2> points, System.Collections.Generic.IList`1<System.Int32> indices, UnityEngine.Vector2 center, System.Single rotation)
-    // Offset: 0x157C0B4
+    // Offset: 0x13538DC
     static UnityEngine::Vector2 GetRotatedSize(System::Collections::Generic::IList_1<UnityEngine::Vector2>* points, System::Collections::Generic::IList_1<int>* indices, UnityEngine::Vector2 center, float rotation);
     // static public System.Boolean AutoStitch(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face f1, UnityEngine.ProBuilder.Face f2, System.Int32 channel)
-    // Offset: 0x157C3E8
+    // Offset: 0x1353C10
     static bool AutoStitch(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Face* f1, UnityEngine::ProBuilder::Face* f2, int channel);
     // static private System.Boolean AlignEdges(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face faceToMove, UnityEngine.ProBuilder.Edge edgeToAlignTo, UnityEngine.ProBuilder.Edge edgeToBeAligned, System.Int32 channel)
-    // Offset: 0x157C700
+    // Offset: 0x1353F28
     static bool AlignEdges(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Face* faceToMove, UnityEngine::ProBuilder::Edge edgeToAlignTo, UnityEngine::ProBuilder::Edge edgeToBeAligned, int channel);
     // static UnityEngine.Vector2[] GetUVs(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32 channel)
-    // Offset: 0x157D1AC
+    // Offset: 0x13549D4
     static ::Array<UnityEngine::Vector2>* GetUVs(UnityEngine::ProBuilder::ProBuilderMesh* mesh, int channel);
     // static System.Void ApplyUVs(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.Vector2[] uvs, System.Int32 channel, System.Boolean applyToMesh)
-    // Offset: 0x157D6D0
+    // Offset: 0x1354EF8
     static void ApplyUVs(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Array<UnityEngine::Vector2>* uvs, int channel, bool applyToMesh);
     // static public System.Void SewUVs(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32[] indexes, System.Single delta)
-    // Offset: 0x157DA2C
+    // Offset: 0x1355254
     static void SewUVs(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Array<int>* indexes, float delta);
     // static public System.Void CollapseUVs(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32[] indexes)
-    // Offset: 0x157DFD8
+    // Offset: 0x1355800
     static void CollapseUVs(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Array<int>* indexes);
     // static public System.Void SplitUVs(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<System.Int32> indexes)
-    // Offset: 0x157D3C8
+    // Offset: 0x1354BF0
     static void SplitUVs(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<int>* indexes);
     // static System.Void SplitUVs(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces)
-    // Offset: 0x157E0B8
+    // Offset: 0x13558E0
     static void SplitUVs(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces);
     // static System.Void ProjectFacesAuto(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face[] faces, System.Int32 channel)
-    // Offset: 0x157E428
+    // Offset: 0x1355C50
     static void ProjectFacesAuto(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Array<UnityEngine::ProBuilder::Face*>* faces, int channel);
     // static public System.Void ProjectFacesBox(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face[] faces, System.Int32 channel)
-    // Offset: 0x157E8D8
+    // Offset: 0x1356100
     static void ProjectFacesBox(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Array<UnityEngine::ProBuilder::Face*>* faces, int channel);
     // static UnityEngine.Vector2 FindMinimalUV(UnityEngine.Vector2[] uvs, System.Int32[] indices, System.Single xMin, System.Single yMin)
-    // Offset: 0x157EDD8
+    // Offset: 0x1356600
     static UnityEngine::Vector2 FindMinimalUV(::Array<UnityEngine::Vector2>* uvs, ::Array<int>* indices, float xMin, float yMin);
     // static public System.Void ProjectFacesBox(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face[] faces, UnityEngine.Vector2 lowerLeftAnchor, System.Int32 channel)
-    // Offset: 0x157EEE8
+    // Offset: 0x1356710
     static void ProjectFacesBox(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Array<UnityEngine::ProBuilder::Face*>* faces, UnityEngine::Vector2 lowerLeftAnchor, int channel);
     // static public System.Void ProjectFacesSphere(UnityEngine.ProBuilder.ProBuilderMesh pb, System.Int32[] indexes, System.Int32 channel)
-    // Offset: 0x157F484
+    // Offset: 0x1356CAC
     static void ProjectFacesSphere(UnityEngine::ProBuilder::ProBuilderMesh* pb, ::Array<int>* indexes, int channel);
     // static public UnityEngine.Vector2[] FitUVs(UnityEngine.Vector2[] uvs)
-    // Offset: 0x157F650
+    // Offset: 0x1356E78
     static ::Array<UnityEngine::Vector2>* FitUVs(::Array<UnityEngine::Vector2>* uvs);
     // static private System.Void .cctor()
-    // Offset: 0x157F7D0
+    // Offset: 0x1356FF8
     static void _cctor();
   }; // UnityEngine.ProBuilder.MeshOperations.UVEditing
 }

@@ -21,7 +21,7 @@ namespace GlobalNamespace {
       return showDebris;
     }
     // public System.Void .ctor(System.Boolean showDebris)
-    // Offset: 0x21A16A0
+    // Offset: 0x1EF3304
     static MainCameraCullingMask::InitData* New_ctor(bool showDebris);
   }; // MainCameraCullingMask/InitData
 }

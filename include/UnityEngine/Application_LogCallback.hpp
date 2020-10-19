@@ -31,16 +31,16 @@ namespace UnityEngine {
   class Application::LogCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x19E01DC
+    // Offset: 0x1786600
     static Application::LogCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.String condition, System.String stackTrace, UnityEngine.LogType type)
-    // Offset: 0x19DF030
+    // Offset: 0x1785454
     void Invoke(::Il2CppString* condition, ::Il2CppString* stackTrace, UnityEngine::LogType type);
     // public System.IAsyncResult BeginInvoke(System.String condition, System.String stackTrace, UnityEngine.LogType type, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x19E01F0
+    // Offset: 0x1786614
     System::IAsyncResult* BeginInvoke(::Il2CppString* condition, ::Il2CppString* stackTrace, UnityEngine::LogType type, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x19E0290
+    // Offset: 0x17866B4
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Application/LogCallback
 }

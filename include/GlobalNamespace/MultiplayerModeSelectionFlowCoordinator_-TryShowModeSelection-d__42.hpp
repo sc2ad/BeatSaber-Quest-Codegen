@@ -48,12 +48,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: $TryShowModeSelection$d__42
     constexpr $TryShowModeSelection$d__42(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, GlobalNamespace::MultiplayerModeSelectionFlowCoordinator* $$4__this_ = {}, GlobalNamespace::MasterServerAvailabilityData* $masterServerAvailabilityData$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<bool> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::MasterServerAvailabilityData*> $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $masterServerAvailabilityData$5__2{$masterServerAvailabilityData$5__2_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
     // private System.Void MoveNext()
-    // Offset: 0xE5C154
+    // Offset: 0xE4E05C
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xE5C15C
+    // Offset: 0xE4E064
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

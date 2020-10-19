@@ -99,128 +99,128 @@ namespace NUnit::Framework::Internal {
     // Set static field: static private System.String <IdPrefix>k__BackingField
     static void _set_$IdPrefix$k__BackingField(::Il2CppString* value);
     // protected System.Void .ctor(System.String name)
-    // Offset: 0x2176AB8
+    // Offset: 0x1ECB71C
     static Test* New_ctor(::Il2CppString* name);
     // protected System.Void .ctor(System.String pathName, System.String name)
-    // Offset: 0x2176C00
+    // Offset: 0x1ECB864
     static Test* New_ctor(::Il2CppString* pathName, ::Il2CppString* name);
     // protected System.Void .ctor(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x2176CA8
+    // Offset: 0x1ECB90C
     static Test* New_ctor(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
     // protected System.Void .ctor(NUnit.Framework.Interfaces.IMethodInfo method)
-    // Offset: 0x2176E44
+    // Offset: 0x1ECBAA8
     static Test* New_ctor(NUnit::Framework::Interfaces::IMethodInfo* method);
     // private System.Void Initialize(System.String name)
-    // Offset: 0x2176B30
+    // Offset: 0x1ECB794
     void Initialize(::Il2CppString* name);
     // static private System.String GetNextId()
-    // Offset: 0x21770A4
+    // Offset: 0x1ECBD08
     static ::Il2CppString* GetNextId();
     // public System.Void set_Id(System.String value)
-    // Offset: 0x21771BC
+    // Offset: 0x1ECBE20
     void set_Id(::Il2CppString* value);
     // public System.Void set_Name(System.String value)
-    // Offset: 0x21771C4
+    // Offset: 0x1ECBE28
     void set_Name(::Il2CppString* value);
     // public System.Void set_FullName(System.String value)
-    // Offset: 0x21771D4
+    // Offset: 0x1ECBE38
     void set_FullName(::Il2CppString* value);
     // public System.String get_ClassName()
-    // Offset: 0x21771DC
+    // Offset: 0x1ECBE40
     ::Il2CppString* get_ClassName();
     // public System.String get_MethodName()
-    // Offset: 0x2177450
+    // Offset: 0x1ECC0B4
     ::Il2CppString* get_MethodName();
     // private System.Void set_TypeInfo(NUnit.Framework.Interfaces.ITypeInfo value)
-    // Offset: 0x2177458
+    // Offset: 0x1ECC0BC
     void set_TypeInfo(NUnit::Framework::Interfaces::ITypeInfo* value);
     // public System.Void set_Method(NUnit.Framework.Interfaces.IMethodInfo value)
-    // Offset: 0x2174E2C
+    // Offset: 0x1EC9A90
     void set_Method(NUnit::Framework::Interfaces::IMethodInfo* value);
     // public System.Void set_RunState(NUnit.Framework.Interfaces.RunState value)
-    // Offset: 0x2177468
+    // Offset: 0x1ECC0CC
     void set_RunState(NUnit::Framework::Interfaces::RunState value);
     // public System.String get_XmlElementName()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_XmlElementName();
     // public System.String get_TestType()
-    // Offset: 0x2177470
+    // Offset: 0x1ECC0D4
     ::Il2CppString* get_TestType();
     // private System.Void set_Properties(NUnit.Framework.Interfaces.IPropertyBag value)
-    // Offset: 0x21774A8
+    // Offset: 0x1ECC10C
     void set_Properties(NUnit::Framework::Interfaces::IPropertyBag* value);
     // public System.Void set_Parent(NUnit.Framework.Interfaces.ITest value)
-    // Offset: 0x2177538
+    // Offset: 0x1ECC19C
     void set_Parent(NUnit::Framework::Interfaces::ITest* value);
     // public System.Object get_Fixture()
-    // Offset: 0x2177540
+    // Offset: 0x1ECC1A4
     ::Il2CppObject* get_Fixture();
     // public System.Void set_Fixture(System.Object value)
-    // Offset: 0x2177548
+    // Offset: 0x1ECC1AC
     void set_Fixture(::Il2CppObject* value);
     // static public System.String get_IdPrefix()
-    // Offset: 0x217714C
+    // Offset: 0x1ECBDB0
     static ::Il2CppString* get_IdPrefix();
     // public System.Int32 get_Seed()
-    // Offset: 0x2177550
+    // Offset: 0x1ECC1B4
     int get_Seed();
     // public System.Void set_Seed(System.Int32 value)
-    // Offset: 0x2177558
+    // Offset: 0x1ECC1BC
     void set_Seed(int value);
     // public NUnit.Framework.Internal.TestResult MakeTestResult()
     // Offset: 0xFFFFFFFF
     NUnit::Framework::Internal::TestResult* MakeTestResult();
     // public System.Void ApplyAttributesToTest(System.Reflection.ICustomAttributeProvider provider)
-    // Offset: 0x2177560
+    // Offset: 0x1ECC1C4
     void ApplyAttributesToTest(System::Reflection::ICustomAttributeProvider* provider);
     // protected System.Void PopulateTestNode(NUnit.Framework.Interfaces.TNode thisNode, System.Boolean recursive)
-    // Offset: 0x217774C
+    // Offset: 0x1ECC3B0
     void PopulateTestNode(NUnit::Framework::Interfaces::TNode* thisNode, bool recursive);
     // static private System.Void .cctor()
-    // Offset: 0x2177B7C
+    // Offset: 0x1ECC7E0
     static void _cctor();
     // public System.String get_Id()
-    // Offset: 0x21771B4
+    // Offset: 0x1ECBE18
     // Implemented from: NUnit.Framework.Interfaces.ITest
     // Base method: System.String ITest::get_Id()
     ::Il2CppString* get_Id();
     // public System.String get_Name()
-    // Offset: 0x2176E3C
+    // Offset: 0x1ECBAA0
     // Implemented from: NUnit.Framework.Interfaces.ITest
     // Base method: System.String ITest::get_Name()
     ::Il2CppString* get_Name();
     // public System.String get_FullName()
-    // Offset: 0x21771CC
+    // Offset: 0x1ECBE30
     // Implemented from: NUnit.Framework.Interfaces.ITest
     // Base method: System.String ITest::get_FullName()
     ::Il2CppString* get_FullName();
     // public NUnit.Framework.Interfaces.ITypeInfo get_TypeInfo()
-    // Offset: 0x2177448
+    // Offset: 0x1ECC0AC
     // Implemented from: NUnit.Framework.Interfaces.ITest
     // Base method: NUnit.Framework.Interfaces.ITypeInfo ITest::get_TypeInfo()
     NUnit::Framework::Interfaces::ITypeInfo* get_TypeInfo();
     // public NUnit.Framework.Interfaces.IMethodInfo get_Method()
-    // Offset: 0x2174F4C
+    // Offset: 0x1EC9BB0
     // Implemented from: NUnit.Framework.Interfaces.ITest
     // Base method: NUnit.Framework.Interfaces.IMethodInfo ITest::get_Method()
     NUnit::Framework::Interfaces::IMethodInfo* get_Method();
     // public NUnit.Framework.Interfaces.RunState get_RunState()
-    // Offset: 0x2177460
+    // Offset: 0x1ECC0C4
     // Implemented from: NUnit.Framework.Interfaces.ITest
     // Base method: NUnit.Framework.Interfaces.RunState ITest::get_RunState()
     NUnit::Framework::Interfaces::RunState get_RunState();
     // public System.Int32 get_TestCaseCount()
-    // Offset: 0x2177498
+    // Offset: 0x1ECC0FC
     // Implemented from: NUnit.Framework.Interfaces.ITest
     // Base method: System.Int32 ITest::get_TestCaseCount()
     int get_TestCaseCount();
     // public NUnit.Framework.Interfaces.IPropertyBag get_Properties()
-    // Offset: 0x21774A0
+    // Offset: 0x1ECC104
     // Implemented from: NUnit.Framework.Interfaces.ITest
     // Base method: NUnit.Framework.Interfaces.IPropertyBag ITest::get_Properties()
     NUnit::Framework::Interfaces::IPropertyBag* get_Properties();
     // public System.Boolean get_IsSuite()
-    // Offset: 0x21774B0
+    // Offset: 0x1ECC114
     // Implemented from: NUnit.Framework.Interfaces.ITest
     // Base method: System.Boolean ITest::get_IsSuite()
     bool get_IsSuite();
@@ -230,7 +230,7 @@ namespace NUnit::Framework::Internal {
     // Base method: System.Boolean ITest::get_HasChildren()
     bool get_HasChildren();
     // public NUnit.Framework.Interfaces.ITest get_Parent()
-    // Offset: 0x2177530
+    // Offset: 0x1ECC194
     // Implemented from: NUnit.Framework.Interfaces.ITest
     // Base method: NUnit.Framework.Interfaces.ITest ITest::get_Parent()
     NUnit::Framework::Interfaces::ITest* get_Parent();
@@ -240,7 +240,7 @@ namespace NUnit::Framework::Internal {
     // Base method: System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITest> ITest::get_Tests()
     System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITest*>* get_Tests();
     // public NUnit.Framework.Interfaces.TNode ToXml(System.Boolean recursive)
-    // Offset: 0x2177A3C
+    // Offset: 0x1ECC6A0
     // Implemented from: NUnit.Framework.Interfaces.IXmlNodeBuilder
     // Base method: NUnit.Framework.Interfaces.TNode IXmlNodeBuilder::ToXml(System.Boolean recursive)
     NUnit::Framework::Interfaces::TNode* ToXml(bool recursive);
@@ -250,7 +250,7 @@ namespace NUnit::Framework::Internal {
     // Base method: NUnit.Framework.Interfaces.TNode IXmlNodeBuilder::AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
     // public System.Int32 CompareTo(System.Object obj)
-    // Offset: 0x2177AC8
+    // Offset: 0x1ECC72C
     // Implemented from: System.IComparable
     // Base method: System.Int32 IComparable::CompareTo(System.Object obj)
     int CompareTo(::Il2CppObject* obj);

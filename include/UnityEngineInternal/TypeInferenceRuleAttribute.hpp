@@ -28,13 +28,13 @@ namespace UnityEngineInternal {
       return rule;
     }
     // public System.Void .ctor(UnityEngineInternal.TypeInferenceRules rule)
-    // Offset: 0x199D390
+    // Offset: 0x17437B4
     static TypeInferenceRuleAttribute* New_ctor(UnityEngineInternal::TypeInferenceRules rule);
     // public System.Void .ctor(System.String rule)
-    // Offset: 0x199D438
+    // Offset: 0x174385C
     static TypeInferenceRuleAttribute* New_ctor(::Il2CppString* rule);
     // public override System.String ToString()
-    // Offset: 0x199D46C
+    // Offset: 0x1743890
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

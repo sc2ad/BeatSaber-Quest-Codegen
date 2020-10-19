@@ -20,7 +20,7 @@ namespace GlobalNamespace {
     // Offset: 0x11
     bool ghostNotes;
     // public System.Void .ctor(System.Boolean disappearingArrows, System.Boolean ghostNotes)
-    // Offset: 0xFCAEFC
+    // Offset: 0x205FA34
     static MultiplayerConnectedPlayerBeatmapObjectManager::InitData* New_ctor(bool disappearingArrows, bool ghostNotes);
   }; // MultiplayerConnectedPlayerBeatmapObjectManager/InitData
 }

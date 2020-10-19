@@ -23,10 +23,10 @@ namespace UnityEngine::Timeline {
       return m_Color;
     }
     // public UnityEngine.Color get_color()
-    // Offset: 0x21991EC
+    // Offset: 0x1EECE50
     UnityEngine::Color get_color();
     // public System.Void .ctor(System.Single r, System.Single g, System.Single b)
-    // Offset: 0x21991F8
+    // Offset: 0x1EECE5C
     static TrackColorAttribute* New_ctor(float r, float g, float b);
   }; // UnityEngine.Timeline.TrackColorAttribute
 }

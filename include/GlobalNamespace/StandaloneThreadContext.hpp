@@ -52,16 +52,16 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Threading::Tasks::TaskCompletionSource_1<bool>* taskCompletionSource;
     // public System.Threading.Tasks.Task get_task()
-    // Offset: 0x1C44190
+    // Offset: 0x21FE328
     System::Threading::Tasks::Task* get_task();
     // private System.Void .ctor(System.Func`2<System.Threading.CancellationToken,System.Threading.Tasks.Task> taskRunner, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1C441E0
+    // Offset: 0x21FE378
     static StandaloneThreadContext* New_ctor(System::Func_2<System::Threading::CancellationToken, System::Threading::Tasks::Task*>* taskRunner, System::Threading::CancellationToken cancellationToken);
     // private System.Void RunInternal()
-    // Offset: 0x1C442FC
+    // Offset: 0x21FE494
     void RunInternal();
     // static public System.Threading.Tasks.Task Run(System.Func`2<System.Threading.CancellationToken,System.Threading.Tasks.Task> taskRunner, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1C44618
+    // Offset: 0x21FE7B0
     static System::Threading::Tasks::Task* Run(System::Func_2<System::Threading::CancellationToken, System::Threading::Tasks::Task*>* taskRunner, System::Threading::CancellationToken cancellationToken);
   }; // StandaloneThreadContext
 }

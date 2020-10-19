@@ -62,12 +62,12 @@ namespace System::IO {
     // Creating value type constructor for type: $CopyToAsyncInternal$d__27
     constexpr $CopyToAsyncInternal$d__27(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder $$t__builder_ = {}, int bufferSize_ = {}, System::IO::Stream* destination_ = {}, ::Array<uint8_t>* $buffer$5__1_ = {}, int $bytesRead$5__2_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::IO::Stream* $$4__this_ = {}, System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter $$u__1_ = {}, typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, bufferSize{bufferSize_}, destination{destination_}, $buffer$5__1{$buffer$5__1_}, $bytesRead$5__2{$bytesRead$5__2_}, cancellationToken{cancellationToken_}, $$4__this{$$4__this_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
     // private System.Void MoveNext()
-    // Offset: 0xDB7BF8
+    // Offset: 0xC6E018
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDB7C00
+    // Offset: 0xC6E020
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

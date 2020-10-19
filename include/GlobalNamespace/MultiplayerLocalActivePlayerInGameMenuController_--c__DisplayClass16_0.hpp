@@ -21,10 +21,10 @@ namespace GlobalNamespace {
       return value;
     }
     // System.Void <get_canShowInGameMenu>b__0(System.Boolean newValue)
-    // Offset: 0x223CD08
+    // Offset: 0x204B318
     void $get_canShowInGameMenu$b__0(bool newValue);
     // public System.Void .ctor()
-    // Offset: 0x223BFE0
+    // Offset: 0x204A5F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MultiplayerLocalActivePlayerInGameMenuController::$$c__DisplayClass16_0* New_ctor();

@@ -23,20 +23,20 @@ namespace System {
   class NotImplementedException : public System::SystemException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1AAB0C0
+    // Offset: 0x184B2B4
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static NotImplementedException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1AAB134
+    // Offset: 0x184B328
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static NotImplementedException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1AAB168
+    // Offset: 0x184B35C
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

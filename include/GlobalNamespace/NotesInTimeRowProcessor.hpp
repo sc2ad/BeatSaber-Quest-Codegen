@@ -37,19 +37,19 @@ namespace GlobalNamespace {
     // Offset: 0x28
     float prevBasicNotesTimeRowTime;
     // public System.Void .ctor(System.Int32 numberOfLines)
-    // Offset: 0x2220860
+    // Offset: 0x22422CC
     static NotesInTimeRowProcessor* New_ctor(int numberOfLines);
     // public System.Void ProcessNote(NoteData noteData)
-    // Offset: 0x22209EC
+    // Offset: 0x2242458
     void ProcessNote(GlobalNamespace::NoteData* noteData);
     // public System.Void ProcessAllRemainingData()
-    // Offset: 0x2220EC8
+    // Offset: 0x2242934
     void ProcessAllRemainingData();
     // private System.Void ProcessColorNotesInTimeRow(System.Collections.Generic.List`1<NoteData> colorNotesData, System.Single nextBasicNoteTimeRowTime)
-    // Offset: 0x2220DAC
+    // Offset: 0x2242818
     void ProcessColorNotesInTimeRow(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* colorNotesData, float nextBasicNoteTimeRowTime);
     // private System.Void ProcessAllNotesInTimeRow(System.Collections.Generic.List`1<NoteData> notes)
-    // Offset: 0x2220B8C
+    // Offset: 0x22425F8
     void ProcessAllNotesInTimeRow(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* notes);
   }; // NotesInTimeRowProcessor
 }

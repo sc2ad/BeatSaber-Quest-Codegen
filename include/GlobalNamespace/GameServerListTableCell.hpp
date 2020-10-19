@@ -51,10 +51,10 @@ namespace GlobalNamespace {
     // Offset: 0x78
     GlobalNamespace::SongPackMasksModel* songPackMasksModel;
     // public System.Void SetData(INetworkPlayer player)
-    // Offset: 0xEC1754
+    // Offset: 0x2000748
     void SetData(GlobalNamespace::INetworkPlayer* player);
     // public System.Void .ctor()
-    // Offset: 0xEC1B1C
+    // Offset: 0x2000B10
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

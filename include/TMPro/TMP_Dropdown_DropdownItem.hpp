@@ -60,41 +60,41 @@ namespace TMPro {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public TMPro.TMP_Text get_text()
-    // Offset: 0xF47E14
+    // Offset: 0xEC2748
     TMPro::TMP_Text* get_text();
     // public System.Void set_text(TMPro.TMP_Text value)
-    // Offset: 0xF47E1C
+    // Offset: 0xEC2750
     void set_text(TMPro::TMP_Text* value);
     // public UnityEngine.UI.Image get_image()
-    // Offset: 0xF47E24
+    // Offset: 0xEC2758
     UnityEngine::UI::Image* get_image();
     // public System.Void set_image(UnityEngine.UI.Image value)
-    // Offset: 0xF47E2C
+    // Offset: 0xEC2760
     void set_image(UnityEngine::UI::Image* value);
     // public UnityEngine.RectTransform get_rectTransform()
-    // Offset: 0xF47E34
+    // Offset: 0xEC2768
     UnityEngine::RectTransform* get_rectTransform();
     // public System.Void set_rectTransform(UnityEngine.RectTransform value)
-    // Offset: 0xF47E3C
+    // Offset: 0xEC2770
     void set_rectTransform(UnityEngine::RectTransform* value);
     // public UnityEngine.UI.Toggle get_toggle()
-    // Offset: 0xF47E44
+    // Offset: 0xEC2778
     UnityEngine::UI::Toggle* get_toggle();
     // public System.Void set_toggle(UnityEngine.UI.Toggle value)
-    // Offset: 0xF47E4C
+    // Offset: 0xEC2780
     void set_toggle(UnityEngine::UI::Toggle* value);
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0xF47E54
+    // Offset: 0xEC2788
     // Implemented from: UnityEngine.EventSystems.IPointerEnterHandler
     // Base method: System.Void IPointerEnterHandler::OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnCancel(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0xF47EE0
+    // Offset: 0xEC2814
     // Implemented from: UnityEngine.EventSystems.ICancelHandler
     // Base method: System.Void ICancelHandler::OnCancel(UnityEngine.EventSystems.BaseEventData eventData)
     void OnCancel(UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0xF47F84
+    // Offset: 0xEC28B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

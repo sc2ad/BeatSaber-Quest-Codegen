@@ -27,25 +27,25 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static public OVRPlugin/SystemHeadset ovrp_GetSystemHeadsetType()
-    // Offset: 0x14957C4
+    // Offset: 0x126AFEC
     static GlobalNamespace::OVRPlugin::SystemHeadset ovrp_GetSystemHeadsetType();
     // static public OVRPlugin/Controller ovrp_GetActiveController()
-    // Offset: 0x1495838
+    // Offset: 0x126B060
     static GlobalNamespace::OVRPlugin::Controller ovrp_GetActiveController();
     // static public OVRPlugin/Controller ovrp_GetConnectedControllers()
-    // Offset: 0x14958AC
+    // Offset: 0x126B0D4
     static GlobalNamespace::OVRPlugin::Controller ovrp_GetConnectedControllers();
     // static public OVRPlugin/Bool ovrp_GetBoundaryGeometry2(OVRPlugin/BoundaryType boundaryType, System.IntPtr points, ref System.Int32 pointsCount)
-    // Offset: 0x1495920
+    // Offset: 0x126B148
     static GlobalNamespace::OVRPlugin::Bool ovrp_GetBoundaryGeometry2(GlobalNamespace::OVRPlugin::BoundaryType boundaryType, System::IntPtr points, int& pointsCount);
     // static public OVRPlugin/AppPerfStats ovrp_GetAppPerfStats()
-    // Offset: 0x14959B8
+    // Offset: 0x126B1E0
     static GlobalNamespace::OVRPlugin::AppPerfStats ovrp_GetAppPerfStats();
     // static public OVRPlugin/Bool ovrp_ResetAppPerfStats()
-    // Offset: 0x1495A54
+    // Offset: 0x126B27C
     static GlobalNamespace::OVRPlugin::Bool ovrp_ResetAppPerfStats();
     // static private System.Void .cctor()
-    // Offset: 0x1495AC8
+    // Offset: 0x126B2F0
     static void _cctor();
   }; // OVRPlugin/OVRP_1_9_0
 }

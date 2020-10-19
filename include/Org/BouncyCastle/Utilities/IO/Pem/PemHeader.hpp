@@ -18,24 +18,24 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     // Offset: 0x18
     ::Il2CppString* val;
     // public System.Void .ctor(System.String name, System.String val)
-    // Offset: 0x1DE3480
+    // Offset: 0x1B370E4
     static PemHeader* New_ctor(::Il2CppString* name, ::Il2CppString* val);
     // public System.String get_Name()
-    // Offset: 0x1DE34D0
+    // Offset: 0x1B37134
     ::Il2CppString* get_Name();
     // public System.String get_Value()
-    // Offset: 0x1DE34D8
+    // Offset: 0x1B3713C
     ::Il2CppString* get_Value();
     // private System.Int32 GetHashCode(System.String s)
-    // Offset: 0x1DE353C
+    // Offset: 0x1B371A0
     int GetHashCode(::Il2CppString* s);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1DE34E0
+    // Offset: 0x1B37144
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1DE3554
+    // Offset: 0x1B371B8
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

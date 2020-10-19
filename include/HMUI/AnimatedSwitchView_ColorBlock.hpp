@@ -34,7 +34,7 @@ namespace HMUI {
     // Offset: 0x60
     UnityEngine::Color backgroundColor1;
     // public System.Void .ctor()
-    // Offset: 0x11B0034
+    // Offset: 0x217F47C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AnimatedSwitchView::ColorBlock* New_ctor();

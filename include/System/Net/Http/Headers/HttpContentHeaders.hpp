@@ -37,13 +37,13 @@ namespace System::Net::Http::Headers {
       return content;
     }
     // System.Void .ctor(System.Net.Http.HttpContent content)
-    // Offset: 0x13A09EC
+    // Offset: 0x1176128
     static HttpContentHeaders* New_ctor(System::Net::Http::HttpContent* content);
     // public System.Nullable`1<System.Int64> get_ContentLength()
-    // Offset: 0x13A0A9C
+    // Offset: 0x11761D8
     System::Nullable_1<int64_t> get_ContentLength();
     // public System.Net.Http.Headers.MediaTypeHeaderValue get_ContentType()
-    // Offset: 0x13A0C18
+    // Offset: 0x1176354
     System::Net::Http::Headers::MediaTypeHeaderValue* get_ContentType();
   }; // System.Net.Http.Headers.HttpContentHeaders
 }

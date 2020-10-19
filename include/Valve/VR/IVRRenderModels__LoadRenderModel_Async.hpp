@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRRenderModels::_LoadRenderModel_Async : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F50C10
+    // Offset: 0x1CA2874
     static IVRRenderModels::_LoadRenderModel_Async* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRRenderModelError Invoke(System.String pchRenderModelName, ref System.IntPtr ppRenderModel)
-    // Offset: 0x1F50C24
+    // Offset: 0x1CA2888
     Valve::VR::EVRRenderModelError Invoke(::Il2CppString* pchRenderModelName, System::IntPtr& ppRenderModel);
     // public System.IAsyncResult BeginInvoke(System.String pchRenderModelName, ref System.IntPtr ppRenderModel, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F51030
+    // Offset: 0x1CA2C94
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchRenderModelName, System::IntPtr& ppRenderModel, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRRenderModelError EndInvoke(ref System.IntPtr ppRenderModel, System.IAsyncResult result)
-    // Offset: 0x1F510CC
+    // Offset: 0x1CA2D30
     Valve::VR::EVRRenderModelError EndInvoke(System::IntPtr& ppRenderModel, System::IAsyncResult* result);
   }; // Valve.VR.IVRRenderModels/_LoadRenderModel_Async
 }

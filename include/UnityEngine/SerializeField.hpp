@@ -14,7 +14,7 @@ namespace UnityEngine {
   class SerializeField : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x198F400
+    // Offset: 0x1735824
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

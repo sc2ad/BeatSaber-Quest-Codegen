@@ -33,18 +33,18 @@ namespace System::Security::Cryptography::X509Certificates {
       return enumerator;
     }
     // System.Void .ctor(System.Collections.IEnumerable enumerable)
-    // Offset: 0x16C0F4C
+    // Offset: 0x147BB20
     static X509ChainElementEnumerator* New_ctor(System::Collections::IEnumerable* enumerable);
     // public System.Security.Cryptography.X509Certificates.X509ChainElement get_Current()
-    // Offset: 0x16C1248
+    // Offset: 0x147BE1C
     System::Security::Cryptography::X509Certificates::X509ChainElement* get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x16C133C
+    // Offset: 0x147BF10
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Boolean MoveNext()
-    // Offset: 0x16C13F0
+    // Offset: 0x147BFC4
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -52,7 +52,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // public System.Void Reset()
-    // Offset: 0x16C14A0
+    // Offset: 0x147C074
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();

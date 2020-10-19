@@ -28,10 +28,10 @@ namespace Org::BouncyCastle::Utilities::Collections {
       return inner;
     }
     // public System.Void .ctor(System.Collections.IEnumerable inner)
-    // Offset: 0x11EA420
+    // Offset: 0xFE5CBC
     static EnumerableProxy* New_ctor(System::Collections::IEnumerable* inner);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x11EA4C4
+    // Offset: 0xFE5D60
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* GetEnumerator();

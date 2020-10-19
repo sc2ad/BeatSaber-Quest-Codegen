@@ -35,7 +35,7 @@ namespace UnityEngine {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("UnityEngine", "Resources", "ConvertObjects", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, rawObjects)));
     }
     // static public UnityEngine.Object[] FindObjectsOfTypeAll(System.Type type)
-    // Offset: 0x198D9E0
+    // Offset: 0x1733E04
     static ::Array<UnityEngine::Object*>* FindObjectsOfTypeAll(System::Type* type);
     // static public T[] FindObjectsOfTypeAll()
     // Offset: 0xFFFFFFFF
@@ -45,7 +45,7 @@ namespace UnityEngine {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("UnityEngine", "Resources", "FindObjectsOfTypeAll", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // static public UnityEngine.Object Load(System.String path)
-    // Offset: 0x198DA20
+    // Offset: 0x1733E44
     static UnityEngine::Object* Load(::Il2CppString* path);
     // static public T Load(System.String path)
     // Offset: 0xFFFFFFFF
@@ -55,16 +55,16 @@ namespace UnityEngine {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("UnityEngine", "Resources", "Load", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, path)));
     }
     // static public UnityEngine.Object Load(System.String path, System.Type systemTypeInstance)
-    // Offset: 0x198DACC
+    // Offset: 0x1733EF0
     static UnityEngine::Object* Load(::Il2CppString* path, System::Type* systemTypeInstance);
     // static public UnityEngine.Object[] LoadAll(System.String path, System.Type systemTypeInstance)
-    // Offset: 0x198DB1C
+    // Offset: 0x1733F40
     static ::Array<UnityEngine::Object*>* LoadAll(::Il2CppString* path, System::Type* systemTypeInstance);
     // static public UnityEngine.Object[] LoadAll(System.String path)
-    // Offset: 0x198DB6C
+    // Offset: 0x1733F90
     static ::Array<UnityEngine::Object*>* LoadAll(::Il2CppString* path);
     // static public UnityEngine.Object GetBuiltinResource(System.Type type, System.String path)
-    // Offset: 0x198DC18
+    // Offset: 0x173403C
     static UnityEngine::Object* GetBuiltinResource(System::Type* type, ::Il2CppString* path);
     // static public T GetBuiltinResource(System.String path)
     // Offset: 0xFFFFFFFF
@@ -74,7 +74,7 @@ namespace UnityEngine {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("UnityEngine", "Resources", "GetBuiltinResource", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, path)));
     }
     // static public UnityEngine.AsyncOperation UnloadUnusedAssets()
-    // Offset: 0x198DC68
+    // Offset: 0x173408C
     static UnityEngine::AsyncOperation* UnloadUnusedAssets();
   }; // UnityEngine.Resources
 }

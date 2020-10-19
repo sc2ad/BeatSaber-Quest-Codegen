@@ -74,64 +74,64 @@ namespace TMPro {
     // Set static field: static private System.Boolean isFallbackListDirty
     static void _set_isFallbackListDirty(bool value);
     // static private System.Void .cctor()
-    // Offset: 0xF88BBC
+    // Offset: 0xED6F8C
     static void _cctor();
     // static private System.Void OnPreRender(UnityEngine.Camera cam)
-    // Offset: 0xF88DA4
+    // Offset: 0xED7174
     static void OnPreRender(UnityEngine::Camera* cam);
     // static private System.Void OnPreRenderCanvas()
-    // Offset: 0xF89044
+    // Offset: 0xED7414
     static void OnPreRenderCanvas();
     // static public UnityEngine.Material GetStencilMaterial(UnityEngine.Material baseMaterial, System.Int32 stencilID)
-    // Offset: 0xF890D4
+    // Offset: 0xED74A4
     static UnityEngine::Material* GetStencilMaterial(UnityEngine::Material* baseMaterial, int stencilID);
     // static public System.Void ReleaseStencilMaterial(UnityEngine.Material stencilMaterial)
-    // Offset: 0xF89494
+    // Offset: 0xED7864
     static void ReleaseStencilMaterial(UnityEngine::Material* stencilMaterial);
     // static public UnityEngine.Material GetBaseMaterial(UnityEngine.Material stencilMaterial)
-    // Offset: 0xF896F8
+    // Offset: 0xED7AC8
     static UnityEngine::Material* GetBaseMaterial(UnityEngine::Material* stencilMaterial);
     // static public UnityEngine.Material SetStencil(UnityEngine.Material material, System.Int32 stencilID)
-    // Offset: 0xF8985C
+    // Offset: 0xED7C2C
     static UnityEngine::Material* SetStencil(UnityEngine::Material* material, int stencilID);
     // static public System.Void AddMaskingMaterial(UnityEngine.Material baseMaterial, UnityEngine.Material stencilMaterial, System.Int32 stencilID)
-    // Offset: 0xF89948
+    // Offset: 0xED7D18
     static void AddMaskingMaterial(UnityEngine::Material* baseMaterial, UnityEngine::Material* stencilMaterial, int stencilID);
     // static public System.Void RemoveStencilMaterial(UnityEngine.Material stencilMaterial)
-    // Offset: 0xF89BAC
+    // Offset: 0xED7F7C
     static void RemoveStencilMaterial(UnityEngine::Material* stencilMaterial);
     // static public System.Void ReleaseBaseMaterial(UnityEngine.Material baseMaterial)
-    // Offset: 0xF89D00
+    // Offset: 0xED80D0
     static void ReleaseBaseMaterial(UnityEngine::Material* baseMaterial);
     // static public System.Void ClearMaterials()
-    // Offset: 0xF8A414
+    // Offset: 0xED87E4
     static void ClearMaterials();
     // static public System.Int32 GetStencilID(UnityEngine.GameObject obj)
-    // Offset: 0xF8A5BC
+    // Offset: 0xED898C
     static int GetStencilID(UnityEngine::GameObject* obj);
     // static public UnityEngine.Material GetMaterialForRendering(UnityEngine.UI.MaskableGraphic graphic, UnityEngine.Material baseMaterial)
-    // Offset: 0xF8AA20
+    // Offset: 0xED8DF0
     static UnityEngine::Material* GetMaterialForRendering(UnityEngine::UI::MaskableGraphic* graphic, UnityEngine::Material* baseMaterial);
     // static private UnityEngine.Transform FindRootSortOverrideCanvas(UnityEngine.Transform start)
-    // Offset: 0xF8A8A4
+    // Offset: 0xED8C74
     static UnityEngine::Transform* FindRootSortOverrideCanvas(UnityEngine::Transform* start);
     // static public UnityEngine.Material GetFallbackMaterial(UnityEngine.Material sourceMaterial, UnityEngine.Material targetMaterial)
-    // Offset: 0xF8ABF0
+    // Offset: 0xED8FC0
     static UnityEngine::Material* GetFallbackMaterial(UnityEngine::Material* sourceMaterial, UnityEngine::Material* targetMaterial);
     // static public System.Void AddFallbackMaterialReference(UnityEngine.Material targetMaterial)
-    // Offset: 0xF8AFE0
+    // Offset: 0xED93B0
     static void AddFallbackMaterialReference(UnityEngine::Material* targetMaterial);
     // static public System.Void RemoveFallbackMaterialReference(UnityEngine.Material targetMaterial)
-    // Offset: 0xF8B120
+    // Offset: 0xED94F0
     static void RemoveFallbackMaterialReference(UnityEngine::Material* targetMaterial);
     // static public System.Void CleanupFallbackMaterials()
-    // Offset: 0xF88E34
+    // Offset: 0xED7204
     static void CleanupFallbackMaterials();
     // static public System.Void ReleaseFallbackMaterial(UnityEngine.Material fallackMaterial)
-    // Offset: 0xF8B2A4
+    // Offset: 0xED9674
     static void ReleaseFallbackMaterial(UnityEngine::Material* fallackMaterial);
     // static public System.Void CopyMaterialPresetProperties(UnityEngine.Material source, UnityEngine.Material destination)
-    // Offset: 0xF8B450
+    // Offset: 0xED9820
     static void CopyMaterialPresetProperties(UnityEngine::Material* source, UnityEngine::Material* destination);
   }; // TMPro.TMP_MaterialManager
 }

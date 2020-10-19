@@ -121,31 +121,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xFAA1B0
+    // Offset: 0x2028860
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xFAA3CC
+    // Offset: 0x2028A7C
     void OnDestroy();
     // private System.Void HandleSoloFreePlayOverallStatsDataDidUpdate(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0xFAA56C
+    // Offset: 0x2028C1C
     void HandleSoloFreePlayOverallStatsDataDidUpdate(GlobalNamespace::LevelCompletionResults* levelCompletionResults, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // private System.Void HandlePartyFreePlayOverallStatsDataDidUpdate(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0xFAB03C
+    // Offset: 0x20296EC
     void HandlePartyFreePlayOverallStatsDataDidUpdate(GlobalNamespace::LevelCompletionResults* levelCompletionResults, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Void HandleCampaignOverallStatsDataDidUpdate(MissionCompletionResults missionCompletionResults, MissionNode missionNode)
-    // Offset: 0xFAB04C
+    // Offset: 0x20296FC
     void HandleCampaignOverallStatsDataDidUpdate(GlobalNamespace::MissionCompletionResults* missionCompletionResults, GlobalNamespace::MissionNode* missionNode);
     // private System.Void ProcessMissionFinishData(MissionNode missionNode, MissionCompletionResults missionCompletionResults)
-    // Offset: 0xFAB0CC
+    // Offset: 0x202977C
     void ProcessMissionFinishData(GlobalNamespace::MissionNode* missionNode, GlobalNamespace::MissionCompletionResults* missionCompletionResults);
     // private System.Void ProcessSoloFreePlayLevelFinishData(IDifficultyBeatmap difficultyBeatmap, LevelCompletionResults levelCompletionResults)
-    // Offset: 0xFAAC58
+    // Offset: 0x2029308
     void ProcessSoloFreePlayLevelFinishData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // private System.Void ProcessLevelFinishData(IDifficultyBeatmap difficultyBeatmap, LevelCompletionResults levelCompletionResults)
-    // Offset: 0xFAA5B0
+    // Offset: 0x2028C60
     void ProcessLevelFinishData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0xFAB3A8
+    // Offset: 0x2029A58
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

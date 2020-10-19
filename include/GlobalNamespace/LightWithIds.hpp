@@ -54,19 +54,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x1FAEEFC
+    // Offset: 0x1CFFB60
     void Start();
     // protected System.Void OnValidate()
-    // Offset: 0x1FAEFF0
+    // Offset: 0x1CFFC54
     void OnValidate();
     // protected UnityEngine.Color RefreshAndGetColor()
-    // Offset: 0x1FA6AF4
+    // Offset: 0x1CF7758
     UnityEngine::Color RefreshAndGetColor();
     // private System.Void RefreshLightColor()
-    // Offset: 0x1FAF0B8
+    // Offset: 0x1CFFD1C
     void RefreshLightColor();
     // protected System.Void .ctor()
-    // Offset: 0x1FA6B58
+    // Offset: 0x1CF77BC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

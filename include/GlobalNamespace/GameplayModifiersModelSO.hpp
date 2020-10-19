@@ -91,36 +91,36 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public GameplayModifiers CreateGameplayModifiers(System.Func`2<GameplayModifierParamsSO,System.Boolean> valueGetter)
-    // Offset: 0xECA0C0
+    // Offset: 0x2009090
     GlobalNamespace::GameplayModifiers* CreateGameplayModifiers(System::Func_2<GlobalNamespace::GameplayModifierParamsSO*, bool>* valueGetter);
     // public System.Boolean GetModifierBoolValue(GameplayModifiers gameplayModifiers, GameplayModifierParamsSO gameplayModifierParams)
-    // Offset: 0xECA2F8
+    // Offset: 0x20092C8
     bool GetModifierBoolValue(GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams);
     // public System.Collections.Generic.List`1<GameplayModifierParamsSO> GetModifierParams(GameplayModifiers gameplayModifiers)
-    // Offset: 0xEC416C
+    // Offset: 0x2003160
     System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* GetModifierParams(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Single GetTotalMultiplier(GameplayModifiers gameplayModifiers)
-    // Offset: 0xECA75C
+    // Offset: 0x200972C
     float GetTotalMultiplier(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Int32 MaxModifiedScoreForMaxRawScore(System.Int32 maxRawScore, GameplayModifiers gameplayModifiers)
-    // Offset: 0xECA878
+    // Offset: 0x2009848
     int MaxModifiedScoreForMaxRawScore(int maxRawScore, GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Int32 MaxModifiedScoreForMaxRawScore(System.Int32 maxRawScore, GameplayModifiers gameplayModifiers, GameplayModifiersModelSO gameplayModifiersModel)
-    // Offset: 0xECA8D0
+    // Offset: 0x20098A0
     int MaxModifiedScoreForMaxRawScore(int maxRawScore, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel);
     // private System.Int32 GetModifiedScoreForGameplayModifiers(System.Int32 rawScore, GameplayModifiers gameplayModifiers)
-    // Offset: 0xECA8A4
+    // Offset: 0x2009874
     int GetModifiedScoreForGameplayModifiers(int rawScore, GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public GameplayModifierParamsSO GetGameplayModifierParams(GameplayModifierMask modifier)
-    // Offset: 0xEC8FF8
+    // Offset: 0x2007FC8
     GlobalNamespace::GameplayModifierParamsSO* GetGameplayModifierParams(GlobalNamespace::GameplayModifierMask modifier);
     // protected override System.Void OnEnable()
-    // Offset: 0xEC9698
+    // Offset: 0x2008668
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0xECA8FC
+    // Offset: 0x20098CC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

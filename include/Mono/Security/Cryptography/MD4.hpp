@@ -14,10 +14,10 @@ namespace Mono::Security::Cryptography {
   class MD4 : public System::Security::Cryptography::HashAlgorithm {
     public:
     // static public Mono.Security.Cryptography.MD4 Create()
-    // Offset: 0x1B82568
+    // Offset: 0x192475C
     static Mono::Security::Cryptography::MD4* Create();
     // protected System.Void .ctor()
-    // Offset: 0x1B8253C
+    // Offset: 0x1924730
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -77,55 +77,55 @@ namespace System::Runtime::Remoting::Proxies {
     // Offset: 0x48
     ::Il2CppObject* stubData;
     // protected System.Void .ctor(System.Type classToProxy)
-    // Offset: 0x14FC948
+    // Offset: 0x12D3170
     static RealProxy* New_ctor(System::Type* classToProxy);
     // System.Void .ctor(System.Type classToProxy, System.Runtime.Remoting.ClientIdentity identity)
-    // Offset: 0x14FCAB8
+    // Offset: 0x12D32E0
     static RealProxy* New_ctor(System::Type* classToProxy, System::Runtime::Remoting::ClientIdentity* identity);
     // protected System.Void .ctor(System.Type classToProxy, System.IntPtr stub, System.Object stubData)
-    // Offset: 0x14FC9A0
+    // Offset: 0x12D31C8
     static RealProxy* New_ctor(System::Type* classToProxy, System::IntPtr stub, ::Il2CppObject* stubData);
     // static private System.Type InternalGetProxyType(System.Object transparentProxy)
-    // Offset: 0x14FCB24
+    // Offset: 0x12D334C
     static System::Type* InternalGetProxyType(::Il2CppObject* transparentProxy);
     // public System.Type GetProxiedType()
-    // Offset: 0x14FCB28
+    // Offset: 0x12D3350
     System::Type* GetProxiedType();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x14FCBD4
+    // Offset: 0x12D33FC
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // System.Runtime.Remoting.Identity get_ObjectIdentity()
-    // Offset: 0x14FCC78
+    // Offset: 0x12D34A0
     System::Runtime::Remoting::Identity* get_ObjectIdentity();
     // System.Void set_ObjectIdentity(System.Runtime.Remoting.Identity value)
-    // Offset: 0x14FCC80
+    // Offset: 0x12D34A8
     void set_ObjectIdentity(System::Runtime::Remoting::Identity* value);
     // public System.Runtime.Remoting.Messaging.IMessage Invoke(System.Runtime.Remoting.Messaging.IMessage msg)
     // Offset: 0xFFFFFFFF
     System::Runtime::Remoting::Messaging::IMessage* Invoke(System::Runtime::Remoting::Messaging::IMessage* msg);
     // static System.Object PrivateInvoke(System.Runtime.Remoting.Proxies.RealProxy rp, System.Runtime.Remoting.Messaging.IMessage msg, out System.Exception exc, out System.Object[] out_args)
-    // Offset: 0x14FCC88
+    // Offset: 0x12D34B0
     static ::Il2CppObject* PrivateInvoke(System::Runtime::Remoting::Proxies::RealProxy* rp, System::Runtime::Remoting::Messaging::IMessage* msg, System::Exception*& exc, ::Array<::Il2CppObject*>*& out_args);
     // System.Object InternalGetTransparentProxy(System.String className)
-    // Offset: 0x14FDD3C
+    // Offset: 0x12D4564
     ::Il2CppObject* InternalGetTransparentProxy(::Il2CppString* className);
     // public System.Object GetTransparentProxy()
-    // Offset: 0x14FDD40
+    // Offset: 0x12D4568
     ::Il2CppObject* GetTransparentProxy();
     // protected System.Void AttachServer(System.MarshalByRefObject s)
-    // Offset: 0x14FDEC0
+    // Offset: 0x12D46E8
     void AttachServer(System::MarshalByRefObject* s);
     // System.Void SetTargetDomain(System.Int32 domainId)
-    // Offset: 0x14FDEC8
+    // Offset: 0x12D46F0
     void SetTargetDomain(int domainId);
     // System.Object GetAppDomainTarget()
-    // Offset: 0x14FDED0
+    // Offset: 0x12D46F8
     ::Il2CppObject* GetAppDomainTarget();
     // static private System.Object[] ProcessResponse(System.Runtime.Remoting.Messaging.IMethodReturnMessage mrm, System.Runtime.Remoting.Messaging.MonoMethodMessage call)
-    // Offset: 0x14FD650
+    // Offset: 0x12D3E78
     static ::Array<::Il2CppObject*>* ProcessResponse(System::Runtime::Remoting::Messaging::IMethodReturnMessage* mrm, System::Runtime::Remoting::Messaging::MonoMethodMessage* call);
     // protected System.Void .ctor()
-    // Offset: 0x14FC938
+    // Offset: 0x12D3160
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static RealProxy* New_ctor();

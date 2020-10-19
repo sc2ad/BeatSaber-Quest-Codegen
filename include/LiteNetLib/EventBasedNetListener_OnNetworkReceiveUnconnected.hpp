@@ -38,16 +38,16 @@ namespace LiteNetLib {
   class EventBasedNetListener::OnNetworkReceiveUnconnected : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1A668F0
+    // Offset: 0x1804AE4
     static EventBasedNetListener::OnNetworkReceiveUnconnected* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, LiteNetLib.UnconnectedMessageType messageType)
-    // Offset: 0x1A655DC
+    // Offset: 0x18037D0
     void Invoke(System::Net::IPEndPoint* remoteEndPoint, LiteNetLib::NetPacketReader* reader, LiteNetLib::UnconnectedMessageType messageType);
     // public System.IAsyncResult BeginInvoke(System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, LiteNetLib.UnconnectedMessageType messageType, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1A66904
+    // Offset: 0x1804AF8
     System::IAsyncResult* BeginInvoke(System::Net::IPEndPoint* remoteEndPoint, LiteNetLib::NetPacketReader* reader, LiteNetLib::UnconnectedMessageType messageType, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1A669A4
+    // Offset: 0x1804B98
     void EndInvoke(System::IAsyncResult* result);
   }; // LiteNetLib.EventBasedNetListener/OnNetworkReceiveUnconnected
 }

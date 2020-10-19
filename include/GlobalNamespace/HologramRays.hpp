@@ -119,37 +119,37 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static void _set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock* value);
     // static private System.Void RuntimeInit()
-    // Offset: 0xECF490
+    // Offset: 0x200E460
     static void RuntimeInit();
     // protected System.Void Awake()
-    // Offset: 0xECF4FC
+    // Offset: 0x200E4CC
     void Awake();
     // protected System.Void OnDisable()
-    // Offset: 0xECF63C
+    // Offset: 0x200E60C
     void OnDisable();
     // protected System.Void OnValidate()
-    // Offset: 0xECF65C
+    // Offset: 0x200E62C
     void OnValidate();
     // private System.Void Update()
-    // Offset: 0xECF9E4
+    // Offset: 0x200E9B4
     void Update();
     // private System.Void Refresh()
-    // Offset: 0xECF76C
+    // Offset: 0x200E73C
     void Refresh();
     // public System.Void Animate(System.Boolean turningOn, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0xECF9E8
+    // Offset: 0x200E9B8
     void Animate(bool turningOn, float duration, Tweening::EaseType easeType);
     // private System.Collections.IEnumerator FadingCoroutine(System.Boolean turningOn, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0xECFAB8
+    // Offset: 0x200EA88
     System::Collections::IEnumerator* FadingCoroutine(bool turningOn, float duration, Tweening::EaseType easeType);
     // private System.Void UpdateBounds()
-    // Offset: 0xECFB60
+    // Offset: 0x200EB30
     void UpdateBounds();
     // private System.Void <Awake>b__22_0(System.Single f)
-    // Offset: 0xECFD5C
+    // Offset: 0x200ED2C
     void $Awake$b__22_0(float f);
     // public System.Void .ctor()
-    // Offset: 0xECFC8C
+    // Offset: 0x200EC5C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -158,7 +158,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static HologramRays* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xECFCAC
+    // Offset: 0x200EC7C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

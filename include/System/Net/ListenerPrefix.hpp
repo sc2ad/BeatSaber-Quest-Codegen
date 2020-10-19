@@ -37,38 +37,38 @@ namespace System::Net {
     // Offset: 0x38
     System::Net::HttpListener* Listener;
     // public System.Void .ctor(System.String prefix)
-    // Offset: 0x1472DB0
+    // Offset: 0x12495D8
     static ListenerPrefix* New_ctor(::Il2CppString* prefix);
     // public System.Boolean get_Secure()
-    // Offset: 0x147311C
+    // Offset: 0x1249944
     bool get_Secure();
     // public System.String get_Host()
-    // Offset: 0x1473124
+    // Offset: 0x124994C
     ::Il2CppString* get_Host();
     // public System.Int32 get_Port()
-    // Offset: 0x147312C
+    // Offset: 0x1249954
     int get_Port();
     // public System.String get_Path()
-    // Offset: 0x1473134
+    // Offset: 0x124995C
     ::Il2CppString* get_Path();
     // private System.Void Parse(System.String uri)
-    // Offset: 0x1472DF0
+    // Offset: 0x1249618
     void Parse(::Il2CppString* uri);
     // static public System.Void CheckUri(System.String uri)
-    // Offset: 0x1464DF4
+    // Offset: 0x123B61C
     static void CheckUri(::Il2CppString* uri);
     // public override System.String ToString()
-    // Offset: 0x1473114
+    // Offset: 0x124993C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object o)
-    // Offset: 0x147313C
+    // Offset: 0x1249964
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x14731D0
+    // Offset: 0x12499F8
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

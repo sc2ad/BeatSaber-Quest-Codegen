@@ -28,25 +28,25 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     GlobalNamespace::BeatmapObjectType get_beatmapObjectType();
     // public System.Single get_time()
-    // Offset: 0x2220044
+    // Offset: 0x2241B58
     float get_time();
     // private System.Void set_time(System.Single value)
-    // Offset: 0x222004C
+    // Offset: 0x2241B60
     void set_time(float value);
     // public System.Int32 get_lineIndex()
-    // Offset: 0x2220054
+    // Offset: 0x2241B68
     int get_lineIndex();
     // protected System.Void set_lineIndex(System.Int32 value)
-    // Offset: 0x222005C
+    // Offset: 0x2241B70
     void set_lineIndex(int value);
     // protected System.Void .ctor(System.Single time, System.Int32 lineIndex)
-    // Offset: 0x2220064
+    // Offset: 0x2241B78
     static BeatmapObjectData* New_ctor(float time, int lineIndex);
     // public System.Void MirrorLineIndex(System.Int32 lineCount)
-    // Offset: 0x22200A0
+    // Offset: 0x2241BB4
     void MirrorLineIndex(int lineCount);
     // public System.Void MoveTime(System.Single newTime)
-    // Offset: 0x22200B4
+    // Offset: 0x2241BC8
     void MoveTime(float newTime);
     // public BeatmapObjectData GetCopy()
     // Offset: 0xFFFFFFFF

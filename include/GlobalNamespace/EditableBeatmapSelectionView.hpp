@@ -50,24 +50,24 @@ namespace GlobalNamespace {
     // Offset: 0x48
     bool interactable;
     // public UnityEngine.UI.Button get_editButton()
-    // Offset: 0xF64724
+    // Offset: 0x201C864
     UnityEngine::UI::Button* get_editButton();
     // public UnityEngine.UI.Button get_clearButton()
-    // Offset: 0xF6472C
+    // Offset: 0x201C86C
     UnityEngine::UI::Button* get_clearButton();
     // public System.Boolean get_interactable()
-    // Offset: 0xF64734
+    // Offset: 0x201C874
     bool get_interactable();
     // public System.Void set_interactable(System.Boolean value)
-    // Offset: 0xF6473C
+    // Offset: 0x201C87C
     void set_interactable(bool value);
     // public override System.Void SetBeatmap(IPreviewBeatmapLevel beatmapLevel, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
-    // Offset: 0xF647A8
+    // Offset: 0x201C8E8
     // Implemented from: BeatmapSelectionView
     // Base method: System.Void BeatmapSelectionView::SetBeatmap(IPreviewBeatmapLevel beatmapLevel, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
     void SetBeatmap(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
     // public System.Void .ctor()
-    // Offset: 0xF64804
+    // Offset: 0x201C944
     // Implemented from: BeatmapSelectionView
     // Base method: System.Void BeatmapSelectionView::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -31,16 +31,16 @@ namespace Zenject {
     // Offset: 0x40
     Zenject::SceneContextRegistry* contextRegistry;
     // public System.Void OnApplicationQuit()
-    // Offset: 0x1517AD4
+    // Offset: 0x12EE2FC
     void OnApplicationQuit();
     // public System.Void DestroyEverythingInOrder()
-    // Offset: 0x1517AF8
+    // Offset: 0x12EE320
     void DestroyEverythingInOrder();
     // public System.Void ForceUnloadAllScenes(System.Boolean immediate)
-    // Offset: 0x1517BA0
+    // Offset: 0x12EE3C8
     void ForceUnloadAllScenes(bool immediate);
     // public System.Void .ctor()
-    // Offset: 0x1517ED0
+    // Offset: 0x12EE6F8
     // Implemented from: Zenject.MonoKernel
     // Base method: System.Void MonoKernel::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

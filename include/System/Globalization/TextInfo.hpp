@@ -72,97 +72,97 @@ namespace System::Globalization {
     // Set static field: static private System.Int32 wordSeparatorMask
     static void _set_wordSeparatorMask(int value);
     // static System.Globalization.TextInfo get_Invariant()
-    // Offset: 0x1685420
+    // Offset: 0x143EFF4
     static System::Globalization::TextInfo* get_Invariant();
     // System.Void .ctor(System.Globalization.CultureData cultureData)
-    // Offset: 0x16854D0
+    // Offset: 0x143F0A4
     static TextInfo* New_ctor(System::Globalization::CultureData* cultureData);
     // private System.Void OnDeserializing(System.Runtime.Serialization.StreamingContext ctx)
-    // Offset: 0x1685548
+    // Offset: 0x143F11C
     void OnDeserializing(System::Runtime::Serialization::StreamingContext ctx);
     // private System.Void OnDeserialized()
-    // Offset: 0x168557C
+    // Offset: 0x143F150
     void OnDeserialized();
     // private System.Void OnDeserialized(System.Runtime.Serialization.StreamingContext ctx)
-    // Offset: 0x16856B0
+    // Offset: 0x143F284
     void OnDeserialized(System::Runtime::Serialization::StreamingContext ctx);
     // private System.Void OnSerializing(System.Runtime.Serialization.StreamingContext ctx)
-    // Offset: 0x16856B4
+    // Offset: 0x143F288
     void OnSerializing(System::Runtime::Serialization::StreamingContext ctx);
     // static System.Int32 GetHashCodeOrdinalIgnoreCase(System.String s)
-    // Offset: 0x1685750
+    // Offset: 0x143F324
     static int GetHashCodeOrdinalIgnoreCase(::Il2CppString* s);
     // static System.Int32 GetHashCodeOrdinalIgnoreCase(System.String s, System.Boolean forceRandomizedHashing, System.Int64 additionalEntropy)
-    // Offset: 0x168575C
+    // Offset: 0x143F330
     static int GetHashCodeOrdinalIgnoreCase(::Il2CppString* s, bool forceRandomizedHashing, int64_t additionalEntropy);
     // static System.Int32 CompareOrdinalIgnoreCase(System.String str1, System.String str2)
-    // Offset: 0x1685888
+    // Offset: 0x143F45C
     static int CompareOrdinalIgnoreCase(::Il2CppString* str1, ::Il2CppString* str2);
     // static System.Int32 CompareOrdinalIgnoreCaseEx(System.String strA, System.Int32 indexA, System.String strB, System.Int32 indexB, System.Int32 lengthA, System.Int32 lengthB)
-    // Offset: 0x1685A7C
+    // Offset: 0x143F650
     static int CompareOrdinalIgnoreCaseEx(::Il2CppString* strA, int indexA, ::Il2CppString* strB, int indexB, int lengthA, int lengthB);
     // static System.Int32 IndexOfStringOrdinalIgnoreCase(System.String source, System.String value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x1685A80
+    // Offset: 0x143F654
     static int IndexOfStringOrdinalIgnoreCase(::Il2CppString* source, ::Il2CppString* value, int startIndex, int count);
     // static System.Int32 LastIndexOfStringOrdinalIgnoreCase(System.String source, System.String value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x1685B28
+    // Offset: 0x143F6FC
     static int LastIndexOfStringOrdinalIgnoreCase(::Il2CppString* source, ::Il2CppString* value, int startIndex, int count);
     // public System.String get_CultureName()
-    // Offset: 0x1685BBC
+    // Offset: 0x143F790
     ::Il2CppString* get_CultureName();
     // System.Void SetReadOnlyState(System.Boolean readOnly)
-    // Offset: 0x1685C54
+    // Offset: 0x143F828
     void SetReadOnlyState(bool readOnly);
     // public System.Char ToLower(System.Char c)
-    // Offset: 0x1685C60
+    // Offset: 0x143F834
     ::Il2CppChar ToLower(::Il2CppChar c);
     // public System.String ToLower(System.String str)
-    // Offset: 0x16862BC
+    // Offset: 0x143FE90
     ::Il2CppString* ToLower(::Il2CppString* str);
     // static private System.Char ToLowerAsciiInvariant(System.Char c)
-    // Offset: 0x1685DBC
+    // Offset: 0x143F990
     static ::Il2CppChar ToLowerAsciiInvariant(::Il2CppChar c);
     // public System.Char ToUpper(System.Char c)
-    // Offset: 0x168643C
+    // Offset: 0x1440010
     ::Il2CppChar ToUpper(::Il2CppChar c);
     // public System.String ToUpper(System.String str)
-    // Offset: 0x16869B0
+    // Offset: 0x1440584
     ::Il2CppString* ToUpper(::Il2CppString* str);
     // static private System.Char ToUpperAsciiInvariant(System.Char c)
-    // Offset: 0x16864A4
+    // Offset: 0x1440078
     static ::Il2CppChar ToUpperAsciiInvariant(::Il2CppChar c);
     // static private System.Boolean IsAscii(System.Char c)
-    // Offset: 0x1685CC8
+    // Offset: 0x143F89C
     static bool IsAscii(::Il2CppChar c);
     // private System.Boolean get_IsAsciiCasingSameAsInvariant()
-    // Offset: 0x1685CD8
+    // Offset: 0x143F8AC
     bool get_IsAsciiCasingSameAsInvariant();
     // System.Int32 GetCaseInsensitiveHashCode(System.String str)
-    // Offset: 0x1686C68
+    // Offset: 0x144083C
     int GetCaseInsensitiveHashCode(::Il2CppString* str);
     // System.Int32 GetCaseInsensitiveHashCode(System.String str, System.Boolean forceRandomizedHashing, System.Int64 additionalEntropy)
-    // Offset: 0x168578C
+    // Offset: 0x143F360
     int GetCaseInsensitiveHashCode(::Il2CppString* str, bool forceRandomizedHashing, int64_t additionalEntropy);
     // private System.Int32 GetInvariantCaseInsensitiveHashCode(System.String str)
-    // Offset: 0x1686C70
+    // Offset: 0x1440844
     int GetInvariantCaseInsensitiveHashCode(::Il2CppString* str);
     // private System.String ToUpperInternal(System.String str)
-    // Offset: 0x1686A44
+    // Offset: 0x1440618
     ::Il2CppString* ToUpperInternal(::Il2CppString* str);
     // private System.String ToLowerInternal(System.String str)
-    // Offset: 0x1686350
+    // Offset: 0x143FF24
     ::Il2CppString* ToLowerInternal(::Il2CppString* str);
     // private System.Char ToUpperInternal(System.Char c)
-    // Offset: 0x16864C0
+    // Offset: 0x1440094
     ::Il2CppChar ToUpperInternal(::Il2CppChar c);
     // private System.Char ToLowerInternal(System.Char c)
-    // Offset: 0x1685DD8
+    // Offset: 0x143F9AC
     ::Il2CppChar ToLowerInternal(::Il2CppChar c);
     // static private System.Int32 InternalCompareStringOrdinalIgnoreCase(System.String strA, System.Int32 indexA, System.String strB, System.Int32 indexB, System.Int32 lenA, System.Int32 lenB)
-    // Offset: 0x16858B8
+    // Offset: 0x143F48C
     static int InternalCompareStringOrdinalIgnoreCase(::Il2CppString* strA, int indexA, ::Il2CppString* strB, int indexB, int lenA, int lenB);
     // public System.Object Clone()
-    // Offset: 0x1685BC4
+    // Offset: 0x143F798
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();
@@ -170,27 +170,27 @@ namespace System::Globalization {
     // Maps to method: Clone
     ::Il2CppObject* System_ICloneable_Clone();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1686B30
+    // Offset: 0x1440704
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1686BE4
+    // Offset: 0x14407B8
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1686C04
+    // Offset: 0x14407D8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // private System.Void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object sender)
-    // Offset: 0x1686C64
+    // Offset: 0x1440838
     // Implemented from: System.Runtime.Serialization.IDeserializationCallback
     // Base method: System.Void IDeserializationCallback::OnDeserialization(System.Object sender)
     void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::Il2CppObject* sender);
     // System.Void .ctor()
-    // Offset: 0x1686DB8
+    // Offset: 0x144098C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TextInfo* New_ctor();

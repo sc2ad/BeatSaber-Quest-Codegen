@@ -31,10 +31,10 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0x20
     int defaultCP;
     // public System.Void .ctor(System.Int32[] starts, System.Int32[] ends, System.Int32 defaultIndex, System.Int32 defaultCP)
-    // Offset: 0x17D30F4
+    // Offset: 0x157A518
     static CodePointIndexer* New_ctor(::Array<int>* starts, ::Array<int>* ends, int defaultIndex, int defaultCP);
     // public System.Int32 ToIndex(System.Int32 cp)
-    // Offset: 0x17D3294
+    // Offset: 0x157A6B8
     int ToIndex(int cp);
   }; // Mono.Globalization.Unicode.CodePointIndexer
 }

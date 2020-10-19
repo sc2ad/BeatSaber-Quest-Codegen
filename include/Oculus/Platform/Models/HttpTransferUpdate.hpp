@@ -28,7 +28,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x20
     bool IsCompleted;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1363F48
+    // Offset: 0x1139684
     static HttpTransferUpdate* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.HttpTransferUpdate
 }

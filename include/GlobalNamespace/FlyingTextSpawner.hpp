@@ -55,13 +55,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void SpawnText(UnityEngine.Vector3 pos, UnityEngine.Quaternion rotation, UnityEngine.Quaternion inverseRotation, System.String text)
-    // Offset: 0xF6E044
+    // Offset: 0x2026184
     void SpawnText(UnityEngine::Vector3 pos, UnityEngine::Quaternion rotation, UnityEngine::Quaternion inverseRotation, ::Il2CppString* text);
     // private System.Void HandleFlyingTextEffectDidFinish(FlyingObjectEffect flyingObjectEffect)
-    // Offset: 0xF6E248
+    // Offset: 0x2026388
     void HandleFlyingTextEffectDidFinish(GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
     // public System.Void .ctor()
-    // Offset: 0xF6E32C
+    // Offset: 0x202646C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

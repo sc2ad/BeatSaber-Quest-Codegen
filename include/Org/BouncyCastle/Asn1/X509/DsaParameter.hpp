@@ -39,22 +39,22 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x20
     Org::BouncyCastle::Asn1::DerInteger* g;
     // static public Org.BouncyCastle.Asn1.X509.DsaParameter GetInstance(System.Object obj)
-    // Offset: 0x1865EF8
+    // Offset: 0x160C31C
     static Org::BouncyCastle::Asn1::X509::DsaParameter* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x186606C
+    // Offset: 0x160C490
     static DsaParameter* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public Org.BouncyCastle.Math.BigInteger get_P()
-    // Offset: 0x18661F0
+    // Offset: 0x160C614
     Org::BouncyCastle::Math::BigInteger* get_P();
     // public Org.BouncyCastle.Math.BigInteger get_Q()
-    // Offset: 0x186620C
+    // Offset: 0x160C630
     Org::BouncyCastle::Math::BigInteger* get_Q();
     // public Org.BouncyCastle.Math.BigInteger get_G()
-    // Offset: 0x1866228
+    // Offset: 0x160C64C
     Org::BouncyCastle::Math::BigInteger* get_G();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1866244
+    // Offset: 0x160C668
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

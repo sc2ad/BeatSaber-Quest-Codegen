@@ -45,25 +45,25 @@ namespace UnityEngine {
     // Creating value type constructor for type: RaycastHit
     constexpr RaycastHit(UnityEngine::Vector3 m_Point_ = {}, UnityEngine::Vector3 m_Normal_ = {}, uint m_FaceID_ = {}, float m_Distance_ = {}, UnityEngine::Vector2 m_UV_ = {}, int m_Collider_ = {}) noexcept : m_Point{m_Point_}, m_Normal{m_Normal_}, m_FaceID{m_FaceID_}, m_Distance{m_Distance_}, m_UV{m_UV_}, m_Collider{m_Collider_} {}
     // public UnityEngine.Collider get_collider()
-    // Offset: 0xDDE3D0
+    // Offset: 0xC8BA60
     UnityEngine::Collider* get_collider();
     // public UnityEngine.Vector3 get_point()
-    // Offset: 0xDDE3D8
+    // Offset: 0xC8BA68
     UnityEngine::Vector3 get_point();
     // public System.Void set_point(UnityEngine.Vector3 value)
-    // Offset: 0xDDE3E4
+    // Offset: 0xC8BA74
     void set_point(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_normal()
-    // Offset: 0xDDE3F0
+    // Offset: 0xC8BA80
     UnityEngine::Vector3 get_normal();
     // public System.Void set_normal(UnityEngine.Vector3 value)
-    // Offset: 0xDDE3FC
+    // Offset: 0xC8BA8C
     void set_normal(UnityEngine::Vector3 value);
     // public System.Single get_distance()
-    // Offset: 0xDDE408
+    // Offset: 0xC8BA98
     float get_distance();
     // public System.Void set_distance(System.Single value)
-    // Offset: 0xDDE410
+    // Offset: 0xC8BAA0
     void set_distance(float value);
   }; // UnityEngine.RaycastHit
 }

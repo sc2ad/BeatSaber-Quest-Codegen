@@ -19,7 +19,7 @@ namespace GlobalNamespace {
   class VRPlatformUtils : public ::Il2CppObject {
     public:
     // static public XRDeviceModel GetXRDeviceModel()
-    // Offset: 0x21EF2CC
+    // Offset: 0x2240F2C
     static GlobalNamespace::XRDeviceModel GetXRDeviceModel();
   }; // VRPlatformUtils
 }

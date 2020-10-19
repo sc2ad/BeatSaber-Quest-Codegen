@@ -37,31 +37,28 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::BeatmapDataLoader::$$c
     class $$c;
     // private System.Single GetRealTimeFromBPMTime(System.Single bmpTime, System.Single bpm, System.Single shuffle, System.Single shufflePeriod)
-    // Offset: 0x104C854
+    // Offset: 0x20C7570
     float GetRealTimeFromBPMTime(float bmpTime, float bpm, float shuffle, float shufflePeriod);
-    // public BeatmapData GetBeatmapDataFromBeatmapSaveData(System.Collections.Generic.List`1<BeatmapSaveData/NoteData> notesSaveData, System.Collections.Generic.List`1<BeatmapSaveData/LongNoteData> longNotesSaveData, System.Collections.Generic.List`1<BeatmapSaveData/ObstacleData> obstaclesSaveData, System.Collections.Generic.List`1<BeatmapSaveData/EventData> eventsSaveData, System.Single startBpm, System.Single shuffle, System.Single shufflePeriod)
-    // Offset: 0x104C8A8
-    GlobalNamespace::BeatmapData* GetBeatmapDataFromBeatmapSaveData(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::NoteData*>* notesSaveData, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::LongNoteData*>* longNotesSaveData, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::ObstacleData*>* obstaclesSaveData, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::EventData*>* eventsSaveData, float startBpm, float shuffle, float shufflePeriod);
+    // public BeatmapData GetBeatmapDataFromBeatmapSaveData(System.Collections.Generic.List`1<BeatmapSaveData/NoteData> notesSaveData, System.Collections.Generic.List`1<BeatmapSaveData/ObstacleData> obstaclesSaveData, System.Collections.Generic.List`1<BeatmapSaveData/EventData> eventsSaveData, System.Single startBpm, System.Single shuffle, System.Single shufflePeriod)
+    // Offset: 0x20C75C4
+    GlobalNamespace::BeatmapData* GetBeatmapDataFromBeatmapSaveData(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::NoteData*>* notesSaveData, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::ObstacleData*>* obstaclesSaveData, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::EventData*>* eventsSaveData, float startBpm, float shuffle, float shufflePeriod);
     // public BeatmapData GetBeatmapDataFromBinary(System.Byte[] data, System.Single startBPM, System.Single shuffle, System.Single shufflePeriod)
-    // Offset: 0x104D4BC
+    // Offset: 0x20C7FC0
     GlobalNamespace::BeatmapData* GetBeatmapDataFromBinary(::Array<uint8_t>* data, float startBPM, float shuffle, float shufflePeriod);
     // public BeatmapData GetBeatmapDataFromJson(System.String json, System.Single startBPM, System.Single shuffle, System.Single shufflePeriod)
-    // Offset: 0x104D530
+    // Offset: 0x20C8034
     GlobalNamespace::BeatmapData* GetBeatmapDataFromJson(::Il2CppString* json, float startBPM, float shuffle, float shufflePeriod);
     // static private ColorType ConvertFromBeatmapSaveDataNoteType(BeatmapSaveData/NoteType noteType)
-    // Offset: 0x104D48C
+    // Offset: 0x20C7FA0
     static GlobalNamespace::ColorType ConvertFromBeatmapSaveDataNoteType(GlobalNamespace::BeatmapSaveData::NoteType noteType);
-    // static private ColorType ConvertFromBeatmapSaveDataLongNoteType(BeatmapSaveData/LongNoteType longNoteType)
-    // Offset: 0x104D4AC
-    static GlobalNamespace::ColorType ConvertFromBeatmapSaveDataLongNoteType(GlobalNamespace::BeatmapSaveData::LongNoteType longNoteType);
     // static private BeatmapEventType ConvertFromBeatmapSaveDataBeatmapEventType(BeatmapSaveData/BeatmapEventType beatmapEventType)
-    // Offset: 0x104D338
+    // Offset: 0x20C7E4C
     static GlobalNamespace::BeatmapEventType ConvertFromBeatmapSaveDataBeatmapEventType(GlobalNamespace::BeatmapSaveData::BeatmapEventType beatmapEventType);
-    // private System.Single <GetBeatmapDataFromBeatmapSaveData>g__ProcessTime|2_3(System.Single bpmTime, ref BeatmapDataLoader/<>c__DisplayClass2_0 )
-    // Offset: 0x104D33C
-    float $GetBeatmapDataFromBeatmapSaveData$g__ProcessTime_2_3(float bpmTime, GlobalNamespace::BeatmapDataLoader::$$c__DisplayClass2_0& param_1);
+    // private System.Single <GetBeatmapDataFromBeatmapSaveData>g__ProcessTime|2_2(System.Single bpmTime, ref BeatmapDataLoader/<>c__DisplayClass2_0 )
+    // Offset: 0x20C7E50
+    float $GetBeatmapDataFromBeatmapSaveData$g__ProcessTime_2_2(float bpmTime, GlobalNamespace::BeatmapDataLoader::$$c__DisplayClass2_0& param_1);
     // public System.Void .ctor()
-    // Offset: 0x104D5F8
+    // Offset: 0x20C80A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BeatmapDataLoader* New_ctor();

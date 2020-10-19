@@ -54,25 +54,25 @@ namespace Tweening {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x12E15B0
+    // Offset: 0x1FA2F5C
     void Start();
     // protected System.Void Update()
-    // Offset: 0x12E161C
+    // Offset: 0x1FA2FC8
     void Update();
     // public Tweening.Tween AddTween(Tweening.Tween tween, UnityEngine.Object owner)
-    // Offset: 0x12E17B4
+    // Offset: 0x1FA3178
     Tweening::Tween* AddTween(Tweening::Tween* tween, UnityEngine::Object* owner);
     // public Tweening.Tween RestartTween(Tweening.Tween tween, UnityEngine.Object owner)
-    // Offset: 0x12E19B8
+    // Offset: 0x1FA337C
     Tweening::Tween* RestartTween(Tweening::Tween* tween, UnityEngine::Object* owner);
     // public System.Void KillAllTweens(UnityEngine.Object owner)
-    // Offset: 0x12E1A18
+    // Offset: 0x1FA33D8
     void KillAllTweens(UnityEngine::Object* owner);
     // private System.Void AddTweenToOwnerDictionary(Tweening.Tween tween, UnityEngine.Object owner)
-    // Offset: 0x12E1884
+    // Offset: 0x1FA3248
     void AddTweenToOwnerDictionary(Tweening::Tween* tween, UnityEngine::Object* owner);
     // public System.Void .ctor()
-    // Offset: 0x12E1B94
+    // Offset: 0x1FA354C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

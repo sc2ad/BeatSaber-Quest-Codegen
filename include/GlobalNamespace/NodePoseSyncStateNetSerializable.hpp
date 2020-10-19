@@ -45,33 +45,33 @@ namespace GlobalNamespace {
     // Set static field: static public readonly PacketPool`1<NodePoseSyncStateNetSerializable> pool
     static void _set_pool(GlobalNamespace::PacketPool_1<GlobalNamespace::NodePoseSyncStateNetSerializable*>* value);
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0xF121D0
+    // Offset: 0x1FE7084
     static void NoDomainReloadInit();
     // static private System.Void .cctor()
-    // Offset: 0xF12358
+    // Offset: 0x1FE720C
     static void _cctor();
     // private System.Single ISyncStateSerializable<NodePoseSyncState>.get_time()
-    // Offset: 0xF12194
+    // Offset: 0x1FE7048
     // Implemented from: ISyncStateSerializable`1
     // Base method: System.Single ISyncStateSerializable_1::get_time()
     float GlobalNamespace_ISyncStateSerializable_1_get_time();
     // private System.Void ISyncStateSerializable<NodePoseSyncState>.set_time(System.Single value)
-    // Offset: 0xF1219C
+    // Offset: 0x1FE7050
     // Implemented from: ISyncStateSerializable`1
     // Base method: System.Void ISyncStateSerializable_1::set_time(System.Single value)
     void GlobalNamespace_ISyncStateSerializable_1_set_time(float value);
     // private NodePoseSyncState ISyncStateSerializable<NodePoseSyncState>.get_state()
-    // Offset: 0xF121A4
+    // Offset: 0x1FE7058
     // Implemented from: ISyncStateSerializable`1
     // Base method: T ISyncStateSerializable_1::get_state()
     GlobalNamespace::NodePoseSyncState GlobalNamespace_ISyncStateSerializable_1_get_state();
     // private System.Void ISyncStateSerializable<NodePoseSyncState>.set_state(NodePoseSyncState value)
-    // Offset: 0xF121B4
+    // Offset: 0x1FE7068
     // Implemented from: ISyncStateSerializable`1
     // Base method: System.Void ISyncStateSerializable_1::set_state(NodePoseSyncState value)
     void GlobalNamespace_ISyncStateSerializable_1_set_state(GlobalNamespace::NodePoseSyncState value);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xF1224C
+    // Offset: 0x1FE7100
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xF1228C
+    // Offset: 0x1FE7140
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -87,12 +87,12 @@ namespace GlobalNamespace {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0xF122CC
+    // Offset: 0x1FE7180
     // Implemented from: IPoolablePacket
     // Base method: System.Void IPoolablePacket::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0xF12350
+    // Offset: 0x1FE7204
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NodePoseSyncStateNetSerializable* New_ctor();

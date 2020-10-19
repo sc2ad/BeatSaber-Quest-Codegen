@@ -73,51 +73,51 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kRotationStep
     static void _set_kRotationStep(float value);
     // private System.Void Move(UnityEngine.Vector3 move)
-    // Offset: 0xF7A084
+    // Offset: 0x20712A8
     void Move(UnityEngine::Vector3 move);
     // private System.Void Rotate(System.Single rotation)
-    // Offset: 0xF7A154
+    // Offset: 0x2071378
     void Rotate(float rotation);
     // private System.Void ResetRoom()
-    // Offset: 0xF7A1C8
+    // Offset: 0x20713EC
     void ResetRoom();
     // private System.Void RefreshTexts()
-    // Offset: 0xF79F08
+    // Offset: 0x207112C
     void RefreshTexts();
     // private System.Void <DidActivate>b__10_0()
-    // Offset: 0xF7A284
+    // Offset: 0x20714A8
     void $DidActivate$b__10_0();
     // private System.Void <DidActivate>b__10_1()
-    // Offset: 0xF7A2DC
+    // Offset: 0x2071500
     void $DidActivate$b__10_1();
     // private System.Void <DidActivate>b__10_2()
-    // Offset: 0xF7A334
+    // Offset: 0x2071558
     void $DidActivate$b__10_2();
     // private System.Void <DidActivate>b__10_3()
-    // Offset: 0xF7A38C
+    // Offset: 0x20715B0
     void $DidActivate$b__10_3();
     // private System.Void <DidActivate>b__10_4()
-    // Offset: 0xF7A3E4
+    // Offset: 0x2071608
     void $DidActivate$b__10_4();
     // private System.Void <DidActivate>b__10_5()
-    // Offset: 0xF7A43C
+    // Offset: 0x2071660
     void $DidActivate$b__10_5();
     // private System.Void <DidActivate>b__10_6()
-    // Offset: 0xF7A494
+    // Offset: 0x20716B8
     void $DidActivate$b__10_6();
     // private System.Void <DidActivate>b__10_7()
-    // Offset: 0xF7A49C
+    // Offset: 0x20716C0
     void $DidActivate$b__10_7();
     // private System.Void <DidActivate>b__10_8()
-    // Offset: 0xF7A4A4
+    // Offset: 0x20716C8
     void $DidActivate$b__10_8();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF79C84
+    // Offset: 0x2070EA8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xF7A27C
+    // Offset: 0x20714A0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

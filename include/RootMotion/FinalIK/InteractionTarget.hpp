@@ -62,40 +62,40 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void OpenUserManual()
-    // Offset: 0x1C01488
+    // Offset: 0x19A267C
     void OpenUserManual();
     // private System.Void OpenScriptReference()
-    // Offset: 0x1C014D4
+    // Offset: 0x19A26C8
     void OpenScriptReference();
     // private System.Void OpenTutorial1()
-    // Offset: 0x1C01520
+    // Offset: 0x19A2714
     void OpenTutorial1();
     // private System.Void OpenTutorial2()
-    // Offset: 0x1C0156C
+    // Offset: 0x19A2760
     void OpenTutorial2();
     // private System.Void OpenTutorial3()
-    // Offset: 0x1C015B8
+    // Offset: 0x19A27AC
     void OpenTutorial3();
     // private System.Void OpenTutorial4()
-    // Offset: 0x1C01604
+    // Offset: 0x19A27F8
     void OpenTutorial4();
     // private System.Void SupportGroup()
-    // Offset: 0x1C01650
+    // Offset: 0x19A2844
     void SupportGroup();
     // private System.Void ASThread()
-    // Offset: 0x1C0169C
+    // Offset: 0x19A2890
     void ASThread();
     // public System.Single GetValue(RootMotion.FinalIK.InteractionObject/WeightCurve/Type curveType)
-    // Offset: 0x1BFCCEC
+    // Offset: 0x199DEE0
     float GetValue(RootMotion::FinalIK::InteractionObject::WeightCurve::Type curveType);
     // public System.Void ResetRotation()
-    // Offset: 0x1BFBC6C
+    // Offset: 0x199CE60
     void ResetRotation();
     // public System.Void RotateTo(UnityEngine.Vector3 position)
-    // Offset: 0x1BFA004
+    // Offset: 0x199B1F8
     void RotateTo(UnityEngine::Vector3 position);
     // public System.Void .ctor()
-    // Offset: 0x1C016E8
+    // Offset: 0x19A28DC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

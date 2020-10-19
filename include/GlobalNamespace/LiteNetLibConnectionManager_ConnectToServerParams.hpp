@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Offset: 0x48
     bool serverIsConnectionOwner;
     // public System.Void .ctor()
-    // Offset: 0x1168CBC
+    // Offset: 0x21636A4
     // Implemented from: LiteNetLibConnectionManager/LiteNetLibConnectionParamsBase
     // Base method: System.Void LiteNetLibConnectionParamsBase::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -32,25 +32,25 @@ namespace UnityEngine::Rendering {
   class GraphicsSettings : public UnityEngine::Object {
     public:
     // static public System.Boolean get_lightsUseLinearIntensity()
-    // Offset: 0x198AF0C
+    // Offset: 0x1731330
     static bool get_lightsUseLinearIntensity();
     // static System.Boolean AllowEnlightenSupportForUpgradedProject()
-    // Offset: 0x198AF40
+    // Offset: 0x1731364
     static bool AllowEnlightenSupportForUpgradedProject();
     // static public UnityEngine.Rendering.RenderPipelineAsset get_renderPipelineAsset()
-    // Offset: 0x198AF74
+    // Offset: 0x1731398
     static UnityEngine::Rendering::RenderPipelineAsset* get_renderPipelineAsset();
     // static private UnityEngine.ScriptableObject get_INTERNAL_defaultRenderPipeline()
-    // Offset: 0x198B018
+    // Offset: 0x173143C
     static UnityEngine::ScriptableObject* get_INTERNAL_defaultRenderPipeline();
     // static public UnityEngine.Rendering.RenderPipelineAsset get_defaultRenderPipeline()
-    // Offset: 0x198AF78
+    // Offset: 0x173139C
     static UnityEngine::Rendering::RenderPipelineAsset* get_defaultRenderPipeline();
     // static public System.Void SetShaderMode(UnityEngine.Rendering.BuiltinShaderType type, UnityEngine.Rendering.BuiltinShaderMode mode)
-    // Offset: 0x198B04C
+    // Offset: 0x1731470
     static void SetShaderMode(UnityEngine::Rendering::BuiltinShaderType type, UnityEngine::Rendering::BuiltinShaderMode mode);
     // static public System.Void SetCustomShader(UnityEngine.Rendering.BuiltinShaderType type, UnityEngine.Shader shader)
-    // Offset: 0x198B09C
+    // Offset: 0x17314C0
     static void SetCustomShader(UnityEngine::Rendering::BuiltinShaderType type, UnityEngine::Shader* shader);
   }; // UnityEngine.Rendering.GraphicsSettings
 }

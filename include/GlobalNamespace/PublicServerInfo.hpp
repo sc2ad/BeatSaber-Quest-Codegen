@@ -47,18 +47,18 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PublicServerInfo
     constexpr PublicServerInfo(::Il2CppString* serverName_ = {}, ::Il2CppString* code_ = {}, int currentPlayerCount_ = {}, int maxPlayerCount_ = {}, bool hasPassword_ = {}, GlobalNamespace::GameplayServerConfiguration configuration_ = {}) noexcept : serverName{serverName_}, code{code_}, currentPlayerCount{currentPlayerCount_}, maxPlayerCount{maxPlayerCount_}, hasPassword{hasPassword_}, configuration{configuration_} {}
     // public System.Void .ctor(System.String serverName, System.String code, System.Int32 currentPlayerCount, System.Int32 maxPlayerCount, System.Boolean hasPassword, GameplayServerConfiguration configuration)
-    // Offset: 0xDC71A8
+    // Offset: 0xE50828
     // ABORTED: conflicts with another method.  PublicServerInfo(::Il2CppString* serverName, ::Il2CppString* code, int currentPlayerCount, int maxPlayerCount, bool hasPassword, GlobalNamespace::GameplayServerConfiguration configuration);
     // static public PublicServerInfo Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1C40330
+    // Offset: 0x21FA4C8
     static GlobalNamespace::PublicServerInfo Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xDC7230
+    // Offset: 0xE508B0
     // Implemented from: LiteNetLib.Utils.INetImmutableSerializable`1
     // Base method: System.Void INetImmutableSerializable_1::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public PublicServerInfo CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xDC7238
+    // Offset: 0xE508B8
     // Implemented from: LiteNetLib.Utils.INetImmutableSerializable`1
     // Base method: T INetImmutableSerializable_1::CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
     GlobalNamespace::PublicServerInfo CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);

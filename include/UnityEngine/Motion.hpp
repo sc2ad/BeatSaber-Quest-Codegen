@@ -19,10 +19,10 @@ namespace UnityEngine {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_isLooping()
-    // Offset: 0x21EA038
+    // Offset: 0x1F3EC9C
     bool get_isLooping();
     // protected System.Void .ctor()
-    // Offset: 0x21E54C8
+    // Offset: 0x1F3A12C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()

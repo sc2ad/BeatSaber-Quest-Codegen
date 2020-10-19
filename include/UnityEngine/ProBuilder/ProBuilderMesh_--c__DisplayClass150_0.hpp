@@ -28,10 +28,10 @@ namespace UnityEngine::ProBuilder {
       return i;
     }
     // System.Boolean <GetUnusedTextureGroup>b__0(UnityEngine.ProBuilder.Face element)
-    // Offset: 0x15A9EE4
+    // Offset: 0x138070C
     bool $GetUnusedTextureGroup$b__0(UnityEngine::ProBuilder::Face* element);
     // public System.Void .ctor()
-    // Offset: 0x15A681C
+    // Offset: 0x137D044
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ProBuilderMesh::$$c__DisplayClass150_0* New_ctor();

@@ -50,19 +50,19 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Offset: 0x38
     Org::BouncyCastle::Asn1::Asn1Set* signerInfos;
     // static public Org.BouncyCastle.Asn1.Pkcs.SignedData GetInstance(System.Object obj)
-    // Offset: 0x1637134
+    // Offset: 0x140D95C
     static Org::BouncyCastle::Asn1::Pkcs::SignedData* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x16371D8
+    // Offset: 0x140DA00
     static SignedData* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public Org.BouncyCastle.Asn1.Asn1Set get_Certificates()
-    // Offset: 0x16377D4
+    // Offset: 0x140DFFC
     Org::BouncyCastle::Asn1::Asn1Set* get_Certificates();
     // public Org.BouncyCastle.Asn1.Asn1Set get_Crls()
-    // Offset: 0x16377DC
+    // Offset: 0x140E004
     Org::BouncyCastle::Asn1::Asn1Set* get_Crls();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x16377E4
+    // Offset: 0x140E00C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

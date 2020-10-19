@@ -137,101 +137,101 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_IsDataValid()
-    // Offset: 0x130A0FC
+    // Offset: 0x10DF838
     bool get_IsDataValid();
     // private System.Void set_IsDataValid(System.Boolean value)
-    // Offset: 0x130A104
+    // Offset: 0x10DF840
     void set_IsDataValid(bool value);
     // public System.Boolean get_IsDataHighConfidence()
-    // Offset: 0x130A110
+    // Offset: 0x10DF84C
     bool get_IsDataHighConfidence();
     // private System.Void set_IsDataHighConfidence(System.Boolean value)
-    // Offset: 0x130A118
+    // Offset: 0x10DF854
     void set_IsDataHighConfidence(bool value);
     // public System.Boolean get_IsTracked()
-    // Offset: 0x130A124
+    // Offset: 0x10DF860
     bool get_IsTracked();
     // private System.Void set_IsTracked(System.Boolean value)
-    // Offset: 0x130A12C
+    // Offset: 0x10DF868
     void set_IsTracked(bool value);
     // public System.Boolean get_IsSystemGestureInProgress()
-    // Offset: 0x130A138
+    // Offset: 0x10DF874
     bool get_IsSystemGestureInProgress();
     // private System.Void set_IsSystemGestureInProgress(System.Boolean value)
-    // Offset: 0x130A140
+    // Offset: 0x10DF87C
     void set_IsSystemGestureInProgress(bool value);
     // public System.Boolean get_IsPointerPoseValid()
-    // Offset: 0x130A14C
+    // Offset: 0x10DF888
     bool get_IsPointerPoseValid();
     // private System.Void set_IsPointerPoseValid(System.Boolean value)
-    // Offset: 0x130A154
+    // Offset: 0x10DF890
     void set_IsPointerPoseValid(bool value);
     // public UnityEngine.Transform get_PointerPose()
-    // Offset: 0x130A160
+    // Offset: 0x10DF89C
     UnityEngine::Transform* get_PointerPose();
     // private System.Void set_PointerPose(UnityEngine.Transform value)
-    // Offset: 0x130A168
+    // Offset: 0x10DF8A4
     void set_PointerPose(UnityEngine::Transform* value);
     // public System.Single get_HandScale()
-    // Offset: 0x130A170
+    // Offset: 0x10DF8AC
     float get_HandScale();
     // private System.Void set_HandScale(System.Single value)
-    // Offset: 0x130A178
+    // Offset: 0x10DF8B4
     void set_HandScale(float value);
     // public OVRHand/TrackingConfidence get_HandConfidence()
-    // Offset: 0x130A180
+    // Offset: 0x10DF8BC
     GlobalNamespace::OVRHand::TrackingConfidence get_HandConfidence();
     // private System.Void set_HandConfidence(OVRHand/TrackingConfidence value)
-    // Offset: 0x130A188
+    // Offset: 0x10DF8C4
     void set_HandConfidence(GlobalNamespace::OVRHand::TrackingConfidence value);
     // private System.Void Awake()
-    // Offset: 0x130A190
+    // Offset: 0x10DF8CC
     void Awake();
     // private System.Void Update()
-    // Offset: 0x130A440
+    // Offset: 0x10DFB7C
     void Update();
     // private System.Void FixedUpdate()
-    // Offset: 0x130A448
+    // Offset: 0x10DFB84
     void FixedUpdate();
     // private System.Void GetHandState(OVRPlugin/Step step)
-    // Offset: 0x130A288
+    // Offset: 0x10DF9C4
     void GetHandState(GlobalNamespace::OVRPlugin::Step step);
     // public System.Boolean GetFingerIsPinching(OVRHand/HandFinger finger)
-    // Offset: 0x130A450
+    // Offset: 0x10DFB8C
     bool GetFingerIsPinching(GlobalNamespace::OVRHand::HandFinger finger);
     // public System.Single GetFingerPinchStrength(OVRHand/HandFinger finger)
-    // Offset: 0x130A478
+    // Offset: 0x10DFBB4
     float GetFingerPinchStrength(GlobalNamespace::OVRHand::HandFinger finger);
     // public OVRHand/TrackingConfidence GetFingerConfidence(OVRHand/HandFinger finger)
-    // Offset: 0x130A4C0
+    // Offset: 0x10DFBFC
     GlobalNamespace::OVRHand::TrackingConfidence GetFingerConfidence(GlobalNamespace::OVRHand::HandFinger finger);
     // private OVRSkeleton/SkeletonType OVRSkeleton.IOVRSkeletonDataProvider.GetSkeletonType()
-    // Offset: 0x130A50C
+    // Offset: 0x10DFC48
     // Implemented from: OVRSkeleton/IOVRSkeletonDataProvider
     // Base method: OVRSkeleton/SkeletonType IOVRSkeletonDataProvider::GetSkeletonType()
     GlobalNamespace::OVRSkeleton::SkeletonType GlobalNamespace_OVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonType();
     // private OVRSkeleton/SkeletonPoseData OVRSkeleton.IOVRSkeletonDataProvider.GetSkeletonPoseData()
-    // Offset: 0x130A524
+    // Offset: 0x10DFC60
     // Implemented from: OVRSkeleton/IOVRSkeletonDataProvider
     // Base method: OVRSkeleton/SkeletonPoseData IOVRSkeletonDataProvider::GetSkeletonPoseData()
     GlobalNamespace::OVRSkeleton::SkeletonPoseData GlobalNamespace_OVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonPoseData();
     // private OVRSkeletonRenderer/SkeletonRendererData OVRSkeletonRenderer.IOVRSkeletonRendererDataProvider.GetSkeletonRendererData()
-    // Offset: 0x130A5BC
+    // Offset: 0x10DFCF8
     // Implemented from: OVRSkeletonRenderer/IOVRSkeletonRendererDataProvider
     // Base method: OVRSkeletonRenderer/SkeletonRendererData IOVRSkeletonRendererDataProvider::GetSkeletonRendererData()
     GlobalNamespace::OVRSkeletonRenderer::SkeletonRendererData GlobalNamespace_OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider_GetSkeletonRendererData();
     // private OVRMesh/MeshType OVRMesh.IOVRMeshDataProvider.GetMeshType()
-    // Offset: 0x130A608
+    // Offset: 0x10DFD44
     // Implemented from: OVRMesh/IOVRMeshDataProvider
     // Base method: OVRMesh/MeshType IOVRMeshDataProvider::GetMeshType()
     GlobalNamespace::OVRMesh::MeshType GlobalNamespace_OVRMesh_IOVRMeshDataProvider_GetMeshType();
     // private OVRMeshRenderer/MeshRendererData OVRMeshRenderer.IOVRMeshRendererDataProvider.GetMeshRendererData()
-    // Offset: 0x130A620
+    // Offset: 0x10DFD5C
     // Implemented from: OVRMeshRenderer/IOVRMeshRendererDataProvider
     // Base method: OVRMeshRenderer/MeshRendererData IOVRMeshRendererDataProvider::GetMeshRendererData()
     GlobalNamespace::OVRMeshRenderer::MeshRendererData GlobalNamespace_OVRMeshRenderer_IOVRMeshRendererDataProvider_GetMeshRendererData();
     // public System.Void .ctor()
-    // Offset: 0x130A670
+    // Offset: 0x10DFDAC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

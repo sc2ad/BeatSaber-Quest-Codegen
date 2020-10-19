@@ -453,7 +453,7 @@ namespace System::Linq {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<TAccumulate>("System.Linq", "Enumerable", "Aggregate", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TAccumulate>::get()}, source, seed, func)));
     }
     // static public System.Int32 Sum(System.Collections.Generic.IEnumerable`1<System.Int32> source)
-    // Offset: 0x21D14A8
+    // Offset: 0x1F2610C
     static int Sum(System::Collections::Generic::IEnumerable_1<int>* source);
     // static public System.Int32 Sum(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.Int32> selector)
     // Offset: 0xFFFFFFFF
@@ -462,13 +462,13 @@ namespace System::Linq {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<int>("System.Linq", "Enumerable", "Sum", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}, source, selector)));
     }
     // static public System.Single Min(System.Collections.Generic.IEnumerable`1<System.Single> source)
-    // Offset: 0x21D17AC
+    // Offset: 0x1F26410
     static float Min(System::Collections::Generic::IEnumerable_1<float>* source);
     // static public System.Int32 Max(System.Collections.Generic.IEnumerable`1<System.Int32> source)
-    // Offset: 0x21D1AEC
+    // Offset: 0x1F26750
     static int Max(System::Collections::Generic::IEnumerable_1<int>* source);
     // static public System.Single Max(System.Collections.Generic.IEnumerable`1<System.Single> source)
-    // Offset: 0x21D1D98
+    // Offset: 0x1F269FC
     static float Max(System::Collections::Generic::IEnumerable_1<float>* source);
     // static public System.Int32 Max(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.Int32> selector)
     // Offset: 0xFFFFFFFF

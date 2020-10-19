@@ -43,71 +43,71 @@ namespace UnityEngine::UI {
     // Creating value type constructor for type: ColorBlock
     constexpr ColorBlock(UnityEngine::Color m_NormalColor_ = {}, UnityEngine::Color m_HighlightedColor_ = {}, UnityEngine::Color m_PressedColor_ = {}, UnityEngine::Color m_SelectedColor_ = {}, UnityEngine::Color m_DisabledColor_ = {}, float m_ColorMultiplier_ = {}, float m_FadeDuration_ = {}) noexcept : m_NormalColor{m_NormalColor_}, m_HighlightedColor{m_HighlightedColor_}, m_PressedColor{m_PressedColor_}, m_SelectedColor{m_SelectedColor_}, m_DisabledColor{m_DisabledColor_}, m_ColorMultiplier{m_ColorMultiplier_}, m_FadeDuration{m_FadeDuration_} {}
     // public UnityEngine.Color get_normalColor()
-    // Offset: 0xDA7CC4
+    // Offset: 0xC5D4F4
     UnityEngine::Color get_normalColor();
     // public System.Void set_normalColor(UnityEngine.Color value)
-    // Offset: 0xDA7CD0
+    // Offset: 0xC5D500
     void set_normalColor(UnityEngine::Color value);
     // public UnityEngine.Color get_highlightedColor()
-    // Offset: 0xDA7CDC
+    // Offset: 0xC5D50C
     UnityEngine::Color get_highlightedColor();
     // public System.Void set_highlightedColor(UnityEngine.Color value)
-    // Offset: 0xDA7CE8
+    // Offset: 0xC5D518
     void set_highlightedColor(UnityEngine::Color value);
     // public UnityEngine.Color get_pressedColor()
-    // Offset: 0xDA7CF4
+    // Offset: 0xC5D524
     UnityEngine::Color get_pressedColor();
     // public System.Void set_pressedColor(UnityEngine.Color value)
-    // Offset: 0xDA7D00
+    // Offset: 0xC5D530
     void set_pressedColor(UnityEngine::Color value);
     // public UnityEngine.Color get_selectedColor()
-    // Offset: 0xDA7D0C
+    // Offset: 0xC5D53C
     UnityEngine::Color get_selectedColor();
     // public System.Void set_selectedColor(UnityEngine.Color value)
-    // Offset: 0xDA7D18
+    // Offset: 0xC5D548
     void set_selectedColor(UnityEngine::Color value);
     // public UnityEngine.Color get_disabledColor()
-    // Offset: 0xDA7D24
+    // Offset: 0xC5D554
     UnityEngine::Color get_disabledColor();
     // public System.Void set_disabledColor(UnityEngine.Color value)
-    // Offset: 0xDA7D30
+    // Offset: 0xC5D560
     void set_disabledColor(UnityEngine::Color value);
     // public System.Single get_colorMultiplier()
-    // Offset: 0xDA7D3C
+    // Offset: 0xC5D56C
     float get_colorMultiplier();
     // public System.Void set_colorMultiplier(System.Single value)
-    // Offset: 0xDA7D44
+    // Offset: 0xC5D574
     void set_colorMultiplier(float value);
     // public System.Single get_fadeDuration()
-    // Offset: 0xDA7D4C
+    // Offset: 0xC5D57C
     float get_fadeDuration();
     // public System.Void set_fadeDuration(System.Single value)
-    // Offset: 0xDA7D54
+    // Offset: 0xC5D584
     void set_fadeDuration(float value);
     // static public UnityEngine.UI.ColorBlock get_defaultColorBlock()
-    // Offset: 0x128802C
+    // Offset: 0x10828C8
     static UnityEngine::UI::ColorBlock get_defaultColorBlock();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xDA7D5C
+    // Offset: 0xC5D58C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(UnityEngine.UI.ColorBlock other)
-    // Offset: 0xDA7D64
+    // Offset: 0xC5D594
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.UI.ColorBlock other)
     bool Equals(UnityEngine::UI::ColorBlock other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xDA7DA4
+    // Offset: 0xC5D5D4
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.UI.ColorBlock
   // static public System.Boolean op_Equality(UnityEngine.UI.ColorBlock point1, UnityEngine.UI.ColorBlock point2)
-  // Offset: 0x1288358
+  // Offset: 0x1082BF4
   bool operator ==(const UnityEngine::UI::ColorBlock& point1, const UnityEngine::UI::ColorBlock& point2);
   // static public System.Boolean op_Inequality(UnityEngine.UI.ColorBlock point1, UnityEngine.UI.ColorBlock point2)
-  // Offset: 0x1288398
+  // Offset: 0x1082C34
   bool operator !=(const UnityEngine::UI::ColorBlock& point1, const UnityEngine::UI::ColorBlock& point2);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

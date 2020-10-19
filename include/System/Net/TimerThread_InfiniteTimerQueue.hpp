@@ -16,7 +16,7 @@ namespace System::Net {
   class TimerThread::InfiniteTimerQueue : public System::Net::TimerThread::Queue {
     public:
     // System.Void .ctor()
-    // Offset: 0x13B67EC
+    // Offset: 0x118AF28
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TimerThread::InfiniteTimerQueue* New_ctor();

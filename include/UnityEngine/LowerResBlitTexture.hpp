@@ -14,7 +14,7 @@ namespace UnityEngine {
   class LowerResBlitTexture : public UnityEngine::Object {
     public:
     // System.Void LowerResBlitTextureDontStripMe()
-    // Offset: 0x19F27A8
+    // Offset: 0x1798BCC
     void LowerResBlitTextureDontStripMe();
   }; // UnityEngine.LowerResBlitTexture
 }

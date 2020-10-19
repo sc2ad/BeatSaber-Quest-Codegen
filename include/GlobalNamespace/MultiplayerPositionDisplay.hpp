@@ -80,31 +80,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xF01044
+    // Offset: 0x1FD5EF8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF01214
+    // Offset: 0x1FD60C8
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xF01428
+    // Offset: 0x1FD62DC
     void Update();
     // private System.Void UpdateColors()
-    // Offset: 0xF01484
+    // Offset: 0x1FD6338
     void UpdateColors();
     // private System.Void UpdatePosition()
-    // Offset: 0xF01524
+    // Offset: 0x1FD63D8
     void UpdatePosition();
     // private System.Void HandlePlayerFailed()
-    // Offset: 0xF0169C
+    // Offset: 0x1FD6550
     void HandlePlayerFailed();
     // private System.Void HandleFirstPlayerDidChange(MultiplayerScoreProvider/RankedPlayer obj)
-    // Offset: 0xF0178C
+    // Offset: 0x1FD6640
     void HandleFirstPlayerDidChange(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* obj);
     // private System.Void ChangeColor(UnityEngine.Color toColor, System.Single duration)
-    // Offset: 0xF013A0
+    // Offset: 0x1FD6254
     void ChangeColor(UnityEngine::Color toColor, float duration);
     // public System.Void .ctor()
-    // Offset: 0xF01840
+    // Offset: 0x1FD66F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

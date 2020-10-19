@@ -64,22 +64,22 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`3<System.Boolean,System.Collections.Generic.KeyValuePair`2<System.String,ILobbyPlayerDataModel>,System.Boolean> <>9__44_1
     static void _set_$$9__44_1(System::Func_3<bool, System::Collections::Generic::KeyValuePair_2<::Il2CppString*, GlobalNamespace::ILobbyPlayerDataModel*>, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1017278
+    // Offset: 0x2012C8C
     static void _cctor();
     // IConnectedPlayer <UpdateMissingEntitlementsAsync>b__40_0(IConnectedPlayer player)
-    // Offset: 0x10172E8
+    // Offset: 0x2012CFC
     GlobalNamespace::IConnectedPlayer* $UpdateMissingEntitlementsAsync$b__40_0(GlobalNamespace::IConnectedPlayer* player);
     // System.Threading.Tasks.Task`1<System.Collections.Generic.KeyValuePair`2<IConnectedPlayer,EntitlementsStatus>> <UpdateMissingEntitlementsAsync>b__40_2(System.Collections.Generic.KeyValuePair`2<IConnectedPlayer,System.Threading.Tasks.Task`1<EntitlementsStatus>> pair)
-    // Offset: 0x10172F0
+    // Offset: 0x2012D04
     System::Threading::Tasks::Task_1<System::Collections::Generic::KeyValuePair_2<GlobalNamespace::IConnectedPlayer*, GlobalNamespace::EntitlementsStatus>>* $UpdateMissingEntitlementsAsync$b__40_2(System::Collections::Generic::KeyValuePair_2<GlobalNamespace::IConnectedPlayer*, System::Threading::Tasks::Task_1<GlobalNamespace::EntitlementsStatus>*> pair);
     // System.Boolean <CheckIfAllPlayersAreReady>b__44_0(System.Collections.Generic.KeyValuePair`2<System.String,ILobbyPlayerDataModel> keyPlayerPair)
-    // Offset: 0x101741C
+    // Offset: 0x2012E30
     bool $CheckIfAllPlayersAreReady$b__44_0(System::Collections::Generic::KeyValuePair_2<::Il2CppString*, GlobalNamespace::ILobbyPlayerDataModel*> keyPlayerPair);
     // System.Boolean <CheckIfAllPlayersAreReady>b__44_1(System.Boolean current, System.Collections.Generic.KeyValuePair`2<System.String,ILobbyPlayerDataModel> player)
-    // Offset: 0x10174C8
+    // Offset: 0x2012EDC
     bool $CheckIfAllPlayersAreReady$b__44_1(bool current, System::Collections::Generic::KeyValuePair_2<::Il2CppString*, GlobalNamespace::ILobbyPlayerDataModel*> player);
     // public System.Void .ctor()
-    // Offset: 0x10172E0
+    // Offset: 0x2012CF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HostGameServerLobbyFlowCoordinator::$$c* New_ctor();

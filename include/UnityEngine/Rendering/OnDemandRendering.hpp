@@ -16,13 +16,13 @@ namespace UnityEngine::Rendering {
     // Set static field: static private System.Int32 m_RenderFrameInterval
     static void _set_m_RenderFrameInterval(int value);
     // static public System.Int32 get_renderFrameInterval()
-    // Offset: 0x198B31C
+    // Offset: 0x1731740
     static int get_renderFrameInterval();
     // static System.Void GetRenderFrameInterval(out System.Int32 frameInterval)
-    // Offset: 0x198B384
+    // Offset: 0x17317A8
     static void GetRenderFrameInterval(int& frameInterval);
     // static private System.Void .cctor()
-    // Offset: 0x198B3EC
+    // Offset: 0x1731810
     static void _cctor();
   }; // UnityEngine.Rendering.OnDemandRendering
 }

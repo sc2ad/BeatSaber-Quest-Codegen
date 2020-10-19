@@ -16,7 +16,7 @@ namespace GlobalNamespace {
   class MenuRpcManager::ClearSelectedBeatmapRpc : public GlobalNamespace::RemoteProcedureCall {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1C34BD8
+    // Offset: 0x21EED70
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::.ctor()
     // Base method: System.Void Object::.ctor()

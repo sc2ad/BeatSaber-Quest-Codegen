@@ -24,10 +24,10 @@ namespace HMUI {
     // Offset: 0x90
     TMPro::TextMeshProUGUI* text;
     // public System.Void SetText(System.String text)
-    // Offset: 0x1181664
+    // Offset: 0x217B04C
     void SetText(::Il2CppString* text);
     // public System.Void .ctor()
-    // Offset: 0x11816C8
+    // Offset: 0x217B0B0
     // Implemented from: HMUI.ScrollView
     // Base method: System.Void ScrollView::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -50,29 +50,29 @@ namespace MasterServer {
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
     // static public PacketPool`1<MasterServer.GetPublicServersRequest> get_pool()
-    // Offset: 0x10BE6C8
+    // Offset: 0x2120230
     static GlobalNamespace::PacketPool_1<MasterServer::GetPublicServersRequest*>* get_pool();
     // private System.Void set_userId(System.String value)
-    // Offset: 0x10BE718
+    // Offset: 0x2120280
     void set_userId(::Il2CppString* value);
     // private System.Void set_userName(System.String value)
-    // Offset: 0x10BE728
+    // Offset: 0x2120290
     void set_userName(::Il2CppString* value);
     // public MasterServer.GetPublicServersRequest Init(System.String userId, System.String userName, System.Int32 offset, System.Int32 count, GameplayServerFilter filter)
-    // Offset: 0x10BE730
+    // Offset: 0x2120298
     MasterServer::GetPublicServersRequest* Init(::Il2CppString* userId, ::Il2CppString* userName, int offset, int count, GlobalNamespace::GameplayServerFilter filter);
     // public System.String get_userId()
-    // Offset: 0x10BE710
+    // Offset: 0x2120278
     // Implemented from: MasterServer.IUserClientToServerMessage
     // Base method: System.String IUserClientToServerMessage::get_userId()
     ::Il2CppString* get_userId();
     // public System.String get_userName()
-    // Offset: 0x10BE720
+    // Offset: 0x2120288
     // Implemented from: MasterServer.IUserClientToServerMessage
     // Base method: System.String IUserClientToServerMessage::get_userName()
     ::Il2CppString* get_userName();
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x10BE7A8
+    // Offset: 0x2120310
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -80,7 +80,7 @@ namespace MasterServer {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x10BE824
+    // Offset: 0x212038C
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -88,12 +88,12 @@ namespace MasterServer {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x10BE8E8
+    // Offset: 0x2120450
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x10BE950
+    // Offset: 0x21204B8
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()

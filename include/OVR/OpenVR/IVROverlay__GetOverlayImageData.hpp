@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_GetOverlayImageData : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1D6AED8
+    // Offset: 0x1ABCB3C
     static IVROverlay::_GetOverlayImageData* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, System.IntPtr pvBuffer, System.UInt32 unBufferSize, ref System.UInt32 punWidth, ref System.UInt32 punHeight)
-    // Offset: 0x1D6AEEC
+    // Offset: 0x1ABCB50
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, System::IntPtr pvBuffer, uint unBufferSize, uint& punWidth, uint& punHeight);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.IntPtr pvBuffer, System.UInt32 unBufferSize, ref System.UInt32 punWidth, ref System.UInt32 punHeight, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1D6B1B4
+    // Offset: 0x1ABCE18
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, System::IntPtr pvBuffer, uint unBufferSize, uint& punWidth, uint& punHeight, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(ref System.UInt32 punWidth, ref System.UInt32 punHeight, System.IAsyncResult result)
-    // Offset: 0x1D6B2B8
+    // Offset: 0x1ABCF1C
     OVR::OpenVR::EVROverlayError EndInvoke(uint& punWidth, uint& punHeight, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetOverlayImageData
 }

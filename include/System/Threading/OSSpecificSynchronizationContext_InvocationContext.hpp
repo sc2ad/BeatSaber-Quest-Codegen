@@ -27,10 +27,10 @@ namespace System::Threading {
     // Offset: 0x18
     ::Il2CppObject* m_State;
     // public System.Void .ctor(System.Threading.SendOrPostCallback d, System.Object state)
-    // Offset: 0x16D4D2C
+    // Offset: 0x148F900
     static OSSpecificSynchronizationContext::InvocationContext* New_ctor(System::Threading::SendOrPostCallback* d, ::Il2CppObject* state);
     // public System.Void Invoke()
-    // Offset: 0x16D4D7C
+    // Offset: 0x148F950
     void Invoke();
   }; // System.Threading.OSSpecificSynchronizationContext/InvocationContext
 }

@@ -111,83 +111,83 @@ namespace System::Reflection {
     // Offset: 0x6C
     System::Reflection::AssemblyContentType contentType;
     // static private System.Boolean ParseAssemblyName(System.IntPtr name, out Mono.MonoAssemblyName aname, out System.Boolean is_version_definited, out System.Boolean is_token_defined)
-    // Offset: 0x1AB8F20
+    // Offset: 0x1859114
     static bool ParseAssemblyName(System::IntPtr name, Mono::MonoAssemblyName& aname, bool& is_version_definited, bool& is_token_defined);
     // public System.Void .ctor(System.String assemblyName)
-    // Offset: 0x1AB8F24
+    // Offset: 0x1859118
     static AssemblyName* New_ctor(::Il2CppString* assemblyName);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo si, System.Runtime.Serialization.StreamingContext sc)
-    // Offset: 0x1AB9144
+    // Offset: 0x1859338
     static AssemblyName* New_ctor(System::Runtime::Serialization::SerializationInfo* si, System::Runtime::Serialization::StreamingContext sc);
     // public System.String get_Name()
-    // Offset: 0x1AB954C
+    // Offset: 0x1859740
     ::Il2CppString* get_Name();
     // public System.Void set_Name(System.String value)
-    // Offset: 0x1AB9554
+    // Offset: 0x1859748
     void set_Name(::Il2CppString* value);
     // public System.Globalization.CultureInfo get_CultureInfo()
-    // Offset: 0x1AB955C
+    // Offset: 0x1859750
     System::Globalization::CultureInfo* get_CultureInfo();
     // public System.Void set_CultureInfo(System.Globalization.CultureInfo value)
-    // Offset: 0x1AB9564
+    // Offset: 0x1859758
     void set_CultureInfo(System::Globalization::CultureInfo* value);
     // public System.Reflection.AssemblyNameFlags get_Flags()
-    // Offset: 0x1AB956C
+    // Offset: 0x1859760
     System::Reflection::AssemblyNameFlags get_Flags();
     // public System.Void set_Flags(System.Reflection.AssemblyNameFlags value)
-    // Offset: 0x1AB9574
+    // Offset: 0x1859768
     void set_Flags(System::Reflection::AssemblyNameFlags value);
     // public System.String get_FullName()
-    // Offset: 0x1AB957C
+    // Offset: 0x1859770
     ::Il2CppString* get_FullName();
     // public System.Version get_Version()
-    // Offset: 0x1AB9994
+    // Offset: 0x1859B88
     System::Version* get_Version();
     // public System.Void set_Version(System.Version value)
-    // Offset: 0x1AB8180
+    // Offset: 0x1858374
     void set_Version(System::Version* value);
     // public System.Byte[] GetPublicKey()
-    // Offset: 0x1AB99D0
+    // Offset: 0x1859BC4
     ::Array<uint8_t>* GetPublicKey();
     // public System.Byte[] GetPublicKeyToken()
-    // Offset: 0x1AB99D8
+    // Offset: 0x1859BCC
     ::Array<uint8_t>* GetPublicKeyToken();
     // private System.Boolean get_IsPublicKeyValid()
-    // Offset: 0x1AB9AD4
+    // Offset: 0x1859CC8
     bool get_IsPublicKeyValid();
     // private System.Byte[] InternalGetPublicKeyToken()
-    // Offset: 0x1AB98AC
+    // Offset: 0x1859AA0
     ::Array<uint8_t>* InternalGetPublicKeyToken();
     // static private System.Void get_public_token(System.Byte* token, System.Byte* pubkey, System.Int32 len)
-    // Offset: 0x1AB9BF8
+    // Offset: 0x1859DEC
     static void get_public_token(uint8_t* token, uint8_t* pubkey, int len);
     // private System.Byte[] ComputePublicKeyToken()
-    // Offset: 0x1AB9B64
+    // Offset: 0x1859D58
     ::Array<uint8_t>* ComputePublicKeyToken();
     // public System.Void SetPublicKey(System.Byte[] publicKey)
-    // Offset: 0x1AB8160
+    // Offset: 0x1858354
     void SetPublicKey(::Array<uint8_t>* publicKey);
     // static private Mono.MonoAssemblyName* GetNativeName(System.IntPtr assembly_ptr)
-    // Offset: 0x1AB9F80
+    // Offset: 0x185A174
     static Mono::MonoAssemblyName* GetNativeName(System::IntPtr assembly_ptr);
     // System.Void FillName(Mono.MonoAssemblyName* native, System.String codeBase, System.Boolean addVersion, System.Boolean addPublickey, System.Boolean defaultToken, System.Boolean assemblyRef)
-    // Offset: 0x1AB85FC
+    // Offset: 0x18587F0
     void FillName(Mono::MonoAssemblyName* native, ::Il2CppString* codeBase, bool addVersion, bool addPublickey, bool defaultToken, bool assemblyRef);
     // static System.Reflection.AssemblyName Create(System.Reflection.Assembly assembly, System.Boolean fillCodebase)
-    // Offset: 0x1AB9F84
+    // Offset: 0x185A178
     static System::Reflection::AssemblyName* Create(System::Reflection::Assembly* assembly, bool fillCodebase);
     // public System.Void .ctor()
-    // Offset: 0x1AB8154
+    // Offset: 0x1858348
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AssemblyName* New_ctor();
     // public override System.String ToString()
-    // Offset: 0x1AB999C
+    // Offset: 0x1859B90
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1AB9BFC
+    // Offset: 0x1859DF0
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -195,7 +195,7 @@ namespace System::Reflection {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Object Clone()
-    // Offset: 0x1AB9E64
+    // Offset: 0x185A058
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();
@@ -203,7 +203,7 @@ namespace System::Reflection {
     // Maps to method: Clone
     ::Il2CppObject* System_ICloneable_Clone();
     // public System.Void OnDeserialization(System.Object sender)
-    // Offset: 0x1AB9F78
+    // Offset: 0x185A16C
     // Implemented from: System.Runtime.Serialization.IDeserializationCallback
     // Base method: System.Void IDeserializationCallback::OnDeserialization(System.Object sender)
     void OnDeserialization(::Il2CppObject* sender);

@@ -34,13 +34,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     typename Oculus::Platform::Message_1<Oculus::Platform::Models::UserList*>::Callback* onGetInvitable;
     // System.Void <Refresh>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.UserAndRoomList> result)
-    // Offset: 0x1004C90
+    // Offset: 0x210651C
     void $Refresh$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::UserAndRoomList*>* result);
     // System.Void <Refresh>b__1(Oculus.Platform.Message`1<Oculus.Platform.Models.UserList> result)
-    // Offset: 0x1005168
+    // Offset: 0x21069F8
     void $Refresh$b__1(Oculus::Platform::Message_1<Oculus::Platform::Models::UserList*>* result);
     // public System.Void .ctor()
-    // Offset: 0x1004170
+    // Offset: 0x2105BDC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusNetworkPlayerModel::$$c__DisplayClass50_0* New_ctor();

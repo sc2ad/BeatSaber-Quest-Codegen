@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
   class IVRCompositor::_SetSkyboxOverride : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1D5D5F0
+    // Offset: 0x1AAF254
     static IVRCompositor::_SetSkyboxOverride* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRCompositorError Invoke(in OVR.OpenVR.Texture_t[] pTextures, System.UInt32 unTextureCount)
-    // Offset: 0x1D5D604
+    // Offset: 0x1AAF268
     OVR::OpenVR::EVRCompositorError Invoke(::Array<OVR::OpenVR::Texture_t>*& pTextures, uint unTextureCount);
     // public System.IAsyncResult BeginInvoke(in OVR.OpenVR.Texture_t[] pTextures, System.UInt32 unTextureCount, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1D5D878
+    // Offset: 0x1AAF4DC
     System::IAsyncResult* BeginInvoke(::Array<OVR::OpenVR::Texture_t>*& pTextures, uint unTextureCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRCompositorError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1D5D914
+    // Offset: 0x1AAF578
     OVR::OpenVR::EVRCompositorError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_SetSkyboxOverride
 }

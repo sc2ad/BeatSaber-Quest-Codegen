@@ -107,28 +107,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xF7D048
+    // Offset: 0x20742A4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF7D954
+    // Offset: 0x2074BB0
     void OnDestroy();
     // protected System.Void OnEnable()
-    // Offset: 0xF7DBC8
+    // Offset: 0x2074E24
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xF7DD14
+    // Offset: 0x2074F70
     void OnDisable();
     // private System.Boolean GetBurnMarkPos(UnityEngine.Vector3 bladeBottomPos, UnityEngine.Vector3 bladeTopPos, out UnityEngine.Vector3 burnMarkPos)
-    // Offset: 0xF7DE60
+    // Offset: 0x20750BC
     bool GetBurnMarkPos(UnityEngine::Vector3 bladeBottomPos, UnityEngine::Vector3 bladeTopPos, UnityEngine::Vector3& burnMarkPos);
     // private UnityEngine.Vector3 WorldToCameraBurnMarkPos(UnityEngine.Vector3 pos)
-    // Offset: 0xF7E0F0
+    // Offset: 0x207534C
     UnityEngine::Vector3 WorldToCameraBurnMarkPos(UnityEngine::Vector3 pos);
     // protected System.Void LateUpdate()
-    // Offset: 0xF7E218
+    // Offset: 0x2075474
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0xF7E928
+    // Offset: 0x2075B84
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

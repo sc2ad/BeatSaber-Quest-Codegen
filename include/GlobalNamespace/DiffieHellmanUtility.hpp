@@ -65,25 +65,25 @@ namespace GlobalNamespace {
     // Set static field: static private System.Byte[] _ecPointFormats
     static void _set__ecPointFormats(::Array<uint8_t>* value);
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x1161B0C
+    // Offset: 0x215C4F4
     static void NoDomainReloadInit();
     // static public System.Threading.Tasks.Task`1<IDiffieHellmanKeyPair> GenerateKeysAsync(DiffieHellmanUtility/KeyType keyType)
-    // Offset: 0x1161C60
+    // Offset: 0x215C648
     static System::Threading::Tasks::Task_1<GlobalNamespace::IDiffieHellmanKeyPair*>* GenerateKeysAsync(GlobalNamespace::DiffieHellmanUtility::KeyType keyType);
     // static private DiffieHellmanUtility/DiffieHellmanKeyPair GenerateDiffieHellmanKeys()
-    // Offset: 0x1161D1C
+    // Offset: 0x215C704
     static GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair* GenerateDiffieHellmanKeys();
     // static private DiffieHellmanUtility/ElipticalCurveKeyPair GenerateElipticalCurveKeys()
-    // Offset: 0x1161EC4
+    // Offset: 0x215C8AC
     static GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair* GenerateElipticalCurveKeys();
     // static private System.Byte[] GetPreMasterSecret(Org.BouncyCastle.Crypto.Parameters.DHPrivateKeyParameters privateKey, System.Byte[] clientPublicKey)
-    // Offset: 0x1162068
+    // Offset: 0x215CA50
     static ::Array<uint8_t>* GetPreMasterSecret(Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* privateKey, ::Array<uint8_t>* clientPublicKey);
     // static private System.Byte[] GetPreMasterSecret(Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters privateKey, System.Byte[] clientPublicKey)
-    // Offset: 0x11621A0
+    // Offset: 0x215CB88
     static ::Array<uint8_t>* GetPreMasterSecret(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privateKey, ::Array<uint8_t>* clientPublicKey);
     // static private System.Void .cctor()
-    // Offset: 0x11622F8
+    // Offset: 0x215CCE0
     static void _cctor();
   }; // DiffieHellmanUtility
 }

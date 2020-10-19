@@ -26,22 +26,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void add__event(System.Action value)
-    // Offset: 0x10A48FC
+    // Offset: 0x211B840
     void add__event(System::Action* value);
     // private System.Void remove__event(System.Action value)
-    // Offset: 0x10A49A0
+    // Offset: 0x211B8E4
     void remove__event(System::Action* value);
     // public System.Void Raise()
-    // Offset: 0x10A4A44
+    // Offset: 0x211B988
     void Raise();
     // public System.Void Subscribe(System.Action foo)
-    // Offset: 0x10A4A58
+    // Offset: 0x211B99C
     void Subscribe(System::Action* foo);
     // public System.Void Unsubscribe(System.Action foo)
-    // Offset: 0x10A4A84
+    // Offset: 0x211B9C8
     void Unsubscribe(System::Action* foo);
     // public System.Void .ctor()
-    // Offset: 0x10A4A88
+    // Offset: 0x211B9CC
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -86,28 +86,28 @@ namespace Org::BouncyCastle::Asn1::TeleTrust {
     // Set static field: static private readonly System.Collections.IDictionary names
     static void _set_names(System::Collections::IDictionary* value);
     // static private Org.BouncyCastle.Asn1.X9.X9ECPoint ConfigureBasepoint(Org.BouncyCastle.Math.EC.ECCurve curve, System.String encoding)
-    // Offset: 0x163F114
+    // Offset: 0x141593C
     static Org::BouncyCastle::Asn1::X9::X9ECPoint* ConfigureBasepoint(Org::BouncyCastle::Math::EC::ECCurve* curve, ::Il2CppString* encoding);
     // static private Org.BouncyCastle.Math.EC.ECCurve ConfigureCurve(Org.BouncyCastle.Math.EC.ECCurve curve)
-    // Offset: 0x163F204
+    // Offset: 0x1415A2C
     static Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(Org::BouncyCastle::Math::EC::ECCurve* curve);
     // static private Org.BouncyCastle.Math.BigInteger FromHex(System.String hex)
-    // Offset: 0x163F208
+    // Offset: 0x1415A30
     static Org::BouncyCastle::Math::BigInteger* FromHex(::Il2CppString* hex);
     // static private System.Void DefineCurve(System.String name, Org.BouncyCastle.Asn1.DerObjectIdentifier oid, Org.BouncyCastle.Asn1.X9.X9ECParametersHolder holder)
-    // Offset: 0x163F2A4
+    // Offset: 0x1415ACC
     static void DefineCurve(::Il2CppString* name, Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* holder);
     // static private System.Void .cctor()
-    // Offset: 0x163F4D4
+    // Offset: 0x1415CFC
     static void _cctor();
     // static public Org.BouncyCastle.Asn1.X9.X9ECParameters GetByName(System.String name)
-    // Offset: 0x163F9E8
+    // Offset: 0x1416210
     static Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::Il2CppString* name);
     // static public Org.BouncyCastle.Asn1.X9.X9ECParameters GetByOid(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x163FBD0
+    // Offset: 0x14163F8
     static Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // static public Org.BouncyCastle.Asn1.DerObjectIdentifier GetOid(System.String name)
-    // Offset: 0x163FA80
+    // Offset: 0x14162A8
     static Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::Il2CppString* name);
   }; // Org.BouncyCastle.Asn1.TeleTrust.TeleTrusTNamedCurves
 }

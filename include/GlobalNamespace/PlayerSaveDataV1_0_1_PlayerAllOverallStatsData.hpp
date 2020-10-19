@@ -23,10 +23,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData* partyFreePlayOverallStatsData;
     // public System.Void .ctor(PlayerSaveDataV1_0_1/PlayerOverallStatsData campaignOverallStatsData, PlayerSaveDataV1_0_1/PlayerOverallStatsData soloFreePlayOverallStatsData, PlayerSaveDataV1_0_1/PlayerOverallStatsData partyFreePlayOverallStatsData)
-    // Offset: 0xFE2B60
+    // Offset: 0x208D970
     static PlayerSaveDataV1_0_1::PlayerAllOverallStatsData* New_ctor(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData* campaignOverallStatsData, GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData* soloFreePlayOverallStatsData, GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData* partyFreePlayOverallStatsData);
     // public System.Void .ctor()
-    // Offset: 0xFE2A94
+    // Offset: 0x208D8A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerSaveDataV1_0_1::PlayerAllOverallStatsData* New_ctor();

@@ -28,10 +28,10 @@ namespace Zenject {
       return disposable;
     }
     // System.Boolean <Remove>b__0(Zenject.DisposableManager/DisposableInfo x)
-    // Offset: 0x1449088
+    // Offset: 0x121F7C4
     bool $Remove$b__0(Zenject::DisposableManager::DisposableInfo x);
     // public System.Void .ctor()
-    // Offset: 0x1448634
+    // Offset: 0x121ED70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DisposableManager::$$c__DisplayClass9_0* New_ctor();

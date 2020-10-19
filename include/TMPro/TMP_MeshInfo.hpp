@@ -87,43 +87,43 @@ namespace TMPro {
     // Set static field: static private readonly UnityEngine.Bounds s_DefaultBounds
     static void _set_s_DefaultBounds(UnityEngine::Bounds value);
     // public System.Void .ctor(UnityEngine.Mesh mesh, System.Int32 size)
-    // Offset: 0xDA1FE0
+    // Offset: 0xC58DAC
     TMP_MeshInfo(UnityEngine::Mesh* mesh, int size);
     // public System.Void .ctor(UnityEngine.Mesh mesh, System.Int32 size, System.Boolean isVolumetric)
-    // Offset: 0xDA1FE8
+    // Offset: 0xC58DB4
     TMP_MeshInfo(UnityEngine::Mesh* mesh, int size, bool isVolumetric);
     // public System.Void ResizeMeshInfo(System.Int32 size)
-    // Offset: 0xDA1FF4
+    // Offset: 0xC58DC0
     void ResizeMeshInfo(int size);
     // public System.Void ResizeMeshInfo(System.Int32 size, System.Boolean isVolumetric)
-    // Offset: 0xDA1FFC
+    // Offset: 0xC58DC8
     void ResizeMeshInfo(int size, bool isVolumetric);
     // public System.Void Clear()
-    // Offset: 0xDA2008
+    // Offset: 0xC58DD4
     void Clear();
     // public System.Void Clear(System.Boolean uploadChanges)
-    // Offset: 0xDA2010
+    // Offset: 0xC58DDC
     void Clear(bool uploadChanges);
     // public System.Void ClearUnusedVertices()
-    // Offset: 0xDA201C
+    // Offset: 0xC58DE8
     void ClearUnusedVertices();
     // public System.Void ClearUnusedVertices(System.Int32 startIndex)
-    // Offset: 0xDA2024
+    // Offset: 0xC58DF0
     void ClearUnusedVertices(int startIndex);
     // public System.Void ClearUnusedVertices(System.Int32 startIndex, System.Boolean updateMesh)
-    // Offset: 0xDA202C
+    // Offset: 0xC58DF8
     void ClearUnusedVertices(int startIndex, bool updateMesh);
     // public System.Void SortGeometry(TMPro.VertexSortingOrder order)
-    // Offset: 0xDA2038
+    // Offset: 0xC58E04
     void SortGeometry(TMPro::VertexSortingOrder order);
     // public System.Void SortGeometry(System.Collections.Generic.IList`1<System.Int32> sortingOrder)
-    // Offset: 0xDA2040
+    // Offset: 0xC58E0C
     void SortGeometry(System::Collections::Generic::IList_1<int>* sortingOrder);
     // public System.Void SwapVertexData(System.Int32 src, System.Int32 dst)
-    // Offset: 0xDA2048
+    // Offset: 0xC58E14
     void SwapVertexData(int src, int dst);
     // static private System.Void .cctor()
-    // Offset: 0xF8E3EC
+    // Offset: 0xEDC7BC
     static void _cctor();
   }; // TMPro.TMP_MeshInfo
 }

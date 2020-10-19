@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_PollNextEvent : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F47CA8
+    // Offset: 0x1C9990C
     static IVRSystem::_PollNextEvent* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(ref OVR.OpenVR.VREvent_t pEvent, System.UInt32 uncbVREvent)
-    // Offset: 0x1F47CBC
+    // Offset: 0x1C99920
     bool Invoke(OVR::OpenVR::VREvent_t& pEvent, uint uncbVREvent);
     // public System.IAsyncResult BeginInvoke(ref OVR.OpenVR.VREvent_t pEvent, System.UInt32 uncbVREvent, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F47F34
+    // Offset: 0x1C99B98
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::VREvent_t& pEvent, uint uncbVREvent, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(ref OVR.OpenVR.VREvent_t pEvent, System.IAsyncResult result)
-    // Offset: 0x1F47FE8
+    // Offset: 0x1C99C4C
     bool EndInvoke(OVR::OpenVR::VREvent_t& pEvent, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_PollNextEvent
 }
