@@ -4,7 +4,7 @@
   "info": {
     "name": "codegen",
     "id": "codegen",
-    "version": "0.2.1",
+    "version": "0.3.6",
     "url": "https://github.com/sc2ad/BeatSaber-Quest-Codegen",
     "additionalData": {}
   },
